@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compte à rebours GTA 6 — Sortie le 19 novembre 2026</title>
+  <meta name="description" content="Combien de jours avant la sortie de GTA 6 ? Compte à rebours en direct jusqu'au 19 novembre 2026, la date de sortie officielle de Grand Theft Auto VI sur PS5 et Xbox Series.">
+  <meta name="keywords" content="GTA 6, GTA VI, compte à rebours, countdown, date de sortie, Grand Theft Auto 6, Rockstar Games, 19 novembre 2026">
+  <link rel="canonical" href="https://stesouna9.github.io/gta6-countdown/">
+
+  <!-- Open Graph (partage réseaux sociaux) -->
+  <meta property="og:title" content="Compte à rebours GTA 6 — Sortie le 19 novembre 2026">
+  <meta property="og:description" content="Compte à rebours en direct jusqu'à la sortie officielle de Grand Theft Auto VI.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://stesouna9.github.io/gta6-countdown/">
+  <meta property="og:locale" content="fr_FR">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Compte à rebours GTA 6">
+  <meta name="twitter:description" content="Combien de jours avant GTA 6 ? Compte à rebours en direct jusqu'au 19 novembre 2026.">
+
+  <!-- Données structurées pour Google -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "Sortie de Grand Theft Auto VI",
+    "startDate": "2026-11-19",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+    "location": {
+      "@type": "VirtualLocation",
+      "url": "https://www.rockstargames.com/VI"
+    },
+    "description": "Sortie officielle de GTA 6 sur PlayStation 5 et Xbox Series X|S le 19 novembre 2026.",
+    "organizer": {
+      "@type": "Organization",
+      "name": "Rockstar Games",
+      "url": "https://www.rockstargames.com"
+    }
+  }
+  </script>
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --rose: #ff6ec7;
+      --orange: #ffa45c;
+      --violet: #7b2ff7;
+      --fond: #0d0221;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--fond);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      overflow-x: hidden;
+      position: relative;
+    }
+
+    /* Dégradé style Vice City */
+    .ciel {
+      position: fixed;
+      inset: 0;
+      background:
+        radial-gradient(ellipse at 50% 110%, rgba(255, 110, 60, 0.55) 0%, transparent 55%),
+        radial-gradient(ellipse at 50% 100%, rgba(255, 110, 199, 0.35) 0%, transparent 70%),
+        linear-gradient(180deg, #0d0221 0%, #261447 45%, #4f1d6b 75%, #b33b6b 100%);
+      z-index: -2;
+    }
+
+    /* Soleil rétro */
+    .soleil {
+      position: fixed;
+      bottom: -8vh;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 42vh;
+      height: 42vh;
+      border-radius: 50%;
+      background: linear-gradient(180deg, var(--orange) 0%, var(--rose) 60%, var(--violet) 100%);
+      filter: blur(2px);
+      opacity: 0.85;
+      z-index: -1;
+      -webkit-mask-image: repeating-linear-gradient(180deg, #000 0 4.5vh, transparent 4.5vh 6vh);
+      mask-image: repeating-linear-gradient(180deg, #000 0 4.5vh, transparent 4.5vh 6vh);
+    }
+
+    main { padding: 24px; z-index: 1; }
+
+    h1 {
+      font-size: clamp(2rem, 7vw, 4.5rem);
+      font-weight: 900;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      background: linear-gradient(90deg, var(--orange), var(--rose), var(--violet));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      filter: drop-shadow(0 0 18px rgba(255, 110, 199, 0.55));
+    }
+
+    .sous-titre {
+      margin-top: 10px;
+      font-size: clamp(1rem, 3vw, 1.4rem);
+      color: rgba(255, 255, 255, 0.85);
+      letter-spacing: 0.04em;
+    }
+
+    .date-officielle {
+      display: inline-block;
+      margin-top: 14px;
+      padding: 8px 22px;
+      border: 1px solid rgba(255, 110, 199, 0.6);
+      border-radius: 999px;
+      font-size: clamp(0.9rem, 2.5vw, 1.1rem);
+      color: var(--rose);
+      background: rgba(255, 110, 199, 0.08);
+      backdrop-filter: blur(4px);
+    }
+
+    .compteur {
+      display: flex;
+      gap: clamp(10px, 3vw, 28px);
+      justify-content: center;
+      margin: clamp(30px, 6vh, 60px) 0;
+      flex-wrap: wrap;
+    }
+
+    .bloc {
+      background: rgba(13, 2, 33, 0.55);
+      border: 1px solid rgba(255, 110, 199, 0.35);
+      border-radius: 16px;
+      padding: clamp(14px, 3vw, 28px) clamp(16px, 4vw, 36px);
+      min-width: clamp(80px, 20vw, 150px);
+      backdrop-filter: blur(8px);
+      box-shadow: 0 0 30px rgba(123, 47, 247, 0.25);
+    }
+
+    .bloc .nombre {
+      font-size: clamp(2.4rem, 9vw, 5.5rem);
+      font-weight: 900;
+      font-variant-numeric: tabular-nums;
+      line-height: 1.1;
+      color: #fff;
+      text-shadow: 0 0 22px rgba(255, 164, 92, 0.8);
+    }
+
+    .bloc .libelle {
+      margin-top: 6px;
+      font-size: clamp(0.7rem, 2vw, 0.95rem);
+      text-transform: uppercase;
+      letter-spacing: 0.22em;
+      color: rgba(255, 255, 255, 0.65);
+    }
+
+    .sorti {
+      font-size: clamp(2rem, 8vw, 4rem);
+      font-weight: 900;
+      margin: 50px 0;
+      color: var(--orange);
+      text-shadow: 0 0 30px var(--rose);
+      display: none;
+    }
+
+    .infos {
+      max-width: 620px;
+      margin: 0 auto;
+      font-size: clamp(0.9rem, 2.5vw, 1.05rem);
+      line-height: 1.7;
+      color: rgba(255, 255, 255, 0.75);
+    }
+
+    .infos a { color: var(--rose); }
+
+    footer {
+      margin: 40px 0 24px;
+      font-size: 0.8rem;
+      color: rgba(255, 255, 255, 0.4);
+      padding: 0 24px;
+    }
+  </style>
+</head>
+<body>
+  <div class="ciel"></div>
+  <div class="soleil"></div>
+
+  <main>
+    <h1>GTA&nbsp;VI</h1>
+    <p class="sous-titre">Compte à rebours avant la sortie officielle</p>
+    <p class="date-officielle">📅 Jeudi 19 novembre 2026</p>
+
+    <div class="compteur" id="compteur" role="timer" aria-live="polite">
+      <div class="bloc"><div class="nombre" id="jours">–</div><div class="libelle">Jours</div></div>
+      <div class="bloc"><div class="nombre" id="heures">–</div><div class="libelle">Heures</div></div>
+      <div class="bloc"><div class="nombre" id="minutes">–</div><div class="libelle">Minutes</div></div>
+      <div class="bloc"><div class="nombre" id="secondes">–</div><div class="libelle">Secondes</div></div>
+    </div>
+
+    <p class="sorti" id="sorti">🎉 GTA VI EST SORTI !</p>
+
+    <div class="infos">
+      <p>Grand Theft Auto VI sort le <strong>19 novembre 2026</strong> sur PlayStation&nbsp;5 et Xbox&nbsp;Series&nbsp;X|S, comme confirmé par
+      <a href="https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026" rel="noopener" target="_blank">Rockstar Games</a>.
+      Le jeu se déroule à Vice City avec Lucia et Jason.</p>
+    </div>
+  </main>
+
+  <footer>
+    Site de fans non officiel. GTA et Grand Theft Auto sont des marques de Take-Two Interactive / Rockstar Games.
+  </footer>
+
+  <script>
+    // Minuit heure de Paris le 19 novembre 2026 (UTC+1 en novembre)
+    var dateSortie = new Date("2026-11-19T00:00:00+01:00").getTime();
+
+    function metAJour() {
+      var restant = dateSortie - Date.now();
+
+      if (restant <= 0) {
+        document.getElementById("compteur").style.display = "none";
+        document.getElementById("sorti").style.display = "block";
+        return;
+      }
+
+      var s = Math.floor(restant / 1000);
+      var jours = Math.floor(s / 86400);
+      var heures = Math.floor((s % 86400) / 3600);
+      var minutes = Math.floor((s % 3600) / 60);
+      var secondes = s % 60;
+
+      document.getElementById("jours").textContent = jours;
+      document.getElementById("heures").textContent = String(heures).padStart(2, "0");
+      document.getElementById("minutes").textContent = String(minutes).padStart(2, "0");
+      document.getElementById("secondes").textContent = String(secondes).padStart(2, "0");
+    }
+
+    metAJour();
+    setInterval(metAJour, 1000);
+  </script>
+</body>
+</html>
