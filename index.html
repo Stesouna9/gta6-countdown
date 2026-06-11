@@ -13,12 +13,12 @@
   <meta property="og:description" content="Compte à rebours en direct, bandes-annonces et infos jusqu'à la sortie officielle de Grand Theft Auto VI.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://stesouna9.github.io/gta6-countdown/">
-  <meta property="og:image" content="https://img.youtube.com/vi/VQRLujxTm3c/maxresdefault.jpg">
+  <meta property="og:image" content="https://img.youtube.com/vi/QdBZY2fkU-0/maxresdefault.jpg">
   <meta property="og:locale" content="fr_FR">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Compte à rebours GTA 6">
   <meta name="twitter:description" content="Combien de jours avant GTA 6 ? Compte à rebours en direct jusqu'au 19 novembre 2026.">
-  <meta name="twitter:image" content="https://img.youtube.com/vi/VQRLujxTm3c/maxresdefault.jpg">
+  <meta name="twitter:image" content="https://img.youtube.com/vi/QdBZY2fkU-0/maxresdefault.jpg">
 
   <!-- Données structurées pour Google -->
   <script type="application/ld+json">
@@ -30,7 +30,7 @@
     "eventStatus": "https://schema.org/EventScheduled",
     "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
     "location": { "@type": "VirtualLocation", "url": "https://www.rockstargames.com/VI" },
-    "image": "https://img.youtube.com/vi/VQRLujxTm3c/maxresdefault.jpg",
+    "image": "https://img.youtube.com/vi/QdBZY2fkU-0/maxresdefault.jpg",
     "description": "Sortie officielle de GTA 6 sur PlayStation 5 et Xbox Series X|S le 19 novembre 2026.",
     "organizer": { "@type": "Organization", "name": "Rockstar Games", "url": "https://www.rockstargames.com" }
   }
@@ -63,98 +63,45 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
+      justify-content: flex-end;
       text-align: center;
       overflow: hidden;
-      padding: 24px 16px 120px;
+      padding: 24px 16px 40px;
     }
 
-    .ciel {
+    /* Artwork officielle Rockstar (clé visuelle Trailer 1) en plein écran */
+    .fond-art {
       position: absolute; inset: 0; z-index: 0;
-      background:
-        radial-gradient(ellipse at 50% 115%, rgba(255, 110, 60, 0.6) 0%, transparent 55%),
-        radial-gradient(ellipse at 50% 100%, rgba(255, 110, 199, 0.4) 0%, transparent 70%),
-        linear-gradient(180deg, #06010f 0%, #1b0a3c 35%, #4f1d6b 70%, #b33b6b 100%);
+      background-image: url("https://img.youtube.com/vi/QdBZY2fkU-0/maxresdefault.jpg");
+      background-size: cover;
+      background-position: center 12%;
+      transform: scale(1.04);
+      animation: respire 30s ease-in-out infinite alternate;
+      filter: saturate(1.1);
     }
+    @keyframes respire { from { transform: scale(1.04); } to { transform: scale(1.1); } }
 
-    /* Étoiles scintillantes */
-    .etoiles {
+    /* Voile léger : image visible, bas assombri pour le compteur */
+    .voile {
       position: absolute; inset: 0; z-index: 1;
-      background-image:
-        radial-gradient(1.5px 1.5px at 12% 18%, #fff 50%, transparent 51%),
-        radial-gradient(1px 1px at 28% 8%, #fff 50%, transparent 51%),
-        radial-gradient(2px 2px at 41% 22%, rgba(255,255,255,.9) 50%, transparent 51%),
-        radial-gradient(1px 1px at 57% 12%, #fff 50%, transparent 51%),
-        radial-gradient(1.5px 1.5px at 68% 25%, rgba(255,255,255,.8) 50%, transparent 51%),
-        radial-gradient(1px 1px at 79% 9%, #fff 50%, transparent 51%),
-        radial-gradient(2px 2px at 88% 19%, rgba(255,255,255,.85) 50%, transparent 51%),
-        radial-gradient(1px 1px at 8% 35%, rgba(255,255,255,.7) 50%, transparent 51%),
-        radial-gradient(1.5px 1.5px at 93% 33%, rgba(255,255,255,.75) 50%, transparent 51%),
-        radial-gradient(1px 1px at 49% 5%, #fff 50%, transparent 51%);
-      animation: scintille 3.5s ease-in-out infinite alternate;
-    }
-    @keyframes scintille { from { opacity: .45; } to { opacity: 1; } }
-
-    /* Soleil rétro avec scanlines */
-    .soleil {
-      position: absolute;
-      bottom: 16vh;
-      left: 50%;
-      transform: translateX(-50%);
-      width: min(46vh, 72vw);
-      height: min(46vh, 72vw);
-      border-radius: 50%;
-      background: linear-gradient(180deg, #ffd34f 0%, var(--orange) 35%, var(--rose) 70%, var(--violet) 100%);
-      -webkit-mask-image: repeating-linear-gradient(180deg, #000 0 12%, transparent 12% 16%);
-      mask-image: repeating-linear-gradient(180deg, #000 0 12%, transparent 12% 16%);
-      filter: drop-shadow(0 0 60px rgba(255, 110, 199, 0.7));
-      z-index: 1;
-      animation: leve 14s ease-in-out infinite alternate;
-    }
-    @keyframes leve { from { transform: translateX(-50%) translateY(0); } to { transform: translateX(-50%) translateY(-3vh); } }
-
-    /* Grille synthwave qui défile */
-    .sol {
-      position: absolute;
-      left: -25%; right: -25%; bottom: 0;
-      height: 34vh;
-      z-index: 2;
-      transform: perspective(280px) rotateX(62deg);
-      transform-origin: bottom center;
-      background-image:
-        linear-gradient(rgba(45, 226, 230, 0.45) 2px, transparent 2px),
-        linear-gradient(90deg, rgba(45, 226, 230, 0.45) 2px, transparent 2px);
-      background-size: 64px 64px;
-      animation: roule 1.6s linear infinite;
-      box-shadow: 0 -10px 60px rgba(45, 226, 230, 0.25) inset;
-    }
-    @keyframes roule { from { background-position-y: 0; } to { background-position-y: 64px; } }
-
-    .horizon {
-      position: absolute;
-      left: 0; right: 0; bottom: 33.5vh;
-      height: 3px; z-index: 3;
-      background: linear-gradient(90deg, transparent, var(--cyan), transparent);
-      filter: blur(1px);
-      box-shadow: 0 0 25px var(--cyan);
+      background: linear-gradient(180deg,
+        rgba(13, 2, 33, 0.15) 0%,
+        rgba(13, 2, 33, 0.05) 35%,
+        rgba(13, 2, 33, 0.5) 65%,
+        rgba(13, 2, 33, 0.96) 80%,
+        var(--fond) 90%);
     }
 
-    /* Palmiers */
-    .palmier {
+    /* Titre gardé pour Google mais masqué (le logo est déjà dans l'artwork) */
+    .sr-only {
       position: absolute;
-      bottom: 26vh;
-      z-index: 3;
-      width: clamp(110px, 22vw, 230px);
-      height: auto;
-      filter: drop-shadow(0 0 12px rgba(13, 2, 33, 0.9));
-      animation: balance 6s ease-in-out infinite alternate;
-      transform-origin: bottom center;
+      width: 1px; height: 1px;
+      margin: -1px; padding: 0;
+      overflow: hidden;
+      clip: rect(0 0 0 0);
+      white-space: nowrap;
+      border: 0;
     }
-    .palmier.gauche { left: max(-30px, 2vw); }
-    .palmier.droite { right: max(-30px, 2vw); transform: scaleX(-1); animation-delay: -3s; }
-    @keyframes balance { from { rotate: -1.5deg; } to { rotate: 1.5deg; } }
-    .palmier.droite { animation-name: balanceInverse; }
-    @keyframes balanceInverse { from { rotate: 1.5deg; } to { rotate: -1.5deg; } }
 
     .contenu { position: relative; z-index: 5; width: 100%; }
 
@@ -204,7 +151,7 @@
       display: flex;
       gap: clamp(8px, 2.5vw, 24px);
       justify-content: center;
-      margin: clamp(28px, 5vh, 54px) auto;
+      margin: clamp(18px, 3vh, 34px) auto;
       flex-wrap: wrap;
     }
 
@@ -413,42 +360,13 @@
 
   <!-- ====== ÉCRAN PRINCIPAL ====== -->
   <div class="scene">
-    <div class="ciel"></div>
-    <div class="etoiles"></div>
-    <div class="soleil"></div>
-    <div class="horizon"></div>
-    <div class="sol"></div>
-
-    <!-- Palmiers SVG -->
-    <svg class="palmier gauche" viewBox="0 0 200 260" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-      <g fill="#0a0118">
-        <path d="M96 260 C92 200 90 150 98 110 L110 112 C104 152 104 200 110 260 Z"/>
-        <path d="M100 112 C70 96 38 96 14 112 C42 84 78 82 102 100 Z"/>
-        <path d="M102 110 C72 112 46 128 32 152 C42 120 72 102 104 104 Z"/>
-        <path d="M104 108 C134 92 166 94 188 112 C162 86 126 82 100 100 Z"/>
-        <path d="M104 110 C134 110 160 126 174 150 C164 118 134 102 102 104 Z"/>
-        <path d="M101 104 C96 78 100 56 112 40 C100 62 100 84 106 104 Z"/>
-        <ellipse cx="96" cy="106" rx="7" ry="5"/>
-        <ellipse cx="108" cy="103" rx="7" ry="5"/>
-      </g>
-    </svg>
-    <svg class="palmier droite" viewBox="0 0 200 260" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-      <g fill="#0a0118">
-        <path d="M96 260 C92 200 90 150 98 110 L110 112 C104 152 104 200 110 260 Z"/>
-        <path d="M100 112 C70 96 38 96 14 112 C42 84 78 82 102 100 Z"/>
-        <path d="M102 110 C72 112 46 128 32 152 C42 120 72 102 104 104 Z"/>
-        <path d="M104 108 C134 92 166 94 188 112 C162 86 126 82 100 100 Z"/>
-        <path d="M104 110 C134 110 160 126 174 150 C164 118 134 102 102 104 Z"/>
-        <path d="M101 104 C96 78 100 56 112 40 C100 62 100 84 106 104 Z"/>
-        <ellipse cx="96" cy="106" rx="7" ry="5"/>
-        <ellipse cx="108" cy="103" rx="7" ry="5"/>
-      </g>
-    </svg>
+    <div class="fond-art" role="img" aria-label="Artwork officielle de Grand Theft Auto VI"></div>
+    <div class="voile"></div>
 
     <div class="contenu">
-      <h1>GTA&nbsp;VI</h1>
-      <p class="sous-titre">Compte à rebours · Vice City</p>
-      <p class="date-officielle">📅 Jeudi 19 novembre 2026</p>
+      <h1 class="sr-only">GTA VI — Compte à rebours jusqu'à la sortie</h1>
+      <p class="sous-titre sr-only">Compte à rebours · Vice City</p>
+      <p class="date-officielle">📅 Sortie : jeudi 19 novembre 2026</p>
 
       <div class="compteur" id="compteur" role="timer" aria-live="polite">
         <div class="bloc"><div class="nombre" id="jours">–</div><div class="libelle">Jours</div></div>
