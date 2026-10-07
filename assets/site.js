@@ -11,7 +11,7 @@ window.SITE = {
 };
 
 (function () {
-  var pages = [["index.html", "nav_home"], ["actus.html", "nav_news"], ["radio.html", "nav_radio"], ["vicebreak.html", "nav_vb"], ["goodies.html", "nav_goodies"], ["acheter.html", "nav_buy"]];
+  var pages = [["index.html", "nav_home"], ["actus.html", "nav_news"], ["radio.html", "nav_radio"], ["vicebreak.html", "nav_vb"], ["goodies.html", "nav_goodies"], ["acheter.html", "nav_buy"], ["faq.html", "nav_faq"]];
   var ici = location.pathname.split("/").pop() || "index.html";
   var nav = document.createElement("nav");
   nav.className = "nav";
