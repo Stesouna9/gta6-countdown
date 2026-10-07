@@ -19,3 +19,7 @@ jobs:
           git add -A data sitemap.xml feed.xml *.html
           git diff --cached --quiet || git commit -m "data: mise à jour automatique $(date -u +%F' '%H:%M)"
           git push
+      - name: IndexNow (Bing, Yandex, Naver)
+        run: |
+          B=https://stesouna9.github.io/gta6-countdown
+          curl -s -o /dev/null -w "indexnow %{http_code}\n" -H "Content-Type: application/json" https://api.indexnow.org/indexnow -d "{\"host\":\"stesouna9.github.io\",\"key\":\"17bf4b50ddfe396b52df541315db512c\",\"keyLocation\":\"$B/17bf4b50ddfe396b52df541315db512c.txt\",\"urlList\":[\"$B/\",\"$B/actus.html\",\"$B/faq.html\",\"$B/acheter.html\",\"$B/goodies.html\"]}"
