@@ -99,6 +99,9 @@ window.SITE = {
   window.observeRv = function () { document.querySelectorAll(".rv:not(.vu)").forEach(function (el) { io ? io.observe(el) : el.classList.add("vu"); }); };
   observeRv();
 
+  // Mesure d'audience GoatCounter (sans cookie), hors localhost
+  if (!/localhost/.test(location.hostname)) { window.goatcounter = { path: function (p) { return location.host + p; } }; var g = document.createElement("script"); g.async = true; g.src = "https://stats.2-29-41-109.sslip.io/count.js"; g.setAttribute("data-goatcounter", "https://stats.2-29-41-109.sslip.io/count"); document.head.append(g); }
+
   // Application installable et mode hors ligne
   if ("serviceWorker" in navigator && location.protocol === "https:") navigator.serviceWorker.register((window.ROOT || "") + "sw.js").catch(function () {});
 
