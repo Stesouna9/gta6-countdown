@@ -9,50 +9,47 @@
   <link rel="stylesheet" href="assets/style.css"><script src="assets/i18n.js"></script>
 </head>
 <body>
-  <main>
-    <section>
-      <h1 class="page" data-i18n="news_t"></h1>
-      <p class="intro" data-i18n="news_i"></p>
-      <p class="maj"><i></i><span data-i18n="updated"></span> <span id="maj-date"></span></p>
-      <h2 style="margin-top:28px">📰 <span data-i18n="news_press"></span></h2>
-      <div class="actus" id="presse"></div>
-    </section>
-    <div class="pub">Publicité</div>
-    <section>
-      <h2>✅ <span data-i18n="news_official"></span></h2>
-      <div class="cartes" id="officiel"></div>
-    </section>
-    <section>
-      <h2>▶️ <span data-i18n="news_videos"></span></h2>
-      <div class="trailers" id="videos"></div>
-    </section>
-    <section>
-      <h2>🔎 <span data-i18n="news_sources"></span></h2>
-      <div class="tuiles">
-        <a class="tuile" href="https://www.rockstargames.com/newswire" target="_blank" rel="noopener"><span class="emoji">📣</span><b>Rockstar Newswire</b><span>Official announcements first.</span></a>
-        <a class="tuile" href="https://www.rockstargames.com/VI" target="_blank" rel="noopener"><span class="emoji">🌴</span><b>rockstargames.com/VI</b><span>Characters, places, artworks.</span></a>
-        <a class="tuile" href="https://www.youtube.com/@RockstarGames" target="_blank" rel="noopener"><span class="emoji">▶️</span><b>YouTube Rockstar Games</b><span>4K trailers.</span></a>
-        <a class="tuile" href="https://x.com/RockstarGames" target="_blank" rel="noopener"><span class="emoji">𝕏</span><b>@RockstarGames</b><span>Real-time announcements.</span></a>
-        <a class="tuile" href="https://www.reddit.com/r/GTA6/" target="_blank" rel="noopener"><span class="emoji">👥</span><b>r/GTA6</b><span>Community, frame-by-frame analysis.</span></a>
-        <a class="tuile" href="https://www.gtabase.com/gta-6/" target="_blank" rel="noopener"><span class="emoji">🗂️</span><b>GTABase</b><span>Fan database, maps, vehicles.</span></a>
-      </div>
-    </section>
-  </main>
+
+  <header class="tete-page image"><img src="https://img.youtube.com/vi/VQRLujxTm3c/maxresdefault.jpg" alt=""><div class="wrap">
+    <span class="kicker">Leonida · <span id="maj-date"></span></span>
+    <h1 data-i18n="news_t"></h1><p data-i18n="news_i"></p></div></header>
+  <section class="papier"><div class="wrap">
+    <div class="rubrique rv"><span class="num">01</span><h2 data-i18n="news_press"></h2><p data-i18n="updated"></p></div>
+    <div class="journal" id="presse"></div>
+  </div></section>
+  <div class="pub vide"></div>
+  <section class="papier" style="background:var(--paper2)"><div class="wrap">
+    <div class="rubrique rv"><span class="num">02</span><h2 data-i18n="news_official"></h2></div>
+    <div class="officiel" id="officiel"></div>
+  </div></section>
+  <section><div class="wrap">
+    <div class="rubrique rv"><span class="num">03</span><h2 data-i18n="news_videos"></h2></div>
+    <div class="videos" id="videos"></div>
+  </div></section>
+  <section style="padding-top:0"><div class="wrap">
+    <div class="rubrique rv"><span class="num">04</span><h2 data-i18n="news_sources"></h2></div>
+    <div class="sources">
+      <a href="https://www.rockstargames.com/newswire" target="_blank" rel="noopener"><b>Rockstar Newswire</b><span>rockstargames.com/newswire</span></a>
+      <a href="https://www.rockstargames.com/VI" target="_blank" rel="noopener"><b>Rockstar · VI</b><span>rockstargames.com/VI</span></a>
+      <a href="https://www.youtube.com/@RockstarGames" target="_blank" rel="noopener"><b>YouTube</b><span>@RockstarGames</span></a>
+      <a href="https://x.com/RockstarGames" target="_blank" rel="noopener"><b>X</b><span>@RockstarGames</span></a>
+      <a href="https://www.reddit.com/r/GTA6/" target="_blank" rel="noopener"><b>Reddit</b><span>r/GTA6</span></a>
+      <a href="https://www.gtabase.com/gta-6/" target="_blank" rel="noopener"><b>GTABase</b><span>gtabase.com</span></a>
+    </div>
+  </div></section>
   <script src="assets/site.js"></script>
   <script>
-    chargeActus(document.getElementById("presse"), 15);
-    fetch("data/meta.json").then(function (r) { return r.json(); }).then(function (m) { document.getElementById("maj-date").textContent = "· " + new Date(m.maj).toLocaleString(); }).catch(function () {});
+    chargeActus(document.getElementById("presse"), 16, true);
+    fetch("data/meta.json").then(function (r) { return r.json(); }).then(function (m) { document.getElementById("maj-date").textContent = new Date(m.maj).toLocaleString(); }).catch(function () {});
     fetch("actus.json").then(function (r) { return r.json(); }).then(function (lst) {
       document.getElementById("officiel").innerHTML = lst.map(function (a) {
-        return '<a class="carte" href="' + a.lien + '" target="_blank" rel="noopener" style="text-decoration:none;color:inherit"><span class="tag">' + a.tag + '</span><div class="date">' + new Date(a.date).toLocaleDateString("fr-FR") + '</div><h3>' + a.titre + '</h3><p>' + a.texte + '</p></a>';
+        return '<a href="' + a.lien + '" target="_blank" rel="noopener"><span class="d">' + a.date.split("-").reverse().join(".") + " · " + a.tag + '</span><b>' + a.titre + '</b><p>' + a.texte + '</p></a>';
       }).join("");
     });
     fetch("data/videos.json").then(function (r) { return r.json(); }).then(function (lst) {
-      var el = document.getElementById("videos");
-      el.innerHTML = lst.map(function (v) {
-        return '<div class="trailer" data-video="' + v.id + '" role="button" tabindex="0"><span class="duree">' + v.d + '</span><img src="https://img.youtube.com/vi/' + v.id + '/hqdefault.jpg" alt="" loading="lazy"><div class="jouer"><div class="rond">▶</div><div class="etiquette">' + v.t + '</div></div></div>';
+      document.getElementById("videos").innerHTML = lst.map(function (v, i) {
+        return '<div class="film" data-video="' + v.id + '" role="button" tabindex="0"><div class="cadre"><img src="https://img.youtube.com/vi/' + v.id + '/hqdefault.jpg" alt="" loading="lazy"><span class="play"></span></div><div class="legende"><span class="n">' + String(i + 1).padStart(2, "0") + '</span><b>' + v.t + '</b><small>' + v.d.split("-").reverse().join(".") + '</small></div></div>';
       }).join("");
-      el.querySelectorAll(".trailer").forEach(function (c) { c.addEventListener("click", function () { c.innerHTML = '<iframe src="https://www.youtube-nocookie.com/embed/' + c.dataset.video + '?autoplay=1&rel=0" allow="autoplay; encrypted-media" allowfullscreen></iframe>'; }); });
     });
   </script>
 </body>

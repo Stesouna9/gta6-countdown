@@ -15,25 +15,23 @@ window.SITE = {
   var ici = location.pathname.split("/").pop() || "index.html";
   var nav = document.createElement("nav");
   nav.className = "nav";
-  nav.innerHTML = '<a class="logo" href="index.html">GTA VI</a>' +
+  nav.innerHTML = '<a class="logo" href="index.html"><b>VI</b><span>Countdown</span></a>' +
     pages.map(function (p) { return '<a href="' + p[0] + '"' + (p[0] === ici ? ' class="actif"' : "") + ' data-i18n="' + p[1] + '"></a>'; }).join("") +
-    '<span class="jours" id="nav-jours"></span><select class="lang" id="lang" aria-label="Language">' + langOptions() + "</select>";
+    '<div class="droite"><span class="jours" id="nav-jours"></span><select class="lang" id="lang" aria-label="Language">' + langOptions() + "</select></div>";
   document.body.prepend(nav);
   document.getElementById("lang").addEventListener("change", function () { setLang(this.value); });
 
   var footer = document.createElement("footer");
-  footer.innerHTML = '<div class="liens">' +
-    '<a href="' + SITE.radio + '" target="_blank" rel="noopener">Vice Bay Radio</a>' +
-    '<a href="' + SITE.vicebreak + '" target="_blank" rel="noopener">Vice Break</a>' +
-    '<a href="' + SITE.discord + '" target="_blank" rel="noopener">Discord</a>' +
-    '<a href="https://okalamstudio.com" target="_blank" rel="noopener">OKALAM Studio</a>' +
-    '<a href="mentions.html" data-i18n="mentions"></a></div><p data-i18n="foot"></p>';
+  footer.innerHTML = '<div class="wrap"><div class="marque">Leonida</div><div class="bas"><div>' +
+    '<div class="liens"><a href="' + SITE.radio + '" target="_blank" rel="noopener">Vice Bay Radio</a>' +
+    '<a href="vicebreak.html">Vice Break</a><a href="' + SITE.discord + '" target="_blank" rel="noopener">Discord</a>' +
+    '<a href="https://okalamstudio.com" target="_blank" rel="noopener">OKALAM Studio</a><a href="mentions.html" data-i18n="mentions"></a></div>' +
+    '<p data-i18n="foot"></p></div><div class="okalam">OKALAM Studio<br>Nantes · ' + new Date().getFullYear() + "</div></div></div>";
   document.body.append(footer);
 
   function jours() {
     var d = Math.ceil((new Date(SITE.sortie) - Date.now()) / 86400000);
-    document.getElementById("nav-jours").textContent = d > 0 ? "J-" + d : "🎉";
-    nav.querySelector(".logo").textContent = d > 0 ? "GTA VI · J-" + d : "GTA VI";
+    document.getElementById("nav-jours").textContent = d > 0 ? "J-" + d : "";
   }
   jours(); setInterval(jours, 60000);
 
@@ -42,19 +40,36 @@ window.SITE = {
     a.target = "_blank"; a.rel = "noopener sponsored";
   });
 
-  // Actus automatiques (data/news_<lang>.json), générées 2 fois par jour par tools/update.py
-  window.chargeActus = function (el, n) {
+  // Journal : actus automatiques (data/news_<lang>.json), mises à jour 2 fois par jour
+  window.chargeActus = function (el, n, tete) {
     function rend(l) {
       fetch("data/news_" + l + ".json").then(function (r) { return r.json(); }).then(function (lst) {
-        el.innerHTML = lst.slice(0, n).map(function (a) {
-          var d = a.d ? new Date(a.d) : null;
-          return '<a class="actu" href="' + a.u + '" target="_blank" rel="noopener"><span class="src">' + (a.s || "") + (d ? " · " + d.toLocaleDateString(l === "ar" ? "ar" : l) : "") + '</span><b>' + a.t + "</b></a>";
+        el.innerHTML = lst.slice(0, n).map(function (a, i) {
+          var d = a.d ? new Date(a.d).toLocaleDateString(l) : "";
+          var cls = tete && i === 0 ? ' class="tete"' : "";
+          return '<a' + cls + ' href="' + a.u + '" target="_blank" rel="noopener"><span class="src">' + (a.s || "") + (d ? " · " + d : "") + "</span><b>" + a.t + "</b></a>";
         }).join("");
       }).catch(function () { el.innerHTML = ""; });
     }
     rend(window.LANG || "fr");
     document.addEventListener("langchange", function (e) { rend(e.detail); });
   };
+
+  // Lecteur YouTube au clic
+  document.addEventListener("click", function (e) {
+    var f = e.target.closest(".film[data-video]");
+    if (!f) return;
+    var c = f.querySelector(".cadre");
+    c.innerHTML = '<iframe src="https://www.youtube-nocookie.com/embed/' + f.dataset.video + '?autoplay=1&rel=0" title="GTA VI" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>';
+    f.removeAttribute("data-video");
+  });
+
+  // Révélation au défilement
+  var io = "IntersectionObserver" in window ? new IntersectionObserver(function (es) {
+    es.forEach(function (x) { if (x.isIntersecting) { x.target.classList.add("vu"); io.unobserve(x.target); } });
+  }, { rootMargin: "0px 0px -8% 0px" }) : null;
+  window.observeRv = function () { document.querySelectorAll(".rv:not(.vu)").forEach(function (el) { io ? io.observe(el) : el.classList.add("vu"); }); };
+  observeRv();
 
   // Publicité Google AdSense (annonces automatiques). Active seulement sur un domaine approuvé.
   if (SITE.adsensePub && !/github\.io$|localhost/.test(location.hostname)) {

@@ -5,41 +5,50 @@
   <title>Vice Break : casse-briques néon 1986, iOS et Android, sortie le 19 novembre 2026</title>
   <meta name="description" content="Vice Break, le casse-briques néon d'OKALAM Studio : 100 niveaux, Vice Bay Radio intégrée, gratuit, sortie sur iOS et Android le 19 novembre 2026, le même jour que GTA 6.">
   <link rel="canonical" href="https://stesouna9.github.io/gta6-countdown/vicebreak.html">
-  <meta property="og:title" content="Vice Break, iOS et Android">
+  <meta property="og:title" content="Vice Break, iOS et Android"><meta property="og:image" content="https://stesouna9.github.io/gta6-countdown/assets/img/vb1.webp">
   <link rel="stylesheet" href="assets/style.css"><script src="assets/i18n.js"></script>
 </head>
 <body>
-  <main>
-    <section>
-      <div class="vb-hero">
-        <div class="sun"></div><div class="grille"></div>
-        <h1 class="vb-titre" data-i18n="vb_t"></h1>
-        <div class="briques"><i style="color:#ff2e88;background:#ff2e88"></i><i style="color:#22e5ff;background:#22e5ff"></i><i style="color:#ffd34f;background:#ffd34f"></i><i style="color:#ff6f59;background:#ff6f59"></i><i style="color:#7b2ff7;background:#7b2ff7"></i><i style="color:#3cff8a;background:#3cff8a"></i><i style="color:#ff2e88;background:#ff2e88"></i><i style="color:#22e5ff;background:#22e5ff"></i></div>
-        <p class="intro" data-i18n="vb_i"></p>
-        <p class="date-officielle" style="margin-top:14px">📅 <span data-i18n="vb_date"></span></p>
+
+  <section class="vb" style="padding-top:clamp(40px,7vw,90px)"><div class="wrap">
+    <div class="vb-grid">
+      <div class="rv">
+        <span class="kicker">OKALAM Studio · iOS · Android</span>
+        <h1 class="vb-titre" style="margin-top:14px">Vice<span>Break</span></h1>
+        <p class="serif" data-i18n="vb_i"></p>
+        <p class="date" data-i18n="vb_date"></p>
+        <div class="briques" id="briques"></div>
         <div class="stores">
-          <a class="store" id="store-ios" href="https://okalamstudio.com/vicebreak.html" target="_blank" rel="noopener"><span class="ic"></span><span><span data-i18n="vb_ios"></span><small data-i18n="soon"></small></span></a>
-          <a class="store" id="store-android" href="https://okalamstudio.com/vicebreak.html" target="_blank" rel="noopener"><span class="ic">▶</span><span><span data-i18n="vb_and"></span><small data-i18n="soon"></small></span></a>
+          <a class="store" id="store-ios" href="https://okalamstudio.com/vicebreak.html" target="_blank" rel="noopener"><small data-i18n="soon"></small><b>App Store</b></a>
+          <a class="store" id="store-android" href="https://okalamstudio.com/vicebreak.html" target="_blank" rel="noopener"><small data-i18n="soon"></small><b>Google Play</b></a>
         </div>
-        <div class="boutons" style="justify-content:center"><a class="btn sec" style="color:#fff;border-color:rgba(255,255,255,.4)" href="https://discord.gg/TSaxEnt2dG" target="_blank" rel="noopener" data-i18n="vb_discord"></a></div>
+        <div class="boutons"><a class="btn encre" href="https://discord.gg/TSaxEnt2dG" target="_blank" rel="noopener" data-i18n="vb_discord"></a></div>
       </div>
-    </section>
-    <section>
-      <div class="cartes">
-        <div class="carte"><div class="emoji">🧱</div><h3 data-i18n="vb_1t"></h3><p data-i18n="vb_1"></p></div>
-        <div class="carte"><div class="emoji">📻</div><h3 data-i18n="vb_2t"></h3><p data-i18n="vb_2"></p></div>
-        <div class="carte"><div class="emoji">🎨</div><h3 data-i18n="vb_3t"></h3><p data-i18n="vb_3"></p></div>
-        <div class="carte"><div class="emoji">🆓</div><h3 data-i18n="vb_4t"></h3><p data-i18n="vb_4"></p></div>
+      <div class="telephones rv">
+        <div class="tel"><img src="assets/img/vb2.webp" alt="Vice Break, niveau"></div>
+        <div class="tel"><img src="assets/img/vb1.webp" alt="Vice Break, écran titre"></div>
+        <div class="tel"><img src="assets/img/vb4.webp" alt="Vice Break, boutique"></div>
       </div>
-    </section>
-    <div class="pub">Publicité</div>
-  </main>
+    </div>
+    <div class="atouts rv">
+      <div><b data-i18n="vb_1t"></b><p data-i18n="vb_1"></p></div>
+      <div><b data-i18n="vb_2t"></b><p data-i18n="vb_2"></p></div>
+      <div><b data-i18n="vb_3t"></b><p data-i18n="vb_3"></p></div>
+      <div><b data-i18n="vb_4t"></b><p data-i18n="vb_4"></p></div>
+    </div>
+  </div></section>
+  <section style="padding:0"><img src="assets/img/vb-motel.webp" alt="Vice Bay, motel au néon" style="width:100%;max-height:70vh;object-fit:cover" loading="lazy"></section>
+  <div class="pub vide"></div>
   <script src="assets/site.js"></script>
   <script>
+    var cols = ["#16111d", "#ffc93c", "#f2e8d5", "#0fb3a3", "#62d4ff", "#ff8a2a", "#16111d", "#ffc93c", "#f2e8d5", "#0fb3a3"];
+    document.getElementById("briques").innerHTML = cols.map(function (c) { return '<i style="background:' + c + '"></i>'; }).join("");
     // Dès que les fiches existent, renseigner ici : les boutons pointent directement vers les stores.
     var STORES = { ios: "", android: "" };
-    if (STORES.ios) { var a = document.getElementById("store-ios"); a.href = STORES.ios; a.querySelector("small").removeAttribute("data-i18n"); a.querySelector("small").textContent = "iPhone & iPad"; }
-    if (STORES.android) { var b = document.getElementById("store-android"); b.href = STORES.android; b.querySelector("small").removeAttribute("data-i18n"); b.querySelector("small").textContent = "Android"; }
+    [["ios", "store-ios"], ["android", "store-android"]].forEach(function (x) {
+      if (!STORES[x[0]]) return; var a = document.getElementById(x[1]); a.href = STORES[x[0]];
+      var sm = a.querySelector("small"); sm.removeAttribute("data-i18n"); sm.textContent = x[0] === "ios" ? "iPhone · iPad" : "Android";
+    });
   </script>
 </body>
 </html>

@@ -9,29 +9,22 @@
   <link rel="stylesheet" href="assets/style.css"><script src="assets/i18n.js"></script>
 </head>
 <body>
-  <main>
-    <section>
-      <div class="radio-wrap">
-        <div class="sun"></div><div class="grille"></div>
-        <h1 class="page" style="color:#fff;-webkit-text-fill-color:#fff;filter:drop-shadow(0 0 24px #ff2e88)">Vice Bay Radio</h1>
-        <p class="intro" data-i18n="radio_i"></p>
-        <div class="radio" id="radio"></div>
-        <div class="boutons">
-          <a class="btn or" href="https://vicebayradio.com" target="_blank" rel="noopener" data-i18n="radio_full"></a>
-          <a class="btn sec" style="color:#fff;border-color:rgba(255,255,255,.4)" href="https://discord.gg/TSaxEnt2dG" target="_blank" rel="noopener">Discord</a>
-        </div>
-      </div>
-    </section>
-    <div class="pub">Publicité</div>
-    <section>
-      <h2>📱 Vice Bay Radio App</h2>
-      <p class="intro" data-i18n="radio_app"></p>
-      <div class="stores">
-        <span class="store"><span class="ic"></span><span>App Store<small data-i18n="soon"></small></span></span>
-        <span class="store"><span class="ic">▶</span><span>Google Play<small data-i18n="soon"></small></span></span>
-      </div>
-    </section>
-  </main>
+
+  <header class="tete-page image"><img src="assets/img/vb-coconut.webp" alt=""><div class="wrap">
+    <span class="kicker">88.5 — 107.3 MHz · Vice Bay · 1986</span>
+    <h1>Vice Bay<br>Radio</h1><p data-i18n="radio_i"></p></div></header>
+  <section class="radio-sec"><div class="wrap">
+    <div class="radio-grid">
+      <div class="rv"><div id="radio"></div><p class="note">Musique libre CC BY · Animateurs et jingles OKALAM Studio</p>
+        <div class="boutons"><a class="btn or" href="https://vicebayradio.com" target="_blank" rel="noopener" data-i18n="radio_full"></a><a class="lien" href="https://discord.gg/TSaxEnt2dG" target="_blank" rel="noopener">Discord</a></div></div>
+      <div class="radio-art rv"><img src="assets/img/vbr-logo.webp" alt="Vice Bay Radio" width="900" height="780"><span class="serif" data-i18n="radio_app"></span></div>
+    </div>
+  </div></section>
+  <section class="papier"><div class="wrap">
+    <div class="rubrique rv"><span class="num">FM</span><h2>Vice Bay Radio App</h2><p data-i18n="radio_app"></p></div>
+    <div class="stores"><span class="store"><small data-i18n="soon"></small><b>App Store</b></span><span class="store"><small data-i18n="soon"></small><b>Google Play</b></span></div>
+  </div></section>
+  <div class="pub vide"></div>
   <script src="assets/site.js"></script>
   <script src="assets/radio.js"></script>
 </body>

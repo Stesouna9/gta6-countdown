@@ -1,6 +1,6 @@
 // Traductions. Clé = attribut data-i18n. Langue : localStorage "lang" > navigateur > fr.
 window.I18N = {
-fr:{_n:"Français",nav_home:"Compte à rebours",nav_news:"Actus",nav_radio:"Vice Bay Radio",nav_vb:"Vice Break",nav_goodies:"Goodies",nav_buy:"Jeu & consoles",
+fr:{th_console:"Console",th_profile:"Profil",th_disc:"Disque",th_shop:"Où acheter",_n:"Français",nav_home:"Compte à rebours",nav_news:"Actus",nav_radio:"Vice Bay Radio",nav_vb:"Vice Break",nav_goodies:"Goodies",nav_buy:"Jeu & consoles",
 date:"Sortie : jeudi 19 novembre 2026",days:"Jours",hours:"Heures",minutes:"Minutes",seconds:"Secondes",released:"GTA VI EST SORTI !",days_in:"Jours à Vice City",
 brag:"Le compte à rebours GTA 6 n°1 au monde : le plus précis, le plus beau, le plus complet. À la seconde près, heure de Rockstar.",
 strip:"LE MEILLEUR SITE GTA 6 · 12 LANGUES · ACTUS 2×/JOUR · RADIO VICE BAY EN DIRECT · VICE BREAK LE JOUR J · TRAILERS 4K ·",
@@ -22,7 +22,7 @@ buy_t:"Jeu & consoles",buy_i:"GTA 6 sort sur PS5 et Xbox Series X|S le 19 novemb
 b1:"GTA VI · PlayStation 5",b2:"GTA VI · Xbox Series X|S",b3:"Version numérique",c1:"PS5 Pro",c1d:"La plus puissante. Pour les grands écrans 4K.",c2:"PS5 Slim (disque)",c2d:"Le meilleur rapport qualité-prix.",c3:"Xbox Series X",c3d:"Puissance équivalente, Game Pass en bonus.",c4:"Xbox Series S",c4d:"La moins chère, 100 % dématérialisée.",c5:"SSD & TV 4K",c5d:"GTA 6 pèsera lourd : SSD 1 To conseillé.",
 foot:"Site de fans non officiel, édité par OKALAM Studio. GTA et Grand Theft Auto sont des marques de Take-Two Interactive / Rockstar Games. Certains liens sont affiliés : commission pour le site, sans surcoût pour vous.",mentions:"Mentions & affiliation"},
 
-en:{_n:"English",nav_home:"Countdown",nav_news:"News",nav_radio:"Vice Bay Radio",nav_vb:"Vice Break",nav_goodies:"Merch",nav_buy:"Game & consoles",
+en:{th_console:"Console",th_profile:"Best for",th_disc:"Disc drive",th_shop:"Where to buy",_n:"English",nav_home:"Countdown",nav_news:"News",nav_radio:"Vice Bay Radio",nav_vb:"Vice Break",nav_goodies:"Merch",nav_buy:"Game & consoles",
 date:"Release: Thursday, November 19, 2026",days:"Days",hours:"Hours",minutes:"Minutes",seconds:"Seconds",released:"GTA VI IS OUT!",days_in:"Days in Vice City",
 brag:"The world's #1 GTA 6 countdown: the most accurate, the best looking, the most complete. To the second, on Rockstar time.",
 strip:"THE BEST GTA 6 SITE · 12 LANGUAGES · NEWS TWICE A DAY · VICE BAY RADIO LIVE · VICE BREAK ON DAY ONE · 4K TRAILERS ·",
@@ -44,7 +44,7 @@ buy_t:"Game & consoles",buy_i:"GTA 6 launches on PS5 and Xbox Series X|S on Nove
 b1:"GTA VI · PlayStation 5",b2:"GTA VI · Xbox Series X|S",b3:"Digital edition",c1:"PS5 Pro",c1d:"The most powerful. For big 4K screens.",c2:"PS5 Slim (disc)",c2d:"Best value for money.",c3:"Xbox Series X",c3d:"Same power, Game Pass as a bonus.",c4:"Xbox Series S",c4d:"The cheapest, 100% digital.",c5:"SSD & 4K TV",c5d:"GTA 6 will be huge: 1 TB SSD recommended.",
 foot:"Unofficial fan site by OKALAM Studio. GTA and Grand Theft Auto are trademarks of Take-Two Interactive / Rockstar Games. Some links are affiliate links: commission for the site, no extra cost for you.",mentions:"Legal & affiliation"},
 
-es:{_n:"Español",nav_home:"Cuenta atrás",nav_news:"Noticias",nav_radio:"Vice Bay Radio",nav_vb:"Vice Break",nav_goodies:"Merch",nav_buy:"Juego y consolas",
+es:{th_console:"Consola",th_profile:"Ideal para",th_disc:"Lector de disco",th_shop:"Dónde comprar",_n:"Español",nav_home:"Cuenta atrás",nav_news:"Noticias",nav_radio:"Vice Bay Radio",nav_vb:"Vice Break",nav_goodies:"Merch",nav_buy:"Juego y consolas",
 date:"Lanzamiento: jueves 19 de noviembre de 2026",days:"Días",hours:"Horas",minutes:"Minutos",seconds:"Segundos",released:"¡GTA VI YA ESTÁ AQUÍ!",days_in:"Días en Vice City",
 brag:"La cuenta atrás de GTA 6 n.º 1 del mundo: la más precisa, la más bonita, la más completa. Al segundo, en hora de Rockstar.",
 strip:"EL MEJOR SITIO DE GTA 6 · 12 IDIOMAS · NOTICIAS 2 VECES AL DÍA · VICE BAY RADIO EN DIRECTO · VICE BREAK EL DÍA 1 · TRÁILERS 4K ·",
@@ -66,7 +66,7 @@ buy_t:"Juego y consolas",buy_i:"GTA 6 sale en PS5 y Xbox Series X|S el 19 de nov
 b1:"GTA VI · PlayStation 5",b2:"GTA VI · Xbox Series X|S",b3:"Edición digital",c1:"PS5 Pro",c1d:"La más potente. Para grandes pantallas 4K.",c2:"PS5 Slim (disco)",c2d:"La mejor relación calidad-precio.",c3:"Xbox Series X",c3d:"Misma potencia, Game Pass de regalo.",c4:"Xbox Series S",c4d:"La más barata, 100 % digital.",c5:"SSD y TV 4K",c5d:"GTA 6 pesará mucho: SSD de 1 TB recomendado.",
 foot:"Sitio de fans no oficial, editado por OKALAM Studio. GTA y Grand Theft Auto son marcas de Take-Two Interactive / Rockstar Games. Algunos enlaces son de afiliado: comisión para el sitio, sin coste extra para ti.",mentions:"Aviso legal y afiliación"},
 
-pt:{_n:"Português",nav_home:"Contagem regressiva",nav_news:"Notícias",nav_radio:"Vice Bay Radio",nav_vb:"Vice Break",nav_goodies:"Produtos",nav_buy:"Jogo e consoles",
+pt:{th_console:"Console",th_profile:"Ideal para",th_disc:"Leitor de disco",th_shop:"Onde comprar",_n:"Português",nav_home:"Contagem regressiva",nav_news:"Notícias",nav_radio:"Vice Bay Radio",nav_vb:"Vice Break",nav_goodies:"Produtos",nav_buy:"Jogo e consoles",
 date:"Lançamento: quinta-feira, 19 de novembro de 2026",days:"Dias",hours:"Horas",minutes:"Minutos",seconds:"Segundos",released:"GTA VI CHEGOU!",days_in:"Dias em Vice City",
 brag:"A contagem regressiva nº 1 do mundo para GTA 6: a mais precisa, a mais bonita, a mais completa. Ao segundo, no horário da Rockstar.",
 strip:"O MELHOR SITE DE GTA 6 · 12 IDIOMAS · NOTÍCIAS 2× POR DIA · VICE BAY RADIO AO VIVO · VICE BREAK NO DIA 1 · TRAILERS 4K ·",
@@ -88,7 +88,7 @@ buy_t:"Jogo e consoles",buy_i:"GTA 6 chega ao PS5 e Xbox Series X|S em 19 de nov
 b1:"GTA VI · PlayStation 5",b2:"GTA VI · Xbox Series X|S",b3:"Edição digital",c1:"PS5 Pro",c1d:"O mais potente. Para telas 4K grandes.",c2:"PS5 Slim (disco)",c2d:"O melhor custo-benefício.",c3:"Xbox Series X",c3d:"Mesma potência, Game Pass de bônus.",c4:"Xbox Series S",c4d:"O mais barato, 100% digital.",c5:"SSD e TV 4K",c5d:"GTA 6 será pesado: SSD de 1 TB recomendado.",
 foot:"Site de fãs não oficial, editado pela OKALAM Studio. GTA e Grand Theft Auto são marcas da Take-Two Interactive / Rockstar Games. Alguns links são afiliados: comissão para o site, sem custo extra para você.",mentions:"Avisos legais e afiliação"},
 
-de:{_n:"Deutsch",nav_home:"Countdown",nav_news:"News",nav_radio:"Vice Bay Radio",nav_vb:"Vice Break",nav_goodies:"Merch",nav_buy:"Spiel & Konsolen",
+de:{th_console:"Konsole",th_profile:"Ideal für",th_disc:"Laufwerk",th_shop:"Wo kaufen",_n:"Deutsch",nav_home:"Countdown",nav_news:"News",nav_radio:"Vice Bay Radio",nav_vb:"Vice Break",nav_goodies:"Merch",nav_buy:"Spiel & Konsolen",
 date:"Release: Donnerstag, 19. November 2026",days:"Tage",hours:"Stunden",minutes:"Minuten",seconds:"Sekunden",released:"GTA VI IST DA!",days_in:"Tage in Vice City",
 brag:"Der weltweit beste GTA-6-Countdown: am genauesten, am schönsten, am vollständigsten. Sekundengenau, nach Rockstar-Zeit.",
 strip:"DIE BESTE GTA-6-SEITE · 12 SPRACHEN · NEWS 2× TÄGLICH · VICE BAY RADIO LIVE · VICE BREAK AM TAG 1 · 4K-TRAILER ·",
@@ -110,7 +110,7 @@ buy_t:"Spiel & Konsolen",buy_i:"GTA 6 erscheint am 19. November 2026 für PS5 un
 b1:"GTA VI · PlayStation 5",b2:"GTA VI · Xbox Series X|S",b3:"Digitale Version",c1:"PS5 Pro",c1d:"Die stärkste. Für große 4K-Bildschirme.",c2:"PS5 Slim (Disc)",c2d:"Das beste Preis-Leistungs-Verhältnis.",c3:"Xbox Series X",c3d:"Gleiche Leistung, Game Pass als Bonus.",c4:"Xbox Series S",c4d:"Die günstigste, 100 % digital.",c5:"SSD & 4K-TV",c5d:"GTA 6 wird riesig: 1-TB-SSD empfohlen.",
 foot:"Inoffizielle Fanseite von OKALAM Studio. GTA und Grand Theft Auto sind Marken von Take-Two Interactive / Rockstar Games. Einige Links sind Affiliate-Links: Provision für die Seite, ohne Mehrkosten für dich.",mentions:"Impressum & Affiliate"},
 
-it:{_n:"Italiano",nav_home:"Conto alla rovescia",nav_news:"News",nav_radio:"Vice Bay Radio",nav_vb:"Vice Break",nav_goodies:"Merch",nav_buy:"Gioco e console",
+it:{th_console:"Console",th_profile:"Ideale per",th_disc:"Lettore disco",th_shop:"Dove comprare",_n:"Italiano",nav_home:"Conto alla rovescia",nav_news:"News",nav_radio:"Vice Bay Radio",nav_vb:"Vice Break",nav_goodies:"Merch",nav_buy:"Gioco e console",
 date:"Uscita: giovedì 19 novembre 2026",days:"Giorni",hours:"Ore",minutes:"Minuti",seconds:"Secondi",released:"GTA VI È USCITO!",days_in:"Giorni a Vice City",
 brag:"Il conto alla rovescia GTA 6 n. 1 al mondo: il più preciso, il più bello, il più completo. Al secondo, ora di Rockstar.",
 strip:"IL MIGLIOR SITO GTA 6 · 12 LINGUE · NEWS 2 VOLTE AL GIORNO · VICE BAY RADIO LIVE · VICE BREAK AL DAY ONE · TRAILER 4K ·",
@@ -132,7 +132,7 @@ buy_t:"Gioco e console",buy_i:"GTA 6 esce su PS5 e Xbox Series X|S il 19 novembr
 b1:"GTA VI · PlayStation 5",b2:"GTA VI · Xbox Series X|S",b3:"Versione digitale",c1:"PS5 Pro",c1d:"La più potente. Per grandi schermi 4K.",c2:"PS5 Slim (disco)",c2d:"Il miglior rapporto qualità-prezzo.",c3:"Xbox Series X",c3d:"Stessa potenza, Game Pass in più.",c4:"Xbox Series S",c4d:"La più economica, 100% digitale.",c5:"SSD e TV 4K",c5d:"GTA 6 sarà enorme: SSD da 1 TB consigliato.",
 foot:"Sito di fan non ufficiale, a cura di OKALAM Studio. GTA e Grand Theft Auto sono marchi di Take-Two Interactive / Rockstar Games. Alcuni link sono affiliati: commissione per il sito, nessun costo extra per te.",mentions:"Note legali e affiliazione"},
 
-ja:{_n:"日本語",nav_home:"カウントダウン",nav_news:"ニュース",nav_radio:"Vice Bay Radio",nav_vb:"Vice Break",nav_goodies:"グッズ",nav_buy:"ゲーム＆本体",
+ja:{th_console:"本体",th_profile:"おすすめ",th_disc:"ディスク",th_shop:"購入先",_n:"日本語",nav_home:"カウントダウン",nav_news:"ニュース",nav_radio:"Vice Bay Radio",nav_vb:"Vice Break",nav_goodies:"グッズ",nav_buy:"ゲーム＆本体",
 date:"発売日：2026年11月19日（木）",days:"日",hours:"時間",minutes:"分",seconds:"秒",released:"GTA VI 発売！",days_in:"バイスシティでの日数",
 brag:"世界No.1のGTA 6カウントダウン。最も正確で、最も美しく、最も充実。Rockstar時間で1秒単位。",
 strip:"最高のGTA 6サイト · 12言語 · ニュース1日2回更新 · Vice Bay Radio生放送 · 発売日にVice Break · 4Kトレーラー ·",
@@ -154,7 +154,7 @@ buy_t:"ゲーム＆本体",buy_i:"GTA 6は2026年11月19日にPS5とXbox Series 
 b1:"GTA VI · PlayStation 5",b2:"GTA VI · Xbox Series X|S",b3:"ダウンロード版",c1:"PS5 Pro",c1d:"最強。大画面4K向け。",c2:"PS5 Slim（ディスク）",c2d:"最高のコスパ。",c3:"Xbox Series X",c3d:"同等の性能、Game Pass付き。",c4:"Xbox Series S",c4d:"最安、100%デジタル。",c5:"SSD＆4Kテレビ",c5d:"GTA 6は大容量：1TB SSD推奨。",
 foot:"OKALAM Studioによる非公式ファンサイト。GTAおよびGrand Theft AutoはTake-Two Interactive / Rockstar Gamesの商標です。一部のリンクはアフィリエイトです：サイトに手数料、あなたに追加費用はありません。",mentions:"法的表記＆アフィリエイト"},
 
-zh:{_n:"中文",nav_home:"倒计时",nav_news:"资讯",nav_radio:"Vice Bay Radio",nav_vb:"Vice Break",nav_goodies:"周边",nav_buy:"游戏与主机",
+zh:{th_console:"主机",th_profile:"适合",th_disc:"光驱",th_shop:"购买渠道",_n:"中文",nav_home:"倒计时",nav_news:"资讯",nav_radio:"Vice Bay Radio",nav_vb:"Vice Break",nav_goodies:"周边",nav_buy:"游戏与主机",
 date:"发售：2026年11月19日（星期四）",days:"天",hours:"小时",minutes:"分钟",seconds:"秒",released:"GTA VI 已发售！",days_in:"在罪恶都市的天数",
 brag:"全球第一的GTA 6倒计时：最精准、最好看、最全面。精确到秒，Rockstar时间。",
 strip:"最佳GTA 6网站 · 12种语言 · 资讯每日更新2次 · Vice Bay Radio直播 · 首发日Vice Break · 4K预告片 ·",
@@ -176,7 +176,7 @@ buy_t:"游戏与主机",buy_i:"GTA 6于2026年11月19日登陆PS5和Xbox Series 
 b1:"GTA VI · PlayStation 5",b2:"GTA VI · Xbox Series X|S",b3:"数字版",c1:"PS5 Pro",c1d:"最强性能。适合4K大屏。",c2:"PS5 Slim（光驱版）",c2d:"性价比最高。",c3:"Xbox Series X",c3d:"同等性能，附带Game Pass。",c4:"Xbox Series S",c4d:"最便宜，100%数字版。",c5:"SSD与4K电视",c5d:"GTA 6体积巨大：建议1TB SSD。",
 foot:"OKALAM Studio制作的非官方粉丝网站。GTA和Grand Theft Auto是Take-Two Interactive / Rockstar Games的商标。部分链接为联盟链接：网站获得佣金，你无需额外付费。",mentions:"法律声明与联盟"},
 
-ar:{_n:"العربية",nav_home:"العد التنازلي",nav_news:"الأخبار",nav_radio:"Vice Bay Radio",nav_vb:"Vice Break",nav_goodies:"منتجات",nav_buy:"اللعبة والأجهزة",
+ar:{th_console:"الجهاز",th_profile:"مناسب لـ",th_disc:"قارئ أقراص",th_shop:"أين تشتري",_n:"العربية",nav_home:"العد التنازلي",nav_news:"الأخبار",nav_radio:"Vice Bay Radio",nav_vb:"Vice Break",nav_goodies:"منتجات",nav_buy:"اللعبة والأجهزة",
 date:"الإصدار: الخميس 19 نوفمبر 2026",days:"يوم",hours:"ساعة",minutes:"دقيقة",seconds:"ثانية",released:"صدرت GTA VI!",days_in:"يوم في فايس سيتي",
 brag:"العد التنازلي رقم 1 في العالم لـ GTA 6: الأدق، الأجمل، الأشمل. بالثانية، بتوقيت Rockstar.",
 strip:"أفضل موقع لـ GTA 6 · 12 لغة · أخبار مرتين يوميًا · Vice Bay Radio مباشر · Vice Break يوم الإصدار · مقاطع 4K ·",
@@ -198,7 +198,7 @@ buy_t:"اللعبة والأجهزة",buy_i:"تصدر GTA 6 على PS5 وXbox Se
 b1:"GTA VI · PlayStation 5",b2:"GTA VI · Xbox Series X|S",b3:"النسخة الرقمية",c1:"PS5 Pro",c1d:"الأقوى. للشاشات الكبيرة 4K.",c2:"PS5 Slim (قرص)",c2d:"أفضل قيمة مقابل السعر.",c3:"Xbox Series X",c3d:"قوة مماثلة، مع Game Pass.",c4:"Xbox Series S",c4d:"الأرخص، رقمي 100%.",c5:"SSD وتلفاز 4K",c5d:"GTA 6 ضخمة: يُنصح بـ SSD سعة 1 تيرابايت.",
 foot:"موقع معجبين غير رسمي من OKALAM Studio. GTA وGrand Theft Auto علامتان تجاريتان لـ Take-Two Interactive / Rockstar Games. بعض الروابط تابعة: عمولة للموقع دون تكلفة إضافية عليك.",mentions:"الشروط القانونية والروابط التابعة"},
 
-hi:{_n:"हिन्दी",nav_home:"काउंटडाउन",nav_news:"समाचार",nav_radio:"Vice Bay Radio",nav_vb:"Vice Break",nav_goodies:"मर्च",nav_buy:"गेम और कंसोल",
+hi:{th_console:"कंसोल",th_profile:"किसके लिए",th_disc:"डिस्क ड्राइव",th_shop:"कहाँ खरीदें",_n:"हिन्दी",nav_home:"काउंटडाउन",nav_news:"समाचार",nav_radio:"Vice Bay Radio",nav_vb:"Vice Break",nav_goodies:"मर्च",nav_buy:"गेम और कंसोल",
 date:"रिलीज़: गुरुवार, 19 नवंबर 2026",days:"दिन",hours:"घंटे",minutes:"मिनट",seconds:"सेकंड",released:"GTA VI आ गया!",days_in:"वाइस सिटी में दिन",
 brag:"दुनिया का नंबर 1 GTA 6 काउंटडाउन: सबसे सटीक, सबसे सुंदर, सबसे संपूर्ण। सेकंड तक, Rockstar के समय पर।",
 strip:"सबसे बेहतरीन GTA 6 साइट · 12 भाषाएँ · दिन में 2 बार समाचार · Vice Bay Radio लाइव · पहले दिन Vice Break · 4K ट्रेलर ·",
@@ -220,7 +220,7 @@ buy_t:"गेम और कंसोल",buy_i:"GTA 6 19 नवंबर 2026 �
 b1:"GTA VI · PlayStation 5",b2:"GTA VI · Xbox Series X|S",b3:"डिजिटल संस्करण",c1:"PS5 Pro",c1d:"सबसे ताकतवर। बड़े 4K स्क्रीन के लिए।",c2:"PS5 Slim (डिस्क)",c2d:"सबसे अच्छा मूल्य।",c3:"Xbox Series X",c3d:"बराबर ताकत, बोनस में Game Pass।",c4:"Xbox Series S",c4d:"सबसे सस्ता, 100% डिजिटल।",c5:"SSD और 4K TV",c5d:"GTA 6 बहुत बड़ा होगा: 1 TB SSD की सलाह।",
 foot:"OKALAM Studio की अनौपचारिक फैन साइट। GTA और Grand Theft Auto Take-Two Interactive / Rockstar Games के ट्रेडमार्क हैं। कुछ लिंक एफिलिएट हैं: साइट को कमीशन, आपके लिए कोई अतिरिक्त लागत नहीं।",mentions:"कानूनी सूचना और एफिलिएट"},
 
-ru:{_n:"Русский",nav_home:"Обратный отсчёт",nav_news:"Новости",nav_radio:"Vice Bay Radio",nav_vb:"Vice Break",nav_goodies:"Мерч",nav_buy:"Игра и консоли",
+ru:{th_console:"Консоль",th_profile:"Для кого",th_disc:"Дисковод",th_shop:"Где купить",_n:"Русский",nav_home:"Обратный отсчёт",nav_news:"Новости",nav_radio:"Vice Bay Radio",nav_vb:"Vice Break",nav_goodies:"Мерч",nav_buy:"Игра и консоли",
 date:"Выход: четверг, 19 ноября 2026",days:"Дней",hours:"Часов",minutes:"Минут",seconds:"Секунд",released:"GTA VI ВЫШЛА!",days_in:"Дней в Вайс-Сити",
 brag:"Обратный отсчёт GTA 6 №1 в мире: самый точный, самый красивый, самый полный. С точностью до секунды, по времени Rockstar.",
 strip:"ЛУЧШИЙ САЙТ О GTA 6 · 12 ЯЗЫКОВ · НОВОСТИ 2 РАЗА В ДЕНЬ · VICE BAY RADIO В ЭФИРЕ · VICE BREAK В ДЕНЬ РЕЛИЗА · ТРЕЙЛЕРЫ 4K ·",
@@ -242,7 +242,7 @@ buy_t:"Игра и консоли",buy_i:"GTA 6 выходит на PS5 и Xbox 
 b1:"GTA VI · PlayStation 5",b2:"GTA VI · Xbox Series X|S",b3:"Цифровая версия",c1:"PS5 Pro",c1d:"Самая мощная. Для больших 4K-экранов.",c2:"PS5 Slim (с дисководом)",c2d:"Лучшее соотношение цены и качества.",c3:"Xbox Series X",c3d:"Та же мощность, плюс Game Pass.",c4:"Xbox Series S",c4d:"Самая дешёвая, 100 % цифровая.",c5:"SSD и 4K-телевизор",c5d:"GTA 6 будет огромной: рекомендуем SSD на 1 ТБ.",
 foot:"Неофициальный фан-сайт OKALAM Studio. GTA и Grand Theft Auto — товарные знаки Take-Two Interactive / Rockstar Games. Некоторые ссылки партнёрские: комиссия сайту, без доплаты для тебя.",mentions:"Правовая информация и партнёрство"},
 
-ko:{_n:"한국어",nav_home:"카운트다운",nav_news:"뉴스",nav_radio:"Vice Bay Radio",nav_vb:"Vice Break",nav_goodies:"굿즈",nav_buy:"게임 & 콘솔",
+ko:{th_console:"콘솔",th_profile:"추천 대상",th_disc:"디스크 드라이브",th_shop:"구매처",_n:"한국어",nav_home:"카운트다운",nav_news:"뉴스",nav_radio:"Vice Bay Radio",nav_vb:"Vice Break",nav_goodies:"굿즈",nav_buy:"게임 & 콘솔",
 date:"출시: 2026년 11월 19일 목요일",days:"일",hours:"시간",minutes:"분",seconds:"초",released:"GTA VI 출시!",days_in:"바이스 시티에서 보낸 날",
 brag:"세계 1위 GTA 6 카운트다운: 가장 정확하고, 가장 아름답고, 가장 완벽합니다. Rockstar 시간으로 초 단위까지.",
 strip:"최고의 GTA 6 사이트 · 12개 언어 · 하루 2회 뉴스 · Vice Bay Radio 라이브 · 출시일 Vice Break · 4K 트레일러 ·",
