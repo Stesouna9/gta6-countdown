@@ -26,7 +26,7 @@ jobs:
           import json, re, urllib.request
           urls = re.findall(r"<loc>([^<]+)</loc>", open("sitemap.xml").read())
           host = urls[0].split("/")[2]; base = urls[0]
-          body = json.dumps({"host": host, "key": "17bf4b50ddfe396b52df541315db512c", "keyLocation": base + "17bf4b50ddfe396b52df541315db512c.txt", "urlList": urls}).encode()
+          body = json.dumps({"host": "gtavifrance.com", "key": "17bf4b50ddfe396b52df541315db512c", "keyLocation": base + "17bf4b50ddfe396b52df541315db512c.txt", "urlList": urls}).encode()
           r = urllib.request.urlopen(urllib.request.Request("https://api.indexnow.org/indexnow", body, {"Content-Type": "application/json"}), timeout=30)
           print("indexnow", r.status, len(urls), "URL")
           PY

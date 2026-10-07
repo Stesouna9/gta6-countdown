@@ -9,7 +9,7 @@ window.SITE = {
   vicebreak: "https://okalamstudio.com/vicebreak.html",
   petition: "https://www.change.org/p/add-arabic-language-support-in-gta-vi",
   verif: "2026-10-07",                   // date de dernière vérification des faits
-  base: "https://stesouna9.github.io/gta6-countdown/"
+  base: "https://gtavifrance.com/"
 };
 
 (function () {
@@ -103,7 +103,7 @@ window.SITE = {
   if ("serviceWorker" in navigator && location.protocol === "https:") navigator.serviceWorker.register((window.ROOT || "") + "sw.js").catch(function () {});
 
   // Publicité Google AdSense (annonces automatiques). Active seulement sur un domaine approuvé.
-  if (SITE.adsensePub && !/github\.io$|localhost/.test(location.hostname)) {
+  if (SITE.adsensePub && !/localhost/.test(location.hostname)) {
     var s = document.createElement("script");
     s.async = true; s.crossOrigin = "anonymous";
     s.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=" + SITE.adsensePub;

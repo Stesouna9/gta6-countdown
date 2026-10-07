@@ -9,7 +9,7 @@ DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:GTA VI : préchargement / preload
 DESCRIPTION:Préchargement de GTA VI sur PS5 et Xbox Series. Preload of GTA VI.
-URL:https://stesouna9.github.io/gta6-countdown/
+URL:https://gtavifrance.com/
 BEGIN:VALARM
 TRIGGER:-PT12H
 ACTION:DISPLAY
@@ -22,8 +22,8 @@ DTSTAMP:20261007T120000Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:GTA VI : sortie / release
-DESCRIPTION:Sortie de Grand Theft Auto VI sur PS5 et Xbox Series X|S. https://stesouna9.github.io/gta6-countdown/
-URL:https://stesouna9.github.io/gta6-countdown/
+DESCRIPTION:Sortie de Grand Theft Auto VI sur PS5 et Xbox Series X|S. https://gtavifrance.com/
+URL:https://gtavifrance.com/
 BEGIN:VALARM
 TRIGGER:-PT12H
 ACTION:DISPLAY

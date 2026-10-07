@@ -5,7 +5,7 @@ données structurées, hreflang, sitemap.xml, feed.xml, api/gta6.json, llms.txt,
 Idempotent : relancé à chaque mise à jour automatique (2 fois par jour)."""
 import json, re, html, glob, datetime, os, shutil
 os.chdir(os.path.dirname(os.path.abspath(__file__)) + "/..")
-BASE = "https://stesouna9.github.io/gta6-countdown/"   # changer ici le jour du domaine
+BASE = "https://gtavifrance.com/"   # changer ici le jour du domaine
 HOST = re.sub(r"^https://([^/]+)/.*$", r"\1", BASE)
 ORDRE = ["fr", "en", "es", "pt", "de", "it", "ja", "zh", "tw", "ar", "hi", "ru", "ko", "tr", "id", "pl", "vi"]
 HL = {"zh": "zh-Hans", "tw": "zh-Hant"}
