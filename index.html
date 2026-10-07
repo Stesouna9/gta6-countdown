@@ -35,7 +35,11 @@
         <div class="bloc"><div class="nombre" id="minutes">–</div><div class="libelle">Minutes</div></div>
         <div class="bloc"><div class="nombre" id="secondes">–</div><div class="libelle">Secondes</div></div>
       </div>
-      <p class="sorti" id="sorti">🎉 GTA VI EST SORTI !</p>
+      <div id="sorti" class="sorti">
+        <p>🎉 GTA VI EST SORTI !</p>
+        <div class="compteur"><div class="bloc"><div class="nombre" id="jours-depuis">–</div><div class="libelle">Jours à Vice City</div></div></div>
+        <div class="boutons" style="justify-content:center"><a class="btn" href="acheter.html">Acheter le jeu</a><a class="btn sec" href="#apres">Guides &amp; astuces</a></div>
+      </div>
       <div class="progression">
         <div class="barre"><div class="remplie" id="barre-remplie"></div></div>
         <p class="legende" id="legende-progression">Chargement…</p>
@@ -60,6 +64,17 @@
         <a class="tuile" href="vicebreak.html"><span class="emoji">🕹️</span><b>Vice Break (iOS &amp; Android)</b><span>Notre casse-briques néon, sortie le jour J. 100 niveaux, radio intégrée.</span></a>
         <a class="tuile" href="goodies.html"><span class="emoji">🛍️</span><b>Goodies &amp; merch</b><span>T-shirts, posters, figurines, cadeaux Vice City.</span></a>
         <a class="tuile" href="acheter.html"><span class="emoji">🎮</span><b>Acheter le jeu &amp; consoles</b><span>Précommande GTA 6, PS5, PS5 Pro, Xbox Series X.</span></a>
+      </div>
+    </section>
+
+    <section id="apres" hidden>
+      <h2>🗺️ Bienvenue à Leonida</h2>
+      <p class="intro">Le compteur est fini, le site continue : guides, triches, carte, et la radio pour rouler.</p>
+      <div class="tuiles">
+        <a class="tuile" href="actus.html"><span class="emoji">🔧</span><b>Patchs &amp; mises à jour</b><span>Notes de version, GTA Online VI, événements.</span></a>
+        <a class="tuile" href="https://stesouna9.github.io/triches-gta5/" target="_blank" rel="noopener"><span class="emoji">🎮</span><b>Triches &amp; codes</b><span>Codes GTA 6 dès leur découverte. En attendant : GTA V.</span></a>
+        <a class="tuile" href="https://www.gtabase.com/gta-6/" target="_blank" rel="noopener"><span class="emoji">🗺️</span><b>Carte interactive</b><span>Lieux, collectibles, planques, garages.</span></a>
+        <a class="tuile" href="radio.html"><span class="emoji">📻</span><b>Vice Bay Radio</b><span>La bande-son de tes trajets en Leonida.</span></a>
       </div>
     </section>
 
@@ -101,6 +116,9 @@
         document.getElementById("sorti").style.display = "block";
         document.getElementById("barre-remplie").style.width = "100%";
         document.getElementById("legende-progression").textContent = "L'attente est finie. Bienvenue à Vice City.";
+        document.getElementById("jours-depuis").textContent = Math.floor(-restant / 86400000);
+        document.getElementById("apres").hidden = false;
+        document.querySelector(".fleche").href = "#apres";
         return;
       }
       var s = Math.floor(restant / 1000);
