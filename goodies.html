@@ -5,26 +5,36 @@
   <title>Goodies GTA 6 : t-shirts, posters, figurines, cadeaux Vice City</title>
   <meta name="description" content="Sélection de goodies et produits dérivés GTA : t-shirts Rockstar, posters Vice City, figurines, casquettes, mugs et idées cadeaux pour fans de Grand Theft Auto en attendant GTA 6.">
   <link rel="canonical" href="https://stesouna9.github.io/gta6-countdown/goodies.html">
-  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="assets/style.css"><script src="assets/i18n.js"></script>
 </head>
 <body>
   <main>
     <section>
-      <h1 class="page">Goodies &amp; merch</h1>
-      <p class="intro">Le merch officiel GTA 6 n'existe pas encore. En attendant, voici où trouver les produits Rockstar et l'ambiance Vice City. Liens affiliés : petite commission pour le site, prix identique pour toi.</p>
-      <div class="cartes">
-        <div class="carte produit"><div class="emoji">👕</div><h3>T-shirts &amp; hoodies</h3><p>Logos Rockstar, Vice City, Los Santos, palmiers néon.</p><div class="liens"><a data-amazon="t-shirt GTA Rockstar Games">Amazon</a><a href="https://store.rockstargames.com/" target="_blank" rel="noopener">Rockstar Store</a></div></div>
-        <div class="carte produit"><div class="emoji">🖼️</div><h3>Posters &amp; affiches</h3><p>Artworks Vice City, Lucia et Jason, cartes de Leonida pour le mur de la gaming room.</p><div class="liens"><a data-amazon="poster GTA Vice City">Amazon</a><a href="https://www.redbubble.com/fr/shop/vice+city" target="_blank" rel="noopener">Redbubble</a></div></div>
-        <div class="carte produit"><div class="emoji">🧢</div><h3>Casquettes &amp; accessoires</h3><p>Casquettes, porte-clés, stickers, coques de téléphone.</p><div class="liens"><a data-amazon="casquette GTA">Amazon</a></div></div>
-        <div class="carte produit"><div class="emoji">🧸</div><h3>Figurines &amp; collectors</h3><p>Figurines, répliques et éditions collector des anciens GTA.</p><div class="liens"><a data-amazon="figurine GTA Grand Theft Auto">Amazon</a></div></div>
-        <div class="carte produit"><div class="emoji">☕</div><h3>Mugs, tapis de souris, LED</h3><p>Mug Vice City, tapis XXL néon, bandeau LED rose et cyan pour l'ambiance.</p><div class="liens"><a data-amazon="mug GTA Vice City">Mugs</a><a data-amazon="bandeau LED RGB chambre gaming">LED néon</a></div></div>
-        <div class="carte produit"><div class="emoji">🎧</div><h3>Casques &amp; manettes</h3><p>Pour le jour J : manette DualSense, casque Pulse Elite, chargeur double.</p><div class="liens"><a data-amazon="manette DualSense PS5">Manettes</a><a data-amazon="casque gaming PS5">Casques</a></div></div>
-        <div class="carte produit"><div class="emoji">🌴</div><h3>Boutique Vice Bay</h3><p>Merch OKALAM Studio : Vice Bay Radio et Vice Break. En préparation sur vicebayradio.store.</p><div class="liens"><a href="https://discord.gg/TSaxEnt2dG" target="_blank" rel="noopener">Être prévenu (Discord)</a></div></div>
+      <h1 class="page" data-i18n="goodies_t"></h1>
+      <p class="intro" data-i18n="goodies_i"></p>
+      <p class="maj"><i></i><span data-i18n="updated"></span></p>
+      <div class="cartes" style="margin-top:20px">
+        <div class="carte produit"><div class="emoji">👕</div><h3 data-i18n="g1"></h3><div class="liens"><a data-amazon="t-shirt GTA Rockstar Games">Amazon</a><a href="https://store.rockstargames.com/" target="_blank" rel="noopener">Rockstar Store</a></div></div>
+        <div class="carte produit"><div class="emoji">🖼️</div><h3 data-i18n="g2"></h3><div class="liens"><a data-amazon="poster GTA Vice City">Amazon</a><a href="https://www.redbubble.com/fr/shop/vice+city" target="_blank" rel="noopener">Redbubble</a></div></div>
+        <div class="carte produit"><div class="emoji">🧢</div><h3 data-i18n="g3"></h3><div class="liens"><a data-amazon="casquette GTA">Amazon</a></div></div>
+        <div class="carte produit"><div class="emoji">🧸</div><h3 data-i18n="g4"></h3><div class="liens"><a data-amazon="figurine GTA Grand Theft Auto">Amazon</a></div></div>
+        <div class="carte produit"><div class="emoji">☕</div><h3 data-i18n="g5"></h3><div class="liens"><a data-amazon="mug GTA Vice City">Mugs</a><a data-amazon="bandeau LED RGB chambre gaming">LED</a></div></div>
+        <div class="carte produit"><div class="emoji">🎧</div><h3 data-i18n="g6"></h3><div class="liens"><a data-amazon="manette DualSense PS5">DualSense</a><a data-amazon="casque gaming PS5">Headset</a></div></div>
+        <div class="carte produit"><div class="emoji">🌴</div><h3 data-i18n="g7"></h3><p data-i18n="g7d"></p><div class="liens"><a href="https://discord.gg/TSaxEnt2dG" target="_blank" rel="noopener" data-i18n="notify"></a></div></div>
       </div>
-      <p class="note">En tant que Partenaire Amazon, le site réalise un bénéfice sur les achats remplissant les conditions requises.</p>
+      <p class="note">En tant que Partenaire Amazon, le site réalise un bénéfice sur les achats remplissant les conditions requises. / As an Amazon Associate, this site earns from qualifying purchases.</p>
     </section>
     <div class="pub">Publicité</div>
+    <section>
+      <h2>🔥 <span data-i18n="deals_t"></span></h2>
+      <div class="actus" id="deals"></div>
+    </section>
   </main>
   <script src="assets/site.js"></script>
+  <script>
+    fetch("data/deals.json").then(function (r) { return r.json(); }).then(function (lst) {
+      document.getElementById("deals").innerHTML = lst.map(function (a) { return '<a class="actu" href="' + a.u + '" target="_blank" rel="noopener"><span class="src">' + a.s + '</span><b>' + a.t + '</b></a>'; }).join("");
+    });
+  </script>
 </body>
 </html>

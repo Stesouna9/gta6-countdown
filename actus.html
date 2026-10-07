@@ -2,41 +2,57 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Actus GTA 6 : trailers, reports, annonces Rockstar</title>
-  <meta name="description" content="Toutes les actualités de Grand Theft Auto VI : bandes-annonces, dates, reports, annonces officielles de Rockstar Games et sources fiables pour suivre GTA 6.">
+  <title>Actus GTA 6 : trailers, prix, annonces Rockstar, mises à jour 2 fois par jour</title>
+  <meta name="description" content="Toutes les actualités de Grand Theft Auto VI : annonces officielles Rockstar, Extended Look, prix, précommandes, et la presse du monde entier en 12 langues, mise à jour automatique 2 fois par jour.">
   <link rel="canonical" href="https://stesouna9.github.io/gta6-countdown/actus.html">
-  <meta property="og:title" content="Actus GTA 6"><meta property="og:image" content="https://img.youtube.com/vi/VQRLujxTm3c/maxresdefault.jpg">
-  <link rel="stylesheet" href="assets/style.css">
+  <meta property="og:title" content="Actus GTA 6"><meta property="og:image" content="https://img.youtube.com/vi/tJbzMqJGH4k/maxresdefault.jpg">
+  <link rel="stylesheet" href="assets/style.css"><script src="assets/i18n.js"></script>
 </head>
 <body>
   <main>
     <section>
-      <h1 class="page">Actus GTA 6</h1>
-      <p class="intro">Ce qui est confirmé par Rockstar, sans rumeur. Les sources officielles et les meilleurs sites pour suivre la fin de l'attente.</p>
-      <div class="cartes" id="actus"></div>
+      <h1 class="page" data-i18n="news_t"></h1>
+      <p class="intro" data-i18n="news_i"></p>
+      <p class="maj"><i></i><span data-i18n="updated"></span> <span id="maj-date"></span></p>
+      <h2 style="margin-top:28px">📰 <span data-i18n="news_press"></span></h2>
+      <div class="actus" id="presse"></div>
     </section>
     <div class="pub">Publicité</div>
     <section>
-      <h2>🔎 Où suivre les vraies infos</h2>
+      <h2>✅ <span data-i18n="news_official"></span></h2>
+      <div class="cartes" id="officiel"></div>
+    </section>
+    <section>
+      <h2>▶️ <span data-i18n="news_videos"></span></h2>
+      <div class="trailers" id="videos"></div>
+    </section>
+    <section>
+      <h2>🔎 <span data-i18n="news_sources"></span></h2>
       <div class="tuiles">
-        <a class="tuile" href="https://www.rockstargames.com/newswire" target="_blank" rel="noopener"><span class="emoji">📣</span><b>Rockstar Newswire</b><span>Les annonces officielles, en premier.</span></a>
-        <a class="tuile" href="https://www.rockstargames.com/VI" target="_blank" rel="noopener"><span class="emoji">🌴</span><b>rockstargames.com/VI</b><span>Personnages, lieux, artworks officiels.</span></a>
-        <a class="tuile" href="https://www.youtube.com/@RockstarGames" target="_blank" rel="noopener"><span class="emoji">▶️</span><b>YouTube Rockstar Games</b><span>Trailers en 4K.</span></a>
-        <a class="tuile" href="https://x.com/RockstarGames" target="_blank" rel="noopener"><span class="emoji">𝕏</span><b>@RockstarGames</b><span>Annonces en temps réel.</span></a>
-        <a class="tuile" href="https://www.reddit.com/r/GTA6/" target="_blank" rel="noopener"><span class="emoji">👥</span><b>r/GTA6</b><span>La communauté, analyses image par image.</span></a>
-        <a class="tuile" href="https://www.gtabase.com/gta-6/" target="_blank" rel="noopener"><span class="emoji">🗂️</span><b>GTABase</b><span>Base de données fans, cartes, véhicules.</span></a>
+        <a class="tuile" href="https://www.rockstargames.com/newswire" target="_blank" rel="noopener"><span class="emoji">📣</span><b>Rockstar Newswire</b><span>Official announcements first.</span></a>
+        <a class="tuile" href="https://www.rockstargames.com/VI" target="_blank" rel="noopener"><span class="emoji">🌴</span><b>rockstargames.com/VI</b><span>Characters, places, artworks.</span></a>
+        <a class="tuile" href="https://www.youtube.com/@RockstarGames" target="_blank" rel="noopener"><span class="emoji">▶️</span><b>YouTube Rockstar Games</b><span>4K trailers.</span></a>
+        <a class="tuile" href="https://x.com/RockstarGames" target="_blank" rel="noopener"><span class="emoji">𝕏</span><b>@RockstarGames</b><span>Real-time announcements.</span></a>
+        <a class="tuile" href="https://www.reddit.com/r/GTA6/" target="_blank" rel="noopener"><span class="emoji">👥</span><b>r/GTA6</b><span>Community, frame-by-frame analysis.</span></a>
+        <a class="tuile" href="https://www.gtabase.com/gta-6/" target="_blank" rel="noopener"><span class="emoji">🗂️</span><b>GTABase</b><span>Fan database, maps, vehicles.</span></a>
       </div>
     </section>
   </main>
   <script src="assets/site.js"></script>
   <script>
+    chargeActus(document.getElementById("presse"), 15);
+    fetch("data/meta.json").then(function (r) { return r.json(); }).then(function (m) { document.getElementById("maj-date").textContent = "· " + new Date(m.maj).toLocaleString(); }).catch(function () {});
     fetch("actus.json").then(function (r) { return r.json(); }).then(function (lst) {
-      var mois = ["janv.","févr.","mars","avr.","mai","juin","juil.","août","sept.","oct.","nov.","déc."];
-      document.getElementById("actus").innerHTML = lst.map(function (a) {
-        var d = new Date(a.date);
-        return '<a class="carte" href="' + a.lien + '" target="_blank" rel="noopener" style="text-decoration:none;color:inherit"><span class="tag">' + a.tag + '</span>' +
-          '<div class="date">' + d.getDate() + " " + mois[d.getMonth()] + " " + d.getFullYear() + '</div><h3>' + a.titre + '</h3><p>' + a.texte + '</p></a>';
+      document.getElementById("officiel").innerHTML = lst.map(function (a) {
+        return '<a class="carte" href="' + a.lien + '" target="_blank" rel="noopener" style="text-decoration:none;color:inherit"><span class="tag">' + a.tag + '</span><div class="date">' + new Date(a.date).toLocaleDateString("fr-FR") + '</div><h3>' + a.titre + '</h3><p>' + a.texte + '</p></a>';
       }).join("");
+    });
+    fetch("data/videos.json").then(function (r) { return r.json(); }).then(function (lst) {
+      var el = document.getElementById("videos");
+      el.innerHTML = lst.map(function (v) {
+        return '<div class="trailer" data-video="' + v.id + '" role="button" tabindex="0"><span class="duree">' + v.d + '</span><img src="https://img.youtube.com/vi/' + v.id + '/hqdefault.jpg" alt="" loading="lazy"><div class="jouer"><div class="rond">▶</div><div class="etiquette">' + v.t + '</div></div></div>';
+      }).join("");
+      el.querySelectorAll(".trailer").forEach(function (c) { c.addEventListener("click", function () { c.innerHTML = '<iframe src="https://www.youtube-nocookie.com/embed/' + c.dataset.video + '?autoplay=1&rel=0" allow="autoplay; encrypted-media" allowfullscreen></iframe>'; }); });
     });
   </script>
 </body>

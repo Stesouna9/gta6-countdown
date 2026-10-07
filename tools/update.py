@@ -1,0 +1,71 @@
+#!/usr/bin/env python3
+"""Mise à jour automatique (2 fois par jour via GitHub Actions) :
+- data/news_<lang>.json : dernières actus GTA 6 par langue (Google News RSS)
+- data/videos.json      : dernières vidéos GTA de la chaîne YouTube Rockstar Games
+- data/deals.json       : offres et prix repérés dans les actus (précommandes, consoles)
+Bibliothèque standard uniquement."""
+import json, re, html, urllib.request, xml.etree.ElementTree as ET
+from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent / "data"
+ROOT.mkdir(exist_ok=True)
+UA = {"User-Agent": "Mozilla/5.0 (gta6-countdown updater)"}
+LANGS = {  # code : (hl, gl, ceid, requête)
+    "fr": ("fr", "FR", "FR:fr", "GTA 6"), "en": ("en-US", "US", "US:en", "GTA 6"),
+    "es": ("es", "ES", "ES:es", "GTA 6"), "pt": ("pt-BR", "BR", "BR:pt-419", "GTA 6"),
+    "de": ("de", "DE", "DE:de", "GTA 6"), "it": ("it", "IT", "IT:it", "GTA 6"),
+    "ja": ("ja", "JP", "JP:ja", "GTA6"), "zh": ("zh-CN", "CN", "CN:zh-Hans", "GTA6"),
+    "ar": ("ar", "SA", "SA:ar", "GTA 6"), "hi": ("hi", "IN", "IN:hi", "GTA 6"),
+    "ru": ("ru", "RU", "RU:ru", "GTA 6"), "ko": ("ko", "KR", "KR:ko", "GTA 6"),
+}
+
+def get(url):
+    with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=30) as r:
+        return r.read()
+
+def news(lang):
+    hl, gl, ceid, q = LANGS[lang]
+    url = f"https://news.google.com/rss/search?q={urllib.request.quote(q)}&hl={hl}&gl={gl}&ceid={ceid}"
+    items = []
+    for it in ET.fromstring(get(url)).iter("item"):
+        titre = html.unescape(it.findtext("title") or "")
+        src = it.find("source")
+        src = src.text if src is not None else ""
+        titre = re.sub(r"\s+-\s+" + re.escape(src) + r"$", "", titre) if src else titre
+        try: d = parsedate_to_datetime(it.findtext("pubDate")).astimezone(timezone.utc).isoformat()
+        except Exception: d = ""
+        items.append({"t": titre, "u": it.findtext("link"), "s": src, "d": d})
+    items.sort(key=lambda x: x["d"], reverse=True)
+    return items[:15]
+
+def videos():
+    url = "https://www.youtube.com/feeds/videos.xml?channel_id=UCULwHhkI31JHAKe57LZdzcA"
+    ns = {"a": "http://www.w3.org/2005/Atom", "yt": "http://www.youtube.com/xml/schemas/2015", "m": "http://search.yahoo.com/mrss/"}
+    out = []
+    for e in ET.fromstring(get(url)).findall("a:entry", ns):
+        t = e.findtext("a:title", "", ns)
+        if not re.search(r"GTA|Grand Theft Auto|VI\b", t, re.I): continue
+        out.append({"t": t, "id": e.findtext("yt:videoId", "", ns), "d": e.findtext("a:published", "", ns)[:10]})
+    return out[:8]
+
+def deals(all_news):
+    mots = re.compile(r"pr[ée]commande|pre-?order|prix|price|promo|bon plan|deal|offre|PS5|Xbox|console|€|\$", re.I)
+    vus, out = set(), []
+    for lang in ("fr", "en"):
+        for n in all_news.get(lang, []):
+            if mots.search(n["t"]) and n["u"] not in vus:
+                vus.add(n["u"]); out.append(dict(n, lang=lang))
+    return out[:12]
+
+if __name__ == "__main__":
+    all_news, erreurs = {}, []
+    for lang in LANGS:
+        try: all_news[lang] = news(lang); (ROOT / f"news_{lang}.json").write_text(json.dumps(all_news[lang], ensure_ascii=False))
+        except Exception as e: erreurs.append(f"{lang}: {e}")
+    try: (ROOT / "videos.json").write_text(json.dumps(videos(), ensure_ascii=False))
+    except Exception as e: erreurs.append(f"videos: {e}")
+    (ROOT / "deals.json").write_text(json.dumps(deals(all_news), ensure_ascii=False))
+    (ROOT / "meta.json").write_text(json.dumps({"maj": datetime.now(timezone.utc).isoformat(), "erreurs": erreurs}))
+    print("OK", {k: len(v) for k, v in all_news.items()}, "erreurs:", erreurs)

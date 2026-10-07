@@ -2,34 +2,34 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vice Break : casse-briques néon 1986, iOS et Android</title>
-  <meta name="description" content="Vice Break, le casse-briques néon d'OKALAM Studio : 100 niveaux, Vice Bay Radio intégrée, sortie sur iOS et Android le 19 novembre 2026, le même jour que GTA 6.">
+  <title>Vice Break : casse-briques néon 1986, iOS et Android, sortie le 19 novembre 2026</title>
+  <meta name="description" content="Vice Break, le casse-briques néon d'OKALAM Studio : 100 niveaux, Vice Bay Radio intégrée, gratuit, sortie sur iOS et Android le 19 novembre 2026, le même jour que GTA 6.">
   <link rel="canonical" href="https://stesouna9.github.io/gta6-countdown/vicebreak.html">
   <meta property="og:title" content="Vice Break, iOS et Android">
-  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="assets/style.css"><script src="assets/i18n.js"></script>
 </head>
 <body>
   <main>
     <section>
       <div class="vb-hero">
-        <h2>VICE BREAK</h2>
-        <p class="intro" style="margin:10px auto 0;color:#F5E3C3">Casse-briques néon, Vice Bay 1986. 100 niveaux, boss, bonus, et la radio en fond. Le temps que ton téléchargement de GTA 6 se termine, tu auras fini le chapitre 1.</p>
-        <p class="date-officielle" style="margin-top:18px">📅 Sortie : 19 novembre 2026, le jour J</p>
+        <div class="sun"></div><div class="grille"></div>
+        <h1 class="vb-titre" data-i18n="vb_t"></h1>
+        <div class="briques"><i style="color:#ff2e88;background:#ff2e88"></i><i style="color:#22e5ff;background:#22e5ff"></i><i style="color:#ffd34f;background:#ffd34f"></i><i style="color:#ff6f59;background:#ff6f59"></i><i style="color:#7b2ff7;background:#7b2ff7"></i><i style="color:#3cff8a;background:#3cff8a"></i><i style="color:#ff2e88;background:#ff2e88"></i><i style="color:#22e5ff;background:#22e5ff"></i></div>
+        <p class="intro" data-i18n="vb_i"></p>
+        <p class="date-officielle" style="margin-top:14px">📅 <span data-i18n="vb_date"></span></p>
         <div class="stores">
-          <a class="store" id="store-ios" href="https://okalamstudio.com/vicebreak.html" target="_blank" rel="noopener">🍎 <span>App Store<small>iPhone &amp; iPad · bientôt</small></span></a>
-          <a class="store" id="store-android" href="https://okalamstudio.com/vicebreak.html" target="_blank" rel="noopener">▶ <span>Google Play<small>Android · bientôt</small></span></a>
+          <a class="store" id="store-ios" href="https://okalamstudio.com/vicebreak.html" target="_blank" rel="noopener"><span class="ic"></span><span><span data-i18n="vb_ios"></span><small data-i18n="soon"></small></span></a>
+          <a class="store" id="store-android" href="https://okalamstudio.com/vicebreak.html" target="_blank" rel="noopener"><span class="ic">▶</span><span><span data-i18n="vb_and"></span><small data-i18n="soon"></small></span></a>
         </div>
-        <div class="boutons" style="justify-content:center">
-          <a class="btn sec" href="https://discord.gg/TSaxEnt2dG" target="_blank" rel="noopener">Rejoindre le Discord pour la bêta</a>
-        </div>
+        <div class="boutons" style="justify-content:center"><a class="btn sec" style="color:#fff;border-color:rgba(255,255,255,.4)" href="https://discord.gg/TSaxEnt2dG" target="_blank" rel="noopener" data-i18n="vb_discord"></a></div>
       </div>
     </section>
     <section>
       <div class="cartes">
-        <div class="carte"><div class="emoji">🧱</div><h3>100 niveaux</h3><p>De la plage aux gratte-ciel, chaque zone de Vice Bay a ses briques, ses pièges et son boss.</p></div>
-        <div class="carte"><div class="emoji">📻</div><h3>Vice Bay Radio intégrée</h3><p>Les six stations FM jouables en fond, avec animateurs et jingles. Change de fréquence sans quitter la partie.</p></div>
-        <div class="carte"><div class="emoji">🎨</div><h3>Style néon 1986</h3><p>Soleil synthwave, grille cyan, palette magenta et or. Un hommage assumé à l'âge d'or de Vice City.</p></div>
-        <div class="carte"><div class="emoji">🆓</div><h3>Gratuit</h3><p>Jeu gratuit financé par la pub et une petite boutique de bonus. Aucune pub pendant les niveaux.</p></div>
+        <div class="carte"><div class="emoji">🧱</div><h3 data-i18n="vb_1t"></h3><p data-i18n="vb_1"></p></div>
+        <div class="carte"><div class="emoji">📻</div><h3 data-i18n="vb_2t"></h3><p data-i18n="vb_2"></p></div>
+        <div class="carte"><div class="emoji">🎨</div><h3 data-i18n="vb_3t"></h3><p data-i18n="vb_3"></p></div>
+        <div class="carte"><div class="emoji">🆓</div><h3 data-i18n="vb_4t"></h3><p data-i18n="vb_4"></p></div>
       </div>
     </section>
     <div class="pub">Publicité</div>
@@ -38,8 +38,8 @@
   <script>
     // Dès que les fiches existent, renseigner ici : les boutons pointent directement vers les stores.
     var STORES = { ios: "", android: "" };
-    if (STORES.ios) { var a = document.getElementById("store-ios"); a.href = STORES.ios; a.querySelector("small").textContent = "iPhone & iPad"; }
-    if (STORES.android) { var b = document.getElementById("store-android"); b.href = STORES.android; b.querySelector("small").textContent = "Android"; }
+    if (STORES.ios) { var a = document.getElementById("store-ios"); a.href = STORES.ios; a.querySelector("small").removeAttribute("data-i18n"); a.querySelector("small").textContent = "iPhone & iPad"; }
+    if (STORES.android) { var b = document.getElementById("store-android"); b.href = STORES.android; b.querySelector("small").removeAttribute("data-i18n"); b.querySelector("small").textContent = "Android"; }
   </script>
 </body>
 </html>

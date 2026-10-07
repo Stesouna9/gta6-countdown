@@ -6,26 +6,20 @@ window.SITE = {
   adsensePub: "ca-pub-8121423865459620", // même identifiant éditeur que l'AdMob OKALAM
   discord: "https://discord.gg/TSaxEnt2dG",
   radio: "https://vicebayradio.com",
-  vicebreak: "https://okalamstudio.com/vicebreak.html"
+  vicebreak: "https://okalamstudio.com/vicebreak.html",
+  petition: "https://www.change.org/p/add-arabic-language-support-in-gta-vi"
 };
 
 (function () {
-  var pages = [
-    ["index.html", "Compte à rebours"],
-    ["actus.html", "Actus"],
-    ["radio.html", "Vice Bay Radio"],
-    ["vicebreak.html", "Vice Break"],
-    ["goodies.html", "Goodies"],
-    ["acheter.html", "Jeu & consoles"]
-  ];
+  var pages = [["index.html", "nav_home"], ["actus.html", "nav_news"], ["radio.html", "nav_radio"], ["vicebreak.html", "nav_vb"], ["goodies.html", "nav_goodies"], ["acheter.html", "nav_buy"]];
   var ici = location.pathname.split("/").pop() || "index.html";
   var nav = document.createElement("nav");
   nav.className = "nav";
-  nav.innerHTML = '<a class="logo" href="index.html">GTA VI · J-?</a>' +
-    pages.map(function (p) {
-      return '<a href="' + p[0] + '"' + (p[0] === ici ? ' class="actif"' : "") + ">" + p[1] + "</a>";
-    }).join("") + '<span class="jours" id="nav-jours"></span>';
+  nav.innerHTML = '<a class="logo" href="index.html">GTA VI</a>' +
+    pages.map(function (p) { return '<a href="' + p[0] + '"' + (p[0] === ici ? ' class="actif"' : "") + ' data-i18n="' + p[1] + '"></a>'; }).join("") +
+    '<span class="jours" id="nav-jours"></span><select class="lang" id="lang" aria-label="Language">' + langOptions() + "</select>";
   document.body.prepend(nav);
+  document.getElementById("lang").addEventListener("change", function () { setLang(this.value); });
 
   var footer = document.createElement("footer");
   footer.innerHTML = '<div class="liens">' +
@@ -33,28 +27,36 @@ window.SITE = {
     '<a href="' + SITE.vicebreak + '" target="_blank" rel="noopener">Vice Break</a>' +
     '<a href="' + SITE.discord + '" target="_blank" rel="noopener">Discord</a>' +
     '<a href="https://okalamstudio.com" target="_blank" rel="noopener">OKALAM Studio</a>' +
-    '<a href="mentions.html">Mentions &amp; affiliation</a></div>' +
-    "Site de fans non officiel, édité par OKALAM Studio. GTA et Grand Theft Auto sont des marques de Take-Two Interactive / Rockstar Games. " +
-    "Vidéos intégrées depuis la chaîne YouTube officielle de Rockstar Games. Certains liens sont affiliés : le site touche une petite commission sans surcoût pour vous.";
+    '<a href="mentions.html" data-i18n="mentions"></a></div><p data-i18n="foot"></p>';
   document.body.append(footer);
 
-  // Jours restants dans la barre de navigation
   function jours() {
     var d = Math.ceil((new Date(SITE.sortie) - Date.now()) / 86400000);
-    var el = document.getElementById("nav-jours");
-    var logo = nav.querySelector(".logo");
-    if (d > 0) { el.textContent = "J-" + d; logo.textContent = "GTA VI · J-" + d; }
-    else { el.textContent = "Disponible"; logo.textContent = "GTA VI"; }
+    document.getElementById("nav-jours").textContent = d > 0 ? "J-" + d : "🎉";
+    nav.querySelector(".logo").textContent = d > 0 ? "GTA VI · J-" + d : "GTA VI";
   }
   jours(); setInterval(jours, 60000);
 
-  // Liens Amazon affiliés : <a data-amazon="requête">
   document.querySelectorAll("[data-amazon]").forEach(function (a) {
     a.href = "https://www.amazon.fr/s?k=" + encodeURIComponent(a.dataset.amazon) + "&tag=" + SITE.amazonTag;
     a.target = "_blank"; a.rel = "noopener sponsored";
   });
 
-  // Publicité Google AdSense (annonces automatiques). Active seulement si le domaine est approuvé.
+  // Actus automatiques (data/news_<lang>.json), générées 2 fois par jour par tools/update.py
+  window.chargeActus = function (el, n) {
+    function rend(l) {
+      fetch("data/news_" + l + ".json").then(function (r) { return r.json(); }).then(function (lst) {
+        el.innerHTML = lst.slice(0, n).map(function (a) {
+          var d = a.d ? new Date(a.d) : null;
+          return '<a class="actu" href="' + a.u + '" target="_blank" rel="noopener"><span class="src">' + (a.s || "") + (d ? " · " + d.toLocaleDateString(l === "ar" ? "ar" : l) : "") + '</span><b>' + a.t + "</b></a>";
+        }).join("");
+      }).catch(function () { el.innerHTML = ""; });
+    }
+    rend(window.LANG || "fr");
+    document.addEventListener("langchange", function (e) { rend(e.detail); });
+  };
+
+  // Publicité Google AdSense (annonces automatiques). Active seulement sur un domaine approuvé.
   if (SITE.adsensePub && !/github\.io$|localhost/.test(location.hostname)) {
     var s = document.createElement("script");
     s.async = true; s.crossOrigin = "anonymous";

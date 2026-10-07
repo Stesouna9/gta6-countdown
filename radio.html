@@ -6,26 +6,29 @@
   <meta name="description" content="Écoute Vice Bay Radio en direct : Tropicana, Déjà Vu, Emotion, Sunset Drive, Neon et Volt. Six stations FM fictives de 1986, synthwave, chiptune, salsa et jazz, dans l'esprit Vice City.">
   <link rel="canonical" href="https://stesouna9.github.io/gta6-countdown/radio.html">
   <meta property="og:title" content="Vice Bay Radio"><meta property="og:image" content="https://vicebayradio.com/img/og.jpg">
-  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="assets/style.css"><script src="assets/i18n.js"></script>
 </head>
 <body>
   <main>
     <section>
-      <h1 class="page">Vice Bay Radio</h1>
-      <p class="intro">Les stations FM de Vice Bay, 1986. Animateurs, jingles et pubs d'époque, musique libre de droits. Le lecteur tourne en fond pendant que tu lis les actus.</p>
-      <div class="radio" id="radio"></div>
-      <div class="boutons">
-        <a class="btn" href="https://vicebayradio.com" target="_blank" rel="noopener">Le vrai poste avec cadran →</a>
-        <a class="btn sec" href="https://discord.gg/TSaxEnt2dG" target="_blank" rel="noopener">Discord Vice Bay</a>
+      <div class="radio-wrap">
+        <div class="sun"></div><div class="grille"></div>
+        <h1 class="page" style="color:#fff;-webkit-text-fill-color:#fff;filter:drop-shadow(0 0 24px #ff2e88)">Vice Bay Radio</h1>
+        <p class="intro" data-i18n="radio_i"></p>
+        <div class="radio" id="radio"></div>
+        <div class="boutons">
+          <a class="btn or" href="https://vicebayradio.com" target="_blank" rel="noopener" data-i18n="radio_full"></a>
+          <a class="btn sec" style="color:#fff;border-color:rgba(255,255,255,.4)" href="https://discord.gg/TSaxEnt2dG" target="_blank" rel="noopener">Discord</a>
+        </div>
       </div>
     </section>
     <div class="pub">Publicité</div>
     <section>
-      <h2>📱 L'application Vice Bay Radio</h2>
-      <p class="intro">Bientôt sur iPhone et Android : les six stations dans ta poche, lecture en arrière-plan, verrouillage d'écran. Même univers que Vice Break.</p>
+      <h2>📱 Vice Bay Radio App</h2>
+      <p class="intro" data-i18n="radio_app"></p>
       <div class="stores">
-        <span class="store off">🍎 <span>App Store<small>Bientôt</small></span></span>
-        <span class="store off">▶ <span>Google Play<small>Bientôt</small></span></span>
+        <span class="store"><span class="ic"></span><span>App Store<small data-i18n="soon"></small></span></span>
+        <span class="store"><span class="ic">▶</span><span>Google Play<small data-i18n="soon"></small></span></span>
       </div>
     </section>
   </main>
