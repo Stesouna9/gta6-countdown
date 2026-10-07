@@ -19,7 +19,26 @@ LANGS = {  # code : (hl, gl, ceid, requête)
     "ja": ("ja", "JP", "JP:ja", "GTA6"), "zh": ("zh-CN", "CN", "CN:zh-Hans", "GTA6"),
     "ar": ("ar", "SA", "SA:ar", "GTA 6"), "hi": ("hi", "IN", "IN:hi", "GTA 6"),
     "ru": ("ru", "RU", "RU:ru", "GTA 6"), "ko": ("ko", "KR", "KR:ko", "GTA 6"),
+    "tw": ("zh-TW", "TW", "TW:zh-Hant", "GTA6"), "tr": ("tr", "TR", "TR:tr", "GTA 6"),
+    "id": ("id", "ID", "ID:id", "GTA 6"), "pl": ("pl", "PL", "PL:pl", "GTA 6"),
+    "vi": ("vi", "VN", "VN:vi", "GTA 6"),
 }
+TRAILERS = ["QdBZY2fkU-0", "VQRLujxTm3c", "tJbzMqJGH4k", "evtZ-L7FIbw"]
+
+def vues():
+    """Historique des vues YouTube des trailers : data/vues.json {date: {id: vues}}, 90 jours max."""
+    f = ROOT / "vues.json"
+    h = json.loads(f.read_text()) if f.exists() else {}
+    jour = {}
+    for v in TRAILERS:
+        try:
+            m = re.search(rb'"viewCount":"(\d+)"', get(f"https://www.youtube.com/watch?v={v}&hl=en"))
+            if m: jour[v] = int(m.group(1))
+        except Exception: pass
+    if jour: h[datetime.now(timezone.utc).date().isoformat()] = jour
+    h = dict(sorted(h.items())[-90:])
+    f.write_text(json.dumps(h))
+    return jour
 
 def get(url):
     with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=30) as r:
@@ -66,6 +85,8 @@ if __name__ == "__main__":
         except Exception as e: erreurs.append(f"{lang}: {e}")
     try: (ROOT / "videos.json").write_text(json.dumps(videos(), ensure_ascii=False))
     except Exception as e: erreurs.append(f"videos: {e}")
+    try: print("vues", vues())
+    except Exception as e: erreurs.append(f"vues: {e}")
     (ROOT / "deals.json").write_text(json.dumps(deals(all_news), ensure_ascii=False))
     (ROOT / "meta.json").write_text(json.dumps({"maj": datetime.now(timezone.utc).isoformat(), "erreurs": erreurs}))
     print("OK", {k: len(v) for k, v in all_news.items()}, "erreurs:", erreurs)

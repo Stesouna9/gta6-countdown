@@ -1,0 +1,75 @@
+{
+ "game": "Grand Theft Auto VI",
+ "developer": "Rockstar Games",
+ "publisher": "Take-Two Interactive",
+ "release_date": "2026-11-19",
+ "days_left": 43,
+ "platforms": [
+  "PlayStation 5",
+  "Xbox Series X|S"
+ ],
+ "pc_at_launch": false,
+ "preload_date": "2026-11-12",
+ "prices": {
+  "standard": {
+   "USD": 79.99,
+   "EUR": 79.99,
+   "GBP": 69.99
+  },
+  "ultimate": {
+   "USD": 99.99,
+   "EUR": 99.99,
+   "GBP": 89.99
+  }
+ },
+ "preorder_bonus": "Vintage Vice City Pack",
+ "age_rating": {
+  "PEGI": 18,
+  "ESRB": "M"
+ },
+ "setting": {
+  "state": "Leonida",
+  "city": "Vice City",
+  "regions": [
+   "Vice City",
+   "Leonida Keys",
+   "Grassrivers",
+   "Port Gellhorn",
+   "Ambrosia",
+   "Mount Kalaga National Park"
+  ]
+ },
+ "protagonists": [
+  "Lucia Caminos",
+  "Jason Duval"
+ ],
+ "launch_languages": 13,
+ "arabic_at_launch": false,
+ "trailers": [
+  {
+   "name": "Trailer 1",
+   "date": "2023-12-05",
+   "youtube": "QdBZY2fkU-0"
+  },
+  {
+   "name": "Trailer 2",
+   "date": "2025-05-06",
+   "youtube": "VQRLujxTm3c"
+  },
+  {
+   "name": "An Extended Look",
+   "date": "2026-08-27",
+   "youtube": "tJbzMqJGH4k"
+  }
+ ],
+ "unknown_yet": [
+  "unlock_time",
+  "download_size",
+  "pc_release_date",
+  "gta_online_details"
+ ],
+ "facts_checked": "2026-10-07",
+ "generated": "2026-10-07T11:41:49Z",
+ "source": "https://stesouna9.github.io/gta6-countdown/",
+ "license": "CC BY 4.0, link back to https://stesouna9.github.io/gta6-countdown/"
+}

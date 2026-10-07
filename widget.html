@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr" data-l="fr" data-loc="0">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="robots" content="noindex">
+  <title>GTA VI countdown widget</title>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=JetBrains+Mono:wght@700&display=swap" rel="stylesheet">
+  <style>
+    html,body{margin:0;height:100%;background:#16111d;color:#f2e8d5;font-family:"JetBrains Mono",monospace}
+    body.transparent{background:transparent}
+    a{color:inherit;text-decoration:none;display:flex;flex-direction:column;justify-content:center;height:100%;padding:0 22px;box-sizing:border-box;border:3px solid #f2e8d5;box-shadow:inset 0 -10px 0 #ff3b7a}
+    .j{font-family:Anton,sans-serif;font-size:clamp(48px,16vw,96px);line-height:.9;color:#ffc93c}
+    .t{font-size:13px;letter-spacing:.18em;text-transform:uppercase;margin-top:8px}
+    .s{font-size:11px;opacity:.7;margin-top:10px}
+  </style>
+  <script>
+    var m = location.search.match(/[?&]l=([a-z]{2})/), L = m ? m[1] : "fr";
+    document.write('<script src="assets/lang/' + L + '.js"><\/script>');
+  </script>
+</head>
+<body>
+  <a href="https://stesouna9.github.io/gta6-countdown/" target="_blank" rel="noopener"><span class="j" id="j"></span><span class="t" id="t"></span><span class="s" id="s">VI Countdown · stesouna9.github.io/gta6-countdown</span></a>
+  <script>
+    if (/[?&]t=1/.test(location.search)) document.body.className = "transparent";
+    var D = (window.I18N && I18N[L]) || {}, sortie = new Date("2026-11-19T00:00:00+01:00");
+    function tick() {
+      var ms = sortie - Date.now(), j = Math.floor(ms / 864e5), h = Math.floor(ms % 864e5 / 36e5), mi = Math.floor(ms % 36e5 / 6e4), s = Math.floor(ms % 6e4 / 1e3);
+      if (ms <= 0) { document.getElementById("j").textContent = "GTA VI"; document.getElementById("t").textContent = "19.11.2026"; return; }
+      document.getElementById("j").textContent = j + " " + (D.w_jours || "days");
+      document.getElementById("t").textContent = String(h).padStart(2, "0") + ":" + String(mi).padStart(2, "0") + ":" + String(s).padStart(2, "0") + " · " + (D.w_avant || "until GTA VI");
+    }
+    tick(); setInterval(tick, 1000);
+  </script>
+</body>
+</html>

@@ -12,14 +12,21 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
-      - run: python tools/update.py && python tools/prerender.py
+      - run: pip install --quiet pillow
+      - run: python tools/update.py && python tools/images.py && python tools/prerender.py
       - run: |
           git config user.name "gta6-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add -A data sitemap.xml feed.xml *.html
+          git add -A .
           git diff --cached --quiet || git commit -m "data: mise à jour automatique $(date -u +%F' '%H:%M)"
           git push
-      - name: IndexNow (Bing, Yandex, Naver)
+      - name: IndexNow (Bing, Yandex, Naver, Seznam)
         run: |
-          B=https://stesouna9.github.io/gta6-countdown
-          curl -s -o /dev/null -w "indexnow %{http_code}\n" -H "Content-Type: application/json" https://api.indexnow.org/indexnow -d "{\"host\":\"stesouna9.github.io\",\"key\":\"17bf4b50ddfe396b52df541315db512c\",\"keyLocation\":\"$B/17bf4b50ddfe396b52df541315db512c.txt\",\"urlList\":[\"$B/\",\"$B/actus.html\",\"$B/faq.html\",\"$B/acheter.html\",\"$B/goodies.html\"]}"
+          python3 - <<'PY'
+          import json, re, urllib.request
+          urls = re.findall(r"<loc>([^<]+)</loc>", open("sitemap.xml").read())
+          host = urls[0].split("/")[2]; base = urls[0]
+          body = json.dumps({"host": host, "key": "17bf4b50ddfe396b52df541315db512c", "keyLocation": base + "17bf4b50ddfe396b52df541315db512c.txt", "urlList": urls}).encode()
+          r = urllib.request.urlopen(urllib.request.Request("https://api.indexnow.org/indexnow", body, {"Content-Type": "application/json"}), timeout=30)
+          print("indexnow", r.status, len(urls), "URL")
+          PY

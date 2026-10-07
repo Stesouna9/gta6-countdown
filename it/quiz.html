@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr" data-l="it" data-root="../">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--meta-->
+  <title>Quiz: quale personaggio di GTA 6 sei? | VI Countdown</title>
+  <meta name="description" content="Lucia, Jason, Cal o Raul? Cinque domande per scoprire quale personaggio di Leonida saresti.">
+  <link rel="canonical" href="https://stesouna9.github.io/gta6-countdown/it/quiz.html">
+  <meta property="og:type" content="website"><meta property="og:site_name" content="VI Countdown"><meta property="og:locale" content="it_IT">
+  <meta property="og:title" content="Quiz: quale personaggio di GTA 6 sei? | VI Countdown"><meta property="og:description" content="Lucia, Jason, Cal o Raul? Cinque domande per scoprire quale personaggio di Leonida saresti."><meta property="og:url" content="https://stesouna9.github.io/gta6-countdown/it/quiz.html">
+  <meta property="og:image" content="https://stesouna9.github.io/gta6-countdown/assets/og/it/quiz.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;800&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;700&family=Lalezar&display=swap">
+  <link rel="manifest" href="../manifest.webmanifest"><meta name="theme-color" content="#16111d">
+  <link rel="icon" href="../assets/icons/icon-192.png" sizes="192x192"><link rel="apple-touch-icon" href="../assets/icons/icon-180.png">
+  <link rel="alternate" hreflang="fr" href="https://stesouna9.github.io/gta6-countdown/quiz.html">
+  <link rel="alternate" hreflang="en" href="https://stesouna9.github.io/gta6-countdown/en/quiz.html">
+  <link rel="alternate" hreflang="es" href="https://stesouna9.github.io/gta6-countdown/es/quiz.html">
+  <link rel="alternate" hreflang="pt" href="https://stesouna9.github.io/gta6-countdown/pt/quiz.html">
+  <link rel="alternate" hreflang="de" href="https://stesouna9.github.io/gta6-countdown/de/quiz.html">
+  <link rel="alternate" hreflang="it" href="https://stesouna9.github.io/gta6-countdown/it/quiz.html">
+  <link rel="alternate" hreflang="ja" href="https://stesouna9.github.io/gta6-countdown/ja/quiz.html">
+  <link rel="alternate" hreflang="zh-Hans" href="https://stesouna9.github.io/gta6-countdown/zh/quiz.html">
+  <link rel="alternate" hreflang="zh-Hant" href="https://stesouna9.github.io/gta6-countdown/tw/quiz.html">
+  <link rel="alternate" hreflang="ar" href="https://stesouna9.github.io/gta6-countdown/ar/quiz.html">
+  <link rel="alternate" hreflang="hi" href="https://stesouna9.github.io/gta6-countdown/hi/quiz.html">
+  <link rel="alternate" hreflang="ru" href="https://stesouna9.github.io/gta6-countdown/ru/quiz.html">
+  <link rel="alternate" hreflang="ko" href="https://stesouna9.github.io/gta6-countdown/ko/quiz.html">
+  <link rel="alternate" hreflang="tr" href="https://stesouna9.github.io/gta6-countdown/tr/quiz.html">
+  <link rel="alternate" hreflang="id" href="https://stesouna9.github.io/gta6-countdown/id/quiz.html">
+  <link rel="alternate" hreflang="pl" href="https://stesouna9.github.io/gta6-countdown/pl/quiz.html">
+  <link rel="alternate" hreflang="vi" href="https://stesouna9.github.io/gta6-countdown/vi/quiz.html">
+  <link rel="alternate" hreflang="x-default" href="https://stesouna9.github.io/gta6-countdown/quiz.html">
+  <link rel="alternate" type="application/rss+xml" title="GTA 6" href="https://stesouna9.github.io/gta6-countdown/feed.xml">
+  <script type="application/ld+json" data-gen>{"@context": "https://schema.org", "@graph": [{"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "VI Countdown", "item": "https://stesouna9.github.io/gta6-countdown/it/"}, {"@type": "ListItem", "position": 2, "name": "Quiz: quale personaggio di GTA 6 sei?", "item": "https://stesouna9.github.io/gta6-countdown/it/quiz.html"}]}]}</script>
+  <!--/meta-->
+  <link rel="stylesheet" href="../assets/style.css"><script src="../assets/lang/it.js"></script><script src="../assets/i18n.js"></script>
+</head>
+<body>
+
+  <header class="tete-page or"><div class="wrap"><span class="kicker">Quiz · 5 questions</span><h1 data-i18n="qz_t">Quale personaggio di Leonida sei?</h1><p data-i18n="qz_i">Cinque domande, nessuna risposta giusta. Solo la verità su di te.</p></div></header>
+  <section class="papier"><div class="wrap"><div id="quiz" class="quiz"></div></div></section>
+  <div class="pub vide"></div>
+  <script>
+  (function () {
+    var P = { L: "Lucia Caminos", J: "Jason Duval", C: "Cal Hampton", R: "Raul Bautista" }, ordre = ["L", "J", "C", "R"];
+    var q = 0, score, el = document.getElementById("quiz");
+    function debut() { q = 0; score = { L: 0, J: 0, C: 0, R: 0 }; rend(); }
+    function rend() {
+      if (q < 5) {
+        var n = q + 1;
+        el.innerHTML = '<p class="kicker">' + n + " / 5</p><h2>" + T("qz" + n) + '</h2><div class="choix">' +
+          ["a", "b", "c", "d"].map(function (x, i) { return '<button class="btn clair" data-p="' + ordre[i] + '">' + T("qz" + n + x) + "</button>"; }).join("") + "</div>";
+      } else {
+        var g = ordre.reduce(function (a, b) { return score[b] > score[a] ? b : a; });
+        var u = SITE.base + (LANG === "fr" ? "" : LANG + "/") + "quiz.html", t = T("qz_res") + " " + P[g] + ". " + T("qz_t");
+        el.innerHTML = '<p class="kicker">' + T("qz_res") + '</p><h2 class="res">' + P[g] + "</h2><p class=\"serif\">" + T("qz" + g) + '</p><div class="choix">' +
+          '<a class="btn" target="_blank" rel="noopener" href="https://x.com/intent/post?text=' + encodeURIComponent(t) + "&url=" + encodeURIComponent(u) + '">' + T("qz_share") + "</a>" +
+          '<button class="btn clair" data-re>' + T("qz_again") + "</button></div>";
+      }
+    }
+    el.addEventListener("click", function (e) {
+      var b = e.target.closest("button"); if (!b) return;
+      if (b.hasAttribute("data-re")) return debut();
+      score[b.getAttribute("data-p")]++; q++; rend();
+    });
+    document.addEventListener("langchange", function () { if (!score) debut(); else rend(); });
+  })();
+  </script>
+  <script src="../assets/site.js"></script>
+</body>
+</html>

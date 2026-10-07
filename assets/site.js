@@ -7,11 +7,15 @@ window.SITE = {
   discord: "https://discord.gg/TSaxEnt2dG",
   radio: "https://vicebayradio.com",
   vicebreak: "https://okalamstudio.com/vicebreak.html",
-  petition: "https://www.change.org/p/add-arabic-language-support-in-gta-vi"
+  petition: "https://www.change.org/p/add-arabic-language-support-in-gta-vi",
+  verif: "2026-10-07",                   // date de dernière vérification des faits
+  base: "https://stesouna9.github.io/gta6-countdown/"
 };
 
 (function () {
-  var pages = [["index.html", "nav_home"], ["actus.html", "nav_news"], ["radio.html", "nav_radio"], ["vicebreak.html", "nav_vb"], ["goodies.html", "nav_goodies"], ["acheter.html", "nav_buy"], ["faq.html", "nav_faq"]];
+  var pages = [["index.html", "nav_home"], ["actus.html", "nav_news"], ["sortie.html", "nav_sortie"], ["guide.html", "nav_guide"], ["radio.html", "nav_radio"], ["vicebreak.html", "nav_vb"], ["acheter.html", "nav_buy"], ["faq.html", "nav_faq"]];
+  var plus = [["goodies.html", "nav_goodies"], ["vraifaux.html", "nav_vf"], ["quiz.html", "nav_quiz"], ["arabe.html", "nav_arabe"], ["integrer.html", "nav_int"], ["apropos.html", "nav_about"]];
+  var R = window.ROOT || "";
   var ici = location.pathname.split("/").pop() || "index.html";
   var nav = document.createElement("nav");
   nav.className = "nav";
@@ -22,10 +26,11 @@ window.SITE = {
   document.getElementById("lang").addEventListener("change", function () { setLang(this.value); });
 
   var footer = document.createElement("footer");
-  footer.innerHTML = '<div class="wrap"><div class="marque">Leonida</div><div class="bas"><div>' +
+  footer.innerHTML = '<div class="wrap"><div class="marque">Leonida</div><nav class="plan"><b data-i18n="foot_plus"></b>' +
+    pages.concat(plus).map(function (p) { return '<a href="' + p[0] + '" data-i18n="' + p[1] + '"></a>'; }).join("") + '<a href="' + R + 'feed.xml">RSS</a></nav><div class="bas"><div>' +
     '<div class="liens"><a href="' + SITE.radio + '" target="_blank" rel="noopener">Vice Bay Radio</a>' +
     '<a href="vicebreak.html">Vice Break</a><a href="' + SITE.discord + '" target="_blank" rel="noopener">Discord</a>' +
-    '<a href="https://okalamstudio.com" target="_blank" rel="noopener">OKALAM Studio</a><a href="mentions.html" data-i18n="mentions"></a></div>' +
+    '<a href="https://okalamstudio.com" target="_blank" rel="noopener">OKALAM Studio</a><a href="' + R + 'mentions.html" data-i18n="mentions"></a></div>' +
     '<p data-i18n="foot"></p></div><div class="okalam">OKALAM Studio<br>Nantes · ' + new Date().getFullYear() + "</div></div></div>";
   document.body.append(footer);
 
@@ -43,7 +48,7 @@ window.SITE = {
   // Journal : actus automatiques (data/news_<lang>.json), mises à jour 2 fois par jour
   window.chargeActus = function (el, n, tete) {
     function rend(l) {
-      fetch("data/news_" + l + ".json").then(function (r) { return r.json(); }).then(function (lst) {
+      fetch(R + "data/news_" + (/^(fr|en|es|pt|de|it|ja|zh|tw|ar|hi|ru|ko|tr|id|pl|vi)$/.test(l) ? l : "en") + ".json").then(function (r) { return r.json(); }).then(function (lst) {
         el.innerHTML = lst.slice(0, n).map(function (a, i) {
           var d = a.d ? new Date(a.d).toLocaleDateString(l) : "";
           var cls = tete && i === 0 ? ' class="tete"' : "";
@@ -54,6 +59,29 @@ window.SITE = {
     rend(window.LANG || "fr");
     document.addEventListener("langchange", function (e) { rend(e.detail); });
   };
+
+  // Date de vérification des faits, au format de la langue
+  function verif() { var hl = document.documentElement.lang, o = { day: "numeric", month: "long", year: "numeric" };
+    document.querySelectorAll("[data-verif]").forEach(function (el) { el.textContent = new Date(SITE.verif + "T12:00:00").toLocaleDateString(hl, o); });
+    document.querySelectorAll("[data-date]").forEach(function (el) { el.textContent = new Date(el.getAttribute("data-date") + "T12:00:00").toLocaleDateString(hl, o); }); }
+  verif(); document.addEventListener("langchange", verif);
+
+  // Partage : bouton natif sur mobile, liens sinon. <div class="partage"></div>
+  function partage() {
+    document.querySelectorAll(".partage").forEach(function (el) {
+      var n = Math.max(0, Math.ceil((new Date(SITE.sortie) - Date.now()) / 86400000));
+      var u = SITE.base + (window.LANG === "fr" ? "" : window.LANG + "/"), t = (window.T ? T("sh_txt") : "").replace("{n}", n);
+      var e = encodeURIComponent, liens = [["X", "https://x.com/intent/post?text=" + e(t) + "&url=" + e(u)], ["WhatsApp", "https://wa.me/?text=" + e(t + " " + u)],
+        ["Telegram", "https://t.me/share/url?url=" + e(u) + "&text=" + e(t)], ["Reddit", "https://www.reddit.com/submit?url=" + e(u) + "&title=" + e(t)], ["Facebook", "https://www.facebook.com/sharer/sharer.php?u=" + e(u)]];
+      el.innerHTML = '<span class="kicker" data-i18n="sh_t">' + (window.T ? T("sh_t") : "") + "</span>" + (navigator.share ? '<button class="btn" data-natif>' + T("sh_t") + "</button>" : "") +
+        liens.map(function (l) { return '<a class="btn clair" target="_blank" rel="noopener" href="' + l[1] + '">' + l[0] + "</a>"; }).join("") + '<button class="btn clair" data-copie>' + (window.T ? T("sh_copy") : "Link") + "</button>";
+      el.onclick = function (ev) {
+        if (ev.target.hasAttribute("data-natif")) navigator.share({ title: "GTA VI", text: t, url: u }).catch(function () {});
+        if (ev.target.hasAttribute("data-copie")) { navigator.clipboard.writeText(u); ev.target.textContent = T("in_copied"); }
+      };
+    });
+  }
+  document.addEventListener("langchange", partage);
 
   // Lecteur YouTube au clic
   document.addEventListener("click", function (e) {
@@ -70,6 +98,9 @@ window.SITE = {
   }, { rootMargin: "0px 0px -8% 0px" }) : null;
   window.observeRv = function () { document.querySelectorAll(".rv:not(.vu)").forEach(function (el) { io ? io.observe(el) : el.classList.add("vu"); }); };
   observeRv();
+
+  // Application installable et mode hors ligne
+  if ("serviceWorker" in navigator && location.protocol === "https:") navigator.serviceWorker.register((window.ROOT || "") + "sw.js").catch(function () {});
 
   // Publicité Google AdSense (annonces automatiques). Active seulement sur un domaine approuvé.
   if (SITE.adsensePub && !/github\.io$|localhost/.test(location.hostname)) {

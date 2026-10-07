@@ -1,6 +1,5 @@
 /* Direction artistique : magazine de Miami, 1986 réédité en 2026.
    Papier crème, encre, coucher de soleil. Typo d'affiche, pas d'icônes. */
-@import url("https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;800&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;700&family=Lalezar&display=swap");
 
 :root{
   --ink:#16111d; --ink2:#241a2e; --paper:#f2e8d5; --paper2:#e9dcc3;
@@ -340,3 +339,89 @@ footer .okalam{font-family:var(--mono);font-size:.66rem;letter-spacing:.2em;text
 .faq .q p{margin:0;padding:0 22px 20px;font-family:"Instrument Serif",serif;font-size:21px;line-height:1.45;color:var(--ink)}
 .sources-faq{margin-top:28px;font-family:"JetBrains Mono",monospace;font-size:13px}
 .sources-faq a{color:var(--hot)}
+/* Suggestion de langue */
+.lang-sugg{position:fixed;right:16px;bottom:16px;z-index:60;background:var(--ink);color:var(--paper);border:2px solid var(--paper);box-shadow:4px 4px 0 var(--hot);padding:10px 16px;font-family:"JetBrains Mono",monospace;font-size:14px;text-decoration:none}
+/* Plan du site dans le pied de page */
+footer .plan{display:flex;flex-wrap:wrap;gap:8px 22px;margin:8px 0 26px;font-family:"JetBrains Mono",monospace;font-size:13px;text-transform:uppercase;letter-spacing:.06em}
+footer .plan b{width:100%;color:var(--gold);font-weight:700}
+footer .plan a{color:inherit;opacity:.85;text-decoration:none}
+footer .plan a:hover{opacity:1;color:var(--hot)}
+.partage{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:28px 0}
+.partage .kicker{width:100%}
+.partage .btn{font-size:14px;padding:10px 16px}
+.verifie{font-family:"JetBrains Mono",monospace;font-size:12px;letter-spacing:.06em;text-transform:uppercase;opacity:.75;margin-top:18px}
+/* ===== Pages ajoutées le 07/10 ===== */
+.tableau .non{color:var(--hot);font-weight:800}
+.tableau.editions td:first-child.txt{font-family:var(--sans,inherit);font-size:1rem;text-transform:none;line-height:1.4}
+.tableau.editions td:not(:first-child),.tableau.editions th:not(:first-child){text-align:center;width:120px}
+section:not(.papier) .tableau td{border-bottom-color:rgba(242,232,213,.2)}
+section:not(.papier) .tableau th{border-bottom-color:var(--paper)}
+/* fuseaux horaires */
+.fuseaux{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));border-top:3px solid currentColor}
+.fuseaux div{padding:16px 16px 16px 0;border-bottom:1px solid rgba(242,232,213,.2)}
+.fuseaux b{display:block;font-family:var(--display);font-weight:400;font-size:1.6rem;text-transform:uppercase;line-height:1}
+.fuseaux span{font-family:var(--mono);font-size:.8rem;opacity:.85}
+.fuseaux .moi{background:var(--gold);color:var(--ink);padding-inline:14px;grid-column:1/-1}
+.fuseaux .moi b{font-size:2.4rem}
+/* régions */
+.cartes{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:3px solid var(--ink)}
+.cartes div{padding:22px 22px 28px 0;border-bottom:1px solid rgba(22,17,29,.25)}
+.cartes .n{font-family:var(--mono);font-size:.75rem;color:var(--hot);font-weight:700}
+.cartes h3{font-family:var(--display);font-weight:400;font-size:clamp(1.8rem,3.4vw,2.8rem);text-transform:uppercase;line-height:.95;margin:6px 0 10px}
+.cartes p{font-family:var(--serif);font-size:1.2rem;line-height:1.35}
+/* personnages */
+.persos{display:grid;grid-template-columns:repeat(4,1fr);gap:32px 28px}
+.persos h3{font-family:var(--display);font-weight:400;font-size:1.7rem;text-transform:uppercase;line-height:1;color:var(--sun);border-bottom:2px solid var(--hot);padding-bottom:8px;margin-bottom:10px}
+.persos p{font-size:.95rem;opacity:.85}
+/* chronologie */
+.chrono{list-style:none;padding:0;margin:0;border-inline-start:3px solid var(--ink)}
+.chrono li{position:relative;padding:0 0 30px 28px}
+.chrono li::before{content:"";position:absolute;inset-inline-start:-9px;top:6px;width:15px;height:15px;background:var(--hot);border:2px solid var(--ink)}
+.chrono time{font-family:var(--mono);font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;font-weight:700}
+.chrono p{font-family:var(--serif);font-size:1.35rem;line-height:1.3;margin:4px 0}
+.chrono a{font-family:var(--mono);font-size:.75rem;color:var(--hot)}
+.une-guide{display:grid;grid-template-columns:1.4fr 1fr;gap:40px;align-items:center}
+.liste{padding-inline-start:1.2em;margin:0}
+.liste li{margin:0 0 12px;line-height:1.45}
+.grand-liste li{font-family:var(--serif);font-size:clamp(1.2rem,2.2vw,1.5rem);line-height:1.3;margin-bottom:16px}
+.grand-liste li::marker{font-family:var(--mono);color:var(--hot);font-size:.8em}
+/* vues */
+.vues .barre{display:grid;grid-template-columns:160px 1fr 140px;gap:16px;align-items:center;padding:14px 0;border-bottom:1px solid rgba(22,17,29,.25)}
+.vues b{font-family:var(--display);font-weight:400;font-size:1.4rem;text-transform:uppercase}
+.vues .jauge{height:22px;border:2px solid var(--ink);background:var(--paper)}
+.vues .jauge span{display:block;height:100%;background:repeating-linear-gradient(90deg,var(--hot) 0 10px,var(--sun) 10px 20px)}
+.vues em{font-family:var(--mono);font-style:normal;font-size:.85rem;text-align:end}
+/* vrai ou faux */
+.vf{display:grid;grid-template-columns:repeat(2,1fr);gap:0 40px;border-top:3px solid var(--ink)}
+.vf-i{padding:22px 0;border-bottom:1px solid rgba(22,17,29,.25)}
+.vf-i h3{font-family:var(--display);font-weight:400;font-size:clamp(1.5rem,2.6vw,2.1rem);text-transform:uppercase;line-height:1;margin:12px 0 8px}
+.vf-i p{font-family:var(--serif);font-size:1.15rem}
+.verdict{display:inline-block;font-family:var(--mono);font-weight:700;font-size:.78rem;letter-spacing:.2em;text-transform:uppercase;padding:5px 12px;border:2px solid currentColor;transform:rotate(-3deg)}
+.verdict.vrai{color:var(--teal)} .verdict.faux{color:var(--hot)} .verdict.pas{color:var(--sun)}
+/* quiz */
+.quiz{max-width:860px;min-height:420px}
+.quiz h2{font-family:var(--display);font-weight:400;font-size:clamp(2.2rem,5vw,4rem);text-transform:uppercase;line-height:.92;margin:10px 0 28px}
+.quiz .res{color:var(--hot);font-size:clamp(3rem,9vw,7rem)}
+.quiz .serif{font-family:var(--serif);font-size:1.5rem;line-height:1.3;margin-bottom:24px}
+.choix{display:grid;gap:12px}
+.choix .btn{justify-content:flex-start;text-align:start;font-size:.85rem;padding:16px 20px;text-transform:none;letter-spacing:.02em}
+/* arabe */
+.tete-arabe{padding-top:clamp(48px,8vw,100px)}
+.tete-arabe h1{font-family:var(--display);font-weight:400;text-transform:uppercase;font-size:clamp(3.2rem,11vw,8.5rem);line-height:.85;margin:14px 0}
+.tete-arabe .intro{font-family:var(--serif);font-size:clamp(1.2rem,2.4vw,1.6rem);max-width:760px;line-height:1.3}
+.texte{font-family:var(--serif);font-size:clamp(1.2rem,2.2vw,1.5rem);line-height:1.4;max-width:820px;margin-bottom:56px}
+.sources-l{columns:2;font-family:var(--mono);font-size:.9rem;margin-bottom:56px}
+.sources-l a{color:inherit}
+/* intégrer */
+.integ{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:start;margin-bottom:64px}
+.integ textarea{width:100%;font-family:var(--mono);font-size:.8rem;padding:12px;border:2px solid var(--ink);background:#fff;color:var(--ink);resize:vertical;margin-bottom:12px}
+.fonds{display:grid;grid-template-columns:1fr 3fr;gap:24px;align-items:end;margin-bottom:64px}
+.fonds a{display:block;color:inherit;text-decoration:none;font-family:var(--mono);font-size:.8rem;text-transform:uppercase;letter-spacing:.14em}
+.fonds img{width:100%;height:auto;border:2px solid var(--paper);box-shadow:6px 6px 0 var(--hot);margin-bottom:10px}
+@media (max-width:900px){
+  .cartes{grid-template-columns:1fr 1fr}.persos{grid-template-columns:1fr 1fr}.une-guide,.integ{grid-template-columns:1fr}.vf{grid-template-columns:1fr}
+}
+@media (max-width:560px){
+  .cartes,.persos{grid-template-columns:1fr}.vues .barre{grid-template-columns:1fr;gap:6px}.vues em{text-align:start}.sources-l{columns:1}.fonds{grid-template-columns:1fr 2fr}
+  .tableau.editions td:not(:first-child),.tableau.editions th:not(:first-child){width:70px}
+}
