@@ -425,3 +425,55 @@ section:not(.papier) .tableau th{border-bottom-color:var(--paper)}
   .cartes,.persos{grid-template-columns:1fr}.vues .barre{grid-template-columns:1fr;gap:6px}.vues em{text-align:start}.sources-l{columns:1}.fonds{grid-template-columns:1fr 2fr}
   .tableau.editions td:not(:first-child),.tableau.editions th:not(:first-child){width:70px}
 }
+
+/* ---------- Révision typo et têtes de page (07/10/2026, soir) ----------
+   Fini le dégradé sur les chiffres : encre posée en deux passages (décalage d'impression).
+   Titres de page plus courts, équilibrés, jamais écrasés. Bandeaux image lisibles. */
+.gros .j{background:none;-webkit-background-clip:initial;background-clip:initial;color:var(--gold);
+  text-shadow:.045em .045em 0 var(--hot),.09em .09em 0 var(--plum)}
+footer .marque{background:none;-webkit-background-clip:initial;background-clip:initial;color:var(--paper);
+  text-shadow:.04em .04em 0 var(--hot)}
+
+.tete-page{padding:clamp(40px,7vw,88px) 0 clamp(30px,4.5vw,52px)}
+.tete-page .wrap{display:grid;grid-template-columns:minmax(0,1fr);gap:0}
+.tete-page .kicker{opacity:1;display:flex;align-items:center;gap:14px;font-weight:700}
+.tete-page .kicker::before{content:"";width:34px;height:3px;background:currentColor;flex:none}
+.tete-page h1{font-size:clamp(2.9rem,7.2vw,6.6rem);line-height:.94;letter-spacing:.005em;margin:22px 0 20px;
+  max-width:16ch;text-wrap:balance;overflow-wrap:anywhere}
+.tete-page p{max-width:60ch;padding-inline-start:18px;border-inline-start:3px solid currentColor;line-height:1.35}
+.tete-page.chaud,.tete-page.rose,.tete-page.or{border-bottom:3px solid var(--ink)}
+.tete-page.chaud::after,.tete-page.rose::after,.tete-page.or::after{content:"VI";position:absolute;inset-inline-end:var(--gut);bottom:-.12em;
+  font-family:var(--display);font-size:clamp(9rem,26vw,24rem);line-height:1;color:transparent;-webkit-text-stroke:2px rgba(22,17,29,.28);pointer-events:none;z-index:0}
+.tete-page.chaud .wrap,.tete-page.rose .wrap,.tete-page.or .wrap{position:relative;z-index:1}
+.tete-page.image{padding:clamp(72px,12vw,150px) 0 clamp(34px,5vw,56px);border-bottom:3px solid var(--hot)}
+.tete-page.image img{opacity:1;object-position:50% 62%;filter:saturate(1.05)}
+.tete-page.image::before{content:"";position:absolute;inset:0;z-index:0;
+  background:linear-gradient(180deg,rgba(22,17,29,.1) 0%,rgba(22,17,29,.55) 50%,rgba(22,17,29,.96) 100%)}
+.tete-page.image .wrap{z-index:1}
+.tete-page.image h1{text-shadow:0 2px 0 rgba(22,17,29,.6),0 10px 30px rgba(22,17,29,.5)}
+.tete-page.image p{border-color:var(--hot)}
+
+.rubrique{gap:6px 24px;padding-top:18px;margin-bottom:clamp(32px,5vw,48px)}
+.rubrique .num{font-size:clamp(3rem,8vw,6rem);-webkit-text-stroke:1.5px var(--trait)}
+.rubrique h2{font-size:clamp(1.9rem,4.6vw,3.8rem);line-height:.95;max-width:22ch;text-wrap:balance;overflow-wrap:anywhere}
+.rubrique p{max-width:64ch}
+.hero .brag{max-width:34ch}
+.scotch{transform:rotate(-1.4deg)}
+@media (max-width:900px){
+  .tete-page h1{font-size:clamp(2.5rem,10vw,4.6rem)}
+  .tete-page.chaud::after,.tete-page.rose::after,.tete-page.or::after{font-size:12rem;opacity:.6}
+}
+/* Bandeau image : texte à gauche sur encre, image à droite bord franc (comme le hero) */
+.tete-page.image{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);padding:0;min-height:min(62vh,560px);align-items:stretch}
+.tete-page.image::before{grid-column:2;grid-row:1;inset:auto;position:relative;z-index:2;
+  background:linear-gradient(90deg,var(--ink) 0%,rgba(22,17,29,0) 24%),linear-gradient(0deg,rgba(22,17,29,.55) 0%,rgba(22,17,29,0) 40%)}
+.tete-page.image img{position:relative;grid-column:2;grid-row:1;height:100%;min-height:320px;object-position:50% 30%;z-index:1}
+.tete-page.image .wrap{grid-column:1;grid-row:1;max-width:none;padding:clamp(48px,7vw,96px) var(--gut) clamp(36px,5vw,56px);display:flex;flex-direction:column;justify-content:flex-end;z-index:3}
+.tete-page.image h1{text-shadow:none}
+@media (max-width:900px){
+  .tete-page.image{grid-template-columns:1fr;min-height:0}
+  .tete-page.image img,.tete-page.image::before{grid-column:1;grid-row:1;min-height:0;height:44vw}
+  .tete-page.image::before{background:linear-gradient(0deg,var(--ink) 0%,rgba(22,17,29,0) 45%)}
+  .tete-page.image .wrap{grid-row:2;padding-top:20px}
+}
+@media (max-width:560px){.tete-page.chaud::after,.tete-page.rose::after,.tete-page.or::after{display:none}}
