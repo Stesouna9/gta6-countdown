@@ -479,3 +479,13 @@ footer .marque{background:none;-webkit-background-clip:initial;background-clip:i
 @media (max-width:560px){.tete-page.chaud::after,.tete-page.rose::after,.tete-page.or::after{display:none}}
 
 h1,h2,h3{text-wrap:balance}
+/* Pages questions et pays (tools/pub.py) */
+.liste-q{list-style:none;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px 36px;margin-top:8px}
+.liste-q li{border-top:1px solid currentColor;padding-top:12px;line-height:1.35}
+.liste-q a{font-family:var(--display);font-size:1.35rem;text-transform:uppercase;text-decoration:none;line-height:1}
+.liste-q a:hover{color:var(--hot)}
+details{border-top:1px solid currentColor;padding:16px 0}
+details summary{cursor:pointer;font-family:var(--display);font-size:clamp(1.2rem,2.4vw,1.7rem);text-transform:uppercase;list-style:none;display:flex;justify-content:space-between;gap:16px}
+details summary::after{content:"+";color:var(--hot);font-family:var(--mono)}
+details[open] summary::after{content:"−"}
+details p{font-family:var(--serif);font-size:1.2rem;line-height:1.4;max-width:62ch;margin-top:10px}

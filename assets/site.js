@@ -9,7 +9,8 @@ window.SITE = {
   vicebreak: "https://okalamstudio.com/vicebreak.html",
   petition: "https://www.change.org/p/add-arabic-language-support-in-gta-vi",
   verif: "2026-10-07",                   // date de dernière vérification des faits
-  base: "https://gtavifrance.com/"
+  base: "https://gtavifrance.com/",
+  newsletter: ""                         // identifiant Buttondown ; vide = formulaire caché
 };
 
 (function () {
@@ -64,9 +65,17 @@ window.SITE = {
   function verif() { var hl = document.documentElement.lang, o = { day: "numeric", month: "long", year: "numeric" };
     document.querySelectorAll("[data-verif]").forEach(function (el) { el.textContent = new Date(SITE.verif + "T12:00:00").toLocaleDateString(hl, o); });
     document.querySelectorAll("[data-date]").forEach(function (el) { el.textContent = new Date(el.getAttribute("data-date") + "T12:00:00").toLocaleDateString(hl, o); }); }
-  verif(); document.addEventListener("langchange", verif);
+  verif(); newsletter(); document.addEventListener("langchange", verif);
 
   // Partage : bouton natif sur mobile, liens sinon. <div class="partage"></div>
+  // Newsletter : formulaire Buttondown dans le pied, seulement si SITE.newsletter est posé
+  function newsletter() {
+    var p = document.querySelector("footer .plan"); if (!p || !SITE.newsletter) return;
+    var f = document.createElement("form"); f.className = "lettre"; f.method = "post"; f.target = "_blank";
+    f.action = "https://buttondown.com/api/emails/embed-subscribe/" + SITE.newsletter;
+    f.innerHTML = '<input type="email" name="email" required placeholder="email"><button class="btn" type="submit">J-7 / J-1</button>';
+    p.parentNode.insertBefore(f, p);
+  }
   function partage() {
     document.querySelectorAll(".partage").forEach(function (el) {
       var n = Math.max(0, Math.ceil((new Date(SITE.sortie) - Date.now()) / 86400000));
