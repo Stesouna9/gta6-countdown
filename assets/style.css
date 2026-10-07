@@ -477,3 +477,5 @@ footer .marque{background:none;-webkit-background-clip:initial;background-clip:i
   .tete-page.image .wrap{grid-row:2;padding-top:20px}
 }
 @media (max-width:560px){.tete-page.chaud::after,.tete-page.rose::after,.tete-page.or::after{display:none}}
+
+h1,h2,h3{text-wrap:balance}
