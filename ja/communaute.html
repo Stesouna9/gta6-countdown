@@ -91,8 +91,8 @@
   <script>
   (function () {
     var API = "mur/api/", sujet = "", TOKEN = "", R = document.documentElement.getAttribute("data-root") || "", SUJETS = {
-      fr: [["sortie", "Heure de sortie"], ["pc", "Version PC"], ["collector", "Collector et goodies"], ["leonida", "Leonida et Vice City"], ["radio", "Vice Bay Radio"], ["libre", "Tout le reste"]],
-      en: [["sortie", "Release time"], ["pc", "PC version"], ["collector", "Collector and merch"], ["leonida", "Leonida and Vice City"], ["radio", "Vice Bay Radio"], ["libre", "Everything else"]]
+      fr: [["sortie", "Sortie et heure"], ["ps5", "Version PS5"], ["xbox", "Version Xbox"], ["pc", "Version PC"], ["leonida", "Leonida"], ["vicecity", "Vice City"], ["collector", "Collector et goodies"], ["radio", "Vice Bay Radio"], ["theorie", "Théories et trailers"], ["libre", "Tout le reste"]],
+      en: [["sortie", "Release and time"], ["ps5", "PS5 version"], ["xbox", "Xbox version"], ["pc", "PC version"], ["leonida", "Leonida"], ["vicecity", "Vice City"], ["collector", "Collector and merch"], ["radio", "Vice Bay Radio"], ["theorie", "Theories and trailers"], ["libre", "Everything else"]]
     };
     function L() { return (window.LANG || "fr") === "fr" ? "fr" : "en"; }
     function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
