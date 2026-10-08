@@ -5,8 +5,9 @@ from pathlib import Path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); os.chdir(Path(__file__).resolve().parent.parent)
 from presse import article, gnews_resoudre
 N = int(sys.argv[1]) if len(sys.argv) > 1 else 40
+RECENT = len(sys.argv) > 2 and sys.argv[2] == "recent"  # les plus récentes d'abord
 out = Path("data/archives.json"); arch = json.load(open(out, encoding="utf-8")); n = 0
-for x in arch:
+for x in (reversed(arch) if RECENT else arch):
     if x.get("txt") or x.get("erreur") or x.get("fait") not in (False, None): continue
     try:
         u = x.get("u") or (gnews_resoudre(x["gn"]) if x.get("gn") else "")

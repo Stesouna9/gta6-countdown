@@ -1,7 +1,7 @@
 name: Textes des archives pour Solange
 on:
   schedule:
-    - cron: "35 * * * *"   # toutes les heures (UTC), avant les routines archives (:55 et :15)
+    - cron: "5,35 * * * *"   # deux fois par heure (UTC), avant les routines archives (:15 et :55)
   workflow_dispatch:
 permissions:
   contents: write
@@ -13,7 +13,8 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
-      - run: python tools/archives_texte.py 60
+      - run: python tools/archives_texte.py 70
+      - run: python tools/archives_texte.py 70 recent
       - run: |
           git config user.name "gta6-bot"
           git config user.email "bot@users.noreply.github.com"
