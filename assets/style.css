@@ -783,3 +783,4 @@ body.mu-lecteur-on .suivre{bottom:118px}
 .depeches summary:hover{opacity:1}
 .depeches .journal{margin-top:12px}
 .mur-msg{position:relative}.mur-signaler{position:absolute;right:10px;bottom:8px;background:none;border:0;font:inherit;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:rgba(22,17,29,.4);cursor:pointer;padding:2px 4px}.mur-signaler:hover{color:var(--hot)}.mur-signaler:disabled{color:rgba(22,17,29,.3);cursor:default}
+.tampon .fond{fill:rgba(22,17,29,.86)}.tampon text{fill:var(--paper)}.tampon .coeur{fill:url(#vi-grad)}.tampon{filter:drop-shadow(0 10px 24px rgba(0,0,0,.45))}

@@ -39,8 +39,8 @@
   <link rel="alternate" hreflang="x-default" href="https://gtavifrance.com/">
   <link rel="alternate" type="application/rss+xml" title="GTA 6" href="https://gtavifrance.com/feed.xml">
   <!--/meta-->
-  <link rel="stylesheet" href="assets/style.css?v=b68a0a3f">
-  <script src="assets/lang/fr.js?v=b68a0a3f"></script><script src="assets/i18n.js?v=b68a0a3f"></script>
+  <link rel="stylesheet" href="assets/style.css?v=5223eec3">
+  <script src="assets/lang/fr.js?v=5223eec3"></script><script src="assets/i18n.js?v=5223eec3"></script>
   <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "name": "VI Countdown", "alternateName": ["GTA 6 Countdown", "Compte à rebours GTA 6"], "url": "https://gtavifrance.com/", "inLanguage": ["fr", "en", "es", "pt", "de", "it", "ja", "zh", "ar", "hi", "ru", "ko"]}, {"@type": "VideoGame", "name": "Grand Theft Auto VI", "alternateName": ["GTA 6", "GTA VI"], "datePublished": "2026-11-19", "gamePlatform": ["PlayStation 5", "Xbox Series X|S"], "genre": ["Action", "Open world"], "author": {"@type": "Organization", "name": "Rockstar Games", "url": "https://www.rockstargames.com"}, "publisher": {"@type": "Organization", "name": "Rockstar Games"}, "url": "https://www.rockstargames.com/VI", "trailer": {"@type": "VideoObject", "name": "Grand Theft Auto VI: An Extended Look", "embedUrl": "https://www.youtube-nocookie.com/embed/tJbzMqJGH4k", "thumbnailUrl": "https://img.youtube.com/vi/tJbzMqJGH4k/maxresdefault.jpg", "uploadDate": "2026-08-27", "duration": "PT26M49S", "description": "26 minutes de gameplay officiel : Leonida, Vice City, Lucia et Jason."}, "offers": [{"@type": "Offer", "name": "Standard Edition", "price": "79.99", "priceCurrency": "USD", "availability": "https://schema.org/PreOrder"}, {"@type": "Offer", "name": "Ultimate Edition", "price": "99.99", "priceCurrency": "USD", "availability": "https://schema.org/PreOrder"}]}]}</script>
 </head>
 <body>
@@ -73,9 +73,11 @@
       <img src="https://img.youtube.com/vi/QdBZY2fkU-0/maxresdefault.jpg" alt="Grand Theft Auto VI, artwork officielle" fetchpriority="high" width="1280" height="720">
     </div>
     <svg class="tampon" viewBox="0 0 200 200" aria-hidden="true">
-      <defs><path id="cercle" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0"/></defs>
+      <defs><path id="cercle" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0"/>
+        <linearGradient id="vi-grad" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff2b0"/><stop offset=".3" stop-color="#ffc23a"/><stop offset=".55" stop-color="#ff6a3d"/><stop offset=".78" stop-color="#e23d8a"/><stop offset="1" stop-color="#7a3fb0"/></linearGradient></defs>
       <circle class="fond" cx="100" cy="100" r="96"/>
-      <circle cx="100" cy="100" r="62" fill="none" stroke="#16111d" stroke-width="1.5"/>
+      <circle cx="100" cy="100" r="93" fill="none" stroke="url(#vi-grad)" stroke-width="3"/>
+      <circle cx="100" cy="100" r="62" fill="none" stroke="url(#vi-grad)" stroke-width="1.5" opacity=".7"/>
       <text><textPath href="#cercle">World's Nº1 GTA VI countdown · 17 languages · </textPath></text>
       <g class="fixe"><text class="coeur" x="100" y="114" text-anchor="middle">Nº1</text></g>
     </svg>
@@ -267,8 +269,8 @@
     window.addEventListener("scroll", maj, { passive: true }); window.addEventListener("resize", maj); maj();
   })();
   </script>
-  <script src="assets/site.js?v=b68a0a3f"></script>
-  <script src="assets/radio.js?v=b68a0a3f"></script>
+  <script src="assets/site.js?v=5223eec3"></script>
+  <script src="assets/radio.js?v=5223eec3"></script>
   <script>
     var dateSortie = new Date(SITE.sortie).getTime(), dateAnnonce = new Date(SITE.annonce).getTime();
     var $ = function (id) { return document.getElementById(id); };
