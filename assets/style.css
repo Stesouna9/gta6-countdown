@@ -572,3 +572,42 @@ html.menu-on{overflow:hidden}
   .tete-page.image img{animation:parallaxe linear both;animation-timeline:view();animation-range:entry 0% exit 100%;will-change:transform}
   @keyframes parallaxe{from{transform:translateY(-8%) scale(1.12)}to{transform:translateY(8%) scale(1.12)}}
 }
+
+/* Page musique : ambiance rockstargames.com/VI/music */
+body.mu{background:#0c0d1b;color:var(--paper)}
+.mu-hero{position:relative;padding:clamp(64px,12vw,160px) 0 clamp(40px,7vw,90px);background:radial-gradient(120% 90% at 85% 10%,rgba(255,59,122,.35),transparent 60%),radial-gradient(90% 70% at 10% 90%,rgba(255,201,60,.22),transparent 60%),#0c0d1b;overflow:hidden}
+.mu-hero::after{content:"VI";position:absolute;right:-2vw;bottom:-14vw;font:400 46vw/1 var(--display);color:rgba(242,232,213,.04);pointer-events:none}
+.mu-hero .kicker{color:var(--gold)}
+.mu-hero h1{font:400 clamp(52px,11vw,150px)/.92 var(--display);text-transform:uppercase;letter-spacing:.01em;margin:14px 0 18px;background:var(--sunset);-webkit-background-clip:text;background-clip:text;color:transparent}
+.mu-hero .serif{font:400 clamp(19px,2.4vw,27px)/1.35 var(--serif);font-style:italic;max-width:46ch;opacity:.9}
+.mu-sec{padding:clamp(48px,7vw,96px) 0}
+.mu-sec.papier{background:var(--paper);color:var(--ink)}
+.mu-stations{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin-top:32px}
+.mu-st{--c:#ffd4a8;position:relative;display:grid;align-content:end;gap:6px;min-height:360px;padding:26px 24px;text-decoration:none;color:var(--ink);background:linear-gradient(160deg,color-mix(in srgb,var(--c) 92%,#fff),color-mix(in srgb,var(--c) 70%,#0c0d1b));border-radius:4px;overflow:hidden;transition:transform .5s cubic-bezier(.2,.7,.2,1),box-shadow .5s;box-shadow:0 0 0 rgba(0,0,0,0)}
+.mu-st:hover{transform:translateY(-6px);box-shadow:0 30px 60px rgba(0,0,0,.45)}
+.mu-st::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(0deg,transparent 0 6px,rgba(0,0,0,.035) 6px 7px);pointer-events:none}
+.mu-st .freq{position:absolute;top:18px;left:24px;font:400 12px var(--mono);letter-spacing:.22em}
+.mu-st h3{font:400 clamp(40px,4.6vw,64px)/.95 var(--display);text-transform:uppercase;margin:0;letter-spacing:.01em}
+.mu-st small{font:400 12px var(--mono);text-transform:uppercase;letter-spacing:.14em;opacity:.75}
+.mu-st p{margin:8px 0 0;font:400 15px/1.45 var(--sans);max-width:36ch}
+.mu-st .ecouter{margin-top:14px;font:600 12px var(--sans);letter-spacing:.14em;text-transform:uppercase;border-bottom:2px solid currentColor;width:max-content}
+.mu-album{display:grid;gap:32px;margin-top:32px;align-items:start}
+.mu-pochette{aspect-ratio:1;display:grid;align-content:end;padding:24px;background:linear-gradient(135deg,#ffc93c,#ff8a2a 30%,#ff3b7a 62%,#a63ccf);color:#fff;border-radius:4px;box-shadow:0 30px 60px rgba(0,0,0,.25)}
+.mu-pochette span{font:400 clamp(64px,10vw,120px)/.9 var(--display);text-transform:uppercase}
+.mu-pochette small{font:400 12px var(--mono);letter-spacing:.2em;text-transform:uppercase;margin-top:10px}
+.mu-album-txt h3{font:400 clamp(26px,3vw,36px)/1.05 var(--display);text-transform:uppercase;margin:0 0 8px}
+.mu-singles{display:grid;gap:6px;margin:18px 0}
+.mu-single{display:grid;grid-template-columns:3em 1fr auto;grid-template-rows:auto auto;column-gap:14px;align-items:center;text-align:left;padding:12px 14px;border:1.5px solid currentColor;background:transparent;color:inherit;cursor:pointer;border-radius:3px;font-family:var(--sans);transition:background .2s,color .2s}
+.mu-single .n{grid-row:1/3;font:400 12px var(--mono);letter-spacing:.2em;opacity:.7}
+.mu-single b{font:800 16px/1.15 var(--sans)}
+.mu-single small{grid-column:2;font:400 12px/1.2 var(--mono);opacity:.7}
+.mu-single .play{grid-row:1/3;font-size:14px}
+.mu-single:hover,.mu-single.on{background:var(--hot);border-color:var(--hot);color:var(--ink)}
+.mu .mu-sec.papier .mu-single:hover,.mu .mu-sec.papier .mu-single.on{color:var(--paper);background:var(--ink);border-color:var(--ink)}
+.mu-lecteur{position:fixed;left:0;right:0;bottom:0;z-index:70;background:rgba(12,13,27,.92);backdrop-filter:blur(14px);border-top:1px solid rgba(242,232,213,.18);padding:10px 0}
+.mu-lecteur[hidden]{display:none}
+.mu-lecteur-in{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center}
+.mu-lecteur iframe{display:block;border-radius:12px}
+.mu-lecteur .fermer{background:transparent;border:1px solid rgba(242,232,213,.4);color:var(--paper);width:36px;height:36px;border-radius:50%;cursor:pointer;font-size:20px;line-height:1}
+body.mu-lecteur-on{padding-bottom:110px}
+@media(min-width:900px){.mu-album{grid-template-columns:.8fr 1.2fr}}

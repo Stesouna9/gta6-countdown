@@ -14,7 +14,7 @@ window.SITE = {
 };
 
 (function () {
-  var pages = [["index.html", "nav_home"], ["actus.html", "nav_news"], ["sortie.html", "nav_sortie"], ["guide.html", "nav_guide"], ["radio.html", "nav_radio"], ["vicebreak.html", "nav_vb"], ["acheter.html", "nav_buy"], ["faq.html", "nav_faq"]];
+  var pages = [["index.html", "nav_home"], ["actus.html", "nav_news"], ["sortie.html", "nav_sortie"], ["guide.html", "nav_guide"], ["musique.html", "nav_musique"], ["radio.html", "nav_radio"], ["vicebreak.html", "nav_vb"], ["acheter.html", "nav_buy"], ["faq.html", "nav_faq"]];
   var plus = [["communaute.html", "nav_commu"], ["goodies.html", "nav_goodies"], ["vraifaux.html", "nav_vf"], ["quiz.html", "nav_quiz"], ["arabe.html", "nav_arabe"], ["integrer.html", "nav_int"], ["apropos.html", "nav_about"]];
   var R = window.ROOT || "";
   var ici = location.pathname.split("/").pop() || "index.html";
