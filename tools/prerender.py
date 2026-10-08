@@ -103,7 +103,7 @@ for page, *_ in PAGES:
         D, R = I18N[l], "" if l == "fr" else "../"
         c = TAG.sub(lambda m: m.group(1) + (html.escape(D[m.group(3)], quote=False) if m.group(3) in D else m.group(4)) + m.group(5), s)
         c = c.replace("@@META@@", meta(l, page, D, R))
-        c = c.replace('<div class="jr-grille" id="presse"></div>', '<div class="jr-grille" id="presse">' + cartes(l, 12, R) + '</div>')
+        c = c.replace('<div class="jr-grille" id="presse"></div>', '<div class="jr-grille" id="presse">' + cartes(l, 24, R) + '</div>')
         c = c.replace('<div class="jr-grille" id="actus-accueil" style="margin-top:18px"></div>', '<div class="jr-grille" id="actus-accueil" style="margin-top:18px">' + cartes(l, 4, R) + '</div>')
         if l != "fr":
             c = re.sub(r"<html[^>]*>", f'<html lang="{HL.get(l, l)}" dir="{"rtl" if l == "ar" else "ltr"}" data-l="{l}" data-root="../">', c, count=1)

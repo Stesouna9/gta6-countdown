@@ -799,3 +799,5 @@ body.mu-lecteur-on .suivre{bottom:118px}
 .jr-tete.image>img{opacity:.9}
 .jr-tete.image::before{content:"";position:absolute;inset:0;z-index:1}
 .jr-grille .jr-carte{opacity:1;transform:none}
+.tete-page.image:not(.jr-tete)::before{display:none}
+.tete-page.image:not(.jr-tete) img{opacity:1;filter:none}
