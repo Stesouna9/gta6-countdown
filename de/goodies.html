@@ -35,13 +35,13 @@
   <link rel="alternate" type="application/rss+xml" title="GTA 6" href="https://gtavifrance.com/feed.xml">
   <script type="application/ld+json" data-gen>{"@context": "https://schema.org", "@graph": [{"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "VI Countdown", "item": "https://gtavifrance.com/de/"}, {"@type": "ListItem", "position": 2, "name": "GTA-6-Merch: T-Shirts, Poster, Figuren, Vice-City-Geschenke", "item": "https://gtavifrance.com/de/goodies.html"}]}]}</script>
   <!--/meta-->
-  <link rel="stylesheet" href="../assets/style.css?v=39654108"><script src="../assets/lang/fr.js?v=39654108"></script><script src="../assets/i18n.js?v=39654108"></script>
+  <link rel="stylesheet" href="../assets/style.css?v=509340f5"><script src="../assets/lang/fr.js?v=509340f5"></script><script src="../assets/i18n.js?v=509340f5"></script>
 </head>
 <body>
 
   <header class="tete-page or"><div class="wrap"><span class="kicker">Vice City Store · Leonida</span><h1 data-i18n="goodies_t">Merch &amp; Goodies</h1><p data-i18n="goodies_i">Offizielles GTA-6-Merch gibt es noch nicht. Bis dahin: das Beste von Rockstar und Vice-City-Flair. Affiliate-Links: kleine Provision für die Seite, gleicher Preis für dich.</p></div></header>
   <section class="papier boutique-sec"><div class="wrap">
-    <div class="rubrique rv"><span class="direct"><i></i><span data-i18n="direct">Live</span></span><span class="num">R*</span><h2 data-i18n="bout_t">The Rockstar Store, GTA VI collection</h2><p data-i18n="bout_i">Tees, caps, totes, Zippo, money clip, stickers, the collector's box and the album on vinyl and CD. Prices read from store.rockstargames.com, refreshed every 30 minutes.</p></div>
+    <div class="rubrique rv"><span class="direct"><i></i><span data-i18n="direct">Live</span></span><span class="num">R*</span><h2 data-i18n="bout_t">The Rockstar Store, GTA VI collection</h2><p data-i18n="bout_i">Official items sold by Rockstar, prices taken from the Rockstar Store. Check the final price there.</p></div>
     <div class="boutique" id="boutique"></div>
     <div class="boutons"><a class="btn" href="https://store.rockstargames.com/grand-theft-auto-vi-collection" target="_blank" rel="noopener" data-i18n="bout_cta">See the whole collection</a></div>
     <script>
@@ -68,7 +68,7 @@
     <div class="journal" id="merch"></div>
     <script>document.addEventListener("DOMContentLoaded",function(){chargeListe(document.getElementById("merch"),"data/merch_"+((window.LANG||"fr")==="fr"?"fr":"en")+".json",9);});</script>
   </div></section>
-  <script src="../assets/site.js?v=39654108"></script>
+  <script src="../assets/site.js?v=509340f5"></script>
   <script>
     fetch("../data/deals.json").then(function (r) { return r.json(); }).then(function (lst) {
       document.getElementById("deals").innerHTML = lst.map(function (a) { return '<a href="' + a.u + '" target="_blank" rel="noopener"><span class="src">' + a.s + '</span><b>' + a.t + '</b></a>'; }).join("");

@@ -813,3 +813,44 @@ body.mu-lecteur-on .suivre{bottom:118px}
 .mur-moi{font-size:.85rem;margin:0 0 10px}.mur-moi button{background:none;border:0;font:inherit;color:var(--hot);cursor:pointer;text-decoration:underline;padding:0}
 .mur-msg.staff{border-left:3px solid #ff3b7a}.mur-msg .redac{font:500 .66rem/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:#ff3b7a;margin-left:6px;font-style:normal}
 .jr-retro{display:inline-block;background:#ffc23a;color:var(--ink);font:700 .66rem/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;padding:5px 8px;margin-bottom:10px}
+
+/* acheter : éditions, magasins, consoles, boutique */
+.ed-grille{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px;margin-bottom:36px}
+.ed-carte{background:var(--paper);border:2px solid var(--ink);box-shadow:8px 8px 0 var(--ink);display:flex;flex-direction:column;overflow:hidden}
+.ed-carte img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;border-bottom:2px solid var(--ink)}
+.ed-corps{padding:22px 22px 26px;display:flex;flex-direction:column;gap:10px}
+.ed-tag{font-family:var(--mono);font-weight:700;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--hot)}
+.ed-carte.ultime .ed-tag{color:#7a3fb0}
+.ed-prix{font-family:var(--display);font-size:clamp(2.4rem,5vw,3.6rem);line-height:.9;font-weight:400}
+.ed-prix small{font-family:var(--mono);font-size:.75rem;letter-spacing:.1em;opacity:.7}
+.ed-corps p{font-family:var(--serif);font-size:1.05rem;line-height:1.45;margin:0}
+.magasins{display:grid;grid-template-columns:1fr;gap:10px;margin-top:8px}
+.mag{display:flex;align-items:center;gap:14px;text-decoration:none;padding:12px 16px;border:2px solid var(--ink);font-family:var(--mono);font-weight:700;font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:#fff;transition:transform .12s}
+.mag img{height:28px;width:28px;object-fit:contain;filter:brightness(0) invert(1)}
+.mag:hover{transform:translate(-2px,-2px);box-shadow:5px 5px 0 var(--ink)}
+.mag.ps{background:#0070d1}.mag.xb{background:#107c10}.mag.rs{background:#161119}
+.mag.rs img{filter:none;background:#fcaf17;border-radius:4px;padding:2px}
+.boite-grille{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px}
+.boite{display:grid;grid-template-columns:auto 1fr;gap:8px 18px;align-items:center;padding:18px;border:2px solid var(--ink);background:var(--paper)}
+.boite .logo-l{height:34px;width:auto;max-width:130px;grid-row:span 2}
+.boite.xb .logo-l{height:44px}
+.boite h3{font-family:var(--display);font-weight:400;text-transform:uppercase;font-size:1.5rem;line-height:1}
+.boite .prix{font-family:var(--mono);font-size:.72rem;letter-spacing:.08em;color:var(--hot);display:block;margin-top:4px}
+.boite .marchands{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:8px}
+.btn.mini{padding:9px 13px;font-size:.68rem;box-shadow:3px 3px 0 var(--ink)}
+.btn.alt{background:var(--paper)}
+.console-grille{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:18px}
+.console{padding:24px 20px;border:2px solid var(--ink);background:var(--paper);display:flex;flex-direction:column;gap:10px;position:relative;box-shadow:6px 6px 0 var(--ink)}
+.console img{height:46px;width:46px;object-fit:contain}
+.console.ps{border-color:#0070d1;box-shadow:6px 6px 0 #0070d1}
+.console.xb{border-color:#107c10;box-shadow:6px 6px 0 #107c10}
+.console h3{font-family:var(--display);font-weight:400;text-transform:uppercase;font-size:1.7rem;line-height:1}
+.console p{font-family:var(--serif);font-style:italic;font-size:1rem;opacity:.85;flex:1;margin:0}
+.console .num-x{font-family:var(--display);font-size:3rem;line-height:.8;color:var(--hot)}
+.console .marchands{display:flex;flex-wrap:wrap;gap:8px}
+.bout-grille{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:16px}
+.bout-carte{display:flex;flex-direction:column;gap:8px;text-decoration:none;color:inherit;border:2px solid var(--ink);background:#fff;padding:10px;transition:transform .12s}
+.bout-carte:hover{transform:translate(-2px,-2px);box-shadow:5px 5px 0 var(--ink)}
+.bout-carte img{width:100%;aspect-ratio:1;object-fit:cover;display:block;background:#f3f0ea}
+.bout-carte b{font-family:var(--mono);font-size:.68rem;line-height:1.3;letter-spacing:.02em}
+.bout-carte span{font-family:var(--mono);font-weight:700;font-size:.8rem;color:var(--hot)}
