@@ -773,3 +773,12 @@ body.mu-lecteur-on .suivre{bottom:118px}
 .rayon a{display:block;font-family:var(--display);font-size:clamp(1.5rem,3.2vw,2.6rem);line-height:1.05;text-transform:uppercase;color:var(--paper);text-decoration:none;padding:5px 0;transition:color .15s,transform .15s}
 .rayon a:hover,.rayon a.actif{color:#ff3b7a;transform:translateX(6px)}
 @media(max-width:760px){.menu-rayons{grid-template-columns:1fr}.rayon a{font-size:1.6rem}}
+
+/* ---------- 08/10/2026 : chiffres aux couleurs du logo VI, une sans bande ---------- */
+.gros .j{color:transparent;text-shadow:none;background:linear-gradient(180deg,#fff2b0 0%,#ffc23a 28%,#ff6a3d 52%,#e23d8a 76%,#7a3fb0 100%);-webkit-background-clip:text;background-clip:text;filter:drop-shadow(0 6px 18px rgba(226,61,138,.25))}
+.hms b{background:linear-gradient(180deg,#fff2b0,#ffb13a 55%,#ff6a3d);-webkit-background-clip:text;background-clip:text;color:transparent}
+.tete-page.image::before{background:linear-gradient(0deg,rgba(22,17,29,.92) 0%,rgba(22,17,29,.35) 45%,rgba(22,17,29,0) 100%)}
+.depeches{margin-top:26px;border-top:1px solid rgba(22,17,29,.15);padding-top:10px}
+.depeches summary{cursor:pointer;font-family:var(--display);text-transform:uppercase;font-size:1.05rem;letter-spacing:.06em;color:var(--ink);opacity:.75}
+.depeches summary:hover{opacity:1}
+.depeches .journal{margin-top:12px}

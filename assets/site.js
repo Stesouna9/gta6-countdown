@@ -109,14 +109,28 @@ window.SITE = {
     }).catch(function () {});
   }
   fait(); document.addEventListener("langchange", fait);
-  // Journal : actus automatiques (data/news_<lang>.json), mises à jour chaque minute via live/
-  window.chargeActus = function (el, n, tete) {
+  // Dépêches brutes (data/news_<lang>.json), mises à jour chaque minute via live/
+  window.chargeDepeches = function (el, n, tete) {
     function rend(l) {
       donnees("data/news_" + (/^(fr|en|es|pt|de|it|ja|zh|tw|ar|hi|ru|ko|tr|id|pl|vi)$/.test(l) ? l : "en") + ".json").then(function (lst) {
         el.innerHTML = lst.slice(0, n).map(function (a, i) {
           var d = a.d ? new Date(a.d).toLocaleDateString(l) : "";
           var cls = tete && i === 0 ? ' class="tete"' : "";
           return '<a' + cls + ' href="' + a.u + '" target="_blank" rel="noopener"><span class="src">' + (a.s || "") + (d ? " · " + d : "") + "</span><b>" + a.t + "</b></a>";
+        }).join("");
+      }).catch(function () { el.innerHTML = ""; });
+    }
+    rend(window.LANG || "fr");
+    document.addEventListener("langchange", function (e) { rend(e.detail); });
+  };
+  // Actus : les articles de Solange (data/articles.json), ouverts sur le site
+  window.chargeActus = function (el, n) {
+    function rend(l) {
+      donnees("data/articles.json").then(function (lst) {
+        el.innerHTML = lst.slice(0, n).map(function (x) {
+          var a = x[l] || x.en || x.fr; if (!a) return "";
+          var d = x.date ? new Date(x.date).toLocaleDateString(l, { day: "numeric", month: "short" }) : "";
+          return '<a class="jr-carte rv" href="journal/' + x.id + '.html"><img src="' + x.img + '" alt="" loading="lazy"><span class="k">' + d + "</span><b>" + a.t + "</b><p>" + (a.d || "") + "</p></a>";
         }).join("");
       }).catch(function () { el.innerHTML = ""; });
     }
