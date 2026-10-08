@@ -83,6 +83,20 @@
 
   <div class="bandeau" aria-hidden="true"><div class="piste" id="bandeau"></div></div>
 
+  <section id="rail" class="rail-sec">
+    <div class="wrap rail-tete"><span class="kicker" data-i18n="rail_k">Drag to explore</span><div class="rail-fleches"><button type="button" id="rail-g" aria-label="Précédent">←</button><button type="button" id="rail-d" aria-label="Suivant">→</button></div></div>
+    <div class="rail" id="rail-piste">
+      <a class="carte rv" href="#trailers" data-video="tJbzMqJGH4k"><img src="https://img.youtube.com/vi/tJbzMqJGH4k/hqdefault.jpg" alt="" loading="lazy" width="480" height="360"><span class="k" data-i18n="rail_regarder">Watch</span><b data-i18n="tr_ext">Extended Look · 27분 게임플레이</b></a>
+      <a class="carte rv" href="#trailers" data-video="VQRLujxTm3c"><img src="https://img.youtube.com/vi/VQRLujxTm3c/hqdefault.jpg" alt="" loading="lazy" width="480" height="360"><span class="k" data-i18n="rail_regarder">Watch</span><b data-i18n="rail_t2">Trailer 2</b></a>
+      <a class="carte rv" href="#trailers" data-video="QdBZY2fkU-0"><img src="https://img.youtube.com/vi/QdBZY2fkU-0/hqdefault.jpg" alt="" loading="lazy" width="480" height="360"><span class="k" data-i18n="rail_regarder">Watch</span><b data-i18n="rail_t1">Trailer 1</b></a>
+      <a class="carte rv teinte-a" href="musique.html"><span class="k" data-i18n="rail_neuf">New</span><b data-i18n="rail_mu">The music of GTA 6: six stations, the album, the singles</b><small data-i18n="rail_mu_s">Revealed October 8</small></a>
+      <a class="carte rv teinte-b" href="prix.html"><span class="k" data-i18n="rail_pre">Pre-order</span><b data-i18n="rail_prix">$79.99 standard, $99.99 Ultimate, plus the Vice City vintage pack</b><small data-i18n="rail_prix_s">Price comparison</small></a>
+      <a class="carte rv teinte-c" href="goodies.html"><span class="k" data-i18n="rail_col">Collector's box</span><b data-i18n="rail_col_t">The Goodtime State, Vice City Collection, €399.99</b><small data-i18n="rail_col_s">No game included, one per person</small></a>
+      <a class="carte rv teinte-d" href="communaute.html"><span class="k" data-i18n="nav_commu">Community</span><b data-i18n="rail_mur">The Vice City Wall: talk with no account, join the Discord</b></a>
+      <a class="carte rv teinte-e" href="radio.html"><span class="k">Vice Bay</span><b data-i18n="rail_vb">Vice Bay Radio, six 1986 FM stations, free to stream</b></a>
+    </div>
+  </section>
+
   <section id="trailers" class="papier">
     <div class="wrap">
       <div class="rubrique rv"><span class="num">01</span><h2 data-i18n="trailers_t">공식 트레일러</h2><p data-i18n="trailers_i">Rockstar Games 공식 채널의 진짜 4K 영상. 다른 것도, 가짜도 없습니다.</p></div>
@@ -207,6 +221,20 @@
     </div>
   </section>
 
+  <script>
+  (function () {
+    var r = document.getElementById("rail-piste"); if (!r) return;
+    var x0 = 0, s0 = 0, drag = false, bouge = false;
+    r.addEventListener("pointerdown", function (e) { if (e.pointerType !== "mouse") return; drag = true; bouge = false; x0 = e.clientX; s0 = r.scrollLeft; r.classList.add("saisi"); r.style.scrollSnapType = "none"; });
+    window.addEventListener("pointermove", function (e) { if (!drag) return; var dx = e.clientX - x0; if (Math.abs(dx) > 4) bouge = true; r.scrollLeft = s0 - dx; });
+    window.addEventListener("pointerup", function () { if (!drag) return; drag = false; r.classList.remove("saisi"); r.style.scrollSnapType = ""; setTimeout(function () { bouge = false; }, 0); });
+    r.addEventListener("click", function (e) { if (bouge) { e.preventDefault(); e.stopPropagation(); return; } var a = e.target.closest("[data-video]"); if (a) { var f = document.querySelector('#trailers .film[data-video="' + a.dataset.video + '"]'); if (f) { e.preventDefault(); f.scrollIntoView({ behavior: "smooth", block: "center" }); f.click(); } } }, true);
+    r.addEventListener("dragstart", function (e) { e.preventDefault(); });
+    var pas = function () { return (r.querySelector(".carte") || r).getBoundingClientRect().width + 14; };
+    document.getElementById("rail-g").onclick = function () { r.scrollBy({ left: -pas(), behavior: "smooth" }); };
+    document.getElementById("rail-d").onclick = function () { r.scrollBy({ left: pas(), behavior: "smooth" }); };
+  })();
+  </script>
   <script src="../assets/site.js"></script>
   <script src="../assets/radio.js"></script>
   <script>
