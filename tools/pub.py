@@ -449,7 +449,7 @@ for l in T:
     cartes = []
     for a in ARTS:
         al = art_lang(a, l); x = a[al]
-        cartes.append(f'<a class="jr-carte rv" href="journal/{a["id"]}.html"><img src="{e(a.get("img") or BASE + "assets/jn.jpg")}" alt="" loading="lazy" width="640" height="360"><span class="k">{e(d_fmt(a, l))}</span><b>{e(x["t"])}</b><p>{e(x["d"])}</p></a>')
+        cartes.append(f'<a class="jr-carte" href="journal/{a["id"]}.html"><img src="{e(a.get("img") or BASE + "assets/jn.jpg")}" alt="" loading="lazy" width="640" height="360"><span class="k">{e(d_fmt(a, l))}</span><b>{e(x["t"])}</b><p>{e(x["d"])}</p></a>')
         img = a.get("img") or BASE + "assets/jn.jpg"
         srcs = " · ".join(f'<a href="{e(u)}" target="_blank" rel="noopener">{e(u.split("/")[2].replace("www.", ""))}</a>' for u in a.get("src", []))
         h = x["h"]

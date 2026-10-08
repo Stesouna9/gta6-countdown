@@ -798,3 +798,4 @@ body.mu-lecteur-on .suivre{bottom:118px}
 .jr-tete.image::before{background:linear-gradient(0deg,rgba(12,13,27,.97) 0%,rgba(12,13,27,.82) 45%,rgba(12,13,27,.3) 100%)}
 .jr-tete.image>img{opacity:.9}
 .jr-tete.image::before{content:"";position:absolute;inset:0;z-index:1}
+.jr-grille .jr-carte{opacity:1;transform:none}

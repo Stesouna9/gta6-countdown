@@ -130,7 +130,7 @@ window.SITE = {
         el.innerHTML = lst.slice(0, n).map(function (x) {
           var a = x[l === "id" ? "idn" : l] || x.en || x.fr; if (!a) return "";
           var d = x.date ? new Date(x.date).toLocaleDateString(l, { day: "numeric", month: "short" }) : "";
-          return '<a class="jr-carte rv" href="journal/' + x.id + '.html"><img src="' + x.img + '" alt="" loading="lazy"><span class="k">' + d + "</span><b>" + a.t + "</b><p>" + (a.d || "") + "</p></a>";
+          return '<a class="jr-carte" href="journal/' + x.id + '.html"><img src="' + x.img + '" alt="" loading="lazy"><span class="k">' + d + "</span><b>" + a.t + "</b><p>" + (a.d || "") + "</p></a>";
         }).join("");
       }).catch(function () { el.innerHTML = ""; });
     }

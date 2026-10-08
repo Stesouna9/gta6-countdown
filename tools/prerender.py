@@ -89,7 +89,7 @@ def cartes(l, n, R):
     for a in ARTS[:n]:
         x = a.get(k) or a.get("en") or a.get("fr")
         if not x: continue
-        out.append(f'<a class="jr-carte rv" href="journal/{a["id"]}.html"><img src="{html.escape(a.get("img") or "https://gtavifrance.com/assets/jn.jpg")}" alt="" loading="lazy" width="640" height="360"><span class="k">{a.get("date", "")[:10]}</span><b>{html.escape(x["t"], quote=False)}</b><p>{html.escape(x.get("d", ""), quote=False)}</p></a>')
+        out.append(f'<a class="jr-carte" href="journal/{a["id"]}.html"><img src="{html.escape(a.get("img") or "https://gtavifrance.com/assets/jn.jpg")}" alt="" loading="lazy" width="640" height="360"><span class="k">{a.get("date", "")[:10]}</span><b>{html.escape(x["t"], quote=False)}</b><p>{html.escape(x.get("d", ""), quote=False)}</p></a>')
     return "".join(out)
 for page, *_ in PAGES:
     f = page + ".html"
