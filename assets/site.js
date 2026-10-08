@@ -125,6 +125,47 @@ window.SITE = {
     document.querySelectorAll("[data-verif]").forEach(function (el) { el.textContent = new Date(SITE.verif + "T12:00:00").toLocaleDateString(hl, o); });
     document.querySelectorAll("[data-date]").forEach(function (el) { el.textContent = new Date(el.getAttribute("data-date") + "T12:00:00").toLocaleDateString(hl, o); }); }
   verif(); newsletter(); document.addEventListener("langchange", verif);
+  /* Suivre : notifications push, agenda, RSS, Discord, installation. Et « nouveau depuis ta visite ». */
+  function b64(s) { var p = "=".repeat((4 - s.length % 4) % 4), b = atob((s + p).replace(/-/g, "+").replace(/_/g, "/")), a = new Uint8Array(b.length); for (var i = 0; i < b.length; i++) a[i] = b.charCodeAt(i); return a; }
+  function suivre() {
+    var d = document.createElement("div"); d.className = "suivre"; d.id = "suivre";
+    var peut = "Notification" in window && "serviceWorker" in navigator && "PushManager" in window && Notification.permission !== "denied";
+    d.innerHTML = '<span class="suivre-t"><i></i><b data-i18n="suivre_t"></b><em id="suivre-nouveau"></em></span><div class="suivre-b">' +
+      (peut ? '<button type="button" id="btn-notif"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10 21h4"/></svg><span data-i18n="suivre_notif"></span></button>' : "") +
+      '<a href="' + R + 'gta6.ics" download="gta6.ics"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg><span data-i18n="suivre_ics"></span></a>' +
+      '<a href="https://discord.gg/TSaxEnt2dG" target="_blank" rel="noopener">Discord</a><a href="' + R + 'feed.xml">RSS</a>' +
+      '<button type="button" id="btn-app" hidden><span data-i18n="suivre_app"></span></button><button type="button" class="x" id="suivre-x" aria-label="Fermer">×</button></div>';
+    document.body.append(d);
+    try { if (localStorage.getItem("suivre-ferme") === "1") d.classList.add("mini"); } catch (e) {}
+    document.getElementById("suivre-x").onclick = function () { d.classList.toggle("mini"); try { localStorage.setItem("suivre-ferme", d.classList.contains("mini") ? "1" : "0"); } catch (e) {} };
+    var bn = document.getElementById("btn-notif");
+    if (bn) {
+      function etat() { navigator.serviceWorker.ready.then(function (r) { return r.pushManager.getSubscription(); }).then(function (s) { if (s) { bn.classList.add("on"); bn.querySelector("span").textContent = T("suivre_notif_ok"); } }).catch(function () {}); }
+      etat();
+      bn.onclick = function () {
+        navigator.serviceWorker.ready.then(function (r) {
+          return r.pushManager.getSubscription().then(function (s) {
+            if (s) { return fetch(R + "mur/api/push/retirer", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ endpoint: s.endpoint }) }).then(function () { return s.unsubscribe(); }).then(function () { bn.classList.remove("on"); bn.querySelector("span").textContent = T("suivre_notif"); }); }
+            return fetch(R + "mur/api/push/cle").then(function (x) { return x.json(); }).then(function (k) { return r.pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: b64(k.cle) }); })
+              .then(function (s) { return fetch(R + "mur/api/push/abonner", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ sub: s.toJSON(), l: window.LANG || "fr" }) }); })
+              .then(function () { bn.classList.add("on"); bn.querySelector("span").textContent = T("suivre_notif_ok"); });
+          });
+        }).catch(function () { bn.querySelector("span").textContent = T("suivre_notif_non"); });
+      };
+    }
+    var ba = document.getElementById("btn-app"), evInstall = null;
+    window.addEventListener("beforeinstallprompt", function (e) { e.preventDefault(); evInstall = e; ba.hidden = false; });
+    ba.onclick = function () { if (evInstall) { evInstall.prompt(); evInstall = null; ba.hidden = true; } };
+    /* nouveau depuis la dernière visite */
+    donnees("data/meta.json").then(function (m) {
+      var maj = new Date(m.maj).getTime(), prev = 0; try { prev = +localStorage.getItem("visite") || 0; localStorage.setItem("visite", String(Date.now())); } catch (e) {}
+      if (prev && maj > prev) { document.getElementById("suivre-nouveau").textContent = T("suivre_nouveau"); if (!document.title.startsWith("•")) document.title = "• " + document.title; }
+    }).catch(function () {});
+    function txt() { d.querySelectorAll("[data-i18n]").forEach(function (el) { var v = T(el.getAttribute("data-i18n")); if (v) el.textContent = v; }); }
+    txt(); document.addEventListener("langchange", txt);
+  }
+  suivre();
+
 
   // Partage : bouton natif sur mobile, liens sinon. <div class="partage"></div>
   // Newsletter : formulaire Buttondown dans le pied, seulement si SITE.newsletter est posé

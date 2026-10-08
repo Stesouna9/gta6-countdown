@@ -1,33 +1,35 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//VI Countdown//GTA6//FR
+PRODID:-//VI Countdown//gtavifrance.com//FR
 CALSCALE:GREGORIAN
+METHOD:PUBLISH
 BEGIN:VEVENT
-UID:gta6-preload@vi-countdown
-DTSTAMP:20261007T120000Z
-DTSTART;VALUE=DATE:20261112
-DTEND;VALUE=DATE:20261113
-SUMMARY:GTA VI : préchargement / preload
-DESCRIPTION:Préchargement de GTA VI sur PS5 et Xbox Series. Preload of GTA VI.
-URL:https://gtavifrance.com/
+UID:gta6-sortie@gtavifrance.com
+DTSTAMP:20261008T180000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Sortie de GTA 6 (Grand Theft Auto VI)
+DESCRIPTION:Sortie officielle sur PS5 et Xbox Series X|S. Heure de déblocage, actus en direct et communauté : https://gtavifrance.com/
+URL:https://gtavifrance.com/sortie.html
+LOCATION:Vice City, Leonida
 BEGIN:VALARM
-TRIGGER:-PT12H
+TRIGGER:-P7D
 ACTION:DISPLAY
-DESCRIPTION:GTA VI : préchargement / preload
+DESCRIPTION:J-7 avant GTA 6, précharge et prépare ton disque : https://gtavifrance.com/
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:GTA 6 sort demain. Heure de déblocage chez toi : https://gtavifrance.com/sortie.html
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:gta6-release@vi-countdown
-DTSTAMP:20261007T120000Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:GTA VI : sortie / release
-DESCRIPTION:Sortie de Grand Theft Auto VI sur PS5 et Xbox Series X|S. https://gtavifrance.com/
+UID:gta6-precharge@gtavifrance.com
+DTSTAMP:20261008T180000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Préchargement de GTA 6 disponible
+DESCRIPTION:Le préchargement de Grand Theft Auto VI ouvre le 12 novembre. Taille et conseils : https://gtavifrance.com/q/taille.html
 URL:https://gtavifrance.com/
-BEGIN:VALARM
-TRIGGER:-PT12H
-ACTION:DISPLAY
-DESCRIPTION:GTA VI : sortie / release
-END:VALARM
 END:VEVENT
 END:VCALENDAR
