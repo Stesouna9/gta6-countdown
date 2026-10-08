@@ -759,3 +759,18 @@ body.mu-lecteur-on .suivre{bottom:118px}
 .flux-b{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
 .flux-b .btn{padding:10px 16px;font-size:.72rem}
 .btn.fantome{background:transparent;color:inherit;border:1.5px solid currentColor;box-shadow:none}
+
+/* Logo VI façon GTA VI : lettres SVG, dégradé coucher de soleil, ombre nuit */
+.nav .logo,.menu-haut .logo{display:inline-flex;align-items:center;gap:10px;text-decoration:none}
+.logo-vi{height:36px;width:auto;overflow:visible;filter:drop-shadow(0 2px 0 rgba(0,0,0,.6)) drop-shadow(0 6px 14px rgba(255,59,122,.35))}
+.logo-vi g:first-of-type{fill:#0c0d1b}
+.nav .logo span,.menu-haut .logo span{font-family:var(--mono);font-size:.66rem;letter-spacing:.26em;text-transform:uppercase;color:var(--paper)}
+
+/* Menu plein écran en trois rayons */
+.menu-rayons{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(20px,4vw,60px);align-items:start}
+.rayon{opacity:0;transform:translateY(14px);animation:rayon .5s calc(var(--i)*.08s) forwards}
+@keyframes rayon{to{opacity:1;transform:none}}
+.rayon b{display:block;font-family:var(--mono);font-size:.66rem;letter-spacing:.26em;text-transform:uppercase;color:#ffd4a8;margin-bottom:14px;padding-bottom:8px;border-bottom:1px solid rgba(242,232,213,.18)}
+.rayon a{display:block;font-family:var(--display);font-size:clamp(1.5rem,3.2vw,2.6rem);line-height:1.05;text-transform:uppercase;color:var(--paper);text-decoration:none;padding:5px 0;transition:color .15s,transform .15s}
+.rayon a:hover,.rayon a.actif{color:#ff3b7a;transform:translateX(6px)}
+@media(max-width:760px){.menu-rayons{grid-template-columns:1fr}.rayon a{font-size:1.6rem}}

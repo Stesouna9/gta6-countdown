@@ -457,7 +457,7 @@ for l in T:
     <div class="boutons"><a class="btn" href="journal.html">{e(tr(l, "jr_suite"))}</a><a class="btn clair" href="actus.html">{e(tr(l, "nav_news"))}</a></div></div></section>
 """
         ld = [{"@context": "https://schema.org", "@type": "NewsArticle", "headline": x["t"], "description": x["d"], "inLanguage": l, "datePublished": a["date"], "dateModified": a.get("maj", a["date"]), "image": [a.get("img") or BASE + "assets/jn.jpg"], "mainEntityOfPage": art_url(a, l),
-               "author": {"@type": "Person", "name": a.get("auteur", "Solange"), "url": BASE + "apropos.html"}, "publisher": {"@type": "Organization", "name": "VI Countdown", "logo": {"@type": "ImageObject", "url": BASE + "assets/icon-192.png"}}}]
+               "author": {"@type": "Person", "name": "Solange Rocheval", "url": BASE + "apropos.html"}, "publisher": {"@type": "Organization", "name": "VI Countdown", "logo": {"@type": "ImageObject", "url": BASE + "assets/icon-192.png"}}}]
         write(("" if l == "fr" else l + "/") + f"journal/{a['id']}.html", page(l, art_url(a, l), x["t"] + " | VI Countdown", x["d"], body, ld, img=a.get("img"), page_shell="actus"))
         URLS.append((art_url(a, l), l, "0.9"))
     body = f"""
