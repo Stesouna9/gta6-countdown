@@ -450,24 +450,27 @@ for l in T:
     for a in ARTS:
         al = art_lang(a, l); x = a[al]
         cartes.append(f'<a class="jr-carte rv" href="journal/{a["id"]}.html"><img src="{e(a.get("img") or BASE + "assets/jn.jpg")}" alt="" loading="lazy" width="640" height="360"><span class="k">{e(d_fmt(a, l))}</span><b>{e(x["t"])}</b><p>{e(x["d"])}</p></a>')
+        img = a.get("img") or BASE + "assets/jn.jpg"
+        srcs = " · ".join(f'<a href="{e(u)}" target="_blank" rel="noopener">{e(u.split("/")[2].replace("www.", ""))}</a>' for u in a.get("src", []))
+        h = x["h"]
+        if "<figure" not in h and "<img" not in h:  # une photo dans le corps, après le premier paragraphe
+            h = h.replace("</p>", f'</p><figure class="jr-fig"><img src="{e(img)}" alt="" loading="lazy"><figcaption>{e(tr(l, "jr_photo"))}</figcaption></figure>', 1)
         body = f"""
-  <header class="tete-page jr-tete"><div class="wrap"><span class="kicker"><span class="direct"><i></i>{e(tr(l, "direct"))}</span> · {e(d_fmt(a, l))}</span><h1>{e(x["t"])}</h1><p class="serif">{e(x["d"])}</p></div></header>
-  <section class="papier"><div class="wrap jr-corps">{x["h"]}
-    <p class="jr-sources"><b>{e(tr(l, "jr_src"))}</b> {" · ".join(f'<a href="{e(u)}" target="_blank" rel="noopener">{e(u.split("/")[2])}</a>' for u in a.get("src", []))}</p>
+  <header class="tete-page image jr-tete"><img src="{e(img)}" alt="" loading="eager"><div class="wrap"><span class="kicker"><span class="direct"><i></i>{e(tr(l, "direct"))}</span> · {e(d_fmt(a, l))}</span><h1>{e(x["t"])}</h1><p class="serif">{e(x["d"])}</p>
+    <p class="jr-sources haut"><b>{e(tr(l, "jr_src"))}</b> {srcs}</p></div></header>
+  <section class="papier"><div class="wrap jr-corps">{h}
+    <p class="jr-sources"><b>{e(tr(l, "jr_src"))}</b> {srcs}</p>
     <p class="note jr-signature">{e(tr(l, "jr_auteur"))}</p><div class="partage"></div>
-    <div class="boutons"><a class="btn" href="journal.html">{e(tr(l, "jr_suite"))}</a><a class="btn clair" href="actus.html">{e(tr(l, "nav_news"))}</a></div></div></section>
+    <div class="boutons"><a class="btn" href="actus.html">{e(tr(l, "jr_suite"))}</a></div></div></section>
 """
         ld = [{"@context": "https://schema.org", "@type": "NewsArticle", "headline": x["t"], "description": x["d"], "inLanguage": l, "datePublished": a["date"], "dateModified": a.get("maj", a["date"]), "image": [a.get("img") or BASE + "assets/jn.jpg"], "mainEntityOfPage": art_url(a, l),
                "author": {"@type": "Person", "name": "Solange Rocheval", "url": BASE + "apropos.html"}, "publisher": {"@type": "Organization", "name": "VI Countdown", "logo": {"@type": "ImageObject", "url": BASE + "assets/icon-192.png"}}}]
         write(("" if l == "fr" else l + "/") + f"journal/{a['id']}.html", page(l, art_url(a, l), x["t"] + " | VI Countdown", x["d"], body, ld, img=a.get("img"), page_shell="actus"))
         URLS.append((art_url(a, l), l, "0.9"))
-    body = f"""
-  <header class="tete-page jr-tete"><div class="wrap"><span class="kicker"><span class="direct"><i></i>{e(tr(l, "direct"))}</span> · {e(tr(l, "direct_i"))}</span><h1>{e(tr(l, "jr_h1"))}</h1><p class="serif">{e(tr(l, "jr_i"))}</p></div></header>
-  <section class="papier"><div class="wrap"><div class="jr-grille">{"".join(cartes)}</div><div class="partage"></div></div></section>
-"""
     url = f"{BASE}{'' if l == 'fr' else l + '/'}journal.html"
-    ld = [{"@context": "https://schema.org", "@type": "CollectionPage", "name": tr(l, "mt_journal"), "url": url, "inLanguage": l}]
-    write(("" if l == "fr" else l + "/") + "journal.html", page(l, url, tr(l, "mt_journal"), tr(l, "md_journal"), body, ld, page_shell="actus"))
+    body = f'<meta http-equiv="refresh" content="0; url=actus.html"><p style="padding:40px"><a href="actus.html">{e(tr(l, "nav_news"))}</a></p>'
+    ld = []
+    write(("" if l == "fr" else l + "/") + "journal.html", page(l, f"{BASE}{'' if l == 'fr' else l + '/'}actus.html", tr(l, "nav_news"), tr(l, "md_journal"), body, ld, page_shell="actus"))
     URLS.append((url, l, "0.9"))
 
 # ------------------------------------------------------------------ 5. sitemap, images, robots, feed
