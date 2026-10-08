@@ -795,3 +795,5 @@ body.mu-lecteur-on .suivre{bottom:118px}
 .jr-corps figure img{display:block;width:100%;height:auto}
 .jr-corps figcaption{font:500 .74rem/1.4 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:rgba(242,232,213,.6);padding:8px var(--gut,16px) 10px}
 @media (min-width:900px){.jr-corps figure.jr-fig,.jr-corps figure{margin-left:0;margin-right:0;border-radius:6px;overflow:hidden}}
+.jr-tete.image::before{background:linear-gradient(0deg,rgba(12,13,27,.97) 0%,rgba(12,13,27,.82) 45%,rgba(12,13,27,.3) 100%)}
+.jr-tete.image>img{opacity:.9}
