@@ -460,7 +460,7 @@ for l in T:
     <p class="jr-sources haut"><b>{e(tr(l, "jr_src"))}</b> {srcs}</p></div></header>
   <section class="papier"><div class="wrap jr-corps">{h}
     <p class="jr-sources"><b>{e(tr(l, "jr_src"))}</b> {srcs}</p>
-    <p class="note jr-signature">{e(tr(l, "jr_auteur"))}</p><div class="partage"></div>
+    <p class="note jr-signature">{e(tr(l, "jr_auteur").replace("Solange Rocheval", a.get("auteur") or "Solange Rocheval"))}</p><div class="partage"></div>
     <div class="boutons"><a class="btn" href="actus.html">{e(tr(l, "jr_suite"))}</a></div></div></section>
 """
         ld = [{"@context": "https://schema.org", "@type": "NewsArticle", "headline": x["t"], "description": x["d"], "inLanguage": l, "datePublished": a["date"], "dateModified": a.get("maj", a["date"]), "image": [a.get("img") or BASE + "assets/jn.jpg"], "mainEntityOfPage": art_url(a, l),
