@@ -90,7 +90,7 @@
   <div class="pub vide"></div>
   <script>
   (function () {
-    var API = "mur/api/", sujet = "", TOKEN = "", SUJETS = {
+    var API = "mur/api/", sujet = "", TOKEN = "", R = document.documentElement.getAttribute("data-root") || "", SUJETS = {
       fr: [["sortie", "Heure de sortie"], ["pc", "Version PC"], ["collector", "Collector et goodies"], ["leonida", "Leonida et Vice City"], ["radio", "Vice Bay Radio"], ["libre", "Tout le reste"]],
       en: [["sortie", "Release time"], ["pc", "PC version"], ["collector", "Collector and merch"], ["leonida", "Leonida and Vice City"], ["radio", "Vice Bay Radio"], ["libre", "Everything else"]]
     };
@@ -108,7 +108,7 @@
         if (!lst.length) { m.innerHTML = '<p class="mur-vide">' + esc(T("mur_vide")) + "</p>"; return; }
         m.innerHTML = lst.map(function (x) {
           var d = new Date(x.t * 1000).toLocaleString(document.documentElement.lang, { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" });
-          return '<article class="mur-msg' + (x.staff ? " staff" : "") + '"><header><b>' + esc(x.p) + (x.staff ? ' <i class="redac">' + esc(T("mur_redac")) + "</i>" : "") + "</b><time>" + d + "</time></header><p>" + esc(x.m).replace(/\n/g, "<br>") + '</p><button type="button" class="mur-signaler" data-id="' + x.id + '" title="' + esc(T("mur_signaler")) + '">' + esc(T("mur_signaler")) + "</button></article>";
+          return '<article class="mur-msg' + (x.staff ? " staff" : "") + '"><header><b>' + esc(x.p) + (x.staff ? ' <i class="redac">' + esc(T("mur_redac")) + "</i>" : "") + "</b><time>" + d + "</time></header><p>" + esc(x.m).replace(/\n/g, "<br>").replace(/https:\/\/gtavifrance\.com\/\S+/g, function (u) { return '<a href="' + u.replace("https://gtavifrance.com/", R) + '">' + u.replace("https://gtavifrance.com/", "") + "</a>"; }) + '</p><button type="button" class="mur-signaler" data-id="' + x.id + '" title="' + esc(T("mur_signaler")) + '">' + esc(T("mur_signaler")) + "</button></article>";
         }).join("");
         m.querySelectorAll(".mur-signaler").forEach(function (b) { b.onclick = function () {
           fetch(API + "signaler", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ id: +b.dataset.id }) }).then(function () { b.textContent = "✓"; b.disabled = true; }).catch(function () {});
