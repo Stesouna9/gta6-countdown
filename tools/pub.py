@@ -439,7 +439,8 @@ for l, (slug, t, i, h2, h3) in AJ.items():
 ARTS = json.load(open("data/articles.json", encoding="utf-8")) if os.path.exists("data/articles.json") else []
 I18N = {l: json.load(open(f"tools/i18n/{l}.json", encoding="utf-8")) for l in T}
 def tr(l, k): return I18N.get(l, {}).get(k) or I18N["en"].get(k) or I18N["fr"].get(k, k)
-def art_lang(a, l): return l if isinstance(a.get(l), dict) else ("en" if isinstance(a.get("en"), dict) else "fr")
+def art_cle(l): return "idn" if l == "id" else l  # "id" est déjà le champ identifiant de chaque article
+def art_lang(a, l): return art_cle(l) if isinstance(a.get(art_cle(l)), dict) else ("en" if isinstance(a.get("en"), dict) else "fr")
 def art_url(a, l): return f"{BASE}{'' if l == 'fr' else l + '/'}journal/{a['id']}.html"
 def d_fmt(a, l):
     try: return fmt_local(datetime.datetime.fromisoformat(a["date"]), l)

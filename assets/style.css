@@ -782,3 +782,4 @@ body.mu-lecteur-on .suivre{bottom:118px}
 .depeches summary{cursor:pointer;font-family:var(--display);text-transform:uppercase;font-size:1.05rem;letter-spacing:.06em;color:var(--ink);opacity:.75}
 .depeches summary:hover{opacity:1}
 .depeches .journal{margin-top:12px}
+.mur-msg{position:relative}.mur-signaler{position:absolute;right:10px;bottom:8px;background:none;border:0;font:inherit;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:rgba(22,17,29,.4);cursor:pointer;padding:2px 4px}.mur-signaler:hover{color:var(--hot)}.mur-signaler:disabled{color:rgba(22,17,29,.3);cursor:default}
