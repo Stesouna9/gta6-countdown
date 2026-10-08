@@ -89,7 +89,7 @@ for page, *_ in PAGES:
     for rx in NETTOIE: s = re.sub(rx, "", s, flags=re.S)
     s = re.sub(r"<html[^>]*>", '<html lang="fr" data-l="fr">', s, count=1)
     if 'assets/lang/fr.js' not in s: s = s.replace('<script src="assets/i18n.js">', '<script src="assets/lang/fr.js"></script><script src="assets/i18n.js">', 1)
-    s = s.replace('<link rel="stylesheet" href="assets/style.css">', "@@META@@\n  " + '<link rel="stylesheet" href="assets/style.css">', 1)
+    s = re.sub(r'<link rel="stylesheet" href="assets/style\.css(?:\?v=[0-9a-f]+)?">', "@@META@@\n  " + '<link rel="stylesheet" href="assets/style.css">', s, count=1)
     assert "@@META@@" in s, f
     for l in LANGS:
         D, R = I18N[l], "" if l == "fr" else "../"
