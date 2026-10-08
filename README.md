@@ -1,6 +1,6 @@
 # VI Countdown — gtavifrance.com
 
-Independent GTA 6 countdown and fact page in 17 languages (French, English, Spanish, Portuguese, German, Italian, Japanese, Chinese, Arabic, Hindi, Russian, Korean, Turkish, Indonesian, Polish, Vietnamese). Release time in 45 countries, verified facts with sources, news updated twice a day, free widget for streams.
+Independent GTA 6 countdown and fact page in 17 languages (French, English, Spanish, Portuguese, German, Italian, Japanese, Chinese, Arabic, Hindi, Russian, Korean, Turkish, Indonesian, Polish, Vietnamese). Release time in 45 countries, verified facts with sources, news updated every minute, free widget for streams.
 
 Live: https://gtavifrance.com/ · English: https://gtavifrance.com/en/
 
@@ -22,6 +22,6 @@ Cached 30 minutes. Please link back to gtavifrance.com if you use it.
 
 ## How it is built
 
-Static site. `tools/update.py` fetches news, `tools/images.py` renders the daily poster, `tools/prerender.py` generates one HTML copy per language with structured data, `tools/pub.py` generates country, question and daily pages. A GitHub Action runs it twice a day and pings IndexNow and WebSub.
+Static site. `tools/update.py` fetches news, `tools/images.py` renders the daily poster, `tools/prerender.py` generates one HTML copy per language with structured data, `tools/pub.py` generates country, question and daily pages. A GitHub Action runs it every minute and pings IndexNow and WebSub.
 
 Made by OKALAM Studio, Nantes. Fan site, not affiliated with Rockstar Games or Take-Two Interactive.

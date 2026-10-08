@@ -2,7 +2,7 @@
 Source : les pages françaises à la racine + tools/i18n/<langue>.json.
 Produit : assets/lang/<l>.js, une copie de chaque page par langue (/en/, /ar/...), titres et descriptions traduits,
 données structurées, hreflang, sitemap.xml, feed.xml, api/gta6.json, llms.txt, robots.txt, manifest.webmanifest.
-Idempotent : relancé à chaque mise à jour automatique (2 fois par jour)."""
+Idempotent : relancé à chaque mise à jour automatique (toutes les 10 min, cron serveur)."""
 import json, re, html, glob, datetime, os, shutil
 import sys; sys.path.insert(0, __import__('os').path.dirname(__file__)); from version import ver
 os.chdir(os.path.dirname(os.path.abspath(__file__)) + "/..")
@@ -123,7 +123,7 @@ items = [(a["date"], a["titre"], a["texte"], a.get("lien") or url("fr", "actus")
 try: items += [(a.get("d", ""), a["t"], a.get("s", ""), a["u"]) for a in json.load(open("data/news_fr.json", encoding="utf-8"))[:15]]
 except Exception: pass
 rss = ['<?xml version="1.0" encoding="UTF-8"?>', '<rss version="2.0"><channel>', "<title>GTA 6 : compte à rebours et actus</title>", f"<link>{BASE}</link>",
-       "<description>Date de sortie, prix, trailers et actus GTA VI, mises à jour deux fois par jour.</description>", "<language>fr</language>"]
+       "<description>Date de sortie, prix, trailers et actus GTA VI, mises à jour en temps réel, chaque minute.</description>", "<language>fr</language>"]
 rss += [f"<item><title>{e(t)}</title><link>{e(u)}</link><guid>{e(u)}</guid><pubDate>{rfc(d)}</pubDate><description>{e(x)}</description></item>" for d, t, x, u in items]
 open("feed.xml", "w", encoding="utf-8").write("\n".join(rss + ["</channel></rss>", ""]))
 
@@ -150,7 +150,7 @@ E = I18N["en"]
 pages_llm = "\n".join(f"- [{E['mt_' + p]}]({url('en', p)}): {E['md_' + p]}" for p, *_ in PAGES)
 open("llms.txt", "w", encoding="utf-8").write(f"""# VI Countdown: GTA 6 release countdown, news and facts
 
-> Independent fan site (not affiliated with Rockstar Games) tracking Grand Theft Auto VI: live countdown to the November 19, 2026 release, verified facts with sources, world press news updated twice a day, editions and prices, release time by time zone, Leonida guide, rumor checks. Every page exists in {len(LANGS)} languages: {", ".join(LANGS)} (French at {BASE}, others at {BASE}<code>/).
+> Independent fan site (not affiliated with Rockstar Games) tracking Grand Theft Auto VI: live countdown to the November 19, 2026 release, verified facts with sources, world press news updated every minute, editions and prices, release time by time zone, Leonida guide, rumor checks. Every page exists in {len(LANGS)} languages: {", ".join(LANGS)} (French at {BASE}, others at {BASE}<code>/).
 
 ## Key facts (checked {api['facts_checked']})
 - Release date: Thursday, November 19, 2026, on PlayStation 5 and Xbox Series X|S. Confirmed by Rockstar on November 6, 2025, after two delays.

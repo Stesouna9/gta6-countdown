@@ -1,5 +1,5 @@
 """Images du site, style couverture de magazine Miami 1986 (papier, encre, ombre dure, grain).
-python tools/images.py        -> badge.png, jn.jpg, jn-fr.jpg (le nombre de jours change : lancé 2 fois par jour)
+python tools/images.py        -> badge.png, jn.jpg, jn-fr.jpg (le nombre de jours change : lancé par GitHub Actions)
 python tools/images.py --tout -> + icônes d'application et fonds d'écran (fixes)"""
 import sys, os, random, datetime
 from PIL import Image, ImageDraw, ImageFont

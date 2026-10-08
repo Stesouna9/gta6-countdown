@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Mise à jour automatique (2 fois par jour via GitHub Actions) :
+"""Mise à jour automatique (chaque minute en mode --vite et toutes les 10 min en complet, cron serveur ; GitHub Actions en secours) :
 - data/news_<lang>.json : dernières actus GTA 6 par langue (Google News RSS)
 - data/videos.json      : dernières vidéos GTA de la chaîne YouTube Rockstar Games
 - data/deals.json       : offres et prix repérés dans les actus (précommandes, consoles)
@@ -147,10 +147,18 @@ def rockstar():
     return out
 
 if __name__ == "__main__":
+    import sys
+    VITE = "--vite" in sys.argv  # passage minute : actus 17 langues + newswire Rockstar seulement
     all_news, erreurs = {}, []
     for lang in LANGS:
         try: all_news[lang] = news(lang); (ROOT / f"news_{lang}.json").write_text(json.dumps(all_news[lang], ensure_ascii=False))
         except Exception as e: erreurs.append(f"{lang}: {e}")
+    if VITE:
+        try: (ROOT / "rockstar.json").write_text(json.dumps(rockstar(), ensure_ascii=False))
+        except Exception as e: erreurs.append(f"rockstar: {e}")
+        (ROOT / "deals.json").write_text(json.dumps(deals(all_news), ensure_ascii=False))
+        (ROOT / "meta.json").write_text(json.dumps({"maj": datetime.now(timezone.utc).isoformat(), "erreurs": erreurs}))
+        print("vite OK", sum(len(v) for v in all_news.values()), "erreurs:", erreurs); sys.exit(0)
     try: (ROOT / "videos.json").write_text(json.dumps(videos(), ensure_ascii=False))
     except Exception as e: erreurs.append(f"videos: {e}")
     for lang in ("fr", "en"):

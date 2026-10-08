@@ -66,7 +66,7 @@ window.SITE = {
     a.target = "_blank"; a.rel = "noopener sponsored";
   });
 
-  // Données : live/ (serveur, chaque heure) puis repli data/ (dépôt, 2 fois par jour)
+  // Données : live/ (serveur, chaque minute) puis repli data/ (dépôt, GitHub Actions)
   window.donnees = function (f) {
     return fetch(R + "live/" + f.replace(/^data\//, ""), { cache: "no-cache" }).then(function (r) { if (!r.ok) throw 0; return r.json(); })
       .catch(function () { return fetch(R + f).then(function (r) { return r.json(); }); });
@@ -105,7 +105,7 @@ window.SITE = {
     }).catch(function () {});
   }
   fait(); document.addEventListener("langchange", fait);
-  // Journal : actus automatiques (data/news_<lang>.json), mises à jour 2 fois par jour
+  // Journal : actus automatiques (data/news_<lang>.json), mises à jour chaque minute via live/
   window.chargeActus = function (el, n, tete) {
     function rend(l) {
       donnees("data/news_" + (/^(fr|en|es|pt|de|it|ja|zh|tw|ar|hi|ru|ko|tr|id|pl|vi)$/.test(l) ? l : "en") + ".json").then(function (lst) {
@@ -165,6 +165,25 @@ window.SITE = {
     txt(); document.addEventListener("langchange", txt);
   }
   suivre();
+
+  /* Fin de flux : appel à s'abonner sous chaque liste d'actus et chaque article */
+  function finFlux() {
+    document.querySelectorAll(".journal, .jr-grille, .jr-sources, #rockstar").forEach(function (el) {
+      if (el.nextElementSibling && el.nextElementSibling.classList.contains("flux-fin")) return;
+      var d = document.createElement("aside"); d.className = "flux-fin rv";
+      d.innerHTML = '<b data-i18n="flux_t"></b><p data-i18n="flux_i"></p><div class="flux-b">' +
+        '<button type="button" class="btn" data-flux-notif><span data-i18n="suivre_notif"></span></button>' +
+        '<a class="btn fantome" href="' + R + 'gta6.ics" download="gta6.ics" data-i18n="suivre_ics"></a>' +
+        '<a class="btn fantome" href="https://discord.gg/TSaxEnt2dG" target="_blank" rel="noopener">Discord</a>' +
+        '<a class="btn fantome" href="' + R + 'feed.xml">RSS</a></div>';
+      el.insertAdjacentElement("afterend", d);
+      d.querySelector("[data-flux-notif]").onclick = function () { var b = document.getElementById("btn-notif"); if (b) { b.click(); setTimeout(function () { d.querySelector("[data-flux-notif] span").textContent = b.querySelector("span").textContent; }, 1500); } else { d.querySelector("[data-flux-notif] span").textContent = T("suivre_notif_non"); } };
+      var bn = document.getElementById("btn-notif"); if (bn && bn.classList.contains("on")) d.querySelector("[data-flux-notif] span").textContent = T("suivre_notif_ok");
+    });
+    document.querySelectorAll(".flux-fin [data-i18n]").forEach(function (el) { var v = T(el.getAttribute("data-i18n")); if (v) el.textContent = v; });
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", finFlux); else finFlux();
+  document.addEventListener("langchange", finFlux);
 
 
   // Partage : bouton natif sur mobile, liens sinon. <div class="partage"></div>
