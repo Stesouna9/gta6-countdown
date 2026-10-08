@@ -4,6 +4,8 @@ window.SITE = {
   annonce: "2025-11-06T00:00:00+01:00",  // annonce de la date finale
   amazonTag: "okalamstudio-21",          // tag Amazon Partenaires (à remplacer par le vrai)
   adsensePub: "ca-pub-8121423865459620", // même identifiant éditeur que l'AdMob OKALAM
+  // Unités AdSense (créées dans adsense.google.com > Annonces > Par bloc). Vide = emplacement inactif.
+  adSlots: { "jr-milieu": "", "jr-fin": "", "liste": "", "page": "" },
   discord: "https://discord.gg/TSaxEnt2dG",
   radio: "https://vicebayradio.com",
   vicebreak: "https://okalamstudio.com/vicebreak.html",
@@ -258,8 +260,14 @@ window.SITE = {
     s.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=" + SITE.adsensePub;
     document.head.append(s);
     document.querySelectorAll(".pub").forEach(function (p) {
-      p.innerHTML = '<ins class="adsbygoogle" style="display:block" data-ad-client="' + SITE.adsensePub + '" data-ad-format="auto" data-full-width-responsive="true"></ins>';
+      var k = p.getAttribute("data-pub") || "page", slot = (SITE.adSlots || {})[k];
+      if (!slot) { p.remove(); return; }
+      var fluid = k === "jr-milieu";
+      p.classList.remove("vide");
+      p.innerHTML = '<ins class="adsbygoogle" style="display:block' + (fluid ? ';text-align:center' : '') + '" data-ad-client="' + SITE.adsensePub + '" data-ad-slot="' + slot + '"' + (fluid ? ' data-ad-layout="in-article" data-ad-format="fluid"' : ' data-ad-format="auto" data-full-width-responsive="true"') + '></ins>';
       (window.adsbygoogle = window.adsbygoogle || []).push({});
     });
+  } else {
+    document.querySelectorAll(".pub").forEach(function (p) { p.remove(); });
   }
 })();

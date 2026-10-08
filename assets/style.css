@@ -279,7 +279,7 @@ section{padding:clamp(56px,9vw,120px) 0;position:relative}
 
 /* pub */
 .pub{max-width:1240px;margin:0 auto;padding:18px var(--gut);text-align:center}
-.pub:empty::before,.pub.vide::before{content:"Publicité";display:block;font-family:var(--mono);font-size:.6rem;letter-spacing:.3em;text-transform:uppercase;opacity:.35;border-block:1px dashed rgba(242,232,213,.2);padding:34px 0}
+.pub::before{content:"Publicité";display:block;font-family:var(--mono);font-size:.55rem;letter-spacing:.3em;text-transform:uppercase;opacity:.35;margin-bottom:6px}.pub.jr{max-width:none;padding:22px 0}
 .pub ins{display:block;width:100%}
 
 /* ---------- PIED ---------- */

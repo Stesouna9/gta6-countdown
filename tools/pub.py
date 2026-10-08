@@ -261,7 +261,7 @@ def shell(l, page="sortie"):
     f = f"{page}.html" if l == "fr" else f"{l}/{page}.html"
     c = open(f, encoding="utf-8").read()
     head = c[:c.index('<header class="tete-page')]
-    foot = '\n  <div class="pub vide"></div>\n  ' + re.search(r'<script src="[^"]*site\.js[^"]*"></script>', c).group(0) + "\n</body>\n</html>\n"
+    foot = '\n  <div class="pub" data-pub="page"></div>\n  ' + re.search(r'<script src="[^"]*site\.js[^"]*"></script>', c).group(0) + "\n</body>\n</html>\n"
     head = re.sub(r'<link rel="alternate" hreflang="[^"]*" href="[^"]*"\s*/?>\s*', "", head)
     head = re.sub(r'<script type="application/ld\+json">.*?</script>\s*', "", head, flags=re.S)
     head = re.sub(r'<link rel="canonical" href="[^"]*"\s*/?>', "", head)
@@ -455,6 +455,10 @@ for l in T:
         h = x["h"]
         if "<figure" not in h and "<img" not in h:  # une photo dans le corps, après le premier paragraphe
             h = h.replace("</p>", f'</p><figure class="jr-fig"><img src="{e(img)}" alt="" loading="lazy"><figcaption>{e(tr(l, "jr_photo"))}</figcaption></figure>', 1)
+        # publicité : un bloc in-article après la photo (2e paragraphe), un bloc en fin de texte
+        parts = h.split("</p>")
+        if len(parts) > 3: h = "</p>".join(parts[:2]) + '</p><div class="pub jr" data-pub="jr-milieu"></div>' + "</p>".join(parts[2:])
+        h += '<div class="pub jr" data-pub="jr-fin"></div>'
         body = f"""
   <header class="tete-page image jr-tete"><img src="{e(img)}" alt="" loading="eager"><div class="wrap"><span class="kicker"><span class="direct"><i></i>{e(tr(l, "direct"))}</span> · {e(d_fmt(a, l))}</span><h1>{e(x["t"])}</h1>{'<span class="jr-retro">' + e(tr(l, "jr_retro")) + '</span>' if a.get("retro") else ''}<p class="serif">{e(x["d"])}</p>
     <p class="jr-sources haut"><b>{e(tr(l, "jr_src"))}</b> {srcs}</p></div></header>
