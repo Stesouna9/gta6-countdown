@@ -34,7 +34,7 @@
 "days_in": "Jours à Vice City",
 "brag": "Le compte à rebours GTA 6 n°1 au monde : le plus précis, le plus beau, le plus complet. À la seconde près, heure de Rockstar.",
 "strip": "LE MEILLEUR SITE GTA 6 · 17 LANGUES · ACTUS 2×/JOUR · RADIO VICE BAY EN DIRECT · VICE BREAK LE JOUR J · TRAILERS 4K ·",
-"updated": "Mis à jour automatiquement 2 fois par jour",
+"updated": "Mis à jour automatiquement toutes les 30 minutes",
 "trailers_t": "Bandes-annonces officielles",
 "trailers_i": "Les vraies vidéos Rockstar Games, en 4K, depuis leur chaîne officielle. Rien d'autre, rien de faux.",
 "tr_ext": "Extended Look · 27 minutes de gameplay",
@@ -360,7 +360,7 @@
 "w_jours": "jours",
 "merch_t": "Nouveautés merch et collectors",
 "commu_t": "Ce que dit la communauté",
-"commu_i": "Les discussions du jour sur r/GTA6, mises à jour 2 fois par jour.",
+"commu_i": "Les discussions du jour sur r/GTA6, mises à jour toutes les 30 minutes.",
 "fait_t": "Le saviez-vous",
 "nav_commu": "Communauté",
 "yt_t": "YouTube aujourd'hui",
@@ -431,5 +431,13 @@
 "rail_col_t": "The Goodtime State, Vice City Collection, 399,99 €",
 "rail_col_s": "Sans le jeu, un par personne",
 "rail_mur": "Le Mur de Vice City : parle sans compte, rejoins le Discord",
-"rail_vb": "Vice Bay Radio, six stations FM de 1986 en écoute libre"
+"rail_vb": "Vice Bay Radio, six stations FM de 1986 en écoute libre",
+"bout_t": "La boutique Rockstar, collection GTA VI",
+"bout_i": "Tee-shirts, casquettes, totes, Zippo, pince à billets, stickers, le coffret collector et l'album en vinyle et CD. Prix relevés sur store.rockstargames.com, mis à jour toutes les 30 minutes.",
+"bout_cta": "Voir toute la collection",
+"bout_soon": "Bientôt",
+"rs_t": "Rockstar Games, officiel",
+"rs_i": "Les derniers articles du Newswire liés à GTA VI, relevés toutes les 30 minutes.",
+"rail_bout": "La collection GTA VI : tee-shirts, casquettes, Zippo, vinyle",
+"rail_bout_s": "Prix relevés toutes les 30 minutes"
 }

@@ -113,6 +113,39 @@ def communaute():
         if len(out) >= 8: break
     return out
 
+UA_NAV = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36"}
+
+def boutique():
+    """Boutique Rockstar, collection GTA VI : titre, prix, lien, image (page HTML, pas d'API)."""
+    s = urllib.request.urlopen(urllib.request.Request("https://store.rockstargames.com/grand-theft-auto-vi-collection", headers=UA_NAV), timeout=30).read().decode("utf8", "ignore")
+    out, vus = [], set()
+    for m in re.finditer(r'<a[^>]+href="(/merchandise/[^"]+|/game/[^"]+)"[^>]*>(.*?)</a>', s, re.S):
+        h, inner = m.group(1), m.group(2)
+        img = re.search(r'<img alt="([^"]*)"[^>]*srcSet="([^"\s]+)"', inner)
+        prix = re.search(r'(€|\$|£)\s?(\d+[.,]\d{2})', html.unescape(re.sub(r'<[^>]+>', ' ', inner)))
+        etat = "soon" if re.search(r'COMING SOON', inner, re.I) else ("new" if re.search(r'>\s*New\s*<', inner) else "")
+        if not img or h in vus: continue
+        vus.add(h)
+        out.append({"t": html.unescape(img.group(1)).strip(), "p": (prix.group(1) + prix.group(2)) if prix else "", "u": "https://store.rockstargames.com" + h, "img": img.group(2).split("?")[0] + "?w=480&fm=webp&q=75", "e": etat})
+    return out
+
+def rockstar():
+    """Newswire Rockstar : articles liés à GTA VI listés sur rockstargames.com/VI (titre en fr via la page article)."""
+    s = urllib.request.urlopen(urllib.request.Request("https://www.rockstargames.com/VI", headers=UA_NAV), timeout=30).read().decode("utf8", "ignore")
+    liens = list(dict.fromkeys(re.findall(r'https://www\.rockstargames\.com/newswire/article/[a-z0-9]+', s)))[:6]
+    out = []
+    for u in liens:
+        it = {"u": u}
+        for l in ("fr", "en"):
+            try:
+                a = urllib.request.urlopen(urllib.request.Request(u.replace("rockstargames.com/", "rockstargames.com/fr/") if l == "fr" else u, headers=UA_NAV), timeout=30).read().decode("utf8", "ignore")
+                t = re.search(r'<title>([^<]*)</title>', a); d = re.search(r'"datePublished":"([^"]+)"', a) or re.search(r'property="article:published_time" content="([^"]+)"', a)
+                it[l] = html.unescape(t.group(1)).replace(" - Rockstar Games", "").strip() if t else ""
+                if d: it["d"] = d.group(1)[:10]
+            except Exception: it[l] = ""
+        out.append(it)
+    return out
+
 if __name__ == "__main__":
     all_news, erreurs = {}, []
     for lang in LANGS:
@@ -127,6 +160,10 @@ if __name__ == "__main__":
     except Exception as e: erreurs.append(f"youtube: {e}")
     try: (ROOT / "communaute.json").write_text(json.dumps(communaute(), ensure_ascii=False))
     except Exception as e: erreurs.append(f"communaute: {e}")
+    try: (ROOT / "boutique.json").write_text(json.dumps(boutique(), ensure_ascii=False))
+    except Exception as e: erreurs.append(f"boutique: {e}")
+    try: (ROOT / "rockstar.json").write_text(json.dumps(rockstar(), ensure_ascii=False))
+    except Exception as e: erreurs.append(f"rockstar: {e}")
     try: print("vues", vues())
     except Exception as e: erreurs.append(f"vues: {e}")
     (ROOT / "deals.json").write_text(json.dumps(deals(all_news), ensure_ascii=False))

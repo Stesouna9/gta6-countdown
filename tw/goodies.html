@@ -47,7 +47,20 @@
   <section style="padding:0"><img src="../assets/img/vb-downtown.webp" alt="Vice Bay, downtown" style="width:100%;max-height:60vh;object-fit:cover" loading="lazy" width="1400" height="788"></section>
   <div class="pub vide"></div>
   <section class="papier"><div class="wrap">
-    <div class="rubrique rv"><span class="num">%</span><h2 data-i18n="deals_t">媒體發現的優惠</h2><p data-i18n="updated">每日自動更新2次</p></div>
+    <div class="rubrique rv"><span class="num">R*</span><h2 data-i18n="bout_t">The Rockstar Store, GTA VI collection</h2><p data-i18n="bout_i">Tees, caps, totes, Zippo, money clip, stickers, the collector's box and the album on vinyl and CD. Prices read from store.rockstargames.com, refreshed every 30 minutes.</p></div>
+    <div class="boutique" id="boutique"></div>
+    <div class="boutons"><a class="btn" href="https://store.rockstargames.com/grand-theft-auto-vi-collection" target="_blank" rel="noopener" data-i18n="bout_cta">See the whole collection</a></div>
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      donnees("data/boutique.json").then(function (lst) {
+        var e = function (s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); };
+        document.getElementById("boutique").innerHTML = lst.map(function (x) {
+          return '<a class="prod rv vu" href="' + e(x.u) + '" target="_blank" rel="noopener"><span class="cadre"><img src="' + e(x.img) + '" alt="" loading="lazy" width="480" height="480">' + (x.e === "soon" ? '<span class="etat">' + e(T("bout_soon")) + "</span>" : x.e === "new" ? '<span class="etat neuf">' + e(T("new")) + "</span>" : "") + '</span><b>' + e(x.t.replace("Grand Theft Auto VI", "GTA VI")) + '</b><small>' + e(x.p) + "</small></a>";
+        }).join("");
+      });
+    });
+    </script>
+    <div class="rubrique rv" style="margin-top:56px"><span class="num">%</span><h2 data-i18n="deals_t">媒體發現的優惠</h2><p data-i18n="updated">每日自動更新2次</p></div>
     <div class="journal" id="deals"></div>
     <div class="rubrique rv" style="margin-top:56px"><span class="num">+</span><h2 data-i18n="merch_t">New merch and collectors</h2><p data-i18n="updated">每日自動更新2次</p></div>
     <div class="journal" id="merch"></div>
