@@ -22,6 +22,7 @@
     var d = I18N[l]; if (!d) return;
     H.lang = d._hl || l; H.dir = l === "ar" ? "rtl" : "ltr"; window.LANG = l;
     document.querySelectorAll("[data-i18n]").forEach(function (el) { var k = el.getAttribute("data-i18n"); if (d[k] != null) el.textContent = d[k]; });
+    document.querySelectorAll("[data-i18n-ph]").forEach(function (el) { var k = el.getAttribute("data-i18n-ph"); if (d[k] != null) el.placeholder = d[k]; });
     var sel = document.getElementById("lang"); if (sel) sel.value = l;
     document.dispatchEvent(new CustomEvent("langchange", { detail: l }));
   }

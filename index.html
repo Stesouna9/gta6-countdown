@@ -148,9 +148,12 @@
   <section id="actus-section" class="papier">
     <div class="wrap">
       <div class="rubrique rv"><span class="num">04</span><h2 data-i18n="latest_t">Dernières actus</h2><p data-i18n="news_i">Les annonces officielles Rockstar, puis la presse du monde entier dans ta langue. Mise à jour automatique 2 fois par jour.</p></div>
-      <p class="maj"><i></i><span data-i18n="updated">Mis à jour automatiquement 2 fois par jour</span></p>
+      <p class="maj"><i></i><span data-i18n="maj_h">Mis à jour</span> <span data-maj></span></p>
       <div class="journal" id="actus-accueil" style="margin-top:18px"></div>
-      <div class="boutons"><a class="btn" href="actus.html" data-i18n="all_news">Toutes les actus</a></div>
+      <div class="rubrique rv" style="margin-top:56px"><span class="num">▶</span><h2 data-i18n="yt_t">YouTube aujourd'hui</h2><p data-i18n="yt_i">Les vidéos GTA 6 publiées dans la journée, toutes chaînes. Rafraîchi chaque heure.</p></div>
+      <div class="videos" id="yt-accueil"></div>
+      <script>document.addEventListener("DOMContentLoaded",function(){chargeYoutube(document.getElementById("yt-accueil"),6);});</script>
+      <div class="boutons"><a class="btn" href="actus.html" data-i18n="all_news">Toutes les actus</a><a class="btn clair" href="communaute.html" data-i18n="nav_commu">Communauté</a></div>
     </div>
   </section>
 

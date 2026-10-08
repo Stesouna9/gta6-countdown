@@ -43,13 +43,18 @@
     <span class="kicker">Leonida · <span id="maj-date"></span></span>
     <h1 data-i18n="news_t">GTA 6 समाचार</h1><p data-i18n="news_i">पहले Rockstar की आधिकारिक घोषणाएँ, फिर आपकी भाषा में दुनिया भर की प्रेस। दिन में 2 बार अपने आप अपडेट।</p></div></header>
   <section class="papier"><div class="wrap">
-    <div class="rubrique rv"><span class="num">01</span><h2 data-i18n="news_press">प्रेस में</h2><p data-i18n="updated">दिन में 2 बार अपने आप अपडेट</p></div>
+    <div class="rubrique rv"><span class="num">01</span><h2 data-i18n="news_press">प्रेस में</h2><p><span data-i18n="maj_h">Updated</span> <span data-maj></span></p><p hidden data-i18n="updated">दिन में 2 बार अपने आप अपडेट</p></div>
     <div class="journal" id="presse"></div>
   </div></section>
   <div class="pub vide"></div>
   <section class="papier" style="background:var(--paper2)"><div class="wrap">
     <div class="rubrique rv"><span class="num">02</span><h2 data-i18n="news_official">आधिकारिक, Rockstar द्वारा पुष्ट</h2></div>
     <div class="officiel" id="officiel"></div>
+  </div></section>
+  <section><div class="wrap">
+    <div class="rubrique rv"><span class="num">▶</span><h2 data-i18n="yt_t">YouTube today</h2><p data-i18n="yt_i">GTA 6 videos published today, all channels. Refreshed every hour.</p></div>
+    <div class="videos" id="yt-jour"></div>
+    <script>document.addEventListener("DOMContentLoaded",function(){chargeYoutube(document.getElementById("yt-jour"),9);});</script>
   </div></section>
   <section class="papier" style="padding-top:0"><div class="wrap">
     <div class="rubrique rv"><span class="num">+</span><h2 data-i18n="commu_t">What the community says</h2><p data-i18n="commu_i">Today's threads on r/GTA6, updated twice a day.</p></div>

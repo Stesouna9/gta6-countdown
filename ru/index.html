@@ -148,9 +148,12 @@
   <section id="actus-section" class="papier">
     <div class="wrap">
       <div class="rubrique rv"><span class="num">04</span><h2 data-i18n="latest_t">Последние новости</h2><p data-i18n="news_i">Сначала официальные анонсы Rockstar, затем мировая пресса на твоём языке. Автообновление 2 раза в день.</p></div>
-      <p class="maj"><i></i><span data-i18n="updated">Обновляется автоматически 2 раза в день</span></p>
+      <p class="maj"><i></i><span data-i18n="maj_h">Updated</span> <span data-maj></span></p>
       <div class="journal" id="actus-accueil" style="margin-top:18px"></div>
-      <div class="boutons"><a class="btn" href="actus.html" data-i18n="all_news">Все новости</a></div>
+      <div class="rubrique rv" style="margin-top:56px"><span class="num">▶</span><h2 data-i18n="yt_t">YouTube today</h2><p data-i18n="yt_i">GTA 6 videos published today, all channels. Refreshed every hour.</p></div>
+      <div class="videos" id="yt-accueil"></div>
+      <script>document.addEventListener("DOMContentLoaded",function(){chargeYoutube(document.getElementById("yt-accueil"),6);});</script>
+      <div class="boutons"><a class="btn" href="actus.html" data-i18n="all_news">Все новости</a><a class="btn clair" href="communaute.html" data-i18n="nav_commu">Community</a></div>
     </div>
   </section>
 

@@ -50,10 +50,48 @@
     </div>
   </div></section>
   <section class="papier"><div class="wrap">
+    <div class="rubrique rv"><span class="num">VI</span><h2 data-i18n="gr_leo">The Leonida stations, revealed October 8</h2><p data-i18n="gr_leo_i">Rockstar showed six GTA 6 stations. Previews play on rockstargames.com, not here: rights.</p></div>
+    <div class="leo" id="leo"></div>
+    <div class="boutons"><a class="btn" href="https://www.rockstargames.com/VI/music" target="_blank" rel="noopener" data-i18n="gr_leo_cta">Hear the preview at Rockstar</a></div>
+  </div></section>
+  <section class="gr"><div class="wrap">
+    <div class="rubrique rv"><span class="num">FM</span><h2 data-i18n="gr_t">The official GTA radios</h2><p data-i18n="gr_i">The playlists Rockstar Games published on Spotify: every Vice City station, then Los Santos, then the GTA 6 trailer songs. Pick a station, the set switches on.</p></div>
+    <div class="gr-grid">
+      <div class="gr-cadran rv">
+        <h3 data-i18n="gr_6">GTA VI: The Album, six singles and the trailers</h3><div class="gr-liste" data-gr="album"></div><div class="gr-liste" data-gr="gta6" style="margin-top:8px"></div>
+        <h3 data-i18n="gr_vc">Vice City, 1986</h3><div class="gr-liste" data-gr="vicecity"></div>
+        <h3 data-i18n="gr_vcs">Vice City Stories, 1984</h3><div class="gr-liste" data-gr="stories"></div>
+        <h3 data-i18n="gr_ls">Los Santos, GTA V</h3><div class="gr-liste" data-gr="lossantos"></div>
+      </div>
+      <div class="gr-poste rv"><div class="gr-ecran" id="gr-ecran"><p class="gr-vide" data-i18n="gr_choisis">Pick a station</p></div><p class="note" data-i18n="gr_note">Full playback with a Spotify account, 30 s previews without. Official Rockstar Games playlists, embedded Spotify player.</p></div>
+    </div>
+  </div></section>
+  <section class="papier"><div class="wrap">
     <div class="rubrique rv"><span class="num">FM</span><h2>Vice Bay Radio App</h2><p data-i18n="radio_app">Bald für iPhone und Android</p></div>
     <div class="stores"><span class="store"><small data-i18n="soon">Bald</small><b>App Store</b></span><span class="store"><small data-i18n="soon">Bald</small><b>Google Play</b></span></div>
   </div></section>
   <div class="pub vide"></div>
+  <script>
+  (function () {
+    function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
+    function joue(x, b) {
+      document.querySelectorAll(".gr-liste button.on").forEach(function (o) { o.classList.remove("on"); }); b.classList.add("on");
+      var type = x.type || "playlist", u = "https://open.spotify.com/embed/" + type + "/" + x.id + "?utm_source=gtavifrance&theme=0";
+      document.getElementById("gr-ecran").innerHTML = '<iframe src="' + u + '" width="100%" height="' + (type === "track" ? 152 : 380) + '" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="' + esc(x.t) + '"></iframe>' +
+        '<a class="lien" href="https://open.spotify.com/' + type + '/' + x.id + '" target="_blank" rel="noopener">' + esc(x.t) + (x.a ? " · " + esc(x.a) : "") + " ↗</a>";
+      document.getElementById("gr-ecran").scrollIntoView({ behavior: "smooth", block: "nearest" });
+    }
+    fetch("../data/radios.json").then(function (r) { return r.json(); }).then(function (d) {
+      var leo = document.getElementById("leo"), L = (window.LANG || "fr") === "fr" ? "fr" : "en";
+      leo.innerHTML = (d.leonida || []).map(function (x, i) { return '<article class="leo-st rv vu"><span class="num">0' + (i + 1) + '</span><h3>' + esc(x.t) + '</h3><small>' + esc(x.g) + '</small><p>' + esc(x[L]) + '</p></article>'; }).join("");
+      document.querySelectorAll("[data-gr]").forEach(function (el) {
+        var lst = d[el.dataset.gr] || [];
+        el.innerHTML = lst.map(function (x, i) { return '<button type="button" data-i="' + i + '"><b>' + esc(x.t) + "</b><small>" + esc(x.a ? x.a + " · " + x.q : x.g) + "</small></button>"; }).join("");
+        el.querySelectorAll("button").forEach(function (b) { b.onclick = function () { joue(lst[+b.dataset.i], b); }; });
+      });
+    });
+  })();
+  </script>
   <script src="../assets/site.js"></script>
   <script src="../assets/radio.js"></script>
 </body>

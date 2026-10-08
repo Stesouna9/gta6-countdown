@@ -43,13 +43,18 @@
     <span class="kicker">Leonida · <span id="maj-date"></span></span>
     <h1 data-i18n="news_t">Actus GTA 6</h1><p data-i18n="news_i">Les annonces officielles Rockstar, puis la presse du monde entier dans ta langue. Mise à jour automatique 2 fois par jour.</p></div></header>
   <section class="papier"><div class="wrap">
-    <div class="rubrique rv"><span class="num">01</span><h2 data-i18n="news_press">Dans la presse</h2><p data-i18n="updated">Mis à jour automatiquement 2 fois par jour</p></div>
+    <div class="rubrique rv"><span class="num">01</span><h2 data-i18n="news_press">Dans la presse</h2><p><span data-i18n="maj_h">Mis à jour</span> <span data-maj></span></p><p hidden data-i18n="updated">Mis à jour automatiquement 2 fois par jour</p></div>
     <div class="journal" id="presse"></div>
   </div></section>
   <div class="pub vide"></div>
   <section class="papier" style="background:var(--paper2)"><div class="wrap">
     <div class="rubrique rv"><span class="num">02</span><h2 data-i18n="news_official">Officiel, confirmé par Rockstar</h2></div>
     <div class="officiel" id="officiel"></div>
+  </div></section>
+  <section><div class="wrap">
+    <div class="rubrique rv"><span class="num">▶</span><h2 data-i18n="yt_t">YouTube aujourd'hui</h2><p data-i18n="yt_i">Les vidéos GTA 6 publiées dans la journée, toutes chaînes. Rafraîchi chaque heure.</p></div>
+    <div class="videos" id="yt-jour"></div>
+    <script>document.addEventListener("DOMContentLoaded",function(){chargeYoutube(document.getElementById("yt-jour"),9);});</script>
   </div></section>
   <section class="papier" style="padding-top:0"><div class="wrap">
     <div class="rubrique rv"><span class="num">+</span><h2 data-i18n="commu_t">Ce que dit la communauté</h2><p data-i18n="commu_i">Les discussions du jour sur r/GTA6, mises à jour 2 fois par jour.</p></div>

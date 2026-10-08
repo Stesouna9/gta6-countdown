@@ -9,7 +9,8 @@ from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent / "data"
+import os
+ROOT = Path(__file__).resolve().parent.parent / os.environ.get("OUT_DIR", "data")
 ROOT.mkdir(exist_ok=True)
 UA = {"User-Agent": "Mozilla/5.0 (gta6-countdown updater)"}
 LANGS = {  # code : (hl, gl, ceid, requête)
@@ -78,6 +79,17 @@ def deals(all_news):
                 vus.add(n["u"]); out.append(dict(n, lang=lang))
     return out[:12]
 
+def youtube():
+    """Vidéos GTA 6 publiées aujourd'hui sur YouTube (recherche triée par date), sans clé API."""
+    h = get("https://www.youtube.com/results?search_query=gta+6&sp=CAISBAgCEAE%3D").decode("utf-8", "ignore")
+    out, vus = [], set()
+    for m in re.finditer(r'"videoId":"([A-Za-z0-9_-]{11})".{0,600}?"title":\{"runs":\[\{"text":"((?:[^"\\]|\\.)*)"', h):
+        vid, t = m.group(1), json.loads('"' + m.group(2) + '"')
+        if vid in vus or len(t) < 8: continue
+        vus.add(vid); out.append({"id": vid, "t": t})
+        if len(out) >= 12: break
+    return out
+
 def merch(lang):
     hl, gl, ceid, _ = LANGS[lang]
     q = "GTA 6 (figurine OR merch OR t-shirt OR poster OR collector OR console OR manette)" if lang == "fr" else "GTA 6 (merch OR figure OR t-shirt OR poster OR collector OR console OR controller)"
@@ -111,6 +123,8 @@ if __name__ == "__main__":
     for lang in ("fr", "en"):
         try: (ROOT / f"merch_{lang}.json").write_text(json.dumps(merch(lang), ensure_ascii=False))
         except Exception as e: erreurs.append(f"merch {lang}: {e}")
+    try: (ROOT / "youtube.json").write_text(json.dumps(youtube(), ensure_ascii=False))
+    except Exception as e: erreurs.append(f"youtube: {e}")
     try: (ROOT / "communaute.json").write_text(json.dumps(communaute(), ensure_ascii=False))
     except Exception as e: erreurs.append(f"communaute: {e}")
     try: print("vues", vues())

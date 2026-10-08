@@ -492,3 +492,83 @@ details p{font-family:var(--serif);font-size:1.2rem;line-height:1.4;max-width:62
 
 .fait{font-family:var(--serif);font-size:1.05rem;line-height:1.35;max-width:42ch;color:rgba(242,232,213,.8);border-top:1px solid rgba(242,232,213,.2);padding-top:12px;margin-top:-6px}
 .fait .kicker{display:block;color:var(--gold);margin-bottom:4px}
+
+/* Le Mur de Vice City */
+.mur{display:grid;grid-template-columns:minmax(0,1fr);gap:24px;margin-top:28px}
+.mur-sujets{display:flex;flex-wrap:wrap;gap:8px}
+.mur-sujets button{font:600 13px/1 var(--sans);letter-spacing:.04em;text-transform:uppercase;padding:10px 14px;border:1.5px solid currentColor;background:transparent;color:inherit;cursor:pointer;border-radius:2px}
+.mur-sujets button.actif{background:var(--hot);border-color:var(--hot);color:#0b0b12}
+.mur-form{display:grid;gap:10px;grid-template-columns:1fr auto;align-items:start}
+.mur-form input[type=text],.mur-form textarea{grid-column:1/-1;font:500 16px/1.4 var(--sans);padding:12px 14px;border:1.5px solid rgba(128,128,128,.4);background:rgba(255,255,255,.04);color:inherit;border-radius:2px;width:100%}
+.mur-form .sr-only{grid-column:auto}
+.mur-form .btn{grid-column:1}
+.mur-etat{align-self:center;font:700 14px var(--mono);opacity:.8}
+.mur-messages{display:grid;gap:12px}
+.mur-msg{padding:14px 16px;border-left:3px solid var(--hot);background:rgba(128,128,128,.08)}
+.mur-msg header{display:flex;justify-content:space-between;gap:12px;font:600 13px var(--sans);margin-bottom:6px}
+.mur-msg time{opacity:.6;font-family:var(--mono);font-weight:400}
+.mur-msg p{margin:0;white-space:pre-wrap;overflow-wrap:anywhere}
+.mur-vide{opacity:.7;font-style:italic}
+@media(min-width:900px){.mur{grid-template-columns:1fr 1.4fr}.mur-sujets{grid-column:1/-1}}
+
+/* Radios GTA officielles */
+.gr{background:var(--ink);color:var(--paper)}
+.gr-grid{display:grid;gap:32px;margin-top:28px}
+.gr-cadran h3{font:400 clamp(20px,2.4vw,26px)/1.1 var(--serif);font-style:italic;margin:22px 0 10px;color:var(--gold)}
+.gr-cadran h3:first-child{margin-top:0}
+.gr-liste{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:8px}
+.gr-liste button{text-align:left;display:grid;gap:2px;padding:10px 12px;border:1.5px solid rgba(242,232,213,.25);background:transparent;color:inherit;cursor:pointer;border-radius:2px;font-family:var(--sans)}
+.gr-liste button b{font:800 15px/1.15 var(--sans);letter-spacing:.01em}
+.gr-liste button small{font:400 12px/1.2 var(--mono);opacity:.65}
+.gr-liste button:hover{border-color:var(--hot)}
+.gr-liste button.on{background:var(--hot);border-color:var(--hot);color:var(--ink)}
+.gr-liste button.on small{opacity:.85}
+.gr-poste{position:sticky;top:24px;align-self:start}
+.gr-ecran{min-height:200px;display:grid;align-content:center;background:#000;border:1.5px solid rgba(242,232,213,.25);border-radius:12px;padding:10px;gap:8px}
+.gr-ecran iframe{border-radius:12px;display:block}
+.gr-vide{text-align:center;font:400 22px var(--serif);font-style:italic;opacity:.6;margin:0}
+.gr .note{margin-top:12px;opacity:.7}
+@media(min-width:960px){.gr-grid{grid-template-columns:1.1fr .9fr}}
+
+/* Stations de Leonida */
+.leo{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin-top:28px}
+.leo-st{padding:20px 20px 22px;border:1.5px solid rgba(22,17,29,.18);background:rgba(255,255,255,.35);display:grid;gap:6px;align-content:start}
+.leo-st .num{font:400 13px var(--mono);letter-spacing:.2em;color:var(--hot)}
+.leo-st h3{font:400 28px/1 var(--display);letter-spacing:.02em;margin:0;text-transform:uppercase}
+.leo-st small{font:400 12px var(--mono);opacity:.65;text-transform:uppercase;letter-spacing:.08em}
+.leo-st p{margin:6px 0 0;font:400 15px/1.45 var(--sans)}
+
+/* Barre et menu plein écran (ambiance rockstargames.com/VI) */
+.nav{background:rgba(22,17,29,.55);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom-color:transparent;transition:background .4s ease,border-color .4s ease}
+.nav.solide{background:rgba(22,17,29,.92);border-bottom-color:rgba(242,232,213,.14)}
+.nav .burger{display:inline-flex;align-items:center;gap:10px;background:transparent;border:1px solid rgba(242,232,213,.35);color:var(--paper);padding:7px 12px;cursor:pointer;font:400 .7rem/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;border-radius:0}
+.nav .burger span:nth-child(-n+2){display:block;width:16px;height:1.5px;background:currentColor;margin:2px 0;transition:transform .3s}
+.nav .burger span:nth-child(1){margin-top:0}
+.nav .burger span:nth-child(3){margin-inline-start:4px}
+html.menu-on{overflow:hidden}
+.menu-plein{position:fixed;inset:0;z-index:100;background:#0c0d1b;color:var(--paper);display:grid;grid-template-rows:auto 1fr auto auto;padding:0 var(--gut) 28px;opacity:0;transition:opacity .4s ease}
+.menu-plein.ouvert{opacity:1}
+.menu-plein[hidden]{display:none}
+.menu-haut{display:flex;align-items:center;justify-content:space-between;height:56px}
+.menu-haut .logo{display:flex;align-items:baseline;gap:8px;text-decoration:none}
+.menu-haut .logo b{font-family:var(--display);font-size:1.7rem;line-height:1;background:var(--sunset);-webkit-background-clip:text;background-clip:text;color:transparent}
+.menu-haut .logo span{font-family:var(--mono);font-size:.68rem;letter-spacing:.2em;text-transform:uppercase}
+.menu-haut .fermer{background:transparent;border:1px solid rgba(242,232,213,.35);color:var(--paper);padding:7px 12px;cursor:pointer;font:400 .7rem/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;border-radius:0}
+.menu-liens{display:grid;align-content:center;gap:2px;overflow:auto}
+.menu-liens a{display:flex;align-items:baseline;gap:18px;text-decoration:none;color:rgba(242,232,213,.82);font:400 clamp(30px,6.5vw,68px)/1.05 var(--display);text-transform:uppercase;letter-spacing:.03em;padding:4px 0;border-bottom:1px solid rgba(242,232,213,.08);opacity:0;transform:translateY(18px);transition:opacity .5s ease,transform .5s cubic-bezier(.2,.7,.2,1),color .2s;transition-delay:calc(60ms * var(--i,0))}
+.menu-plein.ouvert .menu-liens a{opacity:1;transform:none}
+.menu-liens a:hover,.menu-liens a.actif{color:var(--gold)}
+.menu-liens .num{font:400 .75rem var(--mono);letter-spacing:.2em;color:var(--hot);min-width:2.2em}
+.menu-plus{display:flex;flex-wrap:wrap;gap:6px 18px;padding:18px 0 10px;border-top:1px solid rgba(242,232,213,.14);font:400 .74rem var(--mono);letter-spacing:.12em;text-transform:uppercase}
+.menu-plus b{font-weight:400;color:var(--gold);width:100%}
+.menu-plus a{color:rgba(242,232,213,.7);text-decoration:none}
+.menu-plus a:hover{color:var(--paper)}
+.menu-bas{display:flex;flex-wrap:wrap;gap:6px 18px;font:400 .74rem var(--mono);letter-spacing:.12em;text-transform:uppercase;opacity:.75}
+.menu-bas a{color:var(--sky);text-decoration:none}
+@media(max-width:900px){.nav a:not(.logo){display:none}.nav .burger{display:inline-flex}}
+/* Images de tête : léger parallaxe piloté par le défilement (sans JS) */
+@supports(animation-timeline:view()){
+  .tete-page.image{overflow:hidden}
+  .tete-page.image img{animation:parallaxe linear both;animation-timeline:view();animation-range:entry 0% exit 100%;will-change:transform}
+  @keyframes parallaxe{from{transform:translateY(-8%) scale(1.12)}to{transform:translateY(8%) scale(1.12)}}
+}

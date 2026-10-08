@@ -14,7 +14,7 @@ LOCALE = {"fr": "fr_FR", "en": "en_US", "es": "es_ES", "pt": "pt_BR", "de": "de_
 FONTS = "https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;800&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;700&family=Lalezar&display=swap"
 PAGES = [("index", "1.0", "daily"), ("actus", "0.9", "daily"), ("sortie", "0.9", "daily"), ("faq", "0.9", "weekly"), ("acheter", "0.8", "daily"),
          ("guide", "0.8", "weekly"), ("vraifaux", "0.8", "weekly"), ("arabe", "0.7", "weekly"), ("radio", "0.7", "monthly"), ("vicebreak", "0.7", "monthly"),
-         ("goodies", "0.6", "daily"), ("quiz", "0.6", "monthly"), ("integrer", "0.6", "monthly"), ("apropos", "0.5", "monthly")]
+         ("goodies", "0.6", "daily"), ("communaute", "0.8", "hourly"), ("quiz", "0.6", "monthly"), ("integrer", "0.6", "monthly"), ("apropos", "0.5", "monthly")]
 SRC = {l: json.load(open(f"tools/i18n/{l}.json", encoding="utf-8")) for l in ORDRE if os.path.exists(f"tools/i18n/{l}.json")}
 LANGS = [l for l in ORDRE if l in SRC]
 I18N = {l: {**SRC["en"], **SRC[l]} for l in LANGS}
