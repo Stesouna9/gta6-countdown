@@ -7,6 +7,7 @@
    sitemap.xml (ajout), sitemap-images.xml, robots.txt (ajout), feed.xml (hub WebSub + article du jour)
 Les pages réutilisent l'habillage rendu (nav, pied) via <base href>."""
 import datetime, html, json, os, re, zoneinfo
+import sys; sys.path.insert(0, __import__('os').path.dirname(__file__)); from version import ver
 
 BASE = "https://gtavifrance.com/"
 SORTIE = datetime.datetime(2026, 11, 19, 0, 0, tzinfo=zoneinfo.ZoneInfo("Europe/Paris"))
@@ -260,7 +261,7 @@ def shell(l, page="sortie"):
     f = f"{page}.html" if l == "fr" else f"{l}/{page}.html"
     c = open(f, encoding="utf-8").read()
     head = c[:c.index('<header class="tete-page')]
-    foot = '\n  <div class="pub vide"></div>\n  ' + re.search(r'<script src="[^"]*site\.js"></script>', c).group(0) + "\n</body>\n</html>\n"
+    foot = '\n  <div class="pub vide"></div>\n  ' + re.search(r'<script src="[^"]*site\.js[^"]*"></script>', c).group(0) + "\n</body>\n</html>\n"
     head = re.sub(r'<link rel="alternate" hreflang="[^"]*" href="[^"]*"\s*/?>\s*', "", head)
     head = re.sub(r'<script type="application/ld\+json">.*?</script>\s*', "", head, flags=re.S)
     head = re.sub(r'<link rel="canonical" href="[^"]*"\s*/?>', "", head)
@@ -282,7 +283,7 @@ def page(l, url, title, desc, body, ld, img=None, page_shell="sortie"):
 
 def write(path, content):
     os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
-    open(path, "w", encoding="utf-8").write(content)
+    open(path, "w", encoding="utf-8").write(ver(content))
 
 def fmt_local(dt, l):
     """Date et heure locales lisibles."""

@@ -35,7 +35,7 @@
   <link rel="alternate" type="application/rss+xml" title="GTA 6" href="https://gtavifrance.com/feed.xml">
   <script type="application/ld+json" data-gen>{"@context": "https://schema.org", "@graph": [{"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "VI Countdown", "item": "https://gtavifrance.com/pl/"}, {"@type": "ListItem", "position": 2, "name": "Gadżety GTA 6: koszulki, plakaty, figurki, prezenty z Vice City", "item": "https://gtavifrance.com/pl/goodies.html"}]}]}</script>
   <!--/meta-->
-  <link rel="stylesheet" href="../assets/style.css"><script src="../assets/lang/pl.js"></script><script src="../assets/i18n.js"></script>
+  <link rel="stylesheet" href="../assets/style.css?v=773304ae"><script src="../assets/lang/pl.js?v=773304ae"></script><script src="../assets/i18n.js?v=773304ae"></script>
 </head>
 <body>
 
@@ -68,7 +68,7 @@
     <div class="journal" id="merch"></div>
     <script>document.addEventListener("DOMContentLoaded",function(){chargeListe(document.getElementById("merch"),"data/merch_"+((window.LANG||"fr")==="fr"?"fr":"en")+".json",9);});</script>
   </div></section>
-  <script src="../assets/site.js"></script>
+  <script src="../assets/site.js?v=773304ae"></script>
   <script>
     fetch("../data/deals.json").then(function (r) { return r.json(); }).then(function (lst) {
       document.getElementById("deals").innerHTML = lst.map(function (a) { return '<a href="' + a.u + '" target="_blank" rel="noopener"><span class="src">' + a.s + '</span><b>' + a.t + '</b></a>'; }).join("");

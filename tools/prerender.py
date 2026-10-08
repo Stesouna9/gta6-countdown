@@ -4,6 +4,7 @@ Produit : assets/lang/<l>.js, une copie de chaque page par langue (/en/, /ar/...
 données structurées, hreflang, sitemap.xml, feed.xml, api/gta6.json, llms.txt, robots.txt, manifest.webmanifest.
 Idempotent : relancé à chaque mise à jour automatique (2 fois par jour)."""
 import json, re, html, glob, datetime, os, shutil
+import sys; sys.path.insert(0, __import__('os').path.dirname(__file__)); from version import ver
 os.chdir(os.path.dirname(os.path.abspath(__file__)) + "/..")
 BASE = "https://gtavifrance.com/"   # changer ici le jour du domaine
 HOST = re.sub(r"^https://([^/]+)/.*$", r"\1", BASE)
@@ -101,10 +102,10 @@ for page, *_ in PAGES:
             c = re.sub(r'href="(%s)/' % "|".join(LANGS), r'href="../\1/', c)
             c = re.sub(r'fetch\("(data/|actus\.json)', r'fetch("../\1', c)
             os.makedirs(l, exist_ok=True)
-            open(f"{l}/{f}", "w", encoding="utf-8").write(c)
+            open(f"{l}/{f}", "w", encoding="utf-8").write(ver(c))
         else:
             c = c.replace('<html lang="fr" data-l="fr">', '<html lang="fr" dir="ltr" data-l="fr">', 1)
-            open(f, "w", encoding="utf-8").write(c)
+            open(f, "w", encoding="utf-8").write(ver(c))
             s_fr = c
 
 today = datetime.date.today().isoformat()
