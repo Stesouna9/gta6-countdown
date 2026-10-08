@@ -73,7 +73,7 @@ window.SITE = {
   // Données : live/ (serveur, chaque minute) puis repli data/ (dépôt, GitHub Actions)
   window.donnees = function (f) {
     return fetch(R + "live/" + f.replace(/^data\//, ""), { cache: "no-cache" }).then(function (r) { if (!r.ok) throw 0; return r.json(); })
-      .catch(function () { return fetch(R + f).then(function (r) { return r.json(); }); });
+      .catch(function () { return fetch(R + f, { cache: "no-cache" }).then(function (r) { return r.json(); }); });
   };
   function maj() {
     var els = document.querySelectorAll("[data-maj]"); if (!els.length) return;
