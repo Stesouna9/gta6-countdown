@@ -801,3 +801,15 @@ body.mu-lecteur-on .suivre{bottom:118px}
 .jr-grille .jr-carte{opacity:1;transform:none}
 .tete-page.image:not(.jr-tete)::before{display:none}
 .tete-page.image:not(.jr-tete) img{opacity:1;filter:none}
+.nav a[href$="radio.html"]:not(.logo){color:#ff3b7a;text-shadow:0 0 8px rgba(255,59,122,.45)}
+.nav a[href$="vicebreak.html"]:not(.logo){color:#00e5ff;text-shadow:0 0 8px rgba(0,229,255,.45)}
+.nav a[href$="radio.html"]:hover,.nav a[href$="vicebreak.html"]:hover{color:#fff}
+.menu-rayons a[href$="radio.html"]{color:#ff3b7a}.menu-rayons a[href$="vicebreak.html"]{color:#00e5ff}
+
+.mur-compte{background:rgba(22,17,29,.04);border:1px solid rgba(22,17,29,.12);padding:14px;margin-bottom:14px}
+.mur-onglets{display:flex;gap:6px;margin-bottom:12px}.mur-onglets button{background:none;border:1px solid rgba(22,17,29,.25);padding:7px 12px;font:600 .78rem/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;cursor:pointer;color:var(--ink)}.mur-onglets button.actif{background:var(--ink);color:var(--paper)}
+.mur-compte form{display:grid;gap:8px}.mur-compte input{padding:10px 12px;border:1px solid rgba(22,17,29,.3);font:inherit;background:#fff}
+.mur-compte .note{font-size:.78rem;opacity:.75;margin:4px 0 0}
+.mur-moi{font-size:.85rem;margin:0 0 10px}.mur-moi button{background:none;border:0;font:inherit;color:var(--hot);cursor:pointer;text-decoration:underline;padding:0}
+.mur-msg.staff{border-left:3px solid #ff3b7a}.mur-msg .redac{font:500 .66rem/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:#ff3b7a;margin-left:6px;font-style:normal}
+.jr-retro{display:inline-block;background:#ffc23a;color:var(--ink);font:700 .66rem/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;padding:5px 8px;margin-bottom:10px}

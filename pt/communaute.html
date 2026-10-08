@@ -39,18 +39,34 @@
   <link rel="alternate" type="application/rss+xml" title="GTA 6" href="https://gtavifrance.com/feed.xml">
   <script type="application/ld+json" data-gen>{"@context": "https://schema.org", "@graph": [{"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "VI Countdown", "item": "https://gtavifrance.com/pt/"}, {"@type": "ListItem", "position": 2, "name": "GTA 6 community: the Vice City Wall, Vice Bay Discord and today's threads", "item": "https://gtavifrance.com/pt/communaute.html"}]}]}</script>
   <!--/meta-->
-  <link rel="stylesheet" href="../assets/style.css?v=c30a343b">
-  <script src="../assets/lang/fr.js?v=c30a343b"></script><script src="../assets/i18n.js?v=c30a343b"></script>
+  <link rel="stylesheet" href="../assets/style.css?v=39654108">
+  <script src="../assets/lang/fr.js?v=39654108"></script><script src="../assets/i18n.js?v=39654108"></script>
 </head>
 <body>
   <header class="tete-page rose"><div class="wrap"><span class="kicker">Vice City · Leonida</span><h1 data-i18n="commu_h1">The community</h1><p data-i18n="commu_intro">The Vice City Wall, the Vice Bay Discord and today's threads. Talk, ask, show what you found.</p></div></header>
 
   <section class="papier"><div class="wrap">
-    <div class="rubrique rv"><span class="num">01</span><h2 data-i18n="mur_t">The Vice City Wall</h2><p data-i18n="mur_i">No account. A nickname, a message, that's it. Posts stay, except insults and spam.</p></div>
+    <div class="rubrique rv"><span class="num">01</span><h2 data-i18n="mur_t">The Vice City Wall</h2><p data-i18n="mur_i">One account, one nickname, and you post. Messages stay, except insults and spam. Report what crosses the line.</p></div>
     <div class="mur">
       <nav class="mur-sujets" id="mur-sujets" aria-label="Sujets"></nav>
-      <form class="mur-form" id="mur-form" autocomplete="off">
-        <input type="text" name="pseudo" maxlength="24" required data-i18n-ph="mur_pseudo" placeholder="Pseudo">
+      <div class="mur-compte" id="mur-compte">
+        <div class="mur-onglets"><button type="button" class="actif" data-o="inscription" data-i18n="mur_inscrire">Create an account</button><button type="button" data-o="connexion" data-i18n="mur_connecter">Sign in</button></div>
+        <form id="mur-inscription" autocomplete="on">
+          <input type="text" name="pseudo" maxlength="24" minlength="3" pattern="[A-Za-z0-9_\-]{3,24}" required data-i18n-ph="mur_pseudo" placeholder="Pseudo" autocomplete="username">
+          <input type="email" name="email" maxlength="120" required data-i18n-ph="mur_email" placeholder="Email" autocomplete="email">
+          <input type="password" name="mdp" minlength="8" required data-i18n-ph="mur_mdp" placeholder="Mot de passe (8 caractères minimum)" autocomplete="new-password">
+          <button class="btn" type="submit" data-i18n="mur_inscrire">Create an account</button>
+          <p class="note" data-i18n="mur_compte_i">An account is required to post. Nickname, email, IP address and date of each message are kept for moderation and, if a complaint is filed, for the authorities.</p>
+        </form>
+        <form id="mur-connexion" hidden autocomplete="on">
+          <input type="text" name="ident" required data-i18n-ph="mur_ident" placeholder="Pseudo ou email" autocomplete="username">
+          <input type="password" name="mdp" required data-i18n-ph="mur_mdp" placeholder="Mot de passe" autocomplete="current-password">
+          <button class="btn" type="submit" data-i18n="mur_connecter">Sign in</button>
+        </form>
+        <p class="mur-etat" id="mur-etat-compte" aria-live="polite"></p>
+      </div>
+      <p class="mur-moi" id="mur-moi" hidden><span data-i18n="mur_connecte">Signed in as</span> <b id="mur-moi-p"></b> · <button type="button" id="mur-sortir" data-i18n="mur_deconnecter">Sign out</button></p>
+      <form class="mur-form" id="mur-form" autocomplete="off" hidden>
         <textarea name="texte" maxlength="500" rows="3" required data-i18n-ph="mur_msg" placeholder="Ton message"></textarea>
         <input type="text" name="site" tabindex="-1" autocomplete="off" class="sr-only" aria-hidden="true">
         <button class="btn" type="submit" data-i18n="mur_envoyer">Post</button>
@@ -74,7 +90,7 @@
   <div class="pub vide"></div>
   <script>
   (function () {
-    var API = "mur/api/", sujet = "", SUJETS = {
+    var API = "mur/api/", sujet = "", TOKEN = "", SUJETS = {
       fr: [["sortie", "Heure de sortie"], ["pc", "Version PC"], ["collector", "Collector et goodies"], ["leonida", "Leonida et Vice City"], ["radio", "Vice Bay Radio"], ["libre", "Tout le reste"]],
       en: [["sortie", "Release time"], ["pc", "PC version"], ["collector", "Collector and merch"], ["leonida", "Leonida and Vice City"], ["radio", "Vice Bay Radio"], ["libre", "Everything else"]]
     };
@@ -92,28 +108,53 @@
         if (!lst.length) { m.innerHTML = '<p class="mur-vide">' + esc(T("mur_vide")) + "</p>"; return; }
         m.innerHTML = lst.map(function (x) {
           var d = new Date(x.t * 1000).toLocaleString(document.documentElement.lang, { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" });
-          return '<article class="mur-msg"><header><b>' + esc(x.p) + "</b><time>" + d + "</time></header><p>" + esc(x.m).replace(/\n/g, "<br>") + '</p><button type="button" class="mur-signaler" data-id="' + x.id + '" title="' + esc(T("mur_signaler")) + '">' + esc(T("mur_signaler")) + "</button></article>";
+          return '<article class="mur-msg' + (x.staff ? " staff" : "") + '"><header><b>' + esc(x.p) + (x.staff ? ' <i class="redac">' + esc(T("mur_redac")) + "</i>" : "") + "</b><time>" + d + "</time></header><p>" + esc(x.m).replace(/\n/g, "<br>") + '</p><button type="button" class="mur-signaler" data-id="' + x.id + '" title="' + esc(T("mur_signaler")) + '">' + esc(T("mur_signaler")) + "</button></article>";
         }).join("");
         m.querySelectorAll(".mur-signaler").forEach(function (b) { b.onclick = function () {
           fetch(API + "signaler", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ id: +b.dataset.id }) }).then(function () { b.textContent = "✓"; b.disabled = true; }).catch(function () {});
         }; });
       }).catch(function () { document.getElementById("mur-messages").innerHTML = ""; });
     }
+    function post(chemin, corps) {
+      return fetch(API + chemin, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(corps) })
+        .then(function (r) { return r.json().then(function (j) { return [r.status, j]; }); });
+    }
+    function session(tok, p) {
+      TOKEN = tok || ""; try { if (TOKEN) localStorage.setItem("mur-token", TOKEN); else localStorage.removeItem("mur-token"); } catch (e) {}
+      document.getElementById("mur-compte").hidden = !!TOKEN; document.getElementById("mur-form").hidden = !TOKEN; document.getElementById("mur-moi").hidden = !TOKEN;
+      if (p) document.getElementById("mur-moi-p").textContent = p;
+    }
+    document.querySelectorAll("#mur-compte .mur-onglets button").forEach(function (b) { b.onclick = function () {
+      document.querySelectorAll("#mur-compte .mur-onglets button").forEach(function (x) { x.classList.toggle("actif", x === b); });
+      document.getElementById("mur-inscription").hidden = b.dataset.o !== "inscription"; document.getElementById("mur-connexion").hidden = b.dataset.o !== "connexion";
+    }; });
+    document.getElementById("mur-inscription").addEventListener("submit", function (e) {
+      e.preventDefault(); var f = e.target, etat = document.getElementById("mur-etat-compte"); etat.textContent = "…";
+      post("inscription", { p: f.pseudo.value.trim(), e: f.email.value.trim(), mdp: f.mdp.value, l: L() })
+        .then(function (x) { if (x[0] === 200) { etat.textContent = ""; session(x[1].token, x[1].p); } else { etat.textContent = T("mur_err_" + (x[1].e || "x")) !== "mur_err_" + (x[1].e || "x") ? T("mur_err_" + x[1].e) : (x[1].e || "erreur"); } })
+        .catch(function () { etat.textContent = "réseau"; });
+    });
+    document.getElementById("mur-connexion").addEventListener("submit", function (e) {
+      e.preventDefault(); var f = e.target, etat = document.getElementById("mur-etat-compte"); etat.textContent = "…";
+      post("connexion", { i: f.ident.value.trim(), mdp: f.mdp.value })
+        .then(function (x) { if (x[0] === 200) { etat.textContent = ""; session(x[1].token, x[1].p); } else { etat.textContent = T("mur_err_identifiants"); } })
+        .catch(function () { etat.textContent = "réseau"; });
+    });
+    document.getElementById("mur-sortir").onclick = function () { post("deconnexion", { token: TOKEN }).catch(function () {}); session("", ""); };
     document.getElementById("mur-form").addEventListener("submit", function (e) {
       e.preventDefault(); var f = e.target, etat = document.getElementById("mur-etat");
       if (f.site.value) return;
       etat.textContent = "…";
-      fetch(API + "messages", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ s: sujet, p: f.pseudo.value.trim(), m: f.texte.value.trim(), l: L() }) })
-        .then(function (r) { return r.json().then(function (j) { return [r.status, j]; }); })
-        .then(function (x) { if (x[0] === 200) { f.texte.value = ""; etat.textContent = "✓"; try { localStorage.setItem("mur-pseudo", f.pseudo.value); } catch (e) {} charge(); } else { etat.textContent = x[1].e || "erreur"; } })
+      post("messages", { s: sujet, m: f.texte.value.trim(), l: L(), token: TOKEN })
+        .then(function (x) { if (x[0] === 200) { f.texte.value = ""; etat.textContent = "✓"; charge(); } else if (x[0] === 401) { session("", ""); etat.textContent = ""; } else { etat.textContent = x[1].e || "erreur"; } })
         .catch(function () { etat.textContent = "réseau"; });
     });
-    try { var p = localStorage.getItem("mur-pseudo"); if (p) document.querySelector('[name="pseudo"]').value = p; } catch (e) {}
+    try { var tok = localStorage.getItem("mur-token"); if (tok) { fetch(API + "moi?token=" + encodeURIComponent(tok)).then(function (r) { return r.json(); }).then(function (j) { if (j.p) session(tok, j.p); else session("", ""); }).catch(function () {}); } } catch (e) {}
     sujets(); charge(); setInterval(charge, 30000);
     document.addEventListener("langchange", function () { sujets(); charge(); });
     document.addEventListener("DOMContentLoaded", function () { chargeListe(document.getElementById("communaute"), "data/communaute.json", 8); });
   })();
   </script>
-  <script src="../assets/site.js?v=c30a343b"></script>
+  <script src="../assets/site.js?v=39654108"></script>
 </body>
 </html>

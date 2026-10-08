@@ -456,7 +456,7 @@ for l in T:
         if "<figure" not in h and "<img" not in h:  # une photo dans le corps, après le premier paragraphe
             h = h.replace("</p>", f'</p><figure class="jr-fig"><img src="{e(img)}" alt="" loading="lazy"><figcaption>{e(tr(l, "jr_photo"))}</figcaption></figure>', 1)
         body = f"""
-  <header class="tete-page image jr-tete"><img src="{e(img)}" alt="" loading="eager"><div class="wrap"><span class="kicker"><span class="direct"><i></i>{e(tr(l, "direct"))}</span> · {e(d_fmt(a, l))}</span><h1>{e(x["t"])}</h1><p class="serif">{e(x["d"])}</p>
+  <header class="tete-page image jr-tete"><img src="{e(img)}" alt="" loading="eager"><div class="wrap"><span class="kicker"><span class="direct"><i></i>{e(tr(l, "direct"))}</span> · {e(d_fmt(a, l))}</span><h1>{e(x["t"])}</h1>{'<span class="jr-retro">' + e(tr(l, "jr_retro")) + '</span>' if a.get("retro") else ''}<p class="serif">{e(x["d"])}</p>
     <p class="jr-sources haut"><b>{e(tr(l, "jr_src"))}</b> {srcs}</p></div></header>
   <section class="papier"><div class="wrap jr-corps">{h}
     <p class="jr-sources"><b>{e(tr(l, "jr_src"))}</b> {srcs}</p>
