@@ -1,0 +1,23 @@
+name: Textes des archives pour Solange
+on:
+  schedule:
+    - cron: "35 * * * *"   # toutes les heures (UTC), avant les routines archives (:55 et :15)
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: { group: archives, cancel-in-progress: false }
+jobs:
+  archives:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: python tools/archives_texte.py 60
+      - run: |
+          git config user.name "gta6-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/archives.json
+          git diff --cached --quiet || git commit -m "archives: textes $(date -u +%F' '%H:%M)"
+          git pull --rebase -q origin main || true
+          git push

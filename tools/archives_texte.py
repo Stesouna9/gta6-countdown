@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Récupère le texte des sources pour les entrées de data/archives.json sans txt (N par passage, les plus anciennes d'abord)."""
-import json, os, sys
+import time, json, os, sys
 from pathlib import Path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); os.chdir(Path(__file__).resolve().parent.parent)
 from presse import article, gnews_resoudre
@@ -15,6 +15,7 @@ for x in arch:
         if "rockstargames.com" in x["u"] and a.get("img"): x["img"] = a["img"]
         if not x["txt"] and not x["chapeau"]: x["erreur"] = "vide"
     except Exception as e:
+        if "429" in str(e): time.sleep(20); continue
         x["erreur"] = str(e)[:100]
     n += 1
     if n >= N: break
