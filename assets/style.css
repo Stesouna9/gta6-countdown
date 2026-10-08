@@ -662,3 +662,21 @@ body.mu-lecteur-on{padding-bottom:110px}
 .boutique-sec .prod img{object-fit:contain;padding:8px}
 .boutique-sec .prod b{font:800 15px/1.2 var(--sans)}
 .boutique-sec .prod small{font:700 13px var(--mono);opacity:1;color:var(--hot)}
+
+/* Journal */
+.jr-tete{background:#0c0d1b;color:var(--paper)}
+.jr-tete h1{font:400 clamp(34px,5.2vw,68px)/1 var(--display);text-transform:uppercase;letter-spacing:.01em;text-wrap:balance;margin:14px 0 16px}
+.jr-tete .serif{font:400 clamp(18px,2.1vw,24px)/1.4 var(--serif);font-style:italic;max-width:60ch;opacity:.9}
+.jr-tete .kicker{display:inline-flex;align-items:center;gap:8px}
+.jr-tete .direct{margin:0}
+.jr-grille{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:22px}
+.jr-carte{display:grid;gap:8px;text-decoration:none;color:inherit;align-content:start}
+.jr-carte img{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:4px;border:1.5px solid rgba(22,17,29,.14)}
+.jr-carte .k{font:400 12px var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--hot)}
+.jr-carte b{font:400 clamp(22px,2.2vw,28px)/1.05 var(--display);text-transform:uppercase;text-wrap:balance}
+.jr-carte p{margin:0;font:400 15px/1.45 var(--sans);opacity:.85}
+.jr-corps{max-width:72ch}
+.jr-corps p{font:400 clamp(17px,1.6vw,19px)/1.6 var(--sans);margin:0 0 20px}
+.jr-corps h2{font:400 clamp(26px,3vw,36px)/1.05 var(--display);text-transform:uppercase;margin:36px 0 12px}
+.jr-corps a{color:var(--hot)}
+.jr-sources{font:400 13px var(--mono);opacity:.75;margin-top:28px}

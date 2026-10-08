@@ -433,6 +433,41 @@ for l, (slug, t, i, h2, h3) in AJ.items():
     write(("" if l == "fr" else l + "/") + f"{slug}.html", page(l, url, t + " | VI Countdown", i, body, ld, img=BASE + f"assets/jn{'-fr' if l == 'fr' else ''}.jpg", page_shell="actus"))
     URLS.append((url, l, "0.9"))
 
+
+# ------------------------------------------------------------------ 4b. journal : articles rédigés (data/articles.json)
+ARTS = json.load(open("data/articles.json", encoding="utf-8")) if os.path.exists("data/articles.json") else []
+I18N = {l: json.load(open(f"tools/i18n/{l}.json", encoding="utf-8")) for l in T}
+def tr(l, k): return I18N.get(l, {}).get(k) or I18N["en"].get(k) or I18N["fr"].get(k, k)
+def art_lang(a, l): return l if isinstance(a.get(l), dict) else ("en" if isinstance(a.get("en"), dict) else "fr")
+def art_url(a, l): return f"{BASE}{'' if l == 'fr' else l + '/'}journal/{a['id']}.html"
+def d_fmt(a, l):
+    try: return fmt_local(datetime.datetime.fromisoformat(a["date"]), l)
+    except Exception: return a.get("date", "")[:10]
+for l in T:
+    cartes = []
+    for a in ARTS:
+        al = art_lang(a, l); x = a[al]
+        cartes.append(f'<a class="jr-carte rv" href="journal/{a["id"]}.html"><img src="{e(a.get("img") or BASE + "assets/jn.jpg")}" alt="" loading="lazy" width="640" height="360"><span class="k">{e(d_fmt(a, l))}</span><b>{e(x["t"])}</b><p>{e(x["d"])}</p></a>')
+        body = f"""
+  <header class="tete-page jr-tete"><div class="wrap"><span class="kicker"><span class="direct"><i></i>{e(tr(l, "direct"))}</span> · {e(d_fmt(a, l))}</span><h1>{e(x["t"])}</h1><p class="serif">{e(x["d"])}</p></div></header>
+  <section class="papier"><div class="wrap jr-corps">{x["h"]}
+    <p class="jr-sources"><b>{e(tr(l, "jr_src"))}</b> {" · ".join(f'<a href="{e(u)}" target="_blank" rel="noopener">{e(u.split("/")[2])}</a>' for u in a.get("src", []))}</p>
+    <p class="note">{e(tr(l, "jr_auteur"))}</p><div class="partage"></div>
+    <div class="boutons"><a class="btn" href="journal.html">{e(tr(l, "jr_suite"))}</a><a class="btn clair" href="actus.html">{e(tr(l, "nav_news"))}</a></div></div></section>
+"""
+        ld = [{"@context": "https://schema.org", "@type": "NewsArticle", "headline": x["t"], "description": x["d"], "inLanguage": l, "datePublished": a["date"], "dateModified": a.get("maj", a["date"]), "image": [a.get("img") or BASE + "assets/jn.jpg"], "mainEntityOfPage": art_url(a, l),
+               "author": {"@type": "Organization", "name": "VI Countdown"}, "publisher": {"@type": "Organization", "name": "VI Countdown", "logo": {"@type": "ImageObject", "url": BASE + "assets/icon-192.png"}}}]
+        write(("" if l == "fr" else l + "/") + f"journal/{a['id']}.html", page(l, art_url(a, l), x["t"] + " | VI Countdown", x["d"], body, ld, img=a.get("img"), page_shell="actus"))
+        URLS.append((art_url(a, l), l, "0.9"))
+    body = f"""
+  <header class="tete-page jr-tete"><div class="wrap"><span class="kicker"><span class="direct"><i></i>{e(tr(l, "direct"))}</span> · {e(tr(l, "direct_i"))}</span><h1>{e(tr(l, "jr_h1"))}</h1><p class="serif">{e(tr(l, "jr_i"))}</p></div></header>
+  <section class="papier"><div class="wrap"><div class="jr-grille">{"".join(cartes)}</div><div class="partage"></div></div></section>
+"""
+    url = f"{BASE}{'' if l == 'fr' else l + '/'}journal.html"
+    ld = [{"@context": "https://schema.org", "@type": "CollectionPage", "name": tr(l, "mt_journal"), "url": url, "inLanguage": l}]
+    write(("" if l == "fr" else l + "/") + "journal.html", page(l, url, tr(l, "mt_journal"), tr(l, "md_journal"), body, ld, page_shell="actus"))
+    URLS.append((url, l, "0.9"))
+
 # ------------------------------------------------------------------ 5. sitemap, images, robots, feed
 sm = open("sitemap.xml", encoding="utf-8").read()
 ajout = "".join(f"  <url><loc>{u}</loc><lastmod>{TODAY.isoformat()}</lastmod><changefreq>daily</changefreq><priority>{p}</priority></url>\n" for u, l, p in URLS)
@@ -456,5 +491,11 @@ if 'rel="hub"' not in fx:
 t_fr, i_fr = AJ["fr"][1], AJ["fr"][2]
 item = f"<item><title>{e(t_fr)}</title><link>{BASE}aujourdhui.html</link><guid>{BASE}aujourdhui.html#{TODAY.isoformat()}</guid><pubDate>{datetime.datetime.now(datetime.timezone.utc).strftime('%a, %d %b %Y %H:%M:%S +0000')}</pubDate><description>{e(i_fr)}</description></item>\n"
 fx = re.sub(r"<item>", item + "<item>", fx, count=1)
+for a in reversed(ARTS[:10]):
+    if a["id"] not in fx:
+        x = a[art_lang(a, "fr")]
+        try: pd = datetime.datetime.fromisoformat(a["date"]).astimezone(datetime.timezone.utc).strftime('%a, %d %b %Y %H:%M:%S +0000')
+        except Exception: pd = datetime.datetime.now(datetime.timezone.utc).strftime('%a, %d %b %Y %H:%M:%S +0000')
+        fx = re.sub(r"<item>", f"<item><title>{e(x['t'])}</title><link>{art_url(a, 'fr')}</link><guid>{art_url(a, 'fr')}</guid><pubDate>{pd}</pubDate><description>{e(x['d'])}</description></item>\n<item>", fx, count=1)
 open("feed.xml", "w", encoding="utf-8").write(fx)
 print(f"pub: {len(URLS)} pages (J-{J})")
