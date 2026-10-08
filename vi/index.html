@@ -183,8 +183,7 @@
     <div class="wrap">
       <div class="rubrique rv"><span class="num">04</span><h2 data-i18n="latest_t">Tin mới nhất</h2><p data-i18n="news_i">Thông báo chính thức của Rockstar trước, sau đó là báo chí thế giới bằng ngôn ngữ của bạn. Tự động cập nhật theo thời gian thực, mỗi phút.</p></div>
       <p class="maj"><i></i><b data-i18n="direct">Live</b> · <span data-i18n="maj_h">Updated</span> <span data-maj></span></p>
-      <div class="jr-grille" id="actus-accueil" style="margin-top:18px"></div>
-      <details class="depeches"><summary data-i18n="depeches_t">Tin thô, mọi nguồn</summary><div class="journal" id="depeches-accueil"></div></details>
+      <div class="jr-grille" id="actus-accueil" style="margin-top:18px"><a class="jr-carte rv" href="journal/2026-10-08-voix-radios-gta6-stars.html"><img src="https://gtavifrance.com/assets/img/rockstar/couple-station.jpg" alt="" loading="lazy" width="640" height="360"><span class="k">2026-10-08</span><b>Radio GTA 6: Lana Del Rey, Bad Bunny và Slayer lên sóng</b><p>Rockstar công bố các giọng đọc của đài: sao pop, Latin, metal và rap cầm micro, cùng podcast theo yêu cầu.</p></a><a class="jr-carte rv" href="journal/2026-10-08-captures-vice-city-rockstar.html"><img src="https://gtavifrance.com/assets/img/rockstar/mosaique.jpg" alt="" loading="lazy" width="640" height="360"><span class="k">2026-10-08</span><b>GTA 6: Rockstar công bố ba ảnh chụp màn hình chính thức mới của Vice City</b><p>Cùng lúc giới thiệu các đài phát thanh, Rockstar đăng ba hình ảnh chính thức về Vice City ban ngày và ban đêm, còn 42 ngày nữa là phát hành.</p></a><a class="jr-carte rv" href="journal/2026-10-08-australie-conge-sortie-gta6.html"><img src="https://gtavifrance.com/assets/img/rockstar/piscine.jpg" alt="" loading="lazy" width="640" height="360"><span class="k">2026-10-08</span><b>GTA 6: cơ quan lao động Úc giải thích cách xin nghỉ vào ngày phát hành</b><p>Trên Instagram, Fair Work Ombudsman giải thích vui vẻ quy định nghỉ không lương cho ngày 19/11. Thêm một dấu hiệu cho thấy quy mô của đợt ra mắt.</p></a><a class="jr-carte rv" href="journal/2026-10-08-cyberleek-extended-leek.html"><img src="https://gtavifrance.com/assets/img/rockstar/braquage.jpg" alt="" loading="lazy" width="640" height="360"><span class="k">2026-10-08</span><b>GTA 6: CyberLeek trở lại với 25 phút gameplay và «bản dựng» đáng ngờ</b><p>Người rò rỉ phá vỡ nhiều tháng im lặng vào ngày 8/10 bằng video khoảng 25 phút, sáu tuần trước ngày phát hành. Video cho thấy gì, không chứng minh được gì và vì sao nên tránh liên kết tải.</p></a></div>
       <div class="rubrique rv" style="margin-top:56px"><span class="num">▶</span><h2 data-i18n="yt_t">YouTube today</h2><p data-i18n="yt_i">GTA 6 videos published today, all channels. Refreshed every hour.</p></div>
       <div class="videos" id="yt-accueil"></div>
       <script>document.addEventListener("DOMContentLoaded",function(){chargeYoutube(document.getElementById("yt-accueil"),6);});</script>
@@ -305,7 +304,7 @@
     var cols = ["#ff3b7a", "#ff8a2a", "#ffc93c", "#0fb3a3", "#62d4ff", "#f2e8d5", "#16111d", "#ffc93c", "#ff8a2a", "#0fb3a3"];
     $("briques").innerHTML = cols.map(function (c) { return '<i style="background:' + c + '"></i>'; }).join("");
 
-    chargeActus($("actus-accueil"), 4); chargeDepeches($("depeches-accueil"), 7, true);
+    chargeActus($("actus-accueil"), 4);
   </script>
 </body>
 </html>

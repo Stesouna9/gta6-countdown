@@ -183,8 +183,7 @@
     <div class="wrap">
       <div class="rubrique rv"><span class="num">04</span><h2 data-i18n="latest_t">Últimas noticias</h2><p data-i18n="news_i">Primero los anuncios oficiales de Rockstar, luego la prensa mundial en tu idioma. Actualización automática 2 veces al día.</p></div>
       <p class="maj"><i></i><b data-i18n="direct">Live</b> · <span data-i18n="maj_h">Updated</span> <span data-maj></span></p>
-      <div class="jr-grille" id="actus-accueil" style="margin-top:18px"></div>
-      <details class="depeches"><summary data-i18n="depeches_t">Despachos en bruto, todas las fuentes</summary><div class="journal" id="depeches-accueil"></div></details>
+      <div class="jr-grille" id="actus-accueil" style="margin-top:18px"><a class="jr-carte rv" href="journal/2026-10-08-voix-radios-gta6-stars.html"><img src="https://gtavifrance.com/assets/img/rockstar/couple-station.jpg" alt="" loading="lazy" width="640" height="360"><span class="k">2026-10-08</span><b>GTA 6: Lana Del Rey, Bad Bunny y Slayer presentarán las radios</b><p>Rockstar ha nombrado las voces de sus emisoras: estrellas del pop, el latino, el metal y el rap, además de pódcast a la carta.</p></a><a class="jr-carte rv" href="journal/2026-10-08-captures-vice-city-rockstar.html"><img src="https://gtavifrance.com/assets/img/rockstar/mosaique.jpg" alt="" loading="lazy" width="640" height="360"><span class="k">2026-10-08</span><b>GTA 6: Rockstar publica tres nuevas capturas oficiales de Vice City</b><p>Junto a la presentación de las radios, Rockstar mostró tres imágenes oficiales de Vice City de día y de noche, a 42 días del lanzamiento.</p></a><a class="jr-carte rv" href="journal/2026-10-08-australie-conge-sortie-gta6.html"><img src="https://gtavifrance.com/assets/img/rockstar/piscine.jpg" alt="" loading="lazy" width="640" height="360"><span class="k">2026-10-08</span><b>GTA 6: el regulador laboral australiano explica cómo pedir el día del lanzamiento</b><p>En Instagram, el Fair Work Ombudsman detalla con humor las reglas del permiso sin sueldo para el 19 de noviembre. Otra señal de lo grande que se ha vuelto el lanzamiento.</p></a><a class="jr-carte rv" href="journal/2026-10-08-cyberleek-extended-leek.html"><img src="https://gtavifrance.com/assets/img/rockstar/braquage.jpg" alt="" loading="lazy" width="640" height="360"><span class="k">2026-10-08</span><b>GTA 6: CyberLeek vuelve con 25 minutos de juego y una «build» dudosa</b><p>El filtrador rompió meses de silencio el 8 de octubre con un vídeo de unos 25 minutos, seis semanas antes del lanzamiento. Qué muestra, qué no prueba y por qué conviene evitar sus enlaces de descarga.</p></a></div>
       <div class="rubrique rv" style="margin-top:56px"><span class="num">▶</span><h2 data-i18n="yt_t">YouTube today</h2><p data-i18n="yt_i">GTA 6 videos published today, all channels. Refreshed every hour.</p></div>
       <div class="videos" id="yt-accueil"></div>
       <script>document.addEventListener("DOMContentLoaded",function(){chargeYoutube(document.getElementById("yt-accueil"),6);});</script>
@@ -305,7 +304,7 @@
     var cols = ["#ff3b7a", "#ff8a2a", "#ffc93c", "#0fb3a3", "#62d4ff", "#f2e8d5", "#16111d", "#ffc93c", "#ff8a2a", "#0fb3a3"];
     $("briques").innerHTML = cols.map(function (c) { return '<i style="background:' + c + '"></i>'; }).join("");
 
-    chargeActus($("actus-accueil"), 4); chargeDepeches($("depeches-accueil"), 7, true);
+    chargeActus($("actus-accueil"), 4);
   </script>
 </body>
 </html>

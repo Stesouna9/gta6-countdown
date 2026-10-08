@@ -43,9 +43,8 @@
     <span class="kicker">Leonida · <span id="maj-date"></span></span>
     <h1 data-i18n="news_t">أخبار GTA 6</h1><p data-i18n="news_i">الإعلانات الرسمية من Rockstar أولًا، ثم صحافة العالم بلغتك. تحديث تلقائي في الوقت الفعلي، كل دقيقة.</p></div></header>
   <section class="papier"><div class="wrap">
-    <div class="rubrique rv"><span class="num">01</span><h2 data-i18n="news_press">في الصحافة</h2><p class="maj"><i></i><b data-i18n="direct">Live</b> · <span data-i18n="maj_h">Updated</span> <span data-maj></span></p><p hidden data-i18n="updated">يُحدَّث تلقائيًا في الوقت الفعلي، كل دقيقة</p></div>
-    <div class="jr-grille" id="presse"></div>
-    <details class="depeches"><summary data-i18n="depeches_t">برقيات خام من كل المصادر</summary><div class="journal" id="depeches"></div></details>
+    <div class="rubrique rv"><span class="num">01</span><h2 data-i18n="news_press">مقالات سولانج</h2><p class="maj"><i></i><b data-i18n="direct">Live</b> · <span data-i18n="maj_h">Updated</span> <span data-maj></span></p><p hidden data-i18n="updated">يُحدَّث تلقائيًا في الوقت الفعلي، كل دقيقة</p></div>
+    <div class="jr-grille" id="presse"><a class="jr-carte rv" href="journal/2026-10-08-voix-radios-gta6-stars.html"><img src="https://gtavifrance.com/assets/img/rockstar/couple-station.jpg" alt="" loading="lazy" width="640" height="360"><span class="k">2026-10-08</span><b>إذاعات GTA 6: لانا ديل راي وباد باني وSlayer أمام الميكروفون</b><p>كشفت Rockstar أسماء أصوات محطاتها: نجوم البوب واللاتيني والميتال والراب، إضافة إلى بودكاست عند الطلب.</p></a><a class="jr-carte rv" href="journal/2026-10-08-captures-vice-city-rockstar.html"><img src="https://gtavifrance.com/assets/img/rockstar/mosaique.jpg" alt="" loading="lazy" width="640" height="360"><span class="k">2026-10-08</span><b>GTA 6: روكستار تنشر ثلاث لقطات رسمية جديدة من فايس سيتي</b><p>بالتزامن مع تقديم المحطات الإذاعية، كشفت روكستار ثلاث صور رسمية لفايس سيتي نهارًا وليلًا، قبل 42 يومًا من الإصدار.</p></a><a class="jr-carte rv" href="journal/2026-10-08-australie-conge-sortie-gta6.html"><img src="https://gtavifrance.com/assets/img/rockstar/piscine.jpg" alt="" loading="lazy" width="640" height="360"><span class="k">2026-10-08</span><b>GTA 6: جهة العمل الأسترالية تشرح كيف تطلب إجازة يوم الإصدار</b><p>على إنستغرام، يشرح مكتب Fair Work Ombudsman بروح مرحة قواعد الإجازة غير المدفوعة ليوم 19 نوفمبر. إشارة أخرى إلى حجم الإصدار.</p></a><a class="jr-carte rv" href="journal/2026-10-08-cyberleek-extended-leek.html"><img src="https://gtavifrance.com/assets/img/rockstar/braquage.jpg" alt="" loading="lazy" width="640" height="360"><span class="k">2026-10-08</span><b>GTA 6: CyberLeek يعود بـ25 دقيقة من اللعب ونسخة مشكوك فيها</b><p>كسر المسرّب صمتًا دام شهورًا في 8 أكتوبر بفيديو مدته نحو 25 دقيقة، قبل ستة أسابيع من الإصدار. ما الذي يظهره وما الذي لا يثبته، ولماذا يجب تجنب روابط التحميل.</p></a><a class="jr-carte rv" href="journal/2026-10-08-musique-gta6-the-album.html"><img src="https://img.youtube.com/vi/VQRLujxTm3c/maxresdefault.jpg" alt="" loading="lazy" width="640" height="360"><span class="k">2026-10-08</span><b>GTA 6: روكستار تكشف ست محطات إذاعية وألبومًا من 34 أغنية وتفتح المتجر</b><p>في 8 أكتوبر فتحت روكستار صفحة موسيقى GTA VI: ست محطات من ليونيدا مع مقدّميها، وألبوم GTA VI: The Album في 19 نوفمبر، وستة أغانٍ منفردة متاحة بالفعل، ومجموعة منتجات في Rockstar Store.</p></a></div>
   </div></section>
   <div class="pub vide"></div>
   <section class="papier" style="background:var(--paper2)"><div class="wrap">
@@ -82,7 +81,7 @@
   </div></section>
   <script src="../assets/site.js?v=c9a18202"></script>
   <script>
-    chargeActus(document.getElementById("presse"), 12); chargeDepeches(document.getElementById("depeches"), 16, true);
+    chargeActus(document.getElementById("presse"), 12);
     fetch("../data/meta.json").then(function (r) { return r.json(); }).then(function (m) { document.getElementById("maj-date").textContent = new Date(m.maj).toLocaleString(); }).catch(function () {});
     fetch("../actus.json").then(function (r) { return r.json(); }).then(function (lst) {
       document.getElementById("officiel").innerHTML = lst.map(function (a) {

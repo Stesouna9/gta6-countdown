@@ -83,6 +83,14 @@ def meta(l, page, D, R):
 
 NETTOIE = [r"\s*<title>.*?</title>", r'\s*<meta name="description"[^>]*>', r'\s*<link rel="canonical"[^>]*>', r'\s*<meta property="og:[^>]*>', r'\s*<meta name="twitter:[^>]*>',
            r"\s*<!--seo-->.*?<!--/seo-->", r"\s*<!--meta-->.*?<!--/meta-->", r'\s*<script type="application/ld\+json">\{"@context": "https://schema.org", "@graph": \[\{"@type": "FAQPage".*?</script>']
+ARTS = json.load(open("data/articles.json", encoding="utf-8")) if os.path.exists("data/articles.json") else []
+def cartes(l, n, R):
+    k = "idn" if l == "id" else l; out = []
+    for a in ARTS[:n]:
+        x = a.get(k) or a.get("en") or a.get("fr")
+        if not x: continue
+        out.append(f'<a class="jr-carte rv" href="journal/{a["id"]}.html"><img src="{html.escape(a.get("img") or "https://gtavifrance.com/assets/jn.jpg")}" alt="" loading="lazy" width="640" height="360"><span class="k">{a.get("date", "")[:10]}</span><b>{html.escape(x["t"], quote=False)}</b><p>{html.escape(x.get("d", ""), quote=False)}</p></a>')
+    return "".join(out)
 for page, *_ in PAGES:
     f = page + ".html"
     s = open(f, encoding="utf-8").read()
@@ -95,6 +103,8 @@ for page, *_ in PAGES:
         D, R = I18N[l], "" if l == "fr" else "../"
         c = TAG.sub(lambda m: m.group(1) + (html.escape(D[m.group(3)], quote=False) if m.group(3) in D else m.group(4)) + m.group(5), s)
         c = c.replace("@@META@@", meta(l, page, D, R))
+        c = c.replace('<div class="jr-grille" id="presse"></div>', '<div class="jr-grille" id="presse">' + cartes(l, 12, R) + '</div>')
+        c = c.replace('<div class="jr-grille" id="actus-accueil" style="margin-top:18px"></div>', '<div class="jr-grille" id="actus-accueil" style="margin-top:18px">' + cartes(l, 4, R) + '</div>')
         if l != "fr":
             c = re.sub(r"<html[^>]*>", f'<html lang="{HL.get(l, l)}" dir="{"rtl" if l == "ar" else "ltr"}" data-l="{l}" data-root="../">', c, count=1)
             c = c.replace('src="assets/lang/fr.js"', f'src="../assets/lang/{l}.js"')

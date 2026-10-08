@@ -43,9 +43,8 @@
     <span class="kicker">Leonida · <span id="maj-date"></span></span>
     <h1 data-i18n="news_t">GTA 6资讯</h1><p data-i18n="news_i">先看Rockstar官方公告，再看你语言的全球媒体报道。实时更新（每分钟）。</p></div></header>
   <section class="papier"><div class="wrap">
-    <div class="rubrique rv"><span class="num">01</span><h2 data-i18n="news_press">媒体报道</h2><p class="maj"><i></i><b data-i18n="direct">Live</b> · <span data-i18n="maj_h">Updated</span> <span data-maj></span></p><p hidden data-i18n="updated">实时更新（每分钟）</p></div>
-    <div class="jr-grille" id="presse"></div>
-    <details class="depeches"><summary data-i18n="depeches_t">原始快讯，所有来源</summary><div class="journal" id="depeches"></div></details>
+    <div class="rubrique rv"><span class="num">01</span><h2 data-i18n="news_press">Solange 的报道</h2><p class="maj"><i></i><b data-i18n="direct">Live</b> · <span data-i18n="maj_h">Updated</span> <span data-maj></span></p><p hidden data-i18n="updated">实时更新（每分钟）</p></div>
+    <div class="jr-grille" id="presse"><a class="jr-carte rv" href="journal/2026-10-08-voix-radios-gta6-stars.html"><img src="https://gtavifrance.com/assets/img/rockstar/couple-station.jpg" alt="" loading="lazy" width="640" height="360"><span class="k">2026-10-08</span><b>GTA 6 电台主持阵容：Lana Del Rey、Bad Bunny 与 Slayer</b><p>Rockstar 公布了各电台的主持人：流行、拉丁、金属和说唱的明星坐镇，另有按需播客。</p></a><a class="jr-carte rv" href="journal/2026-10-08-captures-vice-city-rockstar.html"><img src="https://gtavifrance.com/assets/img/rockstar/mosaique.jpg" alt="" loading="lazy" width="640" height="360"><span class="k">2026-10-08</span><b>GTA 6：Rockstar 发布三张新的罪恶城官方截图</b><p>在介绍电台的同时，Rockstar 公布了三张展现罪恶城昼夜景象的官方图片，距发售还有 42 天。</p></a><a class="jr-carte rv" href="journal/2026-10-08-australie-conge-sortie-gta6.html"><img src="https://gtavifrance.com/assets/img/rockstar/piscine.jpg" alt="" loading="lazy" width="640" height="360"><span class="k">2026-10-08</span><b>GTA 6：澳大利亚劳工监管机构解释如何为发售日请假</b><p>Fair Work Ombudsman在Instagram上幽默地说明了11月19日无薪假的规则，又一个发售热度的信号。</p></a><a class="jr-carte rv" href="journal/2026-10-08-cyberleek-extended-leek.html"><img src="https://gtavifrance.com/assets/img/rockstar/braquage.jpg" alt="" loading="lazy" width="640" height="360"><span class="k">2026-10-08</span><b>GTA 6：CyberLeek 带着 25 分钟画面和可疑“版本”回归</b><p>爆料者在 10 月 8 日、发售前六周，以一段约 25 分钟的视频打破数月沉默。视频展示了什么、不能证明什么，以及为何要避开下载链接。</p></a><a class="jr-carte rv" href="journal/2026-10-08-musique-gta6-the-album.html"><img src="https://img.youtube.com/vi/VQRLujxTm3c/maxresdefault.jpg" alt="" loading="lazy" width="640" height="360"><span class="k">2026-10-08</span><b>GTA 6：Rockstar 公布六个电台、34 首曲目的专辑，并开设商店</b><p>10 月 8 日，Rockstar 上线了 GTA VI 音乐页面：利奥尼达的六个电台及其主持人，11 月 19 日发行的《GTA VI: The Album》，六支已发布单曲，以及 Rockstar Store 的周边系列。</p></a></div>
   </div></section>
   <div class="pub vide"></div>
   <section class="papier" style="background:var(--paper2)"><div class="wrap">
@@ -82,7 +81,7 @@
   </div></section>
   <script src="../assets/site.js?v=c9a18202"></script>
   <script>
-    chargeActus(document.getElementById("presse"), 12); chargeDepeches(document.getElementById("depeches"), 16, true);
+    chargeActus(document.getElementById("presse"), 12);
     fetch("../data/meta.json").then(function (r) { return r.json(); }).then(function (m) { document.getElementById("maj-date").textContent = new Date(m.maj).toLocaleString(); }).catch(function () {});
     fetch("../actus.json").then(function (r) { return r.json(); }).then(function (lst) {
       document.getElementById("officiel").innerHTML = lst.map(function (a) {

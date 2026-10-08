@@ -183,8 +183,7 @@
     <div class="wrap">
       <div class="rubrique rv"><span class="num">04</span><h2 data-i18n="latest_t">Son haberler</h2><p data-i18n="news_i">Önce Rockstar'ın resmi duyuruları, sonra dünya basını kendi dilinde. Günde gerçek zamanlı, her dakika otomatik güncellenir.</p></div>
       <p class="maj"><i></i><b data-i18n="direct">Live</b> · <span data-i18n="maj_h">Updated</span> <span data-maj></span></p>
-      <div class="jr-grille" id="actus-accueil" style="margin-top:18px"></div>
-      <details class="depeches"><summary data-i18n="depeches_t">Ham haber akışı, tüm kaynaklar</summary><div class="journal" id="depeches-accueil"></div></details>
+      <div class="jr-grille" id="actus-accueil" style="margin-top:18px"><a class="jr-carte rv" href="journal/2026-10-08-voix-radios-gta6-stars.html"><img src="https://gtavifrance.com/assets/img/rockstar/couple-station.jpg" alt="" loading="lazy" width="640" height="360"><span class="k">2026-10-08</span><b>GTA 6 radyoları: Lana Del Rey, Bad Bunny ve Slayer mikrofonda</b><p>Rockstar istasyonların seslerini açıkladı: pop, latin, metal ve rap yıldızları mikrofonda, ayrıca isteğe bağlı podcast'ler.</p></a><a class="jr-carte rv" href="journal/2026-10-08-captures-vice-city-rockstar.html"><img src="https://gtavifrance.com/assets/img/rockstar/mosaique.jpg" alt="" loading="lazy" width="640" height="360"><span class="k">2026-10-08</span><b>GTA 6: Rockstar Vice City'den üç yeni resmi ekran görüntüsü yayımladı</b><p>Radyo istasyonlarının tanıtımıyla birlikte Rockstar, Vice City'yi gündüz ve gece gösteren üç resmi görsel paylaştı. Çıkışa 42 gün var.</p></a><a class="jr-carte rv" href="journal/2026-10-08-australie-conge-sortie-gta6.html"><img src="https://gtavifrance.com/assets/img/rockstar/piscine.jpg" alt="" loading="lazy" width="640" height="360"><span class="k">2026-10-08</span><b>GTA 6: Avustralya iş denetim kurumu çıkış günü izninin nasıl alınacağını anlattı</b><p>Fair Work Ombudsman, Instagram'da 19 Kasım için ücretsiz izin kurallarını esprili bir dille açıkladı. Çıkışın ne kadar büyüdüğünün bir işareti daha.</p></a><a class="jr-carte rv" href="journal/2026-10-08-cyberleek-extended-leek.html"><img src="https://gtavifrance.com/assets/img/rockstar/braquage.jpg" alt="" loading="lazy" width="640" height="360"><span class="k">2026-10-08</span><b>GTA 6: CyberLeek 25 dakikalık oyun görüntüsü ve şüpheli bir «build» ile döndü</b><p>Sızdırıcı, çıkıştan altı hafta önce 8 Ekim'de yaklaşık 25 dakikalık bir videoyla aylık sessizliğini bozdu. Neyi gösteriyor, neyi kanıtlamıyor ve indirme bağlantılarından neden uzak durmalı.</p></a></div>
       <div class="rubrique rv" style="margin-top:56px"><span class="num">▶</span><h2 data-i18n="yt_t">YouTube today</h2><p data-i18n="yt_i">GTA 6 videos published today, all channels. Refreshed every hour.</p></div>
       <div class="videos" id="yt-accueil"></div>
       <script>document.addEventListener("DOMContentLoaded",function(){chargeYoutube(document.getElementById("yt-accueil"),6);});</script>
@@ -305,7 +304,7 @@
     var cols = ["#ff3b7a", "#ff8a2a", "#ffc93c", "#0fb3a3", "#62d4ff", "#f2e8d5", "#16111d", "#ffc93c", "#ff8a2a", "#0fb3a3"];
     $("briques").innerHTML = cols.map(function (c) { return '<i style="background:' + c + '"></i>'; }).join("");
 
-    chargeActus($("actus-accueil"), 4); chargeDepeches($("depeches-accueil"), 7, true);
+    chargeActus($("actus-accueil"), 4);
   </script>
 </body>
 </html>
