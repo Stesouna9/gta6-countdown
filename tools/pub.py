@@ -408,6 +408,12 @@ def news(l, n=6):
     except Exception: return []
 AJ = {"fr": ("aujourdhui", f"J-{J} avant GTA 6 : le point du jour", f"Ce qui s'est passé aujourd'hui autour de GTA 6, à {J} jours de la sortie, et ce qui est confirmé.", "Dans la presse aujourd'hui", "Ce qui est sûr"),
       "en": ("today", f"{J} days until GTA 6: today's briefing", f"What happened around GTA 6 today, {J} days before launch, and what is confirmed.", "In the press today", "What is certain")}
+AJ2 = {"fr": ("Ce que dit la communauté", "Nouveautés merch et collectors", "Le saviez-vous"), "en": ("What the community says", "New merch and collectors", "Did you know")}
+FAITS = json.load(open("data/faits.json", encoding="utf-8"))
+def liste(f, n=8):
+    try: lst = json.load(open(f, encoding="utf-8"))[:n]
+    except Exception: return ""
+    return "".join(f'<li><span class="kicker">{e(a.get("s", ""))} · {e(a.get("d", ""))}</span><br><a href="{e(a["u"])}" target="_blank" rel="noopener">{e(a["t"])}</a></li>' for a in lst)
 for l, (slug, t, i, h2, h3) in AJ.items():
     url = f"{BASE}{'' if l == 'fr' else l + '/'}{slug}.html"
     items = "".join(f'<li><span class="kicker">{e(a.get("src", ""))} · {e(a.get("d", ""))}</span><br><a href="{e(a["u"])}" target="_blank" rel="noopener">{e(a["t"])}</a></li>' for a in news(l))
@@ -417,7 +423,10 @@ for l, (slug, t, i, h2, h3) in AJ.items():
   <section class="papier"><div class="wrap"><div class="rubrique rv"><span class="num">01</span><h2>{e(h2)}</h2></div><ul class="liste-q">{items}</ul></div></section>
   <section><div class="wrap"><div class="rubrique rv"><span class="num">02</span><h2>{e(h3)}</h2></div>
     <div class="scroll-x rv"><table class="tableau"><tbody><tr><td>{e(faits['pre'])}</td><td>{e(faits['pre_v'])}</td></tr><tr><td>{e(faits['plat'])}</td><td>{e(faits['plat_v'])}</td></tr></tbody></table></div>
-    <div class="boutons"><a class="btn" href="sortie.html">{e(faits['tz'])}</a><a class="btn clair" href="actus.html">Actus</a></div><div class="partage"></div></div></section>
+    <div class="boutons"><a class="btn" href="sortie.html">{e(faits['tz'])}</a><a class="btn clair" href="actus.html">Actus</a></div></div></section>
+  <section class="papier"><div class="wrap"><div class="rubrique rv"><span class="num">03</span><h2>{e(AJ2[l][0])}</h2></div><ul class="liste-q">{liste("data/communaute.json")}</ul></div></section>
+  <section><div class="wrap"><div class="rubrique rv"><span class="num">04</span><h2>{e(AJ2[l][1])}</h2></div><ul class="liste-q">{liste(f"data/merch_{l}.json")}</ul>
+    <p class="fait" style="margin-top:36px"><span class="kicker">{e(AJ2[l][2])}</span>{e(FAITS[l][TODAY.toordinal() % len(FAITS[l])])}</p><div class="partage"></div></div></section>
 """
     ld = [{"@context": "https://schema.org", "@type": "NewsArticle", "headline": t, "description": i, "inLanguage": l, "datePublished": TODAY.isoformat() + "T06:00:00+01:00", "dateModified": datetime.datetime.now().isoformat(timespec="seconds"),
            "image": [BASE + f"assets/jn{'-fr' if l == 'fr' else ''}.jpg"], "author": {"@type": "Organization", "name": "OKALAM Studio"}, "publisher": {"@type": "Organization", "name": "VI Countdown", "logo": {"@type": "ImageObject", "url": BASE + "assets/icon-512.png"}}, "mainEntityOfPage": url}]

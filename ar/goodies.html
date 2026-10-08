@@ -49,6 +49,9 @@
   <section class="papier"><div class="wrap">
     <div class="rubrique rv"><span class="num">%</span><h2 data-i18n="deals_t">عروض رصدتها الصحافة</h2><p data-i18n="updated">يُحدَّث تلقائيًا مرتين يوميًا</p></div>
     <div class="journal" id="deals"></div>
+    <div class="rubrique rv" style="margin-top:56px"><span class="num">+</span><h2 data-i18n="merch_t">New merch and collectors</h2><p data-i18n="updated">يُحدَّث تلقائيًا مرتين يوميًا</p></div>
+    <div class="journal" id="merch"></div>
+    <script>document.addEventListener("DOMContentLoaded",function(){chargeListe(document.getElementById("merch"),"data/merch_"+((window.LANG||"fr")==="fr"?"fr":"en")+".json",9);});</script>
   </div></section>
   <script src="../assets/site.js"></script>
   <script>

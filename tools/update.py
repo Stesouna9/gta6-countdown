@@ -78,6 +78,29 @@ def deals(all_news):
                 vus.add(n["u"]); out.append(dict(n, lang=lang))
     return out[:12]
 
+def merch(lang):
+    hl, gl, ceid, _ = LANGS[lang]
+    q = "GTA 6 (figurine OR merch OR t-shirt OR poster OR collector OR console OR manette)" if lang == "fr" else "GTA 6 (merch OR figure OR t-shirt OR poster OR collector OR console OR controller)"
+    url = f"https://news.google.com/rss/search?q={urllib.request.quote(q)}&hl={hl}&gl={gl}&ceid={ceid}"
+    out = []
+    for it in ET.fromstring(get(url)).iter("item"):
+        t = html.unescape(it.findtext("title") or ""); src = it.findtext("source") or ""
+        t = re.sub(r"\s+-\s+[^-]+$", "", t)
+        out.append({"t": t, "u": it.findtext("link"), "s": src, "d": (it.findtext("pubDate") or "")[:16]})
+        if len(out) >= 12: break
+    return out
+
+def communaute():
+    ns = {"a": "http://www.w3.org/2005/Atom"}
+    x = ET.fromstring(get("https://www.reddit.com/r/GTA6/top/.rss?t=day"))
+    out = []
+    for e in x.findall("a:entry", ns):
+        t = html.unescape(e.findtext("a:title", default="", namespaces=ns))
+        u = e.find("a:link", ns).get("href")
+        if "reddit.com" in u and t: out.append({"t": t, "u": u, "s": "r/GTA6", "d": (e.findtext("a:updated", default="", namespaces=ns))[:10]})
+        if len(out) >= 8: break
+    return out
+
 if __name__ == "__main__":
     all_news, erreurs = {}, []
     for lang in LANGS:
@@ -85,6 +108,11 @@ if __name__ == "__main__":
         except Exception as e: erreurs.append(f"{lang}: {e}")
     try: (ROOT / "videos.json").write_text(json.dumps(videos(), ensure_ascii=False))
     except Exception as e: erreurs.append(f"videos: {e}")
+    for lang in ("fr", "en"):
+        try: (ROOT / f"merch_{lang}.json").write_text(json.dumps(merch(lang), ensure_ascii=False))
+        except Exception as e: erreurs.append(f"merch {lang}: {e}")
+    try: (ROOT / "communaute.json").write_text(json.dumps(communaute(), ensure_ascii=False))
+    except Exception as e: erreurs.append(f"communaute: {e}")
     try: print("vues", vues())
     except Exception as e: erreurs.append(f"vues: {e}")
     (ROOT / "deals.json").write_text(json.dumps(deals(all_news), ensure_ascii=False))

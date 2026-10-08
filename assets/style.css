@@ -489,3 +489,6 @@ details summary{cursor:pointer;font-family:var(--display);font-size:clamp(1.2rem
 details summary::after{content:"+";color:var(--hot);font-family:var(--mono)}
 details[open] summary::after{content:"−"}
 details p{font-family:var(--serif);font-size:1.2rem;line-height:1.4;max-width:62ch;margin-top:10px}
+
+.fait{font-family:var(--serif);font-size:1.05rem;line-height:1.35;max-width:42ch;color:rgba(242,232,213,.8);border-top:1px solid rgba(242,232,213,.2);padding-top:12px;margin-top:-6px}
+.fait .kicker{display:block;color:var(--gold);margin-bottom:4px}

@@ -46,6 +46,23 @@ window.SITE = {
     a.target = "_blank"; a.rel = "noopener sponsored";
   });
 
+  // Liste générique depuis un JSON (merch, communauté) : chargeListe(el, "data/x.json", n)
+  window.chargeListe = function (el, fichier, n) {
+    fetch(R + fichier).then(function (r) { return r.json(); }).then(function (lst) {
+      el.innerHTML = lst.slice(0, n).map(function (a) {
+        return '<a href="' + a.u + '" target="_blank" rel="noopener"><span class="src">' + (a.s || "") + (a.d ? " · " + a.d : "") + "</span><b>" + a.t + "</b></a>";
+      }).join("");
+    }).catch(function () { el.innerHTML = ""; });
+  };
+  // Fait du jour : data/faits.json, change chaque jour
+  function fait() {
+    var el = document.querySelector("[data-fait]"); if (!el) return;
+    fetch(R + "data/faits.json").then(function (r) { return r.json(); }).then(function (f) {
+      var l = (window.LANG || "fr"); var lst = f[l] || f.en; var j = Math.floor(Date.now() / 864e5);
+      el.textContent = lst[j % lst.length];
+    }).catch(function () {});
+  }
+  fait(); document.addEventListener("langchange", fait);
   // Journal : actus automatiques (data/news_<lang>.json), mises à jour 2 fois par jour
   window.chargeActus = function (el, n, tete) {
     function rend(l) {
