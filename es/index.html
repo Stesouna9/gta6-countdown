@@ -98,6 +98,23 @@
     </div>
   </section>
 
+  <section class="histoire" id="histoire" aria-label="Leonida">
+    <div class="histoire-scene">
+      <img src="https://img.youtube.com/vi/QdBZY2fkU-0/maxresdefault.jpg" alt="" width="1280" height="720" loading="lazy" class="on">
+      <img src="https://img.youtube.com/vi/VQRLujxTm3c/maxresdefault.jpg" alt="" width="1280" height="720" loading="lazy">
+      <img src="https://img.youtube.com/vi/tJbzMqJGH4k/maxresdefault.jpg" alt="" width="1280" height="720" loading="lazy">
+      <img src="https://img.youtube.com/vi/evtZ-L7FIbw/maxresdefault.jpg" alt="" width="1280" height="720" loading="lazy">
+      <div class="histoire-voile"></div>
+      <div class="histoire-texte">
+        <div class="etape on"><span class="kicker">01 · Leonida</span><h2 data-i18n="hi1_t">Vice City, USA</h2><p data-i18n="hi1_p">The sunniest place in America, and its dark side. A whole state to roam.</p></div>
+        <div class="etape"><span class="kicker">02 · Jason &amp; Lucia</span><h2 data-i18n="hi2_t">Two fugitives, one conspiracy</h2><p data-i18n="hi2_p">They always knew life would not hand them anything. They will have to rely on each other to make it out alive.</p></div>
+        <div class="etape"><span class="kicker">03 · Extended Look</span><h2 data-i18n="hi3_t">27 minutes of gameplay</h2><p data-i18n="hi3_p">The longest demo Rockstar has ever shown, on August 27, 2026. Driving, combat, radio, all of it.</p></div>
+        <div class="etape"><span class="kicker">04 · 19.11.2026</span><h2 data-i18n="hi4_t">Down to the second</h2><p data-i18n="hi4_p">Out on PS5 and Xbox Series X|S. Here: your local unlock time, live news and the community.</p><a class="btn" href="sortie.html" data-i18n="nav_sortie">Lanzamiento</a></div>
+      </div>
+      <div class="histoire-points" aria-hidden="true"><i class="on"></i><i></i><i></i><i></i></div>
+    </div>
+  </section>
+
   <section id="trailers" class="papier">
     <div class="wrap">
       <div class="rubrique rv"><span class="num">01</span><h2 data-i18n="trailers_t">Tráilers oficiales</h2><p data-i18n="trailers_i">Los vídeos reales de Rockstar Games, en 4K, desde su canal oficial. Nada más, nada falso.</p></div>
@@ -234,6 +251,19 @@
     var pas = function () { return (r.querySelector(".carte") || r).getBoundingClientRect().width + 14; };
     document.getElementById("rail-g").onclick = function () { r.scrollBy({ left: -pas(), behavior: "smooth" }); };
     document.getElementById("rail-d").onclick = function () { r.scrollBy({ left: pas(), behavior: "smooth" }); };
+  })();
+  </script>
+  <script>
+  (function () {
+    var sec = document.getElementById("histoire"); if (!sec) return;
+    var imgs = sec.querySelectorAll(".histoire-scene > img"), et = sec.querySelectorAll(".etape"), pts = sec.querySelectorAll(".histoire-points i"), n = imgs.length, cur = -1;
+    function maj() {
+      var r = sec.getBoundingClientRect(), h = r.height - window.innerHeight; if (h <= 0) return;
+      var p = Math.min(1, Math.max(0, -r.top / h)), i = Math.min(n - 1, Math.floor(p * n));
+      imgs.forEach(function (im, k) { im.style.transform = "scale(" + (1.08 + 0.06 * p) + ")"; });
+      if (i !== cur) { cur = i; imgs.forEach(function (im, k) { im.classList.toggle("on", k === i); }); et.forEach(function (e, k) { e.classList.toggle("on", k === i); }); pts.forEach(function (e, k) { e.classList.toggle("on", k === i); }); }
+    }
+    window.addEventListener("scroll", maj, { passive: true }); window.addEventListener("resize", maj); maj();
   })();
   </script>
   <script src="../assets/site.js"></script>

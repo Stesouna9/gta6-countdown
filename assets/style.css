@@ -699,3 +699,25 @@ body.mu-lecteur-on .suivre{bottom:118px}
 @media(max-width:700px){.suivre{left:12px;right:12px;transform:none;max-width:none;border-radius:18px;flex-wrap:wrap;gap:8px}.suivre-t b{display:none}}
 
 [hidden]{display:none!important}
+
+/* Logo façon GTA : slab lourde, penchée, dégradé coucher de soleil, contour nuit */
+.nav .logo b,.menu-haut .logo b{font-family:"Alfa Slab One",var(--display);font-size:1.75rem;transform:skewX(-9deg);display:inline-block;letter-spacing:-.02em;filter:drop-shadow(1.5px 1.5px 0 #0c0d1b) drop-shadow(-1px -1px 0 #0c0d1b) drop-shadow(0 4px 10px rgba(255,59,122,.35))}
+.nav .logo span,.menu-haut .logo span{font-weight:700;letter-spacing:.26em}
+
+/* Histoire : scène épinglée, images qui se fondent au défilement, texte translucide */
+.histoire{height:420vh;background:#0c0d1b;color:var(--paper);position:relative}
+.histoire-scene{position:sticky;top:0;height:100vh;overflow:hidden}
+.histoire-scene>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity 1.1s ease;transform:scale(1.08);transform-origin:50% 40%;will-change:transform,opacity}
+.histoire-scene>img.on{opacity:1}
+.histoire-voile{position:absolute;inset:0;background:linear-gradient(90deg,rgba(12,13,27,.82) 0%,rgba(12,13,27,.35) 55%,rgba(12,13,27,.15) 100%),linear-gradient(0deg,rgba(12,13,27,.9),transparent 45%)}
+.histoire-texte{position:absolute;left:0;right:0;bottom:0;padding:0 var(--gut) clamp(40px,8vh,90px);display:grid}
+.etape{grid-area:1/1;max-width:min(560px,90vw);padding:26px 28px;background:rgba(12,13,27,.42);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border:1px solid rgba(242,232,213,.14);border-radius:6px;opacity:0;transform:translateY(26px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.2,1);pointer-events:none}
+.etape.on{opacity:1;transform:none;pointer-events:auto}
+.etape .kicker{color:var(--gold)}
+.etape h2{font:400 clamp(34px,5vw,64px)/.98 var(--display);text-transform:uppercase;margin:10px 0 10px;letter-spacing:.01em;text-wrap:balance}
+.etape p{margin:0;font:400 clamp(15px,1.5vw,18px)/1.5 var(--sans);opacity:.92;max-width:48ch}
+.etape .btn{margin-top:16px}
+.histoire-points{position:absolute;right:var(--gut);top:50%;transform:translateY(-50%);display:grid;gap:10px}
+.histoire-points i{width:6px;height:26px;border-radius:3px;background:rgba(242,232,213,.25);transition:background .4s,height .4s}
+.histoire-points i.on{background:var(--hot);height:44px}
+@media(prefers-reduced-motion:reduce){.histoire{height:auto}.histoire-scene{position:relative;height:70vh}}
