@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
 /* Direction artistique : magazine de Miami, 1986 réédité en 2026.
    Papier crème, encre, coucher de soleil. Typo d'affiche, pas d'icônes. */
 
@@ -701,7 +702,7 @@ body.mu-lecteur-on .suivre{bottom:118px}
 [hidden]{display:none!important}
 
 /* Logo façon GTA : slab lourde, penchée, dégradé coucher de soleil, contour nuit */
-.nav .logo b,.menu-haut .logo b{font-family:"Alfa Slab One",var(--display);font-size:1.75rem;transform:skewX(-9deg);display:inline-block;letter-spacing:-.02em;filter:drop-shadow(1.5px 1.5px 0 #0c0d1b) drop-shadow(-1px -1px 0 #0c0d1b) drop-shadow(0 4px 10px rgba(255,59,122,.35))}
+.nav .logo b,.menu-haut .logo b{font-family:"Alfa Slab One",var(--display);font-size:2rem;transform:skewX(-9deg);display:inline-block;letter-spacing:-.02em;filter:drop-shadow(1.5px 1.5px 0 #0c0d1b) drop-shadow(-1px -1px 0 #0c0d1b) drop-shadow(0 4px 10px rgba(255,59,122,.35))}
 .nav .logo span,.menu-haut .logo span{font-weight:700;letter-spacing:.26em}
 
 /* Histoire : scène épinglée, images qui se fondent au défilement, texte translucide */
