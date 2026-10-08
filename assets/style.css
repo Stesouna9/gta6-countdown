@@ -762,8 +762,7 @@ body.mu-lecteur-on .suivre{bottom:118px}
 
 /* Logo VI façon GTA VI : lettres SVG, dégradé coucher de soleil, ombre nuit */
 .nav .logo,.menu-haut .logo{display:inline-flex;align-items:center;gap:10px;text-decoration:none}
-.logo-vi{height:36px;width:auto;overflow:visible;filter:drop-shadow(0 2px 0 rgba(0,0,0,.6)) drop-shadow(0 6px 14px rgba(255,59,122,.35))}
-.logo-vi g:first-of-type{fill:#0c0d1b}
+.logo-vi{height:34px;width:auto;display:block;filter:drop-shadow(0 4px 12px rgba(255,59,122,.35))}
 .nav .logo span,.menu-haut .logo span{font-family:var(--mono);font-size:.66rem;letter-spacing:.26em;text-transform:uppercase;color:var(--paper)}
 
 /* Menu plein écran en trois rayons */

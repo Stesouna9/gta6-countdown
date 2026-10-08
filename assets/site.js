@@ -25,7 +25,7 @@ window.SITE = {
   var ici = location.pathname.split("/").pop() || "index.html";
   var nav = document.createElement("nav");
   nav.className = "nav";
-  nav.innerHTML = '<a class="logo" href="index.html" aria-label="VI Countdown"><svg class="logo-vi" viewBox="0 0 132 100" aria-hidden="true"><defs><linearGradient id="lg1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffe066"/><stop offset=".38" stop-color="#ff7a3d"/><stop offset=".7" stop-color="#ff3b7a"/><stop offset="1" stop-color="#9b4dff"/></linearGradient></defs><g transform="skewX(-8) translate(12 0)"><path d="M0 0h25l15 58 15-58h25L52 100H28z"/><path d="M88 0h26v100H88z"/></g><g transform="skewX(-8) translate(10 -3)" fill="url(#lg1)"><path d="M0 0h25l15 58 15-58h25L52 100H28z"/><path d="M88 0h26v100H88z"/></g></svg><span>Countdown</span></a>' +
+  nav.innerHTML = '<a class="logo" href="index.html" aria-label="VI Countdown"><img class="logo-vi" src="' + R + 'assets/img/logo-vi.webp" alt="GTA VI" width="207" height="160"><span>Countdown</span></a>' +
     pages.map(function (p) { return '<a href="' + p[0] + '"' + (p[0] === ici ? ' class="actif"' : "") + ' data-i18n="' + p[1] + '"></a>'; }).join("") +
     '<div class="droite"><span class="jours" id="nav-jours"></span><select class="lang" id="lang" aria-label="Language">' + langOptions() + '</select><button type="button" class="burger" id="burger" aria-expanded="false" aria-controls="menu-plein"><span></span><span></span><span data-i18n="nav_menu"></span></button></div>';
   document.body.prepend(nav);
@@ -34,7 +34,7 @@ window.SITE = {
   /* Menu plein écran, à la Rockstar : fond nuit, grandes entrées, fermeture Échap */
   var menu = document.createElement("div");
   menu.className = "menu-plein"; menu.id = "menu-plein"; menu.setAttribute("hidden", "");
-  menu.innerHTML = '<div class="menu-haut"><a class="logo" href="index.html" aria-label="VI Countdown"><svg class="logo-vi" viewBox="0 0 132 100" aria-hidden="true"><defs><linearGradient id="lg2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffe066"/><stop offset=".38" stop-color="#ff7a3d"/><stop offset=".7" stop-color="#ff3b7a"/><stop offset="1" stop-color="#9b4dff"/></linearGradient></defs><g transform="skewX(-8) translate(12 0)"><path d="M0 0h25l15 58 15-58h25L52 100H28z"/><path d="M88 0h26v100H88z"/></g><g transform="skewX(-8) translate(10 -3)" fill="url(#lg2)"><path d="M0 0h25l15 58 15-58h25L52 100H28z"/><path d="M88 0h26v100H88z"/></g></svg><span>Countdown</span></a><button type="button" class="fermer" id="menu-fermer" data-i18n="nav_fermer"></button></div>' +
+  menu.innerHTML = '<div class="menu-haut"><a class="logo" href="index.html" aria-label="VI Countdown"><img class="logo-vi" src="' + R + 'assets/img/logo-vi.webp" alt="GTA VI" width="207" height="160"><span>Countdown</span></a><button type="button" class="fermer" id="menu-fermer" data-i18n="nav_fermer"></button></div>' +
     '<nav class="menu-liens menu-rayons">' + rayons.map(function (r, k) { return '<div class="rayon" style="--i:' + k + '"><b data-i18n="' + r[0] + '"></b>' + r[1].map(function (p) { return '<a href="' + p[0] + '"' + (p[0] === ici ? ' class="actif"' : "") + ' data-i18n="' + p[1] + '"></a>'; }).join("") + "</div>"; }).join("") + "</nav>" +
     '<div class="menu-bas"><span data-i18n="menu_hub"></span><a href="' + SITE.radio + '" target="_blank" rel="noopener">Vice Bay Radio</a><a href="https://discord.gg/TSaxEnt2dG" target="_blank" rel="noopener">Discord</a><a href="' + R + 'feed.xml">RSS</a></div>';
   document.body.append(menu);
@@ -52,7 +52,7 @@ window.SITE = {
 
   var footer = document.createElement("footer");
   footer.innerHTML = '<div class="wrap"><div class="marque">Leonida</div><nav class="plan"><b data-i18n="foot_plus"></b>' +
-    pages.concat(plus).map(function (p) { return '<a href="' + p[0] + '" data-i18n="' + p[1] + '"></a>'; }).join("") + '<a href="' + R + 'feed.xml">RSS</a></nav><div class="bas"><div>' +
+    pages.concat(rayons.reduce(function (a, r) { return a.concat(r[1]); }, [])).filter(function (p, i, l) { return l.findIndex(function (q) { return q[0] === p[0]; }) === i; }).map(function (p) { return '<a href="' + p[0] + '" data-i18n="' + p[1] + '"></a>'; }).join("") + '<a href="' + R + 'feed.xml">RSS</a></nav><div class="bas"><div>' +
     '<div class="liens"><a href="' + SITE.radio + '" target="_blank" rel="noopener">Vice Bay Radio</a>' +
     '<a href="vicebreak.html">Vice Break</a><a href="' + SITE.discord + '" target="_blank" rel="noopener">Discord</a>' +
     '<a href="https://okalamstudio.com" target="_blank" rel="noopener">OKALAM Studio</a><a href="' + R + 'mentions.html" data-i18n="mentions"></a></div>' +
