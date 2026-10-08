@@ -376,11 +376,11 @@ for l, qs in Q.items():
 
 # ------------------------------------------------------------------ 3. comparateur de prix
 PRIX = {"fr": dict(t="Prix de GTA 6 : où l'acheter au meilleur prix", i="Les prix officiels par édition et les boutiques. Liens affiliés, même prix pour toi.",
-                   rows=[("Édition standard", "79,99 €", "PS5, Xbox Series, boîte ou numérique"), ("Édition Ultimate", "99,99 €", "Numérique uniquement, PS5 et Xbox Series")],
+                   rows=[("Édition standard", "79,99 €", "PS5, Xbox Series, boîte ou numérique"), ("Édition Ultimate", "99,99 €", "Numérique uniquement, PS5 et Xbox Series"), ("Coffret collector Vice City Collection", "399,99 €", "Sans le jeu : figurine, lunettes, casquette, sac, pin's, carte. Rockstar Store, un par personne, expédié à partir du 19 novembre")],
                    shops=[("Amazon.fr", "https://www.amazon.fr/s?k=GTA+6+PS5&tag=okalamstudio-21"), ("PlayStation Store", "https://store.playstation.com/fr-fr/search/grand%20theft%20auto%20vi"), ("Xbox Store", "https://www.xbox.com/fr-FR/search?q=grand%20theft%20auto%20vi"), ("Fnac", "https://www.fnac.com/SearchResult/ResultList.aspx?Search=gta+6"), ("Micromania", "https://www.micromania.fr/recherche?q=gta+6"), ("Leclerc", "https://www.e.leclerc/recherche?q=gta+6")],
                    note="Prix annoncés par Rockstar pour l'Europe. Les revendeurs peuvent proposer des remises ; cette page est mise à jour automatiquement."),
         "en": dict(t="GTA 6 price: where to buy it cheapest", i="Official prices per edition and the stores. Affiliate links, same price for you.",
-                   rows=[("Standard edition", "€79.99 / £69.99", "PS5, Xbox Series, disc or digital"), ("Ultimate edition", "€99.99 / £89.99", "Digital only, PS5 and Xbox Series")],
+                   rows=[("Standard edition", "€79.99 / £69.99", "PS5, Xbox Series, disc or digital"), ("Ultimate edition", "€99.99 / £89.99", "Digital only, PS5 and Xbox Series"), ("Vice City Collection collector box", "$399.99 / €399.99", "No game included: figure, sunglasses, cap, bag, pins, map. Rockstar Store, one per person, ships from November 19")],
                    shops=[("Amazon", "https://www.amazon.com/s?k=GTA+6+PS5&tag=okalamstudio-21"), ("PlayStation Store", "https://store.playstation.com/en-us/search/grand%20theft%20auto%20vi"), ("Xbox Store", "https://www.xbox.com/en-US/search?q=grand%20theft%20auto%20vi"), ("Best Buy", "https://www.bestbuy.com/site/searchpage.jsp?st=gta+6"), ("GAME (UK)", "https://www.game.co.uk/search?q=gta+6"), ("JB Hi-Fi (AU)", "https://www.jbhifi.com.au/search?query=gta+6")],
                    note="Prices announced by Rockstar. Retailers may discount; this page is updated automatically.")}
 for l, p in PRIX.items():
