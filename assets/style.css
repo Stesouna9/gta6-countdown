@@ -201,7 +201,7 @@ section{padding:clamp(56px,9vw,120px) 0;position:relative}
 .journal a.tete{grid-row:span 3;border-top:3px solid var(--ink)}
 .journal a.tete b{font-family:var(--display);font-size:clamp(1.8rem,3vw,2.6rem);text-transform:uppercase;line-height:1}
 .journal a.tete .chapo{font-family:var(--serif);font-style:italic;font-size:1.2rem;margin-top:12px;opacity:.75;display:block}
-.maj{display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;opacity:.7}
+
 .maj i{width:8px;height:8px;border-radius:50%;background:var(--teal);animation:clig 1.6s infinite}
 @keyframes clig{50%{opacity:.25}}
 
@@ -650,3 +650,15 @@ body.mu-lecteur-on{padding-bottom:110px}
 .prod small{font:400 12px var(--mono);opacity:.7}
 .rail .teinte-f{background:linear-gradient(160deg,#ffc93c,#0fb3a3)}
 .rail .teinte-f::after{background:linear-gradient(180deg,transparent 50%,rgba(12,13,27,.7))}
+
+/* En direct */
+.maj,.direct{display:inline-flex;align-items:center;gap:8px;font:400 12px var(--mono);letter-spacing:.12em;text-transform:uppercase}
+.maj i,.direct i{width:9px;height:9px;border-radius:50%;background:#ff3b3b;box-shadow:0 0 0 0 rgba(255,59,59,.6);animation:pouls 1.6s infinite}
+.maj b,.direct{color:#ff3b3b;font-weight:700}
+.direct{margin-bottom:10px}
+@keyframes pouls{0%{box-shadow:0 0 0 0 rgba(255,59,59,.6)}70%{box-shadow:0 0 0 9px rgba(255,59,59,0)}100%{box-shadow:0 0 0 0 rgba(255,59,59,0)}}
+.boutique-sec .boutique{grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:18px}
+.boutique-sec .prod .cadre{aspect-ratio:1;background:#f7f0e2}
+.boutique-sec .prod img{object-fit:contain;padding:8px}
+.boutique-sec .prod b{font:800 15px/1.2 var(--sans)}
+.boutique-sec .prod small{font:700 13px var(--mono);opacity:1;color:var(--hot)}
