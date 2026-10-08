@@ -722,3 +722,31 @@ body.mu-lecteur-on .suivre{bottom:118px}
 .histoire-points i{width:6px;height:26px;border-radius:3px;background:rgba(242,232,213,.25);transition:background .4s,height .4s}
 .histoire-points i.on{background:var(--hot);height:44px}
 @media(prefers-reduced-motion:reduce){.histoire{height:auto}.histoire-scene{position:relative;height:70vh}}
+
+/* ---- Vice Break : nuit néon 1986 (refonte 08/10/2026) ---- */
+.vb{--trait:rgba(242,232,213,.22);position:relative;background:#120c1c;color:var(--paper);overflow:hidden;padding-top:clamp(56px,8vw,110px)}
+.vb::before{content:"";position:absolute;left:50%;bottom:-14vw;width:72vw;height:72vw;max-width:980px;max-height:980px;transform:translateX(-50%);border-radius:50%;background:linear-gradient(#ffdf9e,#ff8a2a 38%,#ff3b7a 66%,#7b2cbf);-webkit-mask:repeating-linear-gradient(#000 0 6%,transparent 6% 9%);mask:repeating-linear-gradient(#000 0 6%,transparent 6% 9%);opacity:.32;pointer-events:none}
+.vb::after{content:"";position:absolute;inset:auto 0 0 0;height:46%;background:repeating-linear-gradient(90deg,rgba(0,229,255,.22) 0 1px,transparent 1px 7%),repeating-linear-gradient(rgba(0,229,255,.22) 0 1px,transparent 1px 13%);transform:perspective(520px) rotateX(62deg);transform-origin:50% 100%;-webkit-mask:linear-gradient(transparent,#000 55%);mask:linear-gradient(transparent,#000 55%);pointer-events:none}
+.vb .wrap{position:relative;z-index:1}
+.vb .rubrique,.vb .kicker{color:var(--paper)}
+.vb .kicker{color:#00e5ff;letter-spacing:.24em}
+.vb-titre{font-size:clamp(3.6rem,10.5vw,9rem);line-height:.88;padding-top:.08em;margin-top:0;color:#ff3b7a;text-shadow:0 0 10px rgba(255,59,122,.65),0 0 36px rgba(255,59,122,.4);letter-spacing:.01em}
+.vb-titre span{color:transparent;-webkit-text-stroke:2px #00e5ff;text-shadow:0 0 16px rgba(0,229,255,.5)}
+.vb .serif{color:var(--paper);opacity:.92}
+.vb .date{color:#ffdf9e}
+.briques i{border-color:rgba(0,229,255,.75);box-shadow:0 0 7px rgba(0,229,255,.35)}
+.tel{border:7px solid #1b1426;border-radius:38px;box-shadow:0 0 0 1px rgba(255,255,255,.1),0 34px 70px rgba(0,0,0,.65),0 0 48px rgba(255,59,122,.25)}
+.vb .lien{color:var(--paper)}
+.atouts{border-top:1px solid rgba(242,232,213,.22)}
+.atouts div{border-inline-end:1px solid rgba(242,232,213,.14)}
+.atouts b{color:#ffdf9e}
+.atouts p{color:rgba(242,232,213,.82)}
+@media(max-width:860px){.atouts div{border-bottom:1px solid rgba(242,232,213,.14)}}
+/* vraies vignettes de store */
+.stores{gap:12px;margin-top:28px}
+.badge{display:inline-flex;align-items:center;gap:10px;height:56px;min-width:180px;padding:0 18px 0 13px;background:#000;color:#fff;border:1px solid #a6a6a6;border-radius:9px;text-decoration:none;box-shadow:0 10px 30px rgba(0,0,0,.45);transition:transform .12s,box-shadow .12s}
+.badge:hover{transform:translateY(-2px);box-shadow:0 14px 34px rgba(0,0,0,.6),0 0 24px rgba(0,229,255,.25)}
+.badge svg{width:27px;height:27px;fill:#fff;flex:none}
+.badge span{display:flex;flex-direction:column;line-height:1.02;text-align:start}
+.badge small{font:500 .62rem/1 var(--sans);letter-spacing:.01em;text-transform:none;opacity:.92}
+.badge b{font:600 1.28rem/1.04 var(--sans);letter-spacing:-.015em}
