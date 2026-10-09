@@ -1,0 +1,32 @@
+{
+ "$comment": "Schéma d'une fiche GTA Soluce. Langues : 17 clés comme data/articles.json (idn pour l'indonésien).",
+ "fiche": {
+  "id": "gta5-m-01-prologue",
+  "game": "gta5 | gta6 | sa | vc | gta3 | gta4 | tlad | tbogt | lcs | vcs | cw",
+  "type": "mission | heist | side | collectible | cheat | vehicle | trophy | guide | map",
+  "order": 1,
+  "chapter": "Prologue | Acte 1 | ...",
+  "giver": "Lester",
+  "protagonist": ["Michael", "Franklin", "Trevor"],
+  "location": "Ludendorff, North Yankton",
+  "requires": ["id d'une autre fiche"],
+  "unlocks": ["id"],
+  "reward": {"money": 0, "items": [], "text": ""},
+  "missable": false,
+  "spoiler": 1,
+  "platforms": ["ps5", "xsx", "pc", "ps4", "xone"],
+  "gold": [{"name": "Temps", "cond": "Terminer en moins de 8:00"}],
+  "steps": ["étape 1", "étape 2"],
+  "tips": ["astuce"],
+  "choices": [{"text": "choix", "consequence": "conséquence"}],
+  "map": {"x": 0, "y": 0, "img": "assets/maps/gta5.webp"},
+  "video": "https://www.youtube.com/watch?v=...",
+  "img": "https://gtavifrance.com/...",
+  "author": "Solange Rocheval",
+  "sources": [],
+  "verifie": false,
+  "updated": "2026-10-09",
+  "fr": {"t": "", "d": "", "h": ""},
+  "en": {"t": "", "d": "", "h": ""}
+ }
+}

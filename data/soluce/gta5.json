@@ -1,0 +1,1697 @@
+{
+ "game": "gta5",
+ "title": "GTA V",
+ "missions": 69,
+ "note": "Liste des 69 missions histoire ; fiches à rédiger (todo) par la routine soluce ou à la main. Codes : repris de triches-gta5.",
+ "fiches": [
+  {
+   "id": "gta5-m-01-prologue",
+   "game": "gta5",
+   "type": "mission",
+   "order": 1,
+   "chapter": "Prologue",
+   "protagonist": [
+    "Michael",
+    "Trevor"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Prologue",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Prologue",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-02-franklin-and-lamar",
+   "game": "gta5",
+   "type": "mission",
+   "order": 2,
+   "chapter": "Acte 1",
+   "protagonist": [
+    "Franklin"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Franklin and Lamar",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Franklin and Lamar",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-03-repossession",
+   "game": "gta5",
+   "type": "mission",
+   "order": 3,
+   "chapter": "Acte 1",
+   "protagonist": [
+    "Franklin"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Repossession",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Repossession",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-04-complications",
+   "game": "gta5",
+   "type": "mission",
+   "order": 4,
+   "chapter": "Acte 1",
+   "protagonist": [
+    "Franklin"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Complications",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Complications",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-05-chop",
+   "game": "gta5",
+   "type": "mission",
+   "order": 5,
+   "chapter": "Acte 1",
+   "protagonist": [
+    "Franklin"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Chop",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Chop",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-06-father-son",
+   "game": "gta5",
+   "type": "mission",
+   "order": 6,
+   "chapter": "Acte 1",
+   "protagonist": [
+    "Michael",
+    "Franklin"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Father/Son",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Father/Son",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-07-the-long-stretch",
+   "game": "gta5",
+   "type": "mission",
+   "order": 7,
+   "chapter": "Acte 1",
+   "protagonist": [
+    "Franklin"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "The Long Stretch",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "The Long Stretch",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-08-marriage-counseling",
+   "game": "gta5",
+   "type": "mission",
+   "order": 8,
+   "chapter": "Acte 1",
+   "protagonist": [
+    "Michael",
+    "Franklin"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Marriage Counseling",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Marriage Counseling",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-09-daddys-little-girl",
+   "game": "gta5",
+   "type": "mission",
+   "order": 9,
+   "chapter": "Acte 1",
+   "protagonist": [
+    "Michael",
+    "Franklin"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Daddy's Little Girl",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Daddy's Little Girl",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-10-friend-request",
+   "game": "gta5",
+   "type": "mission",
+   "order": 10,
+   "chapter": "Acte 1",
+   "protagonist": [
+    "Michael"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Friend Request",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Friend Request",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-11-casing-the-jewel-store",
+   "game": "gta5",
+   "type": "mission",
+   "order": 11,
+   "chapter": "Acte 1",
+   "protagonist": [
+    "Michael"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Casing the Jewel Store",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Casing the Jewel Store",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-12-carbine-rifles",
+   "game": "gta5",
+   "type": "mission",
+   "order": 12,
+   "chapter": "Acte 1",
+   "protagonist": [
+    "Franklin"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Carbine Rifles",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Carbine Rifles",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-13-bugstars-equipment",
+   "game": "gta5",
+   "type": "mission",
+   "order": 13,
+   "chapter": "Acte 1",
+   "protagonist": [
+    "Franklin"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Bugstars Equipment",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Bugstars Equipment",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-14-bz-gas-grenades",
+   "game": "gta5",
+   "type": "mission",
+   "order": 14,
+   "chapter": "Acte 1",
+   "protagonist": [
+    "Franklin"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "BZ Gas Grenades",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "BZ Gas Grenades",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-15-the-jewel-store-job",
+   "game": "gta5",
+   "type": "mission",
+   "order": 15,
+   "chapter": "Acte 1",
+   "protagonist": [
+    "Michael",
+    "Franklin"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "The Jewel Store Job",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "The Jewel Store Job",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-16-mr-philips",
+   "game": "gta5",
+   "type": "mission",
+   "order": 16,
+   "chapter": "Acte 1",
+   "protagonist": [
+    "Trevor"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Mr. Philips",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Mr. Philips",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-17-trevor-philips-industries",
+   "game": "gta5",
+   "type": "mission",
+   "order": 17,
+   "chapter": "Acte 1",
+   "protagonist": [
+    "Trevor"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Trevor Philips Industries",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Trevor Philips Industries",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-18-nervous-ron",
+   "game": "gta5",
+   "type": "mission",
+   "order": 18,
+   "chapter": "Acte 1",
+   "protagonist": [
+    "Trevor"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Nervous Ron",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Nervous Ron",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-19-crystal-maze",
+   "game": "gta5",
+   "type": "mission",
+   "order": 19,
+   "chapter": "Acte 1",
+   "protagonist": [
+    "Trevor"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Crystal Maze",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Crystal Maze",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-20-friends-reunited",
+   "game": "gta5",
+   "type": "mission",
+   "order": 20,
+   "chapter": "Acte 1",
+   "protagonist": [
+    "Trevor"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Friends Reunited",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Friends Reunited",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-21-fame-or-shame",
+   "game": "gta5",
+   "type": "mission",
+   "order": 21,
+   "chapter": "Acte 1",
+   "protagonist": [
+    "Michael",
+    "Trevor"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Fame or Shame",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Fame or Shame",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-22-dead-man-walking",
+   "game": "gta5",
+   "type": "mission",
+   "order": 22,
+   "chapter": "Acte 1",
+   "protagonist": [
+    "Michael"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Dead Man Walking",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Dead Man Walking",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-23-threes-company",
+   "game": "gta5",
+   "type": "mission",
+   "order": 23,
+   "chapter": "Acte 1",
+   "protagonist": [
+    "Michael",
+    "Franklin",
+    "Trevor"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Three's Company",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Three's Company",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-24-hood-safari",
+   "game": "gta5",
+   "type": "mission",
+   "order": 24,
+   "chapter": "Acte 1",
+   "protagonist": [
+    "Franklin",
+    "Trevor"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Hood Safari",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Hood Safari",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-25-by-the-book",
+   "game": "gta5",
+   "type": "mission",
+   "order": 25,
+   "chapter": "Acte 1",
+   "protagonist": [
+    "Michael",
+    "Trevor"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "By the Book",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "By the Book",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-26-did-somebody-say-yoga",
+   "game": "gta5",
+   "type": "mission",
+   "order": 26,
+   "chapter": "Acte 1",
+   "protagonist": [
+    "Michael"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Did Somebody Say Yoga?",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Did Somebody Say Yoga?",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-27-scouting-the-port",
+   "game": "gta5",
+   "type": "mission",
+   "order": 27,
+   "chapter": "Acte 1",
+   "protagonist": [
+    "Trevor"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Scouting the Port",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Scouting the Port",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-28-minisub",
+   "game": "gta5",
+   "type": "mission",
+   "order": 28,
+   "chapter": "Acte 1",
+   "protagonist": [
+    "Trevor"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Minisub",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Minisub",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-29-cargobob",
+   "game": "gta5",
+   "type": "mission",
+   "order": 29,
+   "chapter": "Acte 1",
+   "protagonist": [
+    "Trevor"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Cargobob",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Cargobob",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-30-the-merryweather-heist",
+   "game": "gta5",
+   "type": "mission",
+   "order": 30,
+   "chapter": "Acte 1",
+   "protagonist": [
+    "Michael",
+    "Franklin",
+    "Trevor"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "The Merryweather Heist",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "The Merryweather Heist",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-31-trash-truck",
+   "game": "gta5",
+   "type": "mission",
+   "order": 31,
+   "chapter": "Acte 2",
+   "protagonist": [
+    "Franklin"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Trash Truck",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Trash Truck",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-32-tow-truck",
+   "game": "gta5",
+   "type": "mission",
+   "order": 32,
+   "chapter": "Acte 2",
+   "protagonist": [
+    "Franklin"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Tow Truck",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Tow Truck",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-33-boiler-suits",
+   "game": "gta5",
+   "type": "mission",
+   "order": 33,
+   "chapter": "Acte 2",
+   "protagonist": [
+    "Franklin"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Boiler Suits",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Boiler Suits",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-34-masks",
+   "game": "gta5",
+   "type": "mission",
+   "order": 34,
+   "chapter": "Acte 2",
+   "protagonist": [
+    "Franklin"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Masks",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Masks",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-35-blitz-play",
+   "game": "gta5",
+   "type": "mission",
+   "order": 35,
+   "chapter": "Acte 2",
+   "protagonist": [
+    "Michael",
+    "Franklin",
+    "Trevor"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Blitz Play",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Blitz Play",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-36-i-fought-the-law",
+   "game": "gta5",
+   "type": "mission",
+   "order": 36,
+   "chapter": "Acte 2",
+   "protagonist": [
+    "Franklin",
+    "Trevor"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "I Fought the Law...",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "I Fought the Law...",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-37-eye-in-the-sky",
+   "game": "gta5",
+   "type": "mission",
+   "order": 37,
+   "chapter": "Acte 2",
+   "protagonist": [
+    "Franklin",
+    "Trevor"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Eye in the Sky",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Eye in the Sky",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-38-mr-richards",
+   "game": "gta5",
+   "type": "mission",
+   "order": 38,
+   "chapter": "Acte 2",
+   "protagonist": [
+    "Michael"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Mr. Richards",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Mr. Richards",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-39-caida-libre",
+   "game": "gta5",
+   "type": "mission",
+   "order": 39,
+   "chapter": "Acte 2",
+   "protagonist": [
+    "Michael",
+    "Trevor"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Caida Libre",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Caida Libre",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-40-deep-inside",
+   "game": "gta5",
+   "type": "mission",
+   "order": 40,
+   "chapter": "Acte 2",
+   "protagonist": [
+    "Franklin"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Deep Inside",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Deep Inside",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-41-minor-turbulence",
+   "game": "gta5",
+   "type": "mission",
+   "order": 41,
+   "chapter": "Acte 2",
+   "protagonist": [
+    "Trevor"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Minor Turbulence",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Minor Turbulence",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-42-paleto-score-setup",
+   "game": "gta5",
+   "type": "mission",
+   "order": 42,
+   "chapter": "Acte 2",
+   "protagonist": [
+    "Michael",
+    "Trevor"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Paleto Score Setup",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Paleto Score Setup",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-43-predator",
+   "game": "gta5",
+   "type": "mission",
+   "order": 43,
+   "chapter": "Acte 2",
+   "protagonist": [
+    "Michael",
+    "Trevor"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Predator",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Predator",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-44-the-paleto-score",
+   "game": "gta5",
+   "type": "mission",
+   "order": 44,
+   "chapter": "Acte 2",
+   "protagonist": [
+    "Michael",
+    "Franklin",
+    "Trevor"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "The Paleto Score",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "The Paleto Score",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-45-derailed",
+   "game": "gta5",
+   "type": "mission",
+   "order": 45,
+   "chapter": "Acte 2",
+   "protagonist": [
+    "Michael",
+    "Trevor"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Derailed",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Derailed",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-46-monkey-business",
+   "game": "gta5",
+   "type": "mission",
+   "order": 46,
+   "chapter": "Acte 2",
+   "protagonist": [
+    "Michael",
+    "Franklin",
+    "Trevor"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Monkey Business",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Monkey Business",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-47-hang-ten",
+   "game": "gta5",
+   "type": "mission",
+   "order": 47,
+   "chapter": "Acte 2",
+   "protagonist": [
+    "Trevor"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Hang Ten",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Hang Ten",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-48-surveying-the-score",
+   "game": "gta5",
+   "type": "mission",
+   "order": 48,
+   "chapter": "Acte 2",
+   "protagonist": [
+    "Michael",
+    "Franklin"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Surveying the Score",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Surveying the Score",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-49-bury-the-hatchet",
+   "game": "gta5",
+   "type": "mission",
+   "order": 49,
+   "chapter": "Acte 2",
+   "protagonist": [
+    "Michael",
+    "Trevor"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Bury the Hatchet",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Bury the Hatchet",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-50-pack-man",
+   "game": "gta5",
+   "type": "mission",
+   "order": 50,
+   "chapter": "Acte 2",
+   "protagonist": [
+    "Franklin",
+    "Trevor"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Pack Man",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Pack Man",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-51-fresh-meat",
+   "game": "gta5",
+   "type": "mission",
+   "order": 51,
+   "chapter": "Acte 3",
+   "protagonist": [
+    "Franklin"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Fresh Meat",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Fresh Meat",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-52-the-ballad-of-rocco",
+   "game": "gta5",
+   "type": "mission",
+   "order": 52,
+   "chapter": "Acte 3",
+   "protagonist": [
+    "Michael"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "The Ballad of Rocco",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "The Ballad of Rocco",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-53-cleaning-out-the-bureau",
+   "game": "gta5",
+   "type": "mission",
+   "order": 53,
+   "chapter": "Acte 3",
+   "protagonist": [
+    "Michael"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Cleaning out the Bureau",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Cleaning out the Bureau",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-54-reuniting-the-family",
+   "game": "gta5",
+   "type": "mission",
+   "order": 54,
+   "chapter": "Acte 3",
+   "protagonist": [
+    "Michael"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Reuniting the Family",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Reuniting the Family",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-55-legal-trouble",
+   "game": "gta5",
+   "type": "mission",
+   "order": 55,
+   "chapter": "Acte 3",
+   "protagonist": [
+    "Michael"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Legal Trouble",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Legal Trouble",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-56-the-bureau-raid",
+   "game": "gta5",
+   "type": "mission",
+   "order": 56,
+   "chapter": "Acte 3",
+   "protagonist": [
+    "Michael",
+    "Franklin"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "The Bureau Raid",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "The Bureau Raid",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-57-the-wrap-up",
+   "game": "gta5",
+   "type": "mission",
+   "order": 57,
+   "chapter": "Acte 3",
+   "protagonist": [
+    "Michael"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "The Wrap Up",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "The Wrap Up",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-58-lamar-down",
+   "game": "gta5",
+   "type": "mission",
+   "order": 58,
+   "chapter": "Acte 3",
+   "protagonist": [
+    "Franklin"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Lamar Down",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Lamar Down",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-59-meltdown",
+   "game": "gta5",
+   "type": "mission",
+   "order": 59,
+   "chapter": "Acte 3",
+   "protagonist": [
+    "Michael"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Meltdown",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Meltdown",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-60-architects-plans",
+   "game": "gta5",
+   "type": "mission",
+   "order": 60,
+   "chapter": "Acte 3",
+   "protagonist": [
+    "Michael"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Architect's Plans",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Architect's Plans",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-61-sidetracked",
+   "game": "gta5",
+   "type": "mission",
+   "order": 61,
+   "chapter": "Acte 3",
+   "protagonist": [
+    "Michael",
+    "Trevor"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Sidetracked",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Sidetracked",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-62-driller",
+   "game": "gta5",
+   "type": "mission",
+   "order": 62,
+   "chapter": "Acte 3",
+   "protagonist": [
+    "Michael"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Driller",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Driller",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-63-getaway-vehicle",
+   "game": "gta5",
+   "type": "mission",
+   "order": 63,
+   "chapter": "Acte 3",
+   "protagonist": [
+    "Franklin"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Getaway Vehicle",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Getaway Vehicle",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-64-gauntlet",
+   "game": "gta5",
+   "type": "mission",
+   "order": 64,
+   "chapter": "Acte 3",
+   "protagonist": [
+    "Franklin"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Gauntlet",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Gauntlet",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-65-stingers",
+   "game": "gta5",
+   "type": "mission",
+   "order": 65,
+   "chapter": "Acte 3",
+   "protagonist": [
+    "Michael"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Stingers",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Stingers",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-66-the-big-score",
+   "game": "gta5",
+   "type": "mission",
+   "order": 66,
+   "chapter": "Acte 3",
+   "protagonist": [
+    "Michael",
+    "Franklin",
+    "Trevor"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "The Big Score",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "The Big Score",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-67-something-sensible-fin-a",
+   "game": "gta5",
+   "type": "mission",
+   "order": 67,
+   "chapter": "Fin",
+   "protagonist": [
+    "Franklin"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "Something Sensible (fin A)",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Something Sensible (fin A)",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-68-the-times-come-fin-b",
+   "game": "gta5",
+   "type": "mission",
+   "order": 68,
+   "chapter": "Fin",
+   "protagonist": [
+    "Franklin"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "The Time's Come (fin B)",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "The Time's Come (fin B)",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta5-m-69-the-third-way-fin-c",
+   "game": "gta5",
+   "type": "mission",
+   "order": 69,
+   "chapter": "Fin",
+   "protagonist": [
+    "Michael",
+    "Franklin",
+    "Trevor"
+   ],
+   "missable": false,
+   "spoiler": 1,
+   "verifie": false,
+   "todo": true,
+   "fr": {
+    "t": "The Third Way (fin C)",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "The Third Way (fin C)",
+    "d": "",
+    "h": ""
+   }
+  }
+ ]
+}
