@@ -921,3 +921,5 @@ body.mu-lecteur-on .suivre{bottom:118px}
 .jr-tete h1{text-shadow:0 2px 4px rgba(0,0,0,.9),0 10px 30px rgba(0,0,0,.7)}
 .jr-tete .serif,.jr-tete .kicker,.jr-tete .jr-sources,.jr-tete .credit,.jr-tete figcaption{text-shadow:0 1px 3px rgba(0,0,0,.9)}
 .jr-tete .serif{opacity:1}
+
+.jr-kick{font-family:var(--mono);font-size:.68rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}

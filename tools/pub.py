@@ -476,8 +476,11 @@ for l in T:
         parts = h.split("</p>")
         if len(parts) > 3: h = "</p>".join(parts[:2]) + '</p><div class="pub jr" data-pub="jr-milieu"></div>' + "</p>".join(parts[2:])
         h += '<div class="pub jr" data-pub="jr-fin"></div>'
+        try: _age = (datetime.datetime.now(datetime.timezone.utc) - datetime.datetime.fromisoformat(a["date"]).astimezone(datetime.timezone.utc)).total_seconds() / 3600
+        except Exception: _age = 9e9
+        kick = ('<span class="direct"><i></i>' + e(tr(l, "direct")) + '</span>') if (_age < 48 and not a.get("retro")) else ('<span class="jr-kick">' + e(tr(l, "jr_journal")) + '</span>')
         body = f"""
-  <header class="tete-page image jr-tete"><img src="{e(img)}" alt="" loading="eager"><div class="wrap"><span class="kicker"><span class="direct"><i></i>{e(tr(l, "direct"))}</span> · {e(d_fmt(a, l))}</span><h1>{e(x["t"])}</h1>{'<span class="jr-retro">' + e(tr(l, "jr_retro")) + '</span>' if a.get("retro") else ''}<p class="serif">{e(x["d"])}</p>
+  <header class="tete-page image jr-tete"><img src="{e(img)}" alt="" loading="eager"><div class="wrap"><span class="kicker">{kick} · {e(d_fmt(a, l))}</span><h1>{e(x["t"])}</h1>{'<span class="jr-retro">' + e(tr(l, "jr_retro")) + '</span>' if a.get("retro") else ''}<p class="serif">{e(x["d"])}</p>
     <p class="jr-sources haut jr-credit">{e(credit_img(img, l))}</p>
     <p class="jr-sources haut"><b>{e(tr(l, "jr_src"))}</b> {srcs}</p></div></header>
   <section class="papier"><div class="wrap jr-corps">{h}
