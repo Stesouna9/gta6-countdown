@@ -193,7 +193,7 @@ window.SITE = {
 
   /* Fin de flux : appel à s'abonner sous chaque liste d'actus et chaque article */
   function finFlux() {
-    document.querySelectorAll(".journal, .jr-grille, .jr-sources, #rockstar").forEach(function (el) {
+    document.querySelectorAll(".journal, .jr-grille, .jr-sources:not(.haut), #rockstar").forEach(function (el) {
       if (el.nextElementSibling && el.nextElementSibling.classList.contains("flux-fin")) return;
       var d = document.createElement("aside"); d.className = "flux-fin rv";
       d.innerHTML = '<b data-i18n="flux_t"></b><p data-i18n="flux_i"></p><div class="flux-b">' +
