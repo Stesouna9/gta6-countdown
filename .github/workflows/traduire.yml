@@ -1,0 +1,26 @@
+name: traduction
+on:
+  schedule:
+    - cron: "45 * * * *"   # toutes les heures (UTC), après la routine Solange
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: { group: gta6-push, cancel-in-progress: false }
+jobs:
+  traduire:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -q deep-translator
+      - run: python tools/traduire.py 4 | tee /tmp/trad.log
+      - run: |
+          grep -q "^traduit" /tmp/trad.log || exit 0
+          python tools/prerender.py && python tools/pub.py
+          git config user.name "gta6-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "Solange traduction : $(grep '^traduit' /tmp/trad.log | cut -c11-200)"
+          git pull --rebase -q origin main || true
+          git push
