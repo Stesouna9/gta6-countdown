@@ -7,6 +7,7 @@ window.SITE = {
   // Unités AdSense (créées dans adsense.google.com > Annonces > Par bloc). Vide = emplacement inactif.
   adSlots: { "jr-milieu": "9805843373", "jr-fin": "4346556577", "liste": "3033474908", "page": "7179680035" },
   discord: "https://discord.gg/TSaxEnt2dG",
+  instagram: "https://www.instagram.com/vicebayradio/",
   radio: "https://vicebayradio.com",
   vicebreak: "https://okalamstudio.com/vicebreak.html",
   petition: "https://www.change.org/p/add-arabic-language-support-in-gta-vi",
@@ -29,7 +30,7 @@ window.SITE = {
   nav.className = "nav";
   nav.innerHTML = '<a class="logo" href="index.html" aria-label="VI Countdown"><img class="logo-vi" src="' + R + 'assets/img/logo-vi.webp" alt="GTA VI" width="207" height="160"><span>Countdown</span></a>' +
     pages.map(function (p) { return '<a href="' + p[0] + '"' + (p[0] === ici ? ' class="actif"' : "") + ' data-i18n="' + p[1] + '"></a>'; }).join("") +
-    '<div class="droite"><span class="jours" id="nav-jours"></span><select class="lang" id="lang" aria-label="Language">' + langOptions() + '</select><button type="button" class="burger" id="burger" aria-expanded="false" aria-controls="menu-plein"><span></span><span></span><span data-i18n="nav_menu"></span></button></div>';
+    '<div class="droite"><span class="jours" id="nav-jours"></span><a class="ig" href="' + SITE.instagram + '" target="_blank" rel="noopener" aria-label="Instagram Vice Bay" title="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.2c3.2 0 3.6 0 4.8.1 1.2.1 1.8.2 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.2.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 1.2-.2 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.2.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-1.2-.1-1.8-.2-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8c.1-1.2.2-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4 1.2-.1 1.6-.1 4.8-.1M12 0C8.7 0 8.3 0 7.1.1 5.8.1 4.9.3 4.1.6c-.8.3-1.5.7-2.2 1.4C1.3 2.6.9 3.3.6 4.1.3 4.9.1 5.8.1 7.1 0 8.3 0 8.7 0 12s0 3.7.1 4.9c.1 1.3.3 2.2.6 3 .3.8.7 1.5 1.4 2.2.7.7 1.4 1.1 2.2 1.4.8.3 1.7.5 3 .6 1.2 0 1.6 0 4.9 0s3.7 0 4.9-.1c1.3-.1 2.2-.3 3-.6.8-.3 1.5-.7 2.2-1.4.7-.7 1.1-1.4 1.4-2.2.3-.8.5-1.7.6-3 .1-1.2.1-1.6.1-4.9s0-3.7-.1-4.9c-.1-1.3-.3-2.2-.6-3-.3-.8-.7-1.5-1.4-2.2C21.4 1.3 20.7.9 19.9.6c-.8-.3-1.7-.5-3-.6C15.7 0 15.3 0 12 0zm0 5.8a6.2 6.2 0 1 0 0 12.4 6.2 6.2 0 0 0 0-12.4zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.4-11.8a1.4 1.4 0 1 0 0 2.9 1.4 1.4 0 0 0 0-2.9z"/></svg></a><select class="lang" id="lang" aria-label="Language">' + langOptions() + '</select><button type="button" class="burger" id="burger" aria-expanded="false" aria-controls="menu-plein"><span></span><span></span><span data-i18n="nav_menu"></span></button></div>';
   document.body.prepend(nav);
   document.getElementById("lang").addEventListener("change", function () { setLang(this.value); });
 
@@ -38,7 +39,7 @@ window.SITE = {
   menu.className = "menu-plein"; menu.id = "menu-plein"; menu.setAttribute("hidden", "");
   menu.innerHTML = '<div class="menu-haut"><a class="logo" href="index.html" aria-label="VI Countdown"><img class="logo-vi" src="' + R + 'assets/img/logo-vi.webp" alt="GTA VI" width="207" height="160"><span>Countdown</span></a><button type="button" class="fermer" id="menu-fermer" data-i18n="nav_fermer"></button></div>' +
     '<nav class="menu-liens menu-rayons">' + rayons.map(function (r, k) { return '<div class="rayon" style="--i:' + k + '"><b data-i18n="' + r[0] + '"></b>' + r[1].map(function (p) { return '<a href="' + p[0] + '"' + (p[0] === ici ? ' class="actif"' : "") + ' data-i18n="' + p[1] + '"></a>'; }).join("") + "</div>"; }).join("") + "</nav>" +
-    '<div class="menu-bas"><span data-i18n="menu_hub"></span><a href="' + SITE.radio + '" target="_blank" rel="noopener">Vice Bay Radio</a><a href="https://discord.gg/TSaxEnt2dG" target="_blank" rel="noopener">Discord</a><a href="' + R + 'feed.xml">RSS</a></div>';
+    '<div class="menu-bas"><span data-i18n="menu_hub"></span><a href="' + SITE.radio + '" target="_blank" rel="noopener">Vice Bay Radio</a><a href="https://discord.gg/TSaxEnt2dG" target="_blank" rel="noopener">Discord</a><a href="' + SITE.instagram + '" target="_blank" rel="noopener">Instagram</a><a href="' + R + 'feed.xml">RSS</a></div>';
   document.body.append(menu);
   function menuOuvre(o) {
     var b = document.getElementById("burger");

@@ -857,3 +857,8 @@ body.mu-lecteur-on .suivre{bottom:118px}
 
 .jr-credit{opacity:.55;font-size:.7rem}
 .jr-credit:empty{display:none}
+
+/* Instagram */
+.nav .ig{display:flex;align-items:center;color:var(--gold);transition:color .2s}.nav .ig:hover{color:#fff}.nav .ig svg{width:22px;height:22px;fill:currentColor}
+.ig-section .ig-grid{display:grid;grid-template-columns:minmax(0,420px) 1fr;gap:40px;align-items:center;margin-top:30px}.ig-section .ig-carte{position:relative;display:block;border-radius:18px;overflow:hidden;aspect-ratio:1;background:linear-gradient(135deg,#f58529,#dd2a7b 50%,#8134af 80%,#515bd4)}.ig-section .ig-carte img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;mix-blend-mode:luminosity;opacity:.55}.ig-section .ig-carte .handle{position:absolute;left:24px;bottom:24px;color:#fff;font-family:var(--display);font-size:clamp(1.6rem,3vw,2.6rem);text-shadow:0 2px 14px rgba(0,0,0,.5)}.ig-section .ig-carte .handle svg{width:.9em;height:.9em;fill:#fff;vertical-align:-.12em;margin-right:.3em}.ig-section .ig-cta .btn{margin-top:18px}
+@media(max-width:760px){.ig-section .ig-grid{grid-template-columns:1fr}.ig-section .ig-carte{aspect-ratio:1}}

@@ -483,7 +483,7 @@ for l in T:
   <section class="papier"><div class="wrap jr-corps">{h}
     <p class="jr-sources"><b>{e(tr(l, "jr_src"))}</b> {srcs}</p>
     <p class="note jr-signature">{e(tr(l, "jr_auteur").replace("Solange Rocheval", a.get("auteur") or "Solange Rocheval"))}</p><div class="partage"></div>
-    <div class="boutons"><a class="btn" href="actus.html">{e(tr(l, "jr_suite"))}</a></div></div></section>
+    <div class="boutons"><a class="btn" href="actus.html">{e(tr(l, "jr_suite"))}</a><a class="btn clair" href="https://www.instagram.com/vicebayradio/" target="_blank" rel="noopener">{e(tr(l, "ig_cta"))}</a></div></div></section>
 """
         ld = [{"@context": "https://schema.org", "@type": "NewsArticle", "headline": x["t"], "description": x["d"], "inLanguage": l, "datePublished": a["date"], "dateModified": a.get("maj", a["date"]), "image": [a.get("img") or BASE + "assets/jn.jpg"], "mainEntityOfPage": art_url(a, l),
                "author": {"@type": "Person", "name": "Solange Rocheval", "url": BASE + "apropos.html"}, "publisher": {"@type": "Organization", "name": "VI Countdown", "logo": {"@type": "ImageObject", "url": BASE + "assets/icon-192.png"}}}]
