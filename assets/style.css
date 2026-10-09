@@ -854,3 +854,6 @@ body.mu-lecteur-on .suivre{bottom:118px}
 .bout-carte img{width:100%;aspect-ratio:1;object-fit:cover;display:block;background:#f3f0ea}
 .bout-carte b{font-family:var(--mono);font-size:.68rem;line-height:1.3;letter-spacing:.02em}
 .bout-carte span{font-family:var(--mono);font-weight:700;font-size:.8rem;color:var(--hot)}
+
+.jr-credit{opacity:.55;font-size:.7rem}
+.jr-credit:empty{display:none}

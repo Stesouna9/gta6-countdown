@@ -441,6 +441,18 @@ I18N = {l: json.load(open(f"tools/i18n/{l}.json", encoding="utf-8")) for l in T}
 def tr(l, k): return I18N.get(l, {}).get(k) or I18N["en"].get(k) or I18N["fr"].get(k, k)
 def art_cle(l): return "idn" if l == "id" else l  # "id" est déjà le champ identifiant de chaque article
 def art_lang(a, l): return art_cle(l) if isinstance(a.get(art_cle(l)), dict) else ("en" if isinstance(a.get("en"), dict) else "fr")
+BANK = {}
+try:
+    for _i in json.load(open("data/images_rockstar.json", encoding="utf-8")):
+        BANK[BASE + _i["f"]] = _i.get("credit") or "Rockstar Games"; BANK[_i["f"]] = BANK[BASE + _i["f"]]
+except Exception: pass
+def credit_img(u, l):
+    c = BANK.get(u) or BANK.get(u.replace(BASE, ""))
+    if not c and ("rockstargames" in u or "img.youtube.com" in u): c = "Rockstar Games"
+    if not c: return ""
+    if c == "Rockstar Games": return tr(l, "jr_photo")
+    if c.startswith("Fan art"): return c if l == "fr" else c.replace("Fan art : ", "Fan art: ")
+    return ("Image : " if l == "fr" else "Image: ") + c
 def art_url(a, l): return f"{BASE}{'' if l == 'fr' else l + '/'}journal/{a['id']}.html"
 def d_fmt(a, l):
     try: return fmt_local(datetime.datetime.fromisoformat(a["date"]), l)
@@ -454,13 +466,19 @@ for l in T:
         srcs = " · ".join(f'<a href="{e(u)}" target="_blank" rel="noopener">{e(u.split("/")[2].replace("www.", ""))}</a>' for u in a.get("src", []))
         h = x["h"]
         if "<figure" not in h and "<img" not in h:  # une photo dans le corps, après le premier paragraphe
-            h = h.replace("</p>", f'</p><figure class="jr-fig"><img src="{e(img)}" alt="" loading="lazy"><figcaption>{e(tr(l, "jr_photo"))}</figcaption></figure>', 1)
+            h = h.replace("</p>", f'</p><figure class="jr-fig"><img src="{e(img)}" alt="" loading="lazy"><figcaption>{e(credit_img(img, l))}</figcaption></figure>', 1)
+        # crédit exact de chaque image de la banque (fan art, meme, anciens GTA, Rockstar)
+        def _cap(m):
+            c = credit_img(m.group(1), l)
+            return m.group(0) if not c else re.sub(r"<figcaption>.*?</figcaption>", "<figcaption>" + e(c) + "</figcaption>", m.group(0), flags=re.S)
+        h = re.sub(r'<figure[^>]*>\s*<img[^>]*src="([^"]+)"[^>]*>.*?</figure>', _cap, h, flags=re.S)
         # publicité : un bloc in-article après la photo (2e paragraphe), un bloc en fin de texte
         parts = h.split("</p>")
         if len(parts) > 3: h = "</p>".join(parts[:2]) + '</p><div class="pub jr" data-pub="jr-milieu"></div>' + "</p>".join(parts[2:])
         h += '<div class="pub jr" data-pub="jr-fin"></div>'
         body = f"""
   <header class="tete-page image jr-tete"><img src="{e(img)}" alt="" loading="eager"><div class="wrap"><span class="kicker"><span class="direct"><i></i>{e(tr(l, "direct"))}</span> · {e(d_fmt(a, l))}</span><h1>{e(x["t"])}</h1>{'<span class="jr-retro">' + e(tr(l, "jr_retro")) + '</span>' if a.get("retro") else ''}<p class="serif">{e(x["d"])}</p>
+    <p class="jr-sources haut jr-credit">{e(credit_img(img, l))}</p>
     <p class="jr-sources haut"><b>{e(tr(l, "jr_src"))}</b> {srcs}</p></div></header>
   <section class="papier"><div class="wrap jr-corps">{h}
     <p class="jr-sources"><b>{e(tr(l, "jr_src"))}</b> {srcs}</p>
