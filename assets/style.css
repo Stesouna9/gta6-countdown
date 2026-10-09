@@ -152,7 +152,7 @@ section{padding:clamp(56px,9vw,120px) 0;position:relative}
 .lcd .live.off{opacity:.3}
 .touches{display:flex;gap:8px}
 .st-logo{width:72px;height:72px;border-radius:10px;border:2px solid #000;background:#0c0b1a;box-shadow:inset 0 1px 0 rgba(255,255,255,.08),0 6px 14px rgba(0,0,0,.45);object-fit:cover;display:block}
-.presets button img{display:block;width:34px;height:34px;margin:0 auto 5px;border-radius:50%;border:1.5px solid rgba(0,0,0,.6);background:#0c0b1a;opacity:.8}
+.presets button img{display:block;width:44px;height:44px;margin:0 auto 5px;border-radius:50%;border:1.5px solid rgba(0,0,0,.6);background:#0c0b1a;opacity:.8}
 .presets button.on img{opacity:1;box-shadow:0 0 0 2px var(--st,var(--hot))}
 .touche{width:54px;height:54px;border-radius:50%;border:2px solid #000;background:radial-gradient(circle at 35% 30%,#4a3d50,#1b141f 70%);color:var(--paper);font-size:1rem;cursor:pointer;box-shadow:0 3px 0 #000,inset 0 1px 0 rgba(255,255,255,.12);display:grid;place-items:center;transition:transform .08s}
 .touche:active{transform:translateY(2px);box-shadow:0 1px 0 #000}
@@ -329,7 +329,7 @@ footer .okalam{font-family:var(--mono);font-size:.66rem;letter-spacing:.2em;text
   .facade{grid-template-columns:auto 1fr}
   .touches{grid-column:1/-1}
   .st-logo{width:56px;height:56px}
-  .presets button img{width:30px;height:30px}
+  .presets button img{width:40px;height:40px}
   .touches{justify-content:center}
   .fiche,.atouts{grid-template-columns:1fr}
   .fiche div,.atouts div{border:0;border-bottom:1px solid rgba(242,232,213,.2);padding-bottom:20px}
