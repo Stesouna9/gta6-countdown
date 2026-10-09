@@ -16,7 +16,7 @@
   el.innerHTML =
     '<div class="marque"><b>Vice Bay</b><span>FM Stereo · 1986</span></div>' +
     '<div class="cadran" id="r-cadran"><div class="ech">' + ech + '</div><div id="r-st"></div><span class="mhz">MHz</span><div class="aiguille" id="r-aig" style="left:50%"></div></div>' +
-    '<div class="facade"><div class="lcd"><div class="l1"><span id="r-lcd">-- . -</span><span class="live off" id="r-live">ON AIR</span></div><div class="l2" id="r-piste">VICE BAY RADIO</div></div>' +
+    '<div class="facade"><img class="st-logo" id="r-logo" alt="" width="256" height="256" loading="lazy"><div class="lcd"><div class="l1"><span id="r-lcd">-- . -</span><span class="live off" id="r-live">ON AIR</span></div><div class="l2" id="r-piste">VICE BAY RADIO</div></div>' +
     '<div class="touches"><button class="touche" id="r-prev" aria-label="Station précédente">◀</button><button class="touche play" id="r-play" aria-label="Lecture">▶</button><button class="touche" id="r-next" aria-label="Station suivante">▶</button></div></div>' +
     '<div class="presets" id="r-presets"></div><div class="grille-hp"></div>';
 
@@ -27,6 +27,7 @@
     if (!cur) return;
     $("r-aig").style.left = pos(cur.f) + "%";
     $("r-lcd").textContent = cur.f.toFixed(1) + "  " + cur.name;
+    var lg = $("r-logo"); lg.src = (window.ROOT || "") + "assets/img/stations/" + cur.id + ".webp"; lg.alt = cur.name; lg.onerror = function () { lg.style.display = "none"; }; lg.style.display = "";
     var p = liste(cur)[idx % (liste(cur).length || 1)];
     $("r-piste").textContent = p ? (p.type === "link" ? (cur.host ? cur.host + " · " : "") + "VICE BAY DJ" : (p.title + (p.artist ? " · " + p.artist : ""))).toUpperCase() : cur.genre;
     $("r-live").classList.toggle("off", !joue);
@@ -67,7 +68,7 @@
   s.onload = function () {
     stations = ((window.VBR && VBR.stations) || []).slice().sort(function (a, b) { return a.f - b.f; });
     $("r-st").innerHTML = stations.map(function (st, i) { return '<span class="st' + (i % 2 ? " bas" : "") + '" data-id="' + st.id + '" style="left:' + pos(st.f) + '%">' + st.name.replace(" DRIVE", "") + "</span>"; }).join("");
-    $("r-presets").innerHTML = stations.map(function (st, i) { return '<button data-id="' + st.id + '" style="--st:' + st.c + '"><b>' + (i + 1) + "</b>" + st.name.replace(" DRIVE", "") + "</button>"; }).join("");
+    $("r-presets").innerHTML = stations.map(function (st, i) { return '<button data-id="' + st.id + '" style="--st:' + st.c + '"><img src="' + (window.ROOT || "") + 'assets/img/stations/' + st.id + '.webp" alt="" width="256" height="256" loading="lazy" onerror="this.remove()"><b>' + (i + 1) + "</b>" + st.name.replace(" DRIVE", "") + "</button>"; }).join("");
     document.querySelectorAll("#r-presets button").forEach(function (b) {
       b.onclick = function () { choisit(stations.find(function (x) { return x.id === b.dataset.id; }), true); };
     });
