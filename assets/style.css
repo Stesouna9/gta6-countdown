@@ -862,3 +862,34 @@ body.mu-lecteur-on .suivre{bottom:118px}
 .nav .ig{display:flex;align-items:center;color:var(--gold);transition:color .2s}.nav .ig:hover{color:#fff}.nav .ig svg{width:22px;height:22px;fill:currentColor}
 .ig-section .ig-grid{display:grid;grid-template-columns:minmax(0,420px) 1fr;gap:40px;align-items:center;margin-top:30px}.ig-section .ig-carte{position:relative;display:block;border-radius:18px;overflow:hidden;aspect-ratio:1;background:linear-gradient(135deg,#f58529,#dd2a7b 50%,#8134af 80%,#515bd4)}.ig-section .ig-carte img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;mix-blend-mode:luminosity;opacity:.55}.ig-section .ig-carte .handle{position:absolute;left:24px;bottom:24px;color:#fff;font-family:var(--display);font-size:clamp(1.6rem,3vw,2.6rem);text-shadow:0 2px 14px rgba(0,0,0,.5)}.ig-section .ig-carte .handle svg{width:.9em;height:.9em;fill:#fff;vertical-align:-.12em;margin-right:.3em}.ig-section .ig-cta .btn{margin-top:18px}
 @media(max-width:760px){.ig-section .ig-grid{grid-template-columns:1fr}.ig-section .ig-carte{aspect-ratio:1}}
+/* Mobile : barre de navigation qui tient dans 375 px */
+@media (max-width:560px){
+  .nav{gap:10px;padding:0 12px;overflow:visible}
+  .nav .logo span{display:none}
+  .nav .droite{gap:8px}
+  .nav .ig svg{width:20px;height:20px}
+  .nav .lang{font-size:.62rem;letter-spacing:.06em;padding:6px 6px;max-width:92px;text-overflow:ellipsis}
+  .nav .burger{padding:7px 9px;gap:0}
+  .nav .burger span:nth-child(3){display:none}
+}
+@media (max-width:360px){.nav .lang{max-width:74px}}
+@media (max-width:900px){.nav .droite .ig{display:flex}}
+@media (max-width:560px){
+  .scotch{font-size:.95rem;padding:7px 14px 5px;max-width:100%}
+  .tampon,[dir=rtl] .tampon{left:auto;right:auto;inset-inline:auto 10px;width:104px;top:58%}
+  .radio-art .serif{left:8px;bottom:-4%;font-size:1.1rem;padding:8px 12px;max-width:85%}
+  .presets button{font-size:.7rem;letter-spacing:.04em}
+  .radio-sec .note{font-size:.74rem}
+  footer .okalam{font-size:.72rem;letter-spacing:.14em}
+  .journal .src,.officiel .d,.mentions-aff,.tableau th{font-size:.72rem;letter-spacing:.1em}
+  .store small,.badge small{font-size:.7rem}
+  .prod .etat{font-size:11px}
+  .suivre{padding:8px 8px 8px 12px}
+  .suivre-b{gap:4px;flex-wrap:wrap;overflow:visible}
+  .suivre-b .x{padding:6px 7px}
+}
+@media (max-width:560px){
+  .suivre{padding:8px 12px;padding-inline-end:44px}
+  .suivre-b{flex-wrap:nowrap;overflow-x:auto}
+  .suivre-b .x{position:absolute;top:50%;inset-inline-end:6px;transform:translateY(-50%);padding:6px 8px}
+}
