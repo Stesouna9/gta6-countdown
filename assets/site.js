@@ -5,7 +5,7 @@ window.SITE = {
   amazonTag: "okalamstudio-21",          // tag Amazon Partenaires (à remplacer par le vrai)
   adsensePub: "ca-pub-8121423865459620", // même identifiant éditeur que l'AdMob OKALAM
   // Unités AdSense (créées dans adsense.google.com > Annonces > Par bloc). Vide = emplacement inactif.
-  adSlots: { "jr-milieu": "9805843373", "jr-fin": "4346556577", "liste": "3033474908", "page": "7179680035" },
+  adSlots: { "jr-haut": "4346556577", "jr-milieu": "9805843373", "jr-fin": "4346556577", "liste": "3033474908", "page": "7179680035" },
   discord: "https://discord.gg/TSaxEnt2dG",
   instagram: "https://www.instagram.com/vicebayradio/",
   radio: "https://vicebayradio.com",
@@ -260,10 +260,12 @@ window.SITE = {
 
   // Publicité Google AdSense (annonces automatiques). Active seulement sur un domaine approuvé.
   if (SITE.adsensePub && !/localhost/.test(location.hostname)) {
-    var s = document.createElement("script");
-    s.async = true; s.crossOrigin = "anonymous";
-    s.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=" + SITE.adsensePub;
-    document.head.append(s);
+    if (!document.querySelector('script[src*="adsbygoogle.js"]')) {
+      var s = document.createElement("script");
+      s.async = true; s.crossOrigin = "anonymous";
+      s.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=" + SITE.adsensePub;
+      document.head.append(s);
+    }
     document.querySelectorAll(".pub").forEach(function (p) {
       var k = p.getAttribute("data-pub") || "page", slot = (SITE.adSlots || {})[k];
       if (!slot) { p.remove(); return; }

@@ -483,7 +483,7 @@ for l in T:
   <header class="tete-page image jr-tete"><img src="{e(img)}" alt="" loading="eager"><div class="wrap"><span class="kicker">{kick} · {e(d_fmt(a, l))}</span><h1>{e(x["t"])}</h1>{'<span class="jr-retro">' + e(tr(l, "jr_retro")) + '</span>' if a.get("retro") else ''}<p class="serif">{e(x["d"])}</p>
     <p class="jr-sources haut jr-credit">{e(credit_img(img, l))}</p>
     <p class="jr-sources haut"><b>{e(tr(l, "jr_src"))}</b> {srcs}</p></div></header>
-  <section class="papier"><div class="wrap jr-corps">{h}
+  <section class="papier"><div class="wrap jr-corps"><div class="pub jr" data-pub="jr-haut"></div>{h}
     <p class="jr-sources"><b>{e(tr(l, "jr_src"))}</b> {srcs}</p>
     <p class="note jr-signature">{e(tr(l, "jr_auteur").replace("Solange Rocheval", a.get("auteur") or "Solange Rocheval"))}</p><div class="partage"></div>
     <div class="boutons"><a class="btn" href="actus.html">{e(tr(l, "jr_suite"))}</a><a class="btn clair" href="https://www.instagram.com/vicebayradio/" target="_blank" rel="noopener">{e(tr(l, "ig_cta"))}</a></div></div></section>

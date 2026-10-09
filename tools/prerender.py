@@ -76,7 +76,8 @@ def meta(l, page, D, R):
          '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>',
          f'<link rel="stylesheet" href="{FONTS}">',
          f'<link rel="manifest" href="{R}manifest.webmanifest"><meta name="theme-color" content="#16111d">',
-         f'<link rel="icon" href="{R}assets/icons/icon-192.png" sizes="192x192"><link rel="apple-touch-icon" href="{R}assets/icons/icon-180.png">']
+         f'<link rel="icon" href="{R}assets/icons/icon-192.png" sizes="192x192"><link rel="apple-touch-icon" href="{R}assets/icons/icon-180.png">',
+         '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8121423865459620" crossorigin="anonymous"></script>']
     m += [f'<link rel="alternate" hreflang="{HL.get(x, x)}" href="{url(x, page)}">' for x in LANGS]
     m += [f'<link rel="alternate" hreflang="x-default" href="{url("fr", page)}">', f'<link rel="alternate" type="application/rss+xml" title="GTA 6" href="{BASE}feed.xml">']
     return "<!--meta-->\n  " + "\n  ".join(m) + ld_page(l, page, D) + "\n  <!--/meta-->"
