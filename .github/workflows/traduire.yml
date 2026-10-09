@@ -3,6 +3,8 @@ on:
   schedule:
     - cron: "45 * * * *"   # toutes les heures (UTC), après la routine Solange
   workflow_dispatch:
+    inputs:
+      test: { type: boolean, default: false }
 permissions:
   contents: write
 concurrency: { group: gta6-push, cancel-in-progress: false }
@@ -14,8 +16,12 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - run: pip install -q deep-translator
-      - run: python tools/traduire.py 4 | tee /tmp/trad.log
-      - run: |
+      - if: ${{ inputs.test }}
+        run: python tools/traduire.py --test
+      - if: ${{ !inputs.test }}
+        run: python tools/traduire.py 4 | tee /tmp/trad.log
+      - if: ${{ !inputs.test }}
+        run: |
           grep -q "^traduit" /tmp/trad.log || exit 0
           python tools/prerender.py && python tools/pub.py
           git config user.name "gta6-bot"

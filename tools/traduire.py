@@ -22,6 +22,10 @@ def trad_html(h, l):
         if not part or part.startswith("<") or not re.search(r"\w", part): out.append(part); continue
         out.append(html.escape(trad(html.unescape(part), l), quote=False))
     return "".join(out)
+if "--test" in sys.argv:
+    for l in ("ja","zh","tw","idn","ar"):
+        print(l, trad_html('<p>Rockstar confirmed it, <a href="https://x.y">according to IGN</a>. Price: 79.99 euros.</p><h2>Why it matters</h2>', l))
+    sys.exit(0)
 arts = json.load(open("data/articles.json", encoding="utf-8"))
 faits = []
 for a in arts:
