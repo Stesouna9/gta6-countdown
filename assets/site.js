@@ -5,7 +5,7 @@ window.SITE = {
   amazonTag: "okalamstudio-21",          // tag Amazon Partenaires (à remplacer par le vrai)
   adsensePub: "ca-pub-8121423865459620", // même identifiant éditeur que l'AdMob OKALAM
   // Unités AdSense (créées dans adsense.google.com > Annonces > Par bloc). Vide = emplacement inactif.
-  adSlots: { "jr-milieu": "", "jr-fin": "", "liste": "", "page": "" },
+  adSlots: { "jr-milieu": "9805843373", "jr-fin": "4346556577", "liste": "3033474908", "page": "7179680035" },
   discord: "https://discord.gg/TSaxEnt2dG",
   radio: "https://vicebayradio.com",
   vicebreak: "https://okalamstudio.com/vicebreak.html",
