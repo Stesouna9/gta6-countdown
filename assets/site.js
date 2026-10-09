@@ -271,6 +271,7 @@ window.SITE = {
       p.classList.remove("vide");
       p.innerHTML = '<ins class="adsbygoogle" style="display:block' + (fluid ? ';text-align:center' : '') + '" data-ad-client="' + SITE.adsensePub + '" data-ad-slot="' + slot + '"' + (fluid ? ' data-ad-layout="in-article" data-ad-format="fluid"' : ' data-ad-format="auto" data-full-width-responsive="true"') + '></ins>';
       (window.adsbygoogle = window.adsbygoogle || []).push({});
+      setTimeout(function () { var i = p.querySelector("ins"); if (!i || !i.querySelector("iframe") || i.getAttribute("data-ad-status") === "unfilled") p.classList.add("vide"); }, 6000);
     });
   } else {
     document.querySelectorAll(".pub").forEach(function (p) { p.remove(); });
