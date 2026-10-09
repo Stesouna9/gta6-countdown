@@ -923,3 +923,15 @@ body.mu-lecteur-on .suivre{bottom:118px}
 .jr-tete .serif{opacity:1}
 
 .jr-kick{font-family:var(--mono);font-size:.68rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+
+/* Article mobile : image d'en-tête plafonnée, bloc titre sur fond sombre (09/10) */
+@media(max-width:700px){
+  .jr-tete.image{display:block;padding:0;min-height:0}
+  .jr-tete.image>img{position:relative;inset:auto;display:block;width:100%;height:52vw;max-height:260px;min-height:0;object-fit:cover;object-position:50% 40%;opacity:1;filter:none;animation:none}
+  .jr-tete.image::before{display:none}
+  .jr-tete.image .wrap{position:relative;padding:18px var(--gut) 26px;background:#0c0d1b;display:block;z-index:2}
+  .jr-tete.image .wrap::before{content:"";position:absolute;left:0;right:0;top:-70px;height:70px;background:linear-gradient(0deg,#0c0d1b 0%,rgba(12,13,27,0) 100%);pointer-events:none}
+  .jr-tete h1{color:#fff;text-shadow:none;font-size:clamp(2rem,8.6vw,3rem);line-height:.98;margin:12px 0 14px}
+  .jr-tete .serif{color:#fff;opacity:1;text-shadow:none;font-size:1.05rem;line-height:1.4;border-color:var(--hot)}
+  .jr-tete .kicker,.jr-tete .credit{color:#f2e8d5;text-shadow:none}
+}
