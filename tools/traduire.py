@@ -4,7 +4,7 @@ import json, re, sys, time, html
 from deep_translator import GoogleTranslator
 L17 = ["fr","en","es","pt","de","it","ja","zh","tw","ar","hi","ru","ko","tr","idn","pl","vi"]
 G = {"zh":"zh-CN","tw":"zh-TW","idn":"id"}
-MAX = int(sys.argv[1]) if len(sys.argv) > 1 else 4
+MAX = int(sys.argv[1]) if len(sys.argv) > 1 and sys.argv[1].isdigit() else 4
 def trad(txt, l):
     txt = txt.strip()
     if not txt: return txt
