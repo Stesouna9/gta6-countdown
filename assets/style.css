@@ -895,3 +895,5 @@ body.mu-lecteur-on .suivre{bottom:118px}
   .suivre-b{flex-wrap:nowrap;overflow-x:auto}
   .suivre-b .x{position:absolute;top:50%;inset-inline-end:6px;transform:translateY(-50%);padding:6px 8px}
 }
+
+.suivre-t em a{color:inherit;text-decoration:underline;text-underline-offset:3px;font-weight:700}.suivre-t em a:hover{color:#fff}

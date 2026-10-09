@@ -180,7 +180,7 @@ window.SITE = {
     /* nouveau depuis la dernière visite */
     donnees("data/meta.json").then(function (m) {
       var maj = new Date(m.maj).getTime(), prev = 0; try { prev = +localStorage.getItem("visite") || 0; localStorage.setItem("visite", String(Date.now())); } catch (e) {}
-      if (prev && maj > prev) { document.getElementById("suivre-nouveau").textContent = T("suivre_nouveau"); if (!document.title.startsWith("•")) document.title = "• " + document.title; }
+      if (prev && maj > prev) { document.getElementById("suivre-nouveau").innerHTML = '<a href="' + R + 'actus.html">' + T("suivre_nouveau") + ' ›</a>'; if (!document.title.startsWith("•")) document.title = "• " + document.title; }
     }).catch(function () {});
     function txt() { d.querySelectorAll("[data-i18n]").forEach(function (el) { var v = T(el.getAttribute("data-i18n")); if (v) el.textContent = v; }); }
     txt(); document.addEventListener("langchange", txt);
