@@ -916,3 +916,8 @@ body.mu-lecteur-on .suivre{bottom:118px}
 }
 .pub ins[data-ad-status="unfilled"]{display:none!important}
 .pub:has(ins[data-ad-status="unfilled"]),.pub.vide{display:none}
+/* Article : même lisibilité sur grand écran */
+.jr-tete.image::before{background:linear-gradient(0deg,#0c0d1b 0%,rgba(12,13,27,.92) 40%,rgba(12,13,27,.6) 70%,rgba(12,13,27,.25) 100%)}
+.jr-tete h1{text-shadow:0 2px 4px rgba(0,0,0,.9),0 10px 30px rgba(0,0,0,.7)}
+.jr-tete .serif,.jr-tete .kicker,.jr-tete .jr-sources,.jr-tete .credit,.jr-tete figcaption{text-shadow:0 1px 3px rgba(0,0,0,.9)}
+.jr-tete .serif{opacity:1}
