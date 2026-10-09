@@ -10,9 +10,11 @@ def trad(txt, l):
     if not txt: return txt
     err = None
     for i in range(3):
-        try: return GoogleTranslator(source="en", target=G.get(l, l)).translate(txt) or txt
+        try:
+            r = GoogleTranslator(source="en", target=G.get(l, l)).translate(txt) or txt
+            time.sleep(0.35); return r
         except Exception as e:
-            err = e; time.sleep(2 + i * 3)
+            err = e; time.sleep(5 + i * 10)
     print("échec", l, err); return txt
 def trad_html(h, l):
     out = []
