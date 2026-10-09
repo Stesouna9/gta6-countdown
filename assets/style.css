@@ -865,12 +865,14 @@ body.mu-lecteur-on .suivre{bottom:118px}
 /* Mobile : barre de navigation qui tient dans 375 px */
 @media (max-width:560px){
   .nav{gap:10px;padding:0 12px;overflow:visible}
-  .nav .logo span{display:none}
+  .nav .logo span{display:inline;font-size:.58rem;letter-spacing:.16em}
   .nav .droite{gap:8px}
   .nav .ig svg{width:20px;height:20px}
   .nav .lang{font-size:.62rem;letter-spacing:.06em;padding:6px 6px;max-width:92px;text-overflow:ellipsis}
-  .nav .burger{padding:7px 9px;gap:0}
-  .nav .burger span:nth-child(3){display:none}
+  .nav .burger{padding:8px 10px;gap:6px;background:var(--gold);color:var(--ink);border-color:var(--gold);font-weight:700;letter-spacing:.1em}
+  .nav .burger span:nth-child(-n+2){width:14px;height:2px;background:var(--ink)}
+  .nav .burger span:nth-child(3){display:inline;margin-inline-start:2px}
+  .nav .lang{max-width:84px}
 }
 @media (max-width:360px){.nav .lang{max-width:74px}}
 @media (max-width:900px){.nav .droite .ig{display:flex}}
