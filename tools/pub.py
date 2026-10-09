@@ -525,4 +525,10 @@ for a in reversed(ARTS[:10]):
         except Exception: pd = datetime.datetime.now(datetime.timezone.utc).strftime('%a, %d %b %Y %H:%M:%S +0000')
         fx = re.sub(r"<item>", f"<item><title>{e(x['t'])}</title><link>{art_url(a, 'fr')}</link><guid>{art_url(a, 'fr')}</guid><pubDate>{pd}</pubDate><description>{e(x['d'])}</description></item>\n<item>", fx, count=1)
 open("feed.xml", "w", encoding="utf-8").write(fx)
+
+# ------------------------------------------------------------------ 4c. flash : derniers articles pour la barre Suivre
+try:
+    _fl = [{"id": a["id"], "date": a.get("date", ""), "t": {l: a[art_lang(a, l)]["t"] for l in T}} for a in ARTS[:5]]
+    json.dump({"maj": datetime.datetime.now(datetime.timezone.utc).isoformat(), "art": _fl}, open("data/flash.json", "w", encoding="utf-8"), ensure_ascii=False)
+except Exception as _ex: print("flash:", _ex)
 print(f"pub: {len(URLS)} pages (J-{J})")

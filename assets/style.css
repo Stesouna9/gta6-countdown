@@ -897,3 +897,10 @@ body.mu-lecteur-on .suivre{bottom:118px}
 }
 
 .suivre-t em a{color:inherit;text-decoration:underline;text-underline-offset:3px;font-weight:700}.suivre-t em a:hover{color:#fff}
+
+/* Barre Suivre : flash dernière actu */
+.suivre-t em a{display:inline-flex;flex-direction:column;gap:2px;color:inherit;text-decoration:none;max-width:300px;line-height:1.15}
+.suivre-t em a small{font:700 .58rem/1 var(--mono);letter-spacing:.16em;text-transform:uppercase;color:#ff3b3b}
+.suivre-t em a span{font:italic 400 .95rem/1.15 var(--serif);color:var(--gold);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block}
+.suivre-t em a:hover span{color:#fff;text-decoration:underline;text-underline-offset:3px}
+@media(max-width:700px){.suivre-t{flex:1 1 100%;min-width:0}.suivre-t em{min-width:0;flex:1}.suivre-t em a{max-width:100%;width:100%}.suivre-t em a span{font-size:.9rem}}

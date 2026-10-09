@@ -80,10 +80,14 @@ window.SITE = {
   };
   function maj() {
     var els = document.querySelectorAll("[data-maj]"); if (!els.length) return;
-    donnees("data/meta.json").then(function (m) {
-      var mn = Math.max(0, Math.round((Date.now() - new Date(m.maj).getTime()) / 60000)), hl = document.documentElement.lang;
-      var t = mn < 60 ? (hl.indexOf("fr") === 0 ? "il y a " + mn + " min" : mn + " min ago") : new Date(m.maj).toLocaleTimeString(hl, { hour: "2-digit", minute: "2-digit" });
-      els.forEach(function (e) { e.textContent = t; });
+    donnees("data/flash.json").then(function (m) {
+      var prev = 0; try { prev = +localStorage.getItem("visite") || 0; localStorage.setItem("visite", String(Date.now())); } catch (e) {}
+      var arts = m.art || []; if (!arts.length) return;
+      var n = prev ? arts.filter(function (a) { return new Date(a.date).getTime() > prev; }).length : 0;
+      var a = arts[0], l = window.LANG || "fr", t = a.t[l] || a.t.en || a.t.fr;
+      var lab = n ? n + " " + T("suivre_nouveau_n") : T("suivre_flash");
+      document.getElementById("suivre-nouveau").innerHTML = '<a href="' + R + (l === "fr" ? "" : l + "/") + "journal/" + a.id + '.html"><small>' + lab + '</small><span>' + t + '</span></a>';
+      if (n && !document.title.startsWith("•")) document.title = "• " + document.title;
     }).catch(function () {});
   }
   maj(); setInterval(maj, 60000);
