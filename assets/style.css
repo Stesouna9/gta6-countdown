@@ -34,7 +34,12 @@ a{color:inherit}
 .nav a.actif{color:var(--paper);border-bottom-color:var(--hot)}
 .nav .droite{margin-inline-start:auto;display:flex;align-items:center;gap:14px;flex:none}
 .nav .jours{font-family:var(--display);font-size:1.25rem;color:var(--gold);letter-spacing:.02em}
-.nav .lang{appearance:none;-webkit-appearance:none;background:transparent;color:var(--paper);border:1px solid rgba(242,232,213,.35);font-family:var(--mono);font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;padding:6px 10px;cursor:pointer;border-radius:0}
+.nav .trad{position:relative;display:inline-flex;align-items:center;gap:8px;background:var(--hot);color:#fff;border:2px solid #000;box-shadow:3px 3px 0 #000;font-family:var(--mono);font-weight:700;font-size:.74rem;letter-spacing:.1em;text-transform:uppercase;padding:8px 14px;cursor:pointer;white-space:nowrap;transition:transform .15s}
+.nav .trad:hover{transform:translate(-1px,-1px);box-shadow:4px 4px 0 #000}
+.nav .trad.autre{background:var(--gold);color:var(--ink);animation:trad-pulse 1.6s ease-in-out 3}
+@keyframes trad-pulse{0%,100%{transform:none}50%{transform:scale(1.06)}}
+.nav .trad svg{flex:none}
+.nav .lang{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:pointer;font-size:16px;appearance:none;-webkit-appearance:none;border:0;margin:0;padding:0}
 .nav .lang option{color:#000}
 
 /* ---------- ÉLÉMENTS ---------- */
@@ -874,13 +879,13 @@ body.mu-lecteur-on .suivre{bottom:118px}
   .nav .logo span{display:inline;font-size:.58rem;letter-spacing:.16em}
   .nav .droite{gap:8px}
   .nav .ig svg{width:20px;height:20px}
-  .nav .lang{font-size:.62rem;letter-spacing:.06em;padding:6px 6px;max-width:92px;text-overflow:ellipsis}
+  .nav .trad{font-size:.6rem;letter-spacing:.05em;padding:7px 9px;gap:6px;max-width:150px}.nav .trad #trad-txt{overflow:hidden;text-overflow:ellipsis}
   .nav .burger{padding:8px 10px;gap:6px;background:var(--gold);color:var(--ink);border-color:var(--gold);font-weight:700;letter-spacing:.1em}
   .nav .burger span:nth-child(-n+2){width:14px;height:2px;background:var(--ink)}
   .nav .burger span:nth-child(3){display:inline;margin-inline-start:2px}
-  .nav .lang{max-width:84px}
+  .nav .trad{max-width:132px}
 }
-@media (max-width:360px){.nav .lang{max-width:74px}}
+@media (max-width:360px){.nav .trad{max-width:112px}}
 @media (max-width:900px){.nav .droite .ig{display:flex}}
 @media (max-width:560px){
   .scotch{font-size:.95rem;padding:7px 14px 5px;max-width:100%}

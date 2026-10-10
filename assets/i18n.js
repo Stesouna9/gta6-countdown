@@ -36,8 +36,17 @@
   var q = (location.search.match(/[?&]lang=([a-z]{2})/) || [])[1], choix = q || lit();
   if (LOC && choix && choix !== page && NOMS[choix]) { if (q) try { localStorage.setItem("lang", q); } catch (e) {} location.replace(url(choix)); }
   else if (!LOC && choix && NOMS[choix] && choix !== page) { page = choix; charge(choix, function () {}); }
+  // Bouton « Traduire » de la barre : libellé dans la langue du navigateur du visiteur.
+  var TRAD = { fr: "Traduire", en: "Translate", es: "Traducir", pt: "Traduzir", de: "Übersetzen", it: "Traduci", ja: "翻訳", zh: "翻译", tw: "翻譯", ar: "ترجمة", hi: "अनुवाद", ru: "Перевести", ko: "번역", tr: "Çevir", id: "Terjemahkan", pl: "Przetłumacz", vi: "Dịch" };
   document.addEventListener("DOMContentLoaded", function () {
     charge(page, function () { applique(page); });
+    (function () {
+      var nav = (navigator.language || "").toLowerCase(), n = nav.slice(0, 2);
+      if (nav === "zh-tw" || nav === "zh-hk" || nav.indexOf("hant") > -1) n = "tw";
+      var t = document.getElementById("trad-txt"); if (!t) return;
+      if (NOMS[n] && n !== page) { t.textContent = TRAD[n] + " · " + NOMS[n]; t.lang = n; document.getElementById("trad").classList.add("autre"); }
+      else t.textContent = TRAD[page] || "Translate";
+    })();
     // Pas de redirection automatique (Google doit voir chaque langue) : simple suggestion.
     var nav = (navigator.language || "").toLowerCase(), n = nav.slice(0, 2);
     if (nav === "zh-tw" || nav === "zh-hk" || nav.indexOf("hant") > -1) n = "tw";
