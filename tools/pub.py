@@ -511,7 +511,21 @@ for im in imgs:
     l, pg = im.split("/")[2], im.split("/")[3][:-4]
     sx.append(f"  <url><loc>{BASE}{'' if l == 'fr' else l + '/'}{'' if pg == 'index' else pg + '.html'}</loc><image:image><image:loc>{BASE}{im}</image:loc></image:image></url>")
 open("sitemap-images.xml", "w", encoding="utf-8").write("\n".join(sx + ["</urlset>", ""]))
+# Sitemap Google News : articles des 2 derniers jours, toutes langues (max 1000 URL).
+_now = datetime.datetime.now(zoneinfo.ZoneInfo("Europe/Paris")); sn = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">']
+for a in ARTS:
+    if a.get("retro"): continue
+    try: d = datetime.datetime.fromisoformat(a["date"])
+    except Exception: continue
+    if (_now - d).days > 2: continue
+    for l in T:
+        k = "idn" if l == "id" else l; x = a.get(k)
+        if not isinstance(x, dict) or not x.get("t"): continue
+        sn.append(f'  <url><loc>{BASE}{"" if l == "fr" else l + "/"}journal/{a["id"]}.html</loc><news:news><news:publication><news:name>VI Countdown</news:name><news:language>{"zh-tw" if l == "tw" else l}</news:language></news:publication><news:publication_date>{a["date"]}</news:publication_date><news:title>{e(x["t"])}</news:title></news:news></url>')
+        if len(sn) > 1000: break
+open("sitemap-news.xml", "w", encoding="utf-8").write("\n".join(sn + ["</urlset>", ""]))
 rb = open("robots.txt", encoding="utf-8").read()
+if "sitemap-news.xml" not in rb: open("robots.txt", "a", encoding="utf-8").write(f"Sitemap: {BASE}sitemap-news.xml\n")
 if "sitemap-images.xml" not in rb: open("robots.txt", "a", encoding="utf-8").write(f"Sitemap: {BASE}sitemap-images.xml\n")
 
 fx = open("feed.xml", encoding="utf-8").read()
