@@ -72,7 +72,7 @@
   <script src="assets/site.js?v=94641aeb"></script>
   <script>
     fetch("data/deals.json").then(function (r) { return r.json(); }).then(function (lst) {
-      document.getElementById("deals").innerHTML = lst.map(function (a) { return '<a href="' + a.u + '" target="_blank" rel="noopener"><span class="src">' + a.s + '</span><b>' + a.t + '</b></a>'; }).join("");
+      document.getElementById("deals").innerHTML = lst.filter(function (a) { return a.stock !== false; }).map(function (a) { return '<a href="' + a.u + '" target="_blank" rel="noopener"><span class="src">' + a.s + '</span><b>' + a.t + '</b></a>'; }).join("");
     });
   </script>
 </body>

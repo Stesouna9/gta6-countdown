@@ -127,6 +127,12 @@ def boutique():
         if not img or h in vus: continue
         vus.add(h)
         out.append({"t": html.unescape(img.group(1)).strip(), "p": (prix.group(1) + prix.group(2)) if prix else "", "u": "https://store.rockstargames.com" + h, "img": img.group(2).split("?")[0] + "?w=480&fm=webp&q=75", "e": etat})
+    # Stock : la fiche produit expose schema.org ; sans aucune offre InStock, l'article est en rupture.
+    for it in out[:40]:
+        try:
+            pg = urllib.request.urlopen(urllib.request.Request(it["u"], headers=UA_NAV), timeout=30).read().decode("utf8", "ignore")
+            it["stock"] = ('schema.org/InStock' in pg) or ('schema.org/PreOrder' in pg) or ('availability' not in pg)
+        except Exception: it["stock"] = True
     return out
 
 def rockstar():
