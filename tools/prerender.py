@@ -85,6 +85,21 @@ def meta(l, page, D, R):
 NETTOIE = [r"\s*<title>.*?</title>", r'\s*<meta name="description"[^>]*>', r'\s*<link rel="canonical"[^>]*>', r'\s*<meta property="og:[^>]*>', r'\s*<meta name="twitter:[^>]*>',
            r"\s*<!--seo-->.*?<!--/seo-->", r"\s*<!--meta-->.*?<!--/meta-->", r'\s*<script type="application/ld\+json">\{"@context": "https://schema.org", "@graph": \[\{"@type": "FAQPage".*?</script>']
 ARTS = json.load(open("data/articles.json", encoding="utf-8")) if os.path.exists("data/articles.json") else []
+# Garde-fou : la routine invente parfois une heure future ; une date postérieure à maintenant est ramenée à l'heure réelle.
+def _borne_dates():
+    import datetime, zoneinfo
+    tz = zoneinfo.ZoneInfo("Europe/Paris"); now = datetime.datetime.now(tz); n = 0
+    for a in ARTS:
+        try: d = datetime.datetime.fromisoformat(a["date"])
+        except Exception: continue
+        if d.tzinfo is None: d = d.replace(tzinfo=tz)
+        if d > now + datetime.timedelta(minutes=5):
+            a["date"] = (now - datetime.timedelta(minutes=n)).replace(microsecond=0).isoformat(); n += 1
+    if n:
+        ARTS.sort(key=lambda a: a["date"], reverse=True)
+        json.dump(ARTS, open("data/articles.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        print(f"dates futures corrigées : {n}")
+_borne_dates()
 def cartes(l, n, R):
     k = "idn" if l == "id" else l; out = []
     for a in ARTS[:n]:
