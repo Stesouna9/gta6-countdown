@@ -95,6 +95,15 @@ def _borne_dates():
         if d.tzinfo is None: d = d.replace(tzinfo=tz)
         if d > now + datetime.timedelta(minutes=5):
             a["date"] = (now - datetime.timedelta(minutes=n)).replace(microsecond=0).isoformat(); n += 1
+    try:
+        mur = json.load(open("data/mur_fils.json", encoding="utf-8")); k = 0
+        for x in mur:
+            try: d = datetime.datetime.fromisoformat(x["d"])
+            except Exception: continue
+            if d.tzinfo is None: d = d.replace(tzinfo=tz)
+            if d > now + datetime.timedelta(minutes=5): x["d"] = (now - datetime.timedelta(minutes=k)).replace(microsecond=0).isoformat(); k += 1
+        if k: json.dump(mur, open("data/mur_fils.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1); print(f"mur : dates futures corrigées : {k}")
+    except Exception: pass
     if n:
         ARTS.sort(key=lambda a: a["date"], reverse=True)
         json.dump(ARTS, open("data/articles.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
