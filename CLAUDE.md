@@ -20,3 +20,11 @@ Constat : presque tous les visiteurs extérieurs arrivent par Google sur UN arti
 
 ## Interdits
 - Pas de titre trompeur, pas de rumeur présentée comme un fait, pas de bourrage de mots-clés : Google déclasse, AdSense refuse.
+
+## Images : elles doivent correspondre à l'actu (11/10/2026)
+Constat : trop d'articles reçoivent un « Artwork officiel n°X » pris au hasard dans data/images_rockstar.json (descriptions génériques), sans rapport avec le sujet.
+- Avant de choisir, OUVRE les candidats avec Read (les images sont dans le dépôt, chemin = champ f) et vérifie ce qu'elles montrent. Ne te fie jamais au seul champ desc quand il vaut « Artwork officiel n°X ».
+- Le sujet décide de l'image : personnage nommé (Jason, Lucia, Raul…) = son portrait ; lieu (Vice City, Leonida, Brooklyn, Paris) = vue de lieu ; véhicule, radio, musique, collector, boutique = l'image de cet objet ou de cette scène ; PC, procès, piratage, arrestation = vue neutre de Vice City, jamais un personnage qui n'a rien à voir.
+- Source rockstargames.com / boutique / YouTube Rockstar : l'image officielle de la source passe avant la banque.
+- Mieux vaut une image un peu répétée mais pertinente qu'une image neuve hors sujet : la règle de variété cède devant la pertinence si aucune image neuve ne convient.
+- Quand tu regardes une image de la banque dont desc est générique, corrige desc dans data/images_rockstar.json avec ce que tu vois (personnage, lieu, ambiance) : la banque s'améliore à chaque passage.
