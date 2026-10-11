@@ -149,7 +149,6 @@ for page, prio, freq in PAGES:
     alts = "".join(f'<xhtml:link rel="alternate" hreflang="{HL.get(x, x)}" href="{url(x, page)}"/>' for x in LANGS) + f'<xhtml:link rel="alternate" hreflang="x-default" href="{url("fr", page)}"/>'
     for l in LANGS:
         sm.append(f"  <url><loc>{url(l, page)}</loc><lastmod>{today}</lastmod><changefreq>{freq}</changefreq><priority>{prio}</priority>{alts}</url>")
-sm.append(f"  <url><loc>{BASE}partager.html</loc><lastmod>{today}</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>")
 open("sitemap.xml", "w").write("\n".join(sm + ["</urlset>", ""]))
 
 def rfc(d):
