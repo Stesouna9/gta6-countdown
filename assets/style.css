@@ -963,3 +963,4 @@ body.mu-lecteur-on .suivre{bottom:118px}
 .jr-decouvrir{display:flex;flex-wrap:wrap;gap:10px}
 .jr-decouvrir a{padding:10px 14px;border:2px solid #000;box-shadow:3px 3px 0 #000;text-decoration:none;color:inherit;font:600 15px var(--sans);background:#fff}
 @media(max-width:700px){.jr-lies{grid-template-columns:1fr 1fr;gap:12px}.jr-cd{font-size:13px}}
+.jr-recent{list-style:none;margin:0;padding:0;display:grid;gap:0}.jr-recent li{border-bottom:1px solid rgba(22,17,29,.15)}.jr-recent a{display:block;padding:12px 0;text-decoration:none;color:inherit;font:600 16px/1.35 var(--sans)}.jr-recent a:hover{color:var(--hot,#ff2d7a)}.jr-recent .k{display:block;font:400 11px var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--hot,#ff2d7a)}.jr-tout{margin:14px 0 0;font-weight:600}

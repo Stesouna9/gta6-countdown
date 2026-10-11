@@ -460,23 +460,23 @@ def d_fmt(a, l):
 
 # ---- rétention des pages articles (11/10/2026) : compte à rebours, à lire aussi, articles liés, à suivre, découvrir
 RET_TXT = {
- "fr": ("À lire aussi", "Sur le même sujet", "Article suivant", "À découvrir sur le site", "GTA 6 sort dans {n} jours", "Quiz GTA 6", "Vice Bay Radio", "Le Mur des fans", "Prix par pays"),
- "en": ("Read also", "On the same topic", "Next article", "More on the site", "GTA 6 releases in {n} days", "GTA 6 quiz", "Vice Bay Radio", "Fan wall", "Prices by country"),
- "es": ("Lee también", "Sobre el mismo tema", "Siguiente artículo", "Más en el sitio", "GTA 6 sale en {n} días", "Quiz GTA 6", "Vice Bay Radio", "Muro de fans", "Precios por país"),
- "pt": ("Leia também", "Sobre o mesmo tema", "Próximo artigo", "Mais no site", "GTA 6 sai em {n} dias", "Quiz GTA 6", "Vice Bay Radio", "Mural dos fãs", "Preços por país"),
- "de": ("Auch lesen", "Zum selben Thema", "Nächster Artikel", "Mehr auf der Seite", "GTA 6 erscheint in {n} Tagen", "GTA 6 Quiz", "Vice Bay Radio", "Fan-Wand", "Preise nach Land"),
- "it": ("Leggi anche", "Sullo stesso tema", "Articolo successivo", "Altro sul sito", "GTA 6 esce tra {n} giorni", "Quiz GTA 6", "Vice Bay Radio", "Bacheca dei fan", "Prezzi per paese"),
- "ja": ("あわせて読みたい", "同じテーマの記事", "次の記事", "サイトの他のコンテンツ", "GTA 6 発売まであと{n}日", "GTA 6 クイズ", "Vice Bay Radio", "ファンの掲示板", "国別価格"),
- "zh": ("延伸阅读", "相关文章", "下一篇", "网站更多内容", "GTA 6 还有 {n} 天发售", "GTA 6 测验", "Vice Bay Radio", "粉丝留言墙", "各国价格"),
- "tw": ("延伸閱讀", "相關文章", "下一篇", "網站更多內容", "GTA 6 還有 {n} 天發售", "GTA 6 測驗", "Vice Bay Radio", "粉絲留言牆", "各國價格"),
- "ar": ("اقرأ أيضًا", "في الموضوع نفسه", "المقال التالي", "المزيد على الموقع", "يصدر GTA 6 بعد {n} يومًا", "اختبار GTA 6", "Vice Bay Radio", "جدار المعجبين", "الأسعار حسب البلد"),
- "hi": ("यह भी पढ़ें", "इसी विषय पर", "अगला लेख", "साइट पर और", "GTA 6 {n} दिनों में आ रहा है", "GTA 6 क्विज़", "Vice Bay Radio", "फैन वॉल", "देश के अनुसार कीमतें"),
- "ru": ("Читайте также", "По теме", "Следующая статья", "Ещё на сайте", "GTA 6 выйдет через {n} дн.", "Викторина GTA 6", "Vice Bay Radio", "Стена фанатов", "Цены по странам"),
- "ko": ("함께 읽기", "같은 주제", "다음 기사", "사이트 더 보기", "GTA 6 출시까지 {n}일", "GTA 6 퀴즈", "Vice Bay Radio", "팬 게시판", "국가별 가격"),
- "tr": ("Bunu da okuyun", "Aynı konuda", "Sonraki makale", "Sitede daha fazlası", "GTA 6 {n} gün sonra çıkıyor", "GTA 6 testi", "Vice Bay Radio", "Hayran duvarı", "Ülkelere göre fiyatlar"),
- "id": ("Baca juga", "Topik yang sama", "Artikel berikutnya", "Lainnya di situs", "GTA 6 rilis dalam {n} hari", "Kuis GTA 6", "Vice Bay Radio", "Dinding penggemar", "Harga per negara"),
- "pl": ("Przeczytaj też", "Na ten sam temat", "Następny artykuł", "Więcej na stronie", "GTA 6 wychodzi za {n} dni", "Quiz GTA 6", "Vice Bay Radio", "Ściana fanów", "Ceny według kraju"),
- "vi": ("Đọc thêm", "Cùng chủ đề", "Bài tiếp theo", "Thêm trên trang", "GTA 6 ra mắt sau {n} ngày", "Đố vui GTA 6", "Vice Bay Radio", "Tường người hâm mộ", "Giá theo quốc gia"),
+ "fr": ("À lire aussi", "Sur le même sujet", "Article suivant", "À découvrir sur le site", "GTA 6 sort dans {n} jours", "Quiz GTA 6", "Vice Bay Radio", "Le Mur des fans", "Prix par pays", "Dernières actus GTA 6"),
+ "en": ("Read also", "On the same topic", "Next article", "More on the site", "GTA 6 releases in {n} days", "GTA 6 quiz", "Vice Bay Radio", "Fan wall", "Prices by country", "Latest GTA 6 news"),
+ "es": ("Lee también", "Sobre el mismo tema", "Siguiente artículo", "Más en el sitio", "GTA 6 sale en {n} días", "Quiz GTA 6", "Vice Bay Radio", "Muro de fans", "Precios por país", "Últimas noticias de GTA 6"),
+ "pt": ("Leia também", "Sobre o mesmo tema", "Próximo artigo", "Mais no site", "GTA 6 sai em {n} dias", "Quiz GTA 6", "Vice Bay Radio", "Mural dos fãs", "Preços por país", "Últimas notícias de GTA 6"),
+ "de": ("Auch lesen", "Zum selben Thema", "Nächster Artikel", "Mehr auf der Seite", "GTA 6 erscheint in {n} Tagen", "GTA 6 Quiz", "Vice Bay Radio", "Fan-Wand", "Preise nach Land", "Neueste GTA 6 News"),
+ "it": ("Leggi anche", "Sullo stesso tema", "Articolo successivo", "Altro sul sito", "GTA 6 esce tra {n} giorni", "Quiz GTA 6", "Vice Bay Radio", "Bacheca dei fan", "Prezzi per paese", "Ultime notizie su GTA 6"),
+ "ja": ("あわせて読みたい", "同じテーマの記事", "次の記事", "サイトの他のコンテンツ", "GTA 6 発売まであと{n}日", "GTA 6 クイズ", "Vice Bay Radio", "ファンの掲示板", "国別価格", "GTA 6 最新ニュース"),
+ "zh": ("延伸阅读", "相关文章", "下一篇", "网站更多内容", "GTA 6 还有 {n} 天发售", "GTA 6 测验", "Vice Bay Radio", "粉丝留言墙", "各国价格", "GTA 6 最新消息"),
+ "tw": ("延伸閱讀", "相關文章", "下一篇", "網站更多內容", "GTA 6 還有 {n} 天發售", "GTA 6 測驗", "Vice Bay Radio", "粉絲留言牆", "各國價格", "GTA 6 最新消息"),
+ "ar": ("اقرأ أيضًا", "في الموضوع نفسه", "المقال التالي", "المزيد على الموقع", "يصدر GTA 6 بعد {n} يومًا", "اختبار GTA 6", "Vice Bay Radio", "جدار المعجبين", "الأسعار حسب البلد", "آخر أخبار GTA 6"),
+ "hi": ("यह भी पढ़ें", "इसी विषय पर", "अगला लेख", "साइट पर और", "GTA 6 {n} दिनों में आ रहा है", "GTA 6 क्विज़", "Vice Bay Radio", "फैन वॉल", "देश के अनुसार कीमतें", "GTA 6 की ताज़ा खबरें"),
+ "ru": ("Читайте также", "По теме", "Следующая статья", "Ещё на сайте", "GTA 6 выйдет через {n} дн.", "Викторина GTA 6", "Vice Bay Radio", "Стена фанатов", "Цены по странам", "Последние новости GTA 6"),
+ "ko": ("함께 읽기", "같은 주제", "다음 기사", "사이트 더 보기", "GTA 6 출시까지 {n}일", "GTA 6 퀴즈", "Vice Bay Radio", "팬 게시판", "국가별 가격", "GTA 6 최신 뉴스"),
+ "tr": ("Bunu da okuyun", "Aynı konuda", "Sonraki makale", "Sitede daha fazlası", "GTA 6 {n} gün sonra çıkıyor", "GTA 6 testi", "Vice Bay Radio", "Hayran duvarı", "Ülkelere göre fiyatlar", "Son GTA 6 haberleri"),
+ "id": ("Baca juga", "Topik yang sama", "Artikel berikutnya", "Lainnya di situs", "GTA 6 rilis dalam {n} hari", "Kuis GTA 6", "Vice Bay Radio", "Dinding penggemar", "Harga per negara", "Berita GTA 6 terbaru"),
+ "pl": ("Przeczytaj też", "Na ten sam temat", "Następny artykuł", "Więcej na stronie", "GTA 6 wychodzi za {n} dni", "Quiz GTA 6", "Vice Bay Radio", "Ściana fanów", "Ceny według kraju", "Najnowsze wiadomości o GTA 6"),
+ "vi": ("Đọc thêm", "Cùng chủ đề", "Bài tiếp theo", "Thêm trên trang", "GTA 6 ra mắt sau {n} ngày", "Đố vui GTA 6", "Vice Bay Radio", "Tường người hâm mộ", "Giá theo quốc gia", "Tin GTA 6 mới nhất"),
 }
 def ret_txt(l): return RET_TXT.get(l) or RET_TXT.get("id" if l in ("idn",) else "en")
 def ret_lies(a, n=4):
@@ -499,6 +499,9 @@ def ret_blocs(a, l):
         b = lies[0]; aussi = f'<p class="jr-aussi"><b>{e(R[0])}</b> <a href="journal/{b["id"]}.html" data-goatcounter-click="art-aussi">{e(b[art_lang(b, l)]["t"])}</a></p>'
     fin = ""
     if su: fin += f'<a class="jr-suivant" href="journal/{su["id"]}.html" data-goatcounter-click="art-suivant"><span class="k">{e(R[2])}</span><b>{e(su[art_lang(su, l)]["t"])}</b></a>'
+    _vus = {a["id"]} | {b["id"] for b in lies} | ({su["id"]} if su else set())
+    _rec = [b for b in ARTS if b["id"] not in _vus and not b.get("retro")][:5]
+    if _rec: fin += f'<h2 class="jr-lies-t">{e(R[9])}</h2><ul class="jr-recent">' + "".join(f'<li><a href="journal/{b["id"]}.html" data-goatcounter-click="art-recent"><span class="k">{e(d_fmt(b, l))}</span> {e(b[art_lang(b, l)]["t"])}</a></li>' for b in _rec) + '</ul><p class="jr-tout"><a href="actus.html" data-goatcounter-click="art-tout">' + e(tr(l, "jr_suite")) + ' →</a></p>'
     if lies: fin += f'<h2 class="jr-lies-t">{e(R[1])}</h2><div class="jr-lies">' + "".join(ret_carte(b, l) for b in lies) + "</div>"
     fin += (f'<h2 class="jr-lies-t">{e(R[3])}</h2><div class="jr-decouvrir">'
             f'<a href="quiz.html" data-goatcounter-click="art-quiz">{e(R[5])}</a><a href="radio.html" data-goatcounter-click="art-radio">{e(R[6])}</a>'
