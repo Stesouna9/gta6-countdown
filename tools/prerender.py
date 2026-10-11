@@ -71,7 +71,7 @@ def meta(l, page, D, R):
     m = [f"<title>{e(t)}</title>", f'<meta name="description" content="{e(d)}">', f'<link rel="canonical" href="{u}">',
          f'<meta property="og:type" content="website"><meta property="og:site_name" content="VI Countdown"><meta property="og:locale" content="{LOCALE[l]}">',
          f'<meta property="og:title" content="{e(t)}"><meta property="og:description" content="{e(d)}"><meta property="og:url" content="{u}">',
-         f'<meta property="og:image" content="{og_img(l, page)}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">',
+         '<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">' + f'<meta property="og:image" content="{og_img(l, page)}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">',
          '<meta name="twitter:card" content="summary_large_image">',
          '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>',
          f'<link rel="stylesheet" href="{FONTS}">',
