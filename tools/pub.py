@@ -457,6 +457,53 @@ def art_url(a, l): return f"{BASE}{'' if l == 'fr' else l + '/'}journal/{a['id']
 def d_fmt(a, l):
     try: return fmt_local(datetime.datetime.fromisoformat(a["date"]), l)
     except Exception: return a.get("date", "")[:10]
+
+# ---- rétention des pages articles (11/10/2026) : compte à rebours, à lire aussi, articles liés, à suivre, découvrir
+RET_TXT = {
+ "fr": ("À lire aussi", "Sur le même sujet", "Article suivant", "À découvrir sur le site", "GTA 6 sort dans {n} jours", "Quiz GTA 6", "Vice Bay Radio", "Le Mur des fans", "Prix par pays"),
+ "en": ("Read also", "On the same topic", "Next article", "More on the site", "GTA 6 releases in {n} days", "GTA 6 quiz", "Vice Bay Radio", "Fan wall", "Prices by country"),
+ "es": ("Lee también", "Sobre el mismo tema", "Siguiente artículo", "Más en el sitio", "GTA 6 sale en {n} días", "Quiz GTA 6", "Vice Bay Radio", "Muro de fans", "Precios por país"),
+ "pt": ("Leia também", "Sobre o mesmo tema", "Próximo artigo", "Mais no site", "GTA 6 sai em {n} dias", "Quiz GTA 6", "Vice Bay Radio", "Mural dos fãs", "Preços por país"),
+ "de": ("Auch lesen", "Zum selben Thema", "Nächster Artikel", "Mehr auf der Seite", "GTA 6 erscheint in {n} Tagen", "GTA 6 Quiz", "Vice Bay Radio", "Fan-Wand", "Preise nach Land"),
+ "it": ("Leggi anche", "Sullo stesso tema", "Articolo successivo", "Altro sul sito", "GTA 6 esce tra {n} giorni", "Quiz GTA 6", "Vice Bay Radio", "Bacheca dei fan", "Prezzi per paese"),
+ "ja": ("あわせて読みたい", "同じテーマの記事", "次の記事", "サイトの他のコンテンツ", "GTA 6 発売まであと{n}日", "GTA 6 クイズ", "Vice Bay Radio", "ファンの掲示板", "国別価格"),
+ "zh": ("延伸阅读", "相关文章", "下一篇", "网站更多内容", "GTA 6 还有 {n} 天发售", "GTA 6 测验", "Vice Bay Radio", "粉丝留言墙", "各国价格"),
+ "tw": ("延伸閱讀", "相關文章", "下一篇", "網站更多內容", "GTA 6 還有 {n} 天發售", "GTA 6 測驗", "Vice Bay Radio", "粉絲留言牆", "各國價格"),
+ "ar": ("اقرأ أيضًا", "في الموضوع نفسه", "المقال التالي", "المزيد على الموقع", "يصدر GTA 6 بعد {n} يومًا", "اختبار GTA 6", "Vice Bay Radio", "جدار المعجبين", "الأسعار حسب البلد"),
+ "hi": ("यह भी पढ़ें", "इसी विषय पर", "अगला लेख", "साइट पर और", "GTA 6 {n} दिनों में आ रहा है", "GTA 6 क्विज़", "Vice Bay Radio", "फैन वॉल", "देश के अनुसार कीमतें"),
+ "ru": ("Читайте также", "По теме", "Следующая статья", "Ещё на сайте", "GTA 6 выйдет через {n} дн.", "Викторина GTA 6", "Vice Bay Radio", "Стена фанатов", "Цены по странам"),
+ "ko": ("함께 읽기", "같은 주제", "다음 기사", "사이트 더 보기", "GTA 6 출시까지 {n}일", "GTA 6 퀴즈", "Vice Bay Radio", "팬 게시판", "국가별 가격"),
+ "tr": ("Bunu da okuyun", "Aynı konuda", "Sonraki makale", "Sitede daha fazlası", "GTA 6 {n} gün sonra çıkıyor", "GTA 6 testi", "Vice Bay Radio", "Hayran duvarı", "Ülkelere göre fiyatlar"),
+ "id": ("Baca juga", "Topik yang sama", "Artikel berikutnya", "Lainnya di situs", "GTA 6 rilis dalam {n} hari", "Kuis GTA 6", "Vice Bay Radio", "Dinding penggemar", "Harga per negara"),
+ "pl": ("Przeczytaj też", "Na ten sam temat", "Następny artykuł", "Więcej na stronie", "GTA 6 wychodzi za {n} dni", "Quiz GTA 6", "Vice Bay Radio", "Ściana fanów", "Ceny według kraju"),
+ "vi": ("Đọc thêm", "Cùng chủ đề", "Bài tiếp theo", "Thêm trên trang", "GTA 6 ra mắt sau {n} ngày", "Đố vui GTA 6", "Vice Bay Radio", "Tường người hâm mộ", "Giá theo quốc gia"),
+}
+def ret_txt(l): return RET_TXT.get(l) or RET_TXT.get("id" if l in ("idn",) else "en")
+def ret_lies(a, n=4):
+    tg = {x.lower() for x in a.get("tags", [])}
+    autres = [b for b in ARTS if b["id"] != a["id"]]
+    sc = sorted(autres, key=lambda b: (-len(tg & {x.lower() for x in b.get("tags", [])}), bool(b.get("retro")), -ARTS.index(b) * 0), reverse=False)
+    return sc[:n]
+def ret_suivant(a):
+    i = ARTS.index(a)
+    return ARTS[i + 1] if i + 1 < len(ARTS) else (ARTS[0] if ARTS[0]["id"] != a["id"] else None)
+def ret_carte(b, l):
+    y = b[art_lang(b, l)]
+    return f'<a class="jr-carte" href="journal/{b["id"]}.html" data-goatcounter-click="art-lie"><img src="{e(b.get("img") or BASE + "assets/jn.jpg")}" alt="" loading="lazy" width="640" height="360"><span class="k">{e(d_fmt(b, l))}</span><b>{e(y["t"])}</b></a>'
+def ret_blocs(a, l):
+    R = ret_txt(l); lies = ret_lies(a); su = ret_suivant(a)
+    jours = max(0, (datetime.date(2026, 11, 19) - datetime.date.today()).days)
+    cd = f'<a class="jr-cd" href="sortie.html" data-goatcounter-click="art-cd"><b>J-{jours}</b> {e(R[4].format(n=jours))} <span>→</span></a>' if jours else ""
+    aussi = ""
+    if lies:
+        b = lies[0]; aussi = f'<p class="jr-aussi"><b>{e(R[0])}</b> <a href="journal/{b["id"]}.html" data-goatcounter-click="art-aussi">{e(b[art_lang(b, l)]["t"])}</a></p>'
+    fin = ""
+    if su: fin += f'<a class="jr-suivant" href="journal/{su["id"]}.html" data-goatcounter-click="art-suivant"><span class="k">{e(R[2])}</span><b>{e(su[art_lang(su, l)]["t"])}</b></a>'
+    if lies: fin += f'<h2 class="jr-lies-t">{e(R[1])}</h2><div class="jr-lies">' + "".join(ret_carte(b, l) for b in lies) + "</div>"
+    fin += (f'<h2 class="jr-lies-t">{e(R[3])}</h2><div class="jr-decouvrir">'
+            f'<a href="quiz.html" data-goatcounter-click="art-quiz">{e(R[5])}</a><a href="radio.html" data-goatcounter-click="art-radio">{e(R[6])}</a>'
+            f'<a href="communaute.html" data-goatcounter-click="art-mur">{e(R[7])}</a><a href="prix.html" data-goatcounter-click="art-prix">{e(R[8])}</a></div>')
+    return cd, aussi, fin
 for l in T:
     cartes = []
     for a in ARTS:
@@ -476,6 +523,9 @@ for l in T:
         parts = h.split("</p>")
         if len(parts) > 3: h = "</p>".join(parts[:2]) + '</p><div class="pub jr" data-pub="jr-milieu"></div>' + "</p>".join(parts[2:])
         h += '<div class="pub jr" data-pub="jr-fin"></div>'
+        _cd, _aussi, _fin = ret_blocs(a, l)
+        _pp = h.split("</p>")
+        if len(_pp) > 5 and _aussi: h = "</p>".join(_pp[:4]) + "</p>" + _aussi + "</p>".join(_pp[4:])
         try: _age = (datetime.datetime.now(datetime.timezone.utc) - datetime.datetime.fromisoformat(a["date"]).astimezone(datetime.timezone.utc)).total_seconds() / 3600
         except Exception: _age = 9e9
         kick = ('<span class="direct"><i></i>' + e(tr(l, "direct")) + '</span>') if (_age < 48 and not a.get("retro")) else ('<span class="jr-kick">' + e(tr(l, "jr_journal")) + '</span>')
@@ -483,10 +533,10 @@ for l in T:
   <header class="tete-page image jr-tete"><img src="{e(img)}" alt="" loading="eager"><div class="wrap"><span class="kicker">{kick} · {e(d_fmt(a, l))}</span><h1>{e(x["t"])}</h1>{'<span class="jr-retro">' + e(tr(l, "jr_retro")) + '</span>' if a.get("retro") else ''}<p class="serif">{e(x["d"])}</p>
     <p class="jr-sources haut jr-credit">{e(credit_img(img, l))}</p>
     <p class="jr-sources haut"><b>{e(tr(l, "jr_src"))}</b> {srcs}</p></div></header>
-  <section class="papier"><div class="wrap jr-corps"><div class="pub jr" data-pub="jr-haut"></div>{h}
+  <section class="papier"><div class="wrap jr-corps">{_cd}<div class="pub jr" data-pub="jr-haut"></div>{h}
     <p class="jr-sources"><b>{e(tr(l, "jr_src"))}</b> {srcs}</p>
     <p class="note jr-signature">{e(tr(l, "jr_auteur").replace("Solange Rocheval", a.get("auteur") or "Solange Rocheval"))}</p><div class="partage"></div>
-    <div class="boutons"><a class="btn" href="actus.html">{e(tr(l, "jr_suite"))}</a><a class="btn clair" href="https://www.instagram.com/vicebayradio/" target="_blank" rel="noopener">{e(tr(l, "ig_cta"))}</a></div></div></section>
+    <div class="boutons"><a class="btn" href="actus.html">{e(tr(l, "jr_suite"))}</a><a class="btn clair" href="https://www.instagram.com/vicebayradio/" target="_blank" rel="noopener">{e(tr(l, "ig_cta"))}</a></div>{_fin}</div></section>
 """
         ld = [{"@context": "https://schema.org", "@type": "NewsArticle", "headline": x["t"], "description": x["d"], "inLanguage": l, "datePublished": a["date"], "dateModified": a.get("maj", a["date"]), "image": [a.get("img") or BASE + "assets/jn.jpg"], "mainEntityOfPage": art_url(a, l),
                "author": {"@type": "Person", "name": "Solange Rocheval", "url": BASE + "apropos.html"}, "publisher": {"@type": "Organization", "name": "VI Countdown", "logo": {"@type": "ImageObject", "url": BASE + "assets/icon-192.png"}}}]
