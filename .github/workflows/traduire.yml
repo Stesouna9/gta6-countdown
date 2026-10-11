@@ -15,14 +15,16 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
-      - run: pip install -q deep-translator requests
+      - run: pip install -q deep-translator requests pillow
       - if: ${{ inputs.test }}
         run: python tools/traduire.py --test
       - if: ${{ !inputs.test }}
         run: python tools/traduire.py 4 | tee /tmp/trad.log
       - if: ${{ !inputs.test }}
+        run: python tools/img_auto.py | tee /tmp/img.log   # photo trouvée par mot-clé (champ kw) pour les nouveaux articles
+      - if: ${{ !inputs.test }}
         run: |
-          grep -q "^traduit" /tmp/trad.log || exit 0
+          grep -q "^traduit" /tmp/trad.log || grep -q "^[1-9][0-9]* image" /tmp/img.log || exit 0
           python tools/prerender.py && python tools/pub.py
           git config user.name "gta6-bot"
           git config user.email "bot@users.noreply.github.com"
