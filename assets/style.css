@@ -964,3 +964,10 @@ body.mu-lecteur-on .suivre{bottom:118px}
 .jr-decouvrir a{padding:10px 14px;border:2px solid #000;box-shadow:3px 3px 0 #000;text-decoration:none;color:inherit;font:600 15px var(--sans);background:#fff}
 @media(max-width:700px){.jr-lies{grid-template-columns:1fr 1fr;gap:12px}.jr-cd{font-size:13px}}
 .jr-recent{list-style:none;margin:0;padding:0;display:grid;gap:0}.jr-recent li{border-bottom:1px solid rgba(22,17,29,.15)}.jr-recent a{display:block;padding:12px 0;text-decoration:none;color:inherit;font:600 16px/1.35 var(--sans)}.jr-recent a:hover{color:var(--hot,#ff2d7a)}.jr-recent .k{display:block;font:400 11px var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--hot,#ff2d7a)}.jr-tout{margin:14px 0 0;font-weight:600}
+.mu-st.img{color:#fff;background:#0c0d1b var(--bg) center/cover no-repeat}
+.mu-st.img::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(12,13,27,.15) 0%,rgba(12,13,27,.35) 40%,rgba(12,13,27,.92) 100%);pointer-events:none}
+.mu-st.img>*{position:relative;z-index:1}
+.mu-st.img .freq{position:absolute}
+.mu-st.img .logo{display:block;width:auto;max-width:72%;max-height:150px;object-fit:contain;margin:0 0 10px;filter:drop-shadow(0 6px 18px rgba(0,0,0,.55))}
+.mu-st.img h3{font-size:clamp(22px,2.2vw,30px)}
+.mu-st.img small{opacity:.9}

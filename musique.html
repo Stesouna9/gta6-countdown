@@ -100,7 +100,7 @@
     fetch("data/radios.json").then(function (r) { return r.json(); }).then(function (d) {
       var L = (window.LANG || "fr") === "fr" ? "fr" : "en";
       document.getElementById("mu-stations").innerHTML = (d.leonida || []).map(function (x, i) {
-        return '<a class="mu-st rv" style="--c:' + TEINTES[i % 6] + ';--i:' + i + '" href="https://www.rockstargames.com/VI/music" target="_blank" rel="noopener"><span class="freq">0' + (i + 1) + ' · FM</span><h3>' + esc(x.t) + '</h3><small>' + esc(x.g) + '</small><p>' + esc(x[L]) + '</p><span class="ecouter">' + esc(T("mu_st_cta")) + '</span></a>';
+        return '<a class="mu-st rv' + (x.img ? ' img' : '') + '" style="--c:' + TEINTES[i % 6] + ';--i:' + i + (x.img ? ';--bg:url(/assets/radios/' + x.img + '-fond.jpg)' : '') + '" href="https://www.rockstargames.com/VI/music" target="_blank" rel="noopener"><span class="freq">0' + (i + 1) + ' · FM</span>' + (x.img ? '<img class="logo" src="/assets/radios/' + x.img + '-logo.png" alt="' + esc(x.t) + '" loading="lazy" width="280">' : '') + '<h3>' + esc(x.t) + '</h3><small>' + esc(x.g) + '</small><p>' + esc(x[L]) + '</p><span class="ecouter">' + esc(T("mu_st_cta")) + '</span></a>';
       }).join("");
       document.querySelectorAll(".mu-st").forEach(function (e) { setTimeout(function () { e.classList.add("vu"); }, 80 * (+e.style.getPropertyValue("--i"))); });
       liste(document.getElementById("mu-singles"), d.album || []);
