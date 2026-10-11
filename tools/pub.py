@@ -6,7 +6,7 @@
    aujourdhui.html, en/today.html   article quotidien J-n (NewsArticle)
    sitemap.xml (ajout), sitemap-images.xml, robots.txt (ajout), feed.xml (hub WebSub + article du jour)
 Les pages réutilisent l'habillage rendu (nav, pied) via <base href>."""
-import datetime, html, json, os, re, zoneinfo
+import datetime, glob, html, json, os, re, zoneinfo
 import sys; sys.path.insert(0, __import__('os').path.dirname(__file__)); from version import ver
 
 BASE = "https://gtavifrance.com/"
@@ -602,3 +602,31 @@ try:
     json.dump({"maj": datetime.datetime.now(datetime.timezone.utc).isoformat(), "art": _fl}, open("data/flash.json", "w", encoding="utf-8"), ensure_ascii=False)
 except Exception as _ex: print("flash:", _ex)
 print(f"pub: {len(URLS)} pages (J-{J})")
+
+# ------------------------------------------------------------------ données structurées propres (Search Console 11/10/2026)
+# On ne vend pas le jeu : pas de Product/Offer (fiches marchand en erreur), un VideoGame sans offre.
+# uploadDate des vidéos : date ISO complète avec fuseau horaire.
+def _ld_fix(o):
+    if isinstance(o, list): return [_ld_fix(x) for x in o]
+    if not isinstance(o, dict): return o
+    o = {k: _ld_fix(v) for k, v in o.items()}
+    if o.get("@type") == "Product":
+        b = o.pop("brand", None); o.pop("offers", None); o.pop("sku", None)
+        o["@type"] = "VideoGame"; o.setdefault("gamePlatform", ["PlayStation 5", "Xbox Series X|S"])
+        if isinstance(b, dict): o.setdefault("publisher", {"@type": "Organization", "name": b.get("name", "Rockstar Games")})
+    u = o.get("uploadDate")
+    if isinstance(u, str) and re.fullmatch(r"\d{4}-\d{2}-\d{2}", u): o["uploadDate"] = u + "T12:00:00+00:00"
+    return o
+def _ld_pass():
+    n = 0
+    for h in glob.glob("*.html") + glob.glob("*/*.html") + glob.glob("*/*/*.html"):
+        s = open(h, encoding="utf-8").read()
+        if "application/ld+json" not in s or ('"Product"' not in s and '"uploadDate"' not in s): continue
+        def rep(m):
+            try: return m.group(1) + json.dumps(_ld_fix(json.loads(m.group(2))), ensure_ascii=False) + m.group(3)
+            except Exception: return m.group(0)
+        t = re.sub(r'(<script type="application/ld\+json">)(.*?)(</script>)', rep, s, flags=re.S)
+        if t != s: open(h, "w", encoding="utf-8").write(t); n += 1
+    print(f"ld: {n} pages corrigées")
+try: _ld_pass()
+except Exception as _ex: print("ld:", _ex)
