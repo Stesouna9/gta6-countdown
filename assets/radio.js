@@ -29,15 +29,17 @@
     $("r-lcd").textContent = cur.f.toFixed(1) + "  " + cur.name;
     var lg = $("r-logo"); lg.src = (window.ROOT || "") + "assets/img/stations/" + cur.id + ".webp"; lg.alt = cur.name; lg.onerror = function () { lg.style.display = "none"; }; lg.style.display = "";
     var p = liste(cur)[idx % (liste(cur).length || 1)];
-    $("r-piste").textContent = p ? (p.type === "link" ? (cur.host ? cur.host + " · " : "") + "VICE BAY DJ" : (p.title + (p.artist ? " · " + p.artist : ""))).toUpperCase() : cur.genre;
+    $("r-piste").textContent = (joue ? "EN DIRECT · " : "") + cur.genre;
     $("r-live").classList.toggle("off", !joue);
     $("r-play").textContent = joue ? "❚❚" : "▶";
     document.querySelectorAll("#r-presets button").forEach(function (b) { b.classList.toggle("on", b.dataset.id === cur.id); });
     document.querySelectorAll("#r-st .st").forEach(function (s) { s.classList.toggle("on", s.dataset.id === cur.id); });
   }
+  // La vraie radio : le flux en direct du serveur (musique + jingle + voix des animateurs).
+  var FLUX = "https://live.2-29-41-109.sslip.io/";
   function lance() {
-    var l = liste(cur); if (!l.length) return;
-    audio.src = new URL(l[idx % l.length].src, "https://vicebayradio.com/").href;
+    if (!cur) return;
+    audio.src = FLUX + cur.id + "?t=" + Date.now();
     audio.play().then(function () { joue = true; affiche(); }).catch(function () { joue = false; affiche(); });
   }
   function choisit(st, jouer) {
@@ -47,12 +49,13 @@
   }
   function decale(d) { var i = stations.indexOf(cur); choisit(stations[(i + d + stations.length) % stations.length], true); }
 
-  audio.addEventListener("ended", function () { idx++; lance(); });
-  audio.addEventListener("error", function () { idx++; if (idx < 40) lance(); });
+  var essais = 0;
+  audio.addEventListener("ended", function () { if (joue) lance(); });
+  audio.addEventListener("error", function () { if (joue && essais++ < 5) setTimeout(lance, 1500); });
+  audio.addEventListener("playing", function () { essais = 0; });
   $("r-play").onclick = function () {
     if (!cur) return;
     if (joue) { audio.pause(); joue = false; affiche(); }
-    else if (audio.src) audio.play().then(function () { joue = true; affiche(); });
     else lance();
   };
   $("r-prev").onclick = function () { decale(-1); };
