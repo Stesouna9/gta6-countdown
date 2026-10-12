@@ -1,3 +1,4 @@
+from pathlib import Path
 #!/usr/bin/env python3
 """Pages d'acquisition automatiques (à lancer APRÈS prerender.py) :
    sortie/<pays>.html   heure de sortie par pays, dans la langue du pays
@@ -507,6 +508,14 @@ def ret_blocs(a, l):
             f'<a href="quiz.html" data-goatcounter-click="art-quiz">{e(R[5])}</a><a href="radio.html" data-goatcounter-click="art-radio">{e(R[6])}</a>'
             f'<a href="communaute.html" data-goatcounter-click="art-mur">{e(R[7])}</a><a href="prix.html" data-goatcounter-click="art-prix">{e(R[8])}</a></div>')
     return cd, aussi, fin
+# image d'article pas encore téléchargée (article publié entre deux passages de img_auto) : jamais d'image cassée
+for a in ARTS:
+    i = a.get("img") or ""
+    if i.startswith(BASE + "assets/img/articles/") and not (Path(__file__).resolve().parent.parent / i[len(BASE):]).exists():
+        a["img"] = None
+        for v in a.values():
+            if isinstance(v, dict) and "h" in v:
+                v["h"] = re.sub(r'<figure\b[^>]*>\s*<img[^>]*src="' + re.escape(i) + r'".*?</figure>', "", v["h"], flags=re.S)
 for l in T:
     cartes = []
     for a in ARTS:

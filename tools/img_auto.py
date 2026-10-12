@@ -46,6 +46,7 @@ def auto():
             continue
         kw = a.get("kw") or (a.get("tags") or [""])[0]
         if not kw: continue
+        if "gta" not in kw.lower(): kw += " GTA 6"  # sinon « Ultimate Edition » ramène Rainbow Six
         r = subprocess.run([sys.executable, str(RACINE / "tools/img_article.py"), a["id"], kw], capture_output=True, text=True)
         if r.returncode: print("échec", a["id"], r.stderr.strip()[-200:]); continue
         appliquer(a, json.loads(r.stdout.strip().splitlines()[-1])["site"]); n += 1
