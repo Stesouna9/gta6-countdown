@@ -993,3 +993,10 @@ body.mu-lecteur-on .suivre{bottom:118px}
 .nav a[href$="actus.html"]:not(.logo):hover{color:#fff;filter:brightness(1.1)}
 .nav a[href$="actus.html"] .actu-n{margin-left:6px;background:#fff;color:var(--hot);border-radius:999px;padding:1px 6px;font-size:.62rem}
 @keyframes actu-pouls{0%,100%{opacity:1}50%{opacity:.25}}
+/* Mobile : la pastille Actus reste visible dans la barre (à la place d'Instagram) (13/10/2026) */
+@media (max-width:900px){
+.nav a[href$="actus.html"]:not(.logo){display:inline-flex;align-items:center;padding:6px 10px 6px 22px;font-size:.66rem;letter-spacing:.1em;flex:none}
+.nav a[href$="actus.html"]:not(.logo)::before{left:9px}
+.nav .droite .ig{display:none}
+}
+@media (max-width:420px){.nav .logo span,.nav .logo b+span{display:none}}
