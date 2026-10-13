@@ -1035,3 +1035,14 @@ body.mu-lecteur-on .suivre{bottom:118px}
  .flap-jours .flap{--fw:clamp(70px,24vw,110px)}
 }
 @media (prefers-reduced-motion:reduce){.flap.tourne .ffh,.flap.tourne .ffb{animation:none}.flap-vol i{animation:none;padding-left:0}}
+/* Mobile : le décompte tient dans le premier écran, la barre « Dernière actu » attend qu'on l'ait dépassé (13/10/2026) */
+@media (max-width:700px){
+ .hero-img{height:44vw;min-height:170px}
+ .hero-txt{padding-top:12px;gap:16px}
+ .flap-board{padding:10px;--fw:clamp(30px,9vw,44px)}
+ .flap-haut{margin-bottom:8px}
+ .flap-jours .flap{--fw:clamp(58px,19vw,86px)}
+ .flap-rangs{row-gap:10px}
+ body.flap-attente #suivre{transform:translateY(160%);opacity:0;pointer-events:none}
+ #suivre{transition:transform .4s ease,opacity .4s ease}
+}

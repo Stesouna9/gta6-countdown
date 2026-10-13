@@ -70,6 +70,10 @@
     });
     if (!fini) setTimeout(brasse, 110); else melange = false;
   })();
+  // mobile : la barre « Dernière actu » ne cache pas le décompte tant qu'on ne l'a pas dépassé
+  document.body.classList.add("flap-attente");
+  function vu() { if (b.getBoundingClientRect().bottom < 0 || scrollY > 400) { document.body.classList.remove("flap-attente"); removeEventListener("scroll", vu); } }
+  addEventListener("scroll", vu, { passive: true });
   new MutationObserver(function () { if (!melange) ids.forEach(function (id) { affiche(id, src[id].textContent, true); }); })
     .observe(c, { subtree: true, childList: true, characterData: true });
 })();
