@@ -273,6 +273,16 @@ window.SITE = {
   // Application installable et mode hors ligne
   if ("serviceWorker" in navigator && location.protocol === "https:") navigator.serviceWorker.register((window.ROOT || "") + "sw.js").catch(function () {});
 
+  // Pub maison OKALAM : remplace un emplacement AdSense resté vide (jamais à la place d'une vraie pub).
+  function maison(p) {
+    var R = window.ROOT || "";
+    p.classList.remove("vide"); p.classList.add("maison");
+    p.innerHTML = '<div class="maison-carte"><img src="' + R + 'assets/img/kotoba.jpg" alt="" width="64" height="64" loading="lazy">' +
+      '<div class="maison-txt"><b>Kotoba</b><span>Un mot par jour, six essais. En français ou en japonais. Gratuit.</span></div>' +
+      '<div class="maison-liens"><a href="https://apps.apple.com/fr/app/kotoba-mot-du-jour/id6761341663" target="_blank" rel="noopener">iPhone</a>' +
+      '<a href="https://play.google.com/store/apps/details?id=com.okalam.kotoba" target="_blank" rel="noopener">Android</a></div></div>';
+  }
+
   // Publicité Google AdSense (annonces automatiques). Active seulement sur un domaine approuvé.
   if (SITE.adsensePub && !/localhost/.test(location.hostname)) {
     if (!document.querySelector('script[src*="adsbygoogle.js"]')) {
@@ -288,7 +298,7 @@ window.SITE = {
       p.classList.remove("vide");
       p.innerHTML = '<ins class="adsbygoogle" style="display:block' + (fluid ? ';text-align:center' : '') + '" data-ad-client="' + SITE.adsensePub + '" data-ad-slot="' + slot + '"' + (fluid ? ' data-ad-layout="in-article" data-ad-format="fluid"' : ' data-ad-format="auto" data-full-width-responsive="true"') + '></ins>';
       (window.adsbygoogle = window.adsbygoogle || []).push({});
-      setTimeout(function () { var i = p.querySelector("ins"); if (!i || !i.querySelector("iframe") || i.getAttribute("data-ad-status") === "unfilled") p.classList.add("vide"); }, 6000);
+      setTimeout(function () { var i = p.querySelector("ins"); if (!i || !i.querySelector("iframe") || i.getAttribute("data-ad-status") === "unfilled") maison(p); }, 6000);
     });
   } else {
     document.querySelectorAll(".pub").forEach(function (p) { p.remove(); });
