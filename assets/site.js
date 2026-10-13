@@ -283,22 +283,34 @@ window.SITE = {
   // Application installable et mode hors ligne
   if ("serviceWorker" in navigator && location.protocol === "https:") navigator.serviceWorker.register((window.ROOT || "") + "sw.js").catch(function () {});
 
-  // Pub maison OKALAM : remplace un emplacement AdSense resté vide (jamais à la place d'une vraie pub).
-  // Bandeaux animés Kotoba (assets/img/pub/, générés par ~/PUBLICITE/APP-KOTOBA/bandeaux/gen.py) ; jamais avant le 1er paragraphe.
+  // Pub maison OKALAM : remplace un emplacement AdSense resté vide (jamais à la place d'une vraie pub). Gérée par la session PUBLICITE.
+  // Bandeaux animés (assets/img/pub/, générés par ~/PUBLICITE/<marque>/bandeaux/gen.py) au milieu et en bas ; carte en fin d'article ; rien avant le 1er paragraphe.
   var KOTOBA_IOS = "https://apps.apple.com/fr/app/kotoba-mot-du-jour/id6761341663", KOTOBA_AND = "https://play.google.com/store/apps/details?id=com.okalam.kotoba";
-  var CONCEPTS = ["attente", "course", "partie", "duo"].sort(function () { return Math.random() - .5; }), nMaison = 0;
-  var MAISON = [
-    { img: "kotoba.jpg", nom: "Kotoba", txt: "Un mot par jour, six essais. En français ou en japonais. Gratuit.",
-      l: [["iPhone", "https://apps.apple.com/fr/app/kotoba-mot-du-jour/id6761341663"], ["Android", "https://play.google.com/store/apps/details?id=com.okalam.kotoba"]] },
-    { img: "vicebreak.jpg", nom: "VICE BREAK", txt: "Casse-briques néon de 1986. Sortie le 19 novembre, gratuit.",
-      l: [["Précommander sur iPhone", "https://apps.apple.com/fr/app/vice-break-vice-bay-86/id6815670909"]] }
-  ], nMaison = Math.floor(Math.random() * MAISON.length);
+  var KOTOBA = function () { return /android/i.test(navigator.userAgent) ? KOTOBA_AND : KOTOBA_IOS; }, KOTOBA_ALT = "Kotoba, le mot du jour : jouer gratuitement sur iPhone et Android";
+  var TB = "https://teslaburger.fr/?utm_source=gtavifrance&utm_medium=banniere", TB_ALT = "Tesla Burger : codes promo des produits tech testés en vidéo";
+  var BANDEAUX = [["kotoba_attente", KOTOBA, KOTOBA_ALT], ["kotoba_course", KOTOBA, KOTOBA_ALT], ["kotoba_partie", KOTOBA, KOTOBA_ALT], ["kotoba_duo", KOTOBA, KOTOBA_ALT],
+    ["teslaburger_drop", TB, TB_ALT], ["teslaburger_labo", TB, TB_ALT], ["teslaburger_code", TB, TB_ALT]].sort(function () { return Math.random() - .5; });
+  var CARTES = [
+    { img: "kotoba.jpg", nom: "Kotoba", txt: "Un mot par jour, six essais. En français ou en japonais. Gratuit.", l: [["iPhone", KOTOBA_IOS], ["Android", KOTOBA_AND]] },
+    { img: "vicebreak.jpg", nom: "VICE BREAK", txt: "Casse-briques néon de 1986. Sortie le 19 novembre, gratuit.", l: [["Précommander sur iPhone", "https://apps.apple.com/fr/app/vice-break-vice-bay-86/id6815670909"]] }
+  ], nBandeau = 0, nCarte = Math.floor(Math.random() * CARTES.length);
   function maison(p) {
-    var R = window.ROOT || "", m = MAISON[nMaison++ % MAISON.length];
+    var R = window.ROOT || "", k = p.getAttribute("data-pub") || "page";
+    if (k === "jr-haut") { p.remove(); return; }
     p.classList.remove("vide"); p.classList.add("maison");
-    p.innerHTML = '<div class="maison-carte"><img src="' + R + 'assets/img/' + m.img + '" alt="" width="64" height="64" loading="lazy">' +
-      '<div class="maison-txt"><b>' + m.nom + '</b><span>' + m.txt + '</span></div><div class="maison-liens">' +
-      m.l.map(function (x) { return '<a href="' + x[1] + '" target="_blank" rel="noopener">' + x[0] + '</a>'; }).join("") + '</div></div>';
+    if (k === "jr-fin") {
+      var m = CARTES[nCarte++ % CARTES.length];
+      p.innerHTML = '<div class="maison-carte"><img src="' + R + 'assets/img/' + m.img + '" alt="" width="64" height="64" loading="lazy">' +
+        '<div class="maison-txt"><b>' + m.nom + '</b><span>' + m.txt + '</span></div><div class="maison-liens">' +
+        m.l.map(function (x) { return '<a href="' + x[1] + '" target="_blank" rel="noopener sponsored">' + x[0] + '</a>'; }).join("") + '</div></div>';
+      return;
+    }
+    var b = BANDEAUX[nBandeau++ % BANDEAUX.length], lien = typeof b[1] === "function" ? b[1]() : b[1];
+    var grand = k === "page" ? "970x250" : "1280x320", d = R + "assets/img/pub/" + b[0] + "_";
+    var dims = grand === "970x250" ? 'width="1940" height="500"' : 'width="1280" height="320"';
+    p.innerHTML = '<a class="maison-bandeau' + (k === "page" ? " grand" : "") + '" href="' + lien + '" target="_blank" rel="noopener sponsored">' +
+      '<picture><source media="(max-width:600px)" srcset="' + d + '320x100.webp" width="640" height="200">' +
+      '<img src="' + d + grand + '.webp" ' + dims + ' alt="' + b[2] + '" loading="lazy" decoding="async"></picture><span class="maison-cta" aria-hidden="true"></span></a>';
   }
 
   // Publicité Google AdSense (annonces automatiques). Active seulement sur un domaine approuvé.
