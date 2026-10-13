@@ -22,9 +22,9 @@ jobs:
       - if: ${{ inputs.test }}
         run: python tools/traduire.py --test
       - if: ${{ !inputs.test }}
-        run: python tools/traduire.py 4 | tee /tmp/trad.log
+        run: python tools/img_auto.py | tee /tmp/img.log   # AVANT la traduction (longue) : jamais d'article sans photo ; photo trouvée par mot-clé (champ kw) pour les nouveaux articles
       - if: ${{ !inputs.test }}
-        run: python tools/img_auto.py | tee /tmp/img.log   # photo trouvée par mot-clé (champ kw) pour les nouveaux articles
+        run: python tools/traduire.py 4 | tee /tmp/trad.log
       - if: ${{ !inputs.test }}
         run: |
           grep -q "^traduit" /tmp/trad.log || grep -q "^[1-9][0-9]* image" /tmp/img.log || exit 0
