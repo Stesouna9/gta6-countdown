@@ -928,7 +928,7 @@ body.mu-lecteur-on .suivre{bottom:118px}
 .pub ins[data-ad-status="unfilled"]{display:none!important}
 .pub.vide{display:none}
 .pub.maison::before{content:"Publicité · nos jeux"}
-.maison-carte{display:flex;align-items:center;gap:16px;max-width:640px;margin:0 auto;padding:14px 18px;border:1px solid rgba(242,232,213,.18);border-radius:14px;background:var(--ink2);text-align:left}
+.maison-carte{display:flex;align-items:center;gap:16px;max-width:640px;margin:0 auto;padding:14px 18px;border:1px solid rgba(242,232,213,.18);border-radius:14px;background:var(--ink2);color:var(--paper);text-align:left}
 .maison-carte img{width:64px;height:64px;border-radius:14px;flex:none}
 .maison-txt{flex:1;min-width:0}.maison-txt b{display:block;font-size:1.05rem}.maison-txt span{font-size:.85rem;opacity:.75}
 .maison-liens{display:flex;gap:8px;flex-wrap:wrap}.maison-liens a{font-family:var(--mono);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;padding:8px 12px;border-radius:999px;background:var(--paper);color:var(--ink);text-decoration:none}

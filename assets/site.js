@@ -289,8 +289,8 @@ window.SITE = {
     p.classList.remove("vide"); p.classList.add("maison");
     p.innerHTML = '<div class="maison-carte"><img src="' + R + 'assets/img/kotoba.jpg" alt="" width="64" height="64" loading="lazy">' +
       '<div class="maison-txt"><b>Kotoba</b><span>Un mot par jour, six essais. En français ou en japonais. Gratuit.</span></div>' +
-      '<div class="maison-liens"><a href="https://apps.apple.com/fr/app/kotoba-mot-du-jour/id6761341663" target="_blank" rel="noopener">iPhone</a>' +
-      '<a href="https://play.google.com/store/apps/details?id=com.okalam.kotoba" target="_blank" rel="noopener">Android</a></div></div>';
+      '<div class="maison-liens"><a href="https://apps.apple.com/fr/app/kotoba-mot-du-jour/id6761341663" target="_blank" rel="noopener sponsored">iPhone</a>' +
+      '<a href="https://play.google.com/store/apps/details?id=com.okalam.kotoba" target="_blank" rel="noopener sponsored">Android</a></div></div>';
   }
 
   // Publicité Google AdSense (annonces automatiques). Active seulement sur un domaine approuvé.
