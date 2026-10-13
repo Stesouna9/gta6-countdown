@@ -1046,3 +1046,6 @@ body.mu-lecteur-on .suivre{bottom:118px}
  body.flap-attente #suivre{transform:translateY(160%);opacity:0;pointer-events:none}
  #suivre{transition:transform .4s ease,opacity .4s ease}
 }
+/* iPhone : la barre du haut couvre aussi la zone de l'heure (plus de texte qui passe au-dessus) (13/10/2026) */
+.nav{padding-top:env(safe-area-inset-top,0px);height:calc(56px + env(safe-area-inset-top,0px))}
+.suivre{margin-bottom:env(safe-area-inset-bottom,0px)}
