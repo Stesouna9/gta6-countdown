@@ -22,6 +22,7 @@ Constat : presque tous les visiteurs extérieurs arrivent par Google sur UN arti
 - Pas de titre trompeur, pas de rumeur présentée comme un fait, pas de bourrage de mots-clés : Google déclasse, AdSense refuse.
 
 ## Images : une photo trouvée par mot-clé, propre à chaque article (11/10/2026)
+Articles Cyberleek (id contenant « cyberleek ») : image = logo Cyberleek + bandeau accroche (tools/img_cyberleek.py, kw = accroche), jamais de capture ni vidéo fuitée.
 Pour chaque article, cherche une image par mot-clé du sujet et télécharge-la dans assets/img/articles/<id>.jpg ; jamais d'image sans rapport avec le sujet.
 - data/images_rockstar.json ne sert plus : aucune image de banque, aucun « Artwork officiel n°X ».
 - Mot-clé : 1 ou 2 mots précis du sujet (« PS5 Pro », « Grand Rex », « Cyberleek », « Strauss Zelnick »). L'image montre le sujet lui-même : la console pour une console, le lieu pour un lieu, la personne pour une personne, la jaquette ou la boîte pour un produit, la capture de la page pour un site ou un message cité.
