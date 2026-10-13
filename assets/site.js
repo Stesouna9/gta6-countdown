@@ -287,22 +287,18 @@ window.SITE = {
   // Bandeaux animés Kotoba (assets/img/pub/, générés par ~/PUBLICITE/APP-KOTOBA/bandeaux/gen.py) ; jamais avant le 1er paragraphe.
   var KOTOBA_IOS = "https://apps.apple.com/fr/app/kotoba-mot-du-jour/id6761341663", KOTOBA_AND = "https://play.google.com/store/apps/details?id=com.okalam.kotoba";
   var CONCEPTS = ["attente", "course", "partie", "duo"].sort(function () { return Math.random() - .5; }), nMaison = 0;
+  var MAISON = [
+    { img: "kotoba.jpg", nom: "Kotoba", txt: "Un mot par jour, six essais. En français ou en japonais. Gratuit.",
+      l: [["iPhone", "https://apps.apple.com/fr/app/kotoba-mot-du-jour/id6761341663"], ["Android", "https://play.google.com/store/apps/details?id=com.okalam.kotoba"]] },
+    { img: "vicebreak.jpg", nom: "VICE BREAK", txt: "Casse-briques néon de 1986. Sortie le 19 novembre, gratuit.",
+      l: [["Précommander sur iPhone", "https://apps.apple.com/fr/app/vice-break-vice-bay-86/id6815670909"]] }
+  ], nMaison = Math.floor(Math.random() * MAISON.length);
   function maison(p) {
-    var R = window.ROOT || "", k = p.getAttribute("data-pub") || "page";
-    if (k === "jr-haut") { p.remove(); return; }
+    var R = window.ROOT || "", m = MAISON[nMaison++ % MAISON.length];
     p.classList.remove("vide"); p.classList.add("maison");
-    if (k === "jr-fin") {
-      p.innerHTML = '<div class="maison-carte"><img src="' + R + 'assets/img/kotoba.jpg" alt="" width="64" height="64" loading="lazy">' +
-        '<div class="maison-txt"><b>Kotoba</b><span>Un mot par jour, six essais. En français ou en japonais. Gratuit.</span></div>' +
-        '<div class="maison-liens"><a href="' + KOTOBA_IOS + '" target="_blank" rel="noopener sponsored">iPhone</a>' +
-        '<a href="' + KOTOBA_AND + '" target="_blank" rel="noopener sponsored">Android</a></div></div>';
-      return;
-    }
-    var c = CONCEPTS[nMaison++ % CONCEPTS.length], grand = k === "page" ? "970x250" : "1280x320", d = R + "assets/img/pub/kotoba_" + c + "_";
-    var dims = grand === "970x250" ? 'width="1940" height="500"' : 'width="1280" height="320"';
-    p.innerHTML = '<a class="maison-bandeau' + (k === "page" ? " grand" : "") + '" href="' + (/android/i.test(navigator.userAgent) ? KOTOBA_AND : KOTOBA_IOS) + '" target="_blank" rel="noopener sponsored">' +
-      '<picture><source media="(max-width:600px)" srcset="' + d + '320x100.webp" width="640" height="200">' +
-      '<img src="' + d + grand + '.webp" ' + dims + ' alt="Kotoba, le mot du jour : jouer gratuitement sur iPhone et Android" loading="lazy" decoding="async"></picture><span class="maison-cta" aria-hidden="true"></span></a>';
+    p.innerHTML = '<div class="maison-carte"><img src="' + R + 'assets/img/' + m.img + '" alt="" width="64" height="64" loading="lazy">' +
+      '<div class="maison-txt"><b>' + m.nom + '</b><span>' + m.txt + '</span></div><div class="maison-liens">' +
+      m.l.map(function (x) { return '<a href="' + x[1] + '" target="_blank" rel="noopener">' + x[0] + '</a>'; }).join("") + '</div></div>';
   }
 
   // Publicité Google AdSense (annonces automatiques). Active seulement sur un domaine approuvé.
