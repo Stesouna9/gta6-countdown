@@ -83,6 +83,7 @@ def main():
     cands = sorted(candidats(q), key=lambda c: -((c[1] >= 1000) * 2 + (1.2 <= c[1] / max(c[2], 1) <= 2.2)))
     for u, w, h, page in cands:
         if w < 700: continue
+        if re.search(r"istockphoto|shutterstock|gettyimages|alamy|dreamstime|123rf|depositphotos|stock\.adobe|freepik|vectorstock|canstockphoto|bigstock", u + page): continue  # filigrane
         try:
             im = Image.open(io.BytesIO(get(u, ref=page or None))); im.load()
         except Exception:
