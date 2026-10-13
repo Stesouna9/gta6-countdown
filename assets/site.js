@@ -223,6 +223,16 @@ window.SITE = {
     }).catch(function () {});
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", aLaUne); else aLaUne();
+  // Menu : Actus en premier, avec le nombre d'articles du jour (13/10/2026)
+  function menuActus() {
+    var a = document.querySelector('.nav a[href$="actus.html"]'), lg = document.querySelector(".nav .logo"); if (!a) return;
+    if (lg && lg.nextElementSibling !== a) lg.insertAdjacentElement("afterend", a);
+    donnees("data/articles.json").then(function (lst) {
+      var j = new Date().toISOString().slice(0, 10), n = lst.filter(function (x) { return (x.date || "").slice(0, 10) === j; }).length;
+      if (n && !a.querySelector(".actu-n")) a.insertAdjacentHTML("beforeend", '<span class="actu-n">' + n + "</span>");
+    }).catch(function () {});
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", menuActus); else menuActus();
   document.addEventListener("langchange", function () { var u = document.querySelector(".une"); if (u) u.remove(); aLaUne(); });
 
 

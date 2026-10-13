@@ -986,3 +986,9 @@ body.mu-lecteur-on .suivre{bottom:118px}
 .une b{font:400 15px/1.15 var(--display);text-transform:uppercase;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 .une-t{font:400 12px var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--hot)!important}
 @media (max-width:760px){.une .wrap{grid-template-columns:1fr}.une a:nth-of-type(n+3){display:none}}
+/* Actus mise en avant dans le menu de toutes les pages (13/10/2026) */
+.nav a[href$="actus.html"]:not(.logo){color:#fff;background:var(--hot);padding:7px 12px 7px 26px;border-radius:999px;border-bottom:0;position:relative;font-weight:700}
+.nav a[href$="actus.html"]:not(.logo)::before{content:"";position:absolute;left:11px;top:50%;width:7px;height:7px;margin-top:-3.5px;border-radius:50%;background:#fff;animation:actu-pouls 1.6s ease-in-out infinite}
+.nav a[href$="actus.html"]:not(.logo):hover{color:#fff;filter:brightness(1.1)}
+.nav a[href$="actus.html"] .actu-n{margin-left:6px;background:#fff;color:var(--hot);border-radius:999px;padding:1px 6px;font-size:.62rem}
+@keyframes actu-pouls{0%,100%{opacity:1}50%{opacity:.25}}
