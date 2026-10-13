@@ -302,7 +302,7 @@ window.SITE = {
     var dims = grand === "970x250" ? 'width="1940" height="500"' : 'width="1280" height="320"';
     p.innerHTML = '<a class="maison-bandeau' + (k === "page" ? " grand" : "") + '" href="' + (/android/i.test(navigator.userAgent) ? KOTOBA_AND : KOTOBA_IOS) + '" target="_blank" rel="noopener sponsored">' +
       '<picture><source media="(max-width:600px)" srcset="' + d + '320x100.webp" width="640" height="200">' +
-      '<img src="' + d + grand + '.webp" ' + dims + ' alt="Kotoba, le mot du jour : jouer gratuitement sur iPhone et Android" loading="lazy" decoding="async"></picture></a>';
+      '<img src="' + d + grand + '.webp" ' + dims + ' alt="Kotoba, le mot du jour : jouer gratuitement sur iPhone et Android" loading="lazy" decoding="async"></picture><span class="maison-cta" aria-hidden="true"></span></a>';
   }
 
   // Publicité Google AdSense (annonces automatiques). Active seulement sur un domaine approuvé.
