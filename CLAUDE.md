@@ -29,3 +29,6 @@ Pour chaque article, cherche une image par mot-clé du sujet et télécharge-la 
 - Avec réseau : `python3 tools/img_article.py <id> "<mot-clé>"` (1200 px, JPEG q85, refuse les doublons), OUVRE l'image (Read) ; hors sujet : `--rang 1`, 2… ou autre mot-clé ; image choisie à la main : `--url <url>`. Puis `python3 -c "import sys;sys.path.insert(0,'tools');import img_auto as m;a=m.charge();x=[y for y in a if y['id']=='<id>'][0];m.appliquer(x,'<site>');m.sauve(a)"`.
 - Sans réseau (routine Solange) : écris le champ "kw" (mot-clé) dans l'article ; le serveur lance tools/img_auto.py qui télécharge l'image et pose la figure.
 - Jamais deux articles avec la même image. Jamais de lien direct vers le site d'origine : toujours le fichier local. Miniature (img) et figure de l'article = le même fichier ; figcaption « Image : <site d'origine> ».
+
+## Pubs (13/10/2026)
+- Affichage des pubs = session PUB (~/PUBLICITE) uniquement. Ne pas modifier maison() dans assets/site.js, les styles .maison-* ni assets/img/pub/ : envoyer la demande à la session PUB.
