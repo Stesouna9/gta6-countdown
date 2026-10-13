@@ -284,13 +284,25 @@ window.SITE = {
   if ("serviceWorker" in navigator && location.protocol === "https:") navigator.serviceWorker.register((window.ROOT || "") + "sw.js").catch(function () {});
 
   // Pub maison OKALAM : remplace un emplacement AdSense resté vide (jamais à la place d'une vraie pub).
+  // Bandeaux animés Kotoba (assets/img/pub/, générés par ~/PUBLICITE/APP-KOTOBA/bandeaux/gen.py) ; jamais avant le 1er paragraphe.
+  var KOTOBA_IOS = "https://apps.apple.com/fr/app/kotoba-mot-du-jour/id6761341663", KOTOBA_AND = "https://play.google.com/store/apps/details?id=com.okalam.kotoba";
+  var CONCEPTS = ["attente", "course", "partie", "duo"].sort(function () { return Math.random() - .5; }), nMaison = 0;
   function maison(p) {
-    var R = window.ROOT || "";
+    var R = window.ROOT || "", k = p.getAttribute("data-pub") || "page";
+    if (k === "jr-haut") { p.remove(); return; }
     p.classList.remove("vide"); p.classList.add("maison");
-    p.innerHTML = '<div class="maison-carte"><img src="' + R + 'assets/img/kotoba.jpg" alt="" width="64" height="64" loading="lazy">' +
-      '<div class="maison-txt"><b>Kotoba</b><span>Un mot par jour, six essais. En français ou en japonais. Gratuit.</span></div>' +
-      '<div class="maison-liens"><a href="https://apps.apple.com/fr/app/kotoba-mot-du-jour/id6761341663" target="_blank" rel="noopener sponsored">iPhone</a>' +
-      '<a href="https://play.google.com/store/apps/details?id=com.okalam.kotoba" target="_blank" rel="noopener sponsored">Android</a></div></div>';
+    if (k === "jr-fin") {
+      p.innerHTML = '<div class="maison-carte"><img src="' + R + 'assets/img/kotoba.jpg" alt="" width="64" height="64" loading="lazy">' +
+        '<div class="maison-txt"><b>Kotoba</b><span>Un mot par jour, six essais. En français ou en japonais. Gratuit.</span></div>' +
+        '<div class="maison-liens"><a href="' + KOTOBA_IOS + '" target="_blank" rel="noopener sponsored">iPhone</a>' +
+        '<a href="' + KOTOBA_AND + '" target="_blank" rel="noopener sponsored">Android</a></div></div>';
+      return;
+    }
+    var c = CONCEPTS[nMaison++ % CONCEPTS.length], grand = k === "page" ? "970x250" : "1280x320", d = R + "assets/img/pub/kotoba_" + c + "_";
+    var dims = grand === "970x250" ? 'width="1940" height="500"' : 'width="1280" height="320"';
+    p.innerHTML = '<a class="maison-bandeau' + (k === "page" ? " grand" : "") + '" href="' + (/android/i.test(navigator.userAgent) ? KOTOBA_AND : KOTOBA_IOS) + '" target="_blank" rel="noopener sponsored">' +
+      '<picture><source media="(max-width:600px)" srcset="' + d + '320x100.webp" width="640" height="200">' +
+      '<img src="' + d + grand + '.webp" ' + dims + ' alt="Kotoba, le mot du jour : jouer gratuitement sur iPhone et Android" loading="lazy" decoding="async"></picture></a>';
   }
 
   // Publicité Google AdSense (annonces automatiques). Active seulement sur un domaine approuvé.
