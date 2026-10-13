@@ -210,6 +210,21 @@ window.SITE = {
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", finFlux); else finFlux();
   document.addEventListener("langchange", finFlux);
 
+  // L'actu d'abord, partout (13/10/2026) : bandeau des 3 derniers articles sous l'en-tête de chaque page hors journal/accueil
+  function aLaUne() {
+    if (document.querySelector(".jr-grille, .jr-corps, .une") || /(^|\/)(journal\/|actus|aujourdhui|today|index\.html$|$)/.test(location.pathname.replace(/^\/[a-z]{2}\//, "/").slice(1))) return;
+    var h = document.querySelector("header.tete-page") || document.querySelector("header"); if (!h) return;
+    var l = window.LANG || document.documentElement.lang || "fr";
+    donnees("data/articles.json").then(function (lst) {
+      var b = document.querySelector(".une") || document.createElement("aside"); b.className = "une";
+      b.innerHTML = '<div class="wrap"><a class="une-t" href="' + "/" + (l === "fr" ? "" : l + "/") + 'actus.html">' + (l === "fr" ? "À la une" : "Latest news") + "</a>" +
+        lst.slice(0, 3).map(function (x) { var a = x[l === "id" ? "idn" : l] || x.en || x.fr; return a ? '<a href="' + "/" + (l === "fr" ? "" : l + "/") + "journal/" + x.id + '.html"><img src="' + x.img + '" alt="" loading="lazy" onerror="this.onerror=null;this.src=\'/assets/jn.jpg\'"><b>' + a.t + "</b></a>" : ""; }).join("") + "</div>";
+      if (!b.parentNode) h.insertAdjacentElement("afterend", b);
+    }).catch(function () {});
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", aLaUne); else aLaUne();
+  document.addEventListener("langchange", function () { var u = document.querySelector(".une"); if (u) u.remove(); aLaUne(); });
+
 
   // Partage : bouton natif sur mobile, liens sinon. <div class="partage"></div>
   // Newsletter : formulaire Buttondown dans le pied, seulement si SITE.newsletter est posé
