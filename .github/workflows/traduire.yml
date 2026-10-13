@@ -2,6 +2,9 @@ name: traduction
 on:
   schedule:
     - cron: "45 * * * *"   # toutes les heures (UTC), après la routine Solange
+  push:                    # article publié → image et traductions tout de suite (pas d'image cassée)
+    branches: [main]
+    paths: [data/articles.json]
   workflow_dispatch:
     inputs:
       test: { type: boolean, default: false }
