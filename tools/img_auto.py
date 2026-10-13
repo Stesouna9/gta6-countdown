@@ -4,7 +4,7 @@
 - Lancé sans argument (cron serveur) : pour chaque article dont l'image n'est pas encore assets/img/articles/<id>.jpg,
   cherche avec le champ kw (mot-clé choisi par la rédaction) ou, à défaut, le premier tag, via tools/img_article.py.
 Miniature (img / og:image) et photo de l'article sont toujours le même fichier."""
-import json, re, subprocess, sys
+import hashlib, json, re, subprocess, sys
 from pathlib import Path
 
 RACINE = Path(__file__).resolve().parent.parent
@@ -19,6 +19,8 @@ def legende(l, s):
 
 def appliquer(a, site):
     url = BASE + a["id"] + ".jpg"
+    f = RACINE / "assets/img/articles" / (a["id"] + ".jpg")
+    if f.exists(): url += "?v=" + hashlib.md5(f.read_bytes()).hexdigest()[:8]  # photo changée = nouvelle adresse, jamais l'ancienne en cache
     a["img"] = url
     a["img_site"] = site
     for l, v in a.items():
@@ -42,7 +44,7 @@ def sauve(arts):
 def auto():
     arts = charge(); n = 0
     for a in arts:
-        if a.get("img") == BASE + a["id"] + ".jpg" and (RACINE / "assets/img/articles" / (a["id"] + ".jpg")).exists():
+        if (a.get("img") or "").split("?")[0] == BASE + a["id"] + ".jpg" and (RACINE / "assets/img/articles" / (a["id"] + ".jpg")).exists():
             continue
         kw = a.get("kw") or (a.get("tags") or [""])[0]
         if not kw: continue

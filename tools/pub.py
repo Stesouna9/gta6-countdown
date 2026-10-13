@@ -511,7 +511,7 @@ def ret_blocs(a, l):
 # image d'article pas encore téléchargée (article publié entre deux passages de img_auto) : jamais d'image cassée
 for a in ARTS:
     i = a.get("img") or ""
-    if i.startswith(BASE + "assets/img/articles/") and not (Path(__file__).resolve().parent.parent / i[len(BASE):]).exists():
+    if i.startswith(BASE + "assets/img/articles/") and not (Path(__file__).resolve().parent.parent / i[len(BASE):].split("?")[0]).exists():
         a["img"] = None
         for v in a.values():
             if isinstance(v, dict) and "h" in v:
