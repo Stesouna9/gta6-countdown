@@ -1053,3 +1053,9 @@ body.mu-lecteur-on .suivre{bottom:118px}
 /* Safari iOS 26 : la zone de l'heure prend la couleur d'une barre FIXE et OPAQUE collée en haut ; sinon l'article reste visible derrière (13/10/2026) */
 .nav,.nav.solide{background:#16111d}
 html::before{content:"";position:fixed;top:0;left:0;right:0;height:1px;background:#16111d;z-index:9999;pointer-events:none}
+/* Safari iOS 26 ne teinte la zone de l'heure qu'avec une barre position:fixed (pas sticky) : barre fixe sur mobile (13/10/2026) */
+@media (max-width:900px){
+ .nav{position:fixed;top:0;left:0;right:0}
+ body{padding-top:calc(56px + env(safe-area-inset-top,0px))}
+ html{scroll-padding-top:70px}
+}
