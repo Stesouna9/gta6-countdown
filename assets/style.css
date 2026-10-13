@@ -1000,3 +1000,38 @@ body.mu-lecteur-on .suivre{bottom:118px}
 .nav .droite .ig{display:none}
 }
 @media (max-width:420px){.nav .logo span,.nav .logo b+span{display:none}}
+/* Décompte en tableau d'aéroport à palettes, couleurs Vice City (13/10/2026) */
+#compteur.flap-on>.gros,#compteur.flap-on>.hms{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.flap-board{--fw:clamp(30px,4.3vw,80px);--fh:calc(var(--fw)*1.42);background:linear-gradient(#120d18,#0b0910);border:2px solid #2a2033;border-radius:14px;padding:clamp(12px,2vw,22px);box-shadow:0 0 0 1px rgba(255,59,122,.35),0 0 38px rgba(255,59,122,.28),0 0 70px rgba(77,208,225,.14),inset 0 2px 0 rgba(255,255,255,.05);max-width:100%;width:max-content;box-sizing:border-box}
+.flap-haut{display:flex;align-items:center;gap:10px;margin-bottom:12px;width:0;min-width:100%}
+.flap-vol{flex:1;overflow:hidden;white-space:nowrap;font:400 .78rem/1 var(--mono);letter-spacing:.18em;color:#f2b33d;background:#0a0710;border:1px solid #2a2033;border-radius:6px;padding:8px 0;min-width:0}
+.flap-vol i{display:inline-block;font-style:normal;padding-left:100%;animation:flap-def 28s linear infinite}
+@keyframes flap-def{to{transform:translateX(-100%)}}
+.flap-son{flex:none;background:#0a0710;border:1px solid #2a2033;border-radius:8px;color:#fff;font-size:1rem;width:38px;height:32px;cursor:pointer}
+.flap-son.on{border-color:var(--hot);box-shadow:0 0 12px rgba(255,59,122,.5)}
+.flap-rangs{display:flex;gap:clamp(14px,2.4vw,30px);align-items:flex-start}
+.flap-g{display:flex;flex-direction:column;align-items:center;gap:8px}
+.flap-cs{display:flex;gap:4px}
+.flap-lab{font:400 .7rem/1 var(--mono);letter-spacing:.24em;text-transform:uppercase;color:rgba(242,232,213,.6)}
+.flap{position:relative;width:var(--fw);height:var(--fh);perspective:400px;font-family:var(--display);font-size:calc(var(--fh)*.86);line-height:1}
+.flap>span{position:absolute;left:0;right:0;height:50%;overflow:hidden;background:linear-gradient(#231a2c,#1a1321);border-radius:7px}
+.flap>span b{position:absolute;left:0;right:0;height:200%;display:flex;align-items:center;justify-content:center;font-weight:400;background:linear-gradient(180deg,#ffd166 0%,#ff8a3d 48%,#ff3b7a 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.flap .fh,.flap .ffh{top:0;border-bottom-left-radius:0;border-bottom-right-radius:0}
+.flap .fb,.flap .ffb{bottom:0;border-top-left-radius:0;border-top-right-radius:0}
+.flap .fh b,.flap .ffh b{top:0}.flap .fb b,.flap .ffb b{bottom:0}
+.flap::after{content:"";position:absolute;left:0;right:0;top:50%;height:2px;margin-top:-1px;background:#07050a;box-shadow:0 1px 0 rgba(255,255,255,.06);z-index:5}
+.flap .ffh{transform-origin:50% 100%;z-index:3;backface-visibility:hidden}
+.flap .ffb{transform-origin:50% 0;z-index:2;transform:rotateX(90deg);backface-visibility:hidden}
+.flap.tourne .ffh{animation:flap-a .21s ease-in forwards}
+.flap.tourne .ffb{animation:flap-b .21s .19s ease-out forwards}
+@keyframes flap-a{to{transform:rotateX(-90deg)}}
+@keyframes flap-b{from{transform:rotateX(90deg)}to{transform:rotateX(0)}}
+.flap-jours .flap{--fw:clamp(44px,6.4vw,118px);--fh:calc(var(--fw)*1.42)}
+@media (max-width:700px){
+ #compteur.flap-on{display:flex;justify-content:center}
+ .flap-board{max-width:100%;width:100%;--fw:clamp(34px,10.5vw,52px)}
+ .flap-rangs{flex-wrap:wrap;justify-content:center;row-gap:16px}
+ .flap-jours{flex-basis:100%}
+ .flap-jours .flap{--fw:clamp(70px,24vw,110px)}
+}
+@media (prefers-reduced-motion:reduce){.flap.tourne .ffh,.flap.tourne .ffb{animation:none}.flap-vol i{animation:none;padding-left:0}}
