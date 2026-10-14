@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Relais automatique des nouveaux articles vers Telegram, Bluesky et Discord (API gratuites).
 Secrets dans l'environnement (jamais dans git) : TELEGRAM_TOKEN + TELEGRAM_CHAT ; BSKY_HANDLE + BSKY_APP_PASSWORD ; DISCORD_WEBHOOK ;
-X_API_KEY + X_API_SECRET + X_ACCESS_TOKEN + X_ACCESS_SECRET (OAuth 1.0a, app Read and write) ET X_VALIDE=1 (règle d'or : posé seulement après validation par Gabriel du texte exact du 1er post et du format ; X_MODE=reply : texte seul puis lien en réponse, X_MODE=direct : texte + lien).
+X_API_KEY + X_API_SECRET + X_ACCESS_TOKEN + X_ACCESS_SECRET (OAuth 1.0a, app Read and write) ET X_VALIDE=1 (règle d'or : posé seulement après validation par Gabriel du texte exact du 1er post et du format ; X_MODE=texte (défaut) : titre sans lien, 0,015 $/post ; X_MODE=reply : titre puis lien en réponse ; X_MODE=direct : titre + lien ; tout post avec URL coûte 0,20 $).
 Un canal sans secret est ignoré. 1er passage : marque tous les articles existants comme déjà relayés (pas d'inondation).
 Usage : python3 tools/relais.py [etat.json]   (serveur : cron 5 min, EnvironmentFile /etc/gtavifrance-relais.env)
         RELAIS_DRY=1 : affiche sans publier."""
@@ -58,7 +58,9 @@ def _tweet(body):
 def x(t, u):
     if not all(E(k) for k in ("X_API_KEY", "X_API_SECRET", "X_ACCESS_TOKEN", "X_ACCESS_SECRET")): return None
     if E("X_VALIDE") != "1": return "en attente de validation (X_VALIDE)"
-    if E("X_MODE", "reply") == "direct":
+    if E("X_MODE", "texte") == "texte":  # défaut : sans lien (0,015 $ le post au lieu de 0,20 $ avec URL), le site est dans la bio
+        _tweet({"text": t[:280]}); return True
+    if E("X_MODE") == "direct":
         _tweet({"text": (t[:255] + "\n" + u)}); return True
     r = _tweet({"text": t[:280]})
     _tweet({"text": u, "reply": {"in_reply_to_tweet_id": r["data"]["id"]}})
