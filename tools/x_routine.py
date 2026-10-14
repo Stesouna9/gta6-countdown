@@ -1,8 +1,8 @@
 """Routine X quotidienne de @GTAfance (14/10/2026, demande de Gabriel) : 3 posts par jour, format validé ce jour-là.
   9 h  actu   : l'article du jour le plus récent (hors Cyberleek)
   13 h site   : compte à rebours J-xx + un angle du site (visuel généré : J-xx sur l'affiche, gtavifrance.com)
-  16 h cyberleek : le dernier article Cyberleek (image = logo Cyberleek de l'article, jamais de contenu fuité)
-  19 h top    : l'article le plus vu de la journée (GoatCounter, toutes langues), sinon le plus récent pas encore posté
+  19 h top    : l'article le plus vu des dernières 24 h (GoatCounter, toutes langues), sinon le plus récent pas encore posté.
+               Cyberleek seulement s'il est cet article le plus vu (décision Gabriel 14/10 : 3 posts par jour, pas de créneau Cyberleek).
 Texte ≤ 260 caractères, SANS lien (« lien en bio », 0,015 $ le post), hashtags #GTA6 #GTAVI #GTA6France + thème, 1 image.
 Jamais deux fois le même article (x_routine_etat.json). Clés : /etc/gtavifrance-relais.env (X_API_KEY, X_API_SECRET,
 X_ACCESS_TOKEN, X_ACCESS_SECRET). Crédits API nécessaires (carte ajoutée par Gabriel dans console.x.com).
@@ -86,12 +86,12 @@ ANGLES = [  # 13 h : un angle du site par jour, en rotation
 ]
 
 def vues_du_jour():
-    """{id article: vues aujourd'hui, toutes langues} depuis la base GoatCounter (lecture seule)."""
+    """{id article: vues des dernières 24 h, toutes langues} depuis la base GoatCounter (lecture seule)."""
     import sqlite3
     try:
         c = sqlite3.connect("file:/opt/goatcounter/db.sqlite3?mode=ro", uri=True)
         rows = c.execute("select p.path, sum(h.total) from hit_counts h join paths p using(path_id) "
-                         "where h.hour >= date('now') and p.path like '%journal/%' group by p.path").fetchall()
+                         "where h.hour >= datetime('now', '-1 day') and p.path like '%journal/%' group by p.path").fetchall()
     except Exception: return {}
     v = {}
     for path, n in rows:

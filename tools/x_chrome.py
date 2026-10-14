@@ -3,10 +3,10 @@ de Jackpot : sans API ni crédits. Décision de Gabriel, 14/10/2026.
 Le serveur prépare le post (tools/x_routine.py <slot> --json : texte + image, article le plus vu, état anti-doublon),
 ce script l'injecte dans le composeur de x.com/home par AppleScript/JavaScript (Chrome n'est jamais mis au premier plan :
 Gabriel dicte avec Wispr Flow), clique Post, vérifie, puis marque le post côté serveur (--marque).
-Lancé par launchd (~/Library/LaunchAgents/com.gtavifrance.xchrome.<slot>.plist) à 9 h, 13 h, 16 h et 19 h, avec 0 à 50 min
+Lancé par launchd (~/Library/LaunchAgents/com.gtavifrance.xchrome.<slot>.plist) à 9 h (actu), 13 h (compte à rebours) et 19 h (article le plus vu des 24 h), avec 0 à 50 min
 de décalage au hasard. Journal : ~/Library/Logs/gtavifrance-x.log.
 Prérequis : Chrome > Présentation > Développeur > « Autoriser JavaScript à partir des événements Apple ».
-Usage : python3 tools/x_chrome.py actu|site|cyberleek|top [--maintenant] [--essai]   (--essai : remplit sans publier)"""
+Usage : python3 tools/x_chrome.py actu|site|top [--maintenant] [--essai]   (--essai : remplit sans publier)"""
 import json, random, subprocess, sys, time, datetime
 from pathlib import Path
 
