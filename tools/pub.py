@@ -272,13 +272,17 @@ def shell(l, page="sortie"):
     head = head.replace("<head>", '<head>\n<base href="%s%s">' % (BASE, "" if l == "fr" else l + "/"), 1)
     return head, foot
 
-def page(l, url, title, desc, body, ld, img=None, page_shell="sortie"):
+def page(l, url, title, desc, body, ld, img=None, page_shell="sortie", alts=None):
     head, foot = shell(l, page_shell)
     img = img or BASE + f"assets/og/{l}/sortie.jpg"
     metas = (f"<title>{e(title)}</title>\n<meta name=\"description\" content=\"{e(desc)}\">\n<link rel=\"canonical\" href=\"{url}\">\n"
              f"<meta property=\"og:url\" content=\"{url}\"><meta property=\"og:title\" content=\"{e(title)}\"><meta property=\"og:description\" content=\"{e(desc)}\"><meta property=\"og:image\" content=\"{img}\">\n"
              f"<meta name=\"twitter:title\" content=\"{e(title)}\"><meta name=\"twitter:description\" content=\"{e(desc)}\"><meta name=\"twitter:image\" content=\"{img}\">\n"
              + "".join(f'<script type="application/ld+json">{json.dumps(x, ensure_ascii=False)}</script>\n' for x in ld))
+    if alts:  # hreflang entre les versions d'une même page (SEO 17 langues, 14/10/2026)
+        HLX = {"zh": "zh-Hans", "tw": "zh-Hant"}
+        metas += "".join(f'<link rel="alternate" hreflang="{HLX.get(x, x)}" href="{u}">\n' for x, u in alts.items())
+        if "fr" in alts: metas += f'<link rel="alternate" hreflang="x-default" href="{alts["fr"]}">\n'
     head = head.replace("</head>", metas + "</head>", 1)
     return head + body + foot
 
@@ -575,8 +579,9 @@ for l in T:
     <div class="boutons"><a class="btn" href="actus.html">{e(tr(l, "jr_suite"))}</a><a class="btn clair" href="https://www.instagram.com/vicebayradio/" target="_blank" rel="noopener">{e(tr(l, "ig_cta"))}</a></div>{_fin}</div></section>
 """
         ld = [{"@context": "https://schema.org", "@type": "NewsArticle", "headline": x["t"], "description": x["d"], "inLanguage": l, "datePublished": a["date"], "dateModified": a.get("maj", a["date"]), "image": [a.get("img") or BASE + "assets/jn.jpg"], "mainEntityOfPage": art_url(a, l),
-               "author": {"@type": "Person", "name": "Solange Rocheval", "url": BASE + "apropos.html"}, "publisher": {"@type": "Organization", "name": "VI Countdown", "logo": {"@type": "ImageObject", "url": BASE + "assets/icon-192.png"}}}]
-        write(("" if l == "fr" else l + "/") + f"journal/{a['id']}.html", page(l, art_url(a, l), x["t"] + " | VI Countdown", x["d"], body, ld, img=a.get("img"), page_shell="actus"))
+               "author": {"@type": "Person", "name": a.get("auteur") or "Solange Rocheval", "url": BASE + "apropos.html"}, "publisher": {"@type": "Organization", "name": "GTAVIFRANCE", "url": BASE, "logo": {"@type": "ImageObject", "url": BASE + "assets/icon-192.png"}}}]
+        write(("" if l == "fr" else l + "/") + f"journal/{a['id']}.html", page(l, art_url(a, l), x["t"] + " | GTAVIFRANCE", x["d"], body, ld, img=a.get("img"), page_shell="actus",
+              alts={k: art_url(a, k) for k in T if k == "fr" or isinstance(a.get(art_cle(k)), dict)}))
         URLS.append((art_url(a, l), l, "0.9"))
     url = f"{BASE}{'' if l == 'fr' else l + '/'}journal.html"
     body = f'<meta http-equiv="refresh" content="0; url=actus.html"><p style="padding:40px"><a href="actus.html">{e(tr(l, "nav_news"))}</a></p>'
@@ -607,7 +612,8 @@ for l in T:
     ld = [{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": r}} for q, r in c["faq"]]},
           {"@context": "https://schema.org", "@type": "CollectionPage", "name": c["h1"], "inLanguage": l, "url": url, "dateModified": (arts[0].get("maj", arts[0]["date"]) if arts else TODAY.isoformat()),
            "hasPart": [{"@type": "NewsArticle", "headline": a[art_lang(a, l)]["t"], "url": art_url(a, l), "datePublished": a["date"]} for a in arts[:20]]}]
-    write(px + "cyberleek.html", page(l, url, c["titre"], c["intro"], body, ld, img=(arts[0].get("img") if arts else None), page_shell="actus"))
+    write(px + "cyberleek.html", page(l, url, c["titre"], c["intro"], body, ld, img=(arts[0].get("img") if arts else None), page_shell="actus",
+                                      alts={k: f"{BASE}{'' if k == 'fr' else k + '/'}cyberleek.html" for k in T}))
     URLS.append((url, l, "0.9"))
 
 # ------------------------------------------------------------------ 5. sitemap, images, robots, feed
