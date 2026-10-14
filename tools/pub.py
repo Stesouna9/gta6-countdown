@@ -454,6 +454,28 @@ def credit_img(u, l):
     if c == "Rockstar Games": return tr(l, "jr_photo")
     if c.startswith("Fan art"): return c if l == "fr" else c.replace("Fan art : ", "Fan art: ")
     return ("Image : " if l == "fr" else "Image: ") + c
+CYB = {
+ "fr": dict(titre="Cyberleek : tout savoir sur la fuite de GTA 6 (dossier mis à jour) | GTAVIFRANCE", kick="Dossier · fuite GTA 6",
+   h1="Cyberleek : tout savoir sur la fuite de GTA 6", lien="Dossier Cyberleek : tout ce qu'on sait sur la fuite de GTA 6 →",
+   intro="Qui est Cyberleek, ce qu'il a publié selon la presse, son jeton, la réaction de Rockstar : le point complet, mis à jour à chaque nouvel épisode. Sans aucun contenu fuité.",
+   chrono="Tous nos articles sur Cyberleek", note="Ce dossier ne montre et ne relaie aucune image ni vidéo fuitée. Les informations viennent de médias reconnus (IGN, Polygon, Kotaku, Eurogamer…) et restent au conditionnel tant que Rockstar ne s'exprime pas.",
+   faq=[("Qui est Cyberleek ?", "Cyberleek est le pseudonyme d'un leaker anonyme qui affirme détenir une version de développement de GTA 6. Depuis octobre 2026, il publie des extraits présentés comme du gameplay, selon plusieurs médias spécialisés. Son identité n'est pas connue."),
+        ("Les fuites de Cyberleek sont-elles authentiques ?", "Rockstar Games et Take-Two n'ont rien confirmé. Plusieurs médias jugent les extraits crédibles, d'autres appellent à la prudence. GTAVIFRANCE ne relaie aucune image ni vidéo et traite chaque information au conditionnel."),
+        ("C'est quoi le jeton Cyberleek ?", "Selon IGN et Kotaku, Cyberleek a lancé une cryptomonnaie et lié la publication de nouvelles fuites à des paliers de capitalisation, jusqu'à 30 millions de dollars. Le jeton s'est ensuite effondré. N'achetez rien : c'est un actif spéculatif lié à une fuite."),
+        ("Est-ce que la fuite change la date de sortie de GTA 6 ?", "Non. GTA 6 sort toujours le jeudi 19 novembre 2026 sur PS5 et Xbox Series X|S, avec préchargement le 12 novembre. Aucun report n'a été annoncé."),
+        ("Où voir les vidéos de Cyberleek ?", "Nulle part ici. Les liens qui circulent mènent souvent à des arnaques (faux téléchargements, logiciels malveillants). Pour éviter les spoilers, mieux vaut couper les mots-clés « GTA 6 leak » et « Cyberleek » sur les réseaux.")]),
+ "en": dict(titre="Cyberleek: everything about the GTA 6 leak (live updates) | GTAVIFRANCE", kick="Live file · GTA 6 leak",
+   h1="Cyberleek: everything about the GTA 6 leak", lien="Cyberleek file: everything we know about the GTA 6 leak →",
+   intro="Who Cyberleek is, what the press says was released, the token, Rockstar's response: the full picture, updated with every new episode. No leaked content.",
+   chrono="All our Cyberleek stories", note="This page does not show or link any leaked image or video. Information comes from established outlets (IGN, Polygon, Kotaku, Eurogamer…) and stays unconfirmed until Rockstar speaks.",
+   faq=[("Who is Cyberleek?", "Cyberleek is the alias of an anonymous leaker who claims to hold a development build of GTA 6. Since October 2026 they have posted clips presented as gameplay, according to several gaming outlets. Their identity is unknown."),
+        ("Are the Cyberleek leaks real?", "Rockstar Games and Take-Two have confirmed nothing. Some outlets find the clips credible, others urge caution. GTAVIFRANCE shares no leaked image or video and reports everything as unconfirmed."),
+        ("What is the Cyberleek token?", "According to IGN and Kotaku, Cyberleek launched a cryptocurrency and tied new leaks to market-cap milestones, up to 30 million dollars. The token then crashed. Do not buy it: it is a speculative asset tied to a leak."),
+        ("Does the leak change the GTA 6 release date?", "No. GTA 6 still launches on Thursday, November 19, 2026 on PS5 and Xbox Series X|S, with preload on November 12. No delay has been announced."),
+        ("Where can I watch the Cyberleek videos?", "Not here. Links going around often lead to scams (fake downloads, malware). To avoid spoilers, mute the keywords “GTA 6 leak” and “Cyberleek” on social media.")]),
+}
+if os.path.exists("tools/i18n/cyberleek.json"):  # 15 autres langues (traduction relue : la marque « Cyberleek » est gardée telle quelle)
+    CYB.update({k: dict(v, faq=[tuple(x) for x in v["faq"]]) for k, v in json.load(open("tools/i18n/cyberleek.json", encoding="utf-8")).items()})
 def art_url(a, l): return f"{BASE}{'' if l == 'fr' else l + '/'}journal/{a['id']}.html"
 def d_fmt(a, l):
     try: return fmt_local(datetime.datetime.fromisoformat(a["date"]), l)
@@ -524,6 +546,8 @@ for l in T:
         img = a.get("img") or BASE + "assets/jn.jpg"
         srcs = " · ".join(f'<a href="{e(u)}" target="_blank" rel="noopener">{e(u.split("/")[2].replace("www.", ""))}</a>' for u in a.get("src", []))
         h = x["h"]
+        if "cyberleek" in a["id"]:  # maillage SEO vers le dossier Cyberleek
+            h = f'<p class="jr-dossier"><a href="cyberleek.html" data-goatcounter-click="art-dossier-cyberleek">{e(CYB.get(l, CYB["en"])["lien"])}</a></p>' + h
         if "<figure" not in h and "<img" not in h:  # une photo dans le corps, après le premier paragraphe
             h = h.replace("</p>", f'</p><figure class="jr-fig"><img src="{e(img)}" alt="" loading="lazy"><figcaption>{e(credit_img(img, l))}</figcaption></figure>', 1)
         # crédit exact de chaque image de la banque (fan art, meme, anciens GTA, Rockstar)
@@ -558,6 +582,31 @@ for l in T:
     body = f'<meta http-equiv="refresh" content="0; url=actus.html"><p style="padding:40px"><a href="actus.html">{e(tr(l, "nav_news"))}</a></p>'
     ld = []
     write(("" if l == "fr" else l + "/") + "journal.html", page(l, f"{BASE}{'' if l == 'fr' else l + '/'}actus.html", tr(l, "nav_news"), tr(l, "md_journal"), body, ld, page_shell="actus"))
+    URLS.append((url, l, "0.9"))
+
+# ------------------------------------------------------------------ 4b. dossier Cyberleek (page pilier SEO, 14/10/2026)
+# Recherches visées : « Cyberleek », « Cyberleek GTA 6 », « fuite GTA 6 », « GTA 6 leak », « jeton Cyberleek ».
+# Jamais de lien vers le contenu fuité ; faits rapportés par la presse, au conditionnel.
+for l in T:
+    c = CYB.get(l, CYB["en"]); px = "" if l == "fr" else l + "/"
+    url = f"{BASE}{px}cyberleek.html"
+    arts = [a for a in ARTS if "cyberleek" in a["id"]]
+    liste = "".join(f'<li><a href="journal/{a["id"]}.html"><span class="k">{e(d_fmt(a, l))}</span> {e(a[art_lang(a, l)]["t"])}</a></li>' for a in arts)
+    faq = "".join(f"<h2>{e(q)}</h2><p>{e(r)}</p>" for q, r in c["faq"])
+    body = f"""
+  <header class="tete-page"><div class="wrap"><span class="kicker">{e(c['kick'])}</span><h1>{e(c['h1'])}</h1><p>{e(c['intro'])}</p></div></header>
+  <section class="papier"><div class="wrap jr-corps">
+    <h2>{e(c['chrono'])}</h2><ul class="jr-recent">{liste}</ul>
+    {faq}
+    <p class="verifie">{e(c['note'])}</p>
+    <div class="boutons"><a class="btn" href="actus.html">{e(tr(l, "nav_news"))}</a></div>
+    <div class="partage"></div>
+  </div></section>
+"""
+    ld = [{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": r}} for q, r in c["faq"]]},
+          {"@context": "https://schema.org", "@type": "CollectionPage", "name": c["h1"], "inLanguage": l, "url": url, "dateModified": (arts[0].get("maj", arts[0]["date"]) if arts else TODAY.isoformat()),
+           "hasPart": [{"@type": "NewsArticle", "headline": a[art_lang(a, l)]["t"], "url": art_url(a, l), "datePublished": a["date"]} for a in arts[:20]]}]
+    write(px + "cyberleek.html", page(l, url, c["titre"], c["intro"], body, ld, img=(arts[0].get("img") if arts else None), page_shell="actus"))
     URLS.append((url, l, "0.9"))
 
 # ------------------------------------------------------------------ 5. sitemap, images, robots, feed
