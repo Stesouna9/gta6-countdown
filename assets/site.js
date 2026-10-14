@@ -1,6 +1,6 @@
 // Configuration commune du site. Modifier ici uniquement.
 window.SITE = {
-  sortie: "2026-11-19T00:00:00+01:00",   // minuit heure de Paris
+  sortie: "2026-11-19T00:00:00",   // minuit heure locale du visiteur (déblocage numérique pays par pays)
   annonce: "2025-11-06T00:00:00+01:00",  // annonce de la date finale
   amazonTag: "okalamstudio-21",          // tag Amazon Partenaires (à remplacer par le vrai)
   adsensePub: "ca-pub-8121423865459620", // même identifiant éditeur que l'AdMob OKALAM
