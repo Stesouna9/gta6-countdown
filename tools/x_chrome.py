@@ -23,44 +23,43 @@ def osa(script):
     if r.returncode: raise RuntimeError(r.stderr.strip()[:300])
     return r.stdout.strip()
 
-def js(code, tab_url_part="x.com/"):
-    """Exécute du JS dans l'onglet x.com de la routine (fichier, pour les gros contenus comme l'image en base64)."""
+ONGLET = {}   # {"w": id fenêtre, "t": id onglet} : la routine ne touche qu'à SON onglet (un autre onglet figé bloquait tout)
+
+def js(code):
+    """Exécute du JS dans l'onglet de la routine (via fichier : gros contenus)."""
     f = TMP / "code.js"; f.write_text(code, encoding="utf-8")
     return osa(f'''set js to read POSIX file "{f}" as «class utf8»
-tell application "Google Chrome"
-  repeat with w in windows
-    repeat with t in tabs of w
-      if (URL of t contains "x.com/home") and (title of t does not contain "Compose") then
-        if (execute t javascript "window.__gtaxRoutine === 1") is true then return (execute t javascript js)
-      end if
-    end repeat
-  end repeat
-end tell
-return "pas d'onglet"''')
+with timeout of 60 seconds
+tell application "Google Chrome" to execute (first tab of window id {ONGLET["w"]} whose id is {ONGLET["t"]}) javascript js
+end timeout''')
 
 def ouvre_onglet():
-    """Onglet dédié x.com/home, ouvert dans une fenêtre existante sans l'activer, marqué window.__gtaxRoutine."""
-    osa('''tell application "Google Chrome"
+    """Nouvel onglet x.com/home dans la fenêtre 1, sans activer Chrome."""
+    r = osa('''tell application "Google Chrome"
   if (count of windows) = 0 then make new window
-  set t to make new tab at end of tabs of window 1 with properties {URL:"https://x.com/home"}
+  set w to window 1
+  set t to make new tab at end of tabs of w with properties {URL:"https://x.com/home"}
+  return ((id of w) as text) & "/" & ((id of t) as text)
 end tell''')
-    time.sleep(9)
-    osa('''tell application "Google Chrome"
-  set t to last tab of window 1
-  execute t javascript "window.__gtaxRoutine = 1; 'ok'"
-end tell''')
+    ONGLET["w"], ONGLET["t"] = r.split("/")
+    for _ in range(30):
+        time.sleep(2)
+        try:
+            if js("document.querySelector('[data-testid=tweetTextarea_0]')&&document.querySelector('input[type=file]')?'pret':'non'") == "pret": return
+        except Exception: pass
+    raise RuntimeError("x.com/home ne charge pas (session déconnectée ?)")
 
 def ferme_onglet():
-    try: osa('''tell application "Google Chrome"
-  repeat with w in windows
-    repeat with t in tabs of w
-      if (URL of t contains "x.com/") then
-        if (execute t javascript "window.__gtaxRoutine === 1") is true then close t
-      end if
-    end repeat
-  end repeat
-end tell''')
-    except Exception: pass
+    """Vide le brouillon (sinon Chrome bloque sur « Quitter le site ? ») puis ferme l'onglet de la routine."""
+    if not ONGLET: return
+    try:
+        js("(()=>{document.querySelectorAll('[data-testid=removeMedia]').forEach(b=>b.click());const e=document.querySelector('[data-testid=tweetTextarea_0]');if(e){e.focus();document.execCommand('selectAll',false,null);document.execCommand('delete',false,null)}return 1})()")
+        time.sleep(1)
+        osa(f'''with timeout of 20 seconds
+tell application "Google Chrome" to close (first tab of window id {ONGLET["w"]} whose id is {ONGLET["t"]})
+end timeout''')
+    except Exception as e:
+        log(f"fermeture onglet : {e}")
 
 def main():
     if "--maintenant" not in sys.argv and not ESSAI: time.sleep(random.randint(0, 50 * 60))
@@ -71,15 +70,18 @@ def main():
     ouvre_onglet()
     try:
         # 1) image dans le composeur de la page d'accueil (input file + DataTransfer)
+        js("window.__gtaxImg='';'ok'")   # image envoyée par morceaux : AppleScript renvoie « missing value » au-delà de ~100 Ko
+        for k in range(0, len(p["image"]), 60000): js("window.__gtaxImg+=%s;'ok'" % json.dumps(p["image"][k:k + 60000]))
         res = js("""(()=>{const i=document.querySelector('input[type=file][data-testid=fileInput]')||document.querySelector('input[type=file]');
-if(!i)return 'pas de champ image';const b=atob(%s);const a=new Uint8Array(b.length);for(let k=0;k<b.length;k++)a[k]=b.charCodeAt(k);
-const d=new DataTransfer();d.items.add(new File([a],'gtavifrance.jpg',{type:'image/jpeg'}));i.files=d.files;i.dispatchEvent(new Event('change',{bubbles:true}));return 'image ok'})()""" % json.dumps(p["image"]))
-        if res != "image ok": raise RuntimeError(res)
+if(!i)return 'pas de champ image';const b=atob(window.__gtaxImg);const a=new Uint8Array(b.length);for(let k=0;k<b.length;k++)a[k]=b.charCodeAt(k);
+const d=new DataTransfer();d.items.add(new File([a],'gtavifrance.jpg',{type:'image/jpeg'}));i.files=d.files;i.dispatchEvent(new Event('change',{bubbles:true}));return 'image ok'})()""")
+        if res != "image ok": raise RuntimeError(f"image : {res}")
         time.sleep(5)
         # 2) texte (insertText : l'éditeur de X le prend comme une frappe)
         res = js("""(()=>{const e=document.querySelector('[data-testid=tweetTextarea_0]');if(!e)return 'pas de zone texte';e.focus();
-document.execCommand('insertText',false,%s);return e.innerText.length>20?'texte ok':'texte vide'})()""" % json.dumps(p["texte"]))
-        if res != "texte ok": raise RuntimeError(res)
+document.execCommand('selectAll',false,null);document.execCommand('delete',false,null);
+document.execCommand('insertText',false,%s);const n=e.innerText.split(String.fromCharCode(10)).join('').length;return n>20&&n<300?'texte ok':'texte '+n})()""" % json.dumps(p["texte"]))
+        if res != "texte ok": raise RuntimeError(f"texte : {res}")
         time.sleep(3)
         etat = js("""(()=>{const b=document.querySelector('[data-testid=tweetButtonInline]');const img=document.querySelector('[data-testid=attachments] img');
 return (b&&b.getAttribute('aria-disabled')!=='true'?'bouton actif':'bouton inactif')+(img?' + image':' sans image')})()""")
@@ -95,7 +97,7 @@ return a.sort().pop()||''})()""")
         log(f"ÉCHEC {e}")
         sys.exit(1)
     finally:
-        if not ESSAI: ferme_onglet()
+        ferme_onglet()
 
 if __name__ == "__main__":
     main()
