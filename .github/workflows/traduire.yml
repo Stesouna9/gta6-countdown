@@ -4,7 +4,7 @@ on:
     - cron: "45 * * * *"   # toutes les heures (UTC), après la routine Solange
   push:                    # article publié → image et traductions tout de suite (pas d'image cassée)
     branches: [main]
-    paths: [data/articles.json]
+    paths: [data/articles.json, tools/i18n/en.json]
   workflow_dispatch:
     inputs:
       test: { type: boolean, default: false }
@@ -18,16 +18,16 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
-      - run: pip install -q deep-translator requests pillow
+      - run: pip install -q requests pillow
       - if: ${{ inputs.test }}
         run: python tools/traduire.py --test
       - if: ${{ !inputs.test }}
         run: python tools/img_auto.py | tee /tmp/img.log   # AVANT la traduction (longue) : jamais d'article sans photo ; photo trouvée par mot-clé (champ kw) pour les nouveaux articles
       - if: ${{ !inputs.test }}
-        run: python tools/traduire.py 4 | tee /tmp/trad.log
+        run: python tools/traduire.py 20 | tee /tmp/trad.log; python tools/traduire_i18n.py | tee -a /tmp/trad.log   # articles + textes fixes du site, 17 langues
       - if: ${{ !inputs.test }}
         run: |
-          grep -q "^traduit" /tmp/trad.log || grep -q "^[1-9][0-9]* image" /tmp/img.log || exit 0
+          grep -q "^traduit" /tmp/trad.log || grep -q "^i18n traduit : [a-z]" /tmp/trad.log || grep -q "^[1-9][0-9]* image" /tmp/img.log || exit 0
           python tools/prerender.py && python tools/pub.py
           git config user.name "gta6-bot"
           git config user.email "bot@users.noreply.github.com"

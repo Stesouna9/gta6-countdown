@@ -1,61 +1,67 @@
-# Traduction automatique des articles : la routine écrit fr + en, ce script complète les 15 autres langues.
-# Tourne dans GitHub Actions (traduire.yml). Traduit depuis en, nœud texte par nœud texte, balises et liens intacts.
+# Traduction automatique des articles : la rédaction écrit fr + en, ce script complète les 15 autres langues.
+# Lancé par Solange AVANT chaque commit (un article ne part jamais incomplet) et par GitHub Actions (traduire.yml) en filet.
+# 14/10/2026 : une seule requête par article et par langue (t, d, h envoyés ensemble, format html : balises et liens
+# intacts), 15 langues en parallèle → quelques secondes par article au lieu de 40 min (ancienne version nœud par nœud).
 import json, re, sys, time, html
-from deep_translator import GoogleTranslator
+from concurrent.futures import ThreadPoolExecutor
+import requests
 L17 = ["fr","en","es","pt","de","it","ja","zh","tw","ar","hi","ru","ko","tr","idn","pl","vi"]
 G = {"zh":"zh-CN","tw":"zh-TW","idn":"id"}
-MAX = int(sys.argv[1]) if len(sys.argv) > 1 and sys.argv[1].isdigit() else 4
-import requests
+MAX = int(sys.argv[1]) if len(sys.argv) > 1 and sys.argv[1].isdigit() else 20
 UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15"}
-def gtx(txt, l):
-    r = requests.get("https://translate.googleapis.com/translate_a/single", params={"client": "gtx", "sl": "en", "tl": G.get(l, l), "dt": "t", "q": txt}, headers=UA, timeout=20)
-    r.raise_for_status()
-    return "".join(seg[0] for seg in r.json()[0] if seg and seg[0])
-NOMS = ["Rockstar Games", "Rockstar North", "Rockstar", "Take-Two", "Grand Theft Auto", "GTA VI", "GTA 6", "GTA V", "GTA", "Vice City", "Vice Bay Radio", "Leonida", "Lucia Caminos", "Jason Duval", "Lucia", "Jason", "Newswire", "The Goodtime State", "PS5", "Xbox Series X|S", "Xbox", "Solange Rocheval", "Gabriel Janvier", "Daniel Jasner", "Lara Rivolet", "OKALAM Studio", "Virus Bus", "Zelnick", "Cyberleek"]
-def proteger(txt):
-    rep = []
-    for n in NOMS:
-        if n in txt:
-            rep.append(n); txt = txt.replace(n, "⟦%d⟧" % (len(rep) - 1))
-    return txt, rep
-def restaurer(txt, rep):
-    for i, n in enumerate(rep):
-        txt = re.sub(r"⟦\s*%d\s*⟧" % i, n, txt)
-    return txt
-def trad(txt, l):
-    m = re.match(r"^(\s*)(.*?)(\s*)$", txt, re.S); av, txt, ap = m.groups()
-    if not txt: return av + ap
-    txt, rep = proteger(txt)
-    err = None
-    for i in range(3):
+NOMS = ["Rockstar Games", "Rockstar North", "Rockstar", "Take-Two", "Grand Theft Auto", "GTA VI", "GTA 6", "GTA V", "GTA", "Vice City", "Vice Bay Radio", "Leonida", "Lucia Caminos", "Jason Duval", "Lucia", "Jason", "Newswire", "The Goodtime State", "PS5", "Xbox Series X|S", "Xbox", "Solange Rocheval", "Gabriel Janvier", "Daniel Jasner", "Lara Rivolet", "OKALAM Studio", "Virus Bus", "Zelnick", "Cyberleek", "GTAVIFRANCE"]
+RX_NOMS = re.compile("|".join(re.escape(n) for n in NOMS))
+NT = '<span class="notranslate">%s</span>'
+
+def proteger(h):
+    """Noms propres figés (hors balises) : Google ne traduit pas le contenu de class="notranslate"."""
+    return "".join(p if p.startswith("<") else RX_NOMS.sub(lambda m: NT % m.group(0), p) for p in re.split(r"(<[^>]+>)", h))
+
+def nettoyer(h):
+    h = re.sub(r'<span class="notranslate">(.*?)</span>', r"\1", h, flags=re.S)
+    h = re.sub(r' style=";?text-align:right;direction:rtl"', "", h)
+    return re.sub(r"</a> ([.,;:)])", r"</a>\1", h)
+
+def gtx(qs, l):
+    """Traduit une liste de fragments HTML en une requête (POST, plusieurs q)."""
+    for i in range(4):
         try:
-            r = gtx(txt, l) if i < 2 else (GoogleTranslator(source="en", target=G.get(l, l)).translate(txt) or txt)
-            time.sleep(0.3); return av + restaurer(r or txt, rep) + ap
+            r = requests.post("https://translate.googleapis.com/translate_a/t", params={"client": "gtx", "sl": "en", "tl": G.get(l, l), "format": "html"},
+                              data=[("q", q) for q in qs], headers=UA, timeout=60)
+            r.raise_for_status(); j = r.json()
+            j = [j] if isinstance(j, str) else [x if isinstance(x, str) else x[0] for x in j]
+            if len(j) == len(qs): return j
         except Exception as e:
-            err = e; time.sleep(3 + i * 5)
-    print("échec", l, str(err)[:120]); return av + restaurer(txt, rep) + ap
-def trad_html(h, l):
-    out = []
-    for part in re.split(r"(<[^>]+>)", h):
-        if not part or part.startswith("<") or not re.search(r"\w", part): out.append(part); continue
-        out.append(html.escape(trad(html.unescape(part), l), quote=False).replace("&quot;", '"'))
-    return "".join(out)
-if "--test" in sys.argv:
-    for l in ("ja","zh","tw","idn","ar"):
-        print(l, trad_html('<p>Rockstar confirmed it, <a href="https://x.y">according to IGN</a>. Price: 79.99 euros.</p><h2>Why it matters</h2>', l))
-    sys.exit(0)
-arts = json.load(open("data/articles.json", encoding="utf-8"))
-faits = []
-for a in arts:
-    src = a.get("en") if isinstance(a.get("en"), dict) and a["en"].get("t") else None
-    if not src: continue
-    manq = [l for l in L17 if l not in ("fr", "en") and (not isinstance(a.get(l), dict) or not a[l].get("t"))]
-    if not manq: continue
-    for l in manq:
-        a[l] = {"t": trad(src["t"], l), "d": trad(src.get("d", ""), l), "h": trad_html(src.get("h", ""), l)}
-        time.sleep(0.4)
-    faits.append(a["id"] + " (" + ",".join(manq) + ")")
-    if len(faits) >= MAX: break
-if not faits: print("rien à traduire"); sys.exit(0)
-json.dump(arts, open("data/articles.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-print("traduit :", "; ".join(faits))
+            err = e
+        time.sleep(4 + i * 6)
+    raise RuntimeError(f"échec {l}")
+
+def article(src, l):
+    t, d, h = (proteger(html.escape(src["t"], quote=False)), proteger(html.escape(src.get("d", ""), quote=False)), proteger(src.get("h", "")))
+    rt, rd, rh = gtx([t, d or ".", h or "."], l)
+    return {"t": html.unescape(nettoyer(rt)).strip(), "d": html.unescape(nettoyer(rd)).strip() if d else "", "h": nettoyer(rh) if h else ""}
+
+if __name__ == "__main__":
+    if "--test" in sys.argv:
+        src = {"t": "Rockstar confirms GTA 6 price", "d": "Take-Two speaks.", "h": '<p>Rockstar confirmed it, <a href="https://x.y">according to IGN</a>. Price: 79.99 euros.</p><h2>Why it matters</h2>'}
+        for l in ("ja", "zh", "tw", "idn", "ar"): print(l, article(src, l))
+        sys.exit(0)
+
+    arts = json.load(open("data/articles.json", encoding="utf-8"))
+    faits = []
+    for a in arts:
+        src = a.get("en") if isinstance(a.get("en"), dict) and a["en"].get("t") else None
+        if not src: continue
+        manq = [l for l in L17 if l not in ("fr", "en") and (not isinstance(a.get(l), dict) or not a[l].get("t"))]
+        if not manq: continue
+        ok = []
+        with ThreadPoolExecutor(5) as ex:
+            futs = {l: ex.submit(article, src, l) for l in manq}
+            for l, f in futs.items():
+                try: a[l] = f.result(); ok.append(l)
+                except Exception as e: print("échec", a["id"], l, str(e)[:100])
+        if ok: faits.append(a["id"] + " (" + ",".join(ok) + ")")
+        if len(faits) >= MAX: break
+    if not faits: print("rien à traduire"); sys.exit(0)
+    json.dump(arts, open("data/articles.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print("traduit :", "; ".join(faits))
