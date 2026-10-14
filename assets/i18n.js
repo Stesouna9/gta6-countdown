@@ -12,6 +12,13 @@
   var page = H.getAttribute("data-l") || "fr";
   window.LANG = page; window.ROOT = ROOT; window.LANGS = LANGS; window.NOMS = NOMS;
   function url(l) { return ROOT + (l === "fr" ? "" : l + "/") + PAGE + location.hash; }
+  // Page avec hreflang (articles) : seules les langues réellement traduites existent ; sinon null (14/10/2026, 404 en japonais).
+  function cible(l) {
+    var alts = document.querySelectorAll('link[rel="alternate"][hreflang]'); if (!alts.length) return url(l);
+    var hl = { zh: "zh-Hans", tw: "zh-Hant" }[l] || l;
+    for (var i = 0; i < alts.length; i++) if (alts[i].getAttribute("hreflang") === hl) return alts[i].href + location.hash;
+    return null;
+  }
   function lit() { try { return localStorage.getItem("lang"); } catch (e) { return null; } }
   window.T = function (k) { var d = I18N[LANG] || {}; return d[k] != null ? d[k] : ((I18N.en || {})[k] || ""); };
   function charge(l, fn) {
@@ -29,12 +36,12 @@
   window.setLang = function (l) {
     if (!NOMS[l]) return;
     try { localStorage.setItem("lang", l); } catch (e) {}
-    if (LOC) location.href = url(l); else charge(l, function () { applique(l); });
+    if (LOC) location.href = cible(l) || ("/" + (l === "fr" ? "" : l + "/") + "actus.html"); else charge(l, function () { applique(l); });
   };
   window.langOptions = function () { return LANGS.map(function (l) { return '<option value="' + l + '"' + (l === page ? " selected" : "") + ">" + NOMS[l] + "</option>"; }).join(""); };
   // Choix explicite (sélecteur ou ancien lien ?lang=xx) : on va vers la bonne copie.
   var q = (location.search.match(/[?&]lang=([a-z]{2})/) || [])[1], choix = q || lit();
-  if (LOC && choix && choix !== page && NOMS[choix]) { if (q) try { localStorage.setItem("lang", q); } catch (e) {} location.replace(url(choix)); }
+  if (LOC && choix && choix !== page && NOMS[choix] && cible(choix)) { if (q) try { localStorage.setItem("lang", q); } catch (e) {} location.replace(cible(choix)); }
   else if (!LOC && choix && NOMS[choix] && choix !== page) { page = choix; charge(choix, function () {}); }
   // Bouton « Traduire » de la barre : libellé dans la langue du navigateur du visiteur.
   var TRAD = { fr: "Traduire", en: "Translate", es: "Traducir", pt: "Traduzir", de: "Übersetzen", it: "Traduci", ja: "翻訳", zh: "翻译", tw: "翻譯", ar: "ترجمة", hi: "अनुवाद", ru: "Перевести", ko: "번역", tr: "Çevir", id: "Terjemahkan", pl: "Przetłumacz", vi: "Dịch" };
