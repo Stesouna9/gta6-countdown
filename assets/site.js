@@ -91,6 +91,14 @@ window.SITE = {
     }).catch(function () {});
   }
   maj(); setInterval(maj, 60000);
+  // Compteur de vues par article (data/vues_articles.json, généré par tools/vues_articles.py sur le serveur)
+  (function () {
+    var m = location.pathname.match(/\/journal\/([^\/]+)\.html$/), k = document.querySelector(".jr-tete .kicker"); if (!m || !k) return;
+    donnees("data/vues_articles.json").then(function (v) {
+      var n = v[m[1]]; if (!n) return;
+      var s = document.createElement("span"); s.className = "vues"; s.textContent = " · 👁 " + n.toLocaleString(window.LANG || "fr") + " " + (n > 1 ? T("vues_n") : T("vue_1")); k.appendChild(s);
+    }).catch(function () {});
+  })();
   // YouTube du jour : grille de vignettes depuis data/youtube.json
   window.chargeYoutube = function (el, n) {
     donnees("data/youtube.json").then(function (lst) {
