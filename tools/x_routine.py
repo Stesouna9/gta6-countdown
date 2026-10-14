@@ -100,6 +100,8 @@ def vues_du_jour():
 
 def main():
     slot = next((a for a in sys.argv[1:] if not a.startswith("--")), "actu")
+    if not SEC and "--maintenant" not in sys.argv:
+        import random; time.sleep(random.randint(0, 50 * 60))   # heure variable : jamais pile à l'heure (0 à 50 min de décalage)
     etat = json.loads(ETAT.read_text()) if ETAT.exists() else {"postes": [], "journal": []}
     arts = json.load(open(RACINE / "data/articles.json", encoding="utf-8"))
     arts.sort(key=lambda a: a.get("date", ""), reverse=True)
