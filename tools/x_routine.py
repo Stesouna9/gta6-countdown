@@ -6,7 +6,8 @@
 Texte ≤ 260 caractères, SANS lien (« lien en bio », 0,015 $ le post), hashtags #GTA6 #GTAVI #GTA6France + thème, 1 image.
 Jamais deux fois le même article (x_routine_etat.json). Clés : /etc/gtavifrance-relais.env (X_API_KEY, X_API_SECRET,
 X_ACCESS_TOKEN, X_ACCESS_SECRET). Crédits API nécessaires (carte ajoutée par Gabriel dans console.x.com).
-Usage : python3 tools/x_routine.py actu|site|cyberleek|top [--sec]   (--sec : affiche le post sans publier)"""
+Usage : python3 tools/x_routine.py actu|site|cyberleek|top [--sec | --json | --marque <cle> <id>]
+(--json : le post préparé pour tools/x_chrome.py, qui publie depuis le Chrome du Mac de Gabriel, sans API)   (--sec : affiche le post sans publier)"""
 import base64, datetime, hashlib, hmac, io, json, os, re, secrets, sys, time, urllib.parse, urllib.request, uuid
 from pathlib import Path
 
@@ -100,7 +101,13 @@ def vues_du_jour():
 
 def main():
     slot = next((a for a in sys.argv[1:] if not a.startswith("--")), "actu")
-    if not SEC and "--maintenant" not in sys.argv:
+    if "--marque" in sys.argv:   # appelé par tools/x_chrome.py (Mac) après publication dans Chrome
+        etat = json.loads(ETAT.read_text()) if ETAT.exists() else {"postes": [], "journal": []}
+        cle, pid = sys.argv[sys.argv.index("--marque") + 1], sys.argv[sys.argv.index("--marque") + 2]
+        etat["postes"].append(cle); etat["postes"] = etat["postes"][-300:]
+        etat["journal"].append({"quand": datetime.datetime.now().isoformat(timespec="minutes"), "slot": slot, "id": pid, "cle": cle, "via": "chrome"})
+        ETAT.write_text(json.dumps(etat, ensure_ascii=False, indent=1)); print("marqué", cle); return
+    if not SEC and "--json" not in sys.argv and "--maintenant" not in sys.argv:
         import random; time.sleep(random.randint(0, 50 * 60))   # heure variable : jamais pile à l'heure (0 à 50 min de décalage)
     etat = json.loads(ETAT.read_text()) if ETAT.exists() else {"postes": [], "journal": []}
     arts = json.load(open(RACINE / "data/articles.json", encoding="utf-8"))
@@ -121,6 +128,7 @@ def main():
         texte = compose(("🔒 " if cyb else "🚨 ") + a["fr"]["t"], a["fr"].get("d", ""), "#Cyberleek" if cyb else "#ViceCity")
         img, cle = image_article(a), a["id"]
     if SEC: print(texte, f"\n[{len(texte)} car., image {len(img)} o]"); return
+    if "--json" in sys.argv: print(json.dumps({"slot": slot, "cle": cle, "texte": texte, "image": base64.b64encode(img).decode()})); return
     try:
         pid = tweet(texte, upload(img))
     except urllib.error.HTTPError as e:
