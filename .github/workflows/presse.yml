@@ -1,7 +1,7 @@
 name: Revue de presse pour Solange
 on:
   schedule:
-    - cron: "3 * * * *"   # toutes les heures (UTC), avant la routine Solange
+    - cron: "3,33 * * * *"   # toutes les 30 min (UTC) : à l'affût de GTA 6 et Cyberleek, avant la routine Solange
   workflow_dispatch:
 permissions:
   contents: write

@@ -55,9 +55,15 @@ def main():
         try: ancien = {x["gn"]: x for x in json.loads(SORTIE.read_text()) if x.get("gn")}
         except Exception: ancien = {}
     items, vus = [], set()
-    for lang in ("fr", "en"):
-        try: lst = news(lang)
-        except Exception as e: print("news", lang, e); lst = []
+    # flux général GTA 6 + veille dédiée Cyberleek (sujet qui amène le trafic, 14/10/2026)
+    import update as _u
+    for lang, q in (("fr", None), ("en", None), ("fr", "Cyberleek"), ("en", "Cyberleek"), ("en", '"GTA 6" leak'), ("fr", "fuite GTA 6")):
+        try:
+            if q: _sv = _u.LANGS[lang]; _u.LANGS[lang] = _sv[:3] + (q,)
+            lst = news(lang)[:15 if q else None]
+        except Exception as e: print("news", lang, q, e); lst = []
+        finally:
+            if q: _u.LANGS[lang] = _sv
         for it in lst:
             if it["u"] in ancien and ancien[it["u"]].get("txt"):
                 x = ancien[it["u"]]
@@ -69,6 +75,7 @@ def main():
                 except Exception as e:
                     x["erreur"] = str(e)[:120]
             x["lang"] = lang
+            if q or "cyberleek" in (x.get("t", "") + x.get("chapeau", "")).lower(): x["cyberleek"] = True
             if x.get("u", x["gn"]) in vus: continue
             vus.add(x.get("u", x["gn"])); items.append(x)
     try:
@@ -81,7 +88,7 @@ def main():
             if x.get("u", x["gn"]) not in vus: vus.add(x.get("u", x["gn"])); items.append(x)
     except Exception as e: print("rockstar", e)
     items.sort(key=lambda x: x.get("d") or "", reverse=True)
-    SORTIE.write_text(json.dumps({"maj": datetime.now(timezone.utc).isoformat(timespec="seconds"), "articles": items[:40]}, ensure_ascii=False, indent=1))
+    SORTIE.write_text(json.dumps({"maj": datetime.now(timezone.utc).isoformat(timespec="seconds"), "articles": items[:70]}, ensure_ascii=False, indent=1))
     ok = sum(1 for x in items if x.get("txt"))
     print(f"presse : {len(items)} articles, {ok} avec texte")
 
