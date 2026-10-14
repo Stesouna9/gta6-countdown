@@ -575,7 +575,7 @@ for l in T:
     <p class="jr-sources haut"><b>{e(tr(l, "jr_src"))}</b> {srcs}</p></div></header>
   <section class="papier"><div class="wrap jr-corps">{_cd}<div class="pub jr" data-pub="jr-haut"></div>{h}
     <p class="jr-sources"><b>{e(tr(l, "jr_src"))}</b> {srcs}</p>
-    <p class="note jr-signature">{e((a.get("auteur") or "Solange Rocheval") + " · " + tr(l, "jr_ia" if (a.get("auteur") or "Solange Rocheval") == "Solange Rocheval" else "jr_perso"))}</p><div class="partage"></div>
+    <p class="note jr-signature">{e(tr(l, "jr_auteur").replace("Solange Rocheval", a.get("auteur") or "Solange Rocheval"))}</p><div class="partage"></div>
     <div class="boutons"><a class="btn" href="actus.html">{e(tr(l, "jr_suite"))}</a><a class="btn clair" href="https://www.instagram.com/vicebayradio/" target="_blank" rel="noopener">{e(tr(l, "ig_cta"))}</a></div>{_fin}</div></section>
 """
         ld = [{"@context": "https://schema.org", "@type": "NewsArticle", "headline": x["t"], "description": x["d"], "inLanguage": l, "datePublished": a["date"], "dateModified": a.get("maj", a["date"]), "image": [a.get("img") or BASE + "assets/jn.jpg"], "mainEntityOfPage": art_url(a, l),
@@ -604,7 +604,7 @@ for l in T:
     <h2>{e(c['chrono'])}</h2><ul class="jr-recent">{liste}</ul>
     {faq}
     <p class="verifie">{e(c['note'])}</p>
-    <p class="note jr-signature">✍ Solange Rocheval · {e(tr(l, "jr_ia"))}</p>
+    <p class="note jr-signature">✍ Solange Rocheval · Daniel Jasner · Lara Rivolet · Gabriel Janvier · {e(tr(l, "jr_redac"))}</p>
     <div class="boutons"><a class="btn" href="actus.html">{e(tr(l, "nav_news"))}</a></div>
     <div class="partage"></div>
   </div></section>
