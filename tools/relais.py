@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Relais automatique des nouveaux articles vers Telegram, Bluesky et Discord (API gratuites).
 Secrets dans l'environnement (jamais dans git) : TELEGRAM_TOKEN + TELEGRAM_CHAT ; BSKY_HANDLE + BSKY_APP_PASSWORD ; DISCORD_WEBHOOK ;
-X_API_KEY + X_API_SECRET + X_ACCESS_TOKEN + X_ACCESS_SECRET (OAuth 1.0a, app Read and write) ET X_VALIDE=1 (règle d'or : posé seulement après validation par Gabriel du texte exact du 1er post et du format ; X_MODE=texte (défaut) : titre sans lien, 0,015 $/post ; X_MODE=reply : titre puis lien en réponse ; X_MODE=direct : titre + lien ; tout post avec URL coûte 0,20 $).
+X_API_KEY + X_API_SECRET + X_ACCESS_TOKEN + X_ACCESS_SECRET (OAuth 1.0a, app Read and write) ET X_VALIDE=1 (règle d'or : posé seulement après validation par Gabriel du texte exact du 1er post et du format ; X_MODE=direct (défaut) : titre + lien, 0,20 $/post ; X_MODE=texte : titre seul, 0,015 $ ; X_MODE=reply : titre puis lien en réponse. X publie au plus 1 article tous les 2 jours : le meilleur des 48 h).
 Un canal sans secret est ignoré. 1er passage : marque tous les articles existants comme déjà relayés (pas d'inondation).
 Usage : python3 tools/relais.py [etat.json]   (serveur : cron 5 min, EnvironmentFile /etc/gtavifrance-relais.env)
         RELAIS_DRY=1 : affiche sans publier."""
@@ -58,13 +58,34 @@ def _tweet(body):
 def x(t, u):
     if not all(E(k) for k in ("X_API_KEY", "X_API_SECRET", "X_ACCESS_TOKEN", "X_ACCESS_SECRET")): return None
     if E("X_VALIDE") != "1": return "en attente de validation (X_VALIDE)"
-    if E("X_MODE", "texte") == "texte":  # défaut : sans lien (0,015 $ le post au lieu de 0,20 $ avec URL), le site est dans la bio
+    if E("X_MODE", "direct") == "texte":  # sans lien : 0,015 $ le post au lieu de 0,20 $ avec URL
         _tweet({"text": t[:280]}); return True
-    if E("X_MODE") == "direct":
+    if E("X_MODE", "direct") == "direct":
         _tweet({"text": (t[:255] + "\n" + u)}); return True
     r = _tweet({"text": t[:280]})
     _tweet({"text": u, "reply": {"in_reply_to_tweet_id": r["data"]["id"]}})
     return True
+
+def x_meilleur(arts, etat):
+    """X : 1 post tous les 2 jours = le meilleur article des 48 h (vues GoatCounter, puis alerte 🚨, puis le plus récent), titre + lien (0,20 $)."""
+    if E("X_VALIDE") != "1" and not DRY: return
+    now = datetime.now(timezone.utc)
+    der = etat.get("x_dernier")
+    if der and (now - datetime.fromisoformat(der)).total_seconds() < 47 * 3600: return
+    try: vues = json.load(open(RACINE / "live" / "vues_articles.json"))
+    except Exception: vues = {}
+    ok = []
+    for a in arts:
+        try: age = (now - datetime.fromisoformat(a["date"])).total_seconds()
+        except Exception: continue
+        if age <= 48 * 3600 and a["id"] not in etat.get("x_faits", []): ok.append(a)
+    if not ok: return
+    m = max(ok, key=lambda a: (vues.get(a["id"], 0), "🚨" in (a.get("fr") or {}).get("t", ""), a["date"]))
+    t = (m.get("fr") or {}).get("t") or m["id"]; u = f"{BASE}journal/{m['id']}.html"
+    if DRY: print("DRY X", t, u); return
+    r = x(t, u)
+    print("relais X", m["id"], r)
+    if r is True: etat["x_dernier"] = now.isoformat(); etat.setdefault("x_faits", []).append(m["id"])
 
 def main():
     arts = json.load(open(RACINE / "data" / "articles.json", encoding="utf-8"))
@@ -76,12 +97,13 @@ def main():
         f = a.get("fr") or {}; t = f.get("t") or a["id"]; u = f"{BASE}journal/{a['id']}.html"
         res = {}
         if DRY: print("DRY", t, u); continue
-        for nom, fn in (("telegram", lambda: telegram(t, u)), ("discord", lambda: discord(t, u)), ("bluesky", lambda: bluesky(t, u, f.get("d"), a.get("img"))), ("x", lambda: x(t, u))):
+        for nom, fn in (("telegram", lambda: telegram(t, u)), ("discord", lambda: discord(t, u)), ("bluesky", lambda: bluesky(t, u, f.get("d"), a.get("img")))):
             try: res[nom] = fn()
             except Exception as e: res[nom] = "ERR " + str(e)[:80]
         print("relais", a["id"], res)
         faits.add(a["id"])
-    if not DRY: ETAT.write_text(json.dumps({"faits": sorted(faits)}))
+    x_meilleur(arts, etat)
+    if not DRY: etat["faits"] = sorted(faits); ETAT.write_text(json.dumps(etat))
 
 if __name__ == "__main__":
     main()
