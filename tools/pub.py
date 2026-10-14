@@ -599,6 +599,7 @@ for l in T:
     <h2>{e(c['chrono'])}</h2><ul class="jr-recent">{liste}</ul>
     {faq}
     <p class="verifie">{e(c['note'])}</p>
+    <p class="note jr-signature">✍ Solange Rocheval · Daniel Jasner · Lara Rivolet · Gabriel Janvier · GTAVIFRANCE</p>
     <div class="boutons"><a class="btn" href="actus.html">{e(tr(l, "nav_news"))}</a></div>
     <div class="partage"></div>
   </div></section>
