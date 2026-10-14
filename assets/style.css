@@ -1070,3 +1070,17 @@ html::before{content:"";position:fixed;top:0;left:0;right:0;height:1px;backgroun
  .flap-rangs .flap{--fw:min(80px,calc(9.3cqw - 3px));--fh:calc(var(--fw)*1.42)}
  .flap-rangs .flap-jours .flap{--fw:min(118px,calc(13.6cqw - 4px))}
 }
+
+/* nos applis : pubs maison */
+.applis{background:var(--ink2);padding:clamp(48px,7vw,96px) 0}
+.applis-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin-top:28px}
+.appli{position:relative;display:flex;flex-direction:column;gap:10px;padding:26px 22px 22px;border:1px solid rgba(242,232,213,.22);border-radius:6px;background:var(--ink)}
+.appli img{width:64px;height:64px;border-radius:14px;object-fit:cover}
+.appli h3{font-family:var(--display,inherit);font-size:1.3rem;margin:0;color:var(--paper)}
+.appli p{margin:0;color:rgba(242,232,213,.8);font-size:.95rem}
+.appli-tag{position:absolute;top:12px;right:14px;font-size:.62rem;letter-spacing:.16em;border:1px solid rgba(242,232,213,.35);padding:2px 6px;color:rgba(242,232,213,.6)}
+.appli-liens{display:flex;flex-wrap:wrap;gap:8px;margin-top:auto;padding-top:8px}
+.appli-liens a{padding:8px 14px;border:1px solid var(--paper);color:var(--paper);text-decoration:none;font-size:.85rem}
+.appli-liens a:first-child{background:var(--gold,#ffb02e);border-color:var(--gold,#ffb02e);color:var(--ink)}
+.appli-liens a:hover{background:var(--hot,#ff2e88);border-color:var(--hot,#ff2e88);color:var(--ink)}
+.appli-note{margin-top:22px;color:rgba(242,232,213,.7);font-size:.9rem}.appli-note a{color:var(--gold,#ffb02e)}
