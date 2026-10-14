@@ -579,7 +579,7 @@ for l in T:
     <div class="boutons"><a class="btn" href="actus.html">{e(tr(l, "jr_suite"))}</a><a class="btn clair" href="https://www.instagram.com/vicebayradio/" target="_blank" rel="noopener">{e(tr(l, "ig_cta"))}</a></div>{_fin}</div></section>
 """
         ld = [{"@context": "https://schema.org", "@type": "NewsArticle", "headline": x["t"], "description": x["d"], "inLanguage": l, "datePublished": a["date"], "dateModified": a.get("maj", a["date"]), "image": [a.get("img") or BASE + "assets/jn.jpg"], "mainEntityOfPage": art_url(a, l),
-               "author": {"@type": "Person", "name": a.get("auteur") or "Solange Rocheval", "url": BASE + "apropos.html"}, "publisher": {"@type": "Organization", "name": "GTAVIFRANCE", "url": BASE, "logo": {"@type": "ImageObject", "url": BASE + "assets/icon-192.png"}}}]
+               "author": {"@type": "Person", "name": a.get("auteur") or "Solange Rocheval", "url": BASE + "apropos.html#redaction"}, "publisher": {"@type": "Organization", "name": "GTAVIFRANCE", "url": BASE, "logo": {"@type": "ImageObject", "url": BASE + "assets/icon-192.png"}}}]
         write(("" if l == "fr" else l + "/") + f"journal/{a['id']}.html", page(l, art_url(a, l), x["t"] + " | GTAVIFRANCE", x["d"], body, ld, img=a.get("img"), page_shell="actus",
               alts={k: art_url(a, k) for k in T if k == "fr" or isinstance(a.get(art_cle(k)), dict)}))
         URLS.append((art_url(a, l), l, "0.9"))
