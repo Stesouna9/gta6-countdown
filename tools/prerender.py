@@ -44,14 +44,14 @@ def ld_page(l, page, D):
         g.append({"@type": "FAQPage", "inLanguage": HL.get(l, l), "mainEntity": [{"@type": "Question", "name": D[f"q{i}"], "acceptedAnswer": {"@type": "Answer", "text": D[f"a{i}"]}} for i in range(1, 7)]})
     if page == "actus":
         g.append({"@type": "ItemList", "itemListElement": [{"@type": "ListItem", "position": i + 1, "item": {"@type": "NewsArticle", "headline": a["titre"], "datePublished": a["date"],
-                  "description": a["texte"], "url": a.get("lien") or url("fr", "actus"), "inLanguage": "fr", "author": {"@type": "Organization", "name": "VI Countdown", "url": BASE},
+                  "description": a["texte"], "url": a.get("lien") or url("fr", "actus"), "inLanguage": "fr", "author": {"@type": "Organization", "name": "Rédaction GTAVIFRANCE", "url": BASE},
                   "publisher": {"@type": "Organization", "name": "OKALAM Studio", "url": "https://okalamstudio.com"}, "image": BASE + "assets/img/vb-downtown.webp"}} for i, a in enumerate(ACTUS)]})
     if page == "radio":
         g.append({"@type": "WebApplication", "name": "Vice Bay Radio", "url": "https://vicebayradio.com", "applicationCategory": "MusicApplication", "operatingSystem": "Web",
                   "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"}, "description": D.get("md_radio", "")})
     if page == "vicebreak":
         g.append({"@type": ["MobileApplication", "VideoGame"], "name": "Vice Break", "operatingSystem": "iOS, Android", "applicationCategory": "GameApplication",
-                  "datePublished": "2026-11-19", "author": {"@type": "Organization", "name": "OKALAM Studio"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"},
+                  "datePublished": "2026-11-19", "author": {"@type": "Organization", "name": "Rédaction GTAVIFRANCE"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"},
                   "description": D.get("md_vicebreak", ""), "image": BASE + "assets/img/vb1.webp"})
     if page == "sortie":
         g.append({"@type": "Event", "name": "Grand Theft Auto VI", "startDate": "2026-11-19", "eventStatus": "https://schema.org/EventScheduled",
@@ -60,7 +60,7 @@ def ld_page(l, page, D):
                   "description": D.get("md_sortie", "")})
     if page == "guide":
         g.append({"@type": "Article", "headline": D.get("mt_guide", ""), "inLanguage": HL.get(l, l), "dateModified": datetime.date.today().isoformat(),
-                  "author": {"@type": "Organization", "name": "VI Countdown", "url": BASE}, "about": {"@type": "VideoGame", "name": "Grand Theft Auto VI"},
+                  "author": {"@type": "Organization", "name": "Rédaction GTAVIFRANCE", "url": BASE}, "about": {"@type": "VideoGame", "name": "Grand Theft Auto VI"},
                   "image": "https://img.youtube.com/vi/VQRLujxTm3c/maxresdefault.jpg"})
     if not g: return ""
     return '\n  <script type="application/ld+json" data-gen>' + json.dumps({"@context": "https://schema.org", "@graph": g}, ensure_ascii=False) + "</script>"

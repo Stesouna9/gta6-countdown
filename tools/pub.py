@@ -376,7 +376,7 @@ for l, qs in Q.items():
   <section><div class="wrap"><div class="rubrique rv"><span class="num">+</span><h2>{e(QT[l][2])}</h2></div><ul class="liste-q">{autres}</ul><div class="partage"></div></div></section>
 """
         ld = [{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": l, "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": r}}]},
-              {"@context": "https://schema.org", "@type": "Article", "headline": q, "inLanguage": l, "dateModified": TODAY.isoformat(), "author": {"@type": "Organization", "name": "OKALAM Studio"}, "publisher": {"@type": "Organization", "name": "VI Countdown"}, "mainEntityOfPage": url}]
+              {"@context": "https://schema.org", "@type": "Article", "headline": q, "inLanguage": l, "dateModified": TODAY.isoformat(), "author": {"@type": "Organization", "name": "Rédaction GTAVIFRANCE"}, "publisher": {"@type": "Organization", "name": "VI Countdown"}, "mainEntityOfPage": url}]
         write(("" if l == "fr" else l + "/") + f"q/{slug}.html", page(l, url, q + " | VI Countdown", r[:155], body, ld, img=BASE + f"assets/og/{l}/faq.jpg", page_shell="faq"))
         URLS.append((url, l, "0.7"))
 
@@ -435,7 +435,7 @@ for l, (slug, t, i, h2, h3) in AJ.items():
     <p class="fait" style="margin-top:36px"><span class="kicker">{e(AJ2[l][2])}</span>{e(FAITS[l][TODAY.toordinal() % len(FAITS[l])])}</p><div class="partage"></div></div></section>
 """
     ld = [{"@context": "https://schema.org", "@type": "NewsArticle", "headline": t, "description": i, "inLanguage": l, "datePublished": TODAY.isoformat() + "T06:00:00+01:00", "dateModified": datetime.datetime.now().isoformat(timespec="seconds"),
-           "image": [BASE + f"assets/jn{'-fr' if l == 'fr' else ''}.jpg"], "author": {"@type": "Organization", "name": "OKALAM Studio"}, "publisher": {"@type": "Organization", "name": "VI Countdown", "logo": {"@type": "ImageObject", "url": BASE + "assets/icon-512.png"}}, "mainEntityOfPage": url}]
+           "image": [BASE + f"assets/jn{'-fr' if l == 'fr' else ''}.jpg"], "author": {"@type": "Organization", "name": "Rédaction GTAVIFRANCE"}, "publisher": {"@type": "Organization", "name": "VI Countdown", "logo": {"@type": "ImageObject", "url": BASE + "assets/icon-512.png"}}, "mainEntityOfPage": url}]
     write(("" if l == "fr" else l + "/") + f"{slug}.html", page(l, url, t + " | VI Countdown", i, body, ld, img=BASE + f"assets/jn{'-fr' if l == 'fr' else ''}.jpg", page_shell="actus"))
     URLS.append((url, l, "0.9"))
 
@@ -575,11 +575,11 @@ for l in T:
     <p class="jr-sources haut"><b>{e(tr(l, "jr_src"))}</b> {srcs}</p></div></header>
   <section class="papier"><div class="wrap jr-corps">{_cd}<div class="pub jr" data-pub="jr-haut"></div>{h}
     <p class="jr-sources"><b>{e(tr(l, "jr_src"))}</b> {srcs}</p>
-    <p class="note jr-signature">{e(tr(l, "jr_auteur").replace("Solange Rocheval", a.get("auteur") or "Solange Rocheval"))}</p><div class="partage"></div>
+    <p class="note jr-signature">{e((a.get("auteur") or "Solange Rocheval") + " · " + tr(l, "jr_ia" if (a.get("auteur") or "Solange Rocheval") == "Solange Rocheval" else "jr_perso"))}</p><div class="partage"></div>
     <div class="boutons"><a class="btn" href="actus.html">{e(tr(l, "jr_suite"))}</a><a class="btn clair" href="https://www.instagram.com/vicebayradio/" target="_blank" rel="noopener">{e(tr(l, "ig_cta"))}</a></div>{_fin}</div></section>
 """
         ld = [{"@context": "https://schema.org", "@type": "NewsArticle", "headline": x["t"], "description": x["d"], "inLanguage": l, "datePublished": a["date"], "dateModified": a.get("maj", a["date"]), "image": [a.get("img") or BASE + "assets/jn.jpg"], "mainEntityOfPage": art_url(a, l),
-               "author": {"@type": "Person", "name": a.get("auteur") or "Solange Rocheval", "url": BASE + "apropos.html#redaction"}, "publisher": {"@type": "Organization", "name": "GTAVIFRANCE", "url": BASE, "logo": {"@type": "ImageObject", "url": BASE + "assets/icon-192.png"}}}]
+               "author": {"@type": "Organization", "name": "Rédaction GTAVIFRANCE", "url": BASE + "apropos.html#redaction"}, "publisher": {"@type": "Organization", "name": "GTAVIFRANCE", "url": BASE, "logo": {"@type": "ImageObject", "url": BASE + "assets/icon-192.png"}}}]
         write(("" if l == "fr" else l + "/") + f"journal/{a['id']}.html", page(l, art_url(a, l), x["t"] + " | GTAVIFRANCE", x["d"], body, ld, img=a.get("img"), page_shell="actus",
               alts={k: art_url(a, k) for k in T if k == "fr" or isinstance(a.get(art_cle(k)), dict)}))
         URLS.append((art_url(a, l), l, "0.9"))
@@ -604,7 +604,7 @@ for l in T:
     <h2>{e(c['chrono'])}</h2><ul class="jr-recent">{liste}</ul>
     {faq}
     <p class="verifie">{e(c['note'])}</p>
-    <p class="note jr-signature">✍ Solange Rocheval · Daniel Jasner · Lara Rivolet · Gabriel Janvier · GTAVIFRANCE</p>
+    <p class="note jr-signature">✍ Solange Rocheval · {e(tr(l, "jr_ia"))}</p>
     <div class="boutons"><a class="btn" href="actus.html">{e(tr(l, "nav_news"))}</a></div>
     <div class="partage"></div>
   </div></section>
