@@ -1,11 +1,12 @@
 """Routine X quotidienne de @GTAfance (14/10/2026, demande de Gabriel) : 3 posts par jour, format validé ce jour-là.
   9 h  actu   : l'article du jour le plus récent (hors Cyberleek)
   13 h site   : compte à rebours J-xx + un angle du site (visuel généré : J-xx sur l'affiche, gtavifrance.com)
-  19 h cyberleek : le dernier article Cyberleek (image = logo Cyberleek de l'article, jamais de contenu fuité)
+  16 h cyberleek : le dernier article Cyberleek (image = logo Cyberleek de l'article, jamais de contenu fuité)
+  19 h top    : l'article le plus vu de la journée (GoatCounter, toutes langues), sinon le plus récent pas encore posté
 Texte ≤ 260 caractères, SANS lien (« lien en bio », 0,015 $ le post), hashtags #GTA6 #GTAVI #GTA6France + thème, 1 image.
 Jamais deux fois le même article (x_routine_etat.json). Clés : /etc/gtavifrance-relais.env (X_API_KEY, X_API_SECRET,
 X_ACCESS_TOKEN, X_ACCESS_SECRET). Crédits API nécessaires (carte ajoutée par Gabriel dans console.x.com).
-Usage : python3 tools/x_routine.py actu|site|cyberleek [--sec]   (--sec : affiche le post sans publier)"""
+Usage : python3 tools/x_routine.py actu|site|cyberleek|top [--sec]   (--sec : affiche le post sans publier)"""
 import base64, datetime, hashlib, hmac, io, json, os, re, secrets, sys, time, urllib.parse, urllib.request, uuid
 from pathlib import Path
 
@@ -83,6 +84,20 @@ ANGLES = [  # 13 h : un angle du site par jour, en rotation
     ("🌍", "L'actu GTA 6 vérifiée, chaque jour, en 17 langues. Et l'heure de sortie dans chaque pays.", "#ViceCity"),
 ]
 
+def vues_du_jour():
+    """{id article: vues aujourd'hui, toutes langues} depuis la base GoatCounter (lecture seule)."""
+    import sqlite3
+    try:
+        c = sqlite3.connect("file:/opt/goatcounter/db.sqlite3?mode=ro", uri=True)
+        rows = c.execute("select p.path, sum(h.total) from hit_counts h join paths p using(path_id) "
+                         "where h.hour >= date('now') and p.path like '%journal/%' group by p.path").fetchall()
+    except Exception: return {}
+    v = {}
+    for path, n in rows:
+        m = re.search(r"journal/([^/]+)\.html", path)
+        if m: v[m.group(1)] = v.get(m.group(1), 0) + n
+    return v
+
 def main():
     slot = next((a for a in sys.argv[1:] if not a.startswith("--")), "actu")
     etat = json.loads(ETAT.read_text()) if ETAT.exists() else {"postes": [], "journal": []}
@@ -94,8 +109,11 @@ def main():
         texte, img, cle = compose(f"{e} J-{j} avant GTA 6.", txt, th), visuel_jours(j), f"site-{datetime.date.today()}"
     else:
         cyb = slot == "cyberleek"
-        cands = [a for a in arts if ("cyberleek" in a["id"]) == cyb and a["id"] not in etat["postes"]
-                 and isinstance(a.get("fr"), dict) and image_article(a)][:5]
+        cands = [a for a in arts if (slot == "top" or ("cyberleek" in a["id"]) == cyb) and a["id"] not in etat["postes"]
+                 and isinstance(a.get("fr"), dict) and image_article(a)][:40 if slot == "top" else 5]
+        if slot == "top":
+            v = vues_du_jour(); cands.sort(key=lambda a: -v.get(a["id"], 0))
+            cyb = bool(cands) and "cyberleek" in cands[0]["id"]
         if not cands: print(f"{slot} : rien de nouveau à poster"); return
         a = cands[0]
         texte = compose(("🔒 " if cyb else "🚨 ") + a["fr"]["t"], a["fr"].get("d", ""), "#Cyberleek" if cyb else "#ViceCity")
