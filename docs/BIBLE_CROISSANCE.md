@@ -56,5 +56,17 @@ Visites/jour (GoatCounter, data/audience.json) · top 5 articles (vues par artic
 ## Journal d'application
 - 14/10 : galerie photos, article Bloomberg, compteur de vues, veille, relais, synthèse des 3 IA, bible créée.
 
-## Relecture ChatGPT
-(à remplir : points validés, points contestés, corrections)
+## Relecture ChatGPT (14/10/2026) : corrections retenues
+Verdict : bon plan, mais trop centré sur la vitesse ; sécuriser d'abord indexation, qualité et fidélisation.
+1. Avant d'accélérer : Search Console (pages indexées par langue, erreurs, canoniques, sitemaps) ; analyser les 50 visites actuelles ; maillage interne systématique. (GV, cette semaine)
+2. Veille ≠ publication en 30 min garantie : séparer détection, vérification, rédaction, publication, diffusion. Publication auto seulement pour infos confirmées par source fiable ; rumeurs sensibles en validation humaine ; mention confirmé/rumeur/analyse, lien source, heure de vérification, historique des corrections. Newswire et YouTube officiel = sources primaires ; Reddit = piste, jamais source.
+3. Discover : aucune garantie. Données structurées avec dates de publication ET de modification. Person seulement pour un auteur humain réel : nos signatures (Solange Rocheval, passagers du Virus Bus) sont des personnages, donc Organization (éditeur GTAVIFRANCE) ou « rédaction » pour ceux-là, sinon risque de faux auteur. Publisher Center n'est pas un préalable.
+4. Contenu IA multilingue : Google juge abusif le contenu de masse sans valeur propre, traduit ou non. Valeur distincte obligatoire (contexte FR, comparaison, conséquences pour les joueurs, sources primaires) ; contrôle des traductions ; cadence selon l'actu réelle, pas « 3 à 5 par jour ».
+5. Canaux : d'abord Telegram, Discord, Bluesky pendant 2 semaines, puis développer ce qui rapporte. Liens UTM distincts par canal. Push et newsletter avec consentement et désabonnement. X : tester lien dans le post vs en réponse.
+6. Backlinks : pas d'annuaires ni d'outils de masse. 1 ou 2 actifs utiles : chronologie interactive des annonces, FAQ documentée, carte de Leonida sourcée, page « informations confirmées » datée. Images officielles : respecter les conditions d'usage de Rockstar.
+7. Calendrier révisé : 14-21/10 audit indexation, automatisations, mesure de référence · 22-28/10 guides evergreen, pages thématiques, tests de diffusion, premières vidéos · 29/10-4/11 guides précommande vérifiés, FAQ, test de charge, plan de secours · 5-11/11 veille renforcée, articles conditionnels · 12-18/11 préchargement (minuit heure locale), FAQ technique, préparation du direct · 19/11 direct horodaté · 20/11-3/12 guides débutant, FAQ, solutions aux problèmes.
+8. Indicateurs ajoutés : pages indexées par langue ; impressions, clics, CTR, position ; sessions par canal, nouveaux vs récurrents ; inscriptions et clics push/newsletter ; temps de réponse, erreurs de publication, doublons ; temps de maintenance. Bilan hebdo : 3 décisions (arrêter, améliorer, développer).
+9. Manquait : plan de secours (source indisponible, automatisation en panne, pic de trafic) ; règles de droit et modération (images, plateformes, données perso) ; objectifs mesurables (proposition : 150 visites/jour à 7 j, 500 à 30 j, 3 000 le 19/11, à valider par Doc).
+
+## Passerelle Claude <-> ChatGPT
+Voir section dédiée ci-dessous (à compléter après décision de Doc).
