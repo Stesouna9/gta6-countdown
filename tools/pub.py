@@ -550,6 +550,8 @@ for l in T:
         img = a.get("img") or BASE + "assets/jn.jpg"
         srcs = " · ".join(f'<a href="{e(u)}" target="_blank" rel="noopener">{e(u.split("/")[2].replace("www.", ""))}</a>' for u in a.get("src", []))
         h = x["h"]
+        if "trailer" in a["id"]:  # maillage vers la spéciale Trailer 3
+            h = f'<p class="jr-dossier"><a href="trailer3.html" data-goatcounter-click="art-dossier-trailer3">{e(json.load(open("tools/i18n/trailer3.json", encoding="utf-8")).get(l, {}).get("lien", "Trailer 3 →"))}</a></p>' + h
         if "cyberleek" in a["id"]:  # maillage SEO vers le dossier Cyberleek
             h = f'<p class="jr-dossier"><a href="cyberleek.html" data-goatcounter-click="art-dossier-cyberleek">{e(CYB.get(l, CYB["en"])["lien"])}</a></p>' + h
         if "<figure" not in h and "<img" not in h:  # une photo dans le corps, après le premier paragraphe
@@ -614,6 +616,44 @@ for l in T:
            "hasPart": [{"@type": "NewsArticle", "headline": a[art_lang(a, l)]["t"], "url": art_url(a, l), "datePublished": a["date"]} for a in arts[:20]]}]
     write(px + "cyberleek.html", page(l, url, c["titre"], c["intro"], body, ld, img=(arts[0].get("img") if arts else None), page_shell="actus",
                                       alts={k: f"{BASE}{'' if k == 'fr' else k + '/'}cyberleek.html" for k in T}))
+    URLS.append((url, l, "0.9"))
+
+# ------------------------------------------------------------------ 4c. spéciale Trailer 3 (trailer de lancement, 15/10/2026, demande de Gabriel)
+# Recherches visées : « GTA 6 trailer 3 », « trailer de lancement GTA 6 », « Flower in a Hurricane », « Justice GTA 6 ».
+TR3 = json.load(open("tools/i18n/trailer3.json", encoding="utf-8"))
+VIDS3 = [("rz1B4B2yBZY", "t3", "15.10.2026", "1:30"), ("VQRLujxTm3c", "t2", "06.05.2025", "2:47"), ("QdBZY2fkU-0", "t1", "05.12.2023", "1:31"), ("tJbzMqJGH4k", "ext", "27.08.2026", "26:49")]
+def film3(v, leg, date, duree, une=False):
+    return (f'<div class="film" data-video="{v}" role="button" tabindex="0" aria-label="{e(leg)}"><div class="cadre"><span class="duree">{duree}</span>'
+            f'<img src="https://img.youtube.com/vi/{v}/{"maxresdefault" if une else "hqdefault"}.jpg" alt="{e(leg)}" loading="lazy" width="1280" height="720"><span class="play"></span></div>'
+            f'<div class="legende"><b>{e(leg)}</b><small>Rockstar Games · {date}</small></div></div>')
+for l in T:
+    c = TR3.get(l, TR3["en"]); px = "" if l == "fr" else l + "/"
+    url = f"{BASE}{px}trailer3.html"
+    arts = [a for a in ARTS if "trailer" in a["id"]]
+    liste = "".join(f'<li><a href="journal/{a["id"]}.html"><span class="k">{e(d_fmt(a, l))}</span> {e(a[art_lang(a, l)]["t"])}</a></li>' for a in arts)
+    faq = "".join(f"<h2>{e(q)}</h2><p>{e(r)}</p>" for q, r in c["faq"])
+    points = "".join(f"<li>{e(x)}</li>" for x in c["points"])
+    grille = "".join(film3(v, c[k], d, du) for v, k, d, du in VIDS3[1:])
+    body = f"""
+  <header class="tete-page"><div class="wrap"><span class="kicker">{e(c['kick'])}</span><h1>{e(c['h1'])}</h1><p>{e(c['intro'])}</p></div></header>
+  <section class="papier"><div class="wrap jr-corps">
+    {film3(*VIDS3[0][:1], c['t3'], *VIDS3[0][2:], une=True)}
+    <p><a href="https://www.youtube.com/watch?v={VIDS3[0][0]}" target="_blank" rel="noopener" data-goatcounter-click="t3-youtube">{e(c['voir'])} ↗</a></p>
+    <h2>{e(c['retenir'])}</h2><ul>{points}</ul>
+    <h2>{e(c['trois'])}</h2><div class="t3-grille">{grille}</div>
+    <h2>{e(c['chrono'])}</h2><ul class="jr-recent">{liste}</ul>
+    {faq}
+    <p class="verifie">{e(c['note'])}</p>
+    <p class="note jr-signature">✍ Solange Rocheval · {e(tr(l, "jr_redac"))}</p>
+    <div class="boutons"><a class="btn" href="actus.html">{e(tr(l, "nav_news"))}</a></div>
+    <div class="partage"></div>
+  </div></section>
+"""
+    ld = [{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": r}} for q, r in c["faq"]]},
+          {"@context": "https://schema.org", "@type": "VideoObject", "name": "Grand Theft Auto VI Launch Trailer", "description": c["intro"], "uploadDate": "2026-10-15T15:00:26+02:00", "duration": "PT1M30S",
+           "thumbnailUrl": f"https://img.youtube.com/vi/{VIDS3[0][0]}/maxresdefault.jpg", "embedUrl": f"https://www.youtube.com/embed/{VIDS3[0][0]}", "inLanguage": l}]
+    write(px + "trailer3.html", page(l, url, c["titre"], c["intro"], body, ld, img=f"https://img.youtube.com/vi/{VIDS3[0][0]}/maxresdefault.jpg", page_shell="actus",
+                                     alts={k: f"{BASE}{'' if k == 'fr' else k + '/'}trailer3.html" for k in T}))
     URLS.append((url, l, "0.9"))
 
 # ------------------------------------------------------------------ 5. sitemap, images, robots, feed

@@ -1083,3 +1083,5 @@ body.mu-lecteur-on .suivre{bottom:118px}
 .appli-liens a:first-child{background:var(--gold,#ffb02e);border-color:var(--gold,#ffb02e);color:var(--ink)}
 .appli-liens a:hover{background:var(--hot,#ff2e88);border-color:var(--hot,#ff2e88);color:var(--ink)}
 .appli-note{margin-top:22px;color:rgba(242,232,213,.7);font-size:.9rem}.appli-note a{color:var(--gold,#ffb02e)}
+
+.t3-grille{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin:18px 0}.jr-corps>.film{margin:18px 0 8px}.t3-grille .legende b{font-size:.95em}
