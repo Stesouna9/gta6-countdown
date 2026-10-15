@@ -42,8 +42,9 @@ def ouvre_onglet():
   return ((id of w) as text) & "/" & ((id of t) as text)
 end tell''')
     ONGLET["w"], ONGLET["t"] = r.split("/")
-    for _ in range(30):
+    for k in range(60):
         time.sleep(2)
+        if k == 30: osa(f'tell application "Google Chrome" to reload (first tab of window id {ONGLET["w"]} whose id is {ONGLET["t"]})')   # onglet de fond figé (Mac en veille d'écran) : on recharge une fois
         try:
             if js("document.querySelector('[data-testid=tweetTextarea_0]')&&document.querySelector('input[type=file]')?'pret':'non'") == "pret": return
         except Exception: pass
@@ -67,8 +68,8 @@ def main():
                        capture_output=True, text=True, timeout=120)
     if not r.stdout.strip().startswith("{"): log("rien à poster (" + (r.stdout.strip() or r.stderr.strip())[:120] + ")"); return
     p = json.loads(r.stdout)
-    ouvre_onglet()
     try:
+        ouvre_onglet()
         # 1) image dans le composeur de la page d'accueil (input file + DataTransfer)
         js("window.__gtaxImg='';'ok'")   # image envoyée par morceaux : AppleScript renvoie « missing value » au-delà de ~100 Ko
         for k in range(0, len(p["image"]), 60000): js("window.__gtaxImg+=%s;'ok'" % json.dumps(p["image"][k:k + 60000]))
@@ -100,4 +101,9 @@ return a.sort().pop()||''})()""")
         ferme_onglet()
 
 if __name__ == "__main__":
-    main()
+    # 15/10 : le post de 9 h a échoué (x.com/home pas chargé) → jusqu'à 3 tentatives, 10 min d'écart
+    for essai in range(3):
+        try: main(); break
+        except SystemExit as e:
+            if e.code in (0, None) or essai == 2: raise
+            log(f"nouvelle tentative dans 10 min ({essai + 2}/3)"); sys.argv.append("--maintenant"); ONGLET.clear(); time.sleep(600)
