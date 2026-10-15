@@ -1085,3 +1085,4 @@ body.mu-lecteur-on .suivre{bottom:118px}
 .appli-note{margin-top:22px;color:rgba(242,232,213,.7);font-size:.9rem}.appli-note a{color:var(--gold,#ffb02e)}
 
 .t3-grille{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin:18px 0}.jr-corps>.film{margin:18px 0 8px}.t3-grille .legende b{font-size:.95em}
+.t3-une .film{max-width:1100px;margin:0 auto}.t3-une{padding-block:clamp(28px,5vw,56px)}
