@@ -345,3 +345,5 @@ window.SITE = {
     document.querySelectorAll(".pub").forEach(function (p) { p.remove(); });
   }
 })();
+
+;(function(){var s=document.createElement("script");s.src="/assets/multivers.js?v=1";s.async=1;document.head.appendChild(s)})();
