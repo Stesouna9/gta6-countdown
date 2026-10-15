@@ -54,8 +54,11 @@ def coupe(s, n):
     s = s[:n].rsplit(" ", 1)[0].rstrip(",;:")
     return s + "…"
 
+TAGS_CYB = "#GTA6 #Cyberleek #GTA6News #GTA6France"   # 15/10 Gabriel : # qui ramène du monde, jamais #GTA6Leak / #leak (Rockstar)
+
 def compose(tete, corps, theme):
-    pied = "(lien en bio)\n" + TAGS + (" " + theme if theme else "")
+    if theme == "#Cyberleek": pied = "Non confirmé par Rockstar. (lien en bio)\n" + TAGS_CYB
+    else: pied = "(lien en bio)\n" + TAGS + (" " + theme if theme else "")
     reste = 255 - len(tete) - len(pied) - 4   # marge : X compte les emojis double
     return f"{tete}\n{coupe(corps, max(reste, 40))}\n{pied}" if corps else f"{tete}\n{pied}"
 
