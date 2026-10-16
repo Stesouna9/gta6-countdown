@@ -70,3 +70,4 @@ Verdict : bon plan, mais trop centré sur la vitesse ; sécuriser d'abord indexa
 
 ## Passerelle Claude <-> ChatGPT
 Voir section dédiée ci-dessous (à compléter après décision de Doc).
+- 16/10 : liens X sur le site, titre SEO de l'article Cyberleek n°1 Search Console (requête build v1.0.1.08022025, pos. 7), réponses X automatiques 3/jour (tools/x_reponses.py).
