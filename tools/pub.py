@@ -599,6 +599,11 @@ for l in T:
     url = f"{BASE}{px}cyberleek.html"
     arts = [a for a in ARTS if "cyberleek" in a["id"]]
     liste = "".join(f'<li><a href="journal/{a["id"]}.html"><span class="k">{e(d_fmt(a, l))}</span> {e(a[art_lang(a, l)]["t"])}</a></li>' for a in arts)
+    # 16/10 : l'article du 8/10 (page écrite à la main, hors articles.json) est le n°1 de Search Console : lien interne depuis le dossier
+    _f = f"{px}journal/2026-10-08-cyberleek-extended-leek.html"
+    if os.path.exists(_f):
+        _m = re.search(r"<h1[^>]*>([^<]+)", open(_f, encoding="utf-8").read())
+        if _m: liste += f'<li><a href="journal/2026-10-08-cyberleek-extended-leek.html"><span class="k">08/10/2026</span> {_m.group(1)}</a></li>'
     faq = "".join(f"<h2>{e(q)}</h2><p>{e(r)}</p>" for q, r in c["faq"])
     body = f"""
   <header class="tete-page"><div class="wrap"><span class="kicker">{e(c['kick'])}</span><h1>{e(c['h1'])}</h1><p>{e(c['intro'])}</p></div></header>
