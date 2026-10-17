@@ -14,9 +14,10 @@ RACINE = Path(__file__).resolve().parent.parent
 ETAT = Path.home() / ".config/gtavifrance/x_reponses.json"
 ESSAI = "--essai" in sys.argv
 X.slot = "reponse"
-RECHERCHES = ["from:RockstarGames", "(GTA 6 OR GTA VI OR GTA6) lang:fr min_faves:30 -filter:replies"]
+RECHERCHES = [("from:RockstarGames", "fr"), ("(GTA 6 OR GTA VI OR GTA6) lang:fr min_faves:30 -filter:replies", "fr"),
+              ("(GTA 6 OR GTA VI OR GTA6) lang:en min_faves:300 -filter:replies", "en")]   # 17/10 : + gros posts anglais (réponse en anglais)
 GENERIQUES = {"gta 6", "gta vi", "gta", "rockstar", "rockstar games", "take-two", "ps5", "xbox", "trailer", "vice city", "leonida", "jason", "lucia", "jason duval", "lucia caminos", "gta v", "grand theft auto", "trailer 3", "launch trailer", "playstation"}
-FIN = "\nTout en français sur notre profil 🌴"
+FIN = {"fr": "\nTout en français sur notre profil 🌴", "en": "\nMore GTA 6 news on our profile 🌴"}
 
 def ouvre(url):
     r = X.osa(f'''tell application "Google Chrome"
@@ -37,7 +38,7 @@ def attend(test, n=30):
 
 def posts_recents():
     vus = []
-    for q in RECHERCHES:
+    for q, lg in RECHERCHES:
         ouvre("https://x.com/search?f=live&q=" + urllib.parse.quote(q))
         try:
             if not attend("document.querySelector('article [data-testid=tweetText]')?'ok':'non'"): continue
@@ -45,7 +46,7 @@ def posts_recents():
             r = X.js("""JSON.stringify([...document.querySelectorAll('article')].slice(0,15).map(a=>{const l=a.querySelector('a[href*="/status/"] time')?.closest('a');
 return {url:l?l.href:'',quand:a.querySelector('time')?.getAttribute('datetime')||'',texte:a.querySelector('[data-testid=tweetText]')?.innerText||'',
 auteur:(l?l.href.split('/')[3]:'')}}))""")
-            vus += json.loads(r)
+            vus += [dict(x, lg=lg) for x in json.loads(r)]
         finally:
             X.ferme_onglet(); X.ONGLET.clear()
     return vus
@@ -59,7 +60,7 @@ def choisit(posts, etat):
         if not p["url"] or p["url"] in etat["posts"] or p["auteur"].lower() in ("gtafance",) or p["auteur"] in deja_comptes: continue
         try: age = (maintenant - datetime.datetime.fromisoformat(p["quand"].replace("Z", "+00:00"))).total_seconds() / 3600
         except ValueError: continue
-        if age > 6: continue
+        if age > 12: continue
         t = p["texte"].lower()
         for a in arts:
             if p["auteur"].lower() == "rockstargames" and "cyberleek" in a["id"]: continue
@@ -68,17 +69,18 @@ def choisit(posts, etat):
                 return p, a
     return None, None
 
-def texte(a):
-    d = re.sub(r"\s+", " ", a["fr"]["d"]).strip()
+def texte(a, lg="fr"):
+    lg = lg if isinstance(a.get(lg), dict) and a[lg].get("d") else "fr"
+    d = re.sub(r"\s+", " ", a[lg]["d"]).strip()
     if len(d) > 230: d = d[:230].rsplit(" ", 1)[0].rstrip(",;:") + "…"
-    return d + FIN
+    return d + FIN[lg]
 
 def main():
     if not ESSAI and "--maintenant" not in sys.argv: time.sleep(random.randint(0, 40 * 60))
     etat = json.loads(ETAT.read_text()) if ETAT.exists() else {"posts": [], "reponses": []}
     p, a = choisit(posts_recents(), etat)
     if not p: X.log("aucun post récent sur un de nos sujets"); return
-    rep = texte(a)
+    rep = texte(a, p.get("lg", "fr"))
     if ESSAI: X.log(f"essai : sous {p['url']} ({p['texte'][:80]!r}) → {rep!r}"); return
     ouvre(p["url"])
     try:
