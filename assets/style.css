@@ -690,7 +690,7 @@ body.mu-lecteur-on{padding-bottom:110px}
 .jr-corps{max-width:72ch}
 .jr-corps p{font:400 clamp(17px,1.6vw,19px)/1.6 var(--sans);margin:0 0 20px}
 .jr-corps h2{font:400 clamp(26px,3vw,36px)/1.05 var(--display);text-transform:uppercase;margin:36px 0 12px}
-.jr-corps a{color:var(--hot)}
+.jr-corps a{color:var(--hot)}.jr-corps a.btn{color:var(--ink)}.jr-corps a.btn.clair{color:var(--hot)}
 .jr-sources{font:400 13px var(--mono);opacity:.75;margin-top:28px}
 
 /* Barre Suivre */
