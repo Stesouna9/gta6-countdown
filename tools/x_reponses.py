@@ -14,9 +14,9 @@ RACINE = Path(__file__).resolve().parent.parent
 ETAT = Path.home() / ".config/gtavifrance/x_reponses.json"
 ESSAI = "--essai" in sys.argv
 X.slot = "reponse"
-RECHERCHES = [("from:RockstarGames", "fr"), ("(GTA 6 OR GTA VI OR GTA6) lang:fr min_faves:30 -filter:replies", "fr"),
+RECHERCHES = [("from:RockstarGames", "fr"), ("(GTA 6 OR GTA VI OR GTA6) lang:fr min_faves:10 -filter:replies", "fr"),
               ("(GTA 6 OR GTA VI OR GTA6) lang:en min_faves:300 -filter:replies", "en")]   # 17/10 : + gros posts anglais (réponse en anglais)
-GENERIQUES = {"gta 6", "gta vi", "gta", "rockstar", "rockstar games", "take-two", "ps5", "xbox", "trailer", "vice city", "leonida", "jason", "lucia", "jason duval", "lucia caminos", "gta v", "grand theft auto", "trailer 3", "launch trailer", "playstation"}
+GENERIQUES = {"gta 6", "gta vi", "gta", "rockstar", "rockstar games", "take-two", "ps5", "xbox", "trailer", "vice city", "leonida", "jason", "lucia", "jason duval", "lucia caminos", "gta v", "grand theft auto", "trailer 3", "launch trailer", "playstation", "rockstargames", "sortie", "date de sortie", "release", "release date", "bande-annonce", "rumeur", "officiel", "annonce", "précommande", "pre-order", "gameplay", "carte", "map"}
 FIN = {"fr": "\nTout en français sur notre profil 🌴", "en": "\nMore GTA 6 news on our profile 🌴"}
 
 def ouvre(url):
@@ -60,12 +60,12 @@ def choisit(posts, etat):
         if not p["url"] or p["url"] in etat["posts"] or p["auteur"].lower() in ("gtafance",) or p["auteur"] in deja_comptes: continue
         try: age = (maintenant - datetime.datetime.fromisoformat(p["quand"].replace("Z", "+00:00"))).total_seconds() / 3600
         except ValueError: continue
-        if age > 12: continue
+        if age > 24: continue   # 18/10 : 12 h → 24 h, 2 lancements sur 6 ne trouvaient rien
         t = p["texte"].lower()
         for a in arts:
             if p["auteur"].lower() == "rockstargames" and "cyberleek" in a["id"]: continue
             tags = [g for g in a.get("tags", []) + ([a["kw"]] if a.get("kw") else []) if g.lower() not in GENERIQUES and len(g) > 3]
-            if any(g.lower() in t for g in tags):
+            if any(re.search(r"(?<!\w)" + re.escape(g.lower()) + r"(?!\w)", t) for g in tags):   # mot entier
                 return p, a
     return None, None
 

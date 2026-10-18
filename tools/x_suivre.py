@@ -12,15 +12,21 @@ ESSAI = "--essai" in sys.argv
 X.slot = "suivre"
 MAX = 20
 
+REQUETES = ["(GTA 6 OR GTA VI OR GTA6 OR #GTA6) lang:fr", "(Vice City OR Lucia OR Jason Duval OR Leonida) lang:fr"]   # 18/10 : réponses incluses, 1 seul candidat avant
+
 def candidats():
-    ouvre("https://x.com/search?f=live&q=" + urllib.parse.quote("(GTA 6 OR GTA VI OR GTA6) lang:fr -filter:replies"))
-    try:
-        if not attend("document.querySelector('article')?'ok':'non'"): return []
-        for _ in range(3): X.js("window.scrollBy(0,2500);'ok'"); time.sleep(3)
-        return json.loads(X.js("""JSON.stringify([...new Set([...document.querySelectorAll('article [data-testid=User-Name] a[href^="/"]')]
-.map(a=>a.getAttribute('href').split('/')[1]))])"""))
-    finally:
-        X.ferme_onglet(); X.ONGLET.clear()
+    vus = []
+    for q in REQUETES:
+        ouvre("https://x.com/search?f=live&q=" + urllib.parse.quote(q))
+        try:
+            if not attend("document.querySelector('article')?'ok':'non'"): continue
+            for _ in range(6):
+                vus += json.loads(X.js("""JSON.stringify([...document.querySelectorAll('article [data-testid=User-Name] a[href^="/"]')]
+.map(a=>a.getAttribute('href').split('/')[1]))"""))
+                X.js("window.scrollBy(0,2500);'ok'"); time.sleep(3)
+        finally:
+            X.ferme_onglet(); X.ONGLET.clear()
+    return list(dict.fromkeys(vus))
 
 def main():
     etat = json.loads(ETAT.read_text()) if ETAT.exists() else {"suivis": {}}
