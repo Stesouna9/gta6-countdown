@@ -137,7 +137,8 @@ def main():
             cyb = bool(cands) and "cyberleek" in cands[0]["id"]
         if not cands: print(f"{slot} : rien de nouveau à poster"); return
         a = cands[0]
-        texte = compose(("🔒 " if cyb else "🚨 ") + a["fr"]["t"], a["fr"].get("d", ""), "#Cyberleek" if cyb else "#ViceCity")
+        vb = "vice-break" in a["id"]   # notre jeu : pas une alerte
+        texte = compose(("🔒 " if cyb else "🎮 " if vb else "🚨 ") + a["fr"]["t"], a["fr"].get("d", ""), "#Cyberleek" if cyb else "#ViceBreak" if vb else "#ViceCity")
         img, cle = image_article(a), a["id"]
     if SEC: print(texte, f"\n[{len(texte)} car., image {len(img)} o]"); return
     if "--json" in sys.argv: print(json.dumps({"slot": slot, "cle": cle, "texte": texte, "image": base64.b64encode(img).decode()})); return
