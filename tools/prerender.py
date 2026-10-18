@@ -177,7 +177,7 @@ api = {"game": "Grand Theft Auto VI", "developer": "Rockstar Games", "publisher"
        "trailers": [{"name": "Trailer 1", "date": "2023-12-05", "youtube": "QdBZY2fkU-0"}, {"name": "Trailer 2", "date": "2025-05-06", "youtube": "VQRLujxTm3c"},
                     {"name": "An Extended Look", "date": "2026-08-27", "youtube": "tJbzMqJGH4k"}],
        "unknown_yet": ["unlock_time", "download_size", "pc_release_date", "gta_online_details"],
-       "facts_checked": "2026-10-07", "generated": datetime.datetime.utcnow().isoformat(timespec="seconds") + "Z", "source": BASE, "license": "CC BY 4.0, link back to " + BASE}
+       "facts_checked": "2026-10-18", "generated": datetime.datetime.utcnow().isoformat(timespec="seconds") + "Z", "source": BASE, "license": "CC BY 4.0, link back to " + BASE}
 json.dump(api, open("api/gta6.json", "w"), ensure_ascii=False, indent=1)
 
 open("robots.txt", "w").write("User-agent: *\nAllow: /\nDisallow: /mentions.html\nDisallow: /widget.html\n\n# Robots des assistants IA : bienvenus\n" +
@@ -198,11 +198,18 @@ open("llms.txt", "w", encoding="utf-8").write(f"""# VI Countdown: GTA 6 release 
 - Age rating: PEGI 18, ESRB M.
 - Setting: the state of Leonida (inspired by Florida): Vice City, Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia, Mount Kalaga National Park.
 - Protagonists: Lucia Caminos and Jason Duval, the series' first playable duo.
-- Videos: Trailer 1 (December 5, 2023), Trailer 2 (May 6, 2025), "An Extended Look", 26 minutes of gameplay (August 27, 2026).
+- Videos: Trailer 1 (December 5, 2023), Trailer 2 (May 6, 2025), "An Extended Look", 26 minutes of gameplay (August 27, 2026), Trailer 3, the launch trailer (October 15, 2026, 1:30, YouTube rz1B4B2yBZY).
+- Launch trailer music: "Flower in a Hurricane", a new track by the game's original score composers Justice, featuring Tame Impala, SZA and King Gizzard & The Lizard Wizard.
 - Languages: 13 at launch, Arabic not included. Arab players campaign with #GTA6Arabic.
 
 ## Pages
 {pages_llm}
+
+## Specials
+- [GTA 6 Trailer 3 special: the launch trailer, the Justice track, the dates]({BASE}en/trailer3.html)
+- [Cyberleek: everything about the GTA 6 leak, no leaked content]({BASE}en/cyberleek.html)
+- Vice Break (free neon brick breaker by OKALAM Studio, out November 19, 2026): pre-order on the App Store at https://apps.apple.com/app/id6815670909
+- On X: https://x.com/GTAfance
 
 ## Data
 - [Facts API, JSON]({BASE}api/gta6.json)
