@@ -59,6 +59,8 @@ def ld_page(l, page, D):
                   "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode", "location": {"@type": "VirtualLocation", "url": "https://www.rockstargames.com/VI"},
                   "organizer": {"@type": "Organization", "name": "Rockstar Games", "url": "https://www.rockstargames.com"}, "image": "https://img.youtube.com/vi/evtZ-L7FIbw/maxresdefault.jpg",
                   "description": D.get("md_sortie", "")})
+        g.append({"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": D.get(f"so_q{i}", ""), "acceptedAnswer": {"@type": "Answer", "text": D.get(f"so_a{i}", "")}}
+                                                     for i in range(1, 8) if D.get(f"so_q{i}")]})   # 18/10 : FAQ sortie (17 langues)
     if page == "guide":
         g.append({"@type": "Article", "headline": D.get("mt_guide", ""), "inLanguage": HL.get(l, l), "dateModified": datetime.date.today().isoformat(),
                   "author": {"@type": "Organization", "name": "Rédaction GTAVIFRANCE", "url": BASE}, "about": {"@type": "VideoGame", "name": "Grand Theft Auto VI"},
