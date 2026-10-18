@@ -182,7 +182,6 @@
  "so_lang_k": "게임 언어",
  "so_lang": "출시 시 13개 언어, 아랍어 미포함.",
  "so_tz_t": "파리의 자정, 내 시간으로는 몇 시?",
- "so_tz_i": "자동 계산됩니다. Rockstar가 공식 시각을 발표하면 바로 업데이트하겠습니다.",
  "so_toi": "내 시간",
  "so_cal": "캘린더에 추가",
  "so_conf": "확정",
@@ -542,5 +541,6 @@
  "so_q7": "GTA 6 가격은 얼마입니까?",
  "so_a7": "프랑스에서는 Standard Edition이 €79.99, Ultimate Edition이 €99.99입니다. 에디션과 매장은 가격 페이지에 자세히 나와 있습니다.",
  "mt_vicebreak": "Vice Break: 무료 네온 벽돌깨기, App Store에서 사전 주문, 2026년 11월 19일 출시",
- "md_vicebreak": "Vice Break, OKALAM Studio 의 무료 네온 벽돌 깨기 게임: Vice Bay의 100개 레벨, 보스, 내장 라디오. 지금 App Store에서 사전 주문하세요. GTA 6 출시일인 2026년 11월 19일에 출시됩니다."
+ "md_vicebreak": "Vice Break, OKALAM Studio 의 무료 네온 벽돌 깨기 게임: Vice Bay의 100개 레벨, 보스, 내장 라디오. 지금 App Store에서 사전 주문하세요. GTA 6 출시일인 2026년 11월 19일에 출시됩니다.",
+ "so_tz_i": "Rockstar 어디에서나 같은 순간에 게임을 잠금 해제한다면 파리의 자정을 설정하세요. 카운트다운 자체는 해당 시간대의 자정 이후에 이루어집니다. Rockstar 공식 시간을 발표하는 대로 이 문제를 수정하겠습니다."
 }

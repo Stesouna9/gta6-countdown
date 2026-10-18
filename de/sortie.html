@@ -57,8 +57,8 @@
   </div></section>
   <div class="pub" data-pub="page"></div>
   <section><div class="wrap">
-    <div class="rubrique rv"><span class="num">TZ</span><h2 data-i18n="so_tz_t">Mitternacht in Paris: Wie spät ist es bei dir?</h2><p data-i18n="so_tz_i">Automatisch berechnet. Wir aktualisieren, sobald Rockstar die offizielle Uhrzeit nennt.</p></div>
-    <div class="fuseaux" id="fuseaux"></div>
+    <div class="rubrique rv"><span class="num">TZ</span><h2 data-i18n="so_tz_t">Mitternacht in Paris: Wie spät ist es bei dir?</h2><p data-i18n="so_tz_i">Wenn Rockstar das Spiel überall zur gleichen Zeit freischaltet, ist es in Paris Mitternacht. Der Countdown selbst folgt Mitternacht in Ihrer Zeitzone. Wir werden dies korrigieren, sobald Rockstar die offizielle Uhrzeit bekannt gibt.</p></div>
+    <div class="fuseaux" id="fuseaux"><div><b>Paris</b><span>jeudi 19 novembre, 00:00</span></div><div><b>London</b><span>mercredi 18 novembre, 23:00</span></div><div><b>New York</b><span>mercredi 18 novembre, 18:00</span></div><div><b>Los Angeles</b><span>mercredi 18 novembre, 15:00</span></div><div><b>Mexico City</b><span>mercredi 18 novembre, 17:00</span></div><div><b>São Paulo</b><span>mercredi 18 novembre, 20:00</span></div><div><b>Casablanca</b><span>mercredi 18 novembre, 23:00</span></div><div><b>Cairo</b><span>jeudi 19 novembre, 01:00</span></div><div><b>Riyadh</b><span>jeudi 19 novembre, 02:00</span></div><div><b>Dubai</b><span>jeudi 19 novembre, 03:00</span></div><div><b>Istanbul</b><span>jeudi 19 novembre, 02:00</span></div><div><b>Warsaw</b><span>jeudi 19 novembre, 00:00</span></div><div><b>Moscow</b><span>jeudi 19 novembre, 02:00</span></div><div><b>Mumbai</b><span>jeudi 19 novembre, 04:30</span></div><div><b>Jakarta</b><span>jeudi 19 novembre, 06:00</span></div><div><b>Ho Chi Minh City</b><span>jeudi 19 novembre, 06:00</span></div><div><b>Beijing</b><span>jeudi 19 novembre, 07:00</span></div><div><b>Taipei</b><span>jeudi 19 novembre, 07:00</span></div><div><b>Seoul</b><span>jeudi 19 novembre, 08:00</span></div><div><b>Tokyo</b><span>jeudi 19 novembre, 08:00</span></div><div><b>Sydney</b><span>jeudi 19 novembre, 10:00</span></div></div>
     <div class="partage"></div>
   </div></section>
   <section class="papier"><div class="wrap jr-corps">
@@ -76,7 +76,7 @@
   (function () {
     var V = [["Paris","Europe/Paris"],["London","Europe/London"],["New York","America/New_York"],["Los Angeles","America/Los_Angeles"],["Mexico City","America/Mexico_City"],["São Paulo","America/Sao_Paulo"],["Casablanca","Africa/Casablanca"],["Cairo","Africa/Cairo"],["Riyadh","Asia/Riyadh"],["Dubai","Asia/Dubai"],["Istanbul","Europe/Istanbul"],["Warsaw","Europe/Warsaw"],["Moscow","Europe/Moscow"],["Mumbai","Asia/Kolkata"],["Jakarta","Asia/Jakarta"],["Ho Chi Minh City","Asia/Ho_Chi_Minh"],["Beijing","Asia/Shanghai"],["Taipei","Asia/Taipei"],["Seoul","Asia/Seoul"],["Tokyo","Asia/Tokyo"],["Sydney","Australia/Sydney"]];
     function rend() {
-      var d = new Date(SITE.sortie), hl = document.documentElement.lang, o = { weekday: "long", day: "numeric", month: "long", hour: "2-digit", minute: "2-digit" };
+      var d = new Date("2026-11-19T00:00:00+01:00"), hl = document.documentElement.lang, o = { weekday: "long", day: "numeric", month: "long", hour: "2-digit", minute: "2-digit" };
       var moi = Intl.DateTimeFormat().resolvedOptions().timeZone;
       document.getElementById("fuseaux").innerHTML = [[T("so_toi"), moi]].concat(V).map(function (v, i) {
         var t; try { t = d.toLocaleString(hl, Object.assign({ timeZone: v[1] }, o)); } catch (e) { t = ""; }
