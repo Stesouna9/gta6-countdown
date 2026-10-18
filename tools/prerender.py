@@ -140,6 +140,7 @@ for page, *_ in PAGES:
             c = re.sub(r'href="(%s)/' % "|".join(LANGS), r'href="../\1/', c)
             c = re.sub(r'fetch\("(data/|actus\.json)', r'fetch("../\1', c)
             os.makedirs(l, exist_ok=True)
+            if l != "en": c = c.replace('href="prix.html"', 'href="' + BASE + 'en/prix.html"')   # 18/10 : prix.html n'existe qu'en fr et en
             open(f"{l}/{f}", "w", encoding="utf-8").write(ver(c))
         else:
             c = c.replace('<html lang="fr" data-l="fr">', '<html lang="fr" dir="ltr" data-l="fr">', 1)

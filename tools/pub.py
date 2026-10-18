@@ -532,7 +532,7 @@ def ret_blocs(a, l):
     if lies: fin += f'<h2 class="jr-lies-t">{e(R[1])}</h2><div class="jr-lies">' + "".join(ret_carte(b, l) for b in lies) + "</div>"
     fin += (f'<h2 class="jr-lies-t">{e(R[3])}</h2><div class="jr-decouvrir">'
             f'<a href="quiz.html" data-goatcounter-click="art-quiz">{e(R[5])}</a><a href="radio.html" data-goatcounter-click="art-radio">{e(R[6])}</a>'
-            f'<a href="communaute.html" data-goatcounter-click="art-mur">{e(R[7])}</a><a href="prix.html" data-goatcounter-click="art-prix">{e(R[8])}</a></div>')
+            f'<a href="communaute.html" data-goatcounter-click="art-mur">{e(R[7])}</a><a href="{"prix.html" if l in ("fr", "en") else BASE + "en/prix.html"}" data-goatcounter-click="art-prix">{e(R[8])}</a></div>')
     return cd, aussi, fin
 # image d'article pas encore téléchargée (article publié entre deux passages de img_auto) : jamais d'image cassée
 for a in ARTS:
@@ -550,6 +550,10 @@ for l in T:
         img = a.get("img") or BASE + "assets/jn.jpg"
         srcs = " · ".join(f'<a href="{e(u)}" target="_blank" rel="noopener">{e(u.split("/")[2].replace("www.", ""))}</a>' for u in a.get("src", []))
         h = x["h"]
+        # 18/10 : liens internes mal formés dans les textes (Search Console : 404) ; la page a <base href=".../<l>/">
+        h = re.sub(r'href="(?:\.\./)?(?:(?:fr|en|es|pt|de|it|ja|zh|tw|ar|hi|ru|ko|tr|id|idn|pl|vi)/)+', 'href="', h)   # préfixe de langue en trop
+        h = re.sub(r'href="(20[0-9]{2}-[0-9]{2}-[0-9]{2}-[^"/]+\.html)', r'href="journal/\1', h)                     # « journal/ » manquant
+        if l not in ("fr", "en"): h = h.replace('href="prix.html', f'href="{BASE}en/prix.html')                     # prix.html : fr et en seulement
         if "trailer" in a["id"]:  # maillage vers la spéciale Trailer 3
             h = f'<p class="jr-dossier"><a href="trailer3.html" data-goatcounter-click="art-dossier-trailer3">{e(json.load(open("tools/i18n/trailer3.json", encoding="utf-8")).get(l, {}).get("lien", "Trailer 3 →"))}</a></p>' + h
         if "cyberleek" in a["id"]:  # maillage SEO vers le dossier Cyberleek
