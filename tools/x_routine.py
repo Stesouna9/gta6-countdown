@@ -66,18 +66,25 @@ def image_article(a):
     f = RACINE / "assets/img/articles" / f"{a['id']}.jpg"
     return f.read_bytes() if f.exists() else None
 
-def visuel_jours(j):
-    """Affiche du site + gros « J-xx » + bandeau gtavifrance.com (Pillow)."""
+def visuel_jours(j, fond=None):
+    """18/10 (Gabriel trouve les montages faibles) : image officielle Rockstar différente chaque jour, brute,
+    avec seulement un petit cartouche « J-xx · gtavifrance.com » en bas à gauche."""
     from PIL import Image, ImageDraw, ImageFont, ImageOps
-    im = ImageOps.fit(Image.open(RACINE / "assets/img/vi-une.jpg").convert("RGB"), (1600, 900))
+    if fond is None:
+        def scene(f):   # vraies scènes seulement : pas les planches de goodies sur fond blanc
+            im = Image.open(f)
+            if im.size != (1600, 900) or f.name in ("759875393o5253.jpg", "9k2a49ook82o57.jpg"): return False   # boutique, coffret
+            px = list(im.convert("L").resize((40, 22)).getdata())
+            return sum(v > 235 for v in px) / len(px) < 0.15
+        imgs = [f for f in sorted((RACINE / "assets/img/rockstar").glob("*.jpg")) if scene(f)]
+        fond = imgs[datetime.date.today().toordinal() % len(imgs)] if imgs else RACINE / "assets/img/vi-une.jpg"
+    im = ImageOps.fit(Image.open(fond).convert("RGB"), (1600, 900))
     d = ImageDraw.Draw(im, "RGBA")
-    d.rectangle([0, 0, 760, 900], fill=(22, 17, 29, 215))
     polices = sorted((RACINE / "tools/fonts").glob("*nton*"))
     f = lambda n: ImageFont.truetype(str(polices[0]), n) if polices else ImageFont.load_default()
-    d.text((70, 120), "GTA VI", font=f(90), fill=(242, 232, 213))
-    d.text((60, 220), f"J-{j}", font=f(330), fill=(255, 138, 61))
-    d.text((70, 620), "SORTIE LE 19 NOVEMBRE 2026", font=f(52), fill=(255, 59, 122))
-    d.text((70, 720), "GTAVIFRANCE.COM", font=f(64), fill=(242, 232, 213))
+    d.rounded_rectangle([40, 730, 470, 860], 18, fill=(22, 17, 29, 225))
+    d.text((70, 742), f"J-{j}", font=f(80), fill=(255, 138, 61))
+    d.text((72, 826), "GTAVIFRANCE.COM", font=f(26), fill=(242, 232, 213))
     o = io.BytesIO(); im.save(o, "JPEG", quality=88); return o.getvalue()
 
 ANGLES = [  # 13 h : un angle du site par jour, en rotation
@@ -86,6 +93,7 @@ ANGLES = [  # 13 h : un angle du site par jour, en rotation
     ("📻", "Vice Bay Radio tourne en direct sur le site : les sons de Vice City en attendant le 19 novembre.", "#ViceCity"),
     ("🗺️", "Leonida, Vice City, les personnages, les trailers : notre guide GTA 6 rassemble tout ce qui est confirmé.", "#Leonida"),
     ("🌍", "L'actu GTA 6 vérifiée, chaque jour, en 17 langues. Et l'heure de sortie dans chaque pays.", "#ViceCity"),
+    ("🎮", "En attendant, Vice Break : notre casse-briques néon gratuit, 100 niveaux dans Vice Bay et la radio en fond. Sort le 19 novembre comme GTA 6, précommande ouverte sur l'App Store.", "#ViceBreak"),
 ]
 
 def vues_du_jour():
@@ -118,7 +126,8 @@ def main():
     j = (SORTIE - datetime.date.today()).days
     if slot == "site":
         e, txt, th = ANGLES[datetime.date.today().toordinal() % len(ANGLES)]
-        texte, img, cle = compose(f"{e} J-{j} avant GTA 6.", txt, th), visuel_jours(j), f"site-{datetime.date.today()}"
+        fond = RACINE / "assets/img/vb-motel.webp" if th == "#ViceBreak" else None   # Vice Break : visuel du jeu
+        texte, img, cle = compose(f"{e} J-{j} avant GTA 6.", txt, th), visuel_jours(j, fond), f"site-{datetime.date.today()}"
     else:
         cyb = slot == "cyberleek"
         cands = [a for a in arts if (slot == "top" or ("cyberleek" in a["id"]) == cyb) and a["id"] not in etat["postes"]
