@@ -578,6 +578,7 @@ for l in T:
   <section class="papier"><div class="wrap jr-corps">{_cd}<div class="pub jr" data-pub="jr-haut"></div>{h}
     <p class="jr-sources"><b>{e(tr(l, "jr_src"))}</b> {srcs}</p>
     <p class="note jr-signature">{e(tr(l, "jr_auteur").replace("Solange Rocheval", a.get("auteur") or "Solange Rocheval"))}</p><div class="partage"></div>
+    <aside class="vb-encart"><img src="{BASE}assets/img/vb1.webp" alt="Vice Break" loading="lazy" width="570" height="1240"><div><b>{e(tr(l, "vb_encart_t"))}</b><p>{e(tr(l, "vb_encart"))}</p><a class="btn" href="https://apps.apple.com/app/id6815670909" target="_blank" rel="noopener" data-goatcounter-click="vb-precommande-article">{e(tr(l, "vb_pre"))}</a> <a class="lien" href="vicebreak.html">Vice Break →</a></div></aside>
     <div class="boutons"><a class="btn" href="actus.html">{e(tr(l, "jr_suite"))}</a><a class="btn clair" href="https://www.instagram.com/vicebayradio/" target="_blank" rel="noopener">{e(tr(l, "ig_cta"))}</a></div>{_fin}</div></section>
 """
         ld = [{"@context": "https://schema.org", "@type": "NewsArticle", "headline": x["t"], "description": x["d"], "inLanguage": l, "datePublished": a["date"], "dateModified": a.get("maj", a["date"]), "image": [a.get("img") or BASE + "assets/jn.jpg"], "mainEntityOfPage": art_url(a, l),

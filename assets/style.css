@@ -1086,3 +1086,4 @@ body.mu-lecteur-on .suivre{bottom:118px}
 
 .t3-grille{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin:18px 0}.jr-corps>.film{margin:18px 0 8px}.t3-grille .legende b{font-size:.95em}
 .t3-une .film{max-width:1100px;margin:0 auto}.t3-une{padding-block:clamp(28px,5vw,56px)}
+.vb-encart{display:flex;gap:18px;align-items:center;margin:28px 0;padding:18px;border:2px solid var(--ink);background:#16111d;color:#f2e8d5}.vb-encart img{width:90px;height:auto;flex:none;border-radius:12px}.vb-encart b{font-size:1.15em;color:#ffc93c}.vb-encart p{margin:6px 0 12px}.vb-encart .lien{color:#62d4ff}

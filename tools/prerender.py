@@ -51,7 +51,8 @@ def ld_page(l, page, D):
                   "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"}, "description": D.get("md_radio", "")})
     if page == "vicebreak":
         g.append({"@type": ["MobileApplication", "VideoGame"], "name": "Vice Break", "operatingSystem": "iOS, Android", "applicationCategory": "GameApplication",
-                  "datePublished": "2026-11-19", "author": {"@type": "Organization", "name": "Rédaction GTAVIFRANCE"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"},
+                  "datePublished": "2026-11-19", "author": {"@type": "Organization", "name": "OKALAM Studio"}, "installUrl": "https://apps.apple.com/app/id6815670909", "sameAs": ["https://apps.apple.com/app/id6815670909"],
+                  "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR", "availability": "https://schema.org/PreOrder", "url": "https://apps.apple.com/app/id6815670909"},
                   "description": D.get("md_vicebreak", ""), "image": BASE + "assets/img/vb1.webp"})
     if page == "sortie":
         g.append({"@type": "Event", "name": "Grand Theft Auto VI", "startDate": "2026-11-19", "eventStatus": "https://schema.org/EventScheduled",
