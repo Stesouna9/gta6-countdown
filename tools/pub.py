@@ -670,6 +670,8 @@ for l in T:
 sm = open("sitemap.xml", encoding="utf-8").read()
 ajout = "".join(f"  <url><loc>{u}</loc><lastmod>{TODAY.isoformat()}</lastmod><changefreq>daily</changefreq><priority>{p}</priority></url>\n" for u, l, p in URLS)
 sm = sm.replace("</urlset>", ajout + "</urlset>")
+# 18/10 : lastmod d'un article = sa date (toutes les URL datées du jour : Google ignore alors le signal)
+sm = re.sub(r"(journal/(20\d\d-\d\d-\d\d)-[^<]*</loc><lastmod>)[^<]*", r"\1\2", sm)
 open("sitemap.xml", "w", encoding="utf-8").write(sm)
 
 imgs = sorted(set(f"assets/og/{f.split('/')[-2]}/{f.split('/')[-1]}" for f in __import__("glob").glob("assets/og/*/*.jpg")))
@@ -685,7 +687,7 @@ for a in ARTS:
     if a.get("retro"): continue
     try: d = datetime.datetime.fromisoformat(a["date"])
     except Exception: continue
-    if (_now - d).days > 2: continue
+    if (_now - d).total_seconds() > 48 * 3600: continue   # Google News : 48 h max
     for l in T:
         k = "idn" if l == "id" else l; x = a.get(k)
         if not isinstance(x, dict) or not x.get("t"): continue
