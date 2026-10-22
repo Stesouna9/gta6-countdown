@@ -14,7 +14,7 @@ from pathlib import Path
 RACINE = Path(__file__).resolve().parent.parent
 ETAT = Path(os.environ.get("X_ETAT", "/var/lib/gtavifrance/x_routine_etat.json"))  # hors du dossier web
 SORTIE = datetime.date(2026, 11, 19)
-TAGS = "#GTA6 #GTAVI #GTA6France"
+TAGS = "#GTA6 #GTAVI #GTA #GrandTheftAuto #GTA6France"   # 22/10 Gabriel : plus de # qui amènent du monde
 SEC = "--sec" in sys.argv
 
 def E(k, d=""):
@@ -54,7 +54,7 @@ def coupe(s, n):
     s = s[:n].rsplit(" ", 1)[0].rstrip(",;:")
     return s + "…"
 
-TAGS_CYB = "#GTA6 #Cyberleek #GTA6News #GTA6France"   # 15/10 Gabriel : # qui ramène du monde, jamais #GTA6Leak / #leak (Rockstar)
+TAGS_CYB = "#GTA6 #GTAVI #GTA #Cyberleek #GTA6News #GTA6France"   # 15/10 Gabriel : # qui ramène du monde, jamais #GTA6Leak / #leak (Rockstar)
 
 def compose(tete, corps, theme):
     if theme == "#Cyberleek": pied = "Non confirmé par Rockstar. (lien en bio)\n" + TAGS_CYB
