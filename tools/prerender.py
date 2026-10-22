@@ -120,7 +120,12 @@ def filtres(l):  # 22/10 : filtres par catégorie au-dessus des articles (page a
             'document.querySelectorAll(".cat-filtres button").forEach(function(x){x.classList.toggle("on",x===b)});var f=b.dataset.f,g=document.getElementById("presse");g.dataset.f=f;var u=document.querySelector(".actus-une");if(u)u.hidden=f!="tout";'
             'g.querySelectorAll(".jr-carte").forEach(function(c){c.hidden=!(f=="tout"||c.dataset.cat==f)})});</script>')
 
-def une(l, R):  # 22/10 : la dernière actu en grand + 4 suivantes, visibles sans scroller (page actus)
+def flash(l):  # 22/10 : bandeau « Dernière minute » défilant sous la nav (page actus), 6 derniers titres
+    k = "idn" if l == "id" else l; D = I18N[l]
+    t = "".join(f'<a href="journal/{a["id"]}.html"><i></i>{html.escape((a.get(k) or a.get("en") or a.get("fr"))["t"], quote=False)}</a>' for a in ARTS[:6] if a.get(k) or a.get("en") or a.get("fr"))
+    return f'<!--flash--><div class="flash-bar"><b><i></i>{html.escape(D.get("actus_flash", "Dernière minute"))}</b><div class="piste"><span>{t}</span><span aria-hidden="true">{t}</span></div></div><!--/flash-->'
+
+def une(l, R):  # 22/10 : une plein cadre (titre sur l'image) + 2 moyennes + 2 en liste, visibles sans scroller (page actus)
     k = "idn" if l == "id" else l; D = I18N[l]; out = []
     for i, a in enumerate(ARTS[:5]):
         x = a.get(k) or a.get("en") or a.get("fr")
@@ -128,11 +133,20 @@ def une(l, R):  # 22/10 : la dernière actu en grand + 4 suivantes, visibles san
         st = statut(a); d = a.get("date", ""); hd = d[8:10] + "." + d[5:7] + (" · " + d[11:16] if len(d) > 15 else "")
         img = html.escape(a.get("img") or "https://gtavifrance.com/assets/jn.jpg")
         badge = f'<span class="st st-{st}" title="{html.escape(D.get("st_" + st + "_i", ""))}">{html.escape(D.get("st_" + st, ""))}</span>'
+        tm = f'<time datetime="{d}" data-rel>{hd}</time>'; t = html.escape(x["t"], quote=False); h = f'journal/{a["id"]}.html'; c = categorie(a)
         if i == 0:
-            out.append(f'<a class="une-g" data-cat="{categorie(a)}" href="journal/{a["id"]}.html"><img src="{img}" alt="" loading="eager" fetchpriority="high" width="1280" height="720"><span class="k">{badge} {hd}</span><b>{html.escape(x["t"], quote=False)}</b><p>{html.escape(x.get("d", ""), quote=False)}</p></a><div class="une-l">')
+            out.append(f'<a class="une-g" data-id="{a["id"]}" data-cat="{c}" href="{h}"><img src="{img}" alt="" loading="eager" fetchpriority="high" width="1280" height="720"><span class="une-txt"><span class="k"><span class="direct"><i></i>{html.escape(D.get("direct", ""))}</span>{badge}{tm}</span><b>{t}</b><p>{html.escape(x.get("d", ""), quote=False)}</p></span></a><div class="une-m">')
+        elif i < 3:
+            out.append(f'<a class="une-c" data-id="{a["id"]}" data-cat="{c}" href="{h}"><img src="{img}" alt="" loading="eager" width="640" height="360"><span class="une-txt"><span class="k">{badge}{tm}</span><b>{t}</b></span></a>' + ('</div><div class="une-l">' if i == 2 else ""))
         else:
-            out.append(f'<a data-cat="{categorie(a)}" href="journal/{a["id"]}.html"><img src="{img}" alt="" loading="lazy" width="320" height="180"><span><span class="k">{badge} {hd}</span><b>{html.escape(x["t"], quote=False)}</b></span></a>')
-    return '<!--une--><div class="actus-une">' + "".join(out) + '</div></div><!--/une-->'
+            out.append(f'<a data-id="{a["id"]}" data-cat="{c}" href="{h}"><img src="{img}" alt="" loading="lazy" width="320" height="180"><span><span class="k">{badge}{tm}</span><b>{t}</b></span></a>')
+    js = ('<script>(function(){var rf=null;try{rf=new Intl.RelativeTimeFormat(document.documentElement.lang||"fr",{numeric:"auto"})}catch(e){}'
+          'function rel(){if(!rf)return;document.querySelectorAll("time[data-rel]").forEach(function(t){var m=Math.round((Date.now()-new Date(t.getAttribute("datetime")))/6e4);if(isNaN(m)||m<0)return;'
+          'var s=m<60?rf.format(-m,"minute"):m<1440?rf.format(-Math.round(m/60),"hour"):m<20160?rf.format(-Math.round(m/1440),"day"):"";if(s)t.textContent=s})}rel();setInterval(rel,6e4);'
+          'fetch("' + R + 'live/vues_articles.json",{cache:"no-cache"}).then(function(r){return r.json()}).then(function(v){var u=document.querySelector(".actus-une"),best="",n=4;'
+          'document.querySelectorAll(".actus-une a[data-id],#presse .jr-carte").forEach(function(a){var id=a.dataset.id||(a.getAttribute("href").match(/journal\/(.+)\.html/)||[])[1];if((v[id]||0)>n){n=v[id];best=id}});'
+          "if(!best)return;document.querySelectorAll('[data-id=\"'+best+'\"],.jr-carte[href$=\"/'+best+'.html\"]').forEach(function(a){var s=document.createElement(\"span\");s.className=\"plus-lu\";s.textContent=\"🔥 \"+u.dataset.plusLu+\" \\u00b7 \"+n.toLocaleString(document.documentElement.lang||\"fr\");(a.querySelector(\".k\")||a).appendChild(s)})}).catch(function(){})})();</script>")
+    return f'<!--une--><div class="actus-une" data-plus-lu="{html.escape(D.get("actus_plus_lu", "Le plus lu"))}">' + "".join(out) + f'</div></div>{js}<h2 class="actus-h2"><span>{html.escape(D.get("actus_toutes", "Toutes les actus"))}</span></h2><!--/une-->'
 
 def cartes(l, n, R, une=0):
     k = "idn" if l == "id" else l; out = []
@@ -155,7 +169,8 @@ for page, *_ in PAGES:
         c = TAG.sub(lambda m: m.group(1) + (html.escape(D[m.group(3)], quote=False) if m.group(3) in D else m.group(4)) + m.group(5), s)
         c = c.replace("@@META@@", meta(l, page, D, R))
         # 22/10 : la grille était figée (source déjà remplie : le remplacement de la div vide ne trouvait rien) ; on la reconstruit à chaque passage
-        c = re.sub(r'(?:<div class="cat-filtres".*?</script>)?(?:<!--une-->.*?<!--/une-->)?(<h2 class="actus-h2"[^<]*</h2>)?<div class="jr-grille" id="presse">.*?</div>', lambda m: filtres(l) + une(l, R) + (m.group(1) or "") + '<div class="jr-grille" id="presse" data-f="tout">' + cartes(l, 60, R, 5) + '</div>', c, count=1, flags=re.S)
+        c = re.sub(r'(?:<div class="cat-filtres".*?</script>)?(?:<!--une-->.*?<!--/une-->)?(<h2 class="actus-h2"[^<]*</h2>)?<div class="jr-grille" id="presse"[^>]*>.*?</div>', lambda m: filtres(l) + une(l, R) + '<div class="jr-grille" id="presse" data-f="tout">' + cartes(l, 60, R, 5) + '</div>', c, count=1, flags=re.S)
+        c = re.sub(r'(<header class="tete-page actus-tete">)(?:<!--flash-->.*?<!--/flash-->)?', lambda m: m.group(1) + flash(l), c, count=1, flags=re.S)
         c = re.sub(r'<div class="jr-grille" id="actus-accueil" style="margin-top:18px">.*?</div>', lambda m: '<div class="jr-grille" id="actus-accueil" style="margin-top:18px">' + cartes(l, 4, R) + '</div>', c, count=1, flags=re.S)
         if l != "fr":
             c = re.sub(r"<html[^>]*>", f'<html lang="{HL.get(l, l)}" dir="{"rtl" if l == "ar" else "ltr"}" data-l="{l}" data-root="../">', c, count=1)

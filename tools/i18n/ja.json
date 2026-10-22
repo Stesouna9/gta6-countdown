@@ -125,8 +125,6 @@
  "c5d": "GTA 6は大容量：1TB SSD推奨。",
  "foot": "OKALAM Studioによる非公式ファンサイト。GTAおよびGrand Theft AutoはTake-Two Interactive / Rockstar Gamesの商標です。一部のリンクはアフィリエイトです：サイトに手数料、あなたに追加費用はありません。",
  "mentions": "法的表記＆アフィリエイト",
- "mt_index": "GTA 6 カウントダウン：2026年11月19日発売",
- "md_index": "世界一のGTA 6カウントダウン。2026年11月19日まであと何日何時間何分。26分のExtended Lookを含む公式トレーラー、リアルタイム（毎分）更新のニュース、Vice Bay Radio、Vice Break。17言語対応。",
  "mt_actus": "GTA 6ニュース：トレーラー、価格、Rockstarの発表をリアルタイム（毎分）更新",
  "md_actus": "Grand Theft Auto VIの最新ニュースをまとめて。Rockstarの公式発表、Extended Look、価格、予約、世界のメディア記事を17言語で、リアルタイム（毎分）更新。",
  "mt_faq": "GTA 6 FAQ：発売日、価格、PC、キャラクター、アラビア語",
@@ -137,8 +135,6 @@
  "md_radio": "Vice Bay Radioを生放送で。1986年の架空のFM局が6つ、シンセウェーブ、チップチューン、サルサ、ジャズ。Vice Cityの空気そのまま。",
  "mt_goodies": "GTA 6グッズ：Tシャツ、ポスター、フィギュア、Vice Cityギフト",
  "md_goodies": "GTAグッズ特集。RockstarのTシャツ、Vice Cityのポスター、フィギュア、キャップ、ギフトのアイデア。GTA 6を待つ間に。",
- "mt_sortie": "GTA 6の発売日と発売時刻（国別）",
- "md_sortie": "GTA 6は2026年11月19日（木）発売、プリロードは11月12日。国ごとの現地時間と、Rockstarがまだ発表していない情報。",
  "mt_guide": "Leonidaガイド：GTA 6の地域、キャラクター、年表",
  "md_guide": "Vice City、Leonida Keys、Grassrivers、Port Gellhorn、Ambrosia、Mount Kalaga。GTA 6の地域、キャラクター、トレーラー、延期の経緯。",
  "mt_vraifaux": "GTA 6 本当か嘘か：噂、フェイクニュース、詐欺",
@@ -161,8 +157,6 @@
  "foot_plus": "このサイトの他のページ",
  "verif": "事実確認日",
  "lang_sugg": "言語：",
- "so_t": "発売日と発売時刻",
- "so_i": "発売日に確定していること、まだ未定のこと、そしてあなたの地域での時刻。",
  "so_date_k": "発売日",
  "so_date": "2026年11月19日（木）",
  "so_plat_k": "対応機種",
@@ -595,5 +589,8 @@
  "rv_gold_t": "ゲームはリリースの 1 か月前にゴールドにならなかった",
  "rv_gold_v": "ブルームバーグを基にNotebookcheckが報じた。 Rockstarは11月19日を保持している。",
  "rv_ps5pro_t": "GTA 6 」のせいでPS5 Proは2027年まで在庫切れになる",
- "rv_ps5pro_v": "米CNETが報じたものだが、ソニーからの確認は得られていない。"
+ "rv_ps5pro_v": "米CNETが報じたものだが、ソニーからの確認は得られていない。",
+ "actus_flash": "速報",
+ "actus_plus_lu": "よく読まれている",
+ "actus_toutes": "すべてのニュース"
 }

@@ -125,8 +125,6 @@
  "c5d": "GTA 6 çok büyük olacak: 1 TB SSD önerilir.",
  "foot": "OKALAM Studio'nun resmi olmayan hayran sitesi. GTA ve Grand Theft Auto, Take-Two Interactive / Rockstar Games'in ticari markalarıdır. Bazı bağlantılar bağlı kuruluş bağlantısıdır: siteye komisyon, sana ek maliyet yok.",
  "mentions": "Yasal bilgiler ve bağlı kuruluş",
- "mt_index": "GTA 6 geri sayımı: 19 Kasım 2026'da çıkış",
- "md_index": "Bir numaralı GTA 6 geri sayımı: 19 Kasım 2026'ya kaç gün, saat, dakika kaldı. 26 dakikalık Extended Look dahil resmi fragmanlar, gerçek zamanlı, her dakika haber, Vice Bay Radio, Vice Break. 17 dil.",
  "mt_actus": "GTA 6 haberleri: fragmanlar, fiyatlar, Rockstar duyuruları, gerçek zamanlı, her dakika güncel",
  "md_actus": "Grand Theft Auto VI ile ilgili tüm haberler: Rockstar'ın resmi duyuruları, Extended Look, fiyatlar, ön siparişler ve dünya basını 17 dilde, gerçek zamanlı, her dakika güncellenir.",
  "mt_faq": "GTA 6 SSS: çıkış tarihi, fiyat, PC, karakterler, Arapça",
@@ -137,8 +135,6 @@
  "md_radio": "Vice Bay Radio'yu canlı dinle: 1986'dan altı kurgusal FM istasyonu, synthwave, chiptune, salsa ve caz, tam Vice City ruhunda.",
  "mt_goodies": "GTA 6 ürünleri: tişört, poster, figür, Vice City hediyeleri",
  "md_goodies": "GTA ürünleri: Rockstar tişörtleri, Vice City posterleri, figürler, şapkalar ve GTA 6'yı beklerken hediye fikirleri.",
- "mt_sortie": "GTA 6 çıkış tarihi ve saati, her ülke için",
- "md_sortie": "GTA 6, 19 Kasım 2026 Perşembe günü çıkıyor, ön yükleme 12 Kasım'da. Ülke ülke yerel saatin ve Rockstar'ın henüz açıklamadıkları.",
  "mt_guide": "Leonida rehberi: GTA 6 bölgeleri, karakterleri ve zaman çizelgesi",
  "md_guide": "Vice City, Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia, Mount Kalaga: GTA 6'nın bölgeleri, karakterleri, fragmanları ve ertelemeleri.",
  "mt_vraifaux": "GTA 6 doğru mu yanlış mı: söylentiler, sahte haberler ve dolandırıcılıklar",
@@ -161,8 +157,6 @@
  "foot_plus": "Sitede ayrıca",
  "verif": "Bilgiler şu tarihte doğrulandı",
  "lang_sugg": "Şu dilde oku",
- "so_t": "Çıkış tarihi ve saati",
- "so_i": "Çıkış günü için nelerin kesin olduğu, nelerin olmadığı ve bulunduğun yerdeki saat.",
  "so_date_k": "Tarih",
  "so_date": "19 Kasım 2026 Perşembe",
  "so_plat_k": "Platformlar",
@@ -595,5 +589,8 @@
  "rv_gold_t": "Oyun piyasaya sürülmeden bir ay önce altın madalya kazanmadı",
  "rv_gold_v": "Notebookcheck tarafından Bloomberg'e dayalı olarak rapor edilmiştir. Rockstar 19 Kasım'ı koruyor.",
  "rv_ps5pro_t": "PS5 Pro, GTA 6 nedeniyle 2027 yılına kadar stokta kalmayacak",
- "rv_ps5pro_v": "Sony'nin onayı olmadan CNET tarafından bildirildi."
+ "rv_ps5pro_v": "Sony'nin onayı olmadan CNET tarafından bildirildi.",
+ "actus_flash": "Son dakika",
+ "actus_plus_lu": "En çok okunan",
+ "actus_toutes": "Tüm haberler"
 }

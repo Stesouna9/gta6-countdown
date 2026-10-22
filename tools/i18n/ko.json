@@ -125,8 +125,6 @@
  "c5d": "GTA 6는 용량이 큽니다: 1TB SSD 권장.",
  "foot": "OKALAM Studio의 비공식 팬 사이트. GTA와 Grand Theft Auto는 Take-Two Interactive / Rockstar Games의 상표입니다. 일부 링크는 제휴 링크입니다: 사이트에 수수료, 추가 비용 없음.",
  "mentions": "법적 고지 & 제휴",
- "mt_index": "GTA 6 카운트다운: 2026년 11월 19일 출시",
- "md_index": "세계 1위 GTA 6 카운트다운: 2026년 11월 19일까지 남은 일, 시, 분. 26분짜리 Extended Look를 포함한 공식 트레일러, 실시간(매분) 뉴스, Vice Bay Radio, Vice Break. 17개 언어.",
  "mt_actus": "GTA 6 뉴스: 트레일러, 가격, Rockstar 발표, 실시간(매분) 업데이트",
  "md_actus": "Grand Theft Auto VI의 모든 소식: Rockstar 공식 발표, Extended Look, 가격, 예약 구매, 전 세계 언론 기사를 17개 언어로, 실시간(매분) 업데이트.",
  "mt_faq": "GTA 6 FAQ: 출시일, 가격, PC, 캐릭터, 아랍어",
@@ -137,8 +135,6 @@
  "md_radio": "Vice Bay Radio 라이브 청취: 1986년을 배경으로 한 가상의 FM 6개 채널, 신스웨이브, 칩튠, 살사, 재즈까지 Vice City 감성으로.",
  "mt_goodies": "GTA 6 굿즈: 티셔츠, 포스터, 피규어, Vice City 선물",
  "md_goodies": "GTA 굿즈: Rockstar 티셔츠, Vice City 포스터, 피규어, 모자, GTA 6를 기다리며 고르는 선물 아이디어.",
- "mt_sortie": "국가별 GTA 6 출시일과 출시 시간",
- "md_sortie": "GTA 6는 2026년 11월 19일 목요일 출시, 사전 다운로드는 11월 12일부터. 국가별 현지 시간과 Rockstar가 아직 발표하지 않은 내용.",
  "mt_guide": "Leonida 가이드: GTA 6의 지역, 캐릭터, 연표",
  "md_guide": "Vice City, Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia, Mount Kalaga: GTA 6의 지역, 캐릭터, 트레일러, 연기 소식.",
  "mt_vraifaux": "GTA 6 진실 혹은 거짓: 루머, 가짜 뉴스, 사기",
@@ -161,8 +157,6 @@
  "foot_plus": "사이트의 다른 콘텐츠",
  "verif": "팩트 확인일",
  "lang_sugg": "읽기 언어",
- "so_t": "출시일과 시간",
- "so_i": "출시일에 확정된 것, 아직 아닌 것, 그리고 내가 사는 곳의 시간.",
  "so_date_k": "날짜",
  "so_date": "2026년 11월 19일 목요일",
  "so_plat_k": "플랫폼",
@@ -595,5 +589,8 @@
  "rv_gold_t": "게임이 출시되기 한 달 전에 골드를 달성하지 못했습니다.",
  "rv_gold_v": "Bloomberg를 기반으로 Notebookcheck에서 보고했습니다. Rockstar 11월 19일을 지키고 있습니다.",
  "rv_ps5pro_t": "PS5 Pro는 GTA 6 으로 인해 2027년까지 품절됩니다.",
- "rv_ps5pro_v": "Sony의 확인 없이 CNET에서 보고했습니다."
+ "rv_ps5pro_v": "Sony의 확인 없이 CNET에서 보고했습니다.",
+ "actus_flash": "속보",
+ "actus_plus_lu": "가장 많이 읽은 것",
+ "actus_toutes": "모든 뉴스"
 }

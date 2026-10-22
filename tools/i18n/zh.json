@@ -125,8 +125,6 @@
  "c5d": "GTA 6体积巨大：建议1TB SSD。",
  "foot": "OKALAM Studio制作的非官方粉丝网站。GTA和Grand Theft Auto是Take-Two Interactive / Rockstar Games的商标。部分链接为联盟链接：网站获得佣金，你无需额外付费。",
  "mentions": "法律声明与联盟",
- "mt_index": "GTA 6倒计时：2026年11月19日发售",
- "md_index": "全球第一的GTA 6倒计时：距离2026年11月19日还有几天几小时几分钟。官方预告片（含26分钟Extended Look）、资讯实时更新（每分钟）、Vice Bay Radio、Vice Break。支持17种语言。",
  "mt_actus": "GTA 6资讯：预告片、价格、Rockstar公告，实时更新（每分钟）",
  "md_actus": "Grand Theft Auto VI全部资讯：Rockstar官方公告、Extended Look、价格、预购，以及17种语言的全球媒体报道，实时更新（每分钟）。",
  "mt_faq": "GTA 6常见问题：发售日、价格、PC、角色、阿拉伯语",
@@ -137,8 +135,6 @@
  "md_radio": "在线收听Vice Bay Radio：六个虚构的1986年FM电台，合成器浪潮、芯片音乐、萨尔萨与爵士，满是Vice City的味道。",
  "mt_goodies": "GTA 6周边：T恤、海报、手办、Vice City礼物",
  "md_goodies": "GTA周边：Rockstar T恤、Vice City海报、手办、帽子和送礼灵感，陪你等GTA 6。",
- "mt_sortie": "GTA 6各国发售日期与时间",
- "md_sortie": "GTA 6将于2026年11月19日（星期四）发售，11月12日开放预载。各国当地时间，以及Rockstar尚未公布的内容。",
  "mt_guide": "Leonida指南：GTA 6的地区、角色与时间线",
  "md_guide": "Vice City、Leonida Keys、Grassrivers、Port Gellhorn、Ambrosia、Mount Kalaga：GTA 6的地区、角色、预告片与延期。",
  "mt_vraifaux": "GTA 6真假辨别：传闻、假消息与骗局",
@@ -161,8 +157,6 @@
  "foot_plus": "本站其他内容",
  "verif": "核实日期",
  "lang_sugg": "阅读语言：",
- "so_t": "发售日期与时间",
- "so_i": "首发日哪些已确认，哪些还没有，以及你所在地的时间。",
  "so_date_k": "日期",
  "so_date": "2026年11月19日（星期四）",
  "so_plat_k": "平台",
@@ -595,5 +589,8 @@
  "rv_gold_t": "该游戏在发行前一个月尚未获得金牌",
  "rv_gold_v": "Notebookcheck 根据彭博社报道。 Rockstar将于 11 月 19 日举行。",
  "rv_ps5pro_t": "由于GTA 6 PS5 Pro 将缺货到 2027 年",
- "rv_ps5pro_v": "由 CNET 报道，未经索尼证实。"
+ "rv_ps5pro_v": "由 CNET 报道，未经索尼证实。",
+ "actus_flash": "快讯",
+ "actus_plus_lu": "阅读最多的",
+ "actus_toutes": "所有新闻"
 }
