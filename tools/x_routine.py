@@ -154,6 +154,8 @@ def main():
         texte = compose(("🔒 " if cyb else "🎮 " if vb else "🚨 ") + a["fr"]["t"], a["fr"].get("d", ""), "#Cyberleek" if cyb else "#ViceBreak" if vb else "#ViceCity", paragraphes(a["fr"].get("h", "")))
         img, cle = image_article(a), a["id"]
         lien = f"https://gtavifrance.com/journal/{a['id']}.html"
+        if slot == "actu":   # 22/10 Gabriel : au moins une news par jour avec le lien dans le post (9 h), pas en réponse
+            texte = texte.replace("👇 Article complet en réponse", "👉 " + lien); lien = ""
     if SEC: print(texte, f"\n[{len(texte)} car., image {len(img)} o]"); return
     if "--json" in sys.argv: print(json.dumps({"slot": slot, "cle": cle, "texte": texte, "lien": lien, "image": base64.b64encode(img).decode()})); return
     try:
