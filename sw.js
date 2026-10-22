@@ -12,7 +12,7 @@ self.addEventListener("fetch", function (e) {
 });
 
 self.addEventListener("push", function (e) {
-  var d = {}; try { d = e.data.json(); } catch (x) { d = { t: "VI Countdown", x: e.data ? e.data.text() : "" }; }
+  var d = {}; try { d = e.data.json(); } catch (x) { d = { t: "GTAVIFRANCE", x: e.data ? e.data.text() : "" }; }
   e.waitUntil(self.registration.showNotification(d.t || "GTA 6", { body: d.x || "", icon: "assets/icons/icon-192.png", badge: "assets/icons/icon-192.png", tag: d.tag || "vi", renotify: true, data: { u: d.u || "https://gtavifrance.com/" } }));
 });
 self.addEventListener("notificationclick", function (e) {

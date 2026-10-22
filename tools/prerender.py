@@ -39,7 +39,7 @@ ACTUS = json.load(open("actus.json", encoding="utf-8"))
 def ld_page(l, page, D):
     g = []
     if page != "index":
-        g.append({"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "VI Countdown", "item": url(l, "index")},
+        g.append({"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "GTAVIFRANCE", "item": url(l, "index")},
                   {"@type": "ListItem", "position": 2, "name": D.get("mt_" + page, page), "item": url(l, page)}]})
     if page == "faq":
         g.append({"@type": "FAQPage", "inLanguage": HL.get(l, l), "mainEntity": [{"@type": "Question", "name": D[f"q{i}"], "acceptedAnswer": {"@type": "Answer", "text": D[f"a{i}"]}} for i in range(1, 7)]})
@@ -70,10 +70,10 @@ def ld_page(l, page, D):
     return '\n  <script type="application/ld+json" data-gen>' + json.dumps({"@context": "https://schema.org", "@graph": g}, ensure_ascii=False) + "</script>"
 
 def meta(l, page, D, R):
-    t, d, u = D.get("mt_" + page, "VI Countdown"), D.get("md_" + page, ""), url(l, page)
-    if page != "index": t += " | VI Countdown"
+    t, d, u = D.get("mt_" + page, "GTAVIFRANCE"), D.get("md_" + page, ""), url(l, page)
+    if page != "index": t += " | GTAVIFRANCE"
     m = [f"<title>{e(t)}</title>", f'<meta name="description" content="{e(d)}">', f'<link rel="canonical" href="{u}">',
-         f'<meta property="og:type" content="website"><meta property="og:site_name" content="VI Countdown"><meta property="og:locale" content="{LOCALE[l]}">',
+         f'<meta property="og:type" content="website"><meta property="og:site_name" content="GTAVIFRANCE"><meta property="og:locale" content="{LOCALE[l]}">',
          f'<meta property="og:title" content="{e(t)}"><meta property="og:description" content="{e(d)}"><meta property="og:url" content="{u}">',
          '<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">' + f'<meta property="og:image" content="{og_img(l, page)}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">',
          '<meta name="twitter:card" content="summary_large_image">',
@@ -197,7 +197,7 @@ open("robots.txt", "w").write("User-agent: *\nAllow: /\nDisallow: /mentions.html
 
 E = I18N["en"]
 pages_llm = "\n".join(f"- [{E['mt_' + p]}]({url('en', p)}): {E['md_' + p]}" for p, *_ in PAGES)
-open("llms.txt", "w", encoding="utf-8").write(f"""# VI Countdown: GTA 6 release countdown, news and facts
+open("llms.txt", "w", encoding="utf-8").write(f"""# GTAVIFRANCE: GTA 6 release countdown, news and facts
 
 > Independent fan site (not affiliated with Rockstar Games) tracking Grand Theft Auto VI: live countdown to the November 19, 2026 release, verified facts with sources, world press news updated every minute, editions and prices, release time by time zone, Leonida guide, rumor checks. Every page exists in {len(LANGS)} languages: {", ".join(LANGS)} (French at {BASE}, others at {BASE}<code>/).
 
@@ -227,7 +227,7 @@ open("llms.txt", "w", encoding="utf-8").write(f"""# VI Countdown: GTA 6 release 
 - [RSS]({BASE}feed.xml)
 - [Sitemap]({BASE}sitemap.xml)
 """)
-json.dump({"name": "VI Countdown, GTA 6", "short_name": "GTA VI", "start_url": "./", "scope": "./", "display": "standalone", "background_color": "#16111d",
+json.dump({"name": "GTAVIFRANCE, GTA 6", "short_name": "GTA VI", "start_url": "./", "scope": "./", "display": "standalone", "background_color": "#16111d",
            "theme_color": "#16111d", "lang": "fr", "icons": [{"src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png"},
            {"src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png"}, {"src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}]},
           open("manifest.webmanifest", "w"), ensure_ascii=False, indent=1)

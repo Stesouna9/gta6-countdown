@@ -17,7 +17,7 @@ TPL = """<!doctype html><html lang="{hl}" dir="{dir}"><head><meta charset="utf-8
 h1{{margin:0;position:absolute;top:106px;bottom:80px;left:0;right:0;display:flex;align-items:center;padding:0 48px;box-sizing:border-box;font:400 {fs}px/1.02 Anton,"Lalezar","Noto Sans Devanagari","Hiragino Sans","PingFang SC","PingFang TC","Apple SD Gothic Neo",sans-serif;text-transform:uppercase;text-shadow:7px 7px 0 #ff3b7a;overflow:hidden}}
 .bas{{position:absolute;left:0;right:0;bottom:0;height:80px;background:#16111d;color:#f2e8d5;display:flex;justify-content:space-between;align-items:center;padding:0 48px;font:700 22px "JetBrains Mono",monospace;letter-spacing:.1em}}
 .vi{{font:400 64px Anton;color:#ff3b7a;letter-spacing:0}}</style></head><body>
-<div class="top"><span>VI Countdown · {kick}</span><b>19.11.2026</b></div><div class="r"></div><div class="r2"></div><div class="r3"></div>
+<div class="top"><span>GTAVIFRANCE · {kick}</span><b>19.11.2026</b></div><div class="r"></div><div class="r2"></div><div class="r3"></div>
 <h1>{titre}</h1><div class="bas"><span>PS5 · XBOX SERIES X|S · LEONIDA</span><span class="vi">VI</span></div></body></html>"""
 def un(l, p):
     D = {**EN, **json.load(open(f"tools/i18n/{l}.json"))}

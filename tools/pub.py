@@ -304,7 +304,7 @@ for slug, l, nom, tz, prix in PAYS:
     b_txt = fmt_local(local_b, l)
     t["r1"] = t["r1"].replace("{b}", b_txt)
     url = f"{BASE}sortie/{slug}.html"
-    title = t["h1"] + " | VI Countdown"
+    title = t["h1"] + " | GTAVIFRANCE"
     body = f"""
   <header class="tete-page chaud"><div class="wrap"><span class="kicker">{e(t['kick'])}</span><h1>{e(t['h1'])}</h1><p>{e(t['intro'])}</p></div></header>
   <section class="papier"><div class="wrap">
@@ -376,8 +376,8 @@ for l, qs in Q.items():
   <section><div class="wrap"><div class="rubrique rv"><span class="num">+</span><h2>{e(QT[l][2])}</h2></div><ul class="liste-q">{autres}</ul><div class="partage"></div></div></section>
 """
         ld = [{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": l, "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": r}}]},
-              {"@context": "https://schema.org", "@type": "Article", "headline": q, "inLanguage": l, "dateModified": TODAY.isoformat(), "author": {"@type": "Organization", "name": "Rédaction GTAVIFRANCE"}, "publisher": {"@type": "Organization", "name": "VI Countdown"}, "mainEntityOfPage": url}]
-        write(("" if l == "fr" else l + "/") + f"q/{slug}.html", page(l, url, q + " | VI Countdown", r[:155], body, ld, img=BASE + f"assets/og/{l}/faq.jpg", page_shell="faq"))
+              {"@context": "https://schema.org", "@type": "Article", "headline": q, "inLanguage": l, "dateModified": TODAY.isoformat(), "author": {"@type": "Organization", "name": "Rédaction GTAVIFRANCE"}, "publisher": {"@type": "Organization", "name": "GTAVIFRANCE"}, "mainEntityOfPage": url}]
+        write(("" if l == "fr" else l + "/") + f"q/{slug}.html", page(l, url, q + " | GTAVIFRANCE", r[:155], body, ld, img=BASE + f"assets/og/{l}/faq.jpg", page_shell="faq"))
         URLS.append((url, l, "0.7"))
 
 # ------------------------------------------------------------------ 3. comparateur de prix
@@ -405,7 +405,7 @@ for l, p in PRIX.items():
     ld = [{"@context": "https://schema.org", "@type": "Product", "name": "Grand Theft Auto VI", "brand": {"@type": "Brand", "name": "Rockstar Games"},
            "offers": [{"@type": "Offer", "name": "Standard", "priceCurrency": "EUR", "price": "79.99", "availability": "https://schema.org/PreOrder", "url": url},
                       {"@type": "Offer", "name": "Ultimate", "priceCurrency": "EUR", "price": "99.99", "availability": "https://schema.org/PreOrder", "url": url}]}]
-    write(("" if l == "fr" else l + "/") + "prix.html", page(l, url, p["t"] + " | VI Countdown", p["i"], body, ld, img=BASE + f"assets/og/{l}/acheter.jpg", page_shell="acheter"))
+    write(("" if l == "fr" else l + "/") + "prix.html", page(l, url, p["t"] + " | GTAVIFRANCE", p["i"], body, ld, img=BASE + f"assets/og/{l}/acheter.jpg", page_shell="acheter"))
     URLS.append((url, l, "0.8"))
 
 # ------------------------------------------------------------------ 4. article du jour J-n
@@ -435,8 +435,8 @@ for l, (slug, t, i, h2, h3) in AJ.items():
     <p class="fait" style="margin-top:36px"><span class="kicker">{e(AJ2[l][2])}</span>{e(FAITS[l][TODAY.toordinal() % len(FAITS[l])])}</p><div class="partage"></div></div></section>
 """
     ld = [{"@context": "https://schema.org", "@type": "NewsArticle", "headline": t, "description": i, "inLanguage": l, "datePublished": TODAY.isoformat() + "T06:00:00+01:00", "dateModified": datetime.datetime.now().isoformat(timespec="seconds"),
-           "image": [BASE + f"assets/jn{'-fr' if l == 'fr' else ''}.jpg"], "author": {"@type": "Organization", "name": "Rédaction GTAVIFRANCE"}, "publisher": {"@type": "Organization", "name": "VI Countdown", "logo": {"@type": "ImageObject", "url": BASE + "assets/icon-512.png"}}, "mainEntityOfPage": url}]
-    write(("" if l == "fr" else l + "/") + f"{slug}.html", page(l, url, t + " | VI Countdown", i, body, ld, img=BASE + f"assets/jn{'-fr' if l == 'fr' else ''}.jpg", page_shell="actus"))
+           "image": [BASE + f"assets/jn{'-fr' if l == 'fr' else ''}.jpg"], "author": {"@type": "Organization", "name": "Rédaction GTAVIFRANCE"}, "publisher": {"@type": "Organization", "name": "GTAVIFRANCE", "logo": {"@type": "ImageObject", "url": BASE + "assets/icon-512.png"}}, "mainEntityOfPage": url}]
+    write(("" if l == "fr" else l + "/") + f"{slug}.html", page(l, url, t + " | GTAVIFRANCE", i, body, ld, img=BASE + f"assets/jn{'-fr' if l == 'fr' else ''}.jpg", page_shell="actus"))
     URLS.append((url, l, "0.9"))
 
 
@@ -699,7 +699,7 @@ for a in ARTS:
     for l in T:
         k = "idn" if l == "id" else l; x = a.get(k)
         if not isinstance(x, dict) or not x.get("t"): continue
-        sn.append(f'  <url><loc>{BASE}{"" if l == "fr" else l + "/"}journal/{a["id"]}.html</loc><news:news><news:publication><news:name>VI Countdown</news:name><news:language>{"zh-tw" if l == "tw" else l}</news:language></news:publication><news:publication_date>{a["date"]}</news:publication_date><news:title>{e(x["t"])}</news:title></news:news></url>')
+        sn.append(f'  <url><loc>{BASE}{"" if l == "fr" else l + "/"}journal/{a["id"]}.html</loc><news:news><news:publication><news:name>GTAVIFRANCE</news:name><news:language>{"zh-tw" if l == "tw" else l}</news:language></news:publication><news:publication_date>{a["date"]}</news:publication_date><news:title>{e(x["t"])}</news:title></news:news></url>')
         if len(sn) > 1000: break
 open("sitemap-news.xml", "w", encoding="utf-8").write("\n".join(sn + ["</urlset>", ""]))
 rb = open("robots.txt", encoding="utf-8").read()
