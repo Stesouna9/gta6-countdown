@@ -580,6 +580,7 @@ for l in T:
         if len(_pp) > 5 and _aussi: h = "</p>".join(_pp[:4]) + "</p>" + _aussi + "</p>".join(_pp[4:])
         try: _age = (datetime.datetime.now(datetime.timezone.utc) - datetime.datetime.fromisoformat(a["date"]).astimezone(datetime.timezone.utc)).total_seconds() / 3600
         except Exception: _age = 9e9
+        vlien = (' · <a href="verdict.html" data-goatcounter-click="art-verdict">' + e(tr(l, "rv_lien")) + '</a>') if statut(a) == "rum" else ""
         kick = ('<span class="direct"><i></i>' + e(tr(l, "direct")) + '</span>') if (_age < 48 and not a.get("retro")) else ('<span class="jr-kick">' + e(tr(l, "jr_journal")) + '</span>')
         body = f"""
   <header class="tete-page image jr-tete"><img src="{e(img)}" alt="" loading="eager"><div class="wrap"><span class="kicker">{kick} · {badge(a, l)} · {e(d_fmt(a, l))}</span><h1>{e(x["t"])}</h1>{'<span class="jr-retro">' + e(tr(l, "jr_retro")) + '</span>' if a.get("retro") else ''}<p class="serif">{e(x["d"])}</p>
@@ -587,7 +588,7 @@ for l in T:
     <p class="jr-sources haut"><b>{e(tr(l, "jr_src"))}</b> {srcs}</p></div></header>
   <section class="papier"><div class="wrap jr-corps">{_cd}<div class="pub jr" data-pub="jr-haut"></div>{h}
     <p class="jr-sources"><b>{e(tr(l, "jr_src"))}</b> {srcs}</p>
-    <p class="note jr-statut">{badge(a, l)} {e(tr(l, "st_" + statut(a) + "_i"))}</p>
+    <p class="note jr-statut">{badge(a, l)} {e(tr(l, "st_" + statut(a) + "_i"))}{vlien}</p>
     <p class="note jr-signature">{e(tr(l, "jr_auteur").replace("Solange Rocheval", a.get("auteur") or "Solange Rocheval"))}</p><div class="partage"></div>
     <aside class="vb-encart"><img src="{BASE}assets/img/vb1.webp" alt="Vice Break" loading="lazy" width="570" height="1240"><div><b>{e(tr(l, "vb_encart_t"))}</b><p>{e(tr(l, "vb_encart"))}</p><a class="btn" href="https://apps.apple.com/app/id6815670909" target="_blank" rel="noopener" data-goatcounter-click="vb-precommande-article">{e(tr(l, "vb_pre"))}</a> <a class="lien" href="vicebreak.html">Vice Break →</a></div></aside>
     <div class="boutons"><a class="btn" href="actus.html">{e(tr(l, "jr_suite"))}</a><a class="btn clair" href="https://www.instagram.com/vicebayradio/" target="_blank" rel="noopener">{e(tr(l, "ig_cta"))}</a></div>{_fin}</div></section>
@@ -719,6 +720,40 @@ for a in reversed(ARTS[:10]):
         except Exception: pd = datetime.datetime.now(datetime.timezone.utc).strftime('%a, %d %b %Y %H:%M:%S +0000')
         fx = re.sub(r"<item>", f"<item><title>{e(x['t'])}</title><link>{art_url(a, 'fr')}</link><guid>{art_url(a, 'fr')}</guid><pubDate>{pd}</pubDate><description>{e(x['d'])}</description></item>\n<item>", fx, count=1)
 open("feed.xml", "w", encoding="utf-8").write(fx)
+
+# ------------------------------------------------------------------ 4d. Le Verdict du 19 : suivi des rumeurs (22/10/2026, demande de Gabriel)
+# data/rumeurs.json (id, statut attente/confirmee/dementie, date, article) ; textes : clés i18n rv_<id>_t / rv_<id>_v.
+RUM = json.load(open("data/rumeurs.json", encoding="utf-8"))
+_SORTIE = datetime.date(2026, 11, 19)
+for l in T:
+    px = "" if l == "fr" else l + "/"; url = f"{BASE}{px}verdict.html"
+    n = {k: sum(1 for r in RUM if r["statut"] == k) for k in ("confirmee", "dementie", "attente")}; tot = len(RUM) or 1
+    barre = "".join(f'<span class="vd-{k}" style="width:{100 * n[k] / tot:.1f}%"></span>' for k in ("confirmee", "dementie", "attente"))
+    stats = "".join(f'<div class="vd-chiffre vd-{k}"><b>{round(100 * n[k] / tot)} %</b><span>{e(tr(l, "rv_" + k))} · {n[k]}</span></div>' for k in ("confirmee", "dementie", "attente"))
+    filt = "".join(f'<button type="button" data-f="{k}"' + (' class="on"' if k == "tout" else "") + f'>{e(tr(l, "rv_toutes" if k == "tout" else "rv_" + k))}</button>' for k in ("tout", "attente", "confirmee", "dementie"))
+    ordre = {"attente": 0, "confirmee": 1, "dementie": 2}
+    fiches = "".join(
+        f'<article class="vd-fiche" data-s="{r["statut"]}"><span class="vd-tag vd-{r["statut"]}">{e(tr(l, "rv_" + r["statut"]))}</span>'
+        f'<h3>{e(tr(l, "rv_" + r["id"] + "_t"))}</h3><p>{e(tr(l, "rv_" + r["id"] + "_v"))}</p>'
+        f'<p class="vd-meta">{e(tr(l, "rv_apparue"))} {".".join(reversed(r["date"].split("-")))} · <a href="journal/{r["article"]}.html" data-goatcounter-click="verdict-article">{e(tr(l, "rv_lire"))}</a></p></article>'
+        for r in sorted(RUM, key=lambda r: (ordre[r["statut"]], r["date"]), reverse=False))
+    j = max(0, (_SORTIE - TODAY).days)
+    body = f"""
+  <header class="tete-page"><div class="wrap"><span class="kicker">{e(tr(l, "rv_compte"))} {j} {e(tr(l, "rv_jours"))}</span><h1>{e(tr(l, "rv_h"))}</h1><p class="serif">{e(tr(l, "rv_i"))}</p></div></header>
+  <section class="papier"><div class="wrap">
+    <div class="vd-barre" aria-hidden="true">{barre}</div><div class="vd-chiffres">{stats}</div><p class="note">{len(RUM)} {e(tr(l, "rv_stat"))}</p>
+    <div class="cat-filtres vd-filtres">{filt}</div>
+    <div class="vd-grille">{fiches}</div>
+    <script>document.addEventListener("click",function(e){{var b=e.target.closest(".vd-filtres button");if(!b)return;document.querySelectorAll(".vd-filtres button").forEach(function(x){{x.classList.toggle("on",x===b)}});var f=b.dataset.f;document.querySelectorAll(".vd-fiche").forEach(function(c){{c.hidden=!(f=="tout"||c.dataset.s==f)}})}});</script>
+  </div></section>
+"""
+    ld = [{"@context": "https://schema.org", "@type": "ClaimReview", "url": url + "#" + r["id"], "claimReviewed": tr(l, "rv_" + r["id"] + "_t"), "datePublished": r["date"],
+           "author": {"@type": "Organization", "name": "GTAVIFRANCE", "url": BASE},
+           "reviewRating": {"@type": "Rating", "ratingValue": 5 if r["statut"] == "confirmee" else 1, "bestRating": 5, "worstRating": 1, "alternateName": tr(l, "rv_" + r["statut"])},
+           "itemReviewed": {"@type": "Claim", "datePublished": r["date"], "appearance": {"@type": "CreativeWork", "url": f"{BASE}{px}journal/{r['article']}.html"}}}
+          for r in RUM if r["statut"] != "attente"]
+    write(px + "verdict.html", page(l, url, tr(l, "rv_t"), tr(l, "rv_md"), body, ld, page_shell="actus", alts={k: f"{BASE}{'' if k == 'fr' else k + '/'}verdict.html" for k in T}))
+    URLS.append((url, l, "0.9"))
 
 # ------------------------------------------------------------------ 4c. flash : derniers articles pour la barre Suivre
 try:

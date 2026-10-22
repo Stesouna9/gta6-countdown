@@ -1095,3 +1095,14 @@ body.mu-lecteur-on .suivre{bottom:118px}
 .cat-filtres button{font:600 12px var(--mono);letter-spacing:.06em;text-transform:uppercase;padding:7px 12px;border-radius:999px;border:1.5px solid currentColor;background:transparent;color:inherit;cursor:pointer;opacity:.7}
 .cat-filtres button.on{opacity:1;background:var(--hot);border-color:var(--hot);color:#0e0b12}
 .jr-carte[hidden]{display:none}
+/* 22/10 : Le Verdict du 19 (suivi des rumeurs) */
+.vd-barre{display:flex;height:14px;border-radius:999px;overflow:hidden;margin:8px 0 18px;background:rgba(127,127,127,.2)}
+.vd-barre span.vd-confirmee,.vd-tag.vd-confirmee{background:#4ade80}.vd-barre span.vd-dementie,.vd-tag.vd-dementie{background:#f87171}.vd-barre span.vd-attente,.vd-tag.vd-attente{background:#fbbf24}
+.vd-chiffres{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:6px}
+.vd-chiffre b{display:block;font:700 clamp(28px,6vw,48px)/1 var(--display,inherit)}.vd-chiffre span{font:600 12px var(--mono);letter-spacing:.08em;text-transform:uppercase;opacity:.8}
+.vd-chiffre.vd-confirmee b{color:#4ade80}.vd-chiffre.vd-dementie b{color:#f87171}.vd-chiffre.vd-attente b{color:#fbbf24}
+.vd-grille{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px}
+.vd-fiche{border:1.5px solid rgba(127,127,127,.3);border-radius:8px;padding:16px;display:grid;gap:8px;align-content:start}.vd-fiche[hidden]{display:none}
+.vd-fiche h3{margin:0;font-size:1.15em;line-height:1.25}.vd-fiche p{margin:0}
+.vd-tag{justify-self:start;font:700 11px var(--mono);letter-spacing:.08em;text-transform:uppercase;padding:3px 8px;border-radius:3px;color:#0e0b12}
+.vd-meta{font:400 12px var(--mono);opacity:.75}
