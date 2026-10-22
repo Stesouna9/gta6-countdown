@@ -1224,7 +1224,8 @@ body.mu-lecteur-on .suivre{bottom:118px}
 [dir=rtl] .actus-h2::before{background:linear-gradient(90deg,rgba(255,166,43,.6),transparent)}[dir=rtl] .actus-h2::after{background:linear-gradient(90deg,transparent,rgba(255,166,43,.6))}
 @media (min-width:861px){.une-g{grid-row:auto;min-height:420px}.une-m{align-self:stretch}.une-c{aspect-ratio:auto;min-height:0}}
 /* Avis sous les articles (22/10) : j'aime, étoiles, réactions, commentaires — sombre */
-.avis{margin:28px 0;padding:20px;border:1px solid #ffffff1f;border-radius:14px;background:#ffffff08}
+.avis{margin:28px 0;padding:20px;border:1px solid #ffffff1f;border-radius:14px;background:var(--ink2);color:var(--paper)}
+.avis .kicker{color:var(--sun)}
 .avis .kicker{display:block;margin-bottom:12px}
 .av-haut{display:flex;flex-wrap:wrap;gap:14px 22px;align-items:center}
 .avis button{font:inherit;color:var(--paper);cursor:pointer}
