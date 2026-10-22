@@ -81,7 +81,7 @@ const d=new DataTransfer();d.items.add(new File([a],'gtavifrance.jpg',{type:'ima
         # 2) texte (insertText : l'éditeur de X le prend comme une frappe)
         res = js("""(()=>{const e=document.querySelector('[data-testid=tweetTextarea_0]');if(!e)return 'pas de zone texte';e.focus();
 document.execCommand('selectAll',false,null);document.execCommand('delete',false,null);
-document.execCommand('insertText',false,%s);const n=e.innerText.split(String.fromCharCode(10)).join('').length;return n>20&&n<300?'texte ok':'texte '+n})()""" % json.dumps(p["texte"]))
+document.execCommand('insertText',false,%s);const n=e.innerText.split(String.fromCharCode(10)).join('').length;return n>20&&n<1300?'texte ok':'texte '+n})()""" % json.dumps(p["texte"]))
         if res != "texte ok": raise RuntimeError(f"texte : {res}")
         time.sleep(3)
         etat = js("""(()=>{const b=document.querySelector('[data-testid=tweetButtonInline]');const img=document.querySelector('[data-testid=attachments] img');

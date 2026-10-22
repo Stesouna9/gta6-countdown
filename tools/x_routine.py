@@ -3,7 +3,7 @@
   13 h site   : compte à rebours J-xx + un angle du site (visuel généré : J-xx sur l'affiche, gtavifrance.com)
   19 h top    : l'article le plus vu des dernières 24 h (GoatCounter, toutes langues), sinon le plus récent pas encore posté.
                Cyberleek seulement s'il est cet article le plus vu (décision Gabriel 14/10 : 3 posts par jour, pas de créneau Cyberleek).
-Texte ≤ 260 caractères, SANS lien (« lien en bio », 0,015 $ le post), hashtags #GTA6 #GTAVI #GTA6France + thème, 1 image.
+Texte long (≤ 1 100 car., X Premium+ depuis le 22/10), lien de l'article en réponse (x_chrome.py), hashtags #GTA6 #GTAVI #GTA6France + thème, 1 image.
 Jamais deux fois le même article (x_routine_etat.json). Clés : /etc/gtavifrance-relais.env (X_API_KEY, X_API_SECRET,
 X_ACCESS_TOKEN, X_ACCESS_SECRET). Crédits API nécessaires (carte ajoutée par Gabriel dans console.x.com).
 Usage : python3 tools/x_routine.py actu|site|cyberleek|top [--sec | --json | --marque <cle> <id>]
@@ -56,11 +56,23 @@ def coupe(s, n):
 
 TAGS_CYB = "#GTA6 #GTAVI #GTA #Cyberleek #GTA6News #GTA6France"   # 15/10 Gabriel : # qui ramène du monde, jamais #GTA6Leak / #leak (Rockstar)
 
-def compose(tete, corps, theme):
-    if theme == "#Cyberleek": pied = "Non confirmé par Rockstar. (lien en bio)\n" + TAGS_CYB
-    else: pied = "(lien en bio)\n" + TAGS + (" " + theme if theme else "")
-    reste = 255 - len(tete) - len(pied) - 4   # marge : X compte les emojis double
-    return f"{tete}\n{coupe(corps, max(reste, 40))}\n{pied}" if corps else f"{tete}\n{pied}"
+def paragraphes(h, n=2):   # 22/10 : X Premium+ (Gabriel) = posts longs, on donne les premiers paragraphes de l'article
+    ps = [re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", x)).strip() for x in re.findall(r"<p[^>]*>(.*?)</p>", h or "", re.S)]
+    return [x for x in ps if len(x) > 40][:n]
+
+LONG = 1100   # Premium : jusqu'à 25 000 car. ; X coupe à ~280 avec « Afficher plus » (temps de lecture = portée)
+
+def compose(tete, corps, theme, suite=(), appel="👇 Article complet en réponse"):
+    if theme == "#Cyberleek": pied = "Non confirmé par Rockstar.\n" + appel + "\n" + TAGS_CYB
+    else: pied = appel + "\n" + TAGS + (" " + theme if theme else "")
+    reste = LONG - len(tete) - len(pied) - 8
+    corps = re.sub(r"\s+", " ", corps or "").strip()
+    corps = coupe(corps, reste)
+    for x in suite:   # paragraphes entiers tant qu'il reste de la place, le dernier coupé proprement
+        place = reste - len(corps) - 2
+        if place < 120: break
+        corps += "\n\n" + coupe(x, place)
+    return f"{tete}\n\n{corps}\n\n{pied}" if corps else f"{tete}\n\n{pied}"
 
 def image_article(a):
     f = RACINE / "assets/img/articles" / f"{a['id']}.jpg"
@@ -127,7 +139,7 @@ def main():
     if slot == "site":
         e, txt, th = ANGLES[datetime.date.today().toordinal() % len(ANGLES)]
         fond = RACINE / "assets/img/vb-motel.webp" if th == "#ViceBreak" else None   # Vice Break : visuel du jeu
-        texte, img, cle = compose(f"{e} J-{j} avant GTA 6.", txt, th), visuel_jours(j, fond), f"site-{datetime.date.today()}"
+        texte, img, cle = compose(f"{e} J-{j} avant GTA 6.", txt, th, appel="👇 Le site en réponse"), visuel_jours(j, fond), f"site-{datetime.date.today()}"
         lien = "https://gtavifrance.com/"
     else:
         cyb = slot == "cyberleek"
@@ -139,7 +151,7 @@ def main():
         if not cands: print(f"{slot} : rien de nouveau à poster"); return
         a = cands[0]
         vb = "vice-break" in a["id"]   # notre jeu : pas une alerte
-        texte = compose(("🔒 " if cyb else "🎮 " if vb else "🚨 ") + a["fr"]["t"], a["fr"].get("d", ""), "#Cyberleek" if cyb else "#ViceBreak" if vb else "#ViceCity")
+        texte = compose(("🔒 " if cyb else "🎮 " if vb else "🚨 ") + a["fr"]["t"], a["fr"].get("d", ""), "#Cyberleek" if cyb else "#ViceBreak" if vb else "#ViceCity", paragraphes(a["fr"].get("h", "")))
         img, cle = image_article(a), a["id"]
         lien = f"https://gtavifrance.com/journal/{a['id']}.html"
     if SEC: print(texte, f"\n[{len(texte)} car., image {len(img)} o]"); return
