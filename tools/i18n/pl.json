@@ -527,7 +527,6 @@
  "so_q1": "Kiedy wyjdzie GTA 6?",
  "so_a1": "GTA 6 ukaże się w czwartek, 19 listopada 2026 roku na PS5 i Xbox Series X|S . Datę potwierdza Rockstar Games .",
  "so_q2": "O której godzinie wychodzi GTA 6?",
- "so_a2": "Rockstar nie ogłosił jeszcze czasu odblokowania. Wersje cyfrowe często odblokowują się o północy czasu lokalnego: nasze odliczanie jest zgodne z tą zasadą i zostanie poprawione, gdy tylko zostanie ogłoszony oficjalny czas.",
  "so_q3": "Kiedy rozpoczyna się wstępne ładowanie GTA 6?",
  "so_a3": "Wstępne pobieranie wersji cyfrowych rozpoczyna się 12 listopada 2026 r., siedem dni przed premierą. Możesz pobrać grę z wyprzedzeniem, ale nie możesz w nią grać, zanim się nie odblokuje.",
  "so_q4": "Jak duże jest GTA 6?",
@@ -542,5 +541,12 @@
  "md_vicebreak": "Vice Break, darmowy łamacz neonowych cegieł OKALAM Studio : 100 poziomów w Vice Bay, bossowie, wbudowane radio. Zamów w przedsprzedaży już teraz w App Store, premiera 19 listopada 2026 r., tego samego dnia co GTA 6 .",
  "so_tz_i": "Jeśli Rockstar odblokuje grę wszędzie w tym samym momencie, akcja będzie miała miejsce o północy w Paryżu. Samo odliczanie następuje po północy w Twojej strefie czasowej. Poprawimy to, gdy tylko Rockstar poda oficjalny czas.",
  "strip": "NAJLEPSZA STRONA GTA 6 · 17 JĘZYKÓW · WIADOMOŚCI W CZASIE RZECZYWISTYM, CO MINUTĘ · ZWIASTUN 3 W 4K · VICE break: BEZPŁATNA PRZEDSPRZEDAŻ W APP STORE · VICE BAY RADIO LIVE ·",
- "brag": "Odliczanie numer 1 na świecie GTA 6 : najdokładniejsze, najlepiej wyglądające i najbardziej kompletne. Dokładność do ostatniej sekundy, odliczanie do północy w Twojej strefie czasowej."
+ "brag": "Odliczanie numer 1 na świecie GTA 6 : najdokładniejsze, najlepiej wyglądające i najbardziej kompletne. Dokładność do ostatniej sekundy, odliczanie do północy w Twojej strefie czasowej.",
+ "so_a2": "O północy czasu lokalnego, w nocy z 18 na 19 listopada. Lista PlayStation Store pokazuje 18 listopada o 23:00 UTC dla Francji, czyli północ w Paryżu, a sklepy regionalne podążają za północą w każdym kraju. Rockstar nie ogłosił jeszcze oficjalnego czasu dla każdej platformy: nasze odliczanie następuje po lokalnej północy i zostanie poprawione, jeśli ogłoszenie będzie inne.",
+ "st_conf": "Potwierdzony",
+ "st_conf_i": "Oficjalne źródło ( Rockstar , Sony, Microsoft…)",
+ "st_rapp": "Zgłoszono",
+ "st_rapp_i": "Doniesienia prasowe, niepotwierdzone przez Rockstar",
+ "st_rum": "Plotka",
+ "st_rum_i": "Niezweryfikowane: wyciek lub plotka, bądź ostrożny"
 }

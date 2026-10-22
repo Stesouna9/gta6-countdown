@@ -445,6 +445,18 @@ ARTS = json.load(open("data/articles.json", encoding="utf-8")) if os.path.exists
 I18N = {l: json.load(open(f"tools/i18n/{l}.json", encoding="utf-8")) for l in T}
 def tr(l, k): return I18N.get(l, {}).get(k) or I18N["en"].get(k) or I18N["fr"].get(k, k)
 def art_cle(l): return "idn" if l == "id" else l  # "id" est déjà le champ identifiant de chaque article
+# 18→22/10 : niveau de confirmation affiché sur chaque article (comme les médias que citent ChatGPT et Gemini)
+OFFICIELS = ("rockstargames.com", "playstation.com", "xbox.com", "take2games.com", "x.com/rockstargames", "twitter.com/rockstargames", "store.playstation.com")
+def statut(a):
+    if a.get("statut") in ("conf", "rapp", "rum"): return a["statut"]
+    t = (a["id"] + " " + " ".join(a.get("tags", []))).lower()
+    if re.search(r"cyberleek|leak|fuite|rumeur|insider|leaker", t): return "rum"
+    if any(o in u.lower() for u in a.get("src", []) for o in OFFICIELS): return "conf"
+    return "rapp"
+def badge(a, l):
+    s = statut(a)
+    return f'<span class="st st-{s}" title="{e(tr(l, "st_" + s + "_i"))}">{e(tr(l, "st_" + s))}</span>'
+
 def art_lang(a, l): return art_cle(l) if isinstance(a.get(art_cle(l)), dict) else ("en" if isinstance(a.get("en"), dict) else "fr")
 BANK = {}
 try:
@@ -516,7 +528,7 @@ def ret_suivant(a):
     return ARTS[i + 1] if i + 1 < len(ARTS) else (ARTS[0] if ARTS[0]["id"] != a["id"] else None)
 def ret_carte(b, l):
     y = b[art_lang(b, l)]
-    return f'<a class="jr-carte" href="journal/{b["id"]}.html" data-goatcounter-click="art-lie"><img src="{e(b.get("img") or BASE + "assets/jn.jpg")}" alt="" loading="lazy" width="640" height="360"><span class="k">{e(d_fmt(b, l))}</span><b>{e(y["t"])}</b></a>'
+    return f'<a class="jr-carte" href="journal/{b["id"]}.html" data-goatcounter-click="art-lie"><img src="{e(b.get("img") or BASE + "assets/jn.jpg")}" alt="" loading="lazy" width="640" height="360"><span class="k">{badge(b, l)} {e(d_fmt(b, l))}</span><b>{e(y["t"])}</b></a>'
 def ret_blocs(a, l):
     R = ret_txt(l); lies = ret_lies(a); su = ret_suivant(a)
     jours = max(0, (datetime.date(2026, 11, 19) - datetime.date.today()).days)
@@ -546,7 +558,7 @@ for l in T:
     cartes = []
     for a in ARTS:
         al = art_lang(a, l); x = a[al]
-        cartes.append(f'<a class="jr-carte" href="journal/{a["id"]}.html"><img src="{e(a.get("img") or BASE + "assets/jn.jpg")}" alt="" loading="lazy" width="640" height="360"><span class="k">{e(d_fmt(a, l))}</span><b>{e(x["t"])}</b><p>{e(x["d"])}</p></a>')
+        cartes.append(f'<a class="jr-carte" href="journal/{a["id"]}.html"><img src="{e(a.get("img") or BASE + "assets/jn.jpg")}" alt="" loading="lazy" width="640" height="360"><span class="k">{badge(a, l)} {e(d_fmt(a, l))}</span><b>{e(x["t"])}</b><p>{e(x["d"])}</p></a>')
         img = a.get("img") or BASE + "assets/jn.jpg"
         srcs = " · ".join(f'<a href="{e(u)}" target="_blank" rel="noopener">{e(u.split("/")[2].replace("www.", ""))}</a>' for u in a.get("src", []))
         h = x["h"]
@@ -576,11 +588,12 @@ for l in T:
         except Exception: _age = 9e9
         kick = ('<span class="direct"><i></i>' + e(tr(l, "direct")) + '</span>') if (_age < 48 and not a.get("retro")) else ('<span class="jr-kick">' + e(tr(l, "jr_journal")) + '</span>')
         body = f"""
-  <header class="tete-page image jr-tete"><img src="{e(img)}" alt="" loading="eager"><div class="wrap"><span class="kicker">{kick} · {e(d_fmt(a, l))}</span><h1>{e(x["t"])}</h1>{'<span class="jr-retro">' + e(tr(l, "jr_retro")) + '</span>' if a.get("retro") else ''}<p class="serif">{e(x["d"])}</p>
+  <header class="tete-page image jr-tete"><img src="{e(img)}" alt="" loading="eager"><div class="wrap"><span class="kicker">{kick} · {badge(a, l)} · {e(d_fmt(a, l))}</span><h1>{e(x["t"])}</h1>{'<span class="jr-retro">' + e(tr(l, "jr_retro")) + '</span>' if a.get("retro") else ''}<p class="serif">{e(x["d"])}</p>
     <p class="jr-sources haut jr-credit">{e(credit_img(img, l))}</p>
     <p class="jr-sources haut"><b>{e(tr(l, "jr_src"))}</b> {srcs}</p></div></header>
   <section class="papier"><div class="wrap jr-corps">{_cd}<div class="pub jr" data-pub="jr-haut"></div>{h}
     <p class="jr-sources"><b>{e(tr(l, "jr_src"))}</b> {srcs}</p>
+    <p class="note jr-statut">{badge(a, l)} {e(tr(l, "st_" + statut(a) + "_i"))}</p>
     <p class="note jr-signature">{e(tr(l, "jr_auteur").replace("Solange Rocheval", a.get("auteur") or "Solange Rocheval"))}</p><div class="partage"></div>
     <aside class="vb-encart"><img src="{BASE}assets/img/vb1.webp" alt="Vice Break" loading="lazy" width="570" height="1240"><div><b>{e(tr(l, "vb_encart_t"))}</b><p>{e(tr(l, "vb_encart"))}</p><a class="btn" href="https://apps.apple.com/app/id6815670909" target="_blank" rel="noopener" data-goatcounter-click="vb-precommande-article">{e(tr(l, "vb_pre"))}</a> <a class="lien" href="vicebreak.html">Vice Break →</a></div></aside>
     <div class="boutons"><a class="btn" href="actus.html">{e(tr(l, "jr_suite"))}</a><a class="btn clair" href="https://www.instagram.com/vicebayradio/" target="_blank" rel="noopener">{e(tr(l, "ig_cta"))}</a></div>{_fin}</div></section>

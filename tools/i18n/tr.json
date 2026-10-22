@@ -527,7 +527,6 @@
  "so_q1": "GTA 6 ne zaman çıkıyor?",
  "so_a1": "GTA 6 , 19 Kasım 2026 Perşembe günü PS5 ve Xbox Series X|S çıkıyor. Tarih Rockstar Games tarafından doğrulandı.",
  "so_q2": "GTA 6 saat kaçta çıkıyor?",
- "so_a2": "Rockstar henüz kilit açma zamanını açıklamadı. Dijital versiyonların kilidi genellikle yerel saatle gece yarısında açılır: Geri sayımımız bu kurala uyar ve resmi saat açıklanır açıklanmaz düzeltilecektir.",
  "so_q3": "GTA 6 ön yüklemesi ne zaman başlıyor?",
  "so_a3": "Dijital sürümler için ön yükleme, yayınlanmadan yedi gün önce, 12 Kasım 2026'da açılıyor. Oyunu önceden indirebilirsiniz ancak kilidi açılmadan oynayamazsınız.",
  "so_q4": "GTA 6 ne kadar büyük?",
@@ -542,5 +541,12 @@
  "md_vicebreak": "Vice Break, OKALAM Studio ücretsiz neon tuğla kırıcısı: Vice Bay'de 100 seviye, bölüm sonu canavarları, dahili radyo. Şimdi App Store'dan ön sipariş verin, 19 Kasım 2026'da, GTA 6 ile aynı gün çıkacak.",
  "so_tz_i": "Rockstar oyunun kilidini her yerde aynı anda açarsa, Paris'te gece yarısına ayarlanacak. Geri sayım sizin saat diliminizdeki gece yarısını takip eder. Rockstar resmi zamanı verir vermez bunu düzelteceğiz.",
  "strip": "EN İYİ GTA 6 SİTESİ · 17 DİL · HER DAKİKA GERÇEK ZAMANLI HABER · 4K FRAGMAN 3 · VICE BREAK: APP STORE'DAN ÜCRETSİZ ÖN SİPARİŞ · VICE BAY RADIO CANLI ·",
- "brag": "Dünyanın 1 numaralı GTA 6 geri sayımı: en doğru, en iyi görünümlü, en eksiksiz. Kendi saat diliminizde gece yarısına kadar geri sayarak son saniyeye kadar doğru."
+ "brag": "Dünyanın 1 numaralı GTA 6 geri sayımı: en doğru, en iyi görünümlü, en eksiksiz. Kendi saat diliminizde gece yarısına kadar geri sayarak son saniyeye kadar doğru.",
+ "so_a2": "Yerel saatle gece yarısı, 18 Kasım'ı 19 Kasım'a bağlayan gece. PlayStation Store listesi Fransa için 18 Kasım 23:00 UTC'yi, yani Paris gece yarısını gösterir ve bölgesel mağazalar her ülkenin gece yarısını takip eder. Rockstar henüz her platform için resmi bir saat açıklamadı: geri sayımımız yerel gece yarısından sonra yapılacak ve duyuru farklı olursa düzeltilecek.",
+ "st_conf": "Onaylandı",
+ "st_conf_i": "Resmi kaynak ( Rockstar , Sony, Microsoft…)",
+ "st_rapp": "Bildirildi",
+ "st_rapp_i": "Basın tarafından bildirildi, Rockstar tarafından onaylanmadı",
+ "st_rum": "Söylenti",
+ "st_rum_i": "Doğrulanmamış: sızıntı veya söylenti, dikkatli olun"
 }

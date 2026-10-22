@@ -532,7 +532,7 @@
  "so_q1": "When does GTA 6 come out?",
  "so_a1": "GTA 6 launches on Thursday, November 19, 2026 on PS5 and Xbox Series X|S. The date is confirmed by Rockstar Games.",
  "so_q2": "What time does GTA 6 release?",
- "so_a2": "Rockstar has not announced the unlock time yet. Digital versions often unlock at midnight local time: our countdown follows that rule and will be corrected as soon as the official time is announced.",
+ "so_a2": "Midnight local time, in the night of November 18 to 19. The PlayStation Store listing shows November 18 at 23:00 UTC for France, i.e. midnight in Paris, and regional stores follow each country's midnight. Rockstar has not yet announced an official time for every platform: our countdown follows local midnight and will be corrected if the announcement differs.",
  "so_q3": "When does GTA 6 preload start?",
  "so_a3": "Preload for digital versions opens on November 12, 2026, seven days before release. You can download the game in advance but cannot play before it unlocks.",
  "so_q4": "How big is GTA 6?",
@@ -542,5 +542,11 @@
  "so_q6": "Is GTA 6 coming to PS4 or Xbox One?",
  "so_a6": "No. GTA 6 is only coming to PS5, PS5 Pro and Xbox Series X|S.",
  "so_q7": "How much does GTA 6 cost?",
- "so_a7": "In France, €79.99 for the Standard Edition and €99.99 for the Ultimate Edition. Editions and stores are detailed on our Prices page."
+ "so_a7": "In France, €79.99 for the Standard Edition and €99.99 for the Ultimate Edition. Editions and stores are detailed on our Prices page.",
+ "st_conf": "Confirmed",
+ "st_conf_i": "Official source (Rockstar, Sony, Microsoft…)",
+ "st_rapp": "Reported",
+ "st_rapp_i": "Reported by the press, not confirmed by Rockstar",
+ "st_rum": "Rumor",
+ "st_rum_i": "Unverified: leak or rumor, be careful"
 }
