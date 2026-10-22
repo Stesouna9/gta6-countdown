@@ -348,3 +348,4 @@ window.SITE = {
 })();
 
 ;(function(){var s=document.createElement("script");s.src="/assets/multivers.js?v=1";s.async=1;document.head.appendChild(s)})();
+;(function(){if(!/\/journal\/[a-z0-9-]+\.html$/.test(location.pathname))return;var s=document.createElement("script");s.src="/assets/avis.js?v=2210b";s.defer=1;document.head.appendChild(s)})();
