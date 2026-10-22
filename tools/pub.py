@@ -740,7 +740,7 @@ for l in T:
     j = max(0, (_SORTIE - TODAY).days)
     body = f"""
   <header class="tete-page"><div class="wrap"><span class="kicker">{e(tr(l, "rv_compte"))} {j} {e(tr(l, "rv_jours"))}</span><h1>{e(tr(l, "rv_h"))}</h1><p class="serif">{e(tr(l, "rv_i"))}</p></div></header>
-  <section class="papier"><div class="wrap">
+  <section class="vd-nuit"><div class="wrap">
     <div class="vd-barre" aria-hidden="true">{barre}</div><div class="vd-chiffres">{stats}</div><p class="note">{len(RUM)} {e(tr(l, "rv_stat"))}</p>
     <div class="cat-filtres vd-filtres">{filt}</div>
     <div class="vd-grille">{fiches}</div>
