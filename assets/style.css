@@ -1213,3 +1213,9 @@ body.mu-lecteur-on .suivre{bottom:118px}
   .une-l a{grid-template-columns:100px minmax(0,1fr);padding:12px 0;border-top:1px solid rgba(242,232,213,.12)}
   .une-l a:first-child{border-top:0}
 }
+/* 22/10 correctifs une : la une suit la hauteur des 2 lignes (plus de débordement sur les vignettes), heure lisible sur image claire */
+.une-g{aspect-ratio:auto;min-height:440px}
+.une-m{min-width:0}
+.une-c b{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;overflow-wrap:anywhere;font-size:clamp(15px,1.45vw,19px)}
+.actus-une .k time{color:#fff;opacity:1;background:rgba(9,6,15,.72);border:1px solid rgba(98,212,255,.55);padding:3px 9px;border-radius:999px;text-shadow:none;backdrop-filter:blur(4px)}
+@media (max-width:860px){.une-g{aspect-ratio:4/3;min-height:0}}
