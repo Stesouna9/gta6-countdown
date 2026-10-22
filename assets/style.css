@@ -1088,8 +1088,10 @@ body.mu-lecteur-on .suivre{bottom:118px}
 .t3-une .film{max-width:1100px;margin:0 auto}.t3-une{padding-block:clamp(28px,5vw,56px)}
 .vb-encart{display:flex;gap:18px;align-items:center;margin:28px 0;padding:18px;border:2px solid var(--ink);background:#16111d;color:#f2e8d5}.vb-encart img{width:90px;height:auto;flex:none;border-radius:12px}.vb-encart b{font-size:1.15em;color:#ffc93c}.vb-encart p{margin:6px 0 12px}.vb-encart .lien{color:#62d4ff}
 /* 22/10 : niveau de confirmation des articles */
-.st{display:inline-block;font:600 11px var(--mono);letter-spacing:.08em;text-transform:uppercase;padding:2px 7px;border-radius:3px;line-height:1.4;vertical-align:middle;color:#0e0b12}
-.st-conf{background:#4ade80}.st-rapp{background:#fbbf24}.st-rum{background:#f87171}
+.st{display:inline-flex;align-items:center;gap:6px;font:700 10.5px var(--mono);letter-spacing:.12em;text-transform:uppercase;padding:3px 9px 3px 8px;border-radius:999px;line-height:1.3;vertical-align:middle;background:rgba(10,8,18,.72);border:1px solid currentColor;backdrop-filter:blur(4px)}
+.st::before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor;box-shadow:0 0 8px currentColor}
+.st-conf{color:#4ade80}.st-rum{color:#ff5c8a}.st-rapp{display:none}
+.jr-statut:has(.st-rapp){display:none}
 .jr-statut{display:flex;gap:8px;align-items:center}
 .cat-filtres{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px}
 .cat-filtres button{font:600 12px var(--mono);letter-spacing:.06em;text-transform:uppercase;padding:7px 12px;border-radius:999px;border:1.5px solid currentColor;background:transparent;color:inherit;cursor:pointer;opacity:.7}
