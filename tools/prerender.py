@@ -117,16 +117,30 @@ def filtres(l):  # 22/10 : filtres par catégorie au-dessus des articles (page a
     D = I18N[l]
     b = "".join(f'<button type="button" data-f="{c}"' + (' class="on"' if c == "tout" else "") + f'>{html.escape(D.get("cat_" + c, c))}</button>' for c in ["tout"] + CATS)
     return ('<div class="cat-filtres" role="tablist">' + b + '</div><script>document.addEventListener("click",function(e){var b=e.target.closest(".cat-filtres button");if(!b)return;'
-            'document.querySelectorAll(".cat-filtres button").forEach(function(x){x.classList.toggle("on",x===b)});var f=b.dataset.f;'
-            'document.querySelectorAll("#presse .jr-carte").forEach(function(c){c.hidden=!(f=="tout"||c.dataset.cat==f)})});</script>')
+            'document.querySelectorAll(".cat-filtres button").forEach(function(x){x.classList.toggle("on",x===b)});var f=b.dataset.f,g=document.getElementById("presse");g.dataset.f=f;var u=document.querySelector(".actus-une");if(u)u.hidden=f!="tout";'
+            'g.querySelectorAll(".jr-carte").forEach(function(c){c.hidden=!(f=="tout"||c.dataset.cat==f)})});</script>')
 
-def cartes(l, n, R):
+def une(l, R):  # 22/10 : la dernière actu en grand + 4 suivantes, visibles sans scroller (page actus)
+    k = "idn" if l == "id" else l; D = I18N[l]; out = []
+    for i, a in enumerate(ARTS[:5]):
+        x = a.get(k) or a.get("en") or a.get("fr")
+        if not x: continue
+        st = statut(a); d = a.get("date", ""); hd = d[8:10] + "." + d[5:7] + (" · " + d[11:16] if len(d) > 15 else "")
+        img = html.escape(a.get("img") or "https://gtavifrance.com/assets/jn.jpg")
+        badge = f'<span class="st st-{st}" title="{html.escape(D.get("st_" + st + "_i", ""))}">{html.escape(D.get("st_" + st, ""))}</span>'
+        if i == 0:
+            out.append(f'<a class="une-g" data-cat="{categorie(a)}" href="journal/{a["id"]}.html"><img src="{img}" alt="" loading="eager" fetchpriority="high" width="1280" height="720"><span class="k">{badge} {hd}</span><b>{html.escape(x["t"], quote=False)}</b><p>{html.escape(x.get("d", ""), quote=False)}</p></a><div class="une-l">')
+        else:
+            out.append(f'<a data-cat="{categorie(a)}" href="journal/{a["id"]}.html"><img src="{img}" alt="" loading="lazy" width="320" height="180"><span><span class="k">{badge} {hd}</span><b>{html.escape(x["t"], quote=False)}</b></span></a>')
+    return '<!--une--><div class="actus-une">' + "".join(out) + '</div></div><!--/une-->'
+
+def cartes(l, n, R, une=0):
     k = "idn" if l == "id" else l; out = []
-    for a in ARTS[:n]:
+    for i, a in enumerate(ARTS[:n]):
         x = a.get(k) or a.get("en") or a.get("fr")
         if not x: continue
         st = statut(a); D = I18N[l]; st_i = html.escape(D.get('st_' + st + '_i', '')); st_l = html.escape(D.get('st_' + st, ''))
-        out.append(f'<a class="jr-carte" data-cat="{categorie(a)}" href="journal/{a["id"]}.html"><img src="{html.escape(a.get("img") or "https://gtavifrance.com/assets/jn.jpg")}" alt="" loading="lazy" width="640" height="360"><span class="k"><span class="st st-{st}" title="{st_i}">{st_l}</span> {a.get("date", "")[:10]}</span><b>{html.escape(x["t"], quote=False)}</b><p>{html.escape(x.get("d", ""), quote=False)}</p></a>')
+        out.append(f'<a class="jr-carte"{" data-une" if i < une else ""} data-cat="{categorie(a)}" href="journal/{a["id"]}.html"><img src="{html.escape(a.get("img") or "https://gtavifrance.com/assets/jn.jpg")}" alt="" loading="lazy" width="640" height="360"><span class="k"><span class="st st-{st}" title="{st_i}">{st_l}</span> {a.get("date", "")[:10]}</span><b>{html.escape(x["t"], quote=False)}</b><p>{html.escape(x.get("d", ""), quote=False)}</p></a>')
     return "".join(out)
 for page, *_ in PAGES:
     f = page + ".html"
@@ -141,7 +155,7 @@ for page, *_ in PAGES:
         c = TAG.sub(lambda m: m.group(1) + (html.escape(D[m.group(3)], quote=False) if m.group(3) in D else m.group(4)) + m.group(5), s)
         c = c.replace("@@META@@", meta(l, page, D, R))
         # 22/10 : la grille était figée (source déjà remplie : le remplacement de la div vide ne trouvait rien) ; on la reconstruit à chaque passage
-        c = re.sub(r'(?:<div class="cat-filtres".*?</script>)?<div class="jr-grille" id="presse">.*?</div>', lambda m: filtres(l) + '<div class="jr-grille" id="presse">' + cartes(l, 60, R) + '</div>', c, count=1, flags=re.S)
+        c = re.sub(r'(?:<div class="cat-filtres".*?</script>)?(?:<!--une-->.*?<!--/une-->)?(<h2 class="actus-h2"[^<]*</h2>)?<div class="jr-grille" id="presse">.*?</div>', lambda m: filtres(l) + une(l, R) + (m.group(1) or "") + '<div class="jr-grille" id="presse" data-f="tout">' + cartes(l, 60, R, 5) + '</div>', c, count=1, flags=re.S)
         c = re.sub(r'<div class="jr-grille" id="actus-accueil" style="margin-top:18px">.*?</div>', lambda m: '<div class="jr-grille" id="actus-accueil" style="margin-top:18px">' + cartes(l, 4, R) + '</div>', c, count=1, flags=re.S)
         if l != "fr":
             c = re.sub(r"<html[^>]*>", f'<html lang="{HL.get(l, l)}" dir="{"rtl" if l == "ar" else "ltr"}" data-l="{l}" data-root="../">', c, count=1)
