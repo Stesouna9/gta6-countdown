@@ -1091,3 +1091,7 @@ body.mu-lecteur-on .suivre{bottom:118px}
 .st{display:inline-block;font:600 11px var(--mono);letter-spacing:.08em;text-transform:uppercase;padding:2px 7px;border-radius:3px;line-height:1.4;vertical-align:middle;color:#0e0b12}
 .st-conf{background:#4ade80}.st-rapp{background:#fbbf24}.st-rum{background:#f87171}
 .jr-statut{display:flex;gap:8px;align-items:center}
+.cat-filtres{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px}
+.cat-filtres button{font:600 12px var(--mono);letter-spacing:.06em;text-transform:uppercase;padding:7px 12px;border-radius:999px;border:1.5px solid currentColor;background:transparent;color:inherit;cursor:pointer;opacity:.7}
+.cat-filtres button.on{opacity:1;background:var(--hot);border-color:var(--hot);color:#0e0b12}
+.jr-carte[hidden]{display:none}

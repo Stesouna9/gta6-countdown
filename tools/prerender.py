@@ -5,6 +5,7 @@ données structurées, hreflang, sitemap.xml, feed.xml, api/gta6.json, llms.txt,
 Idempotent : relancé à chaque mise à jour automatique (toutes les 10 min, cron serveur)."""
 import json, re, html, glob, datetime, os, shutil
 import sys; sys.path.insert(0, __import__('os').path.dirname(__file__)); from version import ver
+from categories import statut, categorie, CATS
 os.chdir(os.path.dirname(os.path.abspath(__file__)) + "/..")
 BASE = "https://gtavifrance.com/"   # changer ici le jour du domaine
 HOST = re.sub(r"^https://([^/]+)/.*$", r"\1", BASE)
@@ -112,12 +113,20 @@ def _borne_dates():
         json.dump(ARTS, open("data/articles.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
         print(f"dates futures corrigées : {n}")
 _borne_dates()
+def filtres(l):  # 22/10 : filtres par catégorie au-dessus des articles (page actus)
+    D = I18N[l]
+    b = "".join(f'<button type="button" data-f="{c}"' + (' class="on"' if c == "tout" else "") + f'>{html.escape(D.get("cat_" + c, c))}</button>' for c in ["tout"] + CATS)
+    return ('<div class="cat-filtres" role="tablist">' + b + '</div><script>document.addEventListener("click",function(e){var b=e.target.closest(".cat-filtres button");if(!b)return;'
+            'document.querySelectorAll(".cat-filtres button").forEach(function(x){x.classList.toggle("on",x===b)});var f=b.dataset.f;'
+            'document.querySelectorAll("#presse .jr-carte").forEach(function(c){c.hidden=!(f=="tout"||c.dataset.cat==f)})});</script>')
+
 def cartes(l, n, R):
     k = "idn" if l == "id" else l; out = []
     for a in ARTS[:n]:
         x = a.get(k) or a.get("en") or a.get("fr")
         if not x: continue
-        out.append(f'<a class="jr-carte" href="journal/{a["id"]}.html"><img src="{html.escape(a.get("img") or "https://gtavifrance.com/assets/jn.jpg")}" alt="" loading="lazy" width="640" height="360"><span class="k">{a.get("date", "")[:10]}</span><b>{html.escape(x["t"], quote=False)}</b><p>{html.escape(x.get("d", ""), quote=False)}</p></a>')
+        st = statut(a); D = I18N[l]; st_i = html.escape(D.get('st_' + st + '_i', '')); st_l = html.escape(D.get('st_' + st, ''))
+        out.append(f'<a class="jr-carte" data-cat="{categorie(a)}" href="journal/{a["id"]}.html"><img src="{html.escape(a.get("img") or "https://gtavifrance.com/assets/jn.jpg")}" alt="" loading="lazy" width="640" height="360"><span class="k"><span class="st st-{st}" title="{st_i}">{st_l}</span> {a.get("date", "")[:10]}</span><b>{html.escape(x["t"], quote=False)}</b><p>{html.escape(x.get("d", ""), quote=False)}</p></a>')
     return "".join(out)
 for page, *_ in PAGES:
     f = page + ".html"
@@ -131,8 +140,9 @@ for page, *_ in PAGES:
         D, R = I18N[l], "" if l == "fr" else "../"
         c = TAG.sub(lambda m: m.group(1) + (html.escape(D[m.group(3)], quote=False) if m.group(3) in D else m.group(4)) + m.group(5), s)
         c = c.replace("@@META@@", meta(l, page, D, R))
-        c = c.replace('<div class="jr-grille" id="presse"></div>', '<div class="jr-grille" id="presse">' + cartes(l, 24, R) + '</div>')
-        c = c.replace('<div class="jr-grille" id="actus-accueil" style="margin-top:18px"></div>', '<div class="jr-grille" id="actus-accueil" style="margin-top:18px">' + cartes(l, 4, R) + '</div>')
+        # 22/10 : la grille était figée (source déjà remplie : le remplacement de la div vide ne trouvait rien) ; on la reconstruit à chaque passage
+        c = re.sub(r'(?:<div class="cat-filtres".*?</script>)?<div class="jr-grille" id="presse">.*?</div>', lambda m: filtres(l) + '<div class="jr-grille" id="presse">' + cartes(l, 60, R) + '</div>', c, count=1, flags=re.S)
+        c = re.sub(r'<div class="jr-grille" id="actus-accueil" style="margin-top:18px">.*?</div>', lambda m: '<div class="jr-grille" id="actus-accueil" style="margin-top:18px">' + cartes(l, 4, R) + '</div>', c, count=1, flags=re.S)
         if l != "fr":
             c = re.sub(r"<html[^>]*>", f'<html lang="{HL.get(l, l)}" dir="{"rtl" if l == "ar" else "ltr"}" data-l="{l}" data-root="../">', c, count=1)
             c = c.replace('src="assets/lang/fr.js"', f'src="../assets/lang/{l}.js"')

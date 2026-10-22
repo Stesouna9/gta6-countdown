@@ -445,14 +445,8 @@ ARTS = json.load(open("data/articles.json", encoding="utf-8")) if os.path.exists
 I18N = {l: json.load(open(f"tools/i18n/{l}.json", encoding="utf-8")) for l in T}
 def tr(l, k): return I18N.get(l, {}).get(k) or I18N["en"].get(k) or I18N["fr"].get(k, k)
 def art_cle(l): return "idn" if l == "id" else l  # "id" est déjà le champ identifiant de chaque article
-# 18→22/10 : niveau de confirmation affiché sur chaque article (comme les médias que citent ChatGPT et Gemini)
-OFFICIELS = ("rockstargames.com", "playstation.com", "xbox.com", "take2games.com", "x.com/rockstargames", "twitter.com/rockstargames", "store.playstation.com")
-def statut(a):
-    if a.get("statut") in ("conf", "rapp", "rum"): return a["statut"]
-    t = (a["id"] + " " + " ".join(a.get("tags", []))).lower()
-    if re.search(r"cyberleek|leak|fuite|rumeur|insider|leaker", t): return "rum"
-    if any(o in u.lower() for u in a.get("src", []) for o in OFFICIELS): return "conf"
-    return "rapp"
+# 22/10 : niveau de confirmation et catégorie (tools/categories.py, partagé avec prerender.py)
+sys.path.insert(0, str(Path(__file__).resolve().parent)); from categories import statut, categorie
 def badge(a, l):
     s = statut(a)
     return f'<span class="st st-{s}" title="{e(tr(l, "st_" + s + "_i"))}">{e(tr(l, "st_" + s))}</span>'
