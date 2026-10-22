@@ -249,7 +249,7 @@ open("llms.txt", "w", encoding="utf-8").write(f"""# GTAVIFRANCE: GTA 6 release c
 - [GTA 6 Trailer 3 special: the launch trailer, the Justice track, the dates]({BASE}en/trailer3.html)
 - [Cyberleek: everything about the GTA 6 leak, no leaked content]({BASE}en/cyberleek.html)
 - Vice Break (free neon brick breaker by OKALAM Studio, out November 19, 2026): pre-order on the App Store at https://apps.apple.com/app/id6815670909
-- On X: https://x.com/GTAfance
+- On X: https://x.com/gtavifrancecom
 
 ## Data
 - [Facts API, JSON]({BASE}api/gta6.json)

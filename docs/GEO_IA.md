@@ -5,7 +5,7 @@
 | ChatGPT | Bing (+ son propre OAI-SearchBot) | OAI-SearchBot, ChatGPT-User | Bing Webmaster + IndexNow (fait) |
 | Gemini | Google | Googlebot | Search Console, classement Google |
 | Claude | Brave Search | Claude-SearchBot, Claude-User | search.brave.com/submit-url (fait 22/10, 11 pages) |
-| Grok | X + web | xAI-SearchBot, GrokBot | posts @GTAfance avec lien, mentions sur X |
+| Grok | X + web | xAI-SearchBot, GrokBot | posts @gtavifrancecom avec lien, mentions sur X |
 
 Comment elles choisissent : l'IA reformule la question en 2-4 requêtes web, prend les 5-10 premiers résultats, garde ceux dont le TITRE et le PREMIER PARAGRAPHE répondent mot pour mot, récents et datés.
 

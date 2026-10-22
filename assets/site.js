@@ -7,7 +7,7 @@ window.SITE = {
   // Unités AdSense (créées dans adsense.google.com > Annonces > Par bloc). Vide = emplacement inactif.
   adSlots: { "jr-haut": "4346556577", "jr-milieu": "9805843373", "jr-fin": "4346556577", "liste": "3033474908", "page": "7179680035" },
   discord: "https://discord.gg/TSaxEnt2dG",
-  x: "https://x.com/GTAfance",
+  x: "https://x.com/gtavifrancecom",
   instagram: "https://www.instagram.com/vicebayradio/",
   radio: "https://vicebayradio.com",
   vicebreak: "https://okalamstudio.com/vicebreak.html",
@@ -40,7 +40,7 @@ window.SITE = {
   menu.className = "menu-plein"; menu.id = "menu-plein"; menu.setAttribute("hidden", "");
   menu.innerHTML = '<div class="menu-haut"><a class="logo" href="index.html" aria-label="GTAVIFRANCE"><img class="logo-vi" src="' + R + 'assets/img/logo-vi.webp" alt="GTA VI" width="207" height="160"><span>France</span></a><button type="button" class="fermer" id="menu-fermer" data-i18n="nav_fermer"></button></div>' +
     '<nav class="menu-liens menu-rayons">' + rayons.map(function (r, k) { return '<div class="rayon" style="--i:' + k + '"><b data-i18n="' + r[0] + '"></b>' + r[1].map(function (p) { return '<a href="' + p[0] + '"' + (p[0] === ici ? ' class="actif"' : "") + ' data-i18n="' + p[1] + '"></a>'; }).join("") + "</div>"; }).join("") + "</nav>" +
-    '<div class="menu-bas"><span data-i18n="menu_hub"></span><a href="' + SITE.radio + '" target="_blank" rel="noopener">Vice Bay Radio</a><a href="https://discord.gg/TSaxEnt2dG" target="_blank" rel="noopener">Discord</a><a href="https://x.com/GTAfance" target="_blank" rel="noopener" data-goatcounter-click="lien-x">X</a><a href="' + SITE.instagram + '" target="_blank" rel="noopener">Instagram</a><a href="' + R + 'feed.xml">RSS</a></div>';
+    '<div class="menu-bas"><span data-i18n="menu_hub"></span><a href="' + SITE.radio + '" target="_blank" rel="noopener">Vice Bay Radio</a><a href="https://discord.gg/TSaxEnt2dG" target="_blank" rel="noopener">Discord</a><a href="https://x.com/gtavifrancecom" target="_blank" rel="noopener" data-goatcounter-click="lien-x">X</a><a href="' + SITE.instagram + '" target="_blank" rel="noopener">Instagram</a><a href="' + R + 'feed.xml">RSS</a></div>';
   document.body.append(menu);
   function menuOuvre(o) {
     var b = document.getElementById("burger");
@@ -167,7 +167,7 @@ window.SITE = {
     d.innerHTML = '<span class="suivre-t"><i></i><b data-i18n="suivre_t"></b><em id="suivre-nouveau"></em></span><div class="suivre-b">' +
       (peut ? '<button type="button" id="btn-notif"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10 21h4"/></svg><span data-i18n="suivre_notif"></span></button>' : "") +
       '<a href="' + R + 'gta6.ics" download="gta6.ics"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg><span data-i18n="suivre_ics"></span></a>' +
-      '<a href="https://discord.gg/TSaxEnt2dG" target="_blank" rel="noopener">Discord</a><a href="https://x.com/GTAfance" target="_blank" rel="noopener" data-goatcounter-click="lien-x">X</a><a href="' + R + 'feed.xml">RSS</a>' +
+      '<a href="https://discord.gg/TSaxEnt2dG" target="_blank" rel="noopener">Discord</a><a href="https://x.com/gtavifrancecom" target="_blank" rel="noopener" data-goatcounter-click="lien-x">X</a><a href="' + R + 'feed.xml">RSS</a>' +
       '<button type="button" id="btn-app" hidden><span data-i18n="suivre_app"></span></button><button type="button" class="x" id="suivre-x" aria-label="Fermer">×</button></div>';
     document.body.append(d);
     try { if (localStorage.getItem("suivre-ferme") === "1") d.classList.add("mini"); } catch (e) {}
@@ -208,7 +208,7 @@ window.SITE = {
       d.innerHTML = '<b data-i18n="flux_t"></b><p data-i18n="flux_i"></p><div class="flux-b">' +
         '<button type="button" class="btn" data-flux-notif><span data-i18n="suivre_notif"></span></button>' +
         '<a class="btn fantome" href="' + R + 'gta6.ics" download="gta6.ics" data-i18n="suivre_ics"></a>' +
-        '<a class="btn fantome" href="https://discord.gg/TSaxEnt2dG" target="_blank" rel="noopener">Discord</a><a class="btn fantome" href="https://x.com/GTAfance" target="_blank" rel="noopener" data-goatcounter-click="lien-x">X</a>' +
+        '<a class="btn fantome" href="https://discord.gg/TSaxEnt2dG" target="_blank" rel="noopener">Discord</a><a class="btn fantome" href="https://x.com/gtavifrancecom" target="_blank" rel="noopener" data-goatcounter-click="lien-x">X</a>' +
         '<a class="btn fantome" href="' + R + 'feed.xml">RSS</a></div>';
       el.insertAdjacentElement("afterend", d);
       d.querySelector("[data-flux-notif]").onclick = function () { var b = document.getElementById("btn-notif"); if (b) { b.click(); setTimeout(function () { d.querySelector("[data-flux-notif] span").textContent = b.querySelector("span").textContent; }, 1500); } else { d.querySelector("[data-flux-notif] span").textContent = T("suivre_notif_non"); } };

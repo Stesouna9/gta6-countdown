@@ -1,4 +1,4 @@
-"""Réponses X de @GTAfance sous les posts GTA 6 qui marchent (16/10/2026, « vas-y, mets tout ça en place », Gabriel).
+"""Réponses X de @gtavifrancecom sous les posts GTA 6 qui marchent (16/10/2026, « vas-y, mets tout ça en place », Gabriel).
 Levier n°1 d'un petit compte : être vu sous les gros posts. Publié depuis le Chrome du Mac comme tools/x_chrome.py.
 - Cherche les posts récents (< 6 h) : Rockstar Games, et les posts GTA 6 en français avec au moins 30 j'aime.
 - Ne répond QUE si le post parle d'un sujet couvert par un de nos articles (tags de l'article trouvés dans le post) :

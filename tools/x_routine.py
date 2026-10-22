@@ -1,4 +1,4 @@
-"""Routine X quotidienne de @GTAfance (14/10/2026, demande de Gabriel) : 3 posts par jour, format validé ce jour-là.
+"""Routine X quotidienne de @gtavifrancecom (14/10/2026, demande de Gabriel) : 3 posts par jour, format validé ce jour-là.
   9 h  actu   : l'article du jour le plus récent (hors Cyberleek)
   13 h site   : compte à rebours J-xx + un angle du site (visuel généré : J-xx sur l'affiche, gtavifrance.com)
   19 h top    : l'article le plus vu des dernières 24 h (GoatCounter, toutes langues), sinon le plus récent pas encore posté.
@@ -128,6 +128,7 @@ def main():
         e, txt, th = ANGLES[datetime.date.today().toordinal() % len(ANGLES)]
         fond = RACINE / "assets/img/vb-motel.webp" if th == "#ViceBreak" else None   # Vice Break : visuel du jeu
         texte, img, cle = compose(f"{e} J-{j} avant GTA 6.", txt, th), visuel_jours(j, fond), f"site-{datetime.date.today()}"
+        lien = "https://gtavifrance.com/"
     else:
         cyb = slot == "cyberleek"
         cands = [a for a in arts if (slot == "top" or ("cyberleek" in a["id"]) == cyb) and a["id"] not in etat["postes"]
@@ -140,8 +141,9 @@ def main():
         vb = "vice-break" in a["id"]   # notre jeu : pas une alerte
         texte = compose(("🔒 " if cyb else "🎮 " if vb else "🚨 ") + a["fr"]["t"], a["fr"].get("d", ""), "#Cyberleek" if cyb else "#ViceBreak" if vb else "#ViceCity")
         img, cle = image_article(a), a["id"]
+        lien = f"https://gtavifrance.com/journal/{a['id']}.html"
     if SEC: print(texte, f"\n[{len(texte)} car., image {len(img)} o]"); return
-    if "--json" in sys.argv: print(json.dumps({"slot": slot, "cle": cle, "texte": texte, "image": base64.b64encode(img).decode()})); return
+    if "--json" in sys.argv: print(json.dumps({"slot": slot, "cle": cle, "texte": texte, "lien": lien, "image": base64.b64encode(img).decode()})); return
     try:
         pid = tweet(texte, upload(img))
     except urllib.error.HTTPError as e:
@@ -149,7 +151,7 @@ def main():
     etat["postes"].append(cle); etat["postes"] = etat["postes"][-300:]
     etat["journal"].append({"quand": datetime.datetime.now().isoformat(timespec="minutes"), "slot": slot, "id": pid, "cle": cle})
     ETAT.write_text(json.dumps(etat, ensure_ascii=False, indent=1))
-    print(f"{slot} : posté https://x.com/GTAfance/status/{pid}")
+    print(f"{slot} : posté https://x.com/gtavifrancecom/status/{pid}")
 
 if __name__ == "__main__":
     main()

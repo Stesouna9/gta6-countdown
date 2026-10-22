@@ -1,4 +1,4 @@
-"""Publie la routine X de @GTAfance depuis le Chrome du Mac de Gabriel (session déjà connectée), comme le pacer Instagram
+"""Publie la routine X de @gtavifrancecom depuis le Chrome du Mac de Gabriel (session déjà connectée), comme le pacer Instagram
 de Jackpot : sans API ni crédits. Décision de Gabriel, 14/10/2026.
 Le serveur prépare le post (tools/x_routine.py <slot> --json : texte + image, article le plus vu, état anti-doublon),
 ce script l'injecte dans le composeur de x.com/home par AppleScript/JavaScript (Chrome n'est jamais mis au premier plan :
@@ -90,10 +90,21 @@ return (b&&b.getAttribute('aria-disabled')!=='true'?'bouton actif':'bouton inact
         if ESSAI: log("essai OK, rempli sans publier : " + p["texte"].split("\n")[0][:80]); return
         js("document.querySelector('[data-testid=tweetButtonInline]').click();'clic'")
         time.sleep(8)
-        pid = js("""(()=>{const a=[...document.querySelectorAll('article a[href*="/GTAfance/status/"]')].map(x=>x.href.split('/status/')[1].split('/')[0]);
+        pid = js("""(()=>{const a=[...document.querySelectorAll('article a[href*="/gtavifrancecom/status/"]')].map(x=>x.href.split('/status/')[1].split('/')[0]);
 return a.sort().pop()||''})()""")
         subprocess.run(["ssh", SERVEUR, f"cd /var/www/gtavifrance && python3 tools/x_routine.py {slot} --marque '{p['cle']}' '{pid or 'inconnu'}'"], capture_output=True, timeout=60)
-        log(f"posté {p['cle']} https://x.com/GTAfance/status/{pid}")
+        log(f"posté {p['cle']} https://x.com/gtavifrancecom/status/{pid}")
+        # 22/10 (go Gabriel) : lien du site en réponse à notre propre post (portée du post intacte, Grok relie le compte au site)
+        if pid and p.get("lien"):
+            try:
+                js("location.href='https://x.com/gtavifrancecom/status/%s';'ok'" % pid); time.sleep(8)
+                res = js("""(()=>{const e=document.querySelector('[data-testid=tweetTextarea_0]');if(!e)return 'pas de zone';e.focus();
+document.execCommand('insertText',false,%s);return 'ok'})()""" % json.dumps("👉 À lire en entier sur " + p["lien"]))
+                time.sleep(3)
+                if res == "ok": js("(document.querySelector('[data-testid=tweetButtonInline]')||{click(){}}).click();'clic'"); time.sleep(6); log("lien en réponse : " + p["lien"])
+                else: log(f"lien en réponse : {res}")
+            except Exception as e:
+                log(f"lien en réponse : {e}")
     except Exception as e:
         log(f"ÉCHEC {e}")
         sys.exit(1)

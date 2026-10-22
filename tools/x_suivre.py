@@ -1,4 +1,4 @@
-"""Abonnements X de @GTAfance (17/10/2026) : un compte neuf gagne ses premiers abonnés en suivant des fans actifs, dont une
+"""Abonnements X de @gtavifrancecom (17/10/2026) : un compte neuf gagne ses premiers abonnés en suivant des fans actifs, dont une
 partie suit en retour. Chaque jour, suit au plus 20 comptes qui viennent de poster sur GTA 6 en français (pas les gros
 comptes : ils ne suivent pas en retour), espacés de 1 à 3 min. Publié depuis le Chrome du Mac comme tools/x_chrome.py.
 Lancé par launchd com.gtavifrance.xsuivre (14 h). Usage : python3 tools/x_suivre.py [--essai]"""
