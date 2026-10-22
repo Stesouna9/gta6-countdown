@@ -193,7 +193,7 @@ json.dump(api, open("api/gta6.json", "w"), ensure_ascii=False, indent=1)
 
 open("robots.txt", "w").write("User-agent: *\nAllow: /\nDisallow: /mentions.html\nDisallow: /widget.html\n\n# Robots des assistants IA : bienvenus\n" +
     "".join(f"User-agent: {b}\nAllow: /\n" for b in ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-SearchBot", "Claude-User", "PerplexityBot", "Perplexity-User",
-    "Google-Extended", "Applebot-Extended", "Bingbot", "DuckAssistBot", "MistralAI-User", "YandexBot"]) + f"\nSitemap: {BASE}sitemap.xml\n")
+    "Google-Extended", "Applebot-Extended", "Bingbot", "DuckAssistBot", "Googlebot", "xAI-SearchBot", "GrokBot", "Bravebot", "Applebot", "Meta-ExternalAgent", "MistralAI-User", "YandexBot"]) + f"\nSitemap: {BASE}sitemap.xml\n")
 
 E = I18N["en"]
 pages_llm = "\n".join(f"- [{E['mt_' + p]}]({url('en', p)}): {E['md_' + p]}" for p, *_ in PAGES)
