@@ -14,7 +14,7 @@ RACINE = Path(__file__).resolve().parent.parent
 ETAT = Path.home() / ".config/gtavifrance/x_reponses.json"
 ESSAI = "--essai" in sys.argv
 X.slot = "reponse"
-RECHERCHES = [("from:RockstarGames", "fr"), ("(GTA 6 OR GTA VI OR GTA6) lang:fr min_faves:10 -filter:replies", "fr"),
+RECHERCHES = [("from:RockstarGames", "fr"), ("(GTA 6 OR GTA VI OR GTA6) lang:fr min_faves:10 -filter:replies", "fr"), ("(GTA 6 OR GTA VI OR GTA6 OR Leonida) lang:fr min_faves:2 -filter:replies", "fr"),
               ("(GTA 6 OR GTA VI OR GTA6) lang:en min_faves:300 -filter:replies", "en")]   # 17/10 : + gros posts anglais (réponse en anglais)
 GENERIQUES = {"gta 6", "gta vi", "gta", "rockstar", "rockstar games", "take-two", "ps5", "xbox", "trailer", "vice city", "leonida", "jason", "lucia", "jason duval", "lucia caminos", "gta v", "grand theft auto", "trailer 3", "launch trailer", "playstation", "rockstargames", "sortie", "date de sortie", "release", "release date", "bande-annonce", "rumeur", "officiel", "annonce", "précommande", "pre-order", "gameplay", "carte", "map"}
 LIEUX = {"miami", "floride", "florida", "los angeles", "vice", "keys", "port gellhorn", "ambrosia", "grassrivers", "mount kalaga"}   # trop vagues seuls
@@ -52,38 +52,45 @@ auteur:(l?l.href.split('/')[3]:'')}}))""")
             X.ferme_onglet(); X.ONGLET.clear()
     return vus
 
-def choisit(posts, etat):
+def choisit(posts, etat, n):
+    """Jusqu'à n posts récents (< 24 h), comptes différents, chacun avec l'article qui colle le mieux (ou None)."""
     arts = json.load(open(RACINE / "data/articles.json", encoding="utf-8"))
     arts = sorted([a for a in arts if isinstance(a.get("fr"), dict) and a["fr"].get("d")], key=lambda a: a["date"], reverse=True)[:40]
     maintenant = datetime.datetime.now(datetime.timezone.utc)
-    deja_comptes = {r["auteur"] for r in etat["reponses"] if r["quand"][:10] == str(datetime.date.today())}
+    deja = {r["auteur"] for r in etat["reponses"] if r["quand"][:10] == str(datetime.date.today())}
+    choix = []
     for p in posts:
-        if not p["url"] or p["url"] in etat["posts"] or p["auteur"].lower() in ("gtafance",) or p["auteur"] in deja_comptes: continue
+        if len(choix) >= n: break
+        if not p["url"] or p["url"] in etat["posts"] or p["auteur"].lower() in ("gtafance", "gtavifrancecom") or p["auteur"] in deja or len(p["texte"]) < 25: continue
         try: age = (maintenant - datetime.datetime.fromisoformat(p["quand"].replace("Z", "+00:00"))).total_seconds() / 3600
         except ValueError: continue
-        if age > 24: continue   # 18/10 : 12 h → 24 h, 2 lancements sur 6 ne trouvaient rien
-        t = p["texte"].lower()
+        if age > 24: continue
+        t = p["texte"].lower(); art = None
         for a in arts:
             if p["auteur"].lower() == "rockstargames" and "cyberleek" in a["id"]: continue
             tags = [g for g in a.get("tags", []) + ([a["kw"]] if a.get("kw") else []) if g.lower() not in GENERIQUES and len(g) > 3]
             trouves = {g.lower() for g in tags if re.search(r"(?<!\w)" + re.escape(g.lower()) + r"(?!\w)", t)} - LIEUX
-            if len(trouves) >= 2 or (a.get("kw") and a["kw"].lower() in trouves):   # 24/10 : un seul mot (« Miami ») ne suffit plus
-                return p, a
-    return None, None
+            if len(trouves) >= 2 or (a.get("kw") and a["kw"].lower() in trouves): art = a; break
+        choix.append((p, art)); deja.add(p["auteur"])
+    return choix
 
-def texte(a, lg="fr"):
-    lg = lg if isinstance(a.get(lg), dict) and a[lg].get("d") else "fr"
-    d = re.sub(r"\s+", " ", a[lg]["d"]).strip()
-    if len(d) > 230: d = d[:230].rsplit(" ", 1)[0].rstrip(",;:") + "…"
-    return d + FIN[lg]
+def texte(p, a, lien):
+    """Réponse écrite pour CE post (24/10 : IA, plus de phrase toute faite). Renvoie '' si mieux vaut se taire."""
+    lg = p.get("lg", "fr")
+    info = f"Notre article sur le sujet : « {a['fr']['t']} » : {a['fr']['d']}" if a else "Pas d'article précis : réponds avec ce que tout fan sait (sortie le 19/11/2026 sur PS5 et Xbox Series, Vice City, Leonida, Jason et Lucia)."
+    r = X.ia(f"""Tu es le community manager de GTAVIFRANCE (@gtavifrancecom), média fan de GTA 6 en français. Écris UNE réponse au post X ci-dessous.
+Post de @{p['auteur']} : « {p['texte'][:600]} »
+{info}
+Règles : en {'français' if lg == 'fr' else 'anglais'}, 1 ou 2 phrases, ne rappelle la date et les consoles que si le post en parle, 240 caractères max, ton naturel de passionné (pas de pub, pas de « nous » corporate), répondre vraiment à ce que dit la personne, apporter une info ou un avis, 0 ou 1 emoji, pas de hashtag, pas de lien, rien d'inventé.
+Si le post est une blague sans rapport, de la politique, une insulte, un concours ou une arnaque, ou si tu n'as rien d'utile à ajouter, réponds exactement : PASSER
+Donne seulement le texte de la réponse.""")
+    r = r.strip().strip('"«» ')
+    if r.upper().startswith("PASSER") or len(r) < 15: return ""
+    if len(r) > 270: r = r[:270].rsplit(" ", 1)[0] + "…"
+    if lien and a: r += "\n👉 https://gtavifrance.com/" + ("" if lg == "fr" else "en/") + f"journal/{a['id']}.html"
+    return r
 
-def main():
-    if not ESSAI and "--maintenant" not in sys.argv: time.sleep(random.randint(0, 40 * 60))
-    etat = json.loads(ETAT.read_text()) if ETAT.exists() else {"posts": [], "reponses": []}
-    p, a = choisit(posts_recents(), etat)
-    if not p: X.log("aucun post récent sur un de nos sujets"); return
-    rep = texte(a, p.get("lg", "fr"))
-    if ESSAI: X.log(f"essai : sous {p['url']} ({p['texte'][:80]!r}) → {rep!r}"); return
+def repond(p, rep):
     ouvre(p["url"])
     try:
         if not attend("document.querySelector('[data-testid=tweetTextarea_0]')?'ok':'non'"): raise RuntimeError("zone de réponse absente")
@@ -94,12 +101,33 @@ def main():
             raise RuntimeError("bouton Répondre inactif")
         X.js("document.querySelector('[data-testid=tweetButtonInline]').click();'clic'")
         time.sleep(6)
-        etat["posts"] = (etat["posts"] + [p["url"]])[-500:]
-        etat["reponses"].append({"quand": datetime.datetime.now().isoformat(timespec="minutes"), "sous": p["url"], "auteur": p["auteur"], "article": a["id"]})
-        ETAT.write_text(json.dumps(etat, ensure_ascii=False, indent=1))
-        X.log(f"réponse sous {p['url']} ({a['id']})")
     finally:
-        X.ferme_onglet()
+        X.ferme_onglet(); X.ONGLET.clear()
+
+def main():
+    n = int(next((x.split("=")[1] for x in sys.argv if x.startswith("--n=")), "1"))
+    if not ESSAI and "--maintenant" not in sys.argv: time.sleep(random.randint(0, 25 * 60))
+    if X.gel_actif(): X.log("gel en cours (" + X.GEL.read_text() + ")"); return
+    etat = json.loads(ETAT.read_text()) if ETAT.exists() else {"posts": [], "reponses": []}
+    choix = choisit(posts_recents(), etat, n * 2)   # deux fois plus de candidats : l'IA en écarte
+    faits = 0
+    for p, a in choix:
+        if faits >= n: break
+        lien = a is not None and len(etat["reponses"]) % 5 == 4   # lien dans 1 réponse sur 5
+        try: rep = texte(p, a, lien)
+        except Exception as e: X.log(f"IA : {e}"); break
+        etat["posts"] = (etat["posts"] + [p["url"]])[-800:]
+        if not rep:
+            if not ESSAI: ETAT.write_text(json.dumps(etat, ensure_ascii=False, indent=1))
+            continue
+        if ESSAI: X.log(f"essai : sous {p['url']} ({p['texte'][:70]!r}) → {rep!r}"); faits += 1; continue
+        if faits: time.sleep(random.randint(30, 120))
+        try: repond(p, rep)
+        except RuntimeError as e: X.log(f"réponse ratée : {e}"); continue
+        etat["reponses"].append({"quand": datetime.datetime.now().isoformat(timespec="minutes"), "sous": p["url"], "auteur": p["auteur"], "article": a["id"] if a else ""})
+        ETAT.write_text(json.dumps(etat, ensure_ascii=False, indent=1))
+        X.log(f"réponse sous {p['url']} : {rep[:90]!r}"); faits += 1
+    if not faits: X.log("aucune réponse utile à faire")
 
 if __name__ == "__main__":
     main()

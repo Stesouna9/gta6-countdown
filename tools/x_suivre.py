@@ -10,7 +10,7 @@ from x_reponses import ouvre, attend
 ETAT = Path.home() / ".config/gtavifrance/x_suivis.json"
 ESSAI = "--essai" in sys.argv
 X.slot = "suivre"
-MAX = 20
+MAX = 50   # 24/10 : 20 → 50 par jour (montée en charge validée par Gabriel), en 4 lancements
 
 REQUETES = ["(GTA 6 OR GTA VI OR GTA6 OR #GTA6) lang:fr", "(Vice City OR Lucia OR Jason Duval OR Leonida) lang:fr"]   # 18/10 : réponses incluses, 1 seul candidat avant
 
@@ -34,7 +34,8 @@ def main():
     faits = sum(1 for d in etat["suivis"].values() if d == jour)
     liste = [u for u in candidats() if u and u.lower() not in ("gtafance", "rockstargames") and u not in etat["suivis"]]
     if ESSAI: X.log(f"essai : {len(liste)} comptes à suivre : {liste[:20]}"); return
-    for u in liste[:MAX - faits]:
+    if X.gel_actif(): X.log("gel en cours (" + X.GEL.read_text() + ")"); return
+    for u in liste[:min(MAX - faits, 13)]:   # 13 au plus par lancement
         ouvre(f"https://x.com/{u}")
         try:
             if not attend("document.querySelector('[data-testid$=\"-follow\"],[data-testid$=\"-unfollow\"]')?'ok':'non'", 15): continue

@@ -33,6 +33,29 @@ with timeout of 60 seconds
 tell application "Google Chrome" to execute (first tab of window id {ONGLET["w"]} whose id is {ONGLET["t"]}) javascript js
 end timeout''')
 
+# Garde-fous (24/10, montée en charge validée par Gabriel) : gel de 24 h dès que X montre une limite, un captcha ou « automatisé »
+GEL = Path.home() / ".config/gtavifrance/x_gel"
+ALERTES = ("rate limit", "limite de", "automated", "automatisé", "unusual activity", "activité inhabituelle", "verify you are human",
+           "prouvez que vous", "temporarily restricted", "temporairement restreint", "arkose", "try again later", "réessayez plus tard")
+def gel_actif():
+    return GEL.exists() and time.time() - GEL.stat().st_mtime < 86400
+def surveille():
+    """Lit la page de la routine ; si X avertit : gel 24 h, ligne au journal, arrêt."""
+    try: t = js("(document.body.innerText||'').toLowerCase().slice(0,20000)")
+    except Exception: return
+    a = next((x for x in ALERTES if x in t), None)
+    if a:
+        GEL.parent.mkdir(parents=True, exist_ok=True); GEL.write_text(f"{datetime.datetime.now():%Y-%m-%d %H:%M} {slot} : « {a} »")
+        log(f"GEL 24 h : X affiche « {a} »"); raise SystemExit(1)
+
+def ia(consigne, max_tokens=1500):
+    """Texte court via l'API Anthropic (clé du trousseau, crédits autorisés par Gabriel le 24/10)."""
+    import urllib.request
+    cle = subprocess.run(["security", "find-generic-password", "-s", "Anthropic API key (routines)", "-w"], capture_output=True, text=True).stdout.strip()
+    req = urllib.request.Request("https://api.anthropic.com/v1/messages", headers={"x-api-key": cle, "anthropic-version": "2023-06-01", "content-type": "application/json"},
+        data=json.dumps({"model": "claude-haiku-5-5", "max_tokens": max_tokens, "messages": [{"role": "user", "content": consigne}]}).encode())
+    return "".join(b.get("text", "") for b in json.load(urllib.request.urlopen(req, timeout=60))["content"] if b.get("type") == "text").strip()
+
 def colle(texte):
     """Écrit dans la zone de texte de X par un « coller » : garde les retours à la ligne (insertText les perdait, 24/10)."""
     return js("""(()=>{const e=document.querySelector('[data-testid=tweetTextarea_0]');if(!e)return 'pas de zone texte';e.focus();
@@ -60,6 +83,12 @@ end tell''')
 def ferme_onglet():
     """Vide le brouillon (sinon Chrome bloque sur « Quitter le site ? ») puis ferme l'onglet de la routine."""
     if not ONGLET: return
+    try: surveille()
+    except SystemExit:
+        _ferme(); raise
+    _ferme()
+
+def _ferme():
     try:
         js("(()=>{document.querySelectorAll('[data-testid=removeMedia]').forEach(b=>b.click());const e=document.querySelector('[data-testid=tweetTextarea_0]');if(e){e.focus();document.execCommand('selectAll',false,null);document.execCommand('delete',false,null)}return 1})()")
         time.sleep(1)
@@ -71,6 +100,7 @@ end timeout''')
 
 def main():
     if "--maintenant" not in sys.argv and not ESSAI: time.sleep(random.randint(0, 50 * 60))
+    if gel_actif(): log("gel en cours (" + GEL.read_text() + "), rien publié"); return
     r = subprocess.run(["ssh", "-o", "ConnectTimeout=20", SERVEUR, f"cd /var/www/gtavifrance && python3 tools/x_routine.py {slot} --json"],
                        capture_output=True, text=True, timeout=120)
     if not r.stdout.strip().startswith("{"): log("rien à poster (" + (r.stdout.strip() or r.stderr.strip())[:120] + ")"); return
