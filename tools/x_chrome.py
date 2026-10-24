@@ -33,6 +33,13 @@ with timeout of 60 seconds
 tell application "Google Chrome" to execute (first tab of window id {ONGLET["w"]} whose id is {ONGLET["t"]}) javascript js
 end timeout''')
 
+def colle(texte):
+    """Écrit dans la zone de texte de X par un « coller » : garde les retours à la ligne (insertText les perdait, 24/10)."""
+    return js("""(()=>{const e=document.querySelector('[data-testid=tweetTextarea_0]');if(!e)return 'pas de zone texte';e.focus();
+document.execCommand('selectAll',false,null);document.execCommand('delete',false,null);
+const d=new DataTransfer();d.setData('text/plain',%s);e.dispatchEvent(new ClipboardEvent('paste',{clipboardData:d,bubbles:true,cancelable:true}));
+const n=e.innerText.split(String.fromCharCode(10)).join('').length;return n>10&&n<1300?'texte ok':'texte '+n})()""" % json.dumps(texte))
+
 def ouvre_onglet():
     """Nouvel onglet x.com/home dans la fenêtre 1, sans activer Chrome."""
     r = osa('''tell application "Google Chrome"
@@ -78,10 +85,8 @@ if(!i)return 'pas de champ image';const b=atob(window.__gtaxImg);const a=new Uin
 const d=new DataTransfer();d.items.add(new File([a],'gtavifrance.jpg',{type:'image/jpeg'}));i.files=d.files;i.dispatchEvent(new Event('change',{bubbles:true}));return 'image ok'})()""")
         if res != "image ok": raise RuntimeError(f"image : {res}")
         time.sleep(5)
-        # 2) texte (insertText : l'éditeur de X le prend comme une frappe)
-        res = js("""(()=>{const e=document.querySelector('[data-testid=tweetTextarea_0]');if(!e)return 'pas de zone texte';e.focus();
-document.execCommand('selectAll',false,null);document.execCommand('delete',false,null);
-document.execCommand('insertText',false,%s);const n=e.innerText.split(String.fromCharCode(10)).join('').length;return n>20&&n<1300?'texte ok':'texte '+n})()""" % json.dumps(p["texte"]))
+        # 2) texte (collé : garde les retours à la ligne)
+        res = colle(p["texte"])
         if res != "texte ok": raise RuntimeError(f"texte : {res}")
         time.sleep(3)
         etat = js("""(()=>{const b=document.querySelector('[data-testid=tweetButtonInline]');const img=document.querySelector('[data-testid=attachments] img');

@@ -17,7 +17,8 @@ X.slot = "reponse"
 RECHERCHES = [("from:RockstarGames", "fr"), ("(GTA 6 OR GTA VI OR GTA6) lang:fr min_faves:10 -filter:replies", "fr"),
               ("(GTA 6 OR GTA VI OR GTA6) lang:en min_faves:300 -filter:replies", "en")]   # 17/10 : + gros posts anglais (réponse en anglais)
 GENERIQUES = {"gta 6", "gta vi", "gta", "rockstar", "rockstar games", "take-two", "ps5", "xbox", "trailer", "vice city", "leonida", "jason", "lucia", "jason duval", "lucia caminos", "gta v", "grand theft auto", "trailer 3", "launch trailer", "playstation", "rockstargames", "sortie", "date de sortie", "release", "release date", "bande-annonce", "rumeur", "officiel", "annonce", "précommande", "pre-order", "gameplay", "carte", "map"}
-FIN = {"fr": "\nTout en français sur notre profil 🌴", "en": "\nMore GTA 6 news on our profile 🌴"}
+LIEUX = {"miami", "floride", "florida", "los angeles", "vice", "keys", "port gellhorn", "ambrosia", "grassrivers", "mount kalaga"}   # trop vagues seuls
+FIN = {"fr": "", "en": ""}   # 24/10 Gabriel : « Tout en français sur notre profil » jugé moyen, la réponse = l'info seule
 
 def ouvre(url):
     r = X.osa(f'''tell application "Google Chrome"
@@ -65,7 +66,8 @@ def choisit(posts, etat):
         for a in arts:
             if p["auteur"].lower() == "rockstargames" and "cyberleek" in a["id"]: continue
             tags = [g for g in a.get("tags", []) + ([a["kw"]] if a.get("kw") else []) if g.lower() not in GENERIQUES and len(g) > 3]
-            if any(re.search(r"(?<!\w)" + re.escape(g.lower()) + r"(?!\w)", t) for g in tags):   # mot entier
+            trouves = {g.lower() for g in tags if re.search(r"(?<!\w)" + re.escape(g.lower()) + r"(?!\w)", t)} - LIEUX
+            if len(trouves) >= 2 or (a.get("kw") and a["kw"].lower() in trouves):   # 24/10 : un seul mot (« Miami ») ne suffit plus
                 return p, a
     return None, None
 
@@ -85,9 +87,8 @@ def main():
     ouvre(p["url"])
     try:
         if not attend("document.querySelector('[data-testid=tweetTextarea_0]')?'ok':'non'"): raise RuntimeError("zone de réponse absente")
-        r = X.js("""(()=>{const e=document.querySelector('[data-testid=tweetTextarea_0]');e.focus();document.execCommand('insertText',false,%s);
-return e.innerText.length>20?'ok':'vide'})()""" % json.dumps(rep))
-        if r != "ok": raise RuntimeError("texte : " + r)
+        r = X.colle(rep)
+        if r != "texte ok": raise RuntimeError("texte : " + r)
         time.sleep(3)
         if X.js("(()=>{const b=document.querySelector('[data-testid=tweetButtonInline]');return b&&b.getAttribute('aria-disabled')!=='true'?'ok':'non'})()") != "ok":
             raise RuntimeError("bouton Répondre inactif")
