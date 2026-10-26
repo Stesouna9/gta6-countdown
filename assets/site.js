@@ -349,3 +349,6 @@ window.SITE = {
 
 ;(function(){var s=document.createElement("script");s.src="/assets/multivers.js?v=1";s.async=1;document.head.appendChild(s)})();
 ;(function(){if(!/\/journal\/[a-z0-9-]+\.html$/.test(location.pathname))return;var s=document.createElement("script");s.src="/assets/avis.js?v=2210b";s.defer=1;document.head.appendChild(s)})();
+
+/* Rubrique Buzz : lien absolu, également depuis les versions traduites. */
+(function(){var n=document.querySelector('.menu-liens');if(n){var a=document.createElement('a');a.href='/buzz.html';a.textContent='Le buzz GTA6';a.style.cssText='color:var(--hot);font-weight:800';(n.querySelector('.rayon')||n).appendChild(a);}var p=document.querySelector('footer .plan');if(p){var a=document.createElement('a');a.href='/buzz.html';a.textContent='Le buzz GTA6';p.appendChild(a);}})();
