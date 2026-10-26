@@ -19,10 +19,14 @@
       "published_at": "2026-10-23",
       "status": "À vérifier",
       "missing": [
-        "Publication sociale originale",
+        "Contenu et date directement vérifiés",
         "Métriques de portée datées"
       ],
-      "decision": "Piste éditoriale uniquement, aucune statistique validée."
+      "decision": "Piste éditoriale uniquement, aucune statistique validée.",
+      "url": "https://www.instagram.com/p/DcsLGW_zH37/",
+      "author": "Cliff Richard Radio · @cliffrichardradio",
+      "embed_type": "instagram",
+      "checked_at": "2026-10-27T00:57:52+01:00"
     },
     {
       "id": "ig-marque-DdbTRwnN4n6",
@@ -167,7 +171,20 @@
         "Portée datée"
       ],
       "decision": "Réserve uniquement ; original référencé par la presse, viralité non établie."
+    },
+    {
+      "id": "manni-live-octobre",
+      "title": "Live Instagram de Manni L. Perez : discussions autour de Lucia",
+      "status": "Rumeur · à vérifier",
+      "source": "https://hothardware.com/news/gta-6-fans-suspected-lucia-instagram-live",
+      "corroboration": "https://www.thenews.com.pk/latest/1421326-is-manni-l-perez-really-gta-6s-lucia-what-we-know",
+      "checked_at": "2026-10-27T00:57:52+01:00",
+      "missing": [
+        "Replay original public",
+        "Portée directe vérifiée"
+      ],
+      "decision": "Ne pas présenter le casting comme confirmé. Audience rapportée dans la presse, insuffisante pour valider un gros buzz ; réserve uniquement."
     }
   ],
-  "updated_at": "2026-10-27T00:03:54+01:00"
+  "updated_at": "2026-10-27T00:57:52+01:00"
 }
