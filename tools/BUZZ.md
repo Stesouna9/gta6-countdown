@@ -26,3 +26,8 @@ La base a été publiée le 26 octobre vers 20 h 25 (Paris). Le contrôle natif 
 
 ## Exigence visuelle et boutons (correction utilisateur)
 Chaque sujet doit avoir une vraie image pertinente dans image, avec image_alt et image_credit. Ne pas remplacer un média par une carte typographique. Les champs cta et url ouvrent la publication d'origine ; pour Instagram/X/TikTok, url doit viser le réseau annoncé, et corroboration conserve le lien de presse. Si l'original est introuvable, l'indiquer et utiliser un intitulé explicite « source » sans promettre l'ouverture du réseau. Conserver les boutons sociaux en haut de la page et les accès aux publications immédiatement sous les visuels.
+
+## Publications natives, notation et navigation
+Buzz est une catégorie indépendante. Aucun encart Buzz dans Actus, aucun mélange des listes. L’entrée est dans la barre sur ordinateur et dans un rayon dédié du menu mobile. Pour Instagram et X, utiliser embed_type="instagram" ou "x" avec url pointant sur le post original. Conserver les lecteurs natifs, les couleurs de chaque réseau, le bouton direct, la notation /mur/api/art et les clics /mur/api/buzz/clic. Ne pas remplacer une vidéo ou photo sociale par une image d’illustration du site. Ne promettre la lecture que si l’intégration du réseau la permet et garder un lien de secours explicite.
+
+Le serveur de notation /opt/mur/mur.py autorise les identifiants buzz-<id> présents dans data/buzz.json. Les notes et likes réutilisent les tables art_votes et les routes des articles. /mur/api/buzz/clic déduplique les ouvertures par identifiant visiteur, sans les présenter comme des vues de vidéo. Le patch de déploiement est conservé dans tools/serveur/buzz_api.py.

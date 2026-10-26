@@ -1256,3 +1256,6 @@ body.mu-lecteur-on .suivre{bottom:118px}
 .av-etat{min-height:1.2em;font-size:14px;color:var(--sun);margin-top:6px}
 .av-modo{font-size:12px;opacity:.55;margin-top:4px}
 @media (max-width:520px){.avis{padding:16px 14px}.av-et{font-size:28px;min-width:38px}.av-lk,.av-re{padding:8px 13px}.av-ligne .btn{width:100%}}
+
+/* Buzz est une catégorie autonome ; le menu mobile la conserve dans son rayon. */
+.nav a.nav-buzz{color:var(--gold)}

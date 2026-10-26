@@ -19,7 +19,9 @@
       "image": "https://gtavifrance.com/assets/img/articles/2026-10-20-pubs-crues-miami-weazel-pfister-gta6.jpg?v=99e993ef",
       "image_alt": "Publicités GTA VI à Miami",
       "image_credit": "Illustration de notre article sur la campagne de Miami",
-      "cta": "Voir la publication sur X"
+      "cta": "Voir la publication sur X",
+      "embed_type": "x",
+      "post_text": "All the GTA 6 ads I saw on a kiosk in Wynwood (Miami). These shuffled between real ads 😂"
     },
     {
       "id": "instagram-musiciens-septembre",
@@ -37,7 +39,8 @@
       "image_alt": "GTA VI : The Album",
       "image_credit": "Illustration : GTA VI, The Album",
       "corroboration": "https://mixmag.net/amp/fred-again-pinkpantheress-teased-gta-6-soundtrack",
-      "cta": "Ouvrir sur Instagram"
+      "cta": "Ouvrir sur Instagram",
+      "embed_type": "instagram"
     },
     {
       "id": "gearos-trailer-gta5",
@@ -59,11 +62,11 @@
     },
     {
       "id": "rockstar-launch-trailer",
-      "title": "Le trailer de lancement : la source à garder sous la main",
-      "summary": "Rockstar présente son trailer de lancement, publié le 15 octobre. À revoir avant de partager une analyse des images.",
-      "url": "https://www.rockstargames.com/newswire/article/517572321a549a/watch-the-grand-theft-auto-vi-launch-trailer",
-      "platform": "Rockstar",
-      "author": "Rockstar Games",
+      "title": "Le trailer de lancement, sur Instagram",
+      "summary": "La bande-annonce officielle partagée par Rockstar Games. Lance la publication intégrée pour la regarder ici, ou ouvre-la sur Instagram.",
+      "url": "https://www.instagram.com/p/DehBEbwgV1d/",
+      "platform": "Instagram",
+      "author": "Rockstar Games · @rockstargames",
       "status": "Officiel",
       "published_at": "15 octobre 2026",
       "checked_at": "2026-10-26T20:25:02+01:00",
@@ -72,7 +75,9 @@
       "image": "https://gtavifrance.com/assets/img/rockstar/jason.jpg",
       "image_alt": "Jason dans GTA VI",
       "image_credit": "Illustration officielle : Rockstar Games",
-      "cta": "Voir le trailer chez Rockstar"
+      "cta": "Ouvrir la vidéo sur Instagram",
+      "corroboration": "https://www.rockstargames.com/newswire/article/517572321a549a/watch-the-grand-theft-auto-vi-launch-trailer",
+      "embed_type": "instagram"
     },
     {
       "id": "rockstar-radio",
