@@ -1,8 +1,50 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-10-26T20:25:02+01:00",
+  "updated_at": "2026-10-26T20:36:59+01:00",
   "schedule": "Démarrage : cinq passages espacés de deux minutes. Veille horaire prévue ensuite, jusqu’au 27 octobre à 6 h (Paris).",
   "items": [
+    {
+      "id": "x-wynwood-publicites",
+      "title": "À Miami, les pubs de GTA VI se glissent dans la ville",
+      "summary": "Un internaute a partagé sur X les publicités GTA VI vues sur un kiosque de Wynwood. Creative Bloq les a relayées le 21 octobre : une rencontre entre la vraie Miami et les marques du jeu.",
+      "url": "https://twitter.com/cantworkitout/status/2112256734672613734",
+      "platform": "X",
+      "author": "@cantworkitout · relayé par Creative Bloq",
+      "status": "Rapporté",
+      "published_at": "19 octobre 2026",
+      "checked_at": "2026-10-26T20:37:48+01:00",
+      "visual": "MIAMI IRL",
+      "evidence": "Publication citée et datée dans Creative Bloq. Lecture directe X indisponible par le web ; nombre de vues non vérifié.",
+      "corroboration": "https://www.creativebloq.com/news/gta-6-unleashes-saucy-ads-on-the-streets-of-miami"
+    },
+    {
+      "id": "instagram-musiciens-septembre",
+      "title": "Quand les musiciens ont commencé à teaser GTA VI",
+      "summary": "Retour sur les publications Instagram du 15 septembre : Mixmag a recensé plusieurs visuels partagés par des artistes autour du jeu. Une archive de la campagne, pas une annonce de ce soir.",
+      "url": "https://mixmag.net/amp/fred-again-pinkpantheress-teased-gta-6-soundtrack",
+      "platform": "Instagram",
+      "author": "Artistes · publications recensées par Mixmag",
+      "status": "Rapporté",
+      "published_at": "15 septembre 2026 · archive",
+      "checked_at": "2026-10-26T20:37:26+01:00",
+      "visual": "LA BANDE-SON",
+      "evidence": "Source liée : reportage Mixmag du 16 septembre. Instagram refuse ici la lecture directe ; statistiques non vérifiées."
+    },
+    {
+      "id": "gearos-trailer-gta5",
+      "title": "Le trailer GTA VI, mais tourné dans GTA V",
+      "summary": "GearOS Play’s a recréé les plans du trailer avec les personnages et les décors de GTA V, rapporte Hrej.cz. Une création de fan à comparer avec la bande-annonce originale.",
+      "url": "https://hrej.cz/article/gta-6-v-grafice-gta-5-fanousek-vytvoril-pusobivou-predelavku-posledniho-traileru",
+      "platform": "YouTube",
+      "author": "GearOS Play’s · relayé par Hrej.cz",
+      "status": "Création de fan",
+      "published_at": "Relayé le 20 octobre 2026",
+      "checked_at": "2026-10-26T20:27:49+01:00",
+      "visual": "FAN MADE",
+      "image": "https://gtavifrance.com/assets/img/articles/2026-10-19-trailer-gta6-recree-dans-gta5-gearos-plays.jpg?v=d9cbdc19",
+      "article": "/journal/2026-10-19-trailer-gta6-recree-dans-gta5-gearos-plays.html",
+      "evidence": "Création identifiée par la presse. Source liée : Hrej.cz ; nombre de vues de la vidéo originale non vérifié."
+    },
     {
       "id": "rockstar-launch-trailer",
       "title": "Le trailer de lancement : la source à garder sous la main",
@@ -48,6 +90,16 @@
       "at": "2026-10-26T20:25:02+01:00",
       "label": "Passage 1/5 · Base officielle et réseaux sociaux",
       "summary": "Trois références Rockstar retenues pour lancer la sélection. Recherche X, Instagram et TikTok : aucun nouveau contenu social suffisamment vérifiable retenu à ce passage. Accès TikTok limité et lecture directe de X refusée ; aucun chiffre de buzz inventé."
+    },
+    {
+      "at": "2026-10-26T20:27:49+01:00",
+      "label": "Passage 2/5 · X et créateurs",
+      "summary": "Une création de GearOS Play’s retrouvée et corroborée par Hrej.cz : le trailer recréé dans GTA V. La vidéo est un travail de fan, pas des images de GTA VI. Recherche X sans nouveau post directement vérifiable ; aucun compteur de popularité publié."
+    },
+    {
+      "at": "2026-10-26T20:36:59+01:00",
+      "label": "Passage 3/5 · Instagram",
+      "summary": "Recherche des publications Instagram GTA VI et du compte Rockstar : aucun contenu récent directement vérifiable retenu. Les résultats absents ou inaccessibles ne sont pas présentés comme un flux consulté exhaustivement. La sélection officielle et la création de GearOS restent disponibles. Une archive de la campagne musicale Instagram, documentée par Mixmag, est proposée avec sa date et ses limites. Le contrôle du navigateur X a retardé ce troisième passage de plusieurs minutes."
     }
   ],
   "coverage": {
