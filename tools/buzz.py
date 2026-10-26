@@ -26,6 +26,10 @@ def render():
             shortcode=re.search(r'/(?:p|reel)/([A-Za-z0-9_-]+)/?',a['url'])
             if not shortcode:raise ValueError('Publication Instagram invalide')
             visual=f'<div class="buzz-embed buzz-instagram"><iframe src="https://www.instagram.com/p/{shortcode[1]}/embed/" title="Publication Instagram de {E(a["author"])}" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe><p class="buzz-embed-help">Publication Instagram originale · Si le lecteur ne se charge pas, utilise le bouton ci-dessous.</p></div>'
+        elif a.get('embed_type')=='tiktok':
+            video=re.search(r'/video/([0-9]+)',a['url'])
+            if not video:raise ValueError('Vidéo TikTok invalide')
+            visual=f'<div class="buzz-embed buzz-tiktok"><iframe src="https://www.tiktok.com/player/v1/{video[1]}?controls=1&amp;autoplay=0&amp;description=1" title="Vidéo TikTok de {E(a["author"])}" loading="lazy" allow="autoplay; encrypted-media; fullscreen; picture-in-picture" allowfullscreen></iframe></div>'
         elif a.get('embed_type')=='x':
             visual=f'<div class="buzz-embed buzz-x"><blockquote class="twitter-tweet" data-theme="dark" data-dnt="true"><p lang="en">{E(a.get("post_text",""))}</p><a href="{u}">{E(a["author"].split(" · ")[0])} · {E(a["published_at"])}</a></blockquote></div>'
         article=f'<a class="buzz-secondary" href="{E(a["article"])}">Notre décryptage →</a>' if a.get('article') else ''
@@ -52,7 +56,7 @@ def render():
 <aside class="buzz-note"><b>Du contexte, pas du bruit.</b> Une sélection éditoriale ne prouve pas qu’un sujet est viral. Les chiffres de vues et de partages sont affichés uniquement lorsqu’ils ont été constatés et datés. Les rumeurs restent étiquetées. Les publications sociales sont intégrées depuis leurs réseaux, avec un lien vers leur auteur. Leur lecture dépend de la disponibilité du réseau et de ses réglages.</aside></div></section>
 <section class="papier"><div class="wrap"><div class="rubrique"><span class="num">01</span><h2>À toi de jouer</h2><p>Une trouvaille à partager, une théorie à discuter ? Retrouve la communauté sur le Mur de Vice City.</p></div><div class="boutons"><a class="btn" href="communaute.html">Rejoindre la discussion →</a><a class="lien" href="https://x.com/gtavifrancecom" target="_blank" rel="noopener noreferrer">GTA VI France sur X ↗</a></div></div></section>
 <section><div class="wrap"><div class="rubrique"><span class="num">02</span><h2>Le journal de veille</h2><p>Cinq passages de démarrage, puis une veille horaire jusqu’au 27 octobre à 6 h, heure de Paris. Les restrictions des plateformes peuvent limiter la couverture.</p></div><p class="buzz-date">{E(d.get('schedule','Initialisation'))}</p><ol class="buzz-journal">{runs or '<li>Le premier passage est en préparation.</li>'}</ol></div></section></main>
-<script src="assets/site.js?v=buzz-social-20261026"></script><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><script src="assets/buzz.js?v={v}"></script></body></html>
+<script src="assets/site.js?v=buzz-social-20261026-v2"></script><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><script src="assets/buzz.js?v={v}"></script></body></html>
 """
     (ROOT/'buzz.html').write_text(page)
     print('Buzz:',len(cards),'sujets;',len(d.get('runs',[])),'passages')
