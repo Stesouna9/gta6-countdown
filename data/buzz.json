@@ -1,7 +1,7 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-10-26T20:36:59+01:00",
-  "schedule": "Démarrage : cinq passages espacés de deux minutes. Veille horaire prévue ensuite, jusqu’au 27 octobre à 6 h (Paris).",
+  "updated_at": "2026-10-26T20:41:37+01:00",
+  "schedule": "Veille horaire activée : de 21 h ce soir à 6 h le 27 octobre 2026, heure de Paris. Dernier passage à 6 h, puis arrêt.",
   "items": [
     {
       "id": "x-wynwood-publicites",
@@ -100,11 +100,26 @@
       "at": "2026-10-26T20:36:59+01:00",
       "label": "Passage 3/5 · Instagram",
       "summary": "Recherche des publications Instagram GTA VI et du compte Rockstar : aucun contenu récent directement vérifiable retenu. Les résultats absents ou inaccessibles ne sont pas présentés comme un flux consulté exhaustivement. La sélection officielle et la création de GearOS restent disponibles. Une archive de la campagne musicale Instagram, documentée par Mixmag, est proposée avec sa date et ses limites. Le contrôle du navigateur X a retardé ce troisième passage de plusieurs minutes."
+    },
+    {
+      "at": "2026-10-26T20:39:22+01:00",
+      "label": "Passage 4/5 · TikTok",
+      "summary": "Recherche des tendances et vidéos GTA VI sur TikTok. Les résultats incluent des reprises anciennes et des signalements de faux gameplay ; aucune vidéo originale récente vérifiable retenue. Le filtre TikTok reste vide plutôt que d’y placer une vidéo douteuse. La sélection X documentée par Creative Bloq a été ajoutée avec son lien original."
+    },
+    {
+      "at": "2026-10-26T20:41:37+01:00",
+      "label": "Passage 5/5 · Vérification finale",
+      "summary": "Dernière recherche de nouveautés et contrôle des références officielles. Six sujets conservés, dates d’origine et liens de vérification présents. Aucun nouveau contenu social suffisamment établi pour remplacer la sélection. Filtres X et recherche GearOS testés en ligne ; rendu mobile contrôlé à 390 px."
     }
   ],
   "coverage": {
     "X": "Publications publiques accessibles",
     "Instagram": "Publications publiques accessibles",
     "TikTok": "Accès limité selon disponibilité"
+  },
+  "automation": {
+    "id": "veille-le-buzz-gta6",
+    "name": "Veille — Le buzz GTA6",
+    "ends_at": "2026-10-27T06:00:00+01:00"
   }
 }

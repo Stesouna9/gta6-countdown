@@ -19,3 +19,7 @@ Publication serveur : root@2.29.41.109, /var/www/gtavifrance.
 
 La demande est une rubrique communautaire, dans le style de la page Actus, et une veille horaire jusqu'au mardi 27 octobre 2026 à 06:00 Europe/Paris. Après le dernier passage de 06:00, noter que la veille de nuit est terminée et arrêter la routine. Ne pas continuer la veille après cette échéance sans nouvelle demande.
 Le compte X du site est @gtavifrancecom. Cette routine alimente le site ; ne pas modifier les routines X existantes ni lancer leurs scripts de publication pour ce travail. Les résumés doivent donner du contexte et créditer les auteurs.
+
+## Journal du démarrage
+
+La base a été publiée le 26 octobre vers 20 h 25 (Paris). Le contrôle natif de Chrome a pris environ neuf minutes et retardé le troisième passage ; cet écart est consigné publiquement. Utiliser des appels bornés et privilégier la recherche publique pour la veille nocturne.
