@@ -23,3 +23,6 @@ Le compte X du site est @gtavifrancecom. Cette routine alimente le site ; ne pas
 ## Journal du démarrage
 
 La base a été publiée le 26 octobre vers 20 h 25 (Paris). Le contrôle natif de Chrome a pris environ neuf minutes et retardé le troisième passage ; cet écart est consigné publiquement. Utiliser des appels bornés et privilégier la recherche publique pour la veille nocturne.
+
+## Exigence visuelle et boutons (correction utilisateur)
+Chaque sujet doit avoir une vraie image pertinente dans image, avec image_alt et image_credit. Ne pas remplacer un média par une carte typographique. Les champs cta et url ouvrent la publication d'origine ; pour Instagram/X/TikTok, url doit viser le réseau annoncé, et corroboration conserve le lien de presse. Si l'original est introuvable, l'indiquer et utiliser un intitulé explicite « source » sans promettre l'ouverture du réseau. Conserver les boutons sociaux en haut de la page et les accès aux publications immédiatement sous les visuels.

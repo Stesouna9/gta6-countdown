@@ -7,7 +7,7 @@
       "id": "x-wynwood-publicites",
       "title": "À Miami, les pubs de GTA VI se glissent dans la ville",
       "summary": "Un internaute a partagé sur X les publicités GTA VI vues sur un kiosque de Wynwood. Creative Bloq les a relayées le 21 octobre : une rencontre entre la vraie Miami et les marques du jeu.",
-      "url": "https://twitter.com/cantworkitout/status/2112256734672613734",
+      "url": "https://x.com/cantworkitout/status/2112256734672613734",
       "platform": "X",
       "author": "@cantworkitout · relayé par Creative Bloq",
       "status": "Rapporté",
@@ -15,20 +15,29 @@
       "checked_at": "2026-10-26T20:37:48+01:00",
       "visual": "MIAMI IRL",
       "evidence": "Publication citée et datée dans Creative Bloq. Lecture directe X indisponible par le web ; nombre de vues non vérifié.",
-      "corroboration": "https://www.creativebloq.com/news/gta-6-unleashes-saucy-ads-on-the-streets-of-miami"
+      "corroboration": "https://www.creativebloq.com/news/gta-6-unleashes-saucy-ads-on-the-streets-of-miami",
+      "image": "https://gtavifrance.com/assets/img/articles/2026-10-20-pubs-crues-miami-weazel-pfister-gta6.jpg?v=99e993ef",
+      "image_alt": "Publicités GTA VI à Miami",
+      "image_credit": "Illustration de notre article sur la campagne de Miami",
+      "cta": "Voir la publication sur X"
     },
     {
       "id": "instagram-musiciens-septembre",
       "title": "Quand les musiciens ont commencé à teaser GTA VI",
-      "summary": "Retour sur les publications Instagram du 15 septembre : Mixmag a recensé plusieurs visuels partagés par des artistes autour du jeu. Une archive de la campagne, pas une annonce de ce soir.",
-      "url": "https://mixmag.net/amp/fred-again-pinkpantheress-teased-gta-6-soundtrack",
+      "summary": "Travis Scott a partagé un visuel GTA VI sur Instagram le 15 septembre, parmi une série de publications de musiciens recensées par Mixmag. Retrouve sa publication originale.",
+      "url": "https://www.instagram.com/p/DdT73c5ubnj/",
       "platform": "Instagram",
-      "author": "Artistes · publications recensées par Mixmag",
+      "author": "Travis Scott · @travisscott",
       "status": "Rapporté",
       "published_at": "15 septembre 2026 · archive",
       "checked_at": "2026-10-26T20:37:26+01:00",
       "visual": "LA BANDE-SON",
-      "evidence": "Source liée : reportage Mixmag du 16 septembre. Instagram refuse ici la lecture directe ; statistiques non vérifiées."
+      "evidence": "Source liée : reportage Mixmag du 16 septembre. Instagram refuse ici la lecture directe ; statistiques non vérifiées.",
+      "image": "https://gtavifrance.com/assets/img/articles/2026-10-24-amazon-pack-vinyle-gta6-the-album-34-titres.jpg?v=378984fd",
+      "image_alt": "GTA VI : The Album",
+      "image_credit": "Illustration : GTA VI, The Album",
+      "corroboration": "https://mixmag.net/amp/fred-again-pinkpantheress-teased-gta-6-soundtrack",
+      "cta": "Ouvrir sur Instagram"
     },
     {
       "id": "gearos-trailer-gta5",
@@ -43,7 +52,10 @@
       "visual": "FAN MADE",
       "image": "https://gtavifrance.com/assets/img/articles/2026-10-19-trailer-gta6-recree-dans-gta5-gearos-plays.jpg?v=d9cbdc19",
       "article": "/journal/2026-10-19-trailer-gta6-recree-dans-gta5-gearos-plays.html",
-      "evidence": "Création identifiée par la presse. Source liée : Hrej.cz ; nombre de vues de la vidéo originale non vérifié."
+      "evidence": "Création identifiée par la presse. Source liée : Hrej.cz ; nombre de vues de la vidéo originale non vérifié.",
+      "image_alt": "Le trailer GTA VI recréé dans GTA V",
+      "image_credit": "Illustration de notre article sur GearOS Play’s",
+      "cta": "Voir la création dans la source"
     },
     {
       "id": "rockstar-launch-trailer",
@@ -56,7 +68,11 @@
       "published_at": "15 octobre 2026",
       "checked_at": "2026-10-26T20:25:02+01:00",
       "visual": "TRAILER",
-      "evidence": "Sélection de départ · popularité non mesurée. Présence et date vérifiées sur le site officiel GTA VI."
+      "evidence": "Sélection de départ · popularité non mesurée. Présence et date vérifiées sur le site officiel GTA VI.",
+      "image": "https://gtavifrance.com/assets/img/rockstar/jason.jpg",
+      "image_alt": "Jason dans GTA VI",
+      "image_credit": "Illustration officielle : Rockstar Games",
+      "cta": "Voir le trailer chez Rockstar"
     },
     {
       "id": "rockstar-radio",
@@ -69,7 +85,11 @@
       "published_at": "8 octobre 2026",
       "checked_at": "2026-10-26T20:25:02+01:00",
       "visual": "ON AIR",
-      "evidence": "Sélection de départ · popularité non mesurée. Présence et date vérifiées sur le site officiel GTA VI."
+      "evidence": "Sélection de départ · popularité non mesurée. Présence et date vérifiées sur le site officiel GTA VI.",
+      "image": "https://gtavifrance.com/assets/img/rockstar/o3982oa93a23k4.jpg",
+      "image_alt": "Les radios de Grand Theft Auto VI",
+      "image_credit": "Rockstar Games",
+      "cta": "Découvrir les radios"
     },
     {
       "id": "rockstar-collection",
@@ -82,7 +102,11 @@
       "published_at": "8 octobre 2026",
       "checked_at": "2026-10-26T20:25:02+01:00",
       "visual": "VICE CITY",
-      "evidence": "Sélection de départ · popularité non mesurée. Présence et date vérifiées sur le site officiel GTA VI."
+      "evidence": "Sélection de départ · popularité non mesurée. Présence et date vérifiées sur le site officiel GTA VI.",
+      "image": "https://gtavifrance.com/assets/img/rockstar/759875393o5253.jpg",
+      "image_alt": "Collection officielle Grand Theft Auto VI",
+      "image_credit": "Rockstar Games",
+      "cta": "Voir la collection"
     }
   ],
   "runs": [
