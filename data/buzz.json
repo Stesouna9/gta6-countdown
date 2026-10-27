@@ -1,7 +1,7 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-10-27T05:02:07+01:00",
-  "schedule": "Veille horaire activée : de 21 h ce soir à 6 h le 27 octobre 2026, heure de Paris. Dernier passage à 6 h, puis arrêt.",
+  "updated_at": "2026-10-27T06:00:32+01:00",
+  "schedule": "Veille de nuit terminée à 6 h · 27 octobre 2026, heure de Paris. Aucune poursuite automatique après ce dernier passage.",
   "items": [
     {
       "id": "trailer1-record-2023",
@@ -206,6 +206,11 @@
       "at": "2026-10-27T05:02:07+01:00",
       "label": "Veille de nuit · passage avant le rapport",
       "summary": "Recherche des nouveautés Rockstar et des publications publiques X, Instagram et TikTok. Résultats principalement déjà connus (campagne de Miami, détournements de marques, musique et live Instagram) ou gameplay non authentifié. Aucun nouveau gros buzz suffisamment vérifié retenu ; huit sujets conservés. Les anciens contenus ne sont pas présentés comme des nouveautés. Rapport de 5 h 15 et dernier passage de 6 h toujours prévus."
+    },
+    {
+      "at": "2026-10-27T06:00:32+01:00",
+      "label": "Dernier passage · fin de veille à 6 h",
+      "summary": "Dernières recherches Rockstar, X, Instagram et TikTok : aucun nouveau gros buzz original suffisamment vérifié pour rejoindre la sélection. La discussion sur les codes de test circule sur plusieurs communautés ; les votes Reddit observés restent attachés aux reprises et ne valident pas le post X ni un embargo officiel. Piste enrichie en réserve. Huit sujets conservés, treize passages réellement consignés ; rapport de 5 h 15 déjà remis. Veille de nuit terminée."
     }
   ],
   "coverage": {
