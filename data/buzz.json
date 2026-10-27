@@ -1,7 +1,7 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-10-27T06:00:32+01:00",
-  "schedule": "Veille de nuit terminée à 6 h · 27 octobre 2026, heure de Paris. Aucune poursuite automatique après ce dernier passage.",
+  "updated_at": "2026-10-27T18:05:23+01:00",
+  "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
     {
       "id": "trailer1-record-2023",
@@ -17,7 +17,10 @@
       "embed_type": "youtube",
       "cta": "Regarder sur YouTube",
       "corroboration": "https://www.guinnessworldrecords.com/news/2023/12/grand-theft-auto-vi-first-look-becomes-most-viewed-videogame-trailer-in-24-hours-762030",
-      "evidence": "Record historique : 90 421 491 vues YouTube dans les premières 24 heures, selon Guinness World Records, article publié le 6 décembre 2023 et consulté cette nuit. Ce chiffre décrit le lancement de 2023, pas le compteur actuel. Le lecteur d’origine est référencé par Guinness ; la lecture peut dépendre des restrictions YouTube. Test du lecteur intégré : commande « Mettre la vidéo en pause » et durée 1 min 30 affichées après lancement."
+      "evidence": "Record historique : 90 421 491 vues YouTube dans les premières 24 heures, selon Guinness World Records, article publié le 6 décembre 2023 et consulté cette nuit. Ce chiffre décrit le lancement de 2023, pas le compteur actuel. Le lecteur d’origine est référencé par Guinness ; la lecture peut dépendre des restrictions YouTube. Test du lecteur intégré : commande « Mettre la vidéo en pause » et durée 1 min 30 affichées après lancement.",
+      "image": "https://i.ytimg.com/vi/QdBZY2fkU-0/hqdefault.jpg",
+      "image_alt": "Miniature de la vidéo officielle Trailer 1 de GTA VI",
+      "image_credit": "Rockstar Games · miniature de la vidéo YouTube originale"
     },
     {
       "id": "trailer2-475-millions-2025",
@@ -33,7 +36,10 @@
       "embed_type": "youtube",
       "cta": "Regarder sur YouTube",
       "corroboration": "https://ir.take2games.com/static-files/0e369b39-2afc-4a88-b917-7799cd6ac566?pubDate=20260524",
-      "evidence": "Chiffre historique communiqué par Take-Two dans sa présentation investisseurs de mai 2026, page 11 : plus de 475 millions de vues cumulées sur les plateformes dans les premières 24 heures du trailer 2. Source primaire consultée le 2026-10-27T02:59:02+01:00. Ce total ne mesure ni les spectateurs uniques, ni les seules vues YouTube, ni la popularité actuelle. Date et vidéo corroborées par https://www.rockstargames.com/VI/trailer-2."
+      "evidence": "Chiffre historique communiqué par Take-Two dans sa présentation investisseurs de mai 2026, page 11 : plus de 475 millions de vues cumulées sur les plateformes dans les premières 24 heures du trailer 2. Source primaire consultée le 2026-10-27T02:59:02+01:00. Ce total ne mesure ni les spectateurs uniques, ni les seules vues YouTube, ni la popularité actuelle. Date et vidéo corroborées par https://www.rockstargames.com/VI/trailer-2.",
+      "image": "https://i.ytimg.com/vi/VQRLujxTm3c/hqdefault.jpg",
+      "image_alt": "Miniature de la vidéo officielle Trailer 2 de GTA VI",
+      "image_credit": "Rockstar Games · miniature de la vidéo YouTube originale"
     },
     {
       "id": "x-wynwood-publicites",
@@ -211,6 +217,11 @@
       "at": "2026-10-27T06:00:32+01:00",
       "label": "Dernier passage · fin de veille à 6 h",
       "summary": "Dernières recherches Rockstar, X, Instagram et TikTok : aucun nouveau gros buzz original suffisamment vérifié pour rejoindre la sélection. La discussion sur les codes de test circule sur plusieurs communautés ; les votes Reddit observés restent attachés aux reprises et ne valident pas le post X ni un embargo officiel. Piste enrichie en réserve. Huit sujets conservés, treize passages réellement consignés ; rapport de 5 h 15 déjà remis. Veille de nuit terminée."
+    },
+    {
+      "at": "2026-10-27T18:05:23+01:00",
+      "label": "Veille permanente · reprise et contrôle des originaux",
+      "summary": "Recherches publiques Rockstar, X, Instagram et TikTok. Newswire accessible : dernière entrée GTA VI affichée le 15 octobre, déjà présente. Piste McDonald’s UK du 19 octobre relayée ce 27 octobre par Khel Now : lien Instagram original retrouvé (https://www.instagram.com/p/DerkalviJ6Q/), mais publication et image non vérifiables dans les réponses obtenues ; aucun partenariat annoncé comme acquis, sujet non ajouté. Rumeurs de copies de test et d’embargo écartées faute de source primaire vérifiable. X : refus 403 ; Instagram : 429 sur le profil Rockstar, publication McDonald’s inaccessible via la recherche et réponse embed sans contenu exploitable ; TikTok : robots.txt et profil sans contenu lisible. Aucun nouveau sujet retenu, aucune portée inventée. Huit sujets conservés ; miniatures originales YouTube des deux archives vérifiées en HTTP 200 et ajoutées aux données. Cadence permanente rétablie : toutes les 2 h de 8 h à minuit."
     }
   ],
   "coverage": {
@@ -221,6 +232,6 @@
   "automation": {
     "id": "veille-le-buzz-gta6",
     "name": "Veille — Le buzz GTA6",
-    "ends_at": "2026-10-27T06:00:00+01:00"
+    "cadence": "Toutes les 2 h, de 8 h à minuit (Europe/Paris)"
   }
 }
