@@ -1,8 +1,24 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-10-27T00:57:52+01:00",
+  "updated_at": "2026-10-27T02:04:30+01:00",
   "schedule": "Veille horaire activée : de 21 h ce soir à 6 h le 27 octobre 2026, heure de Paris. Dernier passage à 6 h, puis arrêt.",
   "items": [
+    {
+      "id": "trailer1-record-2023",
+      "title": "Archive : le trailer qui a dépassé 90 millions de vues en 24 h",
+      "summary": "Retour au premier trailer officiel de décembre 2023 : Guinness World Records a enregistré plus de 90 millions de vues YouTube sur ses premières 24 heures. Un gros buzz documenté, à revoir dans la vidéo originale.",
+      "url": "https://www.youtube.com/watch?v=QdBZY2fkU-0",
+      "platform": "YouTube",
+      "author": "Rockstar Games",
+      "status": "Officiel",
+      "published_at": "4 décembre 2023 · archive",
+      "checked_at": "2026-10-27T02:04:30+01:00",
+      "visual": "RECORD HISTORIQUE",
+      "embed_type": "youtube",
+      "cta": "Regarder sur YouTube",
+      "corroboration": "https://www.guinnessworldrecords.com/news/2023/12/grand-theft-auto-vi-first-look-becomes-most-viewed-videogame-trailer-in-24-hours-762030",
+      "evidence": "Record historique : 90 421 491 vues YouTube dans les premières 24 heures, selon Guinness World Records, article publié le 6 décembre 2023 et consulté cette nuit. Ce chiffre décrit le lancement de 2023, pas le compteur actuel. Le lecteur d’origine est référencé par Guinness ; la lecture peut dépendre des restrictions YouTube."
+    },
     {
       "id": "x-wynwood-publicites",
       "title": "À Miami, les pubs de GTA VI se glissent dans la ville",
@@ -154,6 +170,11 @@
       "at": "2026-10-27T00:57:52+01:00",
       "label": "Veille de nuit · musique et publications récentes",
       "summary": "Recherche Rockstar, X, Instagram et TikTok. Original Instagram de Cliff Richard Radio retrouvé via la presse, conservé en réserve sans portée mesurée. Le live de Manni L. Perez est relayé par plusieurs médias : piste conservée, aucun casting confirmé ni replay original validé. Les résultats TikTok accessibles ne justifient pas un nouveau gros buzz. Sélection de six sujets inchangée."
+    },
+    {
+      "at": "2026-10-27T02:04:30+01:00",
+      "label": "Veille de nuit · archive virale documentée",
+      "summary": "Ajout du premier trailer officiel en archive : record de plus de 90 millions de vues en 24 heures établi par Guinness en décembre 2023. Vidéo originale retrouvée dans la source Guinness et intégrée avec lecteur YouTube et lien de secours. Le compteur historique est explicitement distingué des vues actuelles. Recherches de nouveautés sociales : aucun autre sujet suffisamment vérifié retenu."
     }
   ],
   "coverage": {

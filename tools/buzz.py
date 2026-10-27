@@ -30,6 +30,12 @@ def render():
             video=re.search(r'/video/([0-9]+)',a['url'])
             if not video:raise ValueError('Vidéo TikTok invalide')
             visual=f'<div class="buzz-embed buzz-tiktok"><iframe src="https://www.tiktok.com/player/v1/{video[1]}?controls=1&amp;autoplay=0&amp;description=1" title="Vidéo TikTok de {E(a["author"])}" loading="lazy" allow="autoplay; encrypted-media; fullscreen; picture-in-picture" allowfullscreen></iframe></div>'
+        elif a.get('embed_type')=='youtube':
+            from urllib.parse import parse_qs
+            parsed=urlparse(a['url'])
+            video=parse_qs(parsed.query).get('v',[''])[0] if parsed.hostname in ('www.youtube.com','youtube.com') else ''
+            if not re.fullmatch(r'[A-Za-z0-9_-]{11}',video):raise ValueError('Vidéo YouTube invalide')
+            visual=f'<div class="buzz-embed buzz-youtube"><iframe src="https://www.youtube-nocookie.com/embed/{video}" title="{E(a["title"])}" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen></iframe><p class="buzz-embed-help">Vidéo originale · Si YouTube demande une connexion ou bloque la lecture, ouvre la vidéo avec le bouton ci-dessous.</p></div>'
         elif a.get('embed_type')=='x':
             visual=f'<div class="buzz-embed buzz-x"><blockquote class="twitter-tweet" data-theme="dark" data-dnt="true"><p lang="en">{E(a.get("post_text",""))}</p><a href="{u}">{E(a["author"].split(" · ")[0])} · {E(a["published_at"])}</a></blockquote></div>'
         article=f'<a class="buzz-secondary" href="{E(a["article"])}">Notre décryptage →</a>' if a.get('article') else ''
