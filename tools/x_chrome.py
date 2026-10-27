@@ -41,7 +41,7 @@ def gel_actif():
     return GEL.exists() and time.time() - GEL.stat().st_mtime < 86400
 def surveille():
     """Lit la page de la routine ; si X avertit : gel 24 h, ligne au journal, arrêt."""
-    try: t = js("(document.body.innerText||'').toLowerCase().slice(0,20000)")
+    try: t = js("(()=>{const b=document.body.cloneNode(true);b.querySelectorAll('article,script,style,noscript,template,iframe,[data-testid=tweetText],[data-testid=UserDescription]').forEach(e=>e.remove());return (b.innerText||b.textContent||'').toLowerCase().slice(0,20000)})()")   # 28/10 : hors texte des tweets (faux gel du 27/10 19 h 10 sur un tweet contenant « automated »)
     except Exception: return
     a = next((x for x in ALERTES if x in t), None)
     if a:

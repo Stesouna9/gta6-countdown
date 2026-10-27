@@ -36,3 +36,11 @@ Buzz est une catégorie indépendante. Aucun encart Buzz dans Actus, aucun méla
 Le serveur de notation /opt/mur/mur.py autorise les identifiants buzz-<id> présents dans data/buzz.json. Les notes et likes réutilisent les tables art_votes et les routes des articles. /mur/api/buzz/clic déduplique les ouvertures par identifiant visiteur, sans les présenter comme des vues de vidéo. Le patch de déploiement est conservé dans tools/serveur/buzz_api.py.
 
 Pour une vidéo TikTok vérifiée : embed_type="tiktok", url=https://www.tiktok.com/@auteur/video/<id>. Le générateur utilise le lecteur officiel https://www.tiktok.com/player/v1/<id> (contrôles activés, sans lecture automatique). Aucun exemple de démonstration ne doit être publié comme sujet réel.
+
+## Matière X fournie (28/10/2026, Gabriel : « toujours 8 Buzz, il n'y a plus rien »)
+Le Buzz était bloqué : sans accès direct à X, chaque passage concluait « aucun sujet vérifiable » alors que data/x_alertes.json contenait déjà le buzz du jour (ex. 210 Go : 655 000 vues chez PlaystationSize, repris par GTAVI_Countdown, JVMag_ch, gta6hubfr, vicecentralFR).
+- data/x_alertes.json (relevé chaque heure depuis le Chrome du Mac) EST la source X du Buzz : url, auteur, quand, texte, vues, image (média du post), reactions. Le post lui-même, avec son url x.com, vaut source vérifiée pour « telle publication a circulé, avec tant de vues à telle heure ».
+- Chaque passage où x_alertes.json contient un sujet GTA6 nouveau (pas déjà dans items par son url ou son sujet) avec ≥ 20 000 vues, ou repris par ≥ 2 comptes : l'ajouter. Viser 1 à 3 nouveaux sujets par passage quand il y a de la matière ; « rien retenu » seulement si x_alertes.json n'a vraiment rien de neuf.
+- Statut : Officiel (Rockstar, Take-Two, PlayStation, Xbox), Rapporté (fuite ou chiffre relayé par plusieurs comptes ou un média), Rumeur (un seul compte), Création de fan. evidence = « vues relevées le <date> dans data/x_alertes.json » + comptes qui reprennent.
+- Image : le champ image du post (pbs.twimg.com), image_credit = « @auteur sur X ». S'il est vide, l'og:image de l'article de presse qui corrobore, ou une image officielle déjà dans le dépôt (img/). Une image manquante n'est jamais une raison de ne pas publier le sujet.
+- Plus récent en haut. Les archives restent mais ne doivent pas dominer la page.

@@ -1,6 +1,6 @@
 """Veille X pour Solange (27/10/2026, Gabriel : Vice Central et les comptes d'alerte avaient les 210 Go avant nous).
 Lit dans le Chrome du Mac les derniers posts des comptes GTA 6 qui sortent les infos en premier, garde ceux de moins de 12 h,
-écrit data/x_alertes.json = {maj, posts: [{url, auteur, quand, texte, vues}]} : des PISTES pour tools/JOURNALISTE.md (étape 2b).
+écrit data/x_alertes.json = {maj, posts: [{url, auteur, quand, texte, vues, image, reactions}]} : des PISTES pour tools/JOURNALISTE.md (étape 2b).
 Lancé par ~/La Soso/outils/presse/presse.sh. Lecture seule sur X : aucun like, aucun post.
 Usage : python3 tools/x_alertes.py"""
 import datetime, json, time, urllib.parse
@@ -24,7 +24,8 @@ def main():
                 time.sleep(3)
                 lot = json.loads(X.js("""JSON.stringify([...document.querySelectorAll('article')].map(a=>{const l=a.querySelector('a[href*="/status/"] time')?.closest('a');
 return {url:l?l.href.split('?')[0]:'',quand:a.querySelector('time')?.getAttribute('datetime')||'',texte:a.querySelector('[data-testid=tweetText]')?.innerText||'',
-auteur:(l?l.href.split('/')[3]:''),vues:(a.querySelector('a[href$="/analytics"]')?.getAttribute('aria-label')||'').replace(/[^0-9]/g,'')}}))"""))
+auteur:(l?l.href.split('/')[3]:''),vues:(a.querySelector('a[href$="/analytics"]')?.getAttribute('aria-label')||'').replace(/[^0-9]/g,''),
+image:(a.querySelector('[data-testid=tweetPhoto] img')?.src||a.querySelector('video')?.poster||''),reactions:(a.querySelector('[role=group]')?.getAttribute('aria-label')||'')}}))"""))
                 posts += [p for p in lot if p["url"] and p["url"] not in {x["url"] for x in posts}]
                 X.js("window.scrollBy(0,2500);1")
     finally:
