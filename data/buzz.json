@@ -1,8 +1,48 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-10-27T18:12:48+01:00",
+  "updated_at": "2026-10-27T20:00:00+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-210-go-playstation-game-size",
+      "title": "210 Go sur PS5 : le chiffre de PlayStation Game Size s'emballe",
+      "summary": "Le compte PlayStation Game Size affirme avoir relevé dans la base du PS Store un téléchargement de 210 Go pour GTA VI en édition standard (79,99 $), avec préchargement le 12 novembre et sortie le 19 à minuit. Le post a dépassé le million de vues et a été repris par plusieurs comptes. Rockstar n'a rien confirmé.",
+      "url": "https://x.com/PlaystationSize/status/2115129198851522905",
+      "platform": "X",
+      "author": "PlayStation Game Size · @PlaystationSize",
+      "status": "Rapporté",
+      "published_at": "27 octobre 2026",
+      "checked_at": "2026-10-27T20:00:00+01:00",
+      "visual": "210 GO",
+      "evidence": "Vues relevées le 2026-10-27 dans data/x_alertes.json : 1 195 003 vues, 21 431 likes, 4 158 reposts sur le post d'origine. Repris par GTAVI_Countdown (246 027 vues), JVMag_ch, gta6hubfr et vicecentralFR. Insider Gaming dit avoir recoupé le chiffre (d'après vicecentralFR). Donnée non confirmée par Rockstar ni Sony.",
+      "image": "https://pbs.twimg.com/media/HVpyx2YXkAArjRS?format=jpg&name=small",
+      "image_alt": "Visuel du post PlayStation Game Size : GTA VI, 210 Go, sortie le 19 novembre",
+      "image_credit": "@PlaystationSize sur X",
+      "cta": "Voir la publication sur X",
+      "embed_type": "x",
+      "post_text": "Grand Theft Auto VI - Download Size: 210 GB - Standard ($79.99) - Pre-Load: November 12 - Release: November 19 - Release Time: Midnight",
+      "article": "journal/2026-10-27-gta6-210-go-ps5-playstation-game-size.html"
+    },
+    {
+      "id": "x-edge-430-captures-29-octobre",
+      "title": "Edge consacre 16 pages à GTA VI, avec captures inédites jeudi",
+      "summary": "Le magazine Edge publie jeudi 29 octobre un numéro spécial GTA VI : 16 pages, interviews exclusives de Rockstar North et nouvelles captures. Le dossier sera lisible gratuitement sur GamesRadar+. L'annonce a circulé sur X chez plusieurs comptes.",
+      "url": "https://x.com/GTAVI_Countdown/status/2115105933793620066",
+      "platform": "X",
+      "author": "GTA VI Countdown · @GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "27 octobre 2026",
+      "checked_at": "2026-10-27T20:00:00+01:00",
+      "visual": "EDGE 430",
+      "evidence": "Vues relevées le 2026-10-27 dans data/x_alertes.json : 26 578 vues, 812 likes, 57 reposts. Repris par gta6hubfr, TheGTABase et vicecentralFR ; la source citée est GamesRadar+.",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2115105787311714304/img/OemC05vfega79sgk.jpg",
+      "image_alt": "Teaser du numéro spécial GTA VI du magazine Edge",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "cta": "Voir la publication sur X",
+      "embed_type": "x",
+      "post_text": "New GTA 6 screenshots are coming on October 29 in addition to exclusive interviews with Rockstar North in a 16-page cover story by Edge Magazine.",
+      "article": "journal/2026-10-27-gta6-edge-29-octobre-interviews-captures.html"
+    },
     {
       "id": "trailer1-record-2023",
       "title": "Archive : le trailer qui a dépassé 90 millions de vues en 24 h",
@@ -227,6 +267,11 @@
       "at": "2026-10-27T18:12:48+01:00",
       "label": "Veille permanente · contrôle des pistes et des images",
       "summary": "Recherches publiques Rockstar, X, Instagram et TikTok : aucun nouveau sujet original suffisamment vérifiable retenu. Newswire indexé : dernière entrée GTA VI affichée le 15 octobre, déjà présente ; ouverture directe sans texte exploitable. X : accès au profil Rockstar refusé (403). Instagram : profil limité (429), original McDonald’s du 19 octobre inaccessible (Cache miss) ; reprises Beebom et Khel Now repérées, aucune collaboration considérée comme confirmée. TikTok : recherche limitée par robots.txt, profil sans contenu lisible. Reprise Gameranx de la rumeur de copies de test repérée mais page inaccessible : aucun embargo présenté comme acquis. Pistes de panneau routier et de faux texte promotionnel non retenues faute de source primaire vérifiée. Huit sujets conservés, huit images JPEG contrôlées en HTTP 200 ; aucune métrique actuelle inventée. Cadence permanente toutes les 2 h, de 8 h à minuit."
+    },
+    {
+      "at": "2026-10-27T20:00:00+01:00",
+      "label": "Veille permanente · matière X fournie",
+      "summary": "Source : data/x_alertes.json. Deux sujets ajoutés : le chiffre de 210 Go de PlayStation Game Size (1,19 M de vues, repris par quatre comptes) et le numéro spécial Edge du 29 octobre (26 578 vues, repris par trois comptes). Les posts Wynwood et Max Payne 3 : déjà couvert ou trop peu vu, non retenus. Aucun post X publié."
     }
   ],
   "coverage": {
