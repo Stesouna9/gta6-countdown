@@ -141,16 +141,25 @@ def main():
         fond = RACINE / "assets/img/vb-motel.webp" if th == "#ViceBreak" else None   # Vice Break : visuel du jeu
         texte, img, cle = compose(f"{e} J-{j} avant GTA 6.", txt, th, appel="👇 Le site en réponse"), visuel_jours(j, fond), f"site-{datetime.date.today()}"
         lien = "https://gtavifrance.com/"
-    elif slot == "radio":   # 27/10 Gabriel : chaque jour une station de Vice Bay Radio, lien direct vers sa page
+    elif slot == "radio":   # 27/10 Gabriel : chaque jour une station de Vice Bay Radio, lien direct vers sa page (v2 avec Codex Soso)
         import random, urllib.request
         lit = lambda u: urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": "gtavifrance"}), timeout=30).read()
         S = json.loads(lit("https://vicebayradio.com/data.js").decode().split("window.VBR=", 1)[1].rstrip().rstrip(";"))["stations"]
-        st = S[datetime.date.today().toordinal() % len(S)]
-        jingle = random.choice(st.get("jingles") or [st["slogan"]])
-        texte = (f"📻 La station du jour sur Vice Bay Radio : {st['name']} {st['f']} FM\n\n"
-                 f"{st['genre'].capitalize()}, avec {st['host']} au micro.\n« {jingle} »\n\n"
-                 f"En direct et gratuit, pour patienter avant GTA 6 (J-{j}) 🌴\n👉 https://vicebayradio.com/station/{st['id']}.html\n\n#GTA6 #ViceBayRadio")
-        img, cle, lien = lit(f"https://vicebayradio.com/img/host_{st['id']}.jpg"), f"radio-{datetime.date.today()}", ""
+        auj = datetime.date.today(); an, sem, jr = auj.isocalendar()
+        def ordre(a, w):   # stations mélangées chaque semaine (pas toujours le même jour), jamais deux fois de suite
+            o = list(range(len(S))); random.Random(f"radio-{a}-{w}").shuffle(o); return o
+        o = ordre(an, sem); prec = ordre(*(auj - datetime.timedelta(days=7)).isocalendar()[:2])
+        if o[0] == prec[-1]: o[0], o[1] = o[1], o[0]
+        st = S[o[(jr - 1) % len(o)]]
+        jingle = min(st.get("jingles") or [st["slogan"]], key=len)
+        ACCROCHES = ["Ton trajet mérite une autre bande-son.", f"Ce soir, {st['host']} prend le micro.", "Ferme les onglets. Ouvre la radio.",
+                     f"« {jingle} »", "Le week-end commence sur cette fréquence.", "Une ville imaginaire. Une vraie bande-son pour ta soirée.",
+                     "Encore un morceau avant demain ?"]
+        acc = ACCROCHES[jr - 1]   # une accroche par jour de la semaine (vendredi : week-end, dimanche : avant demain)
+        url = f"https://vicebayradio.com/station/{st['id']}.html?utm_source=x&utm_medium=social&utm_campaign=station_du_jour&utm_content={st["id"]}-j{jr}"
+        texte = (f"📻 {acc}\n\n{st['name']} {st['f']} FM · {st['genre'].capitalize()}, avec {st['host']}.\n"
+                 f"{st['slogan']}\n\n▶ Écouter en direct : {url}\n\n#ViceBayRadio")
+        img, cle, lien = lit(f"https://vicebayradio.com/img/share_{st['id']}.jpg"), f"radio-{auj}", ""
     else:
         cyb = slot == "cyberleek"
         cands = [a for a in arts if (slot == "top" or ("cyberleek" in a["id"]) == cyb) and a["id"] not in etat["postes"]
