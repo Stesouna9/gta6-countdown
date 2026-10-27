@@ -67,7 +67,12 @@ def ia(consigne, max_tokens=1500):
     cle = subprocess.run(["security", "find-generic-password", "-s", "Anthropic API key (routines)", "-w"], capture_output=True, text=True).stdout.strip()
     req = urllib.request.Request("https://api.anthropic.com/v1/messages", headers={"x-api-key": cle, "anthropic-version": "2023-06-01", "content-type": "application/json"},
         data=json.dumps({"model": "claude-haiku-5-5", "max_tokens": max_tokens, "messages": [{"role": "user", "content": consigne}]}).encode())
-    return "".join(b.get("text", "") for b in json.load(urllib.request.urlopen(req, timeout=60))["content"] if b.get("type") == "text").strip()
+    r = json.load(urllib.request.urlopen(req, timeout=60))
+    try:   # 27/10 : compteur de consommation de la clé API (point global de Gabriel)
+        u = r.get("usage", {}); f = Path.home() / ".config/gtavifrance/ia_usage.jsonl"
+        with open(f, "a") as o: o.write(json.dumps({"t": f"{datetime.datetime.now():%Y-%m-%d %H:%M}", "slot": slot, "in": u.get("input_tokens", 0), "out": u.get("output_tokens", 0)}) + "\n")
+    except Exception: pass
+    return "".join(b.get("text", "") for b in r["content"] if b.get("type") == "text").strip()
 
 def colle(texte):
     """Écrit dans la zone de texte de X par un « coller » : garde les retours à la ligne (insertText les perdait, 24/10)."""
