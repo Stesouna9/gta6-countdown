@@ -1,6 +1,6 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-10-27T18:05:23+01:00",
+  "updated_at": "2026-10-27T18:12:48+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
     {
@@ -222,6 +222,11 @@
       "at": "2026-10-27T18:05:23+01:00",
       "label": "Veille permanente · reprise et contrôle des originaux",
       "summary": "Recherches publiques Rockstar, X, Instagram et TikTok. Newswire accessible : dernière entrée GTA VI affichée le 15 octobre, déjà présente. Piste McDonald’s UK du 19 octobre relayée ce 27 octobre par Khel Now : lien Instagram original retrouvé (https://www.instagram.com/p/DerkalviJ6Q/), mais publication et image non vérifiables dans les réponses obtenues ; aucun partenariat annoncé comme acquis, sujet non ajouté. Rumeurs de copies de test et d’embargo écartées faute de source primaire vérifiable. X : refus 403 ; Instagram : 429 sur le profil Rockstar, publication McDonald’s inaccessible via la recherche et réponse embed sans contenu exploitable ; TikTok : robots.txt et profil sans contenu lisible. Aucun nouveau sujet retenu, aucune portée inventée. Huit sujets conservés ; miniatures originales YouTube des deux archives vérifiées en HTTP 200 et ajoutées aux données. Cadence permanente rétablie : toutes les 2 h de 8 h à minuit."
+    },
+    {
+      "at": "2026-10-27T18:12:48+01:00",
+      "label": "Veille permanente · contrôle des pistes et des images",
+      "summary": "Recherches publiques Rockstar, X, Instagram et TikTok : aucun nouveau sujet original suffisamment vérifiable retenu. Newswire indexé : dernière entrée GTA VI affichée le 15 octobre, déjà présente ; ouverture directe sans texte exploitable. X : accès au profil Rockstar refusé (403). Instagram : profil limité (429), original McDonald’s du 19 octobre inaccessible (Cache miss) ; reprises Beebom et Khel Now repérées, aucune collaboration considérée comme confirmée. TikTok : recherche limitée par robots.txt, profil sans contenu lisible. Reprise Gameranx de la rumeur de copies de test repérée mais page inaccessible : aucun embargo présenté comme acquis. Pistes de panneau routier et de faux texte promotionnel non retenues faute de source primaire vérifiée. Huit sujets conservés, huit images JPEG contrôlées en HTTP 200 ; aucune métrique actuelle inventée. Cadence permanente toutes les 2 h, de 8 h à minuit."
     }
   ],
   "coverage": {
