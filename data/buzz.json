@@ -1,6 +1,6 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-10-27T20:00:00+01:00",
+  "updated_at": "2026-10-27T20:12:29+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
     {
@@ -272,6 +272,11 @@
       "at": "2026-10-27T20:00:00+01:00",
       "label": "Veille permanente · matière X fournie",
       "summary": "Source : data/x_alertes.json. Deux sujets ajoutés : le chiffre de 210 Go de PlayStation Game Size (1,19 M de vues, repris par quatre comptes) et le numéro spécial Edge du 29 octobre (26 578 vues, repris par trois comptes). Les posts Wynwood et Max Payne 3 : déjà couvert ou trop peu vu, non retenus. Aucun post X publié."
+    },
+    {
+      "at": "2026-10-27T20:12:29+01:00",
+      "label": "Veille permanente · matière X fournie",
+      "summary": "Source : data/x_alertes.json (relevé du 27/10 à 18 h 38 UTC, 17 posts). Rien de neuf : les posts sur les 210 Go et sur Edge sont déjà publiés ; Wynwood (59 vues) et Max Payne 3 (161 vues) restent sous le seuil, un seul compte. Aucun sujet ajouté. Aucun post X publié."
     }
   ],
   "coverage": {
