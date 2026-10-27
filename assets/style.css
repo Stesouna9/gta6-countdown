@@ -1259,3 +1259,28 @@ body.mu-lecteur-on .suivre{bottom:118px}
 
 /* Buzz est une catégorie autonome ; le menu mobile la conserve dans son rayon. */
 .nav a.nav-buzz{color:var(--gold)}
+/* Bible GTA 6 (27/10/2026) : encyclopédie, thème sombre */
+.bb-nuit{background:var(--ink);color:var(--paper);padding:32px 0 64px}
+.bb-nuit a{color:var(--hot)}
+.bb-regle{font:400 13px/1.5 var(--mono);opacity:.75;max-width:70ch;margin:0 0 18px}
+.bb-filtres{margin:0 0 28px}.bb-filtres a{font:600 12px var(--mono);letter-spacing:.06em;text-transform:uppercase;padding:7px 12px;border-radius:999px;border:1.5px solid rgba(242,232,213,.3);color:var(--paper);text-decoration:none}
+.bb-rub{margin:0 0 40px}.bb-rub .rubrique{color:var(--paper)}
+.bb-grille{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,260px),1fr));gap:16px}
+.bb-carte{display:grid;grid-template-rows:auto 1fr;background:#1f1828;border:1.5px solid rgba(242,232,213,.14);border-radius:8px;overflow:hidden;text-decoration:none;color:var(--paper);min-width:0}
+.bb-carte img{width:100%;aspect-ratio:16/9;object-fit:cover}
+.bb-carte-txt{display:grid;gap:6px;padding:14px;align-content:start}
+.bb-carte strong{font-size:1.1em;line-height:1.25}.bb-carte-txt>span:last-child{font-size:.9em;opacity:.8;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.bb-carte:hover{border-color:var(--hot)}
+.bb-tag{justify-self:start;font:700 11px var(--mono);letter-spacing:.08em;text-transform:uppercase;padding:3px 8px;border-radius:3px;color:#0e0b12}
+.bb-tag.bb-conf{background:#4ade80}.bb-tag.bb-rapp{background:#fbbf24}
+.bb-tete .kicker a{color:inherit;text-decoration:none}
+.bb-fiche{display:grid;gap:28px;max-width:860px}
+.bb-fiche h2{font-family:var(--display);font-weight:400;text-transform:uppercase;font-size:clamp(1.5rem,3.4vw,2.1rem);letter-spacing:.02em;margin:0 0 10px}
+.bb-conf-box{background:#1f1828;border:1.5px solid #4ade80;border-radius:8px;padding:18px 20px;display:grid;gap:10px}
+.bb-conf-box.bb-rapp{border-color:#fbbf24}
+.bb-conf-box ul,.bb-corps ul,.bb-src ul,.bb-liste{padding-inline-start:20px;display:grid;gap:6px}
+.bb-corps{font-size:1.05em;line-height:1.6;display:grid;gap:14px}.bb-corps p{max-width:70ch}
+.bb-src ul{font:400 13px/1.5 var(--mono)}
+.bb-mini{grid-template-columns:repeat(auto-fill,minmax(min(100%,200px),1fr))}.bb-mini .bb-carte-txt>span:last-child{display:none}
+.bb-retour{font:600 13px var(--mono);letter-spacing:.06em;text-transform:uppercase}
+@media (max-width:640px){.bb-filtres{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin:0 calc(-1*var(--gut)) 22px;padding:0 var(--gut)}.bb-filtres a{white-space:nowrap}}

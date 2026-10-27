@@ -755,6 +755,67 @@ for l in T:
     write(px + "verdict.html", page(l, url, tr(l, "rv_t"), tr(l, "rv_md"), body, ld, page_shell="actus", alts={k: f"{BASE}{'' if k == 'fr' else k + '/'}verdict.html" for k in T}))
     URLS.append((url, l, "0.9"))
 
+# ------------------------------------------------------------------ 4e. Bible GTA 6 : encyclopédie (27/10/2026, demande de Gabriel du 22/10 ; plan docs/BIBLE_GTA6.md)
+# data/bible.json (id, rub perso/lieu/acheter/guide, img assets/img/rockstar/, st conf/rapp, date, src [[nom, url, date]], art [ids], liens [ids])
+# textes : clés i18n bb_<id>_t (titre), _r (réponse directe), _c1.._cN (puces confirmées), _s1t/_s1p.. (sections du corps : titre, paragraphe) ; un segment par clé car Google Traduction écrase les sauts de ligne
+BIB = json.load(open("data/bible.json", encoding="utf-8")) if os.path.exists("data/bible.json") else []
+_RUBS = ("perso", "lieu", "acheter", "guide")
+_ART_ID = {a["id"]: a for a in ARTS}
+def _bb_url(l, f=None): return f"{BASE}{'' if l == 'fr' else l + '/'}" + (f"bible/{f}.html" if f else "bible.html")
+def _bb_date(d, l): return d if l in ("ja", "zh", "tw", "ko") else ".".join(reversed(d.split("-")))
+for l in T:
+    px = "" if l == "fr" else l + "/"; url = _bb_url(l)
+    tag = lambda f: f'<span class="bb-tag bb-{f["st"]}">{e(tr(l, "bb_" + f["st"]))}</span>'
+    carte = lambda f: (f'<a class="bb-carte" href="bible/{f["id"]}.html" data-goatcounter-click="bible-fiche"><img src="assets/img/rockstar/{f["img"]}" alt="{e(tr(l, "bb_" + f["id"] + "_t"))}" loading="lazy" width="640" height="360">'
+                       f'<span class="bb-carte-txt">{tag(f)}<strong>{e(tr(l, "bb_" + f["id"] + "_t"))}</strong><span>{e(tr(l, "bb_" + f["id"] + "_r"))}</span></span></a>')
+    # --- sommaire
+    rubs = "".join(f'<section class="bb-rub" id="{r}"><div class="rubrique rv"><span class="num">{i + 1:02d}</span><h2>{e(tr(l, "bb_rub_" + r))}</h2></div><div class="bb-grille">'
+                   + "".join(carte(f) for f in BIB if f["rub"] == r) + "</section></div>" for i, r in enumerate(_RUBS) if any(f["rub"] == r for f in BIB))
+    rubs = rubs.replace("</section></div>", "</div></section>")
+    body = f"""
+  <header class="tete-page image"><img src="assets/img/rockstar/mosaique.jpg" alt="Grand Theft Auto VI" width="1600" height="900"><div class="wrap"><span class="kicker">{e(tr(l, "bb_k"))} · {len(BIB)} {e(tr(l, "bb_fiches"))}</span><h1>{e(tr(l, "bb_h"))}</h1><p class="serif">{e(tr(l, "bb_i"))}</p></div></header>
+  <section class="bb-nuit"><div class="wrap">
+    <p class="note bb-regle">{e(tr(l, "bb_regle"))}</p>
+    <nav class="cat-filtres bb-filtres">{"".join(f'<a href="#{r}">{e(tr(l, "bb_rub_" + r))}</a>' for r in _RUBS)}</nav>
+    {rubs}
+    <p class="verifie">{e(tr(l, "bb_maj"))} {_bb_date(max(f["date"] for f in BIB), l)} · <a href="guide.html">{e(tr(l, "nav_guide"))}</a> · <a href="verdict.html">{e(tr(l, "rv_h"))}</a></p>
+  </div></section>
+"""
+    ld = [{"@context": "https://schema.org", "@type": "CollectionPage", "name": tr(l, "bb_t"), "url": url, "description": tr(l, "bb_md"), "inLanguage": LOC.get(l, l),
+           "hasPart": [{"@type": "Article", "name": tr(l, "bb_" + f["id"] + "_t"), "url": _bb_url(l, f["id"])} for f in BIB]},
+          {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "GTAVIFRANCE", "item": BASE + px}, {"@type": "ListItem", "position": 2, "name": tr(l, "bb_h"), "item": url}]}]
+    write(px + "bible.html", page(l, url, tr(l, "bb_t"), tr(l, "bb_md"), body, ld, img=BASE + "assets/img/rockstar/mosaique.jpg", page_shell="actus", alts={k: _bb_url(k) for k in T}))
+    URLS.append((url, l, "0.9"))
+    # --- fiches
+    for f in BIB:
+        k = "bb_" + f["id"]; fu = _bb_url(l, f["id"]); img = f"assets/img/rockstar/{f['img']}"
+        conf = "".join(f"<li>{e(tr(l, k + '_c' + str(i)))}</li>" for i in range(1, 20) if (k + "_c" + str(i)) in I18N["fr"])
+        corps = "".join((f"<h2>{e(tr(l, k + f'_s{i}t'))}</h2>" if (k + f"_s{i}t") in I18N["fr"] else "") + f"<p>{e(tr(l, k + f'_s{i}p'))}</p>" for i in range(1, 20) if (k + f"_s{i}p") in I18N["fr"])
+        srcs = "".join(f'<li><a href="{e(u)}" target="_blank" rel="noopener">{e(n)}</a> · {_bb_date(d, l)}</li>' for n, u, d in f.get("src", []))
+        arts = [_ART_ID[i] for i in f.get("art", []) if i in _ART_ID]
+        arts_h = ("<h2>" + e(tr(l, "bb_art")) + "</h2><ul class=\"bb-liste\">" + "".join(f'<li><a href="journal/{a["id"]}.html" data-goatcounter-click="bible-article">{e(a[art_lang(a, l)]["t"])}</a></li>' for a in arts) + "</ul>") if arts else ""
+        liens = [x for x in BIB if x["id"] in f.get("liens", [])]
+        liens_h = ("<h2>" + e(tr(l, "bb_liens")) + "</h2><div class=\"bb-grille bb-mini\">" + "".join(carte(x) for x in liens) + "</div>") if liens else ""
+        body = f"""
+  <header class="tete-page image bb-tete"><img src="{img}" alt="{e(tr(l, k + "_t"))}" width="1600" height="900"><div class="wrap"><span class="kicker"><a href="bible.html">{e(tr(l, "bb_k"))}</a> · {e(tr(l, "bb_rub_" + f["rub"]))}</span><h1>{e(tr(l, k + "_t"))}</h1><p class="serif">{e(tr(l, k + "_r"))}</p></div></header>
+  <section class="bb-nuit"><div class="wrap bb-fiche">
+    <div class="bb-conf-box bb-{f["st"]}">{tag(f)}<h2>{e(tr(l, "bb_conf_t"))}</h2><ul>{conf}</ul></div>
+    <div class="bb-corps">{corps}</div>
+    <div class="bb-src"><h2>{e(tr(l, "bb_src"))}</h2><ul>{srcs}</ul><p class="verifie">{e(tr(l, "bb_maj"))} {_bb_date(f["date"], l)} · <span class="kicker">{e(tr(l, "bb_credit"))}</span></p></div>
+    {arts_h}{liens_h}
+    <p class="bb-retour"><a href="bible.html">← {e(tr(l, "bb_retour"))}</a></p>
+  </div></section>
+"""
+        ld = [{"@context": "https://schema.org", "@type": "Article", "headline": tr(l, k + "_t"), "description": tr(l, k + "_r"), "url": fu, "image": BASE + img, "inLanguage": LOC.get(l, l),
+               "datePublished": f["date"] + "T12:00:00+01:00", "dateModified": f["date"] + "T12:00:00+01:00", "isPartOf": {"@type": "CollectionPage", "name": tr(l, "bb_h"), "url": url},
+               "author": {"@type": "Organization", "name": "GTAVIFRANCE", "url": BASE}, "publisher": {"@type": "Organization", "name": "GTAVIFRANCE", "url": BASE, "logo": {"@type": "ImageObject", "url": BASE + "assets/img/logo-vi.webp"}},
+               "about": {"@type": "VideoGame", "name": "Grand Theft Auto VI", "publisher": {"@type": "Organization", "name": "Rockstar Games"}, "gamePlatform": ["PlayStation 5", "Xbox Series X|S"]},
+               "citation": [{"@type": "CreativeWork", "name": n, "url": u, "datePublished": d} for n, u, d in f.get("src", [])]},
+              {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "GTAVIFRANCE", "item": BASE + px}, {"@type": "ListItem", "position": 2, "name": tr(l, "bb_h"), "item": url}, {"@type": "ListItem", "position": 3, "name": tr(l, k + "_t"), "item": fu}]}]
+        write(px + f"bible/{f['id']}.html", page(l, fu, tr(l, k + "_t") + " | " + tr(l, "bb_h"), tr(l, k + "_r"), body, ld, img=BASE + img, page_shell="actus", alts={x: _bb_url(x, f["id"]) for x in T}))
+        URLS.append((fu, l, "0.8"))
+print(f"bible: {len(BIB)} fiches × {len(T)} langues")
+
 # ------------------------------------------------------------------ 4c. flash : derniers articles pour la barre Suivre
 try:
     _fl = [{"id": a["id"], "date": a.get("date", ""), "t": {l: a[art_lang(a, l)]["t"] for l in T}} for a in ARTS[:5]]
