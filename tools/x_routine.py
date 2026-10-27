@@ -141,6 +141,16 @@ def main():
         fond = RACINE / "assets/img/vb-motel.webp" if th == "#ViceBreak" else None   # Vice Break : visuel du jeu
         texte, img, cle = compose(f"{e} J-{j} avant GTA 6.", txt, th, appel="👇 Le site en réponse"), visuel_jours(j, fond), f"site-{datetime.date.today()}"
         lien = "https://gtavifrance.com/"
+    elif slot == "radio":   # 27/10 Gabriel : chaque jour une station de Vice Bay Radio, lien direct vers sa page
+        import random, urllib.request
+        lit = lambda u: urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": "gtavifrance"}), timeout=30).read()
+        S = json.loads(lit("https://vicebayradio.com/data.js").decode().split("window.VBR=", 1)[1].rstrip().rstrip(";"))["stations"]
+        st = S[datetime.date.today().toordinal() % len(S)]
+        jingle = random.choice(st.get("jingles") or [st["slogan"]])
+        texte = (f"📻 La station du jour sur Vice Bay Radio : {st['name']} {st['f']} FM\n\n"
+                 f"{st['genre'].capitalize()}, avec {st['host']} au micro.\n« {jingle} »\n\n"
+                 f"En direct et gratuit, pour patienter avant GTA 6 (J-{j}) 🌴\n👉 https://vicebayradio.com/station/{st['id']}.html\n\n#GTA6 #ViceBayRadio")
+        img, cle, lien = lit(f"https://vicebayradio.com/img/host_{st['id']}.jpg"), f"radio-{datetime.date.today()}", ""
     else:
         cyb = slot == "cyberleek"
         cands = [a for a in arts if (slot == "top" or ("cyberleek" in a["id"]) == cyb) and a["id"] not in etat["postes"]
