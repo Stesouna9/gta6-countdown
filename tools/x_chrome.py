@@ -48,6 +48,14 @@ def surveille():
         GEL.parent.mkdir(parents=True, exist_ok=True); GEL.write_text(f"{datetime.datetime.now():%Y-%m-%d %H:%M} {slot} : « {a} »")
         log(f"GEL 24 h : X affiche « {a} »"); raise SystemExit(1)
 
+def hasard(max_min, saut=0.0):
+    """Horaires humains (27/10, Gabriel : « vachement aléatoire ») : départ décalé de 0 à max_min, 3 heures de repos par jour tirées
+    au sort (différentes chaque jour) et une part de lancements sautés au hasard. Rien avec --maintenant ou --essai."""
+    if "--maintenant" in sys.argv or "--essai" in sys.argv: return
+    repos = set(random.Random(datetime.date.today().isoformat()).sample(range(9, 24), 3))
+    if saut and (datetime.datetime.now().hour in repos or random.random() < saut): log("pause (hasard)"); raise SystemExit(0)
+    time.sleep(random.randint(0, max_min * 60))
+
 def ia(consigne, max_tokens=1500):
     """Texte court via l'API Anthropic (clé du trousseau, crédits autorisés par Gabriel le 24/10)."""
     import urllib.request
@@ -100,7 +108,7 @@ end timeout''')
         log(f"fermeture onglet : {e}")
 
 def main():
-    if "--maintenant" not in sys.argv and not ESSAI: time.sleep(random.randint(0, 50 * 60))
+    hasard(55)
     if gel_actif(): log("gel en cours (" + GEL.read_text() + "), rien publié"); return
     r = subprocess.run(["ssh", "-o", "ConnectTimeout=20", SERVEUR, f"cd /var/www/gtavifrance && python3 tools/x_routine.py {slot} --json"],
                        capture_output=True, text=True, timeout=120)

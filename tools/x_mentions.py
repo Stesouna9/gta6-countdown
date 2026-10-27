@@ -5,7 +5,7 @@ Usage : python3 tools/x_mentions.py [--n=5] [--essai] [--maintenant]"""
 import json, random, sys, time, datetime
 from pathlib import Path
 import x_chrome as X
-from x_reponses import ouvre, attend, repond
+from x_reponses import ouvre, attend, repond, like
 
 ETAT = Path.home() / ".config/gtavifrance/x_mentions.json"
 ESSAI = "--essai" in sys.argv
@@ -28,14 +28,16 @@ def texte(m):
 Écris NOTRE réponse. Règles : dans la langue du message, 1 ou 2 phrases, 240 caractères max, ton chaleureux de passionné qui discute (pas de pub, pas de « nous » corporate),
 répondre vraiment à ce qu'il dit (question : y répondre ; avis : réagir, relancer par une petite question si naturel ; compliment : remercier simplement),
 0 ou 1 emoji, pas de hashtag, pas de lien, rien d'inventé (repères sûrs : sortie le 19/11/2026 sur PS5 et Xbox Series, Vice City, Leonida, Jason et Lucia).
+Si un simple j'aime suffit (merci, compliment, emoji, message qui n'appelle pas de réponse), réponds exactement : LIKE
 Si c'est une insulte, de la politique, une arnaque, un bot, un concours ou s'il n'y a rien à répondre, réponds exactement : PASSER
 Donne seulement le texte.""", 400).strip().strip('"«» ')
     if r.upper().startswith("PASSER") or len(r) < 5: return ""
+    if r.upper().startswith("LIKE") or random.random() < 0.2: return "LIKE"   # 1 fois sur 5 : like au lieu de répondre
     return r if len(r) <= 270 else r[:270].rsplit(" ", 1)[0] + "…"
 
 def main():
     n = int(next((x.split("=")[1] for x in sys.argv if x.startswith("--n=")), "5"))
-    if not ESSAI and "--maintenant" not in sys.argv: time.sleep(random.randint(0, 10 * 60))
+    X.hasard(50, 0.15)
     if X.gel_actif(): X.log("gel en cours (" + X.GEL.read_text() + ")"); return
     etat = json.loads(ETAT.read_text()) if ETAT.exists() else {"vus": [], "reponses": []}
     jour = datetime.date.today().isoformat()
@@ -52,8 +54,12 @@ def main():
         except Exception as e: X.log(f"IA : {e}"); break
         etat["vus"] = (etat["vus"] + [m["url"]])[-1500:]
         if rep and ESSAI: X.log(f"essai : à @{m['auteur']} ({m['texte'][:70]!r}) → {rep!r}"); faits += 1; continue
-        if rep:
-            if faits: time.sleep(random.randint(30, 90))
+        if rep == "LIKE":
+            if ESSAI: X.log(f"essai : like à @{m['auteur']} ({m['texte'][:70]!r})"); faits += 1; continue
+            try: like(m["url"]); X.log(f"like à @{m['auteur']} {m['url']}"); faits += 1
+            except RuntimeError as e: X.log(f"like raté : {e}")
+        elif rep:
+            if faits: time.sleep(random.randint(45, 300))
             try:
                 repond(m, rep)
                 etat["reponses"].append({"quand": datetime.datetime.now().isoformat(timespec="minutes"), "a": m["url"], "auteur": m["auteur"]})

@@ -104,9 +104,18 @@ def repond(p, rep):
     finally:
         X.ferme_onglet(); X.ONGLET.clear()
 
+def like(url):
+    """Like seul (27/10, Gabriel : « parfois, au lieu de répondre, tu peux juste liker »)."""
+    ouvre(url)
+    try:
+        if not attend("document.querySelector('article [data-testid=like]')?'ok':'non'"): raise RuntimeError("bouton like absent")
+        X.js("document.querySelector('article [data-testid=like]').click();'clic'"); time.sleep(3)
+    finally:
+        X.ferme_onglet(); X.ONGLET.clear()
+
 def main():
     n = int(next((x.split("=")[1] for x in sys.argv if x.startswith("--n=")), "1"))
-    if not ESSAI and "--maintenant" not in sys.argv: time.sleep(random.randint(0, 25 * 60))
+    X.hasard(50, 0.2)
     if X.gel_actif(): X.log("gel en cours (" + X.GEL.read_text() + ")"); return
     etat = json.loads(ETAT.read_text()) if ETAT.exists() else {"posts": [], "reponses": []}
     choix = choisit(posts_recents(), etat, n * 2)   # deux fois plus de candidats : l'IA en écarte
@@ -121,7 +130,7 @@ def main():
             if not ESSAI: ETAT.write_text(json.dumps(etat, ensure_ascii=False, indent=1))
             continue
         if ESSAI: X.log(f"essai : sous {p['url']} ({p['texte'][:70]!r}) → {rep!r}"); faits += 1; continue
-        if faits: time.sleep(random.randint(30, 120))
+        if faits: time.sleep(random.randint(60, 420))
         try: repond(p, rep)
         except RuntimeError as e: X.log(f"réponse ratée : {e}"); continue
         etat["reponses"].append({"quand": datetime.datetime.now().isoformat(timespec="minutes"), "sous": p["url"], "auteur": p["auteur"], "article": a["id"] if a else ""})

@@ -15,7 +15,7 @@ R.RECHERCHES = [("from:RockstarGames", "fr"), ("(GTA 6 OR GTA VI OR GTA6) min_fa
                 ("(GTA 6 OR GTA VI OR GTA6) lang:fr min_faves:30 -filter:replies", "fr")]
 
 def main():
-    if not ESSAI and "--maintenant" not in sys.argv: time.sleep(random.randint(0, 25 * 60))
+    X.hasard(55, 0.2)
     if X.gel_actif(): X.log("gel en cours (" + X.GEL.read_text() + ")"); return
     etat = json.loads(ETAT.read_text()) if ETAT.exists() else {"posts": [], "citations": []}
     jour = str(datetime.date.today()); deja = {c["auteur"] for c in etat["citations"] if c["quand"][:10] == jour}
