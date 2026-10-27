@@ -1,10 +1,9 @@
-name: journaliste
-# Routine journaliste (27/10/2026, demande de Gabriel) : tourne seule avec la clé API Anthropic (secret ANTHROPIC_API_KEY),
-# indépendante de la limite d'abonnement Claude. Prompt : tools/JOURNALISTE.md. La routine cloud soso-journaliste-gta6 est désactivée.
-# Garde : si quelqu'un (Codex, Claude à la main) a déjà publié un « Solange : » dans les 2 h 30, ce passage est sauté.
+name: journaliste-cle-api
+# Routine journaliste en secours MANUEL avec la clé API Anthropic (secret ANTHROPIC_API_KEY). Prompt : tools/JOURNALISTE.md.
+# Ordre voulu par Gabriel (27/10/2026) : 1) routine cloud Claude soso-journaliste-gta6 (abonnement) ;
+# 2) à 90 % de la limite Claude ou si rien n'est publié, relais automatique par Codex (LaunchAgent com.soso.relais-journaliste sur le Mac) ;
+# 3) ce workflow, à lancer à la main (gh workflow run journaliste.yml -f force=true).
 on:
-  schedule:
-    - cron: "25 */3 * * *"
   workflow_dispatch:
     inputs:
       force: { type: boolean, default: false }
