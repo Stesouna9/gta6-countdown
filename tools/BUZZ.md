@@ -15,6 +15,9 @@ Publication serveur : root@2.29.41.109, /var/www/gtavifrance.
 6. Ajouter et committer uniquement data/buzz.json et buzz.html, puis pousser main sans force. Avant modifications, récupérer origin/main et avancer en fast-forward. En cas de concurrence, préserver les nouvelles entrées et les changements du bot. Ne pas toucher aux autres fichiers non suivis.
 7. Le serveur se synchronise toutes les cinq minutes. Pour publier immédiatement : ssh -o BatchMode=yes root@2.29.41.109 'cd /var/www/gtavifrance && git pull --ff-only origin main'. Ne pas remettre le serveur à zéro. Vérifier ensuite https://gtavifrance.com/buzz.html et https://gtavifrance.com/data/buzz.json, avec une requête sans cache.
 
+## Veille permanente (27/10/2026, Gabriel : « remettez la routine en place »)
+La clause de fin du 27/10 à 6 h est levée : la veille Buzz est permanente. LaunchAgent com.soso.buzz (~/La Soso/outils/buzz/buzz.sh) lance un passage toutes les 2 h de 8 h à minuit (Paris) via codex exec. Chaque passage : étapes 1 à 7 ci-dessus, schedule = « Veille toutes les 2 h, de 8 h à minuit », une ligne au Journal de ~/La Soso/RELAIS-CLAUDE-CODEX.md. Jamais de post X ni de message à un tiers.
+
 ## Périmètre et fin
 
 La demande est une rubrique communautaire, dans le style de la page Actus, et une veille horaire jusqu'au mardi 27 octobre 2026 à 06:00 Europe/Paris. Après le dernier passage de 06:00, noter que la veille de nuit est terminée et arrêter la routine. Ne pas continuer la veille après cette échéance sans nouvelle demande.
