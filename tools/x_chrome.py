@@ -56,6 +56,11 @@ def hasard(max_min, saut=0.0):
     if saut and (datetime.datetime.now().hour in repos or random.random() < saut): log("pause (hasard)"); raise SystemExit(0)
     time.sleep(random.randint(0, max_min * 60))
 
+def aujourdhui():
+    """Repère de date pour l'IA (27/10 : une réponse disait « encore deux ans » avant la sortie)."""
+    j = (datetime.date(2026, 11, 19) - datetime.date.today()).days
+    return f"Nous sommes le {datetime.date.today():%d/%m/%Y} : GTA 6 sort dans {j} jours (le 19/11/2026)." if j > 0 else f"Nous sommes le {datetime.date.today():%d/%m/%Y} : GTA 6 est sorti le 19/11/2026."
+
 def ia(consigne, max_tokens=1500):
     """Texte court via l'API Anthropic (clé du trousseau, crédits autorisés par Gabriel le 24/10)."""
     import urllib.request

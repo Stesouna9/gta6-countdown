@@ -23,7 +23,7 @@ auteur:(l?l.href.split('/')[3]:''),contexte:(a.innerText.match(/(Replying to|En 
         X.ferme_onglet(); X.ONGLET.clear()
 
 def texte(m):
-    r = X.ia(f"""Tu es le community manager de GTAVIFRANCE (@gtavifrancecom), média fan de GTA 6 en français. @{m['auteur']} nous a écrit sur X :
+    r = X.ia(f"""{X.aujourdhui()} Tu es le community manager de GTAVIFRANCE (@gtavifrancecom), média fan de GTA 6 en français. @{m['auteur']} nous a écrit sur X :
 « {m['texte'][:600]} » {m['contexte']}
 Écris NOTRE réponse. Règles : dans la langue du message, 1 ou 2 phrases, 240 caractères max, ton chaleureux de passionné qui discute (pas de pub, pas de « nous » corporate),
 répondre vraiment à ce qu'il dit (question : y répondre ; avis : réagir, relancer par une petite question si naturel ; compliment : remercier simplement),

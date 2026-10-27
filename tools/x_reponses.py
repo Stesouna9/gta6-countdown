@@ -14,8 +14,9 @@ RACINE = Path(__file__).resolve().parent.parent
 ETAT = Path.home() / ".config/gtavifrance/x_reponses.json"
 ESSAI = "--essai" in sys.argv
 X.slot = "reponse"
-RECHERCHES = [("from:RockstarGames", "fr"), ("(GTA 6 OR GTA VI OR GTA6) lang:fr min_faves:10 -filter:replies", "fr"), ("(GTA 6 OR GTA VI OR GTA6 OR Leonida) lang:fr min_faves:2 -filter:replies", "fr"),
-              ("(GTA 6 OR GTA VI OR GTA6) lang:en min_faves:300 -filter:replies", "en")]   # 17/10 : + gros posts anglais (réponse en anglais)
+RECHERCHES = [("from:RockstarGames", "fr"), ("(GTA 6 OR GTA VI OR GTA6) lang:fr min_faves:100 -filter:replies", "fr"), ("(GTA 6 OR GTA VI OR GTA6 OR Leonida) lang:fr min_faves:20 -filter:replies", "fr"),
+              ("(GTA 6 OR GTA VI OR GTA6) lang:en min_faves:2000 -filter:replies", "en"), ("(GTA 6 OR GTA VI OR GTA6) lang:en min_faves:500 -filter:replies", "en")]
+# 27/10 Gabriel : viser les posts qui ont déjà beaucoup de vues et de réactions (gros comptes) ; candidats triés par réactions   # 17/10 : + gros posts anglais (réponse en anglais)
 GENERIQUES = {"gta 6", "gta vi", "gta", "rockstar", "rockstar games", "take-two", "ps5", "xbox", "trailer", "vice city", "leonida", "jason", "lucia", "jason duval", "lucia caminos", "gta v", "grand theft auto", "trailer 3", "launch trailer", "playstation", "rockstargames", "sortie", "date de sortie", "release", "release date", "bande-annonce", "rumeur", "officiel", "annonce", "précommande", "pre-order", "gameplay", "carte", "map"}
 LIEUX = {"miami", "floride", "florida", "los angeles", "vice", "keys", "port gellhorn", "ambrosia", "grassrivers", "mount kalaga"}   # trop vagues seuls
 FIN = {"fr": "", "en": ""}   # 24/10 Gabriel : « Tout en français sur notre profil » jugé moyen, la réponse = l'info seule
@@ -46,7 +47,8 @@ def posts_recents():
             time.sleep(3)
             r = X.js("""JSON.stringify([...document.querySelectorAll('article')].slice(0,15).map(a=>{const l=a.querySelector('a[href*="/status/"] time')?.closest('a');
 return {url:l?l.href:'',quand:a.querySelector('time')?.getAttribute('datetime')||'',texte:a.querySelector('[data-testid=tweetText]')?.innerText||'',
-auteur:(l?l.href.split('/')[3]:'')}}))""")
+auteur:(l?l.href.split('/')[3]:''),
+score:['reply','retweet','like'].reduce((s,k)=>s+parseInt((a.querySelector('[data-testid='+k+']')?.getAttribute('aria-label')||'0').replace(/[^0-9]/g,'')||0),0)}}))""")
             vus += [dict(x, lg=lg) for x in json.loads(r)]
         finally:
             X.ferme_onglet(); X.ONGLET.clear()
@@ -59,7 +61,7 @@ def choisit(posts, etat, n):
     maintenant = datetime.datetime.now(datetime.timezone.utc)
     deja = {r["auteur"] for r in etat["reponses"] if r["quand"][:10] == str(datetime.date.today())}
     choix = []
-    for p in posts:
+    for p in sorted(posts, key=lambda p: -p.get("score", 0)):   # les plus gros d'abord
         if len(choix) >= n: break
         if not p["url"] or p["url"] in etat["posts"] or p["auteur"].lower() in ("gtafance", "gtavifrancecom") or p["auteur"] in deja or len(p["texte"]) < 25: continue
         try: age = (maintenant - datetime.datetime.fromisoformat(p["quand"].replace("Z", "+00:00"))).total_seconds() / 3600
@@ -78,7 +80,7 @@ def texte(p, a, lien):
     """Réponse écrite pour CE post (24/10 : IA, plus de phrase toute faite). Renvoie '' si mieux vaut se taire."""
     lg = p.get("lg", "fr")
     info = f"Notre article sur le sujet : « {a['fr']['t']} » : {a['fr']['d']}" if a else "Pas d'article précis : réponds avec ce que tout fan sait (sortie le 19/11/2026 sur PS5 et Xbox Series, Vice City, Leonida, Jason et Lucia)."
-    r = X.ia(f"""Tu es le community manager de GTAVIFRANCE (@gtavifrancecom), média fan de GTA 6 en français. Écris UNE réponse au post X ci-dessous.
+    r = X.ia(f"""{X.aujourdhui()} Tu es le community manager de GTAVIFRANCE (@gtavifrancecom), média fan de GTA 6 en français. Écris UNE réponse au post X ci-dessous.
 Post de @{p['auteur']} : « {p['texte'][:600]} »
 {info}
 Règles : en {'français' if lg == 'fr' else 'anglais'}, 1 ou 2 phrases, ne rappelle la date et les consoles que si le post en parle, 240 caractères max, ton naturel de passionné (pas de pub, pas de « nous » corporate), répondre vraiment à ce que dit la personne, apporter une info ou un avis, 0 ou 1 emoji, pas de hashtag, pas de lien, rien d'inventé.
@@ -101,6 +103,7 @@ def repond(p, rep):
             raise RuntimeError("bouton Répondre inactif")
         X.js("document.querySelector('[data-testid=tweetButtonInline]').click();'clic'")
         time.sleep(6)
+        if random.random() < 0.85: X.js("(()=>{const b=document.querySelector('article [data-testid=like]');if(b)b.click();return 1})()"); time.sleep(2)   # 27/10 : on like aussi le post auquel on répond
     finally:
         X.ferme_onglet(); X.ONGLET.clear()
 
