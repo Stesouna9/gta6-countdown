@@ -35,3 +35,5 @@ Demande de Gabriel (22/10) : une encyclopédie complète de ce qu'on sait du jeu
 
 ## Suivi
 - 27/10 : plan, générateur, vague 1 (voir BIBLE_CROISSANCE.md).
+- 27/10 : vague 1 en ligne, 16 fiches (8 personnages, 6 régions, éditions, débuter). Leçon : un segment de texte = une clé i18n (bb_<id>_c1.., _s1t/_s1p..), Google écrase les sauts de ligne ; noms propres GTA 6 ajoutés à NOMS de traduire.py.
+- À faire (vague 2, 28/10) : argent/braquages, véhicules et marques, armes, faune, radio et musique (8 stations), précommande et plateformes/PC, préchargement et heure, chronologie et trailers, Online (officiel), histoire de la série. Ajouter chaque fiche dans data/bible.json + textes fr/en, rebuild, IndexNow.
