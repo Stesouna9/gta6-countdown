@@ -1,6 +1,6 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-10-27T02:59:02+01:00",
+  "updated_at": "2026-10-27T04:03:30+01:00",
   "schedule": "Veille horaire activée : de 21 h ce soir à 6 h le 27 octobre 2026, heure de Paris. Dernier passage à 6 h, puis arrêt.",
   "items": [
     {
@@ -196,6 +196,11 @@
       "at": "2026-10-27T02:59:02+01:00",
       "label": "Veille de nuit · portée historique du trailer 2",
       "summary": "Recherche Rockstar et tendances sociales : pas de nouveau post récent retenu. Archive majeure ajoutée avec la vidéo officielle du 6 mai 2025 : plus de 475 millions de vues sur plusieurs plateformes en 24 heures, chiffre Take-Two vérifié dans la présentation investisseurs de mai 2026 (page 11). Distinction explicite avec les vues YouTube et les personnes uniques. Aucun faux gameplay ni doublon retenu."
+    },
+    {
+      "at": "2026-10-27T04:03:30+01:00",
+      "label": "Veille de nuit · contrôle des nouveautés et des notes",
+      "summary": "Recherches Rockstar, X, Instagram et TikTok : aucun nouveau gros buzz directement vérifiable retenu. Rumeur de codes de test retrouvée dans une reprise : original X inaccessible (403), portée inconnue, conservée en réserve sans annoncer de date d’embargo. Contrôle en lecture seule des huit routes de notation : réponses HTTP 200. Huit sujets conservés ; aucune note ni interaction artificielle créée."
     }
   ],
   "coverage": {

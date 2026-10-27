@@ -184,7 +184,25 @@
         "Portée directe vérifiée"
       ],
       "decision": "Ne pas présenter le casting comme confirmé. Audience rapportée dans la presse, insuffisante pour valider un gros buzz ; réserve uniquement."
+    },
+    {
+      "id": "rumeur-codes-tests-octobre",
+      "title": "Rumeur sur les codes de test et un embargo",
+      "url": "https://x.com/NateTheHate2/status/2114749073953873963",
+      "platform": "X",
+      "author": "@NateTheHate2 · attribution par reprise publique",
+      "embed_type": "x",
+      "published_at": "26 octobre 2026 · date indiquée dans la reprise",
+      "source": "https://quasarzone.com/recent/views/all/52010056",
+      "checked_at": "2026-10-27T04:03:30+01:00",
+      "status": "Rumeur non vérifiée",
+      "missing": [
+        "Lecture du post original (403 à ce passage)",
+        "Confirmation officielle",
+        "Portée du post et authenticité de l’attribution"
+      ],
+      "decision": "Ne pas publier une date d’embargo comme un fait. Aucune nouveauté sélectionnée sur cette seule reprise."
     }
   ],
-  "updated_at": "2026-10-27T00:57:52+01:00"
+  "updated_at": "2026-10-27T04:03:30+01:00"
 }
