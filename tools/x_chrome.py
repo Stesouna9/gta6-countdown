@@ -113,7 +113,7 @@ end timeout''')
         log(f"fermeture onglet : {e}")
 
 def main():
-    hasard(55)
+    hasard(8 if slot == "chaud" else 55)
     if gel_actif(): log("gel en cours (" + GEL.read_text() + "), rien publié"); return
     r = subprocess.run(["ssh", "-o", "ConnectTimeout=20", SERVEUR, f"cd /var/www/gtavifrance && python3 tools/x_routine.py {slot} --json"],
                        capture_output=True, text=True, timeout=120)
