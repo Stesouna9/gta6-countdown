@@ -156,7 +156,7 @@ def main():
                      f"« {jingle} »", "Le week-end commence sur cette fréquence.", "Une ville imaginaire. Une vraie bande-son pour ta soirée.",
                      "Encore un morceau avant demain ?"]
         acc = ACCROCHES[jr - 1]   # une accroche par jour de la semaine (vendredi : week-end, dimanche : avant demain)
-        url = f"https://vicebayradio.com/station/{st['id']}.html?utm_source=x&utm_medium=social&utm_campaign=station_du_jour&utm_content={st["id"]}-j{jr}"
+        url = f"https://vicebayradio.com/station/{st['id']}.html?utm_source=x&utm_medium=social&utm_campaign=station_du_jour&utm_content={st['id']}-j{jr}"
         texte = (f"📻 {acc}\n\n{st['name']} {st['f']} FM · {st['genre'].capitalize()}, avec {st['host']}.\n"
                  f"{st['slogan']}\n\n▶ Écouter en direct : {url}\n\n#ViceBayRadio")
         img, cle, lien = lit(f"https://vicebayradio.com/img/share_{st['id']}.jpg"), f"radio-{auj}", ""
