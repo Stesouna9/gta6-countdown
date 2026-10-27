@@ -60,8 +60,9 @@ def colle(texte):
     """Écrit dans la zone de texte de X par un « coller » : garde les retours à la ligne (insertText les perdait, 24/10)."""
     return js("""(()=>{const e=document.querySelector('[data-testid=tweetTextarea_0]');if(!e)return 'pas de zone texte';e.focus();
 document.execCommand('selectAll',false,null);document.execCommand('delete',false,null);
-const d=new DataTransfer();d.setData('text/plain',%s);e.dispatchEvent(new ClipboardEvent('paste',{clipboardData:d,bubbles:true,cancelable:true}));
-const n=e.innerText.split(String.fromCharCode(10)).join('').length;return n>10&&n<1300?'texte ok':'texte '+n})()""" % json.dumps(texte))
+const t=%s,d=new DataTransfer();d.setData('text/plain',t);e.dispatchEvent(new ClipboardEvent('paste',{clipboardData:d,bubbles:true,cancelable:true}));
+const L=()=>e.innerText.split(String.fromCharCode(10)).join('').length;if(L()<10)document.execCommand('insertText',false,t);
+const n=L();return n>10&&n<1300?'texte ok':'texte '+n})()""" % json.dumps(texte))   # X ignore le coller simulé depuis le 24/10 19 h : insertText en secours
 
 def ouvre_onglet():
     """Nouvel onglet x.com/home dans la fenêtre 1, sans activer Chrome."""
