@@ -1,0 +1,40 @@
+name: journaliste-secours
+# Secours de la routine cloud Claude « soso-journaliste-gta6 » (cron 25 */3 UTC) :
+# 30 min après, si aucun commit « Solange : » depuis 2 h 30 (routine bloquée par la limite d'abonnement),
+# le même prompt (tools/JOURNALISTE.md) tourne ici avec la clé API Anthropic (secret ANTHROPIC_API_KEY).
+on:
+  schedule:
+    - cron: "55 */3 * * *"
+  workflow_dispatch:
+    inputs:
+      force: { type: boolean, default: false }
+permissions:
+  contents: write
+concurrency: { group: gta6-push, cancel-in-progress: false }
+jobs:
+  ecrire:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 50 }
+      - id: garde
+        run: |
+          recent=$(git log --since="150 minutes ago" --format=%s | grep -c "^Solange : " || true)
+          if [ "${{ inputs.force }}" != "true" ] && [ "$recent" -gt 0 ]; then echo "routine cloud OK ($recent commit), rien à faire"; echo "go=0" >> $GITHUB_OUTPUT; else echo "go=1" >> $GITHUB_OUTPUT; fi
+      - if: steps.garde.outputs.go == '1'
+        uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - if: steps.garde.outputs.go == '1'
+        run: |
+          pip install -q requests pillow
+          npm install -g -q @anthropic-ai/claude-code
+          git config user.name "Claude"
+          git config user.email "noreply@anthropic.com"
+      - if: steps.garde.outputs.go == '1'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          claude -p "$(cat tools/JOURNALISTE.md)" --model claude-sonnet-5-5 \
+            --allowedTools "Bash,Read,Write,Edit,Glob,Grep" --permission-mode bypassPermissions \
+            --max-turns 120 | tail -20
