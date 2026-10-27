@@ -17,7 +17,7 @@
       "embed_type": "youtube",
       "cta": "Regarder sur YouTube",
       "corroboration": "https://www.guinnessworldrecords.com/news/2023/12/grand-theft-auto-vi-first-look-becomes-most-viewed-videogame-trailer-in-24-hours-762030",
-      "evidence": "Record historique : 90 421 491 vues YouTube dans les premières 24 heures, selon Guinness World Records, article publié le 6 décembre 2023 et consulté cette nuit. Ce chiffre décrit le lancement de 2023, pas le compteur actuel. Le lecteur d’origine est référencé par Guinness ; la lecture peut dépendre des restrictions YouTube."
+      "evidence": "Record historique : 90 421 491 vues YouTube dans les premières 24 heures, selon Guinness World Records, article publié le 6 décembre 2023 et consulté cette nuit. Ce chiffre décrit le lancement de 2023, pas le compteur actuel. Le lecteur d’origine est référencé par Guinness ; la lecture peut dépendre des restrictions YouTube. Test du lecteur intégré : commande « Mettre la vidéo en pause » et durée 1 min 30 affichées après lancement."
     },
     {
       "id": "x-wynwood-publicites",
@@ -28,9 +28,9 @@
       "author": "Joel Franco · @OfficialJoelF",
       "status": "Rapporté",
       "published_at": "19 octobre 2026",
-      "checked_at": "2026-10-26T20:37:48+01:00",
+      "checked_at": "2026-10-27T02:05:30+01:00",
       "visual": "MIAMI IRL",
-      "evidence": "Publication originale vérifiée dans son intégration X : auteur Joel Franco, vidéo de 26 secondes datée du 19 octobre. Également relayée par Creative Bloq.",
+      "evidence": "Vidéo originale de 26 secondes visible dans l’intégration X, datée du 19 octobre. Relevé direct le 2026-10-27T02:05:30+01:00 : 2,5 k mentions J’aime (affichage arrondi) et 36 réponses. Corroboration Creative Bloq ; aucun nombre de vues vérifié.",
       "corroboration": "https://www.creativebloq.com/news/gta-6-unleashes-saucy-ads-on-the-streets-of-miami",
       "image": "https://gtavifrance.com/assets/img/articles/2026-10-20-pubs-crues-miami-weazel-pfister-gta6.jpg?v=99e993ef",
       "image_alt": "Publicités GTA VI à Miami",
@@ -48,9 +48,9 @@
       "author": "Travis Scott · @travisscott",
       "status": "Rapporté",
       "published_at": "15 septembre 2026 · archive",
-      "checked_at": "2026-10-26T20:37:26+01:00",
+      "checked_at": "2026-10-27T02:05:30+01:00",
       "visual": "LA BANDE-SON",
-      "evidence": "Source liée : reportage Mixmag du 16 septembre. Instagram refuse ici la lecture directe ; statistiques non vérifiées.",
+      "evidence": "Publication originale et image visibles dans l’intégration Instagram. Relevé direct le 2026-10-27T02:05:30+01:00 : 3 185 086 mentions J’aime affichées. Archive du 15 septembre, corroborée par Mixmag ; ce chiffre n’est pas un nombre de vues.",
       "image": "https://gtavifrance.com/assets/img/articles/2026-10-24-amazon-pack-vinyle-gta6-the-album-34-titres.jpg?v=378984fd",
       "image_alt": "GTA VI : The Album",
       "image_credit": "Illustration : GTA VI, The Album",
@@ -85,9 +85,9 @@
       "author": "Rockstar Games · @rockstargames",
       "status": "Officiel",
       "published_at": "15 octobre 2026",
-      "checked_at": "2026-10-26T20:25:02+01:00",
+      "checked_at": "2026-10-27T02:05:30+01:00",
       "visual": "TRAILER",
-      "evidence": "Sélection de départ · popularité non mesurée. Présence et date vérifiées sur le site officiel GTA VI.",
+      "evidence": "Publication vidéo Rockstar visible dans l’intégration Instagram. Relevé direct le 2026-10-27T02:05:30+01:00 : 3 231 223 mentions J’aime affichées. La lecture Instagram peut demander une ouverture sur le réseau ; aucune vue vidéo déduite de ce compteur.",
       "image": "https://gtavifrance.com/assets/img/rockstar/jason.jpg",
       "image_alt": "Jason dans GTA VI",
       "image_credit": "Illustration officielle : Rockstar Games",
@@ -174,7 +174,7 @@
     {
       "at": "2026-10-27T02:04:30+01:00",
       "label": "Veille de nuit · archive virale documentée",
-      "summary": "Ajout du premier trailer officiel en archive : record de plus de 90 millions de vues en 24 heures établi par Guinness en décembre 2023. Vidéo originale retrouvée dans la source Guinness et intégrée avec lecteur YouTube et lien de secours. Le compteur historique est explicitement distingué des vues actuelles. Recherches de nouveautés sociales : aucun autre sujet suffisamment vérifié retenu."
+      "summary": "Ajout du premier trailer officiel en archive : record de plus de 90 millions de vues en 24 heures établi par Guinness en décembre 2023. Vidéo originale retrouvée dans la source Guinness et intégrée avec lecteur YouTube et lien de secours. Le compteur historique est explicitement distingué des vues actuelles. Recherches de nouveautés sociales : aucun autre sujet suffisamment vérifié retenu. Contrôle du rendu : lecteur YouTube lancé ; compteurs natifs Instagram relevés pour Travis Scott (3 185 086 J’aime) et Rockstar (3 231 223 J’aime), avec horodatage dans les fiches."
     }
   ],
   "coverage": {
