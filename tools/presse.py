@@ -52,9 +52,11 @@ def article(u):
 def main():
     ancien = {}
     if SORTIE.exists():
-        try: ancien = {x["gn"]: x for x in json.loads(SORTIE.read_text()) if x.get("gn")}
+        try:
+            _d = json.loads(SORTIE.read_text())   # 28/10 : le fichier est {"maj", "articles"} ; le lire comme liste vidait le cache → 429 Google News
+            ancien = {x["gn"]: x for x in (_d["articles"] if isinstance(_d, dict) else _d) if x.get("gn")}
         except Exception: ancien = {}
-    items, vus = [], set()
+    items, vus, bloque = [], set(), False   # bloque : au premier 429 Google News, on n'insiste plus pendant ce passage
     # flux général GTA 6 + veille dédiée Cyberleek (sujet qui amène le trafic, 14/10/2026)
     import update as _u
     for lang, q in (("fr", None), ("en", None), ("fr", "Cyberleek"), ("en", "Cyberleek"), ("en", '"GTA 6" leak'), ("fr", "fuite GTA 6")):
@@ -70,10 +72,11 @@ def main():
             else:
                 x = {"gn": it["u"], "s": it["s"], "d": it["d"], "lang": lang, "t": it["t"]}
                 try:
+                    if bloque and "news.google.com" in it["u"]: raise Exception("429 : passage suivant")
                     reel = gnews_resoudre(it["u"]) if "news.google.com" in it["u"] else it["u"]
                     x.update(article(reel)); x["t"] = x["t"] or it["t"]
                 except Exception as e:
-                    x["erreur"] = str(e)[:120]
+                    x["erreur"] = str(e)[:120]; bloque = bloque or "429" in str(e)
             x["lang"] = lang
             if q or "cyberleek" in (x.get("t", "") + x.get("chapeau", "")).lower(): x["cyberleek"] = True
             if x.get("u", x["gn"]) in vus: continue
