@@ -131,7 +131,10 @@ end timeout''')
 def main():
     hasard(8 if slot == "chaud" else 55)
     if gel_actif(): log("gel en cours (" + GEL.read_text() + "), rien publié"); return
-    r = subprocess.run(["ssh", "-o", "ConnectTimeout=20", SERVEUR, f"cd /var/www/gtavifrance && python3 tools/x_routine.py {slot} --json"],
+    # 28/10 Gabriel : la nuit, X ne réagit que pour une très grosse info (urgence.py, mode nuit strict, pose urgence_nuit.json)
+    U = Path.home() / "La Soso/outils/solange-api/urgence_nuit.json"
+    urg = " --urgence" if slot == "chaud" and U.exists() and time.time() - U.stat().st_mtime < 3 * 3600 else ""
+    r = subprocess.run(["ssh", "-o", "ConnectTimeout=20", SERVEUR, f"cd /var/www/gtavifrance && python3 tools/x_routine.py {slot} --json{urg}"],
                        capture_output=True, text=True, timeout=120)
     if not r.stdout.strip().startswith("{"): log("rien à poster (" + (r.stdout.strip() or r.stderr.strip())[:120] + ")"); return
     p = json.loads(r.stdout)
