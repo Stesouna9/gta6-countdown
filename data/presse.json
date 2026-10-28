@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-28T06:30:13+00:00",
+ "maj": "2026-10-28T06:38:06+00:00",
  "articles": [
   {
    "gn": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOdlVuOWM1R1hqczhBdGI5eEVLLXdQS2FWOEFqSFN5cFNSOTlETW9ENHQwU0ZrdnJFVUg4cE1MdWN6ZWlQU3BOQUxERVB0amMtazFOS2dzTlc1SE43cFBoa1FuRmdhaGpyRVVaUDR5eng4N3I5TElnYXlfSHZrTHZIdjZlSFhiZFBzNEJFZDFaNkl5eUhFckNRZVdUSm1OQjRGZmFZaWwtcHhobVZ3aXE2M0VlNHFweUJJTDU4WjhpRzNCdWlIMDFwcm1hNENmdnhfWnhERFVB?oc=5",
@@ -227,14 +227,6 @@
    "erreur": "HTTP Error 429: Too Many Requests"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMifkFVX3lxTE51NjBXVDhtT3dDM1lfUU9tYkhLVHNncjhsQXhMSDFDdlNQME00dXVFNmlmZXdXWVZ2Uml4clJ1a3NORFpOeUpsdUVhTWFLLW82cUxNZ1FVOEQ5em9wTFh4NWVOUVk3bHhTRTJ6M2NjVVZNa3N3X2stZnphUklIUQ?oc=5",
-   "s": "KultureGeek",
-   "d": "2026-10-27T19:22:00+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : le poids du jeu révélé, un record pour Rockstar",
-   "erreur": "HTTP Error 429: Too Many Requests"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQ2diV255VTd3ak1ibk1iOUlGZUphVmZOQl9aZXpieENaNm03aDc4ZkVvcHRneUV0djMybHpJZ0xJdUMtdF92UUQ0UHBxeUFXYVVyMlA0X1V0T1JYcnhvRmk0VTBYbGlaVEh0eVdOYzl6QkZTZTBiSE9vZUVOTV9oQUxDMTNCMlVBRFhIMi00eE1QZHl5LTNnOTNmV0ZXWnZBVC1EU0V3?oc=5",
    "s": "4WeAreGamers",
    "d": "2026-10-27T19:07:35+00:00",
@@ -248,6 +240,14 @@
    "d": "2026-10-27T19:06:13+00:00",
    "lang": "fr",
    "t": "La taille de GTA 6 sur PlayStation 5 révélée — 210 Go",
+   "erreur": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQeUhnb2xjeDAyaUZ3Y19VeDF0SEV0cjU4bnkwRENiN3hLWU1rNjFEX1VHVkdhazhuZ1B3MEdZa3A2dHA5X0cyQkF2SGR0UTBDcVQ5RFBTVnBJbkduTDc5NWtVaVFoNmxIVHdXOFZBZ2d0Nm8yUnprSUljT24xWWs3eTZ2OFhDUXRZNTBF?oc=5",
+   "s": "Journal du Geek",
+   "d": "2026-10-27T18:32:11+00:00",
+   "lang": "fr",
+   "t": "On a classé les jeux GTA du meilleur au pire",
    "erreur": "HTTP Error 429: Too Many Requests"
   },
   {
@@ -359,15 +359,6 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdzR0V2JHOHlfU0llMjA3UnUycTNhaVZ0OGtCckx2LVZjR3gyaHBnLUdnbEZ0R1dVQnBOUm5KUWxjbDNNZ19BT2oyRlNfbmhtUmxNTXBLSTVVZ0xkcHJQLVRpcUIyMUZFdmIxLW93RWREXzVqUFc4b01pQkNMUzE2ejN5VDNOV0Vy?oc=5",
-   "s": "BlogNT",
-   "d": "2026-10-25T15:22:34+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : fuite massive de 25 minutes de gameplay",
-   "erreur": "HTTP Error 429: Too Many Requests",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWFZRaGUtTk9zWElMZzBWc1NrcmYyTmJjVDJEenZUcDl4U0ZyMklrckdrUnNUT1BxNlpWMkd4Qjk3alc2TXpvSDBLeHktVEtGTzdTM2tMQThBaGp1d2RlZFlUSjFPa1M3VTBqSldhOVRGOFV3bmh4VzNFVWx1WUxqTkxUR2U4Zjc3?oc=5",
    "s": "https://tech-insider.org/",
    "d": "2026-10-25T08:30:21+00:00",
@@ -440,6 +431,24 @@
    "cyberleek": true
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMncyZlRpUEFHaS1ScjFKYXNRTExybXprc1VZdnRlRFNVWUlPWGd3UnpwNWozUHdOLWhWSDdkc0FyNU5zdTVqZFBQZ1NyMDFmMlUycDlwZURxX203dHdlaHlyME9EQkxDRkduU1JwTDI5eE1RaXJ4OE8xS3RtalpDckNvS3VkMEd5cTRmTEtLdnNvMl9QT2hibDFuQXdDS3Z2aWk4S3BsQThWZHM?oc=5",
+   "s": "Softonic",
+   "d": "2026-10-21T11:56:00+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : un employé dit avoir été licencié après une fuite sur TikTok à Miami",
+   "erreur": "HTTP Error 429: Too Many Requests",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMilgJBVV95cUxObmU1LTV5dGVhYWFaYzAwVDBvc1BnMDBzbkJ4SDB2d2t5a0tqMS1PaDlWY09WazVCRWtoYVF2SWF6SHVDQ0ZVNFMxVFlkWFhkN0RMbnFYYU9LejVyZUs3Rmw0eEdsVmkwNDRrSlJ3cWY0ZGwxU2Nxd21ya0RoLTRWZ3ZOSGZFenN2UGQzazJtVjRNV2hsa0Y4VUVkWlNjZUhzeTdzLXlCNTVOLVBXc1VpODNqSnZPYkxjZEpjRkFBVXBaallQYi1tT1VhaEtXU0FtTDVQZGJXSFI2N2NkbnZsRUw1dlhBX3J2dHllV0ZxZ1lOS181RDZNYVYyWGd1V245WHF6aUhiSGZZdGtmTy1JeWllNHoyUQ?oc=5",
+   "s": "La Crème Du Gaming",
+   "d": "2026-10-21T10:30:25+00:00",
+   "lang": "fr",
+   "t": "Cyberpunk 2077 : une fuite sur la mise à jour 2.5 révèle une fonctionnalité que les joueurs PS5 et Xbox attendent depuis 6 ans",
+   "erreur": "HTTP Error 429: Too Many Requests",
+   "cyberleek": true
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeUJxeEk5dHZzM3g5aEZlU3NubEk3VUt2aVBFVUwwTlBvVmhNNkd4ZEZtN1doa0dxamd6Y1ZuWmVucGxxaURvSzJkeFRJdjFnMWRmVFhNSzVRT2xxVG5ZT2hLQVh6LWNqSjQzVnNCX3lUd3A2UUI5YU9VX0RYRFE2RUxnQV85a09QLTVhX1dfbWd0NEl1WXpIaUFwcXVtM3VKU2MtUGVOdmRBUjlXa0JpTWZvWThXV00?oc=5",
    "s": "MMOEXP",
    "d": "2026-10-21T01:52:15+00:00",
@@ -449,29 +458,11 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVExYYWpJaDR5czdHdFRhY3ZHTDR0V3JDb2pEamQ0OFAtUkJOT2hLSzZUd0w1QVBhNUh3bHZwRU9Fa2ZiRm5pSEdzZkU3ZUpCQUtQbTA4SjIwSmdUamVUZlVPcmE0QkVVMHFQQ1JkRS1CZjhJdERWZTNBRUFGZ1FpYURsNHE4QQ?oc=5",
-   "s": "Big N",
-   "d": "2026-10-20T08:43:31+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : une nouvelle fuite massive dévoile 25 minutes de gameplay avec nudité frontale et menu développeur",
-   "erreur": "HTTP Error 429: Too Many Requests",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9vaEs4SzBzUnNUaEM1Y090U293a0IzOW9zN2J4N055d1o1dU9tT1RSb0J0NmZEblVFVTkwb1NtajBNS2VTS085dzE5VDJoM1A0LU9XMnRHVVhxUzhIVEdsR2tGQlNWWDJWckJwbEVLajR6VC1kSm90SWtR?oc=5",
    "s": "shattered.io",
    "d": "2026-10-17T07:00:00+00:00",
    "lang": "en",
    "t": "GTA 6 Leaker Cyberleek Is Back as Coin Hits $1.2M [2026]",
-   "erreur": "HTTP Error 429: Too Many Requests",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYW9hZTQ0emVQTDdQdzRiZFBaZ25ma0EtenFKN1lMZElkTng1TnA0Z2FsREcxZnlCNDhvZ0RCTmJzVWNRVmdjN01jNzV2bzQ5eWQwODFOZm5IcUE3Zm81a1pMOWpsSldyLUtpbXF4LXB1a0FxVmtwTEg0VXJrUThqUmVmT05VenR2ZU51Yk9LRXdsMENFSUZJbUlrSmNtQQ?oc=5",
-   "s": "Begeek",
-   "d": "2026-10-17T07:00:00+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : une carte collector serait incluse dans les éditions physiques",
    "erreur": "HTTP Error 429: Too Many Requests",
    "cyberleek": true
   },
@@ -575,11 +566,11 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPdlJtN2NkREljZHhQQ2JKN1ozQ2JZa3EwbV9teVZyYnpPaEJBZXRlWG16OGNLZjVPcXZ3V1R2bk9Dd2dua0M1b2s5dTFGSWRnbDEybkllSU5NTzdTN085ZWlJVDkyeTJSbGtFbWRXUDFrYzRDTVpuNTRZTDZ3amItSTVGcWFacE5sZWRXUGxZUWFabDdyRHhmdDNKd1JjRTRFZGJMZ081Q2N4UW9OU2lleFFaSU9EaVRFRm53YzlWSXZMQy1vaDBoMHBWeWpKdW0xWEJKT1c2LS1YLWZsRWRURVQ0aW51N0VoaE52bFVtd3VrTEt0YkE?oc=5",
-   "s": "Notebookcheck.fr",
-   "d": "2026-10-15T07:00:00+00:00",
-   "lang": "fr",
-   "t": "Les exemplaires de test de GTA 6 seraient envoyés plus de 3 semaines avant la date de sortie, malgré le risque de fuite",
+   "gn": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNODc2RXdOR1ZPNGdsQm9xUk1XUTJlOGo4UHI4WkVOcFJWOHNGMTFBOWl0RWw1ajNnZnB5ZmVqUVg4U2RuTmJ2cUxhb1JmYkE0Mmx4ZkExVzA0clFENlQzYXlkV2VuUVg3MUFPcHAtY1pOUnRyeHRxekx4bk5hZ25zbzB2SXNPcXpjd3NLV1pn?oc=5",
+   "s": "Mashable",
+   "d": "2026-10-14T19:48:41+00:00",
+   "lang": "en",
+   "t": "GTA 6 Cyberleek update: Leaker linked GTA 6 reveals to crypto play. It’s crashing spectacularly.",
    "erreur": "HTTP Error 429: Too Many Requests",
    "cyberleek": true
   },
@@ -598,6 +589,15 @@
    "d": "2026-10-14T15:31:42+00:00",
    "lang": "en",
    "t": "'GTA 6' file size leak: Cyberleek reveals eye-watering storage requirements",
+   "erreur": "HTTP Error 429: Too Many Requests",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdV9DY0V0LXFhZjBQOEYzckdORHlCQlY4OVpVNm1VTE1UOGpsanJPSmlQV0NOR2RGQmVfZ0ZFTnRpaXY1RHVTaVhSY05JdzVmaUVWakhNRG9HdUVVc1l2THBnWEJMckNjTWRnY2dJZEJaY3R1YVhMb1RtVVh4dlBhZ1lyYTh3ZkNtSFprNmxjSmQ2Ynk5V1hwUm03M1d4TEdpS3oxRHZFR28xc0hUblgyTjhKbktNdVVKdHNtbDJ1QVFVR3c?oc=5",
+   "s": "IGN France",
+   "d": "2026-10-14T07:00:00+00:00",
+   "lang": "fr",
+   "t": "La cryptomonnaie de Cyberleek chute brutalement et les fans de GTA 6 sont heureux",
    "erreur": "HTTP Error 429: Too Many Requests",
    "cyberleek": true
   }
