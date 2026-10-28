@@ -29,6 +29,7 @@ def candidats():
     return list(dict.fromkeys(vus))
 
 def main():
+    X.hasard(35, 0.15)   # 28/10 Gabriel : départ aléatoire, jamais pile à l'heure
     etat = json.loads(ETAT.read_text()) if ETAT.exists() else {"suivis": {}}
     jour = str(datetime.date.today())
     faits = sum(1 for d in etat["suivis"].values() if d == jour)

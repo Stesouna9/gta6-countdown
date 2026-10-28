@@ -118,6 +118,7 @@ def like(url):
 
 def main():
     n = int(next((x.split("=")[1] for x in sys.argv if x.startswith("--n=")), "1"))
+    n = random.randint(max(1, n - 1), n + 2) if "--essai" not in sys.argv else n   # 28/10 Gabriel : volume aléatoire aussi
     X.hasard(50, 0.2)
     if X.gel_actif(): X.log("gel en cours (" + X.GEL.read_text() + ")"); return
     etat = json.loads(ETAT.read_text()) if ETAT.exists() else {"posts": [], "reponses": []}

@@ -37,7 +37,8 @@ Donne seulement le texte.""", 400).strip().strip('"«» ')
 
 def main():
     n = int(next((x.split("=")[1] for x in sys.argv if x.startswith("--n=")), "5"))
-    X.hasard(50, 0.15)
+    n = random.randint(max(1, n - 2), n + 2) if "--essai" not in sys.argv else n   # 28/10 Gabriel : volume aléatoire aussi
+    X.hasard(25, 0.15)
     if X.gel_actif(): X.log("gel en cours (" + X.GEL.read_text() + ")"); return
     etat = json.loads(ETAT.read_text()) if ETAT.exists() else {"vus": [], "reponses": []}
     jour = datetime.date.today().isoformat()
