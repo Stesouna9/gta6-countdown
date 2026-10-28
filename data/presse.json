@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-28T00:18:54+00:00",
+ "maj": "2026-10-28T00:41:55+00:00",
  "articles": [
   {
    "gn": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1Cb19GUHRMSE83MlNxcGxraTVjT3RrNEZiSnphT19aakFRZWJ3RlIxeTRmRTQ0TG1ONkxVV1Q0ekNYMTVMN0hKNlJ2MVB3WWlSc283bF96aFJPVURTRGdmb2JwTHA1bmd5N3U3ZWFn?oc=5",
@@ -7,6 +7,14 @@
    "d": "2026-10-28T00:09:56+00:00",
    "lang": "en",
    "t": "5 Classic Vice City Locations That Could Return In GTA 6",
+   "erreur": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOU0d3bS1vYnA5N2Q0UnpVcTBZLVFZOEdWOEhsbVg4dVBNLWYzcldwYkVWbWdFNjI4X042c0RPbFpoU2VzQU5EQkxIVDNtejk4X2I3MFFSU2V4RXJwTE91eEpOX0RBNGN0NE9kQVMtWU9USl84RTRGdzRRQk9TUzVtQlRIanl5akFXZTEwckZDT0pPNjdVLWgybW5qSEtzYjJVTENMN05ndUlDZWRqSUtiLURETkc3RDlOZ0hyWG9SaThCWGgxMXZNN1BVc25NeXJjN1czQjE3bGtObmhvbXRF?oc=5",
+   "s": "GameGPU",
+   "d": "2026-10-27T23:27:08+00:00",
+   "lang": "fr",
+   "t": "Comparaison des caractéristiques techniques des versions PlayStation 5 et Xbox Series X de Grand Theft Auto VI",
    "erreur": "HTTP Error 429: Too Many Requests"
   },
   {
@@ -26,11 +34,27 @@
    "erreur": "HTTP Error 429: Too Many Requests"
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNUFZoSmlPRjBVaHdqd1ZtbnpoRE5xb0YxaUpmTHNOWUFiOVpRbGF2Tm9qMC0ybHBjRXNERmktSXIyYk9oYVd2UVdsOVNSajFzV0U0enhTb3hYT0FpdEFESUY5Y21zb3ZFWG5KNFpoYk1KMzB6cWVKVkVMam53RDRXUmtVWUN5QTVsQTcydVlpVGo4TXA4RE1FYUY5d05HLThyeVdZZ243QjJyQ25GWmtyRU85MU1LRkF5QjVudE5GMnVUYUg0Z29EcFlxalA?oc=5",
+   "s": "GameGPU",
+   "d": "2026-10-27T22:41:05+00:00",
+   "lang": "fr",
+   "t": "Le volume de distribution de Grand Theft Auto VI sera deux fois plus important au lancement. Red Dead Redemption 2",
+   "erreur": "HTTP Error 429: Too Many Requests"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9Sa0ZVaHFXc2V5dnplLS11M3h6Ync4b1cwaXVVTmh6VHg4YVV3U3VaOHE2dVFkMGpKcUFhUVB3SEF2U1g4VWZsWlE0OWp1a3o4NU1faTliX0tLT2hqWXQ2SkJRdFAxNnV0M3JUT1o2Q0s?oc=5",
    "s": "big-n.fr",
    "d": "2026-10-27T22:29:53+00:00",
    "lang": "fr",
    "t": "Rockstar : un vote syndical historique pendant la sortie de GTA 6",
+   "erreur": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMisAFBVV95cUxORDhiODJDWTlpaFFxYzdxb18ySXhLYW0zQndlc1lmd3Byb3RDd3lDd0U0eTlJQ0Fkd2NSRUQ0bm9DSGl5Qk5DX2FVSXBDNUFkbHVFX3ZEcWJkRkdVZnhWLWZFX3ZBd1BNQUxKc0VaTUxyY0luV3FmZ3B1dk5tY1ZrRVVfZ21mTzBZOUJZNi04Uzdzc1JySFdYQVdKZ21YcGZCS2VWMHk2cmxhVlRJdGZfeA?oc=5",
+   "s": "GameGPU",
+   "d": "2026-10-27T22:28:47+00:00",
+   "lang": "fr",
+   "t": "Grand Theft Auto VI fait la couverture du nouveau numéro spécial du magazine Edge.",
    "erreur": "HTTP Error 429: Too Many Requests"
   },
   {
@@ -126,7 +150,7 @@
    "s": "GTA BOOM",
    "d": "2026-10-27T20:18:41+00:00",
    "lang": "en",
-   "t": "GTA 6 Is Reportedly a 210 GB Download on PS5",
+   "t": "GTA 6 Reportedly Needs a Massive 210 GB Download on PS5",
    "erreur": "HTTP Error 429: Too Many Requests"
   },
   {
@@ -233,30 +257,6 @@
    "d": "2026-10-27T17:56:37+00:00",
    "lang": "fr",
    "t": "GTA VI va être un MONSTRE sur PS5 ! Faites de la place !!!",
-   "erreur": "HTTP Error 429: Too Many Requests"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4zM1hyMFVyNUpCVVFuc3NydVU3WVdwbEtBTjQ3U2Q0bEg5YVkzT2w3Q0RkMnF1RnpQdVhBU0YwRFVlc284cmN5clhsVjN5YTFWTGtxUDd4eUJkS29GSlc4LU1KanktTWdUSUZr?oc=5",
-   "s": "big-n.fr",
-   "d": "2026-10-27T17:50:15+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : le jeu pèserait environ 210 Go sur PS5, préparez votre stockage",
-   "erreur": "HTTP Error 429: Too Many Requests"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5iY3pscHJ4RWR3blh6ejhWZU1WMXo4cWxYTXh0VkxCbG9LZk5GMk1oUFZHUVpBNnVldUF3VDdjZnpFMUFiVGxVTjNmaHNESG9ZbGNDY3FvbkJac3VTaG96ZjJYSkduOExQR0tlOUt3SkFvYkRCU2c?oc=5",
-   "s": "ActuGaming",
-   "d": "2026-10-27T17:46:53+00:00",
-   "lang": "fr",
-   "t": "GTA 6 devrait peser environ 210 GB sur PlayStation 5",
-   "erreur": "HTTP Error 429: Too Many Requests"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPcUIxdGdpbEI2Tzh3RVFJRGhVLWpkUkZyZi1uWVpnUmVOQmw2S2pKbnkwTFI2M2Qza0l0ZzhCTVNSVERkdXZsdEVaTEEwdGxDcnpnU2c2cGYwTElWZ3hZMVFnNGNTNmdmYzRudmVfOVZTQjhNRFRwcE9lV05EaW0zVXJPajhiNTNwS0E?oc=5",
-   "s": "Pasquale Pillitteri",
-   "d": "2026-10-27T17:27:34+00:00",
-   "lang": "fr",
-   "t": "GTA 6 preload, date, heure et espace disque à prévoir",
    "erreur": "HTTP Error 429: Too Many Requests"
   },
   {
@@ -503,6 +503,15 @@
    "cyberleek": true
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNEM5SnF0cGttbjdaLV9ERWdDZWc2ODZBUVg5VmVtWV9PZ2hHZ1FsMk53SFBVRl9EbnNzaWhLa3lnZl8ydk5tbmxQbUZkYnYxN1FtS3RHQ056ZGZ6SzNfcm16ZTFRQUVLQ1FtRldhc19jWkt3RXMtRGJ2RjFnMlZkVkJVRDJKTEVsTlI4eHhLcmJTMFM4dFpXZHhQLURaRXk0eDNoVWdIQUxWLUxi?oc=5",
+   "s": "games.gg",
+   "d": "2026-10-16T07:00:00+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : Rockstar aurait glissé un message à Cyberleek",
+   "erreur": "HTTP Error 429: Too Many Requests",
+   "cyberleek": true
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPTGRrX1dzN0JRUVlKSnhleHJ5RDFQWFNVTFRWa08zYXBLWXg1RjBHSkdUMWZ0MEFnUGthc0pBRXp3b0RvZjJrME5US2NCWVRCR1ZnMGdrOVd1M1cxTnlTVDBBSlo0Z2N2R2dRQVV4X0MtNTFJdnl5cUtQYjFwZkFWMkRpbXU2dw?oc=5",
    "s": "Root-Nation.com",
    "d": "2026-10-15T11:39:24+00:00",
@@ -589,15 +598,6 @@
    "d": "2026-10-14T15:34:16+00:00",
    "lang": "en",
    "t": "Cyberleek says the 'GTA 6' leaks are over and warns of 'dead man's switch'",
-   "erreur": "HTTP Error 429: Too Many Requests",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5UZlVkNWtTSUE4ZXo2TFNHTktrNVV0MVBRUlZPRl95bmJoWVV2aDNZdXdKU0N3eEdCdGp2Nm1lbndLdDRsV3k3SHVZQWctQXVZc3Z1MUlySXpVVGd5b0hrWDJPczJsbGc?oc=5",
-   "s": "Mashable",
-   "d": "2026-10-14T15:31:42+00:00",
-   "lang": "en",
-   "t": "'GTA 6' file size leak: Cyberleek reveals eye-watering storage requirements",
    "erreur": "HTTP Error 429: Too Many Requests",
    "cyberleek": true
   }
