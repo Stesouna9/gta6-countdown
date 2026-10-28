@@ -168,7 +168,7 @@ def main():
         if slot == "chaud":   # 27/10 Gabriel : lien total site → X : chaque nouvel article de Solange part sur X dans la demi-heure (5 par jour max, 8 h-23 h)
             h = datetime.datetime.now(ZoneInfo("Europe/Paris")).replace(tzinfo=None)   # 28/10 : le serveur est en UTC, le créneau 8 h-23 h est à l'heure de Paris
             faits = sum(1 for x in etat["journal"] if x.get("slot") == "chaud" and x["quand"][:10] == str(h.date()))
-            if not 8 <= h.hour < 23 or faits >= 5: print(f"chaud : hors créneau ou quota ({faits}/5)"); return
+            if not 7 <= h.hour < 24 or faits >= 12: print(f"chaud : hors créneau ou quota ({faits}/12)"); return   # 28/10 Gabriel : « dès qu'il y a des infos, au taquet »
             seuil = (h - datetime.timedelta(hours=3)).isoformat()[:16]
             cands = [a for a in arts if "cyberleek" not in a["id"] and a["id"] not in etat["postes"] and a.get("date", "")[:16] >= seuil
                      and isinstance(a.get("fr"), dict) and image_article(a)][:1]
