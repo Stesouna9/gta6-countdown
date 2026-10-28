@@ -18,8 +18,19 @@ ESSAI = "--essai" in sys.argv
 def log(m):
     print(f"{datetime.datetime.now():%Y-%m-%d %H:%M} {slot} : {m}", flush=True)
 
-def osa(script):
-    r = subprocess.run(["osascript", "-"], input=script, capture_output=True, text=True, timeout=120)
+def relance_chrome():
+    """28/10 : Chrome se fige parfois pour AppleScript (fenêtre fantôme) ; on le relance en arrière-plan, sans le mettre devant."""
+    subprocess.run(["pkill", "-TERM", "-x", "Google Chrome"]); time.sleep(8)
+    subprocess.run(["pkill", "-KILL", "-x", "Google Chrome"]); time.sleep(2)
+    subprocess.run(["open", "-g", "-a", "Google Chrome", "https://x.com/home"]); time.sleep(25)
+
+def osa(script, _relance=True):
+    try:
+        r = subprocess.run(["osascript", "-"], input=script, capture_output=True, text=True, timeout=120)
+    except subprocess.TimeoutExpired:
+        if not _relance or "Google Chrome" not in script: raise
+        log("Chrome figé : relance"); relance_chrome(); ONGLET.clear()
+        return osa(script, False)
     if r.returncode: raise RuntimeError(r.stderr.strip()[:300])
     return r.stdout.strip()
 
