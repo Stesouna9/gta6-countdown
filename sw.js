@@ -1,11 +1,14 @@
 // Mode hors ligne minimal : réseau d'abord, copie en cache si pas de connexion.
-var C = "vi-v2";
+var C = "vi-v3";   // 28/10 : v3 vide l'ancien cache (pages d'actus figées sur iPhone)
 self.addEventListener("install", function (e) { self.skipWaiting(); });
-self.addEventListener("activate", function (e) { e.waitUntil(self.clients.claim()); });
+self.addEventListener("activate", function (e) {
+  e.waitUntil(caches.keys().then(function (l) { return Promise.all(l.filter(function (k) { return k !== C; }).map(function (k) { return caches.delete(k); })); }).then(function () { return self.clients.claim(); }));
+});
 self.addEventListener("fetch", function (e) {
   var r = e.request;
   if (r.method !== "GET" || new URL(r.url).origin !== location.origin) return;
-  e.respondWith(fetch(r).then(function (res) {
+  // pages : toujours le serveur (cache HTTP court-circuité), la copie ne sert que hors connexion
+  e.respondWith(fetch(r.mode === "navigate" ? new Request(r.url, { cache: "no-store", credentials: "same-origin" }) : r).then(function (res) {
     if (res.ok) { var c = res.clone(); caches.open(C).then(function (k) { k.put(r, c); }); }
     return res;
   }).catch(function () { return caches.match(r); }));
