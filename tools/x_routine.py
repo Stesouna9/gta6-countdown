@@ -8,6 +8,7 @@ Jamais deux fois le même article (x_routine_etat.json). Clés : /etc/gtavifranc
 X_ACCESS_TOKEN, X_ACCESS_SECRET). Crédits API nécessaires (carte ajoutée par Gabriel dans console.x.com).
 Usage : python3 tools/x_routine.py actu|site|cyberleek|top [--sec | --json | --marque <cle> <id>]
 (--json : le post préparé pour tools/x_chrome.py, qui publie depuis le Chrome du Mac de Gabriel, sans API)   (--sec : affiche le post sans publier)"""
+from zoneinfo import ZoneInfo
 import base64, datetime, hashlib, hmac, io, json, os, re, secrets, sys, time, urllib.parse, urllib.request, uuid
 from pathlib import Path
 
@@ -165,7 +166,7 @@ def main():
         cands = [a for a in arts if (slot == "top" or ("cyberleek" in a["id"]) == cyb) and a["id"] not in etat["postes"]
                  and isinstance(a.get("fr"), dict) and image_article(a)][:40 if slot == "top" else 5]
         if slot == "chaud":   # 27/10 Gabriel : lien total site → X : chaque nouvel article de Solange part sur X dans la demi-heure (5 par jour max, 8 h-23 h)
-            h = datetime.datetime.now()
+            h = datetime.datetime.now(ZoneInfo("Europe/Paris")).replace(tzinfo=None)   # 28/10 : le serveur est en UTC, le créneau 8 h-23 h est à l'heure de Paris
             faits = sum(1 for x in etat["journal"] if x.get("slot") == "chaud" and x["quand"][:10] == str(h.date()))
             if not 8 <= h.hour < 23 or faits >= 5: print(f"chaud : hors créneau ou quota ({faits}/5)"); return
             seuil = (h - datetime.timedelta(hours=3)).isoformat()[:16]
