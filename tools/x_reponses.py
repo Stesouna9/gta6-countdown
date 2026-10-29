@@ -14,7 +14,9 @@ RACINE = Path(__file__).resolve().parent.parent
 ETAT = Path.home() / ".config/gtavifrance/x_reponses.json"
 ESSAI = "--essai" in sys.argv
 X.slot = "reponse"
-RECHERCHES = [("from:RockstarGames", "fr"), ("(GTA 6 OR GTA VI OR GTA6) lang:fr min_faves:100 -filter:replies", "fr"), ("(GTA 6 OR GTA VI OR GTA6 OR Leonida) lang:fr min_faves:20 -filter:replies", "fr"),
+# 29/10 Gabriel : « faut les taquiner avec bienveillance » : Vice Central et GTA 6 Hub (confrères fans), prioritaires, 1 réponse/jour max chacun
+RIVAUX = {"vicecentralfr", "gta6hubfr"}
+RECHERCHES = [("(from:vicecentralFR OR from:gta6hubfr) -filter:replies", "fr"), ("from:RockstarGames", "fr"), ("(GTA 6 OR GTA VI OR GTA6) lang:fr min_faves:100 -filter:replies", "fr"), ("(GTA 6 OR GTA VI OR GTA6 OR Leonida) lang:fr min_faves:20 -filter:replies", "fr"),
               ("(GTA 6 OR GTA VI OR GTA6) lang:en min_faves:2000 -filter:replies", "en"), ("(GTA 6 OR GTA VI OR GTA6) lang:en min_faves:500 -filter:replies", "en")]
 # 27/10 Gabriel : viser les posts qui ont déjà beaucoup de vues et de réactions (gros comptes) ; candidats triés par réactions   # 17/10 : + gros posts anglais (réponse en anglais)
 GENERIQUES = {"gta 6", "gta vi", "gta", "rockstar", "rockstar games", "take-two", "ps5", "xbox", "trailer", "vice city", "leonida", "jason", "lucia", "jason duval", "lucia caminos", "gta v", "grand theft auto", "trailer 3", "launch trailer", "playstation", "rockstargames", "sortie", "date de sortie", "release", "release date", "bande-annonce", "rumeur", "officiel", "annonce", "précommande", "pre-order", "gameplay", "carte", "map"}
@@ -61,7 +63,7 @@ def choisit(posts, etat, n):
     maintenant = datetime.datetime.now(datetime.timezone.utc)
     deja = {r["auteur"] for r in etat["reponses"] if r["quand"][:10] == str(datetime.date.today())}
     choix = []
-    for p in sorted(posts, key=lambda p: -p.get("score", 0)):   # les plus gros d'abord
+    for p in sorted(posts, key=lambda p: (p["auteur"].lower() not in RIVAUX, -p.get("score", 0))):   # confrères taquinés d'abord, puis les plus gros
         if len(choix) >= n: break
         if not p["url"] or p["url"] in etat["posts"] or p["auteur"].lower() in ("gtafance", "gtavifrancecom") or p["auteur"] in deja or len(p["texte"]) < 25: continue
         try: age = (maintenant - datetime.datetime.fromisoformat(p["quand"].replace("Z", "+00:00"))).total_seconds() / 3600
@@ -79,11 +81,15 @@ def choisit(posts, etat, n):
 def texte(p, a, lien):
     """Réponse écrite pour CE post (24/10 : IA, plus de phrase toute faite). Renvoie '' si mieux vaut se taire."""
     lg = p.get("lg", "fr")
+    taquin = p["auteur"].lower() in RIVAUX
+    if taquin: a = None
+    regle = ("C'est un confrère fan (média GTA 6 français concurrent) : taquine-le avec bienveillance, clin d'œil complice entre passionnés, humour léger, jamais méchant, jamais dénigrant, jamais de critique de son travail, pas de pub pour nous. "
+             "Même si c'est un concours, réponds par une petite taquinerie sympa (sans participer ni demander à gagner). Ne réponds PASSER que si le post est triste, politique ou polémique.\n") if taquin else ""
     info = f"Notre article sur le sujet : « {a['fr']['t']} » : {a['fr']['d']}" if a else "Pas d'article précis : réponds avec ce que tout fan sait (sortie le 19/11/2026 sur PS5 et Xbox Series, Vice City, Leonida, Jason et Lucia)."
     r = X.ia(f"""{X.aujourdhui()} Tu es le community manager de GTAVIFRANCE (@gtavifrancecom), média fan de GTA 6 en français. Écris UNE réponse au post X ci-dessous.
 Post de @{p['auteur']} : « {p['texte'][:600]} »
 {info}
-Règles : en {'français' if lg == 'fr' else 'anglais'}, 1 ou 2 phrases, ne rappelle la date et les consoles que si le post en parle, 240 caractères max, ton naturel de passionné (pas de pub, pas de « nous » corporate), répondre vraiment à ce que dit la personne, apporter une info ou un avis, 0 ou 1 emoji, pas de hashtag, pas de lien, rien d'inventé.
+{regle}Règles : en {'français' if lg == 'fr' else 'anglais'}, 1 ou 2 phrases, ne rappelle la date et les consoles que si le post en parle, 240 caractères max, ton naturel de passionné (pas de pub, pas de « nous » corporate), répondre vraiment à ce que dit la personne, apporter une info ou un avis, 0 ou 1 emoji, pas de hashtag, pas de lien, rien d'inventé.
 Si le post est une blague sans rapport, de la politique, une insulte, un concours ou une arnaque, ou si tu n'as rien d'utile à ajouter, réponds exactement : PASSER
 Donne seulement le texte de la réponse.""")
     r = r.strip().strip('"«» ')
