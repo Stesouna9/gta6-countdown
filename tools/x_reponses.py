@@ -16,9 +16,9 @@ ESSAI = "--essai" in sys.argv
 X.slot = "reponse"
 # 29/10 Gabriel : « faut les taquiner avec bienveillance » : Vice Central et GTA 6 Hub (confrères fans), prioritaires, 1 réponse/jour max chacun
 # 29/10 bis : « tous les comptes FR qui parlent de GTA, ceux qui sont comme nous » : liste connue + tout compte FR dont le pseudo dit GTA/Rockstar/Leonida/Vice
-RIVAUX = {"vicecentralfr", "gta6hubfr", "rockstarnewsfra", "gta6france1"}
-def confrere(p): a = p["auteur"].lower(); return a in RIVAUX or (p.get("lg") == "fr" and a not in ("rockstargames", "gtafance", "gtavifrancecom") and re.search(r"gta|rockstar|leonida|vicecity|vice_?city", a) is not None)
-RECHERCHES = [("(from:vicecentralFR OR from:gta6hubfr OR from:RockstarNewsFRA OR from:GTA6France1) -filter:replies", "fr"), ("from:RockstarGames", "fr"), ("(GTA 6 OR GTA VI OR GTA6) lang:fr min_faves:100 -filter:replies", "fr"), ("(GTA 6 OR GTA VI OR GTA6 OR Leonida) lang:fr min_faves:20 -filter:replies", "fr"),
+RIVAUX = {"vicecentralfr", "gta6hubfr", "rockstarnewsfra", "gta6france1", "gtasix_"}   # 29/10 ter : + comptes fans anglais (« même cela en anglais »)
+def confrere(p): a = p["auteur"].lower(); return a in RIVAUX or (a not in ("rockstargames", "gtafance", "gtavifrancecom") and re.search(r"gta|rockstar|leonida|vicecity|vice_?city", a) is not None)
+RECHERCHES = [("(from:vicecentralFR OR from:gta6hubfr OR from:RockstarNewsFRA OR from:GTA6France1) -filter:replies", "fr"), ("from:gtasix_ -filter:replies", "en"), ("from:RockstarGames", "fr"), ("(GTA 6 OR GTA VI OR GTA6) lang:fr min_faves:100 -filter:replies", "fr"), ("(GTA 6 OR GTA VI OR GTA6 OR Leonida) lang:fr min_faves:20 -filter:replies", "fr"),
               ("(GTA 6 OR GTA VI OR GTA6) lang:en min_faves:2000 -filter:replies", "en"), ("(GTA 6 OR GTA VI OR GTA6) lang:en min_faves:500 -filter:replies", "en")]
 # 27/10 Gabriel : viser les posts qui ont déjà beaucoup de vues et de réactions (gros comptes) ; candidats triés par réactions   # 17/10 : + gros posts anglais (réponse en anglais)
 GENERIQUES = {"gta 6", "gta vi", "gta", "rockstar", "rockstar games", "take-two", "ps5", "xbox", "trailer", "vice city", "leonida", "jason", "lucia", "jason duval", "lucia caminos", "gta v", "grand theft auto", "trailer 3", "launch trailer", "playstation", "rockstargames", "sortie", "date de sortie", "release", "release date", "bande-annonce", "rumeur", "officiel", "annonce", "précommande", "pre-order", "gameplay", "carte", "map"}
@@ -86,7 +86,7 @@ def texte(p, a, lien):
     taquin = confrere(p)
     if taquin: a = None
     regle = ("C'est un confrère fan (média GTA 6 français concurrent) : taquine-le avec bienveillance, clin d'œil complice entre passionnés, humour léger, jamais méchant, jamais dénigrant, jamais de critique de son travail, pas de pub pour nous. "
-             "Même si c'est un concours, réponds par une petite taquinerie sympa (sans participer ni demander à gagner). Ne réponds PASSER que si le post est triste, politique ou polémique.\n") if taquin else ""
+             "Une seule idée, claire et compréhensible du premier coup, accrochée à un élément précis du post (son info, son chiffre, sa formule) ; la vanne doit avoir un sens évident (pas de blague sur le spoil), pas de phrase alambiquée ni absurde ; 1 phrase de préférence. Même si c'est un concours, réponds par une petite taquinerie sympa (sans participer ni demander à gagner). Ne réponds PASSER que si le post est triste, politique ou polémique.\n") if taquin else ""
     info = f"Notre article sur le sujet : « {a['fr']['t']} » : {a['fr']['d']}" if a else "Pas d'article précis : réponds avec ce que tout fan sait (sortie le 19/11/2026 sur PS5 et Xbox Series, Vice City, Leonida, Jason et Lucia)."
     r = X.ia(f"""{X.aujourdhui()} Tu es le community manager de GTAVIFRANCE (@gtavifrancecom), média fan de GTA 6 en français. Écris UNE réponse au post X ci-dessous.
 Post de @{p['auteur']} : « {p['texte'][:600]} »
