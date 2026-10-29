@@ -1,25 +1,13 @@
 {
- "maj": "2026-10-29T23:27:21+00:00",
+ "maj": "2026-10-29T23:47:33+00:00",
  "articles": [
-  {
-   "gn": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1oY1FQdkhWNHZLTWYyTlVsaHNpY2w0S04zekFPWnFYanNxU0dTS0t6aGUxeUczZUJ2eWxSVUxwMllVcUZJUG5LQV85ZWlEM0ZqMm9PWk1xWmpRWEFrSUVVZEJHRVNESzRNY2ppNXBfcktQTFJEVDh2V3JWT2pBUQ?oc=5",
-   "s": "IGN",
-   "d": "2026-10-29T22:27:29+00:00",
-   "lang": "en",
-   "t": "GTA 6 Dog Poop Gameplay Revealed On South Park - IGN",
-   "u": "https://www.ign.com/shorts/gta-6-dog-poop-gameplay-revealed-on-south-park",
-   "img": "https://assets-prd.ignimgs.com/2026/10/29/screenshot-2026-10-29-at-3-27-21-pm-1793312843532.png?width=1280&format=jpg&auto=webp&quality=80",
-   "chapeau": "IGN Shorts is a fully native vertical video feed built directly into IGN. Fans can expect rapid-fire news, bite-sized reviews, gameplay tips, and more.",
-   "txt": "",
-   "pub": "2026-10-29T22:27:29.897Z"
-  },
   {
    "gn": "https://news.google.com/rss/articles/CBMickFVX3lxTE5hREsyMVl6c2lIZlNwSGpqUk95cHQtUHZuRmF2cEVib2FQU3lTMGlFd3NKYXVLOW1NSVA5SXowc1EyN09wcXZxOWp3amlFTVlad3d3aGZqS1BoQWE3R2t2UVpsX2xic3hwZjA3UXlxSGNUdw?oc=5",
    "s": "games.gg",
    "d": "2026-10-29T22:09:14+00:00",
    "lang": "en",
    "t": "GTA 6 Review Embargo Date: When Do Reviews Go Live?",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbUdBeGctNlZFRUZ6RmNpUjFFYmptc0lmYVRGZFZ1Q203b2ZyaFVpY0dmeWpoTHNwRHNMQjNWM1VMcWxuVE1WVVFjYkR1bzdIYV9ldXpjZGxCQ2Vld0F6TC13dUxBaXg4eUFEWVU5YXRNbDY4WUh5eEE0QVVqOC1oemxGZW8tc0cya1ZMUDEzNmxydHRO?oc=5",
@@ -63,15 +51,7 @@
    "d": "2026-10-29T21:20:09+00:00",
    "lang": "fr",
    "t": "Du gameplay inédit de GTA 6 : plage et crottes de chien au programme",
-   "erreur": "HTTP Error 403: Forbidden"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRkVpY3E5U290UzhrYjRRb2RjcV95eUd0OU1DM0F0NGF6TFhzS2NpQ0syTXhKQ255cHRwNjhMNW5sbmd6Z21WSVBtYVdiNkdzTVFmNm1yUUlENTY4TjY3SnQwdFJwaHMtUGI2YmhnXzdVVGVOVjVGSDNGMWhjd2IxRFZ3?oc=5",
-   "s": "GameSpot",
-   "d": "2026-10-29T21:00:00+00:00",
-   "lang": "en",
-   "t": "We Analyzed Every Official GTA 6 Screenshot",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "HTTP Error 429: Too Many Requests"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUlBlVFdSTnZKVmFhR2ljUFItQVZGdTZhUFBoNE5JV1FlTUhCb2gzN25FdDhxc3c2WlpsTWhNYTY3OVhJOWpnQzdxdGlqOTVrZ2RYa1c2bm5NY3R6QlNxYld3RXVTMlpLcmxvRWxkSGtIOFZwd2U3ckhrYWh2SXRaTWZwUzN3N1F4eE5MUng5aVJCZw?oc=5",
@@ -79,7 +59,7 @@
    "d": "2026-10-29T20:59:58+00:00",
    "lang": "fr",
    "t": "GTA 6: des chiens policiers vont vous pourchasser",
-   "erreur": "HTTP Error 307: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error messag"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE52eXhWNE9ubUMyR2VEcGhvWnZaYW9YSFNOY05wSWNDRVR3bTNEeUdUM2s3S0kyTXp4UzBlMnd4NWkyNGZpaC0yTmRNTXNJb2lNM0thYVh0Y3oyOHRXeFdZdUo3bWdEQQ?oc=5",
@@ -115,18 +95,6 @@
    "img": "https://helios-i.mashable.com/imagery/articles/02ppra94GBUBCHBRz9d0cFd/hero-image.fill.size_1200x675.v1793305276.jpg",
    "chapeau": "Don't get too excited, though. It really is a turd.",
    "txt": "Grand Theft Auto VI is said to take up more than 200GB of space on your PS5 or Xbox hard drive. Thanks to South Park , we now know where some of that data is going.\nMatt Stone and Trey Parker's animated sitcom, which is somewhat amazingly still airing new episodes in 2026, took its ripped-from-the-headlines comedic stylings back into the gaming world on Wednesday night. In a scene from the newest episode, the kids learn about GTA 6 , which actually includes some new gameplay footage we haven't seen before, not even courtesy of Cyberleek .\nBecause it's South Park , though, the footage consists entirely of a dog pooping, the protagonist Jason picking up the poop, and Jason hitting an NPC in the face with it.\nYes, that is all they showed. As a bonus, it's narrated by Tish Hicks, a voice actress who narrated a gameplay trailer for GTA 5 many years ago, per IGN . According to IGN, Rockstar had previously confirmed that you could use dog poop in this way in GTA 6 , and we have seen Jason petting a dog in an earlier clip, but this is the first time we've actually seen this particular mechanic in action.\nWe reached out to Rockstar to confirm if the dog poop clip was legit, and we'll update this story if the company responds. However, the episode's credits include a Rockstar callout, which suggests the clip is authentic. A snapshot of the credits circulating online includes this message: \"Special thanks: Grand Theft Auto VI footage courtesy of Rockstar Games, Inc.\"\nThis is far from the first or only time South Park has waded into the zeitgeist around a major video game. There have been plenty of references to gaming on the show over the years, perhaps most prominently in the 2006 episode Make Love, Not Warcraft , which took place largely inside World of Warcraft during the peak of that game's popularity. Maybe Parker and Stone can make a GTA 6 equivalent whenever that game's online mode launches.\nIn the meantime, you still have time to preorder GTA 6 ahead of its Nov. 19 release.\nWant to learn more about getting the best out of your tech? Sign up for Mashable's Top Stories and Deals newsletters or get Mashable push alerts today. Recommended deals for you HBO Max — top pick for premium content\nAlex Perry is a tech reporter at Mashable who primarily covers video games and consumer tech. Alex has spent most of the last decade reviewing games, smartphones, headphones, and laptops, and he doesn’t plan on stopping anytime soon. He is also a Pisces, a cat lover, and a Kansas City sports fan. Alex can be found on Bluesky at yelix.bsky.social .",
-   "pub": "2026-10-29T20:25:42+00:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUTVxejBpNTFnWmpGeF9XcGpHWk5MZ1hFWXJHVXZfb0xtZWx0UHlORTlhemRnd1FuRXhwWG5MYmZFUnBKdVc4N2p4MGZSRlBXWlpVLTZqMkNCX184dURfWE4xTExtMVhhV0phUXpUU2hGV0tqQnBkX3ZJVWVtQ0g1Mm1SOGs2NkhfM3JZYmROSmhIYkRTNWRiRmNGMA?oc=5",
-   "s": "Mashable SEA",
-   "d": "2026-10-29T20:25:42+00:00",
-   "lang": "en",
-   "t": "'South Park' shows new 'GTA 6' gameplay footage, and it's a turd",
-   "u": "https://sea.mashable.com/games/56503/south-park-shows-new-gta-6-gameplay-footage-and-its-a-turd",
-   "img": "https://sm.mashable.com/t/mashable_sea/article/s/south-park/south-park-shows-new-gta-6-gameplay-footage-and-its-a-turd_17ar.1200.jpg",
-   "chapeau": "Don't get too excited, though. It really is a turd.",
-   "txt": "Credit: Rockstar Games > Games Grand Theft Auto VI is said to take up more than 200GB of space on your PS5 or Xbox hard drive. Thanks to South Park , we now know where some of that data is going.\nMatt Stone and Trey Parker's animated sitcom, which is somewhat amazingly still airing new episodes in 2026, took its ripped-from-the-headlines comedic stylings back into the gaming world on Wednesday night. In a scene from the newest episode, the kids learn about GTA 6 , which actually includes some new gameplay footage we haven't seen before, not even courtesy of Cyberleek .\nBecause it's South Park , though, the footage consists entirely of a dog pooping, the protagonist Jason picking up the poop, and Jason hitting an NPC in the face with it.\nYes, that is all they showed. As a bonus, it's narrated by Tish Hicks, a voice actress who narrated a gameplay trailer for GTA 5 many years ago, per IGN . According to IGN, Rockstar had previously confirmed that you could use dog poop in this way in GTA 6 , and we have seen Jason petting a dog in an earlier clip, but this is the first time we've actually seen this particular mechanic in action.\nWe reached out to Rockstar to confirm if the dog poop clip was legit, and we'll update this story if the company responds. However, the episode's credits include a Rockstar callout, which suggests the clip is authentic. A snapshot of the credits circulating online includes this message: \"Special thanks: Grand Theft Auto VI footage courtesy of Rockstar Games, Inc.\"\nThis is far from the first or only time South Park has waded into the zeitgeist around a major video game. There have been plenty of references to gaming on the show over the years, perhaps most prominently in the 2006 episode Make Love, Not Warcraft , which took place largely inside World of Warcraft during the peak of that game's popularity. Maybe Parker and Stone can make a GTA 6 equivalent whenever that game's online mode launches.\nIn the meantime, you still have time to preorder GTA 6 ahead of its Nov. 19 release.\nWant to learn more about getting the best out of your tech? Sign up for Mashable's Top Stories and Deals newsletters or get Mashable push alerts today.",
    "pub": "2026-10-29T20:25:42+00:00"
   },
   {
@@ -183,11 +151,7 @@
    "d": "2026-10-29T19:16:58+00:00",
    "lang": "en",
    "t": "\"GTA 6\" early access scams on the rise",
-   "u": "https://www.fox13seattle.com/video/fmc-lbrx9ape42wnnr14",
-   "img": "https://images.foxtv.com/static-media.fox.com/fmcv3/prod/fts/1b1p2zru2ccjkgcl/1200/630/coxpsriz1354edd5.jpg?ve=1&tl=1",
-   "chapeau": "Scammers are targeting eager gamers with fake \"Grand Theft Auto 6\" early access websites designed to steal up to $1,000 in cryptocurrency and secretly install malware, according to Power Up Gaming.",
-   "txt": "",
-   "pub": ""
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNlNUNlphWHhCWkRMaGVINW4xNDhFdlA4Y1RuZVZXUEtTNEtleF91MzVFdG5RRVd1VnVBdXdOSlBZTW5sOUwza3BDRnQ3NExEcVc4b2NzOWlOcDhLcEZEal9GaFViR1dLWG1lUk43bUhUUFBIc0lSbTNnVUpyMVlFdkRfb3JHOGptaTRr?oc=5",
@@ -207,7 +171,7 @@
    "d": "2026-10-29T19:10:09+00:00",
    "lang": "fr",
    "t": "GTA 6 n’est pas seulement craint dans le milieu du jeu vidéo, le cinéma s’attend aussi à prendre un sacré coup",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSGRGalQ5QmJiaXhDX05BV2VqUTJwcmlxNnltaGhEUXA1Tmx2SEl5aDBxenhyQWh0SFFmdXZ3MkJUend2SjRuNnN6TVZtWnc4RnBsTVJnQjRfOFZ1SF9kQ1BxNTBVTDJkalprUlpWX2xvaVpGS0xxOV81UXZoM0Rvei15MERmOUozRk1YaDJma2NULXJKdmc?oc=5",
@@ -215,7 +179,7 @@
    "d": "2026-10-29T18:51:14+00:00",
    "lang": "en",
    "t": "Artist With Music In GTA 6 Had No Idea About Any Of That",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNeGI4N2JOMnk1ODBWb0x6Z1M5aDY2Q09MNklqNWFvbElkeGN1SVcwNUZ5UmZNNFdyVDM5VnI5aENFckhnT2plT25pMUpLQzBsUEFPUml6empvNUswUXBSVXBKNG8xZ21YdEs4NlhXLWZWalV6V3d5S3oxcVdHcmh1Z3ZmV2lfeWVHWk5QVHJEMVZSZw?oc=5",
@@ -283,7 +247,7 @@
    "d": "2026-10-29T17:46:54+00:00",
    "lang": "fr",
    "t": "Selon les rumeurs, GTA 6 Online sortira en 2027 en même temps que la version PC",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1xNHAwR2NHTkF3RUJfM1M4U3JVUVJBMnprMXBaTnN2ckdTMU8wcnhUelctQXVXOXVJeEpOS2tVc2dPVFY1a1dlcmlyekp0LU1FOUxTLTVvWWRJQlMxbjQwQlFfWll1NHFpRzhlaTJtT3ltSDRuTlJQSWVVanU?oc=5",
@@ -322,6 +286,22 @@
    "pub": "2026-10-29T12:37:13-05:00"
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBxU1pzcXdVdWdnUFpzdFJsRmUydHJDV1hOVTNiUVRMZnBJUEl6dm1jNlVKTFdzTXhwN0EwUTlVakxDZS1CclUtMEdscG5kUTVVOHczSGtOektTNFRadHVGdzF5RkRJZURpR3c?oc=5",
+   "s": "Insider Gaming",
+   "d": "2026-10-29T17:35:36+00:00",
+   "lang": "en",
+   "t": "GTA 6 Story Length & Total Hours, Explained",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbDVFUkR3ZFlQeng1am12clBHdFRCYzB1ZUVmbkVFalB1X3JuUTZBYmdFcDBSOTFyblBYVGNsaUw0eFlpd0VxM1c3MzFncVB0VFpHQnZudnJ6bXFHWEpaeGVRZkk0aVk4RG13S2x0NjBSbkVPRXJGTzdXRlV4QlI2MmVGUFUxNGltN0pTWjE0TXRhbmgzN3daemVsZXg?oc=5",
+   "s": "Tom's Guide",
+   "d": "2026-10-29T17:34:16+00:00",
+   "lang": "en",
+   "t": "The ultimate GTA 6 setup: Essential gear and merch for every fan",
+   "erreur": "429 : passage suivant"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPTE9CRy1STFFnRktKZmYwcWdhbjFoUlo0Y3poLUdyOS02SEpOQzZzVEJrbktmV0VHY1NaTmRSd2p3eThDenpZanNoeFpfNmR4T3Q0YXREdnhXSmdRRDlmYWExNnlROTFYbkFrb2Z6Y3NiNkVYLW5hMWljbjFlc01Xb2tucjFNbXUwN012OEE3YWxwSDQ0dnFkN0doMFN5MVk0akFNYThreVB3VE9zdjhRVlU0WEVPU0lrM3pla01CNi1rYUZVNXdyaFFQZHJNa09aNnc?oc=5",
    "s": "Notebookcheck",
    "d": "2026-10-29T17:22:00+00:00",
@@ -344,7 +324,8 @@
    "img": "https://www.dexerto.fr/cdn-image/wp-content/uploads/sites/2/2026/10/29/GTA-6-South-Park.jpg",
    "chapeau": "GTA 6 vient de dévoiler 17 secondes de gameplay inédit dans South Park, avec une mécanique complètement absurde.",
    "txt": "GTA GTA 6 dévoile du gameplay inédit dans South Park avec une mécanique complètement absurde par Ludovic Quinson Publié : 29 oct. 2026, 10:16 Sauvegarder pour plus tard Sauvegarder pour plus tard Comedy Central / Rockstar Games Ajouter comme source préférée sur Google Suivre sur Google News Rockstar a choisi une manière particulièrement inattendue de dévoiler de nouvelles images de GTA 6 . Plutôt que de publier un énième trailer, le studio s’est invité dans le dernier épisode de South Park avec une courte séquence de gameplay totalement inédite.\nEt fidèle à l’humour de la série, cette apparition met en scène une fonctionnalité pour le moins insolite à savoir la possibilité de ramasser des excréments de chien pour s’en servir comme arme contre les PNJ.\nDiffusé le 28 octobre 2026 sur Comedy Central, le quatrième épisode de la saison 29 de South Park , intitulé Guinea Pig on a Stick, réserve une surprise aux fans de Grand Theft Auto. Dans les dernières minutes, plusieurs personnages de la série, dont Cartman, Kyle et Stan, découvrent une vidéo de GTA 6.\nLa séquence débute par une promenade de Jason et Lucia sur une plage de Vice City, avant de montrer un chien en train de faire ses besoins sur le sable. Le joueur, qui contrôle Jason, provoque alors le propriétaire de l’animal en lui lançant un objet. Lorsque ce dernier réagit, Jason ramasse un sac contenant les excréments du chien et l’utilise pour frapper le PNJ.\nNew gameplay from GTA 6 was shown in the latest ‘SOUTH PARK’ episode. pic.twitter.com/gL2kRKUv2I\nUne scène complètement ridicule, mais qui illustre une nouvelle fois l’importance accordée par Rockstar aux interactions avec les habitants de Leonida. Surtout, il ne s’agit pas d’une animation créée spécialement par South Park pour parodier le jeu. Rockstar Games apparaît dans les remerciements du générique, confirmant sa participation à cette séquence.\nCette apparition n’arrive pas totalement par hasard. Depuis le début de sa saison 29, South Park multiplie les références à GTA 6, dont la sortie est régulièrement présentée avec humour comme un événement susceptible de tout arranger.\nDu gameplay, la map et les radios de GTA 6 ont fuité avant le large aperçu sur Netflix\nLe leaker de GTA 6 Cyberleek revient avec 25 minutes de gameplay fuité\nGTA 6 confirme des transformations physiques et un monde qui réagit vraiment à vos actions\nLa collaboration prend néanmoins une dimension supplémentaire avec ces véritables images du jeu, diffusées à quelques semaines seulement de son lancement.\nSi cette mécanique liée aux excréments avait déjà été évoquée auparavant, c’est la première fois qu’elle est montrée aussi clairement en action. Cette séquence de 17 secondes rejoint ainsi les rares présentations officielles de gameplay, aux côtés du large aperçu diffusé sur Netflix et des différents trailers .",
-   "pub": "2026-10-29T10:16:27.000Z"
+   "pub": "2026-10-29T10:16:27.000Z",
+   "cyberleek": true
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUWNueFZFWWRUM2xJQ3E4ZW5SR2paYWVzck5BMThteS1FOFBlS0pSWVRSS1k5VnVsMjNIZ0NINmNMajQ0WE9FMXpEV2hJRzNJUEx0bWJlc2k0Q04wZHpocWxlNXpQS0ZRVEVkX3pOaUt0WFh2czJ1V3hKTU5GUVlsZ2dnSU56SF9v?oc=5",
@@ -358,6 +339,14 @@
    "txt": "GTA 6 Could Take Up 210GB: The PS5 Storage Space Players May Need Before Launch Om Singh | October 29 | Industry & Events , Spotlight Share\nRockstar Games’ upcoming Grand Theft Auto VI could require around 210GB of storage space, according to a recent online leak. If the reported file size proves accurate, the game could take up a substantial portion of the available storage on a standard PlayStation 5, leaving players with less room for other games.\nWith the game scheduled to launch on November 19, the reported download size has added another detail for players preparing their consoles ahead of release. However, Rockstar Games has not officially confirmed the game’s final download size, so the figure should be treated as a rumour for now.\nThe reported download size was shared by X user, with gaming news outlet Insider Gaming also supporting the claim. The leak suggests that GTA 6 could occupy approximately 210GB of storage.\n🚨 Grand Theft Auto VI – 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐒𝐢𝐳𝐞 : 210 GB – 𝐒𝐭𝐚𝐧𝐝𝐚𝐫𝐝 ($79.99) Pre-Load : November 12 Release : November 19 𝐑𝐞𝐥𝐞𝐚𝐬𝐞 𝐓𝐢𝐦𝐞 : Midnight pic.twitter.com/5vXkgnqfC7\nThe figure follows an earlier claim from leakster CyberLeek, who suggested that the game could exceed 200GB. Although neither report confirms the final installation requirements, both point towards a potentially large download for Rockstar’s next major release.\nFor PS5 owners, a 210GB installation would represent a significant storage commitment. Players with multiple games installed may need to remove older titles or free up additional space before downloading GTA 6.\nIt is also worth noting that the download size may not reflect the total storage required after installation. Temporary files, additional game packages, patches and future updates could increase the amount of space needed on the console.\nThe reported file size also brings attention to the pre-loading arrangements expected ahead of the launch. According to the information provided, players who pre-order the game on Sony and Microsoft consoles may be able to pre-load it seven days before release.\nPre-loading allows players to download a game before its official launch, reducing the amount of time they need to wait for the download on release day. For a title potentially exceeding 200GB, having the files ready in advance could be particularly useful.\nHowever, players should wait for official confirmation of the pre-load schedule and final storage requirements before making decisions about their console storage.\nThe download-size leak comes amid reports that Rockstar Games is distributing review codes to selected media outlets and influencers ahead of launch.\nThe reports suggest that the review embargo has been set for November 18, one day before the game’s scheduled release. If that timing holds, players could get an early look at gameplay, missions and other details before the title becomes available.\nReviews could provide a clearer picture of the game’s performance and overall experience on supported consoles. The reported embargo date, however, has not been established here as an official announcement from Rockstar Games.\nGTA 6 is scheduled to arrive on November 19 for the PlayStation 5, PlayStation 5 Pro, Xbox Series X and Xbox Series S. The release will follow GTA V, which arrived in 2013.\nThe new instalment will feature two protagonists, Jason and Lucia, whose story will unfold through crime-driven missions in Vice City. The narrative will place the two characters at the centre of the game’s events, with their ability to depend on each other forming part of the storyline.\nThe game is expected to bring players back to Vice City, a setting familiar to longtime fans of the franchise.\nThe supplied pricing information lists GTA 6 at ₹5,999 for the Standard Edition and ₹7,499 for the Ultimate Edition.\nPlayers who pre-order the game are expected to receive one month of GTA+ access and the Vintage Vice City pack. The Ultimate Edition bundle is also listed as offering additional in-game items, including customised weapons, outfits and cars.\nWith the launch approaching, the reported 210GB file size is another detail prospective buyers will want to consider alongside the game’s price and edition options.\nFor now, the most important point is that GTA 6’s reported 210GB download size remains unconfirmed. Players should wait for official storage requirements before clearing significant space on their consoles or purchasing additional storage specifically for the game.\nAlso Read: Jim ",
    "pub": "2026-10-29T22:45:19+05:30",
    "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdWdhMzhUSnpZSjFXVkduWkxZMFBRc2M4YndrSVJ0VjA2RURXTUNqcVdGcl9pM0V4WkUzMUxLRHk3N1dMTHc1eFNxRC1lY0ZOUzQyUzM1bVhlbFVYRUxXSEl6TUh6WHRCaWFVU1M5Y05FZTV5eERyRWNLS1NRTjNxZGZTdVktNFo0MHpCcDN3WU1Oa1V5dHF5MTFXTQ?oc=5",
+   "s": "Billboard",
+   "d": "2026-10-29T17:08:07+00:00",
+   "lang": "en",
+   "t": "The First Justice x Gesaffelstein Collab Has Arrived: Hear the Newest Song From the ‘GTA VI’ Score",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUXpMcXU1bXZpTTBIVW1QLWdKek43T3gxMlhDakw0cXhZbU0wYXk4WHJoa2xGaUVUVGJaSFRVM0RiNkM2NWRYeWQzRFVOc0NZcDBsTHZXWEpuei0waWdtREFHT0dPQXJQUTVSQldyb0hXRzdTUE5wenl3eFdKV1UxOVlHUVpmMUpGUmdKZzdMckVoUThmc0RZbnRwc1YxNzdYSjRjUzVRUXp1OXprT2hv?oc=5",
@@ -625,7 +614,7 @@
    "d": "2026-10-26T19:12:15+00:00",
    "lang": "fr",
    "t": "Une nouvelle fuite potentielle dévoile des images de Lucia dans GTA 6",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -634,7 +623,7 @@
    "d": "2026-10-26T15:14:40+00:00",
    "lang": "en",
    "t": "CYBERLEEK Price, CYBERLEEK Price, Live Charts, and Marketcap",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -656,11 +645,7 @@
    "d": "2026-10-26T04:38:45+00:00",
    "lang": "en",
    "t": "Cyberleek Shares More GTA 6 Footage Featuring Lucia Naked",
-   "u": "https://www.imdb.com/fr/news/ni66063856/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -669,7 +654,7 @@
    "d": "2026-10-25T17:45:09+00:00",
    "lang": "fr",
    "t": "Selon ce leak, GTA 6 aura bien le poster que les joueurs attendent le plus inclus dans sa boîte",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -743,11 +728,7 @@
    "d": "2026-10-22T15:12:54+00:00",
    "lang": "en",
    "t": "Cyberleek Shares GTA 6 Leak Of Naked Lucia",
-   "u": "https://www.imdb.com/news/ni66062173/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -795,11 +776,7 @@
    "d": "2026-10-20T07:57:13+00:00",
    "lang": "en",
    "t": "GTA 6 Leaker Threatens Story Spoilers If Caught",
-   "u": "https://www.imdb.com/news/ni66067342/?ref_",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -834,11 +811,7 @@
    "d": "2026-10-19T03:46:45+00:00",
    "lang": "en",
    "t": "GTA 6 Leaker's Latest Effort Appears To Flop As Group's Meme Coin Declines",
-   "u": "https://me.pcmag.com/en/security/38351/gta-6-leakers-latest-effort-appears-to-flop-as-groups-meme-coin-declines",
-   "img": "https://sm.pcmag.com/t/pcmag_me/news/g/gta-6-leak/gta-6-leakers-latest-effort-appears-to-flop-as-groups-meme-c_zw4r.1200.jpg",
-   "chapeau": "The GTA 6 leaker, CyberLeek, seems to be frustrated that the group's meme coin has cratered amid scam accusations, prompting it to hit pause.",
-   "txt": "",
-   "pub": "2026-10-19T03:46:45+00:00",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   }
  ]
