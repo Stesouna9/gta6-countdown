@@ -15,8 +15,10 @@ ETAT = Path.home() / ".config/gtavifrance/x_reponses.json"
 ESSAI = "--essai" in sys.argv
 X.slot = "reponse"
 # 29/10 Gabriel : « faut les taquiner avec bienveillance » : Vice Central et GTA 6 Hub (confrères fans), prioritaires, 1 réponse/jour max chacun
-RIVAUX = {"vicecentralfr", "gta6hubfr"}
-RECHERCHES = [("(from:vicecentralFR OR from:gta6hubfr) -filter:replies", "fr"), ("from:RockstarGames", "fr"), ("(GTA 6 OR GTA VI OR GTA6) lang:fr min_faves:100 -filter:replies", "fr"), ("(GTA 6 OR GTA VI OR GTA6 OR Leonida) lang:fr min_faves:20 -filter:replies", "fr"),
+# 29/10 bis : « tous les comptes FR qui parlent de GTA, ceux qui sont comme nous » : liste connue + tout compte FR dont le pseudo dit GTA/Rockstar/Leonida/Vice
+RIVAUX = {"vicecentralfr", "gta6hubfr", "rockstarnewsfra", "gta6france1"}
+def confrere(p): a = p["auteur"].lower(); return a in RIVAUX or (p.get("lg") == "fr" and a not in ("rockstargames", "gtafance", "gtavifrancecom") and re.search(r"gta|rockstar|leonida|vicecity|vice_?city", a) is not None)
+RECHERCHES = [("(from:vicecentralFR OR from:gta6hubfr OR from:RockstarNewsFRA OR from:GTA6France1) -filter:replies", "fr"), ("from:RockstarGames", "fr"), ("(GTA 6 OR GTA VI OR GTA6) lang:fr min_faves:100 -filter:replies", "fr"), ("(GTA 6 OR GTA VI OR GTA6 OR Leonida) lang:fr min_faves:20 -filter:replies", "fr"),
               ("(GTA 6 OR GTA VI OR GTA6) lang:en min_faves:2000 -filter:replies", "en"), ("(GTA 6 OR GTA VI OR GTA6) lang:en min_faves:500 -filter:replies", "en")]
 # 27/10 Gabriel : viser les posts qui ont déjà beaucoup de vues et de réactions (gros comptes) ; candidats triés par réactions   # 17/10 : + gros posts anglais (réponse en anglais)
 GENERIQUES = {"gta 6", "gta vi", "gta", "rockstar", "rockstar games", "take-two", "ps5", "xbox", "trailer", "vice city", "leonida", "jason", "lucia", "jason duval", "lucia caminos", "gta v", "grand theft auto", "trailer 3", "launch trailer", "playstation", "rockstargames", "sortie", "date de sortie", "release", "release date", "bande-annonce", "rumeur", "officiel", "annonce", "précommande", "pre-order", "gameplay", "carte", "map"}
@@ -63,7 +65,7 @@ def choisit(posts, etat, n):
     maintenant = datetime.datetime.now(datetime.timezone.utc)
     deja = {r["auteur"] for r in etat["reponses"] if r["quand"][:10] == str(datetime.date.today())}
     choix = []
-    for p in sorted(posts, key=lambda p: (p["auteur"].lower() not in RIVAUX, -p.get("score", 0))):   # confrères taquinés d'abord, puis les plus gros
+    for p in sorted(posts, key=lambda p: (not confrere(p), -p.get("score", 0))):   # confrères taquinés d'abord, puis les plus gros
         if len(choix) >= n: break
         if not p["url"] or p["url"] in etat["posts"] or p["auteur"].lower() in ("gtafance", "gtavifrancecom") or p["auteur"] in deja or len(p["texte"]) < 25: continue
         try: age = (maintenant - datetime.datetime.fromisoformat(p["quand"].replace("Z", "+00:00"))).total_seconds() / 3600
@@ -81,7 +83,7 @@ def choisit(posts, etat, n):
 def texte(p, a, lien):
     """Réponse écrite pour CE post (24/10 : IA, plus de phrase toute faite). Renvoie '' si mieux vaut se taire."""
     lg = p.get("lg", "fr")
-    taquin = p["auteur"].lower() in RIVAUX
+    taquin = confrere(p)
     if taquin: a = None
     regle = ("C'est un confrère fan (média GTA 6 français concurrent) : taquine-le avec bienveillance, clin d'œil complice entre passionnés, humour léger, jamais méchant, jamais dénigrant, jamais de critique de son travail, pas de pub pour nous. "
              "Même si c'est un concours, réponds par une petite taquinerie sympa (sans participer ni demander à gagner). Ne réponds PASSER que si le post est triste, politique ou polémique.\n") if taquin else ""
