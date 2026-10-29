@@ -1,26 +1,27 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-10-29T20:29:24+01:00",
+  "updated_at": "2026-10-29T22:12:45+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
     {
       "id": "x-justice-score-precommandes",
       "title": "Justice : les précommandes du score circulent sur X",
-      "summary": "Les éditions vinyle et double CD du score de GTA VI par Justice circulent chez plusieurs comptes. @gtasix_ rapporte 30 titres et des expéditions à partir du 11 décembre. Un autre relais évoque 50 morceaux : les chiffres divergent, sans faire de cette reprise une confirmation de Rockstar.",
+      "summary": "Les précommandes du score de GTA VI par Justice circulent chez plusieurs comptes X. Rockstar affiche désormais « Original Score by Justice » dans son Newswire daté du 29 octobre. Les relais divergent encore entre 30 et 50 titres : ces chiffres restent attribués aux comptes, sans les présenter comme un détail officiel vérifié.",
       "url": "https://x.com/gtasix_/status/2115744039026794945",
       "platform": "X",
       "author": "@gtasix_",
       "status": "Rapporté",
       "published_at": "2026-10-29T09:54:22.000Z",
-      "checked_at": "2026-10-29T20:25:21+01:00",
-      "evidence": "Vues relevées le 29 octobre 2026 à 12 h 12 UTC dans data/x_alertes.json (copie serveur). 14 511 vues ; sujet également repris par @GTAlphaintel (3 160 vues), @TheGTABase (1 425 vues) et @RockstarNewsFRA (903 vues, chiffre de 50 morceaux divergent).",
+      "checked_at": "2026-10-29T22:12:45+01:00",
+      "evidence": "Vues relevées le 29 octobre 2026 à 12 h 12 UTC dans data/x_alertes.json (copie serveur). 14 511 vues ; sujet également repris par @GTAlphaintel (3 160 vues), @TheGTABase (1 425 vues) et @RockstarNewsFRA (903 vues, chiffre de 50 morceaux divergent). Contrôle complémentaire le 2026-10-29T22:12:45+01:00 : résultats publics du site officiel et du Newswire Rockstar affichant « Grand Theft Auto VI: Original Score by Justice », daté du 29 octobre 2026. Page directe sans texte exploitable : contenu détaillé, nombre de pistes et expéditions non revalidés auprès de Rockstar. Le statut Rapporté reste celui du relais X.",
       "visual": "SCORE JUSTICE",
       "image": "https://pbs.twimg.com/media/HVyh_JAWEAAL8Wy?format=jpg&name=360x360",
       "image_alt": "Visuel partagé par @gtasix_ pour les éditions du score de Justice",
       "image_credit": "@gtasix_ sur X",
       "cta": "Voir la publication sur X",
       "embed_type": "x",
-      "post_text": "GTA 6’s Original Score by Justice is now available to pre-order through Rough Trade.\n\nThe soundtrack includes 30 tracks and will be released on crystal clear and black vinyl, as well as double CD, with shipping beginning December 11.\n\nRockstar Games will most likely reveal more"
+      "post_text": "GTA 6’s Original Score by Justice is now available to pre-order through Rough Trade.\n\nThe soundtrack includes 30 tracks and will be released on crystal clear and black vinyl, as well as double CD, with shipping beginning December 11.\n\nRockstar Games will most likely reveal more",
+      "corroboration": "https://www.rockstargames.com/newswire"
     },
     {
       "id": "x-edge-police-bus",
@@ -433,6 +434,11 @@
       "at": "2026-10-29T20:29:24+01:00",
       "label": "Rattrapage des 28 et 29 octobre · six sujets",
       "summary": "Six sujets documentés par des sources publiques et la collecte locale : South Park, Scooter Brothers, coffret japonais, Miami-Dade, Deblock et Circana. Les deux sujets de ce soir et toutes les archives sont conservés. 210 Go et annonce Edge déjà présents, donc non dupliqués. YouGov France en réserve faute de revalidation directe. X/Instagram/YouTube recherchés sans inventer de compteurs ; liens de presse explicitement étiquetés. Portée sociale non mesurée : les liens ouvrent les sources citées, sans promettre une lecture vidéo intégrée."
+    },
+    {
+      "at": "2026-10-29T22:12:45+01:00",
+      "label": "Veille permanente · contrôle X et annonce Justice",
+      "summary": "Relevé serveur data/x_alertes.json du 29/10 à 12 h 12 UTC relu : Justice et police Edge déjà présents, aucune nouvelle entrée admissible. Compte à rebours 500 heures (20 838 vues) non ajouté : répétition de la date, sans nouvelle annonce ni heure de déblocage établie. GTA Online et anniversaire GTA IV hors périmètre. Carte Justice enrichie par la présence de l’annonce du 29/10 dans les résultats publics du site officiel et du Newswire Rockstar, sans valider les chiffres divergents de pistes. Recherches X, Instagram, TikTok et Rockstar effectuées ; original X inaccessible (Cache miss), Instagram 429, TikTok limité par robots.txt et profil sans texte ; ouverture directe Rockstar sans texte exploitable. Aucun nouveau post Instagram ou TikTok vérifié, aucun compteur actualisé inventé. Les 18 sujets et leurs images sont conservés."
     }
   ],
   "coverage": {
