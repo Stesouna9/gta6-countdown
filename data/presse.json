@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-29T22:05:45+00:00",
+ "maj": "2026-10-29T22:25:59+00:00",
  "articles": [
   {
    "gn": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbUdBeGctNlZFRUZ6RmNpUjFFYmptc0lmYVRGZFZ1Q203b2ZyaFVpY0dmeWpoTHNwRHNMQjNWM1VMcWxuVE1WVVFjYkR1bzdIYV9ldXpjZGxCQ2Vld0F6TC13dUxBaXg4eUFEWVU5YXRNbDY4WUh5eEE0QVVqOC1oemxGZW8tc0cya1ZMUDEzNmxydHRO?oc=5",
@@ -43,7 +43,7 @@
    "d": "2026-10-29T21:20:09+00:00",
    "lang": "fr",
    "t": "Du gameplay inédit de GTA 6 : plage et crottes de chien au programme",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "HTTP Error 429: Too Many Requests"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUlBlVFdSTnZKVmFhR2ljUFItQVZGdTZhUFBoNE5JV1FlTUhCb2gzN25FdDhxc3c2WlpsTWhNYTY3OVhJOWpnQzdxdGlqOTVrZ2RYa1c2bm5NY3R6QlNxYld3RXVTMlpLcmxvRWxkSGtIOFZwd2U3ckhrYWh2SXRaTWZwUzN3N1F4eE5MUng5aVJCZw?oc=5",
@@ -51,7 +51,7 @@
    "d": "2026-10-29T20:59:58+00:00",
    "lang": "fr",
    "t": "GTA 6: des chiens policiers vont vous pourchasser",
-   "erreur": "HTTP Error 307: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error messag"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE52eXhWNE9ubUMyR2VEcGhvWnZaYW9YSFNOY05wSWNDRVR3bTNEeUdUM2s3S0kyTXp4UzBlMnd4NWkyNGZpaC0yTmRNTXNJb2lNM0thYVh0Y3oyOHRXeFdZdUo3bWdEQQ?oc=5",
@@ -76,6 +76,14 @@
    "chapeau": "Don't get too excited, though. It really is a turd.",
    "txt": "Grand Theft Auto VI is said to take up more than 200GB of space on your PS5 or Xbox hard drive. Thanks to South Park , we now know where some of that data is going.\nMatt Stone and Trey Parker's animated sitcom, which is somewhat amazingly still airing new episodes in 2026, took its ripped-from-the-headlines comedic stylings back into the gaming world on Wednesday night. In a scene from the newest episode, the kids learn about GTA 6 , which actually includes some new gameplay footage we haven't seen before, not even courtesy of Cyberleek .\nBecause it's South Park , though, the footage consists entirely of a dog pooping, the protagonist Jason picking up the poop, and Jason hitting an NPC in the face with it.\nYes, that is all they showed. As a bonus, it's narrated by Tish Hicks, a voice actress who narrated a gameplay trailer for GTA 5 many years ago, per IGN . According to IGN, Rockstar had previously confirmed that you could use dog poop in this way in GTA 6 , and we have seen Jason petting a dog in an earlier clip, but this is the first time we've actually seen this particular mechanic in action.\nWe reached out to Rockstar to confirm if the dog poop clip was legit, and we'll update this story if the company responds. However, the episode's credits include a Rockstar callout, which suggests the clip is authentic. A snapshot of the credits circulating online includes this message: \"Special thanks: Grand Theft Auto VI footage courtesy of Rockstar Games, Inc.\"\nThis is far from the first or only time South Park has waded into the zeitgeist around a major video game. There have been plenty of references to gaming on the show over the years, perhaps most prominently in the 2006 episode Make Love, Not Warcraft , which took place largely inside World of Warcraft during the peak of that game's popularity. Maybe Parker and Stone can make a GTA 6 equivalent whenever that game's online mode launches.\nIn the meantime, you still have time to preorder GTA 6 ahead of its Nov. 19 release.\nWant to learn more about getting the best out of your tech? Sign up for Mashable's Top Stories and Deals newsletters or get Mashable push alerts today. Recommended deals for you HBO Max — top pick for premium content\nAlex Perry is a tech reporter at Mashable who primarily covers video games and consumer tech. Alex has spent most of the last decade reviewing games, smartphones, headphones, and laptops, and he doesn’t plan on stopping anytime soon. He is also a Pisces, a cat lover, and a Kansas City sports fan. Alex can be found on Bluesky at yelix.bsky.social .",
    "pub": "2026-10-29T20:25:42+00:00"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUTVxejBpNTFnWmpGeF9XcGpHWk5MZ1hFWXJHVXZfb0xtZWx0UHlORTlhemRnd1FuRXhwWG5MYmZFUnBKdVc4N2p4MGZSRlBXWlpVLTZqMkNCX184dURfWE4xTExtMVhhV0phUXpUU2hGV0tqQnBkX3ZJVWVtQ0g1Mm1SOGs2NkhfM3JZYmROSmhIYkRTNWRiRmNGMA?oc=5",
+   "s": "Mashable SEA",
+   "d": "2026-10-29T20:25:42+00:00",
+   "lang": "en",
+   "t": "'South Park' shows new 'GTA 6' gameplay footage, and it's a turd",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQR2ZCc014TndDd29XbUwzLS14OWpHT2NUWXJWN01PX0xWVDQ1eTZVNGhVRW9JbzVzQktpYTUwdGMySjM0RzBiQTF2bnpiMjNTTWVYdmllbzZ3RkdBYUJmUGkyTFV1VnJvWGhKZ3ZnWFlDbUo0M2pxWnQ2QmRSeHlGdE12MHlMWGhOblBSMDA4emJ4S3A4dGpIUnBjcUdrQ3ZTOGV5VDNCa2xneUFN?oc=5",
@@ -131,23 +139,7 @@
    "d": "2026-10-29T19:16:58+00:00",
    "lang": "en",
    "t": "\"GTA 6\" early access scams on the rise",
-   "u": "https://www.fox13seattle.com/video/fmc-lbrx9ape42wnnr14",
-   "img": "https://images.foxtv.com/static-media.fox.com/fmcv3/prod/fts/1b1p2zru2ccjkgcl/1200/630/coxpsriz1354edd5.jpg?ve=1&tl=1",
-   "chapeau": "Scammers are targeting eager gamers with fake \"Grand Theft Auto 6\" early access websites designed to steal up to $1,000 in cryptocurrency and secretly install malware, according to Power Up Gaming.",
-   "txt": "",
-   "pub": ""
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQ1I1N2RLeTlyNi02TDBRaDFNaGFEU1AtWGMzdkczTWFUQjdYQjNmcEQ5ci1BclpDMlJNMWs5ZG9VV1VEYWY0Q005eWxfd0llZ1RpdnV1bEt3S3paODlCbzU1cHV6NkJlLUthX0ZVNGU4UVhJUVE2R2MyeGNkYWk2dDRoRUxIM3dMUjY0b2YzMVo1WFhrenNId1hoakpsRlJQSzljcUtZbw?oc=5",
-   "s": "Rotek",
-   "d": "2026-10-29T19:16:49+00:00",
-   "lang": "fr",
-   "t": "Carrefour n'a plus un seul exemplaire de GTA VI en précommande : c'est la rupture de stock",
-   "u": "https://rotek.fr/carrefour-na-plus-un-seul-exemplaire-de-gta-vi-en-precommande-cest-la-rupture-de-stock/",
-   "img": "https://rotek.fr/wp-content/uploads/gta-vi-jeu.webp",
-   "chapeau": "GTA VI va officiellement sortir bientôt, les précommandes sont ouvertes. Mais les stocks manquent : Carrefour annonce une rupture de stock.",
-   "txt": "Alors que GTA VI va officiellement sortir ce jeudi 19 novembre , les précommandes sont ouvertes depuis des mois. Pourtant, les stocks manquent : Carrefour annonce ce soir une rupture de stock de ses éditions PS5 et Xbox Series du jeu de Rockstar Games. Étonnant pour un jeu qui ne possède même pas de vraie édition physique.\nÀ lire également : Les véhicules dans GTA VI : voitures, motos, bateaux et avions déjà aperçus\nEn France, le jeu GTA VI est en rupture de stock chez Carrefour. C’est l’enseigne elle-même qui l’a annoncé aux éditeurs de médias via la plateforme d’affiliation Kwanko. Elle s’explique : « Face à un engouement sans précédent, nous vous informons que l’intégralité du stock alloué aux précommandes du jeu GTA VI (Grand Theft Auto VI) sur le site Carrefour.fr est désormais totalement épuisé ». Pour le moment, on ignore quand est-ce que le site de Carrefour aura de nouveaux stocks.\nCe n’est pas la première fois que cette situation se produit. Depuis l’ouverture des précommandes du jeu le 25 juin dernier, on a constaté des ruptures ponctuelles, notamment chez E. Leclerc ou encore Cdiscount. Des ruptures qui concernaient surtout les précommandes en ligne.\nIl y a en fait deux éditions de GTA VI à différencier. Si le jeu ne sort pas « en physique » avec un disque, on peut néanmoins acheter une boîte du jeu qui contient un code à rentrer sur les magasins de PlayStation ou de Xbox. Et c’est une fois ce code entré que les joueurs pourront télécharger le jeu à partir du 12 novembre ( plus de 200 Go sont attendus ), pour commencer à y jouer le 19 novembre, date de sortie du jeu.\nC’est là tout le paradoxe : si le jeu n’est pas « physique », il peut tout de même y avoir des ruptures de stock sur les boîtes qui contiennent ces codes. Il y a donc une chaîne de distribution physique, avec fabrication des boîtiers, impression des jaquettes, insertion des cartes-code, conditionnement, transport et stockage. Rappelons que les boîtes doivent arriver dès le 12 novembre pour permettre le préchargement du jeu sur les consoles.\nÀ lire également : Les animaux dans GTA VI : plus de 170 espèces seront présentes dans le jeu, les voici\nRockstar Games donne par ailleurs des quotas de codes d’activation aux revendeurs. cela lui permet de contrôler la répartition entre ces derniers afin d’éviter qu’une seule enseigne absorbe toute la demande.",
-   "pub": "2026-10-29T19:12:54+00:00"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNlNUNlphWHhCWkRMaGVINW4xNDhFdlA4Y1RuZVZXUEtTNEtleF91MzVFdG5RRVd1VnVBdXdOSlBZTW5sOUwza3BDRnQ3NExEcVc4b2NzOWlOcDhLcEZEal9GaFViR1dLWG1lUk43bUhUUFBIc0lSbTNnVUpyMVlFdkRfb3JHOGptaTRr?oc=5",
@@ -167,7 +159,7 @@
    "d": "2026-10-29T19:10:09+00:00",
    "lang": "fr",
    "t": "GTA 6 n’est pas seulement craint dans le milieu du jeu vidéo, le cinéma s’attend aussi à prendre un sacré coup",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSGRGalQ5QmJiaXhDX05BV2VqUTJwcmlxNnltaGhEUXA1Tmx2SEl5aDBxenhyQWh0SFFmdXZ3MkJUend2SjRuNnN6TVZtWnc4RnBsTVJnQjRfOFZ1SF9kQ1BxNTBVTDJkalprUlpWX2xvaVpGS0xxOV81UXZoM0Rvei15MERmOUozRk1YaDJma2NULXJKdmc?oc=5",
@@ -175,7 +167,7 @@
    "d": "2026-10-29T18:51:14+00:00",
    "lang": "en",
    "t": "Artist With Music In GTA 6 Had No Idea About Any Of That",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNeGI4N2JOMnk1ODBWb0x6Z1M5aDY2Q09MNklqNWFvbElkeGN1SVcwNUZ5UmZNNFdyVDM5VnI5aENFckhnT2plT25pMUpLQzBsUEFPUml6empvNUswUXBSVXBKNG8xZ21YdEs4NlhXLWZWalV6V3d5S3oxcVdHcmh1Z3ZmV2lfeWVHWk5QVHJEMVZSZw?oc=5",
@@ -231,7 +223,7 @@
    "d": "2026-10-29T17:46:54+00:00",
    "lang": "fr",
    "t": "Selon les rumeurs, GTA 6 Online sortira en 2027 en même temps que la version PC",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1xNHAwR2NHTkF3RUJfM1M4U3JVUVJBMnprMXBaTnN2ckdTMU8wcnhUelctQXVXOXVJeEpOS2tVc2dPVFY1a1dlcmlyekp0LU1FOUxTLTVvWWRJQlMxbjQwQlFfWll1NHFpRzhlaTJtT3ltSDRuTlJQSWVVanU?oc=5",
@@ -307,6 +299,23 @@
    "cyberleek": true
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSGpCRWRndS10SlRQRlRQdUlvdnlxYnF5UjBmbWhoNERKUmdDd1pPdlhaR1I0THlDakV6WHRRVVpzOHdXMm5HTExCblpNQmVZc1pnZjl1MVhQblR1cll2U1ZwWm1YbV9Ddk1HaXNRZ0hMZGZhNVdNNTg3aFdMZDc2SzM2Ml9LdU5uWjlsVHFWMjN1V3AtQ3V6ZW1RMVh4SFVvQ21Bc1Z1RFdORGU1WktxMHNsYmhqeWx2?oc=5",
+   "s": "Dexerto.fr",
+   "d": "2026-10-29T17:16:27+00:00",
+   "lang": "fr",
+   "t": "GTA 6 dévoile du gameplay inédit dans South Park avec une mécanique complètement absurde",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUWNueFZFWWRUM2xJQ3E4ZW5SR2paYWVzck5BMThteS1FOFBlS0pSWVRSS1k5VnVsMjNIZ0NINmNMajQ0WE9FMXpEV2hJRzNJUEx0bWJlc2k0Q04wZHpocWxlNXpQS0ZRVEVkX3pOaUt0WFh2czJ1V3hKTU5GUVlsZ2dnSU56SF9v?oc=5",
+   "s": "https://ascendants.in/",
+   "d": "2026-10-29T17:15:19+00:00",
+   "lang": "en",
+   "t": "GTA 6 Could Take Up 210GB: The PS5 Storage Space Players May Need Before Launch",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQY1NBbUZicEgzWWtFcjVVbmZNUVk4VXFXZnRjd01QMFpYY01QcEZjWjFtN0pzYkRiYnlMaHlnenRhSkttcFNtOUg2MDEyODZYVVdqWi14aUtIVTZCeVNadnpLOUtKQjFVNWpXQ1JiSTJVYl9JUDNUWDlCQng1R0xhaUVZMUF4RVVqcFJUYzhhM0VvRVBaSjF3N0hfSmJjOEhVSldEeGZLZEFDeWRCZ21jakw4emhleE42cFYzeTVxYTdDbUFFck5uaQ?oc=5",
    "s": "Konbini",
    "d": "2026-10-29T17:08:59+00:00",
@@ -319,28 +328,12 @@
    "pub": "2026-10-29T18:08:59"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdWdhMzhUSnpZSjFXVkduWkxZMFBRc2M4YndrSVJ0VjA2RURXTUNqcVdGcl9pM0V4WkUzMUxLRHk3N1dMTHc1eFNxRC1lY0ZOUzQyUzM1bVhlbFVYRUxXSEl6TUh6WHRCaWFVU1M5Y05FZTV5eERyRWNLS1NRTjNxZGZTdVktNFo0MHpCcDN3WU1Oa1V5dHF5MTFXTQ?oc=5",
-   "s": "Billboard",
-   "d": "2026-10-29T17:08:07+00:00",
-   "lang": "en",
-   "t": "The First Justice x Gesaffelstein Collab Has Arrived: Hear the Newest Song From the ‘GTA VI’ Score",
-   "u": "https://www.billboard.com/music/music-news/justice-gesaffelstein-pusher-gta-6-score-1236370392/",
-   "img": "https://www.billboard.com/wp-content/uploads/2026/10/BILLBOARD_Justice_Grand-Theft-Auto.jpg?w=1024",
-   "chapeau": "Justice and Gessafelstein first collab, \"Pusher\" from the duo's 'Grand Theft Auto VI: Original Score' has arrived.",
-   "txt": "The hype around Justice ‘s previously announced score for the forthcoming Grand Theft Auto VI grows more frantic Thursday (Oct. 29) with the release of the duo’s first-ever collaboration with fellow Frenchman Gesaffelstein .\nThe seven-minute “Pusher” is exactly what fans would expect from the musical peers, with the cinematic song evoking Justice’s “Stress” and “Generator” along with the throttling percussion that defines the Gesaffelstein oeuvre. With each act bringing its predilection for darkly pummeling synths and pacing fit for an action sequence, its easy to imagine this music in the highly anticipated GTA VI , which arrives Nov. 19.\n“Pusher” is the second release from Justice’s original score for the GTA VI soundtrack, following the Oct. 15 release of “Flowers In a Hurricane,” a collaboration with SZA, King Gizzard & The Lizard Wizard and Tame Impala. “Flowers In a Hurricane” debuted on the Oct. 31-dated Billboard Hot 100 at No. 62, giving King Gizzard & the Lizard Wizard its first hit on the list.\nOf working on the score to the forthcoming game, Justice’s Xavier de Rosnay said in a statement, “The scope of the game is so large geographically and thematically that it was clear from the beginning the music would also have to be very broad in terms of emotions, genres and textures. We were given the freedom to explore as many things as we needed to, musically speaking.”\nComing via Because Music, Ed Banger and Rockstar Games, Grand Theft Auto VI: Original Score will be out on Dec. 11. The project will mark Justice’s fifth studio album.",
-   "pub": "2026-10-29T17:07:16+00:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPYUIzdnRqeFdOOVJ5NHpxbnRqY2liQXJrNU1ZdUtSUmFTZjBUTUdrVWROSW9uRDFGcjhicTJZT2NidWNZZHFyblVEQTZmTDlsa1J4M01xcElMRzl3T1ltcDk4dDdrYjQ3VG54R0M2YkxWZlY2Y0dWZXZFRWdIN2FrdzZ3N1ZIMjhZTzQ5YW9RZ2VvYTUwQTRDX053?oc=5",
+   "gn": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1Ld2JyTWprMTA2R0RHaEptS3ZFQjFaYzRuaV8wMk9WSXdsMS1zZ01Id1V6UEE4V3BmcjJBcEFJYVhOVnVpNGdBUVZTRXY3clhlVnF2M1hxWEo1dEc1bmpYR2JpRS0tVmIySzRtN0RyajY0LU8y?oc=5",
    "s": "Dexerto.fr",
-   "d": "2026-10-29T16:57:07+00:00",
+   "d": "2026-10-29T17:07:14+00:00",
    "lang": "fr",
-   "t": "GTA 6 va encore plus loin dans le réalisme avec des mécaniques dignes du RP - Dexerto",
-   "u": "https://www.dexerto.fr/gta/gta-6-va-encore-plus-loin-dans-realisme-avec-mecaniques-rp-1662741/",
-   "img": "https://www.dexerto.fr/cdn-image/wp-content/uploads/sites/2/2026/10/29/GTA-6-realisme.jpg",
-   "chapeau": "GTA 6 intègre des mécaniques inspirées du RP dans son mode solo : essence, transports, activités quotidiennes et interactions entre Jason et Lucia",
-   "txt": "GTA GTA 6 va encore plus loin dans le réalisme avec des mécaniques dignes du RP par Ludovic Quinson Publié : 29 oct. 2026, 10:54 Sauvegarder pour plus tard Sauvegarder pour plus tard Rockstar Games Ajouter comme source préférée sur Google Suivre sur Google News Et si GTA 6 permettait de vivre une véritable seconde vie à Vice City ? Rockstar semble avoir largement puisé dans les mécaniques populaires des serveurs GTA RP pour enrichir son prochain monde ouvert, avec des activités quotidiennes, une gestion plus réaliste des véhicules et de nouvelles interactions entre Jason et Lucia.\nDans le numéro de novembre 2026 du magazine Edge , plusieurs responsables de Rockstar North ont détaillé leur volonté de faire de Leonida un monde dans lequel les joueurs peuvent vivre à leur rythme, sans nécessairement enchaîner les missions principales.\nLors d’une démonstration de 90 minutes sur PS5, Rockstar a présenté plusieurs fonctionnalités destinées à renforcer l’immersion. Les joueurs pourront notamment acheter des cigarettes, boire un café pour améliorer temporairement leur endurance ou consommer un shake protéiné pour bénéficier d’un bonus de santé.\nLes déplacements ont également été repensés. GTA 6 proposera des réseaux de bus et de trains fonctionnels, avec des itinéraires et des horaires réguliers. Phil Hooker, responsable du développement, explique d’ailleurs accorder une attention particulière à la ponctualité des transports en commun.\nLes véhicules bénéficieront eux aussi de nouvelles mécaniques. Chaque voiture disposera d’une jauge de carburant et d’un indicateur d’état du moteur, obligeant les joueurs à surveiller leur consommation et à passer à la station-service.\nAutre nouveauté inspirée de Red Dead Redemption 2 : le coffre des véhicules personnels servira à entreposer les armes que Jason et Lucia ne peuvent pas transporter sur eux.\nEnfin, un service baptisé Scooter Bros permettra de faire livrer son véhicule directement à sa position contre une petite somme. Le livreur repartira ensuite sur un scooter.\nGTA 6 confirme des transformations physiques et un monde qui réagit vraiment à vos actions\nGTA 6 pousse le réalisme jusqu’à simuler la transpiration de ses personnages\nMais cette approche ne concerne pas uniquement les déplacements et les objets. Rockstar a également développé un système permettant de faire évoluer la relation entre Jason et Lucia, représentée par une jauge de proximité à quatre niveaux. Pour renforcer leurs liens, les deux protagonistes pourront partager différentes activités : promenades sur la plage, sorties à vélo, séances de sport ou simples balades en voiture.\nLe comportement criminel des joueurs aura également son importance grâce au système de profil criminel. Celui-ci évaluera les méthodes employées, des approches professionnelles et non létales jusqu’aux comportements les plus violents, avec des conséquences sur le déroulement de l’histoire.\nPour autant, GTA 6 ne deviendra pas un simulateur de vie totalement libre. Jason et Lucia resteront des criminels, et il ne sera pas possible d’abandonner leurs activités illégales pour exercer un métier ordinaire.\nEn revanche, la progression du scénario laissera davantage de place aux initiatives personnelles. Entre deux grandes missions, les joueurs pourront notamment organiser de petits braquages, dévaliser des commerces ou voler des véhicules ciblés pour financer leurs prochaines opérations.",
-   "pub": "2026-10-29T10:54:46.000Z"
+   "t": "La taille de la carte de GTA 6 dévoilée, aussi vaste que trois jeux Rockstar réunis",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUXpMcXU1bXZpTTBIVW1QLWdKek43T3gxMlhDakw0cXhZbU0wYXk4WHJoa2xGaUVUVGJaSFRVM0RiNkM2NWRYeWQzRFVOc0NZcDBsTHZXWEpuei0waWdtREFHT0dPQXJQUTVSQldyb0hXRzdTUE5wenl3eFdKV1UxOVlHUVpmMUpGUmdKZzdMckVoUThmc0RZbnRwc1YxNzdYSjRjUzVRUXp1OXprT2hv?oc=5",
@@ -421,6 +414,15 @@
    "cyberleek": true
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMmNjd3VPSldMalIyNXJUOC1zcFZ6ejBCUXB4YlNTN2lPQ3gyWWprc3NyTjd4R2t2Z0QtNzlYX1ZOdzV3QTM3czZROEliM0JNZnB0YlpPYWZNSkt1NEw1M3I1MkNKME5ZSHFQcTJfYmo0ZDJRTjVjMVd1R056dDhtNFdfYUVxOGtNUUFOdzRMR0dJOG5YcWJZVkk4VHRWWW11ZVdlUG12Rm5heEdRQVloTHhDVGphX1llbDNDcFZ3X2J0UQ?oc=5",
+   "s": "Notebookcheck",
+   "d": "2026-10-29T02:36:00+00:00",
+   "lang": "en",
+   "t": "GTA 6 map is bigger than thought, with more interiors explorable on release date",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNd3dzUnByNzJGZ29DTGw5dW43MWYyb2FVdl9qU3NMOEpsN3g4UGw2Tld4M0pabnVlYzR3MTRUTFpndlFQLXRubzhCRzN3NGNvNm51M3RFNFBYTkRwZDkyQlhrdDJWTWVkOUtMMlJtc3NVRnlvblY2eGtaUm52TXN5TmRfMlR3YVpIRjhhVk5wM0l2eDYySlJZSkhwWk9ubmM3SHZCbGhjcFExanBGWXdybEV3N0ZRN0lOWlFCaGgza09kSk1YR3MtVWFsNW1XblpPN2ZhN3dpMng?oc=5",
    "s": "Notebookcheck.fr",
    "d": "2026-10-29T01:48:39+00:00",
@@ -444,19 +446,6 @@
    "chapeau": "GTA 6 file size is reportedly 210 GB on PS5. See how much storage to clear, download times and the Nov. 12 pre-load plan before the Nov. 19 launch.",
    "txt": "Elias Virtanen October 29, 2026 10 min read Grand Theft Auto VI now has a number attached to its install footprint, and it is a heavy one. According to The Scotsman , the X account PlayStation Game Size says the standard PlayStation 5 edition will download at 210 GB. Pre-loading opens on November 12, 2026, which leaves exactly 14 days from today (October 29) to find the room.\nThe figure is a report, not a Rockstar announcement. Neither Rockstar Games nor Take-Two Interactive has confirmed the GTA 6 file size, and we covered the leak itself in our earlier piece on the 210 GB download size leak . This article takes a different angle: what the number means for the storage you already own, how long the download takes, and how to plan the week between pre-load and launch.\n· Google · Preferred Sources Don't miss new tech stories on Google\nAdd Tech Insider once in the Google app and our stories appear in your news suggestions.\nThe source is PlayStation Game Size, an X account that tracks upcoming releases. Complex reported on October 27 that the account determines install sizes by reading the PlayStation Store backend. Its listing for Grand Theft Auto VI put the standard edition at 210 GB, with pre-load on November 12 and release on November 19. Complex also noted the account listed a midnight release time.\nThe Scotsman, which published its explainer on October 28, described the account as one that has proven accurate before, while stressing the number is far from confirmed. GameSpot ran a similar report and framed it the same way: PlayStation Game Size says the $80 standard edition will take 210 GB. Notebookcheck added that the figure equals about a quarter of the available space on a standard PS5.\nThat is four outlets repeating one upstream claim, so treat the agreement as a single data point. Still, the account’s track record and the fact that the figure matches earlier talk of a very large build make 210 GB a reasonable planning number.\nThe firm facts come from the publisher. In its pre-order announcement , Take-Two said Grand Theft Auto VI launches November 19, 2026, on PlayStation 5 and Xbox Series X|S at $79.99. The release also lists the Ultimate Edition at $99.99.\nOn storage logistics, the same release is explicit. Players who pre-order a digital version can begin pre-loading on November 12, 2026. The physical version contains a download code inside the box and becomes available from November 12 to support pre-loading. Our rundown of what is confirmed about the November 19 launch tracks the rest of the checklist.\nThree questions stay open. The Scotsman points out that the 210 GB figure applies only to the standard PS5 edition, with nothing on the pricier Ultimate Edition. It also says nobody knows the Xbox Series X|S size, though it is likely similar to the PS5 build, and nobody knows whether a day-one patch will be required.\nComplex went further and wrote that the tracker pegged the game at 210 GB on both PS5 and Xbox Series X|S. GameSpot and The Scotsman, by contrast, say the Xbox size is unknown but probably close. We side with the cautious reading. A store listing for the game exists on Microsoft’s Xbox store , but no outlet we checked has quoted an official Xbox install size from it.\nThe day-one patch matters most for planning. Pre-load packages often update again at launch. If Rockstar ships a patch, the total footprint on November 19 could exceed 210 GB, and the console may need temporary working space while it installs. No outlet has put a number on this, so any figure you see online is a guess.\nRaw drive capacity overstates what you can use. System software, the operating system cache and your existing library all take a share. The Scotsman puts the original PS5 at around 667 GB of usable storage at launch, with 1 TB on the Slim and 2 TB on the Pro. Mashable describes the base PS5 as having a little less than 1 TB of usable space, so outlets disagree on the original model. We use the lower, more conservative figure.\nThe percentages are our arithmetic. For everything except the original PS5 we divided by advertised capacity, so the real share is higher once system files are subtracted.\nOriginal PS5 owners face the toughest squeeze. At roughly 31% of usable space, one game eats close to a third of the drive. Notebookcheck noted that PS5 Pro owners should feel more comfortable with their 2 TB drive. Slim owners sit in the middle and can likely keep GTA 6 alongside two or three other large installs.\nSeries S o",
    "pub": "2026-10-29T00:06:55+00:00",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdjRTQjJlTDhlMXNySXhXc19odm9Ka25aYjBwaW9HdkRnQ2pQZ0pVd0Y5WXg1ei1FdXZxbUVWWWNHLWRBd1J5eFN1R1JlXzRFa0s4YnBya21QNmk5cDZ2cDJkREV5bzQyakxwWlNORUtFcU5XTi1zeHl4OGFyUnI0WE50Y1BkMng0bEZlTFVhMExoalVuTExOOXk5M3pndUtHZ0JzQW1YRlg?oc=5",
-   "s": "Tech Edition",
-   "d": "2026-10-28T23:46:44+00:00",
-   "lang": "en",
-   "t": "Rockstar Games says GTA 6 leaks were emotionally invasive and difficult to handle",
-   "u": "https://www.techedt.com/rockstar-games-says-gta-6-leaks-were-emotionally-invasive-and-difficult-to-handle",
-   "img": "https://www.techedt.com/wp-content/uploads/2026/10/Rockstar-Games-says-GTA-6-leaks-were-emotionally-invasive-and-difficult-to-handle.jpg",
-   "chapeau": "Rockstar Games explains how the 2022 GTA 6 leaks affected developers emotionally and led to stricter security and office working policies.",
-   "txt": "Rockstar Games explains how the 2022 GTA 6 leaks affected developers emotionally and led to stricter security and office working policies.\nRockstar Games has described the 2022 Grand Theft Auto 6 leaks as an emotionally difficult, deeply invasive experience, revealing how the incident influenced the studio’s security measures and work policies. The unauthorised release of unfinished gameplay footage exposed material that developers had never intended the public to see, prompting changes to how the company protects its highly anticipated game.\nAaron Garbut, co-head of development at Rockstar Games, discussed the incident in a Bloomberg interview covering the lengthy development of GTA 6. His comments offer insight into the breach’s personal impact and the challenges the studio has faced while protecting one of the gaming industry’s most closely watched projects.\nIn September 2022, a hacker accessed Rockstar Games’ internal Slack communications and released dozens of videos showing unfinished GTA 6 gameplay. The footage spread rapidly across social media and gaming websites, revealing early details about the game well before Rockstar was ready to present it officially.\nThe incident attracted widespread attention because GTA 6 was already one of the most anticipated video games in development. The leaked material offered an early look at gameplay systems, environments, and character interactions, though it was an incomplete version of the project. Rockstar later issued a public statement acknowledging the breach and expressing disappointment that the game’s details had been shared this way.\nThe company pursued copyright takedowns to limit the circulation of the footage. However, the material had already spread widely online, making it difficult to contain. Law enforcement later tracked down the alleged hacker, but the public disclosure had already done its damage.\nGarbut explained that the experience was particularly uncomfortable because it exposed work that developers considered private and unfinished. “It feels like somebody’s wading through your dirty washing,” he said. “It’s like they’re inside your head. You see your early work out there. Nobody’s ever supposed to see that. It’s really weirdly invasive. And so it’s quite hard to deal with on an emotional level.”\nHis remarks highlight a different side of major game leaks. While players may welcome early footage and details about upcoming releases, developers can view the unauthorised publication of their work as a serious intrusion. Early development material often lacks the polish, visual quality, and final presentation expected of a completed game, and its sudden exposure can pressure the studio before it’s ready to share its progress.\nThe leak contributed to a broader reassessment of security at Rockstar Games. In 2024, the company introduced a policy requiring developers to work from the office five days a week. The move aimed to strengthen security by limiting access to sensitive development resources and reducing the risks of remote work.\nUnder the policy, developers were also restricted from accessing Rockstar’s servers and tools outside the office. The arrangement created practical difficulties for employees who needed to stay home because of childcare responsibilities or emergencies, with some reportedly having to use holiday leave when they could not attend work.\nThe decision also raised concerns about working conditions at the studio. After releasing Red Dead Redemption 2, Rockstar faced criticism for demanding development schedules and long periods of crunch, during which employees worked long hours to meet production deadlines. The company subsequently faced expectations to adopt more sustainable working practices for future projects.\nThe return to full-time office attendance appeared to reverse some progress toward flexible working arrangements. Although Rockstar has emphasised the importance of protecting GTA 6, the policy has created a difficult balance between safeguarding valuable intellectual property and accommodating employees’ personal circumstances.\nJennifer Kolbe, Rockstar’s head of publishing, told Bloomberg that the company intends to reconsider its working arrangements after GTA 6 launches. However, she suggested that returning to a conventional hybrid model, in which employees spend three days in the office and two days working remotely, might not be straightforward.\n“The idea that we would have the game in that many environments is some",
-   "pub": "2026-10-15T15:50:00+00:00",
    "cyberleek": true
   },
   {
@@ -486,6 +475,15 @@
    "cyberleek": true
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQXcxcUw4ODhMai1YZU56bGxtN1lHMkRtV1NQM2Jucm9LR3htS0pXR0laZzRLWFpBNkxLX2FidHpOTnBMY2VSbWJfNnFLOFZIVTZxb1d1Wm5QejhOUlVIcWh2NWdpNE13LWlrdEZNSGhmUndteXVaTUNpNmx0NmtMODhvRl93YkN0TVMxaG1SMFRHQ083ZEUxUWF5YkFGazh2X3Bj?oc=5",
+   "s": "International Business Times, Singapore Edition",
+   "d": "2026-10-28T18:31:29+00:00",
+   "lang": "en",
+   "t": "GTA 6 File Size Leaked: 210GB PS5 Download Report Raises Storage Concerns",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQ0FyWm92UlY1anB2ZlVtUGlFTEtKRmVpUllYM3VQeTFjNmMwbVk3Q0owWnF4YUY0RUhYVFpDcDI4VVZKWGlSRzZROUVTMUhlSHVHMDU2MDRQNUhBenpRbVBFNDdjWWFXNGh0U0hKUG1vNE5SUXZWQXRlRG1jWVkzczFmc1JKMTVLYUJVeW9vSjJGdw?oc=5",
    "s": "tech-insider.org",
    "d": "2026-10-28T18:12:31+00:00",
@@ -509,19 +507,6 @@
    "chapeau": "Justice prevails",
    "txt": "Rockstar Games is going all-out for GTA 6 , and that includes its original soundtrack.\nAlongside all the licensed music you'll hear throughout the game, an entirely new score is being produced by Justice, the French electronic duo.\nSo far, only one of the tracks from the OST has been released (officially), and that's Flower in a Hurricane , which plays over GTA 6's launch trailer .\nHowever, another OST piece has emerged online recently, and it's brilliant. It's doing the rounds on social media, ahead of what seems to be an official release tomorrow (29th October).\nThe song is named Pusher , and it's by Justice featuring Gesaffelstein.\nThe seven-minute track is a thumping electronic piece that sounds like something right out of Hotline Miami — I really love the vibe of this.\nThe full, 50-track OST is seemingly being released on 11th December, according to its listing on Apple Music .\nIf it's all of a similar quality to the music we've heard so far, I think we could be in for a fantastic aural experience while playing GTA 6.\nWhat are your thoughts? Tell us in the comments section below.",
    "pub": "2026-10-28T18:00:00+00:00",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSUVpdkZmZHliNy1idjVTZzhyR2V5UzNrZEZHbmM3cjJLbW4xemRubkxyZ3ZMd0NSZmhYeVMwTmlvbU5Icm9GSzd4OGJkV3RvUWlSR2FlRHJRVW5HT1F3WGl0VkxFVk05UDFwc1VVU0tkNjhCRUl0b0ZURkF4NzR1dHJCN0lKcGVXQno1Y0RFOEFTM2pkM29ROVJ5eS0zTXZnWVExS0NxS2ozZHVPTGlFWEpPQUgwTlhfY0tRSTY1RDVEdnkwRUxr?oc=5",
-   "s": "Notebookcheck",
-   "d": "2026-10-28T16:03:00+00:00",
-   "lang": "en",
-   "t": "GTA 6 leaks reveal planned performance mode, with 40-60 fps on PS5 and Xbox possible",
-   "u": "https://www.notebookcheck.net/GTA-6-leaks-reveal-planned-performance-mode-with-40-60-fps-on-PS5-and-Xbox-possible.1436391.0.html",
-   "img": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/GTA6ViceCityPlane.jpg",
-   "chapeau": "GTA 6 performance concerns gamers who expected visuals above 30 fps. Still, leaks from earlier builds contain evidence of fidelity and performance modes. Gamers may not see 40-60 fps on the release date, but the PS5 Pro remains the best hope for these frame rates.",
-   "txt": "Rockstar North co-studio head Rob Nelson hinted that Xbox and PS5 release date versions would target 30 fps . However, a pair of GTA 6 leaks suggest the company may have had loftier goals. Development builds reference fidelity and performance modes , with the latter potentially offering higher frame rates.\nOn social media, Frizky analyzed images from two already discussed reports. The first is the 2026 808mafia revelation, showing graphical debugging data on an Xbox console . Although the text is extremely poor quality, it lists fidelity mode and a resolution of 1440p-2160p.\nThe second image originates from the GTA 6 leak allegedly supplied by Aaron Garbut’s son in 2023 . Garbut is a Rockstar development lead, but the gameplay clip was never confirmed to come from a relative. Regardless, Frizky thinks it indicates an earlier build included a performance mode. The preset would likely provide more than the 30 fps currently anticipated.\nUnfortunately, the studio may not have been able to optimize the graphics to reach 40 or 60 fps. Digital Foundry analyzed the Netflix Extended Look and other trailers captured on the base PS5 system. The site believes the visuals render at 30 fps at native 1440p before being upscaled to 4K.\nEven if Rockstar chose a fidelity mode to display Vice City in its full glory, the dense scenery taxes current-gen consoles. The CPU-heavy NPC behavior and ray-traced lighting may also be too demanding for a smoother graphical preset.\nBoosted by PSSR upscaling , the PS5 Pro is the best chance to see improvements until a PC port arrives. That said, its main advantage is a more powerful GPU, and the hardware could still struggle with Leonida ’s complexity. Frustratingly, options for these gamers on the GTA 6 release date remain unclear.\nSince the media reportedly has review codes , leaks threaten to reveal whether 40-60 fps is realistic on any Xbox or PS5 console. Even so, persistent watermarking aims to prevent proof of GTA 6 performance details from surfacing.",
-   "pub": "",
    "cyberleek": true
   },
   {
@@ -577,19 +562,6 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRFJkX2puOVpqTHVHRjJ4V0dlSUE4Y05NV1NkZzZjVVlxQmRCQWFqNm9mTEhZNzhMeHBKUF9CRUpzeHBKY2hheVM1YURiV1FQZFF1N05JVWFvWDliUlRQSV9OM2xDU0l1VWxDR1MyQzZPY190SFZpVWhER1FjZ0dSVXM1NA?oc=5",
-   "s": "https://tech-insider.org/",
-   "d": "2026-10-28T01:31:54+00:00",
-   "lang": "en",
-   "t": "GTA 6 Review Copies Watermarked: 2 Platforms [2026]",
-   "u": "https://tech-insider.org/gta-6-review-copies-watermark-leakers-rockstar-2026/",
-   "img": "https://tech-insider.org/wp-content/uploads/2026/10/gta-6-review-copies-watermark-leakers-rockstar-2026-gen.webp",
-   "chapeau": "GTA 6 review copies are watermarked on 2 platforms, with a 3-week window in play. See how Rockstar tracks leaks and what it means for reviewers in 2026.",
-   "txt": "Marcus Chen October 28, 2026 11 min read Review copies of Grand Theft Auto VI reportedly show the reviewer’s own name on screen, and Rockstar Games would reportedly cut off any journalist or outlet that publishes unauthorized footage. That is the core of a story gaming readers are searching for today, and it rests on a social media post rather than a company statement. Notebookcheck carried the claim, which traces back to a content creator who goes by ManaByte. Rockstar has not confirmed any of it.\nThe detail matters because the GTA 6 review copies watermark story lands about three weeks before launch, right as review codes are said to be moving. Our earlier look at the GTA 6 review embargo windows laid out when buyers can expect verdicts. This piece covers a narrower question: what has actually been reported about watermarks and punishment, what is only a claim, and what a leak-tracing system would mean for the press and for Take-Two.\n· Google · Preferred Sources Don't miss new tech stories on Google\nAdd Tech Insider once in the Google app and our stories appear in your news suggestions.\nAccording to Notebookcheck, Grand Theft Auto VI review copies on Xbox and PlayStation 5 allegedly display the reviewer’s name as a moving or flashing watermark. The idea is simple. If a clip of the game leaks, the name on screen points straight back to the person who received that copy. Notebookcheck framed the whole report as a claim and labeled the details as unconfirmed.\nTwo separate allegations sit inside the story. The first is technical: a visible, moving overlay on review builds. The second is a policy threat: Rockstar would permanently blacklist a journalist or outlet that publishes unauthorized footage from future Rockstar releases. Both come from the same source, and neither has an official Rockstar document behind it.\nThe cited reporting also leaves several things open. It does not establish a watermark design, a technical specification, a release date, a price, or a written punishment policy. Any article that fills those gaps with specifics is guessing. This one will not.\nThe claim came from Jeremy, a content creator who posts under the name ManaByte. Notebookcheck attributes the watermark and blacklist allegations to him and treats them as unverified. He is a commentator with industry contacts, not a Rockstar spokesperson, and the reporting does not name a document, a reviewer, or a Rockstar email as proof.\nThe confirmation side is blank. No official statement from Rockstar Games on watermarked review copies or on permanent punishment for leakers turned up in the coverage reviewed for this article. Take-Two has not addressed it either in the reporting we found. That absence does not make the claim false, since publishers rarely discuss security measures aimed at reviewers. It does mean readers should file the story under reports, not announcements.\nA fair reading looks like this. The mechanism described is plausible and common enough to be unremarkable. The severity of the punishment is the part that deserves the most caution, because a blanket lifetime ban is a business decision with real costs for a publisher that depends on press coverage.\nThe reporting describes a watermark that shows the reviewer’s name and moves or flashes. Nothing more is established. Still, the logic of a visible, moving overlay is easy to explain, and it helps to separate what was claimed from what is general practice.\nA static name in a corner takes seconds to crop out of a clip. A name that drifts across the frame or flashes at intervals is harder to remove without ruining the footage. That is the apparent point of a moving mark. It raises the cost of a clean leak, and it makes the leaker think twice before recording at all.\nA visible watermark works mainly as a deterrent. A reviewer who sees their name floating over every scene knows that any shared clip carries their identity. Hidden marks do the detective work after the fact, while visible ones aim to prevent the incident. The report describes only the visible kind, so we cannot say whether Rockstar also embeds anything less obvious in the video or in the game files.\nThe second claim is the sharper one. Per the report, Rockstar would permanently blacklist a journalist or outlet that publishes unauthorized footage from future Rockstar releases. The word future is the important part. It turns a one-time embargo penalty into a standing relationship risk, because the next Rockstar game and the",
-   "pub": "2026-10-28T01:31:54+00:00",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaXdNUkZ0UXlEUkR5LURJNjdGeU1JMHgzeTMyRGY5RVNBRThpM3lUN1p2U2l3VEdjaHRKbUtZeE41TTI1VlhvTEtfSjc2R0NLcnJVQWVaR3E4U2ZqOUg0SUU5V1ZJN1JKSU1JOWVxMTlSWEhXWmRoMHZZbTlwalU3Ylc4Znc5TE03aWpOanVVTkVjWGdSWV91X1FR?oc=5",
    "s": "UNILAD Tech",
    "d": "2026-10-27T10:14:17+00:00",
@@ -621,7 +593,7 @@
    "d": "2026-10-26T19:12:15+00:00",
    "lang": "fr",
    "t": "Une nouvelle fuite potentielle dévoile des images de Lucia dans GTA 6",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -630,7 +602,7 @@
    "d": "2026-10-26T15:14:40+00:00",
    "lang": "en",
    "t": "CYBERLEEK Price, CYBERLEEK Price, Live Charts, and Marketcap",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -652,11 +624,7 @@
    "d": "2026-10-26T04:38:45+00:00",
    "lang": "en",
    "t": "Cyberleek Shares More GTA 6 Footage Featuring Lucia Naked",
-   "u": "https://www.imdb.com/fr/news/ni66063856/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -665,7 +633,7 @@
    "d": "2026-10-25T17:45:09+00:00",
    "lang": "fr",
    "t": "Selon ce leak, GTA 6 aura bien le poster que les joueurs attendent le plus inclus dans sa boîte",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -739,11 +707,7 @@
    "d": "2026-10-22T15:12:54+00:00",
    "lang": "en",
    "t": "Cyberleek Shares GTA 6 Leak Of Naked Lucia",
-   "u": "https://www.imdb.com/news/ni66062173/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -791,11 +755,7 @@
    "d": "2026-10-20T07:57:13+00:00",
    "lang": "en",
    "t": "GTA 6 Leaker Threatens Story Spoilers If Caught",
-   "u": "https://www.imdb.com/news/ni66067342/?ref_",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -817,11 +777,7 @@
    "d": "2026-10-19T03:46:45+00:00",
    "lang": "en",
    "t": "GTA 6 Leaker's Latest Effort Appears To Flop As Group's Meme Coin Declines",
-   "u": "https://me.pcmag.com/en/security/38351/gta-6-leakers-latest-effort-appears-to-flop-as-groups-meme-coin-declines",
-   "img": "https://sm.pcmag.com/t/pcmag_me/news/g/gta-6-leak/gta-6-leakers-latest-effort-appears-to-flop-as-groups-meme-c_zw4r.1200.jpg",
-   "chapeau": "The GTA 6 leaker, CyberLeek, seems to be frustrated that the group's meme coin has cratered amid scam accusations, prompting it to hit pause.",
-   "txt": "",
-   "pub": "2026-10-19T03:46:45+00:00",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -830,11 +786,7 @@
    "d": "2026-10-19T02:15:56+00:00",
    "lang": "en",
    "t": "Cyberleek Confirms 20th GTA 6 Leak Will Be Their Last",
-   "u": "https://www.imdb.com/news/ni66067343/?ref_",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
