@@ -1,6 +1,14 @@
 {
- "maj": "2026-10-29T12:53:45+00:00",
+ "maj": "2026-10-29T13:13:58+00:00",
  "items": [
+  {
+   "src": "r/GTA6",
+   "prio": 2,
+   "t": "In Osaka, Japan",
+   "u": "https://www.reddit.com/r/GTA6/comments/1xigcao/in_osaka_japan/",
+   "d": "2026-10-29T10:33:07+00:00",
+   "nouveau": true
+  },
   {
    "src": "r/GTA6",
    "prio": 2,
@@ -39,7 +47,7 @@
    "t": "Gameplay information from the EDGE interview",
    "u": "https://www.reddit.com/r/GTA6/comments/1xi5edh/gameplay_information_from_the_edge_interview/",
    "d": "2026-10-29T00:25:05+00:00",
-   "nouveau": true
+   "nouveau": false
   },
   {
    "src": "r/GTA6",
@@ -71,14 +79,6 @@
    "t": "GTA 6 Trailer 1 has officially surpassed 300 million views.",
    "u": "https://www.reddit.com/r/GTA6/comments/1xhr1qf/gta_6_trailer_1_has_officially_surpassed_300/",
    "d": "2026-10-28T15:22:43+00:00",
-   "nouveau": false
-  },
-  {
-   "src": "r/GTA6",
-   "prio": 2,
-   "t": "GTA 6 full original score track “Pusher” by Justice and Gesaffelstein.",
-   "u": "https://www.reddit.com/r/GTA6/comments/1xhn98v/gta_6_full_original_score_track_pusher_by_justice/",
-   "d": "2026-10-28T12:53:45+00:00",
    "nouveau": false
   },
   {
@@ -164,6 +164,14 @@
   {
    "src": "Rockstar Newswire",
    "prio": 1,
+   "t": "Grand Theft Auto VI: Original Score by Justice",
+   "u": "https://www.rockstargames.com/newswire/article/39ak8a12395591",
+   "d": "",
+   "nouveau": true
+  },
+  {
+   "src": "Rockstar Newswire",
+   "prio": 1,
    "t": "Watch the Grand Theft Auto VI Launch Trailer",
    "u": "https://www.rockstargames.com/newswire/article/517572321a549a",
    "d": "",
@@ -174,14 +182,6 @@
    "prio": 1,
    "t": "Grand Theft Auto VI Collection Now at the Rockstar Store",
    "u": "https://www.rockstargames.com/newswire/article/759875393o5253",
-   "d": "",
-   "nouveau": false
-  },
-  {
-   "src": "Rockstar Newswire",
-   "prio": 1,
-   "t": "The Music of Grand Theft Auto VI: In-Game Radio Stations",
-   "u": "https://www.rockstargames.com/newswire/article/o3982oa93a23k4",
    "d": "",
    "nouveau": false
   }
