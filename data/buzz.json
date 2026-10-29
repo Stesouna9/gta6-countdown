@@ -1,8 +1,46 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-10-27T20:12:29+01:00",
+  "updated_at": "2026-10-29T20:25:21+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-justice-score-precommandes",
+      "title": "Justice : les précommandes du score circulent sur X",
+      "summary": "Les éditions vinyle et double CD du score de GTA VI par Justice circulent chez plusieurs comptes. @gtasix_ rapporte 30 titres et des expéditions à partir du 11 décembre. Un autre relais évoque 50 morceaux : les chiffres divergent, sans faire de cette reprise une confirmation de Rockstar.",
+      "url": "https://x.com/gtasix_/status/2115744039026794945",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rapporté",
+      "published_at": "2026-10-29T09:54:22.000Z",
+      "checked_at": "2026-10-29T20:25:21+01:00",
+      "evidence": "Vues relevées le 29 octobre 2026 à 12 h 12 UTC dans data/x_alertes.json (copie serveur). 14 511 vues ; sujet également repris par @GTAlphaintel (3 160 vues), @TheGTABase (1 425 vues) et @RockstarNewsFRA (903 vues, chiffre de 50 morceaux divergent).",
+      "visual": "SCORE JUSTICE",
+      "image": "https://pbs.twimg.com/media/HVyh_JAWEAAL8Wy?format=jpg&name=360x360",
+      "image_alt": "Visuel partagé par @gtasix_ pour les éditions du score de Justice",
+      "image_credit": "@gtasix_ sur X",
+      "cta": "Voir la publication sur X",
+      "embed_type": "x",
+      "post_text": "GTA 6’s Original Score by Justice is now available to pre-order through Rough Trade.\n\nThe soundtrack includes 30 tracks and will be released on crystal clear and black vinyl, as well as double CD, with shipping beginning December 11.\n\nRockstar Games will most likely reveal more"
+    },
+    {
+      "id": "x-edge-police-bus",
+      "title": "Se cacher dans un bus : les détails de police font réagir",
+      "summary": "@gtasix_ relaie de nouveaux détails attribués au dossier Edge, dont la possibilité de se cacher dans un bus si la police ne voit pas le personnage y monter. Le post dépasse 83 000 vues dans le relevé du jour. Il s’agit du récit relayé par ce compte, pas d’une démonstration de gameplay vérifiée ici.",
+      "url": "https://x.com/gtasix_/status/2115737943348257093",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rapporté",
+      "published_at": "2026-10-29T09:30:08.000Z",
+      "checked_at": "2026-10-29T20:25:21+01:00",
+      "evidence": "Vues relevées le 29 octobre 2026 à 12 h 12 UTC dans data/x_alertes.json (copie serveur). 83 621 vues, 2 010 mentions J’aime et 142 reposts. Détails attribués par le compte au dossier Edge ; accès direct au post refusé (403), mécanique non vérifiée dans le jeu.",
+      "visual": "POLICE BUS",
+      "image": "https://pbs.twimg.com/media/HVyccAlXIAAXCIA?format=jpg&name=small",
+      "image_alt": "Image accompagnant les détails GTA VI relayés par @gtasix_",
+      "image_credit": "@gtasix_ sur X",
+      "cta": "Voir la publication sur X",
+      "embed_type": "x",
+      "post_text": "NEW GTA 6 DETAILS:\n\n- Players can hide from police inside buses. If officers don’t see you board, they shouldn’t automatically know you’re inside, potentially allowing you to escape the wanted area unnoticed.\n\n- Players can provoke NPCs into confrontations and then defuse the"
+    },
     {
       "id": "x-210-go-playstation-game-size",
       "title": "210 Go sur PS5 : le chiffre de PlayStation Game Size s'emballe",
@@ -277,6 +315,11 @@
       "at": "2026-10-27T20:12:29+01:00",
       "label": "Veille permanente · matière X fournie",
       "summary": "Source : data/x_alertes.json (relevé du 27/10 à 18 h 38 UTC, 17 posts). Rien de neuf : les posts sur les 210 Go et sur Edge sont déjà publiés ; Wynwood (59 vues) et Max Payne 3 (161 vues) restent sous le seuil, un seul compte. Aucun sujet ajouté. Aucun post X publié."
+    },
+    {
+      "at": "2026-10-29T20:25:21+01:00",
+      "label": "Veille permanente · Justice et détails Edge sur X",
+      "summary": "Deux sujets ajoutés depuis le relevé serveur data/x_alertes.json du 29 octobre à 12 h 12 UTC : précommandes du score Justice (plusieurs comptes ; divergence 30/50 titres signalée) et détails de police attribués à Edge (83 621 vues). Annonce Edge du 27 octobre déjà présente ; GTA Online Halloween hors sujet ; comptes à rebours et autres posts isolés non retenus. Recherches publiques Rockstar, X, Instagram et TikTok effectuées. Ouverture des originaux X : Cache miss et 403 ; Instagram Rockstar : 429 ; TikTok et Newswire sans texte exploitable. Aucun nouveau sujet Instagram ou TikTok vérifié, aucune métrique actuelle déduite."
     }
   ],
   "coverage": {
