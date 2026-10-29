@@ -1,6 +1,6 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-10-29T22:12:45+01:00",
+  "updated_at": "2026-10-30T00:12:31+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
     {
@@ -439,6 +439,11 @@
       "at": "2026-10-29T22:12:45+01:00",
       "label": "Veille permanente · contrôle X et annonce Justice",
       "summary": "Relevé serveur data/x_alertes.json du 29/10 à 12 h 12 UTC relu : Justice et police Edge déjà présents, aucune nouvelle entrée admissible. Compte à rebours 500 heures (20 838 vues) non ajouté : répétition de la date, sans nouvelle annonce ni heure de déblocage établie. GTA Online et anniversaire GTA IV hors périmètre. Carte Justice enrichie par la présence de l’annonce du 29/10 dans les résultats publics du site officiel et du Newswire Rockstar, sans valider les chiffres divergents de pistes. Recherches X, Instagram, TikTok et Rockstar effectuées ; original X inaccessible (Cache miss), Instagram 429, TikTok limité par robots.txt et profil sans texte ; ouverture directe Rockstar sans texte exploitable. Aucun nouveau post Instagram ou TikTok vérifié, aucun compteur actualisé inventé. Les 18 sujets et leurs images sont conservés."
+    },
+    {
+      "at": "2026-10-30T00:12:31+01:00",
+      "label": "Veille permanente · relecture x_alertes et presse",
+      "summary": "data/x_alertes.json (relevé du 29/10 à 12 h 12 UTC, inchangé depuis le passage précédent) et data/presse.json (dernier relevé 29/10 23 h 06 UTC) relus. Aucun sujet GTA6 nouveau : Justice, police Edge et South Park déjà présents ; compte à rebours 500 heures (20 838 vues) écarté comme répétition de date ; posts Rockstar GTA Online et anniversaire GTA IV hors périmètre ; les autres posts sont sous 10 000 vues et sans reprise multiple. Les articles de presse récents (embargo des tests, 60 fps, rupture Carrefour, boîte sans disque) n'ont aucune publication sociale vérifiée associée. Aucun compteur inventé. Les 18 sujets et leurs images sont conservés."
     }
   ],
   "coverage": {
