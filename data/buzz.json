@@ -1,8 +1,27 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-10-30T22:12:46+01:00",
+  "updated_at": "2026-10-31T00:05:00+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-rockstar-relaie-edge-430",
+      "title": "Rockstar relaie le dossier Edge de 16 pages sur GTA VI",
+      "summary": "Le compte officiel de Rockstar Games invite à lire la couverture d'Edge n° 430 consacrée à GTA VI, désormais en kiosque et en ligne chez GamesRadar. C'est le relais officiel du dossier déjà annoncé le 29 octobre ; il confirme que le contenu est lisible gratuitement. Le post n'apporte pas de nouvelle information sur le jeu.",
+      "url": "https://x.com/RockstarGames/status/2116287925566550459",
+      "platform": "X",
+      "author": "@RockstarGames",
+      "status": "Officiel",
+      "published_at": "2026-10-30T21:55:34.000Z",
+      "checked_at": "2026-10-31T00:05:00+01:00",
+      "evidence": "Vues relevées le 30 octobre 2026 à 22 h 16 UTC dans data/x_alertes.json : 189 439 vues, 761 reposts, 7 385 J'aime, 300 réponses. Post du compte officiel @RockstarGames avec lien vers gamesradar.com/edge/gtavi-cover. Image du post ouverte (HTTP 200). Ouverture X directe non faite (pas de navigateur) ; contenu de l'article Edge non relu ici.",
+      "visual": "EDGE 430",
+      "image": "https://pbs.twimg.com/media/HV6QpdoWcAAcD-z?format=jpg&name=small",
+      "image_alt": "Couverture Edge n° 430 consacrée à GTA VI, image du post de Rockstar Games",
+      "image_credit": "@RockstarGames sur X",
+      "cta": "Voir la publication sur X",
+      "embed_type": "x",
+      "post_text": "Check out Edge's Grand Theft Auto VI cover story from Issue 430, online and in-stores now."
+    },
     {
       "id": "x-miami-tour-sauveteurs-vi",
       "title": "À Miami Beach, une tour de sauveteurs affiche le logo VI",
@@ -688,6 +707,11 @@
       "at": "2026-10-30T22:12:46+01:00",
       "label": "Veille permanente · tour de sauveteurs VI à Miami",
       "summary": "Relevé X serveur du 30/10 à 20 h 13 UTC vérifié : nouvelle vidéo de tour de sauveteurs VI ajoutée (21 456 vues, un compte, Rumeur), image réelle ouverte. Contexte de campagne recoupé avec iGrandTheftAuto du 22 octobre ; pas une nouvelle annonce Rockstar. NINE1NINE, bières et Dylan Rourke déjà couverts. Relation Jason/Lucia (9 549 vues), mariage (4 794), taxe (42) et syndicat (13) sous le seuil sans second relais dans ce relevé ; rétrospective 1997 écartée. Recherches X/Rockstar/Instagram/TikTok effectuées : X direct 403, Instagram 429, TikTok sans texte lisible et recherche bloquée par robots.txt. Page officielle GTA VI ouverte, aucune nouvelle annonce admissible identifiée. Aucun original Instagram ni nouvelle vidéo TikTok vérifiés."
+    },
+    {
+      "at": "2026-10-31T00:05:00+01:00",
+      "label": "Veille permanente · Rockstar relaie Edge 430",
+      "summary": "Relevé X du 30/10 à 22 h 16 UTC : post officiel @RockstarGames sur Edge n° 430 (189 439 vues) ajouté, statut Officiel. Autres posts sous le seuil (gtasix_ Miami 10 616 vues, un seul compte, sujet déjà couvert) ou doublons. Pas de navigateur : X direct, Instagram, TikTok non consultés."
     }
   ],
   "coverage": {
