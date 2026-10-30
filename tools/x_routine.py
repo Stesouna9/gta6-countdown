@@ -75,6 +75,20 @@ def compose(tete, corps, theme, suite=(), appel="👇 Article complet en répons
         corps += "\n\n" + coupe(x, place)
     return f"{tete}\n\n{corps}\n\n{pied}" if corps else f"{tete}\n\n{pied}"
 
+# 30/10 Gabriel : « quand tu cites des comptes, il faut mettre l'@ devant »
+ALIAS_X = {"Vice Central": "vicecentralFR", "Rockstar Games": "RockstarGames", "Rockstar": None}
+def arobase(texte, srcs=()):
+    """Comptes X cités (sources de l'article + alias connus) -> @compte, une seule fois chacun, jamais dans les liens."""
+    comptes = {}
+    for u in srcs or ():
+        m = re.match(r"https?://(?:x|twitter)\.com/([A-Za-z0-9_]{2,15})/status/", u)
+        if m: comptes[m.group(1)] = m.group(1)
+    for nom, h in ALIAS_X.items():
+        if h and (h in comptes or nom.lower() in texte.lower()): comptes[nom] = h
+    for nom, h in sorted(comptes.items(), key=lambda x: -len(x[0])):
+        texte = re.sub(r"(?<![@/\w.])" + re.escape(nom) + r"(?![\w/])", "@" + h, texte, flags=re.I)
+    return texte
+
 def image_article(a):
     f = RACINE / "assets/img/articles" / f"{a['id']}.jpg"
     return f.read_bytes() if f.exists() else None
@@ -179,6 +193,7 @@ def main():
         a = cands[0]
         vb = "vice-break" in a["id"]   # notre jeu : pas une alerte
         texte = compose(("🔒 " if cyb else "🎮 " if vb else "🚨 ") + a["fr"]["t"], a["fr"].get("d", ""), "#Cyberleek" if cyb else "#ViceBreak" if vb else "#ViceCity", paragraphes(a["fr"].get("h", "")))
+        texte = arobase(texte, a.get("src", []))
         img, cle = image_article(a), a["id"]
         lien = f"https://gtavifrance.com/journal/{a['id']}.html"
         if slot in ("actu", "chaud"):   # 22/10 Gabriel : au moins une news par jour avec le lien dans le post (9 h), pas en réponse
