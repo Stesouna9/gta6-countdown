@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-30T18:31:37+00:00",
+ "maj": "2026-10-30T18:51:50+00:00",
  "articles": [
   {
    "gn": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPVWw4SkNwUV9tS1BMMmsyUlk2MVJ4eVZTNXRYN0ZvZVl2QnluWjFWc3dPVUhsNUFBdUZfV0VRalN3Ui03dG9IamMtNktTUmo3X3RGeHJoR1doNC1WR0VKNmpCbEdUMGZOUFdmLUdQcTQ0OWMzOF9IOEt5NE1NZFQwMU9wWnBpSjViQnFUYjZkdm9fU2xRcnRGOWtBVmR4OG1JcElXOWVfSVFWM1QtdjNWRGpKbTd2UVlrSElGaVhWWFBpeHYySmpUMEw0Um1uSWMwV2hCT0xxYWZZb1RsWktMdA?oc=5",
@@ -26,18 +26,6 @@
    "pub": "2026-10-30T19:40:16+02:00"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNYzhBQnZRTzJ2dkRndjRPbHZSR2dfajFTcERkNDhtMkhxV3A3dGN4ZDVLWW9TUDB1TmNmSGI3THNfNUJHT2FNM2dhcGtuQW5XS0p5T0hFQm8xQ1JDUlJucUNRRzEwX2tNemczSUhya01NS3piM3pxVXdueTN1NFVyYzF5eERpRkpsVVNxZ1pkcjNBLTBMX2RFeU9NdDBnZU1uOXc?oc=5",
-   "s": "AZ Family",
-   "d": "2026-10-30T17:19:00+00:00",
-   "lang": "en",
-   "t": "Scammers trying to cash in on Grand Theft Auto 6 release; here's how",
-   "u": "https://www.azfamily.com/video/2026/10/30/scammers-trying-cash-grand-theft-auto-6-release-heres-how/",
-   "img": "https://gray-kpho-prod.gtv-cdn.com/resizer/v2/https%3A%2F%2Fdo0bihdskp9dy.cloudfront.net%2F10-30-2026%2Ft_280b1473f7ea4a2f9b6867891e737801_name_file_1280x720_2000_v3_1_.jpg?auth=74cb1ed6b1204ecf8fb044a2602c913c00d0f449e97a56d5c78bc206833bc7b8&width=1200&height=600&smart=true",
-   "chapeau": "With the highly anticipated release of Grand Theft Auto 6 on the horizon, scammers are trying to cash in on the release. Susan Campbell explains how.",
-   "txt": "",
-   "pub": "2026-10-30T17:19:48Z"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQN0NJUEt6YXgtMTdoWnhKdEJrdy1FOG1sa2pwenNmWkY0eGQzekNyRWtJbFdtU1M1TjlIVlBNUjhNVzRZcThMRzc2bENHU0pNMkJuNERMaGZiczhwUkRLUmthZ2VYU0d5TE9LZm1qclZsdGtFSUZ2cDVGcE1hSWFUR21sLTZpVC1pWktqMkRHSHhvX2lpTDNvOXlYUVJhVWVjUVYwZ0NjaXZMbTljNGVJU3dzdjRxOE5HOG9NcDFJSUtiUQ?oc=5",
    "s": "Gamekult",
    "d": "2026-10-30T17:17:00+00:00",
@@ -54,12 +42,8 @@
    "s": "Gamekyo.com",
    "d": "2026-10-30T17:15:00+00:00",
    "lang": "fr",
-   "t": "Gamekyo : Blog : Mercuriales, les affiches pour GTA 6 sont terminées",
-   "u": "https://www.gamekyo.com/blog_article488706.html",
-   "img": "http://www.gamekyo.com/Webmasters/Images/grand-theft-auto-vi_20220730_060731_intro.jpg",
-   "chapeau": "Blog : Mercuriales, les affiches pour GTA 6 sont terminées : Gamekyo is a social video game magazine for the Wii, Nintendo DS, PlayStation 2, PlayStation 3, PSP, Xbox 360 and PC. Blog : Mercuriales, les affiches pour GTA 6 sont terminées",
-   "txt": "",
-   "pub": ""
+   "t": "Mercuriales, les affiches pour GTA 6 sont terminées",
+   "erreur": "HTTP Error 429: Too Many Requests"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZGFIME9kRGVBNDdDZ2xQVnd4NUYwMlJPUVNlamx3cEhjTzI5UXZSdnRITjlaNi13Qll3VXd5QWZxQWM1ZXVycVZ1Y29ZR20waW93OU9DMGxJdXNTUlYtUHZKcHpWZm5xcjFGXzB5Y01pNGZ6UWpiTXAyTzhoeHJzSmtlOU9BWHJVdVh3S1hjbE1TZTR6QUVrN2lFYXdyX2dnekFlazM5eGV2UzYza1g1OHE5MG1rZV9qUDY3cDByMjBrNnA2WDM0?oc=5",
@@ -79,7 +63,7 @@
    "d": "2026-10-30T16:44:57+00:00",
    "lang": "fr",
    "t": "Chronique Journal GTA : GTA 6 n'est pas vraiment un jeu vidéo",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeVpSUjMwcTVnZ1UyX3kzZS1yVFkwRkc1anpjRnBVSjZhenBlcGpfX05FVmNoVWNzZ1ZmeEsyaXJ3bXBVRU1VU2JFaENkRkF6bjM2cGZZSDBXOVlNa1E3Qm9sdURDNmt0VTh1YmV4cGpDNnR3SWNKNG1xVVh3c2JEVmpuUnJORnY1aV9zRmhzXzVhOVFLMVVRTWhkdEJwT1Fx?oc=5",
@@ -87,7 +71,7 @@
    "d": "2026-10-30T16:37:41+00:00",
    "lang": "fr",
    "t": "Chronique Journal GTA : GTA 6 : Avez-vous acheté la PS5 Pro pour rien",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBFZDFBOVA5Z05acXZ2cHNPUklLS0FtM1pHTUFSY25oYjVwQ1puMTdTT01aUXRXckYtempsZnNVYzljOW1CN29idWZIQ2JlMGY0N2gweFNhTGZsa1pIal9MYkFJdHY2UHFuTUF2VGxn?oc=5",
@@ -118,12 +102,8 @@
    "s": "RTBF",
    "d": "2026-10-30T16:21:51+00:00",
    "lang": "fr",
-   "t": "La bande-son de GTA VI s’étoffe avec 'Pusher', un titre inédit de Justice et Gesaffelstein - RTBF Actus",
-   "u": "https://www.rtbf.be/article/la-bande-son-de-gta-vi-s-etoffe-avec-pusher-un-titre-inedit-de-justice-et-gesaffelstein-11808217",
-   "img": "https://static-content.rtbf.be/article/image/1920x1080/f/0/8/b5f4837144b5c9f2e41b79d87df52407.jpg",
-   "chapeau": "La sortie de GTA VI approche à grands pas, avec un rendez-vous fixé au 19 novembre. Deux albums ont été annoncés pour...",
-   "txt": "",
-   "pub": ""
+   "t": "La bande-son de GTA VI s’étoffe avec \"Pusher\", un titre inédit de Justice et Gesaffelstein",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQWTVrUFNCNW5WeVRObzdTZ0c1OG5nc2ZkU1hsaXhzVVhKQVYtcFg3VUwteC1PQ21DMGM3TWpjaDJTLUtZbHJRREZHRTdSUGJMRjFCdm9QV040d3ZuOFptak1GNjMzOThQNkpiRWg3VlRmRGZBOFJhMGwtTFV6T05keGE2UThhZHkyZHJDUEh2TGxoZE5XcGFTbXFoaGk4cGdwZzlXc3ZwX1FTUnJLS1BydklpRndNY243OUpjMUJLaHpLVGE5WlVxenVqRVY3c3ZOSy1MajFzSkpVbDRVay1xZkhodHdpRlU?oc=5",
@@ -179,11 +159,7 @@
    "d": "2026-10-30T15:42:00+00:00",
    "lang": "fr",
    "t": "Après GTA 6, cet autre jeu vidéo culte aura enfin une suite au bout de 15 ans d'attente",
-   "u": "https://www.purebreak.com/news/apres-gta-6-cet-autre-jeu-video-culte-aura-enfin-une-suite-au-bout-de-15-ans-dattente/266601",
-   "img": "https://static1.purebreak.com/uploads/98/0b/a7/9d/06b5c309f6e53a69-1200x630-1.jpg",
-   "chapeau": "Oubliez (déjà) GTA 6 ! Ce jeu vidéo culte de fantasy s&#039;apprête enfin à avoir une suite, après 15 ans d&#039;attente. L&#039;annonce officielle aura lieu dans les prochaines semaines et devrait signer une première historique pour la franchise.",
-   "txt": "",
-   "pub": "2026-10-30T16:42:00+01:00"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMifkFVX3lxTE43d2YtZEpjR0dXeTdCRnpFUXczOEtYYnpCR29ZSnQzZ0UzWUlUZy1fOXl0MVk2dTM4Wmh3M2NqWlJZbHFza1dFX1JOenBTVlQ5b2pFeGFLZ0psQjFRbEZHcWRqNFZITFExTU9NMk42Z3ZkeDBOWDBCSnE4WmtnUQ?oc=5",
@@ -196,6 +172,14 @@
    "chapeau": "",
    "txt": "Rockstar Games continue de dévoiler les coulisses de Grand Theft Auto 6 , et la dernière information en date concerne un système de moralité profondément remanié, directement inspiré de celui de Red Dead Redemption 2 . Rob Nelson, co-directeur du studio Rockstar North et responsable du développement, a détaillé le fonctionnement du « Profil Criminel » dans une interview accordée au magazine Edge. Ce système permettra aux joueurs de définir quel type de criminel ils incarnent, avec des conséquences tangibles sur le monde et le scénario.\nLe cœur de cette nouveauté réside dans une échelle de moralité dynamique qui suivra les actions des deux protagonistes, Lucia et Jason . Cette échelle s’étendra de « Professionnel » à « Irrécupérable », symbolisée par des icônes d’ange et de démon. L’idée n’est pas de forcer les joueurs à devenir des saints, mais de les rendre conscients de la violence qu’ils déploient. Comme l’explique Nelson, « il n’y a pas de bonne ou de mauvaise façon de jouer à ce jeu, mais des actions cohérentes peuvent avoir un impact sur la façon dont le monde réagit à vous et sur la façon dont le récit se déroule ».\nConcrètement, cela signifie que chaque décision, qu’il s’agisse de la manière de gérer un affrontement ou de simples interactions avec l’environnement, influencera ce profil. Un criminel « Professionnel » pourra par exemple neutraliser un adversaire sans le tuer, privilégier l’intimidation ou la corruption pour obtenir ce qu’il veut, tandis qu’un profil « Irrécupérable » résultera d’une approche plus brutale et expéditive. Le jeu ne punit pas la violence en soi, mais récompense la retenue et la réflexion.\nL’impact de ce système ne se limitera pas à une simple jauge cosmétique. Rockstar a confirmé que le Profil Criminel affectera directement le déroulement de l’histoire. Les joueurs qui visent une fin spécifique devront donc surveiller attentivement leurs actions. Cette approche rappelle le système d’honneur de Red Dead Redemption 2 , mais poussé plus loin, avec une granularité plus fine et des répercussions plus immédiates sur le monde ouvert.\nNelson a également souligné que de petits actes de gentillesse peuvent racheter un profil en chute libre. Ramasser des déchets, nourrir les oiseaux dans un parc : ces micro-interactions, apparemment anodines, contribueront à redorer votre image. Cela crée une boucle de gameplay intéressante où chaque choix compte, même en dehors des missions principales.\nLors d’une précédente interview avec IGN, Nelson avait déjà expliqué la philosophie derrière ce système. L’objectif était d’éviter que les personnages joueurs ne deviennent trop puissants, en introduisant une forme de responsabilité. « Il n’y a pas de bonne ou de mauvaise façon de jouer à ce jeu, mais des actions cohérentes peuvent avoir un impact », répète-t-il. Cette déclaration souligne la volonté de Rockstar de créer une expérience plus immersive et réactive, où le monde se souvient de vos actes.\nCette approche s’inscrit dans la lignée des évolutions narratives de Rockstar, qui cherche à rendre ses mondes ouverts plus vivants et crédibles. GTA 6 promet ainsi une profondeur inédite pour la série, où la moralité n’est pas qu’un simple gadget, mais un véritable pilier du gameplay et de la narration.\nPour rappel, Grand Theft Auto 6 a été officiellement annoncé en décembre 2023 avec un premier trailer qui a battu des records. Le jeu se déroulera dans l’État de Leonida, une version fictive de la Floride, avec pour ville principale Vice City. Les deux protagonistes, Lucia et Jason, formeront un duo inspiré de Bonnie et Clyde. La sortie est prévue pour l’automne 2025 sur PlayStation 5 et Xbox Series X/S , avec une version PC attendue ultérieurement.\nLes informations sur le système de moralité s’ajoutent à une liste déjà longue de fonctionnalités prometteuses : un monde ouvert plus dense, des interactions plus poussées avec les PNJ, et une physique améliorée. Rockstar semble vouloir repousser les limites de l’immersion, et ce nouveau système de profil criminel en est une preuve supplémentaire.\nEn attendant de pouvoir mettre la main sur le jeu, les fans peuvent spéculer sur les implications de ce système. Sera-t-il possible de terminer l’histoire en tant que criminel « Professionnel » ? Les fins multiples seront-elles nombreuses ? Autant de questions qui trouveront leurs réponses à la sortie du jeu.",
    "pub": ""
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWnNNU212Sno4TWRHNjNEeWVHakh0MGNlTGtfYV9pd0g5UmE4ZkRRaklJSzVaTHBSMFRydFExLUFZM0E2RmhfNDM2WUpoUWFtcXl3WVg2ZWZqdVNRQl9HU0N1M0hBRzcwdXFrSHNOWTk1Y1pQakN4eDMtdFZRMnZEUFc5X2R5RDZzTnJmd21ZSnZKRXJUNFMzVHQ3ZUYxa1lWUGFqa09rbmpCOGlvanc?oc=5",
+   "s": "RTBF",
+   "d": "2026-10-30T15:30:53+00:00",
+   "lang": "fr",
+   "t": "Du mème au gameplay : comment GTA 6 transforme une blague culte de GTA 4 en vraie mécanique de jeu",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPY3BTVDlsc2FWRU53bnZOTmNxSlZBR0ZmUUd1VXV3UGNDbVJaX0xIYUlvUUM5Rl9Zb0lxNWMxMHZBOEI3YzJsWEEwdVFVTlVXSUFlZkx6ZTRhdlJxNnV1bWlPYTlITHZfVEFJWGU2YlRaU25vTjZGQ0hqY2p2ODdwdkd3dGlnb210YlRLckhuT1NQM0F1YlRkeVNncDNKTHZRWnlpUjk0XzU2MG5uZ2tVcG1rQ0Q0Ymk3T1dzczRWWHdfS25ta1I1dXpCY1N5OXZyeXFmejY3YWJ5eWFWLTZvQmliNkRvRFZKdE5IalV6UE8?oc=5",
@@ -251,19 +235,7 @@
    "d": "2026-10-30T15:07:34+00:00",
    "lang": "en",
    "t": "GTA 6 purchase intent is high among US PC and console gamers",
-   "erreur": "HTTP Error 403: Forbidden"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWnNNU212Sno4TWRHNjNEeWVHakh0MGNlTGtfYV9pd0g5UmE4ZkRRaklJSzVaTHBSMFRydFExLUFZM0E2RmhfNDM2WUpoUWFtcXl3WVg2ZWZqdVNRQl9HU0N1M0hBRzcwdXFrSHNOWTk1Y1pQakN4eDMtdFZRMnZEUFc5X2R5RDZzTnJmd21ZSnZKRXJUNFMzVHQ3ZUYxa1lWUGFqa09rbmpCOGlvanc?oc=5",
-   "s": "RTBF",
-   "d": "2026-10-30T15:04:00+00:00",
-   "lang": "fr",
-   "t": "Du mème au gameplay : comment GTA 6 transforme une blague culte de GTA 4 en vraie mécanique de jeu - RTBF Actus",
-   "u": "https://www.rtbf.be/article/un-meme-culte-de-gta-4-devient-une-veritable-mecanique-de-jeu-dans-gta-6-11808075",
-   "img": "https://static-content.rtbf.be/article/image/1920x1080/e/9/e/b2b25cc9a5baed63146c6fad4817ffb2.jpg",
-   "chapeau": "L’histoire remonte à 2008, alors que Twitch s’appelait encore 'Justin.tv'. Brad Simons, un des animateurs de la...",
-   "txt": "",
-   "pub": ""
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9IWHBiLUhQNnA1LVZUcWhjaEdOUHNiVUhUc3VNcmRvUUU2RHd3VEluejJESGpHaVBQY01mWTBPQ2o4VmlpSkJUVXpVR2NyWE5DSGhBeFJGSkFvMjNGZ25keGFOU1RRXzI4SVNJQUtLSjhDZzVhZkFKNlpEX1o?oc=5",
@@ -302,6 +274,14 @@
    "pub": "2026-10-30T14:30:18Z"
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbU44NEZ6enJhNjdCSHk4WlhiUy1NenptdlFOc0dmMVljNjdDdzA4Y3lmZWFwZTcyejF4Vm1OWGtoRW42aFVmdHE0TEluTnJSc0VJREdQMXp2V0Z6dWRSYnR4ZHdxNzY1SXRobl8yMGg4VVhkU3EwYy1IN3F2bU1iQUxxUHBFVzU1SHRYa25YQ3NWdmp4dmc?oc=5",
+   "s": "GameSpot",
+   "d": "2026-10-30T14:20:19+00:00",
+   "lang": "en",
+   "t": "GTA 6’s Attention To Detail Is Getting A Little Ridiculous",
+   "erreur": "429 : passage suivant"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMitAJBVV95cUxPUXhraGE3S1RHUFFqYlpIWTRSNGF2OGRMY2p4Rk9kNTRLRTItcS1MYVhMNkxUb3JHNjMxTUlmMnd2Ujd6MlM3cGQ4Y0JxRk1pdW10TmZNZVBlOXBPMDg3ZmZfUjBVVEhjSVRWWEhYY1F1UW1nQUx2Vm4xODVXVnZ6Smp2Y0FjMEtNcl9ER2w3b0NYeFZ5WU8wRjZfTHNnRFZ0WVJid1BYQVV6M3poM3pLZ3RsTnZzS3E2V2pxTVd6dFZpWVJZYWR1aThTTEYwbVhjNG1VS1p3TksxU1p6U0Vac3plNkJrVTZ3bGd2SHVVU0xoN2RHRHNTTGtGdDFEeEU0M0ZuMWtZQk11dmxmTWh0NjdGVEFNTlFCMW81VmhHaTVtcDZGOTAyT0wyUFd5akRHbFVuQQ?oc=5",
    "s": "Le Parisien",
    "d": "2026-10-30T14:04:14+00:00",
@@ -331,7 +311,7 @@
    "d": "2026-10-30T14:01:48+00:00",
    "lang": "fr",
    "t": "Les meilleures ventes jeux vidéo sur Amazon cette semaine",
-   "erreur": "HTTP Error 307: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error messag"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNaFk0NUloeGIzSHY0Zjh6ZksyMlBlMWVNRHBEZGFmM18ta09DQzdVR291Ml96S0E4ZmxfVU9SU3NuZkE1R2g3cEg3WWs2enJOY2dmb3JLZktDT2JmRVNRa2RvTElfcDdvMUpmV1NKMmQ3LVlzdlVMRzFHNk9FeXBkaFlIOHpjaWFTRWlHTGQ0Z3o3SU9GeWZDWjYyT3pEZEdzOXRick16YXpMWlNoSVA5ek84RkFpdw?oc=5",
@@ -339,7 +319,7 @@
    "d": "2026-10-30T13:56:59+00:00",
    "lang": "en",
    "t": "New ‘South Park’ Episode Reveals New GTA 6 Gameplay, With Throwable Dog Poop",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVnNwZmNZaU5Ma1Qwd2txUlU2emlHRjh2TUVIQm5CY0hRa2hCTWd0NktTOWRmQ1oyNmhHcmxJXzVYdG1KcXhhdzdNbTFsSU5xREZtRDlCY2NMNklHdXRFbFNTSmxHNk11XzhDU21kQl9zUVAwdFh0UU9zbVRrNlNua0JQdHI3bFlURDBoWmpHd1UwZ296R25HcWp5TVlRbFE?oc=5",
@@ -347,7 +327,7 @@
    "d": "2026-10-30T12:39:43+00:00",
    "lang": "fr",
    "t": "Les copies de GTA 6 fournies aux médias n'ont quand même pas de filigranes",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -650,6 +630,15 @@
    "cyberleek": true
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUzFPSVZ0WDBtSmEyWkdDTzE1LXdONUp4OHNrZ3pLck1fNC00TlNlU0J0eFRyc1V2VXVpOXduTjVjZ1VKdVhDSnU1cjRXeloxRnVzVlZQdWRZYzh1b2JfWHY4SE52WVhWbGZnR2ptSFlEXzV0akZkNHhvYmllbV96ZWtFYW9WS1JUdlhMR2xkVG1JVFkzdHc?oc=5",
+   "s": "www.fpsnews.net",
+   "d": "2026-10-27T05:54:46+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : du gameplay leaké avant l’aperçu Netflix",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5JbUFQYTFyWmNteU96ckl4WHZqNjk3NmR6aUdmQTJaWHNHb21nN1VDU3F5ZXY1MmltRzhmQ0djc0xpTm9LRVBpRWRQWGg3WG5na0hWZ1k1UHltSklYbXhZTlFrOGlCb1k?oc=5",
    "s": "SVG",
    "d": "2026-10-27T01:00:00+00:00",
@@ -668,7 +657,7 @@
    "d": "2026-10-26T19:12:15+00:00",
    "lang": "fr",
    "t": "Une nouvelle fuite potentielle dévoile des images de Lucia dans GTA 6",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -677,7 +666,7 @@
    "d": "2026-10-26T15:14:40+00:00",
    "lang": "en",
    "t": "CYBERLEEK Price, CYBERLEEK Price, Live Charts, and Marketcap",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -699,11 +688,7 @@
    "d": "2026-10-26T04:38:45+00:00",
    "lang": "en",
    "t": "Cyberleek Shares More GTA 6 Footage Featuring Lucia Naked",
-   "u": "https://www.imdb.com/fr/news/ni66063856/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -712,7 +697,16 @@
    "d": "2026-10-25T17:45:09+00:00",
    "lang": "fr",
    "t": "Selon ce leak, GTA 6 aura bien le poster que les joueurs attendent le plus inclus dans sa boîte",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdzR0V2JHOHlfU0llMjA3UnUycTNhaVZ0OGtCckx2LVZjR3gyaHBnLUdnbEZ0R1dVQnBOUm5KUWxjbDNNZ19BT2oyRlNfbmhtUmxNTXBLSTVVZ0xkcHJQLVRpcUIyMUZFdmIxLW93RWREXzVqUFc4b01pQkNMUzE2ejN5VDNOV0Vy?oc=5",
+   "s": "BlogNT",
+   "d": "2026-10-25T15:22:34+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : fuite massive de 25 minutes de gameplay",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -760,11 +754,7 @@
    "d": "2026-10-22T15:12:54+00:00",
    "lang": "en",
    "t": "Cyberleek Shares GTA 6 Leak Of Naked Lucia",
-   "u": "https://www.imdb.com/news/ni66062173/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -799,11 +789,7 @@
    "d": "2026-10-20T11:13:09+00:00",
    "lang": "en",
    "t": "'GTA 6' Leaker Posts Nude Lucia Video With Threats of Releasing Game Early",
-   "u": "https://www.imdb.com/de/news/ni66062324/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -812,37 +798,7 @@
    "d": "2026-10-20T07:57:13+00:00",
    "lang": "en",
    "t": "GTA 6 Leaker Threatens Story Spoilers If Caught",
-   "u": "https://www.imdb.com/news/ni66067342/?ref_",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA4NEExcXJYR19TdXRJMGhvRmkydTBIbmtteWNibkxlWGZuaFotWkhTdjhVa0FKclYwQVVMam9VMFY5WHdDX0NVTTR2OFQ4djBJYVItbjNjSEg1NGVaM2EzQ0ZjMm9pbS1za1hUd05tNE1tX2hTWlhHeQ?oc=5",
-   "s": "virus.hr",
-   "d": "2026-10-19T07:00:00+00:00",
-   "lang": "en",
-   "t": "The latest post from GTA VI Leaker Cyberleek – Virus",
-   "u": "https://virus.hr/en/news/the-latest-post-from-gta-vi-leaker-cyberleek",
-   "img": "https://virus.hr/storage/10879/conversions/Cyberleek-hero.webp",
-   "chapeau": "Notorious leaker Cyberleek is halting posts due to negative sentiment and market capitalization. What does this mean for GTA VI?",
-   "txt": "Back News The latest post from GTA VI Leaker Cyberleek Boris Milojević 19. October 2026. Grand Theft Auto leak game over?\nNotorious leaker GTA VI, Cyberleek, announces after less than 2 months that he is stopping all postings.\nCyberleek, also known for his seemingly ambitious goals such as forcing Rockstar and their publisher, Take-Two, to release a physical version of the game, announces that due to not reaching the market capitalization goal of his cryptocurrency of 30 million dollars and the huge negative sentiment towards him and his “secret project,” he is halting all his activities (for now).\nCyberleek also emphasizes that he has an active “dead man’s switch” that will (allegedly) release the full version of the game, over 200 gigabytes, for free to everyone if Take-Two successfully catches him. (without specifying whether this is a build of the game for Playstation, Xbox, or PC)\nCyberleek stresses that releasing footage of the game's ending would harm gamers, not just T2, and that he has already caused enough damage to the publisher.\nAll in all, a polarizing figure in our gaming world, who has potentially caused as much harm as good. How this story ends, he may not even know himself yet.\nEpomaker HE65 V2 TMR A 65% Hall Effect keyboard with TMR sensors, Rapid Trigger technology, an adjustable actuation point and hybrid hot-swap support. Designed for precise in-game control and comfortable everyday typing.",
-   "pub": "2026-10-19T01:32:54+00:00",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdGhzMjJJd0ttd0tGVjdDMmtPSWNyLWhMTVh0c2tCanZQcEFaQjFMTy0wanBYTkM3MFRFNlYyMEJ0ZHk4dFVsWnhuRDRjNklJV1hHUndSaU1jY3o5NEM4dW5mOENibWdzMHNZZkdub0I1V0lFRjVaamJZQWNxTHJta0NWajhyZ2ZoZExxcEJpRUloS1lSVDRIUUtUdGpYN1Yxd2FrVllVb2lvU2dYQllpUg?oc=5",
-   "s": "PCMag Middle East",
-   "d": "2026-10-19T03:46:45+00:00",
-   "lang": "en",
-   "t": "GTA 6 Leaker's Latest Effort Appears To Flop As Group's Meme Coin Declines",
-   "u": "https://me.pcmag.com/en/security/38351/gta-6-leakers-latest-effort-appears-to-flop-as-groups-meme-coin-declines",
-   "img": "https://sm.pcmag.com/t/pcmag_me/news/g/gta-6-leak/gta-6-leakers-latest-effort-appears-to-flop-as-groups-meme-c_zw4r.1200.jpg",
-   "chapeau": "The GTA 6 leaker, CyberLeek, seems to be frustrated that the group's meme coin has cratered amid scam accusations, prompting it to hit pause.",
-   "txt": "",
-   "pub": "2026-10-19T03:46:45+00:00",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   }
  ]
