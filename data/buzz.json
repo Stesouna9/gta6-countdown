@@ -1,8 +1,47 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-10-30T14:12:48+01:00",
+  "updated_at": "2026-10-30T16:12:51+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-nine1nine-e11even-miami",
+      "title": "NINE1NINE à Miami : E11EVEN fait parler les fans de GTA VI",
+      "summary": "Selon @gtasix_, E11EVEN Miami prendra les couleurs du NINE1NINE de GTA VI le 6 novembre, avec Flo Rida. @GTAlphaintel, @RockstarNewsFRA et @vicecentralFR relaient le sujet. La billetterie Speakeasy confirme Flo Rida ce vendredi-là ; elle ne confirme pas la transformation aux couleurs du jeu. Cette dernière reste attribuée aux publications X.",
+      "url": "https://x.com/gtasix_/status/2116157758647226721",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rapporté",
+      "published_at": "2026-10-30T13:18:20.000Z",
+      "checked_at": "2026-10-30T16:12:51+01:00",
+      "evidence": "Vues relevées le 30 octobre 2026 à 15 h 06 UTC dans data/x_alertes.json, copie serveur (maj 2026-10-30T15:06:13+00:00) : @gtasix_ 36,372 vues. Ouverture directe X indisponible (cache absent ou HTTP 403) ; le relevé constitue la source observée selon la procédure Buzz. Reprises : @GTAlphaintel (2 932 vues), @RockstarNewsFRA (681 vues), @vicecentralFR. Résultat de recherche Speakeasy lu le 30/10 ; ouverture web directe indisponible : Flo Rida le 6 novembre ; aucune mention NINE1NINE dans son texte. Aucun total de vues agrégé.",
+      "visual": "CLUB MIAMI",
+      "image": "https://pbs.twimg.com/media/HV4aQ2DWQAAmktl?format=jpg&name=360x360",
+      "image_alt": "Visuel du club relayé par @gtasix_ à propos du NINE1NINE à Miami",
+      "image_credit": "@gtasix_ sur X",
+      "cta": "Voir la publication sur X",
+      "embed_type": "x",
+      "post_text": "GTA 6’s NINE1NINE nightclub is coming to real life in Miami.\n\nE11EVEN Miami will transform into the Vice City nightclub on November 6, with a special performance by Flo Rida to celebrate GTA 6.",
+      "corroboration": "https://speakeasygo.com/E11EVEN/FLO%20RIDA%20AT%20E11EVEN?eid=EVE-33XTNB"
+    },
+    {
+      "id": "x-tournage-suppose-miami",
+      "title": "Une vidéo de tournage à Miami nourrit une rumeur GTA VI",
+      "summary": "@gtasix_ relaie une vidéo, attribuée à un lien TikTok, qui montrerait un tournage promotionnel de Rockstar à Miami. Le post atteint 28 480 vues dans le relevé. Ce seuil mesure la circulation du message, pas son authenticité : ni la participation de Rockstar ni le lien avec GTA VI ne sont confirmés dans les sources accessibles.",
+      "url": "https://x.com/gtasix_/status/2116152523056631957",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rumeur",
+      "published_at": "2026-10-30T12:57:32.000Z",
+      "checked_at": "2026-10-30T16:12:51+01:00",
+      "evidence": "Vues relevées le 30 octobre 2026 à 15 h 06 UTC dans data/x_alertes.json, copie serveur (maj 2026-10-30T15:06:13+00:00) : @gtasix_ 28,480 vues. Ouverture directe X indisponible (cache absent ou HTTP 403) ; le relevé constitue la source observée selon la procédure Buzz. Lien TikTok indiqué par le post : https://vm.tiktok.com/ZN8U4vAU7/ ; ouverture indisponible. Aucun lecteur TikTok ajouté sans URL native vérifiée. Le rapprochement avec E11EVEN avancé par un autre relais ne confirme pas l’identité du commanditaire.",
+      "visual": "TOURNAGE MIAMI",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2116152434749800448/img/3-D4hVM5N965O5cU.jpg",
+      "image_alt": "Aperçu de la vidéo de tournage supposé à Miami relayée par @gtasix_",
+      "image_credit": "@gtasix_ sur X",
+      "cta": "Voir la publication sur X",
+      "embed_type": "x",
+      "post_text": "New footage of what may be Rockstar Games filming GTA 6 promotional material in Miami.\n\n(via: \nhttps://\nvm.tiktok.com/ZN8U4vAU7/)"
+    },
     {
       "id": "x-paris-affichage-mercuriales",
       "title": "GTA VI à Paris : les façades géantes circulent sur X",
@@ -570,6 +609,11 @@
       "at": "2026-10-30T14:12:48+01:00",
       "label": "Veille permanente · affichage parisien",
       "summary": "Relevé X serveur renouvelé le 30/10 à 13 h 03 UTC : ajout de l’affichage parisien (86 331 vues et trois comptes). Police/bus Edge déjà couvert ; captures HDR à 19 888 vues sous le seuil et sans second relais observé ; tournage supposé Miami, armes et projection Bank of America sous le seuil et sans second relais. Compte à rebours et Halloween GTA V non retenus. Recherches publiques X, Instagram, TikTok et Rockstar effectuées ; page officielle GTA VI ouverte, Justice déjà couvert. X direct 403/cache indisponible, Instagram 429 et TikTok sans texte lisible : aucune nouvelle publication native de ces réseaux inventée. Images de toutes les cartes contrôlées avant publication."
+    },
+    {
+      "at": "2026-10-30T16:12:51+01:00",
+      "label": "Veille permanente · NINE1NINE et tournage supposé",
+      "summary": "Relevé X serveur du 30/10 à 15 h 06 UTC contrôlé : ajout NINE1NINE/E11EVEN (36 372 vues et plusieurs relais) et tournage supposé à Miami (28 480 vues, statut Rumeur). Résultat de recherche Speakeasy lu (ouverture web directe indisponible) : Flo Rida le 6 novembre confirmé, transformation du club seulement rapportée sur X. Police/bus, Paris et filigranes déjà couverts ; progression par argent/temps et abandon des armes sous 20 000 vues sans second relais observé. GTA Online hors périmètre, compte à rebours écarté. Recherches publiques X, Instagram, TikTok et Rockstar effectuées ; page officielle GTA VI ouverte. X direct cache absent/403, Instagram 429 et TikTok inaccessible : limites consignées, aucune confirmation ni métrique inventée. Images de toutes les cartes contrôlées avant publication."
     }
   ],
   "coverage": {
