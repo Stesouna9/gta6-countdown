@@ -1,8 +1,28 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-10-30T20:12:40+01:00",
+  "updated_at": "2026-10-30T22:12:46+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-miami-tour-sauveteurs-vi",
+      "title": "À Miami Beach, une tour de sauveteurs affiche le logo VI",
+      "summary": "Une vidéo relayée par @GTAVI_Countdown montre une tour de sauveteurs habillée du logo VI. Le post récapitule aussi plusieurs opérations à Miami, dont NINE1NINE déjà suivi ici. Ce nouveau visuel illustre la campagne dans la ville ; il ne constitue pas une nouvelle annonce de gameplay.",
+      "url": "https://x.com/GTAVI_Countdown/status/2116246412564238340",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-10-30T19:10:37.000Z",
+      "checked_at": "2026-10-30T22:12:46+01:00",
+      "evidence": "Vues relevées le 30 octobre 2026 à 20 h 13 UTC dans data/x_alertes.json, copie serveur (maj 2026-10-30T20:13:46+00:00) : 21 456 vues, 75 reposts et 909 J’aime chez @GTAVI_Countdown. Un compte observé pour cette nouvelle vidéo : statut Rumeur selon la grille Buzz. Le relevé X vaut source vérifiée pour la circulation du post. Image jointe ouverte et contrôlée : cabine sombre, toit et garde-corps roses, logo VI. Ouverture X directe refusée (403) ; vidéo complète et lieu exact non vérifiés indépendamment. Les documents de campagne décrits par iGrandTheftAuto le 22 octobre corroborent le contexte Miami Beach, pas la date de prise de vue. NINE1NINE déjà couvert : pas de seconde carte sur ce club.",
+      "visual": "VICE BEACH",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2116243943507542016/img/kGiN3ESQFLRRmGk9.jpg",
+      "image_alt": "Tour de sauveteurs portant le logo VI, image de la vidéo relayée par GTAVI Countdown",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "cta": "Voir la publication sur X",
+      "embed_type": "x",
+      "post_text": "New GTA 6 marketing in Miami: Themed Lifeguard Tower with the VI logo",
+      "corroboration": "https://www.igrandtheftauto.com/gta6/news/more-details-on-rockstars-vice-beach-marketing-plans"
+    },
     {
       "id": "x-dylan-rourke-repartage-instagram",
       "title": "Dylan Rourke : un repartage Instagram GTA VI signalé sur X",
@@ -663,6 +683,11 @@
       "at": "2026-10-30T20:12:40+01:00",
       "label": "Veille permanente · repartage attribué à Dylan Rourke",
       "summary": "Relevé X serveur du 30/10 à 18 h 10 UTC lu : signalement du repartage Instagram attribué à Dylan Rourke ajouté (68 507 vues, un compte, statut Rumeur). Aucun casting confirmé. Bières Tripping Animals et NINE1NINE déjà couverts ; taxe au téléchargement sous le seuil (21 vues) sans second relais ; compte à rebours écarté. Recherches Rockstar/X/Instagram/TikTok effectuées : annonce Justice déjà couverte, X direct sans cache, Instagram limité (429), TikTok sans texte lisible et recherche limitée par robots.txt. Aucun original Instagram du repartage retrouvé ni nouvelle vidéo TikTok vérifiée. Les métriques restent celles du relevé horodaté."
+    },
+    {
+      "at": "2026-10-30T22:12:46+01:00",
+      "label": "Veille permanente · tour de sauveteurs VI à Miami",
+      "summary": "Relevé X serveur du 30/10 à 20 h 13 UTC vérifié : nouvelle vidéo de tour de sauveteurs VI ajoutée (21 456 vues, un compte, Rumeur), image réelle ouverte. Contexte de campagne recoupé avec iGrandTheftAuto du 22 octobre ; pas une nouvelle annonce Rockstar. NINE1NINE, bières et Dylan Rourke déjà couverts. Relation Jason/Lucia (9 549 vues), mariage (4 794), taxe (42) et syndicat (13) sous le seuil sans second relais dans ce relevé ; rétrospective 1997 écartée. Recherches X/Rockstar/Instagram/TikTok effectuées : X direct 403, Instagram 429, TikTok sans texte lisible et recherche bloquée par robots.txt. Page officielle GTA VI ouverte, aucune nouvelle annonce admissible identifiée. Aucun original Instagram ni nouvelle vidéo TikTok vérifiés."
     }
   ],
   "coverage": {
