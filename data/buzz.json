@@ -1,8 +1,27 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-10-30T12:12:43+01:00",
+  "updated_at": "2026-10-30T14:12:48+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-paris-affichage-mercuriales",
+      "title": "GTA VI à Paris : les façades géantes circulent sur X",
+      "summary": "Une vidéo relayée par @gtasix_, créditée à fernan.orres, montre un affichage GTA VI à Paris. Le sujet est également repris par @RockstarNewsFRA et @GTA6France1, qui situe les visuels sur les tours Les Mercuriales, porte de Bagnolet. Le relevé compte 86 331 vues pour le post de @gtasix_ ; la localisation reste attribuée aux relais, sans confirmation directe de Rockstar.",
+      "url": "https://x.com/gtasix_/status/2116085197058052423",
+      "platform": "X",
+      "author": "@gtasix_ · vidéo via fernan.orres",
+      "status": "Rapporté",
+      "published_at": "2026-10-30T08:30:00.000Z",
+      "checked_at": "2026-10-30T14:12:48+01:00",
+      "evidence": "Vues relevées le 30 octobre 2026 à 13 h 03 UTC dans data/x_alertes.json, copie serveur : @gtasix_ 86 331 vues. Reprises : @RockstarNewsFRA (1 563 vues, https://x.com/RockstarNewsFRA/status/2116133585027510314) et @GTA6France1 (90 vues, https://x.com/GTA6France1/status/2116127674653446248). Ouverture directe X refusée (403) ou sans cache disponible ; le relevé X constitue la source observée conformément à la procédure Buzz. Aucun total de vues agrégé.",
+      "visual": "PARIS GTA",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2116084686585815041/img/Wf8EoPiuhtML-BNY.jpg",
+      "image_alt": "Aperçu de la vidéo d’affichage GTA VI à Paris relayée par @gtasix_",
+      "image_credit": "@gtasix_ sur X · vidéo via fernan.orres",
+      "cta": "Voir la publication sur X",
+      "embed_type": "x",
+      "post_text": "GTA 6 taking over Paris 🌴\n\n(via: fernan.orres)"
+    },
     {
       "id": "rattrapage-pc-six-sept-mois-analyste",
       "title": "GTA VI sur PC : un analyste parle de mai 2027",
@@ -546,6 +565,11 @@
       "at": "2026-10-30T12:12:43+01:00",
       "label": "Veille permanente · contrôle des sources et des 23 images",
       "summary": "Relevé serveur data/x_alertes.json du 29/10 à 12 h 12 UTC relu : Justice et police Edge déjà présents ; aucun nouveau sujet admissible. Compte à rebours 500 heures déjà écarté comme répétition ; GTA Online et anniversaire GTA IV hors périmètre. Recherches publiques Rockstar, X, Instagram et TikTok effectuées : résultats officiels affichant Justice le 29 octobre, déjà couvert ; Newswire direct sans texte exploitable ; X refusé (403), Instagram limité (429), profil TikTok sans texte lisible. Aucun nouveau contenu social vérifiable retenu, aucune métrique actualisée inventée. Les 23 sujets conservés disposent tous d’une image JPEG contrôlée en HTTP 200. Cadence permanente maintenue."
+    },
+    {
+      "at": "2026-10-30T14:12:48+01:00",
+      "label": "Veille permanente · affichage parisien",
+      "summary": "Relevé X serveur renouvelé le 30/10 à 13 h 03 UTC : ajout de l’affichage parisien (86 331 vues et trois comptes). Police/bus Edge déjà couvert ; captures HDR à 19 888 vues sous le seuil et sans second relais observé ; tournage supposé Miami, armes et projection Bank of America sous le seuil et sans second relais. Compte à rebours et Halloween GTA V non retenus. Recherches publiques X, Instagram, TikTok et Rockstar effectuées ; page officielle GTA VI ouverte, Justice déjà couvert. X direct 403/cache indisponible, Instagram 429 et TikTok sans texte lisible : aucune nouvelle publication native de ces réseaux inventée. Images de toutes les cartes contrôlées avant publication."
     }
   ],
   "coverage": {
