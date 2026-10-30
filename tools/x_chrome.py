@@ -90,8 +90,8 @@ def colle(texte):
     return js("""(()=>{const e=document.querySelector('[data-testid=tweetTextarea_0]');if(!e)return 'pas de zone texte';e.focus();
 document.execCommand('selectAll',false,null);document.execCommand('delete',false,null);
 const t=%s,d=new DataTransfer();d.setData('text/plain',t);e.dispatchEvent(new ClipboardEvent('paste',{clipboardData:d,bubbles:true,cancelable:true}));
-const L=()=>e.innerText.split(String.fromCharCode(10)).join('').length;if(L()<10)document.execCommand('insertText',false,t);
-const n=L();return n>10&&n<1300?'texte ok':'texte '+n})()""" % json.dumps(texte))   # X ignore le coller simulé depuis le 24/10 19 h : insertText en secours
+const L=()=>e.innerText.split(String.fromCharCode(10)).join('').length;if(L()<10){const ls=t.split(String.fromCharCode(10));for(let i=0;i<ls.length;i++){if(i)document.execCommand('insertLineBreak',false,null);if(ls[i])document.execCommand('insertText',false,ls[i]);}}
+const n=L();return n>10&&n<1300?'texte ok':'texte '+n})()""" % json.dumps(texte))   # X ignore le coller simulé depuis le 24/10 19 h : insertText en secours, ligne par ligne + insertLineBreak (30/10 : « vraiment.Il » devenu lien)
 
 def ouvre_onglet():
     """Nouvel onglet x.com/home dans la fenêtre 1, sans activer Chrome."""
