@@ -1,8 +1,44 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-10-30T00:12:31+01:00",
+  "updated_at": "2026-10-30T08:10:00+02:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "rattrapage-filigrane-copies-test-dement",
+      "title": "Copies de test GTA VI : deux initiés démentent la rumeur de filigrane",
+      "summary": "La rumeur d'exemplaires de test filigranés au nom des critiques est démentie par NateTheHate et Tom Henderson, selon GTA BOOM : pas de filigrane, mais de vraies mesures de sécurité autour des copies. Nous relayons ce démenti attribué aux deux initiés, sans l'avoir vérifié nous-mêmes.",
+      "url": "https://www.gtaboom.com/no-the-alleged-gta-6-review-copies-are-reportedly-not-watermarked-f335",
+      "platform": "Presse",
+      "author": "GTA BOOM · recoupé avec Notebookcheck",
+      "status": "Rapporté",
+      "published_at": "2026-10-30T04:20:33Z",
+      "checked_at": "2026-10-30T08:10:00+02:00",
+      "evidence": "Article GTA BOOM du 30/10 lu dans data/presse.json (relevé du 30/10 07 h UTC), recoupé par un article Notebookcheck.fr du même jour sur les mesures de sécurité des tests. Publication sociale d'origine non retrouvée : le bouton ouvre la source de presse. Aucun compteur social vérifié.",
+      "visual": "FILIGRANE",
+      "image": "https://gtavifrance.com/assets/img/articles/2026-10-29-copies-test-filigranes-contestes-henderson.jpg",
+      "image_alt": "Copies de test de GTA VI et rumeur de filigrane",
+      "image_credit": "Illustration de notre article · GTAVIFRANCE",
+      "cta": "Lire la source",
+      "article": "journal/2026-10-29-copies-test-filigranes-contestes-henderson.html"
+    },
+    {
+      "id": "rattrapage-carte-35-minutes-voiture",
+      "title": "35 minutes pour traverser la carte de GTA VI en voiture",
+      "summary": "MCE TV (Ouest-France) reprend un chiffre attribué à JeuxVideo.com : traverser la carte de GTA VI en voiture prendrait environ 35 minutes, contre 10 pour GTA V. Ce chiffre est rapporté par la presse, non confirmé par Rockstar.",
+      "url": "https://mcetv.ouest-france.fr/2026/gta-6-carte-immense-35-minutes-traversee-gta-5/",
+      "platform": "Presse",
+      "author": "MCE TV · d'après JeuxVideo.com",
+      "status": "Rapporté",
+      "published_at": "2026-10-30T07:02:37+01:00",
+      "checked_at": "2026-10-30T08:10:00+02:00",
+      "evidence": "Article MCE TV du 30/10 lu dans data/presse.json ; corroboré par un article Yahoo Tech du même jour sur la taille de la carte. Pas de source officielle, pas de compteur social vérifié.",
+      "visual": "CARTE 35 MIN",
+      "image": "https://gtavifrance.com/assets/img/articles/2026-10-29-edge-leonida-carte-exploration-premieres-images.jpg",
+      "image_alt": "Carte de Leonida dans GTA VI",
+      "image_credit": "Illustration de notre article · GTAVIFRANCE",
+      "cta": "Lire la source",
+      "article": "journal/2026-10-29-edge-leonida-carte-exploration-premieres-images.html"
+    },
     {
       "id": "x-justice-score-precommandes",
       "title": "Justice : les précommandes du score circulent sur X",
@@ -444,6 +480,11 @@
       "at": "2026-10-30T00:12:31+01:00",
       "label": "Veille permanente · relecture x_alertes et presse",
       "summary": "data/x_alertes.json (relevé du 29/10 à 12 h 12 UTC, inchangé depuis le passage précédent) et data/presse.json (dernier relevé 29/10 23 h 06 UTC) relus. Aucun sujet GTA6 nouveau : Justice, police Edge et South Park déjà présents ; compte à rebours 500 heures (20 838 vues) écarté comme répétition de date ; posts Rockstar GTA Online et anniversaire GTA IV hors périmètre ; les autres posts sont sous 10 000 vues et sans reprise multiple. Les articles de presse récents (embargo des tests, 60 fps, rupture Carrefour, boîte sans disque) n'ont aucune publication sociale vérifiée associée. Aucun compteur inventé. Les 18 sujets et leurs images sont conservés."
+    },
+    {
+      "at": "2026-10-30T08:10:00+02:00",
+      "label": "Veille permanente · x_alertes inchangé, presse",
+      "summary": "x_alertes.json inchangé (relevé du 29/10 12 h 12 UTC) : aucun sujet X nouveau. Presse du 30/10 : deux sujets ajoutés (démenti du filigrane des copies de test, carte de 35 minutes), avec source de presse explicite et sans compteur social inventé."
     }
   ],
   "coverage": {
