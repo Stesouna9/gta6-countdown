@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-30T21:55:46+00:00",
+ "maj": "2026-10-30T22:15:58+00:00",
  "articles": [
   {
    "gn": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQWjBDaFA5ZWFrYUFQYzlVYTBWbHlVcnZTVVdjbEthdWlkOFNLVVA5aWhMb1FMam1tWU95WW5XLTc3SjVmRUxOTzJiNzVyX0lHTWJTdGdBNWQ2MWx0QkxqdU0yQkhrUklJRUw4QXl3bWJUelNRNmJZaTIteWlPVXZnV3ZQNGU3dm9wUloxWmV5RG8tYnFjQVNhOTVITUt5M2hFOFR6a1NZYnFjNHktd280V1lzcmVlZW56dUk3ZHp2Nlh1UVdfTjVxdS1MUHp4ZWJ0aG1rRzBnTFU5M18wVWhmRnV1c3NsSGNQSkwtZjlZX0JRa0N6ZGtCSjZPcnNpQQ?oc=5",
@@ -28,6 +28,14 @@
    "chapeau": "Les députés ont voté une taxe de 5,5 centimes par gigaoctet. Calculette en main, voici ce qu'elle coûterait sur GTA 6, Netflix en 4K ou un nœud Bitcoin.",
    "txt": "Encyclopédie du Coin Améliorez vos connaissances sur les cryptos\nPublicité Cinq centimes et demi le gigaoctet. « Si ça bouge, taxez-le », professait Ronald Reagan en 1986, et vos données bougent énormément. Ce vendredi 30 octobre, l’Assemblée nationale a adopté par 11 voix contre 10 une taxe sur chaque gigaoctet envoyé vers les abonnés à Internet en France. La blockchain Bitcoin et ses 779 Go coûteraient 42,85 euros de taxe. Encore faudrait-il trouver quelqu’un à qui envoyer la note.\nL’amendement socialiste vise Google, Netflix et leurs cousins du cloud. Il atterrit dans un projet de budget 2027 qui s’est déjà copieusement servi dans la fiscalité crypto , et les gigaoctets ont une fâcheuse tendance à finir sur la facture du client.\nLe texte porte le numéro I-1358 . Le député PS Laurent Lhardit l’a déposé le 9 octobre avec une soixantaine de collègues. Pourtant, la commission des finances l’avait d’abord rejeté. Il est donc revenu par la séance, un vendredi, devant 35 députés présents. Onze ont dit oui.\nLe mécanisme crée dans le Code général des impôts une « taxe sur les producteurs de données numériques ». Concrètement, les fournisseurs d’accès devraient compter chaque trimestre les volumes que chaque émetteur envoie vers leurs clients. L’Arcep et la DGFiP superviseraient le tout. Sans regarder le contenu ni la destination, jure le dispositif.\nLe tarif est de 0,055 euro par gigaoctet . Selon l’exposé de l’amendement, l’Arcep évalue à 200 milliards de Go le trafic annuel livré aux abonnés français. Google, Meta, Amazon, Netflix et Akamai en pèsent d’ailleurs la moitié à eux seuls. Rendement espéré : 10 milliards d’euros par an. La multiplication brute donne 11 milliards, l’arrondi est généreux.\nLe gouvernement n’en veut pas. Le ministre des Comptes publics David Amiel a mis en doute la faisabilité du dispositif. Il a aussi prévenu que près de la moitié de la recette viendrait d’acteurs plus modestes, français compris. Un plafond est prévu, fixé à 15 % du chiffre d’affaires réalisé en France ou 2 % du chiffre d’affaires mondial. Le texte écrit « ou » sans dire lequel s’applique. On aime ces petits détails.\nCommençons par les cas qui parlent à tout le monde. Ramenée à l’usage, la taxe au gigaoctet transforme vite les centimes en euros :\nSur un jeu vendu 80 euros en téléchargement, 11,55 euros de taxe représentent 14 % du prix . Pour un free-to-play de 40 Go, en revanche, la taxe tombe sur un produit qui ne rapporte rien à l’installation.\nC’est là que le plafond entre en scène. L’exposé de l’amendement le justifie pour les secteurs gourmands en données par euro gagné, la vidéo à la demande et le jeu vidéo en tête. Faisons le calcul du pire. Prenons un éditeur taxé au plafond de 15 % de son chiffre d’affaires français. Pour conserver la même recette nette, il devrait relever ses prix de 17,6 % , car 1 divisé par 0,85 donne 1,176. Votre jeu à 80 euros passerait à 94 euros .\nRien ne l’y oblige, et la taxe est due par l’émetteur, pas par le joueur. Mais Netflix a augmenté ses abonnements sans avoir besoin d’un impôt pour se motiver.\nReste le cas qui nous intéresse. Pour faire tourner un nœud complet , ce logiciel qui garde une copie intégrale de la blockchain et vérifie chaque transaction, il faut télécharger l’historique du réseau depuis 2009. Soit 779,01 Go au 28 octobre selon Blockchain.com, contre 696 Go un an plus tôt.\nÀ 0,055 euro le gigaoctet, la synchronisation d’un nœud vaudrait donc 42,85 euros de taxe. Sauf que personne ne l’envoie.\nLes blocs ne sortent pas d’un serveur de Google ou d’un CDN, ces réseaux de diffusion qui rapprochent les fichiers des internautes. En effet, ils arrivent par morceaux depuis des dizaines de nœuds anonymes. Beaucoup tournent sur une simple box, à Lyon, Montréal ou Osaka. L’amendement identifie l’émetteur par son numéro d’enregistrement IANA , l’organisme qui coordonne les adresses d’Internet. Un particulier qui fait tourner Bitcoin Core dans son salon n’en a pas.\nSatoshi Nakamoto a justement conçu un réseau sans point central, pour qu’aucun guichet ne puisse filtrer ou facturer les échanges. Dix-sept ans plus tard, une taxe française bute sur la même architecture.\nCôté plateformes, l’exposition est minime. Par exemple, une application d’exchange transmet des carnets d’ordres qui se comptent en kilo-octets, loin d’un épisode de série en 4K. Les cryptos ont déjà payé leur écot dans ce budget 2027 , la taxe au gigaoctet les effleurera à peine.\nL’amendement doit encore survivre à la navett",
    "pub": "2026-10-30T20:25:01+00:00"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTFZoakRsVzFBeEpsLUItRE9abkRfdFZ3amVTemI2Q0JZeEk1M21WTnBkX2l1alVkVFgwbzNVT3lsa1FZMDdCajVSanl2RkFzdVUxOUpkd0VXMkRpdzIySURZb0h2VTNuX0tvYzhnNXRhTmQxVzh2M2MtZmJuTTVYdVB2aDRqb05sZUx4SjN5c3ZVd3pMSVcyUG9ua24?oc=5",
+   "s": "RockstarINTEL",
+   "d": "2026-10-30T20:13:46+00:00",
+   "lang": "en",
+   "t": "How To Get A Free Supercar And Rare Livery In GTA Online This Weekend",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5LSkwyT2Q2WjNkS1N4cjFxSVpBRjhvRHByTmFGRHN0VjlKX1BZeUxSQ0RRdkRDa1dwaTBFMlRacHN1MmM4RkFLa2R0WUFrR1JTSjZhcjlnWDRrbU1hVmZoWTVxeGhFQnpub0xtcGZQdHdlSzEtOGhFYTVRTmZsQdIBgwFBVV95cUxPeXR6bEttdkZuclZmOHk0UktUeDhRLUZLdmhXcEpIdm8xb2dQUjB0Sms5d3E2OHFUZVJGVl9CRVUzRmR2QnFnVVUtckNZUUY0TlZTOUR6S1I5WDd6VDZLeFU2MWZKSENRaDZzV3RDMDNfdk0yNkFBNHU3OHVrRkd4SlhUMA?oc=5",
@@ -100,6 +108,14 @@
    "chapeau": "Un fan de GTA 6 a remonté brique par brique le premier trailer du jeu en LEGO 3D, avant de le publier sur Reddit et YouTube. Comment ce projet amateur, façonné sous Blender pendant neuf mois, est-il devenu la nouvelle obsession de la communauté ?",
    "txt": "Un fan de GTA 6 a remonté brique par brique le premier trailer du jeu en LEGO 3D, avant de le publier sur Reddit et YouTube. Comment ce projet amateur, façonné sous Blender pendant neuf mois, est-il devenu la nouvelle obsession de la communauté ?\nDepuis la première bande-annonce de Grand Theft Auto VI (GTA 6) , l’imagination des fans s’est déchaînée. Dernier exploit en date : un créateur a recréé tout le trailer en version LEGO , plan par plan, avec un niveau de détail impressionnant.\nPartagée sur Reddit et YouTube après neuf mois de travail sous Blender , cette vidéo fan-made transforme Vice City en diorama de briques numériques . Un projet massif qui fascine la communauté et relance le rêve d’un vrai « LEGO GTA ».\nTout commence avec un post intitulé « I remade the first trailer in LEGO! » sur le subreddit r/GTA6. Le créateur y partage son remake intégral du premier trailer officiel de GTA 6 , hébergé sur la chaîne YouTube CatCGIUser .\nOn y retrouve Vice City, ses plages, ses poursuites en voiture et le rythme nerveux du montage, mais transposés en minifigs et décors façon sets LEGO . L’ensemble donne l’illusion d’un véritable spot promotionnel pour un jeu LEGO GTA qui n’existe pas encore.\nLes réactions ne tardent pas : les commentaires saluent un travail « incroyable », certains lancent « We got LEGO GTA 6 before GTA 6 », d’autres imaginent déjà Rockstar Games lui proposer un job. Beaucoup soulignent surtout la patience nécessaire pour mener un tel projet à terme.\nEn répondant aux questions, l’auteur explique avoir travaillé « on and off » pendant près de neuf mois avant de finaliser la vidéo en octobre 2025. Selon GamePro , il s’agit de son projet le plus long, entièrement réalisé dans Blender , sans aucune brique physique ni stop-motion : tout est généré en images de synthèse.\nBlender , logiciel libre de modélisation et d’animation 3D, lui sert à construire les décors, animer les minifigs et régler lumières et reflets comme sur un plateau de tournage en briques. Au lieu de déplacer des pièces devant une caméra, il orchestre tout dans un environnement numérique, rendu image par image.\nFace à ce résultat, de nombreux internautes rêvent d’un rapprochement entre LEGO et Rockstar Games . Pour l’instant, le seul « GTA-like » officiel en briques reste LEGO City Undercover , même si d’autres créateurs comme World of Shrimpy ou LegoMe_TheOG ont déjà rejoué les trailers de GTA 6 en LEGO avec leurs propres techniques.\nEn attendant une éventuelle collaboration, ce trailer reste un projet de fan à voir gratuitement sur YouTube et à commenter sur Reddit . Il illustre la manière dont la communauté occupe l’attente jusqu’à la sortie de GTA 6 , annoncée pour le 19 novembre 2026 sur PS5 et Xbox Series X|S, avec une édition physique limitée à un simple code de téléchargement.\nCe remake sous Blender impose en tout cas une nouvelle référence pour les bandes-annonces de GTA 6 revisitées en briques. Si vous suivez de près l’arrivée du jeu de Rockstar Games , ce détour par Vice City en LEGO mérite clairement quelques minutes de votre temps.",
    "pub": "2026-10-30T18:00:13+00:00"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMktMQlBpQmJPcVltbXFxUDhzV3Ntb3VUaE5PajFhX2JUWTJFVWVkbUVtZFhCOHF4SFJ4YXpmV3VtNVNma3luNW8yaURMZm5zVVVnUFNLOEZicjZTakttUHBzb1psRGlLMUlSQnloRnVJZTBydXNwWkVGdEEtNDJ4ZzJiWEpEbGZjUnp1TGhNWTluNlRIMFB2ZFY5NEJPUzQ?oc=5",
+   "s": "eGamers.io",
+   "d": "2026-10-30T17:40:16+00:00",
+   "lang": "en",
+   "t": "GTA 6 launches November 19: platforms, prices, file size and other launch details",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQN0NJUEt6YXgtMTdoWnhKdEJrdy1FOG1sa2pwenNmWkY0eGQzekNyRWtJbFdtU1M1TjlIVlBNUjhNVzRZcThMRzc2bENHU0pNMkJuNERMaGZiczhwUkRLUmthZ2VYU0d5TE9LZm1qclZsdGtFSUZ2cDVGcE1hSWFUR21sLTZpVC1pWktqMkRHSHhvX2lpTDNvOXlYUVJhVWVjUVYwZ0NjaXZMbTljNGVJU3dzdjRxOE5HOG9NcDFJSUtiUQ?oc=5",
@@ -308,22 +324,6 @@
    "chapeau": "Cliff Richard GTA 6: his 1976 song Devil Woman is in the extended look, yet he told The Times he is unsure what the game is. Facts checked.",
    "txt": "Elias Virtanen October 30, 2026 11 min read Cliff Richard has no idea what Grand Theft Auto VI is, even though his 1976 song “Devil Woman” appeared in the game’s extended look. Dexerto reported the story this week, and it spread quickly because the gap is so wide. One of Britain’s best-known pop veterans sits inside the marketing for one of the most watched game launches of the year, and he cannot say what the game is.\nThe Cliff Richard GTA 6 story works as a funny headline, but it also says something useful about how Rockstar Games sells a blockbuster. Music is a marketing channel, and catalog songs reach audiences that no trailer voiceover can. This analysis lays out what is confirmed, what is not, and what the episode means for artists, labels and the studio.\nWe have followed the run-up to launch closely, from the unconfirmed soundtrack leak to the questions around review copies. This piece adds the music angle, with one rule: every figure and quote below traces back to a named outlet, and anything unverified is labeled as such.\n· Google · Preferred Sources Don't miss new tech stories on Google\nAdd Tech Insider once in the Google app and our stories appear in your news suggestions.\nThe core of the story is an interview with The Times. According to Dexerto’s account of that conversation, Richard learned about the placement secondhand. When asked about it, he said, “I was told this happened!” GameSpot also carried that line in its own write-up, which framed the singer as an artist with music in the game who knew nothing about any of it.\nThe family angle gave the story its warmth. Richard said, “My nephew, who has two boys, said they came screaming to him, ‘Dad, it’s Uncle Cliff!’” The image is easy to picture. Two young players hear a 1976 pop single inside a game trailer and recognize the voice of a relative.\nHe added his own read on what that reaction meant. NME’s coverage quotes him saying, “They didn’t realise I could sing like that.” The comment is gentle and self-aware. It also shows that the placement landed as a surprise for the audience and the artist alike.\nThe line that carried the most headlines came when Richard tried to place the project. He asked, “The show is a game show, isn’t it, really? One of the biggest on TV?” GamesRadar used that sentence in its headline , and it is easy to see why. It compresses the whole story into one question.\nRead charitably, the quote shows a man guessing at a medium he does not follow. Read cynically, it shows how far the Grand Theft Auto name has traveled beyond gaming. Either way, the remark is not a scandal. Nothing in the reporting suggests Richard objected to the placement or felt misled. The tone across the coverage is amused, and Richard himself comes across as good-natured about it.\nThat tone matters for how readers should treat the story. This is a curiosity about reach, not a dispute about rights. Anyone expecting a licensing fight will not find one in the sources we reviewed.\n“Devil Woman” came out in 1976, which puts it roughly half a century before the game’s marketing cycle. Per the reporting cited above, the song appeared in an official extended look at Grand Theft Auto VI. The Independent framed the moment as an unlikely renaissance for the singer , tying the placement to the game’s soundtrack.\nRockstar Games is the company behind both the game and its music selection, according to the cited coverage. The studio has not, in the material we reviewed, published an explanation of why this particular song was chosen. That silence is normal. Rockstar rarely walks through its creative choices ahead of release, and it usually lets the work speak first.\nThe pairing still makes sense on its face. A 1970s single with a theatrical hook suits a trailer that wants an instant mood. Catalog tracks bring built-in texture, and viewers who never heard the original still feel the era. The placement says more about editorial taste than about any attempt to chase Richard’s fan base.\nHere the careful reader should slow down. Several headlines say Richard is “on the soundtrack,” but the verified reporting supports a narrower claim. The song is confirmed in the extended look. Whether it will also play on in-game radio stations is a separate question, and one source notes that Rockstar had not confirmed whether the featured songs would be available on those stations.\nDexerto’s framing goes further and says the song will appear on one of the game’s radio stations. We treat that a",
    "pub": "2026-10-30T15:10:24+00:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVnVaUk0zSUxJTVdoSzA3LVdzLUczd2E0YWlJM3h1dkh0bDN4YTlsaTVXUmRfNVhuZkdJLUVZTFNVdVdteEtmTXMtVTlSN1RVUFMxYUJQQVIxMk5vOERrRExtRF94V2lRdWFfSFI2Z1hUbVh2R0s0QjVnNHJfQjNkN2V6d2ZINkdCcFROYXV4UC1KUi1ORUpwWjdwWk1BTjhpUW96c3UwcGhVQQ?oc=5",
-   "s": "Android Headlines",
-   "d": "2026-10-30T15:07:34+00:00",
-   "lang": "en",
-   "t": "GTA 6 purchase intent is high among US PC and console gamers",
-   "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPREl6WVpsQjdjWEVBRkdpWlVUZjlFc05hZ2NxTXJJVEpZQjFnZmVWaXF0VmRtbjZvZWhJRndaQWFscmRWa01UU2NOWkRXVkhsWE9YNHVyNTNvVnVHM1dWOUdjQ2kxcTFuTXBqcXY0eWtZUEU5eXM0dXo4S1lrNzFpaWNLdjlHbjdmZkVtMGNZSnU4cUhRc09DdUI5Vk1RQTRuclIwcUpXN0hIWldkRGs4WGVxR0tVd1l3TFR6azZaam8?oc=5",
-   "s": "Entrepreneur",
-   "d": "2026-10-30T15:01:08+00:00",
-   "lang": "en",
-   "t": "This Company Will Pay You $112 an Hour to Play GTA 6 and Give Your ‘Honest Verdict’",
-   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVnNwZmNZaU5Ma1Qwd2txUlU2emlHRjh2TUVIQm5CY0hRa2hCTWd0NktTOWRmQ1oyNmhHcmxJXzVYdG1KcXhhdzdNbTFsSU5xREZtRDlCY2NMNklHdXRFbFNTSmxHNk11XzhDU21kQl9zUVAwdFh0UU9zbVRrNlNua0JQdHI3bFlURDBoWmpHd1UwZ296R25HcWp5TVlRbFE?oc=5",
@@ -622,6 +622,15 @@
    "cyberleek": true
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUzFPSVZ0WDBtSmEyWkdDTzE1LXdONUp4OHNrZ3pLck1fNC00TlNlU0J0eFRyc1V2VXVpOXduTjVjZ1VKdVhDSnU1cjRXeloxRnVzVlZQdWRZYzh1b2JfWHY4SE52WVhWbGZnR2ptSFlEXzV0akZkNHhvYmllbV96ZWtFYW9WS1JUdlhMR2xkVG1JVFkzdHc?oc=5",
+   "s": "www.fpsnews.net",
+   "d": "2026-10-27T05:54:46+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : du gameplay leaké avant l’aperçu Netflix",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5JbUFQYTFyWmNteU96ckl4WHZqNjk3NmR6aUdmQTJaWHNHb21nN1VDU3F5ZXY1MmltRzhmQ0djc0xpTm9LRVBpRWRQWGg3WG5na0hWZ1k1UHltSklYbXhZTlFrOGlCb1k?oc=5",
    "s": "SVG",
    "d": "2026-10-27T01:00:00+00:00",
@@ -684,6 +693,15 @@
    "cyberleek": true
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdzR0V2JHOHlfU0llMjA3UnUycTNhaVZ0OGtCckx2LVZjR3gyaHBnLUdnbEZ0R1dVQnBOUm5KUWxjbDNNZ19BT2oyRlNfbmhtUmxNTXBLSTVVZ0xkcHJQLVRpcUIyMUZFdmIxLW93RWREXzVqUFc4b01pQkNMUzE2ejN5VDNOV0Vy?oc=5",
+   "s": "BlogNT",
+   "d": "2026-10-25T15:22:34+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : fuite massive de 25 minutes de gameplay",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWFZRaGUtTk9zWElMZzBWc1NrcmYyTmJjVDJEenZUcDl4U0ZyMklrckdrUnNUT1BxNlpWMkd4Qjk3alc2TXpvSDBLeHktVEtGTzdTM2tMQThBaGp1d2RlZFlUSjFPa1M3VTBqSldhOVRGOFV3bmh4VzNFVWx1WUxqTkxUR2U4Zjc3?oc=5",
    "s": "https://tech-insider.org/",
    "d": "2026-10-25T08:30:21+00:00",
@@ -737,15 +755,6 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQY1ZSdkE0Yy1JTks0bWtDSFktYlFqcldOZll3bXVjRHB6b1ZmYmRId1ZjSHpOengzN3IzbUlTeDVjcE5pTVItZjRtcGRWUWpHQ3JmazNyRkp5VDJmSHlHa2hGNXVtbkE4cmx1NUVZWlFXc3A1ck9iLU5GZVp1cW9QQWhsaVg1bmN2alhjbWRETl92NTZ1U21YT2I1TGU3QUt6UnVvOEljaHFxMUZ0aGc?oc=5",
-   "s": "Foro3D",
-   "d": "2026-10-21T07:00:00+00:00",
-   "lang": "en",
-   "t": "Cyberleek leaks the ending of GTA 6 and activates its own dead man switch",
-   "erreur": "429 : passage suivant",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5salliRDZyMXBzQWZHczVJeVdsTXU1NVU4VXJsNmRxWjRfS0J1LVFDY0ltSkplZHFERkRaVXJadDUwOF9iLTlTOVpvSHk5Q1BLd0E?oc=5",
    "s": "IMDb",
    "d": "2026-10-20T11:13:09+00:00",
@@ -769,15 +778,6 @@
    "d": "2026-10-19T07:00:00+00:00",
    "lang": "en",
    "t": "The latest post from GTA VI Leaker Cyberleek",
-   "erreur": "429 : passage suivant",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdGhzMjJJd0ttd0tGVjdDMmtPSWNyLWhMTVh0c2tCanZQcEFaQjFMTy0wanBYTkM3MFRFNlYyMEJ0ZHk4dFVsWnhuRDRjNklJV1hHUndSaU1jY3o5NEM4dW5mOENibWdzMHNZZkdub0I1V0lFRjVaamJZQWNxTHJta0NWajhyZ2ZoZExxcEJpRUloS1lSVDRIUUtUdGpYN1Yxd2FrVllVb2lvU2dYQllpUg?oc=5",
-   "s": "PCMag Middle East",
-   "d": "2026-10-19T03:46:45+00:00",
-   "lang": "en",
-   "t": "GTA 6 Leaker's Latest Effort Appears To Flop As Group's Meme Coin Declines",
    "erreur": "429 : passage suivant",
    "cyberleek": true
   }
