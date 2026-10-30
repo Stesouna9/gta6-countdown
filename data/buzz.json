@@ -1,8 +1,27 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-10-30T18:12:45+01:00",
+  "updated_at": "2026-10-30T20:12:40+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-dylan-rourke-repartage-instagram",
+      "title": "Dylan Rourke : un repartage Instagram GTA VI signalé sur X",
+      "summary": "@gtasix_ affirme que Dylan Rourke a repartagé une vidéo GTA VI sur Instagram. Son post dépasse 68 000 vues dans le relevé de veille. Le repartage Instagram n’a pas pu être vérifié directement et ne confirme pas que l’acteur interprète Jason : cette attribution reste une rumeur.",
+      "url": "https://x.com/gtasix_/status/2116214359693148633",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rumeur",
+      "published_at": "2026-10-30T17:03:15.000Z",
+      "checked_at": "2026-10-30T20:12:40+01:00",
+      "evidence": "Vues relevées le 30 octobre 2026 à 18 h 10 UTC dans data/x_alertes.json, copie serveur (maj 2026-10-30T18:10:35+00:00) : @gtasix_ 68 507 vues, 94 reposts et 1 930 J’aime. Un seul compte observé pour ce sujet. Le relevé X est la source vérifiée selon la procédure Buzz. Ouverture directe X impossible (cache absent) ; aucun lien original du repartage Instagram fourni par le relevé, profil Instagram inaccessible. Le signalement du repartage et le casting ne sont pas confirmés indépendamment.",
+      "visual": "REPARTAGE SIGNALÉ",
+      "image": "https://pbs.twimg.com/media/HV5NteZXUAAFUav?format=jpg&name=360x360",
+      "image_alt": "Visuel joint au signalement de @gtasix_ concernant Dylan Rourke sur Instagram",
+      "image_credit": "@gtasix_ sur X",
+      "cta": "Voir la publication sur X",
+      "embed_type": "x",
+      "post_text": "Jason’s actor in GTA 6, Dylan Rourke, just reposted a GTA 6 video on Instagram. 👀"
+    },
     {
       "id": "x-tripping-animals-bieres-miami",
       "title": "Patriot et Pißwasser : les bières de Vice City circulent sur X",
@@ -639,6 +658,11 @@
       "at": "2026-10-30T18:12:45+01:00",
       "label": "Veille permanente · Bières de Vice City à Miami",
       "summary": "Relevé X serveur du 30/10 à 17 h 09 UTC lu : bières Tripping Animals ajoutées (8 636 vues et reprise par un second compte). Repost Instagram attribué à Dylan Rourke non retenu : 1 522 vues et un seul compte observé. NINE1NINE déjà couvert, compte à rebours écarté, récompense Twitch GTA Online hors périmètre. Recherches X/Instagram/TikTok/Rockstar effectuées, page officielle GTA VI lue sans nouvelle annonce retenue. X et post Instagram direct : cache absent ; profil Instagram : HTTP 429 ; TikTok : aucune ligne lisible. Aucune métrique ni confirmation inventée."
+    },
+    {
+      "at": "2026-10-30T20:12:40+01:00",
+      "label": "Veille permanente · repartage attribué à Dylan Rourke",
+      "summary": "Relevé X serveur du 30/10 à 18 h 10 UTC lu : signalement du repartage Instagram attribué à Dylan Rourke ajouté (68 507 vues, un compte, statut Rumeur). Aucun casting confirmé. Bières Tripping Animals et NINE1NINE déjà couverts ; taxe au téléchargement sous le seuil (21 vues) sans second relais ; compte à rebours écarté. Recherches Rockstar/X/Instagram/TikTok effectuées : annonce Justice déjà couverte, X direct sans cache, Instagram limité (429), TikTok sans texte lisible et recherche limitée par robots.txt. Aucun original Instagram du repartage retrouvé ni nouvelle vidéo TikTok vérifiée. Les métriques restent celles du relevé horodaté."
     }
   ],
   "coverage": {
