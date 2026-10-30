@@ -1,8 +1,59 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-10-30T08:10:00+02:00",
+  "updated_at": "2026-10-30T10:15:00+02:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "rattrapage-pc-six-sept-mois-analyste",
+      "title": "GTA VI sur PC : un analyste parle de mai 2027",
+      "summary": "Tom's Guide relaie l'estimation d'un analyste : la version PC de GTA VI pourrait arriver six à sept mois après les consoles, vers mai. Rockstar n'a annoncé aucune date PC ; il s'agit d'une prévision, pas d'une information officielle.",
+      "url": "https://www.tomsguide.fr/gta-6-sur-pc-une-excellente-nouvelle-se-profile-pour-les-joueurs/",
+      "platform": "Presse",
+      "author": "Tom's Guide · Gameblog",
+      "status": "Rapporté",
+      "published_at": "2026-10-30T08:40:21Z",
+      "checked_at": "2026-10-30T10:15:00+02:00",
+      "evidence": "Article Tom's Guide du 30/10 lu dans data/presse.json ; Gameblog publie le même jour un article sur le même sujet. Pas de source officielle, pas de compteur social.",
+      "visual": "VERSION PC",
+      "image": "https://www.tomsguide.fr/content/uploads/sites/2/2026/04/GTA6-.jpg",
+      "image_alt": "GTA VI",
+      "image_credit": "Image : Tom's Guide",
+      "cta": "Lire la source"
+    },
+    {
+      "id": "rattrapage-faux-emulateurs-ps5-malware",
+      "title": "Faux émulateurs PS5 : des malwares profitent de GTA VI",
+      "summary": "BFM relaie un rapport de NordVPN : des faux émulateurs PS5 pour PC, diffusés sur GitHub, cachent des logiciels voleurs de mots de passe. Ils surfent sur l'arrivée de GTA VI. Aucun émulateur PS5 ne permet de jouer à GTA VI sur PC.",
+      "url": "https://www.bfmtv.com/tech/cybersecurite/profitant-de-l-arrivee-prochaine-de-gta-6-sur-playstation-5-des-pirates-mettent-en-ligne-de-faux-emulateurs-pc-de-la-console-de-sony-qui-sont-de-vrais-logiciels-malveillants_AV-202610300298.html",
+      "platform": "Presse",
+      "author": "BFM · d'après NordVPN",
+      "status": "Rapporté",
+      "published_at": "2026-10-30T08:04:15Z",
+      "checked_at": "2026-10-30T10:15:00+02:00",
+      "evidence": "Article BFM du 30/10 lu dans data/presse.json, qui cite le rapport NordVPN. Pas de compteur social.",
+      "visual": "ALERTE MALWARE",
+      "image": "https://io-fsly-bfmtv.cdn.nextradiotv.com/H1OlXZQFy16yYymTw-5voKClQBs=/0x106:2048x1258/2048x0/images/Playstation-2273524.jpg",
+      "image_alt": "PlayStation 5",
+      "image_credit": "Image : BFM",
+      "cta": "Lire la source"
+    },
+    {
+      "id": "rattrapage-georgie-batiments-inspiration",
+      "title": "Deux bâtiments de GTA VI ressemblent à ceux d'une ville de Géorgie",
+      "summary": "Notebookcheck rapporte que des fans ont repéré, sur une même capture, deux bâtiments proches de vrais édifices d'une petite ville de Géorgie, à 900 km de Miami. Simple ressemblance relevée par des fans : Rockstar n'a rien confirmé.",
+      "url": "https://www.notebookcheck.net/Does-GTA-6-extend-into-Georgia-Fans-discover-buildings-900-km-from-Miami.1438028.0.html",
+      "platform": "Presse",
+      "author": "Notebookcheck",
+      "status": "Rapporté",
+      "published_at": "2026-10-30T08:25:00Z",
+      "checked_at": "2026-10-30T10:15:00+02:00",
+      "evidence": "Article Notebookcheck du 30/10 lu dans data/presse.json. Découverte de fans, non confirmée ; pas de compteur social.",
+      "visual": "BÂTIMENTS GÉORGIE",
+      "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/GTA-6-Georgia.jpg",
+      "image_alt": "Capture de GTA VI",
+      "image_credit": "Image : Notebookcheck",
+      "cta": "Lire la source"
+    },
     {
       "id": "rattrapage-filigrane-copies-test-dement",
       "title": "Copies de test GTA VI : deux initiés démentent la rumeur de filigrane",
@@ -485,6 +536,11 @@
       "at": "2026-10-30T08:10:00+02:00",
       "label": "Veille permanente · x_alertes inchangé, presse",
       "summary": "x_alertes.json inchangé (relevé du 29/10 12 h 12 UTC) : aucun sujet X nouveau. Presse du 30/10 : deux sujets ajoutés (démenti du filigrane des copies de test, carte de 35 minutes), avec source de presse explicite et sans compteur social inventé."
+    },
+    {
+      "at": "2026-10-30T10:15:00+02:00",
+      "label": "Veille permanente · x_alertes inchangé, presse",
+      "summary": "x_alertes.json inchangé (29/10 12 h UTC) : aucun sujet X nouveau (compte à rebours 500 h déjà écarté). Presse du 30/10 : trois sujets ajoutés (PC en mai selon un analyste, faux émulateurs PS5 malveillants, bâtiments de Géorgie), sources de presse explicites."
     }
   ],
   "coverage": {
