@@ -1,6 +1,14 @@
 {
- "maj": "2026-10-30T17:50:04+00:00",
+ "maj": "2026-10-30T18:10:16+00:00",
  "articles": [
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPVWw4SkNwUV9tS1BMMmsyUlk2MVJ4eVZTNXRYN0ZvZVl2QnluWjFWc3dPVUhsNUFBdUZfV0VRalN3Ui03dG9IamMtNktTUmo3X3RGeHJoR1doNC1WR0VKNmpCbEdUMGZOUFdmLUdQcTQ0OWMzOF9IOEt5NE1NZFQwMU9wWnBpSjViQnFUYjZkdm9fU2xRcnRGOWtBVmR4OG1JcElXOWVfSVFWM1QtdjNWRGpKbTd2UVlrSElGaVhWWFBpeHYySmpUMEw0Um1uSWMwV2hCT0xxYWZZb1RsWktMdA?oc=5",
+   "s": "La Crème Du Gaming",
+   "d": "2026-10-30T18:00:13+00:00",
+   "lang": "fr",
+   "t": "Un fan recrée toute la première bande-annonce de GTA 6 en LEGO après neuf mois de travail",
+   "erreur": "HTTP Error 429: Too Many Requests"
+  },
   {
    "gn": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMktMQlBpQmJPcVltbXFxUDhzV3Ntb3VUaE5PajFhX2JUWTJFVWVkbUVtZFhCOHF4SFJ4YXpmV3VtNVNma3luNW8yaURMZm5zVVVnUFNLOEZicjZTakttUHBzb1psRGlLMUlSQnloRnVJZTBydXNwWkVGdEEtNDJ4ZzJiWEpEbGZjUnp1TGhNWTluNlRIMFB2ZFY5NEJPUzQ?oc=5",
    "s": "eGamers.io",
@@ -42,20 +50,12 @@
    "erreur": "429 : passage suivant"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRmF0a1BmaFM1YWxZSm8tZ1k2LUF6eEdtYzVxNjMwVXRScUJvYVpGa3lkODlpYnBMb0d5bWZHMmk1TVhLX0laVFJZeGx5N1RPOEhWZ2hHclVreXJTVnVKWjF0dUwtMzJzZmtYbTRTZVYtOVd2ZHRGSjhkTTFpODh1bWNteXA4bzgwNDlrZzJvTnlRWUszTGFFNWRDNC1TTkJnQ05nRGxMMjU?oc=5",
-   "s": "Hawaii News Now",
-   "d": "2026-10-30T17:19:00+00:00",
-   "lang": "en",
-   "t": "Scammers trying to cash in on Grand Theft Auto 6 release; here's how",
-   "erreur": "429 : passage suivant"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQN0NJUEt6YXgtMTdoWnhKdEJrdy1FOG1sa2pwenNmWkY0eGQzekNyRWtJbFdtU1M1TjlIVlBNUjhNVzRZcThMRzc2bENHU0pNMkJuNERMaGZiczhwUkRLUmthZ2VYU0d5TE9LZm1qclZsdGtFSUZ2cDVGcE1hSWFUR21sLTZpVC1pWktqMkRHSHhvX2lpTDNvOXlYUVJhVWVjUVYwZ0NjaXZMbTljNGVJU3dzdjRxOE5HOG9NcDFJSUtiUQ?oc=5",
    "s": "Gamekult",
    "d": "2026-10-30T17:17:00+00:00",
    "lang": "fr",
    "t": "Game and watch - South Park diffuse des images inédites de GTA 6, avec option caca de chien",
-   "erreur": "HTTP Error 429: Too Many Requests"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5zMGN6M0NVaWF3Wl9ESkNpOWlGd3ZJblc4RnA1blhrei1OMkwxdFJRY2p5am9YUGNBcWtxSGpWdnpQUWJhTFE0THZBeFMyTk5sR1piMjhyRC1YX3c?oc=5",
@@ -120,7 +120,7 @@
   {
    "gn": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdHFvM2syajNXWFZqZnQ0WU9WRHNfdndyV3Rzc0VLUE1kN0czUFpYdHg0WWozamNxMWlJeGViSG9Fa0hDMnJueGtncjZsRW9weFVfM3VGdk84WUJyWTIwR2N4VFlIbE5iQVpmT1R0Y01KdUFDWFRoRTlCMkwweDdCMkd4WV8wdTB6UzA0LW1tZlZqazNaQTRXRm9yZ1RUV0ctMktLb3NYeVprc2ZUaUtBM0w3N2xGeWFPTWdBV1pTWTg4QQ?oc=5",
    "s": "RTBF",
-   "d": "2026-10-30T16:22:15+00:00",
+   "d": "2026-10-30T16:21:51+00:00",
    "lang": "fr",
    "t": "La bande-son de GTA VI s’étoffe avec \"Pusher\", un titre inédit de Justice et Gesaffelstein",
    "erreur": "429 : passage suivant"
@@ -242,6 +242,14 @@
    "pub": "2026-10-30T15:10:24+00:00"
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVnVaUk0zSUxJTVdoSzA3LVdzLUczd2E0YWlJM3h1dkh0bDN4YTlsaTVXUmRfNVhuZkdJLUVZTFNVdVdteEtmTXMtVTlSN1RVUFMxYUJQQVIxMk5vOERrRExtRF94V2lRdWFfSFI2Z1hUbVh2R0s0QjVnNHJfQjNkN2V6d2ZINkdCcFROYXV4UC1KUi1ORUpwWjdwWk1BTjhpUW96c3UwcGhVQQ?oc=5",
+   "s": "Android Headlines",
+   "d": "2026-10-30T15:07:34+00:00",
+   "lang": "en",
+   "t": "GTA 6 purchase intent is high among US PC and console gamers",
+   "erreur": "429 : passage suivant"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWnNNU212Sno4TWRHNjNEeWVHakh0MGNlTGtfYV9pd0g5UmE4ZkRRaklJSzVaTHBSMFRydFExLUFZM0E2RmhfNDM2WUpoUWFtcXl3WVg2ZWZqdVNRQl9HU0N1M0hBRzcwdXFrSHNOWTk1Y1pQakN4eDMtdFZRMnZEUFc5X2R5RDZzTnJmd21ZSnZKRXJUNFMzVHQ3ZUYxa1lWUGFqa09rbmpCOGlvanc?oc=5",
    "s": "RTBF",
    "d": "2026-10-30T15:04:00+00:00",
@@ -291,14 +299,6 @@
    "d": "2026-10-30T14:01:48+00:00",
    "lang": "fr",
    "t": "Les meilleures ventes jeux vidéo sur Amazon cette semaine",
-   "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA3eEpJTG44MVlPTkhTMzJua1c0WEU0a0xpMUJ4X1dJUkN5SzJ0VW5fSm1SRWtEYjMwRTFCTW1paGRhaGx1dG1obzFkUDhlWHNjOFNsUGNDOEJNeTJDTkVhYmljWk9GQmVrVDg5NlpfSHAwT3VHZWc?oc=5",
-   "s": "Voltage.fr",
-   "d": "2026-10-30T12:56:44+00:00",
-   "lang": "fr",
-   "t": "Justice & Gesaffelstein s'unissent pour GTA VI",
    "erreur": "429 : passage suivant"
   },
   {
@@ -395,15 +395,6 @@
    "chapeau": "GTA 6 vient de dévoiler 17 secondes de gameplay inédit dans South Park, avec une mécanique complètement absurde.",
    "txt": "GTA GTA 6 dévoile du gameplay inédit dans South Park avec une mécanique complètement absurde par Ludovic Quinson Publié : 29 oct. 2026, 10:16 Sauvegarder pour plus tard Sauvegarder pour plus tard Comedy Central / Rockstar Games Ajouter comme source préférée sur Google Suivre sur Google News Rockstar a choisi une manière particulièrement inattendue de dévoiler de nouvelles images de GTA 6 . Plutôt que de publier un énième trailer, le studio s’est invité dans le dernier épisode de South Park avec une courte séquence de gameplay totalement inédite.\nEt fidèle à l’humour de la série, cette apparition met en scène une fonctionnalité pour le moins insolite à savoir la possibilité de ramasser des excréments de chien pour s’en servir comme arme contre les PNJ.\nDiffusé le 28 octobre 2026 sur Comedy Central, le quatrième épisode de la saison 29 de South Park , intitulé Guinea Pig on a Stick, réserve une surprise aux fans de Grand Theft Auto. Dans les dernières minutes, plusieurs personnages de la série, dont Cartman, Kyle et Stan, découvrent une vidéo de GTA 6.\nLa séquence débute par une promenade de Jason et Lucia sur une plage de Vice City, avant de montrer un chien en train de faire ses besoins sur le sable. Le joueur, qui contrôle Jason, provoque alors le propriétaire de l’animal en lui lançant un objet. Lorsque ce dernier réagit, Jason ramasse un sac contenant les excréments du chien et l’utilise pour frapper le PNJ.\nNew gameplay from GTA 6 was shown in the latest ‘SOUTH PARK’ episode. pic.twitter.com/gL2kRKUv2I\nUne scène complètement ridicule, mais qui illustre une nouvelle fois l’importance accordée par Rockstar aux interactions avec les habitants de Leonida. Surtout, il ne s’agit pas d’une animation créée spécialement par South Park pour parodier le jeu. Rockstar Games apparaît dans les remerciements du générique, confirmant sa participation à cette séquence.\nCette apparition n’arrive pas totalement par hasard. Depuis le début de sa saison 29, South Park multiplie les références à GTA 6, dont la sortie est régulièrement présentée avec humour comme un événement susceptible de tout arranger.\nDu gameplay, la map et les radios de GTA 6 ont fuité avant le large aperçu sur Netflix\nLe leaker de GTA 6 Cyberleek revient avec 25 minutes de gameplay fuité\nGTA 6 confirme des transformations physiques et un monde qui réagit vraiment à vos actions\nLa collaboration prend néanmoins une dimension supplémentaire avec ces véritables images du jeu, diffusées à quelques semaines seulement de son lancement.\nSi cette mécanique liée aux excréments avait déjà été évoquée auparavant, c’est la première fois qu’elle est montrée aussi clairement en action. Cette séquence de 17 secondes rejoint ainsi les rares présentations officielles de gameplay, aux côtés du large aperçu diffusé sur Netflix et des différents trailers .",
    "pub": "2026-10-29T10:16:27.000Z",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUWNueFZFWWRUM2xJQ3E4ZW5SR2paYWVzck5BMThteS1FOFBlS0pSWVRSS1k5VnVsMjNIZ0NINmNMajQ0WE9FMXpEV2hJRzNJUEx0bWJlc2k0Q04wZHpocWxlNXpQS0ZRVEVkX3pOaUt0WFh2czJ1V3hKTU5GUVlsZ2dnSU56SF9v?oc=5",
-   "s": "https://ascendants.in/",
-   "d": "2026-10-29T17:15:19+00:00",
-   "lang": "en",
-   "t": "GTA 6 Could Take Up 210GB: The PS5 Storage Space Players May Need Before Launch",
-   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -533,6 +524,15 @@
    "cyberleek": true
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVzA2am8zTFJhX0FrVEY0NUlZWWdwQ3RTYVF6d2x3SGUxelhKeHJmczBxdWhYdTVCSzVaYlUtQWR6Qk9TalRQV2d0eGlhRFFYZGJueWhUSUJMNVFYaUFpMXlYLXQzS1hmVU9zUGtqWGJMaGpPc3VhX00wX3RFYjY2S1FjOHktZkZkR0pKTWNRc3AtWHB2UHJzQlZyU2xvcFRoTGxqVDFEblNMcEEwVkstQnI3d2xWY1JIY21V?oc=5",
+   "s": "Notebookcheck",
+   "d": "2026-10-28T19:44:00+00:00",
+   "lang": "en",
+   "t": "GTA 6 may feature over 200 main story missions, as leaker shares break down",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8yNGdLRXFDck5PSmVLdEtzUV93eFM2Nmc1cTFRVmMxTlVCd2dia253Qk92c0pZV2VmeHhEZjdYUTRRVGVVTl85RklwZlhlRkN0VzFfcXpaQzl0Rzl5RTFwenJwVW5STXdwaWZUaTAtSFpVR3Y2Zmlwcw?oc=5",
    "s": "MCE TV",
    "d": "2026-10-28T15:03:09+00:00",
@@ -585,15 +585,6 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaXdNUkZ0UXlEUkR5LURJNjdGeU1JMHgzeTMyRGY5RVNBRThpM3lUN1p2U2l3VEdjaHRKbUtZeE41TTI1VlhvTEtfSjc2R0NLcnJVQWVaR3E4U2ZqOUg0SUU5V1ZJN1JKSU1JOWVxMTlSWEhXWmRoMHZZbTlwalU3Ylc4Znc5TE03aWpOanVVTkVjWGdSWV91X1FR?oc=5",
-   "s": "UNILAD Tech",
-   "d": "2026-10-27T10:14:17+00:00",
-   "lang": "en",
-   "t": "Why GTA 6 characters could have nude models that players never get to use",
-   "erreur": "429 : passage suivant",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5JbUFQYTFyWmNteU96ckl4WHZqNjk3NmR6aUdmQTJaWHNHb21nN1VDU3F5ZXY1MmltRzhmQ0djc0xpTm9LRVBpRWRQWGg3WG5na0hWZ1k1UHltSklYbXhZTlFrOGlCb1k?oc=5",
    "s": "SVG",
    "d": "2026-10-27T01:00:00+00:00",
@@ -607,20 +598,20 @@
    "cyberleek": true
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPd2JXeUd1dVgycDE4MlFtV3g1c2EtdlNvd3hwRFZ5dVVna0U3VU9TZW5OalZnSEcwRmFHTDRCQXllRGZDdE1DTl9iMENGRDNOU0R2dmp5eWR0aFUwWVh3UEJmdjFJSW5rcHl0aUF2VFljejlwWVVIVlRteVcwWUpqRTU0c0VCWkwyV1FXZGhweWZVU25GZ21NRA?oc=5",
+   "s": "EGW.News",
+   "d": "2026-10-26T19:12:15+00:00",
+   "lang": "en",
+   "t": "GTA 6: New Gameplay Leak Featuring Lucia Possibly Revealed",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNGdXdFFBdkJudkJrSEQ3enppQ1otMnNRS0xzOHZNUkdlMHhEQnZyeC1MWjFxem9aYmlLWS1jbDJPbEhFYzlTVFRuRjVqTHg2dUFScHF6ZGRHOEVvbkZiRjBTR3RmNW9rRGVmaGpvaHVmVVB1U2YxQVdoNFZxOW9rR1Z0UE1CY212c3Q2bXpMMFM3bTNYdFc0Z1dhVG8?oc=5",
    "s": "EGW News",
    "d": "2026-10-26T19:12:15+00:00",
    "lang": "fr",
    "t": "Une nouvelle fuite potentielle dévoile des images de Lucia dans GTA 6",
-   "erreur": "429 : passage suivant",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE12azJxeEhWSFRvRVYwT0hldlNGNWZJelBUVnNMeFVEZFpxTFRNamlwLVA4LXhRdkNtdzRJRFNSNlVEc3c5d3RuRzRyWDRCekdPVnByNDRVa3ZpSHhZek1NbXg5VXlaNVk?oc=5",
-   "s": "Coinbase",
-   "d": "2026-10-26T15:14:40+00:00",
-   "lang": "en",
-   "t": "CYBERLEEK Price, CYBERLEEK Price, Live Charts, and Marketcap",
    "erreur": "429 : passage suivant",
    "cyberleek": true
   },
@@ -635,15 +626,6 @@
    "chapeau": "Un simple emoji manette + palmier posté par Shirrako affole les fans de GTA 6 à l’approche de la sortie de novembre 2026. Que cache vraiment cette rumeur de copie anticipée et jusqu’où faut-il craindre les spoilers ?",
    "txt": "Un simple emoji manette + palmier posté par Shirrako affole les fans de GTA 6 à l’approche de la sortie de novembre 2026. Que cache vraiment cette rumeur de copie anticipée et jusqu’où faut-il craindre les spoilers ?\nUn simple message avec une manette et un palmier a suffi à affoler la communauté GTA 6 . Sur X, le youtubeur Shirrako , connu pour publier très tôt des fins de jeux, a laissé entendre qu’il testait quelque chose lié à Vice City , ce qui a immédiatement été relié au prochain Grand Theft Auto VI .\nAvec un jeu aussi massif et scénarisé, beaucoup craignent déjà de voir la conclusion de l’histoire de Jason et Lucia apparaître dans leur fil YouTube le jour de la sortie. Avant de couper tous les réseaux, il faut séparer ce qui relève de la rumeur, du fonctionnement réel des copies review et des moyens de limiter les spoilers.\nLeaker réputé, NateTheHate affirme que Rockstar Games enverra les codes review de GTA 6 aux médias avant le 31 octobre 2026. Une autre fuite, attribuée à l’utilisateur BlackBate sur ResetEra, évoque un embargo de test qui tomberait le 18 novembre entre 12h01 et 13h01 heure de Paris. Sur ce fond de rumeurs, le post manette + palmier de Shirrako a été interprété comme un clin d’œil à une copie anticipée.\nProblème : le message ne mentionne jamais GTA 6 , ne montre aucune image ni gameplay, et ni Rockstar ni Take-Two Interactive n’ont confirmé l’envoi de copies review à qui que ce soit. Des sites comme GTA Boom rappellent qu’un emoji palmier ne constitue pas une preuve, et qu’à ce stade, l’idée que Shirrako ait déjà le jeu reste purement spéculative.\nShirrako, c’est une chaîne de plus de 2,6 millions d’abonnés et plus de 2,2 milliards de vues, centrée sur des walkthroughs complets en haute définition, sans commentaire. Dès que l’accès anticipé ouvre sur un gros AAA, il poste souvent la campagne entière en quelques heures.\nIl s’est surtout fait une réputation de « serial spoiler ». Sur Elden Ring , certains ont vu le combat final sur YouTube avant même d’avoir atteint la moitié du jeu. Même scénario avec Final Fantasy 16 , Resident Evil Requiem ou Call of Duty: Modern Warfare 4 : fins publiées très tôt, miniatures et titres qui révèlent des retournements de scénario. Beaucoup de joueurs évitent désormais sa chaîne ou la bloquent.\nLes copies review sont toujours encadrées par un accord de confidentialité très strict. Rockstar , déjà échaudé par la fuite massive de 2022 , a la réputation de livrer des builds watermarqués qui permettent d’identifier l’origine de tout leak. Un créateur qui briserait l’embargo avant l’heure s’exposerait à une rupture de contrat et à une probable blacklist pour les futurs jeux, ce qui limite la probabilité d’un spoiler massif avant le 18 novembre.\nEn revanche, dès la fin de l’embargo présumé, il est réaliste d’attendre des vidéos « All endings » ou « Final mission » publiées très vite, que l’algorithme YouTube peut pousser sur votre page d’accueil, même sans recherche. Pour se protéger, le réflexe simple consiste à bloquer la chaîne de Shirrako, cliquer sur « Ne plus recommander cette chaîne » et masquer les recommandations liées à GTA 6 .\nSur X, vous pouvez mettre en sourdine des mots clés comme « GTA 6 », « Jason », « Lucia », « ending » ou « Shirrako ». Sur Reddit, mieux vaut quitter temporairement les subreddits dédiés à la série. Pour les plus sensibles aux spoilers, une vraie pause réseaux entre le 18 et le 21 novembre, date à laquelle GTA 6 sort officiellement sur PS5 et Xbox Series X|S après un préchargement prévu le 12 novembre, reste la solution la plus sûre, même si aucune image du jeu n’a encore été publiée par Shirrako.",
    "pub": "2026-10-26T11:30:58+00:00",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1oWGowTXp6T2FwaG01U3lzSHdJQTk4Y1pPS1hQOWotMnFXUm1HcDlFdnV2cEJScjBLOTVzdk5MOG5pNm9sTXVBa3dhd216bUhJNGc?oc=5",
-   "s": "IMDb",
-   "d": "2026-10-26T04:38:45+00:00",
-   "lang": "en",
-   "t": "Cyberleek Shares More GTA 6 Footage Featuring Lucia Naked",
-   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -695,65 +677,83 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1WTlZSdjJBT183dFhFMWd2YlRRZUlEdWF2WFdGSE94MU5NRUFfa1VvOEh1YVlCUXFITl9DZWJMbVloSVl0ZVdvcmVKU3Nadw?oc=5",
-   "s": "IMDb",
-   "d": "2026-10-22T15:12:54+00:00",
+   "gn": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9vaEs4SzBzUnNUaEM1Y090U293a0IzOW9zN2J4N055d1o1dU9tT1RSb0J0NmZEblVFVTkwb1NtajBNS2VTS085dzE5VDJoM1A0LU9XMnRHVVhxUzhIVEdsR2tGQlNWWDJWckJwbEVLajR6VC1kSm90SWtR?oc=5",
+   "s": "shattered.io",
+   "d": "2026-10-17T07:00:00+00:00",
    "lang": "en",
-   "t": "Cyberleek Shares GTA 6 Leak Of Naked Lucia",
+   "t": "GTA 6 Leaker Cyberleek Is Back as Coin Hits $1.2M [2026]",
    "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQLURQSkcxYjdWbG9jajY0cmE5ZlN5VGxvLU10YVQtVnBKVE0zQjctd1JiQTRnV2tEOG5YWEE4cjhBcXpGM0JXbHRNZ0FkT0EzRGZmWUYwQmdRLXozWXVDSW9RS3JfaXpxVF91ZkpieEF0UUtNS3ZyTFZrYnlodU9tUWxJTQ?oc=5",
-   "s": "Yahoo Tech",
-   "d": "2026-10-21T16:00:00+00:00",
-   "lang": "en",
-   "t": "GTA 6 Leaker Cyberleek Threatens Full Game Release",
+   "gn": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRXN2Qi1iQ1d5b1RrSElfWUJXR2NCM2lCVEU5a05HUWhleThTcWhKdm5lcTk5WWtQS2IxSFlSdzQ4Rkgza19FNUR2Q3dPVjFkYk9RZk1TNU0xdFphTmZsYTlnazdDT2dEQVNPTFpQdmtoTUhmbzlhVER2LWo0RVdwRDlnMUxyY0JCbnphWVZmQjVNam9OWVptUUhpVUgwNERvSjJwQzBGUnRLQWRtcjJXQ3dHOU9RZw?oc=5",
+   "s": "Cowcotland.com",
+   "d": "2026-10-16T07:00:00+00:00",
+   "lang": "fr",
+   "t": "GTA VI pour 40 dollars, c'est possible avec Cyberleek et sans Cybertruck",
    "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQY1ZSdkE0Yy1JTks0bWtDSFktYlFqcldOZll3bXVjRHB6b1ZmYmRId1ZjSHpOengzN3IzbUlTeDVjcE5pTVItZjRtcGRWUWpHQ3JmazNyRkp5VDJmSHlHa2hGNXVtbkE4cmx1NUVZWlFXc3A1ck9iLU5GZVp1cW9QQWhsaVg1bmN2alhjbWRETl92NTZ1U21YT2I1TGU3QUt6UnVvOEljaHFxMUZ0aGc?oc=5",
-   "s": "Foro3D",
-   "d": "2026-10-21T07:00:00+00:00",
-   "lang": "en",
-   "t": "Cyberleek leaks the ending of GTA 6 and activates its own dead man switch",
+   "gn": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQN3hGd0t1VVRzTURaMHAyOG9PcmgzajV5WGVpZUJsRGt2ZWE2dk1zLWd0cFUwN2xzUTduam01TF91SWxEUHktSDF5TWlSNFdHTmRnRnVDRGp5eTFPWnZkc3BySWVxTGxLMS00aVpSX2lJSVk5SmtCTFY4VE5mY2ZqUHRVT0ZHWXdhWTJwbmRXU05yRXZIRGdjVk5sVzJtUm9Ha0E?oc=5",
+   "s": "Fredzone",
+   "d": "2026-10-16T07:00:00+00:00",
+   "lang": "fr",
+   "t": "Le retour fracassant de Cyberleek et la fin annoncée des fuites sur GTA VI",
    "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5salliRDZyMXBzQWZHczVJeVdsTXU1NVU4VXJsNmRxWjRfS0J1LVFDY0ltSkplZHFERkRaVXJadDUwOF9iLTlTOVpvSHk5Q1BLd0E?oc=5",
-   "s": "IMDb",
-   "d": "2026-10-20T11:13:09+00:00",
-   "lang": "en",
-   "t": "'GTA 6' Leaker Posts Nude Lucia Video With Threats of Releasing Game Early",
+   "gn": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNEM5SnF0cGttbjdaLV9ERWdDZWc2ODZBUVg5VmVtWV9PZ2hHZ1FsMk53SFBVRl9EbnNzaWhLa3lnZl8ydk5tbmxQbUZkYnYxN1FtS3RHQ056ZGZ6SzNfcm16ZTFRQUVLQ1FtRldhc19jWkt3RXMtRGJ2RjFnMlZkVkJVRDJKTEVsTlI4eHhLcmJTMFM4dFpXZHhQLURaRXk0eDNoVWdIQUxWLUxi?oc=5",
+   "s": "games.gg",
+   "d": "2026-10-16T07:00:00+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : Rockstar aurait glissé un message à Cyberleek",
    "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBCaldhTDVEY3RCaXNxS0RDZWZjbnBTMVllcFdaV1NrY3R4RTM4U2ZGYjBPSzF0dXRNemozNU91a0JqR1I5Q3NwaWpwTTM5a2tNWXB4SWwwMEhiQ0FWbnBTUDNBeFhMdUE?oc=5",
-   "s": "IMDb",
-   "d": "2026-10-20T07:57:13+00:00",
+   "gn": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQcjIwV19XMlhaMzFiQU43b3JxN0I4MkJ2UFpYX01wU2JnOUJGbk1nak1pVlZ2NFA5emlubkY4bXZKNE0wUnJqUjFlSFJSZlVuOXl4RVQzMkZ1ZC03RHJ3OGczYVNlNXdLajl2d1hFSmpSZG9BeXNPN2tPbkozUTZYTUlHZXRKNFZwQXNJTHBOa2Z2eURuRnZDVlRoUTdlajZhblppYTJPU0c4cFR1UFhtWlBRUmdCX3NjNmkwU2RBWUN1WlJkV2RCUHV2Rm1ESEJibmFRZnZUWE00d9IB3wFBVV95cUxNbGhuY2lCS0d4VEprb0ZEWEtGYnlRc1FSQU1VVU5URUphUk9lUWZiYnNwSnlyX3FTZWZvY2ZEN2t3dzh3Z0pBUGxOTkNFZElQa2VfZENyN092NWd1c3dhb29pc2FVdTd1cS05R3hoNmJxcE0tOWJmOFM2N2ZIMzFtU2Q3ZTh4N2UtbXdfWHh5cVdMQmFXYmEwMW43ZDhTcHROUmtNOW54aU9qYUtYY3JndjVYeVVNUkpTNlNFbmh0YzE0aDVzWWxCYXFDQ2xJOHFmLXZIYmJHUGhIZmtYbVNB?oc=5",
+   "s": "iXBT.games",
+   "d": "2026-10-16T07:00:00+00:00",
    "lang": "en",
-   "t": "GTA 6 Leaker Threatens Story Spoilers If Caught",
+   "t": "GTA VI Developers Showed a \"Black Mark\" to Hacker Cyberleek? A Threat from Rockstar Was Seen in the Trailer",
    "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA4NEExcXJYR19TdXRJMGhvRmkydTBIbmtteWNibkxlWGZuaFotWkhTdjhVa0FKclYwQVVMam9VMFY5WHdDX0NVTTR2OFQ4djBJYVItbjNjSEg1NGVaM2EzQ0ZjMm9pbS1za1hUd05tNE1tX2hTWlhHeQ?oc=5",
-   "s": "virus.hr",
-   "d": "2026-10-19T07:00:00+00:00",
-   "lang": "en",
-   "t": "The latest post from GTA VI Leaker Cyberleek",
+   "gn": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPTGRrX1dzN0JRUVlKSnhleHJ5RDFQWFNVTFRWa08zYXBLWXg1RjBHSkdUMWZ0MEFnUGthc0pBRXp3b0RvZjJrME5US2NCWVRCR1ZnMGdrOVd1M1cxTnlTVDBBSlo0Z2N2R2dRQVV4X0MtNTFJdnl5cUtQYjFwZkFWMkRpbXU2dw?oc=5",
+   "s": "Root-Nation.com",
+   "d": "2026-10-15T11:39:24+00:00",
+   "lang": "fr",
+   "t": "Cyberleek met fin aux leaks de GTA 6",
    "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdGhzMjJJd0ttd0tGVjdDMmtPSWNyLWhMTVh0c2tCanZQcEFaQjFMTy0wanBYTkM3MFRFNlYyMEJ0ZHk4dFVsWnhuRDRjNklJV1hHUndSaU1jY3o5NEM4dW5mOENibWdzMHNZZkdub0I1V0lFRjVaamJZQWNxTHJta0NWajhyZ2ZoZExxcEJpRUloS1lSVDRIUUtUdGpYN1Yxd2FrVllVb2lvU2dYQllpUg?oc=5",
-   "s": "PCMag Middle East",
-   "d": "2026-10-19T03:46:45+00:00",
-   "lang": "en",
-   "t": "GTA 6 Leaker's Latest Effort Appears To Flop As Group's Meme Coin Declines",
+   "gn": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxORE9TZTdhcENBSW1oS0F4MG9aaUJKT2phc2lmbDg0dVVGc1VoWXZPSGhNRHpKUHdDUWsySWVIaUVBVEsyaXgtTUw1di02bDFpamFLOTNUWjhqbVAyR0NjYmk4alR2bm5WNDRxQlFoTDhSejl5SjNxTXpadDRTSDVQV1ozU0R5UU5ESXdlWmFsd0tvZzhtelBMaXoyWlZiak5nUnhiaEhGcTZrc3pJNjItZGVhVVpjSE5NYi1pSF9WWWRMdFQ3RzNkWDRTSmVWb2VlZXBIMHdxS0phRG9xaUN0TXl0Y3RyQQ?oc=5",
+   "s": "GinjFo",
+   "d": "2026-10-15T07:00:00+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : Cyberleek fait volte-face et propose sa prétendue build pour 40 dollars",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNS1RycU50NjNJMGk0VmZZUUdxUENZUTFLTkttRXRWVTRNemVYa3lPSjZReGFqMU5EME5MSXBnRnd4azdSMXU4LW9pdGtwdFlNWndlNFJkVkxqTmt6MXJRLTZRcjlISFJQVWI4d0lFcTFwd3NOdll5RHVEWnA3R1p2SWU2NE1pdC14aWFRYmNTRkhtSElfQWFST1JEZmxWS1FObDYtOWE5NDZvTkpHRkdpUVppTWV0Ym1NQkE?oc=5",
+   "s": "Cowcotland.com",
+   "d": "2026-10-15T07:00:00+00:00",
+   "lang": "fr",
+   "t": "GTA VI : CYBERLEEK abandonne ses leaks et annule la diffusion du jeu complet",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMif0FVX3lxTE01X3lWTlR6X1BXSEJqQ29DR0tTN0Y1X1dvYk9uay1xb01IVVVnaWczN2ZuRjctVVUtZVZnaVVfV1ktbUphdkthQ29hU3NrWDZxUHNiOTJpQnBrYXN0Ym1PT2IyaV9HQngxYjl0cTJTYjRhcUtIVEVqUXRIWU1XdU0?oc=5",
+   "s": "BeInCrypto",
+   "d": "2026-10-15T07:00:00+00:00",
+   "lang": "fr",
+   "t": "Le token CYBERLEEK chute de 40 % alors que le leaker de GTA 6 lance de nouvelles menaces",
    "erreur": "429 : passage suivant",
    "cyberleek": true
   }
