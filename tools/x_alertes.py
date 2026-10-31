@@ -11,7 +11,7 @@ from x_reponses import ouvre, attend
 X.slot = "alertes"
 SORTIE = Path(__file__).resolve().parent.parent / "data/x_alertes.json"
 COMPTES = ["RockstarGames", "PlaystationSize", "TheGTABase", "GTAVI_Countdown", "GTAlphaintel", "videotech_", "Tez2", "GTA6Alert", "Gameideas_",
-           "vicecentralFR", "gta6hubfr", "GTA6France1", "martx_tv", "RockstarNewsFRA", "gtasix_", "JVMag_ch", "jeuxvideocom", "PlayStation", "XboxWire", "TakeTwo"]
+           "gta6hubfr", "GTA6France1", "martx_tv", "RockstarNewsFRA", "gtasix_", "JVMag_ch", "jeuxvideocom", "PlayStation", "XboxWire", "TakeTwo"]
 MOTS = ("gta", "grand theft", "rockstar", "leonida", "vice city", "lucia", "jason", "take-two", "take two")
 
 def main():

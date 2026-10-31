@@ -19,3 +19,5 @@ HEURE RÉELLE : commence par `TZ=Europe/Paris date -Iseconds` et note le résult
 10. `git add -A && git commit -m "Solange : <titre fr court>" && git push origin main`. En cas de rejet : `git pull --rebase origin main` ; conflit sur fichiers générés (data/news_*, data/meta.json, feed.xml, api/*, aujourdhui.html, sitemap*.xml, pages html) : `git checkout --theirs -- <fichiers>`, sauf data/articles.json, data/mur_fils.json et data/faits.json où tu gardes ta version ; `git add -A`, `GIT_EDITOR=true git rebase --continue`, relance prerender et pub, commit, push.
 10b. Après publication, NE POSTE RIEN sur X ni Instagram : la chaîne automatique s'en charge (X dans la demi-heure, Instagram @vicebayradio ensuite), voir ~/La Soso/LIEN-TOTAL.md. Un bon titre et un bon chapeau (d) servent donc aussi de texte de post.
 11. Dernière ligne : « articles : <titres> » ou « rien de neuf ».
+
+- 31/10, Gabriel : @vicecentralFR (Vice Central) = compte jugé peu fiable, probablement géré par une IA. Ne jamais le citer comme source ni reprendre ses infos.
