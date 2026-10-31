@@ -1,8 +1,46 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-10-31T08:20:00+02:00",
+  "updated_at": "2026-10-31T11:20:00+02:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-youtube-600-millions-vues-rockstar",
+      "title": "Les vidéos GTA 6 de Rockstar dépassent 600 millions de vues cumulées sur YouTube",
+      "summary": "@GTAVI_Countdown relève que l'ensemble des vidéos GTA 6 de la chaîne YouTube de Rockstar ont franchi 600 millions de vues cumulées, soit plus d'un tiers des vues totales de la chaîne avant même la sortie du 19 novembre. Chiffre avancé par le compte, non recoupé avec YouTube.",
+      "url": "https://x.com/GTAVI_Countdown/status/2116392525569179928",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "2026-10-31T04:51:13.000Z",
+      "checked_at": "2026-10-31T11:20:00+02:00",
+      "evidence": "Vues relevées le 31 octobre 2026 à 09 h 11 UTC dans data/x_alertes.json : 22 245 vues, 93 reposts, 1 107 J'aime, 26 réponses. Chiffre YouTube cité par le compte, non vérifié sur la chaîne. Ouverture X directe non faite (pas de navigateur).",
+      "visual": "600 M DE VUES",
+      "image": "https://pbs.twimg.com/media/HV7vibfXwAAwE1C?format=jpg&name=360x360",
+      "image_alt": "Visuel du post de @GTAVI_Countdown sur les 600 millions de vues des vidéos GTA 6",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "cta": "Voir la publication sur X",
+      "embed_type": "x",
+      "post_text": "All GTA 6 videos on Rockstar’s YouTube channel have surpassed 600 million views combined."
+    },
+    {
+      "id": "x-edge-courses-de-rue-pnj",
+      "title": "GTA 6 : des PNJ peuvent lancer des courses de rue improvisées, selon Edge",
+      "summary": "@GTAlphaintel reprend un passage de l'aperçu du magazine Edge : un groupe de PNJ n'a cessé de provoquer le journaliste Rob Nelson jusqu'à ce qu'il accepte leur défi de course de rue. Détail issu de l'aperçu presse, relayé par le compte.",
+      "url": "https://x.com/GTAlphaintel/status/2116287025196466582",
+      "platform": "X",
+      "author": "@GTAlphaintel",
+      "status": "Rapporté",
+      "published_at": "2026-10-30T21:52:00.000Z",
+      "checked_at": "2026-10-31T11:20:00+02:00",
+      "evidence": "Vues relevées le 31 octobre 2026 à 09 h 11 UTC dans data/x_alertes.json : 20 009 vues, 25 reposts, 536 J'aime, 9 réponses. Détail attribué à l'aperçu Edge ; magazine non consulté. Ouverture X directe non faite (pas de navigateur).",
+      "visual": "COURSES DE RUE",
+      "image": "https://pbs.twimg.com/media/HV5momtbkAAhid7?format=jpg&name=360x360",
+      "image_alt": "Visuel du post de @GTAlphaintel sur les courses de rue dans GTA 6",
+      "image_credit": "@GTAlphaintel sur X",
+      "cta": "Voir la publication sur X",
+      "embed_type": "x",
+      "post_text": "GTA VI NPCs can challenge you to spontaneous street races"
+    },
     {
       "id": "x-countdown-precommandes-vs-maintenant",
       "title": "Le compte à rebours GTA 6 : le jour des précommandes face à aujourd'hui",
@@ -755,6 +793,11 @@
       "at": "2026-10-31T08:20:00+02:00",
       "label": "Veille permanente · compte à rebours et Halloween",
       "summary": "Relevé X du 31/10 à 07 h 08 UTC : 2 sujets ajoutés (@GTAVI_Countdown, 199 148 et 67 257 vues). Autres posts sous le seuil (YouTube 600 M de vues 15 293, Dylan Rourke 7 754) ou déjà couverts. Pas de navigateur : X direct, Instagram, TikTok non consultés."
+    },
+    {
+      "at": "2026-10-31T11:20:00+02:00",
+      "label": "Veille permanente · 600 M de vues YouTube et courses de rue",
+      "summary": "Relevé X du 31/10 à 09 h 11 UTC : 2 sujets ajoutés (@GTAVI_Countdown 22 245 vues, @GTAlphaintel 20 009 vues). Autres posts sous le seuil ou déjà couverts. Pas de navigateur : X direct, Instagram, TikTok non consultés."
     }
   ],
   "coverage": {
