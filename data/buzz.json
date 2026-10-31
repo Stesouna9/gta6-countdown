@@ -1,8 +1,46 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-10-31T00:05:00+01:00",
+  "updated_at": "2026-10-31T08:20:00+02:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-countdown-precommandes-vs-maintenant",
+      "title": "Le compte à rebours GTA 6 : le jour des précommandes face à aujourd'hui",
+      "summary": "@GTAVI_Countdown met côte à côte le compte à rebours du jour où les précommandes ont ouvert et celui d'aujourd'hui, à 18 jours de la sortie du 19 novembre. Le post, sans information nouvelle sur le jeu, a dépassé 199 000 vues : il montre l'attente qui s'accumule avant la sortie.",
+      "url": "https://x.com/GTAVI_Countdown/status/2116348957546983623",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "2026-10-31T01:58:05.000Z",
+      "checked_at": "2026-10-31T08:20:00+02:00",
+      "evidence": "Vues relevées le 31 octobre 2026 à 07 h 08 UTC dans data/x_alertes.json : 199 148 vues, 363 reposts, 8 835 J'aime, 41 réponses. Post du compte @GTAVI_Countdown. Ouverture X directe non faite (pas de navigateur).",
+      "visual": "COMPTE REBOURS",
+      "image": "https://pbs.twimg.com/media/HV7IE7LW8AAPIDj?format=jpg&name=small",
+      "image_alt": "Comparaison des comptes à rebours GTA 6, image du post de @GTAVI_Countdown",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "cta": "Voir la publication sur X",
+      "embed_type": "x",
+      "post_text": "The GTA 6 countdown the day pre-orders opened vs now"
+    },
+    {
+      "id": "x-dernier-halloween-gta-online",
+      "title": "Dernier Halloween dans GTA Online avant GTA 6",
+      "summary": "@GTAVI_Countdown rappelle que l'événement d'Halloween en cours est le dernier de GTA Online et le dernier événement avant la sortie de GTA 6. Il s'agit de l'interprétation du compte, relayée sans annonce de Rockstar dans le post ; le post a dépassé 67 000 vues.",
+      "url": "https://x.com/GTAVI_Countdown/status/2116329436211564798",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-10-31T00:40:31.000Z",
+      "checked_at": "2026-10-31T08:20:00+02:00",
+      "evidence": "Vues relevées le 31 octobre 2026 à 07 h 08 UTC dans data/x_alertes.json : 67 257 vues, 296 reposts, 4 232 J'aime, 44 réponses. Post du compte @GTAVI_Countdown. Ouverture X directe non faite (pas de navigateur). Un seul compte, aucune confirmation Rockstar relue.",
+      "visual": "HALLOWEEN",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2116328860388057088/img/8yrVt6ZxPhtyj_7J.jpg",
+      "image_alt": "Visuel de la vidéo du post de @GTAVI_Countdown sur le dernier Halloween de GTA Online",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "cta": "Voir la publication sur X",
+      "embed_type": "x",
+      "post_text": "This is the final Halloween in GTA Online and the last event in general before GTA 6."
+    },
     {
       "id": "x-rockstar-relaie-edge-430",
       "title": "Rockstar relaie le dossier Edge de 16 pages sur GTA VI",
@@ -712,6 +750,11 @@
       "at": "2026-10-31T00:05:00+01:00",
       "label": "Veille permanente · Rockstar relaie Edge 430",
       "summary": "Relevé X du 30/10 à 22 h 16 UTC : post officiel @RockstarGames sur Edge n° 430 (189 439 vues) ajouté, statut Officiel. Autres posts sous le seuil (gtasix_ Miami 10 616 vues, un seul compte, sujet déjà couvert) ou doublons. Pas de navigateur : X direct, Instagram, TikTok non consultés."
+    },
+    {
+      "at": "2026-10-31T08:20:00+02:00",
+      "label": "Veille permanente · compte à rebours et Halloween",
+      "summary": "Relevé X du 31/10 à 07 h 08 UTC : 2 sujets ajoutés (@GTAVI_Countdown, 199 148 et 67 257 vues). Autres posts sous le seuil (YouTube 600 M de vues 15 293, Dylan Rourke 7 754) ou déjà couverts. Pas de navigateur : X direct, Instagram, TikTok non consultés."
     }
   ],
   "coverage": {
