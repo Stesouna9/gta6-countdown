@@ -1,6 +1,14 @@
 {
- "maj": "2026-10-31T20:50:04+00:00",
+ "maj": "2026-10-31T21:10:16+00:00",
  "articles": [
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOeDJ5NUxnYU5SNnFmTEZMVmhOTjhZd2VrS0hsYjZ0cWYzVkRvZXd2OEVoOVVNRzNOQlFNbEZTUWphd1F0SzZ3UTF1LVBqWDJlY1lLSldoR2pwc2NOajNrUEhzemFoZnlFaVBiVUZZejlKTjZFN09oTjIwQ2xLd1FNYUEweDMzbWR6dS12R2ZlSDg1a01EVGYtdEVMSVg0alFfQ1pYTjk4Sm5qZzlCWEZDWjluSjg3SWpieFdlY3JsbFIya25mSlJhdnlMdWlGYzVlTFZWNEVWMjAwNTRUSUtV?oc=5",
+   "s": "The Daily Scrum News",
+   "d": "2026-10-31T21:00:44+00:00",
+   "lang": "en",
+   "t": "GTA 6 Launch Countdown Hits 19 Days as 1.5 Million Americans Plan to Call In Sick and Rockstar Faces Union Vote",
+   "erreur": "429 : passage suivant"
+  },
   {
    "gn": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNXzlOUGFDTUtSLTVvSnJVaXNjY2lsMmtMcmphRjM5NWlsRk5lVTlkc0R3azFaWlpRQllod2FXemVWZ3NEc2wxN2RRRkFSdF83ZWlYTkRISXJCbTZMMGZ4SmRibjBTQ3N6c0FWZEdXUFN6dkJPMmM1WXJtdzVTeWpSZk9zU3AxbDZYYU1saDA1VHlaUUFNbHZ1RDI4eVRQcGY0MzBCSDY2RGl2TnJYaXlaZXlwbEF5b3BFZmtTdlhUUG1zTVJ4MWpidXVkSUlVSlJlRUJrR0JhcUtRckNUcjdRMnoyUzQ2WWUwT3hYSg?oc=5",
    "s": "La Crème Du Gaming",
@@ -258,18 +266,6 @@
    "pub": ""
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVlduV1F2M2toZE1tenB4WU42bndKbEd3VUtmajY2VGhzNWJCamh4ejY2dGZFWFVMV2lMSHB5TjlfdmtxNzJsZ2VMakdoSUgyOGxpRVZ6RnA3Y0xpRk1Dd3llSGNlcHRyeWhjaTRabjhUQ3NyTG81ZzV6eU9GQWEwSnl3a25ET1E?oc=5",
-   "s": "https://tech-insider.org/",
-   "d": "2026-10-31T13:31:47+00:00",
-   "lang": "en",
-   "t": "GTA 6 NPC Animations: Around 600,000 Reported [2026]",
-   "u": "https://tech-insider.org/gta-6-npc-600000-animations-rockstar-edge-leonida-2026/",
-   "img": "https://tech-insider.org/wp-content/uploads/2026/10/gta-6-npc-600000-animations-rockstar-edge-leonida-2026-gen.webp",
-   "chapeau": "Rockstar art-directed around 600,000 animations for GTA 6 NPCs, per Edge. See what the Leonida pedestrian report confirms and what it leaves open.",
-   "txt": "Elias Virtanen October 31, 2026 14 min read Rockstar Games art-directed every pedestrian in Grand Theft Auto VI, and the result is around 600,000 animations , according to an Edge magazine cover story that GamesRadar and a string of other outlets picked up on October 29, 2026. Creative Bloq framed the number as Rockstar’s effort to make GTA 6’s passers-by feel like real people. That framing is a summary of the reporting, not a verbatim line from the studio.\nThe figure arrives at a busy moment for GTA VI coverage. We already walked through the 12 new screenshots that left Vice City for the wider state of Leonida. This story goes the opposite direction and zooms in on the people who fill the streets, the crowds that most players will bump into, shove, rob, or run from within minutes of picking up the controller.\nThis analysis separates what the Edge-sourced reports confirm from what they leave open. It also looks at why Rockstar is talking about NPC craft now, how the “authored crowd” approach compares with procedural crowds, and what the number could mean for the studio’s reputation, its production costs, and the rest of the open-world field. Where the reporting runs out, this article says so rather than filling the gap.\n· Google · Preferred Sources Don't miss new tech stories on Google\nAdd Tech Insider once in the Google app and our stories appear in your news suggestions.\nStart with the core sentence. PC Gamer relays the Edge text this way: the studio art-directed every one of Leonida’s pedestrians, “creating around 600,000 animations.” The word “around” matters. Nobody in the coverage claims an exact count, and this article treats 600,000 as a round, approximate figure throughout.\nThe second half of the claim carries as much weight as the number. According to PC Gamer , those pedestrians are assigned personality traits that help decide how they respond to the player. The outlet’s headline says the traits take “demographic and professional” variables into account, which hints that an NPC’s apparent age, job, or background feeds into how it behaves.\nReported inputs to those reactions include temperament, aggression, location, what the pedestrian has seen, and how the player has behaved toward them. That list is short, but it describes a system with memory and context, which is a different thing from a looping animation attached to a random body.\nTwo caveats frame everything that follows. First, Rockstar has not (in the sourced reporting) published a technical breakdown of how the 600,000 animations are organized, stored, or triggered. Second, the coverage does not say that every pedestrian owns a unique animation set. Several outlets lean on the idea of individuality, but the phrase “around 600,000 animations” says nothing about how many characters share them.\nThe source material is Edge magazine’s GTA VI cover feature. GamesRadar, which carries the Edge piece under the headline “The state that never sleeps,” identifies the interview as part of issue 430. PC Gamer and the other outlets attribute the reporting to Simon Parkin, the writer of the preview.\nThat sourcing is worth pausing on. A print magazine cover story is a controlled access product. Rockstar chooses which developers talk, which details surface, and which numbers get a mention. A figure like 600,000 is the kind of statistic a studio hands over when it wants to signal craft and scale, because it is easy to repeat and hard to verify. None of that makes the number false. It does mean readers should treat it as the studio’s own framing of its work.\nThe pickup was fast and broad. Within roughly a day, GamesRadar, PC Gamer, Game Rant, 80.lv, TweakTown, and The Source all ran versions of the story, and Creative Bloq led with the “passers-by feel like real people” angle. Most outlets repeated the same two or three facts from the Edge text, so the reporting is deep in origin but narrow in independent confirmation. One magazine interview produced a dozen headlines.\nThe most interesting organizational detail is not the animation count. It is the team. Rockstar established a Los Angeles-based group of writers, directors, and producers whose job is to make Leonida’s NPCs more individually realized. 80.lv put it plainly in its write-up: the studio individualized its NPCs with that team instead of relying mainly on procedural systems.\nWriters and directors on pedestrian work is an unusual staffing mix. In most large studios, crowd characters fall to technical animators",
-   "pub": "2026-10-31T13:31:47+00:00"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9wWUtnNl92VWdIdGRXT3ZWOV9aVG5XWlFlR0c0Zll5RXlITk1vUWFLREdHUDVzWDJBZWxnV1RkUkFpY3dnbEJZTi1BdWxPb0ljSWRrVlpwaHA1cWpPMlJEbG5NQm5GNkFRNW9SVXhNM0haM3FRZldYdDV3eFhodw?oc=5",
    "s": "big-n.fr",
    "d": "2026-10-31T13:13:50+00:00",
@@ -448,6 +444,15 @@
    "cyberleek": true
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSGpCRWRndS10SlRQRlRQdUlvdnlxYnF5UjBmbWhoNERKUmdDd1pPdlhaR1I0THlDakV6WHRRVVpzOHdXMm5HTExCblpNQmVZc1pnZjl1MVhQblR1cll2U1ZwWm1YbV9Ddk1HaXNRZ0hMZGZhNVdNNTg3aFdMZDc2SzM2Ml9LdU5uWjlsVHFWMjN1V3AtQ3V6ZW1RMVh4SFVvQ21Bc1Z1RFdORGU1WktxMHNsYmhqeWx2?oc=5",
+   "s": "Dexerto.fr",
+   "d": "2026-10-29T17:16:27+00:00",
+   "lang": "fr",
+   "t": "GTA 6 dévoile du gameplay inédit dans South Park avec une mécanique complètement absurde",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUXpMcXU1bXZpTTBIVW1QLWdKek43T3gxMlhDakw0cXhZbU0wYXk4WHJoa2xGaUVUVGJaSFRVM0RiNkM2NWRYeWQzRFVOc0NZcDBsTHZXWEpuei0waWdtREFHT0dPQXJQUTVSQldyb0hXRzdTUE5wenl3eFdKV1UxOVlHUVpmMUpGUmdKZzdMckVoUThmc0RZbnRwc1YxNzdYSjRjUzVRUXp1OXprT2hv?oc=5",
    "s": "PC Guide",
    "d": "2026-10-29T12:09:03+00:00",
@@ -513,6 +518,15 @@
    "cyberleek": true
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUEVSSm5lSGdPREZMakh6Qi1SYzBsMFBVVWdfQVBQcDEwbS1WLS0xai16X0hqY3pfVVJwQko3ZEl1V2ZBNlNuWnNRVHZ0YjFRY0l0Q1lTMU9sbml6X0hqWEp3cWUzOGxVVVhYeUJnYVhjQU80QWVqSWk5ZjY3TmRJR1dHMk50QUUtd1RCaEhNSzM5aUFCOXE5MVBKUVhpa29ydGZkUzNLQ2FwRzRfWTdZ?oc=5",
+   "s": "Gizbot",
+   "d": "2026-10-29T09:05:04+00:00",
+   "lang": "en",
+   "t": "GTA 6 May Need A Massive Amount Of Storage, Latest Leak Suggests",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONVlkaG9fMWhLZzA2WTQ5cXZ3QlFvdE5RYU5LbVhhZnNvYU9EM3RRMnlITHphNWRrUnlWVkFtOHd1R3FvY2lkMzhpZmJ2MHIwZDZuTEpjb2lTaGtpRDZzdDI4SWI0MTJPQVlCdDBzcDJIa3VKbEtQWjE4SUNEd3BmVUpTRXFHWmthSXNyckQ3dGVTSmVnZlJlSzZXelN5R19CX1N2a0Q1QWxsdGZqZG50aXJzY05Kc004ekRITC04WQ?oc=5",
    "s": "Notebookcheck",
    "d": "2026-10-29T05:16:00+00:00",
@@ -552,11 +566,11 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRGVucjdrbGpKcUF0X3E2VC10d2ZndUo3a004UnJZcmJnZ1M2Q0xoQ2ZncGREcm5IV2VJVEptRmJvdFZtY0NtQVVPX0FydzB4cDk3YzVhSjlGRUdQZnNWM3E5SWF3Wnk1aHhlTlppbWZhRmtnc2EtR0daQkd1TTcxY2dWdWY?oc=5",
-   "s": "https://tech-insider.org/",
-   "d": "2026-10-29T00:06:55+00:00",
-   "lang": "en",
-   "t": "GTA 6 File Size: 210 GB Reported, Clear Space [2026]",
+   "gn": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5FWmdoTUxhTHZndFliY1BGSkxKR0w5ZENkcDEzbE04NF9zMHB1Y3FtMFMwTVQ5TWx0ZUh5a3gtRFNZTWhWd0tqSGFFX0ZVM0dGZm5hYzVGZlRDOTJrX0dodzN1Y0w?oc=5",
+   "s": "Dexerto.fr",
+   "d": "2026-10-28T16:51:28+00:00",
+   "lang": "fr",
+   "t": "La taille de GTA 6 aurait fuité et il va falloir faire de la place sur votre console",
    "erreur": "429 : passage suivant",
    "cyberleek": true
   },
@@ -753,15 +767,6 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeUJxeEk5dHZzM3g5aEZlU3NubEk3VUt2aVBFVUwwTlBvVmhNNkd4ZEZtN1doa0dxamd6Y1ZuWmVucGxxaURvSzJkeFRJdjFnMWRmVFhNSzVRT2xxVG5ZT2hLQVh6LWNqSjQzVnNCX3lUd3A2UUI5YU9VX0RYRFE2RUxnQV85a09QLTVhX1dfbWd0NEl1WXpIaUFwcXVtM3VKU2MtUGVOdmRBUjlXa0JpTWZvWThXV00?oc=5",
-   "s": "MMOEXP",
-   "d": "2026-10-21T07:00:00+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : Taille du jeu bientôt révélée ? Trophées, Publicités et Risques de Fuite sur PS5",
-   "erreur": "429 : passage suivant",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5salliRDZyMXBzQWZHczVJeVdsTXU1NVU4VXJsNmRxWjRfS0J1LVFDY0ltSkplZHFERkRaVXJadDUwOF9iLTlTOVpvSHk5Q1BLd0E?oc=5",
    "s": "IMDb",
    "d": "2026-10-20T11:13:09+00:00",
@@ -776,15 +781,6 @@
    "d": "2026-10-20T07:57:13+00:00",
    "lang": "en",
    "t": "GTA 6 Leaker Threatens Story Spoilers If Caught",
-   "erreur": "429 : passage suivant",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVExYYWpJaDR5czdHdFRhY3ZHTDR0V3JDb2pEamQ0OFAtUkJOT2hLSzZUd0w1QVBhNUh3bHZwRU9Fa2ZiRm5pSEdzZkU3ZUpCQUtQbTA4SjIwSmdUamVUZlVPcmE0QkVVMHFQQ1JkRS1CZjhJdERWZTNBRUFGZ1FpYURsNHE4QQ?oc=5",
-   "s": "Big N",
-   "d": "2026-10-20T07:00:00+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : une nouvelle fuite massive dévoile 25 minutes de gameplay avec nudité frontale et menu développeur",
    "erreur": "429 : passage suivant",
    "cyberleek": true
   },
