@@ -45,4 +45,4 @@ Le Buzz était bloqué : sans accès direct à X, chaque passage concluait « au
 - Image : le champ image du post (pbs.twimg.com), image_credit = « @auteur sur X ». S'il est vide, l'og:image de l'article de presse qui corrobore, ou une image officielle déjà dans le dépôt (img/). Une image manquante n'est jamais une raison de ne pas publier le sujet.
 - Plus récent en haut. Les archives restent mais ne doivent pas dominer la page.
 
-- 31/10, Gabriel : @vicecentralFR (Vice Central) = compte jugé peu fiable, probablement géré par une IA. Ne jamais le citer comme source ni reprendre ses infos.
+- 31/10, Gabriel : @vicecentralFR (Vice Central) = compte jugé peu fiable, probablement géré par une IA. Ne jamais le citer comme source ni reprendre ses infos (on peut toujours lui répondre sur X).

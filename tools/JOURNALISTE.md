@@ -20,4 +20,4 @@ HEURE RÉELLE : commence par `TZ=Europe/Paris date -Iseconds` et note le résult
 10b. Après publication, NE POSTE RIEN sur X ni Instagram : la chaîne automatique s'en charge (X dans la demi-heure, Instagram @vicebayradio ensuite), voir ~/La Soso/LIEN-TOTAL.md. Un bon titre et un bon chapeau (d) servent donc aussi de texte de post.
 11. Dernière ligne : « articles : <titres> » ou « rien de neuf ».
 
-- 31/10, Gabriel : @vicecentralFR (Vice Central) = compte jugé peu fiable, probablement géré par une IA. Ne jamais le citer comme source ni reprendre ses infos.
+- 31/10, Gabriel : @vicecentralFR (Vice Central) = compte jugé peu fiable, probablement géré par une IA. Ne jamais le citer comme source ni reprendre ses infos (on peut toujours lui répondre sur X).

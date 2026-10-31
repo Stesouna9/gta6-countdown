@@ -16,9 +16,9 @@ ESSAI = "--essai" in sys.argv
 X.slot = "reponse"
 # 29/10 Gabriel : « faut les taquiner avec bienveillance » : Vice Central et GTA 6 Hub (confrères fans), prioritaires, 1 réponse/jour max chacun
 # 29/10 bis : « tous les comptes FR qui parlent de GTA, ceux qui sont comme nous » : liste connue + tout compte FR dont le pseudo dit GTA/Rockstar/Leonida/Vice
-RIVAUX = {"gta6hubfr", "rockstarnewsfra", "gta6france1", "gtasix_", "martx_tv"}   # 29/10 ter : + comptes fans anglais (« même cela en anglais »)
+RIVAUX = {"vicecentralfr", "gta6hubfr", "rockstarnewsfra", "gta6france1", "gtasix_", "martx_tv"}   # 29/10 ter : + comptes fans anglais (« même cela en anglais »)
 def confrere(p): a = p["auteur"].lower(); return a in RIVAUX or (a not in ("rockstargames", "gtafance", "gtavifrancecom") and re.search(r"gta|rockstar|leonida|vicecity|vice_?city", a) is not None)
-RECHERCHES = [("(from:gta6hubfr OR from:RockstarNewsFRA OR from:GTA6France1 OR from:martx_tv) -filter:replies", "fr"), ("from:gtasix_ -filter:replies", "en"), ("from:RockstarGames", "fr"), ("(GTA 6 OR GTA VI OR GTA6) lang:fr min_faves:100 -filter:replies", "fr"), ("(GTA 6 OR GTA VI OR GTA6 OR Leonida) lang:fr min_faves:20 -filter:replies", "fr"),
+RECHERCHES = [("(from:vicecentralFR OR from:gta6hubfr OR from:RockstarNewsFRA OR from:GTA6France1 OR from:martx_tv) -filter:replies", "fr"), ("from:gtasix_ -filter:replies", "en"), ("from:RockstarGames", "fr"), ("(GTA 6 OR GTA VI OR GTA6) lang:fr min_faves:100 -filter:replies", "fr"), ("(GTA 6 OR GTA VI OR GTA6 OR Leonida) lang:fr min_faves:20 -filter:replies", "fr"),
               ("(GTA 6 OR GTA VI OR GTA6) lang:en min_faves:2000 -filter:replies", "en"), ("(GTA 6 OR GTA VI OR GTA6) lang:en min_faves:500 -filter:replies", "en")]
 # 27/10 Gabriel : viser les posts qui ont déjà beaucoup de vues et de réactions (gros comptes) ; candidats triés par réactions   # 17/10 : + gros posts anglais (réponse en anglais)
 GENERIQUES = {"gta 6", "gta vi", "gta", "rockstar", "rockstar games", "take-two", "ps5", "xbox", "trailer", "vice city", "leonida", "jason", "lucia", "jason duval", "lucia caminos", "gta v", "grand theft auto", "trailer 3", "launch trailer", "playstation", "rockstargames", "sortie", "date de sortie", "release", "release date", "bande-annonce", "rumeur", "officiel", "annonce", "précommande", "pre-order", "gameplay", "carte", "map"}
