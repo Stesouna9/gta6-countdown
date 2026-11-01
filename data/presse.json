@@ -1,13 +1,29 @@
 {
- "maj": "2026-11-01T06:34:49+00:00",
+ "maj": "2026-11-01T06:55:01+00:00",
  "articles": [
+  {
+   "gn": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZVlzN0RQTm5VQnBXRTJRSGRQdEVkcmN1WG14RDdMTF9xM3ZJR296ZHowc1Uxd053eXBlVjltc2tkdE9feTJNdldIR3o4WkRRdlkxZDA3Vl9QV0RYdGtFYjBFZTNBck5qWGtxYkdjT0VHb2RnandpUHM4LVU2MWxzU3JDcWxxR0E5c3Y3YVpyU0VnNUJnOXBGa3c1MTlKUQ?oc=5",
+   "s": "Paris Match",
+   "d": "2026-11-01T06:49:05+00:00",
+   "lang": "fr",
+   "t": "Pourquoi le monde risque de s'arrêter le 19 novembre 2026",
+   "erreur": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBBdmJjWnlnZ0FVclVaRVpoODB2djg2NjZaZy0xM3FBWmJ2M3pKUmdJdHBYWkdlVW1OY1FaVjFHYkMtWUU3dTg0UTNqemNWNEo1bUhka2QxSHpEYkVyeEZNdDRB?oc=5",
+   "s": "WorldOfGeek",
+   "d": "2026-11-01T06:40:00+00:00",
+   "lang": "fr",
+   "t": "GTA VI : Rockstar dévoile enfin la carte, deux fois plus vaste que celle de GTA V",
+   "erreur": "429 : passage suivant"
+  },
   {
    "gn": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUkhuZnVHMHFUWDZnVjBLY3FDdkk5Y2xzalFJZ0VuYTZKZE0zakRZdFNpV1NLaGVVNVdxQnZTLVVSanZWZTQ5TGpFTlVacDdLQmxEVkxpUC1hNE1oLXRjSzd5SDZIcTl2ejViOEdEajNhb3NMbWVXOWFwQ0p1TnpGTktNUm9YQWVvN09LLUxIREUtaVBtVC1pY3pSVGRBVzNWLTVOTDRJWFRkakRHMURRcEtNWGQxU0N1LXVIemlTcTJKZkFpYU05WnY1UQ?oc=5",
    "s": "Gamekult",
    "d": "2026-11-01T06:02:00+00:00",
    "lang": "fr",
    "t": "Agenda - GTA 6, Ocarina of Time Remake, WoW Forever... Les sorties JV du mois de novembre 2026",
-   "erreur": "HTTP Error 429: Too Many Requests"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE03WGw1c2FDZGxuSm1keUdQYlJ4dzNpQlRMQzAwVlBvd2hONmY1LTJuX3l2dll6TmNTRDZvNjZoLWdDVUJaVGhzaExuQ19SRno3Z3NZ?oc=5",
@@ -43,6 +59,14 @@
    "pub": "2026-11-01T02:03:09+00:00"
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8xY3BEQ0hMZ3dWd254ZERURl9ldGwyUGpWQy1MMElTakQzQVB4dU52cUdIb3RBbU1fNHJ5UnVsTm5QdzRKS3BmQ0IzemFyMVVQX0plMkhDclBJQTBhX2NTSHNPMWpXQQ?oc=5",
+   "s": "DMARGE",
+   "d": "2026-11-01T00:42:04+00:00",
+   "lang": "en",
+   "t": "GTA 6 Is Tipped To Cost A Billion Dollars In Sick Days",
+   "erreur": "429 : passage suivant"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNX2RFRzhJMVVTUDJLWm82d3hqWXdxenpJYnlOSFpNd2FzSHR3ekVlM01pOW1EQ3V6YnVZeV9yTnYtZGpNNVBLazhvazYtQnNvYVhhVkgtaXNpeUhUM1I3S2JwRTV5eW5qa090VVRwMlhQRnVDT2xvRlFIYkFwLTdvR0c5aGVSRGdxT2Z1cUVzalRNZw?oc=5",
    "s": "Collider",
    "d": "2026-11-01T00:30:00+00:00",
@@ -68,16 +92,13 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQMVFISGItVE9QVHpTajMwNzB0Z1MtNXNrd1g5eXhGUVNyQkZiUVhRaEgtV1JkTkV3a0xUeS10dFBqZVZDd0JRblVVV0p0VG9tdzBfMVFqdGFpS0xUbGVnWW15UllHdjJQN0ZUT3AtXzlUSDZkcTVuLXJvQ1p4N3lFdjY3UGJJUlpmdmF4OEZpcDVaZUhCX2MxYUI1c2pKWWp4RkJCRmoyZDlKU3NiaTBPZGJxZEhUeEk0TVpDdVo5ZGNoYkRKanVjclhuVl9CdXVJQXNzaFV4MURIdTJSdy01NC1RdC1iTXV5SFdfeTJfNVBWV2YzRkRMOFRnS1JrT1RnM0ZZ0gGIAkFVX3lxTE9NRVpCaFNEa2M1U0pHRWhkODEyYjJULUI3MnB1TGtYM20xVzd6X1BzOWxjLUpnMGk0U0pCMFQ3b251ZG5WZXhUS2dVQ1daX0g4UnpDbUpoZWJqNU1GbGZMRjFhNEh2aDBwYXlhRVVUV0RIVzVPRGdQVm13NFFGWWduTEczc3FGMmZKa0NEY0xJbmVuZ2NWajB1ZGxuYk1ibDdKQzhldVBMUWNWMEdsWnVUVjdLdi1iRFA1OGdrTm9RN05vbW4wLW1SZzZTSU0xZHg2RmFNMWZSRVJEQURMUmlZZFVnZ1A3VS1HQjJSVi1aTXVKWllNZGZ5RV9JQy14MGtnZ0wwa1RoRg?oc=5",
-   "s": "Hindustan Times",
-   "d": "2026-10-31T22:37:21+00:00",
+   "gn": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1PR1h4WEkzQ3l0OHpveklXS19ETEpaLTRDa0RMbkZ6X3pCTndwWmZLRDRqaHpQaFpESmRuNi0xcUtVc2pRd1lhZlVoSmw1QWhPTktMODR3TzNtWG5kWGxqbHFkRFBiWUo2Um5z?oc=5",
+   "s": "Decked Out Magazine",
+   "d": "2026-10-31T23:22:08+00:00",
    "lang": "en",
-   "t": "GTA 6 features 600,000 animations as Rockstar takes NPC realism to another level: Report",
-   "u": "https://www.hindustantimes.com/sports/us-sports/gta-6-features-600-000-animations-as-rockstar-takes-npc-realism-to-another-level-report-grand-theft-auto-101793482770395.html",
-   "img": "https://www.hindustantimes.com/ht-img/img/2026/10/31/1600x900/logo/FRANCE-US-INTERNET-GAMING-TECHNOLOGY-GTA-1_1793482_1793482927943_frRK_1793482928173_fEW0_a4aa4311-9f5c-4e41-a867-56ae5866e6fd_7o0d.jpg",
-   "chapeau": "Rockstar worked with a Los Angeles-based team of writers, directors and producers to give individual characters distinct identities.",
-   "txt": "Grand Theft Auto 6 faced multiple delays before Rockstar settled on November 19, 2026, as its official release date. Reports have suggested that one of the factors behind the postponements was the production challenge of creating the game's massive population of non-playable characters (NPCs).\nGTA 6's NPCs are expected to stand apart, with distinct personalities shaping their actions and interactions. (AFP) A recent Edge feature highlighted the considerable work Rockstar has invested in developing the population of Leonida, with the studio placing significant emphasis on meeting its ambitious standards for the game's world.\nBackground characters in most games are typically generated through procedural systems, often leaving them with similar behaviors and limited individuality.\nHowever, instead of depending primarily on procedural generation, Rockstar took a more personalized approach to NPC development, working with a Los Angeles-based team of writers, directors and producers to give individual characters distinct identities.\nThe studio reportedly developed around 600,000 animations, while pedestrians across Vice City were assigned personality traits that influenced their reactions. Factors such as their temperament, level of aggression, surroundings, previous observations and the player's interactions with them all helped shape their behavior.\nAlso read | GTA 6's rumored file size ahead of November 19 launch sparks comparisons with previous editions\nGTA 6's NPCs are expected to stand apart, with distinct personalities shaping their actions and interactions.\nRob Nelson, co-head of Rockstar North, explained that developing the NPCs required the team to constantly consider the different ways characters might react in various situations. This included exploring how many pedestrians might become hostile, reach for weapons or attempt to challenge the player.\n\"Who's going to be aggressive? How many people are going to go for a weapon? How many are going to test me?\" Nelson outlined the questions that guided the development process:\nMeanwhile, Rockstar North's head of development, Aaron Garbut, stressed that the studio was unwilling to lower its standards or take shortcuts while building the game.\n\"We can't just trot out something that's what people might expect, or that was the easy thing to do,\" he noted. \"We've not compromised on the scale, the detail, the interactivity, the story, the open world,\" Garbut added.\nGTA 6 is officially scheduled to arrive on Thursday, November 19, 2026, for PlayStation 5 and Xbox Series X|S.\nAlso read | Will GTA 6 be locked at 30fps on consoles? PS5 Pro owners dejected amid trailer; ‘a minute of silence’\nRockstar initially planned to release the highly anticipated title in 2025, targeting an autumn launch window. However, the studio later pushed the release into 2026, with May 26 announced as the revised date before another postponement shifted the launch to its current November 19, 2026, schedule.\nOjas Jaiswal is a Content Producer at Hindustan Times, currently working with the US Desk, where he covers a wide spectrum of American sports and global news developments. From high-intensity NFL moments on the field to the latest off-court NBA storylines, he specializes in delivering engaging, audience-driven stories that blend factual accuracy with compelling narratives. A graduate in Journalism and Mass Communication from Bennett University, Ojas brings over two years of experience in digital journalism. Before joining Hindustan Times, he worked with EssentiallySports, a leading digital sports media platform catering to American sports audiences, where he contributed across multiple editorial and engagement-focused roles. He also interned with Times Network at the Sports Desk, producing articles and video content across diverse sports, ranging from Formula 1 to football. Known for his commitment to factual and accurate reporting, Ojas was awarded a Certificate of Excellence in Editing during his college years. Beyond sports journalism, he closely follows international affairs and global developments, while also exploring documentaries from different cultures and regions around the world. A lifelong football enthusiast, Ojas has admired Lionel Messi since childhood and continues to draw inspiration from the football icon’s journey and legacy. Read More",
-   "pub": "2026-11-01T04:07:21+05:30"
+   "t": "Is Travis Scott Linking With GTA 6? Leaks Point to November Nike Air Force 1 Drop",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVmpIME0wa3k0WDVLNlQyMkUyWjdHMW80T2IxSDVKTHAxNnc4aEdzUWViRW96TTVhaHhnUkt0dFFGMVQxM0c4UjhIUExKdXNhTTBXR1kyM0M0LS1DZkJ4Q2FFSzk0T0pkTnhTWWR3QWExLWVSdWQ4VmxUYV9iR2lScU1icmRpYUV1Qy0zODBHYWJGcVE?oc=5",
@@ -98,18 +119,6 @@
    "lang": "fr",
    "t": "Oui, vous pouvez jouer à GTA 6 pour 39,99 euros si vous connaissez cette astuce limitée",
    "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOeDJ5NUxnYU5SNnFmTEZMVmhOTjhZd2VrS0hsYjZ0cWYzVkRvZXd2OEVoOVVNRzNOQlFNbEZTUWphd1F0SzZ3UTF1LVBqWDJlY1lLSldoR2pwc2NOajNrUEhzemFoZnlFaVBiVUZZejlKTjZFN09oTjIwQ2xLd1FNYUEweDMzbWR6dS12R2ZlSDg1a01EVGYtdEVMSVg0alFfQ1pYTjk4Sm5qZzlCWEZDWjluSjg3SWpieFdlY3JsbFIya25mSlJhdnlMdWlGYzVlTFZWNEVWMjAwNTRUSUtV?oc=5",
-   "s": "The Daily Scrum News",
-   "d": "2026-10-31T21:00:44+00:00",
-   "lang": "en",
-   "t": "GTA 6 Launch Countdown Hits 19 Days As 1.5 Million Americans Plan To Call In Sick And Rockstar Faces Union Vote - The Daily Scrum News",
-   "u": "https://www.thedailyscrumnews.com/gta-6-launch-countdown-hits-19-days-as-1-5-million-americans-plan-to-call-in-sick-and-rockstar-faces-union-vote/",
-   "img": "https://www.thedailyscrumnews.com/wp-content/uploads/2026/10/gta-6-sick-day.jpg",
-   "chapeau": "The best daily source for news, politics, sports and more.",
-   "txt": "With nineteen days remaining until Grand Theft Auto VI arrives on Thursday November 19 2026 the cultural weight of Rockstar’s return to Vice City is already reshaping workplace calendars and labour politics. An economics projection estimates that 1.5 million Americans will call in sick or take paid leave on launch day costing the US economy roughly one billion dollars in lost output while Take Two collects a comparable sum. At the same moment Rockstar’s UK staff will cast ballots from November 12 to 26 on formal union recognition covering pay overtime redundancies flexible working and generative AI policy exactly overlapping the game’s release and the final days of an employment tribunal over earlier dismissals. Take Two CEO Strauss Zelnick has already predicted the absences and has stated the studio will not insert real world product placement because every brand in the fictional world is invented keeping the satire pure.\nGrand Theft Auto VI launches exclusively on PlayStation 5 and Xbox Series X|S. Digital pre orders can begin pre loading on November 12 and the physical edition reaches stores the same day as a download code rather than a disc. The standard edition is priced at 79.99 dollars and the Ultimate Edition at 99.99 dollars. No PC date has been confirmed.\nThe most direct way to secure the game or the console to run it is through Amazon.ca. Grab a PlayStation Store gift card on Amazon.ca to lock in the 4 percent commission rate before pre load opens. Xbox gift cards on Amazon.ca deliver the same 4 percent rate for Series X|S digital purchases. If you still need hardware the Amazon.ca PlayStation 5 and Xbox Series consoles sit at the 1 percent rate as a secondary option. These links keep every purchase inside the Amazon ecosystem that supports this coverage.\nPlayers will step into the roles of Jason and Lucia inside a rebuilt Vice City powered by the RAGE engine. The launch trailer and extended look have shown denser interiors dynamic weather smarter police systems and a relationship mechanic between the two leads. Zelnick’s insistence on fictional brands only means the parody of consumer culture remains uncompromised by real advertising deals. The timing of the union vote adds a labour layer rarely attached to a single entertainment launch: the same workers finishing the game will decide representation while millions of players take the day off.\nPre load opens November 12 for anyone who has already secured a digital copy.",
-   "pub": "2026-10-31T16:00:44-05:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNXzlOUGFDTUtSLTVvSnJVaXNjY2lsMmtMcmphRjM5NWlsRk5lVTlkc0R3azFaWlpRQllod2FXemVWZ3NEc2wxN2RRRkFSdF83ZWlYTkRISXJCbTZMMGZ4SmRibjBTQ3N6c0FWZEdXUFN6dkJPMmM1WXJtdzVTeWpSZk9zU3AxbDZYYU1saDA1VHlaUUFNbHZ1RDI4eVRQcGY0MzBCSDY2RGl2TnJYaXlaZXlwbEF5b3BFZmtTdlhUUG1zTVJ4MWpidXVkSUlVSlJlRUJrR0JhcUtRckNUcjdRMnoyUzQ2WWUwT3hYSg?oc=5",
@@ -208,22 +217,6 @@
    "pub": "2026-10-31T18:55:12+00:00"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQYnViTm91OEhpbUhvMHNJRlVCRzY0THNtaEJyRmdVUEZIS1ZNaWdmUXF0ZkxRaVA4Z19RMW9Qd2xiZC1BN1lMSURJYU1yOWRkVmZGX2Zsb0ZxejcwSDdqbXhoVEI2MjlweGVSRkw4ek0tUGowWFpzOVNfdWd2OXVCMjR2cEdHZw?oc=5",
-   "s": "Yahoo Tech",
-   "d": "2026-10-31T18:41:00+00:00",
-   "lang": "en",
-   "t": "Working Hotdog Vendors - Modding GTA 5 Into GTA 6",
-   "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdWZYTVl3bm44V3ZpVjEzZ0NBcE9qNDBfeENBTGc2SmhrczVRZFBUTGxVaVFQTkZsa0gtZkI2MkZrSDR2eHVsYmlNaVNiTnpmZk5obXh4Nk56UWFTOFhmOVA4SmFjZ0FyUTY2clBtNzFTTlZkemNfRmszaTZXSVF1SmZMNHJhc0JIc1c5SWJWbWVhaDdxVWwwd2t4SmpMaTR3OW5lQmRLeFZJaGNiWktMVkdST2NlQQ?oc=5",
-   "s": "GameGPU",
-   "d": "2026-10-31T18:38:15+00:00",
-   "lang": "fr",
-   "t": "Des publicités pour le nouveau Grand Theft Auto 6 sont apparues sur les façades d'immeubles du monde entier.",
-   "erreur": "429 : passage suivant"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOc0NfY1NVY1NRS3l3NzZBWDJxLWNsamFVNFVSODh0UnVhOGdmaFBCOW0ycmttTnN2T1BTUGM2cll3clVGeFlQTzNfcGdaN09RYjFUOXg2V2FjMGJwQlUzMHNaLUJRX1lMOEVSSFNPMDJ1VmRxWmQxRkd6ZDJRSHd3ZC1lQ2NBb3o1M0ttLXRrTFBXTDhtTFJGdzBxWnk?oc=5",
    "s": "GinjFo",
    "d": "2026-10-31T18:23:05+00:00",
@@ -234,18 +227,6 @@
    "chapeau": "L’indice des cartes graphiques bondit de 20,98 % sur un mois, Windows 11 26H2 se généralise et Intel confirme le 18A-P pour Nova Lake. Retrouvez aussi le test du MSI VIXTA 300R PZ, un correctif urgent pour les NAS Synology, la musique de GTA 6 et un bon plan be quiet! vérifié.",
    "txt": "Faut-il acheter son PC maintenant ou attendre ? La question s’est imposée cette semaine avec une hausse mensuelle de près de 21 % de l’indice des cartes graphiques. Dans le même temps, Windows 11 26H2 élargit son déploiement, Intel officialise un premier jalon pour Nova Lake et GTA 6 confie sa partition au duo français Justice.\nGinjFo a également testé le nouveau boîtier aquarium de MSI, tandis qu’un correctif inattendu protège certains anciens NAS Synology. Voici les actualités, analyses, tests et bons plans à découvrir ou à relire.\nLe contraste est saisissant. Au 30 octobre, l’ Observatoire des prix GinjFo place son indice des cartes graphiques à 126,44, avec une progression de 2,26 % sur sept jours et surtout de 20,98 % sur trente jours. Ce suivi repose sur 153 références.\nNotre article Acheter son PC maintenant ou attendre ? montre que les autres composants ne suivent pas la même trajectoire. L’indice des processeurs revient à 100, en baisse de 1,79 % sur une semaine, mais reste en hausse de 5,26 % sur un mois. La RAM atteint 103,79, avec +3,65 % sur trente jours, tandis que les SSD restent stables.\nLe message n’est donc pas d’acheter ou d’attendre pour l’ensemble du PC. Un remplacement de GPU non urgent peut être différé ou préparé en étudiant l’historique du modèle convoité. Pour les CPU et les SSD, les promotions ponctuelles peuvent au contraire créer des fenêtres d’achat.\nAvec son panneau incurvé en verre trempé, sa vue à 270° et sa base surélevée, le MPG VIXTA 300R PZ ne passe pas inaperçu. MSI annonce ce boîtier aquarium à 119,90 €, avec trois ventilateurs aRGB, un hub PWM/aRGB et une compatibilité avec les cartes graphiques atteignant 420 mm.\nNotre test complet révèle cependant un compromis important. Le montage est agréable et le fonctionnement figure parmi les plus discrets du comparatif. En revanche, le refroidissement reste modeste en charge.\nMicrosoft a élargi la disponibilité de Windows 11 26H2 aux PC encore équipés de Windows 11 24H2 ou 25H2. Dans notre article Windows 11 26H2 est disponible pour tous nous soulignons que cette disponibilité générale ne signifie pas installation immédiate sur toutes les machines.\nLa mise à niveau peut être recherchée depuis Paramètres > Windows Update > Rechercher des mises à jour. Comme les versions partagent une base logicielle commune, le passage à 26H2 prend la forme d’un package d’activation plus léger qu’une réinstallation complète.\nAprès des mois de fuites, Intel apporte un premier élément officiel sur sa future génération de processeurs. Son PDG Lip-Bu Tan confirme que Nova Lake utilisera le procédé Intel 18A-P et indique que le développement avance mieux que prévu.\nNova Lake : Intel donne rendez-vous au CES 2027 revient sur cette annonce et explique que le recours au 18A-P ne permet pas encore de savoir quelles parties du processeur seront produites par Intel ni si TSMC participera à la fabrication. Les configurations allant jusqu’à 28 ou 52 cœurs restent pour l’instant à confirmer.\nLe CES 2027 devrait apporter des précisions sur les gammes, les performances, la consommation et le calendrier.\nSynology a publié un correctif contre PHP2Shell pour certains NAS fonctionnant encore sous DSM 6.2. La démarche surprend car cette version a officiellement atteint sa fin de support en octobre 2024\nLe guide Vieux NAS Synology : un correctif de sécurité débarque détaille la marche à suivre. Les utilisateurs de Web Station, WordPress, phpMyAdmin ou MailStation doivent vérifier le Centre de paquets et installer PHP 7.4.33-0010, ou une version supérieure adaptée à DSM 6.2. MailStation peut demander une intervention manuelle.\nRockstar Games a choisi le duo français Justice, formé par Gaspard Augé et Xavier de Rosnay, pour composer la musique originale de GTA 6. Il ne s’agit pas simplement de chansons diffusées à la radio : la partition doit évoluer selon l’action et la manière dont les joueurs parcourent Vice City et l’État de Leonida.\nNotre article GTA 6 : Justice signe une partition évolutive rappelle que nous avons deux sorties différentes avec d’un coté Grand Theft Auto VI: Original Score qui réunira 30 compositions de Justice en streaming, double CD et triple vinyle à partir du 11 décembre et de l’autre Grand Theft Auto VI: The Album, prévu le 19 novembre, qui proposera une sélection distincte de 34 chansons.\nLa Power Zone 2 1200 W à 152,90 € constitue l’offre la plus solide encore disponible parmi les bons plans contrôlés cette semaine.\nLors de notre vérification du 31",
    "pub": "2026-10-31T18:16:44+00:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdkpwQTFLUzB5V055RndyVHB0WlE1cnZUbEptRXRHdFdaVk9lSlJhMC1EWDJZQVdlRlF5WncxVnUwVHFtMlNaNm91VFh6cVo3TEZGWlZFdmpoa2xCN1lBY2xKUy16eEJoTlBxQU4wa0xYRG5QRnJxaFM1d0I0anl3TFlR?oc=5",
-   "s": "Yahoo Tech",
-   "d": "2026-10-31T18:10:00+00:00",
-   "lang": "en",
-   "t": "GTA 6's Refuelling Mechanic Only Takes 10 Seconds",
-   "u": "https://tech.yahoo.com/videos/gta-6s-refuelling-mechanic-only-181000960.html",
-   "img": "https://s.yimg.com/lo/mysterio/api/6d35aad1f7afba81e77677bfac4a77cadd6e6a597382a5ec5ef85e231aeac11f/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fpc_gamer_708%2F187f9012806397862d3c2c7017d8bff3.jpg",
-   "chapeau": "Does a video game need to simulate everything? GTA 6 seems to think so, introducing a fuel meter for cars. We break down what this means for gameplay and whether this new feature will be an immersive addition or just a chore.",
-   "txt": "Does a video game need to simulate everything? GTA 6 seems to think so, introducing a fuel meter for cars. We break down what this means for gameplay and whether this new feature will be an immersive addition or just a chore.",
-   "pub": ""
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNOVJHTkFJcThENnFYNUc2ZmZXR3hfN09KVDFLUTh0V1JFN3g3eU9pVkFZVnNGTERHNWd5dTRVN3duRGpIc1hWdzFSUW1MMXVXWWNVU19WakQ5MlNjTHhuZnM4Q1I1Ykc0TVEzbHRZLXZKazZJVFoxNmVoNGZSWV9BNlhURC1vQUpVNGxVNkp3?oc=5",
@@ -280,6 +261,22 @@
    "erreur": "429 : passage suivant"
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOZU0xd0ZkZ1ZycnlBYVVSdEZCNUNabUNMS3FxN09FZ2VLbnMtUjFoVURRUlA1bm5BM1IzS2NYNmh3ZEhHMk5TQ19MUkdNOE1UV1BJRU12QUd5T1FXVF9lTjhEc2pfbE9RV1lxaGd0bG01TS15N1lZVzRRaGJkeExvWWdaN3FXVTNsbmNMN3Y2clNJeUdFMkU2QW4zUW1MVWdvVnpHNElpTkJEZG1xR0dHOWcyZFNreXpidGZpYjBrY1FldWdJVWF5YmpkVDFGUQ?oc=5",
+   "s": "GameGPU",
+   "d": "2026-10-31T17:08:11+00:00",
+   "lang": "en",
+   "t": "Grand Theft Auto VI on PlayStation 6 will receive 60 FPS and improved graphics compared to PS5 Pro.",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQb1V0VHFPQUJ4VWtpdHJkWkZndTFYcUlNakVLanhCOER1LVlnNWloM0RfeDcwdDd2R1Nmakp0VW5ETW1PV1dYQmc0aUdHbzdhZGhFQjdxOEhBZEJKeHF0eGZFNUEwZnBzbEgwNFlJTG1EdkUxdjltMnMtMGVmcmpqS085R0hZeTQxNWc2OWc1OUM2Rmczd2xvcm1KbGxRVDhCU1dWeWZrSnRKNWhjU2c?oc=5",
+   "s": "Complex",
+   "d": "2026-10-31T16:52:29+00:00",
+   "lang": "en",
+   "t": "'GTA 6' Cactus Jack x Rockstar Games x Nike Air Force 1s Releasing Soon",
+   "erreur": "429 : passage suivant"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1aVkpxTHBvTjAxVnFUcFNSMkxnMHAxOWoxMnBINE50QVg1MnlfdEgwNWJQTVE1NTZaVjRvMzRPOG85N3VoTWF1N2pPWkNfckxGNk5CWDNmMG9SMEkx?oc=5",
    "s": "GeeksLands",
    "d": "2026-10-31T16:43:31+00:00",
@@ -290,6 +287,14 @@
    "chapeau": "Avast a repéré plus de 200 sites liés à GTA en une seule journée. À l'approche de la sortie de GTA 6, comment déjouer les arnaques et où acheter sans risque.",
    "txt": "Les escrocs n'ont pas attendu le 19 novembre pour vendre GTA 6 . À trois semaines du lancement sur PS5 et Xbox Series X|S, franceinfo recense de faux PlayStation Store, des versions PC introuvables ailleurs que chez les fraudeurs et des « accès anticipés » réglés en cryptomonnaie. Luis Corrons, qui pilote ces recherches chez Avast, s'attend à voir la vague grossir encore pendant la semaine qui précède la sortie.\nFin septembre, en une seule journée d'observation, les chercheurs d'Avast ont relevé plus de 200 noms de domaine liés à GTA, dont 10 % classés à risque moyen ou élevé. Les sites frauduleux imitent des boutiques de jeux vidéo ou reprennent les couleurs de la série pour proposer de fausses précommandes, des téléchargements gratuits, des contenus exclusifs ou des concours. Ils cherchent tous à récupérer des identifiants de jeu, des données personnelles et surtout un numéro de carte bancaire, que les escrocs réutilisent ensuite pour leurs propres achats. Pour le vérifier, l'équipe d'Avast a payé avec des cartes « canary », sans provision, qui signalent toute tentative de débit.\nParmi les adresses épinglées par Avast et détaillées par Clubic, order-gta6.com imite le PlayStation Store pour vendre une fausse précommande de l'édition Ultimate. Le site cache même un code qui permet de relier un portefeuille de cryptomonnaie. D'autres, comme gta6pcgame.com ou gta6mobile.net, promettent le jeu sur PC ou en fichier APK pour Android. Aucune version PC ni mobile n'est annoncée . Matthew Ball, directeur de la stratégie de Xbox, a même exclu tout streaming vers le PC au lancement.\nKaspersky avait donné l'alerte dès l'ouverture des précommandes, fin juin, en repérant un faux PlayStation Store traduit en plusieurs langues. Le site affiche de faux avis cinq étoiles et une classification d'âge inventée, puis son formulaire réclame nom, téléphone, numéro fiscal et coordonnées bancaires. L'éditeur russe signalait aussi des vidéos expliquant comment télécharger « en toute sécurité » un fichier baptisé « GTA VI beta ». Des commentaires prétendent que le fichier est authentique. Ce fichier peut voler des données, ouvrir l'accès aux comptes de la victime ou installer un logiciel malveillant.\nDébut octobre, son analyste Olga Altukhova décrivait un faux site baptisé CyberLeek, du nom du compte qui a diffusé à partir d'août des vidéos volées de GTA 6. D'autres escrocs ont repris ce pseudonyme. Il vend 1 000 dollars une prétendue « version complète » et 100 dollars une démo de 24 heures, en cryptomonnaie seulement, sans remboursement possible. Un autre promet des codes de précommande gratuits pour PS5 et Xbox Series, à condition d'installer une application de discussion par IA. En juin, Malwarebytes avait déjà démonté un « accès VIP » à 250 dollars, payable en Bitcoin, USDT ou Ethereum. Après le paiement, le site réclame le numéro de transaction pour débloquer un téléchargement inexistant. Kaspersky a aussi repéré un jeton $GTAVI. Sur fangta6.com, toujours en ligne selon franceinfo, une roue fixe le montant à « investir » dans un futur jeton inspiré de GTA.\nRockstar ne vend que des précommandes, ouvertes depuis le 25 juin sur le PlayStation Store, la boutique Xbox, le Rockstar Store et chez les revendeurs. Il n'existe ni bêta publique ni accès anticipé . La précommande de GTA 6 coûte 79,99 euros en édition Standard et 99,99 euros en Ultimate. La seule avance qu'offre une précommande numérique est le pré-téléchargement, ouvert dans la nuit du 11 au 12 novembre selon l'heure de sortie en France .\nLes boîtes vendues en magasin contiennent un code de téléchargement à la place du disque. Un code déjà activé ne se revend pas. Celui qu'un particulier propose sur Discord ou en petites annonces ne garantit rien non plus. Pour une boîte, il faut passer par une enseigne reconnue. Sur une place de marché, on vérifie que l'article est vendu et expédié par l'enseigne. Avant de payer, on vérifie la console visée , puisque le code d'une version ne fonctionne pas sur l'autre.\nUne offre pour PC ou mobile, un paiement exigé en cryptomonnaie, un compte à rebours qui met la pression ou un fichier à télécharger « avant tout le monde » suffisent à fermer la page. Kaspersky conseille de contrôler l'adresse dans la barre du navigateur avant de saisir un mot de passe, d'activer la double authentification sur ses comptes de jeu, puis de ne jamais désactiver son antivirus à la demande d'un site. Si l'on a payé par carte sur un faux site, on fait opposition auprès de",
    "pub": "2026-10-31T16:43:31.737Z"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVGRGMjE4OGVuNE1SczJJYnNLbkZrOUdUeUw5ckxncDFXQlpyV2ZOUUlEbjZTVExDUnM4d0txWmhSbGlWM3NibDlMWXNFWFVKNEtiQm5faEVMRWZmWmpUYUFrbThxXzBMWDU0c3RUOElubEU4M09VXy1NV2l0LWlFQVZ3RVVOVFMyYUJnV1lPSFZsaVpOUk9rbDhoeDBCZWVCZXllT1ZNd3hXM0hYVnBXOVM1Wk9RV0lXNlhZaGZJN29IZTlxbEUteW5HZw?oc=5",
+   "s": "Forbes",
+   "d": "2026-10-31T16:40:59+00:00",
+   "lang": "en",
+   "t": "‘The Odyssey’ Decimates ‘Doomsday’, ‘Spider-Man’ And Even ‘GTA 6’ In Popularity Review",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQUWVxWWwxQlU0VUNTODAzWnNvSXJuUF9EX2xvMnQyLUhCLVlsSUoxSzRLZzV0X1Voa2xJaThYV2p2ODZBTXNHVVlXZDdBN3JpZmxOOWNlcnRPb24xTDk4UzVNNjJPWWJsVEFpMnRLN2FvMkFTOFpfU1k1NF9sdk93TzlPQ1JIRzEyLXpYVTdRcEZYSjFiemhEaHF0eHFXUk1QN3pzeUdZMUVmWFo1UTRnMVZHVG95T0tZQTRrQXROYkJua3JvTEVOd29lSHU?oc=5",
@@ -304,30 +309,6 @@
    "pub": "2026-10-31T15:32:02+00:00"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOZjV3UnNLN3RIZEtBTmVUMXZqZjZBZDBCOGdUMnFSZkhrUi1oUW9iTE1EQkpXNklfakMwTVRUa1JwUXhFMWlNdGlfQW5mTWFqRmlXQlRkR0JJR1JTVFJBWmVvQVhEeW53LXVDLVBMR2hpZWY5UG9VbTY1NVVPLXl6S2FBRTFPOXdvRFdJanBWbUREa2lxcEozZDQtN0RFa3Jwd0xfZ1l6dlR0UmtUSklFaC1PRFpmMm9UdGZ1VHZFMXo2cnVuOFpaUkxzLUJxdzROXzdTUmo4Nm1aLWtoOHBFVG01YWw2SExWLTlmUFFTcXBvNS1zYk1HTUM4X0IzQQ?oc=5",
-   "s": "La Crème Du Gaming",
-   "d": "2026-10-31T15:30:37+00:00",
-   "lang": "fr",
-   "t": "GTA Online : Rockstar offre une supercar à presque 3 millions de GTA$, voici comment la récupérer gratuitement",
-   "u": "https://www.lacremedugaming.fr/jeux/gta/gta-online/gta-online-rockstar-offre-une-supercar-a-presque-3-millions-de-gta-voici-comment-la-recuperer-gratuitement-233043.html",
-   "img": "https://sf.lacremedugaming.fr/wp-content/uploads/creme-gaming/2026/10/gta-online-rockstar-offre-une-supercar-a-presque-3-millions-de-gta-voici-comment-la-recuperer-gratuitement-1200x660.webp",
-   "chapeau": "Rockstar Games offre sur GTA Online la supercar Grotti Turismo Omaggio à 2 845 000 GTA$ via une campagne Twitch Drops NoPixel V limitée à Halloween 2026. Quelles étapes suivre avant les dates fatidiques pour la récupérer gratuitement sans mauvaise surprise ?",
-   "txt": "Rockstar Games offre sur GTA Online la supercar Grotti Turismo Omaggio à 2 845 000 GTA$ via une campagne Twitch Drops NoPixel V limitée à Halloween 2026. Quelles étapes suivre avant les dates fatidiques pour la récupérer gratuitement sans mauvaise surprise ?\nRockstar Games relance les bons plans sur GTA Online avec un cadeau qui écrase tous les autres : une supercar de catégorie Supers offerte, habituellement vendue près de 3 millions de GTA$. Cette fois, il ne s’agit pas d’un simple bonus de connexion, mais d’une campagne Twitch Drops liée aux streams roleplay NoPixel V .\nAu centre de l’offre, on trouve la Grotti Turismo Omaggio , accompagnée de sa livrée exclusive Rockstar Motorsport , dans le cadre de l’événement Halloween 2026. Le tout est gratuit en échange de quelques heures de visionnage, mais sur une fenêtre de temps très courte : voici comment en profiter sans rien rater.\nIntroduite avec la mise à jour The Chop Shop, la Grotti Turismo Omaggio est une supercar inspirée de la Ferrari F8 Tributo, connue pour sa traction solide et son excellente tenue de route, même si sa vitesse de pointe tourne autour de 121 mph. En temps normal, elle coûte 2 845 000 GTA$ chez Legendary Motorsport , une somme qui demande plusieurs soirées de farm pour la plupart des joueurs.\nLa campagne actuelle offre non seulement la voiture, mais aussi la livrée Rockstar Motorsport , un motif jaune, noir et blanc déjà aperçu lors des 25 ans de Rockstar Games puis via l’abonnement GTA+ . Pour ceux qui l’avaient manquée, c’est probablement l’une des dernières occasions de l’ajouter à leur garage sans sortir un seul GTA$.\nCôté rentabilité, le deal est brutal : 2,845 millions de GTA$ pour 4 heures de stream, soit environ 711 250 GTA$ de valeur par heure. À titre de comparaison, un braquage type Cayo Perico bien optimisé demande au moins une heure de jeu pour un gain similaire, avec en prime le risque de tout rater. Ici, il suffit de laisser tourner un stream en arrière-plan.\nPremière étape, lier vos comptes Twitch et Rockstar Games via le Social Club, dans la section « Comptes associés ». Une fois l’autorisation validée, il faut choisir un stream NoPixel V avec la mention « Drops activés », par exemple chez xQc, Valkyrae, Jerma985, Cinna ou Burn. Le temps de visionnage est cumulable entre plusieurs créateurs, mais regarder plusieurs lives en même temps ne multiplie pas les minutes.\nLa campagne de visionnage se déroule du 30 octobre au 1er novembre 2026. Après 4 heures, la récompense apparaît dans l’inventaire Drops de Twitch : il est impératif de cliquer manuellement sur « Réclamer » avant le 1er novembre, comme le confirme la page d’aide officielle de Rockstar Games . Le transfert vers votre compte peut ensuite prendre jusqu’à 72 heures.\nUne fois le Drop validé, il reste une dernière étape : se connecter à GTA Online avant le 11 novembre 2026. Sur le téléphone en jeu, ouvrez le site Legendary Motorsport : la Grotti Turismo Omaggio doit alors s’afficher à 0 GTA$ pour le compte lié. La livrée Rockstar Motorsport est automatiquement ajoutée à ce véhicule, sans passage obligatoire par un Los Santos Customs.\nSi vous possédez déjà la Turismo Omaggio, aucune compensation en GTA$ n’est annoncée, mais le vrai intérêt reste la livrée rare. L’offre concerne toutes les plateformes où GTA Online est disponible, et arrive juste avant la sortie de Grand Theft Auto VI le 19 novembre 2026. Si vous lisez ceci avant le 1er novembre, lancer un stream NoPixel V en tâche de fond est probablement la manière la plus simple de sécuriser l’équivalent de 2,8 millions de GTA$ cette semaine.",
-   "pub": "2026-10-31T15:30:37+00:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9wWUtnNl92VWdIdGRXT3ZWOV9aVG5XWlFlR0c0Zll5RXlITk1vUWFLREdHUDVzWDJBZWxnV1RkUkFpY3dnbEJZTi1BdWxPb0ljSWRrVlpwaHA1cWpPMlJEbG5NQm5GNkFRNW9SVXhNM0haM3FRZldYdDV3eFhodw?oc=5",
-   "s": "big-n.fr",
-   "d": "2026-10-31T13:13:50+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : Rockstar veut un monde plus réaliste et réactif, la police se souviendra de vous",
-   "u": "https://big-n.fr/actualites/51762-gta-6-rockstar-realisme-police-memoire/",
-   "img": "",
-   "chapeau": "",
-   "txt": "Les dernières révélations sur Grand Theft Auto 6 laissent entrevoir un changement de philosophie chez Rockstar. Le studio semble vouloir rendre l’expérience plus réaliste et ancrée, en particulier dans la manière dont le monde réagit aux actions du joueur. Fini le temps où l’on pouvait semer le chaos en toute impunité : désormais, chaque crime aura des conséquences plus profondes et plus durables.\nL’une des nouveautés les plus marquantes concerne le système de police . Selon les informations relayées par le magazine Edge, les forces de l’ordre de GTA 6 seront capables de mémoriser des détails précis sur le joueur. Votre apparence, le fait que vous ayez agi seul ou accompagné, et même les armes que vous portiez au moment des faits seront retenus. Ces informations influenceront la manière dont la police réagira lors de vos prochaines infractions.\nCette mécanique change radicalement l’approche du jeu. Dans les précédents opus, il suffisait souvent de s’éloigner de la zone de recherche ou de changer de vêtements pour échapper aux autorités. Désormais, il faudra réfléchir à deux fois avant de commettre un méfait, car la police pourra vous reconnaître et adapter sa réponse en conséquence.\nEdge décrit le chaos comme un « troisième participant » dans GTA 6 . Cela signifie que le monde ne se contentera plus de subir vos actions : il y réagira de manière dynamique. Des PNJ justiciers pourraient intervenir pour vous arrêter, et les vols de voiture pourraient mal tourner à cause des technologies de suivi modernes. Cette réactivité accrue promet des situations imprévisibles et plus immersives.\nCette approche vise à rendre le chaos plus organique. Au lieu d’être une simple série d’explosions et de courses-poursuites, chaque action aura des répercussions en chaîne. Le joueur devra composer avec un environnement qui ne pardonne pas facilement les écarts de conduite.\nAutre changement notable : la gestion des armes. Fini l’arsenal infini sorti de nulle part. Dans GTA 6 , les armes lourdes devront être stockées dans le coffre de votre véhicule. Cette limitation oblige à planifier ses méfaits et à choisir judicieusement son équipement avant de passer à l’action. Elle renforce également le réalisme, car transporter un lance-roquettes en pleine rue attirerait forcément l’attention.\nCette mécanique pourrait frustrer certains joueurs habitués à la liberté totale des opus précédents, mais elle ajoute une couche de profondeur bienvenue. Le jeu devient plus tactique, chaque mission ou escapade nécessitant une préparation minutieuse.\nPour contrebalancer cette difficulté accrue, Rockstar introduit des moyens d’évasion plus élaborés. Le co-directeur Phil Hooker évoque la possibilité de monter dans un bus hors de vue des caméras de surveillance ou des témoins. Si la police ne vous a pas vu embarquer, elle ne pourra pas déterminer où vous êtes descendu. Cette mécanique rappelle les courses-poursuites classiques où l’on changeait de voiture, mais avec une dimension plus réaliste et stratégique.\nCes options d’évasion offrent des alternatives créatives pour semer les autorités. Elles encouragent l’exploration et l’utilisation intelligente de l’environnement, plutôt que de simplement foncer à toute vitesse.\nMalgré ces changements, Rockstar ne cherche pas à punir les joueurs. L’objectif est d’enrichir l’expérience en rendant le monde plus crédible et réactif. Le studio veut offrir plus de façons de créer le chaos, tout en donnant au joueur les outils pour gérer les conséquences. Cette approche pourrait séduire les fans de longue date comme les nouveaux venus, en apportant une profondeur inédite à la série.\nIl faudra attendre la sortie du jeu pour juger de l’équilibre final, mais les premières informations laissent présager une évolution majeure pour la franchise. GTA 6 s’annonce comme un monde vivant, où chaque action compte et où la liberté s’accompagne de responsabilités.",
-   "pub": ""
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdXNCSHFlQ1g1VmdSUEJ5OHRBbkIzY2JLcUszUUkyTS10UVd0cFh1OHlyWS1qaGtmbXN1QURZNlB4QW1YajFvemlrSG1MYld2VnhDd0UybTNwOWxydTB6dms4TzRNblJfSGszamdKN2xpdU9JVVFuVzNfTHRFekY0S0xRVEZpbVQtVE5lU3d2eTVsX3pZVElNc2tERkdDSXVsdy1naXFkRC1DbjA?oc=5",
    "s": "Journal du Geek",
    "d": "2026-10-31T12:22:30+00:00",
@@ -340,6 +321,14 @@
    "pub": "2026-10-31T12:22:30+00:00"
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQblBUVzNfSlJEdlVTRkhiVF92SVRtUnFMUEhJbGNCeFdfMnFUVy00WnZ6ZHVkV3gzelU2UVZUX3JaZk9rVzdPQlktcjFaWHFqbWNONXVMM3dCN1RZMm9OOEs0YmdQbmpSY2FrNzBXSF9HdEJwd2NZLTNpanExWng3TXp5ZHVFRE00Qy1uMTQtcktQVDRJRGo5d2ZxbGotU0tjazBEMEZ2NXR2YzlZX1c5OWdiNA?oc=5",
+   "s": "IGN France",
+   "d": "2026-10-31T12:18:00+00:00",
+   "lang": "fr",
+   "t": "Pourquoi GTA 6 pourrait bien devenir le jeu de la décennie - Sponsorisé",
+   "erreur": "429 : passage suivant"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOLVIwcHZqTnlnd3JGOG1wWGsxbnJwR2kzQ2I5b2J1emtsdXFlaVlJdFJCS0NpaTAtNWN0NTM1M0J6NmJVUndxQ1dEM29aN2tCNGlmUlB3QlM1SDdtOEc3R05reDFhZ0lDMnhVUDE4azdBbVQwS1lyRGlXN2k4aFU1RHFCMk0xVUVoUTNv?oc=5",
    "s": "https://tech-insider.org/",
    "d": "2026-10-31T11:48:50+00:00",
@@ -350,15 +339,6 @@
    "chapeau": "GTA 6 may skip review watermarks, but Tom Henderson cites 'insane security measures.' Rockstar confirmed none. What is known, reported and unknown.",
    "txt": "Sofia Lindström October 31, 2026 13 min read Rockstar Games may not be stamping a flashing name on Grand Theft Auto VI review copies, but the studio is reportedly running other tight controls around the game. Notebookcheck’s coverage of the story centers on one line from Tom Henderson, who said Rockstar has “some insane security measures in place, though.” Rockstar has not confirmed any of it.\nThe claim that started this round of chatter was simple. Review builds, the story went, show a flashing reviewer name so a leak can be traced back to whoever received the copy. Insiders pushed back fast, and we walked through that dispute earlier in our piece on GTA 6 review copies, watermarks and leakers . What remains is a narrower and more interesting question: if the watermark is wrong, what is Rockstar actually doing?\nThe honest answer today is that nobody outside the company has published details. This article sorts the claims by how well they hold up, explains what “security measures” usually means for a pre-release game, and lays out what the reported November dates would imply for reviewers and readers. Every specific claim below is attributed to the outlet or person who made it, and anything the reporting leaves unconfirmed is labeled that way.\n· Google · Preferred Sources Don't miss new tech stories on Google\nAdd Tech Insider once in the Google app and our stories appear in your news suggestions.\nStart with the short list of things that are solid. Rockstar Games has not publicly confirmed the alleged watermarking system, and it has not confirmed the reported blacklist policy for reviewers or outlets that leak footage. That is the only fully firm statement in this story, and it is a statement about silence.\nEverything else sits in a band between “reported” and “disputed.” The watermark claim was challenged by insiders, including NateTheHate and Tom Henderson. The nature of the security measures Henderson alluded to has not been disclosed. The review embargo date and the launch date both appear in coverage, but neither has been confirmed by the publisher in the cited reporting.\nRead the table from the bottom up and you can see how the story is built. The dates and the blacklist are reported but unconfirmed. The watermark is the most specific claim and the most heavily contested. The security-measures line is the vaguest, which is exactly why it carries the least risk of being proven wrong and the least information.\nA visible, flashing reviewer name is a very specific design choice. It would be easy to spot, easy to describe, and easy to screenshot. That specificity cuts both ways. If it existed, reviewers who had seen it would likely confirm it, and the people who dispute it would have a hard time being so flat about it.\nTwo named figures did dispute it. NateTheHate said that to his knowledge the claim is not accurate. Tom Henderson went a step further in framing, saying he found no evidence supporting the watermark claim. Neither statement proves a negative. They do, however, move the claim from “plausible rumor” toward “probably wrong.”\nWe saw a similar pattern with an earlier rumor that review copies might contain a booby trap for leakers. That one rested on a single source and no proof, as we laid out in the GTA VI reviewer trap rumor breakdown . The watermark claim follows the same arc. A dramatic mechanism gets attached to a game that everyone is watching, and the lack of a public denial from the publisher gets read as quiet confirmation.\nFrom a production standpoint, a flashing name across footage is a blunt tool. It is distracting for the reviewer, it spoils capture for any legitimate coverage, and it invites tampering. A leaker can crop, mask or re-record around an overlay. Studios that care about traceability tend to prefer marks that are hard to see and hard to strip. That is general industry logic, not a statement about Rockstar, but it explains why insiders found the flashing-name story hard to believe.\nThe sentence driving this story is short. According to Notebookcheck’s reporting, Henderson said: “They have some insane security measures in place, though.” The word “though” does the heavy lifting. It concedes the watermark point and then redirects, signaling that the absence of one specific trick does not mean the absence of protection.\nWhat the quote does not say matters as much as what it says. It names no mechanism. It gives no number of reviewers affected, no description of how builds are delivered, ",
    "pub": "2026-10-31T11:48:50+00:00",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdjRTQjJlTDhlMXNySXhXc19odm9Ka25aYjBwaW9HdkRnQ2pQZ0pVd0Y5WXg1ei1FdXZxbUVWWWNHLWRBd1J5eFN1R1JlXzRFa0s4YnBya21QNmk5cDZ2cDJkREV5bzQyakxwWlNORUtFcU5XTi1zeHl4OGFyUnI0WE50Y1BkMng0bEZlTFVhMExoalVuTExOOXk5M3pndUtHZ0JzQW1YRlg?oc=5",
-   "s": "Tech Edition",
-   "d": "2026-10-31T05:21:47+00:00",
-   "lang": "en",
-   "t": "Rockstar Games says GTA 6 leaks were emotionally invasive and difficult to handle",
-   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -685,6 +665,15 @@
    "cyberleek": true
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdzR0V2JHOHlfU0llMjA3UnUycTNhaVZ0OGtCckx2LVZjR3gyaHBnLUdnbEZ0R1dVQnBOUm5KUWxjbDNNZ19BT2oyRlNfbmhtUmxNTXBLSTVVZ0xkcHJQLVRpcUIyMUZFdmIxLW93RWREXzVqUFc4b01pQkNMUzE2ejN5VDNOV0Vy?oc=5",
+   "s": "BlogNT",
+   "d": "2026-10-25T15:22:34+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : fuite massive de 25 minutes de gameplay",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWFZRaGUtTk9zWElMZzBWc1NrcmYyTmJjVDJEenZUcDl4U0ZyMklrckdrUnNUT1BxNlpWMkd4Qjk3alc2TXpvSDBLeHktVEtGTzdTM2tMQThBaGp1d2RlZFlUSjFPa1M3VTBqSldhOVRGOFV3bmh4VzNFVWx1WUxqTkxUR2U4Zjc3?oc=5",
    "s": "https://tech-insider.org/",
    "d": "2026-10-25T08:30:21+00:00",
@@ -721,6 +710,15 @@
    "chapeau": "Une fuite venue de ResetEra affirme que les premiers tests de GTA 6 tomberaient le 18 novembre 2026, la veille de la sortie officielle. Mais entre embargo à deux vitesses et silence de Rockstar, le calendrier cache encore quelques zones d’ombre.",
    "txt": "Une fuite venue de ResetEra affirme que les premiers tests de GTA 6 tomberaient le 18 novembre 2026, la veille de la sortie officielle. Mais entre embargo à deux vitesses et silence de Rockstar, le calendrier cache encore quelques zones d’ombre.\nLes joueurs attendent la date des tests de GTA 6 presque autant que la sortie du jeu lui-même. Selon une fuite apparue le 23 octobre sur le forum ResetEra , reprise par Notebookcheck , l’embargo sur les tests de Grand Theft Auto VI se terminerait le 18 novembre 2026, soit la veille du lancement sur PlayStation 5 et Xbox Series X|S .\nDerrière cette fenêtre a priori idéale pour décider de garder ou non sa précommande, la rumeur cache pourtant un petit hic : un embargo à deux vitesses, accompagné d’une absence totale de preview jouable pour l’instant. Et comme Rockstar Games n’a rien confirmé officiellement, tout le calendrier doit encore être pris avec prudence.\nAvant tout, rappel rapide : un embargo est une date et une heure imposées aux médias pour publier leurs tests. Aujourd’hui, Metacritic et OpenCritic affichent encore un simple « tbd » pour GTA 6 , tandis que Rockstar ne communique que sur la sortie du 19 novembre 2026 et le préchargement prévu le 12 novembre.\nD’après l’initié BlackBate sur ResetEra, les premiers avis complets tomberaient le 18 novembre, avec une levée d’embargo située entre 12 h 01 et 13 h, heure de Paris. Concrètement, le Metascore de GTA 6 commencerait à apparaître en début d’après-midi chez nous, comme l’explique Notebookcheck. Ce schéma colle aux précédents GTA V et Red Dead Redemption 2 , dont les tests ont été publiés un jour avant la sortie, ce qui renforce la crédibilité de cette fenêtre sans en faire une certitude.\nLe point vraiment surprenant de la fuite, c’est que tous les médias ne seraient pas logés à la même enseigne. Toujours selon BlackBate, certains sites et chaînes YouTube devraient attendre le 19 novembre à 6 h 01, heure de Paris, pour publier leurs tests ou vidéos de gameplay. Résultat : un premier cercle de rédactions écrites en avance, puis une seconde vague, plus vaste, au moment même où le jeu sortira.\nNotebookcheck évoque plusieurs hypothèses : Rockstar pourrait vouloir laisser les articles écrits installer d’abord un consensus critique, les vidéos étant plus propices aux spoilers scénaristiques, ou bien privilégier quelques grands titres généralistes. Pour les joueurs qui se fient surtout aux reviews vidéo ou aux streamers, cela signifie potentiellement devoir acheter GTA 6 sans l’avis de leurs créateurs favoris.\nAutre point à garder en tête : dans la courte fenêtre 12 h 01 – 13 h, Metacritic et OpenCritic n’afficheront que quelques notes issues des plus gros médias. Le score de GTA 6 risque donc de beaucoup bouger dans l’après-midi. Comme le rappelle PlanetGTA6, toute « note » qui circule sans test signé et consultable doit être considérée comme suspecte, surtout à l’approche d’un mastodonte pareil.\nL’insider NateTheHate affirme que Rockstar doit envoyer les copies de test avant la fin octobre. BlackBate précise de son côté que les codes numériques PS5 et Xbox Series X|S n’étaient pas encore partis au moment de son message, mais qu’il vise la semaine du 26 octobre ou le tout début novembre. Cela laisserait environ deux à trois semaines aux testeurs pour explorer Leonida, l’immense monde ouvert de GTA 6 .\nAvec ce timing, un autre hic apparaît : jusqu’ici, les journalistes et créateurs de contenu invités par Rockstar n’ont eu droit qu’à des démonstrations de gameplay jouées par les développeurs, sans prise en main réelle de Jason et Lucia . BlackBate ne s’attend pas à de vraie preview jouable avant l’envoi des copies presse, ce qui signifie que les premiers avis « manette en main » solides arriveraient précisément avec ces tests sous embargo.\nReste que tout ce calendrier ne repose que sur quelques insiders relayés par Notebookcheck, Mezha et plusieurs sites français. Rockstar Games, de son côté, n’a officialisé que la sortie du 19 novembre 2026 sur console et le préchargement du 12 novembre. La logique historique des embargos de GTA V et Red Dead Redemption 2 rend la fuite plausible, mais les plans peuvent encore changer jusqu’à la dernière minute.",
    "pub": "2026-10-24T13:30:16+00:00",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxORTl0dDRLR1VqYjNZUVcyTkxFZVhFMU9sM1YyTDJCQU5TLV9ydjROVzB2eGhFM21NdUV2UVJYVDU0UW1PYnBjWXYtZldpRTVWcG5Hbmktb1A3cHo4RV9RekdJdFBCYWg3MEdCNlJWNGRXVkRPOFBQQ290TXVUcy1MaEJQN0p6NFVBX2ZROXhUd1VEdTJ1a2xOSGpLbjVIR1l5blh4bWRiUVc1UFF6Nk9hZjJPODZYb2UxVGo2RmJRenBNQi1Mak1RRmlEMkhMN0oyRzJNNDE1SjRQWmF0MXU0U3ZpM1EyMXUwNXc?oc=5",
+   "s": "Notebookcheck.fr",
+   "d": "2026-10-24T02:22:00+00:00",
+   "lang": "fr",
+   "t": "L'heure de levée de l'embargo sur les tests de GTA 6 a fuité, certains sites devant attendre la date de sortie",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -765,24 +763,6 @@
    "d": "2026-10-19T07:00:00+00:00",
    "lang": "en",
    "t": "The latest post from GTA VI Leaker Cyberleek",
-   "erreur": "429 : passage suivant",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdGhzMjJJd0ttd0tGVjdDMmtPSWNyLWhMTVh0c2tCanZQcEFaQjFMTy0wanBYTkM3MFRFNlYyMEJ0ZHk4dFVsWnhuRDRjNklJV1hHUndSaU1jY3o5NEM4dW5mOENibWdzMHNZZkdub0I1V0lFRjVaamJZQWNxTHJta0NWajhyZ2ZoZExxcEJpRUloS1lSVDRIUUtUdGpYN1Yxd2FrVllVb2lvU2dYQllpUg?oc=5",
-   "s": "PCMag Middle East",
-   "d": "2026-10-19T03:46:45+00:00",
-   "lang": "en",
-   "t": "GTA 6 Leaker's Latest Effort Appears To Flop As Group's Meme Coin Declines",
-   "erreur": "429 : passage suivant",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE16YjZnS2RvOEtSVldQZ3hMTVh2dDZfX01BcVVUUTFuMVZPMVN1c1B3UURHVGVNMUdJOVZtS2NkY0VNeTJxQmpnWi1yTFl4cFEtc0x0VmRsbGMxa0UtbkdRdA?oc=5",
-   "s": "IMDb",
-   "d": "2026-10-19T02:15:56+00:00",
-   "lang": "en",
-   "t": "Cyberleek Confirms 20th GTA 6 Leak Will Be Their Last",
    "erreur": "429 : passage suivant",
    "cyberleek": true
   }
