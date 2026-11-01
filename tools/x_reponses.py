@@ -51,7 +51,8 @@ def posts_recents():
             time.sleep(3)
             r = X.js("""JSON.stringify([...document.querySelectorAll('article')].slice(0,15).map(a=>{const l=a.querySelector('a[href*="/status/"] time')?.closest('a');
 return {url:l?l.href:'',quand:a.querySelector('time')?.getAttribute('datetime')||'',texte:a.querySelector('[data-testid=tweetText]')?.innerText||'',
-auteur:(l?l.href.split('/')[3]:''),
+auteur:(l?l.href.split('/')[3]:''),nom:a.querySelector('[data-testid=User-Name]')?.innerText||'',
+note:!!(a.querySelector('[data-testid=birdwatch-pivot]')||/Readers added context|Les lecteurs ont ajouté du contexte/.test(a.innerText)),
 score:['reply','retweet','like'].reduce((s,k)=>s+parseInt((a.querySelector('[data-testid='+k+']')?.getAttribute('aria-label')||'0').replace(/[^0-9]/g,'')||0),0)}}))""")
             vus += [dict(x, lg=lg) for x in json.loads(r)]
         finally:
@@ -67,7 +68,7 @@ def choisit(posts, etat, n):
     choix = []
     for p in sorted(posts, key=lambda p: (not confrere(p), -p.get("score", 0))):   # confrères taquinés d'abord, puis les plus gros
         if len(choix) >= n: break
-        if not p["url"] or p["url"] in etat["posts"] or p["auteur"].lower() in ("gtafance", "gtavifrancecom") or p["auteur"] in deja or len(p["texte"]) < 25: continue
+        if not p["url"] or p["url"] in etat["posts"] or p["auteur"].lower() in ("gtafance", "gtavifrancecom") or p["auteur"] in deja or len(p["texte"]) < 25 or p.get("note"): continue
         try: age = (maintenant - datetime.datetime.fromisoformat(p["quand"].replace("Z", "+00:00"))).total_seconds() / 3600
         except ValueError: continue
         if age > 24: continue

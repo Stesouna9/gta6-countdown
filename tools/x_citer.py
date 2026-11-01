@@ -8,6 +8,10 @@ import x_chrome as X
 from x_reponses import ouvre, attend
 import x_reponses as R
 
+# 01/11 : faux Taylor Swift / Kelce en Jason et Lucia cité le 31/10 (compte parodique HoopsCrave, note de la communauté) -> filtres
+PARODIES = {"hoopscrave", "nba_centel", "nflcentel", "ballsackreport", "notscmp", "sportscenter_mx"}
+SUSPECT = ("parody", "parodie", "fake", "satire", "satirical", "not affiliated")
+
 ETAT = Path.home() / ".config/gtavifrance/x_citations.json"
 ESSAI = "--essai" in sys.argv
 X.slot = "citation"
@@ -22,6 +26,7 @@ def main():
     maintenant = datetime.datetime.now(datetime.timezone.utc)
     for p in R.posts_recents():
         if not p["url"] or p["url"] in etat["posts"] or p["auteur"] in deja or p["auteur"].lower() == "gtavifrancecom" or len(p["texte"]) < 30: continue
+        if p.get("note") or p["auteur"].lower() in PARODIES or any(s in (p.get("nom", "") + " " + p["auteur"]).lower() for s in SUSPECT): continue
         try:
             if (maintenant - datetime.datetime.fromisoformat(p["quand"].replace("Z", "+00:00"))).total_seconds() > 12 * 3600: continue
         except ValueError: continue
@@ -29,6 +34,7 @@ def main():
 « {p['texte'][:700]} »
 Écris le commentaire de la citation, en français : 1 à 3 phrases, 260 caractères max, ce que ça veut dire pour les joueurs français ou ton avis de fan, ton vivant, 1 emoji max, 1 hashtag max (#GTA6), pas de lien, rien d'inventé au-delà du post.
 Si le post est une blague sans intérêt, de la politique, un concours, une arnaque ou une fuite douteuse, réponds exactement : PASSER
+Réponds aussi PASSER si le post affirme quelque chose sur une célébrité ou une personne réelle (déguisement, photo, citation), montre une image qui peut être retouchée ou générée par IA, ou vient d'un compte sportif, people ou mème plutôt que d'un média jeu vidéo, de Rockstar ou d'un constructeur. Dans le doute : PASSER.
 Donne seulement le texte.""").strip().strip('"«» ')
         etat["posts"] = (etat["posts"] + [p["url"]])[-500:]
         if com.upper().startswith("PASSER") or len(com) < 20:
