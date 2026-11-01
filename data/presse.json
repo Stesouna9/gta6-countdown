@@ -1,6 +1,22 @@
 {
- "maj": "2026-11-01T18:12:29+00:00",
+ "maj": "2026-11-01T18:32:59+00:00",
  "articles": [
+  {
+   "gn": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBJaDRyVDhvU3dfNXN1eExPNVNybHNGUm5qNGllT28zU1BXQm4xWDNULUlCcG5FaG1TS2J5NF80azljRTVlV1RCRWhPU3RIclRGT2lwUkFBTFRzcUVvRW9ySGhWLVF1NzhnUk5CR09GTmUwZmtGNlM2NEhwYU1qUQ?oc=5",
+   "s": "big-n.fr",
+   "d": "2026-11-01T18:09:53+00:00",
+   "lang": "fr",
+   "t": "GTA 6 dévoile six stations de radio : la curation musicale s’annonce exceptionnelle",
+   "erreur": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUVZUUFBiTlJLV0I5Si1ZbVhjdFJlcDdZdlZldjZMc2NrX3NHdW5GME1KS2xUWG1GRzMzdnhuZ0NPZnd5NTlWMnE3OW0yNEg4TVFZU09CN19yT0NaZ2h3QkQ0SmVodndFcUc2NDRUeGlURGgxLXdlNDJMVUxhY3M5Wl93?oc=5",
+   "s": "Yahoo Tech",
+   "d": "2026-11-01T18:04:00+00:00",
+   "lang": "en",
+   "t": "GTA 6 Is Reportedly A 210GB Download",
+   "erreur": "429 : passage suivant"
+  },
   {
    "gn": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQZm9KWVlEOExPUW50VmZHZkhBWnVBa0VwUENjUS1HZnNVaDdLaFB3Y3RSRkJscExTSFFVcDBzSEg1OWRmZzZKdTJzR0tGS25XYlkycmhXVWtoUEpaS2tPQy0wRWRVcnJURmFOR1Z5QUNEVnpOVl9GMXRLLVRUQmptTzZnenY4MU02a1hkeXpnMEpoUVdGUmh5dTMtQXQyQWJXUXRaTGx4eU1iMUliTDBwWFlBTTBFdUItVVVjclZLa2tkOF9QOTQtNi0xMktPcXBzalpDdGZHbmYxNnVUc0g0?oc=5",
    "s": "Le Parisien",
@@ -78,13 +94,8 @@
    "s": "urbanstreet.com.pe",
    "d": "2026-11-01T17:09:09+00:00",
    "lang": "en",
-   "t": "Travis Scott and GTA 6 Could Get Three Nike Air Force 1 Collabs: Release Date and Price Leaked",
-   "u": "https://urbanstreet.com.pe/en/news/travis-scott-gta-6-nike-air-force-1/",
-   "img": "https://urbanstreet.com.pe/wp-content/uploads/2026/11/TRAVIS-SCOTT-GTA-VI-1.webp",
-   "chapeau": "Travis Scott could be teaming up with Nike and Rockstar Games for a special Air Force 1 collection inspired by",
-   "txt": "",
-   "pub": "2026-11-01T12:00:00-05:00",
-   "cyberleek": true
+   "t": "Travis Scott x GTA 6: Nike Air Force 1 Leak",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQRUtCTnhoS0hrQk43cjh5dHhfWkpSa3E3cTlCR1ZfNkx1Z2JvMW9nY3JRelpfNWRhQ2RnSVhPbEZ5R3EtT0VCVDYzNTVlQjRtS0JwLTV0NzgxalJVQ2pOLWtnT1B3SDI4Q3JKUHdHTldoMmR0LTd6cFlodnA0dTdEM1R3akV5aDdMbm9IVVRVeFBMSmg3MVFGTTdmaV9NM1VSYjhpT3FRSl9LaHRkY3JGOHA5V0w4cUZBYkhrV0NQSXZ1M2RlRWd2cDl1R1A5Z09nTk93UHhfNE5JMG1MY2N1bnhxVlJ4Qk9Ga2c?oc=5",
@@ -92,7 +103,7 @@
    "d": "2026-11-01T16:35:00+00:00",
    "lang": "en",
    "t": "Grand Theft Callout: ‘GTA 6’ fans are missing work on the game’s release day because they ‘don’t want to wait’ anymore",
-   "erreur": "HTTP Error 401: HTTP Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWkxVeVgwWk85MXhVNnZ4dXJLdVdGWTgtdGFDQjFJNGoyX3JVb1oxX0hLSGQ5eENBSmtXQklKb203SWdJc0Y3MGNLRDlRenQ2SE1tT2tnT1RVTWdYXzkwazVhdWNkUi13b25JVjItaFZEeHhjaHZXTHE3b3hfMEU2XzBRU2hXZnNBMlhtTHNFUlltejQ3SXc?oc=5",
@@ -227,24 +238,12 @@
    "pub": "2026-11-01T15:00:10+00:00"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRHpHVzhpQXF0S2ZMTGVRSllDZlVWY3UyS1pjelNfb29ud1RRbm11bThFYnpVdWRndEdZQnpwRnV4NFd2Z1lMZ2tmbnlSelhabVdPSzhmWW9nREVmSW80dmprSVhVUF9Jb3BzVDdKWnZQampTa3F6Y2ItV0pFSlpCV3dR?oc=5",
-   "s": "Engadget",
-   "d": "2026-11-01T14:00:00+00:00",
-   "lang": "en",
-   "t": "Change these PlayStation 5 settings before GTA 6 comes out - Engadget",
-   "u": "https://www.engadget.com/2302290/playstation-5-settings-change-before-gta-6/",
-   "img": "https://www.engadget.com/img/gallery/change-these-playstation-5-settings-before-gta-6-comes-out/l-intro-1793371727.jpg",
-   "chapeau": "Optimizing the settings on your PlayStation 5 will ensure that you have the best experience playing GTA 6, which is expected to be a beast of a game.",
-   "txt": "Miguel Lagoa/Shutterstock Add Engadget on Google: Preferred Source Google Discover After more than 13 long years, the wait is nearly over: Grand Theft Auto VI is almost here. Judging by the trailers, photos and Rockstar's past catalog, this game is set to be one of the most demanding and best-looking GTA iterations ever made. Much like the previous game in the series, which came out at the tail end of the PlayStation 3's lifecycle, GTA 6 is expected to demand every bit of juice your console can provide, even if you own a PlayStation 5 Pro.\nIf you're planning to jump into the world of Leonida and start a second life as a criminal, now is a good time to head into the PlayStation 5's menus and change a few settings that will enable the game to look as good as it possibly can.\nVRR, or variable refresh rate, lets your TV change its refresh rate on the fly to match the frames your PlayStation 5 is actually producing. In a game as big as GTA 6, that matters because frame rates rarely stay flat. When the game dips during a busy chase or on a crowded street, a fixed-rate display shows torn frames or stutter; with VRR, the screen follows the console and motion looks smoother. Your TV has to support it, and VRR usually comes with HDMI 2.1. To switch it on, go to Settings > Screen and Video > Video Output > VRR . In the same menu, turn on Apply to Unsupported Games , which Sony says can stabilize the frame rate in games that don't support VRR natively. If a game or your display starts acting up, switch it off again. While you're in that menu, check ALLM , or auto low-latency mode, which switches a supported TV into its low-latency game mode automatically. Sony says it does so whenever you use VRR, even with ALLM set to Off.\nThe second setting is 120Hz output, which lets the PS5 send a 120Hz signal to TVs and games that can use it. Be sure to plug the console into an HDMI 2.1 input, because not every HDMI port on a TV supports a 120Hz signal . Even if GTA 6 ends up capped at 30fps on consoles, as many expect, it's still worth turning on. This setting controls what the console sends to your TV, not how fast the game runs, and 30fps fits into a 120Hz signal exactly, with each frame held for four refreshes. That keeps the pacing even, and it means the PS5 is ready for any game that offers a higher frame rate. To enable it, go to Settings > Screen and Video > Video Output > 120 Hz Output .\nStanislav Gvozd/Getty Images GTA 6 is set to take you from dark, neon-soaked nightclubs to the bright Florida sun, sometimes within the same mission. A properly set HDR signal means more detail in both the very dark and the very bright scenes, and colors that stay true instead of looking washed out or crushed. First, make sure your TV has HDR turned on for the HDMI input your PS5 uses. Then, on the console, go to Settings > Screen and Video > Video Output > HDR . Sony says Always On converts even games and apps that aren't HDR-compatible to HDR output, while On When Supported shows them in standard dynamic range. Either works, but Always On means you won't have to think about it again.\nThe step that matters most is calibration. Go to Settings > Screen and Video > Video Output > Adjust HDR and follow the prompts. If your TV has an HGIG mode, turn it on so the set doesn't apply its own tone mapping on top of the console's. Run the calibration in the room lighting you actually play in, and you only have to do it once.\nSutthiphorn Phanchart/Getty Images The PS5 doesn't only improve how a game looks. It also has audio settings that change how you experience it, and one of the most interesting is 3D Audio. A chaotic, immersive game like GTA 6 stands to gain a lot from it. Sony says 3D Audio gives you immersive surround sound, such as hearing footsteps from the direction someone is approaching, so the game sounds fuller, and you get a better sense of what's around you, whether that's traffic closing in or a crowd on a busy street.\nTo turn it on, plug in a pair of headphones and go to Settings > Sound > 3D Audio (Headphones) . Select Create Personalized 3D Audio Profile and follow the prompts, which have you listen to sounds from different positions and answer questions about where it sounded like they came from. Once the profile exists, turn on Apply Personalized 3D Audio Profile . If you'd rather skip that step, Sony also offers five presets, and the console will use the preset profile whenever the personalized one is off. Then make sure to turn on Enabl",
-   "pub": "2026-11-01T14:00:00+00:00"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPY2wwbmFmVDd5MHlTdnJjUUZiZjYycnhIUzV2aWR2Z0d1SHRYY1ZmTGdRbktuRjBzUXJEbmhCYWE5S3JWUEt2Rnp6Wlo0QTVIcldnSWN4VXpkLUR3WlV3TENUOUpWQ0hESE94anB6UC1VSXZ1U0V0V1llYnNwVk1mOXNJTkR2aFFxNmk0QXFCRnRkelhkMWdvM0g5N0JuelU?oc=5",
    "s": "EGW.News",
    "d": "2026-11-01T13:44:56+00:00",
    "lang": "fr",
    "t": "Selon un millionnaire, GTA 6 pourrait vous faire économiser 5 000 dollars",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPSEtFdWh6d2doQWdpT2t2Y2I2b0RIeGlmOUQxNVg4cTRXeVF2X0Q5dmxVY0J3YVpDNXNjX01wWE9hV2d4WmV1TkF5RGZpeTgwQmRPNmlJZHM0aW9TNE12V0dUSG9UUGZHanR3NWREU0FQZl9vZWhmTzZ1NERSSjVqNzhDLTI4anFvZXd2TmF1cFk?oc=5",
@@ -289,11 +288,15 @@
    "d": "2026-11-01T12:07:03+00:00",
    "lang": "fr",
    "t": "« GTA 6 » : comment Rockstar Games a réussi à faire patienter les joeurs",
-   "u": "https://www.leparisien.fr/video/programme/combo/gta-6-comment-rockstar-games-a-reussi-a-faire-patienter-les-joeurs-01-11-2026-5OXTPFACKJFG7PNVUVEXO6P6GY.php",
-   "img": "https://www.leparisien.fr/resizer/PiUpgF8AxOwRv7x0tozDLQV63E8=/1600x900/cloudfront-eu-central-1.images.arcpublishing.com/leparisien/X2TVMFPMMNCMZOKOC5DSMUFCBU.jpg",
-   "chapeau": "Pour comprendre tous les enjeux qui entourent la sortie du phénomène GTA 6, retrouvez notre vidéo complète sur notre chaîne YouTube « Le Par",
-   "txt": "",
-   "pub": "2026-11-01T13:07:03+01:00"
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOb095Vmpfd3pUOVJVUEowOHdNMzVZU1JIRl9yNGkyZ19sUEZLY2Y0cjNMTVFBTm1TaVFQYzhhWktPbEhUMmNoQXpjTGRUbzh0dlZrVlh3ZkxrUVZGc04waVNLTE5GRm4tNGRvSWxKOWY1SmpRWGxZVThMRko5b0UzSmhnXzVUV3BSNDVSR285ZkVXU2VHWU5GRkU5SEpFWnpsbU1OaF9uOEF2QlBDR05KOHJBQVkyanUwbmx0cjUzdV93U3h4VWNaR1BTbWF5UFlabkZsSDNIQk1fckZiVHhZUXFEYWZzQ1Z2bTFMeTBvNTZBUjg?oc=5",
+   "s": "Le Parisien",
+   "d": "2026-11-01T11:58:29+00:00",
+   "lang": "fr",
+   "t": "13 ans d’attente pour un jeu vidéo : pourquoi c’est aussi long de fabriquer « GTA 6 » ?",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1htbFlJSEVoZjRFRnA5am1QLTFCMk42SjByMFBmZktmZXJOLUh5NkxlQWNyNXAxTWo1NS13V01oRFlIbjZaX3dxOTdSd3A2VlEyek9uTndkLUJzTldpQTcwVHR3UjZCRnE3TXdWZjg1VVkzRXluVVN5dXlJcXppVmM2WlRkRlZBamhON1A1RlNvUlRRZnBIN1VPZ3VyS1k?oc=5",
@@ -301,7 +304,7 @@
    "d": "2026-11-01T11:38:05+00:00",
    "lang": "fr",
    "t": "Les fans ont peut-être découvert le nom d'un autre acteur participant à GTA 6",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSTB4MkVwb0tRUVVJcDdsZS1DYzJZdVhwMEdmd1g2S2hXMG5BdldMVWdWdXlDMkEtUHdySWpaa2dQaFRKa3JCeXE1Q05Sd1VST3RwX2s5VUpRN25aLVEtdHZxbkVZYm8yeDFvU2xVUlRyZWRFeGplbXJSS0FZdjZOdjN1TnU5RjBhTkdtallyZE82UjFYNUNBNldQY1VITWpKbUltTQ?oc=5",
@@ -309,11 +312,15 @@
    "d": "2026-11-01T11:20:00+00:00",
    "lang": "fr",
    "t": "GTA 6 : tous ces films qui ont inspiré le jeu vidéo de la décennie",
-   "u": "https://www.purebreak.com/news/gta-6-tous-ces-films-qui-ont-inspire-le-jeu-video-de-la-decennie/266506",
-   "img": "https://static1.purebreak.com/uploads/34/8d/f6/a0/d8559becbb12683f-1200x630-1.jpg",
-   "chapeau": "GTA 6 est l’un des jeux vidéo les plus cinématographiques qui soit. Le déjà révolutionnaire opus vidéoludique puise abondamment dans le septième art. On a donc recomposé le puzzle en retrouvant ces films sans lesquels GTA 6 n’existerait pas.",
-   "txt": "",
-   "pub": "2026-11-01T12:20:00+01:00"
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPemZxVVlyVGhIaExRd2x1bWdsTDVWLWJlN1lzLXpKQkN4NVluQWl1TkNsWC1LY3FaWGo4RFhKRjJaZHZJbGhQTUZ1ejh2dnQxclNGRUdjUi10VndaZ0JDYkdXbXdrWENwYUFzV3pCTnphWXVsdzMtcmdlZXBaMU5pYklUNjBSOWFMT2puZEROamFNOUJ4bVNITktIeHNHWTJqb3JWRFVUeTI3Szk0U0l6UjVTZ1JFVXF1eWhn?oc=5",
+   "s": "RTBF",
+   "d": "2026-11-01T11:17:59+00:00",
+   "lang": "fr",
+   "t": "Sorties jeux vidéo novembre 2026 : 4 jeux à découvrir en dehors de GTA 6 et de Zelda",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMlJZYWx5UDVNWTAtM3R6cS11Um5UVi00dk00UXN6VGV1THFyTXE2eEVzNHBrTXJsTmZMLXZNeGdzcmxSdkNkazVGZTVSSmdXbW9uVGZPVnozaXF5cnRTaEFJZW1WbW9Yblp5YlBXVEFpVXRMUTJRa3N5S253RmJ2Q0YwUDhPUGcxaUZndjNiR1pTN1I3eGotYXJ5bG1FSHBZeUhCc24zdVE0dw?oc=5",
@@ -321,43 +328,7 @@
    "d": "2026-11-01T11:04:14+00:00",
    "lang": "fr",
    "t": "La Xbox Series X Digital Edition passe à 599,99 $ avant la sortie de GTA 6.",
-   "erreur": "HTTP Error 403: Forbidden"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPemZxVVlyVGhIaExRd2x1bWdsTDVWLWJlN1lzLXpKQkN4NVluQWl1TkNsWC1LY3FaWGo4RFhKRjJaZHZJbGhQTUZ1ejh2dnQxclNGRUdjUi10VndaZ0JDYkdXbXdrWENwYUFzV3pCTnphWXVsdzMtcmdlZXBaMU5pYklUNjBSOWFMT2puZEROamFNOUJ4bVNITktIeHNHWTJqb3JWRFVUeTI3Szk0U0l6UjVTZ1JFVXF1eWhn?oc=5",
-   "s": "RTBF",
-   "d": "2026-11-01T11:04:06+00:00",
-   "lang": "fr",
-   "t": "Sorties jeux vidéo novembre 2026 : 4 jeux à découvrir en dehors de GTA 6 et de Zelda - RTBF Actus",
-   "u": "https://www.rtbf.be/article/sorties-jeux-video-novembre-2026-4-jeux-a-decouvrir-en-dehors-de-gta-6-et-de-zelda-11807575",
-   "img": "https://static-content.rtbf.be/article/image/1920x1080/6/4/2/4a4d2484ff57b5e57277d5e9dd3b292d.jpg",
-   "chapeau": "Si vous êtes en train de lire ces lignes, il y a de grandes chances que vous ne portiez que peu d’intérêt aux deux...",
-   "txt": "",
-   "pub": ""
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1icEZiOUhMS3hQNU1VX29tY2RyR1BHVHMzMTFEQjlGSkluVHhkU2tWRXNVeFJYOGhRaDNsZkhmeXJFZXRRamxHbHdDOC1nX2s?oc=5",
-   "s": "GeeksLands",
-   "d": "2026-11-01T11:00:00+00:00",
-   "lang": "fr",
-   "t": "Le quiz ultime GTA : 12 questions, du premier épisode de 1997 à GTA 6",
-   "u": "https://geekslands.fr/quiz-ultime-gta/",
-   "img": "https://geekslands.fr/api/og-image/api/uploads/featured/quiz-ultime-gta-une-12e5.jpg",
-   "chapeau": "Douze captures, douze questions sur près de trente ans de GTA, de la vue de dessus de 1997 à Leonida. Ton score, ton palier et un lien pour défier tes amis.",
-   "txt": "Il reste moins de trois semaines avant la sortie de GTA 6 , le 19 novembre. Les premières questions sont à la portée de tout joueur, puis la difficulté grimpe jusqu'aux coulisses de DMA Design et aux stations de radio de San Andreas.\nChaque question montre une capture officielle et quatre réponses, dont une seule bonne . La correction tombe aussitôt, avec une anecdote et la part des lecteurs qui ont trouvé avant toi. Ton score te vaut un niveau de recherche, du casier vierge aux six étoiles. Envoie ensuite le lien de défi à tes amis : ils devront battre ton score .\nComment s'appellent les deux héros de GTA 6 ? Victor et Maria Jason et Catalina Jason et Lucia Tommy et Lucia La partie continue Le quiz ultime du gamer élargit le défi à quarante ans de jeu vidéo, de Donkey Kong à Elden Ring. Avant la sortie de GTA 6, nos guides font le point sur l'heure de lancement et le pré-téléchargement, comparent la carte de Leonida aux anciens épisodes et rassemblent ce qu'on sait des codes de triche .\nTon compte GeeksLands conserve ton score. Chaque quiz terminé rapporte 15 XP , plus 10 au dernier palier. Les meilleurs décrochent le badge « Gamer ultime ».",
-   "pub": "2026-11-01T11:00:00.000Z"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5EYzVwSWREUDh3VHZsYlZJdnZiVEh2dXJySjZxekVMLXRNeW5zS3lKb3ExTWVyTTVkcVZOVHNqeGJLR185aTNfTkxlbERIUzV4dURiZEpya2ZyTWh2dEFuZVZob2hnVm5HNkNUTFdnQVBjTmZla1E?oc=5",
-   "s": "big-n.fr",
-   "d": "2026-11-01T08:39:23+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : un open world d'une richesse inédite, toutes les nouveautés dévoilées par Edge",
-   "u": "https://big-n.fr/actualites/52229-gta-6-open-world-nouveautes-edge/",
-   "img": "",
-   "chapeau": "",
-   "txt": "L’open world de GTA 6 s’annonce comme le plus riche jamais conçu par Rockstar Games. C’est ce qui ressort de l’ aperçu exclusif publié par le magazine Edge , qui a pu jouer à une démo d’environ 90 minutes sur PS5 standard, à 30 fps. Les journalistes ont découvert un monde d’une densité exceptionnelle, où chaque détail a été pensé pour renforcer l’immersion et offrir des situations émergentes inédites.\nLa carte de GTA 6 sera environ deux fois plus étendue que celle de GTA V, mais ce n’est pas sa taille qui impressionne le plus. Rockstar a mis l’accent sur la densité et le soin apporté à chaque environnement. Contrairement à de nombreux jeux en monde ouvert qui utilisent la génération procédurale pour remplir l’espace, les développeurs ont opté pour une approche artisanale. Chaque appartement, par exemple, raconte une histoire à travers ses meubles, ses photos et même son désordre. Les protagonistes réagissent de manière autonome à ces détails : Jason peut se boucher le nez en entrant dans une pièce malodorante, sans que cela soit scripté.\nLes habitants de Leonida, l’État fictif inspiré de la Floride, ont bénéficié d’une direction artistique inédite, avec la contribution de scénaristes, réalisateurs et producteurs venus d’Hollywood. Le jeu comporte environ 600 000 animations pour donner vie à ces personnages. Leur comportement est influencé par de nombreux facteurs : tempérament, agressivité, quartier d’origine, situation sociale et économique, expériences récentes, et même l’attitude du joueur. Un exemple marquant : Jason observe un homme promenant son chien ; agacé, ce dernier lâche l’animal, provoquant une course-poursuite qui fait s’envoler des pigeons. Une fois le calme revenu, Jason peut reprendre sa promenade et allumer une cigarette.\nLa police de GTA 6 ne réagira plus simplement à un niveau de suspicion croissant. Désormais, les forces de l’ordre tiendront compte des preuves qu’elles ont réellement collectées : description du suspect, vêtements, présence d’un complice, arme utilisée, images de vidéosurveillance. Ces informations sont affichées sous forme d’icônes en haut de l’écran, constituant un rapport d’enquête que le joueur doit neutraliser. Pour brouiller les pistes, il peut changer de vêtements, abandonner son arme ou se séparer de son complice. Le vol de voiture comporte aussi de nouveaux risques : certains propriétaires se défendent, et les véhicules haut de gamme peuvent être équipés de traceurs GPS.\nLa gestion des armes devient plus réaliste. Se promener avec un fusil à la main attirera l’attention et pourra provoquer des réactions hostiles, tandis qu’une arme de poing dissimulée passera inaperçue. Les braquages nécessitent une planification plus poussée : Jason et Lucia peuvent se répartir les tâches, l’un surveillant les otages pendant que l’autre vide la caisse. La fuite doit être anticipée, car la police peut déployer des herses. Le passage d’un personnage à l’autre permet de choisir entre conduire ou tirer, mais une moto crevée obligera à fuir à pied.\nJason Duval et Lucia Caminos forment le premier couple protagoniste de la série. Leur relation est mesurée par un indicateur à quatre niveaux, renforcé par des activités comme des promenades sur la plage, des balades à vélo ou des séances de sport. Le joueur ne pourra pas les séparer, mais son comportement influencera leur lien. Un système de « Profil Criminel » évaluera si le duo agit de manière professionnelle ou irrécupérable, ce qui pourrait modifier le déroulement de l’histoire.\nRockstar accorde plus d’importance aux préparatifs et aux conséquences des actions. Pour débloquer certaines missions, il faudra réunir de l’argent en braquant une station-service ou en volant un modèle de voiture spécifique. Une application permet de repérer les véhicules les plus recherchés et d’obtenir des informations sur leurs systèmes de sécurité. L’état du véhicule à la livraison influence le paiement. La gestion des véhicules inclut désormais le niveau de carburant et les pannes moteur. Les armes encombrantes peuvent être stockées dans le coffre, tandis que les armes de poing se cachent sous les vêtements.\nLa météo de GTA 6 simule nuages, vent, humidité, brouillard, heure et saison, avec des changements graduels. On peut voir une tempête se former à l’horizon, la pluie arriver progressivement, les rues sécher à des vitesses différentes. Le vent affecte la végétation et les vagues, et les turbulences peuvent endommager les avions. Le cycle jour/nuit est plus len",
-   "pub": ""
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYlpNSElPYkdTMWhENmFmM2dMWXNEeDBWSkM2RFRXclhfWlllLWU1SE9qUHZqQTBfTzlPVnRsTVZTRllkUTlLMllDeVVrQzhscmVLQTVGdHB0MUFJb3pDZmVoV0sxVVBTQnUzRUIyMUx2T1JWRG9hd1ZSTnZ4dkdoVjVyU29uVV9PWUt1eDg1Q2x0dVly?oc=5",
@@ -451,15 +422,6 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE12azJxeEhWSFRvRVYwT0hldlNGNWZJelBUVnNMeFVEZFpxTFRNamlwLVA4LXhRdkNtdzRJRFNSNlVEc3c5d3RuRzRyWDRCekdPVnByNDRVa3ZpSHhZek1NbXg5VXlaNVk?oc=5",
-   "s": "Coinbase",
-   "d": "2026-10-31T00:33:43+00:00",
-   "lang": "en",
-   "t": "CYBERLEEK Price, CYBERLEEK Price, Live Charts, and Marketcap",
-   "erreur": "HTTP Error 403: Forbidden",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQY1JiNmdGVHBuUEU4X1I4Z1ROYXRKUy1NS2JsZWhOQUVnTUdzcGlDZXVRd0pTLTZ5TTRJUmpmb3Y1VWRkS1NCbjdIN05HV3JMa3U2b1B3OXFYeW1Yc0w4QVBnYndPbnZkNHRLRTJrc1FVUjdqM2hNU2YtUVJRRkZfWlZhS1Jfd0lR?oc=5",
    "s": "https://tech-insider.org/",
    "d": "2026-10-31T00:32:15+00:00",
@@ -478,7 +440,7 @@
    "d": "2026-10-30T12:39:43+00:00",
    "lang": "fr",
    "t": "Les copies de GTA 6 fournies aux médias n'ont quand même pas de filigranes",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -625,19 +587,6 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaXdNUkZ0UXlEUkR5LURJNjdGeU1JMHgzeTMyRGY5RVNBRThpM3lUN1p2U2l3VEdjaHRKbUtZeE41TTI1VlhvTEtfSjc2R0NLcnJVQWVaR3E4U2ZqOUg0SUU5V1ZJN1JKSU1JOWVxMTlSWEhXWmRoMHZZbTlwalU3Ylc4Znc5TE03aWpOanVVTkVjWGdSWV91X1FR?oc=5",
-   "s": "UNILAD Tech",
-   "d": "2026-10-27T10:14:17+00:00",
-   "lang": "en",
-   "t": "Why GTA 6 characters could have nude models that players never get to use",
-   "u": "https://www.uniladtech.com/gaming/gta-6-nude-character-models-unusable-players-112475-20261026",
-   "img": "https://resizer.ladbiblegroup.com/ogimage/v3/assets/bltb5d92757ac1ee045/blt42fb71c1eb1cb9ae/6adf8691e4c3ffb17e5a5829/GTA_6_bikini_woman.jpg?crop=1600,900,x0,y0",
-   "chapeau": "After the CyberLeek hacker released more information on Grand Theft Auto VI, a nude video of Lucia sparked theories that playable characters will be naked.",
-   "txt": "We're officially less than a month away from Grand Theft Auto VI 's release, and as you can imagine, the leaks are ramping up. After all, if people have been leaking everything from the franchise's first true playable protagonist to a Vice City return for years, you can bet they'll leak even more in the run-up to GTA VI ’s release.\nRockstar Games and publisher Take-Two Interactive were recently shaken by the August 2026 CyberLeek leak that revealed everything from gameplay to Lucia's prologue. Despite facing serious legal ramifications , the hacker continued their campaign while promoting their own memecoin and plans to reach a $30 million market cap.\nMany thought they'd heard the last of CyberLeek , but amid a big memecoin push in the middle of October, they returned with yet more gaming leaks.\nThe last round of leaks was decidedly more NSFW, with IGN reporting that CyberLeek was planning to release a 'nude' video of Lucia. There was speculation that you might be able to strip Jason and Lucia down to their birthday suits in GTA VI , but given the franchise's somewhat problematic history with the Hot Coffee minigame, we've already been told Rockstar will handle intimacy differently this time around.\nCyberLeek vowed to release a gameplay video featuring a nude Lucia if their memecoin hit a market cap of $4 million, and with thirsty gamers helping this happen, a suitably risqué video was let out into the wild. Men needen't feel left out because a second video soon followed and showed a nude Jason going full hog.\nStill, there are questions about the legitimacy of these videos, with some suggesting the CyberLeek hacker tinkered with their own hacked build instead of this being an actual feature the general public will have access to.\nMany think the hacker has access to a dev build that can be easily modified, noting how NPCs fail to react to naked Jason or Lucia despite their states of undress.\nIt could also be linked to an apparent mission that has players heading to a nudist resort, with the OP possibly taking Jason and Lucia's models from here and carrying them over into the rest of the game.\nThere are several reasons we have nude character models, like shower scenes where clever camera angles keep their private parts private. Nude Jason and Lucia could also be from the character creation stage where clothes are added over the top, or simply, it's unfinished content that was never planned for full release.\nWe likely won’t know the full story until GTA VI ’s November 19 release . At the time of writing, it's unclear whether either character will be naked at any point, let alone whether we'll be able to have them roaming the streets of Vice City in the buff.\nCyberLeek carried on with their threats to release a 'Lucia closeup 4k' video and planned to unleash more unauthorized GTA VI videos every day the memecoin hit a certain market cap. After these milestones failed to be hit and the memecoin started to crash, CyberLeek went to ground around October 14.\nCalling it the 'end of the road', they showed off a video of Lucia in what they claimed was the final missions, but also said they wouldn't be releasing the mythical full build because a proposed $30 million market cap wasn't reached.\nAt the end of October, there's no sign of CyberLeek, and their memecoin has crashed to just $1.307 million.",
-   "pub": "",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5JbUFQYTFyWmNteU96ckl4WHZqNjk3NmR6aUdmQTJaWHNHb21nN1VDU3F5ZXY1MmltRzhmQ0djc0xpTm9LRVBpRWRQWGg3WG5na0hWZ1k1UHltSklYbXhZTlFrOGlCb1k?oc=5",
    "s": "SVG",
    "d": "2026-10-27T01:00:00+00:00",
@@ -651,12 +600,21 @@
    "cyberleek": true
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPd2JXeUd1dVgycDE4MlFtV3g1c2EtdlNvd3hwRFZ5dVVna0U3VU9TZW5OalZnSEcwRmFHTDRCQXllRGZDdE1DTl9iMENGRDNOU0R2dmp5eWR0aFUwWVh3UEJmdjFJSW5rcHl0aUF2VFljejlwWVVIVlRteVcwWUpqRTU0c0VCWkwyV1FXZGhweWZVU25GZ21NRA?oc=5",
+   "s": "EGW.News",
+   "d": "2026-10-26T19:12:15+00:00",
+   "lang": "en",
+   "t": "GTA 6: New Gameplay Leak Featuring Lucia Possibly Revealed",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNGdXdFFBdkJudkJrSEQ3enppQ1otMnNRS0xzOHZNUkdlMHhEQnZyeC1MWjFxem9aYmlLWS1jbDJPbEhFYzlTVFRuRjVqTHg2dUFScHF6ZGRHOEVvbkZiRjBTR3RmNW9rRGVmaGpvaHVmVVB1U2YxQVdoNFZxOW9rR1Z0UE1CY212c3Q2bXpMMFM3bTNYdFc0Z1dhVG8?oc=5",
    "s": "EGW News",
    "d": "2026-10-26T19:12:15+00:00",
    "lang": "fr",
    "t": "Une nouvelle fuite potentielle dévoile des images de Lucia dans GTA 6",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -673,25 +631,12 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1oWGowTXp6T2FwaG01U3lzSHdJQTk4Y1pPS1hQOWotMnFXUm1HcDlFdnV2cEJScjBLOTVzdk5MOG5pNm9sTXVBa3dhd216bUhJNGc?oc=5",
-   "s": "IMDb",
-   "d": "2026-10-26T04:38:45+00:00",
-   "lang": "en",
-   "t": "Cyberleek Shares More GTA 6 Footage Featuring Lucia Naked",
-   "u": "https://www.imdb.com/fr/news/ni66063856/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQNW44VDBCcXNVRURxRlE0bVl5ME8xaGxMUnNxVGw1TzJGeW9rdGNUcFBzRzl1Y21NcTZ6OElrWV9oMW5DbU5RZkVzeXRRdVNLU3dha183QmJZVHNlT1Z4NzJES0JnTFRWUlFUN0JDYVNDT28taEhkOXlvU09PU2UtQ3Bra1EybVBOaFNPTFg4bkFvLV9qbEdFODdick9pSkhIZTNiZnRMdDZ1dlRfT29uZ1BPOVItWWJJOXA2N01zYTBkZVlkYm9VT0wyU2RqUkRUZG9V?oc=5",
    "s": "JeuxVideo.com",
    "d": "2026-10-25T17:45:09+00:00",
    "lang": "fr",
    "t": "Selon ce leak, GTA 6 aura bien le poster que les joueurs attendent le plus inclus dans sa boîte",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -760,32 +705,6 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1WTlZSdjJBT183dFhFMWd2YlRRZUlEdWF2WFdGSE94MU5NRUFfa1VvOEh1YVlCUXFITl9DZWJMbVloSVl0ZVdvcmVKU3Nadw?oc=5",
-   "s": "IMDb",
-   "d": "2026-10-22T15:12:54+00:00",
-   "lang": "en",
-   "t": "Cyberleek Shares GTA 6 Leak Of Naked Lucia",
-   "u": "https://www.imdb.com/news/ni66062173/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQLURQSkcxYjdWbG9jajY0cmE5ZlN5VGxvLU10YVQtVnBKVE0zQjctd1JiQTRnV2tEOG5YWEE4cjhBcXpGM0JXbHRNZ0FkT0EzRGZmWUYwQmdRLXozWXVDSW9RS3JfaXpxVF91ZkpieEF0UUtNS3ZyTFZrYnlodU9tUWxJTQ?oc=5",
-   "s": "Yahoo Tech",
-   "d": "2026-10-21T07:00:00+00:00",
-   "lang": "en",
-   "t": "GTA 6 Leaker Cyberleek Threatens Full Game Release",
-   "u": "https://tech.yahoo.com/videos/gta-6-leaker-cyberleek-threatens-160000714.html",
-   "img": "https://s.yimg.com/lo/mysterio/api/7c0d9ddc77e963247156416eacbed13876d2d658016f20c36dcf2b6e2d66030d/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fgamesradar_vertical_videos_172%2Faca3890bc694470e5c0d8c7126051be5.jpg",
-   "chapeau": "The notorious GTA 6 leaker, Cyberleek, is back with a new threat: release a full playable build of the game if their memecoin hits a $30 million market cap. Learn more about the ongoing saga and Take-Two's options.",
-   "txt": "The notorious GTA 6 leaker, Cyberleek, is back with a new threat: release a full playable build of the game if their memecoin hits a $30 million market cap. Learn more about the ongoing saga and Take-Two's options.",
-   "pub": "",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeUJxeEk5dHZzM3g5aEZlU3NubEk3VUt2aVBFVUwwTlBvVmhNNkd4ZEZtN1doa0dxamd6Y1ZuWmVucGxxaURvSzJkeFRJdjFnMWRmVFhNSzVRT2xxVG5ZT2hLQVh6LWNqSjQzVnNCX3lUd3A2UUI5YU9VX0RYRFE2RUxnQV85a09QLTVhX1dfbWd0NEl1WXpIaUFwcXVtM3VKU2MtUGVOdmRBUjlXa0JpTWZvWThXV00?oc=5",
    "s": "MMOEXP",
    "d": "2026-10-21T07:00:00+00:00",
@@ -799,55 +718,75 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5salliRDZyMXBzQWZHczVJeVdsTXU1NVU4VXJsNmRxWjRfS0J1LVFDY0ltSkplZHFERkRaVXJadDUwOF9iLTlTOVpvSHk5Q1BLd0E?oc=5",
-   "s": "IMDb",
-   "d": "2026-10-20T11:13:09+00:00",
+   "gn": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9vaEs4SzBzUnNUaEM1Y090U293a0IzOW9zN2J4N055d1o1dU9tT1RSb0J0NmZEblVFVTkwb1NtajBNS2VTS085dzE5VDJoM1A0LU9XMnRHVVhxUzhIVEdsR2tGQlNWWDJWckJwbEVLajR6VC1kSm90SWtR?oc=5",
+   "s": "shattered.io",
+   "d": "2026-10-17T07:00:00+00:00",
    "lang": "en",
-   "t": "'GTA 6' Leaker Posts Nude Lucia Video With Threats of Releasing Game Early",
-   "u": "https://www.imdb.com/de/news/ni66062324/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "t": "GTA 6 Leaker Cyberleek Is Back as Coin Hits $1.2M [2026]",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBCaldhTDVEY3RCaXNxS0RDZWZjbnBTMVllcFdaV1NrY3R4RTM4U2ZGYjBPSzF0dXRNemozNU91a0JqR1I5Q3NwaWpwTTM5a2tNWXB4SWwwMEhiQ0FWbnBTUDNBeFhMdUE?oc=5",
-   "s": "IMDb",
-   "d": "2026-10-20T07:57:13+00:00",
-   "lang": "en",
-   "t": "GTA 6 Leaker Threatens Story Spoilers If Caught",
-   "u": "https://www.imdb.com/news/ni66067342/?ref_",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "gn": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRXN2Qi1iQ1d5b1RrSElfWUJXR2NCM2lCVEU5a05HUWhleThTcWhKdm5lcTk5WWtQS2IxSFlSdzQ4Rkgza19FNUR2Q3dPVjFkYk9RZk1TNU0xdFphTmZsYTlnazdDT2dEQVNPTFpQdmtoTUhmbzlhVER2LWo0RVdwRDlnMUxyY0JCbnphWVZmQjVNam9OWVptUUhpVUgwNERvSjJwQzBGUnRLQWRtcjJXQ3dHOU9RZw?oc=5",
+   "s": "Cowcotland.com",
+   "d": "2026-10-16T07:00:00+00:00",
+   "lang": "fr",
+   "t": "GTA VI pour 40 dollars, c'est possible avec Cyberleek et sans Cybertruck",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA4NEExcXJYR19TdXRJMGhvRmkydTBIbmtteWNibkxlWGZuaFotWkhTdjhVa0FKclYwQVVMam9VMFY5WHdDX0NVTTR2OFQ4djBJYVItbjNjSEg1NGVaM2EzQ0ZjMm9pbS1za1hUd05tNE1tX2hTWlhHeQ?oc=5",
-   "s": "virus.hr",
-   "d": "2026-10-19T07:00:00+00:00",
-   "lang": "en",
-   "t": "The latest post from GTA VI Leaker Cyberleek – Virus",
-   "u": "https://virus.hr/en/news/the-latest-post-from-gta-vi-leaker-cyberleek",
-   "img": "https://virus.hr/storage/10879/conversions/Cyberleek-hero.webp",
-   "chapeau": "Notorious leaker Cyberleek is halting posts due to negative sentiment and market capitalization. What does this mean for GTA VI?",
-   "txt": "Back News The latest post from GTA VI Leaker Cyberleek Boris Milojević 19. October 2026. Grand Theft Auto leak game over?\nNotorious leaker GTA VI, Cyberleek, announces after less than 2 months that he is stopping all postings.\nCyberleek, also known for his seemingly ambitious goals such as forcing Rockstar and their publisher, Take-Two, to release a physical version of the game, announces that due to not reaching the market capitalization goal of his cryptocurrency of 30 million dollars and the huge negative sentiment towards him and his “secret project,” he is halting all his activities (for now).\nCyberleek also emphasizes that he has an active “dead man’s switch” that will (allegedly) release the full version of the game, over 200 gigabytes, for free to everyone if Take-Two successfully catches him. (without specifying whether this is a build of the game for Playstation, Xbox, or PC)\nCyberleek stresses that releasing footage of the game's ending would harm gamers, not just T2, and that he has already caused enough damage to the publisher.\nAll in all, a polarizing figure in our gaming world, who has potentially caused as much harm as good. How this story ends, he may not even know himself yet.\nEpomaker HE65 V2 TMR A 65% Hall Effect keyboard with TMR sensors, Rapid Trigger technology, an adjustable actuation point and hybrid hot-swap support. Designed for precise in-game control and comfortable everyday typing.",
-   "pub": "2026-10-19T01:32:54+00:00",
+   "gn": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNEM5SnF0cGttbjdaLV9ERWdDZWc2ODZBUVg5VmVtWV9PZ2hHZ1FsMk53SFBVRl9EbnNzaWhLa3lnZl8ydk5tbmxQbUZkYnYxN1FtS3RHQ056ZGZ6SzNfcm16ZTFRQUVLQ1FtRldhc19jWkt3RXMtRGJ2RjFnMlZkVkJVRDJKTEVsTlI4eHhLcmJTMFM4dFpXZHhQLURaRXk0eDNoVWdIQUxWLUxi?oc=5",
+   "s": "games.gg",
+   "d": "2026-10-16T07:00:00+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : Rockstar aurait glissé un message à Cyberleek",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdGhzMjJJd0ttd0tGVjdDMmtPSWNyLWhMTVh0c2tCanZQcEFaQjFMTy0wanBYTkM3MFRFNlYyMEJ0ZHk4dFVsWnhuRDRjNklJV1hHUndSaU1jY3o5NEM4dW5mOENibWdzMHNZZkdub0I1V0lFRjVaamJZQWNxTHJta0NWajhyZ2ZoZExxcEJpRUloS1lSVDRIUUtUdGpYN1Yxd2FrVllVb2lvU2dYQllpUg?oc=5",
-   "s": "PCMag Middle East",
-   "d": "2026-10-19T03:46:45+00:00",
+   "gn": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQN3hGd0t1VVRzTURaMHAyOG9PcmgzajV5WGVpZUJsRGt2ZWE2dk1zLWd0cFUwN2xzUTduam01TF91SWxEUHktSDF5TWlSNFdHTmRnRnVDRGp5eTFPWnZkc3BySWVxTGxLMS00aVpSX2lJSVk5SmtCTFY4VE5mY2ZqUHRVT0ZHWXdhWTJwbmRXU05yRXZIRGdjVk5sVzJtUm9Ha0E?oc=5",
+   "s": "Fredzone",
+   "d": "2026-10-16T07:00:00+00:00",
+   "lang": "fr",
+   "t": "Le retour fracassant de Cyberleek et la fin annoncée des fuites sur GTA VI",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQcjIwV19XMlhaMzFiQU43b3JxN0I4MkJ2UFpYX01wU2JnOUJGbk1nak1pVlZ2NFA5emlubkY4bXZKNE0wUnJqUjFlSFJSZlVuOXl4RVQzMkZ1ZC03RHJ3OGczYVNlNXdLajl2d1hFSmpSZG9BeXNPN2tPbkozUTZYTUlHZXRKNFZwQXNJTHBOa2Z2eURuRnZDVlRoUTdlajZhblppYTJPU0c4cFR1UFhtWlBRUmdCX3NjNmkwU2RBWUN1WlJkV2RCUHV2Rm1ESEJibmFRZnZUWE00d9IB3wFBVV95cUxNbGhuY2lCS0d4VEprb0ZEWEtGYnlRc1FSQU1VVU5URUphUk9lUWZiYnNwSnlyX3FTZWZvY2ZEN2t3dzh3Z0pBUGxOTkNFZElQa2VfZENyN092NWd1c3dhb29pc2FVdTd1cS05R3hoNmJxcE0tOWJmOFM2N2ZIMzFtU2Q3ZTh4N2UtbXdfWHh5cVdMQmFXYmEwMW43ZDhTcHROUmtNOW54aU9qYUtYY3JndjVYeVVNUkpTNlNFbmh0YzE0aDVzWWxCYXFDQ2xJOHFmLXZIYmJHUGhIZmtYbVNB?oc=5",
+   "s": "iXBT.games",
+   "d": "2026-10-16T07:00:00+00:00",
    "lang": "en",
-   "t": "GTA 6 Leaker's Latest Effort Appears To Flop As Group's Meme Coin Declines",
-   "u": "https://me.pcmag.com/en/security/38351/gta-6-leakers-latest-effort-appears-to-flop-as-groups-meme-coin-declines",
-   "img": "https://sm.pcmag.com/t/pcmag_me/news/g/gta-6-leak/gta-6-leakers-latest-effort-appears-to-flop-as-groups-meme-c_zw4r.1200.jpg",
-   "chapeau": "The GTA 6 leaker, CyberLeek, seems to be frustrated that the group's meme coin has cratered amid scam accusations, prompting it to hit pause.",
-   "txt": "",
-   "pub": "2026-10-19T03:46:45+00:00",
+   "t": "GTA VI Developers Showed a \"Black Mark\" to Hacker Cyberleek? A Threat from Rockstar Was Seen in the Trailer",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5LYXhhTEs3WHB3bS1md2IxMkNvalBOY3J2QkhHcHpJU3BLRzBraWNiOHdDWXZ4aUpvYVFfclBtdC1oRTd2Q2dseHU0aUVaOUhBWkVTdnBSRlhCMGpBRDA3cjRPMFJsZ2VNbGRfSUU5LWVDVXJSLTg0NzVjZTE5QQ?oc=5",
+   "s": "https://tech-insider.org/",
+   "d": "2026-10-16T07:00:00+00:00",
+   "lang": "en",
+   "t": "GTA 6 Cyberleek Cancels Leak as Coin Falls to $1.2M [2026]",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPTGRrX1dzN0JRUVlKSnhleHJ5RDFQWFNVTFRWa08zYXBLWXg1RjBHSkdUMWZ0MEFnUGthc0pBRXp3b0RvZjJrME5US2NCWVRCR1ZnMGdrOVd1M1cxTnlTVDBBSlo0Z2N2R2dRQVV4X0MtNTFJdnl5cUtQYjFwZkFWMkRpbXU2dw?oc=5",
+   "s": "Root-Nation.com",
+   "d": "2026-10-15T11:39:24+00:00",
+   "lang": "fr",
+   "t": "Cyberleek met fin aux leaks de GTA 6",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxORE9TZTdhcENBSW1oS0F4MG9aaUJKT2phc2lmbDg0dVVGc1VoWXZPSGhNRHpKUHdDUWsySWVIaUVBVEsyaXgtTUw1di02bDFpamFLOTNUWjhqbVAyR0NjYmk4alR2bm5WNDRxQlFoTDhSejl5SjNxTXpadDRTSDVQV1ozU0R5UU5ESXdlWmFsd0tvZzhtelBMaXoyWlZiak5nUnhiaEhGcTZrc3pJNjItZGVhVVpjSE5NYi1pSF9WWWRMdFQ3RzNkWDRTSmVWb2VlZXBIMHdxS0phRG9xaUN0TXl0Y3RyQQ?oc=5",
+   "s": "GinjFo",
+   "d": "2026-10-15T07:00:00+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : Cyberleek fait volte-face et propose sa prétendue build pour 40 dollars",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   }
  ]
