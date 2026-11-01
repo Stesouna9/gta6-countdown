@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-01T21:06:57+00:00",
+ "maj": "2026-11-01T21:16:31+00:00",
  "articles": [
   {
    "gn": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZGhuZUtnZG12RmNmS09HX3M1TE82YkdvRzV6MC04V29aRWxva1BsZ0dCOWpFRmpJNl9xSk5zcHI2RG9VaXRsT2h0S1VHWWIya1VoNnA0VkVXdE50aTNHb1ZRWmZaZDNWR1E0V29jaXNUTS1TdlRNWk9PWjhMa2VmblF0MV9sYW1VOEx2dQ?oc=5",
@@ -7,7 +7,7 @@
    "d": "2026-11-01T20:59:32+00:00",
    "lang": "en",
    "t": "Is GTA 6 on PC? Not on Nov. 19: what Rockstar has said and what the early-2027 report claims",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMlBaUHBKbnBwSXVnOWFDQzcyWXlHZHVqM2Y1d3BnUV9qbjYyVFoxT0s1NEtlMHNmWEtMSmZHYUtmWUMzZHA0TjdYd0xWMzNBOFZzNEV4Ujl1V2ozVzc4TjIzNnI2eUcyS3NnTDlxbFBwN0YwdWo2d2RFZi1nSHRoUmFXY0dtZTlSd2FvU2NJa21NN1E?oc=5",
@@ -15,7 +15,7 @@
    "d": "2026-11-01T20:31:19+00:00",
    "lang": "fr",
    "t": "GTA 6, tout ce que l'on sait, confirmé ou simple rumeur",
-   "erreur": "Remote end closed connection without response"
+   "erreur": "HTTP Error 429: Too Many Requests"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMikAFBVV95cUxORzhXLTNCSnUwSlJqOVJGTVZWclVidUxkYXlzcmk3a2FKTk04dzBkanlIMG5DSWZRVmFKbWxYTHFpcE9ZTkhJaXhRVGRpOTVQaVZ6MnQyWG1xdDQ0N0xjUkgzQ08td0h5eWtPb3lqWEdKVjNWRlZhQTUwYnZBSHBBaHVwb25vanNfWnc2Q2szYUI?oc=5",
@@ -23,7 +23,7 @@
    "d": "2026-11-01T20:17:16+00:00",
    "lang": "en",
    "t": "GTA 6, everything we know so far, confirmed vs rumor",
-   "erreur": "Remote end closed connection without response"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1oRHJjSzNORDJ1cmYzY1dtVVM2NzgwX3hfbDJVa2lJejZrcXhycWY2LXZPWnBvdklSQkwzdG1vTnBOVTZGaXVvVnpVS2x2dGpFTEdmN1FOVDRYLWtGN0JuLUJmdFZyYWNray1rM2EySEhzWlRwN1E?oc=5",
@@ -79,7 +79,7 @@
    "d": "2026-11-01T19:10:25+00:00",
    "lang": "en",
    "t": "Rockstar Head Says GTA 6’s Jason and Lucia Romance Is Optional, and Can Fall Apart if Neglected",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPQkNOdF94R0J1ZVY2YUVkOVFtWkRmd3pwZEpRUXVEMmJVeVhBZWo4Q2RlWW4xb21IMlRXUmpiMExfQkI4SjBfazFGUm44U0h6Y1N1OEN4ckF0UWtVTWtsNnAtM3lYZ0MzVjJhTFBiODJRN1dTUjZzeUxyX2RiQTkwR21R?oc=5",
@@ -99,7 +99,7 @@
    "d": "2026-11-01T18:55:01+00:00",
    "lang": "fr",
    "t": "Selon Polymarket, GTA 6 obtiendra probablement une note de 96+ sur Metacritic",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbmlmTkNXdzdCVlBVTXNCckNmTF96ZFBXMnpScUlzaE9Bd280ZFZTZ3cwc283RnFjMTN1dTg5UDFKOTVFR2NSTEhvdkFOa1B6ZVFIOF9aUFcwQ0ZzVFRuY2ZWLWl2TVlicThuRDBWVGNhN1h6a3pQTWJjZk1mcnhkclA4WU5LM2R3TW1PeDRuMVp1NE50c3JGTXlOVWo4VFk?oc=5",
@@ -214,12 +214,8 @@
    "s": "urbanstreet.com.pe",
    "d": "2026-11-01T17:09:09+00:00",
    "lang": "en",
-   "t": "Travis Scott and GTA 6 Could Get Three Nike Air Force 1 Collabs: Release Date and Price Leaked",
-   "u": "https://urbanstreet.com.pe/en/news/travis-scott-gta-6-nike-air-force-1/",
-   "img": "https://urbanstreet.com.pe/wp-content/uploads/2026/11/TRAVIS-SCOTT-GTA-VI-1.webp",
-   "chapeau": "Travis Scott could be teaming up with Nike and Rockstar Games for a special Air Force 1 collection inspired by",
-   "txt": "",
-   "pub": "2026-11-01T12:00:00-05:00",
+   "t": "Travis Scott x GTA 6: Nike Air Force 1 Leak",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -228,7 +224,7 @@
    "d": "2026-11-01T16:35:00+00:00",
    "lang": "en",
    "t": "Grand Theft Callout: ‘GTA 6’ fans are missing work on the game’s release day because they ‘don’t want to wait’ anymore",
-   "erreur": "HTTP Error 401: HTTP Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWkxVeVgwWk85MXhVNnZ4dXJLdVdGWTgtdGFDQjFJNGoyX3JVb1oxX0hLSGQ5eENBSmtXQklKb203SWdJc0Y3MGNLRDlRenQ2SE1tT2tnT1RVTWdYXzkwazVhdWNkUi13b25JVjItaFZEeHhjaHZXTHE3b3hfMEU2XzBRU2hXZnNBMlhtTHNFUlltejQ3SXc?oc=5",
@@ -296,7 +292,7 @@
    "d": "2026-11-01T13:44:56+00:00",
    "lang": "fr",
    "t": "Selon un millionnaire, GTA 6 pourrait vous faire économiser 5 000 dollars",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPSEtFdWh6d2doQWdpT2t2Y2I2b0RIeGlmOUQxNVg4cTRXeVF2X0Q5dmxVY0J3YVpDNXNjX01wWE9hV2d4WmV1TkF5RGZpeTgwQmRPNmlJZHM0aW9TNE12V0dUSG9UUGZHanR3NWREU0FQZl9vZWhmTzZ1NERSSjVqNzhDLTI4anFvZXd2TmF1cFk?oc=5",
@@ -341,7 +337,7 @@
    "d": "2026-11-01T12:07:03+00:00",
    "lang": "fr",
    "t": "« GTA 6 » : comment Rockstar Games a réussi à faire patienter les joeurs",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOb095Vmpfd3pUOVJVUEowOHdNMzVZU1JIRl9yNGkyZ19sUEZLY2Y0cjNMTVFBTm1TaVFQYzhhWktPbEhUMmNoQXpjTGRUbzh0dlZrVlh3ZkxrUVZGc04waVNLTE5GRm4tNGRvSWxKOWY1SmpRWGxZVThMRko5b0UzSmhnXzVUV3BSNDVSR285ZkVXU2VHWU5GRkU5SEpFWnpsbU1OaF9uOEF2QlBDR05KOHJBQVkyanUwbmx0cjUzdV93U3h4VWNaR1BTbWF5UFlabkZsSDNIQk1fckZiVHhZUXFEYWZzQ1Z2bTFMeTBvNTZBUjg?oc=5",
@@ -478,7 +474,7 @@
    "d": "2026-10-30T12:39:43+00:00",
    "lang": "fr",
    "t": "Les copies de GTA 6 fournies aux médias n'ont quand même pas de filigranes",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -544,6 +540,15 @@
    "chapeau": "GTA 6 reportedly needs 210GB, yet the physical box holds only a download code. See the 2026 size report and how much space to free up.",
    "txt": "The most searched GTA 6 question this week is a practical one: how big is the download, and why does the retail box skip the disc? Reports from outlets including Martin Cid Magazine, KeenGamer, Times Now, Digit, TechloMedia and explosion.com put the PlayStation 5 file size at 210GB , a figure that Rockstar Games has not confirmed. The Rockstar Store listing states the packaging detail plainly: the box holds a download code, and “A disc will not be included in the box.”\nGrand Theft Auto VI is listed for PlayStation 5 and Xbox Series X|S with a release date of November 19, 2026. The physical version becomes available on November 12, 2026, the same day as the pre-load, so buyers can start downloading a full week before launch. From today, October 29, that is 14 days to pre-load and 21 days to release.\nThe size debate lands while demand for the game keeps breaking records. We covered the GTA VI 29% purchase intent reading that Circana called a record , and a title with that much pull will test home networks, console drives and retail habits all at once. This analysis separates what is confirmed from what is only reported, runs the download math for a 210GB file, and looks at what a box-with-a-code model means for buyers, stores and the wider gaming market .\nGoogle · Preferred Sources Don't miss new tech stories on Google\nAdd Shattered once in the Google app and our stories show up in your news suggestions.\nOnly a short list of facts is on the record. The Rockstar Store listing says the physical edition contains a download code and no disc. The same listing sets November 12, 2026 as the date the physical version is available, which supports pre-loading. The official listings name PlayStation 5 and Xbox Series X|S as the platforms, and November 19, 2026 as the release date.\nThe wording matters because the phrase “physical edition” has meant different things over the years. For most of the console era it meant a disc that held the game, sometimes with a large patch waiting online. Here, the box works as a delivery vehicle for a license. The game data still arrives over the network, and the packaging carries the key that unlocks it.\nWhat the sources do not confirm is just as important. Price is unconfirmed in the material available to us, so this article quotes none. Nothing on record describes what else sits in the box, whether any extras ship with it, or how the code is redeemed on each platform. We will not guess at any of those points.\nRelated guides: Away from the news cycle, PS5 Pro vs Xbox Series X is one of the guides on this subject area that we keep current; the Shattered guides hub lists it with our other setup guides and comparisons, grouped by what you are trying to do, each with a short description so you can tell what you will get before you click.\nThe 210GB number traces back to PlayStation Store data and third-party tracking, according to the reporting reviewed for this story. Rockstar Games has not confirmed it. The claim that 210GB is the final installed or download size is also unconfirmed. Treat the figure as a reported working number, not as a spec.\nStore metadata is a snapshot. A publisher can upload a size that reflects a build from a particular week, and later builds can grow or shrink. A store figure may or may not include day-one patches, optional language packs or higher-resolution texture sets. Without a statement from Rockstar, nobody outside the company can say which of those cases applies here.\nDatabase trackers watch store pages and log changes over time. That makes them useful for spotting when a number moves. It does not make them an official source. If the 210GB entry changes before pre-load, the trackers will probably catch it first, and the outlets that cited them will have to update their copy.\nTwo dates drive the whole story. Pre-load and physical availability both land on November 12, 2026, and the game releases on November 19, 2026. The gap is seven days. That is the real download window for anyone who wants to be playing at launch.\nThe pre-load date is the part that turns a box with a code into a workable plan. If buyers could only redeem a code on launch day, millions of people would pull the same files in the same hour. A week of pre-load spreads that demand across seven days, even though the first day will still draw a rush.\nThe arithmetic is simple, and it shows why the file size matters to ordinary buyers. These estimates assume the reported 210GB figure, decimal gigabytes (210",
    "pub": "2026-10-29T17:25:30+00:00",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBHYVNXc0ZEVTVvdHNOMGwzMmN3NTlrZ0tvaEtRVzRzZlU4ckFaZ2NmazFhQUtmRXNHTUs1cDQ4azdKak91R1RYbWxLVjJUNzhjc0dyN21VMTFISFBpbXRKVEs1N3I2SjV0UXJxS3ZYQXpNSXkzeTJ2TkhuUFE?oc=5",
+   "s": "shattered.io",
+   "d": "2026-10-29T11:27:25+00:00",
+   "lang": "en",
+   "t": "Cyberleek’s 3-Part Message Ends GTA 6 Leaks [2026]",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -643,7 +648,7 @@
    "d": "2026-10-26T19:12:15+00:00",
    "lang": "fr",
    "t": "Une nouvelle fuite potentielle dévoile des images de Lucia dans GTA 6",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -665,11 +670,7 @@
    "d": "2026-10-26T04:38:45+00:00",
    "lang": "en",
    "t": "Cyberleek Shares More GTA 6 Footage Featuring Lucia Naked",
-   "u": "https://www.imdb.com/fr/news/ni66063856/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -678,7 +679,7 @@
    "d": "2026-10-25T17:45:09+00:00",
    "lang": "fr",
    "t": "Selon ce leak, GTA 6 aura bien le poster que les joueurs attendent le plus inclus dans sa boîte",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -726,11 +727,7 @@
    "d": "2026-10-22T15:12:54+00:00",
    "lang": "en",
    "t": "Cyberleek Shares GTA 6 Leak Of Naked Lucia",
-   "u": "https://www.imdb.com/news/ni66062173/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -752,11 +749,7 @@
    "d": "2026-10-20T11:13:09+00:00",
    "lang": "en",
    "t": "'GTA 6' Leaker Posts Nude Lucia Video With Threats of Releasing Game Early",
-   "u": "https://www.imdb.com/de/news/ni66062324/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -765,11 +758,7 @@
    "d": "2026-10-20T07:57:13+00:00",
    "lang": "en",
    "t": "GTA 6 Leaker Threatens Story Spoilers If Caught",
-   "u": "https://www.imdb.com/news/ni66067342/?ref_",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -791,11 +780,7 @@
    "d": "2026-10-19T03:46:45+00:00",
    "lang": "en",
    "t": "GTA 6 Leaker's Latest Effort Appears To Flop As Group's Meme Coin Declines",
-   "u": "https://me.pcmag.com/en/security/38351/gta-6-leakers-latest-effort-appears-to-flop-as-groups-meme-coin-declines",
-   "img": "https://sm.pcmag.com/t/pcmag_me/news/g/gta-6-leak/gta-6-leakers-latest-effort-appears-to-flop-as-groups-meme-c_zw4r.1200.jpg",
-   "chapeau": "The GTA 6 leaker, CyberLeek, seems to be frustrated that the group's meme coin has cratered amid scam accusations, prompting it to hit pause.",
-   "txt": "",
-   "pub": "2026-10-19T03:46:45+00:00",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -804,11 +789,7 @@
    "d": "2026-10-19T02:15:56+00:00",
    "lang": "en",
    "t": "Cyberleek Confirms 20th GTA 6 Leak Will Be Their Last",
-   "u": "https://www.imdb.com/news/ni66067343/?ref_",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -822,19 +803,6 @@
    "chapeau": "GTA 6 leaker Cyberleek posted a final video, then said it was back after the $CYBERLEEK token crashed from $7.8M to $1.2M.",
    "txt": "Grand Theft Auto VI’s most persistent leaker just tried to close the book on a saga that has run for months. On October 14, 2026, the anonymous figure known as Cyberleek posted a new video, which IGN reported as a 24-minute gameplay video, carrying the title “The End of the Road.” Mashable reported that Cyberleek shared roughly 20 clips, which reportedly include Lucia at a barbershop, a shop robbery, a pool scene, several locations, and flyover footage. Cyberleek framed the release as the final chapter of a leak campaign that had, by its own telling, turned into a cryptocurrency operation. Rockstar Games has not confirmed any of the footage, and the claim that these clips come from the game’s final missions remains unverified.\nWhat makes October 14 different from Cyberleek’s earlier posts is the money trail attached to it. A token called $CYBERLEEK, built on a blockchain and tied directly to the leak campaign, hit a reported peak market capitalization of $7.8 million on October 11, 2026. Within three days, that figure had fallen to roughly $1.2 million, according to IGN, or about $1.7 million per a separate figure reported by Enduins. Whichever number you use, the token lost well over three-quarters of its value in under 72 hours. Cyberleek’s own framing was blunt: the leaks stop here, for now, and the ending stays unpublished.\nGoogle · Preferred Sources Don't miss new tech stories on Google\nAdd Shattered once in the Google app and our stories show up in your news suggestions.\nThe new video runs approximately four minutes, a modest length compared to some of Cyberleek’s earlier drops. According to reporting on the release, the footage shows short clips centered on Lucia, one of GTA 6’s two confirmed protagonists, moving through a barbershop, taking part in a shop robbery, lounging by a pool, and passing through assorted map locations, capped by flyover footage of the game world. Cyberleek described these as pulled from the game’s final missions. That claim has not been independently verified, and separate reporting notes the footage does not clearly establish a connection to a final mission or show anything resembling an actual ending cutscene.\nThat distinction matters more than it might seem. Dexerto’s coverage of the release framed it as Cyberleek posting “parts of final missions” while stopping the broader leak campaign, a characterization that leaves plenty of room between what was shown and what was promised. Eurogamer’s report on the same video used similarly careful language, describing the clips as allegedly showing scenes from the final mission while noting the leaks may have come to an end rather than stating outright that they have. The gap between “allegedly” and “confirmed” is the entire story here, and it’s one Rockstar has done nothing to close.\nCyberleek’s message accompanying the video leaned on two phrases that have since been repeated across gaming coverage: “The leeks stop here. For now.” and “The ending stays unpublished.” Read together, those lines do two things at once. They announce a halt to new leaks while deliberately leaving the door open with “for now,” and they draw a hard line around the one piece of content Cyberleek says it will withhold regardless of what happens next, the actual ending.\nThat second phrase is worth sitting with. If the campaign really does have footage beyond what’s been shown, holding back the ending is the one piece of leverage that survives a collapsed token. Whether that leverage is real or just the last card in a bluff is exactly what nobody outside Cyberleek’s circle can confirm. Enduins, one of the outlets tracking the saga closely, titled its own report on the episode “Cyberleek Ends GTA VI Leaks After Memecoin Collapses,” tying the stoppage directly to the token’s crash rather than treating it as a planned conclusion.\nThe numbers behind $CYBERLEEK tell a familiar story to anyone who has watched a thin-liquidity memecoin move. The token reportedly climbed to a peak market capitalization of $7.8 million on October 11, 2026, the same week Cyberleek was promising bigger disclosures tied to higher valuations. By October 13 and 14, that figure had cratered. IGN put the post-collapse market cap at roughly $1.2 million. Enduins reported a slightly higher figure, around $1.7 million. Separately, Yahoo Finance, citing CoinGecko data, reported a steep single-day decline alongside a token price near fractions of a cent, and Mashable characterized the overall drop from p",
    "pub": "2026-10-16T17:36:36+00:00",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRXN2Qi1iQ1d5b1RrSElfWUJXR2NCM2lCVEU5a05HUWhleThTcWhKdm5lcTk5WWtQS2IxSFlSdzQ4Rkgza19FNUR2Q3dPVjFkYk9RZk1TNU0xdFphTmZsYTlnazdDT2dEQVNPTFpQdmtoTUhmbzlhVER2LWo0RVdwRDlnMUxyY0JCbnphWVZmQjVNam9OWVptUUhpVUgwNERvSjJwQzBGUnRLQWRtcjJXQ3dHOU9RZw?oc=5",
-   "s": "Cowcotland.com",
-   "d": "2026-10-16T07:00:00+00:00",
-   "lang": "fr",
-   "t": "GTA VI pour 40 dollars, c",
-   "u": "https://www.cowcotland.com/news/102846/gta-vi-pour-40-dollars-c-est-possible-avec-cyberleek-et-sans-cybertruck.html",
-   "img": "https://www.cowcotland.com/images/news/2026/10/cyberleek-gta6.jpg",
-   "chapeau": "Et encore un nime revirement dans linsoluble chronique du leak de Grand Theft Auto VI, Cyberleek nous avait promis clore ses fuites, suite  l",
-   "txt": "NBA 2K27 : quels gains avec le nouveau modle DLSS 5 ? Thermal Grizzly Duronaut Pro : adieu le hotspot qui s'envole ! Test Fosi Merak : un premier lecteur CD russi ! Test du ASUS ROG Zephyrus Duo : le laptop qui voyait double Dernières vidéos : Finition BOIS et RGB gogo sur des ventilateurs, Thermaltake a os !!! Des ventilateurs avec une finition BOIS et du RGB gogo ?! Thermaltake a os !!! #gaming #pcgaming Du monocadre intelligent avec les Light Wings Pro IO de be quiet! DeepCool LT360 VISION, simplement pas cher et bien quip ! ASUS A PT UN CBLE !!! Deux crans OLED et une RTX 5090 dans un laptop ZEPHYRUS Accueil Actualit Divers Jeux Pc, consoles... GTA VI pour 40 dollars, c'est possible avec Cyberleek et sans Cybertruck Et encore un nime revirement dans linsoluble chronique du leak de Grand Theft Auto VI , Cyberleek nous avait promis clore ses fuites, suite l'chec de sa cryptomonnaie, ce qui empchait, selon lui, de financer son projet de diffusion d'une build jouable, mais il n'en est rien, il est de retour avec une build propose 40 dollars ... Sans Cybertruck, mais peut-tre avec des petits Cyber trucs en plus ! Dans son nouveau message, Cyberleek affirme que la build v1.0.1.08022025 du jeu Grand Theft Auto VI est une version jouable et qu'elle est tlchargeable ds prsent, contre la modique somme de 40 dollars. Qu'en pensons-nous ? L'aspect thtral de ce piratage et des leaks qui en ont dcoul, additionn au fait que Cyberleek ait tent de couvrir son piratage d'un fond en faveur des joueurs, exigeant une version physique et des excuses de la part de Rockstar Games, nous ont toujours laisss pantois, il semblerait que les dernires tirades de Cyberleek, totalement axes sur l'argent, tendent nous donner raison. N'omettons pas que rien ne nous garantit que la build soit rellement jouable, exempte de logiciels malveillants, l'offre est infrieure au tarif officiel, mais le danger semble bien trop prsent, de notre point de vue.",
-   "pub": "2026-10-16T11:33:18+02:00",
    "cyberleek": true
   }
  ]
