@@ -19,7 +19,10 @@ jobs:
           git config user.email "bot@users.noreply.github.com"
           git add -A .
           git diff --cached --quiet || git commit -m "data: mise à jour automatique $(date -u +%F' '%H:%M)"
-          git push
+          for i in 1 2 3; do
+            git pull --rebase -q -X theirs origin main || { git rebase --abort; git pull --rebase -q -X theirs origin main; } || true
+            git push && break; sleep 15
+          done
       - name: IndexNow (Bing, Yandex, Naver, Seznam)
         run: |
           python3 - <<'PY'
