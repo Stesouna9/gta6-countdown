@@ -1,20 +1,44 @@
 {
- "maj": "2026-11-02T08:32:02+00:00",
+ "maj": "2026-11-02T08:52:14+00:00",
  "articles": [
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQbVBMR2FtT0NOUFkyaUJSTlM3VzExSS1wS0hYeXE4LXFkaS1zTmxrbm9ES1AycWZiZTl6MXF6azFCRHRjaVk0dUxzeEVITTN1UFFjY2hHZm9SLVRlLWkzUjctam5pLTJ5eXZpMENyM0RXeFJDbmlnVWFZT3dUcExiOVNCYTNZTEhEdEl6b29hb010ZmJKbTdWZVFHbElfTV80azBEUGJ0Unl4dGJnSTJ0d3c5TEJhRThVLVg2WDE4T3NRZnh1dXdwQ19LTFotVEtoWGZXYktzUDV1VDlY?oc=5",
+   "s": "IGN France",
+   "d": "2026-11-02T08:35:00+00:00",
+   "lang": "fr",
+   "t": "Sony sort une autre mise à jour du firmware PS5 pour éliminer un Jailbreak de plus avant la sortie de GTA 6",
+   "erreur": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPS0tqd3JkUnJPaW1HejBkTnhMQjhIZVRhUEU0bXVzcWhreUx1MlB2MlJha3BzMnJKZXFLUFhIYW5VX3dET2JvTTRNVWJSekpsTDBxTGlTT2JNMXVfdUk5LVV3ZmlPWUxHV1ZnTmlja1VSTi1aX2h3N3d1b1VwbWtmNS13ODE4S0MzbTBMRUJYNi1OTVV0?oc=5",
+   "s": "Sneaker Files",
+   "d": "2026-11-02T08:34:34+00:00",
+   "lang": "en",
+   "t": "Travis Scott's Cactus Jack x Rockstar Games x Nike Air Force 1 Low \"GTA 6\" Pack Releases November 2026",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNa0RzWmN1Q3EzbEdtMTV4MV9qRVpzVHF1Q1Q0ODFMVV85UFdNYnJJck1rX2pEWkNjbFFEOXh1Z214UWJ3LU9iYzVGcHZQV3dEV3dHSGlVS2pYMGJER3FHamNyWk9KU2dTMHBJZzVzS200UUVEWWNzek9ES0JfYkZOajJRalNKek1wZ2tpd3N5cWVMM1RhZDgxMTY3ZGxCaEthZE5ybnIxTVhKVGl1d2k1RFBYYW9zazFIeDVvdjNaakhUTVhTak00QTdnQzF1T01QQ2lXSlhnTG0zQ2NOZFo0VWlUMEc?oc=5",
+   "s": "IGN Nordic",
+   "d": "2026-11-02T08:32:52+00:00",
+   "lang": "en",
+   "t": "Sony Issues Yet Another PS5 Firmware Update as Jailbreak Whac-a-Mole Continues Ahead of GTA 6 Release",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSkpfWEJCTTBWbTc5VzkzNDJMWWpvdENiRC1KZXZhX2lzcFItcEVtT1pKWWd3V3JWQnRZOFhrTGhzVkNEZXl3ZEIzR3p4V2NQWkVKLWw0bHBiSlpJT29LSzhOQ3lfRE9mazdCcms5NHVFUHNtMWlDX3A4YVlZZ1pVWUoxUU9BNG9rVGxF?oc=5",
+   "s": "Nacionale",
+   "d": "2026-11-02T08:27:46+00:00",
+   "lang": "en",
+   "t": "Will GTA 6 run at 60fps on PS5 Pro? What is known about the 30fps target",
+   "erreur": "429 : passage suivant"
+  },
   {
    "gn": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPandUN041aDVnYnppeE9FTGpVaVU5QVAzTVJOUE5kbGpPU1R1N0dzeWF3ay04aUdGOTYydHh2WHk0VjlHSFdvY2dYZE1qZkVyUU5rbjczdHBSRFdSX2pFQXNjQ0llSlpzZUhjeVdKUm9YUTJlTWlNOWFYVVRscDFMS2Nn?oc=5",
    "s": "Gameblog",
    "d": "2026-11-02T08:24:36+00:00",
    "lang": "fr",
    "t": "« Ce sont des ignares incompétents » GTA 6 pourrait vous coûter encore plus cher à cause de cette nouvelle taxe qui fait polémique",
-   "erreur": "HTTP Error 429: Too Many Requests"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPWnBpZUJXbmpUMVItZVVVeUtBVF9CbmMzeWpBbGxod29rLTFvbGF3M1NWSklGcU41QTV6eGlfNmVYN0NsRUJCM2JlUTVlZm1uTUptVk9fQ2JVZFFuelkxUHlaMFhXQ0dlZnNFd0JnaDFLYWpGMm9JOWJBXzl1a3hhNENaLUdNTWozTmpqMWRrUmhqaXpGc2hNZGpnYXpONDZFSWNrcG9nMUZUR0JGN3J4eTFiT0RfYmpsV2NLTnNXVnNDbk41bDVOdkt3?oc=5",
-   "s": "IGN",
-   "d": "2026-11-02T08:18:13+00:00",
-   "lang": "en",
-   "t": "Sony Issues Yet Another PS5 Firmware Update as Jailbreak Whac-a-Mole Continues Ahead of GTA 6 Release",
    "erreur": "429 : passage suivant"
   },
   {
@@ -184,30 +208,6 @@
    "pub": "2026-11-01T23:10:28+00:00"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQXZWNF9yVUp4Y3p3b09abWFJcGtXVUF2RjJYaUd6MjFsem5JNmdtNmd4TjhfMEZUTFVYMFVvelljRVpsWElZM0xNalI5V28yazBlNGZjaWZrTmpYSzRoVUJudkJDWTgwRWhsbHRkVjF4MG1CNE9KR0lSWjJzbzAxM1Z5ZjVsOXF1SEQ1R0duM1FwalFtNlZHZQ?oc=5",
-   "s": "Resell Calendar",
-   "d": "2026-11-01T22:48:40+00:00",
-   "lang": "en",
-   "t": "Tripping Animals' GTA 6 Beers Resell for Over $200 on eBay - Resell Calendar",
-   "u": "https://resellcalendar.com/news/news/tripping-animals-gta-6-beer-patriot-pisswasser-no-mames/",
-   "img": "https://resellcalendar.com/wp-content/uploads/2026/11/trippinganimalsgta6beersell.jpg",
-   "chapeau": "Attention Miami boozehounds: three limited edition beers based on GTA 6 are hitting stores, and collectors want the empty cans",
-   "txt": "Resell Calendar is the #1 news source for resellers. Discover goods, keep on top of latest trends, and make them big bucks — buy low, sell high.\nResell Calendar is the #1 news source for resellers. Discover goods, keep on top of latest trends, and make them big bucks — buy low, sell high.\nNews News Tripping Animals' GTA 6 Beers Resell for Over $200 on eBay Bringing a new definition to \"beer money\" News By RC Staff\nKey Points Tripping Animals confirmed Friday that its Pißwasser, Patriot, and No Mames Vice City beers are on sale in Miami\nThree-can sets are reselling for $150 to $200 on eBay, with single Patriot and Pißwasser cans topping $40\nThe beers are sold only at the Doral taproom and select Miami stores, with no online sales of any kind\nIf you’ve ever dreamed of cracking open an ice cold Pißwasser after a day spent road raging and shooting people in the face, Rockstar is making it a reality. Tripping Animals Brewing pulled the trigger on its GTA beer lineup this week, and fans who can’t get to South Florida immediately started paying triple digit prices for cans that cost about as much as any other craft beer. The best part is you don’t even have to sell the beer. Drink it, keep the can, and flip the empty. This is the most literal definition of beer money we’ve ever covered.\nWe first flagged these beers in October, when GTA 6 beer labels turned up in the federal Alcohol and Tobacco Tax and Trade Bureau database. The approvals landed between late September and mid-October, and while neither Rockstar nor the brewery said anything publicly, nobody gets federal label approval for a beer they don’t plan to pour.\nOn Friday, Tripping Animals confirmed the beers were available at its Doral taproom and “at select locations around Miami.” There’s no online store, no shipping, and no preorder. If you want one, you have to go find it.\nThe lineup has three cans. Pißwasser and Patriot are real world recreations of beers that have appeared across the GTA series, and a Patriot six-pack even showed up in a GTA 6 trailer. Both are 4.2% ABV lagers. No Mames Vice City is a GTA spin on the brewery’s own 6% ABV No Mames lager. It’s one more piece of Rockstar’s campaign to turn Miami into Vice City ahead of the November 19 launch.\neBay has exploded with listings. Sets of all three cans are reselling for $150 to $200, while single Patriot and Pißwasser cans are moving for $40 or more . Some sellers have bundled the cans with limited edition bottle openers and napkins sold at Tripping Animals’ taphouse, and these listings have climbed to over $400.\neBay prohibits alcohol sales, so everything moving there is empty cans. After eBay’s 13.6% fees, a $175 three-can set nets about $151 before shipping, and a $40 single nets about $35. Subtract the cost of the beer you drank anyway, and the margins are absurd.\nPatriot and Pißwasser lead on singles, which makes sense. Those names carry nearly two decades of franchise nostalgia, while No Mames Vice City is essentially a reskin of an existing Tripping Animals beer. It still matters for completing the set.\nGTA has one of the biggest fanbases in gaming, and the beer is limited to one metro area with zero online sales. Tripping Animals hosts a beer finder for its retailers, but it won’t confirm whether a store has the GTA cans in stock, so even locals have to hunt. GTA fans have also proven they’ll pay for oddities: used Burger Shot wrappers from the Kaseya Center sold for $80 or more .\nIf you’re in the Miami area, there’s no reason to drink any other beer right now. You need to be 21 to buy (obviously), and only empties can go on eBay. Rinse and dry them completely, avoid dents, and ship in a box.\nIn other GTA 6 news, Travis Scott’s upcoming collab with Rockstar and Nike for a limited edition Air Force 1 collection has leaked online . Pairs are expected to go on sale November 19 alongside GTA 6.\nFrom total noob to seasoned pro, we're here to answer all your questions\nFrom total noob to seasoned pro, we're here to answer all your questions",
-   "pub": ""
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNLXpjc3YtXzlycFNWZV9JcVJrZjBlQUVyNzNzUGRXTVdFSTR3U1FoVnVMOE5vODcyMWRrZ28tMWx6SFZJSlB6TWxhQkJFTWVGcnhaVFlNR1lMNVMwZ2dIX3Q0RUZJUlBBVFNSVl9QN0M1THFRSWRXMnlKWmFwLWQ4bTdRLTlvRi1Nanc?oc=5",
-   "s": "Resell Calendar",
-   "d": "2026-11-01T21:59:10+00:00",
-   "lang": "en",
-   "t": "Travis Scott's GTA 6 AF1 Sneakers Drop November 19 - Resell Calendar",
-   "u": "https://resellcalendar.com/news/news/travis-scott-gta-6-sneaker-reseller-nike-af1/",
-   "img": "https://resellcalendar.com/wp-content/uploads/2026/11/travisscottgta6sneaker.jpg",
-   "chapeau": "Rockstar's next big GTA 6 promotion is a three-way collab with Travis Scott and Nike for a line of limited edition Air Force 1 Lows",
-   "txt": "Resell Calendar is the #1 news source for resellers. Discover goods, keep on top of latest trends, and make them big bucks — buy low, sell high.\nResell Calendar is the #1 news source for resellers. Discover goods, keep on top of latest trends, and make them big bucks — buy low, sell high.\nNews News Travis Scott's GTA 6 AF1 Sneakers Drop November 19 Talk about star power News By RC Staff\nKey Points All three Travis Scott x Rockstar Games x Nike Air Force 1 Lows will retail for $130 each\nThe pack releases November 19 through Nike and select retailers, the same day GTA 6 launches\nTravis Scott’s last Air Force 1, the Ice Blue, retailed for $120 and has sold for over $550 on StockX\nRockstar has spent the last few months turning Miami into one giant GTA 6 billboard, and now its marketing machine has pulled in one of the few names in sneakers that can match its hype. Travis Scott, Nike, and Rockstar Games are dropping a three-pair Air Force 1 pack timed to the biggest game launch in years, and the first leaked images already have collectors circling the date. Scott’s AF1s have a long track record of selling for multiples of retail, and anything with a GTA 6 logo on it has been flying off shelves since summer. Put the two together and this is shaping up to be one of the hottest sneaker drops of the year.\nThe collab surfaced over the weekend when Sole Retriever reported the pack , which added two pairs labeled “Nike x Cactus Jack x RS” to its release calendar, and leaker Sneaker Market RO, who confirmed a third. Nothing has been officially announced by Nike, Rockstar, or Scott yet.\nOnly the black pair has been seen so far, and it’s a good one. The upper is all black with Scott’s signature reverse Swoosh and a debossed pattern that may trace Vice City’s street layout. A pink and white GTA 6 money band wraps the toebox, and six stars on the medial side and in pink on the outsole nod to the game’s max wanted level. Expect the other two pairs to follow a similar design language.\nScott’s ties to the game go beyond footwear. His track “Rhyno” is part of Grand Theft Auto 6: The Album, and Sole Retriever reports he’s also part of a four-way apparel collab with Rockstar, Nike, and the Miami Heat. That one likely ties into the Heat’s Night in Vice City game on November 18 , the night before GTA 6 hits consoles.\nThis is about as strong a setup as sneakers get. Travis Scott collabs move on their own, and the GTA 6 crowd has shown it will pay up for almost anything Rockstar touches. Even the Burger Shot trash bags from the Kaseya Center have been reselling for up to $80 . Plenty of collectors will want all three pairs, which adds demand on top of the usual Travis and Nike buyers.\nThe closest comp is Scott’s Ice Blue Air Force 1 , which dropped in September through a NYC pop-up and his website with no broad release. That pair has sold for over four times retail on StockX. Expect lower numbers here. Nike and select retailers is a much wider channel, and three colorways splits demand. There are no sold comps yet, so treat any projection as an estimate. If the black pair lands around $300 on StockX, you’d net roughly $264 after a 12% fee, about double what you paid before tax and shipping.\nStockX is the move for these, with GOAT as a backup. Nike typically accepts returns on unworn pairs bought directly, but check terms at checkout since policies at select retailers vary and some collab launches are final sale.\nFull details should land soon. Rockstar has revealed something new every Thursday since the Extended Look trailer aired in August, and we’d expect that pattern to hold through launch. Keep an eye on Rockstar, Nike, and Travis Scott’s socials this week, especially Thursday, November 5, and be ready for the official reveal and release method. We’ll update this article as soon as it drops.\nFrom total noob to seasoned pro, we're here to answer all your questions\nFrom total noob to seasoned pro, we're here to answer all your questions",
-   "pub": ""
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTWFFUjhRM1p4NGlPUjdUTzdUS0JZdEZLTzdTeUJIbzFORm15UUEzN1NUSTh5TTBfYjAybzZUSTBaZ3JQZDNlZ0l5NExTNmpVRTM1V0tHZ2dHaFlDWWhfOU11VEVDWFQyTjhwdUV4WG1MSkIyRmRKdXlSODIxUXlHZ3JNNmdXbERXV3R0OHJIVnBsUQ?oc=5",
    "s": "INFINITY AREA",
    "d": "2026-11-01T21:44:00+00:00",
@@ -363,14 +363,6 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNNG5BZ3dUNllCZ0FJNGxmRk9mamszcEJJTHFManhGOF8yZmN1OFhBOEFpOHptNFc2bHBiSmFUVGh2V1puWlFKS29MUjVMZmVQMHVQVGJSTy1DNzFtWDlxMTl6ZndLVEw3N2JYYjNtQlktbW1JcEZuSWNLNWRPMXUxaWpVNjZ3NWZoVVFoYkZUOWpHNU1uMGpON243TzdkVlpnM0daQXBtNjBBdnJ1NG5wcld3MVVhOTc2eTh3Rm5CaVE1M1FFbGUyUnZoakM5WFlZQ0VObi1jUFc4eUI5Wktr?oc=5",
-   "s": "La Crème Du Gaming",
-   "d": "2026-11-01T13:30:00+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : la police pourra suivre vos crimes avec un système bien plus poussé que dans GTA 5",
-   "erreur": "429 : passage suivant"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE12azJxeEhWSFRvRVYwT0hldlNGNWZJelBUVnNMeFVEZFpxTFRNamlwLVA4LXhRdkNtdzRJRFNSNlVEc3c5d3RuRzRyWDRCekdPVnByNDRVa3ZpSHhZek1NbXg5VXlaNVk?oc=5",
    "s": "Coinbase",
    "d": "2026-11-01T12:12:48+00:00",
@@ -432,6 +424,15 @@
    "cyberleek": true
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1PR1h4WEkzQ3l0OHpveklXS19ETEpaLTRDa0RMbkZ6X3pCTndwWmZLRDRqaHpQaFpESmRuNi0xcUtVc2pRd1lhZlVoSmw1QWhPTktMODR3TzNtWG5kWGxqbHFkRFBiWUo2Um5z?oc=5",
+   "s": "Decked Out Magazine",
+   "d": "2026-10-31T23:22:08+00:00",
+   "lang": "en",
+   "t": "Is Travis Scott Linking With GTA 6? Leaks Point to November Nike Air Force 1 Drop",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOLVIwcHZqTnlnd3JGOG1wWGsxbnJwR2kzQ2I5b2J1emtsdXFlaVlJdFJCS0NpaTAtNWN0NTM1M0J6NmJVUndxQ1dEM29aN2tCNGlmUlB3QlM1SDdtOEc3R05reDFhZ0lDMnhVUDE4azdBbVQwS1lyRGlXN2k4aFU1RHFCMk0xVUVoUTNv?oc=5",
    "s": "https://tech-insider.org/",
    "d": "2026-10-31T11:48:50+00:00",
@@ -442,15 +443,6 @@
    "chapeau": "GTA 6 may skip review watermarks, but Tom Henderson cites 'insane security measures.' Rockstar confirmed none. What is known, reported and unknown.",
    "txt": "Sofia Lindström October 31, 2026 13 min read Rockstar Games may not be stamping a flashing name on Grand Theft Auto VI review copies, but the studio is reportedly running other tight controls around the game. Notebookcheck’s coverage of the story centers on one line from Tom Henderson, who said Rockstar has “some insane security measures in place, though.” Rockstar has not confirmed any of it.\nThe claim that started this round of chatter was simple. Review builds, the story went, show a flashing reviewer name so a leak can be traced back to whoever received the copy. Insiders pushed back fast, and we walked through that dispute earlier in our piece on GTA 6 review copies, watermarks and leakers . What remains is a narrower and more interesting question: if the watermark is wrong, what is Rockstar actually doing?\nThe honest answer today is that nobody outside the company has published details. This article sorts the claims by how well they hold up, explains what “security measures” usually means for a pre-release game, and lays out what the reported November dates would imply for reviewers and readers. Every specific claim below is attributed to the outlet or person who made it, and anything the reporting leaves unconfirmed is labeled that way.\n· Google · Preferred Sources Don't miss new tech stories on Google\nAdd Tech Insider once in the Google app and our stories appear in your news suggestions.\nStart with the short list of things that are solid. Rockstar Games has not publicly confirmed the alleged watermarking system, and it has not confirmed the reported blacklist policy for reviewers or outlets that leak footage. That is the only fully firm statement in this story, and it is a statement about silence.\nEverything else sits in a band between “reported” and “disputed.” The watermark claim was challenged by insiders, including NateTheHate and Tom Henderson. The nature of the security measures Henderson alluded to has not been disclosed. The review embargo date and the launch date both appear in coverage, but neither has been confirmed by the publisher in the cited reporting.\nRead the table from the bottom up and you can see how the story is built. The dates and the blacklist are reported but unconfirmed. The watermark is the most specific claim and the most heavily contested. The security-measures line is the vaguest, which is exactly why it carries the least risk of being proven wrong and the least information.\nA visible, flashing reviewer name is a very specific design choice. It would be easy to spot, easy to describe, and easy to screenshot. That specificity cuts both ways. If it existed, reviewers who had seen it would likely confirm it, and the people who dispute it would have a hard time being so flat about it.\nTwo named figures did dispute it. NateTheHate said that to his knowledge the claim is not accurate. Tom Henderson went a step further in framing, saying he found no evidence supporting the watermark claim. Neither statement proves a negative. They do, however, move the claim from “plausible rumor” toward “probably wrong.”\nWe saw a similar pattern with an earlier rumor that review copies might contain a booby trap for leakers. That one rested on a single source and no proof, as we laid out in the GTA VI reviewer trap rumor breakdown . The watermark claim follows the same arc. A dramatic mechanism gets attached to a game that everyone is watching, and the lack of a public denial from the publisher gets read as quiet confirmation.\nFrom a production standpoint, a flashing name across footage is a blunt tool. It is distracting for the reviewer, it spoils capture for any legitimate coverage, and it invites tampering. A leaker can crop, mask or re-record around an overlay. Studios that care about traceability tend to prefer marks that are hard to see and hard to strip. That is general industry logic, not a statement about Rockstar, but it explains why insiders found the flashing-name story hard to believe.\nThe sentence driving this story is short. According to Notebookcheck’s reporting, Henderson said: “They have some insane security measures in place, though.” The word “though” does the heavy lifting. It concedes the watermark point and then redirects, signaling that the absence of one specific trick does not mean the absence of protection.\nWhat the quote does not say matters as much as what it says. It names no mechanism. It gives no number of reviewers affected, no description of how builds are delivered, ",
    "pub": "2026-10-31T11:48:50+00:00",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdjRTQjJlTDhlMXNySXhXc19odm9Ka25aYjBwaW9HdkRnQ2pQZ0pVd0Y5WXg1ei1FdXZxbUVWWWNHLWRBd1J5eFN1R1JlXzRFa0s4YnBya21QNmk5cDZ2cDJkREV5bzQyakxwWlNORUtFcU5XTi1zeHl4OGFyUnI0WE50Y1BkMng0bEZlTFVhMExoalVuTExOOXk5M3pndUtHZ0JzQW1YRlg?oc=5",
-   "s": "Tech Edition",
-   "d": "2026-10-31T05:21:47+00:00",
-   "lang": "en",
-   "t": "Rockstar Games says GTA 6 leaks were emotionally invasive and difficult to handle",
-   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -512,6 +504,15 @@
    "chapeau": "Annoncé sur consoles pour novembre 2026, GTA 6 laisse les joueurs PC dans l’incertitude. Entre fuites et analyse optimiste, la véritable fenêtre reste floue.",
    "txt": "Annoncé sur consoles pour novembre 2026, GTA 6 laisse les joueurs PC dans l’incertitude. Entre fuites et analyse optimiste, la véritable fenêtre reste floue.\nGTA 6 a enfin une date de sortie sur consoles, mais les joueurs PC restent officiellement dans le flou. Rockstar Games a confirmé que Grand Theft Auto VI arrivera le 19 novembre 2026 sur PS5 et Xbox Series X|S , sans mention de version PC. De quoi réveiller le traumatisme GTA 5, arrivé presque deux ans plus tard sur ordinateur.\nCette fois, plusieurs signaux laissent pourtant penser que l’attente serait bien plus courte. Après une première fuite plaçant GTA 6 version PC au premier trimestre 2027, l’analyste Michael Pachter avance désormais une fenêtre de seulement six à sept mois après la sortie console. De quoi espérer, mais aussi se demander ce qui est réellement crédible.\nOfficiellement, la communication de Rockstar reste limpide et limitée : lancement le 19 novembre 2026, uniquement sur PS5 et Xbox Series X|S, aucune fiche PC sur Steam, Epic ou le launcher Rockstar. Pour l’instant, GTA 6 PC n’existe que dans les rumeurs.\nInvité par la BBC, l’analyste de Wedbush Securities Michael Pachter a pourtant été très précis. Selon lui, « le jeu n’est pas exclusif à la PlayStation 5, il sort aussi sur les Xbox Series X|S, et dans environ 6 ou 7 mois il sortira sur PC. Beaucoup de gens vont pouvoir y accéder, mais l’explosion pour Sony en ce moment, c’est que les joueurs doivent avoir une console s’ils veulent y jouer au lancement ». En clair, il mise sur une sortie PC autour de mai ou juin 2027.\nDe son côté, un précédent rapport de GamesBeat parlait d’une date de sortie GTA 6 PC calée sur le premier trimestre 2027, soit entre janvier et mars, seulement deux à quatre mois après les consoles. Les deux scénarios restent non confirmés par Rockstar, mais convergent vers une arrivée sur PC en moins d’un an.\nL’hypothèse d’un délai de six à sept mois colle mieux à l’historique de Rockstar Games. GTA IV avait mis environ sept mois à passer des consoles au PC, Red Dead Redemption 2 un an, et GTA 5 près de dix‑neuf mois. Même le scénario « pessimiste » de Pachter resterait donc plus généreux que les derniers gros portages du studio.\nChez la maison mère Take‑Two Interactive , Strauss Zelnick a rappelé que le PC représente désormais une part majeure du business, pouvant atteindre presque 50 % des ventes pour certains titres. La stratégie assumée reste de « commencer par la console », mais le poids économique du PC pousse logiquement à réduire l’écart.\nQu’il s’agisse du Q1 2027 de GamesBeat ou de la fenêtre mi‑2027 avancée par Pachter, tout pointe vers un GTA 6 portage PC plus rapide, potentiellement aussi pour limiter la montée de l’ émulation PS5 et du piratage. Tant que Rockstar se tait, ces éléments restent toutefois des estimations, pas un calendrier gravé dans le marbre.\nSi vous refusez d’attendre, la seule option solide reste d’acheter ou de vous faire prêter une PS5 ou une Xbox Series X|S pour novembre 2026. C’est aujourd’hui le seul moyen garanti de jouer à Grand Theft Auto VI dès le jour J.\nSi vous pouvez patienter entre six et douze mois, attendre GTA 6 sur PC a du sens : définition plus élevée, frame rate débloqué, mods, clavier‑souris, voire une version enrichie comme pour GTA 5 et Red Dead Redemption 2. Profitez de ce délai probable jusqu’en 2027 pour planifier un upgrade CPU ou GPU plutôt que de foncer sur une console.\nDans tous les cas, méfiance absolue envers les « clés GTA 6 PC », bêtas ou précommandes non validées par Rockstar. Tant que le studio n’a pas annoncé officiellement la version PC sur ses canaux, toute offre ressemble surtout à une arnaque. Reste à surveiller les prochains résultats financiers de Take‑Two et le site de Rockstar Games : c’est là que la vraie date tombera.",
    "pub": "2026-10-30T05:00:25+00:00",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSGpCRWRndS10SlRQRlRQdUlvdnlxYnF5UjBmbWhoNERKUmdDd1pPdlhaR1I0THlDakV6WHRRVVpzOHdXMm5HTExCblpNQmVZc1pnZjl1MVhQblR1cll2U1ZwWm1YbV9Ddk1HaXNRZ0hMZGZhNVdNNTg3aFdMZDc2SzM2Ml9LdU5uWjlsVHFWMjN1V3AtQ3V6ZW1RMVh4SFVvQ21Bc1Z1RFdORGU1WktxMHNsYmhqeWx2?oc=5",
+   "s": "Dexerto.fr",
+   "d": "2026-10-29T17:16:27+00:00",
+   "lang": "fr",
+   "t": "GTA 6 dévoile du gameplay inédit dans South Park avec une mécanique complètement absurde",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -771,15 +772,6 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
    "t": "GTA 6 : Cyberleek fait volte-face et propose sa prétendue build pour 40 dollars",
-   "erreur": "429 : passage suivant",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNS1RycU50NjNJMGk0VmZZUUdxUENZUTFLTkttRXRWVTRNemVYa3lPSjZReGFqMU5EME5MSXBnRnd4azdSMXU4LW9pdGtwdFlNWndlNFJkVkxqTmt6MXJRLTZRcjlISFJQVWI4d0lFcTFwd3NOdll5RHVEWnA3R1p2SWU2NE1pdC14aWFRYmNTRkhtSElfQWFST1JEZmxWS1FObDYtOWE5NDZvTkpHRkdpUVppTWV0Ym1NQkE?oc=5",
-   "s": "Cowcotland.com",
-   "d": "2026-10-15T07:00:00+00:00",
-   "lang": "fr",
-   "t": "GTA VI : CYBERLEEK abandonne ses leaks et annule la diffusion du jeu complet",
    "erreur": "429 : passage suivant",
    "cyberleek": true
   }
