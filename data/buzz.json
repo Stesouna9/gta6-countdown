@@ -1,8 +1,66 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-02T10:12:23+01:00",
+  "updated_at": "2026-11-03T00:15:00+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-fan-voidonly-decede-tiktok",
+      "title": "Le fan qui rêvait de vivre assez longtemps pour jouer à GTA 6 est décédé",
+      "summary": "@gtasix_ relaie l’annonce de la mort du fan connu sur TikTok sous le nom voidonly : sa sœur l’a annoncée depuis son compte. Le compte avait partagé son histoire en août pour tenter d’alerter Rockstar.",
+      "url": "https://x.com/gtasix_/status/2117351707344519465",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rapporté",
+      "published_at": "2026-11-02T20:22:40.000Z",
+      "checked_at": "2026-11-03T00:15:00+01:00",
+      "evidence": "Vues relevées le 2 novembre 2026 dans data/x_alertes.json : 355 718 vues, 10 655 likes, 742 reposts. Annonce faite par la sœur sur le compte TikTok voidonly selon le post ; non consultée directement (pas de navigateur). Article du site publié.",
+      "visual": "FAN · HOMMAGE",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2117351617926135810/img/RsUXBQeVFUEAIfbe.jpg",
+      "image_alt": "Aperçu vidéo du post sur le fan voidonly",
+      "image_credit": "@gtasix_ sur X",
+      "cta": "Voir la publication sur X",
+      "embed_type": "x",
+      "post_text": "The fan who shared his wish to live long enough to play GTA 6 has sadly passed away. His sister announced his passing on his TikTok account, voidonly.\n\nBack in August, we shared his story in the hope of bringing it to Rockstar Games’ attention.\n\nRest in peace.",
+      "article": "journal/2026-11-02-fan-gta6-voidonly-decede-tiktok.html"
+    },
+    {
+      "id": "x-marketing-villes-barcelone-edimbourg-australie",
+      "title": "La campagne GTA 6 gagne Barcelone, Édimbourg, l’Australie, Varsovie, Mexico, Tokyo et Vienne",
+      "summary": "@GTAVI_Countdown liste les villes où le marketing GTA 6 s’affiche désormais : Barcelone, Édimbourg (pays de Rockstar), Melbourne/Brisbane/Sydney, Varsovie, Mexico, Tokyo, Vienne, entre autres.",
+      "url": "https://x.com/GTAVI_Countdown/status/2117347190985183660",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "2026-11-02T20:04:43.000Z",
+      "checked_at": "2026-11-03T00:15:00+01:00",
+      "evidence": "Vues relevées le 2 novembre 2026 dans data/x_alertes.json : 65 804 vues, 2 275 likes, 201 reposts. Liste de villes fournie par le compte, sans vérification indépendante.",
+      "visual": "AFFICHAGE · MONDE",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2117345790028865538/img/iEcGWFJTNJZQiNXe.jpg",
+      "image_alt": "Aperçu vidéo de l’affichage GTA 6 dans plusieurs villes",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "cta": "Voir la publication sur X",
+      "embed_type": "x",
+      "post_text": "GTA 6 marketing continues to spread across many cities around the world:\n\n- Barcelona, Spain 🇪🇸\n- Edinburgh, Scotland (Rockstar’s home country) 🏴󠁧󠁢󠁳󠁣󠁴󠁿\n- Melbourne/Brisbane/Sydney, Australia 🇦🇺\n- Warsaw, Poland 🇵🇱\n- Mexico City, Mexico 🇲🇽\n- Tokyo, Japan 🇯🇵\n- Vienna, Austria 🇦🇹\n-"
+    },
+    {
+      "id": "x-gta6-artwork-fan-focus-conscious",
+      "title": "Un artwork GTA 6 de fan signé u/Focus_Conscious cartonne sur X",
+      "summary": "@gtasix_ partage un artwork GTA 6 créé par u/Focus_Conscious (Reddit). Création de fan, sans lien avec une annonce officielle.",
+      "url": "https://x.com/gtasix_/status/2117325929424859575",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Création de fan",
+      "published_at": "2026-11-02T18:40:14.000Z",
+      "checked_at": "2026-11-03T00:15:00+01:00",
+      "evidence": "Vues relevées le 2 novembre 2026 dans data/x_alertes.json : 72 080 vues, 4 256 likes, 210 reposts. Auteur indiqué dans le post ; original Reddit non consulté.",
+      "visual": "ARTWORK · FAN",
+      "image": "https://pbs.twimg.com/media/HWJAs4nWIAAD8Vs?format=jpg&name=small",
+      "image_alt": "Artwork GTA 6 de fan",
+      "image_credit": "@gtasix_ sur X",
+      "cta": "Voir la publication sur X",
+      "embed_type": "x",
+      "post_text": "GTA 6 Artwork\n\n(by u/Focus_Conscious)"
+    },
     {
       "id": "x-manette-dualsense-gta6-edition-limitee-thailand",
       "title": "Une manette DualSense GTA 6 en édition limitée présentée au Thailand Game Show, précommandable pour le 19 novembre",
@@ -1080,6 +1138,11 @@
       "at": "2026-11-02T10:12:23+01:00",
       "label": "Veille permanente · rien retenu",
       "summary": "Relevé X du 2/11 08 h 11 UTC : 6 posts hors items, aucun sujet neuf ≥ 20 000 vues. Bières Miami (GTAlphaintel, 21 193 vues) déjà publié ; jeux-concours gta6hubfr et rappel J-10 (205 vues) écartés. Pas de navigateur."
+    },
+    {
+      "at": "2026-11-03T00:15:00+01:00",
+      "label": "Veille permanente · 3 sujets",
+      "summary": "Relevé X du 2/11 22 h 12 UTC : ajout du décès du fan voidonly (355 718 vues), de la campagne d’affichage multi-villes (65 804) et d’un artwork de fan (72 080). Précommande Leclerc/Fnac (60 863, simple question) écartée. Pas de navigateur."
     }
   ],
   "coverage": {
