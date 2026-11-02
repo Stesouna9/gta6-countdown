@@ -1,8 +1,46 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-02T00:10:00+01:00",
+  "updated_at": "2026-11-02T09:00:00+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-manette-dualsense-gta6-edition-limitee-thailand",
+      "title": "Une manette DualSense GTA 6 en édition limitée présentée au Thailand Game Show, précommandable pour le 19 novembre",
+      "summary": "@GTAVI_Countdown montre en vidéo la DualSense collector GTA 6 exposée au Thailand Game Show : version noire exclusive PS Direct, version blanche chez Amazon, toutes deux annoncées pour le 19 novembre. Le post comporte des liens d’affiliation (mention #ad).",
+      "url": "https://x.com/GTAVI_Countdown/status/2117116226543727049",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "2026-11-02T04:46:57.000Z",
+      "checked_at": "2026-11-02T09:00:00+01:00",
+      "evidence": "Vues relevées le 2 novembre 2026 dans data/x_alertes.json : 21893 vues, 791 likes, 55 reposts. Post publicitaire (#ad) ; pas de confirmation officielle consultée (pas de navigateur).",
+      "visual": "DUALSENSE · GTA 6",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2117115542674784256/img/nRwOHtdmqb6uxVlM.jpg",
+      "image_alt": "Aperçu vidéo de la DualSense GTA 6 édition limitée",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "cta": "Voir la publication sur X",
+      "embed_type": "x",
+      "post_text": "Live look at the Limited Edition GTA 6 DualSense from Thailand Game Show, coming November 19th and available to pre-order."
+    },
+    {
+      "id": "x-ned-luke-script-gta5-3500-pages-paradise",
+      "title": "Ned Luke : son script de GTA 5 faisait 3 500 pages, le projet s’appelait « Paradise » pour éviter les fuites",
+      "summary": "@GTAVI_Countdown relaie les propos de Ned Luke, voix de Michael dans GTA 5 : les acteurs ne savaient pas sur quoi ils travaillaient et le projet portait le nom de code « Paradise ». Anecdote sur GTA 5, partagée en plein compte à rebours de GTA 6.",
+      "url": "https://x.com/GTAVI_Countdown/status/2117063752000356810",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-02T01:18:26.000Z",
+      "checked_at": "2026-11-02T09:00:00+01:00",
+      "evidence": "Vues relevées le 2 novembre 2026 dans data/x_alertes.json : 169097 vues, 4118 likes, 314 reposts. Un seul compte ; propos de Ned Luke non vérifiés à la source.",
+      "visual": "NED LUKE · PARADISE",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2117062801239822336/img/S5bmV_JgmI731LP9.jpg",
+      "image_alt": "Aperçu vidéo du post sur Ned Luke et le script de GTA 5",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "cta": "Voir la publication sur X",
+      "embed_type": "x",
+      "post_text": "Michael’s actor, Ned Luke reveals his GTA 5 script alone was 3,500 pages, which he compiled over the 3 years he worked with Rockstar."
+    },
     {
       "id": "x-nike-air-force-1-travis-scott-gta6",
       "title": "Une paire Nike Air Force 1 × Travis Scott aux couleurs de GTA 6 circule, à 130 $ pour le 19 novembre",
@@ -1032,6 +1070,11 @@
       "at": "2026-11-02T00:10:00+01:00",
       "label": "Veille permanente · 3 nouveaux sujets",
       "summary": "Relevé X du 1er/11 à 22 h 18 UTC : Nike × Travis Scott (38 251 et 24 535 vues, plusieurs comptes), spot TV Argentine (47 764), Rockstar et le prochain jeu (34 841) ajoutés. Déjà vus ou écartés : Halloween Jason et Lucia (fan, hors sujet Rockstar), Take-Two accueil (23 445, léger). Pas de navigateur."
+    },
+    {
+      "at": "2026-11-02T09:00:00+01:00",
+      "label": "Veille permanente · 2 nouveaux sujets",
+      "summary": "Relevé X du 2/11 07 h 10 UTC : Ned Luke (169 097 vues) et DualSense GTA 6 édition limitée (21 893) ajoutés. Écartés : bières Miami (déjà publié), jeux-concours gta6hubfr, rappel J-10 (123 vues). Pas de navigateur."
     }
   ],
   "coverage": {
