@@ -1,14 +1,6 @@
 {
- "maj": "2026-11-02T13:59:53+00:00",
+ "maj": "2026-11-02T14:20:05+00:00",
  "articles": [
-  {
-   "gn": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5QaXhHTWdadjdSdGVMOVFDb3dubTJZV2RnbVJ6MF9DOTZsaDdndko0cHhraGtlb3VmcWNVM1UyaHlNTk5jSHd4UWxHcDJCSUNiQkd3NHQ0ZHdTQzNoLU1RclUzZ0VmYklULTdr?oc=5",
-   "s": "Jeux.ca",
-   "d": "2026-11-02T13:47:35+00:00",
-   "lang": "fr",
-   "t": "Un Zelda-like façon Vice City sort la veille de GTA 6",
-   "erreur": "HTTP Error 429: Too Many Requests"
-  },
   {
    "gn": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQ1V6ell5V1NoSXpiVmlYejB2VlJJZmhXVUcyTmhJWi1EcW15bV9iMmZDSzJrSWJIemVfS0ZyZlRYZm9zUENqMnVSeXRzbDZfUHE5UzljNElRRllQTzVua2I4aXcwLVRNVTlBUF9zbVphN0M5dVVRZkRxS3VlUEx0LWZFZjd5dHE4Z0pGVFNKY1d2QVlqQU5oM0RyNmpTZw?oc=5",
    "s": "The Daily Scrum News",
@@ -23,7 +15,7 @@
    "d": "2026-11-02T13:30:48+00:00",
    "lang": "fr",
    "t": "GTA 6 : cette astuce sur PS5 pourrait permettre d'y jouer avant sa sortie officielle",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 429: Too Many Requests"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMHVsLUcyZGpqNGU1S29Xcm85VnN2TnlFQ1hQZmU3clJ0UmVhVjI4ZXdxT01XVEZ4dnBLclBKbGFNdE9ibFl3TTZ4em4tTjZRT1ZXQ1A3Q0hZMkhObzVZbzRtWVpGbDdaSVpVOWR1VnZ5VFNsV0tmYmpBOFNvZ1NUQ2VGZU1lU1U4cmtRTDNTTUIwVWkzamprNkZQcFRzemfSAZ8BQVVfeXFMTk16bE45RzFUZFZYbE5LVUF3MnVPM3NOV211OGxUa29vV0dGNVktWndkTlFLTG83OXJuRVMtNl9mWG5LelZ2bW9obXpnU0NMSFhaWEoyVzBwWkJIYndUY25WaUtRT3ByeGVjaldpRGQzdVdDQ2d1bm56UHNiQ3RqQ1FmQWllLTNjX0d1ak1QcWJIZTg4UFpGZS1TcUgyNTg0?oc=5",
@@ -194,6 +186,30 @@
    "pub": "2026-11-02T10:31:00+00:00"
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQOTJNdDBHb0wzMWR6bHkwa2dtS2NZV2JYcFhTVWF0LTRyWDB5cHpGQ1VRYnZTQi11ZFd1ZGhxLXN1cWM5dnVpUWpmQWd1dTlsUlAxb2VTQy0zYTNPM3k0RmtmbGJfVlRyRmgtVUM1OFBWZU9Id1BHdzdZa2hlMjBuOW14MVh2VkFFMGhjV2VEaE5tcXI2ZXVtU0JGSzJJWEl4T3hiOU5PUmJKRWdualJsWS1FTFNhQy1hLW5HYUZPYUNFZHlRWVVIRGNvYl8waVNPRU1zTlZUZGxRTU1pRUZkVkJZMjBXYXJVVEc4S2F4UkpaUkQzYzF4Qmpraw?oc=5",
+   "s": "La Crème Du Gaming",
+   "d": "2026-11-02T10:30:28+00:00",
+   "lang": "fr",
+   "t": "Pour la sortie de GTA 6, 60 joueurs ont prévu un mois entier de congé et près de 300 ont coché « J'ai démissionné",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9LblNXWm5nMFVhR2Y3bng5c056Nlh3S19UakkxejhuekRiZXphNFAyTXFIRDZkVEh4SUhlbWIxNHRfUQ?oc=5",
+   "s": "YouTube",
+   "d": "2026-11-02T10:30:23+00:00",
+   "lang": "en",
+   "t": "GTA 5 Mods - Insane Photorealistic Graphics Mod And Ultra GTA 6 Visuals With RTGI on RTX2060",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZmlHN09ORm5JNS1vYUxIb0VXb01fcjM4RU9jekJ2NTRMU05vR3dvUFhvNktWM2hzS0dLV1VlN2E4U0xZYjBqYXR0cFJ1Y25sN29kZHliU3RpeHpqMmZtd0d4bWhGQjJJRS1iWVhJd1VnTEZ6eHQxUkU4MEtWV0VwTTdPVEpqQUhSUkVEQTVvVUl3VjJUYVk2ZjRYUC1ybU1lbE9kcg?oc=5",
+   "s": "DLCompare.com",
+   "d": "2026-11-02T10:30:00+00:00",
+   "lang": "en",
+   "t": "GTA 6 Launch Week: Everything You Need to Know Before November 19",
+   "erreur": "429 : passage suivant"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSTZXbW5ZdVR1U3hfUjFHRFNpZUNrNUloV1lXUE5UdkxURkRhV3dEaDdQblFaQXFZRlZLT09iWHFBWmFYeXdyMlVnQVQzRW1mWFlwUkNKbjV0X1JsV2dLSXY0VUlGWl9raXhndDVfTGxwYnJXek1JbTQ4cWZUd1dtcUtFV19RNU9iNEFYeGtIZDVRMkczUndEb2JSXzJJYzBlMC1v?oc=5",
    "s": "Nacionale",
    "d": "2026-11-02T10:27:18+00:00",
@@ -234,18 +250,6 @@
    "erreur": "429 : passage suivant"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0tYWVtMWNhR0JNWGRuak5SM25xMHJzb0RNTDFTZ0hUOEhFdTVfOUp5SnZPZlNqcnNIUG5ZMFZtanJQTXotNGp1UFpIc05MQW9meDF6bDAzNGdXcDBGaGZZeWUtLWhWcUE?oc=5",
-   "s": "Next Stage",
-   "d": "2026-11-02T09:52:59+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : jusqu'à 11,55 € de taxe pour le télécharger ? Cette décision fait scandale en France ! - Next Stage",
-   "u": "https://www.next-stage.fr/2026/11/taxe-gta-6-impact.html",
-   "img": "https://www.next-stage.fr/wp-content/uploads/2026/10/eb17023a-628f-4347-827e-17dd21524ce0-1024x683.png",
-   "chapeau": "GTA 6 sera-t-il plus cher en France avec la taxe sur les gigaoctets ? Date, calculs, plateformes concernées et vrais risques pour les joueurs.",
-   "txt": "La taxe GTA 6 fait déjà grincer des dents. À deux semaines et demie de la sortie annoncée du nouveau mastodonte de Rockstar Games, attendu le 19 novembre 2026 , une mesure votée en France sème le doute chez les fans. Et franchement, difficile de ne pas comprendre leur inquiétude : avec un jeu qui pourrait dépasser les 200 Go , chaque téléchargement devient un sujet explosif.\nLe 30 octobre , l’Assemblée nationale a adopté un amendement lié au budget 2027. Son principe : créer une taxe sur les données numériques transmises aux internautes français. Sur le papier, ce ne sont pas les joueuses et joueurs qui règlent directement l’addition. Mais dans les faits, beaucoup redoutent que le coût finisse par se retrouver quelque part dans le prix des jeux, des services ou des boutiques en ligne.\nUne taxe sur les gigaoctets votée en France Dans le cadre de l’examen du budget 2027 , les députés ont validé fin octobre un amendement prévoyant une taxation de 5,5 centimes par gigaoctet de données transmis aux internautes français. La mesure est portée par le député socialiste Laurent Lhardit .\nL’objectif vise les diffuseurs de contenus numériques. Cela concerne donc potentiellement les plateformes qui distribuent des jeux vidéo, et par ricochet des titres très lourds comme GTA 6 . Pour les fans, le timing est particulièrement frustrant : au moment où les jeux prennent toujours plus de place sur les disques durs, une taxe calculée au gigaoctet a de quoi faire bondir.\nLe vote, lui, s’est joué à très peu de chose. L’hémicycle était presque vide, et l’amendement a été adopté à 11 voix contre 10 , malgré un avis défavorable du gouvernement . Un écart minuscule pour une mesure qui pourrait toucher un secteur entier.\nPour mieux mesurer l’impact théorique, voici les montants évoqués selon le volume de données téléchargé :\nC’est la grande question, et elle est légitime. Si GTA 6 pesait bien autour de 210 Go , la taxe représenterait environ 11,55 € pour un téléchargement. Pour les joueurs qui attendent le titre depuis des années, l’idée de voir la facture grimper encore est forcément décevante.\nMais il faut nuancer : selon les éléments disponibles, cette taxe ne serait pas payée directement par les joueuses et joueurs au moment de télécharger leur jeu. Elle pèserait sur les diffuseurs de données , autrement dit sur des plateformes comme le PlayStation Store ou le XBOX Store .\nEn clair, personne ne dit aujourd’hui que vous devrez ajouter automatiquement 11 ou 12 euros au prix de GTA 6. Le vrai sujet, plus flou et plus inquiétant, concerne une possible répercussion indirecte. Si les plateformes supportent un nouveau coût, elles pourraient un jour chercher à l’intégrer ailleurs. C’est précisément ce scénario qui alimente la colère et l’incompréhension.\nAutre point important : GTA 6 est surtout cité comme exemple , car son poids supposé illustre parfaitement le problème des jeux modernes très volumineux. Le jeu est annoncé pour le 19 novembre 2026 , tandis que la taxe s’inscrit dans le budget 2027 . Il ne devrait donc pas être concerné au moment de sa sortie.\nReste que le débat dépasse largement GTA 6. Si la mesure entre en application, elle pourrait peser sur l’écosystème du téléchargement numérique en France. Et pour les joueurs, déjà habitués à des jeux lourds, des mises à jour massives et des éditions parfois coûteuses, la pilule passe mal.\nLa taxe est loin de faire l’unanimité. Même dans le secteur numérique, les critiques sont vives. Xavier Niel , fondateur de Free , a notamment réagi très durement contre les députés à l’origine de cette décision.\nUne sortie brutale, mais qui résume l’ampleur de la polémique. Entre vote serré, hémicycle presque vide, incertitudes sur les conséquences et inquiétude des joueurs, cette taxe sur les gigaoctets risque de continuer à faire parler d’elle.\nNon. L’amendement a été adopté dans le cadre du budget 2027. GTA 6, attendu le 19 novembre 2026, ne devrait donc pas être concerné à son lancement.\nD’après les informations disponibles, non. La taxe viserait les diffuseurs de données, comme les plateformes de téléchargement, et non les joueurs directement.\nAvec un montant de 5,5 centimes par gigaoctet, un téléchargement de 210 Go représenterait 11,55 € de taxe.\nGTA 6 est cité car son poids théorique de 210 Go illustre l’impact possible d’une taxe calculée sur le volume de données téléchargées.",
-   "pub": "2026-11-02T09:51:26+00:00"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOa2t6RVhLX1NDeEk4cXRHYjdXZUJMMmZ4NE85ZVVhcklrMmFrd0VwR18yTzNqclRadmxyWnZQM1pXVDFzSk52Y0QzOGNQUW5FZnhMenlsZjFKSXhEa0xQU3NxTkRkZ3R6NnJ4WmE1ZEowbVVlSHM3ZVEtS0YyN29WejFEMWpQWFFWWnBzbG9R?oc=5",
    "s": "https://tech-insider.org/",
    "d": "2026-11-02T09:49:47+00:00",
@@ -257,18 +261,6 @@
    "txt": "Marcus Chen November 2, 2026 11 min read Grand Theft Auto VI may need more than 200GB on PlayStation 5, and the number has players checking their drives 17 days before launch. According to Gizbot , the X account PlayStation Game Size pulled the figure from Sony’s database, and Rockstar Games has not confirmed it. Times Now ran the story with a twist, asking what the same storage space could hold back in 2010.\nThe figure that keeps circulating is 210GB. That is a leak, not a spec sheet, and our GTA 6 confirmed-versus-rumor scorecard treats it the same way. This analysis walks through what was reported, what the PS5 can actually hold, what it means for storage buyers, and which parts of the story still lack proof.\n· Google · Preferred Sources Don't miss new tech stories on Google\nAdd Tech Insider once in the Google app and our stories appear in your news suggestions.\nMultiple outlets reported the same core claim in the last week of October 2026. Grand Theft Auto VI shows a download size of roughly 210GB on PlayStation 5, according to data tied to Sony’s PlayStation backend. OC3D described the game as having a 200+ GB download on PS5, with PlayStation Game Size reporting 210GB.\nThe word “reportedly” carries real weight here. Nobody has shown a Rockstar-published requirement, and no store listing we could verify carries one. Every number in this piece traces back to a leak or a third-party report. We flag that every time it matters, because storage numbers shape buying decisions and a wrong one costs people money.\nThe story fits the current rhythm of GTA 6 coverage. Launch is set for November 19, 2026 on PlayStation 5 and Xbox Series X|S, and every few days a new leak lands. Some hold up and many do not. We tested one batch in our look at the 25-minute leak and what holds up , and the storage claim deserves the same skeptical read.\nThe original source is the X account PlayStation Game Size, which tracks changes to Sony’s PlayStation database. The German outlet Playfront wrote that the account extracted the install size from the PSN database and tied it to a pre-load date of November 12. Gizbot, OC3D and Playfront all repeat the 200GB-plus framing, and most cite the same origin.\nThat matters for how you weigh the evidence. Ten articles repeating one tweet are still one data point. The account has a track record of reading store backend entries, which gives the claim more weight than a random forum post. Yet a backend entry is a snapshot. Publishers adjust packaging before launch, and a number visible today can change after a day-one patch.\nOur confidence rating is moderate. The figure likely reflects a real database entry. Whether it reflects the final installed footprint is a separate question, and we cover it below.\nRockstar has not announced an install or download size for any platform. VGKami checked the PlayStation Store, the Xbox Store and Rockstar support pages as of October 26, 2026 and found platforms and editions listed with no storage requirement. The 200GB and 210GB figures remain unconfirmed by the studio.\nRockstar tends to stay quiet until the last moment. The studio has also called leaks hard to handle, a point we covered when it said GTA 6 leaks feel invasive ahead of the November 19 launch . Expect an official number only when the store pages get their final specs.\nThe launch-model PS5 ships with an 825GB SSD. Roughly 667GB of that is usable for games and apps, because system software and reserved space take the rest. A 210GB install would claim about 31% of those 667GB, leaving around 457GB for everything else.\nThat sounds fine until you count a normal library. Two 210GB games would eat 420GB, which leaves 247GB for the rest of your collection. Add one other big shooter or open-world title and the drive is nearly full. Install staging needs breathing room too, so the real requirement during setup runs higher than the final footprint.\nThe percentages are our arithmetic using decimal gigabytes, applied to figures from the reports. Only the launch PS5 line uses a usable number from the sources. The other rows use raw capacity, so real free space will land a little lower.\nThe reports do not say whether 210GB is the download package, the installed game, or a pre-release database allocation. Those three can differ. A download can be compressed or split, an install can expand, and a database placeholder can be rounded or padded before release.\nA day-one patch adds another variable. Large open-world games often ",
    "pub": "2026-11-02T09:49:47+00:00",
    "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPMVZvYV9KdDgxTXZHWjQ5ZHRvUHEydTR3VHdmMkxrRVFJRVFLWFJXSko2c2JjNmFKR1p2MjRtMENNWmMwVU1RcjJRUzc3NWlOenhucnFIT1J5a0ZCYlBpbFhucUFybDRnWXZXdS1rNDFSWmdEeDNpc0ZOUGNEOTBmZlZSckJHVWE3ZW81Q3JQcGhpd0tsUVZIcGI0QUd5YU5OeW5aUXVCWGpqZmczVnN1aFB2M3lfMTZTejBVRk8yajItYVRHSml6OWlacDA5eHIwTFZKUFA5Xzd5S2I2T19uYUNCSnVmc0dxbGfSAfcBQVVfeXFMT2l3YlJyRUtXS3BCejNfNjhsNGRpYnJvODRuSmN1a2NmM2lpb2lhYzJxUmt4MTJYM3FLampxbk9wai1Da3JPcHZCaFFTVlV1cV9VYXFac2M1T0lLVUwwR2lQV2hFNklRd3BhRGZBSkJGeVpBT0d5WFAxZ2pLWkZvOWlOYzFsLXhQeDZzazFrdFp0U3JzcTZNRzMxUktKUkVyUHEwRHVPUExzUkRHRlFCUlhGazdQOWFGTG5rUnBsdThDc2tVbkpXbk1JYi1vdkpldl9Zc2dhbktGWHg5d21DRkhMeHc5cE55X3dWanFYZ0VNWTFTeXRYUQ?oc=5",
-   "s": "Mundo Deportivo",
-   "d": "2026-11-02T09:43:51+00:00",
-   "lang": "en",
-   "t": "GTA 6 release date: Official launch confirmed, but some players could get it sooner than expected",
-   "u": "https://www.mundodeportivo.com/en/20261102/1004246106/gta-6-release-date-official-launch-confirmed-but-some-players-could-get-it-sooner-than-expected.html",
-   "img": "https://imagenes2.mundodeportivo.com/files/og_thumbnail/uploads/2026/11/02/6ae85b07f12c4.png",
-   "chapeau": "Rockstar Games has finally put a date on GTA 6, bringing years of speculation, leaks, and delays closer to an end. Console players now know exactly when they can get",
-   "txt": "Rockstar Games has finally put a date on GTA 6, bringing years of speculation, leaks, and delays closer to an end. Console players now know exactly when they can get their hands on the game.\nFor PC gamers, though, the picture is less clear. Rockstar has kept quiet about a computer release, leaving fans wondering whether they are in for another painfully long wait. A new report, however, suggests things might play out very differently this time.\nGTA 6 is scheduled to launch on November 19, 2026, for PlayStation 5 and Xbox Series X/S. And while PC has yet to receive an official date, GamesBeat reports that the game could make its way to computers as early as January 2027, with a possible release window extending through March.\nThat would be a huge departure from GTA 5, which didn't reach PC until 19 months after its console debut. It's certainly welcome news for anyone hoping to avoid buying a console just to play Rockstar's latest blockbuster.\nThere's one catch, though: Rockstar hasn't confirmed any of it. Until the studio makes an announcement, the early 2027 window remains nothing more than speculation.",
-   "pub": "2026-11-02T09:43:51Z"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOT25HeDl5VTlaVUNsNTNKTjFjMkZNX214eDFpbHFWR00zdkJGVVpMQUVtNV9USy0wdzRnbHhmY19fcHp2bVRrYm9qUlpEaUVKSUFGVTlZb05rZWhHZVVQYUtyOVE0N0djYnF5TVI0MEVseVl1WUdrOXg5U1FoWndWTVF6NXBfT3Z4c0UyeThkSWJ4V3VuUGNjd0dFZDNVZjc5YVlkQXZhY042YzFIemlsR1lLQm5Td3FuS3h3dw?oc=5",
@@ -322,6 +314,14 @@
    "txt": "Every major GTA 6 leak, Rockstar's confirmed details and the rumors still unproven ahead of 19 November\nGTA 6 is 17 days away, and the gap between what Rockstar has confirmed and what the internet has made up has never been wider. Thirteen years after GTA 5, the game has survived two delays, a wave of stolen footage and a rumour mill that runs daily.\nHere's what's official, what's leaked and what's still guesswork.\nGrand Theft Auto VI is set to be released on November 19, 2026 on PlayStation 5 and Xbox Series X|S. Initially, its release was scheduled for 2025, then moved to May 2026, and finally, November.\nThe CEO of Take-Two has reaffirmed the new date, with pre-orders, a preload schedule, and a launch trailer already made available. Nothing in the information found suggests a further postponement.\nThe Standard Edition is priced at $79.99, and the Ultimate Edition at $99.99. Purchase or preorder either of these editions until November 20 and receive the Vintage Vice City Pack as well. Preorder digitally and receive an additional bonus of a free one-month subscription to GTA+.\nBoxed versions of the game will have a downloadable code only and not the disc itself. You will be able to purchase them starting November 12 to preload the game.\nPreloading opens on November 12, a week before launch, for digital pre-orders and boxed copies. The files stay locked until November 19. Rockstar has given the date but not the exact unlock time, so check your console store's countdown.\nHow big is the download? Rockstar hasn't said. A figure of about 210GB is circulating, but it isn't official. Free up plenty of space before the 12th.\nNot officially. Rockstar has announced PS5 and Xbox Series X|S only. On October 13 GamesBeat reported, citing four anonymous sources, that a PC version is planned for the first quarter of 2027. Rockstar hasn't commented.\nGTA 5 reached consoles in September 2013 and PC in April 2015. And if you were hoping to stream it on PC through Xbox Cloud Gaming, Xbox's Matthew Ball denied that on October 7.\nThe Extended Look for August 27 featured a 26-minute-long video on Netflix and YouTube. As Jason Duval and Lucia Caminos, two criminals, you get to operate in the state of Leonida, where Vice City replaces Miami.\nThe details have been further expanded in the 430th issue of Edge magazine, available since October 29. The map is about twice the size of that of GTA 5 and with narrower streets and longer days. The police create a profile of you based on your car, clothing and accomplices, so car changes and wardrobe changes really do count.\nThere is a new criminal profile that evaluates your actions from \"Professional\" to \"Irredeemable\". Car stealing became more difficult, as some stolen cars come with trackers.\nThe leaks began on August 18, when a group calling itself Cyberleek posted gameplay clips and map images. Take-Two began takedowns and sought data from Microsoft and Discord to trace the source. Rockstar later apologised to fans and called the leaks heartbreaking.\nOn October 8, a roughly 25-minute clip followed. Rockstar hasn't commented on it, and its authenticity is unverified. Press reports say the leaked material appears to come from an older build, so it may not reflect the finished game. One analysis put the drop in Take-Two's market value at around $2.8 billion in two days.\nIt contains spoilers and explicit scenes, and pages offering a \"GTA 6 download\" are not official.\nThe next real answers arrive on 12 November, when preloads open and the store pages show the final file size.",
    "pub": "2026-11-02T12:03:10+05:00",
    "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMGthOWI5WkdDcVRfR19fRkRMZmtvUkZsbDdRdGxnckU3RUlkb1ZtUnlHeFBwSDhRVmxhRVlCZGlTeUZ6ZTJMWldUbTE4NlduTGhiMUtnd2VDMElrUVM0emhLRzJUYnk0ZXpoMDVheXVvQWMzdExjRC1oMlhwRjBLelZXVHZtWmxxejIwYW03Q09HSWN0Z3ZXanJUR0FFS3ZBQUJsTkFPNF9vbGUzMm5SRm5ZaVJXR0xTZFM2QU4wZXNxdw?oc=5",
+   "s": "Android MT",
+   "d": "2026-11-02T06:53:11+00:00",
+   "lang": "fr",
+   "t": "Comment acheter une PS5 d’occasion pour GTA 6 sans se faire plumer",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPWW9nVjdqUkswWlFXbjZQaW44eEpnYVptX3UxSEdfVkFzaUR2dGNGMXc2UWkybjBIYnFiUTR2Vlo3ZmFRQUtjUVJpLWlXRzZaQkVUZDQ2T1BhbmhwY2xHV3A4eFBwX2N0QjJSVGJsVlViR0p6UXFyS0ZGNi13cm1vY1NGeTE3Ql9JYllkeXRWcw?oc=5",
@@ -734,15 +734,6 @@
    "d": "2026-10-19T07:00:00+00:00",
    "lang": "en",
    "t": "The latest post from GTA VI Leaker Cyberleek",
-   "erreur": "429 : passage suivant",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdGhzMjJJd0ttd0tGVjdDMmtPSWNyLWhMTVh0c2tCanZQcEFaQjFMTy0wanBYTkM3MFRFNlYyMEJ0ZHk4dFVsWnhuRDRjNklJV1hHUndSaU1jY3o5NEM4dW5mOENibWdzMHNZZkdub0I1V0lFRjVaamJZQWNxTHJta0NWajhyZ2ZoZExxcEJpRUloS1lSVDRIUUtUdGpYN1Yxd2FrVllVb2lvU2dYQllpUg?oc=5",
-   "s": "PCMag Middle East",
-   "d": "2026-10-19T03:46:45+00:00",
-   "lang": "en",
-   "t": "GTA 6 Leaker's Latest Effort Appears To Flop As Group's Meme Coin Declines",
    "erreur": "429 : passage suivant",
    "cyberleek": true
   }
