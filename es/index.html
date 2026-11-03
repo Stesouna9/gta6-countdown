@@ -39,8 +39,8 @@
   <link rel="alternate" hreflang="x-default" href="https://gtavifrance.com/">
   <link rel="alternate" type="application/rss+xml" title="GTA 6" href="https://gtavifrance.com/feed.xml">
   <!--/meta-->
-  <link rel="stylesheet" href="../assets/style.css?v=ea46435c">
-  <script src="../assets/lang/fr.js?v=ea46435c"></script><script src="../assets/i18n.js?v=ea46435c"></script>
+  <link rel="stylesheet" href="../assets/style.css?v=90120842">
+  <script src="../assets/lang/fr.js?v=90120842"></script><script src="../assets/i18n.js?v=90120842"></script>
   <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "name": "GTAVIFRANCE", "alternateName": ["GTA 6 Countdown", "Compte à rebours GTA 6"], "url": "https://gtavifrance.com/", "inLanguage": ["fr", "en", "es", "pt", "de", "it", "ja", "zh", "ar", "hi", "ru", "ko"]}, {"@type": "VideoGame", "name": "Grand Theft Auto VI", "alternateName": ["GTA 6", "GTA VI"], "datePublished": "2026-11-19", "gamePlatform": ["PlayStation 5", "Xbox Series X|S"], "genre": ["Action", "Open world"], "author": {"@type": "Organization", "name": "Rockstar Games", "url": "https://www.rockstargames.com"}, "publisher": {"@type": "Organization", "name": "Rockstar Games"}, "url": "https://www.rockstargames.com/VI", "trailer": {"@type": "VideoObject", "name": "Grand Theft Auto VI: An Extended Look", "embedUrl": "https://www.youtube-nocookie.com/embed/tJbzMqJGH4k", "thumbnailUrl": "https://img.youtube.com/vi/tJbzMqJGH4k/maxresdefault.jpg", "uploadDate": "2026-08-27T12:00:00+00:00", "duration": "PT26M49S", "description": "26 minutes de gameplay officiel : Leonida, Vice City, Lucia et Jason."}, "offers": [{"@type": "Offer", "name": "Standard Edition", "price": "79.99", "priceCurrency": "USD", "availability": "https://schema.org/PreOrder"}, {"@type": "Offer", "name": "Ultimate Edition", "price": "99.99", "priceCurrency": "USD", "availability": "https://schema.org/PreOrder"}]}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "NewsMediaOrganization", "@id": "https://gtavifrance.com/#org", "name": "GTAVIFRANCE", "alternateName": ["GTA VI France", "gtavifrance.com"], "url": "https://gtavifrance.com/", "logo": "https://gtavifrance.com/assets/img/logo-vi.webp", "description": "Site d'actualité GTA 6 en français : news vérifiées chaque jour, dossier Cyberleek, rumeurs vraies ou fausses, heure de sortie et compte à rebours. 17 langues.", "inLanguage": "fr", "knowsAbout": ["Grand Theft Auto VI", "GTA 6", "Rockstar Games", "Cyberleek", "Vice City", "Leonida"], "sameAs": ["https://x.com/gtavifrancecom", "https://discord.gg/TSaxEnt2dG"], "publishingPrinciples": "https://gtavifrance.com/apropos.html"}, {"@type": "WebSite", "@id": "https://gtavifrance.com/#site", "name": "GTAVIFRANCE", "url": "https://gtavifrance.com/", "inLanguage": "fr", "publisher": {"@id": "https://gtavifrance.com/#org"}}]}</script><style>.stores-officiels{display:flex;flex-wrap:wrap;gap:12px;align-items:center}.stores-officiels a{display:inline-block;line-height:0}</style>
 </head>
@@ -49,6 +49,10 @@
     <div class="hero-txt">
       <div class="ligne kicker"><span>Vice City · Leonida</span><span id="aujourdhui"></span></div>
       <h1 class="sr-only">GTA VI : compte à rebours jusqu'à la sortie</h1>
+      <div id="sorti" class="sorti">
+        <p class="display" data-i18n="released">¡GTA VI YA ESTÁ AQUÍ!</p>
+        <p class="depuis" data-i18n="since_rel">Desde el lanzamiento</p>
+      </div>
       <div id="compteur">
         <div class="gros"><span class="j" id="jours">00</span><span class="lab" data-i18n="days">Días</span></div>
         <div class="hms" style="margin-top:18px">
@@ -56,11 +60,7 @@
           <div><b id="minutes">00</b><span data-i18n="minutes">Minutos</span></div>
           <div><b id="secondes">00</b><span data-i18n="seconds">Segundos</span></div>
         </div>
-      </div>
-      <div id="sorti" class="sorti">
-        <p class="display" data-i18n="released">¡GTA VI YA ESTÁ AQUÍ!</p>
-        <div class="hms" style="margin-top:12px"><div><b id="jours-depuis">0</b><span data-i18n="days_in">Días en Vice City</span></div></div>
-        <div class="boutons"><a class="btn" href="acheter.html" data-i18n="buy_game">Comprar el juego</a><a class="btn clair" href="#apres" data-i18n="guides">Guías y trucos</a></div>
+        <div id="sorti-boutons" class="boutons" hidden><a class="btn" href="acheter.html" data-i18n="buy_game">Comprar el juego</a><a class="btn clair" href="#apres" data-i18n="guides">Guías y trucos</a></div>
       </div>
       <span class="scotch" data-i18n="date">Lanzamiento: jueves 19 de noviembre de 2026</span>
       <p class="brag" data-i18n="brag">La cuenta atrás número uno del mundo para GTA 6 : la más precisa, la más atractiva y la más completa. Preciso hasta el último segundo, cuenta regresiva hasta la medianoche en su zona horaria.</p>
@@ -299,22 +299,22 @@
     window.addEventListener("scroll", maj, { passive: true }); window.addEventListener("resize", maj); maj();
   })();
   </script>
-  <script src="../assets/site.js?v=ea46435c"></script>
-  <script src="../assets/flap.js?v=ea46435c"></script>
-  <script src="../assets/radio.js?v=ea46435c"></script>
+  <script src="../assets/site.js?v=90120842"></script>
+  <script src="../assets/flap.js?v=90120842"></script>
+  <script src="../assets/radio.js?v=90120842"></script>
   <script>
     var dateSortie = new Date(SITE.sortie).getTime(), dateAnnonce = new Date(SITE.annonce).getTime();
+    if (/[?&]feu=1/.test(location.search)) dateSortie = Date.now() - 90061000;   // aperçu de l'après-sortie
     var $ = function (id) { return document.getElementById(id); };
     var deux = function (n) { return String(n).padStart(2, "0"); };
     var auj = new Date(); $("aujourdhui").textContent = deux(auj.getDate()) + "." + deux(auj.getMonth() + 1) + "." + auj.getFullYear();
     function metAJour() {
       var restant = dateSortie - Date.now();
-      if (restant <= 0) {
-        $("compteur").style.display = "none"; $("sorti").style.display = "block";
-        $("jours-depuis").textContent = Math.floor(-restant / 86400000);
-        $("apres").hidden = false; return;
+      if (restant <= 0 && !document.body.classList.contains("apres-sortie")) {   // 03/11 Gabriel : après le jour J, le compteur repart dans l'autre sens
+        document.body.classList.add("apres-sortie"); $("sorti").style.display = "block";
+        $("sorti-boutons").hidden = false; $("apres").hidden = false;
       }
-      var s = Math.floor(restant / 1000);
+      var s = Math.floor(Math.abs(restant) / 1000);
       $("jours").textContent = deux(Math.floor(s / 86400));
       $("heures").textContent = deux(Math.floor((s % 86400) / 3600));
       $("minutes").textContent = deux(Math.floor((s % 3600) / 60));

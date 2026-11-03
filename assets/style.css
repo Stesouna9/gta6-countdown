@@ -100,6 +100,8 @@ section{padding:clamp(56px,9vw,120px) 0;position:relative}
 @keyframes tourne{to{transform:rotate(360deg)}}
 .tampon .fixe{animation:tourne 22s linear infinite reverse;transform-origin:50% 50%;transform-box:fill-box}
 .sorti{display:none}
+.sorti .depuis{margin:6px 0 0;letter-spacing:.3em;text-transform:uppercase;font-size:.85rem;opacity:.8}
+.apres-sortie #compteur .j{background:var(--sunset);-webkit-background-clip:text;background-clip:text;color:transparent}
 .sorti .display{font-size:clamp(3rem,9vw,7rem);background:var(--sunset);-webkit-background-clip:text;background-clip:text;color:transparent}
 
 /* bandeau défilant */

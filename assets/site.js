@@ -65,7 +65,7 @@ window.SITE = {
 
   function jours() {
     var d = Math.ceil((new Date(SITE.sortie) - Date.now()) / 86400000);
-    document.getElementById("nav-jours").textContent = d > 0 ? "J-" + d : "";
+    document.getElementById("nav-jours").textContent = d > 0 ? "J-" + d : d === 0 ? "JOUR J" : "J+" + (-d);   // 03/11 : après la sortie, on compte dans l'autre sens
   }
   jours(); setInterval(jours, 60000);
 
@@ -352,3 +352,53 @@ window.SITE = {
 
 /* Buzz : rubrique indépendante dans la navigation et le menu mobile. */
 (function(){var n=document.querySelector('.nav');if(n){var a=document.createElement('a');a.href='/buzz.html';a.textContent='Buzz';a.className='nav-buzz'+(/\/buzz\.html$/.test(location.pathname)?' actif':'');var news=n.querySelector('a[href$="actus.html"]');n.insertBefore(a,news?news.nextSibling:n.querySelector('.droite'));}var m=document.querySelector('.menu-rayons');if(m){var d=document.createElement('div');d.className='rayon';d.innerHTML='<b>Réseaux sociaux</b><a href="/buzz.html">Le buzz GTA6</a>';m.prepend(d);}var f=document.querySelector('footer .plan');if(f){var a=document.createElement('a');a.href='/buzz.html';a.textContent='Buzz';f.appendChild(a);}})();
+
+/* 03/11 Gabriel : « après le jour J, des explosions de partout sur le site, magnifique ».
+   Feux d'artifice néon sur toutes les pages dès la sortie (minuit local du 19/11) : pluie continue les 7 premiers jours,
+   gerbe à chaque clic, puis une gerbe d'accueil seulement. Aperçu avant l'heure : ?feu=1 . Sans son. */
+(function () {
+  var t = Date.now() - new Date(SITE.sortie).getTime(), apercu = /[?&]feu=1/.test(location.search);
+  if (t < 0 && !apercu) return;
+  var semaine = apercu || t < 7 * 86400000, doux = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var c = document.createElement("canvas"), x = c.getContext("2d"), P = [], dpr = Math.min(2, window.devicePixelRatio || 1), W, H;
+  c.setAttribute("aria-hidden", "true");
+  c.style.cssText = "position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:9999";
+  document.body.appendChild(c);
+  function taille() { W = innerWidth; H = innerHeight; c.width = W * dpr; c.height = H * dpr; x.setTransform(dpr, 0, 0, dpr, 0, 0); }
+  taille(); addEventListener("resize", taille);
+  var COUL = ["#ff2e88", "#ff7a18", "#ffd23f", "#00e5ff", "#b14dff", "#ffffff"];
+  function boum(px, py, n) {
+    var a = COUL[Math.random() * COUL.length | 0], b = COUL[Math.random() * COUL.length | 0];
+    n = n || (doux ? 50 : 140 + Math.random() * 90);
+    for (var i = 0; i < n; i++) {
+      var ang = Math.random() * 6.283, v = 2 + Math.random() * 7;
+      P.push({ x: px, y: py, vx: Math.cos(ang) * v, vy: Math.sin(ang) * v, v: 1, d: 0.007 + Math.random() * 0.009, c: i % 3 ? a : b, r: 2 + Math.random() * 2.4 });
+    }
+  }
+  function fusee() {
+    var px = W * (0.1 + Math.random() * 0.8);
+    P.push({ x: px, y: H, vx: (Math.random() - 0.5) * 1.5, vy: -(13 + Math.random() * 6), v: 1, d: 0, c: "#ffd23f", r: 2, f: H * (0.15 + Math.random() * 0.35) });
+  }
+  var actif = true, fin = semaine ? Infinity : Date.now() + 6000;
+  var avant = 0;
+  function boucle(t) {
+    if (!actif) return;
+    var k = avant ? Math.min(4, (t - avant) / 16.7) : 1; avant = t;   // calé sur le temps : même rendu à 30 ou 120 images/s
+    x.globalCompositeOperation = "destination-out"; x.fillStyle = "rgba(0,0,0," + Math.min(0.6, 0.16 * k) + ")"; x.fillRect(0, 0, W, H);
+    x.globalCompositeOperation = "lighter";
+    for (var i = P.length - 1; i >= 0; i--) {
+      var p = P[i];
+      if (p.f !== undefined) { p.x += p.vx * k; p.y += p.vy * k; p.vy += 0.18 * k; if (p.y <= p.f || p.vy >= 0) { boum(p.x, p.y); P.splice(i, 1); continue; } }
+      else { p.vx *= Math.pow(0.985, k); p.vy = p.vy * Math.pow(0.985, k) + 0.05 * k; p.x += p.vx * k; p.y += p.vy * k; p.v -= p.d * k; if (p.v <= 0) { P.splice(i, 1); continue; } }
+      x.globalAlpha = Math.max(0, p.v); x.fillStyle = p.c; x.beginPath(); x.arc(p.x, p.y, p.r, 0, 6.283); x.fill();
+    }
+    x.globalAlpha = 1;
+    if (Date.now() < fin && Math.random() < k * (doux ? 0.01 : semaine ? 0.07 : 0.09)) fusee();
+    if (Date.now() >= fin && !P.length) { x.clearRect(0, 0, W, H); actif = false; return; }
+    requestAnimationFrame(boucle);
+  }
+  for (var k = 0; k < (doux ? 1 : 8); k++) setTimeout(fusee, k * 250);   // salve d'accueil
+  requestAnimationFrame(boucle);
+  if (semaine) addEventListener("pointerdown", function (e) { boum(e.clientX, e.clientY, doux ? 30 : 70); });
+  document.addEventListener("visibilitychange", function () { if (!document.hidden && !actif && semaine) { actif = true; avant = 0; requestAnimationFrame(boucle); } });
+})();
