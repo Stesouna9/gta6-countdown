@@ -1,8 +1,65 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-03T10:15:00+01:00",
+  "updated_at": "2026-11-03T14:20:00+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-the-weeknd-stories-tramways-gta6",
+      "title": "The Weeknd laisse entrevoir un possible titre pour l’album GTA 6",
+      "summary": "@gtasix_ rapporte que The Weeknd a publié deux stories Instagram montrant des tramways de GTA 6 avec Jason et Lucia, ce qui laisserait penser à une chanson à venir pour la bande-son. Simple supposition tirée des stories.",
+      "url": "https://x.com/gtasix_/status/2117547399736635570",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rumeur",
+      "published_at": "2026-11-03T09:20:16.000Z",
+      "checked_at": "2026-11-03T14:20:00+01:00",
+      "evidence": "Vues relevées le 3 novembre 2026 dans data/x_alertes.json : 101982 vues. Stories Instagram citées par un seul compte ; non vérifiées directement (pas de navigateur).",
+      "visual": "THE WEEKND",
+      "image": "https://pbs.twimg.com/media/HWMKIY4WsAAJTpJ?format=jpg&name=360x360",
+      "image_alt": "Capture de stories The Weeknd avec tramways GTA 6",
+      "image_credit": "@gtasix_ sur X",
+      "cta": "Voir la publication sur X",
+      "embed_type": "x",
+      "post_text": "The Weeknd may be hinting at an upcoming song for the GTA 6 album 👀\n\nHe just shared two Instagram stories showing GTA 6 trams with Jason and Lucia."
+    },
+    {
+      "id": "x-sam-houser-implique-creation-gta6",
+      "title": "Sam Houser resterait impliqué dans la création de GTA 6",
+      "summary": "@GTAlphaintel affirme que Sam Houser, président de Rockstar, a contribué à façonner la carte, les personnages, l’histoire et la direction générale de GTA 6. Information d’un seul compte, sans source citée dans le post.",
+      "url": "https://x.com/GTAlphaintel/status/2117512101736624631",
+      "platform": "X",
+      "author": "@GTAlphaintel",
+      "status": "Rumeur",
+      "published_at": "2026-11-03T07:00:01.000Z",
+      "checked_at": "2026-11-03T14:20:00+01:00",
+      "evidence": "Vues relevées le 3 novembre 2026 dans data/x_alertes.json : 25093 vues. Un seul compte, aucune source primaire citée ; non vérifié directement.",
+      "visual": "SAM HOUSER",
+      "image": "https://pbs.twimg.com/media/HWHuCuHaYAAhIrQ?format=jpg&name=360x360",
+      "image_alt": "Visuel du post sur Sam Houser et GTA 6",
+      "image_credit": "@GTAlphaintel sur X",
+      "cta": "Voir la publication sur X",
+      "embed_type": "x",
+      "post_text": "Rockstar president Sam Houser remains involved in GTA VI’s creative development\n\nHe helped shape the map, characters, story, and overall direction"
+    },
+    {
+      "id": "x-gta6-prechargement-9-jours",
+      "title": "Préchargement de GTA 6 : plus que 9 jours avant son ouverture",
+      "summary": "@GTAVI_Countdown rappelle que le préchargement de GTA 6 s’ouvre officiellement dans 9 jours, soit 16 jours avant la sortie. Le compte reprend un décompte, pas une nouvelle annonce de Rockstar.",
+      "url": "https://x.com/GTAVI_Countdown/status/2117495774506324419",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "2026-11-03T05:55:08.000Z",
+      "checked_at": "2026-11-03T14:20:00+01:00",
+      "evidence": "Vues relevées le 3 novembre 2026 dans data/x_alertes.json : 27986 vues. Décompte d’un compte de fans ; non vérifié directement (pas de navigateur).",
+      "visual": "PRÉCHARGEMENT · J-9",
+      "image": "https://pbs.twimg.com/media/HWLbAZPXsAA4rF4?format=jpg&name=small",
+      "image_alt": "Compte à rebours du préchargement GTA 6",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "cta": "Voir la publication sur X",
+      "embed_type": "x",
+      "post_text": "9 days left until the GTA 6 pre-loading officially begins.\n\n16 days left until launch ⏳"
+    },
     {
       "id": "x-marketing-toronto-3-panneaux-gta6",
       "title": "Rockstar affiche GTA 6 sur trois panneaux géants à Toronto",
@@ -1191,6 +1248,11 @@
       "at": "2026-11-03T10:15:00+01:00",
       "label": "Veille permanente · 0 sujet",
       "summary": "Relevé X du 3/11 09 h 07 UTC : 6 posts non couverts, tous sous 20 000 vues et sans reprise multiple (Sam Houser 12 851, compte à rebours préchargement 17 780, millionnaire 17 394). Rien retenu. Pas de navigateur."
+    },
+    {
+      "at": "2026-11-03T14:20:00+01:00",
+      "label": "Veille permanente · 3 sujets",
+      "summary": "Relevé X du 3/11 13 h 13 UTC : 3 sujets ≥ 20 000 vues ajoutés (The Weeknd 101 982, préchargement J-9 27 986, Sam Houser 25 093). Chess.com (8 519) et Lucia (311) écartés. Pas de navigateur."
     }
   ],
   "coverage": {
