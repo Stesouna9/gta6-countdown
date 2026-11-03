@@ -1,6 +1,14 @@
 {
- "maj": "2026-11-03T14:55:44+00:00",
+ "maj": "2026-11-03T15:16:57+00:00",
  "items": [
+  {
+   "src": "r/GTA6",
+   "prio": 2,
+   "t": "New screenshot, Pre load begins November 10.",
+   "u": "https://www.reddit.com/r/GTA6/comments/1xmv3yv/new_screenshot_pre_load_begins_november_10/",
+   "d": "2026-11-03T14:56:27+00:00",
+   "nouveau": true
+  },
   {
    "src": "r/GTA6",
    "prio": 2,
@@ -55,14 +63,6 @@
    "t": "GTA 6 train spotted in Barcelona before GTA 6",
    "u": "https://www.reddit.com/r/GTA6/comments/1xm8vn5/gta_6_train_spotted_in_barcelona_before_gta_6/",
    "d": "2026-11-02T20:41:43+00:00",
-   "nouveau": false
-  },
-  {
-   "src": "r/GTA6",
-   "prio": 2,
-   "t": "Rockstar Games has launched a new wave of GTA6 ads on X, now describing it as the “last chance” to receive the Vintage Vice City Pack. Found by iGrandTheftAuto.",
-   "u": "https://www.reddit.com/r/GTA6/comments/1xm4mau/rockstar_games_has_launched_a_new_wave_of_gta6/",
-   "d": "2026-11-02T18:07:38+00:00",
    "nouveau": false
   },
   {
@@ -164,6 +164,14 @@
   {
    "src": "Rockstar Newswire",
    "prio": 1,
+   "t": "Grand Theft Auto VI Pre-Load Begins on November 10",
+   "u": "https://www.rockstargames.com/newswire/article/k4ak9okk485712",
+   "d": "",
+   "nouveau": true
+  },
+  {
+   "src": "Rockstar Newswire",
+   "prio": 1,
    "t": "Grand Theft Auto VI: Original Score by Justice",
    "u": "https://www.rockstargames.com/newswire/article/39ak8a12395591",
    "d": "",
@@ -174,14 +182,6 @@
    "prio": 1,
    "t": "Watch the Grand Theft Auto VI Launch Trailer",
    "u": "https://www.rockstargames.com/newswire/article/517572321a549a",
-   "d": "",
-   "nouveau": false
-  },
-  {
-   "src": "Rockstar Newswire",
-   "prio": 1,
-   "t": "Grand Theft Auto VI Collection Now at the Rockstar Store",
-   "u": "https://www.rockstargames.com/newswire/article/759875393o5253",
    "d": "",
    "nouveau": false
   }
