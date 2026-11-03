@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-03T03:39:42+00:00",
+ "maj": "2026-11-03T03:59:54+00:00",
  "articles": [
   {
    "gn": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOQ2VTSjF4NW5JNFZlODE1bjIwVDgzY1M4SEJ1dzVuOGJWRlR3aE5ta0VVUTNZWWdUNk1BcTB2WVZ5eXppZk5lb0w0Y1FVMXhrNGIwRlQ1d3VFYXNmYXZoRkFzUl8zcFk4RzBHOWlET3FYa2xRamtHdEV5VlhndmFmcWRnMjA5VXMtVHg0dw?oc=5",
@@ -244,14 +244,6 @@
    "pub": "2026-11-02T18:28:06+00:00"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ncXBhQ0E1M0VwenN6TGNVSDdnTnM1OFc5OVk3STV1cmh0QlZGck1PN0RNV0FSZE9sb05pRUdBa2xXdElwZlh3QnN4RnZHOVJGWDMzc0ZpQ01yMUU?oc=5",
-   "s": "Gamekyo.com",
-   "d": "2026-11-02T18:23:00+00:00",
-   "lang": "fr",
-   "t": "[GTA6] Sony déploie une nouvelle mise à jour pour la PS5, sur fond de lutte contre le « jailbreak",
-   "erreur": "429 : passage suivant"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNX1BKajJQbUxNam45TFN6V1l5YzRsQ1pLN1h2ZTNOcm1QbVZkU3NLQkp5N2pBeEtBVUdlMzltb2JNSUJ5czRrUEtVUmtpTW85REtYYnNsWldZc1oyNGFiMHpjQmtmb2dEd0Z0VGZhRU9ZS3VfbEJTWmdoYUpJaFRNQ2hjS0hqZjFRZkZ2bjE4LUp6ejVfWENkUTdEeHk3NUVYYUNBSEliMi1MaWxfV25DZ2EwVjVXd3ZwUmZ3WmdyaUhabnUyd3BtT0gxTE9PeGo1ZDJ1MXU2YWtYQUpKZFp1Mm9UZjB1RFBCeUJ3?oc=5",
    "s": "Frandroid",
    "d": "2026-11-02T17:47:00+00:00",
@@ -327,6 +319,14 @@
    "txt": "I just found out that preordering a physical copy of GTA 6 doesn't come with a game disc. You probably knew this already, but you just get a case with a digital voucher slip, meaning you will still need to clear a monstrous 210GB of SSD storage and wait out a massive download queue before stepping foot in Leonida.\nI ditched my console a few years ago ( GTA 6 might persuade me to jump back in), so I'm not exactly the most clued-up gamer, but that feels a little silly to me. What is convincing shoppers to buy a plastic case without an actual disc?\nSpotted by the deal-tracking account Nintendeals, Walmart apparently posted a product listing promising a complimentary \"surprise and delight bag\" bundled with every GTA 6 preorder ($79.99 at Walmart) .\nI guess getting free swag with an $80 purchase that virtually never sees day-one discounts is a harmless win.\nWalmart has history here. It offered promotional snack kits featuring Pringles and Coca-Cola bundled with last year's Nintendo Switch 2 preorders. Getting a novelty can of chips and promotional stickers is not really a compelling reason to buy a plastic case with a paper code inside, but maybe I am simply an old man yelling at a cloud.\nIf you actually want physical collector memorabilia, Rockstar is selling a separate $400 Collector's Box . The 11-piece crate packs custom Oakley sunglasses, a New Era cap, and a physical map of Leonida. But the actual game is sold separately, if you can believe it.\nJoseph Green is the Global Shopping Editor for Mashable. He covers VPNs, headphones, fitness gear, dating sites, streaming, and shopping events like Black Friday and Prime Day.\nJoseph is also Executive Editor of Mashable's sister site, AskMen.",
    "pub": "2026-11-02T15:30:43+00:00",
    "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQXzVXWXctTE02LVdEY3A0bkNVSjFQazJrTXRTSGlZNnJoaUhPYkpjdGxXTDhOSzFrTG50VEFjMkxGSGg4NWNuelJxTnJHRzZQODVJaXN3eEFENUlCVFphajRvWEh4Z29qQmlfRE11bjhSb09TVnJuemlaRmFWMkprMEllMEswUVN1SFlPbzYzaXJzMmxGdVhjNElkcnJQTGNkaEQ2LW1yeUM2Uko1Z216blhMQXJqUE9KWWVDUV9fRTJRUlY4VEZjWjNhWQ?oc=5",
+   "s": "ActuGaming",
+   "d": "2026-11-02T15:38:15+00:00",
+   "lang": "fr",
+   "t": "La PS5 continue de se mettre à jour pour se protéger contre le piratage avant la sortie de GTA 6",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1TUXA1V3EzaU93Vlo4NjBOWWVIYjJZc2tXWWRwRnB5YU5kTHB3VG9uSFY2cWVSVFEzMmRzYmxBb0lhWnlmRGlWemJNbGNIaGtURDQ1djcxNm9PVzdyRVczaQ?oc=5",
@@ -583,15 +583,6 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdzR0V2JHOHlfU0llMjA3UnUycTNhaVZ0OGtCckx2LVZjR3gyaHBnLUdnbEZ0R1dVQnBOUm5KUWxjbDNNZ19BT2oyRlNfbmhtUmxNTXBLSTVVZ0xkcHJQLVRpcUIyMUZFdmIxLW93RWREXzVqUFc4b01pQkNMUzE2ejN5VDNOV0Vy?oc=5",
-   "s": "BlogNT",
-   "d": "2026-10-25T15:22:34+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : fuite massive de 25 minutes de gameplay",
-   "erreur": "429 : passage suivant",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWFZRaGUtTk9zWElMZzBWc1NrcmYyTmJjVDJEenZUcDl4U0ZyMklrckdrUnNUT1BxNlpWMkd4Qjk3alc2TXpvSDBLeHktVEtGTzdTM2tMQThBaGp1d2RlZFlUSjFPa1M3VTBqSldhOVRGOFV3bmh4VzNFVWx1WUxqTkxUR2U4Zjc3?oc=5",
    "s": "https://tech-insider.org/",
    "d": "2026-10-25T08:30:21+00:00",
@@ -640,25 +631,12 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxORTl0dDRLR1VqYjNZUVcyTkxFZVhFMU9sM1YyTDJCQU5TLV9ydjROVzB2eGhFM21NdUV2UVJYVDU0UW1PYnBjWXYtZldpRTVWcG5Hbmktb1A3cHo4RV9RekdJdFBCYWg3MEdCNlJWNGRXVkRPOFBQQ290TXVUcy1MaEJQN0p6NFVBX2ZROXhUd1VEdTJ1a2xOSGpLbjVIR1l5blh4bWRiUVc1UFF6Nk9hZjJPODZYb2UxVGo2RmJRenBNQi1Mak1RRmlEMkhMN0oyRzJNNDE1SjRQWmF0MXU0U3ZpM1EyMXUwNXc?oc=5",
-   "s": "Notebookcheck.fr",
-   "d": "2026-10-24T02:22:00+00:00",
-   "lang": "fr",
-   "t": "L'heure de levée de l'embargo sur les tests de GTA 6 a fuité, certains sites devant attendre la date de sortie",
-   "erreur": "429 : passage suivant",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeUJxeEk5dHZzM3g5aEZlU3NubEk3VUt2aVBFVUwwTlBvVmhNNkd4ZEZtN1doa0dxamd6Y1ZuWmVucGxxaURvSzJkeFRJdjFnMWRmVFhNSzVRT2xxVG5ZT2hLQVh6LWNqSjQzVnNCX3lUd3A2UUI5YU9VX0RYRFE2RUxnQV85a09QLTVhX1dfbWd0NEl1WXpIaUFwcXVtM3VKU2MtUGVOdmRBUjlXa0JpTWZvWThXV00?oc=5",
-   "s": "MMOEXP",
+   "gn": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMncyZlRpUEFHaS1ScjFKYXNRTExybXprc1VZdnRlRFNVWUlPWGd3UnpwNWozUHdOLWhWSDdkc0FyNU5zdTVqZFBQZ1NyMDFmMlUycDlwZURxX203dHdlaHlyME9EQkxDRkduU1JwTDI5eE1RaXJ4OE8xS3RtalpDckNvS3VkMEd5cTRmTEtLdnNvMl9QT2hibDFuQXdDS3Z2aWk4S3BsQThWZHM?oc=5",
+   "s": "Softonic",
    "d": "2026-10-21T07:00:00+00:00",
    "lang": "fr",
-   "t": "GTA 6 : Taille du jeu bientôt révélée ? Trophées, Publicités et Risques de Fuite sur PS5",
-   "u": "https://www.mmoexp.com/News/gta-6-taille-du-jeu-bient-t-r-v-l-e-troph-es-publicit-s-et-risques-de-fuite-sur-ps5.html",
-   "img": "https://www.mmoexp.com/mmoexp-v250528/images/mmoexp_logo.png",
-   "chapeau": "À l",
-   "txt": "À l'approche de la sortie de Grand Theft Auto 6, plusieurs informations potentielles attirent l'attention des joueurs. Entre la taille du téléchargement, une possible fuite des trophées et succès, de nouvelles vidéos promotionnelles et les inquiétudes liées au jailbreak de la PS5, Rockstar pourrait encore réserver quelques surprises avant le lancement. Voici ce qu'il faut savoir sur ces différentes rumeurs et ce qu'elles pourraient signifier pour les joueurs. Pour beaucoup, ces rumeurs incluent aussi la question de Argent GTA 6 et de la progression dans le futur multijoueur.\nAprès la sortie de la bande-annonce de lancement, Rockstar Games pourrait intensifier sa campagne marketing avec des publicités télévisées. Une version raccourcie de cette bande-annonce aurait été diffusée dans une émission en Belgique. Selon les observations rapportées, le montage serait différent de celui publié en ligne, ce qui pourrait correspondre à un format publicitaire plus court.\nLes spots télévisés durent généralement 15, 30, 45 ou 60 secondes. Une version adaptée de la bande-annonce de lancement, qui dure environ 90 secondes, serait donc logique pour une diffusion à la télévision. Certains éléments pourraient également être modifiés en fonction des règles publicitaires locales.\nPour le moment, rien ne confirme toutefois que Rockstar a officiellement lancé une campagne télévisée. Cette apparition pourrait être un indice intéressant, mais elle ne suffit pas à établir qu’une publicité officielle sera diffusée prochainement.\nUne autre rumeur concerne plusieurs voitures inspirées de l’univers de GTA 6 qui auraient été filmées dans les rues de Miami et d’autres endroits de Floride. Il s’agirait notamment de supercars, de voitures sportives, de muscle cars et de lowriders créées en partenariat avec West Coast Customs.\nCertaines de ces voitures auraient été accompagnées par des escortes policières pendant leurs déplacements. Des équipes de tournage professionnelles auraient également été aperçues à proximité, alimentant les spéculations sur une éventuelle production promotionnelle.\nRockstar pourrait utiliser ces véhicules pour une publicité en prises de vues réelles ou une vidéo consacrée aux voitures de GTA 6. Cependant, aucune annonce officielle ne confirme actuellement l’existence d’une nouvelle bande-annonce.\nIl reste donc à déterminer si ces tournages sont liés à la campagne marketing du jeu et si de nouvelles images seront publiées avant sa sortie.\nLes succès Xbox et les trophées PlayStation constituent un autre sujet de discussion. Selon des observateurs de la communauté GTA, les succès de GTA 5 avaient commencé à circuler environ un mois avant sa sortie. GTA 6 pourrait connaître une situation similaire à l’approche de son lancement.\nLes plateformes doivent gérer les informations associées aux succès et aux trophées, ce qui peut parfois permettre à des données de devenir accessibles avant la sortie d’un jeu. Du côté de Xbox, les développeurs disposent de mécanismes permettant de masquer certains détails jusqu’à une date définie. La situation peut néanmoins varier selon les plateformes et les paramètres choisis par l’éditeur.\nSi Rockstar ne masque pas suffisamment ces informations, certains succès ou trophées pourraient apparaître en ligne avant que les joueurs puissent accéder au jeu.\nCela présenterait un risque particulier pour ceux qui souhaitent découvrir l’histoire sans spoiler. Les noms des trophées et leurs descriptions peuvent révéler des détails sur certaines missions, des personnages ou des événements importants, même si une partie des informations reste cachée.\nPour l’instant, aucune fuite complète des trophées de GTA 6 n’est confirmée par les éléments évoqués dans cette source. Il s’agit d’une possibilité à surveiller plutôt que d’une annonce officielle.\nLa taille du fichier de GTA 6 est probablement l’une des informations les plus attendues avant le lancement. Le jeu promet un vaste monde ouvert, des environnements détaillés et une grande quantité de contenu, ce qui soulève naturellement des questions sur l’espace de stockage nécessaire.\nUn compte consacré aux tailles de téléchargement des jeux PlayStation aurait laissé entendre que la taille de GTA 6 serait révélée avant le début du préchargement. Selon les informations rapportées dans la vidéo, les joueurs pourraient obtenir cette donnée avant le 12 novembre, date présentée comme le début prévu des préchargements.\nIl faut toutefois distinguer cette indication de la taille ",
-   "pub": "",
+   "t": "GTA 6 : un employé dit avoir été licencié après une fuite sur TikTok à Miami",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -739,6 +717,24 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
    "t": "GTA 6 : CyberLeek suspend ses fuites après son échec crypto",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQSHl1TTd2Qm9jdU52QXZNZlU3eWd0aHQ4UVM1d1MzdmVsS2ZDZFQ5TmdQek1PVDRQa1FhVUVrQlpvZzZGSkJpaE5ubFVjaHdRY193NW1BODF4NkpEcUQyekhVeERvUk9Hd3Z5VkZxMW54RVB0MzNNdUVhb2xBekFEcEtxOXpYMkU4YkRmbTFUTEFRRFJiVlIzczNWNEFxMDUwS2puUk10X1VDWldlZnRuUGNPSFk5aE1IZnY0a0JqTy1VdzN3TllkVHRvQzZfRWdNWkZpLWNVLVNkaVNxRkp5OHkxQQ?oc=5",
+   "s": "GinjFo",
+   "d": "2026-10-15T07:00:00+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : Cyberleek renonce à diffuser le jeu complet, mais maintient une menace",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOX0swRlYxeHlidU5RbmVlU0txbmFzdlhGY2t5WHppQ3FvalcwbFJqTERSTFVRLUlCOXFuOWlIRXFJdWVueW5BM1lvOXpOdlRzNWQyTjd1SlM3LVRUbXZkV2hKTS05OUNJa2VJV25vcWZ6b2Z1SUF2QmE5M3RkdUhCQ1ZibHhLb0FXdExLN3lFR3A?oc=5",
+   "s": "Pasquale Pillitteri",
+   "d": "2026-10-15T07:00:00+00:00",
+   "lang": "fr",
+   "t": "Fuite GTA 6, Cyberleek s'arrête mais la fin reste menacée de spoilers",
    "erreur": "429 : passage suivant",
    "cyberleek": true
   }
