@@ -1,13 +1,21 @@
 {
- "maj": "2026-11-03T09:07:25+00:00",
+ "maj": "2026-11-03T09:27:54+00:00",
  "articles": [
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRnFGMk9QWmtfNmxOMmxXeVhwQTEwa1lmV1lIOTVQWGhKdU5CV2hXOUxpbEpiWEh6MEUyOVBjVG5SVFJKMG43OS1mU001U0hOY282SlB4OVJkZEdRMVdHTWR1amFodzlqbEhhWGRTMjlYTkNSdjZnQWhHZkRoUVVaYTNGSFdTS3pzS2xUNktveHVJaFJBX2l4Z2paOGZ5U3dhMTVyeF9CLTQ5LWdRWlZVYXlUUGk3QUp3ampXWl9TZVgxdw?oc=5",
+   "s": "JVMag",
+   "d": "2026-11-03T09:26:33+00:00",
+   "lang": "fr",
+   "t": "gta 6",
+   "erreur": "HTTP Error 429: Too Many Requests"
+  },
   {
    "gn": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMXk5dmVXaS1UUWhxQmh0dWlJSm9RbTZaTlppMjl2a2ludktqLWVkQ1BlSHI5V2FzNkFiZXhSeTFkdkpwdWZjQVRSOFVMTXU3S2JNekZKeEtlQWhWZlZjZE4xc29wc0NybWhuMWUxblBsWDlabWJUSDRVeGRNcjluanpDbGxzendyNzBhTXFNdHRkTVQ2RlA3SGR2eFo4aFJQSTJQYVFBOWlYclJVdXR2RG81WQ?oc=5",
    "s": "NRJ Belgique",
    "d": "2026-11-03T09:03:27+00:00",
    "lang": "fr",
    "t": "Geek News : GTA 6, Zelda Ocarina of Time, World of Warcraft et Football Manager, les grosses sorties de novembre",
-   "erreur": "HTTP Error 429: Too Many Requests"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOU2FCZWEyeG5DZF9hV1BnNHM0R3JOclN0YmVocGlXdEJ3S1FmamQ4ZDI5V3N6WTBQZk1KS1JrWk12RDh5MUhYVGxGeG14RXQtWjlNckJqQ0pCSldyMVlIZzlPZ19YYzFMVHFJUmhQWmxmajRzOTc2NnJDN0R5RXpseGptMTZZaTl5cFdDYXhDSUxRNzAzYmc?oc=5",
@@ -55,23 +63,6 @@
    "d": "2026-11-03T07:40:08+00:00",
    "lang": "fr",
    "t": "Les jours dans GTA 6 sont longs : alors qu'une journée complète durait 48 minutes sur GTA 5, elle durerait 2 heures 24 sur GTA 6",
-   "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOME9MM3FsUXpEcW85VkVvN2ZVZUxyQk5Vc01WZGwweUJBWkl4R09TcDRsTnBvaE0ya1lBZmJsYk9OVC1yWUU1MlJwd1RVY1F0SlBTcWRZNXdESUp0bzdqNzR4Q0JvOC1TUlpSazZvUlhjMVNadU53UXh2MTJpbWpVZmw0MXNHWFktMEg0NVJWUV9kRTRqNzlV?oc=5",
-   "s": "International Business Times UK",
-   "d": "2026-11-03T07:33:00+00:00",
-   "lang": "en",
-   "t": "'They Aren't Playing Around': PlayStation Gamer Claims Account Was Banned After Sharing GTA 6 Leak, Faces 3-Month Appeal",
-   "erreur": "429 : passage suivant",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZmFqS055cWd6VVVPZC1LaW5jT0RmOG9tU2NuVHpGWFcyazdQX0dYMERSZDk1UnVUc2RxNUFPZHpzUHN4bktxTmJ0M3prZEJ5RTluMkVKUHV5clRackJvYlJfdTQ3ZGRUeHM2dDRhWGgzZHpMSDJUcjdqX2JRTUk3bnNyVE12dlhqdkp1aFNUeXZJdmNuTTVDRWJZc203SkJnQWlZdTYtUTgyTnB2ZmFSU3NjYTJXbEJSdXBGOElRYWJFY1FHZzdIT3p0VGxRRnVXQnNHUGhqb3FiVy1X?oc=5",
-   "s": "NDTV Sports",
-   "d": "2026-11-03T07:13:33+00:00",
-   "lang": "en",
-   "t": "Kai Cenat Announces 5-Game GTA Marathon Beginning November 5 At 3 PM EST Ahead Of GTA 6 Release",
    "erreur": "429 : passage suivant"
   },
   {
@@ -135,18 +126,6 @@
    "erreur": "429 : passage suivant"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOam9hZXRRX0JkaXJxSEduQlRkeXZmSDhMcjd4NlhCenEtdU80TG5zQ2Znd2ZSTExpU3hZRDBvUjVwQkhlX19Fc2hrOHdzUGlXOWdlLUNvSEs1a3lpenNLUUFEYkZlWmZzc2sxWThHbzBWY1NRdWtzY0I2NjNyZG00alVGSzA4bk1mUURNak1iOXkyd0RIWVpFXzFURWs1V19JUUtFRkVaenJKVGsyalE?oc=5",
-   "s": "Mashable",
-   "d": "2026-11-03T05:57:50+00:00",
-   "lang": "en",
-   "t": "Self-made millionaire says playing GTA 6 could save you $5k",
-   "u": "https://mashable.com/entertainment/gta-6-self-made-millionaire-mark-tilbury-says-playing-video-game-will-save",
-   "img": "https://helios-i.mashable.com/imagery/articles/02en3lEWPE04kx6CvG3OTdh/hero-image.fill.size_1200x675.v1793658359.jpg",
-   "chapeau": "Does he have a point?",
-   "txt": "It's almost here. Grand Theft Auto VI comes out later this month.\nMany GTA 6 fans have been planning for this game's release for years. Some have put PTO requests in or have set aside vacation time to get lost in Leonida, the fictional U.S. state where the game takes place.\nNow, some non-gamers just won't understand what the big hubbub is about, and you need to prepare for those naysayers too. If your parents, significant other, or employer give you a hard time about taking time away from \"real life\" for a video game, just show them this.\nMark Tilbury, a British multi-millionaire who shares entrepreneurship tips to his YouTube audience of more than 9.3 million subscribers, has just released a video explaining how buying GTA 6 can save consumers an estimated $5,000.\nAccording to Tilbury, this $99.99 investment in purchasing GTA 6 could actually be a financial win. Tilbury breaks down how GTA 6 provides gamers with at least 80 hours of entertainment, which breaks down to $1.24 per hour of fun.\nFurthermore, GTA 6 is chock full of side missions, which could lead to even more hours of entertainment. Tilbury estimates that by factoring that in, GTA 6 provides entertainment at a cost of only 50 cents per hour, far less than concerts, movie tickets, or eating out.\nTo make his case, Tilbury breaks down a consumer's playing time into 4 hours per night for roughly 50 evenings' worth of entertainment. Tilbury points out that a night out at a bar could easily cost $100 per night, thus saving consumers $5,000 if they stay home and play GTA 6 instead.\nNow, obviously, your mileage will vary. Most gamers aren't spending $100 per night at a bar. But if you're looking to defend your planned time with GTA 6, Tilbury may provide some good points for your argument.\nWant more tech and digital culture news delivered to your inbox daily or sent straight to your device? Sign up for Mashable's Top Stories newsletter or get Mashable push alerts today. Recommended deals for you HBO Max — top pick for premium content\nMatt Binder joined Mashable's tech vertical in 2018, where he covers social media, tech policy, cybersecurity, online scams, cryptocurrency, AI, creator news, weird tech, and other related tech beats.",
-   "pub": "2026-11-02T23:09:01+00:00"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNTFVLN1prbldLOHRCVjlLZ3hGUE8tc1ZSVUt4OTlFamNmT3V0YnlHb1ZBYXd6b1lZWXlkTm1WbTF3cTVNd2JwOHFLVHlzNXc4Xy1MelNTS21WTkJ3VkRBVkt1b0hxM0tvRHN1MURUd1FGLTV4R1FldTVPUmdMMFp4WF9yR2hYWDhBa0dnczl4T2FFMVdhLWlWSFNHTW44azJVbnVWRDVtbmFSRXlVVnNQdWpwOFE5T1dxbGFqbERfQ1JXVWl4WlpZdThkQUJkLTZDZUM4LTVMWUVOWGZEVUJBYjZ4dDF5UzBTdHpHbVVvRDA4WkRYLUFtT19hbFloRjVwYWI4dzFibXVySHFyalg1UWpnaWtXcHdxX21DVm9YRDhMMk5zTFNRazIxbnfSAbICQVVfeXFMTkNxR29XM0xBZWxMenNtbkFsQ3VwLTFWUXlDWmtBcGhYOGhrYmgxUXhPdk1TbjF0S1N4STlCSW5KcTNsd1RLQkI2RXpYMjE4ZFJzUF9GRDdFV3NXMzBqRm8xamVIMmYxcldvWUc4U21xMU9QOEVZVjZZTUREbnRiSFJyMWhOcldMV2daWWpONjFWNFQtOEdaV3ZKWTc3WW0yQm80UUNuVE80LV9KUXlkaEhiX1hndDJpb3RPdVU2Ri1mYk1EdmFCdWxTNDhvY2J6RkdmNWpRdl9TRVR2SGttN3ZKdzJ5dkxqbkRzTy1XRTNDWTZXRF8td1JmbDNtcElhVGlxS3dTT0l2TTZOOUVQN1dlNTRHaEtsdVlmTHRqb3MyWUU1RDNtRVJySWY0R3ZlWVJn?oc=5",
    "s": "The Economic Times",
    "d": "2026-11-03T05:54:41+00:00",
@@ -191,6 +170,14 @@
    "erreur": "429 : passage suivant"
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA2ZTRZYXdSVFZIR3ZBV052WFVWRUVFZ2xVY3BJUlJjM01mUjhxeFBGSlhZMVRxeDRVNDh3WWd5LUNlRHVrUm1tOTdkdXdXX2FqTUJ0d0x6aWZtTVVNc0tLbXE3MEEwdG15RVJEODFR?oc=5",
+   "s": "Mashable",
+   "d": "2026-11-03T05:11:09+00:00",
+   "lang": "en",
+   "t": "A new 'GTA 6 Ultimate Edition' deal for the PS5 just dropped: How to save $15 with clever hack",
+   "erreur": "429 : passage suivant"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdFVrS0RTLWVSSVVjRzRFT1VjM09MY0RSR1F2N1I1WU8yZkVIQXU3ODV0ODdnVTZqNVVWcFBja2c2a1JMd28ydE9ZRVAxNTUwQmtWejE5cDJfc1NVTmNWSVZqbmxFZ3hZcHF2ZTBCWmprZGxuRE1CRjZ2MkRFUmdUOFZvaXRyWDd4aHR6OVdCZ2NrdGRJSDd0YWNlSk95OXhZWWdZOTdKa3FqaUliZ1QyU3pn?oc=5",
    "s": "MMOEXP",
    "d": "2026-11-03T04:32:06+00:00",
@@ -203,16 +190,12 @@
    "pub": ""
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOOEFOT2JmcWJBVWZuRWlWNWhuUC1UQjlPYXBIMnJlc0hSakhMdkN3WmxoX3k1TktqY2dBNjNoQUhJVWZLejJlTE11cExFVlN4RlRtYTI4V2F1cmNTT2hLQkZRWWxuZDVxaHRqR2c5ZE43czRZemFxVlE5WVFGTzZ2OHloN0d2SnVwVTFPVWRtYnBLakxhczZaNV8yYmx6NnJIeG1FWUdUa2xWaEUxM2llRHNFNGRvVGZDVUhiNzJ2WVo3RjgwdjhxdTFvMFotcGg5Q1RFZUdvWnNSZFdLdzN5d1p3a3RxX0g5S2N2cmRxaHE4QnM5c3R1Y2J3Z2VVR21Hb3Jv0gGIAkFVX3lxTE16RUJLaWQ1dUVxcklNUmtmZnBmUnkwOTJwc3AydEE5bnI1UlRPLVhWYWROaUZQLUptZmVsX1JlVEI4QWFfN2l2Tk0yeUNscnppX3pSd1lpVFlqUFEzbzJDNjhudUxFRWpxdnFVdEZWclYtbkF2bzRTMEtERm1nZWdYbUhCTTRoWUdadm1DOHBoRFhGVHRwTXZzaUhwdk1IZmR4RzVIVThRTHctY2gxWlJyNmR2VkI2cUxxOVBkNHk5WUdHd1UtMjJDcEF4cDhSYWtWemNSOGw0eVJrRVFLRGdOVzFqYXBxd1NpS0h0ZFhoVVYzRHo3T0NOTXR2d1czOV9sNHdJeFFoaw?oc=5",
-   "s": "The Economic Times",
-   "d": "2026-11-03T04:19:10+00:00",
+   "gn": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1oRHJjSzNORDJ1cmYzY1dtVVM2NzgwX3hfbDJVa2lJejZrcXhycWY2LXZPWnBvdklSQkwzdG1vTnBOVTZGaXVvVnpVS2x2dGpFTEdmN1FOVDRYLWtGN0JuLUJmdFZyYWNray1rM2EySEhzWlRwN1E?oc=5",
+   "s": "Mashable",
+   "d": "2026-11-03T04:19:56+00:00",
    "lang": "en",
-   "t": "Americans ready to give up their pets, alcohol, fast food and intimacy for an early access to GTA 6, survey finds",
-   "u": "https://economictimes.indiatimes.com/world/us/americans-ready-to-give-up-their-pets-alcohol-fast-food-and-intimacy-for-an-early-access-to-gta-6-survey-finds/articleshow/135481708.cms?from=mdr",
-   "img": "https://img.etimg.com/thumb/msid-135481821,width-1200,height-900,imgsize-90306,overlay-economictimes/articleshow.jpg",
-   "chapeau": "A recent study shows that the excitement surrounding Grand Theft Auto VI is so intense that a significant number of gamers are prepared to forgo personal relationships. Many have stated they might cancel social plans, skip vacations, and even sacrifice their pets for early access, driven by eager anticipation since the last installment in 2013.",
-   "txt": "Some elections matter more than you know: No crop changed in the fields, yet sugar, coffee and soya got cheaper in a day\nYou can buy a walkie-talkie online. But can you legally use it?\nKYB and KYC: Quick commerce, the Damani premium and what DMart must deliver – 3rd and concluding part\nKYC and KYB: Inside Damani’s DMart, the retail chain for the middle class. And stock for the long term? – Part 2 of 3\nWill it be a regulatory nightmare if an exchange lists on its own platform?\nKYC and KYB: Inside Damani’s Avenue Supermarts that refuses to charge more – Part 1 of 3",
-   "pub": ""
+   "t": "'GTA 6' file size reportedly revealed and it's gargantuan",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1yZWVmczd6emYzVlpPdHNTZDlhazRaczhwVDhPMUQ5aTM4YTctVExQdUJUaF96THc0X21qLXV6UzZNUGxud3NRSEtMN2dsNlpyUHpjR25EQ2FULXh1b2Q2Q3BnMkVZVFZR?oc=5",
@@ -249,18 +232,6 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNaUYxM0pMT0ZKeHY3Q3p1X2pIbGI3Q1pZMmdoMkJnZFZPcmJxZXBqd251Y3plTnN5VjFsT2lOcnNvYUU3MGFUZGZ4Vm5ZQ0tvcGhPVlJOcE53U1dUWjdUY1N0NjF3YzIwMEpINnlzU1VENjQtUy1Xa190ZE9GQ1I0QnA5VEtoMHhreE9vVUItUHdwZ21HTmVFY2o2eEI0R0VFT25JblZ2TlNZZzNkNnpqdXlVcGx0VU9UQXFCRFpCNVhBQTBzUFBzdVZ3?oc=5",
-   "s": "Basic Tutorials",
-   "d": "2026-11-03T02:55:09+00:00",
-   "lang": "en",
-   "t": "GTA 6 requires 210 GB: Lexar EQ790 with heat sink is cheaper as a PS5 SSD when using a promo code",
-   "u": "https://basic-tutorials.com/news/gta-6-requires-210-gb-lexar-eq790-with-heat-sink-is-cheaper-as-a-ps5-ssd-when-using-a-promo-code/",
-   "img": "https://basic-tutorials.de/wp-content/uploads/2026/11/Lexar-EQ790-mit-Kuehlkoerper_1.png",
-   "chapeau": "GTA 6 appears to take up 210 GB on the PS5. Lexar is offering a discount on the EQ790 1TB with a heat sink via a promo code on Amazon in November. Specs, price, and PS5 compatibility.",
-   "txt": "If you want to play GTA 6 on the PS5 when it launches on November 19, you’ll need about 210 GB of free storage. Lexar is offering the 1-TB version of the PS5 SSD EQ790 with a heat sink at a discounted price through November 30, 2026: Use the code LXDEGOGTA6 on Amazon to get 5 percent off the regular price of 209.99 euros. That brings the price down to about 199.49 euros.\nThis figure does not come from Rockstar, but from the X account PlayStation Game Size, which regularly retrieves download sizes from the PlayStation Store’s backend. In late October, the account cited 210 GB for the Standard Edition on the PS5 . The account has a good track record, but this is still a leak. A day-one patch and subsequent updates for the online mode will likely be added on top of that. The preload is set to begin one week before release, on November 12.\nFor comparison: Depending on the version, GTA 5 takes up around 100 GB on the PS5, while Red Dead Redemption 2 takes up around 150 GB. And here’s how much free space the consoles actually have:\nSo on a launch-generation PS5, GTA 6 takes up nearly a third of the storage. If you’ve also installed Call of Duty, Fortnite, and one or two Sony exclusives, you’ll need to free up space or upgrade. With a 210 GB download, it’s worth taking a quick look at your internet connection. If it’s acting up, our tips can help you resolve internet issues on the PS5 .\nThe EQ790 is an M.2-2280 SSD with a PCIe 4.0 x4 interface. Lexar unveiled the heatsink version in August 2025; it’s available in 1, 2, and 4 TB capacities. The 1-TB version is on sale.\nThe 7,000 MB/s is significantly higher than the 5,500 MB/s recommended by Sony for a PS5 expansion. In practice, the console loads games from such an SSD just as quickly as from the internal storage. Sony itself points out that not every game achieves exactly the same performance, but with current Gen 4 models, the difference is barely noticeable.\nIt’s important to note that the EQ790 is a DRAM-less SSD. Instead of its own cache chip, it uses a small portion of the system’s RAM via HMB. For games that primarily involve reading data, this hardly matters. During large, prolonged write operations (such as copying 200 GB in one go), a DRAM-less SSD tends to slow down more quickly once the cache is exhausted than a more expensive model. The advantage: Lexar claims up to 40 percent lower power consumption compared to Gen4 SSDs with DRAM.\nYes. Sony allows a maximum total height of 11.25 mm in the expansion slot, including the heatsink, with no more than 8 mm protruding above the circuit board. The EQ790, with its pre-mounted heatsink, measures 9.7 mm and thus stays within the limits. You don’t need to buy a separate heatsink or attach anything.\nInstallation takes about ten minutes: Turn off the console, remove the cover, unscrew the bay plate, insert the SSD, and screw it into place using the appropriate spacer. The next time you boot up, the PS5 will format the SSD and test its speed. Sony describes the steps in detail on its official support page . After that, you can install GTA 6 directly onto the new SSD or move older games to it.\nAccording to Lexar, the code is valid from November 1 through November 30, 2026. A note on the price: Amazon prices fluctuate, and the 1-TB version has been available for well under 200 euros at times in recent months. So it doesn’t hurt to take a quick look at the price history. At the same time, SSD prices have risen noticeably in 2026, so a bargain from the past isn’t a given anymore.\nAccording to a leak from the PlayStation Game Size account, about 210 GB for the Standard Edition. Rockstar hasn’t confirmed this figure yet, and updates could increase it further.\nYes. The SSD meets Sony’s specifications for the PS5, PS5 Slim, and PS5 Pro: PCIe 4.0 x4, M.2 2280, and a maximum height of 11.25 mm including the heatsink.\nNo. The heatsink is factory-installed and fits into the PS5’s expansion slot.\nNo. PS5 games can only be stored on USB drives; they cannot be launched from them. To play, GTA 6 must be on the internal storage or an M.2 SSD.\nFor GTA 6 plus three to four other large titles, yes. If you have an extensive game library, you’ll be better off with 2 or 4 TB in the long run, though you’ll also pay significantly more for it.",
-   "pub": "2026-11-03T02:55:09+00:00"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYmYtMDRfZm1mSUc4SW9tMFNNRzJGQmNGQ2hLbkRWYXgxaWU4b3pvSnBlY3JXQU11anRzQktiQ2g0ejdZdUotcUc5ZzQ2dXRLUW1iaGdFVEZ4NWhOLTBoY1RSd1lKNUtORHBrTm5vTFF4QU43NThzY1lXS1pQcFpnaDNKR3NvYms?oc=5",
    "s": "MMOEXP",
    "d": "2026-11-03T02:54:13+00:00",
@@ -271,14 +242,6 @@
    "chapeau": "Get the latest GTA 6 PS5 update details, November 12 preload date, physical edition information, and Walmart",
    "txt": "With Grand Theft Auto 6 getting closer to launch, PlayStation owners have a new system update to pay attention to, while retailers are preparing their physical pre-orders and possible launch-day extras. There are also new details about the game's soundtrack that fans will want to keep an eye on.\nBetween firmware requirements, the November 12 preload window, GTA 6 Money and Walmart's reported mystery gift, there are several things worth checking before spending money on a new copy or preparing your console.\nSony released PS5 system software update 26.07-14.22.00 on November 2, introducing additional security fixes. The update arrives shortly before GTA 6 launches, making its timing particularly interesting for PlayStation owners.\nAccording to reports from PlayStation backend trackers, GTA 6 may require the newer 14.22 firmware branch to run. This follows an earlier report suggesting that version 14.10 would be the minimum requirement.\nPS5 jailbreak activity has become a growing concern, with researchers and hackers finding ways to exploit older system software. Security updates help Sony close vulnerabilities that could otherwise allow modified consoles to run unauthorized software.\nHowever, there is an important distinction: Sony's official patch notes only mention security fixes. Neither Sony nor Rockstar has publicly confirmed that GTA 6 specifically requires firmware 26.07-14.22.00.\nFor regular players, the safest approach is simple: keep your PS5 updated rather than waiting until launch day to discover that another system update is needed.\nSony could release additional updates before launch, so version 14.22 should not necessarily be treated as the final firmware requirement.\nOne of the biggest dates for players preparing to play GTA 6 is November 12, 2026.\nRockstar has confirmed that digital preloads will begin at local midnight on November 12. This gives players a full week to download the game before its official November 19 release.\nThat is particularly important for anyone with slower internet connections or limited download time.\nInstead of waiting until launch day, players can prepare their installation in advance and be ready when the game becomes available.\nNovember 12: Physical code-in-box editions become available for shipping and pickup.\nRemember that downloading the game early does not mean you can start playing early. The preload is designed to prepare the installation, while access remains locked until the official release.\nPlayers should also make sure they have enough free storage space before starting the download. Checking console storage beforehand is much easier than deleting games and applications at the last minute.\nThis is one of the biggest questions surrounding the physical release, especially for players who prefer collecting boxed games.\nRockstar has confirmed that the physical GTA 6 edition will use a code-in-a-box format.\nIn other words, the box contains a digital download code rather than a traditional Blu-ray game disc.\nThis is an important detail because many players purchase physical editions specifically to own and collect their games. A box without a disc offers a different experience, even if the packaging looks like a traditional retail release.\nPhysical pre-orders are scheduled to become available starting November 12, allowing buyers to redeem their codes and preload GTA 6 ahead of launch.\nThe physical Standard Edition also includes the Vintage Vice City Pack, which contains:\nPlayers should also pay attention to region restrictions when purchasing a physical copy. PlayStation download codes are tied to supported account regions, so buying a code from a different market can create activation problems.\nBefore placing an order, make sure the retailer's version matches the region of your PlayStation account.\nWalmart has become part of the GTA 6 pre-order conversation after reports emerged about a special promotional offer.\nAccording to recent retail information reported by gaming outlets, qualifying GTA 6 pre-orders at select Walmart locations may receive a promotional package called a Surprise and Delight bag.\nThe mystery gift has attracted attention because nobody has confirmed exactly what will be inside.\nThere are several possibilities. Some fans expect simple promotional items or snacks, while others hope Rockstar has prepared exclusive merchandise such as a physical map, collectible items, or Vice City-themed accessories.\nHowever, players should avoid assuming that these ",
    "pub": ""
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZkFTdWtYeXF4T3ZpUWNsSWRHZjRCemR3RFNuY1ExN2RaSUFnc1IzR1dWaV9JSlJCQkc0SmdYSFVVc3BqS05BT1RZd2t4TVMxOS1TWmpvVUJmSm5qcGJ2RkZ1X1BuMHludkd6Qk9RQXZPNjdFYTNUR2E1eTdaTnQybmZ4YWdSRGpXcjBMdnBn?oc=5",
-   "s": "https://tech-insider.org/",
-   "d": "2026-11-03T02:50:32+00:00",
-   "lang": "en",
-   "t": "Mass Effect Flag Cuts Unverified; GTA VI Nov. 19 [2026]",
-   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdlFVTThBTUNOelJKNnE4MEZPdGVwR0p6SGROLXB2b3ZWRUF1QzEzOC1UT0NqYnVOZ0Q2czZTMDNpQlJ5a1hQT004YzFVeHk1MGJfOGcwX1Rkc1hvU0duZmphNWE0V3RSUXBBTWRzRzJDS2FCT3ZEWjdZVEdxa2lob21YckQ2a0hiUzlYelJOZEpvek9uX1ZIZGhvUEk4b01QYjJvckZzRFJBOGxOXzkzUlBvTmQzZG9iN2NkdGUzaw?oc=5",
@@ -306,13 +269,20 @@
    "pub": ""
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQmNadnlXdHNNb0lzWlZSVUJTeDBsOWREZTE0ZDhweXAwMmNMZDVBV2ZwSHNwME1pXzVnQ3pUSi1nQTNzVmhBSzVBc3gxekpzVWZGeDlmNzJrSVhqV2VkaDNobnprcjFpQzFkTjNVeXpKRHJtWEN5UGVXZkdYRlltcUNVSUhacU4xVTZFMXBYYVh3QmVHY29yUFVJNDF6U1hnc2c?oc=5",
-   "s": "Mix Vale",
-   "d": "2026-11-03T01:09:46+00:00",
+   "gn": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9IQ25lVEpFVFdpa1llUmJkYndqM2I4RE85R3RiU3JmVm1vN25oMGZUcUNTcjFtTDZjZGJwdDdab2ZEc0JtOW03LUtuRjJwS2p5YnBEV2tLWEJwZXZRLTNLMW0tTmtJLUM2WFEwOW84TlVRcndSQ3Z3dUp30gF_QVVfeXFMTllFSmlLMXNpTDdwQUR4YU1ReC1taTNMcHZta1lpYXJYZUpUQUJGLVJQRWItMDVOX2FJNWZsTDVSTU9vNjJFdTY2QXcxMzdaNmhiRGlVLURFeklIWlRqWkxSWmZZMGxjLU9xTENtbVJtcjVzanlNcy16azhpdjBtaw?oc=5",
+   "s": "Metro.co.uk",
+   "d": "2026-11-03T02:00:00+00:00",
    "lang": "en",
-   "t": "GTA 6 leak shows 25 minutes of unreleased gameplay and nudity",
-   "erreur": "429 : passage suivant",
-   "cyberleek": true
+   "t": "Games Inbox: What’s the first thing you’ll do in GTA 6?",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOQ2pJczQ3OHBUWWZWWlpjVC0wQ1p3SE9USllrcVNLX1ZVS0JrcjlydlJZTFBwbm5YclhET3dnOWJwekV2bUVqalpyZlRQem4zMFM2NkFlbEhaTWxreDZtZXZZZnE2SF9qTkVzNExFVkU0ZzlpSDRzd1kwMW1EcW1pR1lmOUJkZmdoMlFwb1FXZWNmb2RPcHFSTEhGeTlBa210LXhtMFQ1RmhtcHV1VUNXVXZhbjNZMUE1OUNsY0M2Y1FPbVhtUVZPZkZOYjJiQzVvUm1uNHF3NVU?oc=5",
+   "s": "MMOEXP",
+   "d": "2026-11-03T01:43:43+00:00",
+   "lang": "en",
+   "t": "​GTA 6 PS5 Update Firmware Blocks Jailbroken Consoles as Pre-Orders Reveal New Bonuses and Soundtrack Details",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPeEdidmFqSWE3LVRTU0VkYW5sR0V6d1k4N1FBSHdSdE1Ba3R1R08tYW1kYnlvVWllN3BMNzBSaVdsMlFkcTRWOUVpeUJlZmZTaGFaeUk2bnY3WkRKVFcweWhFOGt5Mk1RNktkRXBEVDVMZ2F6NkVDMFZ4YUo5TUV1RDAybDlFcmJMb1ZOMV91MWhnSzlucHRBclBsY2c1Um5jc1FPZXhoYVlnQm95UG81cEJRYk5FZGhuemhnel8yX2ZkWmE3RFZaVHpHRm1qb0hUMHZUbUJobDNRY0VmQTNya2VTM2RuOWZNaWJwalEtUUdvX1ZlOGc?oc=5",
@@ -327,36 +297,6 @@
    "pub": ""
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBRMzNXc1NpOVF6QWNyUnFueVg3dEVjNDgweVQ5bWh5OXNNd3ZwYWI5SnRQd1U3VWZ2d0VEVmZBNEZpSi13ZWxvNXk2UVp0VFFZV0JLSXgwT0EwejlWRWctYjBUdEtKb0VQLUtteVhXNzY1VDk1enIzS2dn?oc=5",
-   "s": "Yahoo Actualités",
-   "d": "2026-11-02T23:02:00+00:00",
-   "lang": "fr",
-   "t": "Et si le meilleur jeu vidéo de la fin d’année n’était pas « GTA 6 », mais « Phantom Blade Zero » ?",
-   "u": "https://fr.news.yahoo.com/meilleur-jeu-vid%C3%A9o-fin-d-070237615.html",
-   "img": "https://s.yimg.com/lo/mysterio/api/6053d3c7f979b3df300a7fd7c3c681685b1a8997c1bb2f67230223667a059846/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Ffr%2F20minutes.fr%2F57ceccc56c1da368179d0f466f5940f8.jpg",
-   "chapeau": "Le futur GOTY ? - « Phantom Blade Zero », sorti le 28 octobre, fait un départ en fanfare avec déjà 4 millions de jeux vendus. De par son gameplay et ses graphismes, le titre du studio chinois S-Game e...",
-   "txt": "Phantom Blade Zero a déjà écoulé 4 millions d'exemplaires en 72 heures. Le futur GOTY ? - « Phantom Blade Zero », sorti le 28 octobre, fait un départ en fanfare avec déjà 4 millions de jeux vendus. De par son gameplay et ses graphismes, le titre du studio chinois S-Game est la grosse surprise de cette fin d'année\nLa fin d'année 2026 promet de régaler les fans de jeux vidéo. Entre le légendaire et tant attendu GTA 6 ou encore le remake de The Legend of Zelda : Ocarina of Time , les consoles et les portefeuilles vont saigner. Et parmi cette flopée de pépites à venir, l'une d'entre elles s'est déjà bien fait remarquer. En effet, le fameux Phantom Blade Zero, développé par le studio chinois S-Game, a déjà trouvé son public. Sorti le 28 octobre dernier en France, le jeu affole les compteurs de vente. Et l'équipe derrière ce projet n'a pas tardé à le communiquer.\nEn seulement 72 heures, le titre a écoulé plus de quatre millions d'exemplaires. Il fait mieux que le récent Marvel's Wolverine et son 1,9 million de copies vendues en trois jours ou encore que 007 First Light qui s'est écoulé à 2,7 millions d'exemplaires au cours de sa première semaine de commercialisation. Mais alors pourquoi Phantom Blade Zero cartonne autant ? Que propose-t-il de si pertinent ? Est-il de taille pour obtenir le titre de jeu de l'année aux Game Awards ? Analysons le bestiau.\nManette en main, Phantom Blade Zero dévoile toute sa puissance. Le jeu impressionne avant tout par son système de combat ultra-fluide et dynamique. Les développeurs ont transformé chaque affrontement en véritable ballet martial inspiré du Wuxia, un art chinois connu pour ses chorégraphies et ses acrobaties impressionnantes. Le studio S-Game a d'ailleurs fait appel à des grands noms de ce genre, notamment Donnie Ye(...)\nLire la suite sur 20minutes À lire aussi : Le multijoueur de GTA 6 sortira l'année prochaine « GTA VI » : Le personnage féminin est déjà hypersexualisé alors que le jeu n'est pas encore sorti",
-   "pub": ""
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNOTh1WHdlZWtUbUJoQk90TXVDUHRSVmVJeEd3clUzRmZqa2xnNkdyVXJOWkFQMzI2cXNDUzljU3BEeTVyU1JaLVBJeGw2MDlvVlRPNElISWVmQ2dhcHpTbXVIVnQyTWF6RzF4V3VTWGxhRERVcU1LS3pYVjEzdUZXYU1sRGx3TGowSWxNYW1sem1FZ3lLMFJ3eDN3elNuTnFVQ1E?oc=5",
-   "s": "Dexerto",
-   "d": "2026-11-02T19:24:26+00:00",
-   "lang": "en",
-   "t": "Self-made millionaire says GTA 6 could actually save players $5k",
-   "erreur": "429 : passage suivant",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVG1WZEhVSHN3Nm9nRTBrTzRfeXAzVmJLcENkVkl0b1MtQXU0cmo2TlIyOFhDSjZibGZJUWlDMU1rWUthcVluYUZzcnV5NkQwWlZ1dUlpdDUxcGJfOFYxVFotZ3BEclRIdFFjakN3T0xyNU5qRzJJU2lGS0k3WUhmWjJncVVSblV4SlBMYTVTQWV2ZkhSV293?oc=5",
-   "s": "https://ascendants.in/",
-   "d": "2026-11-02T18:49:49+00:00",
-   "lang": "en",
-   "t": "GTA 6 Could Take Up 210GB on PS5, Nearly 50,000 MP3 Songs Could Fit in the Same Space",
-   "erreur": "429 : passage suivant",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMickFVX3lxTE1tVGFRbmpGem0yNVZ0bkswY0pCREVubG4xUDVyOEg2MHl1TGlBQnFvdEoxSl8zQ2xac2lIWUxLX0tHVzJXRFNVTXRaNUhfcEw1Rlg2MVNRUTFBdlUzYmhjN3NQaHhmVy1wM0dhcm9mc1l3QQ?oc=5",
    "s": "Mashable",
    "d": "2026-11-02T15:39:13+00:00",
@@ -367,15 +307,6 @@
    "chapeau": "Walmart is trying to get you to buy a disc-less box.",
    "txt": "I just found out that preordering a physical copy of GTA 6 doesn't come with a game disc. You probably knew this already, but you just get a case with a digital voucher slip, meaning you will still need to clear a monstrous 210GB of SSD storage and wait out a massive download queue before stepping foot in Leonida.\nI ditched my console a few years ago ( GTA 6 might persuade me to jump back in), so I'm not exactly the most clued-up gamer, but that feels a little silly to me. What is convincing shoppers to buy a plastic case without an actual disc?\nSpotted by the deal-tracking account Nintendeals, Walmart apparently posted a product listing promising a complimentary \"surprise and delight bag\" bundled with every GTA 6 preorder ($79.99 at Walmart) .\nI guess getting free swag with an $80 purchase that virtually never sees day-one discounts is a harmless win.\nWalmart has history here. It offered promotional snack kits featuring Pringles and Coca-Cola bundled with last year's Nintendo Switch 2 preorders. Getting a novelty can of chips and promotional stickers is not really a compelling reason to buy a plastic case with a paper code inside, but maybe I am simply an old man yelling at a cloud.\nIf you actually want physical collector memorabilia, Rockstar is selling a separate $400 Collector's Box . The 11-piece crate packs custom Oakley sunglasses, a New Era cap, and a physical map of Leonida. But the actual game is sold separately, if you can believe it.\nJoseph Green is the Global Shopping Editor for Mashable. He covers VPNs, headphones, fitness gear, dating sites, streaming, and shopping events like Black Friday and Prime Day.\nJoseph is also Executive Editor of Mashable's sister site, AskMen.",
    "pub": "2026-11-02T15:30:43+00:00",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1TUXA1V3EzaU93Vlo4NjBOWWVIYjJZc2tXWWRwRnB5YU5kTHB3VG9uSFY2cWVSVFEzMmRzYmxBb0lhWnlmRGlWemJNbGNIaGtURDQ1djcxNm9PVzdyRVczaQ?oc=5",
-   "s": "Sportskeeda",
-   "d": "2026-11-02T13:38:00+00:00",
-   "lang": "en",
-   "t": "All GTA 6 leaks so far",
-   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -397,24 +328,6 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQOTR2UVVVWkVyUWNpMk1yNWNXN0JKN0JaNjA4QnFURVlaSUFGRHpnek9veW9iaFBzWXc1N25XQ0FJcHdJRHZvSGxhNUhHTGdUZi1mNjVfOGZQd3owVko1S0tGMHVzbWxWTThQLVZ0ZXlPTjl4RkoydjRHMmRfQnRCclJMQjFnYXBrT1FQM2xJcUhfNnc?oc=5",
-   "s": "Sportskeeda",
-   "d": "2026-11-02T12:59:00+00:00",
-   "lang": "en",
-   "t": "Fake GTA 6 leaks are filling the internet as release date approaches",
-   "erreur": "429 : passage suivant",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcEJtZkx2YTd6ZDJ5Wjh4cVYyVkVlTzBMdFNOTlZYbVZjcmhFOE1wRVVtYm1uV09hUFE2ellDcFg1VjNYM1hBV0lXZEhVVXdIQV9zaGhVWTViUFhfbjZ5b0dCVE5DQkpNT2o3c25CcEgwQldxdHpDb1lHYmIwQ3h1dy1FZ1U3RU1UaXBJV0paVVRJZ2l5SkFj?oc=5",
-   "s": "Sportskeeda",
-   "d": "2026-11-02T12:10:00+00:00",
-   "lang": "en",
-   "t": "Chess gets a GTA 6 style makeover dubbed Grand Chess Auto",
-   "erreur": "429 : passage suivant",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdlY5blJRbi1xSFVTM3ZQbmVOLXIxUEJWU0tzZkZNUzRFOXNJZ1RVNGU1NWp5NDAtMDdKSTFOc1loRU1JTGk1QV9DajBzR20wbVZrS085a2E1X0R1QldJdkhuTVhOVklRc0d1WnlNY1VHNHAtaGFEV1NoLU1tWnVhdXJJSnA?oc=5",
    "s": "RockstarINTEL",
    "d": "2026-11-02T11:45:39+00:00",
@@ -428,20 +341,56 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSW5RS3F0emtFeExTWjZueXdNNGUtcjFYTW8xUUtsaDlrY0tHOVhmMzJqTVhGbWtnaW9lYlhUNFpTYWZwdHZNSS0waktYTWFXdElwQlpsME5QLW16d010WEFxT2ExR0xqbU1iczlHYjN4eElyV0dIMzZmYWRZbDZXVVpoTEhBR05lRnRKLS1LX0g1UWUzeVlNdmt0WkNNS1hBb0stdXJB?oc=5",
-   "s": "Sportskeeda",
-   "d": "2026-11-02T10:20:00+00:00",
-   "lang": "en",
-   "t": "GTA 6 pre-orders at Walmart will include a mystery gift for PS5 and Xbox buyers",
-   "erreur": "429 : passage suivant",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5paC1ManlSSVZ0VE9pTHRZMV9DWXN3UE9RZ2ZMUUlRaHFYYS1lMUxGVE1kUG1xX3hCNXVOT0c0bzUtOUZTaHQyLTN4R1ZqQWFMU0RhQUhERVo1MUFDdG1KU2tKQ1VTWm1BcUhtZzhGM1VmVndrNnc?oc=5",
    "s": "Indy100",
    "d": "2026-11-02T10:00:19+00:00",
    "lang": "en",
    "t": "GTA 6 LIVE: Game pre-orders include 'surprise' from one retailer",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOa2t6RVhLX1NDeEk4cXRHYjdXZUJMMmZ4NE85ZVVhcklrMmFrd0VwR18yTzNqclRadmxyWnZQM1pXVDFzSk52Y0QzOGNQUW5FZnhMenlsZjFKSXhEa0xQU3NxTkRkZ3R6NnJ4WmE1ZEowbVVlSHM3ZVEtS0YyN29WejFEMWpQWFFWWnBzbG9R?oc=5",
+   "s": "https://tech-insider.org/",
+   "d": "2026-11-02T09:49:47+00:00",
+   "lang": "en",
+   "t": "GTA 6 PS5 Install Size: 210GB Reported, 31% of SSD [2026]",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTEVpd1BFZGFEX21aejEwbHpBSGpRQ1ZBQkliWmlVcGdsczA2WEJzb0s0UE45RFpLMlZtQmVuaVRTZ0NVbjlHVm14OUtsLS0wVFdCQU5Md0dwbDlqRDJybE9jR3hLU3JNWm5XYW9Ec3pRY0d4blpnSjh4dlNSWkV1WNIBfEFVX3lxTFBwOU9Rb0hSeFFuOEpYTnRpVHNJZE85X1BucDl5YWx6M1d4R2tlMFloTF9QX1I2d0k3TWZBMmw5NWtBMi1qaF8wUzc5Z2FLMW9wa2VpMmhWS213NUl4VldrNW5UMUFtTWZ2RllORjhGOWVNVnp5WVdYeXRDQm0?oc=5",
+   "s": "The News International",
+   "d": "2026-11-02T07:03:10+00:00",
+   "lang": "en",
+   "t": "GTA 6: All details revealed so far",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTzVTOVBzbThHMWRqV2ZWN1JZanZFdlA1TncwcDU0aTZveWEtc25hOVNhRE9OSDdJeVNWQ19kVUJ6NklpazVfUmItZGxHWmJSWFpaMnotM0t0LVFLUzZtQkhKLVlTTU5JTGM3bVdVVnYzNDhSNEVpVk83TU9GSXZvV1JyZk01eVU3YWE2SmhmNFJWeG03eHAzbHVhTXlUMklaU2otbkRZcHpqLTd2bUp1ZDZ2NlRTUS10Q0xZWXJjVWo?oc=5",
+   "s": "MMOEXP",
+   "d": "2026-11-02T02:02:06+00:00",
+   "lang": "en",
+   "t": "GTA 6 Map Revealed: Full Map Size, Vice City Locations, Interiors, and Major Changes Explained",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPWW9nVjdqUkswWlFXbjZQaW44eEpnYVptX3UxSEdfVkFzaUR2dGNGMXc2UWkybjBIYnFiUTR2Vlo3ZmFRQUtjUVJpLWlXRzZaQkVUZDQ2T1BhbmhwY2xHV3A4eFBwX2N0QjJSVGJsVlViR0p6UXFyS0ZGNi13cm1vY1NGeTE3Ql9JYllkeXRWcw?oc=5",
+   "s": "https://tech-insider.org/",
+   "d": "2026-11-02T00:49:36+00:00",
+   "lang": "en",
+   "t": "GTA 6 Radio: 6 Stations, 18 Tracks, 17 Days Out [2026]",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMikAFBVV95cUxORzhXLTNCSnUwSlJqOVJGTVZWclVidUxkYXlzcmk3a2FKTk04dzBkanlIMG5DSWZRVmFKbWxYTHFpcE9ZTkhJaXhRVGRpOTVQaVZ6MnQyWG1xdDQ0N0xjUkgzQ08td0h5eWtPb3lqWEdKVjNWRlZhQTUwYnZBSHBBaHVwb25vanNfWnc2Q2szYUI?oc=5",
+   "s": "Pasquale Pillitteri",
+   "d": "2026-11-01T20:17:16+00:00",
+   "lang": "en",
+   "t": "GTA 6, everything we know so far, confirmed vs rumor",
    "erreur": "429 : passage suivant",
    "cyberleek": true
   },
@@ -464,6 +413,24 @@
    "d": "2026-11-01T12:12:48+00:00",
    "lang": "en",
    "t": "CYBERLEEK Price, CYBERLEEK Price, Live Charts, and Marketcap",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYlpNSElPYkdTMWhENmFmM2dMWXNEeDBWSkM2RFRXclhfWlllLWU1SE9qUHZqQTBfTzlPVnRsTVZTRllkUTlLMllDeVVrQzhscmVLQTVGdHB0MUFJb3pDZmVoV0sxVVBTQnUzRUIyMUx2T1JWRG9hd1ZSTnZ4dkdoVjVyU29uVV9PWUt1eDg1Q2x0dVly?oc=5",
+   "s": "https://tech-insider.org/",
+   "d": "2026-11-01T08:11:09+00:00",
+   "lang": "en",
+   "t": "GTA 6 Expectations: 18 Days to Nov 19 Launch [2026]",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNi16RXN4Y1BUY05RVG9mWFlwV0hsZEQ0MW1RcldTZ05jalhNeDg3TjQ0dXBFRGt5Qnp2aUFyY1VZbkZEOGQ4QjN4dU1hS21ONWhwYldsVjNsOEVYelJSMmxkdmJmTVlyX2JaU0xOMmkwSzN3TW53akppczN0eUlrTEJPMVZRWXQ5OTlsMDNBcTl0d1FVdEl4aUtR?oc=5",
+   "s": "https://tech-insider.org/",
+   "d": "2026-11-01T00:14:01+00:00",
+   "lang": "en",
+   "t": "Rockstar: GTA 6 Leaks Invasive, Launch Nov. 19 [2026]",
    "erreur": "429 : passage suivant",
    "cyberleek": true
   },
@@ -737,6 +704,24 @@
    "d": "2026-10-18T04:28:12+00:00",
    "lang": "en",
    "t": "Cyberleek Shares More GTA 6 Footage Featuring Lucia Naked",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9vaEs4SzBzUnNUaEM1Y090U293a0IzOW9zN2J4N055d1o1dU9tT1RSb0J0NmZEblVFVTkwb1NtajBNS2VTS085dzE5VDJoM1A0LU9XMnRHVVhxUzhIVEdsR2tGQlNWWDJWckJwbEVLajR6VC1kSm90SWtR?oc=5",
+   "s": "shattered.io",
+   "d": "2026-10-17T07:00:00+00:00",
+   "lang": "en",
+   "t": "GTA 6 Leaker Cyberleek Is Back as Coin Hits $1.2M [2026]",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQcjIwV19XMlhaMzFiQU43b3JxN0I4MkJ2UFpYX01wU2JnOUJGbk1nak1pVlZ2NFA5emlubkY4bXZKNE0wUnJqUjFlSFJSZlVuOXl4RVQzMkZ1ZC03RHJ3OGczYVNlNXdLajl2d1hFSmpSZG9BeXNPN2tPbkozUTZYTUlHZXRKNFZwQXNJTHBOa2Z2eURuRnZDVlRoUTdlajZhblppYTJPU0c4cFR1UFhtWlBRUmdCX3NjNmkwU2RBWUN1WlJkV2RCUHV2Rm1ESEJibmFRZnZUWE00d9IB3wFBVV95cUxNbGhuY2lCS0d4VEprb0ZEWEtGYnlRc1FSQU1VVU5URUphUk9lUWZiYnNwSnlyX3FTZWZvY2ZEN2t3dzh3Z0pBUGxOTkNFZElQa2VfZENyN092NWd1c3dhb29pc2FVdTd1cS05R3hoNmJxcE0tOWJmOFM2N2ZIMzFtU2Q3ZTh4N2UtbXdfWHh5cVdMQmFXYmEwMW43ZDhTcHROUmtNOW54aU9qYUtYY3JndjVYeVVNUkpTNlNFbmh0YzE0aDVzWWxCYXFDQ2xJOHFmLXZIYmJHUGhIZmtYbVNB?oc=5",
+   "s": "iXBT.games",
+   "d": "2026-10-16T07:00:00+00:00",
+   "lang": "en",
+   "t": "GTA VI Developers Showed a \"Black Mark\" to Hacker Cyberleek? A Threat from Rockstar Was Seen in the Trailer",
    "erreur": "429 : passage suivant",
    "cyberleek": true
   }
