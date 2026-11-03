@@ -1,8 +1,46 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-03T00:15:00+01:00",
+  "updated_at": "2026-11-03T08:20:00+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-marketing-toronto-3-panneaux-gta6",
+      "title": "Rockstar affiche GTA 6 sur trois panneaux géants à Toronto",
+      "summary": "@GTAVI_Countdown relaie, d’après une vidéo de @TottiN835, une opération d’affichage GTA 6 à Toronto avec trois panneaux géants. Elle prolonge la campagne vue à Barcelone, Édimbourg et en Australie.",
+      "url": "https://x.com/GTAVI_Countdown/status/2117446557754937639",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "2026-11-03T02:39:34.000Z",
+      "checked_at": "2026-11-03T08:20:00+01:00",
+      "evidence": "Vues relevées le 3 novembre 2026 dans data/x_alertes.json : 36 439 vues, 2 286 likes, 210 reposts. Vidéo d’un tiers (@TottiN835) citée par le compte ; non vérifiée directement (pas de navigateur).",
+      "visual": "AFFICHAGE · TORONTO",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2117446297061822464/img/u52c5J-Cb__TEEjn.jpg",
+      "image_alt": "Aperçu vidéo des panneaux GTA 6 à Toronto",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "cta": "Voir la publication sur X",
+      "embed_type": "x",
+      "post_text": "Rockstar’s GTA 6 takeover in Toronto, Canada with 3 giant billboards.\n\n(via @TottiN835)"
+    },
+    {
+      "id": "x-precommande-walmart-sac-surprise-gta6",
+      "title": "Précommande GTA 6 chez Walmart : un sac « surprise and delight » inclus",
+      "summary": "@GTAlphaintel relaie que les précommandes de GTA VI chez Walmart incluraient un sac « surprise and delight ». Le détail du contenu n’est pas précisé dans le post.",
+      "url": "https://x.com/GTAlphaintel/status/2117391307652178090",
+      "platform": "X",
+      "author": "@GTAlphaintel",
+      "status": "Rumeur",
+      "published_at": "2026-11-02T23:00:01.000Z",
+      "checked_at": "2026-11-03T08:20:00+01:00",
+      "evidence": "Vues relevées le 3 novembre 2026 dans data/x_alertes.json : 33 785 vues, 817 likes, 53 reposts. Un seul compte, aucune confirmation Walmart consultée.",
+      "visual": "PRÉCOMMANDE · WALMART",
+      "image": "https://pbs.twimg.com/media/HWHueWoaIAAFvAR?format=jpg&name=360x360",
+      "image_alt": "Visuel du post sur la précommande Walmart",
+      "image_credit": "@GTAlphaintel sur X",
+      "cta": "Voir la publication sur X",
+      "embed_type": "x",
+      "post_text": "Grand Theft Auto VI pre-orders at Walmart include a 'surprise and delight' bag"
+    },
     {
       "id": "x-fan-voidonly-decede-tiktok",
       "title": "Le fan qui rêvait de vivre assez longtemps pour jouer à GTA 6 est décédé",
@@ -1143,6 +1181,11 @@
       "at": "2026-11-03T00:15:00+01:00",
       "label": "Veille permanente · 3 sujets",
       "summary": "Relevé X du 2/11 22 h 12 UTC : ajout du décès du fan voidonly (355 718 vues), de la campagne d’affichage multi-villes (65 804) et d’un artwork de fan (72 080). Précommande Leclerc/Fnac (60 863, simple question) écartée. Pas de navigateur."
+    },
+    {
+      "at": "2026-11-03T08:20:00+01:00",
+      "label": "Veille permanente · 2 sujets",
+      "summary": "Relevé X du 3/11 07 h 05 UTC : ajout de l’affichage Toronto (36 439 vues) et du sac Walmart (33 785). Rob Nelson/Edge (396 686) déjà couvert. Pas de navigateur."
     }
   ],
   "coverage": {
