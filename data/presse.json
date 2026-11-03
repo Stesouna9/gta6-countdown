@@ -1,6 +1,22 @@
 {
- "maj": "2026-11-03T08:31:29+00:00",
+ "maj": "2026-11-03T08:47:12+00:00",
  "articles": [
+  {
+   "gn": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOU2FCZWEyeG5DZF9hV1BnNHM0R3JOclN0YmVocGlXdEJ3S1FmamQ4ZDI5V3N6WTBQZk1KS1JrWk12RDh5MUhYVGxGeG14RXQtWjlNckJqQ0pCSldyMVlIZzlPZ19YYzFMVHFJUmhQWmxmajRzOTc2NnJDN0R5RXpseGptMTZZaTl5cFdDYXhDSUxRNzAzYmc?oc=5",
+   "s": "Gameblog",
+   "d": "2026-11-03T08:31:38+00:00",
+   "lang": "fr",
+   "t": "« On peut aller n'importe où » Comme Skyrim, GTA 6 sera si riche en détails qu'il vous faudra des années pour tout découvrir",
+   "erreur": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQS2pFWUFxR3FyUjFqQ1BXeXhvaFFZSVhHanNDSWZuc1NjQmUwUUVZa3pHOHpJNnlfSDd2bFMycUE0bjlkNjR3d2ZleHByMl83THgzaFdRRFNjLVFnS01rVUlyQW96UzNNTGtQYUFzVnExSzR5aWg4RTRzRmNLZjlFd3o5U0JWWlliQ3R4YzRQZlZkb1VjUkxSVnZlR2tBOEdVTXpTWURJMUtsdUhrZXBjNTVDVjdxUG5JNFptR3kxZ2ZNVlRxRUZ1c1lzSjhQcEd2QTFLSV9oelFNdXM?oc=5",
+   "s": "IGN France",
+   "d": "2026-11-03T08:30:00+00:00",
+   "lang": "fr",
+   "t": "Un fan de GTA 6 en phase terminale décède 3 semaines avant la sortie, la communauté lui rend hommage",
+   "erreur": "429 : passage suivant"
+  },
   {
    "gn": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPUUxsVnFWcWVPN2Z0aU4zaFNwcm5uOF9jR2dvUmJ0UVlqY01BeHJEY3o5RE5xTE5uWEFid2ZJVVltSGVTM1ZfWVVtNG1SeEtOTlRkSDZvTVR4aGszU2x2YWo0eGlMWTZ1VGxqTG5aVnlNSEdSOHZNTldHZ0loSS1aYTZR?oc=5",
    "s": "big-n.fr",
@@ -31,7 +47,7 @@
    "d": "2026-11-03T07:40:08+00:00",
    "lang": "fr",
    "t": "Les jours dans GTA 6 sont longs : alors qu'une journée complète durait 48 minutes sur GTA 5, elle durerait 2 heures 24 sur GTA 6",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQmFTLW1UR1g3Q0NjVW5aTFFid3dPSjJvMjNHREg2aWdHS2xpQm5GREUyalRHbUJEUWtxLUkzRWdEdjV3N0p1cXNlNkYtTlZYUjlBa2tkXzJQLUNOTnRqQVdoeFJ2RjN5VWo1N3BPN2h0Y2J4SEZUX1RiUzBtaWNnaFVnc3ZFUXpTNl9VOXctb0U0bll4WWZEOXVOaG9BU2FCUWV4YUtVUnBUNG9aMHd1YV9sQmFsenc?oc=5",
@@ -58,12 +74,20 @@
    "pub": "2026-11-03 08:00:25"
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40YWdVQUJsbWVaUWo3d0hmODBVVWstWEowZWdsUEdVbzBqSmlwU1UzT0w1U0F3S0c4enNBSkQwb195Y3VlQWpmUkpmamhKVC1UVUgxc2hJVXdtOTl1VDJYaWJKc1JWUTRZOHpnb1NNaTg?oc=5",
+   "s": "Insider Gaming",
+   "d": "2026-11-03T07:00:27+00:00",
+   "lang": "en",
+   "t": "Is GTA 6 Out Now? Grand Theft Auto 6 Launch Day Tracker",
+   "erreur": "429 : passage suivant"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE52bVRoWkFnQi1UZ3JSRlp3Q1owamJUVGdjRXl2cWFxM0F4SWdoWWljZWtNd3FUX1QxZ2lHMFdMQV80dTRxTzFtN0d0Y2NjLUxsNlRqcGNEMjQ?oc=5",
    "s": "Red Bull",
    "d": "2026-11-03T07:00:00+00:00",
    "lang": "fr",
    "t": "GTA 6 : que nous réserve la bande-son ?",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYVREWnJVNHpqdUNneURvVFRGYmttWGNpQUpEb2tlbzZnbVFmSXpoeW5XZm5uTkUxX3V5U3NWQVFPMi1HM0oxUzVFY2xFM001U2FCdXl2Q0EzelBjV0hDeVlkLUZxeTg1M2R0eUxPcWNJaHFYQWFUdzJSaF9GUDlGdkFlTnFLckgwMHpoSlhKYU8yU242czFHaklPS1k4NXExdGxsYTVB?oc=5",
@@ -83,11 +107,7 @@
    "d": "2026-11-03T06:01:19+00:00",
    "lang": "en",
    "t": "GTA 6 fans would trade sex, booze and pets for early game release",
-   "u": "https://uz.kursiv.media/en/2026-11-03/gta-6-fans-sex-pets/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": ""
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOam9hZXRRX0JkaXJxSEduQlRkeXZmSDhMcjd4NlhCenEtdU80TG5zQ2Znd2ZSTExpU3hZRDBvUjVwQkhlX19Fc2hrOHdzUGlXOWdlLUNvSEs1a3lpenNLUUFEYkZlWmZzc2sxWThHbzBWY1NRdWtzY0I2NjNyZG00alVGSzA4bk1mUURNak1iOXkyd0RIWVpFXzFURWs1V19JUUtFRkVaenJKVGsyalE?oc=5",
@@ -143,7 +163,7 @@
    "d": "2026-11-03T05:19:01+00:00",
    "lang": "fr",
    "t": "Juste avant GTA 6, Amazon craque et casse le prix de la manette PS5 DualSense",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdFVrS0RTLWVSSVVjRzRFT1VjM09MY0RSR1F2N1I1WU8yZkVIQXU3ODV0ODdnVTZqNVVWcFBja2c2a1JMd28ydE9ZRVAxNTUwQmtWejE5cDJfc1NVTmNWSVZqbmxFZ3hZcHF2ZTBCWmprZGxuRE1CRjZ2MkRFUmdUOFZvaXRyWDd4aHR6OVdCZ2NrdGRJSDd0YWNlSk95OXhZWWdZOTdKa3FqaUliZ1QyU3pn?oc=5",
@@ -170,6 +190,14 @@
    "pub": ""
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1yZWVmczd6emYzVlpPdHNTZDlhazRaczhwVDhPMUQ5aTM4YTctVExQdUJUaF96THc0X21qLXV6UzZNUGxud3NRSEtMN2dsNlpyUHpjR25EQ2FULXh1b2Q2Q3BnMkVZVFZR?oc=5",
+   "s": "Ville de Lille",
+   "d": "2026-11-03T04:16:54+00:00",
+   "lang": "fr",
+   "t": "Soirée GTA VI",
+   "erreur": "429 : passage suivant"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNeHg4QklFbjA3VlBXZGhtRHhFYmRVOGRXeGk0WVpLNjJEQ1FzSTZTRFF4MEliZzFpUzZ0Y2xaNlF5X2xoTXAtMUpadTJJTE9CMllEUUo2dXFfNVdZb3dBcDM2cWQ2eW5CNjZrMUpuT1otSnVvYTJ1VkNHUllJZHdmdDBreXhNRGlUdTRXODI0VXpBcExlZUVRQjJjUjVqbHI3bDJXcFNwcTJJdGNCMTZUTjJsTEtEV29UX2hCbnI3Um1oaVN0Z2kzVkszMzBleXFwNnpZUi03Y1lJN1dubHZFSE1wVVo?oc=5",
    "s": "Notebookcheck.fr",
    "d": "2026-11-03T04:11:00+00:00",
@@ -179,7 +207,8 @@
    "img": "https://www.notebookcheck.biz/fileadmin/Notebooks/News/_nc5/PSAppMessaging.jpg",
    "chapeau": "La PS App est peut-être l’un des endroits les plus risqués pour partager des vidéos de gameplay de GTA 6 ayant fuité. Un utilisateur de Reddit affirme qu’un ami risque une suspension permanente du PSN après avoir publié un extrait. Sony a renforcé la surveillance automatisée pour détecter les infractions dans les discussions.",
    "txt": "Take-Two Interactive et Rockstar ont demandé des retraits au titre du DMCA de fuites de GTA 6 sur les réseaux sociaux. Sony semble également surveiller la PS App pour repérer les vidéos non autorisées. L’utilisateur Reddit Silver-Succotash-612 affirme que le compte PlayStation d’une de ses connaissances a été banni après le partage d’une vidéo.\nSelon l’auteur de la publication, un ami a essayé d’envoyer l’ extrait de gameplay de GTA 6 , provenant peut-être de Cyberleek , à un contact. Le profil PSN a été immédiatement bloqué, ce qui a motivé une demande d’assistance . Il a appris qu’un recours prendrait 3 mois, ce qui rend peu probable un rétablissement de l’accès à court terme.\nLes joueurs devraient prendre cette affirmation avec des pincettes, mais des bannissements ont déjà eu lieu après la publication de contenus enfreignant les conditions d’utilisation. Dans un cas, un utilisateur a partagé une capture d’écran de Conan Exiles montrant des personnages nus dans une discussion de groupe privée. Cette personne a vu son compte PlayStation banni pendant 30 jours.\nCe qui distingue le récit de ce Redditor, c’est la rapidité et la sévérité de la sanction. Normalement, les employés de Sony n’enquêtent pas sur d’éventuelles infractions à moins qu’un joueur ne les signale. Dans ce cas, seuls deux amis discutaient d’une fuite concernant GTA 6 dans la PS App.\nUne surveillance automatisée pourrait expliquer la détection instantanée de l’extrait de gameplay. En mars 2025, le fabricant de consoles a lancé Nudge, qui détecte les messages inappropriés et avertit les participants aux discussions. Malgré cela, l’assistance n’est toujours pas censée consulter les communications ni restreindre un compte PlayStation sans signalement.\nUne autre hypothèse est que PlayStation a pris des précautions particulières à l’approche de la date de sortie de GTA 6 . Rockstar et Sony ont signé un accord marketing lucratif . Le jeu PS5 peut attirer un très grand nombre de nouveaux clients dans l’écosystème de la console. Des fuites gâchant les annonces pourraient nuire aux deux entreprises.\nLa plupart des observateurs s’accordent à dire que l’ami de Silver-Succotash-612 aurait dû trouver une alternative à la PS App. Les vidéos de Cyberleek se sont propagées sur des plateformes moins exposées aux avertissements pour violation du DMCA. Quoi qu’il en soit, certains lecteurs ont soulevé des préoccupations relatives à la confidentialité et remis en question la justification d’un bannissement à durée indéterminée.",
-   "pub": ""
+   "pub": "",
+   "cyberleek": true
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOQ2VTSjF4NW5JNFZlODE1bjIwVDgzY1M4SEJ1dzVuOGJWRlR3aE5ta0VVUTNZWWdUNk1BcTB2WVZ5eXppZk5lb0w0Y1FVMXhrNGIwRlQ1d3VFYXNmYXZoRkFzUl8zcFk4RzBHOWlET3FYa2xRamtHdEV5VlhndmFmcWRnMjA5VXMtVHg0dw?oc=5",
@@ -224,7 +253,7 @@
    "d": "2026-11-03T02:50:32+00:00",
    "lang": "en",
    "t": "Mass Effect Flag Cuts Unverified; GTA VI Nov. 19 [2026]",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdlFVTThBTUNOelJKNnE4MEZPdGVwR0p6SGROLXB2b3ZWRUF1QzEzOC1UT0NqYnVOZ0Q2czZTMDNpQlJ5a1hQT004YzFVeHk1MGJfOGcwX1Rkc1hvU0duZmphNWE0V3RSUXBBTWRzRzJDS2FCT3ZEWjdZVEdxa2lob21YckQ2a0hiUzlYelJOZEpvek9uX1ZIZGhvUEk4b01QYjJvckZzRFJBOGxOXzkzUlBvTmQzZG9iN2NkdGUzaw?oc=5",
@@ -250,30 +279,6 @@
    "chapeau": "This isn’t the first time a pop culture phenomenon has tanked worker output.",
    "txt": "This isn’t the first time a pop culture phenomenon has tanked worker output.\nNOW PLAYING is HR Dive Reporter Caroline Colvin’s column at the intersection of HR and entertainment.\nGamers have been waiting for Grand Theft Auto VI for what feels like forever — and that heated anticipation may have negative repercussions for the workplace.\nGTA 6, as it’s colloquially called, officially drops on Nov. 19, 2026, with pre-loading starting on Nov. 12. Because of this, HR may see time-off requests — yes, really — as early as this week, if they haven’t approved PTO already.\nAccording to an October report from Zety, 11% of workers are planning to take time off for GTA 6 or tweak their schedules. The data shows it’s more common among younger workers compared to older workers and more so among men than women to make these schedule adjustments.\nZety is only the latest source to claim that gamers’ return to Vice City will be bad for productivity. Back in September, Steven Adams of the Houston Rockets said even the NBA’s performance would plummet because of GTA 6 in November. Adams’ prediction may actually be supported, too, by a recent Money.com report suggesting that Nov. 19 will be a “ billion-dollar sick day ” thanks to GTA 6.\nWhile 1 in 10 workers being OOO or AFK for GTA probably wasn’t on HR’s bingo card for the year, 9% of respondents told Zety that they have taken PTO for a video game before. The survey also polled workers about a variety of entertainment events, with workers revealing that they’re not always going to request time off; they may just call in “sick.”\nHR has experienced that phenomenon before. After the Super Bowl, millions of people call in sick the following Monday. Historically, March Madness has been a workplace distraction for the ages, though this ongoing tournament in particular has sometimes been used to re-engage burnt-out employees .\nWhat should HR do about GTA 6? I think they should take a similarly positive, proactive approach.\nI, like many, see workers as fully realized people and think they should take time off for whatever they need. I’m inspired by my own team in this area, with my fellow HR Dive team members not just taking time off for illness or emergencies, but for homeroom parties, family vacations, sporting events, concerts and yes, even video game releases.\nPTO should be used freely, not for the sake of frivolity, but because it allows people to show up at work as individuals. It also gives them a chance to recharge and return to work with renewed energy. With this in mind, HR should get out ahead of whatever they think may hurt worker productivity in the short term — be it GTA 6 now or Jay-Z’s Super Bowl soon — to bolster worker productivity in the long term.\nIt’s much better to have a game plan that accommodates everyone’s desires than to be caught short-staffed that day.",
    "pub": ""
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9IQ25lVEpFVFdpa1llUmJkYndqM2I4RE85R3RiU3JmVm1vN25oMGZUcUNTcjFtTDZjZGJwdDdab2ZEc0JtOW03LUtuRjJwS2p5YnBEV2tLWEJwZXZRLTNLMW0tTmtJLUM2WFEwOW84TlVRcndSQ3Z3dUp30gF_QVVfeXFMTllFSmlLMXNpTDdwQUR4YU1ReC1taTNMcHZta1lpYXJYZUpUQUJGLVJQRWItMDVOX2FJNWZsTDVSTU9vNjJFdTY2QXcxMzdaNmhiRGlVLURFeklIWlRqWkxSWmZZMGxjLU9xTENtbVJtcjVzanlNcy16azhpdjBtaw?oc=5",
-   "s": "Metro.co.uk",
-   "d": "2026-11-03T02:00:00+00:00",
-   "lang": "en",
-   "t": "Games Inbox: What’s the first thing you’ll do in GTA 6?",
-   "u": "https://metro.co.uk/2026/11/03/games-inbox-first-thing-gta-6-29760782/",
-   "img": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_310234408-6563_1793670447.jpg?quality=90&strip=all&w=1200&h=630&crop=1",
-   "chapeau": "The Tuesday letters page is already planning out how to play GTA 6, as a reader looks forward to the next episode of South Park.",
-   "txt": "The Tuesday letters page is already planning out how to play GTA 6 , as a reader looks forward to the next episode of South Park .\nGames Inbox is a collection of our readers’ letters, comments, and opinions. To join in with the discussions yourself email gamecentral@metro.co.uk\nGolden path So GTA 6 is getting really close now and while there’s still so much that is secret about it, I can’t help but start fantasising about playing it and what I’ll do. Because we don’t know much concrete it’s hard to say I’ll go there and do that, but my plan is to ignore the story as soon as possible and go off exploring.\nI particularly like the more wilderness areas in GTA 5 and open world games in general, so I’ll be heading to the everglades and that mud tournament place. I really liked the outdoors area in the leaked Cyberleek footage (whatever happened to them?) and will have great fun messing around there.\nThe city I’ll probably leave till later, but I do get the feeling, from what we’ve been shown that my idea of skipping the story is kind of built into this one. I think it’s what a lot of people do in open world games and the impression I get from previews is that doing robberies is a lot more up to you than part of a story mission, perhaps to make the whole thing more freefrom.\nAnyway, interested to know what other people are planning? Will you go for the story path and then explore more or do it my way? Paulie\nSign up to the GameCentral newsletter for the latest GTA 6 news, reviews of new games you should play and exclusive analysis of the biggest stories of the week.\nBending the rules Surely I wasn’t the only one thinking how in the heck has Sony Bend survived this long , making nothing and their last game being Days Gone? And yet Sony has shut down so many other developers, including Bluepoint!\nSeems to me that Bend is pretty much their least talented team and yet they get to live, while Japan Studio and London Studio is shut down, and a bunch of others I’ve probably just forgotten. I’m not trying to get the people there sacked but just what is the logic?\nPersonally, I think their next game probably will turn out to be a Syphon Filter reboot, which I’m sure literally dozens of people will be excited about. Archie\nNo regerts I’ve had a Nintendo Switch 2 since launch and while I almost regret getting it so early, because its first year wasn’t great, I don’t because there’s been a price rise since that and the situation with games at the moment is much better.\nLike everyone I’m puzzled by the lack of Mario and other prominent games, even the ones I’m not particularly interested in, like Animal Crossing , but if you assume they’re coming eventually I feel we have stepped things up in the few months and I’m really looking forward to the new Metroid starting the new year off in the right way. Jono\nWar budget Whatever the excuses are about Gears Of War: E-Day costing $500 million I really don’t care. Gears Of War and $500 million have no business being in the same sentence together. The game should have been on the low end of big budget games, based on the franchise not being that popular anymore and the gameplay barely having changed in over 20 years.\nThey can just use the graphics from Gears 5 and it’d be fine. That game looked great, that wasn’t the problem. The problem was the tired gameplay. As usual Microsoft thinks it can buy its way to success but spending so much on such a tired franchise is crazy.\nThe worst thing is that they’ll happily pour all that money down the drain and then lay off a thousand people like it was nothing. Here’s a suggestion: keep the people and save the money by not giving your games such insane budgets. Xane\nLegendary ocarina Now that the release of the Zelda: Ocarina Of Time remake is almost upon us, have you heard anything about the release of the ocarina which is supposed to go with it?\nI don’t mean the electronic version, I mean the real, working ocarina. It’s such an endearingly goofy idea from Nintendo that I’m tempted to buy it, but it looks like it won’t be possible any time soon. So I’ll probably just stick with humming the tunes when the game comes out. Looking forward to it either way. Mickah\nGC: They haven’t said anything new about it, but the electronic one sold out very quickly. You could try the Argos mentioned in this story , if you’re nearby, but to be honest we doubt it’ll be there.\nSuccessful demo I hadn’t expected to end up with one of the Reader’s Features this past weekend, I",
-   "pub": "2026-11-03T02:00:00+0000"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWDBkZFJxTmh6TDlfSnBXOHlHc0taYVhPaUFCbzFpY0hfSm1VRFJ1SUdtWWtqaFdnbVNKa1BfVzdaLVZvWUowSW16OUtvR19EYl82WU1FSUNyM2JNcW5hTEItaFNLZWxzaUw3aDZrYVJLRmFsWUZjeUl5d1Z3MzBEdE1XQVBvZHJzXzg5UlJQMWg3azZJcHZvQTA1dFZleFhITDgwUFpLUjNUZllfRGVSSXBXYzRaQQ?oc=5",
-   "s": "selecta bisso",
-   "d": "2026-11-03T00:21:11+00:00",
-   "lang": "fr",
-   "t": "Travis Scott x Nike Air Force 1 Low « GTA 6 » : les premières images du coloris Black dévoilées - SELECTA BISSO",
-   "u": "https://selectabisso.com/travis-scott-x-nike-air-force-1-low-gta-6-les-premieres-images-du-coloris-black-devoilees/",
-   "img": "https://selectabisso.com/wp-content/uploads/2026/11/travis-scott-rockstar-games-nike-air-force-1-low-gta-6-black-pink-2.webp",
-   "chapeau": "La collaboration entre Travis Scott, Nike et l’univers de Grand Theft Auto 6 se précise. Une première apparition photographique de la Air Force 1 Low « GTA 6 » dans son coloris Black vient de faire surface. Avec ses références à Vice City, ses détails roses et ses clins d’œil à l’univers du jeu vidéo, […]",
-   "txt": "Sperry et le label new-yorkais Colbo dévoilent leur quatrième collaboration",
-   "pub": "2026-11-03T00:17:37+00:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPeEdidmFqSWE3LVRTU0VkYW5sR0V6d1k4N1FBSHdSdE1Ba3R1R08tYW1kYnlvVWllN3BMNzBSaVdsMlFkcTRWOUVpeUJlZmZTaGFaeUk2bnY3WkRKVFcweWhFOGt5Mk1RNktkRXBEVDVMZ2F6NkVDMFZ4YUo5TUV1RDAybDlFcmJMb1ZOMV91MWhnSzlucHRBclBsY2c1Um5jc1FPZXhoYVlnQm95UG81cEJRYk5FZGhuemhnel8yX2ZkWmE3RFZaVHpHRm1qb0hUMHZUbUJobDNRY0VmQTNya2VTM2RuOWZNaWJwalEtUUdvX1ZlOGc?oc=5",
@@ -312,26 +317,6 @@
    "pub": "2026-11-02T21:30:07+00:00"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaUhnNzM0d0lVLUdRVVlENVlIS3VqTUkxNnZiZW5yT0w0d0YwcXhXcVlaRVN0RlRtWjMzTTZkMUhQTEt5cURseHJ2dWpwUThyQVdlcThHUVEyb24xc0d1bks0ZDFfanU4bFowZldtXzUzM2dqVi10YWlXXzRQdlMwemYtYzBkLXc0cmVPQVlzWjFtaGRRWDFQaHBvV2JFb1lHaU9hV1doTy1qTnRWd21XVUEwNHowRkt5aDg2TmlkX0ViTjBZNldkRm9FcnE?oc=5",
-   "s": "Serieously",
-   "d": "2026-11-02T21:00:00+00:00",
-   "lang": "fr",
-   "t": "GTA VI : pourquoi les fans de Red Dead Redemption 2 vont adorer l’intrigue du couple Lucia et Jason ?",
-   "u": "https://serieously.ouest-france.fr/gta-vi-pourquoi-les-fans-de-red-dead-redemption-2-vont-adorer-lintrigue-du-couple-lucia-et-jason/",
-   "img": "https://serieously.ouest-france.fr/app/uploads/2026/08/gta-vi-sur-netflix-1.jpg",
-   "chapeau": "Les deux jeux vidéo de Rockstar sont connectés ?",
-   "txt": "GTA VI : pourquoi les fans de Red Dead Redemption 2 vont adorer l’intrigue du couple Lucia et Jason ? Publié le 2 novembre 2026 à 22 h 00 Par Maxence Grosvalet\n© Rockstar Games Dans quelques semaines, le jeu vidéo le plus attendu de l’histoire sera enfin disponible. Mais avant que Grand Theft Auto VI ( GTA VI ) ne soit accessible à tous les fans le 19 novembre prochain, les équipes du studio Rockstar continuent de révéler, petit à petit, certains détails concernant leur jeu vidéo. Ainsi, si vous avez adoré l’aventure de Red Dead Redemption 2 , vous risquez de devenir accro à l’intrigue mise en place autour du couple Jason et Lucia.\nIl ne reste plus qu’un peu plus de deux semaines d’attente… Dans 17 jours exactement, soit le 19 novembre prochain, les fans du monde entier pourront enfin mettre la main sur le très attendu Grand Theft Auto VI ( GTA VI ). Toujours développée par le célèbre studio Rockstar, cette nouvelle aventure va plonger les fans au cœur de Vice City, une ville fictive inspirée de Miami. On y incarnera alors les personnages de Jason et Lucia , une version moderne du célèbre couple Bonnie et Clyde , qui tenteront tant bien que mal de se faire une place dans le milieu criminel de Vice City.\nLa romance entre Lucia et Jason sera donc un point central de l’histoire du futur GTA VI . Du moins, c’est ce qu’on a voulu nous faire croire… La réalité présente dans le jeu vidéo pourrait toutefois s’avérer bien différente de ce que l’on pensait…\nDès les premiers trailers, l’objectif du studio Rockstar est clair : mettre en avant son duo de protagonistes . Lors de la présentation du 27 août dernier , les équipes avaient notamment insisté sur l’évolution de la relation entre Jason et Lucia, qui fluctuera donc en fonction de vos actions. Dans GTA VI , l’amour est un sentiment qui s’entretient . Vous devrez donc bien penser à faire répondre vos personnages aux textos de l’autre, tout en leur faisant passer quelques activités ensemble pour maintenir la flamme en vie.\nPour autant, est-ce réellement grave si la relation entre Jason et Lucia se termine ? Les deux personnages peuvent-ils se séparer dans le jeu vidéo ? Eh bien, la réponse est non, puis oui. Dans une interview pour Edge Magazine , Rob Nelson, le codirecteur du studio Rockstar, est revenu sur la relation entre ses deux protagonistes : « Au départ, ils veulent être ensemble et donner une nouvelle chance à leur relation. Mais, au fur et à mesure que le jeu progresse, c’est à vous de la garder ou de la perdre . »\nEn réalité, il n’y a donc aucune incidence sur la façon dont vous souhaitez gérer le couple Jason et Lucia dans GTA VI . Si vous voulez jouer le jeu, vous pouvez entretenir la relation et les garder en couple tout au long de votre aventure, mais si cette partie ne vous intéresse pas, le couple finira par rompre, sans que cela impacte réellement votre aventure. Lucia et Jason deviendront alors de simples partenaires de crime, sans que cela ne pose aucun problème.\nCette volonté du studio, que le joueur puisse influencer le destin amoureux de Jason et Lucia, ne vient toutefois pas de nulle part. Lors de cette même interview, Rob Nelson affirme qu’elle est venue tout droit d’un autre jeu vidéo à succès du studio Rockstar : Red Dead Redemption 2 .\nDans ce jeu vidéo, les fans incarnent Arthur Morgan, un hors-la-loi qui, alors qu’il est en cavale avec sa bande, se retrouve au cœur d’une grande introspection pendant que le monde lui-même change autour de lui. L’âge d’or de l’Ouest Sauvage disparaît peu à peu pour laisser place à l’industrialisation venue de la côte Est. Le joueur doit alors choisir comment Arthur doit dépenser son argent et ses ressources. « Est-ce que je dépense cet argent pour moi, en vêtements stylés, chevaux et selles ? Ou est-ce que je le donne à ma famille adoptive dans le gang ? » explique Rob Nelson, révélant que les joueurs doivent naviguer entre « égoïsme et altruisme » .\nPour la relation entre Jason et Lucia, le principe est le même. Au fur et à mesure de l’histoire de GTA VI , les joueurs devront choisir quel type de personnages ils veulent incarner et décider si cette version de Jason et Lucia se dessine alors qu’ils sont ensemble ou si, au contraire, le mieux pour eux est qu’ils se séparent. Réponse le 19 novembre prochain.\nSuis-nous sur Google pour ne rien rater de nos quiz et actus séries\nSuis-nous sur Google Ajouter aux sources préférées Maxence Grosvalet\nMaxence Grosvalet est journaliste chez Serieously depuis 2023. Passionné p",
-   "pub": "2026-11-02T22:00:00+01:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNMUF2c1Q0VVViV3gtWVdKUlV5b1dVUW1HUm56bjBuWGptWnlmeXVvS1hUNVNqLXc2RXVQdVA2Vkhpd1RVMV9XVW9XTFdSRTV0ejhmUUxJaVk2anRDenVSVXdqMklTQ3d6MVFWMEo1MmtqWlIyQ2pRQTJBTWlVSW5lSXRubm9BWV9ieFdJZ3AtcEU4eUItWWpVbWlZamxBSTI5QzVRU18zSlVabS1pYzlBYWgwaE1DTE41WkI2WmRNeDJOaXBMVGMxam91NlRKaElLSVdkVUlNOERTdUZWeTNwSUNjbmVjSUxZQzVhSHBrellQR0cteTRSRw?oc=5",
-   "s": "Ouest-France",
-   "d": "2026-11-02T19:27:03+00:00",
-   "lang": "fr",
-   "t": "GTA 6 arrive à grands pas : les stocks de la PS5 baissent à vue d’œil sur Amazon",
-   "erreur": "HTTP Error 403: Forbidden"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMickFVX3lxTE1tVGFRbmpGem0yNVZ0bkswY0pCREVubG4xUDVyOEg2MHl1TGlBQnFvdEoxSl8zQ2xac2lIWUxLX0tHVzJXRFNVTXRaNUhfcEw1Rlg2MVNRUTFBdlUzYmhjN3NQaHhmVy1wM0dhcm9mc1l3QQ?oc=5",
    "s": "Mashable",
    "d": "2026-11-02T15:39:13+00:00",
@@ -345,25 +330,12 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1TUXA1V3EzaU93Vlo4NjBOWWVIYjJZc2tXWWRwRnB5YU5kTHB3VG9uSFY2cWVSVFEzMmRzYmxBb0lhWnlmRGlWemJNbGNIaGtURDQ1djcxNm9PVzdyRVczaQ?oc=5",
-   "s": "Sportskeeda",
-   "d": "2026-11-02T13:38:00+00:00",
-   "lang": "en",
-   "t": "All GTA 6 leaks so far",
-   "u": "https://www.sportskeeda.com/gta/all-gta-6-leaks-far",
-   "img": "https://staticg.sportskeeda.com/editor/2026/11/be415-17936247332204-1920.jpg",
-   "chapeau": "GTA 6 is right around the corner, and while the wait is certainly almost over, what a ride it has been.",
-   "txt": "Your login session has expired. Please logout and login again. × GTA Home GTA 6 Leaks GTA 6 GTA Online GTA 5 Cheats GTA 5 Cheat Codes Xbox One GTA San Andreas GTA Vice City GTA 5 Phone Cheats GTA V Cheats PS4 GTA 5 Cheats PS3 GTA San Andreas Car Cheats LS Tags GTA Online GTA 3 cheats GTA 4 cheat codes GTA 6 price More GTA All GTA 6 leaks so far All GTA 6 leaks so far By Mohammad Sadiq Modified Nov 02, 2026 13:38 GMT Share \" data-lazy=\"//staticg.sportskeeda.com/comments/ic-comment-v2.png?w=48\" alt=\"comment\" width=\"20\" height=\"20\" loading=\"lazy\"/> 0 Discuss Share \" data-lazy=\"//staticg.sportskeeda.com/comments/ic-comment-v2.png?w=48\" alt=\"comment\" width=\"20\" height=\"20\" loading=\"lazy\"/> 0 Discuss 0 Discuss What's your opinion? All GTA 6 leaks so far Discuss Now GTA 6 has had several leaks (Image via Rockstar Games) GTA 6 is right around the corner, and while the wait is certainly almost over, what a ride it has been. The game’s long waiting period was marred by leaks over the years, with everything coming to a climax with the infamous Cyberleek situation. The leaks drip-fed us information about the game, its characters, Vice City itself, and more.\nIf you’re eagerly waiting for GTA 6 to release and want a trip down memory lane about all the leaks, we have you covered. In this article, we’ll go over all the GTA 6 leaks that we’ve seen so far. Naturally, there may be some spoilers, so if you wish to walk into the game completely blind, you’ve been warned.\nThe first big GTA 6 leak came at the hands of a GTAForums user named Teapotuberhacker on September 18, 2022. The user leaked files showcasing an early build of the game , giving us our first look at the dual protagonists, Lucia and Jason. The leak also gave us glimpses of the new in-development Vice City , as well.\nThe next big leak came only a few months later, on December 2, 2023, mere days before the first trailer of the game. The leak was made by a TikToker named azzarossi, who was rumored to be the son of a Rockstar North employee . The leak gave us a glimpse of Vice City's skyscrapers and residential areas, as well as a busy highway.\nWith Rockstar's marketing going all in to build up the big Trailer 1 release on December 4, 2023, people were eagerly waiting to get their first official glimpse at the game. Well, some people got that glimpse early thanks to a leak of the entire trailer ahead of the official release. The leaked trailer, rumoured to have been released by a YouTube employee , forced Rockstar's hand and led to the official trailer being released early.\nFast forward to January 1, 2025, and we got a new leak on Reddit. User JustLovett0 shared an image he claimed was from \"mid 2021.\" Furthermore, the user shared a Google Drive link that contained an image of Lucia on a monitor . Next to the monitor was a PS5 development kit , and an Xbox development kit was seen in another video. The office scenery also visually aligned with Rockstar San Diego's, adding credence to the leaks.\nA week later, another Reddit user, Pebblestar_, shared in-game information he claimed was legitimate. According to the user, GTA 6 would feature crash physics resembling real-life crashes , multiple weapon wheels for weapons and attachments, high levels of gore , and allow players to enter 40% of the buildings on the map.\nOn September 8, 2025, dataminer Tez2 revealed that Take-Two Interactive had registered domains for in-game websites . The websites — what-up.app, rydeme.app, buckme.app, leonidagov.org, brianandbradley.com, and more — appeared to be websites you could visit in GTA 6. However, the very next day, Tez2 reported that all of the discovered domains had been removed from Take-Two’s nameservers.\nLater, on November 30, 2025, a demo reel from former Rockstar Toronto character animator Benjamin Chue leaked on Vimeo. The demo reel showed off the game's animations, showing the player character using a bike. The demo reel was later taken down.\nWhile all the leaks up to that point had given us a peek under the lid, a leaker named Cyberleek blew off the lid entirely in August 2026. The leaker leaked several clips from the game, including 25 minutes of GTA 6 gameplay footage later in October.\nThe videos showed them driving around the game's map, interacting with its mechanics. They even threatened to release an entire build of the game online ahead of the game's official release.\nAs far as the contents of the leak are concerned, the gameplay footage gave us a glimpse at the following:",
-   "pub": "2026-11-02T13:34:24+00:00",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRVpoYzZzNzZ6UkZ3Ukp2Y0lxb0ZJb090X0xrUlpXZzNZRzNjT2VPTW9BNFpmNE5scU83ZkVsQ3pTaVJQamRqdDFndU9HVjNyR2l2RG0xSndTaU1TNFhqbDZWRUVQWlZvVlFNWmlpQW9PM2lGMS0zM2VEUG1ka1BWVWVDb0d5YXpKTjJOdXlLTjFFNmNKOUE?oc=5",
    "s": "DesignRush",
    "d": "2026-11-02T13:06:02+00:00",
    "lang": "en",
    "t": "Leaked $130 Travis Scott x Nikes Show GTA 6 Merch Can Outprice the Game",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -371,12 +343,8 @@
    "s": "YouTube",
    "d": "2026-11-02T13:00:11+00:00",
    "lang": "en",
-   "t": "- YouTube",
-   "u": "https://www.youtube.com/watch?is&v=4zT4mVbCjmY&feature=youtu.be",
-   "img": "",
-   "chapeau": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
-   "txt": "",
-   "pub": "",
+   "t": "Interviewing One of the Most Interesting GTA YouTubers - @YTGrid",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -398,11 +366,7 @@
    "d": "2026-11-02T10:00:19+00:00",
    "lang": "en",
    "t": "GTA 6 LIVE: Game pre-orders include 'surprise' from one retailer",
-   "u": "https://www.indy100.com/gaming/gta-6-preorders-gameplay-screenshots",
-   "img": "https://www.indy100.com/media-library/an-official-screenshot-of-jason-and-lucia-in-gta-6.jpg?id=68575651&width=1200&height=600&coordinates=0%2C28%2C0%2C28",
-   "chapeau": "It's claimed GTA 6 pre-orders will come with a 'surprise' from one retailer that's stocking the game.Grand Theft Auto 6 releases in two-and-a-half weeks on 19 November on PS5 and XBOX Series X/S. Those who pre-order the Standard or Ultimate edition can load it a week early from 12 November.Brand new...",
-   "txt": "",
-   "pub": "2026-11-02T09:34:41+00:00",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -411,7 +375,7 @@
    "d": "2026-11-02T09:49:47+00:00",
    "lang": "en",
    "t": "GTA 6 PS5 Install Size: 210GB Reported, 31% of SSD [2026]",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -446,7 +410,7 @@
    "d": "2026-11-02T00:49:36+00:00",
    "lang": "en",
    "t": "GTA 6 Radio: 6 Stations, 18 Tracks, 17 Days Out [2026]",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -455,7 +419,7 @@
    "d": "2026-11-01T20:17:16+00:00",
    "lang": "en",
    "t": "GTA 6, everything we know so far, confirmed vs rumor",
-   "erreur": "Remote end closed connection without response",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -472,12 +436,21 @@
    "cyberleek": true
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE12azJxeEhWSFRvRVYwT0hldlNGNWZJelBUVnNMeFVEZFpxTFRNamlwLVA4LXhRdkNtdzRJRFNSNlVEc3c5d3RuRzRyWDRCekdPVnByNDRVa3ZpSHhZek1NbXg5VXlaNVk?oc=5",
+   "s": "Coinbase",
+   "d": "2026-11-01T12:12:48+00:00",
+   "lang": "en",
+   "t": "CYBERLEEK Price, CYBERLEEK Price, Live Charts, and Marketcap",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYlpNSElPYkdTMWhENmFmM2dMWXNEeDBWSkM2RFRXclhfWlllLWU1SE9qUHZqQTBfTzlPVnRsTVZTRllkUTlLMllDeVVrQzhscmVLQTVGdHB0MUFJb3pDZmVoV0sxVVBTQnUzRUIyMUx2T1JWRG9hd1ZSTnZ4dkdoVjVyU29uVV9PWUt1eDg1Q2x0dVly?oc=5",
    "s": "https://tech-insider.org/",
    "d": "2026-11-01T08:11:09+00:00",
    "lang": "en",
    "t": "GTA 6 Expectations: 18 Days to Nov 19 Launch [2026]",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -486,7 +459,7 @@
    "d": "2026-11-01T00:14:01+00:00",
    "lang": "en",
    "t": "Rockstar: GTA 6 Leaks Invasive, Launch Nov. 19 [2026]",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -508,7 +481,7 @@
    "d": "2026-10-30T12:39:43+00:00",
    "lang": "fr",
    "t": "Les copies de GTA 6 fournies aux médias n'ont quand même pas de filigranes",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -590,6 +563,15 @@
    "cyberleek": true
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaXdNUkZ0UXlEUkR5LURJNjdGeU1JMHgzeTMyRGY5RVNBRThpM3lUN1p2U2l3VEdjaHRKbUtZeE41TTI1VlhvTEtfSjc2R0NLcnJVQWVaR3E4U2ZqOUg0SUU5V1ZJN1JKSU1JOWVxMTlSWEhXWmRoMHZZbTlwalU3Ylc4Znc5TE03aWpOanVVTkVjWGdSWV91X1FR?oc=5",
+   "s": "UNILAD Tech",
+   "d": "2026-10-27T10:14:17+00:00",
+   "lang": "en",
+   "t": "Why GTA 6 characters could have nude models that players never get to use",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5JbUFQYTFyWmNteU96ckl4WHZqNjk3NmR6aUdmQTJaWHNHb21nN1VDU3F5ZXY1MmltRzhmQ0djc0xpTm9LRVBpRWRQWGg3WG5na0hWZ1k1UHltSklYbXhZTlFrOGlCb1k?oc=5",
    "s": "SVG",
    "d": "2026-10-27T01:00:00+00:00",
@@ -603,21 +585,12 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPd2JXeUd1dVgycDE4MlFtV3g1c2EtdlNvd3hwRFZ5dVVna0U3VU9TZW5OalZnSEcwRmFHTDRCQXllRGZDdE1DTl9iMENGRDNOU0R2dmp5eWR0aFUwWVh3UEJmdjFJSW5rcHl0aUF2VFljejlwWVVIVlRteVcwWUpqRTU0c0VCWkwyV1FXZGhweWZVU25GZ21NRA?oc=5",
-   "s": "EGW.News",
-   "d": "2026-10-26T19:12:15+00:00",
-   "lang": "en",
-   "t": "GTA 6: New Gameplay Leak Featuring Lucia Possibly Revealed",
-   "erreur": "HTTP Error 403: Forbidden",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNGdXdFFBdkJudkJrSEQ3enppQ1otMnNRS0xzOHZNUkdlMHhEQnZyeC1MWjFxem9aYmlLWS1jbDJPbEhFYzlTVFRuRjVqTHg2dUFScHF6ZGRHOEVvbkZiRjBTR3RmNW9rRGVmaGpvaHVmVVB1U2YxQVdoNFZxOW9rR1Z0UE1CY212c3Q2bXpMMFM3bTNYdFc0Z1dhVG8?oc=5",
    "s": "EGW News",
    "d": "2026-10-26T19:12:15+00:00",
    "lang": "fr",
    "t": "Une nouvelle fuite potentielle dévoile des images de Lucia dans GTA 6",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -652,7 +625,7 @@
    "d": "2026-10-25T07:00:00+00:00",
    "lang": "fr",
    "t": "Selon ce leak, GTA 6 aura bien le poster que les joueurs attendent le plus inclus dans sa boîte",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -682,12 +655,84 @@
    "cyberleek": true
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1WTlZSdjJBT183dFhFMWd2YlRRZUlEdWF2WFdGSE94MU5NRUFfa1VvOEh1YVlCUXFITl9DZWJMbVloSVl0ZVdvcmVKU3Nadw?oc=5",
+   "s": "IMDb",
+   "d": "2026-10-22T15:12:54+00:00",
+   "lang": "en",
+   "t": "Cyberleek Shares GTA 6 Leak Of Naked Lucia",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQLURQSkcxYjdWbG9jajY0cmE5ZlN5VGxvLU10YVQtVnBKVE0zQjctd1JiQTRnV2tEOG5YWEE4cjhBcXpGM0JXbHRNZ0FkT0EzRGZmWUYwQmdRLXozWXVDSW9RS3JfaXpxVF91ZkpieEF0UUtNS3ZyTFZrYnlodU9tUWxJTQ?oc=5",
+   "s": "Yahoo Tech",
+   "d": "2026-10-21T07:00:00+00:00",
+   "lang": "en",
+   "t": "GTA 6 Leaker Cyberleek Threatens Full Game Release",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMncyZlRpUEFHaS1ScjFKYXNRTExybXprc1VZdnRlRFNVWUlPWGd3UnpwNWozUHdOLWhWSDdkc0FyNU5zdTVqZFBQZ1NyMDFmMlUycDlwZURxX203dHdlaHlyME9EQkxDRkduU1JwTDI5eE1RaXJ4OE8xS3RtalpDckNvS3VkMEd5cTRmTEtLdnNvMl9QT2hibDFuQXdDS3Z2aWk4S3BsQThWZHM?oc=5",
    "s": "Softonic",
    "d": "2026-10-21T07:00:00+00:00",
    "lang": "fr",
    "t": "GTA 6 : un employé dit avoir été licencié après une fuite sur TikTok à Miami",
-   "erreur": "HTTP Error 412: Precondition failed",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5salliRDZyMXBzQWZHczVJeVdsTXU1NVU4VXJsNmRxWjRfS0J1LVFDY0ltSkplZHFERkRaVXJadDUwOF9iLTlTOVpvSHk5Q1BLd0E?oc=5",
+   "s": "IMDb",
+   "d": "2026-10-20T11:13:09+00:00",
+   "lang": "en",
+   "t": "'GTA 6' Leaker Posts Nude Lucia Video With Threats of Releasing Game Early",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBCaldhTDVEY3RCaXNxS0RDZWZjbnBTMVllcFdaV1NrY3R4RTM4U2ZGYjBPSzF0dXRNemozNU91a0JqR1I5Q3NwaWpwTTM5a2tNWXB4SWwwMEhiQ0FWbnBTUDNBeFhMdUE?oc=5",
+   "s": "IMDb",
+   "d": "2026-10-20T07:57:13+00:00",
+   "lang": "en",
+   "t": "GTA 6 Leaker Threatens Story Spoilers If Caught",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA4NEExcXJYR19TdXRJMGhvRmkydTBIbmtteWNibkxlWGZuaFotWkhTdjhVa0FKclYwQVVMam9VMFY5WHdDX0NVTTR2OFQ4djBJYVItbjNjSEg1NGVaM2EzQ0ZjMm9pbS1za1hUd05tNE1tX2hTWlhHeQ?oc=5",
+   "s": "virus.hr",
+   "d": "2026-10-19T07:00:00+00:00",
+   "lang": "en",
+   "t": "The latest post from GTA VI Leaker Cyberleek",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdGhzMjJJd0ttd0tGVjdDMmtPSWNyLWhMTVh0c2tCanZQcEFaQjFMTy0wanBYTkM3MFRFNlYyMEJ0ZHk4dFVsWnhuRDRjNklJV1hHUndSaU1jY3o5NEM4dW5mOENibWdzMHNZZkdub0I1V0lFRjVaamJZQWNxTHJta0NWajhyZ2ZoZExxcEJpRUloS1lSVDRIUUtUdGpYN1Yxd2FrVllVb2lvU2dYQllpUg?oc=5",
+   "s": "PCMag Middle East",
+   "d": "2026-10-19T07:00:00+00:00",
+   "lang": "en",
+   "t": "GTA 6 Leaker's Latest Effort Appears To Flop As Group's Meme Coin Declines",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE16YjZnS2RvOEtSVldQZ3hMTVh2dDZfX01BcVVUUTFuMVZPMVN1c1B3UURHVGVNMUdJOVZtS2NkY0VNeTJxQmpnWi1yTFl4cFEtc0x0VmRsbGMxa0UtbkdRdA?oc=5",
+   "s": "IMDb",
+   "d": "2026-10-19T02:15:56+00:00",
+   "lang": "en",
+   "t": "Cyberleek Confirms 20th GTA 6 Leak Will Be Their Last",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ULWhnT21RSDYzLTQtaVhYaGxJUzRnWGxRUXlWZDlBZnZpbGxsYXJ4ZTFDVVNJQWMxNE5VNzRGXy14MGEyaFJzZGY0RGZyUExENkZtODVabmpLbGxnWVhZVg?oc=5",
+   "s": "IMDb",
+   "d": "2026-10-18T04:28:12+00:00",
+   "lang": "en",
+   "t": "Cyberleek Shares More GTA 6 Footage Featuring Lucia Naked",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -704,32 +749,6 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRXN2Qi1iQ1d5b1RrSElfWUJXR2NCM2lCVEU5a05HUWhleThTcWhKdm5lcTk5WWtQS2IxSFlSdzQ4Rkgza19FNUR2Q3dPVjFkYk9RZk1TNU0xdFphTmZsYTlnazdDT2dEQVNPTFpQdmtoTUhmbzlhVER2LWo0RVdwRDlnMUxyY0JCbnphWVZmQjVNam9OWVptUUhpVUgwNERvSjJwQzBGUnRLQWRtcjJXQ3dHOU9RZw?oc=5",
-   "s": "Cowcotland.com",
-   "d": "2026-10-16T07:00:00+00:00",
-   "lang": "fr",
-   "t": "GTA VI pour 40 dollars, c",
-   "u": "https://www.cowcotland.com/news/102846/gta-vi-pour-40-dollars-c-est-possible-avec-cyberleek-et-sans-cybertruck.html",
-   "img": "https://www.cowcotland.com/images/news/2026/10/cyberleek-gta6.jpg",
-   "chapeau": "Et encore un nime revirement dans linsoluble chronique du leak de Grand Theft Auto VI, Cyberleek nous avait promis clore ses fuites, suite  l",
-   "txt": "7600X vs 7500X3D vs 9600X : La bataille des CPU 6 coeurs chez AMD NBA 2K27 : quels gains avec le nouveau modle DLSS 5 ? Thermal Grizzly Duronaut Pro : adieu le hotspot qui s'envole ! Test Fosi Merak : un premier lecteur CD russi ! Dernières vidéos : 33 KG, 699 ? : MSI A-T-IL CR LE BOTIER PC LE PLUS DMESUR DU MONDE ? Finition BOIS et RGB gogo sur des ventilateurs, Thermaltake a os !!! Des ventilateurs avec une finition BOIS et du RGB gogo ?! Thermaltake a os !!! #gaming #pcgaming Du monocadre intelligent avec les Light Wings Pro IO de be quiet! DeepCool LT360 VISION, simplement pas cher et bien quip ! Accueil Actualit Divers Jeux Pc, consoles... GTA VI pour 40 dollars, c'est possible avec Cyberleek et sans Cybertruck Et encore un nime revirement dans linsoluble chronique du leak de Grand Theft Auto VI , Cyberleek nous avait promis clore ses fuites, suite l'chec de sa cryptomonnaie, ce qui empchait, selon lui, de financer son projet de diffusion d'une build jouable, mais il n'en est rien, il est de retour avec une build propose 40 dollars ... Sans Cybertruck, mais peut-tre avec des petits Cyber trucs en plus ! Dans son nouveau message, Cyberleek affirme que la build v1.0.1.08022025 du jeu Grand Theft Auto VI est une version jouable et qu'elle est tlchargeable ds prsent, contre la modique somme de 40 dollars. Qu'en pensons-nous ? L'aspect thtral de ce piratage et des leaks qui en ont dcoul, additionn au fait que Cyberleek ait tent de couvrir son piratage d'un fond en faveur des joueurs, exigeant une version physique et des excuses de la part de Rockstar Games, nous ont toujours laisss pantois, il semblerait que les dernires tirades de Cyberleek, totalement axes sur l'argent, tendent nous donner raison. N'omettons pas que rien ne nous garantit que la build soit rellement jouable, exempte de logiciels malveillants, l'offre est infrieure au tarif officiel, mais le danger semble bien trop prsent, de notre point de vue.",
-   "pub": "2026-10-16T11:33:18+02:00",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQN3hGd0t1VVRzTURaMHAyOG9PcmgzajV5WGVpZUJsRGt2ZWE2dk1zLWd0cFUwN2xzUTduam01TF91SWxEUHktSDF5TWlSNFdHTmRnRnVDRGp5eTFPWnZkc3BySWVxTGxLMS00aVpSX2lJSVk5SmtCTFY4VE5mY2ZqUHRVT0ZHWXdhWTJwbmRXU05yRXZIRGdjVk5sVzJtUm9Ha0E?oc=5",
-   "s": "Fredzone",
-   "d": "2026-10-16T07:00:00+00:00",
-   "lang": "fr",
-   "t": "Le retour fracassant de Cyberleek et la fin annoncée des fuites sur GTA VI",
-   "u": "https://www.fredzone.org/le-retour-fracassant-de-cyberleek-et-la-fin-annoncee-des-fuites-sur-gta-vi/",
-   "img": "https://www.fredzone.org/wp-content/uploads/2026/10/IMG_6051-scaled.jpeg",
-   "chapeau": "La communauté du jeu vidéo a récemment été secouée par le retour inattendu de Cyberleek, cette entité anonyme qui avait pris l’habitude de divulguer des informations sensibles concernant les développements internes de Rockstar Games. Après plusieurs jours de silence relatif, ce leaker prolifique a réapparu avec une nouvelle plateforme web et des images inédites tirées",
-   "txt": "La communauté du jeu vidéo a récemment été secouée par le retour inattendu de Cyberleek , cette entité anonyme qui avait pris l’habitude de divulguer des informations sensibles concernant les développements internes de Rockstar Games. Après plusieurs jours de silence relatif, ce leaker prolifique a réapparu avec une nouvelle plateforme web et des images inédites tirées de la mission finale de Grand Theft Auto VI .\nCette résurgence soudaine relance le débat éthique autour du piratage numérique et de la préservation de l’expérience joueur, tout en soulevant des questions persistantes quant aux motivations financières derrière ces actions spectaculaires. Les joueurs se demandent désormais si cette promesse de cessation définitive sera tenue ou s’il ne s’agit que d’un artifice marketing supplémentaire destiné à alimenter la spéculation autour des actifs cryptographiques associés.\nContrairement aux précédentes divulgations massives incluant des heures de gameplay brut, Cyberleek a opté pour une approche chirurgicale en publiant exclusivement des séquences de la dernière mission du titre très attendu. L’objectif affiché était de préserver le plaisir de découverte des futurs acheteurs tout en maintenant une pression médiatique maximale sur l’éditeur Take-Two Interactive.\nLe leaker a explicitement mentionné détenir les fichiers relatifs à la conclusion narrative globale du jeu mais a choisi de ne pas les diffuser publiquement. Cette décision repose sur un calcul froid : publier la fin aurait causé des dommages irréparables à l’expérience utilisateur, tandis que la retenue actuelle permet de maintenir une forme de levier sans franchir le seuil critique de la ruine totale. La stratégie semble donc évoluer vers une nuisance contrôlée plutôt qu’une destruction ouverte, bien que les intentions profondes restent sujettes à caution.\nÀ LIRE AUSSI : Neuf nouveaux jeux rejoignent le catalogue PlayStation Plus en octobre 2026\nLes observateurs avisés ont rapidement noté la coïncidence temporelle entre ces nouvelles fuites et la promotion active d’un jeton numérique non-fongible baptisé « CL ». Cyberleek rejette catégoriquement toute accusation de spéculation financière pure, qualifiant le token de simple outil de collecte de dons destinés à financer ses activités futures.\nNéanmoins, la corrélation directe entre la visibilité accrue apportée par les leaks et la capitalisation boursière volatile de ce meme-coin suggère une dynamique économique sous-jacente indéniable. Le leaker accuse les sceptiques, notamment certains créateurs de contenu YouTube, de cynisme aveugle face à sa prétendue démarche philanthropique envers la communauté des joueurs.\nIl affirme agir pour protéger l’intégrité du divertissement contre les abus corporatifs, tout en exploitant paradoxalement l’écosystème spéculatif des cryptomonnaies pour soutenir son infrastructure technique coûteuse et complexe.\nAu cœur de cette saga digitale se trouve un mystérieux projet parallèle, distinct de Rockstar, nécessitant des ressources matérielles considérables et une durée de développement estimée à plusieurs années. Pour concrétiser cette ambition, Cyberleek avait conditionné la publication d’une build complète du jeu au franchissement d’un palier symbolique de trente millions de dollars en capitalisation boursière du memecoin associé.\nCet objectif ambitieux n’a jamais été atteint, la valeur du jeton stagnants autour d’un million de dollars seulement. Face à cet échec financier cuisant, le leaker a annoncé honorer ses engagements contractuels implicites en refusant de télécharger anonymement plus de deux cents gigaoctets de données risquées.\nCette posture rigide masque mal une déception profonde vis-à-vis d’une audience jugée trop frileuse pour soutenir pleinement ses initiatives audacieuses et potentiellement lucratives.\nÀ LIRE AUSSI : Rockstar garantit un développement plus rapide pour son prochain titre\nMalgré les promesses solennelles de retrait définitif formulées dans le communiqué officiel, la prudence demeure de mise parmi les analystes du secteur vidéoludique. Avec encore plus d’un mois avant la sortie officielle de Grand Theft Auto VI , il paraît improbable que cette source d’information cesse totalement ses activités perturbatrices.\nLe style rédactionnel particulier, marqué par une utilisation excessive de la voix passive et une structure syntaxique hachée, confirme la continuité de l’auteur principal derrière ces publications successives.\nQue Cyberleek soit une personne",
-   "pub": "2026-10-16T10:30:12+00:00",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQcjIwV19XMlhaMzFiQU43b3JxN0I4MkJ2UFpYX01wU2JnOUJGbk1nak1pVlZ2NFA5emlubkY4bXZKNE0wUnJqUjFlSFJSZlVuOXl4RVQzMkZ1ZC03RHJ3OGczYVNlNXdLajl2d1hFSmpSZG9BeXNPN2tPbkozUTZYTUlHZXRKNFZwQXNJTHBOa2Z2eURuRnZDVlRoUTdlajZhblppYTJPU0c4cFR1UFhtWlBRUmdCX3NjNmkwU2RBWUN1WlJkV2RCUHV2Rm1ESEJibmFRZnZUWE00d9IB3wFBVV95cUxNbGhuY2lCS0d4VEprb0ZEWEtGYnlRc1FSQU1VVU5URUphUk9lUWZiYnNwSnlyX3FTZWZvY2ZEN2t3dzh3Z0pBUGxOTkNFZElQa2VfZENyN092NWd1c3dhb29pc2FVdTd1cS05R3hoNmJxcE0tOWJmOFM2N2ZIMzFtU2Q3ZTh4N2UtbXdfWHh5cVdMQmFXYmEwMW43ZDhTcHROUmtNOW54aU9qYUtYY3JndjVYeVVNUkpTNlNFbmh0YzE0aDVzWWxCYXFDQ2xJOHFmLXZIYmJHUGhIZmtYbVNB?oc=5",
    "s": "iXBT.games",
    "d": "2026-10-16T07:00:00+00:00",
@@ -740,80 +759,6 @@
    "chapeau": "Some players are sure that the developers left a \"signal\" for the hacker.",
    "txt": "Some players are sure that the developers left a \"signal\" for the hacker.\nUntil recently, a hacker (or group) under the nickname Cyberleek actively published Grand Theft Auto VI gameplay footage online and also threatened to leak a build with the full story. However, he then reconsidered his decision and abandoned further leaks.\nSoon after, Rockstar Games released the Grand Theft Auto VI trailer. Fans began to examine the footage, and a moment with a green car attracted attention. Those who closely followed the leaks immediately recognized it — it appeared in Cyberleek's videos.\n1 / 2 Image source: Rockstar Games In the trailer, this model can be seen at the 0:46 mark — the driver is trying to escape from the police. Players believe that the appearance of this car is not a random coincidence. It is assumed that in this way, the developers from Rockstar Games sent a warning signal to Cyberleek to prevent further possible leaks.\nDiscussion participants recalled how in one of the Grand Theft Auto VI trailers, the opening scene with Jason began with him saying he was fixing some leaks (in the Russian subtitles, the phrase “fixing some leaks” was translated as “just fixing the roof,” so some Russian-speaking players might have missed the reference). During that period, hackers were leaking internal studio materials.\nGrand Theft Auto VI is scheduled for release on November 19, 2026, on PlayStation 5 and Xbox Series X|S consoles.\nNever miss our news Add this site to your preferred sources to see us more often Add on Google",
    "pub": "2026-10-16T14:29:05+03:00",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPTGRrX1dzN0JRUVlKSnhleHJ5RDFQWFNVTFRWa08zYXBLWXg1RjBHSkdUMWZ0MEFnUGthc0pBRXp3b0RvZjJrME5US2NCWVRCR1ZnMGdrOVd1M1cxTnlTVDBBSlo0Z2N2R2dRQVV4X0MtNTFJdnl5cUtQYjFwZkFWMkRpbXU2dw?oc=5",
-   "s": "Root-Nation.com",
-   "d": "2026-10-15T11:39:24+00:00",
-   "lang": "fr",
-   "t": "Cyberleek met fin aux leaks de GTA 6 - Root-Nation.com",
-   "u": "https://root-nation.com/fr/games-fr/game-news-fr/fr-cyberleek-posts-last-gta-6/",
-   "img": "https://root-nation.com/wp-content/uploads/2026/10/gta-vi-2-1.jpg",
-   "chapeau": "Cyberleek a annoncé la fin des leaks de GTA 6 et renoncé à publier des spoilers sur l’intrigue ainsi qu’une version PC de plus de 200 Go.",
-   "txt": "© ROOT-NATION.com - L’utilisation du contenu est autorisée avec un lien retour.\nAprès une série de leaks concernant GTA 6, le hacker Cyberleek a déclaré avoir publié les derniers éléments disponibles sur le jeu. Comme il n’a pas réussi à atteindre son objectif, à savoir une capitalisation boursière de 30 millions de dollars pour le memecoin, les fans ne verront ni spoilers sur l’intrigue ni version complète du jeu sur PC.\nCette annonce s’est accompagnée d’un nouvel extrait vidéo de gameplay qui, selon l’auteur des leaks, contient des images des missions finales. La vidéo commence par une scène où Lucia se trouve dans un salon de coiffure.\nDans son dernier message, Cyberleek a d’abord tenté de justifier ses précédentes ventes de cryptomonnaie. Selon lui, tous les objectifs atteints jusqu’alors étaient liés à la publication des leaks de GTA 6 promis. L’auteur a toutefois accusé d’autres acteurs du marché des cryptomonnaies de l’avoir injustement rendu responsable de la « réaction en chaîne » des ventes de l’actif.\nCyberleek a également déclaré qu’il ne publierait pas de spoilers sur l’intrigue, car ceux-ci pourraient « gâcher l’expérience de jeu des joueurs qui n’ont rien fait de mal ». Selon lui, l’éditeur Take-Two a déjà subi une punition suffisante et il ne souhaite donc pas nuire davantage à l’entreprise.\nLa publication d’une version PC complète de plus de 200 Go aurait pu causer un préjudice encore plus important à Take-Two et Rockstar Games. Toutefois, sans atteindre l’objectif de 30 millions de dollars en cryptomonnaie, Cyberleek a décidé que le risque n’en valait pas la peine.\nL’auteur a de nouveau souligné que les dons étaient un moyen de montrer son soutien, et non un investissement. Il a promis que « les leaks s’arrêtent ici. Du moins pour l’instant ». On ignore encore si Cyberleek recommencera à publier des éléments avant la sortie officielle de GTA 6.\nMalgré cette annonce de la fin des leaks, les joueurs ont reçu une nouvelle vidéo de gameplay d’environ 4 minutes. La vidéo s’intitule « The End of the Road », tandis que la chanson « Don’t Stop Believin’ » de Journey retentit pendant tout l’enregistrement.\nCyberleek annonce la fin des leaks de GTA 6 après avoir publié le 20e extrait, mais affirme que le mécanisme de déclenchement différé est actif et que des spoilers sur l’intrigue, y compris la fin, seront publiés si Take-Two le retrouve :\n“CL possède la fin. Elle a été envisagée. Elle punirait lourdement Take-Two, mais gâcherait l’expérience des joueurs qui n’ont rien fait de mal. Take-Two ne ferait preuve d’aucune pitié envers CL – pourquoi CL devrait-il en faire preuve à son égard ? Cela dit, Take-Two a déjà été suffisamment puni. La fin ne sera pas publiée. Preuve : le dernier leak, des extraits des missions finales, sortis de leur contexte et ne révélant rien. Le mécanisme de déclenchement différé est actif – uniquement pour les spoilers de l’intrigue. Si on laisse CL tranquille, il ne se déclenchera jamais. Celui qui éliminera CL fera ce choix.\nLes 30 millions n’ont pas été atteints, donc pas de build. Téléverser anonymement plus de 200 Go représente un risque sérieux – cela n’en valait la peine que si l’étape intermédiaire finançait le projet secret.\nLes conditions ont été respectées telles qu’elles étaient écrites. C’est triste, toute cette négativité – et le fait que si peu de gens croient qu’il y a réellement quelque chose derrière tout cela. CL a été transparent au sujet du token dès le premier jour : un don, jamais un investissement.\nCela n’a rien changé – les influenceurs avaient décidé de l’histoire avant que les faits n’arrivent. L’édit reste en vigueur. Les leaks s’arrêtent ici. Pour l’instant. »\nLucia entre d’abord dans un salon de coiffure, où des personnages non jouables discutent en arrière-plan. Lorsque la partenaire de Jason quitte l’établissement, elle frappe le caissier et le braque.\nUne grande partie de la vidéo est consacrée aux changements de coiffure, après quoi l’héroïne se rend dans un magasin de vêtements pour acheter divers articles. L’extrait montre également un mini-jeu qui sera probablement disponible dans GTA 6. Au cours d’une séquence rappelant l’accomplissement d’une mission, Lucia joue au billard dans un bar et reçoit une petite somme d’argent en échange.\nAvant la fin de la vidéo, les spectateurs voient un plan cinématique d’un pont. Plusieurs lieux de l’État fictif de Leonida sont ensuite présentés, avant que la vidéo ne bascule vers un quartier résidentiel qui, à en ",
-   "pub": "2026-10-15T11:39:24+00:00",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxORE9TZTdhcENBSW1oS0F4MG9aaUJKT2phc2lmbDg0dVVGc1VoWXZPSGhNRHpKUHdDUWsySWVIaUVBVEsyaXgtTUw1di02bDFpamFLOTNUWjhqbVAyR0NjYmk4alR2bm5WNDRxQlFoTDhSejl5SjNxTXpadDRTSDVQV1ozU0R5UU5ESXdlWmFsd0tvZzhtelBMaXoyWlZiak5nUnhiaEhGcTZrc3pJNjItZGVhVVpjSE5NYi1pSF9WWWRMdFQ3RzNkWDRTSmVWb2VlZXBIMHdxS0phRG9xaUN0TXl0Y3RyQQ?oc=5",
-   "s": "GinjFo",
-   "d": "2026-10-15T07:00:00+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : Cyberleek fait volte-face et propose sa prétendue build pour 40 dollars - GinjFo",
-   "u": "https://www.ginjfo.com/actualites/logiciels/jeux-video-logiciels/gta-6-cyberleek-fait-volte-face-et-propose-sa-pretendue-build-pour-40-dollars-20261015",
-   "img": "https://www.ginjfo.com/wp-content/uploads/2025/05/GTA6_BAO2.jpg",
-   "chapeau": "Nouveau rebondissement dans l'affaire Cyberleek. Une build de développement de GTA 6 est finalement proposée pour 40 dollars.",
-   "txt": "L’affaire Cyberleek connaît un nouveau rebondissement. Alors que le responsable présumé des nombreuses fuites de GTA 6 annonçait mettre fin à ses publications, un nouveau message vient contredire cette décision.\nSur son site, Cyberleek affiche désormais une annonce intitulée “DEVELOPMENT BUILD IS OUT”. Il affirme proposer une version de développement du prochain jeu de Rockstar Games pour 40 dollars. Cette nouvelle déclaration intervient quelques heures seulement après son message The End of t he Road , dans lequel il expliquait renoncer à diffuser sa prétendue build complète.\nDepuis plusieurs jours, Cyberleek conditionnait la publication d’une version jouable de GTA 6 à un objectif financier. Sa cryptomonnaie devait atteindre une capitalisation de 30 millions de dollars. Cet objectif n’a pas été atteint.\nDans son message du 14 octobre, l’entité expliquait donc qu’elle ne publierait pas la build, évoquant notamment les risques associés à la distribution anonyme de plus de 200 Go de données. Mais quelques heures plus tard, changement de discours.\nLe site affiche désormais une annonce concernant une version baptisée, GTA 6: Development Build v1.0.1.08022025. Cyberleek décide de la proposer mais réclame directement 40 dollars pour accéder au téléchargement.\nC’est évidemment la grande question. Cyberleek affirme depuis plusieurs semaines disposer d’une version suffisamment complète pour parcourir l’intégralité de la campagne solo. Les nombreuses vidéos diffusées depuis août suggèrent aussi un accès à des contenus de développement du jeu.\nMais tout ceci n’est pas suffisant pour confirmer qu’il s’agit bien ici d’une version complète de GTA 6. De plus aucun chercheur en sécurité ni média spécialisé n’a confirmé avoir exécuté et authentifié cette prétendue build.\nLa prudence est indispensable car des fichiers malveillants présentés comme des versions anticipées de GTA 6 ont déjà circulé sur Internet. GinjFo avait notamment signalé en août une fausse build dépassant 100 Go qui dissimulait un malware.\nNous déconseillons de payer ou de télécharger cette archive même si son contenu est vérifié indépendamment. Toute cette histoire repose sur un acte malveillant, de la piraterie et du chantage.",
-   "pub": "2026-10-15T09:23:48+00:00",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNS1RycU50NjNJMGk0VmZZUUdxUENZUTFLTkttRXRWVTRNemVYa3lPSjZReGFqMU5EME5MSXBnRnd4azdSMXU4LW9pdGtwdFlNWndlNFJkVkxqTmt6MXJRLTZRcjlISFJQVWI4d0lFcTFwd3NOdll5RHVEWnA3R1p2SWU2NE1pdC14aWFRYmNTRkhtSElfQWFST1JEZmxWS1FObDYtOWE5NDZvTkpHRkdpUVppTWV0Ym1NQkE?oc=5",
-   "s": "Cowcotland.com",
-   "d": "2026-10-15T07:00:00+00:00",
-   "lang": "fr",
-   "t": "GTA VI : CYBERLEEK abandonne ses leaks et annule la diffusion du jeu complet",
-   "u": "https://www.cowcotland.com/news/102820/gta-vi-cyberleek-abandonne-ses-leaks-et-annule-la-diffusion-du-jeu-complet.html",
-   "img": "https://www.cowcotland.com/images/news/2026/10/gta6-gtavi-leak.jpg",
-   "chapeau": "Voil, c",
-   "txt": "7600X vs 7500X3D vs 9600X : La bataille des CPU 6 coeurs chez AMD NBA 2K27 : quels gains avec le nouveau modle DLSS 5 ? Thermal Grizzly Duronaut Pro : adieu le hotspot qui s'envole ! Test Fosi Merak : un premier lecteur CD russi ! Dernières vidéos : 33 KG, 699 ? : MSI A-T-IL CR LE BOTIER PC LE PLUS DMESUR DU MONDE ? Finition BOIS et RGB gogo sur des ventilateurs, Thermaltake a os !!! Des ventilateurs avec une finition BOIS et du RGB gogo ?! Thermaltake a os !!! #gaming #pcgaming Du monocadre intelligent avec les Light Wings Pro IO de be quiet! DeepCool LT360 VISION, simplement pas cher et bien quip ! Accueil Actualit Divers Jeux Pc, consoles... GTA VI : CYBERLEEK abandonne ses leaks et annule la diffusion du jeu complet Voil, c'est termin pour CYBERLEEK , du moins si l'on en croit ses dernires dclarations. Celui qui promettait de diffuser une version jouable complte de GTA VI , condition de runir la coquette somme de 30 millions de dollars, vient d'annoncer la fin de son opration. Pas de jeu, pas de nouvelle fuite, et surtout pas de gros fichier de plus de 200 Go tlcharger. Le leaker a publi trois longs messages pour expliquer sa dcision, tout en rpondant aux nombreuses accusations d'arnaque qui entourent son projet.\nDans ses messages publis le 14 octobre, CYBERLEEK explique que son objectif de 30 millions de dollars n'a pas t atteint et qu'il n'y aura donc aucune diffusion du fameux build de GTA VI. Il affirme galement que mettre en ligne anonymement plus de 200 Go de donnes reprsenterait un risque considrable, qu'il n'tait prt prendre que si la somme demande permettait de financer son projet secret.\nCYBERLEEK revient aussi sur son systme de financement, reposant sur un token baptis CL. Selon lui, deux ventes ont bien eu lieu, les acheteurs ont reu ce qui tait annonc et les frais de transaction ont t les seuls cots prlevs. Il insiste particulirement sur un point : le token tait prsent comme un don et non comme un investissement . Aucun rendement n'aurait t promis. Il rejette donc les accusations de rug pull et s'en prend aux influenceurs et YouTubeurs qui auraient, selon lui, racont n'importe quoi sans consulter les transactions sur la blockchain.\nAutre dclaration intressante, CYBERLEEK affirme connatre la fin de GTA VI et avoir envisag de la dvoiler pour faire trs mal Take-Two. Mais il aurait finalement renonc, estimant que cela pnaliserait surtout les joueurs, qui ne sont pour rien dans cette histoire. Selon lui, certaines squences dj diffuses proviendraient d'ailleurs des dernires missions du jeu, mais auraient t soigneusement sorties de leur contexte afin de ne rien rvler de l'intrigue.\nAttention toutefois, car CYBERLEEK affirme galement avoir activ un dead man's switch , autrement dit un mcanisme qui pourrait automatiquement publier des spoilers sur l'histoire si certaines conditions taient runies. Il prcise que ce dispositif ne concernerait que le scnario et qu'il ne se dclencherait pas si on le laissait tranquille. Une affirmation impossible vrifier pour le moment.\nLe leaker termine son annonce en expliquant que les fuites s'arrtent dfinitivement. Il estime avoir t transparent depuis le dbut et accuse une nouvelle fois les influenceurs d'avoir dform ses intentions. Reste que personne n'a pu confirmer l'existence de cette fameuse version complte de GTA VI, malgr les affirmations de CYBERLEEK.\nDifficile donc de savoir si cet abandon est uniquement li l'chec de la campagne crypto ou si la crainte de reprsailles judiciaires a galement jou un rle. Dans tous les cas, les joueurs ne devraient pas voir dbarquer les fameux 200 Go de GTA VI avant sa sortie officielle. Et finalement, ce n'est peut-tre pas plus mal. OUF.",
-   "pub": "2026-10-15T08:36:16+02:00",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMif0FVX3lxTE01X3lWTlR6X1BXSEJqQ29DR0tTN0Y1X1dvYk9uay1xb01IVVVnaWczN2ZuRjctVVUtZVZnaVVfV1ktbUphdkthQ29hU3NrWDZxUHNiOTJpQnBrYXN0Ym1PT2IyaV9HQngxYjl0cTJTYjRhcUtIVEVqUXRIWU1XdU0?oc=5",
-   "s": "BeInCrypto",
-   "d": "2026-10-15T07:00:00+00:00",
-   "lang": "fr",
-   "t": "Le token CYBERLEEK chute de 40 % alors que le leaker de GTA 6 lance de nouvelles menaces",
-   "erreur": "HTTP Error 403: Forbidden",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPU3RuQS1qWmlkbDVZZl90Uks2cW0tOElFSUswdWJEWExpUm5sOUhTYWxMX3FXT2hJM1VGN3RXdW9SbTZUV0ZsRFhXWHk5M0tPeTh6REthUlRwZGQ4WTBkUTJ6dXJsazJJM2c0TGQ1TUd4eFVoR1BFOUZwWXl2OVplQlVSdTRXNmhOT0ZtMU5SWXN3U21nS0w0?oc=5",
-   "s": "BlogNT",
-   "d": "2026-10-15T07:00:00+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : CyberLeek suspend ses fuites après son échec crypto",
-   "u": "https://www.blog-nouvelles-technologies.fr/388389/gta-6-cyberleek-arrete-fuites-pari-crypto/",
-   "img": "https://www.blog-nouvelles-technologies.fr/wp-content/uploads/2026/10/GTA6LuciaJasonRobbery-1400x840.webp",
-   "chapeau": "Le leaker CyberLeek suspend ses fuites sur GTA 6 après l’échec de son objectif crypto de 30 millions de dollars. Les spoilers restent une menace.",
-   "txt": "Les joueurs qui attendent GTA 6 peuvent souffler, au moins temporairement. Le leaker connu sous le pseudonyme CyberLeek a annoncé le 14 octobre 2026 qu’il mettait fin à ses révélations sur le prochain jeu de Rockstar Games « pour le moment » . Son projet consistait notamment à publier une prétendue version jouable du titre si sa cryptomonnaie atteignait une capitalisation boursière de 30 millions de dollars. L’objectif n’a pas été atteint.\nCette annonce intervient alors que la sortie de GTA 6 est prévue le 19 novembre 2026 . Depuis plusieurs semaines, CyberLeek multipliait les révélations supposées sur le jeu, alimentant la curiosité des fans tout en menaçant de dévoiler des éléments majeurs de son scénario.\nLa prudence reste toutefois de mise. Le leaker affirme toujours détenir la fin du jeu et a déjà diffusé des extraits sortis de leur contexte concernant les dernières missions. Quant à la prétendue version jouable, rien ne permet de confirmer son existence ou son authenticité.\nDans un message intitulé « End of the Road » , publié le 14 octobre, CyberLeek a annoncé suspendre ses fuites. Le leaker explique notamment qu’il ne publiera pas la fin de GTA 6, affirmant vouloir éviter de gâcher l’expérience des joueurs qui n’ont rien fait de mal .\nCette déclaration intervient après l’échec de son objectif financier . CyberLeek avait conditionné la publication d’une prétendue version complète du jeu à une capitalisation boursière de 30 millions de dollars pour sa cryptomonnaie. Le seuil n’ayant pas été atteint, il affirme renoncer à cette publication.\nIl convient néanmoins de distinguer les annonces du leaker des faits vérifiés. L’existence d’une version jouable complète de GTA 6 n’est pas établie. Dans ce contexte, la promesse de publier le jeu pourrait tout aussi bien relever d’une opération destinée à attirer l’attention sur son projet financier.\nLes joueurs doivent donc se méfier des liens et fichiers présentés comme des versions jouables du jeu. Des escroqueries exploitant l’attente autour de GTA 6 peuvent utiliser de fausses démos ou de prétendus fichiers du jeu pour diffuser des logiciels malveillants ou piéger les internautes.\nMalgré l’annonce d’une pause, CyberLeek n’a pas complètement écarté la possibilité de publier des informations sensibles . Il affirme conserver un mécanisme de type « dead man’s switch », qui déclencherait la diffusion de spoilers si son site venait à être fermé.\nLe leaker évoque notamment une éventuelle intervention de Take-Two Interactive, la maison mère de Rockstar Games. Cette menace n’a cependant rien d’une preuve qu’un tel mécanisme existe réellement ou qu’il fonctionnerait comme annoncé.\nCyberLeek a également diffusé des fragments supposés des dernières missions du jeu, sans fournir le contexte nécessaire pour en vérifier la portée. Les joueurs qui souhaitent découvrir GTA 6 sans connaître son intrigue ont donc intérêt à éviter les publications et discussions susceptibles de contenir des révélations.\nL’annonce réduit la pression immédiate, mais ne garantit pas que les spoilers disparaîtront d’Internet. Une fois des informations publiées, elles peuvent être copiées et repartagées indépendamment de leur auteur initial.\nCette affaire s’inscrit dans une série de révélations supposées qui ont précédé la nouvelle communication de Rockstar Games sur GTA 6. CyberLeek avait notamment commencé à publier des informations avant la diffusion, en août, d’une présentation plus détaillée du jeu sur Netflix, selon les éléments rapportés par la source.\nRockstar avait également publié une déclaration officielle au sujet des fuites en août. Cette prise de parole n’avait toutefois pas empêché CyberLeek de poursuivre ses publications.\nL’épisode illustre les difficultés auxquelles les studios sont confrontés lorsqu’un jeu très attendu devient le centre d’opérations de fuite, de spéculation et parfois de monétisation. Dans le cas de GTA 6, la curiosité des joueurs constitue un levier particulièrement puissant pour attirer des abonnés ou promouvoir des projets financiers.\nLa suspension annoncée par CyberLeek constitue une évolution favorable pour les joueurs qui souhaitent découvrir le jeu sans connaître son scénario à l’avance. Elle ne signifie cependant ni que toutes les fuites ont cessé ni que les informations déjà diffusées sont authentiques.\nIl reste également impossible de confirmer la nature des fichiers que le leaker affirme détenir. Une prétendue version jouable doit être considérée avec une grande pr",
-   "pub": "2026-10-15T11:50:14+02:00",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQSHl1TTd2Qm9jdU52QXZNZlU3eWd0aHQ4UVM1d1MzdmVsS2ZDZFQ5TmdQek1PVDRQa1FhVUVrQlpvZzZGSkJpaE5ubFVjaHdRY193NW1BODF4NkpEcUQyekhVeERvUk9Hd3Z5VkZxMW54RVB0MzNNdUVhb2xBekFEcEtxOXpYMkU4YkRmbTFUTEFRRFJiVlIzczNWNEFxMDUwS2puUk10X1VDWldlZnRuUGNPSFk5aE1IZnY0a0JqTy1VdzN3TllkVHRvQzZfRWdNWkZpLWNVLVNkaVNxRkp5OHkxQQ?oc=5",
-   "s": "GinjFo",
-   "d": "2026-10-15T07:00:00+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : Cyberleek renonce à diffuser le jeu complet, mais maintient une menace - GinjFo",
-   "u": "https://www.ginjfo.com/actualites/logiciels/jeux-video-logiciels/gta-6-cyberleek-renonce-a-diffuser-le-jeu-complet-mais-maintient-une-menace-20261015",
-   "img": "https://www.ginjfo.com/wp-content/uploads/2026/09/GTA6_017YA_03-scaled.jpg",
-   "chapeau": "Cyberleek annonce la fin de ses fuites de GTA 6 après l’échec de son objectif financier. Le groupe renonce à publier sa prétendue version complète.",
-   "txt": "Cyberleek annonce l’arrêt de sa campagne contre Rockstar Games et Take-Two Interactive. Dans un communiqué en trois parties publié le 14 octobre, intitulé “ La fin de la route “, le groupe anonyme affirme abandonner la publication d’une soit disant version complète et jouable de GTA 6.\nCette décision n’est pas une surprise puisqu’elle a été conditionnée à l’échec d’une opération liée à une cryptomonnaie. Le groupe voulait porter sa capitalisation à 30 millions de dollars , un seuil qui n’a pas été atteint.\nCyberleek avait conditionné la publication de l’intégralité de la campagne solo à cette valorisation. Il avait également proposé de renoncer à la diffusion si Take-Two acceptait de commercialiser le jeu sur disques physiques et présentait des excuses publiques.\nPour expliquer cette marche arrière, le groupe met en avant les difficultés d’une mise en ligne anonyme de plus de 200 Go de données. Il estime que les risques associés ne se justifient pas sans avoir atteint son objectif financier.\nEnfin le groupe assure aussi détenir la fin de GTA 6, tout en affirmant avoir choisi de ne pas la dévoiler. Selon son communiqué, certains extraits récemment diffusés proviendraient des missions finales, mais auraient été sélectionnés pour éviter les révélations importantes sur l’intrigue.\nMalgré l’annonce de son retrait, Cyberleek conserve un moyen de pression. Il prend la forme d’un prétendu “ interrupteur de l’homme mort “, censé déclencher la publication de spoilers si le groupe était ciblé.\nAucune preuve de l’existence de ce dispositif n’a été fournie.\nMAJ : GTA 6 : Cyberleek fait volte-face et propose sa prétendue build pour 40 dollars",
-   "pub": "2026-10-15T09:09:22+00:00",
    "cyberleek": true
   }
  ]
