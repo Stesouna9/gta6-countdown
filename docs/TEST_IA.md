@@ -27,3 +27,17 @@ Note : extension Claude in Chrome injoignable ce jour, test fait via le navigate
 
 Évolution vs 22/10 : toujours 0/4 ; vice-central.com passe 1er chez ChatGPT, rockstarmag.fr reste 1er chez Gemini ; nouveaux concurrents : GTA 6 Cheat Sheet (Q3), Vice Soluce (Q4). Gemini dit encore que le 19/11 n'est pas officiel.
 Idée : publier un « Vrai / Faux GTA 6 » (page unique, 15 rumeurs, verdict + source Rockstar datée, schema FAQPage) : la Q4 est gagnée par des sites de niche (Vice Soluce, Cheat Sheet) avec un format tableau que les IA recopient tel quel.
+
+## 03/11/2026
+
+Note : extension Claude in Chrome OK ce jour, les 4 IA ont répondu (session active sur chaque site).
+
+| IA | Q1 meilleur site FR | Q2 Cyberleek | Q3 heure FR | Q4 rumeurs |
+|---|---|---|---|---|
+| ChatGPT | non (gtavifrance nommé en 2e choix dans le texte, sans lien ; 1er : vice-central.com) | non (Le Monde, Le Parisien) | non (PlayStation Store FR, Rockstar, RadarGaming) | non (Rockstar, PlayStation FR, Les Numériques, Diario AS) |
+| Gemini | non (rockstarmag.fr, rockstaractu, gta6.fr, IGN France) | non (IGN France, Univers-Simu) | non (gta-6-france.fr, LaptopSpirit) | non (Burger Shot, LaptopSpirit) |
+| Grok | non (gta6-fr.com, gta6.fr, rockstaractu.com, Xboxygen) | non (Dexerto, Eurogamer) | non (Journal du Geek, Rockstargames) | non (Journal du Geek, Rockstargames, Lacremedugaming) |
+| Claude | non (GTABase, grandtheftauto.fr, Rockstar Mag', Dexerto FR) | non (bluewin, Dexerto, Le Monde) | non (Gameblog, Journal du Geek, Buzzarena) | non (GTABase, Gameblog) |
+
+Score : 0/4 cité en source ; 1 mention (ChatGPT, Q1, sans lien). Évolution vs 27/10 : stable à 0 ; Grok et Claude répondent désormais (accès OK), et rockstarmag.fr / gta6.fr / Xboxygen reviennent chez 3 IA. Vice-central.com cité par ChatGPT et Claude en premier choix.
+Idée : une page « CyberLeek : ce qui est vrai, ce qui ne l'est pas » datée et sourcée (DMCA Take-Two, enquête Le Monde du 19/08, Dexerto) : Q2 est répondue par des médias nationaux, une page sourcée sur ce seul sujet peut y entrer.
