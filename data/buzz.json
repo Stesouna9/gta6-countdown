@@ -1,8 +1,28 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-04T16:12:50+01:00",
+  "updated_at": "2026-11-04T18:13:07+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-circoloco-teasing-vice-city",
+      "title": "CircoLoco : un teasing Vice City relayé par trois comptes",
+      "summary": "@gtasix_, @GTAVI_Countdown et @RockstarNewsFRA relaient un visuel attribué à CircoLoco et lié à Vice City. La piste musicale fait réagir, mais l’original Instagram n’a pas pu être consulté. La sortie de musique dès le 5 novembre évoquée par un compte reste une hypothèse, sans calendrier Rockstar vérifié.",
+      "url": "https://x.com/gtasix_/status/2118012714693910601",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rapporté",
+      "published_at": "2026-11-04T16:09:16.000Z",
+      "checked_at": "2026-11-04T18:13:07+01:00",
+      "evidence": "Relevés data/x_alertes.json Mac et serveur concordants du 2026-11-04T16:15:44+00:00 : @gtasix_ 1 652 vues, @GTAVI_Countdown 7 991 vues (https://x.com/GTAVI_Countdown/status/2118011690059207053), @RockstarNewsFRA 594 vues (https://x.com/RockstarNewsFRA/status/2118010253136519420). Sujet repris par trois comptes, sans présumer de confirmations indépendantes. Original X : cache absent ; Instagram CircoLoco : HTTP 429. Image d’illustration officielle déjà publiée dans le journal, et non visuel du teasing.",
+      "visual": "PISTE MUSICALE",
+      "image": "https://gtavifrance.com/assets/img/articles/2026-11-04-circoloco-teasing-musique-vice-city-gta6.jpg?v=2f571a80",
+      "image_alt": "Illustration GTA VI : Jason et Lucia en club ; ce n’est pas le visuel du teasing CircoLoco",
+      "image_credit": "Rockstar Games, via rockstarmag.fr — illustration",
+      "embed_type": "x",
+      "post_text": "NEW GTA 6 MUSIC IS COMING.\n\nCircoLoco has confirmed it will be featured in GTA VI, sharing the artwork with the caption: “The Future in Vice City is unpredictable.”\n\nDJs Chris Stussy, Jamback and Rossi are also teasing collaborations in the comments. CircoLoco Records is also",
+      "cta": "Ouvrir la publication sur X",
+      "article": "journal/2026-11-04-circoloco-teasing-musique-vice-city-gta6.html"
+    },
     {
       "id": "south-park-dialogue-coulisses",
       "title": "GTA 6 : un dialogue supplémentaire de la scène South Park circule",
@@ -1371,6 +1391,11 @@
       "at": "2026-11-04T16:12:50+01:00",
       "label": "Veille permanente · sources contrôlées",
       "summary": "Relevés X Mac et serveur concordants du 4 novembre à 14 h 11 min 59 UTC : Vice Beach 19 734 vues, CNIT 2 564, congés du 19 novembre 698 et compte à rebours 17 082. Aucun nouveau sujet au seuil de 20 000 vues ni repris par deux comptes observés ; compte à rebours répétitif écarté. @vicecentralFR exclu. Recherches publiques X, Instagram, TikTok et Rockstar effectuées : original X en cache absent, Instagram 429, TikTok sans texte exploitable et recherche bloquée par robots.txt ; Newswire sans texte direct mais index du jour consulté, dernière annonce GTA VI du 3 novembre sur le préchargement déjà couverte. Aucun sujet ajouté ni métrique extrapolée. Les 60 cartes conservent leurs vraies images, toutes contrôlées HTTP 200 avec type image ; liens HTTPS et absence de doublons vérifiés. Aucun post X ni message à un tiers."
+    },
+    {
+      "at": "2026-11-04T18:13:07+01:00",
+      "label": "Veille permanente · teasing musical CircoLoco",
+      "summary": "Relevés X Mac et serveur du 4 novembre à 16 h 15 min 44 UTC concordants. Teasing CircoLoco ajouté car repris par trois comptes ; hypothèse de musique demain explicitement non confirmée. Autres posts sous 20 000 vues sans double relais observé ou compte à rebours répétitif écartés ; @vicecentralFR exclu. Recherches X, Instagram, TikTok et Rockstar effectuées : original X en cache absent, Instagram CircoLoco HTTP 429, TikTok sans texte exploitable ; Newswire sans texte direct, index du jour consulté : préchargement du 3 novembre déjà couvert. Image officielle d’illustration existante contrôlée visuellement et distinguée du média original. Liens HTTPS, identifiants et URL uniques, images et présence de toutes les cartes contrôlés. Aucun post X ni message à un tiers."
     }
   ],
   "coverage": {
