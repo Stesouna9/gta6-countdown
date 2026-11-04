@@ -1,6 +1,22 @@
 {
- "maj": "2026-11-04T03:35:33+00:00",
+ "maj": "2026-11-04T03:55:45+00:00",
  "articles": [
+  {
+   "gn": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeHdPdTNPNmZqYkpGNjNrNTBNWkZZRWgtbnhJUXBHbkNlQVJaTVo2SFpsZl9QMVcwRm5DM0xNWE1USnlRakZRbnBCeTdJdVRtZDVuZG9VVU1aeWh2R1hrVWsxWGdSaFVDLU9nbWlVZkVEcTRlYVp0Znk5dXl4cjBhbnZFNzUzaTUzdW1CVjYtX0Z4UzQ?oc=5",
+   "s": "GTA BOOM",
+   "d": "2026-11-04T03:51:12+00:00",
+   "lang": "en",
+   "t": "Xbox Built a Playable GTA 6 Console Inside a Five Foot Alligator",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZzZEZUVXSjZ4MElSR2FGamdBVlU1Vld1UWZ0Z0gzOUxYOGxDUnpvUGRQTkxyYjhheG5zUTBXR0ZIZmtxcWktNlpLZlk5aFlnZTZvam15UC15ZERMNW1yN3RPaWFnMUdYUDAtbFg1WWVrM09MNjRZeFFUV2VDRDVQeno3QWlTVkxnMlFOaTNmbVpwLXVfTTg2eEJvWjNtM2lKTVBDVUZRZTlmcGsxdzZrMzdkdkthVlg1VlE?oc=5",
+   "s": "MMOEXP",
+   "d": "2026-11-04T03:32:16+00:00",
+   "lang": "en",
+   "t": "GTA 6 Gameplay Guide: 20 New Features, Combat Changes, Wanted System & Realistic Mechanics",
+   "erreur": "429 : passage suivant"
+  },
   {
    "gn": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBjdmlDV2k2UXhfVHRaeFNmYndIUDlqRVZRU0dvVmZkcGwxLW05YlFVaDBDUjRUVEl5c2IyLTZpX0JQLVlTNDRLTEZ6UG5DUENFbDJHeWhJYy1UTlh2Y1dTYXE5UTNoY1oxUjU0VkhNejdiUl9ybEQ4ejNNUlB6VEk?oc=5",
    "s": "Mashable",
@@ -31,23 +47,7 @@
    "d": "2026-11-04T02:55:34+00:00",
    "lang": "en",
    "t": "Pre-loading for GTA 6 will begin on November 10th, requiring up to 212GB of available space.",
-   "u": "https://www.expreview.com/109289.html",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": ""
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObVVwbUk1eXUtb0M5RkVCMmZ4djVVSXhyUDNVN2RqT1NYUEJXVEhOUTFvdmhGU0pOSkZ1bUQwVGJ5TXlYbzFHVlQxX3NpaU1CUlRmWlFRUTVtV2prYk9vczAtcVdTLVNuM0hvV0ZSdTI0VV9xczlrYTZFaEEzNzZfVTRFb3dGdmFTQVNMUWxBZFJWZkFqY0lJ?oc=5",
-   "s": "2ST",
-   "d": "2026-11-04T02:04:55+00:00",
-   "lang": "en",
-   "t": "Exactly When You Can Pre-Download Grand Theft Auto 6 - 2ST",
-   "u": "https://www.2st.com.au/trending/gaming/exactly-when-you-can-pre-download-grand-theft-auto-6/",
-   "img": "https://www.2st.com.au/wp-content/uploads/sites/8/2026/11/20261103-gta6-preload-feature.jpg",
-   "chapeau": "The moment millions of gamers have been waiting for is finally here. Sony has confirmed that Grand Theft Auto VI...",
-   "txt": "The wait is finally over. After 13 long years, Grand Theft Auto VI is set to drop on 19 November,...",
-   "pub": "2026-11-04T02:03:04+00:00"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQUjNaRllGOXBqeFBXemxSNWx2cnJRT1k1ajhUeEdfdEp1NnZKelFKcmNTRmU3VGRCdmVINUZxaEwxUVRtMXc4QV81THRSdnlLdHA2aWJPekVvMDVlNVJOd0pYcmRNQTBYSkt5VFBIQlRkMERpeWQtR2UxQUxFbmYyeGJ2YW50YUNfak41cE1IcjA1ZUIwaDJiUlFxcW9xWTZjX08yYlNSaTNyS0NNZkJpRXNZbmhFYWdMa2stRjVBSlFmVUgwMjViRFdwcVpJMDJ6WnBFWl9FYVFEeXRkQVJaUmtWRTZySU0?oc=5",
@@ -122,16 +122,20 @@
    "pub": ""
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA2ZTRZYXdSVFZIR3ZBV052WFVWRUVFZ2xVY3BJUlJjM01mUjhxeFBGSlhZMVRxeDRVNDh3WWd5LUNlRHVrUm1tOTdkdXdXX2FqTUJ0d0x6aWZtTVVNc0tLbXE3MEEwdG15RVJEODFR?oc=5",
-   "s": "Mashable",
-   "d": "2026-11-03T22:27:28+00:00",
+   "gn": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNDdtcTRZcUxVMWdOY1JwVnNfbXlnVG5mdGdlQ2NJQmQ3NmtfT0E0clI3c1lJUVdfQzZLdjRHeTBNZS10Um94SDJaUlVUZ1RKQVdXWHV1LVl6ZWUzZnJIWnFteTdzSHlXQURuckFJLTh3Q1E4dlRRQU15bmdhWTRtWDJKblFEQTZkLWhzSkQ2Yno2N3lZa0FRb3doMFR3YXZnTnB2WTNZdTVJdU9kME93WlZMQnFHVXd2c3FKVVNUWHlQVUtCZHlZ?oc=5",
+   "s": "IGN",
+   "d": "2026-11-03T22:51:15+00:00",
    "lang": "en",
-   "t": "Best 'GTA 6 Ultimate Edition' deal for the PS5: How to buy for $85",
-   "u": "https://mashable.com/tech/gta-6-rare-preorder-price-drop-deal",
-   "img": "https://helios-i.mashable.com/imagery/articles/00iFTwXe50SXhINlvKi5Ocv/hero-image.fill.size_1200x675.v1793117589.jpg",
-   "chapeau": "We don't expect to see anything better between now and launch.",
-   "txt": "TL;DR: Get a PlayStation Store $100 Gift Card for $85 with the promo code GTWF2793 at Newegg . You can use that gift card to pick up GTA 6 Ultimate Edition for the best preorder price .\nEven if you've already accepted that GTA 6 is going to dominate your winter gaming schedule, dropping $100 on a digital preorder still stings. The best tech deal this week The Apple iPhone 18 Pro is free right now with T-Mobile\nYou need to cough up $79.99 for the Standard Edition and a steep $99.99 for the digital-only Ultimate Edition. Because Rockstar almost never discounts flagship titles prior to launch, preorder price drops are pretty much nonexistent.\nHowever, for a limited time, you can grab the GTA 6 Ultimate Edition on PS5 for $84.99. That's an extremely solid $15 discount on the most anticipated entertainment release of the decade. There are a few steps you need to take to unlock this discount, but it's worth the hassle:\nGrab a Sony PlayStation Store $100 Digital Gift Card for $85 at Newegg with the promo code GTWF2793 at checkout\nYour digital voucher code typically arrives via email within 10 to 15 minutes\nSign in to your PlayStation Network account on your console or browser\nPaste the 12-digit key to deposit $100 directly into your PSN wallet\nHead to the official GTA 6 store page and lock in your Ultimate Edition preorder before launch on Nov. 12.\nIf you plan on playing GTA 6 on launch day and want to lock in this rare preorder price drop, we recommend jumping on this deal.\nJoseph Green is the Global Shopping Editor for Mashable. He covers VPNs, headphones, fitness gear, dating sites, streaming, and shopping events like Black Friday and Prime Day.\nJoseph is also Executive Editor of Mashable's sister site, AskMen.",
-   "pub": "2026-10-27T16:13:37+00:00"
+   "t": "Xbox Made an Alligator-Shaped Series X, and You Can Win It Before GTA 6 Launches",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNczJJRWlYakYwMlRoREIyZlZCV2c4WG9ibzh1OFRTYnVfakNVMDlkZnFxNWYwaFZhTnZBYWxvZDdzc21HMGx1ZndJUWo5OE1oei1jV1BsX1BXOXdMelpZc3NYRVBic2RqTmVRTnpXWklONFJoVDZxeDJmcnpoYWZ1UmpHZWgyY3lpUVhqdUZRcFMzZGdueFZ3akozbEcwN1Vfa3Q4dHdrNV92NEkzTkhDNUZ1NF95RlNadjMzYkk5bnJVLUVxakpPQS1MbnNVM3pkZVNfZnMycHZlZnJncjlNUU93?oc=5",
+   "s": "IGN",
+   "d": "2026-11-03T22:51:15+00:00",
+   "lang": "en",
+   "t": "GTA 6 Preload, Global Release Times and Install Size Confirmed, Rockstar Announces Physical Cover Art Poster and Map of Leonida",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQR0dTZzhHN1BSbnloQWdlajhkZXRsZkdxRHRCdmpzbWdQZUxZNTZHeExaYzBEdW56b0tNdFlnQTVqVWJ6ajFQVHFseDVubzFFUjc2b2ljalZhOFpWcVNqaG9sMU9OLWdDNHBtTGduY0JDZEUzM2JaTllXSWF0Yi14NDBzN3lhcVktWmg1X3hGczhBdlB2UzhXWlNn?oc=5",
@@ -182,56 +186,12 @@
    "pub": "2026-11-03T21:37:58Z"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMipAJBVV95cUxPSHdIdV9EUTg5RTJXUnhsS2s3MS12Sk1oekptR2Z5MmhMcU5na0F5ZVc4TDFyU2p2c3dJYXB2TnVpY2VNc3JjY2ozaHlmQ2hhMl81dE8zV21YZUxyQkZuOWV3STVOYWNrcTM2N2R2azd1WUp0a1lsbzB3YjhqRFliSGdiNXRqVGhfelQ4VkR4cHhSSDRBcEllMmtlSjFFZE5JTUFWRjJocHdIaUN3ODFJS3FpTDRWUDlaZEdCS0ZpUE5FMVBvLXk2REZZV292V0xJMVlDeUVJYWNneU5qUVcwd3l6S19qWkoxU2M2OUpIOEhXdXpyaEFsTURGdjNlQi16R01tdFVHTG5UZ00wSXlQN2J4MUlDeFVYV2RGa3V1ME9yalc3?oc=5",
-   "s": "La Crème Du Gaming",
-   "d": "2026-11-03T21:30:45+00:00",
-   "lang": "fr",
-   "t": "Votre PS5 manque de place ? Cette astuce pourrait vous permettre de récupérer du stockage sans sacrifier vos jeux préférés",
-   "u": "https://www.lacremedugaming.fr/consoles/playstation/playstation-5/votre-ps5-manque-de-place-cette-astuce-pourrait-vous-permettre-de-recuperer-du-stockage-sans-sacrifier-vos-jeux-preferes-233406.html",
-   "img": "https://sf.lacremedugaming.fr/wp-content/uploads/creme-gaming/2026/11/votre-ps5-manque-de-place-cette-astuce-pourrait-vous-permettre-de-recuperer-du-stockage-sans-sacrifier-vos-jeux-preferes-1200x660.png",
-   "chapeau": "Entre Call of Duty: Modern Warfare 4 et GTA VI, le SSD de la PS5 craque déjà. Une option méconnue promet pourtant de libérer de la place sans sacrifier vos parties.",
-   "txt": "Entre Call of Duty: Modern Warfare 4 et GTA VI, le SSD de la PS5 craque déjà. Une option méconnue promet pourtant de libérer de la place sans sacrifier vos parties.\nEntre Call of Duty: Modern Warfare 4 déjà installé et Grand Theft Auto VI qui arrive le 19 novembre, l’espace de stockage de votre PS5 est plus sous pression que jamais. Certains épisodes de Call of Duty peuvent grimper entre 160 et plus de 300 Go, tandis que GTA VI est évoqué autour de 210 Go à son lancement sur PlayStation 5 .\nFace à ce mur, beaucoup de joueurs finissent par supprimer un jeu entier ou par investir dans un disque externe. Pourtant, une option souvent ignorée de la PS5 permet de récupérer plusieurs dizaines de Go sans désinstaller vos titres préférés, simplement en taillant dans ce qui est vraiment inutile.\nOfficiellement, le SSD interne de la PS5 affiche 825 Go, mais seuls environ 667 Go sont réellement disponibles pour vos jeux et applications. Avec des blockbusters qui pèsent fréquemment entre 50 et 150 Go, il suffit de quatre ou cinq AAA récents pour saturer la console.\nAutre détail piégeux : certains téléchargements exigent presque deux fois la taille affichée en espace libre pour s’installer. Résultat, même avec 80 Go restants, vous pouvez voir apparaître le message « espace de stockage insuffisant » , alors que vous avez l’impression d’être encore large.\nLe vrai levier se cache dans le menu Jeux et applications . Depuis l’écran d’accueil, ouvrez les Paramètres , puis « Stockage », « Stockage sur console », « Jeux et applications ». Sur certains titres, un bouton « Personnaliser » apparaît à côté du nom du jeu. C’est là que la magie opère.\nEn entrant dans « Personnaliser », vous pouvez décocher des portions complètes du jeu : campagnes déjà terminées, modes multijoueur que vous ne lancez jamais, packs de langue inutiles, DLC cosmétiques. Le cœur du jeu reste installé et jouable, seules les briques sélectionnées sont désinstallées. Vous pouvez les retélécharger plus tard sans repayer, via le même menu.\nIl existe aussi une méthode rapide depuis l’accueil de la PS5 : placez le curseur sur la tuile du jeu, appuyez sur le bouton Options de la manette, puis choisissez « Gérer le contenu du jeu ». Vous voyez alors la liste des extensions et packs disponibles, y compris ceux déjà installés, que vous pouvez supprimer un par un. Tous les titres ne proposent pas cette granularité, mais la plupart des jeux avec beaucoup de DLC la supportent.\nSur un jeu type Call of Duty: Modern Warfare 4 , retirer un mode multijoueur que vous n’utilisez pas et quelques packs de langue peut déjà libérer plusieurs dizaines de Go. Sur un open world façon GTA , couper les doublages inutiles, un pack de textures optionnel et un DLC terminé suffit souvent à faire de la place pour la prochaine grosse mise à jour.\nPour aller plus loin sans sacrifier vos jeux, pensez aussi à vider la Galerie des médias de la PS5 : les captures automatiques de trophées et clips peuvent représenter plusieurs Go. Ensuite, archivez vos titres PS5 peu joués sur un stockage étendu USB , ou installez un SSD M.2 compatible pour augmenter durablement la capacité. Vos sauvegardes, elles, restent indépendantes du jeu et peuvent en plus être sécurisées dans le cloud via PlayStation Plus .",
-   "pub": "2026-11-03T21:30:45+00:00"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUDJFajBHRF9BUjhmMFZqQk90RTFGekFod1pqMjJpUnNTOTB3SnVwTEdyUzJkZUE2clowWm5aWU9kTEQwMnVYZVBqWGwzbWZ4SlA4ckM2bDRYbjZ0OGRkQk9uRTc0UXBmQk8wZl9Zc3pLejEyWnIxOWY3NEtJam5PLXRId3dNZGxQcXhodWNXdVBnZXkwNVRFd2tnNGJ2M3JzeUExd0g4b2VPT0U3ajVhMTRn?oc=5",
    "s": "GameSpot",
    "d": "2026-11-03T21:24:15+00:00",
    "lang": "en",
    "t": "This Custom Xbox-Inside-An-Alligator Console Is Actually One Big Ad For GTA 6",
-   "erreur": "HTTP Error 403: Forbidden"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTEd3ZlVfeFU4blZUTEpzYWNfTURBMVg5azQ5NzFSbGJNSTdTcGRva3hhZUZ3cUNRald2d3J5OFczYW1zM0lOTlRQZWg5aWZvWXJ2U01mSDliSHRZNkVwLXY0RWFDV0lRdVA3VS11LVBGSllJTFgxZWdNYU1Wb1o5djdIc2FsMEpyQUZRM1RnVU1IOUE4N0MxSnVzWld3bGhjTEk5b19KbGdGcnl6QW1jR1JR?oc=5",
-   "s": "Rockstar Games",
-   "d": "2026-11-03T21:01:39+00:00",
-   "lang": "en",
-   "t": "Grand Theft Auto VI Pre-Load Begins on November 10 - Rockstar Games",
-   "u": "https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10",
-   "img": "https://media-rockstargames-com.akamaized.net/tina-uploads/posts/k4ak9okk485712/81e58e08369adca0d68a17dac9b12c3a63848fc3.jpg",
-   "chapeau": "The arrival of Grand Theft Auto VI on PlayStation 5 and XBOX Series X|S consoles is now only a few weeks away. There’s still time to pre-order and ensure you",
-   "txt": "",
-   "pub": ""
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNekRZellZNlBMeDRYd09hSGFRZDZ2MVNPMmkwQTA0NWlOVWxIOWNnQ2dOMzNuUkFNNDZjcDhNNk5QLTdfYWh0SWVLYkxmOS1yQ3kxWnVlTWNWLW51Zks0SFlvMnJMMEtTU2tiV0h3aVk3NGJyTzdfTFJZNS1adFo2UjF6NWMtQXQ0cm5wNTZQdXNyWmpZaG0zaUpETVhzOUJzaHhyOUFSRVlYZGxOYlpHcnZ2TWJHYlk?oc=5",
-   "s": "Kotaku",
-   "d": "2026-11-03T21:00:56+00:00",
-   "lang": "en",
-   "t": "Xbox Can't Market GTA 6 So It Stuck A Console Inside An Alligator",
-   "u": "https://kotaku.com/xbox-isnt-allowed-to-market-gta-6-so-it-stuck-a-console-inside-of-an-alligator-instead-2000752847",
-   "img": "https://kotaku.com/app/uploads/2026/11/alligator-1200x675.jpg",
-   "chapeau": "'Xbox is heading to Florida'",
-   "txt": "Grand Theft Auto 6 Grand Theft Auto VI GTA 6 PS5 Xbox Xbox Series X/S\nSony appears to have an exclusive marketing campaign with Rockstar Games for Grand Theft Auto 6 . We don’t know what the terms of the deal were , but it has afforded the PlayStation maker all sorts of opportunities to announce things like “ GTA 6 will play best on PS5 .” The game is obviously also coming to Xbox, but Microsoft isn’t allowed to talk about that in its blog posts, so it stuffed an Xbox Series X inside of an alligator instead.\n“Measuring more than five feet from snout to tail, the console sits inside a meticulously crafted alligator, visible through an illuminated Xbox Nexus in its body,” the company announced today . “A custom Xbox Wireless Controller with bite marks rests between its jaws, complete with Xbox-green irises and Nexus-inspired pupils, making the Xbox Series X-BITE ready to play some of the biggest games of the year. The result is part-Xbox Series X, part-creature fabrication.”\nThe ’80s-style synth-backed teaser for the limited edition Xbox makes the GTA -ness of it all clear despite never mentioning the game:\nThe X-Bite isn’t being mass produced. The animatronic produced by John Nolan Studio, which has produced similar creatures for shows like The Witcher and movies like Jurassic World Dominion , is completely one-of-a-kind. The only way to obtain it is to win one of the special sweepstakes Xbox still loves doing.\nSo why pull this stunt? Why put an illuminated Xbox power-on button inside the spiny scales of a five-foot gator? I suppose it was one Xbox marketing person’s clever workaround for the GTA 6 marketing exclusivity deal. “This November, Xbox is heading to Florida,” the blog post reads. Why is Xbox heading to Florida? The post never says. The words “ Grand Theft Auto 6 ,” “Rockstar Games,” and “Vice City” are nowhere to be found.\n“Reminds me of companies that want to advertise around the Super Bowl but don’t pay up so they have to say ‘The Big Game,'” wrote Giant Bomb cofounder Jeff Gerstmann on Bluesky . “‘Hey, if you’re going to sit down and play Big Florida Crime 6 this month, do it on a gator!'”\nGTA 6 will likely play the same on Xbox Series X as it does on PS5, as 99 percent of multiplatform games have this console generation. Even from the inside of an animatronic gator.\nDon’t miss the latest reviews, news and tips. Sign up for our free newsletter.\nThe man's family confirmed he died on October 29 following complications from lung transplant surgery\nHelen Chiang has broken her silence after weeks of speculation",
-   "pub": "2026-11-03T21:00:56+00:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVExMZHJ5ZmpYNE4yZ3QtQ2ZFX1NqVWVqVGdKalVKaFNKTF95LVF3OFBDWHlNdWVIQi0xSHJKaFN2cnBudUlJSlgyMElvT0hYUkRRQnpMbERFZzhWRF9NZ1pTbkxUcW50MnFFemJic01rODJKSlZCdWdZTWppclcyVjFRU01Pcl9EcFIyWmlFYnhzdWVuUFpfc2tkYzlmWTdKTFVpOWZqbTBycU9GeEtZWElIdnFUdC15el9RNzdINGhhY3BxME9XYk1pV0h4VmhWbmZESXBn?oc=5",
-   "s": "JeuxVideo.com",
-   "d": "2026-11-03T20:40:07+00:00",
-   "lang": "fr",
-   "t": "Mario Kart 8 sur PS5, GTA gratuit sur PC : quels sont les risques d'y jouer ? Un avocat nous explique",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPempLMS1fMG5sX2luaVE3eFpnMWVOejc2bUI3ZWxBbHVudXhkdGNXUlZaZ0dNN2MxU2xRM1VtMzVPNXFlZnROTGwzLWtZZ2xUNUprTjVzakhBcTVWeFVyS2toRHlIV0RCQW5JNHNqNXE5NVhGLWZaZTkzZElXTWJwYjBIWUxJVnpkVUx3VGNzVURKWWZKT0l3M2JxV1dWZWlVUkJQa0JQSQ?oc=5",
@@ -239,23 +199,7 @@
    "d": "2026-11-03T19:38:00+00:00",
    "lang": "fr",
    "t": "GTA VI : une semaine pour faire de la place sur votre SSD",
-   "u": "https://www.factornews.com/actualites/gta-vi-une-semaine-pour-faire-de-la-place-sur-votre-ssd-52350.html",
-   "img": "https://www.factornews.com/images/base/14/149318.jpg",
-   "chapeau": "Pour celles et ceux qui ont précommandé Grand Theft Auto VI, il va très bientôt être temps de faire un peu de ménage sur le SSD de vos consoles. En effet, Rockstar Games vient de préciser les...",
-   "txt": "",
-   "pub": ""
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQkxKZ3U1alFEcDFqeUdrYld0VEFDMFhNWTVnRUhHN1RXclN1MEZyNFEzeDhLUjJJOFRZdVluWXJCU3NqV1hKdUJ3VGV5aDdURmJlcjVfYm9yX0cwQmdaTlV1eVBKWVJCaDk4eWtYSlhJVVZrdkFBUmRxZ18yS3M1eTk5TFJnTEhuN0lDVTd1OVNjWGRSQ0g2eElqeGRvLWxJRmpuUnJHT3YxWFkwYmprbg?oc=5",
-   "s": "20 Minutes",
-   "d": "2026-11-03T19:32:00+00:00",
-   "lang": "fr",
-   "t": "Où acheter GTA 6 au meilleur prix avant sa sortie ? Les stocks s'écroulent",
-   "u": "https://www.20minutes.fr/guide-achat/4260148-20261103-acheter-gta-6-meilleur-prix-avant-sortie-stocks-ecroulent",
-   "img": "https://img.20mn.fr/HvTjT2vgQYC6ZS93-FWkXSk/1444x920_gta-6-sur-quelle-site-et-a-quelle-heure-precommander-le-jeu-ce-jeudi",
-   "chapeau": "GTA 6 est le jeu le plus attendu de la décennie. Alors que la date de sortie est annoncée le 19 novembre prochain, vous pouvez d'ores et déjà le précommander. On vous dit ici où acheter le jeu vidéo Grand Theft Auto 6 au meilleur prix",
-   "txt": "Grand Theft Auto 6 s'apprête à frapper un grand coup. D'abord annoncé pour l'automne 2025, puis repoussé au 26 mai 2926, le jeu de Rockstar Games est finalement attendu le 19 novembre prochain. Il ne reste donc plus que quelques jours à attendre. Take-Two Interactive, la maison mère du studio, a confirmé cette date. Le titre ramène les joueurs à Vice City, avec un duo de protagonistes, Jason et Lucia, au cœur de l'histoire. GTA 6 sort sur PS5, Xbox Series X et Xbox Series S, sans version PC annoncée à ce stade. Une arrivée est cependant envisagée entre janvier et juin 2027. Plus de douze ans après GTA 5, l'attente a été longue et les espoirs sont très élevés. Le budget est colossal, les enjeux financiers sont majeurs, alors que la pression des fans est toujours plus importante. Plusieurs enseignes vous permettent d'avoir GTA 6 au meilleur prix.\nCet automne, E.Leclerc vous propose le jeu Grand Theft Auto VI pour Playstation 5 au tarif de 60 euros. Il est ici disponible en précommande. En validant votre achat sur le site marchand, vous recevez également le pack Vintage Vice City. Vous profitez de la livraison anticipée : à la demande de l'éditeur, vous recevrez votre commande à partir du 12 novembre prochain.\nCliquez ici pour profiter de l'offre E.Leclerc sur le jeu PS5 GTA 6\nMicromania propose une offre incontournable pour acheter GTA 6 au meilleur prix. Vous pouvez obtenir le jeu PS5 pour 39,99 euros. Pour profiter de ce bon plan, il suffit de revendre un produit parmi la liste établie sur le site. Le catalogue comprend des jeux ainsi que des accessoires d'occasion.\nCliquez ici pour profiter de l'offre Micromania sur le jeu PS5 GTA 6\nLe jeu PS5 GTA 6 est également disponible en précommande avec Carrefour. Le titre est proposé au tarif de 69,90 euros. Il est livré à partir du 12 novembre 2026 pour une pré-installation. Le titre sera jouable à partir du 19 novembre, sa date de sortie officielle. Il intègre le pack Vintage Vice City.\nCliquez ici pour profiter de l'offre Carrefour sur le jeu PS5 GTA 6\nIl est important de préciser que le jeu sera disponible uniquement via un code de téléchargement.\n20 Minutes Guide d'Achat est aussi sur les réseaux sociaux ! Suivez-nous sur Instagram et TikTok pour ne rien manquer de nos conseils et sélections.",
-   "pub": "2026-11-03T19:32:36.793Z"
+   "erreur": "HTTP Error 429: Too Many Requests"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQMDBkZDNteVBXaUxtMWJtdUFBdjJNMC1sZkV0T2tKUmVBV24zXy1wdHF5clJzXzRJVHFrVFludHA0S0ExY3ROdnBpNE9OTFB6WnJoRjc1ZTF2NmlLYXA1MVQtYjdjbzNpcmh1Tml3UjcxLWp6Y0twQVBfVG9pVV9QNV9NOTBHYXZaOXVHVnY0UXEwYXpaM3BidU94cUNWUTFONVd1bEFSV2pWa19Hd2NHaFVoZnk1b2lmOEVmdEtpM0V3c01sTHp0M0pDTGczeVdiWlJLaWticzB4dGR2RmEtR2ppNkUxNm1qWTJMdVotam5xdw?oc=5",
@@ -306,14 +250,6 @@
    "pub": "2026-11-03T18:05:27+00:00"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFByUEpfcU5WeUxJaHRqREtIOFdvdVF2TFUxbHlNdGE0Yzc3YklnclEzX1dWTkYwWXRhamFHVUZZT0hqYmpaWHJjcFpSVy0yOEV6NEhRaFY5eGdUSHc?oc=5",
-   "s": "Gamekyo.com",
-   "d": "2026-11-03T17:45:00+00:00",
-   "lang": "fr",
-   "t": "GTA 6 n'aura pas de carte dans la boite, la carte sera payante .",
-   "erreur": "The read operation timed out"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOb3h5RlEyenhka21jM3ppRWNrWFAwbDFZR09ydzhfSmM5VkJCQjZZcVowRjd4OTBqc0haeEp1TGFFc1dIbnUtLUFfR0dxMEQyMEJmMHRwbFlVZlhPRzhpZ1g4QXdtbWRnWmN2REp2SkhBZ3NuWFVDTXJubmJfNnFad3FWamtVcWNDY0tqbw?oc=5",
    "s": "level-1.fr",
    "d": "2026-11-03T17:43:38+00:00",
@@ -326,16 +262,12 @@
    "pub": "2026-11-03T17:38:34+00:00"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5WRWxRM2xpU2RmTENuSEh3NmMzVGtyYTZuNng2NUdWbkhkU0pNRnNFMTctNE5kdy1hZTdsd0pvOXlVRk1sSl9OWTg2V2FWUWJRU2ZhVjdodkF4UWFWdWF0SjFCSVM1VzU0VGRLVHBCeDdiTjhlME9Uc2s5LW4?oc=5",
-   "s": "JustWatch",
-   "d": "2026-11-03T17:35:58+00:00",
+   "gn": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPaVpwMjhacnNuOUJFOXVxWDZPakVZMEl0eE5YSGtSMWtaVUJqUDVsUVVDb1U4ZWl5TG1PMF9PWWgzb3p4dHNpWFY3aVlQRUp1YXRzMGlwQWFRZlJQZVFsQVBLTVcweTRYYjZfRjlpZVpkM2swZWtFMVdxSTliM3JnZ09PT3QyQ1dZMnk5M0E0ZFE2MW5XZ0U5MUkxOUN1QXduN1ljMTVGbU1VUlR1eTZwOEtuR1NWQzBYaFpkMDlhaW02NXg0WXJRZkpLOU4taFNNY2E0NjRDaWNGOFU?oc=5",
+   "s": "Journal du Geek",
+   "d": "2026-11-03T17:42:01+00:00",
    "lang": "fr",
-   "t": "Justice avant GTA VI : 9 films et séries qui ont joué leur musique",
-   "u": "https://guides.justwatch.com/fr/justice-films-series-musique-avant-gta-6",
-   "img": "https://guides.justwatch.com/sgassets/images/editorial/54734_gta-vi-6_1400.webp",
-   "chapeau": "De “The Square” à “John Wick”, JustWatch a listé les films et séries qui ont utilisé les morceaux de Justice avant que le duo ne signe la musique de GTA VI.",
-   "txt": "2,99€ HD 2,99€ HD 2,99€ HD 3,99€ HD 3,99€ HD Achat 5,99€ HD 5,99€ HD 5,99€ HD 6,99€ HD 6,99€ HD Nous avons vérifié les mises à jour de 106 services de streaming le 3 novembre 2026 à 12:15:56 .",
-   "pub": "2026-11-03T17:00:00.032127Z"
+   "t": "GTA 6 sera disponible en magasin plus tôt que prévu, voici toutes les infos pour l'avoir au bon moment",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNOHJ1NUhudnBYR3Axak1KZlozYXp0aDQtSldweDN6SnpERzlQR05ob0hubm5LM0xBVHMxc2VWUEFLd1VxM0tRNkkzc0Z6RWdlMktEeWdfQmppTUREdnZQNFdLS0xha0V6RFFYTUxuUHBxTFgyYXk0YVJMLVdYQmdUSWJNLWE5cVFTNzBNSVhMVHhTR0xIaHc?oc=5",
@@ -355,12 +287,40 @@
    "s": "JustGeek",
    "d": "2026-11-03T17:25:29+00:00",
    "lang": "fr",
-   "t": "GTA 6 : Rockstar dévoile la date du préchargement et sa taille",
-   "u": "https://www.justgeek.fr/gta-6-date-prech-argement-espace-disque-160860/",
-   "img": "https://www.justgeek.fr/wp-content/uploads/2026/11/gta-6-prechargement-preload-ps5-xbox-2026.webp",
-   "chapeau": "GTA 6 : découvrez la date et les horaires du préchargement sur PS5 et Xbox Series X|S, ainsi que l'espace disque nécessaire pour installer le jeu.",
-   "txt": "",
-   "pub": "2026-11-03T17:21:55+00:00"
+   "t": "GTA 6 : Rockstar dévoile la date du préchargement et l’espace disque nécessaire",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQS3dIYWIzdlJwUU1mMWtIVkZSYzRkcU5adWNjT3NOVDRTRDlGVWc0TC1YZFhjZ0ExWHZnVnl6aE5nT21CbG84ZHJkNVRhSFdJenA2bUl3bGNUNklUY3VCbktKUmZFTTVoUGxYemF2RmFXak03NEhVdXNTTUc1ck1hR29QUmhjYVJueHZiODlYd25MTEE2UldYcE92X19EV3dpRk9SNnJB?oc=5",
+   "s": "TVA Nouvelles",
+   "d": "2026-11-03T17:23:16+00:00",
+   "lang": "fr",
+   "t": "GTA 6: la date de préchargement et la taille du jeu enfin connues",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaklTT3FEWlJ2SWtqNUVld3JqNjVzZ2Nkc3FGa3YxMWYzbUJHS1F5TjJLS1hDbGVoTzFjZVdxcHdkSmZSS1I5R1FzTWJzdi1sXzhNSHhfWTRIMnFYMG50c2x4eG5DaUlFX1lZUmJRQk9FdVVxVWllTDU4ajVvamN0WEVjR1QyMnNxTnhPN1FNWWZZTkhySUNqeWhvQVI?oc=5",
+   "s": "Gameblog",
+   "d": "2026-11-03T17:12:26+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : date de préchargement et taille officielle, voici quand vous pourrez télécharger le jeu et il est colossal",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1pdUVZTExxblVOTF94ek1TZ2MyUlBnSm1DS25PUFhyY09zS1pWODdJNmtNQzJEU1EyT3VSeXlocndLVnh2WWY1T28xSW9Yd3V6amdlZEJtYlZkRDllRi1VLVFnZ25fZHp1b3l4VmFYVDFMWWJf?oc=5",
+   "s": "GeeksLands",
+   "d": "2026-11-03T17:11:11+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : le pré-téléchargement avancé au 10 novembre, 212 Go à prévoir sur PS5 et Xbox",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxORHdYU2IzVjdtWTlUOE13Vi1ycFRIQXpSVnZrWjJYb3c4M2NlM0wyOGEzYWF5cVRNUnU0YmItMjNwdDJGWW5JWWZqSnliZ1JQdXVQUEVyN0JZb1RlcGZPVHNqVUpVeEVxRU1XMWRZcTFsb1ZaNGZNS0IwdDhEd04wNjlNeXNoYlBuMWQxZXFrbmNUSnZIN091ZENURmpmYzJ4TkNQYUExbU13ai1vYXN0TVpiYjk5RWVsVmF1YmIzUVc1bmN3RFJpbFA2bmFiS1pxTGRBNlptSXhJdC16aWdLWDZCdDh3NnN3eDVtSUlR?oc=5",
+   "s": "AutoHebdo",
+   "d": "2026-11-03T17:00:00+00:00",
+   "lang": "fr",
+   "t": "Goodyear surfe sur GTA VI avec un dirigeable « Vice City » qui survolera la course de NASCAR de Miami",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYVNYUVNRcDFYOGg3cXhBYU9zRWNjUktkXzRjaFppMTBYQmp4bHJ1Ym1qZXVLS1V0RWtWLVYydFRUQmZiNWlpTmctWU44NE9XRF9IVEJvQ1NJN2xLQmhTVHhzZllGYWR0WkVpd0ZxYkl5VWJrbnNYMjIwb2MzRkpqMVVNOWhzZjFrTEtoOEpxWTVHS2l4Mi15WDByT00?oc=5",
@@ -459,7 +419,7 @@
    "d": "2026-11-03T01:09:46+00:00",
    "lang": "en",
    "t": "GTA 6 leak shows 25 minutes of unreleased gameplay and nudity",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -520,7 +480,7 @@
    "d": "2026-11-02T13:06:02+00:00",
    "lang": "en",
    "t": "Leaked $130 Travis Scott x Nikes Show GTA 6 Merch Can Outprice the Game",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -568,7 +528,7 @@
    "d": "2026-11-01T12:12:48+00:00",
    "lang": "en",
    "t": "CYBERLEEK Price, CYBERLEEK Price, Live Charts, and Marketcap",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -590,7 +550,7 @@
    "d": "2026-10-30T12:39:43+00:00",
    "lang": "fr",
    "t": "Les copies de GTA 6 fournies aux médias n'ont quand même pas de filigranes",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -690,7 +650,7 @@
    "d": "2026-10-26T19:12:15+00:00",
    "lang": "fr",
    "t": "Une nouvelle fuite potentielle dévoile des images de Lucia dans GTA 6",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -725,7 +685,7 @@
    "d": "2026-10-25T07:00:00+00:00",
    "lang": "fr",
    "t": "Selon ce leak, GTA 6 aura bien le poster que les joueurs attendent le plus inclus dans sa boîte",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -742,42 +702,12 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPNlpqTjItcXllNlAxaXY3Qm1vUS1Dem82RGpOYjFJandOZlljc01CcjdzVFJ5TkN3eTg3NjlsUkoxNS1nbkJxUWMtZWRRdk1rdDlSVzlQbjBab000NUdOSmgxdDlXZFZOLWJuaS15S1NOMG9mT2tXNWlHcTQ1SDZacW1Gd1dmSUNhY2g5N1IxV3AwOWtrNkNEVjJnQUt5bU5WS293YkxtNV91al9CR0h3UGdweXBBcm5wSVpaUkdyd3RJYjQ0anowcTc4b0JoWEJVdTMyNmkzQQ?oc=5",
-   "s": "La Crème Du Gaming",
-   "d": "2026-10-24T07:00:00+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : la date et l",
-   "u": "https://www.lacremedugaming.fr/jeux/gta/gta-6/gta-6-la-date-et-lheure-des-premiers-tests-auraient-fuite-mais-il-y-a-un-petit-hic-232246.html",
-   "img": "https://sf.lacremedugaming.fr/wp-content/uploads/creme-gaming/2026/10/gta-6-la-date-et-lheure-des-premiers-tests-auraient-fuite-mais-il-y-a-un-petit-hic-1200x660.webp",
-   "chapeau": "Une fuite venue de ResetEra affirme que les premiers tests de GTA 6 tomberaient le 18 novembre 2026, la veille de la sortie officielle. Mais entre embargo à deux vitesses et silence de Rockstar, le calendrier cache encore quelques zones d’ombre.",
-   "txt": "Une fuite venue de ResetEra affirme que les premiers tests de GTA 6 tomberaient le 18 novembre 2026, la veille de la sortie officielle. Mais entre embargo à deux vitesses et silence de Rockstar, le calendrier cache encore quelques zones d’ombre.\nLes joueurs attendent la date des tests de GTA 6 presque autant que la sortie du jeu lui-même. Selon une fuite apparue le 23 octobre sur le forum ResetEra , reprise par Notebookcheck , l’embargo sur les tests de Grand Theft Auto VI se terminerait le 18 novembre 2026, soit la veille du lancement sur PlayStation 5 et Xbox Series X|S .\nDerrière cette fenêtre a priori idéale pour décider de garder ou non sa précommande, la rumeur cache pourtant un petit hic : un embargo à deux vitesses, accompagné d’une absence totale de preview jouable pour l’instant. Et comme Rockstar Games n’a rien confirmé officiellement, tout le calendrier doit encore être pris avec prudence.\nAvant tout, rappel rapide : un embargo est une date et une heure imposées aux médias pour publier leurs tests. Aujourd’hui, Metacritic et OpenCritic affichent encore un simple « tbd » pour GTA 6 , tandis que Rockstar ne communique que sur la sortie du 19 novembre 2026 et le préchargement prévu le 12 novembre.\nD’après l’initié BlackBate sur ResetEra, les premiers avis complets tomberaient le 18 novembre, avec une levée d’embargo située entre 12 h 01 et 13 h, heure de Paris. Concrètement, le Metascore de GTA 6 commencerait à apparaître en début d’après-midi chez nous, comme l’explique Notebookcheck. Ce schéma colle aux précédents GTA V et Red Dead Redemption 2 , dont les tests ont été publiés un jour avant la sortie, ce qui renforce la crédibilité de cette fenêtre sans en faire une certitude.\nLe point vraiment surprenant de la fuite, c’est que tous les médias ne seraient pas logés à la même enseigne. Toujours selon BlackBate, certains sites et chaînes YouTube devraient attendre le 19 novembre à 6 h 01, heure de Paris, pour publier leurs tests ou vidéos de gameplay. Résultat : un premier cercle de rédactions écrites en avance, puis une seconde vague, plus vaste, au moment même où le jeu sortira.\nNotebookcheck évoque plusieurs hypothèses : Rockstar pourrait vouloir laisser les articles écrits installer d’abord un consensus critique, les vidéos étant plus propices aux spoilers scénaristiques, ou bien privilégier quelques grands titres généralistes. Pour les joueurs qui se fient surtout aux reviews vidéo ou aux streamers, cela signifie potentiellement devoir acheter GTA 6 sans l’avis de leurs créateurs favoris.\nAutre point à garder en tête : dans la courte fenêtre 12 h 01 – 13 h, Metacritic et OpenCritic n’afficheront que quelques notes issues des plus gros médias. Le score de GTA 6 risque donc de beaucoup bouger dans l’après-midi. Comme le rappelle PlanetGTA6, toute « note » qui circule sans test signé et consultable doit être considérée comme suspecte, surtout à l’approche d’un mastodonte pareil.\nL’insider NateTheHate affirme que Rockstar doit envoyer les copies de test avant la fin octobre. BlackBate précise de son côté que les codes numériques PS5 et Xbox Series X|S n’étaient pas encore partis au moment de son message, mais qu’il vise la semaine du 26 octobre ou le tout début novembre. Cela laisserait environ deux à trois semaines aux testeurs pour explorer Leonida, l’immense monde ouvert de GTA 6 .\nAvec ce timing, un autre hic apparaît : jusqu’ici, les journalistes et créateurs de contenu invités par Rockstar n’ont eu droit qu’à des démonstrations de gameplay jouées par les développeurs, sans prise en main réelle de Jason et Lucia . BlackBate ne s’attend pas à de vraie preview jouable avant l’envoi des copies presse, ce qui signifie que les premiers avis « manette en main » solides arriveraient précisément avec ces tests sous embargo.\nReste que tout ce calendrier ne repose que sur quelques insiders relayés par Notebookcheck, Mezha et plusieurs sites français. Rockstar Games, de son côté, n’a officialisé que la sortie du 19 novembre 2026 sur console et le préchargement du 12 novembre. La logique historique des embargos de GTA V et Red Dead Redemption 2 rend la fuite plausible, mais les plans peuvent encore changer jusqu’à la dernière minute.",
-   "pub": "2026-10-24T13:30:16+00:00",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxORTl0dDRLR1VqYjNZUVcyTkxFZVhFMU9sM1YyTDJCQU5TLV9ydjROVzB2eGhFM21NdUV2UVJYVDU0UW1PYnBjWXYtZldpRTVWcG5Hbmktb1A3cHo4RV9RekdJdFBCYWg3MEdCNlJWNGRXVkRPOFBQQ290TXVUcy1MaEJQN0p6NFVBX2ZROXhUd1VEdTJ1a2xOSGpLbjVIR1l5blh4bWRiUVc1UFF6Nk9hZjJPODZYb2UxVGo2RmJRenBNQi1Mak1RRmlEMkhMN0oyRzJNNDE1SjRQWmF0MXU0U3ZpM1EyMXUwNXc?oc=5",
-   "s": "Notebookcheck.fr",
-   "d": "2026-10-24T02:22:00+00:00",
-   "lang": "fr",
-   "t": "L'heure de levée de l'embargo sur les tests de GTA 6 a fuité, certains sites devant attendre la date de sortie",
-   "u": "https://www.notebookcheck.biz/L-heure-de-levee-de-l-embargo-sur-les-tests-de-GTA-6-a-fuite-certains-sites-devant-attendre-la-date-de-sortie.1432786.0.html",
-   "img": "https://www.notebookcheck.biz/fileadmin/Notebooks/News/_nc5/GTA6JasonReviewEmbargo.jpg",
-   "chapeau": "Une fuite a permis de préciser quand l’embargo sur les tests de GTA 6 sera levé. Le jour et l’heure correspondent aux précédents lancements de Rockstar, mais certains contenus pourraient ne paraître que le jour de la sortie. Les journalistes et les créateurs de contenu n’auraient pas non plus encore reçu de codes numériques.",
-   "txt": "De précédentes fuites sur GTA 6 affirmaient que l’ embargo sur les tests serait levé avant la sortie prévue le 19 novembre . Les médias devraient également recevoir des exemplaires du titre de Rockstar avant la fin du mois d’octobre. Désormais, un internaute ayant déjà fait des prédictions exactes a indiqué quand les notes Metacritic seront publiées.\nBien que BlackBate, contributeur de ResetEra , soit peu connu, ses informations se sont progressivement révélées fiables. Depuis 2021, ce membre du forum a dévoilé à l’avance des annonces concernant Microsoft Flight Simulator , Death Stranding , Pragmata et Assassin's Creed Black Flag Resynced .\nLe 23 octobre, BlackBate a indiqué que l’embargo sur les tests de GTA 6 serait levé le 18 novembre. Plus précisément, les notes Metacritic devraient être publiées vers 12 h 01-13 h 01 CET/6 h-7 h EST. Toutefois, certains sites ou chaînes YouTube pourraient devoir attendre jusqu’à 6 h 01 CET/0 h 01 EST le 19 novembre, jour de la sortie.\nⓘ BlackBate@ResetEra forums Fuite de l’embargo sur les tests de GTA 6 dévoilée On ne sait pas vraiment pourquoi certains médias devraient retarder leur couverture jusqu’à la date de sortie de GTA 6 . Selon une théorie, Rockstar préférerait que les articles écrits paraissent d’abord pour établir un consensus critique. Ensuite, les vidéos, susceptibles de dévoiler des éléments de l’intrigue, pourraient montrer des séquences à mesure que le jeu devient accessible sur Xbox et sur le PlayStation Store . Ou peut-être que le studio donne simplement la priorité aux journalistes des plus grands médias.\nLe temps pressant, BlackBate soupçonne également que les fans ne verront pas d’ aperçus réalisés manette en main . Jusqu’à présent, les créateurs de contenu ont été invités à regarder du gameplay , mais pas à contrôler eux-mêmes Jason et Lucia .\nNateTheHate, une source interne fiable, a révélé que Rockstar devrait bientôt distribuer des exemplaires aux médias. Cet utilisateur de ResetEra estime que le studio n’a pas encore envoyé les codes numériques Xbox ou PS5 . Ses sources suggèrent que cela se produira soit la semaine du 26 octobre, soit début novembre. Les testeurs pourraient disposer de 2 à 3 semaines pour explorer le monde ouvert de Leonida .\nComme pour toutes les fuites, les fans devraient prendre les détails de l’embargo sur les tests de GTA 6 avec des pincettes. Néanmoins, ces affirmations concordent avec les précédents de Grand Theft Auto 5 et de Red Dead Redemption 2 . Dans les deux cas, les critiques ont été publiées la veille de la sortie.",
-   "pub": "",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1WTlZSdjJBT183dFhFMWd2YlRRZUlEdWF2WFdGSE94MU5NRUFfa1VvOEh1YVlCUXFITl9DZWJMbVloSVl0ZVdvcmVKU3Nadw?oc=5",
    "s": "IMDb",
    "d": "2026-10-22T15:12:54+00:00",
    "lang": "en",
    "t": "Cyberleek Shares GTA 6 Leak Of Naked Lucia",
-   "u": "https://www.imdb.com/news/ni66062173/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -799,11 +729,7 @@
    "d": "2026-10-20T11:13:09+00:00",
    "lang": "en",
    "t": "'GTA 6' Leaker Posts Nude Lucia Video With Threats of Releasing Game Early",
-   "u": "https://www.imdb.com/de/news/ni66062324/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -812,11 +738,7 @@
    "d": "2026-10-20T07:57:13+00:00",
    "lang": "en",
    "t": "GTA 6 Leaker Threatens Story Spoilers If Caught",
-   "u": "https://www.imdb.com/news/ni66067342/?ref_",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -838,11 +760,25 @@
    "d": "2026-10-19T07:00:00+00:00",
    "lang": "en",
    "t": "GTA 6 Leaker's Latest Effort Appears To Flop As Group's Meme Coin Declines",
-   "u": "https://me.pcmag.com/en/security/38351/gta-6-leakers-latest-effort-appears-to-flop-as-groups-meme-coin-declines",
-   "img": "https://sm.pcmag.com/t/pcmag_me/news/g/gta-6-leak/gta-6-leakers-latest-effort-appears-to-flop-as-groups-meme-c_zw4r.1200.jpg",
-   "chapeau": "The GTA 6 leaker, CyberLeek, seems to be frustrated that the group's meme coin has cratered amid scam accusations, prompting it to hit pause.",
-   "txt": "",
-   "pub": "2026-10-19T03:46:45+00:00",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE16YjZnS2RvOEtSVldQZ3hMTVh2dDZfX01BcVVUUTFuMVZPMVN1c1B3UURHVGVNMUdJOVZtS2NkY0VNeTJxQmpnWi1yTFl4cFEtc0x0VmRsbGMxa0UtbkdRdA?oc=5",
+   "s": "IMDb",
+   "d": "2026-10-19T02:15:56+00:00",
+   "lang": "en",
+   "t": "Cyberleek Confirms 20th GTA 6 Leak Will Be Their Last",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ULWhnT21RSDYzLTQtaVhYaGxJUzRnWGxRUXlWZDlBZnZpbGxsYXJ4ZTFDVVNJQWMxNE5VNzRGXy14MGEyaFJzZGY0RGZyUExENkZtODVabmpLbGxnWVhZVg?oc=5",
+   "s": "IMDb",
+   "d": "2026-10-18T04:28:12+00:00",
+   "lang": "en",
+   "t": "Cyberleek Shares More GTA 6 Footage Featuring Lucia Naked",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   }
  ]
