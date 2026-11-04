@@ -7,7 +7,7 @@ Lancé par launchd (~/Library/LaunchAgents/com.gtavifrance.xchrome.<slot>.plist)
 de décalage au hasard. Journal : ~/Library/Logs/gtavifrance-x.log.
 Prérequis : Chrome > Présentation > Développeur > « Autoriser JavaScript à partir des événements Apple ».
 Usage : python3 tools/x_chrome.py actu|site|top [--maintenant] [--essai]   (--essai : remplit sans publier)"""
-import json, random, subprocess, sys, time, datetime
+import re, json, random, subprocess, sys, time, datetime
 from pathlib import Path
 
 SERVEUR = "root@2.29.41.109"
@@ -50,6 +50,20 @@ ALERTES = ("rate limit", "limite de", "automated", "automatisé", "unusual activ
            "prouvez que vous", "temporarily restricted", "temporairement restreint", "arkose", "try again later", "réessayez plus tard")
 def gel_actif():
     return GEL.exists() and time.time() - GEL.stat().st_mtime < 86400
+GEL_DUR = ("verify you are human", "prouvez que vous", "temporarily restricted", "temporairement restreint", "arkose")
+JOURNAL = Path.home() / "Library/Logs/gtavifrance-x.log"
+ECART_MAX = 5.5   # 04/11 Gabriel : jamais plus de 6-7 h entre deux posts ; marge pour les 30 min de la routine et le hasard
+def gel_dur():
+    """Vérification ou restriction du compte : plus rien ne part. Sinon (ex. « automated » sur les abonnements), seules les interactions s'arrêtent."""
+    return gel_actif() and any(x in GEL.read_text().lower() for x in GEL_DUR)
+def heures_depuis_post():
+    try: lignes = JOURNAL.read_text(errors="ignore").splitlines()[-3000:]
+    except Exception: return 0
+    for l in reversed(lignes):
+        if re.search(r"posté |sondage publié|promo Vice Break|post merci", l):
+            try: return (datetime.datetime.now() - datetime.datetime.strptime(l[:16], "%Y-%m-%d %H:%M")).total_seconds() / 3600
+            except ValueError: pass
+    return 0
 def surveille():
     """Lit la page de la routine ; si X avertit : gel 24 h, ligne au journal, arrêt."""
     try: t = js("(()=>{const b=document.body.cloneNode(true);b.querySelectorAll('article,script,style,noscript,template,iframe,[data-testid=tweetText],[data-testid=UserDescription]').forEach(e=>e.remove());return (b.innerText||b.textContent||'').toLowerCase().slice(0,20000)})()")   # 28/10 : hors texte des tweets (faux gel du 27/10 19 h 10 sur un tweet contenant « automated »)
@@ -129,11 +143,13 @@ end timeout''')
         log(f"fermeture onglet : {e}")
 
 def main():
-    hasard(8 if slot == "chaud" else 55)
-    if gel_actif(): log("gel en cours (" + GEL.read_text() + "), rien publié"); return
+    garde = slot == "chaud" and heures_depuis_post() >= ECART_MAX
+    if not garde: hasard(8 if slot == "chaud" else 55)
+    if gel_dur() or (gel_actif() and not garde): log("gel en cours (" + GEL.read_text() + "), rien publié"); return
     # 28/10 Gabriel : la nuit, X ne réagit que pour une très grosse info (urgence.py, mode nuit strict, pose urgence_nuit.json)
     U = Path.home() / "La Soso/outils/solange-api/urgence_nuit.json"
     urg = " --urgence" if slot == "chaud" and U.exists() and time.time() - U.stat().st_mtime < 3 * 3600 else ""
+    if garde: urg = " --urgence --garde"; log(f"garde : dernier post il y a plus de {ECART_MAX} h")
     r = subprocess.run(["ssh", "-o", "ConnectTimeout=20", SERVEUR, f"cd /var/www/gtavifrance && python3 tools/x_routine.py {slot} --json{urg}"],
                        capture_output=True, text=True, timeout=120)
     if not r.stdout.strip().startswith("{"): log("rien à poster (" + (r.stdout.strip() or r.stderr.strip())[:120] + ")"); return
