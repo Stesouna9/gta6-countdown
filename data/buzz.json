@@ -1,8 +1,25 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-04T10:15:00+01:00",
+  "updated_at": "2026-11-04T12:13:33+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "rockstar-prechargement-10-novembre-212-go",
+      "title": "GTA 6 : Rockstar avance le préchargement au 10 novembre",
+      "summary": "Rockstar annonce le préchargement numérique le 10 novembre : à minuit local sur PS5 et à 0 h GMT sur Xbox Series X|S. Jusqu’à 212 Go sont requis selon la console. Les versions en boîte avec code sont attendues chez les revendeurs le 12 novembre. Cette annonce du 3 novembre remplace le calendrier du 12 novembre relayé auparavant.",
+      "url": "https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10",
+      "platform": "Rockstar",
+      "author": "Rockstar Games",
+      "status": "Officiel",
+      "published_at": "2026-11-03",
+      "checked_at": "2026-11-04T12:13:33+01:00",
+      "evidence": "Newswire officiel daté du 3 novembre 2026, texte consulté via son index public italien et espagnol le 2026-11-04T12:13:33+01:00 ; page originale et métadonnées og:image contrôlées en HTTP. Aucun compteur de portée utilisé.",
+      "visual": "PRÉCHARGEMENT AVANCÉ",
+      "image": "https://media-rockstargames-com.akamaized.net/tina-uploads/posts/k4ak9okk485712/81e58e08369adca0d68a17dac9b12c3a63848fc3.jpg",
+      "image_alt": "Vue officielle de Vice City de jour publiée avec l’annonce du préchargement",
+      "image_credit": "Rockstar Games · Newswire du 3 novembre 2026",
+      "cta": "Lire l’annonce officielle"
+    },
     {
       "id": "x-the-weeknd-stories-tramways-gta6",
       "title": "The Weeknd laisse entrevoir un possible titre pour l’album GTA 6",
@@ -44,7 +61,7 @@
     {
       "id": "x-gta6-prechargement-9-jours",
       "title": "Préchargement de GTA 6 : plus que 9 jours avant son ouverture",
-      "summary": "@GTAVI_Countdown rappelle que le préchargement de GTA 6 s’ouvre officiellement dans 9 jours, soit 16 jours avant la sortie. Le compte reprend un décompte, pas une nouvelle annonce de Rockstar.",
+      "summary": "@GTAVI_Countdown rappelle que le préchargement de GTA 6 s’ouvre officiellement dans 9 jours, soit 16 jours avant la sortie. Le compte reprend un décompte, pas une nouvelle annonce de Rockstar. Mise à jour : le Newswire Rockstar du 3 novembre avance le préchargement numérique au 10 novembre ; ce compte à rebours reflète le calendrier antérieur.",
       "url": "https://x.com/GTAVI_Countdown/status/2117495774506324419",
       "platform": "X",
       "author": "@GTAVI_Countdown",
@@ -1263,6 +1280,11 @@
       "at": "2026-11-04T10:15:00+01:00",
       "label": "Veille permanente · rien retenu",
       "summary": "x_alertes.json (relevé du 3/11 13 h 13 UTC) toujours inchangé : seuls Chess.com (8 519 vues) et Lucia (311 vues) non retenus (< 20 000 vues, un seul compte). Aucun nouveau sujet. Pas de navigateur."
+    },
+    {
+      "at": "2026-11-04T12:13:33+01:00",
+      "label": "Veille permanente · préchargement officiel avancé",
+      "summary": "Un nouveau sujet officiel : Newswire Rockstar du 3 novembre, préchargement numérique le 10 novembre et jusqu’à 212 Go ; image originale du communiqué ouverte et contrôlée. Ancien compte à rebours contextualisé. Relevés X Mac et serveur identiques, datés du 3/11 à 13 h 13 UTC : sujets admissibles déjà publiés ; Chess.com (8 519 vues) et hypothèse Lucia (311 vues) sous le seuil et un seul compte. @vicecentralFR exclu. Recherches publiques X, Instagram, TikTok et Rockstar effectuées : X direct en échec (cache miss), Instagram HTTP 429, TikTok sans contenu lisible ; aucun flux exhaustif ni métrique récente revendiqués. PR Times inaccessible, non retenu ; décès du fan déjà couvert."
     }
   ],
   "coverage": {
