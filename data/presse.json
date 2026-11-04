@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-04T23:34:28+00:00",
+ "maj": "2026-11-04T23:45:23+00:00",
  "articles": [
   {
    "gn": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQdGFnMjFIWTlJU0ZpVG5wNGxLak8yR1kxRkNCYWhJMFVnYkFCWnVYZkY2V0FRUldSajQwcjEyZFNZZEs3cE9mQ0dzOHlWaDVUaWdaNnRKVW1rZm9KRnp6RzlyRVlKTWpPYUcyU2x5eVZ6N1pKWUM5YmRxY1EzcDNzN0dnNDVGWnRudkZJ?oc=5",
@@ -67,7 +67,7 @@
    "d": "2026-11-04T22:03:00+00:00",
    "lang": "en",
    "t": "Ask Luka #001: Doncic on Sneakers, Golf and GTA 6",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPczBzdUtTcVBVTFNkMmJMQ29qc0FKNVMyT2szajJ1U1lDd0JhaW44b3hQWGR1aWNBeWt3VlNfZmVBd3lFLXpZaXhLSlZBMDNaRGtCZjl0MUYzb0FoUzlqYms1YllkTldPbmhJUzFBQlI2U3pEVEtfN1Z6WU5BakJwRXRxOVZqdFk?oc=5",
@@ -147,12 +147,8 @@
    "s": "Gamekyo.com",
    "d": "2026-11-04T20:34:00+00:00",
    "lang": "fr",
-   "t": "Gamekyo : Blog : Bonne nouvelle pour ceux qui ont réservé GTA 6 en boîte",
-   "u": "https://www.gamekyo.com/blog_article488795.html",
-   "img": "http://www.gamekyo.com/Webmasters/Images/grand-theft-auto-vi_20220730_060731_intro.jpg",
-   "chapeau": "Blog : Bonne nouvelle pour ceux qui ont réservé GTA 6 en boîte : Gamekyo is a social video game magazine for the Wii, Nintendo DS, PlayStation 2, PlayStation 3, PSP, Xbox 360 and PC. Blog : Bonne nouvelle pour ceux qui ont réservé GTA 6 en boîte",
-   "txt": "",
-   "pub": ""
+   "t": "Bonne nouvelle pour ceux qui ont réservé GTA 6 en boîte",
+   "erreur": "HTTP Error 429: Too Many Requests"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMifEFVX3lxTE41SHd3T3U3VU1PeHo5dEl2azI3RkRqZkNwcmZZczZYVFNlckQwV0h6a2xvZEdBUktWTWtmaFNSY2VVeGxVWHUxaU4xMm16QmdGUEI1UVZ5YTFSdWJGQ0RwSHJiMnpDUURic2h4bElsMHh1TlRLTExPUGZuLXg?oc=5",
@@ -173,7 +169,15 @@
    "d": "2026-11-04T20:28:41+00:00",
    "lang": "en",
    "t": "GTA 6 Will Now Come To Stores Sooner, But It’s Not Playable Right Away",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOTDBtSzhjSmtzaWlVOUtfckUtcHZrS2dSUUJnRG1Dd2VMVFd1V085cmNXS09vbGhBSWZDMVBPcFNTaXlYZ01rN2pOVWowQXRlTWRtWkZ0Yk1FU2k1UHdROV83cXZtbnVWOFlwZENuQzNZMmFYSjBXS0Z3eFcyU1dZZUY3WU9BVXBsOE55Ml9RSXV4VlNiVlRQU0lYTGR2V3MtSEdKaFB6T2lSRHNoM2NyZnQ2UkFsazhPWkFyOEdjdXUzdHdJMFVxWlh1LWpxU3k4YV9NQ1NaWnVzb0NNbTZyZ3Z3?oc=5",
+   "s": "Noovo Info",
+   "d": "2026-11-04T20:26:58+00:00",
+   "lang": "fr",
+   "t": "Sortie de «GTA VI»: des centaines de milliers d’américains pourraient prendre congé le 19 novembre",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdnBJTGpiTVFtSllNdHVvbXM2Z3FLd0JfU1dzcEhndUpSR2V5UzlfQTg0NGV0U0NPUldIWW0zakU1QVh4QjdoQTEwbnVzM1A2enlFQUhPcWRzVHNJalhqVVc2VUVFLWpSb2UwNkpGNFBEOGdwYk9QTk5MR1ZUVk9BNEZKbUh5M0RoanBmM2Uyd2c2UC1sZWw1XzQwTkx3TjU0M1MycXBhSWhleTNfaHBJRTZWbjA3MzhMdEtKNVh5UzRxN3JaLUE?oc=5",
@@ -181,7 +185,7 @@
    "d": "2026-11-04T20:06:07+00:00",
    "lang": "en",
    "t": "GTA 6 Is A Massive Download, But You May Qualify For A Free Speed Boost To Download It Faster",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTzRYQUlEY2VTczhHRWtQb3ZiUHllWjZPMDcweGhNVGVfbGxmX0YwLXhhMWFjSk10TThNSUVnMkFNUFZCLVFFSFdjRzZKRDJGTGZ6N1FqZThfelk3Y3FxSlpZWjZycEt3QTZ5UGRIWG9Ubi1vSG5hdUc4X1pwdHNmU3hsYXhkMTg?oc=5",
@@ -249,7 +253,7 @@
    "d": "2026-11-04T19:10:07+00:00",
    "lang": "fr",
    "t": "Mais pourquoi les produits dérivés de GTA 6 sont aussi moches ?",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQLUNHSFdDTVlkR05xcGhtbFc1LTZCeTRYWjB6UE85YmNtSzhqc0pHVG5qQ0d6QXp6S0g2Z3hMLTNocnUyN1VCNDR0OUVjZ2tpNHZOQUFMaXRheHRRMkRzNzY0dlJ3QWhCR3pVbWU5bjhnTlIyZ20wMFhod2xxeUFsbWFjdzZwWkZJaDBWcVd4UXFOSXByYVZab2hIbW43MG5JZXVTYVE0WTM?oc=5",
@@ -288,14 +292,6 @@
    "pub": "2026-11-04T17:47:11.000Z"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNS28zajFCSDJRejd3SjM5djNlZ245R0hqcVJpX0o1ZHBpYWVKNGJfMlk1WDM1ZERQbU1lTEVla21VSzBVS3owY0ZjZVk3UHhaUy1xa0Y1SWJVZkdrOElMS3dyRTNPRlBsVjhaZ1NxMnRWc01NWVJ6VlFTalN0NDRpT0xKQVFmcXJBWmxxRFQwVDBRMS1jMWNEMWd1clM?oc=5",
-   "s": "Pèse sur start",
-   "d": "2026-11-04T17:16:39+00:00",
-   "lang": "fr",
-   "t": "GTA 6 pourrait battre un record de GTA 5 avant sa sortie",
-   "erreur": "HTTP Error 307: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error messag"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5kaEhZNTF6RGdQMlo2LXhkbC1ZM0VWeng3bGhpbW9DbEYwU3RtXzFwVXJQUWQ3SGZlNTBOeXZ5bkNpTC1nYnVaU1F2SXplQWxQMnZQWVZ5NXlKakJHbG5mQUotb2hod25lTndrMndxZ0UzeTBE?oc=5",
    "s": "Pause Hardware",
    "d": "2026-11-04T17:12:05+00:00",
@@ -325,7 +321,7 @@
    "d": "2026-11-04T16:59:48+00:00",
    "lang": "fr",
    "t": "Rockstar Games interdit de publier des informations sur la fin et d'autres spoilers de GTA 6",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRmJZeVpaSzB4UDdGVzY0QVIxRW42TGFyWVNxdXZtbmZqMXVpbzZOVVhTdlg2dGRmcmltRzhmRjVPTFFCSVJkSHNkRUJsOTR1RVhuaWJKZHZsOTFhbGlBZ0hwVklWQmpOc19oN1pmUVVMN3ZNQ2pUYi1PUDg1VEljSU9WSlJOUmhZVFJ0SlZCWVRWTGhPSUdPQlhiNA?oc=5",
@@ -333,7 +329,7 @@
    "d": "2026-11-04T16:59:48+00:00",
    "lang": "en",
    "t": "Rockstar Will Prevent Someone to Leak GTA 6 Ending or Other Major Spoilers",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -392,7 +388,7 @@
    "d": "2026-11-04T14:30:23+00:00",
    "lang": "en",
    "t": "GTA 6 Will Have Enhancements on PlayStation 5 Pro, Leak Reveals",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -401,7 +397,7 @@
    "d": "2026-11-04T14:30:23+00:00",
    "lang": "fr",
    "t": "Une fuite confirme des améliorations pour GTA 6 sur la PlayStation 5 Pro",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -579,7 +575,7 @@
    "d": "2026-11-03T03:09:36+00:00",
    "lang": "en",
    "t": "PlayStation GTA 6 Leak Ban: What Is Confirmed [2026]",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -627,7 +623,7 @@
    "d": "2026-10-30T12:39:43+00:00",
    "lang": "fr",
    "t": "Les copies de GTA 6 fournies aux médias n'ont quand même pas de filigranes",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -727,7 +723,7 @@
    "d": "2026-10-26T19:12:15+00:00",
    "lang": "en",
    "t": "GTA 6: New Gameplay Leak Featuring Lucia Possibly Revealed",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -762,11 +758,7 @@
    "d": "2026-10-22T15:12:54+00:00",
    "lang": "en",
    "t": "Cyberleek Shares GTA 6 Leak Of Naked Lucia",
-   "u": "https://www.imdb.com/news/ni66062173/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -801,7 +793,7 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
    "t": "Le token CYBERLEEK chute de 40 % alors que le leaker de GTA 6 lance de nouvelles menaces",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
