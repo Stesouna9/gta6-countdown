@@ -1,8 +1,28 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-04T22:12:51+01:00",
+  "updated_at": "2026-11-05T00:15:00+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-boites-retrait-10-novembre-gta6",
+      "title": "GTA 6 en boîte : retrait en magasin dès le 10 novembre, avec un code de préchargement",
+      "summary": "@gtasix_, qui cite @iGrandTheftAuto, indique que les éditions physiques de GTA 6 seraient disponibles au retrait dès le 10 novembre, soit deux jours plus tôt que prévu, avec dans chaque exemplaire un code de téléchargement pour le préchargement. JVFrance reprend l'information au conditionnel (« serait également avancée ») et la lie à l'alignement sur le préchargement numérique. Aucune confirmation de Rockstar ou des distributeurs n'est citée dans ces sources.",
+      "url": "https://x.com/gtasix_/status/2118069885263884402",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rapporté",
+      "published_at": "2026-11-04T19:56:27.000Z",
+      "checked_at": "2026-11-05T00:15:00+01:00",
+      "evidence": "Vues relevées le 2026-11-04T20:01:37+00:00 dans data/x_alertes.json : @gtasix_ 1 451 vues, 59 likes, 10 reposts. Corroboration presse (non indépendante de la source citée) : JVFrance, 4 novembre 2026, https://www.jvfrance.com/gta-6-date-sortie-boite-285631/ (également Gamekyo, GameSpot, Qazinform au flux presse). Original X non ouvert directement (pas de navigateur).",
+      "visual": "BOÎTE 10 NOV",
+      "image": "https://pbs.twimg.com/media/HWTlUgbXYAAYxMk?format=jpg&name=360x360",
+      "image_alt": "Visuel joint au post de @gtasix_ sur les éditions physiques de GTA 6",
+      "image_credit": "@gtasix_ sur X",
+      "embed_type": "x",
+      "post_text": "GTA 6 physical editions will be available for pickup starting November 10, two days earlier than previously scheduled. Each copy includes a download code for pre-loading the game. (Via @iGrandTheftAuto)",
+      "cta": "Ouvrir la publication sur X",
+      "article": "journal/2026-10-30-boite-gta6-sans-disque-code-telechargement.html"
+    },
     {
       "id": "x-miami-bus-narcos-beige-crowex-taco",
       "title": "Miami : un bus affiche les marques fictives de GTA 6",
@@ -1444,6 +1464,11 @@
       "at": "2026-11-04T22:12:51+01:00",
       "label": "Veille permanente · contrôle des nouveaux relais",
       "summary": "Relevés X Mac et serveur du 4 novembre à 20 h 01 min 37 UTC concordants. Aucun nouveau sujet au seuil : éditions physiques et code de préchargement, 1 451 vues chez @gtasix_, sans second relais vérifié dans le relevé ; piste conservée sans présenter sa date comme confirmée. Bus Miami, marques fictives et compte à rebours déjà couverts ; anniversaire GTA V hors sujet, autres publications sous le seuil ; @vicecentralFR exclu. Recherches X, Instagram, TikTok et Rockstar effectuées : original X cache absent, Instagram HTTP 429, TikTok sans texte exploitable et recherche bloquée robots.txt ; Newswire sans texte direct, index consulté, dernière annonce GTA VI du 3 novembre déjà couverte. Aucun nouveau sujet ajouté. Contrôle des 63 cartes, images, liens HTTPS et doublons. Aucun post X ni message à un tiers."
+    },
+    {
+      "at": "2026-11-05T00:15:00+01:00",
+      "label": "Veille permanente · éditions physiques au 10 novembre",
+      "summary": "Relevé X du 4 novembre à 20 h 01 UTC (inchangé) et presse du 4 novembre 23 h UTC. 1 sujet ajouté : retrait des boîtes dès le 10 novembre (1 451 vues chez @gtasix_, corroboré par JVFrance, statut Rapporté). Bus Miami, 750 M$ de précommandes et préchargement déjà couverts ; Rolex/SKIMS (16 256 vues) rattaché au sujet Miami déjà publié ; anniversaire Steven Ogg hors sujet ; @vicecentralFR exclu. Aucune recherche réseau directe (pas de navigateur). Aucun post X ni message à un tiers."
     }
   ],
   "coverage": {
