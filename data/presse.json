@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-04T18:39:17+00:00",
+ "maj": "2026-11-04T18:59:30+00:00",
  "articles": [
   {
    "gn": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNDRTZEozRzJvNDZjMHhSeFAzZEN2eUpBSkZfb0c0RlZCNWViYUVfTWdLWHY5ZGdFNGNUSmE2ZW1RcmV1X1hJUmlpT3lxdjlzWWR3R2xJSFJYd0h4QjBiNUZ6c18zOFJOelN4Q1JOMURDZ3BoX2JBNzd6MjZuX1RGQXpDaXpQcDAwM0pr?oc=5",
@@ -91,7 +91,7 @@
    "d": "2026-11-04T17:16:39+00:00",
    "lang": "fr",
    "t": "GTA 6 pourrait battre un record de GTA 5 avant sa sortie",
-   "erreur": "HTTP Error 307: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error messag"
+   "erreur": "HTTP Error 429: Too Many Requests"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5kaEhZNTF6RGdQMlo2LXhkbC1ZM0VWeng3bGhpbW9DbEYwU3RtXzFwVXJQUWQ3SGZlNTBOeXZ5bkNpTC1nYnVaU1F2SXplQWxQMnZQWVZ5NXlKakJHbG5mQUotb2hod25lTndrMndxZ0UzeTBE?oc=5",
@@ -111,7 +111,7 @@
    "d": "2026-11-04T17:09:00+00:00",
    "lang": "en",
    "t": "GTA 6 PS5 Pro enhancements confirmed",
-   "erreur": "HTTP Error 404: Not Found"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMitgJBVV95cUxPVzVLRTlTLVk0UmxsUjU1SmRtcmFsdWxKN1JQME9NcW0yRVdZUDFMTU5KTDNtRzJ4Nzc2U2N4NFpHemEzUHBzRHVxOU9XZzc4OWxOQXdXU2NpM1Q4UVBOc04yYXpObUZmYWM2YUxQT3JDLTA4Qy1ueTg1TUxGV0VSUVdxZUxqSG1XOTVid1RqWFNHcVIySWYzZlBuVVBVZFpBUWJSNUZkLXUxcldIb2tRSnFybVlUZUQtaUpYZjlaVjBLcExtRkQwSm9SQzBqcmxLUjFJWEFIYmg1WmhSQVZjbUFCUlpsckpsVWFkbDd2UXdlb2hyVzhoLURWekNhRld0OS1ETExQZHMzbFptWnljUnlxdUg4bWthRUVKS2JGQkRZRFlZZ2xCbTJ2dXpTLVQzYkYwcUx3?oc=5",
@@ -131,7 +131,7 @@
    "d": "2026-11-04T16:59:48+00:00",
    "lang": "fr",
    "t": "Rockstar Games interdit la publication de la fin et d'autres spoilers concernant GTA 6",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRmJZeVpaSzB4UDdGVzY0QVIxRW42TGFyWVNxdXZtbmZqMXVpbzZOVVhTdlg2dGRmcmltRzhmRjVPTFFCSVJkSHNkRUJsOTR1RVhuaWJKZHZsOTFhbGlBZ0hwVklWQmpOc19oN1pmUVVMN3ZNQ2pUYi1PUDg1VEljSU9WSlJOUmhZVFJ0SlZCWVRWTGhPSUdPQlhiNA?oc=5",
@@ -139,7 +139,7 @@
    "d": "2026-11-04T16:59:48+00:00",
    "lang": "en",
    "t": "Rockstar Will Prevent Someone to Leak GTA 6 Ending or Other Major Spoilers",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -159,12 +159,8 @@
    "s": "The Times of India",
    "d": "2026-11-04T16:36:00+00:00",
    "lang": "en",
-   "t": "GTA 6 pre-load to begin ahead of launch; here’s how much space PS5 and Xbox players will need for the game",
-   "u": "https://timesofindia.indiatimes.com/technology/gaming/gta-6-pre-load-to-begin-ahead-of-launch-heres-how-much-space-ps5-and-xbox-players-will-need-for-the-game/articleshow/135545856.cms",
-   "img": "https://static.toiimg.com/thumb/msid-135545882,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-   "chapeau": "​",
-   "txt": "",
-   "pub": ""
+   "t": "GTA 6 pre-load to begin ahead of launch; here’s how much space PS5 and Xbox players will need for the gam",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNMFV2c1hIcUh4eXpNVmtteHBqb2F4blc3ckdTVHI0TEhiWmVQaU5nT0NJZTZPa2Y2MW1ZRXNNRERUVVFCWFczcXI4QU5tOTB2ZTU5SzFwWC1ncDFrc21yOEk5TWNLWi1ZNE9SaGZrcVI3U2xXUGlCR0dKQzlHbmY5ZDFHeEJlamo0SlhuVFV3YlVlUUJoVVYwMWFqOTk3cUFXeGlEbGx0cVgyZHBDbFVtV3B3R0ZkYV9jQ0xYUG9oVEl0enlyMlktYm9HZy0xQ2FqLXFEMWxKQlc4cTNiQ3I2VU9rY1l4TzBQVEgzY2dR?oc=5",
@@ -264,18 +260,6 @@
    "pub": "2026-11-04T20:59:48+05:30"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0zNzNyYkI1TTNZWHhBZGNfMzctdWdkSW1lWWpxY1RaaW1kdUJoVlBsUTRGQzRiWldTUzhUcnFoaW94SVB3YUFjMlp5UUZyVlQtSWMxRTNqMmJLNjRhTm1WZXRjQjB1dHpOdFMxNm5vT1VVRlhQV056S3Z3ak1Hd0E?oc=5",
-   "s": "Radio Times",
-   "d": "2026-11-04T15:28:23+00:00",
-   "lang": "en",
-   "t": "How to get GTA 6 physical map explained",
-   "u": "https://www.radiotimes.com/technology/gaming/gta-6-physical-map-explained/",
-   "img": "https://images.immediate.co.uk/production/volatile/sites/3/2026/11/JasonandLucia01-resized-1600x1066-3bf13c3.jpg?resize=1200%2C630",
-   "chapeau": "Explore Leonida IRL!",
-   "txt": "Get the Christmas double issue Too much to watch at Christmas? Let Radio Times do the choosing to find something the whole family will enjoy.",
-   "pub": ""
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNmNwLTdzLW5YY3MwUGtCa0NiTXJORVRXd3ZRY01RVC1nSGhhZU0zRlc5VVhsXzJ0TmctV0FtTzA0WjF3VTM4a3VHaEVXZmIxQnRzdS1mam9iSUVBTmFGaFQ4LUlWaURySkRRREYzYi1tZFJvX1FBR3p0S0FTUXJxWE9zQmJMbFNCd1cxNEZmNkl1X0NGeUotS19yS3ZrT2x3ZHVPN28xQXM3dGdwMjF1aTc4SUh3dEUzZVhoQ0U5MFlJSTduVGI0?oc=5",
    "s": "BuzzArena",
    "d": "2026-11-04T15:19:52+00:00",
@@ -329,7 +313,7 @@
    "d": "2026-11-04T14:58:46+00:00",
    "lang": "fr",
    "t": "Rockstar Games tease GTA 6 pour PC via son launcher",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMicEFVX3lxTE14R084RHFfM000SE1JUjhwVU1mcERTbnViNVpQeHlUdExLcHBKLXV4VTluV3VkdmhDMThxdkg1VUZ2N0syQVFGYVdXekFGazU2MndYYzN2djlCUmhDalVBY1N4alRBdkRRVXNoZ1NQb0k?oc=5",
@@ -337,7 +321,7 @@
    "d": "2026-11-04T14:46:00+00:00",
    "lang": "en",
    "t": "Xbox Baits GTA 6 Fans With A Series X Stuffed Inside A 5-Foot Alligator",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVTVrQ3k0bm1hV1RXajhNYkFRcFlKSHVwTTNYTlpRV0dYTHJ3S2JzN0FiSXZXMkMwdmotU09tSUFkMTFsSGxBTm5LNnJUQU1LekQ1SUVoN241S1VZWXRXQUY0cmowUmVFbmRGQ3VUS2hBY0Z1TDdrWXItOUdURGdUOWN1RUIxS1JNOTNOa1otWERkV3FwX285WG4wZVpYa2ZCcTJORUJKVkozYUd2Z0tZbFZGNFlORHZXY2hXNnlZY1Noc283YUl2bHdFUQ?oc=5",
@@ -358,7 +342,7 @@
    "d": "2026-11-04T14:39:00+00:00",
    "lang": "en",
    "t": "GTA 6 Preload Guide: 212GB Size, Staggered Start Times And What To Know",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSGs4RTByU2VEMUQxaFIyYzlrdnpITG94bmt6bWtrZ0RvQzdJMjVrbnBNNnlNQUdMZ3d1azZZb3Y5V0ZGeEZhRzQwRW03YnRmR3Z6ZHFxN1cwQUNXN1NiZ3czem95QnB6VzhsT1BWMlM2Q2E3LTVnNlpBSDU0Wmh1OTFHaDFXS24tTFAyc1RYZWxXdTQ?oc=5",
@@ -366,7 +350,7 @@
    "d": "2026-11-04T14:30:23+00:00",
    "lang": "en",
    "t": "GTA 6 Will Have Enhancements on PlayStation 5 Pro, Leak Reveals",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -375,8 +359,16 @@
    "d": "2026-11-04T14:30:23+00:00",
    "lang": "fr",
    "t": "Une fuite confirme des améliorations pour GTA 6 sur la PlayStation 5 Pro",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOR0N4MzBwc0pSTTZVeXZyRTluWXMxaXBFUEQ3YVREMmg5V3dMRXEyNnROZkZJd2tNUE80bDJ6THhsMGdkUlk4Wk81RXpqS1ctc1NVLWxzcWYtWG5iZGNWaWJUM0l3WGluMEZLSEhlWXJra3QzNlV3bGpoVGZiTlQzVmFvWXlRaGpMOEEwLTZKRnJwY2hZekZVZUlnVHBvYzBRTTJ2cmowLWljVEkyWWFfdjFVLWVVMEpZdy1mTmhFWQ?oc=5",
+   "s": "GameSpot",
+   "d": "2026-11-04T14:18:31+00:00",
+   "lang": "en",
+   "t": "GTA 6 Has Sold Almost 8 Million Copies So Far, And PS5 Is Dominating The Split (Of Course)",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPekUzSktGV2tfMTFCcEpCQ280cHVERFlzbzJCR1RtV3NYamVITmtXc0xJby15aWw5YmkyTGhiVWh1MFdQcXBuTGpPT2t6UFFkcFQ5SWlRUTJFWGlINXFINEp2WHUtcEFYUzBncFZpNWQwZXJTQms0MG51Vy1ta1RGWG5ELU9yOUhwUnpES0xhOVo?oc=5",
@@ -618,7 +610,7 @@
    "d": "2026-10-30T12:39:43+00:00",
    "lang": "fr",
    "t": "Les copies de GTA 6 fournies aux médias n'ont quand même pas de filigranes",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -731,7 +723,7 @@
    "d": "2026-10-26T19:12:15+00:00",
    "lang": "en",
    "t": "GTA 6: New Gameplay Leak Featuring Lucia Possibly Revealed",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -766,11 +758,7 @@
    "d": "2026-10-22T15:12:54+00:00",
    "lang": "en",
    "t": "Cyberleek Shares GTA 6 Leak Of Naked Lucia",
-   "u": "https://www.imdb.com/news/ni66062173/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -805,7 +793,7 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
    "t": "Le token CYBERLEEK chute de 40 % alors que le leaker de GTA 6 lance de nouvelles menaces",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
