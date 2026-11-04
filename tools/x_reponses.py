@@ -61,7 +61,11 @@ score:['reply','retweet','like'].reduce((s,k)=>s+parseInt((a.querySelector('[dat
 
 def choisit(posts, etat, n):
     """Jusqu'à n posts récents (< 24 h), comptes différents, chacun avec l'article qui colle le mieux (ou None)."""
-    arts = json.load(open(RACINE / "data/articles.json", encoding="utf-8"))
+    for essai in range(3):   # 04/11 : « Resource deadlock avoided » pendant la synchro git du dépôt
+        try: arts = json.load(open(RACINE / "data/articles.json", encoding="utf-8")); break
+        except OSError:
+            if essai == 2: raise
+            time.sleep(20)
     arts = sorted([a for a in arts if isinstance(a.get("fr"), dict) and a["fr"].get("d")], key=lambda a: a["date"], reverse=True)[:40]
     maintenant = datetime.datetime.now(datetime.timezone.utc)
     deja = {r["auteur"] for r in etat["reponses"] if r["quand"][:10] == str(datetime.date.today())}
