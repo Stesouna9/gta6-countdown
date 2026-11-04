@@ -1,6 +1,6 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-04T07:10:00+01:00",
+  "updated_at": "2026-11-04T10:15:00+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
     {
@@ -1258,6 +1258,11 @@
       "at": "2026-11-04T07:10:00+01:00",
       "label": "Veille permanente · rien retenu",
       "summary": "x_alertes.json (relevé du 3/11 13 h 13 UTC) inchangé : seuls Chess.com (8 519 vues) et Lucia (311) restants, déjà écartés (< 20 000 vues, un seul compte). Aucun nouveau sujet. Pas de navigateur."
+    },
+    {
+      "at": "2026-11-04T10:15:00+01:00",
+      "label": "Veille permanente · rien retenu",
+      "summary": "x_alertes.json (relevé du 3/11 13 h 13 UTC) toujours inchangé : seuls Chess.com (8 519 vues) et Lucia (311 vues) non retenus (< 20 000 vues, un seul compte). Aucun nouveau sujet. Pas de navigateur."
     }
   ],
   "coverage": {
