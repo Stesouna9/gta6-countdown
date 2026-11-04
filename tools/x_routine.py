@@ -120,7 +120,7 @@ ANGLES = [  # 13 h : un angle du site par jour, en rotation
     ("📻", "Vice Bay Radio tourne en direct sur le site : les sons de Vice City en attendant le 19 novembre.", "#ViceCity"),
     ("🗺️", "Leonida, Vice City, les personnages, les trailers : notre guide GTA 6 rassemble tout ce qui est confirmé.", "#Leonida"),
     ("🌍", "L'actu GTA 6 vérifiée, chaque jour, en 17 langues. Et l'heure de sortie dans chaque pays.", "#ViceCity"),
-    ("🎮", "En attendant, Vice Break : notre casse-briques néon gratuit, 100 niveaux dans Vice Bay et la radio en fond. Sortie exceptionnelle le 12 novembre sur iPhone, une semaine avant GTA 6, et déjà disponible sur Android.", "#ViceBreak"),
+    ("🎮", "En attendant, Vice Break : notre casse-briques néon gratuit, 500 niveaux dans Vice Bay et la radio en fond. Sortie exceptionnelle le 12 novembre sur iPhone, une semaine avant GTA 6, et déjà disponible sur Android.", "#ViceBreak"),
 ]
 
 def vues_du_jour():
