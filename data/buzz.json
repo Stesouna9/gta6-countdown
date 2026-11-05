@@ -1,8 +1,25 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-05T12:14:45+01:00",
+  "updated_at": "2026-11-05T18:13:13+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "rockstar-launch-gallery-novembre",
+      "title": "GTA 6 : Rockstar ouvre sa « Launch Gallery » de nouvelles captures",
+      "summary": "Rockstar propose une nouvelle galerie officielle pour explorer Vice City et Leonida en images. Jason et Lucia figurent notamment dans une scène de braquage. Sur X, @RockstarNewsFRA relaie un ensemble annoncé de 39 captures et @GTAVI_Countdown compare une image au premier trailer : le nombre de 39 est celui des relais, sans décompte indépendant ici.",
+      "url": "https://www.rockstargames.com/VI/launch-gallery",
+      "platform": "Rockstar",
+      "author": "Rockstar Games",
+      "status": "Officiel",
+      "published_at": "2026-11-05T00:00:00+01:00",
+      "checked_at": "2026-11-05T18:13:13+01:00",
+      "evidence": "Galerie officielle ouverte par requête HTTP le 2026-11-05T18:13:13+01:00 : HTTP 200, titre The Launch Gallery et présentation de nouvelles captures lisibles dans le HTML. Image Jason_and_Lucia_15 issue de cette page, HTTP 200 et contrôlée visuellement. Date du jour recoupée par le résultat indexé 9to5Toys du 5 novembre ; heure de publication non fournie. Relevés data/x_alertes.json Mac et serveur concordants du 2026-11-05T16:15:43+00:00 : @RockstarNewsFRA 908 vues (https://x.com/RockstarNewsFRA/status/2118371208198799873), @GTAVI_Countdown 11789 vues (https://x.com/GTAVI_Countdown/status/2118372562228875674). Original X non ouvrable par outil web (cache absent), galerie web non ouvrable via cet outil mais consultée par HTTP directement. Aucune portée cumulée calculée.",
+      "visual": "GALERIE ROCKSTAR",
+      "image": "https://www.rockstargames.com/VI/_next/static/media/Jason_and_Lucia_15.0m-_zb~mcy2zr.jpg",
+      "image_alt": "Jason et Lucia masqués pendant un braquage, capture de la Launch Gallery de GTA VI",
+      "image_credit": "Rockstar Games — The Launch Gallery",
+      "cta": "Ouvrir la galerie officielle"
+    },
     {
       "id": "x-brooklyn-fresque-graffiti",
       "title": "Brooklyn : la fresque GTA 6 recouverte de graffiti fait réagir",
@@ -1522,6 +1539,11 @@
       "at": "2026-11-05T12:14:45+01:00",
       "label": "Veille permanente · deux nouveaux sujets X",
       "summary": "Relevés X Mac et serveur concordants du 5 novembre à 10 h 17 UTC. Ajout de la fresque Brooklyn (848 001 vues) et de la reprise de l’entretien Zelnick/WSJ (195 080 vues), avec médias des posts et attribution. Calendrier régional déjà couvert par le sujet Nouvelle-Zélande ; Toronto et précommandes déjà présents ; autres nouveaux sujets sous le seuil de 20 000 vues sans deux comptes distincts. @vicecentralFR exclu. Recherche X, Instagram, TikTok et Rockstar effectuée : trois originaux X refusés HTTP 403, Instagram HTTP 429, TikTok et Newswire sans texte exploitable ; Beebom indexé concordant sur la fresque mais article inaccessible. Aucun nouveau contenu de ces réseaux validé directement. Aucun post X ni message à un tiers."
+    },
+    {
+      "at": "2026-11-05T18:13:13+01:00",
+      "label": "Veille permanente · galerie Rockstar et réseaux",
+      "summary": "Relevés X Mac et serveur concordants du 5 novembre à 16 h 15 UTC. Nouvelle Launch Gallery officielle ajoutée avec image réelle Rockstar contrôlée, sujet relayé par deux comptes ; autres publications du relevé sous 20 000 vues, sans deuxième relais vérifié. @vicecentralFR exclu. Recherches X, Instagram, TikTok et Rockstar effectuées : original X cache absent ; Instagram Rockstar HTTP 429 ; TikTok sans texte lisible, recherches sans nouvelle vidéo originale vérifiable. Galerie Rockstar inaccessible via outil web mais ouverte directement en HTTP 200, contenu et média vérifiés. Résultats presse datés du jour corroborants, sans reprise des spéculations techniques. Aucun post X ni message à un tiers."
     }
   ],
   "coverage": {
