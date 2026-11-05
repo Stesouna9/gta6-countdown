@@ -68,6 +68,7 @@ def surveille():
     """Lit la page de la routine ; si X avertit : gel 24 h, ligne au journal, arrêt."""
     try: t = js("(()=>{const b=document.body.cloneNode(true);b.querySelectorAll('article,script,style,noscript,template,iframe,[data-testid=tweetText],[data-testid=UserDescription]').forEach(e=>e.remove());return (b.innerText||b.textContent||'').toLowerCase().slice(0,20000)})()")   # 28/10 : hors texte des tweets (faux gel du 27/10 19 h 10 sur un tweet contenant « automated »)
     except Exception: return
+    t = t.replace("automated by", "").replace("automatisé par", "")   # 05/11 : label des comptes bots dans « Who to follow », 3e faux gel
     a = next((x for x in ALERTES if x in t), None)
     if a:
         GEL.parent.mkdir(parents=True, exist_ok=True); GEL.write_text(f"{datetime.datetime.now():%Y-%m-%d %H:%M} {slot} : « {a} »")
