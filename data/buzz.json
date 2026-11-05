@@ -1,8 +1,46 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-05T20:13:02+01:00",
+  "updated_at": "2026-11-05T22:13:02+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-piscine-loews-miami-comparaison",
+      "title": "GTA 6 : une piscine de Vice City comparée au Loews Miami Beach",
+      "summary": "@GTAVI_Countdown juxtapose une piscine de Vice City et une vue présentée comme celle du Loews Miami Beach Hotel. Le montage compte 49 658 vues au relevé du 5 novembre et invite à comparer les formes du bassin et son aménagement. Cette correspondance proposée par un compte fan ne confirme ni le nom du lieu dans le jeu ni un partenariat avec l’hôtel.",
+      "url": "https://x.com/GTAVI_Countdown/status/2118430509592346940",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "2026-11-05T19:49:26.000Z",
+      "checked_at": "2026-11-05T22:13:02+01:00",
+      "evidence": "Vues relevées le 2026-11-05T21:02:24+00:00 dans data/x_alertes.json : @GTAVI_Countdown 49658 vues ; copies Mac et serveur concordantes. Original X non accessible par outil web (cache absent pour la comparaison piscine). Média du post téléchargé via curl en HTTP 200 et contrôlé visuellement ; urllib refusé en HTTP 403. Commentaire de fan attribué, sans confirmation indépendante du lieu réel ou de nouvelles mécaniques.",
+      "visual": "PISCINE MIAMI",
+      "image": "https://pbs.twimg.com/media/HWYtQfrXcAAjrwm?format=jpg&name=small",
+      "image_alt": "Montage comparant une piscine de GTA VI à celle présentée comme le Loews Miami Beach Hotel",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "post_text": "GTA 6 vs real life (Loews Miami Beach Hotel).",
+      "cta": "Ouvrir la publication sur X"
+    },
+    {
+      "id": "x-grassrivers-nuit-ambiance",
+      "title": "GTA 6 : les Grassrivers de nuit inspirent les fans d’horreur",
+      "summary": "Un alligator aux yeux rouges, une embarcation et des faisceaux de lumière : @GTAVI_Countdown commente l’atmosphère inquiétante d’une capture nocturne des Grassrivers. Son post atteint 35 043 vues au relevé du 5 novembre. La comparaison avec un jeu d’horreur relève de son ressenti ; elle n’annonce aucun mode de jeu supplémentaire.",
+      "url": "https://x.com/GTAVI_Countdown/status/2118404182327873554",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "2026-11-05T18:04:49.000Z",
+      "checked_at": "2026-11-05T22:13:02+01:00",
+      "evidence": "Vues relevées le 2026-11-05T21:02:24+00:00 dans data/x_alertes.json : @GTAVI_Countdown 35043 vues ; copies Mac et serveur concordantes. Original X non accessible par outil web (cache absent pour la comparaison piscine). Média du post téléchargé via curl en HTTP 200 et contrôlé visuellement ; urllib refusé en HTTP 403. Commentaire de fan attribué, sans confirmation indépendante du lieu réel ou de nouvelles mécaniques.",
+      "visual": "NUIT GRASSRIVERS",
+      "image": "https://pbs.twimg.com/media/HWYU6-AWgAA3gvC?format=jpg&name=small",
+      "image_alt": "Alligator au premier plan devant une embarcation éclairée dans les marais nocturnes de GTA VI",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "post_text": "GTA 6 is gonna turn into an horror game when you visit the Grassrivers at night.",
+      "cta": "Ouvrir la publication sur X"
+    },
     {
       "id": "x-kodak-black-identification-supposee",
       "title": "GTA 6 : un personnage identifié à Kodak Black par un compte fan",
@@ -1587,6 +1625,11 @@
       "at": "2026-11-05T20:13:02+01:00",
       "label": "Veille permanente · deux interprétations de captures sur X",
       "summary": "Relevés X Mac et serveur concordants du 5 novembre à 18 h 18 UTC. Ajout de l’identification supposée de Kodak Black (62 310 vues) et de l’hypothèse de tresses en temps réel (30 435 vues), toutes deux Rumeur et attribuées. Vraies images des posts ouvertes et contrôlées. Comparaisons trailers/captures rattachées à la Launch Gallery déjà publiée ; Brooklyn déjà couvert ; Grassrivers, Lucia et rapprochement Arthur Morgan sous le seuil sans second compte distinct observé. @vicecentralFR exclu. Recherches publiques X, Instagram, TikTok et Rockstar effectuées : originaux X en cache absent, Instagram accès limité, TikTok sans texte lisible et recherche bloquée robots.txt ; Newswire sans texte direct, résultats indexés sur le préchargement déjà couvert. Aucune nouvelle annonce officielle revendiquée. Aucun post X ni message à un tiers."
+    },
+    {
+      "at": "2026-11-05T22:13:02+01:00",
+      "label": "Passage 58 · Piscine de Miami et nuit des Grassrivers",
+      "summary": "Deux sujets X nouveaux au seuil ajoutés avec vrais médias contrôlés : comparaison piscine/Loews Miami Beach (49 658 vues) et ambiance nocturne des Grassrivers (35 043 vues). Relevés Mac/serveur identiques du 05/11 à 21:02 UTC. Montage général de captures non ajouté séparément pour éviter un doublon avec la galerie et la piscine ; comptage supposé de 160 PNJ sous le seuil (772 vues), autres reprises déjà couvertes ou sous le seuil. Recherche publique X/Instagram/TikTok/Rockstar effectuée ; original X cache absent, Instagram HTTP 429, TikTok sans texte lisible. Galerie Rockstar HTTP 200, déjà couverte. Aucun chiffre extrapolé, aucun post X ni message à un tiers."
     }
   ],
   "coverage": {
