@@ -1,6 +1,14 @@
 {
- "maj": "2026-11-05T10:58:45+00:00",
+ "maj": "2026-11-05T11:18:58+00:00",
  "articles": [
+  {
+   "gn": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQa25YQW5DcEhyNS1BUi1JbnE3VG1qZVJ0UFRQLUdzNmxnZ2dIcDNTdS1BTWdpWHpuSlpDbEZGNFE5MXZPUnZrUFhyaEFta09UaEZ2b2FOTUtreHdoZGNmeVRwcnpadVpvWTg3Y2U4blpMYnVKU0J5NnBhT0pWMUhQZTI3NDN0Ukd6WExWcE1CRXI?oc=5",
+   "s": "Begeek",
+   "d": "2026-11-05T11:00:00+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : le téléchargement du jeu pourrait virer au cauchemar",
+   "erreur": "HTTP Error 429: Too Many Requests"
+  },
   {
    "gn": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPU0NmZ0hLY1BSR1M1dkN6R3ZjSzNXbjBGY2xvVTBIQU9iMnZST2M5RFd2MDQ5T3dRZWFlenUtMDJKbl9YeVNpVWFZQWw3aXVfMU00OTJ4MWp1ZHhDX3VLcjBvQ0RvWC11VlFQRVhpR0hKRFdYN0xGVERvWTd3anRmS0tFcVF2eTZVTDNieEQ1NFY5OTBqVjk4?oc=5",
    "s": "Gameblog",
@@ -19,7 +27,7 @@
    "d": "2026-11-05T10:35:03+00:00",
    "lang": "en",
    "t": "Take-Two boss alludes to AI behind GTA 6's development, without saying it outright",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdlFsMGVYX25HZW44eDlhTmhBdUVxdFRLZnJrUEVUNU5yci1NNTFvVW5CSHBkMEhaQTZiVXcyV2FZT2FQQy1xbHV0LXlhdmZ1R285V2c4WFpTWmRnY1dlckx4R24tVnJPR1I2bHdMNE1aTmc5VldZbDhubzBKVnluNnln?oc=5",
@@ -34,12 +42,20 @@
    "pub": "2026-11-05T10:24:59.055+00:00"
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMEhvcVB5elhSeFVWM0JfZWNYSkZUZnpjeHcyMnFSU2JOVzJhWGNWclVOOW9NRVU2bXdGc1FiNWJack9aenZnNjZmYzhNMDV5WWR5NlBWZTdHakFkME01NjZjajV6TS1pMlFabjFjRG54aFFqYUlieFljd25zU1FXckYxU1QydFV1YkNiV3V5VlRuUmV1LTBGZ3B4cTE?oc=5",
+   "s": "games.gg",
+   "d": "2026-11-05T10:18:12+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : 7,71 M de précommandes, près du record de Cyberpunk 2077",
+   "erreur": "429 : passage suivant"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9SRnB0TjFocnBUeGZUX2hnY2FvdGVWMXdjWlB5NnVhcXJWc1JfcXdkekE4UDBhc2JPZmRqazl3OGxwbUFUeTl0WmJQWWVPbkMwdmVac2d3SDlXVzh2cDZPcnN6ZlRVS2Z3dHdhVldR?oc=5",
    "s": "games.gg",
    "d": "2026-11-05T10:18:12+00:00",
    "lang": "en",
    "t": "GTA 6 pre-orders estimated at 7.71 million, near Cyberpunk 2077 record",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPY0NZYV8tV0ZBcmJfU3ctOHpfVk00ak12VDBhQU9fRDdYVnFhRnZUVHRkaGlKVE1rZ1R0czB0UG12WGdpR1g5cDg4R3J0VkRmSHhMcDc5bXpoTFI2bTdxanU2ckVjSGRjd2FFb1d3bEM2c0owRVJXSTE4eXRfSFVtYURlM096TFRSXzUyM2Rjc1ZrdmJYQ3pPckVFVFYyZVBIekZpV1dVTmlJbmc5T2VqUVBCUWI1RFA2YUQxTUF4VGlyd0piQW9YaEkxeGsxUQ?oc=5",
@@ -95,7 +111,7 @@
    "d": "2026-11-05T09:30:06+00:00",
    "lang": "en",
    "t": "Can playing GTA 6 save you $5,000?",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNSW9GYU5lcWR6bHpBWmIwVUtRYTA4NDVUUmI3V21GcTgxWGVWNzFVd2U0cFlxY3JjMHZWRC1pSTdrdFNKYk5zbS1QNTBBdTFoazNXdlZ4dWV1SkdZS0NLS2hyRVNfREhldzc0b1dyRTUyemlHRncyNUVCYngxWE5CdnMyUXN5WVNwZ095N1hNSTZ1RWI4UE5Zczc5c25ncjEySDZMLTdBYWRPUUtIT0NHMmlzbXB3ZVYyTDdxYkNSNE5VVGhoaDdwMlM4clg1UHJKYTZPempqR0N1NC0tTEpBLVpZOUZEbFdaSWc?oc=5",
@@ -115,7 +131,7 @@
    "d": "2026-11-05T09:15:49+00:00",
    "lang": "fr",
    "t": "Jeux vidéo : Nintendo et Sony misent sur Zelda et GTA VI pour doper leurs fêtes de fin d’année",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMingFBVV95cUxNTFlEVE9HeXRSOFRTU2l3akJRMTk4UGs2REYwY2UyV0h1TmMzYWJLSFFESEJ2b0lZUGp6QzF4S3dWX0RvZ2FSeERJSWdnd3RNLXhLX29hd29TcC0ybnowNHJQZElocHB3S2NBb1I0NWRMYzZrRlRmNC11MGwzOVZVNzZsODFwdVI2d1VGdTVwSjN5bUxQZVh4N0tZQjl6QQ?oc=5",
@@ -140,18 +156,6 @@
    "chapeau": "From watching GTA as a child to causing chaos with her Player 1, Miachu shares why GTA 6 means so much more than just another game. Vice City, here we come!",
    "txt": "Growing up, I was the girl sitting on the sidelines, watching the boys enjoy GTA while wishing I could experience that excitement myself. I watched them steal cars, explore the streets, outrun the police, and laugh at all the ridiculous things they got up to. They got to be part of the adventure while I watched theirs unfold. Back then, I never imagined I’d finally get my turn.\nNow, years later, I’m grown up and counting down the days until GTA 6. Except this time, I’m not watching someone else have all the fun. This time, I get to be part of the chaos.\nIn a way, it feels like giving my younger self something she never got to experience. That little girl who could only watch the boys play is now ready to grab the controller, explore Vice City, steal a car just because she can, and create her own ridiculous stories. And the sweetest part? I get to share it with my husband, lordraz0r.\nThe hype has me feeling like a kid again, except nobody is going to tell me to hand over the controller this time! And believe me, I’ve been keeping up with the hype.\nThanks to lordraz0r, I’ve watched every GTA 6 trailer more than once, more than twice, and definitely more than three times! I’ve followed the discussions, listened to the theories, and fallen down the rabbit hole of every conspiracy surrounding this game.\nFrom analysing trailer details to wondering what Rockstar will reveal next, I’ve been soaking it all in.\nSomewhere along the way, I realised I wasn’t just watching other people get excited about GTA anymore. I was becoming part of the hype myself.\nSomething that once felt like a distant dream, something I could only imagine or experience through someone else’s screen, is finally about to become reality. I’m no longer the girl wishing she could join the adventure.\nI’m counting down with everyone else, sharing the excitement and imagining the chaos waiting for me in Vice City.\nWhen the game finally arrives, I want the full experience. I want to drive recklessly through the streets, treat traffic laws as mere suggestions, explore Vice City, and turn a simple drive into a five-star police chase.\nI want to attempt ridiculous stunts, get distracted by side activities for hours, and discover just how much trouble I can cause. But what I’m looking forward to most isn’t just the game. It’s the memories, lordraz0r, and I will make along the way.\nPicture this: the two of us cruising through sun-soaked Vice City, the wind blowing through my hair, the ocean stretching beside us, and the city lights glowing in the distance. For a brief moment, we’re just two lovebirds enjoying a peaceful evening drive.\nThen one of us does something stupid, the police get involved, and our romantic little cruise turns into a full-blown criminal operation.\nI can already hear the arguments. “YOU WERE SUPPOSED TO DRIVE!” “YOU SAID YOU HAD A PLAN!”\nThat’s the magic I’m looking forward to. GTA 6 looks like an incredible world to explore, but I’m just as excited about the questionable decisions, unexpected chaos, and laughter we’ll share when everything goes wrong.\nSome of the best gaming memories aren’t about completing missions or reaching the end credits. They’re about the person beside you when the whole plan falls apart.\nAfter years of watching other people enjoy GTA, I finally get to experience it for myself; I get to be part of the launch hype, discover Vice City, and make my own memories. I can’t think of anyone I’d rather share that experience with than my favourite person.\nIf I could tell my childhood self anything, I’d tell her to be patient. One day, she’d get her turn, become part of the excitement she once only dreamed of, and share it with someone she loves.\nRockstar, please hurry up. My driving skills are questionable, my criminal record is about to be fictional, and I have a city to terrorise.\nlordraz0r, my partner in crime, my forever duo, and my Player 1 in every game and in life. GTA 6 is mere weeks away, and I can’t wait for the adventure, stealing cars, escaping the cops, making questionable decisions, and laughing until our stomachs hurt.\nNo matter how chaotic things get, there’s nobody else I’d rather have beside me on these virtual streets.\nNow buckle up, darling. We’re about to become Vice City’s most wanted couple.",
    "pub": "2026-11-05T08:44:44+00:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8wUXplUWZBQ3h5SV9QSjZyVEk3NVZ2SnZuc2JCWDhRVnd1S2RfZTYycktTZmxmSXlkeHF5ZU5sdVNoVDFxbDlKdE5BdUFwQ0dUb0lhRGl5M3M2bVg5YmR5dzdoNVNVdw?oc=5",
-   "s": "Next INpact",
-   "d": "2026-11-05T08:25:04+00:00",
-   "lang": "fr",
-   "t": "GTA VI peut-il casser Internet ?",
-   "u": "https://next.ink/265265/gta-vi-peut-il-casser-internet/",
-   "img": "https://next.ink/wp-content/uploads/2026/04/GTA-Online-1024x535.jpg",
-   "chapeau": "La question parait certainement saugrenue aux spécialistes, mais elle se pose néanmoins pour le grand public. Réponse courte et directe : non. Par…",
-   "txt": "La question parait certainement saugrenue aux spécialistes, mais elle se pose néanmoins pour le grand public. Réponse courte et directe : non. Par contre, du côté de Microsoft et de Sony, de grandes manœuvres sont certainement en cours pour se préparer à une déferlante de joueurs.\nLa question parait certainement saugrenue aux spécialistes, mais elle se pose néanmoins pour le grand public. Réponse courte et directe : non. Par contre, du côté de Microsoft et de Sony, de grandes manœuvres sont certainement en cours pour se préparer à une déferlante de joueurs.\nLa franchise a des dizaines de millions de fans, qui attendent avec impatience ce sixième volet. Depuis 2013, date de lancement de GTA V , l’éditeur Take-Two a écoulé plus de 225 millions d’exemplaires du jeu sur pas moins de trois générations de consoles. Au total, la franchise s’approche des 500 millions.\nGrand Theft Auto VI promet d’exploser les compteurs. Vous allez le voir, nous allons souvent prendre le pire scénario (avec des chiffres ronds pour nous simplifier la vie).\nL’éditeur ne communique pas sur le nombre de précommandes, mais elles seraient de plus de six ou sept millions selon les estimations . Selon certains experts repris par des confrères , le jeu pourrait atteindre jusqu’à 50 millions d’exemplaires dès sa première semaine d’exploitation, selon un scénario déjà très optimiste (la fourchette est entre 37 et 51 millions précisément).\nQuel rapport avec « casser Internet » ? GTA VI promet d’être un mastodonte : il faut libérer pas moins de 212 Go en prévision du préchargement du jeu, qui n’existe qu’en dématérialisé. Rockstar précise que « les versions boîte avec code pour les deux consoles devraient être disponibles au retrait auprès des revendeurs à partir du 12 novembre ». La sortie est programmée pour le 19 novembre.\nDisons que le jeu fasse 250 Go et prenons une hypothèse tout de même très (très) optimiste de 50 millions de joueurs « day 1 ». Nous prenons le haut de la fourchette et sur un seul jour, soit le pire scénario possible.\nCela donnerait pas moins de 12 500 000 000 Go à télécharger le 19 novembre, soit 12 500 000 To ou encore 12 500 Po. C’est ce chiffre qui pourrait faire « trembler » Internet. Est-ce vraiment le cas ? Calculons !\nLa suite de cet article est réservée à nos abonnés Soutenez un journalisme indépendant, expert et sans pub. Abonnez-vous sur next.ink/subs 11 Commentaires (11) Eriadilos Premium Aujourd'hui à 09h42\nAller au commentaire enfant Signaler Bloquer cet utilisateur Je ne connaisait pas la loi de Betteridge, merci, j'ai appris un truc ! Patch Premium Modifié aujourd'hui à 10h26\nHistorique Signaler Bloquer cet utilisateur Pareil! On dormira moins ignares ce soir Optrolight Premium Aujourd'hui à 09h46\nAller au commentaire enfant Signaler Bloquer cet utilisateur Il manque un mot au titre: GTA VI peut-il casser \"les C... à \"Internet ? Alexandre Laurent Équipe Aujourd'hui à 09h47\nAller au commentaire enfant Signaler Bloquer cet utilisateur Allons, nous sommes un journal distingué ! Mihashi Premium Modifié aujourd'hui à 10h31\nHistorique Signaler Bloquer cet utilisateur Les câbles (intercontinentaux) c'est très distingué, nan mais ho ! 😜 (Edit : arf grillé par Seb) Sébastien Gavois Équipe Modifié aujourd'hui à 10h17\nHistorique Signaler Bloquer cet utilisateur GTA VI peut-il casser les CDN à Internet ? J’en parle, faut lire :o (signé Jean Michel Àpeu Près) cacadenez Premium Il y a 11 minutes\nSignaler Bloquer cet utilisateur Et si Mathilde, avant de partir, pouvait faire un article sur \"ce que les ventes ultra-massives de GTA disent de notre société\", ce serait bien ;) Rokin Premium Modifié aujourd'hui à 10h32\nHistorique Signaler Bloquer cet utilisateur pas de ram -> pas de cg hors de prix -> pas de jeux AAA -> pas de trafic -> pas de probleme. potn Premium Modifié à l'instant\nHistorique Aller au commentaire enfant Signaler Bloquer cet utilisateur Ah, si seulement il existait des protocoles permettant de ne pas faire passer ces transferts de données par des serveurs uniquement, mais entre les \"peers\" entre eux, ça serait formidable ! On pourrait appeler ça \"peer 2 peer\", et ça permettrait d'éviter des congestions sur les serveurs tout en rendant les transferts plus rapides. Sébastien Gavois Équipe Il y a 40 minutes\nAller au commentaire enfant Signaler Bloquer cet utilisateur Vite, une taxe sur cette idée ! potn Premium Modifié à l'instant\nHistorique Signaler Bloquer cet utilisateur Tu peux me taxer de communiste, aller ! ^^ Sig",
-   "pub": "2026-11-05T09:25:04+01:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTVJ5b0w0VjVsUGcyVk1IYjdjak9nUEJLaXFpRDFsa0FEazVDeGlDbDg0RThPZUppNWFlMlpuNHUwcjlTZGlzRFVTRWxWSTJGMTVRTDBMUUpLZFZLR0hvR0FmZTBZWUM0MXlJT3ZIaDdCLVdvYTM0cjBBQTVSUzhkcThwRjBwUEIzSXBIbkRhZXhKVVA5R0NOVkxnc3hGY2VySU85THJNdXg2dVhMbWhmQzlhTGxPRXJjUmViLWtYbVFwQWs1cEZFUGJ5WGJ3OVU?oc=5",
@@ -183,7 +187,7 @@
    "d": "2026-11-05T07:40:06+00:00",
    "lang": "fr",
    "t": "L'édition physique de GTA 6 est encore plus nulle que ce vous pensez : Rockstar pourrait rompre avec cette tradition vieille de 30 ans",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVmNCVmlWSGJvYmZQMnlVY0NqVVRNcDlCOEFCdjBxSWhjOHloX1AtTnRyVDRiRV9uMkstQnlsOVZra2s4c25STWJjUTNKR1g0Zm9QbWs0UGEzSXkyeDl5TGpONFFNOTRJUDVMTUZoUHN4Wm5FT2xTU0RDbVljaVItU2NXTGg4eUhnQV9TV3lCaElYSzNtbmpndTJaNHc2TkkxcXVPd1ZOWQ?oc=5",
@@ -203,7 +207,7 @@
    "d": "2026-11-05T07:20:32+00:00",
    "lang": "en",
    "t": "Sensor Tower Estimates 5.74 Million PS5 Pre-Orders for GTA 6 Against 1.97 Million on Xbox",
-   "erreur": "<urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)>"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZkFta0dtOWNPLU44bl93cHZvWlBjOFM0bmkwNVVHYV9YVjQzSWdtVFJjV0xtY2hsYjFKQ1gxSDlzQU5vOUU0MTdUOHJoRzl1RUR1VVluNVBWbktEN25LeW1hVTlUa3pBZEdqYTNpMkduWU5WNlBUWXNvNHVKcHRlYmtB?oc=5",
@@ -211,7 +215,7 @@
    "d": "2026-11-05T07:00:00+00:00",
    "lang": "fr",
    "t": "GTA 6 : pourquoi tout le monde l'attend ?",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOb2pvd2lLVHptNGd0OEtib3JYMXZpSDVDVkh4Z2VzeUF3QUpPUng2UTF4djY3UGtGOTRoUjk2QUVFWlF2N2p3Q2hUaDJiQ2ZQT2paeHp4ZzVENE53ZjMtVXMzaHZtSU1IUDVycjRRVGhLZUM0TGlkWE5jTURFb1FzT2xGcWFPZkN1R09lRjZGcTBBMHJtak02cnhMVVlGSTlpNzdjMFdpZHJEZE5MQ2FkQzUydTBtTnJtTlNhdmhxRGhvbWVRU2lfZjdodndoRXVtd1NiR1M0Q3JqVmlhbmZpWmx5Y24?oc=5",
@@ -242,12 +246,8 @@
    "s": "RTBF",
    "d": "2026-11-05T06:38:21+00:00",
    "lang": "fr",
-   "t": "Atteint d'une maladie incurable, il espérait vivre jusqu'à la sortie de 'GTA 6' - RTBF Actus",
-   "u": "https://www.rtbf.be/article/atteint-d-une-maladie-incurable-il-esperait-vivre-jusqu-a-la-sortie-de-gta-6-11810509",
-   "img": "https://static-content.rtbf.be/article/image/1920x1080/c/e/c/230b9114252ea0fb38a262cddc8956bb.jpg",
-   "chapeau": "Jerry Fort, connu sur les réseaux sociaux sous le pseudonyme 'Void Only', est décédé le 29 octobre 2026 à l’âge de...",
-   "txt": "",
-   "pub": ""
+   "t": "Atteint d'une maladie incurable, il espérait vivre jusqu'à la sortie de \"GTA 6\"",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQcVNFSHJZVVNKa2wxc1l0d191VTRELVFLZXdvSmkzRlpBVjJsWDRReThPU05oNkFGZkdyQVU0cnJ1T1hybDFIXy14ME5pdEpyamRBWUNWM2lFVG5ZdVllYUttTWxzeUphYWc1QWp3NGFWSGdFU2NkY084U0d1V3ZEb0dxLTJIZ2ktMldmbXNjMDB3R2I5ZDdja3d4RE5HcW1jc2hGUzRkMXZfTl9lUWgzN1VzNXhjMXJJcTdz?oc=5",
@@ -291,7 +291,7 @@
    "d": "2026-11-05T05:16:54+00:00",
    "lang": "fr",
    "t": "GTA 6 va dévorer 212 Go d’espace : voici comment augmenter le stockage de votre PS5",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQemIxRU42Tm5jMXkwR2cweE51WHZKb2lJYTlmWURLTkVST3B3cEUycE5kV1hTdFBMUkI1T3k0alpPMmVOZEktXzN5QlgtYlhpNlpxWV92MHJQMGJxbUx2UEpWVFYwTjVEQ3pTQ3pjLWZXU3RObHdBNG1ZdnNpODcxaE9MWFlCNjZTZlM5SGE5WFpSUkNzOEwzOXVLbm5FNkF4OGZfN1QtN0ZUSmhhdGdWNXJLU05jMHpObGtCUS14b2lsZzM4U1I4TF9uY3U?oc=5",
@@ -331,18 +331,6 @@
    "pub": "2026-11-04T21:47:44+00:00"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZ2E2dnJGUFJJUGJkOUhKRnJHZzN6YWpLd01rby0wZENMNGZMOFFJNG9IZlJXZE9CR1R3My1TeUxmM2ZodVVXTnRoZkxGcnZ0Z2M0czVkUnkwWFdDdzZ5MHhnQjNJTEhvX011dzVIUy1ZZGhkTFo4ZUNueXo3WTdNTEMzUnhsS181UnhLaUEzV0FOV0llSDY3WjRmV3FCY0U?oc=5",
-   "s": "Dexerto.fr",
-   "d": "2026-11-04T20:55:20+00:00",
-   "lang": "fr",
-   "t": "Comment jouer à GTA 6 en avance sur Xbox et PS5 avec l’astuce de la Nouvelle-Zélande - Dexerto",
-   "u": "https://www.dexerto.fr/gta/comment-jouer-gta-6-en-avance-xbox-ps5-astuce-nouvelle-zelande-1663318/",
-   "img": "https://www.dexerto.fr/cdn-image/wp-content/uploads/sites/2/2026/11/04/GTA-6-Nouvelle-Zelande.jpg",
-   "chapeau": "Découvrez comment jouer à GTA 6 en avance sur Xbox et PS5 grâce à l’astuce de la Nouvelle-Zélande, avec les étapes et l’heure de déblocage en France.",
-   "txt": "GTA Comment jouer à GTA 6 en avance sur Xbox et PS5 avec l’astuce de la Nouvelle-Zélande par Ludovic Quinson Publié : 04 nov. 2026, 12:55 Sauvegarder pour plus tard Sauvegarder pour plus tard Rockstar Games Ajouter comme source préférée sur Google Suivre sur Google News Sommaire GTA 6 arrive enfin le 19 novembre 2026 sur PS5 et Xbox Series X|S, mais certains joueurs pourraient découvrir Vice City plusieurs heures avant sa sortie officielle en France grâce à une méthode bien connue de la communauté, puisqu’il est parfois possible de profiter d’un jeu en avance en exploitant le décalage horaire avec la Nouvelle-Zélande.\nCette technique, surnommée “l’astuce de la Nouvelle-Zélande”, fonctionne différemment selon votre console. Voici comment l’utiliser sur Xbox et PS5, ainsi que l’heure à laquelle vous pourriez lancer GTA 6 en France.\nL’astuce repose sur les fuseaux horaires. Lorsqu’un jeu sort à minuit dans chaque région du monde, les joueurs néo-zélandais peuvent y accéder avant ceux situés en Europe ou en Amérique.\nPour GTA 6, dont la sortie est prévue le 19 novembre 2026, un déblocage à minuit en Nouvelle-Zélande correspondrait au mercredi 18 novembre à 12h (heure française / CEST) . Vous pourriez donc commencer à jouer jusqu’à 12 heures avant la sortie française, à condition que Rockstar applique bien un lancement à minuit selon les régions et que cette méthode fonctionne.\nAttention toutefois, cette astuce ne fonctionne pas lorsque l’éditeur impose une heure de lancement mondiale identique pour tous les joueurs.\nSur Xbox, la manipulation est particulièrement simple puisqu’il suffit de modifier la région de votre console. Voici les étapes à suivre :\nSi le déblocage dépend bien de la région configurée sur votre console, vous devriez pouvoir accéder à GTA 6 dès le 18 novembre à midi en France. Cette manipulation ne nécessite normalement pas de créer un nouveau compte Xbox ni de racheter le jeu. Vous pourrez ensuite remettre votre console sur la région France.\nComment jouer à MW4 en avance avec l’astuce de la Nouvelle-Zélande\nIl est bon de préciser que cette méthode reste conditionnelle. Rockstar pourrait utiliser un système de déblocage empêchant cette astuce de fonctionner.\nSur PlayStation 5, la situation est plus compliquée. Contrairement à Xbox, changer simplement la région de la console ne suffit pas, puisque le pays d’un compte PlayStation Network est défini lors de sa création. Pour tenter de profiter du déblocage néo-zélandais, il faut donc acheter le jeu sur le PlayStation Store de cette région. Voici comment procéder :\nAttention, les moyens de paiement français peuvent être refusés sur une boutique étrangère. Les cartes cadeaux PlayStation sont également liées à une région.\nDe plus, créer un compte avec de fausses informations de résidence peut contrevenir aux conditions d’utilisation de PlayStation. Cette méthode est donc plus contraignante et comporte davantage de risques que sur Xbox.\nSi vous achetez GTA 6 depuis un compte néo-zélandais, vous pouvez également essayer de partager le jeu avec votre compte habituel. Pour cela :\nLe partage de console permet normalement aux autres utilisateurs de la PS5 d’accéder aux jeux achetés sur le compte concerné. Il ne garantit cependant pas que GTA 6 sera jouable avant son déblocage dans votre région.",
-   "pub": "2026-11-04T12:55:20.000Z"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMifEFVX3lxTE41SHd3T3U3VU1PeHo5dEl2azI3RkRqZkNwcmZZczZYVFNlckQwV0h6a2xvZEdBUktWTWtmaFNSY2VVeGxVWHUxaU4xMm16QmdGUEI1UVZ5YTFSdWJGQ0RwSHJiMnpDUURic2h4bElsMHh1TlRLTExPUGZuLXg?oc=5",
    "s": "Power Up Gaming",
    "d": "2026-11-04T20:28:44+00:00",
@@ -361,7 +349,7 @@
    "d": "2026-11-04T16:59:48+00:00",
    "lang": "en",
    "t": "Rockstar Will Prevent Someone to Leak GTA 6 Ending or Other Major Spoilers",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -409,7 +397,7 @@
    "d": "2026-11-04T14:30:23+00:00",
    "lang": "en",
    "t": "GTA 6 Will Have Enhancements on PlayStation 5 Pro, Leak Reveals",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -418,7 +406,7 @@
    "d": "2026-11-04T14:30:23+00:00",
    "lang": "fr",
    "t": "Une fuite confirme des améliorations pour GTA 6 sur la PlayStation 5 Pro",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -622,7 +610,7 @@
    "d": "2026-10-30T12:39:43+00:00",
    "lang": "fr",
    "t": "Les copies de GTA 6 fournies aux médias n'ont quand même pas de filigranes",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -709,11 +697,7 @@
    "d": "2026-10-22T15:12:54+00:00",
    "lang": "en",
    "t": "Cyberleek Shares GTA 6 Leak Of Naked Lucia",
-   "u": "https://www.imdb.com/news/ni66062173/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -761,7 +745,7 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
    "t": "Le token CYBERLEEK chute de 40 % alors que le leaker de GTA 6 lance de nouvelles menaces",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -809,7 +793,7 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
    "t": "Fuite GTA 6, Cyberleek s'arrête mais la fin reste menacée de spoilers",
-   "erreur": "Remote end closed connection without response",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
