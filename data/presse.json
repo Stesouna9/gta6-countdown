@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-05T02:07:48+00:00",
+ "maj": "2026-11-05T02:28:00+00:00",
  "articles": [
   {
    "gn": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNOVJJZ0JrQWtSWWxRM014MVB6TXRvclBCUXRBWm5iME40VE1xTjV1Qm9KY0xXeF9DR3lCelk1aThndE1QQzNkTmdPMXVBeFNtYnpnWU0xTG5EWTgzYnVnR1VCOGhVSExTRU5RdTlMSERQRkNOTUdPM2tuREtmV1cxbU9WdzJxcEZQSlY3NW10TFJhU0xna3ZXUTN4bDlxbEt1ZEJ5RFdRQXBIb0t6VWUxMllJYlJWUGFybnNLT1FVVUUxdXM?oc=5",
@@ -228,6 +228,14 @@
    "pub": ""
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5kZWdJVTJmalBkRTYzUG9zOWVRVkNfS2xqYm9feHg5MDFUd2hiOXM0aWhiQUV2YUh5MFNSSEIzWkJjTXQ2cHRyZWpVcnZXekZWZ3hrVXdNdTVyWUI1VTNuSnBOY0JIOEl1WS1ud2lvOVVSS3RzM1FmY3hXbXY?oc=5",
+   "s": "HardwareCooking",
+   "d": "2026-11-04T20:03:27+00:00",
+   "lang": "fr",
+   "t": "Reprise PS5 : Sony propose jusqu’à 400 dollars pour votre console aux États-Unis, juste avant la sortie de GTA 6",
+   "erreur": "HTTP Error 429: Too Many Requests"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTEMtTUt0UGRnT1NuNnlBZDh1dW1tLTN4NWdLMTJrVFNxdnFZUHIxYlBYRklrOXE5Qkg5VXh3WmZxc1dTYXFCc2NLeXV4Rmd2YUU4eGxuS3NLbVExX1d3emVLcUh6blJWazJVUV9QQ2pieTdPN2lVbHlNWXVjVmxSMUktM1JQWWlveEdOcGpTNmp3aENmNVo4c2Y3M2lJeEV3MHRzeXE1SDdZWTROUVU2THlUUmFWU3B2bEtwcWFPY1gxU0FXdHA1T0tzMGF1Rnd1QXJybg?oc=5",
    "s": "La Crème Du Gaming",
    "d": "2026-11-04T19:30:19+00:00",
@@ -257,7 +265,7 @@
    "d": "2026-11-04T19:10:07+00:00",
    "lang": "fr",
    "t": "Mais pourquoi les produits dérivés de GTA 6 sont aussi moches ?",
-   "erreur": "HTTP Error 429: Too Many Requests"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQLUNHSFdDTVlkR05xcGhtbFc1LTZCeTRYWjB6UE85YmNtSzhqc0pHVG5qQ0d6QXp6S0g2Z3hMLTNocnUyN1VCNDR0OUVjZ2tpNHZOQUFMaXRheHRRMkRzNzY0dlJ3QWhCR3pVbWU5bjhnTlIyZ20wMFhod2xxeUFsbWFjdzZwWkZJaDBWcVd4UXFOSXByYVZab2hIbW43MG5JZXVTYVE0WTM?oc=5",
@@ -819,15 +827,6 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
    "t": "Fuite GTA 6, Cyberleek s'arrête mais la fin reste menacée de spoilers",
-   "erreur": "429 : passage suivant",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPd3laQ1VxeHJmZk80d21PZjB3YkRaWGpuVVJlSGE4UERCa0ZJeGNQWGdMaUFiNlIwVWpTcW5xZWI5MnlVdWZNWThNVmpjYlEtQTc5NjlTbVlyaFVWQ2l4STdTZU9Jc29iUHdLOGxuTHMxeU1mb3RUMDhtUXgwQnE1U2pTaGVUUFBHaHVRM2VWSTJRWFhFbUZ5amtnajdPc3EyZGc?oc=5",
-   "s": "PC Gamer",
-   "d": "2026-10-15T07:00:00+00:00",
-   "lang": "en",
-   "t": "Who is Cyberleek? What we know about the GTA 6 leaker",
    "erreur": "429 : passage suivant",
    "cyberleek": true
   }
