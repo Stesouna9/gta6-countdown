@@ -1,6 +1,14 @@
 {
- "maj": "2026-11-05T20:21:36+00:00",
+ "maj": "2026-11-05T20:41:51+00:00",
  "articles": [
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNZHNGcTFpaHlDcVNxVnJNc0N2M0NrLU5NREhrazRJd0h1OVFnVDAzQnlOOVVlZ3VpRmFsXzZ4ZGQ3YjNlcjVQQngtdDBGSnFNN2QwOGNtX2lNc1RZS25RZHBoYzZNYlZmTDZJbXZaQXdpNTJmVjNKUExIZllTMGJWUl9mRlUzNVltUzVRT0IwTGVBTGdtMlkwZmp5WXN0NEtSMWhBZmhYNkt0anlZczNpZ05nek5hcWxwbWwxV0xyQUxvdjJUZTM5WGdEbkxGV2RaU1hvbzVyV3lwS0YxQXZB?oc=5",
+   "s": "La Crème Du Gaming",
+   "d": "2026-11-05T20:30:31+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : une option à moins 20 € apparaît avant la sortie pour débloquer les bonus Ultimate",
+   "erreur": "HTTP Error 429: Too Many Requests"
+  },
   {
    "gn": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAtcV9GTWIwd1RURjllVjhMTDlsWFNVZThmaDFJWVJHRTVmY3U3dk9GZnNCRXRFMEZWNWFSWml1RDdaU3pDR2hYMzFRbFlZVmlYZ0VxbF9Ub3I3NDdUcFNPbTNOS3dab0lCXzRSR1NobmlEY2VldEQyT3c5cTBCRmc?oc=5",
    "s": "Insider Gaming",
@@ -92,7 +100,7 @@
    "d": "2026-11-05T19:08:51+00:00",
    "lang": "en",
    "t": "'GTA 6' Preorder Sales Hit $751 Million 2 Weeks Ahead of Release. Are Investors Ignoring Take-Two Stock Opportunity?",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1PNjYyY2x2b1Voc21NVzdqMjBFaEFOTXFaSHlWcDA0TU5Fb0lWYm1HU3BWcHBOOXNZUUFtOXJ6SVZHMmFfV180QWQ3QXdkUzhfTEpSOUhYeFhzSllOOWtab3ZNd0QtZw?oc=5",
@@ -112,7 +120,7 @@
    "d": "2026-11-05T18:57:00+00:00",
    "lang": "en",
    "t": "GTA VI releases soon. New marketing you may see in Miami-Dade",
-   "erreur": "HTTP Error 402: Payment Required"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQ1dKaUM1ZTV3T1BfdGxVUnZEc1lPWTBXRU5JR2dVNTRSaEhKSzhCTmxCWlZCci13VWdoMEpZZXFKOWNaNjVEU3NjM1hGWDZHNU4wZW8xdWMyNEh4RFk1VzVCRFlKOHVNLW9fOXNBUG5SQVhLamNkcDY3dUowc3pLejRvYjFRa1UwZHAwT2JzMDljQTd1dmlJZVc0SUpDUEE3YlFrNzVSWng?oc=5",
@@ -144,19 +152,15 @@
    "d": "2026-11-05T18:18:00+00:00",
    "lang": "en",
    "t": "GTA 6 Gets Massive New Screenshot Gallery Two Weeks Before Launch",
-   "erreur": "<urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)>"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQS0VlVUhONGhqeWtGZ28wcDV4d1R2NXhHZHNfM3Ytc2wxSmRudTYtVWFnMzhPMm9vRVdiTzlDVGg2blhkU1BYVVo3ejZGZFFLT1F0WE51cFl4UUhPcE5Fb1lucEQ0bUNhNk5hWC1jTV84NzdjSERITlNEVnkyNGRRWVkyUUNjbkhvVTJVR3BYOHEwa2tsOXJBdnQwUDZzVEdTUURz?oc=5",
    "s": "JVFrance",
    "d": "2026-11-05T18:07:51+00:00",
    "lang": "fr",
-   "t": "GTA 6 : À quelle heure le jeu sera disponible en France le 19 novembre ? - JVFrance",
-   "u": "https://www.jvfrance.com/gta-6-a-quelle-heure-le-jeu-sera-disponible-en-france-le-19-novembre-285668/",
-   "img": "https://www.jvfrance.com/wp-content/uploads/2026/06/GTA_6_Jason_Lucia_Heros.jpg",
-   "chapeau": "Découvrez à quelle heure GTA VI sera disponible dans le monde entier et surtout à quelle heure les joueurs français pourront explorer Vice City le 19 novembre 2026.",
-   "txt": "",
-   "pub": "2026-11-05T18:05:12+00:00"
+   "t": "GTA 6 : À quelle heure le jeu sera disponible en France le 19 novembre ?",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSUIxaTlpVmxsMS02NUhOVkttVFZ1b1NPMjZ2V1VsUlI4MEc2MFRtNDM3c1NzQ1Y4VUpZS2RncTBZRzF4SzVWdHowVW0xS09Fd1EtNjVzT0xhSE1xcEMtbjd0QVRCS09DaGY1d3dXTmdFWlVUVXRzWXRyY3ByMVE1X0c5WFRqQzZFX1E?oc=5",
@@ -164,7 +168,7 @@
    "d": "2026-11-05T18:04:15+00:00",
    "lang": "fr",
    "t": "Rockstar dévoile 39 captures d'écran de GTA 6 avant la sortie",
-   "erreur": "Remote end closed connection without response"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdl80VGM2RlQ3dDYzU21GWEtYb29DQXphUWdCSURZeXdfSHNjRDh6ejVGZnp0QXVwWkhwNjlZZWdOalBWcU9HRWg1M2VoeE5CRFZqUVl2akdYVEFJbG8zYTVWVVE1NXVpMkZZRDRSdEZSbFk4a3FLQ1BOYTdiV1oyTFQ1T0syd2NjVDdrNXFibFgwSEdzR080V0k5ZGNxT2FocVBqMnZLLUc2dElVQ282cmdEd2QtNzBHVFI4dGJiUWROQlVE?oc=5",
@@ -220,7 +224,7 @@
    "d": "2026-11-05T17:52:13+00:00",
    "lang": "en",
    "t": "Rockstar releases 39 new GTA 6 screenshots two weeks before launch",
-   "erreur": "Remote end closed connection without response",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -272,16 +276,12 @@
    "pub": "2026-11-05T17:32:34.156Z"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPV0k4U1JmcUtKUkFMb0VMbGZpRWtBM1FCM1J3U2ZCYWRJd19WNzBiS1RFNnJRNXg5bW5zMGx4b1hHU1owVktTWm9NZjRiRlBGbEJQTUpsNkZoV1o3MlFxX2hqQVNqbnkzZzgtcGwyZzZuVnk0WUFBbVl2TmNjMHFrblYwWUlFaVFnMjBQVEUyRDFObzNsdWdfR3pjMGQyWWN5em9KT1F6RmVlSUdGb3NtSjQxMW5uNUY1algzT09DVEJncHYwanNQMG9XYk0xNl9wcXN0SlE1amU3RkRBOEVLUmZKYXctR3ROVFNKT2RnT2Y5SnNFUlByeURWN3RZWkZ4dks0a196ckJqNjdJN05weEltNXNLNWJuWmZF?oc=5",
-   "s": "GamesRadar+",
-   "d": "2026-11-05T17:31:34+00:00",
+   "gn": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUGtiVHBJc1puM0tFNmgzaWZNd0J0NVFwaVNwamlWZkFSM2VOdlVseGZPWUFlNGNpVWlBWjdJSTdiRVNZWDZwVlducmpPVFdGUTE0eldvQlZMazRKOUhYTXRNN0xIUTRtV1JzOE1RVDdKemNISHNfS0tCaEJEN19LSFVHYw?oc=5",
+   "s": "MP1st",
+   "d": "2026-11-05T17:31:42+00:00",
    "lang": "en",
-   "t": "It",
-   "u": "https://www.gamesradar.com/games/grand-theft-auto/its-not-just-gta-6-take-two-boss-argues-we-have-the-best-collection-of-ip-in-the-business-thanks-to-red-dead-redemption-borderlands-and-more/",
-   "img": "https://cdn.mos.cms.futurecdn.net/Ndx9Po2DyeMQk2zv6KgM6B-1920-80.jpg",
-   "chapeau": "Grand Theft Auto is far from the company",
-   "txt": "(Image credit: Rockstar) Copy link Facebook X Pinterest Flipboard Email Share this article 0 Join the conversation Follow us Add us as a preferred source on Google Newsletter Subscribe to our newsletter With GTA 6 right around the corner, Rockstar Games and its owner Take-Two Interactive will be getting ready to enjoy the fruits of their labor with a massive launch, especially if current pre-order estimates are anything to go by. But GTA isn't Take-Two's only breadwinner – CEO Strauss Zelnick reckons that \"we have the best collection\" of IP in the games business.\nSpeaking in a new interview with the Wall Street Journal (below), Zelnick defends the strength of Take-Two's full library, which may be boosted by GTA, but by no means relies on it entirely.\n\"We have 15 franchises that have each sold at least 5 million units in an individual release,\" he begins. \"I think we have the best collection of owned intellectual property in the video game business, and I think that's reflected in our top line, our bottom line, and our market cap.\"\nWatch On He continues: \"In addition to Grand Theft Auto, we have Red Dead Redemption, a massive title. It sold over 65 million units in the most recent release. Red Dead Online, Grand Theft Auto Online, we have NBA 2K, which is the second-biggest sports title worldwide – the biggest in North America.\"\nIn a quickfire round, Zelnick also lists the likes of Borderlands, BioShock, WWE 2K, and Civilization, as well as mobile hits such as Words with Friends and Empires & Puzzles.\nDepending on your personal preferences and biases, you may or may not agree with Zelnick that Take-Two truly has the best bank of IP – others like Nintendo could certainly give the company a run for its money with the likes of Mario, Zelda, and Smash Bros., not to mention its partial ownership of Pokemon. But there's definitely no denying its strength – even with the current highest-rated game of the year , The Legend of Zelda: Ocarina of Time remake , out today, it's hard to think of November as anything other than Rockstar's month.\nWith GTA 6 delays, Take-Two CEO suggests Rockstar didn't want a Cyberpunk 2077 situation: \"They had to pull the title after shipping.\"\nWeekly digests, tales from the communities you love, and more\nCatherine Lewis Deputy News Editor I'm GamesRadar+'s Deputy News Editor, working alongside the rest of the news team to deliver cool gaming stories that we love. After spending more hours than I can count filling The University of Sheffield's student newspaper with Pokemon and indie game content, and picking up a degree in Journalism Studies, I started my career at GAMINGbible where I worked as a journalist for over a year and a half. I then became TechRadar Gaming's news writer, where I sourced stories and wrote about all sorts of intriguing topics. In my spare time, you're sure to find me on my Nintendo Switch or PS5 playing through story-driven RPGs like Xenoblade Chronicles and Persona 5 Royal, nuzlocking old Pokemon games, or going for a Victory Royale in Fortnite.\nPlease logout and then login again, you will then be prompted to enter your display name.",
-   "pub": "2026-11-05T17:31:34Z"
+   "t": "GTA 6 Receives Over 30 New Screenshots Ahead of Launch",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOczRSYTgyeEFCRG1sQzhsaXpnYVpxa3BKT29mYjctSUZ4MWhqNWVlOVlmdGo0WExpOWl5aTBwU2JGcF9mOElKMUpFNnUwVzQxcVVnUU40VW50U1k2RHJEUm1XZ2FRNG9MaERrZjhudVF4T0NNX01uQ1R4NG5IWVdPVWRiZVBLazI1WTB2U2QyRE9nU3dBeGh2RDZIcm9FZXhqU2N2Wm90cS1uYUVlSUdiNUdsOTNya1psSGQtQw?oc=5",
@@ -301,7 +301,7 @@
    "d": "2026-11-05T17:15:10+00:00",
    "lang": "fr",
    "t": "Sony vient de mettre à jour la PS5 spécialement pour GTA 6...",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNM0VtS2FUSmNXckxzSU42bXROVVRwQkJhelh5b19ubHlaUzNLdXRpcHFHbkRST1JYYVV2NTk0c1BPcEt1TGdMWmxCaHppNlI4WTZlWjN1WUs3cXhacGFkUDg5UVJRcHdndjhzTFZEUnVkWG0tRDVvVklJdGN1NHdWajRWcy1JRUx0aWNfMlU4N0ZuNWk3OGxwV3VLVnUtNlZUSnlpQVR5YmhIUGc?oc=5",
@@ -309,7 +309,7 @@
    "d": "2026-11-05T17:07:10+00:00",
    "lang": "fr",
    "t": "GTA 6 : près de 40 images dans la galerie de lancement",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNXNPM2ZveXRKMzgwSGJodkNCZkhSdlZLQ2pNYW1SVXN4MEhaUWplUHJ6TlVhSGJoalJsSUhJbklULWt2dFg4X2R6OU1FaXRHLWFDY1pHQ0pMR1VWVGpNaklFM3BfOVd4dG1PYndNbUl0d05kWDBPeXJhY0NYeE1ObFg0Tm1CcDhlUjVTZlVWOXBWbWFVNlhlSVZGdXFlRVd2VVViYTBB?oc=5",
@@ -324,24 +324,12 @@
    "pub": "2026-11-05T15:24:56.000Z"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcnB1cHNpRk5HUkdaMkwtbjdMQ1IweDBzRG95aFFNdTk2ck0wdXA5bzFjbUo2c29aOW1xcG1vcUcxNWdaLUpJeTRGQzNTa0xhY0dUUTJiTUVQMlpSM0t6Y3pGREJWdXE1RURfU0dnNG9BWF9PdWo5VkE5VzVvSk02RWxoNlcyMllubk5xXzd6QzFwTzFQTEdBdVlWQ19BNThfalNZ?oc=5",
-   "s": "Rockstar Mag",
-   "d": "2026-11-05T16:41:14+00:00",
-   "lang": "fr",
-   "t": "GTA 6 | Rockstar Games dévoile 39 nouvelles images du jeu !",
-   "u": "https://www.rockstarmag.fr/gta-6-rockstar-games-devoile-39-nouvelles-images-pour-le-lancement-du-jeu/",
-   "img": "https://www.rockstarmag.fr/wp-content/uploads/2026/11/MINIA5NOV-1024x576.webp",
-   "chapeau": "Aujourd'hui, Rockstar Games dévoile 39 nouvelles images du jeu dans une galerie ouverte sur le site appelée \"Launch Gallery\" afin de préparer le lancement du jeu le 19 novembre. Retrouvez toutes les images sur notre article.",
-   "txt": "Aujourd’hui, Rockstar Games dévoile 39 nouvelles images du jeu dans une galerie ouverte sur le site appelée « Launch Gallery » afin de préparer le lancement du jeu le 19 novembre. Retrouvez toutes les images sur notre article.\nLa fiche complète de GTA VI – VOIR LA FICHE DU JEU SUR ROCKSTAR MAG’ [ANALYSE] L’analyse complète du trailer (39min) – VOIR LE DOSSIER ET LA VIDÉO [ANALYSE] Analyse complète du trailer : encore des détails et easter eggs cachés – VOIR L’ARTICLE ET LA VIDÉO [DOSSIER] Liste de tous les animaux du jeu – VOIR L’ARTICLE ET LA VIDÉO [DOSSIER] Les lieux de GTA VI comparés aux lieux de GTA Vice City et de Miami – VOIR L’ARTICLE ET LA VIDÉO [DOSSIER] Tous les véhicules (voitures, motos, avions, bateaux…) du premier trailer – VOIR L’ARTICLE ET LA VIDÉO [COMPARATIF] Comparatifs des situations folles de réseaux de GTA VI avec la vie réelle – VOIR L’ARTICLE ET LA VIDÉO [TOP] Top 5 : les meilleures innovations techniques du trailer – VOIR L’ARTICLE ET LA VIDÉO [TOP] Top 5 : Top 5 : les choses que nous avons le plus aimés dans ce premier trailer – VOIR L’ARTICLE ET LA VIDÉO Plusieurs sens de lectures pour le premier trailer de GTA VI ? – VOIR L’ARTICLE ET LA VIDÉO Jason, absent du premier trailer ? – VOIR L’ARTICLE ET LA VIDÉO GTA VI : le jeu sera-t-il aussi beau que le trailer ? Est-ce réellement possible ? – VOIR LA VIDÉO Voir le trailer du jeu en 4K et sous-titré en Français – VOIR LE TRAILER\nListe des 70 premières images officielles de GTA 6 en 4K – LIRE L’ARTICLE Liste des 42 nouveaux artworks de GTA 6 en 4K – LIRE L’ARTICLE [ANALYSE] Analyse du second trailer – VOIR LA VIDÉO [ANALYSE] Analyse complète du second trailer – VOIR LE DOSSIER ET LA VIDÉO [ANALYSE] Analyse des 70 screenshots – VOIR LA VIDÉO [DOSSIER] Dossier : Les premiers personnages de GTA 6 – ARTICLE ACTUEL [DOSSIER] Dossier : Les premiers lieux et régions de Leonida – VOIR L’ARTICLE ET LA VIDEO [DOSSIER] Dossier : Les premières activités du jeu – VOIR L’ARTICLE ET LA VIDEO [TOP] Top 10 des faits marquants du second temps de communication – VOIR LA VIDEO Les premières infos sur l’intrigue / l’histoire du jeu – VOIR L’ARTICLE ET LA VIDEO Voir le trailer du jeu en 4K et sous-titré en Français – VOIR LE TRAILER 2\nDétails des précommandes – LIRE L’ARTICLE Liste des 65 nouvelles images officielles de GTA 6 en 4K – LIRE L’ARTICLE Guide de précommande de GTA 6 – LIRE L’ARTICLE [ANALYSE] Analyse des 65 screenshots de GTA 6 – VOIR LA VIDÉO\nLa présentation Netflix minute par minute – LIRE L’ARTICLE Les 29 nouvelles images en 4K de GTA 6 – VOIR L’ARTICLE [RECAP] Tout ce qu’il faut retenir dedes previews – VOIR L’ARTICLE ET LA VIDÉO [ANALYSE] La présentation de GTA 6 sur Netflix (V1) – VOIR LA VIDÉO [ANALYSE] Les nouvelles images de GTA 6 – VOIR LA VIDÉO [ANALYSE] L’analyse ULTRA détaillée de la présentation Netflix – VOIR L’ARTICLE ET LA VIDÉO [REACT] La présentation de GTA 6 sur Netflix – VOIR LA VIDÉO [PREVIEW] La preview de Dazed – VOIR L’ARTICLE ET LA VIDÉO [PREVIEW] Résumé des 4 previews de GTA 6 (IGN, NewYork Times, DavyJones, TroisCouleurs) – VOIR L’ARTICLE ET LA VIDÉO [PREVIEW] La preview de TGG (Part.1)- VOIR L’ARTICLE ET LA VIDÉO [PREVIEW] Résumé des 3 previews de GTA 6 (El Pais, Famitsu, Zeit) – VOIR L’ARTICLE ET LA VIDÉO [DOSSIER] Les nouvelles activités de GTA 6 – VOIR L’ARTICLE ET LA VIDÉO [DOSSIER] La mise à jour des animaux dans GTA 6 – VOIR L’ARTICLE ET LA VIDÉO [DOSSIER] De nouveaux personnages dans GTA 6 – VOIR L’ARTICLE ET LA VIDÉO Voir la présentation de GTA 6 : Un Large Aperçu en 4K VOSTFR 🇫🇷 – VOIR LA VIDÉO\nLes 12 nouvelles images en 4K de GTA 6 – VOIR L’ARTICLE [ANALYSE] Les nouvelles images de GTA 6 – VOIR LA VIDÉO [RECAP] Tout ce qu’il faut retenir de la preview – VOIR L’ARTICLE ET LA VIDÉO\nPremières infos et premières images – VOIR L’ARTICLE ET LA VIDÉO Suite de la preview – VOIR L’ARTICLE ET LA VIDÉO\nTous les nouveaux détails autour de GTA 6 – VOIR L’ARTICLE ET LA VIDÉO\nDécouvrez les dessous des coulisses de GTA 6 – VOIR L’ARTICLE ET LA VIDÉO\nVoir le trailer du jeu en 4K et sous-titré en Français – VOIR LE TRAILER DE LANCEMENT [ANALYSE] Analyse du trailer de lancement – VOIR LA VIDÉO [ANALYSE] Analyse complète du second trailer – VOIR L’ARTICLE ET LA VIDÉO [REACT] Le trailer de lancement de GTA 6 – VOIR LA VIDÉO\nVoir les 12 nouvelles images en 4K – VOIR L’ARTICLE [RECAP] Tout ce qu’il faut retenir de la preview Edge – VOIR L’ARTICLE ET LA VIDEO\nDes nouvelles images pour ravir les joueurs d’ici les 2 semaines qu’il reste ava",
-   "pub": ""
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMinwFBVV95cUxON3VSX0xpQzk1QXRyaWdIZUswNzZWUC1CQ0JjblU2dUZvQnhrYjZZdHY5UnNlQ0toaTRkUnd1SF9PajgtWUU1ZWtHbmNvNmV6VDVXS09KLWtkX0lQeTNzSGJCSVUtZXlSSU9MNmZGQU1NUHZqbXhIczU3MDE5MjdjdEdkRDFPZ1JMc3piMGxIbG1SN1ZEX1YyeXNJZjhnYXM?oc=5",
    "s": "EGW.News",
    "d": "2026-11-05T16:30:39+00:00",
    "lang": "fr",
    "t": "Rockstar Games a présenté de nombreux nouveaux screenshots de GTA 6",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVlgtY0dnbHctZDZCNkRPT05QbUtYM0E4VEtGREN5bmFQM0NQUWhmVGZJS05xa216S2JJdXEtcWR2emh0a3J4NDBqVDV0NFpQN2xRVmktc2wyOVVlV1pEeHNhNzRvMVZKZzJiN1llWVl3UTVrcXUwVm05RnJRRC1ZUlNKMlA2OXR2ckpQQzZCR28?oc=5",
@@ -349,11 +337,7 @@
    "d": "2026-11-05T16:09:00+00:00",
    "lang": "fr",
    "t": "Grand Theft Auto 6 : une salve de visuels à J-14",
-   "u": "https://www.gamekyo.com/newsfr98290_grand-theft-auto-6-une-salve-de-visuels-a-j-14.html",
-   "img": "http://www.gamekyo.com/Webmasters/Images/grand-theft-auto-vi_20220730_060731_intro.jpg",
-   "chapeau": "Grand Theft Auto VI n",
-   "txt": "",
-   "pub": ""
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMickFVX3lxTE1tVGFRbmpGem0yNVZ0bkswY0pCREVubG4xUDVyOEg2MHl1TGlBQnFvdEoxSl8zQ2xac2lIWUxLX0tHVzJXRFNVTXRaNUhfcEw1Rlg2MVNRUTFBdlUzYmhjN3NQaHhmVy1wM0dhcm9mc1l3QQ?oc=5",
@@ -452,7 +436,7 @@
    "d": "2026-11-04T16:59:48+00:00",
    "lang": "en",
    "t": "Rockstar Will Prevent Someone to Leak GTA 6 Ending or Other Major Spoilers",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -500,7 +484,7 @@
    "d": "2026-11-04T14:30:23+00:00",
    "lang": "en",
    "t": "GTA 6 Will Have Enhancements on PlayStation 5 Pro, Leak Reveals",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -509,7 +493,7 @@
    "d": "2026-11-04T14:30:23+00:00",
    "lang": "fr",
    "t": "Une fuite confirme des améliorations pour GTA 6 sur la PlayStation 5 Pro",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -661,7 +645,7 @@
    "d": "2026-10-30T12:39:43+00:00",
    "lang": "fr",
    "t": "Les copies de GTA 6 fournies aux médias n'ont quand même pas de filigranes",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -735,11 +719,7 @@
    "d": "2026-10-22T15:12:54+00:00",
    "lang": "en",
    "t": "Cyberleek Shares GTA 6 Leak Of Naked Lucia",
-   "u": "https://www.imdb.com/news/ni66062173/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -787,7 +767,7 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
    "t": "Le token CYBERLEEK chute de 40 % alors que le leaker de GTA 6 lance de nouvelles menaces",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
