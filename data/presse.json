@@ -1,6 +1,23 @@
 {
- "maj": "2026-11-05T19:20:07+00:00",
+ "maj": "2026-11-05T19:40:20+00:00",
  "articles": [
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNnUyb0pSSjcxcjRqczNwVkVxTFNOT0gxTEpkQUpKdDQ1S1VhNDMzLWZ3VVRmWXFSNGltY3EwRG93TjVOZW9OTzZjZHRMLUtMejAtSkhHVkxfY19mM3VQeFYzT1JHdFdNbGlEdDVwZ210VUxfdnp0SUFja2Q2QWJzb3otaGVsTGVaTUNNMlFyWnNFcGNzZkZIOU8zSVdmc1BsX2NDNGJhQ1lwSDktRUxQeWZGbmJlZU5kVk93?oc=5",
+   "s": "BuzzArena",
+   "d": "2026-11-05T19:35:49+00:00",
+   "lang": "fr",
+   "t": "À deux semaines de sa sortie, GTA 6 dévoile 39 images en 4K qui sont riches en détails",
+   "erreur": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE55alFZYU5TUXh4bGZuLTZ4bXk2T3pBS1d3QmJvVTJvbzA5VzJrMGZDdUp5M0RnQ0lnSWg2UnZWM2RWWWVoT3Q1aURtR1ZmVm5nTFE3QVhtN3JkdUZrRmVxWEFn?oc=5",
+   "s": "Ecostylia",
+   "d": "2026-11-05T19:29:45+00:00",
+   "lang": "en",
+   "t": "What the alleged PlayStation leak really says about GTA 6, PSSR, ray tracing and 60 FPS on PS5 Pro at launch",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
   {
    "gn": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQQlhaeGdnbW0zLWFSczFOUjZoQ09PUkpfdG94SXU1ckJXcDg5MjNUOEdvb0JXb1dSTFctRWRCaFJrQll0VDV6UkVHT09OU2JuekVFUzZKcDlKUzBfbWwxRG90T1dWSGpRbllGU1I4Z1FObEhXSE9fMjIycnNnVUxaT3RtNjFKSkoyU0RfMW1yS1lLZ0RvblA2TThrMUtYc0NmaHBSUUFhT1VVNEVKMExtQVN5T1V5Z1Z5bi1fbFNYRUNVejhzdmpRVmlnSDNkVG0zOEptTFhjclRGSlppQzZGMHJTRQ?oc=5",
    "s": "IGN",
@@ -18,6 +35,14 @@
    "erreur": "429 : passage suivant"
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBVNlVZWXdpS24yZGg4bk5FbU50aGg5UGJwMncyRFdzQ0VlT2ItMWs4UklwWEtNT2dkMW5HT0ZJMG1EN1ZMRjlWS2g3ZjFxVGlNc1VHUnBjZ1ZlTHgyUUJ0QzlxdF8?oc=5",
+   "s": "Mashable",
+   "d": "2026-11-05T19:15:10+00:00",
+   "lang": "en",
+   "t": "Kai Cenat shares his 'GTA 6' streaming plans",
+   "erreur": "429 : passage suivant"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQSkpGaVZfdW5DeDBkM055UmVGcjBPeS1vT21KWUhTaEZrNndfLWRGZ3ZRVUJNa2Jya2hvdW90NXhicWg1LXFwTWk5MGRGM09PVFdsNGUzQ0dIVE1ia3laQ0lQS3JGNFF1d2t6cFRReERQRTRZcVVSUFZ4UGF1MUVxMnUtQWozUnFwa3R2d2JBb05oZ1RsczdIRjQ2U1N4blUtcTY0NnJDWndlMThIRlBqVHFBYVU0b2lxSWJLM1Z6N3BfdkprTTVsWGNHUTAzb2kyQXRsczE5Nl8wV1QxTHhRNy1Va0ZxN3BsMXdpUVpGNjFXUlRVQldRU2ZwcjVObUxJSk0ydlkxaw?oc=5",
    "s": "Benzinga",
    "d": "2026-11-05T19:08:51+00:00",
@@ -31,7 +56,7 @@
    "d": "2026-11-05T19:03:34+00:00",
    "lang": "fr",
    "t": "GTA 6 dévoile 39 nouvelles images de dingue, de Vice City aux marais de Leonida",
-   "erreur": "HTTP Error 429: Too Many Requests"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPdjdtYlQ3TXRsOWNoWFNQQ3RaMzNmRDMyWjFFMEFTeFY3ZGhUVHI5WlpLbkE2NzhkS3ZEWllyRmpqZDhDOS10eWc5NFBOLWlLNXR2OXc3UmZIV0Z4X0JLNEdiNFJZb29xelA3VnVETzA4YkExRi1wTmI5VlBhLVU5b081LXJ1YUhMNEdvU2lTRnRsenJDNV9vcV83U25SYmpHMVk5a1lEWEVhd1JsMmRuVm9qQlREZ1pEQzlpenNoX2k4aXl6eWo3VWQ3OEV4QQ?oc=5",
@@ -92,18 +117,6 @@
    "lang": "en",
    "t": "GTA 6 Gets Massive New Screenshot Gallery Two Weeks Before Launch",
    "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPak9WT2NRMFV4dzFiYlhhcGRRcUdtUGpVOU40UlV3dnowcnkzVjZfdEF3R2luRTVhMFNVVDVoOEI1akhRV20xMGpna1M4M3YzWW1meVM0VHktNTlXZGZiR3kteVpMSnE0ZExfb3hvUXVvMXFia2dKMzBDeWl4NWNfUU13NVktMl8xSUV0R2pOeThKZFZ4Q2owUkdpU0lmNE5p?oc=5",
-   "s": "eGamers.io",
-   "d": "2026-11-05T18:17:32+00:00",
-   "lang": "en",
-   "t": "Sensor Tower Estimates GTA 6 Pre-orders Have Topped $750 Million Ahead Of Launch - EGamers.io - P2E NFT Games Portal",
-   "u": "https://egamers.io/sensor-tower-estimates-gta-6-pre-orders-have-topped-750-million-ahead-of-launch/",
-   "img": "https://egamers.io/wp-content/uploads/2026/11/sensor-tower-estimates-gta-6-pre-orders-have-topped-750-million-ahead-of-launch.webp",
-   "chapeau": "About two weeks before release, GTA 6 may have already earned more than $750 million. That number comes from fresh Sensor Tower estimates of the game's",
-   "txt": "Doodles Introduces AI Prompt Contest About two weeks before release, GTA 6 may have already earned more than $750 million. That number comes from fresh Sensor Tower estimates of the game’s pre-orders.\nTreat it as an estimate. Rockstar Games hasn’t shared any sales figures, and none of the numbers here come from Rockstar or Take-Two. Remember that the next time someone presents the total as settled fact.\nAccording to Sensor Tower, GTA 6 had 7.71 million pre-orders through Nov. 3, worth roughly $751 million in total revenue.\nThe estimate splits those pre-orders by platform: 74% on PlayStation 5 and the remaining 26% on Xbox Series X |S.\nThe growth rate stands out most. An earlier Sensor Tower estimate , which counted pre-orders up to Oct. 13, came to 6.08 million copies and $594 million.\nBetween the two estimates, that’s about 1.63 million extra pre-orders and $157 million more in three weeks. Players who had been waiting seem to be placing orders now.\nGTA 6 costs $80 for the base game and $100 for the Ultimate Edition. Demand for the pricier version looks like one reason the revenue figure is climbing.\nThat means a sizable share of the $751 million is from buyers paying $20 more before anyone has seen the final game.\nGTA 5 made $800 million on its first day of sales and passed $1 billion within three days.\nBefore launch, GTA 6’s estimated pre-order revenue is already about $50 million short of that first-day total. All of these figures are Sensor Tower estimates, and Rockstar Games has not made any official sales announcement.",
-   "pub": "2026-11-05T20:17:32+02:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNT3I5UkhsSFFMOGxsT05aTjlyTzhGWDdlcnNXeFkwSm0xMExDZ20tbktPQ0NxdU1GOTNIWjJlS1dWazgxQ0dDa3FXb1Z6QWVfU2hqYnZPaWlaeElCU2V2OGFQV2p3TGRJZ3N5XzhjczJ0dWFzdE50blZiWTdTTUtrN0xVMXBXa1Q4LUJLVVpiNkk?oc=5",
@@ -191,6 +204,14 @@
    "cyberleek": true
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZ0lXTVd2OFRyNS1OMkVrdnpja3h5VG12endfLUZteVdXaFlUeU5ld2YxWWU3cUlGNUk0RVZPRlNKc2RkMEc4U19WYllidktaSTF2UGVNbnBDMURtNHJvSk1UNGxpLVBYaTdkWTVXbDhMS3N5bF9HOENzZEY0R1FNV0xLMnJEQjdzbUhRWTFYZnVGREZhTEE?oc=5",
+   "s": "TechEBlog -",
+   "d": "2026-11-05T17:50:16+00:00",
+   "lang": "en",
+   "t": "Rockstar Releases New Screenshots From the Grand Theft Auto VI Launch Gallery",
+   "erreur": "429 : passage suivant"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPd1FlZ2lzTGxtYXpxYnJQUUFDYjVwYTRSb3BhWE8yQXB3X3djQWNMcTVvbllDZlNhWjFzRjdWWjRXNjZIdmZCSVhPSkNuNmV1VWFTckRuRDBTc0JWeWw2UGJFZ3VIU1V1ZHp0LWp0NmdKZTRGX19IRjBYanl2UDlKWnc0bGE1eXhCWTFrenJiRENxVGladjBreHRmVkx6cW1NbHE2YWk0LVVRWjBoTElsSnlaUDRvQ2ZSS2dhTENjRE1pU1Z3U1hYZEZXbWlsMzBF?oc=5",
    "s": "IGN France",
    "d": "2026-11-05T17:39:00+00:00",
@@ -225,30 +246,6 @@
    "chapeau": "Rapper Kodak Black has been confirmed to be featured as an NPC in GTA 6 via a new batch of screenshots.",
    "txt": "Rapper Kodak Black has been confirmed to be featured as an NPC in GTA 6 via a new batch of screenshots.\nRockstar Games released a batch of 39 new screenshots from GTA 6 to celebrate the game being two weeks away from launch, and one of them reveals that Kodak Black will be in the game. Upon closer examination, we can see him holding a cup with the Jack of Hearts logo, which is a club in GTA 6. This club has appeared in various marketing beats for the game, and Travis Scott even name-dropped it in his song, RHYNO, which was made specifically for GTA 6's soundtrack.\nIt has been heavily speculated that this club would feature a variety of real-world artists, and the confirmation of Kodak Black seems to only add fuel to that speculation. It doesn't seem like a leap to imagine that other artists like Scott or other rappers featured on the game's soundtrack could also appear in-game. There's some precedent for this in previous GTA titles, too.\nIn GTA Online, Dr Dre appeared as a character that the player could do missions for. The game's nightclubs also featured real DJs such as Solomun, Tale of Us, and Dixon, so it's entirely possible Rockstar managed to get these artists to do real performances at clubs in the game. We'll ultimately have to wait and see, but it's clear that Rockstar has spared no expense with the talent for this game. While there will be some fresh faces in the cast, actor Stephen Root confirmed earlier this year that he will play Brian Heder in GTA 6. The character is expected to be Jason's boss and a drug runner.\nSome of the game's radio stations are also hosted by the likes of Lana Del Rey, Bad Bunny, Morgan Wallen, and other major musicians and celebrities. There may be other celebrity cameos in GTA 6, but Rockstar is trying to keep a veil of secrecy around the entire game to preserve the experience for launch.\nSpeaking of launch, Rockstar Games confirmed earlier this week that pre-loading for GTA 6 will begin on November 10 . The game will take up around 212 GBs of space on your storage device, so you may want to go clear some space for this behemoth so you have all the time needed to prepare for launch.\nCade Onder is a freelancer for IGN's news team. He covers all things entertainment, including gaming, film, and more. You can find him on Twitter @Cade_Onder.",
    "pub": "2026-11-05T17:32:34.156Z"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPV0k4U1JmcUtKUkFMb0VMbGZpRWtBM1FCM1J3U2ZCYWRJd19WNzBiS1RFNnJRNXg5bW5zMGx4b1hHU1owVktTWm9NZjRiRlBGbEJQTUpsNkZoV1o3MlFxX2hqQVNqbnkzZzgtcGwyZzZuVnk0WUFBbVl2TmNjMHFrblYwWUlFaVFnMjBQVEUyRDFObzNsdWdfR3pjMGQyWWN5em9KT1F6RmVlSUdGb3NtSjQxMW5uNUY1algzT09DVEJncHYwanNQMG9XYk0xNl9wcXN0SlE1amU3RkRBOEVLUmZKYXctR3ROVFNKT2RnT2Y5SnNFUlByeURWN3RZWkZ4dks0a196ckJqNjdJN05weEltNXNLNWJuWmZF?oc=5",
-   "s": "GamesRadar+",
-   "d": "2026-11-05T17:31:34+00:00",
-   "lang": "en",
-   "t": "It",
-   "u": "https://www.gamesradar.com/games/grand-theft-auto/its-not-just-gta-6-take-two-boss-argues-we-have-the-best-collection-of-ip-in-the-business-thanks-to-red-dead-redemption-borderlands-and-more/",
-   "img": "https://cdn.mos.cms.futurecdn.net/Ndx9Po2DyeMQk2zv6KgM6B-1920-80.jpg",
-   "chapeau": "Grand Theft Auto is far from the company",
-   "txt": "(Image credit: Rockstar) Copy link Facebook X Pinterest Flipboard Email Share this article 0 Join the conversation Follow us Add us as a preferred source on Google Newsletter Subscribe to our newsletter With GTA 6 right around the corner, Rockstar Games and its owner Take-Two Interactive will be getting ready to enjoy the fruits of their labor with a massive launch, especially if current pre-order estimates are anything to go by. But GTA isn't Take-Two's only breadwinner – CEO Strauss Zelnick reckons that \"we have the best collection\" of IP in the games business.\nSpeaking in a new interview with the Wall Street Journal (below), Zelnick defends the strength of Take-Two's full library, which may be boosted by GTA, but by no means relies on it entirely.\n\"We have 15 franchises that have each sold at least 5 million units in an individual release,\" he begins. \"I think we have the best collection of owned intellectual property in the video game business, and I think that's reflected in our top line, our bottom line, and our market cap.\"\nWatch On He continues: \"In addition to Grand Theft Auto, we have Red Dead Redemption, a massive title. It sold over 65 million units in the most recent release. Red Dead Online, Grand Theft Auto Online, we have NBA 2K, which is the second-biggest sports title worldwide – the biggest in North America.\"\nIn a quickfire round, Zelnick also lists the likes of Borderlands, BioShock, WWE 2K, and Civilization, as well as mobile hits such as Words with Friends and Empires & Puzzles.\nDepending on your personal preferences and biases, you may or may not agree with Zelnick that Take-Two truly has the best bank of IP – others like Nintendo could certainly give the company a run for its money with the likes of Mario, Zelda, and Smash Bros., not to mention its partial ownership of Pokemon. But there's definitely no denying its strength – even with the current highest-rated game of the year , The Legend of Zelda: Ocarina of Time remake , out today, it's hard to think of November as anything other than Rockstar's month.\nWith GTA 6 delays, Take-Two CEO suggests Rockstar didn't want a Cyberpunk 2077 situation: \"They had to pull the title after shipping.\"\nWeekly digests, tales from the communities you love, and more\nCatherine Lewis Deputy News Editor I'm GamesRadar+'s Deputy News Editor, working alongside the rest of the news team to deliver cool gaming stories that we love. After spending more hours than I can count filling The University of Sheffield's student newspaper with Pokemon and indie game content, and picking up a degree in Journalism Studies, I started my career at GAMINGbible where I worked as a journalist for over a year and a half. I then became TechRadar Gaming's news writer, where I sourced stories and wrote about all sorts of intriguing topics. In my spare time, you're sure to find me on my Nintendo Switch or PS5 playing through story-driven RPGs like Xenoblade Chronicles and Persona 5 Royal, nuzlocking old Pokemon games, or going for a Victory Royale in Fortnite.\nPlease logout and then login again, you will then be prompted to enter your display name.",
-   "pub": "2026-11-05T17:31:34Z"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOczRSYTgyeEFCRG1sQzhsaXpnYVpxa3BKT29mYjctSUZ4MWhqNWVlOVlmdGo0WExpOWl5aTBwU2JGcF9mOElKMUpFNnUwVzQxcVVnUU40VW50U1k2RHJEUm1XZ2FRNG9MaERrZjhudVF4T0NNX01uQ1R4NG5IWVdPVWRiZVBLazI1WTB2U2QyRE9nU3dBeGh2RDZIcm9FZXhqU2N2Wm90cS1uYUVlSUdiNUdsOTNya1psSGQtQw?oc=5",
-   "s": "Numerama",
-   "d": "2026-11-05T17:25:00+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : que nous révèlent les 39 nouvelles images dévoilées par Rockstar ?",
-   "u": "https://www.numerama.com/pop-culture/2368805-gta-6-que-nous-revelent-les-39-nouvelles-images-devoilees-par-rockstar.html",
-   "img": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/gta-6-new-pics.png?resize=1600,900&key=3a0c4cac",
-   "chapeau": "À deux semaines de la sortie de GTA 6, Rockstar Games vient de publier 39 nouvelles captures d’écran de son prochain blockbuster. Au-delà des paysages spectaculaires de Vice City, ces images regorgent de petits détails sur le monde ouvert, les véhicules, les personnages et les activités qui attendent les joueuses et",
-   "txt": "Recevez tous les soirs un résumé de l’actu importante avec Le Récap’\nGTA 6 est toujours attendu le 19 novembre 2026 sur PS5 et Xbox Series X|S, et à mesure que la date se rapproche , l’impatience grandit. L’occasion pour Rockstar Games de publier 39 nouvelles captures d’écran de GTA 6 ce 5 novembre, à seulement deux semaines de la sortie du jeu. On y découvre une multitude de détails sur Vice City, ses habitants, ses véhicules et les activités proposées dans ce nouvel épisode.\nC’est probablement l’un des premiers éléments qui saute aux yeux : la densité de population semble particulièrement impressionnante dans GTA 6 . On le savait déjà, mais le voir est toujours aussi impressionant. La capture d’écran prise dans une boîte de nuit montre une foule compacte, composée de nombreux personnages aux apparences différentes. Les visages, les vêtements et les morphologies varient considérablement, donnant l’impression que chaque PNJ possède sa propre identité.\nSource : Rockstar Games Les fans, déjà très actifs sur Reddit , ont également repéré plusieurs personnages qui pourraient être inspirés de véritables personnalités de Floride. L’un d’entre eux ressemble notamment au rappeur Kodak Black, reconnaissable à ses tatouages.\nKodak Black ? // Source : Rockstar Games Les amateurs de voitures devraient aussi apprécier ces nouvelles images, puisque plusieurs captures mettent en avant des véhicules modifiés, avec notamment des voitures de type « Donk », très populaires dans certaines régions des États-Unis. Les courses de rue avec personnalisation des voitures semblent ainsi occuper une place importante dans le monde ouvert.\nAutre élément intéressant : les dégâts semblent poussés. Sur une voiture criblée de balles, les impacts traversent la peinture et laissent apparaître la couleur d’origine de la carrosserie. Un détail certes, mais qui montre encore le niveau de peauffinage des équipes de Rockstar. Les nostalgiques de Driver remarqueront également la présence de ponts-levis, qui pourraient donner lieu à quelques séquences intéressantes.\nAdmirez les trous de balle (sans mauvais jeu de mot). // Source : Rockstar Games Vie nocturne à Vice City dans GTA 6 La vie nocturne semble particulièrement développée. Comme on l’a dit, les boîtes de nuit affichent une densité de population impressionnante et, GTA oblige, la musique, les fêtes et l’argent devraient occuper une place centrale dans l’ambiance de Vice City. Les affrontements entre gangs feront également partie du décor, avec une ville qui semble aussi festive que dangereuse.\nLes captures laissent aussi entrevoir une certaine liberté dans la personnalisation des protagonistes. Bracelets et bagues pourront notamment compléter leurs tenues. La nudité semble par ailleurs faire partie des éléments que Rockstar souhaite mettre en avant dans cet épisode, dans la continuité de l’humour provocateur et de la satire sociale propres à la série.\nLa nuit, tous les yachts sont gris (ou volés). // Source : Rockstar Games Toutes les images ne se contentent pas de présenter les personnages ou les paysages. Certaines semblent directement tirées de séquences de jeu. Sur l’une d’elles, la police encercle notamment une propriété et un yacht appartenant à un personnage fortuné. Jason et Lucia sont visibles en train de prendre la fuite.\nD’autres images montrent les héros avec différentes armes, dans des environnements variés. On retrouve notamment des scènes qui laissent entrevoir des activités criminelles, des affrontements et des moments de vie nocturne. Il reste difficile de déterminer précisément à quelles missions correspondent ces captures, mais semble réellement être une phase de gameplay.\nRegardez le petit doggo au fond. // Source : Rockstar Games Un autre détail intrigue les fans : la possibilité que Jason et Lucia puissent être accompagnés d’un chien. Une hypothèse à prendre avec des pincettes, mais qui s’inscrirait dans un monde ouvert où les animaux semblent avoir une place particulièrement importante.\nEnfin, cette nouvelle galerie permet de découvrir un peu mieux les environnements de GTA 6 . Au-delà des rues de Vice City, Rockstar met en avant des paysages naturels, des collines offrant une vue dégagée sur la ville et plusieurs zones sauvages. La faune et la flore semblent omniprésentes, avec de nombreux animaux visibles dans les différents environnements.\nLes fonds marins ne sont pas oubliés. Les nouvelles images laissent entrevoir des eaux particulièrement détaillées et une vie sous-marine ",
-   "pub": "2026-11-05T17:25:02+00:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOemJSSXR5YV9FRWdLa242VU9tbEpuZjRyQmxYeHNsU2ZsME5zMFNrNnE1UG52Q3RQOFZpeTZ2b3d4c2tkRVIxRmVFOGlHdnVhRVhnR2hnbnkwLXlpaGVVWEVDcUJTdVY0SWpvYVRGeFBPSm45a0wycUxGOVp1akdIQm44cHNLSVFEZzZsRTdZNkVmeEI2eEVYNTRmWlQwUFFXeWtn?oc=5",
@@ -581,19 +578,6 @@
    "chapeau": "GTA 6 will feature a plethora of content as showcased during the Extended Look on Netflix, so fans were anticipating a massive preload size.",
    "txt": "Your login session has expired. Please logout and login again. × GTA Home GTA 6 Leaks GTA 6 GTA Online GTA 5 Cheats GTA 5 Cheat Codes Xbox One GTA San Andreas GTA Vice City GTA 5 Phone Cheats GTA V Cheats PS4 GTA 5 Cheats PS3 GTA San Andreas Car Cheats LS Tags GTA Online GTA 3 cheats GTA 4 cheat codes GTA 6 price More GTA GTA 6 preload size on PS5 revealed, and it's bigger than leaks suggested GTA 6 preload size on PS5 revealed, and it's bigger than leaks suggested By Akash Paul Published Nov 03, 2026 17:27 GMT Share \" data-lazy=\"//staticg.sportskeeda.com/comments/ic-comment-v2.png?w=48\" alt=\"comment\" width=\"20\" height=\"20\" loading=\"lazy\"/> 0 Discuss Share \" data-lazy=\"//staticg.sportskeeda.com/comments/ic-comment-v2.png?w=48\" alt=\"comment\" width=\"20\" height=\"20\" loading=\"lazy\"/> 0 Discuss 0 Discuss What's your opinion? GTA 6 preload size on PS5 revealed, and it's bigger than leaks suggested Discuss Now GTA 6 preload size revealed (Image via Rockstar Games) GTA 6 will feature a plethora of content as showcased during the Extended Look on Netflix, so fans were anticipating a massive preload size . Rockstar cleared the air by revealing the exact storage requirement a few weeks before the official launch on November 19, 2026. The preload size is confirmed to be 212 GB on PS5 , which is slightly bigger than what was leaked initially.\nPlayers will want to download the files in advance to prevent hours of waiting after the game release. In that regard, the officials have shifted the preload date to November 10, 2026 . It will arrive two days before what was previously announced.\nRockstar’s recent announcement confirmed that GTA 6 will require 212 GB for preload on PS5 . The massive storage requirement comes as no surprise, considering the game is set to offer an immersive open-world experience. Much of it was revealed via the Extended Look and various trailers.\nThere is a dual-protagonist system , meaning you can experience the metropolis simultaneously from different perspectives. You can participate in boat rides, scuba diving, jet skiing, and even racing while taking a break from tedious heists.\nGunfights have seen some improvements from previous titles as well. GTA 6 will feature a mechanic similar to Dead Eye from Red Dead Redemption 2. You can enter a slow-motion state while shooting, allowing you to aim at an enemy’s critical spots.\nWith cinematic camera work, high-stakes pursuits, and an intimate relationship between the protagonists , the game promises an entry more expansive than anything we have seen from the franchise. Accommodating all of these features makes the 212 GB preload size completely justifiable.\nLeaks online claimed that the development build exceeded 200 GB while assuring that the final version would be somewhat smaller. It now appears that their information wasn't that far off, as the preload size turns out to be slightly bigger than what was suggested.\nRegardless, players will want to download the files ahead of time to hop right into the game once it goes live. Rockstar has shifted the preload date to November 10, 2026 . As such, GTA 6 preload now starts two days earlier than the previously announced November 12, 2026 date.",
    "pub": "2026-11-03T17:27:29+00:00",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYVNYUVNRcDFYOGg3cXhBYU9zRWNjUktkXzRjaFppMTBYQmp4bHJ1Ym1qZXVLS1V0RWtWLVYydFRUQmZiNWlpTmctWU44NE9XRF9IVEJvQ1NJN2xLQmhTVHhzZllGYWR0WkVpd0ZxYkl5VWJrbnNYMjIwb2MzRkpqMVVNOWhzZjFrTEtoOEpxWTVHS2l4Mi15WDByT00?oc=5",
-   "s": "Notebookcheck",
-   "d": "2026-11-03T16:59:00+00:00",
-   "lang": "en",
-   "t": "GTA 6 may just end up getting PS5 Pro optimizations",
-   "u": "https://www.notebookcheck.net/GTA-6-may-just-end-up-getting-PS5-Pro-optimizations.1441308.0.html",
-   "img": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/ps5-pro-gta-620.jpg",
-   "chapeau": "Since neither Rockstar nor Sony has talked about GTA 6 running on the PS5 Pro specifically, it is believed that there will be no performance difference between it and the base PS5. That said, there is still more information that PlayStation wants to share before the game launches.",
-   "txt": "Rockstar and PlayStation have confirmed the pre-load date and download size for GTA 6 . The game is going to be massive, and PS5 owners will have to do some reorganizing if they want to start downloading on November 10. But what about PS5 Pro owners? Could there be any kind of benefit for the more powerful hardware? Fans believe it could be announced before the November 19 launch.\nThe PlayStation Blog was updated today, November 3, with information about GTA 6 ’s pre-load date and its 212 GB download size. At the end, the “ Stay tuned for more ” section states there will be more information about the game as we approach the November 19 launch date. A fan account that has been posting information about GTA 6 believes that this pertains to PS5 Pro optimizations.\nTill now, there has been no official information on the performance of GTA 6 on PS5 Pro, which has led fans to believe that it will be no different than the base PS5, i.e., 30 FPS. There are people who have been eyeing the PS5 Pro to get ready for the game, but seeing as how it won’t offer any particular performance benefits, that seems pointless. However, there are still some who believe PlayStation could announce improved performance on the PS5 Pro.\nSome others believe that the information could be about PSSR2 in GTA 6 . Some others believe it could get a performance mode that takes the FPS up to 40 or even 60. A few believe that the game would still be locked at 30 FPS on the Pro but run at a slightly higher resolution.\nThat said, neither Rockstar nor PlayStation has hinted that there will be any performance benefits on the PS5 Pro yet. Since there are only 16 days left before launch, we won’t have to wait long to find out.",
-   "pub": "",
    "cyberleek": true
   },
   {
