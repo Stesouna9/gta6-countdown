@@ -1,8 +1,46 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-05T10:13:00+01:00",
+  "updated_at": "2026-11-05T12:14:45+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-brooklyn-fresque-graffiti",
+      "title": "Brooklyn : la fresque GTA 6 recouverte de graffiti fait réagir",
+      "summary": "@GTAVI_Countdown partage une photo de la fresque Jason et Lucia à Brooklyn, désormais marquée par un graffiti. Le compte affirme que sa réalisation avait demandé sept jours. La publication attire 848 001 vues au relevé du 5 novembre : ce chiffre mesure la diffusion du post, pas une réaction officielle de Rockstar.",
+      "url": "https://x.com/GTAVI_Countdown/status/2118191313166430300",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "2026-11-05T03:58:57.000Z",
+      "checked_at": "2026-11-05T12:14:45+01:00",
+      "evidence": "Publication observée dans data/x_alertes.json ; vues relevées le 2026-11-05T10:17:35+00:00 : @GTAVI_Countdown 848,001 vues. Relevé Mac identique au serveur. Ouverture directe X refusée (HTTP 403). Résultat indexé Beebom du 5 novembre concordant sur la fresque vandalisée ; article non ouvrable, aucune autre précision reprise.",
+      "visual": "FRESQUE BROOKLYN",
+      "image": "https://pbs.twimg.com/media/HWVTrZoWkAAbnOn?format=jpg&name=360x360",
+      "image_alt": "Photo de la fresque GTA 6 à Brooklyn marquée par un graffiti",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "post_text": "The first GTA 6 mural in Brooklyn, which took 7 days of hard work to complete has now been ruined by a graffiti artist who sprayed over it.\n\nIt’s been up for less than a month.",
+      "cta": "Ouvrir la publication sur X"
+    },
+    {
+      "id": "x-zelnick-entretien-wsj-report",
+      "title": "Strauss Zelnick : un extrait d’entretien sur le report de GTA 6 circule",
+      "summary": "@GTAVI_Countdown relaie un extrait présenté comme un entretien de Strauss Zelnick au Wall Street Journal. Selon son résumé, le dirigeant a jugé le report nécessaire après en avoir été informé par Jennifer Kolbe, et défend le nombre de succès du catalogue Take-Two. Cette reprise ne constitue pas une nouvelle annonce de calendrier.",
+      "url": "https://x.com/GTAVI_Countdown/status/2118125331676532883",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "2026-11-04T23:36:46.000Z",
+      "checked_at": "2026-11-05T12:14:45+01:00",
+      "evidence": "Publication observée dans data/x_alertes.json ; vues relevées le 2026-11-05T10:17:35+00:00 : @GTAVI_Countdown 195,080 vues. Relevé Mac identique au serveur. Ouverture directe X refusée (HTTP 403). Résumé attribué au compte ; entretien original WSJ non consulté, propos non vérifiés indépendamment.",
+      "visual": "ENTRETIEN ZELNICK",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2118124392496455680/img/FNIezQJxFlM2ZKlP.jpg",
+      "image_alt": "Image de la vidéo de Strauss Zelnick relayée par GTAVI Countdown",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "post_text": "Strauss Zelnick’s new interview with Wall Street Journal:\n\n- He knew the GTA 6 delay was a must-have when he was informed by Rockstar’s head of publishing, Jennifer Kolbe\n- Zelnick was surprised when the interviewer said they don’t have enough hits, noting that they have 15",
+      "cta": "Ouvrir la publication sur X"
+    },
     {
       "id": "x-boites-retrait-10-novembre-gta6",
       "title": "GTA 6 en boîte : retrait en magasin dès le 10 novembre, avec un code de préchargement",
@@ -1479,6 +1517,11 @@
       "at": "2026-11-05T10:13:00+01:00",
       "label": "Veille permanente · recherche et contrôle des sources",
       "summary": "Relevés data/x_alertes.json Mac et serveur concordants, toujours datés du 4 novembre 2026 à 20 h 01 UTC : bus Miami, éditions physiques et compte à rebours déjà couverts ; aucun nouveau sujet GTA6 au seuil, @vicecentralFR exclu. Recherches publiques X, Instagram, TikTok et Rockstar effectuées. Original X testé : HTTP 403 ; profil Instagram Rockstar : HTTP 429 ; TikTok bloqué par robots.txt, résultats boutique sans vidéo sociale exploitable. Newswire sans texte lisible ; index GTA VI consultable, dernière annonce listée le 3 novembre (préchargement), déjà publiée. Résultats presse sur 212 Go déjà couverts ; aucune nouveauté sociale suffisamment vérifiable retenue. 64 cartes avec image réelle, crédit et texte alternatif, images HTTP 200. Aucun post X ni message à un tiers."
+    },
+    {
+      "at": "2026-11-05T12:14:45+01:00",
+      "label": "Veille permanente · deux nouveaux sujets X",
+      "summary": "Relevés X Mac et serveur concordants du 5 novembre à 10 h 17 UTC. Ajout de la fresque Brooklyn (848 001 vues) et de la reprise de l’entretien Zelnick/WSJ (195 080 vues), avec médias des posts et attribution. Calendrier régional déjà couvert par le sujet Nouvelle-Zélande ; Toronto et précommandes déjà présents ; autres nouveaux sujets sous le seuil de 20 000 vues sans deux comptes distincts. @vicecentralFR exclu. Recherche X, Instagram, TikTok et Rockstar effectuée : trois originaux X refusés HTTP 403, Instagram HTTP 429, TikTok et Newswire sans texte exploitable ; Beebom indexé concordant sur la fresque mais article inaccessible. Aucun nouveau contenu de ces réseaux validé directement. Aucun post X ni message à un tiers."
     }
   ],
   "coverage": {
