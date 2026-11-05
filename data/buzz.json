@@ -1,8 +1,46 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-05T18:13:13+01:00",
+  "updated_at": "2026-11-05T20:13:02+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-kodak-black-identification-supposee",
+      "title": "GTA 6 : un personnage identifié à Kodak Black par un compte fan",
+      "summary": "@GTAVI_Countdown affirme reconnaître le rappeur Kodak Black dans une nouvelle capture, notamment à son pendentif. Cette identification attire 62 310 vues au relevé du 5 novembre. La ressemblance commentée ne confirme ni casting ni participation : aucune confirmation officielle n’a été consultée.",
+      "url": "https://x.com/GTAVI_Countdown/status/2118381355738550616",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-05T16:34:07.000Z",
+      "checked_at": "2026-11-05T20:13:02+01:00",
+      "evidence": "Vues relevées le 2026-11-05T18:18:38+00:00 dans data/x_alertes.json : @GTAVI_Countdown 62310 vues ; copies Mac et serveur concordantes. Original X tenté via outil web : cache absent. Média du post téléchargé en HTTP 200 et contrôlé visuellement. Affirmation attribuée au compte, sans confirmation officielle ni vérification technique indépendante.",
+      "visual": "KODAK SUPPOSÉ",
+      "image": "https://pbs.twimg.com/media/HWYAiIAW8AAkQ__?format=jpg&name=360x360",
+      "image_alt": "Personnage de GTA VI portant un grand pendentif, identifié à Kodak Black par GTAVI Countdown",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "post_text": "Florida rapper, Kodak Black will be featured as an NPC in GTA 6.\n\nRockstar even brought his famous Golden Acres Pedant to the game.",
+      "cta": "Ouvrir la publication sur X"
+    },
+    {
+      "id": "x-tresses-temps-reel-hypothese",
+      "title": "GTA 6 : une scène de coiffure nourrit une hypothèse technique",
+      "summary": "@gtasix_ présente une scène de coiffure comme la preuve de tresses réalisées en temps réel, avec manipulation de mèches individuelles. Le post compte 30 435 vues au relevé du 5 novembre. La capture montre bien une séance de coiffure, mais une image fixe ne permet pas d’établir le fonctionnement technique ni une mécanique jouable.",
+      "url": "https://x.com/gtasix_/status/2118375285632663847",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rumeur",
+      "published_at": "2026-11-05T16:10:00.000Z",
+      "checked_at": "2026-11-05T20:13:02+01:00",
+      "evidence": "Vues relevées le 2026-11-05T18:18:38+00:00 dans data/x_alertes.json : @gtasix_ 30435 vues ; copies Mac et serveur concordantes. Original X tenté via outil web : cache absent. Média du post téléchargé en HTTP 200 et contrôlé visuellement. Affirmation attribuée au compte, sans confirmation officielle ni vérification technique indépendante.",
+      "visual": "TRESSES DISCUTÉES",
+      "image": "https://pbs.twimg.com/media/HWX5PqtXoAEl95L?format=jpg&name=360x360",
+      "image_alt": "Capture de GTA VI montrant une femme coiffant un homme assis",
+      "image_credit": "@gtasix_ sur X",
+      "embed_type": "x",
+      "post_text": "GTA 6 will feature real-time hair braiding, with individual strands of hair being manipulated naturally.",
+      "cta": "Ouvrir la publication sur X"
+    },
     {
       "id": "rockstar-launch-gallery-novembre",
       "title": "GTA 6 : Rockstar ouvre sa « Launch Gallery » de nouvelles captures",
@@ -1544,6 +1582,11 @@
       "at": "2026-11-05T18:13:13+01:00",
       "label": "Veille permanente · galerie Rockstar et réseaux",
       "summary": "Relevés X Mac et serveur concordants du 5 novembre à 16 h 15 UTC. Nouvelle Launch Gallery officielle ajoutée avec image réelle Rockstar contrôlée, sujet relayé par deux comptes ; autres publications du relevé sous 20 000 vues, sans deuxième relais vérifié. @vicecentralFR exclu. Recherches X, Instagram, TikTok et Rockstar effectuées : original X cache absent ; Instagram Rockstar HTTP 429 ; TikTok sans texte lisible, recherches sans nouvelle vidéo originale vérifiable. Galerie Rockstar inaccessible via outil web mais ouverte directement en HTTP 200, contenu et média vérifiés. Résultats presse datés du jour corroborants, sans reprise des spéculations techniques. Aucun post X ni message à un tiers."
+    },
+    {
+      "at": "2026-11-05T20:13:02+01:00",
+      "label": "Veille permanente · deux interprétations de captures sur X",
+      "summary": "Relevés X Mac et serveur concordants du 5 novembre à 18 h 18 UTC. Ajout de l’identification supposée de Kodak Black (62 310 vues) et de l’hypothèse de tresses en temps réel (30 435 vues), toutes deux Rumeur et attribuées. Vraies images des posts ouvertes et contrôlées. Comparaisons trailers/captures rattachées à la Launch Gallery déjà publiée ; Brooklyn déjà couvert ; Grassrivers, Lucia et rapprochement Arthur Morgan sous le seuil sans second compte distinct observé. @vicecentralFR exclu. Recherches publiques X, Instagram, TikTok et Rockstar effectuées : originaux X en cache absent, Instagram accès limité, TikTok sans texte lisible et recherche bloquée robots.txt ; Newswire sans texte direct, résultats indexés sur le préchargement déjà couvert. Aucune nouvelle annonce officielle revendiquée. Aucun post X ni message à un tiers."
     }
   ],
   "coverage": {
