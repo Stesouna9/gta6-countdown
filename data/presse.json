@@ -1,6 +1,14 @@
 {
- "maj": "2026-11-05T00:06:04+00:00",
+ "maj": "2026-11-05T00:26:17+00:00",
  "articles": [
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdXQ2ckt2UkgxcnloTU80cm9CYVh4ZWtiMXJaVEtvaFRMQk1tSF9IZEJhRGcySG54QjZuT3d3T3R6aldlSDNJT0RIQ3RSVXdZRnp1Q1BFbE5ON1cxOW1GR2c0dW5xWGMtVzd0aVZhdzh6WFZsdHJWYnM3YlA3cTdXdGRQMHlXZzVqZ1IyV244Z2hRdW1DU0xxMW94elFjcC1CdjNSZ2tEZ0ZNZVFBRHFqejdlUkt5LUFZckRXM3ZiMmk?oc=5",
+   "s": "Shane the Gamer",
+   "d": "2026-11-05T00:06:48+00:00",
+   "lang": "en",
+   "t": "GTA 6 Skips PC on November 19, but WoW: Forever and Warhammer Survivors Arrive This Month",
+   "erreur": "429 : passage suivant"
+  },
   {
    "gn": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBSSU9TdTlFUUhkNXF5ejI3NkJpLURyV0VOUUxBajEzdmtuVGlKbkJ1anBPOGVmVWtqVExXUlVIbEk0M25obXZ3dEVkMkN2MGFuR3FSdDVURGN6dHc5dnhB?oc=5",
    "s": "PC Gamer",
@@ -62,12 +70,20 @@
    "pub": "2026-11-04T22:36:15+00:00"
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQM1otNUliamVpUWkzMEdsZ1Y4RHdiTUZIajE1dTdmWmhCU05vNXdJNkNqcVpBZjU1RFhFb21FZVUtRzUzZ3FBcGFDRURZWGVtZ3o1MG9NbW9wYjEwbDJjYWpIc1ZNSnJLSFhWS0NIb1NGZ3pnQXB0RlQ3LUhyT3dFb3dBMDQ4YUl5dmhrcDIwSFA?oc=5",
+   "s": "Hip-Hop Wired",
+   "d": "2026-11-04T22:09:35+00:00",
+   "lang": "en",
+   "t": "XBOX Series X-Bite Will Give One Lucky Gamer A Very Unique Way To Play ‘GTA 6’",
+   "erreur": "429 : passage suivant"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBmaTE2WHd6dEoxWF9NTVRBa1ZmREVXNllGUmZ3Zl9qaWtaekRaWWJGaVkwQzhBNU15Q1RuV05DXy1lSmVxeC1VTm1KVlV6cWhEY3JXdnRnTlpNYm9GQnpaeGVkQ1RLakljV2VyNHVyWExYUU9hTXBZeUw3NDlWZw?oc=5",
    "s": "Lyndy's Sports Annuals",
    "d": "2026-11-04T22:03:00+00:00",
    "lang": "en",
    "t": "Ask Luka #001: Doncic on Sneakers, Golf and GTA 6",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPczBzdUtTcVBVTFNkMmJMQ29qc0FKNVMyT2szajJ1U1lDd0JhaW44b3hQWGR1aWNBeWt3VlNfZmVBd3lFLXpZaXhLSlZBMDNaRGtCZjl0MUYzb0FoUzlqYms1YllkTldPbmhJUzFBQlI2U3pEVEtfN1Z6WU5BakJwRXRxOVZqdFk?oc=5",
@@ -156,14 +172,6 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTUhQUTZpQ3VzdTJnQUlaSXZyZ0RDOWdETXJCV1JUellDTV9MQzFDZm84MWNfYXc5MmFvT3BOSzNKMkxoaDJWdXNWaDR6ZWlWU213cGY3T09OSHV3Nmt1bVpGN1hseDdEQ01rTzdsMHNRSDBMXzJLYzZkLXJ6TzVUQmlBTktpSlRDYWV6c3FEcHloV0JFN2h6MHNYWTZpSUJ5TjhvamRn?oc=5",
-   "s": "GameSpot",
-   "d": "2026-11-04T20:28:41+00:00",
-   "lang": "en",
-   "t": "GTA 6 Will Now Come To Stores Sooner, But It’s Not Playable Right Away",
-   "erreur": "HTTP Error 403: Forbidden"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOTDBtSzhjSmtzaWlVOUtfckUtcHZrS2dSUUJnRG1Dd2VMVFd1V085cmNXS09vbGhBSWZDMVBPcFNTaXlYZ01rN2pOVWowQXRlTWRtWkZ0Yk1FU2k1UHdROV83cXZtbnVWOFlwZENuQzNZMmFYSjBXS0Z3eFcyU1dZZUY3WU9BVXBsOE55Ml9RSXV4VlNiVlRQU0lYTGR2V3MtSEdKaFB6T2lSRHNoM2NyZnQ2UkFsazhPWkFyOEdjdXUzdHdJMFVxWlh1LWpxU3k4YV9NQ1NaWnVzb0NNbTZyZ3Z3?oc=5",
    "s": "Noovo Info",
    "d": "2026-11-04T20:26:58+00:00",
@@ -181,7 +189,7 @@
    "d": "2026-11-04T20:06:07+00:00",
    "lang": "en",
    "t": "GTA 6 Is A Massive Download, But You May Qualify For A Free Speed Boost To Download It Faster",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTzRYQUlEY2VTczhHRWtQb3ZiUHllWjZPMDcweGhNVGVfbGxmX0YwLXhhMWFjSk10TThNSUVnMkFNUFZCLVFFSFdjRzZKRDJGTGZ6N1FqZThfelk3Y3FxSlpZWjZycEt3QTZ5UGRIWG9Ubi1vSG5hdUc4X1pwdHNmU3hsYXhkMTg?oc=5",
@@ -206,18 +214,6 @@
    "chapeau": "A perfect mix of 2026 hits and former entries to catch up on ahead of 2027 sequels 👇",
    "txt": "Black Friday deals are live on the PlayStation Store, and this is our pick of the best offers.\nThis article contains paid shopping links. LADbible Group receives a small payment if you click on these links or make a purchase through them.\nBlack Friday may not be until November 27, but PlayStation has already launched its Black Friday sale on the PlayStation Store with all included deals running until November 20.\nThe sale includes thousands of deals across PS5, PS4, and PS VR2 titles, with something for all tastes and budgets.\nYou can’t mention November without bringing up Grand Theft Auto VI . Rockstar Games’ behemoth launches on November 19 and while you won’t find a discount on that title here, you may find an alternative play.\nYou see, GTA VI isn’t going to be for everyone, with some perhaps simply waiting for the game to drop in price.\nIf you don’t plan on visiting Leonida later this month, here are 11 games we wholeheartedly recommend that have unmissable deals in the current PlayStation Black Friday sale.\nLittle Nightmares I & II Bundle is too good to pass up on, with an enormous 70 percent discount. The bundle includes, as the title suggests, both Little Nightmares I and Little Nightmare II , both developed by Tarsier Studios.\nThe recent Little Nightmares III , developed by Supermassive Games, lacked some of the magic of Tarsier’s classics, so our recommendation is to go back to where it all began. These cozy horror icons see you navigate child protagonists through unsettling, cruel worlds with gameplay consisting of platforming and puzzle solving. They’re family-friendly enough for certified scaredy cats, and both are single-player games.\nThere’s no better time to try out Valheim given that Iron Gate Studio’s acclaimed survival title finally departed early access in September of this year, launching its 1.0 build. Valheim spent almost six years in early access, so it’s certainly perfected and refined its formula over the years.\nPlayable solo or with friends, Valheim is set in a Viking-inspired afterlife where players simply build, battle, and explore. It’s the perfect sandbox, with the Norse inspirations certainly sure to appeal to God of War fans, even if the gameplay is an entirely different kettle of fish.\n007 First Light is one of 2026’s very best releases, most definitely earning its place as a GOTY contender. Here at GAMINGbible, we awarded the title a score of nine in our review , writing, “ 007 First Light is an exquisite taste of slick spy action and blockbuster storytelling, and is fully what a Bond game should be, but rarely is.”\nDeveloped by IO Interactive, 007 First Light is a near-perfect origin story for James Bond, with its gameplay formula unexpectedly filling the gap left behind in the industry by the absence of Uncharted. The Deluxe Edition nets you bonus outfits and weapon skins and at 50 percent off, it’s a steal.\nSackboy: A Big Adventure is easily one of PlayStation’s most underrated console exclusives in recent years, although it did eventually land on PC two years after its 2020 launch. It’s your classic 3D platformer, with players running, swinging, jumping, and gliding their way through an array of creative and unique levels.\nIf you play the title on PS5, it takes full advantage of the DualSense controller’s features. There are also some great co-op levels if you want to play with a friend, although the game is predominantly single-player. The highlight: a selection of platforming rhythm levels to songs like ‘Uptown Funk’, ‘Let’s Dance’, ‘Toxic’, and more. Pure whimsy and joy.\nYou can currently save a huge 90 percent on The Quarry - Deluxe Edition - and we’d argue that it was one of 2022’s most underrated games. The Quarry hasn’t quite received the same cult classic status of Supermassive Games’ former release Until Dawn , but it’s just as good.\nThe Quarry sees a group of teens terrorised by bloodthirsty werewolves after they rebel and stay at a summer camp following their last day as counsellers, contrary to advice. It features all of Supermassive’s classic traits, including branching decisions, quick-time events, and a ‘don’t breath’ mechanic.\nWith stellar graphics and a banging soundtrack, it’s a must-play, even if you don’t normally like horror. The Deluxe Edition nets you bonus character outfits, instant access to the death rewind system, a visual filter pack, and an additional Movie Mode setting.\nIf you’re looking for something to play with friends, Phasmophobia is it and whil",
    "pub": ""
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSmdyWndkWDZzVTN5YkxtTFJ1MVV4aW9pbmdpNDR0eVAwSFFPM0w4dm12VjhibURNZm1MMVhTcXVzd2VyQkx5T19OWnNUSURHZXo4NFRrNEtYOUVUTlF4WE55ZWlickh2Z19GZ2p3VFpzOXFQZWpFNDkzdTMxemY3Y1hDRzN2YWF1TkR1a01pLVdiR0kxb1pTWklGeEdvTGNpS3h3Q1dQRWwzSTcweFhESGVGVkZpOWF1T2haUi1WSld5aWtOMEl3?oc=5",
-   "s": "TweakTown",
-   "d": "2026-11-04T19:50:11+00:00",
-   "lang": "en",
-   "t": "GTA 6 is on track to beat Cyberpunk 2077's pre-order record without a PC version",
-   "u": "https://www.tweaktown.com/news/114493/gta-6-is-on-track-to-beat-cyberpunk-2077s-pre-order-record-without-a-pc-version/index.html",
-   "img": "https://static.tweaktown.com/news/1/1/114493_3_gta-6-is-on-track-to-beat-cyberpunk-2077s-pre-order-record-without-pc-version_full.png",
-   "chapeau": "Sensor Tower estimates GTA 6 has 7.71 million digital pre-orders on PS5 and Xbox Series X|S, nearing Cyberpunk 2077",
-   "txt": "Sensor Tower estimates GTA 6 has 7.71 million digital pre-orders worth about $751 million on PS5 and Xbox Series X|S, just 290,000 short of Cyberpunk 2077's record despite having no PC version. These unofficial figures exclude physical sales, and PS5 accounts for roughly 74% of pre-orders.\nAs an Amazon Associate, we earn from qualifying purchases. TweakTown may also earn commissions from other affiliate partners at no extra cost to you.\nGTA 6 is closing in on the record for the most pre-orders of any video game, and it's doing so without a PC version. Sensor Tower estimates that Rockstar's sequel has racked up around 7.71 million digital pre-orders worth approximately $751 million, just two weeks before its November 19 launch on PS5 and Xbox Series X|S.\nCyberpunk 2077 currently holds the record with more than 8 million pre-orders, putting GTA 6 just 290,000 copies short. When we last covered Sensor Tower's tracking, the estimate stood at 6.45 million pre-orders and $630 million. That's an increase of roughly 1.26 million copies and $120 million in just two weeks. Cyberpunk 2077 also launched on PC, making GTA 6's numbers even more notable.\nPlayStation still dominates the pre-order split. Sensor Tower estimates that the PS5 accounts for around 5.74 million pre-orders worth $559 million, compared to 1.97 million copies and $192 million on Xbox Series X|S. That's the same 74% to 26% split seen in earlier estimates.\nMarket research firm Circana says nearly 1 in 3 console and PC gamers in the US plan to buy GTA 6, the highest level it has recorded for a video game. Rockstar has also stepped up its marketing with a launch trailer and promotional tie-ins, while preloading is set to begin on November 10.\n2 Motorcyclists ride through a rain-soaked GTA 6 street as Sensor Tower estimates the game has reached 7.71 million digital pre-orders on consoles, nearing Cyberpunk 2077’s record. (Image: Rockstar Games) VIEW GALLERY - 2 IMAGES For context, GTA 5 generated more than $800 million in worldwide sales during its first 24 hours in September 2013, according to Take-Two, and passed $1 billion in three days. GTA 6's estimated $751 million in pre-orders is already nearing that first-day figure, although the comparison isn't exact. Sensor Tower's numbers are unofficial estimates, while Take-Two's figures cover post-launch sales.",
-   "pub": "2026-11-04T13:50:11-06:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTEMtTUt0UGRnT1NuNnlBZDh1dW1tLTN4NWdLMTJrVFNxdnFZUHIxYlBYRklrOXE5Qkg5VXh3WmZxc1dTYXFCc2NLeXV4Rmd2YUU4eGxuS3NLbVExX1d3emVLcUh6blJWazJVUV9QQ2pieTdPN2lVbHlNWXVjVmxSMUktM1JQWWlveEdOcGpTNmp3aENmNVo4c2Y3M2lJeEV3MHRzeXE1SDdZWTROUVU2THlUUmFWU3B2bEtwcWFPY1gxU0FXdHA1T0tzMGF1Rnd1QXJybg?oc=5",
@@ -249,7 +245,7 @@
    "d": "2026-11-04T19:10:07+00:00",
    "lang": "fr",
    "t": "Mais pourquoi les produits dérivés de GTA 6 sont aussi moches ?",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "HTTP Error 429: Too Many Requests"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQLUNHSFdDTVlkR05xcGhtbFc1LTZCeTRYWjB6UE85YmNtSzhqc0pHVG5qQ0d6QXp6S0g2Z3hMLTNocnUyN1VCNDR0OUVjZ2tpNHZOQUFMaXRheHRRMkRzNzY0dlJ3QWhCR3pVbWU5bjhnTlIyZ20wMFhod2xxeUFsbWFjdzZwWkZJaDBWcVd4UXFOSXByYVZab2hIbW43MG5JZXVTYVE0WTM?oc=5",
@@ -305,7 +301,7 @@
    "d": "2026-11-04T16:59:48+00:00",
    "lang": "fr",
    "t": "Rockstar Games interdit de publier des informations sur la fin et d'autres spoilers de GTA 6",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRmJZeVpaSzB4UDdGVzY0QVIxRW42TGFyWVNxdXZtbmZqMXVpbzZOVVhTdlg2dGRmcmltRzhmRjVPTFFCSVJkSHNkRUJsOTR1RVhuaWJKZHZsOTFhbGlBZ0hwVklWQmpOc19oN1pmUVVMN3ZNQ2pUYi1PUDg1VEljSU9WSlJOUmhZVFJ0SlZCWVRWTGhPSUdPQlhiNA?oc=5",
@@ -313,7 +309,7 @@
    "d": "2026-11-04T16:59:48+00:00",
    "lang": "en",
    "t": "Rockstar Will Prevent Someone to Leak GTA 6 Ending or Other Major Spoilers",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -384,7 +380,7 @@
    "d": "2026-11-04T14:30:23+00:00",
    "lang": "en",
    "t": "GTA 6 Will Have Enhancements on PlayStation 5 Pro, Leak Reveals",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -393,7 +389,7 @@
    "d": "2026-11-04T14:30:23+00:00",
    "lang": "fr",
    "t": "Une fuite confirme des améliorations pour GTA 6 sur la PlayStation 5 Pro",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -407,6 +403,15 @@
    "chapeau": "The latest GTA 6 leak is unverified and Rockstar is silent. Here is what is confirmed: Nov. 19 launch, $79.99 price, and why the $2B claim is only an estimate.",
    "txt": "Nadia Dubois November 4, 2026 11 min read The latest GTA VI leak arrived with a loud label attached: Grand Theft Auto VI, supposedly set to become the world’s most expensive video game. Inshorts, Notebookcheck and GameRant all covered the clip, and all flagged the same gap. Rockstar Games has not confirmed the footage is real. What the studio has confirmed is a November 19, 2026 release date and a starting price of $79.99 on its official store.\nThat split between loud claims and quiet confirmations defines this story. Today is November 4, and the launch sits 15 days away. We tracked the earlier wave in our report on the 25-minute GTA 6 leak and what held up , so this analysis takes a different route. It sorts what the new coverage proves, what it only suggests, and what the “most expensive” label actually rests on.\nEverything below names its source. Where the official listings stay silent, we say so and treat the claim as unconfirmed. The takeaway up front: the leak is real news, the budget talk is an estimate, and the only numbers a buyer can plan around are the ones on Rockstar’s own pages.\n· Google · Preferred Sources Don't miss new tech stories on Google\nAdd Tech Insider once in the Google app and our stories appear in your news suggestions.\nThe leaked clip is the latest in a run of unauthorized GTA 6 footage that has circulated since late summer. Coverage from outlets including IGN and Notebookcheck, summarized in our earlier report, describes mission scenes, a dirt-racing event, a custom garage with car upgrades, a street race and long stretches of first-person play. Reports also describe mature content involving the two leads. Rockstar has not signed off on any of it as an official feature.\nInshorts framed its write-up around two questions: what the clip reveals and whether Rockstar will stand behind it. The second question has a short answer so far. The studio has stayed quiet on this specific footage, and no named person has gone on record about it. Our fact sheet for this story confirms exactly that: the authenticity, contents and source of the clip all remain unconfirmed.\nThat matters for how readers should treat every scene description. A leak can show real work in progress, an old internal build, or something else entirely. Without a statement from Rockstar, a clip describes what someone posted, not what ships on November 19. The same logic applies to any gameplay system, map detail or feature list that fans derive from the footage.\nStrip away the leak and the confirmed picture is short but solid. Rockstar Games develops and publishes Grand Theft Auto VI. The official release date is November 19, 2026. The game targets PlayStation 5 and Xbox Series X|S. The official store lists a starting price of $79.99, and the official product information names Jason and Lucia as the protagonists.\nThe pre-order side adds more detail. Take-Two Interactive published a news release announcing Grand Theft Auto VI pre-orders , which is the corporate record for how the game reaches shelves and storefronts. The table below separates the details with official backing from the ones that arrived through press coverage.\nPlatform buyers can check the listings directly on the PlayStation Store page for Grand Theft Auto VI. For the storage and preload mechanics, our guide on clearing 212 GB before the November 10 preload walks through the practical side.\nVerification in games journalism rarely comes from the leak itself. It comes from a studio statement, a takedown notice, or a second independent source with direct knowledge. None of those has surfaced for this clip. Outlets such as GameRant and Notebookcheck have reported it as a circulating file, which is accurate, but circulation is not proof of authenticity.\nReports have also floated the idea that leaked material may come from an older development build. If that holds, scenes could differ from the shipped game in lighting, physics, interface and mission flow. The News reported the build claim, and it stays in the unconfirmed column. A fair reader should treat any “this feature is in the game” conclusion drawn from the clip as a guess.\nUntil one of those lands, the honest label is “unverified.” That is the word our sources use, and it is the one the fact sheet requires.\nThe headline label comes from budget estimates, not from any Rockstar disclosure. Esquire India put GTA 6’s budget at roughly $2 billion and described that as about twice the cost of other major AAA games. It pre",
    "pub": "2026-11-04T13:42:43+00:00",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbmMzUTNYWTI0R3ZoTHYyVmhGYmY1TzBLUDNlMFZfOVdTUHNzWU53bDQxVUNMb01YYnJVMzNBYWxiWlFlRExFWFZ1Y1lnZ1BXWGxYa19JaUZKV1pmLVJxVWVlSkItTEJSb3lyV0xpYUdSQkluTUJLVWl0cU5oSFczelg1aEZZMFlrMkpsOThR?oc=5",
+   "s": "https://tech-insider.org/",
+   "d": "2026-11-04T12:12:41+00:00",
+   "lang": "en",
+   "t": "GTA 6 Time Zone Trick: 1 Report, 0 Confirmations [2026]",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -566,19 +571,6 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOQ2VTSjF4NW5JNFZlODE1bjIwVDgzY1M4SEJ1dzVuOGJWRlR3aE5ta0VVUTNZWWdUNk1BcTB2WVZ5eXppZk5lb0w0Y1FVMXhrNGIwRlQ1d3VFYXNmYXZoRkFzUl8zcFk4RzBHOWlET3FYa2xRamtHdEV5VlhndmFmcWRnMjA5VXMtVHg0dw?oc=5",
-   "s": "https://tech-insider.org/",
-   "d": "2026-11-03T03:09:36+00:00",
-   "lang": "en",
-   "t": "PlayStation GTA 6 Leak Ban: What Is Confirmed [2026]",
-   "u": "https://tech-insider.org/playstation-account-ban-gta-6-leak-ps-app-unconfirmed-2026/",
-   "img": "https://tech-insider.org/wp-content/uploads/2026/11/playstation-account-ban-gta-6-leak-ps-app-unconfirmed-2026-hi09-1-50343.webp",
-   "chapeau": "PlayStation reportedly banned an account over a GTA 6 leak shared in PS App messaging. See what Sony policy confirms and what stays unverified.",
-   "txt": "Sofia Lindström November 3, 2026 11 min read A PlayStation account was reportedly banned after its owner shared a Grand Theft Auto VI leak through PlayStation App messaging, according to a Notebookcheck report that the gaming press picked up on November 3, 2026. The core rule behind any such action is public: PlayStation’s player behaviour guidelines say Sony Interactive Entertainment (SIE) may suspend accounts, temporarily or permanently, for breaching its Terms of Service or Code of Conduct.\nThe report has a gap, and we will flag it early. Sony has not publicly confirmed this specific ban. Nor have Rockstar Games, Take-Two Interactive, or the account holder. The identity of the user, the message that was shared, the date, the length of the ban, and the type of penalty all remain unconfirmed. That makes this a reported story with a documented policy behind it, not a verified enforcement case.\nStill, the timing matters. GTA VI is scheduled for November 19, 2026, which leaves 16 days, and leaked footage has dominated the conversation for weeks. Rockstar has already described its position on the flood of clips in our earlier report on the studio’s reaction to the leaks . This analysis covers what the PlayStation story claims, what Sony’s rules allow, how Take-Two is attacking the leak chain from another angle, and what each side stands to gain or lose.\n· Google · Preferred Sources Don't miss new tech stories on Google\nAdd Tech Insider once in the Google app and our stories appear in your news suggestions.\nNotebookcheck reported that a PlayStation user lost access after passing GTA VI leak material to another person through the messaging feature inside the PlayStation App. The headline claim is simple. A private-feeling channel did not shield the sender from platform enforcement.\nThe fact sheet we are working from is strict about what holds up. The confirmed pieces come from Sony’s own published policy and from Take-Two’s legal filings, not from the ban itself. The ban is the unconfirmed piece. We therefore treat the story as a credible report that fits Sony’s stated rules, and nothing more until Sony, Rockstar, Take-Two, or the user says otherwise.\nSony’s framework gives it two broad levers. It can suspend an account for a set period, or it can end the account’s access permanently. Either route follows a breach of the Terms of Service or the Code of Conduct. The company states this outright on its support pages, and it applies the same language to every player, from a first-time violator to a repeat offender.\nThe difference matters for this story. A communication suspension restricts social features, including interaction with other players and online play. A full suspension goes further. The Notebookcheck report does not say which one hit the user, and that missing detail changes how severe the penalty looks. Losing chat is an annoyance. Losing an account tied to a digital library is a financial hit.\nPlayStation generally emails suspended users with the reason and the duration of the suspension. If the leak ban is real, the account holder holds the best primary evidence, because that email would name the policy and the term. Until that message surfaces, every detail about length and scope is guesswork.\nMany players assume a one-to-one message is private in the way a phone call is private. Sony’s process says otherwise. PlayStation states that reported content may be reviewed by moderators. If the content breaches the Code of Conduct, it may be removed, and action may follow against the account that shared it.\nThat sequence shows how a ban over a messaged clip could happen without any proactive snooping. A recipient flags the message. A moderator reads the report. The content gets measured against the rules. Nothing in the confirmed policy points to bulk scanning of private messages for leaks, and nothing in the Notebookcheck report claims it. The likelier path is a user report, though that remains our inference, not a confirmed fact.\nThe distinction matters for privacy debates. A report-driven system punishes sharing that someone else objects to. A scanning system would watch everyone. The first model is common across platforms. The second would spark a much louder fight, and no evidence in this case suggests Sony runs it.\nWhile Sony handles accounts, Take-Two works the courtroom. The publisher, Rockstar’s parent company, initiated legal proceedings tied to the GTA VI leaks and sought user information from GitHub and ",
-   "pub": "2026-11-03T03:09:36+00:00",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1TUXA1V3EzaU93Vlo4NjBOWWVIYjJZc2tXWWRwRnB5YU5kTHB3VG9uSFY2cWVSVFEzMmRzYmxBb0lhWnlmRGlWemJNbGNIaGtURDQ1djcxNm9PVzdyRVczaQ?oc=5",
    "s": "Sportskeeda",
    "d": "2026-11-02T13:38:00+00:00",
@@ -623,7 +615,7 @@
    "d": "2026-10-30T12:39:43+00:00",
    "lang": "fr",
    "t": "Les copies de GTA 6 fournies aux médias n'ont quand même pas de filigranes",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -723,7 +715,7 @@
    "d": "2026-10-26T19:12:15+00:00",
    "lang": "en",
    "t": "GTA 6: New Gameplay Leak Featuring Lucia Possibly Revealed",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -745,11 +737,7 @@
    "d": "2026-10-22T15:12:54+00:00",
    "lang": "en",
    "t": "Cyberleek Shares GTA 6 Leak Of Naked Lucia",
-   "u": "https://www.imdb.com/news/ni66062173/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -784,7 +772,7 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
    "t": "Le token CYBERLEEK chute de 40 % alors que le leaker de GTA 6 lance de nouvelles menaces",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
