@@ -134,7 +134,7 @@ def ferme_onglet():
 
 def _ferme():
     try:
-        js("(()=>{document.querySelectorAll('[data-testid=removeMedia]').forEach(b=>b.click());const e=document.querySelector('[data-testid=tweetTextarea_0]');if(e){e.focus();document.execCommand('selectAll',false,null);document.execCommand('delete',false,null)}return 1})()")
+        js("(()=>{document.querySelectorAll('[data-testid=removeMedia],[data-testid=removePollButton]').forEach(b=>b.click());const e=document.querySelector('[data-testid=tweetTextarea_0]');if(e){e.focus();document.execCommand('selectAll',false,null);document.execCommand('delete',false,null)}return 1})()")
         time.sleep(1)
         osa(f'''with timeout of 20 seconds
 tell application "Google Chrome" to close (first tab of window id {ONGLET["w"]} whose id is {ONGLET["t"]})
