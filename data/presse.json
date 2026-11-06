@@ -1,6 +1,14 @@
 {
- "maj": "2026-11-06T03:10:02+00:00",
+ "maj": "2026-11-06T03:30:32+00:00",
  "articles": [
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOS3pZcVFmc2hDUVdjSmNTMGphNkZMNTVzaENEU0UzREVLbThLd05JdTlPQmxMaEV0bG1QY25ualYxODVDN2QzMjhKS1Y0QU9OM0xLU2xNQXpNYkRlZ1pfOERVWnlmeHNpOUlWUmZTRUUyZ0JMVFJtVWZoNkJpSWR4X21LcDBlUE1J?oc=5",
+   "s": "Yahoo Finance UK",
+   "d": "2026-11-06T03:02:00+00:00",
+   "lang": "en",
+   "t": "'Grand Theft Auto' set for blockbuster return after 13 years",
+   "erreur": "429 : passage suivant"
+  },
   {
    "gn": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSXV0aTBMUUFiZ2gxVEt3VnlFX1NNX1hENXNyN1ctU2FaT3Q1RV95aFZpT0VwS3EyOHJLMGotbkRMSTBTemRMcnRKUXV5QUlLMGJxbEI5N1BvTlE2NDBBMmxBbW5rY3ljaEh4TXpEWVZDMGhRSUtXZjRndW1YUEFTOUludXV3ODJSc0FmQTQxbXg0NW1DelZCaXFrMGUzQmNodmQ3ekRfT0wtQ3JsbUE?oc=5",
    "s": "MMOEXP",
@@ -19,7 +27,7 @@
    "d": "2026-11-06T02:26:19+00:00",
    "lang": "en",
    "t": "Take-Two CEO calls GTA 6 piracy “a fact of life”",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYy1lN1UzU1pvcnpwR2h5MDFpX0gyZVBNaGFNczZvX3NoTWtiMlZMQkc4aDhHSzZxaGdvZHpndzVTVnl1ZkdSVl9OLW53M2FBWmE1MlJSUVlCSWotalBPR1lGSEdQQ1JwTXdGT0dqdmpYSkF2aDVlM1Y1cnlMUkE4SUVsOGtKT0pab21MV0FVVUk2cXNlUG9wZHU0RTJ4WTByZVBLUHRuT3JuQQ?oc=5",
@@ -82,6 +90,14 @@
    "pub": "2026-11-05T23:45:00+00:00"
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZ0JUZ0MteXl2RDgzc2VhZnVWRlgycWx0Y2JBODJzT2VHTmt6aF8wNkZKVkdWazVKYmZvTVc2RWZuNzJ4V0VEanhtUUk2TEhuRXptSC1VemVkWHdDaFV6b1ZmNXZacnFpc0wxZ241Qm1pdEJvRWxkb2pwdjlMZ2FiZm9rdUNjSlROM2dxVkNiSEttejVZMEZhM18zUW84bHB0QWRMYVJfd2FzQmRHekRiXw?oc=5",
+   "s": "Rockstar Games",
+   "d": "2026-11-06T00:11:30+00:00",
+   "lang": "fr",
+   "t": "Découvrez la Galerie de lancement de Grand Theft Auto VI",
+   "erreur": "HTTP Error 429: Too Many Requests"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQNHE2bzhpZ3FBbkU0SDA5OUQ0SnlGTnRNVS1nUVR1dFFRVXI2eUZFOFQ4SWdabmdFQnZKSHFOX2VCWHl6NVRDRkFqZ3ZTU0VaMUpsbE0tb2c5bGs4eUw4NWdxWTdDX2Q2V2lxc2JKUC02RF9NWnZhdlVwRGFaS0U?oc=5",
    "s": "Mezha.net",
    "d": "2026-11-06T00:02:52+00:00",
@@ -99,27 +115,7 @@
    "d": "2026-11-05T23:31:38+00:00",
    "lang": "en",
    "t": "Nearly 100 Gamers Say They’d Give Up Their Pets to Play ‘GTA 6’ a Week Early",
-   "erreur": "HTTP Error 403: Forbidden"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQODdNMU9Ta3NOSDJYS0NxWkFjT2lzaXpVeUhqZEJfUlRDMXVRTzM3VWpaYkVmUl9zUWRVZ1pWSnBDcFZiWmZPTFRhOEFsUXVaZXNvNEtJcndfeF9wWG5HdFVtQW0wYmFDNlg4TmxYVldxZDZGOHBlUlNMdGJOOGlBc3B0cnpzNkN3UDZZQw?oc=5",
-   "s": "Yahoo",
-   "d": "2026-11-05T23:31:38+00:00",
-   "lang": "en",
-   "t": "Nearly 100 Gamers Say They'd Give Up Their Pets to Play GTA 6 a Week Early",
-   "u": "https://www.yahoo.com/lifestyle/articles/nearly-100-gamers-theyd-pets-233138157.html",
-   "img": "https://s.yimg.com/lo/mysterio/api/fa8c5b467e326a61fc5a79ba02a0c7e914ebcd3bfdd410a4f87008c475327bb2/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fparade_pets_articles_328%2F0b3a8b0122d2aec120a94d5032553253.jpg",
-   "chapeau": "That's certainly a decision.",
-   "txt": "Nearly 100 Gamers Say They'd Give Up Their Pets to Play GTA 6 a Week Early Parade Pets and Yahoo may earn commission from links in this article.\nIt's no secret gamers will go to great lengths to get any information about an upcoming game release early. And with Rockstar's GTA 6 set to come out later this month, the anticipation surrounding what could be the biggest game of the century has brought some of the most extreme fans out of the woodwork.\nIn fact, a recent poll of over 1,300 American gamers puts a spotlight on fans' priorities heading into release day, with some of the results certainly cause for concern. You've already seen stories of fans requesting the entire day off work, but some claim they'd even give up their pets to play the game a week early.\n🐶 SIGN UP to get \"pawsitivity\" delivered right to your inbox with inspiring & entertaining stories about our furry & feathered friends 🐾🐾",
-   "pub": ""
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVG03c2Q3RUEyTXVydFdweElRdWNyOEJKX2JFM3FReWJmM05aVjE3RWYzb1ROWTlUdnMzNmR2bF9tMUJEVWxPak11a1U4ZHB2TFZPRU5ZVVZ4S05UQ0tEVi1LY1VrN3I5WE9wb3hJNDh3MDN0T1M4aFBaTWZnZVQ2Y25WN1lCbFNfZ2lQYXpySQ?oc=5",
-   "s": "GameSpot",
-   "d": "2026-11-05T23:07:32+00:00",
-   "lang": "en",
-   "t": "We Analyzed Every Official GTA 6 Screenshot Continued",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQnlnRUx6UE51dldjMlNqZ2ZzSXBZS01YOEdYTERzcmNRV3VyMk51clNNS3NsaGJaUzVZcVBLUjhyUDVsaXVtS21vN01uZl84UEtfMWd1cXM4UC1BOUFGSk0tTndzeEEza1l0Z2hLRjUzVmQ5X092OUxvajR2UWM3ZTAxd05iZDFzR255Qw?oc=5",
@@ -127,7 +123,7 @@
    "d": "2026-11-05T23:00:31+00:00",
    "lang": "fr",
    "t": "GTA 6: Rockstar dévoile 38 nouvelles images du jeu",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaElDLXdoRmh5MGh0OGNqZ0k3R2VrOHdmYWd2bGM1V25GdlZDTlpOSUFNeGJKTGx6Q016TVpDT1BmeTl1NUxFLVVMX0ItNE5GZTdWbHU3NFNJNHpUdDFKdGJhN1ZlVndoem44d2pyclRHci1Xc2ZiR09PWnpOa2dBdmJqdVNXNTAzMmx5a1pKY2ljMW1ucVZmMjExdVlBZlZSYktyUTR3VlU2QjM5?oc=5",
@@ -152,6 +148,14 @@
    "chapeau": "With all the convoluted decisions made around the \"GTA 6\" release, is upgrading from the Standard to Ultimate Edition going to be similarly strenuous?",
    "txt": "Rockstar Games Add SVG on Google: Preferred Source Google Discover Nowadays, buying a video game is a multi-step process that begins with deciding which version you want. That's no different with \"GTA 6,\" which comes in several flavors, one of which is literally just a code in a box. The other major decision is whether to shell out $100 for the \"GTA 6\" Ultimate Edition or pay the still exorbitant $80 fee for the Standard Edition. All of this is very silly, but it would be even sillier if Rockstar Games prohibited those who get the Standard version from upgrading afterwards. Thankfully, things aren't quite that bad, as Rockstar allows players to upgrade.\nComparing the \"GTA 6\" editions highlights just how cynical things have become. Evidently, those who purchase the \"GTA 6\" Standard Edition will not only miss out on visual upgrades such as skins and clothing, but also extra story elements and locations. In other words, the Ultimate Edition is actually the full game and its lesser counterpart is merely a stripped-down version.\nMany gamers will surely opt for the Standard Edition, only to experience buyer's remorse. Luckily, upgrading is relatively easily. Those who purchase \"GTA 6\" digitally can pay extra for the Ultimate Edition Upgrade as a digital add-on through the PlayStation or Microsoft Store, either on their console or web browser. That means they can essentially upgrade ahead of the game's actual launch. At the time of writing, the Microsoft Store and PlayStation Store both have the Ultimate Edition Upgrade available to pre-order for $20.\nRockstar Games If you opt for the disc-less \"GTA 6\" physical edition , you will receive a game box that contains a code to download the standard version. The \"GTA 6\" Ultimate Edition is not available to purchase physically. Fortunately, you can easily upgrade by buying the Ultimate Edition Upgrade add-on from the PlayStation or Microsoft store after using the physical copy's digital download code. The physical \"GTA 6\" editions will be in stores starting November 12, and those who order the digital versions will also be able to start pre-loading on that date.\nAs if all this wasn't enough to bring us to the edge of despair, there are also the \"GTA 6\" pre-order bonuses to consider. Players can get a free month of Rockstar's membership program GTA+ if they pre-order the digital version of either editions, while also receiving extra content such as hairstyles, outfits, and cars.\nFor now, it's at least good to know that you can upgrade from the Standard to the Ultimate Edition at any time and it won't cost you any more than if you'd just bought the Ultimate version outright. But it does seem needlessly confusing and yet another way to squeeze extra profit out of a game launch that will already make billions of dollars. No wonder the \"GTA 6\" gameplay leakers gave Rockstar a set of demands designed to push back against this stuff.",
    "pub": "2026-11-05T23:00:00+00:00"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMickFVX3lxTE9meUNfdGFRMThQMnBUa1dfMlNwOUpqcDA1YmxzNEg5cEthZmk3YzlTUVo0S3Qtd0FacmYwdk1DTUJiVDNPcDgyS001dXdIMGtEMnNha0tWbnVTei1BWGJsaHpRMmVFdkhTbUhpcUVuc3pPdw?oc=5",
+   "s": "GTA BOOM",
+   "d": "2026-11-05T22:39:02+00:00",
+   "lang": "en",
+   "t": "GTA 6 Launch Gallery: All 39 New Screenshots in 4K",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWlp3UTZjRGphU0drekcwUHVhclA2bWRYZDN0X3ZsVklKbnJaQnF5V1NCelpaaW8zSWllVnRZdzVkVWFsaVNEUzVnNmVoTTM1MFlnOEIzaFNicC1qd1VWbERVNXlFbkstTUVsN19TWlhHX2xjOGVFVGYzMkQxaVVqMkl0eUhhbkVTU2hYeG9XRmNyaDlydkE?oc=5",
@@ -279,12 +283,8 @@
    "s": "JVFrance",
    "d": "2026-11-05T18:07:51+00:00",
    "lang": "fr",
-   "t": "GTA 6 : À quelle heure le jeu sera disponible en France le 19 novembre ? - JVFrance",
-   "u": "https://www.jvfrance.com/gta-6-a-quelle-heure-le-jeu-sera-disponible-en-france-le-19-novembre-285668/",
-   "img": "https://www.jvfrance.com/wp-content/uploads/2026/06/GTA_6_Jason_Lucia_Heros.jpg",
-   "chapeau": "Découvrez à quelle heure GTA VI sera disponible dans le monde entier et surtout à quelle heure les joueurs français pourront explorer Vice City le 19 novembre 2026.",
-   "txt": "",
-   "pub": "2026-11-05T18:05:12+00:00"
+   "t": "GTA 6 : À quelle heure le jeu sera disponible en France le 19 novembre ?",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSUIxaTlpVmxsMS02NUhOVkttVFZ1b1NPMjZ2V1VsUlI4MEc2MFRtNDM3c1NzQ1Y4VUpZS2RncTBZRzF4SzVWdHowVW0xS09Fd1EtNjVzT0xhSE1xcEMtbjd0QVRCS09DaGY1d3dXTmdFWlVUVXRzWXRyY3ByMVE1X0c5WFRqQzZFX1E?oc=5",
@@ -292,7 +292,7 @@
    "d": "2026-11-05T18:04:15+00:00",
    "lang": "fr",
    "t": "Rockstar dévoile 39 captures d'écran de GTA 6 avant la sortie",
-   "erreur": "Remote end closed connection without response"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdl80VGM2RlQ3dDYzU21GWEtYb29DQXphUWdCSURZeXdfSHNjRDh6ejVGZnp0QXVwWkhwNjlZZWdOalBWcU9HRWg1M2VoeE5CRFZqUVl2akdYVEFJbG8zYTVWVVE1NXVpMkZZRDRSdEZSbFk4a3FLQ1BOYTdiV1oyTFQ1T0syd2NjVDdrNXFibFgwSEdzR080V0k5ZGNxT2FocVBqMnZLLUc2dElVQ282cmdEd2QtNzBHVFI4dGJiUWROQlVE?oc=5",
@@ -324,7 +324,7 @@
    "d": "2026-11-05T17:52:13+00:00",
    "lang": "en",
    "t": "Rockstar releases 39 new GTA 6 screenshots two weeks before launch",
-   "erreur": "Remote end closed connection without response",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -338,14 +338,6 @@
    "chapeau": "Encore un peu de patience.",
    "txt": "Rockstar Games a dévoilé quelques dizaines de nouvelles captures d'écran de GTA 6 pour hyper encore un peu plus les fans, deux semaines avant la sortie du jeu. Après 13 ans d'attente, GTA 6 sera bientôt entre nos mains. Enfin. Le jeu sort dans exactement 14 jours en France, et les fans n'ont plus qu'une hâte : retourner à Vice City. Pour rendre l'attente un peu plus supportable, Rockstar a partagé 39 nouvelles images du jeu, offrant un nouvel aperçu inédit de Vice City , de ses habitants, des clubs de strip-tease de la ville et de quelques-uns des crimes spectaculaires auxquels Jason et Lucia participeront.",
    "pub": "2026-11-05T17:39:07+00:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPVEM2emxQVFhrTDF1THRWSk5iZnY4NzlvYm1VWURvdFYzVVhXTlJqRE90ejM4ZTFTRmFSb3BacGpicktNTVEyVEZ4NXFWRjNWZ2VCSDB0TzZUaFhuSkE0OHByLW5SdmlKbFk4Q1h4NjRrQ2l4b3ZFdHJsZ3l2ZjhkQU5kU0tYYzhhOU9CZkhQNzVtVWNVS240bWxVN0cya3hvSjJ4eW0tZktPOWdPZUFuS0V2SmpTZ1FmeTc1VnAwazZ3cHZTSWs5aVlNSmF2Q0ZhbEotcmdGQ2trWF9M?oc=5",
-   "s": "France 24",
-   "d": "2026-11-05T17:28:08+00:00",
-   "lang": "fr",
-   "t": "Nintendo et Sony misent sur Zelda et GTA VI pour doper leurs fêtes de fin d'année",
-   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNXNPM2ZveXRKMzgwSGJodkNCZkhSdlZLQ2pNYW1SVXN4MEhaUWplUHJ6TlVhSGJoalJsSUhJbklULWt2dFg4X2R6OU1FaXRHLWFDY1pHQ0pMR1VWVGpNaklFM3BfOVd4dG1PYndNbUl0d05kWDBPeXJhY0NYeE1ObFg0Tm1CcDhlUjVTZlVWOXBWbWFVNlhlSVZGdXFlRVd2VVViYTBB?oc=5",
@@ -469,7 +461,7 @@
    "d": "2026-11-04T16:59:48+00:00",
    "lang": "en",
    "t": "Rockstar Will Prevent Someone to Leak GTA 6 Ending or Other Major Spoilers",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -517,7 +509,7 @@
    "d": "2026-11-04T14:30:23+00:00",
    "lang": "en",
    "t": "GTA 6 Will Have Enhancements on PlayStation 5 Pro, Leak Reveals",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -526,7 +518,7 @@
    "d": "2026-11-04T14:30:23+00:00",
    "lang": "fr",
    "t": "Une fuite confirme des améliorations pour GTA 6 sur la PlayStation 5 Pro",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -678,7 +670,7 @@
    "d": "2026-10-30T12:39:43+00:00",
    "lang": "fr",
    "t": "Les copies de GTA 6 fournies aux médias n'ont quand même pas de filigranes",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -765,11 +757,7 @@
    "d": "2026-10-22T15:12:54+00:00",
    "lang": "en",
    "t": "Cyberleek Shares GTA 6 Leak Of Naked Lucia",
-   "u": "https://www.imdb.com/news/ni66062173/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -817,7 +805,7 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
    "t": "Le token CYBERLEEK chute de 40 % alors que le leaker de GTA 6 lance de nouvelles menaces",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
