@@ -1,6 +1,6 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-06T07:15:00+01:00",
+  "updated_at": "2026-11-06T10:00:00+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
     {
@@ -1716,6 +1716,11 @@
       "at": "2026-11-06T07:15:00+01:00",
       "label": "Passage 60 · 3 sujets X",
       "summary": "Trois sujets X ajoutés depuis data/x_alertes.json (relevé 06/11 06:14 UTC) : marketing en villes (23 858 vues), immeuble de Los Angeles (22 045), 2025 vs 2026 (30 363). Deux autres posts sous le seuil (11 202 et 43 vues). Pas de navigateur ; aucun post X ni message à un tiers."
+    },
+    {
+      "at": "2026-11-06T10:00:00+01:00",
+      "label": "Passage 61 · rien retenu",
+      "summary": "data/x_alertes.json (relevé 06/11 08:16 UTC) : 3 nouveaux posts sous le seuil de 20 000 vues et sans reprise par un second compte (17 350, 7 958, 4 905 vues) ; un 4e à 50 vues. Les 3 autres posts sont déjà au Buzz (marketing en villes, immeuble de Los Angeles, 2025 vs 2026). Pas de navigateur ; aucun post X ni message à un tiers."
     }
   ],
   "coverage": {
