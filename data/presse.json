@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-06T04:32:01+00:00",
+ "maj": "2026-11-06T04:52:13+00:00",
  "articles": [
   {
    "gn": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9pOWNGRkJoZ19JR1VMdzBhQVAyMkl3SkdtYUZXNXgyX2RTcmNNZkdWbV9ZNzIyVjgzZUU4STEzNHhrVWZkWTNHcU1fTlVzbndya2ZwR0lpVXRIRHR0TUNGb1BJRWZoN0N3U0I0Mnc3NldkanAtSkU4cnNR?oc=5",
@@ -67,7 +67,7 @@
    "d": "2026-11-06T02:26:19+00:00",
    "lang": "en",
    "t": "Take-Two CEO calls GTA 6 piracy “a fact of life”",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYy1lN1UzU1pvcnpwR2h5MDFpX0gyZVBNaGFNczZvX3NoTWtiMlZMQkc4aDhHSzZxaGdvZHpndzVTVnl1ZkdSVl9OLW53M2FBWmE1MlJSUVlCSWotalBPR1lGSEdQQ1JwTXdGT0dqdmpYSkF2aDVlM1Y1cnlMUkE4SUVsOGtKT0pab21MV0FVVUk2cXNlUG9wZHU0RTJ4WTByZVBLUHRuT3JuQQ?oc=5",
@@ -147,7 +147,7 @@
    "d": "2026-11-05T23:31:38+00:00",
    "lang": "en",
    "t": "Nearly 100 Gamers Say They’d Give Up Their Pets to Play ‘GTA 6’ a Week Early",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVG03c2Q3RUEyTXVydFdweElRdWNyOEJKX2JFM3FReWJmM05aVjE3RWYzb1ROWTlUdnMzNmR2bF9tMUJEVWxPak11a1U4ZHB2TFZPRU5ZVVZ4S05UQ0tEVi1LY1VrN3I5WE9wb3hJNDh3MDN0T1M4aFBaTWZnZVQ2Y25WN1lCbFNfZ2lQYXpySQ?oc=5",
@@ -155,15 +155,7 @@
    "d": "2026-11-05T23:07:32+00:00",
    "lang": "en",
    "t": "We Analyzed Every Official GTA 6 Screenshot Continued",
-   "erreur": "HTTP Error 403: Forbidden"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVWdKdERSM2plckQ4NFhFdjBEYW1EM2lhQXY2ZGlyTGxHYjZ4N21zcUx4TmJzQkJUTW5Hd1BDOVpzU1FJVE9uZFpEek9QVjhMU3FBSlNnNXhVclRvcUZpZlplRXpJRVpUMTJEdk9jWl9SQks0OGh1UnE4blU3SFcxZmxZUHlDWGwtWmdXXzdKUHQzMzg?oc=5",
-   "s": "Pèse sur start",
-   "d": "2026-11-05T23:00:31+00:00",
-   "lang": "fr",
-   "t": "GTA 6: Rockstar dévoile 38 nouvelles images du jeu",
-   "erreur": "HTTP Error 307: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error messag"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQnlnRUx6UE51dldjMlNqZ2ZzSXBZS01YOEdYTERzcmNRV3VyMk51clNNS3NsaGJaUzVZcVBLUjhyUDVsaXVtS21vN01uZl84UEtfMWd1cXM4UC1BOUFGSk0tTndzeEEza1l0Z2hLRjUzVmQ5X092OUxvajR2UWM3ZTAxd05iZDFzR255Qw?oc=5",
@@ -171,7 +163,7 @@
    "d": "2026-11-05T23:00:31+00:00",
    "lang": "fr",
    "t": "GTA 6: Rockstar dévoile 38 nouvelles images du jeu",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "HTTP Error 429: Too Many Requests"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMickFVX3lxTE9meUNfdGFRMThQMnBUa1dfMlNwOUpqcDA1YmxzNEg5cEthZmk3YzlTUVo0S3Qtd0FacmYwdk1DTUJiVDNPcDgyS001dXdIMGtEMnNha0tWbnVTei1BWGJsaHpRMmVFdkhTbUhpcUVuc3pPdw?oc=5",
@@ -311,12 +303,8 @@
    "s": "JVFrance",
    "d": "2026-11-05T18:07:51+00:00",
    "lang": "fr",
-   "t": "GTA 6 : À quelle heure le jeu sera disponible en France le 19 novembre ? - JVFrance",
-   "u": "https://www.jvfrance.com/gta-6-a-quelle-heure-le-jeu-sera-disponible-en-france-le-19-novembre-285668/",
-   "img": "https://www.jvfrance.com/wp-content/uploads/2026/06/GTA_6_Jason_Lucia_Heros.jpg",
-   "chapeau": "Découvrez à quelle heure GTA VI sera disponible dans le monde entier et surtout à quelle heure les joueurs français pourront explorer Vice City le 19 novembre 2026.",
-   "txt": "",
-   "pub": "2026-11-05T18:05:12+00:00"
+   "t": "GTA 6 : À quelle heure le jeu sera disponible en France le 19 novembre ?",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSUIxaTlpVmxsMS02NUhOVkttVFZ1b1NPMjZ2V1VsUlI4MEc2MFRtNDM3c1NzQ1Y4VUpZS2RncTBZRzF4SzVWdHowVW0xS09Fd1EtNjVzT0xhSE1xcEMtbjd0QVRCS09DaGY1d3dXTmdFWlVUVXRzWXRyY3ByMVE1X0c5WFRqQzZFX1E?oc=5",
@@ -324,7 +312,7 @@
    "d": "2026-11-05T18:04:15+00:00",
    "lang": "fr",
    "t": "Rockstar dévoile 39 captures d'écran de GTA 6 avant la sortie",
-   "erreur": "Remote end closed connection without response"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdl80VGM2RlQ3dDYzU21GWEtYb29DQXphUWdCSURZeXdfSHNjRDh6ejVGZnp0QXVwWkhwNjlZZWdOalBWcU9HRWg1M2VoeE5CRFZqUVl2akdYVEFJbG8zYTVWVVE1NXVpMkZZRDRSdEZSbFk4a3FLQ1BOYTdiV1oyTFQ1T0syd2NjVDdrNXFibFgwSEdzR080V0k5ZGNxT2FocVBqMnZLLUc2dElVQ282cmdEd2QtNzBHVFI4dGJiUWROQlVE?oc=5",
@@ -339,12 +327,20 @@
    "pub": "2026-11-05T19:01:00+01:00"
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5kajJtbERuVDhMdVhuaFdRaUFJN181anFOdmd6b0l1S0FkejlzWTJLejNSUmhIemQ0d1psUzBOd293aWRvSEY1WTdqMEFTX21BbmdxZGhjczc4U3dRUWlVZ1BhQmJDUWtpeDNlVldIdTVzMzUtVTFn?oc=5",
+   "s": "IGN France",
+   "d": "2026-11-05T17:53:06+00:00",
+   "lang": "fr",
+   "t": "Galerie d'images: GTA 6 : nouvelles images juste avant le lancement du jeu",
+   "erreur": "429 : passage suivant"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVU9ENklmXzZSa2NULV90TC10OHRmaU5rZGtPQUxTR25OZURsM005RG5uU1k1SjU2WE54UXNBM2lhMEJkVVJmNDZkQ3VXNnhLcWI5ZTZUWXJjTmFxemdYTUdDdnZxemI2MUhYZUg0TG0tSEJoWGZWQm1rVG9qd0hQTURyMXdLTU1fZmpV?oc=5",
    "s": "Pasquale Pillitteri",
    "d": "2026-11-05T17:52:13+00:00",
    "lang": "en",
    "t": "Rockstar releases 39 new GTA 6 screenshots two weeks before launch",
-   "erreur": "Remote end closed connection without response",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -456,7 +452,7 @@
    "d": "2026-11-04T16:59:48+00:00",
    "lang": "en",
    "t": "Rockstar Will Prevent Someone to Leak GTA 6 Ending or Other Major Spoilers",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -504,7 +500,7 @@
    "d": "2026-11-04T14:30:23+00:00",
    "lang": "en",
    "t": "GTA 6 Will Have Enhancements on PlayStation 5 Pro, Leak Reveals",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -513,7 +509,7 @@
    "d": "2026-11-04T14:30:23+00:00",
    "lang": "fr",
    "t": "Une fuite confirme des améliorations pour GTA 6 sur la PlayStation 5 Pro",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -678,7 +674,7 @@
    "d": "2026-10-30T12:39:43+00:00",
    "lang": "fr",
    "t": "Les copies de GTA 6 fournies aux médias n'ont quand même pas de filigranes",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -765,11 +761,7 @@
    "d": "2026-10-22T15:12:54+00:00",
    "lang": "en",
    "t": "Cyberleek Shares GTA 6 Leak Of Naked Lucia",
-   "u": "https://www.imdb.com/news/ni66062173/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -817,7 +809,7 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
    "t": "Le token CYBERLEEK chute de 40 % alors que le leaker de GTA 6 lance de nouvelles menaces",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
