@@ -1,8 +1,46 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-06T22:12:52+01:00",
+  "updated_at": "2026-11-07T00:10:00+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-xbox-taille-209-gib-base-microsoft",
+      "title": "GTA 6 sur Xbox Series X|S : une taille de 209,86 GiB apparaît chez Microsoft",
+      "summary": "@gtasix_ affirme que la fiche de GTA 6 dans la base de Microsoft indique 209,86 GiB (225,34 Go) sur Xbox Series X|S, d’après @Cokymoky69. @gta6hubfr signale de son côté que Xbox a mis à jour la taille approximative sur son site. Chiffre non confirmé par Rockstar, susceptible de changer.",
+      "url": "https://x.com/gtasix_/status/2118818206202646609",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rapporté",
+      "published_at": "2026-11-06T21:30:00.000Z",
+      "checked_at": "2026-11-07T00:10:00+01:00",
+      "evidence": "Vues relevées le 2026-11-06 dans data/x_alertes.json : 8 936 vues chez @gtasix_, 3 416 chez @gta6hubfr (2118817503497584682) qui reprend la mise à jour. Base Microsoft non consultée directement ; chiffre attribué aux comptes.",
+      "visual": "TAILLE XBOX",
+      "image": "https://pbs.twimg.com/media/HWeMB0KXsAAyxPI?format=jpg&name=small",
+      "image_alt": "Capture de la fiche Xbox de GTA 6 avec la taille de téléchargement relayée sur X",
+      "image_credit": "@gtasix_ sur X",
+      "embed_type": "x",
+      "post_text": "GTA 6’s download size on Xbox Series X|S has been listed as 209.86 GiB (225.34 GB) in Microsoft’s database.",
+      "cta": "Ouvrir la publication sur X"
+    },
+    {
+      "id": "x-dualsense-gta6-prelevement-13-novembre",
+      "title": "GTA 6 : manette DualSense, prélèvement le 13 novembre et livraison le 19",
+      "summary": "@gta6hubfr montre un e-mail PlayStation annonçant, pour les précommandes de la DualSense GTA VI, un prélèvement à partir du 13 novembre et une livraison prévue le 19 novembre. @RockstarNewsFRA relaie la même information. L’e-mail n’a pas été vu directement.",
+      "url": "https://x.com/gta6hubfr/status/2118827535903416827",
+      "platform": "X",
+      "author": "@gta6hubfr",
+      "status": "Rapporté",
+      "published_at": "2026-11-06T22:07:05.000Z",
+      "checked_at": "2026-11-07T00:10:00+01:00",
+      "evidence": "Vues relevées le 2026-11-06 dans data/x_alertes.json : 438 vues chez @gta6hubfr, 633 chez @RockstarNewsFRA (2118826714914857145). Sous le seuil de vues mais repris par deux comptes ; e-mail non recoupé.",
+      "visual": "MANETTE DUALSENSE",
+      "image": "https://pbs.twimg.com/media/HWeVy62XAAE9JO2?format=jpg&name=small",
+      "image_alt": "E-mail PlayStation sur la précommande de la DualSense GTA VI relayé sur X",
+      "image_credit": "@gta6hubfr sur X",
+      "embed_type": "x",
+      "post_text": "Du nouveau pour les précommandes de la DualSense GTA VI",
+      "cta": "Ouvrir la publication sur X"
+    },
     {
       "id": "x-voitures-gta6-comparaisons-realite",
       "title": "GTA 6 : les voitures du jeu et leurs répliques réelles circulent sur X",
@@ -1886,6 +1924,11 @@
       "at": "2026-11-06T22:12:52+01:00",
       "label": "Passage 67 · voitures du jeu et réalité",
       "summary": "Relevés X Mac/serveur concordants du 2026-11-06T20:15:16+00:00. Comparaisons de voitures ajoutées : montage à 25 030 vues et reprises par trois comptes, vrai média HTTP 200 contrôlé visuellement. Origine Hypebeast/West Coast Customs et nouveauté attribuées explicitement sans confirmation directe ; publications apparentées regroupées. Braquage sous le seuil sans seconde reprise ; compte à rebours et préchargement déjà couverts. Recherches X/Instagram/TikTok/Rockstar effectuées : originaux X et Instagram en cache absent, profil Instagram 429, TikTok et Newswire sans texte exploitable ; index Rockstar sans autre nouveauté admissible. Aucun post X ni message à un tiers."
+    },
+    {
+      "at": "2026-11-07T00:10:00+01:00",
+      "label": "Passage 68 · taille Xbox et manette DualSense",
+      "summary": "x_alertes.json du 2026-11-06T22:18Z. Ajoutés : taille Xbox 209,86 GiB (8 936 vues, repris par gta6hubfr) et e-mail DualSense 13/19 novembre (2 comptes). Écartés : Travis Scott (un seul compte), piratage Take-Two, quête Discord (sous seuil, un compte). Aucun post X ni message à un tiers."
     }
   ],
   "coverage": {
