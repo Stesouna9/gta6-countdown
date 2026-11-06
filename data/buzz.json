@@ -1,8 +1,65 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-06T00:10:00+01:00",
+  "updated_at": "2026-11-06T07:15:00+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-marketing-gta6-villes-monde",
+      "title": "GTA 6 : la campagne d’affichage démarre dans de nouvelles villes dont Paris et Londres",
+      "summary": "@GTAVI_Countdown liste de nouvelles villes où le marketing de GTA 6 serait apparu : Hambourg, Francfort, Leipzig, Buenos Aires, Londres, Paris, Singapour, Prague, Taipei, Lisbonne, Santiago, entre autres. Le texte du post est tronqué dans le relevé et aucune photo d’affichage n’a été vérifiée ici : la liste reste le récit du compte.",
+      "url": "https://x.com/GTAVI_Countdown/status/2118549348694798387",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-06T03:41:40.000Z",
+      "checked_at": "2026-11-06T07:15:00+01:00",
+      "evidence": "Vues relevées le 2026-11-06T06:14:12+00:00 dans data/x_alertes.json : @GTAVI_Countdown 23858 vues, 111 reposts, 883 likes. Texte tronqué ; aucun autre compte relevé n'a repris le sujet ; affichages non vérifiés indépendamment.",
+      "visual": "MARKETING VILLES",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2118547944362110976/img/j5GuIRqIlA48Gz7-.jpg",
+      "image_alt": "Vignette de la vidéo du post sur le marketing GTA 6 dans plusieurs villes",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "post_text": "The GTA 6 marketing has kicked off in more cities around the world",
+      "cta": "Ouvrir la publication sur X"
+    },
+    {
+      "id": "x-meme-batiment-los-angeles-gta5-rdr2-gta6",
+      "title": "GTA 6 : le même immeuble de Los Angeles dans GTA 5, RDR2 et GTA 6",
+      "summary": "@GTAVI_Countdown met en regard un même bâtiment de Los Angeles tel qu’il apparaît dans GTA 5 (2013), Red Dead Redemption 2 (2018) et GTA 6 (2026). Une comparaison de fan qui joue sur la continuité des clins d’œil de Rockstar, sans annonce officielle.",
+      "url": "https://x.com/GTAVI_Countdown/status/2118509741689196572",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Création de fan",
+      "published_at": "2026-11-06T01:04:17.000Z",
+      "checked_at": "2026-11-06T07:15:00+01:00",
+      "evidence": "Vues relevées le 2026-11-06T06:14:12+00:00 dans data/x_alertes.json : @GTAVI_Countdown 22045 vues, 101 reposts, 1236 likes. Image du post uniquement ; aucun autre compte relevé.",
+      "visual": "MÊME IMMEUBLE",
+      "image": "https://pbs.twimg.com/media/HWZ1TYtXYAEG9Ay?format=jpg&name=small",
+      "image_alt": "Comparaison d’un immeuble de Los Angeles dans GTA 5, RDR2 et GTA 6",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "post_text": "Different era, same building (Los Angeles).",
+      "cta": "Ouvrir la publication sur X"
+    },
+    {
+      "id": "x-gtasix-2025-vs-2026",
+      "title": "GTA 6 : comparaison image 2025 contre 2026 qui circule sur X",
+      "summary": "@gtasix_ publie une comparaison « GTA 6 en 2025 contre 2026 » : le post fait 30 363 vues. Le texte se limite à la légende ; le visuel est une comparaison de compte fan, sans commentaire de Rockstar.",
+      "url": "https://x.com/gtasix_/status/2118493571149942956",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rumeur",
+      "published_at": "2026-11-06T00:00:01.000Z",
+      "checked_at": "2026-11-06T07:15:00+01:00",
+      "evidence": "Vues relevées le 2026-11-06T06:14:12+00:00 dans data/x_alertes.json : @gtasix_ 30363 vues, 66 reposts, 1936 likes. Légende seule ; aucun autre compte relevé.",
+      "visual": "2025 VS 2026",
+      "image": "https://pbs.twimg.com/media/HWZVzoXW8AAru5q?format=jpg&name=small",
+      "image_alt": "Comparaison GTA 6 2025 contre 2026 publiée par @gtasix_",
+      "image_credit": "@gtasix_ sur X",
+      "embed_type": "x",
+      "post_text": "GTA 6 in 2025 vs 2026:",
+      "cta": "Ouvrir la publication sur X"
+    },
     {
       "id": "x-zelnick-business-insider-interview",
       "title": "Strauss Zelnick : nouvel entretien Business Insider sur GTA 6 résumé sur X",
@@ -1654,6 +1711,11 @@
       "at": "2026-11-06T00:10:00+01:00",
       "label": "Passage 59 · Entretien Zelnick / Business Insider",
       "summary": "Un sujet X nouveau ajouté (66 221 vues, relevé du 05/11 à 23:05 UTC). Second post du relevé (75 vues, galerie Jason) sous le seuil et déjà couvert par la galerie Rockstar. Pas de navigateur ; aucun post X ni message à un tiers."
+    },
+    {
+      "at": "2026-11-06T07:15:00+01:00",
+      "label": "Passage 60 · 3 sujets X",
+      "summary": "Trois sujets X ajoutés depuis data/x_alertes.json (relevé 06/11 06:14 UTC) : marketing en villes (23 858 vues), immeuble de Los Angeles (22 045), 2025 vs 2026 (30 363). Deux autres posts sous le seuil (11 202 et 43 vues). Pas de navigateur ; aucun post X ni message à un tiers."
     }
   ],
   "coverage": {
