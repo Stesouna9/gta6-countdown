@@ -1,8 +1,27 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-06T20:12:41+01:00",
+  "updated_at": "2026-11-06T22:12:52+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-voitures-gta6-comparaisons-realite",
+      "title": "GTA 6 : les voitures du jeu et leurs répliques réelles circulent sur X",
+      "summary": "@gtasix_ rassemble ce qu’il présente comme douze nouvelles images de voitures de GTA 6. @RockstarNewsFRA et @gta6hubfr relaient aussi des comparaisons avec des voitures réelles ; ce dernier les attribue à Hypebeast et West Coast Customs. L’origine et le caractère inédit de chaque capture restent à confirmer.",
+      "url": "https://x.com/gtasix_/status/2118791297049763952",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rapporté",
+      "published_at": "2026-11-06T19:43:05.000Z",
+      "checked_at": "2026-11-06T22:12:52+01:00",
+      "evidence": "Relevés Mac/serveur data/x_alertes.json concordants du 2026-11-06T20:15:16+00:00 : 25 030 vues chez @gtasix_ (2118791297049763952), comparaisons également relayées par @RockstarNewsFRA (2118788511608492336, 8 065 vues) et @gta6hubfr (2118797749940297944, 302 vues). Originaux X et Instagram DfaUKICiQ_C : cache absent. Attribution Hypebeast/West Coast Customs observée dans le texte de @gta6hubfr, non recoupée directement. Miniature du montage HTTP 200 contrôlée visuellement : Progen Emerus orange. Le chiffre douze et la nouveauté sont les affirmations du compte.",
+      "visual": "VOITURES COMPARÉES",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2118791253135429633/img/FIQCi-tIbpeDK7Zc.jpg",
+      "image_alt": "Progen Emerus orange devant le front de mer dans le montage relayé sur X",
+      "image_credit": "@gtasix_ sur X",
+      "embed_type": "x",
+      "post_text": "All 12 new GTA 6 car screenshots in 4K:",
+      "cta": "Ouvrir la publication sur X"
+    },
     {
       "id": "x-miami-heat-vice-city-maillots",
       "title": "GTA 6 : les maillots Vice City du Miami Heat circulent sur X",
@@ -1862,6 +1881,11 @@
       "at": "2026-11-06T20:12:41+01:00",
       "label": "Passage 66 · contrôle sans nouveau sujet",
       "summary": "Relevés X Mac et serveur concordants du 2026-11-06T18:12:06+00:00. Aucun sujet nouveau admissible : maillots Miami Heat déjà couverts ; réaction supposée de Rockstar au dessin aérien (17 024 vues), sac Walmart (9 029), Air Force 1 (8 889) et propos Zelnick sur l’IA (3 383) sous le seuil et sans seconde reprise observée. Recherches publiques X/Instagram/TikTok/Rockstar effectuées ; original X refusé HTTP 403, Instagram HTTP 429, TikTok bloqué par robots ou sans texte exploitable, Newswire direct sans texte ; index Rockstar sans nouveauté admissible. Les 81 cartes et leurs vraies images sont conservées, images contrôlées HTTP 200. Aucun post X ni message à un tiers."
+    },
+    {
+      "at": "2026-11-06T22:12:52+01:00",
+      "label": "Passage 67 · voitures du jeu et réalité",
+      "summary": "Relevés X Mac/serveur concordants du 2026-11-06T20:15:16+00:00. Comparaisons de voitures ajoutées : montage à 25 030 vues et reprises par trois comptes, vrai média HTTP 200 contrôlé visuellement. Origine Hypebeast/West Coast Customs et nouveauté attribuées explicitement sans confirmation directe ; publications apparentées regroupées. Braquage sous le seuil sans seconde reprise ; compte à rebours et préchargement déjà couverts. Recherches X/Instagram/TikTok/Rockstar effectuées : originaux X et Instagram en cache absent, profil Instagram 429, TikTok et Newswire sans texte exploitable ; index Rockstar sans autre nouveauté admissible. Aucun post X ni message à un tiers."
     }
   ],
   "coverage": {
