@@ -1,8 +1,27 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-06T14:12:56+01:00",
+  "updated_at": "2026-11-06T16:12:53+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-skyline-gta6-gta5-comparaison",
+      "title": "GTA 6 et GTA 5 : une comparaison des panoramas urbains circule",
+      "summary": "@GTAVI_Countdown juxtapose deux vues urbaines au crépuscule, attribuées à GTA 6 et GTA 5. Le montage met en regard les immeubles et les éclairages des deux villes. Ces cadrages différents ne permettent pas de mesurer la taille des cartes ni leur densité réelle.",
+      "url": "https://x.com/GTAVI_Countdown/status/2118705031939490128",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Création de fan",
+      "published_at": "2026-11-06T14:00:17.000Z",
+      "checked_at": "2026-11-06T16:12:53+01:00",
+      "evidence": "Publication et 20 655 vues relevées le 2026-11-06T15:06:37+00:00 dans data/x_alertes.json ; copies Mac/serveur concordantes. Original X tenté : cache absent. Média téléchargé et contrôlé visuellement : deux panoramas avec logos GTA VI et GTA V. Le multiplicateur de taille avancé dans le post n'est pas recoupé et n'est pas repris comme fait.",
+      "visual": "PANORAMAS URBAINS",
+      "image": "https://pbs.twimg.com/media/HWcmwR1WcAAjGNL?format=jpg&name=small",
+      "image_alt": "Montage de deux panoramas urbains au crépuscule, GTA VI en haut et GTA V en bas",
+      "image_credit": "@GTAVI_Countdown sur X ; images Rockstar Games",
+      "embed_type": "x",
+      "post_text": "GTA 6 vs GTA 5 (skyline and density)\n\nRockstar previously stated that Vice City and its surrounding suburbs are 11x bigger than Los Santos and its surrounding areas.",
+      "cta": "Ouvrir la publication sur X"
+    },
     {
       "id": "x-ps5-versions-regionales-nz",
       "title": "GTA 6 sur PS5 : trois versions régionales signalées sur X",
@@ -1789,6 +1808,11 @@
       "at": "2026-11-06T14:12:56+01:00",
       "label": "Passage 63 · dessin aérien et versions PS5",
       "summary": "Relevés X Mac/serveur concordants du 2026-11-06T13:04:04+00:00. Deux sujets ajoutés : création de Pilot Picasso (37 752 vues) et versions régionales PS5 (deux comptes), vrais médias contrôlés. Bus Miami, affichage mondial, précommandes et entretiens déjà couverts ; autres sujets sous le seuil. Recherches X/Instagram/TikTok/Rockstar réalisées : originaux X en cache absent, Instagram 429, TikTok bloqué par robots ou sans texte, Newswire sans texte exploitable. Presse du dessin aérien indexée mais article NDTV inaccessible. Aucun post X ni message à un tiers."
+    },
+    {
+      "at": "2026-11-06T16:12:53+01:00",
+      "label": "Passage 64 · panoramas GTA 6 et GTA 5",
+      "summary": "Relevés X Mac/serveur concordants du 2026-11-06T15:06:37+00:00. Comparaison des panoramas ajoutée avec vrai média contrôlé (20 655 vues) ; affirmation de taille non recoupée écartée du résumé. Versions PS5, anniversaire du report et dessin aérien déjà couverts ; Spectrum, Kai Cenat et sondage sous le seuil, publication Rockstar sur GTA Online hors périmètre. Recherches publiques X/Instagram/TikTok/Rockstar effectuées ; original X cache absent, Newswire sans texte exploitable, profils Instagram/TikTok HTTP 200 via curl mais Instagram 429 via outil web et TikTok sans texte exploitable ; aucun nouveau post individuel vérifié. Aucun post X ni message à un tiers."
     }
   ],
   "coverage": {
