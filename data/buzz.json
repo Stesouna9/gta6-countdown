@@ -1,8 +1,28 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-06T10:00:00+01:00",
+  "updated_at": "2026-11-06T12:12:58+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-anniversaire-report-6-novembre-2025",
+      "title": "GTA 6 : les fans se souviennent du report annoncé un an plus tôt",
+      "summary": "@gtasix_ repartage le message de Rockstar du 6 novembre 2025, qui fixait la sortie au 19 novembre 2026. Ce rappel anniversaire compte 20 705 vues au relevé du 6 novembre. Le communiqué Take-Two de l’époque confirme cette date : il s’agit d’une rétrospective, sans nouvelle annonce de report.",
+      "url": "https://x.com/gtasix_/status/2118599261189243300",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rapporté",
+      "published_at": "2026-11-06T07:00:00.000Z",
+      "checked_at": "2026-11-06T12:12:58+01:00",
+      "evidence": "Vues relevées le 2026-11-06T11:00:36+00:00 dans data/x_alertes.json : 20 705 vues, 55 reposts et 759 likes. Copies Mac et serveur concordantes. Original X tenté via outil web : cache absent. Média du post téléchargé en HTTP 200 et contrôlé visuellement : capture datée du 06/11/2025. Communiqué officiel Take-Two du 6 novembre 2025 consulté et date du 19 novembre 2026 recoupée. Aucun nouveau report annoncé dans cette publication.",
+      "visual": "REPORT ANNIVERSAIRE",
+      "image": "https://pbs.twimg.com/media/HWbDnJxXwAAGww2?format=jpg&name=small",
+      "image_alt": "Capture du message Rockstar du 6 novembre 2025 annonçant la sortie de GTA VI au 19 novembre 2026",
+      "image_credit": "@gtasix_ sur X, message Rockstar Games",
+      "embed_type": "x",
+      "post_text": "Rockstar Games delayed GTA 6 for the second time exactly one year ago today, pushing its release from May 26 to November 19, 2026.",
+      "cta": "Ouvrir la publication sur X",
+      "corroboration": "https://www.take2games.com/ir/news/take-two-interactive-software-inc-reports-results-fiscal-3"
+    },
     {
       "id": "x-marketing-gta6-villes-monde",
       "title": "GTA 6 : la campagne d’affichage démarre dans de nouvelles villes dont Paris et Londres",
@@ -1721,6 +1741,11 @@
       "at": "2026-11-06T10:00:00+01:00",
       "label": "Passage 61 · rien retenu",
       "summary": "data/x_alertes.json (relevé 06/11 08:16 UTC) : 3 nouveaux posts sous le seuil de 20 000 vues et sans reprise par un second compte (17 350, 7 958, 4 905 vues) ; un 4e à 50 vues. Les 3 autres posts sont déjà au Buzz (marketing en villes, immeuble de Los Angeles, 2025 vs 2026). Pas de navigateur ; aucun post X ni message à un tiers."
+    },
+    {
+      "at": "2026-11-06T12:12:58+01:00",
+      "label": "Passage 62 · anniversaire du report",
+      "summary": "Relevés X Mac/serveur concordants du 2026-11-06T11:00:36+00:00. Rappel anniversaire du report ajouté (20 705 vues), image réelle contrôlée et communiqué Take-Two de 2025 consulté. Compte à rebours/préchargement, bus Miami, précommandes, Club Space et entretien Zelnick déjà couverts ; autres posts sous le seuil. Recherche X/Instagram/TikTok/Rockstar effectuée : originaux X en cache absent, Instagram 429, TikTok sans texte lisible, Newswire indexé sans nouveau sujet admissible et page directe sans texte. Aucun post X ni message à un tiers."
     }
   ],
   "coverage": {
