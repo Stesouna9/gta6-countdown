@@ -1,8 +1,46 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-06T12:12:58+01:00",
+  "updated_at": "2026-11-06T14:12:56+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-ps5-versions-regionales-nz",
+      "title": "GTA 6 sur PS5 : trois versions régionales signalées sur X",
+      "summary": "@gtasix_ relaie PlayStation Game Size, qui distingue des données mondiales, Nouvelle-Zélande/Australie et Japon. Le compte conseille de télécharger depuis le compte néo-zélandais pour éviter un second téléchargement. Cette indication communautaire ne constitue pas une confirmation de Sony ou Rockstar sur les horaires de déblocage.",
+      "url": "https://x.com/gtasix_/status/2118686155462103056",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rapporté",
+      "published_at": "2026-11-06T12:45:17.000Z",
+      "checked_at": "2026-11-06T14:12:56+01:00",
+      "evidence": "Relevé data/x_alertes.json du 2026-11-06T13:04:04+00:00 ; copies Mac/serveur concordantes. Original X tenté : cache absent. Média téléchargé HTTP 200 et contrôlé visuellement. 3 207 vues chez @gtasix_, 2 553 chez @PlaystationSize. Deux comptes reprennent le sujet, source citée : https://x.com/PlaystationSize/status/2118681222733852675 ; horaires et comportement technique non testés.",
+      "visual": "VERSIONS PS5",
+      "image": "https://pbs.twimg.com/media/HWcV09jW0AAbSLm?format=jpg&name=360x360",
+      "image_alt": "Visuel du post avec logo GTA VI et mention New Zealand Pre-load",
+      "image_credit": "@gtasix_ sur X",
+      "embed_type": "x",
+      "post_text": "GTA 6 has 3 separate regional versions on PS5:\n\n- Worldwide\n- New Zealand/Australia\n- Japan\n\nPlayers planning to access GTA 6 early through a New Zealand account should download that regional version to avoid having to download another 212 GB.\n\n(Via \n@PlaystationSize\n)",
+      "cta": "Ouvrir la publication sur X"
+    },
+    {
+      "id": "x-pilot-picasso-dessin-aerien",
+      "title": "GTA 6 : Pilot Picasso dessine un hommage avec son trajet aérien",
+      "summary": "@GTAVI_Countdown partage un hommage de Pilot Picasso : la trace de son vol compose une illustration GTA VI sur une carte Flightradar24, avec palmiers, voiture et alligator. Le compte évoque plus de sept heures de vol. La publication atteint 37 752 vues au relevé ; il s’agit d’une création de fan.",
+      "url": "https://x.com/GTAVI_Countdown/status/2118662125933785325",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Création de fan",
+      "published_at": "2026-11-06T11:09:48.000Z",
+      "checked_at": "2026-11-06T14:12:56+01:00",
+      "evidence": "Relevé data/x_alertes.json du 2026-11-06T13:04:04+00:00 ; copies Mac/serveur concordantes. Original X tenté : cache absent. Média téléchargé HTTP 200 et contrôlé visuellement. 37 752 vues, 130 reposts et 1 810 likes. Image observée : trace de vol GTA VI sur Flightradar24. Résultats de presse du jour concordants, dont NDTV, mais article NDTV non accessible ; aucune durée exacte vérifiée indépendamment.",
+      "visual": "DESSIN AÉRIEN",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2118517494600056832/img/P2DgeA3rGg4pcqk7.jpg",
+      "image_alt": "Trace aérienne Flightradar24 dessinant un hommage GTA VI",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "post_text": "A pilot named Picasso spent more than 7 hours drawing a GTA 6 artwork in the sky using his flight path.",
+      "cta": "Ouvrir la publication sur X"
+    },
     {
       "id": "x-anniversaire-report-6-novembre-2025",
       "title": "GTA 6 : les fans se souviennent du report annoncé un an plus tôt",
@@ -1746,6 +1784,11 @@
       "at": "2026-11-06T12:12:58+01:00",
       "label": "Passage 62 · anniversaire du report",
       "summary": "Relevés X Mac/serveur concordants du 2026-11-06T11:00:36+00:00. Rappel anniversaire du report ajouté (20 705 vues), image réelle contrôlée et communiqué Take-Two de 2025 consulté. Compte à rebours/préchargement, bus Miami, précommandes, Club Space et entretien Zelnick déjà couverts ; autres posts sous le seuil. Recherche X/Instagram/TikTok/Rockstar effectuée : originaux X en cache absent, Instagram 429, TikTok sans texte lisible, Newswire indexé sans nouveau sujet admissible et page directe sans texte. Aucun post X ni message à un tiers."
+    },
+    {
+      "at": "2026-11-06T14:12:56+01:00",
+      "label": "Passage 63 · dessin aérien et versions PS5",
+      "summary": "Relevés X Mac/serveur concordants du 2026-11-06T13:04:04+00:00. Deux sujets ajoutés : création de Pilot Picasso (37 752 vues) et versions régionales PS5 (deux comptes), vrais médias contrôlés. Bus Miami, affichage mondial, précommandes et entretiens déjà couverts ; autres sujets sous le seuil. Recherches X/Instagram/TikTok/Rockstar réalisées : originaux X en cache absent, Instagram 429, TikTok bloqué par robots ou sans texte, Newswire sans texte exploitable. Presse du dessin aérien indexée mais article NDTV inaccessible. Aucun post X ni message à un tiers."
     }
   ],
   "coverage": {
