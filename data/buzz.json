@@ -1,8 +1,47 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-06T16:12:53+01:00",
+  "updated_at": "2026-11-06T18:13:06+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-miami-heat-vice-city-maillots",
+      "title": "GTA 6 : les maillots Vice City du Miami Heat circulent sur X",
+      "summary": "@gtasix_ et @GTAlphaintel relaient des maillots Vice City associant Miami Heat, Nike, Cactus Jack et Rockstar. La page du Miami Heat confirme leur vente le 18 novembre lors de la soirée dédiée.",
+      "url": "https://x.com/gtasix_/status/2118728269029597398",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rapporté",
+      "published_at": "2026-11-06T15:32:38.000Z",
+      "checked_at": "2026-11-06T18:13:06+01:00",
+      "evidence": "Relevé serveur data/x_alertes.json du 2026-11-06T16:08:25+00:00 ; relevé Mac du 2026-11-06T17:10:22+00:00 vide. 3355 vues chez @GTAlphaintel, 6402 chez @gtasix_. Page officielle Miami Heat consultée ; date de vente recoupée. Originaux X : cache absent. Image refusée en lecture Python (403), téléchargée via curl HTTP 200 et contrôlée visuellement.",
+      "visual": "MAILLOTS VICE CITY",
+      "image": "https://pbs.twimg.com/media/HWc8IMpX0AA7oDD?format=jpg&name=small",
+      "image_alt": "Deux maillots noirs Miami Heat et Vice City sur un fond rose",
+      "image_credit": "@gtasix_ sur X",
+      "embed_type": "x",
+      "post_text": "Rockstar Games has teamed up with Miami Heat, Cactus Jack and Nike to unveil new GTA 6-inspired jerseys.\n\nAvailable November 18 in limited quantities, one day before GTA 6 launches.",
+      "cta": "Ouvrir la publication sur X",
+      "corroboration": "https://www.nba.com/heat/uniforms/2627-heat-vice-city-uniform-collection"
+    },
+    {
+      "id": "x-kai-cenat-marathon-decor",
+      "title": "GTA 6 : le décor du marathon de Kai Cenat fait réagir",
+      "summary": "@GTAlphaintel présente le décor de Kai Cenat pour un marathon des précédents GTA avant GTA VI. @GTAVI_Countdown relaie aussi ses préparatifs. Les deux comptes évoquent un budget de plusieurs centaines de milliers de dollars, sans justificatif consulté : ce montant reste une affirmation des publications.",
+      "url": "https://x.com/GTAlphaintel/status/2118689872563274090",
+      "platform": "X",
+      "author": "@GTAlphaintel",
+      "status": "Rapporté",
+      "published_at": "2026-11-06T13:00:03.000Z",
+      "checked_at": "2026-11-06T18:13:06+01:00",
+      "evidence": "Relevé serveur data/x_alertes.json du 2026-11-06T16:08:25+00:00 ; relevé Mac du 2026-11-06T17:10:22+00:00 vide. 18770 vues chez @GTAlphaintel et 18497 chez @GTAVI_Countdown. Budget non vérifié indépendamment ; récit Vanoss et contact Rockstar non repris car source tronquée. Originaux X : cache absent. Image refusée en lecture Python (403), téléchargée via curl HTTP 200 et contrôlée visuellement.",
+      "visual": "MARATHON GTA",
+      "image": "https://pbs.twimg.com/media/HWcSo1gaQAAGuDZ?format=jpg&name=360x360",
+      "image_alt": "Kai Cenat dans un décor nocturne avec palmiers et éclairages roses",
+      "image_credit": "@GTAlphaintel sur X",
+      "embed_type": "x",
+      "post_text": "Kai Cenat has revealed his $450,000 GTA marathon setup \n\nHe plans to stream GTA III, Vice City, San Andreas GTA IV, and GTA V ahead of GTA VI’s launch",
+      "cta": "Ouvrir la publication sur X"
+    },
     {
       "id": "x-skyline-gta6-gta5-comparaison",
       "title": "GTA 6 et GTA 5 : une comparaison des panoramas urbains circule",
@@ -1813,6 +1852,11 @@
       "at": "2026-11-06T16:12:53+01:00",
       "label": "Passage 64 · panoramas GTA 6 et GTA 5",
       "summary": "Relevés X Mac/serveur concordants du 2026-11-06T15:06:37+00:00. Comparaison des panoramas ajoutée avec vrai média contrôlé (20 655 vues) ; affirmation de taille non recoupée écartée du résumé. Versions PS5, anniversaire du report et dessin aérien déjà couverts ; Spectrum, Kai Cenat et sondage sous le seuil, publication Rockstar sur GTA Online hors périmètre. Recherches publiques X/Instagram/TikTok/Rockstar effectuées ; original X cache absent, Newswire sans texte exploitable, profils Instagram/TikTok HTTP 200 via curl mais Instagram 429 via outil web et TikTok sans texte exploitable ; aucun nouveau post individuel vérifié. Aucun post X ni message à un tiers."
+    },
+    {
+      "at": "2026-11-06T18:13:06+01:00",
+      "label": "Passage 65 · Miami Heat et marathon Kai Cenat",
+      "summary": "Deux sujets repris par plusieurs comptes ajoutés avec vrais médias contrôlés : maillots Miami Heat, date recoupée sur la page officielle NBA ; décor du marathon Kai Cenat, budget non vérifié signalé. Relevé Mac récent vide, relevé serveur du 2026-11-06T16:08:25+00:00 exploité explicitement. Panoramas, versions PS5 et dessin aérien déjà couverts ; lampe et veste sous le seuil. Recherches X/Instagram/TikTok/Rockstar effectuées : X cache absent, Instagram 429, TikTok bloqué par robots, Newswire direct sans texte ; index Rockstar sans nouveauté admissible. Aucun post X ni message à un tiers."
     }
   ],
   "coverage": {
