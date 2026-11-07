@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-07T22:30:50+00:00",
+ "maj": "2026-11-07T22:51:39+00:00",
  "articles": [
   {
    "gn": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNV3gtbHo2YmVJWTFXWDFndXV5WUswOFNhRjBEUDhQampmLXhvSTBucVhYZlVWZzFVTDlOdGRXWDVCTEk0dWFJUm13Q2tjQS1tZWdRLUZOODdEY3dfM2ttakZvazhXU29rQ3pRTWlLWjJ4YS0zMWU4NnBVdVIwMXpYb3RoREJCeGJRSnJ3QUlPSHpQQ3VQSndzQno4Y3o4WFVuaGZNUHlDMFEzZFkyN2FEbVR5MDdWd2dmVGV6enFLZWNNbnhBT2pXQ3dqRUNjUS1Mclc2RDhYN01wTzdnUFE5bk5BTlZHcFQwQ1RZeTVscjhBbkNrRVlPNWkyTmlKUmd5UFNfVzVPZFFaQU9aWVdrMzBR?oc=5",
@@ -7,7 +7,7 @@
    "d": "2026-11-07T21:05:05+00:00",
    "lang": "fr",
    "t": "Numéro 1 des ventes avant GTA 6, la PS5 Slim 1 TO la moins chère du web est sur Amazon ce samedi",
-   "erreur": "HTTP Error 429: Too Many Requests"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOUlHVkdHWmVzSHIwZnRsVVgwa3B4UTNlSFFUYWhRVF9iNHE3OGdKMC10bUN4RFhaUXQ5MUJVTlM0M1dOS2Z3VmcybkE1ajRXYk5pSXp1Vi1DN3pUY0RlVlVWRTl6TXdQOGJ2VjV2SERDZ0o1cjY3UjdPSGQ1UkdzVlZEOUZlMXNnZW1ZTzFxYWs0WU42cGxjTEdqNkJ2eFk?oc=5",
@@ -15,7 +15,7 @@
    "d": "2026-11-07T20:57:17+00:00",
    "lang": "fr",
    "t": "Polymarket rapporte que GTA 6 remportera largement le prix du « Jeu de l'année » aux Game Awards 2026",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdEZZcnhuRXJvdkFIR0RiSnEweTJ0UXlNd0U2VnNiYlVMVXpsWkhYZFFYTDA5Wk16VlpCSDYxVWxsV3BSWHZzbXl3UzdQRjhiWWZ4WV90cUppM2FCd3hYbzFESjNCamc1SkhFb1g2NmNUWXJ6TjBMMFFHS1BTOXVFa1lIRXl4NDE4ZUJ5ZC1hQkVwbmk3STR0dm5DMWxzOWktR29jYV8wNnJ2bGNWczVORzFKSXZVTmM?oc=5",
@@ -42,14 +42,6 @@
    "pub": ""
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZVpzdnVkUkJ5TUVrallpdFpsVHN0bDVnTnJQNHhsc3JROURjMjFWWXBzWmZDVUZkZ2NxTHdfRGNtdjlyTFNHT21zRWhSeGxOS2lSQkIwX2dvQmJoZzV2SUpaSHlzQkNlX1NPVDFxOXFoMlowN2l5NkhWRWp4T0FLd3c5ZzdIaW9kU0VuMDhjMXRNWHhPSjZtQ3R4VVVSQ2Z0VS1JVURQak1PZlVnZVBGcjN1WjY?oc=5",
-   "s": "La Crème Du Gaming",
-   "d": "2026-11-07T20:30:51+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : une mauvaise surprise se confirme pour les joueurs",
-   "erreur": "429 : passage suivant"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOVgwN05XUWx1TnZpUUs4NmRtRlRaZmpFdHVnTUtGbVRqMDJXMkZwY0lMZkd6S3hVOTBJMVRQMm16Y21GcVkwMXFJREViTHJfZWpRS2x6SU1KZGRjSmZCTExmUkdYcHROUmdKcVZEdWNYY1AtRXZBMlVYQnQxQkRxTUo0bjVDbFd0UndUbFZjbjB1T1FVSlJRbE54ZlZxNUVPMktLSE1RTWNlVS1D?oc=5",
    "s": "Kotaku",
    "d": "2026-11-07T20:21:25+00:00",
@@ -67,7 +59,7 @@
    "d": "2026-11-07T19:56:24+00:00",
    "lang": "en",
    "t": "Kodak Black Will Appear in GTA 6 as an NPC in Vice City",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9TdWcyUl91anZBMVktbEZuc3JNWXBfVTJlemhiZU9JLTAydWJtWXY0YnplZEJNVGp0Y2RFZzFmV25HLWIwVURud2pyeUpENVBNN2x2ZWVjYTQ5MzhBWmhXakpIWE5iTVM0SDM3Vy14aXAzVmxtYlE?oc=5",
@@ -136,7 +128,11 @@
    "d": "2026-11-07T19:08:19+00:00",
    "lang": "fr",
    "t": "GTA 6 sort le 19 novembre : 79,99 €, préchargement le 10 et faux sites",
-   "erreur": "429 : passage suivant"
+   "u": "https://www.mediaterranee.com/0762026-gta-6-sort-le-19-novembre-7999-eu-prechargement-le-10-et-faux-sites.html",
+   "img": "https://www.mediaterranee.com/sites/default/files/styles/partage_1200/public/field/image/2026-11/cc3b57b95368-20261107-200820.jpg?itok=UfnrBSFO",
+   "chapeau": "GTA 6 sort le 19 novembre sur PS5 et Xbox Series : 79,99 € ou 99,99 €, préchargement dès le 10, pas de version PC. Les faux sites et fausses démos à éviter.",
+   "txt": "",
+   "pub": "2026-11-07T20:08:19+0100"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTVRKVXZiYkdPY1RReDZDRFRNTlhXV2JqcGNqMEZvb0xCRmpqT3I5c0NyTEc4dmlVSVJiNm9ONDA4Nm1SVTdUMkpqZEFqYmxPT0tIWXJxREd0NGdUZGVLbGN5OG5FTkpQeXVnSHZVbnl3TzVDZmZrMnhiSEV0M2xpNg?oc=5",
@@ -156,7 +152,7 @@
    "d": "2026-11-07T18:30:36+00:00",
    "lang": "en",
    "t": "Celebrate GTA 6 Early With Rockstar’s $25 Pet Essential",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOM3V2LTg3S0I4QnNMY3A1UXZfUFdwdUxzck1jQ3QwN2Nvei1OcWFBVlRVeXhTVEt6Rm5FUlpWYkZ6OVBBVDhwUjF5clhSeHV6Y19DVGFKVjNCazh5clh4V1JwaVVOM0xydjJLU1BSR3lPTjRjbmZLd00wbmpRdG9yeVFKelRfOG9zRTNJTU9WQmVoRDBCU3h6Y0o5cDRsV0E?oc=5",
@@ -187,8 +183,12 @@
    "s": "JVFrance",
    "d": "2026-11-07T17:54:12+00:00",
    "lang": "fr",
-   "t": "GTA 6 : une fuite révèle le contenu de la version boîte, bien plus généreuse que prévu",
-   "erreur": "429 : passage suivant"
+   "t": "GTA 6 : une fuite révèle le contenu de la version boîte, bien plus généreuse que prévu - JVFrance",
+   "u": "https://www.jvfrance.com/gta-6-contenu-boite-285689/",
+   "img": "https://www.jvfrance.com/wp-content/uploads/2026/06/GTA-6-keyart-officiel-3.webp",
+   "chapeau": "A quelques jours de sa sortie dans nos rayons, la version boîte de Grand Theft Auto VI a fuité et il y aura bien un goodies à récupérer",
+   "txt": "",
+   "pub": "2026-11-07T17:50:34+00:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYll1MDNNT2JsMHdqUlJBU2hqbGxjTHdoOUJxRWxlQUhsWGZERHBjc1lqdkwwVHY3RkFFZ1k0cTlieFlsUEpkc3M2eEtwX2VRWjBxSS0zQXZPTWVCU19ZTkZrRU5Hd2NKbGRYeU1aVUtkM2hpeE1RVGlJZHp2emdqYlBDM2RMc3pxMzZSX3lrdGR4YjBObzNHejJncEd4cU1IR0RJSzZfMko4aFNDT0EtYWdvWldiTWx1YnA1bTM5Y24?oc=5",
@@ -196,7 +196,7 @@
    "d": "2026-11-07T17:48:13+00:00",
    "lang": "en",
    "t": "Greensboro Police Are Begging Rockstar to Release ‘GTA 6’ for One Unexpected Reason",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSnNIVm1MT0RNY0FxMGpjeWctME1xdXBmVGpXMi1oLWEwUWpBaFNTeGdOaGNwTjVoUzhwZXpPTDR3a2RBRUhTWjF5cjZxN0t4UWotWkJrTEhjUXdIZzNGQXMzU1U5cmRVRDFCUDlGOXpOLUZEU1A3QzQ4aE5Iazc4cXRlVzYtVThWLWtncmRIeC1RMkVFazlv?oc=5",
@@ -264,7 +264,11 @@
    "d": "2026-11-07T16:59:42+00:00",
    "lang": "en",
    "t": "89% of People Think GTA 6 Will Win Game of the Year at The Game Awards",
-   "erreur": "429 : passage suivant"
+   "u": "https://insider-gaming.com/gta-6-game-of-the-year-awards-chances/",
+   "img": "https://insider-gaming.com/wp-content/uploads/2026/11/Jason_and_Lucia_14-scaled.jpg",
+   "chapeau": "Grand Theft Auto 6 has an 89% chance of securing Game of the Year at The Game Awards this year, one site has predicted.",
+   "txt": "Grand Theft Auto 6 is mere days away from hitting the market, introducing the most monumental iteration in Rockstar’s open-world crime-action franchise that we’ve ever seen. It’s poised to be the fastest-selling, most globally impactful game ever , and it’s easily going to both set and shatter records on the day and beyond.\nBut what about Game of the Year discussions? Will Grand Theft Auto 6 have the chops to win major awards this year? According to the vast majority of users trading within The Game Awards’ markets on Polymarket , there’s an 89% chance it’s happening at the grandest show of them all.\nGrand Theft Auto 6 has a chance of being nominated for and winning Game of the Year at The Game Awards simply because it launches a couple of days before the ‘cut-off point’ for submissions/nominations. For many, the game is already a shoo-in, even if it’s still a couple of weeks away from being in everyone’s hands.\nIf I were a gambling man, I’d suggest that GTA 6 will scoop a mess of awards. Game design, music, narrative, actors, direction, action game, and so on. There are stacks of categories that GTA 6 could be nominated for.\nOn Polymarket , traders have invested a lot in Grand Theft Auto 6, which has culminated in the game having, at the time of writing, an 89% chance of landing Game of the Year at The Game Awards. It’s followed by Resident Evil Requiem with a 7% chance, and Phantom Blade Zero with a 3% chance.\nAdditionally, GTA 6 has a 53% chance to win Best Audio Design, a 55% chance of winning Best Narrative, and a 70% chance of winning Best Game Direction, according to Polymarket users.\nIn other areas, 96% of users think GTA will break first-day sales records, and 100% of users think it’s going to score more than 92 on Metacritic.\nDo you think Grand Theft Auto 6 will be nominated for Game of the Year at The Game Awards? Let us know your thoughts on the Insider Gaming Discord server .\nFor more Insider Gaming coverage, check out the latest GTA 6 screenshots , also, don’t forget to sign up for our weekly newsletter\nGrant has been gaming for 30+ years and in the industry for 10+. You'll probably find him playing a post-apocalyptic game or an extraction shooter somewhere.",
+   "pub": "2026-11-07T16:59:42+00:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOb2tNTE9UZHB2cVNwVlh2LWlneXNESi1XMkktWkx2a19tZFNnUURyNDBLajFQclFPMFhIQnhRc3YtVDlDcVJjZEpWX3hMQWNfUE8zVWhnbDRwVEpodnZIeDVnR3hBMHNtNHNBRlQyQ2N1emowUU40emJ4V05WZk5fbzctWGNPejZRd1hwWGxUTm8tN090dTVCMkxoaXhZNjI0SzktTzZfUTJicFI0MkhhMGEwaUJWRjktcEE?oc=5",
@@ -272,15 +276,19 @@
    "d": "2026-11-07T16:46:53+00:00",
    "lang": "fr",
    "t": "Un fan de GTA 6 a aménagé une salle de jeux avec une PS5 Pro et un écran OLED 4K Samsung S90F de 77 pouces.",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNSTllOWRuVTY4WjVaakp3eHMwa3NaUXRYd0wwM1dIdVZsMTZUcC1EZElVSTJIcjNRVnNjeXhKTGlwdXV0ZDVIeWZTQUhIRHVMd1dBM2E0TzJXcEVSandNaFFSbmlQYm8tdFI2OFVZU19kOUc5dWtrS1dMNXdwMHpZaW1DRFB5d25UMXRDZWtVRlp4LTN1Mkowb3hkcHN1Nl9zRzM0YXVlSk9IZ0RBenZPX3RQTkZzZjJVSnZMd3dKRlk2YjR2dzFWZHQ5eEIwUVRwcUpsZUthbm8waTQ?oc=5",
    "s": "RTBF",
    "d": "2026-11-07T16:03:44+00:00",
    "lang": "fr",
-   "t": "Abandonner son chat ou son couple : que seriez-vous prêt à sacrifier pour jouer à GTA 6 une semaine plus tôt",
-   "erreur": "429 : passage suivant"
+   "t": "Abandonner son chat ou son couple : que seriez-vous prêt à sacrifier pour jouer à GTA 6 une semaine plus tôt ? - RTBF Actus",
+   "u": "https://www.rtbf.be/article/abandonner-son-chat-ou-son-couple-que-seriez-vous-pret-a-sacrifier-pour-jouer-a-gta-6-une-semaine-plus-tot-11811232",
+   "img": "https://static-content.rtbf.be/article/image/1920x1080/7/c/1/5e3e085cb925c37b86a6c87199f8ad7a.jpg",
+   "chapeau": "GTA 6 constitue l’un des plus grands événements culturels du 21e siècle. La longue attente depuis le dernier opus,...",
+   "txt": "",
+   "pub": ""
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOT05iUUxnZy03bkl5YmxYZ2lHejNOYkNuanFRdDZwcEZiSzM2UGphWW5mTEN3M0t2RnROdmtTSnRBWm9FOGFmU2J2S2dfSUQ3N2hqTWxsNE9jM1JQWjdUSDV0a0lodXdkLV9RSElvZEFiZXdpN2hJREdrX3FrOFdLTw?oc=5",
@@ -300,7 +308,11 @@
    "d": "2026-11-07T15:28:41+00:00",
    "lang": "fr",
    "t": "GTA 6 ou vraie vie ? Ces nouvelles images des voitures sont bluffantes",
-   "erreur": "429 : passage suivant"
+   "u": "https://www.xboxygen.com/News/373357-gta-6-ou-vraie-vie-ces-nouvelles-images-des-voitures-sont-bluffantes",
+   "img": "https://www.xboxygen.com/wp-content/uploads/2026/11/GTA-6-vs-real-life.jpg",
+   "chapeau": "GTA 6 ou vraie vie ? Ces nouvelles images des voitures sont bluffantes - À moins de deux semaines de la sortie de GTA 6, Rockstar continue de dévoiler de nouvelles images de son jeu. Cette fois, ce sont les voitures qui sont à",
+   "txt": "À moins de deux semaines de la sortie de GTA 6, Rockstar continue de dévoiler de nouvelles images de son jeu. Cette fois, ce sont les voitures qui sont à l’honneur avec une série de clichés particulièrement impressionnants avec un niveau de détail tel que certaines captures du jeu deviennent étonnamment difficiles à différencier des véritables véhicules construits spécialement pour l’occasion.\nHypeDrive a publié une série de nouvelles images permettant d’observer de très près six véhicules présents dans Grand Theft Auto 6. Forcément, Rockstar est allé beaucoup plus loin qu’une simple galerie de screenshots.\nLe studio a fait appel au célèbre préparateur américain West Coast Customs afin de fabriquer dans le monde réel six voitures directement inspirées de leurs versions présentes dans GTA 6. Les véhicules ont ensuite été photographiés dans Miami afin de pouvoir les comparer aux modèles numériques. Les six modèles concernés sont les suivants.\nLes nouvelles captures montrent notamment des carrosseries fortement personnalisées, des peintures spécifiques, des intérieurs détaillés et des jantes ou suspensions différentes selon les véhicules.\nLa comparaison est d’autant plus amusante que les véhicules réels ne sont pas les voitures dont Rockstar s’est inspiré à l’origine puisque West Coast Customs a réellement reconstruit les modèles fictifs de GTA 6.\nCes images renforcent encore l’idée que les véhicules occuperont une place particulièrement importante dans GTA 6. Depuis les différentes présentations du jeu, Rockstar a déjà montré des rassemblements automobiles, des courses, des motos tout-terrain ou encore plusieurs styles de véhicules largement personnalisés.\nL’édition Ultimate de GTA 6 proposera également des garages et ateliers spécialisés dans différents types de modifications, notamment les intérieurs, les jantes, les donks ou les véhicules tout-terrain.\nLa Grotti Cheetah possède par exemple une peinture spécialement créée dans un style « Vice City », tandis que l’Albany Buccaneer adopte une véritable configuration lowrider avec suspension pneumatique, jantes dorées et intérieur personnalisé. L’Albany Manana se transforme de son côté en donk avec une suspension très haute et d’immenses roues.\nMême la voiture de police Pegassi Tempesta a été construite dans le monde réel avec sa livrée Vice Beach Police Department.\nCette nouvelle opération commerciale accompagne une vague beaucoup plus large de communication autour du jeu. On rappelle que Grand Theft Auto 6 sortira le 19 novembre 2026 sur Xbox Series X|S et PlayStation 5. Et à quelques jours seulement du lancement, cette comparaison entre les véhicules numériques et leurs répliques réelles donne un nouvel aperçu du niveau de détail recherché par Rockstar.\nLa sortie de GTA 6 est prévue pour le 19 novembre 2026 sur Xbox Series X|S et PS5.",
+   "pub": "2026-11-07T15:25:38+00:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdTYxb0ZnZ2VsR1FfMzR1N0FSZHNZeTFsdkZFV0Q4T3lZN2FmaEZYRHQ4SzRkOWtWLW9xbk5aZjVWanFfRjAxclVYQVE3dTBlMGMzcGQyZ0xBWUZiMWJZN0JmZlA3d2hVSjhwbEl0UUVOWTFqOThsVkpNZnVDcjZaOXpSUURtZTZQUGc?oc=5",
@@ -372,7 +384,19 @@
    "d": "2026-11-07T14:15:13+00:00",
    "lang": "fr",
    "t": "GTA 6 déjà distribué en Allemagne, un poster officiel dans la boite du jeu !",
-   "erreur": "429 : passage suivant"
+   "u": "https://jvmag.ch/2026/11/07/gta-6-deja-distribue-en-allemagne-un-poster-officiel-dans-la-boite-du-jeu/",
+   "img": "https://jvmag.ch/wp-content/uploads/2026/11/gta-6-1.jpg",
+   "chapeau": "Nous y sommes ! Après 13 longues années, la saga Grand Theft Auto est sur le point de revenir entre nos mains. À quelques jours de son lancement, les",
+   "txt": "",
+   "pub": "2026-11-07T14:15:13+00:00"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQVU4TlI1S21aUkJTNkZOWVllckN6MzJTalRla1BzNTdlR3VVdmNkX2tvNDZ1cHA0ejY4RXFxYU1KSV9LZE11V1JJMjJ2djlJZDduUVhCeHdiV3JlTFVwb2xUQm1tRlZwR1RaRnFVZlpHcFlOVkFiYkVRcVdUQXlMRTBFUzczV1BVMHFuWXdZeGpGd0I1MU4xV3lsOW9ialJnWE5fT3p3d0daNXZ5ZElMandxWnRTeEFtVzltWg?oc=5",
+   "s": "GameGPU",
+   "d": "2026-11-07T14:13:50+00:00",
+   "lang": "fr",
+   "t": "La première boîte physique de Grand Theft Auto VI pour PlayStation 5 a été aperçue en Allemagne.",
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPeUc2ODRoWVpvQU5NSi1RVTk0WVpvb28zQTRYcUpfRTlmeGZNdS1XaGF6cm81MmZzc3hkbndNTG94bEVBY2ZXRkxsUWM2dlFfLXA0dzhnd0tmZzZCZ0VSTUFHOWlxRGNKREsybmV5V1h4OXpmZ1ZpaXQ4Y3dTdU9ZLUZSbw?oc=5",
@@ -510,7 +534,11 @@
    "d": "2026-11-06T22:41:00+00:00",
    "lang": "en",
    "t": "CyberLeek Price (CYBERLEEK/USD) Today | Live Price, Market Cap & Chart",
-   "erreur": "429 : passage suivant",
+   "u": "https://www.binance.com/en/price/cyberleek",
+   "img": "",
+   "chapeau": "",
+   "txt": "",
+   "pub": "",
    "cyberleek": true
   },
   {
@@ -519,7 +547,7 @@
    "d": "2026-11-06T21:05:26+00:00",
    "lang": "en",
    "t": "GTA 6 New Leak - Is It Real or Is It AI-Fake?",
-   "erreur": "429 : passage suivant",
+   "erreur": "HTTP Error 403: Forbidden",
    "cyberleek": true
   },
   {
@@ -528,7 +556,7 @@
    "d": "2026-11-06T21:05:26+00:00",
    "lang": "fr",
    "t": "Les joueurs se demandent si la nouvelle fuite supposée du gameplay de GTA 6 est un fake ou pas",
-   "erreur": "429 : passage suivant",
+   "erreur": "HTTP Error 403: Forbidden",
    "cyberleek": true
   },
   {
@@ -602,7 +630,7 @@
    "d": "2026-11-04T14:30:23+00:00",
    "lang": "fr",
    "t": "Une fuite confirme des améliorations pour GTA 6 sur la PlayStation 5 Pro",
-   "erreur": "429 : passage suivant",
+   "erreur": "HTTP Error 403: Forbidden",
    "cyberleek": true
   },
   {
@@ -702,7 +730,11 @@
    "d": "2026-10-22T15:12:54+00:00",
    "lang": "en",
    "t": "Cyberleek Shares GTA 6 Leak Of Naked Lucia",
-   "erreur": "429 : passage suivant",
+   "u": "https://www.imdb.com/news/ni66062173/",
+   "img": "",
+   "chapeau": "",
+   "txt": "",
+   "pub": "",
    "cyberleek": true
   },
   {
@@ -763,7 +795,7 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
    "t": "Le token CYBERLEEK chute de 40 % alors que le leaker de GTA 6 lance de nouvelles menaces",
-   "erreur": "429 : passage suivant",
+   "erreur": "HTTP Error 403: Forbidden",
    "cyberleek": true
   },
   {
