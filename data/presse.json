@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-07T02:23:57+00:00",
+ "maj": "2026-11-07T02:44:09+00:00",
  "articles": [
   {
    "gn": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNV2RfV1JzWno3YU5lbDQ4VDVrLXdPUXVJT0lIZkh1anZoZWpFamlOZ2pWbzZwV0NvbDd3OHpwZVEzai1IZUQ0YUdOejVoOHdzQXpVQzhETFdULTRkeWt6eU83cThId3VDX012blhiTnZRemJXOEdBTEJzbFJrSnlGdUZjcDZQSHFETnY2eg?oc=5",
@@ -113,14 +113,6 @@
    "pub": "2026-11-06T23:11:50Z"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUW85Y1NCNmo4V2UtUHJZRFB0OVdnNnRoOGhZWXB4Zi1MVVpfclo5d2tfZF9jS2NmNFFjYk9md0pwY1pHREhubDFpbV9lb0p2dmpmMndOeVlXb2t5NkszbkVwdHBCWXBWTExXS1RoV2RmbkhKd2pEclREbWVvbmJWOXNmcmVjU2pXVGMyWXY4QldldFVLcGJIa29UblRzQ19INFNoQmo2V3NjLXU3aHhEQUI3eFBqUWNybW9FcnU0ajFhVlJNcl83U1BpMTMxdjVyV2c?oc=5",
-   "s": "USA Today",
-   "d": "2026-11-06T23:02:00+00:00",
-   "lang": "en",
-   "t": "Get ready for GTA 6 with $500 off this 65-inch Hisense Mini-LED TV",
-   "erreur": "HTTP Error 402: Payment Required"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMia0FVX3lxTE84Qk5OVk9QOTFVZnZVWEVrLWRUM0R2VXlCLWNzeV9POVJsWHdYRDVsU0plVW43NGpzVjI3UlhlUWxJUzN6aHV1SUF1d2h0QUJ1TW83TkhLa0VTSm5DVTd1STFxYkZYUEpyZVMw?oc=5",
    "s": "SVG",
    "d": "2026-11-06T23:00:00+00:00",
@@ -138,28 +130,15 @@
    "d": "2026-11-06T22:32:50+00:00",
    "lang": "en",
    "t": "Can you play GTA 6 on PS4 or Xbox One? No, it is only on PS5 and Xbox Series X|S",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9wczN2NjMwM0hDa1NVeUVKVEk5dHBOSXYzMlhETmtESERqcTdLdGxyX2NtZUVLY3JpWUh2QTE1bEhKVC1IVHZnVVFLb045TGVGSkhJa2JZTG9jRVhmTl9EMDRGWlBtWlI3bVA5YktmcVNEeF9OYTF4d0F3?oc=5",
-   "s": "IGN Africa",
-   "d": "2026-11-06T21:37:30+00:00",
+   "gn": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMzFISVdFdHd3Wk5XYlc3YjVrMndvbU5vU2N4cFhHd0tteTFySmwycFJrMnE5QVN0bkNzV0tQRGRaNmVSLTFlZXVKSTl0encyOWFsZ0h3WDIzeTQwd1FTalVESDU5MTJCUDRfUGZoa0tFUlppNzBIRnF3XzVmT2JkTVVZQkpDRlZCNUpTOXU4bnU?oc=5",
+   "s": "IGN",
+   "d": "2026-11-06T21:57:49+00:00",
    "lang": "en",
-   "t": "GTA 6 Launch Screenshots",
-   "u": "https://za.ign.com/grand-theft-auto-vi/244816/gta-6-launch-screenshots",
-   "img": "https://sm.ign.com/t/ign_za/gallery/g/gta-6-laun/gta-6-launch-screenshots_k4bn.1200.jpg",
-   "chapeau": "IGN is your site for Xbox One, PS4, PC, Wii-U, Xbox 360, PS3, Wii, 3DS, PS Vita & iPhone games with expert reviews, news, previews, trailers, cheat codes, wiki guides & walkthroughs",
-   "txt": "",
-   "pub": "2026-11-05T15:15:59+00:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSks1OXZ5dk9YRVpfSVBnSmRralBSWmV5c0szUWVwSUVzdXIyN3VfYUlGN1JILTlobHJNUXREQXVvc2R3cjh1RldiUlFxR3lpbUV0QnB3ck1WaEt5eXpBTEtaX1NNemNPeWZ0ZlozVVRkVDQydnIzdGtSMzg3cDJpYkdLTkpqcm4yTjNncEp2Mnh0cDZpcEdjRDI1dw?oc=5",
-   "s": "EGW.News",
-   "d": "2026-11-06T21:05:26+00:00",
-   "lang": "en",
-   "t": "GTA 6 New Leak - Is It Real or Is It AI-Fake?",
-   "erreur": "HTTP Error 403: Forbidden",
-   "cyberleek": true
+   "t": "Pilot \"Paints\" Impressive GTA 6 Mural In the Sky - IGN Daily Fix",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPYVdCdldMamRFZHlveHZGRW9XampfV0xZUmg5Z2VxVEhfN2FGbVZZM3FncVBWZUFTeEF2Ymx2OC1JTzZETTFhZmRnVGVyUWZrOWNuWDNjZEl6NW84em5HLXhjMVFRcXRCdGhkNmRXalpLY3V3UnRSQm9KdW54QmNTbi1DVU9wZnB4cHNKNU1YUXl4dC1GYnZWWjdJU2REY1E?oc=5",
@@ -167,7 +146,15 @@
    "d": "2026-11-06T21:05:26+00:00",
    "lang": "fr",
    "t": "Les joueurs se demandent si la nouvelle fuite supposée du gameplay de GTA 6 est un fake ou pas",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSks1OXZ5dk9YRVpfSVBnSmRralBSWmV5c0szUWVwSUVzdXIyN3VfYUlGN1JILTlobHJNUXREQXVvc2R3cjh1RldiUlFxR3lpbUV0QnB3ck1WaEt5eXpBTEtaX1NNemNPeWZ0ZlozVVRkVDQydnIzdGtSMzg3cDJpYkdLTkpqcm4yTjNncEp2Mnh0cDZpcEdjRDI1dw?oc=5",
+   "s": "EGW.News",
+   "d": "2026-11-06T21:05:26+00:00",
+   "lang": "en",
+   "t": "GTA 6 New Leak - Is It Real or Is It AI-Fake?",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -200,7 +187,7 @@
    "d": "2026-11-06T20:43:19+00:00",
    "lang": "fr",
    "t": "Xbox déploie une technologie majeure avant la sortie de GTA 6 : pourquoi le FSR 4.1 change tout",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTE9aWHV3UTd2WUhoMUNBOG1wcXhDSGROTWFpZjgxUjFGaEVMWWg2S0R1Vml4dks5eXJNOUxKRXJRWmxueVlRTi1scGM5Y0FsNlNxQUVKTTZ4MkxhcTMwRW5rcFVMRXRzNXktVlliSnpPa2s4SHBwaTdhcEQzSEpZLXJzaUp4UHJaemJZTTlGUFpteDROendILTdYYUtyMXo2VEtZZHhCTU5ucmfSAb8BQVVfeXFMTXR4VzlNZWxJdmljOU9HWkhyWi1uWVJYblFBZERfQjhUZEduazdJcm9PTWdrekpYY29VNzZTT05MOV80TkgwT0ZYM0E5aGlHZmdKdXkwNHNDdHBySTlwbi1zQ2hOUXUtWTVXaGpxWTdaQ1NzaTNBWHlzN0dDdmxlY3JLdzJYVVZaN3NtdUFqeWJlRHByam9CV2d4UGk0cF83NEZwLUc1VVNuZWNFQ0dlTURHLTdOSkFnYTRWZlNRTm8?oc=5",
@@ -244,7 +231,15 @@
    "d": "2026-11-06T20:26:48+00:00",
    "lang": "en",
    "t": "Can You Upgrade To GTA 6’s $100 Edition? Yes, And It’s Easy–Here’s How",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVlJqY2ZPMTRWZUk2anU0ZUNzVzNuYlJVQWlUYVU2MUY2b3c0YXFuc2I1X0hKZ3RFUlk5UWJLWUpmdnYtUi02a051SnVZejR0dlZVQU9ONDA5aUpQZzR5ZXJ2YU1oSWwtLTlLMm1TTEJ4M2ctZkgzQmRTTHZ6bFI2Zk1KQ09LaEUxTkdWaWt4M2tXcm05dU9TcndxVnU1dGgzYlllbA?oc=5",
+   "s": "RockstarINTEL",
+   "d": "2026-11-06T20:21:26+00:00",
+   "lang": "en",
+   "t": "New GTA6 Screenshots have released comparing real life cars to in Game Cars",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOV2lMdnIwTWsxeVFGM0QwYjByckMyNTJVeUMzaDZZdWVFalpBTkFiRVN2c3JXWDN2X29Gbml5YnZmWGR3YWNXckstQXBNdEV6c2VsZHZWeEdPb0pMZklaWTQzcnUweTR3MFVPVG5aMkNvYnRoYm1ocXVLMDdaZUtBbjd3b1I3YUlxV2dYY3I3M1ctQ3psNnE2cU1BSDBCQUtJV24xUjZTZnBUUk5BUktoWFdfOTd3cVJKVHc?oc=5",
@@ -252,7 +247,7 @@
    "d": "2026-11-06T19:53:00+00:00",
    "lang": "fr",
    "t": "« Grand Theft Auto VI » : treize ans d’attente, un retour sous haute tension",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9kM0pMZE54YmhYb01IQnFWNU5mU1VJa3h6cHNLaVVHYXlYREdjbHdyR1cweXk0dDlpV2NPUnVFSVE4MVJPRFZBODFYR0ZnMTRnUjhLT3BiVVh1N3ZTZC1HQ202dE0zcXhRVkIwNzZnR1BSaHNaMXJYVjc5NEstTGc?oc=5",
@@ -272,7 +267,7 @@
    "d": "2026-11-06T19:40:33+00:00",
    "lang": "fr",
    "t": "Rockstar Games a peut-être révélé la scène finale de GTA 6",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOE5lNHlTUHVCelZsM2I1Z2dsdXZWYmxrRkhwV2pNM1d3XzVvLVJ4QkJHVGVLYVhPa1p6WkdyZnpwSE90M2hYY1gtWEZzUDBGVHlQOHN0UURnWUZHM0JodGR6RTRWVHp0Qzl0NGtwV0JYXzJhTkxOcWpFMlFkcXJualNuM2NhcEpleVcxSXlROG5RN3dGa1VGTWVtX29IeU9vaVF4X0hn?oc=5",
@@ -280,11 +275,7 @@
    "d": "2026-11-06T19:00:00+00:00",
    "lang": "fr",
    "t": "GTA VI : le compte à rebours est lancé, une sortie à 5 milliards $ en ligne de mire",
-   "u": "https://www.lerevenu.com/actualite-economique/monde/gta-vi-le-compte-a-rebours-est-lance-une-sortie-a-/",
-   "img": "https://cdn.overlord.media/game_stop_56_milliards_pour_racheter_e_bay_et_rivaliser_avec_amazon_80d8224e_5f20e1f521.webp",
-   "chapeau": "GTA VI sort le 19 novembre 2026. Le jeu pourrait générer jusqu'à 5,2 milliards de dollars de ventes dès sa première semaine.",
-   "txt": "",
-   "pub": ""
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQaDBSZk9PRXFaMldNUzh5VVhmVWxrSkM2TDF2ZUNUSGstaGpyeUdrRE1KdlVyZ0F0dTZhRkRPbWF1Y2NvY2tuTHZncy1uS01hUkFTNDVraXRZQjlzRXNjQ0xyamRaa1JfejU5b2tuSGUxUURielUzY2pLT0VUY0l0RnZfX2M3QQ?oc=5",
@@ -372,18 +363,6 @@
    "pub": ""
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOTFMaWZweVhmM1VFXzV0aUVnTGlVZlFUZ2xyU2owRzV2bklKbTRsam5mSWpXZTFVcEo3OFh3Xzk5TVRNVHU4RENkSVgtME9xS2F1MlBZaWNXNURnM01mekEzTjFKNzZsMWtNUnNwa21wTHh5VUdRaUZZNTd5ZFpvcXo1WWd5UTQwakFmMlBkaE1aNGZTa0dXVkgzVUpqQjhsYWlfU0YyQmt1RTh6Tzlxd3dpd3ljUQ?oc=5",
-   "s": "ActuGaming",
-   "d": "2026-11-06T15:47:41+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : Obbe Vermeij, ex-directeur technique chez Rockstar North, pense que le jeu arrivera rapidement sur PC à cause de l'IA générative",
-   "u": "https://www.actugaming.net/gta-6-obbe-vermeij-ex-directeur-technique-rockstar-north-sortie-pc-ia-generative-832693/",
-   "img": "https://static.actugaming.net/media/2026/11/GTA-6-11-889x500.jpeg",
-   "chapeau": "Le lancement de GTA 6 est imminent. D’ici deux petites semaines, le prochain opus de la franchise de jeux d’action-aventure en monde [...]",
-   "txt": "Le lancement de GTA 6 est imminent. D’ici deux petites semaines, le prochain opus de la franchise de jeux d’action-aventure en monde ouvert chapeautée par Rockstar Games sera enfin disponible sur PS5 et Xbox Series. Quant à la version PC , les dernières rumeurs remontant à mi-octobre évoquaient une arrivée pendant le 1er trimestre 2027. Et visiblement, une personne ne serait pas totalement surprise que cette information se vérifie rapidement : Obbe Vermeij. Connu pour avoir été directeur technique chez Rockstar North de 1995 à 2009, le développeur néerlandais pense effectivement que le portage du titre a de grandes chances de sortir assez vite sur PC. Toutefois, si c’est le cas, ce ne sera pas forcément en raison de l’engouement que la production suscite auprès du public selon lui, mais plutôt à cause des risques liés à l’IA générative.\nUn clone de GTA 6 fait sous IA ? Obbe y croit (malheureusement !) Outre revenir sur sa carrière au sein de Rockstar North, Obbe Vermeij a été amené à s’exprimer au sujet de la version PC de GTA 6 dans un article publié ce vendredi par le média britannique Rock, Paper, Shotgun . Et à ses yeux, la place prise par l’IA générative est devenue tellement importante dans l’industrie vidéoludique qu’il existe un risque réel pour qu’un ou plusieurs clones du jeu finissent par apparaitre sur la toile , après la sortie sur consoles. Essentiellement pour cette raison, Rockstar Games aurait donc tout intérêt à ne pas attendre trop longtemps avant de commercialiser sa production sur PC :\n« Ça a vraiment changé le monde et je pense que, si j’étais Rockstar, je serais inquiet que quelqu’un vienne prendre la version PS5 et utiliser une IA pour la porter sur PC. Ce ne sera pas aussi bien que leur travail mais ça pourrait tout de même nuire à leurs ventes. Je ne serais donc pas surpris qu’ils essayent de rapprocher les sorties. […] Les outils d’IA générative actuels sont probablement en mesure de réaliser ce genre de portages. »\nPar la suite, le développeur néerlandais a également été interrogé sur son rapport à l’IA dans le cadre de la conception de Plentiful , un bac à sable de terraformation en accès anticipé sur Steam sur lequel il travaille. S’il n’utilise pas cette technologie pour créer du contenu lié au gameplay, aux éléments artistiques, ou encore à l’audio in-game, il s’en sert pour faciliter le processus de localisation de son projet dans plusieurs langues différentes. De plus, il estime qu’une grande société, à l’image de Take-Two Interactive, n’est pas moins menacée par l’IA générative que les entités indépendantes dont il fait désormais partie :\n« Je ne vois pas vraiment comment vous pourriez vous en protéger pour être honnête. Mais une entreprise comme Take-Two, elle pourrait engager des avocats et peut-être que, pour un jeu de cette envergure, l’IA n’est pas particulièrement performante pour ce genre de travail. Mais bon, c’est un monde nouveau et complexe. Avant, le développement d’un jeu demandait tellement de travail qu’il n’était pas possible de le copier, et ça a complètement changé maintenant. On verra bien dans les prochaines années comment ça évolue. »\nEn attendant d’avoir davantage d’informations sur sa version PC, rappelons que GTA 6 sera disponible le 19 novembre prochain sur PlayStation 5 et Xbox Series.\nAjoutez-nous à vos favoris Cet article peut contenir des liens affiliés",
-   "pub": "2026-11-06T16:47:41+01:00"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQnNOOExtelFvbGdnX0k1S0pMZzZydERDczdBcEpiLXk3MjJxVm9sN1FXQXBTTTVxdEtWYlBKelF4dUhQYzFlY1A0V0hUOF9mdkFQWGUwVGl4TFEtRUJ5ZWFKM3RtWnlHN1BPaWNfaWw4dkt1Q3RxSEtmc0JQNTNZTDBGNUhQMVFVLVFRbjZpV3RwdUFhR3A1R3I3SVFkM1QwQVg0Zll0Yw?oc=5",
    "s": "HotNewHipHop",
    "d": "2026-11-06T13:38:21+00:00",
@@ -428,7 +407,7 @@
    "d": "2026-11-06T07:40:29+00:00",
    "lang": "en",
    "t": "GTA 6 Fans Beware: Fake APKs, Game Keys And Leaked Copies Could Put Your Devices At Risk",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -450,7 +429,7 @@
    "d": "2026-11-05T17:52:13+00:00",
    "lang": "en",
    "t": "Rockstar releases 39 new GTA 6 screenshots two weeks before launch",
-   "erreur": "Remote end closed connection without response",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -563,7 +542,7 @@
    "d": "2026-11-04T14:30:23+00:00",
    "lang": "fr",
    "t": "Une fuite confirme des améliorations pour GTA 6 sur la PlayStation 5 Pro",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -663,11 +642,7 @@
    "d": "2026-10-22T15:12:54+00:00",
    "lang": "en",
    "t": "Cyberleek Shares GTA 6 Leak Of Naked Lucia",
-   "u": "https://www.imdb.com/news/ni66062173/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -728,7 +703,7 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
    "t": "Le token CYBERLEEK chute de 40 % alors que le leaker de GTA 6 lance de nouvelles menaces",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -802,7 +777,7 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "en",
    "t": "GTA 6 Leak Over, Cyberleek Quits but the Ending Is Still at Risk",
-   "erreur": "Remote end closed connection without response",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -811,7 +786,7 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
    "t": "Fuite GTA 6, Cyberleek s'arrête mais la fin reste menacée de spoilers",
-   "erreur": "Remote end closed connection without response",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -825,6 +800,15 @@
    "chapeau": "The Cyberleek memecoin is now plunging further and further.",
    "txt": "As Mashable and our colleagues at PCMag just reported, Grand Theft Auto VI leakers Cyberleek have seemingly abandoned their threats to leak a full build of the game – at least for now.\nWhy? Because the leakers had claimed that the release of the leaked build was tied to their memecoin. If GTA 6 fans pumped Cyberleek's cryptocurrency, they would receive the leaked game build as a reward.\nThat play failed spectacularly for Cyberleek. In fact, it seems to have fully backfired.\nThe Cyberleek memecoin's market cap hit a high of $7.8 million on October 11, shortly after the leakers claimed they would release the full build of GTA 6 supposedly in their possession. The catch? The Cyberleek memecoin had to hit a market cap of $30 million first. The best tech deal this week The Apple iPhone 18 Pro is free right now with T-Mobile\nWhile some GTA 6 fans appeared to have bought into the memecoin in an attempt to hit Cyberleek's goal, $7.8 million is still far short of the $30 million the leakers wanted. And since then, as it became obvious that most GTA 6 fans weren't going to give in to Cyberleek's demands, the memecoin has plunged even further, with a current market cap of $1.17 million.\nCritics of Cyberleek celebrated the memecoin's failure, calling it a scam.\nCyberleek had been successful with their memecoin play before, giving those who bought their memecoin exclusive access to polls that determined what GTA 6 footage the leakers would release next.\nHowever, it seems Cyberleek overplayed their hand this time around, and the full build, which they claim is 200GB, appears to be staying under wraps for now.\nWith that said, Cyberleek is still using their supposed access to a full build of GTA 6 to try to escape legal action from Take-Two, the parent company of GTA 6 developer Rockstar Games. The leakers claim that there is a \"dead-man's switch\" that will automatically release the ending of the game if there is an attempt to take down Cyberleek.\nMatt Binder joined Mashable's tech vertical in 2018, where he covers social media, tech policy, cybersecurity, online scams, cryptocurrency, AI, creator news, weird tech, and other related tech beats.",
    "pub": "2026-10-14T19:40:59+00:00",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5UZlVkNWtTSUE4ZXo2TFNHTktrNVV0MVBRUlZPRl95bmJoWVV2aDNZdXdKU0N3eEdCdGp2Nm1lbndLdDRsV3k3SHVZQWctQXVZc3Z1MUlySXpVVGd5b0hrWDJPczJsbGc?oc=5",
+   "s": "Mashable",
+   "d": "2026-10-14T15:31:42+00:00",
+   "lang": "en",
+   "t": "'GTA 6' file size leak: Cyberleek reveals eye-watering storage requirements",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   }
  ]
