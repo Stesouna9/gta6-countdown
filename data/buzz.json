@@ -1,8 +1,27 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-07T09:00:00+01:00",
+  "updated_at": "2026-11-07T12:12:55+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-miami-heat-video-voitures-dirigeable",
+      "title": "GTA 6 : une vidéo attribuée au Miami Heat réunit voitures et dirigeable Vice City",
+      "summary": "@GTAVI_Countdown relaie une vidéo en prises de vues réelles mettant en scène les voitures et le dirigeable Vice City, qu’il attribue au Miami Heat. Ce montage prolonge la campagne dans Miami ; il ne constitue pas une nouvelle bande-annonce du jeu confirmée par Rockstar. La publication d’origine du Heat n’a pas pu être consultée directement.",
+      "url": "https://x.com/GTAVI_Countdown/status/2118847008618254578",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-06T23:24:27.000Z",
+      "checked_at": "2026-11-07T12:12:55+01:00",
+      "evidence": "Relevés Mac et serveur data/x_alertes.json concordants du 2026-11-07T10:13:53+00:00 : 53 627 vues, 216 republications et 2 758 likes chez @GTAVI_Countdown. Attribution Miami Heat présente dans le texte relevé, sans consultation directe du post du Heat. Original X : HTTP 403 ; tentative de lecture du compte MiamiHEAT : cache absent. Miniature réelle HTTP 200 contrôlée visuellement : dirigeable Goodyear Vice City au-dessus de Miami. Les tournages de voitures et le partenariat Heat sont antérieurs ; seule la circulation de ce montage est retenue ici.",
+      "visual": "VICE CITY RÉELLE",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2118792088003252225/img/hoSnQsHZlY9WcXeV.jpg",
+      "image_alt": "Dirigeable Goodyear marqué Vice City au-dessus de la baie de Miami",
+      "image_credit": "Miniature de la vidéo relayée par @GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "post_text": "New live-action trailer featuring the GTA 6 cars and Blimp, shared by Miami Heat.",
+      "cta": "Ouvrir la publication sur X"
+    },
     {
       "id": "x-xbox-store-taille-officielle",
       "title": "GTA 6 sur Xbox : la taille de 209,86 Go est désormais listée sur le Xbox Store",
@@ -1993,6 +2012,11 @@
       "at": "2026-11-07T09:00:00+01:00",
       "label": "Passage 70 · rien de neuf",
       "summary": "x_alertes.json du 2026-11-07T08:11Z : 8 posts, tous déjà publiés (Xbox Store, boîte MediaMarkt, police, DualSense, Miami Heat, anniversaire « Hi everyone ») ou sans contenu (« 1 Friday out »). Aucun sujet ajouté. Aucun post X ni message à un tiers."
+    },
+    {
+      "at": "2026-11-07T12:12:55+01:00",
+      "label": "Passage 71 · Vidéo Miami Heat relayée",
+      "summary": "Relevés X Mac/serveur concordants du 2026-11-07T10:13:53+00:00. Ajout du montage voitures et dirigeable attribué au Miami Heat (53 627 vues), distinct des comparaisons de voitures déjà publiées ; attribution non recoupée, statut Rumeur et vraie miniature contrôlée. Xbox, DualSense et anniversaire déjà couverts ; comptes à rebours sans information nouvelle écartés. Recherche web X, Instagram, TikTok et Rockstar effectuée : X 403/cache absent, Instagram 429, TikTok sans texte exploitable et Newswire sans lignes lisibles. Résultats de recherche sur les tournages antérieurs non traités comme une annonce nouvelle. Aucun post X ni message à un tiers."
     }
   ],
   "coverage": {
