@@ -1,13 +1,45 @@
 {
- "maj": "2026-11-07T08:11:12+00:00",
+ "maj": "2026-11-07T08:31:42+00:00",
  "articles": [
+  {
+   "gn": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBDa2tEZk9kODRHRWl6RlJLWEUwVjRoa1JncHRFeTVWY2V1NXY5OGEydjRnaUl6cnVkZ01mUW55al9jTk81VzZUVWI3SXRlczV6T3k2UkM5M3hlMnIyRXJWLVFhVmttc3VGRFcyeEZFN2I?oc=5",
+   "s": "Fenix Bazaar",
+   "d": "2026-11-07T08:15:21+00:00",
+   "lang": "en",
+   "t": "GTA 6 Release Date & Price: 19 November, $79.99, £69.99",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVmNsMDB2ejk5TkR4VC1kaGtCM3o1QVd6S3NFUG1Sd3RxOEhraloyXzJEbEZsS21yRnpsWGg2R3VabmVTd19FNWRST19KMmpvQzctVkdISnNHUUJkY1k0SE1xUDNTRGtUejZzTmZYNGZ5djlsV0FNUkc5TzRDYzBPdTc0Vm4xZUlWVXJnek5WcENWdUNEZDJ4MzJXS3ptbE4xdng1ejc1UWh4dmZwdFdtaG9wNlBHazB4REVwNWtIRDllcXl0MnI1aUFUeWk?oc=5",
+   "s": "Gamekult",
+   "d": "2026-11-07T08:11:00+00:00",
+   "lang": "fr",
+   "t": "Rockstar commence enfin à lâcher les chevaux : voici GTA 6 sous toutes les coutures",
+   "erreur": "HTTP Error 429: Too Many Requests"
+  },
   {
    "gn": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQmItSEtNQlhGUXN3WDRkWWpqazIyUXVVenhqWTZuNE1lRngxaTBaMjNNRlUyRnptSWlaYUpJSlA2N0dMR3RqajBDbm9QeUczS1ZNSXdOQmo2cXc5WHNiMjI3dGp1dEl0X0F1QXlrcU5rbWt3WW1yRzVMODFlZVo5QUJPbzNBMzBvSzNqREZoMWY2am14cy1lckNnSjZkaHFBLTQ0?oc=5",
    "s": "Gameblog",
    "d": "2026-11-07T08:03:59+00:00",
    "lang": "fr",
    "t": "GTA 6 : 7 choses qu'on attend le plus et qui pourraient rendre le jeu vraiment unique",
-   "erreur": "HTTP Error 429: Too Many Requests"
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQeXRaUHJSLU9lbTFtc0xjaGJhclNsU1pCTXprOGZRMjRxNGRlVU9WZXp2bjFybzRELUVQNUtMOFlXdWF0RlFtY0kxYjk0TlU2WUdVNXhjNG1KNERNU0M3WXB5anNkNjlIMmZhQWwwcHJZYW82bjlUUHdUS1IycHNONW9ETU1DZGtnUVJ1bHpYNzVJX2hyYk8xLTdsRS1zNjRkdnJiQlRUVTg5RjNWS3gxS0VuMFgtVURBb01sLXpiYmFEankteHFrbXh3eHRhY3pMOHQxWGFfQklQa2dVMmE5enFzRC1XVEU?oc=5",
+   "s": "La Crème Du Gaming",
+   "d": "2026-11-07T08:00:59+00:00",
+   "lang": "fr",
+   "t": "GTA 4 RTX Remaster reçoit une nouvelle mise à jour impressionnante qui chante tout avant GTA 6",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5zNG10c1IwX25qcGlkM3NTdnZZYzJwYk9zd3dXTGJvQVpoSFl5a2RkblVZM0N6QUd0TjBJbEwtYXhiQ0VKb3p5ZVdUeC1NNWhBaEk2YjVRWkVBMmVHUFNEd2xWOGJMV2wzUlpVZg?oc=5",
+   "s": "Fenix Bazaar",
+   "d": "2026-11-07T08:00:00+00:00",
+   "lang": "en",
+   "t": "GTA 6 File Size: Up to 212 GB, Pre-Load Starts 10 November (Times and Storage)",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9SbVJjUGNwOW5CbjhkTjFxVXByUF9RQTAzYUVNS1lWMGZtWks0aExvRnZ2blE5eXM5eHZCcGVzME1KN2tYNE9vbWxUWko1OW5ETjhJQWZvRGhac0dBaDR0Zg?oc=5",
@@ -130,7 +162,7 @@
    "s": "Polygon.com",
    "d": "2026-11-07T02:43:00+00:00",
    "lang": "en",
-   "t": "GTA 6's biggest competition officially arrives in 2027",
+   "t": "GTA 6's Biggest Competition Officially Arrives on PC in 2027",
    "erreur": "429 : passage suivant"
   },
   {
@@ -234,18 +266,6 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMinwFBVV95cUxONUdjWS1qcFZzdTd1dGRodUFHUndzRDFsUS03M2FWX3cycXZqU3Q1QlhRSjNBNHVHeU5hc01fTXV4eFdGdGJuX2JReDREeVdrdjFPYlUzQmRzZFEyQTR0WlpmcXpZQmt4U213c1d2Y3gzWHBhNjFhWExWcUxpZGhCZk42ODdPcHBSRnZNb3h1Ym40NnRGd29uTjhmQVpHbDA?oc=5",
-   "s": "OpenCritic",
-   "d": "2026-11-06T23:34:18+00:00",
-   "lang": "en",
-   "t": "Rockstar Issues New Official Statement on GTA 6 Physical Edition",
-   "u": "https://opencritic.com/news/39208/rockstar-issues-new-official-statement-on-gta-6-physical-edition",
-   "img": "https://img.opencritic.com/article/o/6MLKxDd42IcvekVNQ2B5CKDV5ouGkHEe.jpg",
-   "chapeau": "With Grand Theft Auto 6 right around the corner, Rockstar issues a new official statement concerning buyers of the physical edition.",
-   "txt": "Rockstar Issues New Official Statement on GTA 6 Physical Edition From GameRant (Written by Mohsen Baqery) on November 6, 2026 | OpenCritic\nRockstar has commented on the physical code-in-box version of Grand Theft Auto 6 , assuring fans that they can still access some premium content even if they purchase the Standard Edition. Grand Theft Auto 6 is scheduled to hit shelves on November 19 and will come in two separate editions, Standard and Ultimate. Fans can also purchase a physical box that contains a digital code rather than a disc.\nRockstar now says that \"physical editions become available for shipping and pickup from retailers starting on November 12.\" According to the company, this will ensure all players can benefit from the pre-load period, which begins on November 10. Rockstar has also recently confirmed GTA 6 's file size , asking players to have at least 212 GB of free space to install the game. The company has now shared additional information for those who have purchased the physical box.\nWith just two weeks to go before the launch of the game, Rockstar releases a brand-new set of screenshots for GTA 6.\nIn a new statement published on Rockstar's support website, the company said, \"A physical version of the Grand Theft Auto 6: Ultimate Edition is not available, but physical...",
-   "pub": ""
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSks1OXZ5dk9YRVpfSVBnSmRralBSWmV5c0szUWVwSUVzdXIyN3VfYUlGN1JILTlobHJNUXREQXVvc2R3cjh1RldiUlFxR3lpbUV0QnB3ck1WaEt5eXpBTEtaX1NNemNPeWZ0ZlozVVRkVDQydnIzdGtSMzg3cDJpYkdLTkpqcm4yTjNncEp2Mnh0cDZpcEdjRDI1dw?oc=5",
    "s": "EGW.News",
    "d": "2026-11-06T21:05:26+00:00",
@@ -339,30 +359,6 @@
    "chapeau": "À quelques semaines de la sortie de GTA 6, la console PS5 Sony s'impose parmi les produits les plus achetés sur Amazon. Cette version numérique vous permet de vous équiper à temps, manette DualSense sans fil comprise.",
    "txt": "Juste avant la sortie de GTA 6, la PS5 est propulsée en tête des ventes sur Amazon\nl'essentiel À quelques semaines de la sortie de GTA 6, la console PS5 Sony s'impose parmi les produits les plus achetés sur Amazon. Cette version numérique vous permet de vous équiper à temps, manette DualSense sans fil comprise.\nLe disque SSD ultra-haute vitesse de la console PS5 Sony charge les jeux PS5 installés quasi instantanément, là où un disque dur classique lit les données plus lentement. L'interface donne un accès immédiat à presque toutes les options du système sans quitter la partie en cours, pour régler un paramètre sans interrompre l'action. Par ailleurs, le retour haptique et les gâchettes adaptatives de la manette DualSense font ressentir les effets et l'impact des actions, sur une sélection de jeux PS5. Enfin, l'édition numérique de la console PS5 Sony se passe de lecteur Blu-Ray, ses jeux passent par le téléchargement, sans disque à ranger. Les acheteurs lui attribuent 4,7 sur 5, d'après 1 521 avis. La console PS5 Sony est au prix de 599 euros sur Amazon.\nLe Ray Tracing intégré à la console PS5 Sony simule le trajet de la lumière dans les décors, de sorte que reflets et ombres se rapprochent de ce que l'œil perçoit au jour le jour. Le HDR prolonge cet effet avec des couleurs vives et des écarts nets entre zones claires et zones sombres. Sur les jeux et les écrans compatibles, la 4K et la 8K de la console PS5 Sony affichent beaucoup plus de points d'image, ces définitions rendant chaque détail plus net. De plus, la technologie Tempest 3D AudioTech répartit les sons tout autour du joueur, afin de repérer la direction d'un bruit. Les jeux PS4 fonctionnent aussi sur cette console, en plus des titres PS5, ce qui élargit la bibliothèque pour jouer seul ou en famille. Le port Ethernet accueille un câble réseau, une connexion souvent plus régulière pour les parties en ligne.\nCliquez ici pour profiter de l'offre sur la console PS5 Sony sur Amazon\n» À lire aussi : Fini les talons inconfortables, ces mocassins Clarks sont les chaussures tendances de cette fin d’année\nCe contenu a été rédigé par un expert de l’équipe La Dépêche du Midi Shopping. Les prix mentionnés sont fournis à titre indicatif et peuvent évoluer. Certains articles peuvent comporter des liens affiliés pour lesquels La Dépêche du Midi peut percevoir une commission si vous effectuez un achat.",
    "pub": ""
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPeURaMGtWc3VqWHY0bkFwcXBEdmNZWGgtN0R4NWpZaHc5YkpXVWRwcmtmNVE4X2NJSlVMaGVmNXhZVk1HUWFKcFFtUEtHa3lwb2Uyb0RUTFpzSlRrOHhRY2NkUmluQ2JhZEFZSlhwVjFLQk1YRGdJT2xVcV94RHZ4SGpPdnZaUWl5NWxEYUZtTXJfbmpTakMtdkhhV1JNdTBFdFh2bXI2b0lZelQzSXFwaDJ0NlQ2djZtSldjUU92Y3NGZ2tDUjhYd1l1NHd6WXRtU3MydGhpQ2RfTEZPblM2R3hrWUJGTHdQYVBIX0l5N2NmTVFK?oc=5",
-   "s": "La Crème Du Gaming",
-   "d": "2026-11-06T17:30:43+00:00",
-   "lang": "fr",
-   "t": "GTA 6 Online : le patron de Twitch évoque une date de sortie imminente après ses discussions avec Rockstar",
-   "u": "https://www.lacremedugaming.fr/jeux/gta/gta-6/gta-6-online-le-patron-de-twitch-evoque-une-date-de-sortie-imminente-apres-ses-discussions-avec-rockstar-233832.html",
-   "img": "https://sf.lacremedugaming.fr/wp-content/uploads/creme-gaming/2026/11/gta-6-online-le-patron-de-twitch-evoque-une-date-de-sortie-imminente-apres-ses-discussions-avec-rockstar-1200x660.png",
-   "chapeau": "En quelques mots, le patron de Twitch a relancé les théories sur la date de sortie de GTA 6 Online après ses échanges avec Rockstar Games. Ses propos suffisent-ils à annoncer un multijoueur dès 2027 ou ne sont-ils qu’un signal parmi d’autres ?",
-   "txt": "En quelques mots, le patron de Twitch a relancé les théories sur la date de sortie de GTA 6 Online après ses échanges avec Rockstar Games. Ses propos suffisent-ils à annoncer un multijoueur dès 2027 ou ne sont-ils qu’un signal parmi d’autres ?\nUn simple commentaire du patron de Twitch a suffi à relancer la machine à rumeurs autour de GTA 6 Online . Dans une interview, Dan Clancy a laissé entendre que le multijoueur de Grand Theft Auto VI arriverait « l’année prochaine », après avoir discuté des plans de Rockstar Games avec le studio lui‑même.\nPour une communauté qui scrute la moindre info, cette phrase ressemble à une quasi date de sortie pour le futur mode en ligne de GTA 6 . Sauf que du côté officiel, Rockstar continue de présenter le jeu comme une expérience purement solo pour sa sortie du 19 novembre 2026 sur PlayStation 5 et Xbox Series X|S . Alors, vraie fuite ou simple projection d’un partenaire clé du streaming ?\nÀ ce jour, la communication officielle est limpide : GTA 6 arrive le 19 novembre 2026 sur PS5 et Xbox Series X|S comme « une expérience solo ». Ni le nom GTA 6 Online , ni celui de « GTA Online 2 » n’apparaissent dans les communiqués de Rockstar, ni dans les fiches PlayStation ou Xbox.\nCôté maison mère, le patron de Take‑Two Interactive , Strauss Zelnick , a martelé en assemblée d’actionnaires que le GTA Online actuel continuerait d’être supporté « après la sortie de GTA 6 et au‑delà ». Autrement dit, officiellement, il n’existe pour l’instant aucune date de sortie de GTA 6 Online , ni même la confirmation formelle d’un nouveau mode multijoueur dédié.\nDans un entretien accordé à Bloomberg en septembre 2026, Dan Clancy explique que Twitch attend « un gros pic » d’audience avec la sortie de GTA 6 , puis « un pic encore plus important l’année prochaine, quand ils lanceront le multijoueur ». Il ajoute que Twitch a passé « beaucoup de temps à discuter avec Rockstar de ses plans ».\nComme GTA 6 sort fin 2026, la communauté et les médias traduisent logiquement ce « l’année prochaine » par une fenêtre 2027 pour le multijoueur. Ce n’est pas une date gravée dans le marbre, mais une indication solide d’un partenaire qui se prépare à deux vagues de contenu : solo en 2026, multi en 2027. Reste que Clancy parle en patron de Twitch, pas en porte‑parole officiel de Rockstar.\nUn rapport de GamesBeat , repris notamment par IGN, évoque une sortie PC de GTA 6 au premier trimestre 2027, avant fin mars. Rockstar et Take‑Two n’ont pas commenté, mais si cette fenêtre se confirme, elle tomberait exactement au moment où Dan Clancy situe le lancement du multijoueur.\nPour beaucoup d’analystes, le scénario le plus crédible est donc une énorme « seconde vague » en 2027, avec lancement PC et arrivée du mode en ligne de GTA 6 rapprochés, histoire de recréer un raz‑de‑marée digne de GTA Online . À l’échelle d’un jeu service, parler de date « imminente » pour 2027 n’a rien d’exagéré : il s’agirait de quelques mois seulement après la sortie console.\nConcrètement, les joueurs surtout intéressés par le solo peuvent acheter tranquillement la version 2026, sans attendre un hypothétique multi. Ceux qui ne jurent que par l’en ligne feraient en revanche mieux de surveiller steam-propose-4-jeux-pc-gratuits-tres-bien-notes-vous-pouvez-les-telecharger-des-maintenant, les appels investisseurs de Take‑Two et les fiches PS5 / Xbox : tant qu’un mode multijoueur n’y apparaît pas noir sur blanc, il reste imprudent de investir dans GTA 6 uniquement pour un « GTA 6 Online » encore non annoncé.",
-   "pub": "2026-11-06T17:30:43+00:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPc0liRTZRRGpGTVQ1VmVQRDRfQWtNelpKbXFxSGZqY3FESlhqRkVnSzJNbm5oRVZDa21COVpnZExDaWh2anJ6NVlFWV9CdXdXRDZLLUJJeF9Yb2tBRE9ha21PaFNQeDBnMXg4eVlxSXd5dkNDSkpiRE5TVEFRVW55QlRoUHJRVjROTm5B?oc=5",
-   "s": "INFINITY AREA",
-   "d": "2026-11-06T17:01:00+00:00",
-   "lang": "fr",
-   "t": "GTA 6, la sortie PC pourrait arriver bien plus tôt",
-   "u": "https://infinity-area.com/article/gta-6-la-sortie-pc-pourrait-arriver-bien-plus-tot",
-   "img": "https://infinity-area.com/medias/statics/large/2026-11/jason_and_lucia_150m-_zbmcy2zr.webp",
-   "chapeau": "GTA 6 pourrait sortir plus rapidement sur PC. Un ancien directeur de Rockstar North évoque la menace des copies créées par intelligence artificielle.",
-   "txt": "Rockstar Games GTA 6, sa sortie sur PC pourrait arriver bien plus tôt grâce à l'intelligence artificielle Florian Prache Publié le 06 Novembre 2026 à 18h01 2 minutes de lecture Ajoutez-nous à vos sources sur Google Suis toute l’actualité gaming sur WhatsApp Sommaire GTA 6 sur PC pourrait arriver plus rapidement que prévu L'intelligence artificielle pourrait pousser Rockstar à accélérer la sortie PC Une sortie PC début 2027 reste possible, mais rien n'est confirmé Résumer l'article Résumé rapide de l'article\nGTA 6 pourrait débarquer sur PC beaucoup plus rapidement que les précédents jeux de Rockstar Games. Dans une interview accordée à Rock Paper Shotgun, Obbe Vermeij, ancien directeur technique de Rockstar North, estime que la menace de copies non officielles créées avec l'intelligence artificielle pourrait pousser le studio à accélérer son calendrier. Une hypothèse qui intervient à quelques jours de la sortie du jeu, prévue le 19 novembre 2026 sur PS5 et Xbox Series X|S.\nÀ l'approche du lancement de GTA 6 , la question de sa disponibilité sur PC revient au centre des discussions.\nDans une interview publiée par Rock Paper Shotgun , Obbe Vermeij, ancien directeur technique de Rockstar North, considère que Rockstar Games et Take-Two pourraient avoir intérêt à rapprocher les sorties consoles et PC.\nHistoriquement, Rockstar privilégie les consoles avant de proposer ses jeux sur ordinateur. GTA 5 avait notamment attendu environ 19 mois avant de débarquer sur PC, tandis que Red Dead Redemption 2 avait nécessité près d'un an.\nMais avec l'évolution des outils d'intelligence artificielle, cette stratégie pourrait devenir plus risquée financièrement pour l'éditeur.\nSelon Obbe Vermeij, certaines personnes pourraient tenter d'utiliser l'IA générative pour transformer la version PS5 de GTA 6 en portage PC non officiel.\nCes adaptations seraient probablement moins abouties que le travail réalisé directement par Rockstar, mais elles pourraient malgré tout représenter un risque pour les ventes de la future version officielle.\nL'ancien développeur estime qu'une telle opération pourrait nécessiter des dizaines de milliers de dollars en ressources de calcul et beaucoup de temps. Il considère néanmoins que l'immense popularité de GTA 6 pourrait encourager certains à essayer.\nIl précise cependant ne pas connaître les intentions actuelles de Rockstar Games . Ses propos constituent donc une analyse personnelle, et non une information obtenue auprès des équipes chargées du développement.\nCette hypothèse vient renforcer les récentes discussions autour d'une sortie de GTA 6 sur PC dès le début de l'année 2027 , une fenêtre déjà évoquée par plusieurs sources, mais toujours sans confirmation officielle.\nAlors que GTA 6 sortira le 19 novembre 2026 sur PlayStation 5 et Xbox Series X|S , Rockstar n'a toujours pas communiqué de date précise pour la version PC.\nUne arrivée au premier trimestre 2027 réduirait considérablement le délai habituellement observé entre les versions consoles et PC du studio.\nPour le moment, les déclarations d'Obbe Vermeij apportent surtout un nouvel éclairage sur les enjeux économiques de l'intelligence artificielle dans l'industrie du jeu vidéo.\nLes joueurs PC devront donc attendre une annonce officielle de Rockstar Games pour savoir si GTA 6 arrivera réellement aussi rapidement sur leur plateforme.\nAction FPS Simulation Les liens présents dans cet article peuvent rediriger vers des sites partenaires, des programmes d'affiliation ou des sites externes. Notre rédaction utilise des outils d'intelligence artificielle uniquement pour assister certaines tâches de rédaction.\nFlorian Prache Fondateur et rédacteur en chef depuis 2018, spécialiste du jeu vidéo et des productions AAA. Supercell Creator officiel et créateur de contenu partenaire de Monopoly GO. Développeur web et partenaire IGDB Twitch.\nLe Meilleur de la Pop Culture est Là Vous êtes passionné par les Jeux Vidéo, les dernières tendances High-Tech ou les Films et Séries. Suivez-nous pour ne rien manquer de l'actu qui compte, directement dans votre feed.",
-   "pub": "2026-11-06T18:01:00+01:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQnNOOExtelFvbGdnX0k1S0pMZzZydERDczdBcEpiLXk3MjJxVm9sN1FXQXBTTTVxdEtWYlBKelF4dUhQYzFlY1A0V0hUOF9mdkFQWGUwVGl4TFEtRUJ5ZWFKM3RtWnlHN1BPaWNfaWw4dkt1Q3RxSEtmc0JQNTNZTDBGNUhQMVFVLVFRbjZpV3RwdUFhR3A1R3I3SVFkM1QwQVg0Zll0Yw?oc=5",
@@ -789,19 +785,6 @@
    "chapeau": "",
    "txt": "Cyberleek hackers, who have been publishing footage from Grand Theft Auto VI since August, announced that they have reached the “end of the road” and intend to stop the leaks.\nOn October 14, Cyberleek published a new short video featuring Lucia. According to information on their website, the shown footage relates to the final missions of GTA VI, however, it is presented without context and does not reveal details of what is happening in the story.\nCL has an ending. The possibility of leaking it was considered. This would cause serious damage to Take-Two, but would spoil the experience for players who are not at fault. Cyberleek According to them, the latest leaks, containing fragments of the final missions, are intended to demonstrate what materials they possess without revealing key plot events.\nCyberleek also reported the activation of a so-called “dead man's switch” mechanism in case of their disappearance. They claim that it is intended solely for publishing plot spoilers and will not be triggered unless they are touched.\nThe leaks are stopping. At least for now. The hackers also rejected accusations of a massive token dump, emphasizing that they initially considered them a donation, not an investment, and did not promise buyers profits. They also criticized bloggers who allegedly spread unreliable information about what is happening.\nThe $30 million goal was not reached, so they will not release the GTA VI build. Cyberleek noted that anonymously uploading more than 200 GB of data would carry certain risks.\nNever miss our news Add this site to your preferred sources to see us more often Add on Google",
    "pub": "2026-10-14T16:46:22+03:00",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdV9DY0V0LXFhZjBQOEYzckdORHlCQlY4OVpVNm1VTE1UOGpsanJPSmlQV0NOR2RGQmVfZ0ZFTnRpaXY1RHVTaVhSY05JdzVmaUVWakhNRG9HdUVVc1l2THBnWEJMckNjTWRnY2dJZEJaY3R1YVhMb1RtVVh4dlBhZ1lyYTh3ZkNtSFprNmxjSmQ2Ynk5V1hwUm03M1d4TEdpS3oxRHZFR28xc0hUblgyTjhKbktNdVVKdHNtbDJ1QVFVR3c?oc=5",
-   "s": "IGN France",
-   "d": "2026-10-14T07:00:00+00:00",
-   "lang": "fr",
-   "t": "La cryptomonnaie de Cyberleek chute brutalement et les fans de GTA 6 sont heureux",
-   "u": "https://fr.ign.com/grand-theft-auto-6/93065/la-cryptomonnaie-de-cyberleek-chute-brutalement-et-les-fans-de-gta-6-sont-heureux",
-   "img": "https://sm.ign.com/t/ign_fr/news/g/gta-6-fans/gta-6-fans-celebrate-as-cyberleek-cryptocurrency-crashes-har_tunf.1200.jpg",
-   "chapeau": "L'intéressé menace de leaker une version présumée du jeu pesant 200 Go.",
-   "txt": "Les fans de GTA 6 sont en liesse après le crash brutal du memecoin Cyberleek hier, qui a fait capoter l'arnaque en cryptomonnaie bien rodée du leaker éponyme. Cyberleek avait en effet lié divers types de fuites de gameplay de GTA 6 à la capitalisation boursière de son token du même nom, allant de 5 à 25 millions de dollars. Le leaker a également menacé de publier une version complète du jeu – censée peser plus de 200 Go – si sa crypto atteignait une capitalisation boursière de 30 millions de dollars.",
-   "pub": "2026-10-13T12:40:34+00:00",
    "cyberleek": true
   }
  ]
