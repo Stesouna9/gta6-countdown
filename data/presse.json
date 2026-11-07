@@ -1,6 +1,22 @@
 {
- "maj": "2026-11-07T02:44:09+00:00",
+ "maj": "2026-11-07T03:04:22+00:00",
  "articles": [
+  {
+   "gn": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPb0hyRnB5YXNFUHdvMUZyS19pZzlXazNUblpzTWFRcmY1cXdPd09fM0VQeHZjbG5iVmF2YjdERU9Kb1JSMWEyMUprc3BPVG9kMDM4ZGdXTk52LTJfOHB1eTVCamJVVnBWMWFpMWV1WEJGMm1xYm9sS0FMTjVjeXRHazRjVnZ5aTA?oc=5",
+   "s": "Polygon.com",
+   "d": "2026-11-07T02:43:00+00:00",
+   "lang": "en",
+   "t": "GTA 6's biggest competition officially arrives in 2027",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOSm81TVlVWGt4RUUyTkttN1ZTdVMwTmVPdDNybVZKM2pXN1R5OFlBVzR3ZVF3V3dvcHBrOTVlX1VrQmpwUTVuTi1yOHRZVy1EYlBoZGsyNE9hc05zb0ROeG9Ha0NEUk1KbjI2TzhvamNvOTJzVFVpc3lGNFotRWFkeDg5dTFMbVZvaC1NNEV3QWtpNEc1U296U2JWbUNkOG1pcDJHM1hoRXNFT2lQRnl4MDZza0lTc0pka1FackJUcFpuY19ueTRiWWJ1UlM0MllCWmNCbHVYSXNjcVpsSjZhZTRDX19leW5QOGFyMDRMdmNtV0hUV3NoeGphYUY?oc=5",
+   "s": "Notebookcheck.fr",
+   "d": "2026-11-07T01:40:00+00:00",
+   "lang": "fr",
+   "t": "Selon une fuite, la taille du fichier de GTA 6 sur Xbox diffère de celle sur PS5, avec un possible patch le jour de la sortie",
+   "erreur": "HTTP Error 429: Too Many Requests"
+  },
   {
    "gn": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNV2RfV1JzWno3YU5lbDQ4VDVrLXdPUXVJT0lIZkh1anZoZWpFamlOZ2pWbzZwV0NvbDd3OHpwZVEzai1IZUQ0YUdOejVoOHdzQXpVQzhETFdULTRkeWt6eU83cThId3VDX012blhiTnZRemJXOEdBTEJzbFJrSnlGdUZjcDZQSHFETnY2eg?oc=5",
    "s": "MMOEXP",
@@ -25,6 +41,14 @@
    "txt": "Grand Theft Auto VI is 12 days from launch, and its install size just got messier. Notebookcheck reported that the Xbox Store shows 209.86 GB for the game while Microsoft backend data shows 225.34 GB. The GTA 6 Xbox file size leak does not match the PlayStation side, and a release-day patch could explain the gap, though nobody has confirmed that.\nThe numbers matter because preloading starts on November 10, and players with a nearly full SSD will have to delete things before then. Rockstar Games has not confirmed either Xbox figure. PlayStation’s official listing tells buyers to clear at least 212 GB on PS5, and a separate reported PS5 download size of 210 GB remains unconfirmed.\nThis analysis separates what is confirmed from what is leaked, does the arithmetic on the gaps, and explains what a day-one patch would change for your download. It also covers the Japan build rumor, the preload schedule, and what to do this weekend. For other launch-week threads, see our look at the pending rating and eight content descriptors .\nGoogle · Preferred Sources Don't miss new tech stories on Google\nAdd Shattered once in the Google app and our stories show up in your news suggestions.\nNotebookcheck’s report rests on two numbers from two different places. The first, 209.86 GB, is what the Xbox Store displays for the game. The second, 225.34 GB, comes from Microsoft backend data, which is the kind of metadata that sits behind a store page and can differ from what the page shows to customers.\nNeither figure comes from Rockstar Games. Both are described as leaked or backend data, and the studio has not published a final Xbox download size. That distinction should shape how you read every headline on this story. A store field and a backend field can be filled in at different times by different teams, so a mismatch does not prove a hidden problem.\nThe gap between them is simple subtraction. 225.34 GB minus 209.86 GB leaves 15.48 GB, or about 7.4 percent more than the Store figure. That is a large chunk of data, roughly the size of a hefty standalone game on its own. If units differ between the two fields, the real gap could be a little smaller or larger, which is one more reason to treat the comparison as a rough guide.\nNotebookcheck’s headline frames the difference as a release-day patch being possible. That wording is careful, and it should be. The outlet points to a patch as a plausible explanation without claiming one exists. We follow the same line here: the patch theory is a hypothesis, and the only confirmed facts are the release date, the platforms, the PS5 storage requirement, and the preload timing.\nThe table below lists every size figure circulating this week and where it stands. Only one of them is a published requirement from a platform holder, and it is a minimum free-space instruction rather than a file size.\nRead that table from the bottom up if you want to know how much weight to give each number. The Japan figure has the thinnest support, the PS5 download figure is a report with no official backing, and the Xbox pair is a leak with a plausible technical story behind it. The PlayStation requirement is the only line backed by an official page.\nPlayStation’s official game page tells players to clear a minimum of 212 GB on PS5. That is 2.14 GB above the Xbox Store figure of 209.86 GB and 13.34 GB below the 225.34 GB backend figure. On paper, the Store figure and the PlayStation instruction sit close together, while the backend number stands apart.\nComparing them directly is tempting, but the two numbers measure different things. A minimum free-space requirement usually bakes in headroom for temporary files and decompression, so it tends to exceed the pure download size. The reported 210 GB PS5 download figure, if accurate, would sit only 0.14 GB from the Xbox Store number. That would suggest the two platforms ship nearly identical base builds, with the backend figure representing something extra.\nThat reading is speculation, and it depends on a PS5 figure no one has confirmed. We flag it because it explains why the story has traction. If the PS5 and Xbox Store numbers match within a fraction of a gigabyte, the odd one out is the 225.34 GB entry, and the obvious question becomes what lives in that extra 15.48 GB. Our earlier coverage of the GTA 6 PS5 Pro leak showed how quickly console-side claims outrun evidence in the weeks before a launch.\nDigital storefronts do not pull their numbers from a single source of truth. A stor",
    "pub": "2026-11-07T00:51:24+00:00",
    "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPdUQ0ZmlUckNlanpLZEVVdDROVVNZTnpKODFkWU9MTS1yZ2FTajYxeHhuSTVVRU42NmdVRnZCdWh4SXhDR2plRkNPNnk5TFNoRjhYRHZidW4wV29pZ1ZWRTdNTGNXYXNXd2Y3X0V5aDkwTmk4bFQ0VFdVb1pFeWV4ZzVucDlJOVhscG1KMg?oc=5",
+   "s": "Complex",
+   "d": "2026-11-07T00:33:45+00:00",
+   "lang": "en",
+   "t": "Rockstar and West Coast Customs Build Six Real 'GTA VI' Cars, From Lowriders to Donks",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZkNyTkFXeVdXU1ZGY1VKaXRfX25oVk1ZSjI1c2ZxNUlHbE9HMWN1SmowOGwtTWFRTE9LdWl5TllVZHcxMVdFWUZQQkZlWlRYLXNGaEtOQjJDZU9xcjFsYmpWbjF1RG1QQVY1RGt6R1JSWk4zQXZndGpiNENJQkQ1N1ZtaVpZVm5hNlQ2ejhCaw?oc=5",
@@ -133,20 +157,12 @@
    "erreur": "429 : passage suivant"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMzFISVdFdHd3Wk5XYlc3YjVrMndvbU5vU2N4cFhHd0tteTFySmwycFJrMnE5QVN0bkNzV0tQRGRaNmVSLTFlZXVKSTl0encyOWFsZ0h3WDIzeTQwd1FTalVESDU5MTJCUDRfUGZoa0tFUlppNzBIRnF3XzVmT2JkTVVZQkpDRlZCNUpTOXU4bnU?oc=5",
-   "s": "IGN",
-   "d": "2026-11-06T21:57:49+00:00",
-   "lang": "en",
-   "t": "Pilot \"Paints\" Impressive GTA 6 Mural In the Sky - IGN Daily Fix",
-   "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPYVdCdldMamRFZHlveHZGRW9XampfV0xZUmg5Z2VxVEhfN2FGbVZZM3FncVBWZUFTeEF2Ymx2OC1JTzZETTFhZmRnVGVyUWZrOWNuWDNjZEl6NW84em5HLXhjMVFRcXRCdGhkNmRXalpLY3V3UnRSQm9KdW54QmNTbi1DVU9wZnB4cHNKNU1YUXl4dC1GYnZWWjdJU2REY1E?oc=5",
-   "s": "EGW.News",
-   "d": "2026-11-06T21:05:26+00:00",
+   "gn": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxON1JDNGNiR1EyTjRkUlpQelcyenRGSHhjeE1BT2JKTFd0LWNtVm1WcmZGemtrcHRVWThXRTNyZE9XOUZUajhlaGhKbU1VNExuT04zQmZZcGIyVnY2aFp6cTdYZ2RGTktDU1J6WW9VU1pZdzFzYkQyMjAwRy1QempJZkptNmJTaWFjMUh2ZU81N1JmV1VLcmVJQ3F2SGNDbnJRcTZyeGZVR2xCbHRBU25odU9jRmtqM1gzRzdWeVF1eEcybHpnN1NFYVlBSmtZVDNUUFE?oc=5",
+   "s": "JeuxVideo.com",
+   "d": "2026-11-06T21:44:05+00:00",
    "lang": "fr",
-   "t": "Les joueurs se demandent si la nouvelle fuite supposée du gameplay de GTA 6 est un fake ou pas",
-   "erreur": "HTTP Error 429: Too Many Requests"
+   "t": "Xbox déploie une technologie majeure avant la sortie de GTA 6 : pourquoi le FSR 4.1 change tout",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSks1OXZ5dk9YRVpfSVBnSmRralBSWmV5c0szUWVwSUVzdXIyN3VfYUlGN1JILTlobHJNUXREQXVvc2R3cjh1RldiUlFxR3lpbUV0QnB3ck1WaEt5eXpBTEtaX1NNemNPeWZ0ZlozVVRkVDQydnIzdGtSMzg3cDJpYkdLTkpqcm4yTjNncEp2Mnh0cDZpcEdjRDI1dw?oc=5",
@@ -154,6 +170,15 @@
    "d": "2026-11-06T21:05:26+00:00",
    "lang": "en",
    "t": "GTA 6 New Leak - Is It Real or Is It AI-Fake?",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPYVdCdldMamRFZHlveHZGRW9XampfV0xZUmg5Z2VxVEhfN2FGbVZZM3FncVBWZUFTeEF2Ymx2OC1JTzZETTFhZmRnVGVyUWZrOWNuWDNjZEl6NW84em5HLXhjMVFRcXRCdGhkNmRXalpLY3V3UnRSQm9KdW54QmNTbi1DVU9wZnB4cHNKNU1YUXl4dC1GYnZWWjdJU2REY1E?oc=5",
+   "s": "EGW.News",
+   "d": "2026-11-06T21:05:26+00:00",
+   "lang": "fr",
+   "t": "Les joueurs se demandent si la nouvelle fuite supposée du gameplay de GTA 6 est un fake ou pas",
    "erreur": "429 : passage suivant",
    "cyberleek": true
   },
@@ -180,14 +205,6 @@
    "chapeau": "And it",
    "txt": "(Image credit: Rockstar Games) Copy link Facebook X Pinterest Flipboard Email Share this article 0 Join the conversation Follow us Add us as a preferred source on Google Newsletter Subscribe to our newsletter In the run-up to GTA 6 's November 19 launch, Rockstar has multiple classic Grand Theft Auto games on sale on Steam – and, nearest I can tell, only on Steam.\nThe Nintendo Switch eShop actually has a competing deal for the Grand Theft Auto Definitive Edition Trilogy, which is down 67% to $19.79, but that sale ends in 11 hours from the time of writing. On Steam, several GTA games are discounted until November 19 for an obviously timed special promotion.\nOn Steam, you'll find four games on sale via two actual products:\nYou can't argue with GTA 4 for $6, but you might argue with this version of, in particular, GTA 3.\nThe Definitive Edition Trilogy was famously panned at launch for wonky graphics and poor technical performance that, for the most part, has been patched up in the years since. However, the PC port for GTA 3's Definitive Edition is uniquely poorly rated for reasons that will sound familiar.\nHere's how the three games in this trilogy compare in Steam reviews:\nThe reception to the two other games in the trilogy improved over time while GTA 3 steadily declined. Much like the day-one reviews, today's Steam players complain of Rockstar launcher interference, bugs, shoddy art, broken cinematics, and performance dips.\nWeekly digests, tales from the communities you love, and more\nCuriously, perhaps unrelated to the quality of the port, some of today's gamers also don't seem to take too kindly to GTA 3's design sensibilities, it being slightly older than Vice City and San Andreas, and certainly a rawer open-world experience.\nThomas Williamson, the CEO of the outsourced trilogy's original developer, Grove Street Games, said earlier this year that the criticism faced at launch was deserved.\n\"I agreed with most of the people's reactions,\" he said. \"But unfortunately, I feel like we did not agree with how the game was released and the response to it from a development side. And I think that would have changed the narrative significantly.\"\nHowever, he added, \"at the end of the day, looking at the behind-the-scenes metrics on those games, there were a lot of people who were playing them and really enjoying them.\"\nYou won't find Grove Street Games listed on the store pages for these games anymore. Previously, Williamson called it a \"dick move\" for Rockstar to have Grove Street's name removed.\nGTA 6 being pirated is just \"a fact of life,\" says CEO of Rockstar owner, and lawyers are ready if it becomes a problem\nAustin Wood Senior writer Austin has been a game journalist for 12 years, having freelanced for the likes of PC Gamer, Eurogamer, IGN, Sports Illustrated, and more while finishing his journalism degree. He's been with GamesRadar+ since 2019. They've yet to realize his position is a cover for his career-spanning Destiny column, and he's kept the ruse going with a lot of news and the occasional feature, all while playing as many roguelikes as possible.\nPlease logout and then login again, you will then be prompted to enter your display name.",
    "pub": "2026-11-06T20:53:16Z"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxON1JDNGNiR1EyTjRkUlpQelcyenRGSHhjeE1BT2JKTFd0LWNtVm1WcmZGemtrcHRVWThXRTNyZE9XOUZUajhlaGhKbU1VNExuT04zQmZZcGIyVnY2aFp6cTdYZ2RGTktDU1J6WW9VU1pZdzFzYkQyMjAwRy1QempJZkptNmJTaWFjMUh2ZU81N1JmV1VLcmVJQ3F2SGNDbnJRcTZyeGZVR2xCbHRBU25odU9jRmtqM1gzRzdWeVF1eEcybHpnN1NFYVlBSmtZVDNUUFE?oc=5",
-   "s": "JeuxVideo.com",
-   "d": "2026-11-06T20:43:19+00:00",
-   "lang": "fr",
-   "t": "Xbox déploie une technologie majeure avant la sortie de GTA 6 : pourquoi le FSR 4.1 change tout",
-   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTE9aWHV3UTd2WUhoMUNBOG1wcXhDSGROTWFpZjgxUjFGaEVMWWg2S0R1Vml4dks5eXJNOUxKRXJRWmxueVlRTi1scGM5Y0FsNlNxQUVKTTZ4MkxhcTMwRW5rcFVMRXRzNXktVlliSnpPa2s4SHBwaTdhcEQzSEpZLXJzaUp4UHJaemJZTTlGUFpteDROendILTdYYUtyMXo2VEtZZHhCTU5ucmfSAb8BQVVfeXFMTXR4VzlNZWxJdmljOU9HWkhyWi1uWVJYblFBZERfQjhUZEduazdJcm9PTWdrekpYY29VNzZTT05MOV80TkgwT0ZYM0E5aGlHZmdKdXkwNHNDdHBySTlwbi1zQ2hOUXUtWTVXaGpxWTdaQ1NzaTNBWHlzN0dDdmxlY3JLdzJYVVZaN3NtdUFqeWJlRHByam9CV2d4UGk0cF83NEZwLUc1VVNuZWNFQ0dlTURHLTdOSkFnYTRWZlNRTm8?oc=5",
@@ -228,17 +245,9 @@
   {
    "gn": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNkhXMmw3WWZvUHdmNEV0a2d1dGZubnlieDBNdDRQMjZDQUQ3aDd5Q0Qwa1dUNDdocUEtNUhkUWJPd3l1MEhmUjl0THNkZkhwWDBjVUlMYlhJREZZM3dPMGk2UXdTOEdYeXRnVDFiR2dWdU5lYW1kbVJzalE4elVwNVBwc3J6WGgySVc0bk9VTVc5RG1mR2F0YzZfMDRvWjNK?oc=5",
    "s": "GameSpot",
-   "d": "2026-11-06T20:26:48+00:00",
+   "d": "2026-11-06T20:23:39+00:00",
    "lang": "en",
    "t": "Can You Upgrade To GTA 6’s $100 Edition? Yes, And It’s Easy–Here’s How",
-   "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVlJqY2ZPMTRWZUk2anU0ZUNzVzNuYlJVQWlUYVU2MUY2b3c0YXFuc2I1X0hKZ3RFUlk5UWJLWUpmdnYtUi02a051SnVZejR0dlZVQU9ONDA5aUpQZzR5ZXJ2YU1oSWwtLTlLMm1TTEJ4M2ctZkgzQmRTTHZ6bFI2Zk1KQ09LaEUxTkdWaWt4M2tXcm05dU9TcndxVnU1dGgzYlllbA?oc=5",
-   "s": "RockstarINTEL",
-   "d": "2026-11-06T20:21:26+00:00",
-   "lang": "en",
-   "t": "New GTA6 Screenshots have released comparing real life cars to in Game Cars",
    "erreur": "429 : passage suivant"
   },
   {
@@ -800,15 +809,6 @@
    "chapeau": "The Cyberleek memecoin is now plunging further and further.",
    "txt": "As Mashable and our colleagues at PCMag just reported, Grand Theft Auto VI leakers Cyberleek have seemingly abandoned their threats to leak a full build of the game – at least for now.\nWhy? Because the leakers had claimed that the release of the leaked build was tied to their memecoin. If GTA 6 fans pumped Cyberleek's cryptocurrency, they would receive the leaked game build as a reward.\nThat play failed spectacularly for Cyberleek. In fact, it seems to have fully backfired.\nThe Cyberleek memecoin's market cap hit a high of $7.8 million on October 11, shortly after the leakers claimed they would release the full build of GTA 6 supposedly in their possession. The catch? The Cyberleek memecoin had to hit a market cap of $30 million first. The best tech deal this week The Apple iPhone 18 Pro is free right now with T-Mobile\nWhile some GTA 6 fans appeared to have bought into the memecoin in an attempt to hit Cyberleek's goal, $7.8 million is still far short of the $30 million the leakers wanted. And since then, as it became obvious that most GTA 6 fans weren't going to give in to Cyberleek's demands, the memecoin has plunged even further, with a current market cap of $1.17 million.\nCritics of Cyberleek celebrated the memecoin's failure, calling it a scam.\nCyberleek had been successful with their memecoin play before, giving those who bought their memecoin exclusive access to polls that determined what GTA 6 footage the leakers would release next.\nHowever, it seems Cyberleek overplayed their hand this time around, and the full build, which they claim is 200GB, appears to be staying under wraps for now.\nWith that said, Cyberleek is still using their supposed access to a full build of GTA 6 to try to escape legal action from Take-Two, the parent company of GTA 6 developer Rockstar Games. The leakers claim that there is a \"dead-man's switch\" that will automatically release the ending of the game if there is an attempt to take down Cyberleek.\nMatt Binder joined Mashable's tech vertical in 2018, where he covers social media, tech policy, cybersecurity, online scams, cryptocurrency, AI, creator news, weird tech, and other related tech beats.",
    "pub": "2026-10-14T19:40:59+00:00",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5UZlVkNWtTSUE4ZXo2TFNHTktrNVV0MVBRUlZPRl95bmJoWVV2aDNZdXdKU0N3eEdCdGp2Nm1lbndLdDRsV3k3SHVZQWctQXVZc3Z1MUlySXpVVGd5b0hrWDJPczJsbGc?oc=5",
-   "s": "Mashable",
-   "d": "2026-10-14T15:31:42+00:00",
-   "lang": "en",
-   "t": "'GTA 6' file size leak: Cyberleek reveals eye-watering storage requirements",
-   "erreur": "429 : passage suivant",
    "cyberleek": true
   }
  ]
