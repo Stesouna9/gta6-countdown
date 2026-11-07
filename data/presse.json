@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-07T01:42:47+00:00",
+ "maj": "2026-11-07T01:50:39+00:00",
  "articles": [
   {
    "gn": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPdEJrQko1OC1maHdUVi1DMWlYNnE0a1Y3d1NteTMzb0tlSUo2MnZzQkhDR19IZzR2Ni1HajYzbG1uTXVraGNhOWZGVklMVk5QM3VkUTlkOVhYQ2Z1RGRZVGNXOHBidEF4TF85YTRiM2VOYUpGQ2s2MlVrUzVyQXNmVDlyQzZ0NWs0VkE?oc=5",
@@ -32,8 +32,12 @@
    "s": "Mezha.net",
    "d": "2026-11-07T00:14:44+00:00",
    "lang": "fr",
-   "t": "La taille du fichier de GTA 6 sur Xbox diffère de celle de PS5 - une mise à jour dès le jour de sortie pourrait expliquer l’écart",
-   "erreur": "HTTP Error 429: Too Many Requests"
+   "t": "La taille du fichier de GTA 6 sur Xbox diffère de celle de PS5 - une mise à jour dès le jour de sortie pourrait expliquer l’écart | Межа",
+   "u": "https://mezha.net/fr/news/mezha-f8a3725ec4d3d0f342ef2020_la-taille-du-fichier-de-gta/",
+   "img": "https://mezha.net/fr/wp-content/mezha-og-r205/kd_image_generate/fr/1727813-43a64346f460.jpg",
+   "chapeau": "La boutique de Microsoft indique que GTA 6 pèse 209,86 GB, tandis que des données Xbox ayant fuité font état de tailles différentes selon les régions. Une mise à jour dès le jour de sortie pourrait expliquer l’écart avec la taille du téléchargement sur PS5.",
+   "txt": "La boutique de Microsoft indique que GTA 6 pèse 209,86 GB, tandis que des données Xbox ayant fuité font état de tailles différentes selon les régions. Une mise à jour dès le jour de sortie pourrait expliquer l’écart avec la taille du téléchargement sur PS5.\nLa boutique de Microsoft indique que GTA 6 pèse 209,86 GB, soit un chiffre proche de l’estimation de Rockstar, à 212 GB. Des données internes ayant fuité laissent toutefois penser que le préchargement sur Xbox pourrait être plus volumineux que prévu par rapport à la version PS5.\nAvant la mise à jour de la fiche sur la boutique, Cokymoky a partagé des données provenant de l’API DisplayCatalog de Microsoft. La version mondiale, destinée à la plupart des pays, pèse 209,86 GiB (225,34 GB). Les versions destinées à la Nouvelle-Zélande et à l’Australie ont une taille à peu près équivalente. La version japonaise est plus petite, avec 208,74 GiB (224,07 GB), ce qui pourrait indiquer que certains contenus ont été censurés.\nLes chiffres de l’API ne reflètent pas nécessairement l’espace de stockage que le jeu occupera sur un SSD après son installation. La fiche de la boutique Xbox, qui indique 209,86 GB, pourrait utiliser le GiB comme unité ou donner une estimation de la taille des fichiers après installation. L’article relève également que les jeux Xbox sont souvent plus volumineux que ceux de sa console rivale, car les systèmes utilisent des méthodes de compression différentes.\nUne mise à jour dès le jour de sortie pourrait aussi expliquer cet écart. Le 27 octobre, une analyse de données réalisée par PlayStation Game Size a révélé que le téléchargement de GTA 6 sur PS5 pesait 210 GB. Si la version Xbox est plus volumineuse, une mise à jour disponible le jour du lancement pourrait expliquer la différence.\nLa version japonaise diffère également de celles des autres régions. GTA 6 a reçu la même classification d’âge CERO Z (18+) que GTA 4 et GTA 5. L’organisme de classification est strict en matière de contenu sexuel et violent, et plusieurs scènes ont été supprimées de GTA 5. La taille du fichier de la version PS5 variera également entre les versions mondiale, néo-zélandaise et australienne, et japonaise, même si les chiffres exacts ne sont pas connus.\nLes préchargements sur Xbox Series X et S devraient être disponibles le 9 novembre à 7 heures de l’après-midi, heure de l’Est. Les joueurs PlayStation pourront commencer à préparer la sortie le 10 novembre à minuit, heure locale. Rockstar prévient que le jeu nécessitera :\n« jusqu’à 212 GB d’espace disponible, selon votre appareil. »",
+   "pub": "2026-11-07T00:08:13+00:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNXVGZURucjFSZnFTSGFfb2NmWFRFTnJjcnZnenR0X0dRdm5GNXVzOS1SNnNxVkwtRV9zMGg0cjQweTBoNmlUcXljNGpIX1pwS3l0Z2wxMWhNRFVpbU1fVUFMXzgzdFdrV3pwbDZiVVktZDk1QjBOQ0QzaHRDbWdVNjcwcGlvVXhQZGpTMFM5N3J3SDNVeEM2aWh5clVRSnNLUXRndDlOZ3ZJMllRbDBMS2E2MVJpbGNQN3Rr?oc=5",
@@ -102,7 +106,7 @@
    "d": "2026-11-06T23:02:00+00:00",
    "lang": "en",
    "t": "Get ready for GTA 6 with $500 off this 65-inch Hisense Mini-LED TV",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 402: Payment Required"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMia0FVX3lxTE84Qk5OVk9QOTFVZnZVWEVrLWRUM0R2VXlCLWNzeV9POVJsWHdYRDVsU0plVW43NGpzVjI3UlhlUWxJUzN6aHV1SUF1d2h0QUJ1TW83TkhLa0VTSm5DVTd1STFxYkZYUEpyZVMw?oc=5",
@@ -117,28 +121,24 @@
    "pub": "2026-11-06T23:00:00+00:00"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE82SXNQQ01OWEpGYjN2WTVNeFl4WGttU0dydWhKNkZCa01oWC1LVHVycTJkc1hoVlhSNHVFZFo1WGhkZGlQTG5qYUgtclkxa29ZZEpxMnFXZFN5N3RobHlSeXltREFYUQ?oc=5",
-   "s": "GameByte",
-   "d": "2026-11-06T22:39:10+00:00",
-   "lang": "en",
-   "t": "Your crimes can change GTA 6’s story thanks to a new Criminal Profile system",
-   "erreur": "429 : passage suivant"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbVRxaEZTSXJ6T1R2bzZvakFMZDNTcUp3ZGxtbzJqN2RTcW1vbXZEaWhzVUNVRVE4dkxCdW5FM244bkFLbXY0SzB4cUJUV3oxcDVZQU9PWmRXWDV4VTJGU2hwdE1ZVzhsU1E3TnA0YURFa1VoUGU1VVBmcDZjdk5IQlB5NXFCVnctTm9kMkZfTWcyQl9nRmY1bkNnVmh0T1ZleWYtbENfTW1lNkU?oc=5",
    "s": "Nacionale",
    "d": "2026-11-06T22:32:50+00:00",
    "lang": "en",
    "t": "Can you play GTA 6 on PS4 or Xbox One? No, it is only on PS5 and Xbox Series X|S",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9wczN2NjMwM0hDa1NVeUVKVEk5dHBOSXYzMlhETmtESERqcTdLdGxyX2NtZUVLY3JpWUh2QTE1bEhKVC1IVHZnVVFLb045TGVGSkhJa2JZTG9jRVhmTl9EMDRGWlBtWlI3bVA5YktmcVNEeF9OYTF4d0F3?oc=5",
    "s": "IGN Africa",
    "d": "2026-11-06T21:37:30+00:00",
    "lang": "en",
-   "t": "Slideshow: GTA 6 Launch Screenshots",
-   "erreur": "429 : passage suivant"
+   "t": "GTA 6 Launch Screenshots",
+   "u": "https://za.ign.com/grand-theft-auto-vi/244816/gta-6-launch-screenshots",
+   "img": "https://sm.ign.com/t/ign_za/gallery/g/gta-6-laun/gta-6-launch-screenshots_k4bn.1200.jpg",
+   "chapeau": "IGN is your site for Xbox One, PS4, PC, Wii-U, Xbox 360, PS3, Wii, 3DS, PS Vita & iPhone games with expert reviews, news, previews, trailers, cheat codes, wiki guides & walkthroughs",
+   "txt": "",
+   "pub": "2026-11-05T15:15:59+00:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPYVdCdldMamRFZHlveHZGRW9XampfV0xZUmg5Z2VxVEhfN2FGbVZZM3FncVBWZUFTeEF2Ymx2OC1JTzZETTFhZmRnVGVyUWZrOWNuWDNjZEl6NW84em5HLXhjMVFRcXRCdGhkNmRXalpLY3V3UnRSQm9KdW54QmNTbi1DVU9wZnB4cHNKNU1YUXl4dC1GYnZWWjdJU2REY1E?oc=5",
@@ -146,7 +146,7 @@
    "d": "2026-11-06T21:05:26+00:00",
    "lang": "fr",
    "t": "Les joueurs se demandent si la nouvelle fuite supposée du gameplay de GTA 6 est un fake ou pas",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSks1OXZ5dk9YRVpfSVBnSmRralBSWmV5c0szUWVwSUVzdXIyN3VfYUlGN1JILTlobHJNUXREQXVvc2R3cjh1RldiUlFxR3lpbUV0QnB3ck1WaEt5eXpBTEtaX1NNemNPeWZ0ZlozVVRkVDQydnIzdGtSMzg3cDJpYkdLTkpqcm4yTjNncEp2Mnh0cDZpcEdjRDI1dw?oc=5",
@@ -154,7 +154,7 @@
    "d": "2026-11-06T21:05:26+00:00",
    "lang": "en",
    "t": "GTA 6 New Leak - Is It Real or Is It AI-Fake?",
-   "erreur": "429 : passage suivant",
+   "erreur": "HTTP Error 403: Forbidden",
    "cyberleek": true
   },
   {
@@ -199,7 +199,7 @@
    "d": "2026-11-06T20:43:19+00:00",
    "lang": "fr",
    "t": "Xbox déploie une technologie majeure avant la sortie de GTA 6 : pourquoi le FSR 4.1 change tout",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTE9aWHV3UTd2WUhoMUNBOG1wcXhDSGROTWFpZjgxUjFGaEVMWWg2S0R1Vml4dks5eXJNOUxKRXJRWmxueVlRTi1scGM5Y0FsNlNxQUVKTTZ4MkxhcTMwRW5rcFVMRXRzNXktVlliSnpPa2s4SHBwaTdhcEQzSEpZLXJzaUp4UHJaemJZTTlGUFpteDROendILTdYYUtyMXo2VEtZZHhCTU5ucmfSAb8BQVVfeXFMTXR4VzlNZWxJdmljOU9HWkhyWi1uWVJYblFBZERfQjhUZEduazdJcm9PTWdrekpYY29VNzZTT05MOV80TkgwT0ZYM0E5aGlHZmdKdXkwNHNDdHBySTlwbi1zQ2hOUXUtWTVXaGpxWTdaQ1NzaTNBWHlzN0dDdmxlY3JLdzJYVVZaN3NtdUFqeWJlRHByam9CV2d4UGk0cF83NEZwLUc1VVNuZWNFQ0dlTURHLTdOSkFnYTRWZlNRTm8?oc=5",
@@ -219,7 +219,11 @@
    "d": "2026-11-06T20:37:17+00:00",
    "lang": "en",
    "t": "12 New GTA 6 Screenshots Reveal Insanely Detailed Cars",
-   "erreur": "429 : passage suivant"
+   "u": "https://insider-gaming.com/new-gta-6-screenshots-insanely-detailed-cars/",
+   "img": "https://insider-gaming.com/wp-content/uploads/2026/11/Vice_City_24-scaled.jpg",
+   "chapeau": "In a new post on social media, six new GTA 6 cars have been revealed via 12 screenshots that compare them to real-world cars.",
+   "txt": "In a series of screenshots shared by ‘hypedrive’ on social media, we get a look at six GTA 6 cars compared to their real-world counterparts, recreated in painstaking detail. The images showcase just how deep Rockstar Games has gone with car customization in the upcoming open-world epic.\nGrand Theft Auto 6 is set to drop on November 19th after years of development, and a fair chunk of what we’ve seen thus far from the game suggests that car culture will be a huge part of the experience.\nThe sheer definition of Grand Theft Auto concerns cars . Much of the franchise has revolved around buying, stealing, finding, racing, and customizing cars, and in GTA 6, that concept will be taken further than ever before.\nFrom legitimate track races to dirt bike rallies, and from car meets to several different customization shops to suit off-road vehicles, lowriders, and supercars, Rockstar has planned for every vehicular eventuality in this title.\nIn a series of images shared by hypedrive on social media, we get a closer look at six cars coming to Grand Theft Auto 6, but there’s a twist. These cars are displayed above or below their real-world counterparts, reflecting how accurately Rockstar is replicating these incredible vehicles.\nAmongst the selection are retro sports cars like the Grotti Cheetah, the police supercar , the Pegassi Tempesta, and the super-stylish lowrider, the Albany Manana. These cars aren’t necessarily new to Grand Theft Auto, but they’re being showcased in custom fits and colorways that we’ve not seen before.\nWhich car of the bunch is your favorite? Let us know your thoughts on the Insider Gaming Discord server .\nFor more Insider Gaming coverage, check out the news that DMZ is free to play this weekend . Also, don’t forget to sign up for our weekly newsletter\nGrant has been gaming for 30+ years and in the industry for 10+. You'll probably find him playing a post-apocalyptic game or an extraction shooter somewhere.",
+   "pub": "2026-11-06T20:37:17+00:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAwSFQwYVNJNE0xNVRYTnlqMWp2R1M3Qjh3eEdFM3BIVDYyZHhKWmZpUHJnOTJDVkoycFNRclRiZXJJdWUtR1NoeC1jdE9lSjRkZFlDTWk3bks2aTRza3hHd3lIdlE?oc=5",
@@ -234,12 +238,20 @@
    "pub": "2026-11-06T20:30:00.000Z"
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNkhXMmw3WWZvUHdmNEV0a2d1dGZubnlieDBNdDRQMjZDQUQ3aDd5Q0Qwa1dUNDdocUEtNUhkUWJPd3l1MEhmUjl0THNkZkhwWDBjVUlMYlhJREZZM3dPMGk2UXdTOEdYeXRnVDFiR2dWdU5lYW1kbVJzalE4elVwNVBwc3J6WGgySVc0bk9VTVc5RG1mR2F0YzZfMDRvWjNK?oc=5",
+   "s": "GameSpot",
+   "d": "2026-11-06T20:26:48+00:00",
+   "lang": "en",
+   "t": "Can You Upgrade To GTA 6’s $100 Edition? Yes, And It’s Easy–Here’s How",
+   "erreur": "HTTP Error 403: Forbidden"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOV2lMdnIwTWsxeVFGM0QwYjByckMyNTJVeUMzaDZZdWVFalpBTkFiRVN2c3JXWDN2X29Gbml5YnZmWGR3YWNXckstQXBNdEV6c2VsZHZWeEdPb0pMZklaWTQzcnUweTR3MFVPVG5aMkNvYnRoYm1ocXVLMDdaZUtBbjd3b1I3YUlxV2dYY3I3M1ctQ3psNnE2cU1BSDBCQUtJV24xUjZTZnBUUk5BUktoWFdfOTd3cVJKVHc?oc=5",
    "s": "L'Union",
    "d": "2026-11-06T19:53:00+00:00",
    "lang": "fr",
    "t": "« Grand Theft Auto VI » : treize ans d’attente, un retour sous haute tension",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9kM0pMZE54YmhYb01IQnFWNU5mU1VJa3h6cHNLaVVHYXlYREdjbHdyR1cweXk0dDlpV2NPUnVFSVE4MVJPRFZBODFYR0ZnMTRnUjhLT3BiVVh1N3ZTZC1HQ202dE0zcXhRVkIwNzZnR1BSaHNaMXJYVjc5NEstTGc?oc=5",
@@ -259,7 +271,7 @@
    "d": "2026-11-06T19:40:33+00:00",
    "lang": "fr",
    "t": "Rockstar Games a peut-être révélé la scène finale de GTA 6",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOE5lNHlTUHVCelZsM2I1Z2dsdXZWYmxrRkhwV2pNM1d3XzVvLVJ4QkJHVGVLYVhPa1p6WkdyZnpwSE90M2hYY1gtWEZzUDBGVHlQOHN0UURnWUZHM0JodGR6RTRWVHp0Qzl0NGtwV0JYXzJhTkxOcWpFMlFkcXJualNuM2NhcEpleVcxSXlROG5RN3dGa1VGTWVtX29IeU9vaVF4X0hn?oc=5",
@@ -267,7 +279,11 @@
    "d": "2026-11-06T19:00:00+00:00",
    "lang": "fr",
    "t": "GTA VI : le compte à rebours est lancé, une sortie à 5 milliards $ en ligne de mire",
-   "erreur": "429 : passage suivant"
+   "u": "https://www.lerevenu.com/actualite-economique/monde/gta-vi-le-compte-a-rebours-est-lance-une-sortie-a-/",
+   "img": "https://cdn.overlord.media/game_stop_56_milliards_pour_racheter_e_bay_et_rivaliser_avec_amazon_80d8224e_5f20e1f521.webp",
+   "chapeau": "GTA VI sort le 19 novembre 2026. Le jeu pourrait générer jusqu'à 5,2 milliards de dollars de ventes dès sa première semaine.",
+   "txt": "",
+   "pub": ""
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQaDBSZk9PRXFaMldNUzh5VVhmVWxrSkM2TDF2ZUNUSGstaGpyeUdrRE1KdlVyZ0F0dTZhRkRPbWF1Y2NvY2tuTHZncy1uS01hUkFTNDVraXRZQjlzRXNjQ0xyamRaa1JfejU5b2tuSGUxUURielUzY2pLT0VUY0l0RnZfX2M3QQ?oc=5",
@@ -399,7 +415,7 @@
    "d": "2026-11-06T07:40:29+00:00",
    "lang": "en",
    "t": "GTA 6 Fans Beware: Fake APKs, Game Keys And Leaked Copies Could Put Your Devices At Risk",
-   "erreur": "429 : passage suivant",
+   "erreur": "HTTP Error 403: Forbidden",
    "cyberleek": true
   },
   {
@@ -421,7 +437,7 @@
    "d": "2026-11-05T17:52:13+00:00",
    "lang": "en",
    "t": "Rockstar releases 39 new GTA 6 screenshots two weeks before launch",
-   "erreur": "429 : passage suivant",
+   "erreur": "Remote end closed connection without response",
    "cyberleek": true
   },
   {
@@ -534,7 +550,7 @@
    "d": "2026-11-04T14:30:23+00:00",
    "lang": "fr",
    "t": "Une fuite confirme des améliorations pour GTA 6 sur la PlayStation 5 Pro",
-   "erreur": "429 : passage suivant",
+   "erreur": "HTTP Error 403: Forbidden",
    "cyberleek": true
   },
   {
@@ -634,7 +650,11 @@
    "d": "2026-10-22T15:12:54+00:00",
    "lang": "en",
    "t": "Cyberleek Shares GTA 6 Leak Of Naked Lucia",
-   "erreur": "429 : passage suivant",
+   "u": "https://www.imdb.com/news/ni66062173/",
+   "img": "",
+   "chapeau": "",
+   "txt": "",
+   "pub": "",
    "cyberleek": true
   },
   {
@@ -695,7 +715,7 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
    "t": "Le token CYBERLEEK chute de 40 % alors que le leaker de GTA 6 lance de nouvelles menaces",
-   "erreur": "429 : passage suivant",
+   "erreur": "HTTP Error 403: Forbidden",
    "cyberleek": true
   },
   {
@@ -769,7 +789,7 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "en",
    "t": "GTA 6 Leak Over, Cyberleek Quits but the Ending Is Still at Risk",
-   "erreur": "429 : passage suivant",
+   "erreur": "Remote end closed connection without response",
    "cyberleek": true
   },
   {
@@ -778,7 +798,7 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
    "t": "Fuite GTA 6, Cyberleek s'arrête mais la fin reste menacée de spoilers",
-   "erreur": "429 : passage suivant",
+   "erreur": "Remote end closed connection without response",
    "cyberleek": true
   },
   {
