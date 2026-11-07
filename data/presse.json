@@ -1,6 +1,14 @@
 {
- "maj": "2026-11-07T03:45:38+00:00",
+ "maj": "2026-11-07T04:05:50+00:00",
  "articles": [
+  {
+   "gn": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPam1Odk5wZXZyanN5cVNmSVQtY1h5ejVtMGRyckRnZzVmTFgtV1ZGV2lhbVNGM2FEemNxek44bXFyWVRzejFBQU5EaUQtMUJkdGZ0RldKb3htWnZhNTNKeXE1Q25EOEpRcTBqVTRjbGo2NmZVdzNHdG1QNkNRbkVzczFNSGpCUkVYcy0yeWloNk56cFNuMmRuTGc2WHprRjNPdXRKdy1KVjNLajVXbVAzY0ZlckpEOWVTeWMycE5ucw?oc=5",
+   "s": "Notebookcheck",
+   "d": "2026-11-07T03:59:00+00:00",
+   "lang": "en",
+   "t": "Physical GTA 6 pre-orders may include poster instead of map after retail leak",
+   "erreur": "429 : passage suivant"
+  },
   {
    "gn": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQT1g1cFZyeDhMMzlra0xJSFBySDY5Z1IzcmtCVWg3b1BaZHEtVmd5V1pnSU1TMUlwVERBaWxQSkF5VVBPWTZ0RW1Bb2VFN3VtZFdfOG1xMkJ3Qi1sOENuM2Uzb2tqRzI0TXdFMG1rdDJCNnRwYUxQdi1DUkdoci1NdWdkNDN0UUJIbldEODZQLVlLU3AybzY1cURpR05yR3hldEZyYnRlWFlsMFhCanFseFVJTVo5SWZUd0U3WTRSdkliRW1iMWc?oc=5",
    "s": "MMOEXP",
@@ -19,7 +27,7 @@
    "d": "2026-11-07T03:11:16+00:00",
    "lang": "fr",
    "t": "Les fans ont comparé les paysages de coucher de soleil dans GTA 6 et Red Dead Redemption 2 avec une différence de 128 ans",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "HTTP Error 429: Too Many Requests"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPb0hyRnB5YXNFUHdvMUZyS19pZzlXazNUblpzTWFRcmY1cXdPd09fM0VQeHZjbG5iVmF2YjdERU9Kb1JSMWEyMUprc3BPVG9kMDM4ZGdXTk52LTJfOHB1eTVCamJVVnBWMWFpMWV1WEJGMm1xYm9sS0FMTjVjeXRHazRjVnZ5aTA?oc=5",
@@ -43,7 +51,8 @@
    "img": "https://www.notebookcheck.biz/fileadmin/Notebooks/News/_nc5/GTA6XboxStore.jpg",
    "chapeau": "Le Xbox Store a indiqué une taille de fichier de 209.86 Go pour GTA 6, mais le téléchargement pourrait être plus volumineux. Le système interne de Microsoft affiche 225.34 Go, ce qui pourrait inclure des fichiers supplémentaires ou un correctif de lancement. Les préchargements sur les consoles Xbox et PS5 débuteront les 9/10 novembre, avant la sortie prévue le 19 novembre.",
    "txt": "Les propriétaires de consoles Xbox ont désormais une confirmation supplémentaire de l’espace de stockage à réserver d’ici la date de sortie de GTA 6 . Proche de l’estimation de 212 Go de Rockstar, la boutique de Microsoft affiche 209,86 Go. Malgré cela, des données internes ayant fuité laissent entrevoir une taille de téléchargement en préchargement plus importante que prévu sur PS5.\nAvant la mise à jour de la boutique, Cokymoky a partagé des données trouvées dans l’API DisplayCatalog de Microsoft. La version mondiale destinée à la plupart des pays pèse 209,86 Gio (gibioctets), soit 225,34 Go (gigaoctets). De son côté, la version ANZ pour la Nouvelle-Zélande et l’Australie affiche à peu près la même taille. Toutefois, la version destinée au Japon est légèrement plus petite, avec 208,74 Gio, soit 224,07 Go, ce qui pourrait indiquer la présence de contenu censuré .\nL’API affiche les tailles de téléchargement de GTA 6 et ne reflète pas nécessairement l’espace que le jeu occupera sur un SSD après installation. Le Xbox Store indique 209,86 Go , ce qui laisse penser qu’il utilise en réalité l’unité Gio ou donne une estimation de la taille des fichiers après installation. Quoi qu’il en soit, les méthodes de compression étant différentes, les jeux Xbox sont souvent plus volumineux que sur la console concurrente.\nUne autre possibilité est que le système inclue une mise à jour de lancement. Le 27 octobre, une analyse des données par PlayStation Game Size a révélé que la taille de téléchargement de GTA 6 était de 210 Go sur PS5. Si la version Xbox est plus volumineuse, un correctif de lancement pourrait expliquer cet écart.\nIl est à noter que la version japonaise diffère de celles des autres régions. Le prochain Grand Theft Auto a reçu la même classification par âge CERO Z (18+) que GTA 4 et GTA 5 . L’organisme étant strict en matière de contenu sexuel ou violent, plusieurs scènes ont été supprimées de GTA 5 . La taille des fichiers de GTA 6 sur PS5 variera également selon les régions (reste du monde, Nouvelle-Zélande/Australie et Japon), mais les chiffres exacts restent incertains.\nLes préchargements seront disponibles le 9 novembre à 19 h EST sur Xbox Series X et S. Les joueurs PlayStation pourront commencer à préparer la sortie le 10 novembre à minuit, heure locale. Rockstar prévient que le titre nécessitera « jusqu’à 212 Go d’espace disponible, selon votre appareil ».",
-   "pub": ""
+   "pub": "",
+   "cyberleek": true
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNV2RfV1JzWno3YU5lbDQ4VDVrLXdPUXVJT0lIZkh1anZoZWpFamlOZ2pWbzZwV0NvbDd3OHpwZVEzai1IZUQ0YUdOejVoOHdzQXpVQzhETFdULTRkeWt6eU83cThId3VDX012blhiTnZRemJXOEdBTEJzbFJrSnlGdUZjcDZQSHFETnY2eg?oc=5",
@@ -186,19 +195,7 @@
    "d": "2026-11-06T22:32:50+00:00",
    "lang": "en",
    "t": "Can you play GTA 6 on PS4 or Xbox One? No, it is only on PS5 and Xbox Series X|S",
-   "erreur": "HTTP Error 403: Forbidden"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMzFISVdFdHd3Wk5XYlc3YjVrMndvbU5vU2N4cFhHd0tteTFySmwycFJrMnE5QVN0bkNzV0tQRGRaNmVSLTFlZXVKSTl0encyOWFsZ0h3WDIzeTQwd1FTalVESDU5MTJCUDRfUGZoa0tFUlppNzBIRnF3XzVmT2JkTVVZQkpDRlZCNUpTOXU4bnU?oc=5",
-   "s": "IGN",
-   "d": "2026-11-06T21:57:49+00:00",
-   "lang": "en",
-   "t": "Pilot \"Paints\" Impressive GTA 6 Mural In the Sky - IGN Daily Fix - IGN",
-   "u": "https://www.ign.com/videos/pilot-paints-impressive-gta-6-mural-in-the-sky-ign-daily-fix",
-   "img": "https://assets-prd.ignimgs.com/2026/11/06/gfix-110626-blogroll-1794000296059.jpg?width=1280&format=jpg&auto=webp&quality=80",
-   "chapeau": "In today&#39;s Daily Fix:An artistic pilot has &quot;painted&quot; a mural of GTA 6 in the sky. Benjamin McDaniel flew his Cessna across the Arkansas sky and used this flightpath to paint the image. It&#39;s not his first one; McDaniel has done the Mona Lisa, the dragon logo from Skyrim, and others. You can also request art from his website at thepilotpicasso.com. In other news, Sony has updated its list of perks for UK PlayStation Plus users, and gamers are pretty underwhelmed. The perks, such as a YouTube Premium account, Audible membership, and more, are just trials which expire after a set time limit. And we’re riding Mine Cart Madness inside Super Nintendo World with The Ride Guys at Universal Epic Universe at Universal Orlando Resort.Presented by Universal Orlando Resort, and its newest theme park, Universal Epic Universe.",
-   "txt": "An artistic pilot has \"painted\" a mural of GTA 6 in the sky. Benjamin McDaniel flew his Cessna across the Arkansas sky and used this flightpath to paint the image. It's not his first one; McDaniel has done the Mona Lisa, the dragon logo from Skyrim, and others. You can also request art from his website at thepilotpicasso.com. In other news, Sony has updated its list of perks for UK PlayStation Plus users, and gamers are pretty underwhelmed. The perks, such as a YouTube Premium account, Audible membership, and more, are just trials which expire after a set time limit. And we’re riding Mine Cart Madness inside Super Nintendo World with The Ride Guys at Universal Epic Universe at Universal Orlando Resort.\nPresented by Universal Orlando Resort, and its newest theme park, Universal Epic Universe.",
-   "pub": "2026-11-06T21:57:49.102Z"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxON1JDNGNiR1EyTjRkUlpQelcyenRGSHhjeE1BT2JKTFd0LWNtVm1WcmZGemtrcHRVWThXRTNyZE9XOUZUajhlaGhKbU1VNExuT04zQmZZcGIyVnY2aFp6cTdYZ2RGTktDU1J6WW9VU1pZdzFzYkQyMjAwRy1QempJZkptNmJTaWFjMUh2ZU81N1JmV1VLcmVJQ3F2SGNDbnJRcTZyeGZVR2xCbHRBU25odU9jRmtqM1gzRzdWeVF1eEcybHpnN1NFYVlBSmtZVDNUUFE?oc=5",
@@ -206,16 +203,7 @@
    "d": "2026-11-06T21:44:05+00:00",
    "lang": "fr",
    "t": "Xbox déploie une technologie majeure avant la sortie de GTA 6 : pourquoi le FSR 4.1 change tout",
-   "erreur": "HTTP Error 403: Forbidden"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSks1OXZ5dk9YRVpfSVBnSmRralBSWmV5c0szUWVwSUVzdXIyN3VfYUlGN1JILTlobHJNUXREQXVvc2R3cjh1RldiUlFxR3lpbUV0QnB3ck1WaEt5eXpBTEtaX1NNemNPeWZ0ZlozVVRkVDQydnIzdGtSMzg3cDJpYkdLTkpqcm4yTjNncEp2Mnh0cDZpcEdjRDI1dw?oc=5",
-   "s": "EGW.News",
-   "d": "2026-11-06T21:05:26+00:00",
-   "lang": "en",
-   "t": "GTA 6 New Leak - Is It Real or Is It AI-Fake?",
-   "erreur": "HTTP Error 403: Forbidden",
-   "cyberleek": true
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPYVdCdldMamRFZHlveHZGRW9XampfV0xZUmg5Z2VxVEhfN2FGbVZZM3FncVBWZUFTeEF2Ymx2OC1JTzZETTFhZmRnVGVyUWZrOWNuWDNjZEl6NW84em5HLXhjMVFRcXRCdGhkNmRXalpLY3V3UnRSQm9KdW54QmNTbi1DVU9wZnB4cHNKNU1YUXl4dC1GYnZWWjdJU2REY1E?oc=5",
@@ -223,7 +211,15 @@
    "d": "2026-11-06T21:05:26+00:00",
    "lang": "fr",
    "t": "Les joueurs se demandent si la nouvelle fuite supposée du gameplay de GTA 6 est un fake ou pas",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSks1OXZ5dk9YRVpfSVBnSmRralBSWmV5c0szUWVwSUVzdXIyN3VfYUlGN1JILTlobHJNUXREQXVvc2R3cjh1RldiUlFxR3lpbUV0QnB3ck1WaEt5eXpBTEtaX1NNemNPeWZ0ZlozVVRkVDQydnIzdGtSMzg3cDJpYkdLTkpqcm4yTjNncEp2Mnh0cDZpcEdjRDI1dw?oc=5",
+   "s": "EGW.News",
+   "d": "2026-11-06T21:05:26+00:00",
+   "lang": "en",
+   "t": "GTA 6 New Leak - Is It Real or Is It AI-Fake?",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -280,7 +276,7 @@
    "d": "2026-11-06T19:53:00+00:00",
    "lang": "fr",
    "t": "« Grand Theft Auto VI » : treize ans d’attente, un retour sous haute tension",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9kM0pMZE54YmhYb01IQnFWNU5mU1VJa3h6cHNLaVVHYXlYREdjbHdyR1cweXk0dDlpV2NPUnVFSVE4MVJPRFZBODFYR0ZnMTRnUjhLT3BiVVh1N3ZTZC1HQ202dE0zcXhRVkIwNzZnR1BSaHNaMXJYVjc5NEstTGc?oc=5",
@@ -300,7 +296,7 @@
    "d": "2026-11-06T19:40:33+00:00",
    "lang": "fr",
    "t": "Rockstar Games a peut-être révélé la scène finale de GTA 6",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOE5lNHlTUHVCelZsM2I1Z2dsdXZWYmxrRkhwV2pNM1d3XzVvLVJ4QkJHVGVLYVhPa1p6WkdyZnpwSE90M2hYY1gtWEZzUDBGVHlQOHN0UURnWUZHM0JodGR6RTRWVHp0Qzl0NGtwV0JYXzJhTkxOcWpFMlFkcXJualNuM2NhcEpleVcxSXlROG5RN3dGa1VGTWVtX29IeU9vaVF4X0hn?oc=5",
@@ -308,11 +304,7 @@
    "d": "2026-11-06T19:00:00+00:00",
    "lang": "fr",
    "t": "GTA VI : le compte à rebours est lancé, une sortie à 5 milliards $ en ligne de mire",
-   "u": "https://www.lerevenu.com/actualite-economique/monde/gta-vi-le-compte-a-rebours-est-lance-une-sortie-a-/",
-   "img": "https://cdn.overlord.media/game_stop_56_milliards_pour_racheter_e_bay_et_rivaliser_avec_amazon_80d8224e_5f20e1f521.webp",
-   "chapeau": "GTA VI sort le 19 novembre 2026. Le jeu pourrait générer jusqu'à 5,2 milliards de dollars de ventes dès sa première semaine.",
-   "txt": "",
-   "pub": ""
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQaDBSZk9PRXFaMldNUzh5VVhmVWxrSkM2TDF2ZUNUSGstaGpyeUdrRE1KdlVyZ0F0dTZhRkRPbWF1Y2NvY2tuTHZncy1uS01hUkFTNDVraXRZQjlzRXNjQ0xyamRaa1JfejU5b2tuSGUxUURielUzY2pLT0VUY0l0RnZfX2M3QQ?oc=5",
@@ -376,18 +368,6 @@
    "pub": ""
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1zX0VGTGlRZHkwZXc3YVI2TTRsdG0ya2ZUTFpqMk1iZ1IweGxiNnc5UVk5bk9SOEtvU29FUUd5YXE2XzZjbm0wYk5Db3NqU0Rnck9UaEtfNUVBaDFnak8wQ2ZB?oc=5",
-   "s": "GeeksLands",
-   "d": "2026-11-06T16:30:00+00:00",
-   "lang": "fr",
-   "t": "PS5 Pro : la sortie de GTA 6 fait-elle exploser les prix de la console ?",
-   "u": "https://geekslands.fr/ps5-pro-prix-gta-6-revendeurs/",
-   "img": "https://geekslands.fr/api/og-image/api/uploads/featured/ps5pro-prix-console-dualsense-14bb.jpg",
-   "chapeau": "À treize jours de GTA 6, la PS5 Pro est en rupture chez Sony et ne se trouve plus sur Amazon qu'à 1 579,99 € chez un vendeur tiers, 680 € au-dessus du prix…",
-   "txt": "Sony vend la PS5 Pro 899,99 € , mais sa boutique en ligne l'affiche en rupture de stock, avec une console maximum par commande « en raison d'une forte demande ». Sur Amazon, il ne reste qu'un vendeur tiers, à 1 579,99 € , qui promet une livraison la semaine de la sortie de GTA 6.\nUn vendeur tiers la proposait à 1 469,99 € sur Amazon le 31 octobre, lors de notre relevé des prix de la PS5 Pro avant le Black Friday . En une semaine, l'offre a donc grimpé de 110 € . Une autre fiche du même vendeur monte même à 1 599,99 €.\nLa fiche de GTA 6 sur le PlayStation Store affiche la mention « PS5 Pro Enhanced », sans que Sony ni Rockstar aient détaillé les améliorations. Sony ne relie pas la rupture à GTA 6, mais la hausse des prix chez les revendeurs tombe à deux semaines du lancement.\nGTA 6 tourne aussi sur les PS5 classiques : inutile de débourser plus de 1 500 € pour y jouer. Amazon vend d'ailleurs la PS5 avec lecteur à 649 € , en stock et expédiée par ses soins. Pour la PS5 Pro, mieux vaut guetter les réapprovisionnements de PlayStation Direct, puis les offres du Black Friday du 27 novembre . Retrouvez aussi les meilleures offres de précommande de GTA 6 et les prix des SSD compatibles PS5 .\nPrix relevés le 6 novembre 2026 en fin d'après-midi sur Amazon et la boutique PlayStation. Ils peuvent changer d'une heure à l'autre.",
-   "pub": "2026-11-06T16:30:00.000Z"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQnNOOExtelFvbGdnX0k1S0pMZzZydERDczdBcEpiLXk3MjJxVm9sN1FXQXBTTTVxdEtWYlBKelF4dUhQYzFlY1A0V0hUOF9mdkFQWGUwVGl4TFEtRUJ5ZWFKM3RtWnlHN1BPaWNfaWw4dkt1Q3RxSEtmc0JQNTNZTDBGNUhQMVFVLVFRbjZpV3RwdUFhR3A1R3I3SVFkM1QwQVg0Zll0Yw?oc=5",
    "s": "HotNewHipHop",
    "d": "2026-11-06T13:38:21+00:00",
@@ -432,7 +412,7 @@
    "d": "2026-11-06T07:40:29+00:00",
    "lang": "en",
    "t": "GTA 6 Fans Beware: Fake APKs, Game Keys And Leaked Copies Could Put Your Devices At Risk",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -454,7 +434,7 @@
    "d": "2026-11-05T17:52:13+00:00",
    "lang": "en",
    "t": "Rockstar releases 39 new GTA 6 screenshots two weeks before launch",
-   "erreur": "Remote end closed connection without response",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -523,19 +503,6 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMifEFVX3lxTE41SHd3T3U3VU1PeHo5dEl2azI3RkRqZkNwcmZZczZYVFNlckQwV0h6a2xvZEdBUktWTWtmaFNSY2VVeGxVWHUxaU4xMm16QmdGUEI1UVZ5YTFSdWJGQ0RwSHJiMnpDUURic2h4bElsMHh1TlRLTExPUGZuLXg?oc=5",
-   "s": "Power Up Gaming",
-   "d": "2026-11-04T20:28:44+00:00",
-   "lang": "en",
-   "t": "GTA 6 PS5 Pro ‘Leak’ Raises Doubts | Power Up Gaming",
-   "u": "https://powerupgaming.co.uk/2026/11/04/gta-6-ps5-pro-leak-raises-doubts/",
-   "img": "https://powerupgaming.co.uk/wp-content/uploads/GTA-6-PlayStation.webp",
-   "chapeau": "An apparent GTA 6 listing on PlayStation’s French website has raised doubts over its accuracy after a screenshot surfaced on social media.",
-   "txt": "An apparent GTA 6 listing on PlayStation’s French website has raised doubts over its accuracy after a screenshot showed it describing Atsu’s katana from Ghost of Yōtei.\nThe screenshot, which we shared on X after it surfaced earlier today , appears to list several features for Rockstar’s upcoming game, including PSSR upscaling and advanced ray tracing on PS5 Pro. But the reference to an entirely different game makes the details difficult to take at face value.\nThe official PlayStation France website may have just leaked exclusive PS5 Pro features for GTA 6, including PSSR and advanced raytracing. You can see a screenshot of the webpage below.\n\"**How Innovative Features Enhance Grand Theft… pic.twitter.com/I8xkENayu6\nIn a section about DualSense haptic feedback, the text describes players feeling “Atsu’s katana strikes” through their controller. That would make sense on a Ghost of Yōtei product page. For Jason and Lucia’s trip through Leonida, it looks rather out of place.\nAn unfinished page using another game’s text is one possible explanation. However, we have not independently verified the original listing, and the screenshot alone does not confirm the claimed upgrades.\nUnder a PS5 Pro enhancements heading, the screenshot lists PlayStation Spectral Super Resolution, or PSSR, alongside advanced ray tracing.\nThe descriptions promise sharper image quality through AI upscaling and improvements to reflections, shadows and lighting. Elsewhere, the text mentions Tempest 3D Audio, fast SSD loading and DualSense haptic feedback for PS5.\nThose descriptions offer little detail about how the features would work in GTA 6 . There are no resolution targets, comparisons with the standard console or graphics settings listed.\nOther publications have reported that the information was subsequently removed from PlayStation’s French website. That does not resolve whether it was accurate, unfinished or simply incorrect.\nThe screenshot also leaves the biggest performance question unanswered: there is no mention of a 60fps mode on PS5 Pro.\nPSSR support and improved ray tracing would not, by themselves, establish a frame-rate target. The reported text gives no indication of whether players would be offered separate performance and quality modes.\nFor now, the listing should be treated as an unconfirmed claim about GTA 6’s PS5 Pro features. The stray Ghost of Yōtei reference gives us a clear reason to wait for a proper technical breakdown before drawing conclusions.\nGTA 6 is scheduled to launch on November 19. Sony has confirmed that PS5 preloading begins on November 10.",
-   "pub": "2026-11-04T20:27:27+00:00",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOa1lUNWxTMXktY2w4Tms2c2lpYWhGWTVkeXhGaWxSdXBrX1hmdEdqYXVkSTEwcVUwYVRZYkFhUVZ3UFhYQUxkLWpzU0xkM0x6UU0xWkNZTF9TTkdPS1BMbV9DcmRucnozMUprb1JnQ002THUycjZYYlhUWGpqRVoxT0xvVU8?oc=5",
    "s": "big-n.fr",
    "d": "2026-11-04T15:49:13+00:00",
@@ -567,7 +534,7 @@
    "d": "2026-11-04T14:30:23+00:00",
    "lang": "fr",
    "t": "Une fuite confirme des améliorations pour GTA 6 sur la PlayStation 5 Pro",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -667,11 +634,7 @@
    "d": "2026-10-22T15:12:54+00:00",
    "lang": "en",
    "t": "Cyberleek Shares GTA 6 Leak Of Naked Lucia",
-   "u": "https://www.imdb.com/news/ni66062173/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -732,7 +695,7 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
    "t": "Le token CYBERLEEK chute de 40 % alors que le leaker de GTA 6 lance de nouvelles menaces",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -806,7 +769,7 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "en",
    "t": "GTA 6 Leak Over, Cyberleek Quits but the Ending Is Still at Risk",
-   "erreur": "Remote end closed connection without response",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -815,7 +778,7 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
    "t": "Fuite GTA 6, Cyberleek s'arrête mais la fin reste menacée de spoilers",
-   "erreur": "Remote end closed connection without response",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -829,6 +792,24 @@
    "chapeau": "The Cyberleek memecoin is now plunging further and further.",
    "txt": "As Mashable and our colleagues at PCMag just reported, Grand Theft Auto VI leakers Cyberleek have seemingly abandoned their threats to leak a full build of the game – at least for now.\nWhy? Because the leakers had claimed that the release of the leaked build was tied to their memecoin. If GTA 6 fans pumped Cyberleek's cryptocurrency, they would receive the leaked game build as a reward.\nThat play failed spectacularly for Cyberleek. In fact, it seems to have fully backfired.\nThe Cyberleek memecoin's market cap hit a high of $7.8 million on October 11, shortly after the leakers claimed they would release the full build of GTA 6 supposedly in their possession. The catch? The Cyberleek memecoin had to hit a market cap of $30 million first. The best tech deal this week The Apple iPhone 18 Pro is free right now with T-Mobile\nWhile some GTA 6 fans appeared to have bought into the memecoin in an attempt to hit Cyberleek's goal, $7.8 million is still far short of the $30 million the leakers wanted. And since then, as it became obvious that most GTA 6 fans weren't going to give in to Cyberleek's demands, the memecoin has plunged even further, with a current market cap of $1.17 million.\nCritics of Cyberleek celebrated the memecoin's failure, calling it a scam.\nCyberleek had been successful with their memecoin play before, giving those who bought their memecoin exclusive access to polls that determined what GTA 6 footage the leakers would release next.\nHowever, it seems Cyberleek overplayed their hand this time around, and the full build, which they claim is 200GB, appears to be staying under wraps for now.\nWith that said, Cyberleek is still using their supposed access to a full build of GTA 6 to try to escape legal action from Take-Two, the parent company of GTA 6 developer Rockstar Games. The leakers claim that there is a \"dead-man's switch\" that will automatically release the ending of the game if there is an attempt to take down Cyberleek.\nMatt Binder joined Mashable's tech vertical in 2018, where he covers social media, tech policy, cybersecurity, online scams, cryptocurrency, AI, creator news, weird tech, and other related tech beats.",
    "pub": "2026-10-14T19:40:59+00:00",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5UZlVkNWtTSUE4ZXo2TFNHTktrNVV0MVBRUlZPRl95bmJoWVV2aDNZdXdKU0N3eEdCdGp2Nm1lbndLdDRsV3k3SHVZQWctQXVZc3Z1MUlySXpVVGd5b0hrWDJPczJsbGc?oc=5",
+   "s": "Mashable",
+   "d": "2026-10-14T15:31:42+00:00",
+   "lang": "en",
+   "t": "'GTA 6' file size leak: Cyberleek reveals eye-watering storage requirements",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPV1F0emQtVmJzdEI4akhGUWZpR2pTVXlIY2N3ODY0dzBkSzlWNUNxaTlZQVNIQ2dJb0hlWkJfUUVjdTBaTzQzQXZ2Q0hWODlrUFRRQmFMNUt2UzJqeldPN2h6SnFvVjRjMDk1ZFRtN205QjNYR19qdGcwZEc0Mnl4MzRBT0p5Y1F6ODNXaTVPWjgxVzdZNERQNGY1QVB2aW9sb2ZUQnVpaWlYNmJZS3hiWjNMUVZFcGNQYzIzR0JFTmZ0dUFqNE9falZNZ9IB0AFBVV95cUxQcWZ1WFdrNmxhT2c1NzVTQTlOSEx3alJOUlQ5VGRJd3U2V3lyMHE0aXdxdTVuQ0JRNjNfQkhvNks3WG45ei1xc3pmcW5Kb1JqUjdrUG9EQTJxdjQ3UjlPMGdiVkc2MXExc25IOW9IaU1zcGcwV25yekh4bmR5RWJXRm42cGVxRG1MZHhCUHBHMFY4X0ZtbzJQaFdoNnBCM0JsZzlkZUxMRFpSd1BMZUg0OVR6cU1CYXpGX3pRNDBUd05qRHhoYzRNV3RLb2JEM2oz?oc=5",
+   "s": "iXBT.games",
+   "d": "2026-10-14T13:46:22+00:00",
+   "lang": "en",
+   "t": "This is the end: Cyberleek promised to stop GTA VI leaks, but threatened to reveal the game's ending",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   }
  ]
