@@ -1,13 +1,13 @@
 {
- "maj": "2026-11-07T18:45:58+00:00",
+ "maj": "2026-11-07T19:06:11+00:00",
  "articles": [
   {
    "gn": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8xMnk3RVM5dEpFRnFld0RjUGdRd2NtNUpWOXNvVE5XcHBKZHJvYzZGSEdtVV9HR29ib3BHTmwyeFd5ZEtDUHZMeTNwMV9kU01oT2hiWmNEN1ZtNWpIS1RZbjFOemFrMFBwbUdUNC1XTV9EcVlqZmww?oc=5",
    "s": "ParadePets",
    "d": "2026-11-07T18:30:36+00:00",
    "lang": "en",
-   "t": "Celebrate GTA 6 Early With Rockstar's $25 Dog Leash and Collar",
-   "erreur": "HTTP Error 403: Forbidden"
+   "t": "Celebrate GTA 6 Early With Rockstar’s $25 Pet Essential",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOM3V2LTg3S0I4QnNMY3A1UXZfUFdwdUxzck1jQ3QwN2Nvei1OcWFBVlRVeXhTVEt6Rm5FUlpWYkZ6OVBBVDhwUjF5clhSeHV6Y19DVGFKVjNCazh5clh4V1JwaVVOM0xydjJLU1BSR3lPTjRjbmZLd00wbmpRdG9yeVFKelRfOG9zRTNJTU9WQmVoRDBCU3h6Y0o5cDRsV0E?oc=5",
@@ -36,14 +36,10 @@
   {
    "gn": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5vcU53UDNKRktUVThxT2tnU1U0S3BodEdZazh0VTdEbERKNVhTRFVzekxpb0tmQUszR21BcEc3Z3VyNlBYSjl0N2JRbkt0RHg1Nlg1dGNvOFlkMVczSGxGbzNR?oc=5",
    "s": "JVFrance",
-   "d": "2026-11-07T17:54:33+00:00",
+   "d": "2026-11-07T17:54:12+00:00",
    "lang": "fr",
-   "t": "GTA 6 : une fuite révèle le contenu de la version boîte, bien plus généreuse que prévu - JVFrance",
-   "u": "https://www.jvfrance.com/gta-6-contenu-boite-285689/",
-   "img": "https://www.jvfrance.com/wp-content/uploads/2026/06/GTA-6-keyart-officiel-3.webp",
-   "chapeau": "A quelques jours de sa sortie dans nos rayons, la version boîte de Grand Theft Auto VI a fuité et il y aura bien un goodies à récupérer",
-   "txt": "",
-   "pub": "2026-11-07T17:50:34+00:00"
+   "t": "GTA 6 : une fuite révèle le contenu de la version boîte, bien plus généreuse que prévu",
+   "erreur": "HTTP Error 429: Too Many Requests"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYll1MDNNT2JsMHdqUlJBU2hqbGxjTHdoOUJxRWxlQUhsWGZERHBjc1lqdkwwVHY3RkFFZ1k0cTlieFlsUEpkc3M2eEtwX2VRWjBxSS0zQXZPTWVCU19ZTkZrRU5Hd2NKbGRYeU1aVUtkM2hpeE1RVGlJZHp2emdqYlBDM2RMc3pxMzZSX3lrdGR4YjBObzNHejJncEd4cU1IR0RJSzZfMko4aFNDT0EtYWdvWldiTWx1YnA1bTM5Y24?oc=5",
@@ -51,7 +47,7 @@
    "d": "2026-11-07T17:48:13+00:00",
    "lang": "en",
    "t": "Greensboro Police Are Begging Rockstar to Release ‘GTA 6’ for One Unexpected Reason",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSnNIVm1MT0RNY0FxMGpjeWctME1xdXBmVGpXMi1oLWEwUWpBaFNTeGdOaGNwTjVoUzhwZXpPTDR3a2RBRUhTWjF5cjZxN0t4UWotWkJrTEhjUXdIZzNGQXMzU1U5cmRVRDFCUDlGOXpOLUZEU1A3QzQ4aE5Iazc4cXRlVzYtVThWLWtncmRIeC1RMkVFazlv?oc=5",
@@ -119,7 +115,7 @@
    "d": "2026-11-07T17:00:00+00:00",
    "lang": "en",
    "t": "The Best GTA Alternatives For Kids And Families",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5BZU9icVhBMXZTS1hzeFhYWTRTbG9VY01LaFd0Y2ZnT0hsYWxkMDNVUDZzbkJreWYzVW5CRXFJdGttSzREcE9Bd1hwZ0Utd1NESVI2dWhXSkVxUVRiV2t3dzgybWE4R1NBc05xZ2dBeGhIQm8?oc=5",
@@ -139,19 +135,23 @@
    "d": "2026-11-07T16:46:53+00:00",
    "lang": "en",
    "t": "A GTA 6 fan has set up a gaming room with a PS5 Pro and a 77-inch 4K OLED Samsung S90F.",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9TSnhPRHUwODZYVDdvcTk5VlRrVjVLa0t0V3pHakFQcDZRMF94Y1pVLUh0NmNwaTMwT2czRE9jT1Npd2l5QmxSUS1oNk9nUTNGUEJtTk5JZElKaW8?oc=5",
    "s": "Gamekyo.com",
    "d": "2026-11-07T16:44:00+00:00",
    "lang": "fr",
-   "t": "Gamekyo : Blog : Xbox et PlayStation en plein naufrage à la veille de GTA6",
-   "u": "https://www.gamekyo.com/blog_article488840.html",
-   "img": "http://www.gamekyo.com/Webmasters/Images/Jeux_Video_20031001_071024_intro.jpg",
-   "chapeau": "Blog : Xbox et PlayStation en plein naufrage à la veille de GTA6 : Gamekyo is a social video game magazine for the Wii, Nintendo DS, PlayStation 2, PlayStation 3, PSP, Xbox 360 and PC. Blog : Xbox et PlayStation en plein naufrage à la veille de GTA6",
-   "txt": "",
-   "pub": ""
+   "t": "Xbox et PlayStation en plein naufrage à la veille de GTA6",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNSTllOWRuVTY4WjVaakp3eHMwa3NaUXRYd0wwM1dIdVZsMTZUcC1EZElVSTJIcjNRVnNjeXhKTGlwdXV0ZDVIeWZTQUhIRHVMd1dBM2E0TzJXcEVSandNaFFSbmlQYm8tdFI2OFVZU19kOUc5dWtrS1dMNXdwMHpZaW1DRFB5d25UMXRDZWtVRlp4LTN1Mkowb3hkcHN1Nl9zRzM0YXVlSk9IZ0RBenZPX3RQTkZzZjJVSnZMd3dKRlk2YjR2dzFWZHQ5eEIwUVRwcUpsZUthbm8waTQ?oc=5",
+   "s": "RTBF",
+   "d": "2026-11-07T16:03:44+00:00",
+   "lang": "fr",
+   "t": "Abandonner son chat ou son couple : que seriez-vous prêt à sacrifier pour jouer à GTA 6 une semaine plus tôt",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNaFlTY3pzckZaeXdlRnA4ZnZTdms0V2lHVlp3VWhxRnlFSkFsMEptWUhzZXUxdGxXZllGeVBxMDFSd0VhaGVfTXZoYkMxOVNOMHMyOGhYN3E5MkduWFRLZDR3SFlQajA3aDNYMDJ4emdPcTNhMWNnSkV0b2VNc1dRUkJjZw?oc=5",
@@ -188,18 +188,6 @@
    "img": "",
    "chapeau": "",
    "txt": "Les premières boîtes physiques de Grand Theft Auto 6 sur PS5 ont été photographiées et partagées en ligne, alors que le lancement officiel est prévu pour le 19 novembre 2026 . Ces images, publiées sur Reddit par l’utilisateur u/IseeIceTea, montrent pour la première fois la jaquette de la version PlayStation 5 et apportent des informations inédites sur le jeu, notamment l’espace de stockage requis et de nouveaux visuels.\nLe détail le plus marquant visible sur le dos de la boîte est l’indication de l’espace nécessaire pour installer le jeu : 230 Go . Ce chiffre est supérieur aux 212 Go annoncés précédemment par Rockstar Games, soit une différence de 18 Go . Cette augmentation pourrait s’expliquer par l’ajout de contenu de dernière minute, des correctifs ou des données supplémentaires pour le mode en ligne. Il n’est pas encore certain que ce chiffre soit définitif : il pourrait s’agir d’une estimation susceptible d’évoluer avec les mises à jour avant ou après la sortie.\nPour les joueurs, cette information est cruciale. Avec 230 Go requis, GTA 6 s’impose comme l’un des jeux les plus volumineux de la génération. Sur une PS5 standard équipée d’un SSD de 825 Go (dont environ 667 Go utilisables), le jeu occupera plus d’un tiers de l’espace disponible. Les possesseurs de consoles avec plusieurs jeux installés devront probablement faire de la place ou investir dans un SSD externe compatible. Cette exigence souligne l’ampleur du monde ouvert conçu par Rockstar, réputé pour son niveau de détail et sa densité de contenu.\nUn autre élément intrigant apparaît sur la boîte : une icône signalant la présence de fonctionnalités en ligne . Sa signification exacte reste floue. Plusieurs hypothèses circulent : elle pourrait indiquer l’intégration d’une nouvelle version de GTA Online , dont le lancement serait prévu pour l’année prochaine selon des rumeurs persistantes. Rockstar n’a pas encore communiqué officiellement sur le mode multijoueur de GTA 6, mais la présence de cette icône suggère que le jeu inclura bien une composante en ligne, peut-être dès sa sortie ou via une mise à jour ultérieure.\nUne autre possibilité est que l’icône renvoie simplement à la possibilité d’acheter depuis le jeu une mise à niveau vers l’ Ultimate Edition , une pratique courante dans l’industrie. Sans confirmation de la part de l’éditeur, il est impossible de trancher. Quoi qu’il en soit, cette mention confirme que GTA 6 ne sera pas uniquement une expérience solo, mais qu’il s’inscrira dans l’écosystème en ligne cher à la franchise.\nLa boîte physique révèle également trois captures d’écran inédites du jeu. Elles mettent en scène les deux protagonistes, Lucia et Jason , ainsi qu’un avion survolant les îles de l’archipel qui sert de décor à l’aventure. Ces images offrent un aperçu supplémentaire de l’ambiance et de la diversité des environnements, confirmant la présence de zones insulaires et de moyens de transport aériens. Les fans pourront y voir des détails sur les personnages et les paysages, même si la qualité des photos prises à la volée ne rend pas pleinement justice aux graphismes du jeu.\nSelon les informations partagées, Take-Two Interactive et Rockstar Games ont commencé à distribuer les copies physiques aux revendeurs. Ces derniers devraient être autorisés à vendre le jeu avec le code de téléchargement à partir du 12 novembre 2026 , soit une semaine avant la date officielle. Cette pratique est courante pour les grosses sorties afin d’éviter les ruptures de stock et de permettre aux joueurs de précharger le jeu. Les joueurs ayant précommandé une édition physique pourront donc probablement récupérer leur exemplaire quelques jours avant le lancement, même si l’accès au jeu restera verrouillé jusqu’au 19 novembre.\nCette distribution anticipée explique pourquoi des boîtes circulent déjà sur les réseaux sociaux. Elle comporte toutefois un risque de spoilers : des images ou des vidéos du jeu pourraient fuiter avant la sortie officielle. Rockstar est connu pour sa politique stricte en matière de confidentialité, mais avec des copies physiques entre les mains de nombreux revendeurs, il est difficile de contrôler totalement les fuites.\nGrand Theft Auto 6 est sans conteste l’un des jeux les plus attendus de la décennie. Annoncé officiellement en décembre 2023 avec un premier trailer, le jeu promet de repousser les limites du monde ouvert. Les joueurs incarnent Lucia et Jason, un couple de criminels évoluant dans l’État fictif de Leonida, inspiré de la Floride. L",
-   "pub": ""
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNSTllOWRuVTY4WjVaakp3eHMwa3NaUXRYd0wwM1dIdVZsMTZUcC1EZElVSTJIcjNRVnNjeXhKTGlwdXV0ZDVIeWZTQUhIRHVMd1dBM2E0TzJXcEVSandNaFFSbmlQYm8tdFI2OFVZU19kOUc5dWtrS1dMNXdwMHpZaW1DRFB5d25UMXRDZWtVRlp4LTN1Mkowb3hkcHN1Nl9zRzM0YXVlSk9IZ0RBenZPX3RQTkZzZjJVSnZMd3dKRlk2YjR2dzFWZHQ5eEIwUVRwcUpsZUthbm8waTQ?oc=5",
-   "s": "RTBF",
-   "d": "2026-11-07T15:33:44+00:00",
-   "lang": "fr",
-   "t": "Abandonner son chat ou son couple : que seriez-vous prêt à sacrifier pour jouer à GTA 6 une semaine plus tôt ? - RTBF Actus",
-   "u": "https://www.rtbf.be/article/abandonner-son-chat-ou-son-couple-que-seriez-vous-pret-a-sacrifier-pour-jouer-a-gta-6-une-semaine-plus-tot-11811232",
-   "img": "https://static-content.rtbf.be/article/image/1920x1080/7/c/1/5e3e085cb925c37b86a6c87199f8ad7a.jpg",
-   "chapeau": "GTA 6 constitue l’un des plus grands événements culturels du 21e siècle. La longue attente depuis le dernier opus,...",
-   "txt": "",
    "pub": ""
   },
   {
@@ -295,11 +283,7 @@
    "d": "2026-11-07T14:15:13+00:00",
    "lang": "fr",
    "t": "GTA 6 déjà distribué en Allemagne, un poster officiel dans la boite du jeu !",
-   "u": "https://jvmag.ch/2026/11/07/gta-6-deja-distribue-en-allemagne-un-poster-officiel-dans-la-boite-du-jeu/",
-   "img": "https://jvmag.ch/wp-content/uploads/2026/11/gta-6-1.jpg",
-   "chapeau": "Nous y sommes ! Après 13 longues années, la saga Grand Theft Auto est sur le point de revenir entre nos mains. À quelques jours de son lancement, les",
-   "txt": "",
-   "pub": "2026-11-07T14:15:13+00:00"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQVU4TlI1S21aUkJTNkZOWVllckN6MzJTalRla1BzNTdlR3VVdmNkX2tvNDZ1cHA0ejY4RXFxYU1KSV9LZE11V1JJMjJ2djlJZDduUVhCeHdiV3JlTFVwb2xUQm1tRlZwR1RaRnFVZlpHcFlOVkFiYkVRcVdUQXlMRTBFUzczV1BVMHFuWXdZeGpGd0I1MU4xV3lsOW9ialJnWE5fT3p3d0daNXZ5ZElMandxWnRTeEFtVzltWg?oc=5",
@@ -307,7 +291,7 @@
    "d": "2026-11-07T14:13:50+00:00",
    "lang": "fr",
    "t": "La première boîte physique de Grand Theft Auto VI pour PlayStation 5 a été aperçue en Allemagne.",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPeUc2ODRoWVpvQU5NSi1RVTk0WVpvb28zQTRYcUpfRTlmeGZNdS1XaGF6cm81MmZzc3hkbndNTG94bEVBY2ZXRkxsUWM2dlFfLXA0dzhnd0tmZzZCZ0VSTUFHOWlxRGNKREsybmV5V1h4OXpmZ1ZpaXQ4Y3dTdU9ZLUZSbw?oc=5",
@@ -340,19 +324,15 @@
    "d": "2026-11-07T13:02:32+00:00",
    "lang": "fr",
    "t": "D'après les rumeurs, une star de films pour adultes apparaîtra dans GTA 6",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNWXNSRkJDekR6MnFWQTROS1NNQ0hfaXZnb0xuMUhKSmZrUkYzNlQ3Wnk3OWdDbDM2M2lRaWpSLW1ObXVMYk4zMmluaVhJUFY2MVRMckhISGljZ0tNWHVkS0ZFZU5vc3VTN0VpbmlFWDJlMHVNV3U1N21QVnpYdDd2eTNLVi1pV2FsbkV5dG8zRXh5MWJYTFdhUTBBNjR4dzJjUHpYTlg1eUFDTDU2dDZiNnRsSkpGTmlhQlpneHo2Z1N5eUc5Q0xBQjhaR3Q?oc=5",
    "s": "Trendyman",
    "d": "2026-11-07T12:29:27+00:00",
    "lang": "fr",
-   "t": "Coucher de soleil sur Vice City : l'Air Force 1 GTA 6 x Travis Scott dévoilée",
-   "u": "https://www.mensup.fr/travis-scott-x-gta-6-nike-air-force-1-patent-leather-camo-et-etoiles-roses-pour-un-coloris-friends-and-family/",
-   "img": "https://www.mensup.fr/wp-content/uploads/2026/11/coucher-de-soleil-sur-vice-city-lair-force-1-gta-6-x-travis-scott-devoilee-2.webp",
-   "chapeau": "Travis Scott a partagé les premières photos de sa Air Force 1 conçue en collaboration avec Rockstar Games pour GTA 6 : patent leather noir, panneaux camo, Swoosh inversé blanc et six étoiles roses sur la semelle intermédiaire. Un modèle distribué en dehors du circuit retail classique.",
-   "txt": "",
-   "pub": "2026-11-07T12:29:27+00:00"
+   "t": "Coucher de soleil sur Vice City : l’Air Force 1 GTA 6 x Travis Scott dévoilée",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQk1Ua3RIVUo1UW40WlgxaXBGdGZfVWVlN1Fha3RydjM4N3E5RkpmeV9BN2Q0bXNWUVV4NHBuS29UeUpwSnlPNzQ4OGZGN2VDWnVDMDBycmp6S0JBSEpCbngyZEV3RVJ1MjZGel9JSEJscFJfNkMybmlINzFKMXJUeHhrSGhOSWRaTkhsRHotZjEzRlcxbklBaEEzc2NLb1RZUlA2SjlGRXdwR2RCSm1sVWVMMUNwQm5BVWZwU3ZaZG1lR3M3VElhekk5a0RnVWZ3?oc=5",
@@ -360,7 +340,7 @@
    "d": "2026-11-07T11:50:08+00:00",
    "lang": "fr",
    "t": "Louer une PS5 pour jouer à GTA 6 : une bonne idée ? Prix, options, notre comparatif face à l'achat",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNODdWTU1Wb0FqY2NleHBRWGlkNVFwSno3X2x0T3IxYXpBOHpWZ3JmNTRVbzBVZEphTHhlQV9WTTdGYUxTbEJnNzllZ0cxdGV6WGZqdFBuTFk2ZzlOU0gwSGpWYWNZWXJObUphYUZZVU1ycmpSN1FKRVVuZkQ5ZUlRX0pBZVRiSWU1THdBZG5zMHlNbHZ1WFh6QnY4c1pmUmc?oc=5",
@@ -368,7 +348,7 @@
    "d": "2026-11-07T11:46:52+00:00",
    "lang": "fr",
    "t": "HyperDrive a publié de nouvelles captures d'écran de GTA 6 montrant les voitures du jeu",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPaHVEQTBuMkFUa1pFWVItNEt4VmptemxNNEFWVTY2N0VSY1V2R193S0lTWVhCbTlCWGpMb09fb2tMYWU5QXJxQzUxckpTZWViLUl0cV9KWEZsSDV6dFA0WF9kdmJDVHlkZ2xPclFqU2tZS2JaaExPTEZJSjNUMVotcE4yWDVsUVRXamQ4X0d2TmRIbFVjUmlzbTFaSDIxWjYta1UzWHlubUJSOTJOa2NFTWhuQTd2Y1FCb1pmTG52SlptZDhxMUZacjhOcHJUYVR6bnFNY1g3UWlSSWhEMnh3TGU2UHdhemwtTmJEaE1kSmpUQ0hRekp0c0M2YTN4ZWZnRW1jcVdKb1JJMUZCVmUwTQ?oc=5",
@@ -505,11 +485,7 @@
    "d": "2026-11-06T22:41:00+00:00",
    "lang": "en",
    "t": "CyberLeek Price (CYBERLEEK/USD) Today | Live Price, Market Cap & Chart",
-   "u": "https://www.binance.com/en/price/cyberleek",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -518,7 +494,7 @@
    "d": "2026-11-06T21:05:26+00:00",
    "lang": "en",
    "t": "GTA 6 New Leak - Is It Real or Is It AI-Fake?",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -527,7 +503,7 @@
    "d": "2026-11-06T21:05:26+00:00",
    "lang": "fr",
    "t": "Les joueurs se demandent si la nouvelle fuite supposée du gameplay de GTA 6 est un fake ou pas",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -614,7 +590,7 @@
    "d": "2026-11-04T14:30:23+00:00",
    "lang": "fr",
    "t": "Une fuite confirme des améliorations pour GTA 6 sur la PlayStation 5 Pro",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -714,11 +690,7 @@
    "d": "2026-10-22T15:12:54+00:00",
    "lang": "en",
    "t": "Cyberleek Shares GTA 6 Leak Of Naked Lucia",
-   "u": "https://www.imdb.com/news/ni66062173/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -779,7 +751,7 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
    "t": "Le token CYBERLEEK chute de 40 % alors que le leaker de GTA 6 lance de nouvelles menaces",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
