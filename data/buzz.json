@@ -1,6 +1,6 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-07T12:12:55+01:00",
+  "updated_at": "2026-11-07T14:13:17+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
     {
@@ -70,11 +70,14 @@
       "status": "Rumeur",
       "published_at": "2026-11-07T03:21:07.000Z",
       "checked_at": "2026-11-07T08:20:00+01:00",
-      "evidence": "Vues relevées le 2026-11-07 dans data/x_alertes.json : 23 662 vues, 1 026 likes. Aucune image dans le relevé ; compte de police non identifié ni consulté.",
+      "evidence": "Vues relevées le 2026-11-07 dans data/x_alertes.json : 23 662 vues, 1 026 likes. Aucune image dans le relevé ; compte de police non identifié ni consulté. Illustration officielle ajoutée au contrôle du 2026-11-07T14:13:17+01:00 ; média original toujours absent du relevé.",
       "visual": "POLICE COUNTDOWN",
       "embed_type": "x",
       "post_text": "An official police department account is counting down to the release of a Grand Theft Auto game.",
-      "cta": "Ouvrir la publication sur X"
+      "cta": "Ouvrir la publication sur X",
+      "image": "https://media-rockstargames-com.akamaized.net/tina-uploads/posts/k4ak9okk485712/81e58e08369adca0d68a17dac9b12c3a63848fc3.jpg",
+      "image_alt": "Vue officielle de Vice City, illustration de GTA VI sans rapport établi avec le compte de police cité",
+      "image_credit": "Rockstar Games · illustration officielle, pas une capture du compte de police"
     },
     {
       "id": "x-xbox-taille-209-gib-base-microsoft",
@@ -2017,6 +2020,11 @@
       "at": "2026-11-07T12:12:55+01:00",
       "label": "Passage 71 · Vidéo Miami Heat relayée",
       "summary": "Relevés X Mac/serveur concordants du 2026-11-07T10:13:53+00:00. Ajout du montage voitures et dirigeable attribué au Miami Heat (53 627 vues), distinct des comparaisons de voitures déjà publiées ; attribution non recoupée, statut Rumeur et vraie miniature contrôlée. Xbox, DualSense et anniversaire déjà couverts ; comptes à rebours sans information nouvelle écartés. Recherche web X, Instagram, TikTok et Rockstar effectuée : X 403/cache absent, Instagram 429, TikTok sans texte exploitable et Newswire sans lignes lisibles. Résultats de recherche sur les tournages antérieurs non traités comme une annonce nouvelle. Aucun post X ni message à un tiers."
+    },
+    {
+      "at": "2026-11-07T14:13:17+01:00",
+      "label": "Passage 72 · Aucun nouveau sujet distinct",
+      "summary": "Relevés X Mac/serveur concordants du 2026-11-07T12:16:45+00:00 : 8 publications examinées. Comparaisons Hypedrive déjà couvertes (3 039 vues), taille Xbox/versions régionales (97 675), police (44 592), DualSense (59 509) et anniversaire du report (48 262) déjà publiés ; comptes à rebours sans information nouvelle et question congés sous le seuil écartés. Aucun sujet distinct admissible. Recherches X, Instagram, TikTok et Rockstar effectuées : X 403, Instagram 429, TikTok robots/profil sans texte, Newswire sans lignes lisibles ; index Newswire consulté, Launch Gallery du 5 novembre et préchargement du 3 novembre déjà couverts. Carte police préexistante sans image complétée par une illustration officielle contrôlée et explicitement distinguée du média original absent. Aucun post X ni message à un tiers."
     }
   ],
   "coverage": {
