@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-07T09:53:20+00:00",
+ "maj": "2026-11-07T10:13:33+00:00",
  "articles": [
   {
    "gn": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQkJPNzRnTERyMjlUejhyTHFvZTFYYUpFN0lpaW9tWnlDeFdLZVI4ZzJYOVhWR2hrS1Exc2dHaFNxbWE2WW5IV080X0JLMGY5VlczR1lPWEhUNGVkZjNBZXYyQ0xtOFVDTFM3MFdTWU1BT3pIMFZKT0tQV0thcUNyTG9WODc1ekVoNGUtdjI3YmVoQjR0djlr?oc=5",
@@ -8,6 +8,14 @@
    "lang": "fr",
    "t": "West Coast Customs reproduit les voitures de GTA 6 en vrai",
    "erreur": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbmg0OW05ZUZXRTZxbktHcERCWFZpRGhYcnVLNmhYa3pfSXdsMFJGVGFITUNQWUNiNFhJRjJINjZPeVhJRnpkSmJ0RzdNT01KOWpmNHJHZkVhekF2VUlNRHdGaWFKcVNGZFVZT3NzTno2VEpCQ3BzQWdZRkc4UFJKT3FZblBTV2pGTTVIMTdEMWxJdw?oc=5",
+   "s": "INFINITY AREA",
+   "d": "2026-11-07T09:35:00+00:00",
+   "lang": "fr",
+   "t": "GTA 6, votre précommande Amazon arrivera-t-elle à temps ?",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOaDkwdkJIWFZaRlBUT01DUWFsc2NZQ3AtYnJ6Qm9OelFXT3ZER2RNYW54eWlfTmo5cGctUzF0ZVQxM1J5a0xfSnM3QU42cDdLN00wV0VSYjIxQnlZd2diOWppbEJmTzhOWk1icjlxZ2RRUDJMX0ROOW5Ec0Y4LUQ1alhuMWo1R0JzWXBBZ0Z2SVQ4LUo1ZmVUUFI2b3NNdlVmbmpqdll5eVpsUmljRmI2VkNmdS1ObG9zTUdRUE9Hb0hBWXduY3NBOWluZkdoa3laT3c?oc=5",
@@ -30,14 +38,6 @@
    "pub": ""
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUE5WTGpRZFo4X3hQa1NnRHFwSFZxSjc0NGVfaU9MbGxJcnppQ3Jmb29GQnF4QTdaR3dOeHpsSEZZUUhlNHhDUThncm5tc1hNZlNOWTJpbDZHd3NzaXFmbmpUMWRrMnZhdWlFZm9RZktoTC1TUXJ6ZjZUWmtmeGt6cVYydkNlaGN2ODdLUmg4WUh0dVk?oc=5",
-   "s": "Gameblog",
-   "d": "2026-11-07T08:34:29+00:00",
-   "lang": "fr",
-   "t": "« Sans vouloir manquer de respect » The Elder Scrolls 6 ne fera jamais aussi fort que GTA 6 selon cet expert",
-   "erreur": "429 : passage suivant"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBDa2tEZk9kODRHRWl6RlJLWEUwVjRoa1JncHRFeTVWY2V1NXY5OGEydjRnaUl6cnVkZ01mUW55al9jTk81VzZUVWI3SXRlczV6T3k2UkM5M3hlMnIyRXJWLVFhVmttc3VGRFcyeEZFN2I?oc=5",
    "s": "Fenix Bazaar",
    "d": "2026-11-07T08:15:21+00:00",
@@ -50,11 +50,27 @@
    "pub": "2026-11-07T08:15:21+00:00"
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVmNsMDB2ejk5TkR4VC1kaGtCM3o1QVd6S3NFUG1Sd3RxOEhraloyXzJEbEZsS21yRnpsWGg2R3VabmVTd19FNWRST19KMmpvQzctVkdISnNHUUJkY1k0SE1xUDNTRGtUejZzTmZYNGZ5djlsV0FNUkc5TzRDYzBPdTc0Vm4xZUlWVXJnek5WcENWdUNEZDJ4MzJXS3ptbE4xdng1ejc1UWh4dmZwdFdtaG9wNlBHazB4REVwNWtIRDllcXl0MnI1aUFUeWk?oc=5",
+   "s": "Gamekult",
+   "d": "2026-11-07T08:11:00+00:00",
+   "lang": "fr",
+   "t": "Rockstar commence enfin à lâcher les chevaux : voici GTA 6 sous toutes les coutures",
+   "erreur": "429 : passage suivant"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQmItSEtNQlhGUXN3WDRkWWpqazIyUXVVenhqWTZuNE1lRngxaTBaMjNNRlUyRnptSWlaYUpJSlA2N0dMR3RqajBDbm9QeUczS1ZNSXdOQmo2cXc5WHNiMjI3dGp1dEl0X0F1QXlrcU5rbWt3WW1yRzVMODFlZVo5QUJPbzNBMzBvSzNqREZoMWY2am14cy1lckNnSjZkaHFBLTQ0?oc=5",
    "s": "Gameblog",
    "d": "2026-11-07T08:03:59+00:00",
    "lang": "fr",
    "t": "GTA 6 : 7 choses qu'on attend le plus et qui pourraient rendre le jeu vraiment unique",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQSEktTzJ5OFdDLTRjcmwxUm12ZDh3ZXJPMEQwMmhsYzlVbzVUWk53MTNPRUdpbmg1YUtxSzVBdEltdXRCNS1JbU0tZjFXd19vYk1yb0dSaVZLbkFid2JGeWxGeG4xSDczMEpET1B1VERlXzl3WFNaN25UQzdHbFdjeHNjQXNzRVdnQWZJenhwekc?oc=5",
+   "s": "Creative Bloq",
+   "d": "2026-11-07T08:00:00+00:00",
+   "lang": "en",
+   "t": "The \"ruined\" GTA VI advert controversy is pretty ironic",
    "erreur": "429 : passage suivant"
   },
   {
@@ -264,18 +280,6 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPdUQ0ZmlUckNlanpLZEVVdDROVVNZTnpKODFkWU9MTS1yZ2FTajYxeHhuSTVVRU42NmdVRnZCdWh4SXhDR2plRkNPNnk5TFNoRjhYRHZidW4wV29pZ1ZWRTdNTGNXYXNXd2Y3X0V5aDkwTmk4bFQ0VFdVb1pFeWV4ZzVucDlJOVhscG1KMg?oc=5",
-   "s": "Complex",
-   "d": "2026-11-07T00:33:45+00:00",
-   "lang": "en",
-   "t": "Rockstar and West Coast Customs Build Six Real 'GTA VI' Cars, From Lowriders to Donks",
-   "u": "https://www.complex.com/pop-culture/a/treyalston/gta-6-cars-west-coast-customs-miami",
-   "img": "https://images.complex.com/complex/image/upload/c_crop,h_1084,w_1920,x_0,y_0/g_auto:aoi_768_434_384_217,ar_1.91,c_fill,q_auto,w_1200/sanity-new/wodkir3ahjm2goeb4s3k",
-   "chapeau": "Rockstar and West Coast Customs have built six GTA VI car...",
-   "txt": "Comment Save Share Comments Comments Press release Key Takeaways Rockstar Games teamed with West Coast Customs to build six real-life GTA VI cars, including the Grotti Cheetah, Pegassi Tempesta and Albany Buccaneer. The cars cruised Miami for promotional shoots sporting Leonida plates, Vice City text and Rockstar branding ahead of GTA VI’s Nov. 19 launch on PS5 and Xbox Series X/S. To commemorate the upcoming launch of Grand Theft Auto VI, Rockstar Games has brought some of the series’ coolest exotic cars to life.\nAccording to a press release, Rockstar Games partnered with Los Angeles shop West Coast Customs — which built a real-life version of the series’ Bravado Banshee in 2013 for GTA V —to build real versions of six of the game's cars.\nThe lineup is the Grotti Cheetah, Pegassi Tempesta, Progen Emerus, Invetero Coquette, Albany Buccaneer, and Albany Manana. Each car came out with photos and its own backstory of stats and details, and they look very close to what’ll appear in the game.\nAccording to a press release, each car “combines traditional metal fabrication with modern composite construction, using CNC machining to produce custom wheels and structural components.” They also each have custom paint finishes.\nThe cars were filmed driving around Miami for promotional photos. They wore Leonida plates with Vice City text and plate frames reading \"VI,\" \"West Coast Customs,\" and the Rockstar logo.\nMusic 'Grand Theft Auto VI: The Album' Tracks From Cardi B, Fuerza Regida Released: Listen Here\nCardi's \"Don't Chart\" and Fuerza Regida’s “Suzuki” will both appear on the official 'GTA VI' soundtrack, out alongside the game next month.\nPop Culture Everything We Learned From the 'Grand Theft Auto VI' Extended Look on Netflix\nRockstar Games and Netflix present a special look at 'GTA VI' ahead of its November 19, 2026 release.\nPop Culture Kodak Black Appears to Be Featured in ‘GTA VI,’ Screenshot Shows\nWith just two weeks to go until 'GTA VI' is finally here, Rockstar Games released some new screenshots, and Kodak appears to feature in one of them.",
-   "pub": ""
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZkNyTkFXeVdXU1ZGY1VKaXRfX25oVk1ZSjI1c2ZxNUlHbE9HMWN1SmowOGwtTWFRTE9LdWl5TllVZHcxMVdFWUZQQkZlWlRYLXNGaEtOQjJDZU9xcjFsYmpWbjF1RG1QQVY1RGt6R1JSWk4zQXZndGpiNENJQkQ1N1ZtaVpZVm5hNlQ2ejhCaw?oc=5",
    "s": "https://tech-insider.org/",
    "d": "2026-11-07T00:16:43+00:00",
@@ -357,14 +361,6 @@
    "d": "2026-11-06T19:53:00+00:00",
    "lang": "fr",
    "t": "« Grand Theft Auto VI » : treize ans d’attente, un retour sous haute tension",
-   "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPN0JRcjN3TFZ6c2RWOC16Tlg5aHE5WUlHckR3RXZhdkJJSkF3R0hKSEZqZVNJdWRWY2l5NjRDaWs4c1MxNFREdkJ0NmhySmppYzhoOXZNU2VYbUM0YlhScWtlOUFTTlgtbWs5djQ0R0hvWkpfY1c2aF9QRkJHYlllVXJSQVh4VURJOGoxclJXY0UtVlVRTzlMRHM1NEVRbzA?oc=5",
-   "s": "EGW.News",
-   "d": "2026-11-06T19:40:33+00:00",
-   "lang": "fr",
-   "t": "Rockstar Games a peut-être révélé la scène finale de GTA 6",
    "erreur": "429 : passage suivant"
   },
   {
