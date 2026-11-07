@@ -1,8 +1,44 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-07T20:13:04+01:00",
+  "updated_at": "2026-11-07T22:12:59+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-cara-delevingne-deux-semaines",
+      "title": "GTA 6 : Cara Delevingne aurait réservé deux semaines pour jouer",
+      "summary": "Deux comptes relaient des propos attribués à Cara Delevingne, voix de Non-Stop-Pop dans GTA 5 : elle aurait bloqué deux semaines après la sortie pour jouer à GTA 6. La vidéo reprise par @GTAVI_Countdown porte le logo Pop Crave. Ces propos ne confirment aucune participation de l’actrice au nouveau jeu.",
+      "url": "https://x.com/GTAVI_Countdown/status/2119161483536085271",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "2026-11-07T20:14:04.000Z",
+      "checked_at": "2026-11-07T22:12:59+01:00",
+      "evidence": "Vues relevées le 2026-11-07T21:09:05+00:00 dans data/x_alertes.json : 19760 vues chez @GTAVI_Countdown. Relevés Mac/serveur concordants. Original X tenté : cache absent. Média HTTP 200 via curl, ouvert et contrôlé visuellement (lecture Python refusée 403). Affirmations attribuées, sans confirmation indépendante. Même sujet chez @gtasix_ : 40 098 vues au même relevé, mention via @PopCrave.",
+      "visual": "PAUSE JEU",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2119145340293021696/img/XW4s7d42JnOrqfUF.jpg",
+      "image_alt": "Cara Delevingne devant un microphone Pop Crave dans la vidéo relayée sur X",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X"
+    },
+    {
+      "id": "x-nick-digiovanni-sandwich-prairie",
+      "title": "GTA 6 : Nick DiGiovanni et le sandwich Prairie circulent sur X",
+      "summary": "@GTAVI_Countdown relaie une vidéo de Nick DiGiovanni autour du sandwich Prairie de GTA 6 et la présente comme sponsorisée par Rockstar. La miniature montre une dégustation dans une cuisine. Le partenariat et le chiffre calorique avancé par le compte ne sont pas recoupés ici ; ce relais ne constitue pas une nouvelle annonce de gameplay.",
+      "url": "https://x.com/GTAVI_Countdown/status/2119156091716034604",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-07T19:52:38.000Z",
+      "checked_at": "2026-11-07T22:12:59+01:00",
+      "evidence": "Vues relevées le 2026-11-07T21:09:05+00:00 dans data/x_alertes.json : 32324 vues chez @GTAVI_Countdown. Relevés Mac/serveur concordants. Original X tenté : cache absent. Média HTTP 200 via curl, ouvert et contrôlé visuellement (lecture Python refusée 403). Affirmations attribuées, sans confirmation indépendante.",
+      "visual": "SANDWICH PRAIRIE",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2119130652079480832/img/cQFvPFrA0RTt-OEJ.jpg",
+      "image_alt": "Dégustation dans une cuisine, miniature portant le nom Nick DiGiovanni",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X"
+    },
     {
       "id": "x-floride-meme-cabriolet",
       "title": "GTA 6 : un mème oppose le jeu à une scène présentée comme floridienne",
@@ -2112,6 +2148,11 @@
       "at": "2026-11-07T20:13:04+01:00",
       "label": "Passage 75 · panneau de Miami, trophées et mème Floride",
       "summary": "Relevés X Mac/serveur concordants du 07/11 à 19:06:30 UTC, neuf publications examinées. Trois sujets au seuil ajoutés avec vrais médias contrôlés : mème Floride (190 799 vues), panneau Vice City tagué à Miami (69 664), attente de détails des trophées (20 914). Brooklyn déjà couvert ; nouveauté Miami distinguée, identité du tagueur non vérifiée. Trophées sans liste ni calendrier confirmé. E11EVEN sous le seuil (6 435 vues), boîte déjà couverte, braquage Londres sous le seuil ; réponses PlayStation Game Size sans annonce nouvelle. @vicecentralFR exclu. Recherches X/Instagram/TikTok/Rockstar effectuées : originaux X cache absent, Instagram 429, TikTok et Newswire sans lignes lisibles ; index Newswire consulté, galerie du 5 novembre et préchargement du 3 novembre déjà couverts. Presse Brooklyn indexée mais original Yahoo 403, non utilisée pour confirmer Miami. Aucun post X ni message à un tiers."
+    },
+    {
+      "at": "2026-11-07T22:12:59+01:00",
+      "label": "Passage 76 · Cara Delevingne et sandwich Prairie",
+      "summary": "Relevés X Mac/serveur concordants du 07/11 à 21:09 UTC. Deux sujets nouveaux retenus : Cara Delevingne (deux comptes, 40 098 et 19 760 vues) et Nick DiGiovanni (32 324 vues), avec vrais médias HTTP 200 contrôlés visuellement. Accès direct X : cache absent ; recherche Instagram sans publication exploitable, TikTok bloqué robots.txt. Newswire Rockstar consulté : galerie du 05/11 déjà couverte, aucune nouvelle annonce distincte retenue. Pistes portage IA PC (8 060 vues) et produits E11EVEN (9 681 vues) sous le seuil, sans seconde reprise dans le relevé ; jaquette, trophées, panneau et mème déjà couverts. Aucune métrique extrapolée, aucun post X ni message à un tiers."
     }
   ],
   "coverage": {
