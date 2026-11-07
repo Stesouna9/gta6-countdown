@@ -1,8 +1,26 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-07T14:13:17+01:00",
+  "updated_at": "2026-11-07T16:12:59+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-boite-allemande-dos-ps5-pro",
+      "title": "GTA 6 : le dos d’une boîte allemande circule, avec une mention PS5 Pro",
+      "summary": "@GTAVI_Countdown et @gtasix_ relaient des photos attribuées à u/IseeIceTea montrant une boîte allemande de GTA 6. Le dos présente trois captures, une mention « PS5 Pro optimiert » et « 230 GB Minimum ». Ces éléments sont visibles sur la photo relayée ; l’authenticité de la boîte et les améliorations PS5 Pro ne sont pas confirmées ici par Rockstar ou Sony. Le minimum imprimé ne constitue pas une mesure du téléchargement.",
+      "url": "https://x.com/GTAVI_Countdown/status/2119052517136847189",
+      "platform": "X",
+      "author": "@GTAVI_Countdown, via u/IseeIceTea ; repris par @gtasix_",
+      "status": "Rapporté",
+      "published_at": "2026-11-07T13:01:04+00:00",
+      "checked_at": "2026-11-07T16:12:59+01:00",
+      "evidence": "Vues relevées le 2026-11-07 à 15:00:42 UTC dans data/x_alertes.json : 278 971 vues chez @GTAVI_Countdown, 138 848 chez @gtasix_ pour le dos de boîte ; captures 24 828 vues, comparaison GTA 5 51 948 et mention PS5 Pro 20 415. Relevés Mac/serveur concordants. Média original du post récupéré via api.fxtwitter.com, HTTP 200, photo ouverte et contrôlée : dos allemand, trois captures, 230 GB Minimum et PS5 Pro optimiert visibles. Authenticité non recoupée auprès de Rockstar/Sony ; aucune promesse de performances déduite.",
+      "visual": "BOÎTE ALLEMANDE",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "image": "https://pbs.twimg.com/media/HWhi4GfXsAEG-Me.jpg?name=orig",
+      "image_alt": "Photo relayée du dos d’une boîte allemande GTA 6 avec trois captures et une mention PS5 Pro",
+      "image_credit": "@GTAVI_Countdown sur X, via u/IseeIceTea"
+    },
     {
       "id": "x-miami-heat-video-voitures-dirigeable",
       "title": "GTA 6 : une vidéo attribuée au Miami Heat réunit voitures et dirigeable Vice City",
@@ -2025,6 +2043,11 @@
       "at": "2026-11-07T14:13:17+01:00",
       "label": "Passage 72 · Aucun nouveau sujet distinct",
       "summary": "Relevés X Mac/serveur concordants du 2026-11-07T12:16:45+00:00 : 8 publications examinées. Comparaisons Hypedrive déjà couvertes (3 039 vues), taille Xbox/versions régionales (97 675), police (44 592), DualSense (59 509) et anniversaire du report (48 262) déjà publiés ; comptes à rebours sans information nouvelle et question congés sous le seuil écartés. Aucun sujet distinct admissible. Recherches X, Instagram, TikTok et Rockstar effectuées : X 403, Instagram 429, TikTok robots/profil sans texte, Newswire sans lignes lisibles ; index Newswire consulté, Launch Gallery du 5 novembre et préchargement du 3 novembre déjà couverts. Carte police préexistante sans image complétée par une illustration officielle contrôlée et explicitement distinguée du média original absent. Aucun post X ni message à un tiers."
+    },
+    {
+      "at": "2026-11-07T16:12:59+01:00",
+      "label": "Passage 73 · Boîte allemande et mention PS5 Pro",
+      "summary": "Sept publications du relevé X Mac/serveur concordant du 07/11 à 15:00:42 UTC examinées. Dos de boîte allemande ajouté, captures, comparaison GTA 5 et mention PS5 Pro regroupées dans un seul sujet pour éviter les doublons. Vraie photo du post récupérée et contrôlée ; authenticité non confirmée explicitée. Kai Cenat sous le seuil (8 815 vues), reprise martx_tv sans sujet distinct. Recherches X, Instagram, TikTok et Rockstar effectuées : X 403/cache absent, Instagram 429, TikTok et Newswire sans lignes lisibles ; aucune annonce nouvelle vérifiable issue des recherches publiques. Aucun post X ni message à un tiers."
     }
   ],
   "coverage": {
