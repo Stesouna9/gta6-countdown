@@ -1,8 +1,62 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-07T18:12:46+01:00",
+  "updated_at": "2026-11-07T20:13:04+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-floride-meme-cabriolet",
+      "title": "GTA 6 : un mème oppose le jeu à une scène présentée comme floridienne",
+      "summary": "@GTAVI_Countdown répond aux critiques d’un GTA 6 trop exagéré avec une vidéo présentée comme une scène ordinaire en Floride. La miniature montre une décapotable rouge dans une rue de nuit. Il s’agit d’un rapprochement humoristique ; le lieu et la date du tournage ne sont pas vérifiés.",
+      "url": "https://x.com/GTAVI_Countdown/status/2119113718864687245",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Création de fan",
+      "published_at": "2026-11-07T17:04:16.000Z",
+      "checked_at": "2026-11-07T20:13:04+01:00",
+      "evidence": "Vues relevées le 2026-11-07T19:06:30+00:00 dans data/x_alertes.json : 190799 vues chez @GTAVI_Countdown. Relevés Mac/serveur concordants. Original X tenté : cache absent. Média HTTP 200 ouvert et contrôlé visuellement. Affirmations attribuées au compte, sans confirmation indépendante.",
+      "visual": "FLORIDE RÉELLE",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2118899916097355776/img/5lelSGPvfnL-pziQ.jpg",
+      "image_alt": "Décapotable rouge dans une rue de nuit, miniature de la vidéo humoristique relayée sur X",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X"
+    },
+    {
+      "id": "x-miami-panneau-vice-city-tague",
+      "title": "GTA 6 : le panneau Welcome to Vice City à Miami apparaît tagué",
+      "summary": "@gtasix_ relaie des photos du panneau Welcome to Vice City près du Kaseya Center, recouvert d’un tag, et de la fresque de Brooklyn déjà évoquée ici. Le compte attribue les deux interventions à la même personne. Les images montrent une signature similaire, sans permettre de vérifier l’identité de son auteur.",
+      "url": "https://x.com/gtasix_/status/2119113689836200119",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rumeur",
+      "published_at": "2026-11-07T17:04:09.000Z",
+      "checked_at": "2026-11-07T20:13:04+01:00",
+      "evidence": "Vues relevées le 2026-11-07T19:06:30+00:00 dans data/x_alertes.json : 69664 vues chez @gtasix_. Relevés Mac/serveur concordants. Original X tenté : cache absent. Média HTTP 200 ouvert et contrôlé visuellement. Seconde photo du post récupérée via api.fxtwitter.com : panneau et Kaseya Center visibles ; attribution à une même personne non recoupée.",
+      "visual": "PANNEAU TAGUÉ",
+      "image": "https://pbs.twimg.com/media/HWiaqSwXcAEp4-M.jpg?name=orig",
+      "image_alt": "Capture relayée sur X du panneau Welcome to Vice City tagué devant le Kaseya Center",
+      "image_credit": "@gtasix_ sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X"
+    },
+    {
+      "id": "x-trophees-attente-details",
+      "title": "GTA 6 : une attente autour des trophées circule sur X",
+      "summary": "@gtasix_ estime que des détails sur les trophées de GTA 6 devraient arriver bientôt. Sa capture attribue à PlayStation Game Size la phrase « I know trophy numbers ». Aucune liste ni date de publication n’est fournie : cette attente communautaire ne vaut pas annonce de Sony ou Rockstar.",
+      "url": "https://x.com/gtasix_/status/2119095112659521622",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rumeur",
+      "published_at": "2026-11-07T15:50:20.000Z",
+      "checked_at": "2026-11-07T20:13:04+01:00",
+      "evidence": "Vues relevées le 2026-11-07T19:06:30+00:00 dans data/x_alertes.json : 20914 vues chez @gtasix_. Relevés Mac/serveur concordants. Original X tenté : cache absent. Média HTTP 200 ouvert et contrôlé visuellement. Affirmations attribuées au compte, sans confirmation indépendante.",
+      "visual": "TROPHÉES ATTENDUS",
+      "image": "https://pbs.twimg.com/media/HWiJxelWIAEwNAJ?format=jpg&name=small",
+      "image_alt": "Capture attribuée à PlayStation Game Size déclarant connaître le nombre de trophées",
+      "image_credit": "@gtasix_ sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X"
+    },
     {
       "id": "x-boite-allemande-dos-ps5-pro",
       "title": "GTA 6 : le dos d’une boîte allemande circule, avec une mention PS5 Pro",
@@ -2053,6 +2107,11 @@
       "at": "2026-11-07T18:12:46+01:00",
       "label": "Passage 74 · Aucun nouveau sujet distinct",
       "summary": "Relevés X Mac/serveur concordants du 07/11 à 17:03:05 UTC : 11 publications examinées. Boîte allemande, comparaison GTA 5 et mention PS5 Pro déjà regroupées dans le sujet précédent (152 896 et 73 752 vues pour les deux reprises). Trophées attendus (11 178 vues), progression du marathon Kai Cenat (18 580), comparaison braquage à Londres (233) sous le seuil et sans deux comptes distincts ; aucun nouveau sujet admissible. Compte à rebours préchargement (14 677 vues) écarté : déjà couvert et formulation en deux jours non reprise, FAQ Rockstar indexée indiquant le 10 novembre. Recherches X, Instagram, TikTok et Rockstar effectuées : X cache absent, Instagram 429, TikTok et Newswire sans lignes lisibles ; index Newswire consulté, galerie du 5 novembre et préchargement du 3 novembre déjà couverts. Aucun post X ni message à un tiers."
+    },
+    {
+      "at": "2026-11-07T20:13:04+01:00",
+      "label": "Passage 75 · panneau de Miami, trophées et mème Floride",
+      "summary": "Relevés X Mac/serveur concordants du 07/11 à 19:06:30 UTC, neuf publications examinées. Trois sujets au seuil ajoutés avec vrais médias contrôlés : mème Floride (190 799 vues), panneau Vice City tagué à Miami (69 664), attente de détails des trophées (20 914). Brooklyn déjà couvert ; nouveauté Miami distinguée, identité du tagueur non vérifiée. Trophées sans liste ni calendrier confirmé. E11EVEN sous le seuil (6 435 vues), boîte déjà couverte, braquage Londres sous le seuil ; réponses PlayStation Game Size sans annonce nouvelle. @vicecentralFR exclu. Recherches X/Instagram/TikTok/Rockstar effectuées : originaux X cache absent, Instagram 429, TikTok et Newswire sans lignes lisibles ; index Newswire consulté, galerie du 5 novembre et préchargement du 3 novembre déjà couverts. Presse Brooklyn indexée mais original Yahoo 403, non utilisée pour confirmer Miami. Aucun post X ni message à un tiers."
     }
   ],
   "coverage": {
