@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-07T01:02:04+00:00",
+ "maj": "2026-11-07T01:22:34+00:00",
  "articles": [
   {
    "gn": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPdEJrQko1OC1maHdUVi1DMWlYNnE0a1Y3d1NteTMzb0tlSUo2MnZzQkhDR19IZzR2Ni1HajYzbG1uTXVraGNhOWZGVklMVk5QM3VkUTlkOVhYQ2Z1RGRZVGNXOHBidEF4TF85YTRiM2VOYUpGQ2s2MlVrUzVyQXNmVDlyQzZ0NWs0VkE?oc=5",
@@ -11,7 +11,8 @@
    "img": "https://shattered.io/wp-content/uploads/2026/11/gta-6-xbox-file-size-leak-209-86-gb-225-34-gb-ps5-patch-2026-gen.webp",
    "chapeau": "Leaked GTA 6 Xbox file size: 209.86 GB vs 225.34 GB. See which version is leaner, how much SSD space to free up, and what it means for your install in 2026.",
    "txt": "Grand Theft Auto VI is 12 days from launch, and its install size just got messier. Notebookcheck reported that the Xbox Store shows 209.86 GB for the game while Microsoft backend data shows 225.34 GB. The GTA 6 Xbox file size leak does not match the PlayStation side, and a release-day patch could explain the gap, though nobody has confirmed that.\nThe numbers matter because preloading starts on November 10, and players with a nearly full SSD will have to delete things before then. Rockstar Games has not confirmed either Xbox figure. PlayStation’s official listing tells buyers to clear at least 212 GB on PS5, and a separate reported PS5 download size of 210 GB remains unconfirmed.\nThis analysis separates what is confirmed from what is leaked, does the arithmetic on the gaps, and explains what a day-one patch would change for your download. It also covers the Japan build rumor, the preload schedule, and what to do this weekend. For other launch-week threads, see our look at the pending rating and eight content descriptors .\nGoogle · Preferred Sources Don't miss new tech stories on Google\nAdd Shattered once in the Google app and our stories show up in your news suggestions.\nNotebookcheck’s report rests on two numbers from two different places. The first, 209.86 GB, is what the Xbox Store displays for the game. The second, 225.34 GB, comes from Microsoft backend data, which is the kind of metadata that sits behind a store page and can differ from what the page shows to customers.\nNeither figure comes from Rockstar Games. Both are described as leaked or backend data, and the studio has not published a final Xbox download size. That distinction should shape how you read every headline on this story. A store field and a backend field can be filled in at different times by different teams, so a mismatch does not prove a hidden problem.\nThe gap between them is simple subtraction. 225.34 GB minus 209.86 GB leaves 15.48 GB, or about 7.4 percent more than the Store figure. That is a large chunk of data, roughly the size of a hefty standalone game on its own. If units differ between the two fields, the real gap could be a little smaller or larger, which is one more reason to treat the comparison as a rough guide.\nNotebookcheck’s headline frames the difference as a release-day patch being possible. That wording is careful, and it should be. The outlet points to a patch as a plausible explanation without claiming one exists. We follow the same line here: the patch theory is a hypothesis, and the only confirmed facts are the release date, the platforms, the PS5 storage requirement, and the preload timing.\nThe table below lists every size figure circulating this week and where it stands. Only one of them is a published requirement from a platform holder, and it is a minimum free-space instruction rather than a file size.\nRead that table from the bottom up if you want to know how much weight to give each number. The Japan figure has the thinnest support, the PS5 download figure is a report with no official backing, and the Xbox pair is a leak with a plausible technical story behind it. The PlayStation requirement is the only line backed by an official page.\nPlayStation’s official game page tells players to clear a minimum of 212 GB on PS5. That is 2.14 GB above the Xbox Store figure of 209.86 GB and 13.34 GB below the 225.34 GB backend figure. On paper, the Store figure and the PlayStation instruction sit close together, while the backend number stands apart.\nComparing them directly is tempting, but the two numbers measure different things. A minimum free-space requirement usually bakes in headroom for temporary files and decompression, so it tends to exceed the pure download size. The reported 210 GB PS5 download figure, if accurate, would sit only 0.14 GB from the Xbox Store number. That would suggest the two platforms ship nearly identical base builds, with the backend figure representing something extra.\nThat reading is speculation, and it depends on a PS5 figure no one has confirmed. We flag it because it explains why the story has traction. If the PS5 and Xbox Store numbers match within a fraction of a gigabyte, the odd one out is the 225.34 GB entry, and the obvious question becomes what lives in that extra 15.48 GB. Our earlier coverage of the GTA 6 PS5 Pro leak showed how quickly console-side claims outrun evidence in the weeks before a launch.\nDigital storefronts do not pull their numbers from a single source of truth. A stor",
-   "pub": "2026-11-07T00:51:24+00:00"
+   "pub": "2026-11-07T00:51:24+00:00",
+   "cyberleek": true
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZkNyTkFXeVdXU1ZGY1VKaXRfX25oVk1ZSjI1c2ZxNUlHbE9HMWN1SmowOGwtTWFRTE9LdWl5TllVZHcxMVdFWUZQQkZlWlRYLXNGaEtOQjJDZU9xcjFsYmpWbjF1RG1QQVY1RGt6R1JSWk4zQXZndGpiNENJQkQ1N1ZtaVpZVm5hNlQ2ejhCaw?oc=5",
@@ -23,7 +24,8 @@
    "img": "https://tech-insider.org/wp-content/uploads/2026/11/gta-6-xbox-file-size-leak-differs-ps5-release-day-patch-2026-gen.webp",
    "chapeau": "GTA 6 file size: reports say Xbox differs from PS5 and a day-one patch is possible. Rockstar confirms only 212 GB and a Nov. 10 preload.",
    "txt": "Nadia Dubois November 7, 2026 11 min read Players preparing for Grand Theft Auto VI keep asking the same question about the 212 GB preload: will the Xbox download match the PS5 one? Reports circulating this week, including coverage from Notebookcheck and GAMINGbible, claim the Xbox Series X|S file size differs from the PS5 figure and that a release-day patch may add to what players download. Rockstar Games has confirmed neither point. What the studio has confirmed, and what Game Informer’s preload guide tells players to prepare for, is a download that needs up to 212 GB of storage, depending on platform.\nThat gap between the up-to-212 GB ceiling and a platform-by-platform number is the whole story. It matters because the preload opens on November 10, 2026, only three days after this article goes live, and the game launches on Thursday, November 19. Our earlier report on the preload moving up two days covered the schedule change. This piece covers what the new file-size claim does and does not prove.\nShort version: the 212 GB figure is real, the preload dates are real, and the Xbox-versus-PS5 difference plus the day-one patch remain reports without a Rockstar statement behind them. Below, we separate the confirmed from the unconfirmed, walk through the preload schedule by time zone, and lay out what players should do before the clock starts.\n· Google · Preferred Sources Don't miss new tech stories on Google\nAdd Tech Insider once in the Google app and our stories appear in your news suggestions.\nThe claim has two parts. First, that the Xbox Series X|S build of Grand Theft Auto VI carries a different file size than the PS5 build. Second, that a patch could arrive on release day and add to the total download. Notebookcheck and GAMINGbible have both pushed the story into search results this week, and it has spread fast because the 212 GB headline number already had players worried about their drives.\nHere is the problem with treating it as settled. Neither claim comes with a Rockstar or Take-Two Interactive statement. No named person from either company has gone on record about separate Xbox and PS5 sizes, and no verified on-record quote exists in the sources we reviewed. The reports describe a difference but nobody has published an official platform-specific number for us to check.\nSo we report it as a claim in circulation, not a fact. That distinction matters for readers who plan to buy storage, clear a drive, or schedule a download around a specific figure. If you act on a number nobody has confirmed, you risk guessing wrong in either direction.\nThe official information is narrower than the headlines suggest. Rockstar says the preload requires up to 212 GB of storage, depending on platform. As GosuGamers reported , preloads begin on November 10 and need that much free space.\nRead that phrase again: up to, depending on platform. The wording itself concedes that the requirement is not identical everywhere. It sets a ceiling and leaves room for the platforms to land at different points beneath it. That is the most likely origin of the Xbox-differs-from-PS5 story, because the official language already hints at variation without giving a single number for either console.\nRockstar has also confirmed the rest of the launch frame. The game ships November 19, 2026 on PlayStation 5 and Xbox Series X|S, at an announced standard price of $79.99 according to the Gamer Guides FAQ . Our own preload countdown piece tracked how those dates stacked up once the schedule firmed.\nThe table below sorts every claim around this story by what the verified sources support. We kept the wording tight so you can screenshot it before the preload opens.\nSeven rows sit in the confirmed column and three sit in the unconfirmed one. All three unconfirmed rows are the ones driving search traffic this week, which tells you where the information gap is widest.\nWe cannot tell you why the two numbers might differ, because nobody with authority has said so. What we can do is lay out how console builds of the same game commonly diverge, and flag that every explanation here is general industry background, not a finding about this game.\nEach console ecosystem packages game data its own way. Storefronts bundle assets differently, apply their own compression, and sometimes include platform-specific files for features like controller support or console-specific audio. Two builds of one game can end up with different install footprints without any gameplay differenc",
-   "pub": "2026-11-07T00:16:43+00:00"
+   "pub": "2026-11-07T00:16:43+00:00",
+   "cyberleek": true
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaGtGOThwSjkwdGtHdzhxWnVCZWtXdWdwdkV5U2ppUUE2V25oMGxCbldoaUhKZ2Z5ZFVlVUhwQThHXzFwckNGaHBhU25JdXQ3aEhsWXNFWTZ4enZLc1FkT3lXRlk2V1JSUFNsRmZxMnhTVU1uOVdsaXFxT1c5dS1aa1J0NnIxMEcxbG1oV1dR?oc=5",
@@ -31,7 +33,7 @@
    "d": "2026-11-07T00:14:44+00:00",
    "lang": "fr",
    "t": "La taille du fichier de GTA 6 sur Xbox diffère de celle de PS5 - une mise à jour dès le jour de sortie pourrait expliquer l’écart",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "HTTP Error 429: Too Many Requests"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNXVGZURucjFSZnFTSGFfb2NmWFRFTnJjcnZnenR0X0dRdm5GNXVzOS1SNnNxVkwtRV9zMGg0cjQweTBoNmlUcXljNGpIX1pwS3l0Z2wxMWhNRFVpbU1fVUFMXzgzdFdrV3pwbDZiVVktZDk1QjBOQ0QzaHRDbWdVNjcwcGlvVXhQZGpTMFM5N3J3SDNVeEM2aWh5clVRSnNLUXRndDlOZ3ZJMllRbDBMS2E2MVJpbGNQN3Rr?oc=5",
@@ -100,7 +102,7 @@
    "d": "2026-11-06T23:02:00+00:00",
    "lang": "en",
    "t": "Get ready for GTA 6 with $500 off this 65-inch Hisense Mini-LED TV",
-   "erreur": "HTTP Error 402: Payment Required"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMia0FVX3lxTE84Qk5OVk9QOTFVZnZVWEVrLWRUM0R2VXlCLWNzeV9POVJsWHdYRDVsU0plVW43NGpzVjI3UlhlUWxJUzN6aHV1SUF1d2h0QUJ1TW83TkhLa0VTSm5DVTd1STFxYkZYUEpyZVMw?oc=5",
@@ -115,48 +117,20 @@
    "pub": "2026-11-06T23:00:00+00:00"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE82SXNQQ01OWEpGYjN2WTVNeFl4WGttU0dydWhKNkZCa01oWC1LVHVycTJkc1hoVlhSNHVFZFo1WGhkZGlQTG5qYUgtclkxa29ZZEpxMnFXZFN5N3RobHlSeXltREFYUQ?oc=5",
-   "s": "GameByte",
-   "d": "2026-11-06T22:39:10+00:00",
-   "lang": "en",
-   "t": "Your crimes can change GTA 6’s story thanks to a new Criminal Profile system GTA 6 Criminal Profile System Explained",
-   "u": "https://www.gamebyte.com/gta-6-criminal-profile-system/",
-   "img": "https://www.gamebyte.com/wp-content/uploads/2026/10/GTAVI-DETAILS.webp",
-   "chapeau": "The GTA 6 Criminal Profile system ranks you from Professional to Irredeemable, and it changes the story. Here’s how it works.",
-   "txt": "In GTA 6, how you commit crimes could matter just as much as which crimes you commit. Rockstar has revealed a brand new Criminal Profile system that tracks how Jason and Lucia behave. Even better, it can change how the story plays out.\nThe feature has been getting plenty of attention online, including in a viral breakdown from one GTA content creator. Here’s what we know about the GTA 6 Criminal Profile so far.\nThe Criminal Profile is a system that watches your behaviour throughout the game. Rather than simply counting kills or wanted levels, it judges your style as a criminal.\nAccording to details from Edge magazine’s hands-on preview, your profile ranges from Professional at one end to Irredeemable at the other. In other words, the game keeps track of whether you’re a careful career criminal or a walking disaster.\nIt all comes down to how you approach each crime. For example, you might play as a calculated professional. That means intimidating people, keeping violence to a minimum and getting in and out cleanly.\nOn the other hand, you could go full psychopath and shoot everybody in sight. Depending on your choices, your profile shifts somewhere between those two extremes.\nCrucially, it isn’t just a label on a menu screen. Rockstar has confirmed that your Criminal Profile affects how the story unfolds. As a result, two people playing GTA 6 could have noticeably different experiences.\nYes, and that’s a big change for the series. According to the preview, players can intimidate or incapacitate enemies instead of killing them. That gives you real options during robberies, shootouts and other jobs.\nIt also ties into the game’s smarter world. Previews describe GTA 6’s NPCs, police and weather as more reactive than ever. Bystanders may fight back during robberies, and police track your clothing, weapons and even CCTV footage. So a messy, violent approach could create far more trouble than a quiet one.\nThe idea will feel familiar to Red Dead Redemption 2 fans. That game used an honour system, where good and bad actions changed how people reacted to Arthur Morgan. It even affected parts of the ending.\nGTA has offered big story choices before, most famously in the endings of GTA 4 and GTA 5. However, no previous GTA tracked your behaviour across the entire game. The Criminal Profile looks like Rockstar’s way of bringing Red Dead’s character-driven storytelling to Vice City.\nFor now, Rockstar hasn’t explained exactly how much the story changes. It’s not yet clear whether your profile affects whole missions, specific dialogue or the ending itself.\nThere’s also the question of how Jason and Lucia fit in. Both characters are playable, so their profiles could shape their relationship and their individual arcs. Given how much discussion Lucia has already sparked , fans will be watching her story especially closely.\nGTA 6 launches on November 19 for PS5 and Xbox Series X|S, so players won’t have long to wait. You can find more on the game at Rockstar’s official GTA VI page .\nIf the Criminal Profile works as promised, it could make GTA 6 the most personal game in the series. Whether you play as a smooth professional or a total menace, Vice City will remember how you got there.",
-   "pub": "2026-11-06T22:39:10+00:00"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbVRxaEZTSXJ6T1R2bzZvakFMZDNTcUp3ZGxtbzJqN2RTcW1vbXZEaWhzVUNVRVE4dkxCdW5FM244bkFLbXY0SzB4cUJUV3oxcDVZQU9PWmRXWDV4VTJGU2hwdE1ZVzhsU1E3TnA0YURFa1VoUGU1VVBmcDZjdk5IQlB5NXFCVnctTm9kMkZfTWcyQl9nRmY1bkNnVmh0T1ZleWYtbENfTW1lNkU?oc=5",
    "s": "Nacionale",
    "d": "2026-11-06T22:32:50+00:00",
    "lang": "en",
    "t": "Can you play GTA 6 on PS4 or Xbox One? No, it is only on PS5 and Xbox Series X|S",
-   "erreur": "HTTP Error 403: Forbidden"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMzFISVdFdHd3Wk5XYlc3YjVrMndvbU5vU2N4cFhHd0tteTFySmwycFJrMnE5QVN0bkNzV0tQRGRaNmVSLTFlZXVKSTl0encyOWFsZ0h3WDIzeTQwd1FTalVESDU5MTJCUDRfUGZoa0tFUlppNzBIRnF3XzVmT2JkTVVZQkpDRlZCNUpTOXU4bnU?oc=5",
-   "s": "IGN",
-   "d": "2026-11-06T21:57:49+00:00",
-   "lang": "en",
-   "t": "Pilot \"Paints\" Impressive GTA 6 Mural In the Sky - IGN Daily Fix - IGN",
-   "u": "https://www.ign.com/videos/pilot-paints-impressive-gta-6-mural-in-the-sky-ign-daily-fix",
-   "img": "https://assets-prd.ignimgs.com/2026/11/06/gfix-110626-blogroll-1794000296059.jpg?width=1280&format=jpg&auto=webp&quality=80",
-   "chapeau": "In today&#39;s Daily Fix:An artistic pilot has &quot;painted&quot; a mural of GTA 6 in the sky. Benjamin McDaniel flew his Cessna across the Arkansas sky and used this flightpath to paint the image. It&#39;s not his first one; McDaniel has done the Mona Lisa, the dragon logo from Skyrim, and others. You can also request art from his website at thepilotpicasso.com. In other news, Sony has updated its list of perks for UK PlayStation Plus users, and gamers are pretty underwhelmed. The perks, such as a YouTube Premium account, Audible membership, and more, are just trials which expire after a set time limit. And we’re riding Mine Cart Madness inside Super Nintendo World with The Ride Guys at Universal Epic Universe at Universal Orlando Resort.Presented by Universal Orlando Resort, and its newest theme park, Universal Epic Universe.",
-   "txt": "An artistic pilot has \"painted\" a mural of GTA 6 in the sky. Benjamin McDaniel flew his Cessna across the Arkansas sky and used this flightpath to paint the image. It's not his first one; McDaniel has done the Mona Lisa, the dragon logo from Skyrim, and others. You can also request art from his website at thepilotpicasso.com. In other news, Sony has updated its list of perks for UK PlayStation Plus users, and gamers are pretty underwhelmed. The perks, such as a YouTube Premium account, Audible membership, and more, are just trials which expire after a set time limit. And we’re riding Mine Cart Madness inside Super Nintendo World with The Ride Guys at Universal Epic Universe at Universal Orlando Resort.\nPresented by Universal Orlando Resort, and its newest theme park, Universal Epic Universe.",
-   "pub": "2026-11-06T21:57:49.102Z"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9wczN2NjMwM0hDa1NVeUVKVEk5dHBOSXYzMlhETmtESERqcTdLdGxyX2NtZUVLY3JpWUh2QTE1bEhKVC1IVHZnVVFLb045TGVGSkhJa2JZTG9jRVhmTl9EMDRGWlBtWlI3bVA5YktmcVNEeF9OYTF4d0F3?oc=5",
    "s": "IGN Africa",
    "d": "2026-11-06T21:37:30+00:00",
    "lang": "en",
-   "t": "GTA 6 Launch Screenshots",
-   "u": "https://za.ign.com/grand-theft-auto-vi/244816/gta-6-launch-screenshots",
-   "img": "https://sm.ign.com/t/ign_za/gallery/g/gta-6-laun/gta-6-launch-screenshots_k4bn.1200.jpg",
-   "chapeau": "IGN is your site for Xbox One, PS4, PC, Wii-U, Xbox 360, PS3, Wii, 3DS, PS Vita & iPhone games with expert reviews, news, previews, trailers, cheat codes, wiki guides & walkthroughs",
-   "txt": "",
-   "pub": "2026-11-05T15:15:59+00:00"
+   "t": "Slideshow: GTA 6 Launch Screenshots",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPYVdCdldMamRFZHlveHZGRW9XampfV0xZUmg5Z2VxVEhfN2FGbVZZM3FncVBWZUFTeEF2Ymx2OC1JTzZETTFhZmRnVGVyUWZrOWNuWDNjZEl6NW84em5HLXhjMVFRcXRCdGhkNmRXalpLY3V3UnRSQm9KdW54QmNTbi1DVU9wZnB4cHNKNU1YUXl4dC1GYnZWWjdJU2REY1E?oc=5",
@@ -164,7 +138,7 @@
    "d": "2026-11-06T21:05:26+00:00",
    "lang": "fr",
    "t": "Les joueurs se demandent si la nouvelle fuite supposée du gameplay de GTA 6 est un fake ou pas",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSks1OXZ5dk9YRVpfSVBnSmRralBSWmV5c0szUWVwSUVzdXIyN3VfYUlGN1JILTlobHJNUXREQXVvc2R3cjh1RldiUlFxR3lpbUV0QnB3ck1WaEt5eXpBTEtaX1NNemNPeWZ0ZlozVVRkVDQydnIzdGtSMzg3cDJpYkdLTkpqcm4yTjNncEp2Mnh0cDZpcEdjRDI1dw?oc=5",
@@ -172,7 +146,7 @@
    "d": "2026-11-06T21:05:26+00:00",
    "lang": "en",
    "t": "GTA 6 New Leak - Is It Real or Is It AI-Fake?",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -217,7 +191,7 @@
    "d": "2026-11-06T20:43:19+00:00",
    "lang": "fr",
    "t": "Xbox déploie une technologie majeure avant la sortie de GTA 6 : pourquoi le FSR 4.1 change tout",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTE9aWHV3UTd2WUhoMUNBOG1wcXhDSGROTWFpZjgxUjFGaEVMWWg2S0R1Vml4dks5eXJNOUxKRXJRWmxueVlRTi1scGM5Y0FsNlNxQUVKTTZ4MkxhcTMwRW5rcFVMRXRzNXktVlliSnpPa2s4SHBwaTdhcEQzSEpZLXJzaUp4UHJaemJZTTlGUFpteDROendILTdYYUtyMXo2VEtZZHhCTU5ucmfSAb8BQVVfeXFMTXR4VzlNZWxJdmljOU9HWkhyWi1uWVJYblFBZERfQjhUZEduazdJcm9PTWdrekpYY29VNzZTT05MOV80TkgwT0ZYM0E5aGlHZmdKdXkwNHNDdHBySTlwbi1zQ2hOUXUtWTVXaGpxWTdaQ1NzaTNBWHlzN0dDdmxlY3JLdzJYVVZaN3NtdUFqeWJlRHByam9CV2d4UGk0cF83NEZwLUc1VVNuZWNFQ0dlTURHLTdOSkFnYTRWZlNRTm8?oc=5",
@@ -232,6 +206,14 @@
    "pub": "2026-11-06T21:37:18+01:00"
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMifEFVX3lxTE12QlI3LWRHVjg1N3VlU082eXFvTTZDRGd3enB3Z3l4a3lmMlA2Vnp3VTlZVU9SZDJYY3pHdUlRamF3TmZ0bW81V3NjT2dmYi0wd3l2N2ZDcUZYdHQwWUs1SzAzODYzR2UwUFhyN2pxNWc0dUpzQ1RCVC02clg?oc=5",
+   "s": "Insider Gaming",
+   "d": "2026-11-06T20:37:17+00:00",
+   "lang": "en",
+   "t": "12 New GTA 6 Screenshots Reveal Insanely Detailed Cars",
+   "erreur": "429 : passage suivant"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAwSFQwYVNJNE0xNVRYTnlqMWp2R1M3Qjh3eEdFM3BIVDYyZHhKWmZpUHJnOTJDVkoycFNRclRiZXJJdWUtR1NoeC1jdE9lSjRkZFlDTWk3bks2aTRza3hHd3lIdlE?oc=5",
    "s": "GeeksLands",
    "d": "2026-11-06T20:30:00+00:00",
@@ -244,12 +226,20 @@
    "pub": "2026-11-06T20:30:00.000Z"
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNkhXMmw3WWZvUHdmNEV0a2d1dGZubnlieDBNdDRQMjZDQUQ3aDd5Q0Qwa1dUNDdocUEtNUhkUWJPd3l1MEhmUjl0THNkZkhwWDBjVUlMYlhJREZZM3dPMGk2UXdTOEdYeXRnVDFiR2dWdU5lYW1kbVJzalE4elVwNVBwc3J6WGgySVc0bk9VTVc5RG1mR2F0YzZfMDRvWjNK?oc=5",
+   "s": "GameSpot",
+   "d": "2026-11-06T20:23:39+00:00",
+   "lang": "en",
+   "t": "Can You Upgrade To GTA 6’s $100 Edition? Yes, And It’s Easy–Here’s How",
+   "erreur": "429 : passage suivant"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOV2lMdnIwTWsxeVFGM0QwYjByckMyNTJVeUMzaDZZdWVFalpBTkFiRVN2c3JXWDN2X29Gbml5YnZmWGR3YWNXckstQXBNdEV6c2VsZHZWeEdPb0pMZklaWTQzcnUweTR3MFVPVG5aMkNvYnRoYm1ocXVLMDdaZUtBbjd3b1I3YUlxV2dYY3I3M1ctQ3psNnE2cU1BSDBCQUtJV24xUjZTZnBUUk5BUktoWFdfOTd3cVJKVHc?oc=5",
    "s": "L'Union",
    "d": "2026-11-06T19:53:00+00:00",
    "lang": "fr",
    "t": "« Grand Theft Auto VI » : treize ans d’attente, un retour sous haute tension",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9kM0pMZE54YmhYb01IQnFWNU5mU1VJa3h6cHNLaVVHYXlYREdjbHdyR1cweXk0dDlpV2NPUnVFSVE4MVJPRFZBODFYR0ZnMTRnUjhLT3BiVVh1N3ZTZC1HQ202dE0zcXhRVkIwNzZnR1BSaHNaMXJYVjc5NEstTGc?oc=5",
@@ -269,7 +259,7 @@
    "d": "2026-11-06T19:40:33+00:00",
    "lang": "fr",
    "t": "Rockstar Games a peut-être révélé la scène finale de GTA 6",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOE5lNHlTUHVCelZsM2I1Z2dsdXZWYmxrRkhwV2pNM1d3XzVvLVJ4QkJHVGVLYVhPa1p6WkdyZnpwSE90M2hYY1gtWEZzUDBGVHlQOHN0UURnWUZHM0JodGR6RTRWVHp0Qzl0NGtwV0JYXzJhTkxOcWpFMlFkcXJualNuM2NhcEpleVcxSXlROG5RN3dGa1VGTWVtX29IeU9vaVF4X0hn?oc=5",
@@ -277,11 +267,7 @@
    "d": "2026-11-06T19:00:00+00:00",
    "lang": "fr",
    "t": "GTA VI : le compte à rebours est lancé, une sortie à 5 milliards $ en ligne de mire",
-   "u": "https://www.lerevenu.com/actualite-economique/monde/gta-vi-le-compte-a-rebours-est-lance-une-sortie-a-/",
-   "img": "https://cdn.overlord.media/game_stop_56_milliards_pour_racheter_e_bay_et_rivaliser_avec_amazon_80d8224e_5f20e1f521.webp",
-   "chapeau": "GTA VI sort le 19 novembre 2026. Le jeu pourrait générer jusqu'à 5,2 milliards de dollars de ventes dès sa première semaine.",
-   "txt": "",
-   "pub": ""
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQaDBSZk9PRXFaMldNUzh5VVhmVWxrSkM2TDF2ZUNUSGstaGpyeUdrRE1KdlVyZ0F0dTZhRkRPbWF1Y2NvY2tuTHZncy1uS01hUkFTNDVraXRZQjlzRXNjQ0xyamRaa1JfejU5b2tuSGUxUURielUzY2pLT0VUY0l0RnZfX2M3QQ?oc=5",
@@ -413,7 +399,7 @@
    "d": "2026-11-06T07:40:29+00:00",
    "lang": "en",
    "t": "GTA 6 Fans Beware: Fake APKs, Game Keys And Leaked Copies Could Put Your Devices At Risk",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -435,7 +421,7 @@
    "d": "2026-11-05T17:52:13+00:00",
    "lang": "en",
    "t": "Rockstar releases 39 new GTA 6 screenshots two weeks before launch",
-   "erreur": "Remote end closed connection without response",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -548,7 +534,7 @@
    "d": "2026-11-04T14:30:23+00:00",
    "lang": "fr",
    "t": "Une fuite confirme des améliorations pour GTA 6 sur la PlayStation 5 Pro",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -648,11 +634,7 @@
    "d": "2026-10-22T15:12:54+00:00",
    "lang": "en",
    "t": "Cyberleek Shares GTA 6 Leak Of Naked Lucia",
-   "u": "https://www.imdb.com/news/ni66062173/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -713,7 +695,7 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
    "t": "Le token CYBERLEEK chute de 40 % alors que le leaker de GTA 6 lance de nouvelles menaces",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -787,7 +769,7 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "en",
    "t": "GTA 6 Leak Over, Cyberleek Quits but the Ending Is Still at Risk",
-   "erreur": "Remote end closed connection without response",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -796,7 +778,7 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
    "t": "Fuite GTA 6, Cyberleek s'arrête mais la fin reste menacée de spoilers",
-   "erreur": "Remote end closed connection without response",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
