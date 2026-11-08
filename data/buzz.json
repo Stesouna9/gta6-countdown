@@ -1,8 +1,47 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-08T16:12:43+01:00",
+  "updated_at": "2026-11-08T18:13:13+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-anniversaire-annonce-trailer-2023",
+      "title": "GTA 6 : trois ans après l’annonce du premier trailer, les fans se souviennent",
+      "summary": "@GTAVI_Countdown et @gtasix_ rappellent le message de Sam Houser du 8 novembre 2023 annonçant une première bande-annonce pour décembre. Ce souvenir revient à l’approche de la sortie de GTA 6. Il s’agit de l’anniversaire d’une annonce ancienne, pas d’un nouveau trailer annoncé aujourd’hui.",
+      "url": "https://x.com/GTAVI_Countdown/status/2119447471201943870",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "2026-11-08T15:10:29.000Z",
+      "checked_at": "2026-11-08T18:13:13+01:00",
+      "evidence": "Vues relevées le 2026-11-08T16:16:08+00:00 dans data/x_alertes.json : 26285 vues ; 25 replies, 88 reposts, 1401 likes, 85 bookmarks, 26285 views. Relevés Mac et serveur concordants. Ouverture directe X : cache absent. Image HTTP 200 contrôlée visuellement. Sujet également repris par @gtasix_ (13 806 vues). Annonce du 8 novembre 2023 recoupée dans Rockstar Universe ; original Newswire sans texte exploitable. Image illustrative du trailer 1, média du post absent.",
+      "visual": "ANNIVERSAIRE TRAILER",
+      "image": "https://i.ytimg.com/vi/QdBZY2fkU-0/hqdefault.jpg",
+      "image_alt": "Miniature du premier trailer GTA VI de Rockstar Games, utilisée pour illustrer le rappel de 2023",
+      "image_credit": "Rockstar Games / YouTube, illustration du trailer 1",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "3 years ago today, Rockstar’s president Sam Houser officially announced the first GTA 6 trailer.\n\nNext week, the game finally releases.",
+      "corroboration": "https://www.rockstaruniverse.co.uk/grand-theft-auto-vi-trailer-coming-december-2023/"
+    },
+    {
+      "id": "x-justice-quatre-morceaux-potentiels",
+      "title": "GTA 6 : quatre morceaux potentiels de Justice compilés sur X",
+      "summary": "@GTAVI_Countdown rassemble quatre extraits qu’il associe potentiellement au score de GTA 6 : trois seraient issus d’un set de Justice au Pacha en septembre, le quatrième de vidéos promotionnelles du jeu et de la DualSense. Cette sélection nourrit les recherches des fans ; l’origine et la présence des quatre morceaux dans le jeu ne sont pas confirmées indépendamment.",
+      "url": "https://x.com/GTAVI_Countdown/status/2119436720307343402",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-08T14:27:46.000Z",
+      "checked_at": "2026-11-08T18:13:13+01:00",
+      "evidence": "Vues relevées le 2026-11-08T16:16:08+00:00 dans data/x_alertes.json : 31828 vues ; 17 replies, 45 reposts, 618 likes, 178 bookmarks, 31828 views. Relevés Mac et serveur concordants. Ouverture directe X : cache absent. Image HTTP 200 contrôlée visuellement. Un seul compte observé pour cette compilation ; identification musicale non recoupée, statut Rumeur.",
+      "visual": "JUSTICE EXTRAITS",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2119436326944575488/img/V0cB0-Yze1kk8a1n.jpg",
+      "image_alt": "Montage Justice et logo GTA VI portant la mention Unreleased Track 1 et DJ Set at Pacha",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "All 4 potential unreleased GTA 6 score tracks.\n\n3 of them were heard during Justice’s Pacha Set as unreleased tracks in September, which also featured “Pusher” before its public release.\n\nThe 4th track was heard in the Limited Edition DualSense trailer, and in the gameplay clip"
+    },
     {
       "id": "x-prechargement-calendrier-regional",
       "title": "GTA 6 : un calendrier régional de préchargement circule sur X",
@@ -2274,6 +2313,11 @@
       "at": "2026-11-08T16:12:43+01:00",
       "label": "Passage 82 · Aucun nouveau sujet admissible",
       "summary": "Relevés X Mac et serveur concordants du 08/11 à 14:12:58 UTC. Aucun nouveau sujet distinct au seuil : préchargement, générique, boîte PS5, Paris, Oxford Street et Miami déjà couverts. Titres musicaux PENTHOUSE, BIN RAT, DADDY et BAD MAN : 9 676 vues chez @gtasix_, sans second compte observé ; piste conservée pour un prochain passage, sans confirmation officielle. Original X tenté : cache absent. Instagram Rockstar : HTTP 429 ; TikTok sans texte lisible et index ancien ; Newswire et page actualités Rockstar sans texte exploitable. Recherche publique sans autre publication récente vérifiable retenue ; les résultats anciens ne sont pas de nouvelles annonces. Les 99 cartes conservent une vraie image créditée ; 97 images uniques contrôlées HTTP 200. Aucun post X ni message à un tiers."
+    },
+    {
+      "at": "2026-11-08T18:13:13+01:00",
+      "label": "Passage 83 · Justice et anniversaire du premier trailer",
+      "summary": "Deux nouveaux sujets retenus : compilation de quatre morceaux potentiels de Justice (31 828 vues, attribution non confirmée) et rappel de l’annonce du 8 novembre 2023 (26 285 vues, repris par @gtasix_). Relevés X Mac/serveur concordants du 08/11 à 16:16:08 UTC ; originaux X inaccessibles (cache absent). Relation Jason/Lucia : 7 254 vues, sans second relais observé, non retenue. Instagram Rockstar HTTP 429 ; TikTok et Newswire sans texte exploitable ; recherche publique sans autre nouveauté vérifiable. Rappel de 2023 recoupé dans Rockstar Universe, sans nouvelle annonce inventée. 101 cartes avec images créditées ; 98 images uniques HTTP 200. Aucun post X ni message à un tiers."
     }
   ],
   "coverage": {
