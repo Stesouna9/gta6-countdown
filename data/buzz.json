@@ -1,8 +1,44 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-08T12:12:47+01:00",
+  "updated_at": "2026-11-08T14:12:57+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-prechargement-calendrier-regional",
+      "title": "GTA 6 : un calendrier régional de préchargement circule sur X",
+      "summary": "@GTAVI_Countdown publie une frise des horaires annoncés pour le préchargement sur PS5, en commençant par la Nouvelle-Zélande le 9 novembre à 11 h GMT. Le visuel place la France à 23 h GMT le même jour, soit minuit le 10 novembre à Paris, et Xbox à 0 h GMT le 10 novembre. Ce calendrier communautaire précise les décalages régionaux ; il ne constitue pas une nouvelle annonce officielle et les horaires restent à vérifier sur votre console.",
+      "url": "https://x.com/GTAVI_Countdown/status/2119402528626389474",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-08T12:11:54.000Z",
+      "checked_at": "2026-11-08T14:12:57+01:00",
+      "evidence": "Vues relevées le 2026-11-08T13:11:27+00:00 dans data/x_alertes.json : 32,695 vues ; 24 replies, 36 reposts, 672 likes, 54 bookmarks, 32695 views. Original X tenté : cache absent. Média HTTP 200 téléchargé et contrôlé visuellement. Un seul compte observé pour cette affirmation, sans confirmation indépendante. Frise présentée comme communautaire, heures non vérifiées auprès des plateformes.",
+      "visual": "PRÉCHARGEMENT RÉGIONAL",
+      "image": "https://pbs.twimg.com/media/HWmg-ghW4AA1hj6?format=jpg&name=small",
+      "image_alt": "Frise communautaire violette des horaires de préchargement PS5 par région et Xbox",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X"
+    },
+    {
+      "id": "x-generique-80-minutes-rumeur",
+      "title": "GTA 6 : la rumeur d’un générique de plus de 80 minutes circule",
+      "summary": "@gtasix_ relaie une affirmation attribuée à @MoonMediaTeam selon laquelle le générique de fin de GTA 6 durerait plus de 80 minutes. Aucune séquence ni confirmation de Rockstar n’est fournie dans le relevé. L’image jointe montre le logo du jeu sur une vue urbaine et ne prouve pas cette durée ; celle-ci ne permettrait de toute façon pas de déduire la durée de jeu.",
+      "url": "https://x.com/gtasix_/status/2119375061123792998",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rumeur",
+      "published_at": "2026-11-08T10:22:45.000Z",
+      "checked_at": "2026-11-08T14:12:57+01:00",
+      "evidence": "Vues relevées le 2026-11-08T13:11:27+00:00 dans data/x_alertes.json : 120,003 vues ; 64 replies, 352 reposts, 7493 likes, 424 bookmarks, 120003 views. Original X tenté : cache absent. Média HTTP 200 téléchargé et contrôlé visuellement. Un seul compte observé pour cette affirmation, sans confirmation indépendante. Source attribuée @MoonMediaTeam : accès direct refusé HTTP 403. Relevé serveur antérieur du 08/11 à 12:09:57 UTC : 66 332 vues, sans contradiction de texte.",
+      "visual": "GÉNÉRIQUE SUPPOSÉ",
+      "image": "https://pbs.twimg.com/media/HWmIYP5WsAEI9ft?format=jpg&name=360x360",
+      "image_alt": "Logo GTA VI sur un panorama urbain nocturne dans le média relayé sur X",
+      "image_credit": "@gtasix_ sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X"
+    },
     {
       "id": "x-55-trophees-chiffre-relaye",
       "title": "GTA 6 : le chiffre de 55 trophées circule sur X",
@@ -2228,6 +2264,11 @@
       "at": "2026-11-08T12:12:47+01:00",
       "label": "Passage 80 · 1 sujet",
       "summary": "Relevé X Mac/serveur concordant du 08/11 à 11:09:02 UTC : ajout du chiffre de 55 trophées (23 117 vues), évolution distincte de la simple attente déjà couverte. Média réel HTTP 200 contrôlé visuellement ; original X refusé 403, chiffre non confirmé. Oxford Street et quatre panneaux Miami déjà traités ; Paris déjà couvert. Sous le seuil dans ce relevé : générique 80 minutes (15 033 vues, un compte observé), néons Heat (16 108), analyses martx_tv et concours. Recherche publique Instagram sans nouveau post vérifiable, TikTok bloqué robots.txt ; Newswire consulté sans nouvelle annonce distincte retenue. Aucun post X ni message à un tiers."
+    },
+    {
+      "at": "2026-11-08T14:12:57+01:00",
+      "label": "Passage 81 · 2 sujets",
+      "summary": "Relevé Mac du 08/11 à 13:11:27 UTC, plus récent que le serveur (12:09:57 UTC) : ajout du générique supposé de plus de 80 minutes (120 003 vues) et de la frise régionale du préchargement (32 695 vues). Deux médias réels HTTP 200 contrôlés visuellement. Originaux X : cache absent ; source MoonMediaTeam : 403. Instagram Rockstar : 429 ; TikTok sans contenu lisible et index ancien ; Newswire ouvert sans texte exploitable. Recherche publique sans autre nouveau post vérifiable retenu. Musiques nouvellement évoquées sans métrique, autres sujets sous le seuil ou déjà couverts (boîte PS5, Paris, Oxford Street, Miami, trophées). Aucun post X ni message à un tiers."
     }
   ],
   "coverage": {
