@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-08T23:25:39+00:00",
+ "maj": "2026-11-08T23:45:52+00:00",
  "articles": [
   {
    "gn": "https://news.google.com/rss/articles/CBMingFBVV95cUxNM2REb284cDBCYl9mY2xUbWRPQ0ZTMVJTSG1Rb0ZQc29nMGtjUVNuMlFCZzQtMHdQOUw4MnpjLXg4dC02bFM5T2U1OGRGSVFxYUVzUVg1RmNsUlptdXhidVl4RTVBUjU0alZjNHdsbXVTa3dKZkxVMmVkVDd3d3lScjJkUmxhQVFvcUsySjU2LVFGRlNBMG10N3ZRQ3BIZw?oc=5",
@@ -7,7 +7,7 @@
    "d": "2026-11-08T22:40:13+00:00",
    "lang": "en",
    "t": "GTA 6 Guide: How to Play Early on Xbox Using New Zealand Trick",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMk1ld0VWaHpZMlBONmpQbUdTcW1OQlhXblZOdmNPc3RVS2gxdXpXVnF0d2U3NVFJX2hGUlZzZFpTdHFkLXM5T3dIZlRlU1RHZzVMeWdGLXE4NmN2alE4UjNXQzJyUzBHazM5Uk5qMHgxSjluS3RJZVhxaXhEVkNHZmFQOUdOeXk0?oc=5",
@@ -27,7 +27,7 @@
    "d": "2026-11-08T21:33:13+00:00",
    "lang": "en",
    "t": "Take-Two (NASDAQ:TTWO) Stock Faces Major Earnings Test Ahead of GTA 6’s November 19 Launch",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZVhnR3JaTUYzVTh0eWUtZmlUQ2YzZndMRnY2MUZPZmZIWFhfeHlKd0JpM011dlF6enU1QmJRRDFIM1l3ZjVSdzVubk9jWktyVnhYZFZqTEVmYWE1cnBJaGMtUHpka1dlbmMwUDVjQndMb0V1Q25oYzlqLWduTEVzS1hPUFhxQQ?oc=5",
@@ -48,11 +48,7 @@
    "d": "2026-11-08T21:19:59+00:00",
    "lang": "en",
    "t": "GTA 6's Goty Chances Have a Huge Warning From Rockstar's Past",
-   "u": "https://www.imdb.com/news/ni66101595/?ref_",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": ""
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOcGtCMHA2WlBEb1gyTDd5TkxSU1MxOXl5NG9iVVZTQmp4ZVdWcmZfanJjekt4Y0ZpMVNkdDg0bEgta2JvLWxqSmNIdkJqY0ZQN0x6dlY1bXVlYzJiTHNtaElORGpzczJSMjJGNGxxN0owUjB4NDk4cThUcFJWeUE3M0t5Nno5TGJ5RElBbQ?oc=5",
@@ -79,6 +75,14 @@
    "pub": ""
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdTE3UG1GYm9NTmMyck5XSHVpOFdoaFJsTGR4SE56X3l6dVc4bm1jLWRjbXpqRDhISEJ6VVJidWlrNk9jeUMxc2xlSlNjWGRITDVHSWdOLUMzOGE2THNaZFl6dFNqRVNhNzBUVVBJVHgtb1gzTnNCU2stRTctYzhlakJZVmdwR2tTS3BuSlcwdEwtcFoxc2dtel8zNVBLNUZTQWdEUHd2ZTIxT25GX3lRag?oc=5",
+   "s": "The Hype Magazine",
+   "d": "2026-11-08T20:32:32+00:00",
+   "lang": "en",
+   "t": "Kai Cenat Is Playing Five GTA Games Back-to-Back Before GTA 6 Drops",
+   "erreur": "429 : passage suivant"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNb1FjaEU5eFpjT0cyN0pmbFZocHlfZUEza1VpcmZmNzlrTlFPaF9DRnM3ZEVYeDluQlFCRGEzdUJOeDNxYzR5c0Z1WUJSQ2RLQW1Eam1hYUJsZkVSZTQ4aHliVElZR3NrMEluT0JkaHYxWHRPZ2QyUlI3R0UwLTFqQld4NlBOdWt5cFVfT1o3NlptZ0t6cU1FcG9TbE4xVlEzT1doUE9sVQ?oc=5",
    "s": "RG.org",
    "d": "2026-11-08T20:04:11+00:00",
@@ -89,19 +93,6 @@
    "chapeau": "GTA 6 launches Nov. 19. Polymarket odds on the Metacritic score, Kai Cenat's GTA marathon, the soundtrack album, a PC release and one more delay, with our picks.",
    "txt": "Polymarket has GTA VI at 97 or higher on Metacritic at 64% (-178), 96 or higher at 80% (-400) and 98 or higher at 35% (+186). The 94+ line is 97%. The market has traded about $70,000, so a few large orders can move it.\nThe bar is Rockstar's own record. GTA IV scored 98, and GTA V and Red Dead Redemption 2 both scored 97, per Screen Rant. Review codes reportedly went out at the end of October, and the review embargo is Nov. 18, one day before launch, per Beebom, citing NateTheHate and Insider Gaming. Rockstar has not announced that date. It matches the studio's last two launches. GTA V and Red Dead Redemption 2 reviews also ran the day before release, per GTA6-Life.\nThe pick: Yes on 97+ at 64% (-178). GTA IV, GTA V and Red Dead Redemption 2 all scored 97 or higher, and a studio that delayed this game twice and still sent out code three weeks early is not worried about reviews. The case against is the size of the sample: a game this big gets hundreds of reviews, and a few 8s would pull the average down. The 98+ line at 35% needs a new Rockstar record and is fairly priced. If you want to bet on the high end, 97 is the line.",
    "pub": "2026-11-08T19:56:13.750Z"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNN0lxeTNZdEp0U1lCaWtPY2VkU3huTGE5ekhvWDRBNVdMYjFPMmNVNmtiSWJjOUs0NjdxWS1BM1hRbUlDX0x5Q1FYSzFvd1htUGtkVnZMQkRBWVhuRmV1cVVVaFA5RnNPNHEtdUFDWHJLTVRwYm1CT0lkVzh3ZEM0QXhNUFFuaWhLRmlwN0dCSUc5UGxHQUI4S093MWp4emVTVWRscGx3QlliSUU0VTdtM0owQkdqblczUU1KbGptR3Y5elVYV0JJWWgxU0t2MzFDZFdLRjRtNFhoWll5cjlsTw?oc=5",
-   "s": "La Crème Du Gaming",
-   "d": "2026-11-08T19:48:21+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : un DLC officiel gratuit révélé par une fuite pour le plus grand plaisir des joueurs",
-   "u": "https://www.lacremedugaming.fr/jeux/gta/gta-6/gta-6-un-dlc-officiel-gratuit-revele-par-une-fuite-pour-le-plus-grand-plaisir-des-joueurs-230520.html",
-   "img": "https://sf.lacremedugaming.fr/wp-content/uploads/creme-gaming/2026/10/gta-6-un-dlc-officiel-gratuit-revele-par-une-fuite-pour-le-plus-grand-plaisir-des-joueurs-1200x660.webp",
-   "chapeau": "À quelques semaines de la sortie de GTA 6, une fuite Discord évoque une campagne Hexagon avec GTA 6 DLC gratuit et récompense mystère. Contenu, dates, enjeux : ce bonus soulève déjà bien des questions.",
-   "txt": "À quelques semaines de la sortie de GTA 6, une fuite Discord évoque une campagne Hexagon avec GTA 6 DLC gratuit et récompense mystère. Contenu, dates, enjeux : ce bonus soulève déjà bien des questions.\nGTA 6 n’est même pas encore sorti et un premier « DLC » gratuit fait déjà parler de lui. Une fuite du code de Discord mentionne une campagne marketing baptisée « Hexagon » , centrée sur Grand Theft Auto VI , avec thème dédié et récompense mystérieuse à la clé.\nDerrière ce nom de code se cacherait ce que certains médias décrivent déjà comme un premier GTA 6 DLC gratuit . Entre contenu cosmétique, éventuelle récompense in‑game et bonus de pré‑lancement, la communauté s’interroge sur ce que cette collaboration pourrait réellement offrir.\nLe dataminer Wumpus Central a fouillé une version de test de Discord et repéré une campagne GTA 6 Discord nommée « Hexagon ». Dans les fichiers figurent une icône d’application GTA 6 , un app theme aux couleurs de Vice City et une police de pseudo inspirée de la typo officielle du jeu. Des sites comme RockstarINTEL ou GTA BOOM ont rapidement relayé l’information.\nPlus intéressant pour les joueurs, le code mentionne une « quest with unknown reward » qui « may be coming soon during the campaign too », selon Wumpus Central sur X. GamingBible parle déjà de « first free in‑game reward » pour GTA 6 , d’où l’expression de contenu additionnel GTA 6 ou de « DLC gratuit ». Mais rien ne prouve encore que la récompense sera utilisable dans le jeu plutôt que limitée à Discord.\nLes Discord Quest sont des campagnes où l’utilisateur doit accomplir une action pour décrocher une récompense : jouer à un jeu un certain temps, regarder un trailer ou participer à un événement. En 2022, par exemple, des quêtes liées à Fortnite Paradise permettaient de débloquer des objets in‑game, tandis que d’autres campagnes n’offraient que des cosmétiques Discord comme des décorations d’avatar.\nPour cette quête Discord GTA 6 , plusieurs scénarios sont plausibles : simple bonus Discord (thème exclusif, décorations de profil), skin d’arme ou tenue unique dans GTA 6 , voire petit avantage de pré‑commande lié au compte Rockstar Social Club. Dans tous les cas, il faudra très probablement accepter la Quest dans l’interface officielle, puis remplir l’objectif indiqué. Attention aux faux liens « GTA 6 Discord Hexagon » envoyés en message privé, terrain idéal pour le phishing .\nD’après le datamine relayé par RockstarINTEL , la campagne Hexagon débuterait le 17 novembre 2026 à 18 h 00 UTC, soit 19 h en France, deux jours avant la sortie officielle de GTA 6 le 19 novembre 2026 sur PS5 et Xbox Series X|S . Les utilisateurs gratuits pourraient participer jusqu’au 8 décembre 2026, tandis que les abonnés Discord Nitro auraient jusqu’au 15 février 2027.\nCe possible bonus GTA 6 avant la sortie s’inscrirait dans une stratégie où Rockstar Games mise sur des collaborations et des freebies plutôt que sur des DLC solo payants dès le lancement. Officiellement, ni Rockstar ni Discord n’ont confirmé la campagne Hexagon, qui pourrait encore être modifiée ou annulée. Les joueurs en quête de GTA 6 DLC gratuit ont donc tout intérêt à surveiller les annonces officielles et l’onglet Quest de Discord à l’approche du 17 novembre.",
-   "pub": "2026-10-11T05:00:30+00:00",
-   "cyberleek": true
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQa21vbkRieG9WTkQ4Z3VsUUV1RnFNSTFhLXVzcHpyUXdOMU10cjJTZWlQTkxWYTdneUVVRDgzaHI1MzF1VzZvbWZZZ240VjlJM3RVS2t3NTUweEFGMTN5aHFZckowQXpIc25UcThNNG9iSlloZUZVaEFvSlRHVVBoQ1o0d3k?oc=5",
@@ -121,7 +112,7 @@
    "d": "2026-11-08T19:25:52+00:00",
    "lang": "en",
    "t": "Does GTA 6 come with a disc? No, the boxed copy holds a download code",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVU5lcnZtaXNrV0NLX0VXZTdpRVdNQ3p0a0F5dGhwWDJfTjZrU1IxYUNlTk1CcVZSNWtxRDFIcEhiUmpFTF9BZWE2Wk9XVEcwN2Z4alVYa1dIbnRkOE1nZ0xtaGw2M0kyMjJ3djU5TXJYaHJObXhrZEZWbXl1VURBUjZLUnZ6Y1hKRHd0NDJRZWwxaFliWWMzZUZxTTl1cTNoeXJndXlXQTRrQVJpM1F1WTNWdHZTdl9n?oc=5",
@@ -129,7 +120,7 @@
    "d": "2026-11-08T19:19:47+00:00",
    "lang": "fr",
    "t": "La PlayStation 5 Pro surpassera largement la Xbox Series S en termes de qualité graphique de GTA 6.",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "HTTP Error 429: Too Many Requests"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZmo2cGwtWXBZZ3VvUWp0cGhKZEk1WV9nbUJXWm9lcFVndVFMM0o2UEpHbjUxUzdzdUd5VVFuN1ZUODk4c3JNdlNta3JfaDU1djV6NGQwWkp1WG5QcE1zQmhYWW5BSlFpbE42M3VaX1E0TEVpM1lXUFdoRDJTblExY1JuSEtlZzRBRnBpSlI4ejZnNVZWU2w1ckdVZ3pzZUp5TGRYSFNuY09COFhaVmdIMThxVVhTZlk5?oc=5",
@@ -137,7 +128,7 @@
    "d": "2026-11-08T19:19:47+00:00",
    "lang": "en",
    "t": "PlayStation 5 Pro will significantly outperform Xbox Series S in GTA 6 graphics quality.",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQYXBkd2d2Nmo1U3owYWpKVlhjRG9rVjVyd213aFJteGYtVnZ4NWItQkw5dldBdEdtWjlOd3hPZVBQdVIwQTBYVDZ3WGVzOXotbmpxc3Rmb3lYd0dFNmVfU3VybjJOa1VrRFYwOGhESEtXN1ZEd05YYWo5N2xFQUEtVjJmODhFMGFmRmNkYk9MYTdaWllERjJmNS1Sa2g?oc=5",
@@ -145,7 +136,7 @@
    "d": "2026-11-08T19:10:10+00:00",
    "lang": "fr",
    "t": "Pourquoi WoW Forever n'est pas un problème pour GTA 6 ?",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcktISWxEaDYxR1lTeVlYMFFadTlYZmtTMVJKdXlCZnRPd3NBQmpSeTVhWEVWS1liSmc3eGJPc0QyeWh3cG1ER2NISmRIS09JUzJ0TF9HZ3daeXoxaWlENWU1ckoyOThPUHgwMWljbjBkc0RCSDdxMHlZTnN3SGJON3B2YnpETUNaNUNPU1ZIakkwWGtXWE1BOWZENUlzNk9FQTVRZW9GX3BKdkQzaFJPTXBjd2xfeVVkQmJSUw?oc=5",
@@ -153,7 +144,7 @@
    "d": "2026-11-08T18:44:57+00:00",
    "lang": "fr",
    "t": "Les précommandes pour un pack PlayStation 5 Slim et GTA VI sont désormais ouvertes au Brésil au prix de 417 dollars.",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQ0dhVHZmM0hVRHZoM1dnMHNRTzNrZDFpNGZCczlGWWFLQm44ZlRxTThKRk1OSXpNeVFRZk1ST0dSUHUzUGZ2M3pCUTBmTGQ4eDFPaU01MzlvUi1pZ2ZNUVpLbE5fdGNSTlJvX2RvLTBJZHVfcHc5RnpJc0ZBTTVBelhDMnR4UXFSRkE?oc=5",
@@ -186,11 +177,7 @@
    "d": "2026-11-08T17:50:00+00:00",
    "lang": "fr",
    "t": "PS5, une mise à jour de 1,27 Go à l’approche de GTA VI",
-   "u": "https://www.enerzine.com/ps5-firmware-securite-avant-gta-6/199732-2026-11",
-   "img": "https://www.enerzine.com/wp-content/uploads/2026/11/arti_199732.webp",
-   "chapeau": "Sony a poussé un correctif système sur PlayStation 5, avec pour seule explication publique des « corrections de sécurité ».",
-   "txt": "",
-   "pub": "2026-11-08T18:50:00+01:00"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQeFhKRXRMSmhyUjM1Q3ZCb2VIWElBaXBoaWFWbG9qdTB4V3BfS3lFUXRXMTJBV2xldGV3MkRySWF5YjBSN29DQmd5ZTZkN2dFTzRRdm9pand5elNPTWVzS0NQVmxOOC1CNlZnNlRZV1loRjVETHIwXzIwQmVxckM0V0dpdXVueG84d2pXRVZsU1BSa3d4cVZtWjFmX2VZbUE?oc=5",
@@ -198,7 +185,7 @@
    "d": "2026-11-08T17:46:28+00:00",
    "lang": "fr",
    "t": "Les crédits de fin, selon des rumeurs, de GTA 6 vont durer plus de 80 minutes",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOS03d1lEaXJnVVlBZ00xNHZUcnhPNzhoTmFvajFFT0Noblk2blkyLXJLMUZ5R1RTUE1TVjQ4UFNvN29mT2xiYm1kN0dxZlFOZWQtSENsWng3ckpvMkhqMDItZkVJOTFsRGNDR0NBZXFwLXpuQk5MaVVpSUNjNDVxWDBsMlI3bWVyekdYVXA4eEh4bUJOTmRLQV9uV3VPdVNhOEE?oc=5",
@@ -254,11 +241,7 @@
    "d": "2026-11-08T16:55:53+00:00",
    "lang": "fr",
    "t": "GTA 6 : West Coast Customs construit six vraies voitures inspirées du jeu pour Rockstar Games",
-   "u": "https://www.mensup.fr/gta-6-west-coast-customs-construit-six-vraies-voitures-inspirees-du-jeu-pour-rockstar-games/",
-   "img": "https://www.mensup.fr/wp-content/uploads/2026/11/gta-6-west-coast-customs-construit-six-vraies-voitures-inspirees-du-jeu-pour-roc-2.webp",
-   "chapeau": "À onze jours de la sortie de Grand Theft Auto VI, Rockstar Games et West Coast Customs ont transformé six véhicules fictifs du jeu en véritables machines roulantes dans les rues de Miami.",
-   "txt": "",
-   "pub": "2026-11-08T16:55:53+00:00"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQeDR5R0hLRDJGTDVmaVlSRHZQV3dPcEVrVG1jYWQzVFFPbk82Q1FVYWF4R3ZJVEFkbTJvVmh5WE9uWW00N2dXS0lRQ1lKejVPcGp1UXZUdzBhZTdOeE41SUdETU40bzNGZnJpSHlCekR1bGJIRUNLc1BpdHprazlaYUlFMHNvdEU?oc=5",
@@ -284,18 +267,6 @@
    "txt": "GTA 6 compterait 55 trophées sur PS5 et autant de succès sur Xbox Series, d'après deux dataminers, à onze jours de la sortie du 19 novembre . Rockstar n'a publié aucune liste officielle.\nLe compte côté Xbox vient de TexFunz2, puis le dataminer PlayStation Game Size a retrouvé le même total sur PS5, platine compris. Cette concordance rend la fuite plus solide, en attendant la liste officielle de Sony et de Microsoft.\nSelon les deux relevés, aucun de ces objectifs ne concerne le multijoueur. Le changement est net pour les chasseurs de platine, puisque celui de GTA 5 exigeait d'atteindre le rang 100 de GTA Online (le trophée Above the Law).\nGTA 5 proposait 49 succès sur Xbox 360 et 50 trophées sur PS3 à sa sortie en 2013 ; Red Dead Redemption 2 en alignait 51 sur Xbox One et 52 sur PS4, platine inclus. Avec 55 objectifs, GTA 6 irait au-delà de ces deux totaux, alors que ces listes réservaient plusieurs trophées au multijoueur.\nLes dataminers n'ont publié aucun intitulé, pour ne pas éventer l'intrigue. La répartition entre bronze, argent et or n'est pas connue, pas plus que le nombre de trophées cachés ou le total de Gamerscore côté Xbox. La difficulté du platine reste donc impossible à mesurer, tout comme la part des objectifs qui suivront simplement l'histoire de Jason et Lucia.\nD'après Rockstar, le jeu se débloquera dans la nuit du 18 au 19 novembre, à minuit sur PS5 comme sur Xbox Series. Le pré-téléchargement ouvre dès le 10 novembre, à minuit sur PS5 et à 1 h du matin sur Xbox, comme le détaille notre point sur l'heure de sortie en France . Les plus pressés peuvent tenter l'astuce de la Nouvelle-Zélande , qui donne accès au jeu douze heures plus tôt et suppose sur PS5 un compte néo-zélandais. La version boîte, qui ne contient qu'un code de téléchargement, se réserve chez les grandes enseignes, dont nous comparons les prix de précommande .",
    "pub": "2026-11-08T16:00:00.000Z",
    "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPbk01OWpFMjlTRlZrdzcwZDRyb3NUZFVkdzJoRXZHN3JSbUxValRPZ05zTVE3T0JRUHVMbmdpN0JBTHd3NFh1OFJaUVFMaURzU2pqemVxOFh2Yjd5TEt2VVFsTE55RVhYZTVqTUhia2Q4VjYwa3NHemxNRzNZZDZqeg?oc=5",
-   "s": "eTeknix",
-   "d": "2026-11-08T15:49:54+00:00",
-   "lang": "en",
-   "t": "How Many Trophies and Achievements Does GTA 6 Have?",
-   "u": "https://www.eteknix.com/how-many-trophies-and-achievements-does-gta-6-have/",
-   "img": "https://cdn.eteknix.com/wp-content/uploads/2026/10/cyberleek-threatens-gta-6-build-leak-over-discs-and-an-1.webp",
-   "chapeau": "The highly anticipated launch of GTA 6 is getting closer, and the mysteries surrounding what is expected to be another huge success for Rockstar Games are gradually being cleared up. We now also know…",
-   "txt": "The highly anticipated launch of GTA 6 is getting closer, and the mysteries surrounding what is expected to be another huge success for Rockstar Games are gradually being cleared up.\nWe now also know how many trophies and achievements players will be able to unlock in the game.\nThanks to @PlayStationSize, an account that regularly monitors the PlayStation Store backend, we know that GTA 6 will feature a total of 55 trophies on PlayStation 5, including the usual Platinum Trophy. The same applies to the Xbox Series X|S version, which, according to dataminer Tex2, will offer a total of 55 achievements, including one that can only be unlocked after completing all the others.\nThe full list of requirements for unlocking each trophy and achievement is not yet known. However, with the release of Grand Theft Auto 6 rapidly approaching, it should only be a matter of time before the complete list is made public. As more information becomes available, we’ll make sure to let you guys know here at eTeknix.\nIn other news, PlayStation has accidentally published—and swiftly deleted—a product page revealing the PS5 Pro enhancements for GTA 6 . In addition, Xbox Series X|S hardware sales have failed to see a meaningful boost from GTA 6 .\nGet more eTeknix in Google Add us as a preferred source and our stories show up more often in Google's Top Stories.",
-   "pub": "2026-11-08T15:47:17+00:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNY2FhTHFiaDJLamNkclVkZndiQzdTb3l3S1NJbUxSRzRXRzJjN3k2VWNtQXB3czkwNHhCaE52NGVtLXZzTWZxdVlkQXZQY3lnSzZodTRmMmMwZmJGOVY4a2xZX0tvVGRkR3FvWVFfLXJvOFM3eGZqUDZ0ZS1VTDJPSTZGOTl3enpsZWlzcjNMQ2VBWUVIUDl6VVExRTV1TjNuTnNGVk02SEZmVUM3VUZOaUhlVTBfS2d2aWgxQ21xMHE5dHE0LWZlNWNzZHFVSFVjTnhrWFpzOA?oc=5",
@@ -430,7 +401,7 @@
    "d": "2026-11-08T11:14:21+00:00",
    "lang": "en",
    "t": "Rockstar's GTA 6 Physical Edition Reportedly Leaked; Here's What We Know",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -452,7 +423,7 @@
    "d": "2026-11-08T09:34:00+00:00",
    "lang": "en",
    "t": "GTA 6 achievements leak hints at how massive the game could truly be",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -525,12 +496,8 @@
    "s": "JVFrance",
    "d": "2026-11-07T17:54:12+00:00",
    "lang": "fr",
-   "t": "GTA 6 : une fuite révèle le contenu de la version boîte, bien plus généreuse que prévu - JVFrance",
-   "u": "https://www.jvfrance.com/gta-6-contenu-boite-285689/",
-   "img": "https://www.jvfrance.com/wp-content/uploads/2026/06/GTA-6-keyart-officiel-3.webp",
-   "chapeau": "A quelques jours de sa sortie dans nos rayons, la version boîte de Grand Theft Auto VI a fuité et il y aura bien un goodies à récupérer",
-   "txt": "",
-   "pub": "2026-11-07T17:50:34+00:00",
+   "t": "GTA 6 : une fuite révèle le contenu de la version boîte, bien plus généreuse que prévu",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -578,7 +545,7 @@
    "d": "2026-11-06T21:05:26+00:00",
    "lang": "fr",
    "t": "Les joueurs se demandent si la nouvelle fuite supposée du gameplay de GTA 6 est un fake ou pas",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -652,7 +619,7 @@
    "d": "2026-11-04T14:30:23+00:00",
    "lang": "fr",
    "t": "Une fuite confirme des améliorations pour GTA 6 sur la PlayStation 5 Pro",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -679,6 +646,15 @@
    "chapeau": "À 16 jours de la sortie de GTA 6, un joueur affirme qu’un compte PlayStation a été banni pour un simple message privé contenant une fuite. Que s’est-il réellement passé et jusqu’où Sony peut-il aller dans vos MP ?",
    "txt": "À 16 jours de la sortie de GTA 6, un joueur affirme qu’un compte PlayStation a été banni pour un simple message privé contenant une fuite. Que s’est-il réellement passé et jusqu’où Sony peut-il aller dans vos MP ?\nÀ 16 jours de la sortie de Grand Theft Auto VI sur PS5 , une histoire fait grimper la tension chez les joueurs : un compte PlayStation aurait été banni après l’envoi, en message privé PS App , d’un extrait de gameplay fuité de GTA 6 . De quoi faire paniquer tous ceux qui discutent des leaks dans leurs MP.\nEntre la chasse aux fuites menée par Take-Two Interactive et l’accord marketing massif entre Rockstar Games et Sony Interactive Entertainment , la plateforme est sous surveillance maximale. Mais cette histoire de ban PSN est-elle réelle, et surtout, que risque un joueur français qui partage une fuite de GTA 6 sur l’écosystème PlayStation ?\nLe cas vient d’un post Reddit relayé par Notebookcheck : l’utilisateur Silver-Succotash-612 affirme qu’une connaissance a tenté d’envoyer, via un message privé de la PS App , un clip de fuite de gameplay de GTA 6 , probablement issu de Cyberleek . Selon lui, le profil PSN aurait été gelé quasiment instantanément, avec un délai annoncé de trois mois pour l’appel.\nProblème : aucun mail de sanction n’a été publié, Sony n’a rien confirmé et le joueur concerné reste anonyme. Le site Tech Insider parle même de « 0 cas confirmé » de compte PlayStation banni spécifiquement pour une fuite de GTA 6 dans la PS App. Notebookcheck rappelle toutefois un précédent : un utilisateur avait écopé de 30 jours de ban PSN pour un screenshot de Conan Exiles montrant des personnages nus, pourtant partagé en groupe privé.\nLes règles officielles de PlayStation Network distinguent plusieurs sanctions : suspension de compte, suspension de communication et suspension de console. Une suspension de compte bloque l’accès au PSN et donc à certains jeux achetés en numérique . À J 0 de GTA 6 , cela peut signifier l’impossibilité de lancer une précommande digitale sur PS5, même si la console fonctionne.\nCôté modération automatique, Sony a lancé en mars 2025 la fonction Nudge dans la PS App. Le système analyse certains messages pour repérer des violations potentielles du Code de conduite et afficher un avertissement, sans qu’un employé lise les conversations tant qu’aucun signalement n’est déposé. En théorie, le support ne devrait donc pas bannir un compte uniquement sur la base de ces scans, mais des contenus marqués par des empreintes liées à des DMCA GTA 6 pourraient être détectés automatiquement.\nAvec les vidéos de Cyberleek traquées par les demandes de retrait DMCA de Take-Two et un accord marketing qui met GTA 6 au cœur de la communication PS5 et PS App, Sony a tout intérêt à éviter que des fuites circulent sur ses propres services. Même si le cas Reddit reste non vérifié, il montre surtout à quel point partager des fuites de GTA 6 via PSN ou PS App est devenu risqué.\nPour limiter les problèmes, la règle est simple : ne pas envoyer d’extraits fuité de GTA 6 via les outils PlayStation , qu’il s’agisse d’upload vidéo, de captures d’écran ou de liens vers des contenus déjà frappés par une DMCA. En cas de suspension de compte PlayStation, il faut contacter le support SIE Europe, vérifier la nature exacte de la sanction et déposer un appel avec un maximum d’éléments. Juste avant la sortie de GTA 6, mieux vaut protéger son compte PSN comme son futur braquage in game.",
    "pub": "2026-11-04T05:00:12+00:00",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNeHg4QklFbjA3VlBXZGhtRHhFYmRVOGRXeGk0WVpLNjJEQ1FzSTZTRFF4MEliZzFpUzZ0Y2xaNlF5X2xoTXAtMUpadTJJTE9CMllEUUo2dXFfNVdZb3dBcDM2cWQ2eW5CNjZrMUpuT1otSnVvYTJ1VkNHUllJZHdmdDBreXhNRGlUdTRXODI0VXpBcExlZUVRQjJjUjVqbHI3bDJXcFNwcTJJdGNCMTZUTjJsTEtEV29UX2hCbnI3Um1oaVN0Z2kzVkszMzBleXFwNnpZUi03Y1lJN1dubHZFSE1wVVo?oc=5",
+   "s": "Notebookcheck.fr",
+   "d": "2026-11-03T04:11:00+00:00",
+   "lang": "fr",
+   "t": "PlayStation aurait banni un compte pour avoir partagé une fuite sur GTA 6 dans la messagerie de la PS App",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -713,11 +689,7 @@
    "d": "2026-10-22T15:12:54+00:00",
    "lang": "en",
    "t": "Cyberleek Shares GTA 6 Leak Of Naked Lucia",
-   "u": "https://www.imdb.com/news/ni66062173/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -791,7 +763,7 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
    "t": "Le token CYBERLEEK chute de 40 % alors que le leaker de GTA 6 lance de nouvelles menaces",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
