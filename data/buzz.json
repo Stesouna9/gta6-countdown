@@ -1,8 +1,26 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-08T08:10:00+01:00",
+  "updated_at": "2026-11-08T10:10:00+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-oxford-street-londres-takeover",
+      "title": "GTA 6 : Rockstar investit Oxford Street à Londres",
+      "summary": "@GTAVI_Countdown relaie des images de l'habillage GTA 6 installé par Rockstar sur Oxford Street, à Londres, d'après un internaute (@prithdsouza777). Il s'agit d'une opération de promotion urbaine de plus, après Miami ; aucune annonce nouvelle du jeu.",
+      "url": "https://x.com/GTAVI_Countdown/status/2119296992681562583",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-08T05:12:32.000Z",
+      "checked_at": "2026-11-08T10:10:00+01:00",
+      "evidence": "Vues relevées le 2026-11-08T09:05:55+00:00 dans data/x_alertes.json : 38837 vues chez @GTAVI_Countdown (2861 likes, 187 reposts). Original X non ouvert (pas de navigateur). Un seul compte ; photo attribuée à @prithdsouza777, non vérifiée.",
+      "visual": "OXFORD STREET",
+      "image": "https://pbs.twimg.com/media/HWlBTNgWgAAw-j6?format=jpg&name=360x360",
+      "image_alt": "Habillage GTA 6 de Rockstar sur Oxford Street à Londres, relayé sur X",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X"
+    },
     {
       "id": "x-miami-4-panneaux-vice-city",
       "title": "GTA 6 : les quatre panneaux géants Vice City de Miami recensés",
@@ -2181,6 +2199,11 @@
       "at": "2026-11-08T08:10:00+01:00",
       "label": "Passage 78 · 1 sujet",
       "summary": "Relevé X du 08/11 à 07:02 UTC (8 posts) : ajout des quatre panneaux Vice City de Miami (25 029 vues, @GTAVI_Countdown). Sous le seuil : Oxford Street Londres (19 547 vues, un seul compte), trophées 55 (15 018), néons Miami Heat (11 529). Aucune métrique extrapolée, aucun post X ni message à un tiers."
+    },
+    {
+      "at": "2026-11-08T10:10:00+01:00",
+      "label": "Passage 79 · 1 sujet",
+      "summary": "Relevé X du 08/11 à 09:05 UTC (10 posts) : ajout d'Oxford Street Londres (38 837 vues, @GTAVI_Countdown), repassé au-dessus du seuil. Sous le seuil : trophées 55 (18 710), néons Miami Heat (14 022), billboard Paris (5 766). Aucune métrique extrapolée, aucun post X ni message à un tiers."
     }
   ],
   "coverage": {
