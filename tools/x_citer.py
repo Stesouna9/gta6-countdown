@@ -9,8 +9,7 @@ from x_reponses import ouvre, attend
 import x_reponses as R
 
 # 01/11 : faux Taylor Swift / Kelce en Jason et Lucia cité le 31/10 (compte parodique HoopsCrave, note de la communauté) -> filtres
-PARODIES = {"hoopscrave", "nba_centel", "nflcentel", "ballsackreport", "notscmp", "sportscenter_mx"}
-SUSPECT = ("parody", "parodie", "fake", "satire", "satirical", "not affiliated")
+PARODIES, SUSPECT = R.PARODIES, R.SUSPECT   # 08/11 : listes déplacées dans x_reponses (partagées)
 
 ETAT = Path.home() / ".config/gtavifrance/x_citations.json"
 ESSAI = "--essai" in sys.argv

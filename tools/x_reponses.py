@@ -21,6 +21,11 @@ def confrere(p): a = p["auteur"].lower(); return a in RIVAUX or (a not in ("rock
 RECHERCHES = [("(from:vicecentralFR OR from:gta6hubfr OR from:RockstarNewsFRA OR from:GTA6France1 OR from:martx_tv) -filter:replies", "fr"), ("from:gtasix_ -filter:replies", "en"), ("from:RockstarGames", "fr"), ("(GTA 6 OR GTA VI OR GTA6) lang:fr min_faves:100 -filter:replies", "fr"), ("(GTA 6 OR GTA VI OR GTA6 OR Leonida) lang:fr min_faves:20 -filter:replies", "fr"),
               ("(GTA 6 OR GTA VI OR GTA6) lang:en min_faves:2000 -filter:replies", "en"), ("(GTA 6 OR GTA VI OR GTA6) lang:en min_faves:500 -filter:replies", "en")]
 # 27/10 Gabriel : viser les posts qui ont déjà beaucoup de vues et de réactions (gros comptes) ; candidats triés par réactions   # 17/10 : + gros posts anglais (réponse en anglais)
+# 01/11 faux Taylor Swift (HoopsCrave) ; 08/11 note de la communauté sur GameJoker_ (faux « NEW GTA 6 DETAILS ») auquel on avait répondu -> filtres partagés avec x_citer
+PARODIES = {"hoopscrave", "nba_centel", "nflcentel", "ballsackreport", "notscmp", "sportscenter_mx", "gamejoker_"}
+SUSPECT = ("parody", "parodie", "fake", "satire", "satirical", "not affiliated")
+def suspect(p):
+    return p["auteur"].lower() in PARODIES or any(s in (p.get("nom", "") + " " + p["auteur"]).lower() for s in SUSPECT)
 GENERIQUES = {"gta 6", "gta vi", "gta", "rockstar", "rockstar games", "take-two", "ps5", "xbox", "trailer", "vice city", "leonida", "jason", "lucia", "jason duval", "lucia caminos", "gta v", "grand theft auto", "trailer 3", "launch trailer", "playstation", "rockstargames", "sortie", "date de sortie", "release", "release date", "bande-annonce", "rumeur", "officiel", "annonce", "précommande", "pre-order", "gameplay", "carte", "map"}
 LIEUX = {"miami", "floride", "florida", "los angeles", "vice", "keys", "port gellhorn", "ambrosia", "grassrivers", "mount kalaga"}   # trop vagues seuls
 FIN = {"fr": "", "en": ""}   # 24/10 Gabriel : « Tout en français sur notre profil » jugé moyen, la réponse = l'info seule
@@ -72,7 +77,7 @@ def choisit(posts, etat, n):
     choix = []
     for p in sorted(posts, key=lambda p: (not confrere(p), -p.get("score", 0))):   # confrères taquinés d'abord, puis les plus gros
         if len(choix) >= n: break
-        if not p["url"] or p["url"] in etat["posts"] or p["auteur"].lower() in ("gtafance", "gtavifrancecom") or p["auteur"] in deja or len(p["texte"]) < 25 or p.get("note"): continue
+        if not p["url"] or p["url"] in etat["posts"] or p["auteur"].lower() in ("gtafance", "gtavifrancecom") or p["auteur"] in deja or len(p["texte"]) < 25 or p.get("note") or suspect(p): continue
         try: age = (maintenant - datetime.datetime.fromisoformat(p["quand"].replace("Z", "+00:00"))).total_seconds() / 3600
         except ValueError: continue
         if age > 24: continue
@@ -98,6 +103,7 @@ Post de @{p['auteur']} : « {p['texte'][:600]} »
 {info}
 {regle}Règles : en {'français' if lg == 'fr' else 'anglais'}, 1 ou 2 phrases, ne rappelle la date et les consoles que si le post en parle, 240 caractères max, ton naturel de passionné (pas de pub, pas de « nous » corporate), répondre vraiment à ce que dit la personne, apporter une info ou un avis, 0 ou 1 emoji, pas de hashtag, pas de lien, rien d'inventé.
 Si le post est une blague sans rapport, de la politique, une insulte, un concours ou une arnaque, ou si tu n'as rien d'utile à ajouter, réponds exactement : PASSER
+Réponds aussi PASSER si le post présente comme des faits des « nouveaux détails », fuites ou rumeurs non confirmés par Rockstar (jamais de « si c'est vrai… » qui les relaie).
 Donne seulement le texte de la réponse.""")
     r = r.strip().strip('"«» ')
     if r.upper().startswith("PASSER") or len(r) < 15: return ""

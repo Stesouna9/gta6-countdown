@@ -11,14 +11,40 @@ ETAT = Path.home() / ".config/gtavifrance/x_mentions.json"
 ESSAI = "--essai" in sys.argv
 X.slot = "mention"
 
+PRET = "document.querySelector('article [data-testid=tweetText]')?'ok':'non'"
+
+def lis(n=20):
+    return json.loads(X.js("""JSON.stringify([...document.querySelectorAll('article')].slice(0,%d).map(a=>{const l=a.querySelector('a[href*="/status/"] time')?.closest('a');
+return {url:l?l.href:'',quand:a.querySelector('time')?.getAttribute('datetime')||'',texte:a.querySelector('[data-testid=tweetText]')?.innerText||'',
+auteur:(l?l.href.split('/')[3]:''),contexte:(a.innerText.match(/(Replying to|En réponse à)[^\\n]*/)||[''])[0]}}))""" % n))
+
+def va(url):
+    """Même onglet, autre page : pas de nouvel onglet à chaque post."""
+    try: X.js(f"location.href={json.dumps(url)}")
+    except Exception: pass
+    time.sleep(4)
+    return attend(PRET)
+
 def mentions():
     ouvre("https://x.com/notifications/mentions")
     try:
-        if not attend("document.querySelector('article [data-testid=tweetText]')?'ok':'non'"): return []
-        time.sleep(3)
-        return json.loads(X.js("""JSON.stringify([...document.querySelectorAll('article')].slice(0,20).map(a=>{const l=a.querySelector('a[href*="/status/"] time')?.closest('a');
-return {url:l?l.href:'',quand:a.querySelector('time')?.getAttribute('datetime')||'',texte:a.querySelector('[data-testid=tweetText]')?.innerText||'',
-auteur:(l?l.href.split('/')[3]:''),contexte:(a.innerText.match(/(Replying to|En réponse à)[^\\n]*/)||[''])[0]}}))"""))
+        liste = lis() if attend(PRET) and not time.sleep(3) else []
+        # 08/11 Gabriel : répondre à tous les commentaires. L'onglet Mentions en cache une partie (filtre qualité de X),
+        # donc on lit aussi les réponses sous nos posts de moins de 48 h.
+        limite = (datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(hours=48)).isoformat()[:19]
+        if va("https://x.com/gtavifrancecom"):
+            posts = {}
+            for _ in range(5):   # le profil n'affiche que ~5 posts : défiler pour couvrir 48 h
+                time.sleep(2)
+                for p in lis(15):
+                    if p["auteur"].lower() == "gtavifrancecom" and p["quand"] >= limite: posts[p["url"]] = p
+                X.js("window.scrollBy(0,3000)")
+            for p in sorted(posts.values(), key=lambda p: p["quand"], reverse=True)[:12]:
+                if not va(p["url"]): continue
+                for _ in range(2): X.js("window.scrollBy(0,2500)"); time.sleep(3)
+                ctx = f"(en réponse à notre post : « {p['texte'][:200]} »)"
+                liste += [dict(r, contexte=ctx) for r in lis(40) if r["auteur"].lower() != "gtavifrancecom" and r["url"] != p["url"]]
+        return sorted(liste, key=lambda m: "?" not in m["texte"])   # les questions d'abord
     finally:
         X.ferme_onglet(); X.ONGLET.clear()
 
@@ -32,7 +58,7 @@ Si un simple j'aime suffit (merci, compliment, emoji, message qui n'appelle pas 
 Si c'est une insulte, de la politique, une arnaque, un bot, un concours ou s'il n'y a rien à répondre, réponds exactement : PASSER
 Donne seulement le texte.""", 400).strip().strip('"«» ')
     if r.upper().startswith("PASSER") or len(r) < 5: return ""
-    if r.upper().startswith("LIKE") or random.random() < 0.2: return "LIKE"   # 1 fois sur 5 : like au lieu de répondre
+    if r.upper().startswith("LIKE") or (random.random() < 0.2 and "?" not in m["texte"]): return "LIKE"   # 1 fois sur 5 : like au lieu de répondre, jamais pour une question
     return r if len(r) <= 270 else r[:270].rsplit(" ", 1)[0] + "…"
 
 def main():
@@ -45,7 +71,7 @@ def main():
     par_auteur = {}
     for r in etat["reponses"]:
         if r["quand"].startswith(jour): par_auteur[r["auteur"]] = par_auteur.get(r["auteur"], 0) + 1
-    limite = (datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(hours=24)).isoformat()
+    limite = (datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(hours=48)).isoformat()
     faits = 0
     for m in mentions():
         if faits >= n: break
