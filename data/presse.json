@@ -1,17 +1,21 @@
 {
- "maj": "2026-11-08T17:58:33+00:00",
+ "maj": "2026-11-08T18:18:46+00:00",
  "articles": [
+  {
+   "gn": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQmtnbEV2SUpVckRzVFUtYk1FS3VSZ3RlNVpCdDNMblNwNWFNaU42ZDhCSlpCWEZ5MjQ0WHpUSnFUUWVFREJKNVVCTVNlTGdsQWxiM2t5YXUwOWp4Sm5leFFad2ozYVc2aHlZS1VaUnlBMS1ocXNNeTRCOUV0Q283Um5NdWtqN0VkWVotcGtCa0RpeUJNYll5aGVTbVhFOFZlSzJZM295WlFXa0ExaExSMkFDWkFzMDBBYXdvYkpn?oc=5",
+   "s": "Clubic",
+   "d": "2026-11-08T18:11:00+00:00",
+   "lang": "fr",
+   "t": "Même pas encore sorti, GTA 6 a déjà rapporté une somme folle à Rockstar Games",
+   "erreur": "HTTP Error 429: Too Many Requests"
+  },
   {
    "gn": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1aR3ktRzB2TXdRbUlEMTBhQmp4azBYTVhFTC03aVA5SVJsV0xfTUwzZDlxTHNsWmk3QldUNU9lWFZpTjFrWGdlZ1kyVzhhdV8tUW1PVWZGU1RwY2EwT0ZxMXRlbnR2TjN1OHprWDZ0dllYTTFFNmt4OXdSeWsyZw?oc=5",
    "s": "Enerzine",
    "d": "2026-11-08T17:50:00+00:00",
    "lang": "fr",
    "t": "PS5, une mise à jour de 1,27 Go à l’approche de GTA VI",
-   "u": "https://www.enerzine.com/ps5-firmware-securite-avant-gta-6/199732-2026-11",
-   "img": "https://www.enerzine.com/wp-content/uploads/2026/11/arti_199732.webp",
-   "chapeau": "Sony a poussé un correctif système sur PlayStation 5, avec pour seule explication publique des « corrections de sécurité ».",
-   "txt": "",
-   "pub": "2026-11-08T18:50:00+01:00"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQeFhKRXRMSmhyUjM1Q3ZCb2VIWElBaXBoaWFWbG9qdTB4V3BfS3lFUXRXMTJBV2xldGV3MkRySWF5YjBSN29DQmd5ZTZkN2dFTzRRdm9pand5elNPTWVzS0NQVmxOOC1CNlZnNlRZV1loRjVETHIwXzIwQmVxckM0V0dpdXVueG84d2pXRVZsU1BSa3d4cVZtWjFmX2VZbUE?oc=5",
@@ -19,7 +23,7 @@
    "d": "2026-11-08T17:46:28+00:00",
    "lang": "fr",
    "t": "Les crédits de fin, selon des rumeurs, de GTA 6 vont durer plus de 80 minutes",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOS03d1lEaXJnVVlBZ00xNHZUcnhPNzhoTmFvajFFT0Noblk2blkyLXJLMUZ5R1RTUE1TVjQ4UFNvN29mT2xiYm1kN0dxZlFOZWQtSENsWng3ckpvMkhqMDItZkVJOTFsRGNDR0NBZXFwLXpuQk5MaVVpSUNjNDVxWDBsMlI3bWVyekdYVXA4eEh4bUJOTmRLQV9uV3VPdVNhOEE?oc=5",
@@ -87,11 +91,7 @@
    "d": "2026-11-08T16:55:53+00:00",
    "lang": "fr",
    "t": "GTA 6 : West Coast Customs construit six vraies voitures inspirées du jeu pour Rockstar Games",
-   "u": "https://www.mensup.fr/gta-6-west-coast-customs-construit-six-vraies-voitures-inspirees-du-jeu-pour-rockstar-games/",
-   "img": "https://www.mensup.fr/wp-content/uploads/2026/11/gta-6-west-coast-customs-construit-six-vraies-voitures-inspirees-du-jeu-pour-roc-2.webp",
-   "chapeau": "À onze jours de la sortie de Grand Theft Auto VI, Rockstar Games et West Coast Customs ont transformé six véhicules fictifs du jeu en véritables machines roulantes dans les rues de Miami.",
-   "txt": "",
-   "pub": "2026-11-08T16:55:53+00:00"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1ZQ1RpdDJlSU1sdUN5cS03V2VTSmF5MEQ5N2RNVXVuWnlOb0FCOE1acGs1R3piRlJlbVBCRmlrZWFiY3dkMTg3al83dy1IYThJLVJfd3hid3VOa05kQmpB?oc=5",
@@ -156,16 +156,12 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxQcmhQLXQ0U1otMU1VR3lKNFFjMjV2ZUNkNXd3WEhoWE5DckJSWm9MUElwUmhDa1JMUDZxUXhWR29nZzRUc3k4VGV4R1lVNi1vWGMwNE5ZeTRLZzBkaDFfdXhIc3FLM1UwVVQ2b2VKZkpLbVRHUjJXOFkyd2xVUHUzVTI5a3ExcGFNMkYtR3pveElCWWozTXVueUhBV20yWWxHZ294eFFNMzdaaWt6X3B4cWdTbjN5SF9Xb3JDbHdEN2w2eW1QUTg1ZmdZYk8zWnJuMG9obW1qUHdYTXFrLVh6Q1hrd3p4NG1fM05ZbHVWYzJQMmIzMGFaOEJXblVzMXVjcEkwTFZZbThCUnVzYjNwM2FNbTVqc2xVVi1sV1JCSnU2dW1ZMEdFYk1jZw?oc=5",
+   "gn": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPRlNONm1IcHFCNWU2VlJwOTVfUDdnWlowV2x5UXlub25fUGZIRndpVlZ3bFVuM0M5UTZ5eWJGdmU1clFZUm1oQk9aR01IbUttRll0UWdacmlhRFJDdFhBX1BaRG5vUkJIb1V2WW0yMEZOenAzT0JfNWw4RG9HYWxRbHpDYXZYQzczS0QzMHJDYmlXbFdhTVJ3N1RyUFNQYm1kNXA0MWdJTzl6eTRZVzhna2Eyc3hnQlNRZm9jV0pfVktLUWN1WWROdEZDRFF6S19LZ28yanJreWQ2bGhnWjJr?oc=5",
    "s": "La Crème Du Gaming",
    "d": "2026-11-08T15:30:09+00:00",
    "lang": "fr",
    "t": "GTA 6 : une fuite révèle plus de trophées PS5 et de succès Xbox que GTA 5 dès le lancement",
-   "u": "https://www.lacremedugaming.fr/jeux/gta/gta-6/gta-6-une-fuite-revele-plus-de-trophees-ps5-et-de-succes-xbox-que-gta-5-des-le-lancement-233924.html?utm_source",
-   "img": "https://sf.lacremedugaming.fr/wp-content/uploads/creme-gaming/2026/11/gta-6-une-fuite-revele-plus-de-trophees-ps5-et-de-succes-xbox-que-gta-5-des-le-lancement-1200x660.jpg",
-   "chapeau": "Une fuite crédible agite déjà les chasseurs de trophées autour de GTA 6, attendu le 19 novembre 2026 sur PS5 et Xbox Series X|S. Avec 55 objectifs solo évoqués, plus que GTA 5 au lancement, la future chasse au platine pourrait bien surprendre les joueurs les plus acharnés.",
-   "txt": "Une fuite crédible agite déjà les chasseurs de trophées autour de GTA 6, attendu le 19 novembre 2026 sur PS5 et Xbox Series X|S. Avec 55 objectifs solo évoqués, plus que GTA 5 au lancement, la future chasse au platine pourrait bien surprendre les joueurs les plus acharnés.\nLes chasseurs de trophées risquent d’avoir du pain sur la planche avec GTA 6 . Une fuite relayée par plusieurs dataminers crédibles évoque 55 trophées sur PS5 et 55 succès sur Xbox Series X|S , tous liés au solo, soit plus que GTA 5 au lancement.\nSi Rockstar Games n’a encore rien officialisé, ces chiffres partagés notamment par Notebookcheck et Insider Gaming dessinent déjà un record pour un jeu du studio. Et avec une sortie annoncée au 19 novembre 2026 uniquement en solo, sans mode en ligne ni microtransactions au day one, la question brûle les lèvres des completionnistes : à quoi va ressembler la chasse au platine dans l’immense État de Leonida ?\nCôté Xbox, le dataminer TexFunz2 a repéré via un listing préliminaire 55 succès pour GTA 6 , dont un succès isolé affiché à 1 000 Gamerscore. Sur PlayStation, le très suivi PlayStation Game Size a confirmé le même total de 55 trophées sur PS5. Selon Notebookcheck, toute la liste serait orientée solo.\nSur Xbox, un succès à 1 000 G serait interprété comme une sorte de « mythic achievement » : un méta-objectif qui résume l’accomplissement ultime du jeu, comparable à un trophée platine côté PS5. Insider Gaming va dans ce sens en parlant d’une récompense pensée pour les joueurs qui poussent l’expérience à 100 %.\nReste un point crucial : au 21 octobre 2026, TheGTA6Gaming rappelle qu’aucune liste officielle de trophées ou succès GTA 6 n’apparaissait encore sur les stores Sony ou Microsoft . On est donc face à une fuite très commentée, mais qui ne sera validée qu’au moment où les serveurs PSN et Xbox publieront la liste définitive.\nHistoriquement, Rockstar Games était plus léger au lancement. GTA 5 arrivait avec 49 succès sur Xbox 360 et 50 trophées sur PS3, rappelle Notebookcheck, avant de grimper jusqu’à 78 avec l’ajout de GTA Online . Beaucoup de ces objectifs imposaient le multijoueur, parfois sur des activités désertes quelques années plus tard.\nRed Dead Redemption 2 faisait à peine mieux : 51 succès Xbox One et 52 trophées PS4 au lancement, là encore avec plusieurs objectifs purement online. Résultat, d’après GTA6CheatSheet, environ 27 % des joueurs terminent l’histoire, mais seulement 0,5 % atteignent les 100 % et à peine 0,1 % décrochent le platine.\nSi la fuite se confirme, les 55 trophées PS5 et succès Xbox de GTA 6 seraient donc tous réalisables en solo, sans avoir à subir la population des serveurs ou organiser des sessions de boost. Pour les chasseurs de trophées français, c’est une excellente nouvelle en termes de contrôle, même si la difficulté brute restera élevée.\nLa carte de Leonida serait sensiblement plus grande que les précédents mondes ouverts du studio. Le co-directeur de production Rob Nelson a expliqué que « l’histoire principale et quelques quêtes additionnelles représentent environ 80 heures de jeu « . Autrement dit, viser le platine ou l’équivalent 1 000 G demandera un investissement massif, même sans contraintes multijoueur.\nGTA 6 sort le 19 novembre 2026 sur PS5 et Xbox Series X|S , avec un préchargement attendu dès le 10 novembre selon Insider Gaming. Comme pour les autres AAA, la liste officielle des trophées devrait apparaître quelques jours avant, moment où il faudra choisir entre tout lire (et risquer des spoilers scénaristiques ) ou se limiter au simple nombre d’objectifs.\nDernier point à garder en tête : comme GTA 5 et Red Dead Redemption 2 , GTA 6 devrait accueillir plus tard un successeur de GTA Online , possiblement accompagné de nouveaux trophées. Les chasseurs de platine les plus pressés auront donc intérêt à viser les 55 objectifs solo dès le lancement, tant que la liste reste « propre » et qu’aucun contenu additionnel ne vient relever encore la barre.",
-   "pub": "2026-11-08T15:30:09+00:00"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOTVLWVhSSFowLVlfQ093ektTV0JLZFExUk54MW5KUjJjb2FVOEE2bk1FLS1kZ0VIcTJlS1hIQ0pWTzNrVzJJRW1hYWJNZEs0anRXbHVaY2dZX0l6WlBjUWZCT2hQRllIc3VlaUVpakd6dnNqeVdkdjl2dFVDWTlZeTV0NnREX2NDNDBuY0QwZ1dnM0ZoZEhTZzU4VGluRFV3TUhmMHRvMW5fWmFiVFduLQ?oc=5",
@@ -205,6 +201,15 @@
    "cyberleek": true
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdURfNmtRWklnNTN4M0Q2cG1SQjF2aEhIWko1a2xNRHB1UTVCWHY1YlZsVFNvWERRNHFSR2dOWjVUaXZVc1J5b2o5b3R0VlRaa2piVGltNWRvUzRld3NyYlpzQ0NwM1cxaFFLQUJQdHltTGFEWXdrNHRWNTZyMTJHdWVveWpvSkZZc2FvUG9MZ0h3MVhhNlNtQzdwRjEtcXdDUFJDN2VRRkhYWkZUTFd6UzdMclJxRDFlTmJENndDNjM?oc=5",
+   "s": "Notebookcheck",
+   "d": "2026-11-08T14:28:00+00:00",
+   "lang": "en",
+   "t": "The LEGO Ideas team may have accidentally leaked its first 2026 review results",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdnFtbEhaN3ZwQjB4QUVxb1k5UWFoOU1YNmlCVzgwckF1T2JXTWF6am5NZ1lTY2lOTGJFdFVmUkhGY2hVaTM4Q251MFdzMUdTd2t2TXJ4c20xR1lBY1Vnc1V6TE1TMlcxa2ZOT3ZTbm1DYWplUzBDRVJRTmNITjBVZHVqUURibENSbGlzdkM0dGtsX0ZtUnVqR0VEeVRTaEdIakV4Q0J5QWVwUnBxcUVr?oc=5",
    "s": "Xboxygen",
    "d": "2026-11-08T14:20:03+00:00",
@@ -222,7 +227,7 @@
    "d": "2026-11-08T14:15:23+00:00",
    "lang": "fr",
    "t": "Les utilisateurs de PlayStation 5 seront les premiers à pouvoir télécharger GTA VI avant les possesseurs de Xbox.",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQem5PYWJwaTlpNUF6cjMxNXZrZERCUml3TlFDcmxjYllieEtGTDg2UU8zbnExNy1JUWlsNUM0cTRzRzlJNHJWZWNkbkJoM056X081WlV6QXpGSHFBTDJZWndnS1R2T29iRGJhZlNEaUMzWFUwdEc0d0ZoTEJtVjhJQTBkZy1vQlNR?oc=5",
@@ -279,7 +284,7 @@
    "d": "2026-11-08T12:58:21+00:00",
    "lang": "en",
    "t": "GTA 6 Comes to Life as West Coast Customs Builds Six Wild Real-World Cars for Rockstar Games",
-   "erreur": "HTTP Error 307: Temporary Redirect"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMingFBVV95cUxNenJkNzJNU1AtalZWbXRiX092VUpRa1hmeGdTcldZZm5WVzliNlZiTU41ZVFKdU9BRFVmNjlTRy1WdHlCRllpTVB3WTlkallmcHF2R3RIRWxaSk9Uc3M1NVNLNHZwLUdwSW1EdXFRcm92V3ZyZ2c4X25HbmxkdDVrcmJaTW1ha1RpV1R6a1ZBZUNmYUxoTXpUWXlpMTJCZw?oc=5",
@@ -316,18 +321,6 @@
    "chapeau": "GTA 6 reportedly has 55 Xbox achievements, including one worth 1,000 Gamerscore, according to a GTA Forums post suggesting a possible Mythic achievement.",
    "txt": "Grand Theft Auto VI reportedly has 55 achievements configured for its upcoming release, including one achievement worth 1,000 Gamerscore. The information comes from a post on GTA Forums by a user named Tex2 via IdleSloth84 , who claims to have details about the game’s Xbox achievements.\nAccording to the post, 54 of the GTA 6 achievements are assigned values ranging from 1 to 54 Gamerscore. However, the 55th achievement stands out with a value of 1,000 Gamerscore, considerably higher than the others.\nTex2 believes the unusual achievement could be connected to Xbox’s Mythic achievement system, which recognizes players who complete all original achievements in eligible games. Another possibility raised in the post is that the 1,000 Gamerscore achievement could be awarded for unlocking every other achievement in Grand Theft Auto VI.\nGrand Theft Auto VI is scheduled to launch on November 19, 2026, for PlayStation 5 and Xbox Series X|S. Developed by Rockstar Games, the game takes players back to Vice City and the surrounding state of Leonida, with a story following two protagonists, Lucia and Jason.\nThe game has been the subject of a major promotional campaign ahead of release, with pre-orders reportedly reaching record-breaking levels.\nDigital pre-loading for Grand Theft Auto VI begins on November 10, allowing players who have pre-ordered the game to download its files before the official launch.\nAli Haider loves to dabble in multimedia projects. He has a passion for editing and managing YouTube videos and loves writing in his spare time.",
    "pub": "2026-11-08T12:44:05+00:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONDc4S2VHVEdQZDhsektxa3dKaUw2S2c3WDA4WFNyWXBsV0M2M0RfY2NROG5rakRjbl9ld21JV1RHYVVOOFBOal9LSUtEYWV6MVVlT3VHWUw2OFBfaV8wTDRkUVExNVVZVjJNN3h5LU1UNk9BSGkyVGFKQTJHNXZQNS1VQ200dy1MUGllSEJVN1ZzUjZMUVdjM1YzQmNMazF2MF9qakxJcVlwMzRhcE1xaEhFOUlGUzNhbmdCVTlSQQ?oc=5",
-   "s": "Numerama",
-   "d": "2026-11-08T12:37:00+00:00",
-   "lang": "fr",
-   "t": "À la sortie de GTA 6, tout le monde va chercher cette maison",
-   "u": "https://www.numerama.com/pop-culture/2369507-a-la-sortie-de-gta-6-tout-le-monde-va-probablement-chercher-cette-maison.html",
-   "img": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/maison-gta-6-sans-andreas.png?resize=1600,900&key=7dc6becc",
-   "chapeau": "Saviez-vous que GTA 6 était peut-être apparu pour la première fois dans GTA San Andreas ? En 2021, les joueurs ont découvert une mystérieuse photographie dans la Definitive Edition du jeu, représentant une maison inconnue au style très floridien, qui pourrait venir de GTA 6. À moins de deux semaines de sa sortie, le",
-   "txt": "Recevez tous les soirs un résumé de l’actu importante avec Le Récap’\nEn novembre 2021, quelques jours après la sortie de Grand Theft Auto: The Trilogy – The Definitive Edition , des fans de GTA San Andreas avaient remarqué un détail assez étrange dans le Lil’ Probe’Inn, un bar spécialisé dans les observations d’OVNI. Sur l’un des murs de l’établissement, au milieu de plusieurs clichés représentant des OVNI au-dessus de lieux bien connus des jeux Rockstar, se trouvait la photo d’une maison de banlieue américaine d’apparence anodine.\nContrairement aux autres images, qui renvoyaient à des endroits déjà aperçus dans les précédents jeux du studio (l’île de Guarma de Red Dead Redemption 2 , Los Santos de GTA 5 ), cette maison était totalement inconnue. Comme les autres photos du mur, elle a été ajoutée dans cette édition remastérisée et n’existait pas dans le GTA San Andreas original de 2004. De quoi alimenter immédiatement une théorie : Rockstar aurait-il glissé un premier aperçu de GTA 6 dans son ancien jeu ?\nAnother #GTATrilogy mystery hunt. The Lil' Probe'Inn has an unidentified house amongst the UFO photo display… GTAVI? (jk) (or am I, where is this from?) Credit to ArthurZussman, mussefar03 and mrcharhead for these images. Discussion source: https://t.co/F4uXihZS9v pic.twitter.com/1iHP1jiQML\nCe contenu est bloqué car vous n’avez pas accepté les cookies et autres traceurs. Ce contenu est fourni par Twitter. Pour pouvoir le visualiser, vous devez accepter l’usage étant opéré par Twitter avec vos données qui pourront être utilisées pour les finalités suivantes : vous permettre de visualiser et de partager des contenus avec des médias sociaux, favoriser le développement et l’amélioration des produits d’Humanoid et de ses partenaires, vous afficher des publicités personnalisées par rapport à votre profil et activité, vous définir un profil publicitaire personnalisé, mesurer la performance des publicités et du contenu de ce site et mesurer l’audience de ce site (en savoir plus)\nEn cliquant sur « J’accepte tout », vous consentez aux finalités susmentionnées pour l’ensemble des cookies et autres traceurs déposés par Humanoid et ses partenaires .\nVous gardez la possibilité de retirer votre consentement à tout moment. Pour plus d’informations, nous vous invitons à prendre connaissance de notre Politique cookies .\nÀ l’époque, Rockstar n’avait même pas officialisé GTA 6 . Le studio n’a confirmé le développement actif du jeu qu’en février 2022, trois mois après la sortie de la Definitive Edition .\nPré-Black Friday : Économisez sur la PlayStation 5 Du 6 au 8 novembre inclus, Back Market vous offre 40 € de réduction sur la PS5 et la PS5 Slim, pour les 150 premiers seulement ! Bref, c’est le moment de décrocher votre billet pour Vice City sans vous ruiner. Dépêchez-vous ! Sponsorisé Profiter des -40 € sur la PS5 Pour beaucoup de joueurs, l’image avait aussi un rendu plus moderne que les autres photos accrochées dans le bar, et même que GTA 5 . Avec ses deux palmiers, la maison évoquait plutôt la Floride.\nEn 2021, un membre de GTAForums , connu sous le pseudonyme d’igrobar, et qui avait beaucoup trop de temps libre, avait retrouvé sur Google Maps une véritable habitation ressemblant fortement à celle de la photographie. Elle se situe à Boca Raton, dans le comté de Palm Beach, au nord de Miami. Une découverte intéressante, puisque Rockstar a l’habitude de s’inspirer de bâtiments et de lieux réels pour construire ses villes virtuelles.\nL’histoire aurait pu s’arrêter là. Mais le 6 avril 2022, un certain Matheusvictorbr avait relancé les spéculations sur X . Comme le rapportait GamesRadar dès le lendemain, l’utilisateur, qui se présentait comme un fan « passionné » de Rockstar, affirmait avoir obtenu la confirmation que la photographie provenait bien de GTA 6 .\nLa maison de la Definitive Edition, que certains espèrent retrouver dans GTA 6 . // Source : Rockstar Games Depuis, Rockstar a officiellement dévoilé Vice City et l’État fictif de Leonida, en décembre 2023, confirmant le retour de la série en Floride. L’idée d’une maison floridienne tirée de GTA 6 n’a donc plus rien de farfelu.\nCette vieille théorie refait surface à moins de deux semaines de la sortie de GTA 6 , prévue le jeudi 19 novembre 2026 sur PS5 et Xbox Series X|S, à 79,99 euros en édition standard. Une fois les joueuses et les joueurs lâchés dans Leonida, il y a fort à parier que certains se lanceront à la recherche de cette fameuse maison. Les comparaisons avec la photogr",
-   "pub": "2026-11-08T12:37:07+00:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPQndYMmFjWHoxNkt5dFI0d3NRbWQ4REdXUjRkTXR3NHIwS0dIWXVIS0NCZ0liRjd2S09CR09TcUlqNjd0QUlJRE1YZWZHNnVXOFE4U1doNTd1VkNGMmgyN2RSOWtDamU2RW5UNWxCZHFmUXFGd2xYd1NIYTQ5aVlxNU1rOW9zUQ?oc=5",
@@ -373,7 +366,7 @@
    "d": "2026-11-08T11:14:21+00:00",
    "lang": "en",
    "t": "Rockstar's GTA 6 Physical Edition Reportedly Leaked; Here's What We Know",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zQ3hWMGw4N1RQTWgwUC1QQmV5SFVUVjRzQkYxX19tRmdYeGgzX2N5dUFwem52d0VjVVlxSHY4TEJyWk9pbWpVb0hnVFk0TmdwR29GUWJSOGpoN1dQMENrS1hFZ0RPTzVi?oc=5",
@@ -406,7 +399,7 @@
    "d": "2026-11-08T09:34:00+00:00",
    "lang": "en",
    "t": "GTA 6 achievements leak hints at how massive the game could truly be",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -479,12 +472,8 @@
    "s": "JVFrance",
    "d": "2026-11-07T17:54:12+00:00",
    "lang": "fr",
-   "t": "GTA 6 : une fuite révèle le contenu de la version boîte, bien plus généreuse que prévu - JVFrance",
-   "u": "https://www.jvfrance.com/gta-6-contenu-boite-285689/",
-   "img": "https://www.jvfrance.com/wp-content/uploads/2026/06/GTA-6-keyart-officiel-3.webp",
-   "chapeau": "A quelques jours de sa sortie dans nos rayons, la version boîte de Grand Theft Auto VI a fuité et il y aura bien un goodies à récupérer",
-   "txt": "",
-   "pub": "2026-11-07T17:50:34+00:00",
+   "t": "GTA 6 : une fuite révèle le contenu de la version boîte, bien plus généreuse que prévu",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -527,19 +516,6 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5veURLWmVXcXJMTlBFbS1PbXVySDBDY0hBblRBUHcxb25Za0E2SDd1VElJVDVIQk1rejBPYW5MZHMyNzJhY1B0Mmh4bW9VZ0VmZWFvbWt2TEZMdnZ1d0VZ?oc=5",
-   "s": "TheGamer",
-   "d": "2026-11-07T14:38:10+00:00",
-   "lang": "en",
-   "t": "GTA 6 Physical Copy Leaks, References Online Functionality",
-   "u": "https://www.thegamer.com/gta-6-physical-copy-leak/",
-   "img": "https://static0.thegamerimages.com/wordpress/wp-content/uploads/2026/11/jason-wearing-a-camoflauge-vest-while-speeding-on-a-motorbike-during-a-police-chase-in-gta-6.jpg?w=1600&h=900&fit=crop",
-   "chapeau": "A new Lucia screenshot and mentions of \"in-game purchases\" have leaked online after a German retail worker uploaded photos of the GTA 6 box.",
-   "txt": "By James Lucas Published Nov 7, 2026, 9:38 AM EST James Lucas is the Lead Photo Editor at TheGamer and has worked in professional journalism since 2018. A Newcastle University graduate with a degree in Journalism, Media, and Culture, they have written hundreds of guides, news stories, and original reports, with bylines in IGN, NME, GaymingMag, and VG247, sourcing interviews with studio heads, legendary industry figures, prominent actors, and more. You can reach them at James.t@thegamer.com Sign in to your TheGamer account German retail worker u/IseeIceTea has shared photos of a physical GTA 6 copy to Reddit, revealing a new Lucia screenshot and a few interesting details. Most notably, that the game will have \"online functionality\" and \"in-game purchases.\"\nThis doesn't mean that GTA Online will launch day and date, as Rockstar have already confirmed that the game is a \"single-player experience,\" but combined with in-game purchases, this could be hinting at an online store with microtransactions—potentially through the faux internet. But that's just speculation.\nBloomberg reporter Jason Schreier previously said that Rockstar won't talk about GTA Online \"any time soon.\"\nOnline functionality simply means features that require an internet connection, not strictly multiplayer, which could be as elaborate as an in-game store or as mundane as Social Club integration, cloud-based saves, and an online leaderboard. Translating the box doesn't give us any details, so right now it's anyone's guess.\nRockstar Rockstar previously confirmed that GTA 6 won't launch with a physical map like with past games, and that you'll need to buy or download one separately. Still, commenters were curious, and asked u/IseeIceTea what exactly was inside.\n\"I don't think so,\" they said of the map. \"I work in retail so I can't open it. I can't hear anything when I shake it and the cover won't let light through from a flashlight. There could be a map inside but I can't say for sure.\"\nGerman electronics store MediaMarkt, which has over 1,000 locations across Europe, also shared a photo of the GTA 6 physical edition on its Instagram. It didn't show the back of the box or its contents, but it did showcase a poster of Lucia that appears to come with the code .\nSo, from the box alone, we have a new Lucia screenshot, a first look at the accompanying poster, and confirmation of \"online functionality\" and \"in-game purchases,\" sending the community speculating on what exactly that means for a single-player game.\nThere's a lot to unpack, but we'll find out soon enough what it all means when GTA 6 launches in under two weeks on November 19.\nGrand Theft Auto 6 Like Follow Followed Action Adventure Systems OpenCritic Reviews Released November 19, 2026 ESRB Rating Pending - Likely Mature 17+ Developer(s) Rockstar Games Publisher(s) Rockstar Games 8 Images Close Where to play Close WHERE TO PLAY DIGITAL",
-   "pub": "2026-11-07T14:38:10Z",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNcFROeXhFdkhGWmI1ekhGR2d0Z0RFM1Mwa3dYX21hczNtbjMtdkViWVNqQ21Wdm9YcmpzRjJrYjBCcVN0eTMzTGw1NnQ5VTVxUXQ2SWdLYURYQXZJbVYxMlBuTzNna3BnWGNvbEY0anpqUkhaYWdjaXYtcmFlVzJqZ2pmU0VXYmdWMHV2dUYzQnZ3Nk1STFVtT1h1TUZ5SFktU1Z4TGpXN21DaTg3eEdvOGQzUktSWHFZdGsxVzZqNVVzMWozY1hYU2FvVUtKZ2ZHSGM4MnREWGtzWk9wYVBpZ3o3LTY2WnZteUpMc1dQTW5Od0FzOXROYl83c1lid0l1UklJ?oc=5",
    "s": "Notebookcheck.fr",
    "d": "2026-11-07T05:50:00+00:00",
@@ -571,7 +547,7 @@
    "d": "2026-11-06T21:05:26+00:00",
    "lang": "fr",
    "t": "Les joueurs se demandent si la nouvelle fuite supposée du gameplay de GTA 6 est un fake ou pas",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -593,7 +569,7 @@
    "d": "2026-11-05T12:41:16+00:00",
    "lang": "en",
    "t": "CyberLeek Price: CYBERLEEK/USD Live Price Chart, Market Cap & News Today",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -641,7 +617,7 @@
    "d": "2026-11-04T14:30:23+00:00",
    "lang": "fr",
    "t": "Une fuite confirme des améliorations pour GTA 6 sur la PlayStation 5 Pro",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -715,11 +691,7 @@
    "d": "2026-10-22T15:12:54+00:00",
    "lang": "en",
    "t": "Cyberleek Shares GTA 6 Leak Of Naked Lucia",
-   "u": "https://www.imdb.com/news/ni66062173/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -780,7 +752,7 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
    "t": "Le token CYBERLEEK chute de 40 % alors que le leaker de GTA 6 lance de nouvelles menaces",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
