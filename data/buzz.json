@@ -1,8 +1,46 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-08T20:12:53+01:00",
+  "updated_at": "2026-11-09T00:20:00+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-dualsense-boite-magasins-19-novembre",
+      "title": "GTA 6 : la boîte de la manette DualSense arrive dans les magasins",
+      "summary": "@GTAVI_Countdown montre un premier aperçu officiel de la boîte de la DualSense GTA 6, qui commence à arriver chez les détaillants avant une sortie le 19 novembre. @GTA6France1 relaie la même photo, prise chez Walmart aux États-Unis. La version noire serait exclusive à PS Direct, selon le post.",
+      "url": "https://x.com/GTAVI_Countdown/status/2119548511557497099",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "2026-11-08T21:51:59.000Z",
+      "checked_at": "2026-11-09T00:20:00+01:00",
+      "evidence": "Vues relevées le 2026-11-08T23:04:56+00:00 dans data/x_alertes.json : 64256 vues ; 28 replies, 106 reposts, 1804 likes, 167 bookmarks. Même visuel repris par @GTA6France1 (Walmart, États-Unis). Originaux X non ouverts directement ; image du post HTTP 200. Le post contient des liens d’affiliation, non repris.",
+      "visual": "BOÎTE DUALSENSE",
+      "image": "https://pbs.twimg.com/media/HWolyrhXcAEfO22?format=jpg&name=small",
+      "image_alt": "Boîte de la manette PS5 DualSense édition GTA 6 photographiée en magasin",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "First official look at the GTA 6 DualSense box, as it begins arriving in stores before releasing on November 19th. (via @javisosober)"
+    },
+    {
+      "id": "x-series-tv-cop-show-tjs-musiques",
+      "title": "GTA 6 : deux séries TV du jeu repérées, Cop Show et TJS",
+      "summary": "@gtasix_ relaie des détails trouvés dans le jeu par @nima02l : Cop Show (série policière), TJS (sitcom à plusieurs personnages), quatre génériques de fin pour TJS et 56 morceaux associés aux deux séries. Information de dataminers, non confirmée par Rockstar.",
+      "url": "https://x.com/gtasix_/status/2119535200161943727",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rumeur",
+      "published_at": "2026-11-08T20:59:05.000Z",
+      "checked_at": "2026-11-09T00:20:00+01:00",
+      "evidence": "Vues relevées le 2026-11-08T23:04:56+00:00 dans data/x_alertes.json : 48275 vues ; 16 replies, 112 reposts, 1698 likes, 237 bookmarks. Un seul compte relais observé, source première @nima02l non vérifiée. Image du post HTTP 200.",
+      "visual": "CÔTÉ TÉLÉ",
+      "image": "https://pbs.twimg.com/media/HWoaBriWUAA8PpA?format=jpg&name=360x360",
+      "image_alt": "Visuel de séries TV fictives de GTA 6 relayé sur X",
+      "image_credit": "@gtasix_ sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "New GTA 6 in-game TV show details have been discovered: Cop Show, TJS, four episode outros, 56 pieces of music. (Via @nima02l)"
+    },
     {
       "id": "x-hommage-gta5-synxmf",
       "title": "GTA 6 : un hommage de fan à GTA 5 circule avant le changement d’ère",
@@ -2361,6 +2399,11 @@
       "at": "2026-11-08T20:12:53+01:00",
       "label": "Passage 84 · hommage GTA 5 et filtres anti-spoilers",
       "summary": "Relevés X Mac/serveur concordants du 08/11 à 18:19:06 UTC. Deux sujets ajoutés avec vrais médias HTTP 200 contrôlés visuellement : hommage GTA 5 attribué à synxmf/TT (40 447 vues) et liste préventive anti-spoilers (137 750 vues), sans confirmer les événements évoqués. Genève cinéma (125 vues) et relation Jason/Lucia (13 235) sous le seuil sans second relais ; musique, anniversaire, générique, boîte et préchargement déjà couverts. Originaux X : cache absent/403 ; Instagram Rockstar 429 ; TikTok et Newswire sans texte lisible. Recherche publique et index Newswire consultés : galerie du 5 novembre et préchargement du 3 novembre déjà couverts. Aucun post X ni message à un tiers."
+    },
+    {
+      "at": "2026-11-09T00:20:00+01:00",
+      "label": "Passage 85 · boîte DualSense et séries TV du jeu",
+      "summary": "Relevé X Mac du 08/11 à 23:04 UTC. Deux sujets ajoutés : boîte de la DualSense GTA 6 en magasin (64 256 vues, relayée par @GTA6France1) et séries TV Cop Show/TJS (48 275 vues, un seul relais, statut Rumeur). Merch Selfridges (5 290 vues), préchargement et trophées sous le seuil ou déjà couverts. Originaux X, Instagram, TikTok non consultés (pas de navigateur). Aucun post X ni message à un tiers."
     }
   ],
   "coverage": {
