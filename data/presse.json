@@ -1,13 +1,17 @@
 {
- "maj": "2026-11-08T01:14:18+00:00",
+ "maj": "2026-11-08T01:35:19+00:00",
  "articles": [
   {
    "gn": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9LMmJmNFJlRlBTZ0tDTmw2a21saHJFSVN2RkR2S1RHeTU1SEtIS3lYaE1BcEUxeXFDd3E3VzM1TjNrMUs0QnVER3BEamNNbG93ZEo3NHZSSTJaLXM?oc=5",
    "s": "Gamekyo.com",
    "d": "2026-11-07T23:04:00+00:00",
    "lang": "fr",
-   "t": "GTA 6 : la carte de Leonida gratuite à imprimer le 19/11",
-   "erreur": "HTTP Error 429: Too Many Requests"
+   "t": "Gamekyo : Blog : GTA 6 : la carte de Leonida gratuite à imprimer le 19/11",
+   "u": "https://www.gamekyo.com/blog_article488845.html",
+   "img": "http://www.gamekyo.com/Webmasters/Images/grand-theft-auto-vi_20220730_060731_intro.jpg",
+   "chapeau": "Blog : GTA 6 : la carte de Leonida gratuite à imprimer le 19/11 : Gamekyo is a social video game magazine for the Wii, Nintendo DS, PlayStation 2, PlayStation 3, PSP, Xbox 360 and PC. Blog : GTA 6 : la carte de Leonida gratuite à imprimer le 19/11",
+   "txt": "",
+   "pub": ""
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNV3gtbHo2YmVJWTFXWDFndXV5WUswOFNhRjBEUDhQampmLXhvSTBucVhYZlVWZzFVTDlOdGRXWDVCTEk0dWFJUm13Q2tjQS1tZWdRLUZOODdEY3dfM2ttakZvazhXU29rQ3pRTWlLWjJ4YS0zMWU4NnBVdVIwMXpYb3RoREJCeGJRSnJ3QUlPSHpQQ3VQSndzQno4Y3o4WFVuaGZNUHlDMFEzZFkyN2FEbVR5MDdWd2dmVGV6enFLZWNNbnhBT2pXQ3dqRUNjUS1Mclc2RDhYN01wTzdnUFE5bk5BTlZHcFQwQ1RZeTVscjhBbkNrRVlPNWkyTmlKUmd5UFNfVzVPZFFaQU9aWVdrMzBR?oc=5",
@@ -15,7 +19,15 @@
    "d": "2026-11-07T21:05:05+00:00",
    "lang": "fr",
    "t": "Numéro 1 des ventes avant GTA 6, la PS5 Slim 1 TO la moins chère du web est sur Amazon ce samedi",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNalh2bUtwQ0RiaTJxMGJ2dW9OUXpwamkzcW85VFAwd1J6LUlYcTZhSmVaX3hucFRBVG8zR2pSVTl2WHVOWmNfd3FvVFZjM3NzZG5sQUtZYlJSVVZmTkRLeW8yTlZCXzE0VmZxRks2bTNrR01vYWEzZ1drbjRzOXBvVlJMRUtYMmtld1J5Qm1pWWx0ZGZYMFVSd2xoeDRiYU1zcUxOUU9pQ0dBZDd1Z2l5dmxiZXowb3paV1RBU2l5d3VydHZHSXFZVjVwVWhHSjllb0pOYjdUVjNIWm9yTTBOeGpxbHpKeEp6X2JJWHdMa1R4aTNPVVNIYVRuWTRjS0UxNWpyalNIbjdaQlV1cFBON2FJTHAwNkZGMzBBUw?oc=5",
+   "s": "Ouest-France",
+   "d": "2026-11-07T20:59:02+00:00",
+   "lang": "fr",
+   "t": "Précommande GTA 6 : l’album officiel risque d’être vite en rupture de stock ce dimanche, il va falloir faire vite",
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOUlHVkdHWmVzSHIwZnRsVVgwa3B4UTNlSFFUYWhRVF9iNHE3OGdKMC10bUN4RFhaUXQ5MUJVTlM0M1dOS2Z3VmcybkE1ajRXYk5pSXp1Vi1DN3pUY0RlVlVWRTl6TXdQOGJ2VjV2SERDZ0o1cjY3UjdPSGQ1UkdzVlZEOUZlMXNnZW1ZTzFxYWs0WU42cGxjTEdqNkJ2eFk?oc=5",
@@ -23,7 +35,7 @@
    "d": "2026-11-07T20:57:17+00:00",
    "lang": "fr",
    "t": "Polymarket rapporte que GTA 6 remportera largement le prix du « Jeu de l'année » aux Game Awards 2026",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdEZZcnhuRXJvdkFIR0RiSnEweTJ0UXlNd0U2VnNiYlVMVXpsWkhYZFFYTDA5Wk16VlpCSDYxVWxsV3BSWHZzbXl3UzdQRjhiWWZ4WV90cUppM2FCd3hYbzFESjNCamc1SkhFb1g2NmNUWXJ6TjBMMFFHS1BTOXVFa1lIRXl4NDE4ZUJ5ZC1hQkVwbmk3STR0dm5DMWxzOWktR29jYV8wNnJ2bGNWczVORzFKSXZVTmM?oc=5",
@@ -48,6 +60,18 @@
    "chapeau": "Buses, trains, trams and taxis offer alternatives to driving. RydeMe handles taxi-based fast travel, while Scooter Bros brings your own vehicle to you.",
    "txt": "You do not have to drive yourself everywhere in Grand Theft Auto VI . Bus stops, train stations, trams, taxis and RydeMe offer fast-travel options. Buses and trains also make functioning journeys through Leonida . 1 3\nPublic transport is part of the world rather than just background traffic. During development, Phil Hooker checks that buses arrive on their routes and rides them across Leonida. 3\nBus stops, train stations and trams also provide fast-travel options. 1 The sources establish transport choices, but do not publish a route map, timetable, fare list or the exact interaction for skipping a journey.\nRydeMe is a taxi app with a fast-travel function. You can also have conversations with another passenger during the ride, so the journey can be something to stay with rather than immediately skip. 2\nThe phone apps reference covers RydeMe alongside the other apps. Its purpose is different from Waink, which supplies vehicle-theft information, or Scooter Bros, which retrieves a personal vehicle.\nScooter Bros is a delivery service for a vehicle you already have. A driver brings it to your location for a fee, then leaves on a scooter carried along for the trip. 3\nThe driver brings the car to you, saving you the trip to collect it. The vehicle theft and storage reference explains how personal vehicles, registration and recovery fit together.\nFor a trip without driving, buses, trains and taxis provide different ways to move through the world. To get back behind the wheel of your own car, use the separate delivery option.\nDelivery involves a short wait. Leaving a getaway car nearby before a robbery avoids relying on an app call once the hold-up is underway. 3\nTGG, Rockstar North preview notes and pinned continuation, captured October 9, 2026.\nMatt Purslow and Simon Cardy, “69 New GTA 6 Gameplay Details We Saw at Rockstar HQ,” IGN, August 2026.\nSimon Parkin, “Grand Theft Auto VI exclusive – The state that never sleeps,” Edge, October 29, 2026.",
    "pub": ""
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZVpzdnVkUkJ5TUVrallpdFpsVHN0bDVnTnJQNHhsc3JROURjMjFWWXBzWmZDVUZkZ2NxTHdfRGNtdjlyTFNHT21zRWhSeGxOS2lSQkIwX2dvQmJoZzV2SUpaSHlzQkNlX1NPVDFxOXFoMlowN2l5NkhWRWp4T0FLd3c5ZzdIaW9kU0VuMDhjMXRNWHhPSjZtQ3R4VVVSQ2Z0VS1JVURQak1PZlVnZVBGcjN1WjY?oc=5",
+   "s": "La Crème Du Gaming",
+   "d": "2026-11-07T20:30:51+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : une mauvaise surprise se confirme pour les joueurs",
+   "u": "https://www.lacremedugaming.fr/jeux/gta/gta-6/gta-6-une-mauvaise-surprise-se-confirme-pour-les-joueurs-233869.html",
+   "img": "https://sf.lacremedugaming.fr/wp-content/uploads/creme-gaming/2026/11/gta-6-une-mauvaise-surprise-se-confirme-pour-les-joueurs-1200x660.jpg",
+   "chapeau": "Rituel brisé pour les fans de GTA 6 : l’édition physique ne ressemble plus vraiment à ce que connaissaient les joueurs de Vice City ou San Andreas. Carte papier, poster payant, contenu de la boîte… une décision de Rockstar fait déjà grincer des dents.",
+   "txt": "Rituel brisé pour les fans de GTA 6 : l’édition physique ne ressemble plus vraiment à ce que connaissaient les joueurs de Vice City ou San Andreas. Carte papier, poster payant, contenu de la boîte… une décision de Rockstar fait déjà grincer des dents.\nOuvrir un nouvel épisode de Grand Theft Auto et déplier la grande carte de la ville, c’était devenu un rite pour les fans. De GTA III à GTA V , les boîtes de Rockstar Games incluaient presque toujours une carte papier . Pour GTA 6 , beaucoup espéraient que la tradition survive au tout dématérialisé. Les dernières annonces confirment au contraire une coupure nette avec le passé.\nLe 3 novembre 2026, sur son Rockstar Newswire , l’éditeur a officialisé que l’ édition physique standard de GTA 6 sur PS5 et Xbox Series ne contiendra aucune carte papier de Leonida. À la place, la carte et l’affiche de jaquette seront proposées en téléchargement gratuit sur le site de Rockstar Games à partir du 19 novembre, tandis qu’un poster payant prendra le relais pour le format physique. Une mauvaise surprise qui se confirme pour les joueurs attachés au support matériel.\nDepuis plus de vingt ans, chaque grand épisode de Grand Theft Auto offrait une carte pliée de la ville dans sa boîte. Pour GTA 6 , Rockstar Games change de recette : la map de Leonida et l’affiche officielle seront seulement disponibles en téléchargement gratuit sur son site, le 19 novembre. Côté physique, l’éditeur prépare un poster recto verso avec jaquette d’un côté et carte complète de Leonida de l’autre, vendu 0,99 $ (environ 0,99 €) sur le Rockstar Games Store ou offert avec tout achat de produits dérivés. Un prix symbolique qui oriente surtout les fans vers la boutique de goodies.\nAutre détail qui fâche, l’édition dite « physique » de GTA 6 sur PS5 et Xbox Series adopte un format « code-in-a-box » : un simple boîtier plastique contenant un code de téléchargement, sans disque Blu-ray ni carte de Leonida listée au contenu. Plusieurs médias spécialisés parlent déjà d’une « boîte vide » vendue au prix fort, alors même que le jeu peut dépasser les 200 Go une fois installé . Le préchargement doit ouvrir le 10 novembre, la récupération des boîtes en magasin est prévue le 12, puis la sortie mondiale suivra le 19 novembre. En pratique, même ceux qui achètent la boîte devront donc tout télécharger, sans bénéficier de la traditionnelle carte papier qui donnait autrefois un vrai supplément d’âme à l’objet.\nBonne nouvelle, la carte de Leonida n’est pas réservée à ceux qui paieront. Dès le 19 novembre, tous les joueurs pourront télécharger gratuitement la map et l’affiche de GTA 6 sur le site officiel de Rockstar Games , puis les imprimer à la maison. Ceux qui veulent un produit fini devront passer par le Rockstar Games Store , où un poster recto verso jaquette + carte sera proposé à 0,99 $ (environ 0,99 €), hors frais de port. Comme l’a relevé Notebookcheck, des chaînes allemandes comme MediaMarkt et Saturn offriront aussi un poster « Welcome to Vice City » aux acheteurs, mais il ne s’agit pas d’une carte et rien n’indique une offre équivalente en France. Concrètement, pour un joueur français qui choisit la boîte, la situation est claire : aucune map dans le boîtier, seulement du contenu digital ou des posters additionnels à commander.",
+   "pub": "2026-11-07T20:30:51+00:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOVgwN05XUWx1TnZpUUs4NmRtRlRaZmpFdHVnTUtGbVRqMDJXMkZwY0lMZkd6S3hVOTBJMVRQMm16Y21GcVkwMXFJREViTHJfZWpRS2x6SU1KZGRjSmZCTExmUkdYcHROUmdKcVZEdWNYY1AtRXZBMlVYQnQxQkRxTUo0bjVDbFd0UndUbFZjbjB1T1FVSlJRbE54ZlZxNUVPMktLSE1RTWNlVS1D?oc=5",
@@ -140,7 +164,11 @@
    "d": "2026-11-07T19:08:19+00:00",
    "lang": "fr",
    "t": "GTA 6 sort le 19 novembre : 79,99 €, préchargement le 10 et faux sites",
-   "erreur": "429 : passage suivant"
+   "u": "https://www.mediaterranee.com/0762026-gta-6-sort-le-19-novembre-7999-eu-prechargement-le-10-et-faux-sites.html",
+   "img": "https://www.mediaterranee.com/sites/default/files/styles/partage_1200/public/field/image/2026-11/cc3b57b95368-20261107-200820.jpg?itok=UfnrBSFO",
+   "chapeau": "GTA 6 sort le 19 novembre sur PS5 et Xbox Series : 79,99 € ou 99,99 €, préchargement dès le 10, pas de version PC. Les faux sites et fausses démos à éviter.",
+   "txt": "",
+   "pub": "2026-11-07T20:08:19+0100"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTVRKVXZiYkdPY1RReDZDRFRNTlhXV2JqcGNqMEZvb0xCRmpqT3I5c0NyTEc4dmlVSVJiNm9ONDA4Nm1SVTdUMkpqZEFqYmxPT0tIWXJxREd0NGdUZGVLbGN5OG5FTkpQeXVnSHZVbnl3TzVDZmZrMnhiSEV0M2xpNg?oc=5",
@@ -160,7 +188,7 @@
    "d": "2026-11-07T18:30:36+00:00",
    "lang": "en",
    "t": "Celebrate GTA 6 Early With Rockstar’s $25 Pet Essential",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOd19jTzUxX0ZxVGlTSVhvblhwTDgtMU1PNjRZbndvSmxEZFhjU0E2UG5BXzFLWjFRSFJlMnRYN0RiLW4zcXk3Umtsb3hnS0lTV0Jtd3YxdEliNFNUT2dWQnBJNVB0LVdiRGwxR0xWYW0tREhQaDdTR0laQWdmZEkzVnhhU1plSEdMTWVPV2hjcHVFQXdGbHFCZEpHb0I1ZTQ?oc=5",
@@ -192,7 +220,19 @@
    "d": "2026-11-07T17:48:13+00:00",
    "lang": "en",
    "t": "Greensboro Police Are Begging Rockstar to Release ‘GTA 6’ for One Unexpected Reason",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPRTk2dkl4eHlhR3dWRjBiVXl1Mjh0bjRjWUppQzR5XzN3cEVsR2RSR1g5aXBpYWQzb1E3OUFGWEVYb1E1YVAyelpsR1AxYm1ialEtOWdnVDVLY2lRcGd6U3dvQnNZNUJYMUlMTE9xZmlNc05hWjVnT01NMDFBSzZCbw?oc=5",
+   "s": "AOL.com",
+   "d": "2026-11-07T17:48:13+00:00",
+   "lang": "en",
+   "t": "Greensboro Police Want You to Play GTA 6 so They Don't Have to Deal With You - AOL",
+   "u": "https://www.aol.com/articles/greensboro-police-want-play-gta-174813000.html",
+   "img": "https://hermes.media.static.aol.com/media/2026/11/07/0ced8579-1243-3696-a2eb-93eaada5bdd4/a15c750a-ccda-4e73-aa1c-f6e543273c4a.jpg",
+   "chapeau": "We’re officially less than two weeks away from the release of ‘Grand Theft Auto 6,’ and one police department believes it will actually help stop crime.",
+   "txt": "0 (Rockstar Games) We are officially 12 days away from the release of Grand Theft Auto 6 , which is widely estimated to be the most anticipated entertainment launch in history. So much so that some employers have begun receiving a notable number of time-off requests, and now the Greensboro Police Department in Greensboro, NC, is also begging for the release of the game, but for a different reason.\nIn a post on X by the official Greensboro Police Department account, the precinct cannot wait for the release of the game, so Greensboro citizens stay home. “ GTA 6 needs to hurry up and get here so y’all can stay at home and let us catch a break,” reads the post.\nWhile this is clearly a joke, the Greensboro Police Department seems to think the release of the game may actually result in less crime, at least for the launch day or maybe the launch week of the game.\nAccording to the last weekly crime report by the Greensboro Police Department, crime is inconsistent. There was an increase in some major crimes, such as rape and aggravated assault, while there was a decrease in kidnapping and human trafficking related crimes.\nReactions to the joke have been mostly positive, with many citizens and X users finding the humorous post good fun. Mike Near Tampa wrote, “This is an all-time GOATed law enforcement post.”\nOther users are joking about how GTA taught them how to commit crimes, while some are noting the irony of a police force also counting down the days until GTA 6 releases.\nIt seems like most of the world is on the edge, waiting for the release of the game, and hopefully fans get time off from work to play the game. It seems, at least in Greensboro, the police are gladly welcoming something to keep citizens entertained and safe.\nGrand Theft Auto 6 releases on November 19 for PlayStation 5 and Xbox Series X/S.\nThis story was originally published by Men's Journal on Nov 7, 2026, where it first appeared in the Entertainment section. Add Men's Journal as a Preferred Source by clicking here.",
+   "pub": ""
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSnNIVm1MT0RNY0FxMGpjeWctME1xdXBmVGpXMi1oLWEwUWpBaFNTeGdOaGNwTjVoUzhwZXpPTDR3a2RBRUhTWjF5cjZxN0t4UWotWkJrTEhjUXdIZzNGQXMzU1U5cmRVRDFCUDlGOXpOLUZEU1A3QzQ4aE5Iazc4cXRlVzYtVThWLWtncmRIeC1RMkVFazlv?oc=5",
@@ -255,28 +295,24 @@
    "pub": "2026-11-07T17:00:00+00:00"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5BZU9icVhBMXZTS1hzeFhYWTRTbG9VY01LaFd0Y2ZnT0hsYWxkMDNVUDZzbkJreWYzVW5CRXFJdGttSzREcE9Bd1hwZ0Utd1NESVI2dWhXSkVxUVRiV2t3dzgybWE4R1NBc05xZ2dBeGhIQm8?oc=5",
-   "s": "Insider Gaming",
-   "d": "2026-11-07T16:59:42+00:00",
-   "lang": "en",
-   "t": "89% of People Think GTA 6 Will Win Game of the Year at The Game Awards",
-   "erreur": "429 : passage suivant"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOb2tNTE9UZHB2cVNwVlh2LWlneXNESi1XMkktWkx2a19tZFNnUURyNDBLajFQclFPMFhIQnhRc3YtVDlDcVJjZEpWX3hMQWNfUE8zVWhnbDRwVEpodnZIeDVnR3hBMHNtNHNBRlQyQ2N1emowUU40emJ4V05WZk5fbzctWGNPejZRd1hwWGxUTm8tN090dTVCMkxoaXhZNjI0SzktTzZfUTJicFI0MkhhMGEwaUJWRjktcEE?oc=5",
    "s": "GameGPU",
    "d": "2026-11-07T16:46:53+00:00",
    "lang": "fr",
    "t": "Un fan de GTA 6 a aménagé une salle de jeux avec une PS5 Pro et un écran OLED 4K Samsung S90F de 77 pouces.",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNSTllOWRuVTY4WjVaakp3eHMwa3NaUXRYd0wwM1dIdVZsMTZUcC1EZElVSTJIcjNRVnNjeXhKTGlwdXV0ZDVIeWZTQUhIRHVMd1dBM2E0TzJXcEVSandNaFFSbmlQYm8tdFI2OFVZU19kOUc5dWtrS1dMNXdwMHpZaW1DRFB5d25UMXRDZWtVRlp4LTN1Mkowb3hkcHN1Nl9zRzM0YXVlSk9IZ0RBenZPX3RQTkZzZjJVSnZMd3dKRlk2YjR2dzFWZHQ5eEIwUVRwcUpsZUthbm8waTQ?oc=5",
    "s": "RTBF",
    "d": "2026-11-07T16:03:44+00:00",
    "lang": "fr",
-   "t": "Abandonner son chat ou son couple : que seriez-vous prêt à sacrifier pour jouer à GTA 6 une semaine plus tôt",
-   "erreur": "429 : passage suivant"
+   "t": "Abandonner son chat ou son couple : que seriez-vous prêt à sacrifier pour jouer à GTA 6 une semaine plus tôt ? - RTBF Actus",
+   "u": "https://www.rtbf.be/article/abandonner-son-chat-ou-son-couple-que-seriez-vous-pret-a-sacrifier-pour-jouer-a-gta-6-une-semaine-plus-tot-11811232",
+   "img": "https://static-content.rtbf.be/article/image/1920x1080/7/c/1/5e3e085cb925c37b86a6c87199f8ad7a.jpg",
+   "chapeau": "GTA 6 constitue l’un des plus grands événements culturels du 21e siècle. La longue attente depuis le dernier opus,...",
+   "txt": "",
+   "pub": ""
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOT05iUUxnZy03bkl5YmxYZ2lHejNOYkNuanFRdDZwcEZiSzM2UGphWW5mTEN3M0t2RnROdmtTSnRBWm9FOGFmU2J2S2dfSUQ3N2hqTWxsNE9jM1JQWjdUSDV0a0lodXdkLV9RSElvZEFiZXdpN2hJREdrX3FrOFdLTw?oc=5",
@@ -334,7 +370,7 @@
    "d": "2026-11-07T15:08:45+00:00",
    "lang": "fr",
    "t": "NBA : cette équipe dévoile son nouveau maillot inspiré de GTA VI",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdUdBeEJDalM3aE5jTlo1MWtQcWZnQThBX3A1UFdUY1VBRzZwVEpOMTRoSzZJTER0bUFYRjFmMjRTRzZKbzM3Tnp3TThfSk16cEU2Zm9SQ0l3UERWcmtQY1JKNVIwWkZ5Z0Y5SGdpM1BEQ1FzWFdUNUZBbHVvWmtpQ09vbDlNdjB6anNEWllUWnJiRFhuVlNXZ2ZzZnNaaHlzanc?oc=5",
@@ -361,22 +397,6 @@
    "txt": "By James Lucas Published Nov 7, 2026, 9:38 AM EST James Lucas is the Lead Photo Editor at TheGamer and has worked in professional journalism since 2018. A Newcastle University graduate with a degree in Journalism, Media, and Culture, they have written hundreds of guides, news stories, and original reports, with bylines in IGN, NME, GaymingMag, and VG247, sourcing interviews with studio heads, legendary industry figures, prominent actors, and more. You can reach them at James.t@thegamer.com Sign in to your TheGamer account German retail worker u/IseeIceTea has shared photos of a physical GTA 6 copy to Reddit, revealing a new Lucia screenshot and a few interesting details. Most notably, that the game will have \"online functionality\" and \"in-game purchases.\"\nThis doesn't mean that GTA Online will launch day and date, as Rockstar have already confirmed that the game is a \"single-player experience,\" but combined with in-game purchases, this could be hinting at an online store with microtransactions—potentially through the faux internet. But that's just speculation.\nBloomberg reporter Jason Schreier previously said that Rockstar won't talk about GTA Online \"any time soon.\"\nOnline functionality simply means features that require an internet connection, not strictly multiplayer, which could be as elaborate as an in-game store or as mundane as Social Club integration, cloud-based saves, and an online leaderboard. Translating the box doesn't give us any details, so right now it's anyone's guess.\nRockstar Rockstar previously confirmed that GTA 6 won't launch with a physical map like with past games, and that you'll need to buy or download one separately. Still, commenters were curious, and asked u/IseeIceTea what exactly was inside.\n\"I don't think so,\" they said of the map. \"I work in retail so I can't open it. I can't hear anything when I shake it and the cover won't let light through from a flashlight. There could be a map inside but I can't say for sure.\"\nGerman electronics store MediaMarkt, which has over 1,000 locations across Europe, also shared a photo of the GTA 6 physical edition on its Instagram. It didn't show the back of the box or its contents, but it did showcase a poster of Lucia that appears to come with the code .\nSo, from the box alone, we have a new Lucia screenshot, a first look at the accompanying poster, and confirmation of \"online functionality\" and \"in-game purchases,\" sending the community speculating on what exactly that means for a single-player game.\nThere's a lot to unpack, but we'll find out soon enough what it all means when GTA 6 launches in under two weeks on November 19.\nGrand Theft Auto 6 Like Follow Followed Action Adventure Systems OpenCritic Reviews Released November 19, 2026 ESRB Rating Pending - Likely Mature 17+ Developer(s) Rockstar Games Publisher(s) Rockstar Games 8 Images Close Where to play Close WHERE TO PLAY DIGITAL",
    "pub": "2026-11-07T14:38:10Z",
    "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYlRleV9DdEI5OVdVNThpTnU5YTZRZFRSQzNaTXdRQTFzUDN2RnlOY1RJWmoxeVZJakZMYnVZNFVEelhTRzM0R2s4bWYxWllwZnIxWS1KRXV2Zzlpd2E2VXZLa1hzUDJWdUtqdC1BcmZwZWpGV2E2bnczMmp0TGc3Z2dNUFdDOXZqeDV0dllOVEltMmxGRW13TDlhQUZkS2JOZDBiMA?oc=5",
-   "s": "JVMag",
-   "d": "2026-11-07T14:15:13+00:00",
-   "lang": "fr",
-   "t": "GTA 6 déjà distribué en Allemagne, un poster officiel dans la boite du jeu !",
-   "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQVU4TlI1S21aUkJTNkZOWVllckN6MzJTalRla1BzNTdlR3VVdmNkX2tvNDZ1cHA0ejY4RXFxYU1KSV9LZE11V1JJMjJ2djlJZDduUVhCeHdiV3JlTFVwb2xUQm1tRlZwR1RaRnFVZlpHcFlOVkFiYkVRcVdUQXlMRTBFUzczV1BVMHFuWXdZeGpGd0I1MU4xV3lsOW9ialJnWE5fT3p3d0daNXZ5ZElMandxWnRTeEFtVzltWg?oc=5",
-   "s": "GameGPU",
-   "d": "2026-11-07T14:13:50+00:00",
-   "lang": "fr",
-   "t": "La première boîte physique de Grand Theft Auto VI pour PlayStation 5 a été aperçue en Allemagne.",
-   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPeUc2ODRoWVpvQU5NSi1RVTk0WVpvb28zQTRYcUpfRTlmeGZNdS1XaGF6cm81MmZzc3hkbndNTG94bEVBY2ZXRkxsUWM2dlFfLXA0dzhnd0tmZzZCZ0VSTUFHOWlxRGNKREsybmV5V1h4OXpmZ1ZpaXQ4Y3dTdU9ZLUZSbw?oc=5",
@@ -509,21 +529,12 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBaMm9PV1djaTBiTlg2bDQ5dXdZOFJZUG0tLWE5dXJxbmdyaEt5bFA0U193ZlRCRS0tMUJma2x1NVJZd3V6dWhpU0JFcHVKY1dzb0hTRw?oc=5",
-   "s": "Binance",
-   "d": "2026-11-06T22:41:00+00:00",
-   "lang": "en",
-   "t": "CyberLeek Price (CYBERLEEK/USD) Today | Live Price, Market Cap & Chart",
-   "erreur": "429 : passage suivant",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSks1OXZ5dk9YRVpfSVBnSmRralBSWmV5c0szUWVwSUVzdXIyN3VfYUlGN1JILTlobHJNUXREQXVvc2R3cjh1RldiUlFxR3lpbUV0QnB3ck1WaEt5eXpBTEtaX1NNemNPeWZ0ZlozVVRkVDQydnIzdGtSMzg3cDJpYkdLTkpqcm4yTjNncEp2Mnh0cDZpcEdjRDI1dw?oc=5",
    "s": "EGW.News",
    "d": "2026-11-06T21:05:26+00:00",
    "lang": "en",
    "t": "GTA 6 New Leak - Is It Real or Is It AI-Fake?",
-   "erreur": "429 : passage suivant",
+   "erreur": "HTTP Error 403: Forbidden",
    "cyberleek": true
   },
   {
@@ -532,7 +543,7 @@
    "d": "2026-11-06T21:05:26+00:00",
    "lang": "fr",
    "t": "Les joueurs se demandent si la nouvelle fuite supposée du gameplay de GTA 6 est un fake ou pas",
-   "erreur": "429 : passage suivant",
+   "erreur": "HTTP Error 403: Forbidden",
    "cyberleek": true
   },
   {
@@ -606,7 +617,7 @@
    "d": "2026-11-04T14:30:23+00:00",
    "lang": "fr",
    "t": "Une fuite confirme des améliorations pour GTA 6 sur la PlayStation 5 Pro",
-   "erreur": "429 : passage suivant",
+   "erreur": "HTTP Error 403: Forbidden",
    "cyberleek": true
   },
   {
@@ -706,7 +717,11 @@
    "d": "2026-10-22T15:12:54+00:00",
    "lang": "en",
    "t": "Cyberleek Shares GTA 6 Leak Of Naked Lucia",
-   "erreur": "429 : passage suivant",
+   "u": "https://www.imdb.com/news/ni66062173/",
+   "img": "",
+   "chapeau": "",
+   "txt": "",
+   "pub": "",
    "cyberleek": true
   },
   {
@@ -767,7 +782,7 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
    "t": "Le token CYBERLEEK chute de 40 % alors que le leaker de GTA 6 lance de nouvelles menaces",
-   "erreur": "429 : passage suivant",
+   "erreur": "HTTP Error 403: Forbidden",
    "cyberleek": true
   },
   {
@@ -807,6 +822,19 @@
    "chapeau": "Cyberleek annonce la fin de ses fuites de GTA 6 après l’échec de son objectif financier. Le groupe renonce à publier sa prétendue version complète.",
    "txt": "Cyberleek annonce l’arrêt de sa campagne contre Rockstar Games et Take-Two Interactive. Dans un communiqué en trois parties publié le 14 octobre, intitulé “ La fin de la route “, le groupe anonyme affirme abandonner la publication d’une soit disant version complète et jouable de GTA 6.\nCette décision n’est pas une surprise puisqu’elle a été conditionnée à l’échec d’une opération liée à une cryptomonnaie. Le groupe voulait porter sa capitalisation à 30 millions de dollars , un seuil qui n’a pas été atteint.\nCyberleek avait conditionné la publication de l’intégralité de la campagne solo à cette valorisation. Il avait également proposé de renoncer à la diffusion si Take-Two acceptait de commercialiser le jeu sur disques physiques et présentait des excuses publiques.\nPour expliquer cette marche arrière, le groupe met en avant les difficultés d’une mise en ligne anonyme de plus de 200 Go de données. Il estime que les risques associés ne se justifient pas sans avoir atteint son objectif financier.\nEnfin le groupe assure aussi détenir la fin de GTA 6, tout en affirmant avoir choisi de ne pas la dévoiler. Selon son communiqué, certains extraits récemment diffusés proviendraient des missions finales, mais auraient été sélectionnés pour éviter les révélations importantes sur l’intrigue.\nMalgré l’annonce de son retrait, Cyberleek conserve un moyen de pression. Il prend la forme d’un prétendu “ interrupteur de l’homme mort “, censé déclencher la publication de spoilers si le groupe était ciblé.\nAucune preuve de l’existence de ce dispositif n’a été fournie.\nMAJ : GTA 6 : Cyberleek fait volte-face et propose sa prétendue build pour 40 dollars",
    "pub": "2026-10-15T09:09:22+00:00",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPd3laQ1VxeHJmZk80d21PZjB3YkRaWGpuVVJlSGE4UERCa0ZJeGNQWGdMaUFiNlIwVWpTcW5xZWI5MnlVdWZNWThNVmpjYlEtQTc5NjlTbVlyaFVWQ2l4STdTZU9Jc29iUHdLOGxuTHMxeU1mb3RUMDhtUXgwQnE1U2pTaGVUUFBHaHVRM2VWSTJRWFhFbUZ5amtnajdPc3EyZGc?oc=5",
+   "s": "PC Gamer",
+   "d": "2026-10-15T07:00:00+00:00",
+   "lang": "en",
+   "t": "Who is Cyberleek? What we know about the GTA 6 leaker",
+   "u": "https://www.pcgamer.com/games/grand-theft-auto/who-is-cyberleek-what-we-know-about-the-gta-6-leaker/",
+   "img": "https://cdn.mos.cms.futurecdn.net/BjkLshfWp7coEXobgXaMD3-1396-80.png",
+   "chapeau": "Someone is posting Grand Theft Auto 6 footage under the name",
+   "txt": "(Image credit: Cyberleek) Copy link Facebook X Reddit Pinterest Flipboard Email Share this article 23 Join the conversation Follow us Add us as a preferred source on Google Newsletter Subscribe to our newsletter Recent updates Update (October 2026) : After a brief hiatus, Cyberleek reemerged with new clips in October ( more nudity ), and then threatened to release a build of GTA 6 unless Take-Two complied with their demand for \"physical disks and a public apology.\" A few days later, the leaker said they wouldn't leak GTA 6's ending if Take-Two left them alone.\nOn August 18, an unidentified person or group going by the name \"Cyberleek\" began sharing what appeared to be Grand Theft Auto 6 gameplay clips on the internet.\nThe internet was naturally skeptical, but the footage was hard to fault: It looked authentic, showing mundane GTA 6 gameplay featuring its male protagonist, Jason. In one clip the player shot a basketball outside of the same house we've seen in the trailers, and in another he did some typical GTA random-civilian-murdering.\nA day later, Cyberleek dropped two more videos , both of which also looked legit. At the same time, the clips were being stricken from social media on copyright grounds—the only public response from Take-Two and Rockstar so far.\nThe fifth video Cyberleek released ended with a twist: the player writing the word \"LEEK\" into the side of a building with bullet holes. These are not, it turns out, clips taken by GTA 6 testers and found on an unsecured server, as many assumed. Cyberleek has (or had) access to a build of GTA 6 , or a portion of it.\nWe don't know exactly how Cyberleek is getting their clips. The footage of them shooting \"LEEK\" into a wall indicates they have or had access to a playable build, but it is not necessarily the full game. It's notable that GTA 6's other protagonist, Lucia, has not shown up in the clips.\nIt does seem that these clips are from a relatively recent build, however. In one of the clips, the in-game radio is playing \"Sports Car\" by Tate McRae, which released in January 2025.\nKeep up to date with the most important stories and the best deals, as picked by the PC Gamer team.\nCyberleek has made common consumer rights complaints their justification for the leaks: \"Publishers sell licenses and call them purchases. They ship unfinished games and call them living services. They lock content on discs and call it DLC. They kill games and keep the money. Every year anti-consumerism tightens its grip, and every year gamers get less for what they pay.\"\nAt a glance, Cyberleek's complaints seem typical, but two of the three demands they've put forward strike me as slightly strange choices.\nThe demands are: no more digital preorders, no more selling DLC already contained in the base game files, and mandatory \"offline fallback states\" for the singleplayer components of games.\nThe third demand is the most expected, and is similar though not identical to the demand of the Stop Killing Games movement (which has disavowed the leaker ).\nThe other two, however, don't seem like the kind of core issues most people would choose if they were putting forward their three biggest gripes about the games industry in 2026.\nOn-disc DLC—where add-on content is included in the base game's files, but inaccessible without paying extra—was a big controversy around 10-15 years ago, but is much less relevant in today's mostly discless world.\nThe complaint that preorders don't really mean anything when you're not preordering an actual physical disc is also valid, but seems like a roundabout way to complain about the heart of the issue: The end of physical media, which has been a hot button topic following Sony's announcement that it will cease disc production .\nI'm not sure you can rally a movement behind ending digital preorder bonuses and preloading: GTA 6 itself has already enjoyed an \"unprecedented\" number of preorders . You can definitely rally a movement behind seeing more GTA 6 leaks, though.\nThe leaker is promoting the $Cyberleek token alongside the leaks—the market cap is $1.1M at the time of writing—and claims that the funds will go toward \"a secret project.\"\nFor now, the tokens are being used to vote in polls that determine the next clip to be released. The most recent clip , a flyover of Vice City, was the winner of a vote.\nThe leaks have been dropping at around 9 am my time, in California, except for the most recent one which was posted in the vicinity of 2:30 am Pacific.\nThere's a g",
+   "pub": "2026-08-20T21:09:46Z",
    "cyberleek": true
   }
  ]
