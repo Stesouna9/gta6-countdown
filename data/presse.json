@@ -1,13 +1,13 @@
 {
- "maj": "2026-11-08T07:22:49+00:00",
+ "maj": "2026-11-08T07:43:02+00:00",
  "articles": [
   {
-   "gn": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOZnZzYjFNb01JdjhiQ3N4Uk9XUUVTUUNXb0tGYnZaVmRhbEJ0X2RuQXNWVDJ4SnNDR0pob3k5ZGt0LXhmRzM4WkUwMjRaR2M2TVdva29JeFdBbDcycmY2X1g0WG1COGdSREhHTEM2cUhESFY0OExfY1ptVHFUV1VCT3FObW5zV0Fzc0ktWl9XMVowTW9tM1A4dmRrSFg3eG5uQS1LdEgxTzlGLXVkTUxtTDVTaWpuVFhwZWVoMHZYSlVRcTBpM0FvNDh2ZVVNQkJUeUUzSWxFbzhkZw?oc=5",
-   "s": "Paris Match",
-   "d": "2026-11-08T07:19:30+00:00",
-   "lang": "fr",
-   "t": "« Donald Trump s’en fiche. Il est opportuniste et s’empare des trucs à la mode » : la satire de « GTA 6 » peut-elle choquer ?",
-   "erreur": "HTTP Error 429: Too Many Requests"
+   "gn": "https://news.google.com/rss/articles/CBMif0FVX3lxTE83cXdvVHZ2cmptLTJ4NlA3RVVXeHh0U1U1MUdob3JEei1acGFkTlprYnNsNHhEc1h3aVIwd0MzdTF3SlJET0xxd1U2OVFONi1aR1VFX1hhdDFJOHJrd0hfMFFMMjEtc29LR19iOU5oczZDWFhuOGxxWWVjY25ZS2s?oc=5",
+   "s": "Insider Gaming",
+   "d": "2026-11-08T07:40:16+00:00",
+   "lang": "en",
+   "t": "Grand Theft Auto 6 Will Have 55 Trophies/Achievements",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1iYzFZRUtxNlRVeUkzZm1rdEVYNUl4aXhNcVRqV0dNMVFFOE53UGktSkJWeW5TYzZhd1M1Y2pzTG9Hc01zZTB2LUh1QVRaaS1wek5HdGNMczhzRjZ6?oc=5",
@@ -15,7 +15,7 @@
    "d": "2026-11-08T07:00:00+00:00",
    "lang": "fr",
    "t": "Quelle télé pour jouer à GTA 6 sur PS5 et PS5 Pro ? Trois modèles avant le Black Friday",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 429: Too Many Requests"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOdUEwS2dCMnRGUlJlQ0dBZmUtaDJJQXp2aW82UVFFblQ3YW4yQ25VVEs0Wk9iWDlvcVBjQ0NzSjFZWW02LS0xYWJJWnB0bWJyNms0czcteWY4S0c5czhEb2lhZEVNTzdjUTVLSnpFcWotNVNUOXRHZ0EtTGJ2ZzFoMGMtTmJ5dHAtZkJFWnM1QUlUOUxxZ3JLVVo2V0VLb3dSamN6RU9mRUloajFlakhBNzktbUxjekpKVmwzaWN4M0dhdUJlMGhMWTlxV0ZibWwtNEtvSWM1WFQ4bUtycG45TzJqSVRETnpYaXNv?oc=5",
@@ -182,6 +182,14 @@
    "erreur": "429 : passage suivant"
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNalh2bUtwQ0RiaTJxMGJ2dW9OUXpwamkzcW85VFAwd1J6LUlYcTZhSmVaX3hucFRBVG8zR2pSVTl2WHVOWmNfd3FvVFZjM3NzZG5sQUtZYlJSVVZmTkRLeW8yTlZCXzE0VmZxRks2bTNrR01vYWEzZ1drbjRzOXBvVlJMRUtYMmtld1J5Qm1pWWx0ZGZYMFVSd2xoeDRiYU1zcUxOUU9pQ0dBZDd1Z2l5dmxiZXowb3paV1RBU2l5d3VydHZHSXFZVjVwVWhHSjllb0pOYjdUVjNIWm9yTTBOeGpxbHpKeEp6X2JJWHdMa1R4aTNPVVNIYVRuWTRjS0UxNWpyalNIbjdaQlV1cFBON2FJTHAwNkZGMzBBUw?oc=5",
+   "s": "Ouest-France",
+   "d": "2026-11-07T20:59:02+00:00",
+   "lang": "fr",
+   "t": "Précommande GTA 6 : l’album officiel risque d’être vite en rupture de stock ce dimanche, il va falloir faire vite",
+   "erreur": "429 : passage suivant"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOUlHVkdHWmVzSHIwZnRsVVgwa3B4UTNlSFFUYWhRVF9iNHE3OGdKMC10bUN4RFhaUXQ5MUJVTlM0M1dOS2Z3VmcybkE1ajRXYk5pSXp1Vi1DN3pUY0RlVlVWRTl6TXdQOGJ2VjV2SERDZ0o1cjY3UjdPSGQ1UkdzVlZEOUZlMXNnZW1ZTzFxYWs0WU42cGxjTEdqNkJ2eFk?oc=5",
    "s": "EGW.News",
    "d": "2026-11-07T20:57:17+00:00",
@@ -321,18 +329,6 @@
    "lang": "en",
    "t": "Celebrate GTA 6 Early With Rockstar’s $25 Pet Essential",
    "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOEhiYmZKeEc5RFZkRXFGYWVOUXV6ekZxc1VCQUV6OWpLcGpSRWR0dHd2ZEdveUZtQkR6YVNKQWpwQmdrOEdjQ0xMdmNzTkVhQmlLbkRCOVV1eE9PMWJpal9kazJ6UU93R28tZ2FrVmxXZTZBektiZ2JIaU1wNnlZaEZLNEdqOEh1S0xIWEFDRDA?oc=5",
-   "s": "Yahoo",
-   "d": "2026-11-07T18:30:36+00:00",
-   "lang": "en",
-   "t": "Celebrate GTA 6 Early With Rockstar's $25 Pet Essential",
-   "u": "https://www.yahoo.com/lifestyle/articles/celebrate-gta-6-early-rockstars-183036274.html",
-   "img": "https://s.yimg.com/lo/mysterio/api/4c56bafc40587bce7c2c82d0eb9f7da2d547f68ef13637393cfd65eafb35dc25/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fparade_pets_articles_328%2F2e130a4cfd79330d28e5aef338cca682.jpg",
-   "chapeau": "An homage to man's best video game friend.",
-   "txt": "Parade Pets and Yahoo may earn commission from links in this article.\nThe anticipation continues to build around the upcoming release of Rockstar Games' newest Grand Theft Auto title, GTA 6 . And for fans of the franchise, both old and new, there simply aren't enough ways to quell the excitement surrounding what is already shaping up to be the most talked-about release in modern gaming.\nIf you're a pet parent looking for a fun way to celebrate the franchise early, Rockstar has just the thing to pay homage to GTA 5 while you wait for GTA 6: the Chop Leash and Collar . Modeled after the very same leash and collar Lamar uses for his Rottweiler , Chop, in Los Santos, this stylish set is the perfect memento to bring along as you and your pup get ready to explore Vice City.\n🐶 SIGN UP to get \"pawsitivity\" delivered right to your inbox with inspiring & entertaining stories about our furry & feathered friends 🐾🐾\nMore than 13 years after its release, GTA 5 is still heavily played by gamers to this day. And while we're all looking forward to entering Vice City in all its modern glory, we first have to endure a few heartbreaks, like leaving behind Lamar and his loyal pup, Chop, in Los Santos. Fortunately, Rockstar's Chop Leash and Collar combo makes a fitting keepsake to usher us into a new era of gaming.\nRetailing for just $24.99, this tough-looking leash and collar set features a heavy-duty construction made from premium leather, complete with riveted metal fastenings and two durable D-rings. Adding to its charm, the collar features Grand Theft Auto V lettering on both sides, along with a Rockstar Games logo on the tongue. Together, the pieces look like something you'd expect on a biker gang's four-legged sidekick.\nWhile supplies last, you can find the collar in Medium and Large sizes, each paired with a metal chain leash featuring a premium leather handle, bolt snap fastener and small Rockstar Games logo at its end.\nRelated: Nearly 100 Gamers Say They'd Give Up Their Pets to Play GTA 6 a Week Early\nGTA 6 is set to release on Nov. 19, with digital preloading beginning on Nov. 10 at midnight for those who preordered and want it downloaded and ready to play ahead of time. If you haven't purchased a copy yet, you can buy it digitally on both PlayStation and Xbox and choose either the Standard Edition or Ultimate Edition, priced at $79.99 and $99.99, respectively.\nWith less than two weeks until release day, you still have time to snag Chop's leash and collar set and give your pup plenty of extra walks before you're glued to your TV screen, exploring Vice City indefinitely. While you're at it, snatch up an extra set for a pet parent friend as a thoughtful holiday gift .\nRelated: Abercrombie's $30 Pet Pupover Hoodie Is Perfect for Holiday Family Photos\nThis story was originally published by Parade Pets on Nov 7, 2026, where it first appeared in the Shopping section. Add Parade Pets as a Preferred Source by clicking here.",
-   "pub": ""
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5vcU53UDNKRktUVThxT2tnU1U0S3BodEdZazh0VTdEbERKNVhTRFVzekxpb0tmQUszR21BcEc3Z3VyNlBYSjl0N2JRbkt0RHg1Nlg1dGNvOFlkMVczSGxGbzNR?oc=5",
