@@ -1,8 +1,27 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-08T10:10:00+01:00",
+  "updated_at": "2026-11-08T12:12:47+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-55-trophees-chiffre-relaye",
+      "title": "GTA 6 : le chiffre de 55 trophées circule sur X",
+      "summary": "@gtasix_ relaie un total supposé de 55 trophées pour GTA 6, en citant @TexFunz2 et @PlaystationSize. Ce chiffre prolonge les discussions sur les trophées déjà suivies ici ; aucune liste détaillée ni confirmation de Rockstar ou Sony n’est fournie dans le post. Le nombre de trophées ne permet pas de déduire la durée ou la taille du jeu.",
+      "url": "https://x.com/gtasix_/status/2119281764807893377",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rumeur",
+      "published_at": "2026-11-08T04:12:01.000Z",
+      "checked_at": "2026-11-08T12:12:47+01:00",
+      "evidence": "Vues relevées le 2026-11-08T11:09:02+00:00 dans data/x_alertes.json : 23 117 vues, 1 180 likes et 72 republications. Relevés Mac/serveur concordants. Original X tenté : HTTP 403. Média HTTP 200 téléchargé et contrôlé visuellement : logo GTA VI et mention 55 TROPHIES ; ce visuel ne prouve pas le chiffre. Sources citées par le compte non vérifiées directement, aucune confirmation indépendante.",
+      "visual": "55 TROPHÉES",
+      "image": "https://pbs.twimg.com/media/HWkzhz2XcAA9-N8?format=jpg&name=360x360",
+      "image_alt": "Visuel relayé par @gtasix_ avec le logo GTA VI et la mention 55 TROPHIES",
+      "image_credit": "@gtasix_ sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "article": "journal/2026-11-08-trophees-succes-55-solo-gta6.html"
+    },
     {
       "id": "x-oxford-street-londres-takeover",
       "title": "GTA 6 : Rockstar investit Oxford Street à Londres",
@@ -2204,6 +2223,11 @@
       "at": "2026-11-08T10:10:00+01:00",
       "label": "Passage 79 · 1 sujet",
       "summary": "Relevé X du 08/11 à 09:05 UTC (10 posts) : ajout d'Oxford Street Londres (38 837 vues, @GTAVI_Countdown), repassé au-dessus du seuil. Sous le seuil : trophées 55 (18 710), néons Miami Heat (14 022), billboard Paris (5 766). Aucune métrique extrapolée, aucun post X ni message à un tiers."
+    },
+    {
+      "at": "2026-11-08T12:12:47+01:00",
+      "label": "Passage 80 · 1 sujet",
+      "summary": "Relevé X Mac/serveur concordant du 08/11 à 11:09:02 UTC : ajout du chiffre de 55 trophées (23 117 vues), évolution distincte de la simple attente déjà couverte. Média réel HTTP 200 contrôlé visuellement ; original X refusé 403, chiffre non confirmé. Oxford Street et quatre panneaux Miami déjà traités ; Paris déjà couvert. Sous le seuil dans ce relevé : générique 80 minutes (15 033 vues, un compte observé), néons Heat (16 108), analyses martx_tv et concours. Recherche publique Instagram sans nouveau post vérifiable, TikTok bloqué robots.txt ; Newswire consulté sans nouvelle annonce distincte retenue. Aucun post X ni message à un tiers."
     }
   ],
   "coverage": {
