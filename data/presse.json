@@ -1,6 +1,14 @@
 {
- "maj": "2026-11-08T15:55:36+00:00",
+ "maj": "2026-11-08T16:15:48+00:00",
  "articles": [
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1ZQ1RpdDJlSU1sdUN5cS03V2VTSmF5MEQ5N2RNVXVuWnlOb0FCOE1acGs1R3piRlJlbVBCRmlrZWFiY3dkMTg3al83dy1IYThJLVJfd3hid3VOa05kQmpB?oc=5",
+   "s": "GeeksLands",
+   "d": "2026-11-08T16:00:00+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : 55 trophées et un platine entièrement solo, selon une fuite",
+   "erreur": "HTTP Error 429: Too Many Requests"
+  },
   {
    "gn": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPbk01OWpFMjlTRlZrdzcwZDRyb3NUZFVkdzJoRXZHN3JSbUxValRPZ05zTVE3T0JRUHVMbmdpN0JBTHd3NFh1OFJaUVFMaURzU2pqemVxOFh2Yjd5TEt2VVFsTE55RVhYZTVqTUhia2Q4VjYwa3NHemxNRzNZZDZqeg?oc=5",
    "s": "eTeknix",
@@ -15,7 +23,7 @@
    "d": "2026-11-08T15:45:00+00:00",
    "lang": "fr",
    "t": "Sony prépare votre PS5 pour GTA 6 avec son TV OLED Bravia de 55 pouces qui passe sous les 1 000",
-   "erreur": "HTTP Error 429: Too Many Requests"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9scUVTZW8zNVZ6eFpqTkc0X2pVc2VsNTVpbDdGc3NlQV94RVpuVzluRUwwMU1qVXNiQ2VaSVNIR0NMT0FKMVpZWmFZeUlGU3h6V3dPYkE3Y1hkRGFsaG01ZGtfam5VcGZ0NDI5MklSUmlCaE5udU5UekZ5Yw?oc=5",
@@ -41,6 +49,15 @@
    "lang": "fr",
    "t": "GTA 6 : une fuite révèle plus de trophées PS5 et de succès Xbox que GTA 5 dès le lancement",
    "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPRlNONm1IcHFCNWU2VlJwOTVfUDdnWlowV2x5UXlub25fUGZIRndpVlZ3bFVuM0M5UTZ5eWJGdmU1clFZUm1oQk9aR01IbUttRll0UWdacmlhRFJDdFhBX1BaRG5vUkJIb1V2WW0yMEZOenAzT0JfNWw4RG9HYWxRbHpDYXZYQzczS0QzMHJDYmlXbFdhTVJ3N1RyUFNQYm1kNXA0MWdJTzl6eTRZVzhna2Eyc3hnQlNRZm9jV0pfVktLUWN1WWROdEZDRFF6S19LZ28yanJreWQ2bGhnWjJr?oc=5",
+   "s": "La Crème Du Gaming",
+   "d": "2026-11-08T15:30:09+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : une fuite révèle plus de trophées PS5 et de succès Xbox que GTA 5 dès le lancement",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOTVLWVhSSFowLVlfQ093ektTV0JLZFExUk54MW5KUjJjb2FVOEE2bk1FLS1kZ0VIcTJlS1hIQ0pWTzNrVzJJRW1hYWJNZEs0anRXbHVaY2dZX0l6WlBjUWZCT2hQRllIc3VlaUVpakd6dnNqeVdkdjl2dFVDWTlZeTV0NnREX2NDNDBuY0QwZ1dnM0ZoZEhTZzU4VGluRFV3TUhmMHRvMW5fWmFiVFduLQ?oc=5",
@@ -98,18 +115,6 @@
    "lang": "en",
    "t": "Physical Copies of GTA 6 Are Going Out, Just Have Digital Codes Inside",
    "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPM0VOMDNhSEdPTXJIamhrWDBvbWMxX3V3ZElDeU1oZUloanU3TmVIalloWHg5UnFMNG5JUkJoZWFEWTNEOG16Y3o4bkFrYmZhUC04Rkxkb1REbzItbjlfQkRCUkhNQ1RSTDdhZUo1d2NtSzZnZy11aXM1bDFqaGdIRTZ0SmN0QmN4d0dr?oc=5",
-   "s": "Rockstar Mag",
-   "d": "2026-11-08T13:31:00+00:00",
-   "lang": "fr",
-   "t": "Rockstar Games Launcher | L'interface se refait une beauté",
-   "u": "https://www.rockstarmag.fr/rockstar-games-launcher-linterface-se-refait-une-beaute/",
-   "img": "https://www.rockstarmag.fr/wp-content/uploads/2025/03/rockstar-games-artwork-logo-1024x576.webp",
-   "chapeau": "Le Rockstar Games Launcher se met à jour, au programme :nouvel overlay avec chat, succès enrichis, import des amis Discord, Mode Streamer et support manette.",
-   "txt": "Rockstar a publié il y a quelques jours, la mise à jour 1.0.110.3139 du Rockstar Games Launcher. Celle-ci apporte un overlay entièrement repensé, avec un chat textuel, fait apparaitre la rareté des succès, l’import des amis Discord, un mode streamer et la prise en charge complète des manettes. Plus globalement, plusieurs crashs sont aussi corrigés. On voit tout cela ensemble dans notre article.\nLe 3 novembre dernier, Rockstar a déployé une nouvelle mise à jour du Rockstar Games Launcher . Au-delà des habituelles améliorations de stabilité, c’est surtout l ’overlay c’est à dire l’interface accessible en plein jeu, qui est à l’honneur. Il profite d’une refonte visuelle et de nouvelles fonctionnalités pensées pour les joueurs PC.\nParmi ces nouveautés, le Mode Streamer est assez intéressant. Une fois activé, il désactive les éléments sensibles de l’overlay, comme la liste d’amis , le chat textuel et les écrans de la boutique . Cela évite de dévoiler par mégarde des informations personnelles en plein direct. Concernant la prise en charge de la manette, elle s’ajoute au support déjà étendu dans le launcher il y a un an, avec l’arrivée des manettes Switch Pro et PlayStation . Cette fois, c’est l’overlay lui-même qui devient entièrement jouable au pad.\nEnfin, la mise à jour apporte diverses améliorations et corrections, telles que :\nAvec cette mise à jour, Rockstar fait franchir un cap à l’overlay de son launcher. Entre le chat, le suivi des succès et le Mode Streamer, les joueurs PC ont de quoi être servis.\nPour ne rien manquer de l’actualité de Rockstar Games, rejoignez Rockstar Mag’ sur YouTube , X (Twitter) , Threads , Instagram , Facebook , Discord et Bluesky .",
-   "pub": ""
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNQy1xQm5CNnZSQTJVS1Bic25YVHR1NXFQVGxVQldBTVVWWkE4LURUaUs0LVNmX0MyQzU2cTh1RlhHMzlnbFotZ3liNDFwN2s0cG1tdTAwU05pLWw1Tm4tdTRFZGNwamkxVWVVU0xLdjF0cUxWTGlRUFRHRThrSjE5NVVHd3V5YUZQRXVZRElHSlJHZ3lFUGhBVUtWRTFpVl9lTll0SE9PM2VCemxXdkRlY2g4WnI5OURmajVGLUZ0b085cmRIUFVtQU1XUEg0ejRqTnFmRUxOOWdTR0gyWWdKMWpnS3JjcFViQlRGVmE5aVY3RTZWeWc?oc=5",
@@ -652,19 +657,6 @@
    "chapeau": "GTA 6 is right around the corner, and while the wait is certainly almost over, what a ride it has been.",
    "txt": "Your login session has expired. Please logout and login again. × GTA Home GTA 6 Leaks GTA 6 GTA Online GTA 5 Cheats GTA 5 Cheat Codes Xbox One GTA San Andreas GTA Vice City GTA 5 Phone Cheats GTA V Cheats PS4 GTA 5 Cheats PS3 GTA San Andreas Car Cheats LS Tags GTA Online GTA 3 cheats GTA 4 cheat codes GTA 6 price More GTA All GTA 6 leaks so far All GTA 6 leaks so far By Mohammad Sadiq Modified Nov 02, 2026 13:38 GMT Share \" data-lazy=\"//staticg.sportskeeda.com/comments/ic-comment-v2.png?w=48\" alt=\"comment\" width=\"20\" height=\"20\" loading=\"lazy\"/> 0 Discuss Share \" data-lazy=\"//staticg.sportskeeda.com/comments/ic-comment-v2.png?w=48\" alt=\"comment\" width=\"20\" height=\"20\" loading=\"lazy\"/> 0 Discuss 0 Discuss What's your opinion? All GTA 6 leaks so far Discuss Now GTA 6 has had several leaks (Image via Rockstar Games) GTA 6 is right around the corner, and while the wait is certainly almost over, what a ride it has been. The game’s long waiting period was marred by leaks over the years, with everything coming to a climax with the infamous Cyberleek situation. The leaks drip-fed us information about the game, its characters, Vice City itself, and more.\nIf you’re eagerly waiting for GTA 6 to release and want a trip down memory lane about all the leaks, we have you covered. In this article, we’ll go over all the GTA 6 leaks that we’ve seen so far. Naturally, there may be some spoilers, so if you wish to walk into the game completely blind, you’ve been warned.\nThe first big GTA 6 leak came at the hands of a GTAForums user named Teapotuberhacker on September 18, 2022. The user leaked files showcasing an early build of the game , giving us our first look at the dual protagonists, Lucia and Jason. The leak also gave us glimpses of the new in-development Vice City , as well.\nThe next big leak came only a few months later, on December 2, 2023, mere days before the first trailer of the game. The leak was made by a TikToker named azzarossi, who was rumored to be the son of a Rockstar North employee . The leak gave us a glimpse of Vice City's skyscrapers and residential areas, as well as a busy highway.\nWith Rockstar's marketing going all in to build up the big Trailer 1 release on December 4, 2023, people were eagerly waiting to get their first official glimpse at the game. Well, some people got that glimpse early thanks to a leak of the entire trailer ahead of the official release. The leaked trailer, rumoured to have been released by a YouTube employee , forced Rockstar's hand and led to the official trailer being released early.\nFast forward to January 1, 2025, and we got a new leak on Reddit. User JustLovett0 shared an image he claimed was from \"mid 2021.\" Furthermore, the user shared a Google Drive link that contained an image of Lucia on a monitor . Next to the monitor was a PS5 development kit , and an Xbox development kit was seen in another video. The office scenery also visually aligned with Rockstar San Diego's, adding credence to the leaks.\nA week later, another Reddit user, Pebblestar_, shared in-game information he claimed was legitimate. According to the user, GTA 6 would feature crash physics resembling real-life crashes , multiple weapon wheels for weapons and attachments, high levels of gore , and allow players to enter 40% of the buildings on the map.\nOn September 8, 2025, dataminer Tez2 revealed that Take-Two Interactive had registered domains for in-game websites . The websites — what-up.app, rydeme.app, buckme.app, leonidagov.org, brianandbradley.com, and more — appeared to be websites you could visit in GTA 6. However, the very next day, Tez2 reported that all of the discovered domains had been removed from Take-Two’s nameservers.\nLater, on November 30, 2025, a demo reel from former Rockstar Toronto character animator Benjamin Chue leaked on Vimeo. The demo reel showed off the game's animations, showing the player character using a bike. The demo reel was later taken down.\nWhile all the leaks up to that point had given us a peek under the lid, a leaker named Cyberleek blew off the lid entirely in August 2026. The leaker leaked several clips from the game, including 25 minutes of GTA 6 gameplay footage later in October.\nThe videos showed them driving around the game's map, interacting with its mechanics. They even threatened to release an entire build of the game online ahead of the game's official release.\nAs far as the contents of the leak are concerned, the gameplay footage gave us a glimpse at the following:",
    "pub": "2026-11-02T13:34:24+00:00",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPVWFyVk9GRVZJWlVIVlNjenM3U3hVT1pUTWtySE9NUjBzQ0VJOTBjVFFaeUQzOGJBLTh2VXVTX3ZRZy1mWlViY1A3UmdqbWNlRWRKcXFMbFBmVnJrUmVXazhqbkFYOHhsVUN6NW5JdHNFOTZ2ZzBhRGVZUjkyakVOUi1qWGVFZk9ENVQ5Y2VFWk1QeDhIZzVtNjM1V3VDTzhWeHdKTHFYc0FrOU1feEg0WUpnSXo4NzNhMFZ2OXJWVGZNVnR4UHlHcHZKYTlGTXExdmJyd1BETW5MaDQzd2lmcjVnTTJLUmRkaTRwUnJkLV9VX3VkbkpNY1JTQ05MUWxjV2JKejhQbzlNQQ?oc=5",
-   "s": "La Crème Du Gaming",
-   "d": "2026-10-31T13:30:17+00:00",
-   "lang": "fr",
-   "t": "The Elder Scrolls 6 : une nouvelle fuite révèle ce que Bethesda préparerait pour son histoire",
-   "u": "https://www.lacremedugaming.fr/jeux/the-elder-scrolls/the-elder-scrolls-vi/the-elder-scrolls-6-une-nouvelle-fuite-revele-ce-que-bethesda-preparerait-pour-son-histoire-232964.html",
-   "img": "https://sf.lacremedugaming.fr/wp-content/uploads/creme-gaming/2026/10/the-elder-scrolls-6-une-nouvelle-fuite-revele-ce-que-bethesda-preparerait-pour-son-histoire-1200x660.webp",
-   "chapeau": "Un rapport de Tom Warren pour The Verge évoque The Elder Scrolls 6 Sentinel, attendu à Hammerfell, avec un récit bien plus centré sur les Parchemins Anciens. Que cache vraiment cette fuite qui enflamme les fans de lore depuis la promesse d’une annonce en novembre 2026 ?",
-   "txt": "Un rapport de Tom Warren pour The Verge évoque The Elder Scrolls 6 Sentinel, attendu à Hammerfell, avec un récit bien plus centré sur les Parchemins Anciens. Que cache vraiment cette fuite qui enflamme les fans de lore depuis la promesse d’une annonce en novembre 2026 ?\nSelon une nouvelle fuite très commentée, le prochain épisode de la saga se nommerait officiellement The Elder Scrolls VI: Sentinel , avec une intrigue centrée sur l’histoire même des Parchemins Anciens. Un rapport signé par le journaliste Tom Warren affirme que Bethesda Game Studios préparerait un scénario qui mettrait enfin ces artefacts au cœur du jeu, et non plus en simple prétexte de quête secondaire.\nDepuis le teaser E3 2018, les fans dissèquent la moindre image à la recherche d’indices, jusqu’à traquer le mot « SENTINEL » dans un identifiant caché de Starfield . Cette fuite est la première à décrire une véritable direction narrative pour The Elder Scrolls 6 , et elle pourrait bien changer les attentes de tous ceux qui rêvent d’un épisode ultra axé sur le lore.\nDans sa newsletter datée du 29 octobre 2026, Tom Warren explique, en citant des sources proches des plans de Bethesda Game Studios, que le jeu porterait le titre The Elder Scrolls VI: Sentinel et se déroulerait à Hammerfell , appelée Lenclume en français. Les joueurs y retrouveraient la grande cité portuaire de Sentinel , royaume rougegarde dominant la baie d’Iliac dans l’univers de Tamriel.\nLe point clé du rapport, repris par plusieurs sites spécialisés, tient en une phrase. Selon Warren, il s’agirait « du premier jeu consacré à l’histoire des Elder Scrolls, qui aidera à lever le voile sur les secrets de ces mystérieux artefacts anciens ». Autrement dit, les Parchemins Anciens ne seraient plus seulement l’objet que l’on va chercher au fond d’un donjon, mais le sujet central de l’intrigue.\nCette orientation colle aux indices semés depuis des années. Un tweet d’Asha Sharma montrant « The Elder Scrolls VI: ******** » a poussé la communauté à deviner « Sentinel », tandis que le teaser de 2018 pointait déjà vers les paysages côtiers et désertiques de Lenclume, terre des Rougegardes .\nDans le lore, les Parchemins Anciens sont une sorte de codex vivant de l’univers, des textes prophétiques capables de déformer le temps et la mémoire de ceux qui les lisent. Dans Oblivion ou The Elder Scrolls V: Skyrim , ils ont pesé sur la trame principale, mais restaient un outil scénaristique parmi d’autres.\nFaire de cet héritage le cœur de The Elder Scrolls 6 Sentinel signifie potentiellement un jeu plus mystique, où visions, prophéties et réécriture de l’histoire de Tamriel occupent le devant de la scène. Les quêtes pourraient davantage tourner autour d’artefacts magiques, de sectes érudites et de conflits entre ceux qui veulent exploiter ces textes et ceux qui cherchent à les protéger.\nPlacée dans les déserts, ruines anciennes et ports stratégiques de Hammerfell , cette intrigue offrirait un terrain idéal pour un jeu de rôle « classic Bethesda » mêlant exploration de donjons enfouis, politique locale de Sentinel et enjeux métaphysiques liés aux Parchemins Anciens.\nLa même fuite évoque une révélation officielle du titre en novembre 2026, période qui coïnciderait avec les quinze ans de Skyrim , sorti le 11 novembre 2011. Les sources parlent surtout d’un dévoilement du nom et de l’orientation de l’histoire, sans garantie de gameplay ni de fenêtre de sortie, et aucun prix n’a été mentionné.\nEn interne, une présentation jouable aurait eu lieu en août 2026. Asha Sharma, responsable Xbox, y aurait décrit une histoire « encore plus grandiose », ce qui laisse entendre que Microsoft mise fortement sur l’ampleur narrative de The Elder Scrolls 6 Sentinel , au moins autant que sur sa taille de carte.\nReste que tout cela demeure non confirmé. Tom Warren est une voix solide dans l’écosystème tech, et les détails qu’il avance s’alignent avec les clins d’œil observés dans Starfield , mais Bethesda Game Studios n’a encore rien officialisé. Si la fuite se vérifie, les fans de lore peuvent toutefois s’attendre à un épisode qui regarde moins vers la politique façon Skyrim et davantage vers la magie, les mythes et les secrets les plus anciens de Tamriel.",
-   "pub": "2026-10-31T13:30:17+00:00",
    "cyberleek": true
   },
   {
