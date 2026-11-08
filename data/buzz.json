@@ -1,8 +1,26 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-08T00:12:17+01:00",
+  "updated_at": "2026-11-08T08:10:00+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-miami-4-panneaux-vice-city",
+      "title": "GTA 6 : les quatre panneaux géants Vice City de Miami recensés",
+      "summary": "@GTAVI_Countdown rassemble les quatre grands panneaux Vice City installés par Rockstar à Miami pour la campagne GTA 6, d’après des photos de deux internautes (Reddit et TikTok). Le post fait suite au panneau Welcome to Vice City déjà évoqué ici ; il s’agit d’un récapitulatif, pas d’une nouvelle annonce de Rockstar.",
+      "url": "https://x.com/GTAVI_Countdown/status/2119283167442128992",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-08T04:17:36.000Z",
+      "checked_at": "2026-11-08T08:10:00+01:00",
+      "evidence": "Vues relevées le 2026-11-08T07:02:39+00:00 dans data/x_alertes.json : 25029 vues chez @GTAVI_Countdown (1381 likes, 97 reposts). Original X non ouvert (pas de navigateur). Un seul compte ; photos attribuées à u/HyruleSkullKid21 et TT/PierceTetlow, non vérifiées.",
+      "visual": "PANNEAUX MIAMI",
+      "image": "https://pbs.twimg.com/media/HWk0uvpXMAAJbPM?format=jpg&name=small",
+      "image_alt": "Panneaux Vice City installés à Miami pour la campagne GTA 6, relayés sur X",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X"
+    },
     {
       "id": "x-cara-delevingne-deux-semaines",
       "title": "GTA 6 : Cara Delevingne aurait réservé deux semaines pour jouer",
@@ -2158,6 +2176,11 @@
       "at": "2026-11-08T00:12:17+01:00",
       "label": "Passage 77 · rien de neuf",
       "summary": "Relevé X du 07/11 à 22:10 UTC (data/x_alertes.json, 11 posts) : aucun sujet nouveau au-dessus du seuil. Cara Delevingne déjà publiée (gtasix_ à 73 574 vues, @GTAVI_Countdown à 19 760). Portage IA PC (10 590 vues), E11EVEN (10 560), réponse de PlaystationSize (11 024), jaquette MediaMarkt (231) et compte à rebours RockstarNewsFRA (181) sous 20 000 vues et sans seconde reprise ; jaquette, trophées, panneau et mème déjà couverts. Aucune métrique extrapolée, aucun post X ni message à un tiers."
+    },
+    {
+      "at": "2026-11-08T08:10:00+01:00",
+      "label": "Passage 78 · 1 sujet",
+      "summary": "Relevé X du 08/11 à 07:02 UTC (8 posts) : ajout des quatre panneaux Vice City de Miami (25 029 vues, @GTAVI_Countdown). Sous le seuil : Oxford Street Londres (19 547 vues, un seul compte), trophées 55 (15 018), néons Miami Heat (11 529). Aucune métrique extrapolée, aucun post X ni message à un tiers."
     }
   ],
   "coverage": {
