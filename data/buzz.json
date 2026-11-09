@@ -1,8 +1,46 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-09T00:20:00+01:00",
+  "updated_at": "2026-11-09T08:05:00+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-intents-ps5-multijoueur-playstationsize",
+      "title": "GTA 6 : des raccourcis multijoueur PS5 repérés dans les données du jeu",
+      "summary": "@PlaystationSize publie des intents PS5 attribués à GTA 6 (joinSession, launchActivity, launchMultiplayerActivity). @GTAVI_Countdown en déduit que le mode en ligne pourrait arriver plus tôt que prévu, alors que le jeu sort en solo. Lecture à prendre avec prudence : ces entrées montrent un support technique, pas une date ni une annonce de Rockstar.",
+      "url": "https://x.com/PlaystationSize/status/2119602091630944609",
+      "platform": "X",
+      "author": "@PlaystationSize",
+      "status": "Rapporté",
+      "published_at": "2026-11-09T01:24:53.000Z",
+      "checked_at": "2026-11-09T08:05:00+01:00",
+      "evidence": "Vues relevées le 2026-11-09T06:14:49+00:00 dans data/x_alertes.json : 454 294 vues ; 109 replies, 409 reposts, 3 947 likes, 536 bookmarks. Repris par @GTAVI_Countdown (123 860 vues). Originaux X non ouverts directement (pas de navigateur). Aucune confirmation Rockstar.",
+      "visual": "RACCOURCIS EN LIGNE",
+      "image": "https://pbs.twimg.com/media/HWpj5nsWIAAkVCM?format=jpg&name=360x360",
+      "image_alt": "Capture relayée par GTAVI_Countdown des raccourcis multijoueur PS5 de GTA 6",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Grand Theft Auto VI supports : intentType joinSession / launchActivity / launchMultiplayerActivity"
+    },
+    {
+      "id": "x-selfridges-londres-9-novembre-veste",
+      "title": "GTA 6 × Selfridges : 60 articles et six heures de radio à Londres",
+      "summary": "@GTAVI_Countdown annonce pour le 9 novembre à Londres un événement GTA 6 avec Selfridges : une soixantaine d’articles et une prise de contrôle radio de six heures. L’article le plus cher serait la veste Goodtime State Varsity à 3 340 dollars, identique à celle portée par Luis. Détails relayés par un seul compte ; la presse avait déjà signalé la préparation de ce merchandising.",
+      "url": "https://x.com/GTAVI_Countdown/status/2119631469861634347",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-09T03:21:37.000Z",
+      "checked_at": "2026-11-09T08:05:00+01:00",
+      "evidence": "Vues relevées le 2026-11-09T06:14:49+00:00 dans data/x_alertes.json : 24 531 vues ; 6 replies, 22 reposts, 558 likes, 56 bookmarks. Un seul compte observé ; presse (data/presse.json) corrobore la préparation de merchandising GTA 6 chez Selfridges, pas les chiffres. Original X non ouvert.",
+      "visual": "SELFRIDGES",
+      "image": "https://pbs.twimg.com/media/HWpxNS0WYAEVTkF?format=jpg&name=small",
+      "image_alt": "Visuel de l’événement GTA 6 chez Selfridges à Londres",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "A new GTA 6 event in collaboration with Selfridges takes place tomorrow November 9th in London, UK with around 60 merch items and a 6-hour radio takeover."
+    },
     {
       "id": "x-dualsense-boite-magasins-19-novembre",
       "title": "GTA 6 : la boîte de la manette DualSense arrive dans les magasins",
@@ -2404,6 +2442,11 @@
       "at": "2026-11-09T00:20:00+01:00",
       "label": "Passage 85 · boîte DualSense et séries TV du jeu",
       "summary": "Relevé X Mac du 08/11 à 23:04 UTC. Deux sujets ajoutés : boîte de la DualSense GTA 6 en magasin (64 256 vues, relayée par @GTA6France1) et séries TV Cop Show/TJS (48 275 vues, un seul relais, statut Rumeur). Merch Selfridges (5 290 vues), préchargement et trophées sous le seuil ou déjà couverts. Originaux X, Instagram, TikTok non consultés (pas de navigateur). Aucun post X ni message à un tiers."
+    },
+    {
+      "at": "2026-11-09T08:05:00+01:00",
+      "label": "Passage 86 · raccourcis multijoueur PS5 et Selfridges",
+      "summary": "Relevé X Mac du 09/11 06:14 UTC. Deux sujets ajoutés : intents multijoueur PS5 (454 294 vues PlaystationSize, repris par GTAVI_Countdown) et événement Selfridges Londres (24 531 vues, un seul compte, Rumeur). Trophée « Welcome to Vice City », séries TV, taille 223 Go, marketing Miami NINE1NINE (13 922 vues) : déjà couverts ou sous le seuil. Originaux X non consultés (pas de navigateur). Aucun post X ni message à un tiers."
     }
   ],
   "coverage": {
