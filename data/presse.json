@@ -1,13 +1,33 @@
 {
- "maj": "2026-11-09T09:18:23+00:00",
+ "maj": "2026-11-09T09:38:08+00:00",
  "articles": [
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNcS1jTWFMNnNjY2NiUXZtaU9QWUVjOEp1NXN6QzZybWQ3bHhvcnh6ZVUyc0N3NU9OMk5HUTE5YU82Y3dablRoc09ybXhSNW9XaXREUzY3S09LRk1SVmhBT3lSMnFXQjl2WU5Ka3R5UVZUTEluWUJWZVJBVUlwb25yaGNrZEl5Rk9ocGNZ?oc=5",
+   "s": "shattered.io",
+   "d": "2026-11-09T09:34:03+00:00",
+   "lang": "en",
+   "t": "GTA 6 Multiplayer Leak: 3 Online Strings Found [2026]",
+   "u": "https://shattered.io/gta-6-build-leak-three-online-strings-multiplayer-nov-19-2026/",
+   "img": "https://shattered.io/wp-content/uploads/2026/11/gta-6-build-leak-three-online-strings-multiplayer-nov-19-2026-gen.webp",
+   "chapeau": "GTA 6 multiplayer leak: 3 online strings reportedly found in the launch build. What is confirmed, what is rumor, and what to expect on Nov. 19.",
+   "txt": "A new datamining report says the build of Grand Theft Auto VI intended for launch carries code that points to multiplayer features. Notebookcheck published the story on November 9, 2026, citing the account PlayStation Game Size, which says it found joinSession , launchActivity and launchMultiplayerActivity in PlayStation’s backend data. The game itself is set to launch on November 19, 2026 , ten days from today.\nThe headline claim circulating online is that a GTA 6 online multiplayer mode could arrive soon. The evidence is thinner than the headline. Mezha.net, which relayed the Notebookcheck report, states plainly that the mode will not be available on November 19, and that a successor to GTA Online could still sit months away. This analysis separates what Rockstar and its partners have confirmed from what leakers and outlets have reported, and it explains why the gap matters for players and for Take-Two Interactive.\nThe timing is not random. Preloads are due to begin first in New Zealand at midnight local time on November 10, according to Notebookcheck, and every preloaded file gives data miners a new surface to inspect. We already tracked the earlier size leaks in our coverage of the Xbox file size figures of 209.86 GB and 225.34 GB , and this latest find follows the same pattern: backend metadata surfaces first, interpretation follows, and official confirmation lags behind both.\nGoogle · Preferred Sources Don't miss new tech stories on Google\nAdd Shattered once in the Google app and our stories show up in your news suggestions.\nThe reported finding comes down to three text strings. According to Notebookcheck and Mezha.net, PlayStation Game Size examined PlayStation’s backend and spotted joinSession , launchActivity and launchMultiplayerActivity attached to the release build of Grand Theft Auto VI. Those names read like function or event identifiers, and both outlets interpret them the same way: players could create or join sessions, and the game could start multiplayer-focused activities.\nThat reading is reasonable. Developers rarely name a function joinSession unless something is meant to join a session. But a name in a file is not a shipped feature. Studios routinely carry dormant code, placeholder identifiers and shared platform libraries inside a build. A string can sit in a package for years without any player ever touching it.\nNotebookcheck’s own framing is careful on this point. The outlet says the multiplayer mode starts after November 19 but could be available earlier than previously assumed, which is a statement about possibility, not about a date. No outlet in the reporting we reviewed cites a Rockstar statement, a platform listing or a regulator filing that sets a multiplayer date.\nBefore weighing the leak, it helps to pin down what is official. Rockstar Games is the developer and publisher, and Take-Two Interactive Software, Inc. is the parent company. The release date is November 19, 2026, and the game targets PlayStation 5 and Xbox Series X|S. Take-Two’s investor site lists the announced edition at $79.99 in its pre-order announcement .\nThe console listings on the Xbox Store and the PlayStation Store carry the game for the two current-generation families. No PC release date appears in the official materials we reviewed. We covered the open question separately in our look at the GTA 6 PC port and AI clone fears , so this piece keeps its focus on consoles.\nHere is the detail that cuts against the loudest version of the rumor. The official platform listings, including the one on PlayStation’s US site , describe Grand Theft Auto VI as a single-player experience. They do not announce an online mode, a beta or a multiplayer launch window. A leak that implies online play is coming does not contradict that listing, because the listing describes the product sold on day one. It simply means the sold product and the eventual product may differ.\nPlayStation Game Size is a social account that tracks storefront and backend metadata for upcoming PlayStation releases. Its usual method is not to crack the game. It reads the data a console’s store service exposes, such as package sizes, version labels and content identifiers. Notebookcheck says the account found the strings during an analysis of PlayStation’s backend, and it names the account and an X post as its sources.\nThat distinction matters for how much weight to give the claim. Backend metadata can be accurate about what the package contains while saying nothi",
+   "pub": "2026-11-09T09:30:41+00:00"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRTJUOTFFRklmY0dCM1F2MWthTnl0M0FYS0dmdkNQbXFtc2hjOFJGa29iSFZ3T1dDeS1MemdxQTczOE5Rc2xKaHNNOHo4dTItUDFnamhXNzNaVnZLS0ZOZXpMNXcxSjRXRUVwMUc2cG5VcXdvWUxqZnZxTndZYUp3RmZucDR6bHJvbEJoMXE4R2JIVC1QTThnYXpvNG1VOXRaeUppYlBHMmF5V21sOW9relNoT3pUdFBa?oc=5",
+   "s": "JeuxVideo.com",
+   "d": "2026-11-09T09:30:09+00:00",
+   "lang": "fr",
+   "t": "Musiques retirées de GTA : quand Rockstar est confronté à un énorme problème",
+   "erreur": "HTTP Error 403: Forbidden"
+  },
   {
    "gn": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNUFKVmc3YUpxcUp5UThDeG9ObVc4aTM0SjFFbHgyTE5OLWRKb181ZWF0Zm1wX25fODk2SEtUMWVhSkNYa0JjRVNHYUl1YnkyN2dVMnNZbUlGUGZkVGM3QWxyNUNJUGJoQ2pMbEw4Q3YtUGJ2VkM0Nml4Mlc2RTUzd1RqaTJqUE1MUnc0ejM3WXFYRXRPOWNPTjdHQQ?oc=5",
    "s": "Nacionale",
    "d": "2026-11-09T08:58:44+00:00",
    "lang": "en",
    "t": "Is Kodak Black in GTA 6? He says yes; Rockstar hasn't confirmed",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQR1NRcWNlYndZTDNfTklkTVpsejhUUU5WQlpOSTRIQUlTMi05YWN5eFhFbndwbW8taHNJdkJpZ240MnpOeDVyb3ZIMUozTTJfMVFQTnhVNndsT2xodlo2WHVnLVBkVERZZmRSV0hRWU1ldGk0OTNPNkRBdE1rZWhYVFExVl81SF9Nbm1rbmN6OEV1dw?oc=5",
@@ -26,8 +46,12 @@
    "s": "VideoCardz.com",
    "d": "2026-11-09T08:43:55+00:00",
    "lang": "en",
-   "t": "GTA 6 launch build references multiplayer features, but Rockstar has yet to announce GTA Online",
-   "erreur": "429 : passage suivant"
+   "t": "GTA 6 launch build references multiplayer features, but Rockstar has yet to announce GTA Online - VideoCardz.com",
+   "u": "https://videocardz.com/newz/gta-6-launch-build-references-multiplayer-features-but-rockstar-has-yet-to-announce-gta-online",
+   "img": "https://cdn.videocardz.com/1/2026/11/GTA6-5.jpg",
+   "chapeau": "GTA 6's launch build reportedly contains multiplayer activity entries ahead of its November 19 release. The game is currently advertised as a single-player experience.",
+   "txt": "With Grand Theft Auto VI now just ten days away from release, more information is appearing in PlayStation’s backend database. PlayStation Game Size, an account known for tracking game updates and download sizes, has found references to multiplayer functionality associated with GTA 6. The discovery comes just before pre-loading begins on November 10.\nThe account shared three entries found in the PlayStation backend: joinSession , launchActivity , and launchMultiplayerActivity . These are PlayStation activity intent types that can allow players to join sessions or launch specific game activities directly from the console interface. Their presence suggests that GTA 6 has at least some integration prepared for multiplayer features.\nintentType\": \"joinSession\" intentType\": \"launchActivity\" intentType\": \"launchMultiplayerActivity\"\nGTA Online launch date remains unknown However, these entries do not confirm that multiplayer will be available at launch. Rockstar currently describes GTA 6 as a single-player experience and has not announced a release date for its online component.\nFor comparison, the original GTA Online launched on October 1, 2013, two weeks after GTA 5. Red Dead Online followed roughly one month after Red Dead Redemption 2, initially launching in beta. Whether Rockstar plans a similar schedule for GTA 6 remains unknown. Previous reports have suggested that multiplayer could arrive in 2027.\nThe discovery comes alongside other technical details shared by PlayStation Game Size. The current PS5 build reportedly carries version number 01.001.004, while the New Zealand and Australian package is listed at approximately 223 GB. Rockstar has officially confirmed that GTA 6 launches on November 19 for PlayStation 5 and Xbox Series X|S. Pre-loading starts tomorrow, November 10, giving players their first opportunity to download the game ahead of release.",
+   "pub": "2026-11-09T08:43:55+00:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPc29NZ0RRdE9YWVRtNGlxenF4SVpSWmdtTURLZ1FKa1NDNmR1UXNDakVydEdUc2ttT2ZFOFpLek5vTXpXWEJfemN3eUFHOWEybi10NEctQzUzVS1tNkpmZUVOdzhaYUY3Wmt0Y3BKWFhnVFJObnJqQzJDLVdrVERmRHgwdVMtMTdpN3JCdjdNMA?oc=5",
@@ -116,19 +140,6 @@
    "pub": ""
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBRNnkyTGtra2M2SWltYUVhbmhseTJndFRFVEJ4aF9iZ1FNZEdWNDR1cVpWYldlbGdWWHZrcC1UbkNsVlFFM05WMG4yVUdHR3NiZ2NwLUN5YTFkUnZORXM2anJNU1hJM1BfcE5JaU9tdTA?oc=5",
-   "s": "NoobFeed",
-   "d": "2026-11-09T07:14:25+00:00",
-   "lang": "en",
-   "t": "GTA 6 Online Features Discovered in PlayStation Database | NoobFeed",
-   "u": "https://www.noobfeed.com/news/gta-6-online-features-ps-database",
-   "img": "https://nfapi.noobfeed.com/storage/media/73634/gta-6-online.webp",
-   "chapeau": "GTA 6 is still some time away from launch, but new PlayStation database findings have drawn attention to its planned multiplayer features.",
-   "txt": "GTA 6 is still some time away from launch, but new PlayStation database findings have highlighted its planned multiplayer features. The current PS5 version reportedly includes functionality to join sessions and start multiplayer activities, suggesting Rockstar Games is already preparing online features ahead of the game's eventual release.\nHowever, this doesn't confirm that GTA 6 Online is playable or that it is near release. But they do give an early indication of how multiplayer functionality is being integrated into the game. With Rockstar yet to announce an official release date or provide information about its online plans, the scope of these preparations remains unclear.\nEarlier reports offered a possible picture of what GTA 6 Online could include . In 2025, a leak described a multiplayer project known internally as GTA 6 MP, with lobbies planned for 64 players instead of GTA Online's 32. It also suggested Rockstar was considering support for up to 96 players at a later stage of development.\nThe same leak described technology intended to make switching between singleplayer and multiplayer smoother. It also suggested players could join free-mode activities across several sessions without lengthy loading screens or manual invitations. These features were presented as development plans, however, and Rockstar has not officially confirmed the reported player counts or session systems.\nPlayStation database entries reveal GTA 6 multiplayer functions. The latest information comes from PS Game Size, which identified the current GTA 6 PS5 version as 1.001.004. Its report listed three functions: intent type join session, intent type launch activity, and intent type launch multiplayer activity. Their presence suggests the game already references actions associated with online sessions and multiplayer activities.\nPS Game Size also reported that additional content packs are handled through license files and require only a one-megabyte download. These reportedly cover pre-order rewards and Ultimate Edition bonuses. The system could allow eligible content to be accessed across accounts on the same PS5, although Rockstar has not publicly explained how these licenses work on the console.\nDatabase references to online functionality show that certain features are being prepared, but they do not confirm that GTA 6 Online is finished, accessible, or supported by active servers. These entries only show that backend groundwork is underway, without revealing when any of these features will be enabled for players.\nFurthermore, these database entries provide no evidence that previously leaked features such as expanded lobby sizes or seamless session transitions are finalized. Until Rockstar confirms details, the launch date, server status, and final multiplayer features remain unconfirmed. Twitch's CEO has made comments that have raised expectations for a 2027 launch.\nRockstar has not announced a release date for GTA 6 Online , but comments by Twitch CEO Dan Clancy have fuelled expectations of a 2027 launch. During a 2026 Bloomberg interview, Clancy reportedly said that an even bigger period would follow GTA 6's launch the next year, when its multiplayer component arrives. His remarks did not provide further technical details.\nThose comments are the main reason 2027 is being discussed, but they do not specify a month or season. Some have speculated about an early-year launch, while others expect the mode could arrive in summer. Neither possibility has been confirmed, and the database discovery doesn't narrow the release window. For now, both remain unverified possibilities. GTA Online's financial success makes the next multiplayer launch important.\nGTA Online has become a major recurring revenue source for Rockstar and parent company Take-Two Interactive, making the next multiplayer launch commercially important. However, that financial incentive does not necessarily mean Rockstar will rush its release. Stability might be a priority for the studio, especially after the first GTA Online had server and access issues at launch.\nThe database entries offer the most tangible evidence yet that Rockstar is getting ready for multiplayer in Grand Theft Auto 6. Earlier leaks and industry comments have provided helpful background information, but the developer still needs to confirm critical details like the final player caps, feature set, and official release schedule.\nUntil Rockstar Games makes an official announcement, take any claims that GTA 6 ",
-   "pub": "2026-11-08T18:00:00.000Z",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPN1pvdE54Z1hRa2V5OWN2OVA5WnJSaWVCTUVJTl90bkM4SmV6THU0bjFiN18yLXFVRWphTEF3M1dZSE5NMi1TM2dHdTFHWVd5anREaloxX0tNbWYySDlPby04bFRzSkQyaU9GcF9Ndm1sYXVKNUF4Q29yU0daTzlpeW90YUUxdmdVX0xLVXRWcjhUWkxaZFRCcVMtMGl2N1lDQkp2cG14NVk4SUxvTkpubg?oc=5",
    "s": "www.tomsguide.fr",
    "d": "2026-11-09T07:07:50+00:00",
@@ -158,7 +169,11 @@
    "d": "2026-11-09T06:50:04+00:00",
    "lang": "fr",
    "t": "gta 6",
-   "erreur": "HTTP Error 429: Too Many Requests"
+   "u": "https://jvmag.ch/2026/11/09/gta-6-quand-telecharger-le-jeu-combien-pese-le-jeu-sur-playstation-5-et-xbox-series-xs/gta-6-21/",
+   "img": "https://jvmag.ch/2026/11/09/gta-6-quand-telecharger-le-jeu-combien-pese-le-jeu-sur-playstation-5-et-xbox-series-xs/gta-6-21",
+   "chapeau": "",
+   "txt": "",
+   "pub": ""
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZVA5WDQ4bjFKRWVNX3JsZG1zUGVoN0dwZGZUa1JJSGpZWDlKYjVNUi1lN28wWjhfX194Rml5MXplSVBtcE5NNjBsdTROYzFkYjJoYVpTNEZseTlOUDdtWXNLQW5YWDVjVXRXelZmbkdVeTEyQzFnRzNqbjNRU2I2MDRRdk1FRjNqcXV2REp3YmpaQ2J5NENieUdSeTVKbW9HM0tVUW9tOXhhc3BzX0VfNDMycENjd2p3Rmk3dFZRUmdCWW0w0gHSAUFVX3lxTFBfNm9FeEVMLTZPYkFtZG9yVWVMeDdvUVV6bENpLUhBS3ZtVEtiX2ZHVXZsa1pxcEhEd25RVUpaa0tjSWM0SkRURkNOUG5RTmRHc3lsckpmc2JUTVNHVy1zUktlRGFmbkI0VjBRdm5XczE2Tl9FY3hpNGM4Y2JaOG9taGp4dzlLS3d4X3gyTWlUQkdOcjFTUVNDaURGUi1IeFZBVVEzYXZqV1RwOEhISEhEYmc3TFFPRmlHYkdFSDM1eWszdEVLRElQS2FWbzBCQTBiUQ?oc=5",
@@ -178,7 +193,11 @@
    "d": "2026-11-09T06:42:05+00:00",
    "lang": "fr",
    "t": "HWd7NOkW0AAvLdY",
-   "erreur": "429 : passage suivant"
+   "u": "https://jvmag.ch/2026/11/09/gta-6-six-voitures-modifiees-par-west-coast-customs-avec-un-comparatif-irl-jeu/hwd7nokw0aavldy/",
+   "img": "https://jvmag.ch/2026/11/09/gta-6-six-voitures-modifiees-par-west-coast-customs-avec-un-comparatif-irl-jeu/hwd7nokw0aavldy",
+   "chapeau": "",
+   "txt": "",
+   "pub": ""
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQUxENG5GcmFTWTc4SmtBazVTQm00R1dWTEZ2VEhlUzNSZXpNRm9oNnNleFR0ZnpMX09vaW94b1FQcWd3cF9BSnFJcUZQRlFfd1Q4RzJPaXBTTk5KcjYwc2k1TEJZNnVLTk9WSEZfcFJVSnB4MFZGcEFpalk1YjdkZkpNVTVCclRyZFpobnpVR0xpTTBiR3BYSlJ6bnVBTXphbVhSQmNTMEJiVURJUGRPNUF4WUplYm5aZHlYTm1NU1g?oc=5",
@@ -186,7 +205,11 @@
    "d": "2026-11-09T06:42:02+00:00",
    "lang": "fr",
    "t": "HWd6NgtWAAEkVZI",
-   "erreur": "429 : passage suivant"
+   "u": "https://jvmag.ch/2026/11/09/gta-6-six-voitures-modifiees-par-west-coast-customs-avec-un-comparatif-irl-jeu/hwd6ngtwaaekvzi/",
+   "img": "https://jvmag.ch/2026/11/09/gta-6-six-voitures-modifiees-par-west-coast-customs-avec-un-comparatif-irl-jeu/hwd6ngtwaaekvzi",
+   "chapeau": "",
+   "txt": "",
+   "pub": ""
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeTNEMG40RkZyWUdSRVRFbHNielNUYUIzdXpoMVd6RUd3WjFiVTNnT1lROWF6aVpDS1cxWThNUDNjYnY0TndqYk9mNk44Z2N0eXFLMmIwZ283ZHlNMHNfV2VBbmlmSm0zM25vaDZmZHpNRUZfUXNYVTJMTVJGbkVLTi1USExNOXpnR2syd29OY1pvV1FPWEZVNlVtcktGRkFPVkxZYzg4WVpLOVVrZTVpS1FDOGs0TVBaWUd4R2hENWs?oc=5",
@@ -194,7 +217,11 @@
    "d": "2026-11-09T06:42:01+00:00",
    "lang": "fr",
    "t": "HWd7SitXEAAKmse",
-   "erreur": "429 : passage suivant"
+   "u": "https://jvmag.ch/2026/11/09/gta-6-six-voitures-modifiees-par-west-coast-customs-avec-un-comparatif-irl-jeu/hwd7sitxeaakmse/",
+   "img": "https://jvmag.ch/2026/11/09/gta-6-six-voitures-modifiees-par-west-coast-customs-avec-un-comparatif-irl-jeu/hwd7sitxeaakmse",
+   "chapeau": "",
+   "txt": "",
+   "pub": ""
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVmNnaEZoM0Z1b1pNWExDUzBUd1d1elV2U2pOVldudWo3R2ZvSExpeXhBcEp6emxpLVJIdmVjSlRDNW1XZ0ZPcnNYa3d0XzNwajN4b0kxTFItem5ZNFBsQjhOTkVBQUZ0ekR2X2xwM3F5SEZMUXF5MS14WmhxSF9GQlMzSWp1a2dKM0FBQUVUVmVhVW1jcmlPNE9LZWx0eEdWVjRWN0g4REpkRUlySllxWDMydHZ1QmpNZWpLd3h6d1Q?oc=5",
@@ -202,7 +229,11 @@
    "d": "2026-11-09T06:42:00+00:00",
    "lang": "fr",
    "t": "HWd7O3VXMAAr2ws",
-   "erreur": "429 : passage suivant"
+   "u": "https://jvmag.ch/2026/11/09/gta-6-six-voitures-modifiees-par-west-coast-customs-avec-un-comparatif-irl-jeu/hwd7o3vxmaar2ws/",
+   "img": "https://jvmag.ch/2026/11/09/gta-6-six-voitures-modifiees-par-west-coast-customs-avec-un-comparatif-irl-jeu/hwd7o3vxmaar2ws",
+   "chapeau": "",
+   "txt": "",
+   "pub": ""
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWUgweWl3VlFPZ2VoQk9lcllKcjFkdm40STBuRmgwSFZTM2lVQ19DbUJkS3dvd3F3OXVRaU5aTzJZbVY2dU5CZER2a1VwcktNNTFRbG1RYU5zMjNjYUhvUWZVZlBSZk1DOWcyZlZ3TWxpZHFvS0wtUi1FYjBUci03RlNqSjAwTUlqS1VxZlNYZ0M2MFBFX216cVFGWjJVSEc4cFRubjAtWEo?oc=5",
@@ -273,7 +304,15 @@
    "d": "2026-11-09T05:46:46+00:00",
    "lang": "fr",
    "t": "Le préchargement de GTA 6 sur PS5 révèle quatre extensions téléchargeables",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdEJwTVZ1Z001WkpIalBqOGt0TTFUMkQtODJVYzN4VjVlc2JYQUk1LU1kSEpuNW55Nk5VY3FNcC11MkN2VXVSM0xYSjFEUFBPUGpPSXM2SUFGYVJPU0N5YWYxMzRveTl5MEV0QnV3ejYyazJtWGQtNlM5VmVCVy00bThBSldZb2J4elMwUlY4NkZwMU52ZTZSZFFMcDJyYjBGN2piLXpNY1pWTEl2eWhiQTVBTGw1eW1wS0ZRVGRDVmFfUQ?oc=5",
+   "s": "GameGPU",
+   "d": "2026-11-09T05:46:46+00:00",
+   "lang": "en",
+   "t": "GTA 6 PS5 pre-load reveals four downloadable add-ons",
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZmlSVkJsUVRLd0NuZk1PYVRKRXVoYTBlc3hQY2plVmpNUTlLbzI3VUxLU0Z2UkRDWmdhQzczdnV3WEdyUEducG5zeE4wMHBHUUM0TWdCMEF1RmVMblZYYmJHZU5TWFBBZGVIaXUxQ1VLbGZnS1RLYTZPeExfZ2YxejN6OXZ1SHg5TDR5dlBFVW5tYUxMQzJuOWo3UVc1QWVzODk2cTFpQnBtdDg?oc=5",
@@ -298,18 +337,6 @@
    "chapeau": "Cara Delevingne and Lewis Hamilton say they are clearing time for GTA 6, while Bulkhead is giving its whole team December off.",
    "txt": "Cara Delevingne says she has booked two weeks off to play Grand Theft Auto VI when it arrives on November 19.\nThe British model and actress, who happens to voice DJ Cara on the pop station in Grand Theft Auto V , says she has booked two full weeks off once the game is out. She is not being shy about why.\n\"I love that game, I always will,\" Delevingne said in a red-carpet interview, adding that she still wears her old Grand Theft Auto merch and \"booked out two weeks after the game comes out\" because \"it's gonna be incredible.\" She is a vocal fan and Rockstar Games once hired her to play a version of herself on the radio.\nThe role is a real one. Delevingne voices DJ Cara, the hyper, sarcastic British host of Non-Stop-Pop FM at 100.7 in Los Santos, a part she recorded around the 2013 release and returned to for the enhanced versions . It was one of her first proper acting credits, back when she was better known for runways than radio. The clip of her two-weeks-off comment has been passed around.\nThere is a nice symmetry to it. DJ Cara has reportedly recorded fresh farewell lines for Grand Theft Auto Online , sending players off toward Vice City and teasing a final in-game meetup around November 18. So the same voice telling Los Santos goodbye on the airwaves is the one clearing her schedule to move on. Fans have already turned that farewell into a mass cruise through Los Santos the night before launch , a send-off hosted, fittingly, in DJ Cara's voice.\nPreviously, when Delevingne was asked if she'd return for the sequel, she gave a laughing \"no comment.\"\nRegardless of a potential return, she is in good company. Booking time off for a video game used to be a punchline. Now it's become a trend all over the world . F1 champion Lewis Hamilton says he will cancel work to play it and clear his whole schedule around launch. A games studio, Bulkhead, is giving its entire team December off and telling players to go enjoy it.\nIt's not a famous-exclusive phenomenon either. HR data shows a GTA 6 time-off surge that GTA 5 never caused .\nGTA 6 has famous fans and regular workers alike booking time off, with Cara Delevingne literally in the game.\nGTA 6 has famous fans and regular workers alike booking time off, with Cara Delevingne already voicing DJ Cara in GTA 5 .\nDelevingne also sits in a longer Rockstar tradition. The studio has a habit of casting real celebrities as radio hosts, from Karl Lagerfeld on Grand Theft Auto IV 's electro station to a string of real DJs across Grand Theft Auto V . Delevingne was the rising-model-turned-host in that group. The rumor is that, another DJ in DJ Khaled, among others , will play a similar role in GTA 6 .\nWith that said, Delevingne has spent eleven years telling Los Santos what song is coming next. Now she is counting down to Vice City with everyone else, except she gets to hear her own voice say goodbye on the way out.\nComment 1 comment Pinned, staff, newest Ray Staff Veteran · 521 rep Nov 9, 2026 The detail that gets me is that she recorded the farewell lines for Grand Theft Auto Online, so she's telling herself to go clockout and go to vice City. Poetic, if you ask me.",
    "pub": "2026-11-09T00:21:44.923+00:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVnV2ZmhQLTFjS2drVF9YVHFicmNuaGx1MmE0c3pGbzROVmZLUE9WZEFDeWxCcVFJVWs3UVNwcjRVM0hzbG5RN3oxdmx6ZUQyT25hWE1pSlJORjJLa2FqdXZDZWNkaU9FZTVkZEdBb1hhMzBkY2poTGZfVEdZdllybWFFTVZoSXdROVFmWVhTd203aU5kYkM4dlN3?oc=5",
-   "s": "GTA BOOM",
-   "d": "2026-11-09T05:32:31+00:00",
-   "lang": "en",
-   "t": "GTA 6 in Japan May Face Cuts Like Earlier Rockstar Games | GTA BOOM",
-   "u": "https://www.gtaboom.com/gta-6-in-japan-will-probably-be-censored-like-every-gta-before-it-433a",
-   "img": "https://media.gtaboom.com/variants/1920/media/images/35/a6/gta-6-in-japan-will-probably-be-censored-like-every-gta-before-it.jpg",
-   "chapeau": "GTA 6's Japanese Xbox build is reportedly about 1.2 GB smaller than the global version, suggesting possible censorship.",
-   "txt": "Japan-focused video game columnist @Genki_JPN put words to a worry a lot of players in Japan can relate to over the weekend and the store data suggests that he is right to express his concerns. Grand Theft Auto VI looks set to get a separate, censored Japanese version, the same treatment Rockstar Games has given its games in Japan for many years. Nothing is officially confirmed yet at the moment but history suggests that Grand Theft Auto in Japan is almost always a toned down experience.\nAt the moment, store backend listings found by dataminers put the global Xbox build of GTA 6 at around 209.86 GiB, in line with the 210 GB download that had been reported for the game and the Japanese CERO Z build at around 208.74 GiB, roughly 1.2 GB smaller. Australia and New Zealand sit almost dead level with the global version, separated by a sliver of metadata, while PlayStation 5 reportedly shows the same worldwide , ANZ and Japan split.\nAnother tell is the ratings. GTA VI carries Japan's CERO Z label, which is the country's strictest 18-and-over tier, with content icons for crime and violence but, tellingly, none for sexual and nude content or drugs. Grand Theft Auto V had the same luck of the draw, even though we know that the sequel has earned adults-only ratings across every major market and had its sex scenes flagged in rating listings .\nCERO Z is the only Japanese rating that legally restricts sales to adults , but it still bars explicit sex, genitalia and the goriest dismemberment, so Rockstar edits its games to pass. GTA V is the most documented case. It has a separate Japanese build with edited sex scenes, Trevor's pants stay on in the pants-drop gag, strip-club dancers dressed down and, most notably, playable torture out of the \"By the Book\" mission is stripped out completely, fading to black instead.\nOther Rockstar titles suffered a similar fate. Red Dead Redemption 2 saw a less gorey release for the Japanese market, with body parts vanishing instead of lingering and brothel scenes keeping their clothes on. Grand Theft Auto IV cut back blood and blocked attacks on downed enemies. The most heavily changed was Grand Theft Auto: San Andreas , handled by Capcom, which officially confirmed removing civilian-killing side missions and sexual occupational content, on top of disabled headshots and muted drug references.\nThe common thread here is sex, nudity and the most graphic gore, with the core game left relatively untouched.\nEvery modern Rockstar game has been edited for Japan, so the file-size gap suggests GTA 6 is next.\nTo be fair, across the years, the Japanese versions only lost specific scenes and effects, the story or most of the mayhem making it what it is remained intact. The game is not banned, unlike in other countries . GTA V in Japan was noticeably trimmed but remained mostly the same. If we go by that record, any cuts to the Japanese release of GTA VI when the game comes out in November would most likely affect the game's sex scenes, nudity and the goriest moments , rather than significantly affect the experience. We will only know the exact list when players get a chance to compare the two builds after release.\nUnfortunately, this scenario creates a real headache for anyone in Japan who wants to play through the uncut version. Buying out of region is not as simple as switching to a different store. Sony didn't lock PS5 discs to a specific region, so a Japanese player could run a US or UK disc, but a digital purchase and download code is a separate thing entirely. They're tied to the country on your PlayStation account, which you can't change. Rockstar has already confirmed the GTA 6 PS5 code-in-box is region-locked by account country, while Xbox codes are not . The common workaround is creating a second PSN account set to the US, funded with US gift cards and shared to the main console, which works but it splits your library, trophies and PS Plus across two accounts.\nFor now, what we know is the file sizes are real, the CERO history is well documented and every modern Rockstar game has received similar if not the exact same treatment.\nIf you are in Japan and want to play it safe with possible cuts, you'll want to buy an overseas copy, or, you can take this L because you have access to the cheapest PS5 on the market anyway.\nComment 1 comment Pinned, staff, newest Ray Staff Veteran · 520 rep Nov 9, 2026 The torture mission in Grand Theft Auto V becoming a fade to black is still the wildest example to me.",
-   "pub": "2026-11-09T05:32:31.358+00:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWU44Vm5XZXZ5OEpySzFoWkpQcFZIbVM5aFFfS2gxOGdSUVNONDdIeW1wWE81SFpacjYxNUVGeFlUQjdfeG5JcjMwbjlLOVA4d2RpNDRSM2tYeGtUOTZJbmc1c0h2X1BROHl4NktKbGpBVE5TdnM4ZW1qLTYyU1JWS3gyNWYxU2J1MjVnTS02UjFPRzBwOUJVR0ttY1R0YXFtS2FWQkF1UEVzZjVRVEI2bHBVZk9TNktIM212NQ?oc=5",
@@ -341,8 +368,13 @@
    "s": "Mezha.net",
    "d": "2026-11-09T04:08:04+00:00",
    "lang": "en",
-   "t": "GTA 6 build leak hints online multiplayer could arrive earlier than expected",
-   "erreur": "429 : passage suivant"
+   "t": "GTA 6 build leak hints online multiplayer could arrive earlier than expected | Межа",
+   "u": "https://mezha.net/eng/news/mezha-8dd6289984f264f49b3b8d16_gta_6_build/",
+   "img": "https://mezha.net/eng/wp-content/mezha-og-r205/kd_image_generate/eng/3741678-27a9288588d6.jpg",
+   "chapeau": "References to online features in the GTA 6 release build point to multiplayer functionality, but the mode will not be available when the game launches on November 19.",
+   "txt": "References to online features in the GTA 6 release build point to multiplayer functionality, but the mode will not be available when the game launches on November 19.\nPlayStation Game Size found traces of online functionality in the GTA 6 release build. An investigation of PlayStation’s backend uncovered references including “joinSession”, “launchActivity” and “launchMultiplayerActivity”. The leaked strings suggest players could create or join sessions and start multiplayer-focused activities.\nAlthough a multiplayer mode will not launch on November 19, a follow-up to GTA Online could still be months away. Developers may have prepared to add multiplayer seamlessly in the future. However, a long delay would conflict with the pattern set by GTA 5 and Red Dead Redemption 2.\nGTA 5’s online mode appeared two weeks after the single-player campaign debuted. Red Dead Redemption 2, meanwhile, had a beta option appear about a month after the open-world western’s release.\nGTA Online remains lucrative for Rockstar, which may hesitate to leave its supporters behind. Bloomberg insider Jason Schreier played down the chances of the studio announcing a sequel to the service in the near future. He later said fans may have to wait until 2027 for co-op missions.\nIn an interview, Twitch CEO Dan Clancy discussed how the game could benefit the streaming platform. He said an expected GTA 6 Online launch in 2027 would bring a bigger surge in viewership. Since Rockstar acquired Cfx.re, there has been hope for a popular role-playing mode similar to GTA 5.\nThe latest leak recalls messages revealed during a Rockstar employee tribunal. Discord logs referred to a 32-participant multiplayer test session in October 2025. Even if the story of Jason and Lucia takes priority, an alternative to single-player is planned.\nData miners are watching closely as GTA 6 pre-loads are scheduled to begin first in New Zealand at midnight local time on November 10. More findings seem likely as files become accessible on Xbox and PS5 consoles.",
+   "pub": "2026-11-09T04:04:42+00:00",
+   "cyberleek": true
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMVVZZW1IUlNoUGRZYTBZNk9rYjdWSW55TlR4WTFyeTFSMzhWdUJkUVMxd3NWTVl6VlR2Y2hSYWV5b0VtQi1Db05WeHdKQkJHLThmNEp5WTNwTFNNRVBZeVZOaEFZSFMyeXFDXzRiUTUxWk1yc1NFQTI5b1hrU1RWcDhuampYa0hQbEdFdGpIeHU4VDdPY1V6bnZ2WTVyT3dfZWFnUG14dUNsSlhKQnpGNEZxXzEzWVNIZnBJ?oc=5",
@@ -531,8 +563,12 @@
    "s": "JVFrance",
    "d": "2026-11-07T17:54:12+00:00",
    "lang": "fr",
-   "t": "GTA 6 : une fuite révèle le contenu de la version boîte, bien plus généreuse que prévu",
-   "erreur": "429 : passage suivant",
+   "t": "GTA 6 : une fuite révèle le contenu de la version boîte, bien plus généreuse que prévu - JVFrance",
+   "u": "https://www.jvfrance.com/gta-6-contenu-boite-285689/",
+   "img": "https://www.jvfrance.com/wp-content/uploads/2026/06/GTA-6-keyart-officiel-3.webp",
+   "chapeau": "A quelques jours de sa sortie dans nos rayons, la version boîte de Grand Theft Auto VI a fuité et il y aura bien un goodies à récupérer",
+   "txt": "",
+   "pub": "2026-11-07T17:50:34+00:00",
    "cyberleek": true
   },
   {
@@ -671,7 +707,11 @@
    "d": "2026-10-22T15:12:54+00:00",
    "lang": "en",
    "t": "Cyberleek Shares GTA 6 Leak Of Naked Lucia",
-   "erreur": "429 : passage suivant",
+   "u": "https://www.imdb.com/news/ni66062173/",
+   "img": "",
+   "chapeau": "",
+   "txt": "",
+   "pub": "",
    "cyberleek": true
   },
   {
@@ -758,7 +798,7 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
    "t": "Le token CYBERLEEK chute de 40 % alors que le leaker de GTA 6 lance de nouvelles menaces",
-   "erreur": "429 : passage suivant",
+   "erreur": "HTTP Error 403: Forbidden",
    "cyberleek": true
   },
   {
@@ -819,20 +859,7 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "en",
    "t": "GTA 6 Leak Over, Cyberleek Quits but the Ending Is Still at Risk",
-   "erreur": "429 : passage suivant",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNODc2RXdOR1ZPNGdsQm9xUk1XUTJlOGo4UHI4WkVOcFJWOHNGMTFBOWl0RWw1ajNnZnB5ZmVqUVg4U2RuTmJ2cUxhb1JmYkE0Mmx4ZkExVzA0clFENlQzYXlkV2VuUVg3MUFPcHAtY1pOUnRyeHRxekx4bk5hZ25zbzB2SXNPcXpjd3NLV1pn?oc=5",
-   "s": "Mashable",
-   "d": "2026-10-14T19:48:41+00:00",
-   "lang": "en",
-   "t": "GTA 6 Cyberleek update: Leaker linked GTA 6 reveals to crypto play. It’s crashing spectacularly.",
-   "u": "https://mashable.com/tech/gta-6-cyberleek-update-memecoin-crashing-crypto-play-failed",
-   "img": "https://helios-i.mashable.com/imagery/articles/06UjEW29dJSQirgGT098fMG/hero-image.fill.size_1200x675.v1792002741.jpg",
-   "chapeau": "The Cyberleek memecoin is now plunging further and further.",
-   "txt": "As Mashable and our colleagues at PCMag just reported, Grand Theft Auto VI leakers Cyberleek have seemingly abandoned their threats to leak a full build of the game – at least for now.\nWhy? Because the leakers had claimed that the release of the leaked build was tied to their memecoin. If GTA 6 fans pumped Cyberleek's cryptocurrency, they would receive the leaked game build as a reward.\nThat play failed spectacularly for Cyberleek. In fact, it seems to have fully backfired.\nThe Cyberleek memecoin's market cap hit a high of $7.8 million on October 11, shortly after the leakers claimed they would release the full build of GTA 6 supposedly in their possession. The catch? The Cyberleek memecoin had to hit a market cap of $30 million first. The best tech deal this week The Apple iPhone 18 Pro is free right now with T-Mobile\nWhile some GTA 6 fans appeared to have bought into the memecoin in an attempt to hit Cyberleek's goal, $7.8 million is still far short of the $30 million the leakers wanted. And since then, as it became obvious that most GTA 6 fans weren't going to give in to Cyberleek's demands, the memecoin has plunged even further, with a current market cap of $1.17 million.\nCritics of Cyberleek celebrated the memecoin's failure, calling it a scam.\nCyberleek had been successful with their memecoin play before, giving those who bought their memecoin exclusive access to polls that determined what GTA 6 footage the leakers would release next.\nHowever, it seems Cyberleek overplayed their hand this time around, and the full build, which they claim is 200GB, appears to be staying under wraps for now.\nWith that said, Cyberleek is still using their supposed access to a full build of GTA 6 to try to escape legal action from Take-Two, the parent company of GTA 6 developer Rockstar Games. The leakers claim that there is a \"dead-man's switch\" that will automatically release the ending of the game if there is an attempt to take down Cyberleek.\nMatt Binder joined Mashable's tech vertical in 2018, where he covers social media, tech policy, cybersecurity, online scams, cryptocurrency, AI, creator news, weird tech, and other related tech beats.",
-   "pub": "2026-10-14T19:40:59+00:00",
+   "erreur": "Remote end closed connection without response",
    "cyberleek": true
   }
  ]
