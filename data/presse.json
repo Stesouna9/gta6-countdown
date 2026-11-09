@@ -1,13 +1,22 @@
 {
- "maj": "2026-11-09T04:52:51+00:00",
+ "maj": "2026-11-09T05:13:03+00:00",
  "articles": [
+  {
+   "gn": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBmVlpGTWJ2S0tyR2xQT0FhcjVjVXVVUng0eC1UeVFxb0NTVmlSeDRCNnRIeGtYNWRLdXg0aThoMXo5N0tMMUFPQ09QcXAwSnNsTldWeEdKcWZuQ1lfTWl1X1lOZ19QMFM0aUhYTFN6ZXg?oc=5",
+   "s": "NoobFeed",
+   "d": "2026-11-09T05:04:53+00:00",
+   "lang": "en",
+   "t": "GTA 6 Preloads Bring 55 Launch Trophies & File Leak Warnings",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
   {
    "gn": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOYmNUN3VpTzlvcGhLZnhpQ1g1TXBtQVR2ZV81SzBZZHZHVmdYUGY2Rno0Q2xEZ0pjV2tvZGJacTlxSmpNMXBpblZTZ1RKQkEwU1JwUmFfbHd2bV9yelhfN1ZqcmwwX0NTQi1qYXVBVU1QQ25yRmtRZjI4VWp1bnNVbHRDNE5IQThpRkZra1R6bWk3dw?oc=5",
    "s": "GameGPU",
    "d": "2026-11-09T04:02:10+00:00",
    "lang": "fr",
    "t": "La PlayStation 5 représente 74 % des précommandes de GTA 6",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "HTTP Error 429: Too Many Requests"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOempfeEMwZ2tJbnRYcm8yUlNFTmNFQ25keVhNdW5uSjVqWVJuX1RKQzU1X0JaSHJzNUVOa05MZ3FzcWNWY0dabzkwVDBLZXA0X05EQTRBMl80X2tUSHoxSm5GUmJLdHd5MEdHUHdrNWpfTnNaMm9XZkNrQUkwSzNBWkFCTGlpaHIyQXlOUFVsOXVrZw?oc=5",
@@ -15,7 +24,7 @@
    "d": "2026-11-09T04:02:10+00:00",
    "lang": "en",
    "t": "PlayStation 5 Takes 74% of GTA 6 Pre-Orders",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbUNlQXdUMi1RYU41Z290ZmRMRXQtYUFHRklEbzc1elNiVWNfN0Q0YzJqdi1XTTJjbXJLRGhIazg1N0dlcmpJam5uMFBJNjdkcEtGZ00zOTdIbVdpc3E4M21jdk5nZG1OVWZoMTNfRHQzME51YVNDWlRyU2F4MUxReU1BVVNTeFlfNU82TXhfZFhLYXpzUnRIbw?oc=5",
@@ -39,7 +48,8 @@
    "img": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/GTA6OnlineBannerNew-2.jpg",
    "chapeau": "Some rumors point to a GTA 6 online mode not launching until later in 2027. However, a data miner leaked code from the release date build alluding to multiplayer features. The profitability of GTA Online raised doubts that Rockstar would be eager to transition players.",
    "txt": "With pre-loads set to begin, data miners are discovering clues about Rockstar ’s anticipated title. PlayStation Game Size found traces of online functionality in the GTA 6 release date build. While a multiplayer mode will not launch on November 19th, it could arrive sooner than anticipated.\nAn investigation of the PlayStation backend revealed references including “joinSession”, “launchActivity”, and “launchMultiplayerActivity.” These leaked strings indicate gamers can create or join sessions and initiate multiplayer-focused events.\nDespite the curious GTA 6 release date code, a sequel to GTA Online could still be many months away. Developers may have prepared to add a multiplayer component seamlessly in the future. Regardless, an extended delay conflicts with a pattern set by GTA 5 and Red Dead Redemption 2 .\nWith the previous Grand Theft Auto , an online mode emerged two weeks after the solo campaign debuted. Meanwhile, Red Dead Redemption 2 saw a beta option surface about a month following the open-world western's release.\nOn the other hand, GTA Online remains lucrative for Rockstar, and it may hesitate to leave supporters behind. Bloomberg insider Jason Schreier downplayed the chances of the studio announcing a sequel to service in the near future. He later said fans may need to wait until 2027 for co-op missions.\nIn an interview, Twitch CEO Dan Clancy discussed how the streaming platform would benefit from the game. Still, he explained that an expected GTA 6 Online in 2027 would produce a bigger surge in viewership. Since Rockstar acquired Cfx.re, there is hope for a popular role-playing mode similar to GTA 5 .\nThe latest leak reminds observers of messages exposed during a Rockstar employee tribunal. Discord logs mentioned a 32-participant multiplayer test session in October 2025. Even if the saga of Jason and Lucia takes priority, an alternative to single-player is planned.\nData miners are on high alert as the November 10th GTA 6 pre-loads commence first in New Zealand at midnight local time. As files become accessible on Xbox and PS5 consoles , more findings seem inevitable.",
-   "pub": ""
+   "pub": "",
+   "cyberleek": true
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPN2w3aU1od29zSWE3cXNGT2ZDTzdqaXVlVG8yUW4xV2UwWjh1YmgzMHBlUERZR05ldVVuWkc0eWF4UHl6bEdQRDBvb25mRWc0Xzd2SHZQSjI1amRmLVRnZDNyOUZGQV9BNGZBOGczMERqaUVZb291YVB1SzNRUk9CeXBYa05Obk5yaWRwSnMzeXRvNHAzcXd2TEtwajBuWGI4SHUyem9VQW9aT0toTTFlYkFTMDRTMG0xUkNaNDcySVZrbnBGUjhPeVVHLXBIaXBGbXlzaA?oc=5",
@@ -60,7 +70,7 @@
    "d": "2026-11-09T03:09:09+00:00",
    "lang": "en",
    "t": "GTA 6 box spotted in Germany asks for 230GB on PS5, more than Rockstar's official figure",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNTQ4RnI0NGxkRFVqQ3AzRDhSYWVqU3g3QlNHWGNtVlVlMVk3X3JoWHV4TnQzQUNrTE44SU9hY1VKZGdCdUNuS2NjTHNCNzNPX083VVZnQjRja0pjMlhaY2pDN1c5aE5jQWV3NFdjaWgydFhXNGJhV2R4Qnk0NDFaU0VnNzlNVjRTM1FxUQ?oc=5",
@@ -264,7 +274,7 @@
    "d": "2026-11-08T19:19:47+00:00",
    "lang": "fr",
    "t": "La PlayStation 5 Pro surpassera largement la Xbox Series S en termes de qualité graphique de GTA 6.",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQYXBkd2d2Nmo1U3owYWpKVlhjRG9rVjVyd213aFJteGYtVnZ4NWItQkw5dldBdEdtWjlOd3hPZVBQdVIwQTBYVDZ3WGVzOXotbmpxc3Rmb3lYd0dFNmVfU3VybjJOa1VrRFYwOGhESEtXN1ZEd05YYWo5N2xFQUEtVjJmODhFMGFmRmNkYk9MYTdaWllERjJmNS1Sa2g?oc=5",
@@ -272,7 +282,7 @@
    "d": "2026-11-08T19:10:10+00:00",
    "lang": "fr",
    "t": "Pourquoi WoW Forever n'est pas un problème pour GTA 6 ?",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcktISWxEaDYxR1lTeVlYMFFadTlYZmtTMVJKdXlCZnRPd3NBQmpSeTVhWEVWS1liSmc3eGJPc0QyeWh3cG1ER2NISmRIS09JUzJ0TF9HZ3daeXoxaWlENWU1ckoyOThPUHgwMWljbjBkc0RCSDdxMHlZTnN3SGJON3B2YnpETUNaNUNPU1ZIakkwWGtXWE1BOWZENUlzNk9FQTVRZW9GX3BKdkQzaFJPTXBjd2xfeVVkQmJSUw?oc=5",
@@ -280,7 +290,7 @@
    "d": "2026-11-08T18:44:57+00:00",
    "lang": "fr",
    "t": "Les précommandes pour un pack PlayStation 5 Slim et GTA VI sont désormais ouvertes au Brésil au prix de 417 dollars.",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQ0dhVHZmM0hVRHZoM1dnMHNRTzNrZDFpNGZCczlGWWFLQm44ZlRxTThKRk1OSXpNeVFRZk1ST0dSUHUzUGZ2M3pCUTBmTGQ4eDFPaU01MzlvUi1pZ2ZNUVpLbE5fdGNSTlJvX2RvLTBJZHVfcHc5RnpJc0ZBTTVBelhDMnR4UXFSRkE?oc=5",
@@ -313,11 +323,7 @@
    "d": "2026-11-08T17:50:00+00:00",
    "lang": "fr",
    "t": "PS5, une mise à jour de 1,27 Go à l’approche de GTA VI",
-   "u": "https://www.enerzine.com/ps5-firmware-securite-avant-gta-6/199732-2026-11",
-   "img": "https://www.enerzine.com/wp-content/uploads/2026/11/arti_199732.webp",
-   "chapeau": "Sony a poussé un correctif système sur PlayStation 5, avec pour seule explication publique des « corrections de sécurité ».",
-   "txt": "",
-   "pub": "2026-11-08T18:50:00+01:00"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQeFhKRXRMSmhyUjM1Q3ZCb2VIWElBaXBoaWFWbG9qdTB4V3BfS3lFUXRXMTJBV2xldGV3MkRySWF5YjBSN29DQmd5ZTZkN2dFTzRRdm9pand5elNPTWVzS0NQVmxOOC1CNlZnNlRZV1loRjVETHIwXzIwQmVxckM0V0dpdXVueG84d2pXRVZsU1BSa3d4cVZtWjFmX2VZbUE?oc=5",
@@ -325,7 +331,7 @@
    "d": "2026-11-08T17:46:28+00:00",
    "lang": "fr",
    "t": "Les crédits de fin, selon des rumeurs, de GTA 6 vont durer plus de 80 minutes",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQXNYd1FKZHpieFMydldPSnZ0Z19JQzV2a0tDaTdBVkM5TUNUUG54SVFqaUMtN1d2dGRMM2hQMGV5cVRxcktvMW9SS0RsVEtxY3RYaHdQMG82RFJuRjdlclZkYWQtdFF6YU43M1praXl6anpGV1F1VDZqWjYxclhweWk2WGExUUtwTi03dWlBaGNSaTRBcUgydkc3OGU?oc=5",
@@ -345,11 +351,7 @@
    "d": "2026-11-08T16:55:53+00:00",
    "lang": "fr",
    "t": "GTA 6 : West Coast Customs construit six vraies voitures inspirées du jeu pour Rockstar Games",
-   "u": "https://www.mensup.fr/gta-6-west-coast-customs-construit-six-vraies-voitures-inspirees-du-jeu-pour-rockstar-games/",
-   "img": "https://www.mensup.fr/wp-content/uploads/2026/11/gta-6-west-coast-customs-construit-six-vraies-voitures-inspirees-du-jeu-pour-roc-2.webp",
-   "chapeau": "À onze jours de la sortie de Grand Theft Auto VI, Rockstar Games et West Coast Customs ont transformé six véhicules fictifs du jeu en véritables machines roulantes dans les rues de Miami.",
-   "txt": "",
-   "pub": "2026-11-08T16:55:53+00:00"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1ZQ1RpdDJlSU1sdUN5cS03V2VTSmF5MEQ5N2RNVXVuWnlOb0FCOE1acGs1R3piRlJlbVBCRmlrZWFiY3dkMTg3al83dy1IYThJLVJfd3hid3VOa05kQmpB?oc=5",
@@ -472,7 +474,7 @@
    "d": "2026-11-08T11:14:21+00:00",
    "lang": "en",
    "t": "Rockstar's GTA 6 Physical Edition Reportedly Leaked; Here's What We Know",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -494,7 +496,7 @@
    "d": "2026-11-08T09:34:00+00:00",
    "lang": "en",
    "t": "GTA 6 achievements leak hints at how massive the game could truly be",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -524,29 +526,12 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNVkdBR2VRLWRLZFlraEg4TkxscFI0Y0RHcHF1SERUWTlVMGRzNU5oYTZTLTBDQzlNOEZ4Z2JmVVB1d0VicEl1TkpRejBxRlNHNWEyaEdhMW9aajc0Mmc2clAyTF9iTWhtUWlHUUE3LVJUX2lGMklDeHJIN0JwYVNfN0d0NkZtMXE3MWdyOHotV0NGUQ?oc=5",
-   "s": "TelecomTalk",
-   "d": "2026-11-08T03:38:45+00:00",
-   "lang": "en",
-   "t": "GTA 6 Physical Edition Leaked Ahead of November 19 Launch",
-   "u": "https://telecomtalk.info/gta6-physicaledition-leaked-ahead-of-november19-launch/1013731/",
-   "img": "https://telecomtalk.info/wp-content/uploads/2026/11/gta6-physicaledition-leaked-ahead-of-november19-launch.jpg",
-   "chapeau": "GTA 6 Physical Edition photo leaked ahead of the November 19 leaks, revealing how Rockstar Games' next biggest game looks. Here is all we know:",
-   "txt": "How insurance and risk models are evolving to support satellite connectivity\nBold attempt to design smartphones specifically for Indian consumers.\nWhy execution in the trenches may be the real key to AI readiness\nGTA VI Physical-Copy edition CD photo leaks ahead of the official November 19, 2026 launch. As many fans wait for the most anticipated game in years, GTA 6 is set to release on November 19, 2026. Insider leakers have revealed an original physical copy of GTA VI Online ahead of the release. Here is all we know so far:\nAlso Read: GTA 6 Pre-Loading Date, Size Confirmed by Rockstar Games\nAs Rockstar Games prepares for the next big launch we’ve waited almost a decade for, Grand Theft Auto 6 will feature Jason and Lucia. Some speculation suggests Tommy from Grand Theft Auto: Vice City will also appear, bringing back nostalgia for the 2002 GTA Vice City game.\nOn the story side, the all-new GTA VI is speculated to center around a criminal couple stuck in a conspiracy trying to find their way out. Rockstar Games has also done impressive work making GTA VI characters feel more like real people.\nThe whole game is set in the fictional US state of Leonia, based on Florida. Reports claim Rockstar Games is offering a map three times as big as in previous games.\nThe map includes around three cities: Vice City, inspired by Miami; Grassrivers, inspired by the Everglades; and the Leonida Keys, inspired by the Florida Keys.\nGTA VI is also among Rockstar Games’ most expensive games. Estimates and rumours suggest it was developed with a budget of $1 billion to $1.5 billion, which translates to around Rs 9400 crores to Rs 14000 crores.\nRockstar Games will begin preloading GTA VI tomorrow, with access to play starting November 19, 2026.\nAlso Read: GTA 6 Gets Special DualSense PS5 Controllers from Sony\nAs Rockstar Games prepares for the GTA VI release on November 19, 2026, we got a leaked image of the physical edition CD showing Jason and Lucia in the game.\nLeaks also suggest that the new Grand Theft Auto 6 will take up around 212GB of storage.\nThe game is already available for pre-order and can be pre-loaded on your PlayStation 5 or Xbox Series X or Series S consoles. In India, Amazon India lists GTA VI at Rs 5999 for the standard variant. You can get the Ultimate edition through the PlayStation Store or the Xbox Microsoft Store for Rs 7499, depending on your console.\nSome people read for free. A few choose to support. If you found TelecomTalk useful, you can help keep us running.\nGrand Theft Auto 6 is scheduled to launch on November 19, 2026, for PlayStation 5 and Xbox Series X and Series S.\nAn alleged image of the GTA 6 physical edition surfaced online ahead of its November 19 release. However, Rockstar Games has not officially confirmed its authenticity.\nLeaks suggest GTA 6 could require around 212GB of storage. Rockstar Games has not yet confirmed this figure.\nGTA 6 is set in the fictional state of Leonida, inspired by Florida. Vice City is one of its major locations.\nAccording to Rockstar Games’ pricing details, the standard edition costs Rs 5,999. In contrast, the higher-priced edition is Rs 7,499 and is available through the Sony PlayStation Store, Amazon India (standard edition only), and the Xbox Microsoft Store.",
-   "pub": "",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5vcU53UDNKRktUVThxT2tnU1U0S3BodEdZazh0VTdEbERKNVhTRFVzekxpb0tmQUszR21BcEc3Z3VyNlBYSjl0N2JRbkt0RHg1Nlg1dGNvOFlkMVczSGxGbzNR?oc=5",
    "s": "JVFrance",
    "d": "2026-11-07T17:54:12+00:00",
    "lang": "fr",
-   "t": "GTA 6 : une fuite révèle le contenu de la version boîte, bien plus généreuse que prévu - JVFrance",
-   "u": "https://www.jvfrance.com/gta-6-contenu-boite-285689/",
-   "img": "https://www.jvfrance.com/wp-content/uploads/2026/06/GTA-6-keyart-officiel-3.webp",
-   "chapeau": "A quelques jours de sa sortie dans nos rayons, la version boîte de Grand Theft Auto VI a fuité et il y aura bien un goodies à récupérer",
-   "txt": "",
-   "pub": "2026-11-07T17:50:34+00:00",
+   "t": "GTA 6 : une fuite révèle le contenu de la version boîte, bien plus généreuse que prévu",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -573,15 +558,6 @@
    "chapeau": "Le Xbox Store a indiqué une taille de fichier de 209.86 Go pour GTA 6, mais le téléchargement pourrait être plus volumineux. Le système interne de Microsoft affiche 225.34 Go, ce qui pourrait inclure des fichiers supplémentaires ou un correctif de lancement. Les préchargements sur les consoles Xbox et PS5 débuteront les 9/10 novembre, avant la sortie prévue le 19 novembre.",
    "txt": "Les propriétaires de consoles Xbox ont désormais une confirmation supplémentaire de l’espace de stockage à réserver d’ici la date de sortie de GTA 6 . Proche de l’estimation de 212 Go de Rockstar, la boutique de Microsoft affiche 209,86 Go. Malgré cela, des données internes ayant fuité laissent entrevoir une taille de téléchargement en préchargement plus importante que prévu sur PS5.\nAvant la mise à jour de la boutique, Cokymoky a partagé des données trouvées dans l’API DisplayCatalog de Microsoft. La version mondiale destinée à la plupart des pays pèse 209,86 Gio (gibioctets), soit 225,34 Go (gigaoctets). De son côté, la version ANZ pour la Nouvelle-Zélande et l’Australie affiche à peu près la même taille. Toutefois, la version destinée au Japon est légèrement plus petite, avec 208,74 Gio, soit 224,07 Go, ce qui pourrait indiquer la présence de contenu censuré .\nL’API affiche les tailles de téléchargement de GTA 6 et ne reflète pas nécessairement l’espace que le jeu occupera sur un SSD après installation. Le Xbox Store indique 209,86 Go , ce qui laisse penser qu’il utilise en réalité l’unité Gio ou donne une estimation de la taille des fichiers après installation. Quoi qu’il en soit, les méthodes de compression étant différentes, les jeux Xbox sont souvent plus volumineux que sur la console concurrente.\nUne autre possibilité est que le système inclue une mise à jour de lancement. Le 27 octobre, une analyse des données par PlayStation Game Size a révélé que la taille de téléchargement de GTA 6 était de 210 Go sur PS5. Si la version Xbox est plus volumineuse, un correctif de lancement pourrait expliquer cet écart.\nIl est à noter que la version japonaise diffère de celles des autres régions. Le prochain Grand Theft Auto a reçu la même classification par âge CERO Z (18+) que GTA 4 et GTA 5 . L’organisme étant strict en matière de contenu sexuel ou violent, plusieurs scènes ont été supprimées de GTA 5 . La taille des fichiers de GTA 6 sur PS5 variera également selon les régions (reste du monde, Nouvelle-Zélande/Australie et Japon), mais les chiffres exacts restent incertains.\nLes préchargements seront disponibles le 9 novembre à 19 h EST sur Xbox Series X et S. Les joueurs PlayStation pourront commencer à préparer la sortie le 10 novembre à minuit, heure locale. Rockstar prévient que le titre nécessitera « jusqu’à 212 Go d’espace disponible, selon votre appareil ».",
    "pub": "",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPYVdCdldMamRFZHlveHZGRW9XampfV0xZUmg5Z2VxVEhfN2FGbVZZM3FncVBWZUFTeEF2Ymx2OC1JTzZETTFhZmRnVGVyUWZrOWNuWDNjZEl6NW84em5HLXhjMVFRcXRCdGhkNmRXalpLY3V3UnRSQm9KdW54QmNTbi1DVU9wZnB4cHNKNU1YUXl4dC1GYnZWWjdJU2REY1E?oc=5",
-   "s": "EGW.News",
-   "d": "2026-11-06T21:05:26+00:00",
-   "lang": "fr",
-   "t": "Les joueurs se demandent si la nouvelle fuite supposée du gameplay de GTA 6 est un fake ou pas",
-   "erreur": "HTTP Error 403: Forbidden",
    "cyberleek": true
   },
   {
@@ -655,7 +631,7 @@
    "d": "2026-11-04T14:30:23+00:00",
    "lang": "fr",
    "t": "Une fuite confirme des améliorations pour GTA 6 sur la PlayStation 5 Pro",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -682,6 +658,15 @@
    "chapeau": "À 16 jours de la sortie de GTA 6, un joueur affirme qu’un compte PlayStation a été banni pour un simple message privé contenant une fuite. Que s’est-il réellement passé et jusqu’où Sony peut-il aller dans vos MP ?",
    "txt": "À 16 jours de la sortie de GTA 6, un joueur affirme qu’un compte PlayStation a été banni pour un simple message privé contenant une fuite. Que s’est-il réellement passé et jusqu’où Sony peut-il aller dans vos MP ?\nÀ 16 jours de la sortie de Grand Theft Auto VI sur PS5 , une histoire fait grimper la tension chez les joueurs : un compte PlayStation aurait été banni après l’envoi, en message privé PS App , d’un extrait de gameplay fuité de GTA 6 . De quoi faire paniquer tous ceux qui discutent des leaks dans leurs MP.\nEntre la chasse aux fuites menée par Take-Two Interactive et l’accord marketing massif entre Rockstar Games et Sony Interactive Entertainment , la plateforme est sous surveillance maximale. Mais cette histoire de ban PSN est-elle réelle, et surtout, que risque un joueur français qui partage une fuite de GTA 6 sur l’écosystème PlayStation ?\nLe cas vient d’un post Reddit relayé par Notebookcheck : l’utilisateur Silver-Succotash-612 affirme qu’une connaissance a tenté d’envoyer, via un message privé de la PS App , un clip de fuite de gameplay de GTA 6 , probablement issu de Cyberleek . Selon lui, le profil PSN aurait été gelé quasiment instantanément, avec un délai annoncé de trois mois pour l’appel.\nProblème : aucun mail de sanction n’a été publié, Sony n’a rien confirmé et le joueur concerné reste anonyme. Le site Tech Insider parle même de « 0 cas confirmé » de compte PlayStation banni spécifiquement pour une fuite de GTA 6 dans la PS App. Notebookcheck rappelle toutefois un précédent : un utilisateur avait écopé de 30 jours de ban PSN pour un screenshot de Conan Exiles montrant des personnages nus, pourtant partagé en groupe privé.\nLes règles officielles de PlayStation Network distinguent plusieurs sanctions : suspension de compte, suspension de communication et suspension de console. Une suspension de compte bloque l’accès au PSN et donc à certains jeux achetés en numérique . À J 0 de GTA 6 , cela peut signifier l’impossibilité de lancer une précommande digitale sur PS5, même si la console fonctionne.\nCôté modération automatique, Sony a lancé en mars 2025 la fonction Nudge dans la PS App. Le système analyse certains messages pour repérer des violations potentielles du Code de conduite et afficher un avertissement, sans qu’un employé lise les conversations tant qu’aucun signalement n’est déposé. En théorie, le support ne devrait donc pas bannir un compte uniquement sur la base de ces scans, mais des contenus marqués par des empreintes liées à des DMCA GTA 6 pourraient être détectés automatiquement.\nAvec les vidéos de Cyberleek traquées par les demandes de retrait DMCA de Take-Two et un accord marketing qui met GTA 6 au cœur de la communication PS5 et PS App, Sony a tout intérêt à éviter que des fuites circulent sur ses propres services. Même si le cas Reddit reste non vérifié, il montre surtout à quel point partager des fuites de GTA 6 via PSN ou PS App est devenu risqué.\nPour limiter les problèmes, la règle est simple : ne pas envoyer d’extraits fuité de GTA 6 via les outils PlayStation , qu’il s’agisse d’upload vidéo, de captures d’écran ou de liens vers des contenus déjà frappés par une DMCA. En cas de suspension de compte PlayStation, il faut contacter le support SIE Europe, vérifier la nature exacte de la sanction et déposer un appel avec un maximum d’éléments. Juste avant la sortie de GTA 6, mieux vaut protéger son compte PSN comme son futur braquage in game.",
    "pub": "2026-11-04T05:00:12+00:00",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNeHg4QklFbjA3VlBXZGhtRHhFYmRVOGRXeGk0WVpLNjJEQ1FzSTZTRFF4MEliZzFpUzZ0Y2xaNlF5X2xoTXAtMUpadTJJTE9CMllEUUo2dXFfNVdZb3dBcDM2cWQ2eW5CNjZrMUpuT1otSnVvYTJ1VkNHUllJZHdmdDBreXhNRGlUdTRXODI0VXpBcExlZUVRQjJjUjVqbHI3bDJXcFNwcTJJdGNCMTZUTjJsTEtEV29UX2hCbnI3Um1oaVN0Z2kzVkszMzBleXFwNnpZUi03Y1lJN1dubHZFSE1wVVo?oc=5",
+   "s": "Notebookcheck.fr",
+   "d": "2026-11-03T04:11:00+00:00",
+   "lang": "fr",
+   "t": "PlayStation aurait banni un compte pour avoir partagé une fuite sur GTA 6 dans la messagerie de la PS App",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -716,11 +701,7 @@
    "d": "2026-10-22T15:12:54+00:00",
    "lang": "en",
    "t": "Cyberleek Shares GTA 6 Leak Of Naked Lucia",
-   "u": "https://www.imdb.com/news/ni66062173/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -807,7 +788,7 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
    "t": "Le token CYBERLEEK chute de 40 % alors que le leaker de GTA 6 lance de nouvelles menaces",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
