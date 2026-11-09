@@ -1,6 +1,54 @@
 {
- "maj": "2026-11-09T06:35:00+00:00",
+ "maj": "2026-11-09T06:55:12+00:00",
  "articles": [
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMWtnNXNSYzNGdEwzY3FZOElGOGl4WmFCdV9zYW1yMWdxRWVpWkpwSklKWnBWX1prOE9VNnRHMkZudWwtcWRjSlk2SVBkU2cyX0pwVVlKd0lSN3NTbkh0UGRlcy1JOWtPV1ZIb0ZNZWpCZ01QUXlLc0kzdkNIbjZEUWxydUlVOHg0TEViRGlzcHJ3WWRzWjJaSW1JSVByVndnLVRleUVIeU1LeVQ5RWdXa0dxRmNhcGRhY3JpMmZ1NGpPdw?oc=5",
+   "s": "JVMag",
+   "d": "2026-11-09T06:50:04+00:00",
+   "lang": "fr",
+   "t": "gta 6",
+   "erreur": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTEI5T0hGaFFHcFNYSl91cXUxODl6cENHSm9PN0sySzNLYkNMNGhhOVc3ekVFWHdmX0RvNkpnVFVrZjB5V1JrUmk4SW1vbXQxNXhYMnE5MkVSY1V6UDlfX01odXJFN3lxbUcxaTR3U05ONUI0VG0zblRtenZkWHlzN2drc2VzejlHTU5VMkptN3RORlVKYm1DdUJZa0dIci1DSGVQcmcxMnVxUDJ1ZDNLTVdiRjVsZFdvajZDLXIzYjk?oc=5",
+   "s": "JVMag",
+   "d": "2026-11-09T06:42:05+00:00",
+   "lang": "fr",
+   "t": "HWd7NOkW0AAvLdY",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQUxENG5GcmFTWTc4SmtBazVTQm00R1dWTEZ2VEhlUzNSZXpNRm9oNnNleFR0ZnpMX09vaW94b1FQcWd3cF9BSnFJcUZQRlFfd1Q4RzJPaXBTTk5KcjYwc2k1TEJZNnVLTk9WSEZfcFJVSnB4MFZGcEFpalk1YjdkZkpNVTVCclRyZFpobnpVR0xpTTBiR3BYSlJ6bnVBTXphbVhSQmNTMEJiVURJUGRPNUF4WUplYm5aZHlYTm1NU1g?oc=5",
+   "s": "JVMag",
+   "d": "2026-11-09T06:42:02+00:00",
+   "lang": "fr",
+   "t": "HWd6NgtWAAEkVZI",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeTNEMG40RkZyWUdSRVRFbHNielNUYUIzdXpoMVd6RUd3WjFiVTNnT1lROWF6aVpDS1cxWThNUDNjYnY0TndqYk9mNk44Z2N0eXFLMmIwZ283ZHlNMHNfV2VBbmlmSm0zM25vaDZmZHpNRUZfUXNYVTJMTVJGbkVLTi1USExNOXpnR2syd29OY1pvV1FPWEZVNlVtcktGRkFPVkxZYzg4WVpLOVVrZTVpS1FDOGs0TVBaWUd4R2hENWs?oc=5",
+   "s": "JVMag",
+   "d": "2026-11-09T06:42:01+00:00",
+   "lang": "fr",
+   "t": "HWd7SitXEAAKmse",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVmNnaEZoM0Z1b1pNWExDUzBUd1d1elV2U2pOVldudWo3R2ZvSExpeXhBcEp6emxpLVJIdmVjSlRDNW1XZ0ZPcnNYa3d0XzNwajN4b0kxTFItem5ZNFBsQjhOTkVBQUZ0ekR2X2xwM3F5SEZMUXF5MS14WmhxSF9GQlMzSWp1a2dKM0FBQUVUVmVhVW1jcmlPNE9LZWx0eEdWVjRWN0g4REpkRUlySllxWDMydHZ1QmpNZWpLd3h6d1Q?oc=5",
+   "s": "JVMag",
+   "d": "2026-11-09T06:42:00+00:00",
+   "lang": "fr",
+   "t": "HWd7O3VXMAAr2ws",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWUgweWl3VlFPZ2VoQk9lcllKcjFkdm40STBuRmgwSFZTM2lVQ19DbUJkS3dvd3F3OXVRaU5aTzJZbVY2dU5CZER2a1VwcktNNTFRbG1RYU5zMjNjYUhvUWZVZlBSZk1DOWcyZlZ3TWxpZHFvS0wtUi1FYjBUci03RlNqSjAwTUlqS1VxZlNYZ0M2MFBFX216cVFGWjJVSEc4cFRubjAtWEo?oc=5",
+   "s": "Around Prague",
+   "d": "2026-11-09T06:23:34+00:00",
+   "lang": "en",
+   "t": "GTA 6 Leak Claims 55 Achievements, Topping GTA 5 and Red Dead 2",
+   "erreur": "429 : passage suivant"
+  },
   {
    "gn": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPdEJsbDZlRVV6TjhnQUdXWjFfRXdwYTB1cU1saTd3Z25hRmpWR1ZBaWZIenREazVfbjFiRDl0YmJOTmVoVzR4Y3NGUEdnR2xockFmYVd2NFI1dm9nTnJRTWJsSmRNMWE0OThWbWpQY1YyVHo3WDAwcFZ0cEdTbGFVaXFyOTBTbjdycFltcw?oc=5",
    "s": "MCE TV",
@@ -19,7 +67,7 @@
    "d": "2026-11-09T05:56:00+00:00",
    "lang": "fr",
    "t": "Une version de lancement de GTA 6 ayant fuité laisse penser que le multijoueur en ligne pourrait bientôt être lancé",
-   "erreur": "HTTP Error 429: Too Many Requests"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRWFMdTR4QTJJVW5Qa25LMlJYcTJjVWx4NXpfNHVVeHJ4a2JFMlNraTJVRzMxaDZwV0pJVlFra1FQMEM5QkV3dk5EYnJuX29QV19kU3JLMTVlSENXaW5xMS1ncmw2YjBMX0ZXeGtYSzVnRHZmUG5hNEdKOGUyOVh1YmxrX0ZMV3dVekt6NllmRmE?oc=5",
@@ -71,7 +119,7 @@
    "s": "GTA BOOM",
    "d": "2026-11-09T05:36:17+00:00",
    "lang": "en",
-   "t": "GTA 5's DJ Cara Actor Says She Is Taking Two Weeks Off for GTA 6",
+   "t": "GTA 5's DJ Cara Actor Has Booked Two Weeks Off to Play GTA 6",
    "erreur": "429 : passage suivant"
   },
   {
@@ -249,18 +297,6 @@
    "pub": ""
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbXV5dTBNVFZIeDl3TFBvVllLSjlqbFlsQUdjSk0yVDJpaXFDMThhRER3X0xra2ZxbUZzVHVCY0ZWTWxxMXE3em1aM1hDNUtzYzdwQW1PWkcwc09HU3FkSEZWbnIwWTRmRkhQXy0zRzJua1kwaUEzZklXazBELTlZOTJWOA?oc=5",
-   "s": "Yahoo Finance UK",
-   "d": "2026-11-09T01:46:00+00:00",
-   "lang": "en",
-   "t": "Five things to know about",
-   "u": "https://uk.finance.yahoo.com/news/five-things-know-grand-theft-014645533.html",
-   "img": "https://s.yimg.com/lo/mysterio/api/23f6478dc1fedef8467364d76c41062ecd8f2a3e2fb7554faf0c7717c7998424/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fafp.co.uk%2Fad8d2d1239db5e020b6fcb78c37a7ec6.jpg",
-   "chapeau": "The video game that launched 1,000 controversies and made billions of dollars for its studio is back -- \"Grand Theft Auto VI\" will hit a console near you on November 19.Originally targeted for late 2025, \"GTA VI\" was pushed back twice before settling on its November 19 release date on PlayStation 5 and Xbox Series X and S.\nThe game reportedly cost between $1 billion and $1.5 billion to produce, which would make it the most expensive cultural product ever.\nbur-jxb/eab/abs",
-   "txt": "Five things to know about 'Grand Theft Auto' AFP Mon, 9 November 2026 at 2:46 am CET 3 min read The next title in the GTA series is widely expected to be the biggest game of the decade (SAEED KHAN) The video game that launched 1,000 controversies and made billions of dollars for its studio is back -- \"Grand Theft Auto VI\" will hit a console near you on November 19.\nThe title is widely expected to become the biggest game of the decade, its launch coming 13 years after the previous edition scaled new heights in terms of gameplay and profitability.\nThe first two games in the series, which debuted in 1997, offered a top-down view of the action as players took on the role of a criminal on missions around cities.\nBut \"GTA III\" set the standard in 2001 for what games could be like, offering a combination of a three-dimensional open world, advanced graphics and gameplay that won widespread critical acclaim and legions of fans.\nEach new GTA title since then has been hailed by both industry analysts and gamers for pushing the boundaries of what is possible in the medium.\nAnd they have all been bestsellers, bringing in billions of dollars for Take-Two Interactive, parent company of the Rockstar Games studio.\nDespite not releasing a flagship GTA game for more than a decade, the series has remained a cash cow, especially thanks to its multiplayer online version, where users can buy in-game items.\nThe last game in the franchise, \"GTA V\", was released in 2013 and reached $1 billion in retail sales \"faster than any entertainment release in history\", Take-Two has said.\n\"GTA V\" has sold around 230 million copies, according to the company's most recent figures, making it the second best-selling game of all time, behind Minecraft.\nThe entire GTA franchise has sold a mammoth 470 million units, according to Take-Two.\nWith the wild success came a wave of controversies. Critics have from the start accused the series of glorifying violence and encouraging players to engage in criminal behaviour -- allegations Take-Two executives have denied.\nGTA games have also faced strong criticism for misogynistic portrayals of women, caricatures of ethnic minorities and depictions of torture.\nDespite being praised for their often biting cultural satire, the level of violence in the games has at times led to bans and restrictions in some countries.\nTarget Australia stopped selling \"GTA V\" in 2014, citing customer concerns. GTA games also carry a content rating for mature audiences only. Take-Two executives have said customers should be free to choose what games they buy.\nGTA has become a cultural institution despite the criticism, with its content spawning countless online memes and fans around the world referencing its scenes and dialogue.\nIts growing influence has attracted some of the biggest names in entertainment to its cast. Tommy Vercetti, the main character in 2002's \"GTA: Vice City\", was voiced by Hollywood star Ray Liotta.\nOther cameos in the series include Samuel L. Jackson, Burt Reynolds, musician Phil Collins and comedian Ricky Gervais. In 2021, hip-hop superstar Dr. Dre featured.\nThe French electro duo Justice is composing the soundtrack for \"GTA VI\" and an album built around the game's universe brings together musicians including rapper Travis Scott and Rolling Stones guitarist Keith Richards.\nThe studio formally revealed \"GTA VI\" with a trailer in December 2023.\nThe new game is set in Leonida, a fictionalised version of Florida that includes a return to the Miami-inspired Vice City. It follows a criminal couple, Jason Duval and Lucia Caminos.\nOriginally targeted for late 2025, \"GTA VI\" was pushed back twice before settling on its November 19 release date on PlayStation 5 and Xbox Series X and S.\nThe game reportedly cost between $1 billion and $1.5 billion to produce, which would make it the most expensive cultural product ever.",
-   "pub": ""
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZVhnR3JaTUYzVTh0eWUtZmlUQ2YzZndMRnY2MUZPZmZIWFhfeHlKd0JpM011dlF6enU1QmJRRDFIM1l3ZjVSdzVubk9jWktyVnhYZFZqTEVmYWE1cnBJaGMtUHpka1dlbmMwUDVjQndMb0V1Q25oYzlqLWduTEVzS1hPUFhxQQ?oc=5",
    "s": "shattered.io",
    "d": "2026-11-08T21:23:53+00:00",
@@ -365,50 +401,6 @@
    "pub": "2026-11-08T19:11:00+01:00"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1aR3ktRzB2TXdRbUlEMTBhQmp4azBYTVhFTC03aVA5SVJsV0xfTUwzZDlxTHNsWmk3QldUNU9lWFZpTjFrWGdlZ1kyVzhhdV8tUW1PVWZGU1RwY2EwT0ZxMXRlbnR2TjN1OHprWDZ0dllYTTFFNmt4OXdSeWsyZw?oc=5",
-   "s": "Enerzine",
-   "d": "2026-11-08T17:50:00+00:00",
-   "lang": "fr",
-   "t": "PS5, une mise à jour de 1,27 Go à l’approche de GTA VI",
-   "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQeFhKRXRMSmhyUjM1Q3ZCb2VIWElBaXBoaWFWbG9qdTB4V3BfS3lFUXRXMTJBV2xldGV3MkRySWF5YjBSN29DQmd5ZTZkN2dFTzRRdm9pand5elNPTWVzS0NQVmxOOC1CNlZnNlRZV1loRjVETHIwXzIwQmVxckM0V0dpdXVueG84d2pXRVZsU1BSa3d4cVZtWjFmX2VZbUE?oc=5",
-   "s": "EGW.News",
-   "d": "2026-11-08T17:46:28+00:00",
-   "lang": "fr",
-   "t": "Les crédits de fin, selon des rumeurs, de GTA 6 vont durer plus de 80 minutes",
-   "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQS0VuT3JoaG53Y0gtcUsxWnBZRDdnV3BBd01zZThqNVU4NEprbXA2RHBxQXowXzEzZkZwTVRWVEF4M3owOG1mdldQSVZ6M01vNGFVSFhfemU0TEQzcTJtbFc1RUhZdUxCaVUwbTNVZFBRV1JENWxqWjZqNnFtVVNhT2c0M3BvcjUyelRSazZzSmxqX0xRSlJZQUJZWHAtMlV0NlhkWkJzejUyZTBzSTMyTWFmMm9BcHNpOHdxdjIxUkI2UTA?oc=5",
-   "s": "JeuxVideo.com",
-   "d": "2026-11-08T17:45:06+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : un ancien braqueur juge le réalisme du jeu du siècle... Il va y avoir des déçus !",
-   "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQXNYd1FKZHpieFMydldPSnZ0Z19JQzV2a0tDaTdBVkM5TUNUUG54SVFqaUMtN1d2dGRMM2hQMGV5cVRxcktvMW9SS0RsVEtxY3RYaHdQMG82RFJuRjdlclZkYWQtdFF6YU43M1praXl6anpGV1F1VDZqWjYxclhweWk2WGExUUtwTi03dWlBaGNSaTRBcUgydkc3OGU?oc=5",
-   "s": "Urban hit",
-   "d": "2026-11-08T17:13:39+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : Rockstar publie 38 nouvelles images avant la sortie du 19 novembre",
-   "u": "https://www.urbanhit.fr/gta-6-rockstar-publie-38-nouvelles-images-avant-la-sortie-du-19-novembre",
-   "img": "https://medias.lesindesradios.fr/t:app(web)/t:r(unknown)/filters:format(jpeg)/medias/A8i6543ugr/IMAGE/ItPNUMOpxg.png",
-   "chapeau": "Rockstar a dévoilé 38 nouvelles images de GTA 6 à deux semaines de sa sortie, prévue le 19 novembre. La galerie montre Vice City, l’État de Leonida et les principaux personnages du jeu.",
-   "txt": "Le compte à rebours s’accélère pour GTA 6. Rockstar Games a mis en ligne 38 nouveaux visuels à deux semaines de la sortie, prévue le 19 novembre sur PS5 et Xbox Series X/S.\nLes images montrent notamment Lucia et Jason, les deux protagonistes du jeu, mais aussi plusieurs personnages non jouables, ainsi que des scènes situées à Vice City et dans l’État de Leonida.\nParmi cette galerie, une image plus discrète se démarque : on y voit un homme cacher son visage avec sa main. Sans action spectaculaire, ce cliché tranche avec les scènes plus chargées et met en avant un détail plus simple, presque intime.\nCes visuels misent aussi sur le réalisme, pour donner un aperçu du monde ouvert avant même la sortie du jeu. Rockstar continue ainsi de faire monter l’attente autour de l’un des lancements les plus attendus de l’année.",
-   "pub": ""
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZVNicWFIV01wclNZaTY5dG9wYnZlQUptbWFrNlJ4ZllPN2FkXzc5RVl6WTJHYnRqeDFIaERzUXNpWC1MdjE4QzhQWTBhZWRNeTljY2pvOVNHZ3lpM1hUMlZqM3VSZFVISDB0RDEyallqenVkbGgzbVIxMEN0S0wtXzBycWlNU0tIZk41M05QVUFnckNmMmUwLUhTeHp0SlZqSXNITEZobkdQenlzcFlnUHhhNjU?oc=5",
-   "s": "Trendyman",
-   "d": "2026-11-08T16:55:53+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : West Coast Customs construit six vraies voitures inspirées du jeu pour Rockstar Games",
-   "erreur": "429 : passage suivant"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1ZQ1RpdDJlSU1sdUN5cS03V2VTSmF5MEQ5N2RNVXVuWnlOb0FCOE1acGs1R3piRlJlbVBCRmlrZWFiY3dkMTg3al83dy1IYThJLVJfd3hid3VOa05kQmpB?oc=5",
    "s": "GeeksLands",
    "d": "2026-11-08T16:00:00+00:00",
@@ -506,19 +498,6 @@
    "lang": "en",
    "t": "Rockstar's GTA 6 Physical Edition Reportedly Leaked; Here's What We Know",
    "erreur": "429 : passage suivant",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA3T05GTWVaZ085MWhhZXpySWticU9OYnYtWWswX0R0ZDVkNzZRSzc3aS1DUkc0OEFzLWJwTEdVTklvNVBOd0FWc1FnQjFteTE0YkVuOXptd3V5LVV1Nkl2ekpxUnBjSERXSklN?oc=5",
-   "s": "Sportskeeda",
-   "d": "2026-11-08T10:01:00+00:00",
-   "lang": "en",
-   "t": "GTA 6 trophies and achievements leaked",
-   "u": "https://www.sportskeeda.com/gta/gta-6-trophies-achievements",
-   "img": "https://staticg.sportskeeda.com/editor/2026/11/3a214-17941309354230-1920.jpg",
-   "chapeau": "GTA 6 is getting closer to its November 19, 2026, release date, and new information about the game continues to surface online.",
-   "txt": "Your login session has expired. Please logout and login again. × GTA Home GTA 6 Leaks GTA 6 GTA Online GTA 5 Cheats GTA 5 Cheat Codes Xbox One GTA San Andreas GTA Vice City GTA 5 Phone Cheats GTA V Cheats PS4 GTA 5 Cheats PS3 GTA San Andreas Car Cheats LS Tags GTA Online GTA 3 cheats GTA 4 cheat codes GTA 6 price More GTA GTA 6 trophies and achievements leaked GTA 6 trophies and achievements leaked By Pranay Mishra Modified Nov 08, 2026 10:01 GMT Share \" data-lazy=\"//staticg.sportskeeda.com/comments/ic-comment-v2.png?w=48\" alt=\"comment\" width=\"20\" height=\"20\" loading=\"lazy\"/> 0 Discuss Share \" data-lazy=\"//staticg.sportskeeda.com/comments/ic-comment-v2.png?w=48\" alt=\"comment\" width=\"20\" height=\"20\" loading=\"lazy\"/> 0 Discuss 0 Discuss What's your opinion? GTA 6 trophies and achievements leaked Discuss Now The achievements and trophies for GTA 6 have been reportedly leaked (Image via Rockstar Games) GTA 6 is getting closer to its November 19, 2026, release date, and new information about the game continues to surface online. It is difficult to grasp that the day is finally coming close when all the “before GTA 6” memes will finally retire. To make things even more interesting, leaks have started pouring in, something that even Jason could not fix.\nThe latest leak gives us an idea of how many trophies and achievements you can expect to unlock while playing GTA 6 . Interestingly, the reported number is higher than what Rockstar Games offered in GTA 5 and Red Dead Redemption 2, especially when comparing their single-player content.\nAccording to a recent leak from GTA Forums user Tex2, also known as TexFunz2, GTA 6 reportedly has 55 achievements configured, including one that could be linked to completing all the others.\nThe information was originally shared on GTA Forums before being picked up by the GTA community on social media. According to Tex2, 54 achievements currently have values ranging from 1 to 54, while the remaining achievement has a value of 1,000.\nThe unusual value of the final achievement has led to speculation that it could be a special reward for completing the entire achievement list. This could mean a Platinum Trophy on PS5 or a Mythic Achievement on Xbox Series X|S. However, the values could simply be placeholders that Rockstar will change before launch.\nWhat makes this leak particularly interesting is the comparison with Rockstar's previous games. GTA 5 has 51 trophies in its base PS5 trophy list , but only 33 of them are tied to offline gameplay. The remaining trophies include GTA Online-related objectives and the Platinum Trophy.\nRed Dead Redemption 2 follows a similar pattern, featuring 52 PlayStation trophies in total, with 34 tied to its single-player experience . The rest include Red Dead Online achievements and the Platinum Trophy.\nNote that this is the reportedly leaked trophies list. It will be updated once the official list is out.\nIf the leaked GTA 6 list is entirely focused on single-player content, it would represent a major increase over both games. With 54 regular achievements reportedly configured, GTA 6 could have nearly twice as many single-player trophies as GTA 5 and Red Dead Redemption 2.\nThis could also suggest that GTA 6 will have more activities, collectibles, side missions, and challenges for you to complete. However, the achievement count alone does not confirm how much content the game will offer.\nAnother important detail is that the leaked information does not reveal the names or requirements of these achievements. This means we still do not know how difficult they will be or how much time you will need to unlock them all.\nRockstar Games has not officially confirmed the 55-achievement count , so the information should be treated as a leak for now. We will have to wait for the official trophy and achievement lists to learn exactly what Grand Theft Auto 6 has planned for completionists.",
-   "pub": "2026-11-08T09:46:44+00:00",
    "cyberleek": true
   },
   {
@@ -815,6 +794,15 @@
    "chapeau": "Cyberleek annonce la fin de ses fuites de GTA 6 après l’échec de son objectif financier. Le groupe renonce à publier sa prétendue version complète.",
    "txt": "Cyberleek annonce l’arrêt de sa campagne contre Rockstar Games et Take-Two Interactive. Dans un communiqué en trois parties publié le 14 octobre, intitulé “ La fin de la route “, le groupe anonyme affirme abandonner la publication d’une soit disant version complète et jouable de GTA 6.\nCette décision n’est pas une surprise puisqu’elle a été conditionnée à l’échec d’une opération liée à une cryptomonnaie. Le groupe voulait porter sa capitalisation à 30 millions de dollars , un seuil qui n’a pas été atteint.\nCyberleek avait conditionné la publication de l’intégralité de la campagne solo à cette valorisation. Il avait également proposé de renoncer à la diffusion si Take-Two acceptait de commercialiser le jeu sur disques physiques et présentait des excuses publiques.\nPour expliquer cette marche arrière, le groupe met en avant les difficultés d’une mise en ligne anonyme de plus de 200 Go de données. Il estime que les risques associés ne se justifient pas sans avoir atteint son objectif financier.\nEnfin le groupe assure aussi détenir la fin de GTA 6, tout en affirmant avoir choisi de ne pas la dévoiler. Selon son communiqué, certains extraits récemment diffusés proviendraient des missions finales, mais auraient été sélectionnés pour éviter les révélations importantes sur l’intrigue.\nMalgré l’annonce de son retrait, Cyberleek conserve un moyen de pression. Il prend la forme d’un prétendu “ interrupteur de l’homme mort “, censé déclencher la publication de spoilers si le groupe était ciblé.\nAucune preuve de l’existence de ce dispositif n’a été fournie.\nMAJ : GTA 6 : Cyberleek fait volte-face et propose sa prétendue build pour 40 dollars",
    "pub": "2026-10-15T09:09:22+00:00",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPd3laQ1VxeHJmZk80d21PZjB3YkRaWGpuVVJlSGE4UERCa0ZJeGNQWGdMaUFiNlIwVWpTcW5xZWI5MnlVdWZNWThNVmpjYlEtQTc5NjlTbVlyaFVWQ2l4STdTZU9Jc29iUHdLOGxuTHMxeU1mb3RUMDhtUXgwQnE1U2pTaGVUUFBHaHVRM2VWSTJRWFhFbUZ5amtnajdPc3EyZGc?oc=5",
+   "s": "PC Gamer",
+   "d": "2026-10-15T07:00:00+00:00",
+   "lang": "en",
+   "t": "Who is Cyberleek? What we know about the GTA 6 leaker",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   }
  ]
