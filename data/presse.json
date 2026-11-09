@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-09T06:14:30+00:00",
+ "maj": "2026-11-09T06:35:00+00:00",
  "articles": [
   {
    "gn": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPdEJsbDZlRVV6TjhnQUdXWjFfRXdwYTB1cU1saTd3Z25hRmpWR1ZBaWZIenREazVfbjFiRDl0YmJOTmVoVzR4Y3NGUEdnR2xockFmYVd2NFI1dm9nTnJRTWJsSmRNMWE0OThWbWpQY1YyVHo3WDAwcFZ0cEdTbGFVaXFyOTBTbjdycFltcw?oc=5",
@@ -14,6 +14,14 @@
    "pub": "2026-11-09T07:03:59+01:00"
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPdGJYWXBWQVFyaGVVSHpFOC1UNHNlVW94dWkyV1B5T0t6S2F5aXFPdTc1Q0tVZG5PZG1iaFhja2xOQTdyUWc2c2x6SndTVWVDR01Jd1d6b1BEODdMMFc5WXV2c2VpeW5YRjRiZmtyZGNwTmtmenBJZkRadkxIVGFQRWNGRVpyWEQzc2lXQTBxNkRpMFBtckM1UWE4YW5FN0RPRlY5R1lyQ09EaDFjTnotdUQ5SzRhZ1VpdU9mRW5xRWYtSjA4LWtLUEZKSGM1NHpVYjVrVDdBZXQ4cXpCQnVSWUFBS2JPcTN4MGlvOHZLZHdZUQ?oc=5",
+   "s": "Notebookcheck.fr",
+   "d": "2026-11-09T05:56:00+00:00",
+   "lang": "fr",
+   "t": "Une version de lancement de GTA 6 ayant fuité laisse penser que le multijoueur en ligne pourrait bientôt être lancé",
+   "erreur": "HTTP Error 429: Too Many Requests"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRWFMdTR4QTJJVW5Qa25LMlJYcTJjVWx4NXpfNHVVeHJ4a2JFMlNraTJVRzMxaDZwV0pJVlFra1FQMEM5QkV3dk5EYnJuX29QV19kU3JLMTVlSENXaW5xMS1ncmw2YjBMX0ZXeGtYSzVnRHZmUG5hNEdKOGUyOVh1YmxrX0ZMV3dVekt6NllmRmE?oc=5",
    "s": "tech-insider.org",
    "d": "2026-11-09T05:52:03+00:00",
@@ -23,7 +31,8 @@
    "img": "https://tech-insider.org/wp-content/uploads/2026/11/gta-6-build-leak-joinsession-multiplayer-strings-3-clues-2026-hi09.webp",
    "chapeau": "New GTA 6 Online leak: build strings hint at multiplayer. See what was found, what it could mean, and how credible it is in 2026.",
    "txt": "Elias Virtanen November 9, 2026 11 min read A fresh datamine of the Grand Theft Auto VI launch build has the fan community asking one question ten days before release: is GTA 6 Online closer than anyone thought? According to a Mezha report relaying Notebookcheck , PlayStation Game Size found traces of online functionality in the release build, including the strings joinSession , launchActivity and launchMultiplayerActivity . Both outlets stress that multiplayer will not be playable on November 19.\nThat caveat matters. Rockstar Games has described Grand Theft Auto VI as a single-player experience at launch, and no official record gives a date for an online mode. The leak is interesting because it suggests the plumbing exists inside the shipping build. It is not proof that a multiplayer launch is imminent. With the digital preload arriving November 12, as we laid out in our nine-day preload countdown , expect even more file-digging in the coming days.\nThis analysis separates what is confirmed from what is leaked, walks through the three strings, compares the situation with the GTA V and Red Dead Redemption 2 launches, and ends with five predictions plus an FAQ. Every unconfirmed item is labeled as such.\n· Google · Preferred Sources Don't miss new tech stories on Google\nAdd Tech Insider once in the Google app and our stories appear in your news suggestions.\nThe story starts with PlayStation Game Size, a tracker that watches PlayStation backend data. Notebookcheck, which published the original write-up on November 9, 2026, reports that an analysis of that backend surfaced references to online features inside the build intended for launch. Mezha summarized the same finding the same day.\nThree strings drew the attention. Taken together, the outlets say, they suggest players could create or join sessions and start multiplayer-focused activities. That is a fair reading of the names, but names are all anyone has. Nobody outside Rockstar has shown what these identifiers do, whether they are live code paths or dormant scaffolding, or which game mode they belong to.\nThe reports also describe the finding as coming from backend data rather than from a playable build someone ran. That distinction shapes how much weight the leak deserves. Backend entries can list planned features, internal test hooks, or leftovers from earlier development. Treat the find as a clue, not a feature list.\nDevelopers name functions for what they do, so the identifiers hint at intent. The table below pairs each reported string with the reading the outlets offered and the limit of that reading. The interpretation column is analysis, not Rockstar documentation.\nThe middle string is the weakest evidence on its own. A generic activity launcher could power single-player side content, photo mode challenges, or platform-level features. Only the third string names multiplayer outright, and even it says nothing about timing.\nShipping builds often carry code for features that arrive later. Studios do this to avoid giant day-one patches or to keep one codebase for every mode. When a feature switch flips months after release, dataminers look prescient in hindsight. When the switch never flips, nobody revisits the old headlines. The honest takeaway is that the strings raise the odds of a future online mode without dating it.\nThe official record is short and consistent. Rockstar Games is the developer and publisher label, and Take-Two Interactive Software, Inc. is the parent company. The game launches on PlayStation 5 and Xbox Series X|S for $79.99. The setting is the fictional state of Leonida and a modern-day Vice City.\nOn the date, Rockstar’s own newswire post carries a one-line statement: “Grand Theft Auto VI will now release on Thursday, November 19, 2026.” You can read it on the Rockstar Games newswire . Take-Two’s pre-order announcement set pre-orders to open June 25, 2026 at midnight local time and listed the November 12, 2026 digital preload date.\nWe keep a running ledger of this split in our confirmed versus rumor scorecard . The new leak lands in the unconfirmed column, as every datamine does until Rockstar speaks.\nBoth Notebookcheck and Mezha say outright that the multiplayer mode will not be available on launch day. That matches the official description. Nothing in the leak overrides it, and no outlet in this cycle claims otherwise. Anyone telling you the leak proves online play on November 19 is reading more into three strings than the original reporting ",
-   "pub": "2026-11-09T05:52:03+00:00"
+   "pub": "2026-11-09T05:52:03+00:00",
+   "cyberleek": true
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUDRYRWgxa1J3R2twQzk2eE1MS0NJb3dxYXY1SWNpQmVGSWRMXzA0cDhHdl90aVRhellWSTV3TTBQM0tMdXFKb3VNb2Fyc1VhQ3lqdnJaQngxTGFlX1dmdE9wSXhjMTdfOU11OHVHcnZhNWl2c0J3N2F0bXAzc0VqZEJWRmttZw?oc=5",
@@ -43,7 +52,7 @@
    "d": "2026-11-09T05:46:46+00:00",
    "lang": "fr",
    "t": "Le préchargement de GTA 6 sur PS5 révèle quatre extensions téléchargeables",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZmlSVkJsUVRLd0NuZk1PYVRKRXVoYTBlc3hQY2plVmpNUTlLbzI3VUxLU0Z2UkRDWmdhQzczdnV3WEdyUEducG5zeE4wMHBHUUM0TWdCMEF1RmVMblZYYmJHZU5TWFBBZGVIaXUxQ1VLbGZnS1RLYTZPeExfZ2YxejN6OXZ1SHg5TDR5dlBFVW5tYUxMQzJuOWo3UVc1QWVzODk2cTFpQnBtdDg?oc=5",
@@ -56,6 +65,14 @@
    "chapeau": "Touché depuis trois ans par une maladie inflammatoire chronique de la peau, Joel se réfugie dans les jeux vidéos et auprès de ses animaux.",
    "txt": "«C’est dur. Ça vous tire vers le bas.» À 20 ans, Joel Kanthak vit depuis trois ans avec de l’acné inversée, une maladie inflammatoire chronique de la peau qui provoque notamment des abcès et des plaies douloureuses. «Quand j’ai appris que je devrais vivre avec toute ma vie, le sol s’est dérobé sous mes pieds.»\nCertains jours, la douleur est telle qu’il ne peut même pas se lever. Tandis que les jeunes de son âge étudient, travaillent ou sortent entre amis, Joel passe l’essentiel de son temps chez lui. «Je ne vois mes amis que les bons jours. Mais je suis déjà heureux de ne pas les avoir complètement perdus.»\nLe jeune habitant de Dübendorf (ZH) trouve du réconfort dans les jeux vidéo, notamment «Fortnite», où il a noué de nombreuses amitiés. «Quand je joue, j’oublie la douleur.» Il attend aussi avec impatience la sortie de «GTA 6». «Je pourrai plonger dans un autre monde, sans ma maladie.»\nSes animaux lui apportent également du soutien. Il possède des perruches et partage son quotidien avec le chien de la famille. «Il sent quand je vais mal et vient aussitôt se coucher près de moi.»\nMais le regard des autres reste difficile à affronter. «Aller à la piscine ou à l’Alpamare, j’adorais ça quand j’étais enfant. Aujourd’hui, je n’ose plus. J’ai honte de montrer ma peau.» Joel espère un jour dépasser cette gêne et voir la médecine progresser. «Peut-être que cette maladie ne sera plus incurable à l’avenir.»\nLe jeune homme encourage les personnes présentant des symptômes similaires à consulter rapidement. «Il ne faut pas avoir honte. La maladie s’installe progressivement, puis elle prend de l’ampleur.»\nIl souhaite aussi davantage de compréhension. «Au lieu de me regarder bizarrement, les gens peuvent simplement me poser des questions. Je suis ouvert à en parler.»\nMalgré trois ans de traitement antibiotique, Joel affirme que son inflammation reste importante. Les lésions situées à l’aine sont particulièrement douloureuses et perturbent même son sommeil. Il doit disposer des coussins de manière à limiter la pression sur les zones touchées.\nRécemment opéré, Joel attend désormais la cicatrisation de sa plaie. Il espère ensuite pouvoir reprendre une activité professionnelle lorsque son état le permettra.\nUn lit électrique réglable pourrait lui permettre de dormir plus confortablement. Son père, Fredi Kanthak, 56 ans, a donc lancé une collecte sur GoFundMe , espérant réunir 2000 à 3000 francs.\nFredi, qui bénéficie lui-même de l’assurance invalidité, partage le quotidien difficile de son fils. «À son âge, je sortais et j’allais à des fêtes. Voir qu’il ne peut pas en profiter, ça fait mal.» Malgré tout, Joel garde espoir, soutenu par ses parents. «Je fais de mon mieux. Heureusement, ils sont toujours là pour moi.»\nThomas Sennhauser (ths) travaille pour 20 Minuten depuis 2020. Il a commencé comme journaliste vidéo avant de rejoindre, deux ans plus tard, la rubrique News & Gesellschaft.",
    "pub": "2026-11-09T05:36:53.850Z"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWFczWU05YVBoU29iY1pjZGtlRjBlNUxXeGxFci1qWU9PWmpxZnQ3czJ1X0NBVWJzME10NW1veW15SmN2dkZKVWNBdW02SWUyOThxVnhYR2VMN1FMZGgzdDFjeFFLTFRteFFDbnlRV2RyVHJua3RqUWZhRm1XaDVDOEVyTkNXV1hYODVHV3E4WWxNZjBq?oc=5",
+   "s": "GTA BOOM",
+   "d": "2026-11-09T05:36:17+00:00",
+   "lang": "en",
+   "t": "GTA 5's DJ Cara Actor Says She Is Taking Two Weeks Off for GTA 6",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVnV2ZmhQLTFjS2drVF9YVHFicmNuaGx1MmE0c3pGbzROVmZLUE9WZEFDeWxCcVFJVWs3UVNwcjRVM0hzbG5RN3oxdmx6ZUQyT25hWE1pSlJORjJLa2FqdXZDZWNkaU9FZTVkZEdBb1hhMzBkY2poTGZfVEdZdllybWFFTVZoSXdROVFmWVhTd203aU5kYkM4dlN3?oc=5",
@@ -117,7 +134,8 @@
    "img": "https://sf.lacremedugaming.fr/wp-content/uploads/creme-gaming/2026/11/gta-6-une-fuite-revele-une-taille-differente-sur-xbox-et-ps5-avec-un-patch-envisageable-des-le-premier-jour-1200x660.jpg",
    "chapeau": "Une nouvelle fuite chiffre enfin la taille GTA 6 Xbox vs PS5, avec plus de 200 Go en jeu et un calendrier de préchargement déjà calé. Mais ces données contradictoires cachent peut-être un patch day one et d’autres surprises pour le 19 novembre 2026.",
    "txt": "Une nouvelle fuite chiffre enfin la taille GTA 6 Xbox vs PS5, avec plus de 200 Go en jeu et un calendrier de préchargement déjà calé. Mais ces données contradictoires cachent peut-être un patch day one et d’autres surprises pour le 19 novembre 2026.\nLes joueurs savaient que GTA 6 serait massif, ils commencent à découvrir à quel point. Une nouvelle fuite côté Xbox Series X|S montre que le prochain jeu de Rockstar Games pourrait occuper bien plus de 200 Go sur le SSD, avec une taille de fichier qui ne colle pas tout à fait à celle annoncée sur PS5 .\nEntre les chiffres du Microsoft Store , ceux du PlayStation Store et la note officielle de Rockstar, on voit désormais apparaître plusieurs valeurs différentes pour un même jeu. De quoi alimenter une question qui fâche à l’approche du 19 novembre 2026 : la version Xbox intègre-t-elle déjà un patch day one que la version PS5 ne montre pas encore clairement ?\nLa fuite part de la DisplayCatalog API de Microsoft, mise en lumière par l’utilisateur Cokymoky puis analysée par Notebookcheck. Le build « global » de GTA 6 sur Xbox affiche ainsi 209,86 Gio, soit environ 225,34 Go, tandis que la version japonaise descend à 208,74 Gio, soit 224,07 Go. Le Xbox Store , lui, affiche 209,86 Go, mais il semble en réalité reprendre la valeur en Gio, plus technique.\nCôté PS5 , le compte X PlayStation Game Size a repéré un téléchargement d’environ 210 Go pour l’édition Standard de GTA 6 , chiffre ensuite relayé par Insider Gaming et la presse française. De son côté, Rockstar prévient déjà que le jeu demandera « up to 212 GB of available space, depending on your device ». Autrement dit, l’installation finale pourrait légèrement dépasser les chiffres de préchargement sur les deux consoles.\nPremière subtilité à comprendre : la différence entre Go et Gio. Les interfaces grand public parlent en gigaoctets (Go), alors que les backends comme l’API de Microsoft utilisent souvent les gibioctets (Gio), un calcul légèrement différent. 209,86 Gio se traduisent ainsi par environ 225 Go « marketing » une fois arrondis, d’où l’écart entre les valeurs visibles selon les stores.\nS’ajoute à cela la compression. Notebookcheck rappelle que « because they employ distinct compression methods, Xbox games are often larger than on its rival console ». Résultat : une même version de GTA 6 peut prendre un peu plus de place sur Xbox Series X|S que sur PS5 , même si le contenu est identique. Sur une PS5, avec environ 667 Go réellement utilisables, les 210 à 212 Go du jeu avaleront près d’un tiers du SSD. Sur une Xbox Series S et ses quelque 364 Go libres, GTA 6 pourrait dépasser la moitié de l’espace disponible.\nL’écart entre les 210 Go repérés sur PS5 et les ~225 Go issus de l’API Xbox laisse penser que la build Xbox pourrait déjà intégrer un patch day one. Notebookcheck évoque cette possibilité, tout en rappelant qu’aucune taille précise de mise à jour de lancement n’a été détaillée par Rockstar. Dans le doute, les joueurs ont intérêt à viser au moins 230 à 250 Go d’espace libre au moment du préchargement.\nAutre détail intrigant, la version japonaise un peu plus légère. GTA 6 y hérite du classement CERO Z (18+) , comme GTA 4 et GTA 5 . Or, plusieurs scènes avaient été coupées dans GTA 5 au Japon. La différence de taille entre le build japonais et le build global pourrait donc refléter une nouvelle fois quelques contenus censurés, sans impact pour les joueurs européens.\nEnfin, côté calendrier, les préchargements devraient s’ouvrir autour du 9 novembre au soir sur Xbox et du 10 novembre à minuit local sur PS5, pour une sortie mondiale le 19 novembre 2026 sur PS5 et Xbox Series X|S . Avec plus de 200 Go à télécharger, ceux qui disposent d’une connexion modeste auront tout intérêt à lancer le téléchargement dès que le pré-load sera disponible et à faire un sérieux ménage dans leur bibliothèque avant la date fatidique.",
-   "pub": "2026-11-09T05:00:05+00:00"
+   "pub": "2026-11-09T05:00:05+00:00",
+   "cyberleek": true
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOYmNUN3VpTzlvcGhLZnhpQ1g1TXBtQVR2ZV81SzBZZHZHVmdYUGY2Rno0Q2xEZ0pjV2tvZGJacTlxSmpNMXBpblZTZ1RKQkEwU1JwUmFfbHd2bV9yelhfN1ZqcmwwX0NTQi1qYXVBVU1QQ25yRmtRZjI4VWp1bnNVbHRDNE5IQThpRkZra1R6bWk3dw?oc=5",
@@ -125,7 +143,7 @@
    "d": "2026-11-09T04:02:10+00:00",
    "lang": "fr",
    "t": "La PlayStation 5 représente 74 % des précommandes de GTA 6",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOempfeEMwZ2tJbnRYcm8yUlNFTmNFQ25keVhNdW5uSjVqWVJuX1RKQzU1X0JaSHJzNUVOa05MZ3FzcWNWY0dabzkwVDBLZXA0X05EQTRBMl80X2tUSHoxSm5GUmJLdHd5MEdHUHdrNWpfTnNaMm9XZkNrQUkwSzNBWkFCTGlpaHIyQXlOUFVsOXVrZw?oc=5",
@@ -133,7 +151,7 @@
    "d": "2026-11-09T04:02:10+00:00",
    "lang": "en",
    "t": "PlayStation 5 Takes 74% of GTA 6 Pre-Orders",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbUNlQXdUMi1RYU41Z290ZmRMRXQtYUFHRklEbzc1elNiVWNfN0Q0YzJqdi1XTTJjbXJLRGhIazg1N0dlcmpJam5uMFBJNjdkcEtGZ00zOTdIbVdpc3E4M21jdk5nZG1OVWZoMTNfRHQzME51YVNDWlRyU2F4MUxReU1BVVNTeFlfNU82TXhfZFhLYXpzUnRIbw?oc=5",
@@ -179,7 +197,7 @@
    "d": "2026-11-09T03:09:09+00:00",
    "lang": "en",
    "t": "GTA 6 box spotted in Germany asks for 230GB on PS5, more than Rockstar's official figure",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNTQ4RnI0NGxkRFVqQ3AzRDhSYWVqU3g3QlNHWGNtVlVlMVk3X3JoWHV4TnQzQUNrTE44SU9hY1VKZGdCdUNuS2NjTHNCNzNPX083VVZnQjRja0pjMlhaY2pDN1c5aE5jQWV3NFdjaWgydFhXNGJhV2R4Qnk0NDFaU0VnNzlNVjRTM1FxUQ?oc=5",
@@ -240,18 +258,6 @@
    "img": "https://s.yimg.com/lo/mysterio/api/23f6478dc1fedef8467364d76c41062ecd8f2a3e2fb7554faf0c7717c7998424/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fafp.co.uk%2Fad8d2d1239db5e020b6fcb78c37a7ec6.jpg",
    "chapeau": "The video game that launched 1,000 controversies and made billions of dollars for its studio is back -- \"Grand Theft Auto VI\" will hit a console near you on November 19.Originally targeted for late 2025, \"GTA VI\" was pushed back twice before settling on its November 19 release date on PlayStation 5 and Xbox Series X and S.\nThe game reportedly cost between $1 billion and $1.5 billion to produce, which would make it the most expensive cultural product ever.\nbur-jxb/eab/abs",
    "txt": "Five things to know about 'Grand Theft Auto' AFP Mon, 9 November 2026 at 2:46 am CET 3 min read The next title in the GTA series is widely expected to be the biggest game of the decade (SAEED KHAN) The video game that launched 1,000 controversies and made billions of dollars for its studio is back -- \"Grand Theft Auto VI\" will hit a console near you on November 19.\nThe title is widely expected to become the biggest game of the decade, its launch coming 13 years after the previous edition scaled new heights in terms of gameplay and profitability.\nThe first two games in the series, which debuted in 1997, offered a top-down view of the action as players took on the role of a criminal on missions around cities.\nBut \"GTA III\" set the standard in 2001 for what games could be like, offering a combination of a three-dimensional open world, advanced graphics and gameplay that won widespread critical acclaim and legions of fans.\nEach new GTA title since then has been hailed by both industry analysts and gamers for pushing the boundaries of what is possible in the medium.\nAnd they have all been bestsellers, bringing in billions of dollars for Take-Two Interactive, parent company of the Rockstar Games studio.\nDespite not releasing a flagship GTA game for more than a decade, the series has remained a cash cow, especially thanks to its multiplayer online version, where users can buy in-game items.\nThe last game in the franchise, \"GTA V\", was released in 2013 and reached $1 billion in retail sales \"faster than any entertainment release in history\", Take-Two has said.\n\"GTA V\" has sold around 230 million copies, according to the company's most recent figures, making it the second best-selling game of all time, behind Minecraft.\nThe entire GTA franchise has sold a mammoth 470 million units, according to Take-Two.\nWith the wild success came a wave of controversies. Critics have from the start accused the series of glorifying violence and encouraging players to engage in criminal behaviour -- allegations Take-Two executives have denied.\nGTA games have also faced strong criticism for misogynistic portrayals of women, caricatures of ethnic minorities and depictions of torture.\nDespite being praised for their often biting cultural satire, the level of violence in the games has at times led to bans and restrictions in some countries.\nTarget Australia stopped selling \"GTA V\" in 2014, citing customer concerns. GTA games also carry a content rating for mature audiences only. Take-Two executives have said customers should be free to choose what games they buy.\nGTA has become a cultural institution despite the criticism, with its content spawning countless online memes and fans around the world referencing its scenes and dialogue.\nIts growing influence has attracted some of the biggest names in entertainment to its cast. Tommy Vercetti, the main character in 2002's \"GTA: Vice City\", was voiced by Hollywood star Ray Liotta.\nOther cameos in the series include Samuel L. Jackson, Burt Reynolds, musician Phil Collins and comedian Ricky Gervais. In 2021, hip-hop superstar Dr. Dre featured.\nThe French electro duo Justice is composing the soundtrack for \"GTA VI\" and an album built around the game's universe brings together musicians including rapper Travis Scott and Rolling Stones guitarist Keith Richards.\nThe studio formally revealed \"GTA VI\" with a trailer in December 2023.\nThe new game is set in Leonida, a fictionalised version of Florida that includes a return to the Miami-inspired Vice City. It follows a criminal couple, Jason Duval and Lucia Caminos.\nOriginally targeted for late 2025, \"GTA VI\" was pushed back twice before settling on its November 19 release date on PlayStation 5 and Xbox Series X and S.\nThe game reportedly cost between $1 billion and $1.5 billion to produce, which would make it the most expensive cultural product ever.",
-   "pub": ""
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdF9FRjFILUpOMWdVck9BZjBjdUZLOV9zRk5EV2tsMU5rMEVOTzNHYUhMa3c4dlVSbFJQXzYtWmRyS1NhUW1lR3BLNHNwQlpSak1MSzRneVVHQTBWekdEcXgxRHkycm5sSTFZQ1NvZ0IwX3FfNjJ1X0RDc1FQZ0hvS1VsN0JjV09oN1N2N19QMA?oc=5",
-   "s": "Resell Calendar",
-   "d": "2026-11-09T01:39:10+00:00",
-   "lang": "en",
-   "t": "Selfridges' GTA 6 Merch Collection: Here's What We Know - Resell Calendar",
-   "u": "https://resellcalendar.com/news/news/selfridges-gta-6-merch-collection-uk-us-shipping/",
-   "img": "https://resellcalendar.com/wp-content/uploads/2026/11/selfridgesgta6merch.jpg",
-   "chapeau": "Selfridges is set to open the doors on their GTA 6 pop-up tomorrow morning, with a host of new merch. Here are the details resellers need",
-   "txt": "Resell Calendar is the #1 news source for resellers. Discover goods, keep on top of latest trends, and make them big bucks — buy low, sell high.\nResell Calendar is the #1 news source for resellers. Discover goods, keep on top of latest trends, and make them big bucks — buy low, sell high.\nNews News Selfridges' GTA 6 Merch Collection: Here's What We Know Limited edition GTA 6 has been lucrative for resellers News By RC Staff\nKey Points Selfridges opens its GTA 6 experience at the London flagship on November 9, with doors at 10 AM UK time\nDatamined listings show prices ranging from an £8 keychain to a £2,500 leather varsity jacket\nSelfridges hasn’t confirmed online sales or international shipping, and no resale market exists yet\nGTA 6 lands in under two weeks, and the hype machine is jumping time zones from Miami to London. Selfridges has spent the past few weeks teasing a Grand Theft Auto VI takeover at its Oxford Street flagship, and dataminers have already pulled what looks like the full merch lineup. Some of it is the kind of Vice City gear fans have wanted since the first trailer. Some of it is priced like Selfridges expects you to pay with heist money. Almost everything else about this drop is still a question mark, so here’s what we know, what we don’t, and how resellers on both sides of the pond should play it.\nSelfridges announced the event on Instagram, telling followers to “experience the world of Grand Theft Auto VI” at the store starting November 9 . Its Christmas windows already feature a Vice City scene, complete with a Burger Shot cup. Beyond that, the retailer hasn’t said what’s for sale, and Rockstar hasn’t promoted the event on its own channels.\nThe leaked listings fill in the gaps. The collection mixes in-game brands like Burger Shot, the Vice City Manatees, and the Vice City Narcos with GTA VI and Rockstar logo gear. The headliners are the big-ticket collectibles: a £2,500 GTA VI Goodtime State varsity jacket, a £450 Manatees football helmet, a £280 Manatees starter jacket, a £250 Burger Shot apron made with Hedley & Bennett, and a £150 Narcos mini basketball hoop. Further down the list you’ll find £20 Manatees socks, £25 dad caps, a £35 magnet set, and a £55 enamel pin set.\nIf you’re a GTA fan, a lot of this is cool. The Manatees helmet and the varsity jacket are exactly the kind of in-universe pieces collectors put on a shelf next to their PS5. Not everything here is new, though. Several tees, including the GTA VI Logo, Rockstar Games Logo, and Goodtime State designs, look identical to shirts already sold on the Rockstar Store for $29.99. Selfridges is listing them at £50 to £55, which works out to roughly $67 to $74.\nOne more wrinkle: a September datamine of Rockstar’s own store catalog tagged several of these designs as UK items, including the Narcos tee, the Burger Shot ringer tee, and the Manatees snapback. That hints at UK exclusivity, but it also means some pieces could surface on Rockstar’s store later.\nThe biggest unknown is distribution. Selfridges hasn’t said whether the collection will sell online, and if it does, whether it ships internationally. That matters a lot. America has no shortage of GTA fans, and anything locked to a London pop-up could carry a serious premium with US buyers.\nFor UK resellers , the pop-up is the play. Focus on the pieces that look limited, like the helmet, the hoop, and the outerwear, and skip the tees, mug, and keychains that overlap with Rockstar’s own store. Run the numbers first. After eBay’s 13.6% fee, the £450 helmet (about $603) needs to sell for roughly $700 just to break even, before you pay to ship a bulky box overseas. The varsity jacket needs nearly $3,900. Nobody knows yet whether US buyers will pay that. Return and refund terms for the collection haven’t been published, so confirm them in store before you commit real money.\nFor US resellers , there’s nothing to do but wait. Selfridges’ London stores open at 10 AM UK time, which is 5 AM ET and 2 AM PT, and the online store could go live at the same time. We probably won’t know for sure until then.\nThis looks like one of the last major merch drops before GTA 6 launches on November 19, and resellers are still hunting for ways to cash in on the hype. The Selfridges collection has some of the coolest GTA gear we’ve seen so far, but the prices deserve a double-take. Don’t rush into anything until Selfridges confirms how it’s selling the collection. We’ll update this article as soon as we know more.\nF",
    "pub": ""
   },
   {
@@ -323,7 +329,7 @@
    "d": "2026-11-08T19:10:10+00:00",
    "lang": "fr",
    "t": "Pourquoi WoW Forever n'est pas un problème pour GTA 6 ?",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcktISWxEaDYxR1lTeVlYMFFadTlYZmtTMVJKdXlCZnRPd3NBQmpSeTVhWEVWS1liSmc3eGJPc0QyeWh3cG1ER2NISmRIS09JUzJ0TF9HZ3daeXoxaWlENWU1ckoyOThPUHgwMWljbjBkc0RCSDdxMHlZTnN3SGJON3B2YnpETUNaNUNPU1ZIakkwWGtXWE1BOWZENUlzNk9FQTVRZW9GX3BKdkQzaFJPTXBjd2xfeVVkQmJSUw?oc=5",
@@ -331,7 +337,7 @@
    "d": "2026-11-08T18:44:57+00:00",
    "lang": "fr",
    "t": "Les précommandes pour un pack PlayStation 5 Slim et GTA VI sont désormais ouvertes au Brésil au prix de 417 dollars.",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQ0dhVHZmM0hVRHZoM1dnMHNRTzNrZDFpNGZCczlGWWFLQm44ZlRxTThKRk1OSXpNeVFRZk1ST0dSUHUzUGZ2M3pCUTBmTGQ4eDFPaU01MzlvUi1pZ2ZNUVpLbE5fdGNSTlJvX2RvLTBJZHVfcHc5RnpJc0ZBTTVBelhDMnR4UXFSRkE?oc=5",
@@ -364,11 +370,7 @@
    "d": "2026-11-08T17:50:00+00:00",
    "lang": "fr",
    "t": "PS5, une mise à jour de 1,27 Go à l’approche de GTA VI",
-   "u": "https://www.enerzine.com/ps5-firmware-securite-avant-gta-6/199732-2026-11",
-   "img": "https://www.enerzine.com/wp-content/uploads/2026/11/arti_199732.webp",
-   "chapeau": "Sony a poussé un correctif système sur PlayStation 5, avec pour seule explication publique des « corrections de sécurité ».",
-   "txt": "",
-   "pub": "2026-11-08T18:50:00+01:00"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQeFhKRXRMSmhyUjM1Q3ZCb2VIWElBaXBoaWFWbG9qdTB4V3BfS3lFUXRXMTJBV2xldGV3MkRySWF5YjBSN29DQmd5ZTZkN2dFTzRRdm9pand5elNPTWVzS0NQVmxOOC1CNlZnNlRZV1loRjVETHIwXzIwQmVxckM0V0dpdXVueG84d2pXRVZsU1BSa3d4cVZtWjFmX2VZbUE?oc=5",
@@ -376,7 +378,15 @@
    "d": "2026-11-08T17:46:28+00:00",
    "lang": "fr",
    "t": "Les crédits de fin, selon des rumeurs, de GTA 6 vont durer plus de 80 minutes",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQS0VuT3JoaG53Y0gtcUsxWnBZRDdnV3BBd01zZThqNVU4NEprbXA2RHBxQXowXzEzZkZwTVRWVEF4M3owOG1mdldQSVZ6M01vNGFVSFhfemU0TEQzcTJtbFc1RUhZdUxCaVUwbTNVZFBRV1JENWxqWjZqNnFtVVNhT2c0M3BvcjUyelRSazZzSmxqX0xRSlJZQUJZWHAtMlV0NlhkWkJzejUyZTBzSTMyTWFmMm9BcHNpOHdxdjIxUkI2UTA?oc=5",
+   "s": "JeuxVideo.com",
+   "d": "2026-11-08T17:45:06+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : un ancien braqueur juge le réalisme du jeu du siècle... Il va y avoir des déçus !",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQXNYd1FKZHpieFMydldPSnZ0Z19JQzV2a0tDaTdBVkM5TUNUUG54SVFqaUMtN1d2dGRMM2hQMGV5cVRxcktvMW9SS0RsVEtxY3RYaHdQMG82RFJuRjdlclZkYWQtdFF6YU43M1praXl6anpGV1F1VDZqWjYxclhweWk2WGExUUtwTi03dWlBaGNSaTRBcUgydkc3OGU?oc=5",
@@ -396,11 +406,7 @@
    "d": "2026-11-08T16:55:53+00:00",
    "lang": "fr",
    "t": "GTA 6 : West Coast Customs construit six vraies voitures inspirées du jeu pour Rockstar Games",
-   "u": "https://www.mensup.fr/gta-6-west-coast-customs-construit-six-vraies-voitures-inspirees-du-jeu-pour-rockstar-games/",
-   "img": "https://www.mensup.fr/wp-content/uploads/2026/11/gta-6-west-coast-customs-construit-six-vraies-voitures-inspirees-du-jeu-pour-roc-2.webp",
-   "chapeau": "À onze jours de la sortie de Grand Theft Auto VI, Rockstar Games et West Coast Customs ont transformé six véhicules fictifs du jeu en véritables machines roulantes dans les rues de Miami.",
-   "txt": "",
-   "pub": "2026-11-08T16:55:53+00:00"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1ZQ1RpdDJlSU1sdUN5cS03V2VTSmF5MEQ5N2RNVXVuWnlOb0FCOE1acGs1R3piRlJlbVBCRmlrZWFiY3dkMTg3al83dy1IYThJLVJfd3hid3VOa05kQmpB?oc=5",
@@ -414,18 +420,6 @@
    "txt": "GTA 6 compterait 55 trophées sur PS5 et autant de succès sur Xbox Series, d'après deux dataminers, à onze jours de la sortie du 19 novembre . Rockstar n'a publié aucune liste officielle.\nLe compte côté Xbox vient de TexFunz2, puis le dataminer PlayStation Game Size a retrouvé le même total sur PS5, platine compris. Cette concordance rend la fuite plus solide, en attendant la liste officielle de Sony et de Microsoft.\nSelon les deux relevés, aucun de ces objectifs ne concerne le multijoueur. Le changement est net pour les chasseurs de platine, puisque celui de GTA 5 exigeait d'atteindre le rang 100 de GTA Online (le trophée Above the Law).\nGTA 5 proposait 49 succès sur Xbox 360 et 50 trophées sur PS3 à sa sortie en 2013 ; Red Dead Redemption 2 en alignait 51 sur Xbox One et 52 sur PS4, platine inclus. Avec 55 objectifs, GTA 6 irait au-delà de ces deux totaux, alors que ces listes réservaient plusieurs trophées au multijoueur.\nLes dataminers n'ont publié aucun intitulé, pour ne pas éventer l'intrigue. La répartition entre bronze, argent et or n'est pas connue, pas plus que le nombre de trophées cachés ou le total de Gamerscore côté Xbox. La difficulté du platine reste donc impossible à mesurer, tout comme la part des objectifs qui suivront simplement l'histoire de Jason et Lucia.\nD'après Rockstar, le jeu se débloquera dans la nuit du 18 au 19 novembre, à minuit sur PS5 comme sur Xbox Series. Le pré-téléchargement ouvre dès le 10 novembre, à minuit sur PS5 et à 1 h du matin sur Xbox, comme le détaille notre point sur l'heure de sortie en France . Les plus pressés peuvent tenter l'astuce de la Nouvelle-Zélande , qui donne accès au jeu douze heures plus tôt et suppose sur PS5 un compte néo-zélandais. La version boîte, qui ne contient qu'un code de téléchargement, se réserve chez les grandes enseignes, dont nous comparons les prix de précommande .",
    "pub": "2026-11-08T16:00:00.000Z",
    "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNY2FhTHFiaDJLamNkclVkZndiQzdTb3l3S1NJbUxSRzRXRzJjN3k2VWNtQXB3czkwNHhCaE52NGVtLXZzTWZxdVlkQXZQY3lnSzZodTRmMmMwZmJGOVY4a2xZX0tvVGRkR3FvWVFfLXJvOFM3eGZqUDZ0ZS1VTDJPSTZGOTl3enpsZWlzcjNMQ2VBWUVIUDl6VVExRTV1TjNuTnNGVk02SEZmVUM3VUZOaUhlVTBfS2d2aWgxQ21xMHE5dHE0LWZlNWNzZHFVSFVjTnhrWFpzOA?oc=5",
-   "s": "Numerama",
-   "d": "2026-11-08T15:45:00+00:00",
-   "lang": "fr",
-   "t": "Sony prépare votre PS5 pour GTA 6 avec son TV OLED Bravia de 55 pouces qui passe sous les 1 000 €",
-   "u": "https://www.numerama.com/tech/2369811-sony-prepare-votre-ps5-pour-gta-6-avec-son-tv-oled-bravia-de-55-pouces-qui-passe-sous-les-1-000-e.html",
-   "img": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/tv-oled-sony-55-bravia-6-2026-55-bf.png?resize=1600,900&key=d75189a5",
-   "chapeau": "Boulanger a lancé son Black Friday, et le Sony Bravia 6, un téléviseur particulièrement adapté à la PS5, en profite. Le téléviseur OLED de 55 pouces, un modèle 2026, passe à 999 € au lieu de 1 199 €. Le Black Friday tombe le 27 novembre cette année, mais a commencé offcieillement depuis la fin du mois d'octobre.",
-   "txt": "Retrouvez le Sony Bravia 6 OLED 55 pouces à 999 € sur Boulanger Découvrir l’offre\nLe Black Friday tombe le 27 novembre cette année, mais a commencé offcieillement depuis la fin du mois d’octobre. Parmi les téléviseurs concernés par l’opération figure le Bravia 6 de Sony dans sa version OLED, un modèle millésime 2026, qui joue main dans la main avec la PS5, et qui arrive à point nommé avant la sortie d’un certain GTA 6 .\nLe modèle de 55 pouces (139 cm) est affiché à 999 € au lieu de 1 199 € , soit 200 € de moins. Boulanger offre aussi la livraison et la reprise de votre ancien téléviseur, ce qui évite d’avoir à se débarrasser soi-même du vieil écran.\nLe Bravia 6 utilise une dalle OLED : chaque pixel produit sa propre lumière et s’éteint complètement pour afficher du noir. Le contraste est donc très élevé, ce qui se remarque surtout dans les scènes sombres d’un film. La définition est en 4K (3 840 x 2 160 pixels), la fréquence native monte à 120 Hz et le HDR Dolby Vision est pris en charge. L’écran ne fait que 4 cm d’épaisseur et repose sur un pied central réglable en hauteur, prévu pour glisser une barre de son dessous.\nIl va falloir un bel écran pour assurer. // Source : Rockstar Games Côté jeu vidéo, Sony a prévu quatre ports HDMI 2.1, qui acceptent la 4K à 120 images par seconde. Le VRR synchronise le rafraîchissement de l’écran avec celui de la console pour supprimer les saccades. L’ALLM bascule automatiquement le téléviseur en mode jeu dès qu’une console est détectée. S’y ajoute le mode Perfect for PlayStation, qui ajuste l’image pour la PS5. Les haut-parleurs gèrent le Dolby Atmos et le DTS:X, mais avec 20 W de puissance, une barre de son reste conseillée pour profiter vraiment d’un bon audio.\nPour le reste, Google TV donne accès au Play Store, Google Cast permet d’envoyer une vidéo depuis un smartphone, et le Bluetooth sert à brancher un casque sans fil.\nTV 4K : quels sont les meilleurs téléviseurs du marché en 2026 ? (OLED,QLED, Mini LED) À ce prix, le Sony Bravia 6 OLED est-il une bonne affaire ? À 999 €, ce téléviseur OLED Sony Bravia 6 passe sous la barre symbolique des 1 000 € : une excellente affaire pour profiter d’une grande image sans sacrifier les fonctionnalités. Avec ses quatre ports HDMI 2.1 et son mode PlayStation, il est parfaitement adapté à la PS5. Et avec l’arrivée prochaine de GTA 6 ce 19 novembre, c’est le moment idéal pour s’équiper avant de passer de longues soirées manette en main.\nMais ce grand écran ne se limite pas aux jeux vidéo. Avec les soirées qui s’allongent depuis le passage à l’heure d’hiver, il sera aussi un excellent compagnon pour enchaîner les films et les séries dans de bonnes conditions. Les 200 € économisés par rapport à son prix habituel pourront même servir à investir dans une barre de son pour compléter l’installation.\nRetrouvez le Sony Bravia 6 OLED 55 pouces à 999 € sur Boulanger Découvrir l’offre\nDepuis une dizaine d’années, le Black Friday s’est infiltré dans le calendrier commercial des grandes marques et enseignes françaises. Avec l’expérience, on peut vous dire que cet événement fait partie des meilleurs moments pour faire de bonnes affaires.\nBien qu’il porte encore le nom du vendredi noir, le Black Friday s’étend désormais sur un mois chez de nombreux revendeurs. Un format moins typique qui lui retire un peu son petit côté FOMO. On dirait presque les soldes, finalement. Mais c’est aussi moins le rush, ce qui est une bonne chose pour ceux qui veulent faire des achats plus raisonnés. Globalement, on peut résumer ce Black Friday en quatre temps forts :\nDans les catégories qui nous intéressent sur Numerama, on peut lister les réductions des enseignes suivantes :\nGlobalement, tous les rayons profitent des remises, mais il ne faut pas pour autant se jeter sur les premiers prix bradés. N’oubliez pas que pour les enseignes, ce moment est aussi l’occasion de déstocker de vieux produits , dont les plus remisés frôlent parfois l’obsolescence.\nQu’il s’agisse d’un téléviseur, d’un smartphone, d’un casque sans fil ou d’un aspirateur balai, on ne peut que vous conseiller de suivre nos guides d’achat dédiés pour savoir quels modèles valent le coup en 2026.\nPour les produits phares comme les AirPods, la PS5, la Switch 2, un iPhone ou un Samsung Galaxy, sachez que nos tests sont là pour vous aider à savoir s’ils méritent votre argent.\nQuoi qu’il en soit, chez Numerama, nous faisons déjà le tri à votre place en relayant uniquement des bons plans pertinents : des offres sur des pr",
-   "pub": "2026-11-08T15:45:07+00:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPRlNONm1IcHFCNWU2VlJwOTVfUDdnWlowV2x5UXlub25fUGZIRndpVlZ3bFVuM0M5UTZ5eWJGdmU1clFZUm1oQk9aR01IbUttRll0UWdacmlhRFJDdFhBX1BaRG5vUkJIb1V2WW0yMEZOenAzT0JfNWw4RG9HYWxRbHpDYXZYQzczS0QzMHJDYmlXbFdhTVJ3N1RyUFNQYm1kNXA0MWdJTzl6eTRZVzhna2Eyc3hnQlNRZm9jV0pfVktLUWN1WWROdEZDRFF6S19LZ28yanJreWQ2bGhnWjJr?oc=5",
@@ -511,7 +505,7 @@
    "d": "2026-11-08T11:14:21+00:00",
    "lang": "en",
    "t": "Rockstar's GTA 6 Physical Edition Reportedly Leaked; Here's What We Know",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -545,12 +539,8 @@
    "s": "JVFrance",
    "d": "2026-11-07T17:54:12+00:00",
    "lang": "fr",
-   "t": "GTA 6 : une fuite révèle le contenu de la version boîte, bien plus généreuse que prévu - JVFrance",
-   "u": "https://www.jvfrance.com/gta-6-contenu-boite-285689/",
-   "img": "https://www.jvfrance.com/wp-content/uploads/2026/06/GTA-6-keyart-officiel-3.webp",
-   "chapeau": "A quelques jours de sa sortie dans nos rayons, la version boîte de Grand Theft Auto VI a fuité et il y aura bien un goodies à récupérer",
-   "txt": "",
-   "pub": "2026-11-07T17:50:34+00:00",
+   "t": "GTA 6 : une fuite révèle le contenu de la version boîte, bien plus généreuse que prévu",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -650,7 +640,7 @@
    "d": "2026-11-04T14:30:23+00:00",
    "lang": "fr",
    "t": "Une fuite confirme des améliorations pour GTA 6 sur la PlayStation 5 Pro",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -664,19 +654,6 @@
    "chapeau": "Le cours de CyberLeek (CYBERLEEK) est de $0,002120 aujourd’hui, avec un volume d’échange sur 24 heures de $1 061 019. Suivez le cours en direct, le graphique, la capitalisation boursière et les actualités concernant CyberLeek sur CoinGecko.",
    "txt": "Le cours de CyberLeek (CYBERLEEK) est calculé en temps réel en agrégeant les dernières données sur 5 échanges et 6 marchés, à l'aide d'une formule moyenne globale pondérée en fonction du volume. En savoir plus sur comment les prix des cryptos sont calculés sur CoinGecko.\nCyberLeek ($CYBERLEEK) est un meme coin porté par un récit, construit sur la blockchain Solana. Il a attiré l’attention de façon virale en août 2026, en raison de son association avec un personnage ou un groupe anonyme en ligne (« CyberLeek ») qui a diffusé des images de gameplay non publiées de Grand Theft Auto 6 (GTA 6).\nEn France, la cryptomonnaie CyberLeek est recherchée sous les noms « CyberLeek », « CyberLeek crypto » ou « CyberLeek coin ».\nLes jetons CYBERLEEK peuvent être échangés sur des plateformes d’échange décentralisées et plateformes d’échange centralisées. L'échange le plus populaire pour acheter et échanger CyberLeek est Raydium , où la paire la plus active CYBERLEEK/WSOL a un volume d'échange de $160 274,53 au cours des dernières 24 heures. D'autres options populaires incluent LBank et Meteora .\nLe volume d'échange de CyberLeek (CYBERLEEK) est de $1 061 019,14 au cours des dernières 24 heures, ce qui représente une différence de -12,00 % baisse par rapport à hier et signale une activité chute récente sur le marché. Consultez la liste des cryptomonnaies à fort volume sur CoinGecko.\nCyberLeek (CYBERLEEK) a atteint un niveau le plus élevé de $0,03436 et le niveau le plus bas de $0,0004808 . Il se négocie actuellement -93,80 % en dessous de ce sommet et 341,00 % au-dessus de son cours le plus bas.\nLa capitalisation boursière de CyberLeek (CYBERLEEK) est $1 547 653 et est classée 2641 sur CoinGecko aujourd'hui. La capitalisation boursière est mesurée en multipliant le cours du jeton par l'offre en circulation de jetons CYBERLEEK (730 million jetons sont échangeables sur le marché aujourd'hui).\nLa valorisation entièrement diluée (FDV) de CyberLeek (CYBERLEEK) est $1 547 653 . Il s'agit d'une représentation statistique de la capitalisation boursière maximale, en supposant que le nombre maximal de jetons 1 milliard CYBERLEEK est en circulation aujourd'hui. Selon la façon dont le calendrier d'émission des jetons CYBERLEEK est conçu, plusieurs années peuvent s'écouler avant que la FDV ne soit réalisée.\nAvec un changement hausse de 30,50 % pendant les 7 derniers jours, CyberLeek (CYBERLEEK) représente surperformance une part du marché de crypto monnaie global de bas -2,10 % , par rapport à surperformance de catégorie similare Meme qui représente bas -8,80 % .",
    "pub": "",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPTmNqVE5FWFN0c2o0clJiOXE2RkdSbEgwcERtZlZSSjBtcXVkRG5LX2lXMllORTNxN2FHSmlIUHRUYkFrOTlpUlZZa1pSVHJ3SEZ3cUVBVWRWc3JjRzdwcVkwR2dQQ2QwZm5ueHZ2VHpqYXFGSEpnYjNKOTVnQVpHbjE4emVMX2hrZmMxVlF1b0xGWVVfX3Y0akN6WDlTM0hZbkdWc294ZlRnb3lmNUg3OTRVNE5JTi0ya1ZkQnhfekIxTnlaa2NKeHdFT0xxZENULUFubWdTNk5IZng4OWxYMFc4YVl0dFNRU3NRUEVtWmRiT0U?oc=5",
-   "s": "La Crème Du Gaming",
-   "d": "2026-11-04T05:00:12+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : un joueur perd l",
-   "u": "https://www.lacremedugaming.fr/jeux/gta/gta-6/gta-6-un-joueur-perd-lacces-a-son-compte-playstation-apres-avoir-partage-une-fuite-via-un-message-prive-233346.html",
-   "img": "https://sf.lacremedugaming.fr/wp-content/uploads/creme-gaming/2026/11/gta-6-un-joueur-perd-lacces-a-son-compte-playstation-apres-avoir-partage-une-fuite-via-un-message-prive-1200x660.webp",
-   "chapeau": "À 16 jours de la sortie de GTA 6, un joueur affirme qu’un compte PlayStation a été banni pour un simple message privé contenant une fuite. Que s’est-il réellement passé et jusqu’où Sony peut-il aller dans vos MP ?",
-   "txt": "À 16 jours de la sortie de GTA 6, un joueur affirme qu’un compte PlayStation a été banni pour un simple message privé contenant une fuite. Que s’est-il réellement passé et jusqu’où Sony peut-il aller dans vos MP ?\nÀ 16 jours de la sortie de Grand Theft Auto VI sur PS5 , une histoire fait grimper la tension chez les joueurs : un compte PlayStation aurait été banni après l’envoi, en message privé PS App , d’un extrait de gameplay fuité de GTA 6 . De quoi faire paniquer tous ceux qui discutent des leaks dans leurs MP.\nEntre la chasse aux fuites menée par Take-Two Interactive et l’accord marketing massif entre Rockstar Games et Sony Interactive Entertainment , la plateforme est sous surveillance maximale. Mais cette histoire de ban PSN est-elle réelle, et surtout, que risque un joueur français qui partage une fuite de GTA 6 sur l’écosystème PlayStation ?\nLe cas vient d’un post Reddit relayé par Notebookcheck : l’utilisateur Silver-Succotash-612 affirme qu’une connaissance a tenté d’envoyer, via un message privé de la PS App , un clip de fuite de gameplay de GTA 6 , probablement issu de Cyberleek . Selon lui, le profil PSN aurait été gelé quasiment instantanément, avec un délai annoncé de trois mois pour l’appel.\nProblème : aucun mail de sanction n’a été publié, Sony n’a rien confirmé et le joueur concerné reste anonyme. Le site Tech Insider parle même de « 0 cas confirmé » de compte PlayStation banni spécifiquement pour une fuite de GTA 6 dans la PS App. Notebookcheck rappelle toutefois un précédent : un utilisateur avait écopé de 30 jours de ban PSN pour un screenshot de Conan Exiles montrant des personnages nus, pourtant partagé en groupe privé.\nLes règles officielles de PlayStation Network distinguent plusieurs sanctions : suspension de compte, suspension de communication et suspension de console. Une suspension de compte bloque l’accès au PSN et donc à certains jeux achetés en numérique . À J 0 de GTA 6 , cela peut signifier l’impossibilité de lancer une précommande digitale sur PS5, même si la console fonctionne.\nCôté modération automatique, Sony a lancé en mars 2025 la fonction Nudge dans la PS App. Le système analyse certains messages pour repérer des violations potentielles du Code de conduite et afficher un avertissement, sans qu’un employé lise les conversations tant qu’aucun signalement n’est déposé. En théorie, le support ne devrait donc pas bannir un compte uniquement sur la base de ces scans, mais des contenus marqués par des empreintes liées à des DMCA GTA 6 pourraient être détectés automatiquement.\nAvec les vidéos de Cyberleek traquées par les demandes de retrait DMCA de Take-Two et un accord marketing qui met GTA 6 au cœur de la communication PS5 et PS App, Sony a tout intérêt à éviter que des fuites circulent sur ses propres services. Même si le cas Reddit reste non vérifié, il montre surtout à quel point partager des fuites de GTA 6 via PSN ou PS App est devenu risqué.\nPour limiter les problèmes, la règle est simple : ne pas envoyer d’extraits fuité de GTA 6 via les outils PlayStation , qu’il s’agisse d’upload vidéo, de captures d’écran ou de liens vers des contenus déjà frappés par une DMCA. En cas de suspension de compte PlayStation, il faut contacter le support SIE Europe, vérifier la nature exacte de la sanction et déposer un appel avec un maximum d’éléments. Juste avant la sortie de GTA 6, mieux vaut protéger son compte PSN comme son futur braquage in game.",
-   "pub": "2026-11-04T05:00:12+00:00",
    "cyberleek": true
   },
   {
@@ -711,11 +688,7 @@
    "d": "2026-10-22T15:12:54+00:00",
    "lang": "en",
    "t": "Cyberleek Shares GTA 6 Leak Of Naked Lucia",
-   "u": "https://www.imdb.com/news/ni66062173/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -802,7 +775,7 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
    "t": "Le token CYBERLEEK chute de 40 % alors que le leaker de GTA 6 lance de nouvelles menaces",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
