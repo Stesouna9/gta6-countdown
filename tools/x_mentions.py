@@ -2,7 +2,7 @@
 Lit x.com/notifications/mentions dans le Chrome du Mac (comme tools/x_reponses.py), réponse écrite par l'IA pour CE message,
 jamais deux fois le même message, au plus 2 réponses par personne et par jour, messages de moins de 24 h, pas de lien.
 Usage : python3 tools/x_mentions.py [--n=5] [--essai] [--maintenant]"""
-import json, random, sys, time, datetime
+import re, json, random, sys, time, datetime
 from pathlib import Path
 import x_chrome as X
 from x_reponses import ouvre, attend, repond, like
@@ -48,6 +48,15 @@ def mentions():
     finally:
         X.ferme_onglet(); X.ONGLET.clear()
 
+# 10/11 Gabriel : « il y a parfois des réponses spam » : jamais de réponse ni de like à un spam, filtre avant l'IA
+SPAM = re.compile(r"https?://|www\.|t\.me|onlyfans|telegram|whatsapp|crypto|bitcoin|airdrop|nft\b|forex|\\binvest(ing|ment)?\\b|\\bprofit\\b|"
+                  r"\bdm\b|dm me|inbox me|check (my )?bio|link in bio|lien en bio|regarde ma bio|follow ?back|f4f|giveaway|"
+                  r"18\+|🔞|💋|sugar|promo ?code|cashapp|paypal|gagne[rz]? de l'argent|earn \$", re.I)
+
+def spam(m):
+    t = m["texte"]
+    return bool(SPAM.search(t)) or t.count("@") >= 4
+
 def texte(m):
     r = X.ia(f"""{X.aujourdhui()} Tu es le community manager de GTAVIFRANCE (@gtavifrancecom), média fan de GTA 6 en français. @{m['auteur']} nous a écrit sur X :
 « {m['texte'][:600]} » {m['contexte']}
@@ -77,6 +86,8 @@ def main():
         if faits >= n: break
         if not m["url"] or m["url"] in etat["vus"] or m["auteur"].lower() == "gtavifrancecom" or m["quand"] < limite[:19]: continue
         if par_auteur.get(m["auteur"], 0) >= 2: continue
+        if spam(m):
+            etat["vus"] = (etat["vus"] + [m["url"]])[-1500:]; X.log(f"spam ignoré : @{m['auteur']} {m['texte'][:60]!r}"); continue
         try: rep = texte(m)
         except Exception as e: X.log(f"IA : {e}"); break
         etat["vus"] = (etat["vus"] + [m["url"]])[-1500:]
