@@ -6,7 +6,7 @@
 Texte long (≤ 1 100 car., X Premium+ depuis le 22/10), lien de l'article en réponse (x_chrome.py), hashtags #GTA6 #GTAVI #GTA6France + thème, 1 image.
 Jamais deux fois le même article (x_routine_etat.json). Clés : /etc/gtavifrance-relais.env (X_API_KEY, X_API_SECRET,
 X_ACCESS_TOKEN, X_ACCESS_SECRET). Crédits API nécessaires (carte ajoutée par Gabriel dans console.x.com).
-Usage : python3 tools/x_routine.py actu|site|cyberleek|top [--sec | --json | --marque <cle> <id>]
+Usage : python3 tools/x_routine.py actu|site|cyberleek|top|chaud|radio|astuce [--sec | --json | --marque <cle> <id>]
 (--json : le post préparé pour tools/x_chrome.py, qui publie depuis le Chrome du Mac de Gabriel, sans API)   (--sec : affiche le post sans publier)"""
 from zoneinfo import ZoneInfo
 import base64, datetime, hashlib, hmac, io, json, os, re, secrets, sys, time, urllib.parse, urllib.request, uuid
@@ -153,7 +153,21 @@ def main():
     arts = json.load(open(RACINE / "data/articles.json", encoding="utf-8"))
     arts.sort(key=lambda a: a.get("date", ""), reverse=True)
     j = (SORTIE - datetime.date.today()).days
-    if slot == "site":
+    if slot == "astuce":   # 10/11 Gabriel (via V7) : astuce pratique chiffrée du matin, modèle Top Office (92 900 vues, +24 abonnés) ; banque tools/astuces_x.json remplie par la routine gtavifrance-astuce-reassort
+        import urllib.request as UR   # (urllib est importé localement plus bas dans main, branche radio)
+        auj = datetime.date.today()
+        B = json.load(open(RACINE / "tools/astuces_x.json", encoding="utf-8"))
+        def ok(x):   # jamais d'info périmée : prix relevés il y a 2 jours max, astuce encore utile, source encore en ligne
+            if x["id"] in etat["postes"] or x["valable_jusqu_au"] < str(auj) or x["releve"] < str(auj - datetime.timedelta(days=2)): return False
+            f = RACINE / "assets/img/articles" / f"{x['image']}.jpg"
+            if not f.exists(): return False
+            try: return all(UR.urlopen(UR.Request(u, headers={"User-Agent": "Mozilla/5.0"}), timeout=20).status == 200 for u in x["sources"])
+            except Exception: return False
+        x = next((x for x in B if ok(x)), None)
+        if not x: print("astuce : banque vide ou prix trop anciens"); return
+        texte, img, cle, lien = x["post"], (RACINE / "assets/img/articles" / f"{x['image']}.jpg").read_bytes(), f"astuce-{x['id']}", ""
+        rep = x["reponse"]
+    elif slot == "site":
         e, txt, th = ANGLES[datetime.date.today().toordinal() % len(ANGLES)]
         fond = RACINE / "assets/img/vb-motel.webp" if th == "#ViceBreak" else None   # Vice Break : visuel du jeu
         texte, img, cle = compose(f"{e} J-{j} avant GTA 6.", txt, th, appel="👇 Le site en réponse"), visuel_jours(j, fond), f"site-{datetime.date.today()}"
@@ -202,8 +216,9 @@ def main():
         lien = f"https://gtavifrance.com/journal/{a['id']}.html"
         if slot in ("actu", "chaud"):   # 22/10 Gabriel : au moins une news par jour avec le lien dans le post (9 h), pas en réponse
             texte = texte.replace("👇 Article complet en réponse", "👉 " + lien); lien = ""
-    if SEC: print(texte, f"\n[{len(texte)} car., image {len(img)} o]"); return
-    if "--json" in sys.argv: print(json.dumps({"slot": slot, "cle": cle, "texte": texte, "lien": lien, "image": base64.b64encode(img).decode()})); return
+    rep = rep if slot == "astuce" else ""
+    if SEC: print(texte, f"\n[{len(texte)} car., image {len(img)} o]", "\n--- réponse :\n" + rep if rep else ""); return
+    if "--json" in sys.argv: print(json.dumps({"slot": slot, "cle": cle, "texte": texte, "lien": lien, "reponse": rep, "image": base64.b64encode(img).decode()})); return
     try:
         pid = tweet(texte, upload(img))
     except urllib.error.HTTPError as e:

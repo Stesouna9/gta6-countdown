@@ -145,7 +145,7 @@ end timeout''')
 
 def main():
     garde = slot == "chaud" and heures_depuis_post() >= ECART_MAX
-    if not garde: hasard(8 if slot == "chaud" else 55)
+    if not garde: hasard(8 if slot == "chaud" else 20 if slot == "astuce" else 55)   # astuce : lancée à 8 h 10, publiée avant 8 h 30 (créneau 8 h-9 h)
     if gel_dur() or (gel_actif() and not garde): log("gel en cours (" + GEL.read_text() + "), rien publié"); return
     # 28/10 Gabriel : la nuit, X ne réagit que pour une très grosse info (urgence.py, mode nuit strict, pose urgence_nuit.json)
     U = Path.home() / "La Soso/outils/solange-api/urgence_nuit.json"
@@ -180,13 +180,15 @@ return a.sort().pop()||''})()""")
         subprocess.run(["ssh", SERVEUR, f"cd /var/www/gtavifrance && python3 tools/x_routine.py {slot} --marque '{p['cle']}' '{pid or 'inconnu'}'"], capture_output=True, timeout=60)
         log(f"posté {p['cle']} https://x.com/gtavifrancecom/status/{pid}")
         # 22/10 (go Gabriel) : lien du site en réponse à notre propre post (portée du post intacte, Grok relie le compte au site)
-        if pid and p.get("lien"):
+        # 10/11 : slot astuce, la réponse détaillée (prix, sources) remplace le lien
+        suite = p.get("reponse") or ("👉 À lire en entier sur " + p["lien"] if p.get("lien") else "")
+        if pid and suite:
             try:
                 js("location.href='https://x.com/gtavifrancecom/status/%s';'ok'" % pid); time.sleep(8)
                 res = js("""(()=>{const e=document.querySelector('[data-testid=tweetTextarea_0]');if(!e)return 'pas de zone';e.focus();
-document.execCommand('insertText',false,%s);return 'ok'})()""" % json.dumps("👉 À lire en entier sur " + p["lien"]))
+document.execCommand('insertText',false,%s);return 'ok'})()""" % json.dumps(suite))
                 time.sleep(3)
-                if res == "ok": js("(document.querySelector('[data-testid=tweetButtonInline]')||{click(){}}).click();'clic'"); time.sleep(6); log("lien en réponse : " + p["lien"])
+                if res == "ok": js("(document.querySelector('[data-testid=tweetButtonInline]')||{click(){}}).click();'clic'"); time.sleep(6); log("réponse : " + suite.split("\n")[0][:80])
                 else: log(f"lien en réponse : {res}")
             except Exception as e:
                 log(f"lien en réponse : {e}")
