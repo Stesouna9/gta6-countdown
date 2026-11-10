@@ -358,7 +358,13 @@ window.SITE = {
    gerbe à chaque clic, puis une gerbe d'accueil seulement. Aperçu avant l'heure : ?feu=1 . Sans son. */
 (function () {
   var t = Date.now() - new Date(SITE.sortie).getTime(), apercu = /[?&]feu=1/.test(location.search);
-  if (t < 0 && !apercu) return;
+  // 10/11 Gabriel : 7 jours durant, 1re visite de l'accueil = rejeu du passage à zéro ; les feux partent à la bascule (index.html)
+  try { SITE.rejeu = !apercu && t >= 0 && t < 7 * 86400000 && !!document.getElementById("compteur") && !localStorage.getItem("jourj-vu"); } catch (e) {}
+  if (!apercu && (t < 0 || SITE.rejeu)) { window.feux = function () { window.feux = null; feuxLance(0); }; return; }
+  feuxLance(t);
+})();
+function feuxLance(t) {
+  var apercu = /[?&]feu=1/.test(location.search);
   var semaine = apercu || t < 7 * 86400000, doux = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
   var c = document.createElement("canvas"), x = c.getContext("2d"), P = [], dpr = Math.min(2, window.devicePixelRatio || 1), W, H;
   c.setAttribute("aria-hidden", "true");
@@ -401,4 +407,4 @@ window.SITE = {
   requestAnimationFrame(boucle);
   if (semaine) addEventListener("pointerdown", function (e) { boum(e.clientX, e.clientY, doux ? 30 : 70); });
   document.addEventListener("visibilitychange", function () { if (!document.hidden && !actif && semaine) { actif = true; avant = 0; requestAnimationFrame(boucle); } });
-})();
+}
