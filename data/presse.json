@@ -1,6 +1,22 @@
 {
- "maj": "2026-11-10T21:53:21+00:00",
+ "maj": "2026-11-10T22:13:33+00:00",
  "articles": [
+  {
+   "gn": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNnpZV0FBMzRhd2F6MDRQZXRQMlFodUk0QTRZRlAwUWtfTU1JbFpZYlUycmJmLTloa2hLVlRqOGR5amUySkt2Q0k4N2lVcld2S3A5NjRPR3dveWc2SlJPcE04YVV6M2oyMW1vR21IbDc4WHh2T29nNjZ5WlJqdnZpYkFjc1BaNlJMSkYtYzgtZ040UkNyN05GMUV3UQ?oc=5",
+   "s": "PCMag",
+   "d": "2026-11-10T22:01:22+00:00",
+   "lang": "en",
+   "t": "Want to Jump Into GTA 6 a Day Sooner? This Time Zone Trick Can Get You Early Access",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPblk3N3BzYVZPM1JDTXZuNlB4TEZDWVZQQVUzTU1nWHE5V0hpXy03UXU5VzRRWFlSaXJyVjZ0djktWnZDVmx2Q0pncTFzVWZmYW1fQU1aQjVFblpXZjlRT3psYmMzRVoya2FjN2lkS1NHVHBRTS1ER1lWRkFPRzZpTmxOV1E2SE1INXBxSjRVMmlDTjZNZjlEUERrTWlxQWNZNmM0Z1hGY0hZNWM?oc=5",
+   "s": "GAMINGbible",
+   "d": "2026-11-10T22:00:00+00:00",
+   "lang": "en",
+   "t": "GTA 6's first player ratings surface early via PlayStation Store, oops",
+   "erreur": "429 : passage suivant"
+  },
   {
    "gn": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPVlNfNzNwMDJEUzQ5UG5jc1BZdFVlOFEwMEgyTktfekZwODF2XzVnY2RMR1NyaUtEZ1VGVGpLeE9mSFcxY1hsNkowbS1OUjBNQ1JHcFdVWllqNTdYLWtfemdZeUU4SlZxM1BCejZHWFQyNl9sMS1vOHYteFZJc1ZZT3ZIZ3VUb1BaeEg4bDZyaF9MaUlxZjQ1T1pIRzZpQllNNFE?oc=5",
    "s": "level-1.fr",
@@ -19,7 +35,7 @@
    "d": "2026-11-10T21:32:56+00:00",
    "lang": "fr",
    "t": "GTA 6: le jeu le plus précommandé de l’histoire du PlayStation Store",
-   "erreur": "HTTP Error 307: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error messag"
+   "erreur": "HTTP Error 429: Too Many Requests"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVThZQ1NmSFFaQm1sdGFENkNIQS1jV0YyN3NBejRFeUREcWthcDFqMmR4RGU0NUJmQU95cFBsZlNEMkNuNFp1OUw5WUNrWjM2T0x1YTBoQnhkRkdyQmxpNTZlM3NGXy1mb0RBVzJKZExMenQ0TmFoR1FIY3R4eEp6aS10MUhEU1FoM04tUWI1ZWxrby1LRGZuS2NGYkV5RXYweVh3RUU4cGFXbmpmaEJZRXYwV21XRXc?oc=5",
@@ -39,7 +55,7 @@
    "d": "2026-11-10T21:20:09+00:00",
    "lang": "fr",
    "t": "Mauvaise surprise pour ceux qui vont acheter GTA 6 en boîte sur PS5 ou Xbox Series : elle ne contient pas la carte du jeu en version papier",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVVhPdE9neEt6em9Fa2FaWWd2UllTNnJyOElXeTdkY3FTMFZOR0RlQm5maWlYV21GU2t1T0s5UFlCRFZONkdHSnZVNHBteFU4TjQxTHBuejRWM05mdWJWSWNHeUpvTVhMRkwySWZIN3loM0ZoZ0xSU1lTaDZ5ejVFQy1YR3lpV1lvTUdSU2U5OU9jUlE?oc=5",
@@ -47,7 +63,7 @@
    "d": "2026-11-10T21:19:05+00:00",
    "lang": "en",
    "t": "GTA 6 Is About to Break Every Record. Millions of Fans Did Its Marketing for Free In the Process",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBRRlM5aVMzelpWRnFhaGpwTGEtS0NRRHVCTTlTdkNEQ0xnOVF2QXRlbmxDMTdDeTNxQWlkb1pKdkhzd0JNR2VacWRJVTVpQkxqUVJKUG9jZ3ctb0hRWVpOS3Z5VkQxeVJmRFVCOHliQ18yUm8?oc=5",
@@ -79,7 +95,15 @@
    "d": "2026-11-10T20:57:21+00:00",
    "lang": "en",
    "t": "GTA 6: What Will Review Scores Be? You Can Win A $500 Gift Card For Getting It Right",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9lSGVROUVwbzRkandoNlo1Qmh4cmg4Rk56aDNVcGxOZlRhaTVlSFdRVy03YWotNlhhQ1lVU1ZackxQUFZpWXppaEl3Z3N4MjNEUGs4R0RZRWV2X0R5U0NrRzhFVWZjakFRcm1pQWxwcTg5cTlG?oc=5",
+   "s": "Mashable",
+   "d": "2026-11-10T20:51:02+00:00",
+   "lang": "en",
+   "t": "GTA 6 will technically be playable on Xbox One at launch",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiqANBVV95cUxPdTEyc0FxMF8tZG40SEtXQm9hT29DX19PREhVRzNVdHN0UGtzVFNjM19FRXZJNnlSXzROZ3BYX1JDalVFLU1UOXlCUWEzdWtyMUJYREp2TVQxczlEd1dRWUdzTU9CZmRKSjhzb2RXSE81dnRTSkFNdFc3MjNpNzVfUnhJbmJYdkVRYWJyRmFqay0wdDdiN0d1Q3IyOUxTWkNqSWFrTkMwdTlPZTMwRTdHZnd0bGFVU0FMLXdid2FNRXdwNG5TcUIzSVpjM3JuMmJjTGJMY1VjT3l1QTlPdjhpLW5Nd2hBVE4tdWkxNV9hYkw2YjlsRE5ZRVg4bXFQYkNENEs5SjhmR1RLakVrd2NzT2l4NGVBSWk2ZEpOU0JsU1hVRzhYdHJORVQ5RDVCSm9BbHhoNXdhNllYNDJhai1mU0ZDU3FUN09hcW1XZUs5VGFwZEw0c1BvZDhVbUdqRFBya3c5bTBSRmhnYVlGVUZoa1NaaTBXMVoydjh6X3kybmhTWE83YVpDUjluUE91TFRaNWU4Mmx2WFN5Tm1OTnBEUklOUlhVYWNM?oc=5",
@@ -87,31 +111,15 @@
    "d": "2026-11-10T20:40:13+00:00",
    "lang": "fr",
    "t": "À lire sur le site Tech&Co : Rockstar pourrait sortir \"GTA 6\" sur PC plus rapidement que prévu, pas pour faire plaisir aux fans, mais pour éviter les portages sauvages rendus possibles par l'IA, par Kesso Diallo - 10/11",
-   "u": "https://www.bfmtv.com/economie/replay-emissions/tech-and-co/video-a-lire-sur-le-site-tech-co-rockstar-pourrait-sortir-gta-6-sur-pc-plus-rapidement-que-prevu-pas-pour-faire-plaisir-aux-fans-mais-pour-eviter-les-portages-sauvages-rendus-possibles-par-l-ia-par-kesso-diallo-10-11_VN-202611100921.html",
-   "img": "https://io-fsly-bfmtv.cdn.nextradiotv.com/LDhvKcn_fYLMzJWZz86aMvpL57I=/0x0:1280x720/1280x0/images/A-lire-sur-le-site-Tech-and-Co-Rockstar-pourrait-sortir-GTA-6-sur-PC-plus-rapidement-que-prevu-pas-pour-faire-plaisir-aux-fans-mais-pour-eviter-les-portages-sauvages-rendus-possibles-par-l-IA-par-Kesso-Diallo-10-11-2381794.jpg",
-   "chapeau": "VIDÉO - Ce mardi 10 novembre, Kesso Diallo, journaliste BFM Tech, s'est penchée sur la possible sortie anticipée de “GTA 6” sur PC par Rockstar, non pour satisfaire les fans, mais pour éviter les portages sauvages permis par l’IA. Cette chronique est à voir ou écouter du lundi au jeudi dans Tech&Co, la...",
-   "txt": "",
-   "pub": ""
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQQTJ3M3NUMDNKSVdOMGZxaUFpc1ZOeXdTRC1QZVNQUEJLM25MR2tvS0xtOXZETWlzRUVGMnYzWkhYR3dJWkY5MUFvNV93eGpYUWtNem5BSHVqNHVOMk51QUJ0QnZzZUgtWUFrUE9kbXEtaUF4ay03cS16YzlPNDlnWXlSNHN1SWpOMWRvdEJyNkdGQ2p6RXFLZjRMSjE4dG11YjNQMzVWcExLWXRCNUtHSFdCT202czZQR1FRMDJzcndVNXQxblU3aXdHQ2p1dHNnTjJXRTk4TjB2b3lfeGF4N3pmNl8zb1JXMmpibXpyMk1XRXpHOXhFNV9tb2FXY3R5SEQ5RTQ1OVFzSllMbzZxWkREbkk4MEoxa3J4cnRkR1c0aFps?oc=5",
-   "s": "Ouest-France",
-   "d": "2026-11-10T20:40:02+00:00",
-   "lang": "fr",
-   "t": "C’est confirmé par les comparateurs de prix : l’offre GTA 6 moins chère de tout le web est chez Carrefour ce mercredi",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9JSlFWYk50MlJYUDVDSF9YYTkzVGFCazY1ZVBTZXZoQ3hBc2E4dnZobXZ1YUhZcC1VMGZiYTZNamlTY3FpYUdvSUJkRnRWdnVMNjVWYUM0U1lOQjZyalN2cWswYzZaaHEySEE?oc=5",
    "s": "JVFrance",
    "d": "2026-11-10T20:35:56+00:00",
    "lang": "fr",
-   "t": "GTA 6 : 30 FPS confirmés, le PSSR sera disponible dès la sortie sur PS5 Pro - JVFrance",
-   "u": "https://www.jvfrance.com/gta-6-30-fps-pssr-ps5-pro-285815/",
-   "img": "https://www.jvfrance.com/wp-content/uploads/2023/12/gta-v-hd-1920x1080-1.jpg",
-   "chapeau": "Rockstar Games a confirmé les 30 images par seconde pour GTA VI, mais également le support du PSSR sur PS5 Pro pour la sortie.",
-   "txt": "",
-   "pub": "2026-11-10T15:44:45+00:00"
+   "t": "GTA 6 : 30 FPS confirmés, le PSSR sera disponible dès la sortie sur PS5 Pro",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVmlSTlFmQ09GaUNvbXYyOWVVYmozeVRYMGRXclc3bEVidkhKME91bUpDaDFzX3FfZ0lZSDJDc3lKUFpWZzdHS054M3UyT0QyZHhGWVBhb0lETFNUb0UtNnlndU4xNnNnc2xzQ093RHdNbDlCLWlKSUdWeF9WdDFBZ3dsZW5pTXM1NjI4SHowSXFCT0JQYW9DRXRHdVhWZ1ZhLTA1a2poRkNrVVFLYTlwMlJuU1l3Wm1i?oc=5",
@@ -119,27 +127,7 @@
    "d": "2026-11-10T20:35:11+00:00",
    "lang": "en",
    "t": "Take-Two strengthens legal defenses against AI-built GTA 6 PC clones",
-   "erreur": "HTTP Error 403: Forbidden"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQaV94c0NuZ3ctaS1RTG9xM2JsdDI5UlFfTnYzdUtYVUZ0bDUzVVN4U19JQnFhbmVGQWlUa3h4NWcyTmdzNXVmZnJoUFB4VTdSR2NNRTNvR0dWaG5EdDFtVjZOR1RfMEZPY3FDM1BpS19xektsYzVHVU9WNkl4NkxJUVBkbkZQNnBJYzBkOWp2bTJWbk1BTEIyUXJfOEVzNXlac2V3?oc=5",
-   "s": "GameSpot",
-   "d": "2026-11-10T20:28:03+00:00",
-   "lang": "en",
-   "t": "GTA 6 Backflips Look Good Now, But There Could Be More To The Story",
-   "erreur": "HTTP Error 403: Forbidden"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUERTTjFOZkdqam5SYVBwc09YdjRKTDBjcVJ5VklyY1hqX3ptaTlJejdwT2Jvb0tqYWljNkJaTjhYeW1nZXdLOUZjU2ZvNHNUSE02RG1JTjZEYTc1bEVKXzhYNnl2ejBNR0xja3ZBSmxrQVlWRV9aZ1pHeFBDcGFHY3pVVXZJRkhnX0dSWC13X2ZSMF9iZmdjanJSWnpuMWlTTkcxZ1l3?oc=5",
-   "s": "Mashable SEA",
-   "d": "2026-11-10T20:26:55+00:00",
-   "lang": "en",
-   "t": "GTA 6 will technically be playable on Xbox One at launch",
-   "u": "https://sea.mashable.com/gaming-consoles/56796/gta-6-will-technically-be-playable-on-xbox-one-at-launch",
-   "img": "https://sm.mashable.com/t/mashable_sea/article/g/gta-6-will/gta-6-will-technically-be-playable-on-xbox-one-at-launch_s7zv.1200.jpg",
-   "chapeau": "Perhaps not in the way you're thinking, though.",
-   "txt": "Credit: Rockstar Games > Gaming Consoles On Tuesday, Rockstar Games gave us some details about how Grand Theft Auto VI will look and run on current-gen consoles. But there was a fascinating buried lede in that blog post.\nSpecifically, it will actually be possible to play GTA 6 on a last-generation Xbox One console at launch. There is, obviously, a huge catch to that: You'll only be able to play it that way by streaming the game over the cloud. The actual news here is that GTA 6 will be playable through Xbox Cloud Gaming, a feature available to Xbox Game Pass subscribers, starting at 1 a.m. ET on Nov. 19, the day the game comes out.\nUsing Xbox Cloud Gaming , you'll be able to stream GTA 6 to an Xbox Series console or an Xbox One. I'm not entirely sure why you'd stream it to one of the newer consoles instead of just running it natively, but the option is there, nonetheless. If you play GTA 6 this way, the stream will use the Xbox Series S version's graphics settings.\nOf course, there is one final very relevant detail here: Starting this month, Xbox has imposed strict hourly limits on cloud gaming. You can only stream games for five to 15 hours per month, depending on which version of Game Pass you pay for. There's also the matter of game streaming being subject to the whims of internet quality, so things like buffering, latency, and poor visual quality can be part of the experience.\nSo, it might still be worth it to just try and find a current-gen console instead.\nWant more tech and digital culture news delivered to your inbox daily or sent straight to your device? Sign up for Mashable's Top Stories newsletter or get Mashable push alerts today.",
-   "pub": "2026-11-10T20:26:55+00:00"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTFE0dDBiTTBGdFdlb3pDSlktaVZZSHd0N3Fuc3Z5cXMtaVdQdVF0am9YdzFrRW9KQzBzNmNtM2ZmaHdZSTNRdDEtVG5TazR1MVV2blpTSUZyRFBhQWowX1lSd0VNZmcwUTRVSVVMeUhPb3FmdkF2S2NVam5jVFpDOFFkRS16MFN0d3dWcEpQWnlhcG5HMXJQNGo1cVJYNDRKc1hwSjYzSE9QX3pkQklwY2ZB?oc=5",
@@ -147,7 +135,7 @@
    "d": "2026-11-10T20:16:09+00:00",
    "lang": "en",
    "t": "Amid Higher Gas And Grocery Prices, GTA 6 Is A \"Bargain\" At $80, Take-Two CEO Says",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBSHBFamJYbTVIQkN6b3QxSGFMem9XMi1VSmNCQTltMnFxYkRLYXJ2ZjJVeUlZZ0lVR2lmNkI4UEl5OVE0OUNoTHVMTGRKM1NFc280bHJKbGJRZU1RbTEw?oc=5",
@@ -179,7 +167,7 @@
    "d": "2026-11-10T19:40:12+00:00",
    "lang": "en",
    "t": "Rockstar confirms GTA 6 targets 30 FPS on PS5 Pro with PSSR and ray-traced shadows",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNc2ltenZ6N3NJLVI4aXdrMnhITm9rRUxtQ055R3liZk55d1E0UkNtakMtc1B1VjBEbEw1ejJ0N3RFQ2tiNm15TG5WWmgxd0NpQ1JyVC1PakI0dG5kU3FoZm9rc1BCLWViYVRSSnMtZWs1ckhldVYwaDFOVkw0UzlPMTZsRDdKUHdCd0h0eXRrZmNON2lZemE0MEtNbnh0dkJBWHloQVV2Tk52YUtLZ3UwZW1R?oc=5",
@@ -218,24 +206,12 @@
    "pub": ""
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQbERrV3VyOWpPZTZkVXR1UWlFbzFDNDZzekFRR2ZZSUZTWDdoa2NhSFhJT3g1alFGbzgwaEwxY1dDcnREV0t5cS15QzhqNjJ6aER4dkJTdEx6ZXhWVTNPTUtpVWFKRXp0M0ZjUkk4dXlaaXZfVXFVOFp2RnE1YVJOZmFOOE8waVkwbWtMcU5sWllEMTBrOVNqYTFFUlBOY01rdDdUT3h3X3NBMHI4bFZMV3oxb0lUTmRIcnlvZWI2UWd5cXk0aldLbEFNeG5KbUx6eHYwRlNGcXhDdmM1V2NxdVRxdUdCMWl6a1Rr?oc=5",
-   "s": "GamesRadar+",
-   "d": "2026-11-10T19:14:37+00:00",
-   "lang": "en",
-   "t": "I want an uglier GTA 6 that runs at 60 FPS – 30 FPS on PS5 and Xbox Series X is more reason to wait for PC",
-   "u": "https://www.gamesradar.com/games/grand-theft-auto/i-want-an-uglier-gta-6-that-runs-at-60-fps-30-fps-on-ps5-and-xbox-series-x-is-more-reason-to-wait-for-pc/",
-   "img": "https://cdn.mos.cms.futurecdn.net/Zb3Q2uW5q96AnLSCtr2AVA-1920-80.jpg",
-   "chapeau": "Opinion | Please, Rockstar, join us in the light of 60 FPS",
-   "txt": "(Image credit: Rockstar Games) {alert('Link copied')}).catch(err => {console.error('Failed to copy: ', err)})\" data-platform=\"copy_link\" data-action=\"\" class=\"font-ui-heading py-2 text-sm text-neutral-700 hover:bg-neutral-100 transition-colors no-underline block cursor-pointer border-0 bg-transparent w-full text-left normal-case\" aria-label=\"Copy link\" role=\"menuitem\" data-analytics-id=\"article-social\" analytics-label=\"utility-bar-social-share-copy-link\" analytics-name=\"utility-bar-secondary\" data-mrf-recirculation=\"article-social\"> Copy link Facebook X Pinterest Flipboard Email Share this article 0 Join the conversation Follow us Add us as a preferred source on Google Newsletter Subscribe to our newsletter GTA 6 is targeting 30 FPS on PS5 and Xbox Series X. The same goes for the beefier PS5 Pro, which can now sit another exclusive on the shelf alongside Sony 's marketing deal for the game: ray-traced shadows that have seen some people shell out $1,300 . This is all fine and expected news, yet I'm saddled by the same tiny disappointment I feel every time a big console release targets 30 FPS.\nIt's not that I'll turn my nose at any game that isn't running at 60 FPS or higher, filthy PC gamer that I am. But if we're talking preferences, yeah, I do wish everything ran at 60 FPS at 1440p or below. I'd gladly accept lower graphical fidelity as a tradeoff for that and, more pertinently, I'll happily wait to play GTA 6 on PC if it means better performance.\nThis is easy for me to say, of course. I didn't have to move mountains to get a game of this scale running at 30 FPS to begin with. It might sound easy to put fidelity and frame rate on a scale and just subtract material until the FPS side rises, but I know it's not that simple, even if cuts could surely be made.\nIt's not just about the visible sweat, intricate clothing, innumerable environmental wrinkles, granular animations, or ray-traced shadows – all the little details that people at Rockstar have presumably achieved through blood sacrifice. This might actually be the best-looking game ever made by many metrics. But GTA 6 also has to handle dense NPC crowds, a sprawling city, seamless character switching, and all the unseen systems supporting that experience. That, to me, is the truly important, gameplay-affecting stuff.\nI never care about graphics in any way that matters, and I always care about smoothness\nIt all amounts to more things for that frame rate to haul, and Rockstar seemingly chose 30 FPS with all the fixins' over higher FPS with all the sacrifices. I understand and respect that. Devs should make what they want, as ludicrously complex as they want it to be. But on that scale, my taste leans heavily toward frame rate for a few reasons.\nConsole generational leaps are getting smaller. This generation has, as far as I'm concerned, had only two real difference-makers: M.2 NVMe SSDs that dramatically improve loading times, and the spread of performance-focused graphic settings (or performance modes). As you may have guessed, I go for performance mode every single time.\nSome games benefit more from having higher frame rates than others, but maximum FPS is always my pick until I hit 60. A fast-paced martial arts game like Phantom Blade Zero would be seriously hurt by a low or inconsistent frame rate, for instance. But I'm currently playing Persona 3 Reload, and its turn-based combat and simple environments aren't really bothered as long as the frame rate is half-decent and stable. But the choice is still simple: I never care about graphics in any way that matters, and I always care about smoothness. GTA 6 isn't a frenetic wuxia fiesta, but its driving and shooting definitely push it toward the more FPS-sensitive camp in my mind.\nWeekly digests, tales from the communities you love, and more\nThere's a point where I lose interest in graphical improvements, and that point came at least 10 years ago. I can appreciate a cutting-edge game, whether it's GTA 6 NPCs whose calves flex with each step or a huge RPG like Cyberpunk 2077 with every setting cranked to the moon. But if AAA games eternally looked like late-gen PS4 releases, I honestly wouldn't complain. My threshold for game that looks good is comfortably below that, and an art style far removed from realism is more likely to grab me anyway. Now and forever, I'm more interested in games that run better and console gaming that feels , not necessarily looks, more like my PC experience (again, M.2s really helped with th",
-   "pub": "2026-11-10T19:14:37Z"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNC1LdE4ydDYwVHVyLWcwbU5fN3JFWEtxOW9GWlBGNWtRTmZCU0J4YnhVZzU1VElHZFNzLVZTUmYtdkNYTERaNHVNVU51Y0ZTTERSTWFHT3ZteUg4UHVrYlVEX2NxQUFfYy13YzZJTlk0SHo4eFJQWU00ZWtGRTE1SS1JYzF3Ylc3N2FSQzdfZVJ3SDNBbEE?oc=5",
    "s": "Pèse sur start",
    "d": "2026-11-10T19:07:47+00:00",
    "lang": "fr",
    "t": "GTA 6 : jusqu’à 30 images par seconde sur PS5 et Xbox, pas 60",
-   "erreur": "HTTP Error 307: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error messag"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcDF2UU9pVmhrYmRjMlBWOF9GcjRsNW9EUVVmTk01RDVLZGVqTHJrTW5GQ1BkakxHenBhYXNKbGtHS21mMnh3OU5sZHpfTHhvTjBSM0FhSV9rMlNRb0ZrdjZkaks5clhvdEFXNVBLOFR1MFYwMXZGaUw1aHRTN2xvc2hZeFY?oc=5",
@@ -254,12 +230,8 @@
    "s": "Mac4Ever",
    "d": "2026-11-10T18:10:00+00:00",
    "lang": "fr",
-   "t": "GTA 6 : le préchargement ouvre deux jours en avance sur PS5 et Xbox Series",
-   "u": "https://www.mac4ever.com/gaming/198965-gta-6-le-prechargement-ouvre-deux-jours-en-avance-sur-ps5-et-xbox-series",
-   "img": "https://img-api.mac4ever.com/1200/0/d6d4097fc1_gta-6-n-est-pas-un-jeu-aaa-mais-un-jeu-aaaaa-selon-un-veteran-de-l-industrie.webp",
-   "chapeau": "Rockstar a ouvert le préchargement de GTA 6 avec deux jours d'avance sur son propre calendrier. Les joueurs PS5 et Xbox Series qui ont déjà acheté le…",
-   "txt": "",
-   "pub": "2026-11-10T19:10:00+01:00"
+   "t": "GTA 6 : le préchargement ouvre deux jours en avance sur PS5 et Xbox Series",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4weFJncnNTUWpsbTRNSzFtRmEyY3k0NV9vckVCV1hOY3JWZC1Sc3FyY3ZlT04yR3NTQ1RNb0U3WnE2UVNuV2hwcVItcWhVSFh1ZnJlRS1RbDlvVkh6SFNmS0kxbjA4QmZlQWVHag?oc=5",
@@ -321,6 +293,14 @@
    "txt": "The GTA 6 review embargo reportedly doesn’t end until November 18th, the day before the release date . Regardless, ratings are already appearing on the PlayStation Store. PS Store DB , which monitors the marketplace’s backend, discovered 11 entries producing a 5/5 score.\nDataminer Cokymoky later reported there are actually 12 ratings, averaging 4.67/5.0. 92 percent of users gave the PS5 game 5 stars, while one person believed it deserves a single star (now changed to 5/5). Sony started testing written reviews in August 2024, but Cokymoky69 hasn’t found any text on the PlayStation Store.\nPSN accounts can judge a digital purchase without waiting for official launches. There are also no minimum playtime requirements. One explanation is that the mystery players are sites or YouTube channels that Rockstar sent codes to. While preloads have begun for buyers, actually booting the title may have unlocked their ability to register scores.\nMicrosoft is even more lax about its marketplace policies. Months ahead of the GTA 6 release date, ratings flooded the Xbox Store. Although it’s a questionable practice, anyone who pre-orders a game can share their opinion early. The Rockstar project currently boasts a perfect 5/5 after nearly 10,000 submissions.\nThe small sample of GTA 6 PS5 reviews on the PlayStation Store backend may not reflect the post-launch consensus. Nevertheless, if the activity is from journalists, they could preview Metacritic ratings .\nGiven the record-setting sales , fans have questioned whether the views of the media will matter. Take-Two CEO Strauss Zelnick pushed back on that thinking in a May interview, saying critical reception remains important . He praised the quality of Rockstar’s work, noting past titles scored in the mid-to-high 90s.\nMost PSN users with pre-orders must hold off until the GTA 6 release date for reviews. As with Xbox and PS5 preloads, New Zealand players will be the first to explore Leonida .",
    "pub": "",
    "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWG16bDRnamptVG5DUnU2U1pCbjFFLUo1QWJOb0dZV1B5b0x6WEhrSThMT3JMTjZfWE5wTkJLU24zT1hyX3RsVTE0aHVZT1BDREFfM041RUFOLWZtQUNyRmU5SHdtX19RaTZYOXdpZXpmLS1ZY3NVSDE4TDJQYTNmR1FZYXg3Wlk0Y2NxQWVZd2J5S0pIWTVj?oc=5",
+   "s": "Tom's Guide",
+   "d": "2026-11-10T17:01:01+00:00",
+   "lang": "fr",
+   "t": "Vous ne rêvez pas : GTA 6 sera jouable sur Xbox One dès le lancement",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQVWk4VTN3NldaUkRSSDZ1Rkh6VVNPUEFzY3Jza0pXak9Uck1NRDViUWlabnlETUhidk9rSkZvandwYU5GTms1YXZsZGp2ZHdWUzJObTNMdXE4VzhTQ05XTzhJOHgzcWdXUGtQUE11RXhUb21hVTFocEU5UVBCTk4xeXU2WGl1aGtrVEh1cS1ucVAya1d6N0RiQ0VGNHBOSFIwREZUeWVuSTNWc3NPeEpyVUlQaWoxaVBjV1h6bHF5NWtnMWt6QWVLZEhR?oc=5",
@@ -405,11 +385,7 @@
    "d": "2026-11-10T09:29:00+00:00",
    "lang": "en",
    "t": "CyberLeek Price (CYBERLEEK/USD) Today | Live Price, Market Cap & Chart",
-   "u": "https://www.binance.com/en/price/cyberleek",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -509,7 +485,7 @@
    "d": "2026-11-09T17:49:00+00:00",
    "lang": "en",
    "t": "GTA 6 Multiplayer Surprise Leaked In PlayStation Files Ahead Of Launch",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -596,7 +572,7 @@
    "d": "2026-11-09T11:06:47+00:00",
    "lang": "fr",
    "t": "Nouvelle fuite de données sur GTA 6 — fonctions en ligne, taille exacte et bien plus encore",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -748,11 +724,7 @@
    "d": "2026-10-22T15:12:54+00:00",
    "lang": "en",
    "t": "Cyberleek Shares GTA 6 Leak Of Naked Lucia",
-   "u": "https://www.imdb.com/news/ni66062173/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -826,7 +798,7 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
    "t": "Le token CYBERLEEK chute de 40 % alors que le leaker de GTA 6 lance de nouvelles menaces",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   }
  ]
