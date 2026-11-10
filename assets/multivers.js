@@ -15,7 +15,7 @@
   var P=[
     ['Kotoba · le mot du jour, gratuit sur iPhone et Android','https://okalamstudio.com/kotoba.html'],
     ['VoteDay · une question A ou B chaque jour','https://okalamstudio.com/voteday.html'],
-    ['Vice Break · le casse-briques néon, sortie le 19 novembre','https://okalamstudio.com/vicebreak.html'],
+    ['Vice Break · le casse-briques néon, gratuit sur iPhone dès le 12 novembre','https://okalamstudio.com/vicebreak.html'],
     ['Vice Bay Radio · six stations FM, toute la nuit','https://vicebayradio.com/'],
     ['GTA VI France · le compte à rebours, les actus, la boutique','https://gtavifrance.com/']
   ].filter(function(p){return !(me==='gta'&&/gtavifrance/.test(p[1])||me==='vbr'&&/vicebayradio/.test(p[1]));});

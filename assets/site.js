@@ -292,6 +292,28 @@ window.SITE = {
   // Application installable et mode hors ligne
   if ("serviceWorker" in navigator && location.protocol === "https:") navigator.serviceWorker.register((window.ROOT || "") + "sw.js").catch(function () {});
 
+  // Vice Break (jeu OKALAM) : tous les liens store passent par /go/vb-ios|vb-android?s=<emplacement> (redir Caddy, clics comptés
+  // dans le journal serveur, X in-app compris). Carte compacte après le 1er paragraphe des articles et sous le héros de l'accueil.
+  (function vb() {
+    var R = window.ROOT || "", l = (document.documentElement.lang || "fr").slice(0, 2), fr = l === "fr", and = /android/i.test(navigator.userAgent);
+    var dispo = Date.now() >= Date.parse("2026-11-12T00:00:00+01:00"), page = /\/journal\//.test(location.pathname) ? "art" : document.querySelector(".hero") ? "accueil" : "page";
+    var go = function (s, a) { return "https://gtavifrance.com/go/vb-" + (a ? "android" : "ios") + "?s=" + page + "-" + s; };
+    document.querySelectorAll('a[href*="id6815670909"], a[href*="com.okalam.vicebreak"]').forEach(function (a) {
+      var o = a.closest(".vb-encart") ? "fin" : (a.getAttribute("data-goatcounter-click") || "lien").replace(/^vb-/, "");
+      a.href = go(o, /okalam\.vicebreak/.test(a.href));
+      if (dispo && a.closest(".vb-encart") && a.classList.contains("btn") && !a.classList.contains("clair")) a.textContent = fr ? "Télécharger gratuitement sur l'App Store" : "Free on the App Store";
+    });
+    if (dispo) document.querySelectorAll(".vb-encart p").forEach(function (p) { if (fr) p.textContent = "Notre casse-briques néon gratuit : 500 niveaux dans Vice Bay, des boss, et la radio en fond. Disponible sur iPhone et Android."; });
+    var t = fr ? (dispo || and ? "Disponible gratuitement" : "Précommande gratuite") : (dispo || and ? "Free now" : "Free pre-order");
+    var titre = fr ? "En attendant GTA 6 : Vice Break, notre casse-briques néon" : "Waiting for GTA 6? Play Vice Break, our neon brick breaker";
+    var bout = and ? '<a class="btn" href="' + go("carte", 1) + '" target="_blank" rel="noopener" data-goatcounter-click="vb-carte-android">Google Play</a>'
+      : '<a class="btn" href="' + go("carte", 0) + '" target="_blank" rel="noopener" data-goatcounter-click="vb-carte-ios">App Store</a><a class="lien" href="' + go("carte", 1) + '" target="_blank" rel="noopener" data-goatcounter-click="vb-carte-android">Android</a>';
+    var carte = function () { var c = document.createElement("aside"); c.className = "vb-carte";
+      c.innerHTML = '<img src="' + R + 'assets/img/vb1.webp" alt="" width="44" height="96" loading="lazy"><div><b>' + titre + '</b><span>' + t + ' · ' + (fr ? "500 niveaux, boss, radio Vice Bay" : "500 levels, bosses, Vice Bay radio") + '</span></div><div class="vb-carte-b">' + bout + '</div>'; return c; };
+    if (page === "art") { var p = document.querySelector(".jr-corps > p:not([class])"); if (p) p.after(carte()); }
+    else if (page === "accueil") { var h = document.querySelector("header.hero"); if (h) h.after(carte()); }
+  })();
+
   // Pub maison OKALAM : remplace un emplacement AdSense resté vide (jamais à la place d'une vraie pub). Gérée par la session PUBLICITE.
   // Bandeaux animés uniquement (assets/img/pub/, générés par ~/PUBLICITE/<marque>/bandeaux/gen.py) ; plus de carte ; rien avant le 1er paragraphe.
   var KOTOBA_IOS = "https://apps.apple.com/fr/app/kotoba-mot-du-jour/id6761341663", KOTOBA_AND = "https://play.google.com/store/apps/details?id=com.okalam.kotoba";
