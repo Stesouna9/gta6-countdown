@@ -49,6 +49,8 @@ def tweet(texte, media_id):
                                headers={"Authorization": _oauth1("POST", u), "Content-Type": "application/json"})
     return json.load(urllib.request.urlopen(r, timeout=30))["data"]["id"]
 
+PRATIQUE = re.compile(r"acheter|achat|pr[ée]command|livr|magasin|boite|bo[iî]te|prix|euros?\b|promo|bon-achat|leclerc|micromania|fnac|carrefour|amazon|auchan|heure|fuseau|minuit|pr[ée]charg|t[ée]l[ée]charg|\bgo\b|spoiler|r[ée]gion|compte|code|edition|[ée]dition", re.I)
+
 def coupe(s, n):
     s = re.sub(r"\s+", " ", s).strip()
     if len(s) <= n: return s
@@ -185,7 +187,9 @@ def main():
             if not (7 <= h.hour < 24 or "--urgence" in sys.argv) or (faits >= 12 and "--garde" not in sys.argv): print(f"chaud : hors créneau ou quota ({faits}/12)"); return   # 28/10 Gabriel : « au taquet » ; --urgence : très grosse info la nuit (urgence.py)
             seuil = (h - datetime.timedelta(days=7 if "--garde" in sys.argv else 0, hours=3)).isoformat()[:16]   # 04/11 Gabriel : jamais plus de 6-7 h sans post (--garde, voir x_chrome.py) : dernier article pas encore posté, même plus ancien
             cands = [a for a in arts if "cyberleek" not in a["id"] and a["id"] not in etat["postes"] and a.get("date", "")[:16] >= seuil
-                     and isinstance(a.get("fr"), dict) and image_article(a)][:1]
+                     and isinstance(a.get("fr"), dict) and image_article(a)]
+            # 10/11 (RAPPORT-TRAFIC.md) : l'info pratique fait 90 % du trafic X (Leclerc 1 754 visiteurs, spoilers 492, région PS5 392) : elle passe devant
+            cands.sort(key=lambda a: (bool(PRATIQUE.search(a["id"] + " " + a["fr"].get("t", ""))), a.get("date", "")), reverse=True); cands = cands[:1]
         if slot == "top":
             v = vues_du_jour(); cands.sort(key=lambda a: -v.get(a["id"], 0))
             cyb = bool(cands) and "cyberleek" in cands[0]["id"]
