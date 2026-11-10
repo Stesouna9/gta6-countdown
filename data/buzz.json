@@ -1,8 +1,47 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-10T08:05:00+01:00",
+  "updated_at": "2026-11-10T08:30:00+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-prechargement-ouvert-usa-canada-ps5-39282-vues",
+      "title": "GTA 6 : le préchargement s'ouvre aux États-Unis, au Canada et en Amérique latine sur PS5",
+      "summary": "Le 10 novembre au matin (heure de Paris), le préchargement PS5 est passé en ligne aux États-Unis et au Canada, ainsi qu'au Brésil, en Argentine, au Chili, en Colombie, au Pérou et en Équateur. Le Mexique devait suivre une heure plus tard.",
+      "url": "https://x.com/GTAVI_Countdown/status/2120019101225816460",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-10T05:01:56.000Z",
+      "checked_at": "2026-11-10T08:30:00+01:00",
+      "evidence": "Vues relevées le 2026-11-10T07:09:17+00:00 dans data/x_alertes.json : 39 282 vues (2 080 likes, 118 reposts). Un seul compte pour la liste des pays ; cohérent avec le calendrier d'ouverture régional déjà suivi. Original X non ouvert (pas de navigateur).",
+      "visual": "PRÉCHARGEMENT USA",
+      "image": "https://pbs.twimg.com/media/HWvR-XBW0AAQbzR?format=jpg&name=medium",
+      "image_alt": "Visuel du préchargement de GTA 6 ouvert aux États-Unis et au Canada sur PS5",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "GTA 6 pre-loading just went live in the US and Canada on PS5.\n\nAlso live in Brazil, Argentina, Chile, Colombia, Peru, and Ecuador.\n\n1 hour left for Mexico ⏳"
+    },
+    {
+      "id": "x-prechargement-ouvert-europe-xbox-47827-vues",
+      "title": "GTA 6 : le préchargement est ouvert partout en Europe sur PS5 et dans le monde sur Xbox",
+      "summary": "Dans la nuit du 10 novembre, le préchargement de GTA 6 s'est ouvert sur PS5 dans toute l'Europe et sur Xbox Series X|S à l'échelle mondiale. gta6hubfr confirme côté Xbox le téléchargement de 212 Go. Il restait alors 4 h 40 avant l'ouverture aux États-Unis.",
+      "url": "https://x.com/GTAVI_Countdown/status/2119948206142370038",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "2026-11-10T00:20:13.000Z",
+      "checked_at": "2026-11-10T08:30:00+01:00",
+      "evidence": "Vues relevées le 2026-11-10T07:09:17+00:00 dans data/x_alertes.json : 47 827 vues (2 122 likes, 128 reposts). Repris par @gta6hubfr (30 031 vues, 212 Go sur Xbox). Original X non ouvert (pas de navigateur).",
+      "visual": "PRÉCHARGEMENT OUVERT",
+      "image": "https://pbs.twimg.com/media/HWuReL8WYAAkfqN?format=jpg&name=900x900",
+      "image_alt": "Visuel du préchargement de GTA 6 ouvert en Europe sur PS5 et sur Xbox",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "GTA 6 pre-loading is now live across all of Europe on PS5 and globally on Xbox.\n\n4 hours and 40 minutes remaining for the US ⏳",
+      "article": "journal/2026-11-10-prechargement-ouvert-ps5-xbox-212-go-gta6.html"
+    },
     {
       "id": "x-rockstar-heat-night-in-vice-city-espn",
       "title": "GTA 6 : Rockstar annonce « A Night in Vice City » sur ESPN le 18 novembre",
@@ -2528,6 +2567,11 @@
       "at": "2026-11-10T08:05:00+01:00",
       "label": "Passage 87 · Heat/ESPN, Take-Two, Cheetah, boîte Xbox",
       "summary": "Relevé X Mac du 09/11 22:16 UTC. Quatre sujets ajoutés : A Night in Vice City (615 623 vues, Rockstar), Take-Two 19 novembre (51 305), Cheetah réelle Selfridges (158 772, corroboré IGN), boîte Xbox (45 285). Préchargement Asie (17 231), La Défense (25 496, un seul compte), Zelnick GTA Online (déjà couvert) : écartés ou déjà couverts. Originaux X non consultés. Aucun post X ni message à un tiers."
+    },
+    {
+      "at": "2026-11-10T08:30:00+01:00",
+      "label": "Passage 88 · préchargement Europe/Xbox et USA/Canada",
+      "summary": "Relevé X Mac du 10/11 07:09 UTC. Deux sujets ajoutés : préchargement Europe PS5 + Xbox (47 827 vues, repris par gta6hubfr) et USA/Canada/Amérique latine (39 282). Écartés : téléchargement commencé (20 870, anecdote), GTAlphaintel (<20 000 ou compte unique), NBA 2K27 (déjà couvert). Originaux X non consultés. Aucun post X ni message à un tiers."
     }
   ],
   "coverage": {
