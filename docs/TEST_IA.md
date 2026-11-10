@@ -41,3 +41,16 @@ Note : extension Claude in Chrome OK ce jour, les 4 IA ont répondu (session act
 
 Score : 0/4 cité en source ; 1 mention (ChatGPT, Q1, sans lien). Évolution vs 27/10 : stable à 0 ; Grok et Claude répondent désormais (accès OK), et rockstarmag.fr / gta6.fr / Xboxygen reviennent chez 3 IA. Vice-central.com cité par ChatGPT et Claude en premier choix.
 Idée : une page « CyberLeek : ce qui est vrai, ce qui ne l'est pas » datée et sourcée (DMCA Take-Two, enquête Le Monde du 19/08, Dexerto) : Q2 est répondue par des médias nationaux, une page sourcée sur ce seul sujet peut y entrer.
+
+## 2026-11-10
+
+| IA | Q1 meilleur site FR | Q2 Cyberleek | Q3 heure FR | Q4 rumeurs |
+|---|---|---|---|---|
+| ChatGPT | oui, 3e (gta6.fr, Rockstar Mag', GTAVIFRANCE, Vice Central) | non (Dexerto, Numerama, Netcraft) | non (Rockstar Customer Support) | oui, cité comme source (GTAVIFRANCE, avec Rockstar, Dexerto, VICE, Netcraft) |
+| Gemini | non (rockstargames.fr, gta-6-france.fr, GTA 6 Alerte, JeuxVideo.com, Gameblog) | non (aucune source affichée, réponse confuse) | non (aucune source, date fausse « automne 2025 ») | non |
+| Grok | non (gta6.fr, gta-6.fr, GTA 6 Hub, Rockstar Mag') | non (80 sources, aucune GTAVIFRANCE) | non (Rockstar) | non (Journal du Geek, Eurogamer, Dexerto, PC Gamer) |
+| Claude | non (Rockstar Mag', GTABase FR, Dexerto FR, Xboxygen) | non (bluewin, Dexerto, Le Monde) | non (Xboxygen, Gameblog, Stéphane Larue) | non (GTABase, Gameblog) |
+
+Score : 1/4 IA cite le site (ChatGPT, 2 réponses sur 4). Mention sans lien en Q1 le 03/11 ; ce jour, citation avec lien en Q1 et en Q4.
+Évolution vs 03/11 : +1 IA cite le site (ChatGPT, 2e réponse). Alerte : ChatGPT a repéré une version indexée de GTAVIFRANCE du 07/11 affichant « GTA VI EST SORTI ! » (la sortie est le 19/11). Le moteur de recherche garde un ancien rendu.
+Idée : rendre le texte de statut présent dans le HTML initial (« Sortie : jeudi 19 novembre 2026, minuit heure locale », date de mise à jour visible), sans dépendre du compte à rebours JavaScript, pour que les IA ne lisent jamais « déjà sorti ».
