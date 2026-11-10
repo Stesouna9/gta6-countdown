@@ -156,7 +156,7 @@ def main():
     if slot == "astuce":   # 10/11 Gabriel (via V7) : astuce pratique chiffrée du matin, modèle Top Office (92 900 vues, +24 abonnés) ; banque tools/astuces_x.json remplie par la routine gtavifrance-astuce-reassort
         import urllib.request as UR   # (urllib est importé localement plus bas dans main, branche radio)
         auj = datetime.date.today()
-        B = json.load(open(RACINE / "tools/astuces_x.json", encoding="utf-8"))
+        B = json.load(open(RACINE / "tools/astuces_x.json", encoding="utf-8"))["astuces"]   # "regle" : critères de choix (Gabriel 10/11)
         def ok(x):   # jamais d'info périmée : prix relevés il y a 2 jours max, astuce encore utile, source encore en ligne
             if x["id"] in etat["postes"] or x["valable_jusqu_au"] < str(auj) or x["releve"] < str(auj - datetime.timedelta(days=2)): return False
             f = RACINE / "assets/img/articles" / f"{x['image']}.jpg"
