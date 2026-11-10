@@ -1,8 +1,65 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-10T08:30:00+01:00",
+  "updated_at": "2026-11-11T00:15:00+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-welcome-to-vice-city-mlc-bad-bunny-diplo",
+      "title": "GTA 6 : un titre « Welcome to Vice City » repéré dans la base MLC, avec Bad Bunny et Diplo",
+      "summary": "Une chanson intitulée « Welcome to Vice City » serait apparue dans une base de licences musicales (MLC), avec Bad Bunny et Diplo crédités comme auteurs. Les comptes qui relaient y voient le morceau d'ouverture du jeu, comme « Welcome to Los Santos » dans GTA V. Rien n'est confirmé par Rockstar.",
+      "url": "https://x.com/GTAVI_Countdown/status/2120266628177055844",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "2026-11-10T21:25:31.000Z",
+      "checked_at": "2026-11-11T00:15:00+01:00",
+      "evidence": "Vues relevées le 2026-11-10T22:13:57+00:00 dans data/x_alertes.json : 32 657 vues (1 271 likes, 82 reposts). Repris par @gtasix_ (21 232 vues, via @TexFunz2) et @gtasix_ (9 204 vues). Source citée : un fil de gtaforums. Original X non ouvert (pas de navigateur).",
+      "visual": "WELCOME TO VICE CITY",
+      "image": "https://pbs.twimg.com/media/HWyzJ_8XgAIbhQ-?format=jpg&name=360x360",
+      "image_alt": "Capture de la base MLC montrant le titre Welcome to Vice City",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "The GTA 6 opening song titled “Welcome to Vice City” has been discovered in the MLC database.\n\nBad Bunny and Diplo are credited as writers."
+    },
+    {
+      "id": "x-tove-lo-reagit-blood-in-your-eyes-trailer",
+      "title": "GTA 6 : Tove Lo réagit au nouveau trailer qui reprend son titre « Blood In Your Eyes »",
+      "summary": "L'artiste Tove Lo a réagi en vidéo au nouveau trailer de GTA 6, qui utilise son morceau « Blood In Your Eyes ». La réaction, publiée par PopTingz, a été relayée par GTAVI_Countdown.",
+      "url": "https://x.com/GTAVI_Countdown/status/2120247696841990512",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "2026-11-10T20:10:17.000Z",
+      "checked_at": "2026-11-11T00:15:00+01:00",
+      "evidence": "Vues relevées le 2026-11-10T22:13:57+00:00 dans data/x_alertes.json : 60 892 vues (2 347 likes, 151 reposts). Vidéo d'origine de @PopTingz non ouverte ; un seul compte relevé pour la reprise. Original X non ouvert (pas de navigateur).",
+      "visual": "TOVE LO",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2120212909141721088/img/hGHkoPQAhIel9-x4.jpg",
+      "image_alt": "Vignette de la vidéo de réaction de Tove Lo au trailer de GTA 6",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Tove Lo reacts to the new GTA 6 trailer, featuring her new song “Blood In Your Eyes” 🔥"
+    },
+    {
+      "id": "x-captures-dos-boites-ps5-xbox-poster-artwork",
+      "title": "GTA 6 : de nouvelles captures imprimées au dos des boîtes PS5 et Xbox, avec poster et artwork",
+      "summary": "Des photos de l'édition physique montrent de nouvelles captures du jeu au dos des boîtes PS5 et Xbox. Les exemplaires incluraient aussi un artwork rare et un poster recto verso. Le post contient un lien d'affiliation Amazon (#ad).",
+      "url": "https://x.com/GTAVI_Countdown/status/2120231745442217996",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-10T19:06:54.000Z",
+      "checked_at": "2026-11-11T00:15:00+01:00",
+      "evidence": "Vues relevées le 2026-11-10T22:13:57+00:00 dans data/x_alertes.json : 30 488 vues (740 likes, 44 reposts). Photos attribuées à @Hecatonchires91 et @namginho ; un seul compte relevé. Original X non ouvert (pas de navigateur).",
+      "visual": "DOS DES BOÎTES",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2120230847928283136/img/WrP1TsVCFPrOEBMY.jpg",
+      "image_alt": "Vignette de la vidéo des captures au dos des boîtes de GTA 6",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "All new GTA 6 screenshots printed on the back of the PS5 and Xbox copies.\n\nCopies also include a rare artwork and a double-sided poster."
+    },
     {
       "id": "x-prechargement-ouvert-usa-canada-ps5-39282-vues",
       "title": "GTA 6 : le préchargement s'ouvre aux États-Unis, au Canada et en Amérique latine sur PS5",
@@ -2572,6 +2629,11 @@
       "at": "2026-11-10T08:30:00+01:00",
       "label": "Passage 88 · préchargement Europe/Xbox et USA/Canada",
       "summary": "Relevé X Mac du 10/11 07:09 UTC. Deux sujets ajoutés : préchargement Europe PS5 + Xbox (47 827 vues, repris par gta6hubfr) et USA/Canada/Amérique latine (39 282). Écartés : téléchargement commencé (20 870, anecdote), GTAlphaintel (<20 000 ou compte unique), NBA 2K27 (déjà couvert). Originaux X non consultés. Aucun post X ni message à un tiers."
+    },
+    {
+      "at": "2026-11-11T00:15:00+01:00",
+      "label": "Passage 89 · chanson Welcome to Vice City, Tove Lo, dos des boîtes",
+      "summary": "Relevé X Mac du 10/11 22:13 UTC. Trois sujets ajoutés : titre MLC « Welcome to Vice City » (32 657 vues, repris par gtasix_), réaction de Tove Lo (60 892), captures au dos des boîtes (30 488). Écartés : GTAlphaintel (<20 000), « New look at Vice City » (35 211, sans contenu précis), pré-commandes Take-Two (3 946, déjà couvert). Originaux X non consultés. Aucun post X ni message à un tiers."
     }
   ],
   "coverage": {
