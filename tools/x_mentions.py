@@ -49,7 +49,7 @@ def mentions():
         X.ferme_onglet(); X.ONGLET.clear()
 
 # 10/11 Gabriel : « il y a parfois des réponses spam » : jamais de réponse ni de like à un spam, filtre avant l'IA
-SPAM = re.compile(r"https?://|www\.|t\.me|onlyfans|telegram|whatsapp|crypto|bitcoin|airdrop|nft\b|forex|\\binvest(ing|ment)?\\b|\\bprofit\\b|"
+SPAM = re.compile(r"https?://|www\.|t\.me|onlyfans|telegram|whatsapp|crypto|bitcoin|airdrop|nft\b|forex|\binvest(ing|ment)?\b|\bprofit\b|"
                   r"\bdm\b|dm me|inbox me|check (my )?bio|link in bio|lien en bio|regarde ma bio|follow ?back|f4f|giveaway|"
                   r"18\+|🔞|💋|sugar|promo ?code|cashapp|paypal|gagne[rz]? de l'argent|earn \$", re.I)
 
