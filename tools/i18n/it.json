@@ -162,11 +162,8 @@
  "so_plat_k": "Piattaforme",
  "so_plat": "PlayStation 5, PS5 Pro, Xbox Series X e Xbox Series S",
  "so_pre_k": "Precaricamento",
- "so_pre": "Dal 12 novembre 2026, per le copie digitali.",
  "so_heure_k": "Ora di sblocco",
- "so_heure": "Non ancora annunciata da Rockstar. Questo sito conta alla rovescia fino a mezzanotte, ora di Parigi.",
  "so_taille_k": "Dimensione del download",
- "so_taille": "Non ancora annunciata.",
  "so_pc_k": "PC",
  "so_pc": "Non al lancio, nessuna data annunciata.",
  "so_age_k": "Classificazione per età",
@@ -522,9 +519,7 @@
  "so_a1": "GTA 6 verrà lanciato giovedì 19 novembre 2026 su PS5 e Xbox Series X|S . La data è confermata da Rockstar Games .",
  "so_q2": "A che ora esce GTA 6?",
  "so_q3": "Quando inizia il precaricamento GTA 6?",
- "so_a3": "Il precaricamento per le versioni digitali si aprirà il 12 novembre 2026, sette giorni prima del rilascio. Puoi scaricare il gioco in anticipo ma non puoi giocare prima che si sblocchi.",
  "so_q4": "Quanto è grande GTA 6?",
- "so_a4": "La dimensione del download non è stata ancora pubblicata. La cifra di 200 GB che circola non arriva da Rockstar: tenete molto spazio libero e controllate quando si apre il precaricamento.",
  "so_q5": "GTA 6 arriverà su PC?",
  "so_a5": "Non al momento del lancio. Rockstar non ha ancora annunciato una versione per PC o una data.",
  "so_q6": "GTA 6 arriverà su PS4 o Xbox One?",
@@ -847,5 +842,10 @@
  "bb_debuter_s5t": "Prima del giorno del lancio",
  "bb_debuter_s5p": "Precaricamento dal 12 novembre. Il sito ufficiale elenca il gioco su PS5 e Xbox Series X|S ; niente computer. Scegli la tua edizione nella nostra voce Edizioni e prezzi. Tutto ciò che non sappiamo (ora esatta, dimensione del download) viene dichiarato sconosciuto e aggiornato non appena viene annunciato.",
  "since_rel": "Dall'uscita",
- "vb_veille": "Vice Break: 500 livelli neon, radio integrata. iPhone il 12 novembre, Android disponibile adesso."
+ "vb_veille": "Vice Break: 500 livelli neon, radio integrata. iPhone il 12 novembre, Android disponibile adesso.",
+ "so_pre": "Aperto dal 10 novembre 2026 (mezzanotte su PS5 , 1:00 ora di Parigi su Xbox ), con preordine digitale.",
+ "so_heure": "Mezzanotte, ora locale, di giovedì 19 novembre, secondo la pagina di supporto di Rockstar (3 novembre): 00:00 a Parigi, in Nuova Zelanda.",
+ "so_taille": "Circa 212 GB su PS5 e Xbox Series X|S , misurati con il precaricamento aperto. Lascia un po' di spazio in più.",
+ "so_a3": "Il precaricamento è aperto dal 10 novembre 2026: mezzanotte su PS5 , 1:00 ora di Parigi su Xbox . Hai bisogno di un preordine digitale; puoi scaricare il gioco in anticipo ma non puoi giocare prima che venga sbloccato a mezzanotte del 19 novembre.",
+ "so_a4": "Circa 212 GB da scaricare su PS5 e Xbox Series X|S , in base al preload aperto il 10 novembre. Mantieni un po' più di spazio libero per l'installazione e gli aggiornamenti."
 }
