@@ -1,8 +1,27 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-11T20:02:00+01:00",
+  "updated_at": "2026-11-11T22:13:00+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-only-in-dade-sequence-telephone",
+      "title": "GTA 6 : une séquence en jeu filmée au téléphone circule sur X",
+      "summary": "Le compte @GTAVI_Countdown relaie une séquence en jeu de GTA VI filmée depuis une caméra de téléphone, publiée sur Instagram par Only In Dade avec le hashtag #OnlyinViceCity. Plusieurs comptes affirment que Rockstar l'a repartagée en story : nous n'avons pas pu le vérifier. Le post de @gtasix_ parle d'une séquence « confirmée par Rockstar », formule d'un compte, non vérifiée.",
+      "url": "https://x.com/GTAVI_Countdown/status/2120598277502509528",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "2026-11-11T19:23:22.000Z",
+      "checked_at": "2026-11-11T22:13:00+01:00",
+      "evidence": "Vues relevées le 2026-11-11 dans data/x_alertes.json : 865898 vues ; 206 replies, 667 reposts, 8615 likes, 1878 bookmarks. Repris par @gtasix_ (392507 vues, https://x.com/gtasix_/status/2120605658265669767), @GTAVI_Countdown (194975 vues, https://x.com/GTAVI_Countdown/status/2120607178587349394), @gta6hubfr (5710 vues) et @RockstarNewsFRA (3741 vues). Original Instagram et post X non ouverts (accès direct absent). Image du post téléchargée HTTP 200 et ouverte pour contrôle.",
+      "visual": "SÉQUENCE TÉLÉPHONE",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2120597844511887360/img/x3Y8auBYYBVPmGUm.jpg",
+      "image_alt": "Voiture rose à camouflage devant un hôtel Art déco de Miami, image en jeu",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Potential new GTA 6 gameplay captured from an in-game phone camera.\n\nThis was posted by OnlyinDade on Instagram with the hashtag “OnlyinViceCity”"
+    },
     {
       "id": "x-zelnick-cnbc-sensor-tower-2k27",
       "title": "GTA 6 : Zelnick sur CNBC ne confirme pas les chiffres de précommandes de Sensor Tower",
@@ -2961,6 +2980,11 @@
       "at": "2026-11-11T20:02:00+01:00",
       "label": "Passage 97 · Entretien Zelnick CNBC",
       "summary": "Un sujet ajouté depuis data/x_alertes.json (maj 19:01 UTC) : entretien de Strauss Zelnick avec CNBC relevé par un seul compte (24 479 vues), statut Rumeur faute de second compte. Image ouverte HTTP 200. Écartés sous seuil : Rob Nelson / Guardian monde hors Amérique (17 767 vues, un compte), « dernier jeudi avant GTA 6 » (8 974 vues), Logitech Logi Game Day (1 760 vues), mariage Miami avec dirigeable (5 518 vues), VI Hub 1.5.0 (1 304 vues). Aucun post X ni message à un tiers."
+    },
+    {
+      "at": "2026-11-11T22:13:00+01:00",
+      "label": "Passage 98 · Séquence Only In Dade",
+      "summary": "Un sujet ajouté depuis data/x_alertes.json (relevé 20:29 UTC) : séquence en jeu filmée au téléphone, post @GTAVI_Countdown de 865 898 vues, repris par @gtasix_ (392 507) et @GTAVI_Countdown (194 975). Statut Rapporté : la repartage par Rockstar en story reste affirmée par des comptes, non vérifiée. Image du post ouverte HTTP 200. Écartés sous seuil : Jason et Lucia filmés au téléphone (@gtasix_, 22 867 vues, probablement la même séquence), Xfinity 2 Gbps (6 847 vues, un compte), Gaming World Miami (2 467 vues). Aucun post X ni message à un tiers."
     }
   ],
   "coverage": {
