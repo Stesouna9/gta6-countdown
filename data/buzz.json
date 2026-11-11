@@ -1,6 +1,6 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-11T12:12:58+01:00",
+  "updated_at": "2026-11-11T14:13:24+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
     {
@@ -51,10 +51,10 @@
       "author": "@GTAVI_Countdown",
       "status": "Rumeur",
       "published_at": "2026-11-11T04:34:08.000Z",
-      "checked_at": "2026-11-11T10:15:00+01:00",
-      "evidence": "Vues relevées le 2026-11-11T09:08:20+00:00 dans data/x_alertes.json : 23 941 vues (1 378 likes, 84 reposts). Chiffre non confirmé par Sony dans nos données. Original X non ouvert.",
+      "checked_at": "2026-11-11T14:13:24+01:00",
+      "evidence": "Vues relevées le 2026-11-11T09:08:20+00:00 dans data/x_alertes.json : 23 941 vues (1 378 likes, 84 reposts). Chiffre non confirmé par Sony dans nos données. Original X non ouvert. Image corrigée le 2026-11-11T14:13:24+01:00 depuis le même post du relevé X (ancienne URL HTTP 404) ; nouvelle image HTTP 200 ouverte et contrôlée.",
       "visual": "PS5 100 M",
-      "image": "https://pbs.twimg.com/media/HW0VOxOWYAAYeXs?format=jpg&name=360x360",
+      "image": "https://pbs.twimg.com/media/HW0VOxOWYAAVOnX?format=jpg&name=360x360",
       "image_alt": "Image jointe au post sur les 100 millions de PS5",
       "image_credit": "@GTAVI_Countdown sur X",
       "embed_type": "x",
@@ -2783,6 +2783,11 @@
       "at": "2026-11-11T12:12:58+01:00",
       "label": "Passage 92 · huit jours et Xbox Cloud Gaming",
       "summary": "Relevé X Mac du 11/11 11:10:47 UTC, plus récent que le serveur (10:09:48 UTC). Deux sujets ajoutés avec médias HTTP 200 ouverts : compte à rebours J-8 (27 916 vues, plusieurs comptes), annonce cloud corroborée par Xbox Wire (5 091 vues ; durée du partenariat non confirmée). Autres pistes sous le seuil sans second compte : YouFibre, Spotify, Agent ; piscine Loews et DualSense déjà couvertes. Recherche publique Instagram/TikTok/Rockstar effectuée : Instagram 429, TikTok et Newswire sans texte lisible, originaux X Cache miss. Aucune consultation exhaustive revendiquée ; aucun post X ni message à un tiers."
+    },
+    {
+      "at": "2026-11-11T14:13:24+01:00",
+      "label": "Passage 93 · contrôle des nouvelles pistes et images",
+      "summary": "Relevés X Mac et serveur concordants du 11/11 à 12:12:15 UTC. Aucun nouveau sujet distinct admissible : comparatif How it started 8 207 vues, YouFibre 6 076, Spotify 7 453, Agent 19 397 et événement Genève 2 481, sans second compte observé ; piscine Loews et DualSense déjà couvertes. Piste YouFibre retrouvée dans les extraits indexés Dexerto et ISPreview, articles complets inaccessibles (ISPreview HTTP 403), non retenue. Originaux X Cache miss ; Instagram 429 ; TikTok et Newswire sans texte lisible. Image YouFibre HTTP 200 ouverte. Contrôle des 120 images uniques : image PS5 en 404 remplacée par le média corrigé du même post fourni par le relevé X, ouvert HTTP 200 ; les 119 autres répondent HTTP 200. Aucune consultation exhaustive revendiquée ; aucun post X ni message à un tiers."
     }
   ],
   "coverage": {
