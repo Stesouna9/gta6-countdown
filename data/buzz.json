@@ -1,8 +1,27 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-11T18:50:05+01:00",
+  "updated_at": "2026-11-11T20:02:00+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-zelnick-cnbc-sensor-tower-2k27",
+      "title": "GTA 6 : Zelnick sur CNBC ne confirme pas les chiffres de précommandes de Sensor Tower",
+      "summary": "Selon @GTAVI_Countdown, Strauss Zelnick, PDG de Take-Two, a refusé de commenter les chiffres de précommandes de GTA 6 publiés par Sensor Tower, tout en disant que les attentes étaient déjà élevées et ont été dépassées. Il aurait aussi expliqué que les ventes de NBA 2K27 sont plus faibles. Le post ne reprend que le début de l'entretien.",
+      "url": "https://x.com/GTAVI_Countdown/status/2120582681926791554",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-11T18:21:24.000Z",
+      "checked_at": "2026-11-11T20:02:00+01:00",
+      "evidence": "Vues relevées le 2026-11-11T19:01:18+00:00 dans data/x_alertes.json : 24 479 vues ; 10 replies, 27 reposts, 451 likes, 103 bookmarks. Un seul compte relève l'entretien ; CNBC non ouvert, texte tronqué dans le relevé.",
+      "visual": "ZELNICK CNBC",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2120580981413302272/img/7YBYl8iC6EarS_rV.jpg",
+      "image_alt": "Miniature de la vidéo partagée par GTAVI_Countdown sur l'entretien de Strauss Zelnick avec CNBC",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "New Take-Two CEO Strauss Zelnick interview with CNBC: He refused to comment on the GTA 6 pre-order figures reported by Sensor Tower, but said their expectations were already high and were still surpassed. NBA 2K27 sales are weaker because consumers are sitting on the…"
+    },
     {
       "id": "x-rockstar-instagram-edit-fan-gtasix",
       "title": "GTA 6 : Rockstar aurait repris sur Instagram le montage d’un fan",
@@ -2937,6 +2956,11 @@
       "at": "2026-11-11T18:50:05+01:00",
       "label": "Passage 96 · Instagram Rockstar et lot Myprotein",
       "summary": "Deux sujets ajoutés depuis data/x_alertes.json (maj 17:19 UTC) : repartage Instagram supposé de Rockstar relevé par un seul compte (26 263 vues), et jeu concours Myprotein (32 916 vues, un seul compte). Les deux images ouvertes HTTP 200. Écartés : 98 % / J-7 (déjà jugé incohérent), Guardian 71 586 vues (sujet déjà couvert par x-guardian-gestes-jason-apercu), album reporté au 20 novembre (4 520 vues), revenus 1 Md$ Sensor Tower (4 227 vues), Tony Prince (8 000 vues), retrait en magasin 12 novembre (12 843 vues, un compte, sous le seuil). Aucun post X ni message à un tiers."
+    },
+    {
+      "at": "2026-11-11T20:02:00+01:00",
+      "label": "Passage 97 · Entretien Zelnick CNBC",
+      "summary": "Un sujet ajouté depuis data/x_alertes.json (maj 19:01 UTC) : entretien de Strauss Zelnick avec CNBC relevé par un seul compte (24 479 vues), statut Rumeur faute de second compte. Image ouverte HTTP 200. Écartés sous seuil : Rob Nelson / Guardian monde hors Amérique (17 767 vues, un compte), « dernier jeudi avant GTA 6 » (8 974 vues), Logitech Logi Game Day (1 760 vues), mariage Miami avec dirigeable (5 518 vues), VI Hub 1.5.0 (1 304 vues). Aucun post X ni message à un tiers."
     }
   ],
   "coverage": {
