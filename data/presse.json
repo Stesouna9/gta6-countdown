@@ -1,6 +1,30 @@
 {
- "maj": "2026-11-11T14:15:06+00:00",
+ "maj": "2026-11-11T14:35:36+00:00",
  "articles": [
+  {
+   "gn": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPaVd1ZGx5QWJCdTdqSUt5QXJ6cldaUDNSR3ZuUFJqRjJFLUJpOUFkZ21uYUFlcWNpR19yVFNaQWVfeFpEcTZCb2RmczRaUG5JSG4tOWR5N2duMUNrbTlsT3dNMXNZeVZYSmNuVmcwMzZyUVpTQi1YTHpwbnZKM0lrNGpyWEF5Zm1INmpKVmZFYm14bWtBeUE3bTAwUlBOSUxJYXdTdU1fbHN6cno3bGQ0UHJ1NEtKanVIc2tZY0JualM1RW11RXBJZWtIbDc?oc=5",
+   "s": "Frandroid",
+   "d": "2026-11-11T14:34:44+00:00",
+   "lang": "fr",
+   "t": "Black Friday : la PS5 de retour en stock et la Switch 2 à son prix le plus bas aujourd’hui !",
+   "erreur": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSmVMdUd2dkYtWTZRSmhZZFFWeUpYZEZoeUJDb3pIZURXNGZCdTBjNUFkOE9fa2szMFVFdTRUS2hleGpKYlJhWDZuZGJuWHRtLU9FZWlvQWVnN0FSeVBGSmxDX2F0ekRzajFRT1dWekx4WDN2cWJWRHBxQm9waUxDeWRoajhTbzVIZEF6czZBbmRUVGpIa3JxZGZaQjdNbk1VVmpSdUJ1REtkWHJ3bTNWZDgwcDUxbTlCX2lqRXpSSHVaTkc0?oc=5",
+   "s": "Frandroid",
+   "d": "2026-11-11T14:25:56+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : pourquoi même la PS5 Pro est incapable de dépasser les 30 FPS",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdDBjbzQ5Q3MyYW03SmZpWUVCeXgtZnBCSUtFT0NTdUR1NGtrUVVYM3RsX3k0dHdIem1qUzNtWGE0ZVB3WjZ6a2tjeWRKLWxjMkVNdm5rY2JzX0JnNWRSVXVWX0c3ck9SS1UzRWUwRER6WmhNSEo2a0pxQ2pwVkJ6bzZhXzRGVEJpU2c4dDJjVTlsdHMtNVNDMVRLUGlBVExKYVlURjBHOGFEY0E?oc=5",
+   "s": "The Hollywood Reporter",
+   "d": "2026-11-11T14:16:46+00:00",
+   "lang": "en",
+   "t": "‘GTA 6’ vs. Hollywood: Industry Braces for Biggest Entertainment Launch in History",
+   "erreur": "429 : passage suivant"
+  },
   {
    "gn": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdmNMNlZwSmtuOVI3dGtLRl9KZFl4dkl6RWZ1dmpqVlBGQjVRMmMzUkNISld0QlRZVHhiMi1jX0UtVEowckdPaUE4OFMzeHVVOWtvZW9qMzZSSGh6eXFEdm1VUm9keS1uMWZ3OGtGeEY4dUVUMnZLSGJfV3dzdzVYT1hXMHV0NWxMR3A2Z2h6Qy14QQ?oc=5",
    "s": "The Shortcut | Matt Swider",
@@ -55,7 +79,7 @@
    "d": "2026-11-11T13:51:04+00:00",
    "lang": "fr",
    "t": "GTA 6 bat le record de précommandes sur PlayStation et Xbox, mais Rockstar ne donne aucun chiffre",
-   "erreur": "Remote end closed connection without response"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRC1McmZ1SWVvNWhkNkUtXzBPbGJCZ0thdnhqNDk1eldsc1BSWTRmTkRIS0t1WG9qanpFWTJpRXV1Q2JZQmRDSUU4eVJSMHNsdEp2WDRBb2JoOEtodXVmNjNCYldaSmk4Rk0zNjBDZWp0MVN3RUNiSnE5UHhxdjZlY1B6ZThaek4zbmhzSjRvZzhyQQ?oc=5",
@@ -75,7 +99,7 @@
    "d": "2026-11-11T13:38:00+00:00",
    "lang": "en",
    "t": "Tickets for the GTA VI festival go on sale today. How to get one",
-   "erreur": "HTTP Error 402: Payment Required"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOeGptdDBYbXpJQ1FMd0ZrLXNiZWVFdFhINDdhdThjWWp2Q3RHNW5sVmlxTjVHdU13cnhNaFNwQjdzM1Z4MmM0MTI0OHF3WVdESndxVThuMHhGekltQ2hQQ1ZRX0JZVFBtNjBXb1lDT3JqYnNnWm9yWklkcThwc09md0Y1YXNNbkZrWVE?oc=5",
@@ -88,18 +112,6 @@
    "chapeau": "Rockstar has confirmed that \"Grand Theft Auto 6\" will run at 30 frames per second (FPS) on consoles to support its graphical fidelity and various features.",
    "txt": "Rockstar Games Add SVG on Google: Preferred Source Google Discover When the \"Grand Theft Auto 6: An Extended Look\" special debuted on Netflix, one of the most surprising things about the footage was that it was supposedly running on a base model PlayStation 5. But it remained unclear whether \"GTA 6\" would run at 60fps on consoles . Given its graphical fidelity and the absolutely gigantic map, it seemed unlikely. Now, we have confirmation that \"GTA 6\" will, in fact, run at 30 frames per second (FPS) on consoles.\nPer Rockstar Games ' official site, the game — which will be released on November 19, 2026, for the PlayStation 5 and Xbox Series X|S — has been developed to run at 30 FPS on consoles. \"'Grand Theft Auto VI' has been fully developed from the ground up to provide the best possible experience for the current generation of consoles,\" the post reads. \"Targeting 30 frames per second while pushing both platforms to their absolute limits to bring the vast and rich world of Leonida to life.\"\nRockstar is clearly trying to highlight the fact its game's massive scale and complexity is the reason why it won't be running at 60fps, which is fair. Regardless, this is official confirmation that \"GTA 6\" runs at 30 FPS on consoles, and while that will be a major disappointment to many gamers who consider 60 FPS to be the gold standard, it's hardly surprising.\nRockstar Games The news that \"Grand Theft Auto 6\" will run at 30 FPS isn't exactly a shock. Not only is the game incredibly detailed and massive in scale, we'd also previously heard from those who attended preview events at Rockstar North in August 2026 that \"GTA 6\" wouldn't be capable of 60 FPS at launch. An analysis of \"GTA 6\" footage from the \"Extended Look\" special, carried out by Digital Foundry , likewise concluded that the game was running at 30 FPS and that that it was \"clear that the focus was absolutely maximizing the level of visual detail\" rather than trying to push for the more fluid frame rate. As such, most fans were surely expecting official confirmation of the 30 FPS limit.\nIn the website post, Rockstar Games pointed out that while 60 FPS was an impossibility, those looking to get the most out of the game can do so via the PlayStation 5 Pro. According to the developer, the Pro console offers \"breathtaking visuals, with improved clarity through PlayStation Spectral Super Resolution (PSSR)\" and \"ray-traced shadows\" unavailable on the base model PS5. That might just convince a few players to buy a PS5 Pro just for \"GTA 6.\"\nOn the standard PS5, there's \"high-fidelity haptic feedback\" that has been \"fully integrated across the game on DualSense controllers and adjustable via accessibility settings,\" as well as \"improved spatial audio rendering\" via the Tempest 3D Audio technology and \"improved load times.\" Beyond that, Rockstar confirmed \"GTA 6\" will be available via XBOX Cloud Gaming on XBOX Series X|S and XBOX One consoles. This streaming version of the game will, according to Rockstar, use XBOX Series S graphics settings, while \"GTA 6\" will fully support Remote Play on both PlayStation and XBOX.\nRockstar Games Sadly, the \"GTA 6: An Extended Look\" presentation neglected to confirm when the PC version of \"Grand Theft Auto 6\" would be available. Since then, there's been no word from Rockstar Games on PC plans, but the developer is reportedly eyeing a first quarter 2027 release. Similarly, Rockstar has yet to confirm whether the PC version will support 60 FPS. It's likely that it will, but as of now, details are sparse.\nMeanwhile, plenty of gamers will no doubt be disappointed with confirmation that the console version of \"GTA 6\" doesn't support 60 FPS. While the PS5 Pro version is getting the ray tracking and PSSR upgrades, many likely hoped Rockstar would introduce a performance mode allowing for the higher frame rate. But considering the level of detail in the game, which includes a newly revamped wanted system, a dynamic weather system, and major improvements to NPCs, and the fact the \"GTA 6\" map is the biggest ever for the franchise, 60 FPS likely simply isn't possible on the PS5 and maybe even out of reach for the Pro.\nFor now, we await more news of the PC version. In the meantime, pre-loading for \"GTA 6\" began on Tuesday, November 10, 2026, ahead of the official release on November 19.",
    "pub": "2026-11-11T13:37:57+00:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5MeXRHcHBhT3c1eWdON2dZMk4zMm9qWUR1TDlLMFRab2FSeDVudm1jcklaUVJlS1FNWUZRNkhVSmdLQ1l6RWVDajl4TGxuSGZ2WF85ejNuaW9ITVE?oc=5",
-   "s": "Gamekyo.com",
-   "d": "2026-11-11T13:35:00+00:00",
-   "lang": "fr",
-   "t": "Gamekyo : Blog : GTA 6 explose les records de précommandes chez PlayStation et Xbox",
-   "u": "https://www.gamekyo.com/blog_article488897.html",
-   "img": "http://www.gamekyo.com/Webmasters/Images/grand-theft-auto-vi_20220730_060731_intro.jpg",
-   "chapeau": "Blog : GTA 6 explose les records de précommandes chez PlayStation et Xbox : Gamekyo is a social video game magazine for the Wii, Nintendo DS, PlayStation 2, PlayStation 3, PSP, Xbox 360 and PC. Blog : GTA 6 explose les records de précommandes chez PlayStation et Xbox",
-   "txt": "",
-   "pub": ""
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPS3Q4dzJJOUdSa0xTWHNiQzctX1RnaHo0R2VzY2RydnZfd0Y1ZjRDQWpvN0ZFY2dtSnlVZUU1OFluMkNhLUtvdE9tZFd2bXp0dmdlNE4zQjdKZ094NVdIX1VMLTBpN1p1R0R5M0ZSQWZJeExPUlFydUhvNFBRbmViSFFOVnQ4WDR3NVhHZGhPQ2tzUzhHbEpCcHNlR2JPMXk4X0pIc3h3ZlU4MXRpRmt4eGJGOUJSX0p2d2w3RDZpcXpCZ0NKS2ZlYVBBdW9VWFFvenJYajN3bUF2VGZIVG1sZzNsMUF0ZkU?oc=5",
@@ -186,6 +198,14 @@
    "pub": "2026-11-11T13:00:35+00:00"
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBtZllhRlh4UVVkTmpHYkxjMlJKLUF5aXlBbWFmMFY0cHd4ZWZlUnN6d1ZreVpBX3B6bjN3VVBWbmZIOWlTRjBsY0JhWXJSYnhkVEUtdUNUQkE0b3RYQ2ZuRg?oc=5",
+   "s": "PCMag",
+   "d": "2026-11-11T13:00:27+00:00",
+   "lang": "en",
+   "t": "Taking Off Work or Skipping School to Play GTA 6? So Are 12.5 Million Other People",
+   "erreur": "429 : passage suivant"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUWViQ2JtSHppT3Nqa0oxZDI4YzU1SjMxMWR6RGFueC10T0trOXR5RFlnblRaVHVzSEVRYWxDRjQtVkFOMFVNNUFKOE9VOWVtVDBhQk9jTEU2YnE0UnBjaFhjcklUaHNpVkhIYU94cUZUQWhrQjNWcERieFJidEs4LXZzVnNpWjhaUXpUcU1HMndrMVpzWFRBOG45Z3N5VGw1aUZCQ1hiMG5lOUJxQmNjN2dlV05EZmZSUjdRLQ?oc=5",
    "s": "Journal du Geek",
    "d": "2026-11-11T13:00:06+00:00",
@@ -210,18 +230,6 @@
    "pub": "2026-11-11T13:00:00+00:00"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNT2dadkxVVWtROFBDNXVFOXJ4U3FjRDNaU2RBQksxdzJma0I3alVULWM2WnhTM3RMR19WeVc0ek9JZ0ZHOWVOQ1QzdnNGcjRIUXE4anZBUWZZajI1VzZRVllFTlJrRTVqV1ZhNFZsa1JUWllDLU5yWktNWnRkVEpXWm5manhzcGl3ZHdBQXppUnFGa0NkZmdfZUJrN01CeDlkX3piQlJsSDFLN2YtaV9Oa3JkTUs?oc=5",
-   "s": "PCMag UK",
-   "d": "2026-11-11T13:00:00+00:00",
-   "lang": "en",
-   "t": "Taking Off Work or Skipping School to Play GTA 6? So Are 12.5 Million Other People",
-   "u": "https://uk.pcmag.com/games/168335/taking-off-work-or-skipping-school-to-play-gta-6-so-are-125-million-other-people",
-   "img": "https://sm.pcmag.com/t/pcmag_uk/news/t/taking-off/taking-off-work-or-skipping-school-to-play-gta-6-so-are-125_6qas.1200.png",
-   "chapeau": "Our survey finds that millions of Americans plan to call in sick or take PTO to visit Vice City when Rockstar's highly anticipated crime epic drops on November 19, and some are clearing two days or more.",
-   "txt": "",
-   "pub": "2026-11-11T13:00:00+00:00"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQd0RIWDhIeTctVWc4bGNVOHBHRElJVFQxNDRzZjJLRGtjM2NkdVhfcVRBZF9qM3dkbmxKMTFOMm9NSDdTb1hzZExUSFJJeWpkLWQxYVJaV2tJTjhtQXp3ekk3RGhWdDFPcklpUEFhVS14Q3RPOHdEYjhicjlIblhhQk0xWTJPVXBENy1SeUFIWjlZU1ZuSHd2SWUyZGloTzNxdWM5dTd3aVFZLUM0UXUzR0JFSHRWTlNSNkxYQXVscUtIY2lKMkE?oc=5",
    "s": "Clubic",
    "d": "2026-11-11T12:57:00+00:00",
@@ -232,18 +240,6 @@
    "chapeau": "Face à l’arrivée de GTA 6 le 19 novembre, Nintendo n’a pas eu froid aux yeux en commercialisant le remake d’un de ses titres les plus emblématiques. Malgré la force de frappe de Rockstar, The Legend of Zelda : Ocarina of Time vient de réaliser un démarrage record sur Nintendo Switch 2.",
    "txt": "Face à l’arrivée de GTA 6 le 19 novembre, Nintendo n’a pas eu froid aux yeux en commercialisant le remake d’un de ses titres les plus emblématiques. Malgré la force de frappe de Rockstar, The Legend of Zelda : Ocarina of Time vient de réaliser un démarrage record sur Nintendo Switch 2.\nSorti initialement sur Nintendo 64, puis sur Nintendo 3DS en 2011, The Legend of Zelda : Ocarina of Time , considéré par beaucoup comme le meilleur opus de la franchise, a fait son grand retour le 5 novembre dernier sur Nintendo Switch 2 . Malgré l’aura du titre de Big N, l’arrivée d’un jeu comme GTA 6 quelques jours plus tard aurait pu détourner l’attention des joueurs. Que nenni. Le remake a signé un démarrage impressionnant, avec plus de 5 millions d’exemplaires écoulés en seulement quatre jours. De quoi rappeler que même face à l’un des jeux les plus attendus de l’année, la légende de Zelda n’a rien perdu de sa force et de sa témérité.\nQuatre jours. C’est le temps qu’il aura fallu au remake d' Ocarina of Time pour atteindre les 5,2 millions d’exemplaires vendus sur la dernière console de Nintendo. Une performance hors norme qui permet à cette refonte du classique de la Nintendo 64 de signer le meilleur démarrage jamais enregistré par un jeu Nintendo Switch 2. Le titre s’empare également de la deuxième place des jeux les plus vendus sur la console, juste derrière Mario Kart World , qui totalise déjà 16,48 millions d’unités.\nAutrement dit, The Legend of Zelda : Ocarina of Time a déjà dépassé les ventes cumulées de Donkey Kong Bananza . Pourtant disponible depuis plus d'un an, ce dernier affiche 5,05 millions d'exemplaires écoulés. Le remake de Zelda a donc réussi à le devancer en seulement quatre jours, un écart qui donne toute la mesure de son lancement.\nÀ découvrir J'ai joué à Zelda sur PC avec le DLSS : l'IA ouvre des perspectives fascinantes pour le jeu vidéo 04 novembre 2026 à 11h32 News BenQ BenQ iScreenBar : la barre lumineuse qui s’accorde avec l’iMac Des lignes en harmonie avec celles de l’ordinateur d’Apple, une conception rigoureuse, des matériaux sélectionnés, rien n’a été laissé au hasard, tout comme le service qu’elle rend une fois allumée !\nSur les 5,2 millions d’exemplaires vendus en quatre jours, 810 000 l’ont été au Japon. Selon les estimations du journaliste Oscar Lemaire , le remake aurait déjà écoulé près de 250 000 exemplaires en version physique dans l’Hexagone. C’est presque trois fois plus que le démarrage de Call of Duty : Modern Warfare 4 , et surtout le meilleur lancement en magasins français depuis la fin de l’année 2024.\nReste maintenant à voir comment Ocarina of Time résistera à l’arrivée de GTA 6 . Sur ce terrain, le jeu de Rockstar part avec une longueur d’avance considérable. Selon les estimations de Sensor Tower publiées hier, il comptabilisait déjà 9,6 millions de précommandes numériques , pour près de 942 millions de dollars de revenus. Un chiffre vertigineux, qui laisse présager un lancement commercial d’une tout autre dimension.\nLe succès commercial de GTA 6 s'annonce colossal. © Capture d'écran Clubic Mais ce futur raz-de-marée ne doit pas faire oublier la performance de Zelda. Le remake a réuni 5,2 millions d’acheteurs en quatre jours, sans attendre le passage de GTA 6 pour trouver son public. Et rien ne dit que ces joueurs tourneront le dos au jeu de Rockstar. Beaucoup d’entre eux pourraient très bien avoir envie de retrouver Hyrule sur Switch 2, puis de partir à Vice City sur PS5 ou Xbox. Les deux titres ne s’adressent d’ailleurs pas nécessairement aux mêmes envies. Une chose est sûre : Ocarina of Time n’a pas tremblé face à l’ombre de GTA 6 .",
    "pub": "2026-11-11T13:57:00+01:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBmLUQzSTV0c1U4X0dudFpJWE9SNXN5ZlZFcUVMUFUyRnFrVk9Sc05VMENXQ3FBZklmV2w1THlVbW1ydmVHdHBxMzVCWFJOV2pMdURkTV9NamxwaFRjTUpUcW1IdUZQQkp2?oc=5",
-   "s": "Insider Gaming",
-   "d": "2026-11-11T12:53:31+00:00",
-   "lang": "en",
-   "t": "How to Play GTA 6 on XBOX One—XBOX Cloud Gaming, Explained",
-   "u": "https://insider-gaming.com/how-to-play-gta-6-on-xbox-one/",
-   "img": "https://insider-gaming.com/wp-content/uploads/2026/11/gta-6-xbox-one-cover-scaled.jpg",
-   "chapeau": "Grand Theft Auto 6 will be playable on XBOX One via the XBOX Cloud Gaming service. Here's exactly how you play GTA 6 on XBOX One.",
-   "txt": "On November 10th, it was confirmed by XBOX that the company’s Cloud Gaming system would accommodate streaming of Grand Theft Auto 6 at launch on both XBOX Series X|S and XBOX One platforms. That latter point might come as a surprise, but it effectively means that you’ll be able to play GTA 6 on a last-generation platform.\nThere are a few steps you’ll need to follow to make GTA 6 playable on XBOX One, of course. Below, I’ve penned a short guide explaining exactly how you can play Grand Theft Auto 6 on XBOX One.\nXBOX has confirmed that GTA 6 will be playable through XBOX Cloud Gaming on XBOX One consoles from launch day at 1 AM ET. The streamed version of the game will use XBOX Series S graphics settings, which isn’t bad at all.\nThe XBOX One can’t play GTA 6 natively , but you still need to buy a copy to register it to your account to facilitate the streaming. It’s not coming to XBOX Game Pass, so you still need to own it.\nThe process is pretty simple. You need to boot up your XBOX One, navigate to the store, and purchase a copy of Grand Theft Auto 6. Then, you’ll need to wait until the game launches on November 19th before selecting GTA 6 on your dashboard or via My Games & Apps, and selecting the cloud-play or streaming option.\nAt that point, you’ll be free to stream the game while Microsoft’s cloud server technology handles the processing, which is why you need solid internet.\nXBOX recommends having at least 20Mbps set up for console and PC gaming, but even with 10 times that, you might see noticeable performance issues or high latency.\nIf you rely on the XBOX Cloud Gaming allowances allocated to your Game Pass tier, you’ll find that you won’t get much playtime at all .\nAs you can likely appreciate, that’s nothing for an enormous, open-world game like Grand Theft Auto 6.\nIf you want to buy more cloud gaming time, you can invest in the following packages:\nIt’s certainly feasible, and it’s the only way you can play GTA 6 on an XBOX One console, but the cost could quickly mount, especially when you consider you need to spend at least $79.99 to acquire the base game.\nAre you going to use XBOX Cloud Gaming to play GTA 6? Let us know your plans on the Insider Gaming Discord server .\nFor more Insider Gaming coverage, check out the news that PlayStation has sold 100 million units , and don’t forget to sign up for our free weekly newsletter\nGrant has been gaming for 30+ years and in the industry for 10+. You'll probably find him playing a post-apocalyptic game or an extraction shooter somewhere.",
-   "pub": "2026-11-11T12:53:31+00:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONl9VNzh4S0x3Zzdkc3hHX05fZmg0M2ljVDJpQV9SZnRNOUswZ1VkVHFxdkhpS05sMVFwZVVZWXNST2xrcTJlOXdyV2hhUTNXbHBmTnNHTkJybGZkN3RKT3FaQU1teDA2c3BWZjg5bkxzaC12ZzJlbmRsQUdRUzZleWxmVlI3Q1E?oc=5",
@@ -263,7 +259,7 @@
    "d": "2026-11-11T12:29:51+00:00",
    "lang": "fr",
    "t": "PlayStation et Xbox ont confirmé que GTA 6 est devenu le jeu le plus précommandé de l'histoire",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNQVZmeHBubzdnQmFnYWF0bVUwdS1BdExZNHdBckVSUFlOMkx2Y1pXREFlWDBFdWlHbUFjV194cDhMeFV1bWotX2Z0ZGhUUE16UVdCQ2JtdnQ2ZWcyX05QNWdoaWRKbEdIUVktYi15bXNKd2x4Yy1obEpKTzBZQW14eXdB?oc=5",
@@ -307,7 +303,7 @@
    "d": "2026-11-11T10:31:14+00:00",
    "lang": "fr",
    "t": "GTA 6 : budget, map, reports, PC… 11 choses à savoir",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQTUpIZWxwZzRwZklhc1F0OVVHNnF1QVNEbXYySHJrM1RVc3NvamR2UUV5ek5YT2RaeXdZblRkdGdoU0xvSDlkYkpIb3lXanEySzRVeDJBbFZhNG12VXRsTk95b0dleGlOb1hzV0thc2NoWVowbnExbGpWNTFLWUhuM2VWMlR2RVYyem5hR3JWUDlFc0hFdnR4eWJRWlZ5NTVIanphYlk1Z3VTcEREQ0RYeFB0WjVhMUlSZFVmbnh6VQ?oc=5",
@@ -327,19 +323,7 @@
    "d": "2026-11-11T10:23:55+00:00",
    "lang": "fr",
    "t": "Restriction CPU égalisé les performances de la Xbox Series S et de la PS5 Pro à 30 FPS dans GTA 6",
-   "erreur": "HTTP Error 403: Forbidden"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOV1lDVWhUbWd6X1VLLWNaSjBaX0pfLU00Wmo1YTY1aEN6dHZ4N3ZucHFObkNDUVdtUDVsb0pWOTR0QXNhWnJfcDFWUURfd3hYbFZDNE5YNmVQWTBDVEdjMElvYXFBYnR3UjNaSGdBa2s3QV9rSEdkSjdsSndvbkZxdHhMMWw3ckxteFJjXzlHSFRfZ2lrdVd6T09ybXBQQjBsb2xSTG1WbTJRcm8tSDVzZXNpcXVic3F1SGhDakRzRjdtVmZJcUFwb0plb1JXcXd0TW9wVmNsVTg?oc=5",
-   "s": "BlogNT",
-   "d": "2026-11-11T10:15:00+00:00",
-   "lang": "fr",
-   "t": "GTA 6 sur Xbox One : jouable en cloud gaming le 19 novembre",
-   "u": "https://www.blog-nouvelles-technologies.fr/392789/gta-6-sur-xbox-one-le-jeu-sera-jouable-en-cloud-gaming-des-le-19-novembre-mais-a-quel-prix/",
-   "img": "https://www.blog-nouvelles-technologies.fr/wp-content/uploads/2026/11/GTA-6-Official_Cover_Art_landscape-c3e36df9ed6c80b13d50-1400x840.webp",
-   "chapeau": "GTA 6 sera jouable sur Xbox One en streaming via Xbox Cloud Gaming dès le 19 novembre. Heures limitées, jeu à acheter, graphismes Series S.",
-   "txt": "GTA 6 pourra bien se jouer sur Xbox One, mais en streaming . Rockstar et Microsoft ont annoncé le 10 novembre que le jeu serait disponible via Xbox Cloud Gaming sur les Xbox Series X|S et sur la Xbox One, dès son lancement le 19 novembre. La console de 2013 ne recevra pas de version native, mais pourra afficher le jeu depuis les serveurs de Microsoft.\nLe jeu devra toutefois être acheté séparément, il ne fait partie d’aucun abonnement Game Pass, et le cloud gaming impose désormais un nombre d’heures limité chaque mois. Voici ce qu’il faut savoir.\nLe streaming ouvrira le 19 novembre à 1 h du matin, heure de la côte Est américaine, soit 7 h à Paris . La version installée sur console se débloque, elle, à minuit heure locale partout dans le monde : un joueur français qui passe par le cloud démarrera donc sept heures après celui qui a installé le jeu sur sa Series X. Les joueurs sur Xbox Series X|S ont donc intérêt à précharger le jeu , pour éviter de dépendre du cloud et de son compteur d’heures.\nAutre limite : la version en streaming utilise les réglages graphiques de la Xbox Series S , même si vous la lancez depuis une Series X. Rockstar rappelle aussi que la qualité de la connexion peut influer sur les performances, d’une façon qui n’affecterait pas une partie en local.\nLe cloud gaming de Microsoft passe en effet d’un accès illimité à un forfait mensuel d’heures. Selon Digital Citizen , qui s’appuie sur l’annonce de Microsoft de septembre, les abonnements incluent 5 heures par mois pour Game Pass Essential, 10 pour Premium et 15 pour Ultimate . Pour un jeu que l’on joue par longues sessions, l’allocation maximale pourrait être épuisée en quelques jours.\nIl est aussi possible, depuis le 11 novembre dans les pays pris en charge, d’acheter des heures de cloud sans abonnement Game Pass, comme nous l’avons détaillé dans notre article sur les forfaits dès 3,99 dollars . Les tarifs définitifs n’ont pas été publiés : les prix de 3,99 dollars les 10 heures, 7,99 dollars les 25 heures et 11,99 dollars les 50 heures ne concernaient que le test Xbox Insider. Nous n’avons pas pu vérifier leur disponibilité en France.\nLe communiqué ne cite que les consoles Xbox. Matthew Ball, responsable de la stratégie Xbox, avait déjà indiqué en octobre que GTA 6 ne serait pas diffusé en streaming sur PC au lancement. Un Fire TV Stick pourrait suffire, mais cela ne figure pas dans l’annonce de Rockstar.\nRockstar a également confirmé la prise en charge du Remote Play sur PlayStation et Xbox , qui permet de diffuser le jeu installé sur votre console vers un autre appareil. La compatibilité avec un PC ou une console portable n’est pas confirmée. D’autres titres de Rockstar, dont GTA V et Red Dead Redemption 2, doivent rejoindre le catalogue du cloud dans les prochains mois.",
-   "pub": "2026-11-11T11:15:00+01:00"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTUZRYmpHSW9UZUhWZzNSclR6SEFpaktXZjBFdTQtV0RuampzSjVTNDVPUV80bnp5cEJJeVZEd0wwa21ydGFJR2Y1bEhRSDQ4eW9KQUpETl9UcHcxazkxVC1hMkk4QXVXRTZJcnp2WUNFRGtXUlJhSDY3WUY2OGZESUplbW1YclBmb3ZCS0tnSHBZaU0?oc=5",
@@ -433,19 +417,6 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOeDZWblpSaE1nQnZwT2hYOWxyanJybUZqVHdIRVdNNDZYblV3MXZCMVphSjNWSC1UbXVsa1ZRSWJucmgxVjd5ekJuYVdrXzBzeVkyQVd6YU0zbjNodk9tRThKTGw0NHQtcFNJN2dXcFFPX1otN2d0UUhYMG9xS2tEUDE4ZzRUWklJWGVpVUZ0ckF6WklZZDExRzVjR1NWb2hxSHpqdktjZUdPaElKLW8tT3BCNGJWb19GTWlSWnlMcEstWmdIZmlra3FqUlRmZWwxdHBKcEZITk1JdVRYQV9vU0dHMGpTNFdROExqSjFjZnpucVdmZE43R3pSYzk0OExlSDgzZDFJcFdTTzQ4N01QSUViUQ?oc=5",
-   "s": "La Crème Du Gaming",
-   "d": "2026-11-10T13:40:26+00:00",
-   "lang": "fr",
-   "t": "GTA 7 : après 13 ans d",
-   "u": "https://www.lacremedugaming.fr/jeux/gta/gta-6/gta-7-apres-13-ans-dattente-pour-gta-6-le-patron-de-take-two-fait-une-declaration-qui-pourrait-changer-les-attentes-des-joueurs-234150.html",
-   "img": "https://sf.lacremedugaming.fr/wp-content/uploads/creme-gaming/2026/11/gta-7-apres-13-ans-dattente-pour-gta-6-le-patron-de-take-two-fait-une-declaration-qui-pourrait-changer-les-attentes-des-joueurs-1200x660.webp",
-   "chapeau": "À l’approche de Grand Theft Auto VI, Strauss Zelnick promet des jeux Rockstar développés plus vite. Cette annonce relance l’espoir d’un GTA 7 bien plus proche qu’on ne le pense.",
-   "txt": "À l’approche de Grand Theft Auto VI, Strauss Zelnick promet des jeux Rockstar développés plus vite. Cette annonce relance l’espoir d’un GTA 7 bien plus proche qu’on ne le pense.\nTreize ans séparent Grand Theft Auto V (2013) de Grand Theft Auto VI , attendu le 19 novembre 2026 sur PS5 et Xbox Series X|S. Un cycle record qui a parfois épuisé la patience des fans, pendant que Rockstar Games redéfinissait son moteur, son open world façon Vice City et tout son pipeline de production.\nÀ quelques jours de la sortie de GTA 6 , le patron de Take-Two Interactive , Strauss Zelnick , prépare déjà « l’après ». Ses déclarations, combinées à celles de cadres de Rockstar, laissent entendre que le prochain épisode majeur, potentiellement GTA 7, pourrait arriver plus vite . Mais jusqu’où faut-il y croire ?\nDans une interview citée par 01net, Strauss Zelnick affirme qu’ »il est possible que les évolutions récentes de la technologie nous permettent de réduire certains délais de développement sans compromettre la qualité, et nous l’espérons ». Le message est clair : l’éditeur veut raccourcir les cycles sans toucher au niveau de finition qui a fait la réputation de Rockstar.\nInterrogé par IGN, il va plus loin : « Nous pensons que la nature et la vitesse du contenu que nous verrons pour nos franchises emblématiques, y compris GTA, seront très différentes au cours de la prochaine décennie. Et cela est vraiment porté par notre engagement de premier plan dans l’industrie à proposer des divertissements de la plus haute qualité, à atteindre nos joueurs de nouvelles façons et en de nouveaux endroits et à maintenir l’engagement de nos consommateurs après la sortie. » Zelnick ne prononce ni « GTA 7 » ni de date, mais installe l’idée d’un rythme plus soutenu.\nCôté studio, Bloomberg rapportait que les responsables de Rockstar « promettent que leur prochaine sortie ne prendra pas huit ans à faire ». Là encore, aucun titre n’est cité, mais tout le monde pense au successeur de GTA 6 . Selon plusieurs développeurs, l’effort colossal engagé sur ce dernier doit enfin payer : refonte profonde du moteur maison RAGE (Rockstar Advanced Game Engine), outils internes modernisés et production pensée dès le départ pour être réutilisable.\nConcrètement, Rockstar ne veut plus « tout démonter à chaque épisode ». Le studio a presque doublé ses effectifs, passant d’environ 2 441 employés en 2018 à 4 711 en 2026, et a investi dans un projet estimé entre 1 et 2 milliards de dollars , soit environ 900 millions à 1,8 milliard d’euros. L’idée est que cette base technique, construite pour l’État de Leonida et Vice City dans GTA 6 , serve de socle pour des jeux suivants développés plus vite.\nÀ ce stade, GTA 7 n’a rien d’officiel : pas de logo, pas de teaser, aucune plateforme annoncée. Les projections qui circulent pour une sortie entre 2032 et 2035 reposent surtout sur des calculs de fans. Si Rockstar tient sa promesse d’un « prochain jeu » développé en moins de huit ans, un lancement autour de 2033 à partir de 2026 paraît cohérent, mais cela reste un scénario théorique, pas une fuite.\nIl faut aussi compter sur la stratégie longue durée de Rockstar. GTA 5 a vécu plus de dix ans grâce à GTA Online, et tout indique que GTA 6 bénéficiera du même traitement, avec des années de mises à jour pour rentabiliser son budget record. Les déclarations de Strauss Zelnick et des cadres de Rockstar invitent donc surtout à penser que l’on n’attendra probablement pas 13 ans pour le prochain gros jeu, mais elles ne garantissent ni un « GTA 7 » nommé comme tel, ni une date précise. Pour l’instant, la seule certitude, c’est que l’attente commence à peine pour l’après Vice City.",
-   "pub": "2026-11-10T13:40:26+00:00",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPdVZxTC1CaUpLLXFJUk93S05NYkxIb19pUWdLRTJuemNaOFNhTzZiZVRJb2xaVVRGVkZFZHlkQ3ZaRmk1akZ0QVpZM2JPaEppSTVXT19VdFBkcGlpZ3Y4UlpMWlBSMEJGVXl2MV93enotMHNkSVVHdEdsMjBsUEJQM1JpT0RZeHlmUnU4eVkzTDZnNDBoVXIwUnhJVGxUM2NtNXUtRkRELWtqcmVITUdqLXZicU1lRWlZRXFMb2oxQm1xcVNJNEhhYVFfTzdqZXhnUG0wVlZqM0dVV3NBRkFST3VDM2tRNjF1dnE0ekR1a0bSAf4BQVVfeXFMUHg3QTJVa183bHRhWTlSZkYzUl9zdEJhZUlQSm8xbHV6cGZJMTRJYkpsbk1ibzJnUjV0ak1KLXFzQ1ZuM3BJZ25pMWloX3d3aTdYZ2hQRUZBa2xsRHhZaHR5RWdUckxRcDJleGZZVE9PTzRNMnpTQ0toUTRHVV9oQWtwZXcxMTdHUWFRcE9VY1JzdVdYVHZ2dnIxX21nWXVZalNVeHYzMDlGUWE4a1RxUjZHMzBEUVY4ZU93TGVIbi0wUFh6RmdNN1RaWjRtNFFLWDlGMnVuMG5WYXpDc3ExMWlEb1BWb2VtVm5pUEp1QTNJWTJhRVdFWURNVlVySFE?oc=5",
    "s": "Esquire India",
    "d": "2026-11-10T10:39:34+00:00",
@@ -456,6 +427,15 @@
    "chapeau": "Is GTA 6 Online release on the cards? It certainly will launch, but the conversation is on about when - soon, or sometime in the nebulous future. GTA Online has",
    "txt": "Copied Is GTA 6 Online release on the cards? It certainly will launch, but the conversation is on about when - soon, or sometime in the nebulous future. GTA Online has been one of gaming’s biggest cash cows for over a decade, so it was never going to be simple when it came to GTA 6 Online's plans. This game is all about the multiplayer mode and most gamers consider it to be as good as, if not better, than the single-player mode. While rumours have suggested the online mode might not arrive until sometime in 2027, a fresh discovery from data miners is complicating that timeline.\nBuried inside the GTA 6 release date build are strings suggesting multiplayer groundwork already exists, even if it won’t be switched on come launch day.\nThe findings come from PlayStation Game Size , who dug through the GTA 6 release build and spotted references including “joinSession,” “launchActivity,” and “launchMultiplayerActivity.” These strings point toward functionality for creating or joining sessions, exactly the kind of backend groundwork multiplayer features typically need.\nThat said, none of this confirms online mode is landing on November 19th, it simply suggests Rockstar may have built the framework in advance so a future rollout can slot in smoothly rather than arrive as a bolt-on later.\nHistory offers some hope for an early-ish arrival too. GTA Online famously launched just two weeks after GTA 5’s solo campaign, while Red Dead Redemption 2’s multiplayer beta surfaced roughly a month post-release. Still, Bloomberg’s Jason Schreier has downplayed expectations of an imminent announcement, suggesting fans may be waiting until 2027 for co-op missions to materialise. Why the wait? Well, Rockstar took some 13 years to roll out GTA 6. GTA 6 Online getting delayed is par for the course.\nGTA Online remains an enormous earner for Rockstar even today, and that profitability alone gives the studio little incentive to rush players away from it.\nTwitch CEO Dan Clancy has echoed similar sentiment, noting that a 2027 GTA 6 Online launch would likely generate a much bigger viewership spike than an earlier rollout squeezed in alongside the base game’s launch hype.\nAdding to the intrigue, Discord logs from a past Rockstar employee tribunal referenced a 32-participant multiplayer test session dating back to October 2025, suggesting internal testing has been underway for a while now.\nWith GTA 6 pre-loads beginning November 10th in New Zealand before spreading worldwide, data miners are expected to keep digging, and more clues about GTA 6 Online release date may not be far behind.",
    "pub": "",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaE5zelVzM2FPTnljRmF3M2I1c3FxOEJhYXJvem9lODNXNnhFWTZSaG5GZnVMVmNEcld3VHh4ZDZuV19KeGN2T0V6emZPLTd2OFQ1bV95RzJiTEdnYXU1VG5IcEhibzY4X1NKbmc5dHVkRFhVNU54NjBHSE5NN3A3VndjeWRBaTV0Ql9hM21RdWQ5dlJqQmZsczgwTFNYQzU5MnNUM0JrdERMZw?oc=5",
+   "s": "UNILAD Tech",
+   "d": "2026-11-10T10:24:04+00:00",
+   "lang": "en",
+   "t": "GTA 6 Xbox leak hints at display and audio features PlayStation users won't get as preload goes live",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -568,20 +548,7 @@
    "d": "2026-11-09T17:49:00+00:00",
    "lang": "en",
    "t": "GTA 6 Multiplayer Surprise Leaked In PlayStation Files Ahead Of Launch",
-   "erreur": "HTTP Error 403: Forbidden",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZjdsYU9GSFlWTm52eHFObFNvZWx5WWlCNHhRbHdSYnN4R2xXMGh2cWRENVJfOVU4OHo2b1ljbjJmdTFlMW80NE1OUXBzcFFwVVNReGhUTFl2Qzljak0zTlkxSTlyaVVmckU0ZGhzcDBScWdzbjd0WDVJaU1vZlh2TUlicDFMY1VreG55Vy1zamh1Sl9ZelZkaA?oc=5",
-   "s": "eTeknix",
-   "d": "2026-11-09T16:55:41+00:00",
-   "lang": "en",
-   "t": "GTA VI PS5 Box Leak Reveals Packaging Design and Double-Sided Poster",
-   "u": "https://www.eteknix.com/gta-vi-ps5-box-leak-reveals-packaging-design-and-double-sided-poster/",
-   "img": "https://cdn.eteknix.com/wp-content/uploads/2026/10/GTA-6-Deserves-to-Cost-100-Says-Former-Saints-Row-Developer.webp",
-   "chapeau": "GTA 6 will only be available in digital format, but it also has a special collector’s edition with many “goodies” that does not include the game. It will also be possible to buy a boxed version…",
-   "txt": "GTA 6 will only be available in digital format, but it also has a special collector’s edition with many “goodies” that does not include the game. It will also be possible to buy a boxed version, which has already been leaked.\nThe leaked version is for PS5 . The box is shown unopened, with both its front and back visible. The front features the design already seen in previous leaks, while the back includes screenshots and a description of Jason and Lucia in the first half, followed by information about the game in the second half.\nThe GTA 6 game cases are arriving with retailers and here is what’s included: – Game Case – A slip of paper with one side the cover art and the other the game code. – A slip of paper with an Ultimate Edition Upgrade prompt. – A double sided poster of the box art and cover girl. pic.twitter.com/8U8OsaQ5aB\nThe second half is where things get interesting, as it includes references to online features and DualSense support, including vibration and adaptive triggers. The box also states that GTA 6 requires 230 GB of free space on PS5, which is 18 GB more than Rockstar previously indicated.\nThis difference in storage requirements could be due to a last-minute change, such as the inclusion of a patch or update. It could be related to fixing bugs or even improving security against the threat of a jailbreak.\nThe box has also been opened to reveal its contents, and as expected, there are no discs. Instead, Rockstar includes a code to download the game, a leaflet encouraging players to upgrade to the “Ultimate” version, and a double-sided poster featuring the game’s official cover art on one side and the “Vice City cover girl” artwork on the other. Unlike previous Grand Theft Auto releases, however, the box does not include a physical paper map.\nIn other news, the ending credits for GTA 6 are reportedly expected to last over 80 minutes . In addition, PlayStation has accidentally published—and swiftly deleted—a product page revealing the PS5 Pro enhancements for GTA 6 .\nGet more eTeknix in Google Add us as a preferred source and our stories show up more often in Google's Top Stories.",
-   "pub": "2026-11-09T16:50:44+00:00",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -603,7 +570,7 @@
    "d": "2026-11-09T11:06:47+00:00",
    "lang": "fr",
    "t": "Nouvelle fuite de données sur GTA 6 — fonctions en ligne, taille exacte et bien plus encore",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -715,12 +682,17 @@
    "s": "JVFrance",
    "d": "2026-11-07T17:54:12+00:00",
    "lang": "fr",
-   "t": "GTA 6 : une fuite révèle le contenu de la version boîte, bien plus généreuse que prévu - JVFrance",
-   "u": "https://www.jvfrance.com/gta-6-contenu-boite-285689/",
-   "img": "https://www.jvfrance.com/wp-content/uploads/2026/06/GTA-6-keyart-officiel-3.webp",
-   "chapeau": "A quelques jours de sa sortie dans nos rayons, la version boîte de Grand Theft Auto VI a fuité et il y aura bien un goodies à récupérer",
-   "txt": "",
-   "pub": "2026-11-07T17:50:34+00:00",
+   "t": "GTA 6 : une fuite révèle le contenu de la version boîte, bien plus généreuse que prévu",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTVpGTFYwS2tsR09DS2dneTNnWmlmX0l6UDFnNjJFazJoNnUzYjlXdU05NXRnSmEzRDlycWVrbUtmTGNVVzhXeXp1dndrd1EwOElaZmpBeGdsMFV3eC1hNkJJZmNuejAxQlFlQXpXTC15dEM3YUVMNjlPcEV1QWFacUxSM2s?oc=5",
+   "s": "Goclecd.fr",
+   "d": "2026-11-07T08:00:00+00:00",
+   "lang": "fr",
+   "t": "Un succès à 1000 points fuité pour GTA 6 menace de briser les complétionnistes",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -755,11 +727,7 @@
    "d": "2026-10-22T15:12:54+00:00",
    "lang": "en",
    "t": "Cyberleek Shares GTA 6 Leak Of Naked Lucia",
-   "u": "https://www.imdb.com/news/ni66062173/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -820,7 +788,7 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
    "t": "Le token CYBERLEEK chute de 40 % alors que le leaker de GTA 6 lance de nouvelles menaces",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
