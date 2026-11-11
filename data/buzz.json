@@ -1,8 +1,46 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-11T08:15:00+01:00",
+  "updated_at": "2026-11-11T10:15:00+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-ps5-100-millions-effet-gta6",
+      "title": "GTA 6 : la PS5 aurait dépassé les 100 millions de consoles vendues",
+      "summary": "@GTAVI_Countdown affirme que la PS5 a franchi les 100 millions d'unités vendues dans le monde et l'attribue à « l'effet GTA 6 ». Le lien de cause n'est pas établi par le post ; aucune confirmation de Sony dans l'extrait relevé.",
+      "url": "https://x.com/GTAVI_Countdown/status/2120374493512384851",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-11T04:34:08.000Z",
+      "checked_at": "2026-11-11T10:15:00+01:00",
+      "evidence": "Vues relevées le 2026-11-11T09:08:20+00:00 dans data/x_alertes.json : 23 941 vues (1 378 likes, 84 reposts). Chiffre non confirmé par Sony dans nos données. Original X non ouvert.",
+      "visual": "PS5 100 M",
+      "image": "https://pbs.twimg.com/media/HW0VOxOWYAAYeXs?format=jpg&name=360x360",
+      "image_alt": "Image jointe au post sur les 100 millions de PS5",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "PS5 has now surpassed 100 million units sold worldwide.\n\nThe GTA 6 effect is insane."
+    },
+    {
+      "id": "x-artwork-vs-in-game-jason-lucia",
+      "title": "GTA 6 : un comparatif artwork / in-game montre Jason et Lucia dans les mêmes tenues",
+      "summary": "@GTAVI_Countdown met côte à côte un artwork officiel et une scène en jeu où Jason et Lucia portent les mêmes tenues. Le post montre une cohérence visuelle entre visuels promotionnels et rendu en jeu ; Rockstar n'a pas commenté.",
+      "url": "https://x.com/GTAVI_Countdown/status/2120301266949587393",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-10T23:43:09.000Z",
+      "checked_at": "2026-11-11T10:15:00+01:00",
+      "evidence": "Vues relevées le 2026-11-11T09:08:20+00:00 dans data/x_alertes.json : 38 387 vues (3 029 likes, 159 reposts). Original X non ouvert (pas de navigateur).",
+      "visual": "ARTWORK VS JEU",
+      "image": "https://pbs.twimg.com/media/HWzSmUqWYAAYeXs?format=jpg&name=small",
+      "image_alt": "Comparatif artwork et capture en jeu de Jason et Lucia",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "GTA 6 artwork vs in-game\n\nJason and Lucia in the same outfits."
+    },
     {
       "id": "x-billboard-rockstar-retire-gta6",
       "title": "GTA 6 : Rockstar aurait retiré un panneau d'affichage qui circulait sur X",
@@ -2696,6 +2734,11 @@
       "at": "2026-11-11T08:15:00+01:00",
       "label": "Passage 90 · panneau retiré, packs GTA 5/GTA+, mème « before GTA 6 »",
       "summary": "Relevé X Mac du 11/11 07:05 UTC. Trois sujets ajoutés : panneau retiré (50 091 vues), packs partagés GTA 5/GTA+ (43 857), clin d'œil au mème (36 024). Écartés : posts <20 000 vues (compte à rebours J-8, PS5 100 M, GTAlphaintel). Originaux X non consultés. Aucun post X ni message à un tiers."
+    },
+    {
+      "at": "2026-11-11T10:15:00+01:00",
+      "label": "Passage 91 · artwork vs in-game, PS5 100 M",
+      "summary": "Relevé X Mac du 11/11 09:08 UTC. Deux sujets ajoutés : comparatif artwork/in-game (38 387 vues), PS5 100 M (23 941). Écartés : « Welcome to Vice City » (déjà couvert), posts <20 000 vues. Originaux X non consultés. Aucun post X ni message à un tiers."
     }
   ],
   "coverage": {
