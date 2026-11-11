@@ -1,8 +1,46 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-11T18:13:03+01:00",
+  "updated_at": "2026-11-11T18:50:05+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-rockstar-instagram-edit-fan-gtasix",
+      "title": "GTA 6 : Rockstar aurait repris sur Instagram le montage d’un fan",
+      "summary": "@gtasix_ affirme que Rockstar Games a publié sur Instagram le montage GTA 6 d’un fan. Le relais s’appuie sur un seul compte ; le post Instagram original n’a pas été ouvert et l’auteur du montage n’est pas identifié dans ce relevé.",
+      "url": "https://x.com/gtasix_/status/2120552016963658177",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rumeur",
+      "published_at": "2026-11-11T16:19:33.000Z",
+      "checked_at": "2026-11-11T18:50:05+01:00",
+      "evidence": "Vues relevées le 2026-11-11T17:19:24+00:00 dans data/x_alertes.json : 26 263 vues ; 20 replies, 60 reposts, 978 likes, 89 bookmarks. Un seul compte relaie l’information. Vraie image (amplify_video_thumb) ouverte HTTP 200 avec curl. Original Instagram non ouvert (pas de navigateur).",
+      "visual": "INSTAGRAM ROCKSTAR",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2120551929042399232/img/7P4Ez7by7o1e4TY8.jpg",
+      "image_alt": "Vignette du montage GTA 6 publié par un fan, relayé comme repris par Rockstar sur Instagram",
+      "image_credit": "@gtasix_ sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Rockstar Games just posted someone’s GTA 6 edit on Instagram."
+    },
+    {
+      "id": "x-myprotein-bundle-gta6-4000-dollars",
+      "title": "GTA 6 : Myprotein met en jeu un lot à plus de 4 000 $",
+      "summary": "@GTAlphaintel rapporte que Myprotein offre un lot GTA 6 valant plus de 4 000 $, avec une PS5, une copie du jeu et une télévision 50 pouces. Il s’agit d’un jeu concours sponsorisé ; les conditions de participation n’ont pas été vérifiées.",
+      "url": "https://x.com/GTAlphaintel/status/2120544656073355431",
+      "platform": "X",
+      "author": "@GTAlphaintel",
+      "status": "Rumeur",
+      "published_at": "2026-11-11T15:50:18.000Z",
+      "checked_at": "2026-11-11T18:50:05+01:00",
+      "evidence": "Vues relevées le 2026-11-11T17:19:24+00:00 dans data/x_alertes.json : 32 916 vues ; 12 replies, 16 reposts, 208 likes, 13 bookmarks. Un seul compte relaie l’offre. Vraie image (360x360) ouverte HTTP 200 avec curl. Original X non ouvert (pas de navigateur).",
+      "visual": "LOT MYPROTEIN",
+      "image": "https://pbs.twimg.com/media/HW2v-KEXwAAxYVf?format=jpg&name=360x360",
+      "image_alt": "Visuel du lot GTA 6 proposé par Myprotein",
+      "image_credit": "@GTAlphaintel sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Myprotein is giving away a GTA 6 bundle worth $4,000+\n\nIt includes a PS5, a copy of the game and a 50-inch TV"
+    },
     {
       "id": "x-guardian-gestes-jason-apercu",
       "title": "GTA 6 : les gestes de Jason relayés après un aperçu du Guardian",
@@ -2894,6 +2932,11 @@
       "at": "2026-11-11T18:13:03+01:00",
       "label": "Passage 95 · Guardian et marathon GTA",
       "summary": "Deux sujets ajoutés : gestes de Jason relayés par deux comptes (38 803 et 59 610 vues), aperçu primaire Guardian ouvert ; fin du marathon GTA de Kai Cenat (48 430 vues), durée attribuée. Deux vraies images ouvertes HTTP 200. Carte précommandes actualisée avec un second relais, sans doublon ni validation des chiffres. Relevés X Mac/serveur du 11/11 à 16:17:53 UTC concordants. Recherches X, Instagram, TikTok et Rockstar effectuées : X 403/Cache miss, Instagram 429, TikTok et Newswire sans texte lisible. J-7/98 % incohérent avec le 19/11 ; concours Myprotein 18 533 vues sous le seuil sans second relais ; boîtes et trophées déjà traités, CJ hors sujet GTA6. Aucun post X ni message à un tiers."
+    },
+    {
+      "at": "2026-11-11T18:50:05+01:00",
+      "label": "Passage 96 · Instagram Rockstar et lot Myprotein",
+      "summary": "Deux sujets ajoutés depuis data/x_alertes.json (maj 17:19 UTC) : repartage Instagram supposé de Rockstar relevé par un seul compte (26 263 vues), et jeu concours Myprotein (32 916 vues, un seul compte). Les deux images ouvertes HTTP 200. Écartés : 98 % / J-7 (déjà jugé incohérent), Guardian 71 586 vues (sujet déjà couvert par x-guardian-gestes-jason-apercu), album reporté au 20 novembre (4 520 vues), revenus 1 Md$ Sensor Tower (4 227 vues), Tony Prince (8 000 vues), retrait en magasin 12 novembre (12 843 vues, un compte, sous le seuil). Aucun post X ni message à un tiers."
     }
   ],
   "coverage": {
