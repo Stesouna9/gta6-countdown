@@ -1,8 +1,27 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-11T22:13:00+01:00",
+  "updated_at": "2026-11-12T00:12:00+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-gtasix-trailer1-vs-gameplay-pnj",
+      "title": "GTA 6 : un compte compare le trailer 1 et le nouveau gameplay, la densité de PNJ fait réagir",
+      "summary": "Le compte @gtasix_ publie une comparaison entre le trailer 1 et la dernière séquence de gameplay de GTA VI, et affirme que la densité de PNJ est « insane ». C'est l'avis d'un seul compte, sans source officielle sur ce point : à lire comme une observation fan.",
+      "url": "https://x.com/gtasix_/status/2120627842656706592",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rumeur",
+      "published_at": "2026-11-11T21:20:51.000Z",
+      "checked_at": "2026-11-12T00:12:00+01:00",
+      "evidence": "Vues relevées le 2026-11-11 dans data/x_alertes.json : 28054 vues ; 20 replies, 75 reposts, 1518 likes, 83 bookmarks. Un seul compte relaie ce post dans le relevé ; aucune reprise vérifiée. Image du post ouverte HTTP 200 (image/jpeg).",
+      "visual": "DENSITÉ PNJ",
+      "image": "https://pbs.twimg.com/media/HW37xuqWoAAgkSt?format=jpg&name=small",
+      "image_alt": "Capture du post de @gtasix_ comparant le trailer 1 et le nouveau gameplay de GTA VI",
+      "image_credit": "@gtasix_ sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "GTA 6 Trailer 1 vs New Gameplay:\n\nThe NPC density is insane."
+    },
     {
       "id": "x-only-in-dade-sequence-telephone",
       "title": "GTA 6 : une séquence en jeu filmée au téléphone circule sur X",
@@ -2985,6 +3004,11 @@
       "at": "2026-11-11T22:13:00+01:00",
       "label": "Passage 98 · Séquence Only In Dade",
       "summary": "Un sujet ajouté depuis data/x_alertes.json (relevé 20:29 UTC) : séquence en jeu filmée au téléphone, post @GTAVI_Countdown de 865 898 vues, repris par @gtasix_ (392 507) et @GTAVI_Countdown (194 975). Statut Rapporté : la repartage par Rockstar en story reste affirmée par des comptes, non vérifiée. Image du post ouverte HTTP 200. Écartés sous seuil : Jason et Lucia filmés au téléphone (@gtasix_, 22 867 vues, probablement la même séquence), Xfinity 2 Gbps (6 847 vues, un compte), Gaming World Miami (2 467 vues). Aucun post X ni message à un tiers."
+    },
+    {
+      "at": "2026-11-12T00:12:00+01:00",
+      "label": "Passage 99 · Trailer 1 vs gameplay (densité PNJ)",
+      "summary": "Un sujet ajouté depuis data/x_alertes.json (relevé 23:07 UTC) : comparaison trailer 1 / nouveau gameplay par @gtasix_, 28 054 vues, statut Rumeur (un seul compte). Écartés : Jason et Lucia filmés au téléphone (@gtasix_, 63 599 vues) et « Rockstar sur Instagram » (RockstarNewsFRA 6 291 vues, JVMag_ch 3 822 vues) : même séquence que l'item « séquence téléphone » déjà publié ; Incredible new gameplay footage (@GTAlphaintel, 11 998 vues) sous seuil et un seul compte. Aucun post X ni message à un tiers."
     }
   ],
   "coverage": {
