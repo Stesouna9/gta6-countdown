@@ -1,17 +1,29 @@
 {
- "maj": "2026-11-11T18:20:31+00:00",
+ "maj": "2026-11-11T18:40:47+00:00",
  "articles": [
   {
-   "gn": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBqSWN2N09ycWE1TXJZQms1Q1o0VXJBV1M3eWFFQTBnSlAxNGRONVpJd2pHQUFZNHktNTI3V1c1cjl6VFE1UVJKRGtCOUhBSFZwRWhscjRsbFRFaHpYQlJEaVV6dEo1eUhKQjNBT3R6UUtqelRNUzFmTDVJRFh1bjQ?oc=5",
-   "s": "Yahoo Tech",
-   "d": "2026-11-11T17:48:23+00:00",
+   "gn": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9aUnc2MHg5dEIzdUVYRC1aR2JtTnBidVVSWDJ4VUNCWHlrajNFeE16ODJzLU9KWnd1UnJaUjFGYy1ZYjVQMFFUbmlIRk1ZbWYyd2tDS2M0cDQzYUpMQWNHMW1Yb25BQ1l0VHcyUW5zUQ?oc=5",
+   "s": "Insider Gaming",
+   "d": "2026-11-11T18:21:49+00:00",
    "lang": "en",
-   "t": "GTA 6’s 212 GB Preload Caused Yorkshire Congestion and Set Virgin Media O2 Records",
-   "u": "https://tech.yahoo.com/gaming/articles/gta-6-212-gb-preload-174823360.html",
-   "img": "https://s.yimg.com/lo/mysterio/api/aea2c472f995d589ffbd1067901876ceba077d62dcefca202ee395608bf0fd6d/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fgadget_review_articles_822%2F30567546b4038e0a35603f2b966f45c7.jpg",
-   "chapeau": "GTA 6's 212 GB preload congested YouFibre's Yorkshire gateway and broke Virgin Media O2 traffic records before the game even launched.",
-   "txt": "Image: PlayStation One game's preload created a gateway capacity problem for a regional UK provider and drove all-time traffic records at a second, showing how blockbuster releases now place real pressure on consumer internet infrastructure.\nCustomers around Yorkshire noticed slower speeds well before GTA 6's November 19 release date. YouFibre CEO Jeremy Chelot attributed the disruption to GTA 6 downloads in a post on X, stating that traffic had caused an issue with one of the company's broadband network gateways.\nGTA6 is causing issue with one of our BNG…trying to rebalance the traffic therefore people around Yorkshire are currently suffering congestion…bear with us please.\nEngineers rebalanced traffic across YouFibre's wider network to restore normal service. Customers actively downloading the game continued to experience reduced speeds during recovery, as those downloads were being prioritized while engineers stabilized the gateway.\nAt up to 212 GB depending on the device , GTA 6's preload is unusually large by modern standards.\nThat size concentrated an enormous volume of demand into a narrow time window. Preloading opened well before the November 19 release on PlayStation 5 and Xbox Series X|S, compressing download activity rather than spreading it across a launch day. Researchers exploring internet speed advances have highlighted just how strained existing ISP capacity limits can become under heavy data demand.\nWithin one hour of preload activation, traffic on Virgin Media O2's network rose more than 50 percent above the prior week's comparable figure.\nVirgin Media O2 reported its largest-ever traffic peak and highest-ever daily data volume, both tied to the GTA 6 preload. Traffic climbed 51.6 percent compared with the same period the previous week within an hour of preloading going live.\nBy 9 a.m. on the day preloading opened, total data downloaded across Virgin Media O2's network was 73.3 percent higher than the prior week's figure. The company did not report a service outage, distinguishing its experience from the gateway incident at YouFibre.\nYouFibre's congestion incident was regional, affecting customers around Yorkshire and resolved through traffic management. Virgin Media O2's figures describe an unprecedented volume of data for that provider, not a network failure.\nNo available reporting establishes that GTA 6 preloading caused a nationwide UK internet outage.\nBecause a preload concentrates downloads into hours rather than days, ISPs can face demand spikes with little time to prepare.\nThe GTA 6 preload produced documented effects at two separate UK providers simultaneously. One experienced gateway congestion severe enough to require emergency traffic rebalancing; the other logged the highest data volumes in its history.\nBoth outcomes point in the same direction. Large game releases are no longer contained events for gaming networks alone; they produce measurable pressure on the broader broadband infrastructure that everyday customers rely on.",
-   "pub": ""
+   "t": "GTA 6 Surpasses $1 Billion in Presales a Week Before Launch",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZ29DNVdKSk56SC1IMVdVU3ZlRWFWLWpOZEUwMmM3QTQ5blVBYUF6NTVQLXJHYnhpOWFCZG5GdmIwVFo0cTRQcnZRdEtyWThNVFV6MC1QaGlYSjVTX0M2MEdJdzQwQWVUSHJFUW5qUHd6S0F0N3FDWFRnRHpaVWg1Z0xDWlZlQlg2WUk0OVZGb1lVTmxJSWtLNEluRXB1Zw?oc=5",
+   "s": "PCMag",
+   "d": "2026-11-11T17:44:53+00:00",
+   "lang": "en",
+   "t": "Ahead of GTA 6 Launch, Logitech Gives Employees a Day Off to Play Video Games",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSFprblZxNWhncjNxY2xDUE9MamthMFFiMnpNczN6MWVkZVBZMGRYVmRGN194UWVvR01VRGo4R3Zab1RiOWZkMndxX2NVUEhIYkpld1hTQ3F2d2t4TWpKSTYzTkRvdzNLTVg5dkpjYUI3WkF1TWRURmNPVU03cVR3YmZlQU44SEh1RkNRNTd2a284dHlUaUtSa2tPRGFYWkN0TUV1dzI1Q2tBZldpd3RaTlhNME8tTVhpTjhvSQ?oc=5",
+   "s": "Video Games Chronicle",
+   "d": "2026-11-11T17:44:44+00:00",
+   "lang": "en",
+   "t": "‘Play is not the opposite of work’: Logitech is giving workers time off for GTA 6",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZXdDUEFJMlFKTGhJOWp5cGtHQ3pqSk1Ta0luVHVuZ1EyTkVlbkV5djkyMlRmZ1lrZXFUVG5oeFhMajVwWUJ4TzhXQjJldW1pR3FPM0F3LTFHSGJDNFVWRTc2Tk92dlR6NXQ5dko0Y1U5T0RLb2tnRU93c29ZMEFEUlNhSF9Nd1hKcURNRHNnOG95SURHdk9Qd0Y4MHhVNWFpQVBxa0JEYnpaTDNodmNHWTJycFpKLTBVXzc2RQ?oc=5",
@@ -19,7 +31,7 @@
    "d": "2026-11-11T17:31:10+00:00",
    "lang": "fr",
    "t": "La version de GTA 6 compatible avec les 60 images par seconde sera le principal argument de vente pour la PlayStation 6 et le PC.",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "HTTP Error 429: Too Many Requests"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSHZ0OVk3M0FCcFdneXZWTlZVMUNBdGM0UnlvMU80dzNpNlZ4QnRPQXZEcFczdjhxdnBfVTFSQVpHc0E2T2ZrSE50SXRxa0R2b2xJMzZmYjVTVmtvUXdrQlNEdG40VWoxRXpwVk5IRDh1dW5xdS0wMHQ1N3lwcU54SnpzSm85RVZIemVkdk5CUGU?oc=5",
@@ -27,7 +39,7 @@
    "d": "2026-11-11T17:19:20+00:00",
    "lang": "fr",
    "t": "Le préchargement de GTA 6 dévoile 1 Go de moins au Japon et relance le soupçon de censure",
-   "erreur": "Remote end closed connection without response"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMibEFVX3lxTE44cUdSNUpRc0FQRTRFZm4yTzk2U0dHUWxNS2xmSTFvM3ZWNFZvdnA4LV9XYllMUFdDcTVZNU1lanRHcnFyMzlGeXNnUGFJZlFpMGVpVGozdDN5R0xvYkdLZHdjckFoUlVzeUMtRw?oc=5",
@@ -47,15 +59,7 @@
    "d": "2026-11-11T17:08:00+00:00",
    "lang": "en",
    "t": "GTA VI Festival tickets go on sale today, celebrate in Miami starting at $214",
-   "erreur": "HTTP Error 402: Payment Required"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOTnp3d09QR0NBN0lXYTFXLUFaMF82dzF3d293djFWaGw1al9Hb0t4MXVGajFhUk8tbUdCMUJ3UEtqRjBkRmdyLUtBeWVyOEIxaVJhd2ZORmRxRFJXS2o1Tm1uSlRSanFxM254NkpDWHhhS1lNQ3c5NVkyeUNONzBjSlBtVThBZXVlSUVZcXZ4SldTc1RJOGlpc2VIS0JLOEpfZm5IcU04MzNONU9XdzQ4UGFwelkzN2lYSEpKdk41SWN0MHFLZWFENE5TdGl6UHprQ2hiV01TUi13aG0yS19tRnVvaHpfQ0ZVNnNLRW4tUVk1UQ?oc=5",
-   "s": "El Paso Times",
-   "d": "2026-11-11T17:08:00+00:00",
-   "lang": "en",
-   "t": "GTA VI Festival tickets go on sale today, celebrate in Miami starting at $214",
-   "erreur": "HTTP Error 402: Payment Required"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMkNQOG1xWmI2Q2QtOVg4QWplTXlpV0xYdDFLamVNQmplSHdRX1ZqTHVlM3lXUnI5b0JGYzFRYVpnYTVncUlManRHaHJyay13bkVobUJLRUIzVGszbFVGaldGMEg2Y0JzQi1HYUpValBwUjBrT0FuQllGU0FzTzcyR0Q3NkFndElETC00QlRzdDlBTWJoUUwwOUNZY25jT3p6NmI4?oc=5",
@@ -87,11 +91,15 @@
    "d": "2026-11-11T16:45:05+00:00",
    "lang": "en",
    "t": "GTA 6 Pre-Orders Are ‘Far in Excess’ of Expectations, Says Strauss Zelnick as Preload Goes Live. Why TTWO Stock Could Surprise After Launch.",
-   "u": "https://www.barchart.com/story/news/8784064/gta-6-pre-orders-are-far-in-excess-of-expectations-says-strauss-zelnick-as-preload-goes-live-why-ttwo-stock-could-surprise-after-launch",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": ""
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOeC13eTZNdmFMakNKay1kUUZEeGpYdGpXbjdmZlRYYmZ0TjlKTWNpNElVSlZHdXVrZ1h2U1dPOEpjdm1sazVvVmdSbW5mczhkaHE3T0Zidmd2eVhienVUYWMteUpWR0wwd2dzQVFEcHhPQXVOaWp0c01jU01aUU92bTUwWnNLMG5UTEpVR3NVMWstTHVaYjduc05xVGU1R1NYTVZXOTdMSjlFWDA?oc=5",
+   "s": "Push Square",
+   "d": "2026-11-11T16:45:00+00:00",
+   "lang": "en",
+   "t": "GTA 6 Preloading Is Causing Major Download Traffic Spikes in Europe",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNV0libjd6ZUZGRmxLV2ZIeHpkQ2JwTDFzekM3VFh6UGRRNVdzaGNJRWV2MGVrVHhfQ0Q1LXYyTTNGV3o2MUw5eWUxQ2lCalVjZ1U5ajBxTFhQWDdRdmdrdUw5d0NSSWlONEZyZWl5aTRpTXJvSTU2eEg0dkVNbG52WDNVZEVxeXZ5RkRMZk51eWhMZFhvYjNHbGxkSWQ5Ry1pWTBKSUpESi1lOGpYczNtMXdCSFRSNFgxYnJVNS1helJaYkljNlJndEw5Wmw?oc=5",
@@ -106,24 +114,12 @@
    "pub": "2026-11-11T16:39:26+00:00"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9QRnBvaTJudldKMzREMmc3R3dEeHJLVjlDVE5UUEQ4WElGb043ZndqSG1wNlEwclM0bllZcHY3dUtjTlBMN1dPei1aUzBtdDNjSERHTHZaQk44d3VxMzZWRWtXd0U5ellWT2JSbUFwNDlwdzR3QXRzcg?oc=5",
-   "s": "Lifehacker",
-   "d": "2026-11-11T16:32:51+00:00",
-   "lang": "en",
-   "t": "'GTA 6' Runs Best on PlayStation 5 Consoles | Lifehacker",
-   "u": "https://lifehacker.com/tech/gta-6-runs-best-on-playstation-5-consoles",
-   "img": "https://lifehacker.com/imagery/articles/01M75MF8WDRH1WS5HTE4A7ACA6/hero-image.fill.size_1200x675.jpg",
-   "chapeau": "Rockstar confirmed that some consoles will play GTA 6 better than others. But there's one console that runs the game best.",
-   "txt": "Grand Theft Auto 6 might just be the most anticipated game of all time. It's been 13 years since Rockstar dropped GTA 5 , and after years of rumors, leaks, and official announcements, the sixth mainstream installment in the series is nearly here. In fact, anyone who pre-ordered the game digitally can now pre-load it onto their console, if you want to ensure you're ready to play the second the game comes out.\nNow, few of us will buy a game console specifically for GTA 6 —unless you don't already have a current-generation PlayStation or Xbox. (The PC version of the game isn't expected until at least early 2027.) But, as it turns out, there's one specific console that can run GTA 6 better than the rest.\nRockstar confirmed as much in a post on Tuesday , which was meant to spread the news about pre-loading the game. But, interestingly, it spurred a discussion about the performance of the game itself, as well as which consoles are best to run it.\nNo matter which console you play GTA 6 on, Rockstar says that the game will only target 30 fps (frames per second). That's decided slow for a mainstream game in 2026. GTA 5 also shipped at 30 fps in 2013, but newer consoles can run it at higher frame rates. In fact, most games that launch on the latest generation of consoles can run at 60 fps, if not higher. While it's certainly not a dealbreaker, it is interesting that Rockstar's latest game can't run at a faster frame rate even on the PS5 Pro or the Xbox Series X.\nTo that point, Rockstar called out the PS5 Pro specifically in its post, announcing, \"The PlayStation 5 Pro offers breathtaking visuals, with improved clarity through PlayStation Spectral Super Resolution (PSSR) and ray-traced shadows only available on PlayStation 5 Pro.\"\nPSSR is Sony's AI upscaler, similar to options like DLSS from Nvidia, which uses AI to add extra graphical information to games in real time. That allows developers like Rockstar to run the game at a lower resolution to save on processing power, but still boost the visuals to reach a higher perceived resolution. As such, it's not as ideal as running the game at a higher resolution natively, but it can help improve the visuals without pushing the hardware beyond its limits. Meanwhile, ray-tracing offers realistic lighting effects and can also be graphically intense.\nWhile PlayStation and Xbox players alike will be stuck at 30 fps, it seems only PS5 Pro gamers will be able to play the game with ray-tracing effects and AI upscaling. It's surprising that Xbox Series X players don't have similar benefits, as the hardware is more powerful than Xbox Series S. Rockstar didn't specify why only the PS5 Pro gets these upgrades.\nIn the post, Rockstar also announced that the PS5 version of GTA 6 takes advantage of other PlayStation-exclusive perks, like high-fidelity haptic feedback in the DualSense controller, spatial audio rendering using the PlayStation's Tempest 3D audio, as well as improved load times—though Rockstar didn't specify what those load times would be. These perks apply to all PS5 consoles, not just PS5 Pros. Rockstar goes so far as to say that GTA 6 plays best on PlayStation 5 consoles.\nThat's not to say that Microsoft's consoles are totally left out of the perks. Rockstar says that GTA 6 will be available on Xbox Cloud Gaming on both Xbox Series X and S, as well as Xbox One. In addition, both PlayStation and Xbox gamers can play GTA 6 using Remote Play, so no one has to physically play on their console if they want to game on the go.\nAgain, there's no reason to go out and buy a specific console for GTA 6 , so long as you have something that can run the game. After all, PS5 Pros are difficult to find, especially without wildly overpaying . But it's interesting that Rockstar has managed to give Sony's consoles the extra perks here, particularly since the company hasn't explained why that is.",
-   "pub": "2026-11-11T16:32:51+00:00"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTzI4RXRjVU5xTlY2X04zTHgwczlvWlFUR3E4djl6YmFIVjEtd3FKSVh0SWxSZVpodDFCWGtLak8xM3V1NmFLVW5zdjhWbHVSYzd4b19iWGlqdW5pOFh1bmRVbG9TVE1XdjRhSXRsaDA5aGRFQkY2Uk9HRUxJVVJ5Y0ExRWhpV2loWkszR0tBdXR4Ql85N3RweTNHYzVsaXM?oc=5",
    "s": "EGW.News",
    "d": "2026-11-11T16:32:05+00:00",
    "lang": "fr",
    "t": "GTA 6 s'est déjà vendu à 10 millions d'exemplaires et a généré plus d'un milliard de dollars de recettes",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOc2FveF9NMWNxNXpacVRTOHlCNXhWY3Z6OVAyTVF0RWJvam16emJ0RndrUVVmNHpnd3dlUEVyajRqX3dkUE4tWWk2eTBNMHl5bS1Pamh4UnduaXRQdWgtaHhtTWlEcDltZjQ4RkZVUVNtdDRTMWdSYWxVdV92QWkxZDlEelB1ZTE2NllQUk1HTFNobEJDOHA0aTl3cm03Z20wenZPdmJyUTlTbjg?oc=5",
@@ -160,6 +156,14 @@
    "chapeau": "Le compte à rebours est lancé : GTA 6 arrive le jeudi 19 novembre, uniquement sur PS5 et Xbox Series. Vous n’avez pas encore la console de S",
    "txt": "La rédaction du Parisien n'a pas participé à la réalisation de cet article.\nVous comptez jouer à GTA 6 dès sa sortie, le 19 novembre , mais vous n’avez pas encore de PS5 ? Coup dur. Mais pas de panique, il est encore possible de vous en procurer une. Premier conseil : oubliez la PS5 pro qui est en rupture chez Sony et souvent au double de son prix chez la plupart des revendeurs. Si une offre à prix accessible existe, vous la trouverez cependant ici. Tournez-vous plutôt vers la PS5 classique qui existe encore à son prix officiel, voire parfois à prix bas, chez certaines enseignes. Lesquelles ? Regardez chez Cdiscount, Amazon, Carrefour, Boulanger ou encore Back Market pour des offres reconditionnées. Et essayez de prendre de l’avance, car le préchargement de GTA VI démarre le 12 novembre, une semaine avant sa sortie.\nTop 5 des meilleures offres Cdiscount sur les jeux et accessoires PS5 :\nPremier épisode de la saga depuis GTA 5 en 2013, GTA 6 met déjà le stock PS5 sous pression. Direction Leonida, un État fictif inspiré de la Floride, avec le grand retour de Vice City. La carte se divise en six régions : Vice City, les Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia et Mount Kalaga. Vous incarnez un duo façon Bonnie and Clyde, Jason Duval et Lucia Caminos. Lucia est la première héroïne jouable d’un GTA principal depuis les épisodes en 2D. À leurs côtés, Raul Bautista joue les mentors et les entraîne vers les gros braquages. Le monde gagne en détails, avec une météo dynamique, 170 espèces animales et des réseaux sociaux d’habitants à consulter en jeu. Le lancement se fait en solo, sans GTA Online annoncé. Prévoyez 79,99 euros pour l’édition Standard et jusqu’à 212 Go d’espace libre.\nPour une livraison express et gratuite, testez ici gratuitement Cdiscount à volonté\nOffre à durée limitée et dans la limite des stocks disponibles. Voir conditions sur le site Cdiscount\nNos meilleures offres et bons plans shopping dans vos e-mails !",
    "pub": "2026-11-11T17:30:00+01:00"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWkVUU2dNc24tdWRKYWRPTVFkWkVGTG5haHk1SDlqbDd4SXg2eVlSY01WZW5xVjVnMGJVMVVZYnVkbTV6RTRyb2JQZGI2QkM5NUVOM2JvUWpsQ2lib0pvOGR0SkhmTUx1Q1lkSTUwNXkweWQ3d2NSX25XZi0yN0o3UE5iRzNJTFZlRmhCVG5odjJEMkdacFg3SUdIZ1ltNkcyRkV5ZVdkN0hOLXdOSF94eDRfLVVJUQ?oc=5",
+   "s": "Journal du Geek",
+   "d": "2026-11-11T16:22:08+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : chez quel opérateur pourrez-vous télécharger plus rapidement le jeu ?",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE11bEttMUo3emk5NTFHV09yYjNTdWI0a3pnRTA3Q3M3LXVPUmhrOS05R3lIMURTZDVwbXoxS0lLVVh6dUE2MXJ4NHRHY0dPb1ZlaW1ldHR1dXY0U255N21kdHF0aHM?oc=5",
@@ -287,19 +291,7 @@
    "d": "2026-11-11T15:33:00+00:00",
    "lang": "en",
    "t": "Take-Two CEO sends strong message to investors ahead of GTA 6",
-   "erreur": "HTTP Error 403: Forbidden"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRzhEdE5ZbEFlTEM5NkFkT3BjaEJKRXlsUTEyN2xYXzR6SjZoXzJHcTJDR3VJcmhYSlM5MnVNR1YteF9QZTNiNk9wTTBpVkVEM3dkU0RabW9lbUJWTE5XVk53SWxPbTRQRUI2YUFrc1hSb2VKNDczZXZmTWNpR0NtSWQwMnVVLU9VMVE?oc=5",
-   "s": "shattered.io",
-   "d": "2026-11-11T15:23:44+00:00",
-   "lang": "en",
-   "t": "GTA 6 Is 8 Days Out: $79.99, 3 Consoles [2026]",
-   "u": "https://shattered.io/gta-6-pop-culture-spotlight-nov-19-79-99-three-consoles-2026/",
-   "img": "https://shattered.io/wp-content/uploads/2026/11/gta-6-pop-culture-spotlight-nov-19-79-99-three-consoles-2026-gen.webp",
-   "chapeau": "Grand Theft Auto 6 launches Nov. 19 at $79.99 on PS5, PS5 Pro and Xbox Series X|S. Here is what is confirmed and what is still hype.",
-   "txt": "Grand Theft Auto VI lands on Thursday, November 19, 2026, which leaves exactly eight days between today and the biggest scheduled launch in games this year. Rockstar Games confirmed the date in a short statement that read, in full, “Grand Theft Auto VI will now release on Thursday, November 19, 2026.” Coverage from Investor’s Business Daily, Bloomberg, MassLive and Yahoo Tech now frames the game as poised to steal the pop culture spotlight, and that framing is the story this analysis tests.\nThe distinction matters. A confirmed release date, a confirmed platform list and a confirmed price are facts. A pop culture takeover is a forecast. This piece separates the two, lays out what Rockstar and Microsoft have actually put on the record, and explains how publishers, console makers and retailers should read the next eight days. Readers following the commercial side can also see our earlier look at Take-Two’s pre-order comments and the missing totals .\nEverything below sticks to documented details. Where the record stops, the article says so and labels the rest as analysis. That approach costs a few headline-friendly claims about sales records and audience size, but those claims are exactly what no official source has documented yet. For broader platform coverage, the gaming section tracks the launch window as it develops.\nGoogle · Preferred Sources Don't miss new tech stories on Google\nAdd Shattered once in the Google app and our stories show up in your news suggestions.\nThe confirmed list is short, and every item on it comes from Rockstar Games or from Microsoft’s store listing. Rockstar is both developer and publisher. The release date is November 19, 2026. The game ships on PlayStation 5, PlayStation 5 Pro and Xbox Series X|S. Xbox One owners can reach it through Xbox Cloud Gaming , which is a streaming route and not a native install.\nPricing is confirmed through the Microsoft Store. The standard edition of Grand Theft Auto VI costs $79.99. The Grand Theft Auto VI: Ultimate Edition costs $99.99. Those two numbers set the ceiling for what a typical buyer pays on day one, at least on Microsoft’s storefront.\nRockstar also explained why the date moved. In its words, the extra months will allow the studio to finish the game with the level of polish players have come to expect and deserve. That sentence is the only official reasoning on record for the schedule change, so any claim about a deeper cause, whether technical, financial or competitive, belongs in the speculation column.\nThe table below summarizes the confirmed record and the source type behind each line. It also serves as a reference for the rest of the article, because every later section builds on these entries and nothing else.\nInvestor’s Business Daily, Bloomberg, MassLive and Yahoo Tech have all run versions of the same story this week. The shared angle holds that Grand Theft Auto VI is about to move from a games-industry topic to a general-news and entertainment topic. Business desks care because the launch sits inside a holiday quarter. Lifestyle and local desks care because the series has a long record of turning up in conversation well beyond gaming circles.\nThat framing is a prediction, and the fact sheet for this story marks it as unconfirmed. No official source has documented an audience size, a sales figure, a record or a cultural-impact measurement for the game, because the game has not shipped. What exists is a pattern of attention. Pre-launch coverage is dense, the date is close, and the title is one of the few in games with name recognition among non-players.\nAttention is not the same as impact. A launch can dominate headlines for a week and fade from conversation by the second Friday. Another can start quietly and become a shared reference point for months. Nobody can tell which path Grand Theft Auto VI will take until real players hold the real game. The honest reading of the current coverage is that expectation is high and the evidence for it is still circumstantial.\nThree signals support the case for heavy attention. First, Rockstar’s fixed date gives every outlet a hard deadline to build coverage around. Second, a $79.99 price on a standard edition makes the game a news item on cost alone. Third, the platform list leaves out several major hardware families, which invites comparison stories. None of those signals proves a pop culture takeover, but together they explain why editors across business and entertainment desks assigned the story.\nThe",
-   "pub": "2026-11-11T15:20:45+00:00"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYXh1b1pETjVZZDZNeGJvMXJrM25adnkzVU5JYy10d0J2MWdDUnVRMEIwVHY1RlkxODMzd21VaHZkLXRLeWlseEkzOG03dEllX3ZxbmpQYzBCSWdRd3pKOGxTdWFHVGtlbzJzTlVMMF82R2d2ZTF6dmh4SjItQnhEY2JOYzNNOHhQbXhyVnZsdVpjUnVHYXdCNS1wd3UyeS1BMjRHR1RZNzMtZDBFU0l0OGs2aDhKanNuVml6WXZXUQ?oc=5",
@@ -312,18 +304,6 @@
    "chapeau": "Bon nombre de studios n’ont pas voulu se frotter à GTA 6 en cette fin d’année, à tort ou à raison. Le jeu de Rockstar va bel et bien [...]",
    "txt": "Bon nombre de studios n’ont pas voulu se frotter à GTA 6 en cette fin d’année, à tort ou à raison. Le jeu de Rockstar va bel et bien monopoliser l’espace médiatique (c’est déjà le cas), si bien qu’exister à ses côtés durant les prochaines semaines sera compliqué. et cela ne vaut pas que pour l’industrie du jeu vidéo. The Hollywood Reporter a fait le point sur l’impact que pourrait causer la sortie du jeu sur les films et séries à venir, et s’il n’est pas encore tout à fait palpable, une certaine crainte est présente.\nGTA 6 n’occulte pas encore les sorties cinéma, mais tout le monde est tendu Pour mesurer les conséquences de la sortie de GTA 6 sur le cinéma et le monde de la télévision (plus précisément du streaming), le site est allé questionner Bart Spiegel, qui gère la division divertissement et sports chez PricewaterhouseCoopers (une grande entreprise d’audit et d’expertise comptable) :\n« Il s’agira d’un tournant décisif, non seulement pour l’industrie du jeu vidéo, mais aussi pour tous les acteurs des secteurs des médias et du divertissement, qui devront faire face au fait qu’une partie de leur audience va délaisser leurs plateformes pour aller jouer à GTA 6 . »\nContrairement à l’industrie du jeu vidéo, celle du cinéma n’a pas pris de précautions particulières pour éviter GTA 6 puisque l’on note tout de même quelques sorties majeures, comme le prochain Hunger Games qui a réalisé de bonnes préventes. Malgré tout, un cadre d’une grande chaîne de cinéma reconnait que quiconque dans l’industrie qui joue un peu sait à quel point GTA 6 aura un impact , sans savoir dans quelle mesure.\nLe week-end de lancement sera peut-être difficile, mais Geoff Keighley (producteur des Game Awards) a lui aussi son avis sur la question et pense que cela va s’étendre sur plusieurs semaines. Jusqu’à la sortie de Dune 3 et Avengers: Doomsday ? C’est bien possible, même si ces films sont forcément un peu à part du reste de l’industrie pour les personnes interrogées.\nC’est surtout le milieu du streaming qui risque d’être impacté , comme le confie un représentant qui travaille sur une série qui sera bientôt diffusée (sans que l’on sache laquelle) :\nMême l’industrie de la musique se prépare à un séisme , avec l’album du jeu qui devrait truster largement le haut des classements des plateformes de streaming. Le plus difficile sera surtout d’exister sur les réseaux sociaux. Cela pourrait impacter le marketing de ces films et de ces séries, étant donné que le jeu va occuper une grande place dans les discussions. Réponse dans quelques jours.\nAjoutez-nous à vos favoris Cet article peut contenir des liens affiliés",
    "pub": "2026-11-11T16:21:58+01:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBnQlRiU2FoekxZZFlJc2lhbWlUcGJJQXRvWEl5MjlON20zOUw5aVhQT1ZJcUJBWDZMMy1IWnlzemtzN29BNTJGNGhRSlNvVmxZa0tUdDJtbUQ2aDVZb2lmd1MtY21HeFBCVGhBYmQxUEhwSTM5ejVDOFFXbFI?oc=5",
-   "s": "overclocking.com",
-   "d": "2026-11-11T15:03:20+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : Rockstar dévoile un nouveau trailer pour le début du préchargement  - overclocking.com",
-   "u": "https://overclocking.com/gta-6-rockstar-devoile-nouveau-trailer-preload/",
-   "img": "https://overclocking.com/wp-content/medias/2026/11/gta_6_vi_001_1360px-featured-2.jpg",
-   "chapeau": "Neuf jours avant la sortie, Rockstar Games publie une bande-annonce mettant en avant le préchargement de Grand Theft Auto VI sur PS5 et Xbox Series X|S.",
-   "txt": "Neuf jours avant la sortie officielle de Grand Theft Auto VI , Rockstar Games a surpris la communauté en publiant un nouveau court trailer. Cette vidéo accompagne le lancement du préchargement, opération qui a débuté aujourd’hui sur les consoles PlayStation 5 et Microsoft Xbox Series X|S. Ce téléchargement anticipé avait déjà permis, dès le matin, de révéler plusieurs détails inédits sur le jeu. L’événement est également marqué par un festival musical dédié ainsi que de nombreuses actions marketing à Miami, ville réelle qui sert de modèle à la fiction de Leonida et Vice City.\nDans le cadre de ces festivités, des stands de vente portant les noms de Burger Shot et Cluckin’ Bell sont installés au Kaseya Center. La veille de la sortie, l’équipe des Miami Heat affronte les Milwaukee Bucks sur un terrain aménagé dans le style de Vice City. Le clip disponible sur la page officielle du jeu et sur YouTube présente des personnages secondaires inconnus jusqu’à présent, des extraits de missions et des aperçus de l’immense monde ouvert.\nContrairement aux vidéos précédentes, les deux protagonistes principaux, Jason et Lucia, ne sont pas au centre de l’attention dans ce nouveau spot. L’action se concentre plutôt sur des poursuites à travers Vice City, diverses interventions policières incluant potentiellement une perquisition d’appartement, et de nombreuses scènes de vie nocturne dans des clubs lors de fêtes animées. Ce changement de focus offre un regard différent sur l’univers du jeu, mettant en avant l’ambiance et les détails de l’environnement plutôt que les seuls héros.\nConcernant les spécifications techniques, le préchargement nécessite jusqu’à 212 Go d’espace libre selon la console utilisée. Sur PlayStation, le téléchargement a commencé à minuit, tandis que sur Xbox, il a débuté une heure plus tard, à 1h00. Le jeu ne sera toutefois jouable qu’à la date de sortie officielle, fixée au 19 novembre. Initialement, le téléchargement anticipé était prévu pour le 12 novembre, mais Rockstar avait avancé ce délai de deux jours pour les précommandes digitales début novembre.\nDès quelques heures après le début du préchargement, des dataminers ont analysé les métadonnées accessibles. Ces données contiennent des indices pointant vers une version plus récente de PSSR sur la PS5 Pro ainsi qu’un mode 120 Hz. Par ailleurs, aucune version pour PC n’a encore été officiellement annoncée, bien qu’elle pourrait apparaître dès le premier trimestre de l’année prochaine. Sur le plan commercial, le jeu est actuellement disponible à partir de 79,28 euros sur la PlayStation 5.",
-   "pub": ""
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPaVd1ZGx5QWJCdTdqSUt5QXJ6cldaUDNSR3ZuUFJqRjJFLUJpOUFkZ21uYUFlcWNpR19yVFNaQWVfeFpEcTZCb2RmczRaUG5JSG4tOWR5N2duMUNrbTlsT3dNMXNZeVZYSmNuVmcwMzZyUVpTQi1YTHpwbnZKM0lrNGpyWEF5Zm1INmpKVmZFYm14bWtBeUE3bTAwUlBOSUxJYXdTdU1fbHN6cno3bGQ0UHJ1NEtKanVIc2tZY0JualM1RW11RXBJZWtIbDc?oc=5",
@@ -434,7 +414,7 @@
    "d": "2026-11-10T16:16:06+00:00",
    "lang": "en",
    "t": "GTA 6: The iconic Grotti Cheetah became a reality – It is for sale for 1 million pounds",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -448,19 +428,6 @@
    "chapeau": "Rockstar Games has confirmed that GTA 6 will target 30 FPS across the PS5 and Xbox Series X|S consoles, including the PS5 Pro. Sony's upgraded console will instead receive exclusive ray-traced shadows and PSSR upscaling, while a 60 FPS performance mode remains unconfirmed.",
    "txt": "With Grand Theft Auto VI preloads now underway, Rockstar Games has finally shed more light on how its highly anticipated open-world title will perform on current-generation consoles. As many had suspected, the game will target 30 FPS across the PlayStation 5 and Xbox Series X|S lineup, including Sony's more powerful PlayStation 5 Pro.\nAccording to Rockstar's official announcement , the 30 FPS target was chosen to maintain the density and visual fidelity of Leonida's expansive open world. This effectively puts an end to speculation about the PS5 Pro delivering a substantially higher frame rate at launch, although Rockstar has not explicitly ruled out additional graphics modes.\nInstead, the PS5 Pro will distinguish itself through improved image quality. Rockstar has confirmed support for PlayStation Spectral Super Resolution (PSSR), Sony's AI-powered upscaling technology, alongside ray-traced shadows exclusive to the upgraded console.\nInterestingly, recent datamining findings suggest that GTA VI could use a newer implementation of PSSR than existing PS5 Pro titles. References to version 13.60 were discovered in the preload metadata, compared with version 13.00A reportedly used by games such as Cyberpunk 2077 and Assassin's Creed Shadows .\nAnother interesting discovery is a reference to 120 Hz output . This has fueled speculation about a possible 40 FPS mode in GTA 6 , which would provide a middle ground between 30 FPS and 60 FPS on compatible displays. A 40 FPS presentation can fit evenly into a 120 Hz refresh cycle, making it a viable alternative for graphically demanding games. However, the presence of a 120 Hz option does not confirm that Rockstar intends to offer it.\nThe preload metadata also reportedly lacks references to QSSR , Sony's newer upscaling solution for the standard PS5. That does not conclusively rule out its inclusion in the final game, but it suggests that the base console may not receive the same upscaling improvements as its Pro counterpart.\nBeyond graphical enhancements, Rockstar has confirmed that the PlayStation 5 version will support DualSense haptic feedback, improved spatial audio through Tempest 3D Audio and optimised loading times. The developer has not detailed equivalent platform-specific enhancements for the Xbox Series X or Series S. Not that there are too many to begin with, except Quick Resume, maybe.\nIt is worth noting that the 30 FPS target does not necessarily guarantee a locked frame rate under all circumstances. Similarly, Rockstar has not disclosed the rendering resolutions or graphical compromises required for the Xbox Series S, which has considerably less GPU power and available memory than the Series X.\nGTA 6 launches on November 19, 2026, for PlayStation 5 and Xbox Series X|S. Preloads are already available, with Rockstar confirming that players will need up to 212 GB of available storage, depending on their console.",
    "pub": "",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMickFVX3lxTFBENHFHcE54bXl5bzU3YzZSNHBCVEFGeGg1Z3EwbGVNeWx6TV9VTENCSlpIRnBvUTZYSDVENnoxc0MzMVA2aXB0Z2JMVmpOZjduczd4M1ljS3EzMWF6NjhNb09ueXpBTElacFE0SUtpYWJ5UQ?oc=5",
-   "s": "NoobFeed",
-   "d": "2026-11-10T14:25:23+00:00",
-   "lang": "en",
-   "t": "GTA 6 Leak Points to PS5 Pro 120Hz Output and Dynamic Crowds | NoobFeed",
-   "u": "https://www.noobfeed.com/news/gta-6-ps5-pro-120hz-dynamic-crowds",
-   "img": "https://nfapi.noobfeed.com/storage/media/73727/gta-6-jason-lucia.webp",
-   "chapeau": "GTA 6 could use a newer PSSR revision than the version associated with games currently using 13.00A. However, the screenshot provides no technical explanation..",
-   "txt": "New details surrounding Grand Theft Auto 6 have raised questions about how the game will perform on PlayStation 5 Pro. Reported screenshots point to a newer version of Sony's image reconstruction technology, alongside a 120Hz output setting. Neither finding confirms a specific frame rate, but both have renewed discussion about the visual and performance options Rockstar may offer.\nThe reported PSSR version number is 13.60, appearing in an entry labeled MFSR version. That has led to speculation that GTA 6 could use a newer PSSR revision than the version associated with games currently using 13.00A. However, the screenshot provides no technical explanation or changelog, so any improvements remain unknown.\nA separate readout reportedly lists both 120Hz support and PS5 Pro support as enabled. It also shows high frame rate mode and variable refresh rate support as disabled. These are metadata flags rather than a view of the game's settings menu, so they offer clues about compatibility but don't reveal exactly how the finished game will behave.\nThe 120Hz flag has prompted speculation about a possible 40 FPS mode. At 120Hz, each frame in a 40 FPS game can be displayed across three screen refreshes, producing even frame pacing. That can make 40 FPS a useful middle ground between 30 FPS and 60 FPS for GTA 6 , but the database entry does not confirm Rockstar is developing such a mode.\nA 60 FPS option for GTA 6 is also possible, though it would likely require trade-offs in resolution or graphical settings. PSSR could help reconstruct a sharper image from a lower internal resolution, but it cannot remove the demands of simulating traffic, crowds, and police activity. Actual performance will only become clear through gameplay testing in demanding situations.\nPlayers have also questioned how dense the NPCs are in GTA 6 after comparing the beach scenes in different trailers. One image appears to show more people than another, leading to claims that Rockstar may have reduced the number of non-playable characters. However, the shots use different camera angles and lighting, and appear to show different times of day.\nThose differences make direct comparison misleading. A camera looking along the beach would see more people than a camera looking at it from another angle. Changing conditions may also change how busy it looks. The footage itself doesn't confirm if Rockstar has thinned the crowds, though a less-crowded beach later in the day would be believable.\nMore encouraging have been descriptions of a separate continuous gameplay sequence. In the footage, Jason rides a bicycle along a busy beach, passing groups of couples and individuals who seem to be busy with their own things. It was a significant scene not just because of the number of people, but because the crowd seemed to fill the space so naturally.\nThe beach wasn't just a bunch of background characters; it was an active public space with many different people interacting with each other. While footage alone cannot reveal how the NPC systems work, the scene suggests Rockstar is paying attention to activity beyond the player's immediate actions. That could help make Vice City and Leonida feel more believable .\nSeveral people who attended demonstrations at Rockstar North have also praised the world beyond its visual presentation. Their accounts describe unscripted moments, detailed interiors, and small encounters that develop as characters explore. One preview recalled Jason irritating a man walking a dog, running from the animal, and later encountering police activity nearby.\nOther reported demonstrations included Jason and Lucia jumping from a bridge, only to discover that someone had stolen their car while they were distracted. These stories suggest that Rockstar is emphasizing spontaneous interactions and environmental detail. They remain impressions from controlled previews, however, and players will need the finished game to judge how consistently these systems work.",
-   "pub": "2026-11-09T18:00:00.000Z",
    "cyberleek": true
   },
   {
@@ -568,6 +535,15 @@
    "cyberleek": true
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQcjc4Ny0wd0tOMl9rNms0UTUtdXFuMVN2VnMzM1JCekQyd3psWk52bnpQZWROMXJEVnVSZ1hYd3dfcnBBMXJRbDY2Z2pQNXYyN2ZYZFh6d2ZfYjJpRzE3TFcyY3BwcDJnTVdJanVNa0Y3TUpUcmh0Q29neTFleXNtNmNqM2xCTDNLcVRCcWtUbXpLMHdXUUE1ME9Iekh1TVZGQkpLN2dSS2dueDJMSjBOckFRWTBnTWJTZWJB?oc=5",
+   "s": "Notebookcheck",
+   "d": "2026-11-09T23:17:00+00:00",
+   "lang": "en",
+   "t": "Physical GTA 6 Xbox case leak reveals possible advantages over PS5 version",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNFZlNXJpN3ZUNWhVRTlsSzdFYlY1UWtIQW9KajZHdm01c3h6eDVmYmtfX1dSamc4blk2R3RUcEJ6aU9wamJXNTgwMFRJNmlZRDVQTHlScFl3LUVWclZFQkdNNENrUk05LTB3a0RRcUdocUdweXNQc2dyai04b0VrX2swTHQxMkJHZDFv?oc=5",
    "s": "shattered.io",
    "d": "2026-11-09T21:57:09+00:00",
@@ -599,7 +575,7 @@
    "d": "2026-11-09T11:06:47+00:00",
    "lang": "fr",
    "t": "Nouvelle fuite de données sur GTA 6 — fonctions en ligne, taille exacte et bien plus encore",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -711,12 +687,8 @@
    "s": "JVFrance",
    "d": "2026-11-07T17:54:12+00:00",
    "lang": "fr",
-   "t": "GTA 6 : une fuite révèle le contenu de la version boîte, bien plus généreuse que prévu - JVFrance",
-   "u": "https://www.jvfrance.com/gta-6-contenu-boite-285689/",
-   "img": "https://www.jvfrance.com/wp-content/uploads/2026/06/GTA-6-keyart-officiel-3.webp",
-   "chapeau": "A quelques jours de sa sortie dans nos rayons, la version boîte de Grand Theft Auto VI a fuité et il y aura bien un goodies à récupérer",
-   "txt": "",
-   "pub": "2026-11-07T17:50:34+00:00",
+   "t": "GTA 6 : une fuite révèle le contenu de la version boîte, bien plus généreuse que prévu",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -751,11 +723,7 @@
    "d": "2026-10-22T15:12:54+00:00",
    "lang": "en",
    "t": "Cyberleek Shares GTA 6 Leak Of Naked Lucia",
-   "u": "https://www.imdb.com/news/ni66062173/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -816,7 +784,7 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
    "t": "Le token CYBERLEEK chute de 40 % alors que le leaker de GTA 6 lance de nouvelles menaces",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
