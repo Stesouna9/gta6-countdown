@@ -1,8 +1,65 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-11T14:13:24+01:00",
+  "updated_at": "2026-11-11T16:13:06+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-precommandes-dix-millions-estimation",
+      "title": "GTA 6 : une estimation de dix millions de précommandes circule",
+      "summary": "@gtasix_ affirme que GTA 6 dépasse dix millions de précommandes et un milliard de dollars, en attribuant ces chiffres à Sensor Tower. Le post circule largement, mais aucun relevé primaire Sensor Tower ni bilan chiffré Rockstar ou Take-Two n’a été vérifié pour confirmer ces deux seuils. Ce sont des estimations relayées, pas des ventes officielles.",
+      "url": "https://x.com/gtasix_/status/2120503461573714152",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rumeur",
+      "published_at": "2026-11-11T13:06:36.000Z",
+      "checked_at": "2026-11-11T16:13:06+01:00",
+      "evidence": "Vues relevées le 2026-11-11T14:15:25+00:00 dans data/x_alertes.json : 43575 vues ; 37 replies, 271 reposts, 4305 likes, 181 bookmarks, 43575 views. Relevés Mac et serveur concordants. Original X : échec Cache miss ; contenu vérifié dans le relevé autorisé par tools/BUZZ.md. Vraie image du post téléchargée avec succès et ouverte pour contrôle. Affirmations et opinions attribuées, sans confirmation officielle.",
+      "visual": "PRÉCOMMANDES ESTIMÉES",
+      "image": "https://pbs.twimg.com/media/HW2Kp_SWcAA-4WK?format=jpg&name=360x360",
+      "image_alt": "Montage du post avec une boîte PS5 GTA VI et les chiffres de précommandes allégués",
+      "image_credit": "@gtasix_ sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "GTA 6 has now surpassed 10 MILLION pre-orders, generating over $1 BILLION in revenue.\n\n(Via Sensor Tower)"
+    },
+    {
+      "id": "x-fausse-boite-ps4-attente-gta6",
+      "title": "GTA 6 : une fausse boîte PS4 illustre les années d’attente",
+      "summary": "@GTAVI_Countdown reprend le format « au début / maintenant » pour célébrer l’approche de GTA 6. La miniature montre une personne présentant une boîte PS4 au visuel GTA VI : c’est le ressort du mème, pas l’annonce d’une version PS4. Le contenu rappelle les années d’attente et ne fournit aucune nouvelle information sur le jeu.",
+      "url": "https://x.com/GTAVI_Countdown/status/2120484865825034257",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Création de fan",
+      "published_at": "2026-11-11T11:52:43.000Z",
+      "checked_at": "2026-11-11T16:13:06+01:00",
+      "evidence": "Vues relevées le 2026-11-11T14:15:25+00:00 dans data/x_alertes.json : 82164 vues ; 41 replies, 103 reposts, 2890 likes, 165 bookmarks, 82164 views. Relevés Mac et serveur concordants. Original X : échec Cache miss ; contenu vérifié dans le relevé autorisé par tools/BUZZ.md. Vraie image du post téléchargée avec succès et ouverte pour contrôle. Affirmations et opinions attribuées, sans confirmation officielle.",
+      "visual": "ANNÉES ATTENTE",
+      "image": "https://pbs.twimg.com/media/HW15iToWQAAX5BW?format=jpg&name=360x360",
+      "image_alt": "Personne présentant une boîte PS4 GTA VI dans le mème relayé sur X",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "How it started            How it’s going\n\nGTA 6 is finally real."
+    },
+    {
+      "id": "x-agent-interet-solo-createurs",
+      "title": "GTA 6 : l’avis d’Agent sur le solo fait réagir sur X",
+      "summary": "@GTAlphaintel relaie l’avis d’Agent : le solo pourrait alimenter les créateurs de contenu environ une semaine avant une baisse d’intérêt, tandis que le mode en ligne représenterait une autre occasion pour eux. Cette projection personnelle ne mesure ni la durée de la campagne ni la longévité du jeu et ne donne aucune date de lancement du mode en ligne.",
+      "url": "https://x.com/GTAlphaintel/status/2120426048345260362",
+      "platform": "X",
+      "author": "@GTAlphaintel",
+      "status": "Rumeur",
+      "published_at": "2026-11-11T07:59:00.000Z",
+      "checked_at": "2026-11-11T16:13:06+01:00",
+      "evidence": "Vues relevées le 2026-11-11T14:15:25+00:00 dans data/x_alertes.json : 29184 vues ; 62 replies, 28 reposts, 224 likes, 41 bookmarks, 29184 views. Relevés Mac et serveur concordants. Original X : échec Cache miss ; contenu vérifié dans le relevé autorisé par tools/BUZZ.md. Vraie image du post téléchargée avec succès et ouverte pour contrôle. Affirmations et opinions attribuées, sans confirmation officielle.",
+      "visual": "AVIS STREAMING",
+      "image": "https://pbs.twimg.com/media/HWxvDUcaIAMa9nK?format=jpg&name=360x360",
+      "image_alt": "Portrait associé au post relayant l’avis d’Agent",
+      "image_credit": "@GTAlphaintel sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Agent believes GTA 6’s story mode could provide around a week of content before interest fades\n\n“When the Online comes out - that’s when the real opportunity is going to be, for a lot of content creators”, he says"
+    },
     {
       "id": "x-xbox-cloud-gaming-annonce-novembre",
       "title": "GTA 6 : l’annonce Xbox Cloud Gaming commence à circuler sur X",
@@ -2788,6 +2845,11 @@
       "at": "2026-11-11T14:13:24+01:00",
       "label": "Passage 93 · contrôle des nouvelles pistes et images",
       "summary": "Relevés X Mac et serveur concordants du 11/11 à 12:12:15 UTC. Aucun nouveau sujet distinct admissible : comparatif How it started 8 207 vues, YouFibre 6 076, Spotify 7 453, Agent 19 397 et événement Genève 2 481, sans second compte observé ; piscine Loews et DualSense déjà couvertes. Piste YouFibre retrouvée dans les extraits indexés Dexerto et ISPreview, articles complets inaccessibles (ISPreview HTTP 403), non retenue. Originaux X Cache miss ; Instagram 429 ; TikTok et Newswire sans texte lisible. Image YouFibre HTTP 200 ouverte. Contrôle des 120 images uniques : image PS5 en 404 remplacée par le média corrigé du même post fourni par le relevé X, ouvert HTTP 200 ; les 119 autres répondent HTTP 200. Aucune consultation exhaustive revendiquée ; aucun post X ni message à un tiers."
+    },
+    {
+      "at": "2026-11-11T16:13:06+01:00",
+      "label": "Passage 94 · Précommandes, mème et avis d’Agent",
+      "summary": "Trois sujets distincts au-dessus de 20 000 vues ajoutés : estimation de précommandes (43 575), mème de la boîte PS4 (82 164), opinion d’Agent sur le solo pour les créateurs (29 184). Chiffres non officiels et opinion explicitement attribués ; médias du post ouverts et contrôlés. Relevés X Mac/serveur du 11/11 à 14:15:25 UTC concordants. Recherche web X/Instagram/TikTok/Rockstar effectuée : originaux X Cache miss, Instagram HTTP 429, TikTok sans contenu lisible, Newswire sans texte à l’ouverture ; index Newswire mentionnant préchargement et festival, sans nouveau média original vérifié retenu ici. Autres pistes : trophées et DualSense déjà traités, J-7 sous le seuil et incohérent avec le 19/11, marathon Kai et YouFibre sous 20 000 vues sans second relais dans le relevé, CJ hors sujet GTA 6. Aucun post X ni message à un tiers."
     }
   ],
   "coverage": {
