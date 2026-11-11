@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-11T01:17:31+00:00",
+ "maj": "2026-11-11T01:38:00+00:00",
  "articles": [
   {
    "gn": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBtdnJQTW1YVXViUW5iZlBhNXNEaDlTNVhXZUt3SG93bHQxTFlpdzhDakgzdFdRWHJJWVJxRUlhTjhRRmJSOS1CQ2ZRNXZMRG9ZNlhnV281U2F0U0VrZkRRa3EteGdJb2FTUnYwQ293eWZ6TnVLRUl0ZkV3?oc=5",
@@ -31,6 +31,14 @@
    "d": "2026-11-10T22:30:40+00:00",
    "lang": "en",
    "t": "Rockstar Confirms GTA 6 Will Run at 30fps On All Consoles - IGN Daily Fix",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA1NE5DaEgxeENLaFY5dTdidTRlbm1GZVFTRy1nTWRFRXgwWklUWVQ3MmEta1RpbWZrUHFROVh2QlZFblpoMExYcjA3TV82VFlZd3FwdUw0T2VQaENBT3ZtQktyTUkyc05KRkE?oc=5",
+   "s": "IGN",
+   "d": "2026-11-10T22:20:28+00:00",
+   "lang": "en",
+   "t": "GTA 6 Features Exclusive to PS5",
    "erreur": "429 : passage suivant"
   },
   {
@@ -214,14 +222,6 @@
    "pub": "2026-11-10T21:14:17+01:00"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVzBEM1NUT2ZiWkhEOWVEX29La1ZXVkJySkxYUmZ3WHpRM1Exc1BOeWtPTWpIMGV0NTJ4RDk3dFRTTzAyaDBxWlVReTZsckV5Mm8xN3BENGR3bnhZa0VycURXejB6Z183TEVNb1AzM1JKTFZ2ZVFaNmJuUGFIREdSbzZTV081a3lDN1FodHhJb1VVUEVaVnc?oc=5",
-   "s": "Push Square",
-   "d": "2026-11-10T20:00:00+00:00",
-   "lang": "en",
-   "t": "Poll: Is GTA 6 Being Stuck at 30fps on PS5 a Dealbreaker?",
-   "erreur": "429 : passage suivant"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPc1BXMnF4eWZiS3o2T3lCTnRuNkJVa0lpWUJoVVlTRWxvOXVnV0JrYmdNSHhUVHJjdExYOXFValdtcXFrVmVGUW1hdG5pdG1JMVh6RmZGaUUwd0FrbjNIVnBSUkpaWjdNRGdtZkI2MEVZZzluamYzSVBPdmllRndMQzZRN1NKZDBSUXRiaEdySGxkZGpkdVlubzdtLWlNdE1pY2ZtVkhiSlR6NHZoY0ZMWXRoT2YzZTVTN2xpWm1LUHRvNmFSckRF?oc=5",
    "s": "GameGPU",
    "d": "2026-11-10T19:58:37+00:00",
@@ -302,11 +302,11 @@
    "pub": "2026-11-10T18:56:00+01:00"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPQ1RtcVI3OTRqd3lRWDh6MFVrb2d6VlgtbXdwaDRDS3pZMUliRFV0Z1JwWW12SmZmc21NZ0dHMXNSMTBhZXJYX2FJTm5hSmg3NzdxdnhNN2w1dzBlTGJIQWxDaFl5aVVONExGRFdnRWw5UldzWXdfYlc5bVUzZ1FadlZB?oc=5",
-   "s": "THM Magazine",
-   "d": "2026-11-10T17:37:47+00:00",
+   "gn": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQVWk4VTN3NldaUkRSSDZ1Rkh6VVNPUEFzY3Jza0pXak9Uck1NRDViUWlabnlETUhidk9rSkZvandwYU5GTms1YXZsZGp2ZHdWUzJObTNMdXE4VzhTQ05XTzhJOHgzcWdXUGtQUE11RXhUb21hVTFocEU5UVBCTk4xeXU2WGl1aGtrVEh1cS1ucVAya1d6N0RiQ0VGNHBOSFIwREZUeWVuSTNWc3NPeEpyVUlQaWoxaVBjV1h6bHF5NWtnMWt6QWVLZEhR?oc=5",
+   "s": "PhonAndroid",
+   "d": "2026-11-10T17:42:00+00:00",
    "lang": "fr",
-   "t": "À deux semaines de GTA 6, Zelda: Ocarina of Time a trouvé le moment PARFAIT pour sortir",
+   "t": "GTA 6 en 60 fps sur PS5 Pro et Xbox Series X ? Rockstar prend la parole sur les performances visées",
    "erreur": "429 : passage suivant"
   },
   {
@@ -619,15 +619,6 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNN0lxeTNZdEp0U1lCaWtPY2VkU3huTGE5ekhvWDRBNVdMYjFPMmNVNmtiSWJjOUs0NjdxWS1BM1hRbUlDX0x5Q1FYSzFvd1htUGtkVnZMQkRBWVhuRmV1cVVVaFA5RnNPNHEtdUFDWHJLTVRwYm1CT0lkVzh3ZEM0QXhNUFFuaWhLRmlwN0dCSUc5UGxHQUI4S093MWp4emVTVWRscGx3QlliSUU0VTdtM0owQkdqblczUU1KbGptR3Y5elVYV0JJWWgxU0t2MzFDZFdLRjRtNFhoWll5cjlsTw?oc=5",
-   "s": "La Crème Du Gaming",
-   "d": "2026-11-08T19:48:21+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : un DLC officiel gratuit révélé par une fuite pour le plus grand plaisir des joueurs",
-   "erreur": "429 : passage suivant",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1ZQ1RpdDJlSU1sdUN5cS03V2VTSmF5MEQ5N2RNVXVuWnlOb0FCOE1acGs1R3piRlJlbVBCRmlrZWFiY3dkMTg3al83dy1IYThJLVJfd3hid3VOa05kQmpB?oc=5",
    "s": "GeeksLands",
    "d": "2026-11-08T16:00:00+00:00",
@@ -690,6 +681,15 @@
    "chapeau": "Rituel brisé pour les fans de GTA 6 : l’édition physique ne ressemble plus vraiment à ce que connaissaient les joueurs de Vice City ou San Andreas. Carte papier, poster payant, contenu de la boîte… une décision de Rockstar fait déjà grincer des dents.",
    "txt": "Rituel brisé pour les fans de GTA 6 : l’édition physique ne ressemble plus vraiment à ce que connaissaient les joueurs de Vice City ou San Andreas. Carte papier, poster payant, contenu de la boîte… une décision de Rockstar fait déjà grincer des dents.\nOuvrir un nouvel épisode de Grand Theft Auto et déplier la grande carte de la ville, c’était devenu un rite pour les fans. De GTA III à GTA V , les boîtes de Rockstar Games incluaient presque toujours une carte papier . Pour GTA 6 , beaucoup espéraient que la tradition survive au tout dématérialisé. Les dernières annonces confirment au contraire une coupure nette avec le passé.\nLe 3 novembre 2026, sur son Rockstar Newswire , l’éditeur a officialisé que l’ édition physique standard de GTA 6 sur PS5 et Xbox Series ne contiendra aucune carte papier de Leonida. À la place, la carte et l’affiche de jaquette seront proposées en téléchargement gratuit sur le site de Rockstar Games à partir du 19 novembre, tandis qu’un poster payant prendra le relais pour le format physique. Une mauvaise surprise qui se confirme pour les joueurs attachés au support matériel.\nDepuis plus de vingt ans, chaque grand épisode de Grand Theft Auto offrait une carte pliée de la ville dans sa boîte. Pour GTA 6 , Rockstar Games change de recette : la map de Leonida et l’affiche officielle seront seulement disponibles en téléchargement gratuit sur son site, le 19 novembre. Côté physique, l’éditeur prépare un poster recto verso avec jaquette d’un côté et carte complète de Leonida de l’autre, vendu 0,99 $ (environ 0,99 €) sur le Rockstar Games Store ou offert avec tout achat de produits dérivés. Un prix symbolique qui oriente surtout les fans vers la boutique de goodies.\nAutre détail qui fâche, l’édition dite « physique » de GTA 6 sur PS5 et Xbox Series adopte un format « code-in-a-box » : un simple boîtier plastique contenant un code de téléchargement, sans disque Blu-ray ni carte de Leonida listée au contenu. Plusieurs médias spécialisés parlent déjà d’une « boîte vide » vendue au prix fort, alors même que le jeu peut dépasser les 200 Go une fois installé . Le préchargement doit ouvrir le 10 novembre, la récupération des boîtes en magasin est prévue le 12, puis la sortie mondiale suivra le 19 novembre. En pratique, même ceux qui achètent la boîte devront donc tout télécharger, sans bénéficier de la traditionnelle carte papier qui donnait autrefois un vrai supplément d’âme à l’objet.\nBonne nouvelle, la carte de Leonida n’est pas réservée à ceux qui paieront. Dès le 19 novembre, tous les joueurs pourront télécharger gratuitement la map et l’affiche de GTA 6 sur le site officiel de Rockstar Games , puis les imprimer à la maison. Ceux qui veulent un produit fini devront passer par le Rockstar Games Store , où un poster recto verso jaquette + carte sera proposé à 0,99 $ (environ 0,99 €), hors frais de port. Comme l’a relevé Notebookcheck, des chaînes allemandes comme MediaMarkt et Saturn offriront aussi un poster « Welcome to Vice City » aux acheteurs, mais il ne s’agit pas d’une carte et rien n’indique une offre équivalente en France. Concrètement, pour un joueur français qui choisit la boîte, la situation est claire : aucune map dans le boîtier, seulement du contenu digital ou des posters additionnels à commander.",
    "pub": "2026-11-07T20:30:51+00:00",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5vcU53UDNKRktUVThxT2tnU1U0S3BodEdZazh0VTdEbERKNVhTRFVzekxpb0tmQUszR21BcEc3Z3VyNlBYSjl0N2JRbkt0RHg1Nlg1dGNvOFlkMVczSGxGbzNR?oc=5",
+   "s": "JVFrance",
+   "d": "2026-11-07T17:54:12+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : une fuite révèle le contenu de la version boîte, bien plus généreuse que prévu",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
