@@ -1,13 +1,33 @@
 {
- "maj": "2026-11-11T17:59:46+00:00",
+ "maj": "2026-11-11T18:20:31+00:00",
  "articles": [
+  {
+   "gn": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBqSWN2N09ycWE1TXJZQms1Q1o0VXJBV1M3eWFFQTBnSlAxNGRONVpJd2pHQUFZNHktNTI3V1c1cjl6VFE1UVJKRGtCOUhBSFZwRWhscjRsbFRFaHpYQlJEaVV6dEo1eUhKQjNBT3R6UUtqelRNUzFmTDVJRFh1bjQ?oc=5",
+   "s": "Yahoo Tech",
+   "d": "2026-11-11T17:48:23+00:00",
+   "lang": "en",
+   "t": "GTA 6’s 212 GB Preload Caused Yorkshire Congestion and Set Virgin Media O2 Records",
+   "u": "https://tech.yahoo.com/gaming/articles/gta-6-212-gb-preload-174823360.html",
+   "img": "https://s.yimg.com/lo/mysterio/api/aea2c472f995d589ffbd1067901876ceba077d62dcefca202ee395608bf0fd6d/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fgadget_review_articles_822%2F30567546b4038e0a35603f2b966f45c7.jpg",
+   "chapeau": "GTA 6's 212 GB preload congested YouFibre's Yorkshire gateway and broke Virgin Media O2 traffic records before the game even launched.",
+   "txt": "Image: PlayStation One game's preload created a gateway capacity problem for a regional UK provider and drove all-time traffic records at a second, showing how blockbuster releases now place real pressure on consumer internet infrastructure.\nCustomers around Yorkshire noticed slower speeds well before GTA 6's November 19 release date. YouFibre CEO Jeremy Chelot attributed the disruption to GTA 6 downloads in a post on X, stating that traffic had caused an issue with one of the company's broadband network gateways.\nGTA6 is causing issue with one of our BNG…trying to rebalance the traffic therefore people around Yorkshire are currently suffering congestion…bear with us please.\nEngineers rebalanced traffic across YouFibre's wider network to restore normal service. Customers actively downloading the game continued to experience reduced speeds during recovery, as those downloads were being prioritized while engineers stabilized the gateway.\nAt up to 212 GB depending on the device , GTA 6's preload is unusually large by modern standards.\nThat size concentrated an enormous volume of demand into a narrow time window. Preloading opened well before the November 19 release on PlayStation 5 and Xbox Series X|S, compressing download activity rather than spreading it across a launch day. Researchers exploring internet speed advances have highlighted just how strained existing ISP capacity limits can become under heavy data demand.\nWithin one hour of preload activation, traffic on Virgin Media O2's network rose more than 50 percent above the prior week's comparable figure.\nVirgin Media O2 reported its largest-ever traffic peak and highest-ever daily data volume, both tied to the GTA 6 preload. Traffic climbed 51.6 percent compared with the same period the previous week within an hour of preloading going live.\nBy 9 a.m. on the day preloading opened, total data downloaded across Virgin Media O2's network was 73.3 percent higher than the prior week's figure. The company did not report a service outage, distinguishing its experience from the gateway incident at YouFibre.\nYouFibre's congestion incident was regional, affecting customers around Yorkshire and resolved through traffic management. Virgin Media O2's figures describe an unprecedented volume of data for that provider, not a network failure.\nNo available reporting establishes that GTA 6 preloading caused a nationwide UK internet outage.\nBecause a preload concentrates downloads into hours rather than days, ISPs can face demand spikes with little time to prepare.\nThe GTA 6 preload produced documented effects at two separate UK providers simultaneously. One experienced gateway congestion severe enough to require emergency traffic rebalancing; the other logged the highest data volumes in its history.\nBoth outcomes point in the same direction. Large game releases are no longer contained events for gaming networks alone; they produce measurable pressure on the broader broadband infrastructure that everyday customers rely on.",
+   "pub": ""
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZXdDUEFJMlFKTGhJOWp5cGtHQ3pqSk1Ta0luVHVuZ1EyTkVlbkV5djkyMlRmZ1lrZXFUVG5oeFhMajVwWUJ4TzhXQjJldW1pR3FPM0F3LTFHSGJDNFVWRTc2Tk92dlR6NXQ5dko0Y1U5T0RLb2tnRU93c29ZMEFEUlNhSF9Nd1hKcURNRHNnOG95SURHdk9Qd0Y4MHhVNWFpQVBxa0JEYnpaTDNodmNHWTJycFpKLTBVXzc2RQ?oc=5",
+   "s": "GameGPU",
+   "d": "2026-11-11T17:31:10+00:00",
+   "lang": "fr",
+   "t": "La version de GTA 6 compatible avec les 60 images par seconde sera le principal argument de vente pour la PlayStation 6 et le PC.",
+   "erreur": "HTTP Error 403: Forbidden"
+  },
   {
    "gn": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSHZ0OVk3M0FCcFdneXZWTlZVMUNBdGM0UnlvMU80dzNpNlZ4QnRPQXZEcFczdjhxdnBfVTFSQVpHc0E2T2ZrSE50SXRxa0R2b2xJMzZmYjVTVmtvUXdrQlNEdG40VWoxRXpwVk5IRDh1dW5xdS0wMHQ1N3lwcU54SnpzSm85RVZIemVkdk5CUGU?oc=5",
    "s": "Pasquale Pillitteri",
    "d": "2026-11-11T17:19:20+00:00",
    "lang": "fr",
    "t": "Le préchargement de GTA 6 dévoile 1 Go de moins au Japon et relance le soupçon de censure",
-   "erreur": "HTTP Error 429: Too Many Requests"
+   "erreur": "Remote end closed connection without response"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMibEFVX3lxTE44cUdSNUpRc0FQRTRFZm4yTzk2U0dHUWxNS2xmSTFvM3ZWNFZvdnA4LV9XYllMUFdDcTVZNU1lanRHcnFyMzlGeXNnUGFJZlFpMGVpVGozdDN5R0xvYkdLZHdjckFoUlVzeUMtRw?oc=5",
@@ -15,7 +35,11 @@
    "d": "2026-11-11T17:17:10+00:00",
    "lang": "fr",
    "t": "Sony dépasse les 100 millions de PS5 vendues, alors que les achats reculent avant GTA VI",
-   "erreur": "429 : passage suivant"
+   "u": "https://pausehardware.com/ps5-100-millions-ventes-recul-gta/",
+   "img": "https://pausehardware.com/wp-content/uploads/2026/11/resized_ps5-100-millions-de-ventes-mais-gta-vi-se-fait-enc.jpg",
+   "chapeau": "La PS5 dépasse les 100 millions de ventes en novembre 2026. Mais les volumes chutent de 6,5 à 4,2 millions sur six mois, avant le lancement très attendu de GTA VI.",
+   "txt": "Le cap symbolique tombe au moment où la dynamique commerciale ralentit. À l’approche du prochain Grand Theft Auto, la machine de Sony affiche un bilan historique solide, sans encore bénéficier du sursaut attendu.\nDans son annonce de novembre 2026, Sony indique avoir vendu plus de 100 millions de PlayStation 5 depuis son lancement, six ans auparavant. La console devient ainsi la quatrième plateforme de la marque à franchir ce seuil.\nCe nouveau seuil prolonge une trajectoire déjà suivie lors du précédent bilan de Sony, quand la PS5 avait dépassé 84,2 millions d’unités avec une dynamique alors plus mesurée.\nLe rythme récent est toutefois nettement moins favorable : entre avril et septembre 2026, Sony rapporte 4,2 millions d’unités vendues, contre 6,5 millions sur la même période de 2025. Cela représente une baisse d’environ 35 %, malgré les attentes placées dans le lancement imminent de GTA VI pour stimuler les achats de consoles.\nAu classement des plateformes PlayStation, la PS5 reste derrière la première PlayStation et ses 102,4 millions d’exemplaires, la PS4 à 117 millions et la PS2 à plus de 160 millions. La PSP et la PlayStation 3 se situent en dessous de son total actuel.\nLa carrière commerciale de cette génération n’est cependant pas terminée. Les ventes devraient se poursuivre jusqu’au lancement attendu de la PS6 en 2028, et même au-delà : le classement actuel ne constitue donc pas son bilan définitif.\nSur le logiciel, Sony revendique un cumul de 1,795 milliard de jeux vendus sur PS4 et PS5 . Ce total englobe les éditions physiques, les titres uniquement téléchargeables, les jeux PS VR ainsi que les logiciels fournis dans les packs PS4 et PS5.\nPlayStation comptait par ailleurs 127 millions d’utilisateurs actifs mensuels au 30 septembre 2026. Sony ne formule pas de prévision explicite sur leur évolution, mais la sortie de Grand Theft Auto VI pourrait soutenir la fréquentation pendant les fêtes de fin d’année.\nLe jeu a déjà battu les records de précommandes sur les boutiques Xbox et PlayStation. La demande liée à GTA VI s’est aussi manifestée sur la PlayStation 5 Pro : de précédentes informations faisaient état de stocks épuisés chez plusieurs revendeurs, puis d’une forte hausse des prix.\nCes tensions sur la Pro ne suffisent pas à établir une reprise pour toute la gamme. Pour Sony, l’enjeu sera de convertir l’attente autour de GTA VI en achats de matériel, et pas seulement en ventes de jeux auprès d’un parc déjà considérable.",
+   "pub": "2026-11-11T18:17:10+01:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQSGVxbnpxS0NiYlQ5X2ptV3VxLXNtZUg1ZkhhSkJrNjEtUEYtaHZVMGl6M0ZROWp4LVN6eWU1Y2xnejhTT3Z2U2FkSVVzZ2V2UXd5UjBpbmJTNllUMjVTODB6MDZNV1VkdVJTLWJ1cERiRTA0bmIzWlNZZEZIalY5VEJWZkg3Sm5NYUJXOUp4RWVBN1h3bDI1ZlhhR0pSNnhtYjlBOUE2M0Z0OU40bkxRQ3ZnNTg1UlpHbTNkQU4tNTBBblpwSVRTUjZsSTNSRFRleVNPLUlrU0xCSUpVRmRaYUxROXhVTVA3MEhPR2RR?oc=5",
@@ -23,7 +47,7 @@
    "d": "2026-11-11T17:08:00+00:00",
    "lang": "en",
    "t": "GTA VI Festival tickets go on sale today, celebrate in Miami starting at $214",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 402: Payment Required"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOTnp3d09QR0NBN0lXYTFXLUFaMF82dzF3d293djFWaGw1al9Hb0t4MXVGajFhUk8tbUdCMUJ3UEtqRjBkRmdyLUtBeWVyOEIxaVJhd2ZORmRxRFJXS2o1Tm1uSlRSanFxM254NkpDWHhhS1lNQ3c5NVkyeUNONzBjSlBtVThBZXVlSUVZcXZ4SldTc1RJOGlpc2VIS0JLOEpfZm5IcU04MzNONU9XdzQ4UGFwelkzN2lYSEpKdk41SWN0MHFLZWFENE5TdGl6UHprQ2hiV01TUi13aG0yS19tRnVvaHpfQ0ZVNnNLRW4tUVk1UQ?oc=5",
@@ -31,7 +55,7 @@
    "d": "2026-11-11T17:08:00+00:00",
    "lang": "en",
    "t": "GTA VI Festival tickets go on sale today, celebrate in Miami starting at $214",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 402: Payment Required"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMkNQOG1xWmI2Q2QtOVg4QWplTXlpV0xYdDFLamVNQmplSHdRX1ZqTHVlM3lXUnI5b0JGYzFRYVpnYTVncUlManRHaHJyay13bkVobUJLRUIzVGszbFVGaldGMEg2Y0JzQi1HYUpValBwUjBrT0FuQllGU0FzTzcyR0Q3NkFndElETC00QlRzdDlBTWJoUUwwOUNZY25jT3p6NmI4?oc=5",
@@ -51,7 +75,11 @@
    "d": "2026-11-11T16:52:30+00:00",
    "lang": "en",
    "t": "Logitech offers employees a day off to play 'GTA 6' at launch",
-   "erreur": "429 : passage suivant"
+   "u": "https://mashable.com/entertainment/gta-grand-theft-auto-6-logitech-employees-day-off",
+   "img": "https://helios-i.mashable.com/imagery/articles/01Vx6X9YwQJgpXRsIDvoOQo/hero-image.fill.size_1200x675.v1794412461.jpg",
+   "chapeau": "If only we could all be so lucky.",
+   "txt": "Grand Theft Auto VI is tantalizingly close, so for many people, it's probably too late to submit a PTO request for its Nov. 19 release date. Not for Logitech employees, though.\nThe PC accessory maker announced that its employees would be given the option to take time off for new video game releases, according to IGN .\nLogitech's announcement was almost certainly timed for the release of GTA 6 (there are basically no other major upcoming releases this year, for obvious reasons). However, the new \"Logi Game Day\" perk will seemingly apply to more games than just Rockstar's latest open-world crime adventure.\nLogitech cited an internal study which found that 81 percent of video game enjoyers \"believe that gaming builds real-world confidence, reduces anxiety, and correlates with stronger day-to-day work performance.\" Whether or not that's actually true, Logitech is buying into the idea, enabling its employees to play hooky for gaming purposes.\n\"It’s time to retire the stereotype that gaming is a waste of time,\" Logitech CEO Hanneke Faber said, according to IGN. \"As a company designing products for work and play, we see every day how engagement in one sphere supports performance in the other.\"\nThere are probably lots of folks out there reading this who wish they worked for Logitech right now.\nWant to learn more about getting the best out of your tech? Sign up for Mashable's Top Stories and Deals newsletters or get Mashable push alerts today. Recommended deals for you HBO Max — top pick for premium content\nAlex Perry is a tech reporter at Mashable who primarily covers video games and consumer tech. Alex has spent most of the last decade reviewing games, smartphones, headphones, and laptops, and he doesn’t plan on stopping anytime soon. He is also a Pisces, a cat lover, and a Kansas City sports fan. Alex can be found on Bluesky at yelix.bsky.social .",
+   "pub": "2026-11-11T16:25:03+00:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOaUFLaVYteHA0ZnZCZEJpZ05GMVNBOEttbEh4Sjd6aFB3ZlZqdHBfMlMxalZYMFJ6NDJ4amxpRHU4MlpNRGZFUkUwNF9ObjdtUXUyTFdyNGY5MUZTMHFFUS1qaFVmRWYyZTJ6SUVKYlBRS21nWVpvaVpVN3BvSTU2Mk96WkRBSkdRN1FiZzZ4R0hyd1l4WkswdzdfZEthVTNpY29saFd2cHNZVU16S3ppMEVrSUJwdFZfVU1GZW5BbGJ6dDhUcVJFV3VFcW9yRHR3XzRlQndzS3lFMWxUelRpS215Zy1ieXdmQXB1RUl0Umo5Z3Q5R2sxQ3BJU3QyWWFWeTZKWFdQdlNNWE0?oc=5",
@@ -59,7 +87,11 @@
    "d": "2026-11-11T16:45:05+00:00",
    "lang": "en",
    "t": "GTA 6 Pre-Orders Are ‘Far in Excess’ of Expectations, Says Strauss Zelnick as Preload Goes Live. Why TTWO Stock Could Surprise After Launch.",
-   "erreur": "429 : passage suivant"
+   "u": "https://www.barchart.com/story/news/8784064/gta-6-pre-orders-are-far-in-excess-of-expectations-says-strauss-zelnick-as-preload-goes-live-why-ttwo-stock-could-surprise-after-launch",
+   "img": "",
+   "chapeau": "",
+   "txt": "",
+   "pub": ""
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNV0libjd6ZUZGRmxLV2ZIeHpkQ2JwTDFzekM3VFh6UGRRNVdzaGNJRWV2MGVrVHhfQ0Q1LXYyTTNGV3o2MUw5eWUxQ2lCalVjZ1U5ajBxTFhQWDdRdmdrdUw5d0NSSWlONEZyZWl5aTRpTXJvSTU2eEg0dkVNbG52WDNVZEVxeXZ5RkRMZk51eWhMZFhvYjNHbGxkSWQ5Ry1pWTBKSUpESi1lOGpYczNtMXdCSFRSNFgxYnJVNS1helJaYkljNlJndEw5Wmw?oc=5",
@@ -91,15 +123,19 @@
    "d": "2026-11-11T16:32:05+00:00",
    "lang": "fr",
    "t": "GTA 6 s'est déjà vendu à 10 millions d'exemplaires et a généré plus d'un milliard de dollars de recettes",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOc2FveF9NMWNxNXpacVRTOHlCNXhWY3Z6OVAyTVF0RWJvam16emJ0RndrUVVmNHpnd3dlUEVyajRqX3dkUE4tWWk2eTBNMHl5bS1Pamh4UnduaXRQdWgtaHhtTWlEcDltZjQ4RkZVUVNtdDRTMWdSYWxVdV92QWkxZDlEelB1ZTE2NllQUk1HTFNobEJDOHA0aTl3cm03Z20wenZPdmJyUTlTbjg?oc=5",
    "s": "Gadget Review",
    "d": "2026-11-11T16:31:16+00:00",
    "lang": "en",
-   "t": "Rockstar’s Parent Company Warns of AI-Assisted GTA 6 Piracy Ahead of PC Release",
-   "erreur": "429 : passage suivant"
+   "t": "Rockstar's Parent Company Warns of AI-Assisted GTA 6 Piracy Ahead of PC Release",
+   "u": "https://www.gadgetreview.com/rockstars-parent-company-warns-of-ai-assisted-gta-6-piracy-ahead-of-pc-release",
+   "img": "https://www.gadgetreview.com/wp-content/uploads/Take-Two-Warns-of-AI-Assisted-GTA-6-Piracy-Ahead-of-PC-Release-scaled.jpg",
+   "chapeau": "GTA 6 piracy via AI-assisted reverse engineering is a real concern for Take-Two, which is bolstering legal and technical defenses ahead of its PC release.",
+   "txt": "CEO Strauss Zelnick cites AI-assisted reverse engineering as Take-Two bolsters legal and technical defenses before a 2027 PC launch\nLinkedIn Al is a long time tech writer with a penchant for all things nerdy. While he writes for Gadget Review, he manages a team of review writers, ensuring their content is nothing short of perfect. All Articles by Al Landes →\nLinkedIn Al is a long time tech writer with a penchant for all things nerdy. While he writes for Gadget Review, he manages a team of review writers, ensuring their content is nothing short of perfect. All Articles by\nA secondary report attributed comments to Take-Two CEO Strauss Zelnick warning that the company is strengthening technical and legal defenses against AI-assisted reverse engineering.\nGTA 6 arrives on PlayStation 5 and Xbox Series X/S on November 19, 2026 . A PC release date remains unconfirmed, with unverified reports pointing to a possible first-quarter 2027 window.\nAccording to that reporting, Zelnick framed the concern less as a revenue crisis and more as a creative one. His argument, as paraphrased, is that players want the experience Rockstar intended to deliver.\nThe scenario under discussion starts with jailbreaking a PS5 and extracting the GTA 6 build. Generative AI tools would then be used to recompile that code for PC.\nFormer Rockstar North technical director Obbe Vermeij raised this possibility publicly. He reportedly estimated that token costs alone could run into the tens of thousands of dollars, and he expected any result to be noticeably worse than what Rockstar would produce through an official port.\nNo publicly confirmed project exists. The scenario reflects capabilities present in the AI toolchain, not evidence that anyone has completed such a build.\nTake-Two’s response, as described in secondary reporting, combines IP enforcement with technical protection.\nZelnick reportedly described piracy broadly as a manageable but real problem for the entertainment business. Take-Two’s stated response pairs technical protections with expanded legal activities.\nAny unauthorized build that surfaced publicly could face takedown requests or litigation. The legal exposure for anyone distributing such a build would be substantial. For context on how video games have historically faced legal and distribution challenges, precedents exist across the industry.\nAn unofficial PC build would lack the online services, anti-cheat systems, and platform optimization that come with an official release.\nEven a technically bootable unofficial PC build would not replicate Rockstar’s online infrastructure or anti-cheat systems. Platform-specific optimization, the kind that comes only with an official release, would also be absent.\nTake-Two’s filings confirm that the company protects proprietary software and services against copying and reverse engineering. Those same filings do not, in the sources reviewed, verify specific details about what a hypothetical GTA 6 port would or would not include.\nVermeij suggested piracy pressure could theoretically influence Rockstar’s PC release schedule, though nothing has been confirmed.\nVermeij reportedly suggested that the threat of an unofficial port might push Rockstar toward releasing its PC version sooner. He also suggested it could narrow the gap between the console and PC launches.\nTake-Two has not confirmed any change to its release plans. The reported Q1 2027 PC timing has not been confirmed in any official materials reviewed.\nThe verified facts are narrow; most of what surrounds this story remains attributed to secondary reporting or described as hypothetical.\nWhat the available evidence supports: Take-Two recognizes piracy, reverse engineering, and AI-related risks as ongoing concerns, and secondary reporting attributes public comments on this topic to Zelnick. What the available evidence does not support: a working unofficial PC port of GTA 6, a confirmed change to Rockstar’s release plans, or a primary transcript of Zelnick’s remarks.\nRockstar has not announced a PC release date in any official materials reviewed. The reported Q1 2027 window and speculation about AI tools replicating a full Rockstar port in a compressed timeline both remain unverified.\nAt Gadget Review, our guides, reviews, and news are driven by thorough human expertise and use our Trust Rating system and the True Score . AI assists in refining our editorial process, ensuring that every article is engaging, clear and succinct. See how we write our c",
+   "pub": ""
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQLWJKSDU3VndhRzg2ZVFMN2drRWNkelMzdkduUjdxcnN3X1lhZTRyR2UyakhMMDBrd3pJdzBrekRBcDgzdTJZcmJ5OVg1RjFDbWNjN1JGX1Q2bHZTTHFral9WNU9JbDVjenN6aG9pbWp3cEhKR1RSUWZnc3JKZ3kwTHRhMlgtOEo1ZmV2bk5GNE01cUgwdGhwUENObUowaENjZ1pWcko4UGFQd0VldU9jREs2WUlFQXJybmY5aVQ2VExIby1td3h4ZGxTTU9icUIxM0JaTjFnZkJqLW8?oc=5",
@@ -107,7 +143,11 @@
    "d": "2026-11-11T16:30:58+00:00",
    "lang": "fr",
    "t": "GTA 6 : des fichiers manquants dans plusieurs pays font craindre des versions censurées",
-   "erreur": "429 : passage suivant"
+   "u": "https://www.lacremedugaming.fr/jeux/gta/gta-6/gta-6-des-fichiers-manquants-dans-plusieurs-pays-font-craindre-des-versions-censurees-234316.html",
+   "img": "https://sf.lacremedugaming.fr/wp-content/uploads/creme-gaming/2026/11/gta-6-des-fichiers-manquants-dans-plusieurs-pays-font-craindre-des-versions-censurees-1200x660.webp",
+   "chapeau": "À peine lancé en préchargement, GTA 6 se retrouve au cœur d’un soupçon de censure lié à des fichiers Rest of World manquants. De l’Australie au Japon, les indices techniques s’accumulent et posent une question brûlante pour la version française.",
+   "txt": "À peine lancé en préchargement, GTA 6 se retrouve au cœur d’un soupçon de censure lié à des fichiers Rest of World manquants. De l’Australie au Japon, les indices techniques s’accumulent et posent une question brûlante pour la version française.\nLe préchargement de GTA 6 vient à peine de démarrer sur PlayStation 5 et Xbox Series X|S que les dataminers flairent déjà la polémique. En analysant les 212 Go que réclame le futur Grand Theft Auto VI , certains ont repéré des fichiers manquants dans plusieurs pays, dont l’Australie et la Nouvelle-Zélande, faisant naître la peur de versions censurées.\nSur X, le dataminer TexFunz2 s’est penché sur la structure PlayGo de la version PS5, découpée en 32 blocs de données. Il a repéré deux fichiers clés, « core_restofworld » (environ 1,5 Go) et « core_restofworld001 » (704 Ko), dont la présence varie selon les régions. De quoi alimenter toutes les théories, notamment sur la censure au Japon et en Océanie.\nSelon TexFunz2, « Rest of World regroupe des contenus qui ont été censurés dans certaines versions régionales, probablement la version japonaise dans ce cas ». Les chiffres lui donnent partiellement raison : sur Xbox Series X|S , le build mondial de GTA 6 pèse environ 209,86 Gio, alors que le build japonais descend à 208,74 Gio, soit près de 1,2 Go de données en moins.\nCette différence intrigue d’autant plus que la fiche CERO Z du Japon ne mentionne que violence et crime, quand l’ ESRB , le PEGI et l’ Australian Classification Board listent clairement nudité, drogues et « strong sex scenes ». Combiné à l’historique de versions allégées des jeux Rockstar Games au Japon , beaucoup y voient le signe probable de scènes sexuelles coupées localement.\nSur PlayStation 5 , l’anomalie la plus commentée reste pourtant ailleurs : le petit fichier « core_restofworld001 » est totalement absent du build Australie Nouvelle-Zélande, alors qu’il est présent dans les autres régions. Avec seulement 704 Ko, il ne peut pas contenir une mission complète, mais plutôt une texture sensible, un logo ou un simple fichier de configuration.\nLe passé de l’ Australie et de la Nouvelle-Zélande en matière de censure nourrit la suspicion, ces pays ayant déjà forcé des coupes dans GTA III et Vice City , notamment sur les prostituées et la drogue. Pourtant, la fiche officielle classe GTA 6 en R18+ « Original » avec violence forte, nudité et scènes de sexe, ce qui laisse penser que la version soumise n’a pas été édulcorée. Les fichiers restent chiffrés avant la sortie, et Rockstar Games n’a pas confirmé la moindre coupe régionale.\nBonne nouvelle pour les joueurs français : les tableaux de taille et d’identifiant publiés pour Xbox Series X|S montrent que la France utilise le même build mondial que les Etats-Unis, le Royaume-Uni ou l’Allemagne, autour de 209,86 Gio. Ce package inclut bien « core_restofworld » et « core_restofworld001 », sans fichier manquant spécifique à notre région.\nLe préchargement ouvert le 10 novembre 2026 en Europe confirme d’ailleurs un gabarit identique entre France et Etats-Unis, tandis que la classification PEGI 18 assume déjà violence extrême, drogues et contenu sexuel explicite. Sauf surprise de dernière minute, les scènes les plus crues devraient donc être identiques chez nous, et les vraies différences se jouer plutôt du côté de la version japonaise.",
+   "pub": "2026-11-11T16:30:58+00:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQNXN6VXJsRWVxd1ctOGZJNkhBcENFb0ZOd3dkN0xSamhMU0dJal9KOWpGVU9oVXVHOUlCSk9iUVJGTzlqbFR0TnRoemFIbjdiMUFxcHpBcUsyVVJkNnZGZkhtZHA3ZmZlVllibFg1V1p2SF9IOGh0ODZwc29IOEh3M0dIdlZpQkxIVHc3REEzZml3UTBCZlZESkJoZG5pbi1ua3pReWNkV1RtVjBjLWh2Q28zNkRXanNudkpNTjBQMlJjOXBGX0dROVdQTklHYkdBOGI3Z2prUXlleWtSSTFHeENXcEtPODI4U25SdUUzMUMxM3BUREQ3cHdzOFFpc29aSE9sa2RIQk15UFg3S1VCN21jcldNdw?oc=5",
@@ -198,8 +238,12 @@
    "s": "Yahoo Finance",
    "d": "2026-11-11T16:00:06+00:00",
    "lang": "en",
-   "t": "GTA 6 Demand Is 'Extraordinary,' but Take-Two CEO Isn't Ready to Declare Victory",
-   "erreur": "429 : passage suivant"
+   "t": "GTA 6 Demand Is",
+   "u": "https://finance.yahoo.com/markets/stocks/articles/gta-6-demand-extraordinary-two-160006051.html",
+   "img": "https://s.yimg.com/lo/mysterio/api/61a5e5b250c55aacfda2646029d6918fbd0d0c7c60076ca94eb2686e413bd32b/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fbenzinga_79%2F7547a9cb5407bc38a7fc4dbe235c326c.jpg",
+   "chapeau": "Take-Two Interactive Software Inc. stock rose in premarket trading Tuesday as excitement over the Nov. 19 launch of Grand Theft Auto 6 (GTA 6) overshadowed an 18% decline in quarterly net bookings. Net bookings fell 18% year over year to...",
+   "txt": "GTA 6 Demand Is 'Extraordinary,' but Take-Two CEO Isn't Ready to Declare Victory Lekha Gupta Wed, November 11, 2026 at 5:00 PM GMT+1 6 min read TTWO +3.37% Benzinga and Yahoo Finance LLC may earn commission or revenue on some items through the links below.\nTake-Two Interactive Software Inc. stock rose in premarket trading Tuesday as excitement over the Nov. 19 launch of Grand Theft Auto 6 (GTA 6) overshadowed an 18% decline in quarterly net bookings.\nNet bookings fell 18% year over year to $1.60 billion. The figure topped analysts' estimate of $1.58 billion but missed the company's forecast of $1.62 billion to $1.67 billion.\nRecurrent consumer spending declined 9%, compared with the company's forecast for a 5% drop. Spending fell across NBA 2K and mobile games, while the Grand Theft Auto franchise recorded growth.\nA single bad hire can set a startup back years. Here are the 5 hires founders most often misjudge — and why\nStill Learning the Market? These 50 Must-Know Terms Can Help You Catch Up Fast\nTake-Two CEO Strauss Zelnick said GTA 6 preorders have significantly exceeded initial expectations.\nDespite extraordinary GTA 6 preorder demand, Zelnick struck a cautious tone. He said the company was not ready to \"declare victory\" before the game's launch and would assess its performance before updating financial forecasts.\nThe company expects net bookings and player engagement to accelerate in the second half of fiscal 2027, supported by new game content.\nGrand Theft Auto 5 has sold nearly 235 million copies worldwide.\nThe Grand Theft Auto franchise posted double-digit growth in recurrent consumer spending and average monthly GTA+ members.\nGTA 6 remains on track for its Nov. 19, 2026, release. Take-Two expects the game to drive significant fiscal 2027 growth, supported by Ultimate Edition sales.\nTrending: Avoid the #1 Investing Mistake: How Your 'Safe' Holdings Could Be Costing You Big Time\nNBA 2K27 has sold more than 4 million copies, generating the franchise's second-highest net bookings performance. However, results fell short of expectations.\nManagement expects NBA 2K bookings and engagement to improve in the second half of fiscal 2027. It also forecasts high-single-digit growth in NBA 2K recurrent consumer spending for the full fiscal year.\nMeanwhile, the Borderlands franchise surpassed 100 million copies sold. Borderlands 4 benefited from new content and promotions.\nTake-Two also released updates for Mafia, Civilization, PGA Tour 2K and WWE 2K. PGA Tour 2K27 and WWE 2K27 are scheduled for release later this fiscal year.\nTake-Two reaffirmed its fiscal 2027 net bookings forecast of $8 billion to $8.2 billion, below analysts' estimate of $8.512 billion.\nHowever, it raised its GAAP revenue forecast to $7.98 billion to $8.18 billion.\nThe company also maintained its adjusted earnings forecast of $5.75 to $6 per share, compared with the $7.04 estimate.\nSee Also: Skip the Regrets: The Essential Retirement Tips Experts Wish Everyone Knew Earlier.\nZelnick defended the unchanged forecast, saying it was too early to declare success before GTA 6's launch. He added that the company saw no reason to raise its projections.\nAddressing concerns about artificial intelligence-powered game reverse engineering, Zelnick said replicating the intended gaming experience would be difficult.\nHe added that Take-Two is strengthening its technical safeguards and legal efforts to protect its intellectual property.\nFor the third quarter of fiscal 2027, Take-Two expects adjusted earnings of $3.80 to $4 per share, compared with analysts' estimate of $3.95.\nThe company forecasts adjusted net bookings of $3.35 billion to $3.5 billion, compared with the $3.382 billion estimate.\nRecurrent consumer spending is expected to rise about 12% year over year.\nMeanwhile, management-adjusted operating expenses are projected to increase about 21% year over year, primarily due to marketing costs tied to GTA 6's launch.\nRead Next: Think you're saving enough for your kids? You might be dangerously off — see why\nBuilding a resilient portfolio means thinking beyond a single asset or market trend. Economic cycles shift, sectors rise and fall, and no one investment performs well in every environment. That's why many investors look to diversify with platforms that provide access to real estate, fixed-income opportunities, precious metals, and even self-directed retirement accounts. By spreading exposure across multiple asset classes, it becomes easier to manage risk, captu",
+   "pub": ""
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQT2ZzMHU5S0FJSnh5azgzLU5haFlwNzN1R3BkNTNnbVRRWV9IOGNCUW12SVpVc0FlT1FJYnJWOUN1UHJqcFFTYnNneWo0R3V1NEVtbVVielJFcUpMUFNielZ5R0dLTDRXTXo1U3RBRzJiWDdaNDlkbVpWMUFNTjJ0akY1am8zMEswSnFtZTRFd1RadHcwVE5lcQ?oc=5",
@@ -243,7 +287,7 @@
    "d": "2026-11-11T15:33:00+00:00",
    "lang": "en",
    "t": "Take-Two CEO sends strong message to investors ahead of GTA 6",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRzhEdE5ZbEFlTEM5NkFkT3BjaEJKRXlsUTEyN2xYXzR6SjZoXzJHcTJDR3VJcmhYSlM5MnVNR1YteF9QZTNiNk9wTTBpVkVEM3dkU0RabW9lbUJWTE5XVk53SWxPbTRQRUI2YUFrc1hSb2VKNDczZXZmTWNpR0NtSWQwMnVVLU9VMVE?oc=5",
@@ -270,14 +314,6 @@
    "pub": "2026-11-11T16:21:58+01:00"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOQ0s3TmJsbjJ5THVicWJyQldfME5QUFF1OXBMQXV3SXFJd1ZXSFJHaXFEQTd4NnJXWnhqNWtOTzgza0VaOGJjTzU3bDRPdWtqZ3p6OVFDWXlDdzZwaWRQVFY5N0tEcWxhUTBReUJ6cDBxUUpmZGc2Ymx6a3drUzhONA?oc=5",
-   "s": "Investor's Business Daily",
-   "d": "2026-11-11T15:10:00+00:00",
-   "lang": "en",
-   "t": "'Grand Theft Auto 6' Poised To Steal Pop Culture Spotlight",
-   "erreur": "429 : passage suivant"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBnQlRiU2FoekxZZFlJc2lhbWlUcGJJQXRvWEl5MjlON20zOUw5aVhQT1ZJcUJBWDZMMy1IWnlzemtzN29BNTJGNGhRSlNvVmxZa0tUdDJtbUQ2aDVZb2lmd1MtY21HeFBCVGhBYmQxUEhwSTM5ejVDOFFXbFI?oc=5",
    "s": "overclocking.com",
    "d": "2026-11-11T15:03:20+00:00",
@@ -300,18 +336,6 @@
    "chapeau": "Le Black Friday est l'occasion de préparer deux des sorties majeures de fin d'année : GTA 6 sur PS5 et le remake de Zelda : Ocarina of Time sur Nintendo",
    "txt": "GTA 6 sort le 19 novembre sur PS5, et le remake de Zelda Ocarina of Time est à présent disponible (sur Switch 2 exclusivement). Autant dire que le Black Friday tombe à point nommé pour équiper sa console ou compléter son setup avant de s’y plonger.\nNous avons retenu diverses offres, des consoles Nintendo (Switch 2, Switch OLED, Switch Lite), des manettes pour la Switch 2, la caméra officielle Switch 2, un casque sans fil ou encore un SSD pour augmenter le stockage de la PS5 en prévision de GTA 6.\nPendant le Single Day sur AliExpress, le paiement sur PayPal permet d’économiser 20 € supplémentaires dès 199 € d’achat, et 33 € dès 299 € d’achat.\nEn outre, on a aussi rassemblé de belles promos sur certains jeux vidéo, en fin d’article .\nPour vous équiper comme il se doit, vous pouvez également jeter un œil à nos différents guides d’achat dans le domaine du gaming, comme notre sélection des meilleurs casques audio pour jouer à la PS5 , ou notre comparatif des Nintendo Switch pour mieux choisir. Nous avons également une sélection des consoles à privilégier pour lancer GTA 6 .\nLa Nintendo Switch 2 est la console hybride de Nintendo : elle se joue sur un téléviseur via son dock, en mode console de table ou en mode portable, avec ses nouveaux Joy-Con 2 magnétiques. Par rapport à la Switch originale, elle embarque une architecture graphique Nvidia Ampere, un écran plus grand aux bordures réduites, 256 Go de stockage interne et le Wi-Fi 6.\nLa puissance supplémentaire élargit le catalogue possible, et la fonction GameShare permet de partager une cartouche entre plusieurs consoles. L’autonomie reste le point faible à surveiller, la recharge 60 W ne compense pas entièrement un usage intensif en mode portable. Notre test de la Nintendo Switch 2 lui attribue la note de 7/10.\nLa console est disponible en promotion à 334,88 euros sur Aliexpress (au lieu de 419 euros) avec le code promo FRD1160 – le prix final s’applique au moment du paiement via PayPal. Par ailleurs, le pack avec le remake de The Legend of Zelda : Ocarina of Time est aussi en promotion à 469,99 euros sur Joybuy.\nFRD1160 Voir l’offre sur le pack Switch 2 + Zelda OoT Découvrir l’offre La PlayStation 5 Slim et Digital Edition en stock Vous n’avez pas encore de console avec l’arrivée de GTA 6 ? Bonne nouvelle, les différentes versions de la PlayStation 5 sont de retour en stock. Avec un large catalogue de jeux plus une manette intégrée, vous avez de quoi jouer immédiatement. C’est aussi la console la plus optimale pour jouer à GTA 6 au niveau des technologies d’optimisations.\nLa PlayStation 5 Slim est de retour en stock chez des commerçants comme Darty à 649 euros. C’est aussi le cas de la version Digital Edition à 599 euros. En revanche, la PS5 Pro est à des prix un peu trop élevés pour être réellement recommandée.\nSortie en 2021, la Nintendo Switch OLED reste une option solide pour qui joue essentiellement en mode portable. Son écran OLED de 7 pouces améliore sensiblement les contrastes et la richesse des couleurs par rapport au LCD de la Switch originale, et ses bordures plus fines renforcent l’immersion. Le dock intègre désormais un port Ethernet, ce qui évite de chercher un adaptateur pour le jeu en ligne.\nTV Mini LED TCL C79L à 899,00€ pour le Black Friday ! Jouez dans les meilleures conditions avec la TV TCL C79L : une expérience gaming fluide en 144 Hz et un son immersif signé Bang & Olufsen, actuellement en promotion !\nLa console est notée 8/10 dans notre test : les réserves portent surtout sur la résolution plafonnée à 720p en portable et sur une luminosité qui reste insuffisante en plein soleil. Elle tourne sur la même puce Nvidia Tegra que la Switch 2019 et n’apporte pas de gain de performance. Pour savoir si elle vous convient mieux que ses sœurs, consultez notre sélection des meilleures consoles de jeux portables en 2026 .\nAvec le code promo FRD1140 , la Nintendo Switch OLED passe à 229 euros au lieu de 349 euros sur Aliexpress , soit 120 euros de remise.\nFRD1140 Nintendo Switch Lite La Nintendo Switch Lite est la version 100 % portable de la Switch : pas de dock, pas de Joy-Con détachables, une seule façon de jouer. Elle compense par un format compact et léger qui la rend agréable à transporter et à tenir en main. Son autonomie est meilleure que celle du modèle d’origine, et elle intègre une vraie croix directionnelle, absente sur les Joy-Con de la Switch classique.\nL’écran n’est pas assez lumineux en extérieur, et le plastique de la coque est moins agréable",
    "pub": "2026-11-02T18:28:06+00:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSmVMdUd2dkYtWTZRSmhZZFFWeUpYZEZoeUJDb3pIZURXNGZCdTBjNUFkOE9fa2szMFVFdTRUS2hleGpKYlJhWDZuZGJuWHRtLU9FZWlvQWVnN0FSeVBGSmxDX2F0ekRzajFRT1dWekx4WDN2cWJWRHBxQm9waUxDeWRoajhTbzVIZEF6czZBbmRUVGpIa3JxZGZaQjdNbk1VVmpSdUJ1REtkWHJ3bTNWZDgwcDUxbTlCX2lqRXpSSHVaTkc0?oc=5",
-   "s": "Frandroid",
-   "d": "2026-11-11T14:25:56+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : pourquoi même la PS5 Pro est incapable de dépasser les 30 FPS — Frandroid",
-   "u": "https://www.frandroid.com/produits-android/console/3318823_gta-6-pourquoi-meme-la-ps5-pro-est-incapable-de-depasser-les-30-fps",
-   "img": "https://img.frandroid.com/images.frandroid.com/wp-content/uploads/2026/11/gta-6-39-vice-city-270d2ew-r93hmh.jpg?resize=1600,900&key=38e05329",
-   "chapeau": "Malgré une version optimisée pour PS5 Pro, GTA 6 restera bloqué à 30 FPS sur toutes les consoles. Une décision qui suscite la grogne chez les joueurs qui",
-   "txt": "Après des mois de rumeurs, aussi bien positives que négatives, Rockstar a tranché ce mardi 10 novembre, dans un billet publié à l’ouverture du préchargement du jeu : GTA 6 tournera bien à 30 images par seconde sur toutes les consoles , y compris la très puissante PS5 Pro .\nDepuis cette annonce, la déception est massive chez les joueurs qui restaient optimistes sur un meilleur framerate pour la console la plus chère du marché, vendue 899,99 euros depuis la hausse de prix d’avril. Certains estiment que leur achat n’a finalement servi à rien, qu’un meilleur ray tracing et une meilleure qualité d’image ne peuvent pas compenser une fréquence d’images identique à la PS5 de base . D’autres estiment qu’il est même indéfendable en 2026 de proposer un jeu avec un tel plafond de performance.\nRockstar n’en est pas à son coup d’essai. La plupart de ses jeux sont sortis plafonnés à 30 FPS sur console, et certains n’ont reçu un mode 60 FPS que des années plus tard, sur les machines suivantes. GTA V tourne ainsi en 1440p à 60 FPS sur PS5 Pro. Actuellement, Red Dead Redemption 2 est lui encore bloqué à 30 FPS sur PS5, 8 ans après sa sortie.\nOn s’en doutait pourtant ces derniers mois avec les différents trailers du jeu et notamment l’Aperçu étendu, analysé de toutes parts, y compris par Frandroid . Derrière cette limitation, les joueurs pointent du doigt les choix techniques de Sony, à commencer par le processeur de la console.\nTV Mini LED TCL C79L à 899,00€ pour le Black Friday ! Jouez dans les meilleures conditions avec la TV TCL C79L : une expérience gaming fluide en 144 Hz et un son immersif signé Bang & Olufsen, actuellement en promotion !\nLa partie CPU d’un PC ou d’une console est cruciale, mais souvent imcomprise, dans le pipeline de rendu graphique d’un jeu vidéo. Dans notre dossier dédié au rôle du processeur pour le gaming , nous précisions notamment que c’est le processeur qui, sur les ordres du moteur du jeu, envoie les fameux draw calls à la carte graphique via une API dédiée. On parle ici de la géométrie, des meshs d’une scène, que le GPU dessine ensuite avec un shader spécifique (texture, lumière, couleur).\nSurtout, le processeur gère la logique du jeu et tous ses systèmes, comme la météo, les PNJ, la circulation, la physique, la balistique de certains objets et même la gravité.\nUn jeu comme GTA 6 fait tourner un très grand nombre de systèmes, dont beaucoup fonctionnent de concert en plein gameplay. Au-delà du rendu graphique, ils pèsent lourd sur le processeur. Or, la PS5 Pro est pour ainsi dire en retard à ce niveau.\nOn le savait dès les premières fuites sur la PS5 Pro : Sony a nettement privilégié la partie graphique au détriment du processeur. Si Sony annonce un rendu graphique environ 45 % plus rapide, le CPU reste le même Zen 2 à huit cœurs que sur la PS5. Il gagne seulement un mode haute fréquence qui le pousse de 3,5 à 3,85 GHz, soit 10 % de plus, en rognant un peu sur la fréquence du GPU.\nCe contenu est bloqué car vous n’avez pas accepté les cookies et autres traceurs. Ce contenu est fourni par YouTube. Pour pouvoir le visualiser, vous devez accepter l’usage étant opéré par YouTube avec vos données qui pourront être utilisées pour les finalités suivantes : vous permettre de visualiser et de partager des contenus avec des médias sociaux, favoriser le développement et l’amélioration des produits d’Humanoid et de ses partenaires, vous afficher des publicités personnalisées par rapport à votre profil et activité, vous définir un profil publicitaire personnalisé, mesurer la performance des publicités et du contenu de ce site et mesurer l’audience de ce site (en savoir plus)\nEn cliquant sur « J’accepte tout », vous consentez aux finalités susmentionnées pour l’ensemble des cookies et autres traceurs déposés par Humanoid et ses partenaires .\nVous gardez la possibilité de retirer votre consentement à tout moment. Pour plus d’informations, nous vous invitons à prendre connaissance de notre Politique cookies .\nGTA 6 exploite d’ailleurs ce mode. D’après les données extraites des fichiers du jeu par un dataminer et relayées par GameGPU , le titre active le mode CPU haute fréquence sur PS5 Pro. Même avec ce coup de pouce, Rockstar s’en tient à 30 FPS.\nÀ 30 FPS, la console a 33,3 ms pour produire chaque image. À 60 FPS, elle n’en a que 16,7. Le CPU (la simulation) et le GPU (l’affichage) doivent donc tous les deux finir leur travail deux fois plus vite. Si l’un des deux n’y arrive pas, le 60 FPS est impossible.\nEn cela, la P",
-   "pub": "2026-11-11T14:25:52+00:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNN0lxeTNZdEp0U1lCaWtPY2VkU3huTGE5ekhvWDRBNVdMYjFPMmNVNmtiSWJjOUs0NjdxWS1BM1hRbUlDX0x5Q1FYSzFvd1htUGtkVnZMQkRBWVhuRmV1cVVVaFA5RnNPNHEtdUFDWHJLTVRwYm1CT0lkVzh3ZEM0QXhNUFFuaWhLRmlwN0dCSUc5UGxHQUI4S093MWp4emVTVWRscGx3QlliSUU0VTdtM0owQkdqblczUU1KbGptR3Y5elVYV0JJWWgxU0t2MzFDZFdLRjRtNFhoWll5cjlsTw?oc=5",
@@ -410,7 +434,7 @@
    "d": "2026-11-10T16:16:06+00:00",
    "lang": "en",
    "t": "GTA 6: The iconic Grotti Cheetah became a reality – It is for sale for 1 million pounds",
-   "erreur": "429 : passage suivant",
+   "erreur": "HTTP Error 403: Forbidden",
    "cyberleek": true
   },
   {
@@ -431,8 +455,12 @@
    "s": "NoobFeed",
    "d": "2026-11-10T14:25:23+00:00",
    "lang": "en",
-   "t": "GTA 6 Leak Points to PS5 Pro 120Hz Output and Dynamic Crowds",
-   "erreur": "429 : passage suivant",
+   "t": "GTA 6 Leak Points to PS5 Pro 120Hz Output and Dynamic Crowds | NoobFeed",
+   "u": "https://www.noobfeed.com/news/gta-6-ps5-pro-120hz-dynamic-crowds",
+   "img": "https://nfapi.noobfeed.com/storage/media/73727/gta-6-jason-lucia.webp",
+   "chapeau": "GTA 6 could use a newer PSSR revision than the version associated with games currently using 13.00A. However, the screenshot provides no technical explanation..",
+   "txt": "New details surrounding Grand Theft Auto 6 have raised questions about how the game will perform on PlayStation 5 Pro. Reported screenshots point to a newer version of Sony's image reconstruction technology, alongside a 120Hz output setting. Neither finding confirms a specific frame rate, but both have renewed discussion about the visual and performance options Rockstar may offer.\nThe reported PSSR version number is 13.60, appearing in an entry labeled MFSR version. That has led to speculation that GTA 6 could use a newer PSSR revision than the version associated with games currently using 13.00A. However, the screenshot provides no technical explanation or changelog, so any improvements remain unknown.\nA separate readout reportedly lists both 120Hz support and PS5 Pro support as enabled. It also shows high frame rate mode and variable refresh rate support as disabled. These are metadata flags rather than a view of the game's settings menu, so they offer clues about compatibility but don't reveal exactly how the finished game will behave.\nThe 120Hz flag has prompted speculation about a possible 40 FPS mode. At 120Hz, each frame in a 40 FPS game can be displayed across three screen refreshes, producing even frame pacing. That can make 40 FPS a useful middle ground between 30 FPS and 60 FPS for GTA 6 , but the database entry does not confirm Rockstar is developing such a mode.\nA 60 FPS option for GTA 6 is also possible, though it would likely require trade-offs in resolution or graphical settings. PSSR could help reconstruct a sharper image from a lower internal resolution, but it cannot remove the demands of simulating traffic, crowds, and police activity. Actual performance will only become clear through gameplay testing in demanding situations.\nPlayers have also questioned how dense the NPCs are in GTA 6 after comparing the beach scenes in different trailers. One image appears to show more people than another, leading to claims that Rockstar may have reduced the number of non-playable characters. However, the shots use different camera angles and lighting, and appear to show different times of day.\nThose differences make direct comparison misleading. A camera looking along the beach would see more people than a camera looking at it from another angle. Changing conditions may also change how busy it looks. The footage itself doesn't confirm if Rockstar has thinned the crowds, though a less-crowded beach later in the day would be believable.\nMore encouraging have been descriptions of a separate continuous gameplay sequence. In the footage, Jason rides a bicycle along a busy beach, passing groups of couples and individuals who seem to be busy with their own things. It was a significant scene not just because of the number of people, but because the crowd seemed to fill the space so naturally.\nThe beach wasn't just a bunch of background characters; it was an active public space with many different people interacting with each other. While footage alone cannot reveal how the NPC systems work, the scene suggests Rockstar is paying attention to activity beyond the player's immediate actions. That could help make Vice City and Leonida feel more believable .\nSeveral people who attended demonstrations at Rockstar North have also praised the world beyond its visual presentation. Their accounts describe unscripted moments, detailed interiors, and small encounters that develop as characters explore. One preview recalled Jason irritating a man walking a dog, running from the animal, and later encountering police activity nearby.\nOther reported demonstrations included Jason and Lucia jumping from a bridge, only to discover that someone had stolen their car while they were distracted. These stories suggest that Rockstar is emphasizing spontaneous interactions and environmental detail. They remain impressions from controlled previews, however, and players will need the finished game to judge how consistently these systems work.",
+   "pub": "2026-11-09T18:00:00.000Z",
    "cyberleek": true
   },
   {
@@ -571,7 +599,7 @@
    "d": "2026-11-09T11:06:47+00:00",
    "lang": "fr",
    "t": "Nouvelle fuite de données sur GTA 6 — fonctions en ligne, taille exacte et bien plus encore",
-   "erreur": "429 : passage suivant",
+   "erreur": "HTTP Error 403: Forbidden",
    "cyberleek": true
   },
   {
@@ -683,8 +711,12 @@
    "s": "JVFrance",
    "d": "2026-11-07T17:54:12+00:00",
    "lang": "fr",
-   "t": "GTA 6 : une fuite révèle le contenu de la version boîte, bien plus généreuse que prévu",
-   "erreur": "429 : passage suivant",
+   "t": "GTA 6 : une fuite révèle le contenu de la version boîte, bien plus généreuse que prévu - JVFrance",
+   "u": "https://www.jvfrance.com/gta-6-contenu-boite-285689/",
+   "img": "https://www.jvfrance.com/wp-content/uploads/2026/06/GTA-6-keyart-officiel-3.webp",
+   "chapeau": "A quelques jours de sa sortie dans nos rayons, la version boîte de Grand Theft Auto VI a fuité et il y aura bien un goodies à récupérer",
+   "txt": "",
+   "pub": "2026-11-07T17:50:34+00:00",
    "cyberleek": true
   },
   {
@@ -719,7 +751,11 @@
    "d": "2026-10-22T15:12:54+00:00",
    "lang": "en",
    "t": "Cyberleek Shares GTA 6 Leak Of Naked Lucia",
-   "erreur": "429 : passage suivant",
+   "u": "https://www.imdb.com/news/ni66062173/",
+   "img": "",
+   "chapeau": "",
+   "txt": "",
+   "pub": "",
    "cyberleek": true
   },
   {
@@ -780,7 +816,7 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
    "t": "Le token CYBERLEEK chute de 40 % alors que le leaker de GTA 6 lance de nouvelles menaces",
-   "erreur": "429 : passage suivant",
+   "erreur": "HTTP Error 403: Forbidden",
    "cyberleek": true
   },
   {
