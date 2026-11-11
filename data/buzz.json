@@ -1,8 +1,47 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-11T16:13:06+01:00",
+  "updated_at": "2026-11-11T18:13:03+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-guardian-gestes-jason-apercu",
+      "title": "GTA 6 : les gestes de Jason relayés après un aperçu du Guardian",
+      "summary": "Deux comptes relaient cet aperçu. Le Guardian confirme les gestes de Jason avec donut, bière et pack porté en courant. Le post de @GTAVI_Countdown annonce aussi un rendez-vous le 14 novembre ; cette date reste attribuée au compte.",
+      "url": "https://x.com/GTAVI_Countdown/status/2120536460772180357",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "2026-11-11T15:17:44.000Z",
+      "checked_at": "2026-11-11T18:13:03+01:00",
+      "evidence": "Vues relevées le 2026-11-11T16:17:53+00:00 dans data/x_alertes.json : 38803 vues ; 18 replies, 45 reposts, 1146 likes, 103 bookmarks, 38803 views. Relevés Mac et serveur concordants. Original X inaccessible (403 ou Cache miss), relevé autorisé par tools/BUZZ.md. Vraie image téléchargée HTTP 200 avec curl et ouverte pour contrôle. Second relais @gtasix_ : 59 610 vues, post https://x.com/gtasix_/status/2120523530311745916. Article primaire Guardian du 11 novembre ouvert et lu ; gestes corroborés, rendez-vous du 14 novembre non confirmé précisément.",
+      "visual": "GESTES QUOTIDIENS",
+      "image": "https://pbs.twimg.com/media/HW2oVE1XUAE5H-5?format=jpg&name=360x360",
+      "image_alt": "Jason mange devant un commerce dans le média du post",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "A new GTA 6 preview with The Guardian at Rockstar North is coming on November 14th. Here are some early impressions:\n\n- Rob Nelson showed the insane attention to detail\n- When running with a six-pack of beer, Jason holds it between his arm and body to keep the bottles from",
+      "corroboration": "https://www.theguardian.com/games/2026/nov/11/a-world-of-its-own-inside-the-making-of-the-most-detailed-grand-theft-auto-yet"
+    },
+    {
+      "id": "x-kai-cenat-fin-marathon-130-heures",
+      "title": "GTA 6 : avant la sortie, Kai Cenat aurait terminé son marathon GTA",
+      "summary": "@GTAlphaintel rapporte que Kai Cenat a terminé GTA 5 au terme d’un marathon GTA de 130 heures. Le montage du post rappelle les décors et épisodes de cette traversée de la série. La durée et la conclusion sont attribuées à ce relais ; aucun enregistrement intégral du marathon n’a été contrôlé.",
+      "url": "https://x.com/GTAlphaintel/status/2120503982934376472",
+      "platform": "X",
+      "author": "@GTAlphaintel",
+      "status": "Rumeur",
+      "published_at": "2026-11-11T13:08:41.000Z",
+      "checked_at": "2026-11-11T18:13:03+01:00",
+      "evidence": "Vues relevées le 2026-11-11T16:17:53+00:00 dans data/x_alertes.json : 48430 vues ; 15 replies, 24 reposts, 593 likes, 35 bookmarks, 48430 views. Relevés Mac et serveur concordants. Original X inaccessible (403 ou Cache miss), relevé autorisé par tools/BUZZ.md. Vraie image téléchargée HTTP 200 avec curl et ouverte pour contrôle.",
+      "visual": "MARATHON TERMINÉ",
+      "image": "https://pbs.twimg.com/media/HW2LH9XbIAA03_T?format=jpg&name=360x360",
+      "image_alt": "Montage de Kai Cenat dans plusieurs décors inspirés des jeux GTA",
+      "image_credit": "@GTAlphaintel sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Kai Cenat has finished Grand Theft Auto 5, concluding his 130-hour GTA marathon\n\n“This is my childhood right here,” he says"
+    },
     {
       "id": "x-precommandes-dix-millions-estimation",
       "title": "GTA 6 : une estimation de dix millions de précommandes circule",
@@ -10,10 +49,10 @@
       "url": "https://x.com/gtasix_/status/2120503461573714152",
       "platform": "X",
       "author": "@gtasix_",
-      "status": "Rumeur",
+      "status": "Rapporté",
       "published_at": "2026-11-11T13:06:36.000Z",
-      "checked_at": "2026-11-11T16:13:06+01:00",
-      "evidence": "Vues relevées le 2026-11-11T14:15:25+00:00 dans data/x_alertes.json : 43575 vues ; 37 replies, 271 reposts, 4305 likes, 181 bookmarks, 43575 views. Relevés Mac et serveur concordants. Original X : échec Cache miss ; contenu vérifié dans le relevé autorisé par tools/BUZZ.md. Vraie image du post téléchargée avec succès et ouverte pour contrôle. Affirmations et opinions attribuées, sans confirmation officielle.",
+      "checked_at": "2026-11-11T18:13:03+01:00",
+      "evidence": "Vues relevées le 2026-11-11T14:15:25+00:00 dans data/x_alertes.json : 43575 vues ; 37 replies, 271 reposts, 4305 likes, 181 bookmarks, 43575 views. Relevés Mac et serveur concordants. Original X : échec Cache miss ; contenu vérifié dans le relevé autorisé par tools/BUZZ.md. Vraie image du post téléchargée avec succès et ouverte pour contrôle. Affirmations et opinions attribuées, sans confirmation officielle. Nouveau relevé 2026-11-11T16:17:53+00:00 : 107 067 vues ; second relais @GTAVI_Countdown https://x.com/GTAVI_Countdown/status/2120524895880946031 (48 953 vues). Aucun bilan primaire Sensor Tower contrôlé.",
       "visual": "PRÉCOMMANDES ESTIMÉES",
       "image": "https://pbs.twimg.com/media/HW2Kp_SWcAA-4WK?format=jpg&name=360x360",
       "image_alt": "Montage du post avec une boîte PS5 GTA VI et les chiffres de précommandes allégués",
@@ -2850,6 +2889,11 @@
       "at": "2026-11-11T16:13:06+01:00",
       "label": "Passage 94 · Précommandes, mème et avis d’Agent",
       "summary": "Trois sujets distincts au-dessus de 20 000 vues ajoutés : estimation de précommandes (43 575), mème de la boîte PS4 (82 164), opinion d’Agent sur le solo pour les créateurs (29 184). Chiffres non officiels et opinion explicitement attribués ; médias du post ouverts et contrôlés. Relevés X Mac/serveur du 11/11 à 14:15:25 UTC concordants. Recherche web X/Instagram/TikTok/Rockstar effectuée : originaux X Cache miss, Instagram HTTP 429, TikTok sans contenu lisible, Newswire sans texte à l’ouverture ; index Newswire mentionnant préchargement et festival, sans nouveau média original vérifié retenu ici. Autres pistes : trophées et DualSense déjà traités, J-7 sous le seuil et incohérent avec le 19/11, marathon Kai et YouFibre sous 20 000 vues sans second relais dans le relevé, CJ hors sujet GTA 6. Aucun post X ni message à un tiers."
+    },
+    {
+      "at": "2026-11-11T18:13:03+01:00",
+      "label": "Passage 95 · Guardian et marathon GTA",
+      "summary": "Deux sujets ajoutés : gestes de Jason relayés par deux comptes (38 803 et 59 610 vues), aperçu primaire Guardian ouvert ; fin du marathon GTA de Kai Cenat (48 430 vues), durée attribuée. Deux vraies images ouvertes HTTP 200. Carte précommandes actualisée avec un second relais, sans doublon ni validation des chiffres. Relevés X Mac/serveur du 11/11 à 16:17:53 UTC concordants. Recherches X, Instagram, TikTok et Rockstar effectuées : X 403/Cache miss, Instagram 429, TikTok et Newswire sans texte lisible. J-7/98 % incohérent avec le 19/11 ; concours Myprotein 18 533 vues sous le seuil sans second relais ; boîtes et trophées déjà traités, CJ hors sujet GTA6. Aucun post X ni message à un tiers."
     }
   ],
   "coverage": {
