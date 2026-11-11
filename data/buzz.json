@@ -1,8 +1,65 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-11T00:15:00+01:00",
+  "updated_at": "2026-11-11T08:15:00+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-billboard-rockstar-retire-gta6",
+      "title": "GTA 6 : Rockstar aurait retiré un panneau d'affichage qui circulait sur X",
+      "summary": "Selon une mise à jour relayée par @GTAVI_Countdown, un panneau d'affichage lié à GTA 6 a été retiré par Rockstar, d'après un témoignage transmis par @TetlowPier86866. Le post ne précise pas son emplacement dans l'extrait relevé et Rockstar n'a rien communiqué.",
+      "url": "https://x.com/GTAVI_Countdown/status/2120339124402172091",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-11T02:13:35.000Z",
+      "checked_at": "2026-11-11T08:15:00+01:00",
+      "evidence": "Vues relevées le 2026-11-11T07:05:16+00:00 dans data/x_alertes.json : 50 091 vues (1 037 likes, 44 reposts). Info attribuée à @TetlowPier86866, non vérifiée. Original X non ouvert (pas de navigateur).",
+      "visual": "PANNEAU RETIRÉ",
+      "image": "https://pbs.twimg.com/media/HWz0xcuXsAAi7Ol?format=jpg&name=small",
+      "image_alt": "Image jointe au post sur le panneau d'affichage",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Update 2: Rockstar has taken the billboard down.\n\n(via @TetlowPier86866)"
+    },
+    {
+      "id": "x-packs-partages-gta5-gta-plus-tex2",
+      "title": "GTA 6 : des packs partagés avec GTA 5 et GTA+, piste de contenu bonus",
+      "summary": "D'après le dataminer Tex2 relayé par @GTAVI_Countdown, les packs de GTA 6 sont partagés avec GTA 5 et GTA+. Rockstar pourrait donc offrir plus tard du contenu spécial aux joueurs possédant l'un des deux. Le post ajoute que GTA Online restera soutenu après la sortie. Simple déduction de dataminer, rien d'officiel.",
+      "url": "https://x.com/GTAVI_Countdown/status/2120368167583109164",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-11T04:09:00.000Z",
+      "checked_at": "2026-11-11T08:15:00+01:00",
+      "evidence": "Vues relevées le 2026-11-11T07:05:16+00:00 dans data/x_alertes.json : 43 857 vues (964 likes, 53 reposts, 140 enregistrements). Source citée : le dataminer Tex2. Original X non ouvert (pas de navigateur).",
+      "visual": "PACKS GTA 5 / GTA+",
+      "image": "https://pbs.twimg.com/media/HW0PUf7XgAAm95z?format=jpg&name=360x360",
+      "image_alt": "Capture du post sur les packs partagés entre GTA 6, GTA 5 et GTA+",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "The GTA 6 packs are shared with GTA 5 and GTA+, which means Rockstar could be planning to give players who own one of them or both special content later, according to dataminer Tex2."
+    },
+    {
+      "id": "x-rockstar-meme-before-gta6",
+      "title": "GTA 6 : Rockstar fait un clin d'œil au mème « avant GTA 6 »",
+      "summary": "@GTAVI_Countdown relève que Rockstar Games reconnaît le mème « before GTA 6 » (la blague « avant GTA 6, je… ») juste avant la sortie. Le post n'en dit pas plus dans l'extrait relevé.",
+      "url": "https://x.com/GTAVI_Countdown/status/2120353203997020587",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "2026-11-11T03:09:32.000Z",
+      "checked_at": "2026-11-11T08:15:00+01:00",
+      "evidence": "Vues relevées le 2026-11-11T07:05:16+00:00 dans data/x_alertes.json : 36 024 vues (1 440 likes, 71 reposts). Support visuel du post non décrit ; original X non ouvert (pas de navigateur).",
+      "visual": "CLIN D'ŒIL ROCKSTAR",
+      "image": "https://pbs.twimg.com/media/HW0B6WvXMAAnGsU?format=jpg&name=360x360",
+      "image_alt": "Image jointe au post sur le clin d'œil de Rockstar au mème",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "We got Rockstar Games acknowledging the before GTA 6 meme before GTA 6."
+    },
     {
       "id": "x-welcome-to-vice-city-mlc-bad-bunny-diplo",
       "title": "GTA 6 : un titre « Welcome to Vice City » repéré dans la base MLC, avec Bad Bunny et Diplo",
@@ -2634,6 +2691,11 @@
       "at": "2026-11-11T00:15:00+01:00",
       "label": "Passage 89 · chanson Welcome to Vice City, Tove Lo, dos des boîtes",
       "summary": "Relevé X Mac du 10/11 22:13 UTC. Trois sujets ajoutés : titre MLC « Welcome to Vice City » (32 657 vues, repris par gtasix_), réaction de Tove Lo (60 892), captures au dos des boîtes (30 488). Écartés : GTAlphaintel (<20 000), « New look at Vice City » (35 211, sans contenu précis), pré-commandes Take-Two (3 946, déjà couvert). Originaux X non consultés. Aucun post X ni message à un tiers."
+    },
+    {
+      "at": "2026-11-11T08:15:00+01:00",
+      "label": "Passage 90 · panneau retiré, packs GTA 5/GTA+, mème « before GTA 6 »",
+      "summary": "Relevé X Mac du 11/11 07:05 UTC. Trois sujets ajoutés : panneau retiré (50 091 vues), packs partagés GTA 5/GTA+ (43 857), clin d'œil au mème (36 024). Écartés : posts <20 000 vues (compte à rebours J-8, PS5 100 M, GTAlphaintel). Originaux X non consultés. Aucun post X ni message à un tiers."
     }
   ],
   "coverage": {
