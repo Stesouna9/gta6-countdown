@@ -1,8 +1,47 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-11T10:15:00+01:00",
+  "updated_at": "2026-11-11T12:12:58+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-xbox-cloud-gaming-annonce-novembre",
+      "title": "GTA 6 : l’annonce Xbox Cloud Gaming commence à circuler sur X",
+      "summary": "@GTAlphaintel relaie l’arrivée de GTA 6 sur Xbox Cloud Gaming. Xbox Wire confirme le streaming sur Xbox One et Series X|S dès le 19 novembre, avec achat du jeu séparé et disponibilité selon le marché. La durée de dix ans évoquée dans le post n’est pas établie par cette page officielle.",
+      "url": "https://x.com/GTAlphaintel/status/2120456501940641971",
+      "platform": "X",
+      "author": "@GTAlphaintel",
+      "status": "Rapporté",
+      "published_at": "2026-11-11T10:00:00.000Z",
+      "checked_at": "2026-11-11T12:12:58+01:00",
+      "evidence": "Vues relevées le 2026-11-11T11:10:47+00:00 dans data/x_alertes.json : 5091 vues ; 4 replies, 17 likes, 5091 views. Publication sous 20 000 vues retenue pour son annonce corroborée par Xbox Wire, article officiel du 10/11 ouvert le 11/11. Original X inaccessible (Cache miss). Média HTTP 200 ouvert et contrôlé.",
+      "visual": "XBOX CLOUD",
+      "image": "https://pbs.twimg.com/media/HWzVPuobkAAOmvx?format=jpg&name=360x360",
+      "image_alt": "Logo Xbox vert illustrant le relais sur le cloud gaming",
+      "image_credit": "@GTAlphaintel sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Microsoft and Take-Two sign 10-year strategic partnership as GTA 6 arrives on Xbox Cloud Gaming\n\nIt will also bring GTA V, Red Dead Redemption 2, and other titles to the service",
+      "corroboration": "https://news.xbox.com/en-us/2026/11/10/grand-theft-auto-6-comes-to-xbox-cloud-gaming-november-19/"
+    },
+    {
+      "id": "x-compte-rebours-huit-jours-gta6",
+      "title": "GTA 6 : le compte à rebours à huit jours circule sur X",
+      "summary": "Le 11 novembre, @GTAVI_Countdown partage une vue nocturne de Vice City marquée « 8 days left ». @GTAlphaintel et @RockstarNewsFRA publient aussi leur compte à rebours. Un rappel communautaire de la sortie prévue le 19 novembre, sans nouvelle annonce de Rockstar.",
+      "url": "https://x.com/GTAVI_Countdown/status/2120384822728441862",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "2026-11-11T05:15:11.000Z",
+      "checked_at": "2026-11-11T12:12:58+01:00",
+      "evidence": "Vues relevées le 2026-11-11T11:10:47+00:00 dans data/x_alertes.json : 27916 vues ; 39 replies, 140 reposts, 1819 likes, 46 bookmarks, 27916 views. Même sujet chez @GTAlphaintel (11 899 vues au relevé Mac) et @RockstarNewsFRA (1 558 vues au relevé serveur du 11/11 10:09:48 UTC). Original X inaccessible via outil web (Cache miss). Média HTTP 200 ouvert et contrôlé.",
+      "visual": "HUIT JOURS",
+      "image": "https://pbs.twimg.com/media/HW0eq-SXEAAInCV?format=jpg&name=small",
+      "image_alt": "Vue nocturne de Vice City avec la mention 8 days left",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "GTA 6 is officially 8 days out from launch."
+    },
     {
       "id": "x-ps5-100-millions-effet-gta6",
       "title": "GTA 6 : la PS5 aurait dépassé les 100 millions de consoles vendues",
@@ -2739,6 +2778,11 @@
       "at": "2026-11-11T10:15:00+01:00",
       "label": "Passage 91 · artwork vs in-game, PS5 100 M",
       "summary": "Relevé X Mac du 11/11 09:08 UTC. Deux sujets ajoutés : comparatif artwork/in-game (38 387 vues), PS5 100 M (23 941). Écartés : « Welcome to Vice City » (déjà couvert), posts <20 000 vues. Originaux X non consultés. Aucun post X ni message à un tiers."
+    },
+    {
+      "at": "2026-11-11T12:12:58+01:00",
+      "label": "Passage 92 · huit jours et Xbox Cloud Gaming",
+      "summary": "Relevé X Mac du 11/11 11:10:47 UTC, plus récent que le serveur (10:09:48 UTC). Deux sujets ajoutés avec médias HTTP 200 ouverts : compte à rebours J-8 (27 916 vues, plusieurs comptes), annonce cloud corroborée par Xbox Wire (5 091 vues ; durée du partenariat non confirmée). Autres pistes sous le seuil sans second compte : YouFibre, Spotify, Agent ; piscine Loews et DualSense déjà couvertes. Recherche publique Instagram/TikTok/Rockstar effectuée : Instagram 429, TikTok et Newswire sans texte lisible, originaux X Cache miss. Aucune consultation exhaustive revendiquée ; aucun post X ni message à un tiers."
     }
   ],
   "coverage": {
