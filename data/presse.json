@@ -1,6 +1,14 @@
 {
- "maj": "2026-11-11T01:58:45+00:00",
+ "maj": "2026-11-11T02:18:57+00:00",
  "articles": [
+  {
+   "gn": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRmxHanlBZDVuaEgtbFpHekZvaHo5NzZHTGlJc1F2N0E1ODN4YUZadnBZZ0N2OGVncVl5R1Y4M1JLSWx2UVdjZ2RsSTRDZzZCZm5zSU9XelJvS3FKcmVEb1d6MTJlWTlaX0E5MFBTYUh2U3B1bHZRNEpuRThEYlRCSHRLNm1uWlgxQzIxbDFhVlhsRENmTlVndw?oc=5",
+   "s": "INFINITY AREA",
+   "d": "2026-11-11T01:52:00+00:00",
+   "lang": "fr",
+   "t": "GTA 6, les précommandes font tomber deux records historiques",
+   "erreur": "HTTP Error 429: Too Many Requests"
+  },
   {
    "gn": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQOWJxNTlFWnczOWs4ZElidWlCbEl1X0t6blpPYW53Nmdrb2tZYmFLcHVtMG1faG55NHgyVWFzSUpDdURLcldha3BfVXBZcTJ4WWxoVUFTTTN4QUVVM0VrNlZZRE1YSlZPaU5vY1N0VEt2cm14VnVSOTg3bXBHbWJsQzNzOUxVbTF6VThQVjUxRFBnejQyS3c?oc=5",
    "s": "MMOEXP",
@@ -50,16 +58,20 @@
    "pub": "2026-11-10T22:50:09+00:00"
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZlVJeFdaSXhTNVpjRVRzVjlEckJ3NFJHZ0s5S2JRVnlyaEExS3BXbXNPLU00MXBqaXN2MnBsUHRJNzJ0czV0cGxCVER0Z0ZTc2xaWjhfcWJKRFVHYUhzNDdZUVlPZm9BUTA5OU5rNVFNVWg0aFhUVldwbWpUMXVKS2ZSb3FKTF9BaFFJOV9rdi1ibFUzeDBaQU5UVlBMcy1YVGtBazJuN3BGbm1NY0lYM1lXaTNqSWFlZDNlLWJCWUFjVFRHU1VyRThSbFc?oc=5",
+   "s": "IGN Southeast Asia",
+   "d": "2026-11-10T22:30:40+00:00",
+   "lang": "en",
+   "t": "Rockstar Confirms GTA 6 Will Run at 30fps On All Consoles - IGN Daily Fix",
+   "erreur": "429 : passage suivant"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA1NE5DaEgxeENLaFY5dTdidTRlbm1GZVFTRy1nTWRFRXgwWklUWVQ3MmEta1RpbWZrUHFROVh2QlZFblpoMExYcjA3TV82VFlZd3FwdUw0T2VQaENBT3ZtQktyTUkyc05KRkE?oc=5",
    "s": "IGN",
    "d": "2026-11-10T22:20:28+00:00",
    "lang": "en",
-   "t": "GTA 6 Features Exclusive to PS5 - IGN",
-   "u": "https://www.ign.com/shorts/gta-6-features-exclusive-to-ps5",
-   "img": "https://assets-prd.ignimgs.com/2026/11/10/screenshot-2026-11-10-at-2-20-20-pm-1794349221775.png?width=1280&format=jpg&auto=webp&quality=80",
-   "chapeau": "IGN Shorts is a fully native vertical video feed built directly into IGN. Fans can expect rapid-fire news, bite-sized reviews, gameplay tips, and more.",
-   "txt": "",
-   "pub": "2026-11-10T22:20:28.436Z"
+   "t": "GTA 6 Features Exclusive to PS5",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNnpZV0FBMzRhd2F6MDRQZXRQMlFodUk0QTRZRlAwUWtfTU1JbFpZYlUycmJmLTloa2hLVlRqOGR5amUySkt2Q0k4N2lVcld2S3A5NjRPR3dveWc2SlJPcE04YVV6M2oyMW1vR21IbDc4WHh2T29nNjZ5WlJqdnZpYkFjc1BaNlJMSkYtYzgtZ040UkNyN05GMUV3UQ?oc=5",
@@ -127,7 +139,7 @@
    "d": "2026-11-10T21:20:09+00:00",
    "lang": "fr",
    "t": "Mauvaise surprise pour ceux qui vont acheter GTA 6 en boîte sur PS5 ou Xbox Series : elle ne contient pas la carte du jeu en version papier",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVVhPdE9neEt6em9Fa2FaWWd2UllTNnJyOElXeTdkY3FTMFZOR0RlQm5maWlYV21GU2t1T0s5UFlCRFZONkdHSnZVNHBteFU4TjQxTHBuejRWM05mdWJWSWNHeUpvTVhMRkwySWZIN3loM0ZoZ0xSU1lTaDZ5ejVFQy1YR3lpV1lvTUdSU2U5OU9jUlE?oc=5",
@@ -135,7 +147,7 @@
    "d": "2026-11-10T21:19:05+00:00",
    "lang": "en",
    "t": "GTA 6 Is About to Break Every Record. Millions of Fans Did Its Marketing for Free In the Process",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBRRlM5aVMzelpWRnFhaGpwTGEtS0NRRHVCTTlTdkNEQ0xnOVF2QXRlbmxDMTdDeTNxQWlkb1pKdkhzd0JNR2VacWRJVTVpQkxqUVJKUG9jZ3ctb0hRWVpOS3Z5VkQxeVJmRFVCOHliQ18yUm8?oc=5",
@@ -174,14 +186,6 @@
    "pub": "2026-11-10T20:47:39Z"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNOTBzeFN0bzNIaW14Z2FvaVd0RUdtY0lqYTU2ajhwcnN5TmtPcC03ajJUbjlMOXJmQTdnVWFfd0FHUURReFV1OUJsU1ZsZ1FEMmc3dWduWVZHdjAya0J0dmlBai14SFFXRFp5R2g5aHFkYXZGci1mdU5vQ19PS0ZBRnkwVFE4ak1xOWEzcXZiclcxbHc2X2JyS1gzRzBmTnhvWnVYdVk1bjI3ejhFNnowc2t4SW5DNzQ?oc=5",
-   "s": "GameSpot",
-   "d": "2026-11-10T20:57:21+00:00",
-   "lang": "en",
-   "t": "GTA 6: What Will Review Scores Be? You Can Win A $500 Gift Card For Getting It Right",
-   "erreur": "HTTP Error 403: Forbidden"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9lSGVROUVwbzRkandoNlo1Qmh4cmg4Rk56aDNVcGxOZlRhaTVlSFdRVy03YWotNlhhQ1lVU1ZackxQUFZpWXppaEl3Z3N4MjNEUGs4R0RZRWV2X0R5U0NrRzhFVWZjakFRcm1pQWxwcTg5cTlG?oc=5",
    "s": "Mashable",
    "d": "2026-11-10T20:51:02+00:00",
@@ -199,23 +203,15 @@
    "d": "2026-11-10T20:40:13+00:00",
    "lang": "fr",
    "t": "À lire sur le site Tech&Co : Rockstar pourrait sortir \"GTA 6\" sur PC plus rapidement que prévu, pas pour faire plaisir aux fans, mais pour éviter les portages sauvages rendus possibles par l'IA, par Kesso Diallo - 10/11",
-   "u": "https://www.bfmtv.com/economie/replay-emissions/tech-and-co/video-a-lire-sur-le-site-tech-co-rockstar-pourrait-sortir-gta-6-sur-pc-plus-rapidement-que-prevu-pas-pour-faire-plaisir-aux-fans-mais-pour-eviter-les-portages-sauvages-rendus-possibles-par-l-ia-par-kesso-diallo-10-11_VN-202611100921.html",
-   "img": "https://io-fsly-bfmtv.cdn.nextradiotv.com/LDhvKcn_fYLMzJWZz86aMvpL57I=/0x0:1280x720/1280x0/images/A-lire-sur-le-site-Tech-and-Co-Rockstar-pourrait-sortir-GTA-6-sur-PC-plus-rapidement-que-prevu-pas-pour-faire-plaisir-aux-fans-mais-pour-eviter-les-portages-sauvages-rendus-possibles-par-l-IA-par-Kesso-Diallo-10-11-2381794.jpg",
-   "chapeau": "VIDÉO - Ce mardi 10 novembre, Kesso Diallo, journaliste BFM Tech, s'est penchée sur la possible sortie anticipée de “GTA 6” sur PC par Rockstar, non pour satisfaire les fans, mais pour éviter les portages sauvages permis par l’IA. Cette chronique est à voir ou écouter du lundi au jeudi dans Tech&Co, la...",
-   "txt": "",
-   "pub": ""
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9JSlFWYk50MlJYUDVDSF9YYTkzVGFCazY1ZVBTZXZoQ3hBc2E4dnZobXZ1YUhZcC1VMGZiYTZNamlTY3FpYUdvSUJkRnRWdnVMNjVWYUM0U1lOQjZyalN2cWswYzZaaHEySEE?oc=5",
    "s": "JVFrance",
    "d": "2026-11-10T20:35:56+00:00",
    "lang": "fr",
-   "t": "GTA 6 : 30 FPS confirmés, le PSSR sera disponible dès la sortie sur PS5 Pro - JVFrance",
-   "u": "https://www.jvfrance.com/gta-6-30-fps-pssr-ps5-pro-285815/",
-   "img": "https://www.jvfrance.com/wp-content/uploads/2023/12/gta-v-hd-1920x1080-1.jpg",
-   "chapeau": "Rockstar Games a confirmé les 30 images par seconde pour GTA VI, mais également le support du PSSR sur PS5 Pro pour la sortie.",
-   "txt": "",
-   "pub": "2026-11-10T15:44:45+00:00"
+   "t": "GTA 6 : 30 FPS confirmés, le PSSR sera disponible dès la sortie sur PS5 Pro",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVmlSTlFmQ09GaUNvbXYyOWVVYmozeVRYMGRXclc3bEVidkhKME91bUpDaDFzX3FfZ0lZSDJDc3lKUFpWZzdHS054M3UyT0QyZHhGWVBhb0lETFNUb0UtNnlndU4xNnNnc2xzQ093RHdNbDlCLWlKSUdWeF9WdDFBZ3dsZW5pTXM1NjI4SHowSXFCT0JQYW9DRXRHdVhWZ1ZhLTA1a2poRkNrVVFLYTlwMlJuU1l3Wm1i?oc=5",
@@ -259,7 +255,7 @@
    "d": "2026-11-10T19:07:47+00:00",
    "lang": "fr",
    "t": "GTA 6 : jusqu’à 30 images par seconde sur PS5 et Xbox, pas 60",
-   "erreur": "HTTP Error 307: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error messag"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE82NXpwLXZsWUdtYW1hLThEell3eG9JcU5aUDVDcmFucXl2TXVTMHpkMVdaZUhoMUlBLXo2MVRxc1BWRnk3aXRzMjN3M25WYnZ0THRGUG9XYWw3ZHI5UEVjWEEtdw?oc=5",
@@ -267,7 +263,7 @@
    "d": "2026-11-10T18:29:46+00:00",
    "lang": "fr",
    "t": "PS5 Slim, Digital ou Pro : laquelle est faite pour vous ?",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcDF2UU9pVmhrYmRjMlBWOF9GcjRsNW9EUVVmTk01RDVLZGVqTHJrTW5GQ1BkakxHenBhYXNKbGtHS21mMnh3OU5sZHpfTHhvTjBSM0FhSV9rMlNRb0ZrdjZkaks5clhvdEFXNVBLOFR1MFYwMXZGaUw1aHRTN2xvc2hZeFY?oc=5",
@@ -286,12 +282,8 @@
    "s": "Mac4Ever",
    "d": "2026-11-10T18:10:00+00:00",
    "lang": "fr",
-   "t": "GTA 6 : le préchargement ouvre deux jours en avance sur PS5 et Xbox Series",
-   "u": "https://www.mac4ever.com/gaming/198965-gta-6-le-prechargement-ouvre-deux-jours-en-avance-sur-ps5-et-xbox-series",
-   "img": "https://img-api.mac4ever.com/1200/0/d6d4097fc1_gta-6-n-est-pas-un-jeu-aaa-mais-un-jeu-aaaaa-selon-un-veteran-de-l-industrie.webp",
-   "chapeau": "Rockstar a ouvert le préchargement de GTA 6 avec deux jours d'avance sur son propre calendrier. Les joueurs PS5 et Xbox Series qui ont déjà acheté le…",
-   "txt": "",
-   "pub": "2026-11-10T19:10:00+01:00"
+   "t": "GTA 6 : le préchargement ouvre deux jours en avance sur PS5 et Xbox Series",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4weFJncnNTUWpsbTRNSzFtRmEyY3k0NV9vckVCV1hOY3JWZC1Sc3FyY3ZlT04yR3NTQ1RNb0U3WnE2UVNuV2hwcVItcWhVSFh1ZnJlRS1RbDlvVkh6SFNmS0kxbjA4QmZlQWVHag?oc=5",
@@ -328,18 +320,6 @@
    "chapeau": "Sorti deux semaines avant GTA 6, le remake de Zelda Ocarina of Time profite d'un timing idéal pour séduire les joueurs sur Switch 2.",
    "txt": "Il aurait pu se retrouver complètement écrasé par l’arrivée imminente de GTA VI. Pourtant, le remake de The Legend of Zelda: Ocarina of Time, disponible depuis le 5 novembre sur Nintendo Switch 2, profite d’un calendrier finalement idéal. Deux semaines pour faire parler de lui, renouer avec la nostalgie et offrir une parenthèse bienvenue avant le raz-de-marée Rockstar.\n©Nintendo Sur le papier, sortir un jeu aussi attendu à seulement quatorze jours de GTA VI ressemblait à un pari plutôt risqué. Le mastodonte de Rockstar débarquera le 19 novembre et risque naturellement d’accaparer une bonne partie de l’attention médiatique et des joueurs. Beaucoup d’éditeurs ont ainsi évité de lancer leurs jeux en novembre… Mais avec le remake de Zelda: Ocarina of Time et son lancement ce 5 novembre, Nintendo a finalement réalisé un très (très) joli coup.\nCar entre le 5 et le 19 novembre, Ocarina of Time dispose d’une fenêtre particulièrement confortable. Après un mois de septembre et un mois d’octobre particulièrement chargés en sorties, le calendrier se montre beaucoup plus respirable. Pas de concurrent majeur venant lui voler la vedette. Link peut profiter de ses deux semaines de lumière avant que Jason et Lucia ne prennent le relais.\n©THM Magazine L’autre bonne idée, c’est peut-être justement le jeu lui-même. Zelda: Ocarina of Time n’est pas un immense monde ouvert dans lequel on peut engloutir des dizaines et des dizaines d’heures. Comptez une vingtaine d’heures pour venir à bout de l’aventure principale, et un peu plus si vous souhaitez explorer Hyrule et dénicher ses secrets.\nC’est une durée particulièrement appréciable déjà à la base, mais aussi qui plus est à l’approche d’un GTA 6 qui promet, lui, un terrain de jeu gigantesque. On peut retrouver Link, avancer à son rythme, profiter de ses donjons et retrouver quelques souvenirs enfouis, sans pour autant avoir à s’engager dans un nouveau marathon vidéoludique chronophage. En attendant GTA 6 finalement.\n©THM Magazine Et puis, il y a cette dimension feel good. Les mélodies, les personnages, les paysages, les petites habitudes de l’aventure… Ocarina of Time procure un sentiment de familiarité et de bien-être particulièrement agréable en cette période de l’année. Une parenthèse presque réconfortante avant le tumulte de GTA VI (qui semble causer une « pénurie » de PS5) .\nCertes, aussi réussi soit-il, Zelda: Ocarina of Time ne cherche pas à rivaliser avec les productions les plus réalistes du moment. Son univers reste celui d’un conte, avec ses codes, ses personnages et sa magie. Mais quelle authenticité !\nSur Nintendo Switch 2, le travail accompli impressionne… qui plus est « pour du Nintendo « . Il y a quelques mois, le remake de Starfox permettait lui aussi de profiter d’un habillage graphique très réussi. Les environnements ont gagné en détails, les animations et les éclairages donnent une toute nouvelle dimension à Hyrule, tandis que la bande-son sublime des mélodies que beaucoup connaissent par cœur.\nEt c’est précisément ce que nous apprécions dans ce remake. Nintendo n’a pas cherché pas à transformer Ocarina of Time en un autre jeu. Il vient sublimer l’œuvre originale (comme Resident Evil en son temps sur GameCube et d’autres remakes par la suite), avec un nouvel habillage graphique très réussi, tout en conservant son âme et sa structure. Les vétérans peuvent renouer avec leurs souvenirs, tandis que les nouveaux joueurs découvrent l’un des plus grands classiques du jeu vidéo dans des conditions particulièrement confortables.\nFinalement, Ocarina of Time n’a peut-être jamais eu besoin d’éviter GTA VI, et il lui aura fallu quelques jours seulement pour rappeler au plus grand nombre pourquoi les plus grandes aventures traversent les générations.",
    "pub": "2026-11-10T17:37:47+00:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOX1dSUXRIMVJGUlFsdGVsb2NtV2JfYTMtWk9zOEpmdVBLaE15V1NNWUxTMEY1YTFoR1lKZm1FakVVREZmWkowSnFRWms2dTE0b2tXeHhGRXdsNWxXelpZTmNVZ1Q4ZVdCcnEzOFVwQjJadHRSWFVwQlhiTjBsM1NxWVhFZUZsT3B4QVdGdlNveEpmclM1R1lRekpILVRVMXA5bFlGLWRWSnhaYnc3bzJYcDZqQ3NvdGZ0b2ExQTM2SFowbUZtSFJLRTdB?oc=5",
-   "s": "La Crème Du Gaming",
-   "d": "2026-11-10T17:30:14+00:00",
-   "lang": "fr",
-   "t": "GTA 6 pourrait être injouable pour des millions de joueurs dès sa sortie",
-   "u": "https://www.lacremedugaming.fr/jeux/gta/gta-6/gta-6-pourrait-etre-injouable-pour-des-millions-de-joueurs-des-sa-sortie-234203.html",
-   "img": "https://sf.lacremedugaming.fr/wp-content/uploads/creme-gaming/2026/11/gta-6-pourrait-etre-injouable-pour-des-millions-de-joueurs-des-sa-sortie-1200x660.webp",
-   "chapeau": "Avec ses 212 à 225 Go, GTA 6 s’annonce comme un monstre qui peut saturer PS5 et Xbox Series le 19 novembre 2026. Entre stockage limite et connexions fragiles, combien de joueurs français risquent un lancement tout simplement injouable ?",
-   "txt": "Avec ses 212 à 225 Go, GTA 6 s’annonce comme un monstre qui peut saturer PS5 et Xbox Series le 19 novembre 2026. Entre stockage limite et connexions fragiles, combien de joueurs français risquent un lancement tout simplement injouable ?\nLe 19 novembre 2026, le monde entier doit enfin lancer GTA 6 sur console. Mais pour une partie des joueurs, le nouveau mastodonte de Rockstar Games risque d’être tout simplement injouable dès sa sortie, non pas à cause d’un bug, mais à cause de la taille délirante du fichier.\nEntre un poids qui grimpe à plus de 200 Go , des éditions physiques limitées à un simple code de téléchargement et un préchargement déjà ouvert, la question n’est plus « quand » vous jouerez, mais « si » votre console et votre connexion vont suivre. Et pendant que les data miners repèrent même un mini-fichier censuré en Australie et en Nouvelle-Zélande , le vrai danger pour les joueurs français se trouve surtout dans leur SSD.\nSur PlayStation 5 , Rockstar Games annonce un fichier qui peut monter « jusqu’à 212 Go » en préchargement, selon le PlayStation Store . Côté Xbox Series X et Xbox Series S , les listings du Microsoft Store affichent un paquet autour de 225,3 Go, ce qui place Grand Theft Auto VI parmi les jeux les plus lourds de la génération.\nProblème, les éditions dites physiques se contentent d’un code dans la boîte : aucun disque pour soulager votre connexion. Les Blu-ray Ultra HD plafonnent à environ 100 Go, loin des 212 à 225 Go nécessaires. Résultat, même les joueurs qui achèteront leur boîtier en magasin devront télécharger l’intégralité du jeu, puis probablement un patch day one supplémentaire.\nUne PS5 standard offre environ 660 à 670 Go réellement utilisables. Avec un GTA 6 à 212 Go, un seul titre vient occuper près d’un tiers du SSD interne. Sur une Xbox Series S 512 Go , l’espace disponible tourne autour de 360 à 380 Go : un paquet de 225 Go représente plus de 60 % de la capacité, sans compter les mises à jour.\nSi votre console est déjà blindée de gros AAA comme Call of Duty ou Red Dead Redemption 2 , le préchargement du 10 novembre risque tout simplement de refuser de se lancer. Et comme les jeux next gen doivent être installés sur le SSD interne ou une extension officielle en SSD NVMe , un simple disque dur USB ne sauvera pas GTA 6 , il servira seulement à exiler vos autres jeux.\nPremier réflexe à adopter maintenant : vérifier l’espace libre et viser au minimum 230 à 250 Go disponibles avant de lancer le préchargement. Désinstallez les jeux terminés, déplacez les moins joués sur un support externe et pensez à nettoyer captures et vidéos, souvent très gourmandes.\nDeuxième point critique, votre connexion. Télécharger plus de 200 Go en ADSL à 8 ou 10 Mb/s peut prendre plusieurs dizaines d’heures effectives ; sur un forfait 4G avec fair-use, un seul téléchargement peut exploser votre quota mensuel. L’idéal sera de lancer le préchargement dès son ouverture, la nuit, en laissant la console en mode repos.\nEn parallèle, les data miners ont déjà remarqué un détail intrigant : dans les métadonnées PlayGo de la version PS5 en Australie et en Nouvelle-Zélande , un « chunk » de la catégorie core, d’à peine 704 Ko, manque à l’appel, probablement pour respecter les règles locales sur la représentation de la drogue. Un fichier microscopique dans un jeu qui dépasse les 200 Go, qui ne changera rien à la jouabilité, alors que quelques gigaoctets manquants sur votre SSD, eux, peuvent vous empêcher de lancer GTA 6 le 19 novembre.",
-   "pub": "2026-11-10T17:30:14+00:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdlRJVlQzWlFmUE84X3RxXy1lZ01UTjM0OVVWeHdueUdmS1hEUjdGTGMxQmp5Z3RJQ2tVdVBGeHZFSUNuNm0zc09FdXFJT3A4bkJ2VVM3Vl9Sd2hrRzRIaGg4M0hUMzNWSFlTM285dk9wbDhoaWtnVi1WczV3LXhwQmFJR2Q4WC1ZeWVfeVlUTDBqWmxoZ0QtOEduMG92b3VqZDlDWm5XeS1zQ0l6RkpLOFY4WXZHZm92VlRYbzg1QmRiSHVPd0cw?oc=5",
@@ -425,11 +405,7 @@
    "d": "2026-11-10T09:29:00+00:00",
    "lang": "en",
    "t": "CyberLeek Price (CYBERLEEK/USD) Today | Live Price, Market Cap & Chart",
-   "u": "https://www.binance.com/en/price/cyberleek",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -529,7 +505,7 @@
    "d": "2026-11-09T17:49:00+00:00",
    "lang": "en",
    "t": "GTA 6 Multiplayer Surprise Leaked In PlayStation Files Ahead Of Launch",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -616,7 +592,7 @@
    "d": "2026-11-09T11:06:47+00:00",
    "lang": "fr",
    "t": "Nouvelle fuite de données sur GTA 6 — fonctions en ligne, taille exacte et bien plus encore",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -656,6 +632,15 @@
    "chapeau": "Une nouvelle fuite chiffre enfin la taille GTA 6 Xbox vs PS5, avec plus de 200 Go en jeu et un calendrier de préchargement déjà calé. Mais ces données contradictoires cachent peut-être un patch day one et d’autres surprises pour le 19 novembre 2026.",
    "txt": "Une nouvelle fuite chiffre enfin la taille GTA 6 Xbox vs PS5, avec plus de 200 Go en jeu et un calendrier de préchargement déjà calé. Mais ces données contradictoires cachent peut-être un patch day one et d’autres surprises pour le 19 novembre 2026.\nLes joueurs savaient que GTA 6 serait massif, ils commencent à découvrir à quel point. Une nouvelle fuite côté Xbox Series X|S montre que le prochain jeu de Rockstar Games pourrait occuper bien plus de 200 Go sur le SSD, avec une taille de fichier qui ne colle pas tout à fait à celle annoncée sur PS5 .\nEntre les chiffres du Microsoft Store , ceux du PlayStation Store et la note officielle de Rockstar, on voit désormais apparaître plusieurs valeurs différentes pour un même jeu. De quoi alimenter une question qui fâche à l’approche du 19 novembre 2026 : la version Xbox intègre-t-elle déjà un patch day one que la version PS5 ne montre pas encore clairement ?\nLa fuite part de la DisplayCatalog API de Microsoft, mise en lumière par l’utilisateur Cokymoky puis analysée par Notebookcheck. Le build « global » de GTA 6 sur Xbox affiche ainsi 209,86 Gio, soit environ 225,34 Go, tandis que la version japonaise descend à 208,74 Gio, soit 224,07 Go. Le Xbox Store , lui, affiche 209,86 Go, mais il semble en réalité reprendre la valeur en Gio, plus technique.\nCôté PS5 , le compte X PlayStation Game Size a repéré un téléchargement d’environ 210 Go pour l’édition Standard de GTA 6 , chiffre ensuite relayé par Insider Gaming et la presse française. De son côté, Rockstar prévient déjà que le jeu demandera « up to 212 GB of available space, depending on your device ». Autrement dit, l’installation finale pourrait légèrement dépasser les chiffres de préchargement sur les deux consoles.\nPremière subtilité à comprendre : la différence entre Go et Gio. Les interfaces grand public parlent en gigaoctets (Go), alors que les backends comme l’API de Microsoft utilisent souvent les gibioctets (Gio), un calcul légèrement différent. 209,86 Gio se traduisent ainsi par environ 225 Go « marketing » une fois arrondis, d’où l’écart entre les valeurs visibles selon les stores.\nS’ajoute à cela la compression. Notebookcheck rappelle que « because they employ distinct compression methods, Xbox games are often larger than on its rival console ». Résultat : une même version de GTA 6 peut prendre un peu plus de place sur Xbox Series X|S que sur PS5 , même si le contenu est identique. Sur une PS5, avec environ 667 Go réellement utilisables, les 210 à 212 Go du jeu avaleront près d’un tiers du SSD. Sur une Xbox Series S et ses quelque 364 Go libres, GTA 6 pourrait dépasser la moitié de l’espace disponible.\nL’écart entre les 210 Go repérés sur PS5 et les ~225 Go issus de l’API Xbox laisse penser que la build Xbox pourrait déjà intégrer un patch day one. Notebookcheck évoque cette possibilité, tout en rappelant qu’aucune taille précise de mise à jour de lancement n’a été détaillée par Rockstar. Dans le doute, les joueurs ont intérêt à viser au moins 230 à 250 Go d’espace libre au moment du préchargement.\nAutre détail intrigant, la version japonaise un peu plus légère. GTA 6 y hérite du classement CERO Z (18+) , comme GTA 4 et GTA 5 . Or, plusieurs scènes avaient été coupées dans GTA 5 au Japon. La différence de taille entre le build japonais et le build global pourrait donc refléter une nouvelle fois quelques contenus censurés, sans impact pour les joueurs européens.\nEnfin, côté calendrier, les préchargements devraient s’ouvrir autour du 9 novembre au soir sur Xbox et du 10 novembre à minuit local sur PS5, pour une sortie mondiale le 19 novembre 2026 sur PS5 et Xbox Series X|S . Avec plus de 200 Go à télécharger, ceux qui disposent d’une connexion modeste auront tout intérêt à lancer le téléchargement dès que le pré-load sera disponible et à faire un sérieux ménage dans leur bibliothèque avant la date fatidique.",
    "pub": "2026-11-09T05:00:05+00:00",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNN0lxeTNZdEp0U1lCaWtPY2VkU3huTGE5ekhvWDRBNVdMYjFPMmNVNmtiSWJjOUs0NjdxWS1BM1hRbUlDX0x5Q1FYSzFvd1htUGtkVnZMQkRBWVhuRmV1cVVVaFA5RnNPNHEtdUFDWHJLTVRwYm1CT0lkVzh3ZEM0QXhNUFFuaWhLRmlwN0dCSUc5UGxHQUI4S093MWp4emVTVWRscGx3QlliSUU0VTdtM0owQkdqblczUU1KbGptR3Y5elVYV0JJWWgxU0t2MzFDZFdLRjRtNFhoWll5cjlsTw?oc=5",
+   "s": "La Crème Du Gaming",
+   "d": "2026-11-08T19:48:21+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : un DLC officiel gratuit révélé par une fuite pour le plus grand plaisir des joueurs",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -724,19 +709,6 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5vcU53UDNKRktUVThxT2tnU1U0S3BodEdZazh0VTdEbERKNVhTRFVzekxpb0tmQUszR21BcEc3Z3VyNlBYSjl0N2JRbkt0RHg1Nlg1dGNvOFlkMVczSGxGbzNR?oc=5",
-   "s": "JVFrance",
-   "d": "2026-11-07T17:54:12+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : une fuite révèle le contenu de la version boîte, bien plus généreuse que prévu - JVFrance",
-   "u": "https://www.jvfrance.com/gta-6-contenu-boite-285689/",
-   "img": "https://www.jvfrance.com/wp-content/uploads/2026/06/GTA-6-keyart-officiel-3.webp",
-   "chapeau": "A quelques jours de sa sortie dans nos rayons, la version boîte de Grand Theft Auto VI a fuité et il y aura bien un goodies à récupérer",
-   "txt": "",
-   "pub": "2026-11-07T17:50:34+00:00",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1TUXA1V3EzaU93Vlo4NjBOWWVIYjJZc2tXWWRwRnB5YU5kTHB3VG9uSFY2cWVSVFEzMmRzYmxBb0lhWnlmRGlWemJNbGNIaGtURDQ1djcxNm9PVzdyRVczaQ?oc=5",
    "s": "Sportskeeda",
    "d": "2026-11-02T13:38:00+00:00",
@@ -768,11 +740,7 @@
    "d": "2026-10-22T15:12:54+00:00",
    "lang": "en",
    "t": "Cyberleek Shares GTA 6 Leak Of Naked Lucia",
-   "u": "https://www.imdb.com/news/ni66062173/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -846,7 +814,7 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
    "t": "Le token CYBERLEEK chute de 40 % alors que le leaker de GTA 6 lance de nouvelles menaces",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   }
  ]
