@@ -1,8 +1,65 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-12T00:12:00+01:00",
+  "updated_at": "2026-11-12T08:12:00+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-vs-real-life-fan-2026-11-12",
+      "title": "GTA 6 : une comparaison « vs real life » fait le tour de X",
+      "summary": "Le compte @GTAVI_Countdown publie une comparaison entre des images du jeu et la réalité, en affirmant qu'il est presque impossible de voir la différence au premier coup d'œil. C'est une création de fan relayée par un compte communautaire, sans source officielle sur ce point.",
+      "url": "https://x.com/GTAVI_Countdown/status/2120673027558183014",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Création de fan",
+      "published_at": "2026-11-12T00:20:24.000Z",
+      "checked_at": "2026-11-12T08:12:00+01:00",
+      "evidence": "Vues relevées le 2026-11-12 dans data/x_alertes.json : 72032 vues ; 37 replies, 220 reposts, 3380 likes, 417 bookmarks. Un seul compte relevé ; aucune reprise vérifiée.",
+      "visual": "VS RÉEL",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2120672772393148416/img/f9GQ6PlxaXOWPWPZ.jpg",
+      "image_alt": "Vignette vidéo du post de @GTAVI_Countdown comparant GTA 6 et la réalité",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "GTA 6 vs real life. It's nearly impossible to tell the difference at first glance."
+    },
+    {
+      "id": "x-download-30-minutes-fact-2026-11-12",
+      "title": "GTA 6 : combien de temps faudrait-il pour télécharger le jeu le jour de la sortie ?",
+      "summary": "Le compte @GTAVI_Countdown rappelle qu'un téléchargement de 30 minutes sans préchargement aurait exigé une connexion de 1 Gbit/s. Il cite aussi un fournisseur britannique (YouFibre) qui signale une congestion réseau liée aux préchargements. Le calcul est une estimation du compte, à lire comme telle.",
+      "url": "https://x.com/GTAVI_Countdown/status/2120696368494678160",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "2026-11-12T01:53:09.000Z",
+      "checked_at": "2026-11-12T08:12:00+01:00",
+      "evidence": "Vues relevées le 2026-11-12 dans data/x_alertes.json : 45804 vues ; 24 replies, 46 reposts, 1029 likes, 93 bookmarks. Un seul compte relevé ; la mention de YouFibre n'est pas vérifiée dans ce passage.",
+      "visual": "TÉLÉCHARGEMENT",
+      "image": "https://pbs.twimg.com/media/HW45u-EWIAAmVGs?format=jpg&name=360x360",
+      "image_alt": "Vignette du post de @GTAVI_Countdown sur le téléchargement de GTA 6 le jour de la sortie",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Fact: To download GTA 6 in 30 minutes on launch day without pre-loading, you would've needed a 1 Gbps internet."
+    },
+    {
+      "id": "x-barcelona-affiche-vandalisee-2026-11-12",
+      "title": "GTA 6 : une affiche vandalisée lors d'émeutes à Barcelone circule sur X",
+      "summary": "Le compte @GTAVI_Countdown relaie une photo d'une affiche GTA 6 vandalisée pendant des émeutes à Barcelone. La source d'origine est un compte Instagram (@deivid_diazz) ; l'événement n'a pas été vérifié de notre côté.",
+      "url": "https://x.com/GTAVI_Countdown/status/2120717702243246320",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "2026-11-12T03:17:55.000Z",
+      "checked_at": "2026-11-12T08:12:00+01:00",
+      "evidence": "Vues relevées le 2026-11-12 dans data/x_alertes.json : 22537 vues ; 24 replies, 25 reposts, 308 likes, 57 bookmarks. Source citée : Instagram @deivid_diazz.",
+      "visual": "AFFICHE BARCELONE",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2120717440489340928/img/JUgd63vkmqgrMHwG.jpg",
+      "image_alt": "Vignette du post de @GTAVI_Countdown montrant une affiche GTA 6 vandalisée à Barcelone",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "GTA 6 poster vandalized in Barcelona riots. (deivid_diazz/IG)"
+    },
     {
       "id": "x-gtasix-trailer1-vs-gameplay-pnj",
       "title": "GTA 6 : un compte compare le trailer 1 et le nouveau gameplay, la densité de PNJ fait réagir",
@@ -3009,6 +3066,11 @@
       "at": "2026-11-12T00:12:00+01:00",
       "label": "Passage 99 · Trailer 1 vs gameplay (densité PNJ)",
       "summary": "Un sujet ajouté depuis data/x_alertes.json (relevé 23:07 UTC) : comparaison trailer 1 / nouveau gameplay par @gtasix_, 28 054 vues, statut Rumeur (un seul compte). Écartés : Jason et Lucia filmés au téléphone (@gtasix_, 63 599 vues) et « Rockstar sur Instagram » (RockstarNewsFRA 6 291 vues, JVMag_ch 3 822 vues) : même séquence que l'item « séquence téléphone » déjà publié ; Incredible new gameplay footage (@GTAlphaintel, 11 998 vues) sous seuil et un seul compte. Aucun post X ni message à un tiers."
+    },
+    {
+      "at": "2026-11-12T08:12:00+01:00",
+      "label": "Passage 100 · Matière X : vs réel, téléchargement, affiche Barcelone",
+      "summary": "Trois sujets ajoutés depuis data/x_alertes.json (relevé 03:17 UTC) : comparaison « vs real life » (@GTAVI_Countdown, 72 032 vues, création de fan), explication du téléchargement de 30 minutes (45 804 vues, Rapporté), affiche vandalisée à Barcelone (22 537 vues, Instagram @deivid_diazz). Écartés : post gtasix_ « not ready for next Thursday » (123 326 vues, sans image, affirmations non vérifiées) ; « incredible gameplay » GTAlphaintel (22 110 vues, un seul compte, proche du sujet gameplay déjà publié) ; Rockstar 7 jours (18 792 vues, annonce déjà couverte). Aucun post X ni message à un tiers."
     }
   ],
   "coverage": {
