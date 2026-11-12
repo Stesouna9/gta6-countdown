@@ -1,6 +1,6 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-12T08:12:00+01:00",
+  "updated_at": "2026-11-12T10:13:12+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
     {
@@ -3071,6 +3071,11 @@
       "at": "2026-11-12T08:12:00+01:00",
       "label": "Passage 100 · Matière X : vs réel, téléchargement, affiche Barcelone",
       "summary": "Trois sujets ajoutés depuis data/x_alertes.json (relevé 03:17 UTC) : comparaison « vs real life » (@GTAVI_Countdown, 72 032 vues, création de fan), explication du téléchargement de 30 minutes (45 804 vues, Rapporté), affiche vandalisée à Barcelone (22 537 vues, Instagram @deivid_diazz). Écartés : post gtasix_ « not ready for next Thursday » (123 326 vues, sans image, affirmations non vérifiées) ; « incredible gameplay » GTAlphaintel (22 110 vues, un seul compte, proche du sujet gameplay déjà publié) ; Rockstar 7 jours (18 792 vues, annonce déjà couverte). Aucun post X ni message à un tiers."
+    },
+    {
+      "at": "2026-11-12T10:13:12+01:00",
+      "label": "Passage 101 · Matière X : aucun sujet neuf",
+      "summary": "Relevé data/x_alertes.json (maj 09:00 UTC). Sujets ≥ 20 000 vues ou repris par ≥ 2 comptes déjà couverts (vs real life, téléchargement, affiche Barcelone, compte à rebours de huit jours) ou sous le seuil, sans reprise vérifiée (Key Largo 18 720 vues, KitKat 18 118, « en magasin » 3 359 non corroboré par la presse). Rien ajouté."
     }
   ],
   "coverage": {
