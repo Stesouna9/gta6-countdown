@@ -1,8 +1,46 @@
 {
  "title": "Le buzz GTA6",
- "updated_at": "2026-11-12T16:12:51+01:00",
+ "updated_at": "2026-11-12T18:12:42+01:00",
  "schedule": "Veille toutes les 2 h, de 8 h à minuit",
  "items": [
+  {
+   "id": "x-rockstar-une-semaine-precommande-codes-2026-11-12",
+   "title": "GTA 6 : Rockstar annonce « une semaine » avant la sortie",
+   "summary": "Rockstar Games rappelle que GTA 6 n'est plus qu'à une semaine, remercie la communauté et rappelle qu'il est encore temps de précommander et de précharger. Les versions code-in-box sont désormais disponibles en retrait chez les revendeurs du monde entier.",
+   "url": "https://x.com/RockstarGames/status/2120909499200421900",
+   "platform": "X",
+   "author": "@RockstarGames",
+   "status": "Officiel",
+   "published_at": "2026-11-12T16:00:03.000Z",
+   "checked_at": "2026-11-12T18:12:42+01:00",
+   "evidence": "Vues relevées le 2026-11-12 dans data/x_alertes.json : 309788 vues ; 1644 réponses, 4739 reposts, 26443 likes, 1078 marque-pages. Publication officielle du compte Rockstar Games.",
+   "visual": "UNE SEMAINE",
+   "image": "https://pbs.twimg.com/media/HW778ujXgAAqhMe?format=jpg&name=small",
+   "image_alt": "Visuel joint au post officiel de Rockstar Games annonçant GTA 6 à une semaine",
+   "image_credit": "@RockstarGames sur X",
+   "cta": "Voir la publication sur X",
+   "embed_type": "x",
+   "post_text": "Grand Theft Auto VI is now only one week away! There's still time to pre-order and pre-load so you're ready on launch day. Code-in-box versions are also available now for pick-up at retailers worldwide."
+  },
+  {
+   "id": "x-rockstar-see-you-leonida-2026-11-12",
+   "title": "Rockstar : « See you in Leonida next week ! »",
+   "summary": "Rockstar Games publie un court message de remerciement à la communauté : « See you in Leonida next week! », soit une nouvelle formule pour la date de sortie de GTA 6. Le post officiel dépasse 100 000 vues à la vérification ; le message ne donne pas d'heure précise.",
+   "url": "https://x.com/RockstarGames/status/2120909731963527300",
+   "platform": "X",
+   "author": "@RockstarGames",
+   "status": "Officiel",
+   "published_at": "2026-11-12T16:00:59.000Z",
+   "checked_at": "2026-11-12T18:12:42+01:00",
+   "evidence": "Vues relevées le 2026-11-12 dans data/x_alertes.json : 106535 vues ; 459 réponses, 1917 reposts, 11783 likes, 369 marque-pages. Publication officielle du compte Rockstar Games.",
+   "visual": "LEONIDA",
+   "image": "https://gtavifrance.com/assets/img/rockstar/leonida-keys.jpg",
+   "image_alt": "Visuel officiel de Leonida, déjà présent sur le site",
+   "image_credit": "Illustration officielle : Rockstar Games",
+   "cta": "Voir la publication sur X",
+   "embed_type": "x",
+   "post_text": "See you in Leonida next week!"
+  },
   {
    "id": "x-carte-complete-leonida-collector-2026-11-12",
    "title": "GTA 6 : la carte complète de Leonida aurait fuité d'un coffret collector",
@@ -3226,6 +3264,11 @@
    "at": "2026-11-12T16:12:51+01:00",
    "label": "Passage · Matière X : 1 sujet ajouté (seuil 20 000 vues atteint)",
    "summary": "Relevé data/x_alertes.json (maj 15:09 UTC). Ajouté : carte complète de Leonida attribuée au coffret collector (238 616 vues, Rumeur, un seul compte). Image : photo Selfridges du même compte, faute d'image sur ce post. Non retenus : DualSense hands-on (6 219 vues), censure régionale GTAlphaintel (6 359 vues) et anniversaire PlaystationSize (63 vues). Aucun post ni message."
+  },
+  {
+   "at": "2026-11-12T18:12:42+01:00",
+   "label": "Passage · Matière X : 2 sujets ajoutés (Rockstar officiel, > 100 000 vues)",
+   "summary": "Relevé data/x_alertes.json (maj 16:11 UTC). Ajoutés : post officiel Rockstar « une semaine » avant la sortie, code-in-box disponibles (309 788 vues) et post « See you in Leonida next week ! » (106 535 vues). Image du second post absente : visuel Leonida déjà dans le dépôt. Non retenus : gtasix_ à 2 765 vues (sous le seuil), RockstarNewsFRA à 398 vues. Aucun post ni message."
   }
  ],
  "coverage": {
