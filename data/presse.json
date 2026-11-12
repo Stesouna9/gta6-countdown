@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-12T21:39:19+00:00",
+ "maj": "2026-11-12T21:59:32+00:00",
  "articles": [
   {
    "gn": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObFhrZVNtRFoyUTNLSEQxb1FLcHcwRTE0ZVpCeURBWm1kRmFMd09QN2RaVG5TZWZGUHltc1dIdzc4OFdCQzZRMEl0c0d5andoU1pURF8zdlJuWWY5VzBWWGZKeXVVaFByZ0xmSUVpekNOZ1ROWi1jMFdFangxMFE4VGl5ckk?oc=5",
@@ -7,7 +7,15 @@
    "d": "2026-11-12T21:31:00+00:00",
    "lang": "en",
    "t": "GTA 6 Was Almost Banned in Korea Ahead of Launch",
-   "erreur": "<urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)>"
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZ2lHb2FTa0Vra1NKVlFEbVZQb0NvOW5UWEZYb2dtMzNtSUxXSFp0ems1SXdRWGtuV0JnNk1aWlNmRVdOS3FUdlU0V0pmVFJyVkJMenNWb29HM1ZYdG5IQVlRd1hObWsweHgzQXNKQWEzUDlLVHBmUjBSeGRQUkc2b2c3WWo4VTI1aFp3OURyRzk5WVdoSVpxZmRjZDdac2hyUlBpWHJTRVNxQldCWDdVVXF1TEVYUDJ60gHAAUFVX3lxTE1NSHBTR2lWOEdwTDFsUWRLZk9vaUNEaDJkQ2NwdnF1MDEtQnNtU3RCYW9fWXBORE01NVhyUEs5YkVrYnZKd2xscnM4VnhXalp2Zy05S0VsRnJ1dTJJNVNBRHpwaWxjeklhLXlfN2U1MFdDQVdOU3dlbU5QZE5vRVA0QXhTdXlSbm5FcURnYUVET1pBeXNnTmlaclVGb3NVc1RLY3pDWlFqN0w3RUFBbW96MWMxN1N2ZGZpa0FlclNxYQ?oc=5",
+   "s": "NBC 6 South Florida",
+   "d": "2026-11-12T21:30:01+00:00",
+   "lang": "en",
+   "t": "This viral Miami Beach video looks straight out of GTA 6, and it might be",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQZmdfZ3FHV2FuYmVuaXl2UjNJMWlaUlFoWl9wRUdEXzR6RlhZSktOcktRYWg3eDFyRnZETlZ6d0ttNE0tS0czZFBvT2IydV9mWDFZbFFGcXRmQUthNGVLNkY5ajhEbXY3V2JVblNKNGhwQnlPR3JHeXdOWmRNaWd1ZWx6YmRJaE9sY2RoeWhTYWphS19WWjdjOEJaNmlzRktvNERNRlBSUHdsTm92VGJKc1g3N2RhdnlWZm8yMkc2RDVqQ0d3TkJBMnZGSTBiY0V1emVPYkFyZ3BMUTM5dzY5Yl92N05sTENvbnZlemgzWQ?oc=5",
@@ -15,7 +23,7 @@
    "d": "2026-11-12T21:20:07+00:00",
    "lang": "fr",
    "t": "GTA 6 : Non, cette vidéo n'est pas filmée à Miami... à la surprise générale, Rockstar partage ces images frappantes du jeu",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "HTTP Error 429: Too Many Requests"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBzOS1MN2I3dXhYeUt2aUY3ak8wekdxdUJWbk01X1hrdWp5MkVib3lyTzVNazQ3NG41Ui12VmJWdHlxdVhTYjdqX1NXeV83cjg5YWVtYXF2amNFT0FuSmdaQl9BZXpKUdIBa0FVX3lxTE9LNjBpN0UtLUVMY1Z6SHdXMGEwamNWeUdSaWxLN3JpdHVwemo2cjFKbnlOVE5qNkdLZUJVRndUcHYzMFJvSjRHdXFJYnFMSk1tZGJkVmhyblBEOFRqcGJSWTJiUXkwOHVfcko0?oc=5",
@@ -23,11 +31,7 @@
    "d": "2026-11-12T21:10:40+00:00",
    "lang": "en",
    "t": "Rockstar and Vice City take over Miami for GTA 6",
-   "u": "https://www.fox35orlando.com/video/fmc-ngkiiyx9qj31812t",
-   "img": "https://images.foxtv.com/static-media.fox.com/fmcv3/prod/fts/3x2r39w3e7dhewye/1200/630/5pdvm04ujkk0zk55.jpg?ve=1&tl=1",
-   "chapeau": "Tharin White, Lead Publisher with EYNTK.info joins FOX 35's Garrett Wymer live via Zoom to break down the real-life promotions and partnerships between Rockstar Games, Sony PlayStation and restaurants and business in South Florida and the Greater Miami area, dubbing over Vice City to promote the most anticipated video game of all time, Grand Theft Auto VI ahead of its worldwide release on November 19.",
-   "txt": "",
-   "pub": ""
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB5cHR5OGxmMkxOOGItdkppRG1JM2hyZmdpZTNlVi1aNE01XzFkSGJ0dnVMX1hPLTl0eS1yMTZiUk5LcWYyZzRkRnpwaHVJX2paeHh0TS1sNkNsazZ1QVk4NGNQZTRRYTlJVlk0eThLRnZIai1PNGloUURvc3A?oc=5",
@@ -35,7 +39,7 @@
    "d": "2026-11-12T21:10:25+00:00",
    "lang": "en",
    "t": "GTA 6 is Coming To PC!",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9QcmZQU0xzNVFpN1NoUGIxekRicnhXQXMtVEVfbHhpN3c4VmZfRU9yWDdmRzdXdGsya1lDQzV1Szd1a1ZCVlVtMkEwR0VJTzJGT21fbXJYeUszQkJVMGJvdkFxM192Vi1EeGd3Sg?oc=5",
@@ -43,7 +47,7 @@
    "d": "2026-11-12T21:10:25+00:00",
    "lang": "en",
    "t": "GTA 6 Will Be 30 FPS",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUi1kS1FncUNpY290X2lud3YwNXBraENhVHdUdWRTVjhfbi1rb2RQWHVjMVVuQm9tM0RQdTViRUFXaUpuN1l1aDJLRUEybUhPM2dBUndhdUJxRmFjbFZGaHRQNFhLaURrekNCQ25xRUdtSzBhYjA3QXRIdGRvQ3BScGhn?oc=5",
@@ -51,7 +55,7 @@
    "d": "2026-11-12T21:10:25+00:00",
    "lang": "en",
    "t": "Players Can Now Pre-Load GTA 6",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA1RmFTR0VxS3RUWFFHOENGTWQxeUVLZW9nWnJNRF9KMFVkT3YzTnUxa2FEVkdtQ1NtMDhucktOR2VhaXVSZkc5TDFocTNnRnRLZlRVd0ItQ3I1OEVzMnhQYU1yMmgtbndtNWNfR0lpcERUaEZLSHh4LUZn?oc=5",
@@ -83,7 +87,7 @@
    "d": "2026-11-12T21:03:32+00:00",
    "lang": "en",
    "t": "The ‘GTA 6’ Physical Edition Is Missing More Than Just Its Disc",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONHh1RW9zYnNDbHlfZjdhMkZCNW1vODRZZmRuQUJsVFFrU2FYWlhYSURiRDhPTEpBRF9ObHlzRHhURlphOTdvRU5GTzF2YXdZYzZQQUJTMW5nUnFOYWoyVHV2akJ2ejBrek9RZUtFc3N6YVE4Z0RQUXZNX3JaZGs4OGxOY3d2MkgyYmh0MTBWaHRVNFJRd3FSVFdjdEs?oc=5",
@@ -103,7 +107,7 @@
    "d": "2026-11-12T20:51:29+00:00",
    "lang": "en",
    "t": "Running Out of Space for GTA 6? It Could Be Time to Upgrade Your Xbox Storage",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPcUZHOGY4dE8wZ0lHUEc2cFloNWVsTjdibHZnVmdNby1oNXlwM3VuM2tKelc5Sm5BOW45UGJ2bXQxT2pUcG9RTHZjYVhVaU1LajhycUtlTjVmUEF5MUVqcWFhUjVSLVhSZElqNTU1dGstYTRVMXNhT05HeVlHOGF5andveWJieWxkb29YVDJn?oc=5",
@@ -111,7 +115,7 @@
    "d": "2026-11-12T20:41:53+00:00",
    "lang": "fr",
    "t": "Le lancement de GTA 6 prévu le 19 novembre devrait dépasser largement le cadre du jeu vidéo",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVWx6NElrYi1Ka0pJM194cUpNLW1BYnNjX3R1TzE4OVdKdlcxVnQ2cGMtZm41SjNqS1ZjYVUtLW5vVGtrZXVKZWpiNEQ3am9lWFlCdzc5ckNua01ObUppZVJIVUdsVlR2YllFUWVHaUxqakVSaThWcFJodUZSZlFNVEdqenhtbTVBbVk0c0F4SDk?oc=5",
@@ -155,7 +159,7 @@
    "d": "2026-11-12T20:23:02+00:00",
    "lang": "fr",
    "t": "La moins chère est sur E.Leclerc : la manette PS5 édition limitée GTA 6 est-elle en stock ce vendredi 13 novembre ?",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5aeFpjZ1Z2Rm5QMnhNOWJTdXJkN001UVhWMFFXWjU3NjRCM05jcXBCMWdKalJvNm1zU19LNzNVMVVQTHNNOVc4YlRVTzQzTHpISDJzX0p3aDVnel96dEs2Mkg1R1d0SGp4ZVlFQTZYWWU2ZjVTaU9MNU8wX1cwQlE?oc=5",
@@ -175,7 +179,7 @@
    "d": "2026-11-12T20:07:44+00:00",
    "lang": "fr",
    "t": "La carte de GTA 6 arrive gratuite à imprimer, mais pas dans la boîte",
-   "erreur": "Remote end closed connection without response"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiywFBVV95cUxObWg3ZGQybGpiX210cHJBX2J6VlVtSElSVHg4MG1ObXZWT0xEc1diajI4MjNqQzZqMWJGelJjU3BiZzFSTG9WRkRXMHNueXlZRUJDVENMcmhiMGVHOVUxR0NLMWczZVA3T3RCMnlVRnQ0czdQZTRQSGwzUlpaVUtqdWJkT1RJYjZHVURCTUFRd0lKUEM0T1p0cDB0ZXJYdzR6QkJrMS0tdXFMWWlxOFlQMzdJckY5RjVmLS1qMEJKSXBGWmtOWUVYS1NUaw?oc=5",
@@ -183,15 +187,7 @@
    "d": "2026-11-12T20:04:00+00:00",
    "lang": "en",
    "t": "Sony’s new oil-slick GTA VI controller might be its best design yet",
-   "erreur": "HTTP Error 402: Payment Required"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOWmRmbUFTUUUxUGE3RENkS29KLUpMdW5OcEpwdUtIZ05jbjJnSVRubHNnWUNvbHNFbVFPNGxHbzlXemJSSXl4R0JJRTlHV0h3eER1SjVwZmx5dlJYMmhWQ1BYTERDNnZkelpVckNHdmdqajJKcXJzTzVwT0FRVVBsN3RSYUQ4ekhoUnFTRVM3ZXRiSlpybkRtT1huRVk2akNsMHVoQ1JKTzM0a2FOSVZWckNoRl9URnZsdkxiMkxrQ0pSMWlTOUdEdzIxYVVCbUk?oc=5",
-   "s": "York Daily Record",
-   "d": "2026-11-12T20:04:00+00:00",
-   "lang": "en",
-   "t": "Sony’s new oil-slick GTA VI controller might be its best design yet",
-   "erreur": "HTTP Error 402: Payment Required"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdkdWWk5Eb2MyZGswbHFQZW14dlRad3VPY0VKMjNZNjJsT1BMVVlSTkpYemtTWjVvdFpCaTV6Q1NOWkFBLWxwTWdBRVZuZDRlaVIybXNGaHQ5Vk1KWVZfSHpibkVMVWVrQzJ2MXhlcFpnV192RjZORXB2c1RERHBPRi1TaEVXUkFwdzFQQ3hvNWpPVTVYNXAxaHQ3NFFJeC1qQWRFTlFfcTJvUE10YTJGUDZaZU9pQQ?oc=5",
@@ -273,7 +269,7 @@
    "d": "2026-11-12T18:00:02+00:00",
    "lang": "fr",
    "t": "« On a pété tous les scores » : la sortie de GTA 6 bouscule ce Micromania près de Morlaix",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaVJzMWhYRlFFa0NtaDhycURuWTZPbi1lLWFwdE9vS0pveWgydExBUkU5dFhfOVZhLW1NZXNYUThPZ2Zvam5mejEwSXl0REdzT2VGcDhmZWJSY2RYdDZDQkd4Ylk4RjJVdXlyeVZ2UEdheFR2aEVHUFBtVXlsamlQS0ktbHdYVzVWWno2OWlVTW5ESWFhak94Rm03TXI3WGdzNFdmZl9DY1czX3lPS2NqelV3?oc=5",
@@ -306,7 +302,7 @@
    "d": "2026-11-12T17:45:11+00:00",
    "lang": "fr",
    "t": "Zelda aujourd'hui, GTA 6 demain ? Comment l'émulation PC est en train de briser les barrières du gaming",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQUNLRVgzX2RIR3NCb3F5S2kwTk90UmZUb2hMWnR0bllwM2xRR05VS0d4M092dWJIOE9MaXRqZV9iNjZqaFdiTWNJRnlZWW9kcGxoQjg5aG1BbDBIbV9XMnFTOVR4WWFVcC12Um9nTV9GOXRabTFDVjVUdW1VOVpTTlRkZ2dMcWxxQlVpT0JB?oc=5",
@@ -314,7 +310,7 @@
    "d": "2026-11-12T17:42:19+00:00",
    "lang": "fr",
    "t": "GTA 6 à 30 FPS : Rockstar fait un choix qui risque de décevoir",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPd011ejlXcUFTWDRSQ2xSdFpmR3BaNEhCZ2w0azJkWjRHUnV4NXBVOTd0dy1vOE5zcTQzcjAyU2lSTEp5OHpkTWpHM0FnNVF5Y21aZzNyR3NMY0tuZ2Vka2xUMHktVjZmR1ZWMzBLUV94ZHJfSUpxcGNrNkRhdU94eW1zbXpqTDR2Q3BVWE94ZUhfNUJreFFVTDVtRlhkaFJaWG9oVGlWS3dYMVFuZjYtdENB?oc=5",
@@ -360,7 +356,7 @@
    "d": "2026-11-12T17:12:00+00:00",
    "lang": "fr",
    "t": "GTA 6: une carte partielle aurait fuité depuis un pop-up Rockstar x Selfridges",
-   "erreur": "HTTP Error 412: Precondition failed",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -460,7 +456,7 @@
    "d": "2026-11-12T15:17:46+00:00",
    "lang": "fr",
    "t": "Une carte de GTA 6 de l'édition collector a fuité en ligne",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -625,7 +621,7 @@
    "d": "2026-11-09T11:06:47+00:00",
    "lang": "fr",
    "t": "Nouvelle fuite de données sur GTA 6 — fonctions en ligne, taille exacte et bien plus encore",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -686,11 +682,7 @@
    "d": "2026-10-26T04:38:45+00:00",
    "lang": "en",
    "t": "Cyberleek Shares More GTA 6 Footage Featuring Lucia Naked",
-   "u": "https://www.imdb.com/fr/news/ni66063856/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -712,11 +704,7 @@
    "d": "2026-10-22T15:12:54+00:00",
    "lang": "en",
    "t": "Cyberleek Shares GTA 6 Leak Of Naked Lucia",
-   "u": "https://www.imdb.com/news/ni66062173/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -777,7 +765,7 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
    "t": "Le token CYBERLEEK chute de 40 % alors que le leaker de GTA 6 lance de nouvelles menaces",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
