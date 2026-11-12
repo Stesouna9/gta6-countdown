@@ -1,8 +1,67 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-12T12:12:52+01:00",
+  "updated_at": "2026-11-12T14:06:07+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-selfridges-carte-physique-leonida-2026-11-12",
+      "title": "GTA 6 : une carte physique de Leonida repérée chez Selfridges à Manchester",
+      "summary": "@gtasix_ publie une première photo de la carte physique de Leonida, exposée chez Selfridges à Manchester, d'après une image de @GazzaMontana. Le post reste une photo relayée, non confirmée par Rockstar ; l'article du site détaille le lieu et l'exposition.",
+      "url": "https://x.com/gtasix_/status/2120844751637234116",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rapporté",
+      "published_at": "2026-11-12T11:42:46.000Z",
+      "checked_at": "2026-11-12T14:06:07+01:00",
+      "evidence": "Vues relevées le 2026-11-12 dans data/x_alertes.json : 105277 vues ; 30 replies, 95 reposts, 2842 likes, 218 bookmarks. Photo relayée (via @GazzaMontana), sans source officielle relevée.",
+      "visual": "CARTE LEONIDA",
+      "image": "https://pbs.twimg.com/media/HW7BDkIWUAASJCD?format=jpg&name=360x360",
+      "image_alt": "Photo de la carte physique de Leonida publiée par @gtasix_ sur X",
+      "image_credit": "@gtasix_ sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "First look at GTA 6's physical map of Leonida, spotted at Selfridges in Manchester. (Via: @GazzaMontana)",
+      "article": "journal/2026-11-12-carte-papier-leonida-selfridges-gta6.html"
+    },
+    {
+      "id": "x-coree-classification-leonida-nudite-2026-11-12",
+      "title": "GTA 6 : la classification sud-coréenne évoque une carte très vaste et plus de nudité",
+      "summary": "@gtasix_ rapporte, à partir de documents de classification sud-coréens, que Leonida est si vaste que les évaluateurs ont dû demander plusieurs fois des cartes à Rockstar, et que le jeu contient nettement plus de nudité masculine. Ce sont des détails relayés d'un document public, non une annonce de Rockstar ; un média spécialisé reprend le sujet de la nudité.",
+      "url": "https://x.com/gtasix_/status/2120831990362444106",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rapporté",
+      "published_at": "2026-11-12T10:52:04.000Z",
+      "checked_at": "2026-11-12T14:06:07+01:00",
+      "evidence": "Vues relevées le 2026-11-12 dans data/x_alertes.json : 420715 vues ; 69 replies, 185 reposts, 4704 likes, 1094 bookmarks. Corroboration presse : Insider Gaming, 2026-11-12 12:35 UTC (titre « GTA 6 Has 'Far Too Much Genital Exposure,' According To South Korean Regulators »).",
+      "visual": "CLASSIFICATION CORÉE",
+      "image": "https://pbs.twimg.com/media/HW61ctAWYAAdwlm?format=jpg&name=small",
+      "image_alt": "Image du post de @gtasix_ sur la classification sud-coréenne de GTA 6",
+      "image_credit": "@gtasix_ sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "NEW GTA 6 details have been revealed through South Korea's official age-rating review documents: Leonida is so massive that reviewers had to request maps from Rockstar multiple times...",
+      "article": "journal/2026-11-12-coree-du-sud-classification-refus-gta6.html"
+    },
+    {
+      "id": "x-lieux-southwind-pelican-lummox-2026-11-12",
+      "title": "GTA 6 : Southwind, Pelican Valley et Lummox County cités comme nouveaux lieux",
+      "summary": "@gtasix_ affirme que trois nouveaux lieux de GTA 6 ont été révélés : Southwind à Goose Key, Pelican Valley à Grassrivers et Lummox County dans le nord de Leonida. Un seul compte relaie cette liste, sans source officielle ni reprise relevée : à traiter comme une rumeur.",
+      "url": "https://x.com/gtasix_/status/2120848270587314289",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rumeur",
+      "published_at": "2026-11-12T11:56:45.000Z",
+      "checked_at": "2026-11-12T14:06:07+01:00",
+      "evidence": "Vues relevées le 2026-11-12 dans data/x_alertes.json : 28937 vues ; 13 replies, 64 reposts, 1303 likes, 81 bookmarks. Pas de reprise vérifiée par un autre compte relevé.",
+      "visual": "NOUVEAUX LIEUX",
+      "image": "https://pbs.twimg.com/media/HW7EQioXAAAEEqM?format=jpg&name=360x360",
+      "image_alt": "Image du post de @gtasix_ listant les nouveaux lieux de GTA 6",
+      "image_credit": "@gtasix_ sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "New GTA 6 locations revealed: Southwind in Goose Key, Pelican Valley in Grassrivers, Lummox County in Northern Leonida"
+    },
     {
       "id": "x-key-largo-rusty-anchor-gta6-2026-11-12",
       "title": "GTA 6 : le Caribbean Club de Key Largo transformé en « The Rusty Anchor »",
@@ -3138,6 +3197,11 @@
       "at": "2026-11-12T12:12:52+01:00",
       "label": "Passage · Matière X : 3 sujets ajoutés (seuil 20 000 vues atteint)",
       "summary": "Relevé data/x_alertes.json (maj 11:03 UTC). Ajoutés : Key Largo (24 036 vues), KitKat (21 045 vues), annonce possible ce jeudi (103 753 vues, Rumeur). Sans reprise vérifiée par presse ; aucun post ni message."
+    },
+    {
+      "at": "2026-11-12T14:06:07+01:00",
+      "label": "Passage · Matière X : 3 sujets ajoutés (seuil 20 000 vues atteint)",
+      "summary": "Relevé data/x_alertes.json (maj 13:06 UTC). Ajoutés : classification sud-coréenne (420 715 vues, reprise Insider Gaming), carte physique Selfridges (105 277 vues, Rapporté), trois lieux (28 937 vues, Rumeur). Non retenu : J-7 (43 224 vues, pas d'information nouvelle). Aucun post ni message."
     }
   ],
   "coverage": {
