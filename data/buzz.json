@@ -1,8 +1,63 @@
 {
  "title": "Le buzz GTA6",
- "updated_at": "2026-11-12T22:13:00+01:00",
+ "updated_at": "2026-11-13T00:12:00+01:00",
  "schedule": "Veille toutes les 2 h, de 8 h à minuit",
  "items": [
+  {
+   "id": "x-playstation-ps5-une-semaine-precommande-2026-11-12",
+   "title": "GTA 6 : PlayStation annonce une sortie sur PS5 dans une semaine, précommandes ouvertes",
+   "summary": "Le compte officiel PlayStation annonce que GTA 6 sort sur PS5 dans une semaine et renvoie vers les précommandes. Le post reprend le message de Rockstar publié le même jour.",
+   "url": "https://x.com/PlayStation/status/2121007630923505823",
+   "platform": "X",
+   "author": "@PlayStation",
+   "status": "Officiel",
+   "published_at": "2026-11-12T22:30:00.000Z",
+   "checked_at": "2026-11-13T00:12:00+01:00",
+   "evidence": "Vues relevées le 2026-11-12 dans data/x_alertes.json : 118 383 vues ; 149 réponses, 468 reposts, 4 036 likes, 168 marque-pages. Publication officielle du compte PlayStation.",
+   "visual": "PS5 UNE SEMAINE",
+   "image": "https://pbs.twimg.com/media/HW8vlxbX0AEf_qs.jpg",
+   "image_alt": "Visuel joint au post officiel de PlayStation annonçant la sortie de GTA 6 sur PS5 dans une semaine",
+   "image_credit": "@PlayStation sur X",
+   "embed_type": "x",
+   "cta": "Voir la publication sur X",
+   "post_text": "Grand Theft Auto VI launches on PS5 in one week. Pre-orders available now."
+  },
+  {
+   "id": "x-listening-parties-album-18-novembre-2026-11-12",
+   "title": "GTA 6 : des listening parties pour l’album le 18 novembre, dont une à la Fnac de Paris",
+   "summary": "@gtasix_ annonce un site dédié à l’album GTA 6 : une carte mondiale des listening parties du 18 novembre, avec accès anticipé à l’album, concours et précommande d’un vinyle rose et bleu. @RockstarNewsFRA cite la Fnac de Paris pour la France et renvoie vers le même site. Informations à vérifier sur le site officiel.",
+   "url": "https://x.com/gtasix_/status/2120997600371314919",
+   "platform": "X",
+   "author": "@gtasix_",
+   "status": "Rapporté",
+   "published_at": "2026-11-12T21:50:08.000Z",
+   "checked_at": "2026-11-13T00:12:00+01:00",
+   "evidence": "Vues relevées le 2026-11-12 dans data/x_alertes.json : 29 495 vues pour @gtasix_ (835 likes, 54 reposts, 106 marque-pages). Corroboré par @RockstarNewsFRA (704 vues, lien listeningevents.gtavi-thealbum.com), compte non vérifié comme officiel.",
+   "visual": "ALBUM 18 NOV",
+   "image": "https://pbs.twimg.com/media/HW9LeqjXgAARWfq?format=jpg&name=small",
+   "image_alt": "Visuel joint au post de @gtasix_ sur les listening parties de l’album GTA 6",
+   "image_credit": "@gtasix_ sur X",
+   "embed_type": "x",
+   "cta": "Voir la publication sur X"
+  },
+  {
+   "id": "x-sensor-tower-11-millions-precommandes-2026-11-12",
+   "title": "GTA 6 : 11,27 millions de précommandes estimées, selon Sensor Tower relayé sur X",
+   "summary": "@gtasix_ relaie une estimation de Sensor Tower : près d’un million de précommandes en 24 h, environ 11,27 millions au total, soit 1,09 milliard de dollars de chiffre d’affaires estimé. Mise à jour de l’estimation de dix millions qui circulait le 11 novembre. Chiffre non confirmé par Take-Two.",
+   "url": "https://x.com/gtasix_/status/2120987208790540454",
+   "platform": "X",
+   "author": "@gtasix_",
+   "status": "Rumeur",
+   "published_at": "2026-11-12T21:08:51.000Z",
+   "checked_at": "2026-11-13T00:12:00+01:00",
+   "evidence": "Vues relevées le 2026-11-12 dans data/x_alertes.json : 41 721 vues pour @gtasix_ (3 312 likes, 173 reposts, 117 marque-pages). Un seul compte relevé dans x_alertes.json ; source attribuée à Sensor Tower, non vérifiée.",
+   "visual": "11 MILLIONS",
+   "image": "https://pbs.twimg.com/media/HW9CnvXXQAASd8D?format=jpg&name=360x360",
+   "image_alt": "Post de @gtasix_ annonçant une estimation de 11,27 millions de précommandes de GTA 6",
+   "image_credit": "@gtasix_ sur X",
+   "embed_type": "x",
+   "cta": "Voir la publication sur X"
+  },
   {
    "id": "x-gaming-world-midnight-launch-miami-2026-11-12",
    "title": "GTA 6 : un lancement de minuit à Miami le 18 novembre, annoncé sur X",
@@ -3316,6 +3371,11 @@
    "at": "2026-11-12T22:13:00+01:00",
    "label": "Passage · Matière X : 1 sujet ajouté (Midnight Launch à Miami, 27 750 vues)",
    "summary": "Relevé data/x_alertes.json (maj 20:17 UTC). Ajouté : annonce d’un lancement de minuit de GTA VI à Miami le 18 novembre, relayée par @GTAVI_Countdown (27 750 vues, un seul compte, statut Rumeur). Non retenus : @gtasix_ à 32 387 vues mais simple opinion sans information nouvelle ; @GTAlphaintel (Pocketpair, 5 459 vues) sous le seuil et un seul compte ; concours de @gta6hubfr, non informatif ; reste déjà présent dans items."
+  },
+  {
+   "at": "2026-11-13T00:12:00+01:00",
+   "label": "Passage · Matière X : 3 sujets ajoutés (PlayStation une semaine, listening parties, 11,27 M précommandes)",
+   "summary": "Relevé data/x_alertes.json (maj 2026-11-12 20:24 UTC). Ajoutés : post officiel PlayStation (118 383 vues, Officiel) ; listening parties de l’album le 18 novembre, relayées par @gtasix_ (29 495 vues, Rapporté, corroboré par @RockstarNewsFRA) ; estimation Sensor Tower de 11,27 M de précommandes (@gtasix_, 41 721 vues, Rumeur, un seul compte). Non retenus : artworks compilés par @GTAVI_Countdown (78 966 vues, déjà couverts par la veille artworks) ; concours @gta6hubfr (sans information sur le jeu) ; YouTube Launch Day (8 860 vues, sous le seuil)."
   }
  ],
  "coverage": {
