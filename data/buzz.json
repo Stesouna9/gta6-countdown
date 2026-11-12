@@ -1,8 +1,26 @@
 {
  "title": "Le buzz GTA6",
- "updated_at": "2026-11-12T20:12:48+01:00",
+ "updated_at": "2026-11-12T22:13:00+01:00",
  "schedule": "Veille toutes les 2 h, de 8 h à minuit",
  "items": [
+  {
+   "id": "x-gaming-world-midnight-launch-miami-2026-11-12",
+   "title": "GTA 6 : un lancement de minuit à Miami le 18 novembre, annoncé sur X",
+   "summary": "Le compte @GTAVI_Countdown annonce un événement gratuit « Midnight Launch » à Miami (Grails, le 18 novembre) : reconstitution de la soirée de sortie, postes de jeu, apparitions de créateurs, objets exclusifs et codes de jeu. L’affiche du post indique bien le 18 novembre, de 17 h à 1 h, à Miami. Un seul compte le relaie : l’organisation n’a pas été vérifiée sur le site de Gaming World.",
+   "url": "https://x.com/GTAVI_Countdown/status/2120943994381504942",
+   "platform": "X",
+   "author": "@GTAVI_Countdown",
+   "status": "Rumeur",
+   "published_at": "2026-11-12T18:17:08.000Z",
+   "checked_at": "2026-11-12T22:13:00+01:00",
+   "evidence": "Vues relevées le 2026-11-12 dans data/x_alertes.json : 27 750 vues pour @GTAVI_Countdown (672 likes, 49 reposts, 71 bookmarks). Aucun autre compte relevé dans x_alertes.json. Post X non ouvert (accès direct absent) ; l’affiche jointe au post, téléchargée HTTP 200 et ouverte pour contrôle, porte la mention « November 18 at 5PM-1AM, Miami, FL | Grails ».",
+   "visual": "MIDNIGHT MIAMI",
+   "image": "https://pbs.twimg.com/media/HW8bBOPXsAAnw0M?format=jpg&name=360x360",
+   "image_alt": "Affiche « Midnight Launch » avec le logo GTA VI sur fond de palmiers : 18 novembre, 17 h à 1 h, Miami, FL, Grails",
+   "image_credit": "@GTAVI_Countdown sur X",
+   "embed_type": "x",
+   "cta": "Ouvrir la publication sur X"
+  },
   {
    "id": "x-only-in-dade-nouvelle-video-ville-2026-11-12",
    "title": "GTA 6 : une nouvelle vidéo « Only in Dade » de voitures en ville circule sur X",
@@ -3293,6 +3311,11 @@
    "at": "2026-11-12T20:12:48+01:00",
    "label": "Passage · Matière X : 1 sujet ajouté (nouvelle vidéo Only in Dade, 2 comptes)",
    "summary": "Relevé data/x_alertes.json (maj 18:14 UTC). Ajouté : nouvelle vidéo #ONLYinViceCity relayée par @gta6hubfr (3 193 vues) et @GTAlphaintel (7 270 vues). Non retenus : Popeyes « Spice City » à 9 140 vues mais un seul compte et aucune corroboration de presse trouvée dans data/presse.json ; @martx_tv (LCI, images collector) de 36 à 114 vues, sous le seuil. Aucun post ni message."
+  },
+  {
+   "at": "2026-11-12T22:13:00+01:00",
+   "label": "Passage · Matière X : 1 sujet ajouté (Midnight Launch à Miami, 27 750 vues)",
+   "summary": "Relevé data/x_alertes.json (maj 20:17 UTC). Ajouté : annonce d’un lancement de minuit de GTA VI à Miami le 18 novembre, relayée par @GTAVI_Countdown (27 750 vues, un seul compte, statut Rumeur). Non retenus : @gtasix_ à 32 387 vues mais simple opinion sans information nouvelle ; @GTAlphaintel (Pocketpair, 5 459 vues) sous le seuil et un seul compte ; concours de @gta6hubfr, non informatif ; reste déjà présent dans items."
   }
  ],
  "coverage": {
