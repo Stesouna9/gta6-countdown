@@ -1,8 +1,27 @@
 {
  "title": "Le buzz GTA6",
- "updated_at": "2026-11-12T18:12:42+01:00",
+ "updated_at": "2026-11-12T20:12:48+01:00",
  "schedule": "Veille toutes les 2 h, de 8 h à minuit",
  "items": [
+  {
+   "id": "x-only-in-dade-nouvelle-video-ville-2026-11-12",
+   "title": "GTA 6 : une nouvelle vidéo « Only in Dade » de voitures en ville circule sur X",
+   "summary": "Le compte @gta6hubfr publie une nouvelle vidéo #ONLYinViceCity, reprise de la série du compte Only In Dade : un défilé de voitures dans une ville, rendu qui ressemble à une vidéo filmée au téléphone. @GTAlphaintel la relaie aussi en la rattachant à @ONLYinDADE. Si la séquence est bien du GTA VI en jeu, elle n'est pas vérifiée : aucune source officielle n'a été ouverte.",
+   "url": "https://x.com/gta6hubfr/status/2120921743422320957",
+   "platform": "X",
+   "author": "@gta6hubfr",
+   "status": "Rapporté",
+   "published_at": "2026-11-12T16:48:43.000Z",
+   "checked_at": "2026-11-12T20:12:00+01:00",
+   "evidence": "Vues relevées le 2026-11-12 dans data/x_alertes.json : 3 193 vues pour @gta6hubfr (81 likes, 7 bookmarks). Repris par @GTAlphaintel (7 270 vues, https://x.com/GTAlphaintel/status/2120925518652674178, « Another ultra-realistic GTA VI footage has dropped (via @ONLYinDADE) »). Post original Instagram et X non ouverts (accès direct absent). Image du post téléchargée HTTP 200 et ouverte pour contrôle.",
+   "visual": "NOUVELLE VIDÉO",
+   "image": "https://pbs.twimg.com/amplify_video_thumb/2120921562954043392/img/BhdvRI-ZvOmolkzQ.jpg",
+   "image_alt": "Rue ensoleillée avec voitures colorées devant un grand bâtiment blanc incurvé, séquence en jeu",
+   "image_credit": "@gta6hubfr sur X",
+   "embed_type": "x",
+   "cta": "Ouvrir la publication sur X",
+   "post_text": "Only in Dade remet ça avec une nouvelle vidéo #ONLYinViceCity. Un défilé de voitures en pleine ville, avec un rendu qui ressemble à une vidéo filmée au téléphone."
+  },
   {
    "id": "x-rockstar-une-semaine-precommande-codes-2026-11-12",
    "title": "GTA 6 : Rockstar annonce « une semaine » avant la sortie",
@@ -3269,6 +3288,11 @@
    "at": "2026-11-12T18:12:42+01:00",
    "label": "Passage · Matière X : 2 sujets ajoutés (Rockstar officiel, > 100 000 vues)",
    "summary": "Relevé data/x_alertes.json (maj 16:11 UTC). Ajoutés : post officiel Rockstar « une semaine » avant la sortie, code-in-box disponibles (309 788 vues) et post « See you in Leonida next week ! » (106 535 vues). Image du second post absente : visuel Leonida déjà dans le dépôt. Non retenus : gtasix_ à 2 765 vues (sous le seuil), RockstarNewsFRA à 398 vues. Aucun post ni message."
+  },
+  {
+   "at": "2026-11-12T20:12:48+01:00",
+   "label": "Passage · Matière X : 1 sujet ajouté (nouvelle vidéo Only in Dade, 2 comptes)",
+   "summary": "Relevé data/x_alertes.json (maj 18:14 UTC). Ajouté : nouvelle vidéo #ONLYinViceCity relayée par @gta6hubfr (3 193 vues) et @GTAlphaintel (7 270 vues). Non retenus : Popeyes « Spice City » à 9 140 vues mais un seul compte et aucune corroboration de presse trouvée dans data/presse.json ; @martx_tv (LCI, images collector) de 36 à 114 vues, sous le seuil. Aucun post ni message."
   }
  ],
  "coverage": {
