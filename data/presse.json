@@ -1,21 +1,73 @@
 {
- "maj": "2026-11-12T19:56:15+00:00",
+ "maj": "2026-11-12T20:17:11+00:00",
  "articles": [
   {
-   "gn": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQX053VUdRSEFURk1WcXI5UktPRGlmcGNLVkljQmhGRFpMeUlrT0llWjFBUkJZcXNzS2tVdWVXQVdCbzNndkxTNW5BX0ZPTmNFME5OVEctSjJyY3Y1UUVIanB3aDlrZi11Q0hZRkxHTFMyT1JjZnFFLXdZUDV4SF8xQTJnQ3lzalhYNEctcnphWGt0QlBpRHFTS2NYSGFqZldkRHpPOVRCaFVpVFdlcVhrRXpFYnB5c18tSWJuS2doM2s5Sm1IVzJYdkZUd2Q3VlRTT0xUNlFUSkNiR1lLQUE?oc=5",
-   "s": "Le Figaro",
-   "d": "2026-11-12T19:42:00+00:00",
+   "gn": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTjV6YzJ3blFyV1Z5N21JOFN2a1ZkY0JQY3lyLW5RbXRLdGNoZlVJOTJqS2JGYVdyUFZoZlF6WUoza05zejIwdUVuUUpfUDZ4TWFtbUN5VUNPMEFwQkZ2MTZLM1BmeXFzZTRiaWpGZ0hSM2JOLWxSUGc2VDU2Qm14MjBmQ01fSTByM1lxTzFtLTZxaTRKa1E?oc=5",
+   "s": "Pasquale Pillitteri",
+   "d": "2026-11-12T20:07:44+00:00",
    "lang": "fr",
-   "t": "E.Leclerc écrase la concurrence : GTA 6 est toujours au meilleur prix ce vendredi 13 novembre",
-   "erreur": "HTTP Error 429: Too Many Requests"
+   "t": "La carte de GTA 6 arrive gratuite à imprimer, mais pas dans la boîte",
+   "erreur": "Remote end closed connection without response"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdkNZS0ZUekI4TnlXdlAzdTM2R3d0bjB6Z2dDcGN4UkVMLUp5RnNqenM5TTg2S1l6aFFXMXpDNTkxbTRpYy1TNkl4cXI3MUZnTXEzN3E4VGVYN1RVc0tFOUc0ZWZvSU9JNnRJVW9fcFZqbXVhdnlfZUJaSGZGdk9lLXJEZW9FZW96M2poSW50N21Ib0R2Q1VLeVZfUzFqYzNwT2VBZlFRMklkelNHUl8xLV9DRE9jSFNrSVFaTkw0UlZfMmlEWUZXdnRFdFJYc05n?oc=5",
+   "s": "Cape Cod Times",
+   "d": "2026-11-12T20:04:00+00:00",
+   "lang": "en",
+   "t": "Sony’s new oil-slick GTA VI controller might be its best design yet",
+   "erreur": "HTTP Error 402: Payment Required"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOWmRmbUFTUUUxUGE3RENkS29KLUpMdW5OcEpwdUtIZ05jbjJnSVRubHNnWUNvbHNFbVFPNGxHbzlXemJSSXl4R0JJRTlHV0h3eER1SjVwZmx5dlJYMmhWQ1BYTERDNnZkelpVckNHdmdqajJKcXJzTzVwT0FRVVBsN3RSYUQ4ekhoUnFTRVM3ZXRiSlpybkRtT1huRVk2akNsMHVoQ1JKTzM0a2FOSVZWckNoRl9URnZsdkxiMkxrQ0pSMWlTOUdEdzIxYVVCbUk?oc=5",
+   "s": "York Daily Record",
+   "d": "2026-11-12T20:04:00+00:00",
+   "lang": "en",
+   "t": "Sony’s new oil-slick GTA VI controller might be its best design yet",
+   "erreur": "HTTP Error 402: Payment Required"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOaDM0X1ZneEtTVHdkZkdlRXowWjY1cEpjMXNGaU9MMkZfa1ZicVQwZVBZdWJEWUdpRDVTaTZuTWdrUjBiaTljclBocm9LTmotXy0zdnpkTXlhMjd2eG04NFJ3LUcxLUM4S0pHRnB3eERKX2hUd1ZiSXhzRVVCMm1Pb2VjYVMtdk9wOGRhMmZLS2Q5ZVlIUWVUZFBVMjJ4NXpkblBZMlVqZkpvaEVoQzNzTWNFU2lGb0hneWo5UTdZV3VqZmhVaXFfcFBMUVE?oc=5",
+   "s": "PhillyBurbs",
+   "d": "2026-11-12T20:04:00+00:00",
+   "lang": "en",
+   "t": "Sony’s new oil-slick GTA VI controller might be its best design yet",
+   "erreur": "HTTP Error 402: Payment Required"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBvYVlfOGxlUk0wektrdGlBN2JDb0J2VjFKeUlZT1daOFZTcUdRNXVzaEhvRmsxSER6VHpGWTdxd2ZmdFByTTBuNVBpSlNrQVdPc3JpZ0wzVkdBVmNjT2dn?oc=5",
+   "s": "ScreenRant",
+   "d": "2026-11-12T20:00:19+00:00",
+   "lang": "en",
+   "t": "How To Easily Clear Space On PS5/Xbox Ahead Of GTA 6",
+   "u": "https://screenrant.com/gta-6-clear-space-xbox-ps5/",
+   "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/10/gta-6-lucia.jpg?w=1600&h=900&fit=crop",
+   "chapeau": "GTA 6 is almost here, which means it's time to make room on your hard drive to fit the historic release. Here are some easy space-saving tips.",
+   "txt": "By Lee D'Amato Published Nov 12, 2026, 3:00 PM EST Lee D’Amato is a writer born, raised, and based in Queens, New York. With collective thousands of hours in games like Final Fantasy, Metal Gear, Elden Ring, and The Legend of Zelda, he's now writes game features, guides, and reviews for Screen Rant, but has covered a wide range of topics, including ancient history, affordable travel, and overall health. Sign in to your ScreenRant account Grand Theft Auto 6 is just one week away, which means now's the time to start clearing space on your console of choice. With a file size of about 212 GB on PlayStation 5 and 225 GB on Xbox Series X/S, it's liable to be a massive game in every sense of the word.\nBut with base PS5s only going up to 825 GB of storage, and some Series S models as low as 512 GB, it can be difficult to cram GTA 6 onto your console. That goes double if there are any other games you want to keep installed.\nGTA 6 is available for pre-loading now, so, if you want to play on launch day, you may want to start the process of cleaning out space on your hard drive. To help you along the way, here's a collection of tips and tricks you can use to free up as much space on your console as possible ahead of GTA 6 .\nPS5 image. Of course — and this should go without saying — the easiest way to clear space on your console is to delete unused games. Most games include at least a few GB of data, and it's not at all uncommon for huge triple-A releases to be over 100 GB. Delete just a couple of those, and you should have plenty of room for GTA 6 .\nDon't forget to check your installed apps, too; although they're not usually as big as games, deleting a couple of unused streaming apps can easily free up a few gigs.\nNote that, on certain subscription plans, both PS5 and Xbox consoles offer cloud streaming for certain games, meaning that you may not have to have a game installed to play it. To check for compatibility, roll over the game on your home screen and check for a \"Stream\" option next to the \"Play\" button.\nBut, okay, let's say you've gotten to the point where you've deleted every game you're willing to part with for the time being. Another useful way to clear out space on your PS5 is to delete individual pieces of downloadable content (DLC) — see this guide for more info. With some Call of Duty DLC approaching 40 GB, you may be able to clear out quite a bit of space without deleting any additional games.\nAnother useful way to clear out some space on your SSD is to clear out your Captures, i.e., screenshots and videos. Open the Captures app on your PS5, choose \"Select Multiple,\" highlight as many as you want to get rid of, and choose \"Delete.\"\nDo note that your PS5 is set, by default, to take a screenshot and a video every single time you earn a trophy. If you've had your PS5 for a while, those files add up, and can take up a ton of space.\nTo see all of these in one place, navigate to the Trophies tab at the top of the Captures menu; you can then delete a bunch of these at once. Also, to turn this setting off in the future, visit the Captures and Broadcasts menu in your PS5 settings.\nAs an absolute last resort, you can look into upgrading your PS5 with additional internal storage . This, of course, can be pricey and time-consuming, so I wouldn't recommend it unless all other options have left you still too low on space to play GTA 6 — but it is technically possible.\nThe Top Corner Of A Black Xbox Series X Console With Green And White Sparks On A Black Background. It bears repeating: your first order of business should be to delete as many games as you're willing to get rid of. Remember that certain Game Pass tiers support cloud streaming, so you may not have to have certain games installed to play them; check the Xbox Store for more details on compatibility.\nTo delete individual DLCs, roll over the installed game, choose \"Manage game and add-ons,\" and uncheck any content you don't want installed. This will allow you to keep the base game downloaded, but can potentially clear out tons of space.\nXbox has a few more tools than PS5 for automatically clearing out space. Press the Xbox button, and select \"My games & apps,\" then \"See all.\" On this menu, choose \"Manage\" and \"Free up space,\" and your console will suggest some files for you to delete.\nThis menu will give you all sorts of options for deletion, including unused games, leftover add-ons from uninstalled games, and \"Shrinkable games\" (see below). The ultimate decision on w",
+   "pub": "2026-11-12T20:00:19Z"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdkdWWk5Eb2MyZGswbHFQZW14dlRad3VPY0VKMjNZNjJsT1BMVVlSTkpYemtTWjVvdFpCaTV6Q1NOWkFBLWxwTWdBRVZuZDRlaVIybXNGaHQ5Vk1KWVZfSHpibkVMVWVrQzJ2MXhlcFpnV192RjZORXB2c1RERHBPRi1TaEVXUkFwdzFQQ3hvNWpPVTVYNXAxaHQ3NFFJeC1qQWRFTlFfcTJvUE10YTJGUDZaZU9pQQ?oc=5",
+   "s": "Martin Cid Magazine",
+   "d": "2026-11-12T20:00:00+00:00",
+   "lang": "fr",
+   "t": "GTA 6 sur Xbox One passe par le cloud, et le Game Pass est la porte la plus chère",
+   "u": "https://fr.martincid.com/analysis/gta-6-sur-xbox-one-passe-par-le-cloud-et-le-game-pass-est-la-porte-la-plus-chere/",
+   "img": "https://images.martincid.com/2026/11/GTA-6-Official_Cover_Art_landscape-c3e36df9ed6c80b13d50.jpg?f=orig",
+   "chapeau": "Les possesseurs de Xbox One pourront jouer à GTA 6 dès sa sortie, mais uniquement en streaming, avec les réglages de la Xbox Series S, et chaque heure est décom",
+   "txt": "Ajoutez-nous sur Google Grand Theft Auto VI tournera sur une console mise en vente il y a plus de dix ans. À strictement parler, il n’y tournera pas du tout. Les possesseurs de Xbox One ne pourront jouer à GTA VI que sous la forme d’un flux vidéo envoyé depuis les serveurs de Microsoft , calculé avec les réglages graphiques de la Xbox Series S, la vieille machine étant réduite à un écran et une manette. Xbox l’a annoncé sur Xbox Wire, et Rockstar Games l’a confirmé dans ses propres notes de lancement.\nC’est un accès réel pour les joueurs qui n’ont jamais changé de console, et Microsoft mérite d’être salué pour cela. Mais ce lancement devient aussi le premier grand test du Xbox Cloud Gaming en tant que service au compteur. Les abonnements Game Pass incluent désormais une ration fixe d’heures de streaming, et Microsoft vend du temps supplémentaire en packs prépayés. Faites le calcul pour quelqu’un qui possède l’ancienne console et ne veut que GTA VI : l’abonnement perd, et de loin. Sur une vieille machine, la porte d’entrée du jeu de Rockstar n’est pas le Game Pass. C’est le compteur.\nL’annonce de Xbox est brève et précise. Grand Theft Auto VI, que Microsoft présente comme le titre le plus précommandé de tous les temps sur sa boutique, sera jouable via Xbox Cloud Gaming sur Xbox One et sur Xbox Series X|S dès le jour de sa sortie. La version en streaming utilise les réglages graphiques de la Xbox Series S, quelle que soit la console qui la reçoit. Les propriétaires d’une Series X ou d’une Series S pourront toujours installer le jeu et le faire tourner en natif. Ceux de l’ancienne machine, non : aucune version du jeu n’existe pour elle, et le flux reste donc leur seule voie.\nLe streaming ouvre à 1 h du matin, heure de l’Est américain, le 19 novembre, jour de la sortie ; Mixed a insisté sur le fait qu’il s’agit de l’heure de début du flux, pas d’une sortie anticipée. L’accès au cloud n’inclut pas l’achat du jeu. Aux États-Unis, cela signifie 79,99 dollars pour la Standard Edition ou 99,99 dollars pour l’Ultimate Edition, les prix relevés par Windows Central à l’ouverture des précommandes. La note de Rockstar, citée par Dexerto, contient l’avertissement qui vaut pour tout jeu dans le cloud : « la vitesse de connexion et d’autres facteurs techniques peuvent influer sur les performances du jeu d’une manière qui n’affecterait pas une partie en local ».\nAsha Sharma , directrice générale de Xbox, a présenté la nouvelle comme dépassant le cadre d’un seul jeu. « Aujourd’hui marque la première étape de notre nouveau partenariat stratégique de 10 ans avec Take-Two », a-t-elle écrit sur X, avant d’ajouter que GTA VI « sera jouable sur XBOX One via le cloud gaming lors de sa sortie le 19 novembre ». Microsoft affirme que GTA V, Red Dead Redemption 2 et d’autres titres Rockstar rejoindront le service dans les mois à venir. Pure Xbox a fait remarquer que Sharma n’a donné aucun détail sur le contenu de ce partenariat.\nLe piège est arrivé avant le jeu. Microsoft a annoncé en septembre que le Game Pass cesserait d’offrir un streaming illimité dans le cloud, et les plafonds s’appliquent désormais : cinq heures par mois avec Game Pass Essential, dix avec Premium et quinze avec Ultimate. Tech Times, citant Windows Central, situe ces formules à 9,99, 14,99 et 22,99 dollars par mois. L’explication de Microsoft, rapportée par Game Developer et Pure Xbox, était sans détour : « le coût de fourniture du cloud gaming augmente à mesure que davantage de personnes l’utilisent et jouent plus longtemps ».\nLe temps supplémentaire s’achète en packs Cloud Playtime, que Microsoft facture à des prix de lancement : 3,99 dollars pour 10 heures, 7,99 pour 25 et 11,99 pour 50. Les heures achetées n’expirent pas, et elles ne valent que pour les jeux que le joueur possède. À partir du 11 novembre, selon Xbox Wire, les joueurs des marchés pris en charge peuvent acheter ce temps de jeu sans le moindre abonnement Game Pass.\nMettez les deux côte à côte, et l’arithmétique penche nettement d’un côté. Chaque heure de streaming incluse dans Game Pass Ultimate revient à environ 1,53 dollar, et à environ 2 dollars avec Essential. Les packs coûtent entre 24 et 40 cents de l’heure, la fourchette calculée par Ars Technica. Virgin Media O2 a interrogé des joueurs britanniques, qui comptent passer en moyenne 17 heures sur GTA VI pendant sa première semaine. En streaming, cette semaine tient dans un seul pack à 7,99 dollars. Elle ne tient pas dans les 15 heures de Game Pass Ulti",
+   "pub": "2026-11-12T15:00:00-05:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMnkwYzQwc0pEMXVwRXNhQ2otSXRKNFNKX2tMVlFISmJEYjNIN0lGdFQtY2tDWnpBVlJKTUI4SVg3dWJiOTdDa2hocUJRLXhQamVMdk5LcUxIY0ZDVGZXb2pjWmxodTZMdFM0QlphdkpraV91Y2w4eUVzZXg1c01xTW9SRVlWWGRvcmpYbEN6dkZzZ2RhYWc4Q2RhVGk4ZmpLMEVoVmxjWQ?oc=5",
    "s": "AltChar",
    "d": "2026-11-12T19:42:00+00:00",
    "lang": "en",
-   "t": "GTA 6’s full Leonida map leaks from the $400 Collector’s Box",
-   "erreur": "429 : passage suivant",
+   "t": "GTA 6’s full Leonida map leaks from the $400 Collector’s Box | AltChar",
+   "u": "https://www.altchar.com/game-news/gta-6s-full-leonida-map-leaks-from-the-400-collectors-box-aavI33K4xkV8",
+   "img": "https://media.altchar.com/prod/images/gm_featured_image/17022592fbc2-nkqlgqykxiydezjgfisnb7.jpg",
+   "chapeau": "A week before launch, Rockstar’s official map of Leonida has surfaced through a store display and a deleted unboxing, revealing a long list of locations we hadn’t heard of before.",
+   "txt": "Leaked meeting minutes show South Korea’s ratings board was split down the middle on whether to ban GTA 6 outright before finally settling on an Adults Only rating.",
+   "pub": "2026-11-12T19:42:38.571Z",
    "cyberleek": true
   },
   {
@@ -24,7 +76,11 @@
    "d": "2026-11-12T19:29:14+00:00",
    "lang": "en",
    "t": "The GTA 6 flu is coming for office attendance on Nov. 19",
-   "erreur": "429 : passage suivant"
+   "u": "https://www.hcamag.com/us/specialization/corporate-wellness/the-gta-6-flu-is-coming-for-office-attendance-on-nov-19/597203",
+   "img": "https://cdn-res.keymedia.com/cms/images/us/035/0394_639301083831924874.png",
+   "chapeau": "Time off requests climb as the highly anticipated Grand Theft Auto 6 release nears, and employers need a plan",
+   "txt": "Time off requests climb as the highly anticipated Grand Theft Auto 6 release nears, and employers need a plan\nNext week, a video game that fans have waited more than a decade for goes on sale, and some employers could find themselves short-staffed on release day. Grand Theft Auto VI, widely known as GTA 6, launches Nov. 19, and requests for paid time off (PTO) that day are already higher than usual.\nNicole Csiszar, senior director of HR services at BambooHR in California, said the company's data shows requests for the day up 13%, with even more employees planning to call in sick.\n\"What's funny about it though is it's not new,\" Csiszar said. \"Employers always get surprised. We have Super Bowl every year on Sunday every year, and people always take off or call in sick.\"\nEmployers have watched this play out before. UKG's annual Super Bowl Absenteeism Survey projected that 26.2 million U.S. employees planned to miss work the Monday after the most recent game, and about half of them planned to take a pre-approved day off. HR software provider Paycom's data, which HRD America covered, showed a similar pattern, as sick-day requests rose after the Super Bowl .\nThis time, a poll of IGN's gaming readers found that 42% had already requested Nov. 19 off and 9% planned to call in sick. José García Montalvo, an economics professor at Pompeu Fabra University in Barcelona, has projected that the day could cost the U.S. about $1 billion in productivity, according to the International Business Times. The outlet described the figure as an academic projection rather than an official forecast. UKG research on this summer's FIFA World Cup, which HRD America covered, estimated that the 39-day tournament could cost $11.7 billion in lost U.S. productivity .\nGretchen Alarcon, senior vice president and general manager of human capital management and payroll at UKG, looks at the day from the employer's side.\n\"I'm less worried about the economic impact of people taking Nov. 19 off than I am about companies being surprised by it,\" Alarcon said. \"When employees tell you weeks in advance what they need, that's a gift to the business, but only if the CHRO has built the culture and capability to act on it.\"\nMost private industry workers can request paid vacation leave, with about 80% having access to it in March 2026 , according to the Bureau of Labor Statistics. However, when several of them want the same day, Csiszar said, the starting point is the business itself.\n\"I think just like with any time off, you have it around the holidays,\" she said. \"What's the business need? What's going to be the impact of who you let off? And then, depending on how you handle other time off, just make sure you're fair and consistent.\"\nA written policy gives managers something to point to if an employee questions the decision, Csiszar said.\n\"I always think it's a good idea to have a good policy, ensure that leaders in the organization follow that policy,\" she said.\n\"Fairness is hard to deliver consistently across thousands of employees, and that's where technology can help,\" she said. \"It can apply the same rules and guardrails, surface options and give managers a much broader view of the workforce than any one person could have.\"\n\"But I don't think you should automate humanity out of the decision,\" Alarcon added. \"Technology should help scale fairness while people still own the judgment and explanation of the rules.\"\nApproved time off gives managers advance notice. Sick calls tend to arrive the same morning. That makes them trickier, Csiszar said, because managers shouldn't be asking employees why they called in.\n\"They might have played so hard that their thumbs are literally in pain,\" she said. \"Whatever the case may be, it's not for us to judge. I wouldn't encourage anyone to probe into it unless there is a pattern of someone's behavior of calling in sick where it wasn't really sick.\"\nMany managers are skeptical of such calls. A 2023 BambooHR report covered by HRD America found that 77% of managers have suspected someone they manage of faking sick leave , and the company suggested explicit policies on what managers can and can't ask. Those policies also have to account for state law, and the Congressional Research Service counts 18 states, including the District of Columbia, that require private employers to provide paid sick leave in 2026.\n\"A callout may be unavoidable, but that doesn't mean chaos must follow,\" she said. \"Frontline leaders need visibility into av",
+   "pub": "2026-11-12T14:28:45+00:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNZFhvc1l0SmFZdUtvVFk4cktPMXpJVERObjVxWUY2MHF5M0xuNklNcVBfV1BsSlVQU0pSeG5ibWJJY3RuTWlFNGdmNHhKdXcwUXFieDlXbFlSbmpVeFNmemRFb09MZjl6Y1AxeHFKZkQ5OHF0UWE4d1U5MFFVV296TGNNVTZMNkNaYWV6NDZkWnhraW1DN1VWWk1zSEJUUVdBcjg4LVhrMDhCNHFvZzRKRVZFZDVtLUdjT2ZvVDhVdFRwajV1ZVZNTDh6RHJ5dEQxM20ybndTU2xLMUdKSXg4?oc=5",
@@ -32,7 +88,11 @@
    "d": "2026-11-12T19:12:00+00:00",
    "lang": "en",
    "t": "GTA 6 needs $1.9bn opening weekend to satisfy investors, says Bank of America",
-   "erreur": "429 : passage suivant"
+   "u": "https://www.proactiveinvestors.com/companies/news/1101705/gta-6-needs-1-9bn-opening-weekend-to-satisfy-investors-says-bank-of-america-1101705.html",
+   "img": "https://cdn.proactiveinvestors.com/eyJidWNrZXQiOiJwYS1jZG4iLCJrZXkiOiJ1cGxvYWRcL05ld3NcL0ltYWdlXC8yMDI2XzExXC8yMDIzLTA1LTE4LTEwLTIwLTM0LTQxNWM1MGQzOTY4MTBhYWZlMjY2ODMzN2Q4YjlhMDI3LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0Ijo2MzAsImZpdCI6ImNvdmVyIn19fQ==",
+   "chapeau": "Take-Two Interactive Software Inc (NASDAQ:TTWO), the video game publisher behind Grand Theft Auto, needs GTA 6 to generate at least $1.9 billion in its...",
+   "txt": "Angela Harmantas is an Editor at Proactive. She has over 15 years of experience covering the equity markets in North America, with a particular focus on junior resource stocks. Angela has reported from numerous countries around the world, including Canada, the US, Australia, Brazil, Ghana, and South Africa for leading trade publications. Previously, she worked in investor relations and led the foreign direct investment program in Canada for the Swedish government. She earned a Bachelor of... Read more\nProactive financial news and online broadcast teams provide fast, accessible, informative and actionable business and finance news content to a global investment audience. All our content is produced independently by our experienced and qualified teams of news journalists.\nProactive news team spans the world’s key finance and investing hubs with bureaus and studios in London, New York, Toronto, Vancouver, Sydney and Perth.\nWe are experts in medium and small-cap markets, we also keep our community up to date with blue-chip companies, commodities and broader investment stories. This is content that excites and engages motivated private investors.\nThe team delivers news and unique insights across the market including but not confined to: biotech and pharma, mining and natural resources, battery metals, oil and gas, crypto and emerging digital and EV technologies.\nProactive has always been a forward looking and enthusiastic technology adopter.\nOur human content creators are equipped with many decades of valuable expertise and experience. The team also has access to and use technologies to assist and enhance workflows.\nProactive will on occasion use automation and software tools, including generative AI. Nevertheless, all content published by Proactive is edited and authored by humans, in line with best practice in regard to content production and search engine optimisation.\nTake-Two Interactive Software Inc (NASDAQ:TTWO) , the video game publisher behind Grand Theft Auto, needs GTA 6 to generate at least $1.9 billion in its opening three days to satisfy bullish investors, Bank of America believes.\nThe bank expects the company to publish launch sales figures on Monday, November 23, although an announcement as early as November 20 could signal particularly strong demand.\nConversely, the absence of a sales announcement by November 23 could indicate a weaker launch than investors anticipate.\nGTA 6 launches on November 19, with Bank of America identifying its initial sales performance as a critical measure of the franchise's commercial prospects.\nThe bank estimates that approximately 50 million copies will need to sell during the 2027 financial year to meet broader investor expectations.\nAround 15 million first-day sales would suggest the game is on track to reach that target, based on the launch pattern of its predecessor.\nApproximately one-third of Grand Theft Auto 5's launch-year sales came on its first day.\nBank of America expects strong initial demand because pre-orders have been building over six months and the game's pre-order bonus expires on November 20.\nThe bank estimates Take-Two's 2027 financial year bookings guidance of $8.1 billion implies approximately 33 million GTA 6 units.\nThat estimate includes approximately 16 million Ultimate Edition sales, representing around 50% of the expected total.\nBank of America considers this implied sales volume too conservative relative to the franchise's potential.\nGrand Theft Auto 5 generated more than $1 billion in sales during its first three days, before platform and distribution fees.\nThe higher $1.9 billion benchmark for GTA 6 reflects the expectations investors have built around the long-awaited sequel.\nBank of America maintained its Buy rating and $330 price target on Take-Two shares.\nThe target is based on 25 times the bank's estimated 2028 financial year earnings per share of $13.02.\nThe bank expects a significant improvement in earnings as GTA Online monetisation increases over several years, potentially approaching levels achieved by other games that charge players for progression.",
+   "pub": "2026-11-12T19:12:00+00:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiswJBVV95cUxPa3hKZ2psR2NPR0NKQkdmUmN3OUhENjU3MkRTSXFDSngwX0tEM21KZEx5cXY2RDBfYkxXY0duUVZfOW9BZjdXWVBGTTZwOXRNVnV6NlE5dEN4ZElUOTZicDdOUWY1bnZzTjNGZHRJRFJYa204V0h4WV95Um9KY0RnSWQ5aU1OLVlDUjZIRFlTa2VEVHhwN0ItVFFaeG11RXpxX0hOTG82SU53OVRYemZISjJ3cTBJTHRrVVh0dUp6dEt5RF9CSUl0MGtublVOWTBIX0xfaTVHR3d6ejN6YXlSakVkdkRhaUZESmpNV1UwYmZjYlpEUERnR3YwWVFqTXdZLXkxb1I2ZFc3LTJkQTh5WGJBXzltWVJEQjhHNHdrVjZ1WTlQVWY3dEpmQWpaZWJsWWRV?oc=5",
@@ -40,15 +100,23 @@
    "d": "2026-11-12T19:08:35+00:00",
    "lang": "fr",
    "t": "\"Ce qui se passe chez Rockstar dépasse les murs du studio\": à une semaine de la sortie de \"GTA 6\", les salariés du studio sont appelés à voter pour se syndiquer",
-   "erreur": "429 : passage suivant"
+   "u": "https://www.bfmtv.com/tech/gaming/ce-qui-se-passe-chez-rockstar-depasse-les-murs-du-studio-a-une-semaine-de-la-sortie-de-gta-6-les-salaries-du-studio-sont-appeles-a-voter-pour-se-syndiquer_AD-202611120868.html",
+   "img": "https://io-fsly-bfmtv.cdn.nextradiotv.com/QNqoev8BZSqc0ebZQTjjgMqQ2u4=/0x0:1536x864/1536x0/images/Grand-Theft-Auto-VI-2338691.jpg",
+   "chapeau": "La sortie de \"Grand Theft Auto VI\", l'un des jeux vidéo les plus attendus de tous les temps, pourrait se faire alors que les développeurs anglais du studio Rockstar se syndiquent. Une demande de longue date après plusieurs scandales internes.",
+   "txt": "Plus de 1.600 salariés britanniques de Rockstar Games, le créateur de Grand Theft Auto , sont appelés à voter à partir de jeudi sur la reconnaissance d'un syndicat, à une semaine de la sortie de GTA VI et de la fin d'un procès sur une vingtaine de licenciements.\nLe vote porte sur un accord négocié depuis quatre mois entre la direction et les employés du studio, visant à reconnaître le syndicat Rockstar Game Workers Union, a expliqué dans un communiqué l'IWGB (Independent Workers' Union of Great Britain), dont il fait partie.\nEn cas de feu vert, ce syndicat deviendrait le plus important reconnu dans le secteur du jeu vidéo au Royaume-Uni, selon cette source.\nLa consultation se tient jusqu'au 26 novembre, quelques jours après le lancement particulièrement attendu du sixième opus de GTA le 19 novembre.\nRockstar Games se défend actuellement devant la justice en Ecosse, berceau de la franchise GTA , d'avoir licencié 23 salariés en octobre 2025 en raison de leur activité syndicale .\nLes plaignants affirment qu'ils étaient sur le point d'atteindre le seuil de 10% d'adhérents au syndicat, nécessaire à sa reconnaissance au sein de l'entreprise.\nL'entreprise américaine les accuse d'avoir partagé des informations confidentielles, y compris concernant GTA 6 , sur des canaux de discussion non sécurisés sur la plateforme Discord.\n\"Nous tenons profondément aux jeux que nous créons, et nous voulons nous assurer que nous pourrons continuer à faire ce travail dans un environnement où nous sommes respectés , où nous avons notre mot à dire de manière significative sur nos conditions (de travail) et pouvons nous sentir sereins quant à notre avenir\", a déclaré Nestor Uriate, programmeur en animation et représentant du Rockstar Game Workers Union, dans un commentaire joint au communiqué.\nL'accord \"établirait un cadre permettant aux travailleurs de négocier les salaires, y compris les heures supplémentaires et les primes, ainsi que les congés et les retraites, et leur donnerait des droits de consultation sur les politiques de ressources humaines et l'utilisation de l'IA\", précise l'IWGB.\n\"Ce qui se passe chez Rockstar dépasse les murs du studio\", et concerne l'ensemble de l'industrie, a pour sa part commenté Alex Marshall, président de l'IWGB.\nD'autres syndicats, notamment le puissant SAG-AFTRA réunissant acteurs et professionnels du monde du cinéma, de la télé et des jeux vidéo, ainsi que le CWA affilié au développeur et éditeur de jeux Blizzard, ont apporté leur soutien à cette reconnaissance.\nL'entreprise a également renvoyé à des propos tenus mi-octobre auprès de Bloomberg . \"Nous suivons la volonté de l'équipe\", avait alors déclaré la responsable de l'édition du studio Jennifer Kolbe. \"Donc si (les employés, NDLR) veulent un syndicat, ils auront un syndicat.\"",
+   "pub": ""
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPLWJhSE0ycHFDU2d0V01hUGhOWUwtOFdCRzB2YlB0THdMYktPejZVYUFxbjh0SFVoLXNLc0E4S2dORE51UG5uZ2pKbzBXZ2FjU2ZBcDQzcktoM2UxZjZVbmQxWFhNYnVrYkdMUWo0cy0tREVYQVhGU1ExZllmcWtuekdvMmx6RHZmSDhRQ0JFU3dJVUdEeTlFZ0NXd0tXR21RMU9PbGI0NHpoZm02d1JwcjNfWTVsbE1MLTVxWEVESHlkSnRwYW00dzA0SURLVlVuWkhWZDFLaGs2Nk1aLWhSQXlobkJMUWJuTWU3Vml0ekhnSEdBYWZTTUtUTy01NzZMS0hrblJQZ3M?oc=5",
    "s": "PC Gamer",
    "d": "2026-11-12T19:06:41+00:00",
    "lang": "en",
-   "t": "South Korean game rating board almost blocked GTA 6's release, fearing its 'out-of-context genital nudity' would 'disrupt social order'",
-   "erreur": "429 : passage suivant"
+   "t": "South Korean game rating board almost blocked GTA 6",
+   "u": "https://www.pcgamer.com/games/grand-theft-auto/south-korean-game-rating-board-almost-blocked-gta-6s-release-fearing-its-out-of-context-genital-nudity-would-disrupt-social-order/",
+   "img": "https://cdn.mos.cms.futurecdn.net/BngP9Kz6o4g3nurmmSzKYf-1759-80.jpg",
+   "chapeau": "GTA 6 required a total of three ratings reviews by South Korea",
+   "txt": "(Image credit: Rockstar Games) {alert('Link copied')}).catch(err => {console.error('Failed to copy: ', err)})\" data-platform=\"copy_link\" data-action=\"\" class=\"font-ui-heading py-2 text-sm text-neutral-700 hover:bg-neutral-100 transition-colors no-underline block cursor-pointer border-0 bg-transparent w-full text-left normal-case\" aria-label=\"Copy link\" role=\"menuitem\" data-analytics-id=\"article-social\" analytics-label=\"utility-bar-social-share-copy-link\" analytics-name=\"utility-bar-secondary\" data-mrf-recirculation=\"article-social\"> Copy link Facebook X Reddit Pinterest Flipboard Email Share this article 0 Join the conversation Follow us Add us as a preferred source on Google Newsletter Subscribe to our newsletter Grand Theft Auto 6 has been granted an Adults Only rating in South Korea by the country's Game Content Rating Board . But in the weeks preceding that decision, the board had nearly refused to issue the game an age rating—effectively leaving it ineligible for sale in South Korea—due to ratings officials' concerns that GTA 6 might be way too comfortable hanging unprompted hog.\nAccording to GCRB meeting minutes obtained by South Korean outlet Inven (via Kotaku ), GTA 6 required a total of three ratings reviews, in which committee members repeatedly debated the presence of what they described as \"out-of-context genital nudity\"—a perception that seemed to have been informed by the leaked GTA 6 developer build footage circulated by cryptopeddling cornball master criminal, Cyberleek .\nThe GCRB's initial rating review for GTA 6 took place on September 10, during which committee members argued over whether the game's \"out-of-context genital nudity\" was grounds for refusal. Previously, the GCRB's rating standards automatically rejected games with exposed genitalia, but those standards were relaxed in 2025 to permit an Adults Only rating for \"cases where suggestive bodily exposure is directly and specifically depicted,\" as long as that depiction didn't extend to graphic sexual acts.\nDespite that revision, the committee members arguing to refuse an age rating for GTA 6 said that, while the GCRB had previously permitted \"a certain degree of genital exposure where there is narrative justification,\" they \"did not believe genital exposure to this extent falls within acceptable limits.\"\nAs the report notes, that first review meeting occurred before the GCRB received a playable GTA 6 build, meaning that the GCRB members' perception of the extent of visible in-game genitalia could have been informed by Cyberleek's leaked footage of an in-game nudist colony —an area that, despite the abundance of human flesh on display, didn't actually entail much sex going on. It was mostly just nude people standing around doing people things.\nThe GCRB committee members in favor of an Adults Only rating noted as much, saying that \"in this game, scenes with heavy exposure are not particularly sexual,\" while \"conversely, in sexual scenes, exposure is limited.\" The first meeting ended in a 3-3 tie vote, leading the committee to postpone its decision and instead recommend to Rockstar that the game be modified.\nThe GCRB did eventually receive a playable build of GTA 6 on September 28—just six days before its scheduled second review meeting on October 2. While an initial report from its gameplay researcher indicated that \"genital exposure scenes mostly appeared as one-off mission backgrounds and did not lead to sexual interactions,\" the committee decided to once again postpone its decision simply because the game was too damn huge for it to be confident that it had seen all the relevant cases of penises and/or vulvas in the wild.\nKeep up to date with the most important stories and the best deals, as picked by the PC Gamer team.\nA few on the committee remained skeptical, however: \"The basic principle of rating refusal applies when bodily exposure of sexual acts are depicted explicitly or excessively so as to disrupt social order,\" one GCRB committee member said. \"By that standard, the current bodily exposure is sufficiently explicit and excessive.\"\nIn its third and final review meeting on October 16, the GCRB—informed in part by the fact that 10 other institutions like the US's ESRB and Europe's PEGI had issued their own ratings—ultimately voted 8-1 in favor of granting GTA 6 an Adults Only rating. Its researchers concluded that, after playing the game more thoroughly, scenes featuring full-frontal nudity didn't allow for any sexual interaction, and",
+   "pub": "2026-11-12T19:06:41Z"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQeGVXU0FkYzlydDNMb0N0V2I4OWFleFFCNTUzX1JtYmU1TEdNTUwzZ0ZrQjV1M3lEbUE3ek1vVFZmemhVVDZKQ0ZYMHBRMThRc0s1NENNclZ6SkhsR2tyeVJGb2ZqZG16OHZEQWxRYXFWRGR1eW9NdHgzTHBxOWtfVDlLZGlicEVDa004SjJ4Mm5yNW9yTXFZOVh4bmNMYXhKTEk1Q3NDc19jTGlxZXpmQVdLRTlOYkl0VTVPM1BvbXpKUG1KLUNtb2pFSUhQSldJcDVnV0FyNllCV2Rh?oc=5",
@@ -56,7 +124,11 @@
    "d": "2026-11-12T18:55:00+00:00",
    "lang": "fr",
    "t": "GTA 6 : De nouvelles séquences de gameplay continuent de mettre en avant les graphismes incroyables du jeu",
-   "erreur": "429 : passage suivant"
+   "u": "https://fr.ign.com/grand-theft-auto-6/93916/gta-6-de-nouvelles-sequences-de-gameplay-continuent-de-mettre-en-avant-les-graphismes-incroyables-du",
+   "img": "https://sm.ign.com/t/ign_fr/news/n/new-gta-6-/new-gta-6-in-game-footage-continues-to-highlight-the-games-u_p4qs.1200.jpg",
+   "chapeau": "Désolé d'insister sur ce point.",
+   "txt": "Rockstar a publié un autre clip du gameplay de GTA 6 , et comme les images d'hier, le studio nous en a mis plein les yeux, et on a vraiment du mal à croire ce qu'on voit. Cet après-midi, le compte Instagram \"Only in Dade\" (qui publie de vraies vidéos des environs de Miami, en Floride) a partagé une vidéo de plusieurs voitures flashy circulant. Et alors qu'on pouvait croire qu'il s'agissait de séquences filmées dans la Magic City, il s'est avéré que ces images étaient en fait tirées de GTA 6.",
+   "pub": "2026-11-12T18:55:56+00:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQb2hSdHRDV3puZjdWM2FpN1FjQVhpc1Vla0V3RWYwYjVUYVoxVzZsZzNaZkIzYXZ1TzB3Z3p6eVRzVW5leXFlLUNUc2U0cVJOTjhxVkdZSHNERTQ0YTgyMUNoZlR5N0RkRGctcGVQVjRYbWVudFZtV0wwY0Jod2p0QnN4TlkzZExRclJJYlJ5TVdFWWNyRnVmOEI0XzdrNXpObTlKck1CRmZicmYzb1c2bUNiWGdiTm8?oc=5",
@@ -64,7 +136,7 @@
    "d": "2026-11-12T18:40:28+00:00",
    "lang": "en",
    "t": "Not Many People Can Distinguish This ‘GTA 6’ Footage From Real Life",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNR0FCQ25lblhaM3ZrclU0ZmVxTHFjdDl5ODRXWVZ4TmhvTlZkaGNscjZ5Yml5cXlZLW1tRzFDNTEyaTgzZC12Y1A3aHFtcGZsNmtNOVhYQWhlbmJZQy16WFlablM3WEIxMHBsemtVQnlWdTJLWi1EYWdIN3NRNnFQdjZHR3pqb1VWVk1maHVSMDQ?oc=5",
@@ -145,7 +217,7 @@
    "d": "2026-11-12T18:00:02+00:00",
    "lang": "fr",
    "t": "« On a pété tous les scores » : la sortie de GTA 6 bouscule ce Micromania près de Morlaix",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaVJzMWhYRlFFa0NtaDhycURuWTZPbi1lLWFwdE9vS0pveWgydExBUkU5dFhfOVZhLW1NZXNYUThPZ2Zvam5mejEwSXl0REdzT2VGcDhmZWJSY2RYdDZDQkd4Ylk4RjJVdXlyeVZ2UEdheFR2aEVHUFBtVXlsamlQS0ktbHdYVzVWWno2OWlVTW5ESWFhak94Rm03TXI3WGdzNFdmZl9DY1czX3lPS2NqelV3?oc=5",
@@ -177,7 +249,7 @@
    "d": "2026-11-12T17:55:45+00:00",
    "lang": "en",
    "t": "Rockstar's GTA 6 launches next week 👏 (Contains affiliate links)",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 400: Bad Request"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9zQXJjZnZ2Smo0dkJZSnNBb0l1QnVNMHFBbF85aGlxNlpuVXR5MTZsdGQ2V1lZR0RtWXZ4TlhpbTNrOE1sal9EdllLQVl5dDZVRXN4emJNaG15SlhIX2c?oc=5",
@@ -198,7 +270,7 @@
    "d": "2026-11-12T17:47:02+00:00",
    "lang": "fr",
    "t": "GTA VI : pourquoi les salariés du studio Rockstar Games doivent-ils voter pour la reconnaissance d’un syndicat ?",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcDZDRmVuck15LWxZWnRCWHBCbzNHZTZxLVJHR3E3NkpJZFhaSEc3elhJNE5KSmlTYmFpYVoxa3RvaHMwX3dQN0VsUU9oQ1drZC1vVkxoZTZMZmlNWXhhX1dvbFlzQ2M4a1B2THRKa3pGdWFVTmEzZ1A5Z3NFZndrSmkzanhhSzhoVVB0aC1OdnVwR3M?oc=5",
@@ -218,7 +290,15 @@
    "d": "2026-11-12T17:45:11+00:00",
    "lang": "fr",
    "t": "Zelda aujourd'hui, GTA 6 demain ? Comment l'émulation PC est en train de briser les barrières du gaming",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQUNLRVgzX2RIR3NCb3F5S2kwTk90UmZUb2hMWnR0bllwM2xRR05VS0d4M092dWJIOE9MaXRqZV9iNjZqaFdiTWNJRnlZWW9kcGxoQjg5aG1BbDBIbV9XMnFTOVR4WWFVcC12Um9nTV9GOXRabTFDVjVUdW1VOVpTTlRkZ2dMcWxxQlVpT0JB?oc=5",
+   "s": "lebigdata.fr",
+   "d": "2026-11-12T17:42:19+00:00",
+   "lang": "fr",
+   "t": "GTA 6 à 30 FPS : Rockstar fait un choix qui risque de décevoir",
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPd011ejlXcUFTWDRSQ2xSdFpmR3BaNEhCZ2w0azJkWjRHUnV4NXBVOTd0dy1vOE5zcTQzcjAyU2lSTEp5OHpkTWpHM0FnNVF5Y21aZzNyR3NMY0tuZ2Vka2xUMHktVjZmR1ZWMzBLUV94ZHJfSUpxcGNrNkRhdU94eW1zbXpqTDR2Q3BVWE94ZUhfNUJreFFVTDVtRlhkaFJaWG9oVGlWS3dYMVFuZjYtdENB?oc=5",
@@ -264,23 +344,7 @@
    "d": "2026-11-12T17:12:45+00:00",
    "lang": "fr",
    "t": "La comparaison des graphismes de GTA 6 avec le Miami réel est frappante par le niveau de détail et l'éclairage.",
-   "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMW45TUJqNXA0MHBoRnA4ZzB6OUp2XzVZd2U0bFRMNFpuUk93SXRoajJlakFwdk9PRi1vYmdEMGtjMU84cFpLWVhldWJWckhQQ2hXck5kdU53S3pFRGlmSHpaOUszWmRYVldEWm9mekVhNnQ1Q1FOLWxNVzBhc1VUcElCRDlZazE4U3lXVGw5R3UxbV84X2hXQThoeml3QkgzMTRfbUdleEh1endJRDM1X2hn?oc=5",
-   "s": "GameGPU",
-   "d": "2026-11-12T17:12:45+00:00",
-   "lang": "en",
-   "t": "Comparing GTA 6's graphics with real-life Miami is striking in its detail and lighting.",
-   "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcUsxZzBLOFM5LTVvRldnZWFsTmZiUjRGMEQ4Zlh6UHBDRTV2bTVxUmJUaV9USWJHbHdLLTFMbEJySG5aVUI0ODFiWjM2ZldRMTdFWVlVaDAxNTg3VUFmR2Jza0JQUUMwdGI3bTBEU0pNX0ZhVzhQUGZHc0Z2QzBfcmVpazlid3cwZVFEM0c2bEFJT1g2d19fQXFFT1d0bml0M0FPMUU5Yw?oc=5",
-   "s": "USA Today",
-   "d": "2026-11-12T17:12:00+00:00",
-   "lang": "en",
-   "t": "GTA 6 hasn't launched yet. It's already made $1 billion",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbUJhdkFkTWRwZnFKNklHVW85dGNwUHZXV080cE5KZHJ2d016NUhSVTFKakVPMjl2LUpxNjE0U2FOV2gtdDZsSVlnYU90V0k2X3NVQ0xsTjlPaDR0LUt3bFJLMUlhNDB6WnBaWHNNLXlmU3o3TUJhWUQ3cW82LWVtSF9LYjJtVGo1b2R3OU50X1ZZRjZyYk9KNDQyWXpwSE82MmJNVzVmelpfMm5Td09F?oc=5",
@@ -288,7 +352,7 @@
    "d": "2026-11-12T17:12:00+00:00",
    "lang": "fr",
    "t": "GTA 6: une carte partielle aurait fuité depuis un pop-up Rockstar x Selfridges",
-   "erreur": "429 : passage suivant",
+   "erreur": "HTTP Error 412: Precondition failed",
    "cyberleek": true
   },
   {
@@ -305,6 +369,18 @@
    "cyberleek": true
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNbVVrUmdjRjBVN1dyaHVnZ01zQk9OSmlyX3JzUWNhZzNPYnJWVERzcGpvN0VwLXVmMkFrMEowZU5SWlhOTHJuZWwwTk52N1VfNm8yTFhLck9IS192NDI3eUw1R1RrQ3BLeWRRVURKemllOTgxMnJLNXNydzBmUU5HYw?oc=5",
+   "s": "Mac4Ever",
+   "d": "2026-11-12T17:05:00+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : pas de 60 fps, même sur PS5 Pro",
+   "u": "https://www.mac4ever.com/gaming/199005-gta-6-pas-de-60-fps-meme-sur-ps5-pro",
+   "img": "https://img-api.mac4ever.com/1200/0/d6d4097fc1_gta-6-n-est-pas-un-jeu-aaa-mais-un-jeu-aaaaa-selon-un-veteran-de-l-industrie.webp",
+   "chapeau": "Rockstar a profité de l'ouverture du préchargement pour glisser une mise au point technique attendue depuis des mois : GTA 6 vise 30 images par seconde…",
+   "txt": "",
+   "pub": "2026-11-12T18:05:00+01:00"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPZWVlcElLWl9nUV9mSUZjX2JYZ2VqWktSNzJUUEJvNGF3bzNpWTVqcThWdWlDUi1fTklhb1RDeU1DRFhsdVl1aDRMTHRrRVhmdjFQXzhzQzNKRTFMNkdTYmZFUzU1MDlPYlE2VWNXcDl3NzlTRkdVN3hocE5aa1dSUkhkUWdlU0FyMzZFUWRlREhfN3BzM3FjOEd0MUVYck8wOEgyUUtPWElJdlhOMnI2QXBVaGpwYjRnRWY2ZExuV0thbThKUC1xMDllN1VkcG8xRnZqcURjLVBKTFhDRVdFWFJwN3h1czQ?oc=5",
    "s": "BuzzArena",
    "d": "2026-11-12T17:00:50+00:00",
@@ -315,26 +391,6 @@
    "chapeau": "C'est depuis aujourd'hui que les joueurs ont la possibilité de récupérer GTA 6 en boutique. Bien évidemment, si la boîte est physique, on ne trouve qu'un",
    "txt": "C’est depuis aujourd’hui que les joueurs ont la possibilité de récupérer GTA 6 en boutique. Bien évidemment, si la boîte est physique, on ne trouve qu’un code de téléchargement pour le jeu dedans. Mais il y a également un QR code pour du contenu additionnel à 20 € en plus. Voici ce qui est proposé.\nLa boîte de GTA 6 contient un QR code permettant de passer de l’édition standard à l’édition Ultime pour 20 € supplémentaires. L’édition Ultime ajoute des véhicules, armes, commerces, tatouages et deux activités supplémentaires qui apparaîtront durant la campagne. GTA 6 sort le 19 novembre sur consoles, avec un préchargement déjà disponible et toujours aucune date officielle pour la version PC. Le préchargement de GTA 6 a débuté le 10 novembre sur PS5 et Xbox Series et désormais, c’est la boîte qui peut être récupérée chez les revendeurs. Dedans, on trouve donc un code pour télécharger le jeu mais aussi un feuillet avec un QR code dessus.\nSi vous payez ces 20 € en plus en passant par le QR code dans la boîte, votre édition standard passera à la version Ultime qui regroupe du contenu additionnel. Pour rappel, GTA 6 est disponible à 79,99 € dans le commerce dans sa version standard et 99,99 € pour l’Ultime. Ce qui veut donc dire que ces 20 € ne font pas gonfler la facture mais ramènent juste au tarif dans le commerce de l’édition ultime de GTA 6.\nOn se doute forcément que Rockstar a placé ce QR code innocemment dans la boîte pour ceux qui, une fois en jeu, auraient envie d’enrichir leur expérience avec des cosmétiques .\nRappelons donc que la boîte est dépourvue de disque physique mais aussi, et c’est une première pour la franchise GTA , de quelconque poster de la carte de Leonida . Il faudra donc l’acheter soi-même pour environ 1 € sur la boutique de Rockstar après la sortie du jeu ou la télécharger gratuitement dès le 19 novembre.\nMais alors que propose l’édition Ultime de GTA 6 si vous décidez d’ajouter ces 20 € en plus ? Voici la liste complète :\nOn trouve les véhicules Grotti Cheetah de 1995 et Vapid Dominator Buggy de 1967. Rockstar propose aussi les revolvers Hawk et Little Morgan en plus d’autres personnalisations d’armes. Et d’autres véhicules pour la planque de Jason.\nParmi les autres bonus, le bateau Shitzu Squalo . L’édition Ultime propose aussi des commerces en plus dans Vice City avec Rideout Customs pour modifier ses véhicules et Sara’s Unisex Salon pour les coupes de cheveux.\nIl y a aussi la boutique de vêtements Stock 305 ou encore Electric Fang Tattoo avec plus de 50 tatouages imaginés par le collectif d’artistes FAILE. La version Ultime de GTA 6 propose également deux activités avec la collection de voitures classiques qui demande de retrouver puis de restaurer des véhicules abandonnés pour Wyman, collectionneur de Leonida.\nL’autre activité, c’est l’attaque du repaire du gang PTT Youngin$ pour récupérer des marchandises. Rockstar précise toutefois que ces missions en plus apparaîtront au fil de la campagne de Jason et Lucia . Pour l’édition standard, on trouve l’histoire principale de GTA 6 mais aussi le pack Vintage Vice City qui offre notamment une Vapid Stanier de 1955 avec son garage, des vêtements et un motif pour une arme.\nBref, autant de contenu pour GTA 6 alors que le jeu sort dans à peine sept jours sur PS5 , Xbox Series mais aussi Xbox One via un partenariat avec le Xbox Game Pass . Pour la version PC, toujours rien même si les rumeurs nous parlent d’un début d’année 2027 . Quant au multijoueur, on trouve déjà des premières traces de son existence dans le PlayStation Store .",
    "pub": "2026-11-12T17:00:50+00:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNTXhRU2ZLcWt3QzNJdTFHNm5KQVpQNnJwbVJpZ1V5TTQwZ09xMDNyWWVqZHQwTlF3UjgzZHNjaWhtamFTcFdTb05Ua2NpUHd4VnZSemppWC1DTW5qSjRLVFNxanJ0X1cyZktmSHE2LWZXYTZ6cGdmb3ZuaFVYMWxNbkk1SjFnU2I3MGMyWW9wTnN4OTJhc2hDT0dMUkhIcFpnVjhFVG5jYk9ua0Q5NUp4WDhBVHYyLWNfb2JtcWVPM2xQVkhhT3FxMENnQmlrSzBzMWFMS1RaaHlLNlE?oc=5",
-   "s": "La Crème Du Gaming",
-   "d": "2026-11-12T16:30:43+00:00",
-   "lang": "fr",
-   "t": "GTA 7 pourrait enfin quitter les États-Unis : Rockstar s",
-   "u": "https://www.lacremedugaming.fr/jeux/gta/gta-7-pourrait-enfin-quitter-les-etats-unis-rockstar-sexprime-sur-le-futur-decor-de-la-saga-234431.html",
-   "img": "https://sf.lacremedugaming.fr/wp-content/uploads/creme-gaming/2026/11/gta-7-pourrait-enfin-quitter-les-etats-unis-rockstar-sexprime-sur-le-futur-decor-de-la-saga-1200x660.jpg",
-   "chapeau": "À quelques mois de la sortie de GTA 6, une interview de Rob Nelson relance le débat sur un GTA 7 en dehors des États-Unis. Entre rêves d’ailleurs et contraintes bien réelles, Rockstar brouille les pistes.",
-   "txt": "À quelques mois de la sortie de GTA 6, une interview de Rob Nelson relance le débat sur un GTA 7 en dehors des États-Unis. Entre rêves d’ailleurs et contraintes bien réelles, Rockstar brouille les pistes.\nGTA 6 n’est même pas encore sorti que la communauté spécule déjà sur le décor de GTA 7 . Avec un nouveau monde ouvert situé dans l’État fictif de Leonida , inspiré de la Floride, Rockstar Games reste une fois de plus aux États-Unis, ce qui relance la grande question : la saga osera-t-elle un jour quitter l’Amérique ?\nDans une interview accordée au journal britannique The Guardian , le codirecteur de Rockstar North , Rob Nelson , a été interrogé frontalement sur la possibilité qu’un futur Grand Theft Auto quitte les États-Unis. Sa réponse, partagée ensuite par plusieurs médias spécialisés, suffit à enflammer les débats tout en restant extrêmement prudente.\nInterrogé sur un éventuel GTA 7 hors des frontières américaines, Rob Nelson répond : « Jamais dire jamais, mais il reste encore tellement à faire en Amérique ». Il ajoute : « Je pense que nous sommes tous des étrangers face à cette version de l’Amérique », rappelant que même pour les équipes écossaises de Rockstar North , l’Amérique de GTA reste un regard d’outsider, idéal pour la satire.\nAutrement dit, Rockstar Games n’exclut pas un GTA hors USA , mais revendique encore un énorme terrain de jeu sur le sol américain. Depuis GTA III , tous les épisodes majeurs se déroulent dans des parodies de métropoles US, de Liberty City à Los Santos , à l’exception des anciens spin-off GTA : London 1969 et 1961 . Un dépôt de marque « GTA Tokyo » en 2003 , puis des études internes sur Paris, Moscou, Rio ou Istanbul, n’ont jamais abouti à un jeu complet, et aucun GTA 7 n’est aujourd’hui annoncé.\nAvec Grand Theft Auto VI , connu un temps sous le nom de code Project Americas , Rockstar avait déjà envisagé un monde s’étendant des États-Unis à l’Amérique du Sud. L’idée, confirmée depuis par le studio, prévoyait des allers-retours entre Vice City et plusieurs régions sud-américaines, avant d’être abandonnée pour des raisons de ressources et de complexité, faute de pouvoir mener à bien un jeu multi-pays.\nCôté technologie, le directeur technique Phil Hooker expliquait à Bloomberg que le moteur conçu pour GTA 6 a été pensé pour être réutilisé dans les prochains projets. Ce type de moteur de jeu sert de base à tout : rendu graphique, physique, comportement des PNJ. Selon Strauss Zelnick , patron de Take-Two Interactive , cette fondation doit permettre des cycles de développement plus courts que les treize ans séparant GTA 5 de GTA 6 .\nMais un GTA 7 international resterait une équation lourde à résoudre. Comme le soulignent les sites spécialisés, il faudrait repenser l’architecture, les codes sociaux, le parc automobile, les marques fictives et surtout la tonalité de la satire locale. L’ancien scénariste maison Dan Houser rappelait que GTA repose sur l' »Americana » : armes, excès, rêve américain tourné en dérision. Transposer cette grille dans un autre pays demanderait des années de recherche supplémentaire.\nGTA 7 n’existe donc, pour l’instant, que dans les discussions. Rockstar concentre ses forces sur la sortie de GTA 6 , prévue le 19 novembre 2026 sur PS5 et Xbox Series X|S , avant de trancher sur la prochaine destination.",
-   "pub": "2026-11-12T16:30:43+00:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQX0R2dEtFLUs2NmNveHEtNDI3QnBnaWd1YlhITmk1Um4xQmhYWDRNYmtoWmFjSnZybVd2REg3RFpzOWJLSXpaeVEtaHN1bThlai1HbktSNXlNT2VWXzU4MGtZWDkteGkyeGR5MVo3UmhRMnE2RzF0RmpQQU5DQ2JqdVZlcFRqTEstSF8tN3BqLXVHSkJjcEdDRmY0aXladTlld1dkSlAyeW9MMFgwQzAweERPYkVSRTUzYl9uQUZHSmRBZkU?oc=5",
-   "s": "JeuxVideo.com",
-   "d": "2026-11-12T16:15:09+00:00",
-   "lang": "fr",
-   "t": "Même pas sorti, les ventes de GTA 6 dépassent déjà les ventes de lancement de GTA 5",
-   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOaVNmLUhaa2cwOUdhWWs4MmpIUW1uTlVFWGlhUV9XUUw4aUkyV1BlVDJENGlmR0tXMmRMbTVqR25wellNbXBaOGRxRk5wbHFTcTNEbTNBU1lBM0VhNndYYXJHMGtCV2pwYzFMdXN4dGlLSExsalFwLU1RX2lVNFhEZktlUmt6cDhybzV4bmxrQmhkaktLX0tRNU0xNHpmR2NXLWh2b0kxcW9RTnZFM3FJdg?oc=5",
@@ -361,18 +417,6 @@
    "txt": "GTA La carte de GTA 6 n’est plus un secret : une fuite inattendue révèle tout Leonida par Ludovic Quinson Publié : 12 nov. 2026, 15:30 Sauvegarder pour plus tard Sauvegarder pour plus tard Rockstar Games Ajouter comme source préférée sur Google Suivre sur Google News À une semaine de la sortie de GTA 6 , les joueurs pourraient bien avoir découvert l’un des derniers grands secrets que Rockstar cherchait à préserver. Alors que le studio n’a toujours pas dévoilé officiellement la carte de Leonida, plusieurs images circulant sur les réseaux sociaux permettraient désormais d’en découvrir l’intégralité.\nEt contrairement aux nombreuses cartes imaginées par les fans ces dernières années, cette nouvelle fuite trouverait son origine dans un événement promotionnel organisé par Rockstar lui-même.\nAttention, spoilers : la suite de cet article contient des informations potentiellement inédites sur la carte de GTA 6, notamment des noms de lieux et de régions que Rockstar n’a pas encore officiellement dévoilés.\nTout serait parti d’une exposition organisée dans le grand magasin Selfridges, à Manchester, au Royaume-Uni, où Rockstar présentait plusieurs objets liés à GTA 6. Parmi eux figurait une carte physique de Leonida, incluse dans l’édition Collector du jeu et exposée derrière une vitrine.\nSelfridges in Manchester Exchange Square have got the #GTA6 Collectors Set on display and the Map folded up in the display too.. this means somebody who works there has seen it fully 👀 here what I snapped 😉 @RockstarGames #GTAVI pic.twitter.com/2qfyllsdqI\nSi cette dernière n’était pas entièrement dépliée, certains visiteurs ont rapidement remarqué que plusieurs portions du territoire restaient visibles. Les premières photos ont ainsi permis d’identifier des lieux jusqu’alors inconnus, notamment Goose Key, Pelican Valley, Leonard County, Lummox County, Manzana, Moreau, Mariana County, Key Lento et Southwind. Un panneau indique également la route à péage Toll 1A ainsi qu’un dirigeable ont également été repérés sur les images.\nBREAKING: GTA 6's Official Paper Map Revealed. pic.twitter.com/e8naxsUcGL\nMais l’histoire ne s’arrête pas là. Alors que seules quelques parties de la carte étaient initialement accessibles, une version présentée comme intégrale a depuis commencé à circuler sur Internet. De quoi offrir aux joueurs un aperçu beaucoup plus précis de la géographie de Leonida avant même de pouvoir explorer le jeu.\nLa taille de la carte de GTA 6 dévoilée, aussi vaste que trois jeux Rockstar réunis\nGTA 6 pourrait accueillir Liberty City d’après une fuite de fichiers Rockstar\nL’édition physique de GTA 6 pourrait inclure une carte collector de Leonida\nIl convient néanmoins de rester prudent. Si la présence d’une carte physique lors de l’événement constitue l’origine rapportée de cette fuite, Rockstar n’a pas confirmé l’authenticité de toutes les images actuellement partagées.\nDepuis les premières présentations de GTA 6, Rockstar a clairement montré que l’aventure de Jason et Lucia ne se limiterait pas aux rues de Vice City. La ville inspirée de Miami devrait certes occuper une place centrale dans l’histoire, mais les joueurs pourront également parcourir de nombreuses autres régions de Leonida, entre zones rurales, petites villes, marécages et archipels.\nLes joueurs n’auront de toute façon plus longtemps à patienter puisque GTA 6 sera disponible le 19 novembre 2026 sur PS5 et Xbox Series X|S.",
    "pub": "2026-11-12T15:30:50.000Z",
    "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPRnVJcEtQTHkzMmNGbS1NX3RHSjVWNF8yM3lucWdHMXhhWkJHckRqX2FuRGpPMmtWb2NDbnFYRnlROTlSZkhyc3pMa1ZVUDJHLTZyeWV6UkVtYlRGY2NIY1ZCcnVGTE1LR1RWVWZwZVE2elFyVUM3S0l5NWRZZVdsTHJfVUFKZm1NU2pzd00wdl9SU0o1bXVVQnZvd21yLVNXZVFqS0RROGJJY2FmZ1hFZVE4ektEYm5qMUkwUi1SSXRUc1NYZWVERkRxOUs2STdyVGtEQ1hkVlpVR2J5S3hKMEZCX3ZYQXdwTlE?oc=5",
-   "s": "DL GAMING",
-   "d": "2026-11-12T16:05:00+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : Rockstar et YouTube lancent un livestream historique de 24 heures avec des cadeaux exclusifs et un filtre Vice City",
-   "u": "https://dlgaming.fr/gta-6-rockstar-et-youtube-lancent-un-livestream-historique-de-24-heures-avec-des-cadeaux-exclusifs-et-un-filtre-vice-city-idA5885.html",
-   "img": "https://dlgaming.fr/photos-actualite/small/img_0821.jpeg",
-   "chapeau": "...",
-   "txt": "GTA 6 : Rockstar et YouTube lancent un livestream historique de 24 heures avec des cadeaux exclusifs et un filtre Vice City 12-11-2026 17:05 DL GAMING\nRockstar Games et YouTube préparent un dispositif exceptionnel pour accompagner la sortie de Grand Theft Auto VI. À travers un partenariat spécialement conçu pour le lancement du jeu, les deux acteurs annoncent un livestream mondial de 24 heures, une programmation réunissant plusieurs grands créateurs de contenu et de nouvelles fonctionnalités interactives. Au programme également : cinq cadeaux virtuels exclusifs inspirés de GTA VI, des animations Wanted Stars et un filtre permettant aux utilisateurs de se plonger dans l'univers de Vice City. En France, le pré-show débutera le 19 novembre à 5 h du matin, avant le lancement du livestream principal à 6 h.\nC'est avec une déclaration particulièrement ambitieuse que Rockstar Games a annoncé l'événement : « The biggest launch of all time deserves the biggest livestream. » Une formule qui résume les ambitions du studio pour accompagner l'arrivée de son prochain blockbuster.\nDans une publication officielle datée du 12 novembre 2026, YouTube a dévoilé les différentes initiatives prévues pour célébrer le lancement de Grand Theft Auto VI, attendu le 19 novembre.\nAu-delà d'une simple diffusion en direct, cette collaboration entend mobiliser la communauté mondiale autour de GTA VI, en multipliant les expériences interactives et les contenus proposés aux spectateurs.\nUn livestream mondial de 24 heures avec plusieurs créateurs populaires\nL'événement principal prendra la forme d'un livestream de 24 heures, accessible sur YouTube à partir du 19 novembre à minuit, heure de la côte Est américaine.\nLa programmation comprendra des séquences de gameplay en direct, des podcasts animés par des créateurs et différents contenus originaux spécialement préparés pour l'occasion.\nPlusieurs personnalités internationales participeront à cette diffusion, notamment Caylus, Zhong and Kat, Jelly, Rivers, Jake Baldino et Cinna. La France sera également mise à l'honneur grâce à la présence officielle de la créatrice Carole Quintaine, qui représentera le public francophone lors de cet événement mondial.\nLe marathon débutera toutefois par un pré-show animé par RDCWorld, programmé le 18 novembre à 23 h ET. La diffusion principale prendra ensuite le relais à minuit ET.\nYouTube annonce également une couverture en direct depuis Miami, avec des créateurs et des invités spéciaux qui permettront de suivre les festivités au plus près de l'événement.\nLe livestream sera accessible depuis la page d'accueil de YouTube, notamment grâce à un logo personnalisé aux couleurs de GTA VI, baptisé Yoodle.\nCinq cadeaux virtuels exclusifs GTA VI arrivent sur YouTube Live\nAutre nouveauté importante de cette collaboration : YouTube Live introduira cinq cadeaux virtuels en édition limitée, directement inspirés de l'univers de Grand Theft Auto VI.\nParmi les éléments annoncés figurent notamment les animations Wanted Stars, qui pourront apparaître directement à l'écran pendant les diffusions en direct.\nYouTube précise également que les spectateurs éligibles qui regardent certains livestreams de créateurs pourront réclamer et envoyer gratuitement un cadeau virtuel GTA VI, dans la limite des disponibilités.\nIl s'agit donc d'une fonctionnalité promotionnelle distincte des cadeaux habituels de YouTube Live, pensée spécialement pour accompagner le lancement du jeu.\nCes nouveautés doivent permettre aux communautés de participer davantage aux diffusions et de retrouver certains éléments emblématiques de GTA directement dans l'expérience YouTube.\nLes fonctionnalités spéciales ne se limiteront pas aux livestreams.\nYouTube introduira également le filtre « GTAVI: Visit Vice City » pour les Shorts. Celui-ci permettra aux utilisateurs de se mettre en scène dans des décors inspirés de Vice City grâce à plusieurs arrière-plans thématiques.\nLes créateurs et les fans pourront ainsi réaliser leurs propres vidéos autour du lancement, en intégrant visuellement l'univers de GTA VI à leurs publications.\nEn parallèle, plusieurs créateurs prépareront des contenus consacrés au jeu pendant sa semaine de lancement. YouTube évoque notamment des analyses tactiques, des récits immersifs et des séquences en coulisses depuis Miami.\nLa musique occupera aussi une place importante dans les célébrations.\nYouTube Music proposera sur sa page d'accueil la bande-son officielle de GTA VI ainsi qu'une playlist réunissant des mo",
-   "pub": ""
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMickFVX3lxTFA3bjVIRFJPX0NJRl9mQnpGbXhhWlh2T19DQkkxODRJWG1RcUNSeGpXemdGbFhyQ2ZnSHd1Ym1tX1p5aTN4TTJrUVlUQXY4TmNwOWowb3hWblFETUxHRndNWmdBSDg5WW1DNjdlT3REU29idw?oc=5",
@@ -432,7 +476,7 @@
    "d": "2026-11-12T15:17:46+00:00",
    "lang": "fr",
    "t": "Une carte de GTA 6 de l'édition collector a fuité en ligne",
-   "erreur": "429 : passage suivant",
+   "erreur": "HTTP Error 403: Forbidden",
    "cyberleek": true
   },
   {
@@ -584,7 +628,7 @@
    "d": "2026-11-09T11:06:47+00:00",
    "lang": "fr",
    "t": "Nouvelle fuite de données sur GTA 6 — fonctions en ligne, taille exacte et bien plus encore",
-   "erreur": "429 : passage suivant",
+   "erreur": "HTTP Error 403: Forbidden",
    "cyberleek": true
   },
   {
@@ -658,7 +702,11 @@
    "d": "2026-10-26T04:38:45+00:00",
    "lang": "en",
    "t": "Cyberleek Shares More GTA 6 Footage Featuring Lucia Naked",
-   "erreur": "429 : passage suivant",
+   "u": "https://www.imdb.com/fr/news/ni66063856/",
+   "img": "",
+   "chapeau": "",
+   "txt": "",
+   "pub": "",
    "cyberleek": true
   },
   {
@@ -680,7 +728,11 @@
    "d": "2026-10-22T15:12:54+00:00",
    "lang": "en",
    "t": "Cyberleek Shares GTA 6 Leak Of Naked Lucia",
-   "erreur": "429 : passage suivant",
+   "u": "https://www.imdb.com/news/ni66062173/",
+   "img": "",
+   "chapeau": "",
+   "txt": "",
+   "pub": "",
    "cyberleek": true
   },
   {
@@ -741,7 +793,7 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
    "t": "Le token CYBERLEEK chute de 40 % alors que le leaker de GTA 6 lance de nouvelles menaces",
-   "erreur": "429 : passage suivant",
+   "erreur": "HTTP Error 403: Forbidden",
    "cyberleek": true
   },
   {
@@ -763,29 +815,7 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
    "t": "GTA VI : CYBERLEEK abandonne ses leaks et annule la diffusion du jeu complet",
-   "erreur": "429 : passage suivant",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQSHl1TTd2Qm9jdU52QXZNZlU3eWd0aHQ4UVM1d1MzdmVsS2ZDZFQ5TmdQek1PVDRQa1FhVUVrQlpvZzZGSkJpaE5ubFVjaHdRY193NW1BODF4NkpEcUQyekhVeERvUk9Hd3Z5VkZxMW54RVB0MzNNdUVhb2xBekFEcEtxOXpYMkU4YkRmbTFUTEFRRFJiVlIzczNWNEFxMDUwS2puUk10X1VDWldlZnRuUGNPSFk5aE1IZnY0a0JqTy1VdzN3TllkVHRvQzZfRWdNWkZpLWNVLVNkaVNxRkp5OHkxQQ?oc=5",
-   "s": "GinjFo",
-   "d": "2026-10-15T07:00:00+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : Cyberleek renonce à diffuser le jeu complet, mais maintient une menace - GinjFo",
-   "u": "https://www.ginjfo.com/actualites/logiciels/jeux-video-logiciels/gta-6-cyberleek-renonce-a-diffuser-le-jeu-complet-mais-maintient-une-menace-20261015",
-   "img": "https://www.ginjfo.com/wp-content/uploads/2026/09/GTA6_017YA_03-scaled.jpg",
-   "chapeau": "Cyberleek annonce la fin de ses fuites de GTA 6 après l’échec de son objectif financier. Le groupe renonce à publier sa prétendue version complète.",
-   "txt": "Cyberleek annonce l’arrêt de sa campagne contre Rockstar Games et Take-Two Interactive. Dans un communiqué en trois parties publié le 14 octobre, intitulé “ La fin de la route “, le groupe anonyme affirme abandonner la publication d’une soit disant version complète et jouable de GTA 6.\nCette décision n’est pas une surprise puisqu’elle a été conditionnée à l’échec d’une opération liée à une cryptomonnaie. Le groupe voulait porter sa capitalisation à 30 millions de dollars , un seuil qui n’a pas été atteint.\nCyberleek avait conditionné la publication de l’intégralité de la campagne solo à cette valorisation. Il avait également proposé de renoncer à la diffusion si Take-Two acceptait de commercialiser le jeu sur disques physiques et présentait des excuses publiques.\nPour expliquer cette marche arrière, le groupe met en avant les difficultés d’une mise en ligne anonyme de plus de 200 Go de données. Il estime que les risques associés ne se justifient pas sans avoir atteint son objectif financier.\nEnfin le groupe assure aussi détenir la fin de GTA 6, tout en affirmant avoir choisi de ne pas la dévoiler. Selon son communiqué, certains extraits récemment diffusés proviendraient des missions finales, mais auraient été sélectionnés pour éviter les révélations importantes sur l’intrigue.\nMalgré l’annonce de son retrait, Cyberleek conserve un moyen de pression. Il prend la forme d’un prétendu “ interrupteur de l’homme mort “, censé déclencher la publication de spoilers si le groupe était ciblé.\nAucune preuve de l’existence de ce dispositif n’a été fournie.\nMAJ : GTA 6 : Cyberleek fait volte-face et propose sa prétendue build pour 40 dollars",
-   "pub": "2026-10-15T09:09:22+00:00",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5wcWRVaFhVcEhJYmdYZndEclN0S0R1MnYzd2N1dkctaTE5Tm5tWTYxY1BkYVZNZE9fX0pxSkJsZ0tNVDN3dHRCcGtWMkF4QUthOHFqM3dDQVdmUzE5?oc=5",
-   "s": "TradingView",
-   "d": "2026-10-15T07:00:00+00:00",
-   "lang": "fr",
-   "t": "Prix du jour: CyberLeek — Graphique CYBERLEEKUSD",
-   "erreur": "429 : passage suivant",
+   "erreur": "HTTP Error 403: Forbidden",
    "cyberleek": true
   }
  ]
