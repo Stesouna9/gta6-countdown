@@ -1,8 +1,65 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-12T10:13:12+01:00",
+  "updated_at": "2026-11-12T12:12:52+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-key-largo-rusty-anchor-gta6-2026-11-12",
+      "title": "GTA 6 : le Caribbean Club de Key Largo transformé en « The Rusty Anchor »",
+      "summary": "Un relevé d'utilisateur de Reddit, relayé par @GTAVI_Countdown, montre le Caribbean Club de Key Largo (Floride) habillé aux couleurs du bar « The Rusty Anchor » de GTA 6. Le lieu réel n'a pas été confirmé par Rockstar ; c'est une observation de fan.",
+      "url": "https://x.com/GTAVI_Countdown/status/2120763038928355383",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "2026-11-12T06:18:05.000Z",
+      "checked_at": "2026-11-12T12:12:52+01:00",
+      "evidence": "Vues relevées le 2026-11-12 dans data/x_alertes.json : 24036 vues ; 12 replies, 43 reposts, 672 likes, 49 bookmarks. Source d'origine indiquée : u/Snak3D0ct0r (Reddit). Aucune reprise par un second compte relevé.",
+      "visual": "KEY LARGO",
+      "image": "https://pbs.twimg.com/media/HW52keXWEAA-Y_M?format=jpg&name=small",
+      "image_alt": "Image du post de @GTAVI_Countdown sur le Caribbean Club de Key Largo",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Rockstar has transformed the Caribbean Club in Key Largo, Florida to the GTA 6 version, The Rusty Anchor in Key Lento. (via u/Snak3D0ct0r)"
+    },
+    {
+      "id": "x-kitkat-vice-city-camion-gta6-2026-11-12",
+      "title": "GTA 6 : KitKat lance un camion aux couleurs de Vice City",
+      "summary": "La marque KitKat s'associe à la promotion de GTA 6 avec une illustration de camion inspirée de Vice City, relayée par @GTAlphaintel. Rockstar n'a pas commenté ce partenariat dans le relevé.",
+      "url": "https://x.com/GTAlphaintel/status/2120669653638824020",
+      "platform": "X",
+      "author": "@GTAlphaintel",
+      "status": "Rapporté",
+      "published_at": "2026-11-12T00:07:00.000Z",
+      "checked_at": "2026-11-12T12:12:52+01:00",
+      "evidence": "Vues relevées le 2026-11-12 dans data/x_alertes.json : 21045 vues ; 6 replies, 25 reposts, 286 likes, 19 bookmarks. Un seul compte relevé ; aucune reprise vérifiée.",
+      "visual": "KITKAT CAMION",
+      "image": "https://pbs.twimg.com/media/HW2cfYPbIAASFN4?format=jpg&name=small",
+      "image_alt": "Visuel du camion KitKat à thème Vice City relayé par @GTAlphaintel",
+      "image_credit": "@GTAlphaintel sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "KitKat has joined the GTA 6 marketing hype with Vice City-themed truck artwork"
+    },
+    {
+      "id": "x-annonce-possible-jeudi-gta6-2026-11-12",
+      "title": "GTA 6 : une nouvelle annonce jugée possible ce jeudi",
+      "summary": "@GTAVI_Countdown estime qu'une annonce GTA 6 est possible ce jeudi, dernier avant la sortie, et évoque un événement GTA Online final avant le 19 novembre. Le compte s'appuie sur un e-mail envoyé aux créateurs par Rockstar ; ce n'est pas une annonce officielle.",
+      "url": "https://x.com/GTAVI_Countdown/status/2120770606111019168",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-12T06:48:09.000Z",
+      "checked_at": "2026-11-12T12:12:52+01:00",
+      "evidence": "Vues relevées le 2026-11-12 dans data/x_alertes.json : 103753 vues ; 64 replies, 163 reposts, 3551 likes, 360 bookmarks. Prédiction d'un compte de fans, sans reprise vérifiée par un autre compte relevé.",
+      "visual": "ANNONCE POSSIBLE",
+      "image": "https://pbs.twimg.com/media/HW59ZEAWUAAvSs8?format=jpg&name=small",
+      "image_alt": "Image du post de @GTAVI_Countdown annonçant une possible annonce GTA 6",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "A new GTA 6 announcement is highly possible today, since it's the last Thursday before launch."
+    },
     {
       "id": "x-vs-real-life-fan-2026-11-12",
       "title": "GTA 6 : une comparaison « vs real life » fait le tour de X",
@@ -3076,6 +3133,11 @@
       "at": "2026-11-12T10:13:12+01:00",
       "label": "Passage 101 · Matière X : aucun sujet neuf",
       "summary": "Relevé data/x_alertes.json (maj 09:00 UTC). Sujets ≥ 20 000 vues ou repris par ≥ 2 comptes déjà couverts (vs real life, téléchargement, affiche Barcelone, compte à rebours de huit jours) ou sous le seuil, sans reprise vérifiée (Key Largo 18 720 vues, KitKat 18 118, « en magasin » 3 359 non corroboré par la presse). Rien ajouté."
+    },
+    {
+      "at": "2026-11-12T12:12:52+01:00",
+      "label": "Passage · Matière X : 3 sujets ajoutés (seuil 20 000 vues atteint)",
+      "summary": "Relevé data/x_alertes.json (maj 11:03 UTC). Ajoutés : Key Largo (24 036 vues), KitKat (21 045 vues), annonce possible ce jeudi (103 753 vues, Rumeur). Sans reprise vérifiée par presse ; aucun post ni message."
     }
   ],
   "coverage": {
