@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-13T12:39:11+00:00",
+ "maj": "2026-11-13T12:59:23+00:00",
  "articles": [
   {
    "gn": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQS2R4VVZJV2ZtMTlYLTZPZkgxaEEwZThoc2JwQkVIQ2NWRmZieE9uTl94ejJ3eW50NzU5X2M1bjFqRHdTMDRWeGstLVFFZWZMdGFFMzdsM2VXTmsxeTZzdEIzajY0RmptRk9UcTVoYzdkbkFzYzBjaG1EMEFuTnRORk5xWmtTN3JQS2tWc1lXY1g4cHJ0NTF0eEd2NTE?oc=5",
@@ -19,7 +19,7 @@
    "d": "2026-11-13T12:17:47+00:00",
    "lang": "fr",
    "t": "Rumeur : GTA 6 Online pourrait sortir en 2027, un an après le jeu principal",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "HTTP Error 429: Too Many Requests"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSWt5YVhuU3p2dEw5ODBBb0w1ZnlObUFaZWVmZ0NwcXFwSDBSbFVOYWpGU3B0WUNSS2hOekNXUkdMbExfNWxNN2xLaU9XQU5FWUdjVzR2aXE2V0FmNnozbzh6X0NITFlwTmxKamRqalZwSzYzRllNN3ZXeFdGY0YxZlloUjRkZ2dDUm9DODhpbXh2V0M0ZmFvdzdDZDJXanY1ZVptZ0NudUZmNzFTZmF5OXliU3A?oc=5",
@@ -67,7 +67,8 @@
    "img": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/GTA-6-online-release-window-leaked.jpg",
    "chapeau": "GTA 6 will launch next week, on November 19, on the PS5 and Xbox Series X/S. However, it seems fans will need to wait around a year for its multiplayer mode.",
    "txt": "After years of waiting, gamers will finally be able to dive into GTA 6 next week, on November 19. Rockstar has already revealed plenty of details about the upcoming title, which is shaping up to be one of the biggest video game launches in history. However, while players will be able to enjoy the single-player campaign at launch, the game won't arrive with a multiplayer mode. But now, it seems that the release window for GTA 6 Online may have leaked.\nBack in August, Bloomberg reporter Jason Schreier claimed that Take-Two and Rockstar weren't planning to reveal details about the new GTA Online anytime soon. He later clarified that Take-Two CEO Strauss Zelnick hadn't specifically discussed when the multiplayer mode would launch.\nInterestingly, Bloomberg Originals has now published a new video titled \"Why GTA 6 Took 13 Years and $1 Billion to Make,\" featuring Schreier and other Bloomberg reporters. While the video mainly discusses the game's lengthy development, the narrator makes an interesting claim about its multiplayer mode.\n\"The game that ships in 2026 is not even its final form. The real long-term engine arrives a year later with multiplayer,\" the narrator says. This suggests that GTA 6 Online could launch sometime in late 2027, roughly a year after the base game's release.\nHowever, it's important to keep in mind that Rockstar and Take-Two haven't officially confirmed this release window. It's also unclear whether the narrator accidentally mentioned an unannounced detail or simply made an assumption about the multiplayer mode's arrival.",
-   "pub": ""
+   "pub": "",
+   "cyberleek": true
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9EN081T1FHeV82aUlIeEVDVVRVQkJSTHNmbTNaUk1PVk0zZHhDcUlvSEVwMG0wMjRoWUhiSjBWUEZEZW1NWC1PSnpNQ0pTaW5FVjh0YVJKVQ?oc=5",
@@ -75,7 +76,7 @@
    "d": "2026-11-13T11:34:34+00:00",
    "lang": "fr",
    "t": "PS5 vs PS5 Pro : laquelle choisir ? Le match en 6 rounds",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5HWjN5dGdNMnB4T3NMRGJYQjJHdkU1ektiV2czc01mMHhHSFJKQ3BNVWdGZzNBVVBVQUhZUTJ4V2EzeEJoNzhJYzBVa1pBOHY0aS1Wcl9PWUVNd0lRZ3FCZk52WGxfcGFGd0ZjZ3JPX0g?oc=5",
@@ -228,11 +229,7 @@
    "d": "2026-11-13T10:36:36+00:00",
    "lang": "fr",
    "t": "GTA 6, déjà 12 millions de précommandes et 1,18 milliard de dollars avant sa sortie ? Le jeu déjà rentable ?!",
-   "u": "https://jvmag.ch/2026/11/13/gta-6-deja-12-millions-de-precommandes-et-118-milliard-de-dollars-avant-sa-sortie-le-jeu-deja-rentable/",
-   "img": "https://jvmag.ch/wp-content/uploads/2026/11/gta-6.webp",
-   "chapeau": "GTA 6 n'est même pas encore sorti qu'il affole déjà les compteurs ! À quelques jours de son lancement, le prochain jeu de Rockstar Games aurait dépassé",
-   "txt": "",
-   "pub": "2026-11-13T10:36:36+00:00"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYUNxWjFxUzhhRjdrZGRxSGY1cUNfQkdKM21Bd2tBSkJMdUhWNU1TbE5pQUJ1c2pwMkZTNnBneGVkRmZrQ20zOXUzNW1xVXpIcmtBOVh6UUpxUWFmLXVwdGh4RWgyd24zSVN2cTJQams2bGZuYVN0cFh4ckZlQjF6Um9UenNzWWNjcjRteVctR09WUQ?oc=5",
@@ -252,7 +249,7 @@
    "d": "2026-11-13T10:16:16+00:00",
    "lang": "fr",
    "t": "« J’peux pas, j’ai GTA 6 »… La sortie du jeu va-t-elle perturber le monde du travail ?",
-   "erreur": "HTTP Error 308: Permanent Redirect"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPM3piSGgtWm52TU9WRTk3LWRYRVdKTzNyQ1l3Rmg0eW1CbVl3UW5nc3o2cy1wd0NyNVRuQi1wS2tscEhxNVZUVHJtQ0V1dVJ1a2VoYjYtcmJsZWxpbzM5eU1qaDNLUEtyLU5tMzVibnROMm1ENjFZa1FmM0ZSRTRaNmV0Yk1lek5KLUplOC10SVlLMmY3ZTd5eWYxTm9hNXFld3lodzJQSmFqMk4y?oc=5",
@@ -272,11 +269,7 @@
    "d": "2026-11-13T10:14:00+00:00",
    "lang": "fr",
    "t": "\"Du jamais vu\" : les premiers chiffres de GTA 6 sont tombés et ils sont énormes",
-   "u": "https://www.purebreak.com/news/du-jamais-vu-les-premiers-chiffres-de-gta-6-sont-tombes-et-ils-sont-enormes/266750",
-   "img": "https://static1.purebreak.com/uploads/cc/6d/f0/4e/15d3b77e3ae8c091-1200x630-1.jpg",
-   "chapeau": "Plus qu&#039;une semaine avant la sortie événement de GTA 6. Les premières estimations sont tombées et le jeu vidéo devrait bien signer un record absolu de ventes.",
-   "txt": "",
-   "pub": "2026-11-13T11:14:00+01:00"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBTOFY2NGE1Y0tZMWxQWFp1Q3lVaXY3RVU1d3JpQk1UWm5SeWoyOXpsaTFaLUlaQ2ZmdjhaU0hOazZwTHQ2UEtlNTlwczB2enhhbmF2UEtsRQ?oc=5",
@@ -315,16 +308,20 @@
    "pub": ""
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPWVdxWFZFOXRERElMWnh1WGxsclMzZjJwejd5VHdpVDZtM1dDOG5pQTdtR1Vtb2FydUkxWWhqeTY5UmFIUXoxU3RkTC1PSHBnSkdKam1RS1o0cFNaZzNWSUtHVXZGR1ZHWmZDOTVONkI4eUMwdnJoYUxvcU1KcUxPcExHSGxHYVhqTTk5ZFA1N21LRE1HYnpxV1NreHRaS25ZNXR4N3J2dXdSQ1Fxbm54djRqeU0xZkRnallGMmloM0JOVG42bFVB?oc=5",
+   "s": "Numerama",
+   "d": "2026-11-13T09:25:28+00:00",
+   "lang": "fr",
+   "t": "La Fnac fait chuter le SSD Lexar Play 2 To pour PS5 au moment où GTA 6 réclame 212 Go",
+   "erreur": "429 : passage suivant"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPblRmRDB1R0U3ckNZblgtMTZ6RjZ0Y2JXNG9TVHdMVF9KVnlQNmoxc3YzcjlwbzhxRHBwbVhaSnpIbmFYMHlhT1ZROFg5YWJWdlFBWGx0VkxUYm5JdnFnX045TjViSGNNYWRDX1Y0YTV6SnQ0VHotRDRONzdsek03aE9ya3o3NXl3Si1hVjdDcw?oc=5",
    "s": "L'Agefi",
    "d": "2026-11-13T09:10:00+00:00",
    "lang": "fr",
    "t": "GTA 6 promet un départ sur les chapeaux de roues",
-   "u": "https://www.agefi.fr/news/entreprises/gta-6-promet-un-depart-sur-les-chapeaux-de-roues",
-   "img": "https://beymedias.brightspotcdn.com/dims4/default/1380041/2147483647/strip/true/crop/384x187+0+147/resize/1440x700!/quality/90/?url=http%3A%2F%2Fl-opinion-brightspot.s3.amazonaws.com%2F73%2F4d%2F792ad67a43c1bdd4d06830246121%2Fgtavi-trailer-2.jpg",
-   "chapeau": "Au début du mois de novembre, près de trois semaines avant sa sortie, le jeu vidéo GTA 6 totalisait déjà près de 800 millions de dollars de précommandes.",
-   "txt": "",
-   "pub": "2026-11-13T09:10:00"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVWJFcHAyZ2RsYzFINWczc0pfWndKa1RwV2pnQmIzT0JhQmh4RUs3TU1zNjlIOXMxdTJIMW1FcTFXOTFzcjg5d2VtTjBadUFtYTJqX2c3VnZSWl9zemJaUkgxM19PcFItR3dzcnpyNWFtNlA5Yk01eDg0UmhUNWJOYVdQTXdrRjVSSUpWUy1tX09EeUc0T3k4dkRQNkhqWFlvZ09MMTEzN1VUejI5aUdYY1pvSXV2YmxETzEtQmU1VTZ4QQ?oc=5",
@@ -332,7 +329,7 @@
    "d": "2026-11-13T08:54:35+00:00",
    "lang": "fr",
    "t": "Nay : une soirée jeu vidéo géante autour de GTA 6",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbHdfSHJ6ajAxdTVCM0FjSHU3VmZMOC15MWxOMkFJTFN1X016bjIzMUxnZ2VZMDVkck5jTnk2cFNiMGwxd0JiSkhXckZlY015NGdmZFFlbzRtSGtWR2xDZDNuQklLb1NudHFGOHoydm0yMUJiaTdaZXh5Ql81X3k5Z0VJb3BRMHFY?oc=5",
@@ -345,18 +342,6 @@
    "chapeau": "GTA 6 sort le 19 novembre à minuit : 69,99 € chez Carrefour avec retrait en 2 h, 60 € épuisé chez Leclerc, 79,99 € ailleurs, 88,29 € en marketplace. Prix du 13/11.",
    "txt": "À six jours de la sortie de Grand Theft Auto VI, le jeudi 19 novembre à minuit, où acheter la boîte au meilleur prix ? Nous avons relevé les fiches des grandes enseignes ce vendredi matin. Le jeu à 60 € de Leclerc reste en précommande épuisée, mais Carrefour affiche l’édition standard à 69,99 € sur PS5 et Xbox Series, avec retrait gratuit en 2 h. Ailleurs, le prix éditeur de 79,99 € est la norme, et certains vendeurs de marketplace montent jusqu’à 88,29 €. Comparatif, pièges et heure exacte pour jouer.\nRelevé effectué le 13 novembre 2026 au matin, sur l’édition standard en boîte (code de téléchargement, sans disque) :\nSource : Carrefour, E.Leclerc, Micromania, Cdiscount, Boulanger, PlayStation Store\nLa boîte PS5 est aussi référencée chez Cultura , dont la fiche ne nous a pas affiché de prix ce matin.\nCe vendredi, l’écart entre la boîte la moins chère encore disponible et la plus chère atteint 18,30 € pour le même jeu.\nSur sa page dédiée à GTA 6 , Carrefour affiche l’édition standard à 69,99 € sur PS5 et sur Xbox Series X, soit 10 € de moins que le prix éditeur. Les deux fiches sont marquées « Vu en catalogue » et proposent le retrait gratuit en 2 h.\nDeux précautions : le retrait dépend du stock de votre magasin, à vérifier après l’avoir choisi sur le site, et la fiche PS5 signale d’autres offres « à partir de 79,99 € », qui ne sont pas au prix de l’enseigne. Quant au bon d’achat de 10 € promis par Carrefour sur les précommandes , vérifiez ses conditions avant de compter dessus.\nUne rue de Vice City dans Grand Theft Auto VI. © Rockstar Games Leclerc : le 60 € ne revient pas en ligne Le prix le plus bas reste celui d’E.Leclerc, à 60 €, mais il n’est toujours pas commandable. Ce vendredi matin, les fiches PS5 et Xbox Series affichent la même mention qu’hier : « Précommande épuisée. Disponible en magasin à partir du 19/11/26 ». Comme nous le racontions dans notre article sur les boîtes en magasin , des joueurs disent pourtant en avoir trouvé en rayon dès jeudi, dans des E.Leclerc et des Espaces Culturels. Appelez votre magasin avant de vous déplacer.\nChez Micromania , la boîte reste à 79,99 €, ou 39,99 € avec la reprise bonifiée d’un produit de sa liste, jusqu’au 30 novembre. Mais la livraison en point relais était estimée ce matin au jeudi 19 novembre : préférez le retrait gratuit en magasin en 1 h pour précharger à temps.\nChez Cdiscount, le jeu à 79,99 € est annoncé « Disponible dès le 19/11/2026 » : impossible de précharger. Chez Boulanger, la version PS5 vendue par l’enseigne est à 79,99 €. La version Xbox, elle, n’apparaît qu’à 88,29 € , proposée par un vendeur partenaire : 8,30 € de plus que le prix éditeur, pour la même boîte.\nLes Leonida Keys, l’une des régions de l’État de Leonida. © Rockstar Games PlayStation Store : le mois de GTA+ offert, à résilier Sur le PlayStation Store , l’édition standard numérique est à 79,99 € et l’édition Ultime à 99,99 €. Toute précommande ou tout achat numérique avant le 19 novembre 2026 donne droit à un mois d’abonnement GTA+ sur PS5 , sans frais supplémentaires. Mais lisez la suite des conditions :\nUn mois offert qui se renouvelle tout seul : notez la date d’activation dans votre agenda pour résilier à temps si GTA+ ne vous intéresse pas.\nL’édition Ultime n’existe pas en boîte, mais la mise à niveau s’achète sur le PlayStation Store une fois le code standard utilisé, précise Micromania.\nSur le PlayStation Store, la sortie est fixée au 18 novembre à 23 h UTC, soit minuit pile, dans la nuit du mercredi 18 au jeudi 19 novembre, heure de Paris . Selon le PlayStation Blog, le lancement se fait pays par pays, à minuit heure locale, en commençant par la Nouvelle-Zélande, où il sera minuit le 18 novembre vers 12 h, heure de Paris. Sur Xbox One, le jeu arrive en streaming via le cloud le 19 novembre à 7 h, comme nous l’expliquions dans notre article sur le record de précommandes .\nAvec jusqu’à 212 Go à installer, une boîte récupérée le soir du 18 ne vous laissera pas jouer à minuit : nos conseils pour faire de la place sont dans notre article sur le préchargement .\nVice City, au coucher du soleil, dans Grand Theft Auto VI. © Rockstar Games Notre avis : 69,99 € en magasin, c’est le bon compromis Si vous n’avez pas de jeu à revendre chez Micromania, la boîte Carrefour à 69,99 € est l’option la plus simple ce vendredi : 10 € de moins que partout ailleurs, et un code en main assez tôt pour précharger tranquillement d’ici le 19. Le 60 € de Leclerc reste meilleur sur le papier, mais il faut de ",
    "pub": ""
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOclNxSU94T2E0bU54S2RZV055a2Y0OG5CSUs5cm5ndkFTVjl2WU5ZRVVnTW1pQUtnWHJDYmZxYTM2cDRWekZoZkN2UE1QYkNqMmR4S3l5OFdYZGV6emhnMFlFeEE1V2dScVpMOUFPQTRhb3VEZE5ZODF6Qzg5U0xfVU81TW9WOVlVT29zSmUzc01uWmhNeVFoOEE0Wng?oc=5",
-   "s": "L'Agefi",
-   "d": "2026-11-13T08:30:00+00:00",
-   "lang": "fr",
-   "t": "L'industrie du jeu vidéo attend impatiemment GTA 6",
-   "u": "https://www.agefi.fr/news/entreprises/lindustrie-du-jeu-video-blafarde-attend-impatiemment-gta-6",
-   "img": "https://beymedias.brightspotcdn.com/dims4/default/662ff04/2147483647/strip/true/crop/1920x933+0+0/resize/1440x700!/quality/90/?url=http%3A%2F%2Fl-opinion-brightspot.s3.amazonaws.com%2Ff2%2F58%2F7dca36224126923e4a4ea79189f1%2Fhardware-playstation-5-grey-no-text.jpg",
-   "chapeau": "La sortie de Grand Theft Auto 6, le 19 novembre, devrait provoquer un raz-de-marée mondial. Il passera au révélateur une des plus grosses industries mondiales du divertissement, brutalement retombée sur terre après le soufflé du Covid.",
-   "txt": "",
-   "pub": "2026-11-13T08:30:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5iaGJnQXEyTXlfM19QOUhURU1CUTM4cDNoTzRuV05mcTcweTR2X1ByODBfWFBxbEJXSVFZS2NZbVBNeklBbGlOVDlzVEhPY1hqQTNNRVZEckEzYUdFRTd1NTd6TGFwS1VZcFdRb0V0LTg1STZESVE?oc=5",
@@ -463,6 +448,15 @@
    "cyberleek": true
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSEMyY242NEhBSXFCX1FBRk1BS2tTeHNlVk5XQ2U0NTk0RGRzMjN3dXZDVFNvbzJmZVFobjNFUHBTWEx3NDhJUVRHamFtcm9JQlBicklaN1UtUTd2NGozT0xocy1pS1pvdFI4V2trWUVJM3JDOVRaTUtvclZnTEdfYVBVWjRBbXdZZFhYWTdjeU9qUDZtU01kVDBhaHZtQjd3ZWlIWUpxWWlBMUk?oc=5",
+   "s": "Dexerto",
+   "d": "2026-11-12T19:23:47+00:00",
+   "lang": "en",
+   "t": "New GTA 6 gameplay is so realistic fans can’t believe it’s not real life",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPLWJhSE0ycHFDU2d0V01hUGhOWUwtOFdCRzB2YlB0THdMYktPejZVYUFxbjh0SFVoLXNLc0E4S2dORE51UG5uZ2pKbzBXZ2FjU2ZBcDQzcktoM2UxZjZVbmQxWFhNYnVrYkdMUWo0cy0tREVYQVhGU1ExZllmcWtuekdvMmx6RHZmSDhRQ0JFU3dJVUdEeTlFZ0NXd0tXR21RMU9PbGI0NHpoZm02d1JwcjNfWTVsbE1MLTVxWEVESHlkSnRwYW00dzA0SURLVlVuWkhWZDFLaGs2Nk1aLWhSQXlobkJMUWJuTWU3Vml0ekhnSEdBYWZTTUtUTy01NzZMS0hrblJQZ3M?oc=5",
    "s": "PC Gamer",
    "d": "2026-11-12T19:06:41+00:00",
@@ -546,20 +540,7 @@
    "d": "2026-11-12T17:12:00+00:00",
    "lang": "fr",
    "t": "GTA 6: une carte partielle aurait fuité depuis un pop-up Rockstar x Selfridges",
-   "erreur": "HTTP Error 412: Precondition failed",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8xR1IzUEhsSEtvWmk3TVAtYjFfVk1YRnZPcmpYWEYwUlhmVndTcjZ3MnpvaWRlUUhhQjhCclVoR1ZlbTFfNmlKLWduS1V0TTJlS3RNdDJwcFlGR2FNcUJrdWRicGNHM0RWdEhMbEFR?oc=5",
-   "s": "Polygon.com",
-   "d": "2026-11-12T17:08:37+00:00",
-   "lang": "en",
-   "t": "GTA 6 Nearly Hit With Ban Over ‘Frequent Male Genital Exposure’",
-   "u": "https://www.polygon.com/gta-6-south-korea-rating-male-nudity/",
-   "img": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/polygon-stock-art-gta-6-cal-hampton-2.jpg?w=1600&h=900&fit=crop",
-   "chapeau": "Hog wild",
-   "txt": "With the launch of Grand Theft Auto 6 mere days away, we already know to expect a whole lot of mature subject matter. Official promotional materials like the Netflix Extended Look have prominently featured strip clubs, drug deals gone wrong, and chaotic vehicular shootouts. A new report out of South Korea from Inven Global claims members of the Game Content Rating Board (GCRB) nearly refused to issue a rating for GTA 6 , which would have effectively banned the game there. The main sticking point? An excessive amount of \"out of context genital nudity.\"\nAccording to the report, the GCRB held three separate review sessions to determine its rating for GTA 6 . The first review took place on Sept. 10, before committee members had access to a playable build. That ended in a tie, with three voting in favor of refusal and three in favor of an Adults Only rating. \"I do not believe genital exposure to this extent falls within acceptable limits under the current standard,\" said one of the members who refused a rating. It's possible that this assessment was shaped by the massive GTA 6 gameplay leaks that took place over the summer, which showed Jason interacting with unclothed patrons at a nudist resort and nonchalantly cruising around the streets of Miami with his dong hanging out .\nThe GCRB met again on Oct. 2, but ultimately opted to postpone its decision a second time, having obtained a copy of the game just a few days earlier. \"Further inspection is necessary, but if a rating is actually granted, we should take this opportunity to review changing the regulation that treats simple genital exposure as grounds for refusal,\" said one of the committee members.\nImage: Rockstar Games During the final review session on Oct. 16, the committee voted eight to one in favor of issuing an Adults Only (19+) rating. \"It appears that they intentionally covered genital exposure in explicitly sexual scenes, while allowing exposure in background settings,\" explained one voter from the majority. The lone dissenter expressed concerns that this would mean open season on background penises in future games. \"Suppose we consider genre characteristics to permit background genital exposure in adventures or RPGs while remaining conservative only with suggestive games,\" they said. \"I am concerned that background genital exposure will frequently appear in future RPGs as a result.\" Don't get any ideas, Square Enix!\nWhile it is pretty funny to imagine people having high-stakes debates about how much dong is too much dong for a video game, this conflict indirectly tells us some interesting things about GTA 6. We know there will \"explicitly sexual scenes\" in the game, but you won't see anyone's business district during those moments. In other words, Rockstar isn't bringing the infamous Hot Coffee sex minigame from GTA: San Andreas into 2026. That's probably for the best.\nGTA 6 has received strict adult age classifications in virtually every market. It's got an M (17+) rating in North America, and 18+ ratings in Japan, Europe, the UK, Australia, New Zealand, Hong Kong, India, Indonesia, Malaysia, Singapore, South Africa, Taiwan, Thailand, and Brazil. The game has a 21+ rating in Saudi Arabia and the UAE. GTA 6 will be released on Nov. 19 for PlayStation 5 and Xbox Series X.",
-   "pub": "2026-11-12T17:08:37Z",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -594,7 +575,7 @@
    "d": "2026-11-12T15:17:46+00:00",
    "lang": "fr",
    "t": "Une carte de GTA 6 de l'édition collector a fuité en ligne",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -668,7 +649,7 @@
    "d": "2026-11-09T11:06:47+00:00",
    "lang": "fr",
    "t": "Nouvelle fuite de données sur GTA 6 — fonctions en ligne, taille exacte et bien plus encore",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -729,11 +710,7 @@
    "d": "2026-10-26T04:38:45+00:00",
    "lang": "en",
    "t": "Cyberleek Shares More GTA 6 Footage Featuring Lucia Naked",
-   "u": "https://www.imdb.com/fr/news/ni66063856/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -755,11 +732,7 @@
    "d": "2026-10-22T15:12:54+00:00",
    "lang": "en",
    "t": "Cyberleek Shares GTA 6 Leak Of Naked Lucia",
-   "u": "https://www.imdb.com/news/ni66062173/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -820,7 +793,7 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
    "t": "Le token CYBERLEEK chute de 40 % alors que le leaker de GTA 6 lance de nouvelles menaces",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -829,7 +802,7 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
    "t": "GTA VI : CYBERLEEK abandonne ses leaks et annule la diffusion du jeu complet",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
