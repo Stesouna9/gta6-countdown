@@ -1,8 +1,46 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-13T20:12:47+01:00",
+  "updated_at": "2026-11-13T22:13:13+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-maj-ps5-xbox-scenario-gtasix-2026-11-13",
+      "title": "GTA 6 : des mises à jour sur PS5 et Xbox, avec fichiers de scénario modifiés",
+      "summary": "@gtasix_ affirme que GTA 6 a reçu des mises à jour sur PS5 et Xbox, touchant fichiers de scénario, exécutables, shaders, scripts et données du monde, quelques jours avant la sortie. Le post crédite @TexFunz2. Ni Rockstar ni Take-Two n'ont confirmé à cette heure.",
+      "url": "https://x.com/gtasix_/status/2121336988959699174",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rumeur",
+      "published_at": "2026-11-13T20:18:45Z",
+      "checked_at": "2026-11-13T22:13:13+01:00",
+      "evidence": "Vues relevées le 2026-11-13 dans data/x_alertes.json (maj 2026-11-13 21:11 UTC) : 66 956 vues, 1 715 j’aime, 65 reposts (@gtasix_). Aucune reprise vérifiée par un autre compte à cette heure. Mise à jour PS5 déjà couverte par x-patch-01-002-000-ps5-2026-11-13.",
+      "visual": "MISES À JOUR",
+      "image": "https://pbs.twimg.com/media/HXARMvtXwAAnhRT?format=jpg&name=small",
+      "image_alt": "Image du post de @PlaystationSize sur la mise à jour de GTA 6 (illustration, la publication de @gtasix_ n'a pas d'image)",
+      "image_credit": "@PlaystationSize sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "GTA 6 has now received updates on both PS5 and Xbox, with changes to story files, game executables, shaders, scripts, and world data just days before launch."
+    },
+    {
+      "id": "x-jason-lucia-acteurs-devoiles-2026-11-13",
+      "title": "GTA 6 : les acteurs de Jason et Lucia seront révélés dans cinq jours, selon @gtasix_",
+      "summary": "@gtasix_ annonce que les acteurs de Jason et Lucia seront dévoilés « dans cinq jours ». Le post compte 78 310 vues, 2 859 j’aime et 97 reposts au relevé. Il s’agit d’une annonce d’un compte fan, non d’une communication de Rockstar.",
+      "url": "https://x.com/gtasix_/status/2121317171968270562",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rumeur",
+      "published_at": "2026-11-13T19:00:00Z",
+      "checked_at": "2026-11-13T22:13:13+01:00",
+      "evidence": "Vues relevées le 2026-11-13 dans data/x_alertes.json (maj 2026-11-13 21:11 UTC) : 78 310 vues, 2 859 j’aime, 99 marque-pages (@gtasix_). Aucune reprise vérifiée par un autre compte à cette heure.",
+      "visual": "JASON LUCIA",
+      "image": "https://pbs.twimg.com/media/HWzSmUqWYAAYeXs?format=jpg&name=small",
+      "image_alt": "Comparatif artwork et capture en jeu de Jason et Lucia (image d'un post antérieur de @GTAVI_Countdown, le post de @gtasix_ n'a pas d'image)",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Jason and Lucia’s actors will finally be revealed in just 5 days."
+    },
     {
       "id": "x-vice-city-4k-gtasix-2026-11-13",
       "title": "GTA 6 : une nouvelle image de Vice City en 4K circule sur X",
@@ -3602,6 +3640,11 @@
       "at": "2026-11-13T20:12:47+01:00",
       "label": "Passage manuel Claude Haiku (x_alertes.json)",
       "summary": "2 sujets X ajoutés (≥ 20 000 vues, compte unique) : Vice City 4K (120 280 vues) et GTA 6 vs réalité (81 425 vues). Écartés : posts < 20 000 vues sans reprise ; comparaison @GTAVI_Countdown (25 242) traitée comme contexte du second sujet ; « Only in Vice City » @gta6hubfr (12 832) déjà couvert par le troisième extrait ou sous le seuil."
+    },
+    {
+      "at": "2026-11-13T22:13:13+01:00",
+      "label": "Passage manuel Claude Haiku (Matière X)",
+      "summary": "2 sujets X ajoutés (≥ 20 000 vues, compte unique) : acteurs de Jason et Lucia annoncés pour « dans cinq jours » (78 310 vues, @gtasix_) ; mises à jour PS5 et Xbox avec fichiers de scénario (66 956 vues, @gtasix_, crédit @TexFunz2). Écartés : extrait GTA 6 relayé par @GTAVI_Countdown (81 448 vues) sur le même thème « GTA 6 vs réalité » déjà publié ; Only in Dade, Macca & Friends, Twitch, posts < 20 000 vues sans reprise. Source X : data/x_alertes.json, maj 2026-11-13 21:11 UTC."
     }
   ],
   "coverage": {
