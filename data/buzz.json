@@ -1,8 +1,46 @@
 {
  "title": "Le buzz GTA6",
- "updated_at": "2026-11-13T00:12:00+01:00",
+ "updated_at": "2026-11-13T08:12:44+01:00",
  "schedule": "Veille toutes les 2 h, de 8 h à minuit",
  "items": [
+  {
+   "id": "x-rusty-anchor-captures-reelles-2026-11-13",
+   "title": "GTA 6 : dix nouvelles captures du Rusty Anchor en vrai, décoré par Rockstar",
+   "summary": "@GTAVI_Countdown relaie dix nouvelles captures du bar réel « Rusty Anchor », décoré par Rockstar avec des références au jeu. Le post cite aussi une mention de l'ouragan Hurricane Roxy dans la presse locale ; la source d'origine n'est pas précisée dans le post, et Rockstar n'a pas commenté.",
+   "url": "https://x.com/GTAVI_Countdown/status/2121120415728697661",
+   "platform": "X",
+   "author": "@GTAVI_Countdown",
+   "status": "Rapporté",
+   "published_at": "2026-11-13T05:58:10.000Z",
+   "checked_at": "2026-11-13T08:12:44+01:00",
+   "evidence": "Vues relevées le 2026-11-13 dans data/x_alertes.json : 43 991 vues ; 19 replies, 52 reposts, 1 077 likes, 173 bookmarks. @GTAlphaintel relaie le même bar (10 000 vues, sujet Key Largo déjà publié).",
+   "visual": "RUSTY ANCHOR",
+   "image": "https://pbs.twimg.com/media/HW-7cozWcAAvhph?format=jpg&name=360x360",
+   "image_alt": "Image du post de @GTAVI_Countdown sur le Rusty Anchor",
+   "image_credit": "@GTAVI_Countdown sur X",
+   "embed_type": "x",
+   "cta": "Ouvrir la publication sur X",
+   "post_text": "UPDATE: 10 new screenshots were found at Rusty Anchor in real life, which Rockstar filled with references from the game."
+  },
+  {
+   "id": "x-ps5-pro-60-fps-build-2026-11-13",
+   "title": "GTA 6 : une build à 60 FPS sur PS5 Pro aurait exigé de retirer voitures et PNJ",
+   "summary": "@gtasix_ affirme qu'une version du jeu tournait à 60 images par seconde sur PS5 Pro, au prix de la suppression de toutes les voitures et de la plupart des PNJ. L'information est relayée d'un compte tiers (@manfightdragon) ; aucune confirmation officielle.",
+   "url": "https://x.com/gtasix_/status/2121025872396194164",
+   "platform": "X",
+   "author": "@gtasix_",
+   "status": "Rumeur",
+   "published_at": "2026-11-12T23:42:29.000Z",
+   "checked_at": "2026-11-13T08:12:44+01:00",
+   "evidence": "Vues relevées le 2026-11-13 dans data/x_alertes.json : 669 488 vues ; 278 replies, 539 reposts, 16 422 likes, 1 278 bookmarks. Source citée : @manfightdragon, non vérifiée. Un seul compte relevé.",
+   "visual": "PS5 PRO",
+   "image": "https://pbs.twimg.com/media/HW9lyJYWQAAXiZl?format=jpg&name=360x360",
+   "image_alt": "Image du post de @gtasix_ sur une build PS5 Pro de GTA 6",
+   "image_credit": "@gtasix_ sur X",
+   "embed_type": "x",
+   "cta": "Ouvrir la publication sur X",
+   "post_text": "GTA 6 had a build running at 60 FPS on PS5 Pro, but achieving it required removing all cars and most NPCs. (Via @manfightdragon)"
+  },
   {
    "id": "x-playstation-ps5-une-semaine-precommande-2026-11-12",
    "title": "GTA 6 : PlayStation annonce une sortie sur PS5 dans une semaine, précommandes ouvertes",
@@ -3376,6 +3414,11 @@
    "at": "2026-11-13T00:12:00+01:00",
    "label": "Passage · Matière X : 3 sujets ajoutés (PlayStation une semaine, listening parties, 11,27 M précommandes)",
    "summary": "Relevé data/x_alertes.json (maj 2026-11-12 20:24 UTC). Ajoutés : post officiel PlayStation (118 383 vues, Officiel) ; listening parties de l’album le 18 novembre, relayées par @gtasix_ (29 495 vues, Rapporté, corroboré par @RockstarNewsFRA) ; estimation Sensor Tower de 11,27 M de précommandes (@gtasix_, 41 721 vues, Rumeur, un seul compte). Non retenus : artworks compilés par @GTAVI_Countdown (78 966 vues, déjà couverts par la veille artworks) ; concours @gta6hubfr (sans information sur le jeu) ; YouTube Launch Day (8 860 vues, sous le seuil)."
+  },
+  {
+   "at": "2026-11-13T08:12:44+01:00",
+   "label": "Passage · Matière X : 2 sujets ajoutés (Rusty Anchor, build PS5 Pro)",
+   "summary": "Relevé data/x_alertes.json (maj 2026-11-13 07:11 UTC). Ajoutés : dix captures du Rusty Anchor relayées par @GTAVI_Countdown (43 991 vues, Rapporté) ; build 60 FPS sur PS5 Pro selon @gtasix_ (669 488 vues, Rumeur, un seul compte). Non retenus : post @GTAVI_Countdown « 6 days out » (21 945 vues, simple compte à rebours, sans information) ; post @GTAVI_Countdown sur les boîtes physiques (21 552 vues, mention #ad, promotion Amazon) ; @GTAlphaintel sur le poster PS5 (12 283 vues, sous le seuil) ; concours @gta6hubfr (sans information sur le jeu)."
   }
  ],
  "coverage": {
