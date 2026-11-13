@@ -1,8 +1,28 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-13T16:02:00+01:00",
+  "updated_at": "2026-11-13T18:12:53+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-only-in-dade-troisieme-extrait-2026-11-13",
+      "title": "GTA 6 : un troisième extrait « Only in Dade » circule sur X, relayé par des comptes de fans",
+      "summary": "@gtasix_ annonce « NEW GTA 6 gameplay footage » avec 163 216 vues. @GTAVI_Countdown affirme que Rockstar a envoyé un troisième extrait à @ONLYinDADE, et @RockstarNewsFRA relaie la vidéo avec la mention « Via @ONLYinDADE ». Ni Rockstar ni le compte source n’ont été vérifiés à cette heure.",
+      "url": "https://x.com/gtasix_/status/2121280386986582343",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rapporté",
+      "published_at": "2026-11-13T16:33:50Z",
+      "checked_at": "2026-11-13T18:12:53+01:00",
+      "evidence": "Vues relevées le 2026-11-13 dans data/x_alertes.json : 163 216 (@gtasix_), 24 407 (@GTAVI_Countdown, https://x.com/GTAVI_Countdown/status/2121280501524955212), 1 317 (@RockstarNewsFRA, https://x.com/RockstarNewsFRA/status/2121280935232507966). Trois comptes reprennent la vidéo ; la source de la vidéo est @ONLYinDADE, non ouverte (accès direct absent).",
+      "visual": "TROISIÈME EXTRAIT",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2121280348432506880/img/aNxg6J68LjFF8bi9.jpg",
+      "image_alt": "Image de la vidéo publiée par @gtasix_ annonçant un nouvel extrait de GTA 6",
+      "image_credit": "@gtasix_ sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "BREAKING: NEW GTA 6 gameplay footage JUST DROPPED.",
+      "article": "journal/2026-11-13-troisieme-extrait-only-in-dade-gta6.html"
+    },
     {
       "id": "x-macca-friends-trailer-2026-11-13",
       "title": "GTA 6 : nouvelle bande-annonce de la série in-game « Macca & Friends »",
@@ -3534,6 +3554,11 @@
       "at": "2026-11-13T16:02:00+01:00",
       "label": "Passage · Matière X : 2 sujets ajoutés",
       "summary": "Relevé data/x_alertes.json (maj 2026-11-13 15:02 UTC). Ajoutés : bande-annonce « Macca & Friends » (deux comptes, 125 567 et 105 080 vues) ; générique de la série in-game reprenant l’intro de Big Smoke (26 334 vues, fan). Non retenus : mise à jour mondiale PS5/Xbox (@GTAlphaintel, 20 493 vues), même sujet que la mise à jour 01.002.000 déjà publiée ; 12 M de précommandes (@GTAVI_Countdown, 31 608 vues), même sujet que l’entrée Sensor Tower du 12/11 ; sous le seuil (Xbox Wire « Next Week on XBOX », 1 029 vues ; Zelnick sur les disques, 7 521 vues ; code-in-box aux employés, 4 980 vues)."
+    },
+    {
+      "at": "2026-11-13T18:12:53+01:00",
+      "label": "Passage · Matière X : 1 sujet ajouté",
+      "summary": "Relevé data/x_alertes.json (maj 2026-11-13 17:05 UTC). Ajouté : troisième extrait Only in Dade (163 216 vues, @gtasix_ ; repris par @GTAVI_Countdown et @RockstarNewsFRA). Non retenus : vidéo « Vice City 4K » (984 vues) ; comparaison GTA 6 / réel (11 907 vues, sous le seuil) ; code visible sur la boîte physique (182 635 vues, @GTAVI_Countdown) : astuce de lecture du code à travers l’emballage, non publiée ; employés Rockstar avec leurs copies (196 258 vues, @gtasix_, sans image exploitable et source unique : à reprendre si une image ou une seconde source apparaît)."
     }
   ],
   "coverage": {
