@@ -1,6 +1,6 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-13T10:12:30+01:00",
+  "updated_at": "2026-11-13T12:14:00+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
     {
@@ -3443,6 +3443,11 @@
       "at": "2026-11-13T10:12:30+01:00",
       "label": "Passage · Matière X : 1 sujet ajouté (affiche PS5)",
       "summary": "Relevé data/x_alertes.json (maj 2026-11-13 08:12 UTC). Ajouté : affiche PS5 plus longue que celle de Xbox selon @GTAlphaintel (33 209 vues, Rumeur, un seul compte). Non retenus : post @GTAVI_Countdown « 6 days out » (27 793 vues, compte à rebours sans information) ; post @GTAVI_Countdown sur les boîtes physiques (23 151 vues, mention #ad, promotion Amazon) ; @GTAlphaintel sur le Rusty Anchor (11 716 vues, sujet déjà publié) ; concours et posts @gta6hubfr (sans information sur le jeu)."
+    },
+    {
+      "at": "2026-11-13T12:14:00+01:00",
+      "label": "Passage · Matière X : aucun sujet ajouté",
+      "summary": "Relevé data/x_alertes.json (maj 2026-11-13 10:15 UTC, 10 posts). Aucun nouveau sujet : les posts à plus de 20 000 vues sont déjà publiés (Rusty Anchor 152 623 vues, affiche PS5 63 250 vues, build 60 FPS PS5 Pro 736 179 vues). Non retenus : @GTAVI_Countdown « 6 days out » (36 712 vues, compte à rebours sans information) ; @GTAVI_Countdown sur les boîtes physiques (26 189 vues, mention #ad, promotion Amazon) ; @GTAlphaintel sur le Rusty Anchor (14 242 vues, sujet déjà publié) ; @gta6hubfr concours et posts sans information (moins de 10 000 vues sauf concours à 9 338). Presse data/presse.json (maj 2026-11-13 10:56 UTC) : aucune corroboration nouvelle."
     }
   ],
   "coverage": {
