@@ -1,27 +1,38 @@
 {
- "regle": "Gabriel 10/11 : une astuce du matin doit donner envie de l'ENREGISTRER (carte de Leonida : 99 491 vues, 292 enregistrements, 391 likes, 22 reposts ; c'est la sauvegarde qui fait pousser par X). Critères : actu fraîche, public large, idée à laquelle personne ne pense, prix concrets vérifiés avec source, « Non sponsorisé », angle français. Pistes : gratuit ou officiel et comment en profiter ; économies sur console, jeu ou SSD ; à préparer avant le 19 (stockage, préchargement, heure exacte).",
- "astuces": [
-  {
-   "id": "ssd-ps5-1to-samsung-9100",
-   "post": "💾 GTA 6 = 212 Go à télécharger. Pour ajouter 1 To à votre PS5 sans exploser le budget : Samsung 9100 Pro 1 To (239,99 €) + dissipateur be quiet! MC1 (14,99 €) à monter soi-même, soit 254,98 € chez TopAchat.\n\nDétail des prix en réponse 👇 Non sponsorisé. #GTA6",
-   "reponse": "Repères relevés le 11/11 sur topachat.com :\n• Samsung 9100 Pro 1 To : 239,99 € + dissipateur be quiet! MC1 : 14,99 € = 254,98 € (à monter soi-même)\n• Corsair MP600 Elite 1 To avec dissipateur : 269,99 € (stock limité)\n• Crucial P310 2 To avec dissipateur : 339,99 € (stock limité)\nSource : topachat.com/p/top/meilleur-ssd-ps5-2026",
-   "sources": [
-    "https://www.topachat.com/p/top/meilleur-ssd-ps5-2026"
-   ],
-   "image": "2026-11-10-prechargement-ouvert-ps5-xbox-212-go-gta6",
-   "releve": "2026-11-11",
-   "valable_jusqu_au": "2026-11-19"
-  },
-  {
-   "id": "ps-plus-essential-prix-gta6",
-   "post": "🎮 Avant GTA 6 : PS Plus Essential coûte 8,99 € par mois sur PlayStation Store, facturé automatiquement chaque mois. Vérifiez votre abonnement et votre moyen de paiement avant la sortie du 19/11.\n\nDétail des prix en réponse 👇 Non sponsorisé. #GTA6",
-   "reponse": "Repères relevés le 12/11 sur playstation.com/fr-fr :\n• PS Plus Essential : 8,99 € par mois, facturés automatiquement tous les mois\nSource : playstation.com/fr-fr/ps-plus/",
-   "sources": [
-    "https://www.playstation.com/fr-fr/ps-plus/"
-   ],
-   "image": "2026-11-07-ps5-boite-230-go-fonctions-ligne",
-   "releve": "2026-11-12",
-   "valable_jusqu_au": "2026-11-19"
-  }
- ]
+  "regle": "Gabriel 10/11 : une astuce du matin doit donner envie de l'ENREGISTRER (carte de Leonida : 99 491 vues, 292 enregistrements, 391 likes, 22 reposts ; c'est la sauvegarde qui fait pousser par X). Critères : actu fraîche, public large, idée à laquelle personne ne pense, prix concrets vérifiés avec source, « Non sponsorisé », angle français. Pistes : gratuit ou officiel et comment en profiter ; économies sur console, jeu ou SSD ; à préparer avant le 19 (stockage, préchargement, heure exacte).",
+  "astuces": [
+    {
+      "id": "temps-telechargement-gta6-debit-france",
+      "post": "⏱️ GTA 6 pèse jusqu'à 212 Go. Au débit moyen mesuré en France (462,3 Mb/s, nPerf), le téléchargement prend environ 1 h pour 200 Gio (≈ 215 Go). Détail des calculs en réponse 👇 Non sponsorisé. #GTA6",
+      "reponse": "Repères relevés le 13/11 sur degroupnews.com :\n• Débit descendant moyen en France : 462,3 Mb/s (nPerf)\n• Durée théorique : 100 Gio ≈ 31 min · 150 Gio ≈ 47 min · 200 Gio ≈ 1 h 02\n• 1 Gio ≈ 1,07 Go (base des tableaux)\n• Calcul à débit constant, pas un téléchargement garanti\nSource : degroupnews.com/actualite/gta-vi-la-france-championne-du-telechargement-mais-la-vitesse-ne-fait-pas-tout-pour-jouer",
+      "sources": [
+        "https://www.degroupnews.com/actualite/gta-vi-la-france-championne-du-telechargement-mais-la-vitesse-ne-fait-pas-tout-pour-jouer"
+      ],
+      "image": "2026-11-10-prechargement-ouvert-ps5-xbox-212-go-gta6",
+      "releve": "2026-11-13",
+      "valable_jusqu_au": "2026-11-19"
+    },
+    {
+      "id": "ssd-ps5-1to-samsung-9100",
+      "post": "💾 GTA 6 = 212 Go à télécharger. Pour ajouter 1 To à votre PS5 sans exploser le budget : Samsung 9100 Pro 1 To (239,99 €) + dissipateur be quiet! MC1 (14,99 €) à monter soi-même, soit 254,98 € chez TopAchat.\n\nDétail des prix en réponse 👇 Non sponsorisé. #GTA6",
+      "reponse": "Repères relevés le 11/11 sur topachat.com :\n• Samsung 9100 Pro 1 To : 239,99 € + dissipateur be quiet! MC1 : 14,99 € = 254,98 € (à monter soi-même)\n• Corsair MP600 Elite 1 To avec dissipateur : 269,99 € (stock limité)\n• Crucial P310 2 To avec dissipateur : 339,99 € (stock limité)\nSource : topachat.com/p/top/meilleur-ssd-ps5-2026",
+      "sources": [
+        "https://www.topachat.com/p/top/meilleur-ssd-ps5-2026"
+      ],
+      "image": "2026-11-10-prechargement-ouvert-ps5-xbox-212-go-gta6",
+      "releve": "2026-11-11",
+      "valable_jusqu_au": "2026-11-19"
+    },
+    {
+      "id": "ps-plus-essential-prix-gta6",
+      "post": "🎮 Avant GTA 6 : PS Plus Essential coûte 8,99 € par mois sur PlayStation Store, facturé automatiquement chaque mois. Vérifiez votre abonnement et votre moyen de paiement avant la sortie du 19/11.\n\nDétail des prix en réponse 👇 Non sponsorisé. #GTA6",
+      "reponse": "Repères relevés le 13/11 sur playstation.com/fr-fr :\n• PS Plus Essential : 8,99 € par mois, facturés automatiquement tous les mois\nSource : playstation.com/fr-fr/ps-plus/",
+      "sources": [
+        "https://www.playstation.com/fr-fr/ps-plus/"
+      ],
+      "image": "2026-11-07-ps5-boite-230-go-fonctions-ligne",
+      "releve": "2026-11-13",
+      "valable_jusqu_au": "2026-11-19"
+    }
+  ]
 }
