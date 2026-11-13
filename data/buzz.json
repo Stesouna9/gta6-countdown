@@ -1,8 +1,46 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-13T14:12:49+01:00",
+  "updated_at": "2026-11-13T16:02:00+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-macca-friends-trailer-2026-11-13",
+      "title": "GTA 6 : nouvelle bande-annonce de la série in-game « Macca & Friends »",
+      "summary": "@GTAVI_Countdown annonce une nouvelle bande-annonce de « Macca & Friends », la série animée diffusée dans le jeu GTA 6. @gtasix_ la relaie en la créditant à @DiscussingFilm. Les deux publications ont circulé le 13 novembre en début d’après-midi.",
+      "url": "https://x.com/GTAVI_Countdown/status/2121242136473686307",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "2026-11-13T14:01:50Z",
+      "checked_at": "2026-11-13T16:02:00+01:00",
+      "evidence": "Vues relevées le 2026-11-13 dans data/x_alertes.json : 105 080 (@GTAVI_Countdown), 125 567 (@gtasix_, qui crédite @DiscussingFilm). Deux comptes reprennent l’information ; non confirmée par Rockstar à cette heure.",
+      "visual": "MACCA & FRIENDS",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2121241649133060097/img/K-3SI4_8j-I8bdKq.jpg",
+      "image_alt": "Image de la vidéo annoncée par @GTAVI_Countdown : bande-annonce de « Macca & Friends »",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "JUST IN: New trailer for the GTA 6 in-game show “Macca & Friends”"
+    },
+    {
+      "id": "x-tv-show-big-smoke-intro-2026-11-13",
+      "title": "GTA 6 : le générique de la nouvelle série in-game reprend l’intro de Big Smoke",
+      "summary": "@GTAVI_Countdown relève que le nouveau générique de la série télévisée in-game de GTA 6 fait référence à l’intro culte de Big Smoke dans GTA San Andreas. Il s’agit d’une lecture des fans, non d’une annonce de Rockstar.",
+      "url": "https://x.com/GTAVI_Countdown/status/2121248744335384657",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "2026-11-13T14:28:06Z",
+      "checked_at": "2026-11-13T16:02:00+01:00",
+      "evidence": "Vues relevées le 2026-11-13 dans data/x_alertes.json : 26 334 (@GTAVI_Countdown), 889 j’aime et 126 signets. Publication d’un compte fan ; aucune confirmation officielle à cette heure.",
+      "visual": "GÉNÉRIQUE SÉRIE",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2121248586969022464/img/GFrT5MrX1Fbs09P0.jpg",
+      "image_alt": "Image de la vidéo publiée par @GTAVI_Countdown sur le générique de la série in-game de GTA 6",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "The new GTA 6 TV show opening is a reference to the iconic Big Smoke intro from GTA San Andreas."
+    },
     {
       "id": "x-patch-01-002-000-ps5-2026-11-13",
       "title": "GTA 6 : une mise à jour 01.002.000 sur PS5, déployée par moitiés",
@@ -3491,6 +3529,11 @@
       "at": "2026-11-13T14:12:49+01:00",
       "label": "Passage · Matière X : 2 sujets ajoutés",
       "summary": "Relevé data/x_alertes.json (maj 2026-11-13 12:18 UTC). Ajoutés : mise à jour 01.002.000 PS5 (trois comptes, 1,07 Go, déploiement par moitiés) ; photo de fan GTA 5 / GTA 6 (186 795 vues, création de fan). Non retenus : @GTAVI_Countdown « 6 days out » (44 758 vues, compte à rebours déjà couvert par un sujet) ; @GTAVI_Countdown boîtes physiques (lien Amazon marqué #ad, promotion) ; posts sous 20 000 vues sans reprise."
+    },
+    {
+      "at": "2026-11-13T16:02:00+01:00",
+      "label": "Passage · Matière X : 2 sujets ajoutés",
+      "summary": "Relevé data/x_alertes.json (maj 2026-11-13 15:02 UTC). Ajoutés : bande-annonce « Macca & Friends » (deux comptes, 125 567 et 105 080 vues) ; générique de la série in-game reprenant l’intro de Big Smoke (26 334 vues, fan). Non retenus : mise à jour mondiale PS5/Xbox (@GTAlphaintel, 20 493 vues), même sujet que la mise à jour 01.002.000 déjà publiée ; 12 M de précommandes (@GTAVI_Countdown, 31 608 vues), même sujet que l’entrée Sensor Tower du 12/11 ; sous le seuil (Xbox Wire « Next Week on XBOX », 1 029 vues ; Zelnick sur les disques, 7 521 vues ; code-in-box aux employés, 4 980 vues)."
     }
   ],
   "coverage": {
