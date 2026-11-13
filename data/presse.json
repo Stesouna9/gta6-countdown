@@ -1,13 +1,21 @@
 {
- "maj": "2026-11-13T20:09:37+00:00",
+ "maj": "2026-11-13T20:30:08+00:00",
  "articles": [
+  {
+   "gn": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMHkwQ1Y0UkpidUYtWXFVWE1SdUp5aUs2TlBMWC1UaE4zQ2FTc0RJbVg4TVZTQUZVOWZIdFNnSzN1RGt3MGFjRFdfa25CZ3F0djBhS2YyMG95VXBrS0NXamVRUVNwOGFRd0RVeE1URU02UFkzVFplZV9vTTZSRm81Ymljd3BYTHJ1UXhTNF9SN3NsYW55YmdvaU4xaWR5VWQxZjhnQ2FTdXV3TTdpdEE?oc=5",
+   "s": "20 Minutes",
+   "d": "2026-11-13T20:22:00+00:00",
+   "lang": "fr",
+   "t": "Déstockage PS5 : 5 offres à prix records avant la sortie de GTA 6",
+   "erreur": "HTTP Error 429: Too Many Requests"
+  },
   {
    "gn": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQUXMwSzdiN3N0dkhNSFlxQnRDT1l5ZS1iY0Q0N3JhQk1YeGJZVDljSVVWU0lzancxOEx2WGk5ZDkwUlFKRnhUdWJ4eVZ5T2tuVDlESXJTVm0yZkF4Zy1oRDJkTjk1Q0Z1ZFYyc3VjVE9wRG12cGNpeU9BVEs0SnFSN0JJRW02al9EWUpRWjQ1S0hKU1Jua3Y5RW5Razl2M2FiYVQyRFJ4eGZGMm5lTWF0U2dLeDFOeFQwMWZjbXI0dWtTaWJmZ3VMNkhhNnF6S2hzTm9sRGdIa25wT1pZ?oc=5",
    "s": "Le Parisien",
    "d": "2026-11-13T20:00:16+00:00",
    "lang": "fr",
    "t": "Comment GTA a survécu pendant 13 ans grâce au « roleplay »",
-   "erreur": "HTTP Error 429: Too Many Requests"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQM2JWT1N0TWx5TzRxVDdWQVRabTN1aEVkcXFwX3pqUXB0NjFXYWc2TEkzREViaUVTTUgxRXJIa1ExeEk4aGJrOVNpVWU5blFYQTVlY2ZZSlIyMG9UcVVzRmU0MmJIanF3d2d1bWQ2czVkRV80S1JVSU9HSmVQT1hlcDFwMC00aTRYNkNGTzZfUjJhTE5jWlNESENzWUZZamFFeHhsQ0VZQjE?oc=5",
@@ -39,14 +47,6 @@
    "d": "2026-11-13T19:27:55+00:00",
    "lang": "fr",
    "t": "Ils sont dans GTA 6",
-   "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQd2lHSWtPWUdEdnJRQzh3eU4yQzlwVWQ5dTRGYTAyQkV6S01uNEZPaVRZaWkxOGFsRGR6bE1GUFJOcGw4Q1hlV2NHUWdIcU15R0VyTEtRa1ZlZ3JYakVXMFJzOG94NVdFNVQyT0ctcTlQTkVZODlCWU5oNi01TTJRZUJ1bW11cTRfcGNj?oc=5",
-   "s": "Pasquale Pillitteri",
-   "d": "2026-11-13T19:10:55+00:00",
-   "lang": "fr",
-   "t": "GTA 6 Online en 2027 pas confirmé, Schreier nuance la vidéo Bloomberg",
    "erreur": "429 : passage suivant"
   },
   {
@@ -402,15 +402,6 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYk0tNzJUaVUtb2VUcU1uTU9BcVVSSThqcXlHN1FPdVk5STlUZzFMM3Vibkhjcm9xdkVYUmRGbkUwLUthT3BnQTdKX2taOXJaazkyTm9YMk43Q216V3pSNmZPQUM1X3R5YUtSOUsxZXNTRWVVeURIcVZPYjJlNmhyejVEM3o?oc=5",
-   "s": "Sportskeeda",
-   "d": "2026-11-13T11:05:00+00:00",
-   "lang": "en",
-   "t": "GTA 6 vs Red Dead Redemption 2: 7 major changes",
-   "erreur": "429 : passage suivant",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOc1ItZjZBMnc3MFVEQnptSkJxd29qc29kSDZDZUN2NWlUaWRzQnNCY19ONkhfSE9Cc01aWC1IbUVncXFKZ1V4NlAxUGY4azgwZ2VweE50dTI3MW1Lckd5LVZGNWNWQlpEY0NmTl9UaWc4SlBjei1pZ3hrTFJZUjAxMW9MbHMyd2xPa29Mc3JrTEtOc0NEeUVCTEtWRWNaMktTRWR4bmVobnUwdTVkVlhrNW5qUQ?oc=5",
    "s": "IGN India",
    "d": "2026-11-13T10:57:31+00:00",
@@ -521,6 +512,15 @@
    "chapeau": "A week before launch, Rockstar’s official map of Leonida has surfaced through a store display and a deleted unboxing, revealing a long list of locations we hadn’t heard of before.",
    "txt": "Leaked meeting minutes show South Korea’s ratings board was split down the middle on whether to ban GTA 6 outright before finally settling on an Adults Only rating.",
    "pub": "2026-11-12T19:42:38.571Z",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPLWJhSE0ycHFDU2d0V01hUGhOWUwtOFdCRzB2YlB0THdMYktPejZVYUFxbjh0SFVoLXNLc0E4S2dORE51UG5uZ2pKbzBXZ2FjU2ZBcDQzcktoM2UxZjZVbmQxWFhNYnVrYkdMUWo0cy0tREVYQVhGU1ExZllmcWtuekdvMmx6RHZmSDhRQ0JFU3dJVUdEeTlFZ0NXd0tXR21RMU9PbGI0NHpoZm02d1JwcjNfWTVsbE1MLTVxWEVESHlkSnRwYW00dzA0SURLVlVuWkhWZDFLaGs2Nk1aLWhSQXlobkJMUWJuTWU3Vml0ekhnSEdBYWZTTUtUTy01NzZMS0hrblJQZ3M?oc=5",
+   "s": "PC Gamer",
+   "d": "2026-11-12T19:06:41+00:00",
+   "lang": "en",
+   "t": "South Korean game rating board almost blocked GTA 6's release, fearing its 'out-of-context genital nudity' would 'disrupt social order'",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
