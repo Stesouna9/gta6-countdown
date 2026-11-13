@@ -1,8 +1,46 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-13T12:14:00+01:00",
+  "updated_at": "2026-11-13T14:12:49+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-patch-01-002-000-ps5-2026-11-13",
+      "title": "GTA 6 : une mise à jour 01.002.000 sur PS5, déployée par moitiés",
+      "summary": "@PlaystationSize annonce la mise à jour 01.002.000 de GTA 6 sur PS5, disponible pour 50 % des utilisateurs, le reste annoncé dans 11 heures. @gtasix_ parle d’un téléchargement de 1,07 Go, et @GTAVI_Countdown relaie la nouvelle mise à jour.",
+      "url": "https://x.com/PlaystationSize/status/2121214348764848474",
+      "platform": "X",
+      "author": "@PlaystationSize",
+      "status": "Rapporté",
+      "published_at": "2026-11-13T12:11:25Z",
+      "checked_at": "2026-11-13T14:12:49+01:00",
+      "evidence": "Vues relevées le 2026-11-13 dans data/x_alertes.json : 6 720 vues (@PlaystationSize), 15 082 (@gtasix_), 8 878 (@GTAVI_Countdown). Trois comptes reprennent l’information ; non confirmée par Sony ou Rockstar à cette heure.",
+      "visual": "MISE À JOUR PS5",
+      "image": "https://pbs.twimg.com/media/HXARMvtXwAAnhRT?format=jpg&name=small",
+      "image_alt": "Image du post de @PlaystationSize annonçant la mise à jour 01.002.000 de GTA 6 sur PS5",
+      "image_credit": "@PlaystationSize sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "GTA 6 update 01.002.000 has been released, but it is not available for all users. It is currently available to the first 50% (Users), and it will be available to the remaining 50% in 11 hours."
+    },
+    {
+      "id": "x-fan-photo-gta5-2013-gta6-2026-2026-11-13",
+      "title": "GTA 6 : une fan refait à l’identique une photo de GTA 5 prise en 2013",
+      "summary": "@GTAVI_Countdown relaie la photo d’une fan qui a recréé, treize ans après, une image prise dans GTA 5 (2013), cette fois dans GTA 6 (2026). Création de fan, non officielle.",
+      "url": "https://x.com/GTAVI_Countdown/status/2121194976189301229",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Création de fan",
+      "published_at": "2026-11-13T10:54:26Z",
+      "checked_at": "2026-11-13T14:12:49+01:00",
+      "evidence": "Vues relevées le 2026-11-13 dans data/x_alertes.json : 186 795 vues, 4 530 likes, 140 reposts, 223 bookmarks (@GTAVI_Countdown). Un seul compte relevé.",
+      "visual": "PHOTO FAN",
+      "image": "https://pbs.twimg.com/media/HW__emhWgAA6m14?format=jpg&name=360x360",
+      "image_alt": "Image du post de @GTAVI_Countdown : photo recréée par une fan, GTA 5 en 2013 et GTA 6 en 2026",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "A fan recreated her photo from 13 years ago. (GTA 5 - 2013) (GTA 6 - 2026)"
+    },
     {
       "id": "x-poster-ps5-plus-long-que-xbox-2026-11-13",
       "title": "GTA 6 : l'affiche PS5 serait plus longue que celle de Xbox",
@@ -3448,6 +3486,11 @@
       "at": "2026-11-13T12:14:00+01:00",
       "label": "Passage · Matière X : aucun sujet ajouté",
       "summary": "Relevé data/x_alertes.json (maj 2026-11-13 10:15 UTC, 10 posts). Aucun nouveau sujet : les posts à plus de 20 000 vues sont déjà publiés (Rusty Anchor 152 623 vues, affiche PS5 63 250 vues, build 60 FPS PS5 Pro 736 179 vues). Non retenus : @GTAVI_Countdown « 6 days out » (36 712 vues, compte à rebours sans information) ; @GTAVI_Countdown sur les boîtes physiques (26 189 vues, mention #ad, promotion Amazon) ; @GTAlphaintel sur le Rusty Anchor (14 242 vues, sujet déjà publié) ; @gta6hubfr concours et posts sans information (moins de 10 000 vues sauf concours à 9 338). Presse data/presse.json (maj 2026-11-13 10:56 UTC) : aucune corroboration nouvelle."
+    },
+    {
+      "at": "2026-11-13T14:12:49+01:00",
+      "label": "Passage · Matière X : 2 sujets ajoutés",
+      "summary": "Relevé data/x_alertes.json (maj 2026-11-13 12:18 UTC). Ajoutés : mise à jour 01.002.000 PS5 (trois comptes, 1,07 Go, déploiement par moitiés) ; photo de fan GTA 5 / GTA 6 (186 795 vues, création de fan). Non retenus : @GTAVI_Countdown « 6 days out » (44 758 vues, compte à rebours déjà couvert par un sujet) ; @GTAVI_Countdown boîtes physiques (lien Amazon marqué #ad, promotion) ; posts sous 20 000 vues sans reprise."
     }
   ],
   "coverage": {
