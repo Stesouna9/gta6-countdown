@@ -1,6 +1,14 @@
 {
- "maj": "2026-11-13T00:23:07+00:00",
+ "maj": "2026-11-13T00:43:20+00:00",
  "articles": [
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1FNUhVdW9iNVJNbjRja2lOQUswRGQxTWV5LXlvU0IwR2xOWXVzUnlQS25KdzlqSmViSE0tMmFSRGhyanN5VkJXWVJNVkFFSUR4VUpOc3ExektTLUU3VUNCZUdoU0FnUDQ?oc=5",
+   "s": "IMDb",
+   "d": "2026-11-13T00:35:45+00:00",
+   "lang": "en",
+   "t": "‘GTA 6’ Gets a Surprising Sci-Fi Comparison From a Netflix Exec Ahead of Launch",
+   "erreur": "429 : passage suivant"
+  },
   {
    "gn": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNnpEc3NxZXc5NkdWTWcyVDJfZXlKUlkwT2VSSDNGblMtVnlzV1pySUY4UjdNc0lja3gzelN6WlVqaGRyeUdlMVBCQk5Kc3JPSEtzbVNsSjc5dlZwSDFiTnlLRnRYTVFSV2U2Q2t5LW4yeEFvdFFOS0hwQ0g2aDJZcXZ4NmEyalFFbFNaLWw1UnN4SHBvejcwLUNxQ1JaZ2NmZFkwX28wb0pleDd6SlRJ?oc=5",
    "s": "Inven Global",
@@ -19,7 +27,7 @@
    "d": "2026-11-12T23:34:07+00:00",
    "lang": "en",
    "t": "GTA 6 Could Leave Millions of Desks Empty on Launch Day, Survey Suggests",
-   "erreur": "<urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)>"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNV9zeDlCS1htMnpyZ1dXbXBXZjNlc1VudzBsRmJNWkVueDFmMVVKbVdpNi1ldGwxT3N5aFBfRFRJMzdfVmEwcFJQZFdZOEJROFlaUnNKSi1Vc2FNRFVGYkw2cDZRa05QeUxTZjlIN3BvYnVuV18zSDlxSjBNUzdSd0pGZVUybmFySHgyOGc4ampSUkU?oc=5",
@@ -137,7 +145,7 @@
    "d": "2026-11-12T21:31:00+00:00",
    "lang": "en",
    "t": "GTA 6 Was Almost Banned in Korea Ahead of Launch",
-   "erreur": "<urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)>"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZ2lHb2FTa0Vra1NKVlFEbVZQb0NvOW5UWEZYb2dtMzNtSUxXSFp0ems1SXdRWGtuV0JnNk1aWlNmRVdOS3FUdlU0V0pmVFJyVkJMenNWb29HM1ZYdG5IQVlRd1hObWsweHgzQXNKQWEzUDlLVHBmUjBSeGRQUkc2b2c3WWo4VTI1aFp3OURyRzk5WVdoSVpxZmRjZDdac2hyUlBpWHJTRVNxQldCWDdVVXF1TEVYUDJ60gHAAUFVX3lxTE1NSHBTR2lWOEdwTDFsUWRLZk9vaUNEaDJkQ2NwdnF1MDEtQnNtU3RCYW9fWXBORE01NVhyUEs5YkVrYnZKd2xscnM4VnhXalp2Zy05S0VsRnJ1dTJJNVNBRHpwaWxjeklhLXlfN2U1MFdDQVdOU3dlbU5QZE5vRVA0QXhTdXlSbm5FcURnYUVET1pBeXNnTmlaclVGb3NVc1RLY3pDWlFqN0w3RUFBbW96MWMxN1N2ZGZpa0FlclNxYQ?oc=5",
@@ -157,7 +165,7 @@
    "d": "2026-11-12T21:20:07+00:00",
    "lang": "fr",
    "t": "GTA 6 : Non, cette vidéo n'est pas filmée à Miami... à la surprise générale, Rockstar partage ces images frappantes du jeu",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "HTTP Error 429: Too Many Requests"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBzOS1MN2I3dXhYeUt2aUY3ak8wekdxdUJWbk01X1hrdWp5MkVib3lyTzVNazQ3NG41Ui12VmJWdHlxdVhTYjdqX1NXeV83cjg5YWVtYXF2amNFT0FuSmdaQl9BZXpKUdIBa0FVX3lxTE9LNjBpN0UtLUVMY1Z6SHdXMGEwamNWeUdSaWxLN3JpdHVwemo2cjFKbnlOVE5qNkdLZUJVRndUcHYzMFJvSjRHdXFJYnFMSk1tZGJkVmhyblBEOFRqcGJSWTJiUXkwOHVfcko0?oc=5",
@@ -165,19 +173,7 @@
    "d": "2026-11-12T21:10:40+00:00",
    "lang": "en",
    "t": "Rockstar and Vice City take over Miami for GTA 6",
-   "u": "https://www.fox35orlando.com/video/fmc-ngkiiyx9qj31812t",
-   "img": "https://images.foxtv.com/static-media.fox.com/fmcv3/prod/fts/3x2r39w3e7dhewye/1200/630/5pdvm04ujkk0zk55.jpg?ve=1&tl=1",
-   "chapeau": "Tharin White, Lead Publisher with EYNTK.info joins FOX 35's Garrett Wymer live via Zoom to break down the real-life promotions and partnerships between Rockstar Games, Sony PlayStation and restaurants and business in South Florida and the Greater Miami area, dubbing over Vice City to promote the most anticipated video game of all time, Grand Theft Auto VI ahead of its worldwide release on November 19.",
-   "txt": "",
-   "pub": ""
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB5cHR5OGxmMkxOOGItdkppRG1JM2hyZmdpZTNlVi1aNE01XzFkSGJ0dnVMX1hPLTl0eS1yMTZiUk5LcWYyZzRkRnpwaHVJX2paeHh0TS1sNkNsazZ1QVk4NGNQZTRRYTlJVlk0eThLRnZIai1PNGloUURvc3A?oc=5",
-   "s": "Mobalytics",
-   "d": "2026-11-12T21:10:25+00:00",
-   "lang": "en",
-   "t": "GTA 6 is Coming To PC!",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONHh1RW9zYnNDbHlfZjdhMkZCNW1vODRZZmRuQUJsVFFrU2FYWlhYSURiRDhPTEpBRF9ObHlzRHhURlphOTdvRU5GTzF2YXdZYzZQQUJTMW5nUnFOYWoyVHV2akJ2ejBrek9RZUtFc3N6YVE4Z0RQUXZNX3JaZGs4OGxOY3d2MkgyYmh0MTBWaHRVNFJRd3FSVFdjdEs?oc=5",
@@ -197,7 +193,7 @@
    "d": "2026-11-12T20:41:53+00:00",
    "lang": "fr",
    "t": "Le lancement de GTA 6 prévu le 19 novembre devrait dépasser largement le cadre du jeu vidéo",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxOd29aVHhwWDlvY1MtRkF6dXdxb2FYX3MweDgySGNHTFBKSEJhZjlFRUt3NDhYaGo0TnJfTlVmZWVPWW9OLW0zR3BVUEtIQ3l6bHlISmtyTHR3b01nbGs1UmRsNHBzQ0Njel9rSDloS1NoUVlEZ1czUFc1WUNmcTFFV0xVbkdMc1VkeWIxMHhIcV93aXZrZ2ZEcU54T0dIdVNEQ3lJVFFZRmVmNHRhaHRhYks0ZC15QURjb3R5SG9iWHZEdmpuYjRQOGVrMUxVcks5T3VqNndYaGMzM1oxSEt4UTlaZGtmZElQaE5rUi11UHpRVEo1Ulg1WGgxUGRNZWM5VXlHNms2c3FjSFlseG5kcUROU2pMRmRoOXlGMk9OeU1FVHAzMUxtbG5zRQ?oc=5",
@@ -205,15 +201,7 @@
    "d": "2026-11-12T20:23:02+00:00",
    "lang": "fr",
    "t": "La moins chère est sur E.Leclerc : la manette PS5 édition limitée GTA 6 est-elle en stock ce vendredi 13 novembre ?",
-   "erreur": "HTTP Error 403: Forbidden"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTjV6YzJ3blFyV1Z5N21JOFN2a1ZkY0JQY3lyLW5RbXRLdGNoZlVJOTJqS2JGYVdyUFZoZlF6WUoza05zejIwdUVuUUpfUDZ4TWFtbUN5VUNPMEFwQkZ2MTZLM1BmeXFzZTRiaWpGZ0hSM2JOLWxSUGc2VDU2Qm14MjBmQ01fSTByM1lxTzFtLTZxaTRKa1E?oc=5",
-   "s": "Pasquale Pillitteri",
-   "d": "2026-11-12T20:07:44+00:00",
-   "lang": "fr",
-   "t": "La carte de GTA 6 arrive gratuite à imprimer, mais pas dans la boîte",
-   "erreur": "Remote end closed connection without response"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdkdWWk5Eb2MyZGswbHFQZW14dlRad3VPY0VKMjNZNjJsT1BMVVlSTkpYemtTWjVvdFpCaTV6Q1NOWkFBLWxwTWdBRVZuZDRlaVIybXNGaHQ5Vk1KWVZfSHpibkVMVWVrQzJ2MXhlcFpnV192RjZORXB2c1RERHBPRi1TaEVXUkFwdzFQQ3hvNWpPVTVYNXAxaHQ3NFFJeC1qQWRFTlFfcTJvUE10YTJGUDZaZU9pQQ?oc=5",
@@ -238,6 +226,15 @@
    "chapeau": "A week before launch, Rockstar’s official map of Leonida has surfaced through a store display and a deleted unboxing, revealing a long list of locations we hadn’t heard of before.",
    "txt": "Leaked meeting minutes show South Korea’s ratings board was split down the middle on whether to ban GTA 6 outright before finally settling on an Adults Only rating.",
    "pub": "2026-11-12T19:42:38.571Z",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSEMyY242NEhBSXFCX1FBRk1BS2tTeHNlVk5XQ2U0NTk0RGRzMjN3dXZDVFNvbzJmZVFobjNFUHBTWEx3NDhJUVRHamFtcm9JQlBicklaN1UtUTd2NGozT0xocy1pS1pvdFI4V2trWUVJM3JDOVRaTUtvclZnTEdfYVBVWjRBbXdZZFhYWTdjeU9qUDZtU01kVDBhaHZtQjd3ZWlIWUpxWWlBMUk?oc=5",
+   "s": "Dexerto",
+   "d": "2026-11-12T19:23:47+00:00",
+   "lang": "en",
+   "t": "New GTA 6 gameplay is so realistic fans can’t believe it’s not real life",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -308,7 +305,7 @@
    "d": "2026-11-12T18:00:02+00:00",
    "lang": "fr",
    "t": "« On a pété tous les scores » : la sortie de GTA 6 bouscule ce Micromania près de Morlaix",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaVJzMWhYRlFFa0NtaDhycURuWTZPbi1lLWFwdE9vS0pveWgydExBUkU5dFhfOVZhLW1NZXNYUThPZ2Zvam5mejEwSXl0REdzT2VGcDhmZWJSY2RYdDZDQkd4Ylk4RjJVdXlyeVZ2UEdheFR2aEVHUFBtVXlsamlQS0ktbHdYVzVWWno2OWlVTW5ESWFhak94Rm03TXI3WGdzNFdmZl9DY1czX3lPS2NqelV3?oc=5",
@@ -341,7 +338,7 @@
    "d": "2026-11-12T17:45:11+00:00",
    "lang": "fr",
    "t": "Zelda aujourd'hui, GTA 6 demain ? Comment l'émulation PC est en train de briser les barrières du gaming",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPd011ejlXcUFTWDRSQ2xSdFpmR3BaNEhCZ2w0azJkWjRHUnV4NXBVOTd0dy1vOE5zcTQzcjAyU2lSTEp5OHpkTWpHM0FnNVF5Y21aZzNyR3NMY0tuZ2Vka2xUMHktVjZmR1ZWMzBLUV94ZHJfSUpxcGNrNkRhdU94eW1zbXpqTDR2Q3BVWE94ZUhfNUJreFFVTDVtRlhkaFJaWG9oVGlWS3dYMVFuZjYtdENB?oc=5",
@@ -387,7 +384,7 @@
    "d": "2026-11-12T17:12:45+00:00",
    "lang": "fr",
    "t": "La comparaison des graphismes de GTA 6 avec le Miami réel est frappante par le niveau de détail et l'éclairage.",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbUJhdkFkTWRwZnFKNklHVW85dGNwUHZXV080cE5KZHJ2d016NUhSVTFKakVPMjl2LUpxNjE0U2FOV2gtdDZsSVlnYU90V0k2X3NVQ0xsTjlPaDR0LUt3bFJLMUlhNDB6WnBaWHNNLXlmU3o3TUJhWUQ3cW82LWVtSF9LYjJtVGo1b2R3OU50X1ZZRjZyYk9KNDQyWXpwSE82MmJNVzVmelpfMm5Td09F?oc=5",
@@ -395,7 +392,7 @@
    "d": "2026-11-12T17:12:00+00:00",
    "lang": "fr",
    "t": "GTA 6: une carte partielle aurait fuité depuis un pop-up Rockstar x Selfridges",
-   "erreur": "HTTP Error 412: Precondition failed",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -410,6 +407,14 @@
    "txt": "With the launch of Grand Theft Auto 6 mere days away, we already know to expect a whole lot of mature subject matter. Official promotional materials like the Netflix Extended Look have prominently featured strip clubs, drug deals gone wrong, and chaotic vehicular shootouts. A new report out of South Korea from Inven Global claims members of the Game Content Rating Board (GCRB) nearly refused to issue a rating for GTA 6 , which would have effectively banned the game there. The main sticking point? An excessive amount of \"out of context genital nudity.\"\nAccording to the report, the GCRB held three separate review sessions to determine its rating for GTA 6 . The first review took place on Sept. 10, before committee members had access to a playable build. That ended in a tie, with three voting in favor of refusal and three in favor of an Adults Only rating. \"I do not believe genital exposure to this extent falls within acceptable limits under the current standard,\" said one of the members who refused a rating. It's possible that this assessment was shaped by the massive GTA 6 gameplay leaks that took place over the summer, which showed Jason interacting with unclothed patrons at a nudist resort and nonchalantly cruising around the streets of Miami with his dong hanging out .\nThe GCRB met again on Oct. 2, but ultimately opted to postpone its decision a second time, having obtained a copy of the game just a few days earlier. \"Further inspection is necessary, but if a rating is actually granted, we should take this opportunity to review changing the regulation that treats simple genital exposure as grounds for refusal,\" said one of the committee members.\nImage: Rockstar Games During the final review session on Oct. 16, the committee voted eight to one in favor of issuing an Adults Only (19+) rating. \"It appears that they intentionally covered genital exposure in explicitly sexual scenes, while allowing exposure in background settings,\" explained one voter from the majority. The lone dissenter expressed concerns that this would mean open season on background penises in future games. \"Suppose we consider genre characteristics to permit background genital exposure in adventures or RPGs while remaining conservative only with suggestive games,\" they said. \"I am concerned that background genital exposure will frequently appear in future RPGs as a result.\" Don't get any ideas, Square Enix!\nWhile it is pretty funny to imagine people having high-stakes debates about how much dong is too much dong for a video game, this conflict indirectly tells us some interesting things about GTA 6. We know there will \"explicitly sexual scenes\" in the game, but you won't see anyone's business district during those moments. In other words, Rockstar isn't bringing the infamous Hot Coffee sex minigame from GTA: San Andreas into 2026. That's probably for the best.\nGTA 6 has received strict adult age classifications in virtually every market. It's got an M (17+) rating in North America, and 18+ ratings in Japan, Europe, the UK, Australia, New Zealand, Hong Kong, India, Indonesia, Malaysia, Singapore, South Africa, Taiwan, Thailand, and Brazil. The game has a 21+ rating in Saudi Arabia and the UAE. GTA 6 will be released on Nov. 19 for PlayStation 5 and Xbox Series X.",
    "pub": "2026-11-12T17:08:37Z",
    "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNbVVrUmdjRjBVN1dyaHVnZ01zQk9OSmlyX3JzUWNhZzNPYnJWVERzcGpvN0VwLXVmMkFrMEowZU5SWlhOTHJuZWwwTk52N1VfNm8yTFhLck9IS192NDI3eUw1R1RrQ3BLeWRRVURKemllOTgxMnJLNXNydzBmUU5HYw?oc=5",
+   "s": "Mac4Ever",
+   "d": "2026-11-12T17:05:00+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : pas de 60 fps, même sur PS5 Pro",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOaVNmLUhaa2cwOUdhWWs4MmpIUW1uTlVFWGlhUV9XUUw4aUkyV1BlVDJENGlmR0tXMmRMbTVqR25wellNbXBaOGRxRk5wbHFTcTNEbTNBU1lBM0VhNndYYXJHMGtCV2pwYzFMdXN4dGlLSExsalFwLU1RX2lVNFhEZktlUmt6cDhybzV4bmxrQmhkaktLX0tRNU0xNHpmR2NXLWh2b0kxcW9RTnZFM3FJdg?oc=5",
@@ -495,7 +500,7 @@
    "d": "2026-11-12T15:17:46+00:00",
    "lang": "en",
    "t": "GTA 6: New Leak Revealed Look at the Game's Alleged Map",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -504,20 +509,7 @@
    "d": "2026-11-12T15:17:46+00:00",
    "lang": "fr",
    "t": "Une carte de GTA 6 de l'édition collector a fuité en ligne",
-   "erreur": "HTTP Error 403: Forbidden",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNeVM5OER5dHVXZGVMQU5hNmdOVXQ3ckN2Tk80THBIR2VzVVhWc1pTbzhXRHF6d1FraTZxTW5ja3d0OTZpOFY1RmJKRTRtakJoREpWUTJMZDFpSW43TFpZRkZ6UU94dndMaU1vcFc5U3pJTEpUTmxUc2tmbDdsZ0k2c1VZOHVtNDlLWG1pa0VxbHBURzlz?oc=5",
-   "s": "TheGamer",
-   "d": "2026-11-12T13:23:43+00:00",
-   "lang": "en",
-   "t": "GTA 6 Was Almost Refused Classification In South Korea, But Not Due To Violence",
-   "u": "https://www.thegamer.com/gta-6-south-korea-age-rating-almost-refused-classifcation-nudity/",
-   "img": "https://static0.thegamerimages.com/wordpress/wp-content/uploads/2026/11/jason-holding-a-pistol-and-looking-into-a-car-while-lucia-walks-up-with-a-bag-over-her-shoulder-in-gta-6.jpg?w=1600&h=900&fit=crop",
-   "chapeau": "Leonida’s more lax dress code caused some big issues for GTA 6’s age rating process in South Korea.",
-   "txt": "By George Foster Published Nov 12, 2026, 8:23 AM EST George is the Lead News Editor for TheGamer, and has been working in the industry since 2021 after graduating from the University of South Wales with a bachelor's degree in Journalism. He has also previously written for RPG Site, WhatCulture, and PlayStation Lifestyle. George is an expert on platformers, action games, and fighters, but tends to play as many releases as possible. This hands-on experience lets him dive into gaming communities and follow the latest trends. Some of the games George has extensively covered first-hand include Dead Rising, Dragon Ball: Sparking Zero, Assassin's Creed Shadows, and Ninja Gaiden 4. Sign in to your TheGamer account South Korea almost refused to give Grand Theft Auto 6 an age rating due to the overwhelming amount of nudity “without context” that looked even worse thanks to Cyberleek.\nI can’t believe we’re finally here, but we’re now officially one week away from the release of GTA 6 . It’s been a long, long road, but things have finally started to feel real over the past few months as the game’s final trailers , marketing , collaborations , screenshot batches , and more have emerged to show just how far Rockstar’s marketing can go.\nOn the more official end, age-rating boards have started to share their ratings for GTA 6 , unsurprisingly confirming that it’s getting the highest possible classifications across the board. That just about includes South Korea, which apparently almost outright refused to give the game a rating due in part to its “background genital exposure”.\nSource: Rockstar As pointed out by ResetEra user TheAbsolution , Inven Global has shared a report on just how close GTA 6 got to being refused classification in South Korea . You might think that it’s because of the game’s more realistic violence or drug use, but that’s not the case, as the board deemed that it wasn’t too much more advanced than GTA 5 .\nThe problem lies with the game’s more frequent nudity, specifically without any “sexual context”, essentially referring to background characters who are naked in-game. One member of the board pointed out that the nudity was an issue because it “has never appeared this frequently without context” or with “narrative justification”.\nThe report also shows that there was some pressure to figure it out so that South Korea wasn’t the only country to refuse to give GTA 6 a rating.\nSouth Korea’s rating board’s first meeting ended with a tie and resulted in a copy being given for review to evaluate “sensuality”. The board found that the “genital exposure scenes” appeared as one-offs in the background that didn’t lead to any interactions. The board even had to request a map from Take-Two multiple times to find the nudist gathering that was previously leaked .\nEventually, the decision was made to give GTA 6 an Adults Only rating, which was in part due to the infamous leaked nudity scenes from Cyberleek not being found in-game , confirming once and for all that it was a dev build hack and not meant to be seen . It’s not clear if any modifications ended up being made by Rockstar or Take-Two, but at least a classification has been issued.\nLike Follow Followed Grand Theft Auto 6 Action Adventure Systems OpenCritic Reviews Released November 19, 2026 ESRB Rating Pending - Likely Mature 17+ Developer(s) Rockstar Games Publisher(s) Rockstar Games Engine Rockstar Advanced Game Engine (RAGE) Where to play Close WHERE TO PLAY DIGITAL FX Wiki Wiki",
-   "pub": "2026-11-12T13:23:43Z",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -617,7 +609,7 @@
    "d": "2026-11-09T11:06:47+00:00",
    "lang": "fr",
    "t": "Nouvelle fuite de données sur GTA 6 — fonctions en ligne, taille exacte et bien plus encore",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -660,6 +652,15 @@
    "cyberleek": true
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5scXNWUGF1bFdIVEFJbDRLSkxOMVBHb0YzYTluWGNnSWJ6NjNwUWJ0cGd4OGxCUV9xWVctQXMyOFZGQXNCUmdfWHJXM0VEOXMxRlJ0c0dGcy1FZw?oc=5",
+   "s": "CoinGlass",
+   "d": "2026-11-05T09:48:07+00:00",
+   "lang": "en",
+   "t": "CyberLeek Futures Price",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1TUXA1V3EzaU93Vlo4NjBOWWVIYjJZc2tXWWRwRnB5YU5kTHB3VG9uSFY2cWVSVFEzMmRzYmxBb0lhWnlmRGlWemJNbGNIaGtURDQ1djcxNm9PVzdyRVczaQ?oc=5",
    "s": "Sportskeeda",
    "d": "2026-11-02T13:38:00+00:00",
@@ -678,11 +679,7 @@
    "d": "2026-10-26T04:38:45+00:00",
    "lang": "en",
    "t": "Cyberleek Shares More GTA 6 Footage Featuring Lucia Naked",
-   "u": "https://www.imdb.com/fr/news/ni66063856/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -704,11 +701,7 @@
    "d": "2026-10-22T15:12:54+00:00",
    "lang": "en",
    "t": "Cyberleek Shares GTA 6 Leak Of Naked Lucia",
-   "u": "https://www.imdb.com/news/ni66062173/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -769,7 +762,7 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
    "t": "Le token CYBERLEEK chute de 40 % alors que le leaker de GTA 6 lance de nouvelles menaces",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -809,19 +802,6 @@
    "chapeau": "Cyberleek annonce la fin de ses fuites de GTA 6 après l’échec de son objectif financier. Le groupe renonce à publier sa prétendue version complète.",
    "txt": "Cyberleek annonce l’arrêt de sa campagne contre Rockstar Games et Take-Two Interactive. Dans un communiqué en trois parties publié le 14 octobre, intitulé “ La fin de la route “, le groupe anonyme affirme abandonner la publication d’une soit disant version complète et jouable de GTA 6.\nCette décision n’est pas une surprise puisqu’elle a été conditionnée à l’échec d’une opération liée à une cryptomonnaie. Le groupe voulait porter sa capitalisation à 30 millions de dollars , un seuil qui n’a pas été atteint.\nCyberleek avait conditionné la publication de l’intégralité de la campagne solo à cette valorisation. Il avait également proposé de renoncer à la diffusion si Take-Two acceptait de commercialiser le jeu sur disques physiques et présentait des excuses publiques.\nPour expliquer cette marche arrière, le groupe met en avant les difficultés d’une mise en ligne anonyme de plus de 200 Go de données. Il estime que les risques associés ne se justifient pas sans avoir atteint son objectif financier.\nEnfin le groupe assure aussi détenir la fin de GTA 6, tout en affirmant avoir choisi de ne pas la dévoiler. Selon son communiqué, certains extraits récemment diffusés proviendraient des missions finales, mais auraient été sélectionnés pour éviter les révélations importantes sur l’intrigue.\nMalgré l’annonce de son retrait, Cyberleek conserve un moyen de pression. Il prend la forme d’un prétendu “ interrupteur de l’homme mort “, censé déclencher la publication de spoilers si le groupe était ciblé.\nAucune preuve de l’existence de ce dispositif n’a été fournie.\nMAJ : GTA 6 : Cyberleek fait volte-face et propose sa prétendue build pour 40 dollars",
    "pub": "2026-10-15T09:09:22+00:00",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5wcWRVaFhVcEhJYmdYZndEclN0S0R1MnYzd2N1dkctaTE5Tm5tWTYxY1BkYVZNZE9fX0pxSkJsZ0tNVDN3dHRCcGtWMkF4QUthOHFqM3dDQVdmUzE5?oc=5",
-   "s": "TradingView",
-   "d": "2026-10-15T07:00:00+00:00",
-   "lang": "fr",
-   "t": "Prix du jour: CyberLeek — Graphique CYBERLEEKUSD — TradingView",
-   "u": "https://fr.tradingview.com/symbols/CYBERLEEKUSD/",
-   "img": "https://static.tradingview.com/static/images/logo-preview.png",
-   "chapeau": "Surveillez CyberLeek prix sur le graphique en direct. Explorez CYBERLEEKUSD l’historique des prix, les actualités, les idées de trading et les prédictions. Trouvez les records historiques, la capitalisation boursière et plus.",
-   "txt": "",
-   "pub": "",
    "cyberleek": true
   }
  ]
