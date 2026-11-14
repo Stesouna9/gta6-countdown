@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-14T10:29:14+00:00",
+ "maj": "2026-11-14T10:49:26+00:00",
  "articles": [
   {
    "gn": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMGJjOGtfUFVOcU5tR29FaE9vcldvbXVNLWR2N0NqY0dDTVB4MGt3R09tdXpfdlp1TmxkV0JVNVJJOVFtTUF4UzdsZkxLNi1NUDA3Z0VPN3VwdWN2elA2bUVQdzM4aEFpazN4OVQ0MmszeWtVU3lqbS1GdERMbXR3NzhyZlN6RXhmeDJz?oc=5",
@@ -7,11 +7,7 @@
    "d": "2026-11-14T10:24:42+00:00",
    "lang": "fr",
    "t": "GTA VI, après 13 ans d'attente... A Juvignies (Oise), Cédric Lecat est fan de la licence de Rockstar Games",
-   "u": "https://www.lobservateurdebeauvais.fr/gta-vi-cedric-lecat-juvignies-rockstar-games/",
-   "img": "https://www.lobservateurdebeauvais.fr/wp-content/uploads/2026/11/Cedric-Lecat-GTA-VI-Juvignies-novembre-2026.webp",
-   "chapeau": "Cédric Lecat est fan de la licence de Rockstar Games",
-   "txt": "",
-   "pub": "2026-11-14T11:24:42+01:00"
+   "erreur": "HTTP Error 429: Too Many Requests"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNktwTWY0a3NFc3RSTHVoR0lzNGdnUlkyYTZGeDFKUkpVcWhiYmxhVm1oVTZJeldra1JYekdGZnB6YWpTVWdJdk5wd1JLYndwRFJXZWxZYWhnQXdVTndQQXd5NkN1N21Ta0JZOUVVN3Z3NW82OFpPUVdPWGVmeXNwOVdMa1QySm9FVG1QeXZmOFF2eC05d18zczNwZzltMDZVOTVyX3lYUXFRbjdqSEZoYg?oc=5",
@@ -158,6 +154,14 @@
    "pub": "2026-11-14T08:51:35+00:00"
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQT1dDMWFhaEMtc2xOLXMzN1BwOG9NRUpSeDdjbXRrZEFObnZzdV85b1pteEJRYms3enJDQm9jaHlxNlJvNWljWWNuVVZ4N3Nid3MteWlyck1YU2VIcWpjUVRBNlNDemtoRXpPeHk2X0lIVHNqSmN0VERtSTQ4bGlsS2pINW9OM2JvcTNZcm44T2FKcy02U3RVcTJnMlFweVhRS1ozZjVkUDJXSUc0Rzk2c2NvTXRDT1VQ?oc=5",
+   "s": "Arrêt sur images",
+   "d": "2026-11-14T08:43:02+00:00",
+   "lang": "fr",
+   "t": "\"GTA VI\" : Rockstar peut dormir tranquille, les médias font leur com'",
+   "erreur": "429 : passage suivant"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQLWJVVzV0X0dpRnJFY2c0R3oxNURRYUhVRXhGNHlERU41dlhNdlU0UkdhTFBaalBSNlZ6SU5WTkw4WmtUQ1I5TWl5Ml9aMEg5R040a05mRW9kMDNNMy11YlZYMlhRZ0lNUS1xbThfV25sVTFPUTF6Q1RBOFlNcTVqLV80UEJuZnZKSHF3b1pIVC1LOVFZVzQ2ci1n?oc=5",
    "s": "Wayeno",
    "d": "2026-11-14T08:34:24+00:00",
@@ -187,7 +191,7 @@
    "d": "2026-11-14T08:16:38+00:00",
    "lang": "fr",
    "t": "GTA 6 : 55 millions de ventes attendues d’ici mars 2027, avec un prix moyen de 90 dollars",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMickFVX3lxTFBkZUVkUEM4U1BHamh5VmMzbm56S0pjalhKLTR1MXJXVWZhWGxZNmc1VzZNXzA3VzJHM1lqdmdyT3dKZTVBNkp2N2dHOG5rNmc4SEgxaWdocWNEc0VGWWtWTDNKSkYzSzJ2eDYzMmJjRm9xZw?oc=5",
@@ -243,7 +247,7 @@
    "d": "2026-11-14T07:41:51+00:00",
    "lang": "en",
    "t": "GTA 6 Interactive Map - All 6 Regions of Leonida",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxORDhwMzR6QUtPR04tTXplamlpUmttRC0yTUJpcTJFN1ZpNjF2S0o0bXRXN3NZRlpleGRvLU1UanJ5ckVrN3JEYTl0aDZoZVNId05tdjB2M2VuSTZJUW1aOEtZWlNRYUdKU2NLSXV4TGNfNmVPeHFla1ZBN2M3cFVDV25oOTRGRFpaVk1mdUNkX2diQi1FaUhvUWt6aGFXZHFZWkgxTXpjU2NuMVFTaG1MUURRY1Itc0pfTWhRZ1NTU1pNMXdpRDJuaVZVQnRfdzgydHFITy1vVE15TnVKYWFxckpsbTJzTmYwelRka0J3?oc=5",
@@ -251,7 +255,7 @@
    "d": "2026-11-14T07:40:09+00:00",
    "lang": "fr",
    "t": "Le jour de sortie de GTA 6, vous allez pouvoir jouer gratuitement à l'un des meilleurs jeux vidéo sur la saga Alien",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMingFBVV95cUxOckttRjdqQmE0X0F0VV90WXV0WjdobmNLN3hFeEwxTXVJRmdwX2xvM3VoalloNDZKOElIdGFvMWVSOUEzcENIdTlZQ2ptQ3Z6emhOb0hGejNBa00wR2xfbzViYVBUTGdQd2xjRk0xVVpQdGJSMG1VSU5pRTctUFFwZFV1aGJqV3MxVlBPLTA3bXdydFVneUd3TS1IN280dw?oc=5",
@@ -259,7 +263,7 @@
    "d": "2026-11-14T07:40:07+00:00",
    "lang": "fr",
    "t": "GTA 6 tourne à 60 images par seconde sur PS5 Pro… mais il y a un hic",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWmFSQktlV2J4Y1VvQjF6bG9ZVjI4TlNLaDA1Wk9XNjVLRUlfQXQtRjZsYXlLamd6ZHRDMHhSYkxnZzJ3VHJrR0doVkFVQUJDTkhERDFIcTR2eVhCMU9odDJGZXgwYnRsN29qcUVkc2NDbEs0NWtOR19fR0NLbHk4aA?oc=5",
@@ -279,7 +283,7 @@
    "d": "2026-11-14T07:29:01+00:00",
    "lang": "en",
    "t": "GTA VI map leaks from a Collector's Box at Selfridges in Manchester, days before launch",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSWV3aDFfYk8wVEQ1R2x3OHh1aTdHeE40Z1hLTUstd0VpaU1CRzNUU3RZODVjQzM3M3hJZ0tiRzEzTHNkc0dUdURyNXBhVzVZUE14dm40WmFHZ1lVN2tMM1k0Y3FZYktOSjRoWS1xUlVrc0o3Q3NnaVFERFVsX0RoUlp5NHBQNlNmRktTbml4bXhfMi1TZEg1dElwS29CZkUwNGtwZGo3TVN6X09GbFV0TzM4SUNTM0E4bG9rOHNfLURWWkRO?oc=5",
@@ -318,14 +322,6 @@
    "pub": ""
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTnVpc2FIbHhvTGNOQUtNSzJUX043eGZtbXFldldibkxuakdpdFp3SUxIQlNDb0VYQ3Foa0JoZHlPbnhYNnA3SXV1VExmemRJXzhXZVl2QWJsOURiQmpEd0FSakRROVN4bVRJRnZWUXBkbEtaTXhJSjV3dlh3UndndHdHRW54S3drVDFoYV9HeW1wbDlaQWZZMVZMUUJBMVhfV0hPbjdMeUcyQUs1?oc=5",
-   "s": "World Is Small",
-   "d": "2026-11-14T07:08:34+00:00",
-   "lang": "fr",
-   "t": "GTA 6 sera jouable dès sa sortie sur Xbox One grâce au Xbox Cloud Gaming",
-   "erreur": "HTTP Error 403: Forbidden"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRWFLdy12eHpYXy1iZzFiQU10cFlLSVFBWmVnYmVSM0lQeXp5MGcyREFWQkRtYl9tb0k2aVk4NFhibHFYbXlPWFlleEFCa19zcEFjc2cyeFZoLVpHYzAta0k5Z1BJTFBhanMyTEk0TjhQSlFUVHpKdFF5aE4xQkhjYjNwNDBHS09GM29F?oc=5",
    "s": "shattered.io",
    "d": "2026-11-14T06:13:21+00:00",
@@ -344,11 +340,7 @@
    "d": "2026-11-14T05:24:29+00:00",
    "lang": "en",
    "t": "People behind first GTA still haven’t played GTA 6",
-   "u": "https://uz.kursiv.media/en/2026-11-14/gta-6-original-creators-havent-played/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": ""
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNzg3eDBCYUdUTE9PVGNCaE9oU1JwTndMdW53eTAyUWJFWkl2THNhcXhpSlF1ZDd6WlBIaG16dVFWZENVODBaaXp0NUM3LVY5dlNSMDFlZnBtLUpiT3UzMUpZZmFJdlFoMzZkS3duY3ByMWdIWjdwZTQtRG1Ed1VIUDVXNkNhVDNIZmY1R2l1b1dxQQ?oc=5",
@@ -382,7 +374,7 @@
    "d": "2026-11-13T17:22:14+00:00",
    "lang": "en",
    "t": "GTA 6 Map Images Seemingly Leak via Retail Display at Selfridges in London",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -430,7 +422,7 @@
    "d": "2026-11-13T14:48:55+00:00",
    "lang": "en",
    "t": "Adin Ross Loses It Over Missing GTA 6 Disc, Then Appears To Leak His Game Code On Stream",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -569,7 +561,7 @@
    "d": "2026-11-12T17:12:00+00:00",
    "lang": "fr",
    "t": "GTA 6: une carte partielle aurait fuité depuis un pop-up Rockstar x Selfridges",
-   "erreur": "HTTP Error 412: Precondition failed",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -604,7 +596,7 @@
    "d": "2026-11-12T15:17:46+00:00",
    "lang": "fr",
    "t": "Une carte de GTA 6 de l'édition collector a fuité en ligne",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -665,7 +657,7 @@
    "d": "2026-11-09T11:06:47+00:00",
    "lang": "fr",
    "t": "Nouvelle fuite de données sur GTA 6 — fonctions en ligne, taille exacte et bien plus encore",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -700,11 +692,7 @@
    "d": "2026-10-26T04:38:45+00:00",
    "lang": "en",
    "t": "Cyberleek Shares More GTA 6 Footage Featuring Lucia Naked",
-   "u": "https://www.imdb.com/fr/news/ni66063856/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -726,11 +714,7 @@
    "d": "2026-10-22T15:12:54+00:00",
    "lang": "en",
    "t": "Cyberleek Shares GTA 6 Leak Of Naked Lucia",
-   "u": "https://www.imdb.com/news/ni66062173/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -817,7 +801,7 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
    "t": "GTA VI : CYBERLEEK abandonne ses leaks et annule la diffusion du jeu complet",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -825,12 +809,8 @@
    "s": "TradingView",
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
-   "t": "Prix du jour: CyberLeek — Graphique CYBERLEEKUSD — TradingView",
-   "u": "https://fr.tradingview.com/symbols/CYBERLEEKUSD/",
-   "img": "https://static.tradingview.com/static/images/logo-preview.png",
-   "chapeau": "Surveillez CyberLeek prix sur le graphique en direct. Explorez CYBERLEEKUSD l’historique des prix, les actualités, les idées de trading et les prédictions. Trouvez les records historiques, la capitalisation boursière et plus.",
-   "txt": "",
-   "pub": "",
+   "t": "Prix du jour: CyberLeek — Graphique CYBERLEEKUSD",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   }
  ]
