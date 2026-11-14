@@ -1,8 +1,65 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-14T16:12:55+01:00",
+  "updated_at": "2026-11-14T18:12:42+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-final-weekend-trailer-gtasix-2026-11-14",
+      "title": "GTA 6 : « le dernier week-end avant GTA 6 », le compte gtasix_ relance la bande-annonce 1",
+      "summary": "Le compte fan @gtasix_ publie « Le dernier week-end avant GTA 6 » et invite à revoir une dernière fois la bande-annonce 1. Post de promotion fan, sans annonce de Rockstar ni date confirmée dans le message.",
+      "url": "https://x.com/gtasix_/status/2121611610565345378",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Création de fan",
+      "published_at": "2026-11-14T14:30:00.000Z",
+      "checked_at": "2026-11-14T18:12:42+01:00",
+      "evidence": "Vues relevées le 2026-11-14 dans data/x_alertes.json (maj 2026-11-14T16:17:26+00:00) : 81309 vues ; 51 réponses, 161 reposts, 2527 likes, 181 marque-pages. Un seul compte relaie ce post.",
+      "visual": "DERNIER WEEK-END",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2121609709576671232/img/p1HNO6z07J6dbk6F.jpg",
+      "image_alt": "Vignette de la vidéo du post X de @gtasix_ sur la bande-annonce 1 de GTA 6",
+      "image_credit": "@gtasix_ sur X",
+      "embed_type": "x",
+      "post_text": "The final weekend before GTA 6. Watch Trailer 1 one last time.",
+      "cta": "Ouvrir la publication sur X"
+    },
+    {
+      "id": "x-zero-vendredi-compte-a-rebours-2026-11-14",
+      "title": "GTA 6 : « 0 vendredi » avant la sortie, annonce le compte GTAVI_Countdown",
+      "summary": "Le compte @GTAVI_Countdown affiche « GTA 6 est officiellement à 0 vendredi de sa sortie ». Compte à rebours publié par un compte fan ; le post ne cite aucune annonce de Rockstar.",
+      "url": "https://x.com/GTAVI_Countdown/status/2121609198748180663",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Création de fan",
+      "published_at": "2026-11-14T14:20:25.000Z",
+      "checked_at": "2026-11-14T18:12:42+01:00",
+      "evidence": "Vues relevées le 2026-11-14 dans data/x_alertes.json (maj 2026-11-14T16:17:26+00:00) : 31875 vues ; 45 réponses, 161 reposts, 2904 likes, 66 marque-pages. Un seul compte relaie ce post.",
+      "visual": "0 VENDREDI",
+      "image": "https://pbs.twimg.com/media/HXF4PBbWwAAgDYl?format=jpg&name=small",
+      "image_alt": "Image du post X de @GTAVI_Countdown annonçant le compte à rebours de GTA 6",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "post_text": "GTA 6 is officially 0 Fridays out from launch.",
+      "cta": "Ouvrir la publication sur X"
+    },
+    {
+      "id": "x-dualsense-edition-limitee-deballage-2026-11-14",
+      "title": "GTA 6 : le déballage de la DualSense en édition limitée circule sur X",
+      "summary": "Le compte @GTAVI_Countdown publie une vidéo de déballage de la manette DualSense GTA 6 en édition limitée et assure qu'elle est encore plus belle en vrai. Le post ne dit pas où la manette a été reçue ; un seul compte le relaie.",
+      "url": "https://x.com/GTAVI_Countdown/status/2121629189770260840",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-14T15:39:51.000Z",
+      "checked_at": "2026-11-14T18:12:42+01:00",
+      "evidence": "Vues relevées le 2026-11-14 dans data/x_alertes.json (maj 2026-11-14T16:17:26+00:00) : 21267 vues ; 13 réponses, 23 reposts, 490 likes, 56 marque-pages. Un seul compte relaie ce post.",
+      "visual": "DÉBALLAGE DUALSENSE",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2121628811892547584/img/mrp1imWXXw-IQZ0R.jpg",
+      "image_alt": "Vignette de la vidéo du post X de @GTAVI_Countdown montrant le déballage de la manette DualSense GTA 6",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "post_text": "GTA 6 Limited Edition DualSense unboxing, they look even better up close in person.",
+      "cta": "Ouvrir la publication sur X"
+    },
     {
       "id": "x-marketing-miami-villes-2026-11-14",
       "title": "GTA 6 : nouvelle opération promotionnelle à Miami, Amsterdam, Bruxelles et Riyadh",
@@ -3808,6 +3865,11 @@
       "at": "2026-11-14T16:12:55+01:00",
       "label": "Passage X (data/x_alertes.json)",
       "summary": "3 sujets X ajoutés (≥ 20 000 vues) : marketing villes, codes boîtes, panneau Vice City Miami."
+    },
+    {
+      "at": "2026-11-14T18:12:42+01:00",
+      "label": "Passage Claude Haiku (Matière X, 14/11, 18:12)",
+      "summary": "Relevé data/x_alertes.json (maj 2026-11-14T16:17:26+00:00). Ajout de 3 sujets ≥ 20 000 vues : « dernier week-end avant GTA 6 » (gtasix_, 81 309 vues), compte à rebours « 0 vendredi » (GTAVI_Countdown, 31 875), déballage DualSense édition limitée (GTAVI_Countdown, 21 267, Rumeur). Écartés : tracklist GTAVI_Countdown (36 653, même sujet que la fuite déjà publiée) ; posts sous 20 000 vues."
     }
   ],
   "coverage": {
