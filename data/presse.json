@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-14T03:39:52+00:00",
+ "maj": "2026-11-14T04:00:04+00:00",
  "articles": [
   {
    "gn": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNa2xIaW5vcXdaSTR0b3phR0hadThKNVhpaHViMkI4VzVOMnZKMHFlTnNUSXc1NGxnY2xucGtReTU0d3lPNURnTXAyMXUxVGpnaGdQWWhKX1VFdnNTWXB3MzY2aGpHZ1ZNR19UOUNRNjN2Ym42Rzc4bmVyWmt2UHlWekVUVUFDTlA0UmhNWE0ydzNrUnRLQ0RpSFByVjJGaWlWVEZmei02Mjg2azdMVUk0NjVxNXJJRTFNQWdRaHhsT0dhc040cUlybFRsajlzTk9SVEM3TWZlcWxCQQ?oc=5",
@@ -62,16 +62,20 @@
    "pub": "2026-11-14T01:00:00+00:00"
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWWt6TXRuX3FKVW9mZXNCLXhZN2JJWG5hNkN2S2c3UjJCbVZOZnFPbV9tcmNjOXJPNWpzN3BSWl9lcmNIRDRSZERBUDNMNnQzVTQtYnhwX3ZHUmtVM3JLZkotSmpxNWpVTERlNUNySnZQOVlYc2MxN1VlY29hc3B5S3Rkc0ZQXzBWUGo4S09CeWtwWTZkYlA3WmxDYmRQdDFPSzRBdDBzREM5Qjd3SndnZWpSOUIzSHhzNWpTN3Y1UQ?oc=5",
+   "s": "Nintendo Life",
+   "d": "2026-11-14T01:00:00+00:00",
+   "lang": "en",
+   "t": "The Game Awards 2026 Nominees To Be Announced Next Week, Zelda And GTA 6 Eligible",
+   "erreur": "429 : passage suivant"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1FV29RaURMSHNLZWRraFlMeWFGbFRNUk1pblZTV1RGYWFlbTFDeU5wLUFuWTdjZlFwOVZlNzR3Ui1NV3JFNzhWamp0TkJlT2d1SFhnX1V5UFMzQU9VMDdfdTZB0gFnQVVfeXFMUGFtMk5MNGZ6S25TRTJxakZVMENsZDNqU3N2TC1rbUVzOVRXR1RjTHF2dWRjNldRTF9tOEhwMjNmSEowT0NhWWw3Mm1hWHBjMUNZSFhNQzNGRVpiZnotbVk0ZGdmRTA5TQ?oc=5",
    "s": "FOX 13 Tampa Bay",
    "d": "2026-11-14T00:59:44+00:00",
    "lang": "en",
    "t": "The countdown is on for Grand Theft Auto 6",
-   "u": "https://www.fox13news.com/video/fmc-8udto2l5qno24464",
-   "img": "https://images.foxtv.com/static-media.fox.com/fmcv3/prod/fts/8pbmq5clnd7aa5c7/1200/630/z67uds4gsevjevd0.jpg?ve=1&tl=1",
-   "chapeau": "GTA 6 is being released in six days, and FOX 13's Haley Hinds has the story.",
-   "txt": "",
-   "pub": ""
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOaUNDZUhlUldXMUlOU3N6VWtra2d4R2x3eUhvdzlOR2hMcU10R3I1QUc3eUVpRExYRWNBWl9wcWpZUGVmWFFKczNSOTFVQTJQbkNZT3NTcExzSUJEYmJwQmRkdm5SQUhKWk9kYmRIU0JPVnJKMXhsdnZhMFhiVUNHRGFIY1N5MkJacUE?oc=5",
@@ -79,11 +83,7 @@
    "d": "2026-11-14T00:53:45+00:00",
    "lang": "fr",
    "t": "Pari tenu pour Bilel Jkitou qui devient champion du monde avant GTA 6",
-   "u": "https://lasueur.com/pari-tenu-bilel-jkitou-devient-champion-avant-gta-6-14-11-2026",
-   "img": "https://lasueur.com/wp-content/uploads/2026/11/bilel-jkitou-champion-gta-6.jpeg",
-   "chapeau": "BOXE - Il l'avait promit, il l'a fait ! Ainsi, Bilel Jkitou est devenu champion du monde avant la sortie du fameux GTA 6.",
-   "txt": "",
-   "pub": "2026-11-14T00:52:33+00:00"
+   "erreur": "HTTP Error 429: Too Many Requests"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0xa25uZ25Ya2hyRWFTd0dZRHItbGJmTjdKSld5VDNmQnRhd0Y2ZWNTYUN3bVZOZmxCSFpIX2loa25yRWxrTEVybnh1ZGVDbklmdVVBSy1CZzRJUk0?oc=5",
@@ -123,12 +123,12 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQLXVqLV9CUGZadDRIRC1yQWVRcXBLa1BKbzFUblRTOFZSLWxQYUlvQVEwQmJiaHZNU2dHWlJBS0NPTGlBbE5BOFpzYjRQbnFybnVMNndrUGdnYVV3OTY3VDRHSGpjWVhQM183bVhmNWJaclNFUXRmM1A3cmFJaXFqeGlodkcycFBpa1ItWFdZblNpekVtQTUwclZqeWNzdEljQWlzUl9sOGZVZ3A1MkhGMg?oc=5",
-   "s": "Men's Journal",
+   "gn": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObi0wSFROMHEtLW0zSUV6bFhDbjduT19XWDR5RUFGbnowZ0QxbHQxZ3lIVEZtb2hpVndraXNCYjNaY0ZpakYyVDdyTTVGQllyQktTMFkzQU03cjBwQ3lzbUFuNGtVd0lCYVgtY3ZlVVljMmpidEdKMTM0aVhHUjI1amU3VTlNem8xbjVpUDR6QUhPcjNmTW1ucm1wV2JmaGxq?oc=5",
+   "s": "Yahoo",
    "d": "2026-11-14T00:19:00+00:00",
    "lang": "en",
-   "t": "‘GTA 6’ Causes Massive Controversy Ahead of The Game Awards Nominations",
-   "erreur": "HTTP Error 403: Forbidden"
+   "t": "'GTA 6' Causes Massive Controversy Ahead of The Game Awards Nominations",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5JVHZ5X0hDUXNRUTdGZmRYdnJlQ3BqXzJmb3A3Zm9acmQtdWVhQzFvcXN2Q0puS19KQlJ0YlZwTkp5RVNkY0RuN3lzaUZzcTRrX3QtakQzemNSdTJqcnhGc2VNM0ctWUlWZzRF?oc=5",
@@ -172,7 +172,7 @@
    "d": "2026-11-13T22:55:16+00:00",
    "lang": "fr",
    "t": "GTA 6 : date de sortie précise et heures de lancement",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQzZqWXdDYlIxalhPdzJDWEdtVzdoZkZUZ0N3OW1kNFR6V21QYU1ZUy1UUDR2UVE2MzRoRE1mcUVUNFlEeWhXdWtuUVl2bFRhaS05S1JzYVdydDFRUVFyRzlRVjdCbUZzSUI5MnZXQWFwMDduQVVxZmRLV0hTUXVTUzgybHBuRTkwZ3JhRzd4QkxFVEN4Nmc?oc=5",
@@ -204,11 +204,7 @@
    "d": "2026-11-13T22:26:36+00:00",
    "lang": "en",
    "t": "LightShed's Brandon Ross: GTA 6 could be biggest video game launch ever",
-   "u": "https://www.cnbc.com/video/2026/11/13/lightsheds-brandon-ross-gta-6-could-be-biggest-video-game-launch-ever.html",
-   "img": "https://image.cnbcfm.com/api/v1/image/108551465-17946078981794607896-49620505918-1080pnbcnews.jpg?v=1794607897&w=1920&h=1080",
-   "chapeau": "Brandon Ross, LightShed Partners TMT analyst, joins 'Closing Bell Overtime' to talk the highly anticipated release of Grand Theft Auto VI.",
-   "txt": "",
-   "pub": "2026-11-13T22:16:05+0000"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMickFVX3lxTE56OHlqSDg4ZFdPUGhGSl9WeTBFUktGTURpdmM3aDdrSm5FR3lUT0h4VTV5aUg1Z0xjQXhzLUhfdzFwVC1tUHVsUzdQZnRpRUtVZk9pZmIxWEFHZ0k0VEptaDBLWFpJb1N5UEtxSzk1YVhQUQ?oc=5",
@@ -221,18 +217,6 @@
    "chapeau": "Finding a PS5 Pro at retail price feels like a heist of its own.",
    "txt": "If you waited until launch week to upgrade your console before GTA 6 arrives on Nov. 19, you are not alone. With Rockstar’s biggest release in over a decade just days away, gamers across the country are scrambling to lock down Sony’s most powerful hardware — and that sudden rush has wiped out PlayStation 5 Pro inventory almost everywhere.\nFollowing Sony’s April price hike that pushed the PS5 Pro’s standard MSRP to $899.99, legitimate retail stock has dried up across PlayStation Direct, Best Buy, Target, and GameStop.\nInstead of falling for inflated reseller markups, bookmark this tracker to monitor official retail pages directly. While major storefronts are currently sitting at zero, brief restock waves at the standard list price continue to cycle through — and having the right links ready is the easiest way to snag one before Vice City opens its doors.\nIf you are trying to score a PS5 Pro for retail price before GTA 6 arrives, save these direct store links and check them regularly — inventory drops in brief, unpredictable waves:\nAmazon — Currently out of stock, unless you opt for marked-up listings from third-party sellers.\nBest Buy — Currently out of stock. Online drops typically filter buyers through a virtual queue, so stay logged into your account ahead of time. Keep an eye on local store pickup toggles too, as single units occasionally surface regionally.\nGameStop — New consoles are sold out online, so calling or walking into your neighborhood store is your best bet for retail-priced stock. Just ignore the pre-owned listings — the retailer deliberately jacked used and refurbished units up to $1,399.99 ($500 more than a brand-new box) to cash in on the GTA 6 shortage. Hard pass.\nPlayStation Direct — Currently out of stock. Buying straight from Sony is your cleanest shot at paying the list price without third-party clutter, and they cap orders at one console per customer whenever new batches go live.\nTarget — Currently out of stock. Target tends to release small online waves alongside early-morning store pickup inventory tied to local freight arrivals. Having payment details saved in the Target app saves crucial seconds at checkout.\nWalmart — Currently out of stock, unless you opt for marked-up listings from third-party sellers.\nIt all comes down to GTA 6 arriving next week. Since Rockstar is launching the game exclusively on consoles with no PC version available at launch, anyone who wants the best-looking trip to Leonida is rushing to grab Sony's flagship hardware.\nRockstar confirmed this week that while GTA 6 runs at 30 frames per second across all consoles, the PS5 Pro is the single best place to play on day one. It is the only console getting sharper 4K visuals through PlayStation Spectral Super Resolution (PSSR) and upgraded ray-traced shadows. Throw in faster load times, DualSense controller haptics, and a built-in 2TB drive for massive game files, and it makes total sense why players are upgrading right now.\nBesides that, supply has been tight for months. Component shortages and rising memory costs have slowed down console production throughout 2026 , leaving stores without enough stock to handle the pre-launch rush. Because production won't catch up to GTA 6 hype anytime soon, any standard list-price units that hit store sites will vanish in minutes. The best tech deal this week The Apple iPhone 18 Pro is free right now with T-Mobile\nIf you are debating whether to hunt down a PS5 Pro instead of playing GTA 6 on a standard PlayStation 5, Rockstar just confirmed exactly what the extra hardware gets you on day one.\nEven though frame rates remain the same across all consoles, the PS5 Pro is the only system to unlock two major visual upgrades. First is PlayStation Spectral Super Resolution (PSSR), Sony’s AI upscaling tech that sharpens lower-resolution images on the fly so Vice City’s neon skylines, crowded beaches, and distant horizons look noticeably crisper on a 4K TV.\nYou also get exclusive ray-traced shadows powered by the Pro’s faster graphics chip, giving sunlight, headlights, and towering cityscapes far more realistic depth and lighting than you will see on a base PS5 or Xbox Series X. Plus, with GTA 6 taking up over 210GB, the PS5 Pro’s built-in 2TB SSD gives you plenty of breathing room without having to delete half your library just to install it.\nCatching a surprise drop before GTA 6 launches comes down to speed and a little bit of prep:\nDodge third-party marketplace sellers: Sites like Walmart an",
    "pub": "2026-11-13T08:00:00+00:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA1RmFTR0VxS3RUWFFHOENGTWQxeUVLZW9nWnJNRF9KMFVkT3YzTnUxa2FEVkdtQ1NtMDhucktOR2VhaXVSZkc5TDFocTNnRnRLZlRVd0ItQ3I1OEVzMnhQYU1yMmgtbndtNWNfR0lpcERUaEZLSHh4LUZn?oc=5",
-   "s": "Mashable",
-   "d": "2026-11-13T22:20:51+00:00",
-   "lang": "en",
-   "t": "Kalshi hiring a 'GTA 6' researcher to play the game, study its economy",
-   "u": "https://mashable.com/tech/gta-grand-theft-auto-6-kalshi-researcher-job",
-   "img": "https://helios-i.mashable.com/imagery/articles/01eyrBLQgj41sHhlwf7aBY4/hero-image.fill.size_1200x675.v1794505506.jpg",
-   "chapeau": "It is, apparently, a real job.",
-   "txt": "With only a week to go until Grand Theft Auto VI launches, multiple companies are trying to get in on the zeitgeist in different ways.\nEarlier this week, we covered Logitech's new policy of giving employees PTO to play new video games, and now, Kalshi wants to turn playing GTA 6 into work for someone. In a LinkedIn job posting that the prediction market claims is totally real, Kalshi is seeking out someone to obsessively play and livestream GTA 6 starting at launch on Nov. 19, with the end goal of figuring out how best to optimize the in-game economy, while also analyzing the amount of productivity lost in the real world due to people taking time off to play it. The best tech deal this week The Apple iPhone 18 Pro is free right now with T-Mobile\nThis \"GTA 6 Researcher\" job also entails releasing a weekly research report on the in-game economy, and requires at least a decade's worth of \"sweaty gaming\" experience and three years of streaming experience. You'll also need to have a good streaming setup, with all the equipment and whatnot. For what it's worth, Kalshi lists compensation at $100,000 to $120,000 for a fixed project fee, with a $15,000 fee upon completion of the project.\nThe job may understandably sound enticing to many, especially when factoring in the listed compensation. However, it sounds like a whole lot of work that you'd possibly be doing entirely by yourself, and it could also be a great way to make the act of playing GTA 6 as not-fun as possible. Speaking from personal experience: Doing something you love for work is still work, at the end of the day.\nWant to learn more about getting the best out of your tech? Sign up for Mashable's Top Stories and Deals newsletters or get Mashable push alerts today.\nAlex Perry is a tech reporter at Mashable who primarily covers video games and consumer tech. Alex has spent most of the last decade reviewing games, smartphones, headphones, and laptops, and he doesn’t plan on stopping anytime soon. He is also a Pisces, a cat lover, and a Kansas City sports fan. Alex can be found on Bluesky at yelix.bsky.social .",
-   "pub": "2026-11-12T18:06:36+00:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSFJrcUdvUENqTHdJTm4tTENkWUpwMUttTUxrTU0wMzZseDg5WXE3NnJCLWNZa1lrS2N1OVNaWS0taWtyb0JyNXJfUEFxbHIzQjByWGY0emFsY2ptWm9CQTBJMWZWb05TLXhyTkt2VktKUUloNEd3cnlhV1A4QjlMYnhnQmlJTFd6cG1ab3VzaTBCRWdSWUFzLXgtX0R0RE0?oc=5",
@@ -263,12 +247,8 @@
    "s": "Le Parisien",
    "d": "2026-11-13T20:00:16+00:00",
    "lang": "fr",
-   "t": "Comment GTA a survécu pendant 13 ans grâce au « roleplay »",
-   "u": "https://www.leparisien.fr/video/programme/combo/comment-gta-a-survecu-pendant-13-ans-grace-au-roleplay-13-11-2026-H4JFVBGA3VCDZMT75OXCNKBM44.php",
-   "img": "https://www.leparisien.fr/resizer/RdTpfAouDMjnJ2ecuxCt0nlIuC4=/1600x900/cloudfront-eu-central-1.images.arcpublishing.com/leparisien/54QMVAVYM5GRFLJWEHPMFFMUVQ.jpg",
-   "chapeau": "Pour comprendre tous les enjeux qui entourent la sortie du phénomène GTA 6, retrouvez notre vidéo complète sur notre chaîne YouTube « Le Par",
-   "txt": "",
-   "pub": "2026-11-13T21:00:16+01:00"
+   "t": "Comment GTA a survécu pendant 13 ans grâce au « roleplay »",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB4LUtrNDRadm9kTDJCVjNGWmV5d0IwNVBnQ2sxU3dUTFpvLWpTY0xvNlh2YWx1T0plMDVvallDakdTdUZqV2RVY0F0MWF1cXBJM3JDV1ZyTQ?oc=5",
@@ -336,7 +316,7 @@
    "d": "2026-11-13T18:09:11+00:00",
    "lang": "fr",
    "t": "Forza Horizon 6 et GTA VI ont été comparés en tenant compte des caractéristiques de leurs genres de jeux respectifs.",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZGQwVDBfMmNEejRLWGxNRkFDblF2S0lYMmxUdkNuY0Rud0ItbW9DT3k2R002UUNQbHhDMXpIdjdaQjRIWFpMVWFHaEgwXzNsaEVqcW1SLTF3cXFBelM0WS15VDRVOEppN3d3U0xHZGJaaFl4SE1Ob3ptNWhuSjREeWJZeWg5TmplNUFJX2tzMV8zQk5RQnJhUl9mRW9BeEpkZ01UdA?oc=5",
@@ -356,7 +336,7 @@
    "d": "2026-11-13T17:22:14+00:00",
    "lang": "en",
    "t": "GTA 6 Map Images Seemingly Leak via Retail Display at Selfridges in London",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -404,7 +384,7 @@
    "d": "2026-11-13T14:48:55+00:00",
    "lang": "en",
    "t": "Adin Ross Loses It Over Missing GTA 6 Disc, Then Appears To Leak His Game Code On Stream",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -444,19 +424,6 @@
    "chapeau": "Only a few days left.",
    "txt": "Rockstar Games' highly anticipated upcoming title, GTA 6, has had its map leaked ahead of launch, showcasing some of the game's locations. The leak originated from a physical Collector's Box that surfaced on Instagram and contained a map poster titled \"The Goodtime State.\" The leaked image showcases several locations, including Vice City, Vice Dale, Leonard County, and various other locations. The leaked map has sparked some debate among GTA fans on X, particularly over its appearance and size. Some were unimpressed, with one user saying , “Stupid looking map. Wish it was satellite”, while another questioned its scale, writing , “Lol, it's small! And they dare to talk about the biggest map”. A third user had a more positive take on the map's size, saying, “I saw it earlier , it looks bigger in size than the gta 5 map”.",
    "pub": "2026-11-13T06:30:00+00:00",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5iaGJnQXEyTXlfM19QOUhURU1CUTM4cDNoTzRuV05mcTcweTR2X1ByODBfWFBxbEJXSVFZS2NZbVBNeklBbGlOVDlzVEhPY1hqQTNNRVZEckEzYUdFRTd1NTd6TGFwS1VZcFdRb0V0LTg1STZESVE?oc=5",
-   "s": "Khel Now",
-   "d": "2026-11-13T07:38:00+00:00",
-   "lang": "en",
-   "t": "GTA 6 Collector's Box physical map leaks ahead of launch",
-   "u": "https://khelnow.com/gaming/gta-6-collectors-box-physical-map-202611",
-   "img": "https://assets.khelnow.com/news/uploads/2025/05/DreQuan_Priest_landscape-scaled.jpg",
-   "chapeau": "The GTA 6 Collector's Box physical map has leaked online ahead of launch, revealing Leonida's counties, cities, islands, and much more.",
-   "txt": "Add as Preferred Source Gaming enthusiast covering the stories behind the games we love. Published at : November 13, 2026 at 1:08 PM (GMT+5:30) Modified at : November 13, 2026 at 8:40 PM (GMT+5:30) (Courtesy : Rockstar Games )\nThe game is all set to launch on November 19, 2026 Just a week before the game launches, the GTA 6 Collector’s Box physical map has been leaked online. Fans can get the first look at the huge map of Leonida, many major locations, towns, islands and more.\nThe game is officially set to launch on November 19, 2026 for PS5 and Xbox Series X/S. Let’s check out more details in this article.\nThe leak was allegedly from a Selfridges employee at GTA 6’s pop-up store in Rockstar Games’ Manchester, England headquarters.\nGTA 6’s collector’s map has been leaked. pic.twitter.com/9uH206R1tX\nAn Instagram story shows the physical map, which is included with the GTA 6 Collector’s Box. This story was later deleted.\nHowever, the screenshots have already spread across the internet and gaming forums. This double-sided map is one of the exclusive items that features the complete map of Leonida.\nThe reverse side of the map is expected to include the artwork of Mecca the Gator.\nIn this leaked map, we can see the diverse regions. It also highlights five major counties , 11 islands and keys , 13 towns and cities , along with several other named locations. Port Gellhorn , Ambrosia , and Grassrivers are also visible here. Meanwhile, Rockstar has revealed the new pre-load trailer for the game.\nFor now, this Instagram story has been deleted, but the leaked GTA 6 Collector’s Box physical map is now everywhere on social media.\nIf you have ordered the Collector’s Box, this is the physical map that you will get. The fans are pretty hyped for the game, which is set to launch on November 19, 2026.\nThe leak revealed the physical double-sided map included with the GTA 6 Collector’s Box, showcasing Leonida’s regions, cities, islands, and several named locations.\nThe map reportedly leaked after a Selfridges employee shared an image of it via an Instagram Story from Rockstar’s GTA 6 pop-up store in Manchester.\nThe map features major counties, towns, islands, landmarks, NPC illustrations, vehicles, wildlife, and other points of interest across Leonida.\nFor more updates, follow Khel Now Gaming on Facebook , Twitter , and Instagram ; download the Khel Now Android App or IOS App and join our community on Telegram & Whatsapp .\nAsian Games 2026 Indian Football News Gaming News Dream11 Cricket Tips Badminton News Cristiano Ronaldo total goals WWE News PKL 12 Hockey News Indian Cricket Team News Tennis News Sports Business News ICC Rankings IMPORTANT LINKS",
-   "pub": "2026-11-13T07:38:06.000Z",
    "cyberleek": true
   },
   {
@@ -595,7 +562,7 @@
    "d": "2026-11-12T17:12:00+00:00",
    "lang": "fr",
    "t": "GTA 6: une carte partielle aurait fuité depuis un pop-up Rockstar x Selfridges",
-   "erreur": "HTTP Error 412: Precondition failed",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -630,7 +597,7 @@
    "d": "2026-11-12T15:17:46+00:00",
    "lang": "fr",
    "t": "Une carte de GTA 6 de l'édition collector a fuité en ligne",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -691,7 +658,7 @@
    "d": "2026-11-09T11:06:47+00:00",
    "lang": "fr",
    "t": "Nouvelle fuite de données sur GTA 6 — fonctions en ligne, taille exacte et bien plus encore",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -726,11 +693,7 @@
    "d": "2026-10-26T04:38:45+00:00",
    "lang": "en",
    "t": "Cyberleek Shares More GTA 6 Footage Featuring Lucia Naked",
-   "u": "https://www.imdb.com/fr/news/ni66063856/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -752,11 +715,7 @@
    "d": "2026-10-22T15:12:54+00:00",
    "lang": "en",
    "t": "Cyberleek Shares GTA 6 Leak Of Naked Lucia",
-   "u": "https://www.imdb.com/news/ni66062173/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -848,6 +807,15 @@
    "chapeau": "Cyberleek annonce la fin de ses fuites de GTA 6 après l’échec de son objectif financier. Le groupe renonce à publier sa prétendue version complète.",
    "txt": "Cyberleek annonce l’arrêt de sa campagne contre Rockstar Games et Take-Two Interactive. Dans un communiqué en trois parties publié le 14 octobre, intitulé “ La fin de la route “, le groupe anonyme affirme abandonner la publication d’une soit disant version complète et jouable de GTA 6.\nCette décision n’est pas une surprise puisqu’elle a été conditionnée à l’échec d’une opération liée à une cryptomonnaie. Le groupe voulait porter sa capitalisation à 30 millions de dollars , un seuil qui n’a pas été atteint.\nCyberleek avait conditionné la publication de l’intégralité de la campagne solo à cette valorisation. Il avait également proposé de renoncer à la diffusion si Take-Two acceptait de commercialiser le jeu sur disques physiques et présentait des excuses publiques.\nPour expliquer cette marche arrière, le groupe met en avant les difficultés d’une mise en ligne anonyme de plus de 200 Go de données. Il estime que les risques associés ne se justifient pas sans avoir atteint son objectif financier.\nEnfin le groupe assure aussi détenir la fin de GTA 6, tout en affirmant avoir choisi de ne pas la dévoiler. Selon son communiqué, certains extraits récemment diffusés proviendraient des missions finales, mais auraient été sélectionnés pour éviter les révélations importantes sur l’intrigue.\nMalgré l’annonce de son retrait, Cyberleek conserve un moyen de pression. Il prend la forme d’un prétendu “ interrupteur de l’homme mort “, censé déclencher la publication de spoilers si le groupe était ciblé.\nAucune preuve de l’existence de ce dispositif n’a été fournie.\nMAJ : GTA 6 : Cyberleek fait volte-face et propose sa prétendue build pour 40 dollars",
    "pub": "2026-10-15T09:09:22+00:00",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNS1RycU50NjNJMGk0VmZZUUdxUENZUTFLTkttRXRWVTRNemVYa3lPSjZReGFqMU5EME5MSXBnRnd4azdSMXU4LW9pdGtwdFlNWndlNFJkVkxqTmt6MXJRLTZRcjlISFJQVWI4d0lFcTFwd3NOdll5RHVEWnA3R1p2SWU2NE1pdC14aWFRYmNTRkhtSElfQWFST1JEZmxWS1FObDYtOWE5NDZvTkpHRkdpUVppTWV0Ym1NQkE?oc=5",
+   "s": "Cowcotland.com",
+   "d": "2026-10-15T07:00:00+00:00",
+   "lang": "fr",
+   "t": "GTA VI : CYBERLEEK abandonne ses leaks et annule la diffusion du jeu complet",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   }
  ]
