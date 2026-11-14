@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-14T05:01:31+00:00",
+ "maj": "2026-11-14T05:22:00+00:00",
  "articles": [
   {
    "gn": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOeV9MU3ZNaXNVbFVWQjctLUdGX252U3dkUVpTSV9XZ2RGY2JvTjV0RjhRMWUwUWdUM2N3a04tMFJremZsd05xVHV5SmIxZk9oNjJ5SkU1UmRwOUtHbEdVQlF0SWRFX1JuUW5WRUpuYk1uNmh1eU1GZ0NjcV82SDdZVENzLVFpRkQ0ampMTFEzMlo4clFuUzVWU01jUHdqdzFCUVRqU1Z0VjBUZkRYN2pFZ1R1Q1BaQjFGVjhR?oc=5",
@@ -104,11 +104,7 @@
    "d": "2026-11-14T00:59:44+00:00",
    "lang": "en",
    "t": "The countdown is on for Grand Theft Auto 6",
-   "u": "https://www.fox13news.com/video/fmc-8udto2l5qno24464",
-   "img": "https://images.foxtv.com/static-media.fox.com/fmcv3/prod/fts/8pbmq5clnd7aa5c7/1200/630/z67uds4gsevjevd0.jpg?ve=1&tl=1",
-   "chapeau": "GTA 6 is being released in six days, and FOX 13's Haley Hinds has the story.",
-   "txt": "",
-   "pub": ""
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOaUNDZUhlUldXMUlOU3N6VWtra2d4R2x3eUhvdzlOR2hMcU10R3I1QUc3eUVpRExYRWNBWl9wcWpZUGVmWFFKczNSOTFVQTJQbkNZT3NTcExzSUJEYmJwQmRkdm5SQUhKWk9kYmRIU0JPVnJKMXhsdnZhMFhiVUNHRGFIY1N5MkJacUE?oc=5",
@@ -116,11 +112,7 @@
    "d": "2026-11-14T00:53:45+00:00",
    "lang": "fr",
    "t": "Pari tenu pour Bilel Jkitou qui devient champion du monde avant GTA 6",
-   "u": "https://lasueur.com/pari-tenu-bilel-jkitou-devient-champion-avant-gta-6-14-11-2026",
-   "img": "https://lasueur.com/wp-content/uploads/2026/11/bilel-jkitou-champion-gta-6.jpeg",
-   "chapeau": "BOXE - Il l'avait promit, il l'a fait ! Ainsi, Bilel Jkitou est devenu champion du monde avant la sortie du fameux GTA 6.",
-   "txt": "",
-   "pub": "2026-11-14T00:52:33+00:00"
+   "erreur": "HTTP Error 429: Too Many Requests"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0xa25uZ25Ya2hyRWFTd0dZRHItbGJmTjdKSld5VDNmQnRhd0Y2ZWNTYUN3bVZOZmxCSFpIX2loa25yRWxrTEVybnh1ZGVDbklmdVVBSy1CZzRJUk0?oc=5",
@@ -208,14 +200,6 @@
    "pub": "2026-11-13T23:21:23+00:00"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPYnVMNFl0UHk5VW5jYWlkSEZ4Y3Y5dFMxclZrLW8tNkNNMFdPVTZRQjNxWkFoTVZGQmt6cmU5a0VWYmdrOExyUERjak4yRTl4bDhjM1RBbWRzZW9xTTJTYWdXZVhIRlhKYkZVYXJmRF9SSDFtMWpfTTZHeVgxcmNmajljQThic01EYlNKQUZqOHR6VlhZSWNxYnJfREQyNUVKQTd4MF9lWQ?oc=5",
-   "s": "games.gg",
-   "d": "2026-11-13T22:55:16+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : date de sortie précise et heures de lancement",
-   "erreur": "HTTP Error 403: Forbidden"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9mRWl6Uzg2SUZQRElYU0dobDExU3BMd3RPMFJwUTJOeTR2Vjh5elgzaFBXbHpxNDVNNjlZZ0FuOWRtd1BkemFweWE3YzhZM0pIQVpWT1pJUXFEckZVWEZ2MzJB?oc=5",
    "s": "New Game Plus",
    "d": "2026-11-13T22:52:00+00:00",
@@ -264,6 +248,14 @@
    "pub": "2026-11-13T08:00:00+00:00"
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcmh5N3dIV2pmNGFYNVlXWGZpMm1vNlBtU3R2UGRnOFFsTjBmZWZPUnpXbTBfanA1ZVVhbC1ZQ1VscHdteHdJaElGczZKck0wSkdpUmhOTWplYU5EOGNWU1lUMV96RGJHbUZpanUyazBveGd6MnNFVHh5aTQ2OFpNMHJ0NVdSLUtDai05cmpHMDFPeDJJYTBMUEV4YTlGVFZKb1diX3FoQjdYX2NmQmo4NUdSYmdXdUpUT1pV?oc=5",
+   "s": "GameGPU",
+   "d": "2026-11-13T22:08:43+00:00",
+   "lang": "fr",
+   "t": "Rockstar Games a publié le premier patch officiel 1.002.000 pour GTA VI sur PS5, d'une taille de 1 Go.",
+   "erreur": "429 : passage suivant"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSFJrcUdvUENqTHdJTm4tTENkWUpwMUttTUxrTU0wMzZseDg5WXE3NnJCLWNZa1lrS2N1OVNaWS0taWtyb0JyNXJfUEFxbHIzQjByWGY0emFsY2ptWm9CQTBJMWZWb05TLXhyTkt2VktKUUloNEd3cnlhV1A4QjlMYnhnQmlJTFd6cG1ab3VzaTBCRWdSWUFzLXgtX0R0RE0?oc=5",
    "s": "JeuxVideo.com",
    "d": "2026-11-13T21:20:08+00:00",
@@ -292,12 +284,8 @@
    "s": "Le Parisien",
    "d": "2026-11-13T20:00:16+00:00",
    "lang": "fr",
-   "t": "Comment GTA a survécu pendant 13 ans grâce au « roleplay »",
-   "u": "https://www.leparisien.fr/video/programme/combo/comment-gta-a-survecu-pendant-13-ans-grace-au-roleplay-13-11-2026-H4JFVBGA3VCDZMT75OXCNKBM44.php",
-   "img": "https://www.leparisien.fr/resizer/RdTpfAouDMjnJ2ecuxCt0nlIuC4=/1600x900/cloudfront-eu-central-1.images.arcpublishing.com/leparisien/54QMVAVYM5GRFLJWEHPMFFMUVQ.jpg",
-   "chapeau": "Pour comprendre tous les enjeux qui entourent la sortie du phénomène GTA 6, retrouvez notre vidéo complète sur notre chaîne YouTube « Le Par",
-   "txt": "",
-   "pub": "2026-11-13T21:00:16+01:00"
+   "t": "Comment GTA a survécu pendant 13 ans grâce au « roleplay »",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB4LUtrNDRadm9kTDJCVjNGWmV5d0IwNVBnQ2sxU3dUTFpvLWpTY0xvNlh2YWx1T0plMDVvallDakdTdUZqV2RVY0F0MWF1cXBJM3JDV1ZyTQ?oc=5",
@@ -365,7 +353,7 @@
    "d": "2026-11-13T18:09:11+00:00",
    "lang": "fr",
    "t": "Forza Horizon 6 et GTA VI ont été comparés en tenant compte des caractéristiques de leurs genres de jeux respectifs.",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdUU3QVVoeGtTLU1iajAyU05CQlRDYlM0d1JwMDd1b29HOXM5b0VqcGdhVTV3TElMRERCOHl6amlwQVY0aTg3UmJCMHV3QWpDdlA4NmJONzJaMGNWN21XZkdFYllmdXhLYldDdl9nTnBwZ1BCUXV4bVY5VFc1VWZIYnpwTFpVWFJranlWdWdzMA?oc=5",
@@ -373,7 +361,7 @@
    "d": "2026-11-13T17:22:14+00:00",
    "lang": "en",
    "t": "GTA 6 Map Images Seemingly Leak via Retail Display at Selfridges in London",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -421,7 +409,7 @@
    "d": "2026-11-13T14:48:55+00:00",
    "lang": "en",
    "t": "Adin Ross Loses It Over Missing GTA 6 Disc, Then Appears To Leak His Game Code On Stream",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -586,7 +574,7 @@
    "d": "2026-11-12T17:12:00+00:00",
    "lang": "fr",
    "t": "GTA 6: une carte partielle aurait fuité depuis un pop-up Rockstar x Selfridges",
-   "erreur": "HTTP Error 412: Precondition failed",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -621,7 +609,7 @@
    "d": "2026-11-12T15:17:46+00:00",
    "lang": "fr",
    "t": "Une carte de GTA 6 de l'édition collector a fuité en ligne",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -682,7 +670,7 @@
    "d": "2026-11-09T11:06:47+00:00",
    "lang": "fr",
    "t": "Nouvelle fuite de données sur GTA 6 — fonctions en ligne, taille exacte et bien plus encore",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -717,11 +705,7 @@
    "d": "2026-10-26T04:38:45+00:00",
    "lang": "en",
    "t": "Cyberleek Shares More GTA 6 Footage Featuring Lucia Naked",
-   "u": "https://www.imdb.com/fr/news/ni66063856/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -743,11 +727,7 @@
    "d": "2026-10-22T15:12:54+00:00",
    "lang": "en",
    "t": "Cyberleek Shares GTA 6 Leak Of Naked Lucia",
-   "u": "https://www.imdb.com/news/ni66062173/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -847,7 +827,7 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
    "t": "GTA VI : CYBERLEEK abandonne ses leaks et annule la diffusion du jeu complet",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   }
  ]
