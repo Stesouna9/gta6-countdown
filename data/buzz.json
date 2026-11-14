@@ -1,8 +1,46 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-14T00:12:43+01:00",
+  "updated_at": "2026-11-14T08:13:00+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-guardian-empathie-vols-boutiques-2026-11-14",
+      "title": "GTA 6 : empathie et vols de boutiques de luxe, selon l'aperçu du Guardian",
+      "summary": "@GTAVI_Countdown relaie de nouveaux détails tirés de l'aperçu du Guardian à Rockstar North : GTA 6 serait le premier jeu de la série à encourager l'empathie, les actions du joueur ayant des effets sur le déroulement, et l'on pourrait dévaliser des boutiques haut de gamme dans un centre commercial. Le post est tronqué dans le relevé : la suite n'est pas vérifiée.",
+      "url": "https://x.com/GTAVI_Countdown/status/2121429175617687654",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "2026-11-14T02:25:04Z",
+      "checked_at": "2026-11-14T08:13:00+01:00",
+      "evidence": "Vues relevées le 2026-11-14 dans data/x_alertes.json (maj 2026-11-14T07:04 UTC) : 405 149 vues (@GTAVI_Countdown). Détails attribués à l'aperçu du Guardian ; l'article original n'a pas été ouvert. Distinct de x-guardian-gestes-jason-apercu (gestes de Jason).",
+      "visual": "APERÇU GUARDIAN",
+      "image": "https://pbs.twimg.com/media/HXDUPZuWEAEvg1y?format=jpg&name=small",
+      "image_alt": "Image du post de @GTAVI_Countdown sur l'aperçu du Guardian",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "New GTA 6 details from The Guardian’s preview at Rockstar North:\n\n- It’s the first title in the series to encourage empathy, as your actions will have some effect on how the game plays out\n- You can rob high-end shops in a shopping mall\n- A lot of devs have finished working on"
+    },
+    {
+      "id": "x-gta6-cinq-jours-compte-a-rebours-2026-11-14",
+      "title": "GTA 6 : « dans cinq jours », annoncent deux comptes fans",
+      "summary": "@GTAVI_Countdown (19 007 vues) et @GTAlphaintel (10 454 vues) publient le même compte à rebours : GTA 6 sort dans cinq jours. Ce sont des comptes fans, non une communication de Rockstar.",
+      "url": "https://x.com/GTAVI_Countdown/status/2121472436386562409",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Création de fan",
+      "published_at": "2026-11-14T05:16:58Z",
+      "checked_at": "2026-11-14T08:13:00+01:00",
+      "evidence": "Vues relevées le 2026-11-14 dans data/x_alertes.json (maj 2026-11-14T07:04 UTC) : 19 007 vues (@GTAVI_Countdown) et 10 454 vues (@GTAlphaintel, publication 2121437982754242627). Deux comptes reprennent le même décompte.",
+      "visual": "J-5",
+      "image": "https://pbs.twimg.com/media/HXD73Q7WcAA8fp_?format=jpg&name=small",
+      "image_alt": "Image du post de @GTAVI_Countdown annonçant la sortie dans cinq jours",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "GTA 6 officially launches in 5 days!"
+    },
     {
       "id": "x-maj-ps5-xbox-scenario-gtasix-2026-11-13",
       "title": "GTA 6 : des mises à jour sur PS5 et Xbox, avec fichiers de scénario modifiés",
@@ -3650,6 +3688,11 @@
       "at": "2026-11-14T00:12:43+01:00",
       "label": "Passage manuel Claude Haiku (Matière X)",
       "summary": "Relevé data/x_alertes.json (maj 2026-11-13T22:12:53+00:00, 13 posts). Aucun nouveau sujet : les posts ≥ 20 000 vues sont déjà dans items (acteurs Jason et Lucia, mises à jour PS5 et Xbox, Vice City 4K, GTA 6 vs réalité). Écartés : clips comparés @GTAVI_Countdown (99 177 vues, même thème que « GTA 6 vs réalité » déjà publié) ; gameplay @GTAlphaintel relayé de @ONLYinDADE (12 708 vues, sous le seuil) ; Twitch, emotes, identité visuelle GTA 6 Hub, posts < 20 000 vues sans reprise."
+    },
+    {
+      "at": "2026-11-14T08:13:00+01:00",
+      "label": "Passage manuel Claude Haiku (Matière X, 14/11)",
+      "summary": "Relevé data/x_alertes.json (maj 2026-11-14T07:04 UTC). Ajouts : aperçu du Guardian à Rockstar North (405 149 vues, @GTAVI_Countdown) et compte à rebours « cinq jours » (19 007 + 10 454 vues, deux comptes). Écartés : patch 01.002.000 et mises à jour PS5/Xbox déjà couverts ; marketing Miami et Twitch/emotes sous 20 000 vues sans reprise ; graphiste GTA 6 Hub ; lampe et boîtes, un seul compte."
     }
   ],
   "coverage": {
