@@ -1,13 +1,65 @@
 {
- "maj": "2026-11-14T10:08:02+00:00",
+ "maj": "2026-11-14T10:29:14+00:00",
  "articles": [
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMGJjOGtfUFVOcU5tR29FaE9vcldvbXVNLWR2N0NqY0dDTVB4MGt3R09tdXpfdlp1TmxkV0JVNVJJOVFtTUF4UzdsZkxLNi1NUDA3Z0VPN3VwdWN2elA2bUVQdzM4aEFpazN4OVQ0MmszeWtVU3lqbS1GdERMbXR3NzhyZlN6RXhmeDJz?oc=5",
+   "s": "L'Observateur de Beauvais",
+   "d": "2026-11-14T10:24:42+00:00",
+   "lang": "fr",
+   "t": "GTA VI, après 13 ans d'attente... A Juvignies (Oise), Cédric Lecat est fan de la licence de Rockstar Games",
+   "u": "https://www.lobservateurdebeauvais.fr/gta-vi-cedric-lecat-juvignies-rockstar-games/",
+   "img": "https://www.lobservateurdebeauvais.fr/wp-content/uploads/2026/11/Cedric-Lecat-GTA-VI-Juvignies-novembre-2026.webp",
+   "chapeau": "Cédric Lecat est fan de la licence de Rockstar Games",
+   "txt": "",
+   "pub": "2026-11-14T11:24:42+01:00"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNktwTWY0a3NFc3RSTHVoR0lzNGdnUlkyYTZGeDFKUkpVcWhiYmxhVm1oVTZJeldra1JYekdGZnB6YWpTVWdJdk5wd1JLYndwRFJXZWxZYWhnQXdVTndQQXd5NkN1N21Ta0JZOUVVN3Z3NW82OFpPUVdPWGVmeXNwOVdMa1QySm9FVG1QeXZmOFF2eC05d18zczNwZzltMDZVOTVyX3lYUXFRbjdqSEZoYg?oc=5",
+   "s": "autoevolution",
+   "d": "2026-11-14T10:14:55+00:00",
+   "lang": "en",
+   "t": "Don't Download \"GTA 6 for Free\" Because You'll Instantly Regret It",
+   "u": "https://www.autoevolution.com/news/don-t-download-gta-6-for-free-because-you-ll-instantly-regret-it-278412.html",
+   "img": "https://s1.cdn.autoevolution.com/images/news/don-t-download-gta-6-for-free-because-you-ll-instantly-regret-it-278412_1.jpg",
+   "chapeau": "Hackers are trying to take advantage of the frenzy surrounding GTA 6, and their latest attempt is a campaign that invades your PC with malware",
+   "txt": "20 photos Photo: Rockstar GTA 6 is just around the corner, and unsurprisingly, hackers, scammers, fraudsters- you name it are trying to take advantage of the whole thing in their own malicious ways. This time, they are using a fake GTA 6 for PC free download that ends up with your computer being invaded by malware that does everything from stealing your passwords to extracting crypto information. An analysis conducted by security company Cynet started with the most obvious thing that has changed in the last few weeks: the number of searches for GTA 6 information.\nKeywords like “GTA 6 free download” and “GTA 6 PC download” are becoming more popular, and the bad actors out there know this.\nAs an early warning, it’s important to keep in mind that GTA 6 for PC isn’t launching yet . Rockstar will only release the game for new-generation consoles, with the PC version expected either next year or at a later time.\nPeople who search for these keywords could end up on a page promising a leaked version of GTA 6 for PCs. Leaked builds are always popular and instantly catch the attention of gamers, and these scams are trying to look as legitimate as possible with GTA 6 artwork , fake security badges, and so on. In plain English, they look almost like the real deal, all in an attempt to convince you to download this fake GTA 6 build.\nPhoto: Rockstar Games Assuming you end up doing this - at this point, your computer still isn’t compromised - you’re provided with a Google Colab network that points to a GTA 6 EXE file download. This is specifically aimed at Windows computers, and when you click the link, you’re directed to a page where you get more details, supposed to earn your trust and make the whole thing look legitimate.\nOddly, the file size is only 72 MB, but the cybercriminals probably hope that people will think this is just the installer. They also show a download count, a version number, and even fake antivirus checks that indicate the file is clean.\nOnce you download the executable file and run it on your computer, you pretty much end up opening the door of your PC to the bad actors. The README document that is included in the ZIP archive prompts users to disable the antivirus software installed on their device and run the file as an administrator. This means you’re instructed to let the malicious payload do its job.\nPhoto: Rockstar Games Gamers eager to play GTA 6 who do this end up getting their computers infected with the WARDEN Stealer, which does all sorts of things, beginning with stealing your passwords, Steam and Roblox credentials, and injecting code into browser processes. Additionally, it can evade virtual machines and sandboxes, so if you decided to run the whole thing in a sandbox to make sure you’re safe, this still wouldn’t be enough to avoid getting infected.\nThe malicious payload also looks for cryptocurrency wallet details and opens the door for additional malware that can be downloaded and planted in the background.\nEventually, the malicious payload can access anything on your computer and expose it to other infected files that can be downloaded without you even knowing. Your PC is compromised at this point, and all your data, including passwords and cryptocurrency addresses, have left your computer.\nIs there anything you can do? Yes. Don’t download these fake GTA for PC builds. It’s important to remember that Rockstar won’t release a GTA 6 build for PC for the time being, and that’s precisely why you shouldn’t search for such a download in the first place.\nPhoto: Rockstar Games With Rockstar planning to eventually bring Grand Theft Auto VI to PC at some point in the future, there’s a chance these malicious campaigns will return, especially as many people would start looking for ways to get it for free. For now, GTA 6 is only aimed at consoles.\nSecond, you should never disable your antivirus just because something you downloaded from the Internet tells you to do it. This is a major red flag, and if you pay close attention to everything else, such as the size of the downloaded file and the requirement to run the process as an administrator, everything shows this can’t be good.\nThe security company says it loud and clear. The downloaded files “contain no game engine, assets, Rockstar signatures, or legitimate GTA functionality.” It’s just a malicious payload that’s trying to trick you into allowing it to run on your computer to steal your data.\nNovember 19 is the big day when GTA 6 will become playable, s",
+   "pub": "2026-11-14T10:14:55+0000"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNUU9iSk15YWl6SjF5a05pQXdNVGpxanFVWE5HZnVTLTNPck4xTWlsV2FBNWxiSExKRDNXYzllbnlic0k1dkxiTEY3b0szLVhuNmtkckY0TF9kaTBzQUljRmhQaGJ3cmxhWHd4eENhS3ZFU2ZndWw4MGZmR1gxd3lHVFdfYUdoUThLb0JoZ2xLOG5HeF9SZmJKWjREOGs5cGItQXNPRTY3UVpvOXVhMC1iS3ZDSDU1NjZ0Mk5WM0xsRkplV1pJTGM4ZjlYTXo3MmhUSklJeFBKTjdZMTVhdU5XMWRzUDM2UG9ZbVE?oc=5",
+   "s": "La Crème Du Gaming",
+   "d": "2026-11-14T10:00:25+00:00",
+   "lang": "fr",
+   "t": "GTA 6 marque un tournant pour les jeux physiques, le patron de Take-Two annonce ce qui les attend",
+   "u": "https://www.lacremedugaming.fr/jeux/gta/gta-6/gta-6-marque-un-tournant-pour-les-jeux-physiques-le-patron-de-take-two-annonce-ce-qui-les-attend-234557.html",
+   "img": "https://sf.lacremedugaming.fr/wp-content/uploads/creme-gaming/2026/11/gta-6-marque-un-tournant-pour-les-jeux-physiques-le-patron-de-take-two-annonce-ce-qui-les-attend-1200x660.webp",
+   "chapeau": "GTA 6 arrive en boîte sans disque sur PS5 et Xbox Series, tournant majeur pour un blockbuster aussi grand public. Strauss Zelnick y trace l’avenir des jeux physiques, avec des conséquences bien concrètes pour les joueurs.",
+   "txt": "GTA 6 arrive en boîte sans disque sur PS5 et Xbox Series, tournant majeur pour un blockbuster aussi grand public. Strauss Zelnick y trace l’avenir des jeux physiques, avec des conséquences bien concrètes pour les joueurs.\nGTA 6 arrive le 19 novembre 2026 sur PS5 et Xbox Series X|S avec un choix radical : aucune version sur disque. La « version physique » signée Rockstar Games se limite à une boîte en rayon contenant un code, sans Blu‑ray, un modèle qui inquiète collectionneurs et amateurs de jeux d’occasion.\nDerrière ce boîtier symbolique, Grand Theft Auto 6 impose un téléchargement d’environ 200 Go et une connexion stable dès le jour J. Un cas d’école pour la distribution numérique, sur lequel le patron de Take‑Two Interactive , Strauss Zelnick , vient de livrer sa vision du futur des jeux physiques.\nEn magasin, la boîte GTA 6 version physique renferme un code de téléchargement unique lié à votre compte PlayStation ou Xbox, accompagné d’un poster et de quelques feuillets. Une fois activé, ce code rend le boîtier inutilisable en occasion : aucun disque ne peut être prêté ou revendu.\nPour une connexion ADSL ou 4G, télécharger près de 200 Go représente plusieurs heures, voire plusieurs jours. La boîte devient donc avant tout un support marketing ou un objet de collection, alors que la réalité de l’achat reste entièrement dématérialisée sur les serveurs de Rockstar Games .\nDans un entretien avec Christopher Dring pour The Game Business, repris par Insider Gaming, Strauss Zelnick rappelle : « J’ai prédit que la distribution numérique représenterait bien plus de 90 % du business il y a plus de dix ans. Je ne vise pas toujours juste, mais sur ce coup‑là, j’avais raison. » Un pari validé aujourd’hui, plus de 90 % des revenus de Take‑Two venant déjà du numérique.\nPour les très gros titres comme GTA 6 , il estime désormais que les disques « n’ont plus de sens pour le consommateur ». Et si le support physique ne disparaît pas tout de suite, Zelnick le voit évoluer en marché de niche : « Y aura‑t‑il toujours un peu de physique ? Oui, comme il existe encore un marché du vinyle dans la musique enregistrée. Mais ce sera une très petite partie du business. »\nLa position de Take‑Two s’inscrit dans une tendance générale : Capcom réalise près de 90 % de ses ventes en volume en dématérialisé, et Nintendo tire plus de 60 % de ses revenus logiciels du numérique. Du côté des constructeurs, Sony prévoit d’arrêter la production de disques PS5 pour les nouveaux jeux à partir de 2028.\nPour les joueurs français, la « boîte sans disque » de GTA 6 signifie plus de contrôle pour les éditeurs, mais moins de liberté : plus de prêt entre amis , plus de revente d’occasion et un accès dépendant des stores. À terme, les éditions physiques pourraient se limiter à quelques collectors premium, tandis que l’essentiel du marché passera par le téléchargement.",
+   "pub": "2026-11-14T10:00:25+00:00"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQU1Z2TWc1SDFMWDZEQTZQaTNIMHBnS1doOW84dlhwODJBZGZPM1JEaXRtTXdlc250dGVVRnZpZ2dqTEpJZnFSQjEwTHZENXk3RzJTb1p3Z3FnMkcxYWlPejhMZWUyZ29HQVpSTF9JTDA1ZTFHTTdIWUhmUXJXS1VaS25NLW1vVVF1ZkxRcmZQUUN5SFZ6THB1Q0h4enBJUFVISERRNVEtUTF0NDdrbXV0QkNB?oc=5",
+   "s": "Condé Nast Traveler",
+   "d": "2026-11-14T10:00:00+00:00",
+   "lang": "en",
+   "t": "Inside 'Grand Theft Auto VI'—and the Real-Life Florida Locations That Inspired It",
+   "u": "https://www.cntraveler.com/story/inside-grand-theft-auto-vi-and-the-real-life-florida-locations-that-inspired-it",
+   "img": "https://media.cntraveler.com/photos/6af4cb4d6657764b83df6e98/16:9/w_1280,c_limit/GTA.jpg",
+   "chapeau": "Gamers are leaving their consoles behind in favor of real-world trips to the locations that inspired their favourite levels. Next on the agenda? The Florida cities, towns, and national parks behind the upcoming Grand Theft Auto 6",
+   "txt": "Save this story Save Story Save this story Set to be released on November 19, 2026, Grand Theft Auto VI is expected to be the most profitable piece of media ever created. Pre-sale estimates suggest the game has made a staggering $476 million in revenue already.\nDreamt up by Scottish developers Rockstar Games, the GTA series has been big business for some time now. The previous instalment, Grand Theft Auto V has reportedly made a whopping $11 billion since its release in 2013. Not bad for a game in which you essentially steal cars and shoot guns.\nIf you haven’t played the games, you should know that they take place in a sort of shadow version of the US, with each game taking place in a new city inspired by a real-world counterpart. For me, they’ve been a fascinating companion to my travels in America. When I’m in New York , walking among towering skyscrapers, I can’t help but be reminded of Liberty City, the location of 2001’s dark and atmospheric Grand Theft Auto III . On holiday in Los Angeles , driving along the Pacific Coast Highway, the long, ocean-view roads of GTA V ’s Los Santos were front of mind.\nIt works both ways. Red Dead Redemption 2 , an open-world cowboy game released by Rockstar between GTA s V and VI, is perhaps the most immersive video game to date. In it, you can wander everywhere from dry, open deserts to lush forests where you can kick back with your horse, camp, and look for rare herbs and flowers. For me, it’s inspired trips to the deserts of the American Southwest and served as an interesting entry point into learning about US history. Now when I’m abroad, I’m thinking of these games, but also learning more about the real-world events and cultures that inspired them. It’s a full-circle moment that only enriches my travels.\nThese gaming vacations, or ‘gami-vacations’, are becoming increasingly popular. Fans are traveling to Tokyo to visit real-life locations from the Yakuza series and role-playing classic Persona 5 , to Paris to see locations featured in the Assassin’s Creed series, to the Pacific Northwest to soak up the vibes of zombie classic Day Gone , and to Iceland to walk dramatic black sand beaches like those in the Hellblade series.\n“Santa Monica, the Sunset Strip, and Griffith Observatory from GTA V ,” one Reddit user replied to a post asking about video game locations fans wanted to visit in real life. “Old town Tallinn feels like a very fairytale environment to me. If you went in winter , it would feel like a set from Assassin's Creed ,” suggests another Redditor .\nFar from being confined to their rooms, crouched over consoles, gamers are increasingly inspired to get out into the world. It’s a beautiful tradition, and one that GTA 6 looks set to continue. Set in the fictional state of Leonida, GTA 6 is set to be the franchise’s largest map to date. With six key locations, there promises to be something for every type of traveller. Here’s what you need to know, along with the real-world inspirations for each game location.\nVice City Rockstar Games/Grand Theft Auto Vice City “We’re a long way from the ‘80s, but Vice City is still the sun and fun capital of America,” reads Rockstar’s official guide to GTA VI ’s base of operations, Vice City.\nAs fans are aware, the new game returns to the setting of the 2002 release, Grand Theft Auto: Vice City . Set in the 1980s, that game borrowed pretty heavily from the story of Brian De Palma’s brace of crime films Scarface and Carlito’s Way , giving players the ability to control one Tommy Vercetti as he rises from the streets to build a narcotics empire. As expected, disco, perms, neon signs and flared trousers were the order of the day.\nUpdated for 2026, GTA VI ’s Vice City is a modern cityscape full of high-rises, trendy rooftop bars , nightclubs. and more. It sounds pretty idyllic, but this being GTA , there’s a shadier side, too. “When the sun fades and the neon glows, everyone has something to gain—and more to lose,” the official longline reads.\nThe recent Netflix preview of the upcoming game gave us a bit more insight into the locale, including shots of BASE jumping from city bridges, a jewelry store robbery and subsequent high-speed escape, and a shootout through a drug den in a down-on-its-luck neighbourhood. In other words, as the main large city in the game, it looks like there’s plenty to keep Vice City residents occupied—on both sides of the law.\nInspiration: While Rockstar doesn’t explicitly explain that ‘game location X equals real w",
+   "pub": "2026-11-14T10:00:00.000Z"
+  },
   {
    "gn": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPc0l6RFdOVm5HYnVoV2N0Wm01MWdxLXVXdnp2RTltMnRESER5N3FNWG1Nc281dWdiMEJEc1l3U0paRll4UUs5ZWIwUVZrTk9PaHEyUk8yNkMzS2NULWlmMXRiNWtLY04zQThOSXRVUTVabXFad1doRXB1czlvME5xeXVzUnJPeWs?oc=5",
    "s": "Push Square",
    "d": "2026-11-14T09:52:42+00:00",
    "lang": "en",
    "t": "GTA 6 Release Times: When Can You Start Playing?",
-   "erreur": "429 : passage suivant"
+   "u": "https://www.pushsquare.com/guides/gta-6-release-times-when-can-you-start-playing",
+   "img": "https://images.pushsquare.com/43e69a3687e26/1280x720.jpg",
+   "chapeau": "All the GTA 6 release info you need",
+   "txt": "Probably the most anticipated game of all time, GTA 6 is now less than one week away!\nAs the launch draws even closer, we're covering absolutely everything you need to know about its PS5 launch, including preload options and release times. In this GTA 6 guide , we cover the GTA 6 release times .\nRockstar has confirmed GTA 6 will officially be playable from midnight on 19th November in your local time zone. If you have preloaded the game, it'll unlock at midnight, and then you can begin playing immediately.\nAs such, the game will unlock and be available first in New Zealand. Availability will then roll out worldwide as each time zone reaches midnight on 19th November.\nGTA 6 preload is available now ! If you've pre-ordered from the PS Store, your download of the game should have started and will then be ready for you to start playing at release.\nRockstar has now officially confirmed the GTA 6 file size on PS5, and what you'll need to download, is 212GB . This is one of the biggest downloads and installs on console in history, and will probably only get bigger through patches and the addition of GTA Online.\nGTA 6 will unlock and be playable in New Zealand first, as it's located in one of the furthest along timezones. The chances are New Zealand is further along in the day compared to wherever you live in the world, so yes, New Zealand will be the first to gain access to GTA 6.\nBecause of this, there's been a rising trend in people creating New Zealand PSN account to play games as soon as possible. This can be done with GTA 6 too, but you'll need to set up a fresh New Zealand PSN account and buy the game through its PS Store.\nWhen you have done, you'll be able to play GTA 6 a few hours ahead of other countries like the USA. Keep in mind, though, that you can't transfer your save data from the New Zealand account you set up to your normal profile.\nGTA 6 is available digitally on the PS Store, or in a basic physical version that ships without a disc. The latter provides a code in the box that you redeem on the PS Store to get the digital version.\nThe two PS5 digital versions on offer are: Standard Edition and Ultimate Edition .\nRockstar is only selling GTA 6 in a digital format; you can't buy the game on a physical disc in any way. Even the version you buy in retail shops or from online retailers won't contain a disc. Instead, the actual GTA 6 box will have a code inside you can use to download the game. There's no version with a physical disc of any kind.\nRockstar has now confirmed a GTA 6 map will be made available, but it won't be included in the physical versions like for previous games. Instead, a physical GTA 6 map will be put on the official Rockstar store for $0.99. Or, it'll be included for free in all other purchases from the storefront.\nHave you pre-ordered GTA 6, and will you be staying up to play at midnight? Let us know in the comments below.",
+   "pub": "2026-10-28T00:00:00+00:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPMDVNNHB0dVBXWWdzbGZITVZLX3pnTjRia3hxdERFZUhIUXhlV2hMdmpIUWhRaE9oRS1qY0tsbThseVJLaVBRTGRNV3B2dGo1RjY4OVpMTFF1MXFyYmpzYk1qRHdtUTJ1Sk02cy1BTjNOMlMtM0Npd3lnLU03VmhfSV9XMnZUUzlVeUpWc2R2RGF5VkYyYlh2bUxvaXlNQ3EtVDZnVXljNHdQcGVlcWFTUjZFUDZDNjFDcVhnemRGbWVsdVotS0F3?oc=5",
@@ -15,7 +67,11 @@
    "d": "2026-11-14T09:49:47+00:00",
    "lang": "fr",
    "t": "GTA 6 : code absent ou clé visible à travers la boîte, le lancement physique crée la confusion",
-   "erreur": "HTTP Error 429: Too Many Requests"
+   "u": "https://www.xboxygen.com/News/374023-gta-6-code-absent-ou-cle-visible-a-travers-la-boite-le-lancement-physique-cree-la-confusion",
+   "img": "https://www.xboxygen.com/wp-content/uploads/2026/11/gta-6-code-invisible.jpg",
+   "chapeau": "GTA 6 : code absent ou clé visible à travers la boîte, le lancement physique crée la confusion - Alors que l'édition physique de GTA 6 a déjà fait couler beaucoup d'encre à cause de l'absence de Blu-ray dans la boîte, on découvre aujourd'hui deux",
+   "txt": "Alors que l’édition physique de GTA 6 a déjà fait couler beaucoup d’encre à cause de l’absence de Blu-ray dans la boîte, on découvre aujourd’hui deux nouveaux problèmes qui créent la confusion auprès des joueurs.\nÀ moins d’une semaine du lancement du jeu le plus attendu de la décennie, les problèmes semblent se succéder pour les acheteurs de l’édition physique. Si l’absence de disque dans la boîte n’aura surpris personne, certains joueurs ont en revanche eu la mauvaise surprise de découvrir que même leur code du jeu était absent.\nDans les éditions physiques Xbox et PS5, la clé du jeu est imprimée sur l’arrière de la jaquette. Seulement voilà, certains joueurs rapportent, photo à l’appui, que le code n’est tout simplement pas imprimé sur leur jaquette.\nLes versions Xbox et PS5 sont toutes les deux concernées, et si ça pourrait prêter à sourire au premier abord, ça n’amuse évidemment pas les joueurs concernés, d’autant que Rockstar semble faire la sourde oreille.\nThe NO CODE issue with physical GTA 6 copies isn’t limited to PlayStation, Xbox users are now reporting the same problem. Rockstar is reportedly closing tickets that mention this issue. https://t.co/jrSg1wdh87\nComme si cela ne suffisait pas, d’autres joueurs rapportent que la clé du jeu serait visible à travers la boîte. En pointant un flash à l’intérieur de la boite ouverte, on peut en effet voir le code à travers le plastique, ce qui suscite l’inquiétude par rapport au vol de clé.\nD’après nos tests, cela ne fonctionne pas avec la boite fermée, d’autant plus avec le poster ainsi que le flyer présents dans l’édition physique. Pour que le code apparaisse, il faut que la boîte soit ouverte, et coller un flash directement à l’intérieur de celle-ci, ce qui est peu probable dans un magasin. Vous ne devriez donc pas avoir à vous inquiéter à ce sujet.\nRappelons que Grand Theft Auto VI sera disponible le 19 novembre prochain exclusivement sur Xbox Series X|S et PS5. Le jeu est déjà en vente dans la plupart des enseignes pour vous laisser le temps de télécharger les plus de 200 Go nécessaires à son installation. Il ne reste plus que quelques jours à patienter avant de découvrir ce titre dont le lancement s’annonce historique.\nFans have discovered the entire GTA 6 redeem code on the physical copy can be seen without opening the box by shining a powerful flashlight through the side at an angle. pic.twitter.com/YtN5QhC81R\nLa sortie de GTA 6 est prévue pour le 19 novembre 2026 sur Xbox Series X|S et PS5.",
+   "pub": "2026-11-14T09:49:24+00:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQM2xBV0o4QnMzalNWT1lrTlRRM3VzWTFuUlpqRDJRYmctV0xDQ0VFbjNabHg5LXVQOGw2a2ppS3dlYTFBOUNIeFl1UkZjdk9jSkwyVXJ2TklySXZLLXhiSndOc1NTeDYxSThVcGF5UzR5MUhCQWY2U1A5QWU5U2F3NDVqdFNGZXdRWU5qWGRPblZzSW5MY01ZUlJYNkV5XzZoMlQweXVEdHF4b1VuX3l3MlY5aUxjTXBDV2Npd3BiYXdmWnVMenJobnhINmNXbUEwQ2pKQW9heTg2cHg2aUtwYkNMaTU4WVVJQVY2VlVDQnh4M2I1SXRGYktvd3VxbHJJQkE0TmpXUFRrNy1POHZGY0NkS1AzM2ZCLVE?oc=5",
@@ -23,7 +79,11 @@
    "d": "2026-11-14T09:30:42+00:00",
    "lang": "fr",
    "t": "Du studio provocateur à la poule aux œufs d’or avec GTA : comment les enfants terribles de Rockstar Games ont mis le jeu vidéo à leurs pieds",
-   "erreur": "429 : passage suivant"
+   "u": "https://www.lefigaro.fr/secteur/high-tech/du-studio-provocateur-a-la-poule-aux-oeufs-d-or-avec-gta-comment-les-enfants-terribles-de-rockstar-games-ont-mis-le-jeu-video-a-leurs-pieds-20261114",
+   "img": "https://i.f1g.fr/media/cms/1200x630_crop/2026/11/13/bf9d25be585d04c0fff3db5c32cb7ad482fc869ee57df1672a85d75e9fb07c81.jpg",
+   "chapeau": "DÉCRYPTAGE - Le studio derrière les jeux vidéo GTA revient avec un sixième opus dont le succès s’annonce hors norme. L’aboutissement de trois décennies à bouleverser l’écosystème, en repoussant toujours plus loin les limites de la créativité et de la provocation.",
+   "txt": "Google (ouvre un nouvel onglet) Google Discover (ouvre un nouvel onglet) Google News (ouvre un nouvel onglet) Sujets Rockstar Games Gta vi Jeux vidéo Lire dans l’app Sauvegarder Fermer Sauvegarder un article\nPour sauvegarder un article vous devez être connecté, vous pourrez ainsi les consulter sur tous vos appareils.\nCopier le lien Lien copié Mail Facebook X Linkedin Messenger WhatsApp Le jeu vidéo GTA 6 pourrait devenir le produit culturel le plus rentable de l’histoire. Rockstar Games DÉCRYPTAGE - Le studio derrière les jeux vidéo GTA revient avec un sixième opus dont le succès s’annonce hors norme. L’aboutissement de trois décennies à bouleverser l’écosystème, en repoussant toujours plus loin les limites de la créativité et de la provocation.\nAu concours des superlatifs, il rafle tout. Le plus ambitieux, le plus cher, le plus fou… Ce 19 novembre, le jeu vidéo GTA 6 va déferler sur la planète et il y a fort à parier qu’il devienne le produit culturel le plus rentable de l’histoire. Avant même sa sortie, le nouvel opus de cette franchise permettant d’incarner des gangsters sans foi ni loi aurait dépassé les dix millions de ventes en précommande, selon la plateforme d’analyse Sensor Tower – et généré plus d’un milliard de dollars. Les spécialistes du marché estiment qu’il pourrait écraser les chiffres de son prédécesseur. Sorti en 2013, GTA V a rapporté quelque 6 milliards de dollars, deux fois plus que le film Avatar , de James Cameron . Un succès sans équivalent pour le sulfureux studio Rockstar Games, qui a fait de la provocation sa marque de fabrique.\nL’histoire commence quarante ans plus tôt, dans un club informatique de la ville portuaire de Dundee, non loin d’Édimbourg, en Écosse. À la fin des années 1980, une bande de vingtenaires…\nCet article est réservé aux abonnés. Il vous reste 88% à découvrir.",
+   "pub": "2026-11-14T10:30:42+01:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMWRiWk9lZEZZUHpwY0hBM3hkMzZwaFhLdUZlV3FUb1ZKdjl0NkdDUTFYY0FQQjRjY0E3TVNZZVpGcFdBeDFwYkNmYzVXcTM0SW53Sndwb0dLYlprUUplU1paRk5XWVd5QTl6cVRYUlFvakdrRHJfU2I0ekJuakdjUUNCcVBjdVdDaHF5dEoxemdWbjVfa3RtbTdtcTFFSFZEUlB1RDRWTFRudUFObjdNRlZrdTJWZ2xtRVhfeXd6Y2l4Q2Jyc1VIdtIB1gFBVV95cUxOVFpaNHpjdmY1ejctUVpyMVpEU3ZsSXRmM0hONDdQWEY2X3hwd3ZSVHh1aXZ1NWM4SFFkNUhRY2themZOMW1fR0R1ZjRPNjlZVS1aM0k2NEJNbVBycVN3d2ZjNGlmUDhURjlkRDNJcnA5UXgtSEpJb1J4VEFFOVRwaVNZRjVrclNPUjdZSGFMZkZCMGE3T1drWXlXZGJ5RkpneHhmMEstbXV6YkN0dGc1RDg4QkFTTmFjR0tLNjN1Ylg5TXZWV3U4NnNpdmlxam9vTWdLbmZ3?oc=5",
@@ -31,7 +91,11 @@
    "d": "2026-11-14T09:17:47+00:00",
    "lang": "en",
    "t": "Travis Scott GTA 6 Air Force 1: Release Date And A Price Your Wallet Will Feel",
-   "erreur": "429 : passage suivant"
+   "u": "https://www.esquireindia.co.in/tech-and-auto/gaming/travis-scott-gta-6-air-force-1-release-date-and-a-price-your-wallet-will-feel",
+   "img": "https://media.assettype.com/esquireindia%2F2026-11-13%2Ftg2ca6x3%2FTravis-Scott-x-Rockstar-x-Nike-Air-Force-1.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+   "chapeau": "Everyone knows songs, and now, GTA 6 just got its own spanking new shoes. GTA 6 launch day is on November 19 and a recent leak suggests Travis Scott and Nike wi",
+   "txt": "Copied Everyone knows songs, and now, GTA 6 just got its own spanking new shoes. GTA 6 launch day is on November 19 and a recent leak suggests Travis Scott and Nike will release several Air Force 1 Low colourways with Rockstar Games on November 19, the same day the game arrives worldwide. Retail price is reportedly $130 a pair, though one of them may be much harder to get. It started when Canadian retailer Livestock updated its release calendar with two AF1s labelled “Nike x Cactus Jack x RS”. The “RS” stands for Rockstar.\nThere are three pairs: White Fire Pink, Black Fire Pink and a Multi-Color version. According to Sneaker Market RO, an apparel collection is also in the works, along with a four-way collab with the Miami Heat that will likely tie in with the team’s Vice City takeover night on November 18.\nThe Black Fire Pink pair was the first to show up. Its upper has a debossed pattern that may mimic Vice City’s street layout, alongside Scott’s signature reverse Swoosh and a pink-and-white GTA 6 money band on the toebox. Six stars on the medial side reference the game’s maximum wanted level, and they appear again in pink on the outsole.\nThe Multi-Color pair, revealed on November 5, drops the map and takes its colours straight from GTA 6’s Vice City-inspired logo. Gradient patent leather covers the mudguard and heel, with GTA branding on the midsole.\nScott’s link to the game goes beyond sneakers. His track “Rhyno” is on the 34-song Grand Theft Auto 6: The Album, and he’s rumoured to have a role in the game itself, possibly connected to Jack of Hearts, a club Jason and Lucia can visit.\nThe Cactus Jack x Rockstar Games x Nike Air Force 1 Low pack releases on November 19, 2026, online through Nike and select retailers, at $130 for each pair.\nThe exception is the Multi-Color pair, which appears to be a friends-and-family exclusive. It could still get a limited release on Scott’s website, but that hasn’t been confirmed.",
+   "pub": ""
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1JeVhLazlZVEhmUTMxYnpXc1FCTmFfMjQzUFd3c2tiNzI4OFJ2ZWxrckF1Tjc5amFqbEtBZ3ZUTEdZZ0paMElYVEVDbHhOXzV6VzNhZTEzSktvNmVWZWRsTFdSNUhYX0pCek41MVROQjJjclplS3FmeFJvVUI?oc=5",
@@ -39,7 +103,11 @@
    "d": "2026-11-14T09:15:05+00:00",
    "lang": "en",
    "t": "GTA 6 Twitch Drops Campaign Surfaces on Streaming Site",
-   "erreur": "429 : passage suivant"
+   "u": "https://insider-gaming.com/gta-6-twitch-drops-campaign-surfaces-on-site/",
+   "img": "https://insider-gaming.com/wp-content/uploads/2026/11/gta-6-scaled.jpg",
+   "chapeau": "Grand Theft Auto 6 is getting a Twitch Drops campaign at launch, but it won't have the juice that you might be hoping for.",
+   "txt": "Grand Theft Auto 6 will have a Twitch Drops campaign titled ‘GTAVI Launch Celebration’, it has been discovered. For watching folks stream Grand Theft Auto 6 for an hour a day on six days between November 18th and 30th (or for subscribing), you can unlock a string of exclusive, on-platform cosmetics.\nThere are badges and emotes on offer, but it’s worth stressing that the campaign won’t get you any goodies in Grand Theft Auto 6, which might come as a disappointment.\nGrand Theft Auto 6 comes out on November 19th, but the Twitch Drops campaign starts the day before because everybody knows about the New Zealand trick , and streamers around the world will be taking advantage of it to get GTA 6 content up ‘early’.\nThe GTAVI Launch Celebration campaign allows viewers to watch GTA 6 streams and unlock exclusive rewards on the platform. They can earn more if they chuck a subscription or two at those streaming the game, too.\nHere are the items up for grabs, including the spiel on how you can get the drops:\nAdmittedly, they’re pretty cool, but it would have been sweet to see some in-game representation of the Twitch Drops. It’s a fairly common move for this to happen in a new game, and I would have imagined a Twitch-themed weapon skin, item of clothing, or car decal, or something. But that’s not the case.\nAre you going to be watching people stream GTA 6 when it comes out, or are you playing it yourself? Let us know your thoughts on the Insider Gaming Discord server .\nFor more Insider Gaming coverage, check out the news that GTA 6 will allow players to be empathetic for the first time , and don’t forget to sign up for our free weekly newsletter\nGrant has been gaming for 30+ years and in the industry for 10+. You'll probably find him playing a post-apocalyptic game or an extraction shooter somewhere.",
+   "pub": "2026-11-14T09:15:05+00:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiswJBVV95cUxOa2lwLXN3VVZkTnRQRUtVMEYzRW9rNTVkWGgzX3BqOUpFWDhEU0ZuZ0ZfVU1HMzcwS0x2bHl2cUZRcTVEcnN3TGJUaGE3clgzTklLV1FGa0RaRGkzazQ0R3A2NldJVXQxUFVTamdYbVhkczJNalNTT2dVN2tOYXlJSnFYNU1VYlNOY3VmNTEyYTBneUtvajJNNERUQlF5X3JweFRWdHhkcjNXRk1OejV1eTdVaUdjNldfWFAwQWlxbU1ZNHk2SE5waDVFX041VkJhVF9BUmFVZjFxUkNXT2RhYTNLRnVTTEUzYlJwZDkyRWp3YlEzeks0VnowSEctMkh4RGZNSjMxak1pMWVkQTFWRzkzb0YtMDh3SGJjekFmb0RadDdNRDNDSWFIcEZTQVBjbHpF?oc=5",
@@ -47,15 +115,23 @@
    "d": "2026-11-14T09:14:00+00:00",
    "lang": "fr",
    "t": "\"J'ai posé une semaine de congé pour GTA 6\": après 13 ans d'attente, la fièvre monte chez les fans et les entreprises redoutent la \"grippe GTA\"",
-   "erreur": "429 : passage suivant"
+   "u": "https://www.dhnet.be/actu/belgique/2026/11/14/jai-pose-une-semaine-de-conge-pour-gta-6-apres-13-ans-dattente-la-fievre-monte-chez-les-fans-et-les-entreprises-redoutent-la-grippe-gta-2MNPYLB24NCCTIGQABGBLZ3EY4/",
+   "img": "https://www.dhnet.be/resizer/v2/Q3AE7GQ3MZGLBOZSN3CXRVXHWM.jpg?auth=017d73734a87a839eb122698eafa1fa0359b144181145ad390026abbc1da77a7&width=1200&height=630&quality=85&focal=4096%2C2732",
+   "chapeau": "Il y a ceux qui attendent GTA VI avec impatience et ceux qui se sont déjà organisés pour y jouer au maximum. À quelques jours de sa sortie, le phénomène...",
+   "txt": "Il n'est pas encore sorti qu'il affole déjà les compteurs. Après treize longues années d'attente, Grand Theft Auto VI (GTA VI) s'apprête à débarquer le 19 novembre et pourrait signer le plus gros lancement de l'histoire du jeu vidéo. Selon les estimations de la société d'analyse Sensor Tower, le nouvel opus de Rockstar Games aurait déjà dépassé les 10 millions de précommandes et généré plus d'un milliard de dollars de recettes avant même sa sortie.\nUn chiffre vertigineux pour une licence qui, depuis ses débuts en 1997, a déjà écoulé des centaines de millions d'exemplaires. Son précédent volet, GTA V, avait lui aussi marqué l'histoire en dépassant le milliard de dollars de recettes en seulement trois jours après son lancement, en 2013.\nGTA 6 sort enfin, des chiffres fous et une question: faut-il s'attendre à beaucoup \"d'arrêts maladie\" liés au jeu ?\nL'impatience est telle que certains joueurs ont déjà commencé à organiser leur semaine autour de cette sortie événement. Aux États-Unis, une vague d'absences au travail est même redoutée. Son nom ? La \"GTA Flu\", ou \"grippe GTA\" : des salariés qui poseraient congé, voire se déclareraient malades, pour profiter du jeu dès ses premières heures.\nÀ lire aussi Sortie imminente de GTA 6 : Les Engagés veulent imposer un label unique et une \"date de péremption\" aux jeux vidéo édités uniquement en mode virtuel Outre-Atlantique, jusqu'à 1,5 million de salariés envisageraient de se faire porter pâles le jour J, selon l'économiste José García Montalvo. L'éditeur de logiciels RH BambooHR relève de 9 à 17 % de demandes de congés en plus à cette date.\nJ'ai posé une semaine de congé pour en profiter. Je me suis dit qu'avec les enfants, je pourrais difficilement jouer le soir en rentrant du travail\"\nUne entreprise californienne, Burger Motorsports, a carrément annoncé qu'elle fermerait ses portes. Même le patron de Take-Two, Strauss Zelnick, s'en amuse publiquement.",
+   "pub": ""
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5ZcUZQS0F3UjFJNTZ6Wi15WlVNSlB2ZGx6cW40TUt5UVF5UmVDSGR6NkJIMHhZUEN4Z2IzcFJtOU9OeUk4U2RWYkdEUDlMRFg4THlRTVc4a2l3QjdzSm5uTFFUTEI2NHJBNU94YWJKSmczQ1p4ZVN1aWQyVQ?oc=5",
    "s": "Insider Gaming",
    "d": "2026-11-14T09:05:24+00:00",
    "lang": "en",
-   "t": "GTA 6’s Jason and Lucia Start The Story As Small-Time Criminals with Basic Abilities",
-   "erreur": "429 : passage suivant"
+   "t": "GTA 6's Jason and Lucia Start The Story As Small-Time Criminals with Basic Abilities",
+   "u": "https://insider-gaming.com/gta-6-jason-and-lucia-start-basic-criminals/",
+   "img": "https://insider-gaming.com/wp-content/uploads/2026/11/gta-6-story-scaled.jpg",
+   "chapeau": "Grand Theft Auto 6 will have a tiered approach to crime, with Jason and Lucia being limited to small-time acts at first.",
+   "txt": "Rockstar Games recently sat down to give their one-millionth interview about Grand Theft Auto 6. Not really, but it feels like that sometimes. In the interview, they discussed the open-world potential of GTA 6, which releases worldwide next week. They spoke about crime and punishment, how the characters develop alongside one another, and how you can have ’empathy’ this time around.\nWhile talking and playing the game during the interview, Rockstar’s Rob Nelson, who is fast becoming the PR face of GTA 6, explained how the story progresses with Jason Duval and Lucia Caminos, the game’s co-protagonists. Like other games in the series, and in games like Red Dead, you start as a relatively small fish in a big pond.\nGrand Theft Auto 6 represents the pinnacle of freedom; that much is certain. From what we’ve seen in the trailers released thus far, we’re getting a gargantuan world absolutely brimming with opportunities to explore, enjoy what’s on offer, and yes, wreak a little havoc.\nBut it’s not all about being a nasty criminal this time around. Rockstar recently confirmed that you can have empathy in this game for the first time in franchise history.\nRob Nelson spoke to The Guardian about the concept of crime in GTA 6, and he laid out the inner workings of the game’s story. As Jason Duval and Lucia Caminos, the loved-up dual protagonists of this game, you’re not immediately able to waltz into a high-end jewelry store and make your fortune.\nThe interview context explains how the pair ‘can’t just steal any car or bust their way into a bank’ right out of the gate. Players will start by hotwiring low-end vehicles and picking ‘basic locks’, robbing convenience stores and gas stations before working their way up to the bigger, heftier targets.\nWe’ve already heard how certain cars will provide blockers to being stolen, boasting intelligent anti-theft systems, alarms, trackers, and immobilizers. We know how some store clerks will fight back, how passers-by will identify you to the police, and how people will record things on their phones, giving you a digital footprint.\nIt’s a fairly natural thing to assume that we wouldn’t start GTA 6 as master criminals, but in the trailers that we’ve seen thus far, we know we’re working towards that . We’ve seen Jason and Lucia robbing some pretty intense locations, decked out in body armor and wielding sophisticated weapons.\nWe’ve also seen them wearing Hawaiian shirts and carrying a basic handgun to empty the register in a liquor store, so the spectrum is well and truly there.\nThese guys are a younger couple with their backs against the wall. Narratively, it doesn’t make a lot of sense for them to go out and cause as much carnage and make as much noise as they can.\nGrand Theft Auto 6 is just a few days away from hitting the market. Are you looking forward to the game? Let us know your thoughts on the Insider Gaming Discord server .\nFor more Insider Gaming coverage, check out our interview with the developers of Azur Promilia , and don’t forget to sign up for our free weekly newsletter\nGrant has been gaming for 30+ years and in the industry for 10+. You'll probably find him playing a post-apocalyptic game or an extraction shooter somewhere.",
+   "pub": "2026-11-14T09:05:24+00:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5CLTJld3B6QnpXeVF5c0NLX1hUX2dwVWIweTd6SlVuSXUzSnpVMzAtRWFSTXVyLWtORjRkaFBPMlVST0pucGN2MnItNkV5YnZBRjhHV3dOX0VHaGRmTDRZUlljZkpOVVp0cktXdW5tbDc3OUQ5MGc?oc=5",
@@ -74,16 +150,12 @@
    "s": "Insider Gaming",
    "d": "2026-11-14T08:51:35+00:00",
    "lang": "en",
-   "t": "GTA 6 Will ‘Encourage’ Empathy For The First Time in Franchise History",
-   "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQT1dDMWFhaEMtc2xOLXMzN1BwOG9NRUpSeDdjbXRrZEFObnZzdV85b1pteEJRYms3enJDQm9jaHlxNlJvNWljWWNuVVZ4N3Nid3MteWlyck1YU2VIcWpjUVRBNlNDemtoRXpPeHk2X0lIVHNqSmN0VERtSTQ4bGlsS2pINW9OM2JvcTNZcm44T2FKcy02U3RVcTJnMlFweVhRS1ozZjVkUDJXSUc0Rzk2c2NvTXRDT1VQ?oc=5",
-   "s": "Arrêt sur images",
-   "d": "2026-11-14T08:43:02+00:00",
-   "lang": "fr",
-   "t": "\"GTA VI\" : Rockstar peut dormir tranquille, les médias font leur com'",
-   "erreur": "429 : passage suivant"
+   "t": "GTA 6 Will 'Encourage' Empathy For The First Time in Franchise History",
+   "u": "https://insider-gaming.com/gta-6-empathy-first-time-rockstar-history/",
+   "img": "https://insider-gaming.com/wp-content/uploads/2026/11/gta-6-empathy-scaled.jpg",
+   "chapeau": "Grand Theft Auto 6 will let you play the good guy (or girl) for the first time in franchise history, Rockstar Games has revealed.",
+   "txt": "Grand Theft Auto is nothing without crime. Even the title of the franchise is a criminal act . For almost thirty years, it has been built on the concept of running around, stealing cars, shooting people, and generally engaging in all manner of nefarious and malicious acts, and we love it .\nBut in Grand Theft Auto 6, things are changing. In a recent interview, Rockstar’s Rob Nelson sat down to talk about the endless possibilities of the upcoming titles, and naturally, that included how the concept of a crime spree works in the game.\nIn a recent interview with The Guardian, Rob Nelson and Jennifer Kolbe gave insight into the open-world action title, which is releasing worldwide in just a few days. It’s the most highly anticipated game ever made, and it promises to offer unparalleled freedom.\nFor many, that means no-holds-barred crime sprees, complete with cop chases, unabated slaughter, and robberies aplenty.\nBut in Grand Theft Auto 6, that’s not the only way forward. We’re not psychopaths with a penchant for terrorizing innocent folk this time.\nRockstar Games’ Rob Nelson explained that crime is still very much a core pillar of GTA 6:\nCrime is a fundemental part of GTA – at least, up until now, it has been. We’re trying to make sure we’re not punishing people for playing the game they are used to…\nBut your actions will have some effect on how the game plays out.\nWhen The Guardian asked if there would be a measure of empathy in GTA 6, effectively facilitating the potential to be the good guy, Nelson said:\nI would say that it’s a product of the story we’re trying to tell. We’ve tried for the first time in a GTA to provide mechanisms that encourage it, for those who want to.\nGrand Theft Auto 5 and Red Dead Redemption 2 tussled with the idea, the latter much more so. In Grand Theft Auto 5 (2013), you could participate in dynamic, spontaneous missions that would see you presented with a sidewalk robbery or a car theft. You then had the choice to help the victim or potentially eliminate the robber and take the loot for yourself.\nIn Red Dead Redemption 2, you had a full-blown karma mechanic that determined the game’s ending. If you were a nice guy and helped folks, refused to participate in mindless slaughter, and spoke positively throughout, you’d get a ‘better’ ending, plus people would generally treat you differently as the game unraveled.\nBe the bad guy, and your ending soured, people were inherently untrusting, and you’d earn yourself a reputation for being a cutthroat.\nIt sounds like that will be a concept in GTA 6. We already know there’s a ‘criminal profile’ mechanic that determines your ‘ranking’ as a wrongdoer based on how you commit your crimes, and we also know that dynamic interactions, like the ones found in GTA 5, are coming back.\nDo you think you’d play the good guy (or girl) in GTA 6? Let us know your thoughts on the Insider Gaming Discord server .\nFor more Insider Gaming coverage, check out our interview with the developers of Azur Promilia , and don’t forget to sign up for our free weekly newsletter\nGrant has been gaming for 30+ years and in the industry for 10+. You'll probably find him playing a post-apocalyptic game or an extraction shooter somewhere.",
+   "pub": "2026-11-14T08:51:35+00:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQLWJVVzV0X0dpRnJFY2c0R3oxNURRYUhVRXhGNHlERU41dlhNdlU0UkdhTFBaalBSNlZ6SU5WTkw4WmtUQ1I5TWl5Ml9aMEg5R040a05mRW9kMDNNMy11YlZYMlhRZ0lNUS1xbThfV25sVTFPUTF6Q1RBOFlNcTVqLV80UEJuZnZKSHF3b1pIVC1LOVFZVzQ2ci1n?oc=5",
@@ -115,7 +187,7 @@
    "d": "2026-11-14T08:16:38+00:00",
    "lang": "fr",
    "t": "GTA 6 : 55 millions de ventes attendues d’ici mars 2027, avec un prix moyen de 90 dollars",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMickFVX3lxTFBkZUVkUEM4U1BHamh5VmMzbm56S0pjalhKLTR1MXJXVWZhWGxZNmc1VzZNXzA3VzJHM1lqdmdyT3dKZTVBNkp2N2dHOG5rNmc4SEgxaWdocWNEc0VGWWtWTDNKSkYzSzJ2eDYzMmJjRm9xZw?oc=5",
@@ -123,7 +195,11 @@
    "d": "2026-11-14T08:07:07+00:00",
    "lang": "en",
    "t": "GTA VI: The Festival Miami Line-Up, The Vault and CircoLoco",
-   "erreur": "429 : passage suivant"
+   "u": "https://www.mneemo.com/blog/gta-6-festival-miami-vice-city-week/",
+   "img": "https://www.mneemo.com/assets/blog/gta-6-festival-miami-vice-city-week/hero.jpg?v=9c54c50c",
+   "chapeau": "GTA VI: The Festival line-up, The Vault and the CircoLoco Records Radio night at Club Space: what Rockstar runs, what it does not, and the UK DJs playing.",
+   "txt": "FIG. 01 · OCEAN DRIVE, MIAMI BEACH, THE REAL CITY BEHIND VICE CITY. Photo: chensiyuan, CC BY-SA 4.0, via Wikimedia Commons.\nGTA VI: The Festival line-up, The Vault and the CircoLoco Records Radio night at Club Space: what Rockstar runs, what it does not, and the UK DJs playing.\nGTA VI: The Festival is the official one: Rockstar Games and PlayStation, Saturday 21 November at Mana Wynwood in Miami, eleven billings on two stages including Prospa b2b Skream and a Justice DJ set, with tickets sold by a lottery that closed on 10 November. Everything else this week is run by venues or a label. E11EVEN is NINE1NINE until 6 December, and Club Space becomes The Vault from 20 to 22 November, ending on a Sunday night called CircoLoco Records Radio: the name of a party, not a station Rockstar has announced.\nGTA VI is out on Thursday 19 November, and Miami is treating the weekend after it the way it has treated March since the Winter Music Conference began in 1985: one main event, with the clubs partying in its slipstream. The difference is that the main event belongs to a games publisher, and the clubs are dressing up as places from the game.\nOnly the first card carries Rockstar's name. Beebom put it plainly on 5 November: \"neither event is part of Rockstar's official GTA 6 promotion.\" That does not make the club nights fake. It makes them what most big Miami weekends are: promoters who can read a calendar.\nRead the festival bill next to the music Rockstar has already released and it is the album on a stage. Travis Scott has \"RHYNO\", Cardi B has \"Don't Chart\", Ca7riel & Paco Amoroso are on \"Sexy Magic\", Metro Boomin is on Yung Lean's \"That's It\", and Justice are scoring the game and made the launch trailer's \"Flower in a Hurricane\". Their slot is billed as a DJ set; the score story covers the music itself.\nThe part a DJ notices is the format. Next to the Cactus Jack block and Cardi B sit three back to backs: Nick León b2b DJ Python, The Dare b2b Fcukers, and Prospa b2b Skream. Festivals built on rap headliners rarely book b2bs. Clubs do. A b2b is two selectors reading one crowd and pushing each other, and someone on Rockstar's side wanted that between the headliners.\nProspa b2b Skream is the one I would cross the site for. Both are CircoLoco Records artists: Prospa's Free Your Mind was the label's first album, and Skream gave it its third release, The Attention Deficit EP . It is also two generations of British rave in one booth: a Leeds duo from the current revival, and a Croydon dubstep originator who has played house and disco since 2013. Expect it to run hotter than anything around it.\nA flyer is still not a radio dial, and until the game is out, CircoLoco Records Radio is a very well-named club night.\nClub Space started it on 4 November by swapping its exterior banner for one reading \"The Vault\", captioned \"Vice City's newest mission is loading\". Rockstar \"has not separately confirmed the venue as the exact real-world counterpart\" of the game's club, as EDM House Network put it. The Sunday belongs to CircoLoco Records: the Terrace from 11pm into Monday morning, tickets from $60 on DICE, 21 and over. Who plays depends on which site you read.\nTreat every name as reported, not final, until Space posts its own running order. Six names appear on every reported Sunday list: Carlita, Chloé Caillet, Palms Trax, PAWSA, Rossi. and Skream. That is the CircoLoco family in one room, and a Sunday-into-Monday slot is as close as Miami gets to a DC-10 Monday.\nThis is the name that will be misread all week. CircoLoco Records Radio first turned up in the radio menu of the August 2026 leaks. When Rockstar named its first six stations on 8 October (Cocoteo FM, Back Country Radio, AfroBank FM, The Chamber 106.6, Flash FM and Dirty South Classics), it was not among them. Since 4 and 5 November the label and Club Space have used it as the billing for the Sunday night. The fan site Leonida Hub says Rockstar re-shared the poster in its Instagram Stories on 4 November, but it gives no link and we could not find one.\nWhat Rockstar has said is that more is coming: its post on X listed Dance and Electronic among formats with no station named yet, and Red Bull UK, among others, expects the full list at launch. A label Rockstar launched with CircoLoco in 2021 does not pick that name for a launch-weekend party by accident. A flyer is still not a radio dial, and until the game is out, CircoLoco Records Radio is a very well-named club night. The station hub ",
+   "pub": "2026-11-14T08:00:00Z"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWlBOOXlKeC1paExiR1p0UVYwTXkxZUVCem96UjZVMTlOMXJETGpVRnlKSVhfT0NjelpZQmpJdzVWc3dLWkxRTWU1LWRNRTlKX2FvV19rc2tZbEI1T1VLLWFjV281Q0U0ZjhBbzI5Q19HQ19wWTRIM2Vvb0E5a1RCRlFqWjlad9IBhAFBVV95cUxNdVQxSnFQZ09DdExPbWhmMDJJNFN3Xy0wSFZVWkc1LUxOc1JhOGYyS2NoUnZQYV9SWDBPN2VXZExJTW11dzA4RXFlMGtrQndKSkVqUTU3RGVadmhUcGNMZ3h3dGpmTjJZSDk5SndOc3VOSHRYLWdFUTVPTFo4THdvd2hmcnU?oc=5",
@@ -167,7 +243,7 @@
    "d": "2026-11-14T07:41:51+00:00",
    "lang": "en",
    "t": "GTA 6 Interactive Map - All 6 Regions of Leonida",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxORDhwMzR6QUtPR04tTXplamlpUmttRC0yTUJpcTJFN1ZpNjF2S0o0bXRXN3NZRlpleGRvLU1UanJ5ckVrN3JEYTl0aDZoZVNId05tdjB2M2VuSTZJUW1aOEtZWlNRYUdKU2NLSXV4TGNfNmVPeHFla1ZBN2M3cFVDV25oOTRGRFpaVk1mdUNkX2diQi1FaUhvUWt6aGFXZHFZWkgxTXpjU2NuMVFTaG1MUURRY1Itc0pfTWhRZ1NTU1pNMXdpRDJuaVZVQnRfdzgydHFITy1vVE15TnVKYWFxckpsbTJzTmYwelRka0J3?oc=5",
@@ -175,7 +251,7 @@
    "d": "2026-11-14T07:40:09+00:00",
    "lang": "fr",
    "t": "Le jour de sortie de GTA 6, vous allez pouvoir jouer gratuitement à l'un des meilleurs jeux vidéo sur la saga Alien",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMingFBVV95cUxOckttRjdqQmE0X0F0VV90WXV0WjdobmNLN3hFeEwxTXVJRmdwX2xvM3VoalloNDZKOElIdGFvMWVSOUEzcENIdTlZQ2ptQ3Z6emhOb0hGejNBa00wR2xfbzViYVBUTGdQd2xjRk0xVVpQdGJSMG1VSU5pRTctUFFwZFV1aGJqV3MxVlBPLTA3bXdydFVneUd3TS1IN280dw?oc=5",
@@ -183,7 +259,7 @@
    "d": "2026-11-14T07:40:07+00:00",
    "lang": "fr",
    "t": "GTA 6 tourne à 60 images par seconde sur PS5 Pro… mais il y a un hic",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWmFSQktlV2J4Y1VvQjF6bG9ZVjI4TlNLaDA1Wk9XNjVLRUlfQXQtRjZsYXlLamd6ZHRDMHhSYkxnZzJ3VHJrR0doVkFVQUJDTkhERDFIcTR2eVhCMU9odDJGZXgwYnRsN29qcUVkc2NDbEs0NWtOR19fR0NLbHk4aA?oc=5",
@@ -203,7 +279,7 @@
    "d": "2026-11-14T07:29:01+00:00",
    "lang": "en",
    "t": "GTA VI map leaks from a Collector's Box at Selfridges in Manchester, days before launch",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSWV3aDFfYk8wVEQ1R2x3OHh1aTdHeE40Z1hLTUstd0VpaU1CRzNUU3RZODVjQzM3M3hJZ0tiRzEzTHNkc0dUdURyNXBhVzVZUE14dm40WmFHZ1lVN2tMM1k0Y3FZYktOSjRoWS1xUlVrc0o3Q3NnaVFERFVsX0RoUlp5NHBQNlNmRktTbml4bXhfMi1TZEg1dElwS29CZkUwNGtwZGo3TVN6X09GbFV0TzM4SUNTM0E4bG9rOHNfLURWWkRO?oc=5",
@@ -247,19 +323,7 @@
    "d": "2026-11-14T07:08:34+00:00",
    "lang": "fr",
    "t": "GTA 6 sera jouable dès sa sortie sur Xbox One grâce au Xbox Cloud Gaming",
-   "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNTG5RWjdQbXhCM2haZUZSRkY1QjQ4NURNb2lGdVY4V2hzc2dfbnJORi0xX3Q1SWh6YWQwSllCNi1lYThWQkFfZ0FqbDFqWGVSN1J6VVI0NEdDbUtzQ0huMkh4VVdMT1VDUXFQb05oeThON01IVkRiMTQ1VGl4QjZvYk9HYmtJcTlibmMtR2xMNS10aW5pbzVTd3VzT25YX2lzX0lYTnpFN21GeUFJX01Va3FYMnZJX1VvNlNZc2tqaVZYLVlfVXpMd09WbmJoQmZkZEFGd1ZIY3pGa3VVZXlJak1rVEVEV1hiekpOLUdmcHd6bFpuY1FENmNnNFlUOEhqWk9CSnRKVkpLcGItcjFvaWNYOA?oc=5",
-   "s": "RMC",
-   "d": "2026-11-14T06:30:41+00:00",
-   "lang": "fr",
-   "t": "[Podcasts] C'est déjà demain : La sortie officielle de Grand Theft Auto VI (GTA 6) est fixée la semaine prochaine - 14/11",
-   "u": "https://rmc.bfmtv.com/replay-emissions/la-matinale-week-end/c-est-deja-demain-la-sortie-officielle-de-grand-theft-auto-vi-gta-6-est-fixee-la-semaine-prochaine-14-11_EN-202611140121.html",
-   "img": "https://io-fsly-bfmtv.cdn.nextradiotv.com/4CWwNt-r0KVhS0D7_DkoadQjhQc=/0x0:12000x6280/1200x0/images/image_composition_EN-202611140121.jpg",
-   "chapeau": "Melinda Davan-Soulas vous fait découvrir toutes les innovations tech, digitales, IA...",
-   "txt": "C'est déjà demain : La sortie officielle de Grand Theft Auto VI (GTA 6) est fixée la semaine prochaine - 14/11 3:01",
-   "pub": ""
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRWFLdy12eHpYXy1iZzFiQU10cFlLSVFBWmVnYmVSM0lQeXp5MGcyREFWQkRtYl9tb0k2aVk4NFhibHFYbXlPWFlleEFCa19zcEFjc2cyeFZoLVpHYzAta0k5Z1BJTFBhanMyTEk0TjhQSlFUVHpKdFF5aE4xQkhjYjNwNDBHS09GM29F?oc=5",
@@ -280,18 +344,10 @@
    "d": "2026-11-14T05:24:29+00:00",
    "lang": "en",
    "t": "People behind first GTA still haven’t played GTA 6",
-   "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOeV9MU3ZNaXNVbFVWQjctLUdGX252U3dkUVpTSV9XZ2RGY2JvTjV0RjhRMWUwUWdUM2N3a04tMFJremZsd05xVHV5SmIxZk9oNjJ5SkU1UmRwOUtHbEdVQlF0SWRFX1JuUW5WRUpuYk1uNmh1eU1GZ0NjcV82SDdZVENzLVFpRkQ0ampMTFEzMlo4clFuUzVWU01jUHdqdzFCUVRqU1Z0VjBUZkRYN2pFZ1R1Q1BaQjFGVjhR?oc=5",
-   "s": "Notebookcheck",
-   "d": "2026-11-14T04:11:00+00:00",
-   "lang": "en",
-   "t": "Some physical GTA 6 boxes are missing codes, with Rockstar refusing to help",
-   "u": "https://www.notebookcheck.net/Some-physical-GTA-6-boxes-are-missing-codes-with-Rockstar-refusing-to-help.1449998.0.html",
-   "img": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/GTA6PS5Box-4.jpg",
-   "chapeau": "Flaws with the GTA 6 code-in-box approach are being discovered days before its release date. Some sealed retail cases shipped without the Xbox or PlayStation Store redemption inside. Buyers of the disc-less Xbox and PS5 versions have unsuccessfully requested refunds from Rockstar and retailers.",
-   "txt": "Rockstar angered critics by opting against a physical disc for its latest title. Now, some pre-order holders are realizing that sealed cases also contain no digital code . As the GTA 6 release date looms, these customers are pleading with Rockstar and retailers for a solution.\nOnce fans collected their purchases, reports of missing redemptions in boxes mounted. While it doesn’t seem widespread, the issue is affecting both Xbox and PlayStation console owners. Social media accounts highlight one GTA 6 PS5 buyer showing how the inner sleeve displayed a gray strip instead of a code. Frustratingly, Best Buy refused to process a refund.\nEven gamers who pre-ordered the GTA 6 physical version directly from Rockstar are facing the same predicament. Redditor InParties found the double-sided poster bonus waiting, but no PlayStation Store redemption. When asked for assistance, the studio closed two tickets.\nThe Rockstar website instructs customers who reserved copies from third-party retailers to contact those stores. Regardless, with sealed cases, it’s difficult to blame Best Buy, Walmart , or GameStop for the snafu. The more likely culprits are manufacturing errors that occurred before the game reached storefronts.\nThe studio is also being criticized again for choosing the code-in-box format. Physical disc supporters already resisted the company's decision to abandon Blu-ray media . Even if a massive file size required an additional download, a disc would still let owners buy and sell the game later. Digital gaming 's convenience isn’t much of an advantage without a way to redeem purchases.\nTo make matters worse, GTA 6 PS5 and Xbox codes may be at risk of theft by shippers or shoppers . Reports document how a powerful flashlight exposed the sensitive printing without breaking the seal. However, the issue appears localized, with some European boxes lacking the additional protective layer.",
+   "u": "https://uz.kursiv.media/en/2026-11-14/gta-6-original-creators-havent-played/",
+   "img": "",
+   "chapeau": "",
+   "txt": "",
    "pub": ""
   },
   {
@@ -306,18 +362,6 @@
    "txt": "The newest GTA 6 leak is a folded poster from a physical Collector’s Box. Photos of the box appeared on Instagram, and the poster inside is a map titled “The Goodtime State.”\nThe game is still unreleased, and Rockstar Games has not confirmed the image. What’s circulating is a photo of a physical item that leaked. It isn’t an official reveal.\nSeveral of the game’s locations seem to appear in the leaked image. Vice City is marked, and so are Vice Dale and Leonard County, along with a number of other spots.\nThe image only goes so far. It gives place names but tells you nothing firm about how the finished game will look or play.\nOn X, the leak set off arguments among fans, mostly about the map’s style and its size.\nThe style didn’t win everyone over. One user wrote: “Stupid looking map. Wish it was satellite.”\nAnother user focused on scale: “Lol, it’s small! And they dare to talk about the biggest map.”\nA third user saw it the other way and measured it against the previous game: “I saw it earlier , it looks bigger in size than the gta 5 map.”\nThose three users looked at the same poster and gave three different verdicts on its size.",
    "pub": "2026-11-14T06:09:46+02:00",
    "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5MaTZYbzFIVktXaEhwY3M3R1ZobjFrTlBRVWFsOV9tNWN2aURCbnpad3NnUk4tcjIxaFJJZUhEYmVERktWWmlKM0NIQlRSNExrSVQ2cDNvZGxsc1g2d3dmQ04zdXRKRmk4RXRFRWZwSzE2bG8?oc=5",
-   "s": "FOX 13 Seattle",
-   "d": "2026-11-14T02:48:23+00:00",
-   "lang": "en",
-   "t": "GTA 6 release could trigger $1B U.S. productivity loss",
-   "u": "https://www.fox13seattle.com/news/gta-6-release-productivity-loss",
-   "img": "https://images.foxtv.com/static.q13fox.com/www.q13fox.com/content/uploads/2026/11/1200/630/gta-pic.png?ve=1&tl=1",
-   "chapeau": "The release of \"Grand Theft Auto 6\" on Thursday, Nov. 19, could prompt an estimated 1.5 million Americans to skip work and result in a $1 billion loss in U.S. productivity, according to online reports and surveys.",
-   "txt": "With Grand Theft Auto 6 coming out next week, surveys predict that over 1.5 million people will call out sick in order to play one of the most highly-anticipated video games of all time.\nSEATTLE, WA - The release of \" Grand Theft Auto 6 \" on Thursday, Nov. 19, could prompt an estimated 1.5 million Americans to skip work and result in a $1 billion loss in U.S. productivity, according to online reports and surveys.\nArriving after more than 13 years of anticipation, the video game has already drawn millions of preorders ahead of next week's launch.\nDespite survey projections pointing to widespread absenteeism, at least one local economist doubts the economic disruption will match online estimates. Nick Huntington-Klein, an associate professor of economics at Seattle University, said the key factor is scale.\n\"The real question is are people going to take more time off work in large enough numbers for us to notice it,\" Huntington-Klein told FOX 13 Seattle.\nHuntington-Klein added that self-reported survey intentions often differ from actual workplace behavior. \"My suspicion is the numbers you expect to see in productivity harm based on the survey results will not be as big in real life,\" he said.\nWith less than a week until its official release, the latest installment in the Grand Theft Auto series has already surpassed an estimated $1 billion in preorder sales, according to research firm Sensor Tower.\nRather than bracing for unscheduled absences, at least one major gaming brand is turning the launch into an official break for its workforce.\nRobin Piispanen, global general manager and vice president of Logitech G, the dedicated gaming division of Logitech, described the release as a \"once-in-a-lifetime opportunity.\"\nPiispanen said Logitech reviewed productivity research and decided to create a company holiday for Nov. 19.\n\"Instead of making it a thing where they have to take out of their PTO or their vacation time. We can just give that day off for them where they can embrace this, where they can rest assured they don’t have to call in a hooky,\" said Piispanen.\nScammers are targeting eager gamers with fake \"Grand Theft Auto 6\" early access websites designed to steal up to $1,000 in cryptocurrency and secretly install malware, according to Power Up Gaming. Visit Power Up Gaming online here: https://powerupgaming.co.uk/\nWA traffic: Closures to cause delays in King, Snohomish counties\nMicrosoft apologizes for nationwide outage, but what took so long?\nOcean Shores on boil water advisory. What residents should know\nNew hope emerges to save Seattle’s beloved Hawaii General Store\nSeattle City Council rejects law imposing more restrictions on RVs\nTo get the best local news, weather and sports in Seattle for free, sign up for the daily FOX Seattle Newsletter .\nDownload the free FOX LOCAL app for mobile in the Apple App Store or Google Play Store for live Seattle news, top stories, weather updates and more local and national news.\nThe Source: Information in this story came from Seattle University, Logitech G, and original FOX 13 Seattle reporting and interviews.",
-   "pub": ""
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPLVVlOVRDTHZzOTR6YXlDWl9YR1ZRUHZNM2xvR3I4a0NpcTQ2SmphNTlXa0Z5dHBhamlGZDVzSU1MOENGQnlaUE1RdTJkT0NJMWMyeWMydWJwNlJINWdINGhrSFdHS3E3MURyN1NGeVV1VTJ5RFJDc1hJMTE3QTI0cl93ZWVOVm1hUzhqZF9yVE5ncWhwTmk3MXNZbUpHbUQtZ1pONkxYTENGOWF5eGhhUVJPcGtlOHRsb3BROVRB?oc=5",
@@ -338,7 +382,7 @@
    "d": "2026-11-13T17:22:14+00:00",
    "lang": "en",
    "t": "GTA 6 Map Images Seemingly Leak via Retail Display at Selfridges in London",
-   "erreur": "429 : passage suivant",
+   "erreur": "HTTP Error 403: Forbidden",
    "cyberleek": true
   },
   {
@@ -386,7 +430,7 @@
    "d": "2026-11-13T14:48:55+00:00",
    "lang": "en",
    "t": "Adin Ross Loses It Over Missing GTA 6 Disc, Then Appears To Leak His Game Code On Stream",
-   "erreur": "429 : passage suivant",
+   "erreur": "HTTP Error 403: Forbidden",
    "cyberleek": true
   },
   {
@@ -525,7 +569,7 @@
    "d": "2026-11-12T17:12:00+00:00",
    "lang": "fr",
    "t": "GTA 6: une carte partielle aurait fuité depuis un pop-up Rockstar x Selfridges",
-   "erreur": "429 : passage suivant",
+   "erreur": "HTTP Error 412: Precondition failed",
    "cyberleek": true
   },
   {
@@ -560,7 +604,7 @@
    "d": "2026-11-12T15:17:46+00:00",
    "lang": "fr",
    "t": "Une carte de GTA 6 de l'édition collector a fuité en ligne",
-   "erreur": "429 : passage suivant",
+   "erreur": "HTTP Error 403: Forbidden",
    "cyberleek": true
   },
   {
@@ -621,7 +665,7 @@
    "d": "2026-11-09T11:06:47+00:00",
    "lang": "fr",
    "t": "Nouvelle fuite de données sur GTA 6 — fonctions en ligne, taille exacte et bien plus encore",
-   "erreur": "429 : passage suivant",
+   "erreur": "HTTP Error 403: Forbidden",
    "cyberleek": true
   },
   {
@@ -656,7 +700,11 @@
    "d": "2026-10-26T04:38:45+00:00",
    "lang": "en",
    "t": "Cyberleek Shares More GTA 6 Footage Featuring Lucia Naked",
-   "erreur": "429 : passage suivant",
+   "u": "https://www.imdb.com/fr/news/ni66063856/",
+   "img": "",
+   "chapeau": "",
+   "txt": "",
+   "pub": "",
    "cyberleek": true
   },
   {
@@ -678,7 +726,11 @@
    "d": "2026-10-22T15:12:54+00:00",
    "lang": "en",
    "t": "Cyberleek Shares GTA 6 Leak Of Naked Lucia",
-   "erreur": "429 : passage suivant",
+   "u": "https://www.imdb.com/news/ni66062173/",
+   "img": "",
+   "chapeau": "",
+   "txt": "",
+   "pub": "",
    "cyberleek": true
   },
   {
@@ -765,7 +817,7 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
    "t": "GTA VI : CYBERLEEK abandonne ses leaks et annule la diffusion du jeu complet",
-   "erreur": "429 : passage suivant",
+   "erreur": "HTTP Error 403: Forbidden",
    "cyberleek": true
   },
   {
@@ -773,8 +825,12 @@
    "s": "TradingView",
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
-   "t": "Prix du jour: CyberLeek — Graphique CYBERLEEKUSD",
-   "erreur": "429 : passage suivant",
+   "t": "Prix du jour: CyberLeek — Graphique CYBERLEEKUSD — TradingView",
+   "u": "https://fr.tradingview.com/symbols/CYBERLEEKUSD/",
+   "img": "https://static.tradingview.com/static/images/logo-preview.png",
+   "chapeau": "Surveillez CyberLeek prix sur le graphique en direct. Explorez CYBERLEEKUSD l’historique des prix, les actualités, les idées de trading et les prédictions. Trouvez les records historiques, la capitalisation boursière et plus.",
+   "txt": "",
+   "pub": "",
    "cyberleek": true
   }
  ]
