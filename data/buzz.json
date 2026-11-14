@@ -1,8 +1,28 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-14T18:12:42+01:00",
+  "updated_at": "2026-11-14T20:12:48+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-exemplaires-test-sans-xbox-codes-2026-11-14",
+      "title": "GTA 6 : pas d’exemplaires de test Xbox ni de codes, selon une source anonyme relayée sur X",
+      "summary": "Deux comptes fans relaient une information d’une source anonyme : les journalistes auraient reçu des exemplaires de test de GTA 6 sans codes de jeu, et sans exemplaire Xbox, Rockstar jugeant le processus de revue Xbox insuffisant côté sécurité. Rockstar n’a pas confirmé ; la publication originale est une rumeur.",
+      "url": "https://x.com/GTAVI_Countdown/status/2121664579382260199",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-14T18:00:29.000Z",
+      "checked_at": "2026-11-14T20:12:48+01:00",
+      "evidence": "Vues relevées le 2026-11-14 dans data/x_alertes.json (maj 2026-11-14T19:01:12+00:00) : 126 852 vues, 2 105 j’aime, 83 reposts, 346 marque-pages (@GTAVI_Countdown). Repris par @gtasix_ (80 153 vues, 2026-11-14 17:50 UTC), qui décrit la même information sans source identifiée.",
+      "visual": "EXEMPLAIRES TEST",
+      "image": "https://pbs.twimg.com/media/HXGqWoFWsAAY5wz?format=jpg&name=small",
+      "image_alt": "Image du post de @GTAVI_Countdown sur les exemplaires de test de GTA 6",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "post_text": "An anonymous source reports alleged new info about the GTA 6 review copies Rockstar sent to journalists",
+      "cta": "Ouvrir la publication sur X",
+      "article": "journal/2026-11-14-exemplaires-test-sans-xbox-codes-ps5-gta6.html"
+    },
     {
       "id": "x-final-weekend-trailer-gtasix-2026-11-14",
       "title": "GTA 6 : « le dernier week-end avant GTA 6 », le compte gtasix_ relance la bande-annonce 1",
@@ -3870,6 +3890,11 @@
       "at": "2026-11-14T18:12:42+01:00",
       "label": "Passage Claude Haiku (Matière X, 14/11, 18:12)",
       "summary": "Relevé data/x_alertes.json (maj 2026-11-14T16:17:26+00:00). Ajout de 3 sujets ≥ 20 000 vues : « dernier week-end avant GTA 6 » (gtasix_, 81 309 vues), compte à rebours « 0 vendredi » (GTAVI_Countdown, 31 875), déballage DualSense édition limitée (GTAVI_Countdown, 21 267, Rumeur). Écartés : tracklist GTAVI_Countdown (36 653, même sujet que la fuite déjà publiée) ; posts sous 20 000 vues."
+    },
+    {
+      "at": "2026-11-14T20:12:48+01:00",
+      "label": "Passage Claude Haiku (Matière X, 14/11, 20:12)",
+      "summary": "Relevé data/x_alertes.json (maj 2026-11-14T19:01:12+00:00). Ajout de 1 sujet ≥ 20 000 vues : exemplaires de test sans Xbox ni codes (GTAVI_Countdown, 126 852 vues, repris par gtasix_, Rumeur). Écartés : tracklist GTAVI_Countdown (42 830 vues, même sujet que la fuite déjà publiée) ; bande-annonce GTA 5 anniversaire (53 901, hors GTA 6) ; posts sous 20 000 vues."
     }
   ],
   "coverage": {
