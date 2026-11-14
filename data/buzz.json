@@ -1,8 +1,27 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-14T20:12:48+01:00",
+  "updated_at": "2026-11-14T22:13:02+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-justice-interview-rockyrama-2026-11-14",
+      "title": "GTA 6 : Justice se confie à Rockyrama sur la bande originale, circulant sur X",
+      "summary": "Une interview des compositeurs Justice, chargés de la musique originale de GTA 6, circule sur X via @GTAVI_Countdown, qui la relaie du magazine français Rockyrama. Selon le relais, c’est le 5e album studio du duo ; Rockstar leur aurait surtout donné une direction émotionnelle plutôt qu’un genre musical. Le contenu reste celui du relais X : l’interview complète n’a pas été ouverte.",
+      "url": "https://x.com/GTAVI_Countdown/status/2121683306848625074",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "2026-11-14T19:14:53.000Z",
+      "checked_at": "2026-11-14T22:13:02+01:00",
+      "evidence": "Vues relevées le 14 novembre 2026 (maj 21:03 UTC) dans data/x_alertes.json : 76 100 vues, 1 922 j’aime, 107 reposts. Relais d’une interview attribuée à Rockyrama (magazine français). Pas d’autre compte relevé sur ce sujet dans x_alertes.json à cette heure.",
+      "visual": "JUSTICE INTERVIEW",
+      "image": "https://pbs.twimg.com/media/HXG7iU_WIAEx6Kf?format=jpg&name=360x360",
+      "image_alt": "Visuel partagé par @GTAVI_Countdown pour l’interview de Justice",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "cta": "Voir la publication sur X",
+      "embed_type": "x",
+      "post_text": "New interview with the GTA 6 score composers Justice, shared by French magazine Rockyrama: It’s the 5th real Justice album, but GTA 6 gave them the pretext and direction to make it. Rockstar isn’t looking for a type of sound or a music genre, but rather the emotion that the"
+    },
     {
       "id": "x-exemplaires-test-sans-xbox-codes-2026-11-14",
       "title": "GTA 6 : pas d’exemplaires de test Xbox ni de codes, selon une source anonyme relayée sur X",
@@ -3895,6 +3914,11 @@
       "at": "2026-11-14T20:12:48+01:00",
       "label": "Passage Claude Haiku (Matière X, 14/11, 20:12)",
       "summary": "Relevé data/x_alertes.json (maj 2026-11-14T19:01:12+00:00). Ajout de 1 sujet ≥ 20 000 vues : exemplaires de test sans Xbox ni codes (GTAVI_Countdown, 126 852 vues, repris par gtasix_, Rumeur). Écartés : tracklist GTAVI_Countdown (42 830 vues, même sujet que la fuite déjà publiée) ; bande-annonce GTA 5 anniversaire (53 901, hors GTA 6) ; posts sous 20 000 vues."
+    },
+    {
+      "at": "2026-11-14T22:13:02+01:00",
+      "label": "Passage Claude Haiku (Matière X, 14/11, 22:13)",
+      "summary": "Relevé data/x_alertes.json (maj 2026-11-14T21:03:47+00:00). Ajout de 1 sujet ≥ 20 000 vues : interview de Justice relayée par GTAVI_Countdown (Rockyrama, 76 100 vues, Rapporté). Écartés : tracklist GTAlphaintel (8 341 vues, même sujet que la fuite publiée) ; anniversaire GTA 5 Trailer 2 (171 369 vues, même sujet que les anniversaires et hommages déjà publiés) ; exemplaires de test gtasix_ (122 667 vues, même sujet que la fuite publiée) ; posts sous 20 000 vues."
     }
   ],
   "coverage": {
