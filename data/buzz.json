@@ -1,8 +1,27 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-14T12:12:39+01:00",
+  "updated_at": "2026-11-14T14:12:46+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-dualsense-prelevement-debute-2026-11-14",
+      "title": "GTA 6 : le prélèvement des manettes DualSense a commencé, selon @gta6hubfr",
+      "summary": "@gta6hubfr affirme que PlayStation a commencé à prélever le montant des précommandes des manettes DualSense GTA VI. Le post, sans capture, reprend une information annoncée le 6 novembre pour un prélèvement à partir du 13 novembre, mais présente cette fois le débit comme effectif. Un seul compte le relaie à ce stade.",
+      "url": "https://x.com/gta6hubfr/status/2121471008335143225",
+      "platform": "X",
+      "author": "@gta6hubfr",
+      "status": "Rumeur",
+      "published_at": "2026-11-14T05:11:18.000Z",
+      "checked_at": "2026-11-14T14:12:46+01:00",
+      "evidence": "Vues relevées le 2026-11-14 à 12 h 11 UTC dans data/x_alertes.json : 52348 vues ; 24 replies, 15 reposts, 630 likes, 20 bookmarks. Un seul compte (aucune reprise recensée). Post sans image ; même sujet que x-dualsense-gta6-prelevement-13-novembre (6 novembre), dont l'e-mail n'a pas été vu directement. Non recoupé par la presse.",
+      "visual": "MANETTE DUALSENSE",
+      "image": "https://pbs.twimg.com/media/HWolyrhXcAEfO22?format=jpg&name=small",
+      "image_alt": "Boîte de la manette PS5 DualSense édition GTA 6 photographiée en magasin",
+      "image_credit": "@GTAVI_Countdown sur X (image d'un autre post, le post source n'en contient pas)",
+      "embed_type": "x",
+      "post_text": "PlayStation a commencé à prélever le montant pour les manettes DualShock GTA VI.",
+      "cta": "Ouvrir la publication sur X"
+    },
     {
       "id": "x-album-tracklist-fuite-gtasix-2026-11-14",
       "title": "GTA 6 : une liste de 34 titres d’album circule sur X, présentée comme une fuite",
@@ -3722,6 +3741,11 @@
       "at": "2026-11-14T12:12:39+01:00",
       "label": "Passage Claude Haiku (Matière X, 14/11)",
       "summary": "Relevé data/x_alertes.json (maj 2026-11-14T11:09 UTC, 8 posts). Aucun ajout : les posts ≥ 20 000 vues sont déjà publiés (liste des 34 titres, compte à rebours « cinq jours », Guardian) ou écartés comme doublons (campagne de marketing de villes déjà couverte le 2 et le 6 novembre ; gta6hubfr 26 634 vues sur le prélèvement DualShock, même sujet que la fiche du 6 novembre, relais d'un seul compte, sans image)."
+    },
+    {
+      "at": "2026-11-14T14:12:46+01:00",
+      "label": "Passage Claude Haiku (Matière X, 14/11, 13 h)",
+      "summary": "Relevé data/x_alertes.json (maj 2026-11-14T12:11 UTC, 48 posts). Ajout : prélèvement des manettes DualSense débuté, selon @gta6hubfr (52 348 vues, Rumeur, un seul compte ; rebondissement sur le sujet du 6 novembre). Écartés : campagne de marketing dans de nouvelles villes (Amsterdam, Leidschendam, Zwolle, Bruxelles, Riyad, 45 136 vues, même campagne déjà publiée les 2 et 6 novembre) ; posts sous 20 000 vues (GTAlphaintel 18 741 et 14 334, martx_tv, PlaystationSize)."
     }
   ],
   "coverage": {
