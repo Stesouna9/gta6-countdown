@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-14T07:45:19+00:00",
+ "maj": "2026-11-14T08:05:32+00:00",
  "articles": [
   {
    "gn": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9mazdSRF9seGpucktRVjAtWjNkZ2JJZFpFMWFoSDE2aFZkbUI3Y1BWcXdvOGJEbmhUUHlFaFJpbXVvMlUtSW40R0xJU0FEVF93ejBBaDNQWVR2UEswOHFxbXNldEp5bTZtLWRzZjhlSE5NLTVSRmMzUld2NEQ?oc=5",
@@ -7,7 +7,7 @@
    "d": "2026-11-14T07:41:51+00:00",
    "lang": "en",
    "t": "GTA 6 Interactive Map - All 6 Regions of Leonida",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxORDhwMzR6QUtPR04tTXplamlpUmttRC0yTUJpcTJFN1ZpNjF2S0o0bXRXN3NZRlpleGRvLU1UanJ5ckVrN3JEYTl0aDZoZVNId05tdjB2M2VuSTZJUW1aOEtZWlNRYUdKU2NLSXV4TGNfNmVPeHFla1ZBN2M3cFVDV25oOTRGRFpaVk1mdUNkX2diQi1FaUhvUWt6aGFXZHFZWkgxTXpjU2NuMVFTaG1MUURRY1Itc0pfTWhRZ1NTU1pNMXdpRDJuaVZVQnRfdzgydHFITy1vVE15TnVKYWFxckpsbTJzTmYwelRka0J3?oc=5",
@@ -15,7 +15,15 @@
    "d": "2026-11-14T07:40:09+00:00",
    "lang": "fr",
    "t": "Le jour de sortie de GTA 6, vous allez pouvoir jouer gratuitement à l'un des meilleurs jeux vidéo sur la saga Alien",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMingFBVV95cUxOckttRjdqQmE0X0F0VV90WXV0WjdobmNLN3hFeEwxTXVJRmdwX2xvM3VoalloNDZKOElIdGFvMWVSOUEzcENIdTlZQ2ptQ3Z6emhOb0hGejNBa00wR2xfbzViYVBUTGdQd2xjRk0xVVpQdGJSMG1VSU5pRTctUFFwZFV1aGJqV3MxVlBPLTA3bXdydFVneUd3TS1IN280dw?oc=5",
+   "s": "EGW.News",
+   "d": "2026-11-14T07:40:07+00:00",
+   "lang": "fr",
+   "t": "GTA 6 tourne à 60 images par seconde sur PS5 Pro… mais il y a un hic",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWmFSQktlV2J4Y1VvQjF6bG9ZVjI4TlNLaDA1Wk9XNjVLRUlfQXQtRjZsYXlLamd6ZHRDMHhSYkxnZzJ3VHJrR0doVkFVQUJDTkhERDFIcTR2eVhCMU9odDJGZXgwYnRsN29qcUVkc2NDbEs0NWtOR19fR0NLbHk4aA?oc=5",
@@ -35,8 +43,15 @@
    "d": "2026-11-14T07:29:01+00:00",
    "lang": "en",
    "t": "GTA VI map leaks from a Collector's Box at Selfridges in Manchester, days before launch",
-   "erreur": "HTTP Error 403: Forbidden",
-   "cyberleek": true
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSWV3aDFfYk8wVEQ1R2x3OHh1aTdHeE40Z1hLTUstd0VpaU1CRzNUU3RZODVjQzM3M3hJZ0tiRzEzTHNkc0dUdURyNXBhVzVZUE14dm40WmFHZ1lVN2tMM1k0Y3FZYktOSjRoWS1xUlVrc0o3Q3NnaVFERFVsX0RoUlp5NHBQNlNmRktTbml4bXhfMi1TZEg1dElwS29CZkUwNGtwZGo3TVN6X09GbFV0TzM4SUNTM0E4bG9rOHNfLURWWkRO?oc=5",
+   "s": "Notebookcheck",
+   "d": "2026-11-14T07:24:00+00:00",
+   "lang": "en",
+   "t": "This £1m GTA 6 'Grotti Cheetah' (Ferrari Testarossa) is up for sale at Selfridges",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTUpHMks2bVhZb1VoRUR1d0laamVZUWt0TjlqN0gyemdxQTNkS1pKRGdqdEdLc1d1VHVxcHhYd2hZUG1TTk1NUWJ5NC1zNzVZcXNQYS1hOGhxcllTOFRON254bHZxZnEza3BsaFcwZnBQeFN4VTlUQlp0ODdGU3FVS0xJcFlxcDdhNW1OaWNTeXFzTVNESlNWRlhoU0NsWXJkcGRDaDdxckoxOExRU2VKU0RESDM?oc=5",
@@ -68,7 +83,7 @@
    "d": "2026-11-14T07:08:34+00:00",
    "lang": "fr",
    "t": "GTA 6 sera jouable dès sa sortie sur Xbox One grâce au Xbox Cloud Gaming",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNY3dJZDRmLV9JNFY3WmNOQVhLQWx6LV9yWDhER0cyMHhkdVNDNXRjbUhoelpCMzRUaWxlNzc3RHNJVHhNN1NwMm5oaEp1S0hGWkl6SXhoMXpqVnRPNXhNX2JvWnZPX1ljbkxsc0I1OWZjZFFNWXB3UkdyaU1FVjg2R3hiRTRRU2xabnNPdC02TXVIMGt6SUhZ?oc=5",
@@ -76,7 +91,7 @@
    "d": "2026-11-14T06:28:11+00:00",
    "lang": "fr",
    "t": "Rockstar Games a dévoilé de nouveaux détails sur GTA 6",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRWFLdy12eHpYXy1iZzFiQU10cFlLSVFBWmVnYmVSM0lQeXp5MGcyREFWQkRtYl9tb0k2aVk4NFhibHFYbXlPWFlleEFCa19zcEFjc2cyeFZoLVpHYzAta0k5Z1BJTFBhanMyTEk0TjhQSlFUVHpKdFF5aE4xQkhjYjNwNDBHS09GM29F?oc=5",
@@ -97,7 +112,7 @@
    "d": "2026-11-14T05:51:01+00:00",
    "lang": "fr",
    "t": "La PS5 Standard 1 To est au meilleur prix sur Amazon avant l’arrivée de GTA 6 : premiers arrivés, premiers servis",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZkVRWlBYOTdZMUcwM0tXTjVhWjlsT0hFTzN2VVh0X0VabUNERDRKYURKLTJSQ1YzR0pXSVN3OG9mS0xmc29XdXVlazRhMXV3RE9FQ3J3ZTNNZjVmY1c0bkQ3dXRFOUx3TVgycmRHUUhPdnN0Yl9qS011ekIxc083QlBibmNhLXVnblVPOGY1RHN1MUpSdmh6ckxB?oc=5",
@@ -117,11 +132,7 @@
    "d": "2026-11-14T05:24:29+00:00",
    "lang": "en",
    "t": "People behind first GTA still haven’t played GTA 6",
-   "u": "https://uz.kursiv.media/en/2026-11-14/gta-6-original-creators-havent-played/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": ""
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOeV9MU3ZNaXNVbFVWQjctLUdGX252U3dkUVpTSV9XZ2RGY2JvTjV0RjhRMWUwUWdUM2N3a04tMFJremZsd05xVHV5SmIxZk9oNjJ5SkU1UmRwOUtHbEdVQlF0SWRFX1JuUW5WRUpuYk1uNmh1eU1GZ0NjcV82SDdZVENzLVFpRkQ0ampMTFEzMlo4clFuUzVWU01jUHdqdzFCUVRqU1Z0VjBUZkRYN2pFZ1R1Q1BaQjFGVjhR?oc=5",
@@ -154,7 +165,7 @@
    "d": "2026-11-14T03:29:21+00:00",
    "lang": "en",
    "t": "GTA 6 Now Has Full Animated TV Show You Can Watch In-Game, Fans Call It 'Absolute Insane'",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNa2xIaW5vcXdaSTR0b3phR0hadThKNVhpaHViMkI4VzVOMnZKMHFlTnNUSXc1NGxnY2xucGtReTU0d3lPNURnTXAyMXUxVGpnaGdQWWhKX1VFdnNTWXB3MzY2aGpHZ1ZNR19UOUNRNjN2Ym42Rzc4bmVyWmt2UHlWekVUVUFDTlA0UmhNWE0ydzNrUnRLQ0RpSFByVjJGaWlWVEZmei02Mjg2azdMVUk0NjVxNXJJRTFNQWdRaHhsT0dhc040cUlybFRsajlzTk9SVEM3TWZlcWxCQQ?oc=5",
@@ -234,11 +245,7 @@
    "d": "2026-11-14T00:53:45+00:00",
    "lang": "fr",
    "t": "Pari tenu pour Bilel Jkitou qui devient champion du monde avant GTA 6",
-   "u": "https://lasueur.com/pari-tenu-bilel-jkitou-devient-champion-avant-gta-6-14-11-2026",
-   "img": "https://lasueur.com/wp-content/uploads/2026/11/bilel-jkitou-champion-gta-6.jpeg",
-   "chapeau": "BOXE - Il l'avait promit, il l'a fait ! Ainsi, Bilel Jkitou est devenu champion du monde avant la sortie du fameux GTA 6.",
-   "txt": "",
-   "pub": "2026-11-14T00:52:33+00:00"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0xa25uZ25Ya2hyRWFTd0dZRHItbGJmTjdKSld5VDNmQnRhd0Y2ZWNTYUN3bVZOZmxCSFpIX2loa25yRWxrTEVybnh1ZGVDbklmdVVBSy1CZzRJUk0?oc=5",
@@ -278,18 +285,6 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObi0wSFROMHEtLW0zSUV6bFhDbjduT19XWDR5RUFGbnowZ0QxbHQxZ3lIVEZtb2hpVndraXNCYjNaY0ZpakYyVDdyTTVGQllyQktTMFkzQU03cjBwQ3lzbUFuNGtVd0lCYVgtY3ZlVVljMmpidEdKMTM0aVhHUjI1amU3VTlNem8xbjVpUDR6QUhPcjNmTW1ucm1wV2JmaGxq?oc=5",
-   "s": "Yahoo",
-   "d": "2026-11-14T00:19:00+00:00",
-   "lang": "en",
-   "t": "'GTA 6' Causes Massive Controversy Ahead of The Game Awards Nominations",
-   "u": "https://www.yahoo.com/entertainment/movies/articles/gta-6-causes-massive-controversy-001943550.html",
-   "img": "https://s.yimg.com/lo/mysterio/api/3a523ec5f7eb698e00ce8d12687ba7a67064038b8149f76fa5cb2f28b0364d9d/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmen_s_journal_718%2F209c7601aa0e2e17d8661e82fe7c0e50",
-   "chapeau": "Ahead of the November 19 launch, ‘Grand Theft Auto 6’ is already stirring up controversy among fans, and it’s aimed at The Game Awards nominations.",
-   "txt": "'GTA 6' Causes Massive Controversy Ahead of The Game Awards Nominations Grand Theft Auto is no stranger to controversy, but GTA 6 isn't even out yet, and some video game fans are wondering if the game will actually be nominated at The Game Awards 2026, which takes place on December 10.\nEarlier today, the official Game Awards X account revealed that nominees for The Game Awards 2026 will be revealed on Tuesday, November 17. GTA 6 will not be released until November 19, so if GTA 6 is nominated for awards, it will be the first time in The Game Awards' history that a game may be nominated for one or more categories and it is not yet available to the public.\nFan reactions are split, with some fans feeling like GTA 6 will be nominated for every category, some feeling like the jury members will have barely played the game if it is nominated, and others who are worried the game may not be nominated at all.\nAccording to The Game Awards website , GTA 6 does technically meet the eligibility requirements. The requirements read, \"Games must be made commercially available to customers on or before Friday, November 20, 2026, at 9 p.m. PT. In the Players' Voice category, games must ship on or before November 30, 2026.\"\nHowever, the question then comes: how many Game Awards jury members have played GTA 6 , and when did voting commence for the show?\nFormer video game journalist and current video game writer and actor Alanah Pearce , who has been on the jury for The Game Awards in the past, stated that it's \"usually a month in advance, when people start voting.\"\nThat means initial rounds of voting would have taken place earlier this November. The timing makes it so that very few reviewers (if any) would've been able to play the game before the first round of voting was complete.\nThat information, of course, is anecdotal, and there has been no public communication on when GTA 6 was made available for reviewers or when this year's Game Awards voting began.\nGrand Theft Auto 6 releases on November 19, 2026, for PlayStation 5 and Xbox Series X/S.\nThe Game Awards 2026 will take place on December 10, 2026, at 7:30 p.m. ET/4:30 PT, and will also be available to stream on Disney Plus and Roblox for the first time.\nThis story was originally published by Men's Journal on Nov 14, 2026, where it first appeared in the Entertainment section. Add Men's Journal as a Preferred Source by clicking here.",
-   "pub": ""
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5JVHZ5X0hDUXNRUTdGZmRYdnJlQ3BqXzJmb3A3Zm9acmQtdWVhQzFvcXN2Q0puS19KQlJ0YlZwTkp5RVNkY0RuN3lzaUZzcTRrX3QtakQzemNSdTJqcnhGc2VNM0ctWUlWZzRF?oc=5",
    "s": "Pause Hardware",
    "d": "2026-11-14T00:13:16+00:00",
@@ -300,18 +295,6 @@
    "chapeau": "GTA 5 écoule 150 000 copies en treize jours en novembre 2026, avant l'arrivée de GTA VI. La PS5 concentre 54,2 % des achats, devant Steam et les consoles Xbox.",
    "txt": "Treize ans au compteur, et Los Santos attire toujours de nouveaux acheteurs. À l’approche du prochain épisode, attendu le 19 novembre 2026, Rockstar voit aussi son ancien opus profiter de l’attente.\nD’après les données publiées par Rhys Elliott, d’Alinea Analytics , Grand Theft Auto V s’est vendu à 150 000 exemplaires durant les treize premiers jours de novembre 2026 . Le jeu totalise également, à ce stade du mois, 16 millions d’utilisateurs actifs mensuels sur les trois plateformes suivies.\nLa PS5 représente 54,2 % de ces nouveaux achats, contre 25,2 % pour Steam et 20,6 % pour Xbox. La console de Sony pèse donc à elle seule davantage que les deux autres plateformes réunies dans cette répartition.\nCes chiffres prolongent une dynamique déjà solide. Selon Take-Two Interactive, plus de 5 millions d’exemplaires ont été écoulés au deuxième trimestre 2026, portant le cumul à plus de 235 millions de ventes et à 10 milliards de dollars de revenus, soit environ 9,2 milliards d’euros à titre indicatif.\nL’impact du lancement de Grand Theft Auto VI sur le marché, notamment sur la disponibilité des consoles, fait déjà l’objet de prévisions. Mais l’activité persistante de son prédécesseur apporte un autre éclairage : l’attente du nouvel épisode coïncide avec des achats qui restent soutenus pour l’ancien.\nPour GTA VI, les estimations évoquent jusqu’à 6,45 millions de précommandes , dont 77 % concerneraient l’édition Ultimate à 100 dollars, soit environ 92 euros. D’autres projections avancent des ventes dépassant 4,5 milliards de dollars dès la semaine de lancement, l’équivalent indicatif de 4,14 milliards d’euros. Ces montants restent des estimations, et non des résultats communiqués par Take-Two.\nL’échelle des dépenses supposées est tout aussi inhabituelle. De précédentes estimations chiffraient les seuls salaires jusqu’à 3 milliards de dollars, environ 2,76 milliards d’euros, suggérant un budget total supérieur à 5 milliards de dollars, soit plus de 4,6 milliards d’euros. Les conversions en euros sont ici purement indicatives et ne préjugent pas des tarifs européens.\nLa longévité commerciale du cinquième épisode rappelle surtout que l’équation économique de cette série ne se joue pas uniquement au lancement. Pour Take-Two, l’enjeu sera aussi de transformer l’afflux initial vers son successeur en ventes durables, plutôt que de compter sur la seule première semaine pour absorber un investissement aussi élevé.",
    "pub": "2026-11-14T01:13:16+01:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOOUo2LUs5cHV1bDEzUHJSUDFmaFFYMGpCNlJJMlBySnpGVDFRcmNFNmpfbEUtdHN0UjdtYmpjV3JsUF9YTlpQVGJNa2dzV3J0akstRkFnLW9mdEc4Mkw5MVlfdmJkM1kybUxNbEJWejNLVzBDQy1VdzFxTzNKQ2lwVVV1V1NaYnZkLW03anRGMS1PZHB2ZXVOaDdRRlUtQlp4MGxIQUtwVzA?oc=5",
-   "s": "VICE",
-   "d": "2026-11-13T23:40:42+00:00",
-   "lang": "en",
-   "t": "'GTA 6' Is Getting a Massive 24-Hour YouTube Livestream. Here's How to Watch.",
-   "u": "https://www.vice.com/en/article/gta-6-is-getting-a-massive-24-hour-youtube-livestream-heres-how-to-watch/",
-   "img": "https://www.vice.com/wp-content/uploads/sites/2/2026/11/GTA-6-Is-Getting-a-Massive-24-Hour-YouTube-Livestream.-Heres-How-to-Watch.jpg?w=2000",
-   "chapeau": "YouTube is celebrating the GTA 6 launch with 24 hours of gameplay, global creators, and mysterious surprises planned for Miami.",
-   "txt": "X Share on Facebook (Opens in new window) Facebook Share using Native tools Share Copied to clipboard Add Us On Google Even social media platforms aren’t immune to the excitement surrounding GTA 6 ! Starting at 11 p.m. EST on November 18, YouTube will host a 24-hour livestream centered around celebrating the launch of the long-awaited addition to the Grand Theft Auto franchise.\nOn the YouTube X account, the platform shares a simple reason as to why it is taking on such a monumental task: “the biggest launch of all time deserves the biggest livestream.” It also posted a thread sharing the long list of content creators who are going to be taking part in the livestream, an international group including YouTubers from Italy, South Korea, the United Arab Emirates, and the United States – just to name a few. The stream will also be broadcast in multiple languages.\nThe initial post also includes a link to the upcoming stream, where interested GTA fans can click the “Notify me” button to make sure they don’t miss the event. For now, the link features a trailer that hints at what the audience can expect: “live gameplay…reactions…hot takes…and more.” But, according to the trailer, that’s not all. It mysteriously hints at “even more surprises” in Miami.\nAt 11 p.m. Eastern Standard Time, a pre-show will lead up to the game’s midnight release. So for anyone counting the days until November 19, the livestream could be a great way to not only pass the time, but to do so as part of a community of people who are just as excited.\n‘GTA 6’ Is Getting a Massive 24-Hour YouTube Livestream, and There Will Be Surprises It might be the biggest understatement of the century to say that GTA IV is the most highly anticipated game of the year, if not the past few years. Physical editions sold out on Amazon in October. Although the physical copy doesn’t include a disc, depending on which edition players chose, they could receive perks like the Vintage Vice City Pack and a free month of GTA+. The GTA IV Ultimate Edition offers customized weapons, including Jason’s pistol, and a wide variety of vehicles, including a pink-and-blue boat and classic cars that the player can find as part of an additional mission.\nThe latest Grand Theft Auto game – at least until next week – was GTA V, which was first released over 13 years ago in September 2013, on the PlayStation 3 and Xbox 360, to be followed most recently by ports to the PlayStation 5 and Xbox Series X/S in 2022. And now players are less than a week away. It might feel almost difficult to believe for Grand Theft Auto fans who have been waiting for so long, but now the time is almost here.\nAnd thanks to YouTube, there’s a chance for individual gamers all over the world, along with all the content creators set to appear, to come together and welcome this new GTA chapter.\nX Share on Facebook (Opens in new window) Facebook Share using Native tools Share Copied to clipboard More From VICE Photo by Paras Griffin/WireImage The Pack’s Young L Dead at 39: Too $hort Pays Tribute to West Coast MC Whose Influence Was ‘Impossible to Measure’ 3 hours ago By Stephen Andrew Galiher",
-   "pub": "2026-11-13T23:40:42+00:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9mRWl6Uzg2SUZQRElYU0dobDExU3BMd3RPMFJwUTJOeTR2Vjh5elgzaFBXbHpxNDVNNjlZZ0FuOWRtd1BkemFweWE3YzhZM0pIQVpWT1pJUXFEckZVWEZ2MzJB?oc=5",
@@ -354,24 +337,8 @@
    "s": "Le Parisien",
    "d": "2026-11-13T20:00:16+00:00",
    "lang": "fr",
-   "t": "Comment GTA a survécu pendant 13 ans grâce au « roleplay »",
-   "u": "https://www.leparisien.fr/video/programme/combo/comment-gta-a-survecu-pendant-13-ans-grace-au-roleplay-13-11-2026-H4JFVBGA3VCDZMT75OXCNKBM44.php",
-   "img": "https://www.leparisien.fr/resizer/RdTpfAouDMjnJ2ecuxCt0nlIuC4=/1600x900/cloudfront-eu-central-1.images.arcpublishing.com/leparisien/54QMVAVYM5GRFLJWEHPMFFMUVQ.jpg",
-   "chapeau": "Pour comprendre tous les enjeux qui entourent la sortie du phénomène GTA 6, retrouvez notre vidéo complète sur notre chaîne YouTube « Le Par",
-   "txt": "",
-   "pub": "2026-11-13T21:00:16+01:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB4LUtrNDRadm9kTDJCVjNGWmV5d0IwNVBnQ2sxU3dUTFpvLWpTY0xvNlh2YWx1T0plMDVvallDakdTdUZqV2RVY0F0MWF1cXBJM3JDV1ZyTQ?oc=5",
-   "s": "Try aGame",
-   "d": "2026-11-13T19:27:55+00:00",
-   "lang": "fr",
-   "t": "Ils sont dans GTA 6 – Try aGame",
-   "u": "https://www.tryagame.fr/ils-sont-dans-gta-6/",
-   "img": "https://www.tryagame.fr/wp-content/uploads/2026/11/GTA6.jpg",
-   "chapeau": "Alors que l'on est plus de 13 millions à avoir libéré plus de 200 Go de nos consoles de jeu afin de précharger le jeu de Rockstar",
-   "txt": "La sortie de GTA 6 est l’événement jeu vidéo le plus attendu de cette année 2026. Depuis cette semaine, les revendeurs ont déjà reçu les stocks Xbox et PlayStation du titre de Rockstar Games, des boîtiers qui ne contiennent malheureusement que des codes digitaux. Pas de disque, que ce soit l’édition classique ou l’édition Ultime. Cela n’a pas empêché de réunir près de 13 millions de joueurs une semaine avant sa sortie, tous ayant eu pour point commun de précharger le jeu vidéo et ses centaines de gigas.\nBref, on connait bon nombre de personnages qui sont au casting de GTA 6. Donnons un aperçu de ceux qui occuperont les scènes de jeu.\nUn des deux héros du jeu. Sa vie n’a pas été facile, il a grandi dans un milieu hostile, et malgré un passage dans l’armée, il n’a pas réussi à en sortir. Sa rencontre avec Lucia ne va pas non plus lui léguer un train de vie paisible.\nLucia représente un peu cette héroïne que l’on aime tant incarner dans les jeux vidéo et autre sup. Une guerrière passée par la case prison, débrouillarde et entreprenante, prête à tout pour mener un train de vie bien loin de la misère.\nUn personnage cliché ? Un petit peu le profil qu’on voit souvent à Hollywood. Un gars paranoïaque qui préfère rester chez lui à s’enfiler quelques bières, mais qui sera utile pour intercepter les fréquences radio des gardes-côtes.\nTout passe par Boobie à Vice City, du moins au niveau business entre son studio, son club de strip-tease et ses quelques biens immobiliers. Bien sûr, on ne parlera pas des potentielles suspicions sur un quelconque trafic de drogue. Oui, c’est carrément un gars qui aurait pu jouer dans la série Power. Maintenant, il veut être le boss de l’industrie musicale, et pour ça il a besoin d’un autre associé.\nLe Monsieur a une grande ambition : se faire une place dans l’industrie musicale de Vice City. Il a son propre label, il ne manque plus qu’un hit pour percer. Et il compte sur un duo complètement fou.\nDevinez quelles sont les deux nanas prêtes à devenir des superstars de la musique ? Le groupe Real Dimez qui comprend Bae Luxe et Roxy. En tout cas, elles ont une chose essentielle : l’attitude !\nSi vous doutiez de l’importance des braquages dans GTA 6, Raul Batista est là pour vous rappeler qu’il sait flairer tous les bons coups. Il a le charisme et surtout, il a les guns ! Une partie des activités lucratives passera par son numéro de téléphone.\nLa drogue c’est mal, mais n’allez pas le dire à Brian Heder et sa femme. Il rend déjà service à notre héros en échange de quelques services… Vous les sentez ces missions où vous allez devoir faire tout et n’importe quoi ? Cela tombe bien, lui aussi.\nOn ajoutera bientôt d’autres persos au programme, mais on attendra pour ajouter des noms à cette liste.\nN ’oubliez pas de passer par nos réseaux sociaux pour continuer à vous tenir informés et découvrir rapidement les dernières nouvelles : Bluesky , Twitter , Facebook , Instagram , Threads et même Mastodon et OpenCritic . Et pour suivre toutes nos aventures, n’hésitez pas à nous suivre sur Twitch et YouTube .\nN’hésitez pas non plus à aller vous promener sur notre site , pour y découvrir nos nos tests de jeux et autres dossiers , ainsi que divers avis au sujet de films ou de séries , ainsi que des guides et astuces pour vos jeux favoris. Et ce n’est pas fini : nous testons aussi des jeux de plateau .",
-   "pub": "2026-11-13T19:27:55+00:00"
+   "t": "Comment GTA a survécu pendant 13 ans grâce au « roleplay »",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdUU3QVVoeGtTLU1iajAyU05CQlRDYlM0d1JwMDd1b29HOXM5b0VqcGdhVTV3TElMRERCOHl6amlwQVY0aTg3UmJCMHV3QWpDdlA4NmJONzJaMGNWN21XZkdFYllmdXhLYldDdl9nTnBwZ1BCUXV4bVY5VFc1VWZIYnpwTFpVWFJranlWdWdzMA?oc=5",
@@ -379,7 +346,7 @@
    "d": "2026-11-13T17:22:14+00:00",
    "lang": "en",
    "t": "GTA 6 Map Images Seemingly Leak via Retail Display at Selfridges in London",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -393,6 +360,15 @@
    "chapeau": "GTA 6 arrive en solo le 19 novembre 2026 sur PS5 et Xbox Series X|S, mais une phrase lâchée chez Bloomberg affole déjà les fans de multijoueur. Entre Twitch, Rockstar Games et rumeurs 2027, que vaut vraiment cette fuite sur la date de sortie de GTA 6 Online ?",
    "txt": "GTA 6 arrive en solo le 19 novembre 2026 sur PS5 et Xbox Series X|S, mais une phrase lâchée chez Bloomberg affole déjà les fans de multijoueur. Entre Twitch, Rockstar Games et rumeurs 2027, que vaut vraiment cette fuite sur la date de sortie de GTA 6 Online ?\nGrand Theft Auto VI arrive enfin le 19 novembre 2026 sur PlayStation 5 et Xbox Series X|S , mais uniquement avec un mode histoire. Officiellement, Rockstar Games décrit le jeu comme une « single-player experience » et les fiches des stores l’annoncent 1 joueur, hors ligne.\nRestait une grande inconnue : quand sortira le futur GTA 6 Online qui doit prendre le relais de l’actuel GTA Online ? Entre un documentaire Bloomberg Originals et une interview du patron de Twitch , une fenêtre 2027 commence à se dessiner, sans être gravée dans le marbre.\nDans la vidéo Bloomberg Originals « Why GTA 6 Took 13 Years and $1 Billion to Make », qui évoque un budget proche de 1 milliard de dollars (environ 930 millions d’euros), le narrateur lâche une phrase clé : « The real long-term engine arrives a year later with multiplayer ». Sous-entendu, le véritable moteur sur le long terme arriverait un an après la sortie de GTA 6 grâce au multi.\nCette ligne a été largement interprétée comme un lancement de GTA 6 Online en 2027. Présent dans le documentaire, le journaliste Jason Schreier a toutefois précisé ensuite qu’il s’agissait d’une attente du scénariste, pas d’un leak interne chez Rockstar Games ou Take-Two Interactive . La fuite la plus commentée vient en réalité de Dan Clancy , CEO de Twitch , qui explique chez Bloomberg avoir « passé beaucoup de temps à discuter avec Rockstar de leurs plans » et s’attendre à « un encore plus gros pic l’année suivante quand ils lanceront le multijoueur ». De quoi ancrer 2027 comme fenêtre probable, mais toujours officieusement.\nPour les joueurs consoles, le message est clair : le 19 novembre 2026, GTA 6 sera un jeu purement solo. Les premiers dataminings du PlayStation Store évoquent bien des fonctions « joinSession » ou « launchMultiplayerActivity » dans les fichiers de préchargement, signe que le framework online existe déjà, mais rien n’indique qu’il sera activé au lancement.\nC’est une rupture par rapport à GTA Online et *Red Dead Online*, qui avaient suivi leurs campagnes solo en quelques semaines. Un décalage vers 2027 laisserait à Rockstar Games le temps de stabiliser l’open world de GTA 6 et de prolonger la vie de l’actuel GTA Online , encore extrêmement rentable. Pour les joueurs PC, l’attente risque d’être double : la version PC de GTA 6 n’est même pas annoncée, il est donc crédible que le futur multi arrive plus tard que sur consoles.\nÀ ce stade, ni Rockstar Games ni Take-Two Interactive n’ont validé la moindre « date de sortie GTA 6 Online ». Les signaux 2027 viennent d’un narrateur de documentaire et d’un partenaire business, Twitch , qui parle avant tout de pics d’audience. Sur l’échelle de fiabilité, on est plus proche d’une estimation très informée que d’un calendrier officiel.\nPour les joueurs français, le plan réaliste ressemble à ceci : profiter du solo de GTA 6 fin 2026 sur PlayStation 5 ou Xbox Series X|S , tabler sur plusieurs mois au minimum sans multijoueur, puis surveiller les canaux officiels (site Rockstar, Newswire, annonces Take-Two Interactive ). Méfiance, enfin, face aux fausses bêtas et sites d’inscription « GTA 6 Online » : tant qu’une date n’apparaît pas sur les supports officiels, il s’agit d’arnaques ou de spéculations.",
    "pub": "2026-11-13T16:30:10+00:00",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaVM5S0xLaF9SeHRfQTNPMWlFRjZWVXNpXy1TMTlqTU10ZkxXWk8tR1NZZXpiTVBYX1g5ekl4cVJrLTdhU2RlUWU4cUlBdFpWcnNSd05XbGdUbm56MGlZdG1rdFVtaTFla0dEVWRGNGpmcWFqOHdsLWVwdmJSQjU0N01fdXZNVHM0YlBUdGRMX2R6QmZwX0Q1UDJJZUx6bTR3?oc=5",
+   "s": "UNILAD Tech",
+   "d": "2026-11-13T16:04:21+00:00",
+   "lang": "en",
+   "t": "GTA 6 map accidentally leaks days before historic release",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -414,7 +390,7 @@
    "d": "2026-11-13T14:48:55+00:00",
    "lang": "en",
    "t": "Adin Ross Loses It Over Missing GTA 6 Disc, Then Appears To Leak His Game Code On Stream",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -470,6 +446,15 @@
    "cyberleek": true
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSTJSX0haZklJZ0ZoQjNiVnVHeEVSeHVyNHZTclB4NlFpY3BaaDd0eHR3VGY3SnhLMkxzZUJKMDdWOHFuVlRUWXpBZ3NIRzhKeVNBVG50cTB3dGtjWmFZLUQwdFVBT1VXeXNQSW1RNGFOdEh5VmtTZjZhMThuYWFUYVlLRS0wbGdjWlUtdm1fMA?oc=5",
+   "s": "MMOEXP",
+   "d": "2026-11-13T02:12:07+00:00",
+   "lang": "en",
+   "t": "GTA 6 Map Leak: Full Leonida Map Reveals New Locations",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUERqNVh5MkdBTnp0enNfaTRCbEZTQWR1a0RwUm9NRVNmcmJka29MMlFQMUNrcEJHQjJlb0k0T0l6OFNIcUNmMFVtemdfUDREUUhEOXhpUXl6eDd1NEtQa19xMl93Y1ZHZmlxV1JFOHA0TG9EQlQ5NHRuWXY5X0VLUlRKUFdlSlRzaWJRTU0yU2VUSlN3SjlPdjk0a2VuNFBLQjlhZUZnRkQyNkhfUloyT1lBMG9hNGt6UlZwaUttUHpqNDV2UGc?oc=5",
    "s": "Notebookcheck",
    "d": "2026-11-13T01:58:00+00:00",
@@ -522,32 +507,6 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPLWJhSE0ycHFDU2d0V01hUGhOWUwtOFdCRzB2YlB0THdMYktPejZVYUFxbjh0SFVoLXNLc0E4S2dORE51UG5uZ2pKbzBXZ2FjU2ZBcDQzcktoM2UxZjZVbmQxWFhNYnVrYkdMUWo0cy0tREVYQVhGU1ExZllmcWtuekdvMmx6RHZmSDhRQ0JFU3dJVUdEeTlFZ0NXd0tXR21RMU9PbGI0NHpoZm02d1JwcjNfWTVsbE1MLTVxWEVESHlkSnRwYW00dzA0SURLVlVuWkhWZDFLaGs2Nk1aLWhSQXlobkJMUWJuTWU3Vml0ekhnSEdBYWZTTUtUTy01NzZMS0hrblJQZ3M?oc=5",
-   "s": "PC Gamer",
-   "d": "2026-11-12T19:06:41+00:00",
-   "lang": "en",
-   "t": "South Korean game rating board almost blocked GTA 6",
-   "u": "https://www.pcgamer.com/games/grand-theft-auto/south-korean-game-rating-board-almost-blocked-gta-6s-release-fearing-its-out-of-context-genital-nudity-would-disrupt-social-order/",
-   "img": "https://cdn.mos.cms.futurecdn.net/BngP9Kz6o4g3nurmmSzKYf-1759-80.jpg",
-   "chapeau": "GTA 6 required a total of three ratings reviews by South Korea",
-   "txt": "(Image credit: Rockstar Games) {alert('Link copied')}).catch(err => {console.error('Failed to copy: ', err)})\" data-platform=\"copy_link\" data-action=\"\" class=\"font-ui-heading py-2 text-sm text-neutral-700 hover:bg-neutral-100 transition-colors no-underline block cursor-pointer border-0 bg-transparent w-full text-left normal-case\" aria-label=\"Copy link\" role=\"menuitem\" data-analytics-id=\"article-social\" analytics-label=\"utility-bar-social-share-copy-link\" analytics-name=\"utility-bar-secondary\" data-mrf-recirculation=\"article-social\"> Copy link Facebook X Reddit Pinterest Flipboard Email Share this article 0 Join the conversation Follow us Add us as a preferred source on Google Newsletter Subscribe to our newsletter Grand Theft Auto 6 has been granted an Adults Only rating in South Korea by the country's Game Content Rating Board . But in the weeks preceding that decision, the board had nearly refused to issue the game an age rating—effectively leaving it ineligible for sale in South Korea—due to ratings officials' concerns that GTA 6 might be way too comfortable hanging unprompted hog.\nAccording to GCRB meeting minutes obtained by South Korean outlet Inven (via Kotaku ), GTA 6 required a total of three ratings reviews, in which committee members repeatedly debated the presence of what they described as \"out-of-context genital nudity\"—a perception that seemed to have been informed by the leaked GTA 6 developer build footage circulated by cryptopeddling cornball master criminal, Cyberleek .\nThe GCRB's initial rating review for GTA 6 took place on September 10, during which committee members argued over whether the game's \"out-of-context genital nudity\" was grounds for refusal. Previously, the GCRB's rating standards automatically rejected games with exposed genitalia, but those standards were relaxed in 2025 to permit an Adults Only rating for \"cases where suggestive bodily exposure is directly and specifically depicted,\" as long as that depiction didn't extend to graphic sexual acts.\nDespite that revision, the committee members arguing to refuse an age rating for GTA 6 said that, while the GCRB had previously permitted \"a certain degree of genital exposure where there is narrative justification,\" they \"did not believe genital exposure to this extent falls within acceptable limits.\"\nAs the report notes, that first review meeting occurred before the GCRB received a playable GTA 6 build, meaning that the GCRB members' perception of the extent of visible in-game genitalia could have been informed by Cyberleek's leaked footage of an in-game nudist colony —an area that, despite the abundance of human flesh on display, didn't actually entail much sex going on. It was mostly just nude people standing around doing people things.\nThe GCRB committee members in favor of an Adults Only rating noted as much, saying that \"in this game, scenes with heavy exposure are not particularly sexual,\" while \"conversely, in sexual scenes, exposure is limited.\" The first meeting ended in a 3-3 tie vote, leading the committee to postpone its decision and instead recommend to Rockstar that the game be modified.\nThe GCRB did eventually receive a playable build of GTA 6 on September 28—just six days before its scheduled second review meeting on October 2. While an initial report from its gameplay researcher indicated that \"genital exposure scenes mostly appeared as one-off mission backgrounds and did not lead to sexual interactions,\" the committee decided to once again postpone its decision simply because the game was too damn huge for it to be confident that it had seen all the relevant cases of penises and/or vulvas in the wild.\nKeep up to date with the most important stories and the best deals, as picked by the PC Gamer team.\nA few on the committee remained skeptical, however: \"The basic principle of rating refusal applies when bodily exposure of sexual acts are depicted explicitly or excessively so as to disrupt social order,\" one GCRB committee member said. \"By that standard, the current bodily exposure is sufficiently explicit and excessive.\"\nIn its third and final review meeting on October 16, the GCRB—informed in part by the fact that 10 other institutions like the US's ESRB and Europe's PEGI had issued their own ratings—ultimately voted 8-1 in favor of granting GTA 6 an Adults Only rating. Its researchers concluded that, after playing the game more thoroughly, scenes featuring full-frontal nudity didn't allow for any sexual interaction, and",
-   "pub": "2026-11-12T19:06:41Z",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWU5lcnJMdnRENEpPOFdwek9mSktzOFpDeHFEX0tLSG5sYUdySHY0ZXhCWnN4Sjh0SnZicGVHUkdVaEdmdjNBNEFReDV4T2s5dUhhYnZVLUdyZFQ0UjdxdTFhRS0xZXJMRDlkNGN0ZzhxcWdWTUE4SHdBc3BHM0tTekMxTkExcWlPZVhpYlpHNXJ3Y2NfNmk4REtNR2pUQmZsaEE?oc=5",
-   "s": "Notebookcheck",
-   "d": "2026-11-12T18:39:00+00:00",
-   "lang": "en",
-   "t": "Free GTA 6 Ultimate Edition codes up for grabs via Kick",
-   "u": "https://www.notebookcheck.net/Free-GTA-6-Ultimate-Edition-codes-up-for-grabs-via-Kick.1449028.0.html",
-   "img": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/kick-free-gta-634.jpg",
-   "chapeau": "Kick, the streaming platform, is giving away 10,000 copies of GTA 6 to viewers. There are three simple steps to follow, and if you’re lucky, the $100 Ultimate Edition of the game could be yours.",
-   "txt": "If you are one of the few gamers who hasn’t already pre-ordered GTA 6 , here’s a chance to get a free copy. Streaming platform Kick is reportedly offering “thousands of copies of GTA VI” for simply watching any stream. Of course, there’s a chance of winning a free copy and not a guarantee.\nKick announced yesterday , November 11, that it is running a GTA 6 promotion independently that gives viewers a chance to win a free copy of the game. There are 10,000 digital codes for the Ultimate Edition of GTA 6 up for grabs. All you have to do is watch a stream for three hours, and you could get lucky. Here’s exactly what you need to do:\nOpening a case does not guarantee a copy of the game, which is why Kick recommends opening a new case every day. The codes will be available for both Xbox Series consoles and the PS5. If you are lucky enough to win a copy, you will be able to choose the platform you want to download the game on. Winners will get access to the code on or after November 19, after verifying eligibility.\nKick also mentions that this promotion is in no way associated with Rockstar Games or Take-Two Interactive.\nDisclaimer: Notebookcheck is not responsible for price changes carried out by retailers. The discounted price or deal mentioned in this item was available at the time of writing and may be subject to time restrictions and/or limited unit availability.",
-   "pub": "",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxObFFDeDNYOHVQLUpILUpOeG9ha0hkUmsxTXFTTE5zNnBXMEJmNkJEWEoyQ0xsMS1Ic0FkNlVnSHpaY1RuRDg1SVFsV0JFeHVSUDhrdnBrNGxGMjZkUUhXZ0xMUHlhdkp2cnpGNW1LOS1yblU3QjlueE9DWWR1cjVUYVBuVWMybkh4RHFTSG1aWk9Ddi13QUJDdTN3QnU1MUJwTEk3dTFiOHJIaDZ2bU5iR0M1SGFpVVJKdUZMbWNXN2JuaDZUbm5COEtLanJfU2xrcVM3WDQ3NlBWdS1uejEtUXZlMFYzYnhnYkxMSFFqd2E?oc=5",
    "s": "La Crème Du Gaming",
    "d": "2026-11-12T18:30:53+00:00",
@@ -566,7 +525,7 @@
    "d": "2026-11-12T17:12:00+00:00",
    "lang": "fr",
    "t": "GTA 6: une carte partielle aurait fuité depuis un pop-up Rockstar x Selfridges",
-   "erreur": "HTTP Error 412: Precondition failed",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -601,7 +560,7 @@
    "d": "2026-11-12T15:17:46+00:00",
    "lang": "fr",
    "t": "Une carte de GTA 6 de l'édition collector a fuité en ligne",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -662,7 +621,7 @@
    "d": "2026-11-09T11:06:47+00:00",
    "lang": "fr",
    "t": "Nouvelle fuite de données sur GTA 6 — fonctions en ligne, taille exacte et bien plus encore",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -697,11 +656,7 @@
    "d": "2026-10-26T04:38:45+00:00",
    "lang": "en",
    "t": "Cyberleek Shares More GTA 6 Footage Featuring Lucia Naked",
-   "u": "https://www.imdb.com/fr/news/ni66063856/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -723,11 +678,7 @@
    "d": "2026-10-22T15:12:54+00:00",
    "lang": "en",
    "t": "Cyberleek Shares GTA 6 Leak Of Naked Lucia",
-   "u": "https://www.imdb.com/news/ni66062173/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -827,7 +778,16 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
    "t": "GTA VI : CYBERLEEK abandonne ses leaks et annule la diffusion du jeu complet",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5wcWRVaFhVcEhJYmdYZndEclN0S0R1MnYzd2N1dkctaTE5Tm5tWTYxY1BkYVZNZE9fX0pxSkJsZ0tNVDN3dHRCcGtWMkF4QUthOHFqM3dDQVdmUzE5?oc=5",
+   "s": "TradingView",
+   "d": "2026-10-15T07:00:00+00:00",
+   "lang": "fr",
+   "t": "Prix du jour: CyberLeek — Graphique CYBERLEEKUSD",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   }
  ]
