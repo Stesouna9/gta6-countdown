@@ -1,13 +1,29 @@
 {
- "maj": "2026-11-14T14:55:29+00:00",
+ "maj": "2026-11-14T15:15:41+00:00",
  "articles": [
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOSGM5c21VOUR5WFB3dndLeGZaTWxBUGZrdDFfbnNVakRxNXM0TEtoODJTblVuVkRwMFRmVmdtcDJlMWxHLTVHeWxnQjREOC1FZDRQRDY1b3RhTDUwVEE3V1pPazRBOS1WVDdxU25CSDNwdkRXaXNzLWwtd3RmX0Rva0dFTW5HNFZDM3dOdEJtc3lOU2p1TnhpSG9mbmY3UW9icnVfblVTWDZFcjBNTkJvM1h5SjhKaHU5OWhvUEFxSEhuRVZZV3JaRWxHdl9wMklaM09lLUVDUVF0Q2c?oc=5",
+   "s": "Numerama",
+   "d": "2026-11-14T15:00:00+00:00",
+   "lang": "fr",
+   "t": "Très mauvaise nouvelle pour GTA 6, retour de Johnny Depp au cinéma, le recap Pop Culture de la semaine",
+   "erreur": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPb0YtQURyNEx6eENnTDY1aE1Cd3BMempkZF9tTnhjdklwc1dzUEVXNE5TWHVxU0FJU0Y0REVuYkRFdjhlQVJDZVpqZUxxcGVqZzZDVFZtNVJiRXhXU0szRzA3dWhCTVdYdU9QVDRoWTl3amc4LWxTRVQ3elNYMVFCZXhEcl8yQQ?oc=5",
+   "s": "Yahoo Tech",
+   "d": "2026-11-14T14:56:24+00:00",
+   "lang": "en",
+   "t": "‘GTA 6’ Reveals Jason And Lucia’s Limited Crime Options To Start",
+   "erreur": "429 : passage suivant"
+  },
   {
    "gn": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdU1zdVVnY1NrSm9ya21MSmxtdk1ydF93V0JZWWlmMkFUVjRscWV6Z0ZhR1dJTmh4T3lYWVhtajJWRU1tQnhQZ0JGaUZzTUNEbXZTNGNPMFFvMkVUblBtYUhLVWpiaDFfV1g0Q01EOVpZRHZ1eWs3V2dxczJzU1JNa1ZjN0haVzRSRlhoSjI0SkxyNEdtVUZvZjFQQzZXc01DckRkWQ?oc=5",
    "s": "PhonAndroid",
    "d": "2026-11-14T14:42:25+00:00",
    "lang": "fr",
    "t": "Même GTA 5 n’avait pas fait aussi fort : GTA 6 affole déjà les compteurs",
-   "erreur": "HTTP Error 429: Too Many Requests"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9WVUstLUs0aEFWU1V0NWlCSFJsdjhEUi1FUWdHMm9lTXZkNTZrOUZjNVVuNnpUQUhzSHN0eWdxNXdFdVFJWGZjMkN2YzVaRWlJV3FZVHdGSzVsRzVvQzVUemctZm5VMjMyd0RN?oc=5",
@@ -51,7 +67,15 @@
    "s": "CNBC",
    "d": "2026-11-14T14:00:01+00:00",
    "lang": "en",
-   "t": "How Rockstar's 'GTA IV' release could reshape gaming, streaming and even paid time off",
+   "t": "How Rockstar's 'GTA VI' release could reshape gaming, streaming and even paid time off",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQRWJjQkM2b0hfclU4Y21TaG5CQW5qaTRVd1ItcnVfbzF5UVRxYTU5eFdhQ0xJTTNTdkViVGZ3NnU4eEJqU1lhaE1XeXMxWDZVOGNLZzduVHNWbFRETTlGVG9zdVRxdThsU054VXBva0dGS0QzODJkbzRpX2wtRl9oc0R2X0VUQS1uNEI4VG5Md3k0WGpERnNJOURBbFI0c3JUYXNfblI0RWx6SUY5UWZNMTFJT2RMVmE1bEpOLUZ2VkQyaXpLMW9yRWhnUVY4a1A1ajdtenBYQTNLRW9jN1JxbzN3SmdTQnk5dHhwVUx0ekNEVFgtQUdyNWc4Wnd2ZGFlZXE5b3VULU1fY1NE?oc=5",
+   "s": "Yahoo Tech",
+   "d": "2026-11-14T14:00:00+00:00",
+   "lang": "en",
+   "t": "GTA 6 launches Thursday and is available for pre-load now: Everything you need to know about the new Rockstar game",
    "erreur": "429 : passage suivant"
   },
   {
@@ -269,30 +293,6 @@
    "pub": ""
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMingFBVV95cUxQM0NLamk0NHBTRERjNkFER0tnRk5MZ1lHbEtRUHd3QnNfNDZYZWx2N1g0bUMxZUREa0lyOHdGaHBYRno3RVZMdW5RSUppdS1Ya01LbGI1a09SMmdGRlBsUXZlaV82UkJqU01DS3VGeFViR1N4ZW8yRFhTMm9JSzh4SjItclcyVGdWS3RxZlZUbTdHNXdnaVFjYTdPSkN4UQ?oc=5",
-   "s": "Polygon.com",
-   "d": "2026-11-14T11:30:17+00:00",
-   "lang": "en",
-   "t": "GTA 6 Release Day: Everything To Know To Be Ready On Day One",
-   "u": "https://www.polygon.com/gta-6-when-does-it-come-out-ps5-pro-crossplay-countdown-preorder-preload/",
-   "img": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/jason_and_lucia_20-1.jpg?w=1600&h=900&fit=crop",
-   "chapeau": "What you need to know about GTA 6's release day, pre-order bonuses, preload, updates, PS5 and Xbox differences and much more",
-   "txt": "Grand Theft Auto 6 is less than a week away, which means there's not much time to prepare for the biggest gaming launch of 2026. Fortunately, we've got some tips on what to expect on day one and how to make sure you get the best experience possible from Rockstar's record-breaking open-world adventure.\nGTA 6 will be released worldwide on Nov. 19, 2026, for PlayStation 5 and Xbox Series X. It will also be playable on Xbox One if you're willing to play it via Cloud Gaming. You can pre-order the game now and preload it ahead of launch , provided that you've got at least 212 GB in storage plus 1 GB for the game's first pre-release update .\nIf you haven't already, you should check out GTA 6 's official trailers and the Netflix Extended Look . The short version is that GTA 6 features a Bonnie and Clyde-type story with two protagonists, Jason and Lucia. The pair have committed crimes at some point, but GTA 6 seems to focus on the aftermath of those choices — and how the couple builds a new future together ( or not! )\nPre-ordering comes with a handful of cosmetic goodies themed around Vice City. These bonuses offer a classic sedan with its own storage area, vintage looks and hairstyles for Jason and Lucia, and some special weapon patterns inspired by Tommy Vercetti. You can take a closer look at all of these here .\nThe catch is that the game is fully digital. If you pre-order and pick up GTA 6 at, say, GameStop, all you'll get is a code in a box. And while the pre-order bonuses don't give players a gameplay advantage, many fans believe cosmetics are a core part of GTA 6 's appeal.\nImage: Rockstar Games Image: Rockstar Games Image: Rockstar Games Images: Rockstar Games Image: Rockstar Games Man and woman riding a motorcycle in Grand Theft Auto 6. The woman holds a gun and is preparing to shoot. Rockstar Games Image: Ubisoft Screenshot: Polygon via Rockstar Games Close Image: Rockstar Games Image: Rockstar Games Image: Rockstar Games Images: Rockstar Games Image: Rockstar Games Man and woman riding a motorcycle in Grand Theft Auto 6. The woman holds a gun and is preparing to shoot. Rockstar Games Image: Ubisoft Screenshot: Polygon via Rockstar Games GTA 6 Ultimate Edition vs. Standard Edition? There's the standard edition of GTA 6 ($79.99) and the Ultimate edition ($79.99). The Ultimate Edition comes with a retro-futuristic sports car, two special types of guns for Jason and Lucia, a fancy motorcycle and kayak, and some version-exclusive locations. These areas include, among other things, two car customization shops, a salon, a clothing store, a tattoo parlor, a Mud Club vehicle and hideout, and a contraband store.\nNo — GTA 6 is a stand-alone single-player experience. If you're on PS5, you can't play with folks on Xbox and vice versa. GTA Online is a separate experience , but one that Rockstar appears to be prepping for a new era . This next iteration of GTA's multiplayer will offer more ways to roleplay, and those features are being developed in partnership with FiveM, the modders at the forefront of that scene. GTA Online will be playable on GTA 6 's launch day ... but it's also accessible right now!\nIf you're lucky enough to own both consoles, it may come down to preference. Rockstar and Sony have repeatedly insisted that GTA 6 \"plays best\" on PS5 , and indeed, the platform comes with a few exclusive features. The DualSense controller will offer high-fidelity haptic feedback and improved spatial audio rendering. The Xbox version can be played via the Cloud, and on previous-generation hardware.\nPS5 Pros are expensive and difficult to find right now . GTA 6 does have some PS5 Pro enhancements, such as Spectral Super Resolution as well as ray-traced shadows. No matter where you play it, GTA 6 will be capped at 30 frames per second.\nSome people evidently think so. Red Dead Redemption 2 rendered at 30 FPS and that didn't deter it from being a critically acclaimed game.\nIf you want it! The controller and its chromatic blue and purple decals are quite nice, but the peripheral costs $84 and won't be available until Nov. 19. For now, you can pre-order it .\nGTA 6 characters Lucia Caminos and Jason Duval Rockstar Games Rockstar has not announced a release for the PC version of the game , though many expect a port down the line.\nNo. While both games are set in the same universe, Jason and Lucia's story is a self-contained narrative. If you already have the game, Grand Theft Auto 5 could be a good way to kill some time before GTA 6 . Som",
-   "pub": "2026-11-14T11:30:17Z"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMickFVX3lxTE43anlGUkRXMDZQb2R2QTJ2VDRTcFRvZjJPMzlyWWJaam1lWmx3czVJSmRqcm54ZFRGb2MxckVYcVJWUVJnR1JvaEN3dHhSME92RXZ4YnRqVkVVaFRhdEM3QkpPSjg2MjdhT2YwSmdOelN3UQ?oc=5",
-   "s": "OpenCritic",
-   "d": "2026-11-14T11:06:28+00:00",
-   "lang": "en",
-   "t": "GTA 6 Has Officially Gone Gold",
-   "u": "https://opencritic.com/news/39681/gta-6-has-officially-gone-gold",
-   "img": "https://img.opencritic.com/article/o/j0Umgv8GmE0gUwy6mn5KsiHnq8xIfqEe.jpg",
-   "chapeau": "Ahead of its release, Take-Two confirms that the highly-anticipated Grand Theft Auto 6 has officially gone gold.",
-   "txt": "GTA 6 Has Officially Gone Gold From GameRant (Written by Dalton Cooper) on November 14, 2026 | OpenCritic\nThe highly-anticipated Grand Theft Auto 6 has gone gold. Grand Theft Auto 6 was first confirmed to be in development four years ago, with Trailer 1 coming over a year after the initial announcement. From that point to August 2026, news on GTA 6 was hard to come by, but Rockstar has opened the floodgates, releasing all kinds of information about the game in the weeks leading up to its release.\nWhen Rockstar first announced a release window for GTA 6 , it was pegged for a 2025 launch. Unfortunately, GTA 6 was ultimately delayed from its 2025 release window, pushed back to May 26, 2026. Rockstar would then delay GTA 6 again , pushing it to its November 19 release date. There have been some concerns that GTA 6 could wind up getting delayed yet again, making fans wait even longer. With mere days to go until GTA 6 launches, that is no longer a concern.\nRockstar drops Grand Theft Auto 6 trailer 4 ahead of the game's official launch next week, showcasing a new look at Vice City.\nIt's been confirmed that GTA 6 has gone gold. What this means is that GTA 6 has effectively finished development. While...",
-   "pub": ""
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNd3hJTTVVWFpRZHNEc0Z1bDZxeWxiWnIyY05TcW16TXdzVWRKN3JIenk4VVlFTlZBS1VDb2syck5uUkc4Q09RRVkwXzl6MlZWMXYzVDQ2c205M0o3Q2tVOUZWTE1rei1MTVU0djVuMzZjSV95Njl1QTdpbUVVR2tvaXI1M21kZXZNN3AwN2gyaDN1U3ZCX0JNS2ZUekJJWi1kX0swd3ZwcjJDbFZ3RlkzcVFOdHpLMzdaRUhWWA?oc=5",
    "s": "DL GAMING",
    "d": "2026-11-14T11:05:00+00:00",
@@ -345,18 +345,6 @@
    "chapeau": "GTA 6 : code absent ou clé visible à travers la boîte, le lancement physique crée la confusion - Alors que l'édition physique de GTA 6 a déjà fait couler beaucoup d'encre à cause de l'absence de Blu-ray dans la boîte, on découvre aujourd'hui deux",
    "txt": "Alors que l’édition physique de GTA 6 a déjà fait couler beaucoup d’encre à cause de l’absence de Blu-ray dans la boîte, on découvre aujourd’hui deux nouveaux problèmes qui créent la confusion auprès des joueurs.\nÀ moins d’une semaine du lancement du jeu le plus attendu de la décennie, les problèmes semblent se succéder pour les acheteurs de l’édition physique. Si l’absence de disque dans la boîte n’aura surpris personne, certains joueurs ont en revanche eu la mauvaise surprise de découvrir que même leur code du jeu était absent.\nDans les éditions physiques Xbox et PS5, la clé du jeu est imprimée sur l’arrière de la jaquette. Seulement voilà, certains joueurs rapportent, photo à l’appui, que le code n’est tout simplement pas imprimé sur leur jaquette.\nLes versions Xbox et PS5 sont toutes les deux concernées, et si ça pourrait prêter à sourire au premier abord, ça n’amuse évidemment pas les joueurs concernés, d’autant que Rockstar semble faire la sourde oreille.\nThe NO CODE issue with physical GTA 6 copies isn’t limited to PlayStation, Xbox users are now reporting the same problem. Rockstar is reportedly closing tickets that mention this issue. https://t.co/jrSg1wdh87\nComme si cela ne suffisait pas, d’autres joueurs rapportent que la clé du jeu serait visible à travers la boîte. En pointant un flash à l’intérieur de la boite ouverte, on peut en effet voir le code à travers le plastique, ce qui suscite l’inquiétude par rapport au vol de clé.\nD’après nos tests, cela ne fonctionne pas avec la boite fermée, d’autant plus avec le poster ainsi que le flyer présents dans l’édition physique. Pour que le code apparaisse, il faut que la boîte soit ouverte, et coller un flash directement à l’intérieur de celle-ci, ce qui est peu probable dans un magasin. Vous ne devriez donc pas avoir à vous inquiéter à ce sujet.\nRappelons que Grand Theft Auto VI sera disponible le 19 novembre prochain exclusivement sur Xbox Series X|S et PS5. Le jeu est déjà en vente dans la plupart des enseignes pour vous laisser le temps de télécharger les plus de 200 Go nécessaires à son installation. Il ne reste plus que quelques jours à patienter avant de découvrir ce titre dont le lancement s’annonce historique.\nFans have discovered the entire GTA 6 redeem code on the physical copy can be seen without opening the box by shining a powerful flashlight through the side at an angle. pic.twitter.com/YtN5QhC81R\nLa sortie de GTA 6 est prévue pour le 19 novembre 2026 sur Xbox Series X|S et PS5.",
    "pub": "2026-11-14T09:49:24+00:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQM2xBV0o4QnMzalNWT1lrTlRRM3VzWTFuUlpqRDJRYmctV0xDQ0VFbjNabHg5LXVQOGw2a2ppS3dlYTFBOUNIeFl1UkZjdk9jSkwyVXJ2TklySXZLLXhiSndOc1NTeDYxSThVcGF5UzR5MUhCQWY2U1A5QWU5U2F3NDVqdFNGZXdRWU5qWGRPblZzSW5MY01ZUlJYNkV5XzZoMlQweXVEdHF4b1VuX3l3MlY5aUxjTXBDV2Npd3BiYXdmWnVMenJobnhINmNXbUEwQ2pKQW9heTg2cHg2aUtwYkNMaTU4WVVJQVY2VlVDQnh4M2I1SXRGYktvd3VxbHJJQkE0TmpXUFRrNy1POHZGY0NkS1AzM2ZCLVE?oc=5",
-   "s": "Le Figaro",
-   "d": "2026-11-14T09:30:42+00:00",
-   "lang": "fr",
-   "t": "Du studio provocateur à la poule aux œufs d’or avec GTA : comment les enfants terribles de Rockstar Games ont mis le jeu vidéo à leurs pieds",
-   "u": "https://www.lefigaro.fr/secteur/high-tech/du-studio-provocateur-a-la-poule-aux-oeufs-d-or-avec-gta-comment-les-enfants-terribles-de-rockstar-games-ont-mis-le-jeu-video-a-leurs-pieds-20261114",
-   "img": "https://i.f1g.fr/media/cms/1200x630_crop/2026/11/13/bf9d25be585d04c0fff3db5c32cb7ad482fc869ee57df1672a85d75e9fb07c81.jpg",
-   "chapeau": "DÉCRYPTAGE - Le studio derrière les jeux vidéo GTA revient avec un sixième opus dont le succès s’annonce hors norme. L’aboutissement de trois décennies à bouleverser l’écosystème, en repoussant toujours plus loin les limites de la créativité et de la provocation.",
-   "txt": "Google (ouvre un nouvel onglet) Google Discover (ouvre un nouvel onglet) Google News (ouvre un nouvel onglet) Sujets Rockstar Games Gta vi Jeux vidéo Lire dans l’app Sauvegarder Fermer Sauvegarder un article\nPour sauvegarder un article vous devez être connecté, vous pourrez ainsi les consulter sur tous vos appareils.\nCopier le lien Lien copié Mail Facebook X Linkedin Messenger WhatsApp Le jeu vidéo GTA 6 pourrait devenir le produit culturel le plus rentable de l’histoire. Rockstar Games DÉCRYPTAGE - Le studio derrière les jeux vidéo GTA revient avec un sixième opus dont le succès s’annonce hors norme. L’aboutissement de trois décennies à bouleverser l’écosystème, en repoussant toujours plus loin les limites de la créativité et de la provocation.\nAu concours des superlatifs, il rafle tout. Le plus ambitieux, le plus cher, le plus fou… Ce 19 novembre, le jeu vidéo GTA 6 va déferler sur la planète et il y a fort à parier qu’il devienne le produit culturel le plus rentable de l’histoire. Avant même sa sortie, le nouvel opus de cette franchise permettant d’incarner des gangsters sans foi ni loi aurait dépassé les dix millions de ventes en précommande, selon la plateforme d’analyse Sensor Tower – et généré plus d’un milliard de dollars. Les spécialistes du marché estiment qu’il pourrait écraser les chiffres de son prédécesseur. Sorti en 2013, GTA V a rapporté quelque 6 milliards de dollars, deux fois plus que le film Avatar , de James Cameron . Un succès sans équivalent pour le sulfureux studio Rockstar Games, qui a fait de la provocation sa marque de fabrique.\nL’histoire commence quarante ans plus tôt, dans un club informatique de la ville portuaire de Dundee, non loin d’Édimbourg, en Écosse. À la fin des années 1980, une bande de vingtenaires…\nCet article est réservé aux abonnés. Il vous reste 88% à découvrir.",
-   "pub": "2026-11-14T10:30:42+01:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQnY4Z0QwX3pmMXVEUXZDd20xT2d3NmZKZzJDTTNlaHgyclNRWlZBVFRETGtWWUJVak93WmFiX0NfVzhNQ0pDLWRRY3dLbWJhMlBoeTNaZTVkV1JzdGVLMnRHTGtRNDdIYWh0c044UXBxMGhORmlwbG5yRWFSb3Q4Um9STHVqNU9MNHN3ZlBlcDh2Q0VuSkdVSlF3elVGYlBjNG92RHRTcFhyRDQ5anRRVEZ5cDFJQ2h6NUdlY09EalRyQQ?oc=5",
