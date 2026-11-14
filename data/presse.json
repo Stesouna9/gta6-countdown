@@ -1,13 +1,25 @@
 {
- "maj": "2026-11-14T22:25:21+00:00",
+ "maj": "2026-11-14T22:46:12+00:00",
  "articles": [
+  {
+   "gn": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcksxaS1pdEF2b180NktTeXExdUd3eVZMcS0ySDBfMHZ4YndhcDNWS0NTNFhsdXUyMzlYTUtCcDNiT3Ywd2cteWtmemZxeWk1U1NOdjRSNWtTS1pIeTBjTWtvcmF0bjhuNk0yajJjSUZyZ0F4Y2hEWmRmM2l0ZDlnaEFJSVZQeFFmMXpwSVJCMA?oc=5",
+   "s": "shattered.io",
+   "d": "2026-11-14T22:30:14+00:00",
+   "lang": "en",
+   "t": "Fake GTA 6 Downloads Hide Vidar Malware, ESET Warns",
+   "u": "https://shattered.io/fake-gta-vi-downloads-vidar-infostealer-eset-warns-nov-19-launch/",
+   "img": "https://shattered.io/wp-content/uploads/2026/11/fake-gta-vi-downloads-vidar-infostealer-eset-warns-nov-19-launch-img13.webp",
+   "chapeau": "ESET warns fake GTA 6 downloads spread Vidar infostealer malware that steals passwords and crypto wallets. See how to spot the scam before you click.",
+   "txt": "Photo: John (Giannis) Tekeridis / Pexels Five days before Grand Theft Auto VI reaches players, security firm ESET has warned that fake GTA VI downloads are circulating online to distribute malware and steal credentials. Technobezz, which reported the warning, described a wave of lures built around the game’s Thursday, November 19, 2026 release date. The pitch is simple and old: offer players something early, and let them install the problem themselves.\nOne file stands out in the reporting. A malicious executable named gta6_installer.exe was identified as carrying Vidar, an infostealer, rather than any part of the game. It weighed 1.1 MB, which is a tiny fraction of what a modern blockbuster needs, and it went after stored passwords, browser autofill data across 19 browsers, and FTP credentials. Separately, Huntress examined GTA VI-themed ISO files larger than 100 GB that used padding to look like legitimate game downloads.\nThis is a security story first and a gaming story second. The hype is real, and gameplay clips are already circulating a week out , which gives scammers the cover they need. ESET’s researchers found no indication of a genuine, playable GTA VI leak. Anything that claims to be one, in other words, deserves to be treated as hostile until proven otherwise.\nGoogle · Preferred Sources Don't miss new tech stories on Google\nAdd Shattered once in the Google app and our stories show up in your news suggestions.\nThe core finding is narrow and well supported. ESET warned that fake GTA VI downloads are being used to push malware and harvest credentials, and it said it detected dozens of malicious files masquerading as GTA VI-related content. That word matters. It describes a campaign with variety, not one stray sample that a researcher happened to catch.\nHuntress added a second angle by looking at disk images. It examined GTA VI-themed ISO files that ran past 100 GB and used padding to resemble genuine game downloads. Where ESET’s sample was a small installer, the Huntress samples were built to look heavy, because players expect a flagship release to be enormous. The two findings describe the same bet from opposite ends: attackers are guessing what a convincing GTA VI download looks like, and they are covering both a tiny launcher and a giant disk image.\nThe reporting also lays out how the files travel. Attackers pushed them through search manipulation, torrents, social platforms, and gaming forums. That list covers nearly every place a player might hunt for an early copy. None of those channels requires the attacker to breach anything. They only need a curious person and a download button.\nJust as important is what the reporting does not contain. It names no attacker, gives no victim count, and states no total financial loss. It also reproduces no direct ESET quotation beyond the warning itself. This article keeps to that boundary. Where the available coverage is silent, we say so rather than fill the gap with a plausible number.\nThe file name does the first piece of the attacker’s work. A player scanning a forum thread or a torrent listing sees gta6_installer.exe and reads it as a launcher for the game. The reality, per the reporting, is that the file carried Vidar, an infostealer, and not the game. An infostealer has one job. It collects whatever sensitive data a machine holds and ships it out.\nThe size is the loudest clue. At 1.1 MB, the file is smaller than a typical phone photo. A real installer for a flagship console-era title would be a launcher of some kind, but nobody expects the entire game to arrive in about a megabyte, and the sample was not carrying the game anyway. Still, a launcher that pulls the rest down later is a normal pattern, so a small file size alone does not prove malice. The combination does: an unofficial source, a pre-release game, and an executable.\nAccording to the reporting, the identified file targeted three buckets of data. The first was stored passwords. The second was browser autofill data across 19 browsers, which can hold names, addresses, and payment details a user saved for convenience. The third was FTP credentials, which matter less to a typical gamer but a great deal to anyone who runs a website, a modding project, or a small game server.\nCovering 19 browsers tells you something about the design. The author did not assume everyone uses one or two popular browsers. The code reaches into a long tail of them, which raises the odds that a given victim holds something worth",
+   "pub": "2026-11-14T22:27:54+00:00"
+  },
   {
    "gn": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9HdW5sUE5CeXU2TXFya3ZtSUlQaUpTUHg4X3dZRkVEQVEwcEk2d1VmaUx4WnM0RmZ5V2Vjb0JLdHlGbWY2TVNYUTU3dXhTcHl5TnVaR1dxSmtnS3lsYXJqblZqd21GSFB5YUVsU0tNYlFPaTNyTFJQVUhZOFJUaFU?oc=5",
    "s": "Mezha.net",
    "d": "2026-11-14T22:01:14+00:00",
    "lang": "en",
    "t": "A $1,999.99 GTA 6 preorder listing briefly appeared on the Xbox Store",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQOWIxZmpoSDhYQTd6S0dQRFFhY3NIbWYwWUQ4Q1NyeEtMWml6a1B0Q3ZhUGN3U3RvNTNWb0lkdThFckQtU3lzTkE4SDVrbzZ4MDVZTFlmNFlycHE1MGFRRU8yRDUzQURiUVpXRVlETEYxaFNQd2syYVZKN1VCQ0ZZNFAwcm82UTBDUERpUWhVcXVHUGkyMGJYYUxZUUU0dFdJNU5WOUFkN3hycGJGNVJBTnE0a1hHS1oxQlJGUzByR19TS1BheGc?oc=5",
@@ -15,15 +27,23 @@
    "d": "2026-11-14T21:49:00+00:00",
    "lang": "en",
    "t": "Xbox Store lists new $2000 GTA 6 pre-order edition, with price causing sticker shock",
-   "erreur": "429 : passage suivant"
+   "u": "https://www.notebookcheck.net/Xbox-Store-lists-new-2000-GTA-6-pre-order-edition-with-price-causing-sticker-shock.1450524.0.html",
+   "img": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/XboxGTA6Cover.jpg",
+   "chapeau": "Microsoft posted a new pre-order SKU for the GTA 6 Xbox version on its digital storefront. At $1999.99, the surprising price immediately drew the attention of console owners. Now removed, it was likely attributed to redemptions for the physical code-in-box format.",
+   "txt": "A mysterious GTA 6 pre-order option surfaced on the Xbox Store days ahead of the game’s release date. Before the listing vanished, the exorbitant price of $1,999.99 piqued the curiosity of fans. The marketplace did offer clues that may explain the high cost.\nAccessible on the web, the expected $79.99 or $99.99 price appeared when buyers chose the Standard and Ultimate Editions . Although the more expensive GTA 6 Xbox SKU didn’t have a label, Microsoft described it as a “ Code-in-Box Product”. That suggests the item was related to redemptions for the codes inside retail cases .\nTo fulfill purchases of the disc-less physical version , the Xbox Store may have needed to create a separate record. However, Microsoft set a shockingly elevated cost to dissuade shoppers from selecting it.\nOptimistic fans are hoping to see an ultra-limited Collector’s Edition , but that scenario seems far-fetched. Most social media followers believe the listing was a placeholder or mistake. The digital storefront has been ridiculed in the past for listing other games at inflated prices.\nOne recent example was Rayman Origins: Enhanced Edition in May 2026. Ubisoft’s classic 2D platformer also emerged on the Xbox Store for $1,999.99. No explanation ever came, and the product page eventually disappeared.\nThe latest pricing incident likely won’t dissuade buyers from pre-ordering the GTA 6 Xbox version. Still, many supporters feel that, because of Rockstar’s marketing deal with PlayStation , the PS5 has been the priority. Perhaps to circumvent the deal, Microsoft unveiled an unusual-looking console.\nThe new Series X-BITE system is not advertised as a way to celebrate the GTA 6 release date. Regardless, its alligator shape reminded observers of Leonida 's swamps. Marketing executive Josh Munsee also admitted Miami inspired the hardware.\nLooking ahead, Microsoft quieted some critics by announcing a 10-year partnership with Take-Two Interactive . An immediate perk is the ability to cloud stream the next Grand Theft Auto . Unfortunately, at launch, it will be available only on Xbox consoles, not PCs or other devices.",
+   "pub": ""
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWnl3ZDVJVWMtaUFCZGgwSFV2NVFDMG1FWkphMkZjdTdPZ0xrRjdSN2dZSjRzeGV1aVdRemU0M092dVpYYmI3dWd4b3BFSjdpeWdIc0NwYlZRLVBQOTY0NUFfZGwzVTk4ZEJSOGtaZ1pRV2JuTk9uT3diTnNzN25GQk9MaTRHSWQycExtNUVvT0NDUlVHTlloN0FNakpWOFZ6djlFN25WNjlKQQ?oc=5",
    "s": "eGamers.io",
    "d": "2026-11-14T21:37:18+00:00",
    "lang": "en",
-   "t": "GTA 6 launches in five days: editions, storage, platforms and what Rockstar has confirmed",
-   "erreur": "429 : passage suivant"
+   "t": "GTA 6 Launches In Five Days: Editions, Storage, Platforms And What Rockstar Has Confirmed - EGamers.io - P2E NFT Games Portal",
+   "u": "https://egamers.io/gta-6-launches-in-five-days-editions-storage-platforms-and-what-rockstar-has-confirmed/",
+   "img": "https://egamers.io/wp-content/uploads/2026/11/gta-6-launches-in-five-days-editions-storage-platforms-and-what-rockstar-has-confirmed.jpg",
+   "chapeau": "Grand Theft Auto 6 arrives in five days. If your console is still short on storage, deal with that before anything else.",
+   "txt": "Grand Theft Auto 6 arrives in five days. If your console is still short on storage, deal with that before anything else.\nThe game launches worldwide on Nov. 19, 2026, on PlayStation 5 and Xbox Series X . Xbox One owners can also play, but only through Cloud Gaming. Pre-orders are live and preloading has started. You’ll need at least 212 GB of free space, plus 1 GB more for the first pre-release update.\nBeyond that, there’s a heap of editions, bonuses, events and leaks to sort through. Rockstar has confirmed some of it. Much of it comes from elsewhere. This guide separates the two.\nIf you haven’t seen the official trailers or the Netflix Extended Look, watch those first. In short, it’s a Bonnie and Clyde premise built around two leads, Jason and Lucia.\nAt some point the two have broken the law. The game looks more focused on the aftermath: what those choices cost them, and whether they can make a new life together. (Or whether they can’t.)\nGTA 5 isn’t required reading. The two games share a universe, but Jason and Lucia’s story stands on its own. Still, if GTA 5 is already in your library, it’s a good way to fill the wait. Some players plan to take one final drive around Los Santos before the sequel lands, which is a fitting send-off.\nA pre-order unlocks a small set of Vice City-themed cosmetics: a classic sedan with its own storage space, vintage outfits and hairstyles for Jason and Lucia, and weapon patterns inspired by Tommy Vercetti.\nGTA 6 is digital only, so a GameStop pre-order means leaving the store with a code inside a box . The bonuses don’t affect gameplay. Even so, many fans see cosmetics as a big part of what makes a GTA game fun, so they’re worth considering.\nThe prices are strange. Both the standard edition and the Ultimate Edition are listed at $79.99. Ultimate throws in a retro-futuristic sports car, two special guns for Jason and Lucia, a fancy motorcycle and a kayak. It also unlocks locations exclusive to that version, among them two car customization shops, a salon, a clothing store, a tattoo parlor, a Mud Club vehicle and hideout, and a contraband store.\nCrossplay isn’t a factor. GTA 6 is a stand-alone single-player game, so PS5 and Xbox players won’t cross paths.\nIf you have both consoles, pick the one you like. Rockstar and Sony have said more than once that GTA 6 “plays best” on PS5, and that version gets a few exclusives: high-fidelity haptic feedback on the DualSense controller and improved spatial audio rendering. On Xbox, the benefit is reach, because the game runs through the cloud and on last-generation hardware.\nConsidering a PS5 Pro? They’re pricey and scarce at the moment. GTA 6 does get some Pro enhancements, including Spectral Super Resolution and ray-traced shadows. On every platform, though, the game is locked to 30 frames per second.\nThat doesn’t bother everyone. Red Dead Redemption 2 also ran at 30 FPS and still earned critical acclaim.\nThere’s also a GTA 6 controller with chromatic blue and purple decals. It’s a good-looking pad, priced at $84, and it won’t ship until Nov. 19, so pre-ordering is the only option for now. Get it if you want one.\nPC players have to keep waiting. Rockstar hasn’t announced a PC version, though many people expect one eventually.\nGTA Online stands apart from the main game, and Rockstar seems to be setting it up for a new phase. The next version of the multiplayer mode will add more roleplay options, developed together with FiveM, the modders leading that scene.\nIt will be available on GTA 6’s launch day. It’s also playable today.\nMost of the map chatter comes from leaks. According to those leaks, GTA 6’s map is three times the size of Red Dead Redemption 2’s. Rockstar hasn’t confirmed it.\nAs with any GTA, you could keep playing indefinitely. Finishing the story is different, and the time it takes depends on how often side activities pull you away. The only figure available: at least one Rockstar developer needed about 80 hours to get through the main story.\nIf your plan is to cause mayhem on a packed beach in the first hour, expect some tutorial and story sections first, including what looks like an early stretch with Lucia still behind bars. On the plus side, Leonida’s map opens up sooner than maps did in earlier GTA games.\nEarly previews describe GTA 6 as harder than past entries and slower to make you wealthy. Better cars are tougher to steal. There seems to be a cap on how much cash you can carry at one time. Those same previews also describe the n",
+   "pub": "2026-11-14T23:37:18+02:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUzlGQXhiVDZYMWdaTksxNmp1aFh2a1d1TnhVbk1vOE1uR3VkdnZjYlBFV05qOWpDcDZrdkg2Tm1uTzJ1cnVTSDFrRmJQUGFIYlRaSm9WQ0hmYTlHS0NEa3FLNHBtQzFSenhpekNOaDVkS3ZEN01wRklHZVFSM3lSbGdDVEFmb05IbVdVSU9zVXc4YUl3Q0ZpSUh6cUZ6RWszWGh2ZQ?oc=5",
@@ -31,7 +51,11 @@
    "d": "2026-11-14T21:27:02+00:00",
    "lang": "en",
    "t": "GTA 6 Causes Twitch To Change One Of Its Most Controversial Features",
-   "erreur": "429 : passage suivant"
+   "u": "https://opencritic.com/news/39722/gta-6-causes-twitch-to-change-one-of-its-most-controversial-features",
+   "img": "https://img.opencritic.com/article/o/K9PdNcDd2454YkiL6IPi2QtziiqL9aV8.jpg",
+   "chapeau": "A fierce fight for GTA 6",
+   "txt": "GTA 6 Causes Twitch To Change One Of Its Most Controversial Features From TheGamer (Written by Steven Garrard) on November 14, 2026 | OpenCritic\nGrand Theft Auto 6 has already been having a massive impact on the gaming landscape even before its release, with numerous games moving their launch dates away from the gaming giant or seeing how they can replicate its financial success. While not all of these have been positive so far, like the switch away from physical discs , GTA 6's sheer popularity is having one surprisingly helpful change for Twitch users.\nWhile adult games like GTA 6 have always struggled to find a foothold on Twitch thanks to their strict gameplay guidelines, the newest updates and partnership between the streaming giant and Rockstar will not only alleviate some of the biggest hurdles, but also offer monetary incentives for anyone streaming the game.\nAs noted by Jake Lucky on X, Twitch is making some experimental changes to monetization on the platform which will \"allow streamers to make MORE money while playing mature games like GTA,\" in addition to giving brands more freedom for which categories they want to advertise within.\nWith the information paraphrased from Bloomberg's interview with the Twitch CEO Dan Clancy, who describes GTA 6's release as \"our biggest moment\" for the company, the announcement has already been going...",
+   "pub": ""
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9tbmV3QlVzd2hCX0pDT29QWW9ndERuTml4dzY2eFU3cTBob1RYWTEzSDZEQVBfa3hEbDVaMWxJWV9KVHdvT1pRSlNhV3N1X085ZEx0UkdtUVBoazYydWhoNDlSUHNYZw?oc=5",
@@ -39,7 +63,11 @@
    "d": "2026-11-14T21:02:38+00:00",
    "lang": "en",
    "t": "Full ‘GTA 6’ Album Tracklist Leaks On Social Media – See All Singers Featured!",
-   "erreur": "429 : passage suivant"
+   "u": "https://www.imdb.com/news/ni66111497/?ref_",
+   "img": "",
+   "chapeau": "",
+   "txt": "",
+   "pub": ""
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcU5JZ2Vhb1FldGJ4WTJrVHRZTkpHTXk4VHQ2UnVMY1ZRUDBiV0h1T1VFZ1dPRjBCdmNRVUJRZ1ZaX2pfVDc2YXpGajFFQXpuYWFKWU9hblVqSHRqdm12YmVCNlZDbTJtMFFaY0ExZkxxbmpWTE1feWEyUkVQazd2ME0zamZxVHlQWHBwRFlfRmZhVU5yX0Q5enZ6ajg1cFJqcnR2aTNXWTFJOXM?oc=5",
@@ -71,7 +99,11 @@
    "d": "2026-11-14T20:13:00+00:00",
    "lang": "en",
    "t": "Kalshi is hiring a 'GTA VI' researcher to livestream their gameplay. The job pays six figures.",
-   "erreur": "429 : passage suivant"
+   "u": "https://www.businessinsider.com/kalshi-job-gta-vi-researcher-video-game-career-2026-11",
+   "img": "https://i.insider.com/6af88c21b2c29afb4e56b0ab?width=1200&format=jpeg",
+   "chapeau": "Kalshi said in a job listing that the remote contract position, starting November 19, has a fixed project fee ranging from $100,000 to $120,000.",
+   "txt": "",
+   "pub": ""
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNRXg5WjJ2RmN0b25tTW80MUp2amlDNU5QMndQeFU4cnFxaGs5WU11TkJxZ1VoUWoydHUwR0hNRFhxc2ZfdnZ0cmJpak5qU2U0MEJQY19uSXNzU3FmRTd2Sks5LVZKSm9UM3NVeWpELUFEWkVoZlBPRjNZTmVOYzRQSQ?oc=5",
@@ -91,7 +123,7 @@
    "d": "2026-11-14T20:04:39+00:00",
    "lang": "en",
    "t": "Rockstar Says GTA 6 Will Try New Things the ‘Grand Theft Auto’ Series Has Never Done Before",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPYnA1cy1ISG5vdldXeWN3UThDVjhrbzRYYzFBanZtTUVyejNUQUlzeVJFcWJwTmp1Nk5qVmpIcWk5dkxtSlIyOGs2RFdCN3RTVFBfVnhqRDhMMmxzWlYtb2ZNV2UyUHZkS0l4eGVrNy1qeFViVGZNVGlsYWM1YTQ0M1ZMQmRMVGZhVDNZ?oc=5",
@@ -124,7 +156,11 @@
    "d": "2026-11-14T19:57:45+00:00",
    "lang": "en",
    "t": "Full ‘GTA 6’ Album Tracklist Leaks On Social Media – See All Singers Featured!",
-   "erreur": "429 : passage suivant"
+   "u": "https://www.yahoo.com/entertainment/music/new-albums/articles/full-gta-6-album-tracklist-195745264.html",
+   "img": "https://s.yimg.com/lo/mysterio/api/254e6caa848f0348d1da0d610432d0e0c4ab5b0ef9773e6c65b67bb703956600/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fjust_jared_884%2F13e0a93e931c28e9a0302ae0cae019e4.jpg",
+   "chapeau": "The entire tracklist for the GTA 6 album has been leaked – and some very big names are featured on […]",
+   "txt": "Rockstar Games The entire tracklist for the GTA 6 album has been leaked – and some very big names are featured on it!\nBack in September, Rockstar Games and Atlantic Records announced Grand Theft Auto VI: The Album , an official 34-track album featuring original music tied to the upcoming game. At the time, six songs from musicians including Travis Scott , Morgan Wallen , and PinkPantheress were released.\nOn Saturday (November 14), the full tracklist of all 34 songs was leaked on X . Sources with knowledge of the project confirmed to JustJared.com that the list is accurate and that all these artists are involved.\n1. \"Starting From Zero\" – Justice feat. Michael Mcdonald 2. \"That's it\" – Yung Lean feat. Future & Metro Boomin 3. \"Ahh Yea\" – Playboi Carti 4. \"Rhyno\" – Travis Scott 5. \"Sexy Magic\" – Ca7riel & Paco Amoroso , PinkPantheress , Fred Again.. & Etienne de Crécy 6. \"Flower in a Hurricane\" – Justice feat. Tame Impala , SZA , King Gizzard & The Lizard Wizard 7. \"Go Easy\" – Dua Lipa 8. \"Last Thing You Need\" – Morgan Wallen\n9. \"X\" – Jhayco 10. \"Suzuki\" – Fuerza Regida 11. \"Macacoa 2000\" – Rauw Alejandro 12. \"Dance With Me\" – A Boogie wit da Hoodie feat. Elkan 13. \"Bigger\" – Burna Boy 14. \"Count Up\" – Gunna 15. \"Let's Rock\"- Kodak Black & Don Toliver 16. \"Wakin Up Flex\" – Young Thug 17. \"IKYFL\" – Tee Grizzley 18. \"TF?\" – Don Toliver\n19. \"Don't Chart\" – Cardi B 20. \"GMA\" – JT 21. \"Power Trip\" – Jennie 22. \"Blood in Your Eyes\" – Tove Lo 23. \"Fast Emotion\" – Zara Larsson 24. \"Sweet Like Candy\" – Camila Cabello 25. \"Only One\" – Fcukers 26. \"Sandunguea\" – Arca 27. \"Trdwe\" – Rina Sawayama\n28. \"All Again\" – Rose Fray 29. \"Crazy For You\" – Lana Del Rey 30. \"Largate\" – Kali Uchis & Helado Negro 31. \"No Me Busques\" – Omar Apollo 32. \"Bright Lights, Big City\" – Keith Richards 33. \"Stone Kold Krazy Luuv\" – Jesse Johnson & Dan-Funk 34. \"Overtown Lights\" – Stanley Clarke, Yussef Dayes & Robert Glasper\nGrand Theft Auto VI: The Album will be released at midnight ET on Friday, November 20, the day after the game is released. You can preorder it at RockstarGames.com !\nThe soundtrack will also be available in several physical editions, including vinyl and CD releases. Atlantic Records is even offering limited-edition liquid-filled and splatter vinyl versions with exclusive artwork. Click here to pre-order all the different formats.\nThe album will arrive alongside the game's new in-game radio stations and original score.\nGrand Theft Auto VI takes players back to Vice City and follows Jason and Lucia after a robbery goes wrong and leaves them caught up in a criminal conspiracy across the state of Leonida.\nThe game launches Thursday, November 19 on PlayStation 5 and Xbox Series X|S.\nDisclosure: Some products on this site use affiliate links and we may earn commission for any purchase made through the links.\nTiffani Thiessen, 52, Needs Hip Replacement After Revealing Painful Health Diagnosis\nSofia Vergara Leave GQ Men of the Year Party With Douglas Chabbott\nIs Tyler Hynes Single or Married? What We Know About the Hallmark Actor's Relationship Status",
+   "pub": ""
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9udXV1TVZfSmRYWlh2SnZtMEZhVEkwMTkzMll2TERILW16ZHpraVd2X1VUbzBqVGRtZnVRelNCVVZ2TDBJRnRHM1V2RGoxcU15eE1XeFAxa0IyQQ?oc=5",
@@ -169,7 +205,7 @@
    "d": "2026-11-14T19:00:00+00:00",
    "lang": "fr",
    "t": "Les jeux vidéo rendent-ils vraiment violents ? GTA 6 relance une question qui divise les scientifiques",
-   "erreur": "HTTP Error 429: Too Many Requests"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNZHF1UC1wb29vM1Ffb2h0bUdQY2F2QXRUSHFKekJ5Q0hSZ3NSVnFZd0xEZ3paUW03VExmYnhiZ2o4SHp0bElTb3hvZ2pUbHgyT3lTVzZWTEVidmhsVEk2OEEzbUVWcEdBb2ZVWEctdXVvQlJycTRwS1ZtY0xfb0NMcGlueTVlSTcweW9fcFNZM3VuR2FXWjJDVFZmcVJqWmh5WkJLbFR0bkVlWGpsbXAyMWMxSlZQSlpCckVNZXV2bUs2LXdYZjhZR1M4UVg0X1I3Nk1XZWFWdTZ1SHVQVmZfOWFxT0lOX1p0RVFIZGZ4dw?oc=5",
@@ -201,19 +237,11 @@
    "d": "2026-11-14T18:30:00+00:00",
    "lang": "fr",
    "t": "Maîtriser les poursuites policières dans GTA 5 pour anticiper les défis de GTA VI",
-   "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTEtmVjdkUVgtaHBEekZsckozZmY0cUZnSzJmWkVOU2ZERTQwT0RGUXFmbEludm9ydVNKQ3drSFc4U3lYaU9lODd5c0ZIN1I1dmxtTXJTZ0M0WnJUTC1qaFY5RE5Od3cyTDl3aEJUOENtRzYxcWRDOUsyTDc5dkw1WkY4cnVkZnFSWi12cldfVDg3SHBrOXJpcEtQNEduN0szVUtlYkkyd09rMjdUdFJPanFoNko?oc=5",
-   "s": "MMA Sucka",
-   "d": "2026-11-14T18:26:34+00:00",
-   "lang": "en",
-   "t": "GTA 6 x UFC Fan Cast: McGregor and More as Game Characters",
-   "u": "https://mmasucka.com/opinion/gta-6-x-ufc-fan-cast-conor-mcgregor-jorge-masvidal-and-more-as-video-game-characters/",
-   "img": "https://mmasucka.com/api/media/file/Conor%20McGregor-15.webp",
-   "chapeau": "Conor McGregor, Jorge Masvidal, and more slot perfectly into the picture in our ultimate GTA 6 x UFC fan cast.",
-   "txt": "Follow on Google Conor McGregor, Jorge Masvidal, and more slot perfectly into the picture as we brush up our creative chops to put together the ultimate GTA 6 x UFC fan cast.\nFinally putting to rest all the 'we got this before GTA 6' jokes, Rockstar Games' latest entry in the Grand Theft Auto franchise is now just days away from its Nov. 19 release. As fans worldwide prepare to explore Leonida alongside Jason Duval and Lucia Caminos, the game has even caused a few rumblings in the mixed martial arts sphere, with UFC Middleweight Champion Sean Strickland himself taking shots at the franchise.\nWell, that got us thinking: why not do a GTA 6 x UFC fan cast? After all, the Grand Theft Auto series has long been considered an exaggerated representation of real life. MMA, or more importantly the UFC, has had its fair share of comical unpleasantries in recent days, particularly the Abu Dhabi melee involving Usman Nurmagomedov and Merab Dvalishvili. In fact, the comparison might be more fitting than you'd initially think.\nNevertheless, let's take a look at which UFC fighters most closely resemble the announced GTA 6 characters.\nFormer UFC fighter Tim Kennedy bears more than a passing resemblance to Jason Duval, particularly when it comes to their military backgrounds. Both are former servicemen, with Kennedy having served as a Green Beret and Duval as a member of the U.S. military, with fan theories suggesting that he might have been a member of the 75th Ranger Regiment.\nHowever, while Duval eventually traded military life for a life of crime, Kennedy pursued a career in mixed martial arts before venturing into private contracting.\nSpeaking of private contracting, Kennedy and his team were ambushed recently while on a private contract in the Democratic Republic of Congo , with the former UFC fighter requiring a medical evacuation back to the United States. Now, if that doesn't give off some serious GTA vibes, we don't know what does!\nOne of the most important details in Lucia Caminos' character brief, as provided by Rockstar Games, is that she was taught to fight by her father from the moment she could walk. And while her nationality has not been explicitly confirmed, the consensus is that she is Latina.\nUFC women's strawweight contender Tabatha Ricci has a similar backstory, at least when it comes to the father-daughter dynamic. Born and raised in Birigui, Sao Paulo, Brazil, Ricci was introduced to martial arts by her father, a judo black belt, when she was just six years old. She began training in Muay Thai at 15 before taking up Brazilian jiu-jitsu at 17.\nWhen it comes to the fighting side of things, Ricci is a perfect fit. 'Baby Shark' is Brazilian, so the heritage box is ticked, too, sort of.\nHonorable mention: On the flip side, Julianna Pena was actually our first choice for Lucia. Some of her pictures, particularly those of her sporting a leather jacket at UFC press conferences, bear a striking resemblance to a screenshot Rockstar shared of Lucia sitting on a motorcycle.\nWith her long hair and similar overall look, the visual comparison is certainly there. However, Pena's martial arts background and the timeline of when she first took up combat sports didn't quite align with Lucia's upbringing. Hence, Ricci ultimately gets the dub.\nRaul Bautista is a confident, charming bank robber who is as cunning as they come. With his long, wavy hair and beard, Bautista's overall look bears a striking resemblance to ex-UFC welterweight Jorge 'Gamebred' Masvidal. Interestingly, Rockstar specifically highlights Raul's reckless streak, suggesting that his increasingly risky scores could eventually land him in trouble.\nIn a similar vein, Gamebred is no stranger to the occasional scuffle. Exhibit A: his backstage altercation with Leon Edwards at UFC London, followed by the more infamous attack on Colby Covington at a Miami Beach steakhouse, which landed him in legal trouble.\nA little reckless, occasionally fast and loose with the rules, and certainly not short on charm. Add the long, wavy hair to the mix, and these two might just be a match made in heaven!\nThis might just be one of the perfect matches in the entire feature. Cal Hampton, Jason Duval's friend, is essentially, by Rockstar Games' own account, a homebody with a rather conspiratorial worldview. Cal spends much of his time monitoring Coast Guard communications and privately browsing the internet, embracing theories that question just about everything.\nWell, bantamweight star Br",
-   "pub": ""
+   "u": "https://www.fredzone.org/maitriser-les-poursuites-policieres-dans-gta-5-pour-anticiper-les-defis-de-gta-vi/",
+   "img": "https://www.fredzone.org/wp-content/uploads/2026/11/jason-et-lucia-dans-gta-vi.webp",
+   "chapeau": "Les joueurs de Grand Theft Auto V ont passé des années à perfectionner l’art de semer la police à Los Santos. Cependant, avec l’arrivée imminente de GTA VI, cette expertise traditionnelle risque de ne plus suffire. Rockstar Games a en effet dévoilé un nouveau système de recherche qui transformera radicalement la manière dont les autorités",
+   "txt": "Les joueurs de Grand Theft Auto V ont passé des années à perfectionner l’art de semer la police à Los Santos. Cependant, avec l’arrivée imminente de GTA VI , cette expertise traditionnelle risque de ne plus suffire.\nRockstar Games a en effet dévoilé un nouveau système de recherche qui transformera radicalement la manière dont les autorités traquent les suspects. Il devient donc essentiel de comprendre dès maintenant comment adapter ses stratégies d’évasion pour survivre aux futures rues de Vice City et Leonida.\nDans le jeu actuel, fuir signifie principalement briser la ligne de vue des officiers jusqu’à ce que le niveau de recherche disparaisse. Or, GTA VI introduira une mécanique où les données collectées par la police jouent un rôle central. Les agents mémoriseront votre apparence, vos vêtements et surtout votre véhicule de fuite.\nCela implique qu’échapper à la poursuite immédiate ne garantira pas votre sécurité totale ; si vous laissez trop d’indices derrière vous, les forces de l’ordre pourront relancer la traque ultérieurement. Cette évolution impose aux joueurs de repenser leur approche : il ne s’agit plus seulement de courir vite, mais de disparaître sans laisser de trace numérique ou visuelle exploitable. La distinction entre « échapper » et « effacer son profil » deviendra cruciale pour réussir ses missions.\nÀ LIRE AUSSI : Première mise à jour de GTA 6 déployée avant le lancement officiel\nUne erreur fréquente consiste à considérer chaque course-poursuite comme une simple compétition automobile. Pourtant, la connaissance fine de la carte reste indispensable. Dans GTA 5 , utiliser des ruelles étroites ou des passages souterrains permet souvent de gagner du temps précieux face à des véhicules blindés. Pour se préparer à GTA VI , il faut commencer à pratiquer ces itinéraires alternatifs tout en intégrant une nouvelle dimension : l’anonymat post-poursuite .\nAvant même de démarrer le moteur, le joueur doit déterminer si son moyen de transport actuel sera facilement identifiable. Abandonner la voiture suspecte pour continuer à pied pourrait devenir une tactique obligatoire afin de brouiller les pistes. Anticiper où l’on ira une fois les gyrophares éteints est désormais aussi important que savoir esquiver les balles pendant la chasse.\nLe véritable défi résidera dans la planification proactive. Plutôt que de réagir instinctivement lorsque les sirènes retentissent, les joueurs devront envisager leurs actions bien avant le crime. Par exemple, avoir déjà identifié un point de chute sûr ou un moyen de changer rapidement d’apparence peut faire toute la différence. GTA 5 offre un terrain d’entraînement idéal pour tester ces scénarios hypothétiques, même si son système actuel ne punit pas directement le manque de discrétion après la fuite.\nEn développant cette habitude mentale de traiter l’évasion comme une compétence globale , on construit une base solide pour affronter les règles plus strictes du prochain opus. Chaque décision prise durant la course aura des conséquences durables sur la capacité des ennemis à localiser le protagoniste Jason ou Lucia.\nÀ LIRE AUSSI : Grand Theft Auto 6 échappe à la censure sud-coréenne\nBien entendu, aucune stratégie acquise à Los Santos ne sera parfaitement transposable telle quelle. Les environnements urbains de Vice City posséderont leurs propres dynamiques et contraintes géographiques. Néanmoins, l’objectif principal demeure inchangé : transformer la chance en maîtrise technique. Apprendre à perdre la police n’est pas une question de luck, mais de méthodologie rigoureuse.\nLes mises à jour récentes suggèrent que Rockstar vise à rendre chaque interaction avec les autorités significative. Ainsi, consacrer du temps à affiner ses réflexes dans GTA 5 constitue le meilleur investissement possible pour éviter les frustrations lors du lancement de GTA VI . La préparation commence aujourd’hui, car demain, ignorer un détail vestimentaire ou une plaque d’immatriculation pourra coûter très cher.",
+   "pub": "2026-11-14T18:30:00+00:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQaVdidUN1aDRoWHBOUEdoeVVpNE5FeG5wTWZDZm04aEljanhYT0NuWTV3RVlnX2NuSFY1ZjBNTDZUdnVwMWZNQmZDb2VINDl2QTNLZkNiaTV1V1A3cjN3S2JrQTFPZVBySWFvM2NnYXhsR3NWaFFkc1BCTkJkTFhtU29n?oc=5",
@@ -221,7 +249,7 @@
    "d": "2026-11-14T18:22:32+00:00",
    "lang": "fr",
    "t": "Le Guardian a vu GTA 6, Rockstar mise sur l'empathie",
-   "erreur": "429 : passage suivant"
+   "erreur": "Remote end closed connection without response"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZDhYTGx1MDlpcW1tOVJ6eng4OWhCSS1Pb2t6MVlRcmRBVEN1NWJURlFOcnNkU2FobTRYOF9sRXNUYnBvNk0wejVERXpOMEQzZUE4NEJXUk1KbFpPUVZucGIyblQ5dUJDZlhqTUxuWjM2bV9LYmg3RXpOR3RlUmdJUmxfdHJfZ1JpMjJNQ0UwVnRHbHFLRkoxZ0Q2bw?oc=5",
@@ -241,7 +269,7 @@
    "d": "2026-11-14T18:12:38+00:00",
    "lang": "fr",
    "t": "GTA 6 : à Pau, des préventes exceptionnelles pour « le jeu vidéo de la décennie »",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNQ2l4UDB5dE9TdGV5VE0tZWZUSFF1M1dmUEV3MUFQSjhXNFplRmViV1BKR1U3YkY5LXg0S3pGM3Y0X3JETHdoeDFzTktyTTVHSEZQNGo3WWlLc2RlVHJ1WV91OVVYZ1hlOEoweTJ1SXpIaXpNRXZFTEdyNlRGbVJWY3pOTlZ0TUJ0TGNwb2t1VUZoSDB2VlFMTG5QVnJvY1NVdmpla0VMOG5odjRvb25JSC0yUTNodjNtaDBzQWZCVDh1Qjl4MU5qQnRtSjdGYkU5MUZkMjBZblhDbW11RlVTSWJXWVgtdw?oc=5",
@@ -262,7 +290,11 @@
    "d": "2026-11-14T17:40:18+00:00",
    "lang": "fr",
    "t": "« 700 euros pour jouer à GTA VI » : pourquoi les consoles de jeu sont-elles devenues si chères ?",
-   "erreur": "429 : passage suivant"
+   "u": "https://www.leparisien.fr/video/actualites/700-euros-pour-jouer-a-gta-vi-pourquoi-les-consoles-de-jeu-sont-elles-devenues-si-cheres-14-11-2026-754BDD5YRRCIJDOLIWFPW5UDVQ.php",
+   "img": "https://www.leparisien.fr/resizer/lcwZgOXhT2T3LkuHMsa628Cf08U=/1600x900/cloudfront-eu-central-1.images.arcpublishing.com/leparisien/ZOPVSDP6SVGE3PX4R6HV3GKGFQ.jpg",
+   "chapeau": "Ce 19 novembre 2026, le tant attendu « GTA VI » deviendra enfin disponible, après une attente de 13 ans. Encore faut-il avoir une console de",
+   "txt": "",
+   "pub": "2026-11-14T18:40:18+01:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSWh0Qlg3SnBCQmlONTkyY2ZqOGp1aEpraGpoV3dGQ2UtTWViVF9HbmY5Q1B2dDZlQTcwMnRrYXplbFFfdUJ4a3ZxdnRKUV9qLVZBVUJnMkYyUWxXYjlvYkVQM0JZY0hvQmlDTjlpdThsNHRuNVBkckRMRVotTDNtb1dlY1RlYnJfZWtFdFRoV0JHZEM2X0FHS1kwTWRieUx1?oc=5",
@@ -270,15 +302,19 @@
    "d": "2026-11-14T17:36:34+00:00",
    "lang": "fr",
    "t": "GTA 6 a représenté un énorme bond graphique par rapport à GTA 5.",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNGRBWVd0NmZJU2dYR0pPRTF2czdxenNQR01fREJDTmdpc1VDZ1NQLXJ4dnR6YmU4OTU5LTlVT293VWN3OXZCMlZuc3p0ZnhzcmZHbXEwR1JaX0syb0EzTUU0TmlFU25HT1c5emRWY0s3V1J3WDhJYlhGalhxa1FaTXo0Yw?oc=5",
    "s": "Geo News",
    "d": "2026-11-14T17:35:00+00:00",
    "lang": "en",
-   "t": "‘GTA 6' album leak reveals star studded lineup",
-   "erreur": "429 : passage suivant",
+   "t": "‘GTA 6",
+   "u": "https://www.geo.tv/latest/691121-gta-6-album-leak-reveals-star-studded-lineup",
+   "img": "https://www.geo.tv/assets/uploads/updates/2026-11-14/691121_102233_updates.jpg",
+   "chapeau": "GTA 6 is already getting massive attention but a new leak gave its fans another reason to get excited.The full music album for the upcoming game has reportedly appeared online and it features some very big names from the music...",
+   "txt": "Home latest pakistan world sports showbiz entertainment Royal business health Sci-Tech Food Fact Check Sci-Tech Videos shows Watch --> Entertainment ‘GTA 6' album leak reveals star studded lineup The album is set to arrive on November 19 with the game By Web Desk | Published November 14, 2026\nGTA 6 is already getting massive attention but a new leak gave its fans another reason to get excited.\nThe full music album for the upcoming game has reportedly appeared online and it features some very big names from the music world.\nThe leaked list got 34 songs, with artists such as Dua Lipa, Travis Scott, Lana Del Rey, Playboi Carti and Morgan Wallen.\nIt, however, also include Cardi B, Burna Boy, Camila Cabello and many other popular singers as well.\nREAD MORE: GTA 6 reaches huge milestone ahead of November release\nRockstar Games, whereas, first announced GTA 6: The Album in September so since then, fans have already heard a few songs from the collection.\nThese include Travis Scott's RHYNO, Yung Lean's That's It and Flower in a Hurricane by Justice, which feature SZA, Tame Impala and other artists.\nThe new list, moreover, got four parts and brings together different kinds of music, including pop, hip hop, Latin music and R&B.\nThis means the album will offer something different for fans who enjoy different music styles.\nThe album is set to arrive on November 19 with the game. It will also be available on streaming platforms.\nJustice, meanwhile, will release a separate album featuring the game's original music on December 11.",
+   "pub": "2026-11-14T22:35:00+05:00",
    "cyberleek": true
   },
   {
@@ -311,7 +347,7 @@
    "d": "2026-11-14T17:19:02+00:00",
    "lang": "fr",
    "t": "Les graphismes de Vice City dans GTA Vice City et GTA 6, sortis à 24 ans d'intervalle, ont été comparés en ligne.",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVkJNNzIwRnhvY1dnQlJvRGE5bHoxTmM4UmFQNDlIamtQSUhjUDdITDRKdGNHTzhXeURJY2VxNFV3S2YxcEdkcE5oV2p4R21nTEZuSnVIeWlnZmNxNk15eThsMVpGcGRMb2NuMFlpZFNPRmFFVE9iV1lDWTgzd0FlaTdkZ1A4QlIwdnhlQm95UVhGX1pz?oc=5",
@@ -332,15 +368,19 @@
    "d": "2026-11-14T17:00:46+00:00",
    "lang": "fr",
    "t": "Zelda et Mario ont fait beaucoup pour les jeux en 3D : d'ailleurs, sans eux, GTA 6 ne serait pas le même ! Et ce sont des spécialistes qui le disent...",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdklKbkxQWU5ESEF0S2dPQkFJeWM2bGlmeDRCeC1vWmVFY2tHcGF1UDFKTzhYazBsRzhaLXRjcXVGdklZMHN2WXR2aUJhUFJJeFZ6cHE0cUNfZDAxZkNiQ3Z1TExBa0ZMWVNFeGI3T0N2SFpaNVIzUngwWTByT2VHTXhKSzkxNFpURWZod0lXMGUzeWRLbTZKUGhVRmRka3FFeVh5YnRkUDVJcmNmYUJLZjhMYTFHcl93UGc?oc=5",
    "s": "Corse Net Infos",
    "d": "2026-11-14T16:57:00+00:00",
    "lang": "fr",
-   "t": "GTA VI : en Corse, les joueurs comptent les jours, les magasins s'inquiètent",
-   "erreur": "429 : passage suivant"
+   "t": "GTA VI : en Corse, les joueurs comptent les jours, les magasins s",
+   "u": "https://www.corsenetinfos.corsica/GTA-VI-en-Corse-les-joueurs-comptent-les-jours-les-magasins-s-inquietent_a93577.html",
+   "img": "https://www.corsenetinfos.corsica/photo/art/grande/98644119-68846590.jpg?v=1794214745",
+   "chapeau": "Attendu depuis des années, Grand Theft Auto VI sortira le 19 novembre prochain. En Corse, certains joueurs préparent déjà leur semaine pour profiter du nouvel opus. Mais derrière l",
+   "txt": "",
+   "pub": "2026-11-14T18:28:00+01:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSVdiWTlWZkZQUzRxeGY4QUkteVphdWpaMUZIVnRHNzZWcTRyNHRRc3NpNmhlNmh4RDNRR29nWGNtMER5NHFNUWFVaEJWQ010eTBLUjB4MHpiYVp1ajF5U04xMW05Zmg2M3Jnek9ZUmJLWk9rdHQ1SzNoaDRMMDhyN1Z3THpfMlpkMlFiMHpMN19nY3pGaXFaVHF0ZkVJT2Via3BkYkppaDUtUmp3aTF4eXl2Mk5HaTBV?oc=5",
@@ -348,7 +388,7 @@
    "d": "2026-11-14T14:33:22+00:00",
    "lang": "en",
    "t": "GTA 6's Leonida is Florida: Vice City is Miami, the Keys are the Keys, Grassrivers is the Everglades",
-   "erreur": "429 : passage suivant",
+   "erreur": "HTTP Error 403: Forbidden",
    "cyberleek": true
   },
   {
@@ -409,7 +449,7 @@
    "d": "2026-11-14T10:57:50+00:00",
    "lang": "fr",
    "t": "GTA 6 : une campagne Twitch Drops aurait fuité avant sa sortie",
-   "erreur": "429 : passage suivant",
+   "erreur": "HTTP Error 412: Precondition failed",
    "cyberleek": true
   },
   {
@@ -418,7 +458,7 @@
    "d": "2026-11-14T10:49:01+00:00",
    "lang": "fr",
    "t": "GTA VI : L'Album — toute la liste des morceaux a fuité en ligne",
-   "erreur": "429 : passage suivant",
+   "erreur": "HTTP Error 403: Forbidden",
    "cyberleek": true
   },
   {
@@ -440,7 +480,7 @@
    "d": "2026-11-14T08:33:28+00:00",
    "lang": "en",
    "t": "Has GTA 6 leaked before? Yes, many times: from the 2022 hack to the Selfridges map",
-   "erreur": "429 : passage suivant",
+   "erreur": "HTTP Error 403: Forbidden",
    "cyberleek": true
   },
   {
@@ -449,7 +489,11 @@
    "d": "2026-11-14T07:39:00+00:00",
    "lang": "en",
    "t": "CyberLeek Price (CYBERLEEK/USD) Today | Live Price, Market Cap & Chart",
-   "erreur": "429 : passage suivant",
+   "u": "https://www.binance.com/en/price/cyberleek",
+   "img": "",
+   "chapeau": "",
+   "txt": "",
+   "pub": "",
    "cyberleek": true
   },
   {
@@ -471,7 +515,7 @@
    "d": "2026-11-14T07:29:01+00:00",
    "lang": "en",
    "t": "GTA VI map leaks from a Collector's Box at Selfridges in Manchester, days before launch",
-   "erreur": "429 : passage suivant",
+   "erreur": "HTTP Error 403: Forbidden",
    "cyberleek": true
   },
   {
@@ -571,7 +615,7 @@
    "d": "2026-11-12T17:12:00+00:00",
    "lang": "fr",
    "t": "GTA 6: une carte partielle aurait fuité depuis un pop-up Rockstar x Selfridges",
-   "erreur": "429 : passage suivant",
+   "erreur": "HTTP Error 412: Precondition failed",
    "cyberleek": true
   },
   {
@@ -606,7 +650,7 @@
    "d": "2026-11-12T15:17:46+00:00",
    "lang": "fr",
    "t": "Une carte de GTA 6 de l'édition collector a fuité en ligne",
-   "erreur": "429 : passage suivant",
+   "erreur": "HTTP Error 403: Forbidden",
    "cyberleek": true
   },
   {
@@ -654,7 +698,11 @@
    "d": "2026-10-26T04:38:45+00:00",
    "lang": "en",
    "t": "Cyberleek Shares More GTA 6 Footage Featuring Lucia Naked",
-   "erreur": "429 : passage suivant",
+   "u": "https://www.imdb.com/fr/news/ni66063856/",
+   "img": "",
+   "chapeau": "",
+   "txt": "",
+   "pub": "",
    "cyberleek": true
   },
   {
@@ -676,7 +724,11 @@
    "d": "2026-10-22T15:12:54+00:00",
    "lang": "en",
    "t": "Cyberleek Shares GTA 6 Leak Of Naked Lucia",
-   "erreur": "429 : passage suivant",
+   "u": "https://www.imdb.com/news/ni66062173/",
+   "img": "",
+   "chapeau": "",
+   "txt": "",
+   "pub": "",
    "cyberleek": true
   },
   {
@@ -737,7 +789,7 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
    "t": "Le token CYBERLEEK chute de 40 % alors que le leaker de GTA 6 lance de nouvelles menaces",
-   "erreur": "429 : passage suivant",
+   "erreur": "HTTP Error 403: Forbidden",
    "cyberleek": true
   },
   {
@@ -758,8 +810,12 @@
    "s": "GinjFo",
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
-   "t": "GTA 6 : Cyberleek renonce à diffuser le jeu complet, mais maintient une menace",
-   "erreur": "429 : passage suivant",
+   "t": "GTA 6 : Cyberleek renonce à diffuser le jeu complet, mais maintient une menace - GinjFo",
+   "u": "https://www.ginjfo.com/actualites/logiciels/jeux-video-logiciels/gta-6-cyberleek-renonce-a-diffuser-le-jeu-complet-mais-maintient-une-menace-20261015",
+   "img": "https://www.ginjfo.com/wp-content/uploads/2026/09/GTA6_017YA_03-scaled.jpg",
+   "chapeau": "Cyberleek annonce la fin de ses fuites de GTA 6 après l’échec de son objectif financier. Le groupe renonce à publier sa prétendue version complète.",
+   "txt": "Cyberleek annonce l’arrêt de sa campagne contre Rockstar Games et Take-Two Interactive. Dans un communiqué en trois parties publié le 14 octobre, intitulé “ La fin de la route “, le groupe anonyme affirme abandonner la publication d’une soit disant version complète et jouable de GTA 6.\nCette décision n’est pas une surprise puisqu’elle a été conditionnée à l’échec d’une opération liée à une cryptomonnaie. Le groupe voulait porter sa capitalisation à 30 millions de dollars , un seuil qui n’a pas été atteint.\nCyberleek avait conditionné la publication de l’intégralité de la campagne solo à cette valorisation. Il avait également proposé de renoncer à la diffusion si Take-Two acceptait de commercialiser le jeu sur disques physiques et présentait des excuses publiques.\nPour expliquer cette marche arrière, le groupe met en avant les difficultés d’une mise en ligne anonyme de plus de 200 Go de données. Il estime que les risques associés ne se justifient pas sans avoir atteint son objectif financier.\nEnfin le groupe assure aussi détenir la fin de GTA 6, tout en affirmant avoir choisi de ne pas la dévoiler. Selon son communiqué, certains extraits récemment diffusés proviendraient des missions finales, mais auraient été sélectionnés pour éviter les révélations importantes sur l’intrigue.\nMalgré l’annonce de son retrait, Cyberleek conserve un moyen de pression. Il prend la forme d’un prétendu “ interrupteur de l’homme mort “, censé déclencher la publication de spoilers si le groupe était ciblé.\nAucune preuve de l’existence de ce dispositif n’a été fournie.\nMAJ : GTA 6 : Cyberleek fait volte-face et propose sa prétendue build pour 40 dollars",
+   "pub": "2026-10-15T09:09:22+00:00",
    "cyberleek": true
   }
  ]
