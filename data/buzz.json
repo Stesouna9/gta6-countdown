@@ -1,8 +1,65 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-14T14:12:46+01:00",
+  "updated_at": "2026-11-14T16:12:55+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-marketing-miami-villes-2026-11-14",
+      "title": "GTA 6 : nouvelle opération promotionnelle à Miami, Amsterdam, Bruxelles et Riyadh",
+      "summary": "Selon @GTAVI_Countdown, une vidéo montre de nouvelles opérations promotionnelles de GTA 6 à Miami, Amsterdam, Leidschendam, Zwolle, Bruxelles et Riyadh. Le post cite aussi des images tournées à New York, Lisbonne, Londres, Madrid et Barcelone. Aucun communiqué officiel n'est cité.",
+      "url": "https://x.com/GTAVI_Countdown/status/2121484137441661390",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-14T06:03:28.000Z",
+      "checked_at": "2026-11-14T16:12:55+01:00",
+      "evidence": "Vues relevées le 2026-11-14 à 14 h 14 UTC dans data/x_alertes.json : 59211 vues ; 36 réponses, 128 reposts, 1422 likes, 218 marque-pages. Un seul compte relaie ce post à ce stade.",
+      "visual": "PUB MIAMI",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2121482178185805824/img/IyOq0NVQdHRjdlVk.jpg",
+      "image_alt": "Vignette de la vidéo publiée sur X montrant une opération promotionnelle GTA 6",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "post_text": "New GTA 6 marketing in Miami and more cities around the world : Amsterdam, Leidschendam, Zwolle, Brussels, Riyadh…",
+      "cta": "Ouvrir la publication sur X"
+    },
+    {
+      "id": "x-codes-boites-lampe-torche-2026-11-14",
+      "title": "GTA 6 : des fans affirment lire des codes de téléchargement à la lampe dans les boîtes",
+      "summary": "Selon @GTAlphaintel, des fans affirment pouvoir révéler des codes de téléchargement à l'intérieur des boîtes scellées de GTA 6 avec une lampe puissante. Certains joueurs n'ont pas réussi à reproduire le procédé. Aucune confirmation officielle.",
+      "url": "https://x.com/GTAlphaintel/status/2121492552411201797",
+      "platform": "X",
+      "author": "@GTAlphaintel",
+      "status": "Rumeur",
+      "published_at": "2026-11-14T06:36:54.000Z",
+      "checked_at": "2026-11-14T16:12:55+01:00",
+      "evidence": "Vues relevées le 2026-11-14 à 14 h 14 UTC dans data/x_alertes.json : 22597 vues ; 11 réponses, 2 reposts, 115 likes, 11 marque-pages. Un seul compte relaie ce post à ce stade.",
+      "visual": "BOÎTE SCELLÉE",
+      "image": "https://pbs.twimg.com/media/HXEOOQSaAAANu33?format=jpg&name=small",
+      "image_alt": "Image du post X sur la boîte scellée de GTA 6",
+      "image_credit": "@GTAlphaintel sur X",
+      "embed_type": "x",
+      "post_text": "GTA 6 fans claim they can reveal download codes inside sealed game boxes using a powerful flashlight. Some players have been unable to reproduce the trick.",
+      "cta": "Ouvrir la publication sur X"
+    },
+    {
+      "id": "x-vice-city-panneau-graffiti-miami-2026-11-14",
+      "title": "GTA 6 : Rockstar répare le panneau Vice City de Miami après un graffiti",
+      "summary": "Selon @GTAVI_Countdown, qui relaie une publication Reddit signée @OfficialJoelF, Rockstar répare le panneau Vice City de Miami vandalisé par des graffitis. Le post ne donne pas de preuve de la réparation et ne cite aucun communiqué.",
+      "url": "https://x.com/GTAVI_Countdown/status/2121599342209544564",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-14T13:41:15.000Z",
+      "checked_at": "2026-11-14T16:12:55+01:00",
+      "evidence": "Vues relevées le 2026-11-14 à 14 h 14 UTC dans data/x_alertes.json : 20328 vues ; 18 réponses, 24 reposts, 553 likes, 23 marque-pages. Un seul compte relaie ce post à ce stade.",
+      "visual": "PANNEAU VICE CITY",
+      "image": "https://pbs.twimg.com/media/HXFvSRVXYAAf7pW?format=jpg&name=small",
+      "image_alt": "Image du post X montrant le panneau Vice City à Miami",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "post_text": "Rockstar is fixing the Vice City sign in Miami after it was vandalized with graffiti.",
+      "cta": "Ouvrir la publication sur X"
+    },
     {
       "id": "x-dualsense-prelevement-debute-2026-11-14",
       "title": "GTA 6 : le prélèvement des manettes DualSense a commencé, selon @gta6hubfr",
@@ -3746,6 +3803,11 @@
       "at": "2026-11-14T14:12:46+01:00",
       "label": "Passage Claude Haiku (Matière X, 14/11, 14 h)",
       "summary": "Relevé data/x_alertes.json (maj 2026-11-14T12:11 UTC, 48 posts). Ajout : prélèvement des manettes DualSense débuté, selon @gta6hubfr (52 348 vues, Rumeur, un seul compte ; rebondissement sur le sujet du 6 novembre). Écartés : campagne de marketing dans de nouvelles villes (Amsterdam, Leidschendam, Zwolle, Bruxelles, Riyad, 45 136 vues, même campagne déjà publiée les 2 et 6 novembre) ; posts sous 20 000 vues (GTAlphaintel 18 741 et 14 334, martx_tv, PlaystationSize)."
+    },
+    {
+      "at": "2026-11-14T16:12:55+01:00",
+      "label": "Passage X (data/x_alertes.json)",
+      "summary": "3 sujets X ajoutés (≥ 20 000 vues) : marketing villes, codes boîtes, panneau Vice City Miami."
     }
   ],
   "coverage": {
