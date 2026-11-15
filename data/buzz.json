@@ -1,6 +1,6 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-15T10:13:08+01:00",
+  "updated_at": "2026-11-15T12:14:00+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
     {
@@ -54,6 +54,24 @@
       "image": "https://pbs.twimg.com/amplify_video_thumb/2121744513727090688/img/6jOOUQ_06sunmABG.jpg",
       "image_alt": "Visuel du déballage du vinyle GTA 6 The Album, partagé par @gtasix_",
       "image_credit": "@gtasix_ sur X",
+      "cta": "Voir la publication sur X",
+      "embed_type": "x"
+    },
+    {
+      "id": "x-fan-photo-age-12-30-gta4-gta6-2026-11-14",
+      "title": "GTA 6 : un fan refait la même photo de 12 à 30 ans, de GTA 4 à GTA 6",
+      "summary": "@GTAVI_Countdown relaie la série d'un fan qui refait chaque année la même photo, de ses 12 ans à ses 30 ans, avec une image par sortie : GTA 4 (2008), GTA 5 (2013) et GTA 6 (2026). Création de fan, non officielle.",
+      "url": "https://x.com/GTAVI_Countdown/status/2121730666803179782",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Création de fan",
+      "published_at": "2026-11-14T22:23:05.000Z",
+      "checked_at": "2026-11-15T12:14:00+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json (maj 2026-11-15 10:16 UTC) : 1 093 466 vues, 26 822 likes, 1 963 reposts, 2 717 signets. Repris par le seul compte @GTAVI_Countdown dans le relevé ; aucune reprise trouvée dans data/presse.json.",
+      "visual": "PHOTO DE FAN",
+      "image": "https://pbs.twimg.com/media/HXHlnTMXQAE4S8Z?format=jpg&name=small",
+      "image_alt": "Visuel partagé par @GTAVI_Countdown : un fan refait la même photo à différents âges, de GTA 4 à GTA 6",
+      "image_credit": "@GTAVI_Countdown sur X",
       "cta": "Voir la publication sur X",
       "embed_type": "x"
     },
@@ -4006,6 +4024,11 @@
       "at": "2026-11-15T10:13:08+01:00",
       "label": "Passage Claude Haiku (Matière X, 15/11, 10:13)",
       "summary": "Relevé data/x_alertes.json (maj 2026-11-15T08:18 UTC). Seul post nouveau depuis le passage de 08:13 : impact économique de la sortie (38 067 vues, Rumeur, un seul compte). Ajouté. Écartés, inchangés : « 100 heures » et « 4 jours » (compte à rebours déjà publié), tracklist du vinyle et photo de fan (sujets déjà publiés)."
+    },
+    {
+      "at": "2026-11-15T12:14:00+01:00",
+      "label": "Passage Claude Haiku (Matière X, 15/11, 12:14)",
+      "summary": "Relevé data/x_alertes.json (maj 2026-11-15T10:16 UTC). Ajouté : photo de fan de 12 à 30 ans (1 093 466 vues, Création de fan, un seul compte relevé). Écartés : « 100 heures » (compte à rebours déjà couvert par plusieurs entrées), « 4 jours » (idem, 43 572 vues), « 4 jours » RockstarNewsFRA (5 098 vues, sous le seuil), tracklist du vinyle (déjà publié)."
     }
   ],
   "coverage": {
