@@ -1,4 +1,27 @@
 {
   "regle": "Gabriel 10/11 : une astuce du matin doit donner envie de l'ENREGISTRER (carte de Leonida : 99 491 vues, 292 enregistrements, 391 likes, 22 reposts ; c'est la sauvegarde qui fait pousser par X). Critères : actu fraîche, public large, idée à laquelle personne ne pense, prix concrets vérifiés avec source, « Non sponsorisé », angle français. Pistes : gratuit ou officiel et comment en profiter ; économies sur console, jeu ou SSD ; à préparer avant le 19 (stockage, préchargement, heure exacte).",
-  "astuces": []
+  "astuces": [
+    {
+      "id": "stockage-1-to-prix",
+      "post": "💾 Avant le 19/11, faites le point sur le stockage de votre console. Carte d'extension Seagate pour Xbox Series X/S : 299,95 €. SSD externe USB 1 To : de 179,95 € à 239,95 € selon le modèle. Détail des prix en réponse 👇 Non sponsorisé. #GTA6",
+      "reponse": "Repères relevés le 15/11 sur materiel.net : • Carte d'extension Seagate 1 To (Xbox Series X/S, réf. STJR1000400) : 299,95 € • SSD externe Kingston XS1000 1 To (USB 3.1 Type-C) : 239,95 € • SSD externe KIOXIA EXCERIA PLUS 1 To (USB 3.1) : 179,95 € • SSD externe Crucial X10 1 To : 229,95 € Prix du jour, susceptibles de changer. Source : materiel.net/recherche/ssd externe 1 to/",
+      "sources": [
+        "https://www.materiel.net/recherche/ssd%20externe%201%20to/"
+      ],
+      "image": "2026-11-13-mise-a-jour-xbox-ps5-fichiers-gta6",
+      "releve": "2026-11-15",
+      "valable_jusqu_au": "2026-11-19"
+    },
+    {
+      "id": "telechargement-debit-calcul",
+      "post": "⏱️ Télécharger GTA 6 dépend de votre débit. Calcul en théorie : 100 Go en 1 Gbit/s ≈ 13 min 20 s, en 8 Gbit/s ≈ 1 min 40 s. Lancez le téléchargement avant le 19/11. Détail en réponse 👇 Non sponsorisé. #GTA6",
+      "reponse": "Repères relevés le 15/11 sur free.fr : • Freebox Ultra : débit descendant théorique jusqu'à 8 Gbit/s • Calcul : 1 octet = 8 bits, donc 100 Go = 800 Gbit • À 1 Gbit/s : 800 s, soit 13 min 20 s • À 8 Gbit/s : 100 s, soit 1 min 40 s • Débit réel plus bas selon la connexion et le serveur. Source : free.fr/freebox/freebox-ultra/",
+      "sources": [
+        "https://www.free.fr/freebox/freebox-ultra/"
+      ],
+      "image": "2026-11-13-telechargement-212-go-haut-debit-lent-gta6",
+      "releve": "2026-11-15",
+      "valable_jusqu_au": "2026-11-19"
+    }
+  ]
 }
