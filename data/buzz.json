@@ -1,8 +1,62 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-15T22:12:51+01:00",
+  "updated_at": "2026-11-16T00:13:19+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-programmation-posts-rockstarnews-2026-11-15",
+      "title": "GTA 6 : un compte fan annonce des publications programmées à partir de mercredi",
+      "summary": "@RockstarNewsFRA, compte fan non officiel, annonce que ses publications seront programmées à partir de mercredi à 12 h et qu'il ne sera plus actif, pour éviter les spoilers du prologue et des premières missions. Il conseille aussi de ne pas être actif sur les réseaux. Aucune confirmation de Rockstar.",
+      "url": "https://x.com/RockstarNewsFRA/status/2122048435922825505",
+      "platform": "X",
+      "author": "@RockstarNewsFRA",
+      "status": "Rumeur",
+      "published_at": "2026-11-15T19:25:47.000Z",
+      "checked_at": "2026-11-16T00:13:19+01:00",
+      "evidence": "Vues relevées le 15 novembre 2026 (maj 23 h 05 UTC) dans data/x_alertes.json : 28 714 vues ; 336 j'aime, 20 reprises. Un seul compte à ce stade, pas de reprise presse relevée.",
+      "visual": "POSTS PROGRAMMÉS",
+      "image": "https://pbs.twimg.com/media/HXMHzb_X0AAkgSm?format=jpg&name=small",
+      "image_alt": "Visuel partagé par @RockstarNewsFRA sur X, message sur la sortie de GTA 6",
+      "image_credit": "@RockstarNewsFRA sur X",
+      "cta": "Voir la publication sur X",
+      "embed_type": "x"
+    },
+    {
+      "id": "x-edimbourg-bandeau-complet-2026-11-15",
+      "title": "GTA 6 : le bandeau du siège de Rockstar à Édimbourg est terminé",
+      "summary": "@GTAVI_Countdown montre le bandeau GTA 6 désormais complet sur le siège de Rockstar à Édimbourg, à côté du bandeau RDR2 de 2018. Le post est un témoignage de passant, pas un communiqué de Rockstar. Mise à jour du sujet publié plus tôt dans la journée.",
+      "url": "https://x.com/GTAVI_Countdown/status/2122022550423413077",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "2026-11-15T17:42:55.000Z",
+      "checked_at": "2026-11-16T00:13:19+01:00",
+      "evidence": "Vues relevées le 15 novembre 2026 (maj 23 h 05 UTC) dans data/x_alertes.json : 125 189 vues ; 6 010 j'aime, 388 reprises. Suite du post de 12 h 52 (x-edimbourg-bandeau-rockstar-2026-11-15).",
+      "visual": "BANDEAU COMPLET",
+      "image": "https://pbs.twimg.com/media/HXLv9UcWwAEPxFh?format=jpg&name=360x360",
+      "image_alt": "Visuel partagé par @GTAVI_Countdown : bandeau GTA 6 complet au siège de Rockstar à Édimbourg",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "cta": "Voir la publication sur X",
+      "embed_type": "x"
+    },
+    {
+      "id": "x-wishlist-fin-compte-a-rebours-gtasix-2026-11-15",
+      "title": "GTA 6 : les fans font le bilan à quelques heures du lancement",
+      "summary": "@gtasix_ publie un message de fin de parcours : de l'ajout du jeu aux listes de souhaits jusqu'au compte à rebours des dernières heures. Message de fan, sans information nouvelle sur le jeu.",
+      "url": "https://x.com/gtasix_/status/2122014858979979620",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Création de fan",
+      "published_at": "2026-11-15T17:12:22.000Z",
+      "checked_at": "2026-11-16T00:13:19+01:00",
+      "evidence": "Vues relevées le 15 novembre 2026 (maj 23 h 05 UTC) dans data/x_alertes.json : 113 219 vues ; 8 398 j'aime, 573 reprises.",
+      "visual": "WISHLIST FIN",
+      "image": "https://pbs.twimg.com/media/HXLpQuqWQAAt7As?format=jpg&name=small",
+      "image_alt": "Visuel partagé par @gtasix_ sur X, bilan du compte à rebours de GTA 6",
+      "image_credit": "@gtasix_ sur X",
+      "cta": "Voir la publication sur X",
+      "embed_type": "x"
+    },
     {
       "id": "x-dortmund-milan-marketing-villes-2026-11-15",
       "title": "GTA 6 : opérations promotionnelles dans de nouvelles villes, de Dortmund à Helsinki",
@@ -4144,6 +4198,11 @@
       "at": "2026-11-15T22:12:51+01:00",
       "label": "Passage Claude Haiku (Matière X, 15/11, 21 h)",
       "summary": "Relevé data/x_alertes.json (maj 21 h 02 UTC) : nouveaux posts ≥ 20 000 vues non encore dans items. Sujets ajoutés : 2 (marketing nouvelles villes 60 971 vues ; fan qui loue une chambre d'hôtel 315 469 vues). Écartés : bandeau Édimbourg (déjà couvert), 12,1 M ventes et message RockstarNewsFRA (sous 20 000 vues, sans reprise), prédiction des tests dans 3 jours (pas une information vérifiable), 69 missions (texte tronqué). Presse (data/presse.json) : pas de corroboration nouvelle retenue."
+    },
+    {
+      "at": "2026-11-16T00:13:19+01:00",
+      "label": "Passage Claude Haiku (Matière X, 15/11, 23 h 05 UTC)",
+      "summary": "Relevé data/x_alertes.json (maj 23 h 05 UTC) : nouveaux posts ≥ 20 000 vues non encore dans items. Sujets ajoutés : 3 (message RockstarNewsFRA sur les posts programmés, 28 714 vues ; bandeau Édimbourg terminé, 125 189 vues, suite du sujet du jour ; bilan wishlist de gtasix_, 113 219 vues). Écartés : anniversaire de la bande-annonce de lancement (49 510 vues, rappel sans information neuve), prédiction des tests dans 3 jours (non vérifiable), posts sous 20 000 vues (Sensor Tower 12,1 M, progression des capacités, ESRB/Corée, communication RockstarNewsFRA 355 vues)."
     }
   ],
   "coverage": {
