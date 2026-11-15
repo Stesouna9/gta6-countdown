@@ -1,8 +1,62 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-15T14:12:45+01:00",
+  "updated_at": "2026-11-15T16:12:59+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-insider-histoire-50-heures-2026-11-15",
+      "title": "GTA 6 : environ 50 heures pour finir l'histoire principale, selon Insider Gaming",
+      "summary": "@gtasix_ relaie les chiffres d'Insider Gaming : environ 50 heures pour terminer l'histoire principale. Insider Gaming traite aussi du temps nécessaire pour le Platine et le Mythique (article dans data/presse.json, 15 novembre, 13 h 55 UTC). Estimations d'un média, non confirmées par Rockstar.",
+      "url": "https://x.com/gtasix_/status/2121972811736420740",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rapporté",
+      "published_at": "2026-11-15T14:25:17.000Z",
+      "checked_at": "2026-11-15T16:12:59+01:00",
+      "evidence": "Vues relevées le 15 novembre 2026 dans data/x_alertes.json : 95 496 vues, 2 505 j'aime, 170 reposts. Corroboré par l'article d'Insider Gaming dans data/presse.json (15 novembre 2026).",
+      "visual": "DURÉE DE JEU",
+      "image": "https://pbs.twimg.com/media/HXLDBNnW8AA5ARQ?format=jpg&name=360x360",
+      "image_alt": "Visuel partagé par @gtasix_ sur la durée de GTA 6",
+      "image_credit": "@gtasix_ sur X",
+      "cta": "Voir la publication sur X",
+      "embed_type": "x"
+    },
+    {
+      "id": "x-edimbourg-bandeau-rockstar-2026-11-15",
+      "title": "GTA 6 : un bandeau affiché au siège de Rockstar à Édimbourg",
+      "summary": "@GTAVI_Countdown publie une photo d'un bandeau GTA 6 accroché au siège de Rockstar à Édimbourg. Le post est un témoignage de passant, pas un communiqué de Rockstar.",
+      "url": "https://x.com/GTAVI_Countdown/status/2121949393184043322",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "2026-11-15T12:52:13.000Z",
+      "checked_at": "2026-11-15T16:12:59+01:00",
+      "evidence": "Vues relevées le 15 novembre 2026 dans data/x_alertes.json : 199 546 vues, 10 306 j'aime, 410 reposts. Aucune reprise trouvée dans data/presse.json à cette heure.",
+      "visual": "BANDEAU ÉDIMBOURG",
+      "image": "https://pbs.twimg.com/media/HXKtRn-XsAA-Qif?format=jpg&name=360x360",
+      "image_alt": "Visuel partagé par @GTAVI_Countdown : bandeau GTA 6 au siège de Rockstar à Édimbourg",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "cta": "Voir la publication sur X",
+      "embed_type": "x"
+    },
+    {
+      "id": "x-platine-200-heures-2026-11-15",
+      "title": "GTA 6 : plus de 200 heures pour obtenir le Platine, selon des comptes fans",
+      "summary": "@gtasix_ affirme qu'il faudrait plus de 200 heures en moyenne pour obtenir le trophée Platine de GTA 6, avec des indices sur la faune. @GTAVI_Countdown relaie le même chiffre. Insider Gaming traite du même sujet (article dans data/presse.json, 15 novembre). Chiffre non confirmé par Rockstar.",
+      "url": "https://x.com/gtasix_/status/2121948832606900665",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rapporté",
+      "published_at": "2026-11-15T12:50:00.000Z",
+      "checked_at": "2026-11-15T16:12:59+01:00",
+      "evidence": "Vues relevées le 15 novembre 2026 dans data/x_alertes.json : 46 002 vues (@gtasix_), 10 166 vues (@GTAVI_Countdown). Deux comptes et un article de presse.",
+      "visual": "PLATINE 200 H",
+      "image": "https://pbs.twimg.com/media/HXKrFKiXkAArXfy?format=jpg&name=360x360",
+      "image_alt": "Visuel partagé par @gtasix_ sur le temps pour le trophée Platine de GTA 6",
+      "image_credit": "@gtasix_ sur X",
+      "cta": "Voir la publication sur X",
+      "embed_type": "x"
+    },
     {
       "id": "x-impact-economique-gta6-2026-11-15",
       "title": "GTA 6 : un compte fan chiffre à 1 milliard de dollars les pertes liées à la sortie aux États-Unis",
@@ -4034,6 +4088,11 @@
       "at": "2026-11-15T14:12:45+01:00",
       "label": "Passage Claude Haiku (Matière X, 15/11)",
       "summary": "Relevé data/x_alertes.json (maj 2026-11-15T13:03 UTC, 8 posts). Aucun ajout : seuil (≥ 20 000 vues ou ≥ 2 comptes) non atteint pour Rockstar Edinburgh (7 586 vues), Jason et Lucia Rockstar North (6 562), Platinum 200 h (4 812), seul GTAVI_Countdown/gtasix_ les relaie. Écartés déjà publiés : impact économique, exemplaires signés, vinyle (tracklist), « 4 jours » (56 667 vues) et « 100 heures » (151 030 vues), compte à rebours déjà couvert par plusieurs entrées."
+    },
+    {
+      "at": "2026-11-15T16:12:59+01:00",
+      "label": "Passage Claude Haiku (Matière X, 15/11, 16 h)",
+      "summary": "Relevé data/x_alertes.json (12 posts). Ajouts : Insider Gaming 50 heures pour l'histoire (95 496 vues, corroboré presse), bandeau Rockstar Édimbourg (199 546 vues), Platine 200 heures (46 002 vues, deux comptes, presse). Écartés : compteurs « 99 % » et « 4 jours » (countdowns sans information), artwork Jason et Lucia (15 119 vues, sujet déjà couvert le 13/11)."
     }
   ],
   "coverage": {
