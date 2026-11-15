@@ -1,8 +1,44 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-15T20:13:45+01:00",
+  "updated_at": "2026-11-15T22:12:51+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-dortmund-milan-marketing-villes-2026-11-15",
+      "title": "GTA 6 : opérations promotionnelles dans de nouvelles villes, de Dortmund à Helsinki",
+      "summary": "Selon @GTAVI_Countdown, le marketing de GTA 6 s'étend à Dortmund, Milan, Manchester, Dublin, Rotterdam, Auckland, Anvers et Helsinki, avec d'autres lieux cités dans le post (texte tronqué dans le relevé). Aucun communiqué officiel n'est cité ; un seul compte relaie ce post à ce stade.",
+      "url": "https://x.com/GTAVI_Countdown/status/2122014354996396473",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-15T17:10:22.000Z",
+      "checked_at": "2026-11-15T22:12:51+01:00",
+      "evidence": "Vues relevées le 15 novembre 2026 (maj 21 h 02 UTC) dans data/x_alertes.json : 60 971 vues ; 41 réponses, 108 reposts, 1 254 likes, 153 marque-pages. Suite de l'opération signalée le 14 novembre (x-marketing-miami-villes-2026-11-14), avec de nouvelles villes.",
+      "visual": "VILLES MARKETING",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2122013366684143616/img/_ubRmfRAsrnshdFL.jpg",
+      "image_alt": "Vignette de la vidéo publiée sur X par @GTAVI_Countdown sur le marketing de GTA 6 dans plusieurs villes",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "cta": "Voir la publication sur X",
+      "embed_type": "x"
+    },
+    {
+      "id": "x-fan-chambre-hotel-semaine-2026-11-15",
+      "title": "GTA 6 : un fan loue une chambre d'hôtel pendant une semaine pour jouer sans être dérangé",
+      "summary": "Selon @GTAVI_Countdown, qui relaie un message Reddit (u/Impossible_Bus_2319), un fan a loué une chambre d'hôtel pendant une semaine entière pour jouer à GTA 6 toute la journée. Anecdote non vérifiée, sans lien avec une annonce officielle.",
+      "url": "https://x.com/GTAVI_Countdown/status/2121987444945867237",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-15T15:23:26.000Z",
+      "checked_at": "2026-11-15T22:12:51+01:00",
+      "evidence": "Vues relevées le 15 novembre 2026 (maj 21 h 02 UTC) dans data/x_alertes.json : 315 469 vues ; 300 réponses, 611 reposts, 8 111 likes, 501 marque-pages. Un seul compte relève l'anecdote dans les relevés disponibles.",
+      "visual": "CHAMBRE HÔTEL",
+      "image": "https://pbs.twimg.com/media/HXLQQBUX0AASkt1?format=jpg&name=small",
+      "image_alt": "Visuel partagé par @GTAVI_Countdown sur le fan qui loue une chambre d'hôtel pour jouer à GTA 6",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "cta": "Voir la publication sur X",
+      "embed_type": "x"
+    },
     {
       "id": "x-insider-histoire-50-heures-2026-11-15",
       "title": "GTA 6 : environ 50 heures pour finir l'histoire principale, selon Insider Gaming",
@@ -4103,6 +4139,11 @@
       "at": "2026-11-15T20:13:45+01:00",
       "label": "Passage Claude Haiku (Matière X, 15/11, 20 h)",
       "summary": "Relevé data/x_alertes.json : posts vides (maj 15/11 18 h 09). Presse (data/presse.json) lue : sujets 50 h / 200 Platine déjà couverts par des posts X (items), aucun autre post social à corroborer ; le vol de codes en boîte et les autres papiers sont presse seule, pas de publication sociale. Sujets ajoutés : 0."
+    },
+    {
+      "at": "2026-11-15T22:12:51+01:00",
+      "label": "Passage Claude Haiku (Matière X, 15/11, 21 h)",
+      "summary": "Relevé data/x_alertes.json (maj 21 h 02 UTC) : nouveaux posts ≥ 20 000 vues non encore dans items. Sujets ajoutés : 2 (marketing nouvelles villes 60 971 vues ; fan qui loue une chambre d'hôtel 315 469 vues). Écartés : bandeau Édimbourg (déjà couvert), 12,1 M ventes et message RockstarNewsFRA (sous 20 000 vues, sans reprise), prédiction des tests dans 3 jours (pas une information vérifiable), 69 missions (texte tronqué). Presse (data/presse.json) : pas de corroboration nouvelle retenue."
     }
   ],
   "coverage": {
