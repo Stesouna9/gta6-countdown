@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-15T01:29:51+00:00",
+ "maj": "2026-11-15T01:50:04+00:00",
  "articles": [
   {
    "gn": "https://news.google.com/rss/articles/CBMib0FVX3lxTE94V20tVVp6eWtMTTJpT3RxVnpsU2dSWU9IUWNzbzNzUFl6TlU3Zl9OODJENWVtNE4zVGk0ck5yMFhSVWZJdHQzaXRIei1oOXV4eU5yb19QVGU4SEwtbXdvU3E3b0ZJQ3p0VHg1cVN5VQ?oc=5",
@@ -31,7 +31,7 @@
    "d": "2026-11-15T00:30:00+00:00",
    "lang": "en",
    "t": "Wendy’s Is Cooking Up Something Special for GTA 6: ‘Our Ride-or-Dies Are Gonna Love What We Have in the Works’",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTEtmVjdkUVgtaHBEekZsckozZmY0cUZnSzJmWkVOU2ZERTQwT0RGUXFmbEludm9ydVNKQ3drSFc4U3lYaU9lODd5c0ZIN1I1dmxtTXJTZ0M0WnJUTC1qaFY5RE5Od3cyTDl3aEJUOENtRzYxcWRDOUsyTDc5dkw1WkY4cnVkZnFSWi12cldfVDg3SHBrOXJpcEtQNEduN0szVUtlYkkyd09rMjdUdFJPanFoNko?oc=5",
@@ -51,19 +51,7 @@
    "d": "2026-11-15T00:10:32+00:00",
    "lang": "fr",
    "t": "Les graphismes de GTA Vice City et de GTA VI ont été comparés en utilisant les mêmes éléments.",
-   "erreur": "HTTP Error 403: Forbidden"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB0X0xNV2FLSU9wbFhHNkVRTGVWSWt1RDA5V1hEenR4eVZFUFdDQkhsdHQ0YWpKdmZIZk9KYzFHR2VpVktOY0hGWHExY2hCV21iOFE?oc=5",
-   "s": "Instagram",
-   "d": "2026-11-14T23:50:49+00:00",
-   "lang": "en",
-   "t": "Instagram",
-   "u": "https://www.instagram.com/p/Dfu9QQahZsH/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": ""
+   "erreur": "HTTP Error 429: Too Many Requests"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQS0tNNnNIVkp3em1uOGFoejdUUXVLcUJBczNFcERZVU1fMG9RVjZtRzVYTDFlYWlESVBsOHVVVFk5Y2p1VDRRb2pZUVZPdnhMci0yWFRPOUROQ2RfVDdNQjY0OVNDTS1FNnZqWk1DSk11eC1yUkxyUUswYzVNZklmWVFfM19jaHBTaEk2bm5LRl9PRTdEM2IwNWpudGV6R0YwMWptWHlObGpiRFJ1MlBPVE90WG5fdkk?oc=5",
@@ -182,11 +170,7 @@
    "d": "2026-11-14T21:02:38+00:00",
    "lang": "en",
    "t": "Full ‘GTA 6’ Album Tracklist Leaks On Social Media – See All Singers Featured!",
-   "u": "https://www.imdb.com/news/ni66111497/?ref_",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": ""
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcU5JZ2Vhb1FldGJ4WTJrVHRZTkpHTXk4VHQ2UnVMY1ZRUDBiV0h1T1VFZ1dPRjBCdmNRVUJRZ1ZaX2pfVDc2YXpGajFFQXpuYWFKWU9hblVqSHRqdm12YmVCNlZDbTJtMFFaY0ExZkxxbmpWTE1feWEyUkVQazd2ME0zamZxVHlQWHBwRFlfRmZhVU5yX0Q5enZ6ajg1cFJqcnR2aTNXWTFJOXM?oc=5",
@@ -206,11 +190,15 @@
    "d": "2026-11-14T20:13:00+00:00",
    "lang": "en",
    "t": "Kalshi is hiring a 'GTA VI' researcher to livestream their gameplay. The job pays six figures.",
-   "u": "https://www.businessinsider.com/kalshi-job-gta-vi-researcher-video-game-career-2026-11",
-   "img": "https://i.insider.com/6af88c21b2c29afb4e56b0ab?width=1200&format=jpeg",
-   "chapeau": "Kalshi said in a job listing that the remote contract position, starting November 19, has a fixed project fee ranging from $100,000 to $120,000.",
-   "txt": "",
-   "pub": ""
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNRXg5WjJ2RmN0b25tTW80MUp2amlDNU5QMndQeFU4cnFxaGs5WU11TkJxZ1VoUWoydHUwR0hNRFhxc2ZfdnZ0cmJpak5qU2U0MEJQY19uSXNzU3FmRTd2Sks5LVZKSm9UM3NVeWpELUFEWkVoZlBPRjNZTmVOYzRQSQ?oc=5",
+   "s": "MNEEMO",
+   "d": "2026-11-14T20:08:25+00:00",
+   "lang": "en",
+   "t": "GTA 6 Streamer Mode: Music Copyright on Twitch and YouTube",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPYnA1cy1ISG5vdldXeWN3UThDVjhrbzRYYzFBanZtTUVyejNUQUlzeVJFcWJwTmp1Nk5qVmpIcWk5dkxtSlIyOGs2RFdCN3RTVFBfVnhqRDhMMmxzWlYtb2ZNV2UyUHZkS0l4eGVrNy1qeFViVGZNVGlsYWM1YTQ0M1ZMQmRMVGZhVDNZ?oc=5",
@@ -268,7 +256,7 @@
    "d": "2026-11-14T19:00:00+00:00",
    "lang": "fr",
    "t": "Les jeux vidéo rendent-ils vraiment violents ? GTA 6 relance une question qui divise les scientifiques",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPTXRwNy0waHdHaV9NSGJtaHk0NWV2NTA4SlZGYmIxcFVfdkJuY0x6Tk8yekRkSmI4ZC1GR2lVY0RvbjRaNUFad01aR3FLRXo0ZkIzT3pzU1FqcXo0UlBtOFdubXlRR3RwQnIycGFua0x0dHIzTUlXSHdoWVVnbGNMUFFVeElITWJnVkpjdk1vUVJ0TmZBV2dmS1N2WElNNGMzZV9yUlpfVUFoekd2Vnc?oc=5",
@@ -288,7 +276,7 @@
    "d": "2026-11-14T18:22:32+00:00",
    "lang": "fr",
    "t": "Le Guardian a vu GTA 6, Rockstar mise sur l'empathie",
-   "erreur": "Remote end closed connection without response"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZDhYTGx1MDlpcW1tOVJ6eng4OWhCSS1Pb2t6MVlRcmRBVEN1NWJURlFOcnNkU2FobTRYOF9sRXNUYnBvNk0wejVERXpOMEQzZUE4NEJXUk1KbFpPUVZucGIyblQ5dUJDZlhqTUxuWjM2bV9LYmg3RXpOR3RlUmdJUmxfdHJfZ1JpMjJNQ0UwVnRHbHFLRkoxZ0Q2bw?oc=5",
@@ -308,7 +296,7 @@
    "d": "2026-11-14T18:17:41+00:00",
    "lang": "fr",
    "t": "GTA 6 : à Pau, des préventes exceptionnelles pour « le jeu vidéo de la décennie » [vidéo]",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOOV80RDZVZjN1RkJYUU8tZ1ZMcjY5WUhNbjR4RG9qMXpxMW5vdHpacEZ1clhjd3luNFhUREMxTzZqMHpCYThOTlRpUWltT2lQWDAzakJxMEc0RF85dGJrbTFYNWNmNFgzdW50ZUROQWc3ekpSSUJUNWw3anh5aHRCRm5BX1VTSWhETTZPanVuNzhJNFRacUdGemVGX3lpRHN1dVZ4VUtvSlhvT3VVenZNRXNpT1B5V2t4VlBTWDNoT2RQNUhiNzFqWjRFYmpUbUF4bmZQSnBrY2JualRnYmpyTVUzbjhVTnp5bGRGeDZiZkJETUdaeEZ1Sm03TkRUbE1mcVFN?oc=5",
@@ -316,11 +304,7 @@
    "d": "2026-11-14T17:40:18+00:00",
    "lang": "fr",
    "t": "« 700 euros pour jouer à GTA VI » : pourquoi les consoles de jeu sont-elles devenues si chères ?",
-   "u": "https://www.leparisien.fr/video/actualites/700-euros-pour-jouer-a-gta-vi-pourquoi-les-consoles-de-jeu-sont-elles-devenues-si-cheres-14-11-2026-754BDD5YRRCIJDOLIWFPW5UDVQ.php",
-   "img": "https://www.leparisien.fr/resizer/lcwZgOXhT2T3LkuHMsa628Cf08U=/1600x900/cloudfront-eu-central-1.images.arcpublishing.com/leparisien/ZOPVSDP6SVGE3PX4R6HV3GKGFQ.jpg",
-   "chapeau": "Ce 19 novembre 2026, le tant attendu « GTA VI » deviendra enfin disponible, après une attente de 13 ans. Encore faut-il avoir une console de",
-   "txt": "",
-   "pub": "2026-11-14T18:40:18+01:00"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSWh0Qlg3SnBCQmlONTkyY2ZqOGp1aEpraGpoV3dGQ2UtTWViVF9HbmY5Q1B2dDZlQTcwMnRrYXplbFFfdUJ4a3ZxdnRKUV9qLVZBVUJnMkYyUWxXYjlvYkVQM0JZY0hvQmlDTjlpdThsNHRuNVBkckRMRVotTDNtb1dlY1RlYnJfZWtFdFRoV0JHZEM2X0FHS1kwTWRieUx1?oc=5",
@@ -328,19 +312,15 @@
    "d": "2026-11-14T17:36:34+00:00",
    "lang": "fr",
    "t": "GTA 6 a représenté un énorme bond graphique par rapport à GTA 5.",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTzl5R3Y3dGxqbWpKLVFkb3RuejItLXBTX1JzSjFBSnFwV3RQY1dMN2JoQUEycUlWeU1iUXlCZm50Z2htYUE3QU5icFhKRWlhNVdtUUNQVks5WkROT0I1ZWNqbEJ5QnBCelo0ODNlbFFUX0VOQ0dockdSVDlhUWQ2Z0FPM2h2TTYxN3ZNdDNnd0FqbnhkenVBSlFVR0lBZTZrT2FtbThYYms3N2wzMGxDdDJMblJkQU5TN0JpWTU1VnA?oc=5",
-   "s": "IGN India",
-   "d": "2026-11-14T17:34:47+00:00",
+   "gn": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOcEt6RC1icW1GaldGY01BejNxM1liWVdGUzZrMGVicm1MYWFBa1ZhaThvck1kSEc3TVZ5ai1JdkZyYUtiV2NIRWpja3R0RnVRLU4xVUJvVmtmVEl0S2N0Ykt2OGR5MnJjaEQ2OEF1ZjVZNm54eGxpakJkWW9NbUdkN1lpYkZXVHNOZlU3ejN4RHUzWWxlYXFaRHFidnZuUmNBWU9jTDlkWG95Sy0yOUUwd1lSZVlCb1ZtTWpzQ09iOVF4S1V4OUN0MkFaQVN4WlRBVjBB?oc=5",
+   "s": "IGN Pakistan",
+   "d": "2026-11-14T17:34:51+00:00",
    "lang": "en",
    "t": "GTA 6 Will Do Something the Franchise Has Never Done Before: Encourage Empathy",
-   "u": "https://in.ign.com/grand-theft-auto-vi/277081/gta-6-will-do-something-the-franchise-has-never-done-before-encourage-empathy",
-   "img": "https://sm.ign.com/t/ign_in/news/g/gta-6-will/gta-6-will-do-something-the-franchise-has-never-done-before_7994.1200.jpg",
-   "chapeau": "A gold star.",
-   "txt": "Rockstar has confirmed GTA 6 features something the franchise has never had before: mechanisms that encourage empathy. Rockstar North co-studio head Rob Nelson and head of publishing Jennifer Kolbe talked about how next week's Grand Theft Auto changes the formula the series is known for during an interview with The Guardian (via @GameRoll_ ). Jason and Lucia will surely be able to cause a fair amount of chaos when players take control in Vice City, but in a post- Red Dead Redemption 2 world, they'll have the freedom to be kind, too.",
-   "pub": "2026-11-14T17:19:14+00:00",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -373,7 +353,7 @@
    "d": "2026-11-14T17:19:02+00:00",
    "lang": "fr",
    "t": "Les graphismes de Vice City dans GTA Vice City et GTA 6, sortis à 24 ans d'intervalle, ont été comparés en ligne.",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVkJNNzIwRnhvY1dnQlJvRGE5bHoxTmM4UmFQNDlIamtQSUhjUDdITDRKdGNHTzhXeURJY2VxNFV3S2YxcEdkcE5oV2p4R21nTEZuSnVIeWlnZmNxNk15eThsMVpGcGRMb2NuMFlpZFNPRmFFVE9iV1lDWTgzd0FlaTdkZ1A4QlIwdnhlQm95UVhGX1pz?oc=5",
@@ -394,7 +374,7 @@
    "d": "2026-11-14T14:33:22+00:00",
    "lang": "en",
    "t": "GTA 6's Leonida is Florida: Vice City is Miami, the Keys are the Keys, Grassrivers is the Everglades",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -468,7 +448,7 @@
    "d": "2026-11-14T10:57:50+00:00",
    "lang": "fr",
    "t": "GTA 6 : une campagne Twitch Drops aurait fuité avant sa sortie",
-   "erreur": "HTTP Error 412: Precondition failed",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -477,7 +457,7 @@
    "d": "2026-11-14T10:49:01+00:00",
    "lang": "fr",
    "t": "GTA VI : L'Album — toute la liste des morceaux a fuité en ligne",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -499,7 +479,7 @@
    "d": "2026-11-14T08:33:28+00:00",
    "lang": "en",
    "t": "Has GTA 6 leaked before? Yes, many times: from the 2022 hack to the Selfridges map",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -521,7 +501,7 @@
    "d": "2026-11-14T07:29:01+00:00",
    "lang": "en",
    "t": "GTA VI map leaks from a Collector's Box at Selfridges in Manchester, days before launch",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -582,7 +562,7 @@
    "d": "2026-11-12T17:12:00+00:00",
    "lang": "fr",
    "t": "GTA 6: une carte partielle aurait fuité depuis un pop-up Rockstar x Selfridges",
-   "erreur": "HTTP Error 412: Precondition failed",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -596,15 +576,6 @@
    "chapeau": "La carte complète de GTA 6 aurait fuité accidentellement. Découvrez les nouvelles régions de Leonida révélées avant la sortie du jeu.",
    "txt": "GTA La carte de GTA 6 n’est plus un secret : une fuite inattendue révèle tout Leonida par Ludovic Quinson Publié : 12 nov. 2026, 15:30 Sauvegarder pour plus tard Sauvegarder pour plus tard Rockstar Games Ajouter comme source préférée sur Google Suivre sur Google News À une semaine de la sortie de GTA 6 , les joueurs pourraient bien avoir découvert l’un des derniers grands secrets que Rockstar cherchait à préserver. Alors que le studio n’a toujours pas dévoilé officiellement la carte de Leonida, plusieurs images circulant sur les réseaux sociaux permettraient désormais d’en découvrir l’intégralité.\nEt contrairement aux nombreuses cartes imaginées par les fans ces dernières années, cette nouvelle fuite trouverait son origine dans un événement promotionnel organisé par Rockstar lui-même.\nAttention, spoilers : la suite de cet article contient des informations potentiellement inédites sur la carte de GTA 6, notamment des noms de lieux et de régions que Rockstar n’a pas encore officiellement dévoilés.\nTout serait parti d’une exposition organisée dans le grand magasin Selfridges, à Manchester, au Royaume-Uni, où Rockstar présentait plusieurs objets liés à GTA 6. Parmi eux figurait une carte physique de Leonida, incluse dans l’édition Collector du jeu et exposée derrière une vitrine.\nSelfridges in Manchester Exchange Square have got the #GTA6 Collectors Set on display and the Map folded up in the display too.. this means somebody who works there has seen it fully 👀 here what I snapped 😉 @RockstarGames #GTAVI pic.twitter.com/2qfyllsdqI\nSi cette dernière n’était pas entièrement dépliée, certains visiteurs ont rapidement remarqué que plusieurs portions du territoire restaient visibles. Les premières photos ont ainsi permis d’identifier des lieux jusqu’alors inconnus, notamment Goose Key, Pelican Valley, Leonard County, Lummox County, Manzana, Moreau, Mariana County, Key Lento et Southwind. Un panneau indique également la route à péage Toll 1A ainsi qu’un dirigeable ont également été repérés sur les images.\nBREAKING: GTA 6's Official Paper Map Revealed. pic.twitter.com/e8naxsUcGL\nMais l’histoire ne s’arrête pas là. Alors que seules quelques parties de la carte étaient initialement accessibles, une version présentée comme intégrale a depuis commencé à circuler sur Internet. De quoi offrir aux joueurs un aperçu beaucoup plus précis de la géographie de Leonida avant même de pouvoir explorer le jeu.\nLa taille de la carte de GTA 6 dévoilée, aussi vaste que trois jeux Rockstar réunis\nGTA 6 pourrait accueillir Liberty City d’après une fuite de fichiers Rockstar\nL’édition physique de GTA 6 pourrait inclure une carte collector de Leonida\nIl convient néanmoins de rester prudent. Si la présence d’une carte physique lors de l’événement constitue l’origine rapportée de cette fuite, Rockstar n’a pas confirmé l’authenticité de toutes les images actuellement partagées.\nDepuis les premières présentations de GTA 6, Rockstar a clairement montré que l’aventure de Jason et Lucia ne se limiterait pas aux rues de Vice City. La ville inspirée de Miami devrait certes occuper une place centrale dans l’histoire, mais les joueurs pourront également parcourir de nombreuses autres régions de Leonida, entre zones rurales, petites villes, marécages et archipels.\nLes joueurs n’auront de toute façon plus longtemps à patienter puisque GTA 6 sera disponible le 19 novembre 2026 sur PS5 et Xbox Series X|S.",
    "pub": "2026-11-12T15:30:50.000Z",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRko4R3dQa25hM2FXSFgyYVBBRXhSXzgtRDJzcDBKYzAwdlg5V0dCLXFSbjlGdXB0R3UtQW41V1JDQ0RYWjhBazl6Sks5QkFmSHlHa3ZMSHpBNG1mVjJtUnI1bHlIY216cE9SZFU1TjZiOGM3M3hLYlBUU3hXbV9qazlHT284Vk1USkk4NkdLNzY5cl9YLUVSUFNiVTdkWWc?oc=5",
-   "s": "EGW.News",
-   "d": "2026-11-12T15:17:46+00:00",
-   "lang": "fr",
-   "t": "Une carte de GTA 6 de l'édition collector a fuité en ligne",
-   "erreur": "HTTP Error 403: Forbidden",
    "cyberleek": true
   },
   {
@@ -673,16 +644,21 @@
    "cyberleek": true
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUWNJbXdIMVRSSDIwd2FyczRlTXhfOTcycnRibjdadklPaE1PSmcyQThOVDNVaHdOLW1FM3lPMzhncGVxNUoyeFI0VkpiRXJlS1NOajRFTHV4b0w3djlpM2lsUURJOXRDZWM2MmF6akR5WWtSNTB4WGNHOFNNWXVSem1DUmxES0dFdUY5alUtYjBKX2xGS18xLVhDZ1ByUFE?oc=5",
+   "s": "EGW.News",
+   "d": "2026-11-09T11:06:47+00:00",
+   "lang": "fr",
+   "t": "Nouvelle fuite de données sur GTA 6 — fonctions en ligne, taille exacte et bien plus encore",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1oWGowTXp6T2FwaG01U3lzSHdJQTk4Y1pPS1hQOWotMnFXUm1HcDlFdnV2cEJScjBLOTVzdk5MOG5pNm9sTXVBa3dhd216bUhJNGc?oc=5",
    "s": "IMDb",
    "d": "2026-10-26T04:38:45+00:00",
    "lang": "en",
    "t": "Cyberleek Shares More GTA 6 Footage Featuring Lucia Naked",
-   "u": "https://www.imdb.com/fr/news/ni66063856/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -704,11 +680,7 @@
    "d": "2026-10-22T15:12:54+00:00",
    "lang": "en",
    "t": "Cyberleek Shares GTA 6 Leak Of Naked Lucia",
-   "u": "https://www.imdb.com/news/ni66062173/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -769,7 +741,7 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
    "t": "Le token CYBERLEEK chute de 40 % alors que le leaker de GTA 6 lance de nouvelles menaces",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -804,7 +776,7 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
    "t": "GTA VI : CYBERLEEK abandonne ses leaks et annule la diffusion du jeu complet",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
