@@ -1,8 +1,26 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-15T08:13:02+01:00",
+  "updated_at": "2026-11-15T10:13:08+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-impact-economique-gta6-2026-11-15",
+      "title": "GTA 6 : un compte fan chiffre à 1 milliard de dollars les pertes liées à la sortie aux États-Unis",
+      "summary": "@GTAVI_Countdown publie des chiffres sur l'effet de la sortie de GTA 6 sur l'économie : 12,5 millions de joueurs américains prévoiraient de prendre du temps pour jouer, pour une estimation de 1 milliard de dollars de pertes ; 83 000 jours de congé seraient posés au Royaume-Uni, pour 15,8 millions de dollars de coût. Le post ne cite pas sa source dans l'extrait relevé : chiffres non vérifiés ici.",
+      "url": "https://x.com/GTAVI_Countdown/status/2121857102318625195",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-15T06:45:30.000Z",
+      "checked_at": "2026-11-15T10:13:08+01:00",
+      "evidence": "Vues relevées le 15 novembre 2026 (maj 08:18 UTC) dans data/x_alertes.json : 38 067 vues, 1 200 likes, 94 reposts. Un seul compte relève le sujet ; aucune reprise trouvée dans data/presse.json à cette heure.",
+      "visual": "IMPACT ÉCONOMIQUE",
+      "image": "https://pbs.twimg.com/media/HXJZQ1SWUAAZneB?format=jpg&name=small",
+      "image_alt": "Visuel partagé par @GTAVI_Countdown sur l'impact économique de GTA 6",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "cta": "Voir la publication sur X",
+      "embed_type": "x"
+    },
     {
       "id": "x-developpeurs-exemplaires-dedicaces-2026-11-15",
       "title": "GTA 6 : les développeurs reçoivent des exemplaires signés, selon un compte fan",
@@ -3983,6 +4001,11 @@
       "at": "2026-11-15T08:13:02+01:00",
       "label": "Passage Claude Haiku (Matière X, 15/11, 08:13)",
       "summary": "Relevé data/x_alertes.json (maj 2026-11-15T06:15 UTC). Ajout de 3 sujets ≥ 20 000 vues, nouveaux : développeurs et exemplaires signés (49 171 vues, Rumeur) ; vinyle de l'album déballé, Vertigo Vinyl confirme les 34 titres (64 041 vues, Rapporté) ; codes Twitch Ultimate Edition (26 160 vues, Rapporté, corroboré par La Crème du Gaming). Écartés : « 100 heures » (109 355 vues) et « 4 jours » (20 318 vues), compte à rebours déjà publié ; tracklist (GTAlphaintel 24 658, Vertigo 43 994) et photo de fan (862 968) : sujets déjà publiés."
+    },
+    {
+      "at": "2026-11-15T10:13:08+01:00",
+      "label": "Passage Claude Haiku (Matière X, 15/11, 10:13)",
+      "summary": "Relevé data/x_alertes.json (maj 2026-11-15T08:18 UTC). Seul post nouveau depuis le passage de 08:13 : impact économique de la sortie (38 067 vues, Rumeur, un seul compte). Ajouté. Écartés, inchangés : « 100 heures » et « 4 jours » (compte à rebours déjà publié), tracklist du vinyle et photo de fan (sujets déjà publiés)."
     }
   ],
   "coverage": {
