@@ -1,6 +1,6 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-15T12:14:00+01:00",
+  "updated_at": "2026-11-15T14:12:45+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
     {
@@ -4029,6 +4029,11 @@
       "at": "2026-11-15T12:14:00+01:00",
       "label": "Passage Claude Haiku (Matière X, 15/11, 12:14)",
       "summary": "Relevé data/x_alertes.json (maj 2026-11-15T10:16 UTC). Ajouté : photo de fan de 12 à 30 ans (1 093 466 vues, Création de fan, un seul compte relevé). Écartés : « 100 heures » (compte à rebours déjà couvert par plusieurs entrées), « 4 jours » (idem, 43 572 vues), « 4 jours » RockstarNewsFRA (5 098 vues, sous le seuil), tracklist du vinyle (déjà publié)."
+    },
+    {
+      "at": "2026-11-15T14:12:45+01:00",
+      "label": "Passage Claude Haiku (Matière X, 15/11)",
+      "summary": "Relevé data/x_alertes.json (maj 2026-11-15T13:03 UTC, 8 posts). Aucun ajout : seuil (≥ 20 000 vues ou ≥ 2 comptes) non atteint pour Rockstar Edinburgh (7 586 vues), Jason et Lucia Rockstar North (6 562), Platinum 200 h (4 812), seul GTAVI_Countdown/gtasix_ les relaie. Écartés déjà publiés : impact économique, exemplaires signés, vinyle (tracklist), « 4 jours » (56 667 vues) et « 100 heures » (151 030 vues), compte à rebours déjà couvert par plusieurs entrées."
     }
   ],
   "coverage": {
