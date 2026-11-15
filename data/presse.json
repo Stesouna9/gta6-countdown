@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-15T13:03:21+00:00",
+ "maj": "2026-11-15T13:23:53+00:00",
  "articles": [
   {
    "gn": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNYnZpUlM1WUZMNlNOOGlkOTY3ZHk4c1pvTVFVajZYQ3VTWlh5WHRkM0xJd2RRaWpTMWJhRDd0REVCbGMxODZZa21MRUo1X1ZLalhUbUpJNkZPTHlQUEEyaFdkVEM0TzhZcDZtZThaTkxEaVVpODI5MWxLVVZpaWtTUWxoNXlVVG1URzVMNzhreXFUWHJuVUZGMW1IT19CRG1lcHIzUUVjb2pDbE4wVnJPYVZZZC1PQnV6UkZ0ZFo4QzhFcG8zQ1AtZHYzOHpoaWhZNDRmOA?oc=5",
@@ -8,6 +8,14 @@
    "lang": "fr",
    "t": "GTA 6 va faire quelque chose que la licence n'avait jamais fait auparavant : encourager l'empathie",
    "erreur": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOaXFsOS1ISzlPLVJ3a3dPSDFUUDQ3X3ZfWVE2cGF0YVJUQnp0OVRuMGI3ckRCUVNqTGUxZjVuSF9xTXZLUXd0aDc0bjdCVkZ5UDZpQTEyajVteXZDZEZuTHBIMnhVMV9hVmVidUU4QzVyMWlYam1fb1p3RFhDNWtBa21kMnBKUURodzRz?oc=5",
+   "s": "Yahoo Sports",
+   "d": "2026-11-15T12:48:00+00:00",
+   "lang": "en",
+   "t": "🏆LaLiga titles between the releases of GTA V and GTA VI",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOOGdZckRGeG5PRmhTYTg5TEE3R1NpUmFoXzN1OHNzTjIxR2FzV2ZoNmkzRzN6MTdsLW1MN1lSd3RqM0xuTWgtRmxPYmFxN29ENEVBWC1ka0N5MzlzR2loeUJFS2wzZTJrRUN1TWJZYWExSWp5TUNsUWhtbGllZVdzME9rdVR1a3ZrcXFLZ1pn?oc=5",
@@ -84,18 +92,6 @@
    "chapeau": "À quelques jours de sa sortie, GTA 6 dispose déjà de sa page de téléchargement illégal. Mais il s’agit d’un piège.",
    "txt": "Jean-Sébastien Champeau 15/11/2026 12:38 Partager Partager Copier À quelques jours de sa sortie, le sixième volet de la saga Grand Theft Auto dispose déjà de sa page de téléchargement illégal. Mais ne vous y trompez pas : il s’agit d’un piège qui installe un dangereux malware sur votre PC.\nPlus que quelques jours. Après des années d’attente et de multiples reports, Grand Theft Auto 6 pointe enfin le bout de son nez. Et l’attente aura été longue, très longue pour certains fans. D’ailleurs, un couple a pris une décision complètement folle . De son côté, un youtubeur a décidé de conduire dans GTA 5 en live 24 h/24 jusqu’à la sortie du jeu . Mieux encore : trop impatients, des fans ont décidé de développer GTA 6 eux-mêmes .\nEt pourtant, se montrer trop impatient peut vous coûter très cher . En effet, les hackers savent bien que certains fans sont prêts à tout pour mettre la main sur GTA 6 avant les autres. Dans ce contexte, des pirates proposent d’ores et déjà une version « gratuite » du sixième volet de la saga Grand Theft Auto de Rockstar. Mais, vous vous en doutez, il y a un hic.\nDes chercheurs de l’entreprise de cybersécurité Cynet viennent de découvrir le fichier en question, sobrement baptisé « GTA 6 EXE FILE DOWNLOAD » . Le moins que l’on puisse dire, c’est que le seul nom du fichier devrait vous mettre la puce à l’oreille. Mais passons.\nAutre élément troublant, le fichier pèse à peine 72 Mo . Et c’est pour le moins étonnant, quand on sait que GTA 6 va peser une tonne, voire trois . Mieux encore : une fois ouverte, l’archive ne contient qu’un fichier exécutable de seulement 796 Ko et un fichier README, qui demande à la victime d’ouvrir le fichier EXE en tant qu’administrateur, tout en ignorant les alertes de sécurité.\nEt c’est là que les ennuis commencent. Une fois ouvert, le fichier exécute un malware de type infostealer . Celui-ci a pour objectif, comme son nom l’indique, de voler massivement vos données. Vos identifiants Steam et Roblox sont susceptibles d’être récupérés par les pirates, tout comme les données de vos portefeuilles de cryptomonnaies.\n« La prochaine grande sortie, qu’elle vienne de Rockstar, Bethesda ou Blizzard, suscitera une nouvelle vague d’enthousiasme et offrira une nouvelle occasion aux pirates de transformer la curiosité en clic » , explique Cynet . « Votre protection ne devrait pas dépendre de votre capacité à repérer chaque faux convaincant, ni du fait de compter sur un seul analyste qui aurait pris son jour de congé le jour du lancement. »",
    "pub": "2026-11-15T11:38:11+00:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMkhzVTAtY1lLbmx1endvd2h2SnNOS1h1OHNRQ3gtSlRSMHBCVUZ4RUtrYmNacWEzVHhKVlIwQXdOMUVsVENfQ2tCNERWcFNKMEMzSUJLNlhHdXFRNlZybGZpRmllcm80SExVSlR1UVNMVVB6QXhKTVJIQW1DSXJMUWtGenVIWjB1cEVtWjJXOHNjVU5vRU1iQU5McHhLWlRnTkpxMC1NUUg2bWQ4Qm9B?oc=5",
-   "s": "Entrevue.fr",
-   "d": "2026-11-15T11:39:00+00:00",
-   "lang": "fr",
-   "t": "Pourquoi la PS5 Pro flambe-t-elle en plein avant-goût de GTA 6 en France",
-   "u": "https://entrevue.fr/jeux-video/ps5-pro-pourquoi-les-prix-senvolent-ils-a-quelques-jours-de-la-sortie-de-gta-6/",
-   "img": "https://entrevue.fr/wp-content/uploads/2026/11/images-241.jpg?fmt=orig",
-   "chapeau": "La PlayStation 5 Pro connaît une flambée spectaculaire de ses prix en France.",
-   "txt": "La PlayStation 5 Pro connaît une flambée spectaculaire de ses prix en France . Alors que Sony commercialise officiellement sa console à 899,99 euros, certains revendeurs la proposent désormais à plus de 1 500 euros, voire près de 2 000 euros. Entre ruptures de stock, hausse du coût des composants et arrivée imminente de « Grand Theft Auto VI », plusieurs facteurs expliquent cette situation qui inquiète les joueurs à l’approche des fêtes de Noël.\nÀ quelques semaines de Noël, acheter une PlayStation 5 Pro devient particulièrement compliqué. La console haut de gamme de Sony, lancée en novembre 2024, se fait de plus en plus rare chez les distributeurs français. Sur PlayStation Direct, la boutique officielle du constructeur japonais, le modèle est affiché en rupture de stock. La situation n’est guère meilleure chez plusieurs grandes enseignes, où les offres disponibles proviennent principalement de vendeurs indépendants pratiquant des tarifs nettement supérieurs au prix conseillé. Une situation inhabituelle pour une console commercialisée depuis deux ans, qui rappelle les difficultés d’approvisionnement rencontrées lors du lancement de la première PlayStation 5 en 2020.\nLes écarts de prix sont particulièrement importants. Début novembre, des vendeurs tiers proposaient la PS5 Pro à 1 579,99 euros sur Amazon , contre 1 469,99 euros quelques jours auparavant. Sur la place de marché de Boulanger, certaines annonces atteignaient entre 1 699 et plus de 1 900 euros. Ces montants ne correspondent pas à une nouvelle augmentation officielle décidée par Sony, mais aux tarifs fixés librement par des commerçants indépendants profitant de la rareté du produit. Le constructeur maintient pour sa part un prix conseillé de 899,99 euros en France.\nL’une des principales explications réside dans la sortie imminente de « Grand Theft Auto VI ». Le jeu de Rockstar Games, attendu le 19 novembre 2026, représente l’un des événements majeurs de l’industrie vidéoludique. Après des années d’attente, de nombreux joueurs souhaitent disposer d’une console capable de faire fonctionner ce nouvel épisode dans les meilleures conditions possibles. La PS5 Pro, grâce à ses performances graphiques supérieures à celles de la PS5 classique, attire particulièrement l’attention des consommateurs qui recherchent une expérience visuelle optimisée.\nCette anticipation semble avoir contribué à accélérer les ventes et à réduire les stocks disponibles. Depuis plusieurs semaines, les réapprovisionnements signalés chez certains distributeurs sont rapidement épuisés. Le phénomène est d’autant plus marqué que la PS5 Pro est présentée comme une machine particulièrement adaptée aux jeux exigeants sur le plan graphique. Toutefois, les améliorations exactes apportées à « GTA 6 » sur cette console ne permettent pas encore d’affirmer qu’elle offrira systématiquement une fluidité supérieure à celle de la PS5 standard.\nLa demande liée à « GTA 6 » n’explique pas à elle seule les difficultés rencontrées par Sony. L’industrie électronique fait également face à des tensions sur le marché des composants, particulièrement celui de la mémoire. L’essor de l’intelligence artificielle et la multiplication des centres de données entraînent une demande importante de puces mémoire et de capacités de stockage. Cette concurrence pour les ressources industrielles contribue à renchérir certains composants utilisés dans les ordinateurs, les smartphones et les consoles de jeux.\nLa PS5 Pro est particulièrement exposée à ces contraintes en raison de ses caractéristiques techniques. Elle dispose notamment de 2 téraoctets de stockage SSD et d’une architecture graphique plus performante que celle du modèle standard. Les difficultés d’approvisionnement peuvent limiter la capacité des fabricants à répondre rapidement à une augmentation soudaine de la demande. Si Sony n’a pas communiqué publiquement de calendrier précis pour un retour durable à la normale, plusieurs distributeurs continuent de signaler des disponibilités limitées.\nCette flambée intervient après une première hausse officielle des tarifs. Le 27 mars 2026, Sony Interactive Entertainment avait annoncé une augmentation mondiale du prix de ses consoles, applicable à partir du 2 avril. En Europe , la PS5 Pro est ainsi passée de 799,99 à 899,99 euros, soit une augmentation de 100 euros. La PS5 classique avec lecteur a atteint 649,99 euros, tandis que l’édition numérique est désormais affichée à 599,99 euros. Le constructeur avait justifié cette décisio",
-   "pub": "2026-11-15T12:39:00+01:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPX2N6OE5rZGQySklLa3QtWVhfQ3hlOEloQUN0WmZZcVpraW9acmVlRWNnS2w2eEU4NnNGMFBVaU94TUlmeFNObzB4Ulh0bkNSSEItaG55elpldUdRbklkSGxYS2ZwdTJYY21za1JlTXI4ZmVkMHRUSVV1dFcyMi13NDhuUWRKcWE0YTlqelByb01TV1lUUkE5cS04OXlsSldiWFh0UGI1WnYtQXdhU1VSYjJJUGhMR2piZFl3bzRlbzJCc1l4YlE?oc=5",
@@ -176,18 +172,6 @@
    "lang": "en",
    "t": "GTA 6 launch could cost Israeli economy NIS 170 million",
    "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPc0l6RFdOVm5HYnVoV2N0Wm01MWdxLXVXdnp2RTltMnRESER5N3FNWG1Nc281dWdiMEJEc1l3U0paRll4UUs5ZWIwUVZrTk9PaHEyUk8yNkMzS2NULWlmMXRiNWtLY04zQThOSXRVUTVabXFad1doRXB1czlvME5xeXVzUnJPeWs?oc=5",
-   "s": "Push Square",
-   "d": "2026-11-15T10:06:42+00:00",
-   "lang": "en",
-   "t": "GTA 6 Release Times: When Can You Start Playing?",
-   "u": "https://www.pushsquare.com/guides/gta-6-release-times-when-can-you-start-playing",
-   "img": "https://images.pushsquare.com/43e69a3687e26/1280x720.jpg",
-   "chapeau": "All the GTA 6 release info you need",
-   "txt": "Probably the most anticipated game of all time, GTA 6 is now less than one week away!\nAs the launch draws even closer, we're covering absolutely everything you need to know about its PS5 launch, including preload options and release times. In this GTA 6 guide , we cover the GTA 6 release times .\nRockstar has confirmed GTA 6 will officially be playable from midnight on 19th November in your local time zone. If you have preloaded the game, it'll unlock at midnight, and then you can begin playing immediately.\nAs such, the game will unlock and be available first in New Zealand. Availability will then roll out worldwide as each time zone reaches midnight on 19th November.\nGTA 6 preload is available now ! If you've pre-ordered from the PS Store, your download of the game should have started and will then be ready for you to start playing at release.\nRockstar has now officially confirmed the GTA 6 file size on PS5, and what you'll need to download, is 212GB . This is one of the biggest downloads and installs on console in history, and will probably only get bigger through patches and the addition of GTA Online.\nGTA 6 will unlock and be playable in New Zealand first, as it's located in one of the furthest along timezones. The chances are New Zealand is further along in the day compared to wherever you live in the world, so yes, New Zealand will be the first to gain access to GTA 6.\nBecause of this, there's been a rising trend in people creating New Zealand PSN account to play games as soon as possible. This can be done with GTA 6 too, but you'll need to set up a fresh New Zealand PSN account and buy the game through its PS Store.\nWhen you have done, you'll be able to play GTA 6 a few hours ahead of other countries like the USA. Keep in mind, though, that you can't transfer your save data from the New Zealand account you set up to your normal profile.\nGTA 6 is available digitally on the PS Store, or in a basic physical version that ships without a disc. The latter provides a code in the box that you redeem on the PS Store to get the digital version.\nThe two PS5 digital versions on offer are: Standard Edition and Ultimate Edition .\nRockstar is only selling GTA 6 in a digital format; you can't buy the game on a physical disc in any way. Even the version you buy in retail shops or from online retailers won't contain a disc. Instead, the actual GTA 6 box will have a code inside you can use to download the game. There's no version with a physical disc of any kind.\nRockstar has now confirmed a GTA 6 map will be made available, but it won't be included in the physical versions like for previous games. Instead, a physical GTA 6 map will be put on the official Rockstar store for $0.99. Or, it'll be included for free in all other purchases from the storefront.\nHave you pre-ordered GTA 6, and will you be staying up to play at midnight? Let us know in the comments below.",
-   "pub": "2026-10-28T00:00:00+00:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB0U2NwZjl5VlFodm5LeXJkZnB0WDBBS3FSMDJ3cVNxTHItUjNiSUJleFZXN1hhMVV6N3M2RThsV040eG0telZjeV9sMGMwZnRwYXlxbWItb0RFZExaQ2R0UlN6cWlkaHNDMmlKcFRaODNCTmY0YUlUNQ?oc=5",
@@ -312,6 +296,14 @@
    "pub": "2026-11-15T08:00:17Z"
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOT0dyc2RGZWkxT05CQ0VHY1FwbnBEU21WajI0RVNOVWg2Q2NkUlVUVmRIVEpJeFFucV9qOVBEZEg1ejhhR1pUTG1LSkRkZDA4eEl1eXN0enpyeG4wU1dyYU1KUFRocDJyMEtTeVVZNl9SaGk0S1pGV3VuZGhoTTZFZkF0TnpJSWZBWkpNNXFJMTc3SU9ZQmhMM1NzSmk2MEF1OVVwUWFBZEo1RExIRzR1a2tlX3FTSDlrQ0dNSVNXNFp3R0FvUWxnWTUyN25MTDZkVlB1RndnNA?oc=5",
+   "s": "Ouest-France",
+   "d": "2026-11-15T08:00:00+00:00",
+   "lang": "fr",
+   "t": "VIDÉO. GTA VI : une cryptomonnaie derrière les fuites du jeu",
+   "erreur": "429 : passage suivant"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdk1ITEQ0a1h5U0dRcE5CbGhzUWFqaFpHcUZhemlOeld3YjBwbkRHRG02Y0lpV2F3VzFTUURwaVBOZkhIWlpHSGVHLWQ5NHpINEJwblpFd3hPNW02R1hIZmZteEJ6bXRvdGNlZk5pU1VrS0t4d3l0eGt1MC1BWXprT01XNndqdTdtcGhNcU5Bck1BSzI3VXV5QVk0V2NRVUxtV0hhNk9oSllNODE3M0VvN3VNQ0I2YTNqUjI5VXpB?oc=5",
    "s": "GameGPU",
    "d": "2026-11-15T07:55:27+00:00",
@@ -386,6 +378,15 @@
    "chapeau": "Playlist en avance.",
    "txt": "La liste complète des morceaux de Grand Theft Auto VI : The Album semble avoir fuité sur Internet à quelques jours seulement de la sortie de GTA 6 . Rockstar Games n’a vraiment pas de répit. Après des semaines de fuites sans précédent publiées en ligne, de nouvelles informations concernant GTA 6 ont encore fait leur apparition sur Internet, révélant cette fois-ci la liste complète de tous les titres et artistes figurant sur l’album officiel de la bande originale.",
    "pub": "2026-11-14T23:29:02+00:00",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBaMm9PV1djaTBiTlg2bDQ5dXdZOFJZUG0tLWE5dXJxbmdyaEt5bFA0U193ZlRCRS0tMUJma2x1NVJZd3V6dWhpU0JFcHVKY1dzb0hTRw?oc=5",
+   "s": "Binance",
+   "d": "2026-11-14T23:08:00+00:00",
+   "lang": "en",
+   "t": "CyberLeek Price (CYBERLEEK/USD) Today | Live Price, Market Cap & Chart",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -783,19 +784,6 @@
    "chapeau": "Nouveau rebondissement dans l'affaire Cyberleek. Une build de développement de GTA 6 est finalement proposée pour 40 dollars.",
    "txt": "L’affaire Cyberleek connaît un nouveau rebondissement. Alors que le responsable présumé des nombreuses fuites de GTA 6 annonçait mettre fin à ses publications, un nouveau message vient contredire cette décision.\nSur son site, Cyberleek affiche désormais une annonce intitulée “DEVELOPMENT BUILD IS OUT”. Il affirme proposer une version de développement du prochain jeu de Rockstar Games pour 40 dollars. Cette nouvelle déclaration intervient quelques heures seulement après son message The End of t he Road , dans lequel il expliquait renoncer à diffuser sa prétendue build complète.\nDepuis plusieurs jours, Cyberleek conditionnait la publication d’une version jouable de GTA 6 à un objectif financier. Sa cryptomonnaie devait atteindre une capitalisation de 30 millions de dollars. Cet objectif n’a pas été atteint.\nDans son message du 14 octobre, l’entité expliquait donc qu’elle ne publierait pas la build, évoquant notamment les risques associés à la distribution anonyme de plus de 200 Go de données. Mais quelques heures plus tard, changement de discours.\nLe site affiche désormais une annonce concernant une version baptisée, GTA 6: Development Build v1.0.1.08022025. Cyberleek décide de la proposer mais réclame directement 40 dollars pour accéder au téléchargement.\nC’est évidemment la grande question. Cyberleek affirme depuis plusieurs semaines disposer d’une version suffisamment complète pour parcourir l’intégralité de la campagne solo. Les nombreuses vidéos diffusées depuis août suggèrent aussi un accès à des contenus de développement du jeu.\nMais tout ceci n’est pas suffisant pour confirmer qu’il s’agit bien ici d’une version complète de GTA 6. De plus aucun chercheur en sécurité ni média spécialisé n’a confirmé avoir exécuté et authentifié cette prétendue build.\nLa prudence est indispensable car des fichiers malveillants présentés comme des versions anticipées de GTA 6 ont déjà circulé sur Internet. GinjFo avait notamment signalé en août une fausse build dépassant 100 Go qui dissimulait un malware.\nNous déconseillons de payer ou de télécharger cette archive même si son contenu est vérifié indépendamment. Toute cette histoire repose sur un acte malveillant, de la piraterie et du chantage.",
    "pub": "2026-10-15T09:23:48+00:00",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQSHl1TTd2Qm9jdU52QXZNZlU3eWd0aHQ4UVM1d1MzdmVsS2ZDZFQ5TmdQek1PVDRQa1FhVUVrQlpvZzZGSkJpaE5ubFVjaHdRY193NW1BODF4NkpEcUQyekhVeERvUk9Hd3Z5VkZxMW54RVB0MzNNdUVhb2xBekFEcEtxOXpYMkU4YkRmbTFUTEFRRFJiVlIzczNWNEFxMDUwS2puUk10X1VDWldlZnRuUGNPSFk5aE1IZnY0a0JqTy1VdzN3TllkVHRvQzZfRWdNWkZpLWNVLVNkaVNxRkp5OHkxQQ?oc=5",
-   "s": "GinjFo",
-   "d": "2026-10-15T07:00:00+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : Cyberleek renonce à diffuser le jeu complet, mais maintient une menace - GinjFo",
-   "u": "https://www.ginjfo.com/actualites/logiciels/jeux-video-logiciels/gta-6-cyberleek-renonce-a-diffuser-le-jeu-complet-mais-maintient-une-menace-20261015",
-   "img": "https://www.ginjfo.com/wp-content/uploads/2026/09/GTA6_017YA_03-scaled.jpg",
-   "chapeau": "Cyberleek annonce la fin de ses fuites de GTA 6 après l’échec de son objectif financier. Le groupe renonce à publier sa prétendue version complète.",
-   "txt": "Cyberleek annonce l’arrêt de sa campagne contre Rockstar Games et Take-Two Interactive. Dans un communiqué en trois parties publié le 14 octobre, intitulé “ La fin de la route “, le groupe anonyme affirme abandonner la publication d’une soit disant version complète et jouable de GTA 6.\nCette décision n’est pas une surprise puisqu’elle a été conditionnée à l’échec d’une opération liée à une cryptomonnaie. Le groupe voulait porter sa capitalisation à 30 millions de dollars , un seuil qui n’a pas été atteint.\nCyberleek avait conditionné la publication de l’intégralité de la campagne solo à cette valorisation. Il avait également proposé de renoncer à la diffusion si Take-Two acceptait de commercialiser le jeu sur disques physiques et présentait des excuses publiques.\nPour expliquer cette marche arrière, le groupe met en avant les difficultés d’une mise en ligne anonyme de plus de 200 Go de données. Il estime que les risques associés ne se justifient pas sans avoir atteint son objectif financier.\nEnfin le groupe assure aussi détenir la fin de GTA 6, tout en affirmant avoir choisi de ne pas la dévoiler. Selon son communiqué, certains extraits récemment diffusés proviendraient des missions finales, mais auraient été sélectionnés pour éviter les révélations importantes sur l’intrigue.\nMalgré l’annonce de son retrait, Cyberleek conserve un moyen de pression. Il prend la forme d’un prétendu “ interrupteur de l’homme mort “, censé déclencher la publication de spoilers si le groupe était ciblé.\nAucune preuve de l’existence de ce dispositif n’a été fournie.\nMAJ : GTA 6 : Cyberleek fait volte-face et propose sa prétendue build pour 40 dollars",
-   "pub": "2026-10-15T09:09:22+00:00",
    "cyberleek": true
   }
  ]
