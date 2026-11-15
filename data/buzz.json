@@ -1,6 +1,6 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-15T18:12:40+01:00",
+  "updated_at": "2026-11-15T20:13:45+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
     {
@@ -4098,6 +4098,11 @@
       "at": "2026-11-15T18:12:40+01:00",
       "label": "Passage Claude Haiku (Matière X, 15/11, 18 h)",
       "summary": "Relevé data/x_alertes.json : posts vides (maj 15/11 18 h 09). Aucun post X nouveau à retenir. Presse (data/presse.json) lue : pas de publication sociale à corroborer, donc rien ajouté. Sujets ajoutés : 0."
+    },
+    {
+      "at": "2026-11-15T20:13:45+01:00",
+      "label": "Passage Claude Haiku (Matière X, 15/11, 20 h)",
+      "summary": "Relevé data/x_alertes.json : posts vides (maj 15/11 18 h 09). Presse (data/presse.json) lue : sujets 50 h / 200 Platine déjà couverts par des posts X (items), aucun autre post social à corroborer ; le vol de codes en boîte et les autres papiers sont presse seule, pas de publication sociale. Sujets ajoutés : 0."
     }
   ],
   "coverage": {
