@@ -1,8 +1,62 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-15T00:12:54+01:00",
+  "updated_at": "2026-11-15T08:13:02+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-developpeurs-exemplaires-dedicaces-2026-11-15",
+      "title": "GTA 6 : les développeurs reçoivent des exemplaires signés, selon un compte fan",
+      "summary": "@GTAVI_Countdown affirme que des développeurs de GTA 6 reçoivent des exemplaires signés de Rockstar et prennent une pause avant la sortie. Le même post évoque aussi un vote en cours chez plus de 1 600 salariés de Rockstar au Royaume-Uni sur la création d'un syndicat ; cette partie n'est pas vérifiée ici. Aucun document ni déclaration officielle n'a été relevé dans les sources consultées.",
+      "url": "https://x.com/GTAVI_Countdown/status/2121818098990772622",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-15T04:10:30.000Z",
+      "checked_at": "2026-11-15T08:13:02+01:00",
+      "evidence": "Vues relevées le 15 novembre 2026 (maj 06:15 UTC) dans data/x_alertes.json : 49 171 vues, 1 220 mentions. Un seul compte relève le sujet ; pas de reprise par la presse dans data/presse.json à cette heure.",
+      "visual": "EXEMPLAIRES SIGNÉS",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2121817874566176768/img/Dq2u7gYPQZ3puOb6.jpg",
+      "image_alt": "Visuel partagé par @GTAVI_Countdown sur les développeurs de GTA 6",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "cta": "Voir la publication sur X",
+      "embed_type": "x"
+    },
+    {
+      "id": "x-vinyle-album-deballage-vertigo-2026-11-14",
+      "title": "GTA 6 : premier déballage du vinyle de l'album, avec la liste des 34 titres",
+      "summary": "@gtasix_ publie le déballage du vinyle de « GTA VI: The Album », relayé de @vertigovinylga. Le disquaire Vertigo Vinyl confirme avoir obtenu l'autorisation de montrer le vinyle avec la liste complète des 34 titres, relayée par @GTAVI_Countdown. Le vinyle est donc montré en boutique ; la tracklist elle-même reste à confirmer par Rockstar.",
+      "url": "https://x.com/gtasix_/status/2121744585361666145",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rapporté",
+      "published_at": "2026-11-14T23:18:23.000Z",
+      "checked_at": "2026-11-15T08:13:02+01:00",
+      "evidence": "Vues relevées le 14 novembre 2026 (maj 23:06 UTC) dans data/x_alertes.json : 64 041 vues. Reprise par @GTAVI_Countdown (confirmation Vertigo Vinyl, 43 994 vues le 15 novembre).",
+      "visual": "VINYLE ALBUM",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2121744513727090688/img/6jOOUQ_06sunmABG.jpg",
+      "image_alt": "Visuel du déballage du vinyle GTA 6 The Album, partagé par @gtasix_",
+      "image_credit": "@gtasix_ sur X",
+      "cta": "Voir la publication sur X",
+      "embed_type": "x"
+    },
+    {
+      "id": "x-twitch-codes-ultimate-gratuits-2026-11-14",
+      "title": "GTA 6 : Twitch offrirait des codes Ultimate Edition chaque jour jusqu'au 30 novembre",
+      "summary": "@GTAlphaintel annonce que Twitch distribuera chaque jour, du lancement jusqu'au 30 novembre, des codes gratuits GTA VI Ultimate Edition. La presse française (La Crème du Gaming) relaie une distribution de 10 000 codes via les Twitch Drops et une opération concurrente sur Kick, avec des règles encore floues.",
+      "url": "https://x.com/GTAlphaintel/status/2121717307735220276",
+      "platform": "X",
+      "author": "@GTAlphaintel",
+      "status": "Rapporté",
+      "published_at": "2026-11-14T21:30:00.000Z",
+      "checked_at": "2026-11-15T08:13:02+01:00",
+      "evidence": "Vues relevées le 14 novembre 2026 (maj 21:03 UTC) dans data/x_alertes.json : 26 160 vues. Corroboré par La Crème du Gaming, 14 novembre 2026 : https://www.lacremedugaming.fr/jeux/gta/gta-6/gta-6-une-distribution-de-10-000-codes-gratuits-pour-ledition-ultimate-annoncee-via-les-twitch-drops-234699.html",
+      "visual": "CODES TWITCH",
+      "image": "https://pbs.twimg.com/media/HXG_KK5aEAApsec?format=jpg&name=360x360",
+      "image_alt": "Visuel partagé par @GTAlphaintel sur la distribution de codes GTA 6",
+      "image_credit": "@GTAlphaintel sur X",
+      "cta": "Voir la publication sur X",
+      "embed_type": "x"
+    },
     {
       "id": "x-justice-interview-rockyrama-2026-11-14",
       "title": "GTA 6 : Justice se confie à Rockyrama sur la bande originale, circulant sur X",
@@ -3924,6 +3978,11 @@
       "at": "2026-11-15T00:12:54+01:00",
       "label": "Passage Claude Haiku (Matière X, 15/11, 00:12)",
       "summary": "Relevé data/x_alertes.json (maj 2026-11-14T23:06:44 UTC). Aucun nouveau sujet retenu : les posts au-dessus de 20 000 vues sont déjà publiés (interview Justice, exemplaires de test) ou traitent un sujet déjà couvert (anniversaire GTA 5 Trailer 2, 296 540 vues ; exemplaires de test gtasix_, 138 422 vues ; photo de fan 54 468 vues, même sujet que la fan photo du 13/11). Sous le seuil, sans reprise par 2 comptes : tracklist (14 825), pub Singapour (18 100), codes Twitch (10 794) et Kick (11 728), même compte, Macca & Friends (14 707), Discord (6 493), compte à rebours RockstarNewsFRA (504)."
+    },
+    {
+      "at": "2026-11-15T08:13:02+01:00",
+      "label": "Passage Claude Haiku (Matière X, 15/11, 08:13)",
+      "summary": "Relevé data/x_alertes.json (maj 2026-11-15T06:15 UTC). Ajout de 3 sujets ≥ 20 000 vues, nouveaux : développeurs et exemplaires signés (49 171 vues, Rumeur) ; vinyle de l'album déballé, Vertigo Vinyl confirme les 34 titres (64 041 vues, Rapporté) ; codes Twitch Ultimate Edition (26 160 vues, Rapporté, corroboré par La Crème du Gaming). Écartés : « 100 heures » (109 355 vues) et « 4 jours » (20 318 vues), compte à rebours déjà publié ; tracklist (GTAlphaintel 24 658, Vertigo 43 994) et photo de fan (862 968) : sujets déjà publiés."
     }
   ],
   "coverage": {
