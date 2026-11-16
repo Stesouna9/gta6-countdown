@@ -1,8 +1,28 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-16T14:12:54+01:00",
+  "updated_at": "2026-11-16T16:12:56+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-kurtaj-plaide-coupable-2026-11-16",
+      "title": "GTA 6 : le pirate de la fuite de 2022, Arion Kurtaj, plaide coupable",
+      "summary": "Arion Kurtaj, auteur de la fuite de séquences de GTA 6 en 2022, a plaidé coupable de tous les chefs, selon @gtasix_ et @GTAlphaintel. La date de sa condamnation n'est pas encore fixée. Insider Gaming confirme le plaidoyer dans un article du 16 novembre.",
+      "url": "https://x.com/gtasix_/status/2122333135387922473",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rapporté",
+      "published_at": "2026-11-16T14:17:05.000Z",
+      "checked_at": "2026-11-16T16:12:56+01:00",
+      "evidence": "Vues relevées le 2026-11-16 dans data/x_alertes.json : 91 000 vues, 1 051 likes (@gtasix_, 14 h 17 UTC) ; 10 095 vues pour @GTAlphaintel (14 h 24 UTC), qui reprend l'information. Corroboration presse : Insider Gaming, 16/11 à 14 h 42 UTC (data/presse.json).",
+      "corroboration": "https://insider-gaming.com/original-gta-6-hacker-pleads-guilty-to-2022-breach/",
+      "visual": "PLAIDE COUPABLE",
+      "image": "https://pbs.twimg.com/media/HXQKu5sWoAAMAU0?format=jpg&name=360x360",
+      "image_alt": "Image du post de @gtasix_ sur le plaidoyer du pirate de la fuite de GTA 6 en 2022",
+      "image_credit": "@gtasix_ sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "The GTA 6 leaker behind the massive 2022 leak has officially pleaded guilty, just 3 days before GTA 6 releases."
+    },
     {
       "id": "x-preorders-15-millions-2026-11-16",
       "title": "GTA 6 : 15 millions de précommandes, 1,45 milliard de dollars selon Sensor Tower",
@@ -4317,6 +4337,11 @@
       "at": "2026-11-16T14:12:54+01:00",
       "label": "Passage Claude Haiku (Matière X, 16/11)",
       "summary": "Relevé data/x_alertes.json (maj 13 h 07 UTC) : 2 sujets ajoutés. Pré-commandes 15 millions (@gtasix_, 60 457 vues, titre repris par Insider Gaming). Testeurs et cartes (@GTAlphaintel, 22 191 vues, compte unique, statut Rumeur). Écartés, déjà publiés : mise à jour 01.002.001, Jason et Lucia, Famitsu, 200 heures de Platine. Écartés, sous le seuil : code volés (2 455 vues), J-2 et compte à rebours (25 735 et 2 340 vues), sondage manettes RockstarNewsFRA (7 720 vues), logo GTA6Hub."
+    },
+    {
+      "at": "2026-11-16T16:12:56+01:00",
+      "label": "Passage Claude Haiku (Matière X, 16/11)",
+      "summary": "Relevé data/x_alertes.json : 1 sujet ajouté. Plaidoyer d'Arion Kurtaj (@gtasix_ 91 000 vues, @GTAlphaintel 10 095 vues, corroboration Insider Gaming). Écartés : merch Cactus Jack (9 653 vues, compte unique), codes volés (12 973 vues, compte unique), 01.002.001 et 15 millions déjà publiés."
     }
   ],
   "coverage": {
