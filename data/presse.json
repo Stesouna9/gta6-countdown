@@ -1,6 +1,15 @@
 {
- "maj": "2026-11-16T06:17:02+00:00",
+ "maj": "2026-11-16T06:37:33+00:00",
  "articles": [
+  {
+   "gn": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1kVjQwdWNLNlBPZ0lpR2FPRVlLNHBuZXpuUVp0dVM3azk5NEZ5aWRsZS12QnR3QW91TTFZVjJsb2RQUUZFRS1zbVpoZTZEdndGRzVsS0FWS1VQeUJZOEFGZnFpWUhnYkxMZ2lkQVZB?oc=5",
+   "s": "Kursiv Media Узбекистан",
+   "d": "2026-11-16T06:27:05+00:00",
+   "lang": "en",
+   "t": "GTA 6 tracklist leak lists Blackpink song by Jenny",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
   {
    "gn": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaXpmOFhCSzNXN3pkUTR2ODgyRklnclkzZWV3c1V4cVFEOE5ZdHFvRVh3dmtfQ2JyYUpIVDRrRjAyZGpLOWgyVDRobDVsak1fR0ZScEZ3bjQtNXU2d3ptR3VYbWI4YzU4a1kwWklUOW5JUHZyQ1F6cXVudXJLRWh6TFZFeVctZFg2RUVPRm1uTGJ2elpnbVJReHNUTlpRZnNZRHRhdXV4M29zdlpSd1JjWGVrZHdQNjBBcm9vbkZOMzNVQQ?oc=5",
    "s": "L'Alsace",
@@ -19,7 +28,7 @@
    "d": "2026-11-16T06:04:39+00:00",
    "lang": "fr",
    "t": "GTA 6 : de nombreux salariés sont prêts à poser congé pour jouer, les chiffres surprennent",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "HTTP Error 429: Too Many Requests"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQY2NQMS1TMnZtNmdpTnB2RXNseGdTOThvUDlZR2swYTJ1Q1pJZ2tSZWNGU0ZYa1JHY1hIclNqVllDMl9oTkx0ejBHYXlhWjA4V21BSzdMdFZSVGJLNmNpRjZ3NTVjU01VZlJqVUlCd1owdDUzN0hOWC13dW9VaGhBc202dWlwalpseDVSV1IzS2lvX2kxamppOTVNUUZUNFJIZDhRNVhiNFpKdUdycFE4eU1nTTJDek80ZTlZMkJxb1ExZ0o0eVhzQw?oc=5",
@@ -27,7 +36,15 @@
    "d": "2026-11-16T06:00:18+00:00",
    "lang": "fr",
    "t": "Jeu vidéo GTA: de la radio aux plateformes de streaming, son incroyable pouvoir musical",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNMG5iZ2ZYMWVVLVZIQmdSOTRiX0c0ZV9Bdm8yZmNJTUIxN2dKRXlxQkROQW5ONzNna3c4X1RJQ3o4MnVBeGt2UVhVeVcyVHJUMkxaWHBjM0xtVUFxZnhXQnBhX0NNMms5S2JqZV91alVJelR0YXBuMU9WLV9nUU5QaE10dTZpTERHNVF5RnJ6V3VOekl1QUlwNHpBS3N5eWFPbWN5bEZlS044bGhIWFo5TWlvc1l0UGRzQWNGeW51UGsxOE1ZTDIwb05saksyZ0x1NG9qTGp0dFk4NHFFOGplMw?oc=5",
+   "s": "Le HuffPost",
+   "d": "2026-11-16T06:00:11+00:00",
+   "lang": "fr",
+   "t": "Il n’y a pas que les joueurs qui devront s’organiser pour la sortie de GTA VI",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPMmUyRDU4NWFLVmpGUEszR3h0eTA3YUl0U1A2QkdCUno5ZnBSQ051NGNLbXB0b3dYaXpJeWhIWEhYeUNINlpOY0RodTAySVpuNmRhWEtFRUJGdE4zRzcwcEVGbXk5OW93SGVDYjRPdXpXMmh6VG9Lc3FZc2NwY3ZLY1lINXZOVUh5bHhJZVlDNERlMGpvdC10QjUwRUdEVklEQUFVS3N2MlVPNENRSnhLSWUtV2UzWHhxMHVEMlJTZEhzZ1RTeUhrTElDUG5xbEUtWXRWUQ?oc=5",
@@ -66,16 +83,12 @@
    "pub": "2026-11-16T06:45:00+01:00"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQSEF0LWNpbFRWNmdmOGtwSkk5REFJaTc2dWV4WXZZRTRwUWtYMHF1OGhKVHlMUnQ5TGVSSTRyWGp3ZDFYQ25Cdm5LNlhuQWUxYzdpTGlFS3hMX3FxRWRsNG11dl9VZXVmbUJUX1pXYTJRY0FIZER4M0FGQ2J3N25hVC1zaExoYm01YjMxRzIxZ29RYnFOb05mMlhQT2ROS2pRM0ZicXdrajhld25hcWUtS2JxTVpMWGhMaERkTG9RaW5LeG9XTFNJTVB3bkNYMFpsajZlT2JobnBnTUVXcTJVdi01eDZxM3VSaTl3SA?oc=5",
-   "s": "RMC",
-   "d": "2026-11-16T05:43:50+00:00",
+   "gn": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOaUY2X21xWUExVzhoSEdlX0ZPa0c3VWF3VThDaURGaVpTUUxSdnktd09LZ21DTExNYkRRTWQ5UU1xdzl2akI5bWtRQi1nRlVLNm5tM3Nvalh0RGtkbTZ3QTMtQng5NS1lS1ZabVNYRGRVb0xsOTNjT0pkeTBIMGlVblhzQXhqMTh6aVdnZnRWSQ?oc=5",
+   "s": "Selectra",
+   "d": "2026-11-16T05:35:25+00:00",
    "lang": "fr",
-   "t": "[Podcasts] Le 3216 RMC : Sortie de GTA VI, avez-vous prévu des congés pour l'occasion ? - 16/11",
-   "u": "https://rmc.bfmtv.com/replay-emissions/5-7-le-morning-rmc/le-3216-rmc-sortie-de-gta-vi-avez-vous-prevu-des-conges-pour-l-occasion-16-11_EN-202611160136.html",
-   "img": "https://io-fsly-bfmtv.cdn.nextradiotv.com/K-o34pFGkQqecWzou2IEkvCoNcI=/0x0:12000x6280/1200x0/images/image_composition_EN-202611160136.jpg",
-   "chapeau": "Tous les matins dans Le Morning RMC, les auditeurs s'emparent de l'actualité et viennent témoigner en direct",
-   "txt": "Le 3216 RMC : Sortie de GTA VI, avez-vous prévu des congés pour l'occasion ? - 16/11 2:23",
-   "pub": ""
+   "t": "GTA VI sur PS5 ou Xbox : faut-il vraiment payer un abonnement en plus des 79,99 € du jeu ?",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOUDg0djJCUkpsZ0V4cXQ2YWRMZjlrbHJnZS1mVkZKODNSX2FxWlYyZG81R19qc0UyUXVwX0RWUWk0ZEEyUGZRX0hpeEkydThJUHZEVjRSdzE4a19mRUlYZFhId29TcVFod2N4eXc3Vk9KcVZqdUh1TzRVenJZYllFT3Nnam5fakprM0tYNkZDNjNnMkM2VllJdURwRHEwZHE3eG84ZTZkR3JkczZuMU5ZZlQ0ZGVfWjR2ZzV6X180M1JpTEtSbzBET3VGb0VJdw?oc=5",
@@ -106,12 +119,8 @@
    "s": "X",
    "d": "2026-11-16T05:24:00+00:00",
    "lang": "en",
-   "t": "Mario Nawfal (@MarioNawfal) on X",
-   "u": "https://x.com/MarioNawfal/status/2122198980960370927",
-   "img": "https://pbs.twimg.com/amplify_video_thumb/2122004635523182592/img/mEO3hAeidsL6S1-i?format=webp&name=large",
-   "chapeau": "GTA 6 isn’t even here yet and people are already getting EMOTIONAL saying goodbye to GTA 5.\n\nA simple clip of driving through Los Santos at sunset with the radio playing went viral because it feels like the end of an ERA.\n\n13+ years driving these same streets, causing absolute CHAOS, running from c…",
-   "txt": "",
-   "pub": "2026-11-16T05:24:00.000Z"
+   "t": "GTA 6 isn’t even here yet and people are already getting EMOTIONAL saying goodbye to GTA 5. A simple clip of driving through Los Santos at sunset with the radio playing went viral because it feels like the end of an ERA. 13+ years driving these same streets",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPeDRjWEpoXzdCcjRBeElLcEVBNEx2eUVVSnZ3Qlg2TkhJY1ZJRnFKckhQbUVXTlM2WHNHeGV3TTQzbGg1RVJkMGkyR2tyYS1IT2NiU2hvZEFOUTlLaGJUSFBGak00ZzA0eFQ0UGpCRzBhUFBMQ3RWaDdhX1lPWjNQb01QZ1lrMEk1ZU9tRG1xWHdMZmp2eXZDb1NmXy1sUG9QejVHOGxUdlhHdFluckRZMmdiUHJ0T09Qd1ZjZktFQzduT1VBX1ZNVHdaWE9LNWFJWl9YRERHaUJ0VmJ6VmpZT29n?oc=5",
@@ -119,7 +128,7 @@
    "d": "2026-11-16T05:05:45+00:00",
    "lang": "fr",
    "t": "Pourquoi «GTA VI» est le jeu vidéo le plus attendu de tous les temps",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMixwFBVV95cUxON2FmQW1SdFJRbF9YQjZmMk9WMmpLM3lhSnh0MEVWUjQ2dE83NjhMd295RS1kV29BcDJCdXhnbUFzUDRRSmY0MFFLZG1yLWhMVnU5VzVhNHQ1cDNsUjR5VVRLM3pVZFkybU54blJvUWNrUkFQVVM4ZmFsU0gxUG1GcFRraWZqeWVXNGJKaVZsRDhiQy1fY05JNmZ1WDN0ZmZUb1ZOU3kzT2RnZW9HbkxpTGxLbzBhWnI0bFJaVl9aOXQxem1PZXpB?oc=5",
@@ -151,11 +160,7 @@
    "d": "2026-11-16T05:00:00+00:00",
    "lang": "fr",
    "t": "[Podcasts] GTA VI: une sortie très attendue à travers le monde",
-   "u": "https://rmc.bfmtv.com/podcasts/les-reportages-de-la-redaction-rmc/gta-vi-une-sortie-tres-attendue-a-travers-le-monde_EN-202611160093.html",
-   "img": "https://io-fsly-bfmtv.cdn.nextradiotv.com/NubOmLfwPILhcY8Q5mZA9Uh7AVs=/0x0:12000x6280/1200x0/images/image_composition_EN-202611160093.jpg",
-   "chapeau": "C'est l'une des sorties les plus attendues du monde des jeux vidéo : dans la nuit de mercredi à jeudi (00h), Grand Theft Auto VI sera disponible en France.Après 13 ans d'attente, le nouveau volet de la saga, où vous incarnez un gangster dans une ville américaine fictive, fait déjà sensation : plus...",
-   "txt": "",
-   "pub": ""
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNNVd4UC1jaGktM2JKYW9KY0d3cjFETWV1V0ZmVlhmV3VESnRmanVwbTQ0UkNlSXlKUmNYV01aOFpVaGRITi1Tb2s3b0JjSVZ3NjFZVVJJN3lkVm5WYkExblhDcnZORFhSdEdyYnU2UWpTRk9lMVhfS0wwbVJLdFlrV0xiN1RmYkJETFZQS3RkSzlPQmx1c0EyOUVlcER3VE5yc3Ezcl8wOVlIS1QyX3JrOUdva3NHdnpteXVqcGk4dVdsc3NVc1JJdE1R0gHXAUFVX3lxTE9HSXNOZ2taY2VvSTFPbXhram5JOHJfWDdNejZQY094Rlk4N2Joek1iT3RxZUctZ1JwUFRveGhZVGN1QWNzclQ5R251QzJnQnZ2bWl5YlJDeVV0RURfN0I5WWJJbzBvMDZwdHlHMHdvYnNJVGZ5cFNkcUpmaXZOd2piRnhkMGQ0NHNtemRyUWFvRHNsTTZKQm1EMEtpLVB0b1ZBQm5OQlhtSTdWcnFsVGw2N1hxV0RRdVV1d01nUGhKNXdySFM5RndCOUp3dXlJWmVBeWR1eEF3?oc=5",
@@ -176,7 +181,7 @@
    "d": "2026-11-16T04:30:01+00:00",
    "lang": "fr",
    "t": "Quelle place tient GTA VI dans le quotidien des Français ?",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMXczRjZWYnNpU21zblZCY1lYU09BYTEyMURhdjlUbVZBTlc3VHZyNnVqckhWSWxKRTRzOEFLeGF4LTJfSnBVWHpiazdNWlV4a1BwRFdwcGJrd050OEJRZG16YjRmdWdibTdxN3VwOFNkSnV5Z2dxalhTOVVOcml0U2dOWmwxelVJTGN6MkVPdWE0NThBYUpuc1NXTFZfVkE4ZmRISjdlWFNncGxxemt5dmkxUQ?oc=5",
@@ -184,7 +189,7 @@
    "d": "2026-11-16T04:27:37+00:00",
    "lang": "en",
    "t": "GTA 6 box code 'flashlight trick' failed on a US copy in testing, and no stolen codes have been confirmed",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNa3JXbTN6dXA4NU93NkRQSF9BNTRzeUVkeW51Z1Z0QkFCZXNMTzYxRU81MktEWTVDcFVWb3M4U3pYQXJWdjg4aFJrUnFmbWY3dWJWUVVLVG9DR1dzWTFMdDZDUDI1WVlKbDlONHdBRnZWRTVvZzJmZi1QU2FhNEw3ek9UbXI0aFZTWWdsNlZRUG9CdmswOVF3ZVdJcUdkRkVEdzZlMmpIY0FMNUFhWDJmZzVzUkhicVhsSVZ6WWRuUWlRd0FzOXlrX3U2MWVFXy1TbzBkQjRtQm4zN0pnMVpqUW96M1l5R2p5V0czNkRGLUZ5ZHdVYjVISmEzck1WeHNuOXhOWGtCd0ZycFF1UjM0SmJ1dzdxUFIxdm80VlBONmhHcWpm?oc=5",
@@ -199,20 +204,12 @@
    "pub": "2026-11-16T05:21:41+01:00"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVWU2dmZ3Q1JoQmszV21STFlIbG9laldrc0lvOFpOY3RJRHMzZzM5LVd3eGxySVlLd2dDd3hZR0VzVUxmWlQzam02OWhoOVZBSjAycWE4aWNFWGhhNDFtRFgyLVRIbV9zSFVob25PczFzb3VKUG5xbDI3Y2Q3dVlrVl9qRUJUNU9EY1VxdWtOd2FySS1uZ1lsa0dUaEpJSGlZR3N2MEdxMFJ1M09GQlE?oc=5",
-   "s": "GameGPU",
-   "d": "2026-11-16T03:50:11+00:00",
-   "lang": "fr",
-   "t": "Rockstar Games travaille activement à adapter le moteur de GTA 6 au matériel de la Switch 2.",
-   "erreur": "HTTP Error 403: Forbidden"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVi05VHhqUkhzTm96b0ZKV295aFFJbUZfMmNELWtuakZqTWNfVU8zVU05bFhBbjFrSHB1T1U5VHg3ZW1FWmRfRm83dm5QZ28tY0tzXzNJb3k0dlJCOFNkRWdjWERuckxqandxdE1mR3hoTXFPT1JRSkZrS2tsMS1DLUpNQ2pFVjBDZVJ2UUFnLS1nTUZIbTBza2E3QWpSZFZObU9YN1pGWUVoVlhlbkE?oc=5",
    "s": "GameGPU",
    "d": "2026-11-16T03:50:11+00:00",
    "lang": "en",
    "t": "Rockstar Games is actively adapting the GTA 6 engine to the Switch 2 hardware.",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPRWhwOEl4ZFg1YldWMk1FT3RfSmNXWk8xZzVJWmhyYWhLdjBBRHV1alJFdHVWcmZFNFdKWjE1MDFiNUtXX1hncXpLUXN1Ul8tbkZ3VVh0ZXFNZ0J1TGQtZ1A4RFdoeEtHa3dINWpQTTVOdG40ZlhvRERsTkZCZHFGQVlFekNEcU0?oc=5",
@@ -232,7 +229,7 @@
    "d": "2026-11-16T03:37:14+00:00",
    "lang": "en",
    "t": "GTA 6 reportedly has a 50-hour story, matching Red Dead Redemption 2 despite its much larger map",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5pc3RNcGs2QTg3WU5hYXVnbHFVVjdjdkc3bG50XzEtbW41bkNNNW1LTjM5aFdKQW02anY0RzBPa3h2UFJIcjd2X1NseV9SeFRWUFFUNWxqV0JObjRuUmc?oc=5",
@@ -240,7 +237,7 @@
    "d": "2026-11-16T03:36:00+00:00",
    "lang": "en",
    "t": "Costco Is Now Taking Preorders for GTA 6—Here’s What You Need to Know",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNMkExLXh3T1I1VV9wWENXemQ3ZGQ2UWdFN052Z1hQWjVha2Vibk1ROXZtZkZGajNmT3VzUmh3UGRXakhUclI4eC02RXB5bzUwUmR5dFRhTHdYTS1jb20wTWxTQUdUSlBaWDlrSlhfb3BDaTM3MGFxcXI1amlfa2FnenYxSzBHeXFIM3NNOWg2TVU2SXZWU25NTTRLcG5lTGRyRW1VNkRBbWttTnlBeE1ybzF1QXdLS3FtWmVVdE9NMUNjdVhiT0Y2TTMybFVnQmdQLXFmbXhTY01Mb3pUWXc?oc=5",
@@ -310,7 +307,7 @@
    "d": "2026-11-16T01:57:02+00:00",
    "lang": "en",
    "t": "KFC is hosting a fake funeral in Australia so people can take the day off for GTA 6",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQUjJTNEhIUEFPQXQ0VXQxQ2lsSU4za25zdUZ3MHlFWGdiQUVDTnVsQTg3N2hTaGFuVmg2QVV4SFJvUktqVWVBN3JLNWp1MHdJcUdTYW1wRzlFNkRYSnhwZElra1IyMjVNbkZ0bFB2TlJMRGNEVjctVVJuamxYbW1sZUJ3S1dGQQ?oc=5",
@@ -406,7 +403,7 @@
    "d": "2026-11-15T18:30:03+00:00",
    "lang": "fr",
    "t": "Une fuite chiffre la durée de GTA 6, 50 heures d'histoire et 200 pour le Platine",
-   "erreur": "Remote end closed connection without response",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -415,7 +412,7 @@
    "d": "2026-11-15T18:26:00+00:00",
    "lang": "en",
    "t": "How long is GTA 6? Leak puts the story at 50 hours, Platinum at 200+",
-   "erreur": "Remote end closed connection without response",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -463,7 +460,7 @@
    "d": "2026-11-15T14:51:11+00:00",
    "lang": "en",
    "t": "Complete Track List for the GTA 6 Soundtrack Leaks Right Launch Day",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -584,19 +581,6 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBOY2lOUDNiU1M4d3NYdkdoVHdNaVQ1ZDJKRTBlU2tiellrSE9fa19XU3FNdEdHb1l0Q3Y1MHhySmxBNW93SnhoeGhRNFpzc0htaXFQLVdPakx4Y0NDUGFKREdjQ2dhYkZTU2lkZnlFS0w?oc=5",
-   "s": "Complex",
-   "d": "2026-11-15T03:01:40+00:00",
-   "lang": "en",
-   "t": "'Grand Theft Auto VI' Leaked Soundtrack Confirmed Real, Feat. Travis Scott, Playboi Carti, and More",
-   "u": "https://www.complex.com/music/a/treyalston/gta-6-soundrack-real",
-   "img": "https://images.complex.com/complex/image/upload/c_crop,h_1081,w_1919,x_0,y_0/g_auto:aoi_768_433_384_216,ar_1.91,c_fill,q_auto,w_1200/sanity-new/crivqgk9ya2kmn9w4ivf",
-   "chapeau": "A leaked soundtrack for 'GTA VI' that features Travis Sco...",
-   "txt": "Comment Save Share Comments Comments (Photo by Jakub Porzycki/NurPhoto via Getty Images) Key Takeaways Complex’s close sources confirm the leaked GTA VI soundtrack tracklist, with Dua Lipa and Tove Lo among the artists contributing to the four-sided album. The report lists a Nov. 19 game launch and says Rockstar will celebrate two days later with Grand Theft Auto VI: The Festival in Miami. A leaked tracklist for the upcoming soundtrack to Grand Theft Auto VI has been making its way around the internet, with many people wondering if it’s real or not. Today, we’re confirming that it is, according to our source.\nA source close to the situation say that the stacked tracklist for the highly anticipated video game featuring artists like Playboi Carti , Cardi B , Gunna, and JT is real.\nIn addition to the aforementioned artists, additional artists including Travis Scott , Dua Lipa , Morgan Wallen , Tove Lo , Zara Laarson , and Lana Del Rey all make appearances across the LP.\nThe hype for GTA VI is at an all-time high as the hours count down to its release on Nov. 19. Scott recently shared a picture of himself with a quasi-physical copy of the game in hand while also holding some pizza. “What y’all on?” he asked in the post’s caption. “Tryna lock in. Beats, pizza, bring ya [own] controller. Who down?”\nTwo days after the game launches, Rockstar will be celebrating its release with an event called Grand Theft Auto VI: The Festival in Miami. Travis Scott, Kodak Black , Cardi B, and other artists will be performing, presumably playing the music they contributed to the soundtrack.\nIf you plan to play, make sure you preorder and predownload the game so there aren’t any issues when you load up at 12 AM on Nov. 19 (we know you will).\nPop Culture Will 'GTA 6' Be the Most Expensive Game Launch Ever?\nLeaked edition prices, billion-dollar development estimates and a confirmed November 2026 launch date have fans asking how much 'GTA 6' will really cost on day one.\nPop Culture 'GTA 6' Turns Your Criminal Profile Into An Honor System\nA list of 69 new features the game will contain has now ben published.\nPop Culture Former Rockstar Dev Says Another ‘GTA 6’ Delay Wouldn’t Surprise Him\nA veteran of GTA 5 explains why Rockstar might push the blockbuster sequel again — and why fans will still line up for GTA 6 on any date.",
-   "pub": "",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSXkxQnVpMUZYR2lNcmVWSFlucjluSWo3LWdwc3lJOWhZaENRbWQxb2JMdFBxakNEOWt5dnQ1cUFNYmNXeXBSd2drVzd1OS1zUV9uYVVQVEFYeWhwVnRZUV9ocVB4a05kOHUyZkxsaUJlcGJYWl9JbGQ0NVlWT1F3ZGlPNFkwZVdmLVAydURPUzgxR3lrY2NaQUtLQ0N6cVhiNE0zWWc4eEVTRmV0eHo3UW1JUFdUYnVoOWJBangyaVJsbFpFSFR3Um92SnY3Zw?oc=5",
    "s": "IGN France",
    "d": "2026-11-14T23:29:00+00:00",
@@ -641,7 +625,7 @@
    "d": "2026-11-14T10:57:50+00:00",
    "lang": "fr",
    "t": "GTA 6 : une campagne Twitch Drops aurait fuité avant sa sortie",
-   "erreur": "HTTP Error 412: Precondition failed",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -650,7 +634,7 @@
    "d": "2026-11-14T10:49:01+00:00",
    "lang": "fr",
    "t": "GTA VI : L'Album — toute la liste des morceaux a fuité en ligne",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -724,11 +708,7 @@
    "d": "2026-10-26T04:38:45+00:00",
    "lang": "en",
    "t": "Cyberleek Shares More GTA 6 Footage Featuring Lucia Naked",
-   "u": "https://www.imdb.com/fr/news/ni66063856/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -750,11 +730,7 @@
    "d": "2026-10-22T15:12:54+00:00",
    "lang": "en",
    "t": "Cyberleek Shares GTA 6 Leak Of Naked Lucia",
-   "u": "https://www.imdb.com/news/ni66062173/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -815,7 +791,7 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
    "t": "Le token CYBERLEEK chute de 40 % alors que le leaker de GTA 6 lance de nouvelles menaces",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   }
  ]
