@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-16T02:10:34+00:00",
+ "maj": "2026-11-16T02:31:12+00:00",
  "articles": [
   {
    "gn": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNOW9mX25QbXg5U2pob21oWlh6ZFUwOE84SmdtMkFwSEY1R1ZtdllRM3RfenZUYm9GcjVTRHJjamw3Q3Vya1RVZXY4SC1nei00TnRqYU13OEhXdVFDdjhkT0Fhc21mZnFDLWFaclVEcWRVZTBuWjZNWnMyRV95aDRfSUdvbWF5SVJxTHcxVGt3MTMxVklQYnpSVjl2Zm1LLUN2NVY3ZGVSZzhyZ2l1SXJnR0o3a2NJX1JfLTVYZkVWR1JNb29ubjIxTENDbTk?oc=5",
@@ -7,7 +7,7 @@
    "d": "2026-11-16T01:57:02+00:00",
    "lang": "en",
    "t": "KFC is hosting a fake funeral in Australia so people can take the day off for GTA 6",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQd2pfeEc5T1lZYVNvUUZqX19FaFRVYkVQbUFKNVhabl96cDd0RVpHZkFoNVQ5VUNZYTBILVo2YmZMRUg2eUdxcXI5WTBnOUdDWkc1UFdMOThkYjZxMWZyYVIwLVFYbEpTZzEyMVlBeEFKVnlUUGxZM1ptbklwWU80RkE1MA?oc=5",
@@ -27,7 +27,7 @@
    "d": "2026-11-16T00:55:00+00:00",
    "lang": "fr",
    "t": "GTA 6 sort mercredi à midi dans un pays, les joueurs français pourraient en profiter",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "HTTP Error 429: Too Many Requests"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPZDBIWWJObW1ieGRUdUV3REw2aTh3ejZfLUpCMjZuWGNtalBlZ1c2RXZmT19tZ2ZoYy1yNEgweDVkdzNlNzFlc2toeE1Hb245bl9CNmFqb0dNbkd0djl0VEdZclpCeDdXMy1rdmxRYjdxaGo0dnV0MTJrRzlyRGdFSXdfcEhVc2Z1MDQ4NlAyOG9XcGdtOHMtU3lwMTlEOTNVWmxVb0YzMzNSVjZ6UUkxVkxPekJfNlVJdGQ0Mk9SNk5KZVBoOVdYR2FMXzJtWkxwYkp4NURiejJWVjJxTDg5NGhIcF9kUTV4U2NHcU9NRnRDbncwdjFlQ19RUlBsb215WGEybWhDbXNpUnM3bTVpUDZoS2FNUDV3cWdCWEVRcw?oc=5",
@@ -96,11 +96,7 @@
    "d": "2026-11-15T23:57:57+00:00",
    "lang": "en",
    "t": "‘Grand Theft Auto VI’ could be biggest entertainment launch ever",
-   "u": "https://www.nbcnews.com/nightly-news/video/-grand-theft-auto-vi-could-be-biggest-entertainment-launch-ever-273556549787",
-   "img": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/mpx/2704722219/2026_11/1794786652515_wnn_bch_grand_theft_auto_6_preview_261115_S3_1920x1080-oyq1ly.jpg",
-   "chapeau": "Sales of GTA 6, more than a decade in the making, reportedly already surpassed a billion dollars before release. Industry insiders think the game could not only be the biggest video game release, but the biggest entertainment release of all time. NBC News’ Brian Cheung reports.",
-   "txt": "",
-   "pub": ""
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMingFBVV95cUxQU2Vrc3ctQWJlb1dpT29yX3FFSmNhRTdSOWthMGZETU5RM29DSXNma0RiLTdFV0NsVlhyV2F3WGtQR1Nya3BhckVBRTNqRjNfN0NhTEw0REZNTHR6ZzJMSXV4ZHI1cC03b2UxT2RzdkRqeEdFUm41dFczOXY1SGRqTmFOemppS29HLUJsVTY0dHpYYlRzODcwVGtRN3dWUQ?oc=5",
@@ -254,7 +250,7 @@
    "d": "2026-11-15T18:51:42+00:00",
    "lang": "fr",
    "t": "GTA VI a été comparé à Vice City et a démontré le bond technologique réalisé par Rockstar en 24 ans de développement.",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQamhIclMxaHhGSjctVkJIMGYwcG1YV0pVRWZnMWRFYnBpQUZINWxIRm04X014NWZTbWtVeUF5aExvVkV2Smt5RGFjWnctOEtkZFVjNTEtZzdwSVRzQ0dhQVd3M01pZTVTeW1HUldsbnh4U3FhbjZTX1ZrMU84VUhKaEFjZ1FZdVZhdjhBZ2lsblg1X1NLS2ZFS2xUSHp3VDg?oc=5",
@@ -262,7 +258,7 @@
    "d": "2026-11-15T18:50:10+00:00",
    "lang": "fr",
    "t": "L'analyste pense que la note de GTA 6 sur Metacritic devrait être d'au moins 90 points",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZmtQNWdSNUtvdWQ1Ynllclhrd0FfcTdoaE1UX3VCU0hEWWEwZHk5WjRGcEpkSFlSVGh4UWJTM2tOZUFZU0swY3RBV2FEUDFWTHpkZzFIS2pfenZUc0xCRm5ydVBYWEY3NkxmM1ZXZWVyTFU4ME03bFdScE03cE4zX3R5aw?oc=5",
@@ -295,7 +291,7 @@
    "d": "2026-11-15T18:30:03+00:00",
    "lang": "fr",
    "t": "Une fuite chiffre la durée de GTA 6, 50 heures d'histoire et 200 pour le Platine",
-   "erreur": "Remote end closed connection without response",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -304,7 +300,7 @@
    "d": "2026-11-15T18:26:00+00:00",
    "lang": "en",
    "t": "How long is GTA 6? Leak puts the story at 50 hours, Platinum at 200+",
-   "erreur": "Remote end closed connection without response",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -313,7 +309,7 @@
    "d": "2026-11-15T18:12:45+00:00",
    "lang": "fr",
    "t": "La campagne principale de GTA 6 sur PS5 durera environ 50 heures et comprendra 100 missions.",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5HLVhORVdjdF9TTHhlUlZHUkNlVGItOWh3NURvenJBSGZuVFR1OFRldnlPbVZjQkhkZnVGY2NWLWdodUdQUkxpX2cycHJCT0dCeW83aEdmazJYRzFMZlNieW0zcHI1Z3pOaFp6Z0pLQmJUNnU0?oc=5",
@@ -359,11 +355,15 @@
    "d": "2026-11-15T17:33:08+00:00",
    "lang": "fr",
    "t": "GTA VI : les « mappeurs », les fans qui ont voulu recréer le jeu avant sa sortie",
-   "u": "https://www.leparisien.fr/video/programme/combo/gta-vi-les-mappeurs-les-fans-qui-ont-voulu-recreer-le-jeu-avant-sa-sortie-15-11-2026-3TDMHXFYORGWHCPA4WY7K3E6LM.php",
-   "img": "https://www.leparisien.fr/resizer/mQvbUasmrXG5GdEZe2QliBXnX4U=/1600x900/cloudfront-eu-central-1.images.arcpublishing.com/leparisien/ZGROMEPV4JAG3IM7EFKOPPPBKI.jpg",
-   "chapeau": "Depuis les toutes premières images de « GTA 6 »,  issues d'une fuite de données, une communauté de fans très particulière s'est immédiatemen",
-   "txt": "",
-   "pub": "2026-11-15T18:33:08+01:00"
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiogJBVV95cUxOUjN4QVpPcVhGYUZiMXdCWHB0em5rcm40YlNhZDl4UjYwWFpjS1E3YnhOcWtub3RhQWlITzM3eUJSLXNxeF90TWdBQzZJMUE0RUo1V2ZhejJzTWhqLUpFbEUyWTlYSnNCb2lkcUtBZXkySS1qVHpUYXZkRnFJZFhta3RFNEcxd05rM2RaOERiVkZFbnd2cVJZbGdhOGt1d1M0bGl1SVFyTDJIUWFSOTN3MU5sQTBpS0hSaGJQQVoyb3JuRVlsWGhEZndtbHNQZUxqbU0tZ25BdHVRbDVBZ1hPV2c5SndyZ3FySlZJdU1UNFBZRE5UeWczQlNpN1p2RUtGSnJQQlg1cDBkS3owNFp1WElrNGhaOW9hUU1tY2hEYWNldw?oc=5",
+   "s": "Le Figaro",
+   "d": "2026-11-15T17:25:18+00:00",
+   "lang": "fr",
+   "t": "«Un phénomène de société dont on va parler pendant des années» : GTA 6 s’apprête à cannibaliser Netflix, TikTok et toute l’industrie du divertissement",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMElqblZJdTVJSlhKRFo5V0pJNkowZTZJSV8zcFRZN2JuWnA2Y3FoeC02SkhKdjBzdmRFTnlFTHpMaHRlYWx1ZF9zSmlHV0l2a2VCN1ZFUXlrbFpEdEtxX0RmZmVBMFlsWHdGblNZbFZzMTlmYjBrNmpIaFpROEVhU3F1V0NyUXlPZ0dzQnhVTDJvcXZ4WlhWdkV1TGVGRWs1cGJfUjFMSHF6TV95aUdBVlpvQ0N3OUVwSUk4eEszZVg3MW5tN1E?oc=5",
@@ -428,20 +428,12 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcTAwQUxBQVhzLVdhUGdRQXh6Ty1vY2RIeWY4Q29uS19GYVI3VTBVRXp2Z2tRYU9NUjNnX19xdHlCWU1XTUxPOTZ3OUZZNGI4cmZOSGdVY0E4ZWFpb0EyaGoyLTZ1Sm5MUVJnc3NXaXhPNzhSQ1FTSFBKZDVaN1ZoLWx6NTR0VG9wV0pLV2RoMko0TThERmthM0hpUnVnWXM?oc=5",
-   "s": "EGW.News",
-   "d": "2026-11-15T15:08:22+00:00",
-   "lang": "fr",
-   "t": "Tom Henderson a révélé de nouveaux détails sur GTA 6 — la durée du jeu, l'intrigue, Platinum et bien plus encore",
-   "erreur": "HTTP Error 403: Forbidden"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSlp0RFMwTDNiS2ZIU0JoQmZrQmluN1NSTTNPMmwzN05KV1BHZUEzcjAxY3hiaW5lYzdON3ZtMC1TMlRIQllPZnN6WFRSQklld3ZQWE9WaUlHSFN4MC03SnYzdk45RFEtdmVSQjQ0bGYxb3ZmSU9wMGgwdGRqTU9McU1KeWZ0SmdweDEwQ2VpemYzaVA0bWtXRU5DZEtJYzJqMGdCMWl6SWl5WmFGN2c?oc=5",
    "s": "Men's Journal",
    "d": "2026-11-15T14:51:11+00:00",
    "lang": "en",
    "t": "Complete Track List for the GTA 6 Soundtrack Leaks Right Launch Day",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -580,7 +572,7 @@
    "d": "2026-11-15T02:10:00+00:00",
    "lang": "en",
    "t": "'Grand Theft Auto 6' Album Tracklist Leaks; Lana Del Rey, Michael McDonald Contribute New Music",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -589,7 +581,7 @@
    "d": "2026-11-15T01:53:36+00:00",
    "lang": "en",
    "t": "GTA 6 Soundtrack: All Artists, Songs, and Radio Stations",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -637,7 +629,7 @@
    "d": "2026-11-14T10:57:50+00:00",
    "lang": "fr",
    "t": "GTA 6 : une campagne Twitch Drops aurait fuité avant sa sortie",
-   "erreur": "HTTP Error 412: Precondition failed",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -646,7 +638,7 @@
    "d": "2026-11-14T10:49:01+00:00",
    "lang": "fr",
    "t": "GTA VI : L'Album — toute la liste des morceaux a fuité en ligne",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -720,11 +712,7 @@
    "d": "2026-10-26T04:38:45+00:00",
    "lang": "en",
    "t": "Cyberleek Shares More GTA 6 Footage Featuring Lucia Naked",
-   "u": "https://www.imdb.com/fr/news/ni66063856/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -746,11 +734,7 @@
    "d": "2026-10-22T15:12:54+00:00",
    "lang": "en",
    "t": "Cyberleek Shares GTA 6 Leak Of Naked Lucia",
-   "u": "https://www.imdb.com/news/ni66062173/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -811,7 +795,7 @@
    "d": "2026-10-15T07:00:00+00:00",
    "lang": "fr",
    "t": "Le token CYBERLEEK chute de 40 % alors que le leaker de GTA 6 lance de nouvelles menaces",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
