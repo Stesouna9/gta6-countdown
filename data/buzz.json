@@ -1,8 +1,28 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-16T16:12:56+01:00",
+  "updated_at": "2026-11-16T18:12:47+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-cactus-jack-nike-heat-merch-2026-11-16",
+      "title": "GTA 6 : une collection de merchandising avec Cactus Jack, Nike et le Miami HEAT",
+      "summary": "Le compte fan @gtasix_ annonce une nouvelle collection de merchandising GTA 6 réalisée avec Travis Scott (Cactus Jack), Nike et le Miami HEAT. Le post n a pas été repris par la presse relevée dans data/presse.json ; la collection est détaillée dans notre article du 16 novembre.",
+      "url": "https://x.com/gtasix_/status/2122340161598189984",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rapporté",
+      "published_at": "2026-11-16T14:45:00.000Z",
+      "checked_at": "2026-11-16T18:12:47+01:00",
+      "evidence": "Vues relevées le 2026-11-16 dans data/x_alertes.json : 20 929 vues, 838 likes, 45 reposts (@gtasix_, 14 h 45 UTC). Aucune corroboration presse relevée dans data/presse.json.",
+      "visual": "MERCH CACTUS JACK",
+      "image": "https://pbs.twimg.com/media/HXQMsrRWIAAYyTn?format=jpg&name=small",
+      "image_alt": "Image du post de @gtasix_ annonçant la collection GTA 6 avec Cactus Jack, Nike et le Miami HEAT",
+      "image_credit": "@gtasix_ sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "New GTA 6 merch in collaboration with Travis Scott’s Cactus Jack, Nike and the Miami HEAT.",
+      "article": "journal/2026-11-16-cactus-jack-nike-miami-heat-collection-gta6.html"
+    },
     {
       "id": "x-kurtaj-plaide-coupable-2026-11-16",
       "title": "GTA 6 : le pirate de la fuite de 2022, Arion Kurtaj, plaide coupable",
@@ -4342,6 +4362,11 @@
       "at": "2026-11-16T16:12:56+01:00",
       "label": "Passage Claude Haiku (Matière X, 16/11)",
       "summary": "Relevé data/x_alertes.json : 1 sujet ajouté. Plaidoyer d'Arion Kurtaj (@gtasix_ 91 000 vues, @GTAlphaintel 10 095 vues, corroboration Insider Gaming). Écartés : merch Cactus Jack (9 653 vues, compte unique), codes volés (12 973 vues, compte unique), 01.002.001 et 15 millions déjà publiés."
+    },
+    {
+      "at": "2026-11-16T18:12:47+01:00",
+      "label": "Passage Claude Haiku (Matière X, 16/11)",
+      "summary": "Relevé data/x_alertes.json (maj 16 h 13 UTC) : 1 sujet ajouté. Merch Cactus Jack, Nike et Miami HEAT (@gtasix_, 20 929 vues, à la date du relevé). Écartés : mugshot Kurtaj (doublon du sujet publié), 15 millions et mise à jour 01.002.001 (déjà publiés), codes volés (15 354 vues, compte unique), KFC Australia (8 117 vues), NBA 2K27 (sous le seuil)."
     }
   ],
   "coverage": {
