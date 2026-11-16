@@ -1,8 +1,27 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-16T10:13:00+01:00",
+  "updated_at": "2026-11-16T12:12:48+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-patch-01-002-001-ps5-xbox-2026-11-16",
+      "title": "GTA 6 : une deuxième mise à jour 01.002.001 sur PS5 et Xbox",
+      "summary": "@PlaystationSize annonce la mise à jour 01.002.001 de GTA 6, disponible pour 33 % des utilisateurs, le reste dans 12 à 24 heures. @gtasix_ la décrit comme la deuxième mise à jour avant lancement : 602,5 Mo sur PS5, 1,59 Go sur Xbox Series X|S.",
+      "url": "https://x.com/PlaystationSize/status/2122271968594653380",
+      "platform": "X",
+      "author": "@PlaystationSize",
+      "status": "Rapporté",
+      "published_at": "2026-11-16T10:14:01Z",
+      "checked_at": "2026-11-16T12:12:48+01:00",
+      "evidence": "Vues relevées le 2026-11-16 dans data/x_alertes.json : 58 598 vues (@PlaystationSize, 10 h 14 UTC), 25 045 (@gtasix_, 10 h 25 UTC). Deux comptes reprennent l’information ; non confirmée par Sony, Microsoft ou Rockstar à cette heure. Aucune note de version publiée.",
+      "visual": "MISE À JOUR 01.002.001",
+      "image": "https://pbs.twimg.com/media/HXPTF-DboAAIQ7m?format=jpg&name=small",
+      "image_alt": "Image du post de @PlaystationSize annonçant la mise à jour 01.002.001 de GTA 6",
+      "image_credit": "@PlaystationSize sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "GTA 6 - Update 01.002.001: 33% of Users: Now Available. 66% of Users: in 12h. All Users: in 24h. Update Size: 602 MB"
+    },
     {
       "id": "x-jason-lucia-sommeil-endurance-2026-11-16",
       "title": "GTA 6 : Jason et Lucia, sommeil et endurance dans le détail",
@@ -4250,6 +4269,11 @@
       "at": "2026-11-16T10:13:00+01:00",
       "label": "Passage Claude Haiku (Matière X, 16/11, 10 h 13)",
       "summary": "Relevé data/x_alertes.json (maj 09 h 00 UTC) : posts ≥ 20 000 vues non encore dans items. Sujet ajouté : 1 (détails Jason et Lucia, sommeil et endurance, @GTAVI_Countdown, 124 446 vues). Écartés : même information que la couverture coréenne de la nudité (12/11, déjà couverte), même sujet spoilers que l'item du 08/11 et NZ déjà couvert (330 876 vues, 15/11, rappel), rappel « 72 heures avant le lancement » (43 887 vues, sans information neuve), playlist de fin de partie (contenu fan), posts sous 20 000 vues sans reprise par 2 comptes."
+    },
+    {
+      "at": "2026-11-16T12:12:48+01:00",
+      "label": "Passage Claude Haiku (Matière X, 16/11)",
+      "summary": "Relevé data/x_alertes.json (maj 11 h 04 UTC) : sujet ajouté, mise à jour 01.002.001 PS5/Xbox (@PlaystationSize 58 598 vues, repris par @gtasix_ 25 045). Écartés, déjà publiés : nudité selon la classification coréenne (GTAlphaintel, 339 149 vues), « 72 heures », playlist de fin de partie, Miami. Presse (data/presse.json) : couvre seulement la 1.002.000 du 13/11, pas citée ici."
     }
   ],
   "coverage": {
