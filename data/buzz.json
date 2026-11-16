@@ -1,8 +1,26 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-16T08:12:58+01:00",
+  "updated_at": "2026-11-16T10:13:00+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-jason-lucia-sommeil-endurance-2026-11-16",
+      "title": "GTA 6 : Jason et Lucia, sommeil et endurance dans le détail",
+      "summary": "Un compte fan, @GTAVI_Countdown, relève des détails de GTA 6 tirés des previews et de l'Extended Look : si Jason et Lucia ne dorment pas assez, des cernes apparaissent sous leurs yeux ; après quelques jours sans sommeil, la régénération de l'endurance et de la santé est plus lente. Le post est un relevé de fan, non une annonce de Rockstar.",
+      "url": "https://x.com/GTAVI_Countdown/status/2122218371974353030",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-16T06:41:03.000Z",
+      "checked_at": "2026-11-16T10:13:00+01:00",
+      "evidence": "Vues relevées le 2026-11-16 dans data/x_alertes.json : 124446 vues ; 47 replies, 198 reposts, 3624 likes, 739 bookmarks. Un seul compte relève ce détail dans le relevé ; à rattacher aux previews et à l'Extended Look officiels pour le confirmer.",
+      "visual": "JASON LUCIA",
+      "image": "https://pbs.twimg.com/media/HXOhp8nW8AAQpnq?format=jpg&name=small",
+      "image_alt": "Visuel partagé par @GTAVI_Countdown sur X, publication sur les détails de GTA 6",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "cta": "Voir la publication sur X",
+      "embed_type": "x"
+    },
     {
       "id": "x-famitsu-couverture-32-pages-2026-11-16",
       "title": "GTA 6 en couverture de Famitsu : un dossier de 32 pages le 19 novembre",
@@ -4227,6 +4245,11 @@
       "at": "2026-11-16T08:12:58+01:00",
       "label": "Passage Claude Haiku (Matière X, 16/11)",
       "summary": "Relevé data/x_alertes.json (maj 06 h 17 UTC) : sujet ajouté, Famitsu (post GTAVI_Countdown 14 097 vues, repris par gta6hubfr). Écartés, même sujet déjà publié : nudité et drogues selon la classification coréenne (12/11), spoilers (mots à masquer), Miami. Écartés, rappels sans information neuve : « 72 heures » (26 665 vues), « final drive » (45 508), « officially releases » (124 441), « 3 jours » RockstarNewsFRA."
+    },
+    {
+      "at": "2026-11-16T10:13:00+01:00",
+      "label": "Passage Claude Haiku (Matière X, 16/11, 10 h 13)",
+      "summary": "Relevé data/x_alertes.json (maj 09 h 00 UTC) : posts ≥ 20 000 vues non encore dans items. Sujet ajouté : 1 (détails Jason et Lucia, sommeil et endurance, @GTAVI_Countdown, 124 446 vues). Écartés : même information que la couverture coréenne de la nudité (12/11, déjà couverte), même sujet spoilers que l'item du 08/11 et NZ déjà couvert (330 876 vues, 15/11, rappel), rappel « 72 heures avant le lancement » (43 887 vues, sans information neuve), playlist de fin de partie (contenu fan), posts sous 20 000 vues sans reprise par 2 comptes."
     }
   ],
   "coverage": {
