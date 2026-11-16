@@ -1,8 +1,65 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-16T22:12:00+01:00",
+  "updated_at": "2026-11-17T00:12:00+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-icone-app-playstation-2026-11-16",
+      "title": "GTA 6 : l’icône GTA 6 de l’application PlayStation est de retour",
+      "summary": "@gtasix_ annonce le retour de l’icône de l’application PlayStation aux couleurs de GTA 6, avant la sortie. @gta6hubfr relaie la même information avec un post distinct.",
+      "url": "https://x.com/gtasix_/status/2122461653589545011",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rapporté",
+      "published_at": "2026-11-16T22:47:46Z",
+      "checked_at": "2026-11-17T00:12:00+01:00",
+      "evidence": "Vues relevées le 2026-11-16 dans data/x_alertes.json : 10 760 vues (@gtasix_, 22 h 47 UTC), 468 (@gta6hubfr, 22 h 55 UTC). Deux comptes reprennent l’information ; non confirmée par Sony ni Rockstar à cette heure.",
+      "visual": "ICÔNE PLAYSTATION",
+      "image": "https://pbs.twimg.com/media/HXR_n8BWIAIV7Mw?format=jpg&name=360x360",
+      "image_alt": "Image du post de @gtasix_ annonçant le retour de l’icône GTA 6 de l’application PlayStation",
+      "image_credit": "@gtasix_ sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "The GTA 6-themed PlayStation App icon has returned ahead of launch."
+    },
+    {
+      "id": "x-andrew-rockstar-film-live-2026-11-16",
+      "title": "GTA 6 : Andrew s’associe à Rockstar, avec une vidéo live-action aux voitures et au dirigeable",
+      "summary": "Le designer miamien Andrew présente une vidéo live-action avec les voitures et le dirigeable de GTA 6, dans le cadre d’une collaboration avec Rockstar Games, relayée par @GTAVI_Countdown. @gta6hubfr annonce de son côté la collaboration de la marque de streetwear Andrew avec Rockstar Games.",
+      "url": "https://x.com/GTAVI_Countdown/status/2122451909948985687",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "2026-11-16T22:09:03.000Z",
+      "checked_at": "2026-11-17T00:12:00+01:00",
+      "evidence": "Vues relevées le 2026-11-16 dans data/x_alertes.json : 75 488 vues (@GTAVI_Countdown, 22 h 09 UTC), 739 (@gta6hubfr, 22 h 21 UTC). Deux comptes reprennent la collaboration ; la vidéo n’est pas confirmée par Rockstar à cette heure.",
+      "visual": "LIVE-ACTION ANDREW",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2122441855862288384/img/w_867ZxaPl3ewTQq.jpg",
+      "image_alt": "Vignette de la vidéo live-action partagée par @GTAVI_Countdown, collaboration Andrew et Rockstar Games",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "New live-action trailer featuring the GTA 6 cars and blimp, shared by Miami based designer Andrew in a collab with Rockstar Games."
+    },
+    {
+      "id": "x-weather-channel-6-captures-2026-11-16",
+      "title": "GTA 6 : six nouvelles captures envoyées à The Weather Channel, avec la pluie et les marais",
+      "summary": "Rockstar a envoyé six nouvelles captures de GTA 6 à The Weather Channel, avec des détails : des réflecteurs sur les routes pour la conduite sous forte pluie, la réparation des phares chez Coastal Auto Care, et une marche dans les marais de Pelican Valley pendant un orage. @gta6hubfr relaie les images.",
+      "url": "https://x.com/GTAVI_Countdown/status/2122440150181392650",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "2026-11-16T21:22:19.000Z",
+      "checked_at": "2026-11-17T00:12:00+01:00",
+      "evidence": "Vues relevées le 2026-11-16 dans data/x_alertes.json : 98 181 vues (@GTAVI_Countdown, 21 h 22 UTC), 3 408 (@gta6hubfr, 21 h 30 UTC, « 6 nouvelles images officielles »). Information venant du post relayé ; non confirmée directement par Rockstar à cette heure.",
+      "visual": "6 CAPTURES PLUIE",
+      "image": "https://pbs.twimg.com/media/HXRtaG9W0AAS4Fk?format=jpg&name=small",
+      "image_alt": "Capture publiée par @gta6hubfr, six nouvelles images de GTA 6 envoyées à The Weather Channel",
+      "image_credit": "@gta6hubfr sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "6 NEW GTA 6 screenshots Rockstar sent to The Weather Channel with extra details."
+    },
     {
       "id": "x-avatars-gta6-rockstar-games-2026-11-16",
       "title": "GTA 6 : les avatars GTA 6 arrivent sur les comptes Rockstar Games",
@@ -4435,6 +4492,11 @@
       "at": "2026-11-16T22:12:00+01:00",
       "label": "Passage Claude Haiku (Matière X, 16/11, 3e)",
       "summary": "Relevé data/x_alertes.json (maj 21 h 00 UTC) : 2 sujets ajoutés. Avatars GTA 6 sur les comptes Rockstar Games (@gtasix_ 324 987 vues, @GTAVI_Countdown, @RockstarNewsFRA : Rapporté). Piccadilly Circus à Londres (@GTAVI_Countdown, 51 510 vues, compte unique : Rumeur). Écartés : marketing 3 jours avant lancement (@GTAlphaintel, 28 494 vues) car déjà couvert par l'entrée Dortmund/Helsinki du 15/11."
+    },
+    {
+      "at": "2026-11-17T00:12:00+01:00",
+      "label": "Passage Claude Haiku (Matière X, 16-17/11, 4e)",
+      "summary": "Relevé data/x_alertes.json (maj 23 h 05 UTC) : 3 sujets ajoutés. Icône PlayStation GTA 6 (@gtasix_ 10 760 vues, @gta6hubfr : Rapporté, deux comptes). Andrew x Rockstar avec vidéo live-action (@GTAVI_Countdown 75 488 vues : Rapporté). Six captures envoyées à The Weather Channel (@GTAVI_Countdown 98 181 vues, @gta6hubfr : Rapporté). Écartés : comparaison GTA 5/GTA 6 (@gtasix_ 34 768 vues) car le genre est déjà couvert par plusieurs entrées de comparaison ; patch 01.002.001 déjà présent ; compte à rebours de @gta6hubfr et @RockstarNewsFRA sans information nouvelle."
     }
   ],
   "coverage": {
