@@ -1,8 +1,46 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-16T12:12:48+01:00",
+  "updated_at": "2026-11-16T14:12:54+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-preorders-15-millions-2026-11-16",
+      "title": "GTA 6 : 15 millions de précommandes, 1,45 milliard de dollars selon Sensor Tower",
+      "summary": "@gtasix_ affirme que GTA 6 a dépassé 15 millions de précommandes, pour 1,45 milliard de dollars de revenus, chiffres attribués à Sensor Tower. Insider Gaming pose la même question dans un article du 16 novembre. Un article de presse française cité plus tôt parlait de plus de 12 millions : le chiffre change selon les sources.",
+      "url": "https://x.com/gtasix_/status/2122298626646983022",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rapporté",
+      "published_at": "2026-11-16T11:59:57Z",
+      "checked_at": "2026-11-16T14:12:54+01:00",
+      "evidence": "Vues relevées le 2026-11-16 dans data/x_alertes.json : 60 457 vues, 4 977 likes (@gtasix_, 11 h 59 UTC). Titre corroboré par Insider Gaming (data/presse.json, 16/11). Aucune confirmation officielle relevée dans nos sources à cette heure.",
+      "visual": "15 MILLIONS",
+      "image": "https://pbs.twimg.com/media/HXPrWQoW0AAWGN9?format=jpg&name=360x360",
+      "image_alt": "Image du post de @gtasix_ annonçant 15 millions de précommandes de GTA 6",
+      "image_credit": "@gtasix_ sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "GTA 6 has now reached 15 MILLION pre-orders, generating $1.45 BILLION in revenue. (Via Sensor Tower)"
+    },
+    {
+      "id": "x-testeurs-cartes-demandees-2026-11-16",
+      "title": "GTA 6 : des testeurs ont dû réclamer plusieurs fois les cartes à Rockstar",
+      "summary": "@GTAlphaintel affirme que des testeurs ont dû demander à plusieurs reprises les cartes du jeu à Rockstar, la carte étant trop vaste pour être inspectée entièrement. Un seul compte rapporte l’information, sans source directe.",
+      "url": "https://x.com/GTAlphaintel/status/2122237987690095005",
+      "platform": "X",
+      "author": "@GTAlphaintel",
+      "status": "Rumeur",
+      "published_at": "2026-11-16T07:59:00Z",
+      "checked_at": "2026-11-16T14:12:54+01:00",
+      "evidence": "Vues relevées le 2026-11-16 dans data/x_alertes.json : 22 191 vues, 606 likes (@GTAlphaintel, 7 h 59 UTC). Un seul compte, aucune reprise relevée dans data/x_alertes.json.",
+      "visual": "CARTES DU JEU",
+      "image": "https://pbs.twimg.com/media/HXMofa3akAArd4P?format=jpg&name=360x360",
+      "image_alt": "Image du post de @GTAlphaintel sur les cartes de GTA 6",
+      "image_credit": "@GTAlphaintel sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "GTA VI reviewers had to request maps from Rockstar multiple times. The game's vast map made it difficult to inspect every area."
+    },
     {
       "id": "x-patch-01-002-001-ps5-xbox-2026-11-16",
       "title": "GTA 6 : une deuxième mise à jour 01.002.001 sur PS5 et Xbox",
@@ -4274,6 +4312,11 @@
       "at": "2026-11-16T12:12:48+01:00",
       "label": "Passage Claude Haiku (Matière X, 16/11)",
       "summary": "Relevé data/x_alertes.json (maj 11 h 04 UTC) : sujet ajouté, mise à jour 01.002.001 PS5/Xbox (@PlaystationSize 58 598 vues, repris par @gtasix_ 25 045). Écartés, déjà publiés : nudité selon la classification coréenne (GTAlphaintel, 339 149 vues), « 72 heures », playlist de fin de partie, Miami. Presse (data/presse.json) : couvre seulement la 1.002.000 du 13/11, pas citée ici."
+    },
+    {
+      "at": "2026-11-16T14:12:54+01:00",
+      "label": "Passage Claude Haiku (Matière X, 16/11)",
+      "summary": "Relevé data/x_alertes.json (maj 13 h 07 UTC) : 2 sujets ajoutés. Pré-commandes 15 millions (@gtasix_, 60 457 vues, titre repris par Insider Gaming). Testeurs et cartes (@GTAlphaintel, 22 191 vues, compte unique, statut Rumeur). Écartés, déjà publiés : mise à jour 01.002.001, Jason et Lucia, Famitsu, 200 heures de Platine. Écartés, sous le seuil : code volés (2 455 vues), J-2 et compte à rebours (25 735 et 2 340 vues), sondage manettes RockstarNewsFRA (7 720 vues), logo GTA6Hub."
     }
   ],
   "coverage": {
