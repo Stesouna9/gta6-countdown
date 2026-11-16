@@ -1,8 +1,27 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-16T00:13:19+01:00",
+  "updated_at": "2026-11-16T08:12:58+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-famitsu-couverture-32-pages-2026-11-16",
+      "title": "GTA 6 en couverture de Famitsu : un dossier de 32 pages le 19 novembre",
+      "summary": "Le magazine japonais Famitsu consacre sa couverture à GTA 6 dans le numéro en vente le 19 novembre au Japon : un dossier de 32 pages, un panorama du jeu et une rétrospective de l'histoire de Rockstar. @GTAVI_Countdown le relaie sur X, @gta6hubfr aussi ; l'article du site détaille la parution.",
+      "url": "https://x.com/GTAVI_Countdown/status/2122200754706686282",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "2026-11-16T05:31:03.000Z",
+      "checked_at": "2026-11-16T08:12:58+01:00",
+      "evidence": "Vues relevées le 2026-11-16 dans data/x_alertes.json : 14097 vues ; 17 replies, 32 reposts, 401 likes, 35 bookmarks. Repris par @gta6hubfr (747 vues, 2026-11-16 04:10 UTC). Publication de Famitsu annoncée dans le magazine ; l'article du site la détaille.",
+      "visual": "FAMITSU COUVERTURE",
+      "image": "https://pbs.twimg.com/media/HXNhh8KakAAUGz7?format=jpg&name=small",
+      "image_alt": "Visuel partagé par @GTAVI_Countdown sur X, couverture de Famitsu avec GTA 6",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "cta": "Voir la publication sur X",
+      "embed_type": "x",
+      "article": "journal/2026-11-16-famitsu-couverture-32-pages-gta6.html"
+    },
     {
       "id": "x-programmation-posts-rockstarnews-2026-11-15",
       "title": "GTA 6 : un compte fan annonce des publications programmées à partir de mercredi",
@@ -4203,6 +4222,11 @@
       "at": "2026-11-16T00:13:19+01:00",
       "label": "Passage Claude Haiku (Matière X, 15/11, 23 h 05 UTC)",
       "summary": "Relevé data/x_alertes.json (maj 23 h 05 UTC) : nouveaux posts ≥ 20 000 vues non encore dans items. Sujets ajoutés : 3 (message RockstarNewsFRA sur les posts programmés, 28 714 vues ; bandeau Édimbourg terminé, 125 189 vues, suite du sujet du jour ; bilan wishlist de gtasix_, 113 219 vues). Écartés : anniversaire de la bande-annonce de lancement (49 510 vues, rappel sans information neuve), prédiction des tests dans 3 jours (non vérifiable), posts sous 20 000 vues (Sensor Tower 12,1 M, progression des capacités, ESRB/Corée, communication RockstarNewsFRA 355 vues)."
+    },
+    {
+      "at": "2026-11-16T08:12:58+01:00",
+      "label": "Passage Claude Haiku (Matière X, 16/11)",
+      "summary": "Relevé data/x_alertes.json (maj 06 h 17 UTC) : sujet ajouté, Famitsu (post GTAVI_Countdown 14 097 vues, repris par gta6hubfr). Écartés, même sujet déjà publié : nudité et drogues selon la classification coréenne (12/11), spoilers (mots à masquer), Miami. Écartés, rappels sans information neuve : « 72 heures » (26 665 vues), « final drive » (45 508), « officially releases » (124 441), « 3 jours » RockstarNewsFRA."
     }
   ],
   "coverage": {
