@@ -15,12 +15,23 @@
     {
       "id": "telechargement-debit-calcul",
       "post": "⏱️ Télécharger GTA 6 dépend de votre débit. Calcul en théorie : 100 Go en 1 Gbit/s ≈ 13 min 20 s, en 8 Gbit/s ≈ 1 min 40 s. Lancez le téléchargement avant le 19/11. Détail en réponse 👇 Non sponsorisé. #GTA6",
-      "reponse": "Repères relevés le 15/11 sur free.fr : • Freebox Ultra : débit descendant théorique jusqu'à 8 Gbit/s • Calcul : 1 octet = 8 bits, donc 100 Go = 800 Gbit • À 1 Gbit/s : 800 s, soit 13 min 20 s • À 8 Gbit/s : 100 s, soit 1 min 40 s • Débit réel plus bas selon la connexion et le serveur. Source : free.fr/freebox/freebox-ultra/",
+      "reponse": "Repères relevés le 16/11 sur free.fr : • Freebox Ultra : débit descendant théorique jusqu'à 8 Gbit/s • Calcul : 1 octet = 8 bits, donc 100 Go = 800 Gbit • À 1 Gbit/s : 800 s, soit 13 min 20 s • À 8 Gbit/s : 100 s, soit 1 min 40 s • Débit réel plus bas selon la connexion et le serveur. Source : free.fr/freebox/freebox-ultra/",
       "sources": [
         "https://www.free.fr/freebox/freebox-ultra/"
       ],
       "image": "2026-11-13-telechargement-212-go-haut-debit-lent-gta6",
-      "releve": "2026-11-15",
+      "releve": "2026-11-16",
+      "valable_jusqu_au": "2026-11-19"
+    },
+    {
+      "id": "precommande-gta6-materiel-79-95",
+      "post": "🎮 Précommande GTA VI chez Materiel.net : Xbox Series X à 79,95 € (jeu avec code de téléchargement dans la boîte), PS5 au même prix mais en rupture sur le web. Détail des prix en réponse 👇 Non sponsorisé. #GTA6",
+      "reponse": "Repères relevés le 16/11 sur materiel.net : • GTA VI Xbox Series X, avec code de téléchargement dans la boîte : 79,95 € (précommande) • GTA VI PS5, même format : 79,95 € (rupture sur le web) Source : materiel.net/recherche/gta 6/",
+      "sources": [
+        "https://www.materiel.net/recherche/gta%206/"
+      ],
+      "image": "2026-11-14-codes-boites-ps5-risque-signale-gta6",
+      "releve": "2026-11-16",
       "valable_jusqu_au": "2026-11-19"
     }
   ]
