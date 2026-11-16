@@ -1,8 +1,46 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-16T20:12:36+01:00",
+  "updated_at": "2026-11-16T22:12:00+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-avatars-gta6-rockstar-games-2026-11-16",
+      "title": "GTA 6 : les avatars GTA 6 arrivent sur les comptes Rockstar Games",
+      "summary": "Rockstar Games rend disponibles des avatars à l'effigie de GTA 6 sur les comptes Rockstar Games, relayé par @gtasix_ (plus de 324 000 vues) et @GTAVI_Countdown, qui réclame ces avatars sur PSN.",
+      "url": "https://x.com/gtasix_/status/2122400848403972299",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rapporté",
+      "published_at": "2026-11-16T18:46:09.000Z",
+      "checked_at": "2026-11-16T22:12:00+01:00",
+      "evidence": "Vues relevées le 2026-11-16 dans data/x_alertes.json : 324 987 vues (@gtasix_, 18 h 46 UTC), 122 658 vues (@GTAVI_Countdown, 18 h 49 UTC), 21 874 vues (@RockstarNewsFRA, 18 h 45 UTC). Trois comptes reprennent l'information ; pas encore de média dans data/presse.json.",
+      "visual": "AVATARS GTA 6",
+      "image": "https://pbs.twimg.com/media/HXRIUcgXUAA9xGM?format=jpg&name=360x360",
+      "image_alt": "Image du post de @gtasix_ annonçant les avatars GTA 6 sur les comptes Rockstar Games",
+      "image_credit": "@gtasix_ sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "GTA 6 avatars are now available for Rockstar Games accounts."
+    },
+    {
+      "id": "x-piccadilly-circus-trailer-londres-2026-11-16",
+      "title": "GTA 6 : le trailer de lancement diffusé sur un écran géant à Piccadilly Circus",
+      "summary": "Une photo relayée par @GTAVI_Countdown montre Rockstar occupant Piccadilly Circus, à Londres, avec le trailer de lancement de GTA 6 sur un écran géant.",
+      "url": "https://x.com/GTAVI_Countdown/status/2122404817419067812",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-16T19:01:55.000Z",
+      "checked_at": "2026-11-16T22:12:00+01:00",
+      "evidence": "Vues relevées le 2026-11-16 dans data/x_alertes.json : 51 510 vues, 3 027 likes, 186 reposts (@GTAVI_Countdown, 19 h 01 UTC). Post crédité à @needlessrelic16 ; un seul compte relaie l'information à ce jour.",
+      "visual": "PICCADILLY CIRCUS",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2122392807952302080/img/7Winw1mWv3W88DTp.jpg",
+      "image_alt": "Image du post de @GTAVI_Countdown montrant le trailer de GTA 6 sur un écran géant à Piccadilly Circus",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Rockstar takes over Piccadilly Circus in London with the GTA 6 launch trailer playing on a giant screen. (via @needlessrelic16)"
+    },
     {
       "id": "x-nba-2k27-collab-rockstar-2026-11-16",
       "title": "GTA 6 : NBA 2K27 révèle sa collaboration avec Rockstar, avec Jason et Lucia",
@@ -4392,6 +4430,11 @@
       "at": "2026-11-16T20:12:36+01:00",
       "label": "Passage Claude Haiku (Matière X, 16/11, 2e)",
       "summary": "Relevé data/x_alertes.json (maj 18 h 16 UTC) : 1 sujet ajouté. Collaboration NBA 2K27 révélée (@GTAVI_Countdown, 94 153 vues, corroborée par IGN FR, Polygon, 4wearegamers). Écartés : Cheetah Miami (@gtasix_, 10 068 vues, compte unique), mise à jour Xbox 1,6 Go (@GTAlphaintel, 6 724 vues), artwork NBA 2K27 (même sujet, 20 266 vues, couvert par l'entrée)."
+    },
+    {
+      "at": "2026-11-16T22:12:00+01:00",
+      "label": "Passage Claude Haiku (Matière X, 16/11, 3e)",
+      "summary": "Relevé data/x_alertes.json (maj 21 h 00 UTC) : 2 sujets ajoutés. Avatars GTA 6 sur les comptes Rockstar Games (@gtasix_ 324 987 vues, @GTAVI_Countdown, @RockstarNewsFRA : Rapporté). Piccadilly Circus à Londres (@GTAVI_Countdown, 51 510 vues, compte unique : Rumeur). Écartés : marketing 3 jours avant lancement (@GTAlphaintel, 28 494 vues) car déjà couvert par l'entrée Dortmund/Helsinki du 15/11."
     }
   ],
   "coverage": {
