@@ -1,8 +1,28 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-16T18:12:47+01:00",
+  "updated_at": "2026-11-16T20:12:36+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-nba-2k27-collab-rockstar-2026-11-16",
+      "title": "GTA 6 : NBA 2K27 révèle sa collaboration avec Rockstar, avec Jason et Lucia",
+      "summary": "Le compte fan @GTAVI_Countdown relaie la collaboration entre NBA 2K27 et Rockstar : tenues de Jason et Lucia, voitures de GTA 6, dirigeable Vice City, statue de Macca the Gator et Sahara Arena. Sortie le 27 novembre, avec un accès gratuit pour les abonnés GTA+ selon la presse.",
+      "url": "https://x.com/GTAVI_Countdown/status/2122369776047518035",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "2026-11-16T16:42:40.000Z",
+      "checked_at": "2026-11-16T20:12:36+01:00",
+      "evidence": "Vues relevées le 2026-11-16 dans data/x_alertes.json : 94 153 vues, 1 883 likes, 142 reposts (@GTAVI_Countdown, 16 h 42 UTC). Corroboré par data/presse.json : IGN FR (17 h 01 UTC), Polygon, 4wearegamers, tbreak.",
+      "visual": "COLLAB NBA 2K27",
+      "image": "https://pbs.twimg.com/media/HXQixMZXkAAkzfH.jpg",
+      "image_alt": "Image du post de @GTAVI_Countdown annonçant la collaboration NBA 2K27 et GTA 6",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "NBA 2K27 collab with Rockstar Games has been officially revealed: Jason and Lucia outfits, GTA 6 cars, Vice City blimp, Macca the Gator statue, Sahara Arena. Coming November 27.",
+      "article": "journal/2026-11-16-nba-2k27-vice-city-edition-bam-adebayo-gta6.html"
+    },
     {
       "id": "x-cactus-jack-nike-heat-merch-2026-11-16",
       "title": "GTA 6 : une collection de merchandising avec Cactus Jack, Nike et le Miami HEAT",
@@ -4367,6 +4387,11 @@
       "at": "2026-11-16T18:12:47+01:00",
       "label": "Passage Claude Haiku (Matière X, 16/11)",
       "summary": "Relevé data/x_alertes.json (maj 16 h 13 UTC) : 1 sujet ajouté. Merch Cactus Jack, Nike et Miami HEAT (@gtasix_, 20 929 vues, à la date du relevé). Écartés : mugshot Kurtaj (doublon du sujet publié), 15 millions et mise à jour 01.002.001 (déjà publiés), codes volés (15 354 vues, compte unique), KFC Australia (8 117 vues), NBA 2K27 (sous le seuil)."
+    },
+    {
+      "at": "2026-11-16T20:12:36+01:00",
+      "label": "Passage Claude Haiku (Matière X, 16/11, 2e)",
+      "summary": "Relevé data/x_alertes.json (maj 18 h 16 UTC) : 1 sujet ajouté. Collaboration NBA 2K27 révélée (@GTAVI_Countdown, 94 153 vues, corroborée par IGN FR, Polygon, 4wearegamers). Écartés : Cheetah Miami (@gtasix_, 10 068 vues, compte unique), mise à jour Xbox 1,6 Go (@GTAlphaintel, 6 724 vues), artwork NBA 2K27 (même sujet, 20 266 vues, couvert par l'entrée)."
     }
   ],
   "coverage": {
