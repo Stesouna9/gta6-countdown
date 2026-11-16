@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-16T06:37:33+00:00",
+ "maj": "2026-11-16T06:57:47+00:00",
  "articles": [
   {
    "gn": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1kVjQwdWNLNlBPZ0lpR2FPRVlLNHBuZXpuUVp0dVM3azk5NEZ5aWRsZS12QnR3QW91TTFZVjJsb2RQUUZFRS1zbVpoZTZEdndGRzVsS0FWS1VQeUJZOEFGZnFpWUhnYkxMZ2lkQVZB?oc=5",
@@ -9,6 +9,14 @@
    "t": "GTA 6 tracklist leak lists Blackpink song by Jenny",
    "erreur": "429 : passage suivant",
    "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNR1ZZSHJ2Z0lzVDMxWURxRU4teC1NQkUtMmRZTUp4R2RDdlFqbVpaQWdISUwwZF9fR0FDbzZ2cWpKMkdBc3lHandQeHpzX1hfYmZ1d1loWE1Vc3EzOGhtM0kwME5mZ0pEb19UcWNOVkNxUksxb21mTURJR1dWeUN3WndiS3MweE85NmZSM3o0RS1vT2k5YjFqNzN1VERSMGlvbGYzQ2lBZjZ4ODNUTVN0cUU3ZmdqUFBnVURFOWEwek92RXFYWng1R2VfYjBKa3MtLWc2bHh2Q0lqUVVyOHdQVTFZSQ?oc=5",
+   "s": "RTL",
+   "d": "2026-11-16T06:20:49+00:00",
+   "lang": "fr",
+   "t": "\"GTA VI\" : les images de Miami transformée en Vice City à l'occasion de la sortie imminente du jeu vidéo",
+   "erreur": "HTTP Error 429: Too Many Requests"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaXpmOFhCSzNXN3pkUTR2ODgyRklnclkzZWV3c1V4cVFEOE5ZdHFvRVh3dmtfQ2JyYUpIVDRrRjAyZGpLOWgyVDRobDVsak1fR0ZScEZ3bjQtNXU2d3ptR3VYbWI4YzU4a1kwWklUOW5JUHZyQ1F6cXVudXJLRWh6TFZFeVctZFg2RUVPRm1uTGJ2elpnbVJReHNUTlpRZnNZRHRhdXV4M29zdlpSd1JjWGVrZHdQNjBBcm9vbkZOMzNVQQ?oc=5",
@@ -28,7 +36,7 @@
    "d": "2026-11-16T06:04:39+00:00",
    "lang": "fr",
    "t": "GTA 6 : de nombreux salariés sont prêts à poser congé pour jouer, les chiffres surprennent",
-   "erreur": "HTTP Error 429: Too Many Requests"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQY2NQMS1TMnZtNmdpTnB2RXNseGdTOThvUDlZR2swYTJ1Q1pJZ2tSZWNGU0ZYa1JHY1hIclNqVllDMl9oTkx0ejBHYXlhWjA4V21BSzdMdFZSVGJLNmNpRjZ3NTVjU01VZlJqVUlCd1owdDUzN0hOWC13dW9VaGhBc202dWlwalpseDVSV1IzS2lvX2kxamppOTVNUUZUNFJIZDhRNVhiNFpKdUdycFE4eU1nTTJDek80ZTlZMkJxb1ExZ0o0eVhzQw?oc=5",
@@ -36,14 +44,6 @@
    "d": "2026-11-16T06:00:18+00:00",
    "lang": "fr",
    "t": "Jeu vidéo GTA: de la radio aux plateformes de streaming, son incroyable pouvoir musical",
-   "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNMG5iZ2ZYMWVVLVZIQmdSOTRiX0c0ZV9Bdm8yZmNJTUIxN2dKRXlxQkROQW5ONzNna3c4X1RJQ3o4MnVBeGt2UVhVeVcyVHJUMkxaWHBjM0xtVUFxZnhXQnBhX0NNMms5S2JqZV91alVJelR0YXBuMU9WLV9nUU5QaE10dTZpTERHNVF5RnJ6V3VOekl1QUlwNHpBS3N5eWFPbWN5bEZlS044bGhIWFo5TWlvc1l0UGRzQWNGeW51UGsxOE1ZTDIwb05saksyZ0x1NG9qTGp0dFk4NHFFOGplMw?oc=5",
-   "s": "Le HuffPost",
-   "d": "2026-11-16T06:00:11+00:00",
-   "lang": "fr",
-   "t": "Il n’y a pas que les joueurs qui devront s’organiser pour la sortie de GTA VI",
    "erreur": "429 : passage suivant"
   },
   {
@@ -83,11 +83,19 @@
    "pub": "2026-11-16T06:45:00+01:00"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOaUY2X21xWUExVzhoSEdlX0ZPa0c3VWF3VThDaURGaVpTUUxSdnktd09LZ21DTExNYkRRTWQ5UU1xdzl2akI5bWtRQi1nRlVLNm5tM3Nvalh0RGtkbTZ3QTMtQng5NS1lS1ZabVNYRGRVb0xsOTNjT0pkeTBIMGlVblhzQXhqMTh6aVdnZnRWSQ?oc=5",
-   "s": "Selectra",
-   "d": "2026-11-16T05:35:25+00:00",
+   "gn": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQSEF0LWNpbFRWNmdmOGtwSkk5REFJaTc2dWV4WXZZRTRwUWtYMHF1OGhKVHlMUnQ5TGVSSTRyWGp3ZDFYQ25Cdm5LNlhuQWUxYzdpTGlFS3hMX3FxRWRsNG11dl9VZXVmbUJUX1pXYTJRY0FIZER4M0FGQ2J3N25hVC1zaExoYm01YjMxRzIxZ29RYnFOb05mMlhQT2ROS2pRM0ZicXdrajhld25hcWUtS2JxTVpMWGhMaERkTG9RaW5LeG9XTFNJTVB3bkNYMFpsajZlT2JobnBnTUVXcTJVdi01eDZxM3VSaTl3SA?oc=5",
+   "s": "RMC",
+   "d": "2026-11-16T05:43:50+00:00",
    "lang": "fr",
-   "t": "GTA VI sur PS5 ou Xbox : faut-il vraiment payer un abonnement en plus des 79,99 € du jeu ?",
+   "t": "[Podcasts] Le 3216 RMC : Sortie de GTA VI, avez-vous prévu des congés pour l'occasion ? - 16/11",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOT2czaVVaeHdRMGM4TkgxYjE3Z0E4dDN4WVMwczlMTkduOEJWczRGd2s1aXk5YUtJR2RZLVBJTm1vMTRtTk44cEZicWNuX2pxUWFfdUM1R0x0N2RjQ3NVSm1ObWNiTTVuZFMwbDVjb2I5MEhCUHZ0SmM3dEt0RDNPX25Td2RyNjNnaTMxYUQ3RkNpSElVZ1ZwV283dDk2RndVYUQ5Z0xIVQ?oc=5",
+   "s": "Nacionale",
+   "d": "2026-11-16T05:31:07+00:00",
+   "lang": "en",
+   "t": "GTA 6 code already used, missing or invalid? What to do on PS5 and Xbox before November 19",
    "erreur": "429 : passage suivant"
   },
   {
@@ -120,6 +128,14 @@
    "d": "2026-11-16T05:24:00+00:00",
    "lang": "en",
    "t": "GTA 6 isn’t even here yet and people are already getting EMOTIONAL saying goodbye to GTA 5. A simple clip of driving through Los Santos at sunset with the radio playing went viral because it feels like the end of an ERA. 13+ years driving these same streets",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNendwdnh2ck5DT3hDb1N0eXRQRUxyOHpmbUhBY2pUQXZ0Q0dwcEtucHphQlJVMllySVktN1NJV0JHN0llS001MF91ZWtrV1ZMOVV6VWh5UnN6bHVBYmdrc3VkQWlsZmVoSDludzVzWURGak1BX0VnRjBsT0hjdndUcEc3bUdXTmJYVWV6eEdmSVR2ZVByMHc?oc=5",
+   "s": "The Business Standard",
+   "d": "2026-11-16T05:06:56+00:00",
+   "lang": "en",
+   "t": "Miami evokes 'Vice City' ahead of Grand Theft Auto 6 launch",
    "erreur": "429 : passage suivant"
   },
   {
@@ -176,6 +192,14 @@
    "cyberleek": true
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNQTNUdjJqdUhEa3FPOUNnUVJiQk1GTFFxZHJEVUlRek1iNjR1V2Q1Q0thdE12NjRuNkszNTByVDhObTRDdzBNemYyVVhCdU9nMmQxR016aTBUMGFjVmpPRk4tVzVEeGptUnZEdTdLNUdhQlpZNWRveEJzM3l2V2tsbXRQUzRhSVAxTzBoR3lzYVpDb3dYQzI5NHVUX3VIQmhFRXJJcWo2bkhqNS1TLU1vZ1JGS3RTcHhyZ1ZRRWtiUllpVjFqNkRkNnVXRzY?oc=5",
+   "s": "www.megazap.fr",
+   "d": "2026-11-16T04:37:00+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : sortie le 19 novembre 2026, prix et nouveautés du jeu événement Copier",
+   "erreur": "429 : passage suivant"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNVh4QWs2MkpiS2ROUUswVElveEdBTWVpU244U3gzb0luODBiUFVYaXdaVkEwWTl4MFpuY3ZwU2FTaGc1UFlucHpPRnF0c0NfSmVRQkZHTWFNczhlaTFRaGtBaGFZTHN3WldYNFRVTTNHQk9TQjJHcE0yM2RqakpESTNkTWVwQ0RKVU9JU3oxVlpoaHlISVV6UVl0bEotSXJZMzFmR09YN0lTOGNnb2I3bGRqVmh0a2ozbHRZUWZjU3c?oc=5",
    "s": "Stratégies",
    "d": "2026-11-16T04:30:01+00:00",
@@ -190,18 +214,6 @@
    "lang": "en",
    "t": "GTA 6 box code 'flashlight trick' failed on a US copy in testing, and no stolen codes have been confirmed",
    "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNa3JXbTN6dXA4NU93NkRQSF9BNTRzeUVkeW51Z1Z0QkFCZXNMTzYxRU81MktEWTVDcFVWb3M4U3pYQXJWdjg4aFJrUnFmbWY3dWJWUVVLVG9DR1dzWTFMdDZDUDI1WVlKbDlONHdBRnZWRTVvZzJmZi1QU2FhNEw3ek9UbXI0aFZTWWdsNlZRUG9CdmswOVF3ZVdJcUdkRkVEdzZlMmpIY0FMNUFhWDJmZzVzUkhicVhsSVZ6WWRuUWlRd0FzOXlrX3U2MWVFXy1TbzBkQjRtQm4zN0pnMVpqUW96M1l5R2p5V0czNkRGLUZ5ZHdVYjVISmEzck1WeHNuOXhOWGtCd0ZycFF1UjM0SmJ1dzdxUFIxdm80VlBONmhHcWpm?oc=5",
-   "s": "Le Parisien",
-   "d": "2026-11-16T04:21:41+00:00",
-   "lang": "fr",
-   "t": "En NBA avec le Heat, sur les murs de la ville… Miami se transforme avant la sortie de GTA VI aux États-Unis",
-   "u": "https://www.leparisien.fr/international/etats-unis/en-nba-avec-le-heat-sur-les-murs-de-la-ville-miami-se-transforme-avant-la-sortie-de-gta-vi-aux-etats-unis-16-11-2026-A24I4LG4HZHCRKFXZ2HDLYIZOM.php",
-   "img": "https://www.leparisien.fr/resizer/qa91dty0mgfzx5LfHWLCeMyNfmU=/1600x900/cloudfront-eu-central-1.images.arcpublishing.com/leparisien/K6O5NE23N5GJXH5XF4BCSY6X2E.jpg",
-   "chapeau": "Attendu depuis plus de dix ans par des millions de joueurs, le jeu développé par Rockstar Games a donné lieu à une campagne promotionnelle p",
-   "txt": "À Miami, la ville américaine qui a inspiré Vice City, métropole fictive de GTA VI , les références au célèbre jeu vidéo se multiplient et l’impatience grandit à quelques jours de sa sortie, prévue jeudi.\nAttendu depuis plus de dix ans par des millions de joueurs, le jeu développé par Rockstar Games a donné lieu à une campagne promotionnelle particulièrement visible dans la grande ville de Floride, où rues, fresques murales et lieux emblématiques se sont transformés en vitrines publicitaires. Le nom de Vice City s’affiche ainsi au pied des palmiers à Miami Beach, dans la salle de l’équipe NBA du Miami Heat, sur les murs du quartier branché de Wynwood et jusque sur des gobelets de café.\nMercredi soir, la franchise de basket va se mettre aux couleurs du jeu, à l’occasion d’une soirée intitulée « A night in Vice city » (une nuit dans la ville du vice). Le Heat recevra les Bucks de Milwaukee. Cette rencontre, déjà très attendue car la nouvelle star de Miami Heat, le Grec Giannic Antetokounmpo, jouait auparavant à Milwaukee. Elle sera rendue encore plus électrique par le contexte de la sortie du jeu, des maillots spécialement conçus pour l’occasion et des animations originales.\nAilleurs dans la ville, devant le lieu où a été tournée une scène du film « Scarface » de Brian De Palma, à Miami Beach, une vieille Cadillac arbore l’inscription « Bienvenue à Vice City ». Un mannequin à l’effigie de Tony Montana, le personnage principal du film, est installé derrière le volant pour les touristes et les fans. « J’adore Miami et c’est complètement fou de voir que l’un de mes jeux préférés s’inspire de l’endroit où j’ai grandi », raconte à l’AFP Yarixza Hernandez, une étudiante de 21 ans.\nL’impatience est palpable chez les passionnés. « C’est le jeu que tout le monde attendait », explique Aldo Gonzalez, 19 ans, également étudiant. « Certains ont déjà posé des jours de congé pour pouvoir y jouer. » Guido Rodriguez, 18 ans, prévoit de s’y consacrer sans interruption « pendant quelques jours » jusqu’à ce qu’il le termine.\nPour les habitants de Miami, GTA VI offre une expérience particulière : celle de parcourir une version numérique de leur propre ville. Les plages, les gratte-ciel, les canaux et les quartiers de Vice City reprennent des éléments reconnaissables du sud de la Floride. Aldo Gonzalez entend ainsi faire découvrir sa ville à ses amis, au moins virtuellement.\nLes autorités du comté de Miami-Dade ont elles aussi voulu profiter de l’engouement. Elles ont signé avec Rockstar Games un accord de 3,9 millions de dollars pour installer des publicités dans plusieurs lieux, notamment la salle du Miami Heat et l’aéroport. Le projet a suscité des critiques. La shérif du comté, Rosie Cordero-Stutz, a notamment dénoncé un jeu construit autour d’« activités criminelles ».\nMais, pour Guido Rodriguez, le jeu reste avant tout un moyen de s’évader. « C’est comme regarder un film ou lire un livre. Cela te plonge dans un autre univers que tu peux découvrir par toi-même », explique-t-il.",
-   "pub": "2026-11-16T05:21:41+01:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVi05VHhqUkhzTm96b0ZKV295aFFJbUZfMmNELWtuakZqTWNfVU8zVU05bFhBbjFrSHB1T1U5VHg3ZW1FWmRfRm83dm5QZ28tY0tzXzNJb3k0dlJCOFNkRWdjWERuckxqandxdE1mR3hoTXFPT1JRSkZrS2tsMS1DLUpNQ2pFVjBDZVJ2UUFnLS1nTUZIbTBza2E3QWpSZFZObU9YN1pGWUVoVlhlbkE?oc=5",
@@ -232,11 +244,11 @@
    "erreur": "429 : passage suivant"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5pc3RNcGs2QTg3WU5hYXVnbHFVVjdjdkc3bG50XzEtbW41bkNNNW1LTjM5aFdKQW02anY0RzBPa3h2UFJIcjd2X1NseV9SeFRWUFFUNWxqV0JObjRuUmc?oc=5",
-   "s": "Parade Magazine",
+   "gn": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPS0tHcTE2WTRLY0dqeVEzUmItTVVKYkpnVHU1MlNzbHliOGJSMlFNV3FKV0VMYXJUcGhuaFN0QzV2czV5YUladU05ZHR5Nk5ZczN0MU5FcE5sQUJpNkhhOHVXTzFxSzJqcHR6d3N2QzVLUjVkVWVPVFVQT1h3ajNJWW9xUGdFRzZO?oc=5",
+   "s": "Yahoo",
    "d": "2026-11-16T03:36:00+00:00",
    "lang": "en",
-   "t": "Costco Is Now Taking Preorders for GTA 6—Here’s What You Need to Know",
+   "t": "Preorder GTA 6 at Costco for $80—Limited Time Offer with Exclusive Bonuses",
    "erreur": "429 : passage suivant"
   },
   {
@@ -333,30 +345,6 @@
    "txt": "Insider Gaming a appris grâce à des fuites de tests de GTA 6 combien de temps il faut pour terminer le dernier projet de Rockstar . Sans les activités annexes ni les missions facultatives, les joueurs pourraient terminer l’histoire de Jason et Lucia en 50 heures. Cependant, les joueurs PS5 devront passer bien plus de temps à explorer Leonida pour décrocher le trophée de platine.\nL’estimation de Tom Henderson repose sur les impressions de journalistes qui testent le jeu avant la date de sortie de GTA 6 . Il a également indiqué que le titre comptait 100 missions réparties sur les cinq chapitres de la campagne.\nUne histoire de 50 heures peut sembler courte par rapport à ce qui avait été évoqué auparavant. Dans une interview accordée au New York Times , Rob Nelson, codirecteur de Rockstar North, a expliqué que sa partie avait duré environ 80 heures. Cela comprenait toutefois des quêtes facultatives dans un vaste monde ouvert où il est facile de se laisser distraire.\nLa carte de Vice City et de ses environs est nettement plus grande que celle de GTA 5 ou de Red Dead Redemption 2 . Alors que Grand Theft Auto 5 proposait 32 heures d’action en solo, RDR 2 nécessitait environ 50 heures. La possibilité de traverser les régions à bord de puissantes supercars plutôt qu’à cheval pourrait jouer un rôle.\nLa nouvelle fuite concernant un test de GTA 6 apporte des précisions à un précédent rapport sur les trophées PS5 et les succès Xbox . Pour obtenir le très convoité trophée platine PlayStation, les joueurs devraient prévoir environ 200 heures. Henderson laisse entendre qu’un rare succès mythique Xbox sera disponible.\nUne précédente analyse des données avait révélé 55 trophées PS5, dont le platine. De leur côté, les propriétaires de consoles Xbox peuvent s’attendre au même total si un succès mythique est bien présent. Insider Gaming a également révélé que les chasseurs de trophées devront être des amoureux de la nature. Comme dans Red Dead Redemption 2 , les joueurs devront localiser et photographier 170 animaux différents sur l’ensemble de la carte de Leonida.\nÀ noter que tous les objectifs disponibles à la sortie de GTA 6 concernent le mode solo ou l’histoire. On ignore quand une suite de GTA Online pourrait voir le jour, mais la version de lancement contient du code lié aux modes multijoueurs .",
    "pub": "",
    "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9NTTE0QkdJbWhiT0lxTVBaMzlZWDhnZ0VVdnByUE9VcklUMTR4UFBRZThhbFpNcGhBZlBnU0hDd0JMSzY0OVdONDBkcFlkT0h1RGJIZXVUZ9IBXEFVX3lxTFBXNXVhOXg5WV9FT3JTdDJxQ3d2OFh5X3ltWWhUd21aY29xcDVvQlVSbkpaM3VpbWRGaUtwQ3lZVU8wczROellwUnJLN19kQjg3MHlZeTJIcEI3SDNM?oc=5",
-   "s": "Beebom",
-   "d": "2026-11-16T00:31:00+00:00",
-   "lang": "en",
-   "t": "GTA 6 Nudity Explained: Can Jason and Lucia Be Naked?",
-   "u": "https://beebom.com/gta-6-nudity-jason-lucia/",
-   "img": "https://static.beebom.com/wp-content/uploads/2026/10/will-jason-and-lucia-be-naked-in-gta-6.jpg?w=1200&quality=75",
-   "chapeau": "Want to know the answer to the burning question of whether Jason and Lucia will appear naked in GTA 6? Here’s what we know so far.",
-   "txt": "Nudity has always been present in nearly all GTA games. So, ever since players first saw Jason and Lucia in GTA 6 , one burning question has been on everyone’s mind: will they see both of them fully naked in the game? Considering the mature GTA 6 age rating , such a scene wouldn’t exactly be surprising. However, Rockstar has never shown a GTA protagonist fully nude before, so here’s what we actually know about Jason and Lucia’s nudity in GTA 6.\nSurprisingly, the answer is yes: Jason will be naked in GTA 6. Players did expect Jason to show skin, as he did in the opening segments of GTA 6 trailer 2 , but Rockstar North co-head has confirmed partial nudity for him. According to IGN’s GTA 6 preview with Rob Nelson, Jason goes naked in a shower scene triggered by a character-switching event.\nHere’s how it happened: Rob Nelson was playing as Lucia and explained that Jason has his own routine when you’re out doing activities in GTA 6 . The next moment, he switches to Jason at his safehouse, and the cutscene shows Jason taking a shower, naked.\n“Oh, or you can switch, and Jason’s in the shower! says Nelson. IGN didn’t reveal everything they saw, but there’s a good chance players might see Jason fully nude in GTA 6, though probably during certain sections.\nThis is good news for GTA 6 players wondering whether Rockstar will finally show its new golden boy in his entirety. However, Arthur Morgan never appeared completely nude in Red Dead Redemption 2, or any other Rockstar protagonist in previous GTA games, so they might continue the tradition.\nRockstar hasn’t confirmed whether Lucia will be fully naked in GTA 6. Nudity is definitely in the game, but whether Lucia gets in on the action or Rockstar saves it strictly for Leonida’s other residents remains to be seen.\nMeanwhile, GTA 6’s second trailer showcased a sexual scene between Jason and Lucia, with both laying on a bed in what seems like Jason’s Safehouse. So, it’s entirely possible that Lucia becomes partially naked in certain sections of the game.\nLucia has also appeared in various gorgeous outfits in the GTA 6 Ultimate Edition and Rockstar’s promotional screenshots. However, the studio hasn’t confirmed whether she’ll appear fully naked or match Jason’s partial nudity, as Nelson confirmed in the IGN interview.\nGiven that Lucia is the series’ first mainline female protagonist, Rockstar playing it safe would be understandable. But this is Rockstar we’re talking about. They could just as easily go all-in and show Lucia fully nude. Only time will tell.\nYes, GTA 6 will have nudity. GTA 6’s official ESRB rating confirms this, which classifies the game as Mature 17+ and includes the following content descriptors:\nRockstar has confirmed that strip clubs will return on the GTA 6 map , with Boobie Ike’s Jack of Hearts already revealed as one of Vice City’s adult entertainment venues. So, this is where you can expect both nudity and strong sexual content, similar to GTA 5’s Vanilla Unicorn strip club.\nNPCs also wear revealing outfits in the trailers and the GTA 6 Extended Look on Netflix, but Rockstar hasn’t revealed any nudity-related activities. The strip clubs practically confirm we’ll see multiple naked NPCs; however, whether Rockstar will show Jason and Lucia fully naked is a question that remains unanswered.\nIt’s unlikely that you can roam around naked in GTA 6. For starters, Rob Nelson has only confirmed partial nudity for Jason, that too during a character-switching cutscene. Meanwhile, Rockstar has not confirmed nudity for Lucia yet.\nBut Rockstar’s promotional material, including the GTA 6 Extended Look, confirms that Jason can go topless during free roam . However, he likely won’t be completely naked when roaming around GTA 6’s Vice City .\nPrevious GTA games like GTA 4 and GTA 5 didn’t let players free roam completely naked in the open world. You could go topless as Michael, Franklin, or Trevor, but never fully naked. So, Rockstar will likely follow the same pattern and keep nudity as a playable mechanic for Jason and Lucia in GTA 6’s free roam.\nHowever, Rob Nelson hinted at certain returning mini-games when discussing Jason and Lucia’s physical intimacy in GTA 6 during the IGN interview. So, take that as you will.\nRockstar hasn’t officially confirmed whether players can free roam as Jason or Lucia completely naked in GTA 6, but if it’s possible, NPCs will definitely react. Rockstar has already confirmed that NPCs will react to Jason and Lucia if they carry weapons in GTA 6,",
-   "pub": "2026-11-16T06:01:00+05:30"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNeTBWN3dnZFRGRFk0djRaTHlZU1RiX3dRWDZCdjMzVFNYZVJuS090TkZXNEdGXzNiVFhGTlNiY1NVU0sxU21pakVQSWFYNzByMjdBelJlRktvY2J4QlhFRXBvWVg2NF9QZVRrQXlBQlhhOThaaVFZTl9KR1p6SVdCb2Fxa1UyVmdtU1I2SGJxekl4Z9IBlwFBVV95cUxQZmUxVDNqWVZjaVdZbF9kQW5za0dlOUdabDA2WFpTMWxhZWo1b3B5cEl6a1JURGhuTlJpWGM4WGd3VEpJX0hrbTBZOWVScG16bU9UckJkbHFqb0xnQk4yRG9TU3NzekxobTA3OHdtcy02VjIzVlVseVAxV1U0VXktYVh2b2JGTFM5Mm1jTUhyMXMwY3JHSUc0?oc=5",
-   "s": "NewsNation",
-   "d": "2026-11-16T00:21:57+00:00",
-   "lang": "en",
-   "t": "Gamers anticipate global GTA 6 release",
-   "u": "https://www.newsnationnow.com/entertainment-news/gamers-anticipate-global-gta-6-release/",
-   "img": "https://www.newsnationnow.com/wp-content/uploads/sites/108/2026/10/Grand-theft-auto-vi-GettyImages-2192875226_a7eebb-e1782415295534.jpg?w=1280",
-   "chapeau": "Gaming content creator Garrett Sutton joins “Morning in America” to explain what makes GTA 6 so significant.",
-   "txt": "The highly anticipated release of Grand Theft Auto 6 this coming week has caused a phenomenon that could even impact workforces, as 8% of the nation’s gamers plan to use PTO to play the game that has already sold over 10.3 million pre-sale copies. Gaming content creator Garrett Sutton joins “Morning in America” to explain what makes GTA 6 so significant and why gamers have waited 13 years for its release.\nComments: Want to see more of NewsNation? Get 24/7 fact-based news coverage with the NewsNation app or add NewsNation as a preferred source on Google !",
-   "pub": "2026-11-15T16:03:10+00:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNUzlJS2pJMXBtUUJ2amIxTGpUZjVNZHNpbTNKaDVlbHB5UW5Gc0R1bzlBc2VZTlNvR2pjenZqOGJ1TTBRNm44Uy0yZUFEcHhTbzFkM0xPRUdGS0xiOUFYNFFSUHpwaWMwRW8zWE10dFBSX0VtNVJBUDJ6ZDYwM2RoMHIzUWcwOXV3cGEtWlIxejV1Qzdlcm1DRW9tbzJsRTFBZloyUHhlUmNYM2F6dGZZdkhIX1ZrSWs0M1N3Vl92TnJKRTR1XzhnWlI4SC0xSk9sRE9IeVd0eE9PQW51OTdlaC1OMHhGbUVJdmhoYw?oc=5",
