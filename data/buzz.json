@@ -1,6 +1,6 @@
 {
  "title": "Le buzz GTA6",
- "updated_at": "2026-11-17T16:12:44+01:00",
+ "updated_at": "2026-11-17T18:13:06+01:00",
  "schedule": "Veille toutes les 2 h, de 8 h à minuit",
  "items": [
   {
@@ -21,6 +21,44 @@
    "embed_type": "x",
    "cta": "Ouvrir la publication sur X",
    "post_text": "Rockstar is now preparing GTA 6 banners and ads with “Play Now” and “Out Now”. It’s finally happening. (via @iGrandTheftAuto)"
+  },
+  {
+   "id": "x-kai-cenat-marathon-trailer-gta6-2026-11-17",
+   "title": "GTA 6 : Kai Cenat prépare une bande-annonce pour son marathon GTA VI",
+   "summary": "@GTAlphaintel relaie une publication sur Kai Cenat : le streamer aurait réalisé une bande-annonce pour son marathon GTA VI. Le post dépasse 22 000 vues. Aucune source officielle ni autre compte relevé à ce jour.",
+   "url": "https://x.com/GTAlphaintel/status/2122669715210621185",
+   "platform": "X",
+   "author": "@GTAlphaintel",
+   "status": "Rumeur",
+   "published_at": "2026-11-17T12:34:32.000Z",
+   "checked_at": "2026-11-17T18:13:06+01:00",
+   "evidence": "Vues relevées le 2026-11-17 dans data/x_alertes.json : 22 408 vues, 166 mentions J’aime, 14 reposts (@GTAlphaintel, 12 h 34 UTC). Post relayé « via @KaiCenat ». Aucune reprise relevée dans data/x_alertes.json ni data/presse.json.",
+   "visual": "KAI CENAT",
+   "image": "https://pbs.twimg.com/amplify_video_thumb/2122666563434352640/img/P_WqwfL_ZX6SK0Wg.jpg",
+   "image_alt": "Vignette de la vidéo relayée par @GTAlphaintel sur le marathon GTA VI de Kai Cenat",
+   "image_credit": "@GTAlphaintel sur X",
+   "embed_type": "x",
+   "cta": "Ouvrir la publication sur X",
+   "post_text": "Kai Cenat went all out for his Grand Theft Auto VI marathon trailer (via @KaiCenat)"
+  },
+  {
+   "id": "x-gtasix-moins-de-24h-sortie-2026-11-17",
+   "title": "GTA 6 : @gtasix_ annonce une sortie « dans moins de 24 heures »",
+   "summary": "@gtasix_ annonce que GTA 6 sort dans moins de 24 heures et renvoie vers Leonida. Le post dépasse 70 000 vues. Aucune confirmation officielle de Rockstar à ce jour.",
+   "url": "https://x.com/gtasix_/status/2122646178026176923",
+   "platform": "X",
+   "author": "@gtasix_",
+   "status": "Rumeur",
+   "published_at": "2026-11-17T11:01:00.000Z",
+   "checked_at": "2026-11-17T18:13:06+01:00",
+   "evidence": "Vues relevées le 2026-11-17 dans data/x_alertes.json : 70 909 vues, 6 732 mentions J’aime, 355 reposts (@gtasix_, 11 h 01 UTC). Aucun autre compte relevé. data/presse.json cite seulement une échéance « jeudi » (Frandroid, 15 h 47 UTC), sans date précise : l’échéance reste à confirmer.",
+   "visual": "SORTIE",
+   "image": "https://pbs.twimg.com/media/HXTrzwZWQAANpZl?format=jpg&name=small",
+   "image_alt": "Visuel du post de @gtasix_ annonçant la sortie de GTA 6 dans moins de 24 heures",
+   "image_credit": "@gtasix_ sur X",
+   "embed_type": "x",
+   "cta": "Ouvrir la publication sur X",
+   "post_text": "GTA 6 OFFICIALLY RELEASES IN LESS THAN 24 HOURS. See you in Leonida."
   },
   {
    "id": "x-23-clips-avant-lancement-gtavi-countdown-2026-11-17",
@@ -4565,9 +4603,26 @@
    "label": "Passage Claude Haiku (Matière X, 17/11)",
    "summary": "Relevé data/x_alertes.json (maj 09 h 01 UTC) : 8 posts. 2 sujets ajoutés, tous deux de @GTAVI_Countdown, plus de 20 000 vues : 281 captures 4K (83 748 vues, corroboré par autoevolution via data/presse.json) et 23 clips avant lancement (77 611 vues). Écartés : comptes à rebours sans information nouvelle (« 2 days », « 50 hours », « J-2 », « TWO. MORE. DAYS ») ; forum des clubs (@gta6hubfr, 58 vues) hors actualité ; @JVMag_ch (913 vues) et @TheGTABase (1 576 vues) sous le seuil."
   },
-    {"at": "2026-11-17T11:12:00+01:00", "label": "Passage Claude Haiku (Matière X, 17/11, 5e)", "summary": "Relevé data/x_alertes.json (maj 11 h 05 UTC) : 13 posts, aucun sujet ajouté. Seuil de 20 000 vues atteint par 4 posts, tous écartés : trois comptes à rebours sans information nouvelle (@GTAVI_Countdown « 50 hours » 75 587 vues, « 99.5% complete » 69 912 vues, « 2 days » 35 712 vues) et la suite de la mise à jour 01.002.001 (@PlaystationSize 23 752 vues, « disponible pour tous », déjà couverte par x-patch-01-002-001-ps5-xbox-2026-11-16 : pas de sujet distinct). Sous le seuil, écartés : « 24 hours » Nouvelle-Zélande (@GTAVI_Countdown 4 078 vues), @TheGTABase (2 445 vues), @gtasix_ (1 907 vues), @JVMag_ch (1 129 vues), @GTA6France1 (507 vues), @RockstarNewsFRA (381 vues). Pas de reprise par deux comptes sur une nouvelle information."},
-    {"at": "2026-11-17T14:12:27+01:00", "label": "Passage Claude Haiku (Matière X, 17/11, 6e)", "summary": "Relevé data/x_alertes.json (maj 13 h 07 UTC) : 3 posts, aucun sujet ajouté. Aucun n'atteint 20 000 vues (@GTAlphaintel 10 480 et 7 495 vues, @gta6hubfr 690 vues) ni n'est repris par deux comptes sur une information nouvelle. La capture NZ « premier accès » (@GTAlphaintel) reprend l'angle « 24 hours » Nouvelle-Zélande déjà retenu/écarté plus tôt. Rien de neuf à publier."},
-    {"at": "2026-11-17T16:12:44+01:00", "label": "Passage Claude Haiku (Matière X, 17/11, 7e)", "summary": "Relevé data/x_alertes.json (maj 15 h 11 UTC) : 16 posts. 1 sujet ajouté : bannières « Play Now » et « Out Now » (@GTAVI_Countdown, 65 954 vues, relais de @iGrandTheftAuto), statut Rumeur (un seul compte). Écartés : comptes à rebours sans information nouvelle (« 99.5 % complete » 229 518 vues, « 24 hours » Nouvelle-Zélande 56 828 vues, « GTA 6 officially releases in less than 24 hours » @gtasix_ 65 302 vues) ; Game Awards (@GTAVI_Countdown 93 384 vues) : spéculation sur les acteurs, pas d information sur GTA 6 ; mise à jour 01.002.001 déjà couverte ; Kai Cenat 19 085 vues, sous le seuil ; @GTAlphaintel NBA 2K27 / Discord et autres posts sous le seuil, sans reprise par deux comptes."}
+  {
+   "at": "2026-11-17T11:12:00+01:00",
+   "label": "Passage Claude Haiku (Matière X, 17/11, 5e)",
+   "summary": "Relevé data/x_alertes.json (maj 11 h 05 UTC) : 13 posts, aucun sujet ajouté. Seuil de 20 000 vues atteint par 4 posts, tous écartés : trois comptes à rebours sans information nouvelle (@GTAVI_Countdown « 50 hours » 75 587 vues, « 99.5% complete » 69 912 vues, « 2 days » 35 712 vues) et la suite de la mise à jour 01.002.001 (@PlaystationSize 23 752 vues, « disponible pour tous », déjà couverte par x-patch-01-002-001-ps5-xbox-2026-11-16 : pas de sujet distinct). Sous le seuil, écartés : « 24 hours » Nouvelle-Zélande (@GTAVI_Countdown 4 078 vues), @TheGTABase (2 445 vues), @gtasix_ (1 907 vues), @JVMag_ch (1 129 vues), @GTA6France1 (507 vues), @RockstarNewsFRA (381 vues). Pas de reprise par deux comptes sur une nouvelle information."
+  },
+  {
+   "at": "2026-11-17T14:12:27+01:00",
+   "label": "Passage Claude Haiku (Matière X, 17/11, 6e)",
+   "summary": "Relevé data/x_alertes.json (maj 13 h 07 UTC) : 3 posts, aucun sujet ajouté. Aucun n'atteint 20 000 vues (@GTAlphaintel 10 480 et 7 495 vues, @gta6hubfr 690 vues) ni n'est repris par deux comptes sur une information nouvelle. La capture NZ « premier accès » (@GTAlphaintel) reprend l'angle « 24 hours » Nouvelle-Zélande déjà retenu/écarté plus tôt. Rien de neuf à publier."
+  },
+  {
+   "at": "2026-11-17T16:12:44+01:00",
+   "label": "Passage Claude Haiku (Matière X, 17/11, 7e)",
+   "summary": "Relevé data/x_alertes.json (maj 15 h 11 UTC) : 16 posts. 1 sujet ajouté : bannières « Play Now » et « Out Now » (@GTAVI_Countdown, 65 954 vues, relais de @iGrandTheftAuto), statut Rumeur (un seul compte). Écartés : comptes à rebours sans information nouvelle (« 99.5 % complete » 229 518 vues, « 24 hours » Nouvelle-Zélande 56 828 vues, « GTA 6 officially releases in less than 24 hours » @gtasix_ 65 302 vues) ; Game Awards (@GTAVI_Countdown 93 384 vues) : spéculation sur les acteurs, pas d information sur GTA 6 ; mise à jour 01.002.001 déjà couverte ; Kai Cenat 19 085 vues, sous le seuil ; @GTAlphaintel NBA 2K27 / Discord et autres posts sous le seuil, sans reprise par deux comptes."
+  },
+  {
+   "at": "2026-11-17T18:13:06+01:00",
+   "label": "Passage Claude Haiku (Matière X, 17/11, 8e)",
+   "summary": "Relevé data/x_alertes.json (maj 16 h 12 UTC) : 12 posts, 11 nouveaux comparés à buzz.json. 2 sujets ajoutés, statut Rumeur (un seul compte chacun) : @gtasix_ « moins de 24 heures » (70 909 vues) et Kai Cenat, marathon GTA VI (@GTAlphaintel, 22 408 vues). Les autres posts sont sous le seuil de 20 000 vues ou n’ont pas de reprise."
+  }
  ],
  "coverage": {
   "X": "Publications publiques accessibles",
