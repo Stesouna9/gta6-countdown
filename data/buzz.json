@@ -1,8 +1,27 @@
 {
  "title": "Le buzz GTA6",
- "updated_at": "2026-11-17T20:12:32+01:00",
+ "updated_at": "2026-11-17T22:13:00+01:00",
  "schedule": "Veille toutes les 2 h, de 8 h à minuit",
  "items": [
+  {
+   "id": "x-miami-heat-cour-vice-city-kaseya-2026-11-17",
+   "title": "GTA 6 : le parquet du Kaseya Center aux couleurs de Vice City pour le Miami Heat",
+   "summary": "Le Miami Heat joue un seul match sous habillage Vice City, le 18 novembre face aux Bucks : le parquet du Kaseya Center porte les logos VI et Vice City. Un maillot est mis en vente en quantité limitée avec une nouvelle collection. Relayé sur X par @GTAVI_Countdown, qui cite @MiamiHEAT, et par @gta6hubfr.",
+   "url": "https://x.com/GTAVI_Countdown/status/2122763271887626343",
+   "platform": "X",
+   "author": "@GTAVI_Countdown",
+   "status": "Rapporté",
+   "published_at": "2026-11-17T18:46:17.000Z",
+   "checked_at": "2026-11-17T22:13:00+01:00",
+   "evidence": "Vues relevées le 2026-11-17 dans data/x_alertes.json : @GTAVI_Countdown 37 782 vues (18 h 46 UTC, 1 070 likes, 74 reposts), @gta6hubfr 950 vues (18 h 32 UTC, version française). Le post cite @MiamiHEAT comme source. Post du Heat non ouvert (pas de navigateur).",
+   "visual": "COURT VICE CITY",
+   "image": "https://pbs.twimg.com/media/HXWRdMZWsAEpAWP?format=jpg&name=small",
+   "image_alt": "Parquet du Kaseya Center aux couleurs de Vice City, publié par @GTAVI_Countdown sur X",
+   "image_credit": "@GTAVI_Countdown sur X",
+   "embed_type": "x",
+   "cta": "Ouvrir la publication sur X",
+   "post_text": "A night in Vice City’s special court has been revealed at the Kaseya Center, where Miami Heat will face the Milwaukee Bucks tomorrow."
+  },
   {
    "id": "x-game-awards-8-nominations-gtavi-countdown-2026-11-17",
    "title": "GTA 6 : 8 nominations aux Game Awards 2026, le jeu le plus nommé",
@@ -4646,6 +4665,11 @@
    "at": "2026-11-17T20:12:32+01:00",
    "label": "Passage Claude Haiku (Matière X, 17/11, 9e)",
    "summary": "Relevé data/x_alertes.json (maj 18 h 16 UTC) : 13 posts. 1 sujet ajouté : 8 nominations de GTA 6 aux Game Awards 2026 (@GTAVI_Countdown 47 080 vues, @gtasix_ 44 429 vues, repris par plusieurs comptes et corroboré par Vice, Geekslands, IGN France), statut Rapporté. Écartés : nomination de Manni L. Perez seule (@GTAlphaintel 4 273 vues, couverte par le sujet ajouté), « Rockstar sur PC ou GTA Online 2 aux Game Awards ? » (807 vues, spéculation), posts sous le seuil sans reprise."
+  },
+  {
+   "at": "2026-11-17T22:13:00+01:00",
+   "label": "Passage Claude Haiku (Matière X, 17/11, 10e)",
+   "summary": "Relevé data/x_alertes.json (maj 21 h 00 UTC) : 13 posts. 1 sujet ajouté : parquet Vice City du Kaseya Center (@GTAVI_Countdown 37 782 vues, cite @MiamiHEAT ; @gta6hubfr 950 vues). Écartés : « No more before GTA 6 memes » (@GTAVI_Countdown 43 545 vues, blague sans information nouvelle), Manni L. Perez (déjà couverte par les 8 nominations), Tfue (un compte, 9 565 vues, opinion), spéculation PC ou GTA Online 2 aux Game Awards."
   }
  ],
  "coverage": {
