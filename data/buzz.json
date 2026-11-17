@@ -1,8 +1,46 @@
 {
  "title": "Le buzz GTA6",
- "updated_at": "2026-11-17T22:13:00+01:00",
+ "updated_at": "2026-11-18T00:12:58+01:00",
  "schedule": "Veille toutes les 2 h, de 8 h à minuit",
  "items": [
+  {
+   "id": "x-precharge-ps5-playstation-2026-11-17",
+   "title": "GTA 6 : PlayStation rappelle que le préchargement est ouvert sur PS5",
+   "summary": "Avant la sortie prévue le 19 novembre, PlayStation rappelle sur X qu'il est possible de précharger Grand Theft Auto VI sur PS5 dès maintenant, avec un lien vers sa page d'information.",
+   "url": "https://x.com/PlayStation/status/2122804472543904025",
+   "platform": "X",
+   "author": "@PlayStation",
+   "status": "Officiel",
+   "published_at": "2026-11-17T21:30:00.000Z",
+   "checked_at": "2026-11-18T00:12:58+01:00",
+   "evidence": "Vues relevées le 2026-11-17 dans data/x_alertes.json : @PlayStation 238 697 vues (21 h 30 UTC, 10 752 likes, 716 reposts). Post officiel, aucun relais vérifié à part.",
+   "visual": "PRÉCHARGEMENT PS5",
+   "image": "https://pbs.twimg.com/media/HXWMDsOXkAAKCc2?format=jpg&name=small",
+   "image_alt": "Visuel du rappel de préchargement de GTA VI sur PS5, publié par @PlayStation sur X",
+   "image_credit": "@PlayStation sur X",
+   "embed_type": "x",
+   "cta": "Ouvrir la publication sur X",
+   "post_text": "Reminder: You can pre-load Grand Theft Auto VI on PS5 now before it launches November 19. Learn more: play.st/4iKnSq5"
+  },
+  {
+   "id": "x-casting-liste-mise-a-jour-gtavi-countdown-2026-11-17",
+   "title": "GTA 6 : liste de casting mise à jour, avec Stephen Root et Manni Perez",
+   "summary": "Le compte @GTAVI_Countdown publie une liste de doublage mise à jour : Manni Perez (Lucia, confirmé), Stephen Root (Brian, confirmé), Dylan Rourke (Jason), Manny Perez (Raul), Bobby Moynihan (Cal), John Ortiz (Mendez), Kia Shine (Boobie) et Reggie Talley (DreQuan). Le post indique que les acteurs peuvent annoncer leurs rôles officiellement. Les rôles non marqués « confirmed » restent des informations à prendre avec prudence.",
+   "url": "https://x.com/GTAVI_Countdown/status/2122805334355931608",
+   "platform": "X",
+   "author": "@GTAVI_Countdown",
+   "status": "Rapporté",
+   "published_at": "2026-11-17T21:33:26.000Z",
+   "checked_at": "2026-11-18T00:12:58+01:00",
+   "evidence": "Vues relevées le 2026-11-17 dans data/x_alertes.json : @GTAVI_Countdown 193 508 vues (21 h 33 UTC, 3 828 likes, 289 reposts, 679 bookmarks). Le post ne cite pas de source primaire pour les rôles non marqués « confirmed ». Post original non ouvert (pas de navigateur).",
+   "visual": "CASTING MIS À JOUR",
+   "image": "https://pbs.twimg.com/media/HXW4AO3WkAAVhDH?format=jpg&name=small",
+   "image_alt": "Liste de casting de GTA 6 publiée par @GTAVI_Countdown sur X",
+   "image_credit": "@GTAVI_Countdown sur X",
+   "embed_type": "x",
+   "cta": "Ouvrir la publication sur X",
+   "post_text": "GTA 6 cast (updated): Lucia: Manni Perez (confirmed); Jason: Dylan Rourke; Raul: Manny Perez; Brian: Stephen Root (confirmed); Cal: Bobby Moynihan; Mendez: John Ortiz; Boobie: Kia Shine; DreQuan: Reggie Talley. The actors can officially disclose their roles on November..."
+  },
   {
    "id": "x-miami-heat-cour-vice-city-kaseya-2026-11-17",
    "title": "GTA 6 : le parquet du Kaseya Center aux couleurs de Vice City pour le Miami Heat",
@@ -4670,6 +4708,11 @@
    "at": "2026-11-17T22:13:00+01:00",
    "label": "Passage Claude Haiku (Matière X, 17/11, 10e)",
    "summary": "Relevé data/x_alertes.json (maj 21 h 00 UTC) : 13 posts. 1 sujet ajouté : parquet Vice City du Kaseya Center (@GTAVI_Countdown 37 782 vues, cite @MiamiHEAT ; @gta6hubfr 950 vues). Écartés : « No more before GTA 6 memes » (@GTAVI_Countdown 43 545 vues, blague sans information nouvelle), Manni L. Perez (déjà couverte par les 8 nominations), Tfue (un compte, 9 565 vues, opinion), spéculation PC ou GTA Online 2 aux Game Awards."
+  },
+  {
+   "at": "2026-11-18T00:12:58+01:00",
+   "label": "Passage Claude Haiku (Matière X, 18/11, 00 h)",
+   "summary": "Relevé data/x_alertes.json (maj 23 h 03 UTC, 18 posts) : 2 sujets ajoutés. Préchargement PS5 rappelé par @PlayStation (238 697 vues). Liste de casting mise à jour par @GTAVI_Countdown (193 508 vues, rôles non confirmés marqués). Écartés : captures d'écran (@GTAVI_Countdown 8 416 vues, @gtasix_ 4 728, redondant avec les captures déjà publiées), « 1 sleep away » et « 13 hours until » (compte à rebours, même sujet que l'item moins de 24 h), posts de Digital Foundry, billboard Miami et explication de Rockstar (un seul compte, sous 20 000 vues)."
   }
  ],
  "coverage": {
