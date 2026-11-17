@@ -1,8 +1,27 @@
 {
  "title": "Le buzz GTA6",
- "updated_at": "2026-11-17T18:13:06+01:00",
+ "updated_at": "2026-11-17T20:12:32+01:00",
  "schedule": "Veille toutes les 2 h, de 8 h à minuit",
  "items": [
+  {
+   "id": "x-game-awards-8-nominations-gtavi-countdown-2026-11-17",
+   "title": "GTA 6 : 8 nominations aux Game Awards 2026, le jeu le plus nommé",
+   "summary": "GTA 6 est le jeu le plus nommé des Game Awards 2026, avec 8 nominations, dont jeu de l’année, meilleure direction, meilleur récit et meilleure performance (Manni L. Perez, Lucia). Annonce relayée sur X par plusieurs comptes et reprise par la presse (Vice, Geekslands, IGN France).",
+   "url": "https://x.com/GTAVI_Countdown/status/2122741374239842522",
+   "platform": "X",
+   "author": "@GTAVI_Countdown",
+   "status": "Rapporté",
+   "published_at": "2026-11-17T17:19:16.000Z",
+   "checked_at": "2026-11-17T20:12:32+01:00",
+   "evidence": "Vues relevées le 2026-11-17 dans data/x_alertes.json : @GTAVI_Countdown 47 080 vues (17 h 19 UTC), @gtasix_ 44 429 vues (17 h 15 UTC) et 29 503 vues (17 h 09 UTC), @GTAlphaintel 5 884 vues (17 h 47 UTC), @RockstarNewsFRA 3 494 vues (17 h 15 UTC). Presse corroborante dans data/presse.json : Vice (17 h 44 UTC), Geekslands (17 h 13 UTC), IGN France (17 h 35 UTC, actrice de Lucia). Nominations annoncées par The Game Awards, pas par Rockstar.",
+   "visual": "NOMINATIONS",
+   "image": "https://pbs.twimg.com/media/HXV6RCwbUAA-2NP?format=jpg&name=360x360",
+   "image_alt": "Visuel du post de @GTAVI_Countdown annonçant les 8 nominations de GTA 6 aux Game Awards 2026",
+   "image_credit": "@GTAVI_Countdown sur X",
+   "embed_type": "x",
+   "cta": "Ouvrir la publication sur X",
+   "post_text": "GTA 6 is the most nominated title at The Game Awards with 8 nominations."
+  },
   {
    "id": "x-play-now-out-now-banniere-gtavi-countdown-2026-11-17",
    "title": "GTA 6 : Rockstar préparerait des bannières « Play Now » et « Out Now »",
@@ -4622,6 +4641,11 @@
    "at": "2026-11-17T18:13:06+01:00",
    "label": "Passage Claude Haiku (Matière X, 17/11, 8e)",
    "summary": "Relevé data/x_alertes.json (maj 16 h 12 UTC) : 12 posts, 11 nouveaux comparés à buzz.json. 2 sujets ajoutés, statut Rumeur (un seul compte chacun) : @gtasix_ « moins de 24 heures » (70 909 vues) et Kai Cenat, marathon GTA VI (@GTAlphaintel, 22 408 vues). Les autres posts sont sous le seuil de 20 000 vues ou n’ont pas de reprise."
+  },
+  {
+   "at": "2026-11-17T20:12:32+01:00",
+   "label": "Passage Claude Haiku (Matière X, 17/11, 9e)",
+   "summary": "Relevé data/x_alertes.json (maj 18 h 16 UTC) : 13 posts. 1 sujet ajouté : 8 nominations de GTA 6 aux Game Awards 2026 (@GTAVI_Countdown 47 080 vues, @gtasix_ 44 429 vues, repris par plusieurs comptes et corroboré par Vice, Geekslands, IGN France), statut Rapporté. Écartés : nomination de Manni L. Perez seule (@GTAlphaintel 4 273 vues, couverte par le sujet ajouté), « Rockstar sur PC ou GTA Online 2 aux Game Awards ? » (807 vues, spéculation), posts sous le seuil sans reprise."
   }
  ],
  "coverage": {
