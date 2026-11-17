@@ -54,3 +54,16 @@ Idée : une page « CyberLeek : ce qui est vrai, ce qui ne l'est pas » datée e
 Score : 1/4 IA cite le site (ChatGPT, 2 réponses sur 4). Mention sans lien en Q1 le 03/11 ; ce jour, citation avec lien en Q1 et en Q4.
 Évolution vs 03/11 : +1 IA cite le site (ChatGPT, 2e réponse). Alerte : ChatGPT a repéré une version indexée de GTAVIFRANCE du 07/11 affichant « GTA VI EST SORTI ! » (la sortie est le 19/11). Le moteur de recherche garde un ancien rendu.
 Idée : rendre le texte de statut présent dans le HTML initial (« Sortie : jeudi 19 novembre 2026, minuit heure locale », date de mise à jour visible), sans dépendre du compte à rebours JavaScript, pour que les IA ne lisent jamais « déjà sorti ».
+
+## 2026-11-17
+
+| IA | Q1 meilleur site FR | Q2 Cyberleek | Q3 heure FR | Q4 rumeurs |
+|---|---|---|---|---|
+| ChatGPT | non (Rockstar Mag', GTA6 Central, Le Monde, Xbox Wire) | non (Le Monde) | non (Rockstar Customer Support, Xbox Wire) | non (Rockstar, Le Monde, Notebookcheck, Shattered, MobiDevices) |
+| Gemini | mention sans lien, dernier des 5 sites (« GTA VI France (gtavifrance.com) ») | non (aucune source, « Cyberleak » et faits erronés) | non (aucune source, date de sortie vague) | non (aucune source) |
+| Grok | non (gta6.fr, gta-6.fr, Rockstar Mag', JeuxVideo, IGN, Journal du Geek) | non (59 sources, pas de GTAVIFRANCE) | non (Rockstar) | non (Game Informer, sources non GTAVIFRANCE) |
+| Claude | non (Rockstar Mag', GTABase FR, JeuxVideo, Dexerto FR) | non (iPhone in Canada, GamesRadar, Dexerto, CGM) | non (Selectra, Ayther) | non (GTABase, Ayther) |
+
+Score : 1/4 IA cite le site (Gemini, mention sans lien, Q1 seulement, réponse sans recherche web effective selon Gemini lui-même). Aucune citation avec lien cette semaine.
+Évolution vs 10/11 : ChatGPT passe de 2 réponses citant le site à 0 (perte) ; Gemini passe de 0 à une mention sans lien ; Grok et Claude restent à 0. Le total reste 1/4 IA, mais avec une autre IA.
+Idée : publier une page datée « GTA 6 : heure de sortie par pays, 19 novembre 2026 » en HTML statique, avec le lien vers la page d'aide Rockstar. Les 4 IA répondent Q3 avec Rockstar, Selectra ou Ayther : une page sourcée sur ce seul point peut être citée.
