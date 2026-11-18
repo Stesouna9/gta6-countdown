@@ -1,8 +1,27 @@
 {
  "title": "Le buzz GTA6",
- "updated_at": "2026-11-18T08:13:15+01:00",
+ "updated_at": "2026-11-18T10:12:53+01:00",
  "schedule": "Veille toutes les 2 h, de 8 h à minuit",
  "items": [
+  {
+   "id": "x-goodbye-michael-franklin-trevor-vice-city-gtavi-countdown-2026-11-18",
+   "title": "GTA 6 : @GTAVI_Countdown publie « Goodbye, Michael, Franklin and Trevor », avec « Welcome to Vice City »",
+   "summary": "Le compte fan @GTAVI_Countdown publie « Goodbye, Michael, Franklin and Trevor. Welcome to Vice City. », un message qui évoque les trois héros de GTA V remplacés par Vice City. C’est un slogan de compte fan : aucune source officielle n’est citée et aucun média n’a été relevé à ce stade.",
+   "url": "https://x.com/GTAVI_Countdown/status/2122887048453308769",
+   "platform": "X",
+   "author": "@GTAVI_Countdown",
+   "status": "Création de fan",
+   "published_at": "2026-11-18T02:58:08.000Z",
+   "checked_at": "2026-11-18T10:12:53+01:00",
+   "evidence": "Vues relevées le 2026-11-18 dans data/x_alertes.json : @GTAVI_Countdown 197 885 vues (02 h 58 UTC, 19 356 j’aime, 2 445 reposts). Aucun autre compte ni média relevé dans data/x_alertes.json ni data/presse.json.",
+   "visual": "VICE CITY",
+   "image": "https://pbs.twimg.com/amplify_video_thumb/2122886741178662913/img/OWodQ8vncdmB6Vqx.jpg",
+   "image_alt": "Visuel publié par @GTAVI_Countdown sur X, message « Goodbye, Michael, Franklin and Trevor »",
+   "image_credit": "@GTAVI_Countdown sur X",
+   "embed_type": "x",
+   "cta": "Ouvrir la publication sur X",
+   "post_text": "Goodbye, Michael, Franklin and Trevor. Welcome to Vice City."
+  },
   {
    "id": "x-firmware-ps5-piratage-gtavi-countdown-2026-11-18",
    "title": "GTA 6 : une mise à jour PS5 serait exigée pour jouer, après une faille de piratage",
@@ -4777,6 +4796,11 @@
    "at": "2026-11-18T08:13:15+01:00",
    "label": "Passage Claude Haiku (Matière X, 18/11, relevé 06 h 15 UTC)",
    "summary": "Relevé data/x_alertes.json (maj 06 h 15 UTC, 19 posts) : 3 sujets ajoutés. Embargo des tests et calendrier mondial (@GTAVI_Countdown, 1 080 374 vues, corroboration partielle ThePCEnthusiast) ; bundle PS5 Pro pour le Miami Heat (@GTAVI_Countdown, 355 134 vues, Hypebeast) ; mise à jour PS5 exigée après faille (@GTAVI_Countdown, 77 129 vues, Rumeur). Écartés : « Goodbye Michael, Franklin and Trevor » (@GTAVI_Countdown, 154 954 vues, message sans fait vérifiable), « 24 hours left » (50 438 vues, compte à rebours), posts de @gtasix_ et @GTAlphaintel sous 20 000 vues, posts de @gta6hubfr et RockstarNewsFRA (sous 2 000 vues)."
+  },
+  {
+   "at": "2026-11-18T10:12:53+01:00",
+   "label": "Passage Claude Haiku (Matière X, 18/11, relevé 08 h 17 UTC)",
+   "summary": "Relevé data/x_alertes.json (maj 08 h 17 UTC, 17 posts) : 1 sujet ajouté. « Goodbye, Michael, Franklin and Trevor. Welcome to Vice City. » (@GTAVI_Countdown, 197 885 vues, slogan de compte fan, statut Création de fan). Écartés : 24 h avant lancement US/Canada et 6 h (@GTAVI_Countdown 78 975 vues, @gtasix_ 34 355) déjà couverts par le calendrier mondial ; Devolver (@GTAlphaintel 16 813) et Subway Cubano (14 625) sous le seuil, un seul compte. Presse : aucune corroboration trouvée."
   }
  ],
  "coverage": {
