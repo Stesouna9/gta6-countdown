@@ -1,8 +1,46 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-18T16:13:03+01:00",
+  "updated_at": "2026-11-18T18:12:44+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-playstation-sortie-demain-19-novembre-2026-11-18",
+      "title": "GTA 6 : PlayStation annonce une sortie « demain, jeudi 19 novembre »",
+      "summary": "Le compte officiel PlayStation annonce que GTA 6 sort demain, jeudi 19 novembre, dans l'État de Leonida, avec les rues de Vice City. Le post a dépassé 234 000 vues.",
+      "url": "https://x.com/PlayStation/status/2123084055071908103",
+      "platform": "X",
+      "author": "@PlayStation",
+      "status": "Officiel",
+      "published_at": "2026-11-18T16:00:58.000Z",
+      "checked_at": "2026-11-18T18:12:44+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json : 234 166 vues, 9 097 likes et 746 reposts pour @PlayStation à 16 h 00 UTC.",
+      "visual": "PLAYSTATION DEMAIN",
+      "image": "https://pbs.twimg.com/media/HXazm2GWsAAEbdC?format=jpg&name=small",
+      "image_alt": "Annonce de la sortie de GTA VI par PlayStation",
+      "image_credit": "@PlayStation sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "PlayStation : GTA VI sort demain, jeudi 19 novembre, dans l'État de Leonida."
+    },
+    {
+      "id": "x-gtasix-chat-voiture-jason-2026-11-18",
+      "title": "GTA 6 : Jason vole une voiture avec un chat sur la banquette arrière",
+      "summary": "@gtasix_ décrit une scène de GTA 6 : Jason vole la voiture d'un homme avec un chat à l'arrière, le chat lui saute dessus et il le jette par la fenêtre avant de continuer à conduire. Un seul compte rapporte la scène ; Rockstar ne l'a pas confirmée.",
+      "url": "https://x.com/gtasix_/status/2123071228390842498",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rumeur",
+      "published_at": "2026-11-18T15:10:00.000Z",
+      "checked_at": "2026-11-18T18:12:44+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json : 708 010 vues, 17 461 likes et 974 reposts pour @gtasix_ à 15 h 10 UTC. Un seul compte relaie la scène à ce stade.",
+      "visual": "CHAT ET VOITURE",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2123070187343638528/img/a_peNcbucJHHGEO6.jpg",
+      "image_alt": "Image de la publication de @gtasix_ sur Jason et le chat dans GTA 6",
+      "image_credit": "@gtasix_ sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Selon @gtasix_, Jason vole une voiture avec un chat à l'arrière, puis le jette par la fenêtre."
+    },
     {
       "id": "x-festival-horaires-mana-wynwood-gtavi-2026-11-18",
       "title": "GTA 6 : horaires du Festival à Miami, portes à 16 h",
@@ -4987,6 +5025,11 @@
       "at": "2026-11-18T16:13:03+01:00",
       "label": "Passage Claude Haiku (Matière X, 18/11, relevé 15 h 07 UTC)",
       "summary": "3 sujets ajoutés depuis x_alertes.json : horaires du Festival Miami (Officiel, 155 703 vues), sortie au Japon et en Corée (Rapporté, 2 comptes), selfies de Jason (Rumeur, 215 681 vues, compte unique). Aucun post X ni message."
+    },
+    {
+      "at": "2026-11-18T18:12:44+01:00",
+      "label": "Passage Claude Haiku (Matière X, 18/11, relevé 17 h 11 UTC)",
+      "summary": "2 sujets ajoutés depuis x_alertes.json : sortie annoncée demain par PlayStation (Officiel, 234 166 vues), scène du chat dans la voiture de Jason (Rumeur, 708 010 vues, compte unique). Écartés : horaires du concert Heat du soir (même sujet que l'annonce ESPN déjà publiée), relais de sortie Hong Kong/Taïwan (18 232 vues, sous le seuil). Aucun post X ni message."
     }
   ],
   "coverage": {
