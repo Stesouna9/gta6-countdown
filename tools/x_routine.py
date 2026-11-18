@@ -153,7 +153,19 @@ def main():
     arts = json.load(open(RACINE / "data/articles.json", encoding="utf-8"))
     arts.sort(key=lambda a: a.get("date", ""), reverse=True)
     j = (SORTIE - datetime.date.today()).days
-    if slot == "astuce":   # 10/11 Gabriel (via V7) : astuce pratique chiffrée du matin, modèle Top Office (92 900 vues, +24 abonnés) ; banque tools/astuces_x.json remplie par la routine gtavifrance-astuce-reassort
+    if slot == "rebours":   # 18/11 Gabriel : « on est à quelques heures » : un post compte à rebours chaque heure jusqu'à minuit (Paris)
+        hp = datetime.datetime.now(ZoneInfo("Europe/Paris")).replace(tzinfo=None)
+        n = int((datetime.datetime(2026, 11, 19) - hp).total_seconds() // 3600) + 1
+        if not 1 <= n <= 16: print("rebours : hors fenêtre"); return
+        Q = ["Vous lancez la partie dès minuit ou demain matin ?", "Version PS5 ou Xbox Series ?", "Lucia ou Jason, qui vous attire le plus ?",
+             "Précommande faite et préchargement lancé ?", "Nuit blanche prévue ?", "Première chose que vous ferez à Vice City ?",
+             "Plutôt histoire d'abord ou balade libre ?", "Qui a déjà posé son jour de congé demain ?"]
+        texte = (f"⏳ Plus que {n} h avant GTA 6 en France." if n > 1 else "⏳ Plus qu'une heure avant GTA 6 en France !") + \
+                f"\n\nSortie cette nuit à minuit, heure de Paris, sur PS5 et Xbox Series.\n\n{Q[n % len(Q)]}\n\n#GTA6 #GTAVI #GTA6France"
+        P = sorted((RACINE / "assets/img/rockstar").glob("poster-*.jpg")) or sorted((RACINE / "assets/img/rockstar").glob("*.jpg"))
+        img, cle, lien, rep = P[n % len(P)].read_bytes(), f"rebours-{hp:%Y%m%d%H}", "👉 Compte à rebours en direct : https://gtavifrance.com", ""
+        if cle in etat["postes"]: print("rebours : déjà posté"); return
+    elif slot == "astuce":   # 10/11 Gabriel (via V7) : astuce pratique chiffrée du matin, modèle Top Office (92 900 vues, +24 abonnés) ; banque tools/astuces_x.json remplie par la routine gtavifrance-astuce-reassort
         import urllib.request as UR   # (urllib est importé localement plus bas dans main, branche radio)
         auj = datetime.date.today()
         B = json.load(open(RACINE / "tools/astuces_x.json", encoding="utf-8"))["astuces"]   # "regle" : critères de choix (Gabriel 10/11)
