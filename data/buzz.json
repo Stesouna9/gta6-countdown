@@ -1,8 +1,65 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-18T12:13:00+01:00",
+  "updated_at": "2026-11-18T14:12:58+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-metacritic-99-gta6-france1-hubfr-2026-11-18",
+      "title": "GTA 6 : 99/100 sur Metacritic, le meilleur score de Rockstar",
+      "summary": "Les premiers tests tombent et GTA 6 obtient 99/100 sur Metacritic, sur PS5 comme sur Xbox Series X|S. @GTA6France1 et @gta6hubfr relaient le score ; la presse (IGN France, Mashable, Ecran Large) le confirme et le place à égalité avec le jeu le mieux noté de l'histoire.",
+      "url": "https://x.com/GTA6France1/status/2123026816587673642",
+      "platform": "X",
+      "author": "@GTA6France1",
+      "status": "Rapporté",
+      "published_at": "2026-11-18T12:13:31.000Z",
+      "checked_at": "2026-11-18T14:12:58+01:00",
+      "evidence": "Vues relevées le 2026-11-18T13:05:04+00:00 dans data/x_alertes.json : 451 vues pour @GTA6France1. Repris par @gta6hubfr (370 vues, 2026-11-18 12:55 UTC). Presse corroborante : IGN France (12 h 21 UTC), Mashable (12 h 13 UTC), Ecran Large (12 h 00 UTC).",
+      "visual": "99 SUR 100",
+      "image": "https://pbs.twimg.com/media/HXaBoq1XAAAbnLm?format=jpg&name=small",
+      "image_alt": "Publication annonçant GTA 6 à 99/100 sur Metacritic",
+      "image_credit": "@GTA6France1 sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "🏆 GTA 6 est le jeu le mieux noté de l'histoire ! Les tests sont tombés, et le verdict est historique : GTA 6 décroche 99/100 sur Metacritic"
+    },
+    {
+      "id": "x-gtasix-premiere-conduite-gta6-2026-11-18",
+      "title": "GTA 6 : un joueur poste sa première conduite et fait 419 000 vues",
+      "summary": "@gtasix_ publie une vidéo de sa première conduite dans GTA 6 : « Rockstar Games a vraiment fait fort ». Le post dépasse 419 000 vues et plus de 11 000 likes à midi, mais il vient d'un seul compte : c'est une impression personnelle, pas une information vérifiée.",
+      "url": "https://x.com/gtasix_/status/2123024032220000397",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rumeur",
+      "published_at": "2026-11-18T12:02:27.000Z",
+      "checked_at": "2026-11-18T14:12:58+01:00",
+      "evidence": "Vues relevées le 2026-11-18T13:05:04+00:00 dans data/x_alertes.json : 418 963 vues, 11 692 likes, 819 reposts, 131 réponses. Aucun autre compte relevé qui le reprenne dans le relevé. Original ouvert sur X non vérifié (pas de navigateur).",
+      "visual": "PREMIÈRE CONDUITE",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2123023990117613568/img/wq1r50gPIt1VkhEZ.jpg",
+      "image_alt": "Vignette de la vidéo de première conduite dans GTA 6 publiée par @gtasix_",
+      "image_credit": "@gtasix_ sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "First time driving in GTA 6. Rockstar Games has truly outdone themselves. This game is incredible."
+    },
+    {
+      "id": "x-gtasix-looks-like-gta5-montage-2026-11-18",
+      "title": "« GTA 6 ressemble à GTA 5 » : le contre-montage de @gtasix_ fait 47 000 vues",
+      "summary": "Un montage de @gtasix_ reprend la critique « GTA 6 looks like GTA 5 » et l'oppose à une séquence du jeu. Le post, qui fait 47 200 vues et plus de 1 100 likes à midi, est une création de fan : un commentaire humoristique, pas une annonce.",
+      "url": "https://x.com/gtasix_/status/2123032684582637875",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Création de fan",
+      "published_at": "2026-11-18T12:36:50.000Z",
+      "checked_at": "2026-11-18T14:12:58+01:00",
+      "evidence": "Vues relevées le 2026-11-18T13:05:04+00:00 dans data/x_alertes.json : 47 200 vues, 1 195 likes, 81 reposts, 36 réponses. Aucun autre compte relevé qui le reprenne dans le relevé.",
+      "visual": "CONTRE-MONTAGE",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2123032615330414592/img/jU5JyzKBStqKjIiA.jpg",
+      "image_alt": "Vignette du montage « GTA 6 looks like GTA 5 » publié par @gtasix_",
+      "image_credit": "@gtasix_ sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "“GTA 6 looks like GTA 5”\n\nMeanwhile, GTA 6:"
+    },
     {
       "id": "x-gta6-une-heure-avant-lancement-gtavi-countdown-2026-11-18",
       "title": "GTA 6 : le compte à rebours d'une heure avant la sortie, relevé le 18 novembre",
@@ -4863,6 +4920,11 @@
       "at": "2026-11-18T12:13:00+01:00",
       "label": "Passage Claude Haiku (Matière X, 18/11, relevé 11 h 01 UTC)",
       "summary": "3 sujets ajoutés depuis x_alertes.json : sortie en Nouvelle-Zélande (3 468 vues, 2 comptes), avertissement Rockstar sur les spoilers (80 360 vues), compte à rebours d'une heure (42 091 vues). Presse corroborante pour la Nouvelle-Zélande (Mashable). Aucun post X ni message."
+    },
+    {
+      "at": "2026-11-18T14:12:58+01:00",
+      "label": "Passage Claude Haiku (Matière X, 18/11, relevé 13 h 05 UTC)",
+      "summary": "3 sujets ajoutés depuis x_alertes.json : Metacritic 99 (2 comptes, presse corroborante : IGN France, Mashable, Ecran Large), première conduite @gtasix_ (418 963 vues, source unique, Rumeur), montage « looks like GTA 5 » (47 200 vues, création de fan). Aucun post X ni message."
     }
   ],
   "coverage": {
