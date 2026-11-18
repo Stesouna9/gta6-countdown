@@ -1,12 +1,36 @@
 {
- "maj": "2026-11-18T20:37:32+00:00",
+ "maj": "2026-11-18T20:57:45+00:00",
  "articles": [
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNVWMxaVAxU2ZicmFMTC1JU3pfREZlTlRsV2J3MGJSV28yYjJVbVQ4b0FTeEYxZkxuOFA2Y3l1cDBCbGhzT2Y3THl5X3RzVk4temxzSkdCMUtBS1dzWnphejNVOFEtRE1YSGpCdUgxMFlXLW1ld2pDc3dWcVNfWXlKZVNqbDJIQ3JHMTI0V2w4UHk3b1Z3a094M1R0VGhMbDBfLXV6TWlZN1piWEgzdXQwcFVpOW5EWVFIVElRcjEtSFdQMkkteWFoeE5lYk4wWDV2QWRxM2pXM2dyc1B4Z1RqdDRBYjlVTWtCVVNvWA?oc=5",
+   "s": "La Provence",
+   "d": "2026-11-18T20:41:16+00:00",
+   "lang": "fr",
+   "t": "GTA 6 est enfin là ! Voici tout ce qu’il faut savoir sur le jeu événement de Rockstar Games",
+   "erreur": "HTTP Error 429: Too Many Requests"
+  },
   {
    "gn": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBWdk11X1Zna3pfd2R0WU9kRXFqVFlJa3VlbGNGd3F2b2FXYXQ4cHhFNXF2cmpEX2xFdFlCS00ydDhJbXVOYm5tRk50VmxSS3RaQU1UOUE4RFFXdS1zZzhrb3JsMmxfLTJHRG5iU29hN3FlZF9TY2tMMw?oc=5",
    "s": "GameSpot",
    "d": "2026-11-18T20:25:56+00:00",
    "lang": "en",
    "t": "All GTA 6 Radio Stations And Songs",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNd0dlQmZYNHBWU2U4ZkdRUmZQc2hhdGplbnVNdlIwcnczSGRDZVdscWFfQUZpYWZBS0tma0ZRQ29ZQXlUR0EtTUJDRXBpT29YVGxuV0hPUHNEOGJkWTVVN0tlVlk3N2VKZXBfSGdtMlNXel9tT05vODlaRXhyQ0dYbWRyMEhuUzI2NTlqUk1iRjM0OFV0NnlMQ1NidHFzc1o5ZGl0bzBsMmtvbzRmMjY3aU5PWWRrOEhUNlE?oc=5",
+   "s": "PC Gamer",
+   "d": "2026-11-18T20:23:24+00:00",
+   "lang": "en",
+   "t": "I finished GTA 6's main story: Ask me anything! (except for major spoilers)",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBDMVRiTFl4S0l2OEUta2w1X2VmS3RpZGx3STd0RmVDYm1SU2tsdU5jMGp4eURlMjhPY2l1UlRQOHlDelFoNlc5Wlp0UzMwVl9WdnNhTzlFNllPSFRmYS04elRaQmFwZw?oc=5",
+   "s": "Mashable",
+   "d": "2026-11-18T20:20:51+00:00",
+   "lang": "en",
+   "t": "'GTA 6' reviews are in: What's the verdict?",
    "erreur": "429 : passage suivant"
   },
   {
@@ -40,7 +64,7 @@
    "d": "2026-11-18T20:10:29+00:00",
    "lang": "fr",
    "t": "GTA 6 arrive enfin pour Noël : le jeu le plus attendu de l’histoire à glisser sous le sapin dès 60 € !",
-   "erreur": "HTTP Error 429: Too Many Requests"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQQkhyYTYyTl93VkxxVWFud2taQXBKVks5TmdabmFBU2xuYTRPb2l2WmFWbXFfaWNGT2ZFR0FWRXdNWUhmTTlzLXpGcFRlMnFjZ2E0aHpZaGM2MTZBX3QyUUNjV1NOWWg4c1JybWlwZ29TZzlQOXBidHRqNXNldUlhT1VKdENod2NnOGVqUzBjeEdWeFZCTjhnS0RQemJuS2xjSm9MQnRSUzhNMUttRXJzR3pwTlBGWVRoQ2ZOWFJQVEp2cE5qZ2w1UkdOeHEtV3BRZHpHaGd4WEZMM3ZfVmhLT3NIQ2RRTE0?oc=5",
@@ -56,14 +80,6 @@
    "d": "2026-11-18T19:56:31+00:00",
    "lang": "fr",
    "t": "GTA 6 sur PS5 : le PSN a flanché, mais Sony annonce un retour à la normale avant minuit",
-   "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZVFuWlZ1T01hSUJvdG40a0JPSS1xeHpzSDNlUnBzbkRxdnJfdGQ0VVU3RzNmeUZ5T00tQkx5RS1SejBrTWdqVmRWRkQxRWdTVFVXbHYyQmxfS2VLMFJfNHBPRVVCRC1IZHFqTXVSSHVwZHpNSFhOczRVcmtLd3U1SWN0WnhNQ3ZuRWlXM1dyR1E2bHczeVpCM1MwRdIBoAFBVV95cUxPQ0psclpCelZSWVVKdERRbVJmT1Z1UkZVQkNuWFlzRWlmQXg1WV96bkhjaXlKRkw5T0tlM1lrSFMyMjczZS1vZTZqVm0wMWhJV2E4VFh6LUcwMjVjWE9MRVZIQWhvSmZjZzlRVk9QaXZKM1hRdjRpRU54S3dZTTJ5YmFIZ1RPbXZoVkw4RXdZR2FXZzNGYk94YlBwSDBUWVAw?oc=5",
-   "s": "TechPowerUp",
-   "d": "2026-11-18T19:50:45+00:00",
-   "lang": "en",
-   "t": "GTA 6 Review Roundup: 99 on Metacritic and 118 Perfect Scores",
    "erreur": "429 : passage suivant"
   },
   {
@@ -103,19 +119,19 @@
    "erreur": "429 : passage suivant"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSWsteU5JeWFTMnB5UEJjcUdZVHptX3hoMTRwaUlmV01pNUI0a2dkdjZVa3B6WlNjR3g1dW1fYkNBR2dROUtJMTh5NnB2X2pKSUYzTllOaXZicDhIRm42ZjdZdTl5WUx4eU9xSmRjWWhDZk9LbU5BblJ5TDZsYXRPMjFLbEtUNkw5cGJhS0ZvV3FxOVNoY0hUTXlYWQ?oc=5",
-   "s": "PCMag",
-   "d": "2026-11-18T19:37:52+00:00",
+   "gn": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9NaUY3MzlyTnhTZmRaX21QUVE1dktjY1VDQ25lOGFmekEyZTNKcnk3bHY4c2xPeFh4UkdIcTBxbVMteFhoN3dzYXBWTmVNb2U2RUZiRjREVVZjYjB6Q2txallOcjZXb3hDdi1lZ21aOTlJcHIxejhj?oc=5",
+   "s": "BGR",
+   "d": "2026-11-18T19:42:21+00:00",
    "lang": "en",
-   "t": "The New Zealand Trick Works Like a Charm. How to Play GTA 6 Right Now",
+   "t": "3 TV Settings You Should Change Before Playing GTA 6",
    "erreur": "429 : passage suivant"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOLXRrMkwwLXhkVDRaRlI1bzVpNDNGVHdvX2o2ZmtQQ05nU283MFBkMTB5QTlQbGtPNW9pTGNXNHQzZFlNSDJBWXF4cXFPbkJXQm9EekhoU2tPck4wQklXUTQwWTNmbUd0Q0duMkg1XzZ1QjJHLTc3NU14eUEwb0JXSnFKa3lWaW14TjBnUXE3azFYNFRja0MyN25QRQ?oc=5",
-   "s": "USA Today",
-   "d": "2026-11-18T19:34:00+00:00",
+   "gn": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSWsteU5JeWFTMnB5UEJjcUdZVHptX3hoMTRwaUlmV01pNUI0a2dkdjZVa3B6WlNjR3g1dW1fYkNBR2dROUtJMTh5NnB2X2pKSUYzTllOaXZicDhIRm42ZjdZdTl5WUx4eU9xSmRjWWhDZk9LbU5BblJ5TDZsYXRPMjFLbEtUNkw5cGJhS0ZvV3FxOVNoY0hUTXlYWQ?oc=5",
+   "s": "PCMag",
+   "d": "2026-11-18T19:38:08+00:00",
    "lang": "en",
-   "t": "Gamers can celebrate GTA 6 with these food deals",
+   "t": "The New Zealand Trick Works Like a Charm. How to Play GTA 6 Right Now",
    "erreur": "429 : passage suivant"
   },
   {
@@ -131,28 +147,12 @@
    "pub": "2026-11-18T19:34:55.446Z"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdk5OamxCekF2czVtazk5M2ZKYy1Bamg3TG9JOEU0YmdCRDdCUHVDdTlhWW9PZlVkUjg1SmY1T29jZnpIdk1qcnQ4RlN3bktfa1lBbENYMWNCaVhFbnhudnpVa09kSkRZdGFadnduQnFXM19zd0Y4VU9ZN2dVbVJBY2Q5b2JJUUhYUW1ZUEF0U2lSYUNQOU9vRUdXeFF3RHVX?oc=5",
-   "s": "The Guardian",
-   "d": "2026-11-18T19:33:00+00:00",
+   "gn": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOLXRrMkwwLXhkVDRaRlI1bzVpNDNGVHdvX2o2ZmtQQ05nU283MFBkMTB5QTlQbGtPNW9pTGNXNHQzZFlNSDJBWXF4cXFPbkJXQm9EekhoU2tPck4wQklXUTQwWTNmbUd0Q0duMkg1XzZ1QjJHLTc3NU14eUEwb0JXSnFKa3lWaW14TjBnUXE3azFYNFRja0MyN25QRQ?oc=5",
+   "s": "USA Today",
+   "d": "2026-11-18T19:34:00+00:00",
    "lang": "en",
-   "t": "Grand Theft Auto VI review – gaming’s most depraved world is now also its greatest love story",
-   "u": "https://www.theguardian.com/games/2026/nov/18/grand-theft-auto-vi-gta-6-review-playstation-rockstar",
-   "img": "https://i.guim.co.uk/img/media/53ac3eb2cb6dc9001ada3ba916d998589415975e/164_0_1827_1462/master/1827.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctcmV2aWV3LTUucG5n&enable=upscale&s=fd3ed3e9026fd2fea4adb250c2df775d",
-   "chapeau": "With realism that defies belief, this vast game easily accommodates its trademark foulmouthed, OTT chaos – as well as new empathy for the fugitive couple at its centre",
-   "txt": "The women can be as violent, visibly tough and deeply messed-up as the men … Jason and Lucia in Grand Theft Auto VI. Photograph: Rockstar Games View image in fullscreen The women can be as violent, visibly tough and deeply messed-up as the men … Jason and Lucia in Grand Theft Auto VI. Photograph: Rockstar Games Review Grand Theft Auto VI review – gaming’s most depraved world is now also its greatest love story With realism that defies belief, this vast game easily accommodates its trademark foulmouthed, OTT chaos – as well as new empathy for the fugitive couple at its centre\nI n GTA VI, Rockstar has created the most extraordinarily, indulgently detailed virtual world that we have yet seen. Reviewing it feels a bit like trying to review, say, Paris: it contains so many potential experiences that it’s hard to know where to start. If you had been spying on me playing this game over the past few weeks you may well have caught me robbing banks, shooting up a weed farm or tearing along the highway at sunset blaring Bad Bunny on the in-game radio, but you might equally have caught me doing squats at the gym, shopping, assembling a coffee table or walking along the beach eating ice-cream. There is such a multiplicity of things on offer here that it is difficult to nail down what this game definitively is. Is it an interactive crime movie? A city simulator? A driving game? A sort of absurdly expansive version of The Sims in which the people you’re dressing up and looking after just happen to be professional criminals? It will be different for everyone – that is the beauty of it.\nFor me, though, this game is about Jason and Lucia, the fugitive couple through whom you experience all that Leonida has to offer. Jason is muscular, handsome, ex-military, steady and unflappable, sincere but spare with words. Lucia has been boosting cars since the age of 14, has a wicked sense of humour and takes zero bullshit. (Lucia is the scarier one; I found myself turning much more quickly to violence when playing as her.) At the start, Lucia is incarcerated and Jason is making a go of things in the sunbeaten Keys, working for a dodgy guy down on the marina and renting a run-down house on stilts with a jetty round the back and a pet snake. When Lucia gets out of prison, the two of them try to make some kind of life for themselves – but before long they get caught up with the wrong people and have to flee the cosy life they’ve just started building.\nFor a long time you really are two-bit criminals on the run, getting in with every dirtbag petty thief and drug-runner you come across in order to scrape some cash together and stay under the radar. You meet hillbilly pill-heads and biker gangs, friendly conspiracy theorists, a shady doctor, Lucia’s former prison friends and their lowlife boyfriends. By the time I actually got to Vice City – a glitzy den of sin, the centre of all Leonida’s pleasures and all its most extravagant criminality, where the gangbangers hustle on social media and even the narcos are obsessed with their Instagram clout – I had been playing for 30 hours. It took me 70 hours to finish the game and I could have taken longer.\nRead more Leonida is so lifelike that at times it beggars belief, so vast that it feels overwhelming, and outside the story missions you can do whatever you please. There are nightclubs, gyms, flea markets, malls, restaurants, clothes shops, basketball courts, shooting ranges, aircraft hangars, projects and mansions, places to hunt and fish or go kayaking, gas stations and thousands of individuals engaged in conversation as you pass by. Interesting things are always happening in your peripheral vision. You might witness the cops chasing someone down to plant drugs on them, or overhear an interesting confrontation, or see a car speeding away and wonder where it’s going – though interesting things always seemed to happen when I was driving a stolen car at high speed towards a discerning buyer, or otherwise unable to stop and follow my nose. Thankfully, another opportunity would always present itself.\nView image in fullscreen Impossible not to care for them … Jason and Lucia in Grand Theft Auto VI. Photograph: Rockstar Games I often felt that the only thing messing up Rockstar’s perfect simulation was me. All this detail and realism comes with some disadvantages, namely complex controls and a tendency for the game’s systems to collide with my intentions in unexpected and sometimes annoying ways. Here I am, drivi",
-   "pub": "2026-11-18T11:00:55.000Z"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMid0FVX3lxTE02Tm1uOXctbjhlSHBsUnp5VjhoamlXMU52d2N5M3p1bDNkN0VNODEzc21HS2ZnRDJCSTBwV2hYTUJ0VTE5aFExeXdpaDVoU2FZd1FMYk1DNnVxZ0xoa3pOVmpLcTBwaXF1allFcGZFSFlTdDNpcmhB?oc=5",
-   "s": "Loudwire",
-   "d": "2026-11-18T19:23:33+00:00",
-   "lang": "en",
-   "t": "See All the Rock + Metal Songs in 'Grand Theft Auto 6' - The Rolling Stones, Metallica, Slayer + More",
-   "u": "https://loudwire.com/rock-metal-soundtrack-songs-grand-theft-auto-6/",
-   "img": "https://townsquare.media/site/366/files/2026/11/attachment-social-image-366-2026-11-18-14-13-00.jpg?w=1200&q=75&format=natural",
-   "chapeau": "Tomorrow is the day fans have waited for for 13 years.",
-   "txt": "Tomorrow (Nov. 19) is the big day, so keep reading to see all of the rock and metal songs that are featured in Grand Theft Auto 6.\nFans of the game franchise officially know what it's like to be a Tool fan as it's been 13 years since the last Grand Theft Auto game ( GTA 5 ) came out. But it's finally here and we're actually surprised if you're reading this instead of staring at your gaming screen watching your download progress.\nHistorically, the Grand Theft Auto games have always had solid songs in them, mainly on the in-game radio stations you can browse through as you drive around. A few weeks ago we reported that Slayer 's own Tom Araya and Kerry King voiced the DJs on the newest game's metal station \"106.6 The Chamber,\" which also features voice samples from SiriusXM's rock and metal hosts, Caity Babs and Shawn the Butcher.\nWe also heard a few snippets of some of the songs in rotation on the station, but now we have the full list, which includes tracks by Slayer, Metallica , The Rolling Stones , Megadeth , Black Sabbath , Bon Jovi and more.\nIt's not the first time rock stars have lent their voices to the franchise's radio stations either. Guns N' Roses ' Axl Rose voiced the DJ Tommy \"The Nightmare\" Smith in Grand Theft Auto: San Andreas and Iggy Pop hosted the rock station in Grand Theft Auto 4, using his own name rather than an alias.\nAccording to Gamespot , there are 22 different radio stations in GTA 6. Below are all of the rock and metal songs sorted by station.\nTo see where the aforementioned artists land in our list of the Best Metal Song of Each Year Since 1970, keep scrolling below.",
-   "pub": ""
+   "t": "Gamers can celebrate GTA 6 with these food deals",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOXzBiLWdqUEw5Q0pDN0RNVHZ3RHpoMGs1NVQ4RDRJOVI4WTJOY3FJVEUyc1Z5OHJJVzJEdjNhQWg5U2t1ck9EUXZmcG1oMFh5UFpDeWpxbEg0d2VfVUpZc1p6UDFySVEwLWVrTWplTFptaEJNWkNZZG9iUHE4Vlh1VmtjR2VETkNfTjBNbk54OWtBeGZMckMzQlNhLWhiTzdfaGk1WV9YQVVvcTYxU3R1eG1GMV8yMlFyRGg1Rnh4RllNYVlIYnZJd3AxN3dISFZXN0ZOQUljZG5CdWp4MW5yMjFxMjEwRUg0UndTa1JVU0JRYTRqNDZ1VXVFdWFObEw0TXo1TDZFSFRRWjVsSk1NSHUwZ2ZKR3ZGdzloUg?oc=5",
@@ -273,18 +273,6 @@
    "chapeau": "TEST - Nous avons pu jouer à GTA 6 avant sa sortie officielle en France, prévue ce 19 novembre à minuit. Les premières heures de jeu redéfinissent déjà l’ensemble du médium.",
    "txt": "Google (ouvre un nouvel onglet) Google Discover (ouvre un nouvel onglet) Google News (ouvre un nouvel onglet) Sujets Gta Jeux vidéo Lire dans l’app Sauvegarder Fermer Sauvegarder un article\nPour sauvegarder un article vous devez être connecté, vous pourrez ainsi les consulter sur tous vos appareils.\nCopier le lien Lien copié Mail Facebook X Linkedin Messenger WhatsApp Le couple de protagonistes du jeu, Lucia et Jason. Ils ne sont pas jouables d’entrée de jeu. Rockstar Games TEST - Nous avons pu jouer à GTA 6 avant sa sortie officielle en France, prévue ce 19 novembre à minuit. Les premières heures de jeu redéfinissent déjà l’ensemble du médium.\nQui aurait pu croire qu’une œuvre culturelle aussi convoitée soit à la hauteur des attentes? Grand Theft Auto 6 débarque ce jeudi 19 novembre en France, et Le Figaro a pu le tester avant sa sortie officielle.\nPODCAST - Écoutez le club Le Figaro Culture avec Jean-Christophe Buisson TV ce soir : retrouver notre sélection du jour PODCAST - Écoutez le dernier épisode de notre série Questions Tech Quelques dizaines de médias spécialisés internationaux ont pu accéder au titre en avance, et lui ont décerné ce mercredi l’incroyable note de 99/100 sur Metacritic, indicateur de référence qui compile les critiques des médias dans le monde entier. Jamais un titre n’a disposé d’une note aussi élevée dans toute l’histoire du jeu vidéo, hormis The Legend of Zelda : Ocarina of Time , sorti en 1998 sur Nintendo 64. Mais à l’époque, seuls 22 médias avaient pu noter le jeu sur la plateforme, contre quelque 150 aujourd’hui avec GTA 6 .\nProfitant d’une «zone grise» laissant les joueurs disposant d’un compte PlayStation néo-zélandais jouer au titre avec douze heures d’avance sur la France, nous avons parcouru, pendant plusieurs heures et sans souffrir d’un quelconque embargo, le début de GTA…\nCet article est réservé aux abonnés. Il vous reste 92% à découvrir.",
    "pub": "2026-11-18T18:36:45+01:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcG1xQ0ZiT1JtSVFOZmN0ZGhkY1pkVzd2bHk4Rjkwc2JBWXpYelZkelB2eEJ3RGR5MXNRMmFNbUdrd1lZdU9pNlZJRGUzcUdUZklaOHRZV1h3ZXF3dE1Bb0E5SzMxVzVGM3pZemxQTFI5ZkFLaHk1Vk9iUFUyMDVKOXpqN0FMbTBPSU1iLVcwakRIcUlNX2ZSczd5VW9RRW1faHlEVFl2VEhiak02YnpiQlB1S1d0TjJzdVVULXZTRTA4eGc?oc=5",
-   "s": "Actu.fr",
-   "d": "2026-11-18T17:32:02+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : une soirée spéciale organisée au Grand Rex le jeudi 19 novembre",
-   "u": "https://actu.fr/ile-de-france/paris_75056/gta-6-une-soiree-speciale-organisee-au-grand-rex-le-jeudi-19-novembre_65070974.html",
-   "img": "https://static.actu.fr/uploads/2026/11/969d2b033ada6ce9d2b033ada33ad2v.jpg",
-   "chapeau": "La société Iconic Production propose une soirée spéciale au Grand Rex à l'occasion de la sortie du nouveau jeu événement.",
-   "txt": "La société Iconic Production propose une soirée spéciale au Grand Rex à l'occasion de la sortie du nouveau jeu événement.\nSoirée spéciale GTA 6 au Grand Rex ! À l’occasion de la sortie du nouveau jeu phénomène, la salle de cinéma parisienne organise une soirée de découverte du jeu sur grand écran , le jeudi 19 novembre de 20 heures à minuit.\nOrganisé par la société Iconic Production, l’événement aura lieu dans la salle Infinite du Grand Rex, une salle de cinéma de près de 300 places au style rétrofuturiste.\nAu cours de cette soirée gaming, le streamer Vlad_CKa sera en live avec ses abonnés, et le jeu sera diffusé sur grand écran afin de permettre aux spectateurs du Grand Rex de le découvrir en direct.\nLe Grand Rex promet sur son site Internet des shows, animations, et un jeu-concours tout au long de la soirée.\nPour assister à la session gaming GTA 6, des places sont en vente au prix de 19,80 euros.\nLe jeu « Grand Theft Auto VI » sort officiellement en France hexagonale dans la nuit du mercredi 18 au jeudi 19 novembre 2026 à minuit. Une sortie très attendue par tous les fans gaming, alors que les précommandes du jeu ont explosé les chiffres d’achats sur Internet.\nLe cabinet Sensor Tower estime que GTA 6 aurait dépassé les 15 millions de précommandes numériques, pour des recettes potentielles supérieures à 1,5 milliard de dollars.\nLa version standard du jeu sera disponible à la vente à partir de 79,99 euros dans les commerces, mais aussi en ligne. Le jeu devra ensuite être téléchargé sur les consoles compatibles, sur PS5 sur Xbox Series X et S.\nGTA 6 : cette alerte devrait inquiéter tous les joueurs qui vont acheter le jeu le plus attendu de l’histoire\nPersonnalisez votre actualité en ajoutant vos villes et médias en favori avec Mon Actu .",
-   "pub": ""
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOM3dHTGwtd0R0Z3NDYWQ2RkVKQXdrbjZtaGVFdl9nSHNvYkhXSl9MeFNGZE5PYXpaNHJlNVltZFRuWVZVYXJ4VEs2b1pTR1VveTZwd3RRY29aR0RuUHQ4MWFaSng4UVlDUHM1V29zVlJoZ1ZzYnpxdHdvRFhxNnpxYVBjS2tjQkhnMy1oY0NCWlFVeEJqUkVDblpCeVVPNVEyRUoxVWlDaXl3V0QzeHFxRG9DTDFxNjZqMllsWTRGVUtaQQ?oc=5",
