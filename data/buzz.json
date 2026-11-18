@@ -1,8 +1,27 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-18T18:12:44+01:00",
+  "updated_at": "2026-11-18T19:15:00+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-sortie-hong-kong-taiwan-malaisie-singapour-gtavi-countdown-2026-11-18",
+      "title": "GTA 6 est sorti à Hong Kong, Taïwan, Malaisie et Singapour, selon @GTAVI_Countdown",
+      "summary": "@GTAVI_Countdown annonce que GTA 6 est officiellement sorti à Hong Kong, à Taïwan, en Malaisie et à Singapour. Un seul compte fan relaie l'information dans les données relevées, sans communiqué de Rockstar ni confirmation de presse.",
+      "url": "https://x.com/GTAVI_Countdown/status/2123083900197232664",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-18T16:00:21.000Z",
+      "checked_at": "2026-11-18T19:15:00+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json : 23 184 vues pour @GTAVI_Countdown à 16 h 00 UTC (relevé du 18/11 à 18 h 12 UTC), 701 j'aime et 39 reposts. Aucun autre compte relevé sur ce sujet, aucune presse corroborante dans data/presse.json.",
+      "visual": "SORTIE ASIE",
+      "image": "https://pbs.twimg.com/media/HXa1bW-XMAA9sul?format=jpg&name=small",
+      "image_alt": "Publication annonçant la sortie de GTA 6 à Hong Kong, Taïwan, Malaisie et Singapour",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "GTA 6 serait officiellement sorti à Hong Kong, Taïwan, en Malaisie et à Singapour. Information d'un seul compte fan, pas encore confirmée par Rockstar."
+    },
     {
       "id": "x-playstation-sortie-demain-19-novembre-2026-11-18",
       "title": "GTA 6 : PlayStation annonce une sortie « demain, jeudi 19 novembre »",
@@ -5030,6 +5049,11 @@
       "at": "2026-11-18T18:12:44+01:00",
       "label": "Passage Claude Haiku (Matière X, 18/11, relevé 17 h 11 UTC)",
       "summary": "2 sujets ajoutés depuis x_alertes.json : sortie annoncée demain par PlayStation (Officiel, 234 166 vues), scène du chat dans la voiture de Jason (Rumeur, 708 010 vues, compte unique). Écartés : horaires du concert Heat du soir (même sujet que l'annonce ESPN déjà publiée), relais de sortie Hong Kong/Taïwan (18 232 vues, sous le seuil). Aucun post X ni message."
+    },
+    {
+      "at": "2026-11-18T19:15:00+01:00",
+      "label": "Passage Claude Haiku (Matière X, 18/11, relevé 18 h 12 UTC)",
+      "summary": "1 sujet ajouté depuis x_alertes.json : sortie à Hong Kong, Taïwan, Malaisie et Singapour (Rumeur, 23 184 vues, compte unique ; seuil de 20 000 vues atteint). Écartés : selfies, chat et sortie PlayStation déjà publiés ; NPC poursuivant Jason (17 274 vues, sous le seuil) ; carte du Collector (10 684 vues) ; reste sous le seuil. Aucun post X ni message."
     }
   ],
   "coverage": {
