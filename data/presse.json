@@ -1,12 +1,20 @@
 {
- "maj": "2026-11-18T21:39:34+00:00",
+ "maj": "2026-11-18T21:59:48+00:00",
  "articles": [
   {
-   "gn": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPWDFoSXhzTldVcy0tdThuMVdhTTJZbUlBMzRBYmppeXN4QWdlZm9GR195QnVUaktnd1NELU5mSWozMmZpOGpsNzFYUnFReDdJRnJaeW5aNGtONzJUX09LZHNSVzdPblZKdWZQOUNTVTFPeVNQMm9vZ1N0dW8zUlZ4ZHV1VVVSc1I5bjl2VDYzbzBHdEtPNkR4Z1FTYTM5UzZSNjVRbnlaVXpyTzVENVZHcnRXcURKb1pMcFR6SGpwVFF0X3gz?oc=5",
-   "s": "MMA Mania",
+   "gn": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWm0zaW45ckY3S1RaZHBoQk44Rm9CSEZNd0Z4QmFVbTlpMlZuYWpXbVQtUHdwQ1BzdC1tWF80ZXEyVmpMZkV3d1czZk1YTThsUzU4SHExMVBvUmlNNE9ZWEcyNHZfSHpoVjJ2dzZUTzJRU2FPY2xFTXZmVkJRbmZocjl5d0tWbVU?oc=5",
+   "s": "Yahoo Sports",
    "d": "2026-11-18T21:14:55+00:00",
    "lang": "en",
    "t": "Conor McGregor celebrates GTA 6 launch by giving all 400 of his employees the day off",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNZGI2bGhxU1VzMDd6ZkJrMjg2MGRUclM5MkRsNXl3M2kwX0h5UWZQLWg3MnJ4NTVTXzkybVBSLVdMTE5QR2RHQ1Uzei1ZRFd6OTRIR1hzTVdiQlAxQnZ0QWNYSXFUaVBqemFmZkwwdWtjVVhVdERxU0FPQVZWMEtjWnY5a1pVLWxlakRRcVpYdy1naXBNSjRlVmtWNEd5MlJHSmNTNFJWTlFnazhzaFZ1MTZtanBzQnBNZHZ1V0tLY2g4cWwxSURIa3lxOEwxbWV2YlY4b3NVNHNKVU15NmF3V2w5X1lfckJDeWFz?oc=5",
+   "s": "Yahoo Tech",
+   "d": "2026-11-18T21:14:31+00:00",
+   "lang": "en",
+   "t": "Is 'GTA 6' out? How people are playing the new game already, plus what the verdict is so far.",
    "erreur": "429 : passage suivant"
   },
   {
@@ -18,12 +26,28 @@
    "erreur": "429 : passage suivant"
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOEIxazZvTmpHRUkydGM4LVhPbUVCemZwNTFEcWlXbVRUWV9iMGhQbmh6Yk83NzhLNXFaRlMxS0hPdjdTbEpHbFJ6dXAyVlVuS0pORXZ4M1pla3lLZFl2MUNBMTBHSnJiZUZtalVGUnNuMTFXaFNzajdJZmxmTE94RnhhZmZZMlB6Tm9nXzdBUVBtQm9MWmVtOE8wNXZMRmhENmZVY055bWh1YWNzYkRSVE5UTXdMZVFIaTEtZUFvTTY?oc=5",
+   "s": "Yahoo Tech",
+   "d": "2026-11-18T21:06:41+00:00",
+   "lang": "en",
+   "t": "PlayStation Network down for thousands as 'GTA 6' launches",
+   "erreur": "429 : passage suivant"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOSVZJOURXa3FFTS1BblZKQ3JqQ1cyQmd2OFd1TlpaR1dqOGp1WDJ6YlFOeUNaUEpuWUtCWVd4ZkI5ZDZCbTNRc0ZzVW10eWFodlpOLUFKV0ZmeDFUU1A0N1JqMkZwNUlybVJCVnprUm9fLTRSSVhFcnFVdENDMzduMTc2MnNSRnE1NFhFSGRSY0ZpVEdGSFJVR1lvNEs4VG5GR3N3X24wZUx4MVVmZXBRUElweVpuWlh1Qk5DUHUtdjhpMkhhVVl0c3ByNTVqOFg0dVdhcENhRHMtQlJ4aVR5aVh0ZzhFU0p2QjA3RnQ0U0s?oc=5",
    "s": "Ouest-France",
    "d": "2026-11-18T21:06:02+00:00",
    "lang": "fr",
    "t": "Comment libérer de l’espace sur votre PS5 avant GTA 6 ? 4 astuces imbattables",
    "erreur": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObVZrN0tMMmpUVDJMZlJkd09YZzJwLTBHMFBmQkNvaGNRT0ZyaF8wSHZzYUpPdnNFUWUwbXJkYklMUkZUS1hZa1FrZmJIWXZlYU9vWVRITzdtNEUtT1dkSnBMWmpvVG5kTk1LaTFkSWRLakpQemVxYXJtenJabVBSTGJzYTk?oc=5",
+   "s": "Mashable",
+   "d": "2026-11-18T21:05:33+00:00",
+   "lang": "en",
+   "t": "GTA 6 cheat codes: There are cheats, but there's a catch",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMid0FVX3lxTE16d01ubkxfVXlneHJ4Vnc4dURnSkFDUnBQYThKdG5GLWRrWFpUVjVWSDNGd2pKUlByaktNbTBxOVR5QU5EVnlxMFNuUG1SZmFpNElSMG43OUlNbGlnYlRZbGhrMTh6cEZfaklrdXhoTHlKaTZ0OXl3?oc=5",
@@ -66,6 +90,14 @@
    "erreur": "429 : passage suivant"
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQd2VRMGhHMzg1OTZBN2hRYkstdmR0c2ZFN21KZkVzVExVZ1M4bzRSTFZ1bmxfOG5xaW9OUXhVa244dkJrbVctM19UYXh3ZW1INmJySHN0OXdGRFRBR2pERXpjYWpOdzlqc2NNQUZoamlFSkJqcHROVlJ6N3ZSQXVJZ0Zn?oc=5",
+   "s": "Mashable",
+   "d": "2026-11-18T20:51:04+00:00",
+   "lang": "en",
+   "t": "Rockstar hints massive 'GTA 6' map saved room for future content",
+   "erreur": "429 : passage suivant"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONDhocDVJNFpJWjhzZ0hDU0dIMnBNdWZZb1l3OXNsNVFJV0xxLXZIb0ZZd3dKV282Z1hFSktfY2lNRlhYQm1QYUJ2bEJ2aFR3YXRBS1VRSTg4eTVkUkZ0dlNCZG5kcDlzVl9OTnpWQ212bTUwWU5ialRwUVpTeklZNlo4WXZSUVBKcV9OV0QyRmRxeTZ4MVJMcWlmVm8?oc=5",
    "s": "Noovo Info",
    "d": "2026-11-18T20:49:13+00:00",
@@ -90,14 +122,6 @@
    "pub": "2026-11-18T12:57:27+00:00"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOEIxazZvTmpHRUkydGM4LVhPbUVCemZwNTFEcWlXbVRUWV9iMGhQbmh6Yk83NzhLNXFaRlMxS0hPdjdTbEpHbFJ6dXAyVlVuS0pORXZ4M1pla3lLZFl2MUNBMTBHSnJiZUZtalVGUnNuMTFXaFNzajdJZmxmTE94RnhhZmZZMlB6Tm9nXzdBUVBtQm9MWmVtOE8wNXZMRmhENmZVY055bWh1YWNzYkRSVE5UTXdMZVFIaTEtZUFvTTY?oc=5",
-   "s": "Yahoo Tech",
-   "d": "2026-11-18T20:41:49+00:00",
-   "lang": "en",
-   "t": "PlayStation Network down for thousands as 'GTA 6' launches",
-   "erreur": "429 : passage suivant"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNVWMxaVAxU2ZicmFMTC1JU3pfREZlTlRsV2J3MGJSV28yYjJVbVQ4b0FTeEYxZkxuOFA2Y3l1cDBCbGhzT2Y3THl5X3RzVk4temxzSkdCMUtBS1dzWnphejNVOFEtRE1YSGpCdUgxMFlXLW1ld2pDc3dWcVNfWXlKZVNqbDJIQ3JHMTI0V2w4UHk3b1Z3a094M1R0VGhMbDBfLXV6TWlZN1piWEgzdXQwcFVpOW5EWVFIVElRcjEtSFdQMkkteWFoeE5lYk4wWDV2QWRxM2pXM2dyc1B4Z1RqdDRBYjlVTWtCVVNvWA?oc=5",
    "s": "La Provence",
    "d": "2026-11-18T20:41:16+00:00",
@@ -112,38 +136,6 @@
    "lang": "en",
    "t": "GTA 6 Is Out: Wells Fargo Sees 65M Sales By March - Take-Two Interactive (NASDAQ:TTWO)",
    "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBWdk11X1Zna3pfd2R0WU9kRXFqVFlJa3VlbGNGd3F2b2FXYXQ4cHhFNXF2cmpEX2xFdFlCS00ydDhJbXVOYm5tRk50VmxSS3RaQU1UOUE4RFFXdS1zZzhrb3JsMmxfLTJHRG5iU29hN3FlZF9TY2tMMw?oc=5",
-   "s": "GameSpot",
-   "d": "2026-11-18T20:25:56+00:00",
-   "lang": "en",
-   "t": "All GTA 6 Radio Stations And Songs",
-   "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNd0dlQmZYNHBWU2U4ZkdRUmZQc2hhdGplbnVNdlIwcnczSGRDZVdscWFfQUZpYWZBS0tma0ZRQ29ZQXlUR0EtTUJDRXBpT29YVGxuV0hPUHNEOGJkWTVVN0tlVlk3N2VKZXBfSGdtMlNXel9tT05vODlaRXhyQ0dYbWRyMEhuUzI2NTlqUk1iRjM0OFV0NnlMQ1NidHFzc1o5ZGl0bzBsMmtvbzRmMjY3aU5PWWRrOEhUNlE?oc=5",
-   "s": "PC Gamer",
-   "d": "2026-11-18T20:23:24+00:00",
-   "lang": "en",
-   "t": "I finished GTA 6",
-   "u": "https://www.pcgamer.com/games/grand-theft-auto/i-finished-gta-6s-main-story-ask-me-anything-except-for-major-spoilers/",
-   "img": "https://cdn.mos.cms.futurecdn.net/syr3DfcBARgS5WGF5AkiNk-2560-80.jpg",
-   "chapeau": "Got some burning questions for someone who",
-   "txt": "(Image credit: Rockstar Games) {alert('Link copied')}).catch(err => {console.error('Failed to copy: ', err)})\" data-platform=\"copy_link\" data-action=\"\" class=\"font-ui-heading py-2 text-sm text-neutral-700 hover:bg-neutral-100 transition-colors no-underline block cursor-pointer border-0 bg-transparent w-full text-left normal-case\" aria-label=\"Copy link\" role=\"menuitem\" data-analytics-id=\"article-social\" analytics-label=\"utility-bar-social-share-copy-link\" analytics-name=\"utility-bar-secondary\" data-mrf-recirculation=\"article-social\"> Copy link Facebook X Reddit Pinterest Flipboard Email Share this article 0 Join the conversation Follow us Add us as a preferred source on Google Newsletter Subscribe to our newsletter I've been secretly playing Grand Theft Auto 6 for the past several weeks and my suffering is finally at an end.\nNot that I suffered from playing GTA 6! I had a blast, actually, and as I laid out in my not-a-review this morning, I really like the game. In fact, after putting in about 100 hours, I'm ready for 100 more, though I desperately wish the game were on PC.\nNo, my suffering is that for the past two weeks I haven't been able to talk about GTA 6 with anyone, so I'm positively bursting to let a few things fly. With that in mind, here's my invitation to you:\nAsk me anything! In the comments below, ask me whatever burning questions you might have about GTA 6. I'm gonna be at my desk all day (and most of the night, probably), so I'll answer them as promptly as I can.\nI don't mean ask stuff like \"how does it end\" or anything that could be considered a major spoiler, but stuff about how Jason and Lucia's relationship works, the activities, the characters, the world, the systems, and honestly, any other questions you might have about the game. I'll be checking the comments section for the next few days and on Friday we'll (probably) turn your questions and my answers into a story for the site.\nKeep up to date with the most important stories and the best deals, as picked by the PC Gamer team.\nChristopher Livingston Senior Editor Chris started playing PC games in the 1980s, started writing about them in the early 2000s, and (finally) started getting paid to write about them in the late 2000s. Following a few years as a regular freelancer, PC Gamer hired him in 2014, probably so he'd stop emailing them asking for more work. Chris has a love-hate relationship with survival games and an unhealthy fascination with the inner lives of NPCs. He's also a fan of offbeat simulation games, mods, and ignoring storylines in RPGs so he can make up his own.\nPlease logout and then login again, you will then be prompted to enter your display name.",
-   "pub": "2026-11-18T20:23:24Z"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1tMVl1NzVTX2JPWXB4WlhNMlNaQlQtVTk1Z2JBVUtHcTc5OXJrbmNVY29yN0lfcC1GSEM5Q2c0YUl4a0FGTjVGRDVuUGtyUlVuaEV5V3M5WjRiZUpMd195ME1WY0Z6Zw?oc=5",
-   "s": "Mashable",
-   "d": "2026-11-18T20:20:51+00:00",
-   "lang": "en",
-   "t": "'GTA 6' on PC: What we know about the PC release",
-   "u": "https://mashable.com/entertainment/gta-6-pc-launch-date",
-   "img": "https://helios-i.mashable.com/imagery/articles/02eaGJEEvgyCPLPEm5KnYyE/hero-image.fill.size_1200x675.v1794995375.jpg",
-   "chapeau": "'Grand Theft Auto VI' is the most-anticipated video game of all time.",
-   "txt": "Grand Theft Auto VI will be available on PlayStation 5 and Xbox Series X/S consoles at launch (it will also be available on Xbox Cloud Gaming , with limits).\nGTA 6 has no confirmed PC release date. Given Rockstar's history with PC ports, we originally thought gamers were in for a long wait.\nAn October 2026 report from gaming business media site Gamesbeat reveals a potential PC launch in early 2027, which is sooner than we expected.\nThe highly anticipated Grand Theft Auto VI arrives on PlayStation 5 and Xbox Series X/S on Nov. 19, 2026, but PC players will have to wait a while longer. Rockstar has confirmed that the game will not be available for PC gamers at launch, and no PC version has been officially announced yet.\nDespite that, we recently got some good news: GamesBeat reports that GTA 6 will get a PC release sometime in Q1 of 2027. GamesBeat has a good track record with unannounced news like this. According to their reporting, the GTA 6 PC release window was confirmed by industry sources familiar with Rockstar's plans. They spoke with the outlet under the condition of anonymity.\nRockstar and Take-Two haven't given an official reason for skipping PC at launch, but a few factors are typically cited when publishers stagger releases this way.\nConsole hardware is standardized, which tends to make optimization more straightforward than building for the huge range of PC configurations. Some industry data has also indicated that consoles generate higher per-unit revenue, giving publishers an incentive to front-load console sales.\nA more cynical take is that Take-Two could just be double-dipping, hoping fans who can't wait for the PC launch will buy the console first, then buy the PC version later. A PC Gamer poll found that 39 percent of respondents said they're fine waiting for a port rather than needing it on day one, suggesting a meaningful share of the PC audience isn't treating the delay as a dealbreaker.\nHowever, there could be another, less financially motivated reason for all of this.\nSpeaking to YouTuber KiwiTalkz , former Rockstar producer John Ricchio explained that building for consoles first and scaling up to PC is technically easier than the reverse, since consoles have fixed, predictable hardware. According to IGN , Ricchio said it's simpler to start with tighter constraints and add polish later than to build a PC-first game and then try to trim it down to fit console limitations.\nWithout an official release date, gamers have had to speculate on the most likely launch window for a GTA 6 PC version.\nIf you look at several past Rockstar games, you can see that there's typically a significant amount of time between the console launch and the PC port.\nGrand Theft Auto 4 was released in April 2008 and didn't reach PC's until December. Grand Theft Auto V was released in Sept. 2013, and its PC counterpart was released 19 months later in April 2015. Red Dead Redemption 2 arrived on PC roughly a year after its console release.\nThe one exception was Grand Theft Auto: The Trilogy – The Definitive Edition , which launched simultaneously across platforms in 2021. Based on that track record, a GTA 6 PC port, if it follows the usual pattern, could be a year or more away.\nA report from The Verge claimed that Xbox would have exclusive rights to stream GTA 6 via its cloud gaming service at launch, a claim that was recently confirmed. The report noted that PC gamers would be able to play GTA 6 on day one , despite Rockstar's lack of news about a potential release window for a PC port. Unfortunately, Xbox Gaming's Chief Strategy Officer, Matthew Ball, shot down this report. Ball wrote on his personal X account that The Verge's coverage led to some \"misreporting.\"\nAgain, the game will be available to play on Xbox consoles via Xbox Cloud Gaming, but that service faces strict monthly limits, which will make it difficult to play through the game in a timely fashion.\nFortunately, a GamesBeat report suggests gamers may not have to wait a full year for a PC release, though it remains unconfirmed.\nWant more tech and digital culture news delivered to your inbox daily or sent straight to your device? Sign up for Mashable's Top Stories newsletter or get Mashable push alerts today. Recommended deals for you HBO Max — top pick for premium content\nChance Townsend is the General Assignments Editor at Mashable, covering tech, video games, dating apps, digital culture, and whatever else comes his way. He has a Master's in Journalism from the",
-   "pub": "2026-11-18T09:50:47+00:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5vU1loQXBDU1Nzb0prZTFqc3RGWERPbUhULWlhb29GRF9tZWFZM2R6YzROeEFVblBlR2tHX0RCTEppTFhmUDdTVmxuRjNzTVpDR0tpdklnMVNXdzRYUHRGcXVWN0JfbVdVcWxNTU9HUXFZNnppMm5oS1BB?oc=5",
@@ -211,14 +203,6 @@
    "pub": ""
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVnh5NHZvcHlkY3lWNEF2VDdOVnpVSy1HeFVua28yQnd3YVVfa1lHenNaVHljdHRjbzk5UThWWk02NnF2ZS1uckRUX1ZrRHZxNmtPeS11YnI1bWhoZ0s2SUtfYUR6aDI4Um5tTVI0eFljeEtUNjAtVDl1Z1N1X0lrMnZZV3Z6QVhxN05GVWpDa3dPWnBiQnlyWVd6WTZVNkFvX3F2NXlVTUVKX29vVlJNRlgxaUc?oc=5",
-   "s": "Facebook",
-   "d": "2026-11-18T19:30:12+00:00",
-   "lang": "fr",
-   "t": "France Inter. . GTA VI sera disponible en France ce 19 novembre 2026 à minuit. Son prédécesseur, GTA V, sorti il y a 13 ans, est le \"produit culturel le plus rentable de l'histoire\". ➡️ https://l.franceinter.fr/eTo",
-   "erreur": "429 : passage suivant"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOXzBiLWdqUEw5Q0pDN0RNVHZ3RHpoMGs1NVQ4RDRJOVI4WTJOY3FJVEUyc1Z5OHJJVzJEdjNhQWg5U2t1ck9EUXZmcG1oMFh5UFpDeWpxbEg0d2VfVUpZc1p6UDFySVEwLWVrTWplTFptaEJNWkNZZG9iUHE4Vlh1VmtjR2VETkNfTjBNbk54OWtBeGZMckMzQlNhLWhiTzdfaGk1WV9YQVVvcTYxU3R1eG1GMV8yMlFyRGg1Rnh4RllNYVlIYnZJd3AxN3dISFZXN0ZOQUljZG5CdWp4MW5yMjFxMjEwRUg0UndTa1JVU0JRYTRqNDZ1VXVFdWFObEw0TXo1TDZFSFRRWjVsSk1NSHUwZ2ZKR3ZGdzloUg?oc=5",
    "s": "La Tribune",
    "d": "2026-11-18T19:22:21+00:00",
@@ -243,19 +227,19 @@
    "pub": "2026-11-18T20:15:26+01:00"
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQT0NNaDdkamVuTHd1VTZHVUNtN1JUTXBXZW5iY0xPWEhfeEpQbTBabjNNbW5BZzl6VTBlT1FicmEwdnNWOGFJYWRrano1d1BsQ0V3eWRyZlRVMlhfeTdESl9WUU9JZjlTbEV0VERYUGkzNGtNakE1WjFjUGNRd2pwTmpKeFNfR25FUTR3X2VnQkxNWWttcTl2RDNTdFE5ZDJlTlhfZmM3aXk2ZUgxOTY2eEc0TG5Bdw?oc=5",
+   "s": "L'Humanité",
+   "d": "2026-11-18T19:12:51+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : sous le capot, la décadence de nos sociétés capitalistes",
+   "erreur": "429 : passage suivant"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZ2pSRkRXOHlIZ3hoMm9uemtzNTVxZHlQX19MR2hOQS1YeVlVVkU0cTRRbVpzZGFYV3dFRkRkS3lrUU5VanhsRzJyeFNFeXV1enJRVjdKaE9zZ2l4Q3lqOTd6aHJaYzJXN0J6R2Z5cFprcnNZSmZEbzUtaTJHT2JVRkI3QVlTU1hFWVJEcVZJd2twN3hhLVdNX0Q0dUFjYjNGTnlSVnJqWE9JTXBFcUVqZWRVMUJaaWprV0g5XzJHdHVwN2N5aUN6cHNYY0lMcG1iSDNuejNB?oc=5",
    "s": "La Provence",
    "d": "2026-11-18T19:05:00+00:00",
    "lang": "fr",
    "t": "GTA 6 sort demain : le jeu à 60 € existe, mais où peut-on encore le trouver ?",
-   "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZTluUzNtRVk1WUJzdTJJdkx3T2c5UjhSMF9SUXg2eE1QNDBDbG5SUWkzdHE4X1dJNktLS0twajJ1bWxtWU41OUVDcXJxZTdHclQxdktDX1NCSlpPMERuNkxCWWMyU016SUhqeTlsNmNxWXlIVVA2NEZldjgtS3ZBVG5qcWdRdG5wZ21Jc1I1UVB2cGhrei04QUZCcXc4MFJfbmJCanBPeUxIVjAzTkRtVkxjeFZaWmlQRVM0S3Q5Vlo2MUhGekd2bVVJR0FORkVyVHU4d2N0YU9UNlYz?oc=5",
-   "s": "La Provence",
-   "d": "2026-11-18T19:00:01+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : précédents opus, anciens personnages… Êtes-vous incollable sur la franchise ?",
    "erreur": "429 : passage suivant"
   },
   {
@@ -289,6 +273,14 @@
    "chapeau": "Les signalements de panne se sont multipliés mercredi soir sur Downdetector, alors que GTA 6 doit se débloquer à minuit en France sur PS5. Le réseau de Sony avait déjà montré des signes de faiblesse pendant le préchargement du jeu. Le timing ne pouvait guère être plus mauvais pour Sony. Mercredi 18 novembre en début",
    "txt": "Recevez tous les soirs un résumé de l’actu importante avec Le Récap’\nBlack Friday : votre sérénité numérique à -61% Sécurisez vos achats durant Black Friday avec la meilleure offre de l’année. Dénichez les bonnes affaires, Bitdefender s’occupe des arnaques. Sponsorisé Seulement jusqu’au 30 Novembre ! Mercredi 18 novembre en début de soirée, les signalements de dysfonctionnement du PlayStation Network (PSN) se sont envolés sur Downdetector, la plateforme qui recense les incidents déclarés par les utilisateurs.\nCela se passe à quelques heures seulement du lancement de Grand Theft Auto VI , prévu à minuit heure locale sur PS5.\nSignalements recensés à 19h05 La page officielle de PlayStation reste au vert Pour l’heure, la page officielle de PlayStation n’indique toujours aucun incident. Ces difficultés n’ont pourtant rien de surprenant, tant l’attente autour de GTA 6 est forte et tant les serveurs de Sony risquent d’être sollicités par des millions de joueurs au même moment. Nous suivons la situation de près et mettrons cet article à jour au fil de la soirée.\nLe PSN qui est down à quelques heures du lancement de GTA VI… Merci Sony.\nCe contenu est bloqué car vous n’avez pas accepté les cookies et autres traceurs. Ce contenu est fourni par Twitter. Pour pouvoir le visualiser, vous devez accepter l’usage étant opéré par Twitter avec vos données qui pourront être utilisées pour les finalités suivantes : vous permettre de visualiser et de partager des contenus avec des médias sociaux, favoriser le développement et l’amélioration des produits d’Humanoid et de ses partenaires, vous afficher des publicités personnalisées par rapport à votre profil et activité, vous définir un profil publicitaire personnalisé, mesurer la performance des publicités et du contenu de ce site et mesurer l’audience de ce site (en savoir plus)\nEn cliquant sur « J’accepte tout », vous consentez aux finalités susmentionnées pour l’ensemble des cookies et autres traceurs déposés par Humanoid et ses partenaires .\nVous gardez la possibilité de retirer votre consentement à tout moment. Pour plus d’informations, nous vous invitons à prendre connaissance de notre Politique cookies .\nZéro publicité, fonctions avancées de lecture, articles résumés par l'I.A, contenus exclusifs et plus encore.\nTout le monde n'a pas les moyens de payer pour l'information. C'est pourquoi nous maintenons notre journalisme ouvert à tous.\nMais si vous le pouvez, voici trois bonnes raisons de soutenir notre travail :\nSi vous croyez en un web gratuit et à une information de qualité accessible au plus grand nombre, rejoignez Numerama+.\nAjoutez Numerama à votre écran d'accueil et restez connectés au futur !\nPour ne rien manquer de l’actualité, suivez Numerama sur Google !",
    "pub": "2026-11-18T18:12:00+00:00"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA5eE5HWlF1SDNNQXZnR1NhbkJUNm5TbFFiS3hxLXdpX29yU2xSQVpjQm05NnpGeHdmazVEWkNzRVNaQ08wVm5VcW5oMUlmMUlRUTlWd2pULVFySUJFRVJ1T3AxZXZpRXFtajA4d0hzRnc5Tmo4?oc=5",
+   "s": "IGN France",
+   "d": "2026-11-18T18:09:00+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : le jeu 18+ ultime ?",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOM3dHTGwtd0R0Z3NDYWQ2RkVKQXdrbjZtaGVFdl9nSHNvYkhXSl9MeFNGZE5PYXpaNHJlNVltZFRuWVZVYXJ4VEs2b1pTR1VveTZwd3RRY29aR0RuUHQ4MWFaSng4UVlDUHM1V29zVlJoZ1ZzYnpxdHdvRFhxNnpxYVBjS2tjQkhnMy1oY0NCWlFVeEJqUkVDblpCeVVPNVEyRUoxVWlDaXl3V0QzeHFxRG9DTDFxNjZqMllsWTRGVUtaQQ?oc=5",
@@ -543,19 +535,6 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMmxvZTVVZExGeEVrNlBvUjFwTnR6RzM5ZExuV2Q1Qk91U2trNktyckZQWHNzUUs5TXczQng3eWtxYkQybzN0WmdiQ2RvNHBRSEV1YU5EcW5JR1YyMHI4T2lSeXRCWUtkNE9Mdzl5cGF4VXRtY3pGVDlCcjNmMklnTjkwYlhuUHd5UkpMMUIxekE1blhTN29LeTFMYTZUWjRHZWF0TG5EOGZSRzV3M2FyejV3?oc=5",
-   "s": "01net.com",
-   "d": "2026-11-17T13:03:30+00:00",
-   "lang": "fr",
-   "t": "Le hacker de GTA 6 plaide coupable : il a bien piraté Rockstar Games en 2022",
-   "u": "https://www.01net.com/actualites/le-hacker-de-gta-6-plaide-coupable-il-a-bien-pirate-rockstar-games-en-2022.html",
-   "img": "https://www.01net.com/app/uploads/2024/02/GTA-6-PS5-Pro.jpg",
-   "chapeau": "Arion Kurtaj, le Britannique à l’origine de la fuite massive de Grand Theft Auto VI en 2022, a plaidé coupable le 16 novembre 2026 devant la justice britannique. Le tout à quelques jours de la sortie du jeu le plus attendu de tous les temps.",
-   "txt": "Arion Kurtaj, le Britannique à l’origine de la fuite massive de Grand Theft Auto VI en 2022, a plaidé coupable le 16 novembre 2026 devant la justice britannique. Le tout à quelques jours de la sortie du jeu le plus attendu de tous les temps.\nLe 18 septembre 2022, Rockstar Games était victime de l’une des fuites les plus importantes de l’histoire du jeu vidéo . Arion Kurtaj, alors âgé de 17 ans , a récupéré 90 séquences de gameplay . Arrêté et condamné depuis, il est repassé devant la justice pénale et pour la première fois, il a reconnu les faits.\nFin 2022, Arion Kurtaj, alors âgé de 17 ans, est impliqué dans les intrusions du groupe Lapsus$ contre Nvidia, BT/EE, Revolut . Il est arrêté et placé en détention provisoire , puis libéré sous caution dans l’attente de son procès. Une période durant laquelle il est hébergé dans un hôtel sous protection policière, puisque menacé par d’autres pirates à propos de bitcoins volés.\nPrivé d’ordinateur, Arion Kurtaj a utilisé un Amazon Fire Stick à l’arrière de la télévision de sa chambre, un clavier et une souris et a piraté Rockstar Games. Avec ce hack, il a récupéré 90 séquences de gameplay de GTA VI , accède au canal de communication interne de l’entreprise et menace de publier le code s’il n’est pas contacté. Faute de réponse, le jeune homme a diffusé toutes les vidéos et le code source sur un forum.\nSauf qu’il est repéré et devra rendre des comptes. En 2023 lors de son procès, les médecins ont estimé que la gravité de son autisme rendait Arion Kurtaj inapte à être jugé dans un procès pénal ordinaire. En décembre de la même année, le jury a conclu qu’Arion Kurtaj a bien commis ces actes et a prononcé une ordonnance d’hospitalisation sécurisée à durée indéterminée. Pour lui, le jeune hacker représentait toujours un danger ; il pourrait retomber dans le cybercrime.\nMais voilà, fin 2025, une évaluation médicale de routine l’a déclaré apte à être jugé. Une décision qui a entraîné son transfert d’un hôpital sécurisé vers une prison classique en janvier dernier. Ce changement de statut médical a permis l’ouverture d’ une procédure pénale classique devant la Woolwich Crown Court. Le 16 novembre, Arion Kurtaj a enfin plaidé coupable pour l’ensemble des chefs d’accusation, dont le piratage de Rockstar Games, en plus des attaques contre Uber, BT/EE et Revolut.\nDésormais âgé de 21 ans, le hacker recevra sa sentence le 23 novembre prochain selon plusieurs médias. Le tribunal devra déterminer la peine appropriée ; les préjudices causés s’élèveraient à 10 millions de livres sterling. À noter qu’Arion Kurtaj a commis des violences physiques en détention et avait réussi à s’y procurer un téléphone portable, ce qui est interdit.\nCe nouveau procès s’est ouvert en marge de la sortie de GTA VI , le jeu vidéo le plus attendu de tous les temps qu’Arion Kurtaj avait fait fuiter en 2022. Face à l’ampleur de ce piratage et des séquences du jeu, Rockstar Games avait dû confirmer l’authenticité de ces extraits, tout en précisant que le jeu était encore en développement . L’éditeur ne prévoyait pas du tout de parler de GTA VI aussi tôt : la première bande-annonce n’est arrivée que le 5 décembre 2023, plus d’un an après la fuite.\nL’entreprise a estimé le coût de cette attaque à environ 5 millions de dollars, ce qui comprend notamment des milliers d’heures de travail pour ses équipes. En effet, il a fallu analyser l’ampleur de la compromission, sécuriser les systèmes et surtout gérer les conséquences de la publication de ces extraits du jeu. Un traumatisme pour les développeurs du jeu, mais aussi pour les fans : beaucoup auraient préféré que ce soit le studio qui montre en premier le jeu, pour respecter son travail. Une blessure qui va s’atténuer avec l’excitation de la sortie du jeu ce jeudi 19 novembre , 13 ans après l’arrivée d’un certain GTA V .\n👉🏻 Suivez l’actualité tech en temps réel : ajoutez 01net à vos sources sur Google , et abonnez-vous à notre canal WhatsApp .\nGTA 6 : « chef-d’œuvre », 10/10 historique… ce que disent les premiers tests\nGTA 6 va voler des millions d’heures aux autres jeux, à Netflix… et même à votre travail\nGTA 6 sur PS5 : vous devez absolument installer cette mise à jour pour pouvoir y jouer\nAttention à ce GTA 6 qui circule avant la sortie du jeu : c’est un piège pour voler vos données\nMeilleur gestionnaire de mots de passe : le guide en novembre 2026",
-   "pub": "2026-11-17T13:03:30+00:00",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMidkFVX3lxTE16MmtFYmpsdV9seHllM2VQQ2ZIZjJzNGJwZkYyMVRyMFliMkNtOVZGYkYwcUoySlNjUlZWVkJyYjd0YmdneUhvbF9UWkNLdWprZ3FURzk2UVpsR3hhbXdmWlJDOGZvT3JLeGEwTWhsS3NveU5CWmc?oc=5",
    "s": "Ayther",
    "d": "2026-11-17T13:00:13+00:00",
@@ -675,6 +654,15 @@
    "chapeau": "Une vidéo tournée chez un disquaire révèle les 34 titres de l'album de GTA 6, dont des morceaux inédits de Dua Lipa et Lana Del Rey. Les radios du jeu forment u",
    "txt": "Ajoutez-nous sur Google La plus grosse fuite de la semaine du lancement de Grand Theft Auto VI ne vient ni d’un pirate informatique ni de CyberLeek, le compte anonyme qui a alimenté les fans en séquences de jeu non officielles pendant des semaines. Elle est sortie de la pochette d’un disque. Un employé de magasin a filmé un exemplaire vinyle de Grand Theft Auto VI: The Album, et la liste complète des titres de l’album associé au jeu par Rockstar circulait sur X le même jour. Parmi les noms que personne n’avait annoncés figuraient Dua Lipa , Lana Del Rey , Jennie et Playboi Carti.\nOn pourrait facilement en conclure que cette liste annonce ce que les joueurs entendront dans les rues de Vice City. Ce serait aller trop loin. Il s’agit de l’album de nouveaux titres que Rockstar a réalisé avec Atlantic Records pour le jeu ; il est distinct des stations de radio du jeu comme de la musique originale composée par Justice. Ce qui a fuité, c’est le produit du label, surprises comprises. La radio, que les joueurs entendront réellement au volant, reste en grande partie un mystère.\nDepuis l’annonce de l’album en septembre, les révélations se sont faites au fil des sorties. Six titres ont été dévoilés le jour de l’annonce : des morceaux de Yung Lean avec Future et Metro Boomin, Travis Scott , Morgan Wallen, Rauw Alejandro et Keith Richards, ainsi que la collaboration « Sexy Magic » entre CA7RIEL & Paco Amoroso, PinkPantheress, Fred again.. et Étienne de Crécy. « Suzuki » de Fuerza Regida, « Don’t Chart » de Cardi B et « Blood in Your Eyes » de Tove Lo ont suivi, avec « Flower in a Hurricane » de Justice, en collaboration avec Tame Impala, SZA et King Gizzard & the Lizard Wizard. Selon le décompte de RockstarINTEL, moins d’une douzaine des 34 titres étaient connus lorsque la pochette a fait surface, et le personnel des disquaires avait indiqué aux fans que la liste resterait confidentielle jusqu’au jour de la sortie.\nLa pochette montre ce que cette divulgation au compte-gouttes retenait. « Ahh Yea » de Playboi Carti figure en troisième position et « Go Easy » de Dua Lipa en septième. La face C réunit « Power Trip » de Jennie, « Fast Emotion » de Zara Larsson , « Sweet Like Candy » de Camila Cabello et « TRDWFE » de Rina Sawayama. Sur la face D, « Crazy for You » de Lana Del Rey côtoie les titres d’Omar Apollo et Kali Uchis avec Helado Negro. Justice ouvre l’album avec « Starting from Zero », avec Michael McDonald, tandis que Stanley Clarke, Yussef Dayes et Robert Glasper le concluent avec « Overtown Lights ». Aucun de ces noms de la pop n’avait été annoncé. C’est une pochette de disque en magasin qui les a révélés en premier.\nRockstar n’a pas confirmé la liste des titres. PC Gamer rapporte que des sources de Rolling Stone et de Billboard en ont confirmé l’exactitude, tandis que Notebookcheck cite des sources proches du projet. L’indice le plus solide est l’ordre des morceaux : la page de pré-enregistrement de Rockstar plaçait déjà Yung Lean en deuxième position, Travis Scott en quatrième et Keith Richards en 32e ; la pochette confirme ces trois places.\nRockstarINTEL apporte deux précisions absentes des autres articles. Le média affirme que « Crazy for You » de Lana Del Rey est un titre inédit réalisé en 2014, et relève que The Weeknd , que l’on peut entendre sur la radio du jeu, ne figure pas sur l’album.\nCette absence met en lumière la véritable inconnue. Eurogamer interprète la pochette comme un guide de la musique sous licence présente dans le jeu, mais PC Gamer, Dexerto et Notebookcheck distinguent tous l’album de la radio, qui disposera de son propre catalogue sous licence. Pour l’instant, les informations publiques sur les stations concernent leurs animateurs, et non leurs playlists : Notebookcheck annonce Bad Bunny sur Cocoteo FM, Burna Boy et Palms Trax sur AfroBank FM, ainsi que Morgan Wallen et Lana Del Rey sur Back Country Radio. Aucun de ces articles ne précise où les morceaux de l’album apparaîtront dans le jeu : au cours d’une mission, dans une cinématique ou dans la programmation d’une station.\nCette fuite s’inscrit aussi dans la tendance observée à l’approche du lancement. Eurogamer relève que la carte complète du jeu aurait fuité après avoir été exposée dans un grand magasin britannique, dans le cadre d’une présentation de l’édition collector. Deux des plus grosses fuites de dernière minute proviennent désormais d’un magasin, et non d’un studio, alors que les stocks physiques arrivent chez les distributeurs avant la",
    "pub": "2026-11-16T06:00:00-05:00",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQRGV6aHEzVXFHb1doUjc4LTktWlFQN1pYeWJtUmJDcGFSeFVHWk5hczZwMVB0aThpSFozdjdWZHF0cl90VDhWWklJemdEVnZZbmJBNU1TU0hsdEZvdkE2bUFLeG5XMEI5T0xDSnBmOXpXNTliMXZTZEZlb2w0alAzOFdJX2N1aEFfbjY4QkZ0bF9BTzFFQzBXYWVUaEdDZGxocjU1a1QzSGtiRkdidnZkTWRIaHRUZEkxVVB5WWNuVUdUS3dJcmFGTWVkeEVsMlNTOUw5Z182WHRJVVpDaWhUQ1pqcGxUN2g1Smh6RnFtSFI2LU5VLVJNbUZiSi13Zw?oc=5",
+   "s": "Notebookcheck.fr",
+   "d": "2026-11-15T23:16:00+00:00",
+   "lang": "fr",
+   "t": "Selon une fuite, il faut 50 heures pour terminer l'histoire de GTA 6 et 200 heures pour obtenir le trophée de platine sur PS5",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
