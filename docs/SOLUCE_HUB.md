@@ -11,3 +11,6 @@ Build : `python3 tools/soluce.py && python3 tools/prerender.py && python3 tools/
 `tools/soluce.py` remplit les blocs `<!--sl:…-->` des pages et écrit les textes dans `tools/i18n/fr.json`/`en.json` (titres d'articles : 17 langues) ; les autres langues : `tools/traduire_i18n.py` (workflow traduire.yml quand `en.json` change). Idempotent.
 JS : `assets/soluce.js` (progression dans localStorage `gtavif-soluce-v1`, try/catch). CSS : `assets/soluce.css` (sombre). Liens profonds : `carte.html#c=<couche>`, `carte.html#p=<id point>`.
 Routine qui alimente : `~/.claude/scheduled-tasks/gtavifrance-solutions/SKILL.md`.
+
+## V2 (18/11/2026)
+- `tools/soluce_import.py` : relit PowerPyx + GTABase, remplit chapitres, triches (triches.html), points méditation/drones/banques/garages/braquages/stands de tir (positions approximatives, `approx: true`). À lancer avant soluce.py, puis traduire_i18n.py.
