@@ -272,11 +272,11 @@
    "id": "tir",
    "fr": "Stands de tir",
    "en": "Shooting ranges",
-   "total": null,
+   "total": 42,
    "trophee": "the-shootist",
    "couleur": "#ff3b7a",
-   "note_fr": "42 épreuves à finir en or.",
-   "note_en": "42 challenges to gold.",
+   "note_fr": "2 stands (Griffin à Vice City, Rodgers Ranch), 12 épreuves, 42 médailles d'or pour le trophée The Shootist.",
+   "note_en": "2 ranges (Griffin in Vice City, Rodgers Ranch), 12 challenges, 42 gold medals for The Shootist.",
    "icone": "assets/img/carte/icones/tir.svg"
   },
   {
@@ -303,13 +303,13 @@
   },
   {
    "id": "bijouteries",
-   "fr": "Bijouteries",
-   "en": "Jewelry stores",
-   "total": null,
+   "fr": "Bijouteries et prêteurs sur gage",
+   "en": "Smash 'n' Grabs",
+   "total": 35,
    "trophee": "sneakthief",
    "couleur": "#e7b6ff",
-   "note_fr": "",
-   "note_en": "",
+   "note_fr": "35 braquages « Smash 'n' Grab » (bijouteries et prêteurs sur gage) ; 34 suffisent pour le 100 %.",
+   "note_en": "35 Smash 'n' Grabs (jewelry stores and pawn shops); 34 needed for 100%.",
    "icone": "assets/img/carte/icones/bijouteries.svg"
   },
   {
@@ -1400,6 +1400,671 @@
    "x": null,
    "y": null,
    "fr": "#12 Pegassi Residences Garage"
+  },
+  {
+   "id": "bijouteries-01",
+   "couche": "bijouteries",
+   "en": "#1 The Siren's Chest",
+   "note_en": "Jewelry store (after Chapter 3 mission Yasmani's Jewelry Jobs), loot $1k - $10k, Mariana County. Rob the back-room safe too.",
+   "note_fr": "Bijouterie (après la mission Yasmani's Jewelry Jobs, chapitre 3), butin $1k - $10k, Mariana County. Pillez aussi le coffre de l'arrière-boutique.",
+   "region": "leonida-keys",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 554,
+   "y": 827,
+   "approx": true,
+   "fr": "#1 The Siren's Chest"
+  },
+  {
+   "id": "bijouteries-02",
+   "couche": "bijouteries",
+   "en": "#2 Timeless Peculiars",
+   "note_en": "Pawn shop (after Chapter 2 mission Coffee Break), loot $4.5k - $12k, Mariana County. Rob the back-room safe too.",
+   "note_fr": "Prêteur sur gage (après la mission Coffee Break, chapitre 2), butin $4.5k - $12k, Mariana County. Pillez aussi le coffre de l'arrière-boutique.",
+   "region": "leonida-keys",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 667,
+   "y": 924,
+   "approx": true,
+   "fr": "#2 Timeless Peculiars"
+  },
+  {
+   "id": "bijouteries-03",
+   "couche": "bijouteries",
+   "en": "#3 Victoria Lee Jeweler",
+   "note_en": "Jewelry store (after Chapter 3 mission Yasmani's Jewelry Jobs), loot $9k - $20k, Mariana County. Rob the back-room safe too.",
+   "note_fr": "Bijouterie (après la mission Yasmani's Jewelry Jobs, chapitre 3), butin $9k - $20k, Mariana County. Pillez aussi le coffre de l'arrière-boutique.",
+   "region": "leonida-keys",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 510,
+   "y": 929,
+   "approx": true,
+   "fr": "#3 Victoria Lee Jeweler"
+  },
+  {
+   "id": "bijouteries-04",
+   "couche": "bijouteries",
+   "en": "#4 Hamlet Pawn",
+   "note_en": "Pawn shop (after Chapter 2 mission Coffee Break), loot $4.5k - $12k, Vice-Dale County. Rob the back-room safe too.",
+   "note_fr": "Prêteur sur gage (après la mission Coffee Break, chapitre 2), butin $4.5k - $12k, Vice-Dale County. Pillez aussi le coffre de l'arrière-boutique.",
+   "region": "leonida-keys",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 628,
+   "y": 814,
+   "approx": true,
+   "fr": "#4 Hamlet Pawn"
+  },
+  {
+   "id": "bijouteries-05",
+   "couche": "bijouteries",
+   "en": "#5 Joyeria Empenos",
+   "note_en": "Pawn shop (after Chapter 2 mission Coffee Break), loot $4.5k - $12k, Vice-Dale County. Rob the back-room safe too.",
+   "note_fr": "Prêteur sur gage (après la mission Coffee Break, chapitre 2), butin $4.5k - $12k, Vice-Dale County. Pillez aussi le coffre de l'arrière-boutique.",
+   "region": "vice-city",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 846,
+   "y": 628,
+   "approx": true,
+   "fr": "#5 Joyeria Empenos"
+  },
+  {
+   "id": "bijouteries-06",
+   "couche": "bijouteries",
+   "en": "#6 Ernesto's Pawn",
+   "note_en": "Pawn shop (after Chapter 2 mission Coffee Break), loot $4.5k - $12k, Vice-Dale County. Rob the back-room safe too.",
+   "note_fr": "Prêteur sur gage (après la mission Coffee Break, chapitre 2), butin $4.5k - $12k, Vice-Dale County. Pillez aussi le coffre de l'arrière-boutique.",
+   "region": "vice-city",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 617,
+   "y": 684,
+   "approx": true,
+   "fr": "#6 Ernesto's Pawn"
+  },
+  {
+   "id": "bijouteries-07",
+   "couche": "bijouteries",
+   "en": "#7 Donovan Banks & Co.",
+   "note_en": "Jewelry store (after Chapter 3 mission Yasmani's Jewelry Jobs), loot $14k - $25k, Vice-Dale County. Rob the back-room safe too.",
+   "note_fr": "Bijouterie (après la mission Yasmani's Jewelry Jobs, chapitre 3), butin $14k - $25k, Vice-Dale County. Pillez aussi le coffre de l'arrière-boutique.",
+   "region": "vice-city",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 751,
+   "y": 484,
+   "approx": true,
+   "fr": "#7 Donovan Banks & Co."
+  },
+  {
+   "id": "bijouteries-08",
+   "couche": "bijouteries",
+   "en": "#8 Plush",
+   "note_en": "Jewelry store (after Chapter 3 mission Yasmani's Jewelry Jobs), loot $9k - $20k, Vice-Dale County. Rob the back-room safe too.",
+   "note_fr": "Bijouterie (après la mission Yasmani's Jewelry Jobs, chapitre 3), butin $9k - $20k, Vice-Dale County. Pillez aussi le coffre de l'arrière-boutique.",
+   "region": "vice-city",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 788,
+   "y": 726,
+   "approx": true,
+   "fr": "#8 Plush"
+  },
+  {
+   "id": "bijouteries-09",
+   "couche": "bijouteries",
+   "en": "#9 Pawn City",
+   "note_en": "Pawn shop (after Chapter 2 mission Coffee Break), loot $1k - $10k, Vice-Dale County. Rob the back-room safe too.",
+   "note_fr": "Prêteur sur gage (après la mission Coffee Break, chapitre 2), butin $1k - $10k, Vice-Dale County. Pillez aussi le coffre de l'arrière-boutique.",
+   "region": "vice-city",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 593,
+   "y": 570,
+   "approx": true,
+   "fr": "#9 Pawn City"
+  },
+  {
+   "id": "bijouteries-10",
+   "couche": "bijouteries",
+   "en": "#10 Icegem Diamonds & Watches",
+   "note_en": "Jewelry store (after Chapter 3 mission Yasmani's Jewelry Jobs), loot $14k - $25k, Vice-Dale County. Rob the back-room safe too.",
+   "note_fr": "Bijouterie (après la mission Yasmani's Jewelry Jobs, chapitre 3), butin $14k - $25k, Vice-Dale County. Pillez aussi le coffre de l'arrière-boutique.",
+   "region": "vice-city",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 847,
+   "y": 553,
+   "approx": true,
+   "fr": "#10 Icegem Diamonds & Watches"
+  },
+  {
+   "id": "bijouteries-11",
+   "couche": "bijouteries",
+   "en": "#11 Richardson Jewelry & Diamonds",
+   "note_en": "Jewelry store (after Chapter 3 mission Yasmani's Jewelry Jobs), loot $4.5k - $12k, Vice-Dale County. Rob the back-room safe too.",
+   "note_fr": "Bijouterie (après la mission Yasmani's Jewelry Jobs, chapitre 3), butin $4.5k - $12k, Vice-Dale County. Pillez aussi le coffre de l'arrière-boutique.",
+   "region": "vice-city",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 668,
+   "y": 740,
+   "approx": true,
+   "fr": "#11 Richardson Jewelry & Diamonds"
+  },
+  {
+   "id": "bijouteries-12",
+   "couche": "bijouteries",
+   "en": "#12 All That Glitters",
+   "note_en": "Jewelry store (after Chapter 3 mission Yasmani's Jewelry Jobs), loot $9k - $20k, Vice-Dale County. Rob the back-room safe too.",
+   "note_fr": "Bijouterie (après la mission Yasmani's Jewelry Jobs, chapitre 3), butin $9k - $20k, Vice-Dale County. Pillez aussi le coffre de l'arrière-boutique.",
+   "region": "vice-city",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 674,
+   "y": 477,
+   "approx": true,
+   "fr": "#12 All That Glitters"
+  },
+  {
+   "id": "bijouteries-13",
+   "couche": "bijouteries",
+   "en": "#13 Peacock",
+   "note_en": "Jewelry store (after Chapter 3 mission Yasmani's Jewelry Jobs), loot $9k - $20k, Vice-Dale County. Rob the back-room safe too.",
+   "note_fr": "Bijouterie (après la mission Yasmani's Jewelry Jobs, chapitre 3), butin $9k - $20k, Vice-Dale County. Pillez aussi le coffre de l'arrière-boutique.",
+   "region": "vice-city",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 850,
+   "y": 678,
+   "approx": true,
+   "fr": "#13 Peacock"
+  },
+  {
+   "id": "bijouteries-14",
+   "couche": "bijouteries",
+   "en": "#14 Fast Cash",
+   "note_en": "Pawn shop (after Chapter 2 mission Coffee Break), loot $1k - $10k, Vice-Dale County. Rob the back-room safe too.",
+   "note_fr": "Prêteur sur gage (après la mission Coffee Break, chapitre 2), butin $1k - $10k, Vice-Dale County. Pillez aussi le coffre de l'arrière-boutique.",
+   "region": "vice-city",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 580,
+   "y": 648,
+   "approx": true,
+   "fr": "#14 Fast Cash"
+  },
+  {
+   "id": "bijouteries-15",
+   "couche": "bijouteries",
+   "en": "#15 The Jewelry Place",
+   "note_en": "Jewelry store (after Chapter 3 mission Yasmani's Jewelry Jobs), loot $1k - $10k, Vice-Dale County. Rob the back-room safe too.",
+   "note_fr": "Bijouterie (après la mission Yasmani's Jewelry Jobs, chapitre 3), butin $1k - $10k, Vice-Dale County. Pillez aussi le coffre de l'arrière-boutique.",
+   "region": "vice-city",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 802,
+   "y": 486,
+   "approx": true,
+   "fr": "#15 The Jewelry Place"
+  },
+  {
+   "id": "bijouteries-16",
+   "couche": "bijouteries",
+   "en": "#16 Crown Jewels",
+   "note_en": "Jewelry store (after Chapter 3 mission Yasmani's Jewelry Jobs), loot $1k - $10k, Vice-Dale County. Rob the back-room safe too.",
+   "note_fr": "Bijouterie (après la mission Yasmani's Jewelry Jobs, chapitre 3), butin $1k - $10k, Vice-Dale County. Pillez aussi le coffre de l'arrière-boutique.",
+   "region": "vice-city",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 748,
+   "y": 760,
+   "approx": true,
+   "fr": "#16 Crown Jewels"
+  },
+  {
+   "id": "bijouteries-17",
+   "couche": "bijouteries",
+   "en": "#17 Dorado Pawn Shop",
+   "note_en": "Pawn shop (after Chapter 2 mission Coffee Break), loot $4.5k - $12k, Vice-Dale County. Rob the back-room safe too.",
+   "note_fr": "Prêteur sur gage (après la mission Coffee Break, chapitre 2), butin $4.5k - $12k, Vice-Dale County. Pillez aussi le coffre de l'arrière-boutique.",
+   "region": "vice-city",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 601,
+   "y": 517,
+   "approx": true,
+   "fr": "#17 Dorado Pawn Shop"
+  },
+  {
+   "id": "bijouteries-18",
+   "couche": "bijouteries",
+   "en": "#18 White Sands Jewelry Pawn",
+   "note_en": "Pawn shop (after Chapter 2 mission Coffee Break), loot $4.5k - $12k, Vice-Dale County. Rob the back-room safe too.",
+   "note_fr": "Prêteur sur gage (après la mission Coffee Break, chapitre 2), butin $4.5k - $12k, Vice-Dale County. Pillez aussi le coffre de l'arrière-boutique.",
+   "region": "vice-city",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 877,
+   "y": 598,
+   "approx": true,
+   "fr": "#18 White Sands Jewelry Pawn"
+  },
+  {
+   "id": "bijouteries-19",
+   "couche": "bijouteries",
+   "en": "#19 Down Town Pawn",
+   "note_en": "Pawn shop (after Chapter 2 mission Coffee Break), loot $1k - $10k, Vice-Dale County. Rob the back-room safe too.",
+   "note_fr": "Prêteur sur gage (après la mission Coffee Break, chapitre 2), butin $1k - $10k, Vice-Dale County. Pillez aussi le coffre de l'arrière-boutique.",
+   "region": "vice-city",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 615,
+   "y": 726,
+   "approx": true,
+   "fr": "#19 Down Town Pawn"
+  },
+  {
+   "id": "bijouteries-20",
+   "couche": "bijouteries",
+   "en": "#20 Vice City Pawn",
+   "note_en": "Pawn shop (after Chapter 2 mission Coffee Break), loot $4.5k - $12k, Vice-Dale County. Rob the back-room safe too.",
+   "note_fr": "Prêteur sur gage (après la mission Coffee Break, chapitre 2), butin $4.5k - $12k, Vice-Dale County. Pillez aussi le coffre de l'arrière-boutique.",
+   "region": "vice-city",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 723,
+   "y": 452,
+   "approx": true,
+   "fr": "#20 Vice City Pawn"
+  },
+  {
+   "id": "bijouteries-21",
+   "couche": "bijouteries",
+   "en": "#21 Pawn Stash",
+   "note_en": "Pawn shop (after Chapter 2 mission Coffee Break), loot $4.5k - $12k, Vice-Dale County. Rob the back-room safe too.",
+   "note_fr": "Prêteur sur gage (après la mission Coffee Break, chapitre 2), butin $4.5k - $12k, Vice-Dale County. Pillez aussi le coffre de l'arrière-boutique.",
+   "region": "vice-city",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 830,
+   "y": 730,
+   "approx": true,
+   "fr": "#21 Pawn Stash"
+  },
+  {
+   "id": "bijouteries-22",
+   "couche": "bijouteries",
+   "en": "#22 Blanc & Giroux",
+   "note_en": "Jewelry store (after Chapter 3 mission Yasmani's Jewelry Jobs), loot $14k - $25k, Vice-Dale County. Rob the back-room safe too.",
+   "note_fr": "Bijouterie (après la mission Yasmani's Jewelry Jobs, chapitre 3), butin $14k - $25k, Vice-Dale County. Pillez aussi le coffre de l'arrière-boutique.",
+   "region": "vice-city",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 560,
+   "y": 596,
+   "approx": true,
+   "fr": "#22 Blanc & Giroux"
+  },
+  {
+   "id": "bijouteries-23",
+   "couche": "bijouteries",
+   "en": "#23 Roval Jewelry",
+   "note_en": "Jewelry store (after Chapter 3 mission Yasmani's Jewelry Jobs), loot $14k - $25k, Vice-Dale County. Rob the back-room safe too.",
+   "note_fr": "Bijouterie (après la mission Yasmani's Jewelry Jobs, chapitre 3), butin $14k - $25k, Vice-Dale County. Pillez aussi le coffre de l'arrière-boutique.",
+   "region": "vice-city",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 854,
+   "y": 511,
+   "approx": true,
+   "fr": "#23 Roval Jewelry"
+  },
+  {
+   "id": "bijouteries-24",
+   "couche": "bijouteries",
+   "en": "#24 Covgari",
+   "note_en": "Jewelry store (after Chapter 3 mission Yasmani's Jewelry Jobs), loot $14k - $25k, Vice-Dale County. Rob the back-room safe too.",
+   "note_fr": "Bijouterie (après la mission Yasmani's Jewelry Jobs, chapitre 3), butin $14k - $25k, Vice-Dale County. Pillez aussi le coffre de l'arrière-boutique.",
+   "region": "vice-city",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 692,
+   "y": 775,
+   "approx": true,
+   "fr": "#24 Covgari"
+  },
+  {
+   "id": "bijouteries-25",
+   "couche": "bijouteries",
+   "en": "#25 Akoya Jewelers",
+   "note_en": "Jewelry store (after Chapter 3 mission Yasmani's Jewelry Jobs), loot $14k - $25k, Vice-Dale County. Rob the back-room safe too.",
+   "note_fr": "Bijouterie (après la mission Yasmani's Jewelry Jobs, chapitre 3), butin $14k - $25k, Vice-Dale County. Pillez aussi le coffre de l'arrière-boutique.",
+   "region": "vice-city",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 632,
+   "y": 468,
+   "approx": true,
+   "fr": "#25 Akoya Jewelers"
+  },
+  {
+   "id": "bijouteries-26",
+   "couche": "bijouteries",
+   "en": "#26 Marshal's",
+   "note_en": "Jewelry store (after Chapter 3 mission Yasmani's Jewelry Jobs), loot $9k - $20k, Vice-Dale County. Rob the back-room safe too.",
+   "note_fr": "Bijouterie (après la mission Yasmani's Jewelry Jobs, chapitre 3), butin $9k - $20k, Vice-Dale County. Pillez aussi le coffre de l'arrière-boutique.",
+   "region": "vice-city",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 887,
+   "y": 656,
+   "approx": true,
+   "fr": "#26 Marshal's"
+  },
+  {
+   "id": "bijouteries-27",
+   "couche": "bijouteries",
+   "en": "#27 Casa De Empeno",
+   "note_en": "Pawn shop (after Chapter 2 mission Coffee Break), loot $4.5k - $12k, Vice-Dale County. Rob the back-room safe too.",
+   "note_fr": "Prêteur sur gage (après la mission Coffee Break, chapitre 2), butin $4.5k - $12k, Vice-Dale County. Pillez aussi le coffre de l'arrière-boutique.",
+   "region": "vice-city",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 568,
+   "y": 690,
+   "approx": true,
+   "fr": "#27 Casa De Empeno"
+  },
+  {
+   "id": "bijouteries-28",
+   "couche": "bijouteries",
+   "en": "#28 Rococo Rich",
+   "note_en": "Jewelry store (after Chapter 3 mission Yasmani's Jewelry Jobs), loot $14k - $25k, Vice-Dale County. Rob the back-room safe too.",
+   "note_fr": "Bijouterie (après la mission Yasmani's Jewelry Jobs, chapitre 3), butin $14k - $25k, Vice-Dale County. Pillez aussi le coffre de l'arrière-boutique.",
+   "region": "vice-city",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 783,
+   "y": 447,
+   "approx": true,
+   "fr": "#28 Rococo Rich"
+  },
+  {
+   "id": "bijouteries-29",
+   "couche": "bijouteries",
+   "en": "#29 Legendary Custom Jewelry",
+   "note_en": "Jewelry store (after Chapter 3 mission Yasmani's Jewelry Jobs), loot $14k - $25k, Vice-Dale County. Rob the back-room safe too.",
+   "note_fr": "Bijouterie (après la mission Yasmani's Jewelry Jobs, chapitre 3), butin $14k - $25k, Vice-Dale County. Pillez aussi le coffre de l'arrière-boutique.",
+   "region": "vice-city",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 789,
+   "y": 774,
+   "approx": true,
+   "fr": "#29 Legendary Custom Jewelry"
+  },
+  {
+   "id": "bijouteries-30",
+   "couche": "bijouteries",
+   "en": "#30 Brilliant Cuts",
+   "note_en": "Jewelry store (after Chapter 3 mission Yasmani's Jewelry Jobs), loot $9k - $20k, Leonard County. Rob the back-room safe too.",
+   "note_fr": "Bijouterie (après la mission Yasmani's Jewelry Jobs, chapitre 3), butin $9k - $20k, Leonard County. Pillez aussi le coffre de l'arrière-boutique.",
+   "region": "port-gellhorn",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 179,
+   "y": 317,
+   "approx": true,
+   "fr": "#30 Brilliant Cuts"
+  },
+  {
+   "id": "bijouteries-31",
+   "couche": "bijouteries",
+   "en": "#31 Skala",
+   "note_en": "Jewelry store (after Chapter 3 mission Yasmani's Jewelry Jobs), loot $14k - $25k, Leonard County. Rob the back-room safe too.",
+   "note_fr": "Bijouterie (après la mission Yasmani's Jewelry Jobs, chapitre 3), butin $14k - $25k, Leonard County. Pillez aussi le coffre de l'arrière-boutique.",
+   "region": "port-gellhorn",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 292,
+   "y": 414,
+   "approx": true,
+   "fr": "#31 Skala"
+  },
+  {
+   "id": "bijouteries-32",
+   "couche": "bijouteries",
+   "en": "#32 Kowalski",
+   "note_en": "Jewelry store (after Chapter 3 mission Yasmani's Jewelry Jobs), loot $14k - $25k, Leonard County. Rob the back-room safe too.",
+   "note_fr": "Bijouterie (après la mission Yasmani's Jewelry Jobs, chapitre 3), butin $14k - $25k, Leonard County. Pillez aussi le coffre de l'arrière-boutique.",
+   "region": "port-gellhorn",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 135,
+   "y": 419,
+   "approx": true,
+   "fr": "#32 Kowalski"
+  },
+  {
+   "id": "bijouteries-33",
+   "couche": "bijouteries",
+   "en": "#33 Buck's Jewelry & Pawn",
+   "note_en": "Pawn shop (after Chapter 2 mission Coffee Break), loot $1k - $10k, Kelly County. Rob the back-room safe too.",
+   "note_fr": "Prêteur sur gage (après la mission Coffee Break, chapitre 2), butin $1k - $10k, Kelly County. Pillez aussi le coffre de l'arrière-boutique.",
+   "region": "ambrosia",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 524,
+   "y": 338,
+   "approx": true,
+   "fr": "#33 Buck's Jewelry & Pawn"
+  },
+  {
+   "id": "bijouteries-34",
+   "couche": "bijouteries",
+   "en": "#34 Avery Pawn",
+   "note_en": "Pawn shop (after Chapter 2 mission Coffee Break), loot $1k - $10k, Kelly County. Rob the back-room safe too.",
+   "note_fr": "Prêteur sur gage (après la mission Coffee Break, chapitre 2), butin $1k - $10k, Kelly County. Pillez aussi le coffre de l'arrière-boutique.",
+   "region": "ambrosia",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 554,
+   "y": 430,
+   "approx": true,
+   "fr": "#34 Avery Pawn"
+  },
+  {
+   "id": "bijouteries-35",
+   "couche": "bijouteries",
+   "en": "#35 Florence & Co.",
+   "note_en": "Pawn shop (after Chapter 2 mission Coffee Break), loot $4.5k - $12k, Kelly County. Rob the back-room safe too.",
+   "note_fr": "Prêteur sur gage (après la mission Coffee Break, chapitre 2), butin $4.5k - $12k, Kelly County. Pillez aussi le coffre de l'arrière-boutique.",
+   "region": "ambrosia",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 459,
+   "y": 375,
+   "approx": true,
+   "fr": "#35 Florence & Co."
+  },
+  {
+   "id": "tir-griffin-shooting-ran",
+   "couche": "tir",
+   "en": "Griffin Shooting Range",
+   "note_en": "6 challenges x 3 difficulty levels = 18 gold medals (bronze, silver, gold each). Buy a $5 Waiver Pass from the clerk first; weapon rental $10.",
+   "note_fr": "6 épreuves x 3 niveaux de difficulté = 18 médailles d'or à viser (bronze, argent, or à chaque fois). Achetez d'abord un « Waiver Pass » à 5 $ au comptoir ; location d'arme 10 $.",
+   "region": "vice-city",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 561,
+   "y": 535,
+   "approx": true,
+   "fr": "Griffin Shooting Range"
+  },
+  {
+   "id": "tir-rodgers-ranch-shooti",
+   "couche": "tir",
+   "en": "Rodgers Ranch & Shooting Range",
+   "note_en": "6 challenges x 4 difficulty levels = 24 gold medals (bronze, silver, gold each). Buy a $5 Waiver Pass from the clerk first; weapon rental $10.",
+   "note_fr": "6 épreuves x 4 niveaux de difficulté = 24 médailles d'or à viser (bronze, argent, or à chaque fois). Achetez d'abord un « Waiver Pass » à 5 $ au comptoir ; location d'arme 10 $.",
+   "region": null,
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": null,
+   "y": null,
+   "fr": "Rodgers Ranch & Shooting Range"
   }
  ]
 }

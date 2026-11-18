@@ -18,7 +18,8 @@ PP = "https://www.powerpyx.com/"
 GB = "https://www.gtabase.com/"
 PAGES_PP = {"walk": "gta-6-full-walkthrough-all-missions", "cheats": "gta-6-all-cheats", "medit": "gta-6-all-meditation-spot-locations",
             "drones": "gta-6-all-top-fun-drone-race-time-trial-locations", "banks": "gta-6-all-bank-jobs-locations-bank-vaults",
-            "garages": "gta-6-all-garage-locations", "cartes": "gta-6-all-collectible-card-sets-locations", "cent": "gta-6-100-completion-checklist-guide"}
+            "garages": "gta-6-all-garage-locations", "cartes": "gta-6-all-collectible-card-sets-locations", "cent": "gta-6-100-completion-checklist-guide",
+            "smash": "gta-6-all-smash-n-grabs-locations", "tir": "gta-6-all-shooting-range-gold-medal-challenges"}
 PAGES_GB = {"missions": "gta-6/missions", "cheats": "gta-6/gta-6-cheats-ps5-cheat-codes", "cent": "articles/gta-6/gta-6-100-completion-guide-interactive-checklist"}
 AUJ = __import__("datetime").date.today().isoformat()
 
@@ -186,6 +187,34 @@ def banques(L):
     return pts
 
 
+def smash(L):
+    pts, comte = [], ""
+    for l in L:
+        if re.match(r"^(Mariana|Vice-Dale|Leonard|Kelly|Lummox) County$", l): comte = l
+        m = re.match(r"^#(\d+) - (Jewelry|Pawn Shop) - (.+?) \((\$[\dk.$\- ]+)\)$", l)
+        if not m: continue
+        n, typ, nom, butin = int(m.group(1)), m.group(2), m.group(3), m.group(4)
+        bij = typ == "Jewelry"
+        pts.append({"id": f"bijouteries-{n:02d}", "couche": "bijouteries", "en": f"#{n} {nom}",
+                    "note_en": ("Jewelry store (after Chapter 3 mission Yasmani's Jewelry Jobs)" if bij else "Pawn shop (after Chapter 2 mission Coffee Break)") + f", loot {butin}, {comte}. Rob the back-room safe too.",
+                    "note_fr": ("Bijouterie (après la mission Yasmani's Jewelry Jobs, chapitre 3)" if bij else "Prêteur sur gage (après la mission Coffee Break, chapitre 2)") + f", butin {butin}, {comte}. Pillez aussi le coffre de l'arrière-boutique.",
+                    "region": region(nom, comte)})
+    return pts
+
+
+def tirs(L):
+    out, intro = [], " ".join(L[:3])
+    for l in L:
+        if l not in ("Griffin Shooting Range", "Rodgers Ranch & Shooting Range"): continue
+        m = re.search(re.escape(l.split(" ")[0]) + r"[^.]*? has (\d+) Challenges with (\d+) Medals each", intro)
+        n, d = (m.group(1), m.group(2)) if m else ("6", "3")
+        out.append({"id": "tir-" + slug(l)[:20], "couche": "tir", "en": l,
+                    "note_en": f"{n} challenges x {d} difficulty levels = {int(n) * int(d)} gold medals (bronze, silver, gold each). Buy a $5 Waiver Pass from the clerk first; weapon rental $10.",
+                    "note_fr": f"{n} épreuves x {d} niveaux de difficulté = {int(n) * int(d)} médailles d'or à viser (bronze, argent, or à chaque fois). Achetez d'abord un « Waiver Pass » à 5 $ au comptoir ; location d'arme 10 $.",
+                    "region": "vice-city" if "Griffin" in l else region(l)})
+    return out
+
+
 def garages(L):
     pts = []
     for l in L:
@@ -212,7 +241,9 @@ def main():
     nouv = {"meditation": (meditations(src["medit"]), "medit", "18 meditation spots"),
             "drones": (drones(src["drones"]), "drones", "42 of 42 drone time trials"),
             "banques": (banques(src["banks"]), "banks", "22 of 22 bank jobs"),
-            "garages": (garages(src["garages"]), "garages", None)}
+            "garages": (garages(src["garages"]), "garages", None),
+            "bijouteries": (smash(src["smash"]), "smash", "34 of 35 smash n grabs"),
+            "tir": (tirs(src["tir"]), "tir", "42 of 42 shooting range gold medals")}
     pts = []
     for couche, (lst, cle, controle) in nouv.items():
         compte_ok = bool(controle and norm(controle) in gb100 and norm(controle) in pp100)
@@ -228,7 +259,7 @@ def main():
         if "note_fr" not in p: p["note_fr"] = cache[p["note_en"]]
     CA["points"] = gardes + pts
     # totaux confirmés par les deux check-lists 100 %
-    tot = {"meditation": 18, "drones": 14, "banques": 22, "garages": 8, "cartes": 18}
+    tot = {"meditation": 18, "drones": 14, "banques": 22, "garages": 8, "cartes": 18, "bijouteries": 35, "tir": 42}
     for c in CA["couches"]:
         if c["id"] in tot: c["total"] = tot[c["id"]]
         if c["id"] == "drones":
@@ -240,6 +271,13 @@ def main():
         if c["id"] == "garages":
             c["note_fr"] = "8 garages à acheter (160 000 $ au total, appli Vice City Real Estate après la mission Daily Driver) + 4 offerts par l'histoire."
             c["note_en"] = "8 purchasable garages ($160,000 total, Vice City Real Estate app after Daily Driver) + 4 story garages."
+        if c["id"] == "bijouteries":
+            c["fr"] = "Bijouteries et prêteurs sur gage"; c["en"] = "Smash 'n' Grabs"
+            c["note_fr"] = "35 braquages « Smash 'n' Grab » (bijouteries et prêteurs sur gage) ; 34 suffisent pour le 100 %."
+            c["note_en"] = "35 Smash 'n' Grabs (jewelry stores and pawn shops); 34 needed for 100%."
+        if c["id"] == "tir":
+            c["note_fr"] = "2 stands (Griffin à Vice City, Rodgers Ranch), 12 épreuves, 42 médailles d'or pour le trophée The Shootist."
+            c["note_en"] = "2 ranges (Griffin in Vice City, Rodgers Ranch), 12 challenges, 42 gold medals for The Shootist."
         if c["id"] == "cartes":
             c["note_fr"] = "18 séries, 480 cartes. 3 séries complètes pour le trophée Don't Touch My Deck, 15 pour le 100 %."
             c["note_en"] = "18 sets, 480 cards. 3 full sets for Don't Touch My Deck, 15 for 100% completion."
