@@ -254,6 +254,13 @@ def main():
     gardes = [p for p in CA.get("points", []) if p.get("couche") not in nouv]
     # pas de position inventée : un point n'a x/y que s'il est situé sur la carte officielle (captures vérifiées, 2 sources)
     for p in pts: p["x"] = p["y"] = None; p.pop("approx", None)
+    # positions vérifiées : data/carte_positions.json = {id: {"x":..,"y":.., "captures":[url1, url2]}} (coordonnées sur le fond officiel, 2 captures de joueurs distinctes)
+    try: POS = json.load(open("data/carte_positions.json", encoding="utf-8"))
+    except FileNotFoundError: POS = {}
+    for p in pts:
+        q = POS.get(p["id"]) or {}
+        if CA.get("fond_officiel") and q.get("x") is not None and q.get("y") is not None and len(set(q.get("captures", []))) >= 2:
+            p["x"], p["y"], p["captures"] = q["x"], q["y"], q["captures"]
     traduit([p["note_en"] for p in pts if "note_fr" not in p], cache)
     for p in pts:
         p["fr"] = p["en"]

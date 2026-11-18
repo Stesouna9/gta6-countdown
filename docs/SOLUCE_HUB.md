@@ -14,3 +14,6 @@ Routine qui alimente : `~/.claude/scheduled-tasks/gtavifrance-solutions/SKILL.md
 
 ## V2 (18/11/2026)
 - `tools/soluce_import.py` : relit PowerPyx + GTABase, remplit chapitres, triches (triches.html), points méditation/drones/banques/garages/braquages/stands de tir (positions approximatives, `approx: true`). À lancer avant soluce.py, puis traduire_i18n.py.
+
+## Carte : positions réelles uniquement (18/11/2026)
+Aucun x/y estimé. `carte.json.fond_officiel` = image officielle Rockstar (fichier local) ; positions dans `data/carte_positions.json` ({id: {x, y, captures:[2 URL distinctes]}}), appliquées par soluce_import seulement si fond officiel + 2 captures. Sans fond : carte remplacée par un encart, liste filtrable `#ct-liste`. La tâche gtavifrance-soluce-horaire signale la carte officielle Rockstar dès le 19/11 0 h.
