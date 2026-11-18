@@ -57,12 +57,13 @@
   }
 
   /* ---------- Points (carte + collectibles) ---------- */
+  var RN = {};
   function popup(p, C, map) {
     var c = C[p.couche] || {}, ok = p.statut === "confirme";
     var src = (p.sources || []).map(function (u, i) { return '<a href="' + esc(u) + '" target="_blank" rel="noopener nofollow">' + tr("sl_source", "Source") + " " + (i + 1) + "</a>"; }).join(" · ");
-    return "<b>" + esc(txt(p) || p.id) + "</b><br><small>" + esc(txt(c)) + (p.region ? " · " + esc(p.region) : "") + "</small><br>" +
+    return "<b>" + esc(txt(p) || p.id) + "</b><br><small>" + esc(txt(c)) + (p.region ? " · " + esc(RN[p.region] || p.region) : "") + "</small><br>" +
       '<span class="ct-statut ' + (ok ? "ok" : "ko") + '">' + esc(ok ? tr("sl_conf", "Confirmé") : tr("sl_aconf", "À confirmer")) + "</span>" +
-      (txt(p, "note_") ? "<br>" + esc(txt(p, "note_")) : "") + (src ? "<br>" + src : "") +
+      (p.approx ? '<br><small class="ct-approx">' + esc(tr("sl_approx", "Position approximative sur le schéma : repère décrit ci-dessous.")) + "</small>" : "") + (txt(p, "note_") ? "<br>" + esc(txt(p, "note_")) : "") + (src ? "<br>" + src : "") +
       '<br><button type="button" class="ct-btn" data-pt="' + esc(p.id) + '">' + esc(S.p[p.id] ? tr("sl_trouve_non", "Pas encore trouvé") : tr("sl_trouve", "Trouvé ✓")) + "</button>";
   }
   function compteCouche(D, id) { var n = 0, t = 0; D.points.forEach(function (p) { if (p.couche === id) { t++; if (S.p[p.id]) n++; } }); return [n, t]; }
@@ -71,7 +72,7 @@
     var el = document.getElementById("carte");
     if (!el || !window.L) { if (el) el.innerHTML = '<p class="cl-vide" style="padding:20px">' + esc(tr("sl_err", "La carte n'a pas pu se charger.")) + "</p>"; return; }
     fetch("data/carte.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).then(function (D) {
-      var C = {}; D.couches.forEach(function (c) { C[c.id] = c; });
+      var C = {}; D.couches.forEach(function (c) { C[c.id] = c; }); D.regions.forEach(function (g) { RN[g.id] = g.nom; });
       var H = 1000, map = L.map(el, { crs: L.CRS.Simple, minZoom: -1.2, maxZoom: 3, zoomSnap: 0.25, attributionControl: true, maxBoundsViscosity: .8 });
       var B = [[0, 0], [H, H]];
       L.imageOverlay(R + D.fond, B, { alt: "Leonida" }).addTo(map);
@@ -91,7 +92,9 @@
         D.points.forEach(function (p) {
           if (p.x == null || p.y == null || !groupes[p.couche]) return;
           if (cacheFaits && S.p[p.id]) return;
-          var c = C[p.couche], m = L.circleMarker(ll(p.x, p.y), { radius: 8, color: "#16111d", weight: 2, fillColor: c.couleur, fillOpacity: S.p[p.id] ? .35 : 1, dashArray: p.statut === "confirme" ? null : "3 3" });
+          var c = C[p.couche], m = c.icone ?
+            L.marker(ll(p.x, p.y), { icon: L.divIcon({ className: "ct-ico" + (p.statut === "confirme" ? "" : " ko") + (S.p[p.id] ? " fait" : ""), html: '<img src="' + R + c.icone + '" alt="" width="28" height="28">', iconSize: [34, 34], iconAnchor: [17, 17], popupAnchor: [0, -14] }), title: txt(p) || p.id }) :
+            L.circleMarker(ll(p.x, p.y), { radius: 8, color: "#16111d", weight: 2, fillColor: c.couleur, fillOpacity: S.p[p.id] ? .35 : 1, dashArray: p.statut === "confirme" ? null : "3 3" });
           m.bindPopup(function () { return popup(p, C, map); });
           m.addTo(groupes[p.couche]); marqueurs[p.id] = m;
         });
@@ -100,7 +103,7 @@
       function panneau() {
         pan.innerHTML = D.couches.map(function (c) {
           var k = compteCouche(D, c.id), off = S.o["off_" + c.id];
-          return '<label class="ct-couche"><input type="checkbox" data-c="' + c.id + '"' + (off ? "" : " checked") + '><span class="ct-pt" style="background:' + c.couleur + '"></span><span>' + esc(txt(c)) + "</span><small>" + k[0] + "/" + (k[1] || 0) + (c.total ? " · " + c.total : "") + "</small></label>";
+          return '<label class="ct-couche"><input type="checkbox" data-c="' + c.id + '"' + (off ? "" : " checked") + '>' + (c.icone ? '<img class="ct-pti" src="' + R + c.icone + '" alt="" width="22" height="22">' : '<span class="ct-pt" style="background:' + c.couleur + '"></span>') + '<span>' + esc(txt(c)) + "</span><small>" + k[0] + "/" + (k[1] || 0) + (c.total ? " · " + c.total : "") + "</small></label>";
         }).join("");
         [].forEach.call(pan.querySelectorAll("input"), function (i) {
           var id = i.getAttribute("data-c");

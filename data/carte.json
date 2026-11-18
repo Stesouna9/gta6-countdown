@@ -2,7 +2,7 @@
  "$comment": "Points de la carte interactive (carte.html) et des pages collectibles. Repère : schéma GTAVIFRANCE 1000x1000 (x vers la droite, y vers le bas), PAS la carte officielle. Un point n'entre ici que vérifié : 2 sources indépendantes concordantes ou 1 source officielle (statut 'confirme'), sinon 'a_confirmer' avec ses sources. x/y null = point listé sans position. Jamais d'invention. Quand Rockstar publie la carte officielle : changer 'repere' et recaler x/y.",
  "maj": "2026-11-18",
  "repere": "schema-v1",
- "fond": "assets/img/carte/leonida-schema.svg",
+ "fond": "assets/img/carte/leonida-fond.svg",
  "modele_point": {
   "id": "meditation-01",
   "couche": "meditation",
@@ -254,7 +254,8 @@
    "trophee": "positive-mental-attitude",
    "couleur": "#62d4ff",
    "note_fr": "Seul trophée manquable : la première méditation se fait au chapitre 1.",
-   "note_en": "Only missable trophy: the first meditation happens in Chapter 1."
+   "note_en": "Only missable trophy: the first meditation happens in Chapter 1.",
+   "icone": "assets/img/carte/icones/meditation.svg"
   },
   {
    "id": "drones",
@@ -263,8 +264,9 @@
    "total": 14,
    "trophee": "top-fun",
    "couleur": "#ffc93c",
-   "note_fr": "",
-   "note_en": ""
+   "note_fr": "14 lieux, 3 courses contre la montre chacun (42 au total). Gagner une course par lieu débloque le trophée Top Fun.",
+   "note_en": "14 locations, 3 time trials each (42 total). Win one race per location for the Top Fun trophy.",
+   "icone": "assets/img/carte/icones/drones.svg"
   },
   {
    "id": "tir",
@@ -274,7 +276,8 @@
    "trophee": "the-shootist",
    "couleur": "#ff3b7a",
    "note_fr": "42 épreuves à finir en or.",
-   "note_en": "42 challenges to gold."
+   "note_en": "42 challenges to gold.",
+   "icone": "assets/img/carte/icones/tir.svg"
   },
   {
    "id": "garages",
@@ -283,18 +286,20 @@
    "total": 8,
    "trophee": "little-boxes",
    "couleur": "#0fb3a3",
-   "note_fr": "",
-   "note_en": ""
+   "note_fr": "8 garages à acheter (160 000 $ au total, appli Vice City Real Estate après la mission Daily Driver) + 4 offerts par l'histoire.",
+   "note_en": "8 purchasable garages ($160,000 total, Vice City Real Estate app after Daily Driver) + 4 story garages.",
+   "icone": "assets/img/carte/icones/garages.svg"
   },
   {
    "id": "banques",
    "fr": "Banques (coffres)",
    "en": "Banks (vaults)",
-   "total": 5,
+   "total": 22,
    "trophee": "maximum-withdrawal",
    "couleur": "#ff8a2a",
-   "note_fr": "5 coffres à braquer pour le trophée.",
-   "note_en": "Rob 5 vaults for the trophy."
+   "note_fr": "22 banques : 14 petites (tiroir-caisse + coffre) et 8 grandes avec chambre forte. Piller 5 chambres fortes débloque Maximum Withdrawal.",
+   "note_en": "22 banks: 14 small (cash drawer + safe) and 8 large with a vault. Rob 5 vaults for Maximum Withdrawal.",
+   "icone": "assets/img/carte/icones/banques.svg"
   },
   {
    "id": "bijouteries",
@@ -304,7 +309,8 @@
    "trophee": "sneakthief",
    "couleur": "#e7b6ff",
    "note_fr": "",
-   "note_en": ""
+   "note_en": "",
+   "icone": "assets/img/carte/icones/bijouteries.svg"
   },
   {
    "id": "wainK",
@@ -314,17 +320,19 @@
    "trophee": "you-wainker",
    "couleur": "#a63ccf",
    "note_fr": "",
-   "note_en": ""
+   "note_en": "",
+   "icone": "assets/img/carte/icones/wainK.svg"
   },
   {
    "id": "cartes",
    "fr": "Cartes à collectionner",
    "en": "Collectible cards",
-   "total": null,
+   "total": 18,
    "trophee": "dont-touch-my-deck",
    "couleur": "#9be37a",
-   "note_fr": "3 collections à compléter.",
-   "note_en": "3 sets to complete."
+   "note_fr": "18 séries, 480 cartes. 3 séries complètes pour le trophée Don't Touch My Deck, 15 pour le 100 %.",
+   "note_en": "18 sets, 480 cards. 3 full sets for Don't Touch My Deck, 15 for 100% completion.",
+   "icone": "assets/img/carte/icones/cartes.svg"
   },
   {
    "id": "zones",
@@ -334,7 +342,8 @@
    "trophee": "the-goodtime-state",
    "couleur": "#8fa3b8",
    "note_fr": "",
-   "note_en": ""
+   "note_en": "",
+   "icone": "assets/img/carte/icones/zones.svg"
   },
   {
    "id": "courses",
@@ -344,7 +353,8 @@
    "trophee": "earn-cash-not-kudos",
    "couleur": "#ff6b4a",
    "note_fr": "20 courses différentes à gagner.",
-   "note_en": "Win 20 different races."
+   "note_en": "Win 20 different races.",
+   "icone": "assets/img/carte/icones/courses.svg"
   },
   {
    "id": "activites",
@@ -354,8 +364,1042 @@
    "trophee": "master-of-none",
    "couleur": "#f2e8d5",
    "note_fr": "9 types d'activités à essayer.",
-   "note_en": "Try 9 activity types."
+   "note_en": "Try 9 activity types.",
+   "icone": "assets/img/carte/icones/activites.svg"
   }
  ],
- "points": []
+ "points": [
+  {
+   "id": "meditation-01",
+   "couche": "meditation",
+   "en": "#1 Jason's House Meditation",
+   "note_en": "Jason's house balcony, Chapter 1 only (missable): talk to Lucia in the morning after she mentions meditating.",
+   "region": null,
+   "note_fr": "Balcon de la maison de Jason, uniquement au chapitre 1 (manquable) : parlez à Lucia le matin, quand elle annonce qu'elle va méditer.",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": null,
+   "y": null,
+   "fr": "#1 Jason's House Meditation"
+  },
+  {
+   "id": "meditation-02",
+   "couche": "meditation",
+   "en": "#2 Smooth Sand Meditation",
+   "note_en": "Mariana County - on a small sandbar off the west coast of Capri.",
+   "region": "leonida-keys",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 604,
+   "y": 896,
+   "approx": true,
+   "fr": "#2 Smooth Sand Meditation",
+   "note_fr": "Comté de Mariana - sur un petit banc de sable au large de la côte ouest de Capri."
+  },
+  {
+   "id": "meditation-03",
+   "couche": "meditation",
+   "en": "#3 Swamp Meditation",
+   "note_en": "Kelly County > Buckskin Swamp - on a wooden dock by a lookout tower in the middle of Buckskin Swamp.",
+   "region": "grassrivers",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 519,
+   "y": 611,
+   "approx": true,
+   "fr": "#3 Swamp Meditation",
+   "note_fr": "Comté de Kelly > Buckskin Swamp - sur un quai en bois près d'une tour d'observation au milieu de Buckskin Swamp."
+  },
+  {
+   "id": "meditation-04",
+   "couche": "meditation",
+   "en": "#4 Worn Stone Meditation",
+   "note_en": "Kelly County - by the bank of the Emerald River at Camp Moonflower.",
+   "region": "grassrivers",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 477,
+   "y": 637,
+   "approx": true,
+   "fr": "#4 Worn Stone Meditation",
+   "note_fr": "Comté de Kelly - au bord de la rivière Emerald au Camp Moonflower."
+  },
+  {
+   "id": "meditation-05",
+   "couche": "meditation",
+   "en": "#5 Red Rocks Meditation",
+   "note_en": "Kelly County - near where some train tracks cross the highway in Manifest Canyon.",
+   "region": "port-gellhorn",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 229,
+   "y": 386,
+   "approx": true,
+   "fr": "#5 Red Rocks Meditation",
+   "note_fr": "Comté de Kelly - près de l'endroit où certaines voies ferrées traversent l'autoroute dans Manifest Canyon."
+  },
+  {
+   "id": "meditation-06",
+   "couche": "meditation",
+   "en": "#6 Water Wheel Meditation",
+   "note_en": "Lummox County - near a waterwheel at a ruined paper mill along a river in south Moreau.",
+   "region": "kalaga",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 414,
+   "y": 231,
+   "approx": true,
+   "fr": "#6 Water Wheel Meditation",
+   "note_fr": "Comté de Lummox - près d'une roue hydraulique dans une usine de papier en ruine le long d'une rivière dans le sud de Moreau."
+  },
+  {
+   "id": "meditation-07",
+   "couche": "meditation",
+   "en": "#7 Jutting Cliff Meditation",
+   "note_en": "Lummox County - by a tower overlooking a mine in Mount Kalaga National Park.",
+   "region": "kalaga",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 372,
+   "y": 257,
+   "approx": true,
+   "fr": "#7 Jutting Cliff Meditation",
+   "note_fr": "Comté de Lummox - près d'une tour surplombant une mine dans le parc national du mont Kalaga."
+  },
+  {
+   "id": "meditation-08",
+   "couche": "meditation",
+   "en": "#8 Waterfall Meditation",
+   "note_en": "Lummox County - northwest of Tallaloko overlooking a waterfall on a river flowing east.",
+   "region": "kalaga",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 404,
+   "y": 183,
+   "approx": true,
+   "fr": "#8 Waterfall Meditation",
+   "note_fr": "Comté de Lummox - au nord-ouest de Tallaloko, surplombant une cascade sur une rivière coulant vers l'est."
+  },
+  {
+   "id": "meditation-09",
+   "couche": "meditation",
+   "en": "#9 Seaside Meditation",
+   "note_en": "Leonard County - on a rocky outcrop on the beach to the east of Waning Sands.",
+   "region": "port-gellhorn",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 187,
+   "y": 412,
+   "approx": true,
+   "fr": "#9 Seaside Meditation",
+   "note_fr": "Comté de Leonard - sur un affleurement rocheux sur la plage à l'est de Waning Sands."
+  },
+  {
+   "id": "meditation-10",
+   "couche": "meditation",
+   "en": "#10 Ascent Mountain",
+   "note_en": "Peak of Mount Kalaga, in the stone circle: appears on the map after completing all other meditations.",
+   "region": "kalaga",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 434,
+   "y": 275,
+   "approx": true,
+   "fr": "#10 Ascent Mountain",
+   "note_fr": "Sommet du mont Kalaga, dans le cercle de pierres : apparaît sur la carte après avoir terminé toutes les autres méditations."
+  },
+  {
+   "id": "drones-01",
+   "couche": "drones",
+   "en": "#1 Hamlet",
+   "note_en": "Time trials: Deep Roots - Par Time: 1:31; Power Station South - Par Time: 1:26; Power Station North - Par Time: 2:04",
+   "note_fr": "Courses contre la montre : Deep Roots - temps à battre: 1:31; Power Station South - temps à battre: 1:26; Power Station North - temps à battre: 2:04",
+   "region": "leonida-keys",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-top-fun-drone-race-time-trial-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 562,
+   "y": 922,
+   "approx": true,
+   "fr": "#1 Hamlet"
+  },
+  {
+   "id": "drones-02",
+   "couche": "drones",
+   "en": "#2 Watson Bay",
+   "note_en": "Time trials: Leonida RC Raceway - Par Time: 1:27; Watson Bay - Par Time: 1:34; Marshland Animal Park - Par Time: 1:17",
+   "note_fr": "Courses contre la montre : Leonida RC Raceway - temps à battre: 1:27; Watson Bay - temps à battre: 1:34; Marshland Animal Park - temps à battre: 1:17",
+   "region": "leonida-keys",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-top-fun-drone-race-time-trial-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 594,
+   "y": 848,
+   "approx": true,
+   "fr": "#2 Watson Bay"
+  },
+  {
+   "id": "drones-03",
+   "couche": "drones",
+   "en": "#3 Capri",
+   "note_en": "Time trials: Capri Train Station - Par Time: 1:50; Ravella Drive - Par Time: 1:51; Capri Lake - Par Time: 2:01",
+   "note_fr": "Courses contre la montre : Capri Train Station - temps à battre: 1:50; Ravella Drive - temps à battre: 1:51; Capri Lake - temps à battre: 2:01",
+   "region": "leonida-keys",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-top-fun-drone-race-time-trial-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 624,
+   "y": 940,
+   "approx": true,
+   "fr": "#3 Capri"
+  },
+  {
+   "id": "drones-04",
+   "couche": "drones",
+   "en": "#4 Buckskin Swamp",
+   "note_en": "Time trials: Kowaachobee Village - Par Time: 1:24; Swampy Sal's Safari Park - Par Time: 1:40; Camp Moonflower - Par Time: 1:48",
+   "note_fr": "Courses contre la montre : Kowaachobee Village - temps à battre: 1:24; Swampy Sal's Safari Park - temps à battre: 1:40; Camp Moonflower - temps à battre: 1:48",
+   "region": "grassrivers",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-top-fun-drone-race-time-trial-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 509,
+   "y": 563,
+   "approx": true,
+   "fr": "#4 Buckskin Swamp"
+  },
+  {
+   "id": "drones-05",
+   "couche": "drones",
+   "en": "#5 Balsero",
+   "note_en": "Time trials: Navitrak - Par Time: 1:29; Apollo Aggregates - Par Time: 1:27; Tisha-Wocka Flea Market - Par Time: 1:08",
+   "note_fr": "Courses contre la montre : Navitrak - temps à battre: 1:29; Apollo Aggregates - temps à battre: 1:27; Tisha-Wocka Flea Market - temps à battre: 1:08",
+   "region": "vice-city",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-top-fun-drone-race-time-trial-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 736,
+   "y": 611,
+   "approx": true,
+   "fr": "#5 Balsero"
+  },
+  {
+   "id": "drones-06",
+   "couche": "drones",
+   "en": "#6 Downtown",
+   "note_en": "Time trials: Future Leonida Art Museum - Par Time: 1:47; Shoreline Market - Par Time: 2:01; Wildland Zoo - Par Time: 1:30",
+   "note_fr": "Courses contre la montre : Future Leonida Art Museum - temps à battre: 1:47; Shoreline Market - temps à battre: 2:01; Wildland Zoo - temps à battre: 1:30",
+   "region": "vice-city",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-top-fun-drone-race-time-trial-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 694,
+   "y": 637,
+   "approx": true,
+   "fr": "#6 Downtown"
+  },
+  {
+   "id": "drones-07",
+   "couche": "drones",
+   "en": "#7 Dalton Island",
+   "note_en": "Time trials: Avarice Petroleum - Par Time: 1:53; The Jamaica - Par Time: 1:16; Ivory Towers - Par Time: 1:42",
+   "note_fr": "Courses contre la montre : Avarice Petroleum - temps à battre: 1:53; The Jamaica - temps à battre: 1:16; Ivory Towers - temps à battre: 1:42",
+   "region": "vice-city",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-top-fun-drone-race-time-trial-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 726,
+   "y": 563,
+   "approx": true,
+   "fr": "#7 Dalton Island"
+  },
+  {
+   "id": "drones-08",
+   "couche": "drones",
+   "en": "#8 Vice Beach",
+   "note_en": "Time trials: Leaf Links - Par Time: 1:30; Vice Regal Hotel - Par Time: 1:41; St. Vitus Medical Center - Par Time: 2:00",
+   "note_fr": "Courses contre la montre : Leaf Links - temps à battre: 1:30; Vice Regal Hotel - temps à battre: 1:41; St. Vitus Medical Center - temps à battre: 2:00",
+   "region": "vice-city",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-top-fun-drone-race-time-trial-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 756,
+   "y": 655,
+   "approx": true,
+   "fr": "#8 Vice Beach"
+  },
+  {
+   "id": "drones-09",
+   "couche": "drones",
+   "en": "#9 Waning Sands",
+   "note_en": "Time trials: Hot Skidz - Par Time: 1:39; Thundergolf - Par Time: 1:57; Evergreen Mall - Par Time: 1:52",
+   "note_fr": "Courses contre la montre : Hot Skidz - temps à battre: 1:39; Thundergolf - temps à battre: 1:57; Evergreen Mall - temps à battre: 1:52",
+   "region": "port-gellhorn",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-top-fun-drone-race-time-trial-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 219,
+   "y": 338,
+   "approx": true,
+   "fr": "#9 Waning Sands"
+  },
+  {
+   "id": "drones-10",
+   "couche": "drones",
+   "en": "#10 Ambrosia",
+   "note_en": "Time trials: Captain O'Malley Marina - Par Time: 2:03; Allied Crystal - Par Time: 2:02; Waste Transfer Services - Par Time: 1:55",
+   "note_fr": "Courses contre la montre : Captain O'Malley Marina - temps à battre: 2:03; Allied Crystal - temps à battre: 2:02; Waste Transfer Services - temps à battre: 1:55",
+   "region": "ambrosia",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-top-fun-drone-race-time-trial-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 534,
+   "y": 386,
+   "approx": true,
+   "fr": "#10 Ambrosia"
+  },
+  {
+   "id": "drones-11",
+   "couche": "drones",
+   "en": "#11 Port Gellhorn",
+   "note_en": "Time trials: Manifest Canyon - Par Time: 1:28; Red Apple Orchard - Par Time: 1:12; Port Gellhorn - Par Time: 1:39",
+   "note_fr": "Courses contre la montre : Manifest Canyon - temps à battre: 1:28; Red Apple Orchard - temps à battre: 1:12; Port Gellhorn - temps à battre: 1:39",
+   "region": "port-gellhorn",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-top-fun-drone-race-time-trial-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 249,
+   "y": 430,
+   "approx": true,
+   "fr": "#11 Port Gellhorn"
+  },
+  {
+   "id": "drones-12",
+   "couche": "drones",
+   "en": "#12 Draper Island",
+   "note_en": "Time trials: Draper Island Terminal - Par Time: 1:49; Draper Refinery East - Par Time: 1:44; Draper Refinery West - Par Time: 1:51",
+   "note_fr": "Courses contre la montre : Draper Island Terminal - temps à battre: 1:49; Draper Refinery East - temps à battre: 1:44; Draper Refinery West - temps à battre: 1:51",
+   "region": "port-gellhorn",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-top-fun-drone-race-time-trial-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 154,
+   "y": 375,
+   "approx": true,
+   "fr": "#12 Draper Island"
+  },
+  {
+   "id": "drones-13",
+   "couche": "drones",
+   "en": "#13 Moreau Sawmill",
+   "note_en": "Time trials: Abandoned Mining Pit - Par Time: 1:03; Adler Creek - Par Time: 1:21; Macalister Gold Mine - Par Time: 0:59",
+   "note_fr": "Courses contre la montre : Abandoned Mining Pit - temps à battre: 1:03; Adler Creek - temps à battre: 1:21; Macalister Gold Mine - temps à battre: 0:59",
+   "region": "kalaga",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-top-fun-drone-race-time-trial-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 339,
+   "y": 220,
+   "approx": true,
+   "fr": "#13 Moreau Sawmill"
+  },
+  {
+   "id": "drones-14",
+   "couche": "drones",
+   "en": "#14 Millport",
+   "note_en": "Time trials: Millport - Par Time: 1:31; Rushwood Logging - Par Time: 2:08; Tallaloko Lakeside Resort - Par Time: 2:05",
+   "note_fr": "Courses contre la montre : Millport - temps à battre: 1:31; Rushwood Logging - temps à battre: 2:08; Tallaloko Lakeside Resort - temps à battre: 2:05",
+   "region": "kalaga",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-top-fun-drone-race-time-trial-locations/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 457,
+   "y": 194,
+   "approx": true,
+   "fr": "#14 Millport"
+  },
+  {
+   "id": "banques-01",
+   "couche": "banques",
+   "en": "#1 Fleeca - Key Lento",
+   "note_en": "Small bank: cash drawer + safe, loot $5k-$20k (Mariana County)",
+   "note_fr": "Petite banque : tiroir-caisse + coffre, butin $5k-$20k (Mariana County)",
+   "region": "leonida-keys",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 529,
+   "y": 885,
+   "approx": true,
+   "fr": "#1 Fleeca - Key Lento"
+  },
+  {
+   "id": "banques-02",
+   "couche": "banques",
+   "en": "#2 Shorefront - Watson Bay",
+   "note_en": "Small bank: cash drawer + safe, loot $5k-$20k (Mariana County)",
+   "note_fr": "Petite banque : tiroir-caisse + coffre, butin $5k-$20k (Mariana County)",
+   "region": "leonida-keys",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 647,
+   "y": 859,
+   "approx": true,
+   "fr": "#2 Shorefront - Watson Bay"
+  },
+  {
+   "id": "banques-03",
+   "couche": "banques",
+   "en": "#3 Gibson Brothers Bank",
+   "note_en": "Small bank: cash drawer + safe, loot $10k-$30k (Mariana County)",
+   "note_fr": "Petite banque : tiroir-caisse + coffre, butin $10k-$30k (Mariana County)",
+   "region": "leonida-keys",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 571,
+   "y": 967,
+   "approx": true,
+   "fr": "#3 Gibson Brothers Bank"
+  },
+  {
+   "id": "banques-04",
+   "couche": "banques",
+   "en": "#4 Lombank - Peacock Bay",
+   "note_en": "Small bank: cash drawer + safe, loot $5k-$20k (Vice-Dale County (Vice City))",
+   "note_fr": "Petite banque : tiroir-caisse + coffre, butin $5k-$20k (Vice-Dale County (Vice City))",
+   "region": "vice-city",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 661,
+   "y": 600,
+   "approx": true,
+   "fr": "#4 Lombank - Peacock Bay"
+  },
+  {
+   "id": "banques-05",
+   "couche": "banques",
+   "en": "#5 Fleeca - Peacock Bay",
+   "note_en": "Small bank: cash drawer + safe, loot $5k-$20k (Vice-Dale County (Vice City))",
+   "note_fr": "Petite banque : tiroir-caisse + coffre, butin $5k-$20k (Vice-Dale County (Vice City))",
+   "region": "vice-city",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 779,
+   "y": 574,
+   "approx": true,
+   "fr": "#5 Fleeca - Peacock Bay"
+  },
+  {
+   "id": "banques-06",
+   "couche": "banques",
+   "en": "#6 Shorefront - Downtown",
+   "note_en": "Small bank: cash drawer + safe, loot $5k-$15k (Vice-Dale County (Vice City))",
+   "note_fr": "Petite banque : tiroir-caisse + coffre, butin $5k-$15k (Vice-Dale County (Vice City))",
+   "region": "vice-city",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 703,
+   "y": 682,
+   "approx": true,
+   "fr": "#6 Shorefront - Downtown"
+  },
+  {
+   "id": "banques-07",
+   "couche": "banques",
+   "en": "#7 Shorefront - Rockridge",
+   "note_en": "Small bank: cash drawer + safe, loot $5k-$20k (Vice-Dale County (Vice City))",
+   "note_fr": "Petite banque : tiroir-caisse + coffre, butin $5k-$20k (Vice-Dale County (Vice City))",
+   "region": "vice-city",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 686,
+   "y": 542,
+   "approx": true,
+   "fr": "#7 Shorefront - Rockridge"
+  },
+  {
+   "id": "banques-08",
+   "couche": "banques",
+   "en": "#8 Lombank - Bayside",
+   "note_en": "Small bank: cash drawer + safe, loot $15k-$45k (Vice-Dale County (Vice City))",
+   "note_fr": "Petite banque : tiroir-caisse + coffre, butin $15k-$45k (Vice-Dale County (Vice City))",
+   "region": "vice-city",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 799,
+   "y": 639,
+   "approx": true,
+   "fr": "#8 Lombank - Bayside"
+  },
+  {
+   "id": "banques-09",
+   "couche": "banques",
+   "en": "#9 Fleeca - Washington Beach",
+   "note_en": "Small bank: cash drawer + safe, loot $10k-$30k (Vice-Dale County (Vice City))",
+   "note_fr": "Petite banque : tiroir-caisse + coffre, butin $10k-$30k (Vice-Dale County (Vice City))",
+   "region": "vice-city",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 642,
+   "y": 644,
+   "approx": true,
+   "fr": "#9 Fleeca - Washington Beach"
+  },
+  {
+   "id": "banques-10",
+   "couche": "banques",
+   "en": "#10 Lombank - Ocean Beach",
+   "note_en": "Small bank: cash drawer + safe, loot $15k-$45k (Vice-Dale County (Vice City))",
+   "note_fr": "Petite banque : tiroir-caisse + coffre, butin $15k-$45k (Vice-Dale County (Vice City))",
+   "region": "vice-city",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 760,
+   "y": 529,
+   "approx": true,
+   "fr": "#10 Lombank - Ocean Beach"
+  },
+  {
+   "id": "banques-11",
+   "couche": "banques",
+   "en": "#11 Fleeca - Ocean Beach",
+   "note_en": "Small bank: cash drawer + safe, loot $5k-$15k (Vice-Dale County (Vice City))",
+   "note_fr": "Petite banque : tiroir-caisse + coffre, butin $5k-$15k (Vice-Dale County (Vice City))",
+   "region": "vice-city",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 750,
+   "y": 701,
+   "approx": true,
+   "fr": "#11 Fleeca - Ocean Beach"
+  },
+  {
+   "id": "banques-12",
+   "couche": "banques",
+   "en": "#12 Shorefront - Ocean Beach",
+   "note_en": "Small bank: cash drawer + safe, loot $5k-$15k (Vice-Dale County (Vice City))",
+   "note_fr": "Petite banque : tiroir-caisse + coffre, butin $5k-$15k (Vice-Dale County (Vice City))",
+   "region": "vice-city",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 637,
+   "y": 562,
+   "approx": true,
+   "fr": "#12 Shorefront - Ocean Beach"
+  },
+  {
+   "id": "banques-13",
+   "couche": "banques",
+   "en": "#13 Druthers State Bank",
+   "note_en": "Small bank: cash drawer + safe, loot $15k-$45k (Leonard County)",
+   "note_fr": "Petite banque : tiroir-caisse + coffre, butin $15k-$45k (Leonard County)",
+   "region": "port-gellhorn",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 272,
+   "y": 349,
+   "approx": true,
+   "fr": "#13 Druthers State Bank"
+  },
+  {
+   "id": "banques-14",
+   "couche": "banques",
+   "en": "#14 Shorefront - Ambrosia",
+   "note_en": "Small bank: cash drawer + safe, loot $5k-$15k (Kelly County)",
+   "note_fr": "Petite banque : tiroir-caisse + coffre, butin $5k-$15k (Kelly County)",
+   "region": "ambrosia",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 492,
+   "y": 412,
+   "approx": true,
+   "fr": "#14 Shorefront - Ambrosia"
+  },
+  {
+   "id": "banques-15",
+   "couche": "banques",
+   "en": "#15 Fleeca - VCIA",
+   "note_en": "Large bank with vault, loot $100k-$150k",
+   "note_fr": "Grande banque avec chambre forte, butin $100k-$150k",
+   "region": "vice-city",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 821,
+   "y": 589,
+   "approx": true,
+   "fr": "#15 Fleeca - VCIA"
+  },
+  {
+   "id": "banques-16",
+   "couche": "banques",
+   "en": "#16 Fleeca - Tequesta",
+   "note_en": "Large bank with vault, loot $65k-$110k",
+   "note_fr": "Grande banque avec chambre forte, butin $65k-$110k",
+   "region": "vice-city",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 662,
+   "y": 697,
+   "approx": true,
+   "fr": "#16 Fleeca - Tequesta"
+  },
+  {
+   "id": "banques-17",
+   "couche": "banques",
+   "en": "#17 Lombank - Downtown",
+   "note_en": "Large bank with vault, loot $135k-$205k",
+   "note_fr": "Grande banque avec chambre forte, butin $135k-$205k",
+   "region": "vice-city",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 708,
+   "y": 504,
+   "approx": true,
+   "fr": "#17 Lombank - Downtown"
+  },
+  {
+   "id": "banques-18",
+   "couche": "banques",
+   "en": "#18 Fleeca - Downtown",
+   "note_en": "Large bank with vault, loot $100k-$150k",
+   "note_fr": "Grande banque avec chambre forte, butin $100k-$150k",
+   "region": "vice-city",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 807,
+   "y": 682,
+   "approx": true,
+   "fr": "#18 Fleeca - Downtown"
+  },
+  {
+   "id": "banques-19",
+   "couche": "banques",
+   "en": "#19 Lombank - Ocean Beach",
+   "note_en": "Large bank with vault, loot $135k-$205k",
+   "note_fr": "Grande banque avec chambre forte, butin $135k-$205k",
+   "region": "vice-city",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 608,
+   "y": 616,
+   "approx": true,
+   "fr": "#19 Lombank - Ocean Beach"
+  },
+  {
+   "id": "banques-20",
+   "couche": "banques",
+   "en": "#20 Fleeca - Ocean Beach",
+   "note_en": "Large bank with vault, loot $75k-$135k",
+   "note_fr": "Grande banque avec chambre forte, butin $75k-$135k",
+   "region": "vice-city",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 805,
+   "y": 529,
+   "approx": true,
+   "fr": "#20 Fleeca - Ocean Beach"
+  },
+  {
+   "id": "banques-21",
+   "couche": "banques",
+   "en": "#21 Lombank - Ocean Beach",
+   "note_en": "Large bank with vault, loot $75k-$135k",
+   "note_fr": "Grande banque avec chambre forte, butin $75k-$135k",
+   "region": "vice-city",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 716,
+   "y": 730,
+   "approx": true,
+   "fr": "#21 Lombank - Ocean Beach"
+  },
+  {
+   "id": "banques-22",
+   "couche": "banques",
+   "en": "#22 Shorefront - Ocean Beach",
+   "note_en": "Large bank with vault, loot $95k-$140k",
+   "note_fr": "Grande banque avec chambre forte, butin $95k-$140k",
+   "region": "vice-city",
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+    "https://www.gtabase.com/articles/gta-6/gta-6-100-completion-guide-interactive-checklist"
+   ],
+   "maj": "2026-11-18",
+   "x": 644,
+   "y": 517,
+   "approx": true,
+   "fr": "#22 Shorefront - Ocean Beach"
+  },
+  {
+   "id": "garages-01",
+   "couche": "garages",
+   "en": "#1 Mitchell Auto Center",
+   "note_en": "Buy via the Vice City Real Estate app: $4000, 1 parking spot",
+   "note_fr": "À acheter dans l'appli Vice City Real Estate : $4000, 1 place",
+   "region": null,
+   "hors_trophee": false,
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-garage-locations/"
+   ],
+   "maj": "2026-11-18",
+   "x": null,
+   "y": null,
+   "fr": "#1 Mitchell Auto Center"
+  },
+  {
+   "id": "garages-02",
+   "couche": "garages",
+   "en": "#2 7th Avenue Garage",
+   "note_en": "Buy via the Vice City Real Estate app: $12,000, 1 parking spot",
+   "note_fr": "À acheter dans l'appli Vice City Real Estate : $12 000, 1 place",
+   "region": null,
+   "hors_trophee": false,
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-garage-locations/"
+   ],
+   "maj": "2026-11-18",
+   "x": null,
+   "y": null,
+   "fr": "#2 7th Avenue Garage"
+  },
+  {
+   "id": "garages-03",
+   "couche": "garages",
+   "en": "#3 Vela Rota Driver Garage",
+   "note_en": "Buy via the Vice City Real Estate app: $24,000, 1 parking spot",
+   "note_fr": "À acheter dans l'appli Vice City Real Estate : $24 000, 1 place",
+   "region": null,
+   "hors_trophee": false,
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-garage-locations/"
+   ],
+   "maj": "2026-11-18",
+   "x": null,
+   "y": null,
+   "fr": "#3 Vela Rota Driver Garage"
+  },
+  {
+   "id": "garages-04",
+   "couche": "garages",
+   "en": "#4 Persistence Road Garage",
+   "note_en": "Buy via the Vice City Real Estate app: $7,600, 1 parking spot",
+   "note_fr": "À acheter dans l'appli Vice City Real Estate : $7 600, 1 place",
+   "region": null,
+   "hors_trophee": false,
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-garage-locations/"
+   ],
+   "maj": "2026-11-18",
+   "x": null,
+   "y": null,
+   "fr": "#4 Persistence Road Garage"
+  },
+  {
+   "id": "garages-05",
+   "couche": "garages",
+   "en": "#5 Wyatt Motors",
+   "note_en": "Buy via the Vice City Real Estate app: $21,600, 1 parking spot",
+   "note_fr": "À acheter dans l'appli Vice City Real Estate : $21 600, 1 place",
+   "region": null,
+   "hors_trophee": false,
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-garage-locations/"
+   ],
+   "maj": "2026-11-18",
+   "x": null,
+   "y": null,
+   "fr": "#5 Wyatt Motors"
+  },
+  {
+   "id": "garages-06",
+   "couche": "garages",
+   "en": "#6 Bonita Court Garage",
+   "note_en": "Buy via the Vice City Real Estate app: $34,000, 1 parking spot",
+   "note_fr": "À acheter dans l'appli Vice City Real Estate : $34 000, 1 place",
+   "region": null,
+   "hors_trophee": false,
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-garage-locations/"
+   ],
+   "maj": "2026-11-18",
+   "x": null,
+   "y": null,
+   "fr": "#6 Bonita Court Garage"
+  },
+  {
+   "id": "garages-07",
+   "couche": "garages",
+   "en": "#7 Atlantic Court Garage",
+   "note_en": "Buy via the Vice City Real Estate app: $40,000, 1 parking spot",
+   "note_fr": "À acheter dans l'appli Vice City Real Estate : $40 000, 1 place",
+   "region": null,
+   "hors_trophee": false,
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-garage-locations/"
+   ],
+   "maj": "2026-11-18",
+   "x": null,
+   "y": null,
+   "fr": "#7 Atlantic Court Garage"
+  },
+  {
+   "id": "garages-08",
+   "couche": "garages",
+   "en": "#8 Store n' Bolt",
+   "note_en": "Buy via the Vice City Real Estate app: $16,800, 1 parking spot",
+   "note_fr": "À acheter dans l'appli Vice City Real Estate : $16 800, 1 place",
+   "region": null,
+   "hors_trophee": false,
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-garage-locations/"
+   ],
+   "maj": "2026-11-18",
+   "x": null,
+   "y": null,
+   "fr": "#8 Store n' Bolt"
+  },
+  {
+   "id": "garages-09",
+   "couche": "garages",
+   "en": "#9 Port Gellhorn Station Garage",
+   "note_en": "Story reward (not purchasable), 1 parking spot",
+   "note_fr": "Offert par l'histoire (non achetable), 1 place",
+   "region": "port-gellhorn",
+   "hors_trophee": true,
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-garage-locations/"
+   ],
+   "maj": "2026-11-18",
+   "x": 196,
+   "y": 457,
+   "approx": true,
+   "fr": "#9 Port Gellhorn Station Garage"
+  },
+  {
+   "id": "garages-10",
+   "couche": "garages",
+   "en": "#10 Thompson Court Garage",
+   "note_en": "Story reward (not purchasable), 2 parking spots",
+   "note_fr": "Offert par l'histoire (non achetable), 2 places",
+   "region": null,
+   "hors_trophee": true,
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-garage-locations/"
+   ],
+   "maj": "2026-11-18",
+   "x": null,
+   "y": null,
+   "fr": "#10 Thompson Court Garage"
+  },
+  {
+   "id": "garages-11",
+   "couche": "garages",
+   "en": "#11 NE 15th Street Garage",
+   "note_en": "Story reward (not purchasable), 2 parking spots",
+   "note_fr": "Offert par l'histoire (non achetable), 2 places",
+   "region": null,
+   "hors_trophee": true,
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-garage-locations/"
+   ],
+   "maj": "2026-11-18",
+   "x": null,
+   "y": null,
+   "fr": "#11 NE 15th Street Garage"
+  },
+  {
+   "id": "garages-12",
+   "couche": "garages",
+   "en": "#12 Pegassi Residences Garage",
+   "note_en": "Story reward (not purchasable), 3 parking spots",
+   "note_fr": "Offert par l'histoire (non achetable), 3 places",
+   "region": null,
+   "hors_trophee": true,
+   "statut": "a_confirmer",
+   "sources": [
+    "https://www.powerpyx.com/gta-6-all-garage-locations/"
+   ],
+   "maj": "2026-11-18",
+   "x": null,
+   "y": null,
+   "fr": "#12 Pegassi Residences Garage"
+  }
+ ]
 }

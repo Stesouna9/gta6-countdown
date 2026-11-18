@@ -11,6 +11,33 @@ LANGS = ["fr", "en", "es", "pt", "de", "it", "ja", "zh", "tw", "ar", "hi", "ru",
 ART_L = {"id": "idn"}
 
 UI = {  # clé : (fr, en)
+ "sl_cat_tr_Screen Filter": ("Filtres d'écran", 'Screen filters'),
+ "sl_cat_tr_Environment": ('Environnement', 'Environment'),
+ "sl_cat_tr_Spawn Vehicle": ('Véhicules', 'Vehicle spawns'),
+ "sl_cat_tr_Combat": ('Combat', 'Combat'),
+ "sl_cat_tr_Player": ('Joueur', 'Player'),
+ "sl_tr_inc": ('pas encore connue', 'not known yet'),
+ "sl_tr_deb": ('Déblocage', 'Unlock'),
+ "sl_tr_code": ('Combinaison', 'Combo'),
+ "sl_tr_a2": ('Oui : un code activé désactive les trophées et succès ainsi que la sauvegarde. Aucun code ne rend invincible.', 'Yes: an active cheat disables trophies, achievements and saving. No code makes you invincible.'),
+ "sl_tr_q2": ('Les triches désactivent-elles les trophées ?', 'Do cheats disable trophies?'),
+ "sl_tr_a": ("Les triches n'existent qu'après la fin de l'histoire : la liste apparaît dans Progression > Triches, et chaque code doit d'abord être débloqué par un défi. Ensuite, sortez le téléphone (croix directionnelle haut), maintenez L1 (LB sur Xbox), appuyez sur R1 (RB), puis entrez la combinaison à la croix directionnelle. Les combinaisons sont identiques sur PS5 et Xbox.", 'Cheats only exist after the story ends: the list appears under Progress > Cheats, and each code must first be unlocked through a challenge. Then pull out the phone (D-pad up), hold L1 (LB on Xbox), press R1 (RB) and enter the combo on the D-pad. Combos are the same on PS5 and Xbox.'),
+ "sl_tr_q": ('Comment activer les codes de triche dans GTA 6 ?', 'How do you enter cheat codes in GTA 6?'),
+ "md_triches": ("Les 61 codes de triche de GTA 6 sur PS5 et Xbox Series : combinaisons, conditions de déblocage, et ce qu'ils désactivent (trophées et sauvegarde).", 'All 61 GTA 6 cheat codes on PS5 and Xbox Series: button combos, unlock requirements, and what they disable (trophies and saving).'),
+ "mt_triches": ('Codes de triche GTA 6 : tous les cheats PS5 et Xbox et comment les débloquer', 'GTA 6 cheat codes: every PS5 and Xbox cheat and how to unlock it'),
+ "sl_t_tr": ('61 codes de triche', '61 cheat codes'),
+ "sl_d_tr": ("Toutes les combinaisons PS5 et Xbox et comment débloquer chaque code.", "Every PS5 and Xbox combo and how to unlock each code."),
+ "nav_triches": ('Codes de triche', 'Cheat codes'),
+ "sl_total": ('Total', 'Total'),
+ "sl_ms_tab": ('Nombre de missions par chapitre', 'Missions per chapter'),
+ "sl_aconf_c": ('à confirmer', 'to be confirmed'),
+ "sl_lucia": ('Lucia seule', 'Lucia only'),
+ "sl_jason": ('Jason seul', 'Jason only'),
+ "sl_manquable": ('manquable', 'missable'),
+ "sl_optionnelles": ('Optionnelles', 'Optional'),
+ "sl_principales": ('Principales', 'Main'),
+ "sl_prologue": ('Prologue', 'Prologue'),
+ "sl_chap": ('Chapitre', 'Chapter'),
  "nav_soluce": ("Soluce", "Walkthrough"),
  "nav_carte": ("Carte interactive", "Interactive map"),
  "nav_trophees": ("Trophées", "Trophies"),
@@ -32,8 +59,7 @@ UI = {  # clé : (fr, en)
  "md_collectibles": ("Tous les collectibles de GTA 6 et combien il y en a : 18 lieux de méditation, 100 lieux WAiNK, 14 courses de drones, 8 garages, 52 zones. Listes cochables.",
                      "Every GTA 6 collectible and how many there are: 18 meditation spots, 100 WAiNK locations, 14 drone races, 8 garages, 52 areas. Checklists."),
  "mt_missions": ("Missions GTA 6 : liste des missions d'histoire et secondaires", "GTA 6 missions: story and side mission list"),
- "md_missions": ("Liste des missions de GTA 6 : missions secondaires d'Andy, Kenton, Billy, Randy, Tyrone, Bret et Cal, Strangers & Freaks, et missions d'histoire masquées (spoilers).",
-                 "GTA 6 mission list: side missions for Andy, Kenton, Billy, Randy, Tyrone, Bret and Cal, Strangers & Freaks, and hidden story missions (spoilers)."),
+ "md_missions": ("Toutes les missions de GTA 6 : 5 chapitres et un prologue, environ 119 missions principales, missions optionnelles, Strangers & Freaks et durée de l'histoire (60 à 80 h).", 'Every GTA 6 mission: 5 chapters plus a prologue, about 119 main missions, optional missions, Strangers & Freaks and story length (60-80 hours).'),
  "sl_hub_t": ("Soluce GTA 6", "GTA 6 walkthrough"),
  "sl_hub_i": ("Les outils pour finir le jeu, mis à jour chaque jour. Uniquement des infos vérifiées : deux sources concordantes ou une source officielle.",
               "Tools to finish the game, updated daily. Verified information only: two matching sources or one official source."),
@@ -44,8 +70,7 @@ UI = {  # clé : (fr, en)
  "sl_t_art": ("Astuces et articles soluce", "Tips and walkthrough articles"),
  "sl_nouveau": ("Nouveau", "New"), "sl_maj": ("Mis à jour chaque jour", "Updated daily"),
  "sl_fil": ("Soluce GTA 6", "GTA 6 walkthrough"),
- "sl_avert_carte": ("Fond de carte : schéma indicatif dessiné par GTAVIFRANCE, pas à l'échelle, en attendant la carte officielle de Rockstar. Un point n'apparaît que vérifié (2 sources concordantes ou source officielle).",
-                    "Map background: indicative diagram drawn by GTAVIFRANCE, not to scale, until Rockstar publishes the official map. A point only appears once verified (two matching sources or an official source)."),
+ "sl_avert_carte": ("Fond de carte : schéma de Leonida dessiné par GTAVIFRANCE, pas à l'échelle. Les points sont placés dans la bonne région de façon approximative : le repère exact est écrit dans chaque fiche (clic sur le point).", 'Base map: Leonida schematic drawn by GTAVIFRANCE, not to scale. Points sit in the right region at an approximate position: the exact landmark is written in each entry (click the point).'),
  "sl_couches": ("Couches", "Layers"), "sl_tout": ("Tout", "All"), "sl_rien": ("Aucune", "None"),
  "sl_cache_faits": ("Masquer les lieux trouvés", "Hide found locations"),
  "sl_carte_h": ("Que trouve-t-on sur la carte de GTA 6 ?", "What is on the GTA 6 map?"),
@@ -75,20 +100,16 @@ UI = {  # clé : (fr, en)
  "sl_err": ("La carte n'a pas pu se charger.", "The map could not be loaded."),
  "sl_attr": ("Schéma GTAVIFRANCE, non officiel", "GTAVIFRANCE diagram, unofficial"),
  "sl_cl_q": ("Où trouver", "Where to find"), "sl_trophee": ("Trophée", "Trophy"),
- "sl_cl_i": ("Le nombre de chaque collectible vient de la liste officielle des trophées. Les emplacements s'ajoutent au fil des vérifications ; cochez ce que vous avez trouvé.",
-             "Each collectible count comes from the official trophy list. Locations are added as they are verified; tick what you have found."),
+ "sl_cl_i": ("Emplacements réels relevés depuis la sortie : 10 lieux de méditation, 14 lieux de courses de drones, 22 banques, 12 garages, 18 séries de cartes. Les totaux sont confirmés par deux guides indépendants ; chaque lieu cite sa source et reste « à confirmer » tant qu'une seconde source ne l'a pas recoupé.", 'Real locations gathered since launch: 10 meditation spots, 14 drone race locations, 22 banks, 12 garages, 18 card sets. Totals are confirmed by two independent guides; each location cites its source and stays "to be confirmed" until a second source matches it.'),
  "sl_ms_side": ("Missions secondaires : les personnages", "Side missions: the characters"),
  "sl_ms_side_p": ("Sept personnages ont un trophée lié à leurs missions. Terminer leur dernière mission débloque le trophée.", "Seven characters have a trophy tied to their missions. Finishing their last mission unlocks it."),
  "sl_ms_sf": ("Strangers & Freaks : 8 séries", "Strangers & Freaks: 8 strands"),
- "sl_ms_sf_p": ("Il faut terminer 8 séries de missions d'inconnus dans tout Leonida (trophée argent « Strangers & Freaks »). La liste détaillée arrive dès qu'elle est vérifiée.",
-                "Finish 8 strands of stranger missions across Leonida (silver trophy \"Strangers & Freaks\"). The detailed list comes as soon as it is verified."),
+ "sl_ms_sf_p": ("Il faut terminer 8 séries précises de missions d'inconnus (trophée argent « Strangers & Freaks ») : celles de Kirk, Kyle, Yago et Pilot Pete en font partie ; Shirley, Billy, Andy, Yasmani, Tyrone et Eddie Acosta ne comptent pas. Toutes restent faisables après l'histoire.", 'You must finish 8 specific Strangers & Freaks questlines (silver trophy): Kirk, Kyle, Yago and Pilot Pete count; Shirley, Billy, Andy, Yasmani, Tyrone and Eddie Acosta do not. All remain available after the story.'),
  "sl_ms_hist": ("Missions d'histoire (spoilers)", "Story missions (spoilers)"),
- "sl_ms_hist_p": ("L'histoire compte au moins 4 chapitres et une mission finale. Les noms ci-dessous viennent de la liste officielle des trophées.",
-                  "The story has at least 4 chapters and a final mission. The names below come from the official trophy list."),
+ "sl_ms_hist_p": ("Liste complète des missions par chapitre (titres affichés à l'écran, sans résumé). Les missions optionnelles marquées « manquable » disparaissent si on avance trop.", 'Full mission list per chapter (on-screen titles, no plot summary). Optional missions marked "missable" disappear if you progress too far.'),
  "sl_ms_voir": ("Afficher les missions d'histoire", "Show story missions"),
  "sl_ms_q": ("Combien de missions dans GTA 6 ?", "How many missions are in GTA 6?"),
- "sl_ms_a": ("Rockstar n'a pas publié le nombre total de missions. Les trophées confirment au moins 4 chapitres, une mission finale, 7 personnages secondaires et 8 séries Strangers & Freaks ; les missions restent jouables en monde libre après l'histoire.",
-             "Rockstar has not published the total number of missions. Trophies confirm at least 4 chapters, a final mission, 7 side characters and 8 Strangers & Freaks strands; optional missions stay available in free roam after the story."),
+ "sl_ms_a": ("L'histoire de GTA 6 compte un prologue et 5 chapitres, soit environ 119 missions principales (25, 18, 31, 34 et 10 selon le chapitre), plus une trentaine de missions optionnelles. Comptez 60 à 80 heures ; Rockstar parle de 80 heures avec une partie du contenu optionnel. Pas de médailles ni de rejouer les missions : faites une sauvegarde manuelle au début et à la fin de chaque chapitre.", "GTA 6's story has a prologue and 5 chapters: about 119 main missions (25, 18, 31, 34 and 10 per chapter), plus around thirty optional missions. Expect 60-80 hours; Rockstar quotes 80 hours with some optional content. There are no mission medals and no mission replay: keep a manual save at the start and end of each chapter."),
  "sl_fait": ("Terminé", "Done"), "sl_sources_t": ("Sources", "Sources"),
  "sl_home_t": ("Soluce GTA 6 : la carte interactive est en ligne", "GTA 6 walkthrough: the interactive map is live"),
  "sl_home_i": ("Carte de Leonida, 55 trophées à cocher, collectibles et missions. Mis à jour chaque jour, sans spoiler.", "Leonida map, 55 trophies to tick off, collectibles and missions. Updated daily, spoiler-free."),
@@ -147,6 +168,42 @@ def main():
         tpn = f'<p><span data-i18n="sl_trophee">Trophée</span> : {e(tp["nom"])}</p>' if tp else ""
         carte = f'<div class="ms-carte"><label><input type="checkbox" data-ms="{f["id"]}"> <span data-i18n="sl_fait">Terminé</span></label><h3 data-i18n="{kf}">{tx(f["fr"]["t"])}</h3>{tpn}</div>'
         (hist if f["type"] == "mission" else side).append(carte)
+    # --- chapitres (V2 18/11 : PowerPyx + GTABase)
+    chap_tab, chap_l = "", ""
+    if G6.get("chapitres"):
+        rows, tot = [], [0, 0]
+        for c in G6["chapitres"]:
+            a = sum(not m["opt"] for m in c["missions"]); b = len(c["missions"]) - a; tot[0] += a; tot[1] += b
+            nom = '<span data-i18n="sl_prologue">Prologue</span>' if c["n"] == 0 else f'<span data-i18n="sl_chap">Chapitre</span> {c["n"]}'
+            rows.append(f"<tr><td>{nom}</td><td>{a}</td><td>{b}</td></tr>")
+            lis_m = []
+            for m in c["missions"]:
+                tags = []
+                if m["opt"]: tags.append('<span class="ms-tag" data-i18n="sl_optionnelles">Optionnelles</span>')
+                if m.get("manquable"): tags.append('<span class="ms-tag ko" data-i18n="sl_manquable">manquable</span>')
+                if m.get("perso"): tags.append(f'<span class="ms-tag" data-i18n="sl_{m["perso"]}">{"Jason seul" if m["perso"] == "jason" else "Lucia seule"}</span>')
+                if m["statut"] != "confirme": tags.append('<span class="ms-tag ko" data-i18n="sl_aconf_c">à confirmer</span>')
+                lis_m.append(f'<li><label><input type="checkbox" data-ms="ch{c["n"]}-{k(m["t"]).lower()}"> {e(m["t"])}</label> {" ".join(tags)}</li>')
+            chap_l += f'<h3>{nom}</h3><ol class="ms-liste">' + "".join(lis_m) + "</ol>"
+        sources = " · ".join(f'<a href="{e(u)}" target="_blank" rel="noopener nofollow">{e(u.split("/")[2].replace("www.", ""))}</a>' for u in G6.get("missions_sources", []))
+        chap_tab = ('<table class="sl-table"><thead><tr><th data-i18n="sl_chap">Chapitre</th><th data-i18n="sl_principales">Principales</th><th data-i18n="sl_optionnelles">Optionnelles</th></tr></thead><tbody>'
+                    + "".join(rows) + f'<tr><th data-i18n="sl_total">Total</th><th>{tot[0]}</th><th>{tot[1]}</th></tr></tbody></table><p class="ct-etat"><span data-i18n="sl_sources_t">Sources</span> : {sources}</p>')
+    # --- triches
+    trh = ""
+    if G6.get("triches"):
+        cats_tr = list(dict.fromkeys(t["cat"] for t in G6["triches"]))
+        for ct in cats_tr:
+            lst = [t for t in G6["triches"] if t["cat"] == ct]
+            trh += f'<h2 id="tr-{k(ct).lower()}"><span data-i18n="sl_cat_tr_{ct}">{tx(UI.get("sl_cat_tr_" + ct, (ct,))[0])}</span> ({len(lst)})</h2><div class="tr-grille">'
+            for t in lst:
+                ke, kd = "tre_" + k(t["id"]), "trd_" + k(t["id"])
+                FR[ke], EN[ke] = t["fr"][:1].upper() + t["fr"][1:], t["en"][:1].upper() + t["en"][1:]
+                FR[kd], EN[kd] = t["deblocage_fr"], t["deblocage_en"]
+                code = (f'<code>{e(t["code"].replace(" > ", " → "))}</code>' + ('' if t["code_statut"] == "confirme" else ' <span class="ms-tag ko" data-i18n="sl_aconf_c">à confirmer</span>')) if t["code"] else '<em data-i18n="sl_tr_inc">pas encore connue</em>'
+                trh += (f'<div class="tr-carte"><h3>{e(t["nom"])}</h3><p data-i18n="{ke}">{tx(FR[ke])}</p>'
+                        f'<p><b data-i18n="sl_tr_code">Combinaison</b> : {code}</p><p><b data-i18n="sl_tr_deb">Déblocage</b> : <span data-i18n="{kd}">{tx(t["deblocage_fr"])}</span></p></div>')
+            trh += "</div>"
+        trh += '<p class="ct-etat"><span data-i18n="sl_sources_t">Sources</span> : ' + " · ".join(f'<a href="{e(u)}" target="_blank" rel="noopener nofollow">{e(u.split("/")[2].replace("www.", ""))}</a>' for u in G6.get("triches_sources", [])) + "</p>"
     # --- articles soluce (titres dans les 17 langues depuis data/articles.json)
     ARTS = {a["id"]: a for a in json.load(open("data/articles.json", encoding="utf-8"))}
     autres = {l: {} for l in LANGS if l not in ("fr", "en")}
@@ -162,7 +219,9 @@ def main():
         arts.append(f'<li><a href="journal/{aid}.html" data-i18n="{ka}">{tx(a["fr"]["t"])}</a></li>')
     # --- pages
     P = {}
-    for p in ["guide", "carte", "trophees", "collectibles", "missions"]: P[p] = open(p + ".html", encoding="utf-8").read()
+    for p in ["guide", "carte", "trophees", "collectibles", "missions", "triches"]: P[p] = open(p + ".html", encoding="utf-8").read()
+    if chap_tab: P["missions"] = sub(sub(P["missions"], "chap", chap_tab), "chapl", chap_l)
+    if trh: P["triches"] = sub(P["triches"], "triches", trh)
     P["trophees"] = sub(sub(P["trophees"], "liste", '<ul class="tp-liste">' + "".join(lis) + "</ul>"), "filtres", filtres)
     P["carte"] = sub(P["carte"], "table", table)
     P["collectibles"] = sub(sub(P["collectibles"], "table", table), "blocs", "".join(blocs))
