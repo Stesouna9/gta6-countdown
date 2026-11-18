@@ -1,8 +1,65 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-18T14:12:58+01:00",
+  "updated_at": "2026-11-18T16:13:03+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-festival-horaires-mana-wynwood-gtavi-2026-11-18",
+      "title": "GTA 6 : horaires du Festival à Miami, portes à 16 h",
+      "summary": "Rockstar Games publie les horaires de Grand Theft Auto VI: The Festival : ouverture des portes à 16 h, et une boutique au Mana Wynwood avec du matériel GTA VI. Les recettes des billets iront à des associations caritatives de Miami.",
+      "url": "https://x.com/RockstarGames/status/2123068976045453338",
+      "platform": "X",
+      "author": "@RockstarGames",
+      "status": "Officiel",
+      "published_at": "2026-11-18T15:01:03.000Z",
+      "checked_at": "2026-11-18T16:13:03+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json : 155 703 vues, 5 060 likes et 433 reposts pour @RockstarGames à 15 h 01 UTC.",
+      "visual": "FESTIVAL MIAMI",
+      "image": "https://pbs.twimg.com/media/HXan-kjW8AAGPgn?format=jpg&name=small",
+      "image_alt": "Annonce des horaires du Festival GTA VI à Miami par Rockstar Games",
+      "image_credit": "@RockstarGames sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Horaires du Festival GTA VI : portes à 16 h, boutique au Mana Wynwood, recettes des billets reversées aux associations de Miami."
+    },
+    {
+      "id": "x-japon-coree-sortie-gtavi-countdown-2026-11-18",
+      "title": "GTA 6 est sorti au Japon et en Corée du Sud, selon deux comptes",
+      "summary": "Deux comptes spécialisés, @GTAVI_Countdown et @GTAlphaintel, annoncent que GTA 6 est jouable au Japon, et @GTAVI_Countdown ajoute la Corée du Sud. Ce sont des relais de comptes fans, sans communiqué de Rockstar relevé dans les données.",
+      "url": "https://x.com/GTAVI_Countdown/status/2123068718595133880",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "2026-11-18T15:00:01.000Z",
+      "checked_at": "2026-11-18T16:13:03+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json : 5 629 vues pour @GTAVI_Countdown à 15 h 00 UTC. Repris par @GTAlphaintel (3 443 vues, 15 h 00 UTC) : « Grand Theft Auto 6 is playable now in Japan ». Aucune presse corroborante relevée dans data/presse.json à cette heure.",
+      "visual": "SORTIE JAPON",
+      "image": "https://pbs.twimg.com/media/HXannuFXoAEtLBh?format=jpg&name=small",
+      "image_alt": "Publication annonçant la sortie de GTA 6 au Japon et en Corée du Sud",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "GTA 6 serait officiellement sorti au Japon et en Corée du Sud. Information relayée par deux comptes, pas encore confirmée par Rockstar."
+    },
+    {
+      "id": "x-jason-selfies-gtasix-2026-11-18",
+      "title": "GTA 6 : Jason prend des selfies et filme des vidéos dans le jeu",
+      "summary": "@gtasix_ publie une courte séquence où Jason prend des selfies et enregistre des vidéos dans GTA 6. La publication est reprise par son seul compte dans les données relevées ; c est un extrait de gameplay non confirmé par Rockstar.",
+      "url": "https://x.com/gtasix_/status/2123042288037224857",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rumeur",
+      "published_at": "2026-11-18T13:15:00.000Z",
+      "checked_at": "2026-11-18T16:13:03+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json : 215 681 vues, 10 555 likes et 1 172 bookmarks pour @gtasix_ à 13 h 15 UTC. Un seul compte relevé, aucune presse corroborante dans data/presse.json.",
+      "visual": "JASON SELFIES",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2123035210895736832/img/R8jVSqa4EhvUuUZc.jpg",
+      "image_alt": "Image extraite de la publication de @gtasix_ montrant Jason dans GTA 6",
+      "image_credit": "@gtasix_ sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Jason prend des selfies et enregistre des vidéos dans GTA 6, d après une séquence publiée par @gtasix_. Extrait non confirmé par Rockstar."
+    },
     {
       "id": "x-metacritic-99-gta6-france1-hubfr-2026-11-18",
       "title": "GTA 6 : 99/100 sur Metacritic, le meilleur score de Rockstar",
@@ -4925,6 +4982,11 @@
       "at": "2026-11-18T14:12:58+01:00",
       "label": "Passage Claude Haiku (Matière X, 18/11, relevé 13 h 05 UTC)",
       "summary": "3 sujets ajoutés depuis x_alertes.json : Metacritic 99 (2 comptes, presse corroborante : IGN France, Mashable, Ecran Large), première conduite @gtasix_ (418 963 vues, source unique, Rumeur), montage « looks like GTA 5 » (47 200 vues, création de fan). Aucun post X ni message."
+    },
+    {
+      "at": "2026-11-18T16:13:03+01:00",
+      "label": "Passage Claude Haiku (Matière X, 18/11, relevé 15 h 07 UTC)",
+      "summary": "3 sujets ajoutés depuis x_alertes.json : horaires du Festival Miami (Officiel, 155 703 vues), sortie au Japon et en Corée (Rapporté, 2 comptes), selfies de Jason (Rumeur, 215 681 vues, compte unique). Aucun post X ni message."
     }
   ],
   "coverage": {
