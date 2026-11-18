@@ -1,8 +1,65 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-18T19:15:00+01:00",
+  "updated_at": "2026-11-18T22:13:00+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-lucia-douche-jason-gtasix-2026-11-18",
+      "title": "GTA 6 : Lucia demande à Jason de prendre une douche, selon @gtasix_",
+      "summary": "@gtasix_ publie une courte séquence vidéo dans laquelle Lucia dit à Jason qu'il doit prendre une douche. Information d'un seul compte fan dans les données relevées, sans communiqué de Rockstar ni confirmation de presse.",
+      "url": "https://x.com/gtasix_/status/2123142070743249164",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rumeur",
+      "published_at": "2026-11-18T19:51:30.000Z",
+      "checked_at": "2026-11-18T22:13:00+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json : 31 711 vues pour @gtasix_ à 19 h 51 UTC (relevé du 18/11 à 20 h 17 UTC), 265 j'aime, 20 reposts, 77 signets. Aucun autre compte relevé sur ce sujet ; aucune presse corroborante dans data/presse.json. Post non ouvert (pas de navigateur).",
+      "visual": "LUCIA DOUCHE",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2123142026073886720/img/x4wfhF0_dP9jVRs0.jpg",
+      "image_alt": "Miniature de la vidéo publiée par @gtasix_ montrant Lucia et Jason",
+      "image_credit": "@gtasix_ sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Séquence publiée par @gtasix_ : Lucia dit à Jason qu'il doit prendre une douche. Information d'un seul compte, sans confirmation de Rockstar ni de la presse."
+    },
+    {
+      "id": "x-sortie-inde-indonesie-thailande-gtavi-countdown-2026-11-18",
+      "title": "GTA 6 serait sorti en Inde, en Indonésie et en Thaïlande, selon @GTAVI_Countdown",
+      "summary": "@GTAVI_Countdown annonce que GTA 6 est officiellement sorti en Inde, en Indonésie et en Thaïlande. Même compte que la sortie annoncée à Hong Kong, Taïwan, Malaisie et Singapour ; aucun communiqué de Rockstar ni confirmation de presse dans les données relevées.",
+      "url": "https://x.com/GTAVI_Countdown/status/2123121578858651694",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-18T18:30:04.000Z",
+      "checked_at": "2026-11-18T22:13:00+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json : 22 942 vues pour @GTAVI_Countdown à 18 h 30 UTC (relevé du 18/11 à 20 h 17 UTC), 1 026 j'aime, 41 reposts, 29 réponses. Aucun autre compte relevé sur ce sujet ; aucune presse corroborante dans data/presse.json.",
+      "visual": "SORTIE INDE",
+      "image": "https://pbs.twimg.com/media/HXbXk_vXYAEs_vh?format=jpg&name=small",
+      "image_alt": "Publication annonçant la sortie de GTA 6 en Inde, en Indonésie et en Thaïlande",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "GTA 6 serait officiellement sorti en Inde, en Indonésie et en Thaïlande. Information d'un seul compte fan, pas encore confirmée par Rockstar."
+    },
+    {
+      "id": "x-dylan-rourke-jason-confirme-gtasix-2026-11-18",
+      "title": "GTA 6 : Dylan Rourke confirmé dans le rôle de Jason, selon @gtasix_",
+      "summary": "@gtasix_ annonce que Dylan Rourke joue Jason Duval dans GTA 6, en citant IGN Pays-Bas. @GTAVI_Countdown relaie la même information. Le nom figurait déjà sur la liste de doublage du 17 novembre, sans mention de confirmation ; cette fois, deux comptes annoncent une confirmation.",
+      "url": "https://x.com/gtasix_/status/2123119561608171969",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rapporté",
+      "published_at": "2026-11-18T18:22:03.000Z",
+      "checked_at": "2026-11-18T22:13:00+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json : 108 587 vues pour @gtasix_ à 18 h 22 UTC (6 173 j'aime, 344 reposts, 511 signets) ; 25 432 vues pour @GTAVI_Countdown à 18 h 46 UTC (« via IGN NL », 1 548 j'aime). Le lien IGN Pays-Bas cité n'a pas été ouvert (pas de navigateur) ; aucune presse dans data/presse.json.",
+      "visual": "ACTEUR JASON",
+      "image": "https://pbs.twimg.com/media/HXbV_DrWwAA3mU1?format=jpg&name=small",
+      "image_alt": "Publication annonçant que Dylan Rourke joue Jason dans GTA 6",
+      "image_credit": "@gtasix_ sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Dylan Rourke serait l'acteur de Jason Duval. Information relayée par deux comptes fans et attribuée à IGN Pays-Bas, non confirmée par Rockstar."
+    },
     {
       "id": "x-sortie-hong-kong-taiwan-malaisie-singapour-gtavi-countdown-2026-11-18",
       "title": "GTA 6 est sorti à Hong Kong, Taïwan, Malaisie et Singapour, selon @GTAVI_Countdown",
@@ -5054,6 +5111,11 @@
       "at": "2026-11-18T19:15:00+01:00",
       "label": "Passage Claude Haiku (Matière X, 18/11, relevé 18 h 12 UTC)",
       "summary": "1 sujet ajouté depuis x_alertes.json : sortie à Hong Kong, Taïwan, Malaisie et Singapour (Rumeur, 23 184 vues, compte unique ; seuil de 20 000 vues atteint). Écartés : selfies, chat et sortie PlayStation déjà publiés ; NPC poursuivant Jason (17 274 vues, sous le seuil) ; carte du Collector (10 684 vues) ; reste sous le seuil. Aucun post X ni message."
+    },
+    {
+      "at": "2026-11-18T22:13:00+01:00",
+      "label": "Passage Claude Haiku (Matière X, 18/11, relevé 20 h 17 UTC)",
+      "summary": "3 sujets ajoutés depuis x_alertes.json : Lucia/douche (@gtasix_, 31 711 vues, Rumeur), sortie Inde/Indonésie/Thaïlande (@GTAVI_Countdown, 22 942 vues, Rumeur), Dylan Rourke confirmé Jason (@gtasix_ 108 587 vues + @GTAVI_Countdown 25 432 vues, Rapporté). Écarté : Manni Perez/Lucia déjà couvert par la liste de casting du 17/11 ; sous 20 000 vues : fighter jet, makeup Lucia, Kai/Miami, H-3/H-4."
     }
   ],
   "coverage": {
