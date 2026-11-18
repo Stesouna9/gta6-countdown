@@ -37,13 +37,13 @@
   <link rel="alternate" type="application/rss+xml" title="GTA 6" href="https://gtavifrance.com/feed.xml">
   <script type="application/ld+json" data-gen>{"@context": "https://schema.org", "@graph": [{"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "GTAVIFRANCE", "item": "https://gtavifrance.com/"}, {"@type": "ListItem", "position": 2, "name": "Carte interactive GTA 6 : tous les lieux et collectibles de Leonida", "item": "https://gtavifrance.com/carte.html"}]}, {"@type": "WebPage", "name": "Carte interactive GTA 6 : tous les lieux et collectibles de Leonida", "description": "Carte interactive de GTA 6 : lieux de méditation, courses de drones, stands de tir, garages, banques, lieux WAiNK et zones de Leonida, à cocher au fil de la partie.", "inLanguage": "fr", "url": "https://gtavifrance.com/carte.html", "isPartOf": {"@type": "CollectionPage", "name": "Soluce GTA 6 : guide complet, carte interactive, trophées et missions", "url": "https://gtavifrance.com/guide.html"}, "about": {"@type": "VideoGame", "name": "Grand Theft Auto VI"}, "dateModified": "2026-11-18"}]}</script>
   <!--/meta-->
-  <link rel="stylesheet" href="assets/style.css?v=3b591c4b"><link rel="stylesheet" href="assets/soluce.css?v=3b591c4b"><script src="assets/lang/fr.js?v=3b591c4b"></script><script src="assets/i18n.js?v=3b591c4b"></script>
+  <link rel="stylesheet" href="assets/style.css?v=d4012fd5"><link rel="stylesheet" href="assets/soluce.css?v=d4012fd5"><script src="assets/lang/fr.js?v=d4012fd5"></script><script src="assets/i18n.js?v=d4012fd5"></script>
 </head>
 <body data-sl="carte">
   <header class="sl-tete"><div class="wrap">
     <p class="sl-fil"><a href="guide.html" data-i18n="sl_fil">Soluce GTA 6</a> /</p>
     <h1 data-i18n="mt_carte">Carte interactive GTA 6 : tous les lieux et collectibles de Leonida</h1>
-    <p data-i18n="sl_avert_carte">Fond de carte : schéma de Leonida dessiné par GTAVIFRANCE, pas à l'échelle. Les points sont placés dans la bonne région de façon approximative : le repère exact est écrit dans chaque fiche (clic sur le point).</p>
+    <p data-i18n="sl_avert_carte">Aucun emplacement approximatif : la carte s'affiche à partir de minuit (sortie en France) sur le fond officiel de Rockstar, et chaque lieu n'y est placé que s'il est vérifié par deux captures de joueurs. En attendant, la liste ci-dessous donne tous les lieux connus, avec leur source.</p>
   </div></header>
   <section class="sl-sec" style="padding-top:20px"><div class="wrap">
     <div class="ct-zone">
@@ -57,6 +57,18 @@
         <p class="ct-etat" data-i18n="sl_local">Votre progression reste sur cet appareil (navigateur), sans compte.</p>
       </aside>
     </div>
+  </div></section>
+  <section class="sl-sec" id="ct-liste"><div class="wrap">
+    <h2 data-i18n="sl_liste_h">Tous les lieux connus de GTA 6, par région</h2>
+    <p data-i18n="sl_liste_p">Chaque lieu est relevé dans un guide publié depuis la sortie, avec sa source. « Confirmé » : deux sources indépendantes le nomment. Cochez ceux que vous avez trouvés.</p>
+    <div class="sl-barre lf-barre">
+      <select id="lf-type" aria-label="Type"></select>
+      <select id="lf-reg" aria-label="Région"></select>
+      <select id="lf-stat" aria-label="Statut"></select>
+      <input type="search" id="lf-q" placeholder="Rechercher un lieu" aria-label="Rechercher">
+      <small id="lf-nb" class="ct-etat"></small>
+    </div>
+    <div id="ct-liste-z"></div>
   </div></section>
   <section class="sl-sec"><div class="wrap">
     <h2 data-i18n="sl_carte_h">Que trouve-t-on sur la carte de GTA 6 ?</h2>
@@ -76,7 +88,7 @@
     </div>
   </div></section>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" crossorigin="anonymous"></script>
-  <script src="assets/soluce.js?v=3b591c4b"></script>
-  <script src="assets/site.js?v=3b591c4b"></script>
+  <script src="assets/soluce.js?v=d4012fd5"></script>
+  <script src="assets/site.js?v=d4012fd5"></script>
 </body>
 </html>

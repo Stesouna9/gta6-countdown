@@ -70,7 +70,15 @@ UI = {  # clé : (fr, en)
  "sl_t_art": ("Astuces et articles soluce", "Tips and walkthrough articles"),
  "sl_nouveau": ("Nouveau", "New"), "sl_maj": ("Mis à jour chaque jour", "Updated daily"),
  "sl_fil": ("Soluce GTA 6", "GTA 6 walkthrough"),
- "sl_avert_carte": ("Fond de carte : schéma de Leonida dessiné par GTAVIFRANCE, pas à l'échelle. Les points sont placés dans la bonne région de façon approximative : le repère exact est écrit dans chaque fiche (clic sur le point).", 'Base map: Leonida schematic drawn by GTAVIFRANCE, not to scale. Points sit in the right region at an approximate position: the exact landmark is written in each entry (click the point).'),
+ "sl_avert_carte": ("Aucun emplacement approximatif : la carte s'affiche à partir de minuit (sortie en France) sur le fond officiel de Rockstar, et chaque lieu n'y est placé que s'il est vérifié par deux captures de joueurs. En attendant, la liste ci-dessous donne tous les lieux connus, avec leur source.", "No approximate locations: the map goes live from midnight (French launch) on Rockstar's official map, and a place is only pinned once two player captures verify it. Meanwhile, the list below gives every known location with its source."),
+ "sl_attente_t": ("Carte réelle à partir de minuit, mise à jour en direct", "Real map from midnight, updated live"),
+ "sl_attente_p": ("Nous n'affichons aucun emplacement approximatif. Dès que Rockstar publie la carte officielle de Leonida, elle devient le fond de cette page et chaque lieu y est placé à partir de captures de joueurs vérifiées (deux sources). En attendant, tous les lieux connus sont listés ci-dessous.", "We don't show approximate locations. As soon as Rockstar publishes the official Leonida map, it becomes this page's background and each place is pinned from verified player captures (two sources). Meanwhile, every known location is listed below."),
+ "sl_attente_l": ("Voir la liste des lieux", "See the list of locations"),
+ "sl_liste_h": ("Tous les lieux connus de GTA 6, par région", "Every known GTA 6 location, by region"),
+ "sl_liste_p": ("Chaque lieu est relevé dans un guide publié depuis la sortie, avec sa source. « Confirmé » : deux sources indépendantes le nomment. Cochez ceux que vous avez trouvés.", "Each place comes from a guide published since launch, with its source. \"Confirmed\": two independent sources name it. Tick the ones you've found."),
+ "sl_f_types": ("Tous les types", "All types"), "sl_f_regs": ("Toutes les régions", "All regions"), "sl_f_noreg": ("Région non précisée", "Region not specified"),
+ "sl_f_stats": ("Tous les statuts", "All statuses"), "sl_rech": ("Rechercher un lieu", "Search a location"), "sl_f_vide": ("Aucun lieu ne correspond à ces filtres.", "No location matches these filters."),
+ "sl_trouve": ("Trouvé", "Found"), "sl_attr_off": ("Carte officielle Rockstar Games", "Official Rockstar Games map"),
  "sl_couches": ("Couches", "Layers"), "sl_tout": ("Tout", "All"), "sl_rien": ("Aucune", "None"),
  "sl_cache_faits": ("Masquer les lieux trouvés", "Hide found locations"),
  "sl_carte_h": ("Que trouve-t-on sur la carte de GTA 6 ?", "What is on the GTA 6 map?"),
@@ -150,8 +158,8 @@ def main():
     noms = {c["id"]: (c.get("fr", c["id"]).lower(), c.get("en", c["id"])) for c in CA["couches"]}
     lst = [(n, noms[c]) for c, n in nb.items() if c in noms]
     if lst:
-        FR["sl_cl_i"] = "Emplacements réels relevés depuis la sortie : " + ", ".join(f"{n} {f}" for n, (f, _) in lst) + ". Les totaux sont confirmés par deux guides indépendants ; un lieu reste « à confirmer » tant qu'une seconde source ne le nomme pas, et sa position sur la carte est approximative."
-        EN["sl_cl_i"] = "Real locations gathered since launch: " + ", ".join(f"{n} {en_.lower()}" for n, (_, en_) in lst) + ". Totals are confirmed by two independent guides; a location stays \"to be confirmed\" until a second source names it, and its map position is approximate."
+        FR["sl_cl_i"] = "Emplacements réels relevés depuis la sortie : " + ", ".join(f"{n} {f}" for n, (f, _) in lst) + ". Les totaux sont confirmés par deux guides indépendants ; un lieu reste « à confirmer » tant qu'une seconde source ne le nomme pas. Il n'apparaît sur la carte qu'une fois situé sur la carte officielle par deux captures de joueurs."
+        EN["sl_cl_i"] = "Real locations gathered since launch: " + ", ".join(f"{n} {en_.lower()}" for n, (_, en_) in lst) + ". Totals are confirmed by two independent guides; a location stays \"to be confirmed\" until a second source names it. It only appears on the map once two player captures pin it on the official map."
     # --- trophées
     cats = ["collectibles", "activites", "braquages", "personnages", "secrets", "completion", "divers", "histoire"]
     lis = []

@@ -70,21 +70,33 @@
 
   function carte() {
     var el = document.getElementById("carte");
+    /* la barre flottante « Suivre GTA 6 » ne doit jamais recouvrir la carte */
+    if (el) {
+      var zc = el.closest(".ct-zone") || el;
+      var masque = function () { var sv = document.getElementById("suivre"); if (!sv) return; var a = zc.getBoundingClientRect(); sv.classList.toggle("ct-masque", a.bottom > 0 && a.top < innerHeight - 10); };
+      addEventListener("scroll", masque, { passive: true }); addEventListener("resize", masque); setTimeout(masque, 600);
+    }
     if (!el || !window.L) { if (el) el.innerHTML = '<p class="cl-vide" style="padding:20px">' + esc(tr("sl_err", "La carte n'a pas pu se charger.")) + "</p>"; return; }
     fetch("data/carte.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).then(function (D) {
       var C = {}; D.couches.forEach(function (c) { C[c.id] = c; }); D.regions.forEach(function (g) { RN[g.id] = g.nom; });
+      liste(D, C);
+      /* pas de faux : la carte ne s'affiche qu'avec un fond officiel Rockstar et des points réellement situés */
+      var situes = D.points.filter(function (p) { return p.x != null && p.y != null; });
+      if (!D.fond_officiel || !situes.length) {
+        var z = el.closest(".ct-zone"); if (z) z.classList.add("ct-seule");
+        var pa = document.querySelector(".ct-panneau"); if (pa) pa.hidden = true;
+        function att() { el.innerHTML = '<div class="ct-attente"><b>' + esc(tr("sl_attente_t", "Carte réelle à partir de minuit, mise à jour en direct")) + "</b><p>" + esc(tr("sl_attente_p", "Nous n'affichons aucun emplacement approximatif. Dès que Rockstar publie la carte officielle de Leonida, elle devient le fond de cette page et chaque lieu y est placé à partir de captures de joueurs vérifiées (deux sources). En attendant, tous les lieux connus sont listés ci-dessous.")) + '</p><a href="#ct-liste">' + esc(tr("sl_attente_l", "Voir la liste des lieux")) + "</a></div>"; }
+        att(); document.addEventListener("langchange", att);
+        return;
+      }
+      D.fond = D.fond_officiel;
       var H = 1000, map = L.map(el, { crs: L.CRS.Simple, minZoom: -1.2, maxZoom: 3, zoomSnap: 0.25, attributionControl: true, maxBoundsViscosity: .8 });
       var B = [[0, 0], [H, H]];
       L.imageOverlay(R + D.fond, B, { alt: "Leonida" }).addTo(map);
       map.setMaxBounds([[-150, -150], [H + 150, H + 150]]);
       map.fitBounds(B);
-      map.attributionControl.setPrefix(false).addAttribution(esc(tr("sl_attr", "Schéma GTAVIFRANCE, non officiel")));
+      map.attributionControl.setPrefix(false).addAttribution(esc(tr("sl_attr_off", "Carte officielle Rockstar Games")));
       function ll(x, y) { return [H - y, x]; }
-      D.regions.forEach(function (g) {
-        L.polygon(g.poly.map(function (p) { return ll(p[0], p[1]); }), { color: "#f2e8d5", weight: 1, opacity: .35, dashArray: "4 6", fillColor: "#ff3b7a", fillOpacity: .04 }).addTo(map)
-          .bindTooltip(g.nom, { sticky: true });
-        L.marker(ll(g.centre[0], g.centre[1]), { icon: L.divIcon({ className: "ct-region", html: esc(g.nom), iconSize: null }), interactive: false, keyboard: false }).addTo(map);
-      });
       var groupes = {}, marqueurs = {}, cacheFaits = !!S.o.cfaits;
       D.couches.forEach(function (c) { groupes[c.id] = L.layerGroup().addTo(map); });
       function dessine() {
@@ -127,6 +139,47 @@
       if (hp && marqueurs[hp]) { map.setView(marqueurs[hp].getLatLng(), 1.5); marqueurs[hp].openPopup(); }
       document.addEventListener("langchange", function () { panneau(); });
     }).catch(function () { el.innerHTML = '<p class="cl-vide" style="padding:20px">' + esc(tr("sl_err", "La carte n'a pas pu se charger.")) + "</p>"; });
+  }
+
+  /* ---------- CARTE : liste des lieux connus, filtrable (type, région, statut, recherche) ---------- */
+  function liste(D, C) {
+    var z = document.getElementById("ct-liste-z"); if (!z) return;
+    var fT = document.getElementById("lf-type"), fR = document.getElementById("lf-reg"), fS = document.getElementById("lf-stat"), fQ = document.getElementById("lf-q"), nb = document.getElementById("lf-nb");
+    var h = location.hash.slice(1).split("="); if (h[0] === "c") S.o.lft = decodeURIComponent(h[1] || "");
+    function opts() {
+      var types = D.couches.filter(function (c) { return D.points.some(function (p) { return p.couche === c.id; }); });
+      fT.innerHTML = '<option value="">' + esc(tr("sl_f_types", "Tous les types")) + "</option>" + types.map(function (c) { return '<option value="' + c.id + '">' + esc(txt(c)) + "</option>"; }).join("");
+      fR.innerHTML = '<option value="">' + esc(tr("sl_f_regs", "Toutes les régions")) + "</option>" + D.regions.map(function (g) { return '<option value="' + g.id + '">' + esc(g.nom) + "</option>"; }).join("") + '<option value="-">' + esc(tr("sl_f_noreg", "Région non précisée")) + "</option>";
+      fS.innerHTML = '<option value="">' + esc(tr("sl_f_stats", "Tous les statuts")) + '</option><option value="confirme">' + esc(tr("sl_conf", "Confirmé")) + '</option><option value="a_confirmer">' + esc(tr("sl_aconf", "À confirmer")) + "</option>";
+      fQ.placeholder = tr("sl_rech", "Rechercher un lieu");
+      fT.value = S.o.lft || ""; fR.value = S.o.lfr || ""; fS.value = S.o.lfs || "";
+    }
+    function dom(u) { try { return new URL(u).hostname.replace("www.", ""); } catch (e) { return u; } }
+    function rend() {
+      var t = fT.value, r = fR.value, st = fS.value, q = (fQ.value || "").toLowerCase().trim();
+      var ordre = {}; D.regions.forEach(function (g, i) { ordre[g.id] = i; });
+      var pts = D.points.filter(function (p) {
+        return (!t || p.couche === t) && (!r || (r === "-" ? !p.region : p.region === r)) && (!st || p.statut === st) && (!q || ((txt(p) || "") + " " + (txt(p, "note_") || "")).toLowerCase().indexOf(q) >= 0);
+      }).sort(function (a, b) { return (ordre[a.region] == null ? 99 : ordre[a.region]) - (ordre[b.region] == null ? 99 : ordre[b.region]) || a.couche.localeCompare(b.couche) || a.id.localeCompare(b.id); });
+      nb.textContent = pts.length + " / " + D.points.length;
+      var html = "", reg = null;
+      pts.forEach(function (p) {
+        var rk = p.region || "-";
+        if (rk !== reg) { if (reg !== null) html += "</ul>"; reg = rk; html += "<h3>" + esc(p.region ? (RN[p.region] || p.region) : tr("sl_f_noreg", "Région non précisée")) + '</h3><ul class="lf-liste">'; }
+        var c = C[p.couche] || {};
+        html += '<li class="lf-item' + (S.p[p.id] ? " fait" : "") + '"><input type="checkbox" data-pt="' + esc(p.id) + '"' + (S.p[p.id] ? " checked" : "") + ' aria-label="' + esc(tr("sl_trouve", "Trouvé")) + '">' +
+          (c.icone ? '<img src="' + R + c.icone + '" alt="" width="26" height="26">' : "<span></span>") +
+          "<div><b>" + esc(txt(p) || p.id) + '</b> <span class="ms-tag">' + esc(txt(c)) + '</span> <span class="ms-tag' + (p.statut === "confirme" ? "" : " ko") + '">' + esc(p.statut === "confirme" ? tr("sl_conf", "Confirmé") : tr("sl_aconf", "À confirmer")) + "</span>" +
+          (txt(p, "note_") ? "<p>" + esc(txt(p, "note_")) + "</p>" : "") +
+          '<small>' + esc(tr("sl_source", "Source")) + " : " + (p.sources || []).map(function (u) { return '<a href="' + esc(u) + '" target="_blank" rel="noopener nofollow">' + esc(dom(u)) + "</a>"; }).join(" · ") + "</small></div></li>";
+      });
+      z.innerHTML = pts.length ? html + "</ul>" : '<p class="cl-vide">' + esc(tr("sl_f_vide", "Aucun lieu ne correspond à ces filtres.")) + "</p>";
+    }
+    opts(); rend();
+    [fT, fR, fS].forEach(function (f) { f.addEventListener("change", function () { S.o.lft = fT.value; S.o.lfr = fR.value; S.o.lfs = fS.value; sauve(); rend(); }); });
+    fQ.addEventListener("input", rend);
+    z.addEventListener("change", function (ev) { var i = ev.target; if (!i.getAttribute || !i.getAttribute("data-pt")) return; var id = i.getAttribute("data-pt"); if (i.checked) S.p[id] = 1; else delete S.p[id]; sauve(); rend(); });
+    document.addEventListener("langchange", function () { opts(); rend(); });
   }
 
   /* ---------- COLLECTIBLES : listes par couche, cochables ---------- */

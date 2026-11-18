@@ -252,7 +252,8 @@ def main():
         pts += lst
     # points ajoutés à la main (autres sources) : gardés
     gardes = [p for p in CA.get("points", []) if p.get("couche") not in nouv]
-    place(pts, CA)
+    # pas de position inventée : un point n'a x/y que s'il est situé sur la carte officielle (captures vérifiées, 2 sources)
+    for p in pts: p["x"] = p["y"] = None; p.pop("approx", None)
     traduit([p["note_en"] for p in pts if "note_fr" not in p], cache)
     for p in pts:
         p["fr"] = p["en"]
