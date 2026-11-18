@@ -1,8 +1,65 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-18T22:13:00+01:00",
+  "updated_at": "2026-11-19T00:13:00+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-miami-heat-live-action-trailer-gtavi-countdown-2026-11-18",
+      "title": "GTA 6 : un nouveau trailer live-action réalisé avec le Miami Heat, selon @GTAVI_Countdown",
+      "summary": "@GTAVI_Countdown annonce un nouveau trailer live-action de GTA 6, réalisé par Rockstar en collaboration avec le Miami Heat. Une vidéo distincte de celles du 6 et du 16 novembre.",
+      "url": "https://x.com/GTAVI_Countdown/status/2123168505021509935",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-18T21:36:32.000Z",
+      "checked_at": "2026-11-19T00:13:00+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json : 26 460 vues pour @GTAVI_Countdown à 21 h 36 UTC (relevé du 18/11 à 23 h 02 UTC), 958 j'aime, 84 reprises, 131 marque-pages. Aucune reprise de presse trouvée dans data/presse.json ; information d'un seul compte fan.",
+      "visual": "TRAILER LIVE-ACTION",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2123168122358112256/img/DUfKYUiL6xFRFNz0.jpg",
+      "image_alt": "Image de la vidéo publiée par @GTAVI_Countdown annonçant un trailer live-action GTA 6 avec le Miami Heat",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Un nouveau trailer live-action de GTA 6, réalisé avec le Miami Heat, serait en ligne. Information d'un seul compte fan, pas encore confirmée par Rockstar."
+    },
+    {
+      "id": "x-ragebait-pnj-gtasix-2026-11-18",
+      "title": "GTA 6 : une vidéo montre des PNJ qu'on peut provoquer, selon @gtasix_",
+      "summary": "@gtasix_ publie une vidéo présentée comme une séquence de GTA 6 où l'on provoque des PNJ (« ragebaiting »). Le compte ne montre pas de source officielle.",
+      "url": "https://x.com/gtasix_/status/2123165165097284005",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rumeur",
+      "published_at": "2026-11-18T21:23:16.000Z",
+      "checked_at": "2026-11-19T00:13:00+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json : 45 127 vues pour @gtasix_ à 21 h 23 UTC (relevé du 18/11 à 23 h 02 UTC), 1 176 j'aime, 63 reprises, 197 marque-pages. Aucune reprise de presse trouvée dans data/presse.json ; information d'un seul compte fan.",
+      "visual": "PNJ PROVOQUÉS",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2123165052215738368/img/wZCUNj3XFH15aibS.jpg",
+      "image_alt": "Image de la vidéo publiée par @gtasix_ sur les PNJ provoqués dans GTA 6",
+      "image_credit": "@gtasix_ sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Une vidéo de @gtasix_ montre des PNJ provoqués dans GTA 6. Information d'un seul compte, non confirmée par Rockstar."
+    },
+    {
+      "id": "x-sortie-arabie-turquie-emirats-gtavi-countdown-2026-11-18",
+      "title": "GTA 6 serait sorti en Arabie saoudite, en Turquie et aux Émirats, selon @GTAVI_Countdown",
+      "summary": "@GTAVI_Countdown annonce que GTA 6 est officiellement sorti en Arabie saoudite, en Turquie et aux Émirats arabes unis. Même compte que les autres annonces de sortie par zone de la soirée.",
+      "url": "https://x.com/GTAVI_Countdown/status/2123159383786025450",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-18T21:00:18.000Z",
+      "checked_at": "2026-11-19T00:13:00+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json : 21 700 vues pour @GTAVI_Countdown à 21 h 00 UTC (relevé du 18/11 à 23 h 02 UTC), 623 j'aime, 35 reprises, 18 marque-pages. Aucune reprise de presse trouvée dans data/presse.json ; information d'un seul compte fan.",
+      "visual": "SORTIE ARABIE",
+      "image": "https://pbs.twimg.com/media/HXb6EIOW4AA1Yyu?format=jpg&name=small",
+      "image_alt": "Publication annonçant la sortie de GTA 6 en Arabie saoudite, en Turquie et aux Émirats",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "GTA 6 serait officiellement sorti en Arabie saoudite, en Turquie et aux Émirats. Information d'un seul compte fan, pas encore confirmée par Rockstar."
+    },
     {
       "id": "x-lucia-douche-jason-gtasix-2026-11-18",
       "title": "GTA 6 : Lucia demande à Jason de prendre une douche, selon @gtasix_",
@@ -5116,6 +5173,11 @@
       "at": "2026-11-18T22:13:00+01:00",
       "label": "Passage Claude Haiku (Matière X, 18/11, relevé 20 h 17 UTC)",
       "summary": "3 sujets ajoutés depuis x_alertes.json : Lucia/douche (@gtasix_, 31 711 vues, Rumeur), sortie Inde/Indonésie/Thaïlande (@GTAVI_Countdown, 22 942 vues, Rumeur), Dylan Rourke confirmé Jason (@gtasix_ 108 587 vues + @GTAVI_Countdown 25 432 vues, Rapporté). Écarté : Manni Perez/Lucia déjà couvert par la liste de casting du 17/11 ; sous 20 000 vues : fighter jet, makeup Lucia, Kai/Miami, H-3/H-4."
+    },
+    {
+      "at": "2026-11-19T00:13:00+01:00",
+      "label": "Passage Claude Haiku (Matière X, 18/11, relevé 23 h 02 UTC)",
+      "summary": "3 sujets ajoutés depuis x_alertes.json : trailer live-action avec le Miami Heat (@GTAVI_Countdown, 26 460 vues, Rumeur), PNJ provoqués (@gtasix_, 45 127 vues, Rumeur), sortie Arabie saoudite/Turquie/Émirats (@GTAVI_Countdown, 21 700 vues, Rumeur). Écarté : sous 20 000 vues (swingset 22 826 vues en tête non retenu faute de place, Bigfoot, véhicules, furry) ; posts 18/11 23 h sur la sortie France : sous 20 000 vues et sans reprise."
     }
   ],
   "coverage": {
