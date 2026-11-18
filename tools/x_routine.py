@@ -201,7 +201,7 @@ def main():
             jourj = "2026-11-18" <= str(h.date()) <= "2026-11-20"   # 18/11 Gabriel : « jour J, faire le max » : 24 h/24, quota 40
             quota = 40 if jourj else 12
             if not (7 <= h.hour < 24 or jourj or "--urgence" in sys.argv) or (faits >= quota and "--garde" not in sys.argv): print(f"chaud : hors créneau ou quota ({faits}/{quota})"); return   # 28/10 Gabriel : « au taquet » ; --urgence : très grosse info la nuit (urgence.py)
-            seuil = (h - datetime.timedelta(days=7 if "--garde" in sys.argv else 0, hours=3)).isoformat()[:16]   # 04/11 Gabriel : jamais plus de 6-7 h sans post (--garde, voir x_chrome.py) : dernier article pas encore posté, même plus ancien
+            seuil = (h - datetime.timedelta(days=7 if "--garde" in sys.argv else 0, hours=12 if jourj else 3)).isoformat()[:16]   # 04/11 Gabriel : jamais plus de 6-7 h sans post (--garde, voir x_chrome.py) : dernier article pas encore posté, même plus ancien
             cands = [a for a in arts if "cyberleek" not in a["id"] and a["id"] not in etat["postes"] and a.get("date", "")[:16] >= seuil
                      and isinstance(a.get("fr"), dict) and image_article(a)]
             # 10/11 (RAPPORT-TRAFIC.md) : l'info pratique fait 90 % du trafic X (Leclerc 1 754 visiteurs, spoilers 492, région PS5 392) : elle passe devant
