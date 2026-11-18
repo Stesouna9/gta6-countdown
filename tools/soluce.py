@@ -28,7 +28,7 @@ UI = {  # clé : (fr, en)
  "sl_t_tr": ('61 codes de triche', '61 cheat codes'),
  "sl_d_tr": ("Toutes les combinaisons PS5 et Xbox et comment débloquer chaque code.", "Every PS5 and Xbox combo and how to unlock each code."),
  "nav_triches": ('Codes de triche', 'Cheat codes'),
- "sl_total": ('Total', 'Total'),
+ "sl_total": ('Total', 'Total'), "sl_total_g": ('Total (principales + optionnelles)', 'Total (main + optional)'),
  "sl_ms_tab": ('Nombre de missions par chapitre', 'Missions per chapter'),
  "sl_aconf_c": ('à confirmer', 'to be confirmed'),
  "sl_lucia": ('Lucia seule', 'Lucia only'),
@@ -132,6 +132,26 @@ def main():
     G6 = json.load(open("data/soluce/gta6.json", encoding="utf-8"))
     FR, EN = {}, {}
     for key, (f, en) in UI.items(): FR[key], EN[key] = f, en
+    # chiffres des missions et des lieux calculés depuis les données (même ventilation partout)
+    ch = G6.get("chapitres") or []
+    if ch:
+        mp = [sum(1 for m in c["missions"] if not m.get("opt")) for c in ch]
+        mo = sum(1 for c in ch for m in c["missions"] if m.get("opt")); P = sum(mp); T = P + mo
+        nc = sum(1 for c in ch for m in c["missions"] if m.get("statut") != "confirme")
+        det = ", ".join(str(x) for x in mp[1:]); dl = det.rsplit(", ", 1)
+        FR["sl_ms_a"] = (f"L'histoire de GTA 6 compte un prologue et {len(ch) - 1} chapitres : {T} missions au total, dont {P} principales ({mp[0]} au prologue, puis {' et '.join(dl)} selon le chapitre) et {mo} optionnelles (sources : PowerPyx et GTABase ; {nc} titres pas encore recoupés sont marqués « à confirmer »). "
+                         "Comptez 60 à 80 heures. Pas de médailles ni de rejouer les missions : faites une sauvegarde manuelle au début et à la fin de chaque chapitre.")
+        EN["sl_ms_a"] = (f"GTA 6's story has a prologue and {len(ch) - 1} chapters: {T} missions in total, {P} main ({mp[0]} in the prologue, then {' and '.join(dl)} per chapter) and {mo} optional (sources: PowerPyx and GTABase; {nc} titles not yet cross-checked are flagged \"to be confirmed\"). "
+                         "Expect 60-80 hours. There are no mission medals and no mission replay: keep a manual save at the start and end of each chapter.")
+        FR["md_missions"] = f"Toutes les missions de GTA 6 : un prologue et {len(ch) - 1} chapitres, {T} missions dont {P} principales et {mo} optionnelles, Strangers & Freaks et durée de l'histoire (60 à 80 h)."
+        EN["md_missions"] = f"Every GTA 6 mission: a prologue and {len(ch) - 1} chapters, {T} missions ({P} main, {mo} optional), Strangers & Freaks and story length (60-80 h)."
+    from collections import Counter
+    nb = Counter(pt["couche"] for pt in CA.get("points", []))
+    noms = {c["id"]: (c.get("fr", c["id"]).lower(), c.get("en", c["id"])) for c in CA["couches"]}
+    lst = [(n, noms[c]) for c, n in nb.items() if c in noms]
+    if lst:
+        FR["sl_cl_i"] = "Emplacements réels relevés depuis la sortie : " + ", ".join(f"{n} {f}" for n, (f, _) in lst) + ". Les totaux sont confirmés par deux guides indépendants ; un lieu reste « à confirmer » tant qu'une seconde source ne le nomme pas, et sa position sur la carte est approximative."
+        EN["sl_cl_i"] = "Real locations gathered since launch: " + ", ".join(f"{n} {en_.lower()}" for n, (_, en_) in lst) + ". Totals are confirmed by two independent guides; a location stays \"to be confirmed\" until a second source names it, and its map position is approximate."
     # --- trophées
     cats = ["collectibles", "activites", "braquages", "personnages", "secrets", "completion", "divers", "histoire"]
     lis = []
@@ -187,7 +207,7 @@ def main():
             chap_l += f'<h3>{nom}</h3><ol class="ms-liste">' + "".join(lis_m) + "</ol>"
         sources = " · ".join(f'<a href="{e(u)}" target="_blank" rel="noopener nofollow">{e(u.split("/")[2].replace("www.", ""))}</a>' for u in G6.get("missions_sources", []))
         chap_tab = ('<table class="sl-table"><thead><tr><th data-i18n="sl_chap">Chapitre</th><th data-i18n="sl_principales">Principales</th><th data-i18n="sl_optionnelles">Optionnelles</th></tr></thead><tbody>'
-                    + "".join(rows) + f'<tr><th data-i18n="sl_total">Total</th><th>{tot[0]}</th><th>{tot[1]}</th></tr></tbody></table><p class="ct-etat"><span data-i18n="sl_sources_t">Sources</span> : {sources}</p>')
+                    + "".join(rows) + f'<tr><th data-i18n="sl_total">Total</th><th>{tot[0]}</th><th>{tot[1]}</th></tr><tr><th data-i18n="sl_total_g">Total (principales + optionnelles)</th><th colspan="2">{tot[0] + tot[1]}</th></tr></tbody></table><p class="ct-etat"><span data-i18n="sl_sources_t">Sources</span> : {sources}</p>')
     # --- triches
     trh = ""
     if G6.get("triches"):

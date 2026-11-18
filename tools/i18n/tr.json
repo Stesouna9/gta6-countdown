@@ -1013,12 +1013,9 @@
  "ms_gta6_side_cal": "Cal'ın görevleri",
  "sl_spoil_n": "Spoiler vermemek için 12 hikaye kupası gizlendi.",
  "sl_pts_ok": "haritadaki noktalar",
- "md_missions": "Her GTA 6 görevi: 5 bölüm artı bir giriş, yaklaşık 119 ana görev, isteğe bağlı görevler, Strangers & Freaks ve hikaye uzunluğu (60-80 saat).",
  "sl_avert_carte": "Harita arka planı: Rockstar resmi haritayı yayınlayana kadar GTA VIFRANCE tarafından ölçeksiz olarak çizilen gösterge diyagramı. Bir nokta yalnızca doğrulandıktan sonra görünür (eşleşen iki kaynak veya resmi bir kaynak).",
- "sl_cl_i": "Toplanabilir her sayı resmi kupa listesinden gelir. Konumlar doğrulandıkça eklenir; bulduklarınızı işaretleyin.",
  "sl_ms_sf_p": "8 özel Strangers & Freaks görev serisini (gümüş kupa) tamamlamanız gerekir: Kirk, Kyle, Yago ve Pilot Pete sayısı; Shirley, Billy, Andy, Yasmani, Tyrone ve Eddie Acosta bunu yapmıyor. Hikayeden sonra hepsi mevcut kalır.",
  "sl_ms_hist_p": "Bölüm başına tam görev listesi (ekrandaki başlıklar, konu özeti yok). \"Kaçırılabilir\" olarak işaretlenen isteğe bağlı görevler, çok fazla ilerlemeniz durumunda kaybolur.",
- "sl_ms_a": "GTA 6 hikayesinde bir önsöz ve 5 bölüm vardır: yaklaşık 119 ana görev (bölüm başına 25, 18, 31, 34 ve 10), artı yaklaşık otuz isteğe bağlı görev. 60-80 saat bekleyin; Rockstar bazı isteğe bağlı içeriklerle birlikte 80 saatten alıntı yapıyor. Görev madalyası ve görev tekrarı yok: her bölümün başında ve sonunda manuel kayıt bulundurun.",
  "cln_banques": "22 banka: 14'ü küçük (para çekmecesi + kasa) ve 8'i kasalı büyük. Maksimum Para Çekme için 5 kasayı soyun.",
  "cln_cartes": "18 set, 480 kart. Don't Touch My Deste için 3 tam set, %100 tamamlama için 15 set.",
  "sl_cat_tr_Screen Filter": "Ekran filtreleri",
@@ -1176,5 +1173,9 @@
  "trd_cycle_weather": "Hikayeyi bitir",
  "cln_tir": "2 seri (Griffin in Vice City , Rodgers Ranch), 12 mücadele, The Shootist için 42 altın madalya.",
  "cl_bijouteries": "Parçala ve Yakala",
- "cln_bijouteries": "35 Smash 'n' Grabs (mücevher mağazaları ve rehin dükkanları); %100 için 34 gerekli."
+ "cln_bijouteries": "35 Smash 'n' Grabs (mücevher mağazaları ve rehin dükkanları); %100 için 34 gerekli.",
+ "md_missions": "Her GTA 6 görevi: bir giriş ve 5 bölüm, 148 görev (119 ana, 29 isteğe bağlı), Strangers & Freaks ve hikaye uzunluğu (60-80 saat).",
+ "sl_cl_i": "Lansmandan bu yana toplanan gerçek yerler: 10 meditasyon noktası, 14 en eğlenceli drone yarışı, 22 banka (kasa), 12 garaj mülkü, 35 şut ve kapma, 2 atış poligonu. Toplamlar iki bağımsız rehber tarafından onaylanmıştır; bir konum, ikinci bir kaynak onu adlandırana ve harita konumu yaklaşık olana kadar \"doğrulanmayı bekliyor\".",
+ "sl_ms_a": "GTA 6 hikayesinde bir önsöz ve 5 bölüm vardır: Toplamda 148 görev, 119 ana görev (önsözde 1, ardından bölüm başına 25, 18, 31, 34 ve 10) ve 29 isteğe bağlı (kaynaklar: PowerPyx ve GTA Base; henüz çapraz kontrol edilmemiş 28 başlık \"onaylanacak\" olarak işaretlenmiştir). 60-80 saat bekleyin. Görev madalyası ve görev tekrarı yok: her bölümün başında ve sonunda manuel kayıt bulundurun.",
+ "sl_total_g": "Toplam (ana + isteğe bağlı)"
 }

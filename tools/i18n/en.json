@@ -860,7 +860,7 @@
  "mt_collectibles": "GTA 6 collectibles: meditation, WAiNK, cards, drones and garages",
  "md_collectibles": "Every GTA 6 collectible and how many there are: 18 meditation spots, 100 WAiNK locations, 14 drone races, 8 garages, 52 areas. Checklists.",
  "mt_missions": "GTA 6 missions: story and side mission list",
- "md_missions": "Every GTA 6 mission: 5 chapters plus a prologue, about 119 main missions, optional missions, Strangers & Freaks and story length (60-80 hours).",
+ "md_missions": "Every GTA 6 mission: a prologue and 5 chapters, 148 missions (119 main, 29 optional), Strangers & Freaks and story length (60-80 h).",
  "sl_hub_t": "GTA 6 walkthrough",
  "sl_hub_i": "Tools to finish the game, updated daily. Verified information only: two matching sources or one official source.",
  "sl_t_carte": "Interactive map",
@@ -919,7 +919,7 @@
  "sl_attr": "GTAVIFRANCE diagram, unofficial",
  "sl_cl_q": "Where to find",
  "sl_trophee": "Trophy",
- "sl_cl_i": "Real locations gathered since launch: 10 meditation spots, 14 drone race locations, 22 banks, 12 garages, 18 card sets. Totals are confirmed by two independent guides; each location cites its source and stays \"to be confirmed\" until a second source matches it.",
+ "sl_cl_i": "Real locations gathered since launch: 10 meditation spots, 14 top fun drone races, 22 banks (vaults), 12 garage properties, 35 smash 'n' grabs, 2 shooting ranges. Totals are confirmed by two independent guides; a location stays \"to be confirmed\" until a second source names it, and its map position is approximate.",
  "sl_ms_side": "Side missions: the characters",
  "sl_ms_side_p": "Seven characters have a trophy tied to their missions. Finishing their last mission unlocks it.",
  "sl_ms_sf": "Strangers & Freaks: 8 strands",
@@ -928,7 +928,7 @@
  "sl_ms_hist_p": "Full mission list per chapter (on-screen titles, no plot summary). Optional missions marked \"missable\" disappear if you progress too far.",
  "sl_ms_voir": "Show story missions",
  "sl_ms_q": "How many missions are in GTA 6?",
- "sl_ms_a": "GTA 6's story has a prologue and 5 chapters: about 119 main missions (25, 18, 31, 34 and 10 per chapter), plus around thirty optional missions. Expect 60-80 hours; Rockstar quotes 80 hours with some optional content. There are no mission medals and no mission replay: keep a manual save at the start and end of each chapter.",
+ "sl_ms_a": "GTA 6's story has a prologue and 5 chapters: 148 missions in total, 119 main (1 in the prologue, then 25, 18, 31, 34 and 10 per chapter) and 29 optional (sources: PowerPyx and GTABase; 28 titles not yet cross-checked are flagged \"to be confirmed\"). Expect 60-80 hours. There are no mission medals and no mission replay: keep a manual save at the start and end of each chapter.",
  "sl_fait": "Done",
  "sl_sources_t": "Sources",
  "sl_home_t": "GTA 6 walkthrough: the interactive map is live",
@@ -1176,5 +1176,6 @@
  "trd_pause_time_of_day": "Find 20 collectible watches.",
  "tre_cycle_weather": "Changes the weather, cycling through the different weather types",
  "trd_cycle_weather": "Finish the story",
- "cln_bijouteries": "35 Smash 'n' Grabs (jewelry stores and pawn shops); 34 needed for 100%."
+ "cln_bijouteries": "35 Smash 'n' Grabs (jewelry stores and pawn shops); 34 needed for 100%.",
+ "sl_total_g": "Total (main + optional)"
 }
