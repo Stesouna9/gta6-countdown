@@ -1,0 +1,401 @@
+{
+ "game": "gta6",
+ "title": "GTA VI",
+ "maj": "2026-11-18",
+ "note": "Fiches GTA 6 (schéma data/soluce/schema.json). Rempli par la routine gtavifrance-solutions : uniquement des infos vérifiées (2 sources ou officiel). Missions d'histoire = spoiler (masquées par défaut sur missions.html). Noms de missions : liste officielle des trophées PSN. Chapitres : au moins 4 + mission finale (trophées).",
+ "chapitres_connus": 4,
+ "etrangers_total": 8,
+ "fiches": [
+  {
+   "id": "gta6-m-gone-fishing",
+   "game": "gta6",
+   "type": "mission",
+   "order": null,
+   "chapter": null,
+   "nom": "Gone Fishing",
+   "trophee": "just-like-paradise",
+   "spoiler": 2,
+   "missable": false,
+   "steps": [],
+   "tips": [],
+   "sources": [
+    "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+   ],
+   "verifie": true,
+   "updated": "2026-11-18",
+   "fr": {
+    "t": "Gone Fishing",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Gone Fishing",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta6-m-breakfast-run",
+   "game": "gta6",
+   "type": "mission",
+   "order": null,
+   "chapter": null,
+   "nom": "Breakfast Run",
+   "trophee": "trust",
+   "spoiler": 2,
+   "missable": false,
+   "steps": [],
+   "tips": [],
+   "sources": [
+    "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+   ],
+   "verifie": true,
+   "updated": "2026-11-18",
+   "fr": {
+    "t": "Breakfast Run",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Breakfast Run",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta6-m-the-cartel-heist",
+   "game": "gta6",
+   "type": "mission",
+   "order": null,
+   "chapter": null,
+   "nom": "The Cartel Heist",
+   "trophee": "break-the-bank",
+   "spoiler": 2,
+   "missable": false,
+   "steps": [],
+   "tips": [],
+   "sources": [
+    "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+   ],
+   "verifie": true,
+   "updated": "2026-11-18",
+   "fr": {
+    "t": "The Cartel Heist",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "The Cartel Heist",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta6-m-childs-play",
+   "game": "gta6",
+   "type": "mission",
+   "order": null,
+   "chapter": null,
+   "nom": "Child's Play",
+   "trophee": "family-matters",
+   "spoiler": 2,
+   "missable": false,
+   "steps": [],
+   "tips": [],
+   "sources": [
+    "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+   ],
+   "verifie": true,
+   "updated": "2026-11-18",
+   "fr": {
+    "t": "Child's Play",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Child's Play",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta6-m-headliners",
+   "game": "gta6",
+   "type": "mission",
+   "order": null,
+   "chapter": null,
+   "nom": "Headliners",
+   "trophee": "dwnfall",
+   "spoiler": 2,
+   "missable": false,
+   "steps": [],
+   "tips": [],
+   "sources": [
+    "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+   ],
+   "verifie": true,
+   "updated": "2026-11-18",
+   "fr": {
+    "t": "Headliners",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Headliners",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta6-m-vcia-takedown",
+   "game": "gta6",
+   "type": "mission",
+   "order": null,
+   "chapter": null,
+   "nom": "VCIA Takedown",
+   "trophee": "hi-jacked",
+   "spoiler": 2,
+   "missable": false,
+   "steps": [],
+   "tips": [],
+   "sources": [
+    "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+   ],
+   "verifie": true,
+   "updated": "2026-11-18",
+   "fr": {
+    "t": "VCIA Takedown",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "VCIA Takedown",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta6-m-operation-savage-glory",
+   "game": "gta6",
+   "type": "mission",
+   "order": null,
+   "chapter": null,
+   "nom": "Operation Savage Glory",
+   "trophee": "snow-storm",
+   "spoiler": 2,
+   "missable": false,
+   "steps": [],
+   "tips": [],
+   "sources": [
+    "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+   ],
+   "verifie": true,
+   "updated": "2026-11-18",
+   "fr": {
+    "t": "Operation Savage Glory",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Operation Savage Glory",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta6-side-andy",
+   "game": "gta6",
+   "type": "side",
+   "giver": "Andy",
+   "nom": "Andy",
+   "trophee": "road-to-rehabilitation",
+   "spoiler": 0,
+   "missions": [],
+   "steps": [],
+   "tips": [],
+   "sources": [
+    "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+   ],
+   "verifie": true,
+   "updated": "2026-11-18",
+   "fr": {
+    "t": "Missions de Andy",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Andy's missions",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta6-side-kenton",
+   "game": "gta6",
+   "type": "side",
+   "giver": "Kenton",
+   "nom": "Kenton",
+   "trophee": "this-was-no-boat-accident",
+   "spoiler": 0,
+   "missions": [],
+   "steps": [],
+   "tips": [],
+   "sources": [
+    "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+   ],
+   "verifie": true,
+   "updated": "2026-11-18",
+   "fr": {
+    "t": "Missions de Kenton",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Kenton's missions",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta6-side-billy",
+   "game": "gta6",
+   "type": "side",
+   "giver": "Billy",
+   "nom": "Billy",
+   "trophee": "the-lone-rider",
+   "spoiler": 0,
+   "missions": [],
+   "steps": [],
+   "tips": [],
+   "sources": [
+    "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+   ],
+   "verifie": true,
+   "updated": "2026-11-18",
+   "fr": {
+    "t": "Missions de Billy",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Billy's missions",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta6-side-randy",
+   "game": "gta6",
+   "type": "side",
+   "giver": "Randy",
+   "nom": "Randy",
+   "trophee": "supply-demand",
+   "spoiler": 0,
+   "missions": [],
+   "steps": [],
+   "tips": [],
+   "sources": [
+    "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+   ],
+   "verifie": true,
+   "updated": "2026-11-18",
+   "fr": {
+    "t": "Missions de Randy",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Randy's missions",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta6-side-tyrone",
+   "game": "gta6",
+   "type": "side",
+   "giver": "Tyrone",
+   "nom": "Tyrone",
+   "trophee": "spin-on-this",
+   "spoiler": 0,
+   "missions": [],
+   "steps": [],
+   "tips": [],
+   "sources": [
+    "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+   ],
+   "verifie": true,
+   "updated": "2026-11-18",
+   "fr": {
+    "t": "Missions de Tyrone",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Tyrone's missions",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta6-side-bret",
+   "game": "gta6",
+   "type": "side",
+   "giver": "Bret",
+   "nom": "Bret",
+   "trophee": "fair-game",
+   "spoiler": 0,
+   "missions": [],
+   "steps": [],
+   "tips": [],
+   "sources": [
+    "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+   ],
+   "verifie": true,
+   "updated": "2026-11-18",
+   "fr": {
+    "t": "Missions de Bret",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Bret's missions",
+    "d": "",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta6-side-cal",
+   "game": "gta6",
+   "type": "side",
+   "giver": "Cal",
+   "nom": "Cal",
+   "trophee": "baited-my-tackle",
+   "spoiler": 0,
+   "missions": [],
+   "steps": [],
+   "tips": [],
+   "sources": [
+    "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+   ],
+   "verifie": true,
+   "updated": "2026-11-18",
+   "fr": {
+    "t": "Missions de Cal",
+    "d": "",
+    "h": ""
+   },
+   "en": {
+    "t": "Cal's missions",
+    "d": "",
+    "h": ""
+   }
+  }
+ ],
+ "hub_articles": [
+  "2026-11-18-liste-officielle-55-trophees-gta6-ps5",
+  "2026-11-17-codes-triche-gta6-faux-nouveautes-gta5",
+  "2026-11-15-duree-vie-50-heures-platine-200-heures-gta6",
+  "2026-11-17-carte-leonida-fuite-cinq-comtes-gta6"
+ ]
+}

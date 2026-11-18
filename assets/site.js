@@ -18,10 +18,10 @@ window.SITE = {
 };
 
 (function () {
-  var pages = [["index.html", "nav_home"], ["actus.html", "nav_news"], ["sortie.html", "nav_sortie"], ["guide.html", "nav_guide"], ["musique.html", "nav_musique"], ["radio.html", "nav_radio"], ["vicebreak.html", "nav_vb"], ["acheter.html", "nav_buy"], ["communaute.html", "nav_commu"]];
+  var pages = [["index.html", "nav_home"], ["actus.html", "nav_news"], ["sortie.html", "nav_sortie"], ["guide.html", "nav_soluce"], ["carte.html", "nav_carte"], ["musique.html", "nav_musique"], ["radio.html", "nav_radio"], ["vicebreak.html", "nav_vb"], ["acheter.html", "nav_buy"], ["communaute.html", "nav_commu"]];
   /* Menu plein écran : trois rayons */
   var rayons = [
-    ["menu_jeu", [["sortie.html", "nav_sortie"], ["guide.html", "nav_guide"], ["bible.html", "nav_bible"], ["acheter.html", "nav_buy"], ["faq.html", "nav_faq"], ["vraifaux.html", "nav_vf"], ["quiz.html", "nav_quiz"]]],
+    ["menu_jeu", [["guide.html", "nav_soluce"], ["carte.html", "nav_carte"], ["trophees.html", "nav_trophees"], ["collectibles.html", "nav_collect"], ["missions.html", "nav_missions"], ["sortie.html", "nav_sortie"], ["bible.html", "nav_bible"], ["acheter.html", "nav_buy"], ["faq.html", "nav_faq"], ["vraifaux.html", "nav_vf"], ["quiz.html", "nav_quiz"]]],
     ["menu_actu", [["actus.html", "nav_news"], ["musique.html", "nav_musique"], ["goodies.html", "nav_goodies"], ["photos.html", "nav_photos"]]],
     ["menu_commu", [["communaute.html", "nav_commu"], ["radio.html", "nav_radio"], ["vicebreak.html", "nav_vb"], ["arabe.html", "nav_arabe"], ["integrer.html", "nav_int"], ["apropos.html", "nav_about"]]]
   ];

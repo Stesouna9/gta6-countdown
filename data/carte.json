@@ -1,0 +1,361 @@
+{
+ "$comment": "Points de la carte interactive (carte.html) et des pages collectibles. Repère : schéma GTAVIFRANCE 1000x1000 (x vers la droite, y vers le bas), PAS la carte officielle. Un point n'entre ici que vérifié : 2 sources indépendantes concordantes ou 1 source officielle (statut 'confirme'), sinon 'a_confirmer' avec ses sources. x/y null = point listé sans position. Jamais d'invention. Quand Rockstar publie la carte officielle : changer 'repere' et recaler x/y.",
+ "maj": "2026-11-18",
+ "repere": "schema-v1",
+ "fond": "assets/img/carte/leonida-schema.svg",
+ "modele_point": {
+  "id": "meditation-01",
+  "couche": "meditation",
+  "x": 512,
+  "y": 640,
+  "region": "grassrivers",
+  "fr": "Nom ou repère du lieu",
+  "en": "Place name",
+  "statut": "confirme | a_confirmer",
+  "sources": [
+   "https://..."
+  ],
+  "note_fr": "",
+  "note_en": "",
+  "maj": "2026-11-19"
+ },
+ "regions": [
+  {
+   "id": "kalaga",
+   "nom": "Mount Kalaga",
+   "poly": [
+    [
+     150,
+     130
+    ],
+    [
+     620,
+     115
+    ],
+    [
+     680,
+     200
+    ],
+    [
+     560,
+     290
+    ],
+    [
+     300,
+     300
+    ],
+    [
+     140,
+     260
+    ]
+   ],
+   "centre": [
+    400,
+    205
+   ]
+  },
+  {
+   "id": "port-gellhorn",
+   "nom": "Port Gellhorn",
+   "poly": [
+    [
+     95,
+     300
+    ],
+    [
+     140,
+     260
+    ],
+    [
+     300,
+     300
+    ],
+    [
+     330,
+     440
+    ],
+    [
+     260,
+     422
+    ],
+    [
+     160,
+     402
+    ],
+    [
+     92,
+     380
+    ]
+   ],
+   "centre": [
+    215,
+    360
+   ]
+  },
+  {
+   "id": "ambrosia",
+   "nom": "Ambrosia",
+   "poly": [
+    [
+     300,
+     300
+    ],
+    [
+     560,
+     290
+    ],
+    [
+     680,
+     200
+    ],
+    [
+     742,
+     320
+    ],
+    [
+     620,
+     430
+    ],
+    [
+     400,
+     460
+    ],
+    [
+     330,
+     440
+    ]
+   ],
+   "centre": [
+    520,
+    360
+   ]
+  },
+  {
+   "id": "grassrivers",
+   "nom": "Grassrivers",
+   "poly": [
+    [
+     400,
+     460
+    ],
+    [
+     620,
+     430
+    ],
+    [
+     650,
+     560
+    ],
+    [
+     600,
+     722
+    ],
+    [
+     500,
+     702
+    ],
+    [
+     432,
+     642
+    ],
+    [
+     382,
+     562
+    ],
+    [
+     342,
+     474
+    ]
+   ],
+   "centre": [
+    505,
+    585
+   ]
+  },
+  {
+   "id": "vice-city",
+   "nom": "Vice City",
+   "poly": [
+    [
+     620,
+     430
+    ],
+    [
+     742,
+     320
+    ],
+    [
+     795,
+     450
+    ],
+    [
+     828,
+     560
+    ],
+    [
+     798,
+     702
+    ],
+    [
+     722,
+     772
+    ],
+    [
+     652,
+     792
+    ],
+    [
+     600,
+     722
+    ],
+    [
+     650,
+     560
+    ]
+   ],
+   "centre": [
+    722,
+    585
+   ]
+  },
+  {
+   "id": "leonida-keys",
+   "nom": "Leonida Keys",
+   "poly": [
+    [
+     430,
+     835
+    ],
+    [
+     730,
+     795
+    ],
+    [
+     748,
+     862
+    ],
+    [
+     445,
+     915
+    ]
+   ],
+   "centre": [
+    590,
+    870
+   ]
+  }
+ ],
+ "couches": [
+  {
+   "id": "meditation",
+   "fr": "Lieux de méditation",
+   "en": "Meditation spots",
+   "total": 18,
+   "trophee": "positive-mental-attitude",
+   "couleur": "#62d4ff",
+   "note_fr": "Seul trophée manquable : la première méditation se fait au chapitre 1.",
+   "note_en": "Only missable trophy: the first meditation happens in Chapter 1."
+  },
+  {
+   "id": "drones",
+   "fr": "Courses de drones Top Fun",
+   "en": "Top Fun drone races",
+   "total": 14,
+   "trophee": "top-fun",
+   "couleur": "#ffc93c",
+   "note_fr": "",
+   "note_en": ""
+  },
+  {
+   "id": "tir",
+   "fr": "Stands de tir",
+   "en": "Shooting ranges",
+   "total": null,
+   "trophee": "the-shootist",
+   "couleur": "#ff3b7a",
+   "note_fr": "42 épreuves à finir en or.",
+   "note_en": "42 challenges to gold."
+  },
+  {
+   "id": "garages",
+   "fr": "Garages à acheter",
+   "en": "Garage properties",
+   "total": 8,
+   "trophee": "little-boxes",
+   "couleur": "#0fb3a3",
+   "note_fr": "",
+   "note_en": ""
+  },
+  {
+   "id": "banques",
+   "fr": "Banques (coffres)",
+   "en": "Banks (vaults)",
+   "total": 5,
+   "trophee": "maximum-withdrawal",
+   "couleur": "#ff8a2a",
+   "note_fr": "5 coffres à braquer pour le trophée.",
+   "note_en": "Rob 5 vaults for the trophy."
+  },
+  {
+   "id": "bijouteries",
+   "fr": "Bijouteries",
+   "en": "Jewelry stores",
+   "total": null,
+   "trophee": "sneakthief",
+   "couleur": "#e7b6ff",
+   "note_fr": "",
+   "note_en": ""
+  },
+  {
+   "id": "wainK",
+   "fr": "Lieux WAiNK",
+   "en": "WAiNK locations",
+   "total": 100,
+   "trophee": "you-wainker",
+   "couleur": "#a63ccf",
+   "note_fr": "",
+   "note_en": ""
+  },
+  {
+   "id": "cartes",
+   "fr": "Cartes à collectionner",
+   "en": "Collectible cards",
+   "total": null,
+   "trophee": "dont-touch-my-deck",
+   "couleur": "#9be37a",
+   "note_fr": "3 collections à compléter.",
+   "note_en": "3 sets to complete."
+  },
+  {
+   "id": "zones",
+   "fr": "Zones à explorer",
+   "en": "Areas to explore",
+   "total": 52,
+   "trophee": "the-goodtime-state",
+   "couleur": "#8fa3b8",
+   "note_fr": "",
+   "note_en": ""
+  },
+  {
+   "id": "courses",
+   "fr": "Courses",
+   "en": "Races",
+   "total": 20,
+   "trophee": "earn-cash-not-kudos",
+   "couleur": "#ff6b4a",
+   "note_fr": "20 courses différentes à gagner.",
+   "note_en": "Win 20 different races."
+  },
+  {
+   "id": "activites",
+   "fr": "Activités",
+   "en": "Activities",
+   "total": 9,
+   "trophee": "master-of-none",
+   "couleur": "#f2e8d5",
+   "note_fr": "9 types d'activités à essayer.",
+   "note_en": "Try 9 activity types."
+  }
+ ],
+ "points": []
+}

@@ -15,7 +15,7 @@ LOCALE = {"fr": "fr_FR", "en": "en_US", "es": "es_ES", "pt": "pt_BR", "de": "de_
           "hi": "hi_IN", "ru": "ru_RU", "ko": "ko_KR", "tr": "tr_TR", "id": "id_ID", "pl": "pl_PL", "vi": "vi_VN"}
 FONTS = "https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;800&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;700&family=Lalezar&display=swap"
 PAGES = [("index", "1.0", "daily"), ("actus", "0.9", "daily"), ("sortie", "0.9", "daily"), ("faq", "0.9", "weekly"), ("acheter", "0.8", "daily"),
-         ("guide", "0.8", "weekly"), ("vraifaux", "0.8", "weekly"), ("arabe", "0.7", "weekly"), ("musique", "0.8", "daily"), ("radio", "0.7", "monthly"), ("vicebreak", "0.7", "monthly"),
+         ("guide", "0.9", "daily"), ("carte", "0.9", "daily"), ("trophees", "0.9", "daily"), ("collectibles", "0.8", "daily"), ("missions", "0.8", "daily"), ("vraifaux", "0.8", "weekly"), ("arabe", "0.7", "weekly"), ("musique", "0.8", "daily"), ("radio", "0.7", "monthly"), ("vicebreak", "0.7", "monthly"),
          ("goodies", "0.6", "daily"), ("photos", "0.8", "weekly"), ("communaute", "0.8", "hourly"), ("quiz", "0.6", "monthly"), ("integrer", "0.6", "monthly"), ("apropos", "0.5", "monthly")]
 SRC = {l: json.load(open(f"tools/i18n/{l}.json", encoding="utf-8")) for l in ORDRE if os.path.exists(f"tools/i18n/{l}.json")}
 LANGS = [l for l in ORDRE if l in SRC]
@@ -62,6 +62,14 @@ def ld_page(l, page, D):
                   "description": D.get("md_sortie", "")})
         g.append({"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": D.get(f"so_q{i}", ""), "acceptedAnswer": {"@type": "Answer", "text": D.get(f"so_a{i}", "")}}
                                                      for i in range(1, 8) if D.get(f"so_q{i}")]})   # 18/10 : FAQ sortie (17 langues)
+    if page in ("carte", "trophees", "collectibles", "missions", "guide"):   # 18/11/2026 : hub soluce GTA 6
+        g.append({"@type": "WebPage", "name": D.get("mt_" + page, ""), "description": D.get("md_" + page, ""), "inLanguage": HL.get(l, l), "url": url(l, page),
+                  "isPartOf": {"@type": "CollectionPage", "name": D.get("mt_guide", ""), "url": url(l, "guide")}, "about": {"@type": "VideoGame", "name": "Grand Theft Auto VI"}, "dateModified": datetime.date.today().isoformat()})
+    if page == "trophees":
+        g.append({"@type": "FAQPage", "inLanguage": HL.get(l, l), "mainEntity": [{"@type": "Question", "name": D["sl_tp_h"], "acceptedAnswer": {"@type": "Answer", "text": D["sl_tp_p"]}},
+                  {"@type": "Question", "name": D["sl_tp_q2"], "acceptedAnswer": {"@type": "Answer", "text": D["sl_tp_a2"]}}]})
+    if page == "missions":
+        g.append({"@type": "FAQPage", "inLanguage": HL.get(l, l), "mainEntity": [{"@type": "Question", "name": D["sl_ms_q"], "acceptedAnswer": {"@type": "Answer", "text": D["sl_ms_a"]}}]})
     if page == "guide":
         g.append({"@type": "Article", "headline": D.get("mt_guide", ""), "inLanguage": HL.get(l, l), "dateModified": datetime.date.today().isoformat(),
                   "author": {"@type": "Organization", "name": "Rédaction GTAVIFRANCE", "url": BASE}, "about": {"@type": "VideoGame", "name": "Grand Theft Auto VI"},

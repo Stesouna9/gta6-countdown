@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000">
+<!-- Schéma indicatif de Leonida dessiné par GTAVIFRANCE (pas la carte officielle, pas à l'échelle). À remplacer par la carte officielle Rockstar dès sa publication. -->
+<defs>
+<pattern id="g" width="50" height="50" patternUnits="userSpaceOnUse"><path d="M50 0H0V50" fill="none" stroke="#62d4ff" stroke-opacity=".07" stroke-width="1"/></pattern>
+<radialGradient id="o" cx="55%" cy="55%" r="75%"><stop offset="0" stop-color="#14203a"/><stop offset="1" stop-color="#0b0812"/></radialGradient>
+<linearGradient id="t" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2c2238"/><stop offset="1" stop-color="#241a2e"/></linearGradient>
+</defs>
+<rect width="1000" height="1000" fill="url(#o)"/>
+<rect width="1000" height="1000" fill="url(#g)"/>
+<g fill="url(#t)" stroke="#f2e8d5" stroke-opacity=".35" stroke-width="2.5" stroke-linejoin="round">
+<path d="M92 380 C80 330 95 300 110 270 C120 200 130 150 150 130 L620 112 C650 140 675 170 692 192 C720 240 745 290 760 330 C785 400 805 470 822 520 C838 575 830 640 805 700 C780 745 755 765 725 777 C700 790 670 800 648 796 C625 770 610 745 600 726 C560 712 525 708 500 704 C470 680 445 660 430 645 C405 610 390 590 380 565 C365 525 352 500 340 476 C310 450 285 435 260 425 C220 413 190 408 160 405 C130 398 105 392 92 380 Z"/>
+<ellipse cx="455" cy="885" rx="26" ry="11" transform="rotate(-8 455 885)"/>
+<ellipse cx="515" cy="872" rx="30" ry="12" transform="rotate(-10 515 872)"/>
+<ellipse cx="580" cy="858" rx="24" ry="10" transform="rotate(-12 580 858)"/>
+<ellipse cx="635" cy="842" rx="28" ry="11" transform="rotate(-16 635 842)"/>
+<ellipse cx="690" cy="822" rx="22" ry="9" transform="rotate(-22 690 822)"/>
+<ellipse cx="728" cy="805" rx="14" ry="7" transform="rotate(-30 728 805)"/>
+</g>
+<path d="M430 645 C470 600 520 560 560 520" fill="none" stroke="#62d4ff" stroke-opacity=".25" stroke-width="3" stroke-dasharray="2 8" stroke-linecap="round"/>
+<text x="40" y="960" fill="#f2e8d5" fill-opacity=".35" font-family="monospace" font-size="18">LEONIDA · SCHÉMA GTAVIFRANCE · NON OFFICIEL · PAS À L'ÉCHELLE</text>
+<text x="880" y="130" fill="#62d4ff" fill-opacity=".3" font-family="monospace" font-size="16" text-anchor="middle">OCÉAN</text>
+<text x="120" y="620" fill="#62d4ff" fill-opacity=".3" font-family="monospace" font-size="16">GOLFE</text>
+</svg>

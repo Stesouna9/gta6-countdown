@@ -1,0 +1,92 @@
+/* Hub soluce GTA 6 (guide, carte, trophées, collectibles, missions) : thème sombre uniquement. */
+.sl-tuiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px}
+.sl-tuile{display:flex;flex-direction:column;gap:8px;padding:20px;border:1px solid rgba(242,232,213,.18);border-radius:14px;background:linear-gradient(160deg,#241a2e,#16111d);text-decoration:none;color:var(--paper);transition:border-color .2s,transform .2s;min-width:0}
+.sl-tuile:hover,.sl-tuile:focus-visible{border-color:var(--hot);transform:translateY(-2px)}
+.sl-tuile .ic{font-size:1.9rem;line-height:1}
+.sl-tuile b{font-family:var(--display);font-weight:400;font-size:1.6rem;text-transform:uppercase;line-height:1}
+.sl-tuile span{font-size:.95rem;opacity:.8}
+.sl-tuile em{font-family:var(--mono);font-style:normal;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}
+.sl-une{border-color:var(--hot);background:linear-gradient(150deg,#3a1847,#16111d 70%)}
+.sl-liste{list-style:none;display:grid;gap:8px;margin-top:18px}
+.sl-liste a{display:block;padding:12px 14px;border-left:3px solid var(--hot);background:rgba(242,232,213,.05);text-decoration:none;border-radius:0 8px 8px 0}
+.sl-liste a:hover{background:rgba(242,232,213,.1)}
+.sl-avert{margin:18px 0;padding:12px 16px;border:1px dashed rgba(255,201,60,.6);border-radius:10px;font-size:.92rem;color:var(--gold);background:rgba(255,201,60,.06)}
+.sl-tete{padding:clamp(28px,5vw,56px) 0 18px;border-bottom:3px solid var(--hot)}
+.sl-tete h1{font-family:var(--display);font-weight:400;text-transform:uppercase;font-size:clamp(1.9rem,4.6vw,3.4rem);line-height:1;margin:8px 0 10px}
+.sl-tete p{font-family:var(--serif);font-style:italic;font-size:clamp(1.05rem,2.2vw,1.4rem);max-width:62ch;opacity:.9}
+.sl-fil{font-family:var(--mono);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;opacity:.75}
+.sl-fil a{text-decoration:none}
+.sl-sec{padding:clamp(28px,5vw,56px) 0}
+.sl-sec h2{font-family:var(--display);font-weight:400;text-transform:uppercase;font-size:clamp(1.6rem,4vw,2.6rem);line-height:1;margin:0 0 12px}
+.sl-sec h3{font-size:1.1rem;margin:18px 0 6px}
+.sl-sec p{max-width:72ch}
+.sl-sec p+p{margin-top:10px}
+.sl-sec a{color:var(--sky)}
+/* barre d'outils */
+.sl-barre{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:16px 0}
+.sl-barre button,.sl-puce{font:700 .72rem/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;padding:9px 12px;border-radius:999px;border:1px solid rgba(242,232,213,.3);background:transparent;color:var(--paper);cursor:pointer}
+.sl-barre button[aria-pressed="true"]{background:var(--paper);color:var(--ink)}
+.sl-barre label{display:inline-flex;gap:6px;align-items:center;font-size:.9rem;cursor:pointer}
+.sl-compte{display:flex;flex-wrap:wrap;gap:18px;align-items:baseline;margin:14px 0}
+.sl-compte b{font-family:var(--display);font-weight:400;font-size:clamp(2.2rem,6vw,3.6rem);line-height:1;color:var(--gold)}
+.sl-jauge{height:8px;border-radius:8px;background:rgba(242,232,213,.12);overflow:hidden;flex:1 1 200px}
+.sl-jauge i{display:block;height:100%;width:0;background:var(--sunset);transition:width .3s}
+/* trophées */
+.tp-liste{list-style:none;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:10px}
+.tp{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;padding:14px;border:1px solid rgba(242,232,213,.14);border-radius:12px;background:#1c1524;min-width:0}
+.tp input[type=checkbox]{width:22px;height:22px;accent-color:var(--hot);margin-top:2px;grid-row:span 3;cursor:pointer}
+.tp h3{margin:0;font-size:1rem;line-height:1.25;overflow-wrap:anywhere}
+.tp p{font-size:.9rem;opacity:.85;margin:0}
+.tp .gr{font:700 .62rem/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;padding:3px 6px;border-radius:4px;margin-inline-start:6px;vertical-align:middle;color:var(--ink)}
+.gr-platine{background:#cfe3ff}.gr-or{background:var(--gold)}.gr-argent{background:#c9c9d6}.gr-bronze{background:#d08a4e}
+.tp.fait{opacity:.55;border-color:rgba(15,179,163,.6)}
+.tp.fait h3{text-decoration:line-through}
+.tp .cpt{display:flex;align-items:center;gap:6px;margin-top:6px;font-family:var(--mono);font-size:.85rem}
+.tp .cpt button{width:30px;height:30px;border-radius:8px;border:1px solid rgba(242,232,213,.3);background:transparent;color:var(--paper);font-size:1rem;cursor:pointer}
+.tp .cpt input{width:64px;padding:5px;border-radius:6px;border:1px solid rgba(242,232,213,.3);background:#16111d;color:var(--paper);font:inherit;text-align:center}
+.tp .lien{font-size:.8rem;margin-top:4px}
+.tp .lien a{color:var(--sky)}
+.tp[hidden],.sl-spoil[hidden]{display:none}
+.tp.spoil{border-style:dashed}
+/* carte */
+.ct-zone{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:14px;align-items:start}
+#carte{height:min(78vh,760px);min-height:420px;border-radius:14px;border:1px solid rgba(242,232,213,.18);background:#0b0812;z-index:0}
+.ct-panneau{border:1px solid rgba(242,232,213,.18);border-radius:14px;padding:14px;background:#1c1524;max-height:min(78vh,760px);overflow:auto}
+.ct-panneau h2{font-size:1.4rem;margin-bottom:8px}
+.ct-couche{display:grid;grid-template-columns:auto auto 1fr auto;gap:8px;align-items:center;padding:8px 4px;border-bottom:1px solid rgba(242,232,213,.08);font-size:.92rem;cursor:pointer}
+.ct-couche input{accent-color:var(--hot);width:18px;height:18px}
+.ct-pt{width:12px;height:12px;border-radius:50%;display:inline-block;border:2px solid #16111d;box-shadow:0 0 0 1px rgba(242,232,213,.5)}
+.ct-couche small{font-family:var(--mono);opacity:.75;white-space:nowrap}
+.ct-etat{font-size:.85rem;opacity:.8;margin-top:10px}
+.leaflet-container{background:#0b0812;font-family:var(--sans)}
+.leaflet-popup-content-wrapper,.leaflet-popup-tip{background:#241a2e;color:var(--paper)}
+.leaflet-popup-content{margin:12px 14px;font-size:.9rem;line-height:1.4}
+.leaflet-popup-content a{color:var(--sky)}
+.leaflet-container a.leaflet-popup-close-button{color:var(--paper)}
+.leaflet-bar a{background:#241a2e;color:var(--paper);border-color:rgba(242,232,213,.2)}
+.leaflet-bar a:hover{background:#3a1847;color:var(--paper)}
+.leaflet-control-attribution{background:rgba(22,17,29,.8)!important;color:rgba(242,232,213,.7)!important}
+.leaflet-control-attribution a{color:var(--sky)!important}
+.ct-region{font-family:var(--display);font-size:clamp(.9rem,1.6vw,1.25rem);text-transform:uppercase;letter-spacing:.04em;color:var(--paper);text-shadow:0 2px 6px #000;white-space:nowrap;pointer-events:none;transform:translate(-50%,-50%);width:auto!important;height:auto!important}
+.ct-statut{display:inline-block;font:700 .62rem/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;padding:3px 6px;border-radius:4px;margin:4px 0}
+.ct-statut.ok{background:var(--teal);color:var(--ink)}.ct-statut.ko{background:var(--gold);color:var(--ink)}
+.ct-btn{margin-top:8px;font:700 .7rem/1 var(--mono);text-transform:uppercase;letter-spacing:.08em;padding:8px 10px;border-radius:999px;border:0;background:var(--hot);color:var(--ink);cursor:pointer}
+.sl-table{width:100%;border-collapse:collapse;margin-top:12px;font-size:.92rem}
+.sl-table th,.sl-table td{text-align:start;padding:9px 8px;border-bottom:1px solid rgba(242,232,213,.12)}
+.sl-table td:last-child,.sl-table th:last-child{text-align:end;font-family:var(--mono)}
+/* collectibles / missions */
+.cl-bloc{padding:18px 0;border-top:1px solid rgba(242,232,213,.14)}
+.cl-pts{list-style:none;display:grid;gap:6px;margin-top:10px}
+.cl-pts li{display:flex;gap:10px;align-items:flex-start;padding:8px 10px;border-radius:8px;background:rgba(242,232,213,.05)}
+.cl-pts input{accent-color:var(--hot);width:18px;height:18px;flex:none;margin-top:2px}
+.cl-vide{font-size:.9rem;opacity:.7;font-style:italic}
+.ms-grille{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:10px;margin-top:12px}
+.ms-carte{padding:14px;border:1px solid rgba(242,232,213,.14);border-radius:12px;background:#1c1524}
+.ms-carte h3{margin:0 0 4px}
+.ms-carte p{font-size:.88rem;opacity:.8}
+@media (max-width:900px){
+  .ct-zone{grid-template-columns:minmax(0,1fr)}
+  #carte{height:62vh;min-height:360px}
+  .ct-panneau{max-height:none}
+}
+@media (max-width:420px){.tp-liste{grid-template-columns:minmax(0,1fr)}.sl-tuiles{grid-template-columns:minmax(0,1fr)}}
