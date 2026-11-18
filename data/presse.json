@@ -1,6 +1,14 @@
 {
- "maj": "2026-11-18T02:49:29+00:00",
+ "maj": "2026-11-18T03:09:42+00:00",
  "articles": [
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNcHFDSGxUVkVLRjAxVXJXQ0ZMMjAzci1PVjZXenlRd21BeEdRSHZOeVVUZUxGZEtkU2E1c2NKLVZfMjBGTmVVQU5iQUhDXzBpSDJnWHo4Rm0xMjY2R1ZlTjlMTHhHdmtUZGZTT0tnSGZ4STdUMVVXbmtmbFh3WlZvWDAtX1dwc2NyY2pzRDJBM045Nm9KWXU4UVpfX1lHd05LNXdLckhpMWFTNVc3blFIU25GR2FMVjVlamJicEJIRmhuRUpzdzFNQ2VRRGlPbUhnY1VnbE5adWc0NUpDN2hBZ2xR?oc=5",
+   "s": "JeuxVideo.com",
+   "d": "2026-11-18T03:04:04+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : 36 heures de marathon dès ce mercredi 18 novembre, comment le suivre en direct sur Twitch et Youtube",
+   "erreur": "HTTP Error 429: Too Many Requests"
+  },
   {
    "gn": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWkMteTZ6cGF1RTBRNHFJTTlZam9xblIzT2drdkhUYlJUaTFvNS1QMjMwaHhVTGtOUW9mc2s1S0lYcDBuazhLLS1YM3ZLNld5ZWRramRBeFFqbTdoSUFUVVFSVHlXdFktaU5CME8wdFhyVk9LOFJHMFZUM1FkRTRvd3ZPSExTR1RaQV9wNTI3Q0N3Z1A5UFE?oc=5",
    "s": "PCMag",
@@ -70,14 +78,6 @@
    "erreur": "429 : passage suivant"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNcHFDSGxUVkVLRjAxVXJXQ0ZMMjAzci1PVjZXenlRd21BeEdRSHZOeVVUZUxGZEtkU2E1c2NKLVZfMjBGTmVVQU5iQUhDXzBpSDJnWHo4Rm0xMjY2R1ZlTjlMTHhHdmtUZGZTT0tnSGZ4STdUMVVXbmtmbFh3WlZvWDAtX1dwc2NyY2pzRDJBM045Nm9KWXU4UVpfX1lHd05LNXdLckhpMWFTNVc3blFIU25GR2FMVjVlamJicEJIRmhuRUpzdzFNQ2VRRGlPbUhnY1VnbE5adWc0NUpDN2hBZ2xR?oc=5",
-   "s": "JeuxVideo.com",
-   "d": "2026-11-18T00:03:18+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : 36 heures de marathon dès ce mercredi 18 novembre, comment le suivre en direct sur Twitch et Youtube",
-   "erreur": "HTTP Error 429: Too Many Requests"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNS04xTGxGUTJuRDYyZENmZDZDNTNQWm5ZdjVRU3VvYktrdmpOUHZ3bDFEdThSZ3FwNWZkX3FtZXEwejRFSXhxQXpDYkFWdm1tVkdfRC1uUXZnZWpfUVBlUE1KOTh5LTVueHVIMEVBT3pGVXFiSTI5SElDWlhkWm9ybWxqSEpkTjVZYndwOWJFbkZpdlJkaTBlag?oc=5",
    "s": "The Seattle Times",
    "d": "2026-11-17T23:56:08+00:00",
@@ -103,6 +103,14 @@
    "d": "2026-11-17T23:53:01+00:00",
    "lang": "en",
    "t": "GTA 6 Update 1.002.001 Hits PS5 In Three Waves Before Launch",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQaUFPNVRMelFzOHhtU0N3WEkyVl9STll2S0pORFdrNHE0a1dnMjc3bG1iWXdfVDJfd3lqa3BjZ3hLa2R2WllVRnh3WmFOUmJWSnpCRXpaUEt6Vi1Ic1pwQzk5cHNJZmVWSmdJczVRUTBiVk9LQlZfRXV4d3BPR0hqalQ5QQ?oc=5",
+   "s": "IGN",
+   "d": "2026-11-17T23:51:11+00:00",
+   "lang": "en",
+   "t": "Get Your First Look at the Vice City Court the Miami Heat Will Play on for One Night Only",
    "erreur": "429 : passage suivant"
   },
   {
@@ -146,18 +154,6 @@
    "pub": "2026-11-17T23:42:00Z"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNd3JoQThYUHppTktJS3pJYjRTZUtZWV9KaVVEMkZmSUtUN2pjcFRfZlFuLVcwZmZYbWx6X3lkRkJfN0tTUjUyTTZDdEZtQnM0UV9fTzJxME5tWW5WeVlvWUZPTG53Zk0xMWxNb2FpSkpTanozbUNnaFJjQTdlR2QxdS1WZHJIQnVoU01kU3FsX1NETC00RGFHMk9FTW1yWTFINmI3dWRuVnhqOEVqR0NIVU1sQlp4akY2TnhtUUVxYmdLdUl2d0JF?oc=5",
-   "s": "Notebookcheck",
-   "d": "2026-11-17T23:33:00+00:00",
-   "lang": "en",
-   "t": "Xbox reportedly warns against GTA 6 New Zealand trick for early release date unlock",
-   "u": "https://www.notebookcheck.net/Xbox-reportedly-warns-against-GTA-6-New-Zealand-trick-for-early-release-date-unlock.1452831.0.html",
-   "img": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/GTA6XboxUnlockClock.jpg",
-   "chapeau": "Microsoft employees may worry about hordes of gamers playing the GTA 6 Xbox version early. Journalists learned offenders could suffer account restrictions. Although Rockstar is watching closely, the New Zealand unlock time workaround has rarely resulted in bans.",
-   "txt": "To play early , many gamers have become temporary New Zealanders for the GTA 6 release date . Xbox fans can change their region in console settings, while the process is more difficult for PS5 supporters. However, as the launch approached, Microsoft allegedly warned journalists not to use the unlock time trick .\nRegion switching technically violates terms of service, which read, “Attempting to circumvent restrictions can affect both customer privacy and the integrity of Microsoft or partner services.” The guidelines state account holders should modify settings only after relocating to a different country.\nAhead of the GTA 6 release date, Jennifer Young of Windows Central claims Rockstar is treating the launch like a “military operation.” She suggests that, more than with most games, the studio is monitoring for unauthorized early access. Windows Central’s Jez Corden says a company representative echoed those comments at the recent Xbox FanFest .\nContent creator Colt Eastwood also reports a “kinda popular Xbox employee” noted the risks introduced by the unlock time trick. Nevertheless, if history is any indication, bans or account restrictions will be rare or non-existent. Countless individuals have relied on the shortcut to experience titles ahead of schedule.\nGTA 6 Xbox and PS5 versions officially go live at midnight local time on November 19th. Without the workaround, U.S. West Coast residents would have to wait an additional 21 hours. Gamers will have to decide whether the advantage is worth an unlikely punishment.\nSome PlayStation console owners have labored to speed up the GTA 6 release date. More complicated than modifying settings, it requires opening a New Zealand-based PSN account . Then, buyers need to purchase the game with a local gift card.\nEven if most Rockstar fans escape discipline, streamers may face scrutiny . The German-based Rohat revealed how a Twitch partner manager advised against showing gameplay enabled by the unlock time trick.\nJenbox360 X account , Jez Corden X account , Colteastwood X account , Pure Xbox",
-   "pub": ""
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5qOFE0MzZLUlo2Z3BQUzMyS2dUVFc2dFZTZ1p0Q2VOVlVsMFhaUmVhS2RkNDNGQ3piNzBMVm51ZzZhcG9rZktUMlJGVGxUVFloWmQzaXZVcHR5b0FoRC1IaHM1SVpwcnBmN1Q0dGVEWmY5dTQ?oc=5",
    "s": "Mashable",
    "d": "2026-11-17T23:25:11+00:00",
@@ -169,6 +165,14 @@
    "txt": "From the sun-soaked synth-pop of Vice City to surfing a sea of radio stations, music has always been an essential part of Rockstar Games' gritty, open-world franchise. And with Grand Theft Auto VI taking players back to Vice City, the sprawling soundtrack is shaping up to be just as ambitious as the game itself.\nRockstar has already revealed a 34-track album featuring artists like Travis Scott, Cardi B, and PinkPantheress, along with an original score composed by the French electronic duo Justice. Meanwhile, the game's fictional radio stations are bringing some familiar voices to the airwaves, including Robyn, Bad Bunny, and Lana Del Rey.\nAnd that's just what we know so far. Ahead of GTA 6 's Nov. 19 release , we're keeping track of every confirmed song, artist, radio station, and celebrity DJ coming to Leonida. Consider this your unofficial guide to the sounds of Vice City.\nRockstar has announced Grand Theft Auto VI: The Album , a 34-track collection of original music arriving Nov. 19, the same day as the game.\nThe album features an eclectic mix of artists and genres , from hip-hop heavyweights Travis Scott and Cardi B to country star Morgan Wallen and Puerto Rican singer Rauw Alejandro. There's even a collaboration between CA7RIEL & Paco Amoroso, PinkPantheress, Fred again.., and French producer Etienne de Crécy. And somehow, someway, Morgan Wallen's single is the most-streamed track from the soundtrack on Spotify, with more than 25 million streams. Yung Lean, fight back!\n\"Sexy Magic\" — CA7RIEL & Paco Amoroso, PinkPantheress, Fred again.. & Étienne de Crécy\n\"Flower in a Hurricane\" — Justice feat. Tame Impala, SZA & King Gizzard & the Lizard Wizard\n\"Overtown Lights\" — Stanley Clarke, Yussef Dayes & Robert Glasper\nFans can listen to the available singles on Rockstar's official GTA 6 music website , where the album is also available to pre-save or pre-order on vinyl and CD.\nThe French electronic duo Justice, consisting of Gaspard Augé and Xavier de Rosnay, is responsible for the original score of Grand Theft Auto VI .\nRockstar confirmed the news on Oct. 15 alongside the game's launch trailer , which features the debut of Justice's new single, \"Flower in a Hurricane,\" featuring Tame Impala, SZA, and Australian psychedelic rock band King Gizzard & the Lizard Wizard.\nIt's a fitting collaboration for a game returning to Vice City, a fictional playground known for its vibrant nightlife and electronic music. Justice's signature blend of distorted synths, disco, and dance music feels particularly suited to Rockstar's radiant criminal underworld.\nThe duo previously collaborated with Tame Impala on \"Neverender\" from their 2024 album Hyperdrama . The song won Best Dance/Electronic Recording at the 2025 Grammys.\nRockstar has also confirmed that an official score album is on the way, although additional details, including its release date and tracklist, have yet to be announced.\nThe fictional radio stations are one of Grand Theft Auto 's most beloved features, and GTA 6 is bringing some major star power to the airwaves.\nOn Oct. 8, Rockstar unveiled six radio stations , each with its own musical identity and celebrity hosts. Among the biggest names are Bad Bunny, Robyn, Lana Del Rey, Burna Boy, and members of Slayer.\nHere's a breakdown of the confirmed stations and their hosts :\nBad Bunny is bringing the sounds of Puerto Rico to Vice City. Alongside singer RaiNao, the superstar hosts Cocoteo FM, a station dedicated to modern Latin music, including reggaeton and other Caribbean sounds.\nA familiar name for longtime Vice City fans, Flash FM returns with Swedish pop icon Robyn and model Alex Consani behind the microphone. The station promises a steady stream of pop music and dance-floor favorites.\nCountry music gets its own corner of Leonida with Back Country Radio, hosted by Morgan Wallen and Lana Del Rey. In perhaps the most unexpected casting choice, Del Rey's husband, Jeremy Dufrene, also makes an appearance as the station's \" roving reporter, swamp meteorologist, and airboat captain .\"\nAfrobeats superstar Burna Boy teams up with DJ and producer Palms Trax for a station spotlighting amapiano, African classics, and other sounds from across the continent.\nMetal fans aren't being left out. Slayer's Kerry King and Tom Araya host The Chamber , a station dedicated to heavy metal.\nMiami rap legends Trick Daddy and Trina are taking listeners through the history of Southern hip-hop on Dirty South Classics, a particularly fitting addition t",
    "pub": "2026-11-16T15:47:54+00:00",
    "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMieEFVX3lxTE44dnpIdENlMXBoZEhNaHE1b3h5N2IyZlpjbVB1Q3FkX0dHT3NNYlp5ckxQSjRmYXQtMHYxNmUzR3p2S01lazZEQWpMYWtqdGVmUXU5dGhjYzd5SERVblEzaG9DT1pIUjFOTmdqNnFZaXlWX29QN2hRTw?oc=5",
+   "s": "THM Magazine",
+   "d": "2026-11-17T21:42:42+00:00",
+   "lang": "fr",
+   "t": "GTA 6 nommé 8 fois aux Game Awards avant sa sortie : comment est-ce possible ?",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSjh0VnRJc2ZVOEQzUC1hakp0S3hnYVJleWZHbS1VV25zLWFwbFRVcmZwX0tqUTlKVVNCcFZ0ZldnQmtYOS0teENGOHlkUGZHVVpuTC1yVlJNT1JmQndNd0hmVDBaNkJmcGlzVXJ4NzVOWjBIc2JZT1gzZ19xQ2pPZDhnclh1R1NsUHpyMTFmNVdzalNLQkNqVEF3?oc=5",
@@ -204,22 +208,6 @@
    "erreur": "429 : passage suivant"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPWjZNS0E0XzBScFNXdXA4dUVmVGVWZko0Wm5FdVh4TlJEMFQxVzEyZ3prRTVSclZhdE0xS29aWVlxNU5sRW51bzBnSWdOMV9GeWxkZ0tRbU5HNk5HbGZRTjN0QXZXM21ZUUJWU3ZqSFVSakVtcVlDWW5OZmttMDJkOTEwbGJMZHo5d0NJb2ZOWE5jcEN1VnJ4UGlYd2pnWXUxOUQ3Y2NyMkNMUW9ETVBRejFSd01QZWZmR3RnT2VOMVZrcmpBY1NxQzJJeFhabDYweDJ2eFVlMkRNemN0dkVTS1NucDc2N21YdDNmS1RMTQ?oc=5",
-   "s": "L'Yonne Républicaine",
-   "d": "2026-11-17T19:47:00+00:00",
-   "lang": "fr",
-   "t": "Pouvoir jouer à GTA VI 12 heures avant la sortie officielle ? Les internautes pressés ont trouvé une astuce",
-   "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNUUNfcTV0b2dtdy05Yzg1TlU5NWs4UlhkUC1iSjA0TDktbmFkVzd4WER4RVoxR2FIaEFjNTNjN1lEWnZiSDlZZGtUZVFYaVpxR2szOF82TF9EdFc1YjlIRGVmdkg4TTNpT0JhTmVENWNsQnU3dDhMeEg5c0I5eE5zRDN6WVYzTE03RkxfdkJBakNNSlN3Mjl5d0hHM2p0MVNHMGg1aHhoX09nU3E1TUxpWUw5WEZjVDZxaGtPUUkweHVuR1FFRk9PMmNYSS04XzVBdXBmbU5laC1HM1VVbGt3NVJ3V1dRX0tnc01jZmd6dlZiejBI?oc=5",
-   "s": "La Montagne",
-   "d": "2026-11-17T19:47:00+00:00",
-   "lang": "fr",
-   "t": "Pouvoir jouer à GTA VI 12 heures avant la sortie officielle ? Les internautes pressés ont trouvé une astuce",
-   "erreur": "429 : passage suivant"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPUTZIMTlLa0RzMUUwckZlTzlwZllOT0FBanlGUWp6dEpWTHBLNXQ0RXlNcVZSSFdFY0FzR2h0NFlqQk9JU1Zob1VQNWNmZ0pfSndNVUphWnk1aWEwNmFucjhDQXJCX05JWXRzajdnWUNPVWltbS1hbkZWYWN1c05YVGdUMkZETGRUaXdRd3hRTEhPSzIxX1lTVWx6eXl0TUx4aXJKTE1OMFRkd1NkSTQycWFvemZIazBsNy1KX21KeGFXUm9xSHJrX05GVXRqR25rd0NXTTB6Sl9UaVY5?oc=5",
    "s": "La Crème Du Gaming",
    "d": "2026-11-17T19:30:05+00:00",
@@ -237,6 +225,14 @@
    "d": "2026-11-17T19:10:08+00:00",
    "lang": "fr",
    "t": "GTA 6 : à quelle heure pourra-t-on lancer le jeu depuis la France ? Rockstar réagit",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNNUFUU0NwUnFXNWhCZlhiSjNVbnlCbFJMVjk1R0F6VXZoLTlra0lScmhPcmEwWVhpU0M0eXcwV01LX2JQN0I0azk5enI3YjFfVDhmSV9GVnBHVXhTRnpjamlzZWpIWWlkZGJPZnZ0ekNjakoyQnhPeEgxTGRRQkVjVV9NQlBPVnIyWWl3UnVjU0VEeFcwaDdZc2swVnI3N0gzZVVYbnkxeXo4VG9vTGZHM3RJMFVwRkw1dFBzSXUwTDczWEd6MFR4VEMzdmxFTExwbFFHWGxRWWVDOHYzYlc5WVJoMUhUby1CU1FvTQ?oc=5",
+   "s": "Le Parisien",
+   "d": "2026-11-17T19:00:28+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : cette astuce permettra à certains joueurs de découvrir le jeu dès mercredi en France",
    "erreur": "429 : passage suivant"
   },
   {
