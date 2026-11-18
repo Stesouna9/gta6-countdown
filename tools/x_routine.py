@@ -163,7 +163,7 @@ def main():
         texte = (f"⏳ Plus que {n} h avant GTA 6 en France." if n > 1 else "⏳ Plus qu'une heure avant GTA 6 en France !") + \
                 f"\n\nSortie cette nuit à minuit, heure de Paris, sur PS5 et Xbox Series.\n\n{Q[n % len(Q)]}\n\n#GTA6 #GTAVI #GTA6France"
         P = sorted((RACINE / "assets/img/rockstar").glob("poster-*.jpg")) or sorted((RACINE / "assets/img/rockstar").glob("*.jpg"))
-        img, cle, lien, rep = P[n % len(P)].read_bytes(), f"rebours-{hp:%Y%m%d%H}", "👉 Compte à rebours en direct : https://gtavifrance.com", ""
+        img, cle, lien, rep = P[n % len(P)].read_bytes(), f"rebours-{hp:%Y%m%d%H}", "", "👉 Compte à rebours en direct : https://gtavifrance.com"
         if cle in etat["postes"]: print("rebours : déjà posté"); return
     elif slot == "astuce":   # 10/11 Gabriel (via V7) : astuce pratique chiffrée du matin, modèle Top Office (92 900 vues, +24 abonnés) ; banque tools/astuces_x.json remplie par la routine gtavifrance-astuce-reassort
         import urllib.request as UR   # (urllib est importé localement plus bas dans main, branche radio)
@@ -230,7 +230,7 @@ def main():
         lien = f"https://gtavifrance.com/journal/{a['id']}.html"
         if slot in ("actu", "chaud"):   # 22/10 Gabriel : au moins une news par jour avec le lien dans le post (9 h), pas en réponse
             texte = texte.replace("👇 Article complet en réponse", "👉 " + lien); lien = ""
-    rep = rep if slot == "astuce" else ""
+    rep = rep if slot in ("astuce", "rebours") else ""
     if SEC: print(texte, f"\n[{len(texte)} car., image {len(img)} o]", "\n--- réponse :\n" + rep if rep else ""); return
     if "--json" in sys.argv: print(json.dumps({"slot": slot, "cle": cle, "texte": texte, "lien": lien, "reponse": rep, "image": base64.b64encode(img).decode()})); return
     try:
