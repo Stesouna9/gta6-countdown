@@ -318,7 +318,8 @@
    "fr": "Méditer à chaque emplacement de Leonida.",
    "max": 18,
    "couche": "meditation",
-   "spoiler": false
+   "spoiler": false,
+   "manquable": true
   },
   {
    "id": "fair-game",

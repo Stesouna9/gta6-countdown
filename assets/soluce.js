@@ -15,7 +15,7 @@
   /* ---------- TROPHÉES : la liste est déjà dans la page (rendue par tools/soluce.py) ---------- */
   function trophees() {
     var items = [].slice.call(document.querySelectorAll(".tp"));
-    var filtre = "tout", voirSpoil = !!S.o.spoil, cacheFaits = !!S.o.faits;
+    var filtre = "tout", rang = "", manq = false, voirSpoil = !!S.o.spoil, cacheFaits = !!S.o.faits, rev = S.o.rev || (S.o.rev = {});
     var pts = { platine: 300, or: 90, argent: 30, bronze: 15 };
     function maj() {
       var n = 0, p = 0, tot = 0;
@@ -24,17 +24,21 @@
         li.classList.toggle("fait", fait);
         li.querySelector("input[type=checkbox]").checked = fait;
         var g = li.getAttribute("data-grade"); tot += pts[g] || 0; if (fait) { n++; p += pts[g] || 0; }
-        li.hidden = (filtre !== "tout" && cat !== filtre) || (spoil && !voirSpoil) || (cacheFaits && fait);
+        li.hidden = (filtre !== "tout" && cat !== filtre) || (rang && g !== rang) || (manq && !li.hasAttribute("data-manq")) || (cacheFaits && fait);
+        li.classList.toggle("flou", spoil && !voirSpoil && !rev[id]);
         var c = li.querySelector(".cpt input"); if (c && document.activeElement !== c) c.value = S.c[id] || 0;
       });
       var b = document.getElementById("tp-n"); if (b) b.textContent = n + "/" + items.length;
       var q = document.getElementById("tp-pts"); if (q) q.textContent = p + "/" + tot + " pts";
       var j = document.getElementById("tp-jauge"); if (j) j.style.width = (n / items.length * 100).toFixed(1) + "%";
       var nb = document.getElementById("tp-spoil-n"); if (nb) nb.hidden = voirSpoil;
+      [].forEach.call(document.querySelectorAll("[data-rang]"), function (x) { x.setAttribute("aria-pressed", x.getAttribute("data-rang") === rang ? "true" : "false"); });
+      var mb = document.querySelector("[data-manqf]"); if (mb) mb.setAttribute("aria-pressed", manq ? "true" : "false");
     }
     items.forEach(function (li) {
       var id = li.getAttribute("data-id"), max = +li.getAttribute("data-max") || 0;
       li.querySelector("input[type=checkbox]").addEventListener("change", function () { if (this.checked) S.t[id] = 1; else delete S.t[id]; sauve(); maj(); });
+      var rv = li.querySelector(".tp-rev"); if (rv) rv.addEventListener("click", function () { rev[id] = 1; sauve(); maj(); });
       var c = li.querySelector(".cpt input");
       if (c) {
         function pose(v) { v = Math.max(0, Math.min(max, parseInt(v, 10) || 0)); S.c[id] = v; if (v >= max) S.t[id] = 1; sauve(); maj(); }
@@ -50,6 +54,8 @@
         maj();
       });
     });
+    [].forEach.call(document.querySelectorAll("[data-rang]"), function (x) { x.addEventListener("click", function () { var v = x.getAttribute("data-rang"); rang = rang === v ? "" : v; maj(); }); });
+    var mb = document.querySelector("[data-manqf]"); if (mb) mb.addEventListener("click", function () { manq = !manq; maj(); });
     var sp = document.getElementById("tp-spoil"); if (sp) { sp.checked = voirSpoil; sp.addEventListener("change", function () { voirSpoil = S.o.spoil = sp.checked; sauve(); maj(); }); }
     var cf = document.getElementById("tp-faits"); if (cf) { cf.checked = cacheFaits; cf.addEventListener("change", function () { cacheFaits = S.o.faits = cf.checked; sauve(); maj(); }); }
     var rz = document.getElementById("tp-raz"); if (rz) rz.addEventListener("click", function () { if (confirm(tr("sl_raz_ok", "Remettre la progression à zéro ?"))) { S.t = {}; S.c = {}; sauve(); maj(); } });
@@ -191,8 +197,12 @@
           var pts = D.points.filter(function (p) { return p.couche === c.id; });
           var k = compteCouche(D, c.id), n = document.getElementById("cln-" + c.id);
           if (n) n.textContent = k[0] + "/" + (c.total || k[1] || "?");
+          var RG = {}; (D.regions || []).forEach(function (g, i) { RG[g.id] = [i, g.nom]; });
+          pts.sort(function (a, b) { return ((RG[a.region] || [99])[0] - (RG[b.region] || [99])[0]) || a.id.localeCompare(b.id); });
+          var der = null;
           ul.innerHTML = pts.length ? pts.map(function (p) {
-            return '<li><input type="checkbox" data-pt="' + esc(p.id) + '"' + (S.p[p.id] ? " checked" : "") + '><div><b>' + esc(txt(p) || p.id) + "</b>" + (p.region ? " <small>· " + esc(p.region) + "</small>" : "") +
+            var h = ""; if (p.region !== der) { der = p.region; h = '<li class="cl-reg">' + esc((RG[p.region] || [0, tr("sl_f_noreg", "Région non précisée")])[1]) + "</li>"; }
+            return h + '<li><input type="checkbox" data-pt="' + esc(p.id) + '"' + (S.p[p.id] ? " checked" : "") + '><div><b>' + esc(txt(p) || p.id) + "</b>" + "" +
               (txt(p, "note_") ? "<br><small>" + esc(txt(p, "note_")) + "</small>" : "") + "<br><small>" + (p.statut === "confirme" ? esc(tr("sl_conf", "Confirmé")) : esc(tr("sl_aconf", "À confirmer"))) +
               (p.x != null ? ' · <a href="carte.html#p=' + encodeURIComponent(p.id) + '">' + esc(tr("sl_voir", "Voir sur la carte")) + "</a>" : "") + "</small></div></li>";
           }).join("") : '<li class="cl-vide">' + esc(tr("sl_pts_vide", "Les emplacements sont ajoutés dès qu'ils sont vérifiés (2 sources concordantes ou source officielle).")) + "</li>";
@@ -215,8 +225,75 @@
     });
   }
 
+  /* ---------- TRICHES : plateforme, recherche, filtres, copier ---------- */
+  function triches() {
+    var plat = S.o.plat || "ps", cat = "", conf = false, q = document.getElementById("tr-q");
+    var cartes = [].slice.call(document.querySelectorAll(".tr-carte"));
+    function maj() {
+      [].forEach.call(document.querySelectorAll("[data-plat]"), function (b) { b.setAttribute("aria-pressed", b.getAttribute("data-plat") === plat ? "true" : "false"); });
+      [].forEach.call(document.querySelectorAll("kbd[data-ps]"), function (k) { k.textContent = k.getAttribute("data-" + plat); k.className = "bt bt-" + plat; });
+      [].forEach.call(document.querySelectorAll("[data-trf]"), function (b) { b.setAttribute("aria-pressed", b.getAttribute("data-trf") === cat ? "true" : "false"); });
+      var cb = document.querySelector("[data-trc]"); if (cb) cb.setAttribute("aria-pressed", conf ? "true" : "false");
+      var v = norm(q ? q.value : ""), n = 0;
+      [].forEach.call(document.querySelectorAll(".tr-cat"), function (sec) {
+        var vis = 0, okc = !cat || sec.getAttribute("data-cat") === cat;
+        [].forEach.call(sec.querySelectorAll(".tr-carte"), function (c) {
+          var on = okc && (!conf || c.getAttribute("data-st") === "ok") && (!v || norm(c.textContent).indexOf(v) >= 0);
+          c.hidden = !on; if (on) vis++;
+        });
+        sec.hidden = !vis; n += vis;
+      });
+      var nb = document.getElementById("tr-nb"); if (nb) nb.textContent = n + " / " + cartes.length;
+    }
+    [].forEach.call(document.querySelectorAll("[data-plat]"), function (b) { b.addEventListener("click", function () { plat = S.o.plat = b.getAttribute("data-plat"); sauve(); maj(); }); });
+    [].forEach.call(document.querySelectorAll("[data-trf]"), function (b) { b.addEventListener("click", function () { cat = b.getAttribute("data-trf"); maj(); }); });
+    var cb = document.querySelector("[data-trc]"); if (cb) cb.addEventListener("click", function () { conf = !conf; maj(); });
+    if (q) q.addEventListener("input", maj);
+    document.addEventListener("click", function (ev) {
+      var b = ev.target.closest && ev.target.closest(".tr-copie"); if (!b) return;
+      var sq = b.parentNode.querySelector(".tr-seq"); if (!sq) return;
+      var t = sq.getAttribute("data-code"), fin = function () { b.textContent = tr("sl_copie", "Copié !"); b.classList.add("ok"); setTimeout(function () { b.textContent = tr("sl_copier", "Copier"); b.classList.remove("ok"); }, 1600); };
+      if (navigator.clipboard) navigator.clipboard.writeText(t).then(fin, fin); else fin();
+    });
+    document.addEventListener("langchange", maj);
+    maj();
+  }
+  function norm(s) { return String(s || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim(); }
+
+  /* ---------- COMMUN : sommaire collant, recherche sur la page, haut de page ---------- */
+  function outils() {
+    var tete = document.querySelector(".sl-tete"); if (!tete) return;
+    var h2s = [].slice.call(document.querySelectorAll(".sl-sec h2")).filter(function (h) { return !h.closest(".tr-mode") && !h.closest(".sl-tuiles") && h.getAttribute("data-i18n") !== "sl_hub_t" && h.offsetParent !== null; });
+    var nav = document.createElement("nav"); nav.className = "sl-som"; nav.setAttribute("aria-label", tr("sl_som", "Sommaire"));
+    function rend() {
+      nav.innerHTML = '<div class="wrap"><div class="sl-som-l">' + h2s.map(function (h, i) { if (!h.id) h.id = "s-" + i; return '<a href="#' + h.id + '">' + esc(h.textContent.replace(/\s+\d+$/, "")) + "</a>"; }).join("") + "</div>" +
+        (page !== "triches" && page !== "carte" ? '<input type="search" class="sl-som-q" placeholder="' + esc(tr("sl_rech_page", "Rechercher sur la page")) + '" aria-label="' + esc(tr("sl_rech_page", "Rechercher sur la page")) + '">' : "") + "</div>";
+      var qi = nav.querySelector(".sl-som-q"); if (qi) qi.addEventListener("input", function () { cherche(qi.value); });
+    }
+    if (h2s.length > 1 || (page !== "triches" && page !== "carte")) { rend(); tete.parentNode.insertBefore(nav, tete.nextSibling); document.addEventListener("langchange", rend); }
+    function cherche(v) {
+      v = norm(v);
+      var it = document.querySelectorAll(".tp, .ms-carte, .ms-liste li, .cl-pts li:not(.cl-reg):not(.cl-vide), .sl-liste li");
+      [].forEach.call(it, function (x) { x.classList.toggle("q-non", !!v && norm(x.textContent).indexOf(v) < 0); });
+      [].forEach.call(document.querySelectorAll(".ms-chap"), function (d) { if (v) d.open = !!d.querySelector(".ms-liste li:not(.q-non)"); });
+    }
+    var haut = document.createElement("button"); haut.type = "button"; haut.className = "sl-haut"; haut.setAttribute("aria-label", tr("sl_haut", "Haut de page")); haut.textContent = "↑";
+    haut.addEventListener("click", function () { scrollTo({ top: 0, behavior: "smooth" }); });
+    document.body.appendChild(haut);
+    var avant = scrollY;
+    addEventListener("scroll", function () {
+      haut.classList.toggle("on", scrollY > 700);
+      // barre « Suivre GTA 6 » : cachée quand on descend (elle ne masque aucune carte), revient quand on remonte ou en bas de page
+      var sv = document.getElementById("suivre");
+      if (sv && page !== "carte") { var bas = innerHeight + scrollY >= document.documentElement.scrollHeight - 40; sv.classList.toggle("ct-masque", scrollY > 300 && scrollY > avant && !bas); }
+      avant = scrollY;
+    }, { passive: true });
+  }
+
+  if (page === "triches") triches();
   if (page === "trophees") trophees();
   else if (page === "carte") carte();
   else if (page === "collectibles") collectibles();
   else if (page === "missions") missions();
+  outils();
 })();

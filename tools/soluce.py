@@ -34,6 +34,25 @@ UI = {  # clé : (fr, en)
  "sl_lucia": ('Lucia seule', 'Lucia only'),
  "sl_jason": ('Jason seul', 'Jason only'),
  "sl_manquable": ('manquable', 'missable'),
+ "sl_tr_mode": ("Comment entrer un code", "How to enter a code"),
+ "sl_tr_e1": ("Sortez le téléphone", "Take out the phone"),
+ "sl_tr_e2": ("Maintenez", "Hold"),
+ "sl_tr_e2b": ("puis appuyez sur", "then press"),
+ "sl_tr_e3": ("Entrez la combinaison à la croix directionnelle", "Enter the combination on the D-pad"),
+ "sl_tr_e4": ("Combinaisons identiques sur PS5 et Xbox. Un code actif désactive trophées, succès et sauvegarde.", "Same combinations on PS5 and Xbox. An active code disables trophies, achievements and saving."),
+ "sl_tr_rech": ("Rechercher un code (véhicule, arme, argent…)", "Search a code (vehicle, weapon, money…)"),
+ "sl_conf_seul": ("Confirmés seulement", "Confirmed only"),
+ "sl_copier": ("Copier", "Copy"),
+ "sl_copie": ("Copié !", "Copied!"),
+ "sl_aconf": ("À confirmer", "To be confirmed"),
+ "sl_g_platine": ("Platine", "Platinum"), "sl_g_or": ("Or", "Gold"), "sl_g_argent": ("Argent", "Silver"), "sl_g_bronze": ("Bronze", "Bronze"),
+ "sl_manq_f": ("Manquables", "Missable"),
+ "sl_rev": ("Spoiler : touchez pour révéler", "Spoiler: tap to reveal"),
+ "sl_spoil_f": ("Les trophées d'histoire sont floutés : touchez-en un pour le révéler.", "Story trophies are blurred: tap one to reveal it."),
+ "sl_som": ("Sommaire", "Contents"),
+ "sl_rech_page": ("Rechercher sur la page", "Search this page"),
+ "sl_haut": ("Haut de page", "Back to top"),
+ "sl_n_res": ("résultats", "results"),
  "sl_optionnelles": ('Optionnelles', 'Optional'),
  "sl_principales": ('Principales', 'Main'),
  "sl_prologue": ('Prologue', 'Prologue'),
@@ -169,10 +188,14 @@ def main():
         if t.get("max"):
             cpt = f'<div class="cpt"><button type="button" class="moins" aria-label="-1">−</button><input type="number" min="0" max="{t["max"]}" value="0" inputmode="numeric" aria-label="{e(t["nom"])}"><span>/ {t["max"]}</span><button type="button" class="plus" aria-label="+1">+</button></div>'
         lien = f'<div class="lien"><a href="carte.html#c={t["couche"]}" data-i18n="sl_sur_carte">Sur la carte</a></div>' if t.get("couche") else ""
-        lis.append(f'<li class="tp{" spoil" if t["spoiler"] else ""}" data-id="{t["id"]}" data-cat="{t["cat"]}" data-grade="{t["grade"]}"{" data-max=%s" % t["max"] if t.get("max") else ""}{" hidden" if t["spoiler"] else ""}>'
-                   f'<input type="checkbox" aria-label="{e(t["nom"])}"><h3>{e(t["nom"])}<span class="gr gr-{t["grade"]}">{t["grade"]}</span></h3><p data-i18n="{kd}">{tx(t["fr"])}</p>{cpt}{lien}</li>')
+        rg = f'<img class="tp-ic" src="assets/img/soluce/ic/rang-{t["grade"]}.svg" alt="" width="40" height="40" loading="lazy">' if os.path.exists(f'assets/img/soluce/ic/rang-{t["grade"]}.svg') else ""
+        mq = '<span class="sl-badge ko" data-i18n="sl_manquable">manquable</span>' if t.get("manquable") else ""
+        lis.append(f'<li class="tp{" spoil" if t["spoiler"] else ""}" data-id="{t["id"]}" data-cat="{t["cat"]}" data-grade="{t["grade"]}"{" data-manq=1" if t.get("manquable") else ""}{" data-max=%s" % t["max"] if t.get("max") else ""}>'
+                   f'<input type="checkbox" aria-label="{e(t["nom"])}">{rg}<div class="tp-corps"><h3>{e(t["nom"])}</h3><p class="tp-meta"><span class="gr gr-{t["grade"]}" data-i18n="sl_g_{t["grade"]}">{UI["sl_g_" + t["grade"]][0]}</span>{mq}</p><p class="tp-desc" data-i18n="{kd}">{tx(t["fr"])}</p>{cpt}{lien}</div>'
+                   + ('<button type="button" class="tp-rev" data-i18n="sl_rev">Spoiler : touchez pour révéler</button>' if t["spoiler"] else "") + '</li>')
     filtres = '<button type="button" data-filtre="tout" aria-pressed="true" data-i18n="sl_tous">Tous</button>' + "".join(
-        f'<button type="button" data-filtre="{c}" aria-pressed="false" data-i18n="sl_cat_{c}">{UI["sl_cat_" + c][0]}</button>' for c in cats if c != "histoire")
+        f'<button type="button" data-filtre="{c}" aria-pressed="false" data-i18n="sl_cat_{c}">{UI["sl_cat_" + c][0]}</button>' for c in cats if c != "histoire") + '<span class="sl-sep"></span>' + "".join(
+        f'<button type="button" data-rang="{g}" aria-pressed="false" data-i18n="sl_g_{g}">{UI["sl_g_" + g][0]}</button>' for g in ("platine", "or", "argent", "bronze")) + '<button type="button" data-manqf="1" aria-pressed="false" data-i18n="sl_manq_f">Manquables</button>'
     # --- couches
     C = {c["id"]: c for c in CA["couches"]}
     rows, blocs = [], []
@@ -185,7 +208,8 @@ def main():
             kn = "cln_" + k(c["id"]); FR[kn], EN[kn] = c["note_fr"], c["note_en"]; note = f'<p data-i18n="{kn}">{tx(c["note_fr"])}</p>'
         tp = next((t for t in TP["trophees"] if t["id"] == c.get("trophee")), None)
         tpl = f'<p><span data-i18n="sl_trophee">Trophée</span> : <a href="trophees.html">{e(tp["nom"])}</a> ({tp["grade"]})</p>' if tp else ""
-        blocs.append(f'<div class="cl-bloc" id="{c["id"]}"><h2><span class="ct-pt" style="background:{c["couleur"]}"></span> <span data-i18n="{kc}">{tx(c["fr"])}</span> <small id="cln-{c["id"]}">0/{c["total"] or "?"}</small></h2>'
+        icl = f'<img class="sl-ic" src="assets/img/soluce/ic/cl-{c["id"]}.svg" alt="" width="32" height="32" loading="lazy">' if os.path.exists(f'assets/img/soluce/ic/cl-{c["id"]}.svg') else f'<span class="ct-pt" style="background:{c["couleur"]}"></span> '
+        blocs.append(f'<div class="cl-bloc" id="{c["id"]}"><h2>{icl}<span data-i18n="{kc}">{tx(c["fr"])}</span> <small id="cln-{c["id"]}">0/{c["total"] or "?"}</small></h2>'
                      f'{note}{tpl}<p><a href="carte.html#c={c["id"]}" data-i18n="sl_voir">Voir sur la carte</a></p><ul class="cl-pts" id="cl-{c["id"]}"><li class="cl-vide" data-i18n="sl_pts_vide">{tx(UI["sl_pts_vide"][0])}</li></ul></div>')
     table = '<table class="sl-table"><thead><tr><th data-i18n="sl_cat">Catégorie</th><th data-i18n="sl_nb">Nombre</th></tr></thead><tbody>' + "".join(rows) + "</tbody></table>"
     # --- missions
@@ -212,7 +236,7 @@ def main():
                 if m.get("perso"): tags.append(f'<span class="ms-tag" data-i18n="sl_{m["perso"]}">{"Jason seul" if m["perso"] == "jason" else "Lucia seule"}</span>')
                 if m["statut"] != "confirme": tags.append('<span class="ms-tag ko" data-i18n="sl_aconf_c">à confirmer</span>')
                 lis_m.append(f'<li><label><input type="checkbox" data-ms="ch{c["n"]}-{k(m["t"]).lower()}"> {e(m["t"])}</label> {" ".join(tags)}</li>')
-            chap_l += f'<h3>{nom}</h3><ol class="ms-liste">' + "".join(lis_m) + "</ol>"
+            chap_l += f'<details class="ms-chap"><summary><span class="ms-n">{c["n"]}</span><b>{nom}</b><small>{a} + {b}</small></summary><ol class="ms-liste">' + "".join(lis_m) + "</ol></details>"
         sources = " · ".join(f'<a href="{e(u)}" target="_blank" rel="noopener nofollow">{e(u.split("/")[2].replace("www.", ""))}</a>' for u in G6.get("missions_sources", []))
         chap_tab = ('<table class="sl-table"><thead><tr><th data-i18n="sl_chap">Chapitre</th><th data-i18n="sl_principales">Principales</th><th data-i18n="sl_optionnelles">Optionnelles</th></tr></thead><tbody>'
                     + "".join(rows) + f'<tr><th data-i18n="sl_total">Total</th><th>{tot[0]}</th><th>{tot[1]}</th></tr><tr><th data-i18n="sl_total_g">Total (principales + optionnelles)</th><th colspan="2">{tot[0] + tot[1]}</th></tr></tbody></table><p class="ct-etat"><span data-i18n="sl_sources_t">Sources</span> : {sources}</p>')
@@ -220,17 +244,37 @@ def main():
     trh = ""
     if G6.get("triches"):
         cats_tr = list(dict.fromkeys(t["cat"] for t in G6["triches"]))
+        ICT = {"Player": "player", "Combat": "combat", "Spawn Vehicle": "spawn", "Screen Filter": "filter", "Environment": "environment"}
+        def ic(nom): return f'<img class="sl-ic" src="assets/img/soluce/ic/{nom}.svg" alt="" width="28" height="28" loading="lazy">' if os.path.exists(f"assets/img/soluce/ic/{nom}.svg") else ""
+        FL = {"UP": ("u", "▲"), "DOWN": ("d", "▼"), "LEFT": ("l", "◀"), "RIGHT": ("r", "▶")}
+        trh += ('<div class="tr-mode"><h2 data-i18n="sl_tr_mode">Comment entrer un code</h2>'
+                '<div class="tr-plat" role="group"><button type="button" data-plat="ps" aria-pressed="true">PS5</button><button type="button" data-plat="xb" aria-pressed="false">Xbox Series</button></div>'
+                '<ol class="tr-etapes"><li><span data-i18n="sl_tr_e1">Sortez le téléphone</span> <kbd class="pad pad-u" aria-label="↑">▲</kbd></li>'
+                '<li><span data-i18n="sl_tr_e2">Maintenez</span> <kbd class="bt" data-ps="L1" data-xb="LB">L1</kbd> <span data-i18n="sl_tr_e2b">puis appuyez sur</span> <kbd class="bt" data-ps="R1" data-xb="RB">R1</kbd></li>'
+                '<li><span data-i18n="sl_tr_e3">Entrez la combinaison à la croix directionnelle</span> <kbd class="pad pad-u">▲</kbd><kbd class="pad pad-r">▶</kbd><kbd class="pad pad-d">▼</kbd><kbd class="pad pad-l">◀</kbd></li></ol>'
+                '<p class="tr-note" data-i18n="sl_tr_e4">Combinaisons identiques sur PS5 et Xbox. Un code actif désactive trophées, succès et sauvegarde.</p></div>')
+        trh += ('<div class="sl-outils"><input type="search" id="tr-q" data-i18n-ph="sl_tr_rech" placeholder="Rechercher un code (véhicule, arme, argent…)" autocomplete="off">'
+                '<div class="sl-chips" id="tr-f"><button type="button" data-trf="" aria-pressed="true" data-i18n="sl_tous">Tous</button>'
+                + "".join(f'<button type="button" data-trf="{k(ct).lower()}" aria-pressed="false" data-i18n="sl_cat_tr_{ct}">{tx(UI.get("sl_cat_tr_" + ct, (ct,))[0])}</button>' for ct in cats_tr)
+                + '<button type="button" data-trc="1" aria-pressed="false" data-i18n="sl_conf_seul">Confirmés seulement</button></div><p class="sl-nb" id="tr-nb"></p></div>')
         for ct in cats_tr:
             lst = [t for t in G6["triches"] if t["cat"] == ct]
-            trh += f'<h2 id="tr-{k(ct).lower()}"><span data-i18n="sl_cat_tr_{ct}">{tx(UI.get("sl_cat_tr_" + ct, (ct,))[0])}</span> ({len(lst)})</h2><div class="tr-grille">'
+            trh += f'<section class="tr-cat" data-cat="{k(ct).lower()}"><h2 id="tr-{k(ct).lower()}">{ic("tr-" + ICT.get(ct, "player"))}<span data-i18n="sl_cat_tr_{ct}">{tx(UI.get("sl_cat_tr_" + ct, (ct,))[0])}</span> <small>{len(lst)}</small></h2><div class="tr-grille">'
             for t in lst:
                 ke, kd = "tre_" + k(t["id"]), "trd_" + k(t["id"])
                 FR[ke], EN[ke] = t["fr"][:1].upper() + t["fr"][1:], t["en"][:1].upper() + t["en"][1:]
                 FR[kd], EN[kd] = t["deblocage_fr"], t["deblocage_en"]
-                code = (f'<code>{e(t["code"].replace(" > ", " → "))}</code>' + ('' if t["code_statut"] == "confirme" else ' <span class="ms-tag ko" data-i18n="sl_aconf_c">à confirmer</span>')) if t["code"] else '<em data-i18n="sl_tr_inc">pas encore connue</em>'
-                trh += (f'<div class="tr-carte"><h3>{e(t["nom"])}</h3><p data-i18n="{ke}">{tx(FR[ke])}</p>'
-                        f'<p><b data-i18n="sl_tr_code">Combinaison</b> : {code}</p><p><b data-i18n="sl_tr_deb">Déblocage</b> : <span data-i18n="{kd}">{tx(t["deblocage_fr"])}</span></p></div>')
-            trh += "</div>"
+                ok = t["code"] and t["code_statut"] == "confirme"
+                badge = '<span class="sl-badge ok" data-i18n="sl_conf">Confirmé</span>' if ok else '<span class="sl-badge ko" data-i18n="sl_aconf">À confirmer</span>'
+                if t["code"]:
+                    fl = [FL.get(x.strip(), ("", x.strip())) for x in t["code"].split(">")]
+                    seq = "".join(f'<kbd class="pad pad-{c}">{g}</kbd>' for c, g in fl)
+                    code = f'<div class="tr-seq" data-code="{" ".join(g for _, g in fl)}">{seq}</div><button type="button" class="tr-copie" data-i18n="sl_copier">Copier</button>'
+                else:
+                    code = '<p class="tr-inc" data-i18n="sl_tr_inc">pas encore connue</p>'
+                trh += (f'<article class="tr-carte" data-st="{"ok" if ok else "ko"}"><header><h3>{e(t["nom"])}</h3>{badge}</header><p class="tr-eff" data-i18n="{ke}">{tx(FR[ke])}</p>'
+                        f'<div class="tr-code">{code}</div><p class="tr-deb"><b data-i18n="sl_tr_deb">Déblocage</b> : <span data-i18n="{kd}">{tx(t["deblocage_fr"])}</span></p></article>')
+            trh += "</div></section>"
         trh += '<p class="ct-etat"><span data-i18n="sl_sources_t">Sources</span> : ' + " · ".join(f'<a href="{e(u)}" target="_blank" rel="noopener nofollow">{e(u.split("/")[2].replace("www.", ""))}</a>' for u in G6.get("triches_sources", [])) + "</p>"
     # --- articles soluce (titres dans les 17 langues depuis data/articles.json)
     ARTS = {a["id"]: a for a in json.load(open("data/articles.json", encoding="utf-8"))}
