@@ -1,1 +1,2 @@
 18/11/2026 18:39 | trouvées 1 | publiées 1 | en attente 0 | https://gtavifrance.com/journal/2026-11-18-liste-officielle-55-trophees-gta6-ps5.html (liste officielle PSN 55 trophées via PSNProfiles, publiée à la main par GTAVIFRANCE V8)
+18/11/2026 19:07 | trouvées 0 vérifiées (PSNProfiles : 55 trophées, 1 350 pts, inchangé) | publiées 0 | en attente 0 (sources soluce 403 ou fan wikis non fiables) | https://gtavifrance.com/journal/2026-11-18-liste-officielle-55-trophees-gta6-ps5.html
