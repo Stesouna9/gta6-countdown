@@ -111,7 +111,7 @@
           i.addEventListener("change", function () { if (i.checked) { groupes[id].addTo(map); delete S.o["off_" + id]; } else { map.removeLayer(groupes[id]); S.o["off_" + id] = 1; } sauve(); });
         });
         var e = document.getElementById("ct-etat");
-        if (e) e.textContent = D.points.length ? D.points.length + " " + tr("sl_pts_ok", "points placés sur la carte") : tr("sl_pts_vide", "Les emplacements sont ajoutés dès qu'ils sont vérifiés (2 sources concordantes ou source officielle).");
+        if (e) e.textContent = D.points.length ? D.points.length + " " + tr("sl_pts_ok", "points placés sur la carte") + " · " + tr("sl_conf_n", "confirmés") + " : " + D.points.filter(function (p) { return p.statut === "confirme"; }).length + "/" + D.points.length : tr("sl_pts_vide", "Les emplacements sont ajoutés dès qu'ils sont vérifiés (2 sources concordantes ou source officielle).");
       }
       dessine(); panneau();
       var cf = document.getElementById("ct-faits"); if (cf) { cf.checked = cacheFaits; cf.addEventListener("change", function () { cacheFaits = S.o.cfaits = cf.checked; sauve(); dessine(); }); }

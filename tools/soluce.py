@@ -28,7 +28,7 @@ UI = {  # clé : (fr, en)
  "sl_t_tr": ('61 codes de triche', '61 cheat codes'),
  "sl_d_tr": ("Toutes les combinaisons PS5 et Xbox et comment débloquer chaque code.", "Every PS5 and Xbox combo and how to unlock each code."),
  "nav_triches": ('Codes de triche', 'Cheat codes'),
- "sl_total": ('Total', 'Total'), "sl_total_g": ('Total (principales + optionnelles)', 'Total (main + optional)'),
+ "sl_conf_n": ('confirmés (2 sources nomment le lieu)', 'confirmed (2 sources name the place)'), "sl_total": ('Total', 'Total'), "sl_total_g": ('Total (principales + optionnelles)', 'Total (main + optional)'),
  "sl_ms_tab": ('Nombre de missions par chapitre', 'Missions per chapter'),
  "sl_aconf_c": ('à confirmer', 'to be confirmed'),
  "sl_lucia": ('Lucia seule', 'Lucia only'),
