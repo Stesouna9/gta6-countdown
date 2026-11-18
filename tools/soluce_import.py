@@ -120,18 +120,18 @@ def triches(L, gbt):
     gbs = "\n".join(gbt)
     blocs = {}
     for m in re.finditer(r"^(.+?) Cheat\n(.+?)\nHow to unlock: (.+?)\n(Combo TBA\n)?", gbs, re.M):
-        blocs[norm(m.group(1))] = {"tba": bool(m.group(4)), "unlock": m.group(3)}
+        blocs[norm(m.group(1))] = {"tba": bool(m.group(4)), "unlock": m.group(3), "eff": m.group(2).rstrip(".")}
     out, cat = [], None
     for i, l in enumerate(L):
         m = re.match(r"^(.+?) Cheats \((\d+) Total\)$", l)
         if m: cat = m.group(1); continue
         if cat and l.startswith("Cheat Code:") and i >= 1:
             nom_eff = L[i - 1]
-            if " - " not in nom_eff: continue
-            nom, eff = nom_eff.split(" - ", 1)
+            nom, eff = nom_eff.split(" - ", 1) if " - " in nom_eff else (nom_eff, "")
             code = l.split(":", 1)[1].strip()
             unl = L[i + 1].split(":", 1)[1].strip() if i + 1 < len(L) and L[i + 1].startswith("Unlock") else ""
             g = blocs.get(norm(nom)) or blocs.get(norm(re.sub(r"^Spawn ", "", nom))) or next((v for k, v in blocs.items() if norm(nom) in k or k in norm(nom)), None)
+            eff = eff or (g or {}).get("eff", "")
             code_ok = code and "?" not in code and g and not g["tba"]
             out.append({"id": slug(nom), "cat": cat, "nom": nom.strip(), "en": eff.strip(), "deblocage_en": unl,
                         "code": code if "?" not in code else "", "statut": "confirme" if g else "a_confirmer",

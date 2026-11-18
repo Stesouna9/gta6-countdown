@@ -591,7 +591,10 @@
   "Spawns a Western Zombie Bobber": "Fait apparaître un Bobber zombie occidental",
   "Applies a black & white CRT TV filter": "Applique un filtre TV CRT noir et blanc",
   "Kill 25 enemies with a vehicle (driving over civilians counts too)": "Tuez 25 ennemis avec un véhicule (conduire sur des civils compte aussi)",
-  "Discover the Ridgeway": "Découvrez le Ridgeway"
+  "Discover the Ridgeway": "Découvrez le Ridgeway",
+  "Freezes the time of day": "Gèle l'heure de la journée",
+  "Changes the weather, cycling through the different weather types": "Modifie la météo, en parcourant les différents types de temps",
+  "Find 20 collectible watches.": "Trouvez 20 montres de collection."
  },
  "chapitres": [
   {
@@ -2181,6 +2184,30 @@
    "code_statut": "inconnu",
    "fr": "Avance l’heure de la journée",
    "deblocage_fr": "Trouvez 10 montres de collection."
+  },
+  {
+   "id": "pause-time-of-day",
+   "cat": "Environment",
+   "nom": "Pause Time of Day",
+   "en": "Freezes the time of day",
+   "deblocage_en": "Find 20 collectible watches.",
+   "code": "",
+   "statut": "confirme",
+   "code_statut": "inconnu",
+   "fr": "Gèle l'heure de la journée",
+   "deblocage_fr": "Trouvez 20 montres de collection."
+  },
+  {
+   "id": "cycle-weather",
+   "cat": "Environment",
+   "nom": "Cycle Weather",
+   "en": "Changes the weather, cycling through the different weather types",
+   "deblocage_en": "Finish the story",
+   "code": "DOWN > RIGHT > UP > DOWN > RIGHT > UP > RIGHT",
+   "statut": "confirme",
+   "code_statut": "confirme",
+   "fr": "Modifie la météo, en parcourant les différents types de temps",
+   "deblocage_fr": "Terminez l'histoire"
   },
   {
    "id": "golden-hour",
