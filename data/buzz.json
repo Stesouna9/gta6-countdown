@@ -1,8 +1,67 @@
 {
  "title": "Le buzz GTA6",
- "updated_at": "2026-11-18T00:12:58+01:00",
+ "updated_at": "2026-11-18T08:13:15+01:00",
  "schedule": "Veille toutes les 2 h, de 8 h à minuit",
  "items": [
+  {
+   "id": "x-firmware-ps5-piratage-gtavi-countdown-2026-11-18",
+   "title": "GTA 6 : une mise à jour PS5 serait exigée pour jouer, après une faille de piratage",
+   "summary": "Selon @GTAVI_Countdown, Sony confirmerait qu'il faut la dernière mise à jour du firmware PS5 pour lancer GTA 6, publiée la veille après la découverte d'une faille qui aurait permis de pirater le jeu. Aucune déclaration de Sony n'a été retrouvée à ce stade.",
+   "url": "https://x.com/GTAVI_Countdown/status/2122878845023899792",
+   "platform": "X",
+   "author": "@GTAVI_Countdown",
+   "status": "Rumeur",
+   "published_at": "2026-11-18T02:25:32.000Z",
+   "checked_at": "2026-11-18T08:13:15+01:00",
+   "evidence": "Vues relevées le 2026-11-18 dans data/x_alertes.json : @GTAVI_Countdown 77 129 vues (02 h 25 UTC, 2 733 j'aime, 144 reposts). Un seul compte, aucune corroboration dans data/presse.json.",
+   "visual": "FIRMWARE PS5",
+   "image": "https://pbs.twimg.com/media/HXX60MVXwAADBPI?format=jpg&name=360x360",
+   "image_alt": "Visuel publié par @GTAVI_Countdown sur X au sujet de la mise à jour PS5 exigée pour GTA 6",
+   "image_credit": "@GTAVI_Countdown sur X",
+   "embed_type": "x",
+   "cta": "Ouvrir la publication sur X",
+   "post_text": "Sony just confirmed the latest PS5 firmware updated is required to play GTA 6. The update was released yesterday after an exploit was discovered that could've allowed pirating the game."
+  },
+  {
+   "id": "x-ps5-pro-bundle-heat-gtavi-countdown-2026-11-18",
+   "title": "GTA 6 : un bundle PS5 Pro réservé aux joueurs du Miami Heat",
+   "summary": "Selon @GTAVI_Countdown, un bundle PS5 Pro GTA 6 serait envoyé uniquement aux joueurs du Miami Heat, dans une valisette avec deux manettes DualSense en édition limitée et le jeu. Hypebeast relaie l'information, sans précision de disponibilité publique.",
+   "url": "https://x.com/GTAVI_Countdown/status/2122865201343279576",
+   "platform": "X",
+   "author": "@GTAVI_Countdown",
+   "status": "Rapporté",
+   "published_at": "2026-11-18T01:31:19.000Z",
+   "checked_at": "2026-11-18T08:13:15+01:00",
+   "evidence": "Vues relevées le 2026-11-18 dans data/x_alertes.json : @GTAVI_Countdown 355 134 vues (01 h 31 UTC, 10 954 j'aime, 781 reposts). Corroboration : Hypebeast (18/11, 04 h 44 UTC) rapporte des PS5 Pro personnalisées pour les joueurs du Miami Heat.",
+   "corroboration": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNek5tbzFfWTlUWGNnVnVFMGEzQVJydENYaEVfdWhYbU1Da2J2RUNTRWNEemNPNjBXbmNxbDRfV29oa01sWndpRDZhbUVrMVEyZUpBUEJnSVVja09ZRmtxOUoxSmdpX3Q2OFZBMWUzdEw4all6MEc5Mmw4YmVQc0d6V19ZZmV0WWhwZ0lpcGFldzdUUUNVd1pnOE9OSmhHbFc2dVl6M2podC1GYzg0UzFhTjN3?oc=5",
+   "visual": "PS5 PRO",
+   "image": "https://pbs.twimg.com/amplify_video_thumb/2122862817812377600/img/49KhZfvTfFzZfTWv.jpg",
+   "image_alt": "Vidéo de @GTAVI_Countdown présentant le bundle PS5 Pro GTA 6 pour le Miami Heat, publiée sur X",
+   "image_credit": "@GTAVI_Countdown sur X",
+   "embed_type": "x",
+   "cta": "Ouvrir la publication sur X",
+   "post_text": "PS5 Pro - GTA 6 bundle has been revealed. It's being sent exclusively to Miami Heat players in a custom suitcase with 2 Limited Edition DualSense Controllers and a copy of the game."
+  },
+  {
+   "id": "x-embargo-tests-gtavi-countdown-2026-11-18",
+   "title": "GTA 6 : les tests seraient publiés dès la première ouverture en Nouvelle-Zélande",
+   "summary": "Selon @GTAVI_Countdown, l'embargo des tests se lèverait partout dans le monde dès que le jeu sera débloqué en Nouvelle-Zélande, avec de nouvelles captures et le score Metacritic. Le compte ne cite pas de source officielle.",
+   "url": "https://x.com/GTAVI_Countdown/status/2122853147504746751",
+   "platform": "X",
+   "author": "@GTAVI_Countdown",
+   "status": "Rapporté",
+   "published_at": "2026-11-18T00:43:25.000Z",
+   "checked_at": "2026-11-18T08:13:15+01:00",
+   "evidence": "Vues relevées le 2026-11-18 dans data/x_alertes.json : @GTAVI_Countdown 1 080 374 vues (00 h 43 UTC, 10 272 j'aime, 512 reposts). Corroboration partielle : ThePCEnthusiast (17/11) annonce des tests attendus le 18 novembre.",
+   "corroboration": "https://thepcenthusiast.com/gta-6-reviews-metacritic-score-embargo/",
+   "visual": "EMBARGO TESTS",
+   "image": "https://pbs.twimg.com/media/HXXjjPDWAAA7fzP?format=jpg&name=small",
+   "image_alt": "Post de @GTAVI_Countdown annonçant le calendrier mondial de l'embargo des tests de GTA VI, publié sur X",
+   "image_credit": "@GTAVI_Countdown sur X",
+   "embed_type": "x",
+   "cta": "Ouvrir la publication sur X",
+   "post_text": "Worldwide GTA 6 review embargo schedule. Reviews will go live globally as soon as the game first unlocks in New Zealand, alongside new screenshots and the Metacritic score."
+  },
   {
    "id": "x-precharge-ps5-playstation-2026-11-17",
    "title": "GTA 6 : PlayStation rappelle que le préchargement est ouvert sur PS5",
@@ -4713,6 +4772,11 @@
    "at": "2026-11-18T00:12:58+01:00",
    "label": "Passage Claude Haiku (Matière X, 18/11, 00 h)",
    "summary": "Relevé data/x_alertes.json (maj 23 h 03 UTC, 18 posts) : 2 sujets ajoutés. Préchargement PS5 rappelé par @PlayStation (238 697 vues). Liste de casting mise à jour par @GTAVI_Countdown (193 508 vues, rôles non confirmés marqués). Écartés : captures d'écran (@GTAVI_Countdown 8 416 vues, @gtasix_ 4 728, redondant avec les captures déjà publiées), « 1 sleep away » et « 13 hours until » (compte à rebours, même sujet que l'item moins de 24 h), posts de Digital Foundry, billboard Miami et explication de Rockstar (un seul compte, sous 20 000 vues)."
+  },
+  {
+   "at": "2026-11-18T08:13:15+01:00",
+   "label": "Passage Claude Haiku (Matière X, 18/11, relevé 06 h 15 UTC)",
+   "summary": "Relevé data/x_alertes.json (maj 06 h 15 UTC, 19 posts) : 3 sujets ajoutés. Embargo des tests et calendrier mondial (@GTAVI_Countdown, 1 080 374 vues, corroboration partielle ThePCEnthusiast) ; bundle PS5 Pro pour le Miami Heat (@GTAVI_Countdown, 355 134 vues, Hypebeast) ; mise à jour PS5 exigée après faille (@GTAVI_Countdown, 77 129 vues, Rumeur). Écartés : « Goodbye Michael, Franklin and Trevor » (@GTAVI_Countdown, 154 954 vues, message sans fait vérifiable), « 24 hours left » (50 438 vues, compte à rebours), posts de @gtasix_ et @GTAlphaintel sous 20 000 vues, posts de @gta6hubfr et RockstarNewsFRA (sous 2 000 vues)."
   }
  ],
  "coverage": {
