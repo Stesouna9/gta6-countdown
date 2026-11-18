@@ -175,7 +175,7 @@
         var c = C[p.couche] || {};
         html += '<li class="lf-item' + (S.p[p.id] ? " fait" : "") + '"><input type="checkbox" data-pt="' + esc(p.id) + '"' + (S.p[p.id] ? " checked" : "") + ' aria-label="' + esc(tr("sl_trouve", "Trouvé")) + '">' +
           (c.icone ? '<img src="' + R + c.icone + '" alt="" width="26" height="26">' : "<span></span>") +
-          "<div><b>" + esc(txt(p) || p.id) + '</b> <span class="ms-tag">' + esc(txt(c)) + '</span> <span class="ms-tag' + (p.statut === "confirme" ? "" : " ko") + '">' + esc(p.statut === "confirme" ? tr("sl_conf", "Confirmé") : tr("sl_aconf", "À confirmer")) + "</span>" +
+          "<div><b>" + esc(txt(p) || p.id) + "</b>" + (txt(p) !== p.en ? '<small class="tr-off" lang="en">' + esc(p.en) + "</small>" : "") + ' <span class="ms-tag">' + esc(txt(c)) + '</span> <span class="ms-tag' + (p.statut === "confirme" ? "" : " ko") + '">' + esc(p.statut === "confirme" ? tr("sl_conf", "Confirmé") : tr("sl_aconf", "À confirmer")) + "</span>" +
           (txt(p, "note_") ? "<p>" + esc(txt(p, "note_")) + "</p>" : "") +
           '<small>' + esc(tr("sl_source", "Source")) + " : " + (p.sources || []).map(function (u) { return '<a href="' + esc(u) + '" target="_blank" rel="noopener nofollow">' + esc(dom(u)) + "</a>"; }).join(" · ") + "</small></div></li>";
       });
@@ -202,7 +202,7 @@
           var der = null;
           ul.innerHTML = pts.length ? pts.map(function (p) {
             var h = ""; if (p.region !== der) { der = p.region; h = '<li class="cl-reg">' + esc((RG[p.region] || [0, tr("sl_f_noreg", "Région non précisée")])[1]) + "</li>"; }
-            return h + '<li><input type="checkbox" data-pt="' + esc(p.id) + '"' + (S.p[p.id] ? " checked" : "") + '><div><b>' + esc(txt(p) || p.id) + "</b>" + "" +
+            return h + '<li><input type="checkbox" data-pt="' + esc(p.id) + '"' + (S.p[p.id] ? " checked" : "") + '><div><b>' + esc(txt(p) || p.id) + "</b>" + (txt(p) !== p.en ? '<small class="tr-off" lang="en">' + esc(p.en) + "</small>" : "") +
               (txt(p, "note_") ? "<br><small>" + esc(txt(p, "note_")) + "</small>" : "") + "<br><small>" + (p.statut === "confirme" ? esc(tr("sl_conf", "Confirmé")) : esc(tr("sl_aconf", "À confirmer"))) +
               (p.x != null ? ' · <a href="carte.html#p=' + encodeURIComponent(p.id) + '">' + esc(tr("sl_voir", "Voir sur la carte")) + "</a>" : "") + "</small></div></li>";
           }).join("") : '<li class="cl-vide">' + esc(tr("sl_pts_vide", "Les emplacements sont ajoutés dès qu'ils sont vérifiés (2 sources concordantes ou source officielle).")) + "</li>";
@@ -244,6 +244,7 @@
         sec.hidden = !vis; n += vis;
       });
       var nb = document.getElementById("tr-nb"); if (nb) nb.textContent = n + " / " + cartes.length;
+      [].forEach.call(document.querySelectorAll(".tr-off"), function (o) { var h = o.parentNode.querySelector("h3"); o.hidden = !h || norm(h.textContent) === norm(o.textContent); });
     }
     [].forEach.call(document.querySelectorAll("[data-plat]"), function (b) { b.addEventListener("click", function () { plat = S.o.plat = b.getAttribute("data-plat"); sauve(); maj(); }); });
     [].forEach.call(document.querySelectorAll("[data-trf]"), function (b) { b.addEventListener("click", function () { cat = b.getAttribute("data-trf"); maj(); }); });

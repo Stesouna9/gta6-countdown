@@ -262,8 +262,11 @@ def main():
         if CA.get("fond_officiel") and q.get("x") is not None and q.get("y") is not None and len(set(q.get("captures", []))) >= 2:
             p["x"], p["y"], p["captures"] = q["x"], q["y"], q["captures"]
     traduit([p["note_en"] for p in pts if "note_fr" not in p], cache)
+    # nom français traduit ; le nom anglais du guide reste affiché en petit
+    # seuls les noms descriptifs (méditation) se traduisent ; enseignes, banques, garages, courses : noms propres gardés
+    traduit([p["en"] for p in pts if p["couche"] == "meditation"], cache)
     for p in pts:
-        p["fr"] = p["en"]
+        p["fr"] = cache.get(p["en"], p["en"]).replace("# ", "#") if p["couche"] == "meditation" else p["en"]
         if "note_fr" not in p: p["note_fr"] = cache[p["note_en"]]
     CA["points"] = gardes + pts
     # totaux confirmés par les deux check-lists 100 %

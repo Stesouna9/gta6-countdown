@@ -158,6 +158,7 @@ def main():
     CA = json.load(open("data/carte.json", encoding="utf-8"))
     G6 = json.load(open("data/soluce/gta6.json", encoding="utf-8"))
     FR, EN = {}, {}
+    autres = {l: {} for l in LANGS if l not in ("fr", "en")}
     for key, (f, en) in UI.items(): FR[key], EN[key] = f, en
     # chiffres des missions et des lieux calculés depuis les données (même ventilation partout)
     ch = G6.get("chapitres") or []
@@ -244,6 +245,8 @@ def main():
     trh = ""
     if G6.get("triches"):
         cats_tr = list(dict.fromkeys(t["cat"] for t in G6["triches"]))
+        # noms français des codes (le nom officiel anglais reste affiché en petit) ; noms propres (véhicules, filtres) inchangés
+        TRN = {"Drunk": "Ivre", "Raise Heat Level": "Augmenter la chaleur", "Raise Wanted Level": "Augmenter le niveau de recherche", "Unlimited Focus": "Concentration illimitée", "No Fall Damage": "Pas de dégâts de chute", "Parachute": "Parachute", "Body Armor": "Gilet pare-balles", "Repair Vehicle": "Réparer le véhicule", "Unlimited Nitrous": "Nitro illimitée", "Max Ammo": "Munitions au maximum", "Infinite Ammo": "Munitions infinies", "No Reload": "Sans rechargement", "All Explosive Weapons": "Toutes les armes explosives", "Incendiary Ammo": "Munitions incendiaires", "Exploding Bottles": "Bouteilles explosives", "Explosive Shotgun": "Fusil à pompe explosif", "Attack Force": "Force d'attaque", "Exploding Balls": "Balles explosives", "Vehicle Force": "Force des véhicules", "Inflatable Flamingo": "Flamant rose gonflable", "Move Time Forward": "Avancer l'heure", "Pause Time of Day": "Figer l'heure", "Cycle Weather": "Changer la météo", "Golden Hour": "Heure dorée", "Powdered Sugar": "Sucre glace", "Neon Jungle": "Jungle néon", "Yesteryear": "Autrefois", "Videotape": "Cassette vidéo", "Dark Mirror": "Miroir sombre", "Dollhouse": "Maison de poupée", "Fast Forward": "Avance rapide", "Fisheye": "Fish-eye", "Faded Glory": "Gloire fanée", "Pixel Art": "Pixel art", "Hellscape": "Paysage infernal", "$250,000": "250 000 $", "Interstate Ambulance": "Ambulance Interstate"}
         ICT = {"Player": "player", "Combat": "combat", "Spawn Vehicle": "spawn", "Screen Filter": "filter", "Environment": "environment"}
         def ic(nom): return f'<img class="sl-ic" src="assets/img/soluce/ic/{nom}.svg" alt="" width="28" height="28" loading="lazy">' if os.path.exists(f"assets/img/soluce/ic/{nom}.svg") else ""
         FL = {"UP": ("u", "▲"), "DOWN": ("d", "▼"), "LEFT": ("l", "◀"), "RIGHT": ("r", "▶")}
@@ -272,13 +275,15 @@ def main():
                     code = f'<div class="tr-seq" data-code="{" ".join(g for _, g in fl)}">{seq}</div><button type="button" class="tr-copie" data-i18n="sl_copier">Copier</button>'
                 else:
                     code = '<p class="tr-inc" data-i18n="sl_tr_inc">pas encore connue</p>'
-                trh += (f'<article class="tr-carte" data-st="{"ok" if ok else "ko"}"><header><h3>{e(t["nom"])}</h3>{badge}</header><p class="tr-eff" data-i18n="{ke}">{tx(FR[ke])}</p>'
+                kn = "trn_" + k(t["id"]); FR[kn], EN[kn] = TRN.get(t["nom"], t["nom"]), t["nom"]
+                if t["nom"] not in TRN or t["nom"] == "Parachute":  # nom propre : identique dans toutes les langues
+                    for l in autres: autres[l][kn] = t["nom"]
+                trh += (f'<article class="tr-carte" data-st="{"ok" if ok else "ko"}"><header><div><h3 data-i18n="{kn}">{e(FR[kn])}</h3><small class="tr-off" lang="en">{e(t["nom"])}</small></div>{badge}</header><p class="tr-eff" data-i18n="{ke}">{tx(FR[ke])}</p>'
                         f'<div class="tr-code">{code}</div><p class="tr-deb"><b data-i18n="sl_tr_deb">Déblocage</b> : <span data-i18n="{kd}">{tx(t["deblocage_fr"])}</span></p></article>')
             trh += "</div></section>"
         trh += '<p class="ct-etat"><span data-i18n="sl_sources_t">Sources</span> : ' + " · ".join(f'<a href="{e(u)}" target="_blank" rel="noopener nofollow">{e(u.split("/")[2].replace("www.", ""))}</a>' for u in G6.get("triches_sources", [])) + "</p>"
     # --- articles soluce (titres dans les 17 langues depuis data/articles.json)
     ARTS = {a["id"]: a for a in json.load(open("data/articles.json", encoding="utf-8"))}
-    autres = {l: {} for l in LANGS if l not in ("fr", "en")}
     arts = []
     for i, aid in enumerate(G6.get("hub_articles", [])):
         a = ARTS.get(aid)
