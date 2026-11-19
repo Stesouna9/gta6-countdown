@@ -128,7 +128,10 @@
     var gC = {}, mkC = {};
     D.couches.forEach(function (c) { gC[c.id] = L.layerGroup(); if (!S.o["cx_off_" + c.id]) gC[c.id].addTo(mo); });
     function icoC(p, i, n) {
-      var c = C[p.couche] || {}, r0 = n > 1 ? 13 + n * 2.4 : 0, a = i / n * 2 * Math.PI - Math.PI / 2, dx = Math.round(r0 * Math.cos(a)), dy = Math.round(r0 * Math.sin(a));
+      var c = C[p.couche] || {}, dx = 0, dy = 0;
+      /* petit groupe : anneau ; gros groupe : disque compact en spirale (tournesol) */
+      if (n > 1 && n <= 7) { var r0 = 13 + n * 2.4, a = i / n * 2 * Math.PI - Math.PI / 2; dx = Math.round(r0 * Math.cos(a)); dy = Math.round(r0 * Math.sin(a)); }
+      else if (n > 7) { var rr = 15 * Math.sqrt(i + .5), aa = i * 2.39996; dx = Math.round(rr * Math.cos(aa)); dy = Math.round(rr * Math.sin(aa)); }
       return L.divIcon({ className: "cx-ic" + (S.p[p.id] ? " fait" : ""), html: '<i style="background:' + esc(c.couleur) + '"><img src="' + R + esc(c.icone) + '" alt=""></i>', iconSize: [26, 26], iconAnchor: [13 - dx, 13 - dy], popupAnchor: [dx, dy - 14] });
     }
     function popC(p) {
@@ -145,7 +148,7 @@
         l0.forEach(function (p, i) {
           if (!gC[p.couche]) return;
           mkC[p.id] = L.marker(ll(o), { icon: icoC(p, i, l0.length), riseOnHover: true, title: txt(p) || p.id, keyboard: true })
-            .bindPopup(function () { return popC(p); }, { className: "cx-popup", maxWidth: 290 }).addTo(gC[p.couche]);
+            .bindPopup(function () { return popC(p); }, { className: "cx-popup", maxWidth: 290, autoPanPaddingTopLeft: [10, 70], autoPanPaddingBottomRight: [70, 10] }).addTo(gC[p.couche]);
         });
       });
     }
@@ -171,7 +174,7 @@
       var zc = sansVol ? mo.getZoom() : Math.max(mo.getZoom(), mo.getMinZoom() + 2), dx = (!mob && !pan.hidden) ? (pan.offsetWidth + 66) / 2 : 0;
       var cible = dx ? mo.unproject(mo.project(p, zc).add([dx, 0]), zc) : p;
       if (!sansVol) mo.flyTo(cible, zc, { duration: .7 }); else if (dx) mo.setView(cible, zc, { animate: false });
-      var pu = L.popup({ offset: [0, -6], className: "cx-popup", maxWidth: 280 }).setLatLng(p).setContent(popLieu(o)); pu._cxLieu = 1; pu.openOn(mo);
+      var pu = L.popup({ offset: [0, -6], className: "cx-popup", maxWidth: 280, autoPanPaddingTopLeft: [10, 70], autoPanPaddingBottomRight: [70, 10] }).setLatLng(p).setContent(popLieu(o)); pu._cxLieu = 1; pu.openOn(mo);
       etat("l=" + encodeURIComponent(o.n));
       if (mob) pan.hidden = true, majPanBtn();
     }
