@@ -98,12 +98,11 @@
         if (D.fond_officiel) {
           el.classList.add("ct-schema", "ct-off");
           var OW = D.fond_officiel_l || 2200, OH = D.fond_officiel_h || 3012, OB = [[0, 0], [OH, OW]];
-          var mo = L.map(el, { crs: L.CRS.Simple, minZoom: -4, maxZoom: 1, zoomSnap: 0.25, scrollWheelZoom: false, dragging: !L.Browser.mobile, tap: true });
+          var mo = L.map(el, { crs: L.CRS.Simple, minZoom: -4, maxZoom: 1, zoomSnap: 0.25, scrollWheelZoom: false, dragging: true, tap: true });
           L.imageOverlay(R + D.fond_officiel, OB, { alt: "Leonida" }).addTo(mo);
           function cadre() { mo.invalidateSize(); mo.fitBounds(OB); mo.setMinZoom(mo.getZoom()); }
           cadre(); mo.setMaxBounds([[-OH * .05, -OW * .05], [OH * 1.05, OW * 1.05]]);
           mo.on("resize", cadre); setTimeout(cadre, 200);
-          if (L.Browser.mobile) mo.on("zoomend", function () { if (mo.getZoom() > mo.getMinZoom() + .1) mo.dragging.enable(); else mo.dragging.disable(); });
           mo.attributionControl.setPrefix(false).addAttribution(esc(tr("sl_attr_off", "Carte officielle Rockstar Games")));
           /* recherche d'un lieu écrit sur la carte officielle : zoome dessus et donne la case du quadrillage */
           var LO = D.lieux_officiels || [], kx = OW / 1000, pin = null;
@@ -136,6 +135,58 @@
           });
           el.parentNode.insertBefore(rz, el);
           document.addEventListener("langchange", phr);
+          /* 19/11 soir : vraie interactivité. 87 noms de la carte cliquables, case du quadrillage au toucher, repères perso enregistrés sur l'appareil */
+          function caseDe(ll) {
+            var x = ll.lng / kx, y = (OH - ll.lat) / kx;
+            var c = Math.min(9, Math.max(1, Math.floor((x - 33) / 103.75) + 1)), r = "ABCDEFGHIJKLM".charAt(Math.min(12, Math.max(0, Math.floor((y - 22) / 102))));
+            return r + c;
+          }
+          var gL = L.layerGroup().addTo(mo);
+          LO.forEach(function (o) {
+            L.circleMarker([OH - o.y * kx, o.x * kx], { radius: 7, color: "#fff", weight: 2, fillColor: "#ff2e88", fillOpacity: .9 })
+              .bindTooltip(esc(o.n), { direction: "top", offset: [0, -6] })
+              .bindPopup("<b>" + esc(o.n) + "</b><br><small>" + esc(tr("sl_off_case", "Case")) + " " + esc(o.case) + "</small>").addTo(gL);
+          });
+          var RK = "carte-reperes", MR = [], gM = L.layerGroup().addTo(mo), pose = false;
+          try { MR = JSON.parse(localStorage.getItem(RK) || "[]") || []; } catch (e) { MR = []; }
+          function sauve() { try { localStorage.setItem(RK, JSON.stringify(MR)); } catch (e) {} }
+          var icR = L.divIcon({ className: "ct-mon", html: "<span>📍</span>", iconSize: [28, 28], iconAnchor: [14, 26], popupAnchor: [0, -24] });
+          function dessine() {
+            gM.clearLayers();
+            MR.forEach(function (m, i) {
+              var mk = L.marker([m.a, m.o], { icon: icR, draggable: true }).addTo(gM);
+              mk.bindPopup("<b>" + esc(m.n) + "</b><br><small>" + esc(tr("sl_off_case", "Case")) + " " + esc(caseDe(L.latLng(m.a, m.o))) + '</small><br><button type="button" class="ct-suppr" data-i="' + i + '">' + esc(tr("sl_off_suppr", "Supprimer")) + "</button>");
+              mk.on("dragend", function () { var p = mk.getLatLng(); m.a = p.lat; m.o = p.lng; sauve(); dessine(); });
+            });
+            outil();
+          }
+          mo.on("popupopen", function (e) {
+            var b = e.popup.getElement().querySelector(".ct-suppr"); if (!b) return;
+            b.addEventListener("click", function () { MR.splice(+b.getAttribute("data-i"), 1); sauve(); mo.closePopup(); dessine(); });
+          });
+          mo.on("click", function (e) {
+            if (pose) {
+              var n = window.prompt(tr("sl_off_nom", "Nom du repère (ex. carte à collectionner, planque)"), "");
+              if (n !== null) { MR.push({ n: (n.trim() || "📍").slice(0, 60), a: e.latlng.lat, o: e.latlng.lng }); sauve(); dessine(); }
+              pose = false; el.classList.remove("ct-pose"); outil(); return;
+            }
+            L.popup().setLatLng(e.latlng).setContent("<small>" + esc(tr("sl_off_case", "Case")) + "</small> <b>" + esc(caseDe(e.latlng)) + "</b>").openOn(mo);
+          });
+          var ob = document.createElement("div"); ob.className = "ct-outils";
+          function outil() {
+            ob.innerHTML = '<button type="button" class="ct-b-pose' + (pose ? " on" : "") + '">' + esc(pose ? tr("sl_off_pose_on", "Touchez la carte à l'endroit voulu") : tr("sl_off_pose", "📍 Poser un repère")) + "</button>" +
+              '<label><input type="checkbox" class="ct-b-noms"' + (mo.hasLayer(gL) ? " checked" : "") + "> " + esc(tr("sl_off_noms", "Lieux officiels")) + "</label>" +
+              (MR.length ? '<span class="ct-b-nb">' + esc(tr("sl_off_mes", "Mes repères")) + " : " + MR.length + '</span><button type="button" class="ct-b-vider">' + esc(tr("sl_off_vider", "Tout effacer")) + "</button>" : "");
+          }
+          ob.addEventListener("click", function (ev) {
+            var t = ev.target;
+            if (t.closest(".ct-b-pose")) { pose = !pose; el.classList.toggle("ct-pose", pose); if (L.Browser.mobile) mo.dragging.enable(); outil(); }
+            else if (t.closest(".ct-b-vider")) { if (window.confirm(tr("sl_off_vider_q", "Effacer tous vos repères ?"))) { MR = []; sauve(); dessine(); } }
+          });
+          ob.addEventListener("change", function (ev) { if (ev.target.classList.contains("ct-b-noms")) { if (ev.target.checked) gL.addTo(mo); else mo.removeLayer(gL); } });
+          dessine();
+          el.parentNode.insertBefore(ob, el);
+          document.addEventListener("langchange", function () { dessine(); });
           var rb = document.createElement("div"); rb.className = "sl-barre ct-regs";
           var nbo = {}; D.points.forEach(function (p) { if (p.region) nbo[p.region] = (nbo[p.region] || 0) + 1; });
           function boutons() {

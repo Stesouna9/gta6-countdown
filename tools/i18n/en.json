@@ -1276,8 +1276,16 @@
  "sl_schema_cap": "Tap a region to see its places. Region diagram: exact locations will appear on Rockstar's official map as soon as it is published.",
  "sl_lieux": "places",
  "sl_regs_t": "Places by region:",
- "sl_off_cap": "Official Leonida map published by Rockstar on November 19. Pinch or use the + and − buttons to zoom. Exact locations will be added as soon as they are verified.",
+ "sl_off_cap": "Official Leonida map (Rockstar, November 19). Tap a pink dot for its name, anywhere for the grid square. Drop your own markers: they stay saved on your device and can be dragged.",
  "sl_off_plein": "Open full screen",
  "sl_off_rech": "Find a place on the map (e.g. Vice Beach, Key Lento)",
- "sl_off_case": "Grid square"
+ "sl_off_case": "Grid square",
+ "sl_off_vider_q": "Delete all your markers?",
+ "sl_off_vider": "Clear all",
+ "sl_off_mes": "My markers",
+ "sl_off_noms": "Official places",
+ "sl_off_suppr": "Delete",
+ "sl_off_nom": "Marker name (e.g. collectible card, hideout)",
+ "sl_off_pose_on": "Tap the map where you want it",
+ "sl_off_pose": "📍 Drop a marker"
 }

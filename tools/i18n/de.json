@@ -1276,8 +1276,16 @@
  "sl_lieux": "Orte",
  "sl_avert_carte": "Rockstar offizielle Leonida Karte, veröffentlicht am 19. November: Zoomen Sie hinein, um jede Stadt und Straße zu lesen. Keine ungefähren Standorte: Ein Ort wird erst gepinnt, wenn er von zwei Spielern bestätigt wird. Mittlerweile gibt die folgende Liste jeden bekannten Ort mit seiner Quelle an.",
  "sl_regs_t": "Orte nach Region:",
- "sl_off_cap": "Offizielle Leonida -Karte, veröffentlicht von Rockstar am 19. November. Zum Zoomen können Sie die Tasten „+“ und „–“ zusammenziehen oder verwenden. Genaue Standorte werden hinzugefügt, sobald sie überprüft wurden.",
  "sl_off_plein": "Vollbild öffnen",
  "sl_off_rech": "Suchen Sie einen Ort auf der Karte (z. B. Vice Beach, Key Lento)",
- "sl_off_case": "Planquadrat"
+ "sl_off_case": "Planquadrat",
+ "sl_off_cap": "Offizielle Leonida -Karte ( Rockstar , 19. November). Tap a pink dot for its name, anywhere for the grid square. Drop your own markers: they stay saved on your device and can be dragged.",
+ "sl_off_vider_q": "Alle Markierungen löschen?",
+ "sl_off_vider": "Alles löschen",
+ "sl_off_mes": "Meine Marker",
+ "sl_off_noms": "Offizielle Orte",
+ "sl_off_suppr": "Löschen",
+ "sl_off_nom": "Markierungsname (z. B. Sammelkarte, Versteck)",
+ "sl_off_pose_on": "Tippen Sie an der gewünschten Stelle auf die Karte",
+ "sl_off_pose": "📍 Setzen Sie einen Marker"
 }

@@ -257,3 +257,14 @@ body[data-sl] .sl-sec+.sl-sec{padding-top:6px}
 .ct-rech li button:hover,.ct-rech li button:focus{background:rgba(255,46,136,.18)}
 .ct-rech li button small{color:#ffd23f;font-weight:700}
 .ct-rech li.vide{padding:10px 12px;color:rgba(242,232,213,.7)}
+
+/* outils carte officielle (19/11 soir) */
+.ct-outils{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:8px 0}
+.ct-outils button{background:#1b1f2a;color:#f2e8d5;border:1px solid #3a4152;border-radius:20px;padding:7px 14px;font:inherit;font-size:.9rem;cursor:pointer}
+.ct-outils .ct-b-pose{background:#ff2e88;border-color:#ff2e88;color:#fff;font-weight:600}
+.ct-outils .ct-b-pose.on{background:#ffd23f;border-color:#ffd23f;color:#111}
+.ct-outils label{color:#c9cfdb;font-size:.9rem;display:flex;align-items:center;gap:5px}
+.ct-b-nb{color:#ffd23f;font-size:.9rem}
+.ct-pose{cursor:crosshair!important;outline:3px solid #ffd23f}
+.ct-mon{background:none;border:0}.ct-mon span{font-size:26px;line-height:1;filter:drop-shadow(0 1px 2px #000)}
+.ct-suppr{margin-top:6px;background:#2a1520;color:#ff8ab8;border:1px solid #ff2e88;border-radius:6px;padding:3px 10px;cursor:pointer}

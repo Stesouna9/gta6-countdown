@@ -1276,8 +1276,16 @@
  "sl_lieux": "yer",
  "sl_avert_carte": "Rockstar 19 Kasım'da yayınlanan resmi Leonida haritası: Her kasabayı ve yolu okumak için yakınlaştırın. Yaklaşık konum yok: Bir yer yalnızca iki oyuncunun yakaladığı yer doğrulandıktan sonra sabitlenir. Bu arada, aşağıdaki listede bilinen her yer kaynağıyla birlikte verilmektedir.",
  "sl_regs_t": "Bölgelere göre yerler:",
- "sl_off_cap": "Rockstar tarafından 19 Kasım'da yayınlanan resmi Leonida haritası. Yakınlaştırmak için + ve − düğmelerini sıkıştırın veya kullanın. Kesin konumlar doğrulandıktan sonra eklenecektir.",
  "sl_off_plein": "Tam ekranı aç",
  "sl_off_rech": "Haritada bir yer bulun (örn. Vice Plajı, Key Lento)",
- "sl_off_case": "Izgara karesi"
+ "sl_off_case": "Izgara karesi",
+ "sl_off_cap": "Resmi Leonida haritası ( Rockstar , 19 Kasım). Izgara karesinin herhangi bir yerinde, adı için pembe bir noktaya dokunun. Kendi işaretçilerinizi bırakın: cihazınızda kayıtlı kalırlar ve sürüklenebilirler.",
+ "sl_off_vider_q": "Tüm işaretçileriniz silinsin mi?",
+ "sl_off_vider": "Tümünü temizle",
+ "sl_off_mes": "İşaretçilerim",
+ "sl_off_noms": "Resmi yerler",
+ "sl_off_suppr": "Silmek",
+ "sl_off_nom": "İşaret adı (örn. koleksiyon kartı, saklanma yeri)",
+ "sl_off_pose_on": "Haritada istediğiniz yere dokunun",
+ "sl_off_pose": "📍 Bir işaretleyici bırakın"
 }

@@ -1276,8 +1276,16 @@
  "sl_lieux": "地方",
  "sl_avert_carte": "Rockstar的官方Leonida地图，于 11 月 19 日发布：放大查看每个城镇和道路。没有大致位置：只有当两个玩家捕获并验证该位置后，才会固定该位置。同时，下面的列表给出了每个已知位置及其来源。",
  "sl_regs_t": "按地区划分的地点：",
- "sl_off_cap": "Rockstar于 11 月 19 日发布的Leonida官方地图。捏合或使用 + 和 − 按钮进行缩放。确切位置将在核实后立即添加。",
  "sl_off_plein": "打开全屏",
  "sl_off_rech": "在地图上查找地点（例如 Vice Beach、Key Lento）",
- "sl_off_case": "方格"
+ "sl_off_case": "方格",
+ "sl_off_cap": "Leonida官方地图（ Rockstar ，11 月 19 日）。点击粉红点作为其名称，点击任意位置作为网格方块。放置您自己的标记：它们会保存在您的设备上并且可以拖动。",
+ "sl_off_vider_q": "删除所有标记？",
+ "sl_off_vider": "全部清除",
+ "sl_off_mes": "我的标记",
+ "sl_off_noms": "官方场所",
+ "sl_off_suppr": "删除",
+ "sl_off_nom": "标记名称（例如收藏卡、藏身处）",
+ "sl_off_pose_on": "在地图上点击您想要的位置",
+ "sl_off_pose": "📍 放下标记"
 }

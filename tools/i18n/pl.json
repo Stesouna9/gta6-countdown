@@ -1276,8 +1276,16 @@
  "sl_lieux": "miejsca",
  "sl_avert_carte": "Oficjalna mapa Rockstar Leonida , opublikowana 19 listopada: powiększ, aby zobaczyć każde miasto i drogę. Brak przybliżonych lokalizacji: miejsce jest przypinane tylko wtedy, gdy dwóch graczy je schwyta i zweryfikuje. Tymczasem poniższa lista przedstawia każdą znaną lokalizację wraz z jej źródłem.",
  "sl_regs_t": "Miejsca według regionu:",
- "sl_off_cap": "Oficjalna mapa Leonida opublikowana przez Rockstar 19 listopada. Naciśnij lub użyj przycisków + i -, aby powiększyć. Dokładne lokalizacje zostaną dodane zaraz po ich weryfikacji.",
  "sl_off_plein": "Otwórz pełny ekran",
  "sl_off_rech": "Znajdź miejsce na mapie (np. Vice Beach, Key Lento)",
- "sl_off_case": "Kwadrat siatki"
+ "sl_off_case": "Kwadrat siatki",
+ "sl_off_cap": "Oficjalna mapa Leonida ( Rockstar , 19 listopada). Kliknij różową kropkę, aby wyświetlić jej nazwę, lub w dowolnym miejscu, aby wyświetlić kwadrat siatki. Upuść własne znaczniki: pozostają one zapisane na Twoim urządzeniu i można je przeciągać.",
+ "sl_off_vider_q": "Usunąć wszystkie znaczniki?",
+ "sl_off_vider": "Wyczyść wszystko",
+ "sl_off_mes": "Moje markery",
+ "sl_off_noms": "Oficjalne miejsca",
+ "sl_off_suppr": "Usuwać",
+ "sl_off_nom": "Nazwa znacznika (np. karta kolekcjonerska, kryjówka)",
+ "sl_off_pose_on": "Kliknij mapę tam, gdzie chcesz",
+ "sl_off_pose": "📍 Upuść znacznik"
 }

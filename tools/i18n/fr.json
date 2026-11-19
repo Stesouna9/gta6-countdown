@@ -1276,8 +1276,16 @@
  "sl_schema_cap": "Touchez une région pour voir ses lieux. Schéma des régions : les emplacements précis s'afficheront sur la carte officielle de Rockstar dès sa publication.",
  "sl_lieux": "lieux",
  "sl_regs_t": "Lieux par région :",
- "sl_off_cap": "Carte officielle de Leonida publiée par Rockstar le 19 novembre. Zoomez avec deux doigts ou les boutons + et −. Les emplacements précis y seront ajoutés dès qu'ils sont vérifiés.",
+ "sl_off_cap": "Carte officielle de Leonida (Rockstar, 19 novembre). Touchez un point rose pour son nom, n'importe où pour la case du quadrillage. Posez vos propres repères : ils restent enregistrés sur votre appareil, et se déplacent en les faisant glisser.",
  "sl_off_plein": "Ouvrir en plein écran",
  "sl_off_rech": "Trouver un lieu sur la carte (ex. Vice Beach, Key Lento)",
- "sl_off_case": "Case"
+ "sl_off_case": "Case",
+ "sl_off_vider_q": "Effacer tous vos repères ?",
+ "sl_off_vider": "Tout effacer",
+ "sl_off_mes": "Mes repères",
+ "sl_off_noms": "Lieux officiels",
+ "sl_off_suppr": "Supprimer",
+ "sl_off_nom": "Nom du repère (ex. carte à collectionner, planque)",
+ "sl_off_pose_on": "Touchez la carte à l'endroit voulu",
+ "sl_off_pose": "📍 Poser un repère"
 }

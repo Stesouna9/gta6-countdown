@@ -1276,8 +1276,16 @@
  "sl_lieux": "lugares",
  "sl_avert_carte": "Mapa oficial Leonida da Rockstar , publicado em 19 de novembro: amplie para ler cada cidade e estrada. Sem localizações aproximadas: um local só é fixado quando dois jogadores capturados o verificam. Enquanto isso, a lista abaixo fornece todos os locais conhecidos com sua origem.",
  "sl_regs_t": "Locais por região:",
- "sl_off_cap": "Mapa oficial Leonida publicado pela Rockstar em 19 de novembro. Aperte ou use os botões + e - para ampliar. Os locais exatos serão adicionados assim que forem verificados.",
  "sl_off_plein": "Abrir tela inteira",
  "sl_off_rech": "Encontre um lugar no mapa (por exemplo, Vice Beach, Key Lento)",
- "sl_off_case": "Quadrado de grade"
+ "sl_off_case": "Quadrado de grade",
+ "sl_off_cap": "Mapa oficial Leonida ( Rockstar , 19 de novembro). Toque em um ponto rosa para seu nome, em qualquer lugar para o quadrado da grade. Solte seus próprios marcadores: eles ficam salvos no seu dispositivo e podem ser arrastados.",
+ "sl_off_vider_q": "Excluir todos os seus marcadores?",
+ "sl_off_vider": "Limpar tudo",
+ "sl_off_mes": "Meus marcadores",
+ "sl_off_noms": "Lugares oficiais",
+ "sl_off_suppr": "Excluir",
+ "sl_off_nom": "Nome do marcador (por exemplo, cartão colecionável, esconderijo)",
+ "sl_off_pose_on": "Toque no mapa onde você deseja",
+ "sl_off_pose": "📍 Deixe um marcador"
 }
