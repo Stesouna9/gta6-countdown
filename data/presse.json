@@ -1,6 +1,54 @@
 {
- "maj": "2026-11-19T04:30:43+00:00",
+ "maj": "2026-11-19T04:50:55+00:00",
  "articles": [
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPMFJrTHZlUlVHbjBoNnNPTjYzMTBqeGwxSlliSWRKVGZtaDQtOVNpbHRENDBrQVBic2tUSUJIWFB3UHNITzVncE9GS1hUcHFKMEFEUHNkSGlUaWl1STQ2WmhCZGVzdjRmUG1tR1kxMmotbklwbDVUelVTclh6bDg2Y2hCN3FseE5qSjl1VkNZTnFsdWQzTG9GQnFxal81OEV6NlFJUGJmWGFVSGpDdjI3ZVEwenJoQ3owZE5IY1ZtNnY1ZlhUV0l0bGxOOHlSWTZuc08wZk01Y0xoVHU4TExwQzRoNXBfRXVVQ3JncDhxZUlvZw?oc=5",
+   "s": "Le HuffPost",
+   "d": "2026-11-19T04:30:08+00:00",
+   "lang": "fr",
+   "t": "GTA 6 n’était pas encore entre les mains de tous qu’il réalisait déjà un exploit",
+   "erreur": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5tTTVvM0JOMzF6MGFJOXNUa2lwOE5GWVQtRmU2TUY2dkFNcXhFUlR1NVJHTTVtakM0clFiUlV4Zzdhb3NnandTeVk0OEhfWWhfTzdMLXVDenp0cm5SYjF4SUd2bFp5N2IyZm1WRFZ6RmFfczl1?oc=5",
+   "s": "Mashable",
+   "d": "2026-11-19T04:20:34+00:00",
+   "lang": "en",
+   "t": "'GTA 6' on Xbox Series S: How well it actually runs",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1tMVl1NzVTX2JPWXB4WlhNMlNaQlQtVTk1Z2JBVUtHcTc5OXJrbmNVY29yN0lfcC1GSEM5Q2c0YUl4a0FGTjVGRDVuUGtyUlVuaEV5V3M5WjRiZUpMd195ME1WY0Z6Zw?oc=5",
+   "s": "Mashable",
+   "d": "2026-11-19T04:18:45+00:00",
+   "lang": "en",
+   "t": "'GTA 6' on PC: What we know about the PC release",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBrS09JaFEyVDl2c2lRc19NQURhUGxLekl4Zk55UE1MNnd1akhkdS0yQ013aFg1VVQ2bkx0bGxCMVZJeEhURHFFNHhyX2FkUnVJQVpVMEZXSzFaZW1F?oc=5",
+   "s": "Mashable",
+   "d": "2026-11-19T04:15:34+00:00",
+   "lang": "en",
+   "t": "'GTA 6' NPCs explained: How characters react to players",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNW84SjBDcEE0VUMwNGFVNm1EZzVPZkJINklQMFdQUDV2ZElzTkZlbFlSS3lXaVhVZGkzNFUzUXBOSko2OGdDSmkyMGh6aldpcWp4OTM4cVF3cXBZdUowZUhhb1Ftc3JvQVpsSWZUZVB0dTc2VjRISF9iX0p0QlZ4WDFRNGxMOVFLZ2hXNWdiQzhISk1hQzRhcVc3WUtPRWFxaDFkdW5DY05obXpSZGN5RFZkdGx0d9IBvgFBVV95cUxOMHU4Y1BSYzdING5YTkRkSnhmclVuTlFRREZsbHFSY1FQSVp3QUpNcl9NRmMzQzVHZEdFVWlINGI1MGFRX2FpTUR6ZlRnaUR3X2FtY2Zfamd6SDVSYkpuQ2hEbnR2aDNpektGYmxuVmZfVDVNdG16UnJickIzN3lfbnZwTUs0TEJzeWpPLUFMUEcxcldfdjBkS3hEVUwtSHh6SHRNME9JSnFiWVpXR2F1QzM0c2dNeXFyV3JmbTBB?oc=5",
+   "s": "NBC 5 Dallas-Fort Worth",
+   "d": "2026-11-19T04:02:19+00:00",
+   "lang": "en",
+   "t": "GTA 6 hype takes over North Texas as fans celebrate long-awaited release",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaUFGLWNXV2x4ODRXQkVUT1Z1TW5PNDVyX0hvQ0UxUUhIYkhLeEp0SDVCdEh2RzlyX3U2U2NxZFFWN0R2Njhrd1d1eTFxdWxiZ0plbXJXOThjWVgyaGNBMS1WcXBDZ0IyenNPZlZPOEZldW1UeERnY3pEVHBnRHFHajEwOTZLOS1QWng1Y3JzVEw1bFpKR0ZLY0N3SlV3V1lwU2lwbXRaUQ?oc=5",
+   "s": "PCMag",
+   "d": "2026-11-19T04:00:09+00:00",
+   "lang": "en",
+   "t": "I've Been Playing GTA 6 for Weeks. These 12 Tips Will Help You Become the Perfect Criminal",
+   "erreur": "429 : passage suivant"
+  },
   {
    "gn": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQd2VRMGhHMzg1OTZBN2hRYkstdmR0c2ZFN21KZkVzVExVZ1M4bzRSTFZ1bmxfOG5xaW9OUXhVa244dkJrbVctM19UYXh3ZW1INmJySHN0OXdGRFRBR2pERXpjYWpOdzlqc2NNQUZoamlFSkJqcHROVlJ6N3ZSQXVJZ0Zn?oc=5",
    "s": "Mashable",
@@ -31,7 +79,7 @@
    "d": "2026-11-19T03:01:29+00:00",
    "lang": "fr",
    "t": "La superproduction \"GTA VI\" enfin entre les mains de la plupart des joueurs de la planète",
-   "erreur": "HTTP Error 429: Too Many Requests"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWlFkelZPazVuRGRES0ZsekhWXzkwdG05aUlRS3FSUWJ0Z2VUajdnNC1wRXVsbVVra3ZpUmp1TzAtM3g1WmtTSGFaWFNnOWFrWEtjQUFRZC1WVjhtLTU1M0YxeXFsVDd2U1ZzbEM0YUNSMXVZNDk0NUxPZEhBcWw2NlU5WmRQSmNWdnFyUHVvcVFCTlBJT0tnZ1p5aFpZZWJJSmZNUHhsWQ?oc=5",
@@ -90,60 +138,12 @@
    "pub": "2026-11-19T01:57:32+00:00"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOY2RCNkJFNVhrTkNiYUgtLTJJcWRlNzNLbER6NVlaYlJrbXM0QTVoVEpLUnFLYkZXdHJIT1JRSHBoNW5lUDRaSFYtdEo3bXV5NlFrNm5KUG10Y1RUOG4wWHlDVjNzbFR3X2hvQU5fYVllRXpPMzdvMGVwQ1lSZUpkZnhxMmpqTW5jc2JHT2poUENkZVhtSVVOODNVZ0ZfOTI3eEtzM25CSEM3WjJvNU5xSHMwZkt2WVI4eUlnblB6U2ItUQ?oc=5",
-   "s": "Notebookcheck",
-   "d": "2026-11-19T01:46:00+00:00",
-   "lang": "en",
-   "t": "GTA 6 PS5 and Xbox crashes are losing hours of progress, despite autosave system",
-   "u": "https://www.notebookcheck.net/GTA-6-PS5-and-Xbox-crashes-are-losing-hours-of-progress-despite-autosave-system.1453724.0.html",
-   "img": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/GTA6AutoSaveBanner.jpg",
-   "chapeau": "Because of vanishing files, some GTA 6 PS5 and Xbox players are stuck in a mission loop. Rockstar’s autosave safeguard isn't proving reliable when consoles freeze or reboot. Manual saves can avoid repeating the same tasks around the Leonida open-world map.",
-   "txt": "For most players who unlocked the game first , the GTA 6 release date has gone smoothly. Still, crashes on PS5 and Xbox consoles have required unlucky gamers to replay missions . Adding to the issue is confusion over the autosave system, which may not behave as expected.\nThe problem gained attention after popular streamer JasonTheWeen lost 10 hours of progress . It’s unclear whether his PS5 crashed or the content creator accidentally switched it off. Regardless, following a reboot, he could not locate a save file. The sudden power loss may have caused corruption.\nJasonTheWeen critics believe the ordeal was staged to attract attention. Even so, Reddit threads also document the GTA 6 Xbox Series X version failing at critical moments. FearlessHuckleberry6 had to restart the prologue multiple times. Meanwhile, during roughly 12 hours of gameplay on the release date, BielzBielz’s console crashed repeatedly.\nOne explanation is that the demanding Rockstar title is overstressing the hardware . Autosaves should serve as a safeguard, but they often are not reliable. The studio hasn’t confirmed how frequently they generate backups. Since the prologue and certain mission checkpoints don’t trigger the system, manually saving is a wise precaution.\nGamers may also not realize the save game menu doesn’t display autosaves. When a crash strikes, they must access the separate load game interface to restore their progress.\nThe struggles of GTA 6 PS5 and Xbox players have reminded fans of similar Red Dead Redemption 2 shortcomings. PC users suffered the most, prompting Rockstar to push out a series of patches. Eventually, the feature became stable after explorers had to retread the same parts of the open-world map .\nLike Red Dead Redemption 2 , GTA 6 demands an enormous time commitment. The main Jason and Lucia story takes around 50-60 hours , but Leonida is full of side activities and potential distractions. That makes having a dependable way to save progress or cloud backups even more important.",
-   "pub": ""
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE42REExMGJsNjRHY2NNM0RpbkZzc0dVWHFsamc1T2hYSVdKX2Z0dWVvdVl5ZTRWSzU1blZBcE1QTjZpdGMtQWpyRUl1QTg2aWpKX01ZTkl6aEZ6bG5LUnc?oc=5",
-   "s": "SVG",
-   "d": "2026-11-19T01:00:00+00:00",
-   "lang": "en",
-   "t": "GTA 6's Map Has A Strange Limitation You Won't Notice Right Away - SVG",
-   "u": "https://www.svg.com/2321164/gta-6-map-limitation/",
-   "img": "https://www.svg.com/img/gallery/gta-6s-map-has-a-strange-limitation-you-wont-notice-right-away/l-intro-1794611855.jpg",
-   "chapeau": "While Leonida's map is fully accessible right away in \"Grand Theft Auto 6,\" it's not explorable in the way you might be expecting early on.",
-   "txt": "Rockstar Games Add SVG on Google: Preferred Source Google Discover WARNING : There are slight spoilers for the story of \"Grand Theft Auto 6\" in this article, so read with caution.\nIt's widely known at this point that the map of Leonida in \"GTA 6\" is the largest in the history of Rockstar Games. The map is larger than \"Red Dead Redemption 2,\" GTA 4,\" and \"GTA 5\" combined, which is a truly staggering statistic to think about. Even more staggering, though, is the fact that Leonida is so densely packed with unique locations , including interiors you can walk through and separate islands that make the map feel even larger than it already is.\nOver the course of \"GTA 6,\" you'll be able to explore nearly every corner of the map through the main story. You get to see the Leonida Keys, Vice City, Mount Kalaga, Kelly County, and the smaller regions of the map through one mission or another. That said, the map of Leonida in \"GTA 6\" does feature a unique twist that might change the way you explore it, especially at the start of the game.\nRockstar Games Like most Rockstar Games titles, \"GTA 6\" begins with a tutorial phase that introduces the game's mechanics and features. This mostly entails playing as Jason Duval and Lucia Caminos in separate sections so you get a feel for both characters. Once it's concluded, though, you'll have to play as Jason until Lucia gets out of prison. Of course, you can switch between Jason and Lucia after that.\nEarly on, your main goal involves undertaking missions for a man named Brian Heder and keeping up with housework so your place is ready for when Lucia comes home. However, \"GTA 6\" doesn't keep you tied down to these objectives, so you're free to explore the entire map of Leonida. You'll start out in the Leonida Keys, which is in the southernmost part of the map. To get out of the Keys, you have to take the bridge to the north, and you'll be in Vice City after roughly 5-10 minutes of driving. You can even head further north to Mount Kalaga or the backwoods region of Kelly County.\nUnfortunately, the first 30% of the story in \"GTA 6\" takes place in the Leonida Keys. So, you don't have much reason to explore the map beyond simply seeing the sights, as the side missions that you do have access to outside of the Keys are often locked behind content that you haven't unlocked yet. For example, there are plenty of locations to rob in Vice City, but they're far easier to hit with items that Jason doesn't have yet, like a mask. Moreover, some of the side content is meant for both Jason and Lucia, and Lucia doesn't get to leave the Keys until you're around 35% story completion.\nRockstar Games So, the big question is: Do you stay in the Keys or set off to explore Leonida straight away? The answer is totally up to you, as \"GTA 6\" is a sandbox that doesn't limit you in too many ways.\nStill, if you want the most streamlined experience possible, you'll want to remain in the Leonida Keys for a majority of your time in the early part of the game. Indeed, with so many story missions taking place in the Keys, it often benefits you to hang around this region to make getting to Vice City a quicker process. If you explore the entire map before you've made it there through the story, you're actually losing time that could be spent progressing.\nAlso, without getting into too much detail, making money early in the game isn't something you want to prioritize, as you'll lose most of it through the story. This means robbing stores in Vice City before making it out of the Keys isn't a very fruitful endeavor.\nFortunately, Jason and Lucia both make it to Vice City and plenty of other locations once you get past 30% story completion in \"GTA 6.\" Both of them will eventually live in the heart of Vice City and will travel to all parts of the map before the end credits roll, so you just have to be patient and enjoy your time in the Leonida Keys before the map truly opens up.",
-   "pub": "2026-11-19T01:00:00+00:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcVZiQWVjbndJYUdIODZfblBCUUd0TzlMcnFRRTBVRWdVSmdiQm0wcVhwdllQb2ZhelFZaVJ2ck5iUnBxcmpQby1OU0kxNzF4XzJobFdGUFdwcDZ2V09lM2o2b1RLdG1FZ1ZRZTR3R0l0cnR6WG5xSUNuc0g0RS1nVEVDSHpMOVJyNmdBV2Nn?oc=5",
-   "s": "SlashGear",
-   "d": "2026-11-19T00:54:00+00:00",
-   "lang": "en",
-   "t": "Can You Game Share GTA 6? What You Need To Know Before You Buy - SlashGear",
-   "u": "https://www.slashgear.com/2321363/gta-6-can-you-game-share-what-need-know-before-buy/",
-   "img": "https://www.slashgear.com/img/gallery/can-you-game-share-gta-6-what-you-need-to-know-before-you-buy/l-intro-1795049155.jpg",
-   "chapeau": "GTA 6 supports game sharing on PS5 and Xbox Series X/S. Two players on the same platform can play a single digital copy at the same time.",
-   "txt": "Vardanyan Karen/Shutterstock Add SlashGear on Google: Preferred Source Google Discover \"Grand Theft Auto 6\" is on the cusp of launching in the United States for the PS5 and Xbox family of consoles, including the Xbox One via streaming , and everyone is scrambling to get their copies locked down and preloads on standby. Unfortunately, for as heavily anticipated as this game is, it's also one of the most expensive AAA games to release to date, with the Ultimate Edition of the game costing $100. It may be prudent to find ways to alleviate the financial burden a bit, and one way you can do that is by sharing a copy with a friend. Not in the traditional sense, as \"GTA 6\" is launching only in digital formats, but through console game sharing features.\nBoth the PlayStation 5 and Xbox Series X and S allow users to share access to permitted games in their game libraries , which includes \"GTA 6.\" In order to do this, both you and your friend would need to have the same type of console, i.e., two Xboxes or two PS5s, and the one who actually owns the copy would need to be willing to log into their account on a friend's console. With those conditions met, all that's left is the matter of setting it up, and you can both enjoy the game on your respective consoles, even if you're playing at the same time.\nLeon Neal/Getty Images To share the game with another Xbox, you'll first need to buy and download \"GTA 6\" on your own Xbox. Afterward, sign in to your personal Xbox account on your friend's Xbox, then go to Profile & system > Settings > General > Personalization > My home Xbox. In this menu, select \"Make this my home Xbox.\" You should be able to access your personal game library at this point, after which you'll need to download the game again on this Xbox, then have your friend log back in under their own Xbox account. Both of you should be able to start playing on your respective profiles and accounts. The only catch is that your Xbox will need to stay connected to the internet to keep playing.\nFor PS5, after buying and downloading \"GTA 6\" on your own PS5, you'll then need to sign in to your personal PlayStation account on the PS5 you want to share to. On that PS5, go to Settings > Users and Accounts > Other, and enable the Console Sharing and Offline Play toggle. After that, just find the game in your library, download it, and have your friend switch back to their profile.\nBoth of you should be able to start playing the game on your respective PS5s and profiles. Just remember that you can only have Console Sharing enabled on one PS5 at a time, so if you already have it enabled on your PS5, you'll need to turn it off before you can enable it on another. This also means you can only share the game with one friend at a time. Keep in mind that if your copy of \"GTA 6\" comes with a free month of GTA+, only the account that purchased the game can claim the subscription.",
-   "pub": "2026-11-19T00:54:19+00:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPSVRjb2FwVDNzelExRlU2QjUwbFdDR2Vva2tQQllfV19SY2lIT3hEUG9GRURMZWlJZmtnT3REYWZWYTJXYmMyM3NXLTZnMVpFMEhvNVhCS29WQzRqUnh1bHAyNEcyRW9VNXJBN3ktcVZBcFZkdFF5V2IyUGFsQzVDY1pwMGhUcGR1VWF3TGtsa0EwVzZONTVxTTRjY2JKOTlVUkR6TEpma01TemtLcjU3cmZVVnZLamZYYUxFMTZZZGFta2U2TzM5a3duZnJOVnFKaUE?oc=5",
-   "s": "Yahoo Sports",
-   "d": "2026-11-19T00:41:58+00:00",
-   "lang": "en",
-   "t": "Giannis Antetokounmpo, Heat host Tyler Herro, Bucks for GTA 6-inspired 'Vice City' night",
+   "gn": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZzY5bEk2VkZtWUgwaDhRUEJjdjNpSU1zRVZKRzhqXzJLTmk3ZmNwUlhPV1pCclFvNUN0Z2tTem4xcldiOWliQ29kbTNwbzJhV1FYMGFyODZ3U1FvaDA3WkdvMWZlN0RGQXFiMlF0N3gwYkNKSVBpSVJOcHVnU05HUnNDc3R2dl9FdFBDeXZMaFB1TVVVb01JaTlzbzBZRDdhYjNmTm81b3FxODJmdnN2bXBITWs0YnQtQmNhZWg1Qi1RWGpUMV9V?oc=5",
+   "s": "20 Minutes",
+   "d": "2026-11-19T01:34:00+00:00",
+   "lang": "fr",
+   "t": "Les premiers joueurs sont conquis par « GTA 6 », le nouvel opus de la saga",
    "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMVdXZWVydHdPSTI1X0llMEE1YjN4S0FybkpNM1M5Y2I5aUh2UnFGVWhxcHVTQWFrYnFoUDE0SjBCVDBISnBzWDN5VE14bTlmZXBVd2ZGb29hWmdvTktMQWtOekRnUTZ4bmZGNFhUUVBZV0hZMktGSWt1R3NvZ1o2MGFzSUFiMmR5NDdrQQ?oc=5",
-   "s": "Polygon.com",
-   "d": "2026-11-19T00:21:00+00:00",
-   "lang": "en",
-   "t": "GTA 6 Officially Cuts A Controversial Franchise Feature After 25 Years",
-   "u": "https://www.polygon.com/gta-6-prostitutes-hookers-strippers-where-are-npcs-rockstar/",
-   "img": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/vice_city_06.jpg?w=1600&h=900&fit=crop",
-   "chapeau": "The suggestive mechanic absent in GTA 6 has appeared in many GTA games, across multiple hardware generations",
-   "txt": "You can do anything you want in a Grand Theft Auto game, but the franchise has historically been defined by a handful of specific mechanics. Steal a car. Shoot pedestrians. And for better or worse, soliciting a prostitute. Grand Theft Auto 6 , however, is an unusually realistic game that tells a humane story about a couple, and those shifts in approach are reflected in the game's actions.\nProstitutes made their debut as NPCs in 2001 with the release of Grand Theft Auto 3 . These characters, which appeared on the game's streets at night, could be solicited by the player for $100. Though the encounters were explicit in nature, the animations at the time only showed the vehicle bouncing suggestively.\nThe arguably tame mechanic became infamous for two primary reasons. Many fans approach GTA as a chaos simulator, so players sometimes target sex workers indiscriminately. It became a running joke, for lack of a better word, for GTA fans to sleep with and immediately kill the women they hired. Once dead, the NPCs would drop the money the player used to hire them.\nAnother major source of the feature's infamy was Grand Theft Auto: San Andreas ' Hot Coffee incident . In short, Rockstar designed a mini-game that allowed CJ, the protagonist, to have sex with a prostitute. Unlike GTA 3 , this minigame didn't leave things to the imagination — the characters could be seen bent over and going at it. Rockstar pulled the minigame out of San Andreas for the official release, but the feature was still hidden in the game's files. In 2005, when San Andreas was ported to PC, modders found the minigame and released it to the public under the name Hot Coffee.\nImage: Rockstar Games Many years later, after much legal rigmarole and multiple new games, Hot Coffee has defined the public's view of GTA as a franchise. Yet despite all the headaches Hot Coffee caused Rockstar, the developer nonetheless continued to include sex workers through Grand Theft Auto 5 . In that game, the player purchase services by sex workers that were, in some cases, animated more scandalously than those in Hot Coffee. Rockstar's addition of a first-person view further heightened the intensity of these encounters. GTA V was also the first game to include a crass caricature of trans sex workers available for hire — a fact that was heavily decried by queer fans who felt Rockstar was punching down.\nNow, 25 years after their original inclusion, hirable sex workers are not making a return in GTA 6 . Given the game's enormous number of encounters, a sex worker could still appear somewhere in GTA 6 . As a type of highly visible NPC, however, prostitutes are gone.\nMichael Franklin Trevor Lester Lamar Polygon Quiz W h i c h G T A V C h a r a c t e r A r e Y o u ? 8 Questions • 5 Characters Set aside what any of them do for a living. Underneath, Los Santos runs on five very different people: one restless, one patient, one with no filter, one who has already worked out how it ends, and one who has never once doubted himself. Eight ordinary questions, none of them about the job, will say which one you are. On The Wheel Michael Franklin Trevor Lester Lamar Spin The Wheel Block 01 of 08 0% Driven Question 01 A NEW CITY 01 You move somewhere new. What does your first week look like? Everybody arrives differently. A I picked the house first. Everything else arranges itself around that. B Working, learning the place, watching who does well here and how. C Introducing myself to everybody, loudly, inside about an hour. D I researched it for six months. I know it better than people who live there. E Telling everyone back home how well it is going before it is going at all. ← Back Pick one, then Next Next Question Block 02 of 08 12% Driven Question 02 THE CAR 02 What are you driving, and what is playing in it? Be honest. This one is very revealing. A Something comfortable and sensible that I am quietly embarrassed by. B Something I worked for, kept clean, and I know exactly what it cost me. C Whatever was nearest, at a volume nobody in the area asked for. D I do not drive. I would rather not be out there at all. E Something louder than I can afford, and I will tell you what it is worth. ← Back Pick one, then Next Next Question Block 03 of 08 25% Driven Question 03 THE CREDIT 03 Somebody takes credit for your work in a meeting. Eight seconds to decide what kind of person you are. A I let it go, and then feel worse about it for a week. B I say nothing, and I remember exactly who was in the room.",
-   "pub": "2026-11-19T00:21:46Z"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSWsteU5JeWFTMnB5UEJjcUdZVHptX3hoMTRwaUlmV01pNUI0a2dkdjZVa3B6WlNjR3g1dW1fYkNBR2dROUtJMTh5NnB2X2pKSUYzTllOaXZicDhIRm42ZjdZdTl5WUx4eU9xSmRjWWhDZk9LbU5BblJ5TDZsYXRPMjFLbEtUNkw5cGJhS0ZvV3FxOVNoY0hUTXlYWQ?oc=5",
@@ -317,22 +317,6 @@
    "chapeau": "Guide GTA 6 : carte, personnages, activités, mécaniques et toutes les infos - Voici tout ce qu'il faut savoir sur GTA 6. Date et heure de lancement, poids du jeu, Xbox Series X|S et PS5, version PC, carte de Leonida, météo, police,",
    "txt": "Voici tout ce qu’il faut savoir sur GTA 6. Date et heure de lancement, poids du jeu, Xbox Series X|S et PS5, version PC, carte de Leonida, météo, police, Jason et Lucia, romance, animaux, radios, GTA 6 Online… ce guide GTA 6 rassemble tout ce que l’on sait actuellement sur Grand Theft Auto VI.\nCette page a vocation à devenir notre guide central autour de GTA 6. Elle sera régulièrement mise à jour avec nos nouveaux guides, astuces et découvertes après la sortie du jeu.\nGTA 6 sort officiellement le jeudi 19 novembre 2026 sur Xbox Series X|S et PlayStation 5. Rockstar a opté pour un lancement à minuit, heure locale. En France et en Belgique, le jeu devient donc normalement accessible à 00h00 dans la nuit du mercredi 18 au jeudi 19 novembre.\nComme GTA 6 est déverrouillé à minuit heure locale et non simultanément dans le monde, cela permet aux joueurs français et belges de lancer le jeu dès le mercredi 18 novembre à 12h, soit environ douze heures avant sa sortie normale chez nous.\nPlus d’infos à propos de l’heure de sortie de GTA 6 : GTA 6 : comment jouer en avance dès mercredi 12h avec l’astuce Nouvelle-Zélande\nAu lancement, GTA 6 est disponible sur les plateformes suivantes.\nAucune version native Xbox One ou PlayStation 4 n’a été annoncée, mais le jeu peut néanoins être lancé depuis une Xbox One et être joué en straming.\nRockstar Games n’a toujours annoncé aucune version PC de GTA 6. Le lancement du 19 novembre concerne uniquement les Xbox Series X|S et PS5.\nPlusieurs informations non officielles évoquent néanmoins une arrivée ultérieure. GamesBeat a notamment évoqué le premier trimestre 2027. Sur Xboxygen, nous avons également comparé le calendrier de GTA 6 avec ceux de GTA 4, GTA 5 et Red Dead Redemption 2.\nNotre estimation actuelle place plutôt la fin de l’année 2027 comme scénario crédible en nous basant sur l’historique récent de Rockstar, mais il ne s’agit absolument pas d’une date officielle. Plus d’infos à propos de GTA 6 sur PC .\nRockstar a communiqué sur un téléchargement pouvant atteindre 212 Go selon l’appareil. Sur Xbox Series X|S, les données brutes du catalogue Microsoft montrent de leur côté un package global représentant environ 225,34 Go en conversion décimale.\nEn pratique, nous conseillons donc de prévoir au moins 225 Go d’espace disponible sur Xbox, sans compter les éventuelles mises à jour supplémentaires. Sur une Xbox Series S de 512 Go, dont environ 364 Go sont réellement disponibles pour les jeux et applications, GTA 6 occupe donc une part particulièrement importante du SSD.\nOui. Le préchargement est ouvert depuis le 10 novembre 2026. Sur Xbox Series X|S, il a débuté à 0 h GMT, soit 1 heure du matin en France. Sur PS5, le téléchargement a commencé à minuit heure locale.\nSur Xbox, il est même possible de lancer le téléchargement du jeu avant d’avoir reçu son code grâce à l’application Xbox. Il faudra évidemment posséder le jeu ou activer un code valide pour pouvoir ensuite le lancer. Comment télécharger GTA 6 sur Xbox avant de recevoir son code\nNon, pas au lancement. Rockstar Games a officiellement confirmé un objectif de 30 images par seconde sur les consoles. Le studio explique vouloir exploiter au maximum la génération actuelle sans sacrifier la densité de Leonida et de ses habitants.\nAucun mode 40 FPS ou 60 FPS n’a été annoncé. La PS5 Pro bénéficie en revanche d’améliorations graphiques, notamment une image améliorée via PSSR et des ombres utilisant le ray tracing.\nGTA 6 se déroule dans Leonida, un immense État fictif inspiré notamment de la Floride contemporaine. Vice City constitue sa principale métropole, mais Rockstar a déjà présenté six grandes destinations :\nRockstar n’a donné aucune superficie précise en kilomètres carrés pour la map de GTA 6 . Rob Nelson de Rockstar North a toutefois donné un ordre de grandeur : Leonida serait environ deux fois plus grande que la carte de GTA 5.\nRockstar insiste surtout sur sa densité. La taille brute ne serait donc qu’une partie de l’évolution par rapport à GTA 5, avec davantage d’intérieurs et de lieux à découvrir. Une carte interactive réalisée par la communauté permet déjà de reconstituer de nombreuses zones, mais elle ne doit pas être confondue avec la carte officielle du jeu.\nOui, Rockstar a confirmé qu’une carte complète de Leonida est imprimée au verso d’un poster officiel proposé dans son coffret The Goodtime State. Elle sera également proposée à la vente physique pour 1 € sur le Store de Rockstar.\nJason et Lucia sont les deux personnages prin",
    "pub": "2026-11-18T20:44:19+00:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNVWMxaVAxU2ZicmFMTC1JU3pfREZlTlRsV2J3MGJSV28yYjJVbVQ4b0FTeEYxZkxuOFA2Y3l1cDBCbGhzT2Y3THl5X3RzVk4temxzSkdCMUtBS1dzWnphejNVOFEtRE1YSGpCdUgxMFlXLW1ld2pDc3dWcVNfWXlKZVNqbDJIQ3JHMTI0V2w4UHk3b1Z3a094M1R0VGhMbDBfLXV6TWlZN1piWEgzdXQwcFVpOW5EWVFIVElRcjEtSFdQMkkteWFoeE5lYk4wWDV2QWRxM2pXM2dyc1B4Z1RqdDRBYjlVTWtCVVNvWA?oc=5",
-   "s": "La Provence",
-   "d": "2026-11-18T20:41:16+00:00",
-   "lang": "fr",
-   "t": "GTA 6 est enfin là ! Voici tout ce qu’il faut savoir sur le jeu événement de Rockstar Games",
-   "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNaVFib1M0bFFteFZRdnFCYUZQWmF4VExybWFpM0QydmRmNVRKRVNwNDVLOGp3WFBGVVJTYUJzbFBEemNTeW9RNlR2bjRIYUxKak94TnRXXzZnNm5nSUN1bWV4ckxtUmRlOG1KbHF1UkNtWFVTelRaM2kyVHlvTFd4LTlrR0huRy02blhqV183bUJkMEl0VWZ5SXVlLVN5R0lsREpjTDM0c1p0el8wU1pCbDFJQUdTbmh1SmhmRXo3cExyLTJLalhoTVFjWkYzcVlmUlhuby15dERRXzc5NlktZlZLc0l6SjlmQ3hpSklKUnBSRWxUMW9GMUNJVFQ?oc=5",
-   "s": "franceinfo",
-   "d": "2026-11-18T20:24:39+00:00",
-   "lang": "fr",
-   "t": "Budget, préventes, musique… Cinq chiffres vertigineux autour de \"GTA VI\", qui sort après treize ans d'attente",
-   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPOWVfOFhJRS03a0dVTFM3R1lNQ21SZGFEYmlQdjJLTVZDNVdGV1dmU25KWVpMVnNDdno0c0pseElwRjJ6OWVWZ0hiazZKLVZGUEViVlh1TFE0N3dpY05aRm45aXNKZU1HN0p0YnBfSWJmUHNpXzMtTFBoeU81QUpDSWxCQzhleERWNERVSkZ5T3RQQ3NV?oc=5",
