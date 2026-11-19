@@ -1,8 +1,66 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-19T00:13:00+01:00",
+  "updated_at": "2026-11-19T08:13:00+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-sortie-usa-canada-gtavi-countdown-2026-11-19",
+      "title": "GTA 6 est sorti aux États-Unis et au Canada, selon @GTAVI_Countdown",
+      "summary": "@GTAVI_Countdown annonce la sortie de GTA 6 aux États-Unis et au Canada, puis en Amérique latine, avec un compte à rebours pour le Mexique. @GTAlphaintel publie la même information à 05 h 00 UTC. Vice annonce aussi la sortie aux États-Unis et au Canada.",
+      "url": "https://x.com/GTAVI_Countdown/status/2123280121717227863",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "2026-11-19T05:00:04.000Z",
+      "checked_at": "2026-11-19T08:13:00+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json : 17 346 vues pour @GTAVI_Countdown à 05 h 00 UTC (1 065 j'aime, 131 reposts) ; 9 714 vues pour @GTAlphaintel à 05 h 00 UTC. Corroboration : Vice, « GTA 6 Is Now Out in the US and Canada » (05 h 00 UTC), data/presse.json.",
+      "visual": "SORTIE USA",
+      "image": "https://pbs.twimg.com/media/HXdnU8gXgAAbUjJ?format=jpg&name=small",
+      "image_alt": "Publication annonçant la sortie de GTA 6 aux États-Unis et au Canada",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Sortie annoncée par deux comptes fans et relayée par Vice. Rockstar n'a pas encore confirmé dans les sources relevées.",
+      "corroboration": "https://www.vice.com/en/article/gta-6-us-canada-launch-ps5-download-size-game-sharing/"
+    },
+    {
+      "id": "x-prostitution-retiree-gtalphaintel-2026-11-19",
+      "title": "GTA 6 : la prostitution et les rencontres intimes retirées, selon @GTAlphaintel",
+      "summary": "@GTAlphaintel affirme que GTA 6 ne permet plus de payer des services sexuels ni d'avoir des rapports intimes avec d'autres PNJ, une fonction présente dans un ancien épisode de la série. Le post n'est pas confirmé par Rockstar dans les sources relevées.",
+      "url": "https://x.com/GTAlphaintel/status/2123234807337582775",
+      "platform": "X",
+      "author": "@GTAlphaintel",
+      "status": "Rumeur",
+      "published_at": "2026-11-19T02:00:00.000Z",
+      "checked_at": "2026-11-19T08:13:00+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json : 73 410 vues pour @GTAlphaintel à 02 h 00 UTC (524 j'aime, 130 signets). Un seul compte, aucune reprise ni presse dans data/presse.json.",
+      "visual": "FONCTION RETIRÉE",
+      "image": "https://pbs.twimg.com/media/HXcX3jjbUAAPdp9?format=jpg&name=360x360",
+      "image_alt": "Publication de @GTAlphaintel sur la suppression de la prostitution dans GTA 6",
+      "image_credit": "@GTAlphaintel sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Information d'un seul compte, à prendre avec prudence : aucune confirmation de Rockstar relevée."
+    },
+    {
+      "id": "x-lucia-van-centre-communautaire-gtasix-2026-11-19",
+      "title": "GTA 6 : un van de centre communautaire vient chercher Lucia pour aller travailler, selon @gtasix_",
+      "summary": "@gtasix_ décrit une scène de GTA 6 : si l'on suit Lucia après qu'elle annonce aller travailler, un van de centre communautaire vient la chercher. Information d'un seul compte, sans presse relevée.",
+      "url": "https://x.com/gtasix_/status/2123225105388159452",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rumeur",
+      "published_at": "2026-11-19T01:21:27.000Z",
+      "checked_at": "2026-11-19T08:13:00+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json : 280 345 vues pour @gtasix_ à 01 h 21 UTC (7 542 j'aime, 175 reposts, 660 signets). Vidéo jointe au post ; aucune presse relevée dans data/presse.json.",
+      "visual": "LUCIA VAN",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2123225059229659136/img/Lzdni9LX4WYNN40g.jpg",
+      "image_alt": "Vidéo de @gtasix_ montrant Lucia et un van dans GTA 6",
+      "image_credit": "@gtasix_ sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Scène relayée par un seul compte fan, non confirmée par Rockstar."
+    },
     {
       "id": "x-miami-heat-live-action-trailer-gtavi-countdown-2026-11-18",
       "title": "GTA 6 : un nouveau trailer live-action réalisé avec le Miami Heat, selon @GTAVI_Countdown",
@@ -5178,6 +5236,11 @@
       "at": "2026-11-19T00:13:00+01:00",
       "label": "Passage Claude Haiku (Matière X, 18/11, relevé 23 h 02 UTC)",
       "summary": "3 sujets ajoutés depuis x_alertes.json : trailer live-action avec le Miami Heat (@GTAVI_Countdown, 26 460 vues, Rumeur), PNJ provoqués (@gtasix_, 45 127 vues, Rumeur), sortie Arabie saoudite/Turquie/Émirats (@GTAVI_Countdown, 21 700 vues, Rumeur). Écarté : sous 20 000 vues (swingset 22 826 vues en tête non retenu faute de place, Bigfoot, véhicules, furry) ; posts 18/11 23 h sur la sortie France : sous 20 000 vues et sans reprise."
+    },
+    {
+      "at": "2026-11-19T08:13:00+01:00",
+      "label": "Passage Claude Haiku (Matière X, 19/11, relevé 06 h 13 UTC)",
+      "summary": "3 sujets ajoutés depuis x_alertes.json : sortie États-Unis/Canada (@GTAVI_Countdown 17 346 vues, @GTAlphaintel 9 714 vues, corroboration Vice, Rapporté), prostitution retirée (@GTAlphaintel, 73 410 vues, Rumeur), van de Lucia (@gtasix_, 280 345 vues, Rumeur). Écarté : UFO 39 176 vues, 8 artworks 25 873 vues, drone show Miami 22 053 vues (un compte, sans reprise à ce stade), posts sous 20 000 vues sans reprise."
     }
   ],
   "coverage": {
