@@ -1,6 +1,6 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-19T08:13:00+01:00",
+  "updated_at": "2026-11-19T10:13:00+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
     {
@@ -22,6 +22,25 @@
       "cta": "Ouvrir la publication sur X",
       "post_text": "Sortie annoncée par deux comptes fans et relayée par Vice. Rockstar n'a pas encore confirmé dans les sources relevées.",
       "corroboration": "https://www.vice.com/en/article/gta-6-us-canada-launch-ps5-download-size-game-sharing/"
+    },
+    {
+      "id": "x-drones-miami-gtavi-countdown-2026-11-19",
+      "title": "GTA 6 : un spectacle de drones à Miami, selon @GTAVI_Countdown",
+      "summary": "@GTAVI_Countdown relaie un spectacle de drones à Miami qui projette le logo de GTA 6, Jason et Lucia dans le ciel. Le même compte annonce un nouveau trailer live-action tourné lors de l'événement du Heat.",
+      "url": "https://x.com/GTAVI_Countdown/status/2123265065935614067",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-19T04:00:14.000Z",
+      "checked_at": "2026-11-19T10:13:00+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json : 27 439 vues pour @GTAVI_Countdown à 04 h 00 UTC (965 j'aime, 100 reposts). Pas de reprise relevée à ce stade.",
+      "visual": "DRONES MIAMI",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2123235713386708992/img/r4_UooFceXxya6kG.jpg",
+      "image_alt": "Publication sur le spectacle de drones de GTA 6 à Miami",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Publication d'un compte fan. Rockstar n'a pas confirmé le spectacle dans les sources relevées."
     },
     {
       "id": "x-prostitution-retiree-gtalphaintel-2026-11-19",
@@ -60,6 +79,44 @@
       "embed_type": "x",
       "cta": "Ouvrir la publication sur X",
       "post_text": "Scène relayée par un seul compte fan, non confirmée par Rockstar."
+    },
+    {
+      "id": "x-artworks-welcome-hub-gtavi-countdown-2026-11-19",
+      "title": "GTA 6 : huit nouveaux artworks, selon @GTAVI_Countdown",
+      "summary": "@GTAVI_Countdown annonce huit nouveaux artworks de GTA 6, dont des versions complètes d'images déjà vues. Certains doivent servir de fonds au PS5 Welcome Hub.",
+      "url": "https://x.com/GTAVI_Countdown/status/2123224075300413458",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-19T01:17:21.000Z",
+      "checked_at": "2026-11-19T10:13:00+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json : 28 721 vues pour @GTAVI_Countdown à 01 h 17 UTC (843 j'aime, 73 reposts). Pas de reprise relevée à ce stade.",
+      "visual": "ARTWORKS PS5",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2123222296424755200/img/KMOfPnCf9rLsIe5r.jpg",
+      "image_alt": "Publication annonçant huit nouveaux artworks de GTA 6",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Annonce d'un compte fan, non confirmée par Rockstar dans les sources relevées. Les fonds du PS5 Welcome Hub restent à vérifier."
+    },
+    {
+      "id": "x-sortie-royaume-uni-irlande-gtavi-countdown-2026-11-19",
+      "title": "GTA 6 est sorti au Royaume-Uni et en Irlande, selon @GTAVI_Countdown",
+      "summary": "@GTAVI_Countdown annonce la sortie de GTA 6 au Royaume-Uni, en Irlande, au Portugal et en Islande, puis en Finlande, Bulgarie, Chypre, Roumanie, Grèce, Afrique du Sud et Ukraine. @GTAlphaintel relaie la sortie au Royaume-Uni au même moment.",
+      "url": "https://x.com/GTAVI_Countdown/status/2123204712837112104",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "2026-11-19T00:00:25.000Z",
+      "checked_at": "2026-11-19T10:13:00+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json : 31 607 vues pour @GTAVI_Countdown à 00 h 00 UTC (1 115 j'aime, 103 reposts) ; 14 752 vues pour @GTAlphaintel à 00 h 00 UTC (44 j'aime, 5 reposts). Rockstar n'est pas cité dans les publications relevées.",
+      "visual": "SORTIE ROYAUME-UNI",
+      "image": "https://pbs.twimg.com/media/HXcjWN0XUAE7Qv3?format=jpg&name=small",
+      "image_alt": "Publication annonçant la sortie de GTA 6 au Royaume-Uni et en Irlande",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Sortie annoncée par deux comptes fans ; Rockstar n'a pas encore confirmé dans les sources relevées."
     },
     {
       "id": "x-miami-heat-live-action-trailer-gtavi-countdown-2026-11-18",
@@ -5241,6 +5298,11 @@
       "at": "2026-11-19T08:13:00+01:00",
       "label": "Passage Claude Haiku (Matière X, 19/11, relevé 06 h 13 UTC)",
       "summary": "3 sujets ajoutés depuis x_alertes.json : sortie États-Unis/Canada (@GTAVI_Countdown 17 346 vues, @GTAlphaintel 9 714 vues, corroboration Vice, Rapporté), prostitution retirée (@GTAlphaintel, 73 410 vues, Rumeur), van de Lucia (@gtasix_, 280 345 vues, Rumeur). Écarté : UFO 39 176 vues, 8 artworks 25 873 vues, drone show Miami 22 053 vues (un compte, sans reprise à ce stade), posts sous 20 000 vues sans reprise."
+    },
+    {
+      "at": "2026-11-19T10:13:00+01:00",
+      "label": "Passage Claude Haiku (Matière X, 19/11, relevé 08 h 16 UTC)",
+      "summary": "3 sujets ajoutés depuis x_alertes.json : drones à Miami (@GTAVI_Countdown 27 439 vues, Rumeur), 8 artworks et fonds PS5 Welcome Hub (@GTAVI_Countdown 28 721 vues, Rumeur), sortie Royaume-Uni/Irlande (@GTAVI_Countdown 31 607 vues, @GTAlphaintel 14 752 vues, Rapporté). Écarté faute de place (3 par passage) : UFO 41 810 vues (@GTAlphaintel, un compte) ; final drive GTA 5 (66 990 vues, lien GTA 6 incertain) ; posts sous 20 000 vues sans reprise."
     }
   ],
   "coverage": {
