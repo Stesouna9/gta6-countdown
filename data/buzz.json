@@ -1,8 +1,46 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-19T22:12:52+01:00",
+  "updated_at": "2026-11-20T00:12:52+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-premiere-personne-telephone-glitch-2026-11-19",
+      "title": "GTA 6 : un joueur trouve une méthode pour passer en vue à la première personne",
+      "summary": "Un joueur aurait trouvé un glitch qui permet de passer en vue à la première personne : il faut régler le pavé tactile de la manette sur la caméra, s'asseoir au volant et sortir le téléphone avec la flèche haut. Le compte @GTAVI_Countdown relaie la méthode, sans confirmation de Rockstar.",
+      "url": "https://x.com/GTAVI_Countdown/status/2123528804463251558",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-19T21:28:14.000Z",
+      "checked_at": "2026-11-20T00:12:52+01:00",
+      "evidence": "Vues relevées le 19/11 dans data/x_alertes.json : 46 793 vues, 1 255 j'aime, 98 reposts, 688 marque-pages. Un seul compte relaie la méthode dans le relevé ; méthode non vérifiée par le site.",
+      "visual": "VUE PREMIERE PERSONNE",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2123528452984672256/img/JtX5oV9FjoWeRyMp.jpg",
+      "image_alt": "Publication de @GTAVI_Countdown décrivant la méthode de vue à la première personne",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "A GTA 6 player discovered a method/glitch to play in first-person mode, which seems to be functional.\n\n- Settings → Controller → Touch Pad Button → change to Camera\n- Sit in the driver’s seat and pull out the phone by pressing ↑ on the d-pad\n- Put your phone away by pressing"
+    },
+    {
+      "id": "x-doomscroll-conduite-umamusume-2026-11-19",
+      "title": "GTA 6 : des joueurs font défiler les réseaux sociaux au volant, un mème qui circule",
+      "summary": "Des joueurs ont transformé en mème la possibilité de faire défiler les réseaux sociaux au volant pendant qu'ils conduisent, en regardant Umamusume et des images d'animé. Le compte @GTAlphaintel relaie la vidéo de jeu, création de joueurs.",
+      "url": "https://x.com/GTAlphaintel/status/2123476398769680826",
+      "platform": "X",
+      "author": "@GTAlphaintel",
+      "status": "Création de fan",
+      "published_at": "2026-11-19T18:00:00.000Z",
+      "checked_at": "2026-11-20T00:12:52+01:00",
+      "evidence": "Vues relevées le 19/11 dans data/x_alertes.json : 25 664 vues, 876 j'aime, 124 reposts, 180 marque-pages. Un seul compte relaie le mème dans le relevé ; contenu de joueurs, pas une information officielle.",
+      "visual": "DEFILEMENT VOLANT",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2123256649322319872/img/9SYaRCc8ya756MSW.jpg",
+      "image_alt": "Publication de @GTAlphaintel sur un mème de joueurs qui font défiler les réseaux au volant",
+      "image_credit": "@GTAlphaintel sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "GTA VI lets you doomscroll while driving\n\nPlayers have turned it into a meme as they watch Umamusume and browsing anime girls behind the wheel"
+    },
     {
       "id": "x-playstation-dualsense-gta6-disponible-2026-11-19",
       "title": "GTA 6 : PlayStation annonce les manettes DualSense édition limitée disponibles dès aujourd'hui",
@@ -5542,6 +5580,11 @@
       "at": "2026-11-19T22:12:52+01:00",
       "label": "Passage Claude Haiku (Matière X, 19/11 soir, 2)",
       "summary": "1 sujet ajouté depuis x_alertes.json : PlayStation annonce les manettes DualSense édition limitée GTA 6 disponibles aujourd'hui (@PlayStation, 192 013 vues, Officiel). Écartés : Lexie Shoaibi, nouvelle vidéo à 393 181 vues, déjà couverte par x-mandy-actrice-lexie-shoaibi-2026-11-19 ; Manny Perez et Bobby Moynihan, déjà couverts par le casting du 17/11 ; « Thank you! Leonida awaits » (45 474 vues, remerciement sans information) ; maillot PlayStation (#ad, 18 430 vues) ; Lucia / alligator, déjà publié ; autres posts sous 20 000 vues."
+    },
+    {
+      "at": "2026-11-20T00:12:52+01:00",
+      "label": "Passage Claude Haiku (Matière X, 20/11 00 h)",
+      "summary": "2 sujets ajoutés depuis x_alertes.json : première personne par un glitch du téléphone au volant (@GTAVI_Countdown, 46 793 vues, Rumeur) et mème de défilement au volant (@GTAlphaintel, 25 664 vues, Création de fan). Écartés : Cyberleek build Xbox (407 556 vues, déjà couvert par la presse et les articles du site, image du post non utilisable sans risque de fuite) ; Lexie Shoaibi (déjà couverte) ; Manny Perez et Bobby Moynihan (déjà couverts) ; Leonida (remerciement sans information) ; gtasix_ PS6 (18 309 vues) et Lucia (15 303 vues), sous 20 000 vues."
     }
   ],
   "coverage": {
