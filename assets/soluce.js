@@ -74,6 +74,204 @@
   }
   function compteCouche(D, id) { var n = 0, t = 0; D.points.forEach(function (p) { if (p.couche === id) { t++; if (S.p[p.id]) n++; } }); return [n, t]; }
 
+  /* ---------- Carte officielle, refaite de zéro le 19/11/2026 (Gabriel : « reprends tout à zéro ») ----------
+     Molette, pincement, double-clic, plein écran, image HD, 87 lieux officiels étiquetés selon le zoom,
+     recherche, panneau (lieux, collectibles cochables, mes repères), case du quadrillage, lien partageable. */
+  function carteOff(el, D, C) {
+    var OW = D.fond_officiel_l || 2200, OH = D.fond_officiel_h || 3012, OB = [[0, 0], [OH, OW]], kx = OW / 1000;
+    var LO = (D.lieux_officiels || []).slice().sort(function (a, b) { return a.n.localeCompare(b.n); });
+    var mob = matchMedia("(max-width: 820px)").matches;
+    var z = el.closest(".ct-zone"); if (z) z.classList.add("ct-seule", "cx-zone");
+    el.className = "cx"; el.innerHTML =
+      '<div class="cx-map"></div>' +
+      '<div class="cx-haut"><div class="cx-rech"><span aria-hidden="true">⌕</span><input type="search" autocomplete="off"><ul hidden></ul></div>' +
+      '<button type="button" class="cx-b cx-b-pan"></button></div>' +
+      '<div class="cx-outils"><button type="button" class="cx-b cx-b-plein" aria-label="Plein écran">⛶</button><button type="button" class="cx-b cx-b-cadre" aria-label="Recadrer">⌂</button><button type="button" class="cx-b cx-b-part" aria-label="Partager">↗</button><button type="button" class="cx-b cx-b-noms on" aria-label="Noms">Aa</button></div>' +
+      '<aside class="cx-pan"' + (mob ? " hidden" : "") + '><div class="cx-onglets"></div><div class="cx-corps"></div></aside>' +
+      '<div class="cx-bas"></div><div class="cx-toast" hidden></div>';
+    var $ = function (s) { return el.querySelector(s); };
+    var mapEl = $(".cx-map"), ri = $(".cx-rech input"), ru = $(".cx-rech ul"), pan = $(".cx-pan"), corps = $(".cx-corps"), ong = $(".cx-onglets"), bas = $(".cx-bas"), toast = $(".cx-toast");
+    var mo = L.map(mapEl, { crs: L.CRS.Simple, minZoom: -4, maxZoom: 1.75, zoomSnap: 0, zoomDelta: 0.5, wheelPxPerZoomLevel: 110, wheelDebounceTime: 20, scrollWheelZoom: true, doubleClickZoom: true, touchZoom: true, dragging: true, inertia: true, zoomControl: false, attributionControl: true, tap: true, bounceAtZoomLimits: false });
+    L.control.zoom({ position: "bottomright", zoomInTitle: "+", zoomOutTitle: "−" }).addTo(mo);
+    mo.attributionControl.setPrefix(false).addAttribution(esc(tr("sl_attr_off", "Carte officielle Rockstar Games")));
+    L.imageOverlay(R + D.fond_officiel, OB, { alt: "Leonida" }).addTo(mo);
+    /* image HD (2805 px) chargée ensuite, posée par-dessus : texte net au zoom fort */
+    var hd = new Image(); hd.onload = function () { L.imageOverlay(hd.src, OB, { alt: "" }).addTo(mo).bringToBack(); mo.eachLayer(function (l) { if (l instanceof L.ImageOverlay && l._url.indexOf("-hd") < 0) mo.removeLayer(l); }); };
+    hd.src = R + D.fond_officiel.replace(".webp", "-hd.webp");
+    function cadre(anim) { mo.invalidateSize(); var zf = mo.getBoundsZoom(OB, false); mo.setMinZoom(zf - 0.25); mo.fitBounds(OB, { animate: !!anim }); }
+    mo.setMaxBounds([[-OH * .15, -OW * .15], [OH * 1.15, OW * 1.15]]);
+    function ll(o) { return L.latLng(OH - o.y * kx, o.x * kx); }
+    function caseDe(p) {
+      var x = p.lng / kx, y = (OH - p.lat) / kx;
+      if (x < 33 || x > 1000 || y < 22 || y > 1350) return "";
+      return "ABCDEFGHIJKLM".charAt(Math.min(12, Math.floor((y - 22) / 102))) + Math.min(9, Math.floor((x - 33) / 103.75) + 1);
+    }
+    function info(m) { toast.textContent = m; toast.hidden = false; clearTimeout(info.t); info.t = setTimeout(function () { toast.hidden = true; }, 2200); }
+
+    /* 87 lieux officiels : point + étiquette (étiquettes visibles dès qu'on zoome un peu) */
+    var gL = L.layerGroup().addTo(mo), mk = {}, sel = null;
+    LO.forEach(function (o) {
+      var m = L.circleMarker(ll(o), { radius: 6, color: "#0b0812", weight: 2, fillColor: "#ff2e88", fillOpacity: 1, className: "cx-pt" })
+        .bindTooltip(esc(o.n), { permanent: true, direction: "right", offset: [7, 0], className: "cx-lab" })
+        .on("click", function () { voir(o, true); }).addTo(gL);
+      mk[o.n] = m;
+    });
+    function etiquettes() { el.classList.toggle("cx-labs", noms && mo.getZoom() >= mo.getMinZoom() + 1.1); el.classList.toggle("cx-labs-all", noms && mo.getZoom() >= mo.getMinZoom() + 1.9); }
+    var noms = true;
+    function popLieu(o) {
+      return '<div class="cx-pop"><b>' + esc(o.n) + "</b><span>" + esc(tr("sl_off_case", "Case")) + " " + esc(o.case) + '</span><button type="button" class="cx-pop-l" data-n="' + esc(o.n) + '">' + esc(tr("cx_lien", "Copier le lien")) + "</button></div>";
+    }
+    function voir(o, sansVol) {
+      var p = ll(o);
+      if (sel) sel.setStyle({ radius: 6, fillColor: "#ff2e88" });
+      sel = mk[o.n]; if (sel) { sel.setStyle({ radius: 10, fillColor: "#ffd23f" }); sel.bringToFront(); }
+      if (!sansVol) mo.flyTo(p, Math.max(mo.getZoom(), mo.getMinZoom() + 2), { duration: .7 });
+      L.popup({ offset: [0, -6], className: "cx-popup" }).setLatLng(p).setContent(popLieu(o)).openOn(mo);
+      etat("l=" + encodeURIComponent(o.n));
+      if (mob) pan.hidden = true, majPanBtn();
+    }
+
+    /* recherche */
+    function norm(t) { return (t || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, ""); }
+    var act = -1;
+    function suggere() {
+      var q = norm(ri.value.trim()); act = -1;
+      if (q.length < 1) { ru.hidden = true; return; }
+      var r = LO.filter(function (o) { return norm(o.n).indexOf(q) >= 0; }).sort(function (a, b) { return norm(a.n).indexOf(q) - norm(b.n).indexOf(q); }).slice(0, 8);
+      ru.innerHTML = r.length ? r.map(function (o) { return '<li><button type="button" data-n="' + esc(o.n) + '">' + esc(o.n) + "<small>" + esc(o.case) + "</small></button></li>"; }).join("") : '<li class="cx-vide">' + esc(tr("cx_rien", "Aucun lieu de ce nom sur la carte")) + "</li>";
+      ru.hidden = false;
+    }
+    ri.addEventListener("input", suggere); ri.addEventListener("focus", suggere);
+    ri.addEventListener("keydown", function (e) {
+      var bs = ru.querySelectorAll("button");
+      if (e.key === "ArrowDown" || e.key === "ArrowUp") { e.preventDefault(); act = (act + (e.key === "ArrowDown" ? 1 : -1) + bs.length) % bs.length; [].forEach.call(bs, function (b, i) { b.classList.toggle("on", i === act); }); }
+      else if (e.key === "Enter") { var b = bs[act >= 0 ? act : 0]; if (b) b.click(); }
+      else if (e.key === "Escape") { ru.hidden = true; ri.blur(); }
+    });
+    ru.addEventListener("click", function (ev) { var b = ev.target.closest("button[data-n]"); if (!b) return; var o = trouve(b.getAttribute("data-n")); if (o) { ri.value = o.n; ru.hidden = true; ri.blur(); voir(o); } });
+    document.addEventListener("click", function (ev) { if (!ev.target.closest(".cx-rech")) ru.hidden = true; });
+    function trouve(n) { for (var i = 0; i < LO.length; i++) if (LO[i].n === n) return LO[i]; return null; }
+
+    /* repères perso : clic droit (ordinateur) ou appui long (mobile), ou bouton du panneau */
+    var RK = "carte-reperes", MR = [], gM = L.layerGroup().addTo(mo), pose = false;
+    try { MR = JSON.parse(localStorage.getItem(RK) || "[]") || []; } catch (e) { MR = []; }
+    function sauveR() { try { localStorage.setItem(RK, JSON.stringify(MR)); } catch (e) {} }
+    var icR = L.divIcon({ className: "cx-mon", html: "<i></i>", iconSize: [26, 34], iconAnchor: [13, 32], popupAnchor: [0, -30] });
+    function dessineR() {
+      gM.clearLayers();
+      MR.forEach(function (m, i) {
+        L.marker([m.a, m.o], { icon: icR, draggable: true, title: m.n }).addTo(gM)
+          .bindPopup('<div class="cx-pop"><b>' + esc(m.n) + "</b><span>" + esc(tr("sl_off_case", "Case")) + " " + esc(caseDe(L.latLng(m.a, m.o))) + '</span><button type="button" class="cx-pop-s" data-i="' + i + '">' + esc(tr("sl_off_suppr", "Supprimer")) + "</button></div>", { className: "cx-popup" })
+          .on("dragend", function (e) { var p = e.target.getLatLng(); m.a = p.lat; m.o = p.lng; sauveR(); dessineR(); });
+      });
+      if (onglet === "mes") rendPan();
+    }
+    function ajoute(p) {
+      var n = window.prompt(tr("sl_off_nom", "Nom du repère (ex. carte à collectionner, planque)"), "");
+      if (n === null) return;
+      MR.push({ n: (n.trim() || tr("cx_repere", "Repère")).slice(0, 60), a: p.lat, o: p.lng }); sauveR(); dessineR();
+      info(tr("cx_ajoute", "Repère enregistré sur cet appareil"));
+    }
+    mo.on("contextmenu", function (e) { ajoute(e.latlng); });
+    mo.on("click", function (e) {
+      if (pose) { pose = false; el.classList.remove("cx-pose"); ajoute(e.latlng); return; }
+      var c = caseDe(e.latlng); if (c) L.popup({ className: "cx-popup cx-popup-case" }).setLatLng(e.latlng).setContent("<b>" + esc(tr("sl_off_case", "Case")) + " " + c + "</b>").openOn(mo);
+    });
+    mo.on("popupopen", function (e) {
+      var r = e.popup.getElement(); if (!r) return;
+      var s = r.querySelector(".cx-pop-s"); if (s) s.onclick = function () { MR.splice(+s.getAttribute("data-i"), 1); sauveR(); mo.closePopup(); dessineR(); };
+      var l = r.querySelector(".cx-pop-l"); if (l) l.onclick = function () { partage(); };
+    });
+    mo.on("popupclose", function () { if (sel) { sel.setStyle({ radius: 6, fillColor: "#ff2e88" }); sel = null; } });
+    mapEl.addEventListener("mousemove", function (ev) { var c = caseDe(mo.mouseEventToLatLng(ev)); bas.textContent = c ? tr("sl_off_case", "Case") + " " + c : ""; });
+    mapEl.addEventListener("mouseleave", function () { bas.textContent = ""; });
+
+    /* panneau : Lieux / Collectibles / Mes repères */
+    var onglet = "lieux", ouv = {};
+    function rendOng() {
+      ong.innerHTML = [["lieux", tr("cx_o_lieux", "Lieux") + " " + LO.length], ["coll", tr("cx_o_coll", "Collectibles")], ["mes", tr("sl_off_mes", "Mes repères") + (MR.length ? " " + MR.length : "")]].map(function (t) { return '<button type="button" data-o="' + t[0] + '"' + (t[0] === onglet ? ' class="on"' : "") + ">" + esc(t[1]) + "</button>"; }).join("") + (mob ? '<button type="button" class="cx-x" aria-label="Fermer">✕</button>' : "");
+    }
+    function rendPan() {
+      rendOng();
+      var h = "";
+      if (onglet === "lieux") {
+        var lt = "";
+        h = '<p class="cx-aide">' + esc(tr("cx_aide_l", "Les 87 noms écrits sur la carte officielle. Touchez-en un pour y aller.")) + '</p><ul class="cx-l">' + LO.map(function (o) { var l0 = o.n.charAt(0).toUpperCase(), s = l0 !== lt ? '<li class="cx-let">' + l0 + "</li>" : ""; lt = l0; return s + '<li><button type="button" data-n="' + esc(o.n) + '">' + esc(o.n) + "<small>" + esc(o.case) + "</small></button></li>"; }).join("") + "</ul>";
+      } else if (onglet === "coll") {
+        var tot = 0, fa = 0; D.points.forEach(function (p) { tot++; if (S.p[p.id]) fa++; });
+        h = '<div class="cx-prog"><b>' + fa + " / " + tot + "</b> " + esc(tr("cx_trouves", "trouvés")) + '<span><i style="width:' + (tot ? Math.round(fa * 100 / tot) : 0) + '%"></i></span></div>' +
+          '<p class="cx-aide">' + esc(tr("cx_aide_c", "Cochez ce que vous avez trouvé : la progression reste sur cet appareil. Les positions exactes s'afficheront sur la carte dès que deux sources de joueurs concordent.")) + "</p>" +
+          D.couches.map(function (c) {
+            var pts = D.points.filter(function (p) { return p.couche === c.id; }); if (!pts.length) return "";
+            var n = pts.filter(function (p) { return S.p[p.id]; }).length;
+            return '<div class="cx-c' + (ouv[c.id] ? " ouv" : "") + '"><button type="button" class="cx-c-t" data-c="' + c.id + '"><i style="background:' + esc(c.couleur) + '"></i>' + esc(txt(c)) + "<small>" + n + "/" + pts.length + "</small></button>" +
+              (ouv[c.id] ? (txt(c, "note_") ? '<p class="cx-aide">' + esc(txt(c, "note_")) + "</p>" : "") + "<ul>" + pts.map(function (p) {
+                var src = (p.sources || []).map(function (u, i) { return '<a href="' + esc(u) + '" target="_blank" rel="noopener nofollow">' + esc(tr("sl_source", "Source")) + " " + (i + 1) + "</a>"; }).join(" · ");
+                return '<li><label><input type="checkbox" data-p="' + esc(p.id) + '"' + (S.p[p.id] ? " checked" : "") + "><span><b>" + esc(txt(p) || p.id) + "</b>" + (txt(p, "note_") ? "<small>" + esc(txt(p, "note_")) + "</small>" : "") + (src ? "<small>" + src + "</small>" : "") + "</span></label></li>";
+              }).join("") + "</ul>" : "") + "</div>";
+          }).join("");
+      } else {
+        h = '<button type="button" class="cx-b-pose' + (pose ? " on" : "") + '">' + esc(pose ? tr("sl_off_pose_on", "Touchez la carte à l'endroit voulu") : tr("sl_off_pose", "📍 Poser un repère")) + '</button><p class="cx-aide">' + esc(tr("cx_aide_m", "Astuce : clic droit sur ordinateur ou appui long sur mobile pour poser un repère. Faites-le glisser pour le déplacer.")) + "</p>" +
+          (MR.length ? '<ul class="cx-l">' + MR.map(function (m, i) { return '<li><button type="button" data-m="' + i + '">📍 ' + esc(m.n) + "<small>" + esc(caseDe(L.latLng(m.a, m.o))) + "</small></button></li>"; }).join("") + '</ul><button type="button" class="cx-vider">' + esc(tr("sl_off_vider", "Tout effacer")) + "</button>" : "");
+      }
+      corps.innerHTML = h;
+    }
+    ong.addEventListener("click", function (ev) { var b = ev.target.closest("button"); if (!b) return; if (b.classList.contains("cx-x")) { pan.hidden = true; majPanBtn(); return; } onglet = b.getAttribute("data-o"); rendPan(); corps.scrollTop = 0; });
+    corps.addEventListener("click", function (ev) {
+      var b = ev.target.closest("button"); if (!b) return;
+      if (b.hasAttribute("data-n")) { var o = trouve(b.getAttribute("data-n")); if (o) voir(o); }
+      else if (b.hasAttribute("data-m")) { var m = MR[+b.getAttribute("data-m")]; mo.flyTo([m.a, m.o], Math.max(mo.getZoom(), mo.getMinZoom() + 2), { duration: .7 }); if (mob) { pan.hidden = true; majPanBtn(); } }
+      else if (b.hasAttribute("data-c")) { var id = b.getAttribute("data-c"); ouv[id] = !ouv[id]; rendPan(); }
+      else if (b.classList.contains("cx-b-pose")) { pose = !pose; el.classList.toggle("cx-pose", pose); rendPan(); if (pose && mob) { pan.hidden = true; majPanBtn(); info(tr("sl_off_pose_on", "Touchez la carte à l'endroit voulu")); } }
+      else if (b.classList.contains("cx-vider")) { if (window.confirm(tr("sl_off_vider_q", "Effacer tous vos repères ?"))) { MR = []; sauveR(); dessineR(); } }
+    });
+    corps.addEventListener("change", function (ev) { var i = ev.target; if (!i.hasAttribute("data-p")) return; var id = i.getAttribute("data-p"); if (i.checked) S.p[id] = 1; else delete S.p[id]; sauve(); rendPan(); });
+    L.DomEvent.disableClickPropagation(pan); L.DomEvent.disableScrollPropagation(pan);
+    [".cx-haut", ".cx-outils"].forEach(function (s) { L.DomEvent.disableClickPropagation($(s)); L.DomEvent.disableScrollPropagation($(s)); });
+    var pb = $(".cx-b-pan");
+    function majPanBtn() { pb.textContent = pan.hidden ? "☰ " + tr("cx_panneau", "Lieux et collectibles") : "✕"; pb.classList.toggle("on", !pan.hidden); setTimeout(function () { mo.invalidateSize(); }, 220); }
+    pb.addEventListener("click", function () { pan.hidden = !pan.hidden; majPanBtn(); });
+
+    /* outils */
+    function plein() { return document.fullscreenElement === el || document.webkitFullscreenElement === el || el.classList.contains("cx-plein"); }
+    $(".cx-b-plein").addEventListener("click", function () {
+      if (plein()) { if (document.fullscreenElement || document.webkitFullscreenElement) (document.exitFullscreen || document.webkitExitFullscreen).call(document); else { el.classList.remove("cx-plein"); document.documentElement.classList.remove("cx-bloque"); cadre(); } return; }
+      var f = el.requestFullscreen || el.webkitRequestFullscreen;
+      if (f) { try { var r = f.call(el); if (r && r.catch) r.catch(function () { el.classList.add("cx-plein"); document.documentElement.classList.add("cx-bloque"); cadre(); }); } catch (e) { el.classList.add("cx-plein"); cadre(); } }
+      else { el.classList.add("cx-plein"); document.documentElement.classList.add("cx-bloque"); cadre(); }
+    });
+    ["fullscreenchange", "webkitfullscreenchange"].forEach(function (t) { document.addEventListener(t, function () { setTimeout(function () { cadre(); }, 120); }); });
+    $(".cx-b-cadre").addEventListener("click", function () { mo.closePopup(); cadre(true); });
+    $(".cx-b-noms").addEventListener("click", function () { noms = !noms; this.classList.toggle("on", noms); if (noms) gL.addTo(mo); else mo.removeLayer(gL); etiquettes(); });
+    function partage() {
+      var u = location.href;
+      if (navigator.share && mob) { navigator.share({ title: document.title, url: u }).catch(function () {}); return; }
+      try { navigator.clipboard.writeText(u).then(function () { info(tr("cx_copie", "Lien copié")); }, function () { window.prompt("", u); }); } catch (e) { window.prompt("", u); }
+    }
+    $(".cx-b-part").addEventListener("click", partage);
+
+    /* lien partageable : #l=Nom ou #c=zoom,lat,lng */
+    var hl = "";
+    function etat(h) { hl = h; try { history.replaceState(null, "", location.pathname + location.search + "#" + h); } catch (e) {} }
+    mo.on("moveend", function () { etiquettes(); if (hl.indexOf("l=") === 0 && mo._popup && mo.hasLayer(mo._popup)) return; var c = mo.getCenter(); etat("c=" + mo.getZoom().toFixed(2) + "," + Math.round(c.lat) + "," + Math.round(c.lng)); });
+    mo.on("zoomend", etiquettes);
+
+    function textes() {
+      ri.placeholder = tr("cx_rech", "Chercher un lieu : Vice Beach, Port Gellhorn…");
+      $(".cx-b-plein").title = tr("cx_plein", "Plein écran"); $(".cx-b-cadre").title = tr("cx_cadre", "Toute la carte"); $(".cx-b-part").title = tr("cx_partager", "Partager cette vue"); $(".cx-b-noms").title = tr("cx_noms", "Afficher les noms");
+      majPanBtn(); rendPan(); dessineR();
+    }
+    textes(); document.addEventListener("langchange", textes);
+    cadre(); setTimeout(function () { cadre(); depart(); }, 150);
+    function depart() {
+      var h = decodeURIComponent(location.hash.slice(1));
+      if (h.indexOf("l=") === 0) { var o = trouve(h.slice(2)); if (o) { mo.setView(ll(o), mo.getMinZoom() + 2.2); voir(o, true); } }
+      else if (h.indexOf("c=") === 0) { var v = h.slice(2).split(",").map(Number); if (v.length === 3 && v.every(isFinite)) mo.setView([v[1], v[2]], v[0]); }
+      etiquettes();
+    }
+    addEventListener("resize", function () { clearTimeout(cadre.t); cadre.t = setTimeout(function () { mo.invalidateSize(); var zf = mo.getBoundsZoom(OB, false); mo.setMinZoom(zf - 0.25); }, 150); });
+  }
+
   function carte() {
     var el = document.getElementById("carte");
     /* la barre flottante « Suivre GTA 6 » ne doit jamais recouvrir la carte */
@@ -95,116 +293,7 @@
            schéma des 6 régions cliquable (aucun point inventé) ; toucher une région filtre la liste des lieux */
         el.innerHTML = "";
         /* 19/11 15 h : carte officielle Rockstar (« Leonida Map & Cover Art Poster », rockstargames.com/VI/media) : zoomable, sans point inventé */
-        if (D.fond_officiel) {
-          el.classList.add("ct-schema", "ct-off");
-          var OW = D.fond_officiel_l || 2200, OH = D.fond_officiel_h || 3012, OB = [[0, 0], [OH, OW]];
-          var mo = L.map(el, { crs: L.CRS.Simple, minZoom: -4, maxZoom: 1, zoomSnap: 0.25, scrollWheelZoom: false, dragging: true, tap: true });
-          L.imageOverlay(R + D.fond_officiel, OB, { alt: "Leonida" }).addTo(mo);
-          function cadre() { mo.invalidateSize(); mo.fitBounds(OB); mo.setMinZoom(mo.getZoom()); }
-          cadre(); mo.setMaxBounds([[-OH * .05, -OW * .05], [OH * 1.05, OW * 1.05]]);
-          mo.on("resize", cadre); setTimeout(cadre, 200);
-          mo.attributionControl.setPrefix(false).addAttribution(esc(tr("sl_attr_off", "Carte officielle Rockstar Games")));
-          /* recherche d'un lieu écrit sur la carte officielle : zoome dessus et donne la case du quadrillage */
-          var LO = D.lieux_officiels || [], kx = OW / 1000, pin = null;
-          function norm(t) { return (t || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, ""); }
-          var rz = document.createElement("div"); rz.className = "ct-rech";
-          rz.innerHTML = '<input type="search" autocomplete="off" aria-label="Lieu"><ul hidden></ul>';
-          var ri = rz.querySelector("input"), ru = rz.querySelector("ul");
-          function phr() { ri.placeholder = tr("sl_off_rech", "Trouver un lieu sur la carte (ex. Vice Beach, Key Lento)"); }
-          phr();
-          function aller(o) {
-            var ll = [OH - o.y * kx, o.x * kx];
-            if (pin) mo.removeLayer(pin);
-            pin = L.circleMarker(ll, { radius: 14, color: "#ff2e88", weight: 4, fillColor: "#ffd23f", fillOpacity: .35 }).addTo(mo)
-              .bindPopup("<b>" + esc(o.n) + "</b><br><small>" + esc(tr("sl_off_case", "Case")) + " " + esc(o.case) + "</small>").openPopup();
-            if (L.Browser.mobile) mo.dragging.enable();
-            mo.setView(ll, 0);
-            ru.hidden = true; ri.value = o.n; ri.blur();
-          }
-          ri.addEventListener("input", function () {
-            var q = norm(ri.value.trim());
-            if (q.length < 2) { ru.hidden = true; return; }
-            var r = LO.filter(function (o) { return norm(o.n).indexOf(q) >= 0; }).slice(0, 8);
-            ru.innerHTML = r.length ? r.map(function (o) { return '<li><button type="button" data-n="' + esc(o.n) + '">' + esc(o.n) + " <small>" + esc(o.case) + "</small></button></li>"; }).join("") : '<li class="vide">' + esc(tr("sl_f_vide", "Aucun lieu ne correspond à ces filtres.")) + "</li>";
-            ru.hidden = false;
-          });
-          ri.addEventListener("keydown", function (e) { if (e.key === "Enter") { var b = ru.querySelector("button"); if (b) b.click(); } });
-          ru.addEventListener("click", function (ev) {
-            var b = ev.target.closest && ev.target.closest("button[data-n]"); if (!b) return;
-            var n = b.getAttribute("data-n"); LO.forEach(function (o) { if (o.n === n) aller(o); });
-          });
-          el.parentNode.insertBefore(rz, el);
-          document.addEventListener("langchange", phr);
-          /* 19/11 soir : vraie interactivité. 87 noms de la carte cliquables, case du quadrillage au toucher, repères perso enregistrés sur l'appareil */
-          function caseDe(ll) {
-            var x = ll.lng / kx, y = (OH - ll.lat) / kx;
-            var c = Math.min(9, Math.max(1, Math.floor((x - 33) / 103.75) + 1)), r = "ABCDEFGHIJKLM".charAt(Math.min(12, Math.max(0, Math.floor((y - 22) / 102))));
-            return r + c;
-          }
-          var gL = L.layerGroup().addTo(mo);
-          LO.forEach(function (o) {
-            L.circleMarker([OH - o.y * kx, o.x * kx], { radius: 7, color: "#fff", weight: 2, fillColor: "#ff2e88", fillOpacity: .9 })
-              .bindTooltip(esc(o.n), { direction: "top", offset: [0, -6] })
-              .bindPopup("<b>" + esc(o.n) + "</b><br><small>" + esc(tr("sl_off_case", "Case")) + " " + esc(o.case) + "</small>").addTo(gL);
-          });
-          var RK = "carte-reperes", MR = [], gM = L.layerGroup().addTo(mo), pose = false;
-          try { MR = JSON.parse(localStorage.getItem(RK) || "[]") || []; } catch (e) { MR = []; }
-          function sauve() { try { localStorage.setItem(RK, JSON.stringify(MR)); } catch (e) {} }
-          var icR = L.divIcon({ className: "ct-mon", html: "<span>📍</span>", iconSize: [28, 28], iconAnchor: [14, 26], popupAnchor: [0, -24] });
-          function dessine() {
-            gM.clearLayers();
-            MR.forEach(function (m, i) {
-              var mk = L.marker([m.a, m.o], { icon: icR, draggable: true }).addTo(gM);
-              mk.bindPopup("<b>" + esc(m.n) + "</b><br><small>" + esc(tr("sl_off_case", "Case")) + " " + esc(caseDe(L.latLng(m.a, m.o))) + '</small><br><button type="button" class="ct-suppr" data-i="' + i + '">' + esc(tr("sl_off_suppr", "Supprimer")) + "</button>");
-              mk.on("dragend", function () { var p = mk.getLatLng(); m.a = p.lat; m.o = p.lng; sauve(); dessine(); });
-            });
-            outil();
-          }
-          mo.on("popupopen", function (e) {
-            var b = e.popup.getElement().querySelector(".ct-suppr"); if (!b) return;
-            b.addEventListener("click", function () { MR.splice(+b.getAttribute("data-i"), 1); sauve(); mo.closePopup(); dessine(); });
-          });
-          mo.on("click", function (e) {
-            if (pose) {
-              var n = window.prompt(tr("sl_off_nom", "Nom du repère (ex. carte à collectionner, planque)"), "");
-              if (n !== null) { MR.push({ n: (n.trim() || "📍").slice(0, 60), a: e.latlng.lat, o: e.latlng.lng }); sauve(); dessine(); }
-              pose = false; el.classList.remove("ct-pose"); outil(); return;
-            }
-            L.popup().setLatLng(e.latlng).setContent("<small>" + esc(tr("sl_off_case", "Case")) + "</small> <b>" + esc(caseDe(e.latlng)) + "</b>").openOn(mo);
-          });
-          var ob = document.createElement("div"); ob.className = "ct-outils";
-          function outil() {
-            ob.innerHTML = '<button type="button" class="ct-b-pose' + (pose ? " on" : "") + '">' + esc(pose ? tr("sl_off_pose_on", "Touchez la carte à l'endroit voulu") : tr("sl_off_pose", "📍 Poser un repère")) + "</button>" +
-              '<label><input type="checkbox" class="ct-b-noms"' + (mo.hasLayer(gL) ? " checked" : "") + "> " + esc(tr("sl_off_noms", "Lieux officiels")) + "</label>" +
-              (MR.length ? '<span class="ct-b-nb">' + esc(tr("sl_off_mes", "Mes repères")) + " : " + MR.length + '</span><button type="button" class="ct-b-vider">' + esc(tr("sl_off_vider", "Tout effacer")) + "</button>" : "");
-          }
-          ob.addEventListener("click", function (ev) {
-            var t = ev.target;
-            if (t.closest(".ct-b-pose")) { pose = !pose; el.classList.toggle("ct-pose", pose); if (L.Browser.mobile) mo.dragging.enable(); outil(); }
-            else if (t.closest(".ct-b-vider")) { if (window.confirm(tr("sl_off_vider_q", "Effacer tous vos repères ?"))) { MR = []; sauve(); dessine(); } }
-          });
-          ob.addEventListener("change", function (ev) { if (ev.target.classList.contains("ct-b-noms")) { if (ev.target.checked) gL.addTo(mo); else mo.removeLayer(gL); } });
-          dessine();
-          el.parentNode.insertBefore(ob, el);
-          document.addEventListener("langchange", function () { dessine(); });
-          var rb = document.createElement("div"); rb.className = "sl-barre ct-regs";
-          var nbo = {}; D.points.forEach(function (p) { if (p.region) nbo[p.region] = (nbo[p.region] || 0) + 1; });
-          function boutons() {
-            rb.innerHTML = '<span class="ct-regs-t">' + esc(tr("sl_regs_t", "Lieux par région :")) + "</span>" + D.regions.map(function (g) { return '<button type="button" data-r="' + g.id + '">' + esc(g.nom) + " <small>" + (nbo[g.id] || 0) + "</small></button>"; }).join("");
-          }
-          boutons();
-          rb.addEventListener("click", function (ev) {
-            var b = ev.target.closest && ev.target.closest("button[data-r]"); if (!b) return;
-            var fR = document.getElementById("lf-reg"), fT = document.getElementById("lf-type"), fS = document.getElementById("lf-stat");
-            if (fR) { if (fT) fT.value = ""; if (fS) fS.value = ""; fR.value = b.getAttribute("data-r"); fR.dispatchEvent(new Event("change")); }
-            var li = document.getElementById("ct-liste"); if (li) li.scrollIntoView({ behavior: "smooth", block: "start" });
-          });
-          var capo = document.createElement("p"); capo.className = "ct-schema-cap";
-          function capto() { capo.innerHTML = esc(tr("sl_off_cap", "Carte officielle de Leonida publiée par Rockstar le 19 novembre. Zoomez avec deux doigts ou les boutons + et −. Les emplacements précis y seront ajoutés dès qu'ils sont vérifiés.")) + ' <a href="' + R + D.fond_officiel + '" target="_blank" rel="noopener">' + esc(tr("sl_off_plein", "Ouvrir en plein écran")) + "</a>"; }
-          capto(); el.parentNode.insertBefore(capo, el.nextSibling); el.parentNode.insertBefore(rb, capo.nextSibling);
-          document.addEventListener("langchange", function () { capto(); boutons(); });
-          return;
-        }
+        if (D.fond_officiel) { carteOff(el, D, C); return; }
         el.classList.add("ct-schema");
         var Hs = 1000, ms = L.map(el, { crs: L.CRS.Simple, minZoom: -2, maxZoom: 1.5, zoomSnap: 0.25, attributionControl: false, scrollWheelZoom: false, tap: true });
         var Bs = [[0, 0], [Hs, Hs]];
