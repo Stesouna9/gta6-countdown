@@ -126,7 +126,9 @@
       var p = ll(o);
       if (sel) sel.setStyle({ radius: 6, fillColor: "#ff2e88" });
       sel = mk[o.n]; if (sel) { sel.setStyle({ radius: 10, fillColor: "#ffd23f" }); sel.bringToFront(); }
-      if (!sansVol) mo.flyTo(p, Math.max(mo.getZoom(), mo.getMinZoom() + 2), { duration: .7 });
+      var zc = sansVol ? mo.getZoom() : Math.max(mo.getZoom(), mo.getMinZoom() + 2), dx = (!mob && !pan.hidden) ? (pan.offsetWidth + 66) / 2 : 0;
+      var cible = dx ? mo.unproject(mo.project(p, zc).add([dx, 0]), zc) : p;
+      if (!sansVol) mo.flyTo(cible, zc, { duration: .7 }); else if (dx) mo.setView(cible, zc, { animate: false });
       L.popup({ offset: [0, -6], className: "cx-popup" }).setLatLng(p).setContent(popLieu(o)).openOn(mo);
       etat("l=" + encodeURIComponent(o.n));
       if (mob) pan.hidden = true, majPanBtn();
