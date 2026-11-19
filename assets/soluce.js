@@ -232,7 +232,7 @@
     L.DomEvent.disableClickPropagation(pan); L.DomEvent.disableScrollPropagation(pan);
     [".cx-haut", ".cx-outils"].forEach(function (s) { L.DomEvent.disableClickPropagation($(s)); L.DomEvent.disableScrollPropagation($(s)); });
     var pb = $(".cx-b-pan");
-    function majPanBtn() { pb.textContent = pan.hidden ? "☰ " + tr("cx_panneau", "Lieux et collectibles") : "✕"; pb.classList.toggle("on", !pan.hidden); setTimeout(function () { mo.invalidateSize(); }, 220); }
+    function majPanBtn() { pb.textContent = pan.hidden ? "☰ " + tr("cx_panneau", "Lieux et collectibles") : "✕"; pb.classList.toggle("on", !pan.hidden); el.classList.toggle("cx-pan-on", !pan.hidden); setTimeout(function () { mo.invalidateSize(); }, 220); }
     pb.addEventListener("click", function () { pan.hidden = !pan.hidden; majPanBtn(); });
 
     /* outils */

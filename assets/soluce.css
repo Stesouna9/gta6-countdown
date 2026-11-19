@@ -362,3 +362,4 @@ html.cx-bloque,html.cx-bloque body{overflow:hidden}
 .ct-zone.ct-seule #carte.cx{height:min(84vh,880px);min-height:480px}
 .ct-zone.ct-seule #carte.cx.cx-plein,.ct-zone.ct-seule #carte.cx:fullscreen{height:100%;min-height:0}
 @media (max-width:820px){.ct-zone.ct-seule #carte.cx{height:78vh;min-height:440px}}
+@media (max-width:820px){.cx-pan-on .cx-outils,.cx-pan-on .leaflet-control-zoom,.cx-pan-on .leaflet-control-attribution{display:none}}
