@@ -1,8 +1,27 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-19T16:13:15+01:00",
+  "updated_at": "2026-11-19T18:13:09+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-alligator-lucia-gtasix-2026-11-19",
+      "title": "GTA 6 : Lucia avalée par un alligator après un braquage, selon @gtasix_",
+      "summary": "Selon @gtasix_, Lucia se fait avaler par un alligator après avoir braqué une boutique, l'animal l'attendant dehors. Séquence non vérifiée par la veille.",
+      "url": "https://x.com/gtasix_/status/2123444806202630374",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rumeur",
+      "published_at": "2026-11-19T15:54:28.000Z",
+      "checked_at": "2026-11-19T18:13:09+01:00",
+      "evidence": "Vues relevées le 19/11 dans data/x_alertes.json (maj 17 h 10 UTC) : 24 423 vues, 549 j'aime, 40 reposts pour @gtasix_ (15 h 54 UTC). Un seul compte relevé ; vidéo non vérifiée.",
+      "visual": "ALLIGATOR LUCIA",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2123444742075666432/img/NIol4W_0i05w6pV6.jpg",
+      "image_alt": "Vignette de la vidéo publiée par @gtasix_ sur Lucia et un alligator dans GTA 6",
+      "image_credit": "@gtasix_ sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Vidéo relevée sur X ; la séquence n a pas été vérifiée depuis le navigateur pour cette veille."
+    },
     {
       "id": "x-acteurs-photos-profil-jason-lucia-2026-11-19",
       "title": "GTA 6 : les acteurs de Jason et Lucia changent leur photo de profil, selon @GTAVI_Countdown",
@@ -21,6 +40,44 @@
       "embed_type": "x",
       "cta": "Ouvrir la publication sur X",
       "post_text": "Captures de comptes des acteurs relevées sur X, sans confirmation de Rockstar dans les sources relevées ici."
+    },
+    {
+      "id": "x-version-japonaise-nudite-gta6-gtalphaintel-2026-11-19",
+      "title": "GTA 6 : la version japonaise atténuerait la nudité et le gore, selon @GTAlphaintel",
+      "summary": "Selon @GTAlphaintel, la version japonaise de GTA 6 atténue nudité et gore : Jason porte un sous-vêtement pendant les scènes de douche, là où la version internationale le montre nu. Information non vérifiée par la veille.",
+      "url": "https://x.com/GTAlphaintel/status/2123431108809539932",
+      "platform": "X",
+      "author": "@GTAlphaintel",
+      "status": "Rumeur",
+      "published_at": "2026-11-19T15:00:02.000Z",
+      "checked_at": "2026-11-19T18:13:09+01:00",
+      "evidence": "Vues relevées le 19/11 dans data/x_alertes.json (maj 17 h 10 UTC) : 25 370 vues, 83 j'aime, 13 reposts pour @GTAlphaintel (15 h 00 UTC). Un seul compte relevé, sans source officielle.",
+      "visual": "VERSION JAPONAISE",
+      "image": "https://pbs.twimg.com/media/HXfwh7_aQAEPM5i?format=jpg&name=360x360",
+      "image_alt": "Publication de @GTAlphaintel sur la version japonaise de GTA 6",
+      "image_credit": "@GTAlphaintel sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Annonce relevée sur X ; la comparaison des versions n a pas été vérifiée depuis le navigateur pour cette veille."
+    },
+    {
+      "id": "x-acteurs-lucia-jason-brooklyn-mural-2026-11-19",
+      "title": "GTA 6 : les acteurs de Jason et Lucia posent devant la fresque de Brooklyn, selon @GTAVI_Countdown",
+      "summary": "Les acteurs de Jason et Lucia posent devant la fresque GTA 6 de Brooklyn. Publication relayée par @GTAVI_Countdown, qui a dépassé 176 000 vues.",
+      "url": "https://x.com/GTAVI_Countdown/status/2123428034439172552",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "2026-11-19T14:47:49.000Z",
+      "checked_at": "2026-11-19T18:13:09+01:00",
+      "evidence": "Vues relevées le 19/11 dans data/x_alertes.json (maj 17 h 10 UTC) : 176 626 vues, 21 016 j'aime, 1 220 reposts pour @GTAVI_Countdown (14 h 47 UTC). Un seul compte relevé ; photo publiée par le compte, pas une annonce de Rockstar.",
+      "visual": "FRESQUE BROOKLYN",
+      "image": "https://pbs.twimg.com/media/HXfuZf3WAAAg1zM?format=jpg&name=small",
+      "image_alt": "Publication de @GTAVI_Countdown : les acteurs de Jason et Lucia devant la fresque GTA 6 de Brooklyn",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Photo relevée sur X ; l'événement de la fresque n'a pas été vérifié sur place."
     },
     {
       "id": "x-credits-gta6-rockstar-2026-11-19",
@@ -5432,6 +5489,11 @@
       "at": "2026-11-19T16:13:15+01:00",
       "label": "Passage Claude Haiku (Matière X, 19/11, x_alertes maj 15 h 07 UTC)",
       "summary": "3 sujets ajoutés depuis x_alertes.json : profils des acteurs Jason et Lucia (@GTAVI_Countdown 2 754 vues, @gtasix_ 5 521 vues, deux comptes) ; crédits en ligne (@GTAVI_Countdown 13 858 vues, @gtasix_ 10 476 vues, trois comptes) ; carte officielle de Leonida (@GTAVI_Countdown 84 137 vues, @gtasix_ 62 436 vues). Écarté : bienvenue à Leonida (@RockstarGames 4 811 vues, un compte) ; version japonaise moins nue (@GTAlphaintel 3 462 vues, un compte) ; mural de Brooklyn (@GTAVI_Countdown 8 798 vues, un compte)."
+    },
+    {
+      "at": "2026-11-19T18:13:09+01:00",
+      "label": "Passage Claude Haiku (Matière X, 19/11 18 h, x_alertes maj 17 h 10 UTC)",
+      "summary": "3 sujets ajoutés depuis x_alertes.json : fresque de Brooklyn avec les acteurs (@GTAVI_Countdown 176 626 vues, un compte) ; version japonaise moins nue (@GTAlphaintel 25 370 vues, un compte, rumeur) ; Lucia avalée par un alligator (@gtasix_ 24 423 vues, un compte, rumeur). Écartés : bienvenue à Leonida (@RockstarGames 53 382 vues, pas d image locale ni de source de presse) ; profils des acteurs partagés sur Instagram (même sujet que l entrée du 15 h 04) ; Mandy (5 027 vues), Manny Perez et Bobby Moynihan (7 141 vues), Dylan Rourke (14 369 vues), carte complète (11 017 vues), chemise PlayStation sponsorisée (10 751 vues, #ad) : sous le seuil."
     }
   ],
   "coverage": {
