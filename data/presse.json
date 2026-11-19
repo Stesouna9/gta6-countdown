@@ -1,20 +1,78 @@
 {
- "maj": "2026-11-19T07:34:54+00:00",
+ "maj": "2026-11-19T07:55:07+00:00",
  "articles": [
+  {
+   "gn": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBiT2RrdlpOMDFTbjl5SG05bWw5UGN5ck9mQ2pmZkxCTFBCeHF1ZjM5cDI3MG5sYmlsQzRfYm45dDk2OUJSU29La1NvRE8yaWdLSEZyM1NCVnBJRXRJdHBrWjVaOWhTeEJjMGdn?oc=5",
+   "s": "Rockstar Mag",
+   "d": "2026-11-19T07:49:28+00:00",
+   "lang": "fr",
+   "t": "GTA 6 est maintenant disponible",
+   "erreur": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSWsteU5JeWFTMnB5UEJjcUdZVHptX3hoMTRwaUlmV01pNUI0a2dkdjZVa3B6WlNjR3g1dW1fYkNBR2dROUtJMTh5NnB2X2pKSUYzTllOaXZicDhIRm42ZjdZdTl5WUx4eU9xSmRjWWhDZk9LbU5BblJ5TDZsYXRPMjFLbEtUNkw5cGJhS0ZvV3FxOVNoY0hUTXlYWQ?oc=5",
+   "s": "PCMag",
+   "d": "2026-11-19T07:38:09+00:00",
+   "lang": "en",
+   "t": "The New Zealand Trick Works Like a Charm. How to Play GTA 6 Right Now",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNV2hoSHhybmhVa3plaGY0ejN0OGd3TERQS1lmQUF6SlVwVVVNQXp0R0JCRGRWZnpHVk1xUHVtaldYbXkxbmdmM25ZSEtGbHNxcVJzTG43enpRWUc0QnhoN1BvTjN4OHlMV3NROUFKa1hfTGNBdnNiRUdLRXBZR2hyWnpR?oc=5",
+   "s": "Activ Radio",
+   "d": "2026-11-19T07:32:46+00:00",
+   "lang": "fr",
+   "t": "Ces ligériens ont posé un jour pour jouer à GTA 6",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5tTTVvM0JOMzF6MGFJOXNUa2lwOE5GWVQtRmU2TUY2dkFNcXhFUlR1NVJHTTVtakM0clFiUlV4Zzdhb3NnandTeVk0OEhfWWhfTzdMLXVDenp0cm5SYjF4SUd2bFp5N2IyZm1WRFZ6RmFfczl1?oc=5",
+   "s": "Mashable",
+   "d": "2026-11-19T07:30:00+00:00",
+   "lang": "en",
+   "t": "'GTA 6' on Xbox Series S: How well it actually runs",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPUjlrd3YzUGJQd3BKd0FjNjNMRnVaZlZPWmZmbmJDR0VFLTBXZ0NSUUN2TUJuQ2t6RHBMcjNHVXlNS3lVQVNqbmNSQnRoWDhVRkNSa3dDVGxnUFJjTTQweDdZLUlXemtaY2ZsLXZHVUt5ZEZoUmthMHRhb0JKZmlpOUIwenZQeWF1dDJsemo1Z1Z6UXNXZkNxQWI3cy0zUndzbVNQdU9QZjVFOURpWW83TmhXeEVOa1BQYTFyYUVLS1ZwbkNLSXNrMnQ3VHI2R1FvYXdmRTlLQQ?oc=5",
+   "s": "Facebook",
+   "d": "2026-11-19T07:26:14+00:00",
+   "lang": "en",
+   "t": "FROM LEAKS TO OFFICIAL LAUNCH🌴 From a massive gameplay leak to multiple trailer reveals and release delays, Grand Theft Auto VI has had quite a journey. Kapamilya, here’s a look at the major milestones leading to its launch.",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMickFVX3lxTFBkZFdZZXA5UXNoQVNabTdNWWhtdVBHRVoxc3oxVVFzbGtXdlB4S2VJR1BIZE5pbXZmaVlVVFRQRnYwY1BmMmdOcEJBT216V2Z4UExtSWJiZ3lDdTZYYU9JajBWMUF3QXBtaFIxWU5obW1iZw?oc=5",
+   "s": "AOL.com",
+   "d": "2026-11-19T07:26:00+00:00",
+   "lang": "en",
+   "t": "GTA 6 Album Leak: Dua Lipa, Lana Del Rey and Jennie among 34 reported tracks",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
   {
    "gn": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQTW1rUnNYYnJWTXRBY2Vobk9YZk5SVDJubUg0dl9DSVdFdmR2RWZ2TU5IaWRrWGZublpKWFJrcklQampMY2pGTFFvNnRlTFJEVGRvVWkyeGZ5SjV0dFlPZG1TVDA3OE5YZjFUTHZyc1RmQjV4UWlZZEdGSnBrdkhpQUwzTTBTZkxVRm96RHQ0ZmNNbjA5Y05LdldTOE0yZGhJeFJPTVFBN2NOMU9USTRraWZCT3JZcGZJN0FaQXRBbm5iWE1nMFVKMEM5aFdDaVVtdmFhRXRZbXlOOW1rMDU2bnZjZFMtX0U?oc=5",
    "s": "RMC",
    "d": "2026-11-19T07:16:15+00:00",
    "lang": "fr",
    "t": "\"La qualité d'un film (...) une vraie rupture\": joueurs et spécialistes livrent leur verdict sur GTA 6",
-   "erreur": "HTTP Error 429: Too Many Requests"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOTUdOSzQzS3JxRmlUODY2YU1wUmtLR0kzY1pxcGdPMGk2cmpGbU5QVHJCVlVGdU1Wc3c4ZzlTZFBBS0N3YVV4MEFGcjFzb1VHczEzNlB3Uk1HdnFIT2NOWXNmSXd0UkNwZVktdEgxdnFEZFFpbEtFZXY0dXRmelU4Vkp1NW1VazZSeTZLbU1WSTNrSGRma2ZsRzlpYUFYRTREZ0xHMy01YzNIRnI1VzdydktnXzRKR01QTE01V0hvREh1UjRYNUlrN2VKc2UyVi1LODBWdVB5RENkTjJuT3lpaVhrbGxaVk5ZQXllcDJhT0lQZ1BueU9QUDRPQTY?oc=5",
    "s": "La Provence",
    "d": "2026-11-19T07:04:08+00:00",
    "lang": "fr",
-   "t": "GTA 6 : la marque américano-marseillaise Bichon lance une nouvelle collection pour la sortie du jeu vidéo",
+   "t": "VIDÉO. GTA 6 : la marque américano-marseillaise Bichon lance une nouvelle collection pour la sortie du jeu vidéo",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMizAFBVV95cUxObkN6SmxQVmYwWUpmWEdBOGpUQmNPMndZbUN3WGRGTW5OdWRHZTlmblhlZFJMQXJJY1lBaFQ2NnA0dlh6TnJUVFFZVlQ3UDVoVmVCUmkzeWlLR1hRUk9wMVBuVzlvb2lITEM1RWtoVy1UVGs2elhnd2dDU09ZSGtEOTUxUHROMW5CWUdUOGYwWnFxanB2MzZkUWJncWc3aU4tQWc4T2hCUFJYZ3pzUnpxRDVxVlJSdGRwbV9VeFh3QUppanc3X1R6dFJsREo?oc=5",
+   "s": "20 Minutes",
+   "d": "2026-11-19T07:01:00+00:00",
+   "lang": "fr",
+   "t": "Sommet Trump-Xi-Poutine, GTA 6 est arrivé et Tondelier vers Mélenchon",
    "erreur": "429 : passage suivant"
   },
   {
@@ -60,15 +118,6 @@
    "lang": "fr",
    "t": "Y aura-t-il un film ou une série GTA 6 prochainement ?",
    "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPUjlrd3YzUGJQd3BKd0FjNjNMRnVaZlZPWmZmbmJDR0VFLTBXZ0NSUUN2TUJuQ2t6RHBMcjNHVXlNS3lVQVNqbmNSQnRoWDhVRkNSa3dDVGxnUFJjTTQweDdZLUlXemtaY2ZsLXZHVUt5ZEZoUmthMHRhb0JKZmlpOUIwenZQeWF1dDJsemo1Z1Z6UXNXZkNxQWI3cy0zUndzbVNQdU9QZjVFOURpWW83TmhXeEVOa1BQYTFyYUVLS1ZwbkNLSXNrMnQ3VHI2R1FvYXdmRTlLQQ?oc=5",
-   "s": "Facebook",
-   "d": "2026-11-19T06:39:37+00:00",
-   "lang": "en",
-   "t": "FROM LEAKS TO OFFICIAL LAUNCH🌴 From a massive gameplay leak to multiple trailer reveals and release delays, Grand Theft Auto VI has had quite a journey. Kapamilya, here’s a look at the major milestones leading to its launch.",
-   "erreur": "429 : passage suivant",
-   "cyberleek": true
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOYUFDVWlIdlhaOHJyekdRVGFZa0h3N0tKRE1kM3pMckl5TlJlcUxmNkduY2JDRnJjX3ZiTjdhY1BVSDVCZUZobDBlZXpaNk5DVDc1WnNxNV9pdk05TDZESjE5Q196ZnBENGFrZFJERnlfRzgtUHF2YTdLR1QwanZrWGJseHV4RW5GaC1WZFNYSm9CN25mM29sUWo4OFlCUzFzTTZicG1mWXFmWHVGcl9zUHdHSWtMR0Q1NTE5NlgxMTRLd0lGeVgxbXFTLVFDWjlJN1p6ZzJVOXMwN2NjaXFzemlfaVhvVTJjbFZWQWN4RWtFUl9ENFNtYUtESFk2Y19KdUhidy1Fd1hHTEkw?oc=5",
@@ -119,19 +168,19 @@
    "pub": ""
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSWsteU5JeWFTMnB5UEJjcUdZVHptX3hoMTRwaUlmV01pNUI0a2dkdjZVa3B6WlNjR3g1dW1fYkNBR2dROUtJMTh5NnB2X2pKSUYzTllOaXZicDhIRm42ZjdZdTl5WUx4eU9xSmRjWWhDZk9LbU5BblJ5TDZsYXRPMjFLbEtUNkw5cGJhS0ZvV3FxOVNoY0hUTXlYWQ?oc=5",
-   "s": "PCMag",
-   "d": "2026-11-19T06:08:09+00:00",
-   "lang": "en",
-   "t": "The New Zealand Trick Works Like a Charm. How to Play GTA 6 Right Now",
+   "gn": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUHFieTRGajk1M0ctSF9ZMms4ZERyejdWellwOU1sNXlLMGtGRFp0U0ZxZG1MNHROS2tndEZEMXZ0SU9vblAyNHYyN3hhTlM0TzdTVFdPR0YycHAzd05iZUFPTGhKOEdjcGZzMFNKUlpDTTY1eTNSRFdwQVBQZVRFcF85Ql9pQnprRzg3Z3d4c3V0UnU1bVFpWmRmMGs0ZXNJMTRWeTZYeWVaS2wtWkk5SU5pYzdCTzhM?oc=5",
+   "s": "20 Minutes",
+   "d": "2026-11-19T06:02:39+00:00",
+   "lang": "fr",
+   "t": "EN DIRECT GTA 6 : Le « jeu du siècle » est enfin disponible… Mais est-il à la hauteur des attentes ?",
    "erreur": "429 : passage suivant"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9EaTZoWGxTZl9aWEhXSXUwdXAwS0wwclFBVGR5ZTdoVGtYSWlKd1BQSlJ0ZnRvTU1RdkFVal9iVFVPaUpzb3VGd0JlWGY0QlJ1MC1UcC1YdFVPVnVFVVBhV0dR?oc=5",
-   "s": "CNET",
-   "d": "2026-11-19T06:07:46+00:00",
-   "lang": "en",
-   "t": "GTA 6 Liveblog: We've Started Our 24-Hour Play Marathon",
+   "gn": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQX0RVQWU5Q2R4WmdKbjluOUV2TlNsTnFhTWlzZXg0TF9pSjFTWHRGYTlVaWRoV3NYTjBvclg1U29iMU1LTnRUMnotQ0JLRTZndW5JUXNNYm1LbGhpVjZIRVRNNVIxRWhUTXA4QXlLMDQyWVNlU2N6MDI0b0ZfTVdjUGNEOTNWdVZvWHhjdU1qSjQxbU1DZGNpUDVJYU9uUFBsUktDQk1RUW4wMmNZSENLVUdWZkU1RWd4WVRDTi1uX2N3NHkyamZjSEU5THBxaTVhQlNic0tSY0kyUkFleWlPMHR0MHlzNXRDVXliV3VGSTU?oc=5",
+   "s": "Le HuffPost",
+   "d": "2026-11-19T06:00:10+00:00",
+   "lang": "fr",
+   "t": "« GTA VI » est enfin sorti mais il manque quelque chose pour satisfaire complètement les joueurs",
    "erreur": "429 : passage suivant"
   },
   {
@@ -155,18 +204,6 @@
    "erreur": "429 : passage suivant"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQd0o5c29mQXJuU09YQ2xjUjVWc0ZvR09udWtJTTFvQTRTanJrVEZ4SW5sajhBczExdVBYVm9Rd2tEV3BJbG1Sd3ZETVFLLUZqVHBKVy1oZnhLb3d1Y2phV0RQNXNSMENFNXgyeHQ5YmUteXFYZFdTWHZBeVhNRE5sUlp6OG5PWXNqSHctSDlUZHJzU1ZBZkw4SHpJVHRNSWV4WGg5TzhPU2Y3UkJGVHB5UzZDNzBOaVA1ZGtJb1dnM2otSWpKNXBBWmdqNGw1dnFJ?oc=5",
-   "s": "Caradisiac",
-   "d": "2026-11-19T06:00:00+00:00",
-   "lang": "fr",
-   "t": "On dirait un poster de GTA 6 : la Lamborghini Temerario Spyder ressemble à une voiture de jeu vidéo",
-   "u": "https://www.caradisiac.com/on-dirait-un-poster-de-gta-6-la-lamborghini-temerario-spyder-ressemble-a-une-voiture-de-jeu-video-225161.htm",
-   "img": "https://images.caradisiac.com/logos/7/0/2/7/297027/S8-on-dirait-un-poster-de-gta-6-la-lamborghini-temerario-spyder-ressemble-a-une-voiture-de-jeu-video-225161.jpg",
-   "chapeau": "La présentation de la nouvelle version Spyder de la Lamborghini Temerario arrive exactement au moment de la sortie de GTA 6. Et cette nouvelle rivale de la Ferrari 296 GTS ressemble à une parfaite voiture de poster pour s’évader dans une ville imaginaire comme celle du jeu vidéo !",
-   "txt": "Voici la nouvelle Lamborghini Temerario Spyder. La présentation de la Lamborghini Temerario Spyder est tout sauf une surprise : elle perpétue la tradition des super-sportives découvrables « d’entrée de gamme » chez le constructeur italien, lancée par la Gallardo Spyder et entretenue ensuite par la Huracan Spyder. Le modèle concurrence traditionnellement les autos de chez Ferrari (296 GTS), McLaren (Artura Spider et 750S Spider qui vient de disparaître du catalogue) ou encore celles de Porsche (911 Turbo S Cabriolet et 911 GT3 S/C ).\nElle conserve sans surprise les proportions de la Temerario coupé , cette auto dont les codes avaient un peu surpris après la superbe Huracan. Elle remplace évidemment le toit fermé par une structure ouverte, toujours avec un double bossage sur le capot arrière (exactement comme sur la précédente Huracan Spyder).\nLa nouveauté technique importante, c’est qu’il s’agit désormais d’un toit rigide piloté électriquement (comme chez Ferrari depuis longtemps) et non plus d’une capote souple comme sur les Gallardo Spyder et Huracan Spyder . Il se replie verticalement derrière les sièges et d’après Lamborghini , cette solution technique permet dans ce cas précis d’abaisser le centre de gravité de 3 mm lorsque la voiture est en position ouverte, mais le constructeur ne précise pas la masse totale de la Temerario Spyder par rapport à la version fermée. Une Temerario coupé avoue 1 690 kg à sec sur la balance en version Alleggerita, un pack d’allègement et de « radicalisation » disponible aussi sur la Spyder.\nLe double bossage reste, mais le toit est désormais en dur, piloté électriquement. Comme celui de la Ferrari 296 GTS et de la McLaren Artura Spider. La mécanique hybride rechargeable ne change pas par rapport à la Temerario coupé : on retrouve le V8 biturbo de 4,0 litres (10 000 tours/minute max) développant 800 chevaux et associé à trois moteurs électriques, formant une transmission intégrale pouvant générer jusqu’à 920 chevaux en puissance cumulée . Les performances ne perdent que très peu dans l’opération : 2,8 secondes sur le 0 à 100 km/h contre 2,7 pour la version fermée, 7,3 secondes pour le 0 à 200 contre 7,2 et la même vitesse maximale de 343 km/h.\nVoici la Temerario Spyder équipée du pack Alleggerita permettant de gagner 22 kg sur la balance. Ce dernier donne accès à un échappement Akrapovic. Lamborghini affirme que la Temerario Spyder gagne « 6 % de rigidité torsionnelle statique, 9 % de rigidité à la flexion dynamique de la carrosserie et 6 % de rigidité torsionnelle dynamique » par rapport à la Huracan Spyder.\nLe prix français n’est pas encore connu mais il sera supérieur aux 310 000€ de la Temerario coupé.",
-   "pub": ""
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1wLWIzR2FrelBzbVJzaGJLTExzZnF0SC14ejFvQnVUMUcxY1NoY1AwZloyNjJPSjF5R2VSRUpfSjRKdGI0cXFGdjYtdk52WDM5Wi1xdmFSS2hFYnE5N3VGSW9zZnZtVWtXbHNRYTNnUWgxSG5nZFRRYlhB?oc=5",
    "s": "Aktualita.co",
    "d": "2026-11-19T05:57:51+00:00",
@@ -181,14 +218,6 @@
    "d": "2026-11-19T05:57:16+00:00",
    "lang": "en",
    "t": "'GTA 6' on PC: What we know about the PC release",
-   "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9xTTI4cExneFhkRzdVNm4zZm1MaVRUZUtPcWZBb2tEWW9lcWFWelBsMjRLeVpRZFZTejZCNVJTSF9HWnYyYndnQlBqYjFsMHJ0a1FhN1lwMk1CMFk?oc=5",
-   "s": "Gamekyo.com",
-   "d": "2026-11-19T05:48:00+00:00",
-   "lang": "fr",
-   "t": "[GTA 6] Rip aux Belges ! (j'en fais partie)",
    "erreur": "429 : passage suivant"
   },
   {
@@ -236,31 +265,11 @@
    "pub": "2026-11-17T10:45:42+00:00"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPb3MxTlQ5WHdyRk52QURQVkxlWXBrekpoZmY0a2pyZHhNSVhsY2dsS1VUeDlfWjNMOTZGbVpzNGIxWWRSVE9WbEtPcWh4N2pxZlpGdUFXeEtQVm1NVU1HNUdqRW1mb0pNT2FqYzZLWTNoNUlzbUtGT2ItTGc0akFJVzhfR0RTWWx2ZDdVdFNRbmlqUlpqNVd4bHlLZkxhSEhB?oc=5",
-   "s": "JeuxVideo.com",
-   "d": "2026-11-19T05:30:06+00:00",
-   "lang": "fr",
-   "t": "Test de GTA 6 : pourquoi 19/20 ? Notre explication détaillée",
-   "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMimgJBVV95cUxOclc0X2VheW1YXzBBMjZzNkVzeUk2UWppZ096c0drOGZGZ2lGZG9oUE9GTkxJMEZZR1RaUEFPSGJSdDN1R0xHX1JZbDlIelJZNlRYdmFUVGNTdjYzeFNhN2xBME1VdXNIRWpmVzU5emhRa09ZQWFLSEVYUEZibGZEd2o5bXhDbTAtcmVJUHdmRE1zT0REblNtZmozbFktTHdBMWRUUDVoeFY2OFFFOEdONENMRjNaNnVaMURXSjI3Y2N1R1VwZHNrU0tKdVRwbGM4dUNWQTRXMHFCTmp3U1J1OWVzYXhDbzVGcEJmODJIZ2R3X0Vid3FDaDlTOXYyamJPdEhqOURVb05tTUh0MDFjVE1QUTY2MVNlenc?oc=5",
-   "s": "ladepeche.fr",
-   "d": "2026-11-19T05:17:00+00:00",
-   "lang": "fr",
-   "t": "DECRYPTAGE. GTA 6 : comment y jouer ? Est-il interdit aux mineurs ? Est-il si violent ? 14 questions pas si bêtes sur la sortie du jeu vidéo événement",
-   "u": "https://www.ladepeche.fr/2026/11/19/decryptage-gta-6-comment-y-jouer-est-il-interdit-aux-mineurs-est-il-si-violent-14-questions-pas-si-betes-sur-la-sortie-du-jeu-video-evenement-13659191.php",
-   "img": "https://images.ladepeche.fr/api/v1/images/view/6afdbd9b7abcda053508b584/hd/image.jpg?v=1",
-   "chapeau": "Grand Theft Auto VI (GTA 6) sort ce jeudi 19 novembre, treize ans après le précédent opus, avec déjà 17 millions de précommandes. Cette série de jeux controversée propose aux joueurs des missions virtuelles...",
-   "txt": "La jaquette (boite) de GTA 6, le dernier. A gauche de cette jaquette, une manette de Xbox, une des deux consoles permettant d'y jouer. A droite le logo du studio qui développe les GTA, Rockstar Games. TOBY SHEPHEARD Ajouter aux sources préférées sur Google Jeux vidéos et consoles , Société , Innovation - High Tech Publié le 19/11/2026 à 06:17 Article rédigé par Matthieu Guillemin\nl'essentiel Grand Theft Auto VI (GTA 6) sort ce jeudi 19 novembre, treize ans après le précédent opus, avec déjà 17 millions de précommandes. Cette série de jeux controversée propose aux joueurs des missions virtuelles criminelles mais aussi d'évoluer dans un univers riche et inégalé. Elle suscite aussi des débats sur son impact social et sa représentation des femmes.\nGrand Theft Auto VI (GTA 6) sort ce jeudi 19 novembre, treize ans après le précédent épisode, vendu à près de 230 millions d’exemplaires. Avant même sa sortie, il cumulait plus de 17 millions de précommandes. Cet engouement intrigue ceux qui n’y ont jamais joué.. dont vous faites peut-être partie. Les néophytes ont souvent des questions, et parfois des ap priori sur ce jeu. Pour y répondre, La Dépêche du Midi a listé une série de questions pas si bêtes sur la saga et vous livre ses réponses.\nGTA signifie \"Grand Theft Auto\", qui se traduit par \"vol de voiture aggravé\" en droit américain. Dans cette série de jeux vidéos, on incarne des criminels dans un univers inspiré des États-Unis. Pour ce sixième épisode, le jeu se déroule dans une ambiance rappelant Miami et la Floride.\nPresque. Avec près de 230 millions d’exemplaires, GTA V (GTA 5) est le deuxième jeu vidéo le plus vendu de l’histoire, derrière Minecraft , qui a dépassé les 300 millions. En revanche, il n’est pas le plus joué. Des jeux gratuits comme Fortnite réunissent bien plus de joueurs chaque mois.\nIl n’y a pas de victoire au sens classique, comme dans un match de football par exemple. Dans le jeu, on suit un scénario, mission après mission, comme dans un film dont on serait le héros. Une fois les objectifs remplis, on peut continuer à jouer librement et à s'amuser dans un univers où les surprises pullulent..\nNon. C’est possible mais le jeu ne le demande pas, et quand le joueur le fait, la police le recherche et il peut être arrêté. Les missions sont principalement liées à des braquages, des courses-poursuites et des règlements de comptes entre criminels. Mais on peut aussi jouer au golf, au tennis ou faire du yoga !\nParce que ce n’est pas le principe du jeu. Comme le spectateur d’un film de gangsters, le joueur cherche à vivre ce qu’il ne vivra jamais dans la réalité. Certains joueurs ont toutefois détourné le jeu pour faire du \"GTA RP\", pour \"role play\", c’est-à-dire \"jeu de rôle\". Sur des serveurs dédiés, ils y mènent une vie ordinaire, comme policier, médecin ou commerçant. Cette pratique reste minoritaire.\nNon. En France, le logo PEGI 18 est une recommandation liée à l'âge (18 ans en l'occurence) en fonction du contenu du jeu, mais ce n'est pas une interdiction légale (il existe des labels PEGI de 3 à 18). Un vendeur peut le vendre à un mineur, mais il a aussi le droit de refuser l'achat, cela tient à son appréciation. Néanmoins, au Royaume-Uni ce label signale la stricte interdiction de vente du jeu aux mineurs.\nLe label PEGI 18 en question, souvent affiché en bas à gauche de la boite physique du jeu vidéo, ou dans le lancement du jeu. DR\nNon, en l’état de la recherche. Les études n’établissent aucun lien entre jeux vidéo et criminalité. Elles relèvent seulement un effet faible et passager sur l’agressivité, plutôt lié à la compétition qu’au contenu. Le spécialiste Olivier Mauco, interrogé par La Dépêche , indique qu'il n’y a \"aucun jeu vidéo qui transforme quelqu’un en tueur\".\nÀ lire aussi : DÉCRYPTAGE. GTA 6 : 15,88 millions de précommandes, 13 ans d’attente… pourquoi le jeu vidéo suscite \"le plus gros engouement qu’on ait jamais vu\" dans le monde entier\nOui. Dans tous les jeux de la série GTA, on voit des clubs de strip-tease, de la prostitution et de la consommation de drogue, et certaines missions reposent sur le trafic. Rien d'explicitement pornographique n'est montré, mais ce n'est pas un contenu conçu pour un enfant.\nLa série est critiquée de longue date pour cantonner les femmes à des rôles secondaires, souvent de victimes ou de prostituées. Ses défenseurs invoquent la satire. GTA 6 marque néanmoins un tournant, avec pour la première fois une héroïne principale, qui a pour nom Lucia.\nRien ne l’établit. Q",
-   "pub": ""
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNRjBySlhRUy16dWc0eFpnQnVJVjFoX3l2a1l4aXBMNTAtTkQzN1U2bm83UGJvcUhzdXc0VmI1WTEwd1didGlvQ0pnOXNSQk5iWlh0aDZEX2lEN2ZaQ1VZMUZLTlZZQ3RLa2lSb3RWNWtNRm9KNTA3Q3hYX2xmMkZtT3dRQndRV0xSenlWSjNQVW93VzVsTXdIbGIxN3hFZ0JFVDJaOTVGY2hUci1lYWRQYmxGUTV4LWZHdW91UTkzZFdmZHhQRU9QSEE3cGdZN3dKSFE?oc=5",
-   "s": "RTL",
-   "d": "2026-11-19T05:16:00+00:00",
-   "lang": "fr",
-   "t": "GTA 6 est-il le meilleur jeu vidéo de tous les temps ? Ce que révèlent les premiers tests",
+   "gn": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBRVU5JOTNNdGhDQVJwYUtoVW1XRnBGc2JlbTZGcjRBWHN5Z0FwVlFmamU4bGpZeEI4VlRTYlhlNzh3UzdnQTBVV1BiUkQxdHE5Z3JlTU0xVXEyMGpWbktlbkl2VEEzNEhuRDJTRTJxSkhDcHQzejhwNkJJMA?oc=5",
+   "s": "IGN",
+   "d": "2026-11-19T05:12:26+00:00",
+   "lang": "en",
+   "t": "Beginner's Guide - 67 Tips and Tricks",
    "erreur": "429 : passage suivant"
   },
   {
@@ -286,14 +295,6 @@
    "chapeau": "GTA 6 is out now in the US and Canada. See when it unlocked, how much space you’ll need on PS5, and how PS5 game sharing works.",
    "txt": "X Share on Facebook (Opens in new window) Facebook Share using Native tools Share Copied to clipboard Add Us On Google After 13 years of waiting, GTA 6 is finally out in the US and Canada on PS5 and Xbox Series X|S. Here’s what you need to know before jumping into Leonida, including when the game unlocked, how long it takes to download, and how PS5 game sharing works.\nGTA 6 unlocked in California at 9 PM PT on Wednesday, November 18 and is playable right now. If you bought and preloaded the digital version on PS5 or Xbox Series X|S, you can jump in as soon as the game unlocks and any pending updates finish installing.\nThe West Coast release fell on Wednesday night because the US digital unlock was set for midnight Eastern on Thursday, November 19.\nGTA 6 unlocked at 11 PM CT on Wednesday, November 18 for US players in the Central time zone . So if you live in Chicago, Dallas, or anywhere else on Central Time, you can start playing right now an hour before midnight.\nHere’s how the US digital release broke down across the four time zones in the contiguous US:\nThe GTA 6 PS5 download size is around 210 GB . if you’re downloading Grand Theft Auto VI . According to Rockstar’s website the preload can require up to 212 GB of storage space depending on your device. If you’re close to that limit, you can see how much room you have by going to Settings > Storage on your PS5.\nThe latest reported GTA 6 launch patch on PS5 is version 01.002.001, which is around 602.5 MB . It started rolling out on November 16, so your PS5 may have already installed it if you preloaded the game and have automatic updates enabled.\nIf you want to check manually, highlight GTA 6 on your PS5 home screen, press the Options button, and select Check for Update .\nA 212 GB GTA 6 download takes about 4 hours and 43 minutes at 100 Mbps , assuming your console can sustain that speed the whole time. At 300 Mbps, the same download takes around 1 hour and 34 minutes.\nHere’s how long you can expect the full download to take at a few common speeds:\nThese are download estimates. Your PS5 may take longer if speeds fluctuate or it still needs to install an update. If you already preloaded the full game, check whether you have a patch waiting before starting a new download.\nYes, you can game share GTA 6 on PS5. PlayStation 5 supports sharing eligible digital purchases through Console Sharing and Offline Play. To try it with GTA 6 , sign in with the account that bought the game on the PS5 you want to share it on.\nGo to Settings > Users and Accounts > Other > Console Sharing and Offline Play , then select Enable . Download the game through the account that owns it, then switch back to the profile you want to play on. Sony allows each account to enable sharing on one PS5 at a time.\nGTA 6 has a 99 out of 100 on Metacritic, making it the highest rated game of all time. In our GTA 6 review , I called Grand Theft Auto VI the best game Rockstar has made to date. Leonida is the most impressive open world I’ve played in, but Jason and Lucia’s relationship is what makes the story stick with you.\nAfter 13 years, it was worth the wait. However, that is just my subjective opinion. I recommend checking out Metacritic’s full list of reviews, and deciding if the game sounds like something you would enjoy or not.\nX Share on Facebook (Opens in new window) Facebook Share using Native tools Share Copied to clipboard More From VICE Screenshot: Rockstar Games How to Unlock GTA 6 Ultimate Edition Content and When Each Bonus Becomes Available 8 hours ago By Brent Koepp",
    "pub": "2026-11-19T05:00:00+00:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMivgJBVV95cUxQaUNnMmRZcFRoTW41ZV9nZGJfT18wOE9FS25QVm1uUTJRdXRxTEZGdC1oRGNDdlhRMHJQWFJOLUlST3JwRU9zMXZqWV9DOHViQ3hmSjdJTjl6NlJuNjFES0duYlN5TUdBbmdod2k1akVNZnE0VXhfalN6bVUzQ3E0RGxTTnFsX1RJV3p3UTdTempLWGRpWEdDbVJzSjZlOVFJQUdMbXE1V3ZHVGh1WVVEVXVHcWZsblQ4X2E1SlE0cVFOREtoV0dieERZVUdDVmVxc1M4aHhkYnB5WEVZR2pQQVRvRHp1LWRzdXNGRG8tSW9MSGlxZ1UyZ0w3SEhaa0hzWVNYS2NGSnpDc0FFUy1vOW5JdmdLRFI1NGo2Z28xamE5VFBZSk5MbWY2Q25OYW9XSGxiVVhBdEE0V2tyaGc?oc=5",
-   "s": "Yahoo Tech",
-   "d": "2026-11-19T05:00:00+00:00",
-   "lang": "en",
-   "t": "'GTA 6' is out now and officially ready to play: Everything you need to know about the Rockstar game launch including reviews, pricing, story mode and more",
-   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbjZjSjdqdWJ1LXJIbndBelVtbDBkUzZtazdLazZPS0hUNUxtanJBSU1SLUNVcnhrUWFwSFM0V1RUektQWkZ6bVZuMk00SG5WYnctOWtLN3NZdE1RbUx4VDRnTTRlOTFNbHNvcDdpY1c3dE9meUZXWHdZZHlLTkxqcGpQaDB3LWNoMGdxSi1CRWswS2lrbXc?oc=5",
@@ -497,19 +498,6 @@
    "chapeau": "Clear your calendar, GTA 6 is coming! According to a new review leak, GTA 6's story length comes in at around 50 hours if you stick to the main missions and ski",
    "txt": "Copied Clear your calendar, GTA 6 is coming! According to a new review leak, GTA 6's story length comes in at around 50 hours if you stick to the main missions and skip the side activities. That’s how long it reportedly takes to get through Jason and Lucia’s campaign. Trophy hunters, though, will need a lot more time. The PS5 platinum trophy reportedly needs around 200 hours, and some of that will be spent tracking down wildlife.\nThe estimate comes from Tom Henderson of Insider Gaming , based on impressions from media members who are reviewing the game ahead of release. He says the campaign has 100 missions spread across five chapters.\nFifty hours might sound short next to an earlier figure. Rockstar North co-lead Rob Nelson told The New York Times that his playthrough took around 80 hours, but that included optional quests in an open world full of distractions.\nFor comparison, GTA 5’s single-player campaign ran about 32 hours, while Red Dead Redemption 2 also landed around the 50-hour mark. GTA 6’s map, covering Vice City and its surrounding areas, is reportedly much bigger than either. One reason the story may not run longer is that crossing it in a supercar is much faster than doing it on horseback.\nCompletionists should plan for roughly 200 hours to earn the platinum on PS5. An earlier datamine found 55 PS5 trophies, including the platinum, and Henderson hints at a rare mythic achievement on Xbox, which would give Xbox players the same total.\nThere’s also a wildlife challenge. Like Red Dead Redemption 2, GTA 6 reportedly asks players to find and photograph 170 different animals across Leonida.\nEvery objective at launch is reportedly single-player or story-based. There’s no word yet on when a new GTA Online might arrive, but the launch build does contain code related to multiplayer modes.",
    "pub": "",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9MbG9JRFVrc1NnbGpza0YyZUY0YlozSFA3alNER1owQnE0bEtQUmRpWEQ3QmNyMGI4ckZET3g1RzIxdmdSY2pMNmRWTWlwczE4YzhYX1R3RjVNR0JfbFhhM1lBUHFWNUkxaTI4UEVLbXV1TUU?oc=5",
-   "s": "Make Tech Easier",
-   "d": "2026-11-18T04:12:23+00:00",
-   "lang": "en",
-   "t": "GTA 6's 34-track soundtrack lineup, with Lana Del Rey, Dua Lipa, Playboi Carti and JENNIE, leaked through photos of vinyl copies sold before the game's 19 November launch - Make Tech Easier",
-   "u": "https://maketecheasier.com/gta-6-soundtrack-tracklist-vinyl-leak/",
-   "img": "https://maketecheasier.com/wp-content/uploads/2026/11/gta-6-soundtrack-tracklist-vinyl-leak-featured-scaled.jpg",
-   "chapeau": "Photos of vinyl copies sold early showed GTA 6's 34-song soundtrack lineup, including new tracks from Lana Del Rey, Dua Lipa and Playboi Carti. Billboard and Rolling Stone sources confirmed the list; the album date is disputed.",
-   "txt": "Practical fixes for the tech you already own. Free, a few times a week.\nPhotos of vinyl copies of Grand Theft Auto VI: The Album that were sold ahead of schedule put the record’s full 34-song tracklist online over the weekend of 14 and 15 November, days before Grand Theft Auto VI arrives on 19 November. The music itself did not leak. What circulated was the printed 34-song tracklist, which named more than 20 songs Rockstar Games had not announced.\nAmong the previously unannounced titles are “Crazy for You” by Lana Del Rey, “Go Easy” by Dua Lipa, “Ahh Yea” by Playboi Carti and “Power Trip” by JENNIE, alongside tracks from Burna Boy, Gunna, Young Thug, Camila Cabello, Arca, Rina Sawayama, Kali Uchis and Omar Apollo.\nBillboard ‘s Mitchell Peters wrote that “photos and videos of the vinyl edition of Grand Theft Auto VI: The Album have surfaced on social media in recent days, revealing its full 34-song tracklist across two records,” and added that “sources close to the project have confirmed the tracklist to Billboard.” Rolling Stone ‘s Daniel Kreps described the same chain of events, saying the list “leaked this weekend when images of the (prematurely sold) vinyl release appeared online,” and that sources confirmed the tracklist to Rolling Stone as well.\nUSA Today ‘s Greta Cross said that as of 16 November, Rockstar Games had announced 10 of the album’s tracks, and that photos of the prematurely sold vinyl showed the remainder of the lineup. The 10 already public titles, per USA Today, were “That’s It” by Yung Lean featuring Future and Metro Boomin, “RHYNO” by Travis Scott, “Sexy Magic” by CA7RIEL & Paco Amoroso, PinkPantheress, Fred again.. and Étienne de Crécy, “Flower in a Hurricane” by Justice featuring Tame Impala, SZA, and King Gizzard & the Lizard Wizard, “Last Thing You Need” by Morgan Wallen, “Suzuki” by Fuerza Regida, “Macacoa 2000” by Rauw Alejandro, “Don’t Chart” by Cardi B, “Blood In Your Eyes” by Tove Lo and “Bright Lights, Big City” by Keith Richards. USA Today said it reached out to Rockstar for confirmation on 16 November; that piece does not report a response. Billboard noted that several of the songs are already on streaming services, and Rolling Stone counted the Travis Scott, Morgan Wallen, Keith Richards and Justice tracks among the cuts released before the leak.\nBillboard said the album was announced in September by Atlantic Records and Rockstar Games. Speaking to Rolling Stone, Lana Del Rey said, “One of the coolest things about this is the fact that the first time some of our family got to LA they actually knew the roads because of playing the game,” adding, “On so many different levels this is super special and a privilege. Can’t wait to get into the game and start playing.”\nThe two outlets that confirmed the tracklist do not agree on when the album itself lands. Billboard said Grand Theft Auto VI: The Album is set to arrive on 19 November, the same day the game launches on PlayStation 5 and Xbox Series X|S. Rolling Stone said the album will arrive on Friday, 20 November, a day after the game drops digitally. USA Today, for its part, lists shipping rather than streaming: a standard two-record set at $49.98 and an exclusive pressing of two transparent magenta records with blue splatter at the same $49.98, with both vinyl editions shipping on 20 November. A ship date is not necessarily a street date.\nThe album is also distinct from the game’s original score, which is credited to Justice. USA Today, citing the Rockstar Games website, said the score is due on 11 December across major streaming services, CD and vinyl, with physical formats listed as a triple crystal-clear vinyl at $49.99 and a double CD at $19. USA Today said two score singles were already streaming as of 16 November: “Pusher” by Justice featuring Gesaffelstein, and “Flower in a Hurricane,” which the same piece also lists among the 10 announced album tracks.\nThis is the lineup as published by Billboard on 14 November after sources close to the project confirmed it, in Billboard’s order, with Billboard’s titles and credits.\nThe game arrives on 19 November for PlayStation 5 and Xbox Series X|S, with unlock times at midnight local across regions. Make Tech Easier has covered the release date, pricing and preload details separately, and a 24-hour YouTube stream is also planned from midnight ET on launch day.",
-   "pub": "2026-11-18T04:12:23+00:00",
    "cyberleek": true
   },
   {
@@ -740,19 +728,6 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9vaEs4SzBzUnNUaEM1Y090U293a0IzOW9zN2J4N055d1o1dU9tT1RSb0J0NmZEblVFVTkwb1NtajBNS2VTS085dzE5VDJoM1A0LU9XMnRHVVhxUzhIVEdsR2tGQlNWWDJWckJwbEVLajR6VC1kSm90SWtR?oc=5",
-   "s": "shattered.io",
-   "d": "2026-10-17T07:00:00+00:00",
-   "lang": "en",
-   "t": "GTA 6 Cyberleek Is Back as Coin Drops to $1.2M",
-   "u": "https://shattered.io/gta-6-cyberleek-ends-leaks-coin-1-2-million-2026/",
-   "img": "https://shattered.io/wp-content/uploads/2026/10/gta-6-cyberleek-ends-leaks-coin-1-2-million-2026-gen.jpg",
-   "chapeau": "GTA 6 leaker Cyberleek posted a final video, then said it was back after the $CYBERLEEK token crashed from $7.8M to $1.2M.",
-   "txt": "Grand Theft Auto VI’s most persistent leaker just tried to close the book on a saga that has run for months. On October 14, 2026, the anonymous figure known as Cyberleek posted a new video, which IGN reported as a 24-minute gameplay video, carrying the title “The End of the Road.” Mashable reported that Cyberleek shared roughly 20 clips, which reportedly include Lucia at a barbershop, a shop robbery, a pool scene, several locations, and flyover footage. Cyberleek framed the release as the final chapter of a leak campaign that had, by its own telling, turned into a cryptocurrency operation. Rockstar Games has not confirmed any of the footage, and the claim that these clips come from the game’s final missions remains unverified.\nWhat makes October 14 different from Cyberleek’s earlier posts is the money trail attached to it. A token called $CYBERLEEK, built on a blockchain and tied directly to the leak campaign, hit a reported peak market capitalization of $7.8 million on October 11, 2026. Within three days, that figure had fallen to roughly $1.2 million, according to IGN, or about $1.7 million per a separate figure reported by Enduins, and later reporting, dated November 13, 2026, still places the coin at approximately $1.2 million in market capitalization. Whichever number you use, the token lost well over three-quarters of its value in under 72 hours. Cyberleek’s own framing was blunt: the leaks stop here, for now, and the ending stays unpublished.\nGoogle · Preferred Sources Don't miss new tech stories on Google\nAdd Shattered once in the Google app and our stories show up in your news suggestions.\nThe new video runs approximately four minutes, a modest length compared to some of Cyberleek’s earlier drops. According to reporting on the release, the footage shows short clips centered on Lucia, one of GTA 6’s two confirmed protagonists, moving through a barbershop, taking part in a shop robbery, lounging by a pool, and passing through assorted map locations, capped by flyover footage of the game world. Cyberleek described these as pulled from the game’s final missions. That claim has not been independently verified, and separate reporting notes the footage does not clearly establish a connection to a final mission or show anything resembling an actual ending cutscene.\nThat distinction matters more than it might seem. Dexerto’s coverage of the release framed it as Cyberleek posting “parts of final missions” while stopping the broader leak campaign, a characterization that leaves plenty of room between what was shown and what was promised. Eurogamer’s report on the same video used similarly careful language, describing the clips as allegedly showing scenes from the final mission while noting the leaks may have come to an end rather than stating outright that they have. The gap between “allegedly” and “confirmed” is the entire story here, and it’s one Rockstar has done nothing to close.\nCyberleek’s message accompanying the video leaned on two phrases that have since been repeated across gaming coverage: “The leeks stop here. For now.” and “The ending stays unpublished.” Read together, those lines do two things at once. They announce a halt to new leaks while deliberately leaving the door open with “for now,” and they draw a hard line around the one piece of content Cyberleek says it will withhold regardless of what happens next, the actual ending.\nThat second phrase is worth sitting with. If the campaign really does have footage beyond what’s been shown, holding back the ending is the one piece of leverage that survives a collapsed token. Whether that leverage is real or just the last card in a bluff is exactly what nobody outside Cyberleek’s circle can confirm. Enduins, one of the outlets tracking the saga closely, titled its own report on the episode “Cyberleek Ends GTA VI Leaks After Memecoin Collapses,” tying the stoppage directly to the token’s crash rather than treating it as a planned conclusion.\nThe numbers behind $CYBERLEEK tell a familiar story to anyone who has watched a thin-liquidity memecoin move. The token reportedly climbed to a peak market capitalization of $7.8 million on October 11, 2026, the same week Cyberleek was promising bigger disclosures tied to higher valuations. By October 13 and 14, that figure had cratered. IGN put the post-collapse market cap at roughly $1.2 million. Enduins reported a slightly higher figure, around $1.7 million. Separately, Yahoo Finance, citing CoinGecko data, reported a s",
-   "pub": "2026-10-16T17:36:36+00:00",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQN3hGd0t1VVRzTURaMHAyOG9PcmgzajV5WGVpZUJsRGt2ZWE2dk1zLWd0cFUwN2xzUTduam01TF91SWxEUHktSDF5TWlSNFdHTmRnRnVDRGp5eTFPWnZkc3BySWVxTGxLMS00aVpSX2lJSVk5SmtCTFY4VE5mY2ZqUHRVT0ZHWXdhWTJwbmRXU05yRXZIRGdjVk5sVzJtUm9Ha0E?oc=5",
    "s": "Fredzone",
    "d": "2026-10-16T07:00:00+00:00",
@@ -771,6 +746,15 @@
    "d": "2026-10-16T07:00:00+00:00",
    "lang": "en",
    "t": "GTA VI Developers Showed a \"Black Mark\" to Hacker Cyberleek? A Threat from Rockstar Was Seen in the Trailer",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBHYVNXc0ZEVTVvdHNOMGwzMmN3NTlrZ0tvaEtRVzRzZlU4ckFaZ2NmazFhQUtmRXNHTUs1cDQ4azdKak91R1RYbWxLVjJUNzhjc0dyN21VMTFISFBpbXRKVEs1N3I2SjV0UXJxS3ZYQXpNSXkzeTJ2TkhuUFE?oc=5",
+   "s": "shattered.io",
+   "d": "2026-10-15T08:03:33+00:00",
+   "lang": "en",
+   "t": "Cyberleek’s 3-Part Message Ends GTA 6 Leaks [2026]",
    "erreur": "429 : passage suivant",
    "cyberleek": true
   }
