@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-19T04:10:07+00:00",
+ "maj": "2026-11-19T04:30:43+00:00",
  "articles": [
   {
    "gn": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQd2VRMGhHMzg1OTZBN2hRYkstdmR0c2ZFN21KZkVzVExVZ1M4bzRSTFZ1bmxfOG5xaW9OUXhVa244dkJrbVctM19UYXh3ZW1INmJySHN0OXdGRFRBR2pERXpjYWpOdzlqc2NNQUZoamlFSkJqcHROVlJ6N3ZSQXVJZ0Zn?oc=5",
@@ -31,7 +31,7 @@
    "d": "2026-11-19T03:01:29+00:00",
    "lang": "fr",
    "t": "La superproduction \"GTA VI\" enfin entre les mains de la plupart des joueurs de la planète",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "HTTP Error 429: Too Many Requests"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWlFkelZPazVuRGRES0ZsekhWXzkwdG05aUlRS3FSUWJ0Z2VUajdnNC1wRXVsbVVra3ZpUmp1TzAtM3g1WmtTSGFaWFNnOWFrWEtjQUFRZC1WVjhtLTU1M0YxeXFsVDd2U1ZzbEM0YUNSMXVZNDk0NUxPZEhBcWw2NlU5WmRQSmNWdnFyUHVvcVFCTlBJT0tnZ1p5aFpZZWJJSmZNUHhsWQ?oc=5",
@@ -44,6 +44,14 @@
    "chapeau": "Still need a PS5 for GTA 6? This Black Friday deal might have arrived at the perfect time🎮",
    "txt": "GTA 6 fans can save on a PS5 Slim Digital console bundle in EE's limited-time Black Friday sale, just in time for launch\nThis article contains paid shopping links. LADbible Group receives a small payment if you click on these links or make a purchase through them.\nGTA 6 is here, and everyone and their neighbour's cat is talking about the latest entry in Rockstar Games ' Grand Theft Auto series. However, not everyone can play it this weekend, especially if they don't have a console to play it on. Thankfully, that's where this Black Friday deal comes in.\nAt launch, Grand Theft Auto VI has an RRP of £69.99 for the standard edition, while a PlayStation 5 without a disc drive costs £519.99. This deal from EE saves you a tidy £34 compared to buying a copy of GTA VI and the PS5 console separately at their standard RRPs.\nThe PlayStation 5 Slim Digital with Grand Theft Auto VI bundle costs £553.99, with interest-free options available if you'd prefer to spread the cost. This is the digital version of the PS5 console with 825GB of storage, rather than the model with a disc drive.\nThe \"physical\" copy of the game included in this bundle is actually an official case containing a code to redeem through your PlayStation Network account. You also get an additional GTA VI A3 poster.\nInside the PlayStation 5 box, you'll find two horizontal stand feet, an HDMI cable, an AC power cord and a USB-C cable, with Astro's Playroom pre-installed on the console.\nAbsolutely, and for a couple of reasons. If, for whatever reason, you've still not picked up a PlayStation 5 and you've been looking forward to GTA VI , this Black Friday deal makes sense, especially with the £34 saving. Buying both separately at their standard RRPs would cost £589.98.\nWhat's more, perhaps your launch PS5 has recently died, or it sounds like it's on its way out. If that's the case, here's a handy guide to help prevent your PS5 from overheating . Otherwise, this could be the perfect excuse to pick up a new console alongside GTA VI .\nThe deal is also limited to one per customer, so please keep that in mind.\nREAD MORE: I reviewed GTA 6 for 70 hours and then had Rockstar personally answer every criticism I had\nThe deal ends on Monday, November 30, 2026, at 23:59 UK time. It's also safe to assume that it's available while stocks last. The product page states that delivery can take up to 14 days, but hopefully, that's a worst-case scenario.\nThe page also mentions that orders placed before November 19, 2026, will receive the Vintage Vice City Pack as a pre-order bonus. I'm not saying you'll receive that code after the deadline, but I've personally received pre-order bonuses with purchases made after launch. So, fingers crossed.\nThere's also an additional offer to pick up a DualSense controller for £44.99, saving you £20 off its RRP. So, if you're in need of an extra controller, that's a handy bonus.\nGrand Theft Auto VI is out now on PlayStation 5 and Xbox Series X/S.\nREAD NEXT: GTA 6 is the highest rated game of all-time, as endless 10/10 reviews pour in\nTopics: GTA 6 , PlayStation , PlayStation 5 , Rockstar Games , Grand Theft Auto",
    "pub": ""
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMid0FVX3lxTE16d01ubkxfVXlneHJ4Vnc4dURnSkFDUnBQYThKdG5GLWRrWFpUVjVWSDNGd2pKUlByaktNbTBxOVR5QU5EVnlxMFNuUG1SZmFpNElSMG43OUlNbGlnYlRZbGhrMTh6cEZfaklrdXhoTHlKaTZ0OXl3?oc=5",
+   "s": "Mashable",
+   "d": "2026-11-19T02:31:26+00:00",
+   "lang": "en",
+   "t": "'GTA 6' is the highest-rated game of all time",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5vWmp6X0UtMGhZTTh0S3JfaGhBNVgzTHNVLXRGSks2VEY5cEZfcG1WTHZvd2ZBNUZBY0ZpUGxtUjU1YmV3bHNGVjhDVEQtZUR0eWJ3Yzln?oc=5",
@@ -94,18 +102,6 @@
    "pub": ""
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZzY5bEk2VkZtWUgwaDhRUEJjdjNpSU1zRVZKRzhqXzJLTmk3ZmNwUlhPV1pCclFvNUN0Z2tTem4xcldiOWliQ29kbTNwbzJhV1FYMGFyODZ3U1FvaDA3WkdvMWZlN0RGQXFiMlF0N3gwYkNKSVBpSVJOcHVnU05HUnNDc3R2dl9FdFBDeXZMaFB1TVVVb01JaTlzbzBZRDdhYjNmTm81b3FxODJmdnN2bXBITWs0YnQtQmNhZWg1Qi1RWGpUMV9V?oc=5",
-   "s": "20 Minutes",
-   "d": "2026-11-19T01:34:00+00:00",
-   "lang": "fr",
-   "t": "Les premiers joueurs sont conquis par « GTA 6 », le nouvel opus de la saga",
-   "u": "https://www.20minutes.fr/gaming/jeux_video/4263999-20261119-gta-6-apres-13-ans-attente-premiers-joueurs-conquis-nouvel-opus-saga",
-   "img": "https://img.20mn.fr/YLJTliDIRGSX12cQ9kXH_ik/1444x920_19-novembre-2026-ahmedabad-gujarat-inde-sur-cette-photo-d-illustration-une-image-du-logo-de-grand-theft-auto-vi-gta-vi-est-affichee-sur-l-ecran-d-un-smartphone-avec-le-logo-du-jeu-visible-en-arriere-plan-developpe-par-rockstar-games-le-jeu-devrait-etre-lance-le-19-novembre-2026-plus-de-13-ans-apres-grand-theft-auto-v-et-devrait-devenir-un-phenomene-culturel-mondial-image-de-credit-saurabh-sirohiya-zuma-press-wire-20261119-zip-s263-010-zeus-2611182047",
-   "chapeau": "Entre les rues de Vice City et les bayous, « GTA 6 » impressionne par le détail de ses décors. Disponible ce jeudi à minuit sur PS5 et Xbox, le jeu de Rockstar séduit joueurs et critiques",
-   "txt": "A peine entré dans Vice City, le Néo-Zélandais Luke Starik a déjà eu affaire à la police. « Déjà arrêté. Je n’ai pas survécu longtemps ! », raconte-t-il. Comme les joueurs australiens et une partie du public asiatique, il a pu découvrir Grand Theft Auto VI (GTA 6) avant l’Europe et les Etats-Unis. Le jeu de Rockstar Games sort jeudi à minuit, heure locale, sur PlayStation 5 et Xbox Series . Pour y accéder plus tôt, certains fans européens et américains ont changé la localisation de leur console. PlayStation a brièvement signalé des problèmes de connexion avant un retour à la normale.\nTreize ans après GTA 5 , ce nouvel épisode de Grand Theft Auto suit un couple de gangsters à la Bonnie and Clyde dans une ville inspirée de Miami. Sur Reddit , un joueur qui signe No_Strike9652 livre sa première impression. « C’est très probablement l’un des plus beaux jeux que j’aie vus de ma vie », écrit-il. Un journaliste de l’AFP qui a essayé le jeu mercredi relève le réalisme des personnages, jusque dans leur façon de se mouvoir. L’attention portée aux décors se retrouve aussi bien dans les rues animées de Vice City que dans un bayou peuplé de crocodiles.\nMercredi, GTA 6 obtenait une moyenne de 99 sur 100 sur Metacritic, qui recensait une centaine de critiques de la presse spécialisée. Forbes salue « l’univers de jeu vidéo le plus impressionnant » jamais créé. Chez IGN Japan, la « représentation minutieuse de la vie quotidienne » convainc davantage que les « missions principales de conception plutôt classiques ». Le média japonais regrette aussi de trop « longs trajets en voiture ». En dehors des missions, le joueur dispose de la même liberté que dans l’épisode précédent pour prendre le volant, piloter un avion ou sauter en parachute.\nLe développement a pris plus de huit ans à Rockstar Games , qui compte une douzaine de studios dans le monde et emploie plus de 4.700 personnes. En 2022, des vidéos volées ont circulé sur Internet . Le studio a ensuite repoussé deux fois la sortie du jeu et connu de nouvelles fuites l’été dernier. Les analystes situent le budget de GTA 6 entre 1 et 1,5 milliard de dollars, une estimation qui en ferait le jeu le plus cher jamais développé. Le cabinet Sensor Tower évalue les précommandes à plus de 15 millions d’exemplaires. Rockstar Games n’a pas communiqué de chiffres.\nA Miami, un dirigeable a survolé la ville dans le cadre de la campagne de lancement. Take-Two Interactive, la maison mère de Rockstar, a aussi misé sur l’affichage dans plusieurs capitales pour toucher un public plus large que celui du jeu vidéo. D’après le cabinet britannique Omdia, les ventes pourraient atteindre 3,2 milliards de dollars d’ici à la fin de l’année. La plateforme de ressources humaines Remote dit pour sa part observer, à l’échelle mondiale, une hausse de 32 % du nombre de congés posés pour ce jeudi.\nDepuis ses débuts, Grand Theft Auto emprunte aux grandes villes américaines leurs décors et à la société américaine les travers dont la série se moque. « C’est peut-être une version caricaturale et sous stéroïdes de la société américaine », estime Jia Wei, un joueur chinois trentenaire, qui craint que certains joueurs la confondent avec la réalité. La liberté d’action offerte dans GTA alimente aussi la controverse. Les joueurs peuvent renverser des passants, vendre de la drogue ou tirer sur la police, ce qui vaut à la série des accusations de glorification de la violence. Le Qatar, la Chine et la Russie ont notamment interdit la série.",
-   "pub": "2026-11-19T01:34:56.149Z"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE42REExMGJsNjRHY2NNM0RpbkZzc0dVWHFsamc1T2hYSVdKX2Z0dWVvdVl5ZTRWSzU1blZBcE1QTjZpdGMtQWpyRUl1QTg2aWpKX01ZTkl6aEZ6bG5LUnc?oc=5",
    "s": "SVG",
    "d": "2026-11-19T01:00:00+00:00",
@@ -135,11 +131,7 @@
    "d": "2026-11-19T00:41:58+00:00",
    "lang": "en",
    "t": "Giannis Antetokounmpo, Heat host Tyler Herro, Bucks for GTA 6-inspired 'Vice City' night",
-   "u": "https://sports.yahoo.com/nba/article/giannis-antetokounmpo-heat-host-tyler-herro-bucks-for-gta-6-inspired-vice-city-night-004158494.html",
-   "img": "https://s.yimg.com/lo/mysterio/api/d4beb537d31477da2ae42a309843d19d36f089c5d4ebfd11b72ed0da304c7e40/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-11%2F4dd7c515-455a-4702-9b6b-fd4667fe32fd",
-   "chapeau": "Wednesday's game will also be the first time that Antetokounmpo has faced the Bucks since his trade to the Heat last offseason.",
-   "txt": "",
-   "pub": ""
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMVdXZWVydHdPSTI1X0llMEE1YjN4S0FybkpNM1M5Y2I5aUh2UnFGVWhxcHVTQWFrYnFoUDE0SjBCVDBISnBzWDN5VE14bTlmZXBVd2ZGb29hWmdvTktMQWtOekRnUTZ4bmZGNFhUUVBZV0hZMktGSWt1R3NvZ1o2MGFzSUFiMmR5NDdrQQ?oc=5",
@@ -164,18 +156,6 @@
    "chapeau": "Grand Theft Auto 6 goes live starting at midnight in the US, but if you can't wait, this console trick can get you into Vice City early.",
    "txt": "Grand Theft Auto 6 is so close that you can now preload the game onto your console before it officially releases this Thursday, November 19. After years of anticipation and multiple delays, there's no doubt this game will be one of the biggest titles in gaming history. But when can you actually start playing? We're about a week out from the official release date, but the exact time varies by time zone.\nIf you just can't wait until it unlocks in your region, there's a trick to access the game sooner, depending on which console you're playing on. Here's when Grand Theft Auto 6 will unlock on your console, and how to potentially get it nearly one day sooner.\nWhen GTA 6 releases, it likely won't be unlocked for everyone simultaneously. Instead, the game is expected to be released at midnight local time in your timezone, according to a November 3 post from Rockstar .\nThat means the release will begin in New Zealand, where the game will launch on November 18 at 11:00 a.m. UTC (12 a.m. NZDT), before unlocking in Australia, then across Asia and the Middle East. By 22:00 UTC, the game will become available in Eastern European countries, before reaching the rest of Europe an hour later. GTA 6 will unlock in the UK by November 19 at 00:00 UTC (12:00 a.m. GMT). South American countries will gain access before North America.\nIf you're playing in the US, you'll also see the game unlock at midnight local time. That means those on the East Coast will be able to play before gamers on the West Coast. Previously, we were expecting GTA 6 to release in the United States at 12 a.m. ET for all time zones.\nDon't want to wait for your copy of the game to unlock? You may be able to get early access by updating your gaming console's time zone—but it all comes down to which platform you chose for playing GTA 6.\nSince New Zealand gets the game first, Xbox owners can change their console's region to New Zealand to try to access the game once it hits 12 a.m. NZDT (8 a.m. ET).\nTo change your Xbox region settings to New Zealand, follow these steps:\nIf you're playing on PlayStation 5 , this process may be possible, but it's a bit more complicated since your account is region-locked. To make this work, you'd have to create a separate PSN account, likely using a virtual private network (VPN) that is set to New Zealand. You'd then have to purchase a copy of the game through the New Zealand PlayStation Store . This may require a payment method compatible with the region and might also cost you more after converting currencies. Even after all of this, there's no guarantee it will actually work.\nWe Got a GTA 6 PC Before We Got GTA 6 Is The Timezone Trick Worth the Effort? Changing your time zone could get you early access to GTA 6, as it's worked for other games like Call of Duty. But it's not a guarantee. \"It’s likely that Rockstar would find a way to stop this,\" said Jordan Minor , PCMag's gaming expert.\nIf you want to change your time zone on your Xbox, it's a minimal-effort step that may let you play the game roughly 18 to 19 hours earlier. The PlayStation workaround, however, is much trickier and may not be worth your time.\nHaven't preordered your copy of GTA 6 yet? Here's how to make sure you're ready to go when the game drops in your time zone.\nExperience As PCMag's editor of how to content, I have to cover a wide variety of topics and also make our stories accessible to everyday users. Considering my history as a technical writer, copywriter, and all-around freelancer covering baseball, comics, and more at various outlets, I am used to making myself into an expert.\nI believe tech corporations are bad, but you might as well know how to use technology in everyday life. Want more how to content delivered right to your inbox? Sign up for the tips and tricks newsletter that I curate three times a week.\nMy job as how-to guru means I use just about every gadget under the sun, so I can figure out how everything works. I work from a Lenovo ThinkPad running Windows 11, but also have a very large Dell Inspiron 17 3000 and Apple silicon MacBook. I have a Google Pixel 6a for personal use and use a Galaxy Z Flip 4 for additional Samsung-related testing. For iOS coverage, an iPhone 13 mini works like a charm, though it's already becoming a little long in the tooth.\nMy desktop situation includes a dual monitor setup with a modest Acer monitor. I also use a Logitech vertical mouse (who can use these ThinkPad trackpads) and a Havit keyboard (my first mechanical keyb",
    "pub": "2026-11-18T19:37:42+00:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9oWnZINnpsNXVOc1hYZk8xd3JSYnNIaGtvWlFiU2lPNm50eUZ6OG9oOGpxaGtadUR1S2pZNzdlSUVXMmNxaTBwakVRa3pYMkVxQjBCVThHSlRhU1c3Znp6X0J3dkJ4SFRp?oc=5",
-   "s": "Push Square",
-   "d": "2026-11-19T00:00:00+00:00",
-   "lang": "en",
-   "t": "GTA 6 Review",
-   "u": "https://www.pushsquare.com/reviews/ps5/grand-theft-auto-6",
-   "img": "https://images.pushsquare.com/a033497181d39/1280x720.jpg",
-   "chapeau": "Is Grand Theft Auto 6 worth the hype? We",
-   "txt": "What does eight years and an estimated $1 billion get you? Well, GTA 6 .\nIn this long-anticipated crime sandbox, Rockstar has assembled the most technologically accomplished open world ever made, expanding on its groundbreaking work with Red Dead Redemption 2 .\nBut crucially, with its dual protagonists Jason and Lucia, it’s grown up a bit.\nThis is the franchise at its most mature, shedding the cartoonish cultural caricatures of GTA 5 without losing the biting social commentary the series is known for.\nThe fictional state of Leonida is undoubtedly the star here; a dense and gigantic urban sandbox populated by an unfathomable array of art assets.\nWhether it’s the easy-living coastal island of Key Lento or the mean streets of Crosstown, Rockstar’s artistry is utterly unprecedented.\nZoom in and you’ll see insects attracted to discarded food wrappers; a single convenience store has more unique art assets than entire districts in other open world games. This is remarkable stuff, delivered at such a scale it’s going to leave other publishers with their heads in their hands.\nIt feels alive, too; a casual visit to a gas station saw me berated by a cyclist for my wayward driving (I told him to chill out), while a brief pause on the side-walk ended up with my car getting hijacked by a masked criminal.\nIn over 150 hours of play, I’m still discovering random events that add depth and character to the open world. And even when the scripting is pushed to the background, the way every NPC feels designed, with distinctive personality and unique body types, makes this package an unfathomable feat.\nBut while Leonida is the standout, Jason and Lucia are the vehicles that guide you through it.\nJust like GTA 5, each character has their own individual life, but the game is at its best when it brings them together.\nI’ve never seen romance made into a mechanic quite like this, aside from perhaps the handholding in ICO , which is repurposed here. (Complete with DualSense haptic feedback when the characters touch.)\nJason is a bit of a beige blank slate, but Lucia brings genuine “girl power” to the story without pandering or feeling insincere.\nIn fact, in contrast to past GTAs, the many women in this instalment feel much more believable; the game frequently flips expectations on their head, without it ever coming across as forced.\nA secret twist revealed in the opening moments adds gravity to the couple’s situation and becomes the driving force behind the story, which takes the pair from pillar to post, fulfilling the whims of a ragtag roster of ne’er-do-wells.\nThe campaign does fall into cliche territory at times, as the pair bounce from one bad idea to another in order to fulfil their ultimate ambition, and it’s something the characters seem to acknowledge. (“When are we going to get to call our own shots?” Jason wearily ponders at one point.)\nBut the mission design remains inventive throughout, regularly adding bespoke mechanics and interactions to keep things fresh.\nIn one early mission, Jason indulges his inner- PowerWash Simulator , as he rinses down a boat while other characters commentate key plot points. I won’t spoil the best moments, but needless to say there are missions here that will be remembered for a long time.\nThere’s also a slate of optional pastimes running concurrently to the main campaign which add genuine variety to the sandbox.\nI was most enamoured by Jason’s home entertainment setup, which includes a distinctly PS4 coded console that can be powered up. I’ll leave you to discover his selection of fully playable games.\nBut beyond that, the ability to go hunting or even play a round of golf means you can lose yourself in this sandbox for hours at a time, and never really tire of the activities available to you.\nSome of the action sequences remind me of all-time classics like Uncharted 3 – fist-pumping, set-piece heavy rollercoaster rides that push Rockstar’s engine to its limits, all within the confines of a meticulously designed open world.\nController response is vastly superior to the studio’s previous games, with the cover shooting system feeling much more natural and the aiming mechanics buoyed by a pretty fun “bullet time” mechanic.\nHowever, the game does fall into the trap of introducing heavily armoured bullet sponge enemies towards its conclusion, as it runs out of ways to make human-on-human encounters interesting.\nThat said, I really appreciated the agency GTA 6 gives you over how you approach each situation; non",
-   "pub": "2026-11-18T11:00:00+00:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9qYmgtd0NhRHEzVFl2TENnSkhBa0xGZ0ZJb0ZSdGFaZXRGSmRsa0ZTanFYdmcxWG1GdlhYODZhS3drX3ZkWDl1ZTJPOWVwaXM4dmgzMGhnMERkMW5rMl9sWF90czBscmpEelFWYk9R?oc=5",
@@ -231,11 +211,7 @@
    "d": "2026-11-18T23:08:30+00:00",
    "lang": "fr",
    "t": "GTA 6 : police pas nulle, Pokédex et couchers de soleil... tout ce qu’on a vu en 3 heures de jeu",
-   "u": "https://www.leparisien.fr/video/programme/combo/gta-6-police-pas-nulle-pokedex-et-couchers-de-soleil-tout-ce-quon-a-vu-en-3-heures-de-jeu-19-11-2026-BHXRU5RBHNCABNODOVQIHLFK7U.php",
-   "img": "https://www.leparisien.fr/resizer/25abKfuf5fJojzdJxxisXqCTLwY=/1600x900/cloudfront-eu-central-1.images.arcpublishing.com/leparisien/V2BIET7CFRFQ7JQLFMKC5A7Z2A.jpg",
-   "chapeau": "Vous êtes au courant, GTA 6 est enfin sorti. Mais vous ne savez peut-être pas exactement à quoi vous attendre. On a joué trois heures à GTA",
-   "txt": "",
-   "pub": "2026-11-19T00:08:30+01:00"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNc3d4cG0yZElGVVh6MmxNX3M3WndZVFZ0anA0Q3dBMUxwVFoxTXVtM2lsMHY0V2ZLVmNjbDVoZE04WENoanNNcFNQeVdXT3h6UVlDMlBUaEg1MEY0OFJ5Q1FzT3hDb2J1SW55U0UyWnpmUkdaVGlJY1hNUEJGSE9OMmtXdExjanVQMjFaQmdkVE16dW1veXN2ZER0bDlyeWQtQXZMWmJtdmVoV0E?oc=5",
@@ -243,7 +219,7 @@
    "d": "2026-11-18T23:01:08+00:00",
    "lang": "fr",
    "t": "Codes de triche GTA 6 : la liste complète des cheat codes pour PS5",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQbGZMSGhScWVseURRd1laenlSRjVHTXBSM2xFaHJBRllSSk9oUlZHaVRFMHA4ajJPQVBpaE9RSnFuVzlZNk1iaTZrSVNWOXE1dXJxa2puZ3BkeHM2T25SZU42eVY2OC1ieFNyUlhMb3NQdFNmcExRZko1SXF6bmw3QTV5MzBoRVl2OGhxY2tsLUdUdWJMVE9DUVRNTGItUHUyNTBCLWpPanRxUWJHRzJmWGdBam5xbjZ1VndTSUxQcS1vM29lbUVuRGhYMzBaeS16S3RJZkRJSThWRFU1MFhBMndCMG5ZWjFTdXdQbHM3d2pSWlZaZUE?oc=5",
@@ -347,12 +323,16 @@
    "s": "La Provence",
    "d": "2026-11-18T20:41:16+00:00",
    "lang": "fr",
-   "t": "GTA 6 est enfin là ! Voici tout ce qu’il faut savoir sur le jeu événement de Rockstar Games",
-   "u": "https://www.laprovence.com/article/sortie-loisirs/1151738779276815/gta-6-est-enfin-la-voici-tout-ce-qu-il-faut-savoir-sur-le-jeu-evenement-de-rockstar-games",
-   "img": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2026/11/18/un-couple-inspire-de-bonnie-clyde-arpente-les-rues-de-vice-city-aux-allures-de-miami-dans-gta-vi-1795034602_cfb9c2dd0efa6b3c9c2dd0efa77c9cv_.jpg",
-   "chapeau": "GTA 6 est enfin là ! Voici tout ce qu’il faut savoir sur le jeu événement de Rockstar Games",
-   "txt": "",
-   "pub": "2026-11-18T21:41:16+01:00"
+   "t": "GTA 6 est enfin là ! Voici tout ce qu’il faut savoir sur le jeu événement de Rockstar Games",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNaVFib1M0bFFteFZRdnFCYUZQWmF4VExybWFpM0QydmRmNVRKRVNwNDVLOGp3WFBGVVJTYUJzbFBEemNTeW9RNlR2bjRIYUxKak94TnRXXzZnNm5nSUN1bWV4ckxtUmRlOG1KbHF1UkNtWFVTelRaM2kyVHlvTFd4LTlrR0huRy02blhqV183bUJkMEl0VWZ5SXVlLVN5R0lsREpjTDM0c1p0el8wU1pCbDFJQUdTbmh1SmhmRXo3cExyLTJLalhoTVFjWkYzcVlmUlhuby15dERRXzc5NlktZlZLc0l6SjlmQ3hpSklKUnBSRWxUMW9GMUNJVFQ?oc=5",
+   "s": "franceinfo",
+   "d": "2026-11-18T20:24:39+00:00",
+   "lang": "fr",
+   "t": "Budget, préventes, musique… Cinq chiffres vertigineux autour de \"GTA VI\", qui sort après treize ans d'attente",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPOWVfOFhJRS03a0dVTFM3R1lNQ21SZGFEYmlQdjJLTVZDNVdGV1dmU25KWVpMVnNDdno0c0pseElwRjJ6OWVWZ0hiazZKLVZGUEViVlh1TFE0N3dpY05aRm45aXNKZU1HN0p0YnBfSWJmUHNpXzMtTFBoeU81QUpDSWxCQzhleERWNERVSkZ5T3RQQ3NV?oc=5",
@@ -490,7 +470,7 @@
    "d": "2026-11-18T07:56:58+00:00",
    "lang": "fr",
    "t": "GTA 6 : une campagne Twitch Drops aurait fuité avant sa sortie",
-   "erreur": "HTTP Error 412: Precondition failed",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -642,7 +622,7 @@
    "d": "2026-11-17T12:38:48+00:00",
    "lang": "fr",
    "t": "Le hacker du leak GTA 6 plaide coupable à trois jours de la sortie",
-   "erreur": "Remote end closed connection without response",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -729,7 +709,7 @@
    "d": "2026-11-16T14:40:51+00:00",
    "lang": "en",
    "t": "Caught ‘GTA 6’ Leaker Pleads Guilty To Extorting Rockstar Games",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -764,11 +744,7 @@
    "d": "2026-11-14T18:39:56+00:00",
    "lang": "en",
    "t": "Cyberleek Shares More GTA 6 Footage Featuring Lucia Naked",
-   "u": "https://www.imdb.com/de/news/ni66063856/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -803,11 +779,7 @@
    "d": "2026-10-22T15:12:54+00:00",
    "lang": "en",
    "t": "Cyberleek Shares GTA 6 Leak Of Naked Lucia",
-   "u": "https://www.imdb.com/news/ni66062173/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
