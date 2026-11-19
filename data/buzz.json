@@ -1,8 +1,27 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-19T10:13:00+01:00",
+  "updated_at": "2026-11-19T12:13:03+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-compte-a-zero-gtavi-countdown-2026-11-19",
+      "title": "GTA 6 : le compte à rebours arrive à zéro, selon @GTAVI_Countdown",
+      "summary": "@GTAVI_Countdown publie à 07 h 03 UTC une réaction au lancement, à la fin du compte à rebours : le jeu est lancé. @TheGTABase publie la même information (« GTA 6 IS OUT ») à la même heure.",
+      "url": "https://x.com/GTAVI_Countdown/status/2123311158870569252",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "2026-11-19T07:03:24.000Z",
+      "checked_at": "2026-11-19T12:13:03+01:00",
+      "evidence": "Vues relevées le 19/11 dans data/x_alertes.json : 24 034 vues pour @GTAVI_Countdown à 07 h 03 UTC (1 202 j'aime, 102 reposts) ; 2 657 vues pour @TheGTABase, « GTA 6 IS OUT », à 07 h 03 UTC.",
+      "visual": "COMPTE À ZÉRO",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2123310526721605632/img/lmtVvBV9MivlwPeM.jpg",
+      "image_alt": "Publication de @GTAVI_Countdown au moment où le compte à rebours de GTA 6 atteint zéro",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Publication d'un compte fan, sans confirmation de Rockstar dans les sources relevées ici."
+    },
     {
       "id": "x-sortie-usa-canada-gtavi-countdown-2026-11-19",
       "title": "GTA 6 est sorti aux États-Unis et au Canada, selon @GTAVI_Countdown",
@@ -41,6 +60,25 @@
       "embed_type": "x",
       "cta": "Ouvrir la publication sur X",
       "post_text": "Publication d'un compte fan. Rockstar n'a pas confirmé le spectacle dans les sources relevées."
+    },
+    {
+      "id": "x-comparatif-gta5-gta6-gtavi-countdown-2026-11-19",
+      "title": "GTA 6 : le comparatif GTA 5 (2013) et GTA 6 (2026), selon @GTAVI_Countdown",
+      "summary": "@GTAVI_Countdown publie un montage « How it started vs How it's going » qui compare GTA 5 (2013) et GTA 6 (2026). Post de fan, sans information nouvelle sur le jeu.",
+      "url": "https://x.com/GTAVI_Countdown/status/2123241300728394131",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Création de fan",
+      "published_at": "2026-11-19T02:25:48.000Z",
+      "checked_at": "2026-11-19T12:13:03+01:00",
+      "evidence": "Vues relevées le 19/11 dans data/x_alertes.json : 35 835 vues pour @GTAVI_Countdown à 02 h 25 UTC (1 731 j'aime, 144 reposts).",
+      "visual": "COMPARATIF",
+      "image": "https://pbs.twimg.com/media/HXdEjxfXwAAfb61?format=jpg&name=small",
+      "image_alt": "Montage de @GTAVI_Countdown comparant GTA 5 (2013) et GTA 6 (2026)",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Montage d'un compte fan : il ne donne aucune information de jeu."
     },
     {
       "id": "x-prostitution-retiree-gtalphaintel-2026-11-19",
@@ -5303,6 +5341,11 @@
       "at": "2026-11-19T10:13:00+01:00",
       "label": "Passage Claude Haiku (Matière X, 19/11, relevé 08 h 16 UTC)",
       "summary": "3 sujets ajoutés depuis x_alertes.json : drones à Miami (@GTAVI_Countdown 27 439 vues, Rumeur), 8 artworks et fonds PS5 Welcome Hub (@GTAVI_Countdown 28 721 vues, Rumeur), sortie Royaume-Uni/Irlande (@GTAVI_Countdown 31 607 vues, @GTAlphaintel 14 752 vues, Rapporté). Écarté faute de place (3 par passage) : UFO 41 810 vues (@GTAlphaintel, un compte) ; final drive GTA 5 (66 990 vues, lien GTA 6 incertain) ; posts sous 20 000 vues sans reprise."
+    },
+    {
+      "at": "2026-11-19T12:13:03+01:00",
+      "label": "Passage Claude Haiku (Matière X, 19/11, relevé 11 h 00 UTC)",
+      "summary": "2 sujets ajoutés depuis x_alertes.json : compte à rebours à zéro (@GTAVI_Countdown 24 034 vues, Rapporté) ; comparatif GTA 5 / GTA 6 (@GTAVI_Countdown 35 835 vues, Création de fan). Écarté : sortie mondiale 06 h UTC (@GTAlphaintel 14 332 vues, un compte) ; bonus Ultimate Edition (11 707 vues, un compte) ; Ned Luke (8 757 vues, un compte) ; post Christian (16 155 vues, un compte)."
     }
   ],
   "coverage": {
