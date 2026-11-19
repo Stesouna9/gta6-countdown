@@ -1,29 +1,45 @@
 {
- "maj": "2026-11-19T05:32:18+00:00",
+ "maj": "2026-11-19T05:52:30+00:00",
  "articles": [
+  {
+   "gn": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9TYmlTM0pyNXdQRVFQR1dzXzdDZV9DS0ozalBvbU5vcnpDQnVhN3pVaTR4aWNjUG1CclZiQzlBTTVZekxJeXgwNzY3djl0TTNzYTlhUVBvcnFRZEhKQ2ZOSzhmTGJPTkpGUE9CVU9LU2xPZmNCVVNoaUZXelY?oc=5",
+   "s": "Mashable",
+   "d": "2026-11-19T05:35:19+00:00",
+   "lang": "en",
+   "t": "GTA 6 New Zealand time trick for Xbox, PS5: How to play hours early",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPb3MxTlQ5WHdyRk52QURQVkxlWXBrekpoZmY0a2pyZHhNSVhsY2dsS1VUeDlfWjNMOTZGbVpzNGIxWWRSVE9WbEtPcWh4N2pxZlpGdUFXeEtQVm1NVU1HNUdqRW1mb0pNT2FqYzZLWTNoNUlzbUtGT2ItTGc0akFJVzhfR0RTWWx2ZDdVdFNRbmlqUlpqNVd4bHlLZkxhSEhB?oc=5",
+   "s": "JeuxVideo.com",
+   "d": "2026-11-19T05:30:06+00:00",
+   "lang": "fr",
+   "t": "Test de GTA 6 : pourquoi 19/20 ? Notre explication détaillée",
+   "erreur": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPQkUzVnNZWmlRQXAtMDIzWU1JTXBZZ1l3TGFRemRsOV9uR2JKZzJ6czJwdV9tNVhMaFFqQURKZnkzclN2b1FPMnJ5VC1HV0V5SWJGZzctVE4xRHpud21kTm5hQjc0aVY4X0s2Mk1JRkNWZzAyRi1PbmQzZ1dnZnZqbTN3?oc=5",
+   "s": "Yahoo Sports",
+   "d": "2026-11-19T05:19:00+00:00",
+   "lang": "en",
+   "t": "Is Heat star Bam Adebayo going home to play GTA 6 after beating Bucks? ‘Absolutely’",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMimgJBVV95cUxOclc0X2VheW1YXzBBMjZzNkVzeUk2UWppZ096c0drOGZGZ2lGZG9oUE9GTkxJMEZZR1RaUEFPSGJSdDN1R0xHX1JZbDlIelJZNlRYdmFUVGNTdjYzeFNhN2xBME1VdXNIRWpmVzU5emhRa09ZQWFLSEVYUEZibGZEd2o5bXhDbTAtcmVJUHdmRE1zT0REblNtZmozbFktTHdBMWRUUDVoeFY2OFFFOEdONENMRjNaNnVaMURXSjI3Y2N1R1VwZHNrU0tKdVRwbGM4dUNWQTRXMHFCTmp3U1J1OWVzYXhDbzVGcEJmODJIZ2R3X0Vid3FDaDlTOXYyamJPdEhqOURVb05tTUh0MDFjVE1QUTY2MVNlenc?oc=5",
+   "s": "ladepeche.fr",
+   "d": "2026-11-19T05:17:00+00:00",
+   "lang": "fr",
+   "t": "DECRYPTAGE. GTA 6 : comment y jouer ? Est-il interdit aux mineurs ? Est-il si violent ? 14 questions pas si bêtes sur la sortie du jeu vidéo événement",
+   "erreur": "429 : passage suivant"
+  },
   {
    "gn": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNRjBySlhRUy16dWc0eFpnQnVJVjFoX3l2a1l4aXBMNTAtTkQzN1U2bm83UGJvcUhzdXc0VmI1WTEwd1didGlvQ0pnOXNSQk5iWlh0aDZEX2lEN2ZaQ1VZMUZLTlZZQ3RLa2lSb3RWNWtNRm9KNTA3Q3hYX2xmMkZtT3dRQndRV0xSenlWSjNQVW93VzVsTXdIbGIxN3hFZ0JFVDJaOTVGY2hUci1lYWRQYmxGUTV4LWZHdW91UTkzZFdmZHhQRU9QSEE3cGdZN3dKSFE?oc=5",
    "s": "RTL",
    "d": "2026-11-19T05:16:00+00:00",
    "lang": "fr",
    "t": "GTA 6 est-il le meilleur jeu vidéo de tous les temps ? Ce que révèlent les premiers tests",
-   "u": "https://www.rtl.fr/actu/sciences-tech/gta-6-est-il-le-meilleur-jeu-video-de-tous-les-temps-ce-que-revelent-les-premiers-tests-7900697746",
-   "img": "https://images.rtl.fr/~c/2000v2000/rtl/www/1881601-capture-d-ecran-gta-vi-rockstar-games.jpg",
-   "chapeau": "GTA VI arrive sur PS5 et Xbox Series avec un accueil critique historique. Salué pour son open world urbain, son écriture plus mature et son duo de héros, le nouveau blockbuster de Rockstar suscite aussi quelques critiques sur sa fluidité et son réalisme parfois exigeant.",
-   "txt": "",
-   "pub": "2026-11-19T06:16:00+01:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5vWmp6X0UtMGhZTTh0S3JfaGhBNVgzTHNVLXRGSks2VEY5cEZfcG1WTHZvd2ZBNUZBY0ZpUGxtUjU1YmV3bHNGVjhDVEQtZUR0eWJ3Yzln?oc=5",
-   "s": "BBC",
-   "d": "2026-11-19T05:09:35+00:00",
-   "lang": "en",
-   "t": "Grand Theft Auto 6 gets UK release after 13-year wait for gamers around the world  - follow live",
-   "u": "https://www.bbc.com/news/live/c60rkg21dl22t",
-   "img": "https://static.files.bbci.co.uk/core/website/assets/static/news/images/metadata/poster-1024x576.5f404a8b8b.png",
-   "chapeau": "The game has already been released across Australia, New Zealand, and Asia, with many critics sharing positive reviews.",
-   "txt": "A fan there, Tamjid, describes GTA as a game that's served as a \"bookmark\" of various milestones in his life.\n\"The last iteration was with me for a little under half my life,\" says the 27-year-old.\n\"It was there as an escape and a way to decompress during university exams, something to look forward to after a long day at school, and a constant through so many different stages of growing up,\" he says.\nGTA 5 feels \"inseparable from a version of myself that doesn’t really exist anymore\", he says.\nMuch has changed since its release – he's taken on new responsibilities and perspectives on life.\nYet now, with the release of GTA 6, Tamjid says he is feeling the same excitement he experienced as a teen. He's also made plans to gather with friends from his youth to play the game together.\n\"I think that’s what makes GTA 6 so special to me. It’s not just the release of another video game.\n\"It’s a chance to revisit a feeling I haven’t experienced in over a decade, while also marking just how much life has happened in between,\" he says.",
-   "pub": ""
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9qTmZNeVJfYkRPSU1kb2RnbXAyaURsanZlb0hpZUhqc2l1dk54Y1VRaU9DNjhUVTNhZVU1c2JYQjItQUNwT0RBVWJJZ0NWVGdNTHJHMWViR2FDMjR3MzJRem5HeDQ3T1I2SndfbG5kdG9sc2hUQ2tGaHB6OA?oc=5",
@@ -48,18 +64,6 @@
    "chapeau": "GTA 6 is out now in the US and Canada. See when it unlocked, how much space you’ll need on PS5, and how PS5 game sharing works.",
    "txt": "X Share on Facebook (Opens in new window) Facebook Share using Native tools Share Copied to clipboard Add Us On Google After 13 years of waiting, GTA 6 is finally out in the US and Canada on PS5 and Xbox Series X|S. Here’s what you need to know before jumping into Leonida, including when the game unlocked, how long it takes to download, and how PS5 game sharing works.\nGTA 6 unlocked in California at 9 PM PT on Wednesday, November 18 and is playable right now. If you bought and preloaded the digital version on PS5 or Xbox Series X|S, you can jump in as soon as the game unlocks and any pending updates finish installing.\nThe West Coast release fell on Wednesday night because the US digital unlock was set for midnight Eastern on Thursday, November 19.\nGTA 6 unlocked at 11 PM CT on Wednesday, November 18 for US players in the Central time zone . So if you live in Chicago, Dallas, or anywhere else on Central Time, you can start playing right now an hour before midnight.\nHere’s how the US digital release broke down across the four time zones in the contiguous US:\nThe GTA 6 PS5 download size is around 210 GB . if you’re downloading Grand Theft Auto VI . According to Rockstar’s website the preload can require up to 212 GB of storage space depending on your device. If you’re close to that limit, you can see how much room you have by going to Settings > Storage on your PS5.\nThe latest reported GTA 6 launch patch on PS5 is version 01.002.001, which is around 602.5 MB . It started rolling out on November 16, so your PS5 may have already installed it if you preloaded the game and have automatic updates enabled.\nIf you want to check manually, highlight GTA 6 on your PS5 home screen, press the Options button, and select Check for Update .\nA 212 GB GTA 6 download takes about 4 hours and 43 minutes at 100 Mbps , assuming your console can sustain that speed the whole time. At 300 Mbps, the same download takes around 1 hour and 34 minutes.\nHere’s how long you can expect the full download to take at a few common speeds:\nThese are download estimates. Your PS5 may take longer if speeds fluctuate or it still needs to install an update. If you already preloaded the full game, check whether you have a patch waiting before starting a new download.\nYes, you can game share GTA 6 on PS5. PlayStation 5 supports sharing eligible digital purchases through Console Sharing and Offline Play. To try it with GTA 6 , sign in with the account that bought the game on the PS5 you want to share it on.\nGo to Settings > Users and Accounts > Other > Console Sharing and Offline Play , then select Enable . Download the game through the account that owns it, then switch back to the profile you want to play on. Sony allows each account to enable sharing on one PS5 at a time.\nGTA 6 has a 99 out of 100 on Metacritic, making it the highest rated game of all time. In our GTA 6 review , I called Grand Theft Auto VI the best game Rockstar has made to date. Leonida is the most impressive open world I’ve played in, but Jason and Lucia’s relationship is what makes the story stick with you.\nAfter 13 years, it was worth the wait. However, that is just my subjective opinion. I recommend checking out Metacritic’s full list of reviews, and deciding if the game sounds like something you would enjoy or not.\nX Share on Facebook (Opens in new window) Facebook Share using Native tools Share Copied to clipboard More From VICE Screenshot: Rockstar Games How to Unlock GTA 6 Ultimate Edition Content and When Each Bonus Becomes Available 8 hours ago By Brent Koepp",
    "pub": "2026-11-19T05:00:00+00:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcGc0V0lWZE9zb0xDMkE2UENTYWQzdmUtMUVUWTdBT0s3WEtuRzhxS1pNZTFrUGdTLVVHVHZOTHg0aGVfS0ZsUlpDRjN3cXFPZDdfc1BJN05zMXBVR01STTVpM0JlVDZjeWhzMzBwVF9EcUlqMEItd3Z2WjJQQkJTbURIWHQ1cGZPLXlHOFQ4NmRCNVpta1R1aUhZeHZJRHBURFQyaUJzX05iYkc0bDZWSmRkSQ?oc=5",
-   "s": "Bleacher Report",
-   "d": "2026-11-19T04:54:05+00:00",
-   "lang": "en",
-   "t": "Conor McGregor Posts GTA 6 Countdown Video Ahead of Game's Hyped Release",
-   "u": "https://bleacherreport.com/articles/25535198-conor-mcgregor-posts-gta-6-countdown-video-ahead-games-hyped-release",
-   "img": "https://gsp-image-cdn.wmsports.io/cms/prod/bleacher-report/getty_images/2026-11/2285941604_large_cropped.jpg?w=1120&h=630",
-   "chapeau": "Apparently Conor McGregor is a GTA fan.",
-   "txt": "00:13 Featured Video Wild Angle of UFC KO 💥 Conor McGregor Posts GTA 6 Countdown Video Ahead of Game's Hyped Release Timothy Rapp Nov 19, 2026 Apparently Conor McGregor is a GTA fan.\nThe MMA fighter is anxiously awaiting the Thursday release of Grand Theft Auto VI just as much as the rest of us:\nTOP NEWS GTA x College Football Stat 😭 Bleacher Report 10h Ranking Video Game GOATs 🎮 Bleacher Report 12h Buffer Almost Slapped Hokit 😳 Bleacher Report 2d According to Connor Murray of Forbes , GTA VI sold over 17 million units in preorders alone and had already generated $1.65 billion in revenue. It is arguably the most anticipated video game release in history.",
-   "pub": ""
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxPSEZjSGJkV2ZFSzduRXJ2QnE0amhPTkUyVzNEMV9QYW9lMTNUZFAyVS12WlY5MDVnSXNFTGZxSGpOZzhTWGVtaUhpMGxfejZpS0s3VUl2VHNGOFlNNG1uNDJMWFBEQ1ZGQTVoeDFMRFdwRzYxN2ROaHJlVXNlbjhqdEQ2dTJqbXo1U1VCb2dRekVwdlZKbFdqYVh0WC1CbUotMF9seU01cFMzczNHaGE3MGZBSDVpeE1yQmp5Uk5KbWYyamJvcXAzUWFMWjRJangyN2dyM050TTFJVFNwbWtmdmozSEJkRkVONzhxQmgwUlc4MEN5LTdMOXhxVlEzWWFscFlneGs0NFAxZk9iLXM2c1FWbWdGbmJ0M2dBQXg0NHpOd1NOV1d4VDVTMDJ3UUdNbWxxYWpxV1BWS3I5ZUpVcDM4azBPaTNmS0FHTzFlNUsxLWZxd0c0eVpBRmZOT1ZWa2o5OXFR?oc=5",
@@ -91,7 +95,7 @@
    "d": "2026-11-19T04:34:41+00:00",
    "lang": "en",
    "t": "GTA 6 Banks: Locations, Values, and Security Levels",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPMFJrTHZlUlVHbjBoNnNPTjYzMTBqeGwxSlliSWRKVGZtaDQtOVNpbHRENDBrQVBic2tUSUJIWFB3UHNITzVncE9GS1hUcHFKMEFEUHNkSGlUaWl1STQ2WmhCZGVzdjRmUG1tR1kxMmotbklwbDVUelVTclh6bDg2Y2hCN3FseE5qSjl1VkNZTnFsdWQzTG9GQnFxal81OEV6NlFJUGJmWGFVSGpDdjI3ZVEwenJoQ3owZE5IY1ZtNnY1ZlhUV0l0bGxOOHlSWTZuc08wZk01Y0xoVHU4TExwQzRoNXBfRXVVQ3JncDhxZUlvZw?oc=5",
@@ -171,7 +175,7 @@
    "d": "2026-11-19T04:00:09+00:00",
    "lang": "en",
    "t": "I've Been Playing GTA 6 for Weeks. These 12 Tips Will Help You Become the Perfect Criminal",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWUJLUVJPVkVrcU5nZzk5MWxrQWtKUTVCaWFEVVRSaFRKVkIyZXBJS083RTFLcE9aTlRFNUlrTXAta0dyTUFKT2ZkVzJ2MGVEX3VNTDhIOWVhSnVhUTVPQ09QSkliWFlxSFh5R2FZRGxlTVVFVDR0OWxEQjdkT3g2SXAzTkV4RUY4VHo2MDFpQzVsN285c1A1dVZTNA?oc=5",
@@ -191,7 +195,7 @@
    "d": "2026-11-19T03:01:29+00:00",
    "lang": "fr",
    "t": "La superproduction \"GTA VI\" enfin entre les mains de la plupart des joueurs de la planète",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZzY5bEk2VkZtWUgwaDhRUEJjdjNpSU1zRVZKRzhqXzJLTmk3ZmNwUlhPV1pCclFvNUN0Z2tTem4xcldiOWliQ29kbTNwbzJhV1FYMGFyODZ3U1FvaDA3WkdvMWZlN0RGQXFiMlF0N3gwYkNKSVBpSVJOcHVnU05HUnNDc3R2dl9FdFBDeXZMaFB1TVVVb01JaTlzbzBZRDdhYjNmTm81b3FxODJmdnN2bXBITWs0YnQtQmNhZWg1Qi1RWGpUMV9V?oc=5",
@@ -259,11 +263,7 @@
    "d": "2026-11-18T23:08:30+00:00",
    "lang": "fr",
    "t": "GTA 6 : police pas nulle, Pokédex et couchers de soleil... tout ce qu’on a vu en 3 heures de jeu",
-   "u": "https://www.leparisien.fr/video/programme/combo/gta-6-police-pas-nulle-pokedex-et-couchers-de-soleil-tout-ce-quon-a-vu-en-3-heures-de-jeu-19-11-2026-BHXRU5RBHNCABNODOVQIHLFK7U.php",
-   "img": "https://www.leparisien.fr/resizer/25abKfuf5fJojzdJxxisXqCTLwY=/1600x900/cloudfront-eu-central-1.images.arcpublishing.com/leparisien/V2BIET7CFRFQ7JQLFMKC5A7Z2A.jpg",
-   "chapeau": "Vous êtes au courant, GTA 6 est enfin sorti. Mais vous ne savez peut-être pas exactement à quoi vous attendre. On a joué trois heures à GTA",
-   "txt": "",
-   "pub": "2026-11-19T00:08:30+01:00"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPcUFFSDdsdzM5NEJlLVJCc2ZOaHZXRUp1cWdJMmxyTXRBOTlyVGhpelJaSWVxaHdQUmxRU19XX08zcGJ3Q25zYWJLbGxKY1I4WXZiazVJOUwxcnh3QlZ1N2dKSE9BdEt1VGtqcGZ2dS1oVjhpRHZLRFJGRVhudi0tWEY4c3ZwY3ZaZ0kwaE5oODZKSDdZRlVQQQ?oc=5",
@@ -283,19 +283,7 @@
    "d": "2026-11-18T23:01:08+00:00",
    "lang": "fr",
    "t": "Codes de triche GTA 6 : la liste complète des cheat codes pour PS5",
-   "erreur": "HTTP Error 403: Forbidden"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQbGZMSGhScWVseURRd1laenlSRjVHTXBSM2xFaHJBRllSSk9oUlZHaVRFMHA4ajJPQVBpaE9RSnFuVzlZNk1iaTZrSVNWOXE1dXJxa2puZ3BkeHM2T25SZU42eVY2OC1ieFNyUlhMb3NQdFNmcExRZko1SXF6bmw3QTV5MzBoRVl2OGhxY2tsLUdUdWJMVE9DUVRNTGItUHUyNTBCLWpPanRxUWJHRzJmWGdBam5xbjZ1VndTSUxQcS1vM29lbUVuRGhYMzBaeS16S3RJZkRJSThWRFU1MFhBMndCMG5ZWjFTdXdQbHM3d2pSWlZaZUE?oc=5",
-   "s": "Le Parisien",
-   "d": "2026-11-18T22:49:45+00:00",
-   "lang": "fr",
-   "t": "« GTA 6 » pulvérise déjà les records de visionnage sur la plate-forme de streaming Twitch",
-   "u": "https://www.leparisien.fr/high-tech/gta-6-pulverise-deja-les-records-de-visionnage-sur-la-plate-forme-de-streaming-twitch-18-11-2026-J46QQL2RTFFVFPG6VSWX3NJWZM.php",
-   "img": "https://www.leparisien.fr/resizer/KmUbwUKFepUAjtpAMYE0lA2qeho=/1600x900/cloudfront-eu-central-1.images.arcpublishing.com/leparisien/TVEEINA6MJBD7IBJ2XUX7YPWHU.jpg",
-   "chapeau": "Le dernier opus de la saga de Rockstar Games ne sera disponible que ce jeudi en France. Il est cependant déjà jouable en Nouvelle-Zélande et",
-   "txt": "Le dernier opus de la saga de Rockstar Games ne sera disponible que ce jeudi en France. Il est cependant déjà jouable en Nouvelle-Zélande et les créateurs de contenus n’hésitent pas à en partager les premières images.\nAprès 13 ans d’attente , plus que quelques minutes à patienter… « GTA 6 » sort officiellement ce jeudi 19 novembre. En France, il sera même jouable dès minuit pour ceux qui ont pris le temps de le télécharger en amont ( et de mettre leur PS5 à jour ). Mais certains n’ont pas eu une telle patience pour en découvrir les premières images.\nEn raison du décalage, le nouvel opus de la saga née en Écosse en 1997 était disponible dès midi en Nouvelle-Zélande. Et nombreux sont les streamers à avoir diffusé en ligne leur découverte du jeu, amené à marquer l’histoire de jeux vidéo .",
-   "pub": "2026-11-18T23:49:45+01:00"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbjZjSjdqdWJ1LXJIbndBelVtbDBkUzZtazdLazZPS0hUNUxtanJBSU1SLUNVcnhrUWFwSFM0V1RUektQWkZ6bVZuMk00SG5WYnctOWtLN3NZdE1RbUx4VDRnTTRlOTFNbHNvcDdpY1c3dE9meUZXWHdZZHlLTkxqcGpQaDB3LWNoMGdxSi1CRWswS2lrbXc?oc=5",
@@ -333,18 +321,6 @@
    "chapeau": "Après 13 ans d'attente, le jeu vidéo GTA VI va sortir en France ce mercredi 18 novembre à minuit. Selon les estimations, 15 millions d'exemplaires ont déjà été précommandés. Certains fans ont pris des jours de congé pour pouvoir y jouer.",
    "txt": "2:30 GTA VI : le jeu de tous les records Publié le 18/11/2026 22:30 Mis à jour le 18/11/2026 23:41 voir dans l'app (Nouvelle fenêtre) voir plus tard Pour sauvegarder cet article, connectez-vous ou créez un compte franceinfo\nArticle rédigé par France 2 - J. Debraux, A. Jacquet, M. Ghorbel, J. Delage, C. Hanssens - Édité par l'agence 6Medias France Télévisions Après 13 ans d'attente, le jeu vidéo GTA VI va sortir en France ce mercredi 18 novembre à minuit. Selon les estimations, 15 millions d'exemplaires ont déjà été précommandés. Certains fans ont pris des jours de congé pour pouvoir y jouer.\nCe texte correspond à une partie de la retranscription du reportage ci-dessus. Cliquez sur la vidéo pour la regarder dans son intégralité.\nUn crépuscule et des images aériennes troublantes de réalisme. Un budget de plus d'un milliard d'euros sans équivalent dans l'histoire. Et des scènes d'action à faire pâlir certains films hollywoodiens. Bienvenue dans GTA VI , le jeu vidéo le plus attendu de tous les temps. Déjà accessible en Australie ou encore au Japon, le jeu n'est officiellement disponible qu'à minuit en France, mercredi 18 novembre.\nMais un passionné a configuré sa console sur le bon fuseau horaire pour pouvoir prendre les manettes en avant-première. \"On sent que c'est un OVNI. Je pense qu'il y aura un avant et un après ce jeu. C'est vraiment assez proche de ce qu'on peut avoir au cinéma. Sauf que là, on est vraiment acteur. On joue et donc ça change tout\" , explique Victor, spécialiste jeux vidéo chez goldengeek.net.\nDans GTA VI, vous incarnez un couple de braqueurs sulfureux qui défient la police. Le jeu est d'ailleurs interdit aux moins de 18 ans. \"C'est un jeu violent. On est des bandits, on cambriole, on fait des casses, on a la police qui nous cherche, etc. Et ça fait partie du jeu, de l'expérience. Et c'est aussi ça que les gens viennent chercher\" , poursuit Victor.\nDéveloppés pendant huit ans par 4 500 personnes à travers le monde, ses graphismes sont saisissants. Difficile par exemple de différencier les images virtuelles issues du jeu, de celles bien réelles de Miami. Le jeu coûte entre 80 et 100 euros. 15 millions d'exemplaires ont déjà été précommandés avant même sa sortie.\nDans une entreprise, la demande de RTT habituellement modeste mi-novembre a explosé pour les deux prochains jours. La société a même créé un congé spécial, GTA. \"On a 75 collaborateurs qui ont posé des congés le 19 ou le 20 novembre. Chez nous, ça fait à peu près 10 % de l'effectif en France\" , indique Romane Bontemps, une responsable RH.\nMarie Briand avait coché la date dans son agenda. Elle a pris pour l'occasion 10 jours d'affilée de RTT : \"Chacun a sa passion. Je pense qu'il y a des gens qui peuvent prendre des congés pour préparer un marathon ou autre chose. Et je considère que c'est pareil pour les jeux vidéo.\" Sur les réseaux sociaux, certains internautes prétextent ironiquement un virus GTA pour rester chez eux jeudi 19 novembre.\nUn jeu vidéo dont les ventes pourraient rapporter près de 3 milliards d'euros d'ici la fin de l'année. Des milliers de joueurs français attendent désormais de pouvoir faire le grand saut dans un jeu qui aura coûté deux fois plus cher que la plus grosse production cinématographique de l'histoire.\nVous pouvez désormais privilégier l'affichage des articles de franceinfo dans les résultats de recherche Google. Comment ça marche ?",
    "pub": "2026-11-18T22:30:20+01:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQazk2NkZ1R0hzakJxVG5MaUpBeU1FeDdzenZ2ekxoT1M4NWk1YjhFUFJvdFd3ZDNIR2RqTV9WTUFDaHY3aWpzZnFmNHNzd1B2bUZwQUhBVXFQYkpWLThBc1pDdGctSE5xa2QwWFVKcVk4R0lOQ0xrWG8tN1VOTk41a3k5c215cm9maUZnUEpud0ZwZFRCTFJ3OVR4OW9mamh3RzA5NkNmcXlpMDU5OENURW0xUFlVQWNFUHc?oc=5",
-   "s": "Clubic",
-   "d": "2026-11-18T20:58:00+00:00",
-   "lang": "fr",
-   "t": "GTA 6 sort à minuit : après la panne du PSN ce soir, préparez vite votre PS5",
-   "u": "https://www.clubic.com/actualite-639940-gta-6-sort-a-minuit-apres-la-panne-du-psn-ce-soir-preparez-vite-votre-ps5.html",
-   "img": "https://pic.clubic.com/v1/images/2476888/raw",
-   "chapeau": "Des joueurs ont eu du mal à se connecter mercredi soir. Les services de Sony sont repassés au vert vers 20h30, à temps pour les derniers préparatifs sur PS5.",
-   "txt": "Des joueurs ont eu du mal à se connecter mercredi soir. Les services de Sony sont repassés au vert vers 20h30, à temps pour les derniers préparatifs sur PS5.\nGTA 6 sera jouable à partir de minuit ce soir. ©Nicolas Guyot La soirée a commencé par des messages d’erreur sur PS5. Ce mercredi 18 novembre, les signalements visant le PlayStation Network (PSN) ont grimpé dès 18h30 sur Downdetector France , avec un pic autour de 19h. Les problèmes remontés par les joueurs concernaient surtout l’accès aux serveurs et la connexion à leur compte.\nBenQ BenQ iScreenBar : la barre lumineuse qui s’accorde avec l’iMac Des lignes en harmonie avec celles de l’ordinateur d’Apple, une conception rigoureuse, des matériaux sélectionnés, rien n’a été laissé au hasard, tout comme le service qu’elle rend une fois allumée !\nSur sa page d’état, Sony a signalé des difficultés à lancer des jeux , des applications et certaines fonctions en ligne. Vers 20h30, tous les services étaient de nouveau indiqués comme opérationnels. La cause de la panne reste inconnue. Côté calendrier, Rockstar prévoit toujours de débloquer GTA 6 à minuit, dans la nuit du mercredi 18 au jeudi 19 novembre en France métropolitaine, sur PS5 et Xbox Series X|S.\nÀ découvrir GTA VI décroche 99/100 sur Metacritic et rejoint enfin le seul jeu qui régnait depuis 28 ans 18 novembre 2026 à 13h55 News Si la connexion coince de nouveau, consultez la page d’état du PSN. Même si GTA 6 est déjà préchargé, vérifiez qu’il est à jour. Un deuxième patch, la version 01.002.001, est déployé depuis le 16 novembre et pèse environ 600 Mo sur PS5. Sélectionnez le jeu sur l’écran d’accueil, appuyez sur la touche Options de la manette, puis choisissez Vérifier si des mises à jour sont disponibles .\nLe support PlayStation précise également que la mise à jour système 26.07-14.23.00 doit être installée pour jouer à GTA 6. Si elle ne se lance pas automatiquement, vous la trouverez dans Paramètres > Système > Logiciel système > Paramètres et mise à jour du logiciel système .",
-   "pub": "2026-11-18T21:58:00+01:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPOWVfOFhJRS03a0dVTFM3R1lNQ21SZGFEYmlQdjJLTVZDNVdGV1dmU25KWVpMVnNDdno0c0pseElwRjJ6OWVWZ0hiazZKLVZGUEViVlh1TFE0N3dpY05aRm45aXNKZU1HN0p0YnBfSWJmUHNpXzMtTFBoeU81QUpDSWxCQzhleERWNERVSkZ5T3RQQ3NV?oc=5",
@@ -482,7 +458,7 @@
    "d": "2026-11-18T07:56:58+00:00",
    "lang": "fr",
    "t": "GTA 6 : une campagne Twitch Drops aurait fuité avant sa sortie",
-   "erreur": "HTTP Error 412: Precondition failed",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -551,6 +527,15 @@
    "cyberleek": true
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNcS1jTWFMNnNjY2NiUXZtaU9QWUVjOEp1NXN6QzZybWQ3bHhvcnh6ZVUyc0N3NU9OMk5HUTE5YU82Y3dablRoc09ybXhSNW9XaXREUzY3S09LRk1SVmhBT3lSMnFXQjl2WU5Ka3R5UVZUTEluWUJWZVJBVUlwb25yaGNrZEl5Rk9ocGNZ?oc=5",
+   "s": "shattered.io",
+   "d": "2026-11-18T00:45:39+00:00",
+   "lang": "en",
+   "t": "GTA 6 Build Leak: 3 Online Strings, Nov. 19 Launch [2026]",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNd3JoQThYUHppTktJS3pJYjRTZUtZWV9KaVVEMkZmSUtUN2pjcFRfZlFuLVcwZmZYbWx6X3lkRkJfN0tTUjUyTTZDdEZtQnM0UV9fTzJxME5tWW5WeVlvWUZPTG53Zk0xMWxNb2FpSkpTanozbUNnaFJjQTdlR2QxdS1WZHJIQnVoU01kU3FsX1NETC00RGFHMk9FTW1yWTFINmI3dWRuVnhqOEVqR0NIVU1sQlp4akY2TnhtUUVxYmdLdUl2d0JF?oc=5",
    "s": "Notebookcheck",
    "d": "2026-11-17T23:33:00+00:00",
@@ -574,19 +559,6 @@
    "chapeau": "Arion Kurtaj, the Rockstar Games hacker responsible for the GTA 6 leak, pleaded guilty to multiple offenses. His case raises important questions about the Lapsus$ hacking group, criminal responsibility, UK computer misuse legislation, and international cooperation in cross-border cybercrime investigations.",
    "txt": "The Rockstar Games hacker responsible for leaking unreleased footage of Grand Theft Auto VI has pleaded guilty to a series of cybercrime offenses in the United Kingdom. On November 16, 2026, Arion Kurtaj, a 21-year-old British hacker associated with the Lapsus$ cybercrime group, admitted six charges arising from attacks involving major technology and telecommunications companies. His guilty pleas marked a significant development in a prosecution that had previously been complicated by questions concerning his fitness to stand trial.\nKurtaj became internationally known in September 2022 after obtaining and publishing approximately 90 development videos from Grand Theft Auto VI , one of the video game industry's most commercially significant projects. The incident exposed confidential material belonging to Rockstar Games and generated substantial attention because of the scale of the disclosure and the hacker's subsequent threat to release the game's source code.\nThe Rockstar incident was part of a wider pattern of cyberattacks involving companies such as Uber, Revolut, and BT/EE. Although the affected businesses operated internationally, the proceedings against Kurtaj took place in England, raising questions about how states investigate and prosecute cybercrime when offenders, victims, computer systems, and digital evidence are located in different jurisdictions.\nThe case illustrates a fundamental feature of modern cybercrime law: an attack may cross national borders almost instantaneously, but criminal jurisdiction and investigative powers remain subject to domestic legislation and international legal constraints. Understanding the guilty pleas requires examining the earlier British proceedings, the Computer Misuse Act 1990, the potential application of American federal law, international cooperation under the Budapest Convention, and the legal conditions governing extradition.\nThe Crown Prosecution Service confirmed on November 16, 2026, that Arion Kurtaj had pleaded guilty at Woolwich Crown Court to six offenses. The prosecution concerned unauthorized access to computer systems, interference with digital infrastructure, fraud, and a separate offense involving possession of a mobile phone in prison.\nThe announcement established criminal admissions that were distinct from the findings reached during earlier proceedings in 2023. It also identified the principal companies affected by Kurtaj's activities and described the digital evidence used by investigators to connect his online identities with particular attacks.\nThe guilty pleas do not mean that every allegation associated with Lapsus$ was separately admitted by Kurtaj. The legal significance of the proceedings depends on the specific offenses identified by prosecutors, rather than the broader public reputation of the hacking group or every incident attributed to its members.\nAccording to the Crown Prosecution Service, Kurtaj admitted three offenses under Section 3(1) of the Computer Misuse Act 1990, concerning unauthorized acts intended to impair, or carried out recklessly as to impairing, the operation of computers. He also pleaded guilty to one fraud offense under Section 1 of the Fraud Act 2006 and one offense under Section 2(1)(b) of the Computer Misuse Act involving unauthorized access with intent to commit or facilitate further offenses.\nThe sixth guilty plea concerned possession of an unauthorized mobile phone in prison in March 2026. Prosecutors stated that Kurtaj used the device to send a mocking message to the British emergency telephone number, 999. This offense was separate from the corporate cyberattacks, although it formed part of the criminal proceedings concluded by the guilty pleas.\nThe prosecution described the hacking activity as involving several major companies, but its public announcement did not assign every individual charge to a particular victim or disclose the complete factual basis for each count. Consequently, it would be inaccurate to suggest that Kurtaj pleaded guilty to a distinct offense for every company named in the announcement.\nAs of November 17, 2026, sentencing remained pending, with the hearing scheduled for November 23. The guilty pleas established criminal responsibility for the admitted offenses, but the sentence and any judicial findings made specifically for sentencing had not yet been determined.\nThe attack on Rockstar Games occurred in September 2022, when Kurtaj obtained confidential development material relating to ",
    "pub": "2026-11-17T18:15:34.190Z",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOU3hvOWhoeTBvWVFaeVZrZWc5MmV4Sm12MVBhSjd6T2MtM0RjTVBlR3p3MmQ3OW00cGFtdXcxeFd1QUxDVXFjU1lFRkV6NjZBMUo4R2hQOEhNdmJuWHVzZGxPcWJZQjVxbVVpUDNQZFpKYVNPdC1IUl9hLU13bUFFS1liTGdnTkcwZUVFMXU0ZmZZY0h3ZDZzZ1FSRjlrQjNZVDUtcFhGOXV2dGRLV1diV0praUN3SVFQb2VZ?oc=5",
-   "s": "DLCompare.com",
-   "d": "2026-11-17T17:57:26+00:00",
-   "lang": "en",
-   "t": "GTA 6 Soundtrack Tracklist Leak: 34 Songs, Lana Del Rey and Dua Lipa and more",
-   "u": "https://www.dlcompare.com/gaming-news/gta-6-soundtrack-tracklist-leak-34-songs-lana-del-rey-and-dua-lipa-and-more-91286",
-   "img": "https://cdn.dlcompare.com/others_jpg/upload/news/image/en-gta-6-soundtrack-tracklist-le-a8f689da-image-a8f689c7.jpg.webp",
-   "chapeau": "GTA 6's leaked 34-song album tracklist features Lana Del Rey and Dua Lipa. Rolling Stone sources backed the leak, but Rockstar has not unveiled the full list.",
-   "txt": "Gaming News Current Deals New Game Releases Free Games Hardware News TOP Sponsored GTA 6 Soundtrack Tracklist Leak: 34 Songs, Lana De ... Dark mode GTA 6 Tracklist Leak: Lana Del Rey, Dua Lipa and More GAMING NEWS Cleonidas - Nov 17, 2026, 6:57 PM - 8 comments Sometimes, all it takes is a familiar melody to bring back memories of a city, an adventure, or a particular moment in Grand Theft Auto. From the neon-soaked streets of GTA: Vice City to the unmistakable hip-hop atmosphere of GTA: San Andreas , music has always been woven into the franchise's identity, often staying with players long after the credits roll. Now, with GTA 6 bringing us back to Vice City, a leaked 34-song album tracklist has given fans another reason to get excited, especially with Lana Del Rey, Dua Lipa, and several other major artists reportedly joining the lineup.\nCreated in partnership with Atlantic Records, Grand Theft Auto VI: The Album is an official 34-track collection of original music, announced for release alongside the game on November 19, 2026. Rockstar had already unveiled 10 songs, but most of the lineup and the complete running order remained a mystery.\nThat secrecy was unexpectedly broken on November 14, when images of the back cover of a reportedly early-sold vinyl copy began circulating online, revealing all 34 tracks. Sources speaking to Rolling Stone subsequently corroborated the list, although Rockstar itself has yet to make the complete tracklist official.\nGiven how deeply music is embedded in Grand Theft Auto's DNA, the attention surrounding the leak is hardly surprising. And while 34 songs make for a substantial album, the real attraction lies in the remarkable mix of artists, genres, and generations brought together for the project.\nThe leaked vinyl artwork reportedly reveals the album's complete running order, divided across four sides:\nThe leaked running order has been cross-referenced by several major music and gaming publications, including NME, PC Gamer, and Rolling Stone. However, minor differences in certain song titles and featured-artist credits remain between reports, so the final details will need to be clarified by Rockstar or Atlantic Records.\nThe most interesting thing about this lineup isn't simply the star power. It's how many different musical worlds seem to meet in one place. Lana Del Rey's nostalgic, cinematic approach to pop offers a striking contrast to Dua Lipa's infectious dance-pop energy. Artists such as Zara Larsson, JENNIE, and Camila Cabello bring further contemporary pop influences, while Travis Scott, Playboi Carti, and Cardi B represent the album's hip-hop presence. Latin music is also well represented, with names including Rauw Alejandro and Kali Uchis.\nJustice might be one of the most intriguing additions. The French electronic duo appear on two tracks, collaborating with artists as diverse as Michael McDonald, Tame Impala, SZA, and King Gizzard & The Lizard Wizard. It's an unusual combination of musical backgrounds that makes the album feel like something more ambitious than a collection of celebrity appearances.\nFor me, that's where the real excitement begins. Grand Theft Auto has always had a talent for bringing seemingly unrelated sounds together and making them feel perfectly at home within the same virtual world. We haven't heard the full album yet, so judging its overall quality would be premature. Still, this lineup already hints at a vibrant musical landscape that could fit beautifully with the energy and larger-than-life personality of Vice City.\nOf course, the leaked 34-song album is only one part of GTA 6 's broader musical experience. Rockstar has developed several distinct components, each with its own role:\nWhile the radio stations provide a musical backdrop for exploring Leonida at your own pace, the Original Score is designed to follow the action and shape the atmosphere of the story. Justice's involvement in both the companion album and the score makes that relationship even more interesting, offering another connection between the different sides of GTA 6 's music.\nIt's hard to imagine Grand Theft Auto without its signature radio stations. Sometimes, finding the right station during a late-night drive is enough to turn an ordinary trip into a memorable moment. For GTA 6 , Rockstar has introduced six stations, each bringing its own musical personality to the streets of Leonida.\nCocoteo FM embraces contemporary Latin sounds, with Bad Bunny and RaiNao behind the microphone",
-   "pub": "",
    "cyberleek": true
   },
   {
@@ -634,7 +606,7 @@
    "d": "2026-11-17T12:38:48+00:00",
    "lang": "fr",
    "t": "Le hacker du leak GTA 6 plaide coupable à trois jours de la sortie",
-   "erreur": "Remote end closed connection without response",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -721,7 +693,7 @@
    "d": "2026-11-16T14:40:51+00:00",
    "lang": "en",
    "t": "Caught ‘GTA 6’ Leaker Pleads Guilty To Extorting Rockstar Games",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -756,11 +728,7 @@
    "d": "2026-11-14T18:39:56+00:00",
    "lang": "en",
    "t": "Cyberleek Shares More GTA 6 Footage Featuring Lucia Naked",
-   "u": "https://www.imdb.com/de/news/ni66063856/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -795,11 +763,7 @@
    "d": "2026-10-22T15:12:54+00:00",
    "lang": "en",
    "t": "Cyberleek Shares GTA 6 Leak Of Naked Lucia",
-   "u": "https://www.imdb.com/news/ni66062173/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
