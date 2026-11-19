@@ -1,8 +1,27 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-19T18:13:09+01:00",
+  "updated_at": "2026-11-19T20:12:55+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-mandy-actrice-lexie-shoaibi-2026-11-19",
+      "title": "GTA 6 : l'actrice de Mandy, Lexie Shoaibi, confirmée dans le rôle, selon @GTAVI_Countdown",
+      "summary": "Lexie Shoaibi est confirmée dans le rôle de Mandy, selon @GTAVI_Countdown. Dans une nouvelle vidéo, elle explique qu'elle fait la voix de son personnage et la capture de mouvement : « elle est très amusante ».",
+      "url": "https://x.com/GTAVI_Countdown/status/2123462552696893464",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "2026-11-19T17:04:59.000Z",
+      "checked_at": "2026-11-19T20:12:55+01:00",
+      "evidence": "Vues relevées le 19/11 dans data/x_alertes.json : 43 146 vues pour le post de @GTAVI_Countdown (17 h 04 UTC, 2 104 j'aime) ; une vidéo de l'actrice reprise par le même compte à 21 763 vues (17 h 48 UTC). Un seul compte relève l'information à ce stade.",
+      "visual": "ACTRICE MANDY",
+      "image": "https://pbs.twimg.com/media/HXgNyydWcAAEPlD?format=jpg&name=360x360",
+      "image_alt": "Publication de @GTAVI_Countdown annonçant la confirmation de l'actrice de Mandy, Lexie Shoaibi",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "« Mandy's actress has been officially confirmed (Lexie Shoaibi). » Vidéo de l'actrice : « I do her voiceover and I do her motion capture, and she's a lot of fun. »"
+    },
     {
       "id": "x-alligator-lucia-gtasix-2026-11-19",
       "title": "GTA 6 : Lucia avalée par un alligator après un braquage, selon @gtasix_",
@@ -5494,6 +5513,11 @@
       "at": "2026-11-19T18:13:09+01:00",
       "label": "Passage Claude Haiku (Matière X, 19/11 18 h, x_alertes maj 17 h 10 UTC)",
       "summary": "3 sujets ajoutés depuis x_alertes.json : fresque de Brooklyn avec les acteurs (@GTAVI_Countdown 176 626 vues, un compte) ; version japonaise moins nue (@GTAlphaintel 25 370 vues, un compte, rumeur) ; Lucia avalée par un alligator (@gtasix_ 24 423 vues, un compte, rumeur). Écartés : bienvenue à Leonida (@RockstarGames 53 382 vues, pas d image locale ni de source de presse) ; profils des acteurs partagés sur Instagram (même sujet que l entrée du 15 h 04) ; Mandy (5 027 vues), Manny Perez et Bobby Moynihan (7 141 vues), Dylan Rourke (14 369 vues), carte complète (11 017 vues), chemise PlayStation sponsorisée (10 751 vues, #ad) : sous le seuil."
+    },
+    {
+      "at": "2026-11-19T20:12:55+01:00",
+      "label": "Passage Claude Haiku (Matière X, 19/11 soir)",
+      "summary": "1 sujet ajouté depuis x_alertes.json : confirmation de l'actrice de Mandy, Lexie Shoaibi (@GTAVI_Countdown 43 146 vues, un compte, Rapporté). Écartés : Rockstar « Thank you! Leonida awaits » (35 258 vues, simple remerciement sans information, pas d'image) ; Manny Perez et Bobby Moynihan (15 603 vues) ; Dylan Rourke par GTAlphaintel (18 408 vues, sujet déjà publié le 18/11) ; carte complète (14 489 vues) ; maillot PlayStation (14 118 vues, #ad) ; sous le seuil."
     }
   ],
   "coverage": {
