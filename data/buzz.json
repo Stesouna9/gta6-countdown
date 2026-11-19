@@ -1,8 +1,65 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-19T14:12:49+01:00",
+  "updated_at": "2026-11-19T16:13:15+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-acteurs-photos-profil-jason-lucia-2026-11-19",
+      "title": "GTA 6 : les acteurs de Jason et Lucia changent leur photo de profil, selon @GTAVI_Countdown",
+      "summary": "Dylan Rourke (Jason) et Manni L. Perez (Lucia) ont remplacé leur photo de profil par leur personnage, selon @gtasix_ (14 h 53 UTC) puis @GTAVI_Countdown (15 h 04 UTC), qui cite un message de Dylan Rourke sur sa collaboration avec les équipes du jeu.",
+      "url": "https://x.com/GTAVI_Countdown/status/2123432271470362779",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "2026-11-19T15:04:39.000Z",
+      "checked_at": "2026-11-19T16:13:15+01:00",
+      "evidence": "Vues relevées le 19/11 dans data/x_alertes.json : 5 521 vues pour @gtasix_ (14 h 53 UTC, 432 j'aime) ; 2 754 vues pour @GTAVI_Countdown (15 h 04 UTC). Repris par deux comptes.",
+      "visual": "PROFILS ACTEURS",
+      "image": "https://pbs.twimg.com/media/HXfyPPjXQAAg0lW?format=jpg&name=small",
+      "image_alt": "Publication de @GTAVI_Countdown annonçant que les acteurs de Jason et Lucia ont changé leur photo de profil",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Captures de comptes des acteurs relevées sur X, sans confirmation de Rockstar dans les sources relevées ici."
+    },
+    {
+      "id": "x-credits-gta6-rockstar-2026-11-19",
+      "title": "GTA 6 : la page des crédits du jeu est en ligne sur le site de Rockstar, selon @GTAVI_Countdown",
+      "summary": "La page des crédits complets de GTA 6 est en ligne sur rockstargames.com/VI/credits, selon @GTAVI_Countdown (14 h 27 UTC). @gtasix_ relaie la section des acteurs à 14 h 34 UTC, @gta6hubfr le lien à 14 h 36 UTC.",
+      "url": "https://x.com/GTAVI_Countdown/status/2123422825273037130",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "2026-11-19T14:27:07.000Z",
+      "checked_at": "2026-11-19T16:13:15+01:00",
+      "evidence": "Vues relevées le 19/11 dans data/x_alertes.json : 13 858 vues pour @GTAVI_Countdown (14 h 27 UTC, 373 j'aime) ; 10 476 vues pour @gtasix_ (14 h 34 UTC) ; 227 vues pour @gta6hubfr (14 h 36 UTC). Repris par trois comptes.",
+      "visual": "CREDITS JEU",
+      "image": "https://pbs.twimg.com/media/HXfpvHvW8AAHMjc?format=jpg&name=small",
+      "image_alt": "Publication de @GTAVI_Countdown annonçant la page des crédits de GTA 6 sur le site de Rockstar",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Lien vers la page officielle relevé sur X ; la page elle-même n'a pas été ouverte depuis le navigateur pour cette veille."
+    },
+    {
+      "id": "x-carte-officielle-leonida-2026-11-19",
+      "title": "GTA 6 : Rockstar publie la carte officielle de Leonida, selon @GTAVI_Countdown",
+      "summary": "Rockstar a publié la carte officielle de Leonida : téléchargeable gratuitement (imprimable), et disponible en poster recto-verso dans sa boutique pour 1 $ seul ou offert avec un achat, selon @GTAVI_Countdown (14 h 09 UTC, source rockstargames.com/VI/media). @gtasix_ la relaie à la même minute ; @gta6hubfr annonce la mise en ligne à 14 h 18 UTC.",
+      "url": "https://x.com/GTAVI_Countdown/status/2123418369936249342",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "2026-11-19T14:09:25.000Z",
+      "checked_at": "2026-11-19T16:13:15+01:00",
+      "evidence": "Vues relevées le 19/11 dans data/x_alertes.json : 84 137 vues pour @GTAVI_Countdown (14 h 09 UTC, 1 991 j'aime, 584 marque-pages) ; 62 436 vues pour @gtasix_ (14 h 09 UTC). Repris par deux comptes ; 956 vues pour @gta6hubfr (14 h 18 UTC).",
+      "visual": "CARTE LEONIDA",
+      "image": "https://pbs.twimg.com/media/HXfldcwWQAAo5dA?format=jpg&name=small",
+      "image_alt": "Publication de @GTAVI_Countdown annonçant la carte officielle de Leonida dans GTA 6",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Annonce relevée sur X ; le téléchargement chez Rockstar n'a pas été vérifié depuis le navigateur pour cette veille."
+    },
     {
       "id": "x-acteurs-lucia-jason-panneau-gtasix-2026-11-19",
       "title": "GTA 6 : les actrices et acteurs de Lucia et Jason posent devant un panneau, selon @gtasix_",
@@ -5370,6 +5427,11 @@
       "at": "2026-11-19T14:12:49+01:00",
       "label": "Passage Claude Haiku (Matière X, 19/11, x_alertes maj 13 h 03 UTC)",
       "summary": "1 sujet ajouté depuis x_alertes.json : acteurs de Lucia et Jason devant le panneau GTA 6 (@gtasix_ 9 816 vues, repris par @GTAVI_Countdown, 4 368 vues, et doublure cascade 773 vues). Écartés (un seul compte ou sous 20 000 vues) : Mandy (@GTAlphaintel 18 078), bonus Ultimate Edition (15 046), sortie mondiale 06 h UTC (16 831), Ned Luke (13 762), IShowSpeed (8 071), 100 % complete (9 592)."
+    },
+    {
+      "at": "2026-11-19T16:13:15+01:00",
+      "label": "Passage Claude Haiku (Matière X, 19/11, x_alertes maj 15 h 07 UTC)",
+      "summary": "3 sujets ajoutés depuis x_alertes.json : profils des acteurs Jason et Lucia (@GTAVI_Countdown 2 754 vues, @gtasix_ 5 521 vues, deux comptes) ; crédits en ligne (@GTAVI_Countdown 13 858 vues, @gtasix_ 10 476 vues, trois comptes) ; carte officielle de Leonida (@GTAVI_Countdown 84 137 vues, @gtasix_ 62 436 vues). Écarté : bienvenue à Leonida (@RockstarGames 4 811 vues, un compte) ; version japonaise moins nue (@GTAlphaintel 3 462 vues, un compte) ; mural de Brooklyn (@GTAVI_Countdown 8 798 vues, un compte)."
     }
   ],
   "coverage": {
