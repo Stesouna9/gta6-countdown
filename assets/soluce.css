@@ -243,3 +243,10 @@ body[data-sl] .sl-sec+.sl-sec{padding-top:6px}
 .ct-reg-lab b{font:800 13px/1.1 system-ui,sans-serif;color:#fff;text-transform:uppercase;letter-spacing:.04em;text-shadow:0 1px 4px #000,0 0 8px #000}
 .ct-reg-lab small{margin-top:3px;font:700 11px/1 system-ui,sans-serif;color:#16111d;background:#ffd23f;border-radius:20px;padding:3px 8px}
 .ct-schema-cap{margin:10px 2px 0;font-size:14px;color:rgba(242,232,213,.8)}
+/* 19/11 15 h : carte officielle Rockstar (portrait) */
+.ct-zone.ct-seule #carte.ct-off{height:min(82vh,900px);background:#29a3c9}
+@media (max-width:900px){.ct-zone.ct-seule #carte.ct-off{height:min(72vh,640px)}}
+.ct-regs{flex-wrap:wrap;gap:8px;margin-top:10px}
+.ct-regs-t{font-size:13px;color:rgba(242,232,213,.75);width:100%}
+.ct-regs button{border:1px solid rgba(255,210,63,.5);background:rgba(255,210,63,.08);color:#f2e8d5;border-radius:20px;padding:7px 12px;font-weight:700;cursor:pointer}
+.ct-regs button small{background:#ffd23f;color:#16111d;border-radius:10px;padding:1px 6px;margin-left:4px}

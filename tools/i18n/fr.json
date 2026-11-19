@@ -875,7 +875,7 @@
  "sl_nouveau": "Nouveau",
  "sl_maj": "Mis à jour chaque jour",
  "sl_fil": "Soluce GTA 6",
- "sl_avert_carte": "Aucun emplacement approximatif : le jeu est sorti, mais Rockstar n'a pas encore publié sa carte officielle : elle servira de fond dès sa mise en ligne, et chaque lieu n'y est placé que s'il est vérifié par deux captures de joueurs. En attendant, la liste ci-dessous donne tous les lieux connus, avec leur source.",
+ "sl_avert_carte": "Carte officielle de Leonida publiée par Rockstar le 19 novembre : zoomez pour lire chaque ville et chaque route. Aucun emplacement approximatif : un lieu n'y est placé que s'il est vérifié par deux captures de joueurs. En attendant, la liste ci-dessous donne tous les lieux connus, avec leur source.",
  "sl_couches": "Couches",
  "sl_tout": "Tout",
  "sl_rien": "Aucune",
@@ -1274,5 +1274,8 @@
  "trn_pixel_art": "Pixel art",
  "trn_hellscape": "Paysage infernal",
  "sl_schema_cap": "Touchez une région pour voir ses lieux. Schéma des régions : les emplacements précis s'afficheront sur la carte officielle de Rockstar dès sa publication.",
- "sl_lieux": "lieux"
+ "sl_lieux": "lieux",
+ "sl_regs_t": "Lieux par région :",
+ "sl_off_cap": "Carte officielle de Leonida publiée par Rockstar le 19 novembre. Zoomez avec deux doigts ou les boutons + et −. Les emplacements précis y seront ajoutés dès qu'ils sont vérifiés.",
+ "sl_off_plein": "Ouvrir en plein écran"
 }

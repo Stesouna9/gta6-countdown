@@ -1,6 +1,6 @@
 {
  "$comment": "Points de la carte interactive (carte.html) et des pages collectibles. Repère : schéma GTAVIFRANCE 1000x1000 (x vers la droite, y vers le bas), PAS la carte officielle. Un point n'entre ici que vérifié : 2 sources indépendantes concordantes ou 1 source officielle (statut 'confirme'), sinon 'a_confirmer' avec ses sources. x/y null = point listé sans position. Jamais d'invention. Quand Rockstar publie la carte officielle : changer 'repere' et recaler x/y.",
- "maj": "2026-11-18",
+ "maj": "2026-11-19",
  "repere": "schema-v1",
  "fond": "assets/img/carte/leonida-fond.svg",
  "modele_point": {
@@ -1985,5 +1985,8 @@
    "fr": "Rodgers Ranch & Shooting Range"
   }
  ],
- "fond_officiel": null
+ "fond_officiel": "assets/img/carte/leonida-officielle.webp",
+ "fond_officiel_l": 2200,
+ "fond_officiel_h": 3012,
+ "fond_officiel_source": "https://www.rockstargames.com/VI/media/artwork-wallpapers (Leonida Map & Cover Art Poster, publiée le 19/11/2026)"
 }

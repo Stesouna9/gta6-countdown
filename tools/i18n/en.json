@@ -875,7 +875,7 @@
  "sl_nouveau": "New",
  "sl_maj": "Updated daily",
  "sl_fil": "GTA 6 walkthrough",
- "sl_avert_carte": "No approximate locations: the game is out, but Rockstar hasn't published its official map yet: it becomes the background as soon as it's online, and a place is only pinned once two player captures verify it. Meanwhile, the list below gives every known location with its source.",
+ "sl_avert_carte": "Rockstar's official Leonida map, published on November 19: zoom in to read every town and road. No approximate locations: a place is only pinned once two player captures verify it. Meanwhile, the list below gives every known location with its source.",
  "sl_couches": "Layers",
  "sl_tout": "All",
  "sl_rien": "None",
@@ -1274,5 +1274,8 @@
  "trn_pixel_art": "Pixel Art",
  "trn_hellscape": "Hellscape",
  "sl_schema_cap": "Tap a region to see its places. Region diagram: exact locations will appear on Rockstar's official map as soon as it is published.",
- "sl_lieux": "places"
+ "sl_lieux": "places",
+ "sl_regs_t": "Places by region:",
+ "sl_off_cap": "Official Leonida map published by Rockstar on November 19. Pinch or use the + and − buttons to zoom. Exact locations will be added as soon as they are verified.",
+ "sl_off_plein": "Open full screen"
 }

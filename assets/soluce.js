@@ -93,7 +93,37 @@
         var pa = document.querySelector(".ct-panneau"); if (pa) pa.hidden = true;
         /* 19/11 Gabriel : « la carte n'apparaît pas sur mobile, simple et agréable » : en attendant le fond officiel,
            schéma des 6 régions cliquable (aucun point inventé) ; toucher une région filtre la liste des lieux */
-        el.innerHTML = ""; el.classList.add("ct-schema");
+        el.innerHTML = "";
+        /* 19/11 15 h : carte officielle Rockstar (« Leonida Map & Cover Art Poster », rockstargames.com/VI/media) : zoomable, sans point inventé */
+        if (D.fond_officiel) {
+          el.classList.add("ct-schema", "ct-off");
+          var OW = D.fond_officiel_l || 2200, OH = D.fond_officiel_h || 3012, OB = [[0, 0], [OH, OW]];
+          var mo = L.map(el, { crs: L.CRS.Simple, minZoom: -4, maxZoom: 1, zoomSnap: 0.25, scrollWheelZoom: false, dragging: !L.Browser.mobile, tap: true });
+          L.imageOverlay(R + D.fond_officiel, OB, { alt: "Leonida" }).addTo(mo);
+          function cadre() { mo.invalidateSize(); mo.fitBounds(OB); mo.setMinZoom(mo.getZoom()); }
+          cadre(); mo.setMaxBounds([[-OH * .05, -OW * .05], [OH * 1.05, OW * 1.05]]);
+          mo.on("resize", cadre); setTimeout(cadre, 200);
+          if (L.Browser.mobile) mo.on("zoomend", function () { if (mo.getZoom() > mo.getMinZoom() + .1) mo.dragging.enable(); else mo.dragging.disable(); });
+          mo.attributionControl.setPrefix(false).addAttribution(esc(tr("sl_attr_off", "Carte officielle Rockstar Games")));
+          var rb = document.createElement("div"); rb.className = "sl-barre ct-regs";
+          var nbo = {}; D.points.forEach(function (p) { if (p.region) nbo[p.region] = (nbo[p.region] || 0) + 1; });
+          function boutons() {
+            rb.innerHTML = '<span class="ct-regs-t">' + esc(tr("sl_regs_t", "Lieux par région :")) + "</span>" + D.regions.map(function (g) { return '<button type="button" data-r="' + g.id + '">' + esc(g.nom) + " <small>" + (nbo[g.id] || 0) + "</small></button>"; }).join("");
+          }
+          boutons();
+          rb.addEventListener("click", function (ev) {
+            var b = ev.target.closest && ev.target.closest("button[data-r]"); if (!b) return;
+            var fR = document.getElementById("lf-reg"), fT = document.getElementById("lf-type"), fS = document.getElementById("lf-stat");
+            if (fR) { if (fT) fT.value = ""; if (fS) fS.value = ""; fR.value = b.getAttribute("data-r"); fR.dispatchEvent(new Event("change")); }
+            var li = document.getElementById("ct-liste"); if (li) li.scrollIntoView({ behavior: "smooth", block: "start" });
+          });
+          var capo = document.createElement("p"); capo.className = "ct-schema-cap";
+          function capto() { capo.innerHTML = esc(tr("sl_off_cap", "Carte officielle de Leonida publiée par Rockstar le 19 novembre. Zoomez avec deux doigts ou les boutons + et −. Les emplacements précis y seront ajoutés dès qu'ils sont vérifiés.")) + ' <a href="' + R + D.fond_officiel + '" target="_blank" rel="noopener">' + esc(tr("sl_off_plein", "Ouvrir en plein écran")) + "</a>"; }
+          capto(); el.parentNode.insertBefore(capo, el.nextSibling); el.parentNode.insertBefore(rb, capo.nextSibling);
+          document.addEventListener("langchange", function () { capto(); boutons(); });
+          return;
+        }
+        el.classList.add("ct-schema");
         var Hs = 1000, ms = L.map(el, { crs: L.CRS.Simple, minZoom: -2, maxZoom: 1.5, zoomSnap: 0.25, attributionControl: false, scrollWheelZoom: false, tap: true });
         var Bs = [[0, 0], [Hs, Hs]];
         L.imageOverlay(R + D.fond, Bs, { alt: "Leonida" }).addTo(ms);

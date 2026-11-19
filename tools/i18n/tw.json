@@ -1271,8 +1271,11 @@
  "trn_faded_glory": "褪色的榮耀",
  "trn_pixel_art": "像素藝術",
  "trn_hellscape": "地獄景觀",
- "sl_avert_carte": "沒有大概地點：遊戲已經出來了，但Rockstar還沒有發布其官方地圖：一上線就成為背景，只有兩個玩家捕獲驗證後才會固定一個地點。同時，下面的列表給出了每個已知位置及其來源。",
  "sl_attente_t": "Rockstar發布官方地圖後即時更新真實地圖",
  "sl_schema_cap": "點擊一個區域即可查看其位置。區域圖：具體位置將在Rockstar官方地圖發布後立即顯示。",
- "sl_lieux": "地方"
+ "sl_lieux": "地方",
+ "sl_avert_carte": "Rockstar的官方Leonida地圖，於 11 月 19 日發布：放大查看每個城鎮和道路。沒有大致位置：只有當兩個玩家捕獲並驗證該位置後，才會固定該位置。同時，下面的列表給出了每個已知位置及其來源。",
+ "sl_regs_t": "按地區劃分的地點：",
+ "sl_off_cap": "Rockstar於 11 月 19 日發布的Leonida官方地圖。捏合或使用 + 和 − 按鈕進行縮放。確切位置將在核實後立即添加。",
+ "sl_off_plein": "開啟全螢幕"
 }
