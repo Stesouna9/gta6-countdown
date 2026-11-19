@@ -383,9 +383,12 @@ window.SITE = {
   // 10/11 Gabriel : 7 jours durant, 1re visite de l'accueil = rejeu du passage à zéro ; les feux partent à la bascule (index.html)
   try { SITE.rejeu = !apercu && t >= 0 && t < 7 * 86400000 && !!document.getElementById("compteur") && !localStorage.getItem("jourj-vu"); } catch (e) {}
   if (!apercu && (t < 0 || SITE.rejeu)) { window.feux = function () { window.feux = null; feuxLance(0); }; return; }
+  // 19/11 Gabriel : « une seule fois le feu d'artifice, pas besoin de le remettre à chaque fois »
+  try { if (!apercu && localStorage.getItem("feux-vu")) return; } catch (e) {}
   feuxLance(t);
 })();
 function feuxLance(t) {
+  try { localStorage.setItem("feux-vu", "1"); } catch (e) {}
   var apercu = /[?&]feu=1/.test(location.search);
   var semaine = apercu || t < 7 * 86400000, doux = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
   var c = document.createElement("canvas"), x = c.getContext("2d"), P = [], dpr = Math.min(2, window.devicePixelRatio || 1), W, H;
