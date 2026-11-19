@@ -92,6 +92,8 @@ UI = {  # clé : (fr, en)
  "sl_avert_carte": ("Carte officielle de Leonida publiée par Rockstar le 19 novembre : zoomez pour lire chaque ville et chaque route. Aucun emplacement approximatif : un lieu n'y est placé que s'il est vérifié par deux captures de joueurs. En attendant, la liste ci-dessous donne tous les lieux connus, avec leur source.", "Rockstar's official Leonida map, published on November 19: zoom in to read every town and road. No approximate locations: a place is only pinned once two player captures verify it. Meanwhile, the list below gives every known location with its source."),
  "sl_schema_cap": ("Touchez une région pour voir ses lieux. Schéma des régions : les emplacements précis s'afficheront sur la carte officielle de Rockstar dès sa publication.", "Tap a region to see its places. Region diagram: exact locations will appear on Rockstar's official map as soon as it is published."),
  "sl_lieux": ("lieux", "places"),
+ "sl_off_rech": ("Trouver un lieu sur la carte (ex. Vice Beach, Key Lento)", "Find a place on the map (e.g. Vice Beach, Key Lento)"),
+ "sl_off_case": ("Case", "Grid square"),
  "sl_regs_t": ("Lieux par région :", "Places by region:"),
  "sl_off_cap": ("Carte officielle de Leonida publiée par Rockstar le 19 novembre. Zoomez avec deux doigts ou les boutons + et −. Les emplacements précis y seront ajoutés dès qu'ils sont vérifiés.", "Official Leonida map published by Rockstar on November 19. Pinch or use the + and − buttons to zoom. Exact locations will be added as soon as they are verified."),
  "sl_off_plein": ("Ouvrir en plein écran", "Open full screen"),

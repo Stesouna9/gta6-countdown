@@ -1988,5 +1988,530 @@
  "fond_officiel": "assets/img/carte/leonida-officielle.webp",
  "fond_officiel_l": 2200,
  "fond_officiel_h": 3012,
- "fond_officiel_source": "https://www.rockstargames.com/VI/media/artwork-wallpapers (Leonida Map & Cover Art Poster, publiée le 19/11/2026)"
+ "fond_officiel_source": "https://www.rockstargames.com/VI/media/artwork-wallpapers (Leonida Map & Cover Art Poster, publiée le 19/11/2026)",
+ "lieux_officiels": [
+  {
+   "n": "Bonanza",
+   "x": 480,
+   "y": 193,
+   "case": "B5"
+  },
+  {
+   "n": "Hyde Island",
+   "x": 575,
+   "y": 157,
+   "case": "B6"
+  },
+  {
+   "n": "Saint Attaway Islands",
+   "x": 528,
+   "y": 180,
+   "case": "B5"
+  },
+  {
+   "n": "Frampton Islands",
+   "x": 643,
+   "y": 200,
+   "case": "B6"
+  },
+  {
+   "n": "Featherstone Islands",
+   "x": 380,
+   "y": 213,
+   "case": "B4"
+  },
+  {
+   "n": "Moreau",
+   "x": 515,
+   "y": 226,
+   "case": "C5"
+  },
+  {
+   "n": "East Lummox County",
+   "x": 637,
+   "y": 240,
+   "case": "C6"
+  },
+  {
+   "n": "Grayson",
+   "x": 380,
+   "y": 298,
+   "case": "C4"
+  },
+  {
+   "n": "Lummox County",
+   "x": 497,
+   "y": 275,
+   "case": "C5"
+  },
+  {
+   "n": "Mount Kalaga National Park",
+   "x": 498,
+   "y": 310,
+   "case": "C5"
+  },
+  {
+   "n": "Millport",
+   "x": 659,
+   "y": 314,
+   "case": "C7"
+  },
+  {
+   "n": "Zephyr Islands",
+   "x": 249,
+   "y": 348,
+   "case": "D3"
+  },
+  {
+   "n": "South West Lummox County",
+   "x": 383,
+   "y": 330,
+   "case": "D4"
+  },
+  {
+   "n": "North Leonard County",
+   "x": 598,
+   "y": 346,
+   "case": "D6"
+  },
+  {
+   "n": "Little Hardin Island",
+   "x": 775,
+   "y": 340,
+   "case": "D8"
+  },
+  {
+   "n": "Richard Barebone State Park",
+   "x": 715,
+   "y": 365,
+   "case": "D7"
+  },
+  {
+   "n": "North Kelly County",
+   "x": 497,
+   "y": 386,
+   "case": "D5"
+  },
+  {
+   "n": "Manifest Canyon",
+   "x": 389,
+   "y": 402,
+   "case": "D4"
+  },
+  {
+   "n": "Draper Island",
+   "x": 246,
+   "y": 410,
+   "case": "D3"
+  },
+  {
+   "n": "Lake Leonida",
+   "x": 605,
+   "y": 430,
+   "case": "E6"
+  },
+  {
+   "n": "Waning Sands",
+   "x": 740,
+   "y": 442,
+   "case": "E7"
+  },
+  {
+   "n": "Vinewood Beach",
+   "x": 790,
+   "y": 458,
+   "case": "E8"
+  },
+  {
+   "n": "Port Gellhorn",
+   "x": 302,
+   "y": 490,
+   "case": "E3"
+  },
+  {
+   "n": "Frogswater",
+   "x": 470,
+   "y": 470,
+   "case": "E5"
+  },
+  {
+   "n": "Ambrosia",
+   "x": 555,
+   "y": 489,
+   "case": "E6"
+  },
+  {
+   "n": "Leonard County",
+   "x": 700,
+   "y": 492,
+   "case": "E7"
+  },
+  {
+   "n": "Wild Hog Point",
+   "x": 245,
+   "y": 535,
+   "case": "F3"
+  },
+  {
+   "n": "Kelly County",
+   "x": 424,
+   "y": 542,
+   "case": "F4"
+  },
+  {
+   "n": "Belville",
+   "x": 657,
+   "y": 541,
+   "case": "F7"
+  },
+  {
+   "n": "Sandbars",
+   "x": 141,
+   "y": 582,
+   "case": "F2"
+  },
+  {
+   "n": "Emerald Springs",
+   "x": 460,
+   "y": 578,
+   "case": "F5"
+  },
+  {
+   "n": "Crude Islands",
+   "x": 189,
+   "y": 600,
+   "case": "F2"
+  },
+  {
+   "n": "Gellhorn",
+   "x": 350,
+   "y": 612,
+   "case": "F4"
+  },
+  {
+   "n": "South Leonard County",
+   "x": 613,
+   "y": 595,
+   "case": "F6"
+  },
+  {
+   "n": "Leaf Links",
+   "x": 773,
+   "y": 571,
+   "case": "F8"
+  },
+  {
+   "n": "Washington Beach",
+   "x": 865,
+   "y": 607,
+   "case": "F9"
+  },
+  {
+   "n": "Stockyard",
+   "x": 720,
+   "y": 614,
+   "case": "F7"
+  },
+  {
+   "n": "Buckskin Swamp",
+   "x": 486,
+   "y": 648,
+   "case": "G5"
+  },
+  {
+   "n": "La Perle",
+   "x": 680,
+   "y": 636,
+   "case": "G7"
+  },
+  {
+   "n": "Bayside",
+   "x": 720,
+   "y": 646,
+   "case": "G7"
+  },
+  {
+   "n": "Rialto Islands",
+   "x": 766,
+   "y": 640,
+   "case": "G8"
+  },
+  {
+   "n": "Casanova Island",
+   "x": 795,
+   "y": 646,
+   "case": "G8"
+  },
+  {
+   "n": "Catalan Island",
+   "x": 745,
+   "y": 660,
+   "case": "G7"
+  },
+  {
+   "n": "Vespucci Island",
+   "x": 775,
+   "y": 666,
+   "case": "G8"
+  },
+  {
+   "n": "Vice Beach",
+   "x": 852,
+   "y": 670,
+   "case": "G8"
+  },
+  {
+   "n": "Rockridge",
+   "x": 652,
+   "y": 684,
+   "case": "G6"
+  },
+  {
+   "n": "Crosstown",
+   "x": 700,
+   "y": 680,
+   "case": "G7"
+  },
+  {
+   "n": "Starfish Island",
+   "x": 785,
+   "y": 700,
+   "case": "G8"
+  },
+  {
+   "n": "Capri",
+   "x": 288,
+   "y": 720,
+   "case": "G3"
+  },
+  {
+   "n": "South Kelly County",
+   "x": 395,
+   "y": 690,
+   "case": "G4"
+  },
+  {
+   "n": "Vice City",
+   "x": 670,
+   "y": 712,
+   "case": "G7"
+  },
+  {
+   "n": "Little Cuba",
+   "x": 660,
+   "y": 729,
+   "case": "G7"
+  },
+  {
+   "n": "Downtown",
+   "x": 700,
+   "y": 731,
+   "case": "G7"
+  },
+  {
+   "n": "Ocean Beach",
+   "x": 860,
+   "y": 715,
+   "case": "G8"
+  },
+  {
+   "n": "Waymans Island",
+   "x": 785,
+   "y": 729,
+   "case": "G8"
+  },
+  {
+   "n": "Belpoint",
+   "x": 175,
+   "y": 750,
+   "case": "H2"
+  },
+  {
+   "n": "West Vice-Dale County",
+   "x": 465,
+   "y": 735,
+   "case": "G5"
+  },
+  {
+   "n": "VCIA (aéroport)",
+   "x": 565,
+   "y": 780,
+   "case": "H6"
+  },
+  {
+   "n": "Port Vice City",
+   "x": 806,
+   "y": 762,
+   "case": "H8"
+  },
+  {
+   "n": "Vice-Dale County",
+   "x": 722,
+   "y": 786,
+   "case": "H7"
+  },
+  {
+   "n": "Breakwater Quarry",
+   "x": 430,
+   "y": 798,
+   "case": "H4"
+  },
+  {
+   "n": "Tequesta Retreat",
+   "x": 728,
+   "y": 808,
+   "case": "H7"
+  },
+  {
+   "n": "Tequesta",
+   "x": 700,
+   "y": 815,
+   "case": "H7"
+  },
+  {
+   "n": "Dalton Island",
+   "x": 865,
+   "y": 814,
+   "case": "H9"
+  },
+  {
+   "n": "Big Pine",
+   "x": 393,
+   "y": 853,
+   "case": "I4"
+  },
+  {
+   "n": "Bluegrass",
+   "x": 562,
+   "y": 866,
+   "case": "I6"
+  },
+  {
+   "n": "Peacock Bay",
+   "x": 665,
+   "y": 875,
+   "case": "I7"
+  },
+  {
+   "n": "Gloriana Key",
+   "x": 797,
+   "y": 857,
+   "case": "I8"
+  },
+  {
+   "n": "Catalan Key",
+   "x": 728,
+   "y": 880,
+   "case": "I7"
+  },
+  {
+   "n": "Bobcat Key",
+   "x": 328,
+   "y": 880,
+   "case": "I3"
+  },
+  {
+   "n": "Southside",
+   "x": 625,
+   "y": 890,
+   "case": "I6"
+  },
+  {
+   "n": "Grassrivers",
+   "x": 451,
+   "y": 908,
+   "case": "I5"
+  },
+  {
+   "n": "South Vice-Dale",
+   "x": 618,
+   "y": 930,
+   "case": "I6"
+  },
+  {
+   "n": "Hamlet",
+   "x": 562,
+   "y": 938,
+   "case": "I6"
+  },
+  {
+   "n": "Watson Bay",
+   "x": 432,
+   "y": 963,
+   "case": "J4"
+  },
+  {
+   "n": "Mariana County",
+   "x": 412,
+   "y": 1000,
+   "case": "J4"
+  },
+  {
+   "n": "Pelican Valley",
+   "x": 522,
+   "y": 1004,
+   "case": "J5"
+  },
+  {
+   "n": "Corsair Key",
+   "x": 676,
+   "y": 1012,
+   "case": "J7"
+  },
+  {
+   "n": "Shoeless Keys",
+   "x": 604,
+   "y": 1038,
+   "case": "J6"
+  },
+  {
+   "n": "Riquezas Keys",
+   "x": 218,
+   "y": 1137,
+   "case": "K2"
+  },
+  {
+   "n": "Key Lento",
+   "x": 568,
+   "y": 1141,
+   "case": "K6"
+  },
+  {
+   "n": "Permit Keys",
+   "x": 371,
+   "y": 1156,
+   "case": "L4"
+  },
+  {
+   "n": "Goose Key",
+   "x": 278,
+   "y": 1158,
+   "case": "L3"
+  },
+  {
+   "n": "Southwind",
+   "x": 328,
+   "y": 1170,
+   "case": "L3"
+  },
+  {
+   "n": "Maroon Key",
+   "x": 451,
+   "y": 1180,
+   "case": "L5"
+  },
+  {
+   "n": "Mile Zero Air Station",
+   "x": 278,
+   "y": 1192,
+   "case": "L3"
+  },
+  {
+   "n": "Abismo Key",
+   "x": 451,
+   "y": 1222,
+   "case": "L5"
+  }
+ ],
+ "lieux_officiels_repere": "image officielle ramenée à 1000 px de large (1000x1369) ; position = étiquette sur la carte Rockstar"
 }

@@ -250,3 +250,10 @@ body[data-sl] .sl-sec+.sl-sec{padding-top:6px}
 .ct-regs-t{font-size:13px;color:rgba(242,232,213,.75);width:100%}
 .ct-regs button{border:1px solid rgba(255,210,63,.5);background:rgba(255,210,63,.08);color:#f2e8d5;border-radius:20px;padding:7px 12px;font-weight:700;cursor:pointer}
 .ct-regs button small{background:#ffd23f;color:#16111d;border-radius:10px;padding:1px 6px;margin-left:4px}
+.ct-rech{position:relative;margin-bottom:10px}
+.ct-rech input{width:100%;box-sizing:border-box;padding:12px 14px;border-radius:12px;border:1px solid rgba(255,210,63,.5);background:#16111d;color:#f2e8d5;font-size:16px}
+.ct-rech ul{position:absolute;left:0;right:0;top:100%;z-index:1001;list-style:none;margin:4px 0 0;padding:4px;background:#1d1726;border:1px solid rgba(242,232,213,.2);border-radius:12px;max-height:320px;overflow:auto;box-shadow:0 10px 30px rgba(0,0,0,.5)}
+.ct-rech li button{width:100%;text-align:left;padding:10px 12px;background:none;border:0;color:#f2e8d5;font-size:15px;cursor:pointer;border-radius:8px;display:flex;justify-content:space-between}
+.ct-rech li button:hover,.ct-rech li button:focus{background:rgba(255,46,136,.18)}
+.ct-rech li button small{color:#ffd23f;font-weight:700}
+.ct-rech li.vide{padding:10px 12px;color:rgba(242,232,213,.7)}

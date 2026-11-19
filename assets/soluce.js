@@ -105,6 +105,37 @@
           mo.on("resize", cadre); setTimeout(cadre, 200);
           if (L.Browser.mobile) mo.on("zoomend", function () { if (mo.getZoom() > mo.getMinZoom() + .1) mo.dragging.enable(); else mo.dragging.disable(); });
           mo.attributionControl.setPrefix(false).addAttribution(esc(tr("sl_attr_off", "Carte officielle Rockstar Games")));
+          /* recherche d'un lieu écrit sur la carte officielle : zoome dessus et donne la case du quadrillage */
+          var LO = D.lieux_officiels || [], kx = OW / 1000, pin = null;
+          function norm(t) { return (t || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, ""); }
+          var rz = document.createElement("div"); rz.className = "ct-rech";
+          rz.innerHTML = '<input type="search" autocomplete="off" aria-label="Lieu"><ul hidden></ul>';
+          var ri = rz.querySelector("input"), ru = rz.querySelector("ul");
+          function phr() { ri.placeholder = tr("sl_off_rech", "Trouver un lieu sur la carte (ex. Vice Beach, Key Lento)"); }
+          phr();
+          function aller(o) {
+            var ll = [OH - o.y * kx, o.x * kx];
+            if (pin) mo.removeLayer(pin);
+            pin = L.circleMarker(ll, { radius: 14, color: "#ff2e88", weight: 4, fillColor: "#ffd23f", fillOpacity: .35 }).addTo(mo)
+              .bindPopup("<b>" + esc(o.n) + "</b><br><small>" + esc(tr("sl_off_case", "Case")) + " " + esc(o.case) + "</small>").openPopup();
+            if (L.Browser.mobile) mo.dragging.enable();
+            mo.setView(ll, 0);
+            ru.hidden = true; ri.value = o.n; ri.blur();
+          }
+          ri.addEventListener("input", function () {
+            var q = norm(ri.value.trim());
+            if (q.length < 2) { ru.hidden = true; return; }
+            var r = LO.filter(function (o) { return norm(o.n).indexOf(q) >= 0; }).slice(0, 8);
+            ru.innerHTML = r.length ? r.map(function (o) { return '<li><button type="button" data-n="' + esc(o.n) + '">' + esc(o.n) + " <small>" + esc(o.case) + "</small></button></li>"; }).join("") : '<li class="vide">' + esc(tr("sl_f_vide", "Aucun lieu ne correspond à ces filtres.")) + "</li>";
+            ru.hidden = false;
+          });
+          ri.addEventListener("keydown", function (e) { if (e.key === "Enter") { var b = ru.querySelector("button"); if (b) b.click(); } });
+          ru.addEventListener("click", function (ev) {
+            var b = ev.target.closest && ev.target.closest("button[data-n]"); if (!b) return;
+            var n = b.getAttribute("data-n"); LO.forEach(function (o) { if (o.n === n) aller(o); });
+          });
+          el.parentNode.insertBefore(rz, el);
+          document.addEventListener("langchange", phr);
           var rb = document.createElement("div"); rb.className = "sl-barre ct-regs";
           var nbo = {}; D.points.forEach(function (p) { if (p.region) nbo[p.region] = (nbo[p.region] || 0) + 1; });
           function boutons() {
