@@ -89,6 +89,7 @@
       '<div class="cx-outils"><button type="button" class="cx-b cx-b-plein" aria-label="Plein écran">⛶</button><button type="button" class="cx-b cx-b-cadre" aria-label="Recadrer">⌂</button><button type="button" class="cx-b cx-b-part" aria-label="Partager">↗</button><button type="button" class="cx-b cx-b-noms on" aria-label="Noms">Aa</button></div>' +
       '<aside class="cx-pan"' + (mob ? " hidden" : "") + '><div class="cx-onglets"></div><div class="cx-corps"></div></aside>' +
       '<div class="cx-bas"></div><div class="cx-toast" hidden></div>';
+    var h0 = ""; try { h0 = decodeURIComponent(location.hash.slice(1)); } catch (e) {}
     var $ = function (s) { return el.querySelector(s); };
     var mapEl = $(".cx-map"), ri = $(".cx-rech input"), ru = $(".cx-rech ul"), pan = $(".cx-pan"), corps = $(".cx-corps"), ong = $(".cx-onglets"), bas = $(".cx-bas"), toast = $(".cx-toast");
     var mo = L.map(mapEl, { crs: L.CRS.Simple, minZoom: -4, maxZoom: 1.75, zoomSnap: 0, zoomDelta: 0.5, wheelPxPerZoomLevel: 110, wheelDebounceTime: 20, scrollWheelZoom: true, doubleClickZoom: true, touchZoom: true, dragging: true, inertia: true, zoomControl: false, attributionControl: true, tap: true, bounceAtZoomLimits: false });
@@ -116,7 +117,7 @@
         .on("click", function () { voir(o, true); }).addTo(gL);
       mk[o.n] = m;
     });
-    function etiquettes() { el.classList.toggle("cx-labs", noms && mo.getZoom() >= mo.getMinZoom() + 1.1); el.classList.toggle("cx-labs-all", noms && mo.getZoom() >= mo.getMinZoom() + 1.9); }
+    function etiquettes() { el.classList.toggle("cx-labs", noms && mo.getZoom() >= mo.getMinZoom() + 0.9); }
     var noms = true;
     function popLieu(o) {
       return '<div class="cx-pop"><b>' + esc(o.n) + "</b><span>" + esc(tr("sl_off_case", "Case")) + " " + esc(o.case) + '</span><button type="button" class="cx-pop-l" data-n="' + esc(o.n) + '">' + esc(tr("cx_lien", "Copier le lien")) + "</button></div>";
@@ -264,7 +265,7 @@
     textes(); document.addEventListener("langchange", textes);
     cadre(); setTimeout(function () { cadre(); depart(); }, 150);
     function depart() {
-      var h = decodeURIComponent(location.hash.slice(1));
+      var h = h0;
       if (h.indexOf("l=") === 0) { var o = trouve(h.slice(2)); if (o) { mo.setView(ll(o), mo.getMinZoom() + 2.2); voir(o, true); } }
       else if (h.indexOf("c=") === 0) { var v = h.slice(2).split(",").map(Number); if (v.length === 3 && v.every(isFinite)) mo.setView([v[1], v[2]], v[0]); }
       etiquettes();
