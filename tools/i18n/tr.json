@@ -1177,9 +1177,7 @@
  "sl_total_g": "Toplam (ana + isteğe bağlı)",
  "sl_conf_n": "doğrulandı (2 kaynak yerin adını veriyor)",
  "sl_ms_a": "GTA 6 hikayesinde bir önsöz ve 5 bölüm bulunur: Toplamda 148 görev, 119 ana görev (önsözde 1, ardından bölüm başına 25, 18, 31, 34 ve 10) ve 29 isteğe bağlı (kaynaklar: PowerPyx ve GTA Base; henüz çapraz kontrolden geçmeyen 15 başlık \"onaylanacak\" olarak işaretlenmiştir). 60-80 saat bekleyin. Görev madalyası ve görev tekrarı yok: her bölümün başında ve sonunda manuel kayıt bulundurun.",
- "sl_avert_carte": "Yaklaşık konum yok: Harita gece yarısından itibaren (Fransız lansmanı) Rockstar resmi haritasında yayına giriyor ve bir yer yalnızca iki oyuncu yakalayıp onu doğruladıktan sonra sabitleniyor. Bu arada, aşağıdaki listede bilinen her yer kaynağıyla birlikte verilmektedir.",
  "sl_cl_i": "Lansmandan bu yana toplanan gerçek yerler: 10 meditasyon noktası, 14 en eğlenceli drone yarışı, 22 banka (kasa), 12 garaj mülkü, 35 şut ve kapma, 2 atış poligonu. Toplamlar iki bağımsız rehber tarafından onaylanmıştır; bir konum, ikinci bir kaynak onu adlandırıncaya kadar \"doğrulanmayı bekliyor\". Haritada yalnızca iki oyuncu onu yakalayıp resmi haritaya sabitlediğinde görünür.",
- "sl_attente_t": "Gece yarısına ait gerçek harita, canlı olarak güncellendi",
  "sl_attente_p": "Yaklaşık konumları göstermiyoruz. Rockstar resmi Leonida haritasını yayınlar yayınlamaz, bu sayfanın arka planı haline gelir ve her yer, doğrulanmış oyuncu yakalamalarından (iki kaynak) sabitlenir. Bu arada bilinen her konum aşağıda listelenmiştir.",
  "sl_attente_l": "Konum listesine bakın",
  "sl_liste_h": "Bölgelere göre bilinen her GTA 6 konumu",
@@ -1272,5 +1270,7 @@
  "trn_fisheye": "Balıkgözü",
  "trn_faded_glory": "Solmuş Zafer",
  "trn_pixel_art": "Piksel Sanatı",
- "trn_hellscape": "Cehennem manzarası"
+ "trn_hellscape": "Cehennem manzarası",
+ "sl_avert_carte": "Yaklaşık konum yok: Oyun çıktı, ancak Rockstar henüz resmi haritasını yayınlamadı: çevrimiçi olur olmaz arka plan haline geliyor ve bir yer yalnızca iki oyuncu yakalayıp doğruladığında sabitleniyor. Bu arada, aşağıdaki listede bilinen her yer kaynağıyla birlikte verilmektedir.",
+ "sl_attente_t": "Rockstar resmi haritayı yayınlar yayınlamaz gerçek harita canlı olarak güncellenir"
 }

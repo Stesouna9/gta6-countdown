@@ -1177,9 +1177,7 @@
  "sl_total_g": "Total (principal + opcional)",
  "sl_conf_n": "confirmado (2 fuentes nombran el lugar)",
  "sl_ms_a": "La historia de GTA 6 tiene un prólogo y 5 capítulos: 148 misiones en total, 119 principales (1 en el prólogo, luego 25, 18, 31, 34 y 10 por capítulo) y 29 opcionales (fuentes: PowerPyx y GTA Base; 15 títulos aún no verificados están marcados como \"por confirmar\"). Espere entre 60 y 80 horas. No hay medallas de misión ni repetición de misión: guarda un guardado manual al principio y al final de cada capítulo.",
- "sl_avert_carte": "Sin ubicaciones aproximadas: el mapa se activa a partir de la medianoche (lanzamiento en Francia) en el mapa oficial de Rockstar , y un lugar solo se fija una vez que dos capturas de jugadores lo verifican. Mientras tanto, la siguiente lista proporciona cada ubicación conocida con su fuente.",
  "sl_cl_i": "Ubicaciones reales recopiladas desde el lanzamiento: 10 lugares de meditación, 14 carreras de drones muy divertidas, 22 bancos (bóvedas), 12 propiedades de garaje, 35 smash 'n' grabs, 2 campos de tiro. Los totales son confirmados por dos guías independientes; una ubicación permanece \"por confirmar\" hasta que una segunda fuente la nombre. Solo aparece en el mapa una vez que dos jugadores lo capturan y lo fijan en el mapa oficial.",
- "sl_attente_t": "Mapa real desde medianoche, actualizado en vivo",
  "sl_attente_p": "No mostramos ubicaciones aproximadas. Tan pronto como Rockstar publica el mapa oficial Leonida , se convierte en el fondo de esta página y cada lugar se fija a partir de capturas de jugadores verificadas (dos fuentes). Mientras tanto, todas las ubicaciones conocidas se enumeran a continuación.",
  "sl_attente_l": "Ver la lista de ubicaciones",
  "sl_liste_h": "Todas las ubicaciones conocidas GTA 6 , por región",
@@ -1272,5 +1270,7 @@
  "trn_fisheye": "ojo de pez",
  "trn_faded_glory": "Gloria desvanecida",
  "trn_pixel_art": "Arte de píxeles",
- "trn_hellscape": "paisaje infernal"
+ "trn_hellscape": "paisaje infernal",
+ "sl_avert_carte": "No hay ubicaciones aproximadas: el juego ya está disponible, pero Rockstar aún no ha publicado su mapa oficial: se convierte en fondo tan pronto como está en línea, y un lugar solo se fija una vez que dos capturas de jugadores lo verifican. Mientras tanto, la siguiente lista proporciona cada ubicación conocida con su fuente.",
+ "sl_attente_t": "Mapa real tan pronto como Rockstar publique el mapa oficial, actualizado en vivo"
 }

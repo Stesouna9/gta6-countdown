@@ -1177,9 +1177,7 @@
  "sl_total_g": "Tổng cộng (chính + tùy chọn)",
  "sl_conf_n": "đã xác nhận (2 nguồn nêu tên địa điểm)",
  "sl_ms_a": "Câu chuyện của GTA 6 có phần mở đầu và 5 chương: tổng cộng 148 nhiệm vụ, 119 nhiệm vụ chính (1 trong phần mở đầu, sau đó là 25, 18, 31, 34 và 10 mỗi chương) và 29 tùy chọn (nguồn: PowerPyx và GTA Base; 15 tựa game chưa được kiểm tra chéo sẽ được gắn cờ \"để xác nhận\"). Mong đợi 60-80 giờ. Không có huy chương nhiệm vụ và không có nhiệm vụ phát lại: hãy lưu thủ công ở đầu và cuối mỗi chương.",
- "sl_avert_carte": "Không có vị trí gần đúng: bản đồ sẽ hoạt động từ nửa đêm (ra mắt tại Pháp) trên bản đồ chính thức của Rockstar và một địa điểm chỉ được ghim sau khi hai người chơi nắm bắt được xác minh địa điểm đó. Trong khi đó, danh sách dưới đây cung cấp cho mọi vị trí đã biết kèm theo nguồn của nó.",
  "sl_cl_i": "Các địa điểm thực sự được tập hợp kể từ khi ra mắt: 10 địa điểm thiền, 14 cuộc đua máy bay không người lái vui nhộn hàng đầu, 22 ngân hàng (hầm), 12 nhà để xe, 35 cuộc đua giành giật, 2 trường bắn. Tổng số được xác nhận bởi hai hướng dẫn độc lập; một vị trí vẫn \"được xác nhận\" cho đến khi nguồn thứ hai đặt tên cho nó. Nó chỉ xuất hiện trên bản đồ khi có hai người chơi bắt giữ nó trên bản đồ chính thức.",
- "sl_attente_t": "Bản đồ thực từ nửa đêm, cập nhật trực tiếp",
  "sl_attente_p": "Chúng tôi không hiển thị vị trí gần đúng. Ngay sau khi Rockstar xuất bản bản đồ Leonida chính thức, nó sẽ trở thành nền của trang này và mỗi địa điểm đều được ghim từ ảnh chụp của người chơi đã được xác minh (hai nguồn). Trong khi đó, mọi địa điểm đã biết đều được liệt kê dưới đây.",
  "sl_attente_l": "Xem danh sách các địa điểm",
  "sl_liste_h": "Mọi địa điểm GTA 6 được biết đến, theo khu vực",
@@ -1272,5 +1270,7 @@
  "trn_fisheye": "Mắt cá",
  "trn_faded_glory": "Vinh quang mờ nhạt",
  "trn_pixel_art": "Nghệ thuật điểm ảnh",
- "trn_hellscape": "cảnh địa ngục"
+ "trn_hellscape": "cảnh địa ngục",
+ "sl_avert_carte": "Không có vị trí gần đúng: trò chơi đã hết, nhưng Rockstar vẫn chưa xuất bản bản đồ chính thức: nó sẽ trở thành nền ngay khi trực tuyến và một địa điểm chỉ được ghim khi hai người chơi nắm bắt được xác minh nó. Trong khi đó, danh sách dưới đây cung cấp cho mọi vị trí đã biết kèm theo nguồn của nó.",
+ "sl_attente_t": "Bản đồ thực ngay khi Rockstar công bố bản đồ chính thức, cập nhật trực tiếp"
 }

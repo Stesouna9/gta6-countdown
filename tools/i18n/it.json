@@ -1177,9 +1177,7 @@
  "sl_total_g": "Totale (principale + facoltativo)",
  "sl_conf_n": "confermato (2 fonti menzionano il luogo)",
  "sl_ms_a": "La storia di GTA 6 ha un prologo e 5 capitoli: 148 missioni in totale, 119 principali (1 nel prologo, poi 25, 18, 31, 34 e 10 per capitolo) e 29 opzionali (fonti: PowerPyx e GTA Base; 15 titoli non ancora controllati sono contrassegnati come \"da confermare\"). Aspettatevi 60-80 ore. Non ci sono medaglie di missione né replay della missione: mantieni un salvataggio manuale all'inizio e alla fine di ogni capitolo.",
- "sl_avert_carte": "Nessuna posizione approssimativa: la mappa sarà attiva a partire da mezzanotte (lancio francese) sulla mappa ufficiale di Rockstar , e un luogo verrà bloccato solo dopo che due giocatori catturati lo avranno verificato. Nel frattempo, l'elenco seguente fornisce ogni località conosciuta con la sua fonte.",
  "sl_cl_i": "Luoghi reali raccolti sin dal lancio: 10 luoghi di meditazione, 14 divertentissime gare di droni, 22 banche (caveau), 12 garage, 35 smash 'n' grab, 2 poligoni di tiro. I totali sono confermati da due guide indipendenti; una posizione rimane \"da confermare\" finché una seconda fonte non la nomina. Appare sulla mappa solo dopo che due giocatori lo catturano e lo fissano sulla mappa ufficiale.",
- "sl_attente_t": "Mappa reale da mezzanotte, aggiornata in tempo reale",
  "sl_attente_p": "Non mostriamo posizioni approssimative. Non appena Rockstar pubblica la mappa ufficiale Leonida , questa diventa lo sfondo di questa pagina e ogni luogo viene individuato dalle catture verificate dei giocatori (due fonti). Nel frattempo, ogni posizione conosciuta è elencata di seguito.",
  "sl_attente_l": "Consulta l'elenco delle località",
  "sl_liste_h": "Ogni luogo conosciuto GTA 6 , per regione",
@@ -1272,5 +1270,7 @@
  "trn_fisheye": "Fisheye",
  "trn_faded_glory": "Gloria sbiadita",
  "trn_pixel_art": "Arte pixelata",
- "trn_hellscape": "Paesaggio infernale"
+ "trn_hellscape": "Paesaggio infernale",
+ "sl_avert_carte": "Nessuna posizione approssimativa: il gioco è uscito, ma Rockstar non ha ancora pubblicato la sua mappa ufficiale: diventa lo sfondo non appena è online, e un luogo viene fissato solo quando due giocatori catturati lo verificano. Nel frattempo, l'elenco seguente fornisce ogni località conosciuta con la sua fonte.",
+ "sl_attente_t": "Mappa reale non appena Rockstar pubblicherà la mappa ufficiale, aggiornata in tempo reale"
 }

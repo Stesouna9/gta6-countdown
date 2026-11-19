@@ -1177,9 +1177,7 @@
  "sl_total_g": "Razem (główne + opcjonalne)",
  "sl_conf_n": "potwierdzone (2 źródła podają miejscowość)",
  "sl_ms_a": "Fabuła GTA 6 składa się z prologu i 5 rozdziałów: łącznie 148 misji, 119 głównych (1 w prologu, następnie 25, 18, 31, 34 i 10 w każdym rozdziale) i 29 opcjonalnych (źródła: PowerPyx i GTA Base; 15 tytułów, które nie zostały jeszcze sprawdzone, oznaczono jako „do potwierdzenia”). Spodziewaj się 60-80 godzin. Nie ma medali za misję ani jej powtarzania: zachowaj ręczny zapis na początku i na końcu każdego rozdziału.",
- "sl_avert_carte": "Brak przybliżonych lokalizacji: mapa jest dostępna od północy (premiera we Francji) na oficjalnej mapie Rockstar , a miejsce zostaje przypięte dopiero wtedy, gdy dwóch graczy je przechwyci i zweryfikuje. Tymczasem poniższa lista przedstawia każdą znaną lokalizację wraz z jej źródłem.",
  "sl_cl_i": "Prawdziwe lokalizacje zebrane od czasu premiery: 10 miejsc do medytacji, 14 najfajniejszych wyścigów dronów, 22 banki (skrypty), 12 garaży, 35 miejsc do rozbijania i chwytania, 2 strzelnice. Sumy są potwierdzane przez dwa niezależne przewodniki; lokalizacja pozostaje „do potwierdzenia”, dopóki drugie źródło jej nie nada nazwy. Pojawia się na mapie dopiero wtedy, gdy dwóch graczy przejmie ją i przypina ją na oficjalnej mapie.",
- "sl_attente_t": "Prawdziwa mapa od północy, aktualizowana na żywo",
  "sl_attente_p": "Nie pokazujemy przybliżonych lokalizacji. Gdy tylko Rockstar opublikuje oficjalną mapę Leonida , stanie się ona tłem tej strony, a każde miejsce zostanie przypięte na podstawie zweryfikowanych wizerunków graczy (dwa źródła). Tymczasem każda znana lokalizacja jest wymieniona poniżej.",
  "sl_attente_l": "Zobacz listę lokalizacji",
  "sl_liste_h": "Każda znana lokalizacja GTA 6 według regionu",
@@ -1272,5 +1270,7 @@
  "trn_fisheye": "Rybie oko",
  "trn_faded_glory": "Wyblakła chwała",
  "trn_pixel_art": "Sztuka pikseli",
- "trn_hellscape": "Piekielny krajobraz"
+ "trn_hellscape": "Piekielny krajobraz",
+ "sl_avert_carte": "Brak przybliżonych lokalizacji: gra jest już niedostępna, ale Rockstar nie opublikował jeszcze swojej oficjalnej mapy: staje się tłem, gdy tylko zostanie udostępniona online, a miejsce jest przypinane dopiero wtedy, gdy przechwytuje je dwóch graczy i zweryfikuje to. Tymczasem poniższa lista przedstawia każdą znaną lokalizację wraz z jej źródłem.",
+ "sl_attente_t": "Prawdziwa mapa, gdy tylko Rockstar opublikuje oficjalną mapę, aktualizowaną na żywo"
 }
