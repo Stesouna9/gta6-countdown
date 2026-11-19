@@ -407,7 +407,7 @@ function feuxLance(t) {
     var px = W * (0.1 + Math.random() * 0.8);
     P.push({ x: px, y: H, vx: (Math.random() - 0.5) * 1.5, vy: -(13 + Math.random() * 6), v: 1, d: 0, c: "#ffd23f", r: 2, f: H * (0.15 + Math.random() * 0.35) });
   }
-  var actif = true, fin = semaine ? Infinity : Date.now() + 6000;
+  var actif = true, fin = Date.now() + (semaine ? 8000 : 4000);   // 19/11 Gabriel : « diminue le temps des artifices » (avant : sans fin la 1re semaine)
   var avant = 0;
   function boucle(t) {
     if (!actif) return;
