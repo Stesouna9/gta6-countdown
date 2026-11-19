@@ -1,8 +1,27 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-19T20:12:55+01:00",
+  "updated_at": "2026-11-19T22:12:52+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-playstation-dualsense-gta6-disponible-2026-11-19",
+      "title": "GTA 6 : PlayStation annonce les manettes DualSense édition limitée disponibles dès aujourd'hui",
+      "summary": "PlayStation annonce que les manettes DualSense sans fil en édition limitée GTA 6 sont disponibles aujourd'hui, en même temps que le jeu, sur PS5, selon le compte officiel @PlayStation (18 h 30 UTC).",
+      "url": "https://x.com/PlayStation/status/2123484073574170880",
+      "platform": "X",
+      "author": "@PlayStation",
+      "status": "Officiel",
+      "published_at": "2026-11-19T18:30:30.000Z",
+      "checked_at": "2026-11-19T22:12:52+01:00",
+      "evidence": "Vues relevées le 19/11 dans data/x_alertes.json : 192 013 vues pour @PlayStation (18 h 30 UTC, 3 366 j'aime, 347 reposts, 248 marque-pages). Post officiel, pas de reprise relevée par un autre compte dans le relevé.",
+      "visual": "MANETTE DUALSENSE",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2123435894040395776/img/pdIAxCRwwipO1Fc-.jpg",
+      "image_alt": "Publication de @PlayStation annonçant les manettes DualSense édition limitée GTA 6",
+      "image_credit": "@PlayStation sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "The Grand Theft Auto VI Limited-Edition DualSense Wireless Controllers are available today alongside Grand Theft Auto VI, out now on PS5."
+    },
     {
       "id": "x-mandy-actrice-lexie-shoaibi-2026-11-19",
       "title": "GTA 6 : l'actrice de Mandy, Lexie Shoaibi, confirmée dans le rôle, selon @GTAVI_Countdown",
@@ -5518,6 +5537,11 @@
       "at": "2026-11-19T20:12:55+01:00",
       "label": "Passage Claude Haiku (Matière X, 19/11 soir)",
       "summary": "1 sujet ajouté depuis x_alertes.json : confirmation de l'actrice de Mandy, Lexie Shoaibi (@GTAVI_Countdown 43 146 vues, un compte, Rapporté). Écartés : Rockstar « Thank you! Leonida awaits » (35 258 vues, simple remerciement sans information, pas d'image) ; Manny Perez et Bobby Moynihan (15 603 vues) ; Dylan Rourke par GTAlphaintel (18 408 vues, sujet déjà publié le 18/11) ; carte complète (14 489 vues) ; maillot PlayStation (14 118 vues, #ad) ; sous le seuil."
+    },
+    {
+      "at": "2026-11-19T22:12:52+01:00",
+      "label": "Passage Claude Haiku (Matière X, 19/11 soir, 2)",
+      "summary": "1 sujet ajouté depuis x_alertes.json : PlayStation annonce les manettes DualSense édition limitée GTA 6 disponibles aujourd'hui (@PlayStation, 192 013 vues, Officiel). Écartés : Lexie Shoaibi, nouvelle vidéo à 393 181 vues, déjà couverte par x-mandy-actrice-lexie-shoaibi-2026-11-19 ; Manny Perez et Bobby Moynihan, déjà couverts par le casting du 17/11 ; « Thank you! Leonida awaits » (45 474 vues, remerciement sans information) ; maillot PlayStation (#ad, 18 430 vues) ; Lucia / alligator, déjà publié ; autres posts sous 20 000 vues."
     }
   ],
   "coverage": {
