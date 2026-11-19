@@ -97,7 +97,7 @@
         var Hs = 1000, ms = L.map(el, { crs: L.CRS.Simple, minZoom: -2, maxZoom: 1.5, zoomSnap: 0.25, attributionControl: false, scrollWheelZoom: false, tap: true });
         var Bs = [[0, 0], [Hs, Hs]];
         L.imageOverlay(R + D.fond, Bs, { alt: "Leonida" }).addTo(ms);
-        ms.fitBounds([[60, 60], [Hs - 60, Hs - 60]]); ms.setMaxBounds([[-200, -200], [Hs + 200, Hs + 200]]);
+        var terre = [[70, 80], [900, 840]]; ms.fitBounds(terre); ms.on("resize", function () { ms.fitBounds(terre); }); ms.setMaxBounds([[-200, -200], [Hs + 200, Hs + 200]]);
         function lls(x, y) { return [Hs - y, x]; }
         var nbr = {}; D.points.forEach(function (p) { if (p.region) nbr[p.region] = (nbr[p.region] || 0) + 1; });
         var polys = {};
@@ -118,7 +118,7 @@
         function capt() { cap.textContent = tr("sl_schema_cap", "Touchez une région pour voir ses lieux. Schéma des régions : les emplacements précis s'afficheront sur la carte officielle de Rockstar dès sa publication."); }
         capt(); el.parentNode.insertBefore(cap, el.nextSibling);
         document.addEventListener("langchange", capt);
-        setTimeout(function () { ms.invalidateSize(); ms.fitBounds([[60, 60], [Hs - 60, Hs - 60]]); }, 200);
+        setTimeout(function () { ms.invalidateSize(); ms.fitBounds(terre); }, 200);
         return;
       }
       D.fond = D.fond_officiel;
