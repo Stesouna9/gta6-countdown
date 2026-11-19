@@ -1,8 +1,27 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-19T12:13:03+01:00",
+  "updated_at": "2026-11-19T14:12:49+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-acteurs-lucia-jason-panneau-gtasix-2026-11-19",
+      "title": "GTA 6 : les actrices et acteurs de Lucia et Jason posent devant un panneau, selon @gtasix_",
+      "summary": "@gtasix_ publie à 12 h 36 UTC une photo des acteurs de Jason et Lucia (Dylan Rourke et Manni L. Perez) devant leur panneau GTA 6. @GTAVI_Countdown publie à 12 h 57 UTC une photo des trois acteurs : Manni Perez (Lucia), Dylan Rourke (Jason) et la doublure cascade de Lucia, Victoria Lee, que @gtasix_ identifie à 12 h 43 UTC.",
+      "url": "https://x.com/gtasix_/status/2123394871272894498",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rapporté",
+      "published_at": "2026-11-19T12:36:02.000Z",
+      "checked_at": "2026-11-19T14:12:49+01:00",
+      "evidence": "Vues relevées le 19/11 dans data/x_alertes.json : 9 816 vues pour @gtasix_ (panneau, 12 h 36 UTC, 1 111 j'aime) ; 773 vues pour @gtasix_ (doublure, 12 h 43 UTC) ; 4 368 vues pour @GTAVI_Countdown (photo des trois acteurs, 12 h 57 UTC). Repris par deux comptes.",
+      "visual": "PANNEAU ACTEURS",
+      "image": "https://pbs.twimg.com/media/HXfQYElXcAElj24?format=jpg&name=small",
+      "image_alt": "Acteurs de Jason et Lucia posant devant un panneau GTA 6, publication de @gtasix_",
+      "image_credit": "@gtasix_ sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Photos de comptes fans relevées sur X, sans confirmation de Rockstar dans les sources relevées ici. Les noms sont ceux donnés par les publications."
+    },
     {
       "id": "x-compte-a-zero-gtavi-countdown-2026-11-19",
       "title": "GTA 6 : le compte à rebours arrive à zéro, selon @GTAVI_Countdown",
@@ -5346,6 +5365,11 @@
       "at": "2026-11-19T12:13:03+01:00",
       "label": "Passage Claude Haiku (Matière X, 19/11, relevé 11 h 00 UTC)",
       "summary": "2 sujets ajoutés depuis x_alertes.json : compte à rebours à zéro (@GTAVI_Countdown 24 034 vues, Rapporté) ; comparatif GTA 5 / GTA 6 (@GTAVI_Countdown 35 835 vues, Création de fan). Écarté : sortie mondiale 06 h UTC (@GTAlphaintel 14 332 vues, un compte) ; bonus Ultimate Edition (11 707 vues, un compte) ; Ned Luke (8 757 vues, un compte) ; post Christian (16 155 vues, un compte)."
+    },
+    {
+      "at": "2026-11-19T14:12:49+01:00",
+      "label": "Passage Claude Haiku (Matière X, 19/11, x_alertes maj 13 h 03 UTC)",
+      "summary": "1 sujet ajouté depuis x_alertes.json : acteurs de Lucia et Jason devant le panneau GTA 6 (@gtasix_ 9 816 vues, repris par @GTAVI_Countdown, 4 368 vues, et doublure cascade 773 vues). Écartés (un seul compte ou sous 20 000 vues) : Mandy (@GTAlphaintel 18 078), bonus Ultimate Edition (15 046), sortie mondiale 06 h UTC (16 831), Ned Luke (13 762), IShowSpeed (8 071), 100 % complete (9 592)."
     }
   ],
   "coverage": {
