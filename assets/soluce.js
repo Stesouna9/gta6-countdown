@@ -86,7 +86,7 @@
       '<div class="cx-map"></div>' +
       '<div class="cx-haut"><div class="cx-rech"><span aria-hidden="true">⌕</span><input type="search" autocomplete="off"><ul hidden></ul></div>' +
       '<button type="button" class="cx-b cx-b-pan"></button></div>' +
-      '<div class="cx-outils"><button type="button" class="cx-b cx-b-plein" aria-label="Plein écran">⛶</button><button type="button" class="cx-b cx-b-cadre" aria-label="Recadrer">⌂</button><button type="button" class="cx-b cx-b-part" aria-label="Partager">↗</button><button type="button" class="cx-b cx-b-noms on" aria-label="Noms">Aa</button></div>' +
+      '<div class="cx-outils"><button type="button" class="cx-b cx-b-plein" aria-label="Plein écran">⛶</button><button type="button" class="cx-b cx-b-cadre" aria-label="Recadrer">⌂</button><button type="button" class="cx-b cx-b-part" aria-label="Partager">↗</button><button type="button" class="cx-b cx-b-noms" aria-label="Noms">Aa</button></div>' +
       '<aside class="cx-pan"' + (mob ? " hidden" : "") + '><div class="cx-onglets"></div><div class="cx-corps"></div></aside>' +
       '<div class="cx-bas"></div><div class="cx-toast" hidden></div>';
     var h0 = ""; try { h0 = decodeURIComponent(location.hash.slice(1)); } catch (e) {}
@@ -110,26 +110,68 @@
     function info(m) { toast.textContent = m; toast.hidden = false; clearTimeout(info.t); info.t = setTimeout(function () { toast.hidden = true; }, 2200); }
 
     /* 87 lieux officiels : point + étiquette (étiquettes visibles dès qu'on zoome un peu) */
-    var gL = L.layerGroup().addTo(mo), mk = {}, sel = null;
+    var gL = L.layerGroup(), gH = L.layerGroup().addTo(mo), mk = {}, sel = null, selC = null;
     LO.forEach(function (o) {
+      L.circleMarker(ll(o), { radius: 18, stroke: false, fillColor: "#ffd23f", fillOpacity: 0.001, className: "cx-hit" }).on("click", function () { voir(o, true); }).addTo(gH);
       var m = L.circleMarker(ll(o), { radius: 6, color: "#0b0812", weight: 2, fillColor: "#ff2e88", fillOpacity: 1, className: "cx-pt" })
         .bindTooltip(esc(o.n), { permanent: true, direction: "right", offset: [7, 0], className: "cx-lab" })
         .on("click", function () { voir(o, true); }).addTo(gL);
       mk[o.n] = m;
     });
+    var NOMS = LO.map(function (o) { return o.n; }).sort(function (a, b) { return b.length - a.length; });
+    function secteur(p) {
+      var t = [p.en, p.note_en, p.fr, p.note_fr].join(" "), best = null, bi = 1e9;
+      NOMS.forEach(function (n) { var m = new RegExp("\\b" + n.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\b", "i").exec(t); if (m && m.index < bi) { bi = m.index; best = n; } });
+      return best;
+    }
+    var parS = {}; D.points.forEach(function (p) { p._s = secteur(p); if (p._s) (parS[p._s] = parS[p._s] || []).push(p); });
+    var gC = {}, mkC = {};
+    D.couches.forEach(function (c) { gC[c.id] = L.layerGroup(); if (!S.o["cx_off_" + c.id]) gC[c.id].addTo(mo); });
+    function icoC(p, i, n) {
+      var c = C[p.couche] || {}, r0 = n > 1 ? 13 + n * 2.4 : 0, a = i / n * 2 * Math.PI - Math.PI / 2, dx = Math.round(r0 * Math.cos(a)), dy = Math.round(r0 * Math.sin(a));
+      return L.divIcon({ className: "cx-ic" + (S.p[p.id] ? " fait" : ""), html: '<i style="background:' + esc(c.couleur) + '"><img src="' + R + esc(c.icone) + '" alt=""></i>', iconSize: [26, 26], iconAnchor: [13 - dx, 13 - dy], popupAnchor: [dx, dy - 14] });
+    }
+    function popC(p) {
+      var c = C[p.couche] || {}, o = trouve(p._s);
+      var src = (p.sources || []).map(function (u, i) { return '<a href="' + esc(u) + '" target="_blank" rel="noopener nofollow">' + esc(tr("sl_source", "Source")) + " " + (i + 1) + "</a>"; }).join(" · ");
+      return '<div class="cx-pop cx-pop-c"><em style="color:' + esc(c.couleur) + '">' + esc(txt(c)) + "</em><b>" + esc(txt(p) || p.id) + "</b><span>" + esc(tr("cx_secteur", "Secteur")) + " : " + esc(p._s) + (o ? " · " + esc(tr("sl_off_case", "Case")) + " " + esc(o.case) : "") + "</span>" +
+        (txt(p, "note_") ? "<p>" + esc(txt(p, "note_")) + "</p>" : "") + '<small class="cx-approx">' + esc(tr("cx_approx", "Icône posée sur le secteur que nomme le guide : l'emplacement exact se trouve dans ce secteur.")) + "</small>" + (src ? "<small>" + src + "</small>" : "") +
+        '<button type="button" class="cx-pop-t' + (S.p[p.id] ? " fait" : "") + '" data-p="' + esc(p.id) + '">' + esc(S.p[p.id] ? tr("sl_trouve_non", "Pas encore trouvé") : tr("sl_trouve", "Trouvé ✓")) + "</button></div>";
+    }
+    function dessineC() {
+      Object.keys(gC).forEach(function (k) { gC[k].clearLayers(); }); mkC = {};
+      Object.keys(parS).forEach(function (sn) {
+        var o = trouve(sn), l0 = parS[sn]; if (!o) return;
+        l0.forEach(function (p, i) {
+          if (!gC[p.couche]) return;
+          mkC[p.id] = L.marker(ll(o), { icon: icoC(p, i, l0.length), riseOnHover: true, title: txt(p) || p.id, keyboard: true })
+            .bindPopup(function () { return popC(p); }, { className: "cx-popup", maxWidth: 290 }).addTo(gC[p.couche]);
+        });
+      });
+    }
+    function ouvreC(id) {
+      var p = null; D.points.forEach(function (q) { if (q.id === id) p = q; }); var m = mkC[id]; if (!p || !m) return;
+      if (!mo.hasLayer(gC[p.couche])) { gC[p.couche].addTo(mo); delete S.o["cx_off_" + p.couche]; sauve(); }
+      var zc = Math.max(mo.getZoom(), mo.getMinZoom() + 2.2);
+      mo.flyTo(m.getLatLng(), zc, { duration: .6 }); mo.once("moveend", function () { m.openPopup(); });
+      if (mob) { pan.hidden = true; majPanBtn(); }
+    }
     function etiquettes() { el.classList.toggle("cx-labs", noms && mo.getZoom() >= mo.getMinZoom() + 0.9); }
-    var noms = true;
+    var noms = false;
     function popLieu(o) {
-      return '<div class="cx-pop"><b>' + esc(o.n) + "</b><span>" + esc(tr("sl_off_case", "Case")) + " " + esc(o.case) + '</span><button type="button" class="cx-pop-l" data-n="' + esc(o.n) + '">' + esc(tr("cx_lien", "Copier le lien")) + "</button></div>";
+      var l0 = parS[o.n] || [];
+      return '<div class="cx-pop"><b>' + esc(o.n) + "</b><span>" + esc(tr("sl_off_case", "Case")) + " " + esc(o.case) + "</span>" +
+        (l0.length ? '<em class="cx-pop-h">' + esc(tr("cx_ici", "À faire ici")) + " (" + l0.length + ')</em><ul class="cx-pop-ul">' + l0.map(function (p) { var c = C[p.couche] || {}; return '<li><button type="button" data-pc="' + esc(p.id) + '"' + (S.p[p.id] ? ' class="fait"' : "") + '><i style="background:' + esc(c.couleur) + '"></i>' + esc(txt(p) || p.id) + "</button></li>"; }).join("") + "</ul>" : "") +
+        '<button type="button" class="cx-pop-l" data-n="' + esc(o.n) + '">' + esc(tr("cx_lien", "Copier le lien")) + "</button></div>";
     }
     function voir(o, sansVol) {
       var p = ll(o);
-      if (sel) sel.setStyle({ radius: 6, fillColor: "#ff2e88" });
-      sel = mk[o.n]; if (sel) { sel.setStyle({ radius: 10, fillColor: "#ffd23f" }); sel.bringToFront(); }
+      if (selC) mo.removeLayer(selC);
+      selC = L.circleMarker(p, { radius: 20, color: "#ffd23f", weight: 3, fill: false, interactive: false, className: "cx-sel" }).addTo(mo);
       var zc = sansVol ? mo.getZoom() : Math.max(mo.getZoom(), mo.getMinZoom() + 2), dx = (!mob && !pan.hidden) ? (pan.offsetWidth + 66) / 2 : 0;
       var cible = dx ? mo.unproject(mo.project(p, zc).add([dx, 0]), zc) : p;
       if (!sansVol) mo.flyTo(cible, zc, { duration: .7 }); else if (dx) mo.setView(cible, zc, { animate: false });
-      L.popup({ offset: [0, -6], className: "cx-popup" }).setLatLng(p).setContent(popLieu(o)).openOn(mo);
+      var pu = L.popup({ offset: [0, -6], className: "cx-popup", maxWidth: 280 }).setLatLng(p).setContent(popLieu(o)); pu._cxLieu = 1; pu.openOn(mo);
       etat("l=" + encodeURIComponent(o.n));
       if (mob) pan.hidden = true, majPanBtn();
     }
@@ -184,8 +226,13 @@
       var r = e.popup.getElement(); if (!r) return;
       var s = r.querySelector(".cx-pop-s"); if (s) s.onclick = function () { MR.splice(+s.getAttribute("data-i"), 1); sauveR(); mo.closePopup(); dessineR(); };
       var l = r.querySelector(".cx-pop-l"); if (l) l.onclick = function () { partage(); };
+      [].forEach.call(r.querySelectorAll("[data-pc]"), function (b) { b.onclick = function () { mo.closePopup(); ouvreC(b.getAttribute("data-pc")); }; });
+      var tg = r.querySelector(".cx-pop-t"); if (tg) tg.onclick = function () {
+        var id = tg.getAttribute("data-p"); if (S.p[id]) delete S.p[id]; else S.p[id] = 1; sauve(); dessineC(); if (onglet === "coll") rendPan();
+        if (mkC[id]) mkC[id].openPopup();
+      };
     });
-    mo.on("popupclose", function () { if (sel) { sel.setStyle({ radius: 6, fillColor: "#ff2e88" }); sel = null; } });
+    mo.on("popupclose", function (e) { if (selC && e.popup && e.popup._cxLieu) { mo.removeLayer(selC); selC = null; } });
     mapEl.addEventListener("mousemove", function (ev) { var c = caseDe(mo.mouseEventToLatLng(ev)); bas.textContent = c ? tr("sl_off_case", "Case") + " " + c : ""; });
     mapEl.addEventListener("mouseleave", function () { bas.textContent = ""; });
 
@@ -207,10 +254,10 @@
           D.couches.map(function (c) {
             var pts = D.points.filter(function (p) { return p.couche === c.id; }); if (!pts.length) return "";
             var n = pts.filter(function (p) { return S.p[p.id]; }).length;
-            return '<div class="cx-c' + (ouv[c.id] ? " ouv" : "") + '"><button type="button" class="cx-c-t" data-c="' + c.id + '"><i style="background:' + esc(c.couleur) + '"></i>' + esc(txt(c)) + "<small>" + n + "/" + pts.length + "</small></button>" +
+            return '<div class="cx-c' + (ouv[c.id] ? " ouv" : "") + '"><div class="cx-c-h"><button type="button" class="cx-c-t" data-c="' + c.id + '"><i style="background:' + esc(c.couleur) + '"></i>' + esc(txt(c)) + "<small>" + n + "/" + pts.length + "</small></button>" + '<button type="button" class="cx-eye' + (S.o["cx_off_" + c.id] ? "" : " on") + '" data-v="' + c.id + '" aria-label="' + esc(tr("cx_voir", "Afficher sur la carte")) + '" title="' + esc(tr("cx_voir", "Afficher sur la carte")) + '"></button></div>' +
               (ouv[c.id] ? (txt(c, "note_") ? '<p class="cx-aide">' + esc(txt(c, "note_")) + "</p>" : "") + "<ul>" + pts.map(function (p) {
                 var src = (p.sources || []).map(function (u, i) { return '<a href="' + esc(u) + '" target="_blank" rel="noopener nofollow">' + esc(tr("sl_source", "Source")) + " " + (i + 1) + "</a>"; }).join(" · ");
-                return '<li><label><input type="checkbox" data-p="' + esc(p.id) + '"' + (S.p[p.id] ? " checked" : "") + "><span><b>" + esc(txt(p) || p.id) + "</b>" + (txt(p, "note_") ? "<small>" + esc(txt(p, "note_")) + "</small>" : "") + (src ? "<small>" + src + "</small>" : "") + "</span></label></li>";
+                return '<li><label><input type="checkbox" data-p="' + esc(p.id) + '"' + (S.p[p.id] ? " checked" : "") + "><span><b>" + esc(txt(p) || p.id) + "</b>" + (txt(p, "note_") ? "<small>" + esc(txt(p, "note_")) + "</small>" : "") + (src ? "<small>" + src + "</small>" : "") + "</span></label>" + (mkC[p.id] ? '<button type="button" class="cx-go" data-go="' + esc(p.id) + '" aria-label="' + esc(tr("cx_voir", "Afficher sur la carte")) + '">➜</button>' : "") + "</li>";
               }).join("") + "</ul>" : "") + "</div>";
           }).join("");
       } else {
@@ -224,11 +271,13 @@
       var b = ev.target.closest("button"); if (!b) return;
       if (b.hasAttribute("data-n")) { var o = trouve(b.getAttribute("data-n")); if (o) voir(o); }
       else if (b.hasAttribute("data-m")) { var m = MR[+b.getAttribute("data-m")]; mo.flyTo([m.a, m.o], Math.max(mo.getZoom(), mo.getMinZoom() + 2), { duration: .7 }); if (mob) { pan.hidden = true; majPanBtn(); } }
+      else if (b.hasAttribute("data-go")) { ouvreC(b.getAttribute("data-go")); }
+      else if (b.hasAttribute("data-v")) { var v = b.getAttribute("data-v"); if (mo.hasLayer(gC[v])) { mo.removeLayer(gC[v]); S.o["cx_off_" + v] = 1; } else { gC[v].addTo(mo); delete S.o["cx_off_" + v]; } sauve(); rendPan(); }
       else if (b.hasAttribute("data-c")) { var id = b.getAttribute("data-c"); ouv[id] = !ouv[id]; rendPan(); }
       else if (b.classList.contains("cx-b-pose")) { pose = !pose; el.classList.toggle("cx-pose", pose); rendPan(); if (pose && mob) { pan.hidden = true; majPanBtn(); info(tr("sl_off_pose_on", "Touchez la carte à l'endroit voulu")); } }
       else if (b.classList.contains("cx-vider")) { if (window.confirm(tr("sl_off_vider_q", "Effacer tous vos repères ?"))) { MR = []; sauveR(); dessineR(); } }
     });
-    corps.addEventListener("change", function (ev) { var i = ev.target; if (!i.hasAttribute("data-p")) return; var id = i.getAttribute("data-p"); if (i.checked) S.p[id] = 1; else delete S.p[id]; sauve(); rendPan(); });
+    corps.addEventListener("change", function (ev) { var i = ev.target; if (!i.hasAttribute("data-p")) return; var id = i.getAttribute("data-p"); if (i.checked) S.p[id] = 1; else delete S.p[id]; sauve(); dessineC(); rendPan(); });
     L.DomEvent.disableClickPropagation(pan); L.DomEvent.disableScrollPropagation(pan);
     [".cx-haut", ".cx-outils"].forEach(function (s) { L.DomEvent.disableClickPropagation($(s)); L.DomEvent.disableScrollPropagation($(s)); });
     var pb = $(".cx-b-pan");
@@ -264,7 +313,8 @@
       $(".cx-b-plein").title = tr("cx_plein", "Plein écran"); $(".cx-b-cadre").title = tr("cx_cadre", "Toute la carte"); $(".cx-b-part").title = tr("cx_partager", "Partager cette vue"); $(".cx-b-noms").title = tr("cx_noms", "Afficher les noms");
       majPanBtn(); rendPan(); dessineR();
     }
-    textes(); document.addEventListener("langchange", textes);
+    dessineC();
+    textes(); document.addEventListener("langchange", function () { dessineC(); textes(); });
     cadre(); setTimeout(function () { cadre(); depart(); }, 150);
     function depart() {
       var h = h0;
