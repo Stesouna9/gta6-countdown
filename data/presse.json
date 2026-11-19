@@ -1,6 +1,78 @@
 {
- "maj": "2026-11-19T11:00:13+00:00",
+ "maj": "2026-11-19T11:20:44+00:00",
  "articles": [
+  {
+   "gn": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbFluODFpY3R0MVBBbHdOSGZtMnktWm93bVJ6Rm5UOFhWeTdIX0JDUmFtNTRwWG4zUHJEWmtmM2NCMW1LUHdyVXR2aTJXUXp3eFhSQ05GVEp1MW0wZmt1UW5xeUlPZ1BXRDl6ZTdTQ3hTWHhlSlI5ZC1EdVAxaW9UX2dKT2VSakdLbEUxQXhKcHZBUHhONTZZOWk3ZGs5Tm43OVpKem5HYnd2amhQ?oc=5",
+   "s": "Journal du Geek",
+   "d": "2026-11-19T11:17:58+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : le voyage rapide coûte 100 $, et la police peut vous le bloquer",
+   "erreur": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQU05LdVg1WDBtYnJsX013SUJ5SURoODJ3T3hBdDY3SVdYbF9xeWVxT0VjeVZIUVBKb0JEdTZfd1hMa0ZlLXNxVjJZX2pwRlJLam9aOV9mTUctWEYyaGZIbC1MbTJ3X2JuanpiTllPYjRhTWdVYWY1dTF0bjE0NkRBVUFWTFQ1dFpiV2tfYkNxMmE5MExHYWJyRnFRX21Sd1NtR1NyOFNTU1Q2ZmQ0LUtwaElJeGJrQzhDaE1N?oc=5",
+   "s": "Hungarian Conservative",
+   "d": "2026-11-19T11:12:02+00:00",
+   "lang": "en",
+   "t": "GTA 6 Becomes Biggest Entertainment Launch in History",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBwYlBYc1BuQTZDWXZhOXdpX0l4N3ZnSF9ZZ0t3RWl5UkFXQUtneXJDUEFsSWpSVWJ6YlhvbERCdUVyb1pTVkRfT3phc2lfWjRwektiNk1kSm5yTGtGb3VjSWVPSXFia0tZcmZjaVBGNmxYRWVwamR3cWl3X2F3Zw?oc=5",
+   "s": "Cultured Vultures",
+   "d": "2026-11-19T11:09:37+00:00",
+   "lang": "en",
+   "t": "GTA 6: How to Listen To Korn and Linkin Park",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB4dG1US1dCcW5qOUdRMzNNR0daTnFKZEQ1bFNKZG5Ca0tPRkFzVWEzVFRfQy1oc0w0X193M2FmYWpCTUNISURZakk0VW9UYnJQSnVXd0o5VmZFZlE0ME9ZOWx1OG4xd2hZX2pvYXhB?oc=5",
+   "s": "Mashable",
+   "d": "2026-11-19T11:04:43+00:00",
+   "lang": "en",
+   "t": "GTA 6: Should you kill or spare Arnold? What to know.",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWEI0UENZczlVR2lLTTU1MXlKaDdCNE9vZElWa1FoYWNNa1ZqTzhCb2g2ZlRoYUJULXpMZEJaZ19nMzZUSUpNRm1rZHU3UTQycHUzR0tCRmZ6S01rXzE0ZTd3aWlERV9FN2I0bGpVUjY2WlBqc2Y3SUxJSGpqU1pDSzNTNTFqYUJIeVhEZENRZS1GRmhyRnE2aDI4TUVHNFN3NDFsMmh2YlJFSE9SVDVDeA?oc=5",
+   "s": "Journal du Geek",
+   "d": "2026-11-19T11:00:07+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : la première mission des joueurs français se joue dans les menus",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE16U2hCWjd1MUJjRUs2R25Td1ZXRmd4bDRpd3ltX0NJVXgyV0NMdzNvWGxOZmxOSFotRllOSmRZSTJSbnRpVFFocFlObWJ3QWo5Z1hGVXA4Z1VmOWtNY2VSSDdiVDdsMlU?oc=5",
+   "s": "VICE",
+   "d": "2026-11-19T11:00:00+00:00",
+   "lang": "en",
+   "t": "GTA 6 Is Finally Here! Here’s How to Play Right Now",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbnAzYzZVSjJrTkNKYXdaVV9lUWV2QmR3RGlnQ1NHT0VTZkdIM1p1dGN4UXYxOGNCWU5QQnFybHRIcTRFRk9EaGVOVndvMWx5NERsMnFXRUQxTlBuSF9qRjlseUFqeE5ZN3cxQ3lMRUxRSHJ6SmREamNicGFDbnc5RWtjdEZfdlA3M0FYRlRNVFN5SnRNam01cG9WWUJsajZ6ajd0ZkdNUUxnS3Zv?oc=5",
+   "s": "Le Point",
+   "d": "2026-11-19T10:56:19+00:00",
+   "lang": "fr",
+   "t": "De « petite amie de » à braqueuse en chef : « GTA VI » fait-il sa révolution féministe ?",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOendxRnF4d1NnVDdCaHN3WFk0ZHJrcmZwakdMTWplWGY5Sk9ycWpsU2VvYWlFbUo2OWVPNTdOVE5EOGtzMk1fMXlMN0VpZU9ZZkttNFBWYnVYM2kyeE0weTFISVhPcmtTcFpaTUo4bXlsZTd2QmpoUkp0bi1QeVRoYVkyRENJbkVXaFpLYWtpTXpva3lITHVqdmU4VnJiV2FzYnF0NXJjX0JFaWtCcE54dGZvQUxIb010UmtSVVQtZkNueGJEdmppS29GOExYNTdobTlURlA2ZjZPZjlINDZ3R2hIVQ?oc=5",
+   "s": "Sortir à Paris",
+   "d": "2026-11-19T10:50:33+00:00",
+   "lang": "fr",
+   "t": "Vous ne jouez pas à GTA 6 ? Voici les autres grands jeux à ne pas manquer cette fin d'année",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOYVpZeEJVTUJiMzN0aGgyMnhDZmwwVklPaWE5NlYtak5pWVhpQVpNZXNxRDdDdnhGcWJKbWUwajNmZW53WG82Vjd0NE9LS3lERG5odTF0YzAySFF2Vk41eU16bWllOUtvSm53RWVJZ3BDd2JJQVAzZ1dfZ2RXd25TRkY4ODNuTVNNRXJ4TnpPZ25tSHgyWnRPdDEzMm8wUFJhalRuOTNxdjZHNV9obHVWUUxKTDFKbW9BOVdkMGZHdnc1UQ?oc=5",
+   "s": "Frandroid",
+   "d": "2026-11-19T10:49:55+00:00",
+   "lang": "fr",
+   "t": "GTA 6 sur PS5 et Xbox : quels réglages de téléviseur choisir pour la meilleure image ?",
+   "erreur": "429 : passage suivant"
+  },
   {
    "gn": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPV1BZQm1YeTVRQnpRQmhzOEFtLWF5SWxnYThoUkFYYnViX1l6SGlOTmI4T040dUthdEdRSW12cHdaTHpWc0JEa2prYV9IMHFaLXpzeUZteUJYMnFxV2VRRmtVaTJldXEtQkIwTHRGQlYxRUtpUF9YTDhCMjJMYlZkamFWZWxrVlFBTDVOVzB6REk5cUhoSDFzME1MSGxfVVZvWG1uaERjZVh4d2ZuQmYzWFJ1Tjd4M2JwdVE0?oc=5",
    "s": "01net.com",
@@ -14,16 +86,20 @@
    "pub": "2026-11-19T10:47:32+00:00"
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQT1hZMEpBbGxtUDV5bGZaWE0zMzItbUstMUlkNmdMenprMUFxcmVKckowaVNhZld2ZGR5QjJNMEVXeG9KOG9udktSTktTS2FvRlpkVU5xSUZkVnRiYWh3ejBUN0RhSF9RSmZDMEZmWHBpamVYVWdudG9sMDVEZVM2VWZfVVcxdTY5b0IyQWMtajByaml0WUlKbnAzWQ?oc=5",
+   "s": "80 Level",
+   "d": "2026-11-19T10:46:59+00:00",
+   "lang": "en",
+   "t": "System Shock Producer Warren Spector Hopes \"GTA 6 Is the Last of Its Kind\"",
+   "erreur": "429 : passage suivant"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPcjZqdXFheDk3R0dJT3JrbWgtdERzRWxoN0l0Uk01WVhOWmVsc3ZySjE2emQ3SUlDdDA0RGVZZmNsVThVZWtzU1MtTDNUcE4yYjQ0cXVjWlRsWUI0enJZbHVQbXBOMU5jY3NvVmFMNXRsMEVCdXpRbTZRUlV1NXZHSjc3WjczUzRWZGtaMnZEb3R6YlhXQUFyQ05abHRQMlJwZEtRc2VnRFNuUHZQdmtycmRhQ014MW9hVlVORC1FTGkyTHRiMVJCUTBIdTVNTzR3eDhVS3hzUUlIeXZ5RkhCcnJmUGlWb1dIOUlxUUtiYURvZzQwM054eXFBYzBuOVE1TElNMA?oc=5",
    "s": "La Provence",
    "d": "2026-11-19T10:44:58+00:00",
    "lang": "fr",
    "t": "25 euros par personne, hot-dog et boisson inclus : le Pathé Plan de Campagne propose de jouer à GTA 6 sur écran géant",
-   "u": "https://www.laprovence.com/article/societe/71301976434097/jouer-a-gta-6-sur-grand-ecran-au-cinema-le-pathe-plan-de-campagne-privatise-ses-salles-pour-une-experience-immersive",
-   "img": "https://pictures.laprovence.com/cdn-cgi/image/width=1200,quality=80,format=auto,/media/melody/2026/11/19/il-est-possible-de-jouer-a-gta-6-au-cinema-pathe-de-plan-de-campagne-1795085098_98c13fd2defa67cc13fd2defa40d13v_.jpg",
-   "chapeau": "Jouer à GTA 6 sur grand écran au cinéma : le Pathé Plan de Campagne privatise ses salles pour une expérience immersive",
-   "txt": "",
-   "pub": "2026-11-19T11:44:58+01:00"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5vWmp6X0UtMGhZTTh0S3JfaGhBNVgzTHNVLXRGSks2VEY5cEZfcG1WTHZvd2ZBNUZBY0ZpUGxtUjU1YmV3bHNGVjhDVEQtZUR0eWJ3Yzln?oc=5",
@@ -86,6 +162,14 @@
    "pub": "2026-11-19T10:30:43+00:00"
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQY01HMVNIcTl5VnpWRnlaZ0h0bXVnWmZzZXdYM3pBLXl0MDhSVndqeTFLbmNVQ2xXQno3SGZxOGlkUV9EMWoydkxvSkpfQkR0TWV3QjVWQlZQX1ZYTnBpZGRLNUtkd3dWNnE1YTBzQVFmZThOMnczSWw5UHh1Y1VaLWJJYmxUQlpBSmlTTGZYdERkc0dvRFEzWnd5djZ4SkJFckV5MFBUb3ZwYm94aHBqYU9nenFEY1lzTUJ5VUVGdmFPeWg1LXFNVlplY3JPOWs2YmtLSVhKZjBydmV6bmc?oc=5",
+   "s": "Serieously",
+   "d": "2026-11-19T10:30:00+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : munitions illimitées, argent à l'infini, immortalité... les 61 codes de triche dévoilés ! Comment les débloquer ?",
+   "erreur": "429 : passage suivant"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5tTTVvM0JOMzF6MGFJOXNUa2lwOE5GWVQtRmU2TUY2dkFNcXhFUlR1NVJHTTVtakM0clFiUlV4Zzdhb3NnandTeVk0OEhfWWhfTzdMLXVDenp0cm5SYjF4SUd2bFp5N2IyZm1WRFZ6RmFfczl1?oc=5",
    "s": "Mashable",
    "d": "2026-11-19T10:30:00+00:00",
@@ -96,18 +180,6 @@
    "chapeau": "Here's the verdict.",
    "txt": "Reading through Reddit, there is no shortage of concerns about how well Xbox Series S will or won’t run the game. As the release neared, fans seemed confident that Rockstar Games would ensure the game was playable, but opinions varied widely on what graphical sacrifices would be required for it to run, including reduced crowd density and scaled-back visuals.\nHow much time did I spend sweating the idea of crowd density? Too much. Did I ever think about it or care about it until Redditors said it’ll likely be less on the Series S? Not at all.\nAnd yet, while it filled me with regret for not buying a PS5 last Black Friday before the price hikes arrived, it did not stop me from buying GTA 6 on Xbox Series S, debating whether or not to resist the pull off the New Zealand timezone trick to play it early, and preparing to explore Leonida.\nAnd now, having played GTA 6 for a few hours, I can tell you everything you need to know about how it runs and how it feels.\nI won’t keep you waiting: GTA 6 runs smooth as butter on Xbox Series S. There were no stutters, no lag or other slowdowns that pulled me out of the gameplay.\nDuring a prologue that introduced me to protagonists Jason and Lucia, I quickly experienced a variety of locations in daytime and nighttime, as well as rainy weather. After that, I was able to play around Leonida and check out all the basic things that might catch your attention as you play: how the weather looks, flying down the road in a car through busy streets, random tasks around Jason's home.\nIn addition to moving quickly through various areas, I also took a moment to slow down. I watched a sunset by the water, went for a swim surrounded by fish, and observed how the environment affected Jason. Nothing slowed down, glitched out, or made me think anything other than I was playing a AAA game.\nWhat I can’t tell you right now is how much better GTA 6 is or isn’t on PS5 or any of the higher-end consoles. We’re in the process of comparing the Xbox Series S version to the PS5 Pro version as we speak.\nRockstar has explicitly said the game will run best on PS5 consoles, with faster load times and technology that may improve resolution. The PS5 Pro version will also include ray tracing, making the lighting even more eye-catching. But both games will still be locked at 30 frames per second, according to Rockstar. The game developer did not say if any other sacrifices had to be made to get it to run on the Xbox Series S.\nRegardless, what I can tell you is there is a good game waiting for you to play on Xbox Series S. If you don’t have the funds to upgrade your console, do not let comparison be the thief of joy.\nGTA 6 is a generational moment in gaming and a cultural moment much larger than any game launch I’ve ever seen. The game is fun, the music is a vibe, and the world is immersive without feeling like a chore. I can't imagine waiting to play this if they have the means to do so right now.\nWant more tech and digital culture news delivered to your inbox daily or sent straight to your device? Sign up for Mashable's Top Stories newsletter or get Mashable push alerts today. Recommended deals for you HBO Max — top pick for premium content\nEric Miller has more than 20 years of journalism experience, with much of that time spent building and leading teams in the US and UK.",
    "pub": "2026-11-18T12:57:27+00:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbVVuVDNERWN3eW1pWDViSkZsaVBlNnBSdFUyTEdlZk9SLUYwRUxGY2Z2UGZ0czAtalF6NVF1QURuUmJIVjhsZTl2MHM4YXlRN0ZBRXZNTEVfVjZqQ0NmdDhSMkoyeDdYa3lZcFlhd1lFZjFXYkVBbGkwb2ZIdEVqdmdMbEYyRnFEdVZJ?oc=5",
-   "s": "PinkNews",
-   "d": "2026-11-19T10:26:59+00:00",
-   "lang": "en",
-   "t": "Can you actually be gay in Grand Theft Auto VI?",
-   "u": "https://www.thepinknews.com/2026/11/19/can-you-be-gay-in-grand-theft-auto-vi-gta-6/",
-   "img": "https://www.thepinknews.com/wp-content/uploads/2026/11/GTA-6.jpg",
-   "chapeau": "GTA 6 is out now, but some gamers are investigating whether there are gay characters or gay bars in the new instalment.",
-   "txt": "Save for later Comment Can you be gay in Grand Theft Auto 6? (Rockstar Games)\nAfter a 13-year wait for Grand Theft Auto 6 (GTA 6), some gamers have one question: can you be gay in GTA 6 ?\nQueer News. Straight Up. The LGBTQ+ stories you don’t want to miss, delivered to your inbox daily.\nThanks for registering! You can update your email subscriptions at any time in the My profile section of your account.\nAhead of the new instalment’s release today (19 November), much speculation had surrounded the game’s LGBTQ+ potential. However, the game has quite the troubled history with LGBTQ+ representation .\nGTA 6 is an open-world game that follows a couple, Jason Duval and Lucia Caminos . Players can choose to play as either of them and pursue a romantic relationship between the pair, or not at all.\nThe game is set in Vice City, a fictional city based on Miami, Florida . A pretty gay real-life location, by all accounts.\nThe main premise is that Jason and Lucia are taking on some nefarious work. When a heist goes wrong, they’re hunted down and pulled into a conspiracy. Meanwhile, they must protect each other and try to wiggle out of trouble.\nWhen playing GTA 6, you can choose and switch between the two main protagonists, Jason and Lucia.\nWhen playing as Jason, a cutscene shows him playing a computer game with his friend, Lacy.",
-   "pub": "2026-11-19T10:20:59+00:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRG1WU2xJQ2FCNktKTVRYN3dSVkJ4OEJRbjJvbFEtclJzd29IUzloUG1RdmFOaHNaN1dJOVpjR3Z1YWNfcmVlZlU5WGdBRmVObjBORUxtcXl2a1FOMzRoYnRIYy12REhUYnhhQzFtdVhSanpPVmFoaUs5RlZPZDhkMkRPQ0dYcmJkeE1uWGlGdkJzNmctQ1NvNQ?oc=5",
@@ -127,7 +199,7 @@
    "d": "2026-11-19T10:25:13+00:00",
    "lang": "en",
    "t": "FROM LEAKS TO OFFICIAL LAUNCH🌴 From a massive gameplay leak to multiple trailer reveals and release delays, Grand Theft Auto VI has had quite a journey. Kapamilya, here’s a look at the major milestones leading to its launch.",
-   "erreur": "HTTP Error 400: Bad Request",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -136,7 +208,15 @@
    "d": "2026-11-19T10:15:00+00:00",
    "lang": "fr",
    "t": "GTA 6 : 10 actions à surveiller pour le plus gros lancement de l’histoire du jeu vidéo",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOWDBVa0h6QUY2UzV6SksxTEtfVURDWVBxOEdDcG8yZndfb25DdDNPMzh5M3RyNW5DSWVQVzMydHd5RjI5VS1peWUxZ0c4SHRLYnNxa1JuNl9HZkRHZmY0d3pSZEY4SWVHWjdjSW1nLTZMN2FON09udWRZbkRxamFrSHVuTkMxTTFLOTJid1FNQ0JoamF2QXVHZ0Q2MkFPdlcxN0p4Q0dOa3RNNkw3NmZHRTV5Qk5iSnlBdTF6MnY4amxsZVRkSDRQMW1qVVV5cmJDMktvVUpNNnFWNXJwUmN1YlA3UWJvR2RlVjdIemdaSGctUThwV3dEelVTVmN6Zw?oc=5",
+   "s": "RTL",
+   "d": "2026-11-19T10:14:27+00:00",
+   "lang": "fr",
+   "t": "Plus de \"3,3 millions de spectateurs simultanés\" : \"GTA 6\" signe un lancement historique sur la plateforme de streaming Twitch",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5wS1RUZlp1eVRINUZEcDRPWjFQUW5XQUc5aGthaVVLdG9pb0MxWmJMMXBlNlF0am5ycVVrd3NUT3ZHNjd1SHN3YW90ZFdjUDdqX2FJSTRsWGdNUnh6ek000gFkQVVfeXFMT1F6OUhWMmJzR3Y4VlpFRzlSVGFHZTFqQS01TWk1ckpFSEM4S2hyVlBMcGVZVFAzS25PMXltYlNpa1ZBdjJiRUhpZlRoT2JhanNrVXZiUDllckNsWm9PMDY2SXBvTg?oc=5",
@@ -156,19 +236,23 @@
    "d": "2026-11-19T10:06:00+00:00",
    "lang": "en",
    "t": "GTA 6 crashes look fun. In real life, it could cost you $18K to repair",
-   "erreur": "HTTP Error 402: Payment Required"
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMisAJBVV95cUxON0tiRHl4b0NoTXpTM3Z5YUk4N3BPYkNmV0xLb0pLRExhaXV5WEU5RjlTb3djNm9PQ0daM29vOXFMSkc1eEh3MTRrVUdlM3U4MVdpdjNJQlZDSHBVLURZVWJjVVFNMl8wQ21KWUljaDIzajVVYVJQNHFwZ0lDRUJKR3kyVTMzbWF3OXEtUkRkWENGOU53VXp5SlJ2Y0FySTlQT3gzbi05cVFUYXlqNW1tV0RJV0U2a3lxekVRWTd5bVd0MEMtWGZKTmNpa0UxM0RBMlJvdnZiTWdQSEUyQ0x3d1I4TVFkNTBoNmFHdEo0WVU3NGlEeEpHYkJfaVVmQXhOTnVqTmVHWXplVjZMTDNHN2JDdnZ2X3lXQ2taWnJZOEk5ZVAyVWdDaS1UTXhfa3Ni?oc=5",
+   "s": "Yahoo Tech",
+   "d": "2026-11-19T10:05:59+00:00",
+   "lang": "en",
+   "t": "'GTA 6' is out now and officially ready to play: Everything you need to know about the Rockstar game launch including reviews, pricing, story mode and more",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUXpoQzQ2THdfVFVnc1hoSDFIN1otWkhraHNRTTloVE1XN0J5clptT0wtVGEwbjFCYWZBZkE3RHlkenZ5NWQtSVhiQm5JZ0xmN3VfTTBkMUtxVHl6U0xtU2FFUWJuUDJhZFJISFE0TXJOa2tuUU11ZUs4d2hBd3JfbE9mbnRONHMxdU9UUVlKUmdIQ1BSX1E?oc=5",
    "s": "Business Insider",
    "d": "2026-11-19T10:05:00+00:00",
    "lang": "en",
-   "t": "I used to sneak into my brother's room when he played GTA 3. Decades later, I'm hiding from my wife and son to play GTA 6.",
-   "u": "https://www.businessinsider.com/gta-6-gaming-as-dad-work-parenting-responsibilities-2026-11",
-   "img": "https://i.insider.com/6afc52d5f0664acecacb99c7?width=1200&format=jpeg",
-   "chapeau": "I grew up loving Grand Theft Auto. Now I'm 34 with a wife, son, and mortgage, trying to squeeze GTA 6 into my busy life.",
-   "txt": "",
-   "pub": ""
+   "t": "I Played GTA 3 As a Kid. Now As a Dad I Sneak Away to Play GTA 6.",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaFQ5SWZtUm53djE1Wk9vaEVMS21KazBITklZQi1paVc0LWNkdlhiTFVDLTZKdTdYdjVzLWlybDY4Z3FCSjdZek5NLWtwTGdsMm1oWVA0RnMwbGlSYUJXakhlVXAtem1ZeHZJSEFRVnlNcHJIb1ZIQVhKdEs3UnMyVTN6UWJtM3V6YkxHTmMyUmZ1NDhleGI3Y0l4WnpHd1FZNVFqdVZYenhUU2JL?oc=5",
@@ -176,19 +260,7 @@
    "d": "2026-11-19T10:00:01+00:00",
    "lang": "en",
    "t": "GTA 6 is out now. What parents need to know about its Mature rating",
-   "u": "https://www.news4jax.com/news/2026/11/19/gta-6-is-now-out-what-parents-need-to-know-about-its-mature-rating/",
-   "img": "https://bc.gmg.io/image/upload/c_thumb,q_auto,w_700,f_jpg/media/gmg/VUPWH6AJEJGZPC3NG5GYN6HCXQ.jpg?api_key=news4jax_3f10b25586458189",
-   "chapeau": "One of the most anticipated video game releases in years arrives tomorrow, and parents may want to pay close attention before their kids start playing.",
-   "txt": "",
-   "pub": "2026-11-19T10:00:01Z"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQY2EtSXpQZk5jM2szUTJxM002RkhoaERLVGVuVUU1ZVFXY2E1Y0JuSTNrMHp2M0dFUEF2MlBHOWptMHZ3cXM1bTVGTFdaRjd0M1N4NElXQ1k2cDlFSUdxWGY0NlZWMmZlczZHMk85Z3o2NjFyMFVFb0xXM3RiQTZFTHcwdklzTVkzbWw2S1ZRcDdqVkozcG05TDJJbXlZY0JnSG91UUhFOWJELUFhV1BQOVcyQlRVWmlKcElwM19TSFpVTmZTa2xvZllHUXjSAdIBQVVfeXFMTjdHdW1IYjJIemJLQ2lXVDdSS1NCX0hZU1J0a1QzVGZUQ3RyTnJNU0VPdmo1allyNDFfQzZIcXQ2QmM1UjAteVpoOTg3dVB3blJvQTBnWXozdFBnMzlrc3ZGTUo3SVRpZHRxaE51aU90V1hYS3NJNzZUMmdMQXNMbUdqRkhEbG11bGZOeDRPTnItZmhMZ0YwTmNXcVpvUzNzYWE1b3RpX3BQVXpkT0dySXJ2eDFlRXVFbU5ocXdFdDdUelpJNVhzSVFzYWhFdGFIM19n?oc=5",
-   "s": "CNews",
-   "d": "2026-11-19T10:00:00+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : après 13 ans d’attente, le phénomène arrive enfin… Où l’acheter au meilleur prix ?",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZlQwZWlXS3pRYjZBQjZhX2taa3c5dnVDWUZydXJNN2VlR0RrS1lSTmpPOGgtMG5IZ0l0R2pORUV3YUlHRWozdmpLbGFrOW50OHZKNTFiUzc2RkJnQTFPeVB6QUswZ0t2NlJjcDdtYk15bU1QcWJGTnJJTDktOEJpY2NuUlZab0lVT3lkNkdOY0ZHanNvMTl1XzZ3?oc=5",
@@ -203,132 +275,12 @@
    "pub": ""
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRmRyNVFmQVpMdUxiSTNjTVg1d3daakFuUk51Z3RSbWFSODZ1dDNjbmtXS1VvS1VhQllyS0gzdF9hUzlxUEY0NVFsaVkwZjJuX2s5MzVXVlVUcWp2YU1zYlcwRjNnWEhla1NJNEFzbURNMVZKVThtUzhjSFlKcWtfb0hpZUh6YzFKVFlycFY2aTlPUFBMRVZaMF9nZGU5UGhHVmVYN19rbnM?oc=5",
-   "s": "Gamekult",
-   "d": "2026-11-19T09:58:00+00:00",
-   "lang": "fr",
-   "t": "Au Japon, GTA 6 se mange une petite censure sympathique",
-   "u": "https://www.gamekult.com/actualite/au-japon-gta-6-se-mange-une-petite-censure-sympathique-3050873064.html",
-   "img": "https://cdn.gamekult.com/optim/images/news/30/3050873064/au-japon-gta-6-se-mange-une-petite-censure-sympathique-dc6b6a8b__w1920.jpg",
-   "chapeau": "No strings attached",
-   "txt": "Alors que GTA 6 s'est déployé un peu partout dans le monde, et pas sans bruit, figurez-vous que nos amis japonais profitent d'un titre légèrement modifié pour l'occasion : l'ami Jason, protagoniste principal du jeu, y prend sa douche affublé d'un joli string noir, alors qu'il est complètement nu pour toutes les autres versions mondiales du jeu.\nPlusieurs comptes de joueurs japonais indiquent donc que, lorsque Jason prend sa douche, son postérieur est \"un peu\" couvert, tandis que dans la version classique du jeu il est habituellement entièrement nu pendant la gageure. Un autre message sur les réseaux sociaux relève qu’un autre personnage masculin, non joueur, porte un string noir très semblable dans une séquence qui le montre normalement nu dans les versions internationales. De manière générale, toutes les scènes de nudité masculine ont été traitées de la même manière par Rockstar pour la version japonaise.\nEt ce n'est pas bien surprenant, somme toute : avant la commercialisation du jeu, l’organisme de classification du pays ne mentionnait aucun contenu sexuel, alors qu'on le savait évidemment présent un peu partout ailleurs. Notez aussi que la taille d’installation de la version japonaise est aussi nettement inférieure à celle des autres régions. Bien entendu, ce n'est absolument pas la première fois qu'un jeu occidental souffre de censure au Japon : les scènes les plus explicites de Baldur’s Gate 3 et de The Witcher 3 ont été modifiées également. D'ailleurs, pour GTA V , Rockstar avait dû supprimer une scène de torture pour obtenir l'agrément. Il est donc tout à fait possible que certaines scènes de GTA 6 aient été complètement censurées sur la version japonaise également. Nul doute que nous en saurons plus avec le temps.\nGTA 6 est disponible sur Xbox Series X/S et PS5 depuis aujourd'hui.\nTake Two Interactive 526 jeux Rockstar North 95 jeux Le jeu en rapport Grand Theft Auto VI Rockstar North",
-   "pub": "2026-11-19T10:58:00+01:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQTVdPNkdjT3lxMDkwMGJxR01wMHM3WXVibkVkaUhnbmgtWFhHTC1NRVlQSVFDXzhXUldZZG1CYnBzRndQZ3FyWEN2WTYyWHdiNzhTRXlfTWlLV0VCNnViSWd0M3JyRG5ydFhmelRDUlJoYWZVUTRGZDdFX2xHUkpBRWxjTk1FblViS1VpSklRU2RjTzNDakFEemJvdWRtTDFTaVh3ZENqQ21mbVl3NFJCdExGT1NpbmtlTDV6bU1rX2EtYldRaVQ3TnotWmlBQzdnc2pud3dhNWI1WXFKaEJKZ0pxN2xmVDVDVk13N0Z2RUx5VjI1ZGxhVFpXVzMxZWVTTk03QUN6UlgtNWdPV0FtRQ?oc=5",
-   "s": "Le Parisien",
-   "d": "2026-11-19T09:53:00+00:00",
-   "lang": "fr",
-   "t": "GTA 6 sort aujourd’hui : quel VPN choisir pour jouer en ligne en toute sécurité (jusqu’à -83%) ?",
-   "u": "https://www.leparisien.fr/guide-shopping/high-tech/vpn/gta-6-sort-aujourdhui-quel-vpn-choisir-pour-jouer-en-ligne-en-toute-securite-jusqua-83-19-11-2026-UVQ35NHV3JB2TPGQ55CCKRMDXU.php",
-   "img": "https://www.leparisien.fr/resizer/5lMMALSvQHQmhyVqmfuQzgfx7go=/1600x900/cloudfront-eu-central-1.images.arcpublishing.com/lpguideshopping/HONMP55ZDBHLRE6CSEBYFMIPAA.webp",
-   "chapeau": "GTA est sorti ce jeudi 19 novembre 2026, pour le plus grand plaisir des fans de jeux-vidéo. Celui qui s’annonce comme l’un des plus grands j",
-   "txt": "La rédaction du Parisien n'a pas participé à la réalisation de cet article.\nMais, pour jouer en ligne en toute sécurité à GTA 6 à l’avenir, il est recommandé de se tourner vers un VPN. Justement, à l’approche du Black Friday, CyberGhost met le paquet et propose jusqu’à 83% de remise .\nAvec la Black Friday, le VPN pas cher CyberGhost est donc en promotion. En effet, il est actuellement possible de l’obtenir pour seulement 1,99€/mois , et ce, grâce à une remise de 83%. En outre, le VPN en promo ajoute en ce moment 4 mois supplémentaires offerts.\nDans les faits, pour obtenir CyberGhost, il ne pas payer mensuellement. En effet, CyberGhost propose un paiement unique de 55,72€/mois , ce qui revient à 2,99€/mois. De plus, le fournisseur ajoute une garantie de satisfait ou remboursé, permettant de tester GTA 6 avec le VPN et de faire machine arrière si nécessaire.\nL’avantage,c’est que CyberGhost est utilisable sur plusieurs appareils en même temps (jusqu’à 7). De fait, il est possible de le connecter sur sa console pour GTA 6 , mais aussi sur son smartphone, sa tablette, son ordinateur, et même sur sa Smart TV.\nAvec des serveurs de plus de 100 pays et des réseaux 10 Gb/s , le VPN en promo est idéal pour surfer rapidement sur Internet, comme si aucun VPN n’était connecté. De plus, CyberGhost note que la bande passante reste complètement illimitée. Niveau sécurité, le fournisseur ajoute également un chiffrement de pointe, le split tunneling et le kill switch automatique.\nÉvidemment, la force de ce VPN pas cher est de proposer une sécurité des données personnelles à ses clients. En effet, il y a zéro suivi, une politique no logs avérée et un contrôle anti-fuite d’e-mail. Enfin, CyberGhost assure aussi une assistance 24h/24 et 7j/7 .\nNos meilleures offres et bons plans shopping dans vos e-mails !",
-   "pub": "2026-11-19T10:53:00+01:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOOEpENXdfS1UtRWFLQzVhd2pUTnlfZG5HZlN4Mk5RaHdVTk5nUlBuUTVFQ3dLeU8tMklDZktOODZsRFgzRUlzM21kNXJ0VGdzSlJld0RkaUhWWlpuVFdySVZibElTeWdid1FzbThSRzlpVmdQQ01xZklsN2lWTnhPZTdpOFZPblBhNlkzNzNHTWpfdEJNZWNWWFZn?oc=5",
-   "s": "The Guardian",
-   "d": "2026-11-19T09:51:00+00:00",
-   "lang": "en",
-   "t": "‘Most extraordinary virtual world’: critics hail Grand Theft Auto VI as masterpiece",
-   "u": "https://www.theguardian.com/games/2026/nov/19/grand-theft-auto-vi-critics-response-masterpiece",
-   "img": "https://i.guim.co.uk/img/media/c5ade9ff40b889ba03d26bbf14ace6145c402940/0_0_5000_4000/master/5000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=0ee16a3da97a11d8f9ee2dd9d999e92c",
-   "chapeau": "Reviewers praise relationship between two leads in hotly anticipated release, whose trailer attracted 90m views in 24 hours",
-   "txt": "The Guardian’s Keza MacDonald said she was rooting so hard for Jason and Lucia she felt sick with worry about what would happen to them. Composite: Washington Post/IGN/The Guardian and MetaCritic View image in fullscreen The Guardian’s Keza MacDonald said she was rooting so hard for Jason and Lucia she felt sick with worry about what would happen to them. Composite: Washington Post/IGN/The Guardian and MetaCritic ‘Most extraordinary virtual world’: critics hail Grand Theft Auto VI as masterpiece Reviewers praise relationship between two leads in hotly anticipated release, whose trailer attracted 90m views in 24 hours\nGood things clearly come to those who wait. After 13 years of anticipation, Grand Theft Auto VI is finally here – and, according to critics, it’s a masterpiece.\nThe trailer for the video game, which returns players to Vice City, Rockstar’s fictional version of Miami, attracted more than 90m views in 24 hours when it was released in December 2023. Excitement continued to mount, with two release delays and a steady stream of leaks and speculation keeping the game in the headlines.\nNow, Metacritic , which aggregates reviews from critics, averages it at 99 out of 100 – tying with Nintendo’s The Legend of Zelda: Ocarina of Time, which has held the record for the best reviewed video game since 1998.\nRead more In a five-star review , the Guardian’s Keza MacDonald said: “In GTA VI, Rockstar has created the most extraordinarily, indulgently detailed virtual world that we have yet seen.”\nMacDonald praised the fictional state of Leonida as an extraordinarily detailed world, populated by incidental encounters and activities that make it feel alive. But for all its violence and grotesque humour, what stood out was the relationship between Jason and Lucia – GTA’s first female protagonist.\nShe said: “I was rooting so hard for Jason and Lucia by the end that I felt quite sick with worry about what was going to happen to them, pacing back and forth in front of my TV throughout the final missions. Among all the expectations I had for GTA VI, I did not expect it to make me so emotional.”\nView image in fullscreen Lucia Caminos in Grand Theft Auto VI. Photograph: Rockstar Games In a 10-out-of-10 review, IGN’s Luke Reilly called it “the single most impressive video game I have ever played”. He praised its graphics, driving mechanics and the sheer amount of detail in its world.\nHe said: “I see no real limit to the amount of time I could spend here, endlessly exploring and interacting with Vice City and the massive area surrounding it. While the well-paced story effectively nudged me around the map, there are still vast sections of it that I’m yet to even visit – despite hitting the credits after almost 120 hours of hijinks.\n“Frankly, I’ve never played anything that’s hit quite like GTA 6 – and right now I have zero plans to stop playing it.”\nIn its five-star review, Eurogamer said Rockstar had “pushed back the horizon of video games once again” with its graphics, storytelling and world building.\nChris Tapsell wrote: “It’s about big ideas, themes, places – America, society, love – and also about individuals. It’s ridiculous and puerile, and also sometimes mature. Tender and violent. Deep and shallow. Novel and, in places, surprisingly familiar.”\nFor the New York Times, the game was “about love and relationships, their joy and heartache, and the work required to make them successful”.\nView image in fullscreen An advertising display for Grand Theft Auto VI in London. Photograph: Chris J Ratcliffe/Reuters Yussef Cole’s review said this reflected a maturation of a series that had “generally only told stories about men solipsistically chasing after their own success”. Whether you’re controlling Jason or Lucia, he added that “much of what you can do – apart from activities routine to GTA like stealing cars and robbing banks – is taking action to care for and nurture your romantic partner”.\nThe Washington Post’s Gene Park awarded the game four stars, saying it “raises the bar at every level”. He highlighted its unusually convincing portrayal of human behaviour, with more than 33,000 individual non-playable characters and interactions shaped by race, class, gender and money.\nWriting for Forbes, Paul Tassi singled out the relationship between Jason and Lucia as one of the game’s greatest achievements, saying: “I can’t say I’ve ever seen a better video game relationship than the one they share.”\nBloomberg’s Jason Schreier gave the game f",
-   "pub": "2026-11-19T04:00:16.000Z"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSFZuTEtyQ21tNkd2MUp4ZmZ3QjVHU00taVJIci0zTzV1Tk5qWjVoSE11TVZOajR2YlBoWkR6VnQtLUhlSnB6ZTdRUUtwRFpWUkVZV2h4dHdLTlRMdHBKdlJlTkJLak15YW9neF9rakdzclhDSXBsRTZuWXRudXQyODRHSDhhNkF1OHQ4YzJlTFc?oc=5",
-   "s": "Presse-citron",
-   "d": "2026-11-19T09:45:08+00:00",
-   "lang": "fr",
-   "t": "Tous les codes de triche GTA 6 : le guide et la liste complète à utiliser sur PS5 et Xbox",
-   "u": "https://www.presse-citron.net/gta-6-codes-triche-rockstar-liste-conditions-ps5-xbox-pc/",
-   "img": "https://www.presse-citron.net/app/uploads/2026/11/gta-6-codes-triche-liste-conditions-1600x900.jpg",
-   "chapeau": "Les premiers tests du jeu GTA 6 permettent d’en savoir plus sur les célèbres codes de triche du jeu sur PS5 et Xbox. Au programme, argent illimité, armes et voitures de sport… avec quelques spécificités pour y accéder.",
-   "txt": "La liste des codes de triche GTA 6 est sortie. Par de simples combinaisons de commande avec la manette, il est possible d’obtenir 250 000 dollars, vous rendre ivre, augmenter le niveau d’alerte, l’indice de recharge, vous rendre insensible aux chutes ou encore réparer le véhicule, obtenir du nitro illimité, une protection pare-balles, des munitions sans limite, ou faire apparaître tout type de véhicule. Les codes de triche GTA font partie intégrante du jeu et Rockstar Games ne l’a pas oublié, 13 ans après GTA 5. Les joueurs pourront aussi ajouter des filtres sur le jeu, changer les conditions météo, ou encore changer la nature des munitions en les rendant incendiaires.\nMais GTA 6 réserve des surprises, y compris sur les codes de triche. Comme l’ont découvert les journalistes qui ont pu accéder au jeu en avant-première, dont nos confrères de Journal du Geek , les règles ont changé pour débloquer les codes de triche. Vous aurez beau en obtenir la liste dès le début du jeu, ils ne pourront pas être disponibles de sitôt.\nTrois conditions s’appliquent pour utiliser les codes triche GTA 6 :\nLes codes de triche peuvent être rentrés en suivant la procédure suivante sur PS5 :\nVous l’aurez compris, certains codes de triche ne fonctionnent pas si vous n’avez pas compléter les défis reliés. Par exemple, pour obtenir les munitions maximales, il faudra remporter 20 médailles de bronze au minimum, au stand de tir. Pour des munitions infinies, on passe alors à 25 médailles d’argent minimum. Enfin, pour ne plus devoir recharger du tout, il faudra obtenir 25 médailles d’or. Le déblocage des véhicules et des armes passe aussi par des quêtes secondaires, comme le fait de faire exploser au moins 100 véhicules pour obtenir le Hauners H-AT (lance-roquettes).\nCertains défis consistent aussi en plusieurs défis. Par exemple, débloquer l’Hydroglisseur 09 passe par le fait de relever 5 défis de survie. La Banshee Bravade (copie de Dodge Viper) implique de terminer tous les défis de combat. Des quêtes qui plairont aux joueurs de jeu de piste permettront de devenir maître du temps (faire avancer le temps ou l’arrêter). Elles demanderont de trouver 10 à 20 montres de collection dans GTA 6. Enfin, avec Jason et Lucia, malgré la satyre américaine, la santé sera mise sur le devant de la scène avec des quêtes de fitness et de séances d’entraînement (notamment pour débloquer l’armure corporelle).\nVoici le récapitulatif des 61 codes recensés, avec leurs effets et les conditions nécessaires pour les obtenir.\n📍 Pour ne manquer aucune actualité de Presse-citron, suivez-nous sur Google Actualités et WhatsApp .\nGTA 6 explose un nouveau record sur Twitch : les chiffres donnent le tournis\n🔴 Panne PlayStation avant la sortie de GTA 6 : Sony indique que tout est rentré dans l’ordre\nIls pensent télécharger GTA 6 gratuitement pour PC, c’était un virus : attention, les pièges se multiplient\n“C’est un véritable changement pour Grand Theft Auto” : GTA 6 sort demain, et sa vraie révolution n’est pas celle qu’on croit",
-   "pub": "2026-11-19T09:45:08+00:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOR0ZGOGJEczlwT3VLRVZ1ajkyMjdXM24tSHFCdE1ZM2RDTVNINE9rZ1IxOW01WElzRzVGQlY0RklPbGJtMjhLeGJnekdIampoR0NSeVdsLVpLbjFIczB3dDlkdnlZdUZwTi1pWmF5NkliWFhDWVh5Y21iWTRNZm1VcW9QVUVEVmdINXdBSFoweUw?oc=5",
-   "s": "GameSpot",
-   "d": "2026-11-19T09:44:02+00:00",
-   "lang": "en",
-   "t": "All Underwater Discoveries In GTA 6 – Kenton’s Treasures Guide",
-   "erreur": "HTTP Error 403: Forbidden"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4yZWpBQnRFdjlfUkFzNE5Yc2ZDX1dtcEtwTjhtWkkzZlduSDdKX0ZWai1PVDNDdFh2X1dxOC1nOWtPODA1VmxWdGZXMlRILVhvQmEzUmRMY3kzNlBFT2ZUdThnNkl0bG5qNEdHY0FxMUV1YXlwZWc?oc=5",
-   "s": "Red Bull",
-   "d": "2026-11-19T09:43:38+00:00",
-   "lang": "en",
-   "t": "GTA 6: Jason and Lucia's unique abilities explained",
-   "erreur": "HTTP Error 403: Forbidden"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPa1hvQUlrRDltT3JRSkt1X2lGTUJlOTRsZTFsTXUxVDVZelhIT0NnU0VzR01pbzhTWTdTUnFZWFJKMjJkSzU3eW5MOFlVZm4xOW1mazVkX3NBcEloa052Z3dyV2ZCdlhNREVqRDd2VDZtZlhZNlM5dTV1Zzdoai04c3N4N1dZZUxHZ3J4UnJVZnVnQWc1S3psX1RuVGFSM2c?oc=5",
-   "s": "Newsweek",
-   "d": "2026-11-19T09:41:00+00:00",
-   "lang": "en",
-   "t": "Alex Jones and Nick Fuentes respond to GTA 6 radio station clips",
-   "u": "https://www.newsweek.com/alex-jones-and-nick-fuentes-respond-to-gta-6-radio-station-clips-12738533",
-   "img": "https://assets.newsweek.com/wp-content/uploads/2026/11/Three-Picture-Split-16.png?w=1200&crop=1",
-   "chapeau": "Clips being shared on social media claim to show a radio station whose characters parody Jones and Fuentes.",
-   "txt": "0 Share Newsweek is a Trust Project member See more of our trusted coverage when you search. Prefer Newsweek on Google to see more of our trusted coverage when you search. Far-right commentators Alex Jones and Nick Fuentes have reacted to clips being circulated claiming to show them being parodied on Grand Theft Auto VI' s satirical talk radio show.\n“I like it a lot,” Jones wrote on X on Thursday, responding to one clip of a car driving in the game with a fake talk radio station show that appeared to mimic his podcast.\nAmerica First host Fuentes was streaming himself playing the game live on the Rumble platform while listening to the radio station.\n\"People are saying this is a parody of me and Alex Jones,\" he said.\n“What do you guys think? Is that really Alex Jones and me? I know everybody’s saying that.\"\nThe apparent parodies are said to appear on the game's WKTT talk radio station. The radio station first appeared in GTA IV, and included The Richard Bastion Show , a parody of a right-wing talk show, whose host was voiced by Jason Sudeikis.\nRockstar Games has not confirmed details about the radio show on GTA VI or who the characters are based on.\nNewsweek reached out to Rockstar Games via email for comment.\nAs players downloaded and started getting to grips with the game , online people started to share clips of the parody radio station within the game.\nDiscussing often right-wing talking points like the role of women, masculinity and protecting the country, it was not long before players joined the dots between the fake in-game shows and real-life examples.\nWhile Jones said that he liked the comparison, Fuentes did not seem convinced that he was the subject of the parody.\n“Is that supposed to be me? Doesn’t really sound like me,” he said during his gameplay livestream.\nAs of Thursday morning, revenue from sales of Grand Theft Auto VI had hit more than $1.6 billion, with more than 17 million units sold, according to market tracker Sensor Tower . PlayStation officially announced on November 10 that GTA 6 had become the most pre-ordered game in PlayStation Store history.\nMeanwhile, according to livestream data from Streams Charts, within three hours of the game becoming available, concurrent viewership across Twitch, YouTube, Kick and other platforms hit 7,886,176, setting a record for a game launch stream.\nViewership on streaming platforms outpaced the previous record of 1.7 million held by Valorant released in 2020.\nMeanwhile, as gamers fire up consoles to spend time in the fictional world, economist José García Montalvo put the total economic toll of the game’s release at $1 billion in lost productivity based on forecasts of 1.5 million U.S. workers calling in sick or taking a holiday.\nContact Newsweek editors on this story: Tobias Meyjes and Emma Lee-Sang",
-   "pub": "2026-11-19T09:41:17"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5yTTZ1ZE9RbThlMmx2UWlVRkdCOTh2N1l4OW1Nb0VnM3JIcUFjQnFqTE0taUF0UTFHSk9UWkdXWjNkNmZIMmlNR1Vta21ZLTVtcFNzejFxSTRwRlkyTjB2UFhYdmo0VzhlQkFfdFdn?oc=5",
-   "s": "overclocking.com",
-   "d": "2026-11-19T09:36:11+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : que du bon à venir pour le PC ?",
-   "erreur": "<urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)>"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNc2p5aUxhQVI0dDhOVVpQZ21INzFMcDVoNWpIRzRYQWdHeWRrcjh3bnhiUjNGQ2xxRDRqVWJlLUtaUEZzR0FhekJFZjFvajFXeWpHSk5CSDdvM05PTG83UkVFQ3R4WW5tUktqN3BDWDhleFhWQUwtREEzNWkwZzRvOW5FM2JyRF8zZVNXX09ZaWhxOE9iS0RDRjZGR281YW92WHB3Q0pYU3pKRG93c1ZEUWc0X1FvNDlNWC0xSUdYSXRRbXNU?oc=5",
-   "s": "Le Figaro",
-   "d": "2026-11-19T09:31:47+00:00",
-   "lang": "fr",
-   "t": "Plus fort que l’effet Trump : GTA VI redonne (déjà) envie d’aller aux États-Unis",
-   "u": "https://www.lefigaro.fr/voyages/plus-fort-que-l-effet-trump-gta-vi-va-t-il-nous-redonner-envie-d-aller-aux-etats-unis-20261119",
-   "img": "https://i.f1g.fr/media/cms/1200x630_crop/2026/11/19/03f337cbe00e797224ed2bd0e179626adffbca589c61aee4a4b64edc158cee03.JPG",
-   "chapeau": "Il n’est sorti en France que ce jeudi, mais son effet se fait sentir depuis des semaines. En Floride, Miami a même décidé d’en faire sa meilleure publicité.",
-   "txt": "Google (ouvre un nouvel onglet) Google Discover (ouvre un nouvel onglet) Google News (ouvre un nouvel onglet) Sujets Miami Tourisme Gta 6 Lire dans l’app Sauvegarder Fermer Sauvegarder un article\nPour sauvegarder un article vous devez être connecté, vous pourrez ainsi les consulter sur tous vos appareils.\nCopier le lien Lien copié Mail Facebook X Linkedin Messenger WhatsApp Il n’est sorti en France que ce jeudi, mais son effet se fait sentir depuis des semaines. En Floride, Miami a même décidé d’en faire sa meilleure publicité.\nPour des millions de joueurs, la nuit a été courte. Après treize ans d’attente, Grand Theft Auto VI (GTA VI) sort enfin ce jeudi 19 novembre sur PlayStation et Xbox. Et avec lui revient Vice City, la ville de néons et de palmiers que Rockstar Games a calquée sur Miami .\nMais l’effet du jeu se mesure déjà bien loin des consoles. Depuis la diffusion de la bande-annonce, le 15 octobre dernier, les recherches de logements pour la métropole floridienne ont bondi de 55 % par rapport à la même période l’an dernier d’après une étude Expedia. Pour certains, la partie se jouera peut-être bientôt grandeur nature.\nIl faut dire que le décor a tout d’une carte postale. Plages de sable blanc, couchers de soleil orangés, façades pastel et voitures de luxe, Vice City reprend tous les codes de la ville qui l’a inspirée. Rockstar Games, le studio américain à l’origine de la saga GTA, la présente d’ailleurs sur son site officiel comme la « capitale du soleil et de la fête en Amérique ».\nLe contenu de cet article a été rédigé de manière indépendante par la rédaction. Lorsque vous cliquez ou effectuez une réservation via nos liens partenaires, Le Figaro peut percevoir une commission. Réserver un autotour Voir Réserver un voyage sur mesure Voir Réserver un billet d’avion Voir Réserver un hôtel Voir Réserver des activités Voir Mais Miami n’est pas la seule à attirer les curieux. Le jeu se déroule dans l’État imaginaire de Leonida, une Floride à peine maquillée, dont plusieurs villes s’inspirent de lieux bien réels. C’est le cas de Port Gelhorn, ville côtière du jeu qui doit ses plages à la station balnéaire de Panama City. Là, les recherches ont grimpé encore plus vite, avec une hausse de 65 % en un an sur la même période.\nPour la plateforme, qui commercialise des voyages, cet engouement dit quelque chose de l’époque. Elle y voit le « retour à l’enfance », une tendance qu’elle annonce pour 2027 dans son rapport annuel, avec des voyages plus ludiques et sans contraintes. « Avec la sortie d’un titre aussi culte, on voit à quel point le besoin de déconnecter du quotidien et de retrouver une forme d’insouciance est fort chez les adultes », explique Xavier Roussela, porte-parole du groupe. Après les films et les séries, qui ont déjà poussé près d’un tiers des voyageurs français à réserver une destination, c’est au tour du jeu vidéo de faire voyager.\nBraquages, courses-poursuites et fusillades, Vice City n’a rien d’une ville modèle. Plutôt que de fuir cette réputation sulfureuse, Miami a choisi d’en faire une vitrine. Le 28 octobre, la maire du comté de Miami-Dade, Daniella Levine Cava, a dévoilé un plan de promotion de 3,9 millions de dollars lié à la sortie du jeu. Le voyageur y est plongé dès sa descente d’avion, avec des éclairages à thème à l’aéroport international comme au port de croisière, et des affiches tout le long des passerelles qui mènent aux terminaux. L’élue l’assume sans détour, l’idée est de « transformer cet enthousiasme en revenus supplémentaires pour notre communauté ».\nLe reste de la ville a suivi le mouvement. Dans le quartier de Wynwood, temple de l’art urbain, Rockstar a fait peindre une série de fresques aux couleurs du jeu. Le club E11EVEN, qui ne ferme jamais, s’est rebaptisé NINE1NINE, du nom de son double virtuel, rapportait l’Associated Press le 17 novembre. Et mercredi soir, veille de la sortie, les joueurs du Miami Heat ont foulé un parquet rose et bleu sous les couleurs de la cité GTA.\nCette fièvre ne fait pas que des heureux. Dans la même dépêche, l’agence américaine rapportait les critiques de la shérif du comté, hostile à l’idée de dépenser de l’argent public pour un jeu qui récompense le crime. David Suarez, conseiller municipal de Miami Beach, redoute lui aussi d’associer l’image de la ville aux excès qu’elle tente d’effacer, après deux années de lutte contre les débordements du Spring Break.\nSur Ocean Drive, les néons qui ont inspiré Vice City s’allument chaque soir. Designpics - sto",
-   "pub": "2026-11-19T10:31:47+01:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPMkFSRUYwNDJTTmxvVTJ5Zk82VW83TFlDQnYydU5rNXIzYU5ZTWxxVWJfY1ZWSDJCU2FwNzJqX3VFWGNjMk1zZTcxcDJNZGNqQTl4QVlBeVBWNVlnM3p0eGhKbEhMM0hBa1FfVTdmY1FoZFlNbDlRanFGb1NSdnh0OTg5VTVaZG1tNTB6QnpVYWtIRGlPMmlJa2c1QWxpa3YyZ0V1NVBXOEtWempxcDlnLUUwMml4azJUTkd3aG50SGJiV1lyMUtzbVpR?oc=5",
-   "s": "Journal du Geek",
-   "d": "2026-11-19T09:30:26+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : les joueurs des Miami Heat ont reçu un cadeau très spécial de la part de Rockstar",
-   "u": "https://www.journaldugeek.com/2026/11/19/gta-vi-les-joueurs-des-miami-heat-ont-recu-un-cadeau-tres-special-de-la-part-de-rockstar/",
-   "img": "https://www.journaldugeek.com/app/uploads/2026/11/Capture-decran-2026-11-18-183527-1600x900.jpg",
-   "chapeau": "Miami est devenue Vice City, et les joueurs du Heat ont décroché le cadeau ultime : une PS5 Pro noire aux couleurs de GTA VI, introuvable ailleurs. Même Giánnis a eu droit à sa valise.",
-   "txt": "Miami est devenue Vice City, et les joueurs du Heat ont décroché le cadeau ultime : une PS5 Pro noire aux couleurs de GTA VI, introuvable ailleurs. Même Giánnis a eu droit à sa valise.\nS’il y a bien un endroit sur Terre où l’effervescence est à son comble à l’approche de la sortie de GTA VI , c’est bien à Miami. Depuis plusieurs semaines, la mégalopole américaine vit au rythme de la campagne marketing de Rockstar , se transformant littéralement en Vice City à taille humaine. L’exemple le plus flagrant est le Kaseya Center, arène de la franchise de NBA des Miami Heat, qui est illuminé aux couleurs de GTA VI depuis le mois de septembre.\nJustement, c’est au Kaseya Center que se joue le match entre les Heat et les Bucks de Milwaukee le 18 novembre, veille de la sortie de GTA VI. Pour l’occasion, la franchise a mis les petits plats dans les grands avec de nombreuses animations et accessoires commercialisés à l’occasion de “A Night in Vice City” . Un maillot inédit conçu par Nike , Rockstar Games et Cactus Jack sera notamment porté par Giánnis Antetokoúnmpo et sa bande, qui ont reçu un cadeau très spécial de la part des équipes de Rockstar.\nEn effet, plusieurs joueurs de la licence ont partagé une story sur les réseaux sociaux remerciant Rockstar Games pour le beau cadeau qu’ils ont reçu : une valise aux couleurs de GTA VI comportant un exemplaire du jeu, deux manettes Dualsense noires édition GTA VI et, cerise sur le gâteau, une Playstation 5 Pro spéciale noire aux couleurs du jeu.\nCONFIRMED: Rockstar games has sent the Miami Heat players a customized GTA 6 PS5 Pro edition console and controllers.\nThis one of the most INSANE gaming care packages we’ve seen😳 pic.twitter.com/vNpPi3ZU60\nPour l’instant, une telle Playstation 5 Pro est particulièrement rare. Bien que Sony ait lancé la commercialisation de ses DualSense spéciales, aucune édition spéciale de la console n’a jusqu’alors été annoncée.\nEnfin, les joueurs des Heat étaient, semble-t-il, logés à la même enseigne que les clients du monde entier. En effet, la version qu’ils ont reçue du jeu est la version physique, qui ne comporte donc pas de disque. Joueur de NBA ou pas, aucun passe-droit.\nMais la ferveur autour de GTA VI en NBA ne se limite pas qu’à cette unique soirée du 18 novembre sur le parquet du Kaseya Center. En effet, 2K Sports, studio affilié à Rockstar, a annoncé la sortie d’une édition spéciale de NBA 2K27 intitulée la Vice City Edition (on ne s’y attendait pas…).\nVendue 39,99 €, cette édition met l’une des stars de la franchise, Bam Adebayo, sur la jaquette … bien qu’elle ne sortira pas en version physique. Elle inclura le nouveau season pass et des boosts en jeu.",
-   "pub": "2026-11-19T09:30:26+00:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNaFZKUzB5d3BPU0E4TDhYQ1ZBVTdTYlFqWGNnNDlDd2hNRE1LVG8yMVhwaUdWXzQ3TzctbGt0VEEweWJVc19YT0ltTFB5Sm9jU0J3S0xhVlBsVWpZMnZza3g2a244eUpZYXk5bDgydk40Q3dyZVhmRk53N1RJMm00X0R1UERzd012Y3U2TEZHazdvNFd1dmQwODRqVFF6dmJtYXJNNk4taW0xWWtDdlZfck9JdzdjVjRaLXFtOXpsQzJWdk00OWFzNjhn?oc=5",
-   "s": "IGN Southeast Asia",
-   "d": "2026-11-19T09:30:12+00:00",
-   "lang": "en",
-   "t": "GTA 6's Prologue Can Go Way More Differently Than You Might Think",
-   "u": "https://sea.ign.com/grand-theft-auto-vi-rumored-title/252177/gta-6s-prologue-can-go-more-way-more-differently-than-you-might-think",
-   "img": "https://sm.ign.com/t/ign_ap/feature/g/gta-6s-pro/gta-6s-prologue-can-go-way-more-differently-than-you-might-t_car5.1200.jpg",
-   "chapeau": "I fought the law and the law lost… but not for long.",
-   "txt": "Although it may seem like you’re being overwhelmed from all angles by the police after Lucia’s bungled robbery in GTA 6’s prologue, it is technically possible to evade them and make a clean getaway. That is, until GTA 6’s story immediately course-corrects and sends you back to the scene of the crime. The first time I booted up GTA 6, I was quite overwhelmed by a combination of the dazzling visuals and the urgent need to retrain my brain to click the left stick to sprint rather than hammer the X button. As a result, although I still made a good fist of Lucia’s desperate escape – hustling down a street behind the coffee shop and Ferris Bueller-ing my way over a series of backyard fences – I was eventually brought down by a VCPD officer’s taser bolt that hit me right between the shoulder blades. At this point, the cuffs were slapped onto Lucia’s wrists and the game flash-forwarded back to the present day where GTA 6’s co-protagonist continued her consultation with her correctional counselor in Leonida Penitentiary, and the story launched gloriously into the game’s first chapter. I suspect that most players will have a similar experience during the opening moments of Rockstar’s latest crime epic. However, out of curiosity, I decided to start a fresh save and see if I could get the better of Vice City’s boys in blue. This time, after the annoying good samaritan wrestled Lucia to the floor and the clerk shuttered his window and triggered the alarm, I made a dash across the street and crashed through the gates of an abandoned lot under an overpass. With my Wanted level immediately at two stars and the shriek of sirens rapidly swelling in volume, I frantically scrambled around the edge of a building and… clumsily tripped and fell straight into a canal. This soggy slip-up probably should have sealed my fate, but it actually proved to be my salvation, as I swam up to the surface and straddled a Seashark jet ski that was idly bobbing up and down next to a nearby dock. After briefly fumbling with the new twin-stick hotwiring mechanic I wrenched the throttle and tore off down the waterway, deftly swerving around a couple of fishing boats as the sirens faded into the background and the skyrises of Vice City’s downtown area loomed ahead of me. I was free.",
-   "pub": "2026-11-19T10:30:00+00:00"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNLUlwdEJ0cWVyLXJ0R3VBRktrMGtiRl9hYUN0Q2ZOVlpCWlV2T3ZISmE2aGFPWTd5amhpNHlQbzlIQXlQdklPbDJ4bEtyZDh3WFJFZUtMSTFDYmtLR0JWTkwtUkhtZDVGY3BIVDUzM0RuN1J6b0F3aGw1SVo2LXZkZUkyUnM5OHFWcDlxWjBZaVkyZ01hcFE?oc=5",
    "s": "Pasquale Pillitteri",
    "d": "2026-11-19T09:10:26+00:00",
    "lang": "fr",
    "t": "GTA 6 débarque sans replay des missions, il faut passer par les sauvegardes",
-   "erreur": "Remote end closed connection without response",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -635,7 +587,7 @@
    "d": "2026-11-17T12:38:48+00:00",
    "lang": "fr",
    "t": "Le hacker du leak GTA 6 plaide coupable à trois jours de la sortie",
-   "erreur": "Remote end closed connection without response",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -722,7 +674,7 @@
    "d": "2026-11-16T14:40:51+00:00",
    "lang": "en",
    "t": "Caught ‘GTA 6’ Leaker Pleads Guilty To Extorting Rockstar Games",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -744,11 +696,7 @@
    "d": "2026-11-14T18:39:56+00:00",
    "lang": "en",
    "t": "Cyberleek Shares More GTA 6 Footage Featuring Lucia Naked",
-   "u": "https://www.imdb.com/de/news/ni66063856/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -783,11 +731,7 @@
    "d": "2026-10-22T15:12:54+00:00",
    "lang": "en",
    "t": "Cyberleek Shares GTA 6 Leak Of Naked Lucia",
-   "u": "https://www.imdb.com/news/ni66062173/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
