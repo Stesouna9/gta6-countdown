@@ -95,12 +95,15 @@
     var mo = L.map(mapEl, { crs: L.CRS.Simple, minZoom: -4, maxZoom: 1.75, zoomSnap: 0, zoomDelta: 0.5, wheelPxPerZoomLevel: 110, wheelDebounceTime: 20, scrollWheelZoom: true, doubleClickZoom: true, touchZoom: true, dragging: true, inertia: true, zoomControl: false, attributionControl: true, tap: true, bounceAtZoomLimits: false });
     L.control.zoom({ position: "bottomright", zoomInTitle: "+", zoomOutTitle: "−" }).addTo(mo);
     mo.attributionControl.setPrefix(false).addAttribution(esc(tr("sl_attr_off", "Carte officielle Rockstar Games")));
-    L.imageOverlay(R + D.fond_officiel, OB, { alt: "Leonida" }).addTo(mo);
-    /* image HD (2805 px) chargée ensuite, posée par-dessus : texte net au zoom fort */
-    var hd = new Image(); hd.onload = function () { L.imageOverlay(hd.src, OB, { alt: "" }).addTo(mo).bringToBack(); mo.eachLayer(function (l) { if (l instanceof L.ImageOverlay && l._url.indexOf("-hd") < 0) mo.removeLayer(l); }); };
-    hd.src = R + D.fond_officiel.replace(".webp", "-hd.webp");
-    function cadre(anim) { mo.invalidateSize(); var zf = mo.getBoundsZoom(OB, false); mo.setMinZoom(zf - 0.25); mo.fitBounds(OB, { animate: !!anim }); }
-    mo.setMaxBounds([[-OH * .15, -OW * .15], [OH * 1.15, OW * 1.15]]);
+    /* V3 (20/11) : affiche recadrée sans cadre blanc ni légende de marge ; la mer continue tout autour (fond .cx-map = bleu de la carte) */
+    var fx = OW / 2805, CB = [[OH - 3743 * fx, 98 * fx], [OH - 98 * fx, 2707 * fx]];
+    var TERRE = [[OH * .05, OW * .13], [OH * .93, OW * .87]];
+    L.imageOverlay(R + "assets/img/carte/leonida-v3-l.webp", CB, { alt: "Leonida" }).addTo(mo);
+    var hd = new Image(); hd.onload = function () { var lh = L.imageOverlay(hd.src, CB, { alt: "" }).addTo(mo); mo.eachLayer(function (l) { if (l instanceof L.ImageOverlay && l !== lh) mo.removeLayer(l); }); };
+    hd.src = R + "assets/img/carte/leonida-v3.webp";
+    var ZB = 0;
+    function cadre(anim) { mo.invalidateSize(); var zf = mo.getBoundsZoom(TERRE, false); ZB = zf; mo.setMinZoom(zf - 0.6); mo.fitBounds(TERRE, { animate: !!anim }); }
+    mo.setMaxBounds([[-OH * .1, -OW * .1], [OH * 1.1, OW * 1.1]]);
     function ll(o) { return L.latLng(OH - o.y * kx, o.x * kx); }
     function caseDe(p) {
       var x = p.lng / kx, y = (OH - p.lat) / kx;
@@ -143,8 +146,18 @@
     }
     function dessineC() {
       Object.keys(gC).forEach(function (k) { gC[k].clearLayers(); }); mkC = {};
+      var gros = mo.getZoom() < ZB + 1.15;
       Object.keys(parS).forEach(function (sn) {
-        var o = trouve(sn), l0 = parS[sn]; if (!o) return;
+        var o = trouve(sn), l0 = parS[sn].filter(function (p) { return gC[p.couche] && mo.hasLayer(gC[p.couche]); }); if (!o || !l0.length) return;
+        if (gros && l0.length > 1) {
+          /* vue large : une bulle par secteur (nombre + couleurs des catégories), un clic zoome dessus */
+          var cs = []; l0.forEach(function (p) { var c = (C[p.couche] || {}).couleur; if (c && cs.indexOf(c) < 0) cs.push(c); });
+          var pas = 100 / cs.length, grad = cs.map(function (c, i) { return c + " " + (i * pas) + "% " + ((i + 1) * pas) + "%"; }).join(",");
+          var tl = l0.length > 99 ? 46 : l0.length > 9 ? 40 : 34;
+          L.marker(ll(o), { icon: L.divIcon({ className: "cx-bul", html: '<i style="background:conic-gradient(' + grad + ')"><b>' + l0.length + "</b></i>", iconSize: [tl, tl], iconAnchor: [tl / 2, tl / 2] }), title: sn + " · " + l0.length, riseOnHover: true })
+            .on("click", function () { mo.flyTo(ll(o), Math.max(mo.getZoom() + 1.4, ZB + 1.6), { duration: .6 }); }).addTo(gC[l0[0].couche]);
+          return;
+        }
         l0.forEach(function (p, i) {
           if (!gC[p.couche]) return;
           mkC[p.id] = L.marker(ll(o), { icon: icoC(p, i, l0.length), riseOnHover: true, title: txt(p) || p.id, keyboard: true })
@@ -277,7 +290,7 @@
       if (b.hasAttribute("data-n")) { var o = trouve(b.getAttribute("data-n")); if (o) voir(o); }
       else if (b.hasAttribute("data-m")) { var m = MR[+b.getAttribute("data-m")]; mo.flyTo([m.a, m.o], Math.max(mo.getZoom(), mo.getMinZoom() + 2), { duration: .7 }); if (mob) { pan.hidden = true; majPanBtn(); } }
       else if (b.hasAttribute("data-go")) { ouvreC(b.getAttribute("data-go")); }
-      else if (b.hasAttribute("data-v")) { var v = b.getAttribute("data-v"); if (mo.hasLayer(gC[v])) { mo.removeLayer(gC[v]); S.o["cx_off_" + v] = 1; } else { gC[v].addTo(mo); delete S.o["cx_off_" + v]; } sauve(); rendPan(); }
+      else if (b.hasAttribute("data-v")) { var v = b.getAttribute("data-v"); if (mo.hasLayer(gC[v])) { mo.removeLayer(gC[v]); S.o["cx_off_" + v] = 1; } else { gC[v].addTo(mo); delete S.o["cx_off_" + v]; } sauve(); dessineC(); rendPan(); }
       else if (b.hasAttribute("data-c")) { var id = b.getAttribute("data-c"); ouv[id] = !ouv[id]; rendPan(); }
       else if (b.classList.contains("cx-b-pose")) { pose = !pose; el.classList.toggle("cx-pose", pose); rendPan(); if (pose && mob) { pan.hidden = true; majPanBtn(); info(tr("sl_off_pose_on", "Touchez la carte à l'endroit voulu")); } }
       else if (b.classList.contains("cx-vider")) { if (window.confirm(tr("sl_off_vider_q", "Effacer tous vos repères ?"))) { MR = []; sauveR(); dessineR(); } }
@@ -311,16 +324,17 @@
     var hl = "";
     function etat(h) { hl = h; try { history.replaceState(null, "", location.pathname + location.search + "#" + h); } catch (e) {} }
     mo.on("moveend", function () { etiquettes(); if (hl.indexOf("l=") === 0 && mo._popup && mo.hasLayer(mo._popup)) return; var c = mo.getCenter(); etat("c=" + mo.getZoom().toFixed(2) + "," + Math.round(c.lat) + "," + Math.round(c.lng)); });
-    mo.on("zoomend", etiquettes);
+    var grosAv = null;
+    mo.on("zoomend", function () { etiquettes(); var g = mo.getZoom() < ZB + 1.15; if (g !== grosAv) { grosAv = g; dessineC(); } });
 
     function textes() {
       ri.placeholder = tr("cx_rech", "Chercher un lieu : Vice Beach, Port Gellhorn…");
       $(".cx-b-plein").title = tr("cx_plein", "Plein écran"); $(".cx-b-cadre").title = tr("cx_cadre", "Toute la carte"); $(".cx-b-part").title = tr("cx_partager", "Partager cette vue"); $(".cx-b-noms").title = tr("cx_noms", "Afficher les noms");
       majPanBtn(); rendPan(); dessineR();
     }
-    dessineC();
+    cadre(); dessineC();
     textes(); document.addEventListener("langchange", function () { dessineC(); textes(); });
-    cadre(); setTimeout(function () { cadre(); depart(); }, 150);
+    setTimeout(function () { cadre(); grosAv = null; dessineC(); depart(); }, 150);
     function depart() {
       var h = h0;
       if (h.indexOf("l=") === 0) { var o = trouve(h.slice(2)); if (o) { mo.setView(ll(o), mo.getMinZoom() + 2.2); voir(o, true); } }
