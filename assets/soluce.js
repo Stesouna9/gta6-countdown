@@ -102,7 +102,7 @@
     var hd = new Image(); hd.onload = function () { var lh = L.imageOverlay(hd.src, CB, { alt: "" }).addTo(mo); mo.eachLayer(function (l) { if (l instanceof L.ImageOverlay && l !== lh) mo.removeLayer(l); }); };
     hd.src = R + "assets/img/carte/leonida-v3.webp";
     var ZB = 0;
-    function cadre(anim) { mo.invalidateSize(); var zf = mo.getBoundsZoom(TERRE, false); ZB = zf; mo.setMinZoom(zf - 0.6); mo.fitBounds(TERRE, { animate: !!anim }); }
+    function cadre(anim) { mo.invalidateSize(); var zf = mo.getBoundsZoom(TERRE, false); ZB = zf; mo.setMinZoom(zf - 0.6); var pw = (!mob && !pan.hidden) ? pan.offsetWidth + 24 : 0; mo.fitBounds(TERRE, { animate: !!anim, paddingTopLeft: [10, 60], paddingBottomRight: [pw, 10] }); }
     mo.setMaxBounds([[-OH * .1, -OW * .1], [OH * 1.1, OW * 1.1]]);
     function ll(o) { return L.latLng(OH - o.y * kx, o.x * kx); }
     function caseDe(p) {
