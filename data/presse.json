@@ -1,13 +1,38 @@
 {
- "maj": "2026-11-20T11:17:21+00:00",
+ "maj": "2026-11-20T11:37:51+00:00",
  "articles": [
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRHNSZzRUbWNtNVlMQkN6bmFwN1ZtTlJPdndEbFhnWkhIZXlYQXNlOHlUZzhEdml0aFE1TmFUU2ZPTVZKOWQxX0JqUFV0dVUyMDVxdG1HU0hodW55dDBOWFNwbFlTSzQ0OXN6dWlFUkV1YURLMFpfdEh0YXVJNFJ5TEMtQmd3SHplT29V?oc=5",
+   "s": "Business Insider",
+   "d": "2026-11-20T11:29:00+00:00",
+   "lang": "en",
+   "t": "What's up with WhatsApp's X page? Meta leans into GTA 6 parodying Big Tech",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQMGN1aFRmTDJpbDNhSTAtX2xNUUNZbnpUcXpKUTFCZG9kSHNJZlh5dEZmeWZkZ0pkem1Ia2htNnpFa2RaT0xTbWNIWXdYejdhVnRGbWpNN09maFdkY1FqOTFJNTNXbnhPOEl6Q1hCRGdvYl9rR0FKNlVqRTE2YllwUzlNaVZqa05sd28waW5oM2xtMnJiRVVtWVZIRE5iVDJRckotMXlfcklCaTdWLUxHTXRjX19KNnRZVUZGNFF0RTBVVnpTajBZMnVLWEx0S3htZU9ISmZfd0hiQQ?oc=5",
+   "s": "Actu.fr",
+   "d": "2026-11-20T11:23:40+00:00",
+   "lang": "fr",
+   "t": "Emmanuel Grégoire en retard au Conseil de Paris après avoir joué toute la nuit à GTA 6 ?",
+   "erreur": "HTTP Error 429: Too Many Requests"
+  },
   {
    "gn": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWjRXejY2Q2l0Wk1sN20tZ0JtOHBkTklnaWhKWjgzTE9wdGl0Rnl5NzBfMjlhc0o2VzVIajJYRURpenFUTW5nV2NtaU5lczZabFU1ZExEdm9QTW5xWWxJUG1GT2tIeVgwbjlWSVhLaXduTWgxUHExN0lFbWFHN2lia1ZvVkw2dUNmQXJTUHhQU0gwSVc2S2UxLUNZbnBzOUlhTnVYcDRqMEJ3UmduUkxWRGpsdmtBeXI5VFF1TA?oc=5",
    "s": "Numerama",
    "d": "2026-11-20T11:09:03+00:00",
    "lang": "fr",
    "t": "GTA 6 : un énorme bug fait planter le jeu sur PS5 chez plusieurs joueurs",
-   "erreur": "HTTP Error 429: Too Many Requests"
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNVUt5SHlkSktUUVhReFNFbkN0dk9XNjJTakdDVkVDb2hmbUJXMjVuRjhTbU9UZFV6T1VaOEpkRnRQN0dKVGY1MHFUa1Z2MFVaaTdRRUJFWEluNXlUcmVfTnQ3dTYyY2pvRk5qNVAxWWh2U0phUGhZUVUwSlpOd3pfU3Z6YnA1MGhrdjhlVl9hWkRvZko1bXMtSWo0YTFkMWhjT19sMnhDWnMtRzZpSVVBOWl4Tzh3ejRjSF81OFlpOENUWkJrZm1OSVA1RnJPT194RzFwRFFabEpXdm40?oc=5",
+   "s": "IGN France",
+   "d": "2026-11-20T11:07:00+00:00",
+   "lang": "fr",
+   "t": "Cyberleek de retour sur GTA 6 et avec une version Xbox quasi complète ; il menace de divulguer le fichier exécutable d’ici quelques jours",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOYW0xdGtiZXdRQkJCRWd5UkpSdnp0QU1zcWJSUDhRV2ZWYnhSbHRRTE5fVklxdEl1MW9aUTJOWGZWY0paSENtZ2EwMFV5dFVVVC10SjZSOUc3Q09GV001aFJPcGszRXN4OFcxTVV3MHNPUFlLazNCc0lvOUhfYWM3aTVpQzFIdl81akVRM2hnVURoVzR5NnVSQ2hWLUU2TTFxNjUzbjlrZkU3M2E1ak1LS0JpZGUwenJnRlZqdU1QSE04MnFGcDhqeGhnZW10dGtYTVRHSnJ4U2lERzY0c3hGUUdSeE5XZlk4dVhVRnVMTVhJTDRSS1E?oc=5",
@@ -18,13 +43,20 @@
    "erreur": "429 : passage suivant"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPNzVBZnc2d0JNTUZlWUM1bEZtd202Z01sM1pRN01IN0NVbE80THBnMk1zOWt4eWowVlExcHZVR3ljRjNLZkFiSnVjb1N2MlRpTHJEMmVGS2RUcEdTMERYWmZZc1BoRGFMU1l4alNBNVU0UF9MRzJxd2ZrbnpJUS1FV3dMbjFxXzl2dG05b2hhcFUtRG1HLWd1T3RBMG9sVVJIRExKbTVrZlJZM1pSRWJ6T0VJUThQNGFHZGlTV2tiWDdPbkM3UGlpNUUzeEJzaU10S09tcjBKTm9kZUtjbDl3bldxRGVHUjZDUWZnOWktc1ozUFU?oc=5",
-   "s": "IGN Southeast Asia",
-   "d": "2026-11-20T11:01:16+00:00",
-   "lang": "en",
-   "t": "Cyberleek Returns for GTA 6 Launch to Reportedly Release a Near-Complete Xbox Build, Threatens to Release the Game's Executable in Days",
-   "erreur": "429 : passage suivant",
-   "cyberleek": true
+   "gn": "https://news.google.com/rss/articles/CBMingJBVV95cUxQOG0zUlVjeFk3ME9YeE1yNUt6eEE2NVlkRVhMSVl6OXQ1aUdPYmhiaE4zbjA4N0xHWWhSQThYNTZtb0wwRVVwTnJUNzl5blpUd3pYQ1ZrNEZhY05TNGFhYTU3cWN4Y2FHZlAzaXVuQlhxT3RNNnJ2VHgyZnVPZmF2VVBpQ25fOVFtdF9tNlp4MXNVcXRzWVFvRmN0Z2NsZWRXd1VQVTdLQ2JrSHM0bkR2WUdtU3R3OEkzdDRhZjN6MWtKRUZqTnFzVEV4bWUwWVRFNHhYMVJCWlg1OV9SbHktUXprYmhxQm1kb2M4WU93NmVuVGt5SW9HZmFPRGNkbUNMbWl2WmVXb1BkV0NybXJHa1hzYV80ZWJVdWRfdDR3?oc=5",
+   "s": "Le Parisien",
+   "d": "2026-11-20T11:04:58+00:00",
+   "lang": "fr",
+   "t": "Manette officielle ou compatible : le meilleur choix à faire pour jouer à GTA 6 sans regret",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi6wJBVV95cUxPUkNQSXdtSkpUNS1vc0JaNkF2TU91dGt3cHFLV2s0cnBMV1ZZUG82VXMwLUVZWWpBaFZ3enN5V1pEd0g1b0xfVW83UWdVaFdCRFJZQ21jX1E1N2lrNTJOelg3M1lQMFd2ekVrMVFiQ1R4WmtWc04zdDZ3OTIwcUFfNTc1RWQ2Q3h6OHFwUUJOZHF4TW5KdFh0UXBfd0RCWF95dUpFU0tPYXZlNWhJNnJfV0F5UDJ5Nmtqd2E4QjJOa1hDaEFSWnNxdVBIUDZZSmZtM3ZHWnNaUE1EUW9aOHVJTWJjNDZxcl8zaTJOYm5pT3ZMalZDNHVhbTdqRHdUalFBVUV1R1RDR2VyNnNKSm8xbjl1NWtCR2FUblNnX1hHYkZLZ2M0Vy1qOXNyM242ZUZ3dVJRcEFrdVJEWDBtT2NJczlrTTl1NDBBWjFvbnNOVmxjaVR0RTUyZU5JRkRMQ0pBWDI2UFQ1R0ZDT3c?oc=5",
+   "s": "BFM Bourse",
+   "d": "2026-11-20T11:02:33+00:00",
+   "lang": "fr",
+   "t": "Ubisoft entertain : Menace sur les objectifs annuels, concurrence de GTA 6, stress sur le bilan et le cash du groupe… L'angoisse revient sur Ubisoft, qui chute de 11% en Bourse",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVk5nTzVfVjdxR0R0NFFSVC1IM1hUVEk1MFptb2ZWNDVVUzRVbmRMcm1kY3NWS0d4M0lnX0FYYkdINnItekZvRlVodG9Udkg4TmhNaENSaVoyQUZuVkdhczBZdUlvb040VzB0dkprWGpDZ0NFa2RuVEZZLW1WNkVuck1wRXc5cnZoMDloRXdnRlM0a0lmYzZDb0RWYmFhbzNoelZtOWNUanhucTk0NW1iTHFqQkc3VW1vZEhxMjB3?oc=5",
@@ -44,8 +76,8 @@
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbmRINWZvOVB4UF9wRVdoVTdJM0xiOE5Ud1NfaWtWMnQ3ajlpOEhOamFPVmJFczFmWkFJaUFSZlYtbnNCOHdydUZUNWFzbGlNV1o4SllyQ2RqVm1HZDBSN2N1N080alFkZlhLanZwZDlqa2R3ZHJSM0dmT21RN3FTV0MzMFphelZoRW9kMGRKcWZsUldfRVZGS181VlZiTm5IS3FTWW5MNzNIT1JkakRFY1NyQ2dyaFY1ZGNtaw?oc=5",
-   "s": "gameranx.com",
-   "d": "2026-11-20T10:52:38+00:00",
+   "s": "Gameranx",
+   "d": "2026-11-20T10:52:10+00:00",
    "lang": "en",
    "t": "Cyberleek Is Leaking GTA 6’s XBOX Build – To Raise His Crypto To 15 Million",
    "erreur": "429 : passage suivant",
@@ -82,6 +114,14 @@
    "d": "2026-11-20T10:40:00+00:00",
    "lang": "fr",
    "t": "Sur quelles consoles peut-on jouer à GTA 6 ? Toutes les plateformes",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQbXdZc3hMVFNoTk9rOVBwY0stMTBNN0lXTzN0d1Zfelp1eW01YmFiaFVnSU03UWJIZFBPUTNfa1N6T1NKX1h1d3FNb05QeXZKcEhDdTY5ckRURWNocVBzOWUtcTladnRJb1dfclZlR3N2Vl9wUTFiTTdvZkJ0WUJjdmhOS3FVNkNSSzJ4QnZnODRXWmRmLUtpd3djdXVwV19fT1BuUjdVOGllMTZ5Yk1FQjRjZ2xOb3lqSjUxSTMzd2tMX2dBNWJSbmVoNldoQ2V1MDl1aXRuaDY1ZW5lclRHcmJvTmdvVzZOSlZLdThfUnM?oc=5",
+   "s": "Frandroid",
+   "d": "2026-11-20T10:38:19+00:00",
+   "lang": "fr",
+   "t": "« J’ai tout essayé, ça plante toujours » : le calvaire des joueurs de GTA 6 sur PS5 face à un bug inexpliqué",
    "erreur": "429 : passage suivant"
   },
   {
@@ -150,19 +190,6 @@
    "pub": "2026-11-20T11:29:44+01:00"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPSjBZN28xVVJrZlF6MXk1NWNDY2lDdkg3dGlqdWVUWE1NUEJkMVU5eV9Qd3Q3ODlzMXdmLVNYLXhwMEUxTGFhclV2QXJqQ3RWb1ZZVjZSRFJSemNEaWJreURMbUdpVjVaU3ZETzhIYkFoU3RqbXZubjNLS0tsVEk2ekFXX3ltVVg2SnotcnlCZTNRT1NfakxLc2xKUWpLeGJuRTZoUTFpRjlRbGtha3g5dHdSSWVKa0N5c29YbUhDVjQwOEVOQVQ1R3dHazY0dVQ5cC1MN0NDUXRVRjFOVlMyTUhJY0R3aTBFV1dhSTJ5cmRpUQ?oc=5",
-   "s": "IGN Pakistan",
-   "d": "2026-11-20T10:26:44+00:00",
-   "lang": "en",
-   "t": "Cyberleek Returns for GTA 6 Launch to Reportedly Release a Near-Complete Xbox Build, Threatens to Release the Game's Executable in Days",
-   "u": "https://pk.ign.com/grand-theft-auto-vi-rumored-title/264330/cyberleek-returns-for-gta-6-launch-to-reportedly-release-a-near-complete-xbox-build-threatens-to-rel",
-   "img": "https://sm.ign.com/t/ign_pk/news/c/cyberleek-/cyberleek-returns-for-gta-6-launch-to-reportedly-release-a-n_r1s9.1200.jpg",
-   "chapeau": "Crypto scheme in full effect.",
-   "txt": "Cyberleek has returned for the launch of GTA 6 to allegedly release a near complete Xbox build of the game — and has threatened to release its executable in just days. It was thought that the person or group responsible for the online Cyberleek persona had ended their spate of GTA 6 leaks last month, after their memecoin crashed despite efforts to boost its market cap. In October, Cyberleek had tied various types of GTA 6 gameplay leaks to the Cyberleek market cap, and threatened to release a build of the game — supposedly over 200 GB in size — if the memecoin hit a $30 million market cap. Gameplay clips reportedly leaked at the time allegedly showed Lucia fully naked — something that is not possible in the final launch version of the game.",
-   "pub": "2026-11-20T10:11:04+00:00",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZFdyZ2kzYVlCOU8weWg0NEV5SmhmcVFEdFc0WHdSNU9kaHh4MzdIZlRCc2M5YUZGUndOdFEwRDBVSVVTODN1SlpURVc0RkNaV1pRLW5MSDBnUFdZTTBoZmFsblp0bE9VLWpxeUl2YUZFREpmVGNWaVZWSkNheW5rbG5Ca2hWSjQyMUZtSm55WnRWX2ZfcEdYN0hZVVlyUUo1M0gtNjc2dGxsOUk0Q3NyR0pha2RCSEJYQi1uODVR?oc=5",
    "s": "SSBCrack",
    "d": "2026-11-20T10:24:14+00:00",
@@ -189,6 +216,14 @@
    "cyberleek": true
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1pQnByeUZtMXVZYm9DUm91X2F6aDNqSDlNM1o3T2p4M294WUo3T1ItMjlKQXkwRU1yYnhoQWVwcUFOcnRhTTA5aEhEb0x5dk5zZktFc200anUzbFlXRFQzQ25ZSWRnTi1ocUl0bFcwcnM?oc=5",
+   "s": "BGR",
+   "d": "2026-11-20T10:17:00+00:00",
+   "lang": "en",
+   "t": "Here's How To Unlock The Full Map In GTA 6",
+   "erreur": "429 : passage suivant"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBOSnc1S1JWUlBuT1lHb0RTS0ZPQm9BUWpBTUZBTXVOeDVPWnVzUGJCb1pyNVN4djNPTzhuU21uOHVIbkEwU2VHMndVeE5ud0FwU2dLOXUwcXFNeF9jMDBzQVBOeXdtVF91Tzl2QlhTa0NWOEE?oc=5",
    "s": "Presse-citron",
    "d": "2026-11-20T10:12:32+00:00",
@@ -201,19 +236,20 @@
    "pub": "2026-11-20T10:12:32+00:00"
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPXzBwS3QyR0NEMkpWWWZTc24yS2JQLUJxUzNwSHZmcnFzUzA0eWdaQTNpMG13RUp5Q3o2dnpKTUVIWnk4eDN6NC1oTVY3aWx3b0wtQmdHeWdDVXpRLWNkeERVR3JabW80aWhsdGpEUVdESWNrcTFRWTJNM3hSc2I0NzU2QWxRaWhyVDlfMFhmcldBNXFRZnE2LXdvSmFnOXdjZk03c0JpeFVkakhPRk1waGd2S3lfOHVYZ3NCWkMwMjZQdm8wRUdjNVV2NExPUGN4SXlyamdhWlZ5WVh2WlFOSlN4eThzMFpva2E0OEc5T25mX2st?oc=5",
+   "s": "IGN",
+   "d": "2026-11-20T10:11:07+00:00",
+   "lang": "en",
+   "t": "GTA 6 Leaker Returns to Allegedly Release a Near-Complete Xbox Build, but Is Holding a Crucial File Back for Now",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMinwFBVV95cUxONlZ4ejE5YlYzYVc1YVFSbnNndHpVaFoyeUZuVVNYWHY4VklQZDBwbmFTaHk4cWh5dXlHSzExa2lpZlhDRFV3RjR0eGlPOTcyRDduUEZFVHJxY0VwSmlmZkhMN2RQa3BVbjhzZ21hVjc5TVBMVXdZdFRkRjdpNWd3NklhVVhMU1hIMjBrRTI4Nm1MYW9SaWZOT2Q2RjZmUk0?oc=5",
    "s": "GamesIndustry.biz",
    "d": "2026-11-20T10:07:40+00:00",
    "lang": "en",
    "t": "IGN partners with Rockstar to host Official Strategy Guide for GTA 6",
-   "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQbXdZc3hMVFNoTk9rOVBwY0stMTBNN0lXTzN0d1Zfelp1eW01YmFiaFVnSU03UWJIZFBPUTNfa1N6T1NKX1h1d3FNb05QeXZKcEhDdTY5ckRURWNocVBzOWUtcTladnRJb1dfclZlR3N2Vl9wUTFiTTdvZkJ0WUJjdmhOS3FVNkNSSzJ4QnZnODRXWmRmLUtpd3djdXVwV19fT1BuUjdVOGllMTZ5Yk1FQjRjZ2xOb3lqSjUxSTMzd2tMX2dBNWJSbmVoNldoQ2V1MDl1aXRuaDY1ZW5lclRHcmJvTmdvVzZOSlZLdThfUnM?oc=5",
-   "s": "Frandroid",
-   "d": "2026-11-20T10:02:14+00:00",
-   "lang": "fr",
-   "t": "« J’ai tout essayé, ça plante toujours » : le calvaire des joueurs de GTA 6 sur PS5 face à un bug inexpliqué",
    "erreur": "429 : passage suivant"
   },
   {
@@ -223,50 +259,6 @@
    "lang": "en",
    "t": "'GTA 6' players are spending their precious PTO doing virtual blue-collar jobs",
    "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPenBZTXlBMWVabE5PcDNwWmNuZjFtdXVfVmtXNnRLRGpsSVhpd0lWanNoc0ZIaDJ3OS15MDR1amxZdW03aE81TTM4NDJLbUhDakgtS1F3ME8ySWloQ1dZenE5b0FaZEhNRV9nY0s1Q3cxeTJMV29CWWJHOUZscHB4eVFjMzlsaHV4WG1pdWE0Vlo1VjBUb3kyWnZwekVQZG9oaWw2azdrcjRkSjJxNkhDTlh2Yk5zMk0?oc=5",
-   "s": "Numerama",
-   "d": "2026-11-20T09:54:00+00:00",
-   "lang": "fr",
-   "t": "GTA 6 est déjà jouable à la première personne grâce à cette astuce",
-   "u": "https://www.numerama.com/pop-culture/2379571-gta-6-est-deja-jouable-a-la-premiere-personne-grace-a-cette-astuce.html",
-   "img": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/capture-decran-2026-11-20-a-102027.png?resize=1600,900&key=571cba6e",
-   "chapeau": "Officiellement absent au lancement de GTA 6, le mode à la première personne qui avait fait les beaux jours des versions PS4, Xbox One et PC de GTA 5 vient pourtant d’être débloqué par des joueurs, grâce à une manipulation repérée sur Reddit. C’était l’une des surprises, et des petites déceptions, de la sortie de GTA",
-   "txt": "Recevez tous les soirs un résumé de l’actu importante avec Le Récap’\nC’était l’une des surprises, et des petites déceptions, de la sortie de GTA 6 , ce jeudi 19 novembre sur PS5 et Xbox Series X/S : contrairement à GTA 5 sur les générations précédentes ou à Red Dead Redemption 2 , Rockstar Games n’a pas intégré de véritable mode jouable à la première personne au lancement. Le jeu ne passe en vue subjective que ponctuellement : pour viser avec certaines armes, regarder son téléphone ou observer un détail du décor.\nMais il n’aura pas fallu plus d’une journée aux joueurs pour contourner la restriction. Partagée d’abord sur Reddit , puis testée et confirmée par le site PC Gamer , une astuce permet de déverrouiller cette caméra et de jouer entièrement à la première personne.\nGTA 6 : guides, astuces et trouvailles, tout savoir sur le jeu (EN DIRECT) Comment activer la vue à la première personne dans GTA 6 La manipulation repose sur un léger détournement des raccourcis de caméra de GTA 6 à l’intérieur d’un véhicule. Voici la procédure exacte à suivre sur PS5 et Xbox Series X/S :\nSi vous appuyez au bon moment (il faut parfois plusieurs essais), la caméra reste bloquée en vue subjective : vous pouvez alors sortir de votre véhicule, courir, explorer Vice City et utiliser vos armes à la première personne.\nGrand Theft Auto VI (GTA 6) – PS5 meilleur prix 60 € sur E.Leclerc GTA 6. // Source : Capture Xbox Une fonctionnalité encore brute de décoffrage (et un piège à connaître) Cette vue officieuse a encore des défauts. PC Gamer, qui l’a testée, la juge tout à fait jouable, mais les épaules de Jason ou de Lucia passent devant la caméra quand on utilise une arme longue, et l’animation du vol de voiture reste approximative.\nAutre détail crucial avant de tenter l’expérience : il est impossible de revenir à la troisième personne avec la touche de caméra habituelle une fois l’astuce activée. Pour retrouver l’affichage normal, il faut recharger une sauvegarde. Certaines scènes, comme une arrestation ou un passage chez le coiffeur, ramènent aussi la caméra à la troisième personne, d’après Pure Xbox . Pas de panique toutefois : il suffit de sauvegarder votre partie en cours pendant que vous êtes en vue subjective, puis de recharger immédiatement ce fichier pour récupérer la caméra par défaut sans perdre la moindre minute de progression.",
-   "pub": "2026-11-20T09:54:01+00:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPREM0SEJZeV8xdndPbU4tdmlpNXNla1NURjRGMm9WY1FiZlRqYVJTdzdZNE1oSl92aE12X2wzRGxpMGgwXzRNU1BVUk1Wb3ZXVEtKUjhMR2V4a3ZpeFQyZ1k1QmpXdFRkTDVyajJScjBJRkw2MWNlcEdfemJvdkZhTWxublNMRjU2bmZtRUl3OFdpdVpkV2dyLVZ5UE43Q1Vma2NhTzRESjBqZy1EZW1SNUplVkYzcWkzYUVZRVRCbTBvMG1qYTh2dGxrdHlrS1ppWEhrLW5jN3dHY1Z6?oc=5",
-   "s": "IGN France",
-   "d": "2026-11-20T09:50:00+00:00",
-   "lang": "fr",
-   "t": "Après la sortie de GTA 6, les services de police à travers les US supplient les gens de ne pas commettre de crimes dans la vraie vie",
-   "u": "https://fr.ign.com/grand-theft-auto-6/94110/apres-la-sortie-de-gta-6-les-services-de-police-a-travers-les-us-supplient-les-gens-de-ne-pas-commet",
-   "img": "https://sm.ign.com/t/ign_fr/news/g/gta-6-has-/gta-6-has-police-departments-across-america-begging-people-n_jhft.1200.jpg",
-   "chapeau": "\"Gardez ça pour le jeu\".",
-   "txt": "La popularité de GTA 6 a conduit des services de police à travers les États-Unis à exhorter les citoyens à ne pas commettre de véritables crimes. Grand Theft Auto 6 est enfin dispo dans le monde entier et les joueurs peuvent enfin donner libre cours à leurs fantasmes criminels les plus fous. L'expérience offre en effet une grande liberté, Rockstar Games ayant apporté une profondeur inédite au jeu qui rend les actes criminels — comme les simples braquages ​​— plus complexes et nuancés que jamais. Toutefois, comme à chaque sortie de nouveaux jeux de la série, les détracteurs de la franchise (notamment certains grands médias, comme BFM, LCI et CNews chez nous) ont exprimé leurs inquiétudes quant à l'impact potentiel d'un tel jeu sur la jeunesse et la société, relançant une fois de plus le sempiternel débat sur les jeux vidéo qui rendraient violent.",
-   "pub": "2026-11-20T09:49:15+00:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSVpQTkJfa1dLNU9EQWZlekVVTG5TeUwtYmMtYlU4ZlZVWmhOSGRmN3dENmg1ZG9FdFYxcXlsQkY1Q3F2Z0R6NUtjTW5rbjZwYXpsei1jbGJnWENPWm5UT3FnV3JkdV9uakZDRjJuMnBUaVp2MVZiT3BDQUNhM0x4UTQwVDFTWmlYY215ZFg3VE8zd2Jta2hhdDI4RUFuUm5TSXV5MDctcDQyRkNtOHZjVDZEdEVqYm01SHZNakx2dm83ZU1STEh2TA?oc=5",
-   "s": "Cowcotland.com",
-   "d": "2026-11-20T09:33:07+00:00",
-   "lang": "fr",
-   "t": "GTA 6 sur PC avec DLSS 5 et Frame Generation, c'est possible, mais c'est d'un compliqué !",
-   "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYmJkdGpXZEljNDliVmFyTGdmS3ZpaEdGbHQzRVh1X2tNTFpYVEVXTTBwNkJqa0RzUm5UMWFySU9SMHFKanQ4UDNPSFc5V0xTek9RR2pPNDFyT0pUWlotMEdZbk5MWGVRdmRCUFI5ZVFPN1NWWlZtMEdrX1FYQVpPcThhT2xQY3JFS3BRcmZ4TWtJMndhUzEtVm9wcw?oc=5",
-   "s": "Ecran Large",
-   "d": "2026-11-20T09:32:00+00:00",
-   "lang": "fr",
-   "t": "GTA 6 explose les scores de ventes et réalise un démarrage record dans l'histoire du jeu vidéo",
-   "u": "https://www.ecranlarge.com/jeux-video/news/gta-6-premiers-chiffres-ventes-hallucinants-rockstar",
-   "img": "https://www.ecranlarge.com/content/uploads/2026/11/gta-6-les-premiers-chiffres-de-ventes-hallucinants-1260x708.jpg",
-   "chapeau": "On s'attendait à un phénomène culturel et commercial fou, mais il semblerait qu'on soit encore en dessous de la réalité concernant GTA 6.",
-   "txt": "© Rockstar Games Après treize ans d’attente, GTA 6 a débarqué sur PS5 et Xbox Series, et, sans surprise, les premières estimations commerciales donnent déjà le tournis à toute l’industrie.\nL’attente autour de Grand Theft Auto VI relevait depuis longtemps de l’hystérie collective. Il faut dire que Rockstar Games n’a pas regardé à la dépense, injectant un budget quasi illimité pour bâtir le successeur d’un Grand Theft Auto V devenu monstre sacré du jeu vidéo avec ses 235 millions d’exemplaires écoulés. Treize longues années après l’affaire de Los Santos, la pression sur les épaules du studio était tout simplement colossale.\nGTA 6 : une ultime bande-annonce de lancement explosive pour le retour à Vice City\nSorti ce 19 novembre 2026 sur PS5 et Xbox Series, le jeu pourtant a balayé tous les doutes d’un revers de main. C’est déjà un triomphe critique dingue, couvert de notes stratosphériques à travers le globe jusqu’à égaler le plus haut score Metacritic de l’histoire avec un vertigineux 99/100 (ex-aequo avec le Ocarina of Time de 1998). Et logiquement, les tout premiers chiffres de ventes s’avèrent tout aussi démentiels.\nTeam Lucia, évidemment GTA 6 se chiffre en milliards Si l’éditeur Take-Two n’a pas encore publié de bilan officiel, le cabinet d’analyse Sensor Tower donne déjà l’ampleur du phénomène. Selon son suivi mis à jour le 19 novembre, GTA 6 cumulerait quelque 19 millions de ventes pour environ 1,84 milliard de dollars de recettes sur consoles, avec une répartition de 14,23 millions d’unités (1,38 milliard de dollars) sur PlayStation 5 et de 4,82 millions (464 millions de dollars) sur Xbox. En nette hausse par rapport à la précédente estimation de 10,31 millions de copies pour un milliard, le total profite surtout de l’Édition Ultime, qui représenterait 87 % des commandes, avec un panier moyen autour de 99 € par précommande.\nLes analyses du site Sensor Tower Pour réaliser la démesure de ce démarrage, il suffit de regarder dans le rétroviseur des plus gros blockbusters récents. Cyberpunk 2077 détenait jusque-là un record avec 8 millions de précommandes en 2020 (PC et versions physiques inclus) : GTA 6 frôle le double avant même d’arriver sur PC.\nDe son côté, Elden Ring avait écoulé 13,4 millions de copies sur l’ensemble de son premier mois en 2022, tandis que The Legend of Zelda : Breath of the Wild a mis près de dix ans à franchir les 35 millions d’unités cumulées (dont 34,28 millions sur Switch). Ici, Rockstar joue dans une autre catégorie.\nGTA 6 : quelles différences entre les différentes éditions du jeu ?\nRockstar veut votre argent Et ce raz-de-marée financier est encore très loin d’avoir atteint son pic. Sur la seule première semaine d’exploitation, les projections du cabinet Newzoo tablent sur un volume de ventes compris entre 37 et 51 millions d’exemplaires vendus à travers le monde . De quoi générer des recettes estimées entre 3,25 et 5,2 milliards de dollars en sept petits jours, soit assez pour dépasser d’emblée toute la carrière de Breath of the Wild et rattraper les 40 millions de ventes accumulées par Cyberpunk 2077 en six ans.\nAutant dire que la déferlante ne fait que commencer, et elle ne se limite pas aux tiroirs-caisses des boutiques en ligne. Preuve de cet engouement, les plateformes de streaming ont elles aussi cédé sous la pression des curieux. D’après les relevés de Streams Charts , les diffusions de GTA 6 ont atteint un pic historique de 6,38 millions de spectateurs simultanés (en additionnant les chiffres des plateformes Kick, YouTube et Twitch).\nOn attend maintenant les chiffres de ventes officiels de Rockstar Games, qui ne sauraient tarder.",
-   "pub": "2026-11-20T10:32:00+01:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPdFVQaDNXcmc5bEpiZGJxWXAxY1VoQ2F2dXdnaEpGSkNHZlhlTVhmX0FvcGFmTmpFMUNCd3I3VHdjS1pvZGxNY21FZHZZZTVRYjRxTFM3WmIxNzc4UU1LcEFxYkVWVXhuRlNaRWNOSzZ0U0FIQUVaMjJqdXd0bFBkTUVWV2JpTGUxcjg4dEt0MmNTN1FHQjktUHJFZHJub1RsNTlLNE9oS3o4MmRoUGFvREQ2dnllbENRdHdBazA5cVliQUNZWkpNZUFtdXZxenEtcE9zWUZSTjNydlplZ0hjaTVlR0JjRTZxcEcwZ1lPSFJNaHBScVZKUV9hNHhuU2RKQ0NITk5CVVRSdnQ50gGSAkFVX3lxTE10OUdNN2tTNHdFY0tDZTFTZldBWXFubU9iR181dHVyWmUyQXVkTXkySld4LVNsWDBNQ3M1MzZ5T1F6dGdjREtxVHdQMjZXdUtETWVhRFd3TzhJQ2dzTDBZNlJWSVRDUnQtUThUejlaVVp3RjZMcVlTZmh2M0RlaWl0VzNUSnpXZUJFUEM4ZEI1cHBHbkJUaVZrNEwzZHRpWEx5dTByUEpBdURKZTJXUzB4c2Z3VjZCOEl5cnpncEJFWl9vSWtETjBlQjJCSGJQMGdmNVAwQzlfQzR5VURtTno1a3BLaTNjSFRRWWxrVlpkdko4Rk9JVDR0SW5tUFIyd1I2Y0Z2Y1ZnQTRnckc5Ykd0WVE?oc=5",
@@ -390,18 +382,6 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1IanhESkJPU2JUZ2FVeV9oaDU4M0pWWXRkZXlWSTVnYWdPcV9FczhoXzcyU3J0dnZEMHNCSzNicHZ5SUk0ODhRbVNUWlNDNGw1QkVPOUxLUVYtUVo4M0w3b1FLS3k5LXlaTmNfbXJoR0VVU1lYamc?oc=5",
-   "s": "Mashable",
-   "d": "2026-11-20T05:31:51+00:00",
-   "lang": "en",
-   "t": "'GTA 6': How to use a talking parrot to find a stash of money",
-   "u": "https://mashable.com/entertainment/gta-6-hidden-cash-talking-parrot",
-   "img": "https://helios-i.mashable.com/imagery/articles/01WBZG3Jm2ewV0UKVd5wwV1/hero-image.fill.size_1200x675.v1795084615.jpg",
-   "chapeau": "An extra $1,300 hidden right at the start of 'GTA 6'? Don't mind if we do.",
-   "txt": "Grand Theft Auto VI has only been out for a day , but people are already sharing tips.\nOne early hidden feature — and a nice way to quickly build those cash reserves — comes courtesy of a liquor store and a talking parrot.\nUK streamer Millzaa shared a mini walkthrough of how to find the money in GTA 6 on TikTok and X , where it's been viewed over a million times.\n\"There's a parrot that leads you to a secret money stash at the start of GTA 6 ,\" he says in the video. \"Talk to your neighbor Shirley and she'll send you to the liquor store for some rum...\"\nMillzaa explains that once you've bought and delivered the rum for Shirley you can return to Three Sheets Liquor (when you're in the store earlier, the owner tells a bunch of animals in a back room to be quiet. Don't try to enter this room by walking behind the counter (the owner will not like this). If you jump the fence round the side you'll find some criminals you need to fight off — and when you do, you'll discover a talking red parrot in a cage. The parrot mentions cash and a generator, next to which you'll find a grate in the wall.\nInterested in how long it takes to play GTA 6 's story , or just want a list of amusingly mundane things you can do in the game? Mashable has you covered. Recommended deals for you HBO Max — top pick for premium content\nSam Haysom is the General Assignment Editor, UK, for Mashable. He covers entertainment and online culture, and writes horror fiction in his spare time.",
-   "pub": "2026-11-19T11:01:08+00:00"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMic0FVX3lxTE45enYyUVYzNmhvRWktbnJHVEY2OWVJRi0xWDA2eDVHZG1UR1A5MWVHS3o0c3N6U3JsMy1aMWtCOGVPbDNDVXlKM2JOOFNVdTV4UnMtdTRGT3EyNlM4d21PSUZpdHYtYXFiUFMwQjRLOHRNeW8?oc=5",
    "s": "TalkEsport",
    "d": "2026-11-20T05:16:07+00:00",
@@ -422,18 +402,6 @@
    "t": "Is the GTA 6 leak safe to download? Fake builds and launchers have carried password-stealing malware",
    "erreur": "429 : passage suivant",
    "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNX2VRcV9OaXY3ejVJNV9PdUh4cFdiMWlDOXE4RHBDNWFZNmxxYnRyc0RQYVpCczFhSXBVOUt2dHFFbkVpTU5JUEZERVpxRlRLMEg4aEFfTFBHVFVNR09IbU9UVjd1a3lGYmlyNGRSOThzN2QtY2ZhT0hfbkNXVnVhUXREZDgtN21vSjBVMVk4b3l2NHU5NDlZT3VzckRnbHo1ODlLa1Z6NUh4b2VGcXhn?oc=5",
-   "s": "Tampa Bay Times",
-   "d": "2026-11-20T04:37:26+00:00",
-   "lang": "en",
-   "t": "We went birding in GTA 6. These are the Florida species we found.",
-   "u": "https://www.tampabay.com/news/environment/2026/11/19/gta6-florida-birds-grand-theft-auto-6-birdwatching-guide/",
-   "img": "https://www.tampabay.com/resizer/v2/5SOTEC57JVGFFO63FXSZ33XYTU.JPG?auth=8d938568f8529aad4f01c9dc8cbc47868252ecb04ceb48a4bf82040eac28dc3a&height=675&width=1200&smart=true",
-   "chapeau": "From spoonbills to seagulls, we discovered an array of Florida birds in Leonida.",
-   "txt": "Share . Environment reporter Max Chesnes playfully uses binoculars while behind him, reporter Jack Prator reacts to a roseate spoonbill while birding in a fictional Florida’s wild spaces in the game “GTA VI” on Thursday in St. Petersburg. [ MARTHA ASENCIO-RHINE | Times ] Max Chesnes is the Tampa Bay Times' environment and climate reporter, covering public lands, water quality, wildlife and everything in between. Reach him at mchesnes@tampabay.com or follow him on Instagram @MaxChesnes.\nJack Prator is a reporter covering the environment. Reach him at jprator@tampabay.com.\nAnyone can view a sampling of recent comments, but you must be a Times subscriber to contribute. Log in above or subscribe here .\nConversations are opinions of our readers and are subject to the Community Guidelines .\nONLY AVAILABLE FOR SUBSCRIBERS The Tampa Bay Times e-Newspaper is a digital replica of the printed paper seven days a week that is available to read on desktop, mobile, and our app for subscribers only. To enjoy the e-Newspaper every day, please subscribe.",
-   "pub": ""
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNmVWS1o5X3VzQWxoUHN4Tzh0Y2xjUlpmbDlKU2tuRlB2TXpTMktrU1VKTGZBeEtHcTRMU2tZdG1wMzVRektkbDUtRE9FMWVBU0N0T2wyVDZpZjc1am5DVFJnWHZHUEtheExxdzFHOUJ3X0N4UXZhNGhVQlRkdUtUZXRtNnA4akI4VjRRMkNWZ3dZX2hpX0tDanF1S3RRenN2Uk4tLUZ0Z0JSM01KSHVzTA?oc=5",
@@ -756,6 +724,15 @@
    "chapeau": "Arion Kurtaj, le Britannique à l’origine de la fuite massive de Grand Theft Auto VI en 2022, a plaidé coupable le 16 novembre 2026 devant la justice britannique. Le tout à quelques jours de la sortie du jeu le plus attendu de tous les temps.",
    "txt": "Arion Kurtaj, le Britannique à l’origine de la fuite massive de Grand Theft Auto VI en 2022, a plaidé coupable le 16 novembre 2026 devant la justice britannique. Le tout à quelques jours de la sortie du jeu le plus attendu de tous les temps.\nLe 18 septembre 2022, Rockstar Games était victime de l’une des fuites les plus importantes de l’histoire du jeu vidéo . Arion Kurtaj, alors âgé de 17 ans , a récupéré 90 séquences de gameplay . Arrêté et condamné depuis, il est repassé devant la justice pénale et pour la première fois, il a reconnu les faits.\nFin 2022, Arion Kurtaj, alors âgé de 17 ans, est impliqué dans les intrusions du groupe Lapsus$ contre Nvidia, BT/EE, Revolut . Il est arrêté et placé en détention provisoire , puis libéré sous caution dans l’attente de son procès. Une période durant laquelle il est hébergé dans un hôtel sous protection policière, puisque menacé par d’autres pirates à propos de bitcoins volés.\nPrivé d’ordinateur, Arion Kurtaj a utilisé un Amazon Fire Stick à l’arrière de la télévision de sa chambre, un clavier et une souris et a piraté Rockstar Games. Avec ce hack, il a récupéré 90 séquences de gameplay de GTA VI , accède au canal de communication interne de l’entreprise et menace de publier le code s’il n’est pas contacté. Faute de réponse, le jeune homme a diffusé toutes les vidéos et le code source sur un forum.\nSauf qu’il est repéré et devra rendre des comptes. En 2023 lors de son procès, les médecins ont estimé que la gravité de son autisme rendait Arion Kurtaj inapte à être jugé dans un procès pénal ordinaire. En décembre de la même année, le jury a conclu qu’Arion Kurtaj a bien commis ces actes et a prononcé une ordonnance d’hospitalisation sécurisée à durée indéterminée. Pour lui, le jeune hacker représentait toujours un danger ; il pourrait retomber dans le cybercrime.\nMais voilà, fin 2025, une évaluation médicale de routine l’a déclaré apte à être jugé. Une décision qui a entraîné son transfert d’un hôpital sécurisé vers une prison classique en janvier dernier. Ce changement de statut médical a permis l’ouverture d’ une procédure pénale classique devant la Woolwich Crown Court. Le 16 novembre, Arion Kurtaj a enfin plaidé coupable pour l’ensemble des chefs d’accusation, dont le piratage de Rockstar Games, en plus des attaques contre Uber, BT/EE et Revolut.\nDésormais âgé de 21 ans, le hacker recevra sa sentence le 23 novembre prochain selon plusieurs médias. Le tribunal devra déterminer la peine appropriée ; les préjudices causés s’élèveraient à 10 millions de livres sterling. À noter qu’Arion Kurtaj a commis des violences physiques en détention et avait réussi à s’y procurer un téléphone portable, ce qui est interdit.\nCe nouveau procès s’est ouvert en marge de la sortie de GTA VI , le jeu vidéo le plus attendu de tous les temps qu’Arion Kurtaj avait fait fuiter en 2022. Face à l’ampleur de ce piratage et des séquences du jeu, Rockstar Games avait dû confirmer l’authenticité de ces extraits, tout en précisant que le jeu était encore en développement . L’éditeur ne prévoyait pas du tout de parler de GTA VI aussi tôt : la première bande-annonce n’est arrivée que le 5 décembre 2023, plus d’un an après la fuite.\nL’entreprise a estimé le coût de cette attaque à environ 5 millions de dollars, ce qui comprend notamment des milliers d’heures de travail pour ses équipes. En effet, il a fallu analyser l’ampleur de la compromission, sécuriser les systèmes et surtout gérer les conséquences de la publication de ces extraits du jeu. Un traumatisme pour les développeurs du jeu, mais aussi pour les fans : beaucoup auraient préféré que ce soit le studio qui montre en premier le jeu, pour respecter son travail. Une blessure qui va s’atténuer avec l’excitation de la sortie du jeu ce jeudi 19 novembre , 13 ans après l’arrivée d’un certain GTA V .\n👉🏻 Suivez l’actualité tech en temps réel : ajoutez 01net à vos sources sur Google , et abonnez-vous à notre canal WhatsApp .\n« Nous craignons d’être licenciés » : alors que GTA 6 cartonne, un employé de Rockstar lance un cri d’alerte\nJ’ai joué à GTA 6 sur ma vieille Xbox One grâce au cloud : voilà à quoi ça ressemble\nGTA 6 : ours déchaîné, tigre en liberté, avion qui s’écrase…les joueurs découvrent des scènes complètement folles\nGTA 6 : les réglages à changer tout de suite sur votre télé, votre PS5 ou votre Xbox\nMeilleur gestionnaire de mots de passe : le guide en novembre 2026",
    "pub": "2026-11-17T13:03:30+00:00",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMidkFVX3lxTE16MmtFYmpsdV9seHllM2VQQ2ZIZjJzNGJwZkYyMVRyMFliMkNtOVZGYkYwcUoySlNjUlZWVkJyYjd0YmdneUhvbF9UWkNLdWprZ3FURzk2UVpsR3hhbXdmWlJDOGZvT3JLeGEwTWhsS3NveU5CWmc?oc=5",
+   "s": "Ayther",
+   "d": "2026-11-17T13:00:13+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : Qui est Arion Kurtaj, le hacker de la fuite ?",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   }
  ]
