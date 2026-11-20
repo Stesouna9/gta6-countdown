@@ -86,24 +86,22 @@
       '<div class="cx-map"></div>' +
       '<div class="cx-haut"><div class="cx-rech"><span aria-hidden="true">⌕</span><input type="search" autocomplete="off"><ul hidden></ul></div>' +
       '<button type="button" class="cx-b cx-b-pan"></button></div>' +
-      '<div class="cx-outils"><button type="button" class="cx-b cx-b-plein" aria-label="Plein écran">⛶</button><button type="button" class="cx-b cx-b-cadre" aria-label="Recadrer">⌂</button><button type="button" class="cx-b cx-b-part" aria-label="Partager">↗</button><button type="button" class="cx-b cx-b-noms" aria-label="Noms">Aa</button></div>' +
+      '<div class="cx-outils"><button type="button" class="cx-b cx-b-plein" aria-label="Plein écran">⛶</button><button type="button" class="cx-b cx-b-cadre" aria-label="Recadrer">⌂</button><button type="button" class="cx-b cx-b-part" aria-label="Partager">↗</button><button type="button" class="cx-b cx-b-noms on" aria-label="Noms">Aa</button></div>' +
       '<aside class="cx-pan"' + (mob ? " hidden" : "") + '><div class="cx-onglets"></div><div class="cx-corps"></div></aside>' +
       '<div class="cx-bas"></div><div class="cx-toast" hidden></div>';
     var h0 = ""; try { h0 = decodeURIComponent(location.hash.slice(1)); } catch (e) {}
     var $ = function (s) { return el.querySelector(s); };
     var mapEl = $(".cx-map"), ri = $(".cx-rech input"), ru = $(".cx-rech ul"), pan = $(".cx-pan"), corps = $(".cx-corps"), ong = $(".cx-onglets"), bas = $(".cx-bas"), toast = $(".cx-toast");
-    var mo = L.map(mapEl, { crs: L.CRS.Simple, minZoom: -4, maxZoom: 1.75, zoomSnap: 0, zoomDelta: 0.5, wheelPxPerZoomLevel: 110, wheelDebounceTime: 20, scrollWheelZoom: true, doubleClickZoom: true, touchZoom: true, dragging: true, inertia: true, zoomControl: false, attributionControl: true, tap: true, bounceAtZoomLimits: false });
+    /* V4 (20/11) : vraie carte détaillée de Leonida en tuiles (gtadb.org, CC BY 4.0), repères recalés par affine sur les 44 lieux communs */
+    var CRS = L.extend({}, L.CRS.Simple, { transformation: new L.Transformation(0.052351, 42.201, -0.0536904, 202.6127) });
+    var mo = L.map(mapEl, { crs: CRS, minZoom: 0, maxZoom: 9.5, zoomSnap: 0, zoomDelta: 0.5, wheelPxPerZoomLevel: 110, wheelDebounceTime: 20, scrollWheelZoom: true, doubleClickZoom: true, touchZoom: true, dragging: true, inertia: true, zoomControl: false, attributionControl: true, tap: true, bounceAtZoomLimits: false });
     L.control.zoom({ position: "bottomright", zoomInTitle: "+", zoomOutTitle: "−" }).addTo(mo);
-    mo.attributionControl.setPrefix(false).addAttribution(esc(tr("sl_attr_off", "Carte officielle Rockstar Games")));
-    /* V3 (20/11) : affiche recadrée sans cadre blanc ni légende de marge ; la mer continue tout autour (fond .cx-map = bleu de la carte) */
-    var fx = OW / 2805, CB = [[OH - 3743 * fx, 98 * fx], [OH - 98 * fx, 2707 * fx]];
-    var TERRE = [[OH * .05, OW * .13], [OH * .93, OW * .87]];
-    L.imageOverlay(R + "assets/img/carte/leonida-v3-l.webp", CB, { alt: "Leonida" }).addTo(mo);
-    var hd = new Image(); hd.onload = function () { var lh = L.imageOverlay(hd.src, CB, { alt: "" }).addTo(mo); mo.eachLayer(function (l) { if (l instanceof L.ImageOverlay && l !== lh) mo.removeLayer(l); }); };
-    hd.src = R + "assets/img/carte/leonida-v3.webp";
+    mo.attributionControl.setPrefix(false).addAttribution('Fond : <a href="https://gtadb.org" target="_blank" rel="noopener">gtadb.org</a> et contributeurs, CC BY 4.0');
+    L.tileLayer(R + "tuiles/leonida/{z}/{z},{y},{x}.jpg", { zoomOffset: -2, minNativeZoom: 2, maxNativeZoom: 8, tileSize: 256, bounds: [[-81, -156], [3140, 2402]], keepBuffer: 3, updateWhenZooming: false, className: "cx-tuiles" }).addTo(mo);
+    var TERRE = [[248.9, 277.9], [2754.0, 2083.0]];
     var ZB = 0;
     function cadre(anim) { mo.invalidateSize(); var zf = mo.getBoundsZoom(TERRE, false); ZB = zf; mo.setMinZoom(zf - 0.6); var pw = (!mob && !pan.hidden) ? pan.offsetWidth + 24 : 0; mo.fitBounds(TERRE, { animate: !!anim, paddingTopLeft: [10, 60], paddingBottomRight: [pw, 10] }); }
-    mo.setMaxBounds([[-OH * .1, -OW * .1], [OH * 1.1, OW * 1.1]]);
+    mo.setMaxBounds([[-400, -500], [3500, 2800]]);
     function ll(o) { return L.latLng(OH - o.y * kx, o.x * kx); }
     function caseDe(p) {
       var x = p.lng / kx, y = (OH - p.lat) / kx;
@@ -113,7 +111,7 @@
     function info(m) { toast.textContent = m; toast.hidden = false; clearTimeout(info.t); info.t = setTimeout(function () { toast.hidden = true; }, 2200); }
 
     /* 87 lieux officiels : point + étiquette (étiquettes visibles dès qu'on zoome un peu) */
-    var gL = L.layerGroup(), gH = L.layerGroup().addTo(mo), mk = {}, sel = null, selC = null;
+    var gL = L.layerGroup().addTo(mo), gH = L.layerGroup().addTo(mo), mk = {}, sel = null, selC = null;
     LO.forEach(function (o) {
       L.circleMarker(ll(o), { radius: 18, stroke: false, fillColor: "#ffd23f", fillOpacity: 0.001, className: "cx-hit" }).on("click", function () { voir(o, true); }).addTo(gH);
       var m = L.circleMarker(ll(o), { radius: 6, color: "#0b0812", weight: 2, fillColor: "#ff2e88", fillOpacity: 1, className: "cx-pt" })
@@ -172,8 +170,8 @@
       mo.flyTo(m.getLatLng(), zc, { duration: .6 }); mo.once("moveend", function () { m.openPopup(); });
       if (mob) { pan.hidden = true; majPanBtn(); }
     }
-    function etiquettes() { el.classList.toggle("cx-labs", noms && mo.getZoom() >= mo.getMinZoom() + 0.9); }
-    var noms = false;
+    function etiquettes() { el.classList.toggle("cx-labs", noms && mo.getZoom() >= mo.getMinZoom() + 0.35); }
+    var noms = true;
     function popLieu(o) {
       var l0 = parS[o.n] || [];
       return '<div class="cx-pop"><b>' + esc(o.n) + "</b><span>" + esc(tr("sl_off_case", "Case")) + " " + esc(o.case) + "</span>" +
@@ -341,7 +339,7 @@
       else if (h.indexOf("c=") === 0) { var v = h.slice(2).split(",").map(Number); if (v.length === 3 && v.every(isFinite)) mo.setView([v[1], v[2]], v[0]); }
       etiquettes();
     }
-    addEventListener("resize", function () { clearTimeout(cadre.t); cadre.t = setTimeout(function () { mo.invalidateSize(); var zf = mo.getBoundsZoom(OB, false); mo.setMinZoom(zf - 0.25); }, 150); });
+    addEventListener("resize", function () { clearTimeout(cadre.t); cadre.t = setTimeout(function () { mo.invalidateSize(); var zf = mo.getBoundsZoom(TERRE, false); ZB = zf; mo.setMinZoom(zf - 0.6); }, 150); });
   }
 
   function carte() {
