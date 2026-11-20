@@ -295,6 +295,12 @@ def main():
     # --- missions et triches
     ch = missions(src["walk"], gb["missions"])
     if ch:
+        # garder ce qui a ete redige a la main (pas a pas "w", lieu, etc.) : l'import ne fait qu'ajouter
+        anciens = {m.get("t"): m for c in G6.get("chapitres", []) for m in c.get("missions", [])}
+        for c in ch:
+            for m in c["missions"]:
+                for k, v in anciens.get(m.get("t"), {}).items():
+                    m.setdefault(k, v)
         G6["chapitres"] = ch
         G6["missions_sources"] = [PP + PAGES_PP["walk"] + "/", GB + PAGES_GB["missions"]]
     tr = triches(src["cheats"], gb["cheats"])
