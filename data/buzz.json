@@ -1,8 +1,65 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-20T10:12:48+01:00",
+  "updated_at": "2026-11-20T12:13:03+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-jennie-power-trip-gta6-album-2026-11-20",
+      "title": "GTA 6 : la chanson « Power Trip » de JENNIE publiée en entier sur X",
+      "summary": "Selon @GTAVI_Countdown, « Power Trip » de JENNIE, piste 21 de l'album de GTA 6, circule en entier sur X. Le compte présente JENNIE comme la première artiste K-pop figurant sur un album original de GTA ; la tracklist n'est pas confirmée par Rockstar.",
+      "url": "https://x.com/GTAVI_Countdown/status/2123680244402127349",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-20T07:30:00.000Z",
+      "checked_at": "2026-11-20T12:13:03+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json : 34 976 vues (@GTAVI_Countdown, 20/11 relevé 11 h). Un seul compte relève l'information, non vérifiée par le site.",
+      "visual": "JENNIE",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2123659492889886720/img/mozmU_q3ktMW0gJ7.jpg",
+      "image_alt": "Publication de @GTAVI_Countdown annonçant la chanson « Power Trip » de JENNIE, piste 21 de l'album GTA 6",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "JENNIE's full song \"Power Trip\" from the GTA 6 Album Track 21."
+    },
+    {
+      "id": "x-six-etoiles-police-gtalphaintel-2026-11-20",
+      "title": "GTA 6 : plusieurs moyens de semer la police, sauf à six étoiles, selon @GTAlphaintel",
+      "summary": "Selon @GTAlphaintel, GTA 6 offre plusieurs façons de semer la police : se cacher, changer d'apparence, d'arme ou de véhicule. Ces moyens ne fonctionnent pas à six étoiles de recherche. Information d'un seul compte, non vérifiée par Rockstar.",
+      "url": "https://x.com/GTAlphaintel/status/2123612314788151513",
+      "platform": "X",
+      "author": "@GTAlphaintel",
+      "status": "Rumeur",
+      "published_at": "2026-11-20T03:00:05.000Z",
+      "checked_at": "2026-11-20T12:13:03+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json : 22 702 vues (@GTAlphaintel, 20/11 relevé 11 h). Un seul compte relève l'information, non vérifiée par le site.",
+      "visual": "RECHERCHE POLICE",
+      "image": "https://pbs.twimg.com/media/HXhWwIOa0AAmnOC?format=jpg&name=360x360",
+      "image_alt": "Publication de @GTAlphaintel sur les moyens de semer la police dans GTA 6",
+      "image_credit": "@GTAlphaintel sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "GTA 6 has multiple ways to lose the cops, except when you're at a six-star Wanted Level. These include hiding, changing your appearance, weapon or vehicle."
+    },
+    {
+      "id": "x-cover-girl-revelee-gtavi-gtasix-2026-11-19",
+      "title": "GTA 6 : la vraie cover girl révélée sur X, le casting de Rockstar aurait confirmé",
+      "summary": "Selon @GTAVI_Countdown (58 402 vues) et @gtasix_ (196 994 vues), la vraie cover girl de GTA 6 a été révélée : une mannequin new-yorkaise d'origine dominicaine, dont le rôle aurait été confirmé par la directrice du casting de Rockstar. Le nom n'est pas repris ici, la personne étant privée. Aucune confirmation officielle de Rockstar.",
+      "url": "https://x.com/GTAVI_Countdown/status/2123546142545711584",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "2026-11-19T22:37:08.000Z",
+      "checked_at": "2026-11-20T12:13:03+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json : 58 402 vues (@GTAVI_Countdown, 19/11 au soir) et 196 994 vues (@gtasix_, 19/11 au soir, lien Instagram). Deux comptes reprennent l'information, sans source officielle.",
+      "visual": "COVER GIRL",
+      "image": "https://pbs.twimg.com/media/HXhZ3aeWgAACgVc?format=jpg&name=small",
+      "image_alt": "Publication de @GTAVI_Countdown sur la cover girl réelle de GTA 6",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Texte original en anglais : annonce de la vraie cover girl de GTA 6 et de la confirmation du casting. Nom omis."
+    },
     {
       "id": "x-dua-lipa-go-easy-gta6-album-2026-11-20",
       "title": "GTA 6 : la chanson « Go Easy » de Dua Lipa publiée en entier sur X",
@@ -5690,6 +5747,11 @@
       "at": "2026-11-20T10:12:48+01:00",
       "label": "Passage Claude Haiku (Matière X, 20/11 10 h)",
       "summary": "2 sujets ajoutés depuis x_alertes.json : « Go Easy » de Dua Lipa en entier (@GTAVI_Countdown, 25 926 vues, Rumeur) et craintes de licenciements chez les développeurs (@GTAlphaintel, 22 200 vues, Rumeur). Écartés : record de 24,5 millions de précommandes et Metacritic 99 (déjà couverts), vente de 24,58 millions (déjà couverte), comparatif « how it started » (proche du comparatif du 19/11), identité de la cover girl (personne privée, non nommée), Cyberleek Xbox (déjà couvert), JENNIE, Playboi Carti, gtasix_ première personne et Lucia (sous 20 000 vues, un compte)."
+    },
+    {
+      "at": "2026-11-20T12:13:03+01:00",
+      "label": "Passage Claude Haiku (Matière X, 20/11 11 h)",
+      "summary": "3 sujets ajoutés depuis x_alertes.json : JENNIE « Power Trip » en entier (@GTAVI_Countdown, 34 976 vues, Rumeur), plusieurs moyens de semer la police hors six étoiles (@GTAlphaintel, 22 702 vues, Rumeur) et cover girl réelle révélée (@gtasix_ 196 994 vues et @GTAVI_Countdown 58 402 vues, Rapporté, nom omis). Écartés : Cyberleek Xbox (17 529 vues, un compte), Lexie Shoaibi et Mandy (déjà couvert), Metacritic 99, vente de 24,58 millions et Sensor Tower (déjà couverts), Playboi Carti (14 818 vues), « how it started » (proche du comparatif du 19/11), gtasix_ première personne (déjà couvert), Lucia (déjà couvert), post RockstarNewsFRA (673 vues), GTA6France1 (30 vues)."
     }
   ],
   "coverage": {
