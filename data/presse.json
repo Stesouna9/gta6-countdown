@@ -1,6 +1,22 @@
 {
- "maj": "2026-11-20T17:59:01+00:00",
+ "maj": "2026-11-20T18:08:27+00:00",
  "articles": [
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPS05zLTlyVVJ5UFVKYmhOZ2RyWVlXbk9McnRBOXJIMmNvVnVLQzRfLWlfWXg4emVZNzJxdjlKQzVOQmZaRHpBaHpuX3ozb29aTHAtSjRIWkhZeHNIdjRERDJRMjEwN0xtdjZfTmN0QmkzTDJ5NXRvQ21IYXVNb05kd3BjOE9YT1N4?oc=5",
+   "s": "Investor's Business Daily",
+   "d": "2026-11-20T18:00:00+00:00",
+   "lang": "en",
+   "t": "Take-Two Smashes Sales Records With 'Grand Theft Auto 6'",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQTTlaakdsY1FFSjk4RjBSd1R2TEJPTl9HUkx6QW1PY2plVHJaTnVHenZZd0c1RlVSQ29xRWpzZ24xdGFpTWh1aHc5c1NZd0hvSnVvRndGUkJqbFpJNVlfOVE1RFZldWlldUNUOGdTbjRUSFd2ZmZ2LXJETGpodWRtTkdDNnBhUQ?oc=5",
+   "s": "Push Square",
+   "d": "2026-11-20T18:00:00+00:00",
+   "lang": "en",
+   "t": "GTA 6 Made Me Want to Be a Good Guy (or Girl)",
+   "erreur": "429 : passage suivant"
+  },
   {
    "gn": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE16LXZvell1NW9HSVZWcjFGT0ZIbktKT3B6UVhoSWlGMVVybTBTYkk4eGV2aUxCbExzVDh2RkdMTnlhU2ZQVkJtWEdXTkI3czRlS2w0ZzJIanlSRk9TUHJLZzd2MA?oc=5",
    "s": "CNET",
@@ -91,11 +107,7 @@
    "d": "2026-11-20T17:30:48+00:00",
    "lang": "fr",
    "t": "GTA 6 est le paradis pour les amateurs de voitures",
-   "u": "https://fr.motor1.com/news/816204/gta-vi-paradis-amateurs-de-voitures/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": ""
+   "erreur": "HTTP Error 429: Too Many Requests"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPRFRlSXR0eUo1TnJQSDc5dThnVUVKbE5jWnBjN0s4STJBampBNUl2MHh2VTVaN2hQd0NGNmZROVlrY2k1c3RKekdrSG1MNDJOcTNTVUgxRHYyYU9SV25wamctQy1NS2lvQTdWLWNZczV6bFdyXzRNM2hidHBmMEhQWVZ0Rm9kZXRyNFBJeE91anJNOVpOOGdpa2U2WGsxd0xGQ0xMSklIWmFWYUJWSDgtOFNsRGRBblR5bzZQVGN2d1VvOC1mUUd4RF9BdFBkVFNrMHRTM1FfbVZTTENUSjh3QUtkQVozdw?oc=5",
@@ -103,11 +115,15 @@
    "d": "2026-11-20T17:25:53+00:00",
    "lang": "en",
    "t": "GTA 6 Is Finally Here — and It’s Already Threatening Relationships, Productivity, and Your Weekend Plans",
-   "u": "https://www.clickorlando.com/news/local/2026/11/20/gta-6-is-finally-here-and-its-already-threatening-relationships-productivity-and-your-weekend-plans/",
-   "img": "https://bc.gmg.io/image/upload/c_thumb,q_auto,w_700,f_jpg/media/video/wkmg/ed3ea12a-8110-4adf-81ba-22973d6f052b/image.jpg?api_key=clickorlando_488cff2bcc157b2e",
-   "chapeau": "The wait is over. After 13 years of fan theories, leaked trailers, and countdown clocks, Grand Theft Auto VI is officially out — and it’s already reshaping how people spend their time, money, and emotional energy.",
-   "txt": "",
-   "pub": "2026-11-20T17:25:53.304Z"
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObGRfT3ZGTmYzcHd3cTVjRTM2b1F1S1dXTkE2SDhPN1A2d2h5TWNjdDhPOE9IMXBvUmFFNFFHcDZRZXlGcGdQN2hvOVZPaTNGTU1QUURubzhyS3psajUzY3RNeFE2T0dXMTM0MjVZbUI3RUxLNXdKdWZmUGxyX2RHRmVWNGlqN005aEhYbm5HVTdkems5Zmc?oc=5",
+   "s": "The State News",
+   "d": "2026-11-20T17:25:20+00:00",
+   "lang": "en",
+   "t": "Finally, GTA 6: Students react to the long-awaited game",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPamtaMFFXcHFLeFR5NDB1blhLYmVQYnlaZGRhd1hMejAtcl92OGJxNG9yVGQ0SUgxVzFWZkkzV2dKaVh3TmNoeDd3ZU4tY2VESE1XWGFreThSLUt4eEpPS3RUSHhURFU3SlBBYVBfamVKb3dLWmE2QmlibDJUTkVvUmhReG1RNDNlSnY2M2xhRFhjdVVqUGtnMkk1TnJDenhzVWQ2d20yWExVQTZvd1JzM0R1VHVNT1FtN3E0cnRUTldqVTQzLV90TVNEdnJYSkVneDJlTTVzR2dYQUxNX0FuUlVfRUhjQ3ZGY0V1QnFnZ1o?oc=5",
@@ -127,7 +143,7 @@
    "d": "2026-11-20T17:18:36+00:00",
    "lang": "fr",
    "t": "GTA 6: le lancement a fracassé des records d’utilisation d’Internet",
-   "erreur": "HTTP Error 307: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error messag"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQOV9URjloVE1reC1BR2l0NWpTMGRsMnFFVHB4VTVBZWtBSlgyM3pzUDRPUGdHWUVQMnctRWNTUWRYd19lSGtYN3FLMVZmN1RXYVQ5eGRTTk9raXJUbjVnUGJYSWZGdlZ5VkxKSGNyN2JnNkZBd1ZQVzc2WG1OdkVYcG9zbFVIVWt6Y0dBWXYwRko5NF9RZEpkTmRYdEFXZkJKdFNVVg?oc=5",
@@ -219,7 +235,7 @@
    "d": "2026-11-20T17:05:46+00:00",
    "lang": "fr",
    "t": "GTA 6 : 91 missions, 5 chapitres… le guide complet !",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQbmdwbUl1WEk0c1BPOFR5czBRSVk3SUE2T2hJXzRfa2c3Q0IwQl9EQ041dFRoR215WDVTZDQzbUFzRUhEdzg5YXM2UE9ycUNJam1CSW9IVmlqSHFUa0ppWkRBbzhENUVpcFZ4cWlNQjQtMW1UamFjVE9iOHpwaFJvaXFUOVBOUkcyZ0FUQkJpOHJ5cFQ1OGhrZGtRbFU2NkN2NGlFRXBSN05XZ2VSUEJHTWVCZUFBb09VMkJibVhOS2lVMHJBZGJWNHV6WGg?oc=5",
@@ -282,14 +298,6 @@
    "pub": "2026-11-20T16:45:10Z"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOakZNbG12ZVpHb2Iwa0lUSmttM2FxRS11MldZa3ZWQnN1ZkpYbmZXamlwNFRJb2lzNGQteWRmeWlRbjh1VDMwZlN5ZXFEamR1bGRfMU9scHBNNHZ3Ny1TRm40SGpadzNhVmQtSGwzcU4tOVlLYzNiejJfS3RNem5qNmdPRGNRUERxOEdOZ2ZDWTJsTjZ4MFNLVWxWTGl3c2FqcnlIVlVHTUlPVTNNOUVFYWFEdw?oc=5",
-   "s": "GameSpot",
-   "d": "2026-11-20T16:45:00+00:00",
-   "lang": "en",
-   "t": "All My Time Meant For GTA 6 This Week Is Being Taken Away By A Volleyball Game",
-   "erreur": "HTTP Error 403: Forbidden"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPM205ZzVpNFVWYlJEaDU1R3RLNXc4VG5yM09oTGNrMG9ZX3lkZmwzQ1d0U19xWXRGbGhjYWpYM3ZIMHAwXzh0Y1lmUF83RUpHRlhGdEhrMDdKbVN4NU9fV1JVZmxIdHlSS0ZUSnpFTndfci1zYU5WLVVjQ0d4cDcwSkJWa0pJSnZmVXJSRHRKMndWTEk?oc=5",
    "s": "PCMag",
    "d": "2026-11-20T16:35:45+00:00",
@@ -299,7 +307,8 @@
    "img": "https://i.pcmag.com/imagery/articles/00OWozaE7GPj3xS46SgjEiB-1.fit_lim.size_1200x630.v1795186409.jpg",
    "chapeau": "The 209GB leak is sparking speculation that GTA 6 will soon be playable on PCs once modders get their hands on the files, which are already circulating on torrents.",
    "txt": "The CyberLeek gang has re-emerged to try to spoil the Grand Theft Auto 6 launch , leaking what it says is 209GB of files for the Xbox version of the game.\n“It is done. CL holds the full November 2026 build of Grand Theft Auto VI, and it is going out by torrent,” CyberLeek posted on its website.\nHowever, the gang says it’s withholding the main executable for the Xbox build to drive people to buy the CyberLeek meme coin. Still, the group is suggesting they’ll release the executable on Monday, Nov. 23, regardless. “The countdown is the timer for the final file. Zero, and the executable drops, no conditions. Unless the CYBERLEEK token reaches 15 million market cap first — then it drops immediately.”\nCyberLeek claims the leaked files will be enough for modders to port GTA 6 and make the game playable on PC, especially with today’s AI coding tools . “This community will have it emulated inside a week, running far past 30fps. CL told you not to preorder for a reason. This is one of the reasons,” the group wrote.\nSome users say they were able to download the files from the torrent and have been digging into the files. “Yes… this is real,” wrote one user, who posted images of a file containing a 3D model of one of the main characters.\nThe torrent, which is named GTA6.Xbox.v1.0.2.1-CYBERLEEK, appears to contain files related to the RAGE game engine for GTA 6, along with other Xbox files, including those pertaining to AMD’s rendering technologies for the console.\nWhile we don’t condone piracy, the leak is already generating excitement among PC gamers, given that GTA 6 is currently exclusive to the PlayStation 5 and Xbox Series X/S. That said, there are signs that an official PC release could arrive as soon as Q1. But the 209GB leak might pave the way for pirated copies even sooner.\nRockstar Games and its parent, Take-Two Interactive, didn’t immediately respond to a request for comment. Take-Two previously subpoenaed records to try and unmask CyberLeek, to no avail. Little is known about the group , which leaked authentic-looking gameplay footage of GTA 6 in the weeks before it launched, suggesting they had somehow obtained a playable copy.\nCyberLeek has also been trying to monetize the leaks by asking for “donations” to the group’s meme coin, which many gamers have derided as a scam. CyberLeek's effort last month to drive interest in the coin flopped, despite claiming the group would release a “Full 200+GB playable build” if the coin crossed the $30 million market cap, which it never did.\nIn Thursday’s post, the group continued to claim they have inside access to Rockstar Games. “If the Xbox build cannot be made to work and support holds, CL will work to get a PS5 build — a fallback, most likely never required. Either way: the Xbox build is going out. No double dipping for Take-Two/Rockstar,” the gang wrote.\nExperience I've been a journalist for over 15 years. I got my start as a schools and cities reporter in Kansas City and joined PCMag in 2017, where I cover satellite internet services, cybersecurity, PC hardware, and more. I'm currently based in San Francisco, but previously spent over five years in China, covering the country's technology sector.\nSince 2020, I've covered the launch and explosive growth of SpaceX's Starlink satellite internet service, writing 600+ stories on availability and feature launches, but also the regulatory battles over the expansion of satellite constellations, fights with rival providers like AST SpaceMobile and Amazon, and the effort to expand into satellite-based mobile service. I've combed through FCC filings for the latest news and driven to remote corners of California to test Starlink's cellular service.\nI also cover cyber threats, from ransomware gangs to the emergence of AI-based malware. In 2024 and 2025, the FTC forced Avast to pay consumers $16.5 million for secretly harvesting and selling their personal information to third-party clients, as revealed in my joint investigation with Motherboard.\nI also cover the PC graphics card market. Pandemic-era shortages led me to camp out in front of a Best Buy to get an RTX 3000. I'm now following how the AI-driven memory shortage is impacting the entire consumer electronics market. I'm always eager to learn more, so please jump in the comments with feedback and send me tips.",
-   "pub": "2026-11-20T16:35:33+00:00"
+   "pub": "2026-11-20T16:35:33+00:00",
+   "cyberleek": true
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOX1ZQaGVDdGxOUkFVeHFaTnAtTC1PSXNFNVFBcTlNN0E4OFpHTE5qM21xbUhEc1JiODhLUFZXcE91VUp3enF1TGhNR1AzVFhsZ1JaRlVYYkw4dEtkekNfcTJoWF8ydVhSMDlNX2tjYm1odHNmRlNqazFmaV9LOUJBU05QdHhySzlaV0ZrY1hxekxVNkZET0ZiVU9lRnpOMUNpb3dLLUVndEVkclFwQmVlUnlrYU4tTVE?oc=5",
@@ -319,19 +328,16 @@
    "d": "2026-11-20T16:31:03+00:00",
    "lang": "fr",
    "t": "En voulant imiter GTA 6, deux mineurs volent un bus et terminent leur course dans un fossé",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSjVBd0YzcGREMDA3SVpPQkc1OEplc3MwRzZNQms5NDdLUGNlZUY1Nm9QRHg4endHRVFJRTE1WDVvX3NROWo4R0pTTnBwM0tpcXI0UGs2aEFyTVU2WEh6NFlYa0Z0Ql94ajZsQlJlZEd0aGs2YnFENmdzSnYtNk5MM1pYR1NEUTlrYmZ4S1ZqTnlkOEk4d0VoemhzaGl5dzEyb3U1ZFFQazZmNnRrYUQ0WHpWc05NTk9EdGxCbjljc0dhckdzd0M2Wld6NXM2RzA?oc=5",
-   "s": "Kotaku",
-   "d": "2026-11-20T16:30:49+00:00",
+   "gn": "https://news.google.com/rss/articles/CBMickFVX3lxTFAwQ0t2MDY4cU1ZZS1KYkYwLTIzeFY1LWZfbjZhekR6OHZ1WktSTzlOcmVZck5EOVVUeHR2bjVJb3NQbnlpRWVPZG5rdE5tTTJlcVA5d0N3RDdqU1FCSW9GSm5XQVIta1hYMkdOejEzWUFpUQ?oc=5",
+   "s": "Technobezz",
+   "d": "2026-11-20T16:30:28+00:00",
    "lang": "en",
-   "t": "GTA 6's Tenebrae Lux Is A Hilarious Parody Of Video Game Auteurs, And A Surprisingly Good Puzzle Diversion - Kotaku",
-   "u": "https://kotaku.com/gta-6s-tenebrae-lux-is-a-hilarious-parody-of-video-game-auteurs-and-a-surprisingly-good-puzzle-diversion-2000758837",
-   "img": "https://kotaku.com/app/uploads/2026/11/tenebraeluxe3.jpg",
-   "chapeau": "The Kotaku review",
-   "txt": "“[Jonathan Zuch] is such a genius,” gushes Cal as he sets up a JoySystem in Jason’s living room. “He’d love to work with other people, but he’s too fuckin’ good at everything. It’d just slow him down. You know, the time it takes him to explain something, he could just make shit quicker. You can see it on the screen, man, it’s so fuckin’ raw.”\nJason, ever-stoic, doesn’t seem fully convinced, mostly going along with things for the enjoyment of spending time with his buddy. I wasn’t really convinced either when GTA VI forced me into the short intro of Tenebrae Luxe . But despite the entire thing mostly existing as a completely unsubtle barb directed at one indie game auteur in particular, Tenebrae Luxe hooked me immediately by showing off a series of surprisingly mind-bending puzzles. While some (Cal) might expect such things from a genius like Zuch, I wasn’t at all prepared to bust out my puzzle notebook while playing Grand Theft Auto VI !\nLike most in-universe media in GTA VI , Tenebrae Luxe is a giant, heaving mass of satire. Rendered in black and white and dripping with angst, it follows a Man Who Won’t Shut The Fuck Up who has washed up on an island decorated by some crumbling shacks and a single lighthouse whose beam swings rhythmically ’round the dark landscape as you explore. It’s moody as hell: swaying grass, dark and ominous music, too-bright lights in the distance indicating where you might want to poke around, and a haunting crying sound of some sort in the background. Hell, before you even get to any of that, you’re shown what I’m sure is intended to be a very deep and meaningful quote scrawled across the opening screen: “Every tale begins with an unwritten page quietly awaiting the ink of destiny…” -R.T. Gravenhurst, The Teachings of Twmffat. Apparently, “Twmffat” is a Welsh way to call someone an idiot. Excellent.\nThe majority of the segment you play with Cal is focused on hammering home the satire. As your character noisily broods his way down the beach, introductory credits roll, attributing every single bit of the game—from the leading voice performance to the writing, music, and “mise-en-scene”—to Johannes Zuch. The initial moody atmosphere and beach themes, as well as the single auteur name on all the credits, made me think at first that the game was lampooning Hideo Kojima, and there’s a little bit of Mark Danielewski going on here too. But as I got into the actual gameplay (and read the name on the credits a few more times) I clocked the actual joke here. “Johannes Zuch” is not-so-subtle when you say it out loud with a short u in Zuch.\n2-3 hours, including time spent maniacally scribbling in a notebook.\nAll of this is quite funny, and works pretty well for a 10-minute-long-or-so joke sequence that you then cut off to go snuggle in a bed with your bestie and get your girl out of prison. But you gotta dive back in once you’ve left. That’s where the good stuff is. It starts with a couple of basic grid-based puzzles that involve moving pieces around a board to clear all of them. I assumed, wrongly, that the game would just be a bunch of harder variations on that. But then I crossed the beach and entered what seemed like some sort of war bunker, and everything changed.\nTenebrae Luxe features what I would consider two major puzzles, with two smaller ones bookending them, but boy, those two major puzzles are doozies. One involves looping through the same room, over and over, trying to figure out a six-digit code needed to proceed while eerie sea shanties wail in your ears and a crazed man yells at you from the other side of a door. The other involves a bridge covered in glowing symbols requiring a specific pattern to cross, found by navigating a nearby ruin and deciphering a deceptively simple poem. In both cases (but especially in the looping rooms), the solutions require a bit of lateral thinking and very close observation to fully work out. I spent a good couple hours on these last night!\nWhat I found most clever about the looping rooms in particular is that the puzzle seems to be different for every player. Checking online, it sounds like the various objects in the room (which are key to solving the puzzle) change depending on your playthrough. Some people had a painting that never appeared in mine, and I had record albums that others never saw. This helps the solution dodge easily researchable answers online but also immediately confused my efforts at information-sharing as I texted friends who had a",
-   "pub": "2026-11-20T16:30:49+00:00"
+   "t": "GTA 6 Xbox Leak Reportedly Lacks Executable, PC Emulation Unproven",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZ1ZPekZ0WTlvZVpFOHNYSDBKTHBGdGpOVGNLUTFTbm84UjlFdDJ2Zk1yYkVFUE1odks2amFFM2Y1V2oxb0k4QjlUVUJIOHdrMWgtSklmNWZycHBZVGl1aXFCMTJnNmJNUFkwNXRXNFFDVlZkYmowNV9weTNMZk8tSy0yOTZyYlpMNXNkLUVyblI0U3VTZUNHd2x3?oc=5",
@@ -344,6 +350,15 @@
    "chapeau": "GTA 6 PS5 : Amazon à 69,99 € selon les relevés, PS Store à 79,99 €. La boîte contient-elle un disque ? Comparez prix, livraison et codes.",
    "txt": "GTA 6 est enfin disponible sur PS5, mais pourquoi payer 79,99 € sur le PlayStation Store alors que la version vendue chez Amazon a été repérée à 69,99 € ? Dix euros d’écart pour le même jeu, cela mérite de regarder de plus près. D’autant que la boîte vendue en magasin réserve une surprise : elle ne contient aucun disque.\nCe vendredi 20 novembre 2026, les comparateurs continuent de suivre les offres de Grand Theft Auto VI sur PlayStation 5. Nous avons retrouvé l’édition Standard à 79,99 € sur la boutique officielle PlayStation . Côté marchands, c’est moins simple : 123comparer indique encore 69,99 € chez Amazon dans un relevé daté du 20 novembre, tandis que LeDénicheur affiche un tarif Amazon différent . Les promotions et les stocks bougent : le seul prix qui compte est celui affiché au panier.\nLa référence précise est « Grand Theft Auto VI – PlayStation 5 (Code en boîte) » . La fiche Amazon correspondante est identifiable, mais nous n’avons pas pu confirmer directement un tarif unique à la minute où nous écrivons ces lignes. Les relevés à 69,99 € ont été publiés par plusieurs comparateurs, notamment autour du lancement. Ce tarif représenterait une économie de 10 € par rapport aux 79,99 € de Sony.\nPour vérifier sans passer par une recherche approximative, voici la fiche Amazon France de GTA 6 sur PS5 (édition Standard, code en boîte) . Regardez bien le vendeur, le prix final et la date de livraison. Un code dans une boîte expédiée sous quelques jours n’offre pas la même gratification qu’un achat numérique immédiatement accessible.\nSi Amazon affiche plutôt 78,99 € ou 79,99 € à votre passage, les 10 € d’économie ne sont évidemment plus d’actualité. Et mieux vaut l’écrire que promettre une réduction fantôme.\nOn pourrait croire qu’un achat chez Amazon, Leclerc ou Carrefour permet de glisser un Blu-ray dans sa PS5, de prêter le jeu à un ami ou de le revendre plus tard. Ce n’est pas le cas. Rockstar commercialise cette édition sous la forme Code in a Box : la boîte contient un code de téléchargement, pas un disque de GTA 6. L’éditeur le confirme dans son guide officiel des éditions de GTA VI .\nUne fois activé sur votre compte PlayStation, le jeu se télécharge comme une version achetée sur le PS Store. Il n’y a pas de support physique permettant de jouer sans installation, et la licence liée au compte n’est pas un disque d’occasion qu’on peut remettre en vente. En revanche, la boîte avec code fonctionne aussi sur une PS5 Digital : aucun lecteur n’est nécessaire.\nÀ ce propos, pensez à la place sur la console. Les fichiers de GTA 6 demandent environ 212 Go. Notre guide explique comment libérer de l’espace sur PS5 sans supprimer vos sauvegardes .\nC’est le troisième prix qui change la comparaison. E.Leclerc a officiellement proposé GTA 6 à 60 € , avec une précommande en ligne épuisée et une disponibilité annoncée dans ses magasins. Si une boîte est réellement présente près de chez vous à ce tarif, elle coûte presque 20 € de moins que l’édition Standard du PS Store.\nMais attention : un ancien prix promotionnel ne signifie pas qu’un exemplaire est disponible aujourd’hui . Vérifiez la présence du produit et son prix dans votre magasin avant de vous déplacer. Même principe pour Auchan et les autres enseignes qui ont affiché ponctuellement 60 € avant la sortie : certaines offres étaient limitées dans le temps.\nÀ 79,99 €, le Store n’est pas automatiquement le meilleur choix économique. Son avantage est ailleurs : vous achetez directement depuis la PS5 et lancez le téléchargement sans attendre un transporteur ni saisir un code livré plus tard.\nAvec la boîte, il faut recevoir le colis puis activer le code sur le PlayStation Store . Sony rappelle que le code doit correspondre au pays ou à la région du compte. Un point essentiel si vous achetez auprès d’un vendeur tiers ou d’une marketplace proposant une édition étrangère.\nLes questions de remboursement changent également selon le canal. Pour une version numérique achetée directement chez Sony, ce sont les conditions d’annulation du PlayStation Store qui s’appliquent. Pour un code acheté chez un commerçant, Sony renvoie vers la politique du revendeur, particulièrement une fois le code utilisé.\nAutre confusion possible : les 79,99 € du PlayStation Store concernent l’ édition Standard . Sony affiche aussi l’ édition Ultime à 99,99 € . Le fait d’acheter un code Standard chez Amazon ne donne pas accès automatiquement aux bonus de l’Ultimate. Une mise à niveau est proposée séparément sur le St",
    "pub": "2026-11-20T16:26:48+00:00"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQN3p3MUlsUmxUcnpraVBMUHVRQVNGLWRUbDk4N1ZMcjNuRHpkVEY3WVByZG1JUjVUa3NRZUZGSWtyR1E1LTJhV3Y3a0VoYS13dlY1YWoxQlhVSWNHWXF3TGpLN252cnJ2YmdrWnNteEs1cFY0QldBdklOYV9sZWtMTFl3TDhHLVUzQVd2eVc3X3VwWUZkcUx3eEFWV0tKZHB0cEw5VnZBTUwzcHhJVEE?oc=5",
+   "s": "XDA",
+   "d": "2026-11-20T16:15:30+00:00",
+   "lang": "en",
+   "t": "GTA 6's notorious leaker claims to have released a dumped Xbox build of the game on the internet",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5sN0lxdk02ZENrak5Ud3pMWlNlQmpHS0FiVVplbldIYzk0enp2VWFfdE5IYVM3Qkg0ZzZxQXp3YmdnR0JsdU12elVFMUl4eGtwdTVnc2ZoVThQbXc?oc=5",
@@ -385,12 +400,21 @@
    "cyberleek": true
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbHhEV1R6eTNBXzhZV3FPXzdyc3dGcFdWOVp1NlBlRXMzMDN2UUJub3NzRS1SMnI5UW9aMldDaXdRWGxoczA5RGpOQ24ycWRjOW9TUFM0UlJ5S21HSlM0SXE4WG4yS1FocWQ2cU8zRmI1WldlWlN5RGp0VmRQT3Q3S3hFb3VSNnZZUFpQV1ZUeUVjZnF4?oc=5",
+   "s": "GBAtemp",
+   "d": "2026-11-20T14:22:19+00:00",
+   "lang": "en",
+   "t": "GTA VI Xbox build 1.0.2.1 allegedly released by Cyberleek",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMEE4RGt3SkVmMEdGMlZMNDJYN3FCMnoxdktIbUhVT1BlcEVISUNBYV9LbnBpT1Vra1JVRjRiSHBOeWR5ZzJyZFBDXzFHTWdkbTVDb3U1a29xQWlhVFBUeXF2QzhXU0JlWlBTN2xLbmRTcXBnTlJQUTVrUExkVzNYSVdndXlONm44ODhXZ0tSREVVcTdfcFpnWEpkdTdnSlla?oc=5",
    "s": "Softonic",
    "d": "2026-11-20T14:17:23+00:00",
    "lang": "fr",
    "t": "GTA 6 : une version Xbox de 209 Go aurait fuité, sans garantie sur PC",
-   "erreur": "HTTP Error 412: Precondition failed",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -399,7 +423,7 @@
    "d": "2026-11-20T14:08:49+00:00",
    "lang": "en",
    "t": "Hacker Threatens To Leak Free Version Of GTA 6 In Crypto Grift",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -413,19 +437,6 @@
    "chapeau": "Le jour de la sortie de GTA 6 sur console, un build Xbox de 209 Go surgit en torrent et affole les joueurs PC. Derrière Cyberleek, memecoin et exécutable manquant brouillent les pistes et pourraient réserver de mauvaises surprises.",
    "txt": "Le jour de la sortie de GTA 6 sur console, un build Xbox de 209 Go surgit en torrent et affole les joueurs PC. Derrière Cyberleek, memecoin et exécutable manquant brouillent les pistes et pourraient réserver de mauvaises surprises.\n209 Go de fichiers estampillés GTA 6 circulent déjà sur les réseaux de piratage, et la rumeur d’un port PC anticipé affole les joueurs. Derrière ce gigantesque torrent présenté comme un build Xbox de Grand Theft Auto VI , beaucoup imaginent déjà un crack miracle pour lancer le jeu sur Windows.\nEn réalité, l’archive est incomplète : le seul composant qui permettrait de démarrer GTA 6 est absent, et ce détail change tout. Derrière cette fuite attribuée au leaker Cyberleek , on retrouve aussi un montage autour d’un memecoin et un compte à rebours qui entretiennent la confusion, tandis que la requête « gta 6 209 go fuite xbox » explose déjà sur Google.\nSelon plusieurs sites spécialisés, dont GTAViFrance et The GTA 6 Map, le torrent diffuse un prétendu build de développement intitulé « XBOX BUILD 1.0.2.1 (NOV 2026) » pesant environ 209 Go. Il aurait été mis en ligne le 19 novembre 2026, jour de la sortie officielle de GTA 6 sur PS5 et Xbox Series X|S.\nLes captures d’écran de l’arborescence montrent surtout des assets : textures, modèles 3D, scripts, fichiers audio et vidéos. En revanche, l’exécutable principal, le binaire qui lance le jeu sur Xbox, est absent. Sans lui, ces 209 Go restent injouables, aussi bien sur console que sur PC.\nAucune rédaction majeure n’a pu vérifier publiquement que ce build est complet ou authentique, et Rockstar Games comme Take Two restent silencieux. Pour l’instant, il s’agit d’une fuite probable d’assets, potentiellement exploitable pour du datamining ou des spoilers, mais pas d’une version de GTA 6 jouable sur PC .\nSur son site, Cyberleek affirme détenir l’exécutable manquant et lie sa diffusion à la capitalisation de son jeton crypto. Après un premier objectif de 30 M$ (environ 28 M€) en octobre, jamais atteint, le seuil a été abaissé à 15 M$ (environ 14 M€) pour débloquer le fameux fichier. Un compte à rebours de quelques jours affiche qu’une fois expiré, l’exécutable serait publié sur les sites de piratage, quel que soit le résultat.\nMême dans ce scénario, parler de « GTA 6 PC » est trompeur. Il s’agit d’un build Xbox, compilé pour l’OS et les API de la Xbox Series X|S. L’architecture matérielle est proche d’un PC, mais aucun émulateur Xbox Series X fonctionnel ne permet aujourd’hui de faire tourner un jeu aussi lourd. Notebookcheck cite d’ailleurs la promesse suivante de Cyberleek : « Cyberleek believes hackers will find a way to emulate the console version for Windows within a week. »\nEn pratique, adapter ce build impliquerait soit une émulation encore inexistante à ce niveau, soit un long travail de décompilation et de réécriture, à haut risque juridique. Pour les joueurs PC, cette fuite ne crée donc aucune version jouable à court terme.\nLe volet financier de l’affaire est tout aussi inquiétant. En octobre, Cyberleek avait déjà lié une précédente promesse de build jouable à un objectif de 30 M$ de capitalisation pour son token, opération qualifiée de rug pull après un crash brutal et au moins 250 000 $ (environ 230 000 €) de frais prélevés selon OnPoint 4 Gamers. D’où les mises en garde de nombreux sites qui déconseillent tout investissement.\nParallèlement, des torrents et faux installateurs « GTA 6 PC » se multiplient. Kaspersky signale déjà des dizaines de milliers de téléchargements infectés liés à GTA 6. Derrière un fichier de 209 Go présenté comme un crack miracle peuvent se cacher ransomwares, voleurs de mots de passe ou mineurs de crypto.\nEn France, télécharger illégalement GTA 6 reste de toute façon risqué juridiquement, avec une surveillance renforcée de l’ARCOM. Concrètement, pour un joueur PC français, cette fuite ne change rien : GTA 6 n’existe officiellement que sur PS5 et Xbox Series X|S, aucune date PC n’a été annoncée, et ces 209 Go sans exécutable n’apportent ni version jouable ni avantage, seulement des dangers techniques et financiers.",
    "pub": "2026-11-20T13:30:13+00:00",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNOFJvNFRNYVpuRDZCNC03YUoyVmU0V0FteVdaT3otWGxuQVNDQXZjOWJ1VWM0M2o3bXBLb1VudzRwWjVIUXlLVHJ4Rm42NUFkSTE0Y3lZVlNkZW43aU9XbUJJMnNtTFdVX2U0dE43UVFuUFZmaV9mT0NXZHo3YUlPOXc2dndSR0FWb0pGQ251R3JRNC1wcTZxa3NTX2ZBZU45cnNldWl4dmlna1BjdEJwSXdjaGpFVGZTcDdhdHFsYzB4S1RQMkZHekRvVVJCY1hZeVdKTHdVWjBwQWN1a2lfUjZ3?oc=5",
-   "s": "Journal du Geek",
-   "d": "2026-11-20T12:41:04+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : après Jason et Lucia tout nus, Cyberleek promet la version piratée du jeu complet pour le 23 novembre",
-   "u": "https://www.journaldugeek.com/2026/11/20/gta-6-apres-jason-et-lucia-tout-nus-cyberleek-promet-la-version-piratee-du-jeu-complet-pour-le-23-novembre/",
-   "img": "https://www.journaldugeek.com/app/uploads/2026/11/gta-6-Cal_Hampton_paysage-1600x900.jpg",
-   "chapeau": "Le leaker qui a pourri la promo de GTA 6 tout l’automne n’avait pas dit son dernier mot. Et cette fois, ce ne sont plus quelques vidéos.",
-   "txt": "Le leaker qui a pourri la promo de GTA 6 tout l’automne n’avait pas dit son dernier mot. Et cette fois, ce ne sont plus quelques vidéos.\nEst-ce que vous saviez que GTA 6 est enfin sorti hier sur PS5 et Xbox Series ? Oui, difficile de passer à côté hein. On aurait pu croire que la saga des fuites était derrière nous, puisque le jeu est désormais dans les mains de tout le monde. Sauf que Cyberleek, le compte anonyme qui a diffusé des extraits volés pendant des mois, a choisi le jour de la sortie pour refaire surface.\nPour ceux qui auraient raté les épisodes précédents : depuis août, Cyberleek a publié des dizaines de vidéos de gameplay en amont de la sortie, toujours avec le même deal. Les fuites continuent tant qu’un meme coin à son nom, le $CYBERLEEK, prend de la valeur. Début octobre, il avait frappé fort avec une vidéo de 25 minutes où l’on voyait Jason et Lucia entièrement nus, y compris en cinématique . Il y faisait même apparaître un tank de nulle part, ce qui montrait clairement qu’il avait accès au menu debug d’une build jouable.\nL’objectif à l’époque était une capitalisation de 30 millions de dollars . Entre temps, la cryptomonnaie s’est effondrée et Cyberleek a disparu à la mi-octobre avec un message d’adieu en trois parties. Rockstar et Take-Two n’ont visiblement jamais réussi à mettre la main sur lui.\nLe jour de la sortie du jeu, son site a publié un nouveau message. Cyberleek y affirme diffuser par torrent une build Xbox complète de GTA 6 datée de novembre 2026, qui pèse environ 209 Go , donc grosso modo la taille du jeu sur console. Il manque cependant un fichier, et pas des moindres : l’exécutable principal, sans lequel rien ne se lance.\nCe fichier ne sortira que si le $CYBERLEEK atteint 15 millions de dollars de capitalisation, ou le 23 novembre quoi qu’il arrive. Le leaker assure aussi que la communauté arrivera à émuler cette version Xbox en moins d’une semaine, à plus de 30 fps. Si ça ne marche pas, il promet de s’attaquer à une build PS5.\nIl faut quand même garder du recul, puisque l’émulation d’un jeu Xbox Series sur PC n’a rien d’une simple formalité , donc la promesse d’une version PC piratée en une semaine relève surtout du marketing de crypto.\nSi vous êtes tenté de jeter un œil, sachez que ce genre de fuite attire les escrocs. Des chercheurs ont déjà repéré de faux installeurs « GTA 6 PC » qui servaient en réalité à installer des infostealers, ces logiciels qui récupèrent vos mots de passe . Un exécutable trouvé sur un forum quelques jours après une fuite non vérifiée, c’est exactement ce qu’il faut éviter. Le $CYBERLEEK s’est déjà effondré une fois, donc acheter cette crypto revient surtout à financer le prochain chantage.",
-   "pub": "2026-11-20T12:41:04+00:00",
    "cyberleek": true
   },
   {
@@ -455,12 +466,21 @@
    "cyberleek": true
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5rWXE4ay1zRXJTVTF6OFdfWmZQbDBPZVltUVl6OXhjV2doU3NGRGdGYzNFTmJxazZpc05uTGRHS3NvZ2Zpb2FaaTFzY0w2RmxEa2dLYkppOXl2TnpMNk1TQmVtTnZ2RGhyUlE?oc=5",
+   "s": "ShiftDelete.Net",
+   "d": "2026-11-20T11:55:20+00:00",
+   "lang": "en",
+   "t": "Cyberleek Says It Leaked a GTA 6 Xbox Build, Sets Nov. 23 Deadline",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWnJuLV9TbGZJNHZQNjNkd3lSQTZmay1JRk85ckpWenR5VDRiemctaHBaX1Q2b1A0ay12Uk5rYWkwdFZLX1FUUXR3RkswMXBxM3FGZnJmOUJwMlVubUJnQmZUVFRHT3VFYXFHdTRxOWlxQUd6aF9ZWHcwYmhDRENnUmljYkpsNEFD?oc=5",
    "s": "Pasquale Pillitteri",
    "d": "2026-11-20T11:51:46+00:00",
    "lang": "en",
    "t": "GTA 6 sales top $2.3 billion at launch (Sensor Tower estimate)",
-   "erreur": "Remote end closed connection without response",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -474,19 +494,6 @@
    "chapeau": "A GTA 6 crypto token drew 3,903 SOL in its first hour. BitOK traced 95% of that buying to its own creator.",
    "txt": "GTA 6 Crypto Token Looked Like a Launch-Day Hit: Who Was Really Buying? Lockridge Okoth Fri, November 20, 2026 at 12:29 PM GMT+1 2 min read SOL-USD -4.17% PUMP36507-USD -8.41% BIP-110. Photo by BeInCrypto Nearly 95% of a GTA 6 crypto token's first-hour buying came from wallets tied to its creator, according to a blockchain analytics report from BitOK shared with BeInCrypto exclusively. Outside buyers put in about 201 SOL and lost a quarter of it.\nThe token, Grand Theft Alleycat, launched on Thursday, Nov. 19, the day Rockstar Games set for the game's release. Traders chasing that hype were the target, because staged volume made the token look in demand.\nThe token was created on pump.fun, a site for launching Solana tokens in minutes. Buyers pay in SOL, Solana's native coin.\nIn the first hour, purchases reached 3,903 SOL. BitOK traced 3,454.8 SOL of that to 1,265 wallets funded by a single operator-controlled hub before they bought.\nNone of them sold. With the launch wallets and five other operator accounts added, nearly 95% of buying was the operator's own.\nNineteen wallets that bought the token at creation sold it for 3,202.8 SOL. BitOK says the operator was selling the token to itself.\nThe hub sent 10,795.5 SOL to a treasury wallet. That wallet held 3,856.24 SOL on Nov. 20, a balance BeInCrypto confirmed on-chain.\nBitOK links the same operator to GTA6DOG (RICO), an Ethereum token whose code let its creator pull tokens from any wallet without permission. From Nov. 3 to 5, it emptied 10 buyers.\nBitOK puts outside losses across both tokens at a preliminary $4,746. For Grand Theft Alleycat, that counts only the first hour of trading.\nAfter that first hour, the price collapsed. GeckoTerminal data shows the token fell about 99.8% from its peak of roughly $0.001 and has barely traded since.\nThe trail runs through US exchanges. Network fees for the launches were paid with withdrawals from Coinbase and Kraken, alongside Bitget and SideShift. Another 41.99 ETH reached the HitBTC exchange.\nNo authority has charged anyone. BitOK, which sells address screening to exchanges and police, based its findings on wallet transfers.\nGTA-themed tokens have burned traders before. The CYBERLEEK leak coin fell nearly 60% in August after its biggest spoiler.\nOn Nov. 20, the same signing keys launched two more tokens, Anthropic Cat Brian and iCat.\nIn May, South Korean prosecutors charged five people over a Solana meme coin rug pull.\nRead the Original story GTA 6 Crypto Token Looked Like a Launch-Day Hit: Who Was Really Buying? by Lockridge Okoth at beincrypto.com",
    "pub": "",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNVUt5SHlkSktUUVhReFNFbkN0dk9XNjJTakdDVkVDb2hmbUJXMjVuRjhTbU9UZFV6T1VaOEpkRnRQN0dKVGY1MHFUa1Z2MFVaaTdRRUJFWEluNXlUcmVfTnQ3dTYyY2pvRk5qNVAxWWh2U0phUGhZUVUwSlpOd3pfU3Z6YnA1MGhrdjhlVl9hWkRvZko1bXMtSWo0YTFkMWhjT19sMnhDWnMtRzZpSVVBOWl4Tzh3ejRjSF81OFlpOENUWkJrZm1OSVA1RnJPT194RzFwRFFabEpXdm40?oc=5",
-   "s": "IGN France",
-   "d": "2026-11-20T11:07:00+00:00",
-   "lang": "fr",
-   "t": "Cyberleek de retour sur GTA 6 et avec une version Xbox quasi complète ; il menace de divulguer le fichier exécutable d’ici quelques jours",
-   "u": "https://fr.ign.com/grand-theft-auto-6/94116/cyberleek-de-retour-sur-gta-6-et-avec-une-version-xbox-quasi-complete-il-menace-de-divulguer-le-fich",
-   "img": "https://sm.ign.com/t/ign_fr/news/c/cyberleek-/cyberleek-returns-for-gta-6-launch-to-reportedly-release-a-n_4w6x.1200.jpg",
-   "chapeau": "Tout pour la crypto.",
-   "txt": "Cyberleek est de retour à l’occasion du lancement de GTA 6 , avec l’intention, semble-t-il, de diffuser une version Xbox quasi complète du jeu — et a menacé de publier son fichier exécutable d’ici quelques jours seulement. On pensait que la personne ou le groupe à l’origine du pseudonyme en ligne « Cyberleek » avait mis fin à sa série de fuites concernant GTA 6 le mois dernier, après l’effondrement de son memecoin malgré les efforts déployés pour augmenter sa capitalisation boursière.",
-   "pub": "2026-11-20T11:07:03+00:00",
    "cyberleek": true
   },
   {
@@ -542,29 +549,12 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOdkh1bk1HZ25DM1BLMTJTVG5qWGdCdXdQNzFwNFdDSC02d0U3WnVrSXRNbXNZNFhtV0JFYmM2SWh6azFFYnBvMzRJQXc0RzhFU2V1dlNURXp3NlF4Nkx3MDFzQmpGQnp6OXVjaFlrNnhBbmFCQ0Y4dExaeDFYYk5ncTlfdzFUQ2QybkhrQlo2c25QbHJ2QzcxZkRKUi1aQ2dfU0NEUENWd1hmRVNwczhRMUJaMlBIblBhSHl2eFJSWl9JX2JiMFk3bi1QUkRZSVpCRGFvTA?oc=5",
-   "s": "GosuGamers",
-   "d": "2026-11-20T10:24:53+00:00",
+   "gn": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZFdyZ2kzYVlCOU8weWg0NEV5SmhmcVFEdFc0WHdSNU9kaHh4MzdIZlRCc2M5YUZGUndOdFEwRDBVSVVTODN1SlpURVc0RkNaV1pRLW5MSDBnUFdZTTBoZmFsblp0bE9VLWpxeUl2YUZFREpmVGNWaVZWSkNheW5rbG5Ca2hWSjQyMUZtSm55WnRWX2ZfcEdYN0hZVVlyUUo1M0gtNjc2dGxsOUk0Q3NyR0pha2RCSEJYQi1uODVR?oc=5",
+   "s": "SSBCrack",
+   "d": "2026-11-20T10:24:14+00:00",
    "lang": "en",
-   "t": "Infamous GTA 6 Hacker Cyberleek Claims to Have Leaked Development Build | GosuGamers",
-   "u": "https://www.gosugamers.net/entertainment/news/79514-infamous-gta-vi-hacker-cyberleek-claims-to-have-leaked-a-development-build-of-the-game",
-   "img": "https://static.gosugamers.net/18/eb/53/f7789e8f5be78635756b149af1833f5e5172d8538d8014adf3a24c519f.webp",
-   "chapeau": "Infamous GTA 6 hacker Cyberleek claims to have leaked a development build of the game, raising questions about the latest alleged breach involving Rockstar Games.",
-   "txt": "All News GTA VI might be going through another leak (Image: Rockstar Games).\n{\" \"} Infamous GTA VI hacker CyberLeek claims to have leaked a development build of the game Rockstar Games’ open world game might have just been fully leaked. CyberLeek, an infamous hacker who leaked multiple gameplay videos from Grand Theft Auto VI prior to its official release, has resurfaced. The hacker now claims to have released a development build of the game online, which is reportedly 209GB in size. It is threatening to release an executable file that would allow others to play the game following a countdown.\nCyberLeek, a hacking group that spent the months leading up to GTA VI’s release leaking footage from the game, has resurfaced. The group earlier threatened to release a full playable version of the game online, before disappearing for weeks on end. This week, however, it appears to be following through on that threat.\nCyberLeek’s website now reportedly hosts a 209GB download, which it claims to be a development build of GTA VI. The only thing missing from this download is an executable file, which it also claims will allow users to play the game in full. However, the hacker is threatening to release the file after a countdown, which it says can be sped up if its crypto token reaches a fixed value.\nCyberLeek’s statement reads (via Eurogamer): “It is done. [Cyberleek] holds the full November 2026 build of Grand Theft Auto 6, and it is going out by torrent. Now. Every file except one. The main executable is held on a countdown.\"\nCyberLeek claims that this version of the game is an Xbox build, with a PlayStation 5 build being considered as a fallback if users are unable to play the Xbox build. “This community will have it emulated inside a week, running far past 30fps,\" the hacker stated on its website. Whether or not it releases the executable file for the build remains to be seen.\nGTA VI is now available on PlayStation 5 and Xbox Series X|S. Read our review of the game here.\nTimothy \"Timaugustin\" Augustin Timothy Augustin is a Senior Editor at GosuGamers who has written about video games and pop culture for over seven years, with hands-on experience previewing titles across PC, console, and mobile at industry events. Currently, Tim won't shut up about how good Pokémon Pokopia is. It's very good! Related Articles General Umamusume Pretty Derby announces collab with the NFL's Denver Broncos\nGaming GTA VI's full cast list revealed, starring Stephen Root, Bobby Moynihan, and more\nGaming GTA VI lets you use these cheat codes, but only after beating the main story\nGaming GTA VI is now Metacritic's highest-rated game of all time, tied with Zelda Ocarina of Time\nGaming Review: GTA VI's gorgeous Vice City is worth the 13-year wait, despite shaky performance on consoles\nGaming GTA VI's Lucia actor has finally been confirmed, thanks to The Game Awards\nThe Game Awards 2026 nominees revealed, GTA VI leads with eight nominations\nReview: GTA VI's gorgeous Vice City is worth the 13-year wait, despite shaky performance on consoles\nGTA VI's Lucia actor has finally been confirmed, thanks to The Game Awards\nDota 2 patch 7.42 makes games faster, adds new Item Potency mechanic and seven new items\nGTA VI lets you use these cheat codes, but only after beating the main story\n“Kaiju No. 8 The Final Mission” anime movie to premiere in 2027\nDate A Live F Last Date anime film unveils new trailer, visual, and March 2027 premiere\n“BanG Dream! It's MyGo!!!!! // Ave Mujica” sequel anime unveils 8 January premiere in new teaser\nManga UP! Global adds new titles including “Not Quite Love” and “The Perfect Cross-Dressing Couple”",
-   "pub": "",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPbEN3R2ZiSXljTTZ2ZW0wRG9oVjdoVElOU0hGNDZ0aWhyWkRob0JjQnhQVGNzWThuSk01N0JybGliUVRiRGNUeDBpTGdKa0NEd2JHNHN0U2thNmVpS1NqekowRkFxd3JVWmVCbWVLcWw1N3BRczBkRFhHTGxTUXFKMnlNMjduUXBvMHppUjhSZWpDS3RtcVB5UEJweVlvZWcxU3lEZTJTVzBZclhWUU8zZV96ZFdaTjhoRmNFRWR0MjJrVjVvWXVtQ2k5S2pOTzRrTlk2ZVNUcG9aYnN2Smxz?oc=5",
-   "s": "Numerama",
-   "d": "2026-11-20T10:22:02+00:00",
-   "lang": "fr",
-   "t": "GTA 6 sur PC : entre la build Cyberleek et les extractions PS5, la pression s'accentue pour Rockstar",
-   "u": "https://www.numerama.com/pop-culture/2379627-gta-6-sur-pc-entre-la-build-cyberleek-et-les-extractions-ps5-la-pression-saccentue-pour-rockstar.html",
-   "img": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/gta-pc.jpg?resize=1600,900&key=6743202c",
-   "chapeau": "Le hacker Cyberleek affirme avoir mis en ligne une build Xbox complète de GTA 6, au lendemain de la sortie du jeu. Mais il manque le fichier qui permet de la lancer, et aucun émulateur ne sait faire tourner un jeu Xbox Series sur PC. Côté PS5, c'est le chiffrement de Sony qui bloque tout. Le contexte joue pourtant en",
-   "txt": "Recevez tous les soirs un résumé de l’actu importante avec Le Récap’\nGTA 6 tournera-t-il sur PC avant la fin de l’année ? C’est en tout cas ce qu’espèrent une partie des joueurs qui n’ont pas envie d’y jouer sur console.\nDernier épisode : le leaker Cyberleek, à l’origine de la publication de vidéos volées de gameplay cet été , a publié le 19 novembre ce qu’il présente comme une build Xbox du jeu, distribuée par torrent. Une annonce qui a relancé l’espoir de beaucoup, mais qui ne change pour l’instant rien pour la communauté gaming. Pour l’instant, et contrairement à ce que certains racontent, personne n’a réussi à démarrer GTA 6 sur un PC.\nCe contenu est bloqué car vous n’avez pas accepté les cookies et autres traceurs. Ce contenu est fourni par YouTube. Pour pouvoir le visualiser, vous devez accepter l’usage étant opéré par YouTube avec vos données qui pourront être utilisées pour les finalités suivantes : vous permettre de visualiser et de partager des contenus avec des médias sociaux, favoriser le développement et l’amélioration des produits d’Humanoid et de ses partenaires, vous afficher des publicités personnalisées par rapport à votre profil et activité, vous définir un profil publicitaire personnalisé, mesurer la performance des publicités et du contenu de ce site et mesurer l’audience de ce site (en savoir plus)\nEn cliquant sur « J’accepte tout », vous consentez aux finalités susmentionnées pour l’ensemble des cookies et autres traceurs déposés par Humanoid et ses partenaires .\nVous gardez la possibilité de retirer votre consentement à tout moment. Pour plus d’informations, nous vous invitons à prendre connaissance de notre Politique cookies .\nSur son site, Cyberleek affiche désormais un lien baptisé « XBOX BUILD 1.0.2.1 (NOV 2026) », comme le rapporte VGC . Les captures d’écran qui circulent montrent des fichiers issus d’une build de développement de la version Xbox. Le torrent pèse environ 209 Go, une taille cohérente avec les 212 Go demandés par le jeu final sur console. On peut imaginer qu’il s’agit de la build utilisée dans ses vidéos volées parues cet été.\nSi certains ont d’abord pensé qu’il s’agissait d’une version jouable sur PC, il s’agit bien d’une version Xbox Series. Il ne suffit donc pas de la télécharger pour la lancer : Cyberleek survend ce qu’il possède. Depuis des semaines, il affirme qu’il publiera une build jouable du jeu si Rockstar ne répond pas à ses demandes, mais sa build n’est pas démarrable. On ne sait d’ailleurs pas si le jeu est complet : le jeu sorti le 19 novembre est plus beau que dans les vidéos publiées cet été.\nLe site de Cyberleek. // Source : Capture Numerama Selon Notebookcheck , les fichiers qui circulent sont déjà déchiffrés. Le problème est qu’il n’existe pas de programme qui lance un jeu Xbox sur PC. Sans lui, les 209 Go ne sont qu’un énorme stock de textures, de modèles 3D, de sons et de scripts : il est impossible d’y jouer.\nBlack Friday : votre sérénité numérique à -61% Sécurisez vos achats durant Black Friday avec la meilleure offre de l’année. Dénichez les bonnes affaires, Bitdefender s’occupe des arnaques. Sponsorisé Seulement jusqu’au 30 Novembre ! Cyberleek indique qu’il garde volontairement les fichiers manquants, pour faire du chantage à Rockstar. Le pirate promet de le publier à la fin d’un compte à rebours fixé au 23 novembre, ou plus tôt si son memecoin $CYBERLEEK atteint 15 millions de dollars de capitalisation. Il présente toujours sa campagne comme une défense des joueurs face au tout numérique, puisque GTA 6 ne sort pas en version disque. Des propos évidemment difficiles à croire puisque son objectif semble de faire progresser sa cryptomonnaie.\nCyberleek a-t-il vraiment les fichiers manquants ? Le fait qu’il puisse y jouer semble suggérer que oui. Mais de là à proposer un jeu jouable sur PC à tout le monde ? C’est difficile à prouver.\nAutre piste pour faire tourner GTA 6 sur PC : extraire la version PS5, une console victime d’un jailbreak bien plus sérieux que la Xbox Series. Les fichiers de GTA 6 ont été « dumpés » dès les précommandes, ce qui a permis à certains comptes d’actu malhonnêtes de faire croire que le jeu serait bientôt jouable sur PC. Ce n’est évidemment pas le cas : les 220 Go extraits par les pirates ne servent à rien au moment de l’écriture de ces lignes.\nPour récupérer un exécutable exploitable (le fameux « dump »), il faut une faille capable de lire le jeu une fois déchiffré par la console, sur le firmware exigé par GTA 6 . Le problèm",
-   "pub": "2026-11-20T10:22:02+00:00",
+   "t": "GTA 6 Leaker Claims to Have a Near-Complete Xbox Build, Promises Executable Release November 23",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -581,19 +571,6 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPdFVQaDNXcmc5bEpiZGJxWXAxY1VoQ2F2dXdnaEpGSkNHZlhlTVhmX0FvcGFmTmpFMUNCd3I3VHdjS1pvZGxNY21FZHZZZTVRYjRxTFM3WmIxNzc4UU1LcEFxYkVWVXhuRlNaRWNOSzZ0U0FIQUVaMjJqdXd0bFBkTUVWV2JpTGUxcjg4dEt0MmNTN1FHQjktUHJFZHJub1RsNTlLNE9oS3o4MmRoUGFvREQ2dnllbENRdHdBazA5cVliQUNZWkpNZUFtdXZxenEtcE9zWUZSTjNydlplZ0hjaTVlR0JjRTZxcEcwZ1lPSFJNaHBScVZKUV9hNHhuU2RKQ0NITk5CVVRSdnQ50gGSAkFVX3lxTE10OUdNN2tTNHdFY0tDZTFTZldBWXFubU9iR181dHVyWmUyQXVkTXkySld4LVNsWDBNQ3M1MzZ5T1F6dGdjREtxVHdQMjZXdUtETWVhRFd3TzhJQ2dzTDBZNlJWSVRDUnQtUThUejlaVVp3RjZMcVlTZmh2M0RlaWl0VzNUSnpXZUJFUEM4ZEI1cHBHbkJUaVZrNEwzZHRpWEx5dTByUEpBdURKZTJXUzB4c2Z3VjZCOEl5cnpncEJFWl9vSWtETjBlQjJCSGJQMGdmNVAwQzlfQzR5VURtTno1a3BLaTNjSFRRWWxrVlpkdko4Rk9JVDR0SW5tUFIyd1I2Y0Z2Y1ZnQTRnckc5Ykd0WVE?oc=5",
-   "s": "Malay Mail",
-   "d": "2026-11-20T09:20:34+00:00",
-   "lang": "en",
-   "t": "‘Every file except one’: Hacker group CyberLeek claims full development build of ‘GTA VI’ released, but withholds executable",
-   "u": "https://www.malaymail.com/news/tech-gadgets/2026/11/20/every-file-except-one-hacker-group-cyberleek-claims-full-development-build-of-gta-vi-released-but-withholds-executable/244098",
-   "img": "https://www.malaymail.com/malaymail/uploads/images/2026/11/20/375377.webp",
-   "chapeau": "LONDON, Nov 20 — The hacker group known as CyberLeek has resurfaced, claiming to have published a development build of Grand Theft Auto VI (GTA VI) on its website, according to...",
-   "txt": "Malaysia / 9 h ago Nvidia chips at YTL’s Johor data centre were run for China’s Alibaba, says NYT Malaysia / 3 h ago Not so fast: Negeri Sembilan palace says Ismail Lasim must show majority support, not just deny resigning as MB Money / 9 h ago JPMorgan, Visa and Mastercard vendor hit by cyberattack, customer data accessed What You Think / 9 h ago Declassified minutes of Pardons Board meeting are to support the objection to the Malaysian Bar’s application for leave to initiate judicial review — Hafiz Hassan Malaysia / 11 h ago Taking the ECRL? Here’s what to expect onboard, including one very Malaysian necessity (VIDEO) Malaysia / 4 h ago Maju Holdings boss, wife to face 21-day trial over RM458.5m CBT, money laundering charges from July 2027 Malaysia / 5 h ago Tuanku Muhriz decrees Ismail Lasim to stay on as Negeri Sembilan MB; Ismail says he never submitted resignation letter Malaysia / 9 h ago Fahmi highlights economic benefits of MCR concerts, with foreigners making up 40pc of attendees Malaysia / 8 h ago Tiger that killed Orang Asli man in Sungai Siput shot dead after attacking Perhilitan team Malaysia / 8 h ago No water, still RM210m a year? Lim Guan Eng presses Chow on Penang-Perak supply deal Malaysia / 6 h ago Declassified minutes show Hannah Yeoh objected to Najib house arrest, says Lim Guan Eng Malaysia / 5 h ago No plans to resume use of the automatic number plate recognition system for now, says Penang exco Eat-drink / 9 h ago ‘I want to have no regrets’: Chef Masashi Horiuchi on life after lymphoma and Potager’s first Michelin star Malaysia / 9 h ago Drugs flown to Sabah on military aircraft, police say, likely for Indonesia and Philippines markets Malaysia / 7 h ago Residents’ association cannot force homeowners to become members, Shah Alam court rules Tech-gadgets ‘Every file except one’: Hacker group CyberLeek claims full development build of ‘GTA VI’ released, but withholds executable A physical copy of the latest instalment of the action-adventure video game ‘Grand Theft Auto VI’ is pictured at a Best Buy store in New York November 19, 2026. The hacker group known as CyberLeek has resurfaced, claiming to have published a development build of ‘Grand Theft Auto VI’ on its website. — AFP pic Stay updated on the latest news and insights. Subscribe to our newsletter here Earn a fixed rate of up to 4.2%* p.a. for 210 days with Versa Save ! Plus, enjoy an additional FREE RM10 when you sign up using code VERSAMM10 with a min. cash-in of RM100 today. T&Cs apply. Summary CyberLeek claims it has posted a 209GB development build of *Grand Theft Auto VI* online, though Eurogamer could not verify any files. The group says the November 2026 build is nearly final, but the main executable is missing, so the game cannot yet be launched. CyberLeek has threatened to release the missing file later, while Rockstar and Take-Two have previously acted against the leaks. Make Malay Mail your preferred source on Google Giving you news that matter to Malaysians. Make Malay Mail your preferred source when you search for news on Google. By Malay Mail First Published: Friday, 20 Nov 2026 4:51 PM MYT × LONDON, Nov 20 — The hacker group known as CyberLeek has resurfaced, claiming to have published a development build of Grand Theft Auto VI (GTA VI) on its website, according to a Eurogamer report.\nThe move appears to follow through on a warning the group issued in October, when it announced plans to distribute a complete, functional version of the game.\n“It is done,” a statement from CyberLeek reads. “[Cyberleek] holds the full November 2026 build of Grand Theft Auto VI , and it is going out by torrent. Now. Every file except one. The main executable is held on a countdown.”\nVisitors to the site have reported that the download is 209GB in size, though Eurogamer could not confirm the presence of any actual files.\nAccording to CyberLeek, the build dates to November 2026, suggesting it is close to, if not identical with, the final release version.\nThe main executable file, however, appears to be absent, meaning users cannot currently launch the game.\nCyberLeek has threatened to release the missing file at a later date, and stated it would do so ahead of schedule if its crypto token hits a set target.\nMuch of the group’s recent activity has centred on a cryptocurrency scheme, with prior estimates putting its profits at no less than £200,000 (RM1.07 million).\nShould the build prove functional, it could undercut Rockstar’s unannounced PC ",
-   "pub": "2026-11-20 16:51:00",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQd2FPT2x2dER5NWhsWkY3TDh1ZU1lamRpQ0JIRENmM0ludlhYeC1sdjVUR1V6OWRGanl4dXhGVThka2lFU2RkX0NTQXJQZG9oTURwTDI0R2RIdkc1LTB5WWdSTEotV1BXbkNjUUtSb3h3SDVvMDVodXZEdGk4Qy1rQ191MExwS3hDZ01oOEZEdm9NU3JpOGVRZUdBalBvb0ZpUTEtZ1NvVG9qQUVXVmZNdWp0WHYyVlNGSHJLVzdIWGlaM0oyMXc?oc=5",
    "s": "Instant Gaming News",
    "d": "2026-11-20T09:09:06+00:00",
@@ -607,51 +584,12 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxORFJkOEJQREtQY2toMTJFbWh1SGtFMFRqVUxUODljcS1UaTVQZ3B5bWQxZ2EtWndEMFZZZmR0ZTdvZWxJVzVzY0lxMWdhNTBlVjFJLXY0eGxlMU0yVWRLZkdTQzlmVUV3cFdHRTFSVEdKSjVoNks1blZZWE8yQXNCNXBDcGQya0pCRTh3ZjhzaFE3VkJMTXUzNk9CVzFhc3hId3JSUjB1S0FNdUUtalR3czV1NmhtOTRIaVBmWjFyZTktN0ppLV9PeXRLQVJlVVV6Zk1xYjhfN3doeEdOR0YzQ3A1MA?oc=5",
-   "s": "Xboxygen",
-   "d": "2026-11-20T08:42:34+00:00",
-   "lang": "fr",
-   "t": "Le leaker de GTA 6 aurait mis en ligne une build de développement Xbox et promet de bientôt diffuser l’exécutable",
-   "u": "https://www.xboxygen.com/News/374911-le-leaker-de-gta-6-aurait-mis-en-ligne-une-build-de-developpement-xbox-et-promet-de-bientot-diffuser-lexecutable",
-   "img": "https://www.xboxygen.com/wp-content/uploads/2026/11/GTA-6-Jason-Prison.jpg",
-   "chapeau": "Le leaker de GTA 6 aurait mis en ligne une build de développement Xbox et promet de bientôt diffuser l’exécutable - Cyberleek est de retour avec une revendication qui pourrait faire beaucoup de bruit autour de GTA 6. La personne, ou le groupe, affirme avoir mis en ligne",
-   "txt": "Cyberleek est de retour avec une revendication qui pourrait faire beaucoup de bruit autour de GTA 6. La personne, ou le groupe, affirme avoir mis en ligne une archive présentée comme une build de développement Xbox du jeu. Une publication à prendre avec beaucoup de recul. Rien ne permet encore d’authentifier indépendamment l’origine, l’intégrité ou le contenu complet des fichiers concernés.\nCyberleek affirme avoir mis en ligne, via un torrent, une archive baptisée « XBOX BUILD 1.0.2.1 (NOV 2026) ». Selon les informations affichées sur son site, elle pèserait environ 209 Go et contiendrait des fichiers associés à une version Xbox de Grand Theft Auto 6.\nCyberleek présente cette archive comme une « build complète » de novembre 2026. GTA 6 étant sorti le 19 novembre 2026 sur PS5 et Xbox Series X|S, cette date correspond à une version récente du jeu.\nDes captures d’écran circulant sur les réseaux sociaux semblent montrer des fichiers de développement associés à la version Xbox. Leur authenticité, tout comme l’existence et le contenu complet de l’archive, ne peuvent cependant pas être confirmés de manière indépendante.\nCette publication intervient après les nombreuses vidéos de gameplay attribuées à Cyberleek depuis août . En octobre, la personne ou le groupe derrière ce pseudonyme affirmait déjà posséder une version permettant de parcourir l’intégralité du mode histoire jusqu’au générique de fin.\nLa build mise en ligne par Cyberleek ne contiendrait pas le fichier exécutable principal. Sans celui-ci, cette supposée version Xbox ne peut pas être lancée dans les conditions présentées par Cyberleek.\nCyberleek indique que ce fichier sera publié à la fin d’un compte à rebours. Selon le compteur affiché sur son site au moment de la vérification, celui-ci doit se terminer le 23 novembre 2026 à 17 heures. L’exécutable pourrait également être diffusé plus tôt si la capitalisation du token $CYBERLEEK atteint 15 millions de dollars.\nCette somme est deux fois moins élevée que celle réclamée en octobre. À ce moment-là, Cyberleek exigeait une capitalisation de 30 millions de dollars pour diffuser une version présentée comme jouable de GTA 6, jusqu’au générique de fin. Le 14 octobre, après que ce seuil n’a pas été atteint, la personne ou le groupe avait annoncé renoncer à cette publication.\nCette nouvelle menace s’inscrit dans la continuité du système mis en place depuis le début de l’affaire. Cyberleek avait déjà proposé aux internautes d’envoyer de la cryptomonnaie afin de participer à des votes sur les prochaines séquences de GTA 6 à diffuser.\nUne build Xbox ne fonctionne pas nativement sous Windows. Par ailleurs, aucun émulateur Xbox Series X|S public, mature et largement compatible n’existe à ce jour. Cela ne garantit donc absolument pas que les fichiers évoqués par Cyberleek soient exploitables sur PC.\nCyberleek affirme que la communauté parviendra à faire fonctionner le jeu très rapidement en émulation. La personne ou le groupe évoque aussi une build PS5 comme solution de secours si la version Xbox ne pouvait pas fonctionner. Aucun élément concret n’a cependant été communiqué sur cette éventuelle alternative.\nUne version de développement peut nécessiter du matériel précis, des outils internes ou un environnement réservé à Rockstar Games. Même si les fichiers étaient authentiques, leur présence en ligne ne suffirait donc pas à démontrer qu’ils pourront fonctionner en dehors de leur cadre de production initial.\nDepuis ses premières publications, Cyberleek affirme défendre les droits des joueurs et critique notamment les précommandes numériques ainsi que l’absence de disque dans l’édition physique. La personne ou le groupe a demandé à Take-Two de commercialiser des disques physiques et de présenter des excuses publiques.\nCette revendication est néanmoins étroitement liée à la promotion du token $CYBERLEEK. Les vidéos précédentes ont mis en avant cette cryptomonnaie, les votes nécessitent l’envoi de SOL et la promesse de diffusion de l’exécutable dépend d’un seuil de capitalisation.\nDès août, Take-Two avait engagé des procédures DMCA devant un tribunal fédéral américain afin d’obtenir des informations détenues par Microsoft et Discord. L’objectif affiché était d’identifier les personnes impliquées dans la diffusion des précédents leaks.\nIl est évidemment déconseillé de se rendre sur le site de Cyberleek ou de télécharger le moindre fichier présenté comme une build de GTA 6. Au-delà des questions de droit, ces archives peuvent représen",
-   "pub": "2026-11-20T08:40:43+00:00",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOQXhsNDVXdG43RGhycmgyLUxJVmM2NWdWdFFQTV96SFdlUlBaUXEzVk9ZYTVSRTJNb0RtUEJ6MG1RekNpVkU0Q0RZMWU3RkFSeEZmbklReGVxTnFYX1lXZ0FiSHZrSzdOWnU2UEJSejRMek91MkZtRkd6TWpUTlo5NDdzNHNzdWlYSE1QVFF5Vll1ZkE?oc=5",
-   "s": "www.fpsnews.net",
-   "d": "2026-11-20T08:24:22+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : Cyberleek prétend avoir une build Xbox",
-   "u": "https://www.fpsnews.net/grand-theft-auto-vi/gta-6-cyberleek-pretend-avoir-une-build-xbox/",
-   "img": "https://www.fpsnews.net/media/gta-6-jouez-des-le-18-novembre-grace-au-fuseau-horaire-neo-z-17812-1200x675.jpg",
-   "chapeau": "Cyberleek affirme avoir diffusé une build Xbox de développement de GTA 6, mais retient l'exécutable tant que son jeton crypto n'atteint pas 15 millions de dollars.",
-   "txt": "Le groupe de hackers Cyberleek assure avoir mis en ligne une build de développement de GTA 6 pour Xbox datée de novembre 2026, mais retient volontairement le fichier exécutable principal tant que son jeton crypto n'atteint pas une valeur fixée.\nCrédit : Rockstar Games Le groupe Cyberleek a refait surface, affirmant avoir publié une véritable build de développement de Grand Theft Auto VI . La dernière mise à jour de son site affiche un lien intitulé « XBOX BUILD 1.0.2.1 (NOV 2026) » , et des captures d'écran circulant sur les réseaux sociaux semblent montrer des fichiers issus d'une build de développement de la version Xbox du jeu.\nProblème pour quiconque voudrait la lancer : le fichier exécutable principal manque à l'appel, ce qui rend la build totalement injouable en l'état. Un tweet de Jose Coixao ( @notnotzecoxao ), daté du 19 novembre 2026, évoque une taille totale de 209 Go pour l'ensemble des fichiers.\nL'annonce a été publiée sur le site du groupe le 19 novembre. Cyberleek affirme retenir l'exécutable sur un compte à rebours, mais promet de le publier plus tôt si son jeton crypto atteint une certaine valeur de marché. Un chiffre précis circule : le groupe ne lâcherait l'exécutable que si la capitalisation du meme coin $CYBERLEEK atteint 15 millions de dollars.\nCyberleek insiste sur un point : il s'agit bien d'une build pensée pour Xbox, et non d'une version PC. Le groupe assure même que la communauté parviendra à l'émuler en une semaine, en dépassant les 30 images par seconde.\nLe groupe situe cette fuite dans une campagne plus large contre Rockstar, qu'il présente comme une défense des droits des consommateurs. Il reproche notamment au studio de sortir GTA 6 uniquement en version numérique, et avait déjà diffusé des mois durant des clips de gameplay présentés comme authentiques, y compris avant la révélation officielle du jeu par Rockstar via Netflix. Le calendrier exact de ce retour reste flou : certaines informations évoquent le premier retour du groupe depuis le lancement de GTA 6, d'autres un compte resté actif en pleine semaine de sortie. L'authenticité des fichiers n'est pas confirmée non plus : les captures « semblent » montrer une vraie build de développement, sans vérification possible des fichiers eux-mêmes.\nCe n'est pas la première fois que Cyberleek joue cette carte. En octobre déjà, le groupe avait menacé de publier une build de GTA 6, conditionnant cette fois le déblocage à un jeton atteignant 30 millions de dollars. Le groupe avait alors publié une série de fuites de plus en plus poussées, incluant des images dénudées de Lucia, l'une des deux personnages jouables. Mais le jeton s'était effondré après coup, et le compte avait de nouveau disparu.\nCyberleek encourage depuis longtemps les dons en cryptomonnaie, et les a même rendus obligatoires pour participer aux votes qui déterminent la prochaine fuite. Le groupe aurait déjà encaissé ses gains sur ce meme coin une première fois. On ignore toujours si la personne à l'origine des vidéos diffusées tout l'été est la même que celle qui a relancé le compte aujourd'hui, ou si plusieurs personnes sont impliquées.\nDu côté de Take-Two, la traque continue. L'éditeur affirme que ses efforts pour retrouver le fuiteur évoluent rapidement (« rapidly evolving »), et a déposé plusieurs assignations auprès de Discord pour obtenir des informations sur des serveurs et utilisateurs précis. Malgré ça, Rockstar Games et Take-Two n'ont toujours pas réussi à identifier les personnes derrière le compte.",
-   "pub": "2026-11-20T08:24:22.000Z",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOMVJpQmRYNkxLRk1xd2lwWk05NXhwY2stcWdWeUo2b2dFOEtEekMzSnJYSU9OVjBXeTd0dy1GWWJRYVpGOWRuX2pmeFBIZ2NyOFFaXzBnY3pTWGZJM1hyeXg1X1NpTkNCM0F6U3pvOXV6bUdRcmNxR3lLWEhKRmZ6VFNHMVVRQTB6enA1VTJxc2RKVUdaRk9uZTdzSmktZWNWdnZHb2Ywb21IT0FxWk16WmNWdzlmS1pQY3Bqa3BCN1JsRWxiQUQtVmlmQng4MUo2Q292Nk9wRnFhMHVnWVhES0xJV2IwUQ?oc=5",
-   "s": "Les Numériques",
-   "d": "2026-11-20T06:45:00+00:00",
-   "lang": "fr",
-   "t": "“C’est fait” : le pire cauchemar de Rockstar se réalise, GTA 6 tombe aux mains des pirates le jour de sa sortie",
-   "u": "https://www.lesnumeriques.com/jeux-video/c-est-fait-gta-6-circule-deja-chez-les-pirates-mais-un-fichier-crucial-est-encore-retenu-en-otage-n268082.html",
-   "img": "https://cdn.lesnumeriques.com/optim/news/26/268082/dfd60000-c-est-fait-gta-6-circule-deja-chez-les-pirates-mais-un-fichier-crucial-est-encore-retenu-en-otage__1200_678__0-25-2135-1146.webp",
-   "chapeau": "Vous vous souvenez du hacker qui a gâché l’été de Rockstar en diffusant des vidéos volées de GTA 6 ? Cyberleek est de retour. Vingt-quatre heures à peine après la sortie du jeu, il affirme avoir mis en ligne une version de développement complète sur Xbox. L’archive est colossale, mais il lui manq...",
-   "txt": "© Rockstar Games / Les Numériques - Jason et Lucia sous les palmiers de Vice City, pendant que Rockstar affronte une nouvelle fuite.\nCyberleek a fait vivre un automne éprouvant à Rockstar Games en diffusant pendant des semaines des extraits de gameplay volés . Le collectif anonyme a refait surface le 19 novembre 2026, le jour même du lancement de GTA 6 sur PS5 et Xbox Series X|S.\nSur son site, un nouveau lien intitulé \"XBOX BUILD 1.0.2.1 (NOV 2026)\" mène à un torrent d'environ 209 Go. Le groupe dit qu'il s'agit de la build complète de novembre. Les captures d'écran qui circulent montrent bien des fichiers de développement de la version Xbox.\nLe fichier arrive amputé de son exécutable principal, sans lequel rien ne démarre. Cyberleek promet de le publier à la fin d'un compte à rebours, dont il ne donne pas la durée. Il le lâchera plus tôt si son jeton $CYBERLEEK atteint une capitalisation de 15 millions de dollars. C'est moitié moins qu'en octobre : le groupe réclamait alors 30 millions pour diffuser une version jouable \"jusqu'au bout, générique compris\" . La cryptomonnaie s'était effondrée et Cyberleek avait annoncé le 14 octobre qu'il renonçait.\nLe message publié le 19 novembre 2026 par Cyberleek sur son site : la build Xbox de GTA 6 est diffusée en torrent, sans son exécutable principal.\nLa promesse a tout d'une fanfaronnade. Une build Xbox ne tourne pas nativement sous Windows, et aucun émulateur Xbox Series fonctionnel n'existe à ce jour. Cyberleek parle déjà d'une version PS5 en roue de secours, sans donner le moindre détail.\nLe contenu du torrent diffusé par Cyberleek, avec les archives .rpf propres au moteur de Rockstar et des fichiers système Xbox.\nLe collectif se pose en défenseur des joueurs. Sa cible : un lancement entièrement dématérialisé , puisque les boîtes vendues en magasin ne contiennent qu'un code de téléchargement. Il y a un mois, il exigeait encore de Take-Two des disques physiques et des excuses publiques. Son nouveau message en remet une couche : \"CL vous avait dit de ne pas précommander pour une bonne raison.\"\nLa croisade sent pourtant le commerce. Depuis août, le rythme des fuites dépend du cours du jeton, et il faut faire un don en crypto pour voter dans les sondages qui choisissent la prochaine révélation, comme le rapporte VGC . Take-Two a saisi un tribunal fédéral de New York dès le 20 août pour obliger Microsoft et Discord à livrer des données qui pourraient identifier les auteurs. Aucun résultat visible pour l'instant, et ni Rockstar ni Take-Two n'ont réagi publiquement à ce nouvel épisode.\nWe are working closely with Take-Two and Rockstar Games to support efforts to protect creative works and intellectual property.\nLes curieux tentés par le téléchargement ont de bonnes raisons de se méfier. Depuis l'été, de fausses builds de GTA 6 servent d'appât pour propager des logiciels malveillants, dont une archive de 113 Go repérée par Notebookcheck . Le téléchargement est illégal, et il peut aussi coûter cher à votre machine.\nSuivez toute l'actualité des Numériques sur Google Actualités et sur la chaîne WhatsApp des Numériques\nEnvie de faire encore plus d'économies ? Découvrez nos codes promo sélectionnés pour vous.",
-   "pub": "2026-11-20T06:45:00Z",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNHROekpLcVdTVjRqUlhDTmZocXY2SGlUbTF5Vm9YQk9NSXA1LWtrX3V6QS13WnFIaWZLeU5USlBjVk9keGJ5cWNyM1lTQlZKZEJLMmtCdmxOWWtWZXNFVFJ1Q1hybkI5XzBEa1dDTy1xc3dxeVlDUTBnekpFWnYxeUdNYmNKRnk5bS1XQ0RidFp0bVg5elBmbVNUUnRxN2lHSGZFUWFKVTMtbEJ0czZXa0F0NDZuWlp4WWc?oc=5",
    "s": "Nacionale",
    "d": "2026-11-20T05:51:12+00:00",
    "lang": "en",
    "t": "Is it illegal to download the GTA 6 leak? Yes, and a torrent shares it while you download",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -660,7 +598,7 @@
    "d": "2026-11-20T04:39:00+00:00",
    "lang": "en",
    "t": "Is the GTA 6 leak safe to download? Fake builds and launchers have carried password-stealing malware",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -677,21 +615,12 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRkdMMnNpaU9fTXpjaVBISGRUalZ0YjREZ1F5ZC1BVHpRTWkySHdQVEdXTXA1dGloY01Xa09IX21XQ05MM0xzRHBpWnl2Zm5iYnRwUUUxNHFEOFhmZl9jQndzUXJncXZpa283bTZ3eHBObGFpd2YwMnJJTlVQeUk5bHNpVkxnYXA1T1VydWZNbVh3M3dlMmZDTjB1SWNqMHZQbXZla3Mwa29zOUgtZGc0?oc=5",
-   "s": "GameGPU",
-   "d": "2026-11-20T03:44:08+00:00",
-   "lang": "fr",
-   "t": "Le groupe de hackers CyberLeek a diffusé une version torrent de GTA 6 pour Xbox.",
-   "erreur": "HTTP Error 403: Forbidden",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZ254VnE0eTlCM0hJcFRNTDREcEVIdG0yTTVWRFhDSlNuV3dZbWVjcjhtYUxDNEFLUVltSjN1ekRVS0RWVmpHZHVlMmVIbUUydXd4eUNjeG02ZURZendyNDhwUG5tdF9nVVVmVTdhWjJIT0lLS2llNE94cEFROEY2NVhxY2daTHZIQnpxTjAzQlVId0xROUVtSUExSzN5NVdtRF9aLUF1M2FQYWxQSy00?oc=5",
    "s": "GameGPU",
    "d": "2026-11-20T03:44:08+00:00",
    "lang": "en",
    "t": "The hacker group CyberLeek has released a torrent build of GTA 6 for Xbox.",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -700,7 +629,7 @@
    "d": "2026-11-20T03:34:00+00:00",
    "lang": "en",
    "t": "Who is Cyberleek? The anonymous GTA 6 leaker, its meme coin and what it has delivered so far",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -717,19 +646,6 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOdUF1bFhzVlpTUVFvN0QwNi11RmxxYzVzSUVaTWl3a1hKTTZrR1NiS0VYVndycnpON2o4M21TY3pZenZkVlpHZENXLVo2SnJKQXE0bnVmY3F0V0VscDEzVGEzVnRsTVpDbVd1NWczZUROVjZ4MV9KcWIzNko5Z3hEX2NERHJRSjhDNTFEa2dIT2I3dWp1dVlFallwcFp2V2lrc3JHUEoyQzltVFdnY01PVUNnTW55Y0pKdWlzWGRJSjBTU0N0elE?oc=5",
-   "s": "Instant Gaming News",
-   "d": "2026-11-20T00:06:00+00:00",
-   "lang": "fr",
-   "t": "GTA VI : Cyberleek dit avoir publié une version en développement du jeu complet - IG News",
-   "u": "https://news.instant-gaming.com/fr/articles/23128-gta-vi-cyberleek-dit-avoir-publie-une-version-en-developpement-du-jeu-complet",
-   "img": "https://gaming-cdn.com/images/news/articles/23128/cover/gta-vi-cyberleek-dit-avoir-publie-une-version-en-developpement-du-jeu-complet-cover6b000d8f6a40f.jpg",
-   "chapeau": "C",
-   "txt": "C'est possiblement l'ultime grand coup d'éclat de Cyberleek. Le fameux leaker, qui s'était employé à sortir des extraits de gameplay de GTA VI avant le lancement, affirme avoir publié une version complète du jeu en développement.\nCette version apparue sur le site de Cyberleek porte la mention « XBOX BUILD 1.0.2.1 (NOV 2026) ». Nous pouvons ainsi comprendre qu'il est question de l'itération XBOX Series datant de quelques jours avant le lancement. Aucun fichier exécutable n'est inclus dans les données, ce qui empêche de lancer le jeu. Cyberleek menace cependant de donner accès à cet exécutable prochainement si son jeton crypto atteint une certaine valeur.\nAinsi, le leaker espère sans doute que la communauté téléchargera cette version et la rendra jouable dans les jours à venir. Une hypothèse qui n'est pas totalement improbable car cette version XBOX est complète. Elle pourrait alors tourner sur PC à plus de 30 FPS. Elle pourrait aussi comprendre des bugs, puisqu'il est question d'une version non finalisée par Rockstar.",
-   "pub": "",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNVkRBZkZ0M2ZxV2xGLW9DNjdzMVBVZW83UGtoczN1WGR1d1BOSmNWTTNPaS1LT3FiWHhtUUdTeEV3NGZUdlgxdnBVOUtjeEtzeEZBN3RFWld6RHVJNmlTMmdfNldqWFdVdTZ2T1Z2dWFKaXo1aEhySFRBQW5jMUEtTDBUOG5lc1VDNVdqWlhERTNVcGFOUzRmVVlFaVVac3RHME5fa2pOSWx4NUlUaVhJdkNLMFlsbEpfVWlfc09CODNPcWJYU3VIN1RmbXR3VGhaMUE?oc=5",
    "s": "Notebookcheck.fr",
    "d": "2026-11-19T23:35:00+00:00",
@@ -739,19 +655,6 @@
    "img": "https://www.notebookcheck.biz/fileadmin/Notebooks/News/_nc5/GTA6XboxBuildPC.jpg",
    "chapeau": "Cyberleek a de nouveau fait parler de lui en divulguant une version Xbox de GTA 6 datant de novembre. Il manque au téléchargement le fichier exécutable indispensable, dont la date de publication dépend d’un nouvel objectif en cryptomonnaie. Des hackers étudient les fichiers en vue de créer un émulateur de Series X ou une version décompilée pour PC.",
    "txt": "Alors qu’on croyait Cyberleek disparu pour de bon, le célèbre auteur de fuites a refait surface. Même si la date de sortie de GTA 6 est passée, il a mis ses anciennes menaces à exécution. Une version Xbox déchiffrée circule sur les réseaux de piratage , ce qui pourrait déboucher sur un portage jouable sur PC . Le téléchargement de 209 Go présente toutefois un inconvénient majeur.\nLe site de Cyberleek affiche désormais un message au sujet de la dernière fuite. Alors que les précédentes vidéos de gameplay semblaient provenir d’une version de développement sur PC , Cyberleek a choisi de diffuser les fichiers Xbox de GTA 6 . Cette version daterait de novembre 2026, et des captures de l’arborescence des fichiers révélant des ressources du jeu ont fait surface. Quoi qu’il en soit, sans le fichier exécutable manquant, cette version risque de ne pas servir à grand-chose.\nUne fois de plus, Cyberleek espère collecter des fonds en cryptomonnaie avant de publier ce fichier essentiel. Cyberleek avait déjà fixé un objectif de capitalisation de 30 millions de dollars pour un memecoin, en promettant une version jouable en guise de récompense. Cette initiative d’octobre a échoué, mais le fichier .exe serait mis à disposition si la capitalisation atteignait 15 millions de dollars.\nIl est à noter qu’un compte à rebours de moins de 4 jours est également en cours. Lorsqu’il arrivera à zéro, le maître chanteur de Rockstar promet de diffuser quand même l’exécutable sur des sites de piratage .\nOn ne sait pas dans quel délai les fichiers Xbox de GTA 6 pourraient donner lieu à une version jouable sur PC. Cyberleek pense que des hackers trouveront le moyen d’émuler la version console sous Windows en une semaine. Alors que l’ objectif de 30 images par seconde continue de susciter des critiques, du matériel suffisamment puissant pourrait offrir une fréquence d’images plus élevée.\nMalheureusement pour les pirates, il n’existe actuellement aucun émulateur de Series X fonctionnel. Le matériel de la console de Microsoft est similaire à celui de nombreux PC, leurs processeurs partageant l’architecture x86-64. Parmi les obstacles à surmonter, la Series X utilise toutefois un système d’exploitation personnalisé qu’il faudrait adapter à Windows.\nUne autre possibilité serait de lancer un projet de décompilation des fichiers Xbox de GTA 6 ayant fuité. Les développeurs analyseraient et modifieraient le code, puis le reconstruiraient pour obtenir une version capable de se lancer sur PC.\nCyberleek affirme également détenir une version PS5 comme solution de repli. Au-delà d’amasser des cryptomonnaies, l’objectif est d’empêcher les portages sur consoles et PC de doubler les bénéfices de Take-Two et de Rockstar.",
-   "pub": "",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5mQlZ2VFh5TlpMSzlJRjNKNVF0MjYybXRYS2VFLTROcjFUTFJQSVd6YmNDemxacnYyeldCeXgzNkE0WHpualUtYW5BTlhCN29uREJlMzkwb2VMdFU?oc=5",
-   "s": "Gamekyo.com",
-   "d": "2026-11-19T23:25:00+00:00",
-   "lang": "fr",
-   "t": "Gamekyo : Blog : GTA 6 : Cyberleek sortira une ver XBOX datant de novembre 2026",
-   "u": "https://www.gamekyo.com/blog_article489067.html",
-   "img": "http://www.gamekyo.com/Webmasters/Images/grand-theft-auto-vi_20220730_060731_intro.jpg",
-   "chapeau": "Blog : GTA 6 : Cyberleek sortira une ver XBOX datant de novembre 2026 : Gamekyo is a social video game magazine for the Wii, Nintendo DS, PlayStation 2, PlayStation 3, PSP, Xbox 360 and PC. Blog : GTA 6 : Cyberleek sortira une ver XBOX datant de novembre 2026",
-   "txt": "",
    "pub": "",
    "cyberleek": true
   },
@@ -769,38 +672,12 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTm43MnhSS1Bta0hIT2g4Tk9ZelZWUHFFS2RobDByM0JURVJzRVlneTZiQXRKQUl3Qk1sbDJzeV9EUGdkWVB4dFNlQ0JGY0Q5WHJvWGRTOFNuTDllMEZycm5kUTRYek0tZm9NMDBlckVZblFzNW9MZUMyaWtZRERYMzRLaw?oc=5",
-   "s": "big-n.fr",
-   "d": "2026-11-19T20:29:36+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : un hacker affirme avoir mis en ligne une build de développement, la communauté sceptique",
-   "u": "https://big-n.fr/actualites/65921-gta-6-hacker-build-developpement-cyberleek/",
-   "img": "",
-   "chapeau": "",
-   "txt": "Un individu se présentant sous le pseudonyme de Cyberleek a récemment fait surface en affirmant avoir mis en ligne une build de développement de Grand Theft Auto VI . Cette annonce, qui a immédiatement enflammé les réseaux sociaux et les forums spécialisés, est accueillie avec un très haut degré de scepticisme par la communauté. En effet, le nom de Cyberleek est associé à de précédentes tentatives de fuites, souvent jugées peu crédibles, et aucune preuve tangible n’a pour l’instant été apportée pour étayer ces nouvelles déclarations.\nSelon les informations relayées par Video Games Chronicle , Cyberleek n’avait plus fait parler de lui depuis la sortie officielle de GTA 6 . Son retour soudain avec une annonce aussi fracassante a de quoi surprendre, d’autant que le jeu est désormais disponible depuis plusieurs mois et que l’attention des joueurs s’est tournée vers d’autres sujets, comme les mises à jour en ligne ou les éventuels contenus additionnels. La prétendue build de développement serait donc antérieure à la version finale, ce qui soulève immédiatement des questions sur son intérêt réel et sur les motivations de son diffuseur.\nLes experts en cybersécurité et les dataminers habitués à ce genre de fuites rappellent que les builds de développement sont des versions internes utilisées par les studios pour tester le jeu en cours de production. Elles contiennent souvent du contenu inachevé, des bugs, des outils de debug et parfois des éléments qui ne sont pas destinés au public. Si une telle build venait à être authentifiée, elle pourrait révéler des détails sur le processus de création du jeu, mais elle n’apporterait probablement rien de nouveau aux joueurs qui ont déjà exploré la version finale.\nLe pseudonyme Cyberleek n’est pas inconnu des communautés de joueurs. Par le passé, ce même individu ou groupe a déjà prétendu détenir des informations exclusives sur des jeux très attendus, sans jamais fournir de preuves convaincantes. La plupart de ses annonces se sont soldées par des échecs retentissants, et sa crédibilité est aujourd’hui quasi nulle auprès des observateurs sérieux. Cette nouvelle sortie médiatique est donc perçue comme une énième tentative de se faire remarquer, surfant sur la notoriété de GTA 6 pour attirer l’attention.\nIl est important de noter que Rockstar Games, le développeur du jeu, n’a fait aucun commentaire officiel sur cette affaire. La société est connue pour sa discrétion et sa politique stricte en matière de sécurité, et il est peu probable qu’elle réagisse à des allégations non fondées. En l’absence de déclaration officielle ou de preuve matérielle, il convient de traiter cette information avec la plus grande prudence.\nAu-delà de la simple désinformation, ce type d’annonce peut avoir des conséquences néfastes pour les joueurs. Certains individus mal intentionnés profitent de l’engouement autour des jeux populaires pour diffuser des logiciels malveillants déguisés en builds ou en outils de piratage. Les joueurs trop crédules qui tenteraient de télécharger ces prétendues versions s’exposent à des risques de vol de données, d’infection de leur système ou d’escroquerie. Il est donc essentiel de ne jamais télécharger de fichiers provenant de sources non officielles et de se méfier des offres trop alléchantes.\nPar ailleurs, la diffusion de builds de développement, si elle était avérée, constituerait une violation grave des droits d’auteur et des secrets commerciaux de Rockstar Games. Les précédentes fuites majeures dans l’industrie du jeu vidéo ont donné lieu à des poursuites judiciaires et à des condamnations sévères. Les auteurs de telles infractions encourent des peines de prison et des amendes considérables, ce qui n’a pas empêché certains de récidiver.\nSur les réseaux sociaux, les réactions à l’annonce de Cyberleek oscillent entre amusement et agacement. De nombreux joueurs rappellent les précédentes frasques de ce personnage et invitent à ne pas lui accorder de crédit. D’autres soulignent que même si une build de développement existait, elle n’aurait que peu d’intérêt à ce stade, le jeu étant déjà sorti et largement analysé. Certains évoquent la possibilité d’un canular destiné à tester la réactivité des médias et des communautés.\nEn attendant d’éventuelles preuves concrètes, il est recommandé de considérer cette information comme une rumeur non fondée. Les joueurs désireux d’en savoir plus sur GTA 6 peuvent se tourner vers les sources officielles de Rockstar Games ou vers des médias reconnus ",
-   "pub": "",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1CcTZSWERJX3FiWkdrbjRadGFISnY0RE1QNlc3aWRwMlp2a3VKVC04bWxoRi0xOFNWOXpDc2NHUVhKc0dJZTJMdmpCN3pqNkd5NE1mMUw1Zw?oc=5",
-   "s": "CoinGecko",
-   "d": "2026-11-19T14:01:32+00:00",
-   "lang": "fr",
-   "t": "Cours CyberLeek (CYBERLEEK/USD): Graphique & Actualités | CoinGecko",
-   "u": "https://www.coingecko.com/fr/coins/cyberleek",
-   "img": "https://static.coingecko.com/s/social_image_cards/social_image_card_standard-152325d6e2be21a5365b167d97eee4819d9565e232425c65ad47f3d2d7b2ea79.png",
-   "chapeau": "Le cours de CyberLeek (CYBERLEEK) est de $0,002227 aujourd’hui, avec un volume d’échange sur 24 heures de $2 866 675. Suivez le cours en direct, le graphique, la capitalisation boursière et les actualités concernant CyberLeek sur CoinGecko.",
-   "txt": "Le cours de CyberLeek (CYBERLEEK) est calculé en temps réel en agrégeant les dernières données sur 6 échanges et 6 marchés, à l'aide d'une formule moyenne globale pondérée en fonction du volume. En savoir plus sur comment les prix des cryptos sont calculés sur CoinGecko.\nCyberLeek ($CYBERLEEK) est un meme coin porté par un récit, construit sur la blockchain Solana. Il a attiré l’attention de façon virale en août 2026, en raison de son association avec un personnage ou un groupe anonyme en ligne (« CyberLeek ») qui a diffusé des images de gameplay non publiées de Grand Theft Auto 6 (GTA 6).\nEn France, la cryptomonnaie CyberLeek est recherchée sous les noms « CyberLeek », « CyberLeek crypto » ou « CyberLeek coin ».\nLes jetons CYBERLEEK peuvent être échangés sur des plateformes d’échange décentralisées et plateformes d’échange centralisées. L'échange le plus populaire pour acheter et échanger CyberLeek est Raydium , où la paire la plus active CYBERLEEK/WSOL a un volume d'échange de $1 657 041,09 au cours des dernières 24 heures. D'autres options populaires incluent LBank et Meteora .\nLe volume d'échange de CyberLeek (CYBERLEEK) est de $2 704 164,47 au cours des dernières 24 heures, ce qui représente une différence de 131,10 % hausse par rapport à hier et signale une activité hausse récente sur le marché. Consultez la liste des cryptomonnaies à fort volume sur CoinGecko.\nCyberLeek (CYBERLEEK) a atteint un niveau le plus élevé de $0,03436 et le niveau le plus bas de $0,0004808 . Il se négocie actuellement -93,90 % en dessous de ce sommet et 335,40 % au-dessus de son cours le plus bas.\nLa capitalisation boursière de CyberLeek (CYBERLEEK) est $1 535 286 et est classée 2390 sur CoinGecko aujourd'hui. La capitalisation boursière est mesurée en multipliant le cours du jeton par l'offre en circulation de jetons CYBERLEEK (730 million jetons sont échangeables sur le marché aujourd'hui).\nLa valorisation entièrement diluée (FDV) de CyberLeek (CYBERLEEK) est $1 535 286 . Il s'agit d'une représentation statistique de la capitalisation boursière maximale, en supposant que le nombre maximal de jetons 729,872 million CYBERLEEK est en circulation aujourd'hui. Selon la façon dont le calendrier d'émission des jetons CYBERLEEK est conçu, plusieurs années peuvent s'écouler avant que la FDV ne soit réalisée.\nAvec un changement déclin de -9,80 % pendant les 7 derniers jours, CyberLeek (CYBERLEEK) représente surperformance une part du marché de crypto monnaie global de bas -14,50 % , par rapport à surperformance de catégorie similare Meme qui représente bas -16,00 % .\n, CyberLeek's funding rate averaged , with a high of and a low of .",
-   "pub": "",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNLUlwdEJ0cWVyLXJ0R3VBRktrMGtiRl9hYUN0Q2ZOVlpCWlV2T3ZISmE2aGFPWTd5amhpNHlQbzlIQXlQdklPbDJ4bEtyZDh3WFJFZUtMSTFDYmtLR0JWTkwtUkhtZDVGY3BIVDUzM0RuN1J6b0F3aGw1SVo2LXZkZUkyUnM5OHFWcDlxWjBZaVkyZ01hcFE?oc=5",
    "s": "Pasquale Pillitteri",
    "d": "2026-11-19T09:10:26+00:00",
    "lang": "fr",
    "t": "GTA 6 débarque sans replay des missions, il faut passer par les sauvegardes",
-   "erreur": "Remote end closed connection without response",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -828,6 +705,72 @@
    "txt": "À un jour seulement de la sortie de Grand Theft Auto VI , de nouvelles captures d’écran circulent sur les réseaux sociaux. Leur origine exacte reste incertaine, même si Tez, dataminer bien informé sur Rockstar, affirme qu’elles proviennent du système interne d’un site de tests. Insider Gaming a relayé cette affirmation en citant une conversation sur Discord. Six captures d’écran ont fait surface au total, dont deux particulièrement intéressantes.\nUne image semble montrer Lucia tenant un homme en otage. Sur une autre, Jason et Lucia entrent dans un magasin où une femme armée semble être en plein braquage. Sur Reddit , les fans se demandent si GTA 6 ( disponible en précommande sur Amazon ) permettra aux joueurs d’utiliser des otages comme boucliers humains ou de tomber sur des crimes commis par des PNJ. Dans les deux cas, la question est de savoir si ces situations se limitent à des séquences scriptées au cours des missions ou si elles peuvent aussi se produire spontanément dans le monde ouvert. Sans surprise, de nombreux fans espèrent que ce sera le cas. Les deux captures d’écran sont visibles ci-dessous.\nⓘ Rockstar Games Cette capture d’écran donne aux fans l’espoir que GTA 6 permettra aux joueurs d’utiliser des boucliers humains. ⓘ Rockstar Games Les joueurs ne seront peut-être pas les seuls à commettre des crimes dans GTA 6. Les autres captures d’écran laissent moins de place aux spéculations, mais elles en dévoilent un peu plus sur l’univers de Grand Theft Auto VI , notamment de nouvelles coiffures pour les protagonistes et des armes encore jamais montrées. Une image particulièrement intéressante se déroule dans une salle de sport, où un homme chauve et musclé fait une flexion du biceps avec un haltère de 95 livres, tandis qu’une femme fait des tractions à l’arrière-plan. Difficile de dire s’il s’agit bien de Jason et Lucia. D’autres captures d’écran montrent davantage les marais de Leonida, ainsi que Jason et Lucia qui se détendent sur des bouées gonflables dans l’océan. Voici les quatre images restantes :\nⓘ Rockstar Games Une capture d’écran de GTA 6 qui aurait fuité. ⓘ Rockstar Games ⓘ Rockstar Games ⓘ Rockstar Games Source(s) Insider Gaming",
    "pub": "",
    "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPUTA5ZmZqVnpZSmtxZDNkX0RJTWozSnZVMG9PY3lUUVp3S3BLQnVxanh2X1NIcm1rdjFOS0FWN3Npc3hDNDJTUEpEQWs2bjRHSE5HLWhEZnYtM1FKeGtQSGU4Sk9UR2ctYzRpQnQyRUJUWGs0UDlpZm42MVFWVGwySWplZm1nOHpybnFVNkJ0QURRX29mUzNpVlItM3JmWXQ2NlUyUTJZbGNPM3ZEVFoxeVF4N295dFJGdkhSSC1mTDdxS2FlQ0VRTmJzaUgtUEc3N2locTQxeGNPeWtuTlBpUjBEaTh1Y18tRmJTZXZXWWU3d0RiSXFDc21jd2lXYm8?oc=5",
+   "s": "Le Parisien",
+   "d": "2026-11-18T11:27:04+00:00",
+   "lang": "fr",
+   "t": "Sortie de GTA 6 : démarrage en prison, braquage et fuite, musique dingue… On a vu les premières images du jeu de l’année",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiygFBVV95cUxON240YmdITWdwTEFkQmtIVWpnRmVSSWhsSWVZaWtzZHZ0aHplbDhESTF6alE0MXZiVVlYQldXb3dISHBIRTY2WGJJS29EOHpPcTdMczhGYmVHd25mQUh2U2tEMXR5akpBRFRRbjF4eWUwajBxajZ5OF9vd3YwZ2FFZTgtbGFFVVpDUTR5Q1psWkFmbnkxZjViWWhUMlJuY09NeXpCMzdPRU4ySkI0VlUyOTc0OEh4aWl6RnJERjl5M1ZlUnROcnRsVWJB?oc=5",
+   "s": "Hypebeast",
+   "d": "2026-11-18T07:10:29+00:00",
+   "lang": "fr",
+   "t": "Fuite des images officielles Travis Scott x « GTA 6 » x Nike Air Force 1 Low et de la collection textile",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPUUNFRHpTaWpvQlZ5WklUT3psd1p3bEp3TUo4YlY0VVBtWEVPYlR5RHhYaG5lQ1gxZjJ5SUhsYUc5emRmcnhUT3hDYWh2bkNhZHJsd29KNFdXOUNfRDdkR1JRczRlbEQ3d1lZSU1MRGJUTGlEOHduZTdUNDZGSjlYVXlSeDJ4TWFNUkk2YmFJcl9RQUNLSHAwWTdET002clFlQWV4RHlYLXlLRXZOeE1rYXBILUZxSzE1Z3ZHMUZzSmkzUmhvLVBTQ1ljRnh0N1VDbEFHYzhoVUFCdw?oc=5",
+   "s": "ActuaNews.fr",
+   "d": "2026-11-18T06:57:02+00:00",
+   "lang": "fr",
+   "t": "GTA VI : Une immense carte de Leonida aurait fuité, et les joueurs découvrent un monde bien plus vaste que prévu",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWUFLWFhUc010OEs3aThlYVNieGtDQm12YWllZVFvZGtDWF9qOU84b1N2NmFiUHcwbkJSbG9Na0gxVm1FVTcxV3Jza1FFRmpmeDcwdnE0NTJ4X3BjckZvWjFWRG5HZ0RvTnVvU0ZUSFlKbkxNVXdKbFY4Mm1EbklPOGhhTUlaVWNnR3FwcGpmcjNHNm5XVlRUVHFSVWk?oc=5",
+   "s": "Journal du Geek",
+   "d": "2026-11-17T16:33:37+00:00",
+   "lang": "fr",
+   "t": "GTA VI : la carte de Leonida a fuité et elle est immense",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMmxvZTVVZExGeEVrNlBvUjFwTnR6RzM5ZExuV2Q1Qk91U2trNktyckZQWHNzUUs5TXczQng3eWtxYkQybzN0WmdiQ2RvNHBRSEV1YU5EcW5JR1YyMHI4T2lSeXRCWUtkNE9Mdzl5cGF4VXRtY3pGVDlCcjNmMklnTjkwYlhuUHd5UkpMMUIxekE1blhTN29LeTFMYTZUWjRHZWF0TG5EOGZSRzV3M2FyejV3?oc=5",
+   "s": "01net.com",
+   "d": "2026-11-17T13:03:30+00:00",
+   "lang": "fr",
+   "t": "Le hacker de GTA 6 plaide coupable : il a bien piraté Rockstar Games en 2022",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMidkFVX3lxTE16MmtFYmpsdV9seHllM2VQQ2ZIZjJzNGJwZkYyMVRyMFliMkNtOVZGYkYwcUoySlNjUlZWVkJyYjd0YmdneUhvbF9UWkNLdWprZ3FURzk2UVpsR3hhbXdmWlJDOGZvT3JLeGEwTWhsS3NveU5CWmc?oc=5",
+   "s": "Ayther",
+   "d": "2026-11-17T13:00:13+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : Qui est Arion Kurtaj, le hacker de la fuite ?",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://www.rockstargames.com/newswire/article/39akk424a9oo53",
+   "s": "Rockstar Newswire",
+   "d": "",
+   "lang": "en",
+   "t": "Grand Theft Auto VI Now Available - Rockstar Games",
+   "u": "https://www.rockstargames.com/newswire/article/39akk424a9oo53/grand-theft-auto-vi-now-available",
+   "img": "https://media-rockstargames-com.akamaized.net/tina-uploads/posts/39akk424a9oo53/e470e29da13848abd31dfd8ea0e95a0eeffd0511.jpg",
+   "chapeau": "Today we are proud to announce that Grand Theft Auto VI is now available worldwide for PlayStation 5 and XBOX Series X|S.",
+   "txt": "",
+   "pub": ""
   }
  ]
 }
