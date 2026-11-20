@@ -104,11 +104,11 @@
     /* Bâtiments gtadb.org (CC BY 4.0) : 3 600 repères au mètre près avec leur équivalent réel, visibles en zoom rapproché */
     var gB = L.layerGroup(), rB = L.canvas({ padding: .4 }), bOk = false;
     function batis() {
-      var vis = mo.getZoom() >= ZB + 2.3;
+      var vis = mo.getZoom() >= ZB + 3.4;
       if (vis && !bOk) { bOk = true; fetch(R + "data/carte_gtadb.json").then(function (r) { return r.json(); }).then(function (G) {
         G.b.forEach(function (b) {
           var p = b[0].split(","), nom = p[0].trim() === "?" ? tr("cx_bat", "Bâtiment") : p[0].trim(), lieu = p.slice(1).join(",").trim();
-          L.circleMarker([b[1], b[2]], { renderer: rB, radius: 4, weight: 1.5, color: "#0b0812", fillColor: b[4] === "enterable" ? "#3ee08f" : "#f4efe6", fillOpacity: .9 })
+          L.circleMarker([b[1], b[2]], { renderer: rB, radius: 3.5, weight: 1, color: "#0b0812", fillColor: b[4] === "enterable" ? "#3ee08f" : "#f4efe6", fillOpacity: .9 })
             .bindPopup("<b>" + esc(nom) + "</b>" + (lieu ? "<br><small>" + esc(lieu) + "</small>" : "") + (b[3] ? "<br>" + esc(tr("cx_reel", "Dans la vraie vie")) + " : " + esc(b[3]) : "") + (b[4] === "enterable" ? "<br>" + esc(tr("cx_entrer", "On peut y entrer")) : "") + '<br><small style="opacity:.6">gtadb.org</small>', { className: "cx-pop" })
             .addTo(gB);
         });
