@@ -1,17 +1,21 @@
 {
- "maj": "2026-11-20T09:14:40+00:00",
+ "maj": "2026-11-20T09:35:10+00:00",
  "articles": [
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdGFEbmhkRXNZVDQ0eEo3NnBxTGY1ejZtOHk3am50RVhOZDB5Vm8zLWM5UG9jYzBlQUNnZFBaT2hzd0JnUUNvLWNGaDNlcjBROWRZend6ZWJaM1VwNWJWdnZXMlBkcjh3Sy1XSmc1b3UtLUVxUGUxbFZoYTBjWXFYeklpb01VTzVRRkxEM2x4QzhaZVRaWUF0dzRlenI1N1JMTS1jbVlIZk5nbHBNTFVoTUtsUlI0ZzJZd2haN3d2dVVqaExUQmdxdEJibw?oc=5",
+   "s": "IGN France",
+   "d": "2026-11-20T09:28:00+00:00",
+   "lang": "fr",
+   "t": "Ce PNJ de GTA 6 fait le buzz sur les réseaux – elle pourrait bien cacher un sombre secret",
+   "erreur": "HTTP Error 429: Too Many Requests"
+  },
   {
    "gn": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1xV3JoVjNmeG9FcnNXRFZCYzg5T1Q0cXFRWE1hdE5XcWNTNm5TVHF4T193R3hweHluLWRRXzZHSnl2R0VDeXlJd2ctMDdJTDFDajFORWFkb3pOcGcyTE5abm1abVBaVmVaaWxCT0NNcEMxdUJ1a001YQ?oc=5",
    "s": "Motor1.com France",
    "d": "2026-11-20T09:13:03+00:00",
    "lang": "fr",
    "t": "Les voitures de GTA 6 existent réellement, et l'une d'elles est à vendre",
-   "u": "https://fr.motor1.com/news/816184/grotti-cheetah-gta-6-ench%C3%A8res/",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": ""
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQd2FPT2x2dER5NWhsWkY3TDh1ZU1lamRpQ0JIRENmM0ludlhYeC1sdjVUR1V6OWRGanl4dXhGVThka2lFU2RkX0NTQXJQZG9oTURwTDI0R2RIdkc1LTB5WWdSTEotV1BXbkNjUUtSb3h3SDVvMDVodXZEdGk4Qy1rQ191MExwS3hDZ01oOEZEdm9NU3JpOGVRZUdBalBvb0ZpUTEtZ1NvVG9qQUVXVmZNdWp0WHYyVlNGSHJLVzdIWGlaM0oyMXc?oc=5",
@@ -25,6 +29,22 @@
    "txt": "This may be Cyberleek’s final major coup. The infamous leaker, who had previously released gameplay clips from GTA VI ahead of its launch, claims to have released a full version of the game currently in development.\nThis version, which appeared on Cyberleek’s website, is labeled XBOX BUILD 1.0.2.1 (NOV 2026). Thus, can therefore infer that this is the XBOX Series version from a few days before launch. No executable file is included in the data, which prevents the game from running. Cyberleek, however, is threatening to provide access to this executable soon if his crypto token reaches a certain value.\nThus, the leaker is likely hoping that the community will download this version and make it playable in the coming days. This scenario isn’t entirely unlikely, as this Xbox version is complete. It could then run on PC at over 30 FPS. It might also contain bugs, since this is a version that Rockstar was still working on.",
    "pub": "",
    "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ESjAwMjJ1SFNReXNkYklnSjRpaXV1ek53dDdHa3pHR0VWckF1RXVscnZEcDd5YmxmQ2RQSHRZZkd2MEVtY1ZhXzFoZXVoekxTYUtaemV6TFRSRVBmOGFYX2tpR2NTOWNUWEE?oc=5",
+   "s": "Creapills",
+   "d": "2026-11-20T09:04:12+00:00",
+   "lang": "fr",
+   "t": "Ce bracelet électronique vous oblige à rester chez vous pour… jouer à GTA VI",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPMmU1eDRsS0FVMlVNLXF3dzNaUWdaeFRkWDhzdUxyUWZnZXo2NEZYT09yVVRxQ1o3WFhodTJzNTI5VjU5eXN2bjBRWUtXU0lyaXlTMVkydHZZMVZYZ2xUbVpib2syU0dWZ2lDdkp4bU45enJyem5wMjR5alZwZ1VHakFXTTRnQkhqMl9nMmNiY2h2amNUczNGeExHWUpaZWE2NmFYd0NkTXY1ZXRzOGVzUzJaNTRDVS0zbWlNWDZmd2ptNUUwMW9lb0dmV2M5WmtyVno5S0hrVmlHSkZxRDlQb0JpMlR5ZDhJaHNKV1ozZmhTdkJ0SHpnUFgwbzJzYklweEFmbjk2Z0xuLWZHbFE?oc=5",
+   "s": "Frandroid",
+   "d": "2026-11-20T09:01:50+00:00",
+   "lang": "fr",
+   "t": "GTA 6 explose déjà tous les records : 99/100 sur Metacritic, 2,3 milliards de dollars de revenue, 125 millions d'heure de stream",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxORFJkOEJQREtQY2toMTJFbWh1SGtFMFRqVUxUODljcS1UaTVQZ3B5bWQxZ2EtWndEMFZZZmR0ZTdvZWxJVzVzY0lxMWdhNTBlVjFJLXY0eGxlMU0yVWRLZkdTQzlmVUV3cFdHRTFSVEdKSjVoNks1blZZWE8yQXNCNXBDcGQya0pCRTh3ZjhzaFE3VkJMTXUzNk9CVzFhc3hId3JSUjB1S0FNdUUtalR3czV1NmhtOTRIaVBmWjFyZTktN0ppLV9PeXRLQVJlVVV6Zk1xYjhfN3doeEdOR0YzQ3A1MA?oc=5",
@@ -93,11 +113,15 @@
    "d": "2026-11-20T07:52:00+00:00",
    "lang": "en",
    "t": "Texans jump on GTA 6 hype train with epic graphic after running over Colts",
-   "u": "https://sports.yahoo.com/articles/texans-jump-gta-6-hype-075254579.html",
-   "img": "https://s.yimg.com/lo/mysterio/api/be5cd33bf61e72258b7d7c6606b1f20d26b893dd36c9d967b4d1abee5edaea79/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fclutchpoints_articles_939%2F4ee554422d3b8b0a08d01c84c6fe6f5a.jpg_up.jpg",
-   "chapeau": "Just in case you are still stuck on Mario Kart, Grand Theft Auto (GTA) 6 was released on Thursday, bringing everything else to a standstill and testing the strength of romantic relationships. Of course, the Houston Texans called shotgun and rode the bandwagon. The Texans ran over the Indianapolis Colts , 26-3, at Reliant Stadium, winning for the […] The post Texans jump on GTA 6 hype train with epic graphic after running over Colts appeared first on ClutchPoints.",
-   "txt": "",
-   "pub": ""
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOcWdZS0g2WkZqeWp6eHZNMTVnUVRlcDVPS29zRzZOVXFMVktqZWNIY0hXNDJKZGx0Nms1ODlQM05kRmZ0NDFzeXh5Tk93bUVndkZlbkJmazhaSU92eC1BX3lfNFlrbk5tdlllUHQ2eTYtWlN0U3JBUnR2QTNjRGF4dHlZNGVtd3V2RGNEZm5zY1k4dTA?oc=5",
+   "s": "Numerama",
+   "d": "2026-11-20T07:24:19+00:00",
+   "lang": "fr",
+   "t": "Voici le guide officiel ultime de GTA 6",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQLWVVejRQZ0d2ZHY3dUVtdFF3OERpd1FRajBrSzJGZnd4Sk5pd1Rwc3ZsU0Y2RTVnbzh2c0tkSzNyTlVueWJGNjk4cGQxNndaQkFvMG9tMXAxOXFoM3RWNWxnUkYwLUdRWU5NSkhQbEhpRHR4X2RWazFJV1B1bzdCRlJsUzl2cTV5Q0c5anBMUlBNbzdERFJQRG5zU3F0cjJUajU0RWhXeVB0dkdqOFB2TXp1WXNZVHdxTW1lS0FTRzRNckFOaGJ2Qk9SaFhwMk1EbDNfY2k5RTU2T09QNTVHRzFVM1Nyemo1Yld2RkRR?oc=5",
@@ -129,23 +153,15 @@
    "d": "2026-11-20T07:14:00+00:00",
    "lang": "en",
    "t": "Kimi Antonelli Pre-Orders GTA 6 and Gets Dad to Bring the PlayStation",
-   "u": "https://sports.yahoo.com/articles/kimi-antonelli-pre-orders-gta-071436262.html",
-   "img": "https://s.yimg.com/lo/mysterio/api/e0cb86347af0ef3194fa95151b4e0ec714ca5a8e1f7214bd611233b30924421a/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ff1_chronicle_874%2F92c7538e105c96bf58937982aa8049e0.jpg",
-   "chapeau": "Newly crowned Formula 1 world champion Kimi Antonelli has shared his excitement over the release of GTA VI ahead of the Las Vegas GP this…",
-   "txt": "",
-   "pub": ""
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNEtTbjg5anVzT0w2UUZZM1lmTnJwNnBINlhURVdXNERZVUoycDRTaXNWeDRnQVdrcWQ0RUNQZ18zMHlpUEdRVTNTV19UUEZfaXA4OENGVTNaNDhFTExwNER6d0xEUmZ1bWVZN2pZZFFZNnhhWl9LQmgwMnRNVUNyNU5vX1hZQml3Vmd3?oc=5",
    "s": "Business Insider",
    "d": "2026-11-20T07:03:00+00:00",
    "lang": "en",
-   "t": "China isn't selling GTA 6, but gamers can't stop, won't stop buying it anyway",
-   "u": "https://www.businessinsider.com/china-selling-gta-6-gamers-buying-it-anyway-2026-11",
-   "img": "https://i.insider.com/6afefc6c0b69407d788a4559?width=1200&format=jpeg",
-   "chapeau": "Mainland Chinese players are expected to contribute about 3 to 5 million copies to Grand Theft Auto VI's first-week sales, one analyst said.",
-   "txt": "",
-   "pub": ""
+   "t": "China isn't selling GTA 6, but gamers can't stop, won't stop trying to get their hands on it",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNDhUR0RVTUZzVHR1ek04OGE1eGtjZjdxRG9raXdweWd3MHJjMGRoeFdKWjZ4TDlMYlVkU256XzZnOVFqbVFUOXpqeEJCWjA0dV9ObUJSQnhJMlkyMGY0bGptMEdoTDJjS2lUNzF1cWp4SS02NTBFdkE1Q0pOM3dScHJVZXZEM1VEWGlhOEtHSEN1dS03Ql9kYWtJdnNOVjlaNE12SjZTdWxNcDVBeWNXUlNaMm8zdU1obG5iUDB0MjZ0dUoxWWg0S1hvWE5SZURCVWc?oc=5",
@@ -197,16 +213,12 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQM2lUX1BNOTFRblZnMVRTbjFoWFZ1X2x5M2ZFQzhxX2FuV2NXMTJvQ3dHSWJsYTRHUEJ6Rl9CLUZ6YWl4OHZyODBYb0VXVE91Vl9sRS1yb1BCSkVhSWhuNlJJaFVNc001QUVTSWRiR1VOSXhtRzAxNjJGbm1vRVo1Z2ZhOEFieE91ZDQ2Vk1kNUFGRzhjYm9Nay1kblQyUkw2X1hhY0YzVWtMdXhRMEZBUmhhX3h4bmxxS1VsUWJ3MFl6dll0LXI1Q1hYdHNfYThVOWtz?oc=5",
-   "s": "01net.com",
-   "d": "2026-11-20T06:31:47+00:00",
-   "lang": "fr",
-   "t": "« Nous craignons d'être licenciés » : alors que GTA 6 cartonne, un employé de Rockstar lance un cri d'alerte",
-   "u": "https://www.01net.com/actualites/nous-craignons-detre-licencies-alors-que-gta-6-cartonne-un-employe-de-rockstar-lance-un-cri-dalerte.html",
-   "img": "https://www.01net.com/app/uploads/2026/08/GTA-6-1600x900.jpg",
-   "chapeau": "Alors que GTA 6 rencontre un succès colossal, certains salariés de Rockstar craignent une vague de licenciements. L’un d’entre eux a publié une lettre dans le journal The Guardian pour lancer un cri d’alerte. Il appelle notamment à la reconnaissance d’un syndicat.",
-   "txt": "Alors que GTA 6 rencontre un succès colossal, certains salariés de Rockstar craignent une vague de licenciements. L’un d’entre eux a publié une lettre dans le journal The Guardian pour lancer un cri d’alerte. Il appelle notamment à la reconnaissance d’un syndicat.\nGTA 6 vient de sortir : les critiques sont globalement dithyrambiques et les revenus générés par Rockstar s’annoncent gargantuesques. Dans le même temps, les employés des studios britanniques de Rockstar votent actuellement pour la reconnaissance d’un syndicat, sur fond de tensions avec leur direction et de craintes concernant leur avenir professionnel. Un salarié du studio a publié une lettre dans le Guardian pour expliquer la situation et lancer un cri d’alerte .\nÀ travers une lettre publiée dans le journal The Guardian, Nestor Uriarte, programmeur d’animation chez Rockstar North, a fait part de ses inquiétudes concernant le sort des employés du studio, alors que GTA 6 vient de sortir. Le titre de cette lettre va droit au but : « Nous avons créé GTA 6, le plus grand jeu vidéo au monde – nous devrions avoir des conditions de travail à la hauteur ».\nDans sa lettre, il explique : « Après cette journée mémorable [la sortie de GTA 6], rien ne laisse présager des licenciements, mais il est difficile de ne pas s’inquiéter pour l’avenir ». Il ajoute ensuite : « Le fait que même mes collègues et moi, qui travaillons sur le jeu le plus attendu de tous les temps, craignions d’être licenciés en dit long sur notre secteur. La vérité, c’est que les travailleurs de tout le secteur sont impuissants face à la vague de licenciements qui déferle sur nous, tant que nous ne nous serons pas organisés ».\nPar « organisés », Nestor Uriarte entend une syndicalisation des employés de Rockstar. Cette lettre ne sort pas de nulle part : les studios britanniques de Rockstar votent actuellement sur la reconnaissance d’un syndicat officiel pour leurs employés. En réalité, cela fait maintenant environ sept ans que les employés britanniques de Rockstar s’organisent pour obtenir une syndicalisation . En d’autres termes, il s’agit d’un véritable bras de fer entre Rockstar et ses employés.\nNestor Uriarte estime que « l’obtention de la reconnaissance syndicale constituerait un pas de géant vers une véritable influence sur nos conditions de travail chez Rockstar, mais sa portée irait bien au-delà ». Pour rappel, en octobre 2025, Rockstar avait licencié 31 employés syndiqués.\nDans sa lettre publiée dans le journal The Guardian, Nestor Uriarte rappelle que les studios du secteur du jeu vidéo ont drastiquement réduit leurs effectifs, avec environ 24 000 postes supprimés dans le monde ces deux dernières années. De son côté, Strauss Zelnick, PDG de Take-Two Interactive, maison mère de Rockstar, a expliqué que les phases de développement des prochains titres du studio pourraient être plus courtes grâce aux « évolutions récentes de la technologie ». Strauss Zelnick n’a pas précisé quelles étaient ces « évolutions technologiques », mais il est tout de même difficile de ne pas penser à l’intelligence artificielle.\nLorsque l’intelligence artificielle a atteint un certain degré de maturité, le développement de GTA 6 était déjà très avancé. Mais qu’en sera-t-il du prochain titre de Rockstar ? Le studio ne risque-t-il pas d’avoir recours à des outils d’IA pour créer des animations, modéliser des lieux ou encore générer des dialogues pour les PNJ, pour ne citer que ces quelques exemples ? C’est en partie la préoccupation de Nestor Uriarte.\n👉🏻 Suivez l’actualité tech en temps réel : ajoutez 01net à vos sources sur Google , et abonnez-vous à notre canal WhatsApp .\nJ’ai joué à GTA 6 sur ma vieille Xbox One grâce au cloud : voilà à quoi ça ressemble\nGTA 6 : ours déchaîné, tigre en liberté, avion qui s’écrase…les joueurs découvrent des scènes complètement folles\nGTA 6 : les réglages à changer tout de suite sur votre télé, votre PS5 ou votre Xbox\n« Pas assez puissante » : Rockstar explique pourquoi GTA 6 ne tournera jamais à 60 i/s sur PS5 Pro",
-   "pub": "2026-11-20T06:31:47+00:00"
+   "gn": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZzFJbndQa2dnZGVuWWZTYVhHTjZSTG5KZnlkNHpodEtUS2VOcVNLelN6LVFINEhrcXdmdmlUQVNGU3hUbGVOTGY4OFhrcmFkeDY0WG1aSjlnc3gzU0ZKYTZJcklydDQ4dVBZczlTWVhYclZhenRCRDFZUi1QUFd1a0N30gGHAUFVX3lxTE5nd1RuS192eTJvRTVYMVB0OWVrWFhWWkdrdDRSV2pyT3JiaHptWThHbHBWbEdHOHcxdVpkc0Y1aGp5Sy1ITG5Eb2Fpd193dmVTY2NuYXNRaUM2dzdkWHEtRE5DRnFRXzAtSE5EalRhRU9ZR284YkJaLWMxSzlMRHpEdFVBQ0JLVQ?oc=5",
+   "s": "CNBC",
+   "d": "2026-11-20T06:36:32+00:00",
+   "lang": "en",
+   "t": "‘More than just a game’: How GTA VI’s blockbuster launch fuels a booming content economy",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBRYXVUZmpPVHlzZHI1RkREalpQcHdmQzVOVGQ3dHZ6c0FNUU5VR3VrQlp2RnFGc2VYUjk0RGVfUjgxUDJ2MGNJMmdRYmx0cTZIRTdXSzRzZFlYelk?oc=5",
@@ -221,49 +233,13 @@
    "pub": ""
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPQU5VejQ2X3NUYUxXUUMwWkJCWGN3V2lqR0R0M0F2aFVYZllWa3BxandXR0dFRVhmNDZleU9KQVdGRVpseWswWW5ockl3VXRiV295WWN5X25HOXR5RnY3dVVCeEYyUVYyYjJkZVZvV0NIZklfbTJ1VDlfbHg3eGFmRXhWSQ?oc=5",
-   "s": "Blog-Moteur",
-   "d": "2026-11-20T06:29:44+00:00",
-   "lang": "fr",
-   "t": "Conduite dans GTA 6 : physique, vol de voitures, garages… ce que disent les premiers tests",
-   "u": "https://www.blog-moteur.com/60483/conduite-gta-6-tests-physique-voitures.html",
-   "img": "https://www.blog-moteur.com/wp-content/uploads/2026/11/gta-6-voitures-rassemblement-vice-city.jpg",
-   "chapeau": "Conduite dans GTA 6 : entre GTA IV et GTA V, comparée à Gran Turismo et Forza. Physique, vol de voitures, garages : ce que disent les tests.",
-   "txt": "GTA 6 est disponible depuis minuit, ce 19 novembre 2026, sur PS5 et Xbox Series X|S. Dans les tests publiés la veille, un point revient partout : la conduite. Les critiques décrivent un compromis entre le poids de GTA IV et la vivacité de GTA V, et Digital Foundry va jusqu’à comparer la simulation automobile à Gran Turismo et Forza.\nGTA IV (2008) proposait des voitures lourdes, qu’il fallait apprendre à faire glisser ; GTA V (2013), des autos légères mais jugées « flottantes ».\nSelon les tests, GTA 6 trouve un point d’équilibre. IGN, qui attribue un 10/10, parle de la meilleure conduite de la série et la rapproche davantage d’un GTA IV affiné que de GTA V, selon la compilation publiée par Traxion . TheGamer (5/5) la situe aussi entre les deux épisodes, avec plus d’attention portée au poids, à la physique et aux dégâts. Le site français ActuGaming (9,5/10) décrit une conduite un peu glissante, qui impose de doser la vitesse, de freiner et d’utiliser le frein à main dans les virages.\nLe test de Windows Central relève un détail de physique : la déformation du châssis après un choc modifie le comportement de la voiture.\n© Rockstar Games « Au niveau de Gran Turismo ou Forza » ? Ce que dit Digital Foundry La phrase la plus forte vient de John Linneman, de Digital Foundry, cité par Traxion : selon lui, la course et la simulation automobile de GTA 6 sont à bien des égards au niveau de jeux spécialisés comme Gran Turismo ou Forza. Il cite le tout-terrain sur surfaces déformables du Thrillbilly Mud Club, les courses de rue, les derbys de démolition et les circuits.\nÀ nuancer : les voitures de GTA 6 portent des noms fictifs et mélangent les traits de plusieurs modèles réels, note Digital Foundry. Pour juger de la vraie simulation, notre test de Forza Motorsport ou nos articles sur les compétitions de Gran Turismo 7 restent de meilleures références.\nGTA 6 change aussi le rapport à la voiture. D’après les tests de TheSixthAxis et d’Eurogamer, cités par Traxion :\nPour découvrir les vraies voitures qui inspirent celles du jeu, lisez notre article sur les six voitures de GTA 6 construites par West Coast Customs .\n© Rockstar Games Les bémols : motos, courses de rue et police Tout n’est pas parfait. IGN trouve la conduite des motos raide, avec une position trop droite, par rapport aux épisodes précédents. ActuGaming et The Guardian jugent les courses de rue frustrantes : routes étroites, trafic dense et adversaires qui se remettent vite des accidents. La police, elle, ne se contente plus de vous prendre en chasse : elle s’appuie sur les témoins, les véhicules abandonnés et votre apparence, loin des simples courses-poursuites d’un Need for Speed Hot Pursuit .\nAux deux : les tests décrivent plus de poids que dans GTA V et plus de réactivité que dans GTA IV.\nNon. Digital Foundry compare la physique à Gran Turismo et Forza, mais GTA 6 reste un jeu d’action, sans marques réelles.\nOui, en les faisant immatriculer et en les rangeant dans un garage.\nGTA 6 est sorti le 19 novembre 2026 sur PS5 et Xbox Series X|S, selon le site officiel de Rockstar Games . Aucune version PC n’est annoncée.\nCrédit photos : © Rockstar Games (galerie de lancement officielle de GTA VI).",
-   "pub": "2026-11-20T06:25:00+00:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPZmo0TlIxVWtHTkdTbkRUYmlwVlVjbWxzRFpjZ1g2d1A4Nlhkc0NhNUpDaFdCeFNzSlVoLVA2VDZZRzhwWXR1ZmdlYldkZmR0Y2xSY3FoRzRSNnowN1pXbmJDVmNnRHg3UTV3dWh3eDZORE9YdFZBZGt5UERHNG9TUnpaZjhmSUY2X2VhZS1tQVpNX1JiQ3dvUE44TU1NYkZueGQ3Y3FVdG5iQWh1dDNaaFZPeU5kbkhobV8taGZSWE1aUmtqZ0tIcDFEM1RfZGVvUXhjdjZZRWQ1QnhEaUxnYVNUcFpKYXVLdld1VEY0dnVIUQ?oc=5",
-   "s": "Gamekult",
-   "d": "2026-11-20T06:28:00+00:00",
-   "lang": "fr",
-   "t": "Nous voilà de retour en 1997 : GTA 6 cause à nouveau une panique morale dans le monde entier (et surtout aux USA)",
-   "u": "https://www.gamekult.com/actualite/nous-voila-de-retour-en-1997-gta-6-cause-a-nouveau-une-panique-morale-dans-le-monde-entier-et-surtout-aux-usa-3050873083.html",
-   "img": "https://cdn.gamekult.com/optim/images/news/30/3050873083/nous-voila-de-retour-en-1997-gta-6-cause-a-nouveau-une-panique-morale-dans-le-monde-entier-et-surtout-aux-usa-6604fdd5__w1920.jpg",
-   "chapeau": "Temps anciens",
-   "txt": "Voilà le genre d'information qui nous rappelle que les choses ne changent jamais vraiment, et vous savez quoi ? On y voit quelque chose d'assez réconfortant. GTA 6 tout juste sorti un peu partout dans le monde, les médias \"traditionnels\" s'affolent un peu partout, et certains politiciens y voient une occasion en or de faire valoir leur supériorité morale, comme il y a 30 ans. Et à l'heure où le monde semble évoluer un peu trop vite sur beaucoup trop de domaines, savoir que, sur certains aspects, les choses ne changent pas, ça fait du bien aussi (même si évidemment, vous ne manquerez pas de bien rire un coup avec tout ce qui arrive dans cette news).\nNous pourrions vous parler du traitement des grands médias quant à la sortie de GTA 6 , notamment de la horde d'éditorialistes ébahis et effrayés à l'idée qu'une frange (tout de même non négligeable) de la population accueillle cette sortie comme un événement, mais l'histoire qui nous intéresse aujourd'hui nous ramène plus à la fin des années 80, alors que se tenait le procès du heavy metal (ou plus précisément de Judas Priest) face à l'amérique puritaine de l'époque. Et bien entendu, nous y voyons également un écho à toutes les histoires liées à la sortie des premiers GTA à la fin des années 90, par une frange similaire de conservateurs bien échaudés par la perspective de voir leurs enfants tenir un flingue dans les mains (même si c'est virtuellement).\nPetit tour aux USA donc, où le représentant républicain Tim Burchett du Tennessee, a décidé de s'élever contre le jeu face à des journalistes. Il accuse ainsi GTA 6 d'être un \" jeu vidéo pratique \" pour commettre des crimes, et reprend l'affirmation (évidemment non étayée par une quelconque étude ou source idoine) selon laquelle la violence des jeux vidéo mènerait à une violence réelle : \" cela désensibilise les enfants. Ils ont fait étude après étude. Les parents doivent commencer à élever leurs enfants \". Notez l'applomb avec lequel il affirme \" ils ont fait étude après étude \", évidemment sans jamais en citer une seule. L'homme, en pleine lancée, aurait eu bien tort de s'arrêter là : interrogé pour savoir si laisser ses enfants jouer à GTA VI fait de quelqu’un un \" mauvais parent \", Burchett répond \" je le crois \". Et là, il faut savoir de quoi on parle : s'agit-il d'un enfant de moins de 10 ans par exemple, ou d'un adolescent qui va sur ses 18 ? Parce qu'évidemment, en fonction de la réponse, nous pourrions être d'accord avec le monsieur, ou pas du tout.\n😬 Tim Burchett is not a fan of GTA VI. He tells @jacob_wass that parents who let their kids play the game need to raise their children “better.” pic.twitter.com/RA1a0L882Y\nAlors nous voilà de retour au début des années 2000 : rappelez-vous l'avocat Jack Thompson, aujourd'hui radié du barreau, qui avait mené campagne contre la violence et le contenu sexuel des jeux, en visant tout particulièrement la série GTA . Heureusement, un peu partout dans le monde et les temps aidant, cette ligne quelque peu suicidaire s'est largement ostracisée, et les puritains qui en font leur cheval de bataille se font de plus en plus rares. De fait, même si ce genre de déclarations nous ramène à des temps plus anciens, certains éléments nous permettent tout de même de constater une grande différence avec antan : les puritains d'aujourd'hui jouent à GTA 6 . Aux USA, c'est le jeune ultra-conservateur Nick Fuentes qui a joué à GTA 6 au cours d'un live dédié, tandis qu'en France, un certain Jordan Bardella a affirmé à la télévision \" attendre ce nouvel opus depuis 13 ans \". D'autres comme Eric Zemmour ou Gabriel Attal ont décidé de profiter de la tendance à gros coups d'images et de visuels générés par IA sur leurs réseaux sociaux, parce que l'opportunisme est souvent le voisin du ridicule. Comme quoi, les temps changent, mais pas trop non plus...\nTake Two Interactive 526 jeux Rockstar North 95 jeux Le jeu en rapport Grand Theft Auto VI Rockstar North",
-   "pub": "2026-11-20T07:28:00+01:00"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNHROekpLcVdTVjRqUlhDTmZocXY2SGlUbTF5Vm9YQk9NSXA1LWtrX3V6QS13WnFIaWZLeU5USlBjVk9keGJ5cWNyM1lTQlZKZEJLMmtCdmxOWWtWZXNFVFJ1Q1hybkI5XzBEa1dDTy1xc3dxeVlDUTBnekpFWnYxeUdNYmNKRnk5bS1XQ0RidFp0bVg5elBmbVNUUnRxN2lHSGZFUWFKVTMtbEJ0czZXa0F0NDZuWlp4WWc?oc=5",
    "s": "Nacionale",
    "d": "2026-11-20T05:51:12+00:00",
    "lang": "en",
    "t": "Is it illegal to download the GTA 6 leak? Yes, and a torrent shares it while you download",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdW5CNEV2dG5UX3ZsSmNSWHpDazRpLWstOFl4b1RMY3pzTUluRllLQWdIZkYxNWpZaE9MdlQwY1M0cHRQM3JEN2Q3S0dxVFh6UWRCd1N0YlRObFhkYjRwZEpCSUoxX0lkZnRoZjhqX0VZNGlnYmdOMjRkUUpHQ2U1aWh6NTA3aEVhVl9uZ0REUy05QWc5V0wySTJfWGU1SE8zZTNaQTNWeXN2UXk0M2dFUE14d19Pck1GdVI2UA?oc=5",
-   "s": "La Croix",
-   "d": "2026-11-20T05:45:17+00:00",
-   "lang": "fr",
-   "t": "Prêtre et gamer, « incarner un braqueur dans GTA 6 ne fait pas de moi un délinquant »",
-   "u": "https://www.la-croix.com/a-vif/pretre-et-gamer-incarner-un-braqueur-dans-gta-6-ne-fait-pas-de-moi-un-delinquant-20261119",
-   "img": "https://i.la-croix.com/1400x933/5x5/2026/11/19/2593984-publicite-geante-pour-le-jeu-gta-vi-a-paris-qui-so.jpg",
-   "chapeau": "À l’occasion de la sortie de GTA VI, le père Clément Barré propose une réflexion inattendue sur la foi, les jeux vidéo et la liberté. Avec un aveu à la clé.",
-   "txt": "La sortie du jeu vidéo G rand Theft Auto VI, ou GTA VI, est un événement mondial. Le précédent opus de la licence culte où le joueur incarne des malfrats dans une ville fictive, entre courses-poursuites et braquages, s’est écoulé à plus de 230 millions d’exemplaires. Et le marché mondial du jeu vidéo a dépassé les 200 milliards de dollars en 2025. Excusez du peu.\nCe texte est signé par un auteur invité . Il exprime son opinion et non celle de la rédaction. Notre rubrique À vif a pour but de permettre l’expression du pluralisme sur des sujets religieux, de société et d’actualité, et de favoriser le dialogue, selon les critères fixés par notre charte éditoriale . Partagez votre opinion en commentaire ou en nous écrivant à : lecteurs.lacroix@groupebayard.com",
-   "pub": "2026-11-20T06:45:17+01:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1IanhESkJPU2JUZ2FVeV9oaDU4M0pWWXRkZXlWSTVnYWdPcV9FczhoXzcyU3J0dnZEMHNCSzNicHZ5SUk0ODhRbVNUWlNDNGw1QkVPOUxLUVYtUVo4M0w3b1FLS3k5LXlaTmNfbXJoR0VVU1lYamc?oc=5",
@@ -308,7 +284,7 @@
    "d": "2026-11-20T04:39:00+00:00",
    "lang": "en",
    "t": "Is the GTA 6 leak safe to download? Fake builds and launchers have carried password-stealing malware",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -337,21 +313,12 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTjV6YzJ3blFyV1Z5N21JOFN2a1ZkY0JQY3lyLW5RbXRLdGNoZlVJOTJqS2JGYVdyUFZoZlF6WUoza05zejIwdUVuUUpfUDZ4TWFtbUN5VUNPMEFwQkZ2MTZLM1BmeXFzZTRiaWpGZ0hSM2JOLWxSUGc2VDU2Qm14MjBmQ01fSTByM1lxTzFtLTZxaTRKa1E?oc=5",
-   "s": "Pasquale Pillitteri",
-   "d": "2026-11-20T03:58:42+00:00",
-   "lang": "fr",
-   "t": "La carte de GTA 6 arrive gratuite à imprimer, mais pas dans la boîte",
-   "erreur": "Remote end closed connection without response",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRkdMMnNpaU9fTXpjaVBISGRUalZ0YjREZ1F5ZC1BVHpRTWkySHdQVEdXTXA1dGloY01Xa09IX21XQ05MM0xzRHBpWnl2Zm5iYnRwUUUxNHFEOFhmZl9jQndzUXJncXZpa283bTZ3eHBObGFpd2YwMnJJTlVQeUk5bHNpVkxnYXA1T1VydWZNbVh3M3dlMmZDTjB1SWNqMHZQbXZla3Mwa29zOUgtZGc0?oc=5",
    "s": "GameGPU",
    "d": "2026-11-20T03:44:08+00:00",
    "lang": "fr",
    "t": "Le groupe de hackers CyberLeek a diffusé une version torrent de GTA 6 pour Xbox.",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -360,7 +327,7 @@
    "d": "2026-11-20T03:44:08+00:00",
    "lang": "en",
    "t": "The hacker group CyberLeek has released a torrent build of GTA 6 for Xbox.",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -394,7 +361,7 @@
    "d": "2026-11-20T02:30:42+00:00",
    "lang": "en",
    "t": "Did Cyberleek leak GTA 6? It claims a 209GB Xbox build is out, but it can't run and nobody has verified it",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -509,28 +476,12 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMickFVX3lxTE00QjFXVndaRWtnY29hZFZ0ZWZ2M1FlNnlscHFjd3JYaEtNal9CMHZEYjJnbFFPUlc0R1V5QWp3TXNSVk5KV21ERU5sU21UZmxyVFN4UE9lUWpqd3A1TGZ0OHZ4WXJKeW9rY1pQS0FnSkpnQQ?oc=5",
-   "s": "BGR",
-   "d": "2026-11-19T23:34:19+00:00",
-   "lang": "en",
-   "t": "3 Common Problems With GTA 6 On PS5 (And How To Fix Them) - BGR",
-   "u": "https://www.bgr.com/2322567/common-problems-gta-6-playstation-5/",
-   "img": "https://www.bgr.com/img/gallery/3-common-problems-with-gta-6-on-ps5-and-how-to-fix-them/l-intro-1795130355.jpg",
-   "chapeau": "Some gamers say they've been able to resolve some frame rate issues by lowering motion blur, and using the PS5's setting to clear cache.",
-   "txt": "SolidMaks/Shutterstock Add BGR on Google: Preferred Source Google Discover Imagine you're just starting your journey through Leonida in \"Grant Theft Auto 6.\" But as you are making your way through the urban city across the state, your game crashes. It's not a fun state to be in, especially after you've spent time downloading and updating the game. While plenty of reviewers discuss consistent performance on the PlayStation 5 Pro, the base PlayStation 5 isn't always as smooth as one would hope. But the PlayStation 5 Pro is very expensive – you can pay over $1200 for a used one at your local GameStop – and hard to justify upgrading for one game.\nThankfully, the base PlayStation 5 is enough, even if the game sometimes dips below 30 FPS during heavy action. Rockstar has done a lot of work to get their game optimized on the PlayStation 5 and Xbox Series X/S. Though if your base PlayStation 5 is struggling to keep up, it can kill the enjoyment of the game. Sadly, a simple reset/uninstall can't fix it either. But eager users and reviewers have found a few fixes/optimizations that can help get your fictional crime spree back on track.\nRockstar While Rockstar wanted players to focus more on a more cinematic experience with \"Grand Theft Auto 6,\" frame stability is important. You don't want those 30 FPS to dip too low and too often during intense shootouts or while you're outrunning police cruisers. Unfortunately, that can happen on the base PlayStation 5. Reddit poster Junttiana suggested a fix that has helped players smooth out some unwanted stuttering by noting that clearing the cache and turning off High-Bandwidth Digital Content Protection (HDCP), both of which some gamers believe may be contributing to framerate issues.\nClearing the PlayStation 5 cache requires you to boot your console into Safe Mode, which you access by holding down the PS button until you hear a second beep, then connecting the gamepad through USB, and pressing the button again. From there, you should see some options; choose \"Clear Cache and Rebuild Database\" > \"Clear System Software Cache.\" Once you leave Safe Mode , go to your system settings, then select \"HDMI,\" where you should see a toggle that lets you disable HDCP. Turn it off, then quickly restart your PlayStation 5. These fixes should help with general stability, but remember, you'll likely still see some dips because the game is relatively new and the base PlayStation 5 is being pushed to the limit.\nRockstar Unfortunately, one big hit that base PlayStation 5 players take is the high blur effect while playing. Digital Foundry has done some digging with regards to image clarity and blurriness, but it's not good news for base PlayStation 5 players. According to them, PSSR can potentially fix the blurring issues — the bad news is that it is a PlayStation 5 Pro feature.\nAt the very least, if you don't have the premium console, you can partially mitigate it by lowering the motion blur strength or turning it off completely, in the game's settings menu. It's recommended to reduce it first to see if that's bearable, since setting it to zero can make the camera panning more jittery. Motion blur helps blend frames so everything feels less choppy to play. To turn down motion blur, you have to do this in-game: go to your settings, then navigate to \"Display\" and select \"Motion Blur Strength\" beneath it. Moving the slider left lowers it, while moving it right makes it stronger. In a recent Reddit post discussing motion blur, some users agreed with Digital Foundry's findings: turning up motion blur while playing on an OLED can be a better experience than lowering it. But for non-OLEDs, you might want to try lowering it.\nRockstar The other issue Digital Foundry cited with the base PlayStation 5 while playing \"Grand Theft Auto 6\" is its overall soft look compared to the PlayStation 5 Pro. That's mainly because it doesn't use PSSR and instead relies on 1440p rendering with spatial upscaling and heavy temporal anti-aliasing (TAA). If lowering the motion blur strength doesn't help, you might need to adjust brightness and recalibrate HDR, which you can do directly on your PlayStation 5 via \"Settings\" > \"Screen and Video.\" From there, select \"Video Output\" and choose \"Adjust HDR\" (it must already be on). You can also do it in-game under \"Settings\" > \"Display\" by selecting \"HDR Calibration\" after you toggle it on.\nIt's also worth triple-checking that you're using your TV's Game Mode, if it's supported, since it can r",
-   "pub": "2026-11-19T23:34:19+00:00"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5mQlZ2VFh5TlpMSzlJRjNKNVF0MjYybXRYS2VFLTROcjFUTFJQSVd6YmNDemxacnYyeldCeXgzNkE0WHpualUtYW5BTlhCN29uREJlMzkwb2VMdFU?oc=5",
    "s": "Gamekyo.com",
    "d": "2026-11-19T23:25:00+00:00",
    "lang": "fr",
-   "t": "Gamekyo : Blog : GTA 6 : Cyberleek sortira une ver XBOX datant de novembre 2026",
-   "u": "https://www.gamekyo.com/blog_article489067.html",
-   "img": "http://www.gamekyo.com/Webmasters/Images/grand-theft-auto-vi_20220730_060731_intro.jpg",
-   "chapeau": "Blog : GTA 6 : Cyberleek sortira une ver XBOX datant de novembre 2026 : Gamekyo is a social video game magazine for the Wii, Nintendo DS, PlayStation 2, PlayStation 3, PSP, Xbox 360 and PC. Blog : GTA 6 : Cyberleek sortira une ver XBOX datant de novembre 2026",
-   "txt": "",
-   "pub": "",
+   "t": "GTA 6 : Cyberleek sortira une ver XBOX datant de novembre 2026",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -591,7 +542,7 @@
    "d": "2026-11-19T21:38:00+00:00",
    "lang": "en",
    "t": "GTA 6 Xbox build reportedly leaked by Cyberleek, but it's not playable, yet",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -704,7 +655,7 @@
    "d": "2026-11-19T18:46:24+00:00",
    "lang": "en",
    "t": "The GTA VI Leak Cost Rockstar $5 Million. For Most Studios, That Wouldn't Be the Biggest Loss",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -726,7 +677,16 @@
    "d": "2026-11-19T09:10:26+00:00",
    "lang": "fr",
    "t": "GTA 6 débarque sans replay des missions, il faut passer par les sauvegardes",
-   "erreur": "Remote end closed connection without response",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1CcTZSWERJX3FiWkdrbjRadGFISnY0RE1QNlc3aWRwMlp2a3VKVC04bWxoRi0xOFNWOXpDc2NHUVhKc0dJZTJMdmpCN3pqNkd5NE1mMUw1Zw?oc=5",
+   "s": "CoinGecko",
+   "d": "2026-11-19T06:24:25+00:00",
+   "lang": "fr",
+   "t": "Cours CyberLeek (CYBERLEEK/USD): Graphique & Actualités",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -782,19 +742,6 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdVM3MFBmWGt2blNzUlpjYjRZZjhzbUJLSHJva2ZWRXlrVWZsd0I1YzE2YTZmYTRsZE1adV9uUmVwQmNkdnhYVk5VbGp1V1pSeFRXVWNEMGlUOTNOYzA2SV9hUzBNZlZLdllDZUxhOTFPRVVWUk96NXY2R3BKTWhIc2tOTmVjM1lMOE45V1AyRmp2SjQxNEZZ?oc=5",
-   "s": "NeoTeo",
-   "d": "2026-11-18T02:51:35+00:00",
-   "lang": "fr",
-   "t": "Arion Kurtaj a plaidé coupable dans l’affaire GTA VI | NeoTeo",
-   "u": "https://www.neoteo.com/fr/arion-kurtaj-a-plaide-coupable-dans-laffaire-de-la-fuite-de-gta-vi",
-   "img": "https://www.nitroindex.com/opengraph/www.neoteo.com/og.png?url=https%3A%2F%2Fwww.neoteo.com%2Ffr%2Farion-kurtaj-a-plaide-coupable-dans-laffaire-de-la-fuite-de-gta-vi",
-   "chapeau": "Arion Kurtaj a plaidé coupable le 16 novembre 2026. Le CPS énumère six chefs liés aux attaques contre Rockstar Games et…",
-   "txt": "Arion Kurtaj a plaidé coupable le 16 novembre 2026 à la Woolwich Crown Court.\nLe CPS énumère six chefs liés aux attaques contre Rockstar Games, BT/EE, Revolut et Uber.\nLa liste comprend trois chefs d’atteinte au fonctionnement d’un ordinateur, un de fraude, un d’accès non autorisé et un lié à la détention d’un téléphone en prison.\nLa procédure de 2023 portait sur les actes commis, et non sur l’intention criminelle.\nArion Kurtaj a plaidé coupable le 16 novembre 2026. Le CPS énumère six chefs liés aux attaques contre Rockstar Games et trois autres organisations.\nLe 16 novembre 2026, Arion Kurtaj a plaidé coupable devant la Woolwich Crown Court pour des infractions liées à des attaques contre Rockstar Games, BT/EE, Revolut et Uber, a annoncé le Crown Prosecution Service (CPS), le ministère public d’Angleterre et du pays de Galles. Le CPS a fixé l’audience de détermination de la peine au 23 novembre 2026. L’affaire concerne notamment l’intrusion chez Rockstar Games associée à la fuite de séquences de Grand Theft Auto VI en 2022. ( CPS )\nLe CPS situe cette dernière infraction en mars 2026. Les quatre catégories totalisent six chefs : trois, un, un et un. ( CPS )\nDans le volet lié à Rockstar Games, le CPS indique que 90 vidéos de gameplay de Grand Theft Auto VI ont été dérobées puis diffusées sous le pseudonyme TeaPotUberHacker. Il rapporte aussi une menace de divulguer le code source du jeu. ( CPS )\nEn juillet 2023, un jury avait conclu qu’Arion Kurtaj avait commis les actes reprochés, mais il n’avait pas été chargé de déterminer son intention criminelle, selon la BBC . Cette procédure, appelée « procès sur les faits », portait donc sur les actes eux-mêmes. Le plaidoyer de culpabilité annoncé par le CPS le 16 novembre 2026 constitue une étape distincte dans l’affaire.\nL’audience de détermination de la peine était prévue à la Woolwich Crown Court le 23 novembre 2026, selon le CPS.\nLe comité américain sur la Chine demande un briefing à Microsoft sur ByteDance Le 18 novembre 2026, le comité américain sur la Chine a demandé à Microsoft un briefing sur les discussions rapportées a…",
-   "pub": "2026-11-18T02:49:43+00:00",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWUFLWFhUc010OEs3aThlYVNieGtDQm12YWllZVFvZGtDWF9qOU84b1N2NmFiUHcwbkJSbG9Na0gxVm1FVTcxV3Jza1FFRmpmeDcwdnE0NTJ4X3BjckZvWjFWRG5HZ0RvTnVvU0ZUSFlKbkxNVXdKbFY4Mm1EbklPOGhhTUlaVWNnR3FwcGpmcjNHNm5XVlRUVHFSVWk?oc=5",
    "s": "Journal du Geek",
    "d": "2026-11-17T16:33:37+00:00",
@@ -821,12 +768,21 @@
    "cyberleek": true
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMidkFVX3lxTE16MmtFYmpsdV9seHllM2VQQ2ZIZjJzNGJwZkYyMVRyMFliMkNtOVZGYkYwcUoySlNjUlZWVkJyYjd0YmdneUhvbF9UWkNLdWprZ3FURzk2UVpsR3hhbXdmWlJDOGZvT3JLeGEwTWhsS3NveU5CWmc?oc=5",
+   "s": "Ayther",
+   "d": "2026-11-17T13:00:13+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : Qui est Arion Kurtaj, le hacker de la fuite ?",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOeDJ1X2dZNDBfRGYxRmJZM05xSlotV3NzRkFHVk1SM1BpZlFvSUpoU2wwOWtVODBIRjcxa0swc25ON3pwOXBkX3puVlNxTl80NWI5TXpNQWhmN0VfLTctZUlMME1VdlBfaXZOZVNRQXBXdVpRUHF0SjN5QnRuNmpRMVA1LTgyd3N4TWVF?oc=5",
    "s": "Pasquale Pillitteri",
    "d": "2026-11-17T12:38:48+00:00",
    "lang": "fr",
    "t": "Le hacker du leak GTA 6 plaide coupable à trois jours de la sortie",
-   "erreur": "Remote end closed connection without response",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
