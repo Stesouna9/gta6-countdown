@@ -816,6 +816,51 @@ for l in T:
         URLS.append((fu, l, "0.8"))
 print(f"bible: {len(BIB)} fiches × {len(T)} langues")
 
+# ------------------------------------------------------------------ 4b2. soluce : une page par mission (20/11/2026, Gabriel)
+try:
+    _G6 = json.load(open("data/soluce/gta6.json", encoding="utf-8"))
+    def _mk(t): return re.sub(r"[^a-zA-Z0-9]", "_", t).lower()
+    def _ms(c, m): return f'{c["n"]}-' + re.sub(r"-+", "-", re.sub(r"[^a-z0-9]+", "-", m["t"].lower())).strip("-")
+    _ML = [(c, m) for c in _G6.get("chapitres", []) for m in c["missions"] if (m.get("w") or {}).get("fr")]
+    def _mu(l, sl=None): return f"{BASE}{'' if l == 'fr' else l + '/'}" + (f"mission/{sl}.html" if sl else "missions.html")
+    for l in T:
+        px = "" if l == "fr" else l + "/"
+        for i, (c, m) in enumerate(_ML):
+            w = m["w"]; bk = f'mw_{c["n"]}_{_mk(m["t"])}'; sl = _ms(c, m); fu = _mu(l, sl)
+            ch = tr(l, "sl_prologue") if c["n"] == 0 else f'{tr(l, "sl_chap")} {c["n"]}'
+            et = "".join(f'<li>{e(tr(l, f"{bk}_{j}"))}</li>' for j in range(len(w["fr"])))
+            ex = ""
+            for suf, lab in (("a", "sl_w_astuce"), ("c", "sl_w_choix"), ("r", "sl_w_recomp")):
+                if w.get(suf + "f") or (suf == "r" and w.get("r")): ex += f'<p class="ms-w-x"><b>{e(tr(l, lab))}</b> : {e(tr(l, f"{bk}_{suf}"))}</p>'
+            if w.get("statut") == "partiel": ex += f'<p class="ms-w-x ko">{e(tr(l, "sl_w_partiel"))}</p>'
+            tags = []
+            if m.get("opt"): tags.append(tr(l, "sl_optionnelles"))
+            if m.get("manquable"): tags.append(tr(l, "sl_manquable"))
+            nav = ""
+            if i > 0: nav += f'<a href="mission/{_ms(*_ML[i-1])}.html">← {e(_ML[i-1][1]["t"])}</a>'
+            nav += f'<a href="missions.html">{e(tr(l, "sl_w_toutes"))}</a>'
+            if i + 1 < len(_ML): nav += f'<a href="mission/{_ms(*_ML[i+1])}.html">{e(_ML[i+1][1]["t"])} →</a>'
+            srcs = " · ".join(f'<a href="{e(u)}" target="_blank" rel="noopener nofollow">{e(u.split("/")[2].replace("www.", ""))}</a>' for u in w.get("sources", []))
+            titre = f'{m["t"]} : {tr(l, "sl_w_titre")}'
+            desc = f'GTA 6 · {ch} · {m["t"]} : ' + tr(l, f"{bk}_0")
+            body = f"""
+  <style>.ms-page{{max-width:820px}}.ms-pg-et{{display:grid;gap:10px;padding-inline-start:1.4em;font-size:1.05em;line-height:1.55}}.ms-w-x b{{color:#ffd23f}}.ms-w-x.ko{{opacity:.7;font-style:italic}}.ms-pg-nav{{display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between;margin:28px 0 10px}}.ms-pg-nav a{{padding:8px 14px;border:1px solid rgba(255,46,136,.4);border-radius:999px;text-decoration:none}}.ms-pg-carte{{margin:20px 0}}</style>
+  <header class="tete-page"><div class="wrap"><span class="kicker"><a href="guide.html">{e(tr(l, "sl_w_k"))}</a> · <a href="missions.html">{e(tr(l, "sl_t_ms"))}</a> · {e(ch)}</span><h1>{e(m["t"])}</h1><p class="chapo">{e(ch)}{" · " + " · ".join(e(x) for x in tags) if tags else ""}</p></div></header>
+  <section><div class="wrap ms-page">
+    <h2>{e(tr(l, "sl_w_titre"))}</h2><ol class="ms-pg-et">{et}</ol>{ex}
+    <p class="ms-pg-carte"><a class="bouton" href="carte.html">{e(tr(l, "sl_w_carte"))}</a></p>
+    <p class="ct-etat">{e(tr(l, "sl_sources_t"))} : {srcs}</p>
+    <nav class="ms-pg-nav">{nav}</nav>
+  </div></section>
+"""
+            ld = [{"@context": "https://schema.org", "@type": "HowTo", "name": f'GTA 6 : {m["t"]}', "inLanguage": LOC.get(l, l), "url": fu,
+                   "step": [{"@type": "HowToStep", "position": j + 1, "text": tr(l, f"{bk}_{j}")} for j in range(len(w["fr"]))]},
+                  {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "GTAVIFRANCE", "item": BASE + px}, {"@type": "ListItem", "position": 2, "name": tr(l, "sl_t_ms"), "item": _mu(l)}, {"@type": "ListItem", "position": 3, "name": m["t"], "item": fu}]}]
+            write(px + f"mission/{sl}.html", page(l, fu, f'GTA 6 {titre}', desc[:300], body, ld, page_shell="actus", alts={x: _mu(x, sl) for x in T}))
+            URLS.append((fu, l, "0.7"))
+    print(f"missions: {len(_ML)} pages × {len(T)} langues")
+except Exception as _ex: print("missions pages:", _ex)
+
 # ------------------------------------------------------------------ 4c. flash : derniers articles pour la barre Suivre
 try:
     _fl = [{"id": a["id"], "date": a.get("date", ""), "t": {l: a[art_lang(a, l)]["t"] for l in T}} for a in ARTS[:5]]
