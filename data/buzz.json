@@ -1,8 +1,27 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-20T14:13:00+01:00",
+  "updated_at": "2026-11-20T16:12:39+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-rockstar-album-disponible-2026-11-20",
+      "title": "GTA 6 : l'album du jeu est disponible en streaming, vinyle et CD",
+      "summary": "Selon le compte officiel @RockstarGames, l'album de GTA 6 est désormais disponible sur les grandes plateformes de streaming, ainsi qu'en vinyle et en CD chez certains revendeurs. Le post renvoie vers un lien de streaming et vers la boutique de l'album.",
+      "url": "https://x.com/RockstarGames/status/2123778388296888354",
+      "platform": "X",
+      "author": "@RockstarGames",
+      "status": "Officiel",
+      "published_at": "2026-11-20T14:00:00.000Z",
+      "checked_at": "2026-11-20T16:12:39+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json : 340 976 vues (@RockstarGames, relevé 20/11 16 h Paris), 16 667 j'aime, 1 958 republications. Publication du compte officiel, vérifiée dans le relevé X.",
+      "visual": "Album GTA 6",
+      "image": "https://pbs.twimg.com/media/HXkkQPCWUAA1fKe?format=jpg&name=small",
+      "image_alt": "Publication officielle de Rockstar Games annonçant la disponibilité de l'album de GTA 6",
+      "image_credit": "@RockstarGames sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "GRAND THEFT AUTO VI: THE ALBUM NOW AVAILABLE"
+    },
     {
       "id": "x-florida-joker-population-credits-gta6-2026-11-20",
       "title": "GTA 6 : Florida Joker aurait été engagé par Rockstar et figure dans les crédits, selon @GTAVI_Countdown",
@@ -5776,6 +5795,11 @@
       "at": "2026-11-20T14:13:00+01:00",
       "label": "Passage Claude Haiku (Matière X, 20/11 14 h)",
       "summary": "1 sujet ajouté depuis x_alertes.json : Florida Joker intégré à GTA 6 et aux crédits (@GTAVI_Countdown, 39 528 vues, Rumeur). Écartés : Cyberleek Xbox build (31 992 vues, un compte ; image du post non reprise pour ne pas montrer un contenu fuité), « how it started » (comparatif déjà couvert le 19/11), Kraken, UFO, glitch première personne (sous 20 000 vues), Lexie Shoaibi, Playboi Carti, Metacritic 99, Sensor Tower (déjà couverts), RockstarNewsFRA (790 vues), GTA6France1 (32 vues)."
+    },
+    {
+      "at": "2026-11-20T16:12:39+01:00",
+      "label": "Passage Claude Haiku (Matière X, 20/11 16 h)",
+      "summary": "1 sujet ajouté depuis x_alertes.json : l'album GTA 6 disponible, post officiel de @RockstarGames (340 976 vues, Officiel). Écartés : Cyberleek build Xbox (41 835 vues, un compte, build fuitée : image non reprise), Weeknd (11 566 vues), KFC Espagne (9 069), Kraken (16 063, un compte), UFO (12 765, un compte), Sensor Tower 24,5 M (déjà couvert), glitch première personne (19 282, sujet déjà couvert)."
     }
   ],
   "coverage": {
