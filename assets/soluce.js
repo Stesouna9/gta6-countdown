@@ -101,6 +101,22 @@
     L.tileLayer(R + "tuiles/leonida/{z}/{z},{y},{x}.jpg", { zoomOffset: RT ? -1 : -2, minNativeZoom: RT ? 1 : 2, maxNativeZoom: RT ? 7 : 8, tileSize: RT ? 128 : 256, bounds: [[-81, -156], [3140, 2402]], keepBuffer: 3, updateWhenZooming: false, className: "cx-tuiles" }).addTo(mo);
     var TERRE = [[248.9, 277.9], [2754.0, 2083.0]];
     var ZB = 0;
+    /* Bâtiments gtadb.org (CC BY 4.0) : 3 600 repères au mètre près avec leur équivalent réel, visibles en zoom rapproché */
+    var gB = L.layerGroup(), rB = L.canvas({ padding: .4 }), bOk = false;
+    function batis() {
+      var vis = mo.getZoom() >= ZB + 2.3;
+      if (vis && !bOk) { bOk = true; fetch(R + "data/carte_gtadb.json").then(function (r) { return r.json(); }).then(function (G) {
+        G.b.forEach(function (b) {
+          var p = b[0].split(","), nom = p[0].trim() === "?" ? tr("cx_bat", "Bâtiment") : p[0].trim(), lieu = p.slice(1).join(",").trim();
+          L.circleMarker([b[1], b[2]], { renderer: rB, radius: 4, weight: 1.5, color: "#0b0812", fillColor: b[4] === "enterable" ? "#3ee08f" : "#f4efe6", fillOpacity: .9 })
+            .bindPopup("<b>" + esc(nom) + "</b>" + (lieu ? "<br><small>" + esc(lieu) + "</small>" : "") + (b[3] ? "<br>" + esc(tr("cx_reel", "Dans la vraie vie")) + " : " + esc(b[3]) : "") + (b[4] === "enterable" ? "<br>" + esc(tr("cx_entrer", "On peut y entrer")) : "") + '<br><small style="opacity:.6">gtadb.org</small>', { className: "cx-pop" })
+            .addTo(gB);
+        });
+        batis();
+      }).catch(function () { bOk = false; }); return; }
+      if (vis && !mo.hasLayer(gB)) gB.addTo(mo); else if (!vis && mo.hasLayer(gB)) mo.removeLayer(gB);
+    }
+    mo.on("zoomend", function () { batis(); });
     function cadre(anim) { mo.invalidateSize(); var zf = mo.getBoundsZoom(TERRE, false); ZB = zf; mo.setMinZoom(zf - 0.6); var pw = (!mob && !pan.hidden) ? pan.offsetWidth + 24 : 0; mo.fitBounds(TERRE, { animate: !!anim, paddingTopLeft: [10, 60], paddingBottomRight: [pw, 10] }); }
     mo.setMaxBounds([[-2500, -3000], [5500, 5300]]);
     function ll(o) { return L.latLng(OH - o.y * kx, o.x * kx); }
