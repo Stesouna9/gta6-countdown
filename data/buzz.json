@@ -1,8 +1,46 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-20T08:12:59+01:00",
+  "updated_at": "2026-11-20T10:12:48+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-dua-lipa-go-easy-gta6-album-2026-11-20",
+      "title": "GTA 6 : la chanson « Go Easy » de Dua Lipa publiée en entier sur X",
+      "summary": "Selon @GTAVI_Countdown, « Go Easy », de Dua Lipa, présentée comme la piste 7 de l'album de GTA 6, circule en entier sur X. Le compte ne cite aucune source officielle ; la tracklist n'est pas confirmée par Rockstar.",
+      "url": "https://x.com/GTAVI_Countdown/status/2123623649085460661",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-20T03:45:07.000Z",
+      "checked_at": "2026-11-20T10:12:48+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json : 25 926 vues (@GTAVI_Countdown, 20/11 relevé 07 h). Un seul compte relève l'information, non vérifiée par le site.",
+      "visual": "DUA LIPA",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2123622571807543296/img/Rp57yp5Tmam2JdDt.jpg",
+      "image_alt": "Publication de @GTAVI_Countdown annonçant la chanson « Go Easy » de Dua Lipa, piste 7 de l'album GTA 6",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Dua Lipa’s full song “Go Easy” from the GTA 6 Album Track 7."
+    },
+    {
+      "id": "x-licenciements-nestor-uriarte-2026-11-19",
+      "title": "GTA 6 : des développeurs craignent des licenciements malgré le succès du jeu",
+      "summary": "Selon @GTAlphaintel, des développeurs de GTA 6 restent inquiets pour leur emploi malgré un lancement très attendu. Le compte cite le programmeur d'animation Nestor Uriarte, qui affirme que même l'équipe du jeu redoute de perdre son poste.",
+      "url": "https://x.com/GTAlphaintel/status/2123551896636186919",
+      "platform": "X",
+      "author": "@GTAlphaintel",
+      "status": "Rumeur",
+      "published_at": "2026-11-19T23:00:00.000Z",
+      "checked_at": "2026-11-20T10:12:48+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json : 22 200 vues (@GTAlphaintel, 20/11 relevé 07 h). Un seul compte relève l'information, non vérifiée par le site.",
+      "visual": "LICENCIEMENTS",
+      "image": "https://pbs.twimg.com/media/HXhWpe6a0AAfIV4?format=jpg&name=360x360",
+      "image_alt": "Publication de @GTAlphaintel sur les craintes de licenciements chez les développeurs de GTA 6",
+      "image_credit": "@GTAlphaintel sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "GTA 6 developers are still worried about layoffs despite working on one of the biggest game launches ever\n\nAnimation programmer Nestor Uriarte says even the team behind Grand Theft Auto VI fears losing their jobs"
+    },
     {
       "id": "x-profils-criminels-cinq-niveaux-gtalphaintel-2026-11-20",
       "title": "GTA 6 : le profil criminel aurait cinq niveaux, de Professional à Irredeemable",
@@ -5647,6 +5685,11 @@
       "at": "2026-11-20T08:12:59+01:00",
       "label": "Passage Claude Haiku (Matière X, 20/11 relevé 07 h)",
       "summary": "3 sujets ajoutés depuis x_alertes.json : profil criminel à cinq niveaux (@GTAlphaintel, 42 344 vues, Rumeur), 24 millions d'exemplaires vendus selon Sensor Tower (@gtasix_ 196 725 vues, repris par @GTAVI_Countdown 86 347 vues, Rapporté), appartement de Dexter Morgan à Vice City (@GTAlphaintel, 21 367 vues, Rumeur, seuil 20 000 atteint). Écartés : identité d'une actrice présentée comme vraie cover girl (personne privée, non nommée), Cyberleek Xbox (déjà couvert), Lexie Shoaibi et Metacritic (déjà couverts), Playboi Carti et Dua Lipa (moins de 20 000 vues, un compte), licenciements et première conduite (sous le seuil)."
+    },
+    {
+      "at": "2026-11-20T10:12:48+01:00",
+      "label": "Passage Claude Haiku (Matière X, 20/11 10 h)",
+      "summary": "2 sujets ajoutés depuis x_alertes.json : « Go Easy » de Dua Lipa en entier (@GTAVI_Countdown, 25 926 vues, Rumeur) et craintes de licenciements chez les développeurs (@GTAlphaintel, 22 200 vues, Rumeur). Écartés : record de 24,5 millions de précommandes et Metacritic 99 (déjà couverts), vente de 24,58 millions (déjà couverte), comparatif « how it started » (proche du comparatif du 19/11), identité de la cover girl (personne privée, non nommée), Cyberleek Xbox (déjà couvert), JENNIE, Playboi Carti, gtasix_ première personne et Lucia (sous 20 000 vues, un compte)."
     }
   ],
   "coverage": {
