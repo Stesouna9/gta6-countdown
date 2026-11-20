@@ -1,13 +1,45 @@
 {
- "maj": "2026-11-20T04:47:29+00:00",
+ "maj": "2026-11-20T05:08:17+00:00",
  "articles": [
+  {
+   "gn": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNVXJZcUhueTByMk5rWVBqTUtURzJXQU0zQnJvb2g4ZlFTeGtUV1pjRnlYeDFWaGVsTkttTWFVOXFwRFpRaGxRaVY3UUhIaTd1ajcyY1hHRWRleDNhbFJhY3ZYY3lhUzdmY2I4YksyZkxYSzhWamVwVE9pRXpKNEVOVF8xSTJkNnBnam4xc0dIX0lYUU1zZmRFaXlVZWhYMkV4SDIwS1lJSmZnN2RXZnRWTEs1TUk2akdYYVFKSlIxSTh4bVNlNUpkSHgtdnBmbUtIaWJhV0t3T2EwTXJqWFNGY0gzc3oxRXdKSmIzR0dVREJ4WHgxY0pNbzRwOVU5YnZXV3NtV2Fjd2preWNZbHc?oc=5",
+   "s": "Ouest-France",
+   "d": "2026-11-20T05:00:15+00:00",
+   "lang": "fr",
+   "t": "GTA VI : pourquoi le nouveau GTA Online aura tout pour devenir « le jeu ultime qui n’aura jamais de fin »",
+   "erreur": "HTTP Error 403: Forbidden"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcXdNZ0lxNUtHSzJJNzlLQWZGZDR2WGxma205NGl1bGZXZzY5Zk1kWjR4TjMteEdoOHdMVktaa0VwaGw3OWh6VjJxYXQ4czcwNmZrcjB0WDZyT2VGNHZ5bFR4YjBBQlk5VklpRXRQTFE5Yk51VjNqOHNpT3dJSms5Q2dhRTM?oc=5",
+   "s": "pro-gamer.fr",
+   "d": "2026-11-20T04:51:52+00:00",
+   "lang": "fr",
+   "t": "Émulateur GTA 6 sur PC : état réel (KytyPS5) et faux virus",
+   "u": "https://pro-gamer.fr/emulateur-gta-6-pc-ps5-kytyps5-shadps4-liste-noire-virus/",
+   "img": "https://pro-gamer.fr/wp-content/uploads/2026/11/gta-6-emulateur-pc-ps5-kytyps5-shadps4-blacklist-2026.webp",
+   "chapeau": "Peut-on émuler GTA 6 sur PC avec KytyPS5 ou shadPS4 ? Verrou du firmware 14.23 PS5, moteur RAGE 9 et liste noire des faux émulateurs virus PCSX5 et RPCS5.",
+   "txt": "Statut du jour : Aucun changement technique cette nuit. Le verrou du firmware 14.23 de Sony tient toujours bon et aucun dump déchiffré ( eboot.bin ) ni nouveau commit sur KytyPS5 , RPCSX ou shadPS4 ne permet de lancer Grand Theft Auto VI sur un émulateur PC ce matin. Dès qu’une évolution technique vérifiée ou qu’une nouvelle menace de fichier malveillant apparaîtra, nous mettrons immédiatement à jour le tableau et le contenu de cet article.\nMise à jour en direct (20 novembre 2026) : Non, aucun émulateur PlayStation 5 ni Xbox Series X|S ne permet d’exécuter nativement Grand Theft Auto VI sur PC en ce 20 novembre 2026. Si vous croisez sur YouTube, TikTok ou Discord une vidéo promettant de lancer Vice City à 60 FPS sur ordinateur dès aujourd’hui grâce à un installateur ou un émulateur clé en main, il s’agit systématiquement d’un piège destiné à infecter votre machine. En revanche, une méthode réseau 100 % légitime (via Chiaki-ng , PXPlay ou Remote Play à partir d’une console) permet bel et bien d’afficher et de jouer à GTA 6 sur votre écran PC dès aujourd’hui.\nSur le plan purement cryptographique, une confusion majeure a alimenté toutes les rumeurs de la semaine. Les 210 Go d’archives PlayGo (fichiers .pkg découpés en 32 segments) issus du préchargement sur les serveurs de Sony ont effectivement circulé en ligne avant l’ouverture officielle. Toutefois, une archive .pkg brute reste une coquille illisible sans sa clé de déchiffrement finale.\nÀ la suite de l’alerte déclenchée par le chercheur en sécurité Gezine sur le firmware 14.22, Sony Interactive Entertainment a verrouillé le lancement mondial en rendant obligatoire la mise à jour système firmware 14.23 . Ce micrologiciel 14.23 conditionne la délivrance de la clé de déchiffrement AES finale via le PlayStation Network au moment du premier démarrage. Sans exécutable binaire ( eboot.bin ) déchiffré, aucun émulateur sur PC ne peut lire ni interpréter la moindre ligne de code de GTA 6 .\nAu-delà de ce blindage logiciel, le défi matériel est tout aussi colossal. Le moteur RAGE 9 de Rockstar Games s’appuie massivement sur l’accélération matérielle du Ray-Tracing (structures BVH dédiées à l’illumination globale et aux reflets) ainsi que sur un pipeline de streaming SSD DirectStorage associé au décompresseur matériel Kraken . Cette charge met déjà les consoles de salon à rude épreuve, comme le confirment les premiers retours des joueurs sur GTA 6 à Vice City , et dépasse largement les capacités de traduction à la volée des émulateurs PC actuels.\nPour distinguer le travail scientifique légitime des escroqueries, voici l’état réel et vérifié des véritables émulateurs PlayStation et Xbox open-source face à Grand Theft Auto VI en ce 20 novembre 2026 :\nContrairement aux rumeurs qui le confondent avec un logiciel factice, KytyPS5 est un projet open-source bien réel et techniquement impressionnant. Comme nous l’avions détaillé lors de notre enquête sur le dump du firmware 14.22 par Gezine et l’émulateur KytyPS5 , cet outil parvient déjà à faire tourner la version native PlayStation 5 de Grand Theft Auto V sur des cartes graphiques GeForce RTX en convertissant les appels d’upscaling PSSR directement vers NVIDIA DLSS . En revanche, tant qu’un binaire déchiffré sous le firmware 14.23 n’est pas accessible et que les nouvelles instructions RDNA 2 de RAGE 9 ne sont pas implémentées, KytyPS5 ne peut pas initialiser GTA 6 .\nIl en va de même pour RPCSX , le projet open-source initié par DH (le co-fondateur de l’émulateur PS3 RPCS3 ) avec Nekotekina et kd-11 . Bien que son dépôt GitHub officiel soit légitime, il s’agit d’un laboratoire de recherche sur le noyau système PS4/PS5 sous Linux qui est encore à des années de pouvoir exécuter une superproduction commerciale comme Vice City.\nDu côté de shadPS4 , fpPS4 et psOff , le travail abattu par les développeurs open-source sur GitHub a transformé l’émulation PlayStation 4 sur PC, notamment sur Bloodborne . Cependant, ces trois émulateurs traduisent l’architecture AMD Jaguar / GCN de la PS4 et ne prennent aucunement en charge l’architecture Zen 2 / RDNA 2 native de la PS5. Quant à Xenia Canary , il cible exclusivement le processeur PowerPC de la Xbox 360 : aucun émulateur Xbox Series X|S n’existe à ce jour sur PC.\nSi l’émulation pure sans console est impossible aujourd’hui, il existe en revanche une solution technique 100 % fonctionnelle et légale pour jouer à Grand Theft Auto VI sur votre moniteur PC, avec votre casque et votre manette à très basse",
+   "pub": "2026-11-19T09:29:25+00:00"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMinwJBVV95cUxObEFBbUI5RkoxS2ltSktxNmliTXhleXVEZnlaSkEwTHJ6ZEhpZGFoU3prcXJNME56RWl2dWxjRVVWbXNIYmxiMjRRRkhQYi0tS3FMa1VIcS1qRGdZUDRJZ1BVUVIxWjA2Y2xLVi1DYnhsYkZ0ZHdfSEVzZktSVExCQy1VYTRSZUJqTUFpVjZFWmREcEI3SjlheEZ0WFJFSUc1bXZuaml3dU4xcm4xcFlTdWJMelhJb3hfLXAzMm1ldER1SXZtcFhySFRMeFZwUDBHOHYxN1BnUFoxYldVZ3ZmRUJVMkQwMUNBOU81MHhzZWV0N0t5QW8zMml0SUFYbFVTbW53ZDg2SlVqa3B4cUJURU0wMzhRd21BNE5GelFJVQ?oc=5",
+   "s": "INfluencia",
+   "d": "2026-11-20T04:48:42+00:00",
+   "lang": "fr",
+   "t": "GTA 6 fait saliver les marques, les créateurs Instagram peuvent toucher des commissions Amazon et FDJ United attaque Meta… les actus com’ et médias de la semaine",
+   "u": "https://www.influencia.net/articles/gta-6-fait-saliver-les-marques-les-createurs-instagram-peuvent-toucher-des-commissions-amazon-et-fdj-united-attaque-meta-les-actus-com-et-medias-de-la-semaine",
+   "img": "https://cdn.prod.website-files.com/69e798b838fb6bca6382c417/6afe289c97183346ba77a63e_influencia-recap.png",
+   "chapeau": "Le tour d'horizon hebdo des campagnes, des annonces et des nominations qui ont marqué le secteur.",
+   "txt": "Le tour d'horizon hebdo des campagnes, des annonces et des nominations qui ont marqué le secteur.\nAchats de consoles, accessoires, temps consacré au jeu… Le raz de marée GTA VI bouscule les dépenses et les habitudes des joueurs, comme nous l'indiquions dans notre décryptage . Les marques ne pouvaient pas ignorer le phénomène, tant le jeu est une ode à la consommation.\nVoici une sélection non exhaustive d'actions menées en vue d'émerger et d'entrer dans les conversations des joueurs :\nCe qui est intéressant. Du clin d’œil social au partenariat officiel, ces opérations donnent à chaque marque un rôle précis dans le lancement : équiper, nourrir, divertir ou proposer un objet à collectionner. Leur intérêt commercial tient à ce lien entre la référence au jeu et une offre que le public peut acheter, utiliser ou partager.\nDepuis le 16 novembre, les créateurs américains éligibles peuvent associer leur compte Amazon Influencer à Instagram et ajouter des liens d’affiliation à leurs contenus. Jusqu’à 30 produits peuvent figurer dans un Reel, et 20 dans une publication du fil. Les achats attribués au créateur lui rapportent une commission, dont il peut consulter le taux avant de sélectionner un article.\nInstagram accueille la recommandation, tandis qu’Amazon prend en charge l’achat et la rémunération. Ce partage rapproche encore les contenus des ventes, à l’approche des fêtes. Pour les marques présentes sur Amazon, chaque créateur affilié peut devenir un apporteur de clients. Pour celui-ci, les revenus dépendent des achats générés, avec une incitation à choisir des produits que sa communauté est susceptible de commander.\nNotre insight. La commission devient un argument supplémentaire pour convaincre les créateurs de recommander une référence.\nVoir cette publication sur Instagram Une publication partagée par Amazon Influencer Program (@amazoninfluencerprogram)\nUn logo familier, une publicité rassurante… et un casino en ligne illégal au bout du clic. FDJ United a confirmé le 16 novembre une procédure en référé contre Meta pour obtenir le retrait d’annonces usurpant ses marques sur Facebook et Instagram. Le groupe affirme avoir recensé 226 nouveaux contenus illicites entre le 18 et le 21 mai, souvent très proches de publications déjà signalées.\nLe problème tient donc aussi à leur réapparition. Les fraudeurs empruntent la notoriété de l’opérateur pour donner une apparence de légitimité à des offres interdites en France. En parallèle du recours judiciaire, FDJ United a lancé une campagne de sensibilisation en presse et en digital, sous la signature « Jouer légal, c’est jouer protégé ».\nCe qui est inquiétant. La confiance construite par une marque devient une ressource pour les fraudeurs dès que ses signes de reconnaissance sont copiés.\nLes Échos, Le Parisien, Paris Match, Challenges ou L’Opinion vont être davantage présents dans les réponses de ChatGPT. L’accord annoncé le 16 novembre entre le pôle médias de LVMH et OpenAI prévoit l’affichage de résumés et d’extraits, accompagnés du nom de la source et de liens vers les articles originaux.\nLes équipes auront aussi accès aux outils d’OpenAI pour la recherche documentaire, la comparaison de documents ou la traduction préparatoire. Des formations accompagneront leur déploiement. Le partenariat doit également permettre de personnaliser les offres et services destinés aux lecteurs et aux annonceurs. Ses conditions financières restent confidentielles. Pour mieux explorer cette annonce et ses ramifications, nous vous renvoyons vers cet article publié dans les colonnes de Minted.\nPrécision. Être cité ne garantit pas une visite. La valeur de l’accord dépendra aussi des revenus et des lecteurs qu’il permettra de conserver ou de recruter.\nQuinze enquêtes, 116 pages et deux signatures sur la couverture. Mediapart et Society s’associent pour un hors-série consacré aux dossiers secrets de la Ve République, des écoutes illégales aux assassinats politiques. Proposé en prévente à 9,90 euros, il arrivera en kiosque et en librairie le 10 décembre.\nLe rapprochement se prolonge dans l’offre commerciale. Pour 29,90 euros, un pack réunit le numéro et trois mois d’abonnement à chacun des médias. Chaque titre fait ainsi découvrir son travail aux lecteurs de l’autre. Le hors-série, vendu séparément des abonnements existants, crée également une occasion d’achat pour les fidèles.\nÀ observer. Le bilan commercial se jouera aussi après le hors-série, lorsque les lecteurs décideront de prolonger leurs abonnements.\n",
+   "pub": ""
+  },
   {
    "gn": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdXYybnViUFdpS1B3bUhTSmY5NlNCMUdkRkpMTWR6ZndBT2hSUURiYVlIU1Z4ekMzLTFMZlV4Z3Q0SWN3ODZka1NzaUFKeHZyUEJ2X1dDaGJtckZXOUE3bkRQellPYnZUcUtNSTJwd2NtSmdFc090c2lxZWY4MEQ1UGZKX1J3X2ZtOEcySURkcnRTNlRKa3NsLUUtVlk0NUJTS0ZGUDhxTktUVC15ZTQ4OQ?oc=5",
    "s": "Nacionale",
    "d": "2026-11-20T04:39:48+00:00",
    "lang": "en",
    "t": "Is the GTA 6 leak safe to download? Fake builds and launchers have carried password-stealing malware",
-   "erreur": "429 : passage suivant",
+   "erreur": "HTTP Error 403: Forbidden",
    "cyberleek": true
   },
   {
@@ -15,17 +47,13 @@
    "s": "SSBCrack",
    "d": "2026-11-20T04:18:14+00:00",
    "lang": "en",
-   "t": "Cyberleek Claims to Leak 209GB GTA 6 Xbox Build, Withholds Executable for Crypto Goal",
-   "erreur": "429 : passage suivant",
+   "t": "Cyberleek Claims to Leak 209GB GTA 6 Xbox Build, Withholds Executable for Crypto Goal - SSBCrack News",
+   "u": "https://news.ssbcrack.com/cyberleek-claims-to-leak-209gb-gta-6-xbox-build-withholds-executable-for-crypto-goal/",
+   "img": "https://media2.ssbcrack.com/2026/11/Cyberleek-Claims-to-Leak-209GB-GTA-6-Xbox-Build-Withholds.jpg",
+   "chapeau": "Cyberleek, the account previously linked to major Grand Theft Auto 6 gameplay leaks, is again claiming to distribute a pre-release build of the game. In a",
+   "txt": "Cyberleek, the account previously linked to major Grand Theft Auto 6 gameplay leaks, is again claiming to distribute a pre-release build of the game. In a statement posted on its website on November 19, the account said it possessed a “full November 2026 build” for Xbox and was releasing the files by torrent.\nCyberleek said the build totals 209 gigabytes but that it had withheld the main executable—the file needed to launch the game. The account claimed it would release that final component only if the market capitalization of its $CYBERLEEK meme coin reaches $15 million. It also said the build was for Xbox, not PC, and predicted that users would get it running through emulation. Those claims have not been independently verified.\nReports say files purporting to be part of the build are circulating online, but it remains unclear whether they are authentic or complete. Cyberleek said it would seek a PlayStation 5 build as a fallback if the Xbox version could not be made to work, though it suggested that would probably not be necessary.\nThe latest announcement follows a similar threat in October, when Cyberleek said it would release a GTA 6 build if its cryptocurrency reached a $30 million market capitalization. The account instead published a series of escalating leaks, including nude footage of Lucia, one of the game’s two playable characters. The coin later fell in value, and the account went quiet.\nIt is not known whether the person or people behind the latest claims are the same individuals responsible for the earlier leaks. Cyberleek appears to have previously sold or otherwise profited from the meme coin, while Rockstar Games and its parent company, Take-Two Interactive, have not publicly identified those responsible for obtaining or distributing the allegedly stolen material.",
+   "pub": "2026-11-19T23:18:14-05:00",
    "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQzhlZWJ5TWtISXZVT3dtZXh4dEtkbWRKRzJ4blRoRF9sSjB4aHYxbUluNjJhSGpLdE1XSmJnaTQtY1A3UFg4MUs4QlJsQy1WUkQ4ZXR5X290eWxwaUp4b0ItWEtrcGItS1c5ZGQ4a3laaTRVNVBxYXpVemp0enJGU2tsR0JYckFqTjRtT1gzVi1YMkpDNjVrUlVXMTRpd0E?oc=5",
-   "s": "PCMag",
-   "d": "2026-11-20T04:10:55+00:00",
-   "lang": "en",
-   "t": "Everything You Missed on GTA 6 Launch Day (And the Tips Worth Knowing First)",
-   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRkdMMnNpaU9fTXpjaVBISGRUalZ0YjREZ1F5ZC1BVHpRTWkySHdQVEdXTXA1dGloY01Xa09IX21XQ05MM0xzRHBpWnl2Zm5iYnRwUUUxNHFEOFhmZl9jQndzUXJncXZpa283bTZ3eHBObGFpd2YwMnJJTlVQeUk5bHNpVkxnYXA1T1VydWZNbVh3M3dlMmZDTjB1SWNqMHZQbXZla3Mwa29zOUgtZGc0?oc=5",
@@ -33,7 +61,7 @@
    "d": "2026-11-20T03:44:08+00:00",
    "lang": "fr",
    "t": "Le groupe de hackers CyberLeek a diffusé une version torrent de GTA 6 pour Xbox.",
-   "erreur": "429 : passage suivant",
+   "erreur": "HTTP Error 403: Forbidden",
    "cyberleek": true
   },
   {
@@ -42,7 +70,7 @@
    "d": "2026-11-20T03:44:08+00:00",
    "lang": "en",
    "t": "The hacker group CyberLeek has released a torrent build of GTA 6 for Xbox.",
-   "erreur": "429 : passage suivant",
+   "erreur": "HTTP Error 403: Forbidden",
    "cyberleek": true
   },
   {
@@ -51,7 +79,11 @@
    "d": "2026-11-20T03:43:16+00:00",
    "lang": "fr",
    "t": "Cyberleek publie une version Xbox de GTA 6, rendant plus plausible un portage jouable sur PC",
-   "erreur": "429 : passage suivant",
+   "u": "https://www.notebookcheck.biz/Cyberleek-publie-une-version-Xbox-de-GTA-6-rendant-plus-plausible-un-portage-jouable-sur-PC.1454901.0.html",
+   "img": "https://www.notebookcheck.biz/fileadmin/Notebooks/News/_nc5/GTA6XboxBuildPC.jpg",
+   "chapeau": "Cyberleek a de nouveau fait parler de lui en divulguant une version Xbox de GTA 6 datant de novembre. Il manque au téléchargement le fichier exécutable indispensable, dont la date de publication dépend d’un nouvel objectif en cryptomonnaie. Des hackers étudient les fichiers en vue de créer un émulateur de Series X ou une version décompilée pour PC.",
+   "txt": "Alors qu’on croyait Cyberleek disparu pour de bon, le célèbre auteur de fuites a refait surface. Même si la date de sortie de GTA 6 est passée, il a mis ses anciennes menaces à exécution. Une version Xbox déchiffrée circule sur les réseaux de piratage , ce qui pourrait déboucher sur un portage jouable sur PC . Le téléchargement de 209 Go présente toutefois un inconvénient majeur.\nLe site de Cyberleek affiche désormais un message au sujet de la dernière fuite. Alors que les précédentes vidéos de gameplay semblaient provenir d’une version de développement sur PC , Cyberleek a choisi de diffuser les fichiers Xbox de GTA 6 . Cette version daterait de novembre 2026, et des captures de l’arborescence des fichiers révélant des ressources du jeu ont fait surface. Quoi qu’il en soit, sans le fichier exécutable manquant, cette version risque de ne pas servir à grand-chose.\nUne fois de plus, Cyberleek espère collecter des fonds en cryptomonnaie avant de publier ce fichier essentiel. Cyberleek avait déjà fixé un objectif de capitalisation de 30 millions de dollars pour un memecoin, en promettant une version jouable en guise de récompense. Cette initiative d’octobre a échoué, mais le fichier .exe serait mis à disposition si la capitalisation atteignait 15 millions de dollars.\nIl est à noter qu’un compte à rebours de moins de 4 jours est également en cours. Lorsqu’il arrivera à zéro, le maître chanteur de Rockstar promet de diffuser quand même l’exécutable sur des sites de piratage .\nOn ne sait pas dans quel délai les fichiers Xbox de GTA 6 pourraient donner lieu à une version jouable sur PC. Cyberleek pense que des hackers trouveront le moyen d’émuler la version console sous Windows en une semaine. Alors que l’ objectif de 30 images par seconde continue de susciter des critiques, du matériel suffisamment puissant pourrait offrir une fréquence d’images plus élevée.\nMalheureusement pour les pirates, il n’existe actuellement aucun émulateur de Series X fonctionnel. Le matériel de la console de Microsoft est similaire à celui de nombreux PC, leurs processeurs partageant l’architecture x86-64. Parmi les obstacles à surmonter, la Series X utilise toutefois un système d’exploitation personnalisé qu’il faudrait adapter à Windows.\nUne autre possibilité serait de lancer un projet de décompilation des fichiers Xbox de GTA 6 ayant fuité. Les développeurs analyseraient et modifieraient le code, puis le reconstruiraient pour obtenir une version capable de se lancer sur PC.\nCyberleek affirme également détenir une version PS5 comme solution de repli. Au-delà d’amasser des cryptomonnaies, l’objectif est d’empêcher les portages sur consoles et PC de doubler les bénéfices de Take-Two et de Rockstar.",
+   "pub": "",
    "cyberleek": true
   },
   {
@@ -60,7 +92,11 @@
    "d": "2026-11-20T03:27:00+00:00",
    "lang": "en",
    "t": "GTA 6: Should You Choose Saved Cash Or Say Nothing In \"Buck Me\"",
-   "erreur": "429 : passage suivant"
+   "u": "https://screenrant.com/gta-6-buck-me-saved-cash-say-nothing-choice/",
+   "img": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/11/gta-6-bank-manager.jpg?w=1600&h=900&fit=crop",
+   "chapeau": "There's one right choice to make here.",
+   "txt": "By Ben Brosofsky Published Nov 19, 2026, 10:27 PM EST Ben Brosofsky has been writing for Screen Rant since 2022 and editing since 2024. He graduated from Vanderbilt University with a Bachelor's in Cinema & Media Arts. Writing serves as a much-needed distraction from tackling a backlog of Steam games that will never be surmounted. Sign in to your ScreenRant account \"Buck Me\" is one of the shortest missions in Grand Theft Auto 6 , but unlike plenty of more robust ones, it does present Jason with an intimidating choice . With his financial future — and Lucia's — potentially on the line, making the right decision can seem like an objective of the utmost importance.\nGTA 6 doesn't offer much time to choose, as the prompt to select between saying nothing or mentioning Jason's saved cash comes and goes on a quick timer. If you've paused the game in search of an answer, though, here's everything you need to know about the choice.\nAfter Jason picks up Lucia from prison and spends his first night with her, he'll get a new mission to take care of the next day, courtesy of Donnie. \"Clean Up After Donnie\" will take Jason north to locate a missing package, and as he heads up that way, Lucia might go ahead and ask him to join her at the bank when it's convenient for him.\nFinish Donnie's objective, as this will ultimately take Jason back in the direction of the bank anyway. After wrapping that up, head to the nearby bank, go inside, and talk to the teller. She'll direct Jason to the manager, and once those two begin to converse, Lucia will appear.\nWhen speaking to the bank manager, it quickly becomes clear that Jason and Lucia aren't in a great position to set up a bank account or take out any loans. Jason does have one asset, however: his saved cash, which he keeps under a floorboard in his bedroom.\nWhen asked about the potential to deposit money, the option to mention Jason's saved cash is on a timer. You can also actively choose to say nothing, but if you wait too long to mention the cash, Jason will do this by default.\nFaced with the timed choice, you should choose Saved Cash . The first chapter of GTA 6 features plenty of opportunities to impress Lucia by giving Jason a responsible attitude, and this is one of them. Choosing Saved Cash will immediately boost their relationship , while choosing to say nothing will do the opposite.\nYou can check out a full profile of ScreenRant 's guides for GTA 6 here .\nUnfortunately, the relationship perk is the only active effect of this choice. Due to their credit scores, Jason and Lucia are ultimately unable to open a bank account at this time, even if the cash is mentioned. Regardless of which selection is made, they'll be pushed to use the BuckMe app, which Jason can deposit money into via ATMs and use for various payments. Money can also be transferred from the standard BuckMe account into a Family Savings profile, providing a more long-term savings goal.\nIf you do make the mistake of choosing to say nothing (or you simply run out of time), it's not the end of the world. Grand Theft Auto 6 features plenty of opportunities to improve the relationship between Jason and Lucia. This is a particularly easy one to take advantage of, but making up the deficit shouldn't be much of a challenge.\n10 /10 Grand Theft Auto 6 Like Follow Followed Action Adventure Systems OpenCritic Reviews Top Critic Avg: 99 /100 Critics Rec: 99% Released November 19, 2026 ESRB Rating Pending - Likely Mature 17+ Developer(s) Rockstar Games Publisher(s) Rockstar Games Engine Rockstar Advanced Game Engine (RAGE) 8 Images Close FX Wiki Wiki",
+   "pub": "2026-11-20T03:27:13Z"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNX2VRcV9OaXY3ejVJNV9PdUh4cFdiMWlDOXE4RHBDNWFZNmxxYnRyc0RQYVpCczFhSXBVOUt2dHFFbkVpTU5JUEZERVpxRlRLMEg4aEFfTFBHVFVNR09IbU9UVjd1a3lGYmlyNGRSOThzN2QtY2ZhT0hfbkNXVnVhUXREZDgtN21vSjBVMVk4b3l2NHU5NDlZT3VzckRnbHo1ODlLa1Z6NUh4b2VGcXhn?oc=5",
@@ -68,7 +104,11 @@
    "d": "2026-11-20T03:22:51+00:00",
    "lang": "en",
    "t": "We went birding in GTA 6. These are the Florida species we found.",
-   "erreur": "429 : passage suivant"
+   "u": "https://www.tampabay.com/news/environment/2026/11/19/gta6-florida-birds-grand-theft-auto-6-birdwatching-guide/",
+   "img": "https://www.tampabay.com/resizer/v2/5SOTEC57JVGFFO63FXSZ33XYTU.JPG?auth=8d938568f8529aad4f01c9dc8cbc47868252ecb04ceb48a4bf82040eac28dc3a&height=675&width=1200&smart=true",
+   "chapeau": "From spoonbills to seagulls, we discovered an array of Florida birds in Leonida.",
+   "txt": "Share . Environment reporter Max Chesnes playfully uses binoculars while behind him, reporter Jack Prator reacts to a roseate spoonbill while birding in a fictional Florida’s wild spaces in the game “GTA VI” on Thursday in St. Petersburg. [ MARTHA ASENCIO-RHINE | Times ] Max Chesnes is the Tampa Bay Times' environment and climate reporter, covering public lands, water quality, wildlife and everything in between. Reach him at mchesnes@tampabay.com or follow him on Instagram @MaxChesnes.\nJack Prator is a reporter covering the environment. Reach him at jprator@tampabay.com.\nAnyone can view a sampling of recent comments, but you must be a Times subscriber to contribute. Log in above or subscribe here .\nConversations are opinions of our readers and are subject to the Community Guidelines .\nONLY AVAILABLE FOR SUBSCRIBERS The Tampa Bay Times e-Newspaper is a digital replica of the printed paper seven days a week that is available to read on desktop, mobile, and our app for subscribers only. To enjoy the e-Newspaper every day, please subscribe.",
+   "pub": ""
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPNjc1MWVCd1AtNlA0SElYOGl5dm9VSUVQWnM3M1I5TDVBNFVTVDViOTAwSHhxVVpXSFh3aXJnYUx2cGpFWnh4LXk2ZTRJWnJOUVFSeTk3aXhITlNjT0xSbjVpazlKakNfTnN6T0dReXhZRkI1QXRfSGVLdy1oWlVfOUxGSQ?oc=5",
@@ -101,7 +141,7 @@
    "d": "2026-11-20T02:30:42+00:00",
    "lang": "en",
    "t": "Did Cyberleek leak GTA 6? It claims a 209GB Xbox build is out, but it can't run and nobody has verified it",
-   "erreur": "429 : passage suivant",
+   "erreur": "HTTP Error 403: Forbidden",
    "cyberleek": true
   },
   {
@@ -110,7 +150,7 @@
    "d": "2026-11-20T01:17:27+00:00",
    "lang": "en",
    "t": "How To Save Guns And Weapons You Find In GTA 6",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQOXFlQ0ZmV1J6S0lQREVsc3NMdkZ2WnBnT191RUZjUWZMbVZsemd4NVRIemJFV01COU16LXoxdnQ1NVRZMW1fZ1dNTXJ6WlFnQURXZ245dzFUU2prVi11RDBoRnh4d1NROTFUYXVvWGJ4SDZwNXRYekZTR09rckRoX2dERXp0OXNmN3h2UldhMHdHcUdvNEdDRG5qNHROcEtEeFFmRjhMTGFOdw?oc=5",
@@ -154,7 +194,11 @@
    "d": "2026-11-20T00:46:23+00:00",
    "lang": "en",
    "t": "Tyreek Hill Featured in GTA 6, Former Dolphins WR Teases Character in Video After Game's Release",
-   "erreur": "429 : passage suivant"
+   "u": "https://bleacherreport.com/articles/25535476-tyreek-hill-featured-gta-6-former-dolphins-wr-teases-character-video-after-games-release",
+   "img": "https://gsp-image-cdn.wmsports.io/cms/prod/bleacher-report/ap_images/2026-11/343e0366bc984b3ea34e2e317ab06d1a/Jaguars_Dolphins_Football_55616_4576x2574_(928,389).jpg?w=1120&h=630",
+   "chapeau": "Grand Theft Auto VI features an Easter egg referencing Tyreek Hill's tenure with the Miami Dolphins.",
+   "txt": "01:54 Featured Video Gridiron Heights Friendsgiving 🍽️ AP Photo/Rebecca Blackwell Tyreek Hill Featured in GTA 6, Former Dolphins WR Teases Character in Video After Game's Release Julia Stumbaugh Nov 20, 2026 Grand Theft Auto VI features an Easter egg referencing Tyreek Hill's tenure with the Miami Dolphins.\nHill revealed after GTA VI 's Thursday release he served as the voice and likeness for Vice City Manatees wide receiver Maleek Rivers, a fictional player whose social media presence is featured in the game.\nTOP NEWS Sports World Reacts to GTA VI 💬 Bleacher Report 9h Giannis ‘Vice City’ Kicks 🦩 Bleacher Report 2d Heat Unveil 'Vice City' Court 📸 Bleacher Report 2d Athletes across the sports world celebrated Rockstar Games' release of GTA VI , which marked the series' first installment in 13 years.\nHill, who is currently a free agent, suffered a major leg injury in September 2025 and was released by the Dolphins in February. He said in a Monday social media post he was working on his \"comeback\" with a medical trip to Germany.",
+   "pub": ""
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNQWlhODRHM2ZhMEN5N1kzXzFFOXVqWFlYT1VTTUt3eXdhLUJWNUVUSm9TUU1rSFI1V29xYkdvT0ZINlZMWTgwZEFsUk04dTlnNTNRRzFGenVBZi1oVmRoZ1BDcHplNjVHU2tRaENZclRwMDRDaGFORzhEMHItSWNfZndUS21ZdkZLcG9KQS1ORVA5aldCTmJRME4wUGU4VWxXRWxWQ2VGZ29lM1dKSUcwbDZXb2s4ZnRiV0xoZlZRVHNqcnJmYTQ0am8tX2Y1WmcteXB4Vl9GNmNjRnE0UVZBanRhSXlvODN1aWkxQy1VMDFZSGpQaDhBTXl4dEpUdGt5bk53Z3psd1lOQTQxeHNWZnpaTWo4VDU2emlFSQ?oc=5",
@@ -199,7 +243,11 @@
    "d": "2026-11-20T00:22:54+00:00",
    "lang": "en",
    "t": "GTA 6 Liveblog: We've Started Our 24-Hour Play Marathon",
-   "erreur": "429 : passage suivant"
+   "u": "https://www.cnet.com/news-live/gta-6-first-24-hours/",
+   "img": "https://www.cnet.com/wp-content/uploads/sites/2/GTA-6-liveblog-lede.jpg",
+   "chapeau": "GTA 6 is here and to really understand it we've played for 24 hours straight. For science.",
+   "txt": "Grand Theft Auto 6, the new game in the vaunted GTA series, is out and review scores have been sky-high.\nDeveloper Rockstar Games has delivered another colossus of crime in GTA 6 , continuing the series’ tradition of delivering a core gangster narrative within a massive sandbox that players can explore at their leisure. The game’s story centers on Lucia and Jason, criminals in love with shaky pasts who reconnect to build a future together, one bank robbery at a time.\nGTA 6 is the first game in the series since GTA 5 came out in 2013, and the new game has a ton of technical improvements in police and NPC behavior, animations and visuals. It’s a gorgeous, polished game, with so many things to do, you’ll be busy for as long as you want to stick around in Vice City and the greater state of Leonida.\nTo ring in the new game, CNET Editor at Large Andrew Lanxon set out to play it for 24 hours straight — and pulled it off. Read below to recount his marathon delve into GTA 6, hour by hour, as he got farther than anyone else who didn’t sacrifice sleep and sanity.\nThis game is rated M for Mature 17+ in North America. Please note that posts below citing the game may contain descriptions of violence and quote some pretty spicy language. And spoilers, obviously.\nWell the clock has just struck midnight which means I have officially made it a full 24 hours playing Grand Theft Auto 6. And what a 24 hours it has been. There’s not much more I can say about the game that I haven’t already, but I will say in summary that GTA 6 is a triumph that is more than living up to my own sky-high expectations and is certainly worth the £70 I paid to buy it.\nThis marathon playthrough has been brutal — made so much worse by my late flight home from Paris (see the beginning of this live blog) — but I’m glad I was able to persevere to the end. Having waited 13 years for a new GTA, getting to dedicate a long time to it in one go has been a fitting way to celebrate its launch. And it’s good to know that I haven’t simply dashed my way through the game in that time. I’ve only just begun chapter 2 meaning that are far more hours ahead of me than what I’ve already played.\nI’ve spent my last hour in the game in a much more peaceful state. Sedately hiking through the lush forests of the rural area I found myself in, discovering new animal species to add to my collection. It’s the sort of thing I know I’m going to spend many hours doing and it felt like a great way to wind my brain down after the chaos of the last day.\nBut it also served to highlight for me the true charm of this game. GTA 6 doesn’t succeed just on its main characters Jason and Lucea, or their plotline. It succeeds because of the huge world that’s built around them. A world that’s not only divinely rendered in often photo-realistic quality, but that’s also so richly populated with a seemingly infinite amount of detail. From the vast array of fauna to discover, the miles and miles of country to journey across or the crowds of people to meet along the way, Grand Theft Auto 6 is so much more than just a crime game, it’s a living world that’s packed with stories and endless opportunities.\nI’ve loved this past 24 hours with it and while I am beyond desperate to finally get some sleep, I remain incredibly excited to dive back into the game and see what I can discover next. Thank you so much for joining this journey with me.",
+   "pub": "2026-11-19T19:22:54-05:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE03R0k1aDVaRHd1ckk1VUo0eURHZGE2d016ZjJRLXJMWFpfMWtFeC1BMjNiQlFHdEQteU9Fclp3SzRyRXJZVzItYzViMUM4S1E?oc=5",
@@ -251,6 +299,18 @@
    "pub": "2026-11-19T23:54:12Z"
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPNE83Qm5xa0FnZjRxRkFqZmpHaVNGU1JqeWZydkNNaVFWUzg4ZmhkLUxUV1hpbUp2Y2EyMmtfVkVnYURoX2d4YkxHcWNWXzVZcEdQUnNJTDdsd3FnRXMwNUJIVU9DSTc2X3FacEVuRmF4YjV4RnpDb1dqdHFpWW9JclQ0TXhuZw?oc=5",
+   "s": "Deadline",
+   "d": "2026-11-19T23:40:00+00:00",
+   "lang": "en",
+   "t": "'Abbott Elementary's Janelle James Says She \"Bullied\" Her Way To 'GTA 6': \"I Pursued, Conceptualized, Pitched, Scripted & Voice Acted\"",
+   "u": "https://deadline.com/2026/11/abbott-elementary-janelle-james-gta-vi-1237229560/",
+   "img": "https://deadline.com/wp-content/uploads/2026/11/janelle-james-gta-6.jpg?w=1024",
+   "chapeau": "Janelle James is a Grand Theft Auto fan celebrating being part of GTA VI as users worldwide get their hands on the long-awaited game.",
+   "txt": "Janelle James is a Grand Theft Auto fan celebrating being part of GTA VI as users worldwide get their hands on the long-awaited game.\nIn a new social media post, the Abbott Elementary star explained how she got involved in the game.\n“It’s very important to me that everybody knows that not only is that me, I’m not simply ‘voice acting,'” James shared on her Instagram Stories. “I pursued, conceptualized, pitched, scripted AND voice acted my radio show.”",
+   "pub": "2026-11-19T23:40:00+00:00"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1tMVl1NzVTX2JPWXB4WlhNMlNaQlQtVTk1Z2JBVUtHcTc5OXJrbmNVY29yN0lfcC1GSEM5Q2c0YUl4a0FGTjVGRDVuUGtyUlVuaEV5V3M5WjRiZUpMd195ME1WY0Z6Zw?oc=5",
    "s": "Mashable",
    "d": "2026-11-19T23:29:16+00:00",
@@ -267,8 +327,12 @@
    "s": "Gamekyo.com",
    "d": "2026-11-19T23:25:00+00:00",
    "lang": "fr",
-   "t": "GTA 6 : Cyberleek sortira une ver XBOX datant de novembre 2026",
-   "erreur": "HTTP Error 429: Too Many Requests",
+   "t": "Gamekyo : Blog : GTA 6 : Cyberleek sortira une ver XBOX datant de novembre 2026",
+   "u": "https://www.gamekyo.com/blog_article489067.html",
+   "img": "http://www.gamekyo.com/Webmasters/Images/grand-theft-auto-vi_20220730_060731_intro.jpg",
+   "chapeau": "Blog : GTA 6 : Cyberleek sortira une ver XBOX datant de novembre 2026 : Gamekyo is a social video game magazine for the Wii, Nintendo DS, PlayStation 2, PlayStation 3, PSP, Xbox 360 and PC. Blog : GTA 6 : Cyberleek sortira une ver XBOX datant de novembre 2026",
+   "txt": "",
+   "pub": "",
    "cyberleek": true
   },
   {
@@ -314,8 +378,12 @@
    "s": "SSBCrack",
    "d": "2026-11-19T22:42:12+00:00",
    "lang": "en",
-   "t": "CyberLeek Claims to Have Released 209GB GTA 6 Build, but Executable Is Missing",
-   "erreur": "429 : passage suivant",
+   "t": "CyberLeek Claims to Have Released 209GB GTA 6 Build, but Executable Is Missing - SSBCrack News",
+   "u": "https://news.ssbcrack.com/cyberleek-claims-to-have-released-209gb-gta-6-build-but-executable-is-missing/",
+   "img": "https://media2.ssbcrack.com/2026/11/CyberLeek-Claims-to-Have-Released-209GB-GTA-6-Build-but.jpg",
+   "chapeau": "CyberLeek, the online persona of a group previously linked to leaks of Grand Theft Auto 6 gameplay, claims it has begun distributing a 209GB development build",
+   "txt": "CyberLeek, the online persona of a group previously linked to leaks of Grand Theft Auto 6 gameplay, claims it has begun distributing a 209GB development build of the game. The group says the files represent a November 2026 build, potentially close to—or identical to—the version intended for release.\nThe claim could not be independently verified. Although the download’s advertised size was visible on CyberLeek’s site, the existence of the files themselves has not been confirmed. The build also appears to be missing its main executable, which would be needed to run the game. CyberLeek says it is withholding that file and may publish it later.\nIn a statement posted on its site, the group said it had the “full November 2026 build” and that it was being distributed by torrent, with the executable held “on a countdown.” CyberLeek says it will release that file ahead of schedule if its cryptocurrency token reaches a set value. The group’s previous leaks have also been associated with a crypto scheme, which was earlier estimated to have generated at least £200,000 for those behind it.\nCyberLeek first threatened to release a complete, playable build in October. Its latest claims raise the possibility that the game could be made to run on PC before Rockstar announces an official PC version. However, that outcome remains uncertain: the build has not been verified, and the missing executable currently prevents it from being launched. Rumours have suggested a PC release could follow the console launch by several months, but Rockstar has not announced a PC release.\nThe group says it expects the Xbox build to be made to work and claims a community could have it running through emulation within a week. It also said it would seek a PlayStation 5 build as a fallback if the Xbox version proves unusable. These claims have not been independently confirmed.\nCyberLeek has previously framed its actions as a campaign for “Gamers’ Rights,” citing opposition to the industry’s move toward digital-only games and the discontinuation of physical discs. Rockstar has described the earlier leaks as “heartbreaking,” saying they were not how the company intended players to see the game. Take-Two Interactive has also sought information about the leaker’s identity through a subpoena to Discord.",
+   "pub": "2026-11-19T17:42:12-05:00",
    "cyberleek": true
   },
   {
@@ -349,7 +417,7 @@
    "d": "2026-11-19T21:38:00+00:00",
    "lang": "en",
    "t": "GTA 6 Xbox build reportedly leaked by Cyberleek, but it's not playable, yet",
-   "erreur": "429 : passage suivant",
+   "erreur": "HTTP Error 403: Forbidden",
    "cyberleek": true
   },
   {
@@ -358,7 +426,11 @@
    "d": "2026-11-19T21:36:16+00:00",
    "lang": "en",
    "t": "GTA VI Leaker Releases 209 GB Xbox Build Without Main Executable",
-   "erreur": "429 : passage suivant",
+   "u": "https://twistedvoxel.com/gta-vi-xbox-build-leak/",
+   "img": "https://twistedvoxel.com/wp-content/uploads/2026/10/gta-6.jpg",
+   "chapeau": "A GTA VI leaker has released a claimed 209 GB Xbox build without its executable, with the missing file tied to a countdown and cryptocurrency target.",
+   "txt": "Cyberleek, the group behind earlier GTA VI leaks, has released what they claim is a complete November 2026 Xbox build of Grand Theft Auto VI, minus the main executable needed to run the game. The GTA VI Xbox build leak surfaced on November 19, the same day Rockstar Games’ latest open-world title launched on PlayStation 5 and Xbox Series X|S.\nThe torrent is approximately 209 GB and contains what appear to be the game’s data and pack folders, RPF archives, and Xbox-specific configuration files.\nAccording to announcements published on Cyberleek’s website, the missing executable will be released once a countdown expires. The leaker is also offering to release it earlier if a cryptocurrency token named CYBERLEEK reaches a market capitalization of $15 million. That target was previously set at $30 million before being reduced.\nCyberleek has also discussed the possibility of pursuing a PlayStation 5 build if the leaked Xbox files cannot be made to work. The leaker claimed that the community could emulate the Xbox version within a week, although there is currently no evidence that such an effort will succeed.\nThe GTA VI Xbox build leak has attracted attention on Reddit’s r/Piracy community, where several users claim to have examined the files. One commenter said they discovered 145 mission records inside a common.rpf archive, including references to the game’s protagonists, Lucia and Jason.\nCyberleek previously attracted scrutiny from Take-Two Interactive after releasing gameplay footage, map information, and a 24-minute cutscene earlier this fall. Those earlier leaks were also connected to the same cryptocurrency token.\nThe authenticity of the newly released Xbox files remains unconfirmed, and the missing executable has not been made publicly available.\nAli Haider loves to dabble in multimedia projects. He has a passion for editing and managing YouTube videos and loves writing in his spare time.",
+   "pub": "2026-11-19T21:36:16+00:00",
    "cyberleek": true
   },
   {
@@ -380,7 +452,7 @@
    "d": "2026-11-19T21:20:10+00:00",
    "lang": "fr",
    "t": "Avec la sortie de GTA 6, le service national de santé britannique s'inquiète pour les mains des joueurs",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE01M1VfaUxoZVA3bXVHRkxnMExKUDhQaFl2Z2FmZkV6elVFQ3ZXVG9HT0syR3gxX0tXVGMyX2gtTEVIQ20zRlk2MnBrcXhTY1FCS0d5ZmFpSjZvNG5PRm1vcw?oc=5",
@@ -414,7 +486,7 @@
    "d": "2026-11-19T20:58:51+00:00",
    "lang": "en",
    "t": "GTA 6 Xbox Build Allegedly Leaked by Cyberleek, 209GB Files Surface Online",
-   "erreur": "429 : passage suivant",
+   "erreur": "HTTP Error 403: Forbidden",
    "cyberleek": true
   },
   {
@@ -486,7 +558,7 @@
    "d": "2026-11-19T19:49:57+00:00",
    "lang": "fr",
    "t": "GTA 6: combien de temps faut-il pour terminer le jeu ?",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 307: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error messag"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUFZCejhQbWE2alVrYmJHTk9EdDNLOVJrRkxJdURGTkdXbWFyUlFKdU5rdjFpSU83LS03SWlhNlZqQU5md2l3bWNIR08tazA1bVBBWlhPaXF0MG5tNnpVcDhqVUJtU3NsRTV6dHJZQko4d3E4UlNncHZSSVFLTXpWazBiaGVtcUc4ZmNSMDlPeE90ZGI2UGJIQWRR?oc=5",
@@ -494,7 +566,7 @@
    "d": "2026-11-19T19:47:35+00:00",
    "lang": "fr",
    "t": "Je suis restée debout jusqu’à minuit pour jouer à GTA 6",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 307: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error messag"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOZGZUN3NTUDZDUF9CYkxEcUQxVndmTjRlNE82amYxY3h5bkh4Uk43WHpVb2JXeTFwYkhBdElUQWZCYjdFVVhtaGt6WnhERGNNX0tpdkVhQTYzaHBVTnhza0pGYlA2S2RfRnFwZXloakxyMDlCSTByT3RkMFdnT3ZQb09sV09xbUw1SE81czJJSkNnTnllWjdLa0U3SmROalNZVElFemhjbUhhd3ZpOURWQlhobVZwTVRIU0dsemswX05MeEFuZmRiRFBwV2JhMk1OTEE?oc=5",
@@ -509,40 +581,12 @@
    "pub": "2026-11-19T16:40:05+00:00"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQ1NRRmpfSmNEczFOaFNoM1NHUzFRajlzaEUzWDVyS1FYQnd4R1lWZVZuTDcxd1pZS1F4ZzlzeG13WmhUUnQwNXpyMUphWnRBakhiRS1keWlFSkxDaGxldjBtLWQxeTg1ZVRjN3drT0d0S3VDX0p3R0hhdmtzOXRoN3hFMnc4VXBBQngxSnRvYWJZY2NqTTlfMkl3eVY4Si1HQ1pucnpueU1Qdnc?oc=5",
-   "s": "Eklecty-City",
-   "d": "2026-11-19T19:20:58+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : la voiture de Paul Walker dans Fast and Furious est cachée à Vice City - Eklecty-City",
-   "u": "https://www.eklecty-city.fr/jeux-video/gta-6-easter-egg-voiture-paul-walker-brian-oconnor-fast-and-furious/",
-   "img": "https://www.eklecty-city.fr/wp-content/uploads/2026/11/grand-theft-auto-vi-picture-20.jpg",
-   "chapeau": "Rockstar Games a caché la Mitsubishi Eclipse de Paul Walker dans Fast and Furious à l'intérieur d'un garage de Vice City sur GTA 6.",
-   "txt": "Rockstar Games a caché la Mitsubishi Eclipse de Paul Walker dans Fast and Furious à l’intérieur d’un garage de Vice City sur GTA 6.\nImpossible de concevoir un jeu centré sur les braquages et les courses-poursuites sans rendre hommage au cinéma automobile. À peine Grand Theft Auto VI sorti, les joueurs ont débusqué un clin d’œil appuyé à la saga Fast and Furious et au regretté Paul Walker , disparu en 2013. Il est en effet possible de prendre le volant d’une réplique de la célèbre Mitsubishi Eclipse verte conduite par son personnage, Brian O’Connor, dans le tout premier volet de la franchise en 2001.\nContrairement à d’autres secrets qui demandent des heures d’exploration, ce bolide est accessible dès le début de l’aventure , sitôt les premières séquences d’introduction terminées. Il suffit d’entreprendre le trajet jusqu’à Vespucci Island , dans Vice City, et de repérer une villa abritant un garage fermé .\nUne fois à l’intérieur de la propriété, il faut forcer une porte menant au garage pour découvrir la sportive garée à l’abri des regards. La méthode d’appropriation reste fidèle aux habitudes de la franchise : briser la vitre latérale et faire les fils à l’aide des joysticks de la manette. Beaucoup plus rapide que le véhicule de départ de Jason, cette monture permet d’arpenter l’asphalte floridien à vive allure dès les premières heures de jeu.\nLes développeurs ont d’ailleurs glissé une seconde surprise dans ce même garage. En fracturant le coffre de la Mitsubishi Eclipse, le joueur se fait attaquer par un grand serpent caché à l’intérieur. Un jeu de mots visuel pensé pour les anglophones qui renvoie directement à la réplique culte du shérif Woody dans Toy Story (« There’s a snake in my boot « , le terme boot désignant aussi bien une botte que le coffre d’une voiture au Royaume-Uni).\nCette trouvaille automobile s’inscrit dans une chasse aux secrets déjà très prolifique à travers l’État de Leonida. En plus des références sérielles comme l’ appartement de Dexter Morgan à Washington Island – auquel nous avons consacré un article dédié -, les curieux ont mis au jour une foule de clins d’œil. Entre un chien à lunettes de soleil pilotant un jet-ski près de Gambit Bay , ou encore de véritables œufs de Pâques perchés au sommet d’une tour de télécommunication , Rockstar Games prouve une nouvelle fois son goût pour les détails dissimulés.\nDe quoi occuper les joueurs pendant des centaines d’heures en marge de la trame principale.\nVotre soutien est important pour Eklecty-City, retrouvez toutes les actualités pop culture sur les réseaux sociaux : Facebook , BlueSky , Instagram , Twitter .",
-   "pub": "2026-11-19T19:20:58+00:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOaWtrY0hCTDAzTUlHUThMQlN3Rzc4bTIwS3VwcjJDTGgxRUFEOGVxUDJTNkN6c0tVN25YRTVSWDIwMnYtRkgyRXppVVZTLUtMN1UtU1NwUm5zNU5wbTdKWlhwcmFPYzdmd1RhOXR1UWpSajcxb0NZS2FKaFZPUWRsaU9zdnJFRktINFdsWlJLUS02LW9BeTBIT3RicGwtYVNFOVlQemJkUEx0TjZTcE9Mc3dVT2FMWmxfaW5FT3FPc2ZmNFQwYzBheWdDM1dGdENKOFpDVTVGLUVCRW9zRjgzTjFwQ09UNTNNMkk3OHNR?oc=5",
-   "s": "Le Parisien",
-   "d": "2026-11-19T19:16:38+00:00",
-   "lang": "fr",
-   "t": "« Une heure de devoirs, deux sur la console » : quand GTA 6 bouscule la vie des jeunes",
-   "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMidEFVX3lxTE43ckdsM1VHU3JrbkU0MjlxTDQ1MkQ5RjVFUDc0OE5Rb3lXdTlDUDdfd19mUGNDWWZ2WE1vQkJVMTJhZFVZVTBMQ2swekRxWFJxaG1NVWxoYk1TN01KVlhhUVVlQ042cHVDc053aG5NTkZmY1k0?oc=5",
-   "s": "ActuGaming",
-   "d": "2026-11-19T18:58:17+00:00",
-   "lang": "fr",
-   "t": "Armes GTA 6 : où trouver le sniper SMS-01 et un arsenal gratuit dès le début du jeu ?",
-   "erreur": "429 : passage suivant"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOb1NuWnh0c1pDZ01kWWJuQk9OVFM0R2F6eVFqUWtMUlFmMW5JQ1VSNlZ1QWltdWRiR252Ym5PaFRYME56NzRQRWNCLThOUVczNVRNcEVBZXM0UXpaekFzem9HQUFQanNGd1UtWjlfYzQ1OW5jZ2FiT2psNDU0emRGWGhyR1JPX3lsS1JfamFyb1lGMlhYSUtJR3l0empiaFZKVFZBQmFRTXFLZzIxdm9mS1k2SHVjZHhnM1dDajFDV0NtOTA?oc=5",
    "s": "Inc.com",
    "d": "2026-11-19T18:46:24+00:00",
    "lang": "en",
    "t": "The GTA VI Leak Cost Rockstar $5 Million. For Most Studios, That Wouldn't Be the Biggest Loss",
-   "erreur": "429 : passage suivant",
+   "erreur": "HTTP Error 403: Forbidden",
    "cyberleek": true
   },
   {
@@ -577,7 +621,11 @@
    "d": "2026-11-19T14:02:30+00:00",
    "lang": "en",
    "t": "Cyberleek Shares More GTA 6 Footage Featuring Lucia Naked",
-   "erreur": "429 : passage suivant",
+   "u": "https://www.imdb.com/news/ni66063856/",
+   "img": "",
+   "chapeau": "",
+   "txt": "",
+   "pub": "",
    "cyberleek": true
   },
   {
@@ -599,7 +647,7 @@
    "d": "2026-11-19T09:10:26+00:00",
    "lang": "fr",
    "t": "GTA 6 débarque sans replay des missions, il faut passer par les sauvegardes",
-   "erreur": "429 : passage suivant",
+   "erreur": "Remote end closed connection without response",
    "cyberleek": true
   },
   {
@@ -686,7 +734,11 @@
    "d": "2026-11-17T13:00:13+00:00",
    "lang": "fr",
    "t": "GTA 6 : Qui est Arion Kurtaj, le hacker de la fuite ?",
-   "erreur": "429 : passage suivant",
+   "u": "https://ayther.fr/gta-6-qui-est-arion-kurtaj-le-hacker-de-la-fuite/",
+   "img": "https://ayther.fr/wp-content/uploads/2026/11/qui-est-arjon-kurtaj-gta-6.webp",
+   "chapeau": "Arion Kurtaj, le hacker de la fuite de GTA 6 en 2022, a plaidé coupable à Londres trois jours avant la sortie du jeu. Qui est-il ?",
+   "txt": "Arion Kurtaj est le jeune Britannique de 21 ans qui a piraté Rockstar Games en septembre 2022 et diffusé des images du jeu encore en chantier. Ce lundi 16 novembre 2026, à trois jours de la sortie, il a plaidé coupable devant la Woolwich Crown Court de Londres. Membre du collectif Lapsus$, Arion Kurtaj a reconnu l’attaque contre le studio, mais aussi des intrusions chez l’opérateur BT/EE, la néobanque Revolut et Uber. Au moment des faits, il n’avait que 17 ans.\nPour Rockstar, cette fuite de GTA 6 avait été un coup dur : le jeu n’avait encore jamais été montré officiellement, et le studio a dû encaisser la diffusion de séquences inachevées avant de présenter l’histoire et les personnages principaux à sa manière, plus d’un an plus tard. L’affaire refait surface au moment où les précommandes de GTA 6 atteignent des sommets , et alors que le jeu arrive enfin dans les mains des joueurs le 19 novembre. Pour être sûr d’avoir ton exemplaire de GTA 6 dès sa sortie, tu peux le précommander directement ici !\nLe scénario de l’attaque a de quoi surprendre. En septembre 2022, le jeune homme est déjà poursuivi pour de précédentes attaques informatiques et a été placé à l’hôtel pour sa propre protection, en liberté sous caution. Son ordinateur lui a été confisqué. Il contourne pourtant ses obligations avec les moyens du bord : un téléphone portable, le Wi-Fi de la télévision de sa chambre et un Amazon Fire TV Stick branché sur l’écran.\nC’est avec ce matériel que le hacker de GTA 6 s’introduit dans les systèmes de Rockstar. Il récupère environ 90 vidéos du jeu en développement, qu’il publie en ligne sous le pseudonyme TeaPotUberHacker. Il s’invite aussi sur la messagerie interne du studio, menace de diffuser le code source et réclame d’être contacté pour négocier. Rockstar refuse tout échange et publie un message public le 19 septembre 2022 pour confirmer l’intrusion, en assurant que le développement continuerait. Le studio a d’ailleurs fini par en rire : dans le deuxième trailer, Jason lance qu’il est occupé à réparer des fuites en rafistolant un toit, un clin d’œil que les fans ont vite relevé. Pour mesurer le chemin parcouru depuis, les coulisses du développement de GTA 6 racontent comment l’équipe a mené le projet jusqu’au bout.\nLe parcours judiciaire d’Arion Kurtaj a été long. Il avait plaidé non coupable en 2022. Des médecins l’avaient ensuite jugé inapte à être jugé, en raison d’un autisme sévère, et une prise en charge à vie en hôpital sécurisé avait été envisagée. En janvier 2026, il a finalement été déclaré apte à comparaître, ce qui a ouvert la voie à ce plaidoyer de culpabilité . Selon la presse britannique, il a aussi reconnu avoir détenu un téléphone non autorisé en prison en mars 2026. Les autres dossiers sont tout aussi lourds : entre août et novembre 2021, il s’était introduit dans les serveurs de BT/EE, ce qui a facilité des échanges frauduleux de cartes SIM, puis, depuis son hôtel, il a compromis les données de milliers de clients de Revolut.\nPour Uber, le préjudice estimé par l’accusation dépasse 2,8 millions de dollars. L’enquête, menée par la police de la City de Londres avec l’appui des autorités américaines, a été qualifiée d’exceptionnellement complexe par le procureur Robert Hutchinson, du parquet britannique. La peine doit être prononcée à Woolwich le 23 novembre, quatre jours après la sortie du jeu. Côté joueurs, l’essentiel est ailleurs : l’heure de sortie de GTA 6 en France approche, et le trailer de lancement signé Justice a déjà donné le ton.\nOublie les vidéos volées de 2022 : découvre enfin la vraie version de GTA 6, celle que Rockstar a peaufinée pendant des années.",
+   "pub": "2026-11-17T13:00:13+00:00",
    "cyberleek": true
   },
   {
@@ -695,7 +747,7 @@
    "d": "2026-11-17T12:38:48+00:00",
    "lang": "fr",
    "t": "Le hacker du leak GTA 6 plaide coupable à trois jours de la sortie",
-   "erreur": "429 : passage suivant",
+   "erreur": "Remote end closed connection without response",
    "cyberleek": true
   },
   {
@@ -742,8 +794,12 @@
    "s": "KultureGeek",
    "d": "2026-11-16T19:59:00+00:00",
    "lang": "fr",
-   "t": "GTA 6 : le hacker à l’origine de la fuite de 2022 plaide coupable",
-   "erreur": "429 : passage suivant",
+   "t": "GTA 6 : le hacker à l'origine de la fuite de 2022 plaide coupable",
+   "u": "https://kulturegeek.fr/news-364129/gta-6-hacker-lorigine-fuite-2022-plaide-coupable",
+   "img": "https://cdn.kulturegeek.fr/wp-content/uploads/2026/09/GTA-6-Lucia-Jason-Voiture-Piercing.jpg",
+   "chapeau": "Arion Kurtaj, le hacker qui avait dérobé et diffusé les premières images de GTA 6 en septembre 2022, a plaidé coupable aujourd'hui devant la justice",
+   "txt": "Sony détaille un peu plus la rétrocompatibilité sur sa PlayStation 5. Il sera possible de jouer à la grande majorité des jeux PlayStation 4 sur la PS5, mais tous ne seront pas compatibles.\nArion Kurtaj, le hacker qui avait dérobé et diffusé les premières images de GTA 6 en septembre 2022, a plaidé coupable aujourd’hui devant la justice britannique. Âgé aujourd’hui de 21 ans, l’ancien membre du groupe de pirates Lapsus$ a également reconnu plusieurs autres cyberattaques visant de grandes entreprises comme Uber, Revolut et BT/EE. Sa peine sera prononcée le 23 novembre.\nL’affaire avait particulièrement marqué Rockstar Games en septembre 2022. Arion Kurtaj était alors âgé de 17 ans et placé sous protection policière dans un hôtel, après avoir été poursuivi pour d’autres piratages. Son ordinateur avait été confisqué, mais cela ne l’avait pas empêché de poursuivre ses activités.\nIl avait réussi à pénétrer dans les systèmes de Rockstar Games en utilisant un téléphone portable, la connexion Wi-Fi du téléviseur de sa chambre et une clé Amazon Fire Stick. Il avait ensuite récupéré 90 vidéos de gameplay de GTA 6 , encore en développement, avant de les diffuser sur Internet sous le pseudonyme TeaPotUberHacker. Il avait également menacé de publier le code source du jeu si Rockstar Games ne répondait pas à ses demandes sur Telegram.\nCette fuite avait constitué la première véritable démonstration publique du jeu, plus d’un an avant sa présentation officielle. Les vidéos révélaient notamment des séquences de gameplay inédites et plusieurs éléments de l’univers de Grand Theft Auto VI . Rockstar Games avait confirmé l’intrusion et regretté que ces images aient été montrées avant leur présentation officielle.\nLe piratage de Rockstar ne représentait qu’une partie des activités d’Arion Kurtaj au sein de Lapsus$. Le hacker a également reconnu plusieurs autres cyberattaques particulièrement coûteuses :\nEn mars 2026, alors qu’il était incarcéré, le pirate avait également réussi à posséder illégalement un téléphone portable. Il s’en était servi pour envoyer un message provocateur au numéro d’urgence britannique 999.\nLe parcours judiciaire du pirate a été particulièrement inhabituel. En 2023, il avait été jugé inapte à plaider en raison de son état de santé. Un jury avait néanmoins conclu lors d’un procès portant uniquement sur les faits qu’il avait commis les actes reprochés. Il avait alors été placé dans un établissement psychiatrique sécurisé pour une durée indéterminée. Une nouvelle évaluation en 2025 l’a finalement déclaré apte à participer à son procès, permettant la reprise des poursuites et son plaidoyer de culpabilité du 16 novembre.\nLa justice britannique doit désormais prononcer sa peine le 23 novembre devant la Woolwich Crown Court. Cette affaire judiciaire arrive quelques jours seulement avant la sortie très attendue de GTA 6 , prévue le 19 novembre sur PlayStation 5 et Xbox Series X/S. Quant au hacker Cyberleek qui a dévoilé plusieurs fuites ces derniers mois, l’enquête continue.\nMerci de nous avoir signalé l'erreur, nous allons corriger cela rapidement.\nConsultant SEO et Content Marketing en freelance le jour et écrit ici la nuit.\nLe hacker Cyberleek est passé à l’action en proposant au téléchargement la version Xbox Series X/S de Grand Theft Auto VI (GTA 6) en torrent. Il...\nLa sortie de Grand Theft Auto 6 (GTA 6) provoque des pics de trafic importants sur les réseaux des opérateurs français. Orange, Bouygues Telecom et...\nYouTube change une nouvelle fois sa manière de compter les vues : la plateforme ajoute au compteur public une estimation du nombre de personnes regardant...\nLa France fait face à une intensification sans précédent des cyberattaques. Le Premier ministre Sébastien Lecornu estime que le niveau de menace est...\nLa Commission européenne a été victime d’une cyberattaque assistée par intelligence artificielle, détectée le 22 octobre mais seulement...\nRestez informé des dernières actualités * Seulement pour être notifié des nouveaux articles",
+   "pub": "2026-11-16T19:59:04+00:00",
    "cyberleek": true
   },
   {
