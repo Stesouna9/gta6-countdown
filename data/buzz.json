@@ -1,8 +1,47 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-20T18:12:34+01:00",
+  "updated_at": "2026-11-20T20:13:17+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-plantages-prologue-ps5-ce108255-gtalphaintel-2026-11-20",
+      "title": "GTA 6 : plantages dès le prologue et erreur CE-108255-1 sur PS5, selon @GTAlphaintel",
+      "summary": "@GTAlphaintel relaie des joueurs qui signalent des plantages dès le prologue de GTA 6. Sur PS5, l'erreur CE-108255-1 apparaît pendant des missions du début du jeu, dont Pipework avec Mandy. Le site 01net rapporte de son côté que le jeu refuse de se lancer sur certaines PS5. Aucune cause officielle n'est donnée à ce stade.",
+      "url": "https://x.com/GTAlphaintel/status/2123836269205536802",
+      "platform": "X",
+      "author": "@GTAlphaintel",
+      "status": "Rapporté",
+      "published_at": "2026-11-20T17:50:00.000Z",
+      "checked_at": "2026-11-20T20:13:17+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json : 11 566 vues (@GTAlphaintel, relevé 20/11 19 h 10 UTC). Corroboré par 01net, 20/11 : « GTA 6 refuse de se lancer sur certaines PS5 ».",
+      "visual": "Plantages PS5",
+      "image": "https://pbs.twimg.com/media/HXldSCYbkAAZKab?format=jpg&name=360x360",
+      "image_alt": "Publication de @GTAlphaintel sur les plantages de GTA 6 signalés par des joueurs",
+      "image_credit": "@GTAlphaintel sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "corroboration": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQY294d2hBVnY5TmpWeWhjblNJMy1CdG50TTlIWDZCOUx2ZHpvbHZfeGt3d21STTFCUHdjLVFfcWZoZHZMUUpLNDRXWGJNSTN0cGxKRk5VZWhVaXNFRVBOck5aaTIxSWpGM1BTVTNuMkc5Q2FIM3ZnTllibWxZTXJ1bTIxbExDTlpNVkFYek5maXVuemtvRklOdnNYZlJBN00zTk1NN0R5bVd6TDl1WXc?oc=5",
+      "post_text": "GTA VI players are reporting crashes as early as the prologue\n\nPS5 players have also encountered error CE-108255-1 during early missions, including Pipework with Mandy"
+    },
+    {
+      "id": "x-take-two-gta7-refus-gtalphaintel-2026-11-20",
+      "title": "GTA 7 : le PDG de Take-Two écarte les questions, selon @GTAlphaintel",
+      "summary": "@GTAlphaintel rapporte que le PDG de Take-Two refuse de répondre aux questions sur GTA 7, quelques jours après la sortie de GTA 6. Selon le post, il aurait répondu : « On vient à peine de lancer GTA 6... Sérieusement, les gars ? ». Aucun autre compte du relevé ni média de data/presse.json ne confirme ces propos.",
+      "url": "https://x.com/GTAlphaintel/status/2123788842138587285",
+      "platform": "X",
+      "author": "@GTAlphaintel",
+      "status": "Rumeur",
+      "published_at": "2026-11-20T14:41:32.000Z",
+      "checked_at": "2026-11-20T20:13:17+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json : 57 801 vues (@GTAlphaintel, relevé 20/11 19 h 10 UTC). Un seul compte dans le relevé : statut Rumeur.",
+      "visual": "Take-Two GTA 7",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2123527990613364736/img/7PxLD6NjMEKKq9AU.jpg",
+      "image_alt": "Publication de @GTAlphaintel sur les questions de Take-Two au sujet de GTA 7",
+      "image_credit": "@GTAlphaintel sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Take-Two CEO shuts down questions about GTA 7 just days after GTA 6's launch\n\n“We at Take-Two just went live with GTA 6... I mean guys, really?”"
+    },
     {
       "id": "x-weeknd-manoir-gta6-gtasix-2026-11-20",
       "title": "GTA 6 : le manoir de The Weeknd ajouté au jeu, selon @gtasix_",
@@ -5843,6 +5882,11 @@
       "at": "2026-11-20T18:12:34+01:00",
       "label": "Passage Claude Haiku (Matière X, 20/11 18 h)",
       "summary": "2 sujets ajoutés depuis x_alertes.json : manoir de The Weeknd (@gtasix_, 34 071 vues, Rumeur, un compte) et images de la soirée de sortie au Grails à Miami (@GTAVI_Countdown, 21 372 vues, Rumeur, un compte). Écartés : Take-Two/GTA 7 (16 280 vues, un compte), KFC Espagne (14 450), Cyberleek (déjà écarté), Sensor Tower 24,5 M et Florida Joker (déjà couverts), playstyle (11 133), Zelnick (2 379), RockstarNewsFRA (1 434)."
+    },
+    {
+      "at": "2026-11-20T20:13:17+01:00",
+      "label": "Passage Claude Haiku (Matière X, 20/11 20 h)",
+      "summary": "2 sujets ajoutés depuis x_alertes.json : plantages dès le prologue et erreur CE-108255-1 sur PS5 (@GTAlphaintel, 11 566 vues, Rapporté, corroboré par 01net) et PDG de Take-Two qui écarte les questions sur GTA 7 (@GTAlphaintel, 57 801 vues, Rumeur, un compte). Écartés : 2,3 milliards en 24 h (déjà couvert par Sensor Tower), Florida Joker, album Rockstar, Overmono (8 809 vues), Zelnick (6 606), playstyle, martx_tv (84)."
     }
   ],
   "coverage": {
