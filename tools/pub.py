@@ -860,6 +860,12 @@ try:
             URLS.append((fu, l, "0.7"))
     print(f"missions: {len(_ML)} pages × {len(T)} langues")
 except Exception as _ex: print("missions pages:", _ex)
+# sitemap : fiches bible et pages missions générées après l'étape 5 (oubli repéré le 20/11/2026)
+try:
+    _sm = open("sitemap.xml", encoding="utf-8").read()
+    _aj = "".join(f"  <url><loc>{u}</loc><lastmod>{TODAY.isoformat()}</lastmod><changefreq>weekly</changefreq><priority>{p}</priority></url>\n" for u, l, p in URLS if ("/bible/" in u or "/mission/" in u) and f"<loc>{u}</loc>" not in _sm)
+    if _aj: open("sitemap.xml", "w", encoding="utf-8").write(_sm.replace("</urlset>", _aj + "</urlset>")); print("sitemap +", _aj.count("<url>"))
+except Exception as _ex: print("sitemap missions:", _ex)
 
 # ------------------------------------------------------------------ 4c. flash : derniers articles pour la barre Suivre
 try:
