@@ -1,8 +1,65 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-20T00:12:52+01:00",
+  "updated_at": "2026-11-20T08:12:59+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-profils-criminels-cinq-niveaux-gtalphaintel-2026-11-20",
+      "title": "GTA 6 : le profil criminel aurait cinq niveaux, de Professional à Irredeemable",
+      "summary": "Selon @GTAlphaintel, le profil criminel du joueur comporterait cinq niveaux, Professional, Hardened, Violent, Psycho et Irredeemable, chacun avec ses avantages ou inconvénients. Information d'un seul compte, sans confirmation de Rockstar.",
+      "url": "https://x.com/GTAlphaintel/status/2123582101815521484",
+      "platform": "X",
+      "author": "@GTAlphaintel",
+      "status": "Rumeur",
+      "published_at": "2026-11-20T01:00:01.000Z",
+      "checked_at": "2026-11-20T08:12:59+01:00",
+      "evidence": "Vues relevées le 20/11 dans data/x_alertes.json : 42 344 vues, 657 j'aime, 65 marque-pages. Un seul compte relaie l'information ; non vérifiée par le site.",
+      "visual": "PROFIL CRIMINEL",
+      "image": "https://pbs.twimg.com/media/HXf-aIRaYAAHxWb?format=jpg&name=360x360",
+      "image_alt": "Publication de @GTAlphaintel sur le profil criminel de GTA 6",
+      "image_credit": "@GTAlphaintel sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "GTA 6's criminal profile has 5 stages with its own perk or drawbacks\n\nThe five levels are Professional, Hardened, Violent, Psycho and Irredeemable"
+    },
+    {
+      "id": "x-ventes-24-millions-sensor-tower-2026-11-19",
+      "title": "GTA 6 : plus de 24 millions d'exemplaires vendus, selon Sensor Tower",
+      "summary": "Selon Sensor Tower, relayé par @gtasix_ puis par @GTAVI_Countdown, GTA 6 aurait dépassé 24 millions d'exemplaires vendus, pour plus de 2,3 milliards de dollars de revenus. @GTAVI_Countdown indique que ce total dépasse celui des quatre jeux les plus précommandés réunis. Chiffres non confirmés par Rockstar ou Take-Two.",
+      "url": "https://x.com/gtasix_/status/2123559346097512957",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rapporté",
+      "published_at": "2026-11-19T23:29:36.000Z",
+      "checked_at": "2026-11-20T08:12:59+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json : 196 725 vues (@gtasix_, 19/11 à 23 h 29 UTC) et 86 347 vues (@GTAVI_Countdown, 20/11 à 1 h 09 UTC). Chiffre attribué à Sensor Tower, non vérifié par le site.",
+      "visual": "24 MILLIONS",
+      "image": "https://pbs.twimg.com/media/HXhl9xkXcAAxbB-?format=jpg&name=360x360",
+      "image_alt": "Publication de @gtasix_ annonçant plus de 24 millions d'exemplaires vendus de GTA 6",
+      "image_credit": "@gtasix_ sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "GTA 6 has now surpassed 24 MILLION units sold, generating over $2.3 BILLION in revenue.\n\n(Via Sensor Tower)"
+    },
+    {
+      "id": "x-appartement-dexter-morgan-vice-city-gtalphaintel-2026-11-19",
+      "title": "GTA 6 : l'appartement de Dexter Morgan trouvé à Vice City, selon @GTAlphaintel",
+      "summary": "Des joueurs auraient trouvé l'appartement de Dexter Morgan à Vice City, avec son kit de meurtre et le bateau de la série télévisée. Le compte @GTAlphaintel relaie la découverte ; aucune confirmation de Rockstar.",
+      "url": "https://x.com/GTAlphaintel/status/2123541346871017608",
+      "platform": "X",
+      "author": "@GTAlphaintel",
+      "status": "Rumeur",
+      "published_at": "2026-11-19T22:18:05.000Z",
+      "checked_at": "2026-11-20T08:12:59+01:00",
+      "evidence": "Vues relevées le 19/11 dans data/x_alertes.json : 21 367 vues. Un seul compte relaie la découverte ; non vérifiée par le site.",
+      "visual": "DEXTER VICE CITY",
+      "image": "https://pbs.twimg.com/media/HXhVlwfa4AAemCe?format=jpg&name=360x360",
+      "image_alt": "Publication de @GTAlphaintel sur l'appartement de Dexter Morgan à Vice City",
+      "image_credit": "@GTAlphaintel sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Players have found Dexter Morgan's apartment in Vice City\n\nIt is complete with his signature kill kit and boat from the TV series"
+    },
     {
       "id": "x-premiere-personne-telephone-glitch-2026-11-19",
       "title": "GTA 6 : un joueur trouve une méthode pour passer en vue à la première personne",
@@ -5585,6 +5642,11 @@
       "at": "2026-11-20T00:12:52+01:00",
       "label": "Passage Claude Haiku (Matière X, 20/11 00 h)",
       "summary": "2 sujets ajoutés depuis x_alertes.json : première personne par un glitch du téléphone au volant (@GTAVI_Countdown, 46 793 vues, Rumeur) et mème de défilement au volant (@GTAlphaintel, 25 664 vues, Création de fan). Écartés : Cyberleek build Xbox (407 556 vues, déjà couvert par la presse et les articles du site, image du post non utilisable sans risque de fuite) ; Lexie Shoaibi (déjà couverte) ; Manny Perez et Bobby Moynihan (déjà couverts) ; Leonida (remerciement sans information) ; gtasix_ PS6 (18 309 vues) et Lucia (15 303 vues), sous 20 000 vues."
+    },
+    {
+      "at": "2026-11-20T08:12:59+01:00",
+      "label": "Passage Claude Haiku (Matière X, 20/11 relevé 07 h)",
+      "summary": "3 sujets ajoutés depuis x_alertes.json : profil criminel à cinq niveaux (@GTAlphaintel, 42 344 vues, Rumeur), 24 millions d'exemplaires vendus selon Sensor Tower (@gtasix_ 196 725 vues, repris par @GTAVI_Countdown 86 347 vues, Rapporté), appartement de Dexter Morgan à Vice City (@GTAlphaintel, 21 367 vues, Rumeur, seuil 20 000 atteint). Écartés : identité d'une actrice présentée comme vraie cover girl (personne privée, non nommée), Cyberleek Xbox (déjà couvert), Lexie Shoaibi et Metacritic (déjà couverts), Playboi Carti et Dua Lipa (moins de 20 000 vues, un compte), licenciements et première conduite (sous le seuil)."
     }
   ],
   "coverage": {
