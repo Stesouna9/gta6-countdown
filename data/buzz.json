@@ -1,8 +1,46 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-20T16:12:39+01:00",
+  "updated_at": "2026-11-20T18:12:34+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-weeknd-manoir-gta6-gtasix-2026-11-20",
+      "title": "GTA 6 : le manoir de The Weeknd ajouté au jeu, selon @gtasix_",
+      "summary": "@gtasix_ affirme que Rockstar Games a ajouté le manoir de The Weeknd à GTA 6. Le post, publié le 20 novembre vers 13 h 50 (Paris), n'est relayé par aucun autre compte du relevé : c'est une information à prendre comme telle.",
+      "url": "https://x.com/gtasix_/status/2123776839936332224",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rumeur",
+      "published_at": "2026-11-20T12:53:51.000Z",
+      "checked_at": "2026-11-20T18:12:34+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json : 34 071 vues (@gtasix_, relevé 20/11 17 h UTC), 2 843 j'aime, 218 republications, 30 réponses. Un seul compte dans le relevé : statut Rumeur.",
+      "visual": "Manoir Weeknd",
+      "image": "https://pbs.twimg.com/media/HXkrxWmXcAEZ1ZF?format=jpg&name=small",
+      "image_alt": "Publication de @gtasix_ annonçant l'ajout du manoir de The Weeknd dans GTA 6",
+      "image_credit": "@gtasix sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Rockstar Games added The Weeknd's mansion to GTA 6."
+    },
+    {
+      "id": "x-soiree-sortie-minuit-grails-miami-gtavi-countdown-2026-11-20",
+      "title": "GTA 6 : images de la soirée de sortie de minuit à Miami, selon @GTAVI_Countdown",
+      "summary": "@GTAVI_Countdown publie des images de la soirée de sortie de minuit organisée par Gaming World au Grails, à Miami, où les participants ont pu revivre l'événement. Le post, publié le 20 novembre vers 16 h 04 (Paris), n'est pas repris par un autre compte du relevé.",
+      "url": "https://x.com/GTAVI_Countdown/status/2123794555505893633",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-20T15:04:14.000Z",
+      "checked_at": "2026-11-20T18:12:34+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json : 21 372 vues (@GTAVI_Countdown, relevé 20/11 17 h UTC), 1 082 j'aime, 97 republications, 25 réponses. Un seul compte dans le relevé : statut Rumeur.",
+      "visual": "Soirée Miami",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2123793907565604864/img/3vDyrx7R672uqlg0.jpg",
+      "image_alt": "Vignette de la vidéo publiée par @GTAVI_Countdown sur la soirée de sortie de GTA 6 au Grails, à Miami",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Footage from the GTA 6 midnight launch event Gaming World organized at Grails, Miami."
+    },
     {
       "id": "x-rockstar-album-disponible-2026-11-20",
       "title": "GTA 6 : l'album du jeu est disponible en streaming, vinyle et CD",
@@ -5800,6 +5838,11 @@
       "at": "2026-11-20T16:12:39+01:00",
       "label": "Passage Claude Haiku (Matière X, 20/11 16 h)",
       "summary": "1 sujet ajouté depuis x_alertes.json : l'album GTA 6 disponible, post officiel de @RockstarGames (340 976 vues, Officiel). Écartés : Cyberleek build Xbox (41 835 vues, un compte, build fuitée : image non reprise), Weeknd (11 566 vues), KFC Espagne (9 069), Kraken (16 063, un compte), UFO (12 765, un compte), Sensor Tower 24,5 M (déjà couvert), glitch première personne (19 282, sujet déjà couvert)."
+    },
+    {
+      "at": "2026-11-20T18:12:34+01:00",
+      "label": "Passage Claude Haiku (Matière X, 20/11 18 h)",
+      "summary": "2 sujets ajoutés depuis x_alertes.json : manoir de The Weeknd (@gtasix_, 34 071 vues, Rumeur, un compte) et images de la soirée de sortie au Grails à Miami (@GTAVI_Countdown, 21 372 vues, Rumeur, un compte). Écartés : Take-Two/GTA 7 (16 280 vues, un compte), KFC Espagne (14 450), Cyberleek (déjà écarté), Sensor Tower 24,5 M et Florida Joker (déjà couverts), playstyle (11 133), Zelnick (2 379), RockstarNewsFRA (1 434)."
     }
   ],
   "coverage": {
