@@ -120,7 +120,7 @@
     });
     var NOMS = LO.map(function (o) { return o.n; }).sort(function (a, b) { return b.length - a.length; });
     function secteur(p) {
-      var t = [p.en, p.note_en, p.fr, p.note_fr].join(" "), best = null, bi = 1e9;
+      var t = [p.en, p.note_en, p.fr, p.note_fr, p.q].join(" "), best = null, bi = 1e9;
       NOMS.forEach(function (n) { var m = new RegExp("\\b" + n.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\b", "i").exec(t); if (m && m.index < bi) { bi = m.index; best = n; } });
       return best;
     }
@@ -138,7 +138,7 @@
       var c = C[p.couche] || {}, o = trouve(p._s);
       var src = (p.sources || []).map(function (u, i) { return '<a href="' + esc(u) + '" target="_blank" rel="noopener nofollow">' + esc(tr("sl_source", "Source")) + " " + (i + 1) + "</a>"; }).join(" · ");
       return '<div class="cx-pop cx-pop-c"><em style="color:' + esc(c.couleur) + '">' + esc(txt(c)) + "</em><b>" + esc(txt(p) || p.id) + "</b><span>" + esc(tr("cx_secteur", "Secteur")) + " : " + esc(p._s) + (o ? " · " + esc(tr("sl_off_case", "Case")) + " " + esc(o.case) : "") + "</span>" +
-        (txt(p, "note_") ? "<p>" + esc(txt(p, "note_")) + "</p>" : "") + '<small class="cx-approx">' + esc(tr("cx_approx", "Icône posée sur le secteur que nomme le guide : l'emplacement exact se trouve dans ce secteur.")) + "</small>" + (src ? "<small>" + src + "</small>" : "") +
+        (txt(p, "note_") ? "<p>" + esc(txt(p, "note_")) + "</p>" : "") + (p.lien ? '<a class="cx-pop-t cx-pop-lien" href="' + esc(p.lien) + '">' + esc(tr("cx_mis_ouvrir", "Ouvrir la soluce")) + " →</a>" : "") + '<small class="cx-approx">' + esc(tr("cx_approx", "Icône posée sur le secteur que nomme le guide : l'emplacement exact se trouve dans ce secteur.")) + "</small>" + (src ? "<small>" + src + "</small>" : "") +
         '<button type="button" class="cx-pop-t' + (S.p[p.id] ? " fait" : "") + '" data-p="' + esc(p.id) + '">' + esc(S.p[p.id] ? tr("sl_trouve_non", "Pas encore trouvé") : tr("sl_trouve", "Trouvé ✓")) + "</button></div>";
     }
     function dessineC() {
@@ -247,7 +247,7 @@
     function rendPan() {
       rendOng();
       var h = "";
-      var FAMS = [["l", "cx_f_lieux", "Lieux"], ["c", "cx_f_coll", "Collections"], ["a", "cx_f_act", "Activités"]];
+      var FAMS = [["m", "cx_f_mis", "Missions"], ["l", "cx_f_lieux", "Lieux"], ["c", "cx_f_coll", "Collections"], ["a", "cx_f_act", "Activités"]];
       function famC(c) { return c.famille || ({ garages: "l", banques: "l", bijouteries: "l", wainK: "c", cartes: "c", zones: "c" })[c.id] || "a"; }
       if (onglet === "lieux") {
         var lt = "";
@@ -351,7 +351,13 @@
            schéma des 6 régions cliquable (aucun point inventé) ; toucher une région filtre la liste des lieux */
         el.innerHTML = "";
         /* 19/11 15 h : carte officielle Rockstar (« Leonida Map & Cover Art Poster », rockstargames.com/VI/media) : zoomable, sans point inventé */
-        if (D.fond_officiel) { carteOff(el, D, C); return; }
+        if (D.fond_officiel) {
+        fetch("data/carte_missions.json", { cache: "no-cache" }).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }).then(function (M) {
+          if (M && M.points && M.points.length) { D.couches.push(M.couche); C[M.couche.id] = M.couche; M.points.forEach(function (p) { D.points.push(p); }); }
+          carteOff(el, D, C);
+        });
+        return;
+      }
         el.classList.add("ct-schema");
         var Hs = 1000, ms = L.map(el, { crs: L.CRS.Simple, minZoom: -2, maxZoom: 1.5, zoomSnap: 0.25, attributionControl: false, scrollWheelZoom: false, tap: true });
         var Bs = [[0, 0], [Hs, Hs]];
