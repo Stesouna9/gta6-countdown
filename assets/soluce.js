@@ -97,7 +97,8 @@
     var mo = L.map(mapEl, { crs: CRS, minZoom: 0, maxZoom: 9.5, zoomSnap: 0, zoomDelta: 0.5, wheelPxPerZoomLevel: 110, wheelDebounceTime: 20, scrollWheelZoom: true, doubleClickZoom: true, touchZoom: true, dragging: true, inertia: true, zoomControl: false, attributionControl: true, tap: true, bounceAtZoomLimits: false });
     L.control.zoom({ position: "bottomright", zoomInTitle: "+", zoomOutTitle: "−" }).addTo(mo);
     mo.attributionControl.setPrefix(false).addAttribution('Fond : <a href="https://gtadb.org" target="_blank" rel="noopener">gtadb.org</a> et contributeurs, CC BY 4.0');
-    L.tileLayer(R + "tuiles/leonida/{z}/{z},{y},{x}.jpg", { zoomOffset: -2, minNativeZoom: 2, maxNativeZoom: 8, tileSize: 256, bounds: [[-81, -156], [3140, 2402]], keepBuffer: 3, updateWhenZooming: false, className: "cx-tuiles" }).addTo(mo);
+    var RT = (window.devicePixelRatio || 1) > 1.3;
+    L.tileLayer(R + "tuiles/leonida/{z}/{z},{y},{x}.jpg", { zoomOffset: RT ? -1 : -2, minNativeZoom: RT ? 1 : 2, maxNativeZoom: RT ? 7 : 8, tileSize: RT ? 128 : 256, bounds: [[-81, -156], [3140, 2402]], keepBuffer: 3, updateWhenZooming: false, className: "cx-tuiles" }).addTo(mo);
     var TERRE = [[248.9, 277.9], [2754.0, 2083.0]];
     var ZB = 0;
     function cadre(anim) { mo.invalidateSize(); var zf = mo.getBoundsZoom(TERRE, false); ZB = zf; mo.setMinZoom(zf - 0.6); var pw = (!mob && !pan.hidden) ? pan.offsetWidth + 24 : 0; mo.fitBounds(TERRE, { animate: !!anim, paddingTopLeft: [10, 60], paddingBottomRight: [pw, 10] }); }
@@ -170,7 +171,7 @@
       mo.flyTo(m.getLatLng(), zc, { duration: .6 }); mo.once("moveend", function () { m.openPopup(); });
       if (mob) { pan.hidden = true; majPanBtn(); }
     }
-    function etiquettes() { el.classList.toggle("cx-labs", noms && mo.getZoom() >= mo.getMinZoom() + 0.35); }
+    function etiquettes() { el.classList.toggle("cx-labs", noms && mo.getZoom() >= mo.getMinZoom() + 1.1); }
     var noms = true;
     function popLieu(o) {
       var l0 = parS[o.n] || [];

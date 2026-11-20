@@ -416,3 +416,4 @@ body:has(.cx-map) .sl-tete h1{font-size:clamp(20px,2.4vw,30px);margin:2px 0}
 body:has(.cx-map) .sl-tete h1~p,body:has(.cx-map) .sl-tete .sl-fil{display:none}
 body:has(.cx-map) .sl-tete+.sl-sec{padding-top:6px!important}
 @media(max-width:700px){body:has(.cx-map) .sl-tete h1{font-size:18px}}
+.cx-map img.leaflet-tile{mix-blend-mode:normal!important}
