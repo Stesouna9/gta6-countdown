@@ -404,8 +404,8 @@ html.cx-bloque,html.cx-bloque body{overflow:hidden}
 .ms-pg-carte{margin:20px 0}
 /* V3 20/11 : mer continue, carte haute, bulles par secteur */
 .cx-map{background:#2f90b0!important}
-.ct-zone.ct-seule #carte.cx{height:calc(100vh - 90px);min-height:520px}
-@media (max-width:820px){.ct-zone.ct-seule #carte.cx{height:calc(100svh - 70px);min-height:460px}}
+.ct-zone.ct-seule #carte.cx{height:calc(100vh - 150px);min-height:520px}
+@media (max-width:820px){.ct-zone.ct-seule #carte.cx{height:calc(100svh - 185px);min-height:440px}}
 .cx-bul i{display:grid;place-items:center;width:100%;height:100%;border-radius:50%;box-shadow:0 0 0 3px #0b0812,0 4px 14px rgba(0,0,0,.45);transition:transform .15s}
 .cx-bul b{display:grid;place-items:center;width:calc(100% - 10px);height:calc(100% - 10px);border-radius:50%;background:#0b0812;color:#fff;font:700 13px/1 system-ui,sans-serif}
 .cx-bul:hover i{transform:scale(1.12)}
@@ -417,3 +417,4 @@ body:has(.cx-map) .sl-tete h1~p,body:has(.cx-map) .sl-tete .sl-fil{display:none}
 body:has(.cx-map) .sl-tete+.sl-sec{padding-top:6px!important}
 @media(max-width:700px){body:has(.cx-map) .sl-tete h1{font-size:18px}}
 .cx-map img.leaflet-tile{mix-blend-mode:normal!important}
+.cx:not(.cx-labs) path.cx-pt{display:none}
