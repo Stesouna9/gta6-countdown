@@ -1,8 +1,27 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-20T12:13:03+01:00",
+  "updated_at": "2026-11-20T14:13:00+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-florida-joker-population-credits-gta6-2026-11-20",
+      "title": "GTA 6 : Florida Joker aurait été engagé par Rockstar et figure dans les crédits, selon @GTAVI_Countdown",
+      "summary": "Selon @GTAVI_Countdown, Rockstar aurait engagé Florida Joker pour jouer son propre personnage dans GTA 6 : il fait partie de la population locale et apparaît aux crédits. Le post cite aussi une vidéo où ce personnage se bat avec un autre PNJ, ce qui mène à son arrestation. Aucune confirmation de Rockstar.",
+      "url": "https://x.com/GTAVI_Countdown/status/2123750936652693843",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-20T12:10:55.000Z",
+      "checked_at": "2026-11-20T14:13:00+01:00",
+      "evidence": "Vues relevées le 20/11 dans data/x_alertes.json : 39 528 vues (@GTAVI_Countdown, 12 h 10 UTC, 1 197 j'aime, 64 reposts). Un seul compte relève l'information à ce stade.",
+      "visual": "FLORIDA JOKER",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2123750206122401792/img/3uZiKKmFyPP66Byt.jpg",
+      "image_alt": "Vignette de la publication de @GTAVI_Countdown sur Florida Joker dans GTA 6",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Texte original en anglais : Rockstar aurait engagé Florida Joker pour jouer son personnage, crédité au générique ; il fait partie de la population locale et une vidéo le montre se battre avec un PNJ, ce qui mène à son arrestation."
+    },
     {
       "id": "x-jennie-power-trip-gta6-album-2026-11-20",
       "title": "GTA 6 : la chanson « Power Trip » de JENNIE publiée en entier sur X",
@@ -5752,6 +5771,11 @@
       "at": "2026-11-20T12:13:03+01:00",
       "label": "Passage Claude Haiku (Matière X, 20/11 11 h)",
       "summary": "3 sujets ajoutés depuis x_alertes.json : JENNIE « Power Trip » en entier (@GTAVI_Countdown, 34 976 vues, Rumeur), plusieurs moyens de semer la police hors six étoiles (@GTAlphaintel, 22 702 vues, Rumeur) et cover girl réelle révélée (@gtasix_ 196 994 vues et @GTAVI_Countdown 58 402 vues, Rapporté, nom omis). Écartés : Cyberleek Xbox (17 529 vues, un compte), Lexie Shoaibi et Mandy (déjà couvert), Metacritic 99, vente de 24,58 millions et Sensor Tower (déjà couverts), Playboi Carti (14 818 vues), « how it started » (proche du comparatif du 19/11), gtasix_ première personne (déjà couvert), Lucia (déjà couvert), post RockstarNewsFRA (673 vues), GTA6France1 (30 vues)."
+    },
+    {
+      "at": "2026-11-20T14:13:00+01:00",
+      "label": "Passage Claude Haiku (Matière X, 20/11 14 h)",
+      "summary": "1 sujet ajouté depuis x_alertes.json : Florida Joker intégré à GTA 6 et aux crédits (@GTAVI_Countdown, 39 528 vues, Rumeur). Écartés : Cyberleek Xbox build (31 992 vues, un compte ; image du post non reprise pour ne pas montrer un contenu fuité), « how it started » (comparatif déjà couvert le 19/11), Kraken, UFO, glitch première personne (sous 20 000 vues), Lexie Shoaibi, Playboi Carti, Metacritic 99, Sensor Tower (déjà couverts), RockstarNewsFRA (790 vues), GTA6France1 (32 vues)."
     }
   ],
   "coverage": {
