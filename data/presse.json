@@ -1,12 +1,45 @@
 {
- "maj": "2026-11-20T12:40:12+00:00",
+ "maj": "2026-11-20T13:00:25+00:00",
  "articles": [
   {
-   "gn": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOV3lNTGR2R1FTS0hVMUNpMmI2cVFUd2dhSkJQQVVvRHZGUUxBYkNJUmJVN0FNSWNDZ3c1UFduVGQ2dUFNOGFVbFUwRzRDS1B6WGRuNk5saGtnUThzS21Zd3RFWjZhc2FpNnZJaGYtOTBEalg5c3dUY0ZfUXg3OHEzTnNQbTNfZlBGOU9vb3h3?oc=5",
-   "s": "Business Insider",
-   "d": "2026-11-20T12:35:00+00:00",
+   "gn": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPSzJLZFRLaHh1QnBDeXlPRlozVE5KdUtTejVUT25UMkxRUXl0bWJJSElCOFMwWEtoUnN4MHVhcDBBRWpBY2hwUXBiOU9teS1tc25XOTFiRkRSZTRuYkVteWJzUzFUWE8wcHNncWh1VjFjcjVSZ2EtM3dBTWlIcW9BVG0yWmJMTDVndm9CU1Y2Q3p1cUR3V3U2WWVvUFZ3N2Y2eXZUUDB0S3BVUTU1XzBkRWkxdFV5aExhTmZHTUI1ZUZEZUpDXzBIank0SQ?oc=5",
+   "s": "20 Minutes",
+   "d": "2026-11-20T12:53:00+00:00",
+   "lang": "fr",
+   "t": "Les stars de la musique se bousculent dans la bande originale de « GTA 6 »",
+   "erreur": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9vNE5Rb0FSdmxLN0M5Y0wxYU5iSlJ0X29rU2YwRXpTLXExb1QyZWpidUhjcWY3cldsaDM2Vjg4aHM5LXNkX2xvNDdrRmNxaVRMT21hVUxPRlhZWUVMN25oRXM1RTFROXlmenAtMUV0RXRYN0hjek1DZm1QZw?oc=5",
+   "s": "Polygon.com",
+   "d": "2026-11-20T12:47:30+00:00",
    "lang": "en",
-   "t": "'GTA 6' Will Be the Creator Economy's Next Big Bonanza",
+   "t": "GTA 6 Caused a Mass 'Migration' of Over 2 Million People",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNT2w1YURwSGFSWFpyTWdnUzdySkFVT2h1WEplM1NTY2tzRkdzUFNJSWtVYi1zX29oSkpCLWY5RVpnVmgxUG44UDZUTGppT2FiZWRfbzVWTERxSXVBMmlGeTQ2a2JqQVBwUl9hUzlKdWQ2eUpLamN3MFpWT0N3X1ZCWUJ3eWh5MU91Zm5aVTVxSHZuRVFJN3BfeGlrMWYwUXZUd2xsZ0ttQzRWb19LcmVzXy0yZUhHNUlVSktfNHkzVWxuMlRkZThz?oc=5",
+   "s": "ActuGaming",
+   "d": "2026-11-20T12:42:40+00:00",
+   "lang": "fr",
+   "t": "Au Japon, GTA 6 est censuré pour éviter la nudité et une part de représentation de la violence",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNOFJvNFRNYVpuRDZCNC03YUoyVmU0V0FteVdaT3otWGxuQVNDQXZjOWJ1VWM0M2o3bXBLb1VudzRwWjVIUXlLVHJ4Rm42NUFkSTE0Y3lZVlNkZW43aU9XbUJJMnNtTFdVX2U0dE43UVFuUFZmaV9mT0NXZHo3YUlPOXc2dndSR0FWb0pGQ251R3JRNC1wcTZxa3NTX2ZBZU45cnNldWl4dmlna1BjdEJwSXdjaGpFVGZTcDdhdHFsYzB4S1RQMkZHekRvVVJCY1hZeVdKTHdVWjBwQWN1a2lfUjZ3?oc=5",
+   "s": "Journal du Geek",
+   "d": "2026-11-20T12:41:04+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : après Jason et Lucia tout nus, Cyberleek promet la version piratée du jeu complet pour le 23 novembre",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPMXZ5LTZUcEdhdFJGMnBrcXNqcTdpTGd6WU91M1hhSXhsdlB2SjZMUV9qb3BZY01aOHEwU0Zwa1FPUXVpM3d2QTFNcDdfeDc4WGJHRHlHM3p1LTh2TGZSRzNhVVRFQXhQa3RNeG5UdmRKbUpRcDJGdDFPSG5QSDhONlhhRmR5ZlMzY0RhZm1KRDJEZFpZUE83bmI0WFlreHFMLU1hU0pQZlBCNkUxTE4wTmhnWW5qbWpNR05QMXJ5ZDlsREwy?oc=5",
+   "s": "20 Minutes",
+   "d": "2026-11-20T12:41:00+00:00",
+   "lang": "fr",
+   "t": "Bigfoot, jet-ski avec un chien, doomscroll… C’est aussi ça « GTA 6 »",
    "erreur": "429 : passage suivant"
   },
   {
@@ -17,6 +50,14 @@
    "t": "GTA 6 Leaker ‘Cyberleek’ Reportedly Threatens to Release the XBOX Build",
    "erreur": "429 : passage suivant",
    "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPd3VZejdkNWFzbUUtcTR4U3FBRmpkQnExZHNkdV9pYkFWSm9OUXQyMFVaWlJaVWJmMXhFQmRYZ1BHd1YtSDk3R1g5bV9ILTdHMHhCQU9FZkUtdHFYSjFoQTBfbmM2U1NfT2NqY0ZjaDB4Z01DTXlvbmZVNXdza3c1UmtOb3hLbXFhY2VrVGc4MVdqeHRMdk5kZlJjM3dJTDNfSTdoWldaRTdmME5ieUJVaTZUNW5NZw?oc=5",
+   "s": "Yahoo",
+   "d": "2026-11-20T12:10:00+00:00",
+   "lang": "en",
+   "t": "Abbott Elementary Star ‘Bullied’ Her Way To Play GTA 6 Role: ‘They Didn’t Choose Me’",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTHU1WFQyWnMxU3FQNmJBcTlyLWMwVFlWQVdiR0pXcVBOempwNTFrNWllMnk3QmU2MWNCSWdxZkNiQm1QSVZkaHdPQjFzVlB3TmZnUGVubDlPY0hTX0kwc3VQaFpJYzctMFdSWXNaMXBZX0U0VE1TM1oyb3NaRVFRbzVmNWpIeU8zX2tkdnJPQ0ltTHJsS0o2UWk2bkVvNzlQV2dfVtIBqgFBVV95cUxOckFxUGhlTHhfQk1WRjlHRDFWTnp5Y3pXYXlYMmlKZkdxaVVvbktWUmVVMTJFU3czME1ITllJVms0R3Q3WXJjc3JVc2NneGtwT3VKV0w1Vk5LTVpWcTU3YUpvQWw2cGkyMzhrS2tGYjlUU3o4aXl0VnMycFl2TWdIN2ZYQTR2cUtSRWpwSXpHZU1xSWt0cE1XS25QT1ZSMk10WG9Tb1hFYlB6UQ?oc=5",
@@ -44,6 +85,14 @@
    "erreur": "429 : passage suivant"
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNR19UTzN5VEtfUTRmZEIweG5OQkl0UU9vOVI4Yk5FZEpkZzNDOEsyQlV0dXAxSGlUSHBmMUlMc2FMcTNXQ3hQTjNncmJ1bjlzdXhUMlM2enVoZ2FjR2tTQmVkc21oWkx2Sk1iQzlqN19DcWxxMjNaRzJUaVU3MmtZLWs2bzFfOEVu?oc=5",
+   "s": "Polygon.com",
+   "d": "2026-11-20T12:00:36+00:00",
+   "lang": "en",
+   "t": "GTA 6 Actor Says Rockstar Made Their Non-Binary Character Unkillable",
+   "erreur": "429 : passage suivant"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9SME9VNnQyRFFKTDh0cEREaHZza3lnS3FUVTM1R3Q5dzhhLVBxS21MLUg5bzBUVjFRUkY4dWlzS2FyX09jaWpNeUV6Zk1mUXpiaFlsNmlIZmVQVUxMNUFQUnV1NGk2cldMeWlBaFVUbEVOaTdraFg2aV9oUEtZbVE?oc=5",
    "s": "SVG",
    "d": "2026-11-20T12:00:00+00:00",
@@ -66,7 +115,7 @@
    "d": "2026-11-20T11:54:59+00:00",
    "lang": "fr",
    "t": "GTA VI : l’indignation sélective du RN des Bouches-du-Rhône sur la violence dans les jeux vidéo",
-   "erreur": "HTTP Error 429: Too Many Requests"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWnJuLV9TbGZJNHZQNjNkd3lSQTZmay1JRk85ckpWenR5VDRiemctaHBaX1Q2b1A0ay12Uk5rYWkwdFZLX1FUUXR3RkswMXBxM3FGZnJmOUJwMlVubUJnQmZUVFRHT3VFYXFHdTRxOWlxQUd6aF9ZWHcwYmhDRENnUmljYkpsNEFD?oc=5",
@@ -83,6 +132,14 @@
    "d": "2026-11-20T11:51:34+00:00",
    "lang": "en",
    "t": "GTA 6 Criminal Profile: How the system works",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPc1B3NzFaVVhxcEtUdnFLVmp5MHhEN19iZ1FtRGVxM2V1dmJUeGJXSElzR3I3WlpzT2oySjhDczFRNmZBbFpKcUwwM3gxQ1lJLXhkaWJMX1h3WXRMMnNQNkdocjd4Wm03dXdQeHZuZmRBMGtpMEZ1UmJBVXdCT2U5d2pLRWtseFNkRFNDZS1kWEZmczdjLU1lcEo3NnpyTEVXNGVqZmt5WTVuVk9Tdl9zWklWMkNZT3NBS2xIRnJnMWNaa2tDY2U2c1hHaVM2ZjhIWlJvQTFWSQ?oc=5",
+   "s": "IGN Southeast Asia",
+   "d": "2026-11-20T11:50:36+00:00",
+   "lang": "en",
+   "t": "GTA 6's Full Credits Spark Returning Character Rumor — Are They Really in the Game?",
    "erreur": "429 : passage suivant"
   },
   {
@@ -191,22 +248,6 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRHNSZzRUbWNtNVlMQkN6bmFwN1ZtTlJPdndEbFhnWkhIZXlYQXNlOHlUZzhEdml0aFE1TmFUU2ZPTVZKOWQxX0JqUFV0dVUyMDVxdG1HU0hodW55dDBOWFNwbFlTSzQ0OXN6dWlFUkV1YURLMFpfdEh0YXVJNFJ5TEMtQmd3SHplT29V?oc=5",
-   "s": "Business Insider",
-   "d": "2026-11-20T11:29:00+00:00",
-   "lang": "en",
-   "t": "What's up with WhatsApp's X page? Meta leans into GTA 6 parodying Big Tech",
-   "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORFlsRXh5NU1LeW1KY3BPN2dPM0FOSjZpVEpIaHZlUnlNNnp2WnU5SmluZnVxX2hKeVQ3THp2c1BVN19DVGIxWmtsNkVuai1ZajNsRXQ0OXZoVG9lTklWNGt0dS0zYVVNbFVRZGs1MVkwUWJVamFrOEYwT3RlUzZDVE9xYl8?oc=5",
-   "s": "GameSpot",
-   "d": "2026-11-20T11:26:53+00:00",
-   "lang": "en",
-   "t": "GTA 6 Has Aliens, And Here’s How To Find Them",
-   "erreur": "429 : passage suivant"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQMGN1aFRmTDJpbDNhSTAtX2xNUUNZbnpUcXpKUTFCZG9kSHNJZlh5dEZmeWZkZ0pkem1Ia2htNnpFa2RaT0xTbWNIWXdYejdhVnRGbWpNN09maFdkY1FqOTFJNTNXbnhPOEl6Q1hCRGdvYl9rR0FKNlVqRTE2YllwUzlNaVZqa05sd28waW5oM2xtMnJiRVVtWVZIRE5iVDJRckotMXlfcklCaTdWLUxHTXRjX19KNnRZVUZGNFF0RTBVVnpTajBZMnVLWEx0S3htZU9ISmZfd0hiQQ?oc=5",
    "s": "Actu.fr",
    "d": "2026-11-20T11:23:40+00:00",
@@ -217,14 +258,6 @@
    "chapeau": "Emmanuel Grégoire est accusé par plusieurs internautes d'avoir séché le Conseil de Paris du jeudi 19 novembre pour pouvoir jouer au nouveau GTA 6. L'élu répond.",
    "txt": "Emmanuel Grégoire est accusé par plusieurs internautes d'avoir séché le Conseil de Paris du jeudi 19 novembre pour pouvoir jouer au nouveau GTA 6. L'élu répond.\nC’est un buzz mondial auquel les politiques n’ont pas échappé : la sortie du nouveau jeu vidéo GTA 6 dans la nuit du mercredi 18 novembre vers minuit. Le maire de Paris, Emmanuel Grégoire, était lui aussi devant sa télévision et sa console pour découvrir ce jeu, attendu depuis plus de 13 ans .\nLe maire de Paris s’est immortalisé sur Instagram dans son salon, avec en fond, le téléchargement de GTA 6. Le tout accompagné d’un message : « Let’s go ».\nCertains utilisateurs font un parallèle étonnant le lendemain affirmant que l’édile a joué une partie de la nuit aux jeux vidéo avant de sécher le Conseil de Paris du jeudi 19 novembre. « C’est parce qu’ il a joué toute la nuit à GTA 6 qu’Emmanuel Grégoire a séché le Conseil de Paris ce matin ? », demande dès le lendemain le militant #SaccageParis Enzo Morel sur X avant de préciser qu’Emmanuel Grégoire est arrivé sur place vers 12 heures.\n« Qui ici se pointe au boulot vers midi, sans remontrances ni perte de revenu ? », renchérit un autre internaute. Face à des publications qui cumulent des dizaines de milliers de vues sur les réseaux sociaux, le maire socialiste de Paris a répondu dans la soirée du jeudi 19 novembre.\n« C’est inacceptable » : ces joueurs furieux contre GTA VI dès les premières heures de sa sortie\n« Merci de vous préoccuper de mon emploi du temps, mais j’étais bien à l’heure pour mon rendez-vous de 9 heures dans mon bureau avec le déontologue de la ville de Paris, que je vois régulièrement. J’ai ensuite présidé la séance du Conseil de Paris », se défend le maire de Paris.\nPersonnalisez votre actualité en ajoutant vos villes et médias en favori avec Mon Actu .",
    "pub": ""
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMickFVX3lxTE5uMmpYSW1TZXhsV283QXdBaXVJM0tYSjhTbTVMWEZGeWlmRzBwaEI0ZHZ5VHcwdWYwRmhZWkUzNWlCYnFUMVlsYjlwSUROd1ZFb29MRUlDOGtRVFd2T2dPeHlsMHJWd0FDeUxxYTRwZ2hCQQ?oc=5",
-   "s": "Axios",
-   "d": "2026-11-20T11:17:19+00:00",
-   "lang": "en",
-   "t": "GTA VI hijacks America",
-   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTms0MmpHVHQ5SFZOOHZtY1UwdEhCc1M3cXhvQTJyamh1OTRfS0tBNmw5cDI2QUx1MFY1Y0xkNTA2c0F4THZndjFsdWxuRk5Ldk1pRVFaN213clR6clJ5UHpyUnFKREVHREQtRXJULWV4cnNTRDhyal9Xa0pDcWJMTlk5V2MzS2g2LUkw?oc=5",
@@ -282,46 +315,6 @@
    "chapeau": "Entre une manette officielle à près de 60 € et une alternative autour de 40 €, le choix ne se résume pas au prix. Tout dépend de la console,",
    "txt": "La rédaction du Parisien n'a pas participé à la réalisation de cet article.\nEntre une manette officielle à près de 60 € et une alternative autour de 40 €, le choix ne se résume pas au prix. Tout dépend de la console, des sensations recherchées et de l’usage (manette principale ou seconde manette). Voici comment trancher, avec une sélection claire de modèles PS5 et Xbox à considérer.\nUn grand jeu qui débarque, et la même question revient : faut-il rester sur une manette officielle, ou tenter une manette compatible moins chère ? Entre l’envie de profiter au maximum des sensations et la réalité du budget, le bon choix dépend surtout de la console… et de ce que le jeu exploite vraiment.\nL’avantage de la manette officielle est simple : elle n’est pas seulement un “contrôleur”, c’est une partie de l’expérience. La Playstation 5 Manette 5 Officielle DualSense Sans Fil à 59.99 € se distingue par ses retours haptiques et ses gâchettes adaptatives. Concrètement, on ne parle pas de simples vibrations : les effets peuvent simuler une texture, une surface, un impact, tandis que les gâchettes L2/R2 modifient leur résistance selon l’action (accélération, freinage, tension d’un arc, etc.). À cela s’ajoutent un haut-parleur intégré, un micro, un pavé tactile et une batterie rechargeable en USB-C. Pour un titre ambitieux, c’est typiquement le genre de fonctionnalités que les développeurs exploitent pour renforcer l’immersion.\nDe nombreuses manettes tierces “pas chères” fonctionnent surtout avec les jeux PS4, même si elles se branchent sur une PS5. Pour éviter la mauvaise surprise au moment de lancer un jeu PS5, il faut vérifier explicitement la mention “compatible PS5”.\nUne alternative abordable comme la SpaceWatt Manette sans Fil Compatible PS5 à 37.99 € peut alors devenir intéressante : elle vise un rapport fonctionnalités/prix agressif, souvent avec une approche plus “pro” (vibrations réglables, boutons supplémentaires selon versions). En revanche, il faut garder en tête qu’à ce tarif, les compromis se jouent souvent sur la qualité des plastiques, la précision des sticks dans le temps, ou le suivi logiciel. Pour une manette principale PS5, l’option la plus sûre reste l’officielle.\nLa situation est différente. La manette officielle est excellente en ergonomie, en compatibilité et en prise en main, mais elle ne mise pas sur des effets haptiques avancés équivalents à ceux de la DualSense.\nLa Xbox Manette sans fil Noir carbone Series X|S à 44.99 € est un standard : sticks asymétriques très naturels, surfaces texturées, croix directionnelle précise, bouton de partage, et connexion polyvalente (Xbox Wireless à faible latence et Bluetooth). Sur PC, elle est généralement reconnue immédiatement, ce qui évite réglages et pilotes inutiles.\nelle fonctionne avec des piles AA par défaut. Certains adorent, car cela permet de repartir instantanément avec un jeu de piles et d’éviter une batterie interne qui vieillit ; d’autres préfèrent un rechargeable pour ne plus acheter de piles. Mais en termes de confort global, c’est une valeur sûre. Justement parce que l’officielle Xbox n’a pas “l’effet wahou” haptique de la PS5, les alternatives moins chères prennent davantage de sens, surtout pour une seconde manette ou un usage PC.\nLa YCCTEAM Manette Filaire pour Xbox One à 28.99 € joue la carte du pragmatisme : filaire USB, donc zéro recharge, zéro pile, et une latence très stable. C’est une solution simple pour un deuxième joueur, pour un bureau, ou pour limiter le budget sans se compliquer la vie. Évidemment, le câble peut gêner dans un salon et la finition est souvent plus légère qu’un modèle premium.\nSur PS5, une manette officielle est le meilleur choix pour profiter pleinement des fonctionnalités pensées pour la console, surtout sur un gros jeu. Sur Xbox, ou pour une manette d’appoint, une bonne alternative à prix contenu peut largement suffire—à condition de privilégier une compatibilité claire et une marque fiable.\nRetrouvez plus de bons plans et de conseils shopping sur nos réseaux sociaux :\nNos meilleures offres et bons plans shopping dans vos e-mails !",
    "pub": "2026-11-20T12:04:58+01:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZUdSTHktZ1JqRlFhdDZqMTU5STNKMGhFVjl2LWF1bFdZeVoxTXgwWHhTbURDRnFEUmFvLUYwV0JCQnJIcXpqZUd2Y2JER2I2V0pMYXd5NXRhTnVLczh0ZnNVeHJ0dlRJZ201aG5xV0pVanM4dkJZRnAyWHlTa3c2VnBRdmozWDhvd213NFJTeDFNTkx2SnpseDBlbTVhTXlwRGtpZmdBc3pYNFBSSkllX2NyMWZOTklfTnBJSjVRWQ?oc=5",
-   "s": "Le Point",
-   "d": "2026-11-20T11:04:31+00:00",
-   "lang": "fr",
-   "t": "Rolex, Audemars Piguet, Casio… Les clins d’œil horlogers de GTA VI",
-   "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMi6wJBVV95cUxPUkNQSXdtSkpUNS1vc0JaNkF2TU91dGt3cHFLV2s0cnBMV1ZZUG82VXMwLUVZWWpBaFZ3enN5V1pEd0g1b0xfVW83UWdVaFdCRFJZQ21jX1E1N2lrNTJOelg3M1lQMFd2ekVrMVFiQ1R4WmtWc04zdDZ3OTIwcUFfNTc1RWQ2Q3h6OHFwUUJOZHF4TW5KdFh0UXBfd0RCWF95dUpFU0tPYXZlNWhJNnJfV0F5UDJ5Nmtqd2E4QjJOa1hDaEFSWnNxdVBIUDZZSmZtM3ZHWnNaUE1EUW9aOHVJTWJjNDZxcl8zaTJOYm5pT3ZMalZDNHVhbTdqRHdUalFBVUV1R1RDR2VyNnNKSm8xbjl1NWtCR2FUblNnX1hHYkZLZ2M0Vy1qOXNyM242ZUZ3dVJRcEFrdVJEWDBtT2NJczlrTTl1NDBBWjFvbnNOVmxjaVR0RTUyZU5JRkRMQ0pBWDI2UFQ1R0ZDT3c?oc=5",
-   "s": "BFM Bourse",
-   "d": "2026-11-20T11:02:33+00:00",
-   "lang": "fr",
-   "t": "Ubisoft entertain : Menace sur les objectifs annuels, concurrence de GTA 6, stress sur le bilan et le cash du groupe… L",
-   "u": "https://www.tradingsat.com/ubisoft-entertain-FR0000054470/actualites/ubisoft-entertain-menace-sur-les-objectifs-annuels-concurrence-de-gta-6-stress-sur-le-bilan-et-le-cash-du-groupe-l-angoisse-revient-sur-ubisoft-qui-chute-de-11-en-bourse-1174174.html",
-   "img": "https://www.tradingsat.com/media/pictures/realsize/news/ubisoft-decoit-le-marche-et-recule-en-bourse-653587.jpg",
-   "chapeau": "(BFM Bourse) - L",
-   "txt": "(BFM Bourse) - L'éditeur de jeux vidéo a publié des revenus supérieurs aux attentes au deuxième trimestre mais le groupe a affiché des lourdes pertes opérationnelles, a consommé du cash et affiche un bilan financier bien fragile. Ses objectifs risquent, par ailleurs, une nouvelle fois, de ne pas être atteints.\nLe temps où Ubisoft tapait aux portes du CAC 40 paraît bien loin. En 2018, la société avait gagné le bras de fer qui l'opposait à Vincent Bolloré, forçant Vivendi à renoncer à ses velléités de rachat. Le titre évoluait à plus de 100 euros, sa capitalisation boursière dépassait les 10 milliards d'euros.\nSix ans plus tard, tout a changé. L'action a perdu 96,5% depuis ses plus hauts historiques atteints en juillet 2018, et évolue à 3,7 euros.\nL'éditeur de jeux vidéo a enquillé les reports de sorties, les jeux relativement mal accueillis (comme \"Star Wars Outlaws\") et les avertissements sur résultats.\n\"Au cours des six dernières années, Ubisoft a manqué ses prévisions initiales (…) en matière de 'net bookings' (le chiffre d'affaires retraité de certains revenus décalés, NDLR) et de résultat opérationnel hors IFRS cinq fois sur six\", écrivait Barclays fin 2025.\n>> Accédez à nos analyses graphiques exclusives, et entrez dans la confidence du Portefeuille Trading\nLa société s'est plusieurs fois retrouvé menacée financièrement. L'an passé, Ubisoft a même brisé un \"covenant\" financier, c'est-à-dire que le groupe n'a pas respecté des engagements pris auprès de ses créanciers et qu'une partie de sa dette est devenue immédiatement exigible.\nÀ chaque fois, Ubisoft a pu compter sur des injections de capital de son puissant partenaire chinois Tencent, soit au niveau de la holding détenant Ubisoft , soit dans une filiale spécialement créée pour l'occasion.\nCes bouffées d'oxygène n'ont toutefois apporté des répits qu'à court terme. Ce vendredi 20 novembre, l'action Ubisoft replonge de 11,7% à la Bourse de Paris alors que le groupe déçoit une nouvelle fois sur ses résultats et que l'inquiétude refait surface sur son bilan.\nSur la période allant de juillet à fin septembre, l'entreprise a dégagé des \"net bookings\" de 389 millions d'euros, supérieurs de 3% au consensus (la prévision moyenne des analystes). Ubisoft a bénéficié de bonnes ventes d'\"Assassin's Creed Black Flag Resynced\", une version modernisée d'un grand succès de 2013.\nLes revenus tirés de ce jeu ont été soutenus \"par une bonne monétisation en jeu et une part plus élevée que prévu d'éditions premium\", constate TP ICAP Midcap.\n\"Dans l'ensemble, ce léger dépassement des attentes n'est pas vraiment surprenant compte tenu des bonnes ventes d'Assassin's Creed Black Flag Resynced, mais il n'en reste pas moins un dépassement pour un groupe qui a connu des difficultés ces dernières années\", tranche Barclays.\nLe reste du compte de résultats n'est pas franchement brillant. Sur l'ensemble du premier semestre de son exercice 2026-2027 clos en mars prochain, Ubisoft a accusé une perte opérationnelle non-IFRS de 155,9 millions d'euros. Surtout, \"la consommation de trésorerie reste très élevée, avec un free cash-flow (flux de trésorerie libre, NDLR) de -338,1 millions d'euros sur le semestre, contre -250,7 millions d'euros un an plus tôt\", écrit TP ICAP Midcap.\nAu-delà des résultats, les prévisions font grincer des dents. La société a indiqué viser des \"net bookings\" autour de 250 millions d'euros, soit bien moins que les attentes, logées à 388 millions d'euros selon un consensus Bloomberg cité par Barclays.\nComme le remarque Allinvest Securities, la sortie jeudi de GTA 6 n'est pas étrangère à la faiblesse de ses projections.\n\"L'importante saison des fêtes de fin d'année est saturée par GTA 6 et le groupe n’a pas de grandes sorties au troisième trimestre qu'il a décalées au quatrième trimestre (Rayman Legends Retold, Just Dance, titres encore non annoncés)\", remarque le bureau d'études.\nDans le même temps, la société a confirmé ses objectifs pour l'ensemble de l'exercice 2026-2027. Le groupe vise des \"nets bookings\" en baisse \"d'un pourcentage à un chiffre élevé\" pour le trimestre en cours, ce que l'on peut grosso modo traduire par un repli de 7% à 9%. La société anticipe également une marge opérationnelle négative d'un pourcentage à chiffre élevé (pareil autour de 7% et 9%), et une consommation de trésorerie à un maximum de 500 millions d'euros.\nLes analystes ont sorti leur calculette, et les comptes ne sont pas bons. Barclays estime que la société devra dégager des \"net bookings\" ",
-   "pub": "2026-11-20T12:02:33+01:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVk5nTzVfVjdxR0R0NFFSVC1IM1hUVEk1MFptb2ZWNDVVUzRVbmRMcm1kY3NWS0d4M0lnX0FYYkdINnItekZvRlVodG9Udkg4TmhNaENSaVoyQUZuVkdhczBZdUlvb040VzB0dkprWGpDZ0NFa2RuVEZZLW1WNkVuck1wRXc5cnZoMDloRXdnRlM0a0lmYzZDb0RWYmFhbzNoelZtOWNUanhucTk0NW1iTHFqQkc3VW1vZEhxMjB3?oc=5",
-   "s": "Caradisiac",
-   "d": "2026-11-20T11:00:00+00:00",
-   "lang": "fr",
-   "t": "GTA VI est enfin sorti : avez-vous reconnu ces motos mythiques cachées dans les rues de Vice City ?",
-   "u": "https://www.caradisiac.com/les-motos-de-gta-6-harley-davidson-honda-ducati-mv-agusta-yamaha-ktm-etc-ou-presque-225182.htm",
-   "img": "https://images.caradisiac.com/logos/7/0/4/7/297047/S8-les-motos-de-gta-6-harley-davidson-honda-ducati-mv-agusta-yamaha-ktm-etc-ou-presque-225182.jpg",
-   "chapeau": "C’est l’événement de cette fin d’année pour des millions de joueurs à travers le monde : Grand Theft Auto VI (GTA 6) est officiellement disponible depuis ce 19 novembre. Les motards ont immédiatement repéré un détail savoureux : le garage virtuel de l’État de Leonida regorge de clins d’œil appuyés aux modèles les plus mythiques de la production mondiale.",
-   "txt": "Impossible de passer à côté, même pour les néophytes. Après plus de dix ans d’attente, GTA VI est sorti ce 19 novembre.\nEt comme c’est de tradition dans les opus de la franchise, on retrouve un très large panel de véhicules différents pour explorer ce large monde ouvert.\nComme d’habitude chez Rockstar Games, aucune marque réelle n’apparaît officiellement. Pourtant, il suffit d’un coup d’œil averti pour reconnaître les silhouettes, les optiques et les architectures mécaniques qui ont inspiré les designers du jeu.\nLa star incontestée des premières images promotionnelles est sans conteste la Principe Alvino V1 , aperçue dans une livrée verte frappée du numéro 76 aux côtés de Jason Duval. Avec sa face avant acérée et son double optique, elle s’inspire ouvertement de la Ducati Panigale V2 (un autre exemplaire jaune accompagne d’ailleurs Lucia sur les visuels officiels).\nDans la même veine sportive, les habitués de la saga retrouveront plusieurs références bien connues des catalogues européens et japonais : la Pegassi Bati 801 : l’indémodable sportive inspirée de la Ducati 848 , la Nagasaki Carbon RS, un cocktail mêlant Ducati 1199 Panigale et EBR 1190RS, la Dinka Double-T, clin d’œil assumé à la lignée des Honda CBR , la Principe Lectro, un roadster empruntant les traits des Ducati Streetfighter S et MV Agusta Brutale S, la FCR 1000 au charme néo-rétro directement calquée sur la BMW R100.\nLes amateurs de gros V-Twin ne sont pas oubliés, notamment autour du convoi de motards aperçu du côté d’Ambrosia.\nLe constructeur fictif Western joue à fond la carte Harley-Davidson avec une inspiration assez claire : la Western Sovereign reprend l’imposante stature de la Road King, la Western Nightblade évoque sans détour la Night Rod Special , la Western Zombie Chopper lorgne du côté des Fat Bob et Iron 883 , épaulée par l’épurée LCC Avarus .\nPour grimper le mont Kalaga ou enchaîner les wheelings en pleine circulation à Vice City, la gamme tout-terrain affiche elle aussi une belle diversité. On retrouve ainsi l’incontournable Maibatsu Sanchez (un hybride inspiré des cross 450 cm³ japonaises : Yamaha YZ450F , Kawasaki KX450F et Honda CRF450X ) et la Maibatsu Manchez d’inspiration KTM Enduro .\nMention spéciale enfin pour la Dinka Enduro, incluse dans la propriété de Jason avec l’édition Ultimate. Son phare rond, ses soufflets de fourche et son échappement haut rendent un bel hommage aux trails des années 1980 façon Honda XL350 et XR500 .\nEt pour ceux qui préfèrent flâner en terrasse à Vice City, l’inénarrable Pegassi Faggio (clone de la Vespa ) est lui aussi fidèle au poste.",
-   "pub": ""
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcXdNZ0lxNUtHSzJJNzlLQWZGZDR2WGxma205NGl1bGZXZzY5Zk1kWjR4TjMteEdoOHdMVktaa0VwaGw3OWh6VjJxYXQ4czcwNmZrcjB0WDZyT2VGNHZ5bFR4YjBBQlk5VklpRXRQTFE5Yk51VjNqOHNpT3dJSms5Q2dhRTM?oc=5",
-   "s": "pro-gamer.fr",
-   "d": "2026-11-20T10:56:06+00:00",
-   "lang": "fr",
-   "t": "Émulateur GTA 6 sur PC (KytyPS5, shadPS4) : état réel sur GPU et liste noire des faux fichiers virus",
-   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbmRINWZvOVB4UF9wRVdoVTdJM0xiOE5Ud1NfaWtWMnQ3ajlpOEhOamFPVmJFczFmWkFJaUFSZlYtbnNCOHdydUZUNWFzbGlNV1o4SllyQ2RqVm1HZDBSN2N1N080alFkZlhLanZwZDlqa2R3ZHJSM0dmT21RN3FTV0MzMFphelZoRW9kMGRKcWZsUldfRVZGS181VlZiTm5IS3FTWW5MNzNIT1JkakRFY1NyQ2dyaFY1ZGNtaw?oc=5",
