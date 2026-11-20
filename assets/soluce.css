@@ -409,3 +409,10 @@ html.cx-bloque,html.cx-bloque body{overflow:hidden}
 .cx-bul i{display:grid;place-items:center;width:100%;height:100%;border-radius:50%;box-shadow:0 0 0 3px #0b0812,0 4px 14px rgba(0,0,0,.45);transition:transform .15s}
 .cx-bul b{display:grid;place-items:center;width:calc(100% - 10px);height:calc(100% - 10px);border-radius:50%;background:#0b0812;color:#fff;font:700 13px/1 system-ui,sans-serif}
 .cx-bul:hover i{transform:scale(1.12)}
+/* Page carte : la carte d'abord (20/11) */
+body:has(.cx-map) aside.une,body:has(.cx-map) nav.sl-som{display:none}
+body:has(.cx-map) .sl-tete{padding:10px 0 4px}
+body:has(.cx-map) .sl-tete h1{font-size:clamp(20px,2.4vw,30px);margin:2px 0}
+body:has(.cx-map) .sl-tete h1~p,body:has(.cx-map) .sl-tete .sl-fil{display:none}
+body:has(.cx-map) .sl-tete+.sl-sec{padding-top:6px!important}
+@media(max-width:700px){body:has(.cx-map) .sl-tete h1{font-size:18px}}
