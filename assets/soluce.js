@@ -102,7 +102,7 @@
     var TERRE = [[248.9, 277.9], [2754.0, 2083.0]];
     var ZB = 0;
     function cadre(anim) { mo.invalidateSize(); var zf = mo.getBoundsZoom(TERRE, false); ZB = zf; mo.setMinZoom(zf - 0.6); var pw = (!mob && !pan.hidden) ? pan.offsetWidth + 24 : 0; mo.fitBounds(TERRE, { animate: !!anim, paddingTopLeft: [10, 60], paddingBottomRight: [pw, 10] }); }
-    mo.setMaxBounds([[-400, -500], [3500, 2800]]);
+    mo.setMaxBounds([[-2500, -3000], [5500, 5300]]);
     function ll(o) { return L.latLng(OH - o.y * kx, o.x * kx); }
     function caseDe(p) {
       var x = p.lng / kx, y = (OH - p.lat) / kx;
