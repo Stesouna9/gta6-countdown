@@ -170,6 +170,7 @@ UI = {  # clé : (fr, en)
  "sl_ms_sf_p": ("Il faut terminer 8 séries précises de missions d'inconnus (trophée argent « Strangers & Freaks ») : celles de Kirk, Kyle, Yago et Pilot Pete en font partie ; Shirley, Billy, Andy, Yasmani, Tyrone et Eddie Acosta ne comptent pas. Toutes restent faisables après l'histoire.", 'You must finish 8 specific Strangers & Freaks questlines (silver trophy): Kirk, Kyle, Yago and Pilot Pete count; Shirley, Billy, Andy, Yasmani, Tyrone and Eddie Acosta do not. All remain available after the story.'),
  "sl_ms_hist": ("Missions d'histoire (spoilers)", "Story missions (spoilers)"),
  "sl_ms_hist_p": ("Liste complète des missions par chapitre (titres affichés à l'écran, sans résumé). Les missions optionnelles marquées « manquable » disparaissent si on avance trop.", 'Full mission list per chapter (on-screen titles, no plot summary). Optional missions marked "missable" disappear if you progress too far.'),
+ "cx_f_lieux": ("Lieux", "Locations"), "cx_f_coll": ("Collections", "Collections"), "cx_f_act": ("Activités", "Activities"), "sl_w_voir": ("Soluce", "Walkthrough"), "sl_w_astuce": ("Astuce", "Tip"), "sl_w_choix": ("Choix", "Choice"), "sl_w_recomp": ("Récompense", "Reward"), "sl_w_partiel": ("Soluce partielle, complétée dès que deux sources concordent.", "Partial walkthrough, completed once two sources agree."),
  "sl_ms_voir": ("Afficher les missions d'histoire", "Show story missions"),
  "sl_ms_q": ("Combien de missions dans GTA 6 ?", "How many missions are in GTA 6?"),
  "sl_ms_a": ("L'histoire de GTA 6 compte un prologue et 5 chapitres, soit environ 119 missions principales (25, 18, 31, 34 et 10 selon le chapitre), plus une trentaine de missions optionnelles. Comptez 60 à 80 heures ; Rockstar parle de 80 heures avec une partie du contenu optionnel. Pas de médailles ni de rejouer les missions : faites une sauvegarde manuelle au début et à la fin de chaque chapitre.", "GTA 6's story has a prologue and 5 chapters: about 119 main missions (25, 18, 31, 34 and 10 per chapter), plus around thirty optional missions. Expect 60-80 hours; Rockstar quotes 80 hours with some optional content. There are no mission medals and no mission replay: keep a manual save at the start and end of each chapter."),
@@ -272,7 +273,20 @@ def main():
                 if m.get("manquable"): tags.append('<span class="ms-tag ko" data-i18n="sl_manquable">manquable</span>')
                 if m.get("perso"): tags.append(f'<span class="ms-tag" data-i18n="sl_{m["perso"]}">{"Jason seul" if m["perso"] == "jason" else "Lucia seule"}</span>')
                 if m["statut"] != "confirme": tags.append('<span class="ms-tag ko" data-i18n="sl_aconf_c">à confirmer</span>')
-                lis_m.append(f'<li><label><input type="checkbox" data-ms="ch{c["n"]}-{k(m["t"]).lower()}"> {e(m["t"])}</label> {" ".join(tags)}</li>')
+                w = m.get("w") or {}; wh = ""
+                if w.get("fr"):
+                    bk = f'mw_{c["n"]}_{k(m["t"]).lower()}'; et = []
+                    for i, (sf, se) in enumerate(zip(w["fr"], w.get("en") or w["fr"])):
+                        FR[f"{bk}_{i}"], EN[f"{bk}_{i}"] = sf, se; et.append(f'<li data-i18n="{bk}_{i}">{e(sf)}</li>')
+                    ex = ""
+                    for suf, lab, cle in (("a", "sl_w_astuce", "Astuce"), ("c", "sl_w_choix", "Choix"), ("r", "sl_w_recomp", "Récompense")):
+                        vf = w.get(suf + "f") or (w.get("r") if suf == "r" else ""); ve = w.get(suf + "e") or vf
+                        if vf:
+                            FR[f"{bk}_{suf}"], EN[f"{bk}_{suf}"] = vf, ve
+                            ex += f'<p class="ms-w-x"><b data-i18n="{lab}">{cle}</b> : <span data-i18n="{bk}_{suf}">{e(vf)}</span></p>'
+                    if w.get("statut") == "partiel": ex += '<p class="ms-w-x ko" data-i18n="sl_w_partiel">Soluce partielle, complétée dès que deux sources concordent.</p>'
+                    wh = f'<details class="ms-w"><summary data-i18n="sl_w_voir">Soluce</summary><ol>{"".join(et)}</ol>{ex}</details>'
+                lis_m.append(f'<li><label><input type="checkbox" data-ms="ch{c["n"]}-{k(m["t"]).lower()}"> {e(m["t"])}</label> {" ".join(tags)}{wh}</li>')
             chap_l += f'<details class="ms-chap"><summary><span class="ms-n">{c["n"]}</span><b>{nom}</b><small>{a} + {b}</small></summary><ol class="ms-liste">' + "".join(lis_m) + "</ol></details>"
         sources = " · ".join(f'<a href="{e(u)}" target="_blank" rel="noopener nofollow">{e(u.split("/")[2].replace("www.", ""))}</a>' for u in G6.get("missions_sources", []))
         chap_tab = ('<table class="sl-table"><thead><tr><th data-i18n="sl_chap">Chapitre</th><th data-i18n="sl_principales">Principales</th><th data-i18n="sl_optionnelles">Optionnelles</th></tr></thead><tbody>'

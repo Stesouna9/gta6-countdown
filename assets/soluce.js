@@ -247,6 +247,8 @@
     function rendPan() {
       rendOng();
       var h = "";
+      var FAMS = [["l", "cx_f_lieux", "Lieux"], ["c", "cx_f_coll", "Collections"], ["a", "cx_f_act", "Activités"]];
+      function famC(c) { return c.famille || ({ garages: "l", banques: "l", bijouteries: "l", wainK: "c", cartes: "c", zones: "c" })[c.id] || "a"; }
       if (onglet === "lieux") {
         var lt = "";
         h = '<p class="cx-aide">' + esc(tr("cx_aide_l", "Les 87 noms écrits sur la carte officielle. Touchez-en un pour y aller.")) + '</p><ul class="cx-l">' + LO.map(function (o) { var l0 = o.n.charAt(0).toUpperCase(), s = l0 !== lt ? '<li class="cx-let">' + l0 + "</li>" : ""; lt = l0; return s + '<li><button type="button" data-n="' + esc(o.n) + '">' + esc(o.n) + "<small>" + esc(o.case) + "</small></button></li>"; }).join("") + "</ul>";
@@ -254,7 +256,7 @@
         var tot = 0, fa = 0; D.points.forEach(function (p) { tot++; if (S.p[p.id]) fa++; });
         h = '<div class="cx-prog"><b>' + fa + " / " + tot + "</b> " + esc(tr("cx_trouves", "trouvés")) + '<span><i style="width:' + (tot ? Math.round(fa * 100 / tot) : 0) + '%"></i></span></div>' +
           '<p class="cx-aide">' + esc(tr("cx_aide_c", "Cochez ce que vous avez trouvé : la progression reste sur cet appareil. Les positions exactes s'afficheront sur la carte dès que deux sources de joueurs concordent.")) + "</p>" +
-          D.couches.map(function (c) {
+          FAMS.map(function (f) { var hh = D.couches.filter(function (c) { return famC(c) === f[0]; }).map(function (c) {
             var pts = D.points.filter(function (p) { return p.couche === c.id; }); if (!pts.length) return "";
             var n = pts.filter(function (p) { return S.p[p.id]; }).length;
             return '<div class="cx-c' + (ouv[c.id] ? " ouv" : "") + '"><div class="cx-c-h"><button type="button" class="cx-c-t" data-c="' + c.id + '"><i style="background:' + esc(c.couleur) + '"></i>' + esc(txt(c)) + "<small>" + n + "/" + pts.length + "</small></button>" + '<button type="button" class="cx-eye' + (S.o["cx_off_" + c.id] ? "" : " on") + '" data-v="' + c.id + '" aria-label="' + esc(tr("cx_voir", "Afficher sur la carte")) + '" title="' + esc(tr("cx_voir", "Afficher sur la carte")) + '"></button></div>' +
@@ -262,7 +264,7 @@
                 var src = (p.sources || []).map(function (u, i) { return '<a href="' + esc(u) + '" target="_blank" rel="noopener nofollow">' + esc(tr("sl_source", "Source")) + " " + (i + 1) + "</a>"; }).join(" · ");
                 return '<li><label><input type="checkbox" data-p="' + esc(p.id) + '"' + (S.p[p.id] ? " checked" : "") + "><span><b>" + esc(txt(p) || p.id) + "</b>" + (txt(p, "note_") ? "<small>" + esc(txt(p, "note_")) + "</small>" : "") + (src ? "<small>" + src + "</small>" : "") + "</span></label>" + (mkC[p.id] ? '<button type="button" class="cx-go" data-go="' + esc(p.id) + '" aria-label="' + esc(tr("cx_voir", "Afficher sur la carte")) + '">➜</button>' : "") + "</li>";
               }).join("") + "</ul>" : "") + "</div>";
-          }).join("");
+          }).join(""); return hh ? '<h4 class="cx-fam">' + esc(tr(f[1], f[2])) + "</h4>" + hh : ""; }).join("");
       } else {
         h = '<button type="button" class="cx-b-pose' + (pose ? " on" : "") + '">' + esc(pose ? tr("sl_off_pose_on", "Touchez la carte à l'endroit voulu") : tr("sl_off_pose", "📍 Poser un repère")) + '</button><p class="cx-aide">' + esc(tr("cx_aide_m", "Astuce : clic droit sur ordinateur ou appui long sur mobile pour poser un repère. Faites-le glisser pour le déplacer.")) + "</p>" +
           (MR.length ? '<ul class="cx-l">' + MR.map(function (m, i) { return '<li><button type="button" data-m="' + i + '">📍 ' + esc(m.n) + "<small>" + esc(caseDe(L.latLng(m.a, m.o))) + "</small></button></li>"; }).join("") + '</ul><button type="button" class="cx-vider">' + esc(tr("sl_off_vider", "Tout effacer")) + "</button>" : "");

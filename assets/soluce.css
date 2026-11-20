@@ -394,3 +394,8 @@ html.cx-bloque,html.cx-bloque body{overflow:hidden}
 .cx-go{flex:none;margin:6px 2px 0 0;width:32px;height:32px;border-radius:8px;border:1px solid rgba(255,46,136,.5);background:rgba(255,46,136,.12);color:#fff;cursor:pointer}
 .cx-sel{animation:cxPulse 1.4s ease-in-out infinite}
 @keyframes cxPulse{50%{stroke-opacity:.35}}
+.ms-w{margin:6px 0 4px 1.4em;background:rgba(255,46,136,.05);border-left:2px solid #ff2e88;border-radius:0 8px 8px 0;padding:4px 12px}
+.ms-w summary{cursor:pointer;color:#ff2e88;font-weight:600;font-size:.9em}
+.ms-w ol{margin:6px 0;padding-inline-start:1.3em;display:grid;gap:4px;font-size:.93em}
+.ms-w-x{margin:4px 0;font-size:.9em}.ms-w-x b{color:#ffd23f}.ms-w-x.ko{opacity:.7;font-style:italic}
+.cx-fam{margin:14px 0 6px;font-size:.78em;letter-spacing:.14em;text-transform:uppercase;color:#ffd23f;opacity:.85}
