@@ -1,8 +1,28 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-21T16:12:45+01:00",
+  "updated_at": "2026-11-21T18:12:49+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-metacritic-review-bomb-ps5-2026-11-21",
+      "title": "GTA 6 : une vague de mauvaises notes des joueurs sur Metacritic, sur PS5 et Xbox",
+      "summary": "@GTAlphaintel affirme que GTA 6 a été noté en masse par des joueurs sur Metacritic, sur les deux consoles. Push Square signale une vague de « review bombing » sur PS5 le 21 novembre. Ce sont des notes d'utilisateurs, distinctes du score critique de 99/100.",
+      "url": "https://x.com/GTAlphaintel/status/2124110586271150406",
+      "platform": "X",
+      "author": "@GTAlphaintel",
+      "status": "Rapporté",
+      "published_at": "2026-11-21T12:00:02.000Z",
+      "checked_at": "2026-11-21T18:12:49+01:00",
+      "evidence": "Vues relevées le 21/11 dans data/x_alertes.json : 30 780 vues, 136 likes, 5 reposts, 25 réponses. Corroboré par Push Square (21/11, 15 h 30 UTC) qui parle de review bombing sur PS5.",
+      "visual": "Notes Metacritic",
+      "image": "https://pbs.twimg.com/media/HXpPu5Ya0AA0Exi?format=jpg&name=360x360",
+      "image_alt": "Image du post de @GTAlphaintel sur les notes Metacritic de GTA 6",
+      "image_credit": "@GTAlphaintel sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "GTA 6 has been review bombed on Metacritic by users on both consoles",
+      "corroboration": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbGQ2OU1Ob3Q3MGFabENFU1BBT1d5RnlvcUsxeUlIR0hZSkZidTR6czJYRXBzZVQ1VFdiS2JLRzc0YW03SXpMdVFNaEpKWC1JREZONHdZSks3ckFQbjR5NmpwNFpuR25sNGd6Y0VtZlMtYzdyekVKMXE3V2tkeDhtRTR5c2MwY05KVHNQeWV3aGdleWVmbHdlb2pRM0NnV0lLV0RDZlZwMUV5UmxNNGhhZlFsbw?oc=5"
+    },
     {
       "id": "x-gtasix-npc-photo-jason-catfish-2026-11-20",
       "title": "GTA 6 : un PNJ photographie le corps de Jason pour piéger des internautes",
@@ -5994,6 +6014,11 @@
       "at": "2026-11-21T16:12:45+01:00",
       "label": "Passage Claude Haiku (Matière X, veille 2 h)",
       "summary": "0 sujet ajouté depuis data/x_alertes.json (maj 14:14 UTC). Écartés : 60 FPS PS5 Pro (23 251 vues, @GTAlphaintel), même sujet que x-ps5-pro-60-fps-build-2026-11-13 déjà publié ; avis Metacritic (17 386 vues, un seul compte, sous le seuil, corroboré seulement par la presse) ; IShowSpeed (9 234 vues) ; RDR2 et GTA 6 même monde (9 496 vues) ; PS5 ou PS5 Pro (75 vues). Casting Times Square déjà publié."
+    },
+    {
+      "at": "2026-11-21T18:12:49+01:00",
+      "label": "Passage Claude Haiku (Matière X, veille 2 h)",
+      "summary": "1 sujet ajouté depuis data/x_alertes.json (maj 16:17 UTC) : review bombing Metacritic (30 780 vues, @GTAlphaintel, corroboré par Push Square). Écartés : 60 FPS PS5 Pro (32 012 vues), même sujet que x-ps5-pro-60-fps-build-2026-11-13 déjà publié ; IShowSpeed (17 941 vues) et Lucia vs deux hommes (14 220 vues, un seul compte) sous 20 000 vues ; plushy Arthur (8 555), RDR2 même monde (12 757), Twitch PS5 (4 698), PS5 ou PS5 Pro (88) sous le seuil."
     }
   ],
   "coverage": {
