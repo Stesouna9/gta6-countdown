@@ -1,8 +1,65 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-21T20:12:48+01:00",
+  "updated_at": "2026-11-21T22:12:51+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-lucia-musculature-maximum-gtalphaintel-2026-11-21",
+      "title": "GTA 6 : Lucia avec une musculature au maximum, selon @GTAlphaintel",
+      "summary": "Le compte @GTAlphaintel publie une image de Lucia dans GTA 6 avec une musculature au maximum. Publication relevée seule, sans confirmation de Rockstar ni de presse.",
+      "url": "https://x.com/GTAlphaintel/status/2124209546017362380",
+      "platform": "X",
+      "author": "@GTAlphaintel",
+      "status": "Rumeur",
+      "published_at": "2026-11-21T18:33:16.000Z",
+      "checked_at": "2026-11-21T22:12:51+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json : 46 077 vues (@GTAlphaintel, relevé 21/11 21 h 04 UTC) ; 10 réponses, 15 reprises, 523 j'aime, 69 marque-pages. Aucun média corroborant dans data/presse.json.",
+      "visual": "Lucia musculature",
+      "image": "https://pbs.twimg.com/media/HXq1UWrbQAAOoFC?format=jpg&name=360x360",
+      "image_alt": "Image de la publication de @GTAlphaintel sur Lucia dans GTA 6",
+      "image_credit": "@GTAlphaintel sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Lucia with max muscle build in Grand Theft Auto 6"
+    },
+    {
+      "id": "x-peluche-arthur-morgan-gtalphaintel-2026-11-21",
+      "title": "GTA 6 : une peluche qui ressemble à Arthur Morgan trouvée dans le jeu, selon @GTAlphaintel",
+      "summary": "Le compte @GTAlphaintel affirme qu'une peluche ressemblant à Arthur Morgan a été trouvée dans GTA VI. La publication est une vidéo relevée seule, sans confirmation de Rockstar ni de presse.",
+      "url": "https://x.com/GTAlphaintel/status/2124155882426736671",
+      "platform": "X",
+      "author": "@GTAlphaintel",
+      "status": "Rumeur",
+      "published_at": "2026-11-21T15:00:01.000Z",
+      "checked_at": "2026-11-21T22:12:51+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json : 20 268 vues (@GTAlphaintel, relevé 21/11 21 h 04 UTC) ; 11 réponses, 14 reprises, 346 j'aime, 52 marque-pages. Aucun média corroborant dans data/presse.json.",
+      "visual": "Peluche Arthur",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2124090963249299456/img/uCYMWTXWjDkCwxUx.jpg",
+      "image_alt": "Vignette de la vidéo publiée par @GTAlphaintel sur une peluche d'Arthur Morgan dans GTA 6",
+      "image_credit": "@GTAlphaintel sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "A plushy resembling Arthur Morgan has been found in Grand Theft Auto VI"
+    },
+    {
+      "id": "x-radios-station-secrete-gtavi-countdown-2026-11-21",
+      "title": "GTA 6 : toutes les radios et leurs animateurs, avec une station secrète, selon @GTAVI_Countdown",
+      "summary": "Le compte @GTAVI_Countdown relaie une liste des radios de GTA 6 et de leurs animateurs, qui mentionne une station secrète. La mention d'un utilisateur Reddit (u/Diligent-Middle1090) indique que la liste vient de Reddit. Aucune confirmation de Rockstar ni de presse relevée.",
+      "url": "https://x.com/GTAVI_Countdown/status/2124229814525518035",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-21T19:53:48.000Z",
+      "checked_at": "2026-11-21T22:12:51+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json : 166 694 vues (@GTAVI_Countdown, relevé 21/11 21 h 04 UTC) ; 38 réponses, 142 reprises, 2 323 j'aime, 796 marque-pages. Aucun média corroborant dans data/presse.json.",
+      "visual": "Radios GTA 6",
+      "image": "https://pbs.twimg.com/media/HXrHicIWMAAUDZ7?format=jpg&name=small",
+      "image_alt": "Image de la publication de @GTAVI_Countdown sur les radios de GTA 6",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "All GTA 6 radio stations and their hosts, including a secret one. (u/Diligent-Middle1090)"
+    },
     {
       "id": "x-lucia-bagarre-urine-voiture-gtasix-2026-11-21",
       "title": "GTA 6 : Lucia se bat contre deux hommes après qu'un d'eux a uriné sur sa voiture, selon @gtasix_",
@@ -6062,6 +6119,11 @@
       "at": "2026-11-21T20:12:48+01:00",
       "label": "Passage Claude Haiku (Matière X, veille 2 h)",
       "summary": "2 sujets ajoutés depuis data/x_alertes.json (maj 19:01 UTC) : Lucia vs deux hommes (23 200 vues, @gtasix_) et IShowSpeed après son stream (24 166 vues, @GTAlphaintel), tous deux à un seul compte (Rumeur), sans corroboration presse. Écartés : review bombing GTAVI_Countdown (même sujet que x-metacritic-review-bomb déjà publié), Twitch PS5 (15 201), plushy Arthur (15 928), RDR2 même monde (17 124), Jason/Lucia 175 et PS5 ou PS5 Pro (100), gta6hubfr (528) : sous le seuil ou sans reprise."
+    },
+    {
+      "at": "2026-11-21T22:12:51+01:00",
+      "label": "Passage Claude Haiku (Matière X, veille 2 h)",
+      "summary": "3 sujets ajoutés depuis data/x_alertes.json (maj 21:04 UTC) : radios avec station secrète (166 694 vues, @GTAVI_Countdown), peluche Arthur Morgan (20 268 vues, @GTAlphaintel), Lucia musculature maximale (46 077 vues, @GTAlphaintel), tous à un seul compte (Rumeur), sans corroboration presse. Écartés : review bombing GTAVI_Countdown (même sujet que x-metacritic-review-bomb déjà publié), Lucia/Jason photo 3 999 vues, Twitch PS5 incendié (19 130), Speed réaction (5 296), gta6hubfr (567) : sous le seuil ou même sujet."
     }
   ],
   "coverage": {
