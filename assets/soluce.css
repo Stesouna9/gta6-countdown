@@ -418,3 +418,4 @@ body:has(.cx-map) .sl-tete+.sl-sec{padding-top:6px!important}
 @media(max-width:700px){body:has(.cx-map) .sl-tete h1{font-size:18px}}
 .cx-map img.leaflet-tile{mix-blend-mode:normal!important}
 .cx:not(.cx-labs) path.cx-pt{display:none}
+.cx-tout{display:flex;gap:6px;margin:0 0 10px}.cx-tout button{flex:1;padding:7px 6px;border-radius:8px;border:1px solid #3a2f4a;background:#1b1426;color:#f4efe6;font:600 12px/1.2 inherit;cursor:pointer;text-transform:uppercase;letter-spacing:.04em}.cx-tout button:hover{border-color:#ffd23f;color:#ffd23f}

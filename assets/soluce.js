@@ -161,7 +161,7 @@
     }
     function dessineC() {
       Object.keys(gC).forEach(function (k) { gC[k].clearLayers(); }); mkC = {};
-      var gros = mo.getZoom() < ZB + 1.15;
+      var gros = false;
       Object.keys(parS).forEach(function (sn) {
         var o = trouve(sn), l0 = parS[sn].filter(function (p) { return gC[p.couche] && mo.hasLayer(gC[p.couche]); }); if (!o || !l0.length) return;
         if (gros && l0.length > 1) {
@@ -282,7 +282,7 @@
         h = '<p class="cx-aide">' + esc(tr("cx_aide_l", "Les 87 noms écrits sur la carte officielle. Touchez-en un pour y aller.")) + '</p><ul class="cx-l">' + LO.map(function (o) { var l0 = o.n.charAt(0).toUpperCase(), s = l0 !== lt ? '<li class="cx-let">' + l0 + "</li>" : ""; lt = l0; return s + '<li><button type="button" data-n="' + esc(o.n) + '">' + esc(o.n) + "<small>" + esc(o.case) + "</small></button></li>"; }).join("") + "</ul>";
       } else if (onglet === "coll") {
         var tot = 0, fa = 0; D.points.forEach(function (p) { tot++; if (S.p[p.id]) fa++; });
-        h = '<div class="cx-prog"><b>' + fa + " / " + tot + "</b> " + esc(tr("cx_trouves", "trouvés")) + '<span><i style="width:' + (tot ? Math.round(fa * 100 / tot) : 0) + '%"></i></span></div>' +
+        h = '<div class="cx-tout"><button type="button" data-tout="1">' + esc(tr("cx_tout_aff", "Tout afficher")) + '</button><button type="button" data-tout="0">' + esc(tr("cx_tout_mas", "Tout masquer")) + "</button></div>" + '<div class="cx-prog"><b>' + fa + " / " + tot + "</b> " + esc(tr("cx_trouves", "trouvés")) + '<span><i style="width:' + (tot ? Math.round(fa * 100 / tot) : 0) + '%"></i></span></div>' +
           '<p class="cx-aide">' + esc(tr("cx_aide_c", "Cochez ce que vous avez trouvé : la progression reste sur cet appareil. Les positions exactes s'afficheront sur la carte dès que deux sources de joueurs concordent.")) + "</p>" +
           FAMS.map(function (f) { var hh = D.couches.filter(function (c) { return famC(c) === f[0]; }).map(function (c) {
             var pts = D.points.filter(function (p) { return p.couche === c.id; }); if (!pts.length) return "";
@@ -305,6 +305,7 @@
       if (b.hasAttribute("data-n")) { var o = trouve(b.getAttribute("data-n")); if (o) voir(o); }
       else if (b.hasAttribute("data-m")) { var m = MR[+b.getAttribute("data-m")]; mo.flyTo([m.a, m.o], Math.max(mo.getZoom(), mo.getMinZoom() + 2), { duration: .7 }); if (mob) { pan.hidden = true; majPanBtn(); } }
       else if (b.hasAttribute("data-go")) { ouvreC(b.getAttribute("data-go")); }
+      else if (b.hasAttribute("data-tout")) { var on = b.getAttribute("data-tout") === "1"; D.couches.forEach(function (c) { if (on) { gC[c.id].addTo(mo); delete S.o["cx_off_" + c.id]; } else { mo.removeLayer(gC[c.id]); S.o["cx_off_" + c.id] = 1; } }); sauve(); dessineC(); rendPan(); }
       else if (b.hasAttribute("data-v")) { var v = b.getAttribute("data-v"); if (mo.hasLayer(gC[v])) { mo.removeLayer(gC[v]); S.o["cx_off_" + v] = 1; } else { gC[v].addTo(mo); delete S.o["cx_off_" + v]; } sauve(); dessineC(); rendPan(); }
       else if (b.hasAttribute("data-c")) { var id = b.getAttribute("data-c"); ouv[id] = !ouv[id]; rendPan(); }
       else if (b.classList.contains("cx-b-pose")) { pose = !pose; el.classList.toggle("cx-pose", pose); rendPan(); if (pose && mob) { pan.hidden = true; majPanBtn(); info(tr("sl_off_pose_on", "Touchez la carte à l'endroit voulu")); } }
