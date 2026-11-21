@@ -1,8 +1,46 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-21T18:12:49+01:00",
+  "updated_at": "2026-11-21T20:12:48+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-lucia-bagarre-urine-voiture-gtasix-2026-11-21",
+      "title": "GTA 6 : Lucia se bat contre deux hommes après qu'un d'eux a uriné sur sa voiture, selon @gtasix_",
+      "summary": "Le compte @gtasix_ publie une vidéo de gameplay : Lucia affronte deux hommes après avoir surpris l'un d'eux en train d'uriner sur sa voiture. Séquence relayée par une seule publication, sans confirmation de Rockstar ni autre compte relevé.",
+      "url": "https://x.com/gtasix_/status/2124150297601736912",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rumeur",
+      "published_at": "2026-11-21T14:37:50.000Z",
+      "checked_at": "2026-11-21T20:12:48+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json : 23 200 vues (@gtasix_, relevé 21/11 19 h 01 UTC) ; 29 réponses, 61 reprises, 793 j'aime. Aucun média corroborant dans data/presse.json.",
+      "visual": "Lucia bagarre",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2124150242903805952/img/5dmgrfnVLG7QFstM.jpg",
+      "image_alt": "Vignette de la vidéo publiée par @gtasix_ sur Lucia et deux hommes dans GTA 6",
+      "image_credit": "@gtasix_ sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Lucia fighting two guys in GTA 6 after catching one of them peeing on her car."
+    },
+    {
+      "id": "x-ishowspeed-fin-stream-gtalphaintel-2026-11-21",
+      "title": "GTA 6 : IShowSpeed craque après la fin de son stream, selon @GTAlphaintel",
+      "summary": "Le compte @GTAlphaintel rapporte que le streamer IShowSpeed s'est effondré après avoir terminé son stream de GTA 6 : « Je n'ai pas dormi depuis 52 heures », dit-il en regardant les scènes de fin. Publication unique à ce stade, sans autre compte relevé.",
+      "url": "https://x.com/GTAlphaintel/status/2124125132755227066",
+      "platform": "X",
+      "author": "@GTAlphaintel",
+      "status": "Rumeur",
+      "published_at": "2026-11-21T12:57:50.000Z",
+      "checked_at": "2026-11-21T20:12:48+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json : 24 166 vues (@GTAlphaintel, relevé 21/11 19 h 01 UTC) ; 21 réponses, 9 reprises, 277 j'aime. Aucun média corroborant dans data/presse.json.",
+      "visual": "IShowSpeed fin",
+      "image": "https://pbs.twimg.com/media/HXpofJObUAAF_u0?format=jpg&name=360x360",
+      "image_alt": "Image du post de @GTAlphaintel sur IShowSpeed après son stream de GTA 6",
+      "image_credit": "@GTAlphaintel sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "IShowSpeed broke down after finishing his GTA 6 stream. \"I haven't slept in 52 hours.\""
+    },
     {
       "id": "x-metacritic-review-bomb-ps5-2026-11-21",
       "title": "GTA 6 : une vague de mauvaises notes des joueurs sur Metacritic, sur PS5 et Xbox",
@@ -6019,6 +6057,11 @@
       "at": "2026-11-21T18:12:49+01:00",
       "label": "Passage Claude Haiku (Matière X, veille 2 h)",
       "summary": "1 sujet ajouté depuis data/x_alertes.json (maj 16:17 UTC) : review bombing Metacritic (30 780 vues, @GTAlphaintel, corroboré par Push Square). Écartés : 60 FPS PS5 Pro (32 012 vues), même sujet que x-ps5-pro-60-fps-build-2026-11-13 déjà publié ; IShowSpeed (17 941 vues) et Lucia vs deux hommes (14 220 vues, un seul compte) sous 20 000 vues ; plushy Arthur (8 555), RDR2 même monde (12 757), Twitch PS5 (4 698), PS5 ou PS5 Pro (88) sous le seuil."
+    },
+    {
+      "at": "2026-11-21T20:12:48+01:00",
+      "label": "Passage Claude Haiku (Matière X, veille 2 h)",
+      "summary": "2 sujets ajoutés depuis data/x_alertes.json (maj 19:01 UTC) : Lucia vs deux hommes (23 200 vues, @gtasix_) et IShowSpeed après son stream (24 166 vues, @GTAlphaintel), tous deux à un seul compte (Rumeur), sans corroboration presse. Écartés : review bombing GTAVI_Countdown (même sujet que x-metacritic-review-bomb déjà publié), Twitch PS5 (15 201), plushy Arthur (15 928), RDR2 même monde (17 124), Jason/Lucia 175 et PS5 ou PS5 Pro (100), gta6hubfr (528) : sous le seuil ou sans reprise."
     }
   ],
   "coverage": {
