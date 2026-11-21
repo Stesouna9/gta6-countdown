@@ -155,8 +155,8 @@
     function popC(p) {
       var c = C[p.couche] || {}, o = trouve(p._s);
       var src = (p.sources || []).map(function (u, i) { return '<a href="' + esc(u) + '" target="_blank" rel="noopener nofollow">' + esc(tr("sl_source", "Source")) + " " + (i + 1) + "</a>"; }).join(" · ");
-      return '<div class="cx-pop cx-pop-c"><em style="color:' + esc(c.couleur) + '">' + esc(txt(c)) + "</em><b>" + esc(txt(p) || p.id) + "</b><span>" + esc(tr("cx_secteur", "Secteur")) + " : " + esc(p._s) + (o ? " · " + esc(tr("sl_off_case", "Case")) + " " + esc(o.case) : "") + "</span>" +
-        (txt(p, "note_") ? "<p>" + esc(txt(p, "note_")) + "</p>" : "") + (p.lien ? '<a class="cx-pop-t cx-pop-lien" href="' + esc(p.lien) + '">' + esc(tr("cx_mis_ouvrir", "Ouvrir la soluce")) + " →</a>" : "") + '<small class="cx-approx">' + esc(tr("cx_approx", "Icône posée sur le secteur que nomme le guide : l'emplacement exact se trouve dans ce secteur.")) + "</small>" + (src ? "<small>" + src + "</small>" : "") +
+      return '<div class="cx-pop cx-pop-c"><em style="color:' + esc(c.couleur) + '">' + esc(txt(c)) + "</em><b>" + esc(txt(p) || p.id) + "</b>" + (p._s ? "<span>" + esc(p._s) + "</span>" : "") +
+        (txt(p, "note_") ? "<p>" + esc(txt(p, "note_")) + "</p>" : "") + (p.lien ? '<a class="cx-pop-t cx-pop-lien" href="' + esc(p.lien) + '">' + esc(tr("cx_mis_ouvrir", "Ouvrir la soluce")) + " →</a>" : "") +
         '<button type="button" class="cx-pop-t' + (S.p[p.id] ? " fait" : "") + '" data-p="' + esc(p.id) + '">' + esc(S.p[p.id] ? tr("sl_trouve_non", "Pas encore trouvé") : tr("sl_trouve", "Trouvé ✓")) + "</button></div>";
     }
     function dessineC() {
@@ -268,9 +268,9 @@
     mapEl.addEventListener("mouseleave", function () { bas.textContent = ""; });
 
     /* panneau : Lieux / Collectibles / Mes repères */
-    var onglet = "lieux", ouv = {};
+    var onglet = "coll", ouv = {};
     function rendOng() {
-      ong.innerHTML = [["lieux", tr("cx_o_lieux", "Lieux") + " " + LO.length], ["coll", tr("cx_o_coll", "Collectibles")], ["mes", tr("sl_off_mes", "Mes repères") + (MR.length ? " " + MR.length : "")]].map(function (t) { return '<button type="button" data-o="' + t[0] + '"' + (t[0] === onglet ? ' class="on"' : "") + ">" + esc(t[1]) + "</button>"; }).join("") + (mob ? '<button type="button" class="cx-x" aria-label="Fermer">✕</button>' : "");
+      ong.innerHTML = [["coll", tr("cx_o_cat", "Catégories")], ["lieux", tr("cx_o_lieux", "Lieux")], ["mes", tr("sl_off_mes", "Mes repères") + (MR.length ? " " + MR.length : "")]].map(function (t) { return '<button type="button" data-o="' + t[0] + '"' + (t[0] === onglet ? ' class="on"' : "") + ">" + esc(t[1]) + "</button>"; }).join("") + (mob ? '<button type="button" class="cx-x" aria-label="Fermer">✕</button>' : "");
     }
     function rendPan() {
       rendOng();
@@ -283,7 +283,7 @@
       } else if (onglet === "coll") {
         var tot = 0, fa = 0; D.points.forEach(function (p) { tot++; if (S.p[p.id]) fa++; });
         h = '<div class="cx-tout"><button type="button" data-tout="1">' + esc(tr("cx_tout_aff", "Tout afficher")) + '</button><button type="button" data-tout="0">' + esc(tr("cx_tout_mas", "Tout masquer")) + "</button></div>" + '<div class="cx-prog"><b>' + fa + " / " + tot + "</b> " + esc(tr("cx_trouves", "trouvés")) + '<span><i style="width:' + (tot ? Math.round(fa * 100 / tot) : 0) + '%"></i></span></div>' +
-          '<p class="cx-aide">' + esc(tr("cx_aide_c", "Cochez ce que vous avez trouvé : la progression reste sur cet appareil. Les positions exactes s'afficheront sur la carte dès que deux sources de joueurs concordent.")) + "</p>" +
+          
           FAMS.map(function (f) { var hh = D.couches.filter(function (c) { return famC(c) === f[0]; }).map(function (c) {
             var pts = D.points.filter(function (p) { return p.couche === c.id; }); if (!pts.length) return "";
             var n = pts.filter(function (p) { return S.p[p.id]; }).length;
@@ -383,7 +383,7 @@
         /* 19/11 15 h : carte officielle Rockstar (« Leonida Map & Cover Art Poster », rockstargames.com/VI/media) : zoomable, sans point inventé */
         if (D.fond_officiel) {
         fetch("data/carte_missions.json", { cache: "no-cache" }).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }).then(function (M) {
-          if (M && M.points && M.points.length) { D.couches.push(M.couche); C[M.couche.id] = M.couche; M.points.forEach(function (p) { D.points.push(p); }); }
+          if (false && M && M.points && M.points.length) { D.couches.push(M.couche); C[M.couche.id] = M.couche; M.points.forEach(function (p) { D.points.push(p); }); }
           carteOff(el, D, C);
         });
         return;
