@@ -1,6 +1,6 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-21T10:12:30+01:00",
+  "updated_at": "2026-11-21T12:12:27+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
     {
@@ -5979,6 +5979,11 @@
       "at": "2026-11-21T10:12:30+01:00",
       "label": "Passage Claude Haiku (Matière X, veille 2 h)",
       "summary": "1 sujet ajouté depuis data/x_alertes.json : PNJ photographiant Jason (147 124 vues, un compte, statut Rumeur). Écartés : 60 FPS (10 797 vues, un compte) ; casting Times Square, PlayStation et 32,5 M déjà en ligne."
+    },
+    {
+      "at": "2026-11-21T12:12:27+01:00",
+      "label": "Passage Claude Haiku (Matière X, veille 2 h)",
+      "summary": "0 sujet ajouté depuis data/x_alertes.json. Écartés : 60 FPS sur PS5 Pro (15 806 vues, un compte, sous le seuil de 20 000) ; GTA 6 et RDR2 dans le même monde (3 487 vues, un compte) ; PS5 ou PS5 Pro (46 vues). Casting Times Square et PNJ photographiant Jason déjà en ligne."
     }
   ],
   "coverage": {
