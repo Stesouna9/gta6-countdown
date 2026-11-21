@@ -420,3 +420,7 @@ body:has(.cx-map) .sl-tete+.sl-sec{padding-top:6px!important}
 .cx:not(.cx-labs) path.cx-pt{display:none}
 .cx-tout{display:flex;gap:6px;margin:0 0 10px}.cx-tout button{flex:1;padding:7px 6px;border-radius:8px;border:1px solid #3a2f4a;background:#1b1426;color:#f4efe6;font:600 12px/1.2 inherit;cursor:pointer;text-transform:uppercase;letter-spacing:.04em}.cx-tout button:hover{border-color:#ffd23f;color:#ffd23f}
 .cx-tout{flex-wrap:wrap}.cx-tout button[data-cf]{flex-basis:100%}.cx-tout button.on{border-color:#ffd23f;color:#ffd23f;background:#2a2112}
+.cx-v i{display:flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;border:2px solid #0b0812;box-shadow:0 1px 4px #000a;font:13px/1 system-ui,"Apple Color Emoji","Segoe UI Emoji",sans-serif;font-style:normal;color:#0b0812}
+.cx-v:hover i{transform:scale(1.25)}
+.cx-vi{display:inline-flex!important;align-items:center;justify-content:center;font:11px/1 system-ui,"Apple Color Emoji","Segoe UI Emoji",sans-serif;font-style:normal;color:#0b0812;width:18px!important;height:18px!important}
+.cx-pop .cx-in{color:#3ee08f}

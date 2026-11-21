@@ -117,6 +117,20 @@
       if (vis && !mo.hasLayer(gB)) gB.addTo(mo); else if (!vis && mo.hasLayer(gB)) mo.removeLayer(gB);
     }
     mo.on("zoomend", function () { batis(); });
+    /* « En ville » : 970 lieux gtadb.org (CC BY 4.0) rangés en catégories à icônes (essence, magasins, restos…) */
+    var VC = null, gV = [];
+    function vOn(i) { var c = VC.cats[i], k = S.o["cx_v_" + c.id]; return k ? k === 1 : !c.off; }
+    fetch(R + "data/carte_ville.json").then(function (r) { return r.json(); }).then(function (V) {
+      VC = V; V.cats.forEach(function (c, i) { gV[i] = L.layerGroup(); if (vOn(i)) gV[i].addTo(mo); });
+      V.p.forEach(function (q) {
+        var c = V.cats[q[3]];
+        L.marker([q[1], q[2]], { icon: L.divIcon({ className: "cx-v", html: '<i style="background:' + c.couleur + '">' + c.ico + "</i>", iconSize: [22, 22], iconAnchor: [11, 11], popupAnchor: [0, -10] }), title: q[0], riseOnHover: true })
+          .bindPopup('<div class="cx-pop"><em style="color:' + c.couleur + '">' + esc(txt(c)) + "</em><b>" + esc(q[0]) + "</b>" + (q[4] ? "<span>" + esc(q[4]) + "</span>" : "") +
+            (q[5] ? "<p>" + esc(tr("cx_reel", "Dans la vraie vie")) + " : " + esc(q[5]) + "</p>" : "") + (q[6] ? '<p class="cx-in">' + esc(tr("cx_entrer", "On peut y entrer")) + "</p>" : "") + "</div>", { className: "cx-popup", maxWidth: 260 })
+          .addTo(gV[q[3]]);
+      });
+      if (typeof onglet !== "undefined" && onglet === "coll") rendPan();
+    }).catch(function () {});
     function cadre(anim) { mo.invalidateSize(); var zf = mo.getBoundsZoom(TERRE, false); ZB = zf; mo.setMinZoom(zf - 0.6); var pw = (!mob && !pan.hidden) ? pan.offsetWidth + 24 : 0; mo.fitBounds(TERRE, { animate: !!anim, paddingTopLeft: [10, 60], paddingBottomRight: [pw, 10] }); }
     mo.setMaxBounds([[-2500, -3000], [5500, 5300]]);
     function ll(o) { return L.latLng(OH - o.y * kx, o.x * kx); }
@@ -243,7 +257,7 @@
       gM.clearLayers();
       MR.forEach(function (m, i) {
         L.marker([m.a, m.o], { icon: icR, draggable: true, title: m.n }).addTo(gM)
-          .bindPopup('<div class="cx-pop"><b>' + esc(m.n) + "</b><span>" + esc(tr("sl_off_case", "Case")) + " " + esc(caseDe(L.latLng(m.a, m.o))) + '</span><button type="button" class="cx-pop-s" data-i="' + i + '">' + esc(tr("sl_off_suppr", "Supprimer")) + "</button></div>", { className: "cx-popup" })
+          .bindPopup('<div class="cx-pop"><b>' + esc(m.n) + '</b><button type="button" class="cx-pop-s" data-i="' + i + '">' + esc(tr("sl_off_suppr", "Supprimer")) + "</button></div>", { className: "cx-popup" })
           .on("dragend", function (e) { var p = e.target.getLatLng(); m.a = p.lat; m.o = p.lng; sauveR(); dessineR(); });
       });
       if (onglet === "mes") rendPan();
@@ -257,7 +271,6 @@
     mo.on("contextmenu", function (e) { ajoute(e.latlng); });
     mo.on("click", function (e) {
       if (pose) { pose = false; el.classList.remove("cx-pose"); ajoute(e.latlng); return; }
-      var c = caseDe(e.latlng); if (c) L.popup({ className: "cx-popup cx-popup-case" }).setLatLng(e.latlng).setContent("<b>" + esc(tr("sl_off_case", "Case")) + " " + c + "</b>").openOn(mo);
     });
     mo.on("popupopen", function (e) {
       var r = e.popup.getElement(); if (!r) return;
@@ -270,7 +283,6 @@
       };
     });
     mo.on("popupclose", function (e) { if (selC && e.popup && e.popup._cxLieu) { mo.removeLayer(selC); selC = null; } });
-    mapEl.addEventListener("mousemove", function (ev) { var c = caseDe(mo.mouseEventToLatLng(ev)); bas.textContent = c ? tr("sl_off_case", "Case") + " " + c : ""; });
     mapEl.addEventListener("mouseleave", function () { bas.textContent = ""; });
 
     /* panneau : Lieux / Collectibles / Mes repères */
@@ -299,9 +311,13 @@
                 return '<li><label><input type="checkbox" data-p="' + esc(p.id) + '"' + (S.p[p.id] ? " checked" : "") + "><span><b>" + esc(txt(p) || p.id) + "</b>" + (txt(p, "note_") ? "<small>" + esc(txt(p, "note_")) + "</small>" : "") +  "</span></label>" + (mkC[p.id] ? '<button type="button" class="cx-go" data-go="' + esc(p.id) + '" aria-label="' + esc(tr("cx_voir", "Afficher sur la carte")) + '">➜</button>' : "") + "</li>";
               }).join("") + "</ul>" : "") + "</div>";
           }).join(""); return hh ? '<h4 class="cx-fam">' + esc(tr(f[1], f[2])) + "</h4>" + hh : ""; }).join("");
+        if (VC) { var nv = VC.p.reduce(function (t, q) { t[q[3]] = (t[q[3]] || 0) + 1; return t; }, {});
+          h += '<h4 class="cx-fam">' + esc(tr("cx_f_ville", "En ville")) + "</h4>" + VC.cats.map(function (c, i) {
+            return '<div class="cx-c"><div class="cx-c-h"><button type="button" class="cx-c-t" data-vv="' + i + '"><i class="cx-vi" style="background:' + c.couleur + '">' + c.ico + "</i>" + esc(txt(c)) + "<small>" + (nv[i] || 0) + "</small></button>" + '<button type="button" class="cx-eye' + (vOn(i) ? " on" : "") + '" data-vv="' + i + '" aria-label="' + esc(tr("cx_voir", "Afficher sur la carte")) + '"></button></div></div>';
+          }).join("") + '<p class="cx-aide">' + esc(tr("cx_src_v", "Lieux : gtadb.org et contributeurs, CC BY 4.0")) + "</p>"; }
       } else {
         h = '<button type="button" class="cx-b-pose' + (pose ? " on" : "") + '">' + esc(pose ? tr("sl_off_pose_on", "Touchez la carte à l'endroit voulu") : tr("sl_off_pose", "📍 Poser un repère")) + '</button><p class="cx-aide">' + esc(tr("cx_aide_m", "Astuce : clic droit sur ordinateur ou appui long sur mobile pour poser un repère. Faites-le glisser pour le déplacer.")) + "</p>" +
-          (MR.length ? '<ul class="cx-l">' + MR.map(function (m, i) { return '<li><button type="button" data-m="' + i + '">📍 ' + esc(m.n) + "<small>" + esc(caseDe(L.latLng(m.a, m.o))) + "</small></button></li>"; }).join("") + '</ul><button type="button" class="cx-vider">' + esc(tr("sl_off_vider", "Tout effacer")) + "</button>" : "");
+          (MR.length ? '<ul class="cx-l">' + MR.map(function (m, i) { return '<li><button type="button" data-m="' + i + '">📍 ' + esc(m.n) + "</button></li>"; }).join("") + '</ul><button type="button" class="cx-vider">' + esc(tr("sl_off_vider", "Tout effacer")) + "</button>" : "");
       }
       corps.innerHTML = h;
     }
@@ -312,7 +328,8 @@
       else if (b.hasAttribute("data-m")) { var m = MR[+b.getAttribute("data-m")]; mo.flyTo([m.a, m.o], Math.max(mo.getZoom(), mo.getMinZoom() + 2), { duration: .7 }); if (mob) { pan.hidden = true; majPanBtn(); } }
       else if (b.hasAttribute("data-go")) { ouvreC(b.getAttribute("data-go")); }
       else if (b.hasAttribute("data-cf")) { if (S.o.cx_cache_f) delete S.o.cx_cache_f; else S.o.cx_cache_f = 1; sauve(); dessineC(); rendPan(); }
-      else if (b.hasAttribute("data-tout")) { var on = b.getAttribute("data-tout") === "1"; D.couches.forEach(function (c) { if (on) { gC[c.id].addTo(mo); delete S.o["cx_off_" + c.id]; } else { mo.removeLayer(gC[c.id]); S.o["cx_off_" + c.id] = 1; } }); sauve(); dessineC(); rendPan(); }
+      else if (b.hasAttribute("data-vv")) { var vi = +b.getAttribute("data-vv"), cv = VC.cats[vi]; if (mo.hasLayer(gV[vi])) { mo.removeLayer(gV[vi]); S.o["cx_v_" + cv.id] = 2; } else { gV[vi].addTo(mo); S.o["cx_v_" + cv.id] = 1; } sauve(); rendPan(); }
+      else if (b.hasAttribute("data-tout")) { var on = b.getAttribute("data-tout") === "1"; if (VC) VC.cats.forEach(function (c, i) { if (on) gV[i].addTo(mo); else mo.removeLayer(gV[i]); S.o["cx_v_" + c.id] = on ? 1 : 2; }); D.couches.forEach(function (c) { if (on) { gC[c.id].addTo(mo); delete S.o["cx_off_" + c.id]; } else { mo.removeLayer(gC[c.id]); S.o["cx_off_" + c.id] = 1; } }); sauve(); dessineC(); rendPan(); }
       else if (b.hasAttribute("data-v")) { var v = b.getAttribute("data-v"); if (mo.hasLayer(gC[v])) { mo.removeLayer(gC[v]); S.o["cx_off_" + v] = 1; } else { gC[v].addTo(mo); delete S.o["cx_off_" + v]; } sauve(); dessineC(); rendPan(); }
       else if (b.hasAttribute("data-c")) { var id = b.getAttribute("data-c"); ouv[id] = !ouv[id]; rendPan(); }
       else if (b.classList.contains("cx-b-pose")) { pose = !pose; el.classList.toggle("cx-pose", pose); rendPan(); if (pose && mob) { pan.hidden = true; majPanBtn(); info(tr("sl_off_pose_on", "Touchez la carte à l'endroit voulu")); } }
