@@ -142,7 +142,7 @@
       NOMS.forEach(function (n) { var m = new RegExp("\\b" + n.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\b", "i").exec(t); if (m && m.index < bi) { bi = m.index; best = n; } });
       return best;
     }
-    var parS = {}; D.points.forEach(function (p) { p._s = secteur(p); if (p._s) (parS[p._s] = parS[p._s] || []).push(p); });
+    var parS = {}; D.points.forEach(function (p) { p._s = secteur(p) || (p.pos ? "·exact" : null); if (p._s) (parS[p._s] = parS[p._s] || []).push(p); });
     var gC = {}, mkC = {};
     D.couches.forEach(function (c) { gC[c.id] = L.layerGroup(); if (!S.o["cx_off_" + c.id]) gC[c.id].addTo(mo); });
     function icoC(p, i, n) {
@@ -155,15 +155,15 @@
     function popC(p) {
       var c = C[p.couche] || {}, o = trouve(p._s);
       var src = (p.sources || []).map(function (u, i) { return '<a href="' + esc(u) + '" target="_blank" rel="noopener nofollow">' + esc(tr("sl_source", "Source")) + " " + (i + 1) + "</a>"; }).join(" · ");
-      return '<div class="cx-pop cx-pop-c"><em style="color:' + esc(c.couleur) + '">' + esc(txt(c)) + "</em><b>" + esc(txt(p) || p.id) + "</b>" + (p._s ? "<span>" + esc(p._s) + "</span>" : "") +
+      return '<div class="cx-pop cx-pop-c"><em style="color:' + esc(c.couleur) + '">' + esc(txt(c)) + "</em><b>" + esc(txt(p) || p.id) + "</b>" + (p._s && p._s !== "·exact" ? "<span>" + esc(p._s) + "</span>" : "") +
         (txt(p, "note_") ? "<p>" + esc(txt(p, "note_")) + "</p>" : "") + (p.lien ? '<a class="cx-pop-t cx-pop-lien" href="' + esc(p.lien) + '">' + esc(tr("cx_mis_ouvrir", "Ouvrir la soluce")) + " →</a>" : "") +
-        '<button type="button" class="cx-pop-t' + (S.p[p.id] ? " fait" : "") + '" data-p="' + esc(p.id) + '">' + esc(S.p[p.id] ? tr("sl_trouve_non", "Pas encore trouvé") : tr("sl_trouve", "Trouvé ✓")) + "</button></div>";
+        '<button type="button" class="cx-pop-t cx-pop-m' + (S.p[p.id] ? " fait" : "") + '" data-p="' + esc(p.id) + '">' + esc(S.p[p.id] ? tr("cx_deja", "✓ Trouvé (annuler)") : tr("cx_marquer", "☐ Marquer comme trouvé")) + "</button></div>";
     }
     function dessineC() {
       Object.keys(gC).forEach(function (k) { gC[k].clearLayers(); }); mkC = {};
       var gros = false;
       Object.keys(parS).forEach(function (sn) {
-        var o = trouve(sn), l0 = parS[sn].filter(function (p) { return gC[p.couche] && mo.hasLayer(gC[p.couche]); }); if (!o || !l0.length) return;
+        var o = trouve(sn), l0 = parS[sn].filter(function (p) { return gC[p.couche] && mo.hasLayer(gC[p.couche]); }); if ((!o && sn !== "·exact") || !l0.length) return;
         if (gros && l0.length > 1) {
           /* vue large : une bulle par secteur (nombre + couleurs des catégories), un clic zoome dessus */
           var cs = []; l0.forEach(function (p) { var c = (C[p.couche] || {}).couleur; if (c && cs.indexOf(c) < 0) cs.push(c); });
@@ -173,6 +173,12 @@
             .on("click", function () { mo.flyTo(ll(o), Math.max(mo.getZoom() + 1.4, ZB + 1.6), { duration: .6 }); }).addTo(gC[l0[0].couche]);
           return;
         }
+        if (S.o.cx_cache_f) l0 = l0.filter(function (p) { return !S.p[p.id]; });
+        var ex = l0.filter(function (p) { return p.pos; }); l0 = l0.filter(function (p) { return !p.pos; });
+        ex.forEach(function (p) {
+          mkC[p.id] = L.marker(L.latLng(p.pos[0], p.pos[1]), { icon: icoC(p, 0, 1), riseOnHover: true, title: txt(p) || p.id, keyboard: true })
+            .bindPopup(function () { return popC(p); }, { className: "cx-popup", maxWidth: 290, autoPanPaddingTopLeft: [10, 70], autoPanPaddingBottomRight: [70, 10] }).addTo(gC[p.couche]);
+        });
         l0.forEach(function (p, i) {
           if (!gC[p.couche]) return;
           mkC[p.id] = L.marker(ll(o), { icon: icoC(p, i, l0.length), riseOnHover: true, title: txt(p) || p.id, keyboard: true })
@@ -191,7 +197,7 @@
     var noms = true;
     function popLieu(o) {
       var l0 = parS[o.n] || [];
-      return '<div class="cx-pop"><b>' + esc(o.n) + "</b><span>" + esc(tr("sl_off_case", "Case")) + " " + esc(o.case) + "</span>" +
+      return '<div class="cx-pop"><b>' + esc(o.n) + "</b>" +
         (l0.length ? '<em class="cx-pop-h">' + esc(tr("cx_ici", "À faire ici")) + " (" + l0.length + ')</em><ul class="cx-pop-ul">' + l0.map(function (p) { var c = C[p.couche] || {}; return '<li><button type="button" data-pc="' + esc(p.id) + '"' + (S.p[p.id] ? ' class="fait"' : "") + '><i style="background:' + esc(c.couleur) + '"></i>' + esc(txt(p) || p.id) + "</button></li>"; }).join("") + "</ul>" : "") +
         '<button type="button" class="cx-pop-l" data-n="' + esc(o.n) + '">' + esc(tr("cx_lien", "Copier le lien")) + "</button></div>";
     }
@@ -214,7 +220,7 @@
       var q = norm(ri.value.trim()); act = -1;
       if (q.length < 1) { ru.hidden = true; return; }
       var r = LO.filter(function (o) { return norm(o.n).indexOf(q) >= 0; }).sort(function (a, b) { return norm(a.n).indexOf(q) - norm(b.n).indexOf(q); }).slice(0, 8);
-      ru.innerHTML = r.length ? r.map(function (o) { return '<li><button type="button" data-n="' + esc(o.n) + '">' + esc(o.n) + "<small>" + esc(o.case) + "</small></button></li>"; }).join("") : '<li class="cx-vide">' + esc(tr("cx_rien", "Aucun lieu de ce nom sur la carte")) + "</li>";
+      ru.innerHTML = r.length ? r.map(function (o) { return '<li><button type="button" data-n="' + esc(o.n) + '">' + esc(o.n) + "</button></li>"; }).join("") : '<li class="cx-vide">' + esc(tr("cx_rien", "Aucun lieu de ce nom sur la carte")) + "</li>";
       ru.hidden = false;
     }
     ri.addEventListener("input", suggere); ri.addEventListener("focus", suggere);
@@ -258,7 +264,7 @@
       var s = r.querySelector(".cx-pop-s"); if (s) s.onclick = function () { MR.splice(+s.getAttribute("data-i"), 1); sauveR(); mo.closePopup(); dessineR(); };
       var l = r.querySelector(".cx-pop-l"); if (l) l.onclick = function () { partage(); };
       [].forEach.call(r.querySelectorAll("[data-pc]"), function (b) { b.onclick = function () { mo.closePopup(); ouvreC(b.getAttribute("data-pc")); }; });
-      var tg = r.querySelector(".cx-pop-t"); if (tg) tg.onclick = function () {
+      var tg = r.querySelector("button.cx-pop-m"); if (tg) tg.onclick = function () {
         var id = tg.getAttribute("data-p"); if (S.p[id]) delete S.p[id]; else S.p[id] = 1; sauve(); dessineC(); if (onglet === "coll") rendPan();
         if (mkC[id]) mkC[id].openPopup();
       };
@@ -282,7 +288,7 @@
         h = '<p class="cx-aide">' + esc(tr("cx_aide_l", "Les 87 noms écrits sur la carte officielle. Touchez-en un pour y aller.")) + '</p><ul class="cx-l">' + LO.map(function (o) { var l0 = o.n.charAt(0).toUpperCase(), s = l0 !== lt ? '<li class="cx-let">' + l0 + "</li>" : ""; lt = l0; return s + '<li><button type="button" data-n="' + esc(o.n) + '">' + esc(o.n) + "<small>" + esc(o.case) + "</small></button></li>"; }).join("") + "</ul>";
       } else if (onglet === "coll") {
         var tot = 0, fa = 0; D.points.forEach(function (p) { tot++; if (S.p[p.id]) fa++; });
-        h = '<div class="cx-tout"><button type="button" data-tout="1">' + esc(tr("cx_tout_aff", "Tout afficher")) + '</button><button type="button" data-tout="0">' + esc(tr("cx_tout_mas", "Tout masquer")) + "</button></div>" + '<div class="cx-prog"><b>' + fa + " / " + tot + "</b> " + esc(tr("cx_trouves", "trouvés")) + '<span><i style="width:' + (tot ? Math.round(fa * 100 / tot) : 0) + '%"></i></span></div>' +
+        h = '<div class="cx-tout"><button type="button" data-tout="1">' + esc(tr("cx_tout_aff", "Tout afficher")) + '</button><button type="button" data-tout="0">' + esc(tr("cx_tout_mas", "Tout masquer")) + '</button><button type="button" data-cf="1"' + (S.o.cx_cache_f ? ' class="on"' : "") + ">" + esc(tr("cx_cache_f", "Masquer les trouvés")) + "</button></div>" + '<div class="cx-prog"><b>' + fa + " / " + tot + "</b> " + esc(tr("cx_trouves", "trouvés")) + '<span><i style="width:' + (tot ? Math.round(fa * 100 / tot) : 0) + '%"></i></span></div>' +
           
           FAMS.map(function (f) { var hh = D.couches.filter(function (c) { return famC(c) === f[0]; }).map(function (c) {
             var pts = D.points.filter(function (p) { return p.couche === c.id; }); if (!pts.length) return "";
@@ -290,7 +296,7 @@
             return '<div class="cx-c' + (ouv[c.id] ? " ouv" : "") + '"><div class="cx-c-h"><button type="button" class="cx-c-t" data-c="' + c.id + '"><i style="background:' + esc(c.couleur) + '"></i>' + esc(txt(c)) + "<small>" + n + "/" + pts.length + "</small></button>" + '<button type="button" class="cx-eye' + (S.o["cx_off_" + c.id] ? "" : " on") + '" data-v="' + c.id + '" aria-label="' + esc(tr("cx_voir", "Afficher sur la carte")) + '" title="' + esc(tr("cx_voir", "Afficher sur la carte")) + '"></button></div>' +
               (ouv[c.id] ? (txt(c, "note_") ? '<p class="cx-aide">' + esc(txt(c, "note_")) + "</p>" : "") + "<ul>" + pts.map(function (p) {
                 var src = (p.sources || []).map(function (u, i) { return '<a href="' + esc(u) + '" target="_blank" rel="noopener nofollow">' + esc(tr("sl_source", "Source")) + " " + (i + 1) + "</a>"; }).join(" · ");
-                return '<li><label><input type="checkbox" data-p="' + esc(p.id) + '"' + (S.p[p.id] ? " checked" : "") + "><span><b>" + esc(txt(p) || p.id) + "</b>" + (txt(p, "note_") ? "<small>" + esc(txt(p, "note_")) + "</small>" : "") + (src ? "<small>" + src + "</small>" : "") + "</span></label>" + (mkC[p.id] ? '<button type="button" class="cx-go" data-go="' + esc(p.id) + '" aria-label="' + esc(tr("cx_voir", "Afficher sur la carte")) + '">➜</button>' : "") + "</li>";
+                return '<li><label><input type="checkbox" data-p="' + esc(p.id) + '"' + (S.p[p.id] ? " checked" : "") + "><span><b>" + esc(txt(p) || p.id) + "</b>" + (txt(p, "note_") ? "<small>" + esc(txt(p, "note_")) + "</small>" : "") +  "</span></label>" + (mkC[p.id] ? '<button type="button" class="cx-go" data-go="' + esc(p.id) + '" aria-label="' + esc(tr("cx_voir", "Afficher sur la carte")) + '">➜</button>' : "") + "</li>";
               }).join("") + "</ul>" : "") + "</div>";
           }).join(""); return hh ? '<h4 class="cx-fam">' + esc(tr(f[1], f[2])) + "</h4>" + hh : ""; }).join("");
       } else {
@@ -305,6 +311,7 @@
       if (b.hasAttribute("data-n")) { var o = trouve(b.getAttribute("data-n")); if (o) voir(o); }
       else if (b.hasAttribute("data-m")) { var m = MR[+b.getAttribute("data-m")]; mo.flyTo([m.a, m.o], Math.max(mo.getZoom(), mo.getMinZoom() + 2), { duration: .7 }); if (mob) { pan.hidden = true; majPanBtn(); } }
       else if (b.hasAttribute("data-go")) { ouvreC(b.getAttribute("data-go")); }
+      else if (b.hasAttribute("data-cf")) { if (S.o.cx_cache_f) delete S.o.cx_cache_f; else S.o.cx_cache_f = 1; sauve(); dessineC(); rendPan(); }
       else if (b.hasAttribute("data-tout")) { var on = b.getAttribute("data-tout") === "1"; D.couches.forEach(function (c) { if (on) { gC[c.id].addTo(mo); delete S.o["cx_off_" + c.id]; } else { mo.removeLayer(gC[c.id]); S.o["cx_off_" + c.id] = 1; } }); sauve(); dessineC(); rendPan(); }
       else if (b.hasAttribute("data-v")) { var v = b.getAttribute("data-v"); if (mo.hasLayer(gC[v])) { mo.removeLayer(gC[v]); S.o["cx_off_" + v] = 1; } else { gC[v].addTo(mo); delete S.o["cx_off_" + v]; } sauve(); dessineC(); rendPan(); }
       else if (b.hasAttribute("data-c")) { var id = b.getAttribute("data-c"); ouv[id] = !ouv[id]; rendPan(); }

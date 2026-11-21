@@ -384,7 +384,11 @@
    "maj": "2026-11-20",
    "x": null,
    "y": null,
-   "fr": "#1 Méditation chez Jason"
+   "fr": "#1 Méditation chez Jason",
+   "pos": [
+    584.7,
+    1287.7
+   ]
   },
   {
    "id": "meditation-02",
@@ -503,7 +507,11 @@
    "x": null,
    "y": null,
    "fr": "#8 Méditation en cascade",
-   "note_fr": "Comté de Lummox - au nord-ouest de Tallaloko, surplombant une cascade sur une rivière coulant vers l'est."
+   "note_fr": "Comté de Lummox - au nord-ouest de Tallaloko, surplombant une cascade sur une rivière coulant vers l'est.",
+   "pos": [
+    2264.5,
+    1211.6
+   ]
   },
   {
    "id": "meditation-09",
@@ -877,7 +885,11 @@
    "maj": "2026-11-20",
    "x": null,
    "y": null,
-   "fr": "#6 Shorefront - Downtown"
+   "fr": "#6 Shorefront - Downtown",
+   "pos": [
+    1317.7,
+    1580.2
+   ]
   },
   {
    "id": "banques-07",
@@ -894,7 +906,11 @@
    "maj": "2026-11-20",
    "x": null,
    "y": null,
-   "fr": "#7 Shorefront - Rockridge"
+   "fr": "#7 Shorefront - Rockridge",
+   "pos": [
+    1506.3,
+    1437.8
+   ]
   },
   {
    "id": "banques-08",
@@ -1438,7 +1454,11 @@
    "maj": "2026-11-20",
    "x": null,
    "y": null,
-   "fr": "#5 Joyeria Empenos"
+   "fr": "#5 Joyeria Empenos",
+   "pos": [
+    1537.0,
+    1467.6
+   ]
   },
   {
    "id": "bijouteries-06",
@@ -1693,7 +1713,11 @@
    "maj": "2026-11-20",
    "x": null,
    "y": null,
-   "fr": "#20 Vice City Pawn"
+   "fr": "#20 Vice City Pawn",
+   "pos": [
+    1558.8,
+    1540.4
+   ]
   },
   {
    "id": "bijouteries-21",
