@@ -169,7 +169,8 @@
     function popC(p) {
       var c = C[p.couche] || {}, o = trouve(p._s);
       var src = (p.sources || []).map(function (u, i) { return '<a href="' + esc(u) + '" target="_blank" rel="noopener nofollow">' + esc(tr("sl_source", "Source")) + " " + (i + 1) + "</a>"; }).join(" · ");
-      return '<div class="cx-pop cx-pop-c"><em style="color:' + esc(c.couleur) + '">' + esc(txt(c)) + "</em><b>" + esc(txt(p) || p.id) + "</b>" + (p._s && p._s !== "·exact" ? "<span>" + esc(p._s) + "</span>" : "") +
+      return '<div class="cx-pop cx-pop-c"><em style="color:' + esc(c.couleur) + '">' + esc(txt(c)) + "</em><b>" + esc(txt(p) || p.id) + "</b>" + (p.qui ? '<span class="cx-qui">' + esc(p.qui) + "</span>" : "") + (p.zone ? "<span>📍 " + esc(p.zone) + (p.ch ? " · " + esc(tr("cf_ch", "Chapitre")) + " " + p.ch : "") + "</span>" : (p._s && p._s !== "·exact" ? "<span>" + esc(p._s) + "</span>" : "")) +
+        (p.code ? '<div class="cx-code"><small>' + esc(tr("cx_code", "Code")) + "</small><b>" + esc(p.code) + "</b></div>" : "") +
         (txt(p, "note_") ? "<p>" + esc(txt(p, "note_")) + "</p>" : "") + (p.lien ? '<a class="cx-pop-t cx-pop-lien" href="' + esc(p.lien) + '">' + esc(tr("cx_mis_ouvrir", "Ouvrir la soluce")) + " →</a>" : "") +
         '<button type="button" class="cx-pop-t cx-pop-m' + (S.p[p.id] ? " fait" : "") + '" data-p="' + esc(p.id) + '">' + esc(S.p[p.id] ? tr("cx_deja", "✓ Trouvé (annuler)") : tr("cx_marquer", "☐ Marquer comme trouvé")) + "</button></div>";
     }
@@ -293,7 +294,7 @@
     function rendPan() {
       rendOng();
       var h = "";
-      var FAMS = [["m", "cx_f_mis", "Missions"], ["l", "cx_f_lieux", "Lieux"], ["c", "cx_f_coll", "Collections"], ["a", "cx_f_act", "Activités"]];
+      var FAMS = [["j", "cx_f_jeu", "Dans le jeu"], ["m", "cx_f_mis", "Missions"], ["l", "cx_f_lieux", "Lieux"], ["c", "cx_f_coll", "Collections"], ["a", "cx_f_act", "Activités"]];
       function famC(c) { return c.famille || ({ garages: "l", banques: "l", bijouteries: "l", wainK: "c", cartes: "c", zones: "c" })[c.id] || "a"; }
       if (onglet === "lieux") {
         var lt = "";
@@ -393,7 +394,8 @@
       addEventListener("scroll", masque, { passive: true }); addEventListener("resize", masque); setTimeout(masque, 600);
     }
     if (!el || !window.L) { if (el) el.innerHTML = '<p class="cl-vide" style="padding:20px">' + esc(tr("sl_err", "La carte n'a pas pu se charger.")) + "</p>"; return; }
-    fetch("data/carte.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).then(function (D) {
+    Promise.all([fetch("data/carte.json", { cache: "no-cache" }).then(function (r) { return r.json(); }), fetch("data/carte_extra.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).catch(function () { return { couches: [], points: [] }; })]).then(function (A) {
+      var D = A[0]; D.couches = A[1].couches.concat(D.couches); D.points = D.points.concat(A[1].points);
       var C = {}; D.couches.forEach(function (c) { C[c.id] = c; }); D.regions.forEach(function (g) { RN[g.id] = g.nom; });
       liste(D, C);
       /* pas de faux : la carte ne s'affiche qu'avec un fond officiel Rockstar et des points réellement situés */

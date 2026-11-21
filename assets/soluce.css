@@ -432,3 +432,7 @@ body:has(.cx-map) .sl-tete+.sl-sec{padding-top:6px!important}
 .cf-code{font:800 1.7rem/1 ui-monospace,Menlo,monospace;color:#0b0812;background:#ffd23f;padding:6px 10px;border-radius:8px;letter-spacing:.08em;white-space:nowrap}
 .cf-lieu{color:#b9a9cc;font-size:.9rem;margin:10px 0 6px}.cf-carte p{margin:6px 0 0}
 #cf-q{width:100%;max-width:420px}
+.cx-pop .cx-qui{color:#c9c2d8;font-size:.85em}
+.cx-pop .cx-code{margin:.5em 0;padding:.4em .6em;background:#1a1426;border:1px solid #ffd23f55;border-radius:8px;display:flex;align-items:baseline;gap:.6em}
+.cx-pop .cx-code small{color:#a99fbd;text-transform:uppercase;font-size:.7em;letter-spacing:.08em}
+.cx-pop .cx-code b{font-family:ui-monospace,Menlo,monospace;color:#ffd23f;font-size:1.5em;letter-spacing:.12em}
