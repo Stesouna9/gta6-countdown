@@ -424,3 +424,11 @@ body:has(.cx-map) .sl-tete+.sl-sec{padding-top:6px!important}
 .cx-v:hover i{transform:scale(1.25)}
 .cx-vi{display:inline-flex!important;align-items:center;justify-content:center;font:11px/1 system-ui,"Apple Color Emoji","Segoe UI Emoji",sans-serif;font-style:normal;color:#0b0812;width:18px!important;height:18px!important}
 .cx-pop .cx-in{color:#3ee08f}
+.cf-zero{background:#2a2112;border:1px solid #ffd23f55;color:#ffd23f;padding:10px 14px;border-radius:10px;font-weight:600}
+.cf-gr{margin-top:26px}.cf-grille{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
+.cf-carte{background:#1b1426;border:1px solid #3a2f4a;border-radius:12px;padding:14px 16px}
+.cf-carte header{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+.cf-carte h3{margin:0;font-size:1.05rem;color:#f4efe6}.cf-carte small{color:#b9a9cc}
+.cf-code{font:800 1.7rem/1 ui-monospace,Menlo,monospace;color:#0b0812;background:#ffd23f;padding:6px 10px;border-radius:8px;letter-spacing:.08em;white-space:nowrap}
+.cf-lieu{color:#b9a9cc;font-size:.9rem;margin:10px 0 6px}.cf-carte p{margin:6px 0 0}
+#cf-q{width:100%;max-width:420px}

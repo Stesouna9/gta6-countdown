@@ -643,3 +643,12 @@
   else if (page === "missions") missions();
   outils();
 })();
+/* Codes des coffres : recherche instantanée */
+(function () {
+  var q = document.getElementById("cf-q"); if (!q) return;
+  q.addEventListener("input", function () {
+    var v = q.value.trim().toLowerCase();
+    document.querySelectorAll(".cf-carte").forEach(function (c) { c.hidden = !!v && c.getAttribute("data-q").indexOf(v) < 0 && c.textContent.toLowerCase().indexOf(v) < 0; });
+    document.querySelectorAll(".cf-gr").forEach(function (s) { s.hidden = !s.querySelector(".cf-carte:not([hidden])"); });
+  });
+})();
