@@ -1,8 +1,66 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-20T22:12:43+01:00",
+  "updated_at": "2026-11-21T08:13:06+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-cast-times-square-lancement-gtavi-countdown-2026-11-21",
+      "title": "GTA 6 : le casting réuni à Times Square pour le lancement, selon @GTAVI_Countdown",
+      "summary": "@GTAVI_Countdown publie une vidéo : le casting de GTA 6 s’est réuni à Times Square, à New York, pour célébrer la sortie du jeu. Le compte précise que la place est couverte de panneaux de la campagne de lancement. Le post ne reprend pas de déclaration de Rockstar ; la vidéo n’a pas été recoupée par un autre compte ni par la presse.",
+      "url": "https://x.com/GTAVI_Countdown/status/2123972882326008171",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-21T02:52:51.000Z",
+      "checked_at": "2026-11-21T08:13:06+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json : 161 309 vues (@GTAVI_Countdown, relevé 21/11 07 h 05 UTC). Un seul compte relevé à ce stade.",
+      "visual": "Times Square",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2123972540573868032/img/PrNjN3bivfXRkhVi.jpg",
+      "image_alt": "Publication de @GTAVI_Countdown annonçant le casting de GTA 6 réuni à Times Square",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "The GTA 6 cast has gathered to celebrate the game’s launch in Times Square, NYC, which is packed with billboards for the launch marketing."
+    },
+    {
+      "id": "x-playstation-premier-week-end-gta6-2026-11-20",
+      "title": "GTA 6 : PlayStation souhaite un premier week-end sur PS5, publication officielle",
+      "summary": "Le compte officiel PlayStation annonce « Your first weekend with Grand Theft Auto VI has arrived » et rappelle que le jeu est disponible sur PS5 dès maintenant, avec un lien vers la page PlayStation du jeu. Publication officielle, sans chiffre de vente associé.",
+      "url": "https://x.com/PlayStation/status/2123914284514374091",
+      "platform": "X",
+      "author": "@PlayStation",
+      "status": "Officiel",
+      "published_at": "2026-11-20T23:00:00.000Z",
+      "checked_at": "2026-11-21T08:13:06+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json : 448 730 vues (@PlayStation, relevé 21/11 07 h 05 UTC) ; 588 réponses, 679 reposts, 7 595 likes.",
+      "visual": "PS5 officiel",
+      "image": "https://pbs.twimg.com/media/HXlHj58WoAA7sO8.jpg",
+      "image_alt": "Publication officielle de PlayStation sur le premier week-end de GTA 6 sur PS5",
+      "image_credit": "@PlayStation sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Your first weekend with Grand Theft Auto VI has arrived. Available on PS5 now."
+    },
+    {
+      "id": "x-take-two-32-5-millions-ventes-gtavi-countdown-2026-11-20",
+      "title": "GTA 6 : 32,5 millions d’exemplaires et 3,79 milliards de dollars en 24 heures, selon @GTAVI_Countdown",
+      "summary": "@GTAVI_Countdown affirme que Take-Two confirme 32,5 millions d’unités vendues en 24 heures et 3,79 milliards de dollars de recettes. Les médias français TF1 Info et 20 Minutes rapportent le chiffre de 3,79 milliards de dollars. Certains titres présentent les 32,5 millions comme des précommandes : le détail reste à vérifier dans la communication de Take-Two.",
+      "url": "https://x.com/GTAVI_Countdown/status/2123860943679741979",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "2026-11-20T19:28:03.000Z",
+      "checked_at": "2026-11-21T08:13:06+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json : 207 556 vues (@GTAVI_Countdown, relevé 21/11 07 h 05 UTC). Repris par @gtasix_ (35 847 vues) et @GTAlphaintel (18 920 vues). Corroboré par TF1 Info et 20 Minutes (20/11) pour les 3,79 milliards de dollars.",
+      "visual": "Ventes record",
+      "image": "https://pbs.twimg.com/media/HXl3zK5X0AAkov7?format=jpg&name=360x360",
+      "image_alt": "Publication de @GTAVI_Countdown sur les 32,5 millions d’exemplaires vendus de GTA 6",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "corroboration": "https://www.tf1info.fr/culture/rockstar-games-grand-theft-auto-pres-de-quatre-milliards-de-dollars-de-recettes-en-un-seul-jour-les-chiffres-ahurissants-de-la-sortie-de-gta-vi-2477257.html",
+      "post_text": "BREAKING: Take-Two confirms GTA 6 sold 32.5 MILLION units in 24 hours with .79 BILLION in revenue."
+    },
     {
       "id": "x-plantages-prologue-ps5-ce108255-gtalphaintel-2026-11-20",
       "title": "GTA 6 : plantages dès le prologue et erreur CE-108255-1 sur PS5, selon @GTAlphaintel",
@@ -5892,6 +5950,11 @@
       "at": "2026-11-20T22:12:43+01:00",
       "label": "Passage Claude Haiku (Matière X, veille 2 h)",
       "summary": "0 sujet ajouté : aucun post neuf de data/x_alertes.json à 20 000 vues ou plus, ni repris par 2 comptes. Écartés : Overmono sur la bande originale (8 809 vues, un compte), playstyle (14 424 vues, un compte), Zelnick et GTA 7 (6 606 vues, même sujet déjà en ligne), 2,3 milliards en 24 h (même sujet que les 24 millions déjà en ligne)."
+    },
+    {
+      "at": "2026-11-21T08:13:06+01:00",
+      "label": "Passage Claude Haiku (Matière X, veille 2 h)",
+      "summary": "3 sujets ajoutés depuis data/x_alertes.json : PlayStation (448 730 vues, officiel), casting à Times Square (161 309 vues, un compte), 32,5 millions et 3,79 Md$ (207 556 vues, corroboré par TF1 Info et 20 Minutes). Écartés : NPC photographiant Jason (112 694 vues, sujet nouveau mais un seul compte à relever : à revoir au prochain passage), 60 FPS (4 741 vues), Florida Joker et autres posts déjà en ligne."
     }
   ],
   "coverage": {
