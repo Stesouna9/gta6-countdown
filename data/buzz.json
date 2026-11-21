@@ -1,8 +1,27 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-21T08:13:06+01:00",
+  "updated_at": "2026-11-21T10:12:30+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-gtasix-npc-photo-jason-catfish-2026-11-20",
+      "title": "GTA 6 : un PNJ photographie le corps de Jason pour piéger des internautes",
+      "summary": "Le compte @gtasix_ rapporte qu'un PNJ de GTA 6 prend en photo le corps de Jason pour arnaquer des gens en ligne (catfish). Détail de gameplay relayé par une seule publication vidéo, sans confirmation de Rockstar ni autre compte relevé.",
+      "url": "https://x.com/gtasix_/status/2123920836931535063",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rumeur",
+      "published_at": "2026-11-20T23:26:02.000Z",
+      "checked_at": "2026-11-21T10:12:30+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json : 147 124 vues (@gtasix_, relevé 21/11 07 h 05 UTC) ; 32 réponses, 228 reposts, 5 587 likes. Aucun média corroborant dans data/presse.json.",
+      "visual": "PNJ Jason",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2123920761798721536/img/qvlbOTcoQ5ya17fO.jpg",
+      "image_alt": "Vignette de la vidéo publiée par @gtasix_ sur un PNJ de GTA 6 et le corps de Jason",
+      "image_credit": "@gtasix_ sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "An NPC in GTA 6 takes a photo of Jason's body to catfish people online."
+    },
     {
       "id": "x-cast-times-square-lancement-gtavi-countdown-2026-11-21",
       "title": "GTA 6 : le casting réuni à Times Square pour le lancement, selon @GTAVI_Countdown",
@@ -5955,6 +5974,11 @@
       "at": "2026-11-21T08:13:06+01:00",
       "label": "Passage Claude Haiku (Matière X, veille 2 h)",
       "summary": "3 sujets ajoutés depuis data/x_alertes.json : PlayStation (448 730 vues, officiel), casting à Times Square (161 309 vues, un compte), 32,5 millions et 3,79 Md$ (207 556 vues, corroboré par TF1 Info et 20 Minutes). Écartés : NPC photographiant Jason (112 694 vues, sujet nouveau mais un seul compte à relever : à revoir au prochain passage), 60 FPS (4 741 vues), Florida Joker et autres posts déjà en ligne."
+    },
+    {
+      "at": "2026-11-21T10:12:30+01:00",
+      "label": "Passage Claude Haiku (Matière X, veille 2 h)",
+      "summary": "1 sujet ajouté depuis data/x_alertes.json : PNJ photographiant Jason (147 124 vues, un compte, statut Rumeur). Écartés : 60 FPS (10 797 vues, un compte) ; casting Times Square, PlayStation et 32,5 M déjà en ligne."
     }
   ],
   "coverage": {
