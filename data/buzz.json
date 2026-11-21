@@ -1,8 +1,27 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-21T22:12:51+01:00",
+  "updated_at": "2026-11-22T00:12:37+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-parkour-gta5-vs-gta6-gtavi-countdown-2026-11-21",
+      "title": "GTA 6 : le parkour fonctionne enfin, comparaison avec GTA 5 selon @GTAVI_Countdown",
+      "summary": "Le compte @GTAVI_Countdown publie une vidéo comparant GTA 5 (2013) et GTA 6 (2026) sur le parkour, avec des animations présentées comme très abouties. Publication relevée seule, sans confirmation de Rockstar ni de presse.",
+      "url": "https://x.com/GTAVI_Countdown/status/2124264235148382587",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-21T22:10:35.000Z",
+      "checked_at": "2026-11-22T00:12:37+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json : 63 587 vues (@GTAVI_Countdown, relevé 21/11 23 h 07 UTC) ; 26 réponses, 77 reprises, 2 106 j'aime, 219 marque-pages. Aucun média corroborant dans data/presse.json.",
+      "visual": "Parkour GTA 6",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2124263703423967232/img/RU9EYWM4ZXnEDQMC.jpg",
+      "image_alt": "Image de la vidéo de @GTAVI_Countdown comparant le parkour de GTA 5 et GTA 6",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Parkour finally works, and the animations are top-notch. GTA 5 (2013) vs GTA 6 (2026)"
+    },
     {
       "id": "x-lucia-musculature-maximum-gtalphaintel-2026-11-21",
       "title": "GTA 6 : Lucia avec une musculature au maximum, selon @GTAlphaintel",
@@ -21,6 +40,25 @@
       "embed_type": "x",
       "cta": "Ouvrir la publication sur X",
       "post_text": "Lucia with max muscle build in Grand Theft Auto 6"
+    },
+    {
+      "id": "x-ps5-fumee-stream-gta6-gtalphaintel-2026-11-21",
+      "title": "GTA 6 : une PS5 se met à fumer pendant un stream du jeu, selon @GTAlphaintel",
+      "summary": "Le compte @GTAlphaintel rapporte qu'un streamer, revenu de la salle de bain pendant un stream de GTA 6, a trouvé sa pièce pleine de fumée : sa PS5 avait commencé à fumer. Publication relevée seule, sans confirmation du streamer ni de Sony.",
+      "url": "https://x.com/GTAlphaintel/status/2124170939269263810",
+      "platform": "X",
+      "author": "@GTAlphaintel",
+      "status": "Rumeur",
+      "published_at": "2026-11-21T15:59:51.000Z",
+      "checked_at": "2026-11-22T00:12:37+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json : 22 041 vues (@GTAlphaintel, relevé 21/11 23 h 07 UTC) ; 15 réponses, 7 reprises, 104 j'aime, 19 marque-pages. Aucun média corroborant dans data/presse.json.",
+      "visual": "PS5 fumée",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2123994139813371904/img/g_de6vGxpkmDiMjS.jpg",
+      "image_alt": "Image de la publication de @GTAlphaintel sur une PS5 qui fume pendant un stream de GTA 6",
+      "image_credit": "@GTAlphaintel sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "A Twitch streamer returns to room filled with smoke after PS5 burned. The content creator came from a bathroom break during a GTA 6 stream when their console started smoking"
     },
     {
       "id": "x-peluche-arthur-morgan-gtalphaintel-2026-11-21",
@@ -6124,6 +6162,11 @@
       "at": "2026-11-21T22:12:51+01:00",
       "label": "Passage Claude Haiku (Matière X, veille 2 h)",
       "summary": "3 sujets ajoutés depuis data/x_alertes.json (maj 21:04 UTC) : radios avec station secrète (166 694 vues, @GTAVI_Countdown), peluche Arthur Morgan (20 268 vues, @GTAlphaintel), Lucia musculature maximale (46 077 vues, @GTAlphaintel), tous à un seul compte (Rumeur), sans corroboration presse. Écartés : review bombing GTAVI_Countdown (même sujet que x-metacritic-review-bomb déjà publié), Lucia/Jason photo 3 999 vues, Twitch PS5 incendié (19 130), Speed réaction (5 296), gta6hubfr (567) : sous le seuil ou même sujet."
+    },
+    {
+      "at": "2026-11-22T00:12:37+01:00",
+      "label": "Passage Claude Haiku (Matière X, veille 2 h)",
+      "summary": "2 sujets ajoutés depuis data/x_alertes.json (maj 23 h 07 UTC) : parkour GTA 5 vs GTA 6 (63 587 vues, @GTAVI_Countdown), PS5 qui fume pendant un stream (22 041 vues, @GTAlphaintel), tous deux à un seul compte (Rumeur), sans corroboration presse. Écartés : Xbox 60 FPS (16 971 vues, un seul compte), review bombing GTAVI_Countdown (même sujet que x-metacritic-review-bomb déjà publié), Jason/PNJ, Speed, marche de la carte (2 448), GTA6France1 (181)."
     }
   ],
   "coverage": {
