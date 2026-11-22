@@ -1,6 +1,6 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-22T08:12:37+01:00",
+  "updated_at": "2026-11-22T10:13:00+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
     {
@@ -21,6 +21,25 @@
       "embed_type": "x",
       "cta": "Ouvrir la publication sur X",
       "post_text": "A method to unlock GTA 6 frame rates on Xbox Series X|S : Go to Settings, General TV & display options, Refresh rate 60 Hz, start the game and wait for the 6 stars, then 120 Hz."
+    },
+    {
+      "id": "x-pnj-ours-jason-gtasix-2026-11-22",
+      "title": "GTA 6 : un PNJ attaqué par un ours et qui reproche à Jason de filmer, selon @gtasix_",
+      "summary": "Le compte @gtasix_ publie une vidéo de jeu où un PNJ de GTA 6 est attaqué par un ours et crie sur Jason parce qu'il filme au lieu d'aider. Un seul compte relève la scène ; Rockstar ne s'est pas exprimé.",
+      "url": "https://x.com/gtasix_/status/2124291779369508945",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rumeur",
+      "published_at": "2026-11-22T00:00:02.000Z",
+      "checked_at": "2026-11-22T10:13:00+01:00",
+      "evidence": "Vues relevées le 22/11 à 07 h 19 UTC dans data/x_alertes.json (snapshot de git) : 33 999 vues, 1 260 j'aime, 95 reprises, 184 signets. Aucun autre compte relevé.",
+      "visual": "Ours PNJ",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2124282055026425856/img/wbB1KONLhljmw5Yw.jpg",
+      "image_alt": "Image du post de @gtasix_ : un PNJ de GTA 6 face à un ours",
+      "image_credit": "@gtasix_ sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "An NPC in GTA 6 gets attacked by a bear and starts yelling at Jason for recording instead of helping"
     },
     {
       "id": "x-developpeurs-londres-photo-gtavi-countdown-2026-11-22",
@@ -6229,6 +6248,11 @@
       "at": "2026-11-22T08:12:37+01:00",
       "label": "Passage Claude Haiku (Matière X, veille 2 h)",
       "summary": "3 sujets ajoutés depuis data/x_alertes.json (maj 06 h 18 UTC) : méthode Xbox 60 FPS (209 339 vues @GTAVI_Countdown, 79 676 vues @GTAlphaintel, deux comptes : Rapporté) ; photo de développeurs à Londres (556 425 vues, Rumeur) ; traversée à pied de 6 h 56 (371 913 vues @gtasix_, Rumeur). Écartés : Bear NPC (23 073 vues, sans second compte), posts sous 20 000 vues, sujets déjà présents dans items."
+    },
+    {
+      "at": "2026-11-22T10:13:00+01:00",
+      "label": "Passage Claude Haiku (Matière X, veille 2 h)",
+      "summary": "1 sujet ajouté depuis data/x_alertes.json. x_alertes.json est vide (posts : 0) depuis le relevé de 08 h 01 UTC, donc relevé de 07 h 19 UTC (historique git) : PNJ attaqué par un ours (33 999 vues @gtasix_, un seul compte : Rumeur). Écartés : vidéo radios (déjà dans items), Xbox 60 FPS (déjà dans items, repris par GTAlphaintel 81 428 vues), revenus 24 h (12 751 vues, sous le seuil), « album n°1 » (611 vues)."
     }
   ],
   "coverage": {
