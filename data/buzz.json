@@ -1,6 +1,6 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-22T22:13:00+01:00",
+  "updated_at": "2026-11-23T00:14:00+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
     {
@@ -6283,6 +6283,11 @@
       "at": "2026-11-22T22:13:00+01:00",
       "label": "Passage Claude Haiku (Matière X, veille 2 h)",
       "summary": "0 sujet ajouté. data/x_alertes.json toujours sans post (posts : 0), dernier relevé maj 2026-11-22T10:05:45+00:00, soit plus de 12 h sans mise à jour à 22 h 13 (relevé horaire arrêté ou en panne). Presse du jour (data/presse.json) : articles de presse seulement, aucune publication X ou sociale à reprendre ni à corroborer. Pas de post X ni de message à un tiers."
+    },
+    {
+      "at": "2026-11-23T00:14:00+01:00",
+      "label": "Passage Claude Haiku (Matière X, veille 2 h)",
+      "summary": "0 sujet ajouté. data/x_alertes.json toujours sans post (posts : 0), dernier relevé maj 2026-11-22T10:05:45+00:00, soit environ 14 h sans mise à jour à 00 h 14 : le relevé horaire du Mac ne tourne plus. Presse du jour (data/presse.json) : aucun lien vers une publication X, Instagram, TikTok, YouTube ou Rockstar, donc rien à corroborer. Aucun sujet inventé."
     }
   ],
   "coverage": {
