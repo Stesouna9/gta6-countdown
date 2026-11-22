@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-22T01:10:38+00:00",
+ "maj": "2026-11-22T01:31:16+00:00",
  "articles": [
   {
    "gn": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZlo2UjdVWnQ2V1p1ZG9Sb0JrRU1hSHFHaUZfR0pyT3AycjdONktDZ0lySnlfb2pVZ3VqZTllbTBiS1lLc1RpMHdNNzRNM1BHUDlOSmxGMVdfWGx4ZUxSOFFVUm5IVHhmeEoxcmJGT2pWSEUtX3A4TlYyVTZRblNYZ3RvS2FTWTM5R1NsWmF0Q2lzVEFORWVQUWYwTQ?oc=5",
@@ -9,6 +9,22 @@
    "t": "GTA 6 Leaker Ties PC Executable Release to $15M CYBERLEEK Goal",
    "erreur": "429 : passage suivant",
    "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1KT09jTjlKSmItUGVzYkF5ZkE3ZUhoMV9ia2Ewc0dPanBNQUNnLVhHeTUxdUR6eWFhTkZsUml1UDNrdERiS25EYVNHYkJzNmt1Wlk0OFhzWE1YZHUxajJMcEtUaXhuNWhqblJtZy1vRXhnb09YN0lr?oc=5",
+   "s": "Push Square",
+   "d": "2026-11-21T23:30:49+00:00",
+   "lang": "en",
+   "t": "GTA 6: Wyman's Classic Car Locations (WIP)",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5jbFRWbG1OTHJNVWMyczJWWVlzUjBBWkcxcTlwVHhMSFZzMTZIckxMem52cExGenIyeUR4SUZMRllhYmVtb2RJWnFlejNLcGg3T1hYYVpvMllKcEJfUG01cFAzOThZdVlLV3hPQWF5cw?oc=5",
+   "s": "Rom-Game.fr",
+   "d": "2026-11-21T23:19:42+00:00",
+   "lang": "fr",
+   "t": "GTA VI sur PC : Leonida et Xbox2Windows s'attaquent à la recompilation de la version Xbox",
+   "erreur": "HTTP Error 429: Too Many Requests"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZ3pMTDFtUElmMzVJQi1NSzRtenZ3V283TGN4YV82R1QtQ2wwYmRxa1BIZVAxQTNuWDRnTjlTQUhfRVZ2bkdjWVBlTnhMak1RZ01NZ292M2NLNTdzTGdJVjUzakRyRDExZGtQUm9TTEk4RWZBUnQzc0QxTWRUeDdkcC1wU21NSjR6aUNzVHdZSVp3cHFYRi1FV3BFNHB1eWYtRC03dVlxc1c?oc=5",
@@ -37,7 +53,7 @@
    "d": "2026-11-21T22:44:45+00:00",
    "lang": "fr",
    "t": "GTA 6 Édition Ultime : où et quand récupérer les 16 contenus bonus",
-   "erreur": "HTTP Error 429: Too Many Requests"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9BWTBLQVp4REJjMEhRcUpSaWJ1eV9yeE9YUTZtMHpPMGFILTZrbk1sZWRfNVV4bU1rOWxXR003eHJmNEFod2FNQlhDUTdPM285NFNpWnlCZXBIemdOYTEtZ0JYeDlTUDJycFRIY0oxMFVKaGJ6?oc=5",
@@ -108,16 +124,12 @@
    "pub": "2026-11-21T22:10:14+00:00"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQb090MDh5ZkZ2ZVQxMC0zbThmd3ROTXFZWUk0ZkpCbXd4Z0hBQ1o1Y2hYYkxhQTFLVENMOHpuT1FHT2htLWthenNEMktjNXNiNFBPbndlSlRZdjZWTGplZFlJdVczbS1VOXNFekU5OE9wSm5wNVVHdFV4ZW1FbEVneUJGV1hXd3pVODFXdlpHQlBUNEhhdUVB?oc=5",
-   "s": "Eklecty-City",
-   "d": "2026-11-21T22:08:23+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : Justice recrute Joe Keery (Stranger Things) pour la bande originale - Eklecty-City",
-   "u": "https://www.eklecty-city.fr/musique/gta-6-joe-keery-stranger-things-justice-bande-originale/",
-   "img": "https://www.eklecty-city.fr/wp-content/uploads/2026/11/gta-6-joe-keery-stranger-things-justice-bande-originale.jpg",
-   "chapeau": "Joe Keery (Stranger Things) rejoint Justice sous son nom Djo sur The Night’s Coming, un morceau de la bande originale de GTA 6.",
-   "txt": "Déjà très orientée vers la scène électronique française depuis le lancement de Grand Theft Auto VI, la bande-son du jeu accueille un invité venu des séries américaines : Joe Keery, alias Steve Harrington dans Stranger Things, qui pose sa voix sous son nom de scène Djo sur le morceau The Night’s Coming produit par Justice.\nAprès Daft Punk sur les ondes de Flash FM avec Around the World , Guy-Manuel de Homem-Christo à la production du single RHYNO de Travis Scott et Étienne de Crécy aux côtés de Fred again.. et PinkPantheress sur Sexy Magic , le duo français Justice poursuit l’assemblage de sa bande originale pour Grand Theft Auto VI en se tournant cette fois vers la pop psychédélique américaine . Gaspard Augé et Xavier de Rosnay invitent ainsi Joe Keery , l’interprète de Steve Harrington dans Stranger Things , sur un morceau inédit.\nSous son pseudonyme musical Djo , l’acteur accompagne les deux producteurs sur The Night’s Coming , un titre intégré à Grand Theft Auto VI: Original Score , attendu pour le 11 décembre 2026 . Les paroles du morceau installent une atmosphère nocturne et mélancolique, portée par le regret, le souvenir d’une disparition qu’il est impossible de ramener à la vie et l’obsession d’un vieux cœur qui bat au rythme d’une voix qui se répète.\nSi le grand public associe d’abord Joe Keery à ses apparitions dans Stranger Things , Free Guy ou encore la cinquième saison de Fargo , l’Américain mène une carrière musicale parallèle depuis plus d’une décennie. Co-fondateur, batteur, guitariste et chanteur du groupe de rock psychédélique Post Animal entre 2014 et 2018, il avait quitté la formation en raison de son emploi du temps sur les plateaux de tournage afin d’éviter que l’image de son personnage dans la série de Netflix ne colle trop à l’identité du groupe.\nIl lance alors son aventure solo sous le nom de Djo en 2019 avec le single Roddy et l’album Twenty Twenty . Son deuxième disque, Decide , sorti en 2022, lui vaut une reconnaissance internationale en 2024 grâce au succès viral sur TikTok du morceau End of Beginning , qui lui permet d’entrer pour la première fois dans le classement Billboard Hot 100. En 2025, il enchaîne avec un troisième album, The Crux – dont la pochette décroche une nomination aux Grammy Awards 2026 – suivi de son compagnon The Crux Deluxe , avant de réintégrer Post Animal pour l’album Iron et d’assurer leur première partie lors de sa tournée mondiale Back on You . Un itinéraire qui l’a aussi amené à coécrire le titre Funny Mouth pour la bande originale du film Wuthering Heights signée Charli XCX en 2026, et à rejoindre Tame Impala sur la première partie de la tournée Deadbeat cette même année.\nCe partenariat avec Djo s’inscrit dans la séparation opérée par Rockstar Games entre les deux disques officiels de GTA 6 . D’un côté, Grand Theft Auto VI: The Album , sorti le 19 novembre 2026 chez Atlantic Records en même temps que le jeu vidéo, rassemble 34 chansons originales créées pour l’univers de Vice City et de l’État de Leonida, parmi lesquelles le single Flower in a Hurricane réunissant déjà Justice , SZA , Tame Impala et King Gizzard & the Lizard Wizard .\nDe l’autre, Grand Theft Auto VI: Original Score , attendu le 11 décembre 2026 en streaming, CD et vinyle, regroupe 30 compositions écrites par Gaspard Augé et Xavier de Rosnay pour accompagner dynamiquement l’exploration et les séquences d’action de Jason et Lucia. C’est au sein de ce second disque, où l’on retrouve également le morceau dark techno Pusher conçu avec Gesaffelstein , que prend place The Night’s Coming avec Joe Keery , confirmant la volonté de Justice d’ouvrir sa partition électronique à des voix issues de la scène psychédélique actuelle.\nVotre soutien est important pour Eklecty-City, retrouvez toutes les actualités pop culture sur les réseaux sociaux : Facebook , BlueSky , Instagram , Twitter .",
-   "pub": "2026-11-21T22:08:23+00:00"
+   "gn": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9TYmlTM0pyNXdQRVFQR1dzXzdDZV9DS0ozalBvbU5vcnpDQnVhN3pVaTR4aWNjUG1CclZiQzlBTTVZekxJeXgwNzY3djl0TTNzYTlhUVBvcnFRZEhKQ2ZOSzhmTGJPTkpGUE9CVU9LU2xPZmNCVVNoaUZXelY?oc=5",
+   "s": "Mashable",
+   "d": "2026-11-21T22:08:48+00:00",
+   "lang": "en",
+   "t": "GTA 6 New Zealand trick for Xbox, PS5: How to play hours early",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbkx1cW9RMzg0ZGYtWGZCRzZtc2dVaGxSaVJoakdEcnJ1QVkxU2NHczdXUmQxNlAzcmZJMlNOdUc3OXdGbjI5MnJ4azhlVGhhTnlZb291X3U1SDRHYjFoS29YVk1Ib01LbnNaTlYtbkJzXzZFWE8wQ0hwMnpHU3FidHNlQmh0c2IwbW5j?oc=5",
@@ -176,6 +188,14 @@
    "pub": "2026-11-21T21:45:16Z"
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBrSzU0QjZKTXhQckg2NURrTl9TQVEwN2JEeVN2clgxek1KUVcxYzJYWE8tRERPdVU5ZWFoMFFSUV9jd05qOGNMc2hGb3hPdVlSSzQ2VXA2bW9ZY3hmdjlPdw?oc=5",
+   "s": "GameByte",
+   "d": "2026-11-21T21:42:42+00:00",
+   "lang": "en",
+   "t": "GTA 6 Has a Hidden Event Where You’re Kidnapped and Thrown Into a Real-Life Hunger Games",
+   "erreur": "429 : passage suivant"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRktianZoYXhHZEc4bWcxalpmVDJkdHhRa3lXOWxTVU9NLUxtNE1IbHZNeDRMMTg3TXFhU09odmNMYUVINTc3N3JWRkVnMGRXUzg1ckQwUzNyM2ZseEZwZHR4UDZjTFVnRE11akEzazUyay1zZ0ltUVNJYW5IdDdiazg0MjRyaU51RGJkM3duVGU?oc=5",
    "s": "IGN",
    "d": "2026-11-21T21:37:37+00:00",
@@ -218,6 +238,14 @@
    "chapeau": "Trop select.",
    "txt": "Les joueurs de GTA 6 se voient refuser l’accès aux boutiques du jeu parce qu’ils ne possèdent pas l’édition Ultimate, et ils ont leur petit mot à dire sur la manière dont Rockstar a géré cette situation. Nous savons depuis des mois que le dernier jeu vidéo en monde ouvert du développeur proposerait, dès sa sortie, une Édition Standard à 79,99 euros et une Édition Ultimate à 99,99 euros. Ceux qui étaient prêts à payer ces 20 euros supplémentaires ont ainsi pu bénéficier d’un large choix d’objets cosmétiques, d’armes, de véhicules et de boutiques exclusives, laissant quant à eux ceux qui n’ont pas déboursé cette somme supplémentaire avec moins d’options parmi lesquelles choisir lorsqu’ils emmènent Jason et Lucia à Vice City.",
    "pub": "2026-11-21T21:27:24+00:00"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE54ZDBScmwxZ2UzWEFUMkZyZGc4RTNjczhSZVlycXRvSkJXei1rSGpwNzJJZDdJczZPNkxWX2dFNUt3YU5fWWhQTERkZkp3VVBfUVhGSzlDVXZXbzg?oc=5",
+   "s": "BBC",
+   "d": "2026-11-21T21:21:57+00:00",
+   "lang": "en",
+   "t": "'It gives me the ick': Can you cheat on someone with a video game?",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbzF4YmptcDh3MmFLQ21sV0hUd1c3ZGhMaDRwTy1sZElrSFVzZTZHNVVUOTZjenJ4bTdOdjdxYXlEUklya0E0UmRVTDgteElKOGdBQ3lTOGIxX3JiQTFGTTdBeUN6M2o4QjFYSVBySGM3SzRyekxtWVcydTQ2b090a3Nra1A5d3pjSUw0T2pMNzlIdmp5azI5OXJBeFYtRC1LSllVcFJB?oc=5",
@@ -264,22 +292,6 @@
    "pub": "2026-11-21T21:58:47+01:00"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBLbFFTQ3M0Z0FUQTI5RjBlSTdMQ1hfRWFaenBaTFpGX2JETE5LLWZQY0t2UEFmZlRmY1F1dlJsX2xjY3Qwejhuc2FjOUo3Nl9aUlRpUUFsZHJ4dkEydTk1amRSZUJWZ1RPak9TeXpGTm43dEpQ?oc=5",
-   "s": "VICE",
-   "d": "2026-11-21T20:58:46+00:00",
-   "lang": "en",
-   "t": "How to Switch Characters in GTA 6 – When Jason and Lucia Switching Unlocks",
-   "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUElsLUk3VE9BZ3FSQzIwenlrYmp2eFZ5ZkNQa0pPWVk1ZHJfRzc1R19Ob0hDcVp2bS00Sjl0MzREdkdVODYwS21mTHhySXBMWTY4d1lNUXhWVi10QWdhS0Izc3J2b19tSDhwbWlrT0ttNzFUZTJEeUdBZlp2bE9Ta1JHVXpVcTIwczYtZmQzeERuR1RfYkJldkduVWhPT2xqa2Z5bjB4U2o?oc=5",
-   "s": "Newsweek",
-   "d": "2026-11-21T20:57:00+00:00",
-   "lang": "en",
-   "t": "‘GTA 6’ Cited by Trump’s Education Department in Transgender Sports Debate",
-   "erreur": "429 : passage suivant"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1DdnE0VEdpREMxRGRMMHpVYUpUeU5ZbDdwZ1pyMlNmZ0pCZnR0aGswcFFkQXZQVVpDeFR3RTBlVjd3bFhmRDN2UGhMeV9BTUFrMDhNdUdGR3dFZkZDZGgyUVEwVlN1cm1S?oc=5",
    "s": "ActuGaming",
    "d": "2026-11-21T20:55:07+00:00",
@@ -290,14 +302,6 @@
    "chapeau": "Pour se préparer à ses prochaines activités dans GTA 6, Jason doit s’équiper correctement. Cette nouvelle mission vous emmène notamment [...]",
    "txt": "Pour se préparer à ses prochaines activités dans GTA 6 , Jason doit s’équiper correctement. Cette nouvelle mission vous emmène notamment chez Ammu-Nation, où vous pourrez découvrir les premières possibilités d’achat d’armes.\nChapitre : Chapitre 1 (Un goût de paradis) Mission : 3 sur 22 Mission précédente : Partie de pêche Mission suivante : Juste une égratignure Lieu : Key Lento Rien ne peut être manqué Récupérer une autre arme Bienvenue à Key Lanto, votre fief pour les prochaines heures au moins. Cette nouvelle mission sera l’occasion pour Jason de découvrir les Ammu-Nations, ces magasins d’armes, mais aussi de vous préparer aux prochains affrontements à venir avec les Kingfishers qui n’en ont pas fini avec vous.\nPour commencer, dirigez-vous vers la boîte aux lettres située à l’extérieur de votre maison pour récupérer l’argent disponible. Cette action sera importante puisque vous devrez très régulièrement venir récupérer votre paye sera déposée directement à cet endroit puisque vous ne disposez pas encore d’un compte bancaire. L’argent vous sera important pour pouvoir acheter votre arme.\nD’ailleurs, il est temps de rejoindre l’Ammu-Nation indiqué sur votre carte. Parlez ensuite au vendeur, qui vous proposera plusieurs armes. Ici, l’objectif est d’acheter une arme longue afin de compléter votre équipement. Vous pouvez notamment choisir entre un fusil à pompe et un fusil tactique. Votre budget étant encore limité à ce stade de l’aventure, le fusil à pompe représente généralement l’option la plus accessible mais il se peut que vous ayez la possibilité d’acheter le fusil tactique, ce choix n’a de toute manière pas d’importance.\nVous aurez aussi à loisir de découvrir les casiers dans lesquels entreposer tout votre arsenal. Une fois votre achat effectué, quittez l’armurerie pour tomber sur trois membres des Kingfishers qui débarquent pour s’en prendre à Jason. Pas le choix ici, vous devez les affronter pour poursuivre. Alors, vous pouvez tester votre nouvelle arme mais une autre option, vous proposant le corps-à-corps, vous permettra d’éviter d’attirer l’attention de la police et une course-poursuite inutile.\nUne fois les trois adversaires neutralisés, il sera temps de sortir votre téléphone et d’appeler Donnie pour le prévenir du danger qui rode. La mission sera terminée après cet appel et vous serez quelque peu libre pour visiter le quartier, comme récupérer les loyers de Brian à travers deux missions « Attention indésirable » et « Frais de labo » ou de retrouver le garage Coastal Auto Care pour faire une surprise à Lucia dans la mission « Juste une égratignure « .\nN’oubliez pas d’également consulter notre guide complet qui recence une tonne d’astuces et de guides sur GTA 6 .\nAjoutez-nous à vos favoris Cet article peut contenir des liens affiliés",
    "pub": "2026-11-21T21:55:07+01:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZ2hlYkR6R3h0RzBJWmVEY3VfMVRzRWpPZWR4MGxSMmgzSWpZUUctYWtydUEwUW5LbzBERUZoelhOYTVKQ01KNGF0LXRFcWZPa3lRX2dSUVVXOExIbXlLcjRxQTZQU2RwMTRYQzJIT1RycE1vdXptQXNhVFB6bnByaU0xNA?oc=5",
-   "s": "Yahoo Tech",
-   "d": "2026-11-21T20:52:50+00:00",
-   "lang": "en",
-   "t": "All locker and safe codes in GTA 6",
-   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9DeHE2YVFvamIyY0ZCb1puaUVTYzk2MW0ycklfT2Z4UnEyM3FQblI4VUgzTEwxemhiY3FYeGN1X3JXRHNEaGJDa3dnMnN1TXEzRDkxclczZlVoLTFkaENha3M4V1g4Y1JHeFJzZW5MTUo?oc=5",
@@ -323,14 +327,6 @@
    "txt": "Bluffton, OH From movies and tv to the lastest fashion trends and lifestyles. We are your one-stop for everything.\nRemember Cyberleek? The Grand Theft Auto VI leaker with a meme coin and a dream claims to have dumped nearly the entire Xbox build of the game on launch day, and says the last missing piece is coming soon. It’s déjà vu, because we’ve been through this song and dance before.\nOn Oct. 10, Cyberleek tied a full build release to their coin’s market value hitting $30 million. The coin never came close and flamed out within days. This isn’t the first time it has crashed, either: Tom’s Hardware reported that the leaker cashed out roughly $250,000, mostly from accumulated trading fees, in late August, hours before Rockstar’s official gameplay reveal and just before the coin plunged.\nThat’s a bit like a magician announcing the big reveal and slipping out through the kitchen with the cash register. And what did we get in the meantime? Some Lucia clips picked by a fan poll and requested by basically nobody else, delivered with the energy of a guy who found a loophole in the “no refunds” policy.\nNow the target has dropped to $15 million. Cyberleek says the final file is coming Monday, Nov. 23, no matter what, or sooner if the coin hits $15 million first. Half price, like a clearance rack at a Blockbuster that somehow survived into 2026 (OK, one of them did). Nothing says confidence like cutting your own ransom note in half and hoping nobody notices.\nAccording to PC Gamer , Cyberleek says every file has been released except the main executable, from what the leaker calls the “full November 2026 build” of the game. Reports put the download at roughly 200 GB, with several outlets citing 209 GB. If that’s accurate, they’ve handed over the whole pantry and kept the oven. It’s like mailing someone every ingredient for a birthday cake, then standing outside their house holding the matches and asking for a tip.\nOne important caveat: as of this writing, nobody has confirmed the build is genuine. Everything about the build itself is Cyberleek’s claim. And files claiming to be Cyberleek builds have been linked to malware before, so this isn’t the torrent to get curious about.\nCyberleek’s pitch is that “this community will have it emulated inside a week, running far past 30fps.” Fine. Honestly, kind of compelling. I’ve watched grown adults argue about frame rates in a Walmart parking lot, so I understand the stakes. The catch: no working Xbox Series X emulator exists yet, according to Notebookcheck, so “inside a week” is doing a lot of heavy lifting.\nGTA 6 has no official PC version, so Cyberleek is pitching emulation of the leaked console build as the way in. And if the Xbox build can’t be made to work, they say they’ll go after a PlayStation 5 build instead, a fallback they call “most likely never required.” Because apparently one console isn’t enough.\nAccording to launch-day reports from PC Gamer and IGN, the meme coin was sitting at roughly $1.8 million to $1.9 million. Reaching $15 million in a few days would take an eightfold jump, the kind of growth you normally only see in a sourdough starter during lockdown, and even those eventually die in the back of the fridge. So the date is the trigger that actually matters: Monday, Nov. 23.\nMaybe Cyberleek has the goods. Maybe they have a folder of loading screens and a very vivid imagination. Nobody knows, and my money’s on the second one, but if the build is real, Rockstar has a headache. Either way, we’ll find out soon. Grab some popcorn, and maybe a sturdy lawn chair.\nComments Response Community Policy YOU MAY ALSO LIKE Total Apex Entertainment partner publisher · 3.9K followers Taurus Daily Horoscope Nov 17, 2026 You’re standing at the center of a cosmic tug-of-war today, and that’s not hyperbole. The First Quarter Moon fired off at 5:47 a.m. in Aquarius, squaring the Scorpio Sun and locking you into a fixed-sign standoff that demands a real decision. This isn’t a soft crossroads. The Aquarius Moon activates your 10th house of career ... Read more\nShare Total Apex Entertainment partner publisher · 3.9K followers GTA 6 Jason and Lucia: The Crime Movies Behind the Couple Rupert Humphries, Rockstar’s senior vice president of narrative, told Game Informer where GTA 6’s leads came from, and the answer is a pile of movies about couples who’d have been better off staying home on the couch. The interview went up Nov. 19, the same day the game launched, so Jason and Lucia are official",
    "pub": "2026-11-21T20:45:54.000Z",
    "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVXJ6THdvNkhBZEtlWnBLdlBlekhlejE1OWFnVmw5WXp0SGtxT0pJVGRkZGdVZTdBeG5KTEdpbG9Mcnd5amJwbXNUdldDMlNPZ3ZaSUpjZFN4NXcxcEJxWGRobXlLa3plUlp0XzJob01iSEY0VTV6VlZWM2xoclREQjVvaFpMYmxZcHVVd0xYbWN6b2NUZzcwRm9kbUNQU0dsbS1tZmJ5c2Z3TGc4?oc=5",
-   "s": "PC Gamer",
-   "d": "2026-11-21T20:32:43+00:00",
-   "lang": "en",
-   "t": "Should you proceed or postpone when you meet Abe in the Protective Custody mission in GTA 6?",
-   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQWnZtWjluT3Jpc1AtYUFWcG42RjFvVFpvZGlBU05MOEpGdmJPX09SNUk5OVp3dTVjRURGLWowSF9iVGpmSHd0T3FoSGp4Ym5mSnNEZlpyRm9jUEU1eUhuZnFydmFBR3NjRmR4ZUtEcFZCS1RhNmFqa3p2ZzBCcTlNT1VR?oc=5",
