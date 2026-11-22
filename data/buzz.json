@@ -1,6 +1,6 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-22T10:13:00+01:00",
+  "updated_at": "2026-11-22T12:12:00+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
     {
@@ -6253,6 +6253,11 @@
       "at": "2026-11-22T10:13:00+01:00",
       "label": "Passage Claude Haiku (Matière X, veille 2 h)",
       "summary": "1 sujet ajouté depuis data/x_alertes.json. x_alertes.json est vide (posts : 0) depuis le relevé de 08 h 01 UTC, donc relevé de 07 h 19 UTC (historique git) : PNJ attaqué par un ours (33 999 vues @gtasix_, un seul compte : Rumeur). Écartés : vidéo radios (déjà dans items), Xbox 60 FPS (déjà dans items, repris par GTAlphaintel 81 428 vues), revenus 24 h (12 751 vues, sous le seuil), « album n°1 » (611 vues)."
+    },
+    {
+      "at": "2026-11-22T12:12:00+01:00",
+      "label": "Passage Claude Haiku (Matière X, veille 2 h)",
+      "summary": "0 sujet ajouté. data/x_alertes.json est vide (posts : 0) depuis les relevés de 08 h 01 et 10 h 05 UTC. Dernier relevé non vide (07 h 19 UTC, historique git) : tous les posts ≥ 20 000 vues sont déjà dans items (Xbox 60 FPS, photo Londres, carte à pied 6 h 56, parkour, Lucia, PS5 fumée, radios, PNJ ours). Sous le seuil, un seul compte : revenus 24 h (12 751 vues), album n°1 (611), GTA Online (1 856), GTA6France1 (227), Jason et Lucia (9 996 et 9 760). Presse (data/presse.json) : aucun post social nouveau à corroborer ; rien retenu sur la presse seule."
     }
   ],
   "coverage": {
