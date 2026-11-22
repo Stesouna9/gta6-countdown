@@ -1,6 +1,30 @@
 {
- "maj": "2026-11-22T05:16:39+00:00",
+ "maj": "2026-11-22T05:37:10+00:00",
  "articles": [
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPTFJWbDFJOE9Vb19jdFRqeEhNRU92VGNaak9aWjNSTlQwZmZSM19ZUlFycW1qcUgzS1pzZTRSQUNmeWY1YXppQzZZRG95V09fZjVKeEw4V1lnQm8wUXRMQ2ZHV2I3VHpfNkZrTTczOHdwRjhIZ2ZTNk41RmFlSHkySFExb3NCY3ZmNE1hQzJsOGd6VW44Vk44WTdTZ1Z3TGdPTWEyam12SkpkUkM1SmF3MGVadEJoeVpaZV9fS1RPaGw3dUJxT3RaYzNCYkxIVzNiQnZUU2lKUnNTYzg?oc=5",
+   "s": "Le Figaro",
+   "d": "2026-11-22T05:21:00+00:00",
+   "lang": "fr",
+   "t": "Sortie de GTA 6 : la PlayStation 5 est encore en stock à prix canon ce dimanche 22 novembre",
+   "erreur": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaDlFeE9NdG1uUFlYeThhMXVDTXI5TGJYV3lyVU1UY3hfU3NwdUI2RllzVW81S1RCM1ZBdURIRG55SlRlR0dKSl95dkM4LURZOC1EQk9JVjJwOGpTcElMWUZYYVBGVjhLZk5EUDk1M205aDBxcXlzMS1XbDhOMEdsLUhQN3BvcWpCOFNsUkxnT3BCWnBqTFZhWXVnb29neTdD?oc=5",
+   "s": "20 Minutes",
+   "d": "2026-11-22T05:17:00+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : La PS5 est de retour en stock sur Amazon, mais il faut faire vite",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPR2Q0VGFVYUp6MFlnWnZUZEw3ZlVHN245NTNMZ0pWZkxGdU54RkpqUGlia2t4aTlyM3Q1VmZDV2gzZkVEc1VOWENIUUZMcEVfSDJ1ZDBaR1JxeFQtV0VQS3RpMENMdldQNXIxLUdaTml2d3RSdGhxR1g2c2xCVEJ2bkhqcXBUR1h0MmN1bnZGNEZhNE8yN0FEMXV1bGh0TFJkcldiOXUzMk9vT1Y5ZktPTTJrRjFCVXgzNWJCeEVJd1pJdjRjR2c2THZKaW9BVHJOVmc?oc=5",
+   "s": "Auto Moto",
+   "d": "2026-11-22T05:04:00+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : faire le plein devient obligatoire, même les criminels devront passer à la station-service",
+   "erreur": "429 : passage suivant"
+  },
   {
    "gn": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNUlVFdGYxSkx5VDFWc3I1dDJodWZDWXRzV3VOeU9tVEtZcVluRGFHUEpCZ0dwVzg3S05PZWlaUkh2SFlPYnUxQjlVQV9QaWVBclF3alFaeS1uNnBjS0w2ZThzVThkSThwMnpGQktTRzBjZ3BNNlJxLVlsRmtpM2JndUt4QWV1enFmdFJ3RVRRa2hJN2NWWVFMQm5yN0stamVDM2t1OGg1VEpwSHRJdVVzUjcxMU9EREI4Ump6RklicDhPRWFLN0pWbmtPcnNoQ1RCcGFKR2Y4aktTNkxR?oc=5",
    "s": "Facebook",
@@ -24,7 +48,7 @@
    "d": "2026-11-22T04:41:15+00:00",
    "lang": "fr",
    "t": "Officiel : ça prend 1h41 de traverser tout GTA 6 en courant",
-   "erreur": "HTTP Error 429: Too Many Requests"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdTF1WWktSUM5LUVROEx0cTBCeGZLSGNVQ1hKZ3M0V1NQNmlFLTlCQTdaOHVIY1RGcjZYd3I2X0JTUFhjTktlRU5KVnlYbU5rU1lrMHlKd0FGUXFBYzlEX1ZLOGNFQ0lyU0pWTElhSTh2SHRZN3U4QUlPMng0WG5sS2IzUEsyaGNw?oc=5",
@@ -216,18 +240,6 @@
    "erreur": "429 : passage suivant"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQVdPSE16ekZJSmE0RGhDU2VINVc3eXZtWElaOXpJNTVsMW4yMkRnR1ZJN0RKU29XbGJ4RkdySmszWmM4WllBOTh6MjM2OWxRcUJ6Si00aEpkanZLSEZ5UDktYmZYLTJkZGVqd1hNanBrcXRMYTRHdHp4QmpZNXZ6SmdpTFpMMnFPMXBYUkV5R0RPYkxMQ3JxaGZxOFFKZw?oc=5",
-   "s": "GAMINGbible",
-   "d": "2026-11-21T22:43:47+00:00",
-   "lang": "en",
-   "t": "GTA 6 has a hidden warehouse packed with loot worth $14,000",
-   "u": "https://www.gamingbible.com/news/gta-6-hidden-warehouse-14000-easy-money-location-951211-20261120",
-   "img": "https://resizer.ladbiblegroup.com/ogimage/v3/assets/bltbc1876152fcd9f07/blt77a4c001f395c7e1/6b007faf5ae0fd3e5afc83d8/image_(289).png",
-   "chapeau": "Jason's about to make $14,000 without doing a day's honest work. Lucia would be proud 💰",
-   "txt": "GTA 6 players can earn around $14,000 by looting a hidden warehouse in Leonida, without completing a single mission. Here's where to find it\nWhen you begin your GTA 6 story, making money doesn't come easy. For the most part, you'll be earning relatively small amounts before working your way up the criminal underworld and making even Scrooge McDuck jealous. Thankfully, you can earn around $14,000 quite early in the game by visiting a hidden location in Leonida, without even completing a mission.\nI'm the kind of gamer who loves exploring open worlds to see what's around the next corner or over the next hill. That's how I stumbled across a remote warehouse near Hamlet in GTA VI , packed with valuable loot, including stolen goods, drugs and cash. It's a fantastic way to earn some extra money for Jason, especially if you want to spoil Lucia on her first day out of prison.\nSo, if you fancy making some easy cash in Rockstar Games ’ highly anticipated entry in its Grand Theft Auto series without getting your hands too dirty, here's where to find the warehouse and how to get your hands on its valuable loot.\nThe warehouse in question is Apollo Aggregates, located near Hamlet in South Vice-Dale County. It's easy enough to miss if you're simply driving past, but if you're anything like me and enjoy exploring every little corner of the map, it's certainly worth checking out.\nNow, this is where things get interesting, because the warehouse is packed with goods that you can sell for a tidy profit. However, don't expect to simply walk inside and find $14,000 lying around. You'll need to collect everything and find someone willing to take it off your hands.\nREAD MORE: 9 GTA 6 easter eggs we've spotted that you might have missed\nThe money isn't the only reason to visit, because there are a few other goodies worth keeping an eye out for. Before you make your escape, be sure to have a proper look around. You never know what else you might find.\nThere are plenty of ways to make money in GTA VI , but stumbling across a warehouse packed with valuable loot is certainly one of my favourite discoveries so far. After all, earning around $14,000 without completing a single mission isn't a bad way to start your criminal career.\nGrand Theft Auto VI is out now on PlayStation 5 and Xbox Series X/S.",
-   "pub": ""
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9BWTBLQVp4REJjMEhRcUpSaWJ1eV9yeE9YUTZtMHpPMGFILTZrbk1sZWRfNVV4bU1rOWxXR003eHJmNEFod2FNQlhDUTdPM285NFNpWnlCZXBIemdOYTEtZ0JYeDlTUDJycFRIY0oxMFVKaGJ6?oc=5",
    "s": "ActuGaming",
    "d": "2026-11-21T22:34:45+00:00",
@@ -270,6 +282,14 @@
    "chapeau": "Si vous voyez l'erreur CE-108255-1, ne l'approchez pas, et appelez la police.",
    "txt": "Les joueurs de GTA 6 sur PlayStation 5 ont signalé des plantages fréquents liés au code d’erreur CE-108255-1, et il semblerait que cela les empêche de progresser dans l’histoire en attendant que Sony et Rockstar publient un correctif. Même si Rockstar Games a passé une décennie à développer son nouveau jeu Grand Theft Auto, il n’est pas surprenant de voir que le nouveau jeu le mieux noté de tous les temps connaisse au moins quelques ratés lors de son lancement. Certains sont toutefois plus touchés que d’autres, et de nombreux articles faisant état de plantages affectant les consoles PS5 ont fait leur apparition sur Internet dans les jours qui ont suivi la sortie de GTA 6.",
    "pub": "2026-11-21T22:30:00+00:00"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTlQtQUdEWTR2X09MYlBqcXdwY1JOUUhoU0puaS1hRk9aZ1EtYXUtZWJxT0dJaklWb2ZGTlc5QmZ2b0hicDdzYnB0VnFtaXZEaUoyX1NySXFMZnZVeWN6amJid0VITnZ3VlZkQ2MzY1Nrbko0UU1ZVU9Bdk9TZzNSczZZaGo3U2lkSTBXb21FakhpaWZFUkNCOEtyLXptMHZuenlrOQ?oc=5",
+   "s": "Insider Gaming",
+   "d": "2026-11-21T22:26:08+00:00",
+   "lang": "en",
+   "t": "Where to Find All of Randy’s Wishlist Supercars in GTA 6—Car Locations & Tips",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1UZGdJUnNnYnBrUXU5M0RqNVpHdWNEQm14bGxEOHlOSXQ1VWxZeV92ZkJsUHoyaXROaWJiOWlIT09iTzVReUd1aGduanhPWTg2aDF2ZHB6Sjh3Zw?oc=5",
@@ -342,30 +362,6 @@
    "d": "2026-11-21T21:20:08+00:00",
    "lang": "fr",
    "t": "J'adore cette mission de GTA 6 mais impossible de la refaire",
-   "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaS1VeklIYXpkcDl2cWxBcjJHZHdBc2tWQzZxMXhLdTFnYUZBV0Y2VlJadFJDUG1KU0VBSHl3eGE1WFNOVmF5VVdzZHliaUViSkN4QlhJbzVHY0tQYnFNUVlnMUhtaXdveEtnelpMV2djT1psMEVjd25LSW5zYmJXd1Nfdk1mTl9nZGVFam1GcS1qNS1sV0RnRm00Wng4WHBW?oc=5",
-   "s": "JeuxVideo.com",
-   "d": "2026-11-21T21:07:07+00:00",
-   "lang": "fr",
-   "t": "ATM GTA 6 : Comment braquer les distributeurs automatiques ?",
-   "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPZW84OGRQYm12YkJmVFNWaFZhbThQUlB1NHdrbDBYS0hzTzJqemtaZW54NXhHS1FubkVNU2VBMm5KWTQwenp3WENfV0FfSU1wamhUSzNtc3o1alp6ZWlSU3hJT1IzT1RrTXlQU0kyMWNETGtRbWh0akdURGxya01ncG1wQmg5X1JHNzFNTUFnWER6WXRvbEpLSDhlMUZURUxJaDQ3LTJqTmlPZjJqWHRLcnF6NTZpay1yaERXekV5aHpmS2EyNkJXdnotREphQzQ1TXk1U3E2dGRQZl9CNUJqZ19wN0doejZwMGUtckxlVzVyYWNNZEg3VUg0THZHZWpWY29YcHhnNmw3RmJW?oc=5",
-   "s": "Ouest-France",
-   "d": "2026-11-21T21:01:01+00:00",
-   "lang": "fr",
-   "t": "Ce dimanche 22 novembre, aucune autre manette PS5 n’est moins chère que ce modèle après GTA 6",
-   "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBfV002WFNxZlhKLWZtcXdaSnRjYTJ6NENSV3VTMnZoODZVN2hWZ1h4NDhieXpQeElyYUtNWnZCVzFzSkZDa1hQckdjeXlIUlNBZ2JHTGhVc3p2RWFhRWxUZDc1dENiaTdTckxfMUVzVUFXM2h2WVRCTQ?oc=5",
-   "s": "ActuGaming",
-   "d": "2026-11-21T20:58:47+00:00",
-   "lang": "fr",
-   "t": "Soluce Juste une égratignure GTA 6 : réparer la Ganado",
    "erreur": "429 : passage suivant"
   },
   {
@@ -622,20 +618,20 @@
    "cyberleek": true
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRVhidGJtUFBLQ0JkZmlrdnFnQVI2NHE0REZzcFhvWlR6SGpwa2NaSUhDSDRfUTRfdXdZVVVhbmZQQjlhTS05Q1M5dUkzQVA5OXE1Z0xGSlVsbW5OQTM0Yzlvd1ZwQ0ZnZ0ExMWlMQTJiMHlTb1FkZ29nNy13MDVObDNod3RkZ1pjd3d6YTUxczNZZFNtWHlhcFBjaWYtWVU0WDFZ?oc=5",
+   "s": "games.gg",
+   "d": "2026-11-20T17:53:14+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : Cyberleek affirme avoir fuité un build Xbox sans exécutable",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcmJGZmUxdG82NURlNGFIMlRpQXpNR1RUYmd1cTZMMDROZmZrMTFoM1U1cXhGNHZILTg3MkR0N2VFaWlrUVNXcWNtQVAxVEM5aDdfRUVCWXgyWkVwbXV6YXMtZmZMblFiOWNkTU95YWlocURyOXdRUm5ZM254MEpPOEZma2F2V0JrVHF6dkplRXNQd3d1YllOWElGamRSWWc?oc=5",
    "s": "Mac4Ever",
    "d": "2026-11-20T16:01:00+00:00",
    "lang": "fr",
    "t": "GTA 6 : un pirate diffuse 209 Go du jeu, mais injouable sur PC",
-   "erreur": "429 : passage suivant",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMEE4RGt3SkVmMEdGMlZMNDJYN3FCMnoxdktIbUhVT1BlcEVISUNBYV9LbnBpT1Vra1JVRjRiSHBOeWR5ZzJyZFBDXzFHTWdkbTVDb3U1a29xQWlhVFBUeXF2QzhXU0JlWlBTN2xLbmRTcXBnTlJQUTVrUExkVzNYSVdndXlONm44ODhXZ0tSREVVcTdfcFpnWEpkdTdnSlla?oc=5",
-   "s": "Softonic",
-   "d": "2026-11-20T14:17:23+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : une version Xbox de 209 Go aurait fuité, sans garantie sur PC",
    "erreur": "429 : passage suivant",
    "cyberleek": true
   },
