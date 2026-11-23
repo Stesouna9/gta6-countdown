@@ -100,8 +100,29 @@ def ia(consigne, max_tokens=1500):
     except Exception: pass
     return "".join(b.get("text", "") for b in r["content"] if b.get("type") == "text").strip()
 
+def poids(t):
+    """Longueur comptée par X : lien = 23, emoji et caractères hors latin = 2."""
+    t = re.sub(r"https?://\S+", "x" * 23, t)
+    return sum(1 if ord(c) <= 0x10FF or 0x2000 <= ord(c) <= 0x200D or 0x2010 <= ord(c) <= 0x201F or 0x2032 <= ord(c) <= 0x2037 else 2 for c in t)
+
+def court(t, n=278):
+    """23/11 : fin de Premium (22/11), X refuse au-delà de 280 (« bouton inactif »). Enlève des # puis raccourcit la ligne la plus longue hors # et titre."""
+    while poids(t) > n:
+        ls = t.split("\n")
+        tags = [i for i, l in enumerate(ls) if l.count("#") > 2]
+        if tags: ls[tags[-1]] = ls[tags[-1]].rsplit(" ", 1)[0]
+        else:
+            corps = [i for i, l in enumerate(ls) if i and l.strip() and not l.startswith("#") and not l.startswith("👇")] or [0]
+            i = max(corps, key=lambda k: len(ls[k]))
+            l = ls[i].rstrip("…").rsplit(" ", 1)
+            ls[i] = l[0].rstrip(",;:") + "…" if len(l) > 1 and len(l[0]) >= 15 else ""
+            if not ls[i] and i == 0: return t[:120]
+        t = re.sub(r"\n{3,}", "\n\n", "\n".join(ls)).strip()
+    return t
+
 def colle(texte):
     """Écrit dans la zone de texte de X par un « coller » : garde les retours à la ligne (insertText les perdait, 24/10)."""
+    texte = court(texte)
     return js("""(()=>{const e=document.querySelector('[data-testid=tweetTextarea_0]');if(!e)return 'pas de zone texte';e.focus();
 document.execCommand('selectAll',false,null);document.execCommand('delete',false,null);
 const t=%s,d=new DataTransfer();d.setData('text/plain',t);e.dispatchEvent(new ClipboardEvent('paste',{clipboardData:d,bubbles:true,cancelable:true}));
@@ -183,6 +204,7 @@ return a.sort().pop()||''})()""")
         # 10/11 : slot astuce, la réponse détaillée (prix, sources) remplace le lien
         suite = p.get("reponse") or ("👉 À lire en entier sur " + p["lien"] if p.get("lien") else "")
         if pid and suite:
+            suite = court(suite)
             try:
                 js("location.href='https://x.com/gtavifrancecom/status/%s';'ok'" % pid); time.sleep(8)
                 res = js("""(()=>{const e=document.querySelector('[data-testid=tweetTextarea_0]');if(!e)return 'pas de zone';e.focus();

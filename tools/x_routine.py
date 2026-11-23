@@ -63,14 +63,14 @@ def paragraphes(h, n=2):   # 22/10 : X Premium+ (Gabriel) = posts longs, on donn
     ps = [re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", x)).strip() for x in re.findall(r"<p[^>]*>(.*?)</p>", h or "", re.S)]
     return [x for x in ps if len(x) > 40][:n]
 
-LONG = 1100   # Premium : jusqu'à 25 000 car. ; X coupe à ~280 avec « Afficher plus » (temps de lecture = portée)
+LONG = 275   # 23/11 : plus de Premium, 280 max (remettre 1100 si Gabriel reprend Premium) ; avant : Premium : jusqu'à 25 000 car. ; X coupe à ~280 avec « Afficher plus » (temps de lecture = portée)
 
 def compose(tete, corps, theme, suite=(), appel="👇 Article complet en réponse"):
     if theme == "#Cyberleek": pied = "Non confirmé par Rockstar.\n" + appel + "\n" + TAGS_CYB
     else: pied = appel + "\n" + TAGS + (" " + theme if theme else "")
     reste = LONG - len(tete) - len(pied) - 8
     corps = re.sub(r"\s+", " ", corps or "").strip()
-    corps = coupe(corps, reste)
+    corps = coupe(corps, reste) if reste >= 50 else ""
     for x in suite:   # paragraphes entiers tant qu'il reste de la place, le dernier coupé proprement
         place = reste - len(corps) - 2
         if place < 120: break
