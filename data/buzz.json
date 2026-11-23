@@ -1,8 +1,65 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-23T16:12:56+01:00",
+  "updated_at": "2026-11-23T18:12:38+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-travis-scott-burn-this-shit-down-gtasix-2026-11-23",
+      "title": "GTA 6 : la chanson complète de Travis Scott « Burn This Shit Down » publiée",
+      "summary": "Le compte @gtasix_ publie la version complète de « Burn This Shit Down », le titre de Travis Scott tiré de l'album GTA 6 : The Album. Le post ne dit pas si la publication est autorisée par Rockstar ou par l'artiste ; à vérifier sur les canaux officiels.",
+      "url": "https://x.com/gtasix_/status/2124869225693282384",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rapporté",
+      "published_at": "2026-11-23T14:14:36.000Z",
+      "checked_at": "2026-11-23T18:12:38+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json le 23/11 à 17 h UTC : 151 883 vues (@gtasix_), 174 reposts, 1 548 j'aime. Une seule source relevée.",
+      "visual": "Travis Scott",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2124869114963304448/img/gZUg_TVB617gPlPG.jpg",
+      "image_alt": "Image du post de @gtasix_ annonçant « Burn This Shit Down » de Travis Scott",
+      "image_credit": "@gtasix_ sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Travis Scott’s full GTA 6 song “Burn This Shit Down” from GTA 6: The Album."
+    },
+    {
+      "id": "x-patch-01-002-002-notes-crashs-meteo-gtasix-2026-11-23",
+      "title": "GTA 6 : les notes du patch 01.002.002 corrigent plantages, météo bloquée et appels",
+      "summary": "Selon @gtasix_, les notes du patch publiées par Rockstar pour la mise à jour du jour corrigent plusieurs causes de plantage, une météo bloquée pendant de longues périodes, un problème de sauvegarde automatique et des appels téléphoniques qui ne se déclenchent pas, y compris ceux nécessaires à l'avancée de l'histoire.",
+      "url": "https://x.com/gtasix_/status/2124878134981910789",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rapporté",
+      "published_at": "2026-11-23T14:50:00.000Z",
+      "checked_at": "2026-11-23T18:12:38+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json le 23/11 à 17 h UTC : 223 178 vues (@gtasix_), 279 reposts, 4 064 j'aime. Corroboré par @GTAVI_Countdown (météo corrigée, 292 837 vues) ; notes relayées, non relevées sur le compte officiel dans x_alertes.json.",
+      "visual": "Notes du patch",
+      "image": "https://pbs.twimg.com/media/HX0U-CIWYAAPkrx?format=jpg&name=small",
+      "image_alt": "Image du post de @gtasix_ reprenant les notes du patch GTA 6",
+      "image_credit": "@gtasix_ sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Rockstar Games has released the patch notes for today’s GTA 6 update."
+    },
+    {
+      "id": "x-mike-forbs-boobie-ike-gtasix-2026-11-23",
+      "title": "GTA 6 : l'acteur Mike Forbs, voix de Boobie Ike, raconte son travail chez Rockstar",
+      "summary": "Selon @gtasix_, Mike Forbs, qui joue Boobie Ike, a raconté son expérience sur GTA 6 : travail entre 2021 et début 2026, environ cinq ans de capture de mouvements et de doublage, et un premier casting pour un rôle plus petit.",
+      "url": "https://x.com/gtasix_/status/2124888709795324020",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rapporté",
+      "published_at": "2026-11-23T15:32:01.000Z",
+      "checked_at": "2026-11-23T18:12:38+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json le 23/11 à 17 h UTC : 77 659 vues (@gtasix_), 1 327 j'aime, 57 reposts, 163 marque-pages. Propos de l'acteur relayés par le compte, une seule source relevée.",
+      "visual": "Mike Forbs",
+      "image": "https://pbs.twimg.com/media/HX0fBA5WYAAseRh?format=jpg&name=360x360",
+      "image_alt": "Image du post de @gtasix_ sur Mike Forbs, acteur de Boobie Ike",
+      "image_credit": "@gtasix_ sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "GTA 6 actor Mike Forbs, who plays Boobie Ike, has revealed details about his experience working with Rockstar Games."
+    },
     {
       "id": "x-kurtaj-libere-licence-gtavi-countdown-2026-11-23",
       "title": "GTA 6 : le hacker Arion Kurtaj libéré sous licence",
@@ -6428,6 +6485,11 @@
       "at": "2026-11-23T16:12:56+01:00",
       "label": "Passage Claude Haiku (Matière X, veille 2 h)",
       "summary": "3 sujets ajoutés depuis data/x_alertes.json (maj 2026-11-23 15 h UTC) : Kurtaj libéré sous licence (@GTAVI_Countdown 10 269 vues, @gtasix_ 5 379, deux comptes, lien vers l'article du site), album Deluxe 23 titres (@RockstarGames, officiel, 334 445 vues), 45 millions d'exemplaires (@gtasix_, 67 073 vues, source Insider Gaming). Exclus : patch notes et météo (doublon du patch annoncé ce matin, à suivre), Pennywise (@gtasix_ 67 189 vues, compte unique, à garder pour un prochain passage), taille de la mise à jour PS5/Xbox et rollout (même sujet que la mise à jour 01.002.002 déjà publiée), posts sous 20 000 vues sans reprise."
+    },
+    {
+      "at": "2026-11-23T18:12:38+01:00",
+      "label": "Passage Claude Haiku (Matière X, veille 2 h)",
+      "summary": "3 sujets ajoutés depuis data/x_alertes.json (maj 2026-11-23 17 h UTC) : chanson Travis Scott (@gtasix_, 151 883 vues), notes du patch 01.002.002 (@gtasix_, 223 178 vues), Mike Forbs / Boobie Ike (@gtasix_, 77 659 vues). Écartés : fuite Cyberleek Xbox (politique du site : pas de fuite), doublon Kurtaj, sous les seuils le reste."
     }
   ],
   "coverage": {
