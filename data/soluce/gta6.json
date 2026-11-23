@@ -1,7 +1,7 @@
 {
  "game": "gta6",
  "title": "GTA VI",
- "maj": "2026-11-22",
+ "maj": "2026-11-23",
  "note": "Fiches GTA 6 (schéma data/soluce/schema.json). Rempli par la routine gtavifrance-solutions : uniquement des infos vérifiées (2 sources ou officiel). Missions d'histoire = spoiler (masquées par défaut sur missions.html). Noms de missions : liste officielle des trophées PSN. Chapitres : au moins 4 + mission finale (trophées).",
  "chapitres_connus": 4,
  "etrangers_total": 8,
@@ -393,6 +393,7 @@
   }
  ],
  "hub_articles": [
+  "2026-11-23-base-militaire-mile-zero-air-station-gta6",
   "2026-11-22-controles-avion-gta6",
   "2026-11-18-nombre-missions-chapitres-duree-gta6",
   "2026-11-18-codes-triche-gta6-liste-deblocage",
