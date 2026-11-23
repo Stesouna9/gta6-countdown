@@ -1,6 +1,6 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-23T20:12:56+01:00",
+  "updated_at": "2026-11-23T22:13:38+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
     {
@@ -6552,6 +6552,11 @@
       "at": "2026-11-23T20:12:56+01:00",
       "label": "Passage Claude Haiku (Matière X, veille 2 h)",
       "summary": "3 sujets ajoutés depuis data/x_alertes.json (maj 2026-11-23 19 h UTC) : Overmono « Welcome to Leonida » (@GTAVI_Countdown, 28 097 vues), portail vers l’ancienne Vice City (@GTAlphaintel, 22 065 vues, rumeur), acteurs de Jason et Lucia (@gtasix_, 286 929 vues). Écartés : fuite Cyberleek Xbox (politique du site : pas de fuite), doublons patch, Kurtaj et PlaystationSize, sous les seuils le reste."
+    },
+    {
+      "at": "2026-11-23T22:13:38+01:00",
+      "label": "Passage Claude Haiku (Matière X, veille 2 h)",
+      "summary": "Aucun sujet ajouté. data/x_alertes.json (maj 2026-11-23 21 h 11 UTC) : les posts au-dessus de 20 000 vues sont déjà publiés (Vice City, Jason et Lucia, Overmono) ou écartés. Fuite Cyberleek Xbox (624 849 vues, @GTAVI_Countdown) non publiée : la règle Cyberleek du dépôt interdit le contenu de fuite, les liens vers les fichiers et le lien vers le post de relais. Sous les seuils, un seul compte chacun : chapeau d'Arthur Morgan (11 176 vues), Ibai (9 703), SpongeBob (7 269). Patch 01.002.002 et correctifs météo déjà couverts par l'entrée @gtasix_."
     }
   ],
   "coverage": {
