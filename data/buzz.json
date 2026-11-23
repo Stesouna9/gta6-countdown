@@ -1,8 +1,65 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-23T12:12:44+01:00",
+  "updated_at": "2026-11-23T14:13:37+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-playstationsize-maj-01-002-002-tranches-2026-11-23",
+      "title": "GTA 6 : la mise à jour 01.002.002 se déploie par tranches, 33 % des joueurs servis en premier",
+      "summary": "Le compte @PlaystationSize annonce un déploiement par tranches sur PS5 : 33 % des utilisateurs ont la mise à jour, 66 % dans 3 h, tous dans 6 h. Il indique un poids de 603 Mo. Rockstar a annoncé le même patch sur son compte officiel (voir la publication suivante).",
+      "url": "https://x.com/PlaystationSize/status/2124809126232396172",
+      "platform": "X",
+      "author": "@PlaystationSize",
+      "status": "Rapporté",
+      "published_at": "2026-11-23T10:15:47.000Z",
+      "checked_at": "2026-11-23T14:13:37+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json le 23/11 à 12 h 16 UTC : 252 647 vues, 2 919 j'aime, 139 reprises. Relayé par @GTAVI_Countdown (33 528 vues) et @gtasix_ (9 709 vues). Corroboré par big-n.fr (23/11, 11 h 44 UTC).",
+      "visual": "Mise à jour",
+      "image": "https://pbs.twimg.com/media/HXzWoNJWEAAST3Y?format=jpg&name=small",
+      "image_alt": "Image du post de @PlaystationSize sur la mise à jour 01.002.002 de GTA 6",
+      "image_credit": "@PlaystationSize sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "GTA 6 - Update 01.002.002: 33% of Users: Now Available. 66% of Users: in 3h. All Users: in 6h. Update Size: 603 MB"
+    },
+    {
+      "id": "x-rockstar-premier-patch-370-mo-2026-11-23",
+      "title": "GTA 6 : Rockstar annonce le premier patch, déployé progressivement sur PS5",
+      "summary": "Le compte officiel @RockstarNewsFRA annonce le premier patch de GTA 6, déployé au fur et à mesure sur PS5, pour environ 370 Mo. D'autres comptes relèvent une taille de 603 Mo (PS5) et 1,6 Go (Xbox Series X|S) : l'écart n'est pas expliqué à ce stade.",
+      "url": "https://x.com/RockstarNewsFRA/status/2124807485081239717",
+      "platform": "X",
+      "author": "@RockstarNewsFRA",
+      "status": "Officiel",
+      "published_at": "2026-11-23T10:09:16.000Z",
+      "checked_at": "2026-11-23T14:13:37+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json le 23/11 à 12 h 16 UTC : 21 702 vues, 224 j'aime, 2 reprises. Compte officiel Rockstar (version française).",
+      "visual": "Patch Rockstar",
+      "image": "https://pbs.twimg.com/media/HXzjQhjWUAA08bv?format=jpg&name=360x360",
+      "image_alt": "Image du post de @GTAVI_Countdown annonçant le déploiement du patch de GTA 6",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Le premier Patch arrive pour GTA 6 ! Il sera déployé au fur et à mesure sur PS5. Environ : 370 MO"
+    },
+    {
+      "id": "x-gta6-album-records-spotify-gtavi-countdown-2026-11-23",
+      "title": "GTA 6 : l'album du jeu annoncé en tête des records Spotify, selon @GTAVI_Countdown",
+      "summary": "Le compte @GTAVI_Countdown affirme que l'album de GTA 6 réalise le plus gros démarrage de streaming pour une bande originale de l'histoire de Spotify, que « Flower In A Hurricane » est numéro 1 du classement mondial, et que l'album est premier des ventes sur Amazon. Aucune source officielle ni presse vérifiée ne reprend ces chiffres à ce stade.",
+      "url": "https://x.com/GTAVI_Countdown/status/2124703450638188999",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "2026-11-23T03:15:52.000Z",
+      "checked_at": "2026-11-23T14:13:37+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json le 23/11 à 12 h 16 UTC : 24 678 vues, 788 j'aime, 87 reprises. Aucun autre compte relevé dans x_alertes.json.",
+      "visual": "Album record",
+      "image": "https://pbs.twimg.com/media/HXx2XEfWEAAO5YU?format=jpg&name=360x360",
+      "image_alt": "Image du post de @GTAVI_Countdown sur les records de l'album de GTA 6",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "GTA 6 Album is smashing new records: biggest streaming debut for a soundtrack album in Spotify history; Flower In A Hurricane reached #1 on the global Spotify chart."
+    },
     {
       "id": "x-xbox-60-fps-refresh-rate-gtavi-countdown-2026-11-22",
       "title": "GTA 6 : une méthode pour 60 images/s sur Xbox Series X|S, selon @GTAVI_Countdown",
@@ -6303,6 +6360,11 @@
       "at": "2026-11-23T12:12:44+01:00",
       "label": "Passage Claude Haiku (Matière X, veille 2 h)",
       "summary": "0 sujet ajouté. data/x_alertes.json toujours sans post (posts : 0), maj 2026-11-22T10:05 UTC : relevé horaire arrêté depuis plus de 24 h, aucune publication X nouvelle. Presse du jour (data/presse.json, maj 2026-11-23T10:54 UTC, 70 articles) : aucun lien X, Instagram, TikTok, YouTube ou Rockstar, donc rien à corroborer. Aucun sujet inventé."
+    },
+    {
+      "at": "2026-11-23T14:13:37+01:00",
+      "label": "Passage Claude Haiku (Matière X, veille 2 h)",
+      "summary": "3 sujets ajoutés depuis data/x_alertes.json (maj 2026-11-23 12 h 16 UTC, 6 posts) : mise à jour 01.002.002 (@PlaystationSize, 252 647 vues, corroboré par big-n.fr), premier patch annoncé par @RockstarNewsFRA (officiel, 21 702 vues), records Spotify de l'album (@GTAVI_Countdown, 24 678 vues, rapporté). Posts exclus : @gta6hubfr « gta 6 » (contenu vide), @gtasix_ 9 709 vues (doublon du même patch)."
     }
   ],
   "coverage": {
