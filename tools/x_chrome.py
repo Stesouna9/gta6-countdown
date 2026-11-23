@@ -193,6 +193,12 @@ const d=new DataTransfer();d.items.add(new File([a],'gtavifrance.jpg',{type:'ima
         etat = js("""(()=>{const b=document.querySelector('[data-testid=tweetButtonInline]');const img=document.querySelector('[data-testid=attachments] img');
 return (b&&b.getAttribute('aria-disabled')!=='true'?'bouton actif':'bouton inactif')+(img?' + image':' sans image')})()""")
         if etat != "bouton actif + image": raise RuntimeError(etat)
+        # 23/11 : un post est parti image seule (texte affiché mais ignoré par X) : le compteur de caractères doit avoir bougé
+        CPT = "(()=>{const g=document.querySelector('[data-testid=countdown-circle] [aria-valuenow],[data-testid=countdown-circle][aria-valuenow]')||[...document.querySelectorAll('[role=progressbar]')].find(x=>+x.getAttribute('aria-valuenow')>0);return String(g?g.getAttribute('aria-valuenow'):0)})()"
+        for k in range(2):
+            if float(js(CPT) or 0) > 5: break
+            if k: raise RuntimeError("texte ignoré par X (compteur à 0)")
+            colle(p["texte"]); time.sleep(4)
         if ESSAI: log("essai OK, rempli sans publier : " + p["texte"].split("\n")[0][:80]); return
         js("document.querySelector('[data-testid=tweetButtonInline]').click();'clic'")
         time.sleep(8)
