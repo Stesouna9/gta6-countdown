@@ -1,8 +1,65 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-23T18:12:38+01:00",
+  "updated_at": "2026-11-23T20:12:56+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-overmono-welcome-to-leonida-gtavi-countdown-2026-11-23",
+      "title": "GTA 6 : la musique du menu pause « Welcome to Leonida » d’Overmono publiée en entier",
+      "summary": "Le compte @GTAVI_Countdown publie la version complète de « Welcome to Leonida », le morceau d’Overmono joué sur le menu pause de GTA 6, extrait de la nouvelle édition Deluxe de l’album (23 titres bonus, vidéo animée et nouvelle illustration).",
+      "url": "https://x.com/GTAVI_Countdown/status/2124915024645030026",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "2026-11-23T17:16:35.000Z",
+      "checked_at": "2026-11-23T20:12:56+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json le 23/11 à 19 h UTC : 28 097 vues (@GTAVI_Countdown), 69 reposts, 872 j’aime. Une seule source relevée dans x_alertes.json.",
+      "visual": "Overmono",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2124914483239759872/img/72mGy3M2J4sqA2RY.jpg",
+      "image_alt": "Vignette de la vidéo du post de @GTAVI_Countdown annonçant « Welcome to Leonida » d’Overmono",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "The full GTA 6 pause menu music “Welcome to Leonida” by Overmono from the Album’s new Deluxe Edition."
+    },
+    {
+      "id": "x-vice-city-portail-secret-12-stations-gtalphaintel-2026-11-23",
+      "title": "GTA 6 : un portail secret mène à l’ancienne Vice City, selon des joueurs",
+      "summary": "Le compte @GTAlphaintel rapporte que des joueurs ont trouvé un portail secret qui ramène vers l’ancienne Vice City. Le trajet passe par 12 stations, avec des combinaisons de boutons précises, et débloque un t-shirt et une moto en récompense.",
+      "url": "https://x.com/GTAlphaintel/status/2124905195578745138",
+      "platform": "X",
+      "author": "@GTAlphaintel",
+      "status": "Rumeur",
+      "published_at": "2026-11-23T16:37:32.000Z",
+      "checked_at": "2026-11-23T20:12:56+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json le 23/11 à 19 h UTC : 22 065 vues (@GTAlphaintel), 29 reposts, 742 j’aime. Une seule source relevée ; découverte de joueurs non vérifiée par Rockstar.",
+      "visual": "Vice City",
+      "image": "https://pbs.twimg.com/media/HX0ptQRaYAEB2__?format=jpg&name=360x360",
+      "image_alt": "Image du post de @GTAlphaintel sur le portail secret vers l’ancienne Vice City",
+      "image_credit": "@GTAlphaintel sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "GTA 6 players have discovered a secret portal that takes you back to old Vice City"
+    },
+    {
+      "id": "x-dylan-rourke-manni-perez-2020-gtasix-2026-11-23",
+      "title": "GTA 6 : les acteurs de Jason et Lucia travaillent sur le jeu depuis 2020",
+      "summary": "Le compte @gtasix_ rapporte, en reprenant un post de @andersonburak, que Dylan Rourke et Manni L. Perez, les acteurs de Jason et Lucia, ont commencé à travailler sur GTA 6 dès 2020.",
+      "url": "https://x.com/gtasix_/status/2124895751683907750",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rapporté",
+      "published_at": "2026-11-23T16:00:00.000Z",
+      "checked_at": "2026-11-23T20:12:56+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json le 23/11 à 19 h UTC : 286 929 vues (@gtasix_), 263 reposts, 9 836 j’aime. Information relayée d’un post de @andersonburak, non confirmée par Rockstar.",
+      "visual": "Jason et Lucia",
+      "image": "https://pbs.twimg.com/media/HX0jB0QXUAEe8kD?format=jpg&name=360x360",
+      "image_alt": "Image du post de @gtasix_ sur les acteurs de Jason et Lucia",
+      "image_credit": "@gtasix_ sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Jason and Lucia’s actors, Dylan Rourke and Manni L. Perez, began working on GTA 6 back in 2020."
+    },
     {
       "id": "x-travis-scott-burn-this-shit-down-gtasix-2026-11-23",
       "title": "GTA 6 : la chanson complète de Travis Scott « Burn This Shit Down » publiée",
@@ -6490,6 +6547,11 @@
       "at": "2026-11-23T18:12:38+01:00",
       "label": "Passage Claude Haiku (Matière X, veille 2 h)",
       "summary": "3 sujets ajoutés depuis data/x_alertes.json (maj 2026-11-23 17 h UTC) : chanson Travis Scott (@gtasix_, 151 883 vues), notes du patch 01.002.002 (@gtasix_, 223 178 vues), Mike Forbs / Boobie Ike (@gtasix_, 77 659 vues). Écartés : fuite Cyberleek Xbox (politique du site : pas de fuite), doublon Kurtaj, sous les seuils le reste."
+    },
+    {
+      "at": "2026-11-23T20:12:56+01:00",
+      "label": "Passage Claude Haiku (Matière X, veille 2 h)",
+      "summary": "3 sujets ajoutés depuis data/x_alertes.json (maj 2026-11-23 19 h UTC) : Overmono « Welcome to Leonida » (@GTAVI_Countdown, 28 097 vues), portail vers l’ancienne Vice City (@GTAlphaintel, 22 065 vues, rumeur), acteurs de Jason et Lucia (@gtasix_, 286 929 vues). Écartés : fuite Cyberleek Xbox (politique du site : pas de fuite), doublons patch, Kurtaj et PlaystationSize, sous les seuils le reste."
     }
   ],
   "coverage": {
