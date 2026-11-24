@@ -1,13 +1,63 @@
 {
- "maj": "2026-11-24T07:50:16+00:00",
+ "maj": "2026-11-24T08:10:30+00:00",
  "articles": [
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1yd0JPb3RCYjRzMmdKQ3FZUjZBelBzOTNIZmo2TUVCREhHUTBlTFU4ZU54cTM2VkRDcjZWOWxnZkhyemVnVUVKdEtaSXFpWmxiS1JTMmRJQzNValZRSGFuLXFBaVVHQWZWazJkZkI3TkU2VUVRTjJ6VU9n?oc=5",
+   "s": "Presse-citron",
+   "d": "2026-11-24T08:03:07+00:00",
+   "lang": "fr",
+   "t": "\"Vous êtes un jeune homme très talentueux\" : le pirate de GTA 6 libéré malgré une condamnation à 7 ans de prison",
+   "erreur": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPUm5GenBUVUViVzJER0R1bk9jUE1OcEUwM1RYcGtoZ3FYaFQySk5FeEQ2NGUtLWFiUDRXclZHcm5UNVJIOUotZHVzZ1pYcXMxMDBDbEMwQ1F6TEtCbFh4c2t2REloR1JMMTZNZlIwX2FzdE16MzQ0ZXlSWW1EdDNKb0tsYm1qTVZHeUpSZ3hWOUwtcDRKR3hGS2RkbmtRaTVOalpwdDV1OXZUbkE2V0EzMnE0WHZuWjB6VlA2aDZ6bUdWbWszM0FfVVZkQjFhanhQQ3pMbXVMbzE5WlZRcHNqSlc2NHlDT2k4QVgwZ1h0Q2kyeWIydXNv?oc=5",
+   "s": "La Crème Du Gaming",
+   "d": "2026-11-24T08:00:55+00:00",
+   "lang": "fr",
+   "t": "Cyberleek passe à l'acte et publie l'intégralité de GTA 6 sur Xbox et veut désormais le faire tourner sur PC",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVlpKc3R2eTFVQ09mamdmaGlTZjliYXhhXzhsSml4VWdaWkF0d3Flc29qRzlCcGtyMlRLOTFHWTU5eVUzSHhJcTVHOGZiRTFFeGs2dnZoYzFvOWlUVTJFcURLNHFSaTlpNFB0dkFvZGZoUzUxN3Q1U2pJYUpvNjBKU2dpd3hBM0RkbXRuMVI5ZXFHX1d0bXlmcEVuVVk?oc=5",
+   "s": "Servicesmobiles.fr",
+   "d": "2026-11-24T08:00:16+00:00",
+   "lang": "fr",
+   "t": "GTA 6 écrase tous les lancements, bien au-delà du jeu vidéo",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOTkd1WlVRS09SNWRtcDc1TUZ2U0NwdmlKV0g3akJUTWRHN0xkVEk1bVhER2FCajRtY0NZeUpIQ2lUTEV6VmtramJlMEdjbUo0WUJpMDBEMW83bjZ5WWZfQU1kTGhjQkpQMDhfVzNHTkxIM0hnQnZPUWo2VXpuZkJZUXBoYkE1LTVZNkVYMGlsYllTRGNkbURWcVBUbnlTTmx1T3R6SjBKa0RCeEMwQk9KOVpBaFpmOTZjTHlETTRHMnFlUS01TXVHcEtLeGJoUjRCeXhycmdtU3I2cldXMWlLcHA0VlRLRkpFTjlF?oc=5",
+   "s": "Gamekult",
+   "d": "2026-11-24T07:58:00+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : la première mise à jour post-commercialisation corrige la météo et la sauvegarde auto (entre autres)",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYkhjSFRZbTY5eVRsMlRYV1JPQVZmQUVkMXBSZ1UxOTJ0OHNuM2RDa05nV1J5X1VEZXgwWGJxcTh4UWZuNEZIeWpYZWxBV0dJdXF4Ull3QU1WWURaTHA3SUVKSWRveTBrS2VncENMdTIxTXFUbjd0WlN5S0hoMU12QkwyUW1rcmtlLTJDcE9kbkJsd2lJRXh0TWw5Q1FsbS01akxldXFES2o?oc=5",
+   "s": "Nacionale",
+   "d": "2026-11-24T07:50:26+00:00",
+   "lang": "en",
+   "t": "Is there a GTA 6 PC port? No official one, and fan port Leonida has shut down",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcTdMUEU4eFJJZDB3XzdSMzR6WlVSVGstOERRWld6MXpnYzAxc3lfS1hnM0ZHZjl6REc1MFo5U1RWOTVleDlHQjVGMUN1UFBWMHhMX2pfaXRWcnhTRlExQ3gtbTZPTTJTVXFGZHMyUUFuOFdXNVhXOE9salZ6ejhDbnRyQkpHNWxsZURTVEdhb0xRQQ?oc=5",
+   "s": "Android MT",
+   "d": "2026-11-24T07:49:59+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : une version PC plus tôt que prévue ?",
+   "erreur": "429 : passage suivant"
+  },
   {
    "gn": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVUxsR3RZcWphaDVsT2hyOHJfUGxINGNVbTY0ZklQcFZBanlVSmRNbk9GRUQ2clo5NDZEaVIxWFRKbGdoNEhuc1pKdFdiaFdBVTlmMlE3NU1Sd0w1a0I4alpRWHNrQVhPSmtUT3A2NzZyX1AtTkxqQ09GZjZ4dk1Jcy01N1g3MW42dHZzRi1OVDg3TEh5VW9GelNzdTJHMmdvUmRScU5JMA?oc=5",
    "s": "Tom’s Hardware",
    "d": "2026-11-24T07:42:00+00:00",
    "lang": "fr",
    "t": "Vous jouez à GTA 6 ? Voici 10 astuces que vous auriez aimé connaître plus tôt",
-   "erreur": "HTTP Error 429: Too Many Requests"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPR3ZZSzBKZm5EcWxVR3Ezc1VDczM1VkJoX2tvRjZSTEhJQVVDUnZ0dVV3bjVWWFYtZHdwNW1oNC1ldGpKaDRQR2hDTFI2V0U4NHBqOUExdFphTUhfSHhuOHF1TmtodGJaenFER25hbWhMc3BTR0Q4bVBoX2VTa0VOMk5FOHNzTEYtaVpnc2pGNG1XWVZPbTVwR09UZkpkN1BEc3c?oc=5",
@@ -141,26 +191,6 @@
    "erreur": "429 : passage suivant"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUTI0M2ptMktjampHTWtzczRCV0VJS2FUWnNDQWFzM1RkRzcwWGNfZGQ5dklSbkZKZEJWSlYyWENMN1NCZjZzQkFURFEyS0JRQTBRV2hTV21FbWw4R1JQRjdMTzA1SVMzNTNfNXEzVno5ZWFPZlhpY040NXJMQmRHLUhfUDNlT2RvLWdwckJuV1IxY3Z5ZGItR0hqTzQ3MHBhbUhRYWppUHUtem1t?oc=5",
-   "s": "GameGPU",
-   "d": "2026-11-24T06:01:48+00:00",
-   "lang": "fr",
-   "t": "GTA 6 peut désormais être lancé depuis le cloud sur PlayStation Portal sans console PS5.",
-   "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUEJGV0xucm9nMWNYbzhqRVhxZENFVEpmR2xNbFVxMVR5dk9aWTg1UUFobzZZU2x5S3dhdTlXS0RUZFBLWmtLbnE2eEpsNVRLOTd6eUxWS2wwazVINXZtU2RDQzkzYjVnbUs2cTNpLWU5cmMzNW5lMld6OURsdnNDaktHSXRxZ3hlU21LLTJIS0dwb0ZkeHQ2NkpZaExQUWxRajRza3c5N2RVb3RB?oc=5",
-   "s": "Orange Actualités",
-   "d": "2026-11-24T05:37:55+00:00",
-   "lang": "fr",
-   "t": "La PS5 en rupture de stock face au succès de GTA VI : Actualités - Orange",
-   "u": "https://actu.orange.fr/videos/france/la-ps5-en-rupture-de-stock-face-au-succes-de-gta-vi-CNT000002u1Buo.html",
-   "img": "//proxymedia.woopic.com/api/v1/images/2279%2Fv%2FhB-kY1h1IGk3HhLik%2Fx240?format=1200x630&facedetect=1&quality=85",
-   "chapeau": "Alors que GTA VI rencontre un immense succès depuis sa sortie, le lancement du jeu provoque aussi des pénuries du côté des consoles, notamment de la PS5.",
-   "txt": "Alors que GTA VI rencontre un immense succès depuis sa sortie, le lancement du jeu provoque aussi des pénuries du côté des consoles, notamment de la PS5.\nVous allez être redirigé vers la plateforme Dailymotion sur laquelle le contenu est hébergé afin de pouvoir le signaler\nJeux vidéo : sortie de GTA VI, treize ans que les fans l'attende\nGTA VI : streamers et fans découvrent le jeu au Grand Rex à Paris\nGTA VI: quand les politiques reprennent les codes du jeu vidéo\nLes joueurs du monde entier plongent dans la superproduction \"GTA VI\"\nSortie de GTA VI : On a filmé les premières réactions du streamer @mehdoshe\nL'EFFET GRABLY - Quand les politiques reprennent les codes de GTA VI\nGTA VI: Sébastien, ambulancier, a profité toute la nuit du jeu évènement\nJeux vidéos : GTA VI s'apprête enfin à sortir après 13 ans d'attente\n\"GTA VI\" : prouesses techniques, budget, ventes... le jeu vidéo de tous les records\nPour la première fois, GTA VI sort uniquement en version dématérialisée",
-   "pub": ""
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOV3NHLXZjdXFGbm1hV1JoX0wwNEhEb2JjN1M3TFgtV1dBX1Njb3U4R2twblJkdk9PQlc5WENnQVpOUEpEZjljU0JRZFlIY0o5cmUwVEl1WklmMHluSTEzRGlkM0xObDNzNzRJTld5OEhrWU85clZNUDBkTnlqWmo5Y0k5VjZJZzdsUEpuNWIyd2ZQNEZBY3ItQy1Gc05NU000RzlTMnNJZm1iVjc3azl3cFNJWlRBaW1KNGc?oc=5",
    "s": "Escudo Digital",
    "d": "2026-11-24T05:10:02+00:00",
@@ -174,14 +204,6 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOQ0Z0WTk0RXhnTENIMnVIb2lUcTJKdEZwQjY1dVh6Q25YUUc3dUhFb01IbjM2ZnZZY2FmY0N6V0k0U3ZZUzRadXdkQjZPUFNnTWVsREhOMldBblNVLWRPazVvWVVCN2ozaUxPYUlDQ3N3RTRFSkZxSTJrT0htRjVWTUJPZG45NklLcFp0UlcxQzVlQkpmUEZ1WjNWX0szSVNVdnFWN29lM1FZOXM5ZTAtZ1dvUm1qa0xBUTFCRG9lNEFKN3JzbkRGVDRWLUtkUW5TZlhZMlFYR1h4TUdXTkNOUUQ2UHBDVi10UkJUdElSLVJ6aVh3bEJEeVBZU1NhY2ZlVk4zcEFnQ2xJRmk0?oc=5",
-   "s": "La Crème Du Gaming",
-   "d": "2026-11-24T05:00:28+00:00",
-   "lang": "fr",
-   "t": "GTA 6 plante sur certaines PS5 et un réparateur relève une température de 100,9 °C sur une console, avec 15 arrêts thermiques",
-   "erreur": "429 : passage suivant"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9NT2pLeFlwRVFrZjBBU2lkd2dfRThybE9wSFFCNnloSDl3b1gyeVJzdG1iYkZ6WU9mNE4yTkhyUlk1RGk5N0djbmpqMW5hbUhnWDlMa2k3eTlwUQ?oc=5",
    "s": "Comic Book Resources",
    "d": "2026-11-24T04:45:00+00:00",
@@ -192,18 +214,6 @@
    "chapeau": "Six Grand Theft Auto 6 endings have been discovered, so far, and achieving them all comes down to how you play the game.",
    "txt": "By George Chrysostomou Published Nov 23, 2026, 11:45 PM EST George is an experienced entertainment and creative writer and a politics fan. If he's not talking about the latest MCU release, he's probably focused on local by-elections. With a love for analyzing detailed character work and a penchant for speculating on the upcoming twists and turns of major franchises, George is ultimately fascinated by the creative process. Sign in to your CBR account Grand Theft Auto VI has been a smash hit for Rockstar Games and could arguably be the title of the year. While there are debates about whether it's the best of the series, what is clear is that players will have to give up a lot of time to be able to complete the title. To 100% finish the game and all of its side challenges, players have to indulge over 200 hours into the experience. To be able to complete the narrative and some of the side quests, they are looking at, at least, 100 hours.\nThose are some brutal numbers, but it shows just how much attention to detail has been put into Grand Theft Auto 6. What's interesting is that players are still finding new endings to the game, as they make alternative choices. Those finales can essentially be narrowed down into six ending types at the time of writing. However, with new aspects of the game always being discovered, players shouldn't be shocked if there are additional options available when they get to the ending themselves. The fun is trying to walk a path that no one else has gone down before.\nTwo people greeting each other in the GTA 6 trailer Image via Rockstar Because there are so many paths that players can take, there are a couple of alternative options that all end with the same solo story. That either Lucia or Jason survive and must raise their son by themselves. In these scenarios, one of them will be killed, based on the deals that have been struck, the allies and enemies made and ultimately, how well the player navigates this complex criminal underworld. It's a bleak scenario, but one that offers some hope.\nAt the very least, one of the characters gets somewhat of a happy ending, living to see another day and ensuring that their son can be raised in a quieter neighborhood without the sins of the past there to haunt them. It's an ending that can also vary, based on whether the player is arrested instead. Rather than one of Lucia or Jason being killed, they may also be taken into custody, which offers additional support for a future scenario.\nThese solutions are the least cinematic though and don't offer the excitement of some of the other options. It feels disappointing to actually get arrested in the end, while creating a situation where one of the characters is left alone and doesn't provide the feel-good factor players are looking for\nA beach in GTA 6 filled with NPCs Image via Rockstar Games There are some explosive, cinematic endings that lead to absolute disaster for Lucia and Jason, and while they may be heartbreaking, they are rather thrilling. For the 'sleeping with the fishes' style ending, players need to be in a clash with the police. They will find themselves trying to leave the scene armed. If they do, both Lucia and Jason will be shot, meaning that custody of their child is given to family and players would have failed to find a happy ending.\nEqually, if players attempt to swim away through the body of water, police will continue to fire on them until they are taken out. Again, the custody of the child is passed on to family and neither Lucia nor Jason survive the encounter. Not even through some surprise reveal or fake-out, that's shown after the credits roll. That's it for the dynamic duo. It might have been a fun run, but they go down in flames and gunfire.\nIt's those late choices, especially on the bridge, that will influence how this plays out, accompanied by reputation. Nonetheless, this is still a disappointing end to the game and one that does not showcase the best of GTA VI and the characterization it offers. For those who want a slightly more niche or nuanced character ending, this is not the path to take. This is, however, a great ode to Bonnie and Clyde and a fitting end for these troublemakers.\nBikers as seen within the GTA 6 trailer Image via Rockstar Games Of course, there is another route to go. One that doesn't mean players are trying to run away. Rather, they face down the enemy head-on and deal with the consequences. This is the no-surrender path and requires players to begin a",
    "pub": "2026-11-24T04:45:12Z"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBXQlU2Ql9sMW81ODN3MzlzbjFDbzNIWTRNRVdLRnl3OU9vYkdUcmtDNU1TQm9oWWNvdVNTclZhRk5zWVVFYXpWUVhNMDM3RVlqTWdnbUlzSE95eUxxUnlaWQ?oc=5",
-   "s": "GeeksLands",
-   "d": "2026-11-24T04:30:00+00:00",
-   "lang": "fr",
-   "t": "Mise à jour GTA 6 : le premier patch répare la sauvegarde automatique et les appels bloqués",
-   "u": "https://geekslands.fr/gta-6-mise-a-jour-correctifs/",
-   "img": "https://geekslands.fr/api/og-image/api/uploads/featured/gta-6-meditation-une-jason-lucia-m3d1.jpg",
-   "chapeau": "Le premier patch de GTA 6 depuis sa sortie corrige la sauvegarde automatique, les appels qui bloquaient l'histoire et plusieurs plantages sur PS5 et Xbox…",
-   "txt": "Sorti le 19 novembre à minuit, GTA 6 vient de recevoir sa première mise à jour depuis le lancement . Ce correctif fait passer le jeu en version 01.002.002 sur PS5 et 1.0.2.2 sur Xbox Series.\nSur PS5, le téléchargement pèse environ 600 Mo . Il approche 1,6 Go sur Xbox Series, un écart déjà constaté sur le deuxième patch d'avant la sortie.\nCe patch concerne le jeu, à la différence de la mise à jour système de la PS5 réclamée par Sony avant le lancement. Ces notes comptent sept corrections.\nDepuis la sortie, des joueurs signalent des pertes de progression , parfois tout le début de leur partie, parce que la sauvegarde automatique ne s'enclenchait pas après certaines missions. Après deux reports, un tel bug de sauvegarde n'aurait jamais dû passer.\nLes notes de Rockstar ne précisent rien sur les parties déjà perdues. Pour garder plusieurs points de reprise, mieux vaut sauvegarder à la main depuis le menu pause, hors des missions, sur l'un des 15 emplacements que détaillent nos astuces pour bien débuter .\nLes appels manquants causaient un autre blocage. Un joueur pouvait attendre un coup de fil pour avancer et rester coincé sans le savoir. Rockstar ne précise pas quelles missions étaient touchées.\nUne PS5 connectée installe la dernière version au lancement du jeu. Pour forcer la vérification, il faut sélectionner GTA 6 sur le portail des jeux, appuyer sur la touche Options puis choisir « Vérifier si des mises à jour sont disponibles ».\nSur PS5, le correctif est arrivé par vagues pendant les premières heures. Si la console ne propose rien, il faut contrôler le numéro de version dans l'entrée Informations du même menu Options. Il doit indiquer 01.002.002.\nSur Xbox Series, le chemin passe par Mes jeux et applications, Gérer, puis Mises à jour, où s'affichent les téléchargements en attente. Une console laissée en veille connectée, avec les mises à jour automatiques activées, récupère ces correctifs seule pendant la nuit.\nLes notes ne mentionnent aucun gain de performances. Rockstar n'a d'ailleurs annoncé aucun mode à 60 images par seconde depuis la sortie du jeu .",
-   "pub": "2026-11-24T04:30:00.000Z"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBNVzJLbDR3eEV6eXIwQTdRWmZ3dmhZODE5SDRELUtCYmJPamVtZTl5U0xTVlpHNkpQMkpDcFBDUkZqdDZqQkM2eTY1czF0YjNLTDQzZ0NxQmFIb181UGlnbV9YajQ2NzE4Y3Bpckg2bkE?oc=5",
@@ -243,6 +253,14 @@
    "pub": "2026-11-23T08:30:24+00:00"
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUHcxdnNKNFpYQW1aTEQ5dFplWnBIalNDWVVTS3VMQWtlemZqSmlvZlppbTFtQTNoS1JzSW5kSFN3YjA0YjM4cE1TcjNVRkhwRlhTZW1ETDBaOG9CZkROak1yc1NWZnZ5b2oydExoVHBHY0V0cU1jY2x3NWJfdUpmMmZZTDhqRGN5b2RR?oc=5",
+   "s": "Hypebeast",
+   "d": "2026-11-24T03:05:26+00:00",
+   "lang": "en",
+   "t": "KFC Offers a Fried Chicken 'GTA 6' Replacement Disc",
+   "erreur": "429 : passage suivant"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNaHBZbTFnZkFxMVdoYnVTcjFQVFE2dnpMTjBPeUxBSjAyajRTNmo1MHdRRmRNUE5XSjQ2aWY4aEhONEp3c0FpQmk1NDFCU2R4TkNlRmVUOVJYZUo4UnB0NjkyRVdISFdfMm1UeUgzMEJaS052RG9mV1hrOXNDeWhVaGI2eWdWUQ?oc=5",
    "s": "GAMINGbible",
    "d": "2026-11-24T03:00:01+00:00",
@@ -261,6 +279,14 @@
    "chapeau": "Find out how to get the Hellspawn Shotgun in GTA 6, where to start the Satan Easter egg, and how to beat the boss fight.",
    "txt": "X Share on Facebook (Opens in new window) Facebook Share using Native tools Share Copied to clipboard Add Us On Google In Grand Theft Auto VI , players can actually visit hell and face off against Satan to earn one of the game’s most powerful weapons. Here’s how to get the Hellspawn Comshot 12 Shotgun in GTA 6 , where to start the Satan Easter egg, and what you need to do to defeat the Prince of Darkness.\nThe Hellspawn Comshot 12 Shotgun quest starts in a garage in North Port Gellhorn between 10 PM and 4 AM in-game. You’ll know you’re in the right place when you see “Welcome to Hellhole” spray-painted on the house.\nTo make it easier to find, here’s the exact location of the Hellspawn Shotgun quest on the map:\nIf the quest is active, the garage door will be open and you’ll see two Satanists sitting inside, drinking beer and listening to metal music. If the garage is closed, leave the area and return until the event spawns in.\nIt should also be noted, you will need to have reached GTA 6 Chapter 2 before you can start this quest, as it’s located in Port Gellhorn.\nWalk into the garage and talk to Beelzebub and Dave with “L2” and answer “Having Fun?” . After talking to them, grab a drink and hang out until they ask if you’re into Satanism. Make sure to answer yes.\nAfter a few minutes, a van will pull up in front of the house. Follow Beelzebub and Dave outside, then hop into the back of the van to take a trip with them. The quest will transition to a trippy campfire sequence after Jason or Lucia takes shrooms.\nWalk up to the campfire and press L2 when the “Stare into the Fire” prompt appears. This will send your character straight to hell.\nOnce you’re in hell, you’ll have a shotgun with unlimited ammo. Start blasting any demons that come at you and make your way through the portals until you reach Satan’s chamber.\nTo defeat Satan, shoot the exploding demons when they’re near the goats. The blasts will take out the goats and leave Satan vulnerable. Once his health bar turns red, start shooting him to deal damage. Keep repeating these steps until his HP goes down.\nAfter you defeat Satan, Jason or Lucia will wake up back in the real world. Pick up the Hellspawn Comshot 12 Shotgun next to the ritual throne before you leave.\nThe shotgun isn’t the only reward for finishing the Easter egg. Defeating Satan also gives you a permanent health increase and unlocks a new tattoo style you can get at any tattoo parlor in Leonida . Finally, you will also get a snazzy Hell Circle shirt to show off your Metal fandom!\nX Share on Facebook (Opens in new window) Facebook Share using Native tools Share Copied to clipboard More From VICE Screenshot: Brent Koepp Is There a Casino in GTA 6? Gambling Explained 7 hours ago By Brent Koepp",
    "pub": "2026-11-24T02:54:47+00:00"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZ1lYUEpXT3ZjTFFCZlFmYUFmVmZ2NlJSZ0tLNnlvb09pZmRENkF5VmJfSlJsVVNrZFpleFhndjZjVGZhRHZ0OHpaZllQVmczYlVHRWpLazNuS09YQWtnZHJyX2phOTRoSmVGeEtzMjhnQUozRTNXMDFpQ2hmSDJUWTRtRnlEakhpRklLSS1rUzlKNjJ2Zl85eG44MzBhM2wtQ2NSZXV4NTFodGxscWEzZjVjcVdJaXR2T1BMN0s3SjNWeERF?oc=5",
+   "s": "Notebookcheck",
+   "d": "2026-11-24T02:46:00+00:00",
+   "lang": "en",
+   "t": "PlayStation Portal can cloud stream GTA 6 without PS5 console, but Sony blocks PCs",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9wZHJOb1ZpM3JZM18teW9iQmFwX3RYN0lES3UyNHU4akRFNC1mR19PVlZtMm4wQVJtOWZldjhuYUkzSTNKRjlhakVLdWEtSzFXYjhvRnQ4ZVBlLTdqeWpmdXBZakI3QXJrS2psV3NVU1pwX3o5cVN1YlJWZw?oc=5",
@@ -295,6 +321,14 @@
    "pub": "2026-11-24T01:35:44+00:00"
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdkhVbzZsNHBwbjA1TXE5WTlqaVZJR3JSSmlhNVIwLS10bVd0dk53NVVNM3d0dzJLclM5a3hJSEpsVHllUGV2NVo2N1V2TmRscUQ4SmxleF9mS25xb2VUNWoxTl9BeTRURWhyYThCZGJ1LWtnMkczRFJRSm12Mlg1ZmxYanVCSzdhTGxGZHBlZXhCUHE0RU9xR0ZWREJ4U3RFRnhCTQ?oc=5",
+   "s": "Video Games Chronicle",
+   "d": "2026-11-24T01:08:53+00:00",
+   "lang": "en",
+   "t": "GTA 6 Car Service walkthrough: How to steal the Schafter V12",
+   "erreur": "429 : passage suivant"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTzB4dmRBVlpRMUpYZnJRX3lnZkdTczgxS2s4cW1FVGhtbExIREl6RFNYaHphY1BZNzUtWDg5RlhDVmd6cUtFdmlGVzBwQVZXeW04Y05QMFJpNGdLNjNjdkwxSWxEeV9PRjdGMnhRV093aW9pS1NBRFpIbGd3WlJjTzZR?oc=5",
    "s": "Mashable",
    "d": "2026-11-24T01:07:23+00:00",
@@ -305,18 +339,6 @@
    "chapeau": "Here are the latest details.",
    "txt": "Grand Theft Auto VI was released on consoles last week, with millions of players exploring Leonida on Xbox and PS5 consoles. But one major question remains: What's happening with the online mode?\nThe GTA Online component of Grand Theft Auto V has kept that 13-year-old game relevant across three console generations, with a recent leak suggesting Rockstar makes as much as $500 million annually from microtransactions alone. One would think that means GTA VI will have a similar online offering available at launch, but that isn't the case. Per a Rockstar statement given to IGN , as well as all available marketing language on digital storefronts, GTA VI is a \"single-player experience.\"\nThere was no online component at launch, nor has Rockstar announced any intention of adding one after launch. Sadly, that is all the concrete information anyone can provide right now.\nHowever, that doesn't mean all hope is lost. It's worth remembering that both GTA V and Red Dead Redemption 2 launched as solo experiences and got online modes later, though it was only a matter of months in both cases. Given that Rockstar hasn't even said if there will be a new GTA Online experience for VI , it's probably safe to assume the wait will be longer this time.\nThe fact that the existing GTA Online is so wildly successful (with no signs of slowing down) means Rockstar isn't necessarily incentivized to make a new one right away. It also means Rockstar has to decide if it wants to keep two different GTA Online experiences running at the same time, should GTA VI ever get one. As IGN noted, Grand Theft Auto publisher Take-Two currently supports two different NBA 2K Online games in the Asian market; the first launched in 2012 and its sequel in 2017, but they're both popular enough to coexist to this day.\nUnfortunately, we don't have a definitive answer on when we'll get a new GTA Online mode tied to the new game, but hey, single-player games aren't so bad. I'm sure there will be plenty of hours of entertainment to be had in GTA VI as it is.\nCatch up on the latest 'Grand Theft Auto VI' news and updates from Mashable. Recommended deals for you HBO Max — top pick for premium content\nAlex Perry is a tech reporter at Mashable who primarily covers video games and consumer tech. Alex has spent most of the last decade reviewing games, smartphones, headphones, and laptops, and he doesn’t plan on stopping anytime soon. He is also a Pisces, a cat lover, and a Kansas City sports fan. Alex can be found on Bluesky at yelix.bsky.social .",
    "pub": "2026-11-23T10:16:43+00:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1JRUdIU2w5UkxrZjdWVTZWQ3ZDTjVCYXkybEhsWmRDZ0pmU1BPSTl3aEpkYmJwTDJNejllZUZOZXUzYTdaS3NXaEg4SnVUVi1ZZmF4dHF6bw?oc=5",
-   "s": "MovieWeb",
-   "d": "2026-11-24T01:00:00+00:00",
-   "lang": "en",
-   "t": "9 Ways 'GTA 6' Actually Got Worse After 13 Years (Rockstar Needs To Fix #3 ASAP)",
-   "u": "https://movieweb.com/gta-6-biggest-problems/",
-   "img": "https://static0.moviewebimages.com/wordpress/wp-content/uploads/2026/11/jason-gym-grand-theft-auto-6.jpg?w=1600&h=900&fit=crop",
-   "chapeau": "The game often prioritizes realism over player experience.",
-   "txt": "By Tim McClelland Published Nov 23, 2026, 8:00 PM EST Tim is a Contributor to MovieWeb, covering all things film and TV, and his talents have graced Game Rant and Screen Rant. He is an avid collector of physical media, with a movie collection in the thousands that never seems to stop growing. Tim even fancies himself a treasure hunter, ever seeking the next great hidden gem of cinema that, if he's lucky, he can shed a little light on. Tim is also an aspiring screenwriter, actively working on several screenplays seeking funding, and he penned the 2014 short horror film 15. His scripts have won over 25 screenwriting awards, including Best Original Screenplay and Best Horror Feature Screenplay, and his work has been hailed as \"complex, layered, and bloodcurdling.\" Contact him at timothy.m@movieweb.com Sign in to your MovieWeb account Grand Theft Auto 6 delivers fantastic gameplay after an extended 13-year wait. There are some standout elements, like the mission that transitions players from Chapter 1 to Chapter 2 , which features exceptional storytelling and is a blast to play through. However, as much as I'm enjoying my time with GTA 6 , like many others, I find some changes confounding.\nThe game had a lot of expectations to live up to, and it ultimately succeeded as an action-adventure game with some RPG-like elements. But that's also where it may have gone too far in some respects, leaning into what worked for Red Dead Redemption 2 . While RDR2 is a masterpiece in its own right, it works at a slower pace, as the Western genre often does. GTA is a fast-paced mayhem simulator.\nGTA 6 is still a massive open world where your actions have consequences that affect everything around you. But the rampage-style arcade missions you took on as Trevor in GTA V would feel out of place in this world. Still, the changes and the way you approach gameplay go much deeper, and it's not always for the best, slowing the pace and leaning into a life simulator over the action-packed mayhem most expected.\nSome aspects of GTA 6 feel unwarranted, like needing to lift weights. Grand Theft Auto: San Andreas featured a similar gameplay element, but it wasn't hailed as a highlight, and no one begged for it to come back. The game also tells you to eat or face consequences, which hinders gameplay. You could be about to kick in the door of a drug den to rob it blind , only to be told you're hungry and need to eat, so your health won't regenerate. If you're lucky, there may be a bag of chips to pick up and eat, but with cops potentially on the way, it cuts into your time.\nNumerous missions pertain to doing chores. Whether it is fixing up the house or buying groceries, you will spend time doing the very tasks you sat down to escape. It's not lost on me that this endears the player to the characters and allows for an emotional bond, which is critical in the early stages of the story. Still, it can seriously hinder pacing and escapism. Plus, you are playing as a couple, so your actions can affect the relationship in positive and negative ways, which makes doing the menial tasks feel important when most would rather skip past them.\nGrand Theft Auto VI Rockstar Players have grown pretty accustomed to using the GTA Weapons Wheel to navigate their personal inventory. It lets you carry an impossible number of guns, which you can tuck away at any time to hide. GTA 6 leans into the realistic RPG elements with its changes to the Weapons Wheel . You have what you own, with weapons stored in Ammu-Nation gun safes and personal vehicles, and clothes stored in closets, plus additional outfits you can place in your car.\nWhen you're out and about in the massive open world, you have what you're carrying, and you can retrieve items from your personal vehicle. However, weapons such as rifles and shotguns remain visible, making you stand out like a sore thumb. You can drop the weapons or stash them in a vehicle, but you can't simply tuck them away into the depths of your Weapon Wheel. This adds realism to the story and the world it creates, but it also hinders a core GTA experience. I feel like this will need to change in some way for GTA 6 's online mode when it finally releases, but that remains to be seen.\nRockstar I cannot tell you how shocked I was when my car ran out of gas and left me stranded in the middle of the road on my way to a mission. When I tried to escape the hassles of real life, I wasn't expecting to be stranded and in need of help. Now, before pulling ",
-   "pub": "2026-11-24T01:00:16Z"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNWUxcUxZRGJmdFQ2amh0aVg0dy1yMWNLM2tYYk81Z3pRaFE1eGw0MkFNM0NReGpIVFVlTVZqTDhDTTJJRDU3c1hFVm5uelZ1eTRKUlFja0ItUF9GTDhrMGpJZXpRaGYxWk5rRU5lZXl2Z09RdHRETzhKU01yZnZ6X2FEb0lLdHJKbXp4QV8tel9xcnRmS0t5U2c2MXVUbU9VRV96V0cxQWFLbmtxUEtCY3ZXems?oc=5",
@@ -342,18 +364,6 @@
    "txt": "Cyberleek recently released the missing executable file for the leaked Xbox build of GTA 6 , bringing modders a step closer to making the game playable on PC. In fact, within hours of its release, some modders managed to boot the game on PC and even get past the initial setup. However, it appears that Rockstar Games is now taking action against communities involved in these efforts.\nOne of the most notable projects working on bringing GTA 6 to PC was Leonida. Developed by ItsNotRexed, it was an open-source static recompilation project hosted on GitHub. Its main goal was to get the Xbox version of GTA 6 running natively on PC.\nHowever, NotRexed has now announced that he is stepping away from the project, citing circumstances beyond his control. At the time of writing, the Leonida Project's GitHub page is no longer accessible, while its Discord server has also been taken down. His statement suggests that the project's removal may not have been his own decision, although the exact circumstances remain unclear.\nLeonida isn't the only community to have disappeared. According to reports from users on Reddit, Rockstar Games is allegedly targeting several GTA 6 -related Discord servers, with users claiming that even a community with around six million members has been taken down.\nSeveral other Discord servers associated with GTA 6 modding and unofficial PC port development have reportedly suffered a similar fate. However, Rockstar has yet to publicly comment on these reported takedowns.\nDespite these developments, several other modders are still actively working on getting GTA 6 running on PC. It remains to be seen whether Rockstar will take similar action against the remaining projects and how much this will slow down their progress.",
    "pub": "",
    "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMingFBVV95cUxORnk1Q2JVaU5IcTlua0Z1N2I1dXQ3WUdXanYzRzdEYTlVLUFaX0N2SFhlOFUzaFFWZXhURlJRS2t6QzVVdzFfbFVNZ0xUemxVbEtTNEY5UEZFbGZOTk5jaUFnYXFsNVFvUTJ4Q3YwcDhOZVpCMDB3emZGV2VXQ0VwMjNMZE5YNFhEUjltUGpoRFBfMkQySHpNaTREV1pkZ9IBowFBVV95cUxNa3BkRUNqSEN4d3UzR1hmNzJvTl9iV19RTUZ1TXd3U3pFTGg5TGt3cHhPOENrZm9OQTg3SkpKb3lxZkJnall0dzhpLVNMWjIzTEpWRXRBYmdjY01wdEROVWhGb1k4VzZxSDMzcUpaVFBLMExpeE8tc1diYUFHSW45ZW1lLTVfQ1Fua3FpUUxnTlpLN3F6bDR5Y3Y2S0pHQm9WWGNV?oc=5",
-   "s": "TechPowerUp",
-   "d": "2026-11-24T00:45:31+00:00",
-   "lang": "en",
-   "t": "GTA 6 Easter Egg Opens a Portal to the Original 2002 Vice City",
-   "u": "https://www.techpowerup.com/355136/gta-6-easter-egg-opens-a-portal-to-the-original-2002-vice-city",
-   "img": "https://www.techpowerup.com/img/BvrOV38DB5WN3TpG.jpg",
-   "chapeau": "It's well known that Rockstar loves its Easter eggs, but this one might just be the best one yet. Apparently, there is a time-traveling Easter egg in GTA 6 that takes you back to the original Vice City from 2002. Australian YouTuber Memeio found the complex Easter egg and published a guide on how...",
-   "txt": "This should only take a few seconds. If you have issues, please do contact us, we want to learn about any problems.",
-   "pub": ""
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNl9POFBmQnZ2ZzUxTW85UmJZUnZyd2lXQUItc1lKcEx1MHFHcUVBTGpDYThFVzUzdzdyTnR0dFV0SHlOZFhHN2FIdFRwT2xYRjRoQ09paFMtQUxBMGRTdjZMaUFmMEphNVRJbEFqSF9sdUxjV1pDUXQ3Sy1GZ1RWUXFmb25PWkZpdDVSb3lTM0NkNjFjeVFPRTFn?oc=5",
@@ -604,6 +614,15 @@
    "cyberleek": true
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWi1TNlMzX2pabjF5djdEcUlPWjlnSWhUOW11MTVWTFlaZmhGLXRfZ3hSOC1BRVJ1U2x3Y0NCaXowOFlpUkFlc1lVSW5hbmM1UkpvOWNnd1pYejBKRlRWSmpMNEY3TXFfLXZ3TTRKR1BDOE54R3R3MmtRUTJrUnB2Wi1yMlVNXzA0V3dqYnI0aGxpT2F3SUY4ZVh0M0l3RkRU?oc=5",
+   "s": "GamesIndustry.biz",
+   "d": "2026-11-23T19:43:30+00:00",
+   "lang": "en",
+   "t": "GTA 6 leaker reportedly releases file needed to run leaked Xbox build",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1jN203dy00Q3o4RXRQVlZ3MTVMUjJQUmNCY25MTks0TVY5eWo3ZDVlY1NUQWhIbmpwNlVWVUtTY1JQaVBjN1Nfejl3ZldJWnllMGtEWURiMlV6eHNYMW9qbDlHYzJlWTMxY080Y1VrOU53RFY0TmNN?oc=5",
    "s": "shattered.io",
    "d": "2026-11-23T19:17:03+00:00",
@@ -718,15 +737,6 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPcXZSTDIwMlJzbDJvRElnajVpRkEwaHhiemxmNjlPZjJvaHcwZEtyWFpnX3pyQk5qX09BaWNlZ0t4UXBLNjJsR0tLblUxNkhrRC1TYnZlZmxlMVpVSUxyXzUxYWZZWVFKX2pyQTd4c0tzUnlUOWR4V29NUG5jaW8xeVZlcU1JdDZmOGNmQWNEWWxoeDMtX1RLbFBuTXZHLUVTWnZqUHFVWHphZkdZUWpmajgtZm0zaGpLVDFkMm9uM2JGeXpkcXFseG5DaDhyTW9Kdm5SeG50aXZGZ2xrMFBGWQ?oc=5",
-   "s": "Facebook",
-   "d": "2026-11-23T18:02:30+00:00",
-   "lang": "en",
-   "t": "Liverpool Echo News. . A hacker has been jailed after leaking clips from GTA 6 🚨 🎮 Arion Kurtaj has also hacked into BT, EE, Revolut and Uber - costing the companies millions 💰 #GTA #hacker #game",
-   "erreur": "429 : passage suivant",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMiywFBVV95cUxObmRvcTFXdEZRSWsyUnAyTVJNajMwQWQ2OHNoay11eFFhSDZPZkhIbWNaTGx6akxaZXl3LUdIZnR1ZTAwc0lNZ1FjckNVdjBSTkZmaV9oNHBuVG15V3NZS3BseUJRd1pWN2JpS0JCUzVLV0FzdVNEcE5wS3ZmOWZwZlAzd2N2X09ONmVaN0FRaXotcTBoMUxyRGh1UXhmeWk5UnRCX2dIb3Y0WVEtZkpzQzU1aDk0MjJfXzRkTWNYWUstRTZQZEkxTU9Ybw?oc=5",
    "s": "French Breaches",
    "d": "2026-11-23T17:32:00+00:00",
@@ -763,41 +773,6 @@
    "chapeau": "Les joueurs PC qui espèrent lancer GTA 6 avant la sortie officielle de Rockstar vont voir défiler annonces fracassantes, captures d'écran et fausses",
    "txt": "Il ne manquait plus qu’un seul fichier sur les 209 Go du jeu pour espérer faire tourner GTA 6 sur PC avant l’heure, et il circule désormais librement. Le compte vx-underground, spécialiste reconnu des logiciels malveillants, promettait qu’on pourrait jouer sur PC « dès lundi » si ce fameux fichier sortait à temps, nous sommes lundi, l’exécutable est bien là, et personne n’a encore vu le jeu démarrer sur Windows.\n> wake up > take a shit > get out of bed > check beep boop > over 9000 DMs > \"SCHMEELI, GTA VI LEAK\" > ??? > sends link > torrent > ok > look inside > actual assets > huh > squint eyes > look closer > not larp huh, how about that. the cyberleek guy released the full xbox gta 6… pic.twitter.com/1MDrGI97Dy\nCe contenu est bloqué car vous n’avez pas accepté les cookies et autres traceurs. Ce contenu est fourni par Twitter. Pour pouvoir le visualiser, vous devez accepter l’usage étant opéré par Twitter avec vos données qui pourront être utilisées pour les finalités suivantes : vous permettre de visualiser et de partager des contenus avec des médias sociaux, favoriser le développement et l’amélioration des produits d’Humanoid et de ses partenaires, vous afficher des publicités personnalisées par rapport à votre profil et activité, vous définir un profil publicitaire personnalisé, mesurer la performance des publicités et du contenu de ce site et mesurer l’audience de ce site (en savoir plus)\nEn cliquant sur « J’accepte tout », vous consentez aux finalités susmentionnées pour l’ensemble des cookies et autres traceurs déposés par Humanoid et ses partenaires .\nVous gardez la possibilité de retirer votre consentement à tout moment. Pour plus d’informations, nous vous invitons à prendre connaissance de notre Politique cookies .\nSorti le 19 novembre sur PS5 et Xbox Series X|S uniquement, Grand Theft Auto VI a aussitôt attisé la convoitise de la scène pirate. Le groupe Cyberleek a d’abord diffusé par torrent l’archive Xbox déchiffrée privée de son exécutable (le programme central qui lance le jeu), en promettant de livrer la pièce manquante ce 23 novembre, ou plus tôt si son jeton crypto atteignait 15 millions de dollars de capitalisation.\nPrétendant lutter contre les abonnements et les éditions à 20 dollars, le collectif jure dans son message que « le but n’a jamais été de nuire aux joueurs ». De son côté, la version PC officielle de Rockstar n’arriverait que début 2027 selon les fuites, un calendrier qui permet d’affiner nos calculs de configuration pour 30 et 60 fps tandis que nous suivons chaque rebondissement dans notre suivi en direct de GTA 6 .\nSur GitHub, les développeurs du projet ouvert Leonida , mené par NotRexed, guettaient cet exécutable avec impatience, tout comme ceux de Xbox2Windows . Plutôt que l’émulation classique, qui simule la console en temps réel au prix d’une gourmandise matérielle colossale, ces projets misent sur la recompilation statique .\nBlack Friday : le Plaud Note Pro à -20% Du 19 au 30 novembre, le Plaud Note Pro passe à 149 € au lieu de 189 € ! Il enregistre vos réunions, les transcrit et les synthétise pour vous, il suffit d’appuyer sur un bouton. Les Plaud Note, NotePin et NotePin S sont aussi à -20 %. Bref, c’est le moment d’arrêter de perdre du temps au travail !\nConcrètement, le code original de la console est traduit une bonne fois pour toutes en un programme natif Windows, tandis que les appels système de la Xbox sont réécrits pour dialoguer directement avec le PC. Comme la Xbox Series et nos ordinateurs partagent la même architecture processeur x86-64, les instructions de base peuvent s’exécuter presque telles quelles.\nLa difficulté… les 26 503 shaders (ces milliers de mini-programmes graphiques qui calculent les lumières, les reflets et les textures à l’écran) ont bien été convertis vers Vulkan, l’interface graphique standard sur PC, mais n’ont été validés pour l’heure que sur des scènes de test isolées. La couche d’affichage globale n’affiche encore rien, et l’équipe de Leonida reconnaît honnêtement sur sa page que « le jeu ne démarre pas encore ».\nLe précédent récent sur Nintendo Switch 2 invite d’ailleurs à tempérer l’enthousiasme. Le remake de The Legend of Zelda: Ocarina of Time , sorti le 5 novembre sur Switch 2, tournait sur PC deux à trois jours plus tard grâce à Hookshot, déjà signé NotRexed, avant que le DLSS, les 240 fps, le Mac et l’iPhone ne suivent à toute allure.\nSi l’exploit sur Zelda consistait à traduire le code ARM de la puce Nvidia de la Switch 2 vers nos proces",
    "pub": "2026-11-23T17:30:05+00:00",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMickFVX3lxTFAzdzloSFdSQnZBUkxEZVN6aEZfSDA3SjVxbWxCSzlDc2d0MEF5bGdiVlVvdV9VYXVNMzU3b0tVV0lLSmJLMFB6cjRHZmdfMFZ4aVNFZTZOSEUydEd0VVhiVG94TEZ1ajFlZXAzYVYydTkwQQ?oc=5",
-   "s": "Rom-Game.fr",
-   "d": "2026-11-23T17:06:23+00:00",
-   "lang": "fr",
-   "t": "GTA VI sur PC : l'exécutable a fuité, Leonida franchit les premières étapes du démarrage",
-   "u": "https://www.rom-game.fr/news/7408-gta-vi-executable-leonida.html",
-   "img": "https://www.rom-game.fr/multimedia/og/news/gta-6-executable-cyberleek-20261123-180053.webp.jpg",
-   "chapeau": "CyberLeek a publié l'exécutable de la build Xbox de GTA VI. Leonida l'a chargé en une heure, mais le jeu n'affiche encore aucune image sur PC.",
-   "txt": "C'était la pièce manquante. Depuis le 19 novembre, une archive de 209 Go présentée comme la build Xbox 1.0.2.1 de GTA VI circulait par torrent, mise en ligne par CyberLeek sans son exécutable principal, le fichier qui contient tout le code du jeu. Le leaker avait promis de le publier « sans condition » le 23 novembre, et il a tenu parole. Le fichier est accompagné d'empreintes SHA-256 permettant de vérifier les téléchargements, ce qui ne garantit pas pour autant qu'il provienne de Rockstar Games . Ni l'éditeur ni sa maison mère Take-Two n'avaient encore réagi en fin de journée.\nL'exécutable ne serait pas chiffré, et c'est ce qui change tout pour Leonida , le projet de recompilation statique dont nous détaillions le fonctionnement et l'avancée il y a deux jours. Son auteur, ItsNotRexed , déjà à l'origine de Hookshot, le portage PC du remake de Zelda Ocarina of Time , assurait que tout ce qui pouvait être fait sans ce fichier était prêt. Selon Numerama , les développeurs l'ont chargé dans leur outil moins d'une heure après sa publication.\nSur la machine d'un contributeur, avec des correctifs pas encore intégrés au projet, le jeu passe déjà une douzaine d'étapes de son démarrage : il réserve sa mémoire, crée son périphérique graphique et plus de 500 listes de commandes, soit environ 1 200 appels graphiques. Il se bloque ensuite sur la gestion de la mémoire graphique, l'un des points où la Xbox et le PC diffèrent le plus. Autrement dit, le code du jeu tourne bel et bien sur PC, mais il n'affiche encore rien.\nPour John Papadopoulos , de DSOGaming , le message est clair : l'exécutable ne permet pas, à lui seul, de jouer à GTA VI sur PC, et il n'y a aucune raison de le télécharger. Il ne sert qu'aux développeurs qui travaillent déjà sur un portage ou un futur émulateur Xbox Series, et ce travail prendra du temps. Les vidéos qui prétendent montrer le jeu tourner sur PC sont fausses, et de faux portages truffés de logiciels malveillants circulent depuis des mois.\nReste la question juridique. Utiliser une build diffusée par un leaker est illégal, et Take-Two , qui avait déjà multiplié les demandes de retrait et assigné Discord et Microsoft pour identifier CyberLeek cet été, devrait réagir. L'éditeur pourrait chercher à faire fermer Leonida , ou être tenté d'avancer une version PC officielle, que la rumeur annonce pour 2027.",
-   "pub": "",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNbnc3MkNaNFowSVJoWi1nUHV1OVJITlhwUnlUY0tqWm1Bb0pLaHF2UVZXSkliTDVGN3JJZGNZb2tMNDJRSTd3ajg3ZkdyV3RaZEFLSkFfNWk0ZmctUzN3Y1pCNkZjRlRQMTFMLWVKOC16dkxadDBoVzhvb0dBSEwzakVOMndzZEk4ZXdMSmFJTFE3OXlIUjVpbXRmaElZMmhibmhYMWdaZzR1d3I0dlk0ckF4MTFNVnpFV0dMZW1ESjlHSDN2dy1UaFhOTUJkeWpTLWZV?oc=5",
-   "s": "JeuxVideo.com",
-   "d": "2026-11-23T17:04:35+00:00",
-   "lang": "fr",
-   "t": "À 17 ans, cet ado était à l'origine du leak de GTA 6. Aujourd'hui, il est condamné à de la prison",
-   "erreur": "429 : passage suivant",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNV0NwQ3pjWVdyRmtzY1QydFAxdXZkb2RKTkFnQU94aEg2WkE2WHlabHJLUmxjeEJzN1ExdjNJTUtjOEpFZ0d5WVRFUnVkdW9EWmlhWjRYRlRTTUR5bERQYmZLOVhHRXRmQ1M4ZThkaXN3TXdiSFMwNXlrWUhCQkxoTzJXTk5Rb0NOc3BMTE9VNE5MYWlOdGxBeVJoeHU1ME8xenhpNWR1eW11WjJldlhnUncxTXRtM0IwWDNDOU9memFBaXk1WGFWSjJuc25mcFNXejdHanZXampFS0VZ?oc=5",
-   "s": "IGN France",
-   "d": "2026-11-23T16:48:00+00:00",
-   "lang": "fr",
-   "t": "Un juge libère le hacker à l’origine de la fuite massive concernant GTA 6 en 2022, en lui adressant un avertissement : « Que cela ne se reproduise plus »",
-   "u": "https://fr.ign.com/grand-theft-auto-6/94204/un-juge-libere-le-hacker-a-lorigine-de-la-fuite-massive-concernant-gta-6-en-2022-en-lui-adressant-un",
-   "img": "https://sm.ign.com/t/ign_fr/news/j/judge-lets/judge-lets-hacker-behind-massive-gta-6-leak-of-2022-go-free_hj6j.1200.jpg",
-   "chapeau": "Pan sur les doigts.",
-   "txt": "Le pirate informatique à l’origine de la fuite massive concernant GTA 6 en septembre 2022 a été remis en liberté sous condition, avec un avertissement sévère de la part du juge. Ayant déjà purgé la majeure partie de sa peine de sept ans, Arion Kurtaj, originaire d’Oxford au Royaume-Uni, a été autorisé à recouvrer sa liberté, sous condition. Selon la BBC , le juge a averti Kurtaj : « Ne laissez pas cela se reproduire. » Kurtaj a tenté de faire chanter Rockstar Games, le développeur de GTA 6, en 2022. Après s’être introduit par ingénierie sociale dans le Slack de l’entreprise, le jeune homme, aujourd’hui âgé de 21 ans, a menacé de diffuser des extraits du jeu inachevé à moins que Rockstar ne verse une rançon. Il a plaidé coupable des délits de piratage informatique , qu’il a commis alors qu’il avait 16 et 17 ans, en début de semaine.",
-   "pub": "2026-11-23T16:48:25+00:00",
    "cyberleek": true
   }
  ]
