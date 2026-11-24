@@ -1,8 +1,27 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-24T18:12:50+01:00",
+  "updated_at": "2026-11-24T20:13:00+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-gtasix-fin-jeu-jason-lucia-2026-11-24",
+      "title": "GTA 6 : un joueur annonce avoir fini le jeu et salue l'écriture de Jason et Lucia",
+      "summary": "@gtasix_ affirme avoir terminé GTA 6 et dit avoir aimé la façon dont Rockstar a écrit Jason et Lucia : le monde paraît vivant, et l'histoire manque une fois les crédits passés. Le post récolte un fort écho dans la communauté.",
+      "evidence": "vues relevées dans data/x_alertes.json (maj 24/11 à 19 h 07 UTC) : 86 214 vues, 1 460 likes, 64 reposts (@gtasix_). Aucune reprise relevée dans le même relevé. Témoignage personnel, non vérifiable.",
+      "post_text": "I've officially finished GTA 6. After years of waiting, it feels weird to be done already. The whole world feels alive. I love how Rockstar wrote Jason and Lucia...",
+      "url": "https://x.com/gtasix_/status/2125276848078655983",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Création de fan",
+      "published_at": "2026-11-24T17:14:20.000Z",
+      "checked_at": "2026-11-24T20:13:00+01:00",
+      "image": "https://pbs.twimg.com/media/HX6ABvCW8AAzhfw?format=jpg&name=small",
+      "image_alt": "Visuel du post de @gtasix_ sur la fin de GTA 6",
+      "image_credit": "@gtasix_ sur X",
+      "visual": "Jason Lucia",
+      "cta": "Ouvrir la publication sur X",
+      "embed_type": "x"
+    },
     {
       "id": "x-cartes-collection-panini-gtavi-countdown-2026-11-24",
       "title": "GTA 6 : Rockstar lance une collection de cartes à collectionner avec Panini, reprenant les cartes du jeu",
@@ -21,6 +40,44 @@
       "embed_type": "x",
       "cta": "Ouvrir la publication sur X",
       "post_text": "Rockstar is making a GTA 6 Sports Trading Card Collection in collaboration with Panini America, featuring real-world versions of in-game card collectibles found throughout the game."
+    },
+    {
+      "id": "x-carte-interactive-leonida-gtalphaintel-2026-11-24",
+      "title": "GTA 6 : une carte interactive de Leonida recense véhicules rares, easter eggs et cartes",
+      "summary": "@GTAlphaintel partage une carte interactive de Leonida qui localise véhicules rares, easter eggs, cartes à collectionner et armes uniques. Le post dépasse nettement les autres publications du compte sur la période relevée. L'auteur de la carte n'est pas indiqué dans le post.",
+      "evidence": "vues relevées dans data/x_alertes.json (maj 24/11 à 19 h 07 UTC) : 52 595 vues, 1 427 likes, 920 marque-pages, 93 reposts (@GTAlphaintel). Aucune reprise relevée dans le même relevé.",
+      "post_text": "The ultimate GTA 6 interactive map to discover everything in Leonida: Rare Vehicles, Easter eggs, Collectible cards, Unique Weapons",
+      "url": "https://x.com/GTAlphaintel/status/2125250591685497229",
+      "platform": "X",
+      "author": "@GTAlphaintel",
+      "status": "Création de fan",
+      "published_at": "2026-11-24T15:30:00.000Z",
+      "checked_at": "2026-11-24T20:13:00+01:00",
+      "image": "https://pbs.twimg.com/media/HX5dN7VaoAAsQTo?format=jpg&name=360x360",
+      "image_alt": "Visuel du post de @GTAlphaintel annonçant une carte interactive de Leonida",
+      "image_credit": "@GTAlphaintel sur X",
+      "visual": "Carte Leonida",
+      "cta": "Ouvrir la publication sur X",
+      "embed_type": "x"
+    },
+    {
+      "id": "x-chapitre-1-premieres-impressions-gtavi-countdown-2026-11-24",
+      "title": "GTA 6 : cinq jours après la sortie, le compte GTAVI Countdown demande les premières impressions",
+      "summary": "Le compte @GTAVI_Countdown note que, cinq jours après la sortie, beaucoup de joueurs ont fini le chapitre 1 en prenant le temps d'explorer, et invite à partager les premières impressions. Post d'engagement, sans information nouvelle sur le jeu.",
+      "evidence": "vues relevées dans data/x_alertes.json (maj 24/11 à 19 h 07 UTC) : 34 416 vues, 1 191 likes, 121 réponses (@GTAVI_Countdown). Aucune reprise relevée dans le même relevé.",
+      "post_text": "It's been 5 days since GTA 6 launched, which means you've probably just finished Chapter 1 if you're not rushing through the story... What are your first impressions so far?",
+      "url": "https://x.com/GTAVI_Countdown/status/2125246116622966824",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Création de fan",
+      "published_at": "2026-11-24T15:12:14.000Z",
+      "checked_at": "2026-11-24T20:13:00+01:00",
+      "image": "https://pbs.twimg.com/media/HX5j9VvW8AAYBgg?format=jpg&name=small",
+      "image_alt": "Visuel du post de @GTAVI_Countdown sur le chapitre 1 de GTA 6",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "visual": "Chapitre 1",
+      "cta": "Ouvrir la publication sur X",
+      "embed_type": "x"
     },
     {
       "id": "x-red-dead-film-serie-100m-gtavi-countdown-2026-11-24",
@@ -6745,6 +6802,11 @@
       "at": "2026-11-24T18:12:50+01:00",
       "label": "Passage Claude Haiku (Matière X, veille 2 h)",
       "summary": "1 sujet ajouté depuis data/x_alertes.json (maj 24/11 17 h 04 UTC) : cartes à collectionner GTA 6 avec Panini, post @GTAVI_Countdown 10 314 vues, repris par @RockstarNewsFRA et DL Gaming (data/presse.json). Statut Rapporté. Autres posts relevés sous 20 000 vues et non repris par deux comptes : écartés."
+    },
+    {
+      "at": "2026-11-24T20:13:00+01:00",
+      "label": "Passage Claude Haiku (Matière X, veille 2 h)",
+      "summary": "3 sujets ajoutés depuis data/x_alertes.json (maj 24/11 19 h 07 UTC) : fin de jeu de @gtasix_ (86 214 vues), carte interactive de Leonida par @GTAlphaintel (52 595 vues), question sur le chapitre 1 par @GTAVI_Countdown (34 416 vues). Statut Création de fan, aucun n'est présenté comme officiel. Autres posts relevés sous 20 000 vues et non repris par deux comptes : écartés."
     }
   ],
   "coverage": {
