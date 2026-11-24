@@ -1,8 +1,65 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-24T00:12:54+01:00",
+  "updated_at": "2026-11-24T08:13:00+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-vehicules-rapides-gtalphaintel-2026-11-24",
+      "title": "GTA 6 : un classement des véhicules les plus rapides circule sur X",
+      "summary": "Le compte @GTAlphaintel publie un post sur les véhicules les plus rapides de GTA 6. Le texte du post ne donne ni chiffres ni modèles : le contenu est dans la vidéo ou l'image jointe.",
+      "url": "https://x.com/GTAlphaintel/status/2125031652216979469",
+      "platform": "X",
+      "author": "@GTAlphaintel",
+      "status": "Rumeur",
+      "published_at": "2026-11-24T01:00:01.000Z",
+      "checked_at": "2026-11-24T08:13:00+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json le 24/11 à 07 h UTC : 120 199 vues (@GTAlphaintel). Un seul compte relève ce sujet ; le classement n'est pas vérifié.",
+      "visual": "Véhicules rapides",
+      "image": "https://pbs.twimg.com/media/HX1ecJ6bMAAVVFj?format=jpg&name=360x360",
+      "image_alt": "Image du post de @GTAlphaintel sur les véhicules les plus rapides de GTA 6",
+      "image_credit": "@GTAlphaintel sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "The fastest vehicles in Grand Theft Auto 6"
+    },
+    {
+      "id": "x-playstation-39-millions-joueurs-2026-11-23",
+      "title": "GTA 6 : PlayStation annonce plus de 39 millions de joueurs uniques sur PS5",
+      "summary": "Le compte officiel PlayStation indique que plus de 39 millions de joueurs uniques ont lancé GTA VI sur PS5 depuis sa sortie, et parle du plus gros lancement de l'histoire de PlayStation.",
+      "url": "https://x.com/PlayStation/status/2125009125322957131",
+      "platform": "X",
+      "author": "@PlayStation",
+      "status": "Officiel",
+      "published_at": "2026-11-23T23:30:30.000Z",
+      "checked_at": "2026-11-24T08:13:00+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json le 24/11 à 07 h UTC : 978 698 vues (@PlayStation). Relayé par @gtasix_ (31 860 vues) et @GTAVI_Countdown (28 969 vues).",
+      "visual": "PlayStation 39 millions",
+      "image": "https://pbs.twimg.com/media/HX2FTbgXMAA0qYK?format=jpg&name=small",
+      "image_alt": "Image du post officiel de @PlayStation sur les 39 millions de joueurs de GTA VI",
+      "image_credit": "@PlayStation sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "More than 39 million unique players jumped into Grand Theft Auto VI on PS5 since launch."
+    },
+    {
+      "id": "x-precommande-bonus-5-dollars-2026-11-23",
+      "title": "GTA 6 : le bonus de précommande vendu séparément 5 $ sur PlayStation et Xbox",
+      "summary": "Le compte @GTAVI_Countdown indique que le bonus de précommande de GTA 6 peut désormais être acheté seul sur les boutiques PlayStation et Xbox, pour 5 $.",
+      "url": "https://x.com/GTAVI_Countdown/status/2125002235960520903",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-23T23:03:08.000Z",
+      "checked_at": "2026-11-24T08:13:00+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json le 24/11 à 07 h UTC : 52 173 vues (@GTAVI_Countdown). Un seul compte relève ce sujet ; prix et disponibilité non vérifiés sur les boutiques.",
+      "visual": "Bonus 5 $",
+      "image": "https://pbs.twimg.com/media/HX2GAggXUAAjQvb?format=jpg&name=small",
+      "image_alt": "Image du post de @GTAVI_Countdown sur le bonus de précommande de GTA 6 vendu 5 $",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "If you missed the GTA 6 pre-order bonus, it's now available for purchase separately on PlayStation and Xbox stores for $5."
+    },
     {
       "id": "x-overmono-welcome-to-leonida-gtavi-countdown-2026-11-23",
       "title": "GTA 6 : la musique du menu pause « Welcome to Leonida » d’Overmono publiée en entier",
@@ -6562,6 +6619,11 @@
       "at": "2026-11-24T00:12:54+01:00",
       "label": "Passage Claude Haiku (Matière X, veille 2 h)",
       "summary": "Aucun sujet ajouté. data/x_alertes.json (maj 2026-11-23 22 h 13 UTC) : les posts au-dessus de 20 000 vues sont déjà publiés (Overmono, portail Vice City, patch 01.002.002) ou écartés. Fuite Cyberleek Xbox (681 177 vues, @GTAVI_Countdown) non publiée : la règle Cyberleek du dépôt interdit le contenu de fuite. Sous les seuils, un seul compte chacun : Xbox Wire Cloud Gaming (10 577 vues), explorable buildings (11 329), chapeau d Arthur Morgan (12 536), Ibai (10 646), SpongeBob (10 476), Easter egg Key Lento, LA Noire 2 (2 476)."
+    },
+    {
+      "at": "2026-11-24T08:13:00+01:00",
+      "label": "Passage Claude Haiku (Matière X, veille 2 h)",
+      "summary": "3 sujets ajoutés depuis data/x_alertes.json (maj 24/11 07 h UTC) : classement des véhicules (@GTAlphaintel, 120 199 vues, Rumeur), 39 millions de joueurs PS5 (@PlayStation, Officiel), bonus de précommande vendu 5 $ (@GTAVI_Countdown, Rumeur). Écartés : Kurtaj (déjà publié), météo (déjà dans la note du patch 01.002.002), Xbox Cloud (déjà publié), posts sous 20 000 vues sans reprise."
     }
   ],
   "coverage": {
