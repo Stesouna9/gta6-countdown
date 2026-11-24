@@ -436,3 +436,24 @@ body:has(.cx-map) .sl-tete+.sl-sec{padding-top:6px!important}
 .cx-pop .cx-code{margin:.5em 0;padding:.4em .6em;background:#1a1426;border:1px solid #ffd23f55;border-radius:8px;display:flex;align-items:baseline;gap:.6em}
 .cx-pop .cx-code small{color:#a99fbd;text-transform:uppercase;font-size:.7em;letter-spacing:.08em}
 .cx-pop .cx-code b{font-family:ui-monospace,Menlo,monospace;color:#ffd23f;font-size:1.5em;letter-spacing:.12em}
+
+/* Carte : itinéraires, nuit, icônes (24/11/2026) */
+.cx-v img,.cx-vi img{width:14px;height:14px;display:block}
+.cx-v.fait{opacity:.4}
+.cx-nuit .cx-tuiles{filter:brightness(.5) saturate(.75) hue-rotate(14deg) contrast(1.08)}
+.cx-nuit .cx-map,.cx-nuit .leaflet-container{background:#0b2740}
+.cx-outils .cx-b.cx-b-nuit.on{color:#ffd23f;border-color:#ffd23f;background:#1b1430}
+.cx-et i{display:flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:50%;border:2px solid #0b0812;box-shadow:0 0 0 2px #fff,0 2px 8px #000;font:800 12px/1 system-ui,sans-serif;color:#0b0812}
+.cx-it-on .cx-v,.cx-it-on .cx-ic{opacity:.35}
+.cx-its{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:8px 0}
+.cx-its button{text-align:left;padding:10px;border-radius:10px;border:1px solid #3a2f4a;border-left:4px solid var(--c);background:#1b1426;color:#f4efe6;font:inherit;cursor:pointer;min-width:0}
+.cx-its button b{display:block;font-size:.85rem;line-height:1.25}
+.cx-its button small{color:#b9b0c6}
+.cx-its button.on{background:#2a2112;border-color:#ffd23f}
+.cx-its button:disabled{opacity:.45;cursor:default}
+.cx-ets{margin:6px 0 14px;padding-left:30px;color:#ffd23f}
+.cx-ets button{width:100%;text-align:left;background:none;border:0;color:#f4efe6;padding:7px 4px;font:inherit;font-size:.92rem;cursor:pointer}
+.cx-ets button:hover{color:#ffd23f}
+.cx-pop-it{margin-top:6px}
+.cx-rac{display:flex;flex-wrap:wrap;gap:6px 14px}
+.cx-rac kbd{padding:1px 6px;border-radius:5px;border:1px solid #4a3f5c;background:#1b1426;color:#ffd23f;font:700 11px system-ui}

@@ -86,7 +86,7 @@
       '<div class="cx-map"></div>' +
       '<div class="cx-haut"><div class="cx-rech"><span aria-hidden="true">⌕</span><input type="search" autocomplete="off"><ul hidden></ul></div>' +
       '<button type="button" class="cx-b cx-b-pan"></button></div>' +
-      '<div class="cx-outils"><button type="button" class="cx-b cx-b-plein" aria-label="Plein écran">⛶</button><button type="button" class="cx-b cx-b-cadre" aria-label="Recadrer">⌂</button><button type="button" class="cx-b cx-b-part" aria-label="Partager">↗</button><button type="button" class="cx-b cx-b-noms on" aria-label="Noms">Aa</button></div>' +
+      '<div class="cx-outils"><button type="button" class="cx-b cx-b-plein" aria-label="Plein écran">⛶</button><button type="button" class="cx-b cx-b-cadre" aria-label="Recadrer">⌂</button><button type="button" class="cx-b cx-b-part" aria-label="Partager">↗</button><button type="button" class="cx-b cx-b-noms on" aria-label="Noms">Aa</button><button type="button" class="cx-b cx-b-nuit" aria-label="Jour / nuit">☾</button><button type="button" class="cx-b cx-b-hasard" aria-label="Hasard">⚄</button></div>' +
       '<aside class="cx-pan"' + (mob ? " hidden" : "") + '><div class="cx-onglets"></div><div class="cx-corps"></div></aside>' +
       '<div class="cx-bas"></div><div class="cx-toast" hidden></div>';
     var h0 = ""; try { h0 = decodeURIComponent(location.hash.slice(1)); } catch (e) {}
@@ -118,18 +118,30 @@
     }
     mo.on("zoomend", function () { batis(); });
     /* « En ville » : 970 lieux gtadb.org (CC BY 4.0) rangés en catégories à icônes (essence, magasins, restos…) */
-    var VC = null, gV = [];
+    var VC = null, gV = [], mkV = {}, qV = {};
+    function idV(q) { return "v:" + Math.round(q[1]) + "," + Math.round(q[2]) + ":" + q[3]; }
+    function vFait(q) { return !!S.p[idV(q)]; }
+    function icoV(q) { var c = VC.cats[q[3]]; return L.divIcon({ className: "cx-v" + (vFait(q) ? " fait" : ""), html: '<i style="background:' + c.couleur + '"><img src="' + R + "assets/img/soluce/ic/v-" + c.id + '.svg" alt=""></i>', iconSize: [22, 22], iconAnchor: [11, 11], popupAnchor: [0, -10] }); }
+    function btnTrouve(id) { return '<button type="button" class="cx-pop-t cx-pop-m' + (S.p[id] ? " fait" : "") + '" data-p="' + esc(id) + '">' + esc(S.p[id] ? tr("cx_deja", "✓ Trouvé (annuler)") : tr("cx_marquer", "☐ Marquer comme trouvé")) + "</button>"; }
+    function btnIt(id) { var on = monIt().indexOf(id) >= 0; return '<button type="button" class="cx-pop-t cx-pop-it' + (on ? " fait" : "") + '" data-it="' + esc(id) + '">' + esc(on ? tr("cx_it_retirer", "Retirer de mon itinéraire") : tr("cx_it_ajouter", "Ajouter à mon itinéraire")) + "</button>"; }
+    function popV(q) {
+      var c = VC.cats[q[3]];
+      return '<div class="cx-pop"><em style="color:' + c.couleur + '">' + esc(txt(c)) + "</em><b>" + esc(q[0]) + "</b>" + (q[4] ? "<span>" + esc(q[4]) + "</span>" : "") +
+        (q[5] ? "<p>" + esc(tr("cx_reel", "Dans la vraie vie")) + " : " + esc(q[5]) + "</p>" : "") + (q[6] ? '<p class="cx-in">' + esc(tr("cx_entrer", "On peut y entrer")) + "</p>" : "") + btnTrouve(idV(q)) + btnIt(idV(q)) + "</div>";
+    }
+    function dessineV() {
+      if (!VC) return;
+      VC.p.forEach(function (q) { var id = idV(q), m = mkV[id], g = gV[q[3]], cache = S.o.cx_cache_f && vFait(q); if (!m) return; m.setIcon(icoV(q)); if (cache) g.removeLayer(m); else if (!g.hasLayer(m)) g.addLayer(m); });
+    }
     function vOn(i) { var c = VC.cats[i], k = S.o["cx_v_" + c.id]; return k ? k === 1 : !c.off; }
     fetch(R + "data/carte_ville.json").then(function (r) { return r.json(); }).then(function (V) {
       VC = V; V.cats.forEach(function (c, i) { gV[i] = L.layerGroup(); if (vOn(i)) gV[i].addTo(mo); });
       V.p.forEach(function (q) {
-        var c = V.cats[q[3]];
-        L.marker([q[1], q[2]], { icon: L.divIcon({ className: "cx-v", html: '<i style="background:' + c.couleur + '">' + c.ico + "</i>", iconSize: [22, 22], iconAnchor: [11, 11], popupAnchor: [0, -10] }), title: q[0], riseOnHover: true })
-          .bindPopup('<div class="cx-pop"><em style="color:' + c.couleur + '">' + esc(txt(c)) + "</em><b>" + esc(q[0]) + "</b>" + (q[4] ? "<span>" + esc(q[4]) + "</span>" : "") +
-            (q[5] ? "<p>" + esc(tr("cx_reel", "Dans la vraie vie")) + " : " + esc(q[5]) + "</p>" : "") + (q[6] ? '<p class="cx-in">' + esc(tr("cx_entrer", "On peut y entrer")) + "</p>" : "") + "</div>", { className: "cx-popup", maxWidth: 260 })
+        var id = idV(q); qV[id] = q;
+        mkV[id] = L.marker([q[1], q[2]], { icon: icoV(q), title: q[0], riseOnHover: true }).bindPopup(function () { return popV(q); }, { className: "cx-popup", maxWidth: 260 })
           .addTo(gV[q[3]]);
       });
-      if (typeof onglet !== "undefined" && onglet === "coll") rendPan();
+      dessineV(); if (onglet) rendPan(); if (itAct) montreIt(itAct, true);
     }).catch(function () {});
     function cadre(anim) { mo.invalidateSize(); var zf = mo.getBoundsZoom(TERRE, false); ZB = zf; mo.setMinZoom(zf - 0.6); var pw = (!mob && !pan.hidden) ? pan.offsetWidth + 24 : 0; mo.fitBounds(TERRE, { animate: !!anim, paddingTopLeft: [10, 60], paddingBottomRight: [pw, 10] }); }
     mo.setMaxBounds([[-2500, -3000], [5500, 5300]]);
@@ -164,7 +176,7 @@
       /* petit groupe : anneau ; gros groupe : disque compact en spirale (tournesol) */
       if (n > 1 && n <= 7) { var r0 = 13 + n * 2.4, a = i / n * 2 * Math.PI - Math.PI / 2; dx = Math.round(r0 * Math.cos(a)); dy = Math.round(r0 * Math.sin(a)); }
       else if (n > 7) { var rr = 15 * Math.sqrt(i + .5), aa = i * 2.39996; dx = Math.round(rr * Math.cos(aa)); dy = Math.round(rr * Math.sin(aa)); }
-      return L.divIcon({ className: "cx-ic" + (S.p[p.id] ? " fait" : ""), html: '<i style="background:' + esc(c.couleur) + '"><img src="' + R + esc(c.icone) + '" alt=""></i>', iconSize: [26, 26], iconAnchor: [13 - dx, 13 - dy], popupAnchor: [dx, dy - 14] });
+      return L.divIcon({ className: "cx-ic" + (S.p[p.id] ? " fait" : ""), html: '<i style="background:' + esc(c.couleur) + '"><img src="' + R + "assets/img/soluce/ic/p-" + esc(c.id) + '.svg" alt=""></i>', iconSize: [26, 26], iconAnchor: [13 - dx, 13 - dy], popupAnchor: [dx, dy - 14] });
     }
     function popC(p) {
       var c = C[p.couche] || {}, o = trouve(p._s);
@@ -172,7 +184,7 @@
       return '<div class="cx-pop cx-pop-c"><em style="color:' + esc(c.couleur) + '">' + esc(txt(c)) + "</em><b>" + esc(txt(p) || p.id) + "</b>" + (p.qui ? '<span class="cx-qui">' + esc(p.qui) + "</span>" : "") + (p.zone ? "<span>📍 " + esc(p.zone) + (p.ch ? " · " + esc(tr("cf_ch", "Chapitre")) + " " + p.ch : "") + "</span>" : (p._s && p._s !== "·exact" ? "<span>" + esc(p._s) + "</span>" : "")) +
         (p.code ? '<div class="cx-code"><small>' + esc(tr("cx_code", "Code")) + "</small><b>" + esc(p.code) + "</b></div>" : "") +
         (txt(p, "note_") ? "<p>" + esc(txt(p, "note_")) + "</p>" : "") + (p.lien ? '<a class="cx-pop-t cx-pop-lien" href="' + esc(p.lien) + '">' + esc(tr("cx_mis_ouvrir", "Ouvrir la soluce")) + " →</a>" : "") +
-        '<button type="button" class="cx-pop-t cx-pop-m' + (S.p[p.id] ? " fait" : "") + '" data-p="' + esc(p.id) + '">' + esc(S.p[p.id] ? tr("cx_deja", "✓ Trouvé (annuler)") : tr("cx_marquer", "☐ Marquer comme trouvé")) + "</button></div>";
+        btnTrouve(p.id) + btnIt(p.id) + "</div>";
     }
     function dessineC() {
       Object.keys(gC).forEach(function (k) { gC[k].clearLayers(); }); mkC = {};
@@ -234,8 +246,11 @@
     function suggere() {
       var q = norm(ri.value.trim()); act = -1;
       if (q.length < 1) { ru.hidden = true; return; }
-      var r = LO.filter(function (o) { return norm(o.n).indexOf(q) >= 0; }).sort(function (a, b) { return norm(a.n).indexOf(q) - norm(b.n).indexOf(q); }).slice(0, 8);
-      ru.innerHTML = r.length ? r.map(function (o) { return '<li><button type="button" data-n="' + esc(o.n) + '">' + esc(o.n) + "</button></li>"; }).join("") : '<li class="cx-vide">' + esc(tr("cx_rien", "Aucun lieu de ce nom sur la carte")) + "</li>";
+      var r = LO.filter(function (o) { return norm(o.n).indexOf(q) >= 0; }).map(function (o) { return { a: "data-n", v: o.n, n: o.n, s: "" }; });
+      D.points.forEach(function (p) { if (mkC[p.id] && norm(txt(p) + " " + (p.en || "")).indexOf(q) >= 0) r.push({ a: "data-go", v: p.id, n: txt(p) || p.id, s: txt(C[p.couche] || {}) }); });
+      if (VC) VC.p.forEach(function (x) { if (norm(x[0]).indexOf(q) >= 0) r.push({ a: "data-gv", v: idV(x), n: x[0], s: txt(VC.cats[x[3]]) }); });
+      r.sort(function (a, b) { var x = norm(a.n).indexOf(q), y = norm(b.n).indexOf(q); return (x < 0 ? 99 : x) - (y < 0 ? 99 : y); }); r = r.slice(0, 12);
+      ru.innerHTML = r.length ? r.map(function (o) { return '<li><button type="button" ' + o.a + '="' + esc(o.v) + '">' + esc(o.n) + "<small>" + esc(o.s) + "</small></button></li>"; }).join("") : '<li class="cx-vide">' + esc(tr("cx_rien", "Aucun lieu de ce nom sur la carte")) + "</li>";
       ru.hidden = false;
     }
     ri.addEventListener("input", suggere); ri.addEventListener("focus", suggere);
@@ -245,7 +260,7 @@
       else if (e.key === "Enter") { var b = bs[act >= 0 ? act : 0]; if (b) b.click(); }
       else if (e.key === "Escape") { ru.hidden = true; ri.blur(); }
     });
-    ru.addEventListener("click", function (ev) { var b = ev.target.closest("button[data-n]"); if (!b) return; var o = trouve(b.getAttribute("data-n")); if (o) { ri.value = o.n; ru.hidden = true; ri.blur(); voir(o); } });
+    ru.addEventListener("click", function (ev) { var b = ev.target.closest("button"); if (!b) return; if (!b.hasAttribute("data-n")) { ru.hidden = true; ri.blur(); va(b.getAttribute("data-go") || b.getAttribute("data-gv")); return; } var o = trouve(b.getAttribute("data-n")); if (o) { ri.value = o.n; ru.hidden = true; ri.blur(); voir(o); } });
     document.addEventListener("click", function (ev) { if (!ev.target.closest(".cx-rech")) ru.hidden = true; });
     function trouve(n) { for (var i = 0; i < LO.length; i++) if (LO[i].n === n) return LO[i]; return null; }
 
@@ -279,17 +294,90 @@
       var l = r.querySelector(".cx-pop-l"); if (l) l.onclick = function () { partage(); };
       [].forEach.call(r.querySelectorAll("[data-pc]"), function (b) { b.onclick = function () { mo.closePopup(); ouvreC(b.getAttribute("data-pc")); }; });
       var tg = r.querySelector("button.cx-pop-m"); if (tg) tg.onclick = function () {
-        var id = tg.getAttribute("data-p"); if (S.p[id]) delete S.p[id]; else S.p[id] = 1; sauve(); dessineC(); if (onglet === "coll") rendPan();
-        if (mkC[id]) mkC[id].openPopup();
+        var id = tg.getAttribute("data-p"); if (S.p[id]) delete S.p[id]; else S.p[id] = 1; sauve(); dessineC(); dessineV(); rendPan(); if (itAct) montreIt(itAct, true);
+        var mm = mkC[id] || mkV[id]; if (mm && mm._map) mm.openPopup();
+      };
+      var bi = r.querySelector("button.cx-pop-it"); if (bi) bi.onclick = function () {
+        var id = bi.getAttribute("data-it"), l = monIt(), x = l.indexOf(id); if (x >= 0) l.splice(x, 1); else l.push(id);
+        S.o.cx_it = l; sauve(); info(x >= 0 ? tr("cx_it_ret", "Retiré de mon itinéraire") : tr("cx_it_aj", "Ajouté à mon itinéraire") + " (" + l.length + ")");
+        mo.closePopup(); rendPan(); if (itAct === "moi") montreIt("moi", true);
       };
     });
     mo.on("popupclose", function (e) { if (selC && e.popup && e.popup._cxLieu) { mo.removeLayer(selC); selC = null; } });
     mapEl.addEventListener("mouseleave", function () { bas.textContent = ""; });
 
-    /* panneau : Lieux / Collectibles / Mes repères */
+    /* itinéraires : ordre le plus court à vol d'oiseau entre les lieux non trouvés (plus proche voisin puis 2-opt) */
+    var itAct = null, gI = L.layerGroup().addTo(mo);
+    function monIt() { return Array.isArray(S.o.cx_it) ? S.o.cx_it.slice() : []; }
+    function parId(id) { for (var i = 0; i < D.points.length; i++) if (D.points[i].id === id) return D.points[i]; return null; }
+    function posDe(id) {
+      if (qV[id]) return L.latLng(qV[id][1], qV[id][2]);
+      var p = parId(id); if (!p) return null; if (p.pos) return L.latLng(p.pos[0], p.pos[1]);
+      var o = trouve(p._s); return o ? ll(o) : null;
+    }
+    function nomDe(id) { if (qV[id]) return qV[id][0]; var p = parId(id); return p ? txt(p) || id : id; }
+    function listeIts() {
+      var r = D.couches.map(function (c) { return { id: c.id, n: txt(c), c: c.couleur, l: D.points.filter(function (p) { return p.couche === c.id && p._s; }).map(function (p) { return p.id; }) }; });
+      if (VC) VC.cats.forEach(function (c, i) { if (["armes", "bars", "autos", "essence"].indexOf(c.id) >= 0) r.push({ id: "v_" + c.id, n: txt(c), c: c.couleur, l: VC.p.filter(function (q) { return q[3] === i; }).map(idV) }); });
+      return r.filter(function (x) { return x.l.length > 1; });
+    }
+    function etapes(l) {
+      var m = {}, t = [];
+      l.forEach(function (id) { if (S.p[id]) return; var p = posDe(id); if (!p) return; var k = Math.round(p.lat) + "," + Math.round(p.lng); if (!m[k]) { m[k] = { p: p, ids: [] }; t.push(m[k]); } m[k].ids.push(id); });
+      if (t.length < 3) return t;
+      function d(a, b) { return Math.hypot(a.p.lat - b.p.lat, a.p.lng - b.p.lng); }
+      t.sort(function (a, b) { return b.p.lat - a.p.lat; });
+      var r = [t.shift()];
+      while (t.length) { var z0 = r[r.length - 1], bi = 0; t.forEach(function (e, i) { if (d(z0, e) < d(z0, t[bi])) bi = i; }); r.push(t.splice(bi, 1)[0]); }
+      for (var go = true, tours = 0; go && tours < 30; tours++) { go = false;
+        for (var i = 0; i < r.length - 2; i++) for (var j = i + 2; j < r.length; j++) {
+          var av = d(r[i], r[i + 1]) + (r[j + 1] ? d(r[j], r[j + 1]) : 0), ap = d(r[i], r[j]) + (r[j + 1] ? d(r[i + 1], r[j + 1]) : 0);
+          if (ap < av - 1e-6) { r = r.slice(0, i + 1).concat(r.slice(i + 1, j + 1).reverse(), r.slice(j + 1)); go = true; }
+        } }
+      return r;
+    }
+    function itDe(id) { if (id === "moi") return { id: "moi", n: tr("cx_it_moi", "Mon itinéraire"), c: "#ffd23f", l: monIt() }; var x = null; listeIts().forEach(function (i) { if (i.id === id) x = i; }); return x; }
+    function cacheIt() { itAct = null; gI.clearLayers(); el.classList.remove("cx-it-on"); }
+    function montreIt(id, sansVol) {
+      gI.clearLayers(); var it = itDe(id); if (!it) { if (VC) cacheIt(); else itAct = id; return; } itAct = id;
+      var e = etapes(it.l), pts = e.map(function (x) { return x.p; });
+      el.classList.toggle("cx-it-on", e.length > 0);
+      if (!e.length) return;
+      L.polyline(pts, { color: "#0b0812", weight: 7, opacity: .75, interactive: false }).addTo(gI);
+      L.polyline(pts, { color: it.c, weight: 3.5, dashArray: "8 7", interactive: false }).addTo(gI);
+      e.forEach(function (x, i) { L.marker(x.p, { icon: L.divIcon({ className: "cx-et", html: '<i style="background:' + esc(it.c) + '">' + (i + 1) + "</i>", iconSize: [26, 26], iconAnchor: [13, 13] }), zIndexOffset: 2000, title: nomDe(x.ids[0]) })
+        .bindPopup(function () { return '<div class="cx-pop"><em>' + esc(it.n) + " · " + (i + 1) + "/" + e.length + "</em>" + x.ids.map(function (k) { return "<b>" + esc(nomDe(k)) + "</b>"; }).join("") + (x.ids.length === 1 ? btnTrouve(x.ids[0]) + btnIt(x.ids[0]) : '<ul class="cx-pop-ul">' + x.ids.map(function (k) { return '<li><button type="button" data-pc="' + esc(k) + '">' + esc(nomDe(k)) + "</button></li>"; }).join("") + "</ul>") + "</div>"; }, { className: "cx-popup", maxWidth: 270 }).addTo(gI); });
+      if (!sansVol) mo.flyToBounds(L.latLngBounds(pts), { duration: .7, paddingTopLeft: [40, 80], paddingBottomRight: [(!mob && !pan.hidden ? pan.offsetWidth + 90 : 60), 50], maxZoom: ZB + 4 });
+    }
+    function va(id) {
+      if (qV[id]) { var q = qV[id], m = mkV[id]; if (!mo.hasLayer(gV[q[3]])) { gV[q[3]].addTo(mo); S.o["cx_v_" + VC.cats[q[3]].id] = 1; sauve(); rendPan(); } if (!gV[q[3]].hasLayer(m)) gV[q[3]].addLayer(m); mo.flyTo(m.getLatLng(), Math.max(mo.getZoom(), ZB + 3), { duration: .6 }); mo.once("moveend", function () { m.openPopup(); }); if (mob) { pan.hidden = true; majPanBtn(); } }
+      else {
+        var p = parId(id); if (!p) return;
+        if (gC[p.couche] && !mo.hasLayer(gC[p.couche])) { gC[p.couche].addTo(mo); delete S.o["cx_off_" + p.couche]; sauve(); dessineC(); rendPan(); }
+        if (mkC[id]) ouvreC(id); else { var ps = posDe(id); if (ps) mo.flyTo(ps, Math.max(mo.getZoom(), ZB + 2.2), { duration: .6 }); }
+      }
+    }
+    function hasard() {
+      var l = D.points.filter(function (p) { return p._s && !S.p[p.id] && posDe(p.id); }).map(function (p) { return p.id; });
+      if (VC) VC.p.forEach(function (q) { if (!vFait(q) && !VC.cats[q[3]].off) l.push(idV(q)); });
+      if (l.length) va(l[Math.floor(Math.random() * l.length)]);
+    }
+    function nuit(on) { el.classList.toggle("cx-nuit", !!on); $(".cx-b-nuit").classList.toggle("on", !!on); $(".cx-b-nuit").textContent = on ? "☀" : "☾"; }
+    nuit(S.o.cx_nuit);
+    $(".cx-b-nuit").addEventListener("click", function () { if (S.o.cx_nuit) delete S.o.cx_nuit; else S.o.cx_nuit = 1; sauve(); nuit(S.o.cx_nuit); });
+    $(".cx-b-hasard").addEventListener("click", hasard);
+    document.addEventListener("keydown", function (e) {
+      if (e.ctrlKey || e.metaKey || e.altKey || /^(INPUT|TEXTAREA|SELECT)$/.test((e.target || {}).tagName || "") || (e.target && e.target.isContentEditable)) return;
+      var b = el.getBoundingClientRect(); if (b.bottom < 120 || b.top > innerHeight - 120) return;
+      var k = (e.key || "").toLowerCase();
+      if (k === "/") { e.preventDefault(); ri.focus(); } else if (k === "l") pb.click(); else if (k === "h") { if (S.o.cx_cache_f) delete S.o.cx_cache_f; else S.o.cx_cache_f = 1; sauve(); dessineC(); dessineV(); rendPan(); }
+      else if (k === "r") $(".cx-b-cadre").click(); else if (k === "n") $(".cx-b-nuit").click(); else if (k === "f") $(".cx-b-plein").click(); else if (k === "x") hasard();
+    });
+
+    /* panneau : Catégories / Itinéraires / Lieux / Mes repères */
     var onglet = "coll", ouv = {};
     function rendOng() {
-      ong.innerHTML = [["coll", tr("cx_o_cat", "Catégories")], ["lieux", tr("cx_o_lieux", "Lieux")], ["mes", tr("sl_off_mes", "Mes repères") + (MR.length ? " " + MR.length : "")]].map(function (t) { return '<button type="button" data-o="' + t[0] + '"' + (t[0] === onglet ? ' class="on"' : "") + ">" + esc(t[1]) + "</button>"; }).join("") + (mob ? '<button type="button" class="cx-x" aria-label="Fermer">✕</button>' : "");
+      ong.innerHTML = [["coll", tr("cx_o_cat", "Catégories")], ["its", tr("cx_o_its", "Itinéraires")], ["lieux", tr("cx_o_lieux", "Lieux")], ["mes", tr("sl_off_mes", "Mes repères") + (MR.length ? " " + MR.length : "")]].map(function (t) { return '<button type="button" data-o="' + t[0] + '"' + (t[0] === onglet ? ' class="on"' : "") + ">" + esc(t[1]) + "</button>"; }).join("") + (mob ? '<button type="button" class="cx-x" aria-label="Fermer">✕</button>' : "");
     }
     function rendPan() {
       rendOng();
@@ -299,8 +387,14 @@
       if (onglet === "lieux") {
         var lt = "";
         h = '<p class="cx-aide">' + esc(tr("cx_aide_l", "Les 87 noms écrits sur la carte officielle. Touchez-en un pour y aller.")) + '</p><ul class="cx-l">' + LO.map(function (o) { var l0 = o.n.charAt(0).toUpperCase(), s = l0 !== lt ? '<li class="cx-let">' + l0 + "</li>" : ""; lt = l0; return s + '<li><button type="button" data-n="' + esc(o.n) + '">' + esc(o.n) + "<small>" + esc(o.case) + "</small></button></li>"; }).join("") + "</ul>";
+      } else if (onglet === "its") {
+        var lm = monIt(), el1 = itAct ? itDe(itAct) : null, et1 = el1 ? etapes(el1.l) : [];
+        h = '<p class="cx-aide">' + esc(tr("cx_it_aide", "Choisissez une tournée : les étapes sont numérotées dans l'ordre le plus court, à vol d'oiseau. Les lieux trouvés en sortent. Sans position exacte, l'étape est le secteur nommé par le guide.")) + "</p>" +
+          '<div class="cx-its">' + [{ id: "moi", n: tr("cx_it_moi", "Mon itinéraire"), c: "#ffd23f", l: lm }].concat(listeIts()).map(function (x) { var nr = x.l.filter(function (k) { return !S.p[k]; }).length; return '<button type="button" data-itin="' + esc(x.id) + '"' + (itAct === x.id ? ' class="on"' : "") + (x.l.length ? "" : " disabled") + ' style="--c:' + esc(x.c) + '"><b>' + esc(x.n) + "</b><small>" + nr + " " + esc(tr("cx_it_rest", "à trouver")) + "</small></button>"; }).join("") + "</div>" +
+          (lm.length ? '<button type="button" class="cx-vider cx-it-vider">' + esc(tr("cx_it_vider", "Vider mon itinéraire")) + "</button>" : '<p class="cx-aide">' + esc(tr("cx_it_vide", "Mon itinéraire : ouvrez un lieu sur la carte, puis « Ajouter à mon itinéraire ».")) + "</p>") +
+          (el1 ? '<h4 class="cx-fam">' + esc(el1.n) + '</h4><ol class="cx-ets">' + et1.map(function (x) { return '<li><button type="button" data-gi="' + esc(x.ids[0]) + '">' + x.ids.map(function (k) { return esc(nomDe(k)); }).join("<br>") + "</button></li>"; }).join("") + "</ol>" : "");
       } else if (onglet === "coll") {
-        var tot = 0, fa = 0; D.points.forEach(function (p) { tot++; if (S.p[p.id]) fa++; });
+        var tot = 0, fa = 0; D.points.forEach(function (p) { tot++; if (S.p[p.id]) fa++; }); if (VC) VC.p.forEach(function (q) { if (VC.cats[q[3]].off) return; tot++; if (vFait(q)) fa++; });
         h = '<div class="cx-tout"><button type="button" data-tout="1">' + esc(tr("cx_tout_aff", "Tout afficher")) + '</button><button type="button" data-tout="0">' + esc(tr("cx_tout_mas", "Tout masquer")) + '</button><button type="button" data-cf="1"' + (S.o.cx_cache_f ? ' class="on"' : "") + ">" + esc(tr("cx_cache_f", "Masquer les trouvés")) + "</button></div>" + '<div class="cx-prog"><b>' + fa + " / " + tot + "</b> " + esc(tr("cx_trouves", "trouvés")) + '<span><i style="width:' + (tot ? Math.round(fa * 100 / tot) : 0) + '%"></i></span></div>' +
           
           FAMS.map(function (f) { var hh = D.couches.filter(function (c) { return famC(c) === f[0]; }).map(function (c) {
@@ -312,10 +406,11 @@
                 return '<li><label><input type="checkbox" data-p="' + esc(p.id) + '"' + (S.p[p.id] ? " checked" : "") + "><span><b>" + esc(txt(p) || p.id) + "</b>" + (txt(p, "note_") ? "<small>" + esc(txt(p, "note_")) + "</small>" : "") +  "</span></label>" + (mkC[p.id] ? '<button type="button" class="cx-go" data-go="' + esc(p.id) + '" aria-label="' + esc(tr("cx_voir", "Afficher sur la carte")) + '">➜</button>' : "") + "</li>";
               }).join("") + "</ul>" : "") + "</div>";
           }).join(""); return hh ? '<h4 class="cx-fam">' + esc(tr(f[1], f[2])) + "</h4>" + hh : ""; }).join("");
-        if (VC) { var nv = VC.p.reduce(function (t, q) { t[q[3]] = (t[q[3]] || 0) + 1; return t; }, {});
+        if (VC) { var nv = {}, nf = {}; VC.p.forEach(function (q) { nv[q[3]] = (nv[q[3]] || 0) + 1; if (vFait(q)) nf[q[3]] = (nf[q[3]] || 0) + 1; });
           h += '<h4 class="cx-fam">' + esc(tr("cx_f_ville", "En ville")) + "</h4>" + VC.cats.map(function (c, i) {
-            return '<div class="cx-c"><div class="cx-c-h"><button type="button" class="cx-c-t" data-vv="' + i + '"><i class="cx-vi" style="background:' + c.couleur + '">' + c.ico + "</i>" + esc(txt(c)) + "<small>" + (nv[i] || 0) + "</small></button>" + '<button type="button" class="cx-eye' + (vOn(i) ? " on" : "") + '" data-vv="' + i + '" aria-label="' + esc(tr("cx_voir", "Afficher sur la carte")) + '"></button></div></div>';
+            return '<div class="cx-c"><div class="cx-c-h"><button type="button" class="cx-c-t" data-vv="' + i + '"><i class="cx-vi" style="background:' + c.couleur + '"><img src="' + R + "assets/img/soluce/ic/v-" + c.id + '.svg" alt=""></i>' + esc(txt(c)) + "<small>" + (nf[i] || 0) + "/" + (nv[i] || 0) + "</small></button>" + '<button type="button" class="cx-eye' + (vOn(i) ? " on" : "") + '" data-vv="' + i + '" aria-label="' + esc(tr("cx_voir", "Afficher sur la carte")) + '"></button></div></div>';
           }).join("") + '<p class="cx-aide">' + esc(tr("cx_src_v", "Lieux : gtadb.org et contributeurs, CC BY 4.0")) + "</p>"; }
+        if (!mob) h += '<p class="cx-aide cx-rac">' + [["/", "cx_r_rech", "Recherche"], ["L", "cx_r_pan", "Panneau"], ["H", "cx_cache_f", "Masquer les trouvés"], ["N", "cx_r_nuit", "Jour / nuit"], ["X", "cx_r_hasard", "Lieu au hasard"], ["R", "cx_cadre", "Toute la carte"], ["F", "cx_plein", "Plein écran"]].map(function (x) { return "<span><kbd>" + x[0] + "</kbd> " + esc(tr(x[1], x[2])) + "</span>"; }).join("") + "</p>";
       } else {
         h = '<button type="button" class="cx-b-pose' + (pose ? " on" : "") + '">' + esc(pose ? tr("sl_off_pose_on", "Touchez la carte à l'endroit voulu") : tr("sl_off_pose", "📍 Poser un repère")) + '</button><p class="cx-aide">' + esc(tr("cx_aide_m", "Astuce : clic droit sur ordinateur ou appui long sur mobile pour poser un repère. Faites-le glisser pour le déplacer.")) + "</p>" +
           (MR.length ? '<ul class="cx-l">' + MR.map(function (m, i) { return '<li><button type="button" data-m="' + i + '">📍 ' + esc(m.n) + "</button></li>"; }).join("") + '</ul><button type="button" class="cx-vider">' + esc(tr("sl_off_vider", "Tout effacer")) + "</button>" : "");
@@ -328,7 +423,10 @@
       if (b.hasAttribute("data-n")) { var o = trouve(b.getAttribute("data-n")); if (o) voir(o); }
       else if (b.hasAttribute("data-m")) { var m = MR[+b.getAttribute("data-m")]; mo.flyTo([m.a, m.o], Math.max(mo.getZoom(), mo.getMinZoom() + 2), { duration: .7 }); if (mob) { pan.hidden = true; majPanBtn(); } }
       else if (b.hasAttribute("data-go")) { ouvreC(b.getAttribute("data-go")); }
-      else if (b.hasAttribute("data-cf")) { if (S.o.cx_cache_f) delete S.o.cx_cache_f; else S.o.cx_cache_f = 1; sauve(); dessineC(); rendPan(); }
+      else if (b.hasAttribute("data-cf")) { if (S.o.cx_cache_f) delete S.o.cx_cache_f; else S.o.cx_cache_f = 1; sauve(); dessineC(); dessineV(); rendPan(); }
+      else if (b.hasAttribute("data-itin")) { var ii = b.getAttribute("data-itin"); if (itAct === ii) cacheIt(); else { montreIt(ii); if (mob) { pan.hidden = true; majPanBtn(); } } rendPan(); }
+      else if (b.hasAttribute("data-gi")) { va(b.getAttribute("data-gi")); }
+      else if (b.classList.contains("cx-it-vider")) { delete S.o.cx_it; sauve(); if (itAct === "moi") cacheIt(); rendPan(); }
       else if (b.hasAttribute("data-vv")) { var vi = +b.getAttribute("data-vv"), cv = VC.cats[vi]; if (mo.hasLayer(gV[vi])) { mo.removeLayer(gV[vi]); S.o["cx_v_" + cv.id] = 2; } else { gV[vi].addTo(mo); S.o["cx_v_" + cv.id] = 1; } sauve(); rendPan(); }
       else if (b.hasAttribute("data-tout")) { var on = b.getAttribute("data-tout") === "1"; if (VC) VC.cats.forEach(function (c, i) { if (on) gV[i].addTo(mo); else mo.removeLayer(gV[i]); S.o["cx_v_" + c.id] = on ? 1 : 2; }); D.couches.forEach(function (c) { if (on) { gC[c.id].addTo(mo); delete S.o["cx_off_" + c.id]; } else { mo.removeLayer(gC[c.id]); S.o["cx_off_" + c.id] = 1; } }); sauve(); dessineC(); rendPan(); }
       else if (b.hasAttribute("data-v")) { var v = b.getAttribute("data-v"); if (mo.hasLayer(gC[v])) { mo.removeLayer(gC[v]); S.o["cx_off_" + v] = 1; } else { gC[v].addTo(mo); delete S.o["cx_off_" + v]; } sauve(); dessineC(); rendPan(); }
@@ -369,8 +467,8 @@
     mo.on("zoomend", function () { etiquettes(); var g = mo.getZoom() < ZB + 1.15; if (g !== grosAv) { grosAv = g; dessineC(); } });
 
     function textes() {
-      ri.placeholder = tr("cx_rech", "Chercher un lieu : Vice Beach, Port Gellhorn…");
-      $(".cx-b-plein").title = tr("cx_plein", "Plein écran"); $(".cx-b-cadre").title = tr("cx_cadre", "Toute la carte"); $(".cx-b-part").title = tr("cx_partager", "Partager cette vue"); $(".cx-b-noms").title = tr("cx_noms", "Afficher les noms");
+      ri.placeholder = tr("cx_rech", "Chercher un lieu, une banque, un magasin…");
+      $(".cx-b-plein").title = tr("cx_plein", "Plein écran"); $(".cx-b-cadre").title = tr("cx_cadre", "Toute la carte"); $(".cx-b-part").title = tr("cx_partager", "Partager cette vue"); $(".cx-b-noms").title = tr("cx_noms", "Afficher les noms"); $(".cx-b-nuit").title = tr("cx_r_nuit", "Jour / nuit"); $(".cx-b-hasard").title = tr("cx_r_hasard", "Lieu au hasard");
       majPanBtn(); rendPan(); dessineR();
     }
     cadre(); dessineC();
