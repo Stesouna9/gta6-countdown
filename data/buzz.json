@@ -1,8 +1,27 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-24T16:13:08+01:00",
+  "updated_at": "2026-11-24T18:12:50+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-cartes-collection-panini-gtavi-countdown-2026-11-24",
+      "title": "GTA 6 : Rockstar lance une collection de cartes à collectionner avec Panini, reprenant les cartes du jeu",
+      "summary": "Selon @GTAVI_Countdown, Rockstar prépare une collection de cartes à collectionner en partenariat avec Panini America, avec des versions réelles des cartes à collectionner trouvées dans le jeu. @RockstarNewsFRA relaie l'annonce en précisant qu'il s'agira des mêmes cartes que dans le jeu. Un article de DL Gaming reprend l'annonce avec des premiers visuels.",
+      "url": "https://x.com/GTAVI_Countdown/status/2125262554754613597",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "2026-11-24T16:17:33.000Z",
+      "checked_at": "2026-11-24T18:12:50+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json (maj 24/11 à 17 h 04 UTC) : 10 314 vues, 203 likes, 10 reposts (@GTAVI_Countdown). Repris par @RockstarNewsFRA (1 107 vues, même sujet, 16 h 04 UTC). Corroboré par data/presse.json (DL Gaming, 24/11 à 17 h 25). Le post renvoie au communiqué de Panini America.",
+      "visual": "Cartes Panini",
+      "image": "https://pbs.twimg.com/media/HX5y9emWUAEPPZZ?format=jpg&name=360x360",
+      "image_alt": "Visuel du post de @GTAVI_Countdown annonçant la collection de cartes GTA 6 avec Panini",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Rockstar is making a GTA 6 Sports Trading Card Collection in collaboration with Panini America, featuring real-world versions of in-game card collectibles found throughout the game."
+    },
     {
       "id": "x-red-dead-film-serie-100m-gtavi-countdown-2026-11-24",
       "title": "GTA 6 : un film ou une série Red Dead en discussion, pour plus de 100 M$ selon un agent, relayé par @GTAVI_Countdown",
@@ -6721,6 +6740,11 @@
       "at": "2026-11-24T16:13:08+01:00",
       "label": "Passage Claude Haiku (Matière X, veille 2 h)",
       "summary": "1 sujet ajouté depuis data/x_alertes.json (maj 24/11 15 h 01 UTC) : post @GTAVI_Countdown sur un film ou une série Red Dead, 24 469 vues (≥ 20 000). Écartés : Skunk Ape @GTAlphaintel (6 300 vues), Lucia torse nu @GTAlphaintel (2 338). Aucune reprise presse trouvée : statut Rumeur."
+    },
+    {
+      "at": "2026-11-24T18:12:50+01:00",
+      "label": "Passage Claude Haiku (Matière X, veille 2 h)",
+      "summary": "1 sujet ajouté depuis data/x_alertes.json (maj 24/11 17 h 04 UTC) : cartes à collectionner GTA 6 avec Panini, post @GTAVI_Countdown 10 314 vues, repris par @RockstarNewsFRA et DL Gaming (data/presse.json). Statut Rapporté. Autres posts relevés sous 20 000 vues et non repris par deux comptes : écartés."
     }
   ],
   "coverage": {
