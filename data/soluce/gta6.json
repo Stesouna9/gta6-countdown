@@ -1,7 +1,7 @@
 {
  "game": "gta6",
  "title": "GTA VI",
- "maj": "2026-11-23",
+ "maj": "2026-11-24",
  "note": "Fiches GTA 6 (schéma data/soluce/schema.json). Rempli par la routine gtavifrance-solutions : uniquement des infos vérifiées (2 sources ou officiel). Missions d'histoire = spoiler (masquées par défaut sur missions.html). Noms de missions : liste officielle des trophées PSN. Chapitres : au moins 4 + mission finale (trophées).",
  "chapitres_connus": 4,
  "etrangers_total": 8,
@@ -393,6 +393,8 @@
   }
  ],
  "hub_articles": [
+  "2026-11-24-murals-1010-cheetah-gta6",
+  "2026-11-24-peewees-billboards-waink-gta6",
   "2026-11-23-sauts-stunt-jumps-gta6-mariana",
   "2026-11-23-liste-100-pour-cent-gta6",
   "2026-11-23-base-militaire-mile-zero-air-station-gta6",
@@ -3174,7 +3176,7 @@
      "opt": false,
      "perso": "",
      "manquable": false,
-     "statut": "a_confirmer",
+     "statut": "confirme",
      "w": {
       "fr": [
        "Entrez dans le parking des Hathaway Apartments, à Ocean Beach.",
