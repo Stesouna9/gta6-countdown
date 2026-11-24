@@ -1,8 +1,27 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-24T08:13:00+01:00",
+  "updated_at": "2026-11-24T10:14:00+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-pov-jason-keys-gtavi-countdown-2026-11-24",
+      "title": "GTA 6 : une vidéo POV de Jason dans les Keys circule sur X, 25 000 vues",
+      "summary": "Le compte @GTAVI_Countdown publie une vidéo présentée comme une partie de GTA 6 dans les Keys, vue du point de vue de Jason. Création de fan : le post ne donne aucune information officielle sur le jeu.",
+      "url": "https://x.com/GTAVI_Countdown/status/2125042096080072757",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Création de fan",
+      "published_at": "2026-11-24T01:41:31.000Z",
+      "checked_at": "2026-11-24T10:14:00+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json (maj 24/11 à 08 h 10 UTC) : 25 156 vues, 1 692 likes, 118 reposts (@GTAVI_Countdown). Un seul compte relève cette vidéo.",
+      "visual": "Jason, les Keys",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2125041144518041600/img/qQNEAVlvLWY8rqCK.jpg",
+      "image_alt": "Image de la vidéo publiée par @GTAVI_Countdown sur X : Jason dans les Keys",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "POV: Life is simple when you’re playing GTA 6 in the Keys as Jason."
+    },
     {
       "id": "x-vehicules-rapides-gtalphaintel-2026-11-24",
       "title": "GTA 6 : un classement des véhicules les plus rapides circule sur X",
@@ -21,6 +40,25 @@
       "embed_type": "x",
       "cta": "Ouvrir la publication sur X",
       "post_text": "The fastest vehicles in Grand Theft Auto 6"
+    },
+    {
+      "id": "x-ban-psn-photo-nudistes-gtalphaintel-2026-11-24",
+      "title": "GTA 6 : un joueur affirme avoir été banni 30 jours du PSN pour une photo",
+      "summary": "Le compte @GTAlphaintel relaie le témoignage d'un joueur qui dit avoir reçu un bannissement de 30 jours sur PSN après avoir envoyé une photo in-game d'une colonie de nudistes. Le compte met en garde contre l'envoi de ce type d'images par messages PlayStation. Témoignage non vérifié.",
+      "url": "https://x.com/GTAlphaintel/status/2125016553632805299",
+      "platform": "X",
+      "author": "@GTAlphaintel",
+      "status": "Rumeur",
+      "published_at": "2026-11-24T00:00:01.000Z",
+      "checked_at": "2026-11-24T10:14:00+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json (maj 24/11 à 08 h 10 UTC) : 20 690 vues, 108 likes (@GTAlphaintel). Un seul compte relève ce témoignage ; aucune réponse de Sony ou de Rockstar relevée.",
+      "visual": "Bannissement PSN",
+      "image": "https://pbs.twimg.com/media/HX1ejXdbIAAdpS7?format=jpg&name=360x360",
+      "image_alt": "Image du post de @GTAlphaintel sur un bannissement PSN lié à GTA 6",
+      "image_credit": "@GTAlphaintel sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "A Grand Theft Auto 6 player claims they received a 30-day PSN ban after sending an in-game photo of a nudist colony. They are warning others against sharing nude images through PlayStation messages"
     },
     {
       "id": "x-playstation-39-millions-joueurs-2026-11-23",
@@ -6624,6 +6662,11 @@
       "at": "2026-11-24T08:13:00+01:00",
       "label": "Passage Claude Haiku (Matière X, veille 2 h)",
       "summary": "3 sujets ajoutés depuis data/x_alertes.json (maj 24/11 07 h UTC) : classement des véhicules (@GTAlphaintel, 120 199 vues, Rumeur), 39 millions de joueurs PS5 (@PlayStation, Officiel), bonus de précommande vendu 5 $ (@GTAVI_Countdown, Rumeur). Écartés : Kurtaj (déjà publié), météo (déjà dans la note du patch 01.002.002), Xbox Cloud (déjà publié), posts sous 20 000 vues sans reprise."
+    },
+    {
+      "at": "2026-11-24T10:14:00+01:00",
+      "label": "Passage Claude Haiku (Matière X, veille 2 h)",
+      "summary": "2 sujets ajoutés depuis data/x_alertes.json (maj 24/11 08 h 10 UTC) : vidéo POV de Jason dans les Keys (@GTAVI_Countdown, 25 156 vues, Création de fan), témoignage de bannissement PSN pour une photo (@GTAlphaintel, 20 690 vues, Rumeur). Écartés : Xbox Series S (déjà couvert par le sujet 60 images/s du 22/11), météo (déjà dans la note du patch 01.002.002), PS5 39 millions et précommande (déjà publiés), Kurtaj (déjà publié), 45 millions et album (déjà publiés)."
     }
   ],
   "coverage": {
