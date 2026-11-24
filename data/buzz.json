@@ -1,8 +1,28 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-24T14:12:34+01:00",
+  "updated_at": "2026-11-24T16:13:08+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-red-dead-film-serie-100m-gtavi-countdown-2026-11-24",
+      "title": "GTA 6 : un film ou une série Red Dead en discussion, pour plus de 100 M$ selon un agent, relayé par @GTAVI_Countdown",
+      "summary": "Selon @GTAVI_Countdown, qui relaie un agent travaillant avec des scénaristes du jeu vidéo, Rockstar aurait discuté d'une adaptation de Red Dead Redemption en film ou en série, avec un accord de droits de plus de 100 millions de dollars. Ni Rockstar ni une source de presse consultée ne confirment ce chiffre.",
+      "url": "https://x.com/GTAVI_Countdown/status/2125222681629118546",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-24T13:39:06.000Z",
+      "checked_at": "2026-11-24T16:13:08+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json (maj 24/11 à 15 h 01 UTC) : 24 469 vues, 1 289 likes, 94 reposts, 126 marque-pages (@GTAVI_Countdown). Un seul compte relève ce post ; aucune reprise dans data/presse.json.",
+      "visual": "Red Dead, film et série",
+      "image": "https://gtavifrance.com/assets/img/articles/2026-11-23-red-dead-meme-univers-indices-gta6.jpg",
+      "image_alt": "Illustration Red Dead Redemption issue du décryptage du site du 23 novembre 2026",
+      "image_credit": "Image : gtavifrance.com (décryptage Red Dead du 23/11)",
+      "article": "journal/2026-11-23-red-dead-meme-univers-indices-gta6.html",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "A Red Dead Redemption film/TV adaptation is reportedly in play. Rockstar discussed a deal worth more than $100 million for licensing rights according to an agent who works with writers in the games industry."
+    },
     {
       "id": "x-xbox-series-s-fsr-41-gtavi-countdown-2026-11-24",
       "title": "GTA 6 : une vidéo annonce un rendu fluide sur Xbox Series S, avec upscaling FSR 4.1, selon @GTAVI_Countdown",
@@ -6696,6 +6716,11 @@
       "at": "2026-11-24T14:12:34+01:00",
       "label": "Passage Claude Haiku (Matière X, veille 2 h)",
       "summary": "Aucun sujet ajouté depuis data/x_alertes.json (maj 24/11 13 h 17 Paris) : aucun post GTA6 neuf au-dessus de 20 000 vues ni repris par 2 comptes. Déjà publiés : Xbox Series S FSR 4.1, POV Jason, véhicules rapides, PSN, précommande, PlayStation 39 millions. Écartés : Immortal Man (8 630 vues), Red Hulk (6 433), liste véhicules mise à jour (6 972, même sujet), Discord PC (3 320), Lucia (483)."
+    },
+    {
+      "at": "2026-11-24T16:13:08+01:00",
+      "label": "Passage Claude Haiku (Matière X, veille 2 h)",
+      "summary": "1 sujet ajouté depuis data/x_alertes.json (maj 24/11 15 h 01 UTC) : post @GTAVI_Countdown sur un film ou une série Red Dead, 24 469 vues (≥ 20 000). Écartés : Skunk Ape @GTAlphaintel (6 300 vues), Lucia torse nu @GTAlphaintel (2 338). Aucune reprise presse trouvée : statut Rumeur."
     }
   ],
   "coverage": {
