@@ -1,8 +1,27 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-24T20:13:00+01:00",
+  "updated_at": "2026-11-24T22:13:02+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-pnj-plus-fous-que-jason-gtavi-countdown-2026-11-24",
+      "title": "GTA 6 : les PNJ pourraient être plus déjantés que le personnage principal, selon @GTAVI_Countdown",
+      "summary": "@GTAVI_Countdown affirme que les PNJ de GTA 6 peuvent être plus délirants que le protagoniste. Le post est accompagné d une vidéo que cette veille n a pas pu visionner ; le contenu n est donc pas vérifié. Aucune reprise relevée.",
+      "evidence": "vues relevées dans data/x_alertes.json (maj 24/11 à 21 h 11 UTC) : 24 624 vues, 678 likes, 28 reposts, 67 marque-pages (@GTAVI_Countdown). Aucune reprise relevée dans le même relevé. Témoignage non vérifié.",
+      "post_text": "NPCs can be more unhinged than the main character in GTA 6.",
+      "url": "https://x.com/GTAVI_Countdown/status/2125287968206188736",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-24T17:58:32.000Z",
+      "checked_at": "2026-11-24T22:13:02+01:00",
+      "visual": "PNJ déjantés",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2125287323277377536/img/R9GXk9KkA_-e33y6.jpg",
+      "image_alt": "Image de la vidéo publiée par @GTAVI_Countdown sur les PNJ de GTA 6",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X"
+    },
     {
       "id": "x-gtasix-fin-jeu-jason-lucia-2026-11-24",
       "title": "GTA 6 : un joueur annonce avoir fini le jeu et salue l'écriture de Jason et Lucia",
@@ -6807,6 +6826,11 @@
       "at": "2026-11-24T20:13:00+01:00",
       "label": "Passage Claude Haiku (Matière X, veille 2 h)",
       "summary": "3 sujets ajoutés depuis data/x_alertes.json (maj 24/11 19 h 07 UTC) : fin de jeu de @gtasix_ (86 214 vues), carte interactive de Leonida par @GTAlphaintel (52 595 vues), question sur le chapitre 1 par @GTAVI_Countdown (34 416 vues). Statut Création de fan, aucun n'est présenté comme officiel. Autres posts relevés sous 20 000 vues et non repris par deux comptes : écartés."
+    },
+    {
+      "at": "2026-11-24T22:13:02+01:00",
+      "label": "Passage Claude Haiku (Matière X, veille 2 h)",
+      "summary": "1 sujet ajouté depuis data/x_alertes.json (maj 24/11 21 h 11 UTC) : PNJ plus déjantés que le protagoniste, @GTAVI_Countdown (24 624 vues), statut Rumeur. Autres posts relevés : sous 20 000 vues et non repris par deux comptes, écartés (dont Kurtaj, 19 114 vues)."
     }
   ],
   "coverage": {
