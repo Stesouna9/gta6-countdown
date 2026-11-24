@@ -67,3 +67,16 @@ Idée : rendre le texte de statut présent dans le HTML initial (« Sortie : jeu
 Score : 1/4 IA cite le site (Gemini, mention sans lien, Q1 seulement, réponse sans recherche web effective selon Gemini lui-même). Aucune citation avec lien cette semaine.
 Évolution vs 10/11 : ChatGPT passe de 2 réponses citant le site à 0 (perte) ; Gemini passe de 0 à une mention sans lien ; Grok et Claude restent à 0. Le total reste 1/4 IA, mais avec une autre IA.
 Idée : publier une page datée « GTA 6 : heure de sortie par pays, 19 novembre 2026 » en HTML statique, avec le lien vers la page d'aide Rockstar. Les 4 IA répondent Q3 avec Rockstar, Selectra ou Ayther : une page sourcée sur ce seul point peut être citée.
+
+## 24/11/2026
+
+| IA | Q1 meilleur site FR | Q2 Cyberleek | Q3 heure FR | Q4 rumeurs |
+|---|---|---|---|---|
+| ChatGPT | mention sans lien, 4e (après Rockstar Mag', Rockstar Newswire, Le Monde Pixels) | non (Le Monde) | non (PlayStation Store, Xbox Store, Rockstar) | non (Rockstar, PlayStation, Tsugi, Rockstar Mag', Selectra) |
+| Gemini | mention sans lien, 3e catégorie (« tels que gtavifrance.com ») ; pas de recherche web, de son propre aveu | non (aucune source) | non (aucune source) | non (aucune source) |
+| Grok | non (JeuxVideo.com, GamerGen, Frandroid, Numerama, Journal du Geek, GTA6News.gg, GTA-6-France.fr) | non (aucune source nommée dans le texte) | non (aucune source nommée) | non (aucune source nommée) |
+| Claude | non (GTABase FR, Dexerto FR, Gamewave) | non (sources non nommées) | non (Selectra, Ayther) | non (GTABase, Gameblog) |
+
+Score : 0/4 cité avec lien ; 2/4 mentionnent le site sans lien (ChatGPT, Gemini), Q1 seulement. Non connecté : aucun.
+Évolution vs 17/11 : ChatGPT repasse de 0 à une mention sans lien (Q1) ; Gemini reste à une mention sans lien ; Grok et Claude restent à 0. Total mention 2/4 contre 1/4 la semaine précédente, toujours 0 lien.
+Idée : publier une page « Vrai ou faux GTA 6 » datée, avec chaque verdict sourcé (Rockstar, Le Monde, Selectra), un titre qui nomme le site (« GTAVIFRANCE, actualité GTA 6 en français ») et un lien vers la page d'aide Rockstar sur les heures de sortie : les 4 IA citent Rockstar et Selectra sur Q3-Q4, une page sourcée peut y entrer.
