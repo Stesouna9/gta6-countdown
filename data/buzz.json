@@ -1,8 +1,27 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-24T10:14:00+01:00",
+  "updated_at": "2026-11-24T12:12:56+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-xbox-series-s-fsr-41-gtavi-countdown-2026-11-24",
+      "title": "GTA 6 : une vidéo annonce un rendu fluide sur Xbox Series S, avec upscaling FSR 4.1, selon @GTAVI_Countdown",
+      "summary": "Le compte @GTAVI_Countdown affirme que GTA 6 tourne très fluidement sur Xbox Series S, grâce à un upscaling FSR 4.1 de 720p vers 1080p. Ni Rockstar ni une source de presse ne confirment ces chiffres de rendu.",
+      "url": "https://x.com/GTAVI_Countdown/status/2125093004146839957",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-24T05:03:49.000Z",
+      "checked_at": "2026-11-24T12:12:56+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json (maj 24/11 à 10 h 14 UTC) : 47 505 vues, 1 967 likes, 82 reposts (@GTAVI_Countdown). Un seul compte relève ce post ; aucune reprise dans data/presse.json.",
+      "visual": "Xbox Series S, FSR 4.1",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2125092820138565633/img/2yAeVWa5e67f-3Kw.jpg",
+      "image_alt": "Image de la vidéo publiée par @GTAVI_Countdown sur X : GTA 6 sur Xbox Series S",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Rockstar proved us all wrong. GTA 6 running this smoothly on Xbox Series S is pure magic, with FSR 4.1 upscaling from 720p to 1080p."
+    },
     {
       "id": "x-pov-jason-keys-gtavi-countdown-2026-11-24",
       "title": "GTA 6 : une vidéo POV de Jason dans les Keys circule sur X, 25 000 vues",
@@ -6667,6 +6686,11 @@
       "at": "2026-11-24T10:14:00+01:00",
       "label": "Passage Claude Haiku (Matière X, veille 2 h)",
       "summary": "2 sujets ajoutés depuis data/x_alertes.json (maj 24/11 08 h 10 UTC) : vidéo POV de Jason dans les Keys (@GTAVI_Countdown, 25 156 vues, Création de fan), témoignage de bannissement PSN pour une photo (@GTAlphaintel, 20 690 vues, Rumeur). Écartés : Xbox Series S (déjà couvert par le sujet 60 images/s du 22/11), météo (déjà dans la note du patch 01.002.002), PS5 39 millions et précommande (déjà publiés), Kurtaj (déjà publié), 45 millions et album (déjà publiés)."
+    },
+    {
+      "at": "2026-11-24T12:12:56+01:00",
+      "label": "Passage Claude Haiku (Matière X, veille 2 h)",
+      "summary": "1 sujet ajouté depuis data/x_alertes.json (maj 24/11 10 h 14 UTC) : rendu Xbox Series S avec FSR 4.1 (@GTAVI_Countdown, 47 505 vues, Rumeur). Écartés : météo bloquée (déjà dans la note du patch 01.002.002, 134 000 vues), PS5 39 millions, précommande, Kurtaj, album, Xbox 60 images/s du 22/11 (déjà publiés), posts sous 20 000 vues sans reprise (Immortal Man, Discord PC, Jason léopard)."
     }
   ],
   "coverage": {
