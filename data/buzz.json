@@ -1,8 +1,46 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-24T22:13:02+01:00",
+  "updated_at": "2026-11-25T00:12:00+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-kurtaj-arrestation-video-gtavi-countdown-2026-11-24",
+      "title": "Fuite GTA 6 : une vidéo de l'arrestation d'Arion Kurtaj circule sur X, selon @GTAVI_Countdown",
+      "summary": "@GTAVI_Countdown publie une nouvelle séquence vidéo de l'arrestation d'Arion Kurtaj, présenté comme le fuiteur de GTA 6, qui avait été interpellé en 2022 après une intrusion chez Rockstar. Le post ne donne pas de source pour la vidéo, dont l'authenticité n'est pas vérifiée.",
+      "url": "https://x.com/GTAVI_Countdown/status/2125312553463300275",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-24T19:36:13.000Z",
+      "checked_at": "2026-11-25T00:12:00+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json (maj 24/11 à 22 h 12 UTC) : 26 438 vues, 508 likes, 30 reposts, 167 marque-pages (@GTAVI_Countdown). Un seul compte relève ce sujet dans le relevé ; vidéo non vérifiée.",
+      "visual": "Arrestation Kurtaj",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2124904917806542849/img/9BNN0imGR7GwjNLQ.jpg",
+      "image_alt": "Image de la vidéo publiée par @GTAVI_Countdown sur l'arrestation d'Arion Kurtaj",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "New footage of the GTA 6 leaker, Arion Kurtaj getting arrested after hacking Rockstar in a hotel with a TV stick while on bail in 2022."
+    },
+    {
+      "id": "x-exploit-argent-infini-hamlet-gtalphaintel-2026-11-24",
+      "title": "GTA 6 : un exploit d'argent infini signalé dans un entrepôt de Hamlet, selon @GTAlphaintel",
+      "summary": "@GTAlphaintel affirme qu'un entrepôt de Hamlet réapparaît à chaque fois avec de l'argent et de la drogue volés, ce qui permettrait un gain d'argent répété. Le post ne donne ni vidéo ni procédure détaillée, et le fonctionnement n'est pas vérifié.",
+      "url": "https://x.com/GTAlphaintel/status/2125303438867370419",
+      "platform": "X",
+      "author": "@GTAlphaintel",
+      "status": "Rumeur",
+      "published_at": "2026-11-24T19:00:00.000Z",
+      "checked_at": "2026-11-25T00:12:00+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json (maj 24/11 à 22 h 12 UTC) : 21 966 vues, 582 likes, 18 reposts, 188 marque-pages (@GTAlphaintel). Un seul compte relève ce sujet dans le relevé ; exploit non vérifié.",
+      "visual": "Exploit argent",
+      "image": "https://pbs.twimg.com/media/HX5TC3ZacAAffic?format=jpg&name=360x360",
+      "image_alt": "Image du post de @GTAlphaintel sur un exploit d'argent infini dans GTA 6",
+      "image_credit": "@GTAlphaintel sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "You can use an infinite money exploit in GTA 6. A warehouse in Hamlet has been discovered that repeatedly respawns stolen cash and drugs"
+    },
     {
       "id": "x-pnj-plus-fous-que-jason-gtavi-countdown-2026-11-24",
       "title": "GTA 6 : les PNJ pourraient être plus déjantés que le personnage principal, selon @GTAVI_Countdown",
@@ -6831,6 +6869,11 @@
       "at": "2026-11-24T22:13:02+01:00",
       "label": "Passage Claude Haiku (Matière X, veille 2 h)",
       "summary": "1 sujet ajouté depuis data/x_alertes.json (maj 24/11 21 h 11 UTC) : PNJ plus déjantés que le protagoniste, @GTAVI_Countdown (24 624 vues), statut Rumeur. Autres posts relevés : sous 20 000 vues et non repris par deux comptes, écartés (dont Kurtaj, 19 114 vues)."
+    },
+    {
+      "at": "2026-11-25T00:12:00+01:00",
+      "label": "Passage Claude Haiku (Matière X, veille 2 h)",
+      "summary": "2 sujets ajoutés depuis data/x_alertes.json (maj 24/11 22 h 12 UTC) : vidéo de l'arrestation d'Arion Kurtaj, @GTAVI_Countdown (26 438 vues), statut Rumeur ; exploit d'argent infini dans un entrepôt de Hamlet, @GTAlphaintel (21 966 vues), statut Rumeur. Autres posts sous 20 000 vues ou repris par un seul compte : écartés."
     }
   ],
   "coverage": {
