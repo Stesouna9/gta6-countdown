@@ -1,8 +1,65 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-25T00:12:00+01:00",
+  "updated_at": "2026-11-25T08:12:00+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-arnold-epargner-gameplay-gtalphaintel-2026-11-24",
+      "title": "GTA 6 : épargner Arnold au chapitre 1 aurait des effets sur la suite, selon @GTAlphaintel",
+      "summary": "@GTAlphaintel affirme que le choix d'épargner Arnold dès le premier chapitre a des conséquences sur le gameplay et sur le profil criminel du joueur. Le post renvoie vers un guide externe qui détaille les deux options. Affirmation de joueur ou de guide, non vérifiée par Rockstar.",
+      "url": "https://x.com/GTAlphaintel/status/2125348751858413957",
+      "platform": "X",
+      "author": "@GTAlphaintel",
+      "status": "Rumeur",
+      "published_at": "2026-11-24T22:00:04.000Z",
+      "checked_at": "2026-11-25T08:12:00+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json (maj 25/11 à 07 h 06 UTC) : 722 403 vues  120 replies  91 reposts  1319 likes  1007 bookmarks  722403 views. Un seul compte relève ce sujet dans le relevé.",
+      "visual": "Choix Arnold",
+      "image": "https://pbs.twimg.com/media/HX5RmBha8AArbJ5?format=jpg&name=small",
+      "image_alt": "Image publiée par @GTAlphaintel sur le choix concernant Arnold dans GTA 6",
+      "image_credit": "@GTAlphaintel sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Sparing Arnold in the first chapter impacts your gameplay."
+    },
+    {
+      "id": "x-1563-batiments-leonida-gtavi-countdown-2026-11-25",
+      "title": "GTA 6 : 1 563 bâtiments accessibles sur 5 588 à Leonida, selon @GTAVI_Countdown",
+      "summary": "@GTAVI_Countdown relaie un décompte des bâtiments de Leonida : 1 563 pourraient être visités, sur 5 588 au total. Le chiffre est attribué à la chaîne YouTube Neutral_StateYT. Rockstar ne le confirme pas dans les éléments consultés.",
+      "url": "https://x.com/GTAVI_Countdown/status/2125418459031118116",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rapporté",
+      "published_at": "2026-11-25T02:37:03.000Z",
+      "checked_at": "2026-11-25T08:12:00+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json (maj 25/11 à 07 h 06 UTC) : 245 665 vues  110 replies  489 reposts  9988 likes  1492 bookmarks  245665 views. Source citée : Neutral_StateYT (non vérifiée ici).",
+      "visual": "Bâtiments Leonida",
+      "image": "https://pbs.twimg.com/media/HX8AOl1XUAAPc90?format=jpg&name=small",
+      "image_alt": "Image publiée par @GTAVI_Countdown sur les bâtiments de Leonida",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "GTA 6 features 1,563 enterable buildings out of 5,588 in total across Leonida."
+    },
+    {
+      "id": "x-underbelly-casting-mendez-gtasix-2026-11-24",
+      "title": "GTA 6 : un casting Rockstar aurait porté le nom « Underbelly », selon @gtasix_",
+      "summary": "@gtasix_ rapporte que l'audition de Chris McKinney, qui joue le capitaine Mendez, portait le nom « Underbelly ». L'acteur dit n'avoir appris que plus tard qu'il s'agissait de GTA 6. Le post ne montre pas le document ; c'est un témoignage relayé par un seul compte.",
+      "url": "https://x.com/gtasix_/status/2125375649900790018",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rumeur",
+      "published_at": "2026-11-24T23:46:57.000Z",
+      "checked_at": "2026-11-25T08:12:00+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json (maj 25/11 à 07 h 06 UTC) : 29 277 vues. Un seul compte relève ce sujet dans le relevé.",
+      "visual": "Casting Underbelly",
+      "image": "https://pbs.twimg.com/media/HX7ZpmlW0AA3ELz?format=jpg&name=360x360",
+      "image_alt": "Image publiée par @gtasix_ sur le casting Underbelly de GTA 6",
+      "image_credit": "@gtasix_ sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "GTA 6 was called \"Underbelly\" in a Rockstar casting audition. Chris McKinney, who plays Captain Mendez, says he only found out it was GTA 6..."
+    },
     {
       "id": "x-kurtaj-arrestation-video-gtavi-countdown-2026-11-24",
       "title": "Fuite GTA 6 : une vidéo de l'arrestation d'Arion Kurtaj circule sur X, selon @GTAVI_Countdown",
@@ -6874,6 +6931,11 @@
       "at": "2026-11-25T00:12:00+01:00",
       "label": "Passage Claude Haiku (Matière X, veille 2 h)",
       "summary": "2 sujets ajoutés depuis data/x_alertes.json (maj 24/11 22 h 12 UTC) : vidéo de l'arrestation d'Arion Kurtaj, @GTAVI_Countdown (26 438 vues), statut Rumeur ; exploit d'argent infini dans un entrepôt de Hamlet, @GTAlphaintel (21 966 vues), statut Rumeur. Autres posts sous 20 000 vues ou repris par un seul compte : écartés."
+    },
+    {
+      "at": "2026-11-25T08:12:00+01:00",
+      "label": "Passage Claude Haiku (Matière X, veille 2 h)",
+      "summary": "3 sujets ajoutés depuis data/x_alertes.json (maj 25/11 07 h 06 UTC) : choix d'Arnold au chapitre 1, @GTAlphaintel (722 403 vues), statut Rumeur ; 1 563 bâtiments sur 5 588 à Leonida, @GTAVI_Countdown (245 665 vues), statut Rapporté, source citée Neutral_StateYT ; casting « Underbelly », @gtasix_ (29 277 vues), statut Rumeur. Écartés : patch 01.002.002 déjà couvert, posts sous 20 000 vues ou repris par un seul compte."
     }
   ],
   "coverage": {
