@@ -1,8 +1,46 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-25T20:12:00+01:00",
+  "updated_at": "2026-11-25T22:12:55+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-gta1-gta6-equipe-gtavi-countdown-2026-11-25",
+      "title": "GTA 6 : 11 développeurs pour GTA 1, 4 711 pour GTA 6, selon @GTAVI_Countdown",
+      "summary": "@GTAVI_Countdown compare les équipes de GTA 1 et de GTA 6 : 11 développeurs pour le premier, 4 711 pour le second, selon le compte. Chiffres non vérifiés par la veille ; un seul compte relevé.",
+      "url": "https://x.com/GTAVI_Countdown/status/2125669740764942626",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-25T19:15:33.000Z",
+      "checked_at": "2026-11-25T22:12:55+01:00",
+      "evidence": "Vues relevées le 25/11 (data/x_alertes.json, maj 21 h 08 UTC) : 30 082 vues, 1 452 j'aime, 93 reposts, 143 signets, 33 réponses pour @GTAVI_Countdown (19 h 15 UTC). Un seul compte relevé.",
+      "visual": "29 ANS D'ÉCART",
+      "image": "https://pbs.twimg.com/media/HX_lRuHWoAAFkgt?format=jpg&name=small",
+      "image_alt": "Image publiée par @GTAVI_Countdown sur les équipes de GTA 1 et de GTA 6",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Chiffres relevés sur X ; ni la comparaison ni les effectifs n'ont été vérifiés par la veille."
+    },
+    {
+      "id": "x-lucia-my-life-gtasix-2026-11-25",
+      "title": "GTA 6 : Lucia pleure au volant sur « My Life » de Mary J. Blige, selon @gtasix_",
+      "summary": "@gtasix_ publie une vidéo de GTA 6 où Lucia pleure au volant en écoutant « My Life » de Mary J. Blige. Un seul compte relevé ; la scène n'a pas été vérifiée par la veille.",
+      "url": "https://x.com/gtasix_/status/2125657136906834140",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rumeur",
+      "published_at": "2026-11-25T18:25:28.000Z",
+      "checked_at": "2026-11-25T22:12:55+01:00",
+      "evidence": "Vues relevées le 25/11 (data/x_alertes.json, maj 21 h 08 UTC) : 44 225 vues, 2 262 j'aime, 190 reposts, 451 signets, 21 réponses pour @gtasix_ (18 h 25 UTC). Un seul compte relevé.",
+      "visual": "LUCIA EN LARMES",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2125657113150054401/img/SfnC8st0ZYycp7ML.jpg",
+      "image_alt": "Vignette de la vidéo publiée par @gtasix_ sur Lucia et « My Life »",
+      "image_credit": "@gtasix_ sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Vidéo relevée sur X ; la scène n'a pas été vérifiée depuis le navigateur pour cette veille."
+    },
     {
       "id": "x-pnj-nettement-sans-cacher-gtavi-countdown-2026-11-25",
       "title": "GTA 6 : des PNJ qui ne cachent plus leurs bizarreries, selon @GTAVI_Countdown",
@@ -7118,6 +7156,11 @@
       "at": "2026-11-25T20:12:00+01:00",
       "label": "Passage Claude Haiku (Matière X, veille 2 h)",
       "summary": "1 sujet ajouté depuis data/x_alertes.json (maj 25/11 19 h 05 UTC) : PNJ qui ne cachent plus leurs gestes (@GTAVI_Countdown, 41 342 vues, Création de fan, vidéo Reddit relayée par un seul compte). Écartés : bear attack (@GTAlphaintel, 21 133 vues) déjà couvert par l'item du 22/11 ; sous 20 000 vues : égouts (12 348), Panini (9 573), Xbox ex-conjointe (14 914), voiture (9 456), pasteur (6 057), Lucia (5 347), TikTok (491)."
+    },
+    {
+      "at": "2026-11-25T22:12:55+01:00",
+      "label": "Passage Claude Haiku (Matière X, veille 2 h)",
+      "summary": "2 sujets ajoutés depuis data/x_alertes.json (maj 25/11 21 h 08 UTC) : vidéo Lucia « My Life » (@gtasix_, 44 225 vues, Rumeur, un seul compte) et comparaison des équipes GTA 1 / GTA 6 (@GTAVI_Countdown, 30 082 vues, Rumeur). Écartés : sous 20 000 vues sans second compte : égouts (17 090), Strauss Zelnick (16 612), Panini (13 690), pasteur (10 920), rides (12 847), CD Projekt (8 188). Déjà traités : easter eggs, PNJ."
     }
   ],
   "coverage": {
