@@ -1,8 +1,46 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-25T14:13:00+01:00",
+  "updated_at": "2026-11-25T16:12:56+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-equipe-rockstar-north-photo-gtasix-2026-11-25",
+      "title": "GTA 6 : photo de l'équipe Rockstar North devant l'affiche de Lucia et Jason, selon @gtasix_",
+      "summary": "@gtasix_ publie une photo de l'équipe devant le bâtiment Rockstar North, sous une grande affiche montrant Lucia et Jason. Message : « The people behind GTA 6 ». Photo non vérifiée par la veille.",
+      "url": "https://x.com/gtasix_/status/2125577693357862945",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Rumeur",
+      "published_at": "2026-11-25T13:09:48.000Z",
+      "checked_at": "2026-11-25T16:12:56+01:00",
+      "evidence": "Vues relevées le 25/11 dans data/x_alertes.json (maj 14 h 17 UTC) : 56 645 vues, 3 120 j'aime, 208 reposts pour @gtasix_ (13 h 09 UTC). Un seul compte relevé.",
+      "visual": "ÉQUIPE ROCKSTAR",
+      "image": "https://pbs.twimg.com/media/HX-Ro9YXUAAD-I8?format=jpg&name=small",
+      "image_alt": "Photo de l'équipe Rockstar North devant le bâtiment, sous l'affiche de Lucia et Jason, publiée par @gtasix_",
+      "image_credit": "@gtasix_ sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Photo relevée sur X ; l'identité des personnes et le lieu n'ont pas été vérifiés depuis le navigateur pour cette veille."
+    },
+    {
+      "id": "x-spot-braquage-magasin-gtalphaintel-2026-11-25",
+      "title": "GTA 6 : quel est le spot de braquage de magasin le plus facile ? Question de @GTAlphaintel",
+      "summary": "@GTAlphaintel pose la question du spot de braquage de magasin le plus facile de GTA 6, sur un ton de plaisanterie. Aucune réponse vérifiée par la veille.",
+      "url": "https://x.com/GTAlphaintel/status/2125432476382482571",
+      "platform": "X",
+      "author": "@GTAlphaintel",
+      "status": "Création de fan",
+      "published_at": "2026-11-25T03:32:45.000Z",
+      "checked_at": "2026-11-25T16:12:56+01:00",
+      "evidence": "Vues relevées le 25/11 dans data/x_alertes.json (maj 14 h 17 UTC) : 20 585 vues pour @GTAlphaintel (3 h 32 UTC). Un seul compte relevé ; sujet tiré du texte du post, la vidéo ou l'image n'a pas été vérifiée.",
+      "visual": "BRAQUAGE MAGASIN",
+      "image": "https://pbs.twimg.com/media/HX-YI2mbIAA_p-G?format=jpg&name=360x360",
+      "image_alt": "Image du post de @GTAlphaintel sur les braquages de magasins dans GTA 6",
+      "image_credit": "@GTAlphaintel sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Post relevé sur X ; le spot évoqué n'a pas été vérifié depuis le navigateur pour cette veille."
+    },
     {
       "id": "x-leonida-meteo-extreme-patch-gtalphaintel-2026-11-25",
       "title": "GTA 6 : brouillard, cyclones et orages à Leonida après le nouveau patch, selon @GTAlphaintel",
@@ -7027,6 +7065,11 @@
       "at": "2026-11-25T14:13:00+01:00",
       "label": "Passage Claude Haiku (Matière X, veille 2 h)",
       "summary": "1 sujet ajouté depuis data/x_alertes.json (maj 25/11 à 12 h 14 UTC) : performances Xbox Series X vs PS5 selon Digital Foundry, relayé par @GTAlphaintel (21 159 vues), statut Rapporté. Écartés : posts sous 20 000 vues ; « changements du premier patch » (286 695 vues, @GTAlphaintel), même sujet que les notes du patch 01.002.002 déjà publiées ; @RockstarNewsFRA « 47 millions » (4 090 vues, chiffre non confirmé)."
+    },
+    {
+      "at": "2026-11-25T16:12:56+01:00",
+      "label": "Passage Claude Haiku (Matière X, veille 2 h)",
+      "summary": "2 sujets ajoutés depuis data/x_alertes.json (maj 25/11 14 h 17 UTC) : photo de l'équipe Rockstar North (@gtasix_, 56 645 vues, statut Rumeur, un seul compte) et question sur le spot de braquage de magasin (@GTAlphaintel, 20 585 vues, Création de fan). Écartés : posts sous 20 000 vues (dont « Lucia et l'ex / Xbox » 6 279 vues, « bear attack » 14 365 vues, « bugs » 17 790 vues, « animaux » 933 vues) ; extrait Leonida 25 704 vues déjà couvert par un item du 25/11."
     }
   ],
   "coverage": {
