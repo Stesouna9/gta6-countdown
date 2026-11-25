@@ -1,8 +1,27 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-25T08:12:00+01:00",
+  "updated_at": "2026-11-25T10:12:00+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-lucia-jason-attente-gtavi-countdown-2026-11-24",
+      "title": "GTA 6 : Lucia attend toujours Jason, selon @GTAVI_Countdown",
+      "summary": "@GTAVI_Countdown publie un montage humoristique : Lucia attend patiemment que Jason vienne la chercher, pendant que Jason fait autre chose. La chute est dans la vidéo. Création de fan, sans lien avec une annonce de Rockstar.",
+      "url": "https://x.com/GTAVI_Countdown/status/2125359169104396538",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Création de fan",
+      "published_at": "2026-11-24T22:41:27.000Z",
+      "checked_at": "2026-11-25T10:12:00+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json (maj 25/11 à 09 h 09 UTC) : 26 738 vues, 26 replies, 53 reposts, 1 092 likes, 109 bookmarks. Un seul compte relève ce sujet dans le relevé.",
+      "visual": "Lucia attend",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2125358573081227265/img/XumEvof9oHDzpKgX.jpg",
+      "image_alt": "Image publiée par @GTAVI_Countdown sur Lucia et Jason dans GTA 6",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Lucia in GTA 6: *patiently waiting for Jason to pick her up* Meanwhile Jason:"
+    },
     {
       "id": "x-arnold-epargner-gameplay-gtalphaintel-2026-11-24",
       "title": "GTA 6 : épargner Arnold au chapitre 1 aurait des effets sur la suite, selon @GTAlphaintel",
@@ -6936,6 +6955,11 @@
       "at": "2026-11-25T08:12:00+01:00",
       "label": "Passage Claude Haiku (Matière X, veille 2 h)",
       "summary": "3 sujets ajoutés depuis data/x_alertes.json (maj 25/11 07 h 06 UTC) : choix d'Arnold au chapitre 1, @GTAlphaintel (722 403 vues), statut Rumeur ; 1 563 bâtiments sur 5 588 à Leonida, @GTAVI_Countdown (245 665 vues), statut Rapporté, source citée Neutral_StateYT ; casting « Underbelly », @gtasix_ (29 277 vues), statut Rumeur. Écartés : patch 01.002.002 déjà couvert, posts sous 20 000 vues ou repris par un seul compte."
+    },
+    {
+      "at": "2026-11-25T10:12:00+01:00",
+      "label": "Passage Claude Haiku (Matière X, veille 2 h)",
+      "summary": "1 sujet ajouté depuis data/x_alertes.json (maj 25/11 09 h 09 UTC) : montage Lucia/Jason, @GTAVI_Countdown (26 738 vues), statut Création de fan. Écartés : patch 01.002.002 déjà couvert (post à 245 933 vues) ; posts sous 20 000 vues ou repris par un seul compte (Guy Fortt 19 322, météo Leonida 19 062, Sensor Tower 2 708)."
     }
   ],
   "coverage": {
