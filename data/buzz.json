@@ -1,6 +1,6 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-25T12:13:00+01:00",
+  "updated_at": "2026-11-25T14:13:00+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
     {
@@ -21,6 +21,25 @@
       "embed_type": "x",
       "cta": "Ouvrir la publication sur X",
       "post_text": "You can now experience the extreme weather in Leonida due to the new GTA 6 patch\n\nLook at the dynamic fog, cyclones, and thunderstorms Rockstar perfected"
+    },
+    {
+      "id": "x-digital-foundry-xbox-series-x-fps-gtalphaintel-2026-11-25",
+      "title": "GTA 6 : Digital Foundry donne une meilleure cadence sur Xbox Series X que sur PS5, selon @GTAlphaintel",
+      "summary": "@GTAlphaintel relaie une analyse attribuée à Digital Foundry : selon elle, GTA 6 offre de meilleures cadences et performances sur Xbox Series X que sur PS5 de base, la PS5 Pro restant la meilleure version. Le compte ne donne pas de lien vers l’article ; l’analyse n’a pas été ouverte depuis notre veille.",
+      "url": "https://x.com/GTAlphaintel/status/2125401586088501497",
+      "platform": "X",
+      "author": "@GTAlphaintel",
+      "status": "Rapporté",
+      "published_at": "2026-11-25T01:30:00.000Z",
+      "checked_at": "2026-11-25T14:13:00+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json (maj 25/11 à 12 h 14 UTC) : 21 159 vues, 400 likes, 17 reposts, 19 bookmarks, 7 réponses. Un seul compte relève le sujet dans le relevé ; source média citée par le compte, article non consulté.",
+      "visual": "Performances consoles",
+      "image": "https://pbs.twimg.com/media/HX7s4bTa4AALjjy?format=jpg&name=360x360",
+      "image_alt": "Image publiée par @GTAlphaintel sur les performances de GTA 6 sur consoles",
+      "image_credit": "@GTAlphaintel sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Grand Theft Auto VI delivered better frame rates and performance on Xbox Series X than the base PS5, according to Digital Foundry\n\nThe PS5 Pro remained the best"
     },
     {
       "id": "x-guy-fortt-personnage-inconnu-gtalphaintel-2026-11-24",
@@ -7003,6 +7022,11 @@
       "at": "2026-11-25T12:13:00+01:00",
       "label": "Passage Claude Haiku (Matière X, veille 2 h)",
       "summary": "2 sujets ajoutés depuis data/x_alertes.json (maj 25/11 10 h 11 UTC) : météo extrême Leonida après patch (@GTAlphaintel, 20 577 vues) et Guy A. Fortt (@GTAlphaintel, 20 473 vues), statut Rumeur (un seul compte). Écartés : patch 01.002.002 déjà couvert par trois sujets ; posts sous 20 000 vues ; Sensor Tower 3 292 vues (RockstarNewsFRA) ; @gtasix_ « worst way to die » 11 220 vues."
+    },
+    {
+      "at": "2026-11-25T14:13:00+01:00",
+      "label": "Passage Claude Haiku (Matière X, veille 2 h)",
+      "summary": "1 sujet ajouté depuis data/x_alertes.json (maj 25/11 à 12 h 14 UTC) : performances Xbox Series X vs PS5 selon Digital Foundry, relayé par @GTAlphaintel (21 159 vues), statut Rapporté. Écartés : posts sous 20 000 vues ; « changements du premier patch » (286 695 vues, @GTAlphaintel), même sujet que les notes du patch 01.002.002 déjà publiées ; @RockstarNewsFRA « 47 millions » (4 090 vues, chiffre non confirmé)."
     }
   ],
   "coverage": {
