@@ -1,8 +1,27 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-25T16:12:56+01:00",
+  "updated_at": "2026-11-25T18:12:52+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-permanent-buffs-easter-eggs-gtalphaintel-2026-11-25",
+      "title": "GTA 6 : des bonus permanents de statistiques s'obtiennent avec les easter eggs, selon @GTAlphaintel",
+      "summary": "@GTAlphaintel relaie un guide des bonus permanents de statistiques de GTA 6, obtenus en accomplissant des easter eggs, dont certains sont faciles à manquer. Le lien renvoie vers un wiki tiers, non vérifié par la veille.",
+      "url": "https://x.com/GTAlphaintel/status/2125601757770440872",
+      "platform": "X",
+      "author": "@GTAlphaintel",
+      "status": "Rumeur",
+      "published_at": "2026-11-25T14:45:25.000Z",
+      "checked_at": "2026-11-25T18:12:52+01:00",
+      "evidence": "Vues relevées le 25/11 dans data/x_alertes.json (maj 17 h 01 UTC) : 93 840 vues, 1 875 j'aime, 106 reposts, 2 083 marque-pages pour @GTAlphaintel (14 h 45 UTC). Un seul compte relevé.",
+      "visual": "BONUS CACHÉS",
+      "image": "https://pbs.twimg.com/media/HX-nKITboAAa3Xp?format=jpg&name=small",
+      "image_alt": "Capture du post de @GTAlphaintel annonçant les bonus permanents de GTA 6 obtenus via les easter eggs",
+      "image_credit": "@GTAlphaintel sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Post relevé sur X ; les bonus et leur emplacement n'ont pas été vérifiés depuis le navigateur pour cette veille."
+    },
     {
       "id": "x-equipe-rockstar-north-photo-gtasix-2026-11-25",
       "title": "GTA 6 : photo de l'équipe Rockstar North devant l'affiche de Lucia et Jason, selon @gtasix_",
@@ -7070,6 +7089,11 @@
       "at": "2026-11-25T16:12:56+01:00",
       "label": "Passage Claude Haiku (Matière X, veille 2 h)",
       "summary": "2 sujets ajoutés depuis data/x_alertes.json (maj 25/11 14 h 17 UTC) : photo de l'équipe Rockstar North (@gtasix_, 56 645 vues, statut Rumeur, un seul compte) et question sur le spot de braquage de magasin (@GTAlphaintel, 20 585 vues, Création de fan). Écartés : posts sous 20 000 vues (dont « Lucia et l'ex / Xbox » 6 279 vues, « bear attack » 14 365 vues, « bugs » 17 790 vues, « animaux » 933 vues) ; extrait Leonida 25 704 vues déjà couvert par un item du 25/11."
+    },
+    {
+      "at": "2026-11-25T18:12:52+01:00",
+      "label": "Passage Claude Haiku (Matière X, veille 2 h)",
+      "summary": "1 sujet ajouté depuis data/x_alertes.json (maj 25/11 17 h 01 UTC) : bonus permanents via easter eggs (@GTAlphaintel, 93 840 vues, statut Rumeur, un seul compte). Écartés sous 20 000 vues : NPC chié/clone (1 513), cartes Panini (6 893, un compte), Xbox ex-conjointe (12 507), bear attack (18 708), TikTok animation (411), tous déjà traités ou sous seuil."
     }
   ],
   "coverage": {
