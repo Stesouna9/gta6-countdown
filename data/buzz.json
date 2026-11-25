@@ -1,8 +1,27 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-25T22:12:55+01:00",
+  "updated_at": "2026-11-26T00:12:54+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-gta7-zelnick-several-hundred-hours-gtavi-countdown-2026-11-25",
+      "title": "GTA 7 : Strauss Zelnick renvoie la question après « plusieurs centaines d'heures » de GTA 6, selon @GTAVI_Countdown",
+      "summary": "@GTAVI_Countdown relaie une réponse de Strauss Zelnick (Take-Two) sur la sortie de GTA 7 : une fois passées « plusieurs centaines d'heures » dans GTA 6, il faut reposer la question. Citation relayée par un seul compte ; l'entretien d'origine n'a pas été retrouvé par la veille.",
+      "url": "https://x.com/GTAVI_Countdown/status/2125689777592967656",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-25T20:35:11.000Z",
+      "checked_at": "2026-11-26T00:12:54+01:00",
+      "evidence": "Vues relevées le 25/11 (data/x_alertes.json, maj 25/11 23 h 11 UTC) : 88 812 vues, 4 070 j'aime, 173 reposts, 275 signets, 109 réponses pour @GTAVI_Countdown (20 h 35 UTC). Un seul compte relevé.",
+      "visual": "ZELNICK GTA 7",
+      "image": "https://pbs.twimg.com/media/HX_3JyOWEAAhcuE?format=jpg&name=small",
+      "image_alt": "Publication de @GTAVI_Countdown sur Strauss Zelnick et GTA 7",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Citation relevée sur X ; l'entretien d'origine n'a pas été vérifié par la veille."
+    },
     {
       "id": "x-gta1-gta6-equipe-gtavi-countdown-2026-11-25",
       "title": "GTA 6 : 11 développeurs pour GTA 1, 4 711 pour GTA 6, selon @GTAVI_Countdown",
@@ -59,6 +78,25 @@
       "embed_type": "x",
       "cta": "Ouvrir la publication sur X",
       "post_text": "GTA 6 NPCs aren't even trying to hide it anymore. (u/Mobstera)"
+    },
+    {
+      "id": "x-npc-egouts-excrements-gtasix-2026-11-25",
+      "title": "GTA 6 : un PNJ fouille les égouts pour retrouver ses excréments, selon @gtasix_",
+      "summary": "@gtasix_ publie une vidéo de GTA 6 : un PNJ fouille les égouts à la recherche de ses propres excréments, persuadé qu'on va le cloner. Scène relayée par un seul compte, non vérifiée par la veille.",
+      "url": "https://x.com/gtasix_/status/2125634477443399811",
+      "platform": "X",
+      "author": "@gtasix_",
+      "status": "Création de fan",
+      "published_at": "2026-11-25T16:55:26.000Z",
+      "checked_at": "2026-11-26T00:12:54+01:00",
+      "evidence": "Vues relevées le 25/11 (data/x_alertes.json, maj 25/11 23 h 11 UTC) : 20 490 vues, 843 j'aime, 61 reposts, 129 signets, 40 réponses pour @gtasix_ (16 h 55 UTC). Un seul compte relevé.",
+      "visual": "PNJ ÉGOUTS",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2125634412343681024/img/KgcSHQ5ImQ-H0WIZ.jpg",
+      "image_alt": "Vignette de la vidéo publiée par @gtasix_ sur un PNJ de GTA 6",
+      "image_credit": "@gtasix_ sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Vidéo relevée sur X ; la scène n'a pas été vérifiée par la veille."
     },
     {
       "id": "x-permanent-buffs-easter-eggs-gtalphaintel-2026-11-25",
@@ -7161,6 +7199,11 @@
       "at": "2026-11-25T22:12:55+01:00",
       "label": "Passage Claude Haiku (Matière X, veille 2 h)",
       "summary": "2 sujets ajoutés depuis data/x_alertes.json (maj 25/11 21 h 08 UTC) : vidéo Lucia « My Life » (@gtasix_, 44 225 vues, Rumeur, un seul compte) et comparaison des équipes GTA 1 / GTA 6 (@GTAVI_Countdown, 30 082 vues, Rumeur). Écartés : sous 20 000 vues sans second compte : égouts (17 090), Strauss Zelnick (16 612), Panini (13 690), pasteur (10 920), rides (12 847), CD Projekt (8 188). Déjà traités : easter eggs, PNJ."
+    },
+    {
+      "at": "2026-11-26T00:12:54+01:00",
+      "label": "Passage Claude Haiku (Matière X, veille 2 h)",
+      "summary": "2 sujets ajoutés depuis data/x_alertes.json (maj 25/11 23 h 11 UTC) : réponse de Zelnick sur GTA 7 (@GTAVI_Countdown, 88 812 vues, Rumeur, un seul compte) et PNJ qui fouille les égouts (@gtasix_, 20 490 vues, Création de fan). Écartés : déjà couverts (Lucia, PNJ, équipes GTA 1/6, easter eggs, Leonida) ou sous 20 000 vues."
     }
   ],
   "coverage": {
