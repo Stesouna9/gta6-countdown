@@ -1,8 +1,46 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-25T10:12:00+01:00",
+  "updated_at": "2026-11-25T12:13:00+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-leonida-meteo-extreme-patch-gtalphaintel-2026-11-25",
+      "title": "GTA 6 : brouillard, cyclones et orages à Leonida après le nouveau patch, selon @GTAlphaintel",
+      "summary": "@GTAlphaintel publie une vidéo : selon le compte, la météo extrême de Leonida (brouillard dynamique, cyclones et orages) est désormais accessible grâce au nouveau patch. Un seul compte relève ce sujet ; pas d'annonce officielle de Rockstar sur ce point dans nos sources.",
+      "url": "https://x.com/GTAlphaintel/status/2125424248944505323",
+      "platform": "X",
+      "author": "@GTAlphaintel",
+      "status": "Rumeur",
+      "published_at": "2026-11-25T03:00:04.000Z",
+      "checked_at": "2026-11-25T12:13:00+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json (maj 25/11 à 10 h 11 UTC) : 20 577 vues, 460 likes, 69 bookmarks, 22 reposts, 12 réponses. Un seul compte relève ce sujet dans le relevé.",
+      "visual": "Météo Leonida",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2125251118800175104/img/UGdiMdjdxAJM07Pw.jpg",
+      "image_alt": "Image publiée par @GTAlphaintel sur la météo de Leonida dans GTA 6",
+      "image_credit": "@GTAlphaintel sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "You can now experience the extreme weather in Leonida due to the new GTA 6 patch\n\nLook at the dynamic fog, cyclones, and thunderstorms Rockstar perfected"
+    },
+    {
+      "id": "x-guy-fortt-personnage-inconnu-gtalphaintel-2026-11-24",
+      "title": "GTA 6 : l'acteur Guy A. Fortt ne sait plus quel personnage il a joué et demande de l'aide",
+      "summary": "@GTAlphaintel relaie les propos de l'acteur Guy A. Fortt, qui dit n'avoir fait que de la capture de mouvement et ne plus savoir quel personnage il incarne dans GTA 6 ; il demande de l'aide aux fans. Un seul compte relève ce sujet ; aucune confirmation dans nos sources.",
+      "url": "https://x.com/GTAlphaintel/status/2125363839323844908",
+      "platform": "X",
+      "author": "@GTAlphaintel",
+      "status": "Rumeur",
+      "published_at": "2026-11-24T23:00:01.000Z",
+      "checked_at": "2026-11-25T12:13:00+01:00",
+      "evidence": "Vues relevées dans data/x_alertes.json (maj 25/11 à 10 h 11 UTC) : 20 473 vues, 69 likes, 12 bookmarks, 2 reposts, 6 réponses. Un seul compte relève ce sujet dans le relevé.",
+      "visual": "Guy Fortt",
+      "image": "https://pbs.twimg.com/media/HX7MBQGa8AAh3zR?format=jpg&name=360x360",
+      "image_alt": "Image publiée par @GTAlphaintel sur l'acteur Guy A. Fortt, GTA 6",
+      "image_credit": "@GTAlphaintel sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Actor Guy A. Fortt doesn’t know who he played in GTA 6 and has asked fans for help\n\nHe only remembers doing motion capture, standing behind a counter, and speaking to Jason and Lucia"
+    },
     {
       "id": "x-lucia-jason-attente-gtavi-countdown-2026-11-24",
       "title": "GTA 6 : Lucia attend toujours Jason, selon @GTAVI_Countdown",
@@ -6960,6 +6998,11 @@
       "at": "2026-11-25T10:12:00+01:00",
       "label": "Passage Claude Haiku (Matière X, veille 2 h)",
       "summary": "1 sujet ajouté depuis data/x_alertes.json (maj 25/11 09 h 09 UTC) : montage Lucia/Jason, @GTAVI_Countdown (26 738 vues), statut Création de fan. Écartés : patch 01.002.002 déjà couvert (post à 245 933 vues) ; posts sous 20 000 vues ou repris par un seul compte (Guy Fortt 19 322, météo Leonida 19 062, Sensor Tower 2 708)."
+    },
+    {
+      "at": "2026-11-25T12:13:00+01:00",
+      "label": "Passage Claude Haiku (Matière X, veille 2 h)",
+      "summary": "2 sujets ajoutés depuis data/x_alertes.json (maj 25/11 10 h 11 UTC) : météo extrême Leonida après patch (@GTAlphaintel, 20 577 vues) et Guy A. Fortt (@GTAlphaintel, 20 473 vues), statut Rumeur (un seul compte). Écartés : patch 01.002.002 déjà couvert par trois sujets ; posts sous 20 000 vues ; Sensor Tower 3 292 vues (RockstarNewsFRA) ; @gtasix_ « worst way to die » 11 220 vues."
     }
   ],
   "coverage": {
