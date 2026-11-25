@@ -1,8 +1,27 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-25T18:12:52+01:00",
+  "updated_at": "2026-11-25T20:12:00+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-pnj-nettement-sans-cacher-gtavi-countdown-2026-11-25",
+      "title": "GTA 6 : des PNJ qui ne cachent plus leurs bizarreries, selon @GTAVI_Countdown",
+      "summary": "Le compte @GTAVI_Countdown relaie une vidéo de jeu, partagée par un joueur sur Reddit (u/Mobstera), où des PNJ de GTA 6 font ouvertement des gestes incongrus sans chercher à se cacher. Un seul compte relaie la scène ; Rockstar ne s'est pas exprimé.",
+      "url": "https://x.com/GTAVI_Countdown/status/2125644104449011798",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Création de fan",
+      "published_at": "2026-11-25T17:33:41.000Z",
+      "checked_at": "2026-11-25T20:12:00+01:00",
+      "evidence": "Vues relevées le 25/11 à 19 h 05 UTC dans data/x_alertes.json : 41 342 vues, 1 266 j'aime, 62 reprises, 202 signets, 39 réponses. Aucun autre compte relevé ; vidéo d'origine signalée comme venant de Reddit.",
+      "visual": "PNJ suspects",
+      "image": "https://pbs.twimg.com/amplify_video_thumb/2125643870692110336/img/-P_sxnsmjAx4c56f.jpg",
+      "image_alt": "Image du post de @GTAVI_Countdown : une scène de GTA 6 avec des PNJ",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "GTA 6 NPCs aren't even trying to hide it anymore. (u/Mobstera)"
+    },
     {
       "id": "x-permanent-buffs-easter-eggs-gtalphaintel-2026-11-25",
       "title": "GTA 6 : des bonus permanents de statistiques s'obtiennent avec les easter eggs, selon @GTAlphaintel",
@@ -7094,6 +7113,11 @@
       "at": "2026-11-25T18:12:52+01:00",
       "label": "Passage Claude Haiku (Matière X, veille 2 h)",
       "summary": "1 sujet ajouté depuis data/x_alertes.json (maj 25/11 17 h 01 UTC) : bonus permanents via easter eggs (@GTAlphaintel, 93 840 vues, statut Rumeur, un seul compte). Écartés sous 20 000 vues : NPC chié/clone (1 513), cartes Panini (6 893, un compte), Xbox ex-conjointe (12 507), bear attack (18 708), TikTok animation (411), tous déjà traités ou sous seuil."
+    },
+    {
+      "at": "2026-11-25T20:12:00+01:00",
+      "label": "Passage Claude Haiku (Matière X, veille 2 h)",
+      "summary": "1 sujet ajouté depuis data/x_alertes.json (maj 25/11 19 h 05 UTC) : PNJ qui ne cachent plus leurs gestes (@GTAVI_Countdown, 41 342 vues, Création de fan, vidéo Reddit relayée par un seul compte). Écartés : bear attack (@GTAlphaintel, 21 133 vues) déjà couvert par l'item du 22/11 ; sous 20 000 vues : égouts (12 348), Panini (9 573), Xbox ex-conjointe (14 914), voiture (9 456), pasteur (6 057), Lucia (5 347), TikTok (491)."
     }
   ],
   "coverage": {
