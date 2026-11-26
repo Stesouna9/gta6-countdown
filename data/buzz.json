@@ -1,8 +1,67 @@
 {
  "title": "Le buzz GTA6",
- "updated_at": "2026-11-26T20:12:51+01:00",
+ "updated_at": "2026-11-26T22:12:50+01:00",
  "schedule": "Veille toutes les 2 h, de 8 h à minuit",
  "items": [
+  {
+   "id": "x-dylan-rourke-remerciements-gtasix-2026-11-26",
+   "title": "GTA 6 : Dylan Rourke, interprète de Jason, remercie les fans dans une story Instagram",
+   "summary": "@gtasix_ relaie la story Instagram de Dylan Rourke, qui se dit « reconnaissant pour cette folle aventure ». Message de remerciement, sans annonce nouvelle.",
+   "url": "https://x.com/gtasix_/status/2126033974199976032",
+   "platform": "X",
+   "author": "@gtasix_",
+   "status": "Rapporté",
+   "published_at": "2026-11-26T19:22:53.000Z",
+   "checked_at": "2026-11-26T22:12:50+01:00",
+   "evidence": "Vues relevées le 26/11 (data/x_alertes.json, maj 26/11 21 h 04 UTC) : 82 699 vues, 2 767 j'aime, 111 republications pour @gtasix_. Un seul compte relève ce post ; la story Instagram d'origine n'a pas été ouverte.",
+   "visual": "Dylan Rourke",
+   "image": "https://pbs.twimg.com/media/HYEwoG9WoAAKlkH?format=jpg&name=360x360",
+   "image_alt": "Image de la publication de @gtasix_ sur Dylan Rourke",
+   "image_credit": "@gtasix_ sur X",
+   "embed_type": "x",
+   "cta": "Ouvrir la publication sur X",
+   "post_text": "Texte relevé : « Jason's actor, Dylan Rourke, says he's \"thankful for this wild ride\" in a new Instagram Story. » Non vérifié par la veille."
+  },
+  {
+   "id": "x-manni-perez-remerciements-abonnes-gtasix-2026-11-26",
+   "title": "GTA 6 : Manni Perez, interprète de Lucia, remercie ses abonnés après le lancement",
+   "summary": "@gtasix_ et @GTAVI_Countdown relaient le message de Manni L. Perez, qui remercie les fans après avoir dépassé le demi-million d'abonnés. Elle dit avoir consacré presque dix ans à faire vivre Lucia. Message de remerciement, sans annonce nouvelle.",
+   "url": "https://x.com/gtasix_/status/2126029666284663239",
+   "platform": "X",
+   "author": "@gtasix_",
+   "status": "Rapporté",
+   "published_at": "2026-11-26T19:05:46.000Z",
+   "checked_at": "2026-11-26T22:12:50+01:00",
+   "evidence": "Vues relevées le 26/11 (data/x_alertes.json, maj 26/11 21 h 04 UTC) : 569 720 vues, 23 955 j'aime, 814 republications pour @gtasix_. @GTAVI_Countdown reprend le message (200 392 vues, 19 h 06 UTC).",
+   "visual": "Manni Perez",
+   "image": "https://pbs.twimg.com/media/HYEstgIXAAAreD2?format=jpg&name=small",
+   "image_alt": "Image de la publication de @gtasix_ sur le message de Manni Perez",
+   "image_credit": "@gtasix_ sur X",
+   "embed_type": "x",
+   "cta": "Ouvrir la publication sur X",
+   "article": "journal/2026-11-26-manni-perez-lucia-message-abonnes-gta6.html",
+   "post_text": "Texte relevé : « Lucia's actress, Manni L. Perez, shared a message thanking fans for their support and said she spent almost a decade bringing Lucia to life. » Non vérifié par la veille."
+  },
+  {
+   "id": "x-fuites-xbox-ps5-cyberleek-sventek-gtavi-countdown-2026-11-26",
+   "title": "GTA 6 : @GTAVI_Countdown relaie des fuites de builds Xbox et PS5 attribuées à Cyberleek et Sventek",
+   "summary": "Selon @GTAVI_Countdown, la version Xbox aurait été fuitée par Cyberleek et la version PS5 par un autre pirate, Sventek. Le compte affirme aussi que le jeu tournerait sur des PS5 jailbreakées avec menus de mods et 60 images par seconde débloqués, et qu'un portage PC serait en cours. Rockstar ne confirme rien et la veille n'a pas pu vérifier ces affirmations.",
+   "url": "https://x.com/GTAVI_Countdown/status/2126021969820725463",
+   "platform": "X",
+   "author": "@GTAVI_Countdown",
+   "status": "Rumeur",
+   "published_at": "2026-11-26T18:35:11.000Z",
+   "checked_at": "2026-11-26T22:12:50+01:00",
+   "evidence": "Vues relevées le 26/11 (data/x_alertes.json, maj 26/11 21 h 04 UTC) : 53 880 vues, 1 133 j'aime, 54 republications (@GTAVI_Countdown). Un seul compte relève ce post ; le texte relevé est tronqué.",
+   "visual": "Builds fuitées",
+   "image": "https://pbs.twimg.com/media/HYElMEZX0AE-MwE?format=jpg&name=small",
+   "image_alt": "Image de la publication de @GTAVI_Countdown sur les fuites de builds GTA 6",
+   "image_credit": "@GTAVI_Countdown sur X",
+   "embed_type": "x",
+   "cta": "Ouvrir la publication sur X",
+   "article": "journal/2026-11-23-cyberleek-executable-xbox-publie-port-pc-gta6.html",
+   "post_text": "Texte relevé (tronqué) : « In less than a week of the GTA 6 launch: - Xbox build got leaked by Cyberleek - PS5 build got leaked by another hacker, Sventek ... » Non vérifié par la veille."
+  },
   {
    "id": "x-une-semaine-sortie-gtavi-countdown-2026-11-26",
    "title": "GTA 6 : une semaine après la sortie, deux comptes rappellent le lancement officiel",
@@ -7391,6 +7450,11 @@
    "at": "2026-11-26T20:12:51+01:00",
    "label": "Passage Claude Haiku (Matière X, veille 2 h)",
    "summary": "3 sujets ajoutés : une semaine après la sortie (@GTAVI_Countdown 33 914 vues, relayé par @gtasix_ 15 015, Rapporté), météo dynamique PS5 (@GTAlphaintel 25 721, Rumeur), Josephine Phoenix en Valentina (@GTAVI_Countdown 26 876, Rumeur). Sous le seuil : fiche des armes (15 435), Messi carte (12 095), Sventek/Cyberleek (11 759, un seul relais), wiki Easter eggs (9 292)."
+  },
+  {
+   "at": "2026-11-26T22:12:50+01:00",
+   "label": "Passage Claude Haiku (Matière X, veille 2 h)",
+   "summary": "3 sujets ajoutés : story de Dylan Rourke (@gtasix_ 82 699 vues, Rapporté), remerciements de Manni Perez (@gtasix_ 569 720 vues, Rapporté, lien vers le journal du 26/11), fuites Xbox/PS5 relayées par @GTAVI_Countdown (53 880 vues, Rumeur). Non retenus, limite de 3 par passage : retour de Sernando (33 063 vues) et fiche des armes (35 352 vues)."
   }
  ],
  "coverage": {
