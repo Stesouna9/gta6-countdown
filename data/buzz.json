@@ -1,8 +1,27 @@
 {
   "title": "Le buzz GTA6",
-  "updated_at": "2026-11-26T00:12:54+01:00",
+  "updated_at": "2026-11-26T08:12:33+01:00",
   "schedule": "Veille toutes les 2 h, de 8 h à minuit",
   "items": [
+    {
+      "id": "x-impact-industrie-ventes-gtavi-countdown-2026-11-25",
+      "title": "GTA 6 : son effet sur les ventes d'autres jeux, selon @GTAVI_Countdown",
+      "summary": "@GTAVI_Countdown publie une analyse de l'impact de GTA 6 sur le secteur : selon le compte, le jeu freine les ventes d'autres sorties cet automne, un effet qui pourrait durer jusqu'en mars 2027. Le compte cite aussi le report de God of War Laufey de février à mai, en partie selon lui pour la même raison. Analyse d'un seul compte, non vérifiée par la veille.",
+      "url": "https://x.com/GTAVI_Countdown/status/2125728307878457572",
+      "platform": "X",
+      "author": "@GTAVI_Countdown",
+      "status": "Rumeur",
+      "published_at": "2026-11-25T23:08:17.000Z",
+      "checked_at": "2026-11-26T08:12:33+01:00",
+      "evidence": "Vues relevées le 26/11 (data/x_alertes.json, maj 26/11 7 h 02 UTC) : 81 045 vues, 2 740 j'aime, 205 reposts, 362 signets, 46 réponses pour @GTAVI_Countdown (25/11, 23 h 08 UTC). Un seul compte relevé.",
+      "visual": "GTA 6 industrie",
+      "image": "https://pbs.twimg.com/media/HYAaUYcXIAAeKfV?format=jpg&name=small",
+      "image_alt": "Publication de @GTAVI_Countdown sur l'impact de GTA 6 sur l'industrie du jeu",
+      "image_credit": "@GTAVI_Countdown sur X",
+      "embed_type": "x",
+      "cta": "Ouvrir la publication sur X",
+      "post_text": "Analyse relevée sur X ; les chiffres d'impact ne sont pas sourcés dans la publication et n'ont pas été vérifiés par la veille."
+    },
     {
       "id": "x-gta7-zelnick-several-hundred-hours-gtavi-countdown-2026-11-25",
       "title": "GTA 7 : Strauss Zelnick renvoie la question après « plusieurs centaines d'heures » de GTA 6, selon @GTAVI_Countdown",
@@ -7204,6 +7223,11 @@
       "at": "2026-11-26T00:12:54+01:00",
       "label": "Passage Claude Haiku (Matière X, veille 2 h)",
       "summary": "2 sujets ajoutés depuis data/x_alertes.json (maj 25/11 23 h 11 UTC) : réponse de Zelnick sur GTA 7 (@GTAVI_Countdown, 88 812 vues, Rumeur, un seul compte) et PNJ qui fouille les égouts (@gtasix_, 20 490 vues, Création de fan). Écartés : déjà couverts (Lucia, PNJ, équipes GTA 1/6, easter eggs, Leonida) ou sous 20 000 vues."
+    },
+    {
+      "at": "2026-11-26T08:12:33+01:00",
+      "label": "Passage Claude Haiku (Matière X, veille 2 h)",
+      "summary": "1 sujet ajouté depuis data/x_alertes.json (maj 26/11 7 h 02 UTC) : analyse de l'impact de GTA 6 sur les ventes (@GTAVI_Countdown, 81 045 vues, Rumeur, un seul compte). Écartés : reprise par @GTAVI_Countdown de l'analyse Digital Foundry Xbox déjà couverte le 25/11 ; post « petit détail » (23 895 vues) sans contenu lisible dans la veille ; Cheryl Stern (16 700 vues) et Rockstar News FRA (19 709 vues) sous le seuil de 20 000 ; autres posts déjà couverts ou sous le seuil."
     }
   ],
   "coverage": {
