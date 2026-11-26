@@ -1,8 +1,65 @@
 {
  "title": "Le buzz GTA6",
- "updated_at": "2026-11-26T18:12:31+01:00",
+ "updated_at": "2026-11-26T20:12:51+01:00",
  "schedule": "Veille toutes les 2 h, de 8 h à minuit",
  "items": [
+  {
+   "id": "x-une-semaine-sortie-gtavi-countdown-2026-11-26",
+   "title": "GTA 6 : une semaine après la sortie, deux comptes rappellent le lancement officiel",
+   "summary": "@GTAVI_Countdown et @gtasix_ soulignent qu'une semaine s'est écoulée depuis la sortie officielle de GTA 6 par Rockstar Games. Publications de bilan, sans annonce nouvelle.",
+   "url": "https://x.com/GTAVI_Countdown/status/2125963505526534247",
+   "platform": "X",
+   "author": "@GTAVI_Countdown",
+   "status": "Rapporté",
+   "published_at": "2026-11-26T14:42:52.000Z",
+   "checked_at": "2026-11-26T20:12:51+01:00",
+   "evidence": "Vues relevées le 26/11 (data/x_alertes.json, maj 26/11 19 h 01 UTC) : 33 914 vues, 49 réponses, 261 republications, 3 264 j'aime pour @GTAVI_Countdown. Corroboré par @gtasix_ (15 015 vues, 26/11, 15 h 00 UTC).",
+   "visual": "Une semaine",
+   "image": "https://pbs.twimg.com/media/HYDwe1vXgAAZQxs?format=jpg&name=small",
+   "image_alt": "Image de la publication de @GTAVI_Countdown sur la sortie de GTA 6 il y a une semaine",
+   "image_credit": "@GTAVI_Countdown sur X",
+   "embed_type": "x",
+   "cta": "Ouvrir la publication sur X",
+   "post_text": "Texte relevé : « 1 week ago today, GTA 6 was officially released by Rockstar Games. » Non vérifié par la veille."
+  },
+  {
+   "id": "x-meteo-dynamique-ps5-correctif-gtalphaintel-2026-11-26",
+   "title": "GTA 6 : un guide pour rétablir la météo dynamique sur PS5, selon @GTAlphaintel",
+   "summary": "@GTAlphaintel publie un guide pour corriger l'absence d'effets météo dynamiques sur PS5. La méthode n'est pas vérifiée par la veille.",
+   "url": "https://x.com/GTAlphaintel/status/2125960521627406602",
+   "platform": "X",
+   "author": "@GTAlphaintel",
+   "status": "Rumeur",
+   "published_at": "2026-11-26T14:31:01.000Z",
+   "checked_at": "2026-11-26T20:12:51+01:00",
+   "evidence": "Vues relevées le 26/11 (data/x_alertes.json, maj 26/11 19 h 01 UTC) : 25 721 vues, 9 réponses, 13 republications, 244 j'aime pour @GTAlphaintel. Un seul compte relevé.",
+   "visual": "Météo PS5",
+   "image": "https://pbs.twimg.com/media/HYDtseZaYAA7cwr?format=jpg&name=small",
+   "image_alt": "Image de la publication de @GTAlphaintel sur la météo dynamique de GTA 6 sur PS5",
+   "image_credit": "@GTAlphaintel sur X",
+   "embed_type": "x",
+   "cta": "Ouvrir la publication sur X",
+   "post_text": "Texte relevé : « Still not seeing dynamic weather effects in GTA 6? How to fix it on PS5: ». Non vérifié par la veille."
+  },
+  {
+   "id": "x-josephine-phoenix-valentina-gtavi-countdown-2026-11-26",
+   "title": "GTA 6 : Josephine Phoenix, l'actrice de Valentina, pose dans le costume du personnage, selon @GTAVI_Countdown",
+   "summary": "@GTAVI_Countdown relaie une photo de Josephine Phoenix, actrice de Valentina dans GTA 6, habillée comme son personnage. Photo non vérifiée par la veille.",
+   "url": "https://x.com/GTAVI_Countdown/status/2125954832494211565",
+   "platform": "X",
+   "author": "@GTAVI_Countdown",
+   "status": "Rumeur",
+   "published_at": "2026-11-26T14:08:25.000Z",
+   "checked_at": "2026-11-26T20:12:51+01:00",
+   "evidence": "Vues relevées le 26/11 (data/x_alertes.json, maj 26/11 19 h 01 UTC) : 26 876 vues, 24 réponses, 98 republications, 1 415 j'aime pour @GTAVI_Countdown. Un seul compte relevé.",
+   "visual": "Josephine Phoenix",
+   "image": "https://pbs.twimg.com/media/HYDohpoXUAAV4vb?format=jpg&name=small",
+   "image_alt": "Image de la publication de @GTAVI_Countdown sur Josephine Phoenix habillée en Valentina",
+   "image_credit": "@GTAVI_Countdown sur X",
+   "embed_type": "x",
+   "cta": "Ouvrir la publication sur X",
+   "post_text": "Texte relevé : « Josephine Phoenix, the actress behind Valentina in GTA 6 dressed up as her own character. » Non vérifié par la veille."
+  },
   {
    "id": "x-haigure-six-etoiles-gtalphaintel-2026-11-26",
    "title": "GTA 6 : un streamer japonais échappe au niveau de recherche six étoiles, selon @GTAlphaintel",
@@ -7329,6 +7386,11 @@
    "at": "2026-11-26T18:12:31+01:00",
    "label": "Passage Claude Haiku (Matière X, veille 2 h)",
    "summary": "1 sujet ajouté : Haigure Tamao six étoiles (@GTAlphaintel, 22 538 vues, seuil de 20 000 atteint, un seul compte, statut Rumeur). Rien d'autre de neuf dans data/x_alertes.json : Josephine Phoenix (18 123 vues), JVMag (18 213), GTAVI_Countdown « 1 week ago » (16 886) sous le seuil ; joueur au petit détail et actrice de Peggy déjà publiés."
+  },
+  {
+   "at": "2026-11-26T20:12:51+01:00",
+   "label": "Passage Claude Haiku (Matière X, veille 2 h)",
+   "summary": "3 sujets ajoutés : une semaine après la sortie (@GTAVI_Countdown 33 914 vues, relayé par @gtasix_ 15 015, Rapporté), météo dynamique PS5 (@GTAlphaintel 25 721, Rumeur), Josephine Phoenix en Valentina (@GTAVI_Countdown 26 876, Rumeur). Sous le seuil : fiche des armes (15 435), Messi carte (12 095), Sventek/Cyberleek (11 759, un seul relais), wiki Easter eggs (9 292)."
   }
  ],
  "coverage": {
