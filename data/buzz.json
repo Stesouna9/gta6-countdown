@@ -1,8 +1,27 @@
 {
  "title": "Le buzz GTA6",
- "updated_at": "2026-11-26T16:13:00+01:00",
+ "updated_at": "2026-11-26T18:12:31+01:00",
  "schedule": "Veille toutes les 2 h, de 8 h à minuit",
  "items": [
+  {
+   "id": "x-haigure-six-etoiles-gtalphaintel-2026-11-26",
+   "title": "GTA 6 : un streamer japonais échappe au niveau de recherche six étoiles, selon @GTAlphaintel",
+   "summary": "@GTAlphaintel relaie la vidéo d'Haigure Tamao, streamer japonais, qui s'échappe du niveau de recherche maximal de GTA 6, présenté comme presque impossible à survivre. La séquence n'est pas vérifiée par la veille.",
+   "url": "https://x.com/GTAlphaintel/status/2125909808893309133",
+   "platform": "X",
+   "author": "@GTAlphaintel",
+   "status": "Rumeur",
+   "published_at": "2026-11-26T11:09:30.000Z",
+   "checked_at": "2026-11-26T18:12:31+01:00",
+   "evidence": "Vues relevées le 26/11 (data/x_alertes.json, maj 26/11 16 h 17 UTC) : 22 538 vues, 153 j'aime, 5 reposts, 23 marque-pages, 6 réponses pour @GTAlphaintel (26/11, 11 h 09 UTC). Un seul compte relevé.",
+   "visual": "GTA 6 six étoiles",
+   "image": "https://pbs.twimg.com/amplify_video_thumb/2125232022843179008/img/nS1gfDk31Q1t-0x0.jpg",
+   "image_alt": "Image de la publication de @GTAlphaintel sur le streamer Haigure Tamao et le niveau de recherche six étoiles de GTA 6",
+   "image_credit": "@GTAlphaintel sur X",
+   "embed_type": "x",
+   "cta": "Ouvrir la publication sur X",
+   "post_text": "Texte relevé : « Japanese streamer Haigure Tamao escapes GTA VI's six-star wanted level. The maximum wanted level had been considered nearly impossible to survive. » Non vérifié par la veille."
+  },
   {
    "id": "x-joueur-petit-detail-gtavi-countdown-2026-11-26",
    "title": "GTA 6 : un joueur raconte un petit détail découvert dans le jeu, selon @GTAVI_Countdown",
@@ -7305,6 +7324,11 @@
    "at": "2026-11-26T16:13:00+01:00",
    "label": "Passage Claude Haiku (Matière X, veille 2 h)",
    "summary": "Aucun sujet ajouté depuis data/x_alertes.json (maj 26/11 15 h 14 Paris). Relevé : Josephine Phoenix (@GTAVI_Countdown, 3 580 vues), Haigure Tamao (@GTAlphaintel, 14 889 vues, un seul compte) et JVMag (6 268 vues) sous le seuil de 20 000 vues ; joueur au petit détail et Cheryl Stern déjà publiés. Rien de neuf."
+  },
+  {
+   "at": "2026-11-26T18:12:31+01:00",
+   "label": "Passage Claude Haiku (Matière X, veille 2 h)",
+   "summary": "1 sujet ajouté : Haigure Tamao six étoiles (@GTAlphaintel, 22 538 vues, seuil de 20 000 atteint, un seul compte, statut Rumeur). Rien d'autre de neuf dans data/x_alertes.json : Josephine Phoenix (18 123 vues), JVMag (18 213), GTAVI_Countdown « 1 week ago » (16 886) sous le seuil ; joueur au petit détail et actrice de Peggy déjà publiés."
   }
  ],
  "coverage": {
