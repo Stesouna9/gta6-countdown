@@ -1,8 +1,46 @@
 {
  "title": "Le buzz GTA6",
- "updated_at": "2026-11-26T22:12:50+01:00",
+ "updated_at": "2026-11-27T00:12:37+01:00",
  "schedule": "Veille toutes les 2 h, de 8 h à minuit",
  "items": [
+  {
+   "id": "x-benedict-choix-statue-chapitre-3-gtalphaintel-2026-11-26",
+   "title": "GTA 6 : le choix de la statue donnée à Benedict, au chapitre 3, a des conséquences",
+   "summary": "@GTAlphaintel signale qu'on croise Benedict au chapitre 3, avec plusieurs choix à faire, et relaie un guide Dexerto sur l'issue de la décision concernant la statue. Le post renvoie vers le guide, sans annonce nouvelle de Rockstar.",
+   "url": "https://x.com/GTAlphaintel/status/2126066782159167631",
+   "platform": "X",
+   "author": "@GTAlphaintel",
+   "status": "Rapporté",
+   "published_at": "2026-11-26T21:33:15.000Z",
+   "checked_at": "2026-11-27T00:12:37+01:00",
+   "evidence": "Vues relevées le 26/11 (data/x_alertes.json, maj 26/11 23 h 07 UTC) : 26 542 vues, 148 j'aime, 105 marque-pages, 7 republications pour @GTAlphaintel. Un seul compte relève ce post ; le guide Dexerto qu'il cite n'a pas été ouvert.",
+   "visual": "Benedict statue",
+   "image": "https://pbs.twimg.com/media/HYFOcSybEAAE5zI?format=jpg&name=small",
+   "image_alt": "Image de la publication de @GTAlphaintel sur le chapitre 3 et Benedict",
+   "image_credit": "@GTAlphaintel sur X",
+   "embed_type": "x",
+   "cta": "Ouvrir la publication sur X",
+   "post_text": "Texte relevé : « You'll meet Benedict in Chapter 3 and will face multiple choices. Before making a decision, here's what can happen and how to get the best outcome. » Non vérifié par la veille."
+  },
+  {
+   "id": "x-sernando-retour-accord-confidentialite-gtavi-countdown-2026-11-26",
+   "title": "GTA 6 : Sernando réapparaît et affirme jouer au jeu depuis 2017 sous accord de confidentialité",
+   "summary": "@GTAVI_Countdown relaie le retour de Sernando après la sortie de GTA 6. Il affirme avoir joué au jeu pendant neuf ans, depuis 2017, sous un accord de confidentialité (NDA). Affirmation personnelle, non vérifiée par la veille.",
+   "url": "https://x.com/GTAVI_Countdown/status/2126040040958824812",
+   "platform": "X",
+   "author": "@GTAVI_Countdown",
+   "status": "Rumeur",
+   "published_at": "2026-11-26T19:47:00.000Z",
+   "checked_at": "2026-11-27T00:12:37+01:00",
+   "evidence": "Vues relevées le 26/11 (data/x_alertes.json, maj 26/11 23 h 07 UTC) : 257 960 vues, 5 676 j'aime, 174 republications, 652 marque-pages, 93 réponses pour @GTAVI_Countdown. Un seul compte relève ce post ; aucune autre source n'a été trouvée dans data/x_alertes.json.",
+   "visual": "Sernando",
+   "image": "https://pbs.twimg.com/media/HYE1H3KXAAAkrCJ?format=jpg&name=360x360",
+   "image_alt": "Image de la publication de @GTAVI_Countdown sur Sernando",
+   "image_credit": "@GTAVI_Countdown sur X",
+   "embed_type": "x",
+   "cta": "Ouvrir la publication sur X",
+   "post_text": "Texte relevé : « Sernando has returned following the GTA 6 launch, claiming that he has been playing the game for the past 9 years under an NDA. » Non vérifié par la veille."
+  },
   {
    "id": "x-dylan-rourke-remerciements-gtasix-2026-11-26",
    "title": "GTA 6 : Dylan Rourke, interprète de Jason, remercie les fans dans une story Instagram",
@@ -7455,6 +7493,11 @@
    "at": "2026-11-26T22:12:50+01:00",
    "label": "Passage Claude Haiku (Matière X, veille 2 h)",
    "summary": "3 sujets ajoutés : story de Dylan Rourke (@gtasix_ 82 699 vues, Rapporté), remerciements de Manni Perez (@gtasix_ 569 720 vues, Rapporté, lien vers le journal du 26/11), fuites Xbox/PS5 relayées par @GTAVI_Countdown (53 880 vues, Rumeur). Non retenus, limite de 3 par passage : retour de Sernando (33 063 vues) et fiche des armes (35 352 vues)."
+  },
+  {
+   "at": "2026-11-27T00:12:37+01:00",
+   "label": "Passage Claude Haiku (Matière X, veille 2 h)",
+   "summary": "2 sujets ajoutés : retour de Sernando (@GTAVI_Countdown, 257 960 vues, un seul compte, Rumeur) et choix de la statue pour Benedict au chapitre 3 (@GTAlphaintel, 26 542 vues, guide Dexerto relayé, Rapporté). Non retenus : Guy Fortt retrouve son personnage (39 616 vues), même sujet que l'entrée du 24/11 ; Manni Perez, Dylan Rourke et fuites Cyberleek déjà publiés ; Jason et les chiens (18 800), pêche (8 542), Verstappen (6 928), carte des bâtiments (9 927) et foudre (3 786) sous le seuil."
   }
  ],
  "coverage": {
