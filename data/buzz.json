@@ -1,6 +1,6 @@
 {
  "title": "Le buzz GTA6",
- "updated_at": "2026-11-26T10:13:10+01:00",
+ "updated_at": "2026-11-26T12:12:30+01:00",
  "schedule": "Veille toutes les 2 h, de 8 h à minuit",
  "items": [
   {
@@ -12,8 +12,8 @@
    "author": "@GTAVI_Countdown",
    "status": "Rumeur",
    "published_at": "2026-11-26T05:35:44.000Z",
-   "checked_at": "2026-11-26T10:13:10+01:00",
-   "evidence": "Vues relevées le 26/11 (data/x_alertes.json, maj 26/11 9 h 05 UTC) : 90 812 vues, 3 133 j'aime, 120 reposts, 278 signets, 22 réponses pour @GTAVI_Countdown (26/11, 5 h 35 UTC). Un seul compte relevé.",
+   "checked_at": "2026-11-26T12:12:30+01:00",
+   "evidence": "Vues relevées le 26/11 (data/x_alertes.json, maj 26/11 11 h 08 UTC) : 156 393 vues, 5 373 j'aime, 237 reposts, 465 signets, 30 réponses pour @GTAVI_Countdown (26/11, 5 h 35 UTC). Un seul compte relevé.",
    "visual": "GTA 6 joueur anecdote",
    "image": "https://pbs.twimg.com/media/HYBzP4UWUAADSEl?format=jpg&name=360x360",
    "image_alt": "Publication de @GTAVI_Countdown sur un petit détail de GTA 6 découvert par un joueur",
@@ -31,8 +31,8 @@
    "author": "@GTAVI_Countdown",
    "status": "Rumeur",
    "published_at": "2026-11-26T04:34:40.000Z",
-   "checked_at": "2026-11-26T10:13:10+01:00",
-   "evidence": "Vues relevées le 26/11 (data/x_alertes.json, maj 26/11 9 h 05 UTC) : 25 331 vues, 1 025 j'aime, 102 reposts, 137 signets, 12 réponses pour @GTAVI_Countdown (26/11, 4 h 34 UTC). Un seul compte relevé.",
+   "checked_at": "2026-11-26T12:12:30+01:00",
+   "evidence": "Vues relevées le 26/11 (data/x_alertes.json, maj 26/11 11 h 08 UTC) : 33 494 vues, 1 418 j'aime, 136 reposts, 193 signets, 15 réponses pour @GTAVI_Countdown (26/11, 4 h 34 UTC). Un seul compte relevé.",
    "visual": "GTA 6 Peggy",
    "image": "https://pbs.twimg.com/amplify_video_thumb/2125810073087651840/img/n4nT_pXTghWnaNpR.jpg",
    "image_alt": "Vidéo relayée par @GTAVI_Countdown : l'actrice de Peggy confirme son rôle dans GTA 6",
@@ -7290,6 +7290,11 @@
    "at": "2026-11-26T10:13:10+01:00",
    "label": "Passage Claude Haiku (Matière X, veille 2 h)",
    "summary": "3 sujets ajoutés depuis data/x_alertes.json (maj 26/11 9 h 05 UTC) : joueur et petit détail (@GTAVI_Countdown, 90 812 vues), actrice de Peggy confirme son rôle (@GTAVI_Countdown, 25 331 vues), expert qui identifie les 60 espèces d'oiseaux (@GTAlphaintel, 20 133 vues). Tous Rumeur (un seul compte). Écartés : Digital Foundry Xbox (déjà couvert le 25/11), tigre (19 514 vues, sous le seuil), PC (14 666), RockstarNewsFRA 1 semaine (question, 29 922 vues, non retenue : pas de fait), JVMag capture (294), 5 353 vues sous le seuil."
+  },
+  {
+   "at": "2026-11-26T12:12:30+01:00",
+   "label": "Passage Claude Haiku (Matière X, veille 2 h)",
+   "summary": "Aucun sujet ajouté depuis data/x_alertes.json (maj 26/11 11 h 08 UTC). Mises à jour des vues : petit détail (@GTAVI_Countdown, 156 393 vues) et actrice de Peggy (33 494 vues). Écartés : Digital Foundry Xbox (même sujet que le 25/11), PC et ports (@GTAlphaintel, 16 478 vues, un seul compte, sous le seuil), RockstarNewsFRA « 1 semaine, note sur 10 ? » (63 064 vues, question de compte sans fait), JVMag capture (1 698 vues)."
   }
  ],
  "coverage": {
