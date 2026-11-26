@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-26T18:57:42+00:00",
+ "maj": "2026-11-26T19:01:01+00:00",
  "articles": [
   {
    "gn": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWmo2NkJRWGRZazhqU2ZIVzdhS2JpR3lFSmZUOFJ2ZkdRNmtaZXRManlBNUt3V0czX2RFU0c5SWFUTmp5Y0xLLWxCZXp5OWlIZjRvQ1ZpdWg4SFI3SWJERUVfbk5PbmVYSHJDLWJIZElMTUJoSWpQLUNRM0FVMzV5QnAwZ3F1QzdhazJ2Ti15ZG41UQ?oc=5",
@@ -7,11 +7,7 @@
    "d": "2026-11-26T18:52:16+00:00",
    "lang": "fr",
    "t": "Quelle est la meilleure console pour jouer à GTA 6 ? Les paramètres en détail",
-   "u": "https://www.jvfrance.com/meilleure-console-pour-jouer-a-gta-6-parametres-details-286374/",
-   "img": "https://www.jvfrance.com/wp-content/uploads/2026/11/gta-6-artwork-jason-lucia.jpg",
-   "chapeau": "Découvrez en détail les paramètres utilisés par votre console pour jouer à GTA 6 et laquelle est la meilleure entre PS5 et Xbox.",
-   "txt": "",
-   "pub": "2026-11-26T18:50:56+00:00"
+   "erreur": "HTTP Error 429: Too Many Requests"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPdlpKQndra21SWkdOVXZoUnl6cDdIMkxDdnRFQVowZmNZUW5mRHplb0FVY0h6MUcwRnlJeTc0ZFlJcXNYckdYaFdTOUdRblNRTFNzaEJlRDBHem9yak5ESWR3QkZNZVhPdHJiOXY0SWdXTzJEaDJUdDR5bm91Tzc3T3pVbk1YTHRKbEh3em1EMGpka1JPY1RpSWJaY1NsemlxcUZMb2NINlZCc19OcVV4SjNRak9RQTg0S044X2lVTVBVaGxXV1JleUpsYWozODJ2elFGMVM0VklGYTRuTUs4bFYxMTdBWGJCYzRaRjNFdkhlSGc2T19zNHQxX0tYVU05T04ycWo2ZXNGaTZOQ1RBd1FNZw?oc=5",
@@ -31,7 +27,7 @@
    "d": "2026-11-26T18:31:08+00:00",
    "lang": "en",
    "t": "GTA 6: The 5 best early-game cars and where to find them",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPLS14N1FnSFE5Sm1La1U0UGJNdzc4NHBLb2c2V09nZ2VTcTZkQ084enFLQXRWTFVZU3phcmVLSjYwOG5qdTk1b1E1UTJwRXFKN2k4OFR6NjFPZjFoZlpFLVJUWEVMS3R5Nm5OLTBfVnF0aTh5SWtWT1A1M1BHaWRraThnRVVVaS1GNHdoM1puTi12azZVWkdEeXVTSzN4Q1lVWGlEaXVYWjM?oc=5",
@@ -44,6 +40,14 @@
    "chapeau": "Developers have demonstrated an in-game GTA 6 mod menu and dedicated PC launcher as unofficial port efforts continue despite Take-Two",
    "txt": "Community developers have shown an unofficial GTA 6 PC launcher and a debugging-focused mod menu, despite Rockstar not announcing a PC version. Performance remains poor, with one demo averaging about 10 FPS, while Take-Two's takedown of 3,007 Leonida-related GitHub repositories has not stopped fan efforts.\nAs an Amazon Associate, we earn from qualifying purchases. TweakTown may also earn commissions from other affiliate partners at no extra cost to you.\nGrand Theft Auto 6 has already received its first unofficial PC modding tools, despite Rockstar Games not having announced a PC version.\nCommunity developers have reportedly demonstrated an in-game mod menu and a dedicated launcher, doing so just three days after the missing executable from the leaked Xbox build surfaced online.\nPopular Now: The state of GTA 6 on PC: Everything you need to know Footage shared by X user cccurrenccc shows an in-game mod menu running on an unofficial GTA VI PC build. The interface resembles mod menus previously developed for GTA V, although the current implementation was created primarily for debugging purposes.\nWhile it remains unclear whether the mod menu has been made publicly available, experienced GTA modders are contributing to unofficial PC development efforts.\nMeanwhile, Brazilian streamer Suco has demonstrated a dedicated GTA VI launcher for PC. The streamer reported an average of around 10 FPS on a system equipped with an AMD Radeon RX 7900 XTX and 64GB of system memory, with frame rates occasionally dropping to just 2 FPS.\nAs we previously reported , separate unofficial builds have already achieved frame rates of up to 20 FPS, marking considerable progress from earlier implementations that could only render one frame every two seconds. However, these results remain far from delivering a practical gaming experience.\nThese developments come despite Take-Two Interactive's recent DMCA takedown targeting the Leonida project, which resulted in the removal of 3,007 GitHub repositories, including the original project and its forks.\nDevelopment has nevertheless continued through other community projects, with some efforts moving into private groups.\nAdding to these developments, the PlayStation 5 version of GTA VI has reportedly surfaced online, with footage showing the game running on jailbroken consoles. However, there is currently no evidence of the PS5 build successfully running through an emulator on PC.\n2 GTA 6 artwork features two characters posing with a graphic-wrapped van outside the mural-covered Stock 305 storefront. VIEW GALLERY - 2 IMAGES The emergence of dedicated launchers and debugging tools marks another milestone for unofficial GTA 6 PC development. Nevertheless, significant performance and compatibility issues remain, and these projects should not be confused with a native PC port.",
    "pub": "2026-11-26T12:30:03-06:00"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9sVDBiTDJKZFVPbDc2YzNmeld1ejlZZzc1V3NPdWVmZ3FGYnJmdFFHZmNkaGl2NG1oR3FIdFE0Q2t2SVZmS0FmNEN5SkRzUENHWHVMR2JtMDZFQ2NMaUUzdEJzMG9qTFBTUHhz?oc=5",
+   "s": "Comic Book Resources",
+   "d": "2026-11-26T18:28:01+00:00",
+   "lang": "en",
+   "t": "GTA 6 Is Biggest Physical Release This Decade, Even Without Discs",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQUERUaGJBUEpZWGpoa244OTJMTU1wdGRpUkFUYkktSzhBcUpVX1FRdEdtYmJRQkNwMjBySmpuV0VfNWY5TTZGdmpHUi1USjlVSWcxbm5NVFI3bXlYSmRzaXZnRHdXblIyajd4SUN0U0ktTU1hWTBZRFZCOW5jQ2p6bA?oc=5",
@@ -118,6 +122,14 @@
    "pub": "2026-11-26T18:59:44+01:00"
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMieEFVX3lxTE11ckNrTWNtOWNCSFJEUjZKUG1yU0EyR3Z4TjN0Rjlya3had3dDWlVnTjZSZnRINHlnUk5JYnFlZVl3RFcyN25VTVpCLXY4aUtwOEtzbHU5MDFBdEo5XzNWbkVZNGRqa0dKRzJjT2RZNmk2d0c4N2JHQQ?oc=5",
+   "s": "Eurogamer.net",
+   "d": "2026-11-26T17:44:10+00:00",
+   "lang": "en",
+   "t": "What to do before finishing Chapter 2 in GTA 6",
+   "erreur": "429 : passage suivant"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQLVI5UmNnbUNiNDFDY01mRlU1OXpWQmozNVRHdEotYXM1NWlrSlVYcGY2SkdwNGtRRWVmbk5ramJyWW5GZmo1ckp4aEdndnZmV0Vjd21BSlRldGlPNVAzSlFOSjlkaUd0VWc1SHV1XzRsSFhxYmw2Z1BMUDFvN0VCbG5HTldxd3hXbGhhTlF3ak1WeFJ3WmtMM0tmZHJENHpzN2Z1OG55VW0?oc=5",
    "s": "Startup Fortune",
    "d": "2026-11-26T17:42:04+00:00",
@@ -140,18 +152,6 @@
    "chapeau": "Here's the top 10 fastest motorcycles in Grand Theft Auto 6, as well as where you can find each one scattered across Leonida.",
    "txt": "Grand Theft Auto 6 features over 500 vehicles for you to get behind the wheel of, and whilst most of them are cars, there’s an incredible selection of motorcycles to pick from as well, and a ton of them know how to test the speed limits.\nWhether you’re racing through the streets of Vice City or simply looking for the perfect getaway vehicle, speed is always going to come in handy. Thankfully, of the nearly 80 motorcycles in the game, a lot of them are incredibly high-performance, though finding them can be a bit tricky.\nWith that in mind, here are the 10 fastest motorcycles in GTA 6, as well as how you can get your hands on each one.\nThe fastest motorcycle in Grand Theft Auto 6 is the Principe Burnished Alvino.\nThis is one of the many Standout Vehicles in GTA 6, with the Principe Alvino being the base model of the motorcycle. But if you’re looking for speed on two wheels, you’ll find no better than the Principe Burnished Alvino.\nThe best part about this motorcycle, though, is that it’s pretty easy to get a hold of, with no Trackers to deal with or Key Cloners necessary to take control. Better yet, it’s pretty cheap to register, too! But where do you find it? Find out further below.\nOf all the 77 motorcycles to be found in Grand Theft Auto 6, the ones listed below are the 10 fastest, strictly according to the in-game Speed stat.\nAnd of these 10 vehicles, five of them are Standouts, meaning you’ll have to go hunting in specific locations if you want to get your hands on them—but more on that later.\nFor now, check out the complete table for the 10 fastest motorcycles in GTA 6:\nIt’s all well and good knowing what the 10 fastest motorcycles are in Grand Theft Auto 6, but the real question is: how do you get your hands on them for yourself?\nLuckily for you, we have all of the answers. Below you’ll find the locations for all 10 of the motorcycles mentioned in the table above.\nYou’ll find the Principe Burnished Alvino parked on Starfish Island. Head to the exact location marked on the maps above, and it’ll be there tucked away in a garage on the property—just beware of the security on the island.\nGetting a hold of Emilio’s Lectro is as easy as going to the location marked on the maps above and breaking into the garage. Since it’s on an open street, beware of becoming Wanted for trespassing, but the bike should make for a perfect getaway vehicle if you do.\nIf you’re looking to acquire a Nagasaki SFB 1000 and want to find one reliably, your best bet is to grab the Standout version of the motorcycle, which can be found below, since the vehicle has a chance of spawning in a variety of places across Leonida.\nIn order to get the Nagasaki KD’s SFB 1000, you’ll need to complete “Dre’Quan’s Gift,” a mission in GTA 6. This should become available partly through Chapter 3, sometime after the Photo/Shoot mission.\nGetting hold of the Nagasaki Smokescreen Carbon RS will have to wait until Chapter 3, as you need the Cut-Off Tool in order to break into a Scoop container.\nThat said, if you have the equipment, head to the construction site marked on the map above, and use one of the nearby vehicles to move some concrete out of the way that’s blocking the entrance to the container. Inside, you’ll find the bike ready to go, and you’ll need it too, as there’s a chance you’ll be Wanted for trespassing.\nAs is often the case with base versions of vehicles, it’s difficult to find a guaranteed spawn location, but we had very good spawn rates in the location marked above. Lots of bikes spawn in and around here, so check back a few times and see if one manages to spawn—you might even find one of the other base vehicles on this list, too!\nThat said, you’re better off grabbing the Principe Burnished Alvino, the Standout version that’s also the fastest motorcycle in the game!\nThe Nagasaki Hung Carbon RS can be found swinging from a tree just north of Belville. If you shoot the two rope points on the tree, the vehicle will drop down to the ground, where it will be unlocked and ready to roll.\nThere’s no guaranteed spawn for the standard version of this vehicle, but the location marked above (the same as the Principe Alvino V1) proved particularly reliable during our testing. Several bikes can appear in this area, so keep an eye out and revisit if necessary.\nThat said, you’re better off grabbing the Nagasaki Hung Carbon, the Standout version found in the entry above.\nBase versions of vehicles can be tricky to track down, as they don’t always have a guarantee",
    "pub": "2026-11-26T17:39:22+00:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNLU5TYTB0TXVNMWR6ZVg0dmFxa2ExM3RGMVZxVTgzNy0wYUI3cHVYUFFYQVp6QXI1U3gySzNvZ2ZDZ2ZpNTNkZzlmdUx2QV9UQmpMTTB4Um1pXy1jNUlqQVI2VTJDQ2FqSTFOUHdKS2Jhb2ZLNVN4WEFFTjloeHotQ2VSWUxlbGM3OUs1M0JB?oc=5",
-   "s": "Yahoo Finance Singapore",
-   "d": "2026-11-26T17:36:52+00:00",
-   "lang": "en",
-   "t": "The staggering surge in physical video game sales following GTA 6 launch",
-   "u": "https://sg.finance.yahoo.com/news/staggering-surge-physical-video-game-173652344.html",
-   "img": "https://s.yimg.com/lo/mysterio/api/955e59955aadff48bca5674b94ec846007ae5b2bfe5c9e19eabb4129f7503faf/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_independent_577%2F92860f202d64d5a349f75ba814101f4b.jpg",
-   "chapeau": "GTA 6 alone accounted for £32 million of the physical sales during its launch week",
-   "txt": "The staggering surge in physical video game sales following GTA 6 launch Paris Ibell Thu, 26 November 2026 at 6:36 pm GMT+1 2 min read New data has revealed physical video game sales skyrocketed by 409 per cent following the release of Grand Theft Auto 6 , even though that format of the game doesn't even come with a disc.\nBoxed software revenues, covering discs and \"code-in-a-box\" (the format Rockstar chose for GTA 6), hit an estimated £43 million during launch week, according to figures compiled by NielsenIQ (NIQ). It was the strongest week for physical games in the UK since Christmas 2018 , when FIFA 19 was released.\nGTA 6 alone accounted for £32 million of the physical sales during its launch week, NIQ said.\nThe firm added that its figures were estimates for the wider retail market based on shopping data.\nThe game was released on 19 November, ending a 13-year wait among fans worldwide for the next instalment of Rockstar 's video game series.\nThe standard version carried a price tag of around £69.99, while the more premium version cost around £89.99.\nBuyers who want a physical copy get a box containing a code to download the game, rather than a disc.\nDigital versions, by contrast, can be bought and downloaded onto gaming consoles straight away.\nDorian Bloch, senior client insight director at NIQ, said the sales performance for physical copies was \"particularly impressive\" against a market that is increasingly geared towards digital downloads.\n\"There have only been 16 games released since 1995 that generated higher boxed software revenue in their opening week,\" he said.\n\"This demonstrates the enduring appeal and retail power of one of gaming's biggest franchises.\"\nThe release also sparked a wider resurgence in demand for gaming consoles, NIQ's data showed.\nPlayStation 5 sales rose 46 per cent during launch week compared with the previous week.\nXbox Series console sales jumped by 75 per cent week-on-week.\nDemand for other gaming accessories like headsets, joypads and chairs also soared, according to the figures.\nJoost van Dreunen, an Adjunct Assistant Professor at NYU Stern School of Business who teaches the business of video games, said physical sales would be just the beginning for a game like GTA 6.\n\" GTA V made $1bn in three days in 2013, which turned out to be the small part. GTA Online kept millions of people paying every month for thirteen years and became the real business. So we'd do well to judge GTA 6 accordingly: the launch is act one, the online world that follows is act two, and act two is where the money is.\"\nAlthough there is no official word on a release date for a \"GTA 6 Online\", when it does arrive, there will be years of revenue waiting for Rockstar to cash in on.",
-   "pub": ""
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOOVVQRjljcFVHYkFBUXFyalVRUmtkb2lXcDZGdTdqTFBJcVAtSHp4UWNyYWowd09oUjZkOGtiTXpxclNLZk80VzZkSF9DM1Zjak02Q2N3bURiREp0ZGpwOHJHeEc1YVgzVXZ0a2xJMEd1cWY1SUpqRVVHb2llM3FaOQ?oc=5",
@@ -226,12 +226,28 @@
    "pub": ""
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMib0FVX3lxTE52ZU1FT2lDM3NWZWw1bG9YOXRhakJJczRheTZVR0x4VnlBaGZ6dG9hQXZyNjBPM3QtaEh3Yk5jUWc5aXhhT21CUVhvSml4bnA0Vl90S1pGVUp0dDRxY1NIcTVaS0YwNTlYS3ROaFdydw?oc=5",
+   "s": "Rock Paper Shotgun",
+   "d": "2026-11-26T17:12:10+00:00",
+   "lang": "en",
+   "t": "Where to find the Ocelot Jugular's location in GTA 6",
+   "erreur": "429 : passage suivant"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOR0tTaEJGM0xxNVM5SkdhdklncjM3eU9najV4QnZtSHF6Zk1UYlM1Q29Hb005algxbDFOOFZZNnFhUkktVERxVjBsc1FZZlRpckpzWG5wTWwtYWpGdWtUdmU1NndCeTJ0RTZHU3JBX1ZqZXlJLUhFd0NfU3BTa1Rjd3FHNEhzSHB2Ty0tRGk0WU8zVG1pZkV2TUZtVUxxMHpyQUdHdWdmM2xRUUs3QmUxVkl6NGludWJNNmVDV3MtOTVsQTFsT19NREhxM2l1ZC1hRkNueDRaSldEbnpsaTlLUQ?oc=5",
    "s": "JeuxVideo.com",
    "d": "2026-11-26T17:10:59+00:00",
    "lang": "fr",
    "t": "Jason et Lucia en surpoids dans GTA 6 : des joueurs essaient de les faire grossir au maximum",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMifEFVX3lxTE01d2tHS0dVNFkxQ1RCNFpaRkw4V2d4NWw2NDZaWW1vMjNoc3FkVlZhbkxsRU82bWh6by1NRmlzbHhoSVN2RWNmbFlzbHhRS0FvVDZQLTF4V09FS3NNcTd4VFo5aHBnanpMS2hWZ1k4VnhTVF8zODNBcGVtby0?oc=5",
+   "s": "Eurogamer.net",
+   "d": "2026-11-26T17:07:50+00:00",
+   "lang": "en",
+   "t": "\"Where's the ding?!!\" - I asked the PowerWash Simulator 2 team what they thought of Jason's nozzle work in GTA 6",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNTGw0dHRFWTJZY2hhMVR4MksyTU9rbGtXN2stMW9VdlNFTm1FOG04ZXEyMjF5QmJ6SkxVbFE2bGV6eUVqd28taHJKbXF5RjlaNTk2NU11S1haUVFJRzFYR3lqVkM2UEpKU2tueTVzaGtHbkc1NDFwRlNIVDdIdldfQ09WNE9WQlFJLTN3MDVDMy1WU0dpZHpXRDI5Ty1abEhBZHlhSmdfRU5aY1ZZek5wMlhrMXhiZXEydFprQUNqX3dHQzdUMUpXVTFfNDhsY3lwVExzZFpYSDJ5U2xxZW5kT2lGSk12UWhzV2NRMQ?oc=5",
@@ -271,30 +287,6 @@
    "pub": "2026-11-26T16:50:05+00:00"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdFJBVmVNOHhYUmNIYzVlUzZrb0syOTh5c09CaXdGdUZBZ2Jhb1NiUmNKSDI2ZF9XYXRadUVYU1k3cHdFM2FsdzBsSzlwOGpkQ3hIWFcyMlhLLUhoekY5UGV0WU56N0x2a3JpV0Z1TzFuM09GVnlhbkx2V1R5NV9HRHkyNUxPdzdqTHVFTjBaUDFsYllwbmFqRUFhWVVNcW5uRmc?oc=5",
-   "s": "Engadget",
-   "d": "2026-11-26T16:53:58+00:00",
-   "lang": "en",
-   "t": "Workers at GTA 6 studio Rockstar Games vote overwhelmingly against union recognition - Engadget",
-   "u": "https://www.engadget.com/2329177/workers-gta-6-studio-rockstar-games-vote-against-union-recognition/",
-   "img": "https://www.engadget.com/img/gallery/workers-at-gta-6-studio-rockstar-games-vote-overwhelmingly-against-union-recognition/l-intro-1795711860.jpg",
-   "chapeau": "The IWGB Rockstar Game Workers Union will continue to organize after only a quarter of workers voted in favor of a formal deal with the studio.",
-   "txt": "The IWGB Rockstar Game Workers Union will continue to organize, however.\nRitesh Shukla/Getty Images Add Engadget on Google: Preferred Source Google Discover Rockstar Games workers in the UK have overwhelmingly voted against a union recognition effort , with three-quarters rejecting an agreement with the IWGB Rockstar Game Workers Union. The vote took place at the same time the company released Grand Theft Auto 6 , which smashed records as it generated $3.79 billion in pre-orders and first-day sales.\nOver 93 percent of Rockstar workers across offices in Edinburgh, Leeds, Lincoln, Dundee and London took part in the two-week ballot. Of those, 1,163 turned down formal recognition of their branch of the IWGB (Independent Workers Union of Great Britain), while 381 were in favor, according to IGN .\nThe Rockstar Game Workers Union will continue to organize without a formal agreement with the company. However, the result means Rockstar management won't be obligated to officially recognize the union or hold regular meetings with representatives.\n\"For anyone at Rockstar who believes in a fairer workplace, a fairer sector and a fairer society — this isn't a sign to retreat, it's a sign to double down on what we stand for,\" the union said in a statement . \"Hundreds of our coworkers voted in favor of our union at Rockstar, yet sadly we recognize we have more work to do to build understanding and win the trust of more of our colleagues. We're ready to put in the effort to make that happen.\" It added that it will keep battling for \"pay transparency, contractual overtime pay and protections against AI and layoffs.\"\n\"We are extraordinarily proud of our team, the culture we've built together and the launch of Grand Theft Auto 6 ,\" Jennifer Kolbe, Rockstar Games head of publishing, said in a statement . \"This result reflects our team's strong support for continuing the direct relationships, collaboration and open dialogue that have helped make Rockstar Games so innovative and strong. As we look ahead, we're excited to build on all we've accomplished together.\"\nRockstar had indicated a willingness to work with its workers on unionization. \"We go where the team goes,\" Klobe told Bloomberg for a story about the making of GTA 6 . \"So if they want a union, they will have a union.\"\nIn October last year, Rockstar fired dozens of workers , claiming they had shared confidential details about GTA 6 and made disparaging remarks about the company. The IWGB issued formal legal claims against Rockstar in which it accused the Take-Two subsidiary of union busting and unlawfully firing those workers. An employment tribunal heard closing evidence last week and a final judgement in the case is pending.",
-   "pub": "2026-11-26T16:53:58+00:00"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5MNEU2eTN1QjFwWHdLT0l6Z0g0ZldqbEJMMUtZRklMLUU0ZUN2YmI1N1B2UXNqQXpzbEhHYk5zLUJaaWc2RGNDV2tpT1hMTVd1RzdTR1lXSQ?oc=5",
-   "s": "Eurogamer.net",
-   "d": "2026-11-26T16:52:10+00:00",
-   "lang": "en",
-   "t": "Can you save Charles in GTA 6?",
-   "u": "https://www.eurogamer.net/gta-6-save-charles",
-   "img": "https://assetsio.gnwcdn.com/GTA-6-Save-Charles---Header.png?width=1200&height=630&fit=crop&enable=upscale&auto=webp",
-   "chapeau": "Here's whether or not you can save Tyrone's contact, Charles, in the Here Kitty Kitty mission in GTA 6.",
-   "txt": "If you're here wondering whether or not you can save Charles in GTA 6 , then it's likely that you've just completed the Here Kitty Kitty mission in Chapter 3 and are wondering if Jason's remark that 'this could've gone differently' rings true. To answer that, I've put together the below guide on whether you can save Charles or not in GTA 6 .\nFor more help with your time as Lucia and Jason in Leonida, take a look at our GTA 6 walkthrough .\nI have played through the Here Kitty Kitty mission multiple times in an attempt to try and save Charles from his grisly fate and to put it simply, you can't . No matter what you do when approaching Charles in the camp and the carpark above, and no matter if / when you choose to interrupt him, he will still jump from the carpark and die.\nOn top of that, trying to shoot him in an attempt to incapacitate him before he runs upstairs also won't work. He is particularly weak and a single bullet wound anywhere on his body is enough to kill him (and will also negatively impact your Criminal Profile ).\nIt's also worth knowing that if you don't attempt to interrupt Charles whatsoever, this will also negatively impact your Criminal Profile. So if you're striving to remain Professional, the best thing to do here is to interrupt him once sometime after he starts talking, but before he jumps.\nUltimately, unless you decide to forgo this mission and stop progressing with the game, there's no way to save Charles!\nThat's all for Charles' story I'm afraid. For more help with your time in GTA 6's Leonida, take a look at how to lose Heat , how to improve your relationship , and all of Randy's Wishlist car locations .",
-   "pub": "2026-11-26T16:52:10+00:00"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1GUHJfMjZxV2NUcnM1ZzJvc0R0THI1dVkyckFzUjJ5LXRoenl2d3VvYm5YOG9mSkF0NDJjcUplNFNQbXZhcHpCdFNhbkpQX0tDb2RXTUptV0luYzFZVkxiZFV3?oc=5",
    "s": "Rom-Game.fr",
    "d": "2026-11-26T16:51:59+00:00",
@@ -312,31 +304,15 @@
    "d": "2026-11-26T16:50:59+00:00",
    "lang": "fr",
    "t": "GTA 6 via Xbox Cloud Gaming a affiché une latence de 184,5 ms sur Xbox One.",
-   "erreur": "HTTP Error 403: Forbidden"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPY0k5VmlWd1JSUFVnUHZaUkxpSEx0ek9YLWZFVG1WZll2Zjl0akE2a25nVkV5WHIwZE5KZ0NmemttV1hIN0lmcmZtMjBuU25EU1dwNHZOMHZXNll4R2puUy16MmtnZFFxSExMLVk5Qm1jSWx2WkFWeXlsbWxBYzlZZDFMMUJsVlFOOS0xT0pxMF9VQQ?oc=5",
-   "s": "Windows Central",
-   "d": "2026-11-26T16:43:39+00:00",
-   "lang": "en",
-   "t": "Hobbyists and AI vibe coders have GTA 6 running on Windows PC days after launch — How is it possible, and what comes next?",
-   "u": "https://www.windowscentral.com/gaming/pc-gaming/gta-6-windows-pc-recompilation-explained",
-   "img": "https://cdn.mos.cms.futurecdn.net/f865Br6xcjQsFRtJXvndGB-2560-80.jpg",
-   "chapeau": "Unofficial (and illegal) PC recompilation efforts for GTA 6 are underway, and we could soon have a stable version. Here",
-   "txt": "(Image credit: Rockstar Games) {alert('Link copied')}).catch(err => {console.error('Failed to copy: ', err)})\" data-platform=\"copy_link\" data-action=\"\" class=\"font-ui-heading py-2 text-sm text-neutral-700 hover:bg-neutral-100 transition-colors no-underline block cursor-pointer border-0 bg-transparent w-full text-left normal-case\" aria-label=\"Copy link\" role=\"menuitem\" data-analytics-id=\"article-social\" analytics-label=\"utility-bar-social-share-copy-link\" analytics-name=\"utility-bar-secondary\" data-mrf-recirculation=\"article-social\"> Copy link Facebook X Reddit Pinterest Flipboard Bluesky Threads Email Share this article 0 Join the conversation Follow us Add us as a preferred source on Google Newsletter Subscribe to our newsletter Grand Theft Auto 6 developer Rockstar Games has an outdated habit of double-dipping on its customers. First comes a console version , and months later, a PC version arrives . By then, a lot of PC gamers have already bought the game once on console, and they're coerced into buying it again.\nI think I bought GTA 5 three times over the years as I moved onto different hardware. This time around, GTA 6 has barely been out for a week on Xbox Series X|S and PS5/Pro , and we already have what appears to be a working version of the game on PC .\nHobbyist developers and AI vibe coders have taken it upon themselves to get unofficial GTA 6 builds pulled from consoles running on Windows PC . You might have already seen it proclaimed on social media that GTA 6 has arrived for PC. That's not quite true. Here's what's actually going on, and what it means (and doesn't mean) for PC gamers.\nShortly after the official GTA 6 console launch on November 19 , hacker Cyberleek — the group behind the bulk of the pre-launch gameplay and content leaks — released some significant portions of the Xbox build.\nIt wasn't until a couple of days later, when the game's executable file was published, that recompilation efforts for Windows PC really kicked off. Within hours of the executable's release, I saw developers posting proof that the game was launching on PC. A few hours later, they were able to get through the game's initial setup.\nSince then, and over the past couple of days, recompilation efforts have really ramped up. Today, at the time of writing, someone has posted a clip on Reddit of GTA 6 running on PC at 60+ FPS .\nRecent updates The Reddit thread I linked, containing the video of GTA 6 running on PC at 60+ FPS, has already been deleted . You'll have to trust me on this one.\nThat's some incredible progress in a project that barely launched just a couple of days ago. However, it's still a very long way from becoming a finished, stable port that you or I might want to play through.\nRunning a console version of a game on PC usually requires emulation . An emulator is essentially a live interpreter, allowing your PC to pretend it's a console while it translates instructions.\nThis extra layer of work usually saps performance in a major way, especially in a game as demanding and complex as GTA 6. With the rise of powerful, personal AI assistants, recompilation has become the new and preferred way for this type of work.\nImagine you're reading a book written in a language you don't understand. Would you rather have a live interpreter telling you what each line means, or would you rather just read the translated version without all the hassle?\nRecompilation works the same way, converting the game's code from console-compatible to natively PC-compatible. If it's done properly, the results can be quite astounding. Just look at the Ocarina of Time remake's unofficial PC port that arrived shortly after the game's real launch on Switch 2.\nRecompiling a game's code has always been possible , but it was a matter of time and effort that stopped most projects from going live. Now, with the impressive advances in AI coding tools , console-to-PC conversions have become something that practically anyone with enough token budget can take on.\nAnd that's basically what's going on today, with groups of would-be coders assembling their AI agents into swarms to tackle the massive recompilation task.\nThe entire GTA 6 recompilation fiasco would probably be getting a lot more attention if it weren't totally illegal because of how the game's files are being leaked and distributed. Rockstar's parent company, Take-Two , has been busy shutting down projects like Leonida , one of the leading efforts to recompile GTA 6 on PC.\nGitHub has been busy pu",
-   "pub": "2026-11-26T16:43:39Z"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQaVhTUXdSZk9SQTZtTE9ZX0x4LWVMdDZDOURkcjRfWGVGSk9uTlRid2JMSEYyNUM3UjhQcWJ2bEtIUmJ3eW1idlhDZWNKY3ZKbklRT0NuRk9IMXlkYkZXdUxfajJPZ3FjTEZiejNmVG9idkRoTHVHZmplSnh0aC1qTWtqUGRVR3h6OTFjaDZ3Y0piS1NGelJvU0lZOEU3M2ZZUFBOcDF1OTQtN0FwMUZ2SzhnajBkbEpGOWlmM2d4ZVhtZGxmRkhidl8weDBpamdNM3BoUFN1SHV3NTJBSGE4UUgwZnVMT18za1lWeXRZbU5uTEdEdm9qZA?oc=5",
    "s": "Le Monde.fr",
    "d": "2026-11-26T16:40:52+00:00",
    "lang": "fr",
-   "t": "Client Challenge",
-   "u": "https://www.lemonde.fr/pixels/article/2026/11/26/notre-avis-sur-gta-vi-apres-soixante-heures-de-jeu-entre-vertige-urbain-et-romance-sous-tension_6815568_4408996.html",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": ""
+   "t": "Notre avis sur « GTA VI » après soixante heures de jeu : entre vertige urbain et romance sous tension",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZWZRcVVCbEFCSy1hd3pSS2ZzNUt6NHN5eFdRWWRoZDllNDVLVGNjeUtFYUE5NjR5S3AyRk45bnh5TXVGVksyTnZUbUJFei0wTmVPUFh0NElkR2VEU3N5OEh5RVJLV2FCcXhXTlMwSHNXT29MNDh5ejNSSEZRdVk3cE01NjNUUW9GcTdJd21wN0dMOVRyR3JhWVVQTGhDWkllWl9RcEVMLTk3S0U0YjlZVmlnMA?oc=5",
@@ -430,29 +406,12 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAxSGlzQTEtMGJXVWdxSVVnLWRXY1BkMGZDQlhIQ3M2cDJNMHRPN1ZsdllxV01jWUI4Qk4wTjIwTGN5V09OTFprTWxZTTF6dFBHUl83UDBvMW1VVmdZajh0TA?oc=5",
-   "s": "Menow",
-   "d": "2026-11-26T07:40:00+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : une fuite révèle ce que la PS5 Pro pousserait plus loin que les autres consoles",
-   "u": "https://www.menow.fr/gta6-reglages-consoles-rumeur/",
-   "img": "https://www.menow.fr/wp-content/uploads/2026/11/gta6-reglages-consoles-rumeur-1.webp",
-   "chapeau": "Une liste attribuée à Tex2 compare GTA 6 sur consoles. Ombres, textures, population : les différences rapportées et les améliorations déjà confirmées.",
-   "txt": "Visuel d’illustration repris de Sumahodigest ; représentation conceptuelle, apparence non officielle.\nLa PS5 Pro ne pousserait pas tous les réglages de GTA 6 au maximum. Une liste attribuée au dataminer du compte @TexFunz2, suggère plutôt une base proche de celle de la PS5 et de la Xbox Series X, renforcée sur l’éclairage et les ombres en ray tracing. La Xbox Series S utiliserait de son côté des paramètres plus modestes sur plusieurs aspects du monde. Ce relevé non officiel donne une lecture intéressante des compromis entre consoles.\nLe document a été détaillé le 25 novembre par MP1st , qui renvoie vers une publication du compte @TexFunz2 . Les valeurs sont présentées comme issues des données du jeu : il ne s’agit ni d’un menu de réglages destiné aux joueurs, ni d’un comparatif de performances réalisé par Menow. Leur portée doit donc rester celle d’une fuite technique.\nLa fuite place l’illumination globale sur un niveau élevé pour la PS5 Pro, contre moyen pour les autres consoles. Elle décrit aussi des ombres directionnelles et locales en ray tracing activées sur la Pro. Cette dernière se distinguerait ainsi par la manière de calculer la lumière et les ombres, plutôt que par une hausse uniforme de chaque curseur.\nLe point général rejoint une amélioration déjà officielle. Dans sa présentation des fonctionnalités de GTA VI sur PlayStation , Sony indiquait que la PS5 Pro apporte des ombres en ray tracing et une meilleure netteté grâce au PSSR, la reconstruction d’image propre à la console. L’annonce commerciale confirme ces fonctions, sans authentifier pour autant chaque valeur du tableau qui circule.\nCes deux techniques ne font pas le même travail. Les ombres en ray tracing touchent au calcul de l’éclairage ; le PSSR sert à reconstruire une image plus détaillée à partir du rendu. Leur combinaison peut améliorer la présentation visuelle, mais ne se résume pas à une simple augmentation de la résolution. Les différences peuvent aussi varier suivant les lieux et les conditions d’éclairage d’une scène.\nCes niveaux traduits servent à comprendre la liste divulguée. Ils ne constituent pas des intitulés français vérifiés dans un menu de GTA 6.\nLa reprise de Sumahodigest souligne la proximité entre PS5 et Xbox Series X : textures, cheveux, simulation de l’eau ou densité du trafic sont notamment présentés comme communs. Cela suggère une même orientation de qualité pour ces éléments, plutôt que deux versions radicalement différentes du monde.\nIl faut toutefois distinguer un niveau de paramètre et son résultat complet à l’écran. Une étiquette « élevée » ne renseigne pas à elle seule sur la résolution interne, la reconstruction de l’image, la stabilité temporelle ou les baisses de fluidité pendant une scène chargée. Le tableau ne suffit donc pas à départager définitivement deux consoles.\nPour le joueur, la comparaison utile se situe dans une situation équivalente : même lieu, même éclairage, mouvements proches et séquence suffisamment longue pour observer les variations. Un arrêt sur image révèle certains détails ; un déplacement peut en montrer d’autres, notamment la stabilité des contours ou l’apparition des éléments lointains. Cette méthode permet de relier les réglages supposés à des différences réellement visibles.\nLes informations relayées mentionnent, sur Series S, une baisse de qualité pour plusieurs catégories : végétation, particules, cheveux, simulation ou densité du monde. La réduction supposée ne concernerait donc pas uniquement la finesse d’une surface regardée de près. Elle pourrait aussi se manifester dans la richesse d’une scène ou dans le nombre d’éléments simultanément présents.\nCela ne permet pas de déduire que des missions ou des quartiers disparaissent. Les paramètres d’affichage et de simulation décrits ne constituent pas une liste de contenus. Le degré exact de différence doit être apprécié dans le jeu ; il serait trompeur de présenter un niveau interne comme une mesure directe de l’expérience entière.\nLa question d’un mode plus fluide revient naturellement dès qu’une version réserve une partie de sa puissance aux effets visuels. La liste divulguée n’établit pourtant ni l’existence d’un mode sans ray tracing accessible aux joueurs, ni le nombre d’images par seconde qu’il atteindrait. Une hypothèse d’allègement graphique reste différente d’une fonctionnalité programmée et testée.\nDans sa présentation technique de la PS5 Pro , Sony décrit un GPU renforcé, davantage de ressources pour le ray tracing et le PSSR. ",
-   "pub": "2026-11-26T07:40:00+00:00",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMiigNBVV95cUxOd1pQUTM5SEhfRDFmQmpVeldFNmM3azJ5bHR6YWVqbTdPM1p3bWNRMndIbldCSWNzVlZDY3F4TWpRQXZsWTl6Y1pFWFBtaXF4MDU4cGRGR25lUk5FYnlYRGJfNEFRblRYaXRTLTNaY1R4TV9NUlFxSllISy02dnBsbld6ODdjMUFoaVcxX0pFRktuR1VCak12dUQ0Q0Y1S3pmNFRTb3BveG9ZS1NnbU45cUNOVW5ucVdxZkJxQ2xkZWJSZTZZcjh2ckhLWXVwTW91OWhrSVozTzdha2VsblZfUmM3ejBfeVpiUmtrR3ZHSktFbjM2cDdSNUtpSWR3dzFjZUZsTEVJc2l4Mk9icVhEOWVVaHNNRzZYZWw5WWl2bnJGX1FYZ1lfd2dkU3R6dVNST3hfb20yUHhoYklQLUdjb0JjRFRoOE1DUDdycGZMSnZJX3FTN0RKb1dUQnZDclR6YklFdnN1ajZYdEFfUm5oTl9FUGJ4TVRjRkVnTGt1aHY1UEFwZEQyWGpR0gGPA0FVX3lxTE9memJkUF9tU3dkTFRWX0NHem5tLWswWHl2dlZDVWE3SFlaZVZZYnAzc0RwR0JkVzhBMkc5dUxtUkdhSllJRXd1MmlpZlN3ZW9pWmtIcXhhdzFIR19zakR2ajA4M2U1Y3YzZVpQSEdTSnJ5VEh5N1lhNDNTaFNqXzZQemJHSlVwQWZZYlJaTnd5MkVPYWZDaFZQbFRlNl8wbFdMVjczOXUxU3lwY0J0Sm5CS0d5b2EwMlBxVTB6ZjczaWNueFFWT2FLd290b1d5RmpieUZFa3FyekhEekhWNlB5ZkVPS1JFZnI4NmpUWFdQWldlRWZIOHZjYVliZ0hSc0wtMldoZVRhb1NrM2Rtd0ExU3BWV1lyZkJDRjlaQWRzcGx0dGtVSGdiZFlwazNGNHhpTGF6MHVzTERNczFEaHl4dkFBZF9kSnVSS2h5M3VNVmVyZTJWQ1EtaEJyRkNUaDNWYmVtNEFYYndwQU1EUW5QbmQzdGdnT2x2alk1RlY0aks0Q28tYXVqN05OZEJMNA?oc=5",
    "s": "The Times of India",
    "d": "2026-11-26T07:30:00+00:00",
    "lang": "en",
-   "t": "In 2022, a teenager used Amazon Fire Stick to hack GTA 6 maker Rockstar Games and leak 90 gameplay clips; now he’s been released  the same day he was sentenced to seven years in prison",
-   "u": "https://timesofindia.indiatimes.com/technology/tech-news/in-2022-a-teenager-used-amazon-fire-stick-to-hack-gta-6-maker-rockstar-games-and-leak-90-gameplay-clips-now-hes-been-released-on-licence-the-same-day-he-was-sentenced-to-seven-years-in-prison/articleshow/136182840.cms",
-   "img": "https://static.toiimg.com/thumb/msid-136182852,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-   "chapeau": "​",
-   "txt": "",
-   "pub": "",
+   "t": "In 2022, a teenager used Amazon Fire Stick to hack GTA 6 maker Rockstar Games and leak 90 gameplay clips;",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -495,19 +454,6 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1VMEUzd3o0Q2FBeVc4SFpFdWNrNXNkQXc2SXNUZEUxMVJ0VzdTSE9jYTdXUlJ6MG1Ca29FZzdsbHhKRG01YlMzZDE1QVd0TlhjbnZGRHpjMUxNWEFjbmJESjRCNUJDYUM4cmJaOHRtalVsbDBFekRCanc4dTM?oc=5",
-   "s": "shattered.io",
-   "d": "2026-11-26T02:16:37+00:00",
-   "lang": "en",
-   "t": "GTA 6 Headset Test: 7 Headsets, 130 Hours (TechRadar)",
-   "u": "https://shattered.io/gta-6-headsets-techradar-7-tested-130-hours-nov-26/",
-   "img": "https://shattered.io/wp-content/uploads/2026/11/gta-6-headsets-techradar-7-tested-130-hours-nov-26-img13.webp",
-   "chapeau": "TechRadar's Rob Dwiar logged around 130 hours of GTA 6 on 7 headsets. Here is what the Nov. 25 test confirms and what it leaves open.",
-   "txt": "Image: Rockstar Games TechRadar published a long hands-on piece on November 25, 2026, in which writer Rob Dwiar says he played around 130 hours of Grand Theft Auto 6 while testing seven gaming headsets. The headline frames it as a verdict on each headset for Rockstar’s open-world action-adventure. For anyone shopping for a GTA 6 headset this week, that is the kind of long-session evidence a spec sheet cannot give you.\nThe timing is hard to miss. Black Friday starts tomorrow, November 27, and the game is still in its first weeks on shelves. Our earlier look at what GTA 6 looks like after launch, at $79.99 with no roadmap showed how much attention the game still commands. Headset makers want a slice of it, and reviewers are now putting names to the products that survive a marathon.\nThis analysis sticks to what the available TechRadar extract confirms. It names five of the seven headsets, quotes three of Dwiar’s verdicts, and leaves the rest of the list, the prices, the battery figures and the testing platform unconfirmed. We flag every gap below instead of filling it with guesses.\nGoogle · Preferred Sources Don't miss new tech stories on Google\nAdd Shattered once in the Google app and our stories show up in your news suggestions.\nThe article carries Dwiar’s byline and a publication date of November 25, 2026. Its core claim is simple. He tested multiple headsets while playing Grand Theft Auto 6 for roughly 130 hours, then wrote up how each one handled Leonida, the game’s setting.\nThat structure matters. Most headset reviews rely on a week of mixed use, a few benchmark tracks and a handful of games. A single-title test across one long campaign and its aftermath gives a narrower but deeper view. It shows which headset a player still wants to wear in hour 90, and which one ends up back in the box.\nThe extract we can verify does not include a ranking, a score table or a pricing chart. It does include named products and short, quotable verdicts. So the honest reading is this: TechRadar has published a seven-headset roundup built around one game, and five of the headsets are identifiable today.\nOne hundred thirty hours is a lot of playtime for a review. For scale, our coverage of the 39 million PS5 players and 683 million logged hours implies an average of roughly 17.5 hours per player, if both figures cover the same audience. Dwiar’s total is about 7.4 times that crude average.\nHeadsets fail slowly. Clamp pressure, ear-cup heat, a boom arm that drifts, a wireless link that drops once an hour. None of that shows up in a 20-minute demo. Hundreds of in-game minutes across city streets, highways, interiors and open country expose those flaws, and they are the flaws that decide whether a headset earns a recommendation.\nDwiar said he played around 130 hours. The extract does not say how those hours split across the seven headsets. A reader cannot tell whether each device got 18 hours or whether a favorite took most of the time. That split changes how much weight each verdict deserves, so treat the 130 hours as the test’s total, not as a per-headset figure.\nFive products appear by name in the verified extract. The table below separates what TechRadar’s text confirms from what remains open. Cells marked as unconfirmed are not gaps in our research, they are details the extract does not contain.\nThe spread of makers is worth a look. Audeze and Beyerdynamic come from the enthusiast audio side. Turtle Beach and SteelSeries are mainstream gaming brands. A roundup that mixes both camps tells readers the test cared about sound quality and gaming features at the same time.\nThe extract names the Audeze Maxwell 2 and a Maxwell2 ANC variant, and it confirms both use planar magnetic drivers. Dwiar described the Audeze headsets as “a huge joy for listening to the world and soundscape of Leonida.”\nThat is a sound-first endorsement. It does not mention voice chat, comfort or price. It focuses on how the game’s world comes through the drivers, which suits a title built around ambient detail. Planar magnetic designs spread the drive force across a thin diaphragm, and listeners often cite that for clean detail in layered scenes. That is a general description of the technology, not a measurement from TechRadar’s test.\nThe ANC label on the second variant points to active noise cancellation, a feature that matters for players in noisy rooms. TechRadar’s extract does not say how well it worked, so we will not rate it. We can say that a cancellation featu",
-   "pub": "2026-11-26T02:14:08+00:00",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZWNUaFJFSFZlNG82VnM1cHpvM2hDSkVlRU5XaXRyM2tKWElCM3hzbjVod2RBSnNDdDJHNUI4TE1WTXN5N0lEakpQaG44LTlxaDViOEd0X2xjbXFLMlZjTFpHNlVxdFY1RHF0M1pTTWRzLUgzemJZYXVGZVpRYWFTcGl0S3dwa0VzdW4wazI5a2Y?oc=5",
    "s": "shattered.io",
    "d": "2026-11-26T01:39:57+00:00",
@@ -539,7 +485,7 @@
    "d": "2026-11-25T21:44:45+00:00",
    "lang": "en",
    "t": "CyberLeek CYBERLEEK (CYBERLEEK-USD) Live Price, News, Chart & Price History",
-   "erreur": "HTTP Error 404: Not Found",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -647,6 +593,15 @@
    "cyberleek": true
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPY0NLbzl5QkMwZ243Xy1uYWVvOXRwR3lSRzlHUFl2OFJhUXRheXlRTmxIaUFBSzZfOFQ4bUpzZlBiWC1KNFRkb0xyOG5DN0wzdnZEcE4zUkdud1o1RE53azFpLXJaUmdZR2pDa0tBQ2tCR0VfLVhuRTlnOTBtb1FaU2hSWklfOWFMZ2hN?oc=5",
+   "s": "shattered.io",
+   "d": "2026-11-25T15:26:28+00:00",
+   "lang": "en",
+   "t": "GTA 6 ‘Best-Selling Ever’ Market: 7% Odds After a Record $3.79B Launch",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1jYTViamQzR3VvNFhxTkxjekJGX1ZadTV2eERqREJVaTJLblEtcFpDeHRvNl9WcjJGNEVKODVZYXpOWHc2d3Y0QnliclFTV0I5d1R4eTg0QjdmaFVrbzN4dVpHWlI4Q2I0Y3ZmTWpLeno5VmJZUm1fTQ?oc=5",
    "s": "shattered.io",
    "d": "2026-11-25T15:25:03+00:00",
@@ -678,11 +633,7 @@
    "d": "2026-11-25T14:41:00+00:00",
    "lang": "fr",
    "t": "Il tente de voler GTA VI dans un magasin à La Charité-sur-Loire puis sort un couteau pour prendre la fuite",
-   "u": "https://www.lejdc.fr/charite-sur-loire-58400/faits-divers/il-tente-de-voler-gta-vi-dans-un-magasin-a-la-charite-sur-loire-puis-sort-un-couteau-pour-prendre-la-fuite_15091747/",
-   "img": "https://img.centrefrance.com/sAueBf3A5qgwcoBne16Fz8v6Pnf5C9jVoJN2WY1iCGo/rs:fill:1200:800:1:0/g:sm/bG9jYWw6Ly8vMDAvMDAvMDcvODcvMDAvMjAwMDAwNzg3MDAxNw.jpg",
-   "chapeau": "Un homme a tenté de dérober un exemplaire du jeu GTA VI dans un magasin de La Charité-sur-Loire, mardi 24 novembre. Pris en chasse par l’agent de sécurité, il a brandi un couteau avant de prendre la fuite.",
-   "txt": "",
-   "pub": "2026-11-25T14:41:22Z",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -717,11 +668,7 @@
    "d": "2026-11-25T07:48:00+00:00",
    "lang": "en",
    "t": "“GTA 6”: Take-Two gets unofficial PC port removed from GitHub",
-   "u": "https://www.heise.de/en/news/GTA-6-Take-Two-gets-unofficial-PC-port-removed-from-GitHub-11537104.html",
-   "img": "https://heise.cloudimg.io/v7/_www-heise-de_/imgs/18/5/2/0/7/6/5/9/Jason_Duval_07-763a916c24d34b43.jpg?func=bound&height=1200&org_if_sml=1&q=85&width=1200",
-   "chapeau": "Project Leonida aimed to bring the leaked Xbox version of “GTA 6” natively to Windows. Take-Two’s DMCA notice has taken it down.",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -777,19 +724,6 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbGZkNzJRbW01Y1FocmFQTTZLZ2VuQ3dROVpjTFItQ3BZS1BYRHFLT0tYbVB1VGFIeUh3cy1sTU1RMzc4NnVsOTFoWG5XRFIyTm5PYVVkQUVoX0w5RFFGY045aVU4VXlHR3RSemh0S0ZNRk5VZjV1WjM2ZVpIUWJyYWxwbjVyN18zR0ZDa3FHNXJucEU0T3NpdmhYRlhXVEZ4VnBTM0FLODdmcVdfVWFNeDljVWxKS0VtWEp5LXJDeV9tUm41dWc?oc=5",
-   "s": "Bourse Inside",
-   "d": "2026-11-24T22:09:41+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : le mécanisme caché derrière le pari à 14 M€ sur ce memecoin qui a piégé les investisseurs",
-   "u": "https://bourseinside.fr/crypto/gta-6-le-mecanisme-cache-derriere-le-pari-a-14-me-sur-ce-memecoin-qui-a-piege-les-investisseurs/",
-   "img": "https://bourseinside.fr/wp-content/uploads/bourseinside/2026/11/gta-6-le-mecanisme-cache-derriere-le-pari-a-14-meur-sur-ce-memecoin-qui-a-piege-les-investisseurs-1200x660.jpeg",
-   "chapeau": "Un leaker mise sur un memecoin lié à GTA 6 pour forcer un pari à 15 millions de dollars, mais le marché et les risques suivent-ils vraiment ?",
-   "txt": "À la sortie de GTA 6, un leaker baptisé Cyberleek tente de transformer une fuite Xbox en jackpot crypto via le memecoin CYBERLEEK. Entre ultimatum à 15 millions de dollars et risque de faux fichiers, l’affaire prend une tournure inattendue.\nÀ la sortie de GTA 6 sur consoles, la frontière déjà floue entre jeux vidéo et crypto-actifs a encore reculé. Un leaker se faisant appeler Cyberleek a affirmé détenir une version presque complète du jeu sur Xbox et a tenté de transformer cette fuite en levier financier pour son propre token.\nSon idée : conditionner la mise en ligne d’un fichier exécutable de GTA 6 à la capitalisation d’un memecoin baptisé CYBERLEEK . L’objectif affiché s’élevait à 15 millions de dollars de valorisation, soit près de 14 millions d’euros, avec une date butoir fixée au 23 novembre pour publier le fichier quoi qu’il arrive. Quand l’exécutable présumé apparaît finalement en ligne, la capitalisation du token ne dépasse pourtant pas 1,36 million de dollars. Les chiffres racontent une histoire bien différente.\nAvant ce pari, le token CYBERLEEK avait déjà connu un emballement. En août, sa capitalisation avait atteint 25 millions de dollars, près de 23 millions d’euros, avant de chuter de 46 % en une seule journée après plusieurs ventes attribuées à son créateur. En octobre, Cyberleek fixe un nouvel objectif de 30 millions de dollars de valorisation pour financer ce qu’il présente comme un projet secret sans lien direct avec GTA 6 , puis abaisse la barre à 15 millions en novembre. La fuite du jeu devient alors l’argument central d’une campagne destinée à rallumer l’appétit spéculatif autour de ce memecoin .\nLe 19 novembre, jour du lancement officiel de GTA 6 sur consoles, Cyberleek affirme détenir une version Xbox de près de 209 Go de données, dont il diffuse une grande partie tout en gardant le principal fichier exécutable en réserve. Entre le 16 et le 18 novembre, CYBERLEEK perd 45 % de sa valeur, avant de rebondir de 41 % le 19 puis encore de 16 % le 20, selon les données on-chain compilées par Bitquery. Au 24 novembre, le token s’échange autour de 0,00136 dollar, pour une capitalisation proche de 1,36 million de dollars et un volume quotidien d’environ 752 000 dollars, soit près de 690 000 euros. Loin des 15 millions visés, la crypto reste à plus de 90 % sous l’objectif que Cyberleek avait lui-même fixé, même si ce dernier a tenu sa promesse de rendre le fichier exécutable accessible le 23 novembre, en expliquant que les fonds devaient servir à un projet resté confidentiel.\nLes flux de transactions illustrent cette perte d’interet des investisseurs. Le 23 novembre, au moment de la publication du fichier exécutable présumé de GTA 6 , l’heure la plus active sur CYBERLEEK enregistre environ 186 600 dollars de volume, quand le record horaire atteignait 5,47 millions de dollars lors des premières fuites en août, soit près de 29 fois plus. Certains ont surtout mis à profit ce regain de visibilité pour sortir : Bitquery identifie cinq portefeuilles ayant réalisé environ 123 000 dollars de ventes entre le 19 et le 23 novembre, sans aucun achat sur la période. Ces montants ne reflètent pas nécessairement leurs gains, mais rappellent des conditions de marché où une précédente étude montrait que près de 94 % des traders de memecoins Solana suivis affichaient des pertes. Un simple coup d’oeil à la chronologie des événements et aux ordres de grandeur résume l’écart entre l’ambition initiale et la réalité.\nEn annonçant dès le départ qu’il publierait de toute façon le fichier exécutable le 23 novembre, même si la capitalisation n’atteignait pas les 15 millions de dollars, Cyberleek a en partie neutralisé l’intérêt d’acheter son token : les joueurs pouvaient simplement attendre que la fuite soit gratuite. Dans le même temps, l’affaire a vu apparaître des cryptomonnaies imitatrices, comme un token Justice For Cyberleek lancé sur la plateforme Pump.fun. Les risques se sont aussi déplacés vers les joueurs eux-mêmes : dès le 3 novembre, les chercheurs de Netcraft recensent 121 nouveaux noms de domaine reprenant l’identité de Cyberleek, dont certains proposent de prétendues versions de GTA 6 contenant des fichiers suspects. Un exécutable analysé est signalé par 34 des 68 moteurs de sécurité de VirusTotal, un mode opératoire rappelant le logiciel malveillant Stealka, déjà diffusé sous la forme de modifications de jeux vidéo pour dérober des cryptomonnaies.",
-   "pub": "2026-11-24T22:09:41+00:00",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRkJHeVI5VWpHZE5QZnpTeEtveXlOYU9RenNuR1d2eXQyVlB3YnVEZzhSVFdBc3NoODVOUjE5OHNSWEdjQXdHeU4za3dCdHdoNkhsZWFUQ2l4WkhFclllNnpsR1lUQllCWEtYa2phYUhuNmFkYzRfSWlsUktWTFNMWDBSM0xxU0d2QVFJUVdreWJ1bDNNQmFhcWdOQjBENDFGay0zVW84UFBBaFJQTWFFUjZVYnFIVnpj?oc=5",
    "s": "DLCompare.com",
    "d": "2026-11-24T21:00:00+00:00",
@@ -816,6 +750,15 @@
    "cyberleek": true
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPLWdwSHRyMk81NWhEWE5RaGpyXzh6azhnWWVva2ZoaFFZN3RqNGU3cWpjSHVuWnBFd2RlWlhxWU5JSThBRGFNS1E1Z2Q3M0RCTklUQmxlcU9CWnVLNGxLdHhveF9MY0MtZHVtN2RCdEdZamdvb3EwU2hmUjduZkhhS2M4cnVlMWpyNjY4WXgwYXZHWUUxZnV3cXE2SQ?oc=5",
+   "s": "Polygon.com",
+   "d": "2026-11-24T18:24:27+00:00",
+   "lang": "en",
+   "t": "Catastrophic GTA 6 leak officially kickstarts race for PC port",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1rd18tRnF2OGFqQzg4NHY1NkhnQ2g3bHNoTFdEUjJDVDlWZTJtcHJFNnNsNlNwM0JBVzVsV1R1ZnU5SzJHUWhlVmNGdzktQkswd0JWRi1rXzZxVjhWUjlN?oc=5",
    "s": "Tbreak UAE",
    "d": "2026-11-24T17:28:00+00:00",
@@ -826,6 +769,24 @@
    "chapeau": "Project Leonida lost its GitHub page and its Discord was reportedly taken down after the GTA 6 Xbox leak. No GTA 6 PC port is playable yet, either.",
    "txt": "The GTA 6 Xbox leak hasn’t yielded a playable PC port, and Rockstar hasn’t confirmed whether it requested the removal of Project Leonida’s Discord server.\n0:00 Unofficial GTA 6 PC port projects are going offline days after a leaked Xbox build was released.\nNone of the projects has made GTA 6 playable on PC. Project Leonida, which aimed to get the Xbox Series X build running on PC, lost its GitHub page. VGC reports a claim that Leonida’s Discord server was taken down at the request of Rockstar and its parent company, Take-Two.\nThe server had around 179,000 members, with 74,000 online. There’s no evidence of emails from Rockstar or Discord, and Rockstar and Take-Two have said nothing.\nOn 18 November, Take-Two used DMCA takedowns against unofficial GTA 5 ports on GitHub. In August, it subpoenaed Discord for data on Cyberleek, the account behind the GTA 6 leak. Rockstar’s modding guidelines also restrict unofficial ports.\nLeonida’s GitHub page returned a 404 error, not a DMCA notice. The error points more towards the project’s operators having deleted the page, but it doesn’t prove they did.\nCyberleek released the Xbox build on 19 November without the executable, promising to release it sooner if a meme coin reached a $15 million target. The coin missed that target, but Cyberleek released the executable the following Monday anyway. According to Decrypt, the GTA6Modding Discord server was removed the next day, and other groups, including Chasm, locked down their servers.\nMany projects are using AI chatbots such as Claude to write their code. Two projects, VIctory and XCL, can load the game world, but neither can run it in a playable state. Don’t download anything advertised as GTA 6 for PC; some carry infostealers.\nFound us on Google? Add tbreak as a preferred source to see more of our stories in Top Stories.",
    "pub": "2026-11-24T21:28:00+04:00",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOR3NyY0pEVGt0VVhsZDVJOEJIMkZFalJrTHUzMWh6Ym9VeWFMMXJZS1B0UkRwN25SV1BaVElWUGlWbmEtQmV2eEFfV0FvakZYX2o0Z1NheEYwMVBxc2FOOFZMR0c1ZjFnNGxHX0ZXX2RIcnlIOHdCN1lDamhUZXlac2I2TXI0ZFc0U082UnRJUUdfRkVsSnIycFcyNVg2dURhU2xvUTlZbzROdnUxWm5ZNEhlZTRacEcxQkRXZDdhV0JoSXdLSnllUldn?oc=5",
+   "s": "LevelUp",
+   "d": "2026-11-24T15:18:57+00:00",
+   "lang": "en",
+   "t": "CyberLeek Leaks GTA 6’s Executable File, and Modders Are Already Working on a Playable PC Version",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUHpUdTNDZUR6dEk3MFd1UWJQLVVFMml4T3Y5cnVvelYyS3Z5aXBjbVZVV0QtRDFtLXB5Z04zbXd1S2hsdWZyLU91MEFhWTdxZ3hrOU50N05nN2ZJeE9NdlpkQ0FHcTZNbHZwR1MzZC1hN2Y1VnVxNUZYMTE2ckl1NFFGdHU0aVdpX3pJRWVzclVxNkk3NWVudVQxUQ?oc=5",
+   "s": "lebigdata.fr",
+   "d": "2026-11-24T14:10:06+00:00",
+   "lang": "fr",
+   "t": "Cyberleek a tenu parole : GTA 6 démarre sur PC, mais ne vous emballez pas !",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -851,19 +812,6 @@
    "img": "",
    "chapeau": "",
    "txt": "The much-anticipated GTA 6 was recently released on Xbox Series S|X and PlayStation 5 (Pro) consoles—on November 19, to be exact. However, the PC version is still missing, which drew the ire of the Cyberleek group, which leaked an Xbox build of the game a few days ago. Yesterday, as promised, the group released the game’s executable file—the missing piece of the puzzle.\nThe fact that Rockstar is (once again) skipping the PC version at the game’s launch seems to have seriously upset the hackers at Cyberleek , who were behind numerous gameplay leaks prior to the game’s release. On the game’s release day, they published a nearly complete build of the Xbox version of the game with almost all the files—only the executable was missing—and it wasn’t until yesterday that the group decided to share the prized file, followed by the message: “The exe is out. Always free .” Along with this, the SHA-256 hashes of the executable were also published.\nHowever, this does not mean the game will run natively on PC ; no, there is still a lot of work to be done, since the game continues to rely on console-specific services. The same goes for memory management and graphical interfaces. Developers must therefore adapt the game’s code to make it PC-compatible . Nevertheless, the development of an unofficial port is entering a new phase, and things are likely to move very quickly. Admittedly, projects like Project Leonida had already begun even before the executable was shared, but that project seems to have stalled, as its GitHub repository has been closed.\nMeanwhile, Rockstar appears to be keeping quiet, as the studio has not issued any press releases or responded to these two major leaks. In contrast, we can only assume that the studio finds itself in a delicate situation, as they still need to work on the PC version, but they’re now competing with independent developers who can distribute the PC port for free before they do—which poses a significant financial risk as well as a major blow to the studio’s reputation. In short, we’re following all of this closely—the rest of the story promises to be fascinating!",
-   "pub": "",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5qV3BZMHhobFFYLXhEVFNibmhldXhUWWVEYzhhdXdNOGxqTDNMamRORTQwSHcwVmsxSnQwMTJtYUhSN29pU0dzcThwRFBvWUIzcWxfbUVCVXl0NXFhSTgtVUU1NWoxYkE?oc=5",
-   "s": "Rom-Game.fr",
-   "d": "2026-11-24T13:05:09+00:00",
-   "lang": "fr",
-   "t": "GTA VI sur PC : les portages non officiels montrent le jeu, à 3 images par seconde",
-   "u": "https://www.rom-game.fr/news/7413-gta-vi-pc-portage.html",
-   "img": "https://www.rom-game.fr/multimedia/og/news/gta-vi-pc-en-jeu-une-20261125-142908.webp.jpg",
-   "chapeau": "48 heures après la fuite de l'exécutable, les portages PC non officiels de GTA VI montrent le jeu : Belobug et ZETTROX suivent les missions, mais à 2 ou 3 images par seconde.",
-   "txt": "Il n'aura pas fallu plus de quarante-huit heures. Depuis que CyberLeek a publié lundi 23 novembre l'exécutable de la build Xbox Series de GTA VI , les portages PC non officiels sont passés d'un écran noir à un monde ouvert presque fidèle à celui de la console. Les premières images en jeu circulent depuis mercredi 25 novembre, mais le jeu reste injouable : les meilleures versions tournent à deux ou trois images par seconde.\nLe site de fans PortWatch VI , qui note chaque projet de 0 à 100 % selon le chemin parcouru vers un jeu jouable de bout en bout, résume l'emballement : le meilleur projet plafonnait à 6,3 % le 21 novembre, il atteint 77,4 % ce mercredi. En tête, la version de Belobug , une variante de VIctory conçue pour les cartes graphiques AMD . Selon PortWatch, qui l'a vue tourner, le monde ouvert s'affiche éclairé, avec ses textures, ses passants, ses véhicules, sa végétation, son eau et son ciel, au point de ressembler au jeu commercial. Elle permet de suivre les missions et plante rarement. Mais elle tourne entre 3 et 5 images par seconde, environ 3 en voiture, sur une configuration musclée (Radeon RX 9070 XT, Ryzen 7 9800X3D et 64 Go de mémoire vive), réclame près de 22 Go de RAM et plus de 16 Go de mémoire vidéo, et laisse encore des véhicules se déformer et des arbres lointains disparaître. Son auteur la juge lui-même « pas encore jouable ».\nDerrière, la version de ZETTROX , tirée de VIctory et de la variante de hyphennn pour les cartes NVIDIA , mène du prologue de Lucia jusqu'à la première mission de Jason , « Gone Fishing », où PortWatch a pu vérifier le premier tir mortel de GTA VI sur PC. Elle n'a jamais planté en plus d'une heure et demie de session, mais tourne autour de 2 images par seconde, avec des zones d'ombre entièrement noires et des scènes lumineuses surexposées. Sur X, d'autres images montrent la scène de la prison de Lucia avec son éclairage intérieur et des textures détaillées, dans une version partagée par im_gone .\n« Je n'aurais jamais imaginé voir GTA VI tourner à 3 images par seconde avec des graphismes presque corrects en seulement 48 heures », reconnaît John Papadopoulos , de DSOGaming, qui attend tout de même un rendu stable à 30 images par seconde, sans défauts visuels, avant de juger l'essai utile.\nLa veille, DSOGaming recensait cinq émulateurs ou portages majeurs : CGBJ , VIctory , XCL , Xbox2Windows et TuxBox . Les deux derniers parviennent à lancer GTA VI et à afficher sa première image. XCL et VIctory vont plus loin, jusqu'au menu principal, et faisaient figure de favoris avant l'apparition de CGBJ.\nLes deux projets ne s'y prennent pas tout à fait comme Leonida, qui misait sur la recompilation statique du code du jeu . XCL , écrit en Rust et publié sous licence GPL-2.0 le 20 novembre, se présente comme une couche de compatibilité entre la Xbox Series et Windows, dans l'esprit de Wine ou de Proton . Il n'émule pas le processeur : le code x64 du jeu tourne directement sur le PC, tandis que XCL réécrit de son côté les bibliothèques système de la console, comme kernelx.dll ou d3d12_xs.dll, et recompile les shaders RDNA2 de la console en shaders PC. Son dépôt affirme faire déjà tourner entièrement Minecraft Preview , Unicorn Overlord , Fortnite et XDefiant , dans la limite de leurs services en ligne.\nVIctory , lui aussi écrit en Rust, sous licence GPL-3.0, est né dans la soirée du 23 novembre avec un seul objectif : faire tourner GTA VI sur Windows à partir des fichiers fournis par l'utilisateur. Son état des lieux est précis : le jeu démarre, affiche ses écrans de premier lancement, sa vidéo d'introduction avec le son et ses menus à 30 images par seconde, puis charge le monde en une cinquantaine de secondes. Mais une fois dans la première mission, seul le titre s'affiche, la scène reste sombre et chaque image prend de 0,5 à 1,8 seconde. Une partie des shaders n'est pas encore traduite, et le projet prévient que l'entrée dans le monde peut figer la carte graphique au point de forcer Windows à relancer son pilote. Les deux dépôts cumulent déjà plusieurs milliers d'étoiles sur GitHub.\nCGBJ est une version privée de VIctory qui reprend une partie des travaux de XCL. Mardi, d'après DSOGaming, sa dernière version permettait de se déplacer à la manette, de parler aux personnages non joueurs et d'ouvrir le menu du jeu. Un résultat obtenu en moins de vingt-quatre heures, qui reste très loin d'une version jouable : il n'y a pas d'éclairage et les performances sont mauvaises. John Papadopou",
    "pub": "",
    "cyberleek": true
   }
