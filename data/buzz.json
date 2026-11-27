@@ -1,8 +1,65 @@
 {
  "title": "Le buzz GTA6",
- "updated_at": "2026-11-27T20:13:07+01:00",
+ "updated_at": "2026-11-27T22:13:16+01:00",
  "schedule": "Veille toutes les 2 h, de 8 h à minuit",
  "items": [
+  {
+   "id": "x-bug-meteo-rockstar-gtasix-2026-11-27",
+   "title": "GTA 6 : un bug météo persiste après le dernier patch, Rockstar serait au courant, selon @gtasix_",
+   "summary": "@gtasix_ affirme que Rockstar Games est au courant que le bug météo touche encore certains joueurs après le dernier patch, et qu'une mise à jour est en préparation. Le post cite @nima02l comme source. Aucune déclaration officielle n'est citée, et aucune reprise n'a été trouvée dans data/presse.json.",
+   "url": "https://x.com/gtasix_/status/2126401110865014977",
+   "platform": "X",
+   "author": "@gtasix_",
+   "status": "Rumeur",
+   "published_at": "2026-11-27T19:41:46.000Z",
+   "checked_at": "2026-11-27T22:13:16+01:00",
+   "evidence": "Vues relevées dans data/x_alertes.json (relevé du 27/11, 21 h UTC) : 44 572 vues, 2 754 j'aime, 142 signets, 108 reprises, 43 réponses. Un seul compte relève l'information.",
+   "visual": "Bug météo",
+   "image": "https://pbs.twimg.com/media/HYJ-iWGWQAA1dig?format=jpg&name=360x360",
+   "image_alt": "Image du post de @gtasix_ sur le bug météo de GTA 6",
+   "image_credit": "@gtasix_ sur X",
+   "embed_type": "x",
+   "cta": "Ouvrir la publication sur X",
+   "post_text": "A new GTA 6 update is in the works. Rockstar Games is aware that the weather bug is still affecting some players after the latest patch."
+  },
+  {
+   "id": "x-sam-houser-apparition-gtavi-countdown-2026-11-27",
+   "title": "GTA 6 : nouvelle apparition de Sam Houser après le lancement, selon @GTAVI_Countdown",
+   "summary": "@GTAVI_Countdown publie une nouvelle apparition de Sam Houser, présenté comme président de Rockstar, après le lancement de GTA 6. Le post ne donne ni le contexte ni la date de l'apparition, et aucune reprise n'a été trouvée dans data/presse.json.",
+   "url": "https://x.com/GTAVI_Countdown/status/2126390746785710447",
+   "platform": "X",
+   "author": "@GTAVI_Countdown",
+   "status": "Rumeur",
+   "published_at": "2026-11-27T19:00:35.000Z",
+   "checked_at": "2026-11-27T22:13:16+01:00",
+   "evidence": "Vues relevées dans data/x_alertes.json (relevé du 27/11, 21 h UTC) : 356 624 vues, 6 605 j'aime, 691 signets, 222 reprises, 111 réponses. Un seul compte relève l'information.",
+   "visual": "Sam Houser",
+   "image": "https://pbs.twimg.com/media/HYJ1BZlXQAAd4j8?format=jpg&name=360x360",
+   "image_alt": "Image du post de @GTAVI_Countdown sur Sam Houser",
+   "image_credit": "@GTAVI_Countdown sur X",
+   "embed_type": "x",
+   "cta": "Ouvrir la publication sur X",
+   "post_text": "Rockstar President, Sam Houser’s latest appearance following the historic GTA 6 launch. Legend."
+  },
+  {
+   "id": "x-syndicat-rockstar-uk-vote-gtavi-countdown-2026-11-27",
+   "title": "GTA 6 : la majorité des salariés de Rockstar au Royaume-Uni rejettent la reconnaissance syndicale, selon @GTAVI_Countdown",
+   "summary": "@GTAVI_Countdown rapporte que la majorité des salariés de Rockstar au Royaume-Uni ont voté contre la reconnaissance d'un syndicat, après le lancement record de GTA 6. Le post cite un salarié qui explique que la reconnaissance syndicale a des conséquences juridiques contraignantes. Aucune reprise n'a été trouvée dans data/presse.json.",
+   "url": "https://x.com/GTAVI_Countdown/status/2126371309143593299",
+   "platform": "X",
+   "author": "@GTAVI_Countdown",
+   "status": "Rumeur",
+   "published_at": "2026-11-27T17:43:20.000Z",
+   "checked_at": "2026-11-27T22:13:16+01:00",
+   "evidence": "Vues relevées dans data/x_alertes.json (relevé du 27/11, 21 h UTC) : 22 326 vues, 377 j'aime, 23 reprises, 39 signets, 8 réponses. Un seul compte relève l'information.",
+   "visual": "Salariés Rockstar",
+   "image": "https://pbs.twimg.com/media/HYJjCGCXcAAtBwX?format=jpg&name=360x360",
+   "image_alt": "Image du post de @GTAVI_Countdown sur le vote syndical chez Rockstar au Royaume-Uni",
+   "image_credit": "@GTAVI_Countdown sur X",
+   "embed_type": "x",
+   "cta": "Ouvrir la publication sur X",
+   "post_text": "The majority of Rockstar employees in the UK have voted against union recognition following GTA 6’s record-breaking launch."
+  },
   {
    "id": "x-port-pc-60-fps-gtalphaintel-2026-11-27",
    "title": "GTA 6 : un port PC non officiel affiché à 60 images/s stables, selon @GTAlphaintel",
@@ -7742,6 +7799,11 @@
    "at": "2026-11-27T20:13:07+01:00",
    "label": "Passage Claude Haiku (Matière X, veille 2 h)",
    "summary": "1 sujet ajouté : port PC non officiel à 60 images/s stables selon @GTAlphaintel (36 537 vues, un seul compte, Rumeur). Sous le seuil ou déjà présents : Dealers Choice (14 437 vues), Jason et Lucia (14 775), Ghost Ship (8 452), Cyberleek/Sventek déjà publié."
+  },
+  {
+   "at": "2026-11-27T22:13:16+01:00",
+   "label": "Passage Claude Haiku (Matière X, veille 2 h)",
+   "summary": "3 sujets ajoutés, un seul compte chacun, Rumeur : bug météo signalé par @gtasix_ (44 572 vues), apparition de Sam Houser (356 624 vues), vote syndical chez Rockstar UK (22 326 vues). Non retenus (plafond de 3 par passage) : Dealers Choice (43 565 vues, guide Dexerto), Vice City x Michael Jackson (31 862 vues)."
   }
  ],
  "coverage": {
