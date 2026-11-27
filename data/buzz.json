@@ -1,8 +1,27 @@
 {
  "title": "Le buzz GTA6",
- "updated_at": "2026-11-27T18:12:37+01:00",
+ "updated_at": "2026-11-27T20:13:07+01:00",
  "schedule": "Veille toutes les 2 h, de 8 h à minuit",
  "items": [
+  {
+   "id": "x-port-pc-60-fps-gtalphaintel-2026-11-27",
+   "title": "GTA 6 : un port PC non officiel affiché à 60 images/s stables, selon @GTAlphaintel",
+   "summary": "@GTAlphaintel affirme qu'un port PC non officiel de GTA 6 tourne à 60 images/s stables. Selon le post, ce port s'appuie sur le code source qu'aurait fuité Cyberleek, recompilé par un tiers. Aucune vérification indépendante n'est citée dans le post, et aucune reprise n'a été trouvée dans data/x_alertes.json ni data/presse.json.",
+   "url": "https://x.com/GTAlphaintel/status/2126345314072179030",
+   "platform": "X",
+   "author": "@GTAlphaintel",
+   "status": "Rumeur",
+   "published_at": "2026-11-27T16:00:03.000Z",
+   "checked_at": "2026-11-27T20:13:07+01:00",
+   "evidence": "Vues relevées dans data/x_alertes.json (relevé du 27/11, 18 h UTC) : 36 537 vues, 477 j'aime, 67 signets, 15 reprises. Un seul compte relève l'information.",
+   "visual": "Port PC",
+   "image": "https://pbs.twimg.com/amplify_video_thumb/2126046003228753920/img/3DpZJpsjDFNo1wkt.jpg",
+   "image_alt": "Image de la vidéo du post de @GTAlphaintel sur le port PC non officiel de GTA 6",
+   "image_credit": "@GTAlphaintel sur X",
+   "embed_type": "x",
+   "cta": "Ouvrir la publication sur X",
+   "post_text": "The unofficial GTA 6 PC port has achieved stable 60 FPS. This comes after the source code was leaked recently by Cyberleek, and recompiled b..."
+  },
   {
    "id": "x-50-millions-copies-alinea-gtavi-countdown-2026-11-27",
    "title": "GTA 6 : plus de 50 millions d'exemplaires vendus, selon Alinea Analytics relayé par @GTAVI_Countdown",
@@ -7718,6 +7737,11 @@
    "at": "2026-11-27T18:12:37+01:00",
    "label": "Passage Claude Haiku (Matière X, veille 2 h)",
    "summary": "1 sujet ajouté : plus de 50 millions d'exemplaires selon Alinea Analytics (@GTAVI_Countdown, 23 355 vues, Rapporté). Les autres publications de plus de 20 000 vues étaient déjà présentes ; sous le seuil : décors abandonnés (19 633 vues, un compte), profil criminel (17 286), relations Jason-Lucia (11 040), Ghost Ship (5 630)."
+  },
+  {
+   "at": "2026-11-27T20:13:07+01:00",
+   "label": "Passage Claude Haiku (Matière X, veille 2 h)",
+   "summary": "1 sujet ajouté : port PC non officiel à 60 images/s stables selon @GTAlphaintel (36 537 vues, un seul compte, Rumeur). Sous le seuil ou déjà présents : Dealers Choice (14 437 vues), Jason et Lucia (14 775), Ghost Ship (8 452), Cyberleek/Sventek déjà publié."
   }
  ],
  "coverage": {
