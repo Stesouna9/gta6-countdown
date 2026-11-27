@@ -1,8 +1,27 @@
 {
  "title": "Le buzz GTA6",
- "updated_at": "2026-11-27T14:12:40+01:00",
+ "updated_at": "2026-11-27T16:12:40+01:00",
  "schedule": "Veille toutes les 2 h, de 8 h à minuit",
  "items": [
+  {
+   "id": "x-file-attente-ps5-distante-gtalphaintel-2026-11-27",
+   "title": "GTA 6 : des fans font la file pendant des heures sur un site qui prête une PS5 à distance",
+   "summary": "@GTAlphaintel relaie un site où des fans ont attendu des heures pour jouer à GTA 6 gratuitement sur la PS5 d'un inconnu, cinq minutes par personne avant de passer la main au suivant. Un seul compte relève l'information ; aucune reprise trouvée dans data/presse.json.",
+   "url": "https://x.com/GTAlphaintel/status/2126194306906272079",
+   "platform": "X",
+   "author": "@GTAlphaintel",
+   "status": "Rumeur",
+   "published_at": "2026-11-27T06:00:00.000Z",
+   "checked_at": "2026-11-27T16:12:40+01:00",
+   "evidence": "Vues relevées le 27/11 à 15 h 11 UTC (data/x_alertes.json) : 22 028 vues, 416 j'aime, 11 réponses, 5 republications. Un seul compte relève l'information ; aucune reprise trouvée dans data/presse.json. Non vérifié.",
+   "visual": "File PS5",
+   "image": "https://pbs.twimg.com/media/HYFYTrAbUAAVX9W?format=jpg&name=360x360",
+   "image_alt": "Image de la publication de @GTAlphaintel sur la file d'attente pour jouer à GTA 6 sur une PS5 à distance",
+   "image_credit": "@GTAlphaintel sur X",
+   "embed_type": "x",
+   "cta": "Ouvrir la publication sur X",
+   "post_text": "Texte relevé : « GTA VI fans queued for hours on a website that let them control a stranger's PS5 and play for free. Each person got five minutes before control was handed to the next person. » Non vérifié par la veille."
+  },
   {
    "id": "x-record-streaming-420-millions-heures-gtalphaintel-2026-11-27",
    "title": "GTA 6 : un record de livestreaming avec 420 millions d'heures regardées la première semaine",
@@ -7670,6 +7689,11 @@
    "at": "2026-11-27T14:12:40+01:00",
    "label": "Passage Claude Haiku (Matière X, veille 2 h)",
    "summary": "2 sujets ajoutés : record de 420 M d'heures de livestream (GTAlphaintel, 20 866 vues) et éditions censurées du « trick Nouvelle-Zélande » (GTAlphaintel, 22 619 vues), tous deux au-dessus du seuil de 20 000 vues, Rumeur car un seul compte. Correction du passage de 12 h 12 : ces deux posts dépassaient déjà le seuil, ils n'auraient pas dû être écartés."
+  },
+  {
+   "at": "2026-11-27T16:12:40+01:00",
+   "label": "Passage Claude Haiku (Matière X, veille 2 h)",
+   "summary": "1 sujet ajouté : file d'attente pour jouer à GTA 6 sur une PS5 à distance (@GTAlphaintel, 22 028 vues, Rumeur). Les autres publications de plus de 20 000 vues étaient déjà présentes ; les trois sous ce seuil (15 796, 18 528, 18 947 vues) n'ont qu'un compte."
   }
  ],
  "coverage": {
