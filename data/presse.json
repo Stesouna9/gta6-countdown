@@ -1,6 +1,14 @@
 {
- "maj": "2026-11-27T22:02:13+00:00",
+ "maj": "2026-11-27T22:22:47+00:00",
  "articles": [
+  {
+   "gn": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNTUd5Q3dDNXBPZ1FzdEVNczBjdVR4WnV5aHRST25zS2dIcThfZnAySGlUTzRNcG16ekhBVjVVTUZDZ3hvaWlBSUw4UFZ3UUdGZDk0WGpVUDZwNktWRzNka3dadUFOSDAybUNtZF95Mi1qVmFKQlpJSUFWeGE3UTVQZGV1YXQ1ekVqcGxjWnRUc0Z0OFE2NmVSTTNzNmV4OHkxbnZyb1p4Ri1TZHl6ZTBmU29mcC00MkdISzdDYldFM0JpRVhnMnFHbVRKbTBtWFY3Y0hjdVBrbFRWWW9GeTdSc1paV2M1ZHZfOUZQNUZ3RXNIVVJHTVhxRWFrbUYyTmd3Mnp0dkk2NVp3QVhFcVJ3bUpzX0hJZw?oc=5",
+   "s": "Le Figaro",
+   "d": "2026-11-27T21:48:58+00:00",
+   "lang": "fr",
+   "t": "Notre grande critique de GTA 6 : une œuvre magistrale, aussi ultraviolente qu’intime, vers laquelle convergent sept décennies de jeux vidéo",
+   "erreur": "HTTP Error 429: Too Many Requests"
+  },
   {
    "gn": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1OWHppSERJWnE4RnVjRzR5dlZtS2JDbU1XOC1nTTNVRjhaWlRMNFRFdXZZWDVXODQ4ekw3VF9jVFBjYWRVZm52ZEFuczhrSDcxOFR0S1BMZjFmSU1udzM5dG5pTlB1OWs?oc=5",
    "s": "IMDb",
@@ -15,7 +23,31 @@
    "d": "2026-11-27T21:35:42+00:00",
    "lang": "fr",
    "t": "GTA 6 est disponible : ce que son gameplay confirme vraiment",
-   "erreur": "HTTP Error 429: Too Many Requests"
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1uc1lzX1NsVlhnNnNxZWg0dV95dUl0dE5rdTB1WTlYbE5ZeFVKRXZ6NF9rOEZOcmZTNkd6NV9FRVR0RVhPT1hSU1FBSzB6VzNQak41Y2s1X1BiWURiX2ZBYnZEangydw?oc=5",
+   "s": "Le blog Officiel de Julien Tellouck",
+   "d": "2026-11-27T21:35:41+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : le voyage rapide en taxi n’est pas confirmé par Rockstar",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1PRUZYdldkTzNoVzN6TDhfUk56Z0lGV21sNTFRMlZXY3RvZmZsUVVfamplRUNSS0hTbW5CaThWRVI1NDdwTko3VVNpRHBSRTM1VF9pNnJiaDd0MDVZQkZadHd3S1hXUEgxUHhwcTVR?oc=5",
+   "s": "Le blog Officiel de Julien Tellouck",
+   "d": "2026-11-27T21:31:45+00:00",
+   "lang": "fr",
+   "t": "Cyberpunk 2 n’est pas annulé après GTA 6 : le directeur créatif plaisantait",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQeVU5b3o4NjAtcFROZzN5dUZ4TFUzVFNSMkZLMVJwRWFCc2ZTSGk1ajNka0hNdWxSRkJPR1ZzU0dueUd5UlNVdzZIMWxoY3l3bDBGbTlsUGFxam80dy1XMFF1MzZDWEZ1ZEd2VzNtczJoMjZHeTVISTZaU084MUR1T2Z1VQ?oc=5",
+   "s": "Le blog Officiel de Julien Tellouck",
+   "d": "2026-11-27T21:25:41+00:00",
+   "lang": "fr",
+   "t": "GTA 6 nommé au titre de Jeu de l’année avant sa sortie : le règlement l’autorisait",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBObnhKQ24xTmRUQXNqWlNzbmNMS01vcXlSbjVOVWpEblZHZ3pYbUZkS0dETFBpaTBqemhrUlBneGFEWTZPQ3VCcjdsSUdUSDFlT2hUNnZjeGZQeGZpckZwczI0Q3h5aTZpT1lZUg?oc=5",
@@ -23,6 +55,30 @@
    "d": "2026-11-27T21:23:35+00:00",
    "lang": "en",
    "t": "GTA 6 review: a near-perfect masterpiece with one frustrating flaw",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQjNSYjM3YjZVeGoxRlh4c3BUWVBWTWp1dWhNTW85Zm43aUtCUFFwMkQ1bHJkZkNIam8tYWswSDlwb0ZIdzJNWmE0TGhhQnItRnJKYzJoN0VtT1I3eDgxaXVoenVLTUhuSVJEbkVTQ1d3MmY0QTg3WkQ4NEF4WFdHM0trazVyTDFnd2VNTkpjazJYSkpaZVNjUHd3R19SY0NEREJ6NWhFVFJNdVBK?oc=5",
+   "s": "NME",
+   "d": "2026-11-27T21:22:30+00:00",
+   "lang": "en",
+   "t": "‘GTA 6’ Lucia actor just made her first statement since the game’s launch",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMic0FVX3lxTE51ZkUzdldMS1FPRzBQa1hNcVpGVF9BcUNIaFNZV3RiTjBvdWFXc29QdTA2VVlyb2ZkZTd2VzRuRGhlejZrZVdzd2FqbVp3VGNxd1lGdjRIUjhNM2ZWQ0tOdkZvcVZzSEZFQXJYd0pPN2VTOEU?oc=5",
+   "s": "Le blog Officiel de Julien Tellouck",
+   "d": "2026-11-27T21:10:40+00:00",
+   "lang": "fr",
+   "t": "GTA 6 à 30 fps sur PS5 Pro : aucune confirmation officielle",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9vUnBBUWZ2ZTVkVHV1R2NFOGlTSlMyc2FGdU51cjdYWXVFT1BUUDB1a2lqYWx3elV1akJFUnRWdmhoMUIyNUlLS0k0RG9tMEtoVTU5NWdJTzBxdXBibWppWA?oc=5",
+   "s": "Le blog Officiel de Julien Tellouck",
+   "d": "2026-11-27T21:10:40+00:00",
+   "lang": "fr",
+   "t": "GTA 6 vise 30 fps sur PS5 Pro : ce que la console améliore réellement",
    "erreur": "429 : passage suivant"
   },
   {
@@ -43,6 +99,14 @@
    "d": "2026-11-27T21:01:17+00:00",
    "lang": "en",
    "t": "GTA 6 is the UK's biggest physical launch since 2019, despite having no actual game disc",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxPNlM3eUxVbWhfcUl6UnUxaXdvalVGN1MtbUVqTjBORVNuSWlJa3N5UG11YkVTMjZNdlJTSmJPbVQ2TEYxd2JXZHFfRTNkNjBhMWVsTVc3ck1VcVY0M0FseEZzeWtodXZuUzY0ZENodUk5TUhyWUdJdmtoaFFhWk1ZRmdKMFpCOEVyVENVQnZuSzJzcVhCbFJ4OHFkSm50d2JMejIxVUhWX2FRb1FoT3UyZXNPSVBXS2FUU0pacGs5MUtuQlRzOUl0cmdFLVJneTlMYUlOeGF4eF80WEVpbmJOalFDMTBkNXJzZXgyOXVndzRzMGp6eUFrclNuRnEwNjNyeGw0Q3pNZG9BcUw5X1VZcXY2ckpMUl9nczQ2a0lJMVdnUzdrNWt1N0kwM3BMNHpEam43MmhEbXlIOUk?oc=5",
+   "s": "La Crème Du Gaming",
+   "d": "2026-11-27T21:00:34+00:00",
+   "lang": "fr",
+   "t": "GTA 6 Online déjà jouable en multijoueur sur PC grâce à des portages non officiels bientôt finalisés",
    "erreur": "429 : passage suivant"
   },
   {
@@ -74,14 +138,6 @@
    "erreur": "429 : passage suivant"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNy1VY0I4aDI0N1dzWjhkX3BEdDc3RW5QYm9MWmJWWUlOR2oweDlzcGMtRkNKS2gyTzJoQ3hkanFOZnhLMWs1NnMwa2NuQkNrYS1BMHZpWnJ5R0hWQUtvN0s2NE1qbHo1YXIyWVRZXzlWa3BmVnVkRVdEb2tyN2FKSFRCYjRyYU0?oc=5",
-   "s": "GamingBolt",
-   "d": "2026-11-27T20:43:14+00:00",
-   "lang": "en",
-   "t": "Inside GTA 6 – How Rockstar Made the Game of the Generation",
-   "erreur": "429 : passage suivant"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTk9DVkJYWGhHRlJWX0FFX09oakpBUFVZYXdpQ1BzX2pjRUNpM1FnN1Y2aEF5TFA2MkUwV3ZuNFVlc3F5U1RoVVZxU21KVm42YlU0S1NlenJjbjZ5UGNlTXVKMV8zRGV2enBVU04zeG5NQXBDZzZjbWxEcjlTdV9FTWhDTDcyTUlTNGYyaXV1bnVvMmhpSjRsaVRmSVNDalFtWUhuNHZYTl8?oc=5",
    "s": "JeuxVideo.com",
    "d": "2026-11-27T20:40:08+00:00",
@@ -102,14 +158,6 @@
    "pub": "2026-11-27T20:33:10+00:00"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTHlYZ1lLWXlFbE5paVB4eDcybS11WHJvMGViMTE2RS1VaWVleGt3YjVfdFlNcUdoZXF4Y2gycVVjYkxGRTJGT29fallaU3ozRDVqSmVaQzNObkl6Qll1dDdnSUtwdUhUSkpHV1hvTTA2bktSWmlQY2hDdFIxZllGTkw3eTd0eE9FdVU1MHgyTW1PUzF3RXc?oc=5",
-   "s": "GamingBolt",
-   "d": "2026-11-27T20:28:14+00:00",
-   "lang": "en",
-   "t": "The Big GTA 6 Interview – How Rockstar Made the Game of the Generation",
-   "erreur": "429 : passage suivant"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMklPbDd0c3FoOU5FS3BzUTFGRU9rLTZQRUFod1Q4NnJ3aEUzVUQxQUNlUHczcDZqYW1XTVVNRXpTTFNLdXlUNDhHYVlzS0Q4NUxpRUtfZkV3cDd4cEZBUjlhLVlvbmVkbXl5dFRBSEdLdXhSNHlCSzR6VWNBQ0RXRTR4MXR2N1JZT0s2YXFVTlpJYzU1Snc?oc=5",
    "s": "Video Games Chronicle",
    "d": "2026-11-27T20:05:07+00:00",
@@ -120,6 +168,14 @@
    "chapeau": "Every Snapmatic Unique Animal location that Bret asks you to hunt in Grand Theft Auto 6…",
    "txt": "Grand Theft Auto 6 has a long hunting questline where you search for creatures in marked sections of the map, but not every creature is highlighted in the same way.\nBret will occasionally get reports of unique, vicious animals around Leonida, and he’ll give you some fairly vague hints about where to find them. There are no map markers to enjoy; you just have to judge where the animal might be by Bret’s texts, and the game world is so big that it can easily lead you astray.\nIn this guide, we’re breaking down where we found every Snapmatic and Unique animal in Grand Theft Auto 6 so you can easily find them too.\nGuides: If you're playing Grand Theft Auto 6, make sure to check out our complete walkthrough hub , featuring beginner tips , navigation experience explained , GTA 6 cheats , and more.\nAs you complete hunting missions, Bret will text you about unique animals around Leonida. You won’t be able to carry these large beasts, and Bret will have to pick them up, which can make hunting them all somewhat awkward — you need to wait until Bret is ready for another collection before hunting the next creature. The last two animals on the list are smaller and will need to be delivered by Jason.\nThe first unique animal that Bret will message you about is a Unique Buck to the Northeast of Grayson. He says he was on shrooms at the time, but the Buck is really real.\nFrom Grayson and the Ledford Motorcycle Workshop, head Northeast, hugging the coast, to the tip of South West Lennox County. The county is separated from Moreau by a river, and the Unique Buck can be found in South West Lennox County, before the river, where land juts out near the river’s mouth.\nBret’s received reports of a massive black bear that the local animal authorities have been unable to control, lurking to the South of Hamlet.\nYou should search the area South of the Pay ‘n’ Spray – Hamlet, around the road where the grey concrete turns to green grass on the map. Search around the North side of the road up to the next block, and the South side of the road to the swampy islands. The Unique Black Bear will roam this area repeatedly.\nThis Unique Crocodile is larger than others you can find, in addition to being all black. You can find it lurking on an island in the swamp to the South of Hamlet, to the West of Cottonmouth Lake.\nThe croc has several locations it can spawn around the island, but it is only ever on this island. It doesn’t move much, so using your Focus to look for a big glowing animal will be easier than checking animal trails.\nUnlike the crocodiles on this list, the Unique Swamp Alligator likes to move around, making it more awkward to find and put down. It’s located in Buckskin Swamp and can be found on one of several islands in the center of the swamp.\nStart your search from the Swamp Meditation Point, and search the six large islands immediately South of it. The Unique Swamp Alligator is covered in swamp weeds, making it stand out from other creatures.\nOne of Bret’s texts will mention a giant Wild Boar found at Wild Hog Point, West of Port Gellhorn. It’s a pretty distinctive large boar with zebra stripes, a mane, and large tusks.\nThis creature will always spawn North of the airfield, close to the beach, but never on the beach. We found it on the hill overlooking the airfield, napping under a tree.\nLeaf Links is an island found just Northeast of Vice City, and a large white crocodile has been terrorising the local golfers.\nThe Golf Course Crocodile can be found near the lake water hazard to the Southwest of the golf course. It’s always wandering the course between the two paths on the Northeast side of the lake.\nBelpoint Island has a panther problem. The island can be found to the West of Capri.\nThis Unique Panther is purple and can be found anywhere from the edge of the grindset retreat on the South side of the island, and the lone grinder left in a shack on the North side of the island. It’s a hostile creature, so there’s a chance it might attack you before you even notice it.\nAfter you’ve successfully hunted the Unique Panther, Bret will call Jason about a Unique Coyote he’s heard of that is making a nuisance of itself killing domestic cats in the farmland North of Belville.\nWhen tracking this creature, the tracks will only come up as “Coyote,” and you won’t be able to study the animal for a unique name. Only after taking it down and picking it up will it be given the “Unique Coyote” clarifier.\nIt always hangs around a strip of water directly No",
    "pub": "2026-11-27T20:05:07+00:00"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5qcVZpUVU4anhnSjdNZEI3VDlGQS03bFR1NzJYT0ZsYTRCZ011Rmh3V19ZWUtSSUw4WXhKU1FBSjVnLV9ZMUduVlptTkx3eEZWMEYteW5ENnAxRWhvOE0wazhBbw?oc=5",
+   "s": "DualShockers",
+   "d": "2026-11-27T20:04:51+00:00",
+   "lang": "en",
+   "t": "GTA 6 Apocalypse Bunker Location & Entry Guide",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVVdsYkFfVFR2cXFHNE5ZQU5jdXM5b0p3UWl1YXpvbVd1bDMyZkZERlozLVZaUUx4YkQwZjE4UzYzTkN6MFR0NGpWU19iWnRVR1k0UW9rSnZjWFdzMkxHeUN2NDE3VFBiNFN2aTVWRGhNNWpZVVhlUWQyLTVHVFZUY2ln?oc=5",
@@ -182,7 +238,7 @@
    "s": "Facebook",
    "d": "2026-11-27T19:30:14+00:00",
    "lang": "fr",
-   "t": "France Inter. . Pendant la conception de \"Grand Theft Auto VI: Original Score\", la bande originale de GTA VI par Justice, Xavier de Rosnay et Gaspard Augé n'imaginaient pas forcément \"Flower In A Hurricane\" devenir le tube de l'album. Il est actuellement numéro 1 mondial sur Apple Music et sur Spotify.\n➡️ https://l.franceinter.fr/Nj3",
+   "t": "France Inter. . Pendant la conception de \"Grand Theft Auto VI: Original Score\", la bande originale de GTA VI par Justice, Xavier de Rosnay et Gaspard Augé n'imaginaient pas forcément \"Flower In A Hurricane\" devenir le tube de l'album. Il est actuellement num",
    "erreur": "429 : passage suivant"
   },
   {
@@ -210,31 +266,6 @@
    "erreur": "429 : passage suivant"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQSmYtOXpkVVl0N3RHU1pmNV9zdEpaQnBWSWJ0enhLelhKbF9PdndXMzlELWlXZTNOWGg1LWZYWWVrYU5odHdoYk55c0JLM0ZhTk1HUEZGTjNWbHRROW1FYjVkWFBGS2JzYWlvNGd4OVVkMC1iMmlvY08xVEVQSnp3c21uWjlKQQ?oc=5",
-   "s": "EGW.News",
-   "d": "2026-11-27T18:05:57+00:00",
-   "lang": "fr",
-   "t": "GTA 6 Online : tout ce que l'on sait",
-   "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBaMm9PV1djaTBiTlg2bDQ5dXdZOFJZUG0tLWE5dXJxbmdyaEt5bFA0U193ZlRCRS0tMUJma2x1NVJZd3V6dWhpU0JFcHVKY1dzb0hTRw?oc=5",
-   "s": "Binance",
-   "d": "2026-11-27T18:04:00+00:00",
-   "lang": "en",
-   "t": "CyberLeek Price (CYBERLEEK/USD) Today | Live Price, Market Cap & Chart",
-   "erreur": "429 : passage suivant",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNTUd5Q3dDNXBPZ1FzdEVNczBjdVR4WnV5aHRST25zS2dIcThfZnAySGlUTzRNcG16ekhBVjVVTUZDZ3hvaWlBSUw4UFZ3UUdGZDk0WGpVUDZwNktWRzNka3dadUFOSDAybUNtZF95Mi1qVmFKQlpJSUFWeGE3UTVQZGV1YXQ1ekVqcGxjWnRUc0Z0OFE2NmVSTTNzNmV4OHkxbnZyb1p4Ri1TZHl6ZTBmU29mcC00MkdISzdDYldFM0JpRVhnMnFHbVRKbTBtWFY3Y0hjdVBrbFRWWW9GeTdSc1paV2M1ZHZfOUZQNUZ3RXNIVVJHTVhxRWFrbUYyTmd3Mnp0dkk2NVp3QVhFcVJ3bUpzX0hJZw?oc=5",
-   "s": "Le Figaro",
-   "d": "2026-11-27T18:03:11+00:00",
-   "lang": "fr",
-   "t": "Notre grande critique de GTA 6 : une œuvre magistrale, aussi ultraviolente qu’intime, vers laquelle convergent sept décennies de jeux vidéo",
-   "erreur": "429 : passage suivant"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNGFLYmhjcDRpaFU3NV9PMU40TXF3RmJTaVFMZDNFbzlqQzRUQmtuZUZDRGoxZF9oLW5UQ2h2b3Jobm5zQTZQVUh6aGYwUXNZME5Ccnc0bnFBTmdxS0dmQnh6SHgxdHN3VlJ0angzU3VoaU4tM0I3aXF2ZjZ5N1lhMl9SaXpnQndnZkpsMVVmVk9xVnVkYWFSaklXcmV4YmlGQ0t3MUcxUXpxLTFIMUhmQXFBWnU?oc=5",
    "s": "Tampa Bay Times",
    "d": "2026-11-27T18:00:34+00:00",
@@ -256,22 +287,6 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMisAJBVV95cUxPQWNKQ3dqT05kc3NZb240bGI4aWlRV0ltdVBzYWRIcWkxUlJBZGdHODQxRGlIWjF6Zm5fRllONWJfQW1PQ2JnNzBkWE1wX2kwbXY2LTNhbnJ2dUNVc0d0U1N1N2M1YVVjQmxBR092anVOd0o3Zmhxb2c0Tkk3THpkNGVzcUU1VEMySjk0Mi1LYmJuRFJFdUxMODVUVzhfYXNXOFlvWVJpSGgyVzY5cEVRSmd6OVF0aWZKUHpuaDNpWmpWYzgxTlgwZ0pLLUstemp4MTB1TjI5ckNhdC1qYXg4NkJhUC1qUEdXOE16NGlDVVoxclpjMnZwNGNCRWFNU1BjUDAxazlGMm5XNGFDMko3a1ZkaC1xSXhmdV80VkZGcEU1MngzSnpab3dWNGtHdW84?oc=5",
-   "s": "Le Parisien",
-   "d": "2026-11-27T18:00:00+00:00",
-   "lang": "fr",
-   "t": "Les gamers n’en reviennent pas : ce casque de gaming ultra recherché est à prix bas juste après la sortie de GTA 6",
-   "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOVks3OUJWZmpVam96eTBtOXZYenNKYldfWWQ2QlpwUG51NFo0dURlY0VxYzAyckhBd2lZMmtZejNxMTJqb3VXOUZ1MWN4NkEtc1plWkFCcmFkb3lOUXBaOXgzTzNYOEwyM0NaNEpVR0prRGt3S09UdkszcS1QSThiQ2NtdXlrTTlsZEVKS0I5X2NiVE9XREgzbF8xa1gzTVdlMnpxY1lpVUYtdVRrd25wU0xkbE42N3JSNDZQRDlIcWtvMldJS2kyYUZBYm5DdV9pZjFDd0diRQ?oc=5",
-   "s": "JeuxVideo.com",
-   "d": "2026-11-27T17:45:08+00:00",
-   "lang": "fr",
-   "t": "Certains joueurs jettent Lucia et transforment GTA 6 en simulateur de célibataire geek et détendu...",
-   "erreur": "429 : passage suivant"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTlFpaUdVb3FONVRhb3RPUVpxZU5wWXd0ZXYzbUF2Z0NDcjg1U1UzYmJ2LUd4LXBwVVplaEVUWER6ajZ2ek55WEZpbVkzRGxlOEZ3Z2stZG9ZS01DX2p2VmlHdGlfXzhtTjBmM2I4VjdoWkFxNHdWSi11cWNkeEhPTGpKbTBOMDA?oc=5",
    "s": "Polygon.com",
    "d": "2026-11-27T17:44:33+00:00",
@@ -283,30 +298,6 @@
    "txt": "Rockstar Games finally released Grand Theft Auto 6 this month after fans had waited 13 years . Unfortunately, PC players are still waiting as no PC port has been officially announced . But following the catastrophic leak of an apparent build of the game onto the internet, PC players have begun a race to create an unofficial version of GTA 6 . That race started slowly, but progress has been exponential in only a few days.\nIf you followed the news in the lead-up to GTA 6 's release, then you are probably familiar with the name Cyberleek . The prolific hacker raised millions of dollars in cryptocurrency by sharing unauthorized clips of Rockstar's big release ahead of launch. With the game now available​​​​​​​ to the public, it seemed like Cyberleek's time in the spotlight might be over. That proved to be untrue on Nov. 23, when Cyberleek released an apparent Xbox executable file that serves as a goldmine for programmers, hackers, and emulation enthusiasts, allowing them to start the hard work of making an unofficial PC port of GTA 6 a reality​​​​​​​.\nIn the first hours after the build went public, multiple projects posted early builds that could get the game running​​​​​​​ . It was not in a playable state, however, with incomplete shaders and models and extremely low frame rates​​​​​​​ . Now, only a handful of days later, new updates are showing the game in a much better state. Progress on the various builds is constantly documented on sites like Reddit and PortWatch VI ​​​​​​​ . The latest footage shows that GTA 6 is now actually playable on PC, though not completely. Videos of the game's opening missions are common now, with models fully rendered. One Reddit user showed​​​​​​​ that they had gotten the XCL port (one of the more prominent forks) running at over 30 fps, a pretty respectable, stable frame rate​​​​​​​ . The leading build on PortWatch VI, from Belobug, is currently said to be over 90% playable.\nThis speedy progress is largely the result of generative AI's newfound impact on the hacking scene . The process of decompiling and building a port of a game previously took months and even years to complete, but that can now be done in hours with the right tools. This is often called vibe-coding, which has produced mixed results in similar projects.​​​​​​​ Even Xbox is getting in on the technology, announcing the Xbox Labs division , which CEO Asha Sharma described as \"a small group of game makers​​​​​​​ , engineers and scientists whose job is to turn emerging ideas into things our players and developers can experience.\"\nWith swift progress on an unofficial GTA 6 PC port, teams are starting to go beyond replicating the console experience. X user TeK posted a video showing​​​​​​​ multiplayer running on a fork of the CGBJ build. The footage shows multiple players​​​​​​​ and vehicles navigating in the game world​​​​​​​ with proximity voice chat. The build runs at a stable 25 to 30 fps. This marks the first time a PC build of the game has shown multiplayer gameplay​​​​​​​ .\nNot even Rockstar has spoken about GTA 6 's multiplayer functionality , whose inclusion feels like a foregone conclusion given​​​​​​​ the popularity of GTA Online . While Rockstar and Take Two have taken down at least one leading Discord server in the PC port race, the use of AI tools has created something of a hydra, in which more heads always pop up after one is cut off. GTA 6 is already impressive on consoles​​​​​​​ , but a PC release is even more anticipated as leaks reveal it is likely to have greater graphical fidelity and performance.",
    "pub": "2026-11-27T17:44:33Z",
    "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNbjBXMjhJY2x1Z2VNbWhUYVVRenNfUEpfOFFraHc2emgxcEl5NmdXc0NITXI2cGMzWU9BdmVTYTJQNzJnbW9WYXM5QU5CTXR5VjdrVWlzMVduRE01VlNRZ090RDJ4LXloV1lPU0YwWks2NmV3REtVWUcxVjdlRlBHV2lBQ25EWG0wMTVtV1FwT1RaaV9xZWN6N291N2lrRmdsaHAtX0JnMjhMMkVvdlJGZjhJYkxHTVRZZ19fOERYdUlLMG51RDBNcmFwX1ZESkZhaVh0Mm5BS1E1T3NGVUVLVjQ3TlEtcndKYVlkNEd3U3hCV2htbU91RnRGMXNvQlppdVR3LWhGc3R6SG9zMUdwUUxGVmtrU1BLTU5xUGpoa29ITlU?oc=5",
-   "s": "France 3 Régions",
-   "d": "2026-11-27T17:34:04+00:00",
-   "lang": "fr",
-   "t": "VIDEO. Saint-Malo, Brest et Penmarc'h dans GTA 6 : ces clins d'œil à la Bretagne cachés dans le jeu vidéo évènement",
-   "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMifEFVX3lxTE80MlBKYzBCWkxNZENfenFQZ2VqV3pYZWFYS1ZkX19kaURhMnZHRl8ydkVHSFZNMTBUdkRoUzlGZWNtMklTTVlGQzREb0lQTUpaVjlxcG5oZW5IMmVOM1laZVdfaG11aHJIWEd5dUZXeVVWRFVhN25oTURhREk?oc=5",
-   "s": "Coin Academy",
-   "d": "2026-11-27T17:24:50+00:00",
-   "lang": "fr",
-   "t": "GTA 6 PC : des ports non officiels assistés par l’IA font déjà tourner le multijoueur",
-   "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOS2cyazZZbU1zTm1hTFFyc3RLRzcyeUI0U3QtTjlBemNUWFNjbkJCRzBCQlZuc3JseWRKYkI5T0lrOXprTERJcE16ZHpXeHYwRjBEdzZuZkRMcmw0VUVhb1BiQTJuSGpHUHFDTjl4c0pRREJIeUhybkZrc2lISWNNSjNmUDd2RFgzZjJseUJLMnRzX2JGTHNBQ09rTlhmNWVLVHRnV2c4amhGUkdWcW9qQW9KUTBnMzBqRjd1NndjU1FEeFVsaldTTQ?oc=5",
-   "s": "Gamekult",
-   "d": "2026-11-27T17:08:00+00:00",
-   "lang": "fr",
-   "t": "GitHub célèbre par mégarde l'émulation PS5 de GTA 6... et supprime vite son tweet",
-   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTEcyV0FUdmNHclVidGdNNGhyUFdUbVR0aWtadFJoc1hjOE1uaW9TM3VZenBvanFtVDhtbGRrMUJkREVMSmVVVU8wZzZvd19mU1p2S3JLb2tUb2k4XzNBOXYyVDA2ZjExQUxqTG5wRlZlQkRxWFdBdE5GTzZ0MVczUE1uaW1OVEUxZy1WVjZjZXE4UldqeXBVcDdTeVJJeTJFV0o3Vw?oc=5",
@@ -392,15 +383,6 @@
    "d": "2026-11-26T22:01:02+00:00",
    "lang": "en",
    "t": "Vibecoded GTA 6 PC Ports Are Now Rendering In-Game Graphics Despite Take-Two Crackdown",
-   "erreur": "429 : passage suivant",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSVo1ZTFydG1iMkNRYS1Yc2ZNX3RReU9uZnR5U2R1Tmw2TWp3X1BWREoxQU0tWV9pcFYxRkV6Mkl3MnI4aGNmMktYMlktZ0pxNEx6QzZaYTdBNFlqVW8zd29RQkstUXZkZExBcUlXaEtwaEkwYWJnVkdGM0xyQ2tFaFI3bU1CS19KNUtTc2xUdXBKSjN0VUE?oc=5",
-   "s": "Oyun Günlüğü",
-   "d": "2026-11-26T20:34:00+00:00",
-   "lang": "en",
-   "t": "Leaked GTA 6 XBOX build reportedly runs on PC at 25 FPS",
    "erreur": "429 : passage suivant",
    "cyberleek": true
   },
@@ -548,6 +530,15 @@
    "cyberleek": true
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWDc2d0ROQmRNLXloZFR6QWE5TFNsRktCV1pOR2xGTkxPZTdRYXR1b0VKWU5hTEttMkdoblZVSUxNOWtNX0ZqNmMzZ1gyN1BtM2t0eW9xYWFnTWV4ckM2NkZyQlNRQ2QtOThWZVUzQ2NleDNJM1VRUlAyQ0c0MEExVUV1elRfa2dDZWFIVUx6bk14REFlb1JXcEd3N1Z5VDJRTU5F?oc=5",
+   "s": "Notebookcheck",
+   "d": "2026-11-26T09:20:00+00:00",
+   "lang": "en",
+   "t": "GTA 6 recomp hits 90% progress – and here's what that means",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4ydmpITXZtb2hsYjMxZ3lha0s0WlJ3YUhkc1JmeG1wSC0ySzJLSmZnVTR0b2xvM3NOUmYxdFM1S3M1aVdyWVdBUmtKTnBIMS1OU3JRQlFBdEJyNkRRdllrWC0yaXpOWGFKVGtjc3I4dXhORjZOMDRN?oc=5",
    "s": "Make Tech Easier",
    "d": "2026-11-26T04:23:24+00:00",
@@ -558,6 +549,15 @@
    "chapeau": "Cyberleek released the main executable for its leaked 209GB GTA 6 Xbox build on 23 November, and the open source VIctory project says the game boots on Windows but runs at about 1 frame per second in the world, not playable.",
    "txt": "Practical fixes for the tech you already own. Free, a few times a week.\nThe main executable for the leaked Xbox build of Grand Theft Auto 6 began circulating on 23 November 2026, according to TalkEsport . XDA Developers reported that the executable had become public and completed the Xbox build. Cyberleek put the size of the rest of that build at around 209GB, according to TalkEsport. The open source project VIctory says in its GitHub README that the game boots on a Windows PC and reaches the prologue. The project reports about 1 frame per second in the game world and describes the game as unplayable at that frame rate.\nPC Gamer reported that Cyberleek had released a near-complete Xbox build the previous week but had held back the main executable. Cyberleek had said it would release the file when its crypto coin reached a $15 million market cap or on 23 November, whichever came first. TalkEsport reported that the rest of the build had been online since 19 November. According to accounts tracking the release, which TalkEsport cited, the executable began circulating shortly before 3pm UTC on 23 November.\nCyberleek called the release “an early Christmas gift” for followers, according to PC Gamer. The outlet reported that Cyberleek framed the release as a handover to people trying to get the game running on PC. Cyberleek added, “The torch passes to the open source recomp and emulation projects.” PC Gamer’s Andy Chalk wrote that Cyberleek appeared to have followed through on the release and said he had not verified whether the executable was genuine.\nXDA identified Cyberleek as the same individual or group behind GTA 6 leaks from earlier in the year. It also reported that Cyberleek had published SHA-256 hashes for both the executable and its ZIP archive. XDA’s report appeared on 23 November, the day the executable began circulating, and the outlet updated it on 24 November.\nTalkEsport reported that clips showed the leaked build reaching its opening settings screens on PC within hours of the executable’s release. TalkEsport said none of the progress it covered had been independently verified.\nVIctory’s GitHub repository was created at 21:47 UTC on 23 November 2026, according to GitHub’s records. The project uses the GPL-3.0 license. The repository was created the same day the executable began circulating, according to the dates reported by GitHub and TalkEsport. In a status update dated 25 November 2026, the README says the title boots, the menus run at 30 fps and the game loads its world. The README also says it plays the intro cutscene and reaches the prologue.\nThe menus and the world run at different speeds in VIctory’s account. The README says, “Not playable yet, because of the framerate: about 1 frame per second in the world.” The project reports testing on one machine running Windows 11 and equipped with an AMD RX 6700 XT graphics card with 12 GB of memory. The frame rates and milestones in the README describe that test. The README names the frame rate as what keeps the game from being playable. It also warns that entering the world hung the GPU in earlier builds and that a run can still end on a GPU fault.\nXDA’s 24 November update named VIctory among the unofficial GTA 6 PC projects tracked by a site called PortWatch VI, and said that site probably isn’t an entirely accurate picture of the projects’ status. The same update reported, according to Leonida developer NotRexed, that the Leonida project was removed from GitHub after a DMCA notice .\nPC Gamer warned that files from strangers can contain malware. TalkEsport reported that security firms were warning about fake GTA 6 PC downloads spreading malware. Make Tech Easier reported that a GTA 6 PC port scam kit was being offered on the dark web for $200 in Bitcoin or Tether, citing NordVPN.\nAs of TalkEsport’s report, Rockstar Games had yet to announce a PC version of GTA 6. The outlet reported that neither Rockstar Games nor Take-Two Interactive had made a public comment about the leak. VIctory’s README says the game reached the prologue in its Windows test. The project’s account says the game was unplayable because of the frame rate once it loaded the world.\nMake Tech Easier has since reported on the GitHub repository of the unofficial CGBJ port returning 404 after it posted a Windows launcher .",
    "pub": "2026-11-26T04:23:24+00:00",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1QdWdpZk1FVXZ3SDRMQmw4aXdSQXd6Qk42dWV6VjhvdV8yZWMyMXRqbHZoQTZOT3FHbTYtYUVzTG94cDV5dmdFRVU2RGdtSkk4ZWVfUkQ1U2pCU2dYN0E?oc=5",
+   "s": "Yahoo! Finance Canada",
+   "d": "2026-11-25T21:44:45+00:00",
+   "lang": "en",
+   "t": "CyberLeek CYBERLEEK (CYBERLEEK-USD) Live Price, News, Chart & Price History",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -740,6 +740,15 @@
    "cyberleek": true
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbGZkNzJRbW01Y1FocmFQTTZLZ2VuQ3dROVpjTFItQ3BZS1BYRHFLT0tYbVB1VGFIeUh3cy1sTU1RMzc4NnVsOTFoWG5XRFIyTm5PYVVkQUVoX0w5RFFGY045aVU4VXlHR3RSemh0S0ZNRk5VZjV1WjM2ZVpIUWJyYWxwbjVyN18zR0ZDa3FHNXJucEU0T3NpdmhYRlhXVEZ4VnBTM0FLODdmcVdfVWFNeDljVWxKS0VtWEp5LXJDeV9tUm41dWc?oc=5",
+   "s": "Bourse Inside",
+   "d": "2026-11-24T22:09:41+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : le mécanisme caché derrière le pari à 14 M€ sur ce memecoin qui a piégé les investisseurs",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRkJHeVI5VWpHZE5QZnpTeEtveXlOYU9RenNuR1d2eXQyVlB3YnVEZzhSVFdBc3NoODVOUjE5OHNSWEdjQXdHeU4za3dCdHdoNkhsZWFUQ2l4WkhFclllNnpsR1lUQllCWEtYa2phYUhuNmFkYzRfSWlsUktWTFNMWDBSM0xxU0d2QVFJUVdreWJ1bDNNQmFhcWdOQjBENDFGay0zVW84UFBBaFJQTWFFUjZVYnFIVnpj?oc=5",
    "s": "DLCompare.com",
    "d": "2026-11-24T21:00:00+00:00",
@@ -750,19 +759,6 @@
    "chapeau": "While the official launch date for GTA 6 on PC remains uncertain, the leaked Xbox build might help bridge the gap for eager fans.",
    "txt": "Gaming News Current Deals New Game Releases Free Games Hardware News TOP Sponsored Cyberleek pushes GTA 6 PC efforts forward with the ... Dark mode Cyberleek's latest GTA 6 release could bring a playable PC port closer GAMING NEWS manhkbrady - Nov 24, 2026, 10:00 PM - 5 comments Cyberleek has released the missing executable for the leaked 209GB Grand Theft Auto 6 Xbox build ahead of schedule, giving modders and reverse-engineering groups another piece of the puzzle as they work toward getting the game running on PC. The release follows a cryptocurrency fundraising campaign tied to a $15 million meme coin market cap target, which was later reduced to $6 million.\nThe original Xbox files began circulating on November 19 , but the package lacked an essential .exe file, preventing anyone from attempting to launch the build. Cyberleek had initially promised to distribute the missing executable once tonce the November 23rd deadline passed,. However, the file started appearing on piracy websites just before the countdown expired .\nAlthough its arrival is a significant development for people examining the leaked build, it does not mean GTA VI is suddenly playable on Windows. Cyberleek previously predicted that developers could produce a bootable PC version within a week, potentially through emulation or by adapting the game to run natively.\nNeither approach is straightforward, as developers still face substantial technical challenges, including shader translation , memory management, and adapting the game's software environment to Windows. One such open-source compatibility layer project, VIctory , aims to translate GPU shaders and recreate console-specific features so GTA VI 's Xbox x86-64 code can run directly on Windows. Anyone struggling to keep track of the numerous projects can now follow their progress in one place on PortWatchVI .\nCyberleek also included a text document alongside the executable, reiterating the motivations behind the leak and the cryptocurrency campaign. According to the message, previous GTA 6 gameplay leaks deliberately avoided major story spoilers because the intention was not to ruin the experience for players. Instead, Cyberleek directed criticism toward Rockstar Games and its parent company, Take-Two Interactive, particularly over the delayed arrival of a dedicated PC version.\nFor now, the executable represents another development in the ongoing effort to examine the leaked Xbox build, rather than an immediate route to playing GTA 6 on PC. Whether the wider project delivers anything beyond the current leaks remains to be seen.\nWith GTA VI already making headlines for its record-breaking launch, plenty of players will be looking to get their hands on a copy. If you're among them, check out our website to compare available offers and find the best price before buying GTA VI . And for ongoing updates on GTA VI performance, PS5 Pro features, AI graphics tech, and the PC release, stay tuned to our gaming and hardware coverage .\nA writer, and a full-time Tetris min-maxing player. Do you know that rhythm games are a form of human benchmarking?\nYou may also like $ 21.51 Baldur's Gate 3 $ 15.00 Elden Ring $ 30.92 Pragmata $ 6.73 Total War WARHAMMER 3 $ 17.80 Lies Of P $ 25.00 METAL GEAR SOLID DELTA SNAKE EATER $ 18.99 Civilization 7 $ 14.99 Borderlands 4 $ 20.15 Subnautica 2 $ 14.99 Lost Soul Aside $ 14.34 Battlefield 6 $ 25.40 007 First Light Technical information Official website Categories : Action , Adventure Editor : Take 2 Interactive Developer : Rockstar Games Mode(s): Solo ( At Launch) PVP (Max 32 players, Online) Co-op (Max 4 players, Online) Release date : November 19, 2026 View GTA VI game details and prices GTA 6 News Rockstar workers vote 75% against union recognition after GTA 6 launch about 1 hour ago Industry GTA 6 Becomes the Biggest Launch in PlayStation History 11/25/26 GTA VI players discover a secret gateway to the OG Vice City 11/24/26 GTA 6 Map Guide: 5 Counties, 14 Vice City Districts & Secrets 11/24/26 Guide Cyberleek resurfaces with a GTA 6 Xbox build leak that's not playable yet 11/22/26 GTA VI is officially the biggest entertainment launch ever 11/21/26 GTA 6 Day One Patch: Two Silent Updates and a PSN Outage 11/20/26 GTA 6's Physical Map Reportedly Leaks Ahead of Launch 11/18/26 GTA 6 Soundtrack Tracklist Leak: 34 Songs, Lana Del Rey and Dua Lipa and more 11/17/26 GTA 6 Pre-Orders Are \"Far Above\" Take-Two's Expectations, CEO Says 11/16/26 Industry Related news Call of Duty's ",
    "pub": "",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNnNDU0dLZm1fZnVxdVVPZnBOVFZvaUZ2eEFDLTlWWnhiSTR0blRJZkg3TnJJeF9VWUZlUWp6TWVGU1RpbzNaNjN3X2hONWZVeEg4SFdER3VBYTdyNEdTblpfNi02c2llOE56b2gtRVhSN3FLaExaOG9kLWJUYnRFNw?oc=5",
-   "s": "Cointribune",
-   "d": "2026-11-24T19:41:10+00:00",
-   "lang": "en",
-   "t": "Crypto: The GTA 6 leaks turn into a financial fiasco",
-   "u": "https://www.cointribune.com/en/crypto-a-gta-6-leak-behind-a-15-million-bet/",
-   "img": "https://www.cointribune.com/app/uploads/2026/11/Crypto-GTA.png?nowebp",
-   "chapeau": "Crypto: Cyberleek publishes alleged GTA 6 files despite the failure of its memecoin, which remained far from the hoped $15 million.",
-   "txt": "Getting informed ▪ Altcoins Summarize this article with: ChatGPT Perplexity Grok Cyberleek wanted to boost its memecoin to a capitalization of 15 million dollars thanks to the GTA 6 leaks. The operation ended in failure. On November 23, 2026, the alleged author of the disclosures finally published the executable file of an Xbox version of the game. The next day, its crypto displayed a valuation of only 1.36 million dollars. Even the launch of one of the most anticipated video games of the decade was not enough.\nRead us on Google News In brief Cyberleek reportedly published the executable file of GTA 6 on November 23. Its memecoin remains about 91% below its capitalization target. The hourly volumes observed during the latest leak are nearly 29 times lower than the peak recorded in August. GTA 6 at the Heart of a Failed Crypto Bet On November 19, the official launch day of GTA 6 on consoles, Cyberleek claims to hold an almost complete version of the game on Xbox. About 209 GB of files were reportedly leaked, except for the main executable file.\nIts early publication was supposed to depend on the performance of the CYBERLEEK crypto. The token had already had its moment of glory. In August, Cyberleek’s crypto had reached 25 million dollars before crashing by 46% in one day , after several sales attributed to its creator.\nCyberleek hoped to replicate this surge. In October, it had set a first capitalization goal at 30 million dollars. In November, its ambitions dropped to 15 million.\nThe crypto market did not follow. As of November 24, CYBERLEEK was trading around 0.00136 dollars, for a capitalization close to 1.36 million and a daily volume of 752,000 dollars.\nNevertheless, Cyberleek kept its promise to release the file on November 23, regardless of the financial outcome. The author claims that the funds collected are to finance a secret project, unrelated directly to GTA 6. No public element currently allows verification of this claim.\nBitquery’s on-chain data allow measuring the investors’ loss of interest. Between November 16 and 18, CYBERLEEK lost 45% of its value. On the day of GTA 6’s launch, the token rebounded by 41%, then rose another 16% the next day.\nThe following two days erased part of these gains. On November 23, the executable file’s release provoked a new market reaction. The most active hour recorded about 186,600 dollars of transactions.\nIn August, during the first leaks, the hourly record reached 5.47 million dollars. Nearly 29 times more. Yet, this time Cyberleek had a much bigger promotional argument than some unreleased videos: the files of an alleged version of the game.\nSome investors mainly took advantage of the rebound to sell. Bitquery identified five wallets that made about 123,000 dollars in sales, with no purchases between November 19 and 23.\nThese amounts do not necessarily correspond to their profits. The episode recalls the difficulties faced in this market, where nearly 94% of Solana memecoin traders tracked in a previous study showed losses. For CYBERLEEK, the release of the files ultimately caused only a temporary surge in activity.\nCyberleek probably made a mistake from the announcement of its schedule. By promising to publish the file on November 23 even if its financial goal was not reached, it removed much of the incentive to buy its crypto. Players could simply wait a few days.\nWhy buy a risky token to get something faster that was supposed to become accessible for free? The affair also gave rise to several imitative cryptocurrencies. A token called Justice For Cyberleek notably appeared on Pump.fun on November 23.\nThe risks also concern players. As early as November 3, Netcraft researchers had catalogued 121 new domain names impersonating Cyberleek. Some offered alleged versions of GTA 6 containing suspicious files.\nAn analyzed executable was flagged by 34 of the 68 VirusTotal security engines. This method recalls Stealka, malware disguised as video game mods to steal cryptocurrencies . GTA 6’s popularity remains unquestionable. That of the CYBERLEEK memecoin, much less so. Its creator attempted to finance his project through the impatience of players, even though they had no economic obligation to buy his token. Once the leak was published, little remains of this marketing argument.\nMaximize your Cointribune experience with our \"Read to Earn\" program! For every article you read, earn points and access exclusive rewards. Sign up now and start earning benefits.\nJoin the program A",
-   "pub": "2026-11-24T20:41:10+01:00",
    "cyberleek": true
   }
  ]
