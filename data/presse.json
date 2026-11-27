@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-27T21:41:58+00:00",
+ "maj": "2026-11-27T22:02:13+00:00",
  "articles": [
   {
    "gn": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1OWHppSERJWnE4RnVjRzR5dlZtS2JDbU1XOC1nTTNVRjhaWlRMNFRFdXZZWDVXODQ4ekw3VF9jVFBjYWRVZm52ZEFuczhrSDcxOFR0S1BMZjFmSU1udzM5dG5pTlB1OWs?oc=5",
@@ -7,11 +7,15 @@
    "d": "2026-11-27T21:35:47+00:00",
    "lang": "en",
    "t": "The Witcher 4 Will Be a GTA 6-Sized Leap Forward, CD Projekt Red Says",
-   "u": "https://www.imdb.com/news/ni66130953/?ref_",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": ""
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9iVTRnWUV1Yk1rREpMb0ZfekxiWERiNmJYbUxJYTdlUElFWWoya282SFN5RTFEbF9CSmF3WnpDTmxrQ2NGa0VicW5vYnd3T2RCZHh2UndxVTFFNWx6Tlc3UlhEa3ZJU1RXUks5MjlKWjEwN2NTQmdrQUFn?oc=5",
+   "s": "Le blog Officiel de Julien Tellouck",
+   "d": "2026-11-27T21:35:42+00:00",
+   "lang": "fr",
+   "t": "GTA 6 est disponible : ce que son gameplay confirme vraiment",
+   "erreur": "HTTP Error 429: Too Many Requests"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBObnhKQ24xTmRUQXNqWlNzbmNMS01vcXlSbjVOVWpEblZHZ3pYbUZkS0dETFBpaTBqemhrUlBneGFEWTZPQ3VCcjdsSUdUSDFlT2hUNnZjeGZQeGZpckZwczI0Q3h5aTZpT1lZUg?oc=5",
@@ -19,11 +23,7 @@
    "d": "2026-11-27T21:23:35+00:00",
    "lang": "en",
    "t": "GTA 6 review: a near-perfect masterpiece with one frustrating flaw",
-   "u": "https://www.ynetnews.com/tech-and-digital/article/hkogxdvy7x",
-   "img": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/11/16/ByzForOCMg/ByzForOCMg_0_0_1285_722_0_large.jpg",
-   "chapeau": "Rockstar has justified 13 years of anticipation with an astonishingly detailed open world, a more mature story and exceptional gameplay; even its frustrating 30 FPS limitation cannot spoil the experience, though one surprising flaw keeps it from earning a perfect score",
-   "txt": "",
-   "pub": "2026-11-27T21:23:35.579327Z"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMifkFVX3lxTE56dG5uaDg4ZXlPV3lJTHZoUWxSXzg1cEk1SGtrdkxfRGo5dUtxNmRjU05sa2gtMGdXcHF4a0ZSQ1lzbDllMFFJYjdia3FjYWlCd29VS01tZXJMVDBOM1dYN1RSTDlHR2xySVg5WGtwTDRlbF9KVV9SYkxXZVhYZw?oc=5",
@@ -43,7 +43,15 @@
    "d": "2026-11-27T21:01:17+00:00",
    "lang": "en",
    "t": "GTA 6 is the UK's biggest physical launch since 2019, despite having no actual game disc",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOMlhzM1JrZmcydk5rRmlNQjdMX2NEOEp5VTV6RnIzc1RCNEVpQ3pqTC1QeXlmZUs2MG9qWlMyRFZPd1BKSklndjdabngwZW5FYU9Xc3ZscVFJM1NaNW4zMXFyel9wMlFQbVh6cDZsOWNUZDJ4Z1VBRFg1T1h2bXMzbHB6c2hpS1B1dkVqZzNCaUxvalgwaXgxUVFuUkJVUmI3djNoeHlaTkotRWs2UmlGS1M1Y083aGVMX3Z0Qlp0YTU0bnNybVBpWjdlSGJ6OHhVYnZLb1EyOHZYX1ZSNTdYelNxbVI?oc=5",
+   "s": "Orange Actualités",
+   "d": "2026-11-27T20:59:10+00:00",
+   "lang": "fr",
+   "t": "GTA VI : Le créateur de contenus marseillais Conkerax explique pourquoi il boycotte le jeu",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBQdFFFWlRaYVpVOHl6RElBaUIySnF2T2Fkajg2Y0ZuVFZibVB5LXpSV0Q2N2k1X1VzcVFqUVNmbE9MSk95eEtjazZrR19kU3N2RFFWSThn?oc=5",
@@ -63,11 +71,23 @@
    "d": "2026-11-27T20:53:00+00:00",
    "lang": "en",
    "t": "'GTA 6' is here, and these are the top 3 TVs I'd play it on",
-   "u": "https://www.businessinsider.com/guides/tech/best-tvs-for-gta-6-2026-11-27",
-   "img": "https://i.insider.com/6b089c77d6c5d341c9b4d9a9?width=1200&format=jpeg",
-   "chapeau": "\"GTA 6\" deserves a great TV to properly showcase its amazing graphics. These displays will let you explore Vice City in all its glory.",
-   "txt": "",
-   "pub": ""
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNy1VY0I4aDI0N1dzWjhkX3BEdDc3RW5QYm9MWmJWWUlOR2oweDlzcGMtRkNKS2gyTzJoQ3hkanFOZnhLMWs1NnMwa2NuQkNrYS1BMHZpWnJ5R0hWQUtvN0s2NE1qbHo1YXIyWVRZXzlWa3BmVnVkRVdEb2tyN2FKSFRCYjRyYU0?oc=5",
+   "s": "GamingBolt",
+   "d": "2026-11-27T20:43:14+00:00",
+   "lang": "en",
+   "t": "Inside GTA 6 – How Rockstar Made the Game of the Generation",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTk9DVkJYWGhHRlJWX0FFX09oakpBUFVZYXdpQ1BzX2pjRUNpM1FnN1Y2aEF5TFA2MkUwV3ZuNFVlc3F5U1RoVVZxU21KVm42YlU0S1NlenJjbjZ5UGNlTXVKMV8zRGV2enBVU04zeG5NQXBDZzZjbWxEcjlTdV9FTWhDTDcyTUlTNGYyaXV1bnVvMmhpSjRsaVRmSVNDalFtWUhuNHZYTl8?oc=5",
+   "s": "JeuxVideo.com",
+   "d": "2026-11-27T20:40:08+00:00",
+   "lang": "fr",
+   "t": "Rockstar va ajouter du contenu dans GTA 6 : la map va s'enrichir",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5nOEVISVFzWkx6UkF3dGhKYjZndXZCR0o2WlRRSHFnMDdaaGlYdUFOUG9zMlc0UlVnZ01yU0JSWjJPYXowSTFpc2ZzNnE4MXNjSmFJNHBRWXJ4LW5MOThaNzU1blh6RVZ3dG5GRA?oc=5",
@@ -80,6 +100,14 @@
    "chapeau": "Find the fastest motorcycle in GTA 6, the Principe Burnished Alvino, on Starfish Island and learn how to upgrade its Speed rating to 8.0.",
    "txt": "X Share on Facebook (Opens in new window) Facebook Share using Native tools Share Copied to clipboard Add Us On Google In Grand Theft Auto VI , players can find the game’s highest-rated motorcycle tucked away in a mansion garage on Starfish Island. Here’s where to find the fastest motorcycle in GTA 6 , how much it costs to keep, and how it stacks up against the other fastest bikes in Leonida.\nThe Principe Burnished Alvino is the fastest motorcycle in GTA 6 by the in-game Speed stat, with a rating of 7.6 out of 10. It’s a unique version of the Principe Alvino V1. The Burnished Alvino also has an 8.3 Acceleration rating and a 7.9 Asphalt Handling rating.\nYou can see the bike’s overall rating by scanning it with the WAiNK app. The Burnished Alvino can even reach speeds as high as 8.0 and an acceleration of 8.6 if you mod its engine and intake at the Two Wheel Fury Motorsports shop.\nThe Principe Burnished Alvino is parked in a mansion garage on the southeast side of Starfish Island in Vice City. It is a purple motorcycle with gold wheels and can be found inside of an unlocked courtyard.\nTo make it easier to find, here is the exact location of the Principe Burnished Alvino in GTA 6 :\nYou will know you are in the right place when you see a giant brown metal gate under a stone archway. Incredibly, it’s not locked so you can just walk right through. Although you will need to take out the two security guards waiting inside.\nAfter knocking out the guards enter the open garage to the left of the courtyard where you will see the purple Principe Burnished Alvino motorcycle on display. Unlike other cars, this does not have an advanced tracker . So you can just hop on and drive off.\nOnce you’ve stolen the bike, take it to the closest Pay ’n’ Spray and choose Register to keep it. The listed registration fee is $9,150 . Which is pretty cheap, all things considered.\nThe Burnished Alvino leads Emilio’s Lectro by 0.2 points on the in-game Speed stat. If you’re already in Rockridge, Emilio’s Lectro is tucked inside a garage at Emilio’s Auto Center. However if you want the absolute fastest motorcycle in GTA 6 you will want the Burnished Alvino on Starfish Island .\nThe Principe Burnished Alvino can reach a Speed rating of 8.0 and an Acceleration rating of 8.6 once you upgrade its engine and intake at Two Wheel Fury Motorsports . This makes it the quickest vehicle in the game that is not an exotic car.\nRide the bike into the Two Wheel Fury Motorsports shop and open the Performance tab to find the engine and intake upgrades. With both installed, the Burnished Alvino’s Speed goes up from 7.6 to 8.0, and its Acceleration rises from 8.3 to 8.6 .\nX Share on Facebook (Opens in new window) Facebook Share using Native tools Share Copied to clipboard More From VICE Photo by Paras Griffin/Getty Images Watch: Seal Covers Tame Impala’s ‘New Person, Same Old Mistakes’, Returning The Favor 2 hours ago By Dan Milam",
    "pub": "2026-11-27T20:33:10+00:00"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTHlYZ1lLWXlFbE5paVB4eDcybS11WHJvMGViMTE2RS1VaWVleGt3YjVfdFlNcUdoZXF4Y2gycVVjYkxGRTJGT29fallaU3ozRDVqSmVaQzNObkl6Qll1dDdnSUtwdUhUSkpHV1hvTTA2bktSWmlQY2hDdFIxZllGTkw3eTd0eE9FdVU1MHgyTW1PUzF3RXc?oc=5",
+   "s": "GamingBolt",
+   "d": "2026-11-27T20:28:14+00:00",
+   "lang": "en",
+   "t": "The Big GTA 6 Interview – How Rockstar Made the Game of the Generation",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMklPbDd0c3FoOU5FS3BzUTFGRU9rLTZQRUFod1Q4NnJ3aEUzVUQxQUNlUHczcDZqYW1XTVVNRXpTTFNLdXlUNDhHYVlzS0Q4NUxpRUtfZkV3cDd4cEZBUjlhLVlvbmVkbXl5dFRBSEdLdXhSNHlCSzR6VWNBQ0RXRTR4MXR2N1JZT0s2YXFVTlpJYzU1Snc?oc=5",
@@ -104,6 +132,14 @@
    "chapeau": "How to start the brainwashing Easter egg",
    "txt": "The brainwashing Easter egg in Grand Theft Auto 6 is a long side mission in which you get the chance to investigate long-forgotten bunkers where a certain president spent some time (and listened to rumba) and where brainwashing experiments had taken place. Like the Vice City portal Easter egg , you'll need to go through a series of steps to finish this mission, but there's no other option if you want to learn the truth about what the government hid from you.\nTo help you uncover the mystery regarding President Russo, here's how to start the 'Kill The President' Easter egg in GTA 6 and how to complete it.\nGraphic: Paulo Kawanishi/Polygon | Source images: Rockstar Games To start the \"Kill the President\" quest chain, you must talk to José Bermúdez , a man sitting in front of the Joe Russo monument in Downtown , Vice City. Be sure to visit him during the day ! Choose to ask \"What really happened?\" after he starts talking. José will tell you to visit his apartment in a salmon-colored building with Cuban flags on Little Cuba NW 4th avenue if you want to know the truth.\nGraphic: Paulo Kawanishi/Polygon | Source images: Rockstar Games Go to his place to find the blueprint of a bunker on the wall, some recordings, and a picture showing President Russo on Sharktooth Island — your next destination. Before you go, be sure to listen to the recording and pay attention to what President Russo says, as he'll tell you the code for the next area.\nTravel northeast on the map to find Sharktooth Island, on the southern side of Little Hardin Island in Leonard County . Once you reach the island, head northwest to find the bunker entrance and a keypad lock that requires a six-digit number.\nGraphic: Paulo Kawanishi/Polygon | Source images: Rockstar Games Unfortunately, you won't find the code on the island. The information you need to figure out the code was shared by President Russo himself in the recording you found in José's apartment . Now, if you don't want to return to the apartment just to listen to the recording again, don't worry. The code to open the bunker is 010317 .\nAs you enter the bunk, turn right to find an electrical box. Pull the lever up to turn the lights on, then head in the opposite direction. After passing through a couple of small rooms, you will get to a larger room where you'll find some beds and a presidential desk beside a large safe.\nImage: Rockstar Games via Polygon Sit in the chair behind the desk and look to your right for the \"Search drawer\" option to appear. Next, pick up the phone. Inside the drawer, you will find a file with three different number sequences listed below the word \"Protocol.\" Keep these in mind.\nGraphic: Paulo Kawanishi/Polygon | Source images: Rockstar Games The next step is to return to one of the first rooms you passed through and listen to the recordings , in which someone mentions the number \"5297\" and \"protocol two.\" These are the clues you need to open the safe.\nIf you want a quick answer to how to open the safe in the presidential bunker, you need to move the last number to the front to get the safe code, which is 2975. Inside, you will find Russo's 1922 pistol and a photo . It appears to show part of the map with arrows pointing to a specific location. If you flip it , you can read the word \"OBSESS\" on the back of the photo. Now, it's time to locate the place in the photo.\nThe photo you found inside the safe in the presidential bunker shows the location of another bunker in Grassrivers, Mariana County . You can reach it by heading southwest from the Richardson Hunting Supplies shop , but you can't enter through the main entrance. Instead, you will need to open the hatch , which you find to the northeast .\nGraphic: Johnny Yu/Polygon | Source images: Rockstar Games via Polygon As expected of a secret bunker, the hatch is locked, and you will need to enter a six-digit number to open it. Luckily, you've opened the safe in the presidential bunker and seen the word behind the photo . Don't you think some letters look like numbers? If you make the numbers out, you'll get 085355 .\nGraphic: Paulo Kawanishi/Polygon | Source images: Rockstar Games Once you're inside the bunker, there isn't much to do besides make your way through the rooms on the left side to reach the electrical box and turn on the lights. Next, return to the starting portion of the area and follow the path through the rooms on the right side until you reach a half-open metal door leading to a control room.\nGraphic: Paulo Kawa",
    "pub": "2026-11-27T20:02:54Z"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVmpua1ZwdEJrd25ZNWcwdlJNUUZMQkxFN0c3SF93WVZ1T3I3bFU1SzFPQnVwTy00MnpEOU8tZ3J1dmloQUp3YnpxWG4xaHBTVjV2b1dOOGM5VnpXZjMtODF0MnZ3dENic1I3N0tlT0ZLWG5BR3oyWndzako1c2R5OEptck1vVkl4Qk9naFJOMlZGaW9LTVVGNi1tWGQ4Z0FhTjc0RExNRGdZdnotR1Zkdzd3?oc=5",
+   "s": "20 Minutes",
+   "d": "2026-11-27T20:02:00+00:00",
+   "lang": "fr",
+   "t": "Black Friday GTA 6 : où trouver le jeu phénomène au meilleur prix sur PS5 ?",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOYjRIb182YkRSclZCa29uRjdZRXJyY1VwYjlyQS1TTy1DekJDVFFEMmRtNTFhRlVza3IzZTdjT2tfalh0RHZPckJTZXRqRW1GRXluUm9OQVVaVEtBSmFkS2x6TlNsR3BBd3FQVTNlWDJkS3FUSVFwWU1QMG11ajV1YTJlaTR4aGt3NFJrbw?oc=5",
@@ -142,24 +178,61 @@
    "pub": "2026-11-27T19:34:00+00:00"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUmN3N2RlMXVtcFJVSlo2d0RPNUtGaThaV0xnN2xudzZmeFZuX29uVS1rd3hqM1Y3QjBFbUFtNFFvT2Q0dGZIWmFiM0FnUnlHcUJVcmxwZE9hUklYaDJfcXFDRVFEd0lfaUMxUGlXNmZsdHhaZ3J2RGQ3cUNuQ0hNdzBUelJPRzloMUwtdW1veTg3Q3VPNlVyTGlXMm95YXZD?oc=5",
-   "s": "Forbes",
-   "d": "2026-11-27T19:19:27+00:00",
-   "lang": "en",
-   "t": "The Strange Backlash Against ‘GTA 6,’ Explained",
-   "erreur": "HTTP Error 403: Forbidden"
+   "gn": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdnFVRk10eno5bTNfaW0xY0lpcWEzbjZvVnN5Uy1QXzRqdzlpVmVvcG9zYWg5UHk5WGFiTVpxNWJNSjJnZENtWFJwdXpyUWVfWGFBaUF2aWJXVGYxbWpNQi0yaV9UbXZDSWdrX2FOdDAwbmZIRjhYTjhHeUlTenZjTHNOeTNMSTY0NTI0T2xjOXNidFA3YVlUVFMwaU5wbTdIX0tjNnBFRlJqT0hWTVFiY0VPY2N1N2QyTEQw?oc=5",
+   "s": "Facebook",
+   "d": "2026-11-27T19:30:14+00:00",
+   "lang": "fr",
+   "t": "France Inter. . Pendant la conception de \"Grand Theft Auto VI: Original Score\", la bande originale de GTA VI par Justice, Xavier de Rosnay et Gaspard Augé n'imaginaient pas forcément \"Flower In A Hurricane\" devenir le tube de l'album. Il est actuellement numéro 1 mondial sur Apple Music et sur Spotify.\n➡️ https://l.franceinter.fr/Nj3",
+   "erreur": "429 : passage suivant"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMickFVX3lxTFA5U0hVdk5CUk9aYkdZZTJWdlRZTUNsYU9Db2loX0Z4eWhoX1B0Z0w2ZlpsU045aHRIUm9hSFc1aDU4TGE1U2J3Nmo0ZFFnbm01cUJXUFdzc3R4NnR0TDM2YTR3Ri0zbXNZdWViZEtQM1NxUQ?oc=5",
-   "s": "VICE",
-   "d": "2026-11-27T19:18:46+00:00",
+   "gn": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNZjlxMDlDVHVVcXZhenVzR0phVlF5c2lRUHBBWTh4QUhidU00ZGRDcVI1ajB4MzZsUXdKTGVRdHJHTEo5ZW9ZaEI0aFdrNVJKLXZkbmJaOWRUSzhBM0ZhbXRlcEdBTDVsSUhQTjcwa3NYOFk1MFJoM0gyb3V3VnlldjRGdzdWU2ZMTGh0RWFpUXlJNjhkejVTOXJmdWJjNEYtMGZWVndvUm5QOUhUTWIyT0ZQY00zVmVKbnlxRHh3LWtYMmVMR0xaNlkydTdUWjhvQkVn?oc=5",
+   "s": "Frandroid",
+   "d": "2026-11-27T19:23:22+00:00",
+   "lang": "fr",
+   "t": "Après les 60 fps, les 180 fps : la surenchère des vidéos de GTA 6 sur PC continue",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB4eklMbDNoMF9USE9ETHJiTTdvejVfUFF4LVI5aHZaSVZJcHFzaDdGeXVvSVJ1cF9VNlp0NGZkOGh1cVZvdlZscEQ2WW00S0NGQWdpTm16Nmo1MjZhcVlobWxYVlFTYnFfV0JDRTlB?oc=5",
+   "s": "Pause Hardware",
+   "d": "2026-11-27T19:12:04+00:00",
+   "lang": "fr",
+   "t": "Deux joueurs réunis dans GTA 6 sur PC grâce à un portage privé, avant la sortie officielle",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQbXpORF9NQ3ZWUmRoVndxQ3N6akFyQ3N3eDRpN0tXbV9aTGxSNUZ5d1pWME9MTERseDhJYTBCMkwwUjlrSkphQ21xS3FGcU1nbEdwUXNoX0JDZTg4RkJ2Y2pVcGdUNVZ6QXhqSW0zOWh5R2k4VjZXSHZ2U3FVU3RRWEtsY0NranAzQjY3b2ZEX1k0U3RKUXN6NE0yUUNHY19hSUUwSmZoeFVDQ2VEWW1Ka2lZaXRhRC1MVjlKMnNTTU1BcnlFbElFdzYxTkJORkti?oc=5",
+   "s": "JeuxVideo.com",
+   "d": "2026-11-27T19:10:07+00:00",
+   "lang": "fr",
+   "t": "GTA 6 en multijoueur : des pirates arrivent à faire tourner une version. Rockstar sous pression",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQSmYtOXpkVVl0N3RHU1pmNV9zdEpaQnBWSWJ0enhLelhKbF9PdndXMzlELWlXZTNOWGg1LWZYWWVrYU5odHdoYk55c0JLM0ZhTk1HUEZGTjNWbHRROW1FYjVkWFBGS2JzYWlvNGd4OVVkMC1iMmlvY08xVEVQSnp3c21uWjlKQQ?oc=5",
+   "s": "EGW.News",
+   "d": "2026-11-27T18:05:57+00:00",
+   "lang": "fr",
+   "t": "GTA 6 Online : tout ce que l'on sait",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBaMm9PV1djaTBiTlg2bDQ5dXdZOFJZUG0tLWE5dXJxbmdyaEt5bFA0U193ZlRCRS0tMUJma2x1NVJZd3V6dWhpU0JFcHVKY1dzb0hTRw?oc=5",
+   "s": "Binance",
+   "d": "2026-11-27T18:04:00+00:00",
    "lang": "en",
-   "t": "Grotti Itali RSX GTA 6 Location – Where to Find It for Randy’s Wishlist",
-   "u": "https://www.vice.com/en/article/grotti-itali-rsx-gta-6-location/",
-   "img": "https://www.vice.com/wp-content/uploads/sites/2/2026/11/Grotti-Itali-RSX-GTA-6-Location-Where-to-Find-It-for-Randys-Wishlist.jpg?w=1280",
-   "chapeau": "Find the Grotti Itali RSX in GTA 6 and learn how to deliver it to Randy without setting off its Advanced Tracker.",
-   "txt": "X Share on Facebook (Opens in new window) Facebook Share using Native tools Share Copied to clipboard Add Us On Google In Grand Theft Auto VI , the Grotti Itali RSX is one of the exotic cars you’ll need to track down for Randy’s Wishlist. Here’s where to find the Grotti Itali RSX GTA 6 location and how to deliver it to Randy without setting off its Advanced Tracker.\nThe Grotti Itali RSX can be found in the parking lot directly across from the front entrance of the Nine1Nine club in GTA 6 . Head to the front of the Vice City club and look across the street to check the lot for the exotic car.\nIf the Grotti Itali RSX isn’t there, save your game and reload that save . Check the parking lot again each time you load in. Keep doing this until the Grotti appears. In my playthrough it only took me a few minutes before it appeared.\nThe quickest way to deliver the Grotti Itali RSX is to leave Jason in the car while Lucia fast travels to Randy. Once you get there, you can tell Jason to follow you and he’ll drive the car over without triggering its Advanced Tracker.\nIf you’re working through the rest of Randy’s Wishlist, you can use the same Advanced Tracker Removal glitch to bring him other exotic cars without having to worry about police.\nFor more car locations for Randy’s Wishlist check out our Buckingham Windsor Drop and and Pegassi Toros GTA 6 Location guides.\nX Share on Facebook (Opens in new window) Facebook Share using Native tools Share Copied to clipboard More From VICE (Photo by Olly Curtis/Future Publishing via Getty Images) The Killers Guitarist Nearly Dies After Horrifying Stroke Nearly Left Him Blind in One Eye 2 hours ago By Caleb Catlin",
-   "pub": "2026-11-27T19:18:46+00:00"
+   "t": "CyberLeek Price (CYBERLEEK/USD) Today | Live Price, Market Cap & Chart",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNTUd5Q3dDNXBPZ1FzdEVNczBjdVR4WnV5aHRST25zS2dIcThfZnAySGlUTzRNcG16ekhBVjVVTUZDZ3hvaWlBSUw4UFZ3UUdGZDk0WGpVUDZwNktWRzNka3dadUFOSDAybUNtZF95Mi1qVmFKQlpJSUFWeGE3UTVQZGV1YXQ1ekVqcGxjWnRUc0Z0OFE2NmVSTTNzNmV4OHkxbnZyb1p4Ri1TZHl6ZTBmU29mcC00MkdISzdDYldFM0JpRVhnMnFHbVRKbTBtWFY3Y0hjdVBrbFRWWW9GeTdSc1paV2M1ZHZfOUZQNUZ3RXNIVVJHTVhxRWFrbUYyTmd3Mnp0dkk2NVp3QVhFcVJ3bUpzX0hJZw?oc=5",
+   "s": "Le Figaro",
+   "d": "2026-11-27T18:03:11+00:00",
+   "lang": "fr",
+   "t": "Notre grande critique de GTA 6 : une œuvre magistrale, aussi ultraviolente qu’intime, vers laquelle convergent sept décennies de jeux vidéo",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNGFLYmhjcDRpaFU3NV9PMU40TXF3RmJTaVFMZDNFbzlqQzRUQmtuZUZDRGoxZF9oLW5UQ2h2b3Jobm5zQTZQVUh6aGYwUXNZME5Ccnc0bnFBTmdxS0dmQnh6SHgxdHN3VlJ0angzU3VoaU4tM0I3aXF2ZjZ5N1lhMl9SaXpnQndnZkpsMVVmVk9xVnVkYWFSaklXcmV4YmlGQ0t3MUcxUXpxLTFIMUhmQXFBWnU?oc=5",
@@ -179,8 +252,24 @@
    "d": "2026-11-27T18:00:11+00:00",
    "lang": "en",
    "t": "209GB GTA 6 'PC version' appears on Russian torrent site",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMisAJBVV95cUxPQWNKQ3dqT05kc3NZb240bGI4aWlRV0ltdVBzYWRIcWkxUlJBZGdHODQxRGlIWjF6Zm5fRllONWJfQW1PQ2JnNzBkWE1wX2kwbXY2LTNhbnJ2dUNVc0d0U1N1N2M1YVVjQmxBR092anVOd0o3Zmhxb2c0Tkk3THpkNGVzcUU1VEMySjk0Mi1LYmJuRFJFdUxMODVUVzhfYXNXOFlvWVJpSGgyVzY5cEVRSmd6OVF0aWZKUHpuaDNpWmpWYzgxTlgwZ0pLLUstemp4MTB1TjI5ckNhdC1qYXg4NkJhUC1qUEdXOE16NGlDVVoxclpjMnZwNGNCRWFNU1BjUDAxazlGMm5XNGFDMko3a1ZkaC1xSXhmdV80VkZGcEU1MngzSnpab3dWNGtHdW84?oc=5",
+   "s": "Le Parisien",
+   "d": "2026-11-27T18:00:00+00:00",
+   "lang": "fr",
+   "t": "Les gamers n’en reviennent pas : ce casque de gaming ultra recherché est à prix bas juste après la sortie de GTA 6",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOVks3OUJWZmpVam96eTBtOXZYenNKYldfWWQ2QlpwUG51NFo0dURlY0VxYzAyckhBd2lZMmtZejNxMTJqb3VXOUZ1MWN4NkEtc1plWkFCcmFkb3lOUXBaOXgzTzNYOEwyM0NaNEpVR0prRGt3S09UdkszcS1QSThiQ2NtdXlrTTlsZEVKS0I5X2NiVE9XREgzbF8xa1gzTVdlMnpxY1lpVUYtdVRrd25wU0xkbE42N3JSNDZQRDlIcWtvMldJS2kyYUZBYm5DdV9pZjFDd0diRQ?oc=5",
+   "s": "JeuxVideo.com",
+   "d": "2026-11-27T17:45:08+00:00",
+   "lang": "fr",
+   "t": "Certains joueurs jettent Lucia et transforment GTA 6 en simulateur de célibataire geek et détendu...",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTlFpaUdVb3FONVRhb3RPUVpxZU5wWXd0ZXYzbUF2Z0NDcjg1U1UzYmJ2LUd4LXBwVVplaEVUWER6ajZ2ek55WEZpbVkzRGxlOEZ3Z2stZG9ZS01DX2p2VmlHdGlfXzhtTjBmM2I4VjdoWkFxNHdWSi11cWNkeEhPTGpKbTBOMDA?oc=5",
@@ -194,6 +283,30 @@
    "txt": "Rockstar Games finally released Grand Theft Auto 6 this month after fans had waited 13 years . Unfortunately, PC players are still waiting as no PC port has been officially announced . But following the catastrophic leak of an apparent build of the game onto the internet, PC players have begun a race to create an unofficial version of GTA 6 . That race started slowly, but progress has been exponential in only a few days.\nIf you followed the news in the lead-up to GTA 6 's release, then you are probably familiar with the name Cyberleek . The prolific hacker raised millions of dollars in cryptocurrency by sharing unauthorized clips of Rockstar's big release ahead of launch. With the game now available​​​​​​​ to the public, it seemed like Cyberleek's time in the spotlight might be over. That proved to be untrue on Nov. 23, when Cyberleek released an apparent Xbox executable file that serves as a goldmine for programmers, hackers, and emulation enthusiasts, allowing them to start the hard work of making an unofficial PC port of GTA 6 a reality​​​​​​​.\nIn the first hours after the build went public, multiple projects posted early builds that could get the game running​​​​​​​ . It was not in a playable state, however, with incomplete shaders and models and extremely low frame rates​​​​​​​ . Now, only a handful of days later, new updates are showing the game in a much better state. Progress on the various builds is constantly documented on sites like Reddit and PortWatch VI ​​​​​​​ . The latest footage shows that GTA 6 is now actually playable on PC, though not completely. Videos of the game's opening missions are common now, with models fully rendered. One Reddit user showed​​​​​​​ that they had gotten the XCL port (one of the more prominent forks) running at over 30 fps, a pretty respectable, stable frame rate​​​​​​​ . The leading build on PortWatch VI, from Belobug, is currently said to be over 90% playable.\nThis speedy progress is largely the result of generative AI's newfound impact on the hacking scene . The process of decompiling and building a port of a game previously took months and even years to complete, but that can now be done in hours with the right tools. This is often called vibe-coding, which has produced mixed results in similar projects.​​​​​​​ Even Xbox is getting in on the technology, announcing the Xbox Labs division , which CEO Asha Sharma described as \"a small group of game makers​​​​​​​ , engineers and scientists whose job is to turn emerging ideas into things our players and developers can experience.\"\nWith swift progress on an unofficial GTA 6 PC port, teams are starting to go beyond replicating the console experience. X user TeK posted a video showing​​​​​​​ multiplayer running on a fork of the CGBJ build. The footage shows multiple players​​​​​​​ and vehicles navigating in the game world​​​​​​​ with proximity voice chat. The build runs at a stable 25 to 30 fps. This marks the first time a PC build of the game has shown multiplayer gameplay​​​​​​​ .\nNot even Rockstar has spoken about GTA 6 's multiplayer functionality , whose inclusion feels like a foregone conclusion given​​​​​​​ the popularity of GTA Online . While Rockstar and Take Two have taken down at least one leading Discord server in the PC port race, the use of AI tools has created something of a hydra, in which more heads always pop up after one is cut off. GTA 6 is already impressive on consoles​​​​​​​ , but a PC release is even more anticipated as leaks reveal it is likely to have greater graphical fidelity and performance.",
    "pub": "2026-11-27T17:44:33Z",
    "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNbjBXMjhJY2x1Z2VNbWhUYVVRenNfUEpfOFFraHc2emgxcEl5NmdXc0NITXI2cGMzWU9BdmVTYTJQNzJnbW9WYXM5QU5CTXR5VjdrVWlzMVduRE01VlNRZ090RDJ4LXloV1lPU0YwWks2NmV3REtVWUcxVjdlRlBHV2lBQ25EWG0wMTVtV1FwT1RaaV9xZWN6N291N2lrRmdsaHAtX0JnMjhMMkVvdlJGZjhJYkxHTVRZZ19fOERYdUlLMG51RDBNcmFwX1ZESkZhaVh0Mm5BS1E1T3NGVUVLVjQ3TlEtcndKYVlkNEd3U3hCV2htbU91RnRGMXNvQlppdVR3LWhGc3R6SG9zMUdwUUxGVmtrU1BLTU5xUGpoa29ITlU?oc=5",
+   "s": "France 3 Régions",
+   "d": "2026-11-27T17:34:04+00:00",
+   "lang": "fr",
+   "t": "VIDEO. Saint-Malo, Brest et Penmarc'h dans GTA 6 : ces clins d'œil à la Bretagne cachés dans le jeu vidéo évènement",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMifEFVX3lxTE80MlBKYzBCWkxNZENfenFQZ2VqV3pYZWFYS1ZkX19kaURhMnZHRl8ydkVHSFZNMTBUdkRoUzlGZWNtMklTTVlGQzREb0lQTUpaVjlxcG5oZW5IMmVOM1laZVdfaG11aHJIWEd5dUZXeVVWRFVhN25oTURhREk?oc=5",
+   "s": "Coin Academy",
+   "d": "2026-11-27T17:24:50+00:00",
+   "lang": "fr",
+   "t": "GTA 6 PC : des ports non officiels assistés par l’IA font déjà tourner le multijoueur",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOS2cyazZZbU1zTm1hTFFyc3RLRzcyeUI0U3QtTjlBemNUWFNjbkJCRzBCQlZuc3JseWRKYkI5T0lrOXprTERJcE16ZHpXeHYwRjBEdzZuZkRMcmw0VUVhb1BiQTJuSGpHUHFDTjl4c0pRREJIeUhybkZrc2lISWNNSjNmUDd2RFgzZjJseUJLMnRzX2JGTHNBQ09rTlhmNWVLVHRnV2c4amhGUkdWcW9qQW9KUTBnMzBqRjd1NndjU1FEeFVsaldTTQ?oc=5",
+   "s": "Gamekult",
+   "d": "2026-11-27T17:08:00+00:00",
+   "lang": "fr",
+   "t": "GitHub célèbre par mégarde l'émulation PS5 de GTA 6... et supprime vite son tweet",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTEcyV0FUdmNHclVidGdNNGhyUFdUbVR0aWtadFJoc1hjOE1uaW9TM3VZenBvanFtVDhtbGRrMUJkREVMSmVVVU8wZzZvd19mU1p2S3JLb2tUb2k4XzNBOXYyVDA2ZjExQUxqTG5wRlZlQkRxWFdBdE5GTzZ0MVczUE1uaW1OVEUxZy1WVjZjZXE4UldqeXBVcDdTeVJJeTJFV0o3Vw?oc=5",
@@ -232,19 +345,6 @@
    "chapeau": "The 15-year-old vibecoder behind a GTA 6 PC port project Take-Two recently shut down has vowed to continue their work despite the potential for further action from the company.",
    "txt": "The 15-year-old vibecoder behind a GTA 6 PC port project Take-Two recently shut down has vowed to continue their work despite the potential for further action from the company.\n‘NotRexed’ is behind ‘Project Leonida,’ which was at one point leading the race to create a PC port of GTA 6 following the recent leak of an Xbox build. Cyberleek, the infamous leaker behind many early GTA 6 gameplay clips, reportedly released the Xbox build of GTA 6 last week, and vibecoders have been attempting to port the game to PC since.\nFueled by AI, progress has been swift, with clips showing GTA 6 running on PC at a higher frame rate than on console, and one video even showing basic multiplayer. Obviously, Rockstar Games, which will no doubt release GTA 6 on PC officially at some point, and parent company Take-Two will be watching the homebrew scene’s every move like a hawk.\nIn the case of Project Leonida, Take-Two has already taken action. NotRexed was organizing and sharing work on a Discord group, and hosting their findings on a GitHub repository, when cease and desists from Take-Two hauled everything offline. NotRexed then took to social media to announce they'd decided to call it a day.\n“I quit guys. I’m sorry,” NotRexed said. “I really want to make cool stuff but every single time s**t happens that I can’t control so I’m stepping away. Thank you everybody, especially in the Discord that allowed me to have this opportunity.”\nNotRexed went on to insist that they were finding it tough to run Project Leonida while also going to school. “Rockstar taking my server down was only part of the reason. Like I’ve said before, I’m a 15-year-old kid,” they said. “Managing school and sports is hard enough without having middle aged men yell and complain to you on Discord. Goodbye.”\nHowever, NotRexed has now returned, and promised to continue the project. “Ignore my other posts,” NotRexed said after changing their mind. “Something’s coming soon. Leonida is NOT dead. I have been doing a lot of work behind the scenes. I’ll have some stuff to show all of you soon.”\nIGN spoke to NotRexed to find out why they’re doing this, whether they understand the risks, what they’ll do if they get in legal trouble, and what their parents think of it all.\n“It’s just a hobby of mine,” NotRexed said in a private message. “I started doing similar things with porting games to the web back in the start of 2026, and I’ve always just thought of it to be cool.”\nBefore generative AI, NotRexed had no interest in porting games to other platforms, they said. But after finding out it was possible in 2025, they’re now taking on one of the most powerful publishers in video games. Interestingly, there’s no real motive behind it.\n“I’ve always been interested in tech and mess around with it a lot,” they said. According to them, even their parents are aware of what they do and are largely supportive of it. “Yes, they know about all my projects and work I do, and they’re pretty encouraging about it,” they claimed.\nIt made me wonder if they were fully aware of the legal risks involved in such an undertaking. “Yea, they have warned me about what could happen,” NotRexed insisted when I asked if their parents knew about the potential legal issues. “I’m still continuing my work as of now tho because even tho T2 took down my repo and Discord they have never sent an email or message directly to me. If I do get into legal trouble I’m probably gonna stop working on it but possibly have a friend continue it.”\nHow feasible is this? IGN asked Matt Freedman, a veteran game developer with expertise in both traditional development and the controversial emerging technology of AI.\n“A recompilation is different from a port,” Freedman said. “But yes, an AI driven recompilation of GTA 6 is very doable and wouldn't have the same 'game feel' problems that an AI-driven port would have.”\nHe went on to explain the differences between decompilations, recompilations, and ports. A decomp is where someone manually reverse engineers a game to run on other systems, like the Mario 64 PC port. “This is very time consuming and requires a human to do the work and effectively 'guess' how the game works,” he said.\nA port takes existing assets or creates new ones and essentially builds a new version of the same game to work on another system. The Witcher 3’s Switch port is an example of this. “A team took The Witcher 3 code base and assets and then modified them by hand to work on the Switch,” he said.\nFor recomps, peop",
    "pub": "2026-11-27T11:51:13.583Z",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOLVg5R2hGanpEbklmZ3ZZUjRaWnAtRXhrcnBvWUlFbXZjY3lCS3YxWlNZQ1JnLWFwUUlUeUNpZ3dBeFlJQlp3QlJuOGVpZ1I0TlJZZk9qZnVhTV9ibUcwR1NTT0Q0N2RqUWRHdVpuSG1ocmFIU2xobElKYWxLRTEtTzhUSGFTRjZ6d0V6ejI2TDNDUGxNMjhyS2gwS2xkS1JnSnZVQjdxMEZmNnhJT0RmTURHMGJ2U2tNbURKbQ?oc=5",
-   "s": "Gamewave",
-   "d": "2026-11-27T11:05:00+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : Rockstar n",
-   "u": "https://gamewave.fr/gta-6/gta-6-rockstar-n-avait-qu-une-peur-que-la-grosse-surprise-de-l-intrigue-fuite-avant-la-sortie/",
-   "img": "https://gamewave.fr/static/images/news/headers/2bae5-gta6-secret-garde-jusquau-bout.jpg",
-   "chapeau": "Malgré les nombreuses fuites ayant frappé Rockstar Games, un secret majeur de Grand Theft Auto 6 a été préservé jusqu",
-   "txt": "Ajouter aux sources préférées L'industrie du jeu vidéo est familière des fuites à répétition, et Grand Theft Auto VI n'a pas été épargné ces dernières années, et surtout les mois précédents sont lancement. Pourtant, Rockstar Games a réussi un véritable miracle en cachant l'un des éléments centraux de son intrigue jusqu'au jour du lancement. Un soulagement pour le studio .\nAttention, si vous avez joué moins d'une heure, les lignes qui suivent contiennent des spoilers .\nGTA 6 : L'actrice de Lucia brise enfin le silence, après 10 ans d'un secret absolu\nAprès une semaine de lancement explosive pour Grand Theft Auto 6, l'actrice incarnant Lucia prend enfin la parole. Manni L. Perez révèle avoir travaillé sur le jeu pendan…\nSi vous avez joué ne serait-ce qu'une heure au nouveau titre de Rockstar, vous connaissez déjà ce rebondissement. Jason et Lucia, les deux protagonistes, ont un fils nommé Tomás . Cette révélation change radicalement la dynamique du duo, leur offrant une motivation bien plus profonde que le simple appât du gain. Rob Nelson, le producteur du jeu, a confié son immense soulagement face à la préservation de cette surprise (via VGC ).\nLe producteur a avoué avoir prié chaque jour pour que ce secret ne soit pas dévoilé , surtout après les piratages subis par le studio en 2022. Heureusement, la surprise est restée intacte, offrant aux joueurs une connexion émotionnelle immédiate avec ce couple cherchant à se construire une vie de famille loin du crime urbain .\nDe quoi laisser la surprise aux joueurs, qui ont découvert ce pan de l'histoire par eux-mêmes, comme le souhaitait Rockstar.\nGTA 6 est disponible sur PS5 et Xbox Series. N'oubliez pas que vous pouvez retrouver nos guides GTA 6 pour vous aider dans votre progression, que ce soit la carte interactive , ou encore la liste de tous les codes utiles lors de l'aventure .\nAjouter aux sources préférées Corentin Rimbert (Corentin) Les jeux vidéo m'ont toujours accompagné, depuis mon enfance. D'abord avec les consoles portables, telles que la GameBoy Advance et la Nintendo DS, qui m'ont suivi durant une partie de ma jeunesse,...",
-   "pub": "2026-11-27T12:05:00+01:00",
    "cyberleek": true
   },
   {
@@ -291,12 +391,8 @@
    "s": "Decrypt",
    "d": "2026-11-26T22:01:02+00:00",
    "lang": "en",
-   "t": "Vibecoded GTA 6 PC Ports Are Now Rendering In-Game Graphics Despite Take-Two Crackdown - Decrypt",
-   "u": "https://decrypt.co/384061/vibecoded-gta-6-pc-ports-are-now-rendering-in-game-graphics-despite-take-two-crackdown",
-   "img": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/11/grand-theft-auto-6-gta-vi-decrypt-style-gID_7.jpg",
-   "chapeau": "Some unofficial ports now hit around 20 frames per second, as developers move their work into private communities to dodge takedowns.",
-   "txt": "",
-   "pub": "2026-11-26T22:01:02",
+   "t": "Vibecoded GTA 6 PC Ports Are Now Rendering In-Game Graphics Despite Take-Two Crackdown",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -305,7 +401,7 @@
    "d": "2026-11-26T20:34:00+00:00",
    "lang": "en",
    "t": "Leaked GTA 6 XBOX build reportedly runs on PC at 25 FPS",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -452,19 +548,6 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAxSGlzQTEtMGJXVWdxSVVnLWRXY1BkMGZDQlhIQ3M2cDJNMHRPN1ZsdllxV01jWUI4Qk4wTjIwTGN5V09OTFprTWxZTTF6dFBHUl83UDBvMW1VVmdZajh0TA?oc=5",
-   "s": "Menow",
-   "d": "2026-11-26T07:40:00+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : une fuite révèle ce que la PS5 Pro pousserait plus loin que les autres consoles",
-   "u": "https://www.menow.fr/gta6-reglages-consoles-rumeur/",
-   "img": "https://www.menow.fr/wp-content/uploads/2026/11/gta6-reglages-consoles-rumeur-1.webp",
-   "chapeau": "Une liste attribuée à Tex2 compare GTA 6 sur consoles. Ombres, textures, population : les différences rapportées et les améliorations déjà confirmées.",
-   "txt": "Visuel d’illustration repris de Sumahodigest ; représentation conceptuelle, apparence non officielle.\nLa PS5 Pro ne pousserait pas tous les réglages de GTA 6 au maximum. Une liste attribuée au dataminer du compte @TexFunz2, suggère plutôt une base proche de celle de la PS5 et de la Xbox Series X, renforcée sur l’éclairage et les ombres en ray tracing. La Xbox Series S utiliserait de son côté des paramètres plus modestes sur plusieurs aspects du monde. Ce relevé non officiel donne une lecture intéressante des compromis entre consoles.\nLe document a été détaillé le 25 novembre par MP1st , qui renvoie vers une publication du compte @TexFunz2 . Les valeurs sont présentées comme issues des données du jeu : il ne s’agit ni d’un menu de réglages destiné aux joueurs, ni d’un comparatif de performances réalisé par Menow. Leur portée doit donc rester celle d’une fuite technique.\nLa fuite place l’illumination globale sur un niveau élevé pour la PS5 Pro, contre moyen pour les autres consoles. Elle décrit aussi des ombres directionnelles et locales en ray tracing activées sur la Pro. Cette dernière se distinguerait ainsi par la manière de calculer la lumière et les ombres, plutôt que par une hausse uniforme de chaque curseur.\nLe point général rejoint une amélioration déjà officielle. Dans sa présentation des fonctionnalités de GTA VI sur PlayStation , Sony indiquait que la PS5 Pro apporte des ombres en ray tracing et une meilleure netteté grâce au PSSR, la reconstruction d’image propre à la console. L’annonce commerciale confirme ces fonctions, sans authentifier pour autant chaque valeur du tableau qui circule.\nCes deux techniques ne font pas le même travail. Les ombres en ray tracing touchent au calcul de l’éclairage ; le PSSR sert à reconstruire une image plus détaillée à partir du rendu. Leur combinaison peut améliorer la présentation visuelle, mais ne se résume pas à une simple augmentation de la résolution. Les différences peuvent aussi varier suivant les lieux et les conditions d’éclairage d’une scène.\nCes niveaux traduits servent à comprendre la liste divulguée. Ils ne constituent pas des intitulés français vérifiés dans un menu de GTA 6.\nLa reprise de Sumahodigest souligne la proximité entre PS5 et Xbox Series X : textures, cheveux, simulation de l’eau ou densité du trafic sont notamment présentés comme communs. Cela suggère une même orientation de qualité pour ces éléments, plutôt que deux versions radicalement différentes du monde.\nIl faut toutefois distinguer un niveau de paramètre et son résultat complet à l’écran. Une étiquette « élevée » ne renseigne pas à elle seule sur la résolution interne, la reconstruction de l’image, la stabilité temporelle ou les baisses de fluidité pendant une scène chargée. Le tableau ne suffit donc pas à départager définitivement deux consoles.\nPour le joueur, la comparaison utile se situe dans une situation équivalente : même lieu, même éclairage, mouvements proches et séquence suffisamment longue pour observer les variations. Un arrêt sur image révèle certains détails ; un déplacement peut en montrer d’autres, notamment la stabilité des contours ou l’apparition des éléments lointains. Cette méthode permet de relier les réglages supposés à des différences réellement visibles.\nLes informations relayées mentionnent, sur Series S, une baisse de qualité pour plusieurs catégories : végétation, particules, cheveux, simulation ou densité du monde. La réduction supposée ne concernerait donc pas uniquement la finesse d’une surface regardée de près. Elle pourrait aussi se manifester dans la richesse d’une scène ou dans le nombre d’éléments simultanément présents.\nCela ne permet pas de déduire que des missions ou des quartiers disparaissent. Les paramètres d’affichage et de simulation décrits ne constituent pas une liste de contenus. Le degré exact de différence doit être apprécié dans le jeu ; il serait trompeur de présenter un niveau interne comme une mesure directe de l’expérience entière.\nLa question d’un mode plus fluide revient naturellement dès qu’une version réserve une partie de sa puissance aux effets visuels. La liste divulguée n’établit pourtant ni l’existence d’un mode sans ray tracing accessible aux joueurs, ni le nombre d’images par seconde qu’il atteindrait. Une hypothèse d’allègement graphique reste différente d’une fonctionnalité programmée et testée.\nDans sa présentation technique de la PS5 Pro , Sony décrit un GPU renforcé, davantage de ressources pour le ray tracing et le PSSR. ",
-   "pub": "2026-11-26T07:40:00+00:00",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4ydmpITXZtb2hsYjMxZ3lha0s0WlJ3YUhkc1JmeG1wSC0ySzJLSmZnVTR0b2xvM3NOUmYxdFM1S3M1aVdyWVdBUmtKTnBIMS1OU3JRQlFBdEJyNkRRdllrWC0yaXpOWGFKVGtjc3I4dXhORjZOMDRN?oc=5",
    "s": "Make Tech Easier",
    "d": "2026-11-26T04:23:24+00:00",
@@ -475,15 +558,6 @@
    "chapeau": "Cyberleek released the main executable for its leaked 209GB GTA 6 Xbox build on 23 November, and the open source VIctory project says the game boots on Windows but runs at about 1 frame per second in the world, not playable.",
    "txt": "Practical fixes for the tech you already own. Free, a few times a week.\nThe main executable for the leaked Xbox build of Grand Theft Auto 6 began circulating on 23 November 2026, according to TalkEsport . XDA Developers reported that the executable had become public and completed the Xbox build. Cyberleek put the size of the rest of that build at around 209GB, according to TalkEsport. The open source project VIctory says in its GitHub README that the game boots on a Windows PC and reaches the prologue. The project reports about 1 frame per second in the game world and describes the game as unplayable at that frame rate.\nPC Gamer reported that Cyberleek had released a near-complete Xbox build the previous week but had held back the main executable. Cyberleek had said it would release the file when its crypto coin reached a $15 million market cap or on 23 November, whichever came first. TalkEsport reported that the rest of the build had been online since 19 November. According to accounts tracking the release, which TalkEsport cited, the executable began circulating shortly before 3pm UTC on 23 November.\nCyberleek called the release “an early Christmas gift” for followers, according to PC Gamer. The outlet reported that Cyberleek framed the release as a handover to people trying to get the game running on PC. Cyberleek added, “The torch passes to the open source recomp and emulation projects.” PC Gamer’s Andy Chalk wrote that Cyberleek appeared to have followed through on the release and said he had not verified whether the executable was genuine.\nXDA identified Cyberleek as the same individual or group behind GTA 6 leaks from earlier in the year. It also reported that Cyberleek had published SHA-256 hashes for both the executable and its ZIP archive. XDA’s report appeared on 23 November, the day the executable began circulating, and the outlet updated it on 24 November.\nTalkEsport reported that clips showed the leaked build reaching its opening settings screens on PC within hours of the executable’s release. TalkEsport said none of the progress it covered had been independently verified.\nVIctory’s GitHub repository was created at 21:47 UTC on 23 November 2026, according to GitHub’s records. The project uses the GPL-3.0 license. The repository was created the same day the executable began circulating, according to the dates reported by GitHub and TalkEsport. In a status update dated 25 November 2026, the README says the title boots, the menus run at 30 fps and the game loads its world. The README also says it plays the intro cutscene and reaches the prologue.\nThe menus and the world run at different speeds in VIctory’s account. The README says, “Not playable yet, because of the framerate: about 1 frame per second in the world.” The project reports testing on one machine running Windows 11 and equipped with an AMD RX 6700 XT graphics card with 12 GB of memory. The frame rates and milestones in the README describe that test. The README names the frame rate as what keeps the game from being playable. It also warns that entering the world hung the GPU in earlier builds and that a run can still end on a GPU fault.\nXDA’s 24 November update named VIctory among the unofficial GTA 6 PC projects tracked by a site called PortWatch VI, and said that site probably isn’t an entirely accurate picture of the projects’ status. The same update reported, according to Leonida developer NotRexed, that the Leonida project was removed from GitHub after a DMCA notice .\nPC Gamer warned that files from strangers can contain malware. TalkEsport reported that security firms were warning about fake GTA 6 PC downloads spreading malware. Make Tech Easier reported that a GTA 6 PC port scam kit was being offered on the dark web for $200 in Bitcoin or Tether, citing NordVPN.\nAs of TalkEsport’s report, Rockstar Games had yet to announce a PC version of GTA 6. The outlet reported that neither Rockstar Games nor Take-Two Interactive had made a public comment about the leak. VIctory’s README says the game reached the prologue in its Windows test. The project’s account says the game was unplayable because of the frame rate once it loaded the world.\nMake Tech Easier has since reported on the GitHub repository of the unofficial CGBJ port returning 404 after it posted a Windows launcher .",
    "pub": "2026-11-26T04:23:24+00:00",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1QdWdpZk1FVXZ3SDRMQmw4aXdSQXd6Qk42dWV6VjhvdV8yZWMyMXRqbHZoQTZOT3FHbTYtYUVzTG94cDV5dmdFRVU2RGdtSkk4ZWVfUkQ1U2pCU2dYN0E?oc=5",
-   "s": "Yahoo! Finance Canada",
-   "d": "2026-11-25T21:44:45+00:00",
-   "lang": "en",
-   "t": "CyberLeek CYBERLEEK (CYBERLEEK-USD) Live Price, News, Chart & Price History",
-   "erreur": "HTTP Error 404: Not Found",
    "cyberleek": true
   },
   {
@@ -570,11 +644,7 @@
    "d": "2026-11-25T14:41:00+00:00",
    "lang": "fr",
    "t": "Il tente de voler GTA VI dans un magasin à La Charité-sur-Loire puis sort un couteau pour prendre la fuite",
-   "u": "https://www.lejdc.fr/charite-sur-loire-58400/faits-divers/il-tente-de-voler-gta-vi-dans-un-magasin-a-la-charite-sur-loire-puis-sort-un-couteau-pour-prendre-la-fuite_15091747/",
-   "img": "https://img.centrefrance.com/sAueBf3A5qgwcoBne16Fz8v6Pnf5C9jVoJN2WY1iCGo/rs:fill:1200:800:1:0/g:sm/bG9jYWw6Ly8vMDAvMDAvMDcvODcvMDAvMjAwMDAwNzg3MDAxNw.jpg",
-   "chapeau": "Un homme a tenté de dérober un exemplaire du jeu GTA VI dans un magasin de La Charité-sur-Loire, mardi 24 novembre. Pris en chasse par l’agent de sécurité, il a brandi un couteau avant de prendre la fuite.",
-   "txt": "",
-   "pub": "2026-11-25T14:41:22Z",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -604,16 +674,30 @@
    "cyberleek": true
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbFRlX2lWbnlGcDhqcGRnSTB4Zmd1US1WOWYtbTBpTERKWl83SHRPalQ0OWQtOURCb1gwZFNRWXZVSDNUclpRSGNfM3VQM3dGMW84SjM4VXZsdUZKYVFwbW9JR204WDI1d3JJSGJfWkM3Tm5vLU8zUWM2aUpWR1dtWlRlMW9LclpoVW5scmxjanp6OGhIQ09JN1pRUWtNNEoxZUl3OThBMXJvQkdmb0pDREVmbW1wNlhW?oc=5",
+   "s": "PC Guide",
+   "d": "2026-11-25T10:27:41+00:00",
+   "lang": "en",
+   "t": "Unofficial GTA 6 PC port and over 3,000 repositories taken down as Take-Two takes action",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMGNrUk5lQ0NRZVNyTkhZMHRYV2psSHZraW9rYmQwRVhqQk43Yl9kSnd0clFWT21fdVhQU2VzMFIzbHB3c0tyYkhyVWxOWE4tcjdRSWFrQzdUYUg3UC1pMk5IQWtnSktMU2c5TU1SdElBWjBpU3JNWllKWkNnRFZxMFp6ai0ydHRFVjZMVXFsRGFoZEg1aWxDZ0FRMklxQUFqd1lZ?oc=5",
    "s": "heise online",
    "d": "2026-11-25T07:48:00+00:00",
    "lang": "en",
    "t": "“GTA 6”: Take-Two gets unofficial PC port removed from GitHub",
-   "u": "https://www.heise.de/en/news/GTA-6-Take-Two-gets-unofficial-PC-port-removed-from-GitHub-11537104.html",
-   "img": "https://heise.cloudimg.io/v7/_www-heise-de_/imgs/18/5/2/0/7/6/5/9/Jason_Duval_07-763a916c24d34b43.jpg?func=bound&height=1200&org_if_sml=1&q=85&width=1200",
-   "chapeau": "Project Leonida aimed to bring the leaked Xbox version of “GTA 6” natively to Windows. Take-Two’s DMCA notice has taken it down.",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBiQTlfcGtOZ2ZoRU9aTmFNZUZfYklUQ01ob2QzcXZ5Z3FmcGlXSGNYZmhTNVhyMlRoc21FNzQxUU5ESXJ0blJpYkNuQjhEMXVBRF9ocnBiWElqSk1uaVcwR0dIMS10R1NrM1JXRnNpWjR0eEE?oc=5",
+   "s": "Presse-citron",
+   "d": "2026-11-25T06:54:04+00:00",
+   "lang": "fr",
+   "t": "GTA 6 sur PC : Rockstar Games doit se dépêcher, la course pour créer une version non officielle a déjà commencé",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -679,185 +763,6 @@
    "chapeau": "Crypto: Cyberleek publishes alleged GTA 6 files despite the failure of its memecoin, which remained far from the hoped $15 million.",
    "txt": "Getting informed ▪ Altcoins Summarize this article with: ChatGPT Perplexity Grok Cyberleek wanted to boost its memecoin to a capitalization of 15 million dollars thanks to the GTA 6 leaks. The operation ended in failure. On November 23, 2026, the alleged author of the disclosures finally published the executable file of an Xbox version of the game. The next day, its crypto displayed a valuation of only 1.36 million dollars. Even the launch of one of the most anticipated video games of the decade was not enough.\nRead us on Google News In brief Cyberleek reportedly published the executable file of GTA 6 on November 23. Its memecoin remains about 91% below its capitalization target. The hourly volumes observed during the latest leak are nearly 29 times lower than the peak recorded in August. GTA 6 at the Heart of a Failed Crypto Bet On November 19, the official launch day of GTA 6 on consoles, Cyberleek claims to hold an almost complete version of the game on Xbox. About 209 GB of files were reportedly leaked, except for the main executable file.\nIts early publication was supposed to depend on the performance of the CYBERLEEK crypto. The token had already had its moment of glory. In August, Cyberleek’s crypto had reached 25 million dollars before crashing by 46% in one day , after several sales attributed to its creator.\nCyberleek hoped to replicate this surge. In October, it had set a first capitalization goal at 30 million dollars. In November, its ambitions dropped to 15 million.\nThe crypto market did not follow. As of November 24, CYBERLEEK was trading around 0.00136 dollars, for a capitalization close to 1.36 million and a daily volume of 752,000 dollars.\nNevertheless, Cyberleek kept its promise to release the file on November 23, regardless of the financial outcome. The author claims that the funds collected are to finance a secret project, unrelated directly to GTA 6. No public element currently allows verification of this claim.\nBitquery’s on-chain data allow measuring the investors’ loss of interest. Between November 16 and 18, CYBERLEEK lost 45% of its value. On the day of GTA 6’s launch, the token rebounded by 41%, then rose another 16% the next day.\nThe following two days erased part of these gains. On November 23, the executable file’s release provoked a new market reaction. The most active hour recorded about 186,600 dollars of transactions.\nIn August, during the first leaks, the hourly record reached 5.47 million dollars. Nearly 29 times more. Yet, this time Cyberleek had a much bigger promotional argument than some unreleased videos: the files of an alleged version of the game.\nSome investors mainly took advantage of the rebound to sell. Bitquery identified five wallets that made about 123,000 dollars in sales, with no purchases between November 19 and 23.\nThese amounts do not necessarily correspond to their profits. The episode recalls the difficulties faced in this market, where nearly 94% of Solana memecoin traders tracked in a previous study showed losses. For CYBERLEEK, the release of the files ultimately caused only a temporary surge in activity.\nCyberleek probably made a mistake from the announcement of its schedule. By promising to publish the file on November 23 even if its financial goal was not reached, it removed much of the incentive to buy its crypto. Players could simply wait a few days.\nWhy buy a risky token to get something faster that was supposed to become accessible for free? The affair also gave rise to several imitative cryptocurrencies. A token called Justice For Cyberleek notably appeared on Pump.fun on November 23.\nThe risks also concern players. As early as November 3, Netcraft researchers had catalogued 121 new domain names impersonating Cyberleek. Some offered alleged versions of GTA 6 containing suspicious files.\nAn analyzed executable was flagged by 34 of the 68 VirusTotal security engines. This method recalls Stealka, malware disguised as video game mods to steal cryptocurrencies . GTA 6’s popularity remains unquestionable. That of the CYBERLEEK memecoin, much less so. Its creator attempted to finance his project through the impatience of players, even though they had no economic obligation to buy his token. Once the leak was published, little remains of this marketing argument.\nMaximize your Cointribune experience with our \"Read to Earn\" program! For every article you read, earn points and access exclusive rewards. Sign up now and start earning benefits.\nJoin the program A",
    "pub": "2026-11-24T20:41:10+01:00",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONkJUWEhKMWpING1GVHpXNkw2eG85ZGZvejNFZU5YN1hMZVplemdjWmttdG11bjVUdlRZODdaR1NWNXEwMlF1amNNQVItek0tYkJaajdxNEF1dFdNUHBfTWg5SzVnVlprS25lX3dZWk5GdXQ3aHRRVXlaLUlzUEtJTVhYZUdYTlNtc3ZvamRwVQ?oc=5",
-   "s": "Cointribune",
-   "d": "2026-11-24T19:35:33+00:00",
-   "lang": "fr",
-   "t": "Crypto : Les fuites de GTA 6 tournent au fiasco financier",
-   "u": "https://www.cointribune.com/crypto-une-fuite-de-gta-6-derriere-un-pari-de-15-millions/",
-   "img": "https://www.cointribune.com/app/uploads/2026/11/Crypto-GTA.png?nowebp",
-   "chapeau": "Crypto : Cyberleek publie les fichiers présumés de GTA 6 malgré l'échec de son memecoin, resté loin des 15 millions de dollars espérés.",
-   "txt": "S'informer ▪ Altcoins Résumer cet article avec : ChatGPT Perplexity Grok Cyberleek voulait propulser son memecoin à 15 millions de dollars de capitalisation grâce aux fuites de GTA 6. L’opération se solde par un échec. Le 23 novembre 2026, l’auteur présumé des divulgations a finalement publié le fichier exécutable d’une version Xbox du jeu. Le lendemain, sa crypto affichait une valorisation de seulement 1,36 million de dollars. Même le lancement de l’un des jeux vidéo les plus attendus de la décennie n’aura pas suffi.\nLisez-nous sur Google News En bref Cyberleek aurait publié le fichier exécutable de GTA 6 le 23 novembre. Son memecoin reste environ 91 % en dessous de son objectif de capitalisation. Les volumes horaires observés lors de la dernière fuite sont près de 29 fois inférieurs au pic enregistré en août. GTA 6 au cœur d’un pari crypto raté Le 19 novembre, jour du lancement officiel de GTA 6 sur consoles, Cyberleek affirme détenir une version presque complète du jeu sur Xbox. Environ 209 Go de fichiers auraient été diffusés, à l’exception du principal fichier exécutable.\nSa publication anticipée devait dépendre des performances de la crypto CYBERLEEK. Le token avait pourtant déjà connu son heure de gloire. En août, la crypto de Cyberleek avait atteint 25 millions de dollars avant de s’effondrer de 46 % en une journée , après plusieurs ventes attribuées à son créateur.\nCyberleek espérait reproduire cette envolée. En octobre, il avait fixé un premier objectif de capitalisation à 30 millions de dollars. En novembre, ses ambitions sont descendues à 15 millions.\nLe marché crypto n’a pas suivi. Au 24 novembre, CYBERLEEK s’échangeait autour de 0,00136 dollar, pour une capitalisation proche de 1,36 million et un volume quotidien de 752 000 dollars.\nCyberleek a néanmoins tenu sa promesse de diffuser le fichier le 23 novembre, indépendamment du résultat financier. L’auteur affirme que les fonds collectés doivent financer un projet secret, sans rapport direct avec GTA 6. Aucun élément public ne permet actuellement de vérifier cette affirmation.\nLes données on-chain de Bitquery permettent de mesurer la perte d’intérêt des investisseurs. Entre le 16 et le 18 novembre, CYBERLEEK a perdu 45 % de sa valeur. Le jour du lancement de GTA 6, le token a rebondi de 41 %, avant de progresser encore de 16 % le lendemain.\nLes deux journées suivantes ont effacé une partie de ces gains. Le 23 novembre, la publication du fichier exécutable a provoqué une nouvelle réaction du marché. L’heure la plus active a enregistré environ 186 600 dollars de transactions.\nEn août, lors des premières fuites, le record horaire atteignait 5,47 millions de dollars. Près de 29 fois plus. Cyberleek disposait pourtant cette fois d’un argument promotionnel beaucoup plus important que quelques vidéos inédites : les fichiers d’une version présumée du jeu.\nCertains investisseurs ont surtout profité du rebond pour vendre. Bitquery a identifié cinq portefeuilles ayant réalisé environ 123 000 dollars de ventes, sans aucun achat entre le 19 et le 23 novembre.\nCes montants ne correspondent pas nécessairement à leurs bénéfices. L’épisode rappelle les difficultés rencontrées sur ce marché, où près de 94 % des traders de memecoins Solana suivis dans une précédente étude affichaient des pertes. Pour CYBERLEEK, la publication des fichiers n’aura finalement provoqué qu’un regain temporaire d’activité.\nCyberleek avait probablement commis une erreur dès l’annonce de son calendrier. En promettant de publier le fichier le 23 novembre, même si son objectif financier n’était pas atteint, il supprimait une grande partie de l’intérêt d’acheter sa crypto. Les joueurs pouvaient simplement patienter quelques jours.\nPourquoi acheter un token risqué pour obtenir plus rapidement quelque chose qui devait devenir accessible gratuitement ? L’affaire a également donné naissance à plusieurs cryptomonnaies imitatrices. Un token baptisé Justice For Cyberleek est notamment apparu sur Pump.fun le 23 novembre.\nLes risques concernent aussi les joueurs. Dès le 3 novembre, les chercheurs de Netcraft avaient recensé 121 nouveaux noms de domaine reprenant l’identité de Cyberleek. Certains proposaient de prétendues versions de GTA 6 contenant des fichiers suspects.\nUn exécutable analysé avait été signalé par 34 des 68 moteurs de sécurité de VirusTotal. Ce procédé rappelle celui de Stealka, un logiciel malveillant déguisé en modifications de jeux vidéo pour dérober des cryptomonnaies . La popularité de G",
-   "pub": "2026-11-24T20:35:33+01:00",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPLWdwSHRyMk81NWhEWE5RaGpyXzh6azhnWWVva2ZoaFFZN3RqNGU3cWpjSHVuWnBFd2RlWlhxWU5JSThBRGFNS1E1Z2Q3M0RCTklUQmxlcU9CWnVLNGxLdHhveF9MY0MtZHVtN2RCdEdZamdvb3EwU2hmUjduZkhhS2M4cnVlMWpyNjY4WXgwYXZHWUUxZnV3cXE2SQ?oc=5",
-   "s": "Polygon.com",
-   "d": "2026-11-24T18:24:27+00:00",
-   "lang": "en",
-   "t": "Catastrophic 'GTA 6' Leak Officially Kickstarts PC Port Race",
-   "u": "https://www.polygon.com/gta-6-on-pc-port-emulator-cyberleek-exe-xbox-executable-is-it-playable/",
-   "img": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/lucia3.JPG?w=1600&h=900&fit=crop",
-   "chapeau": "Hackers are trying to get GTA 6 running on PC, Mac, and Linux without the help of Rockstar following a major game file leak",
-   "txt": "Grand Theft Auto 6 ' s official release seemed like the end for apparent hacker Cyberleek , who raised millions of dollars in cryptocurrency by sharing unauthorized video of the open-world game ahead of launch. Rather than fading into obscurity, Cyberleek upped the ante by releasing an apparent build of GTA 6 onto the internet. And now, hackers, vibe coders, and programming enthusiasts are rushing to try and make GTA 6 playable on PC before Rockstar does.\nThose following along might recall Cyberleek as the hacker who spent weeks provoking Rockstar Games . In addition to supplying the internet with leaked footage of the unfinished version of the game, Cyberleek also critiqued Rockstar and parent company Take-Two Interactive's business practices . The leaker claimed they objected to GTA 6 's digital-only release as well as its pre-order bonuses. Cyberleek encouraged Rockstar and Take-Two to change course by dangling the possibility of sharing the files they were using to play the game to the public.\nThis suggestion was particularly shocking since Rockstar has not made the game available outside of console platforms. The game also doesn't exist on a disc, meaning that players don't have access to the game files. Without such data, players can't peek under the hood of the game — and they definitely could not tinker with it in unintended ways, like forcing the characters to appear without clothes in the overworld.\nCyberleek's motives seemed questionable, especially since the hacker gated the release of the alleged files behind monetary milestones. One of those early milestones included nude gameplay featuring the game's co-protagonist Lucia which successfully rallied fans to donate money. Once Cyberleek shared the footage, however, the hacker lost their leverage and the public moved on.\nMore recently, the hacker reappeared with a more appealing proposal: they would drop the apparent files free of charge. \"The torch passes to the open source recomp and emulation projects,\" Cyberleek said on their website.\nPolygon cannot confirm the veracity of these files; Rockstar Games and Xbox did not immediately respond to a request for comment. Yet even as some hoaxes related to Cyberleek seem likely, the larger claim about the game files appears to be legitimate. Since Cyberleek dropped the alleged executable, savvy GTA 6 fans gathering on Discord have shared steady progress on making the game accessible on Linux, Mac, and Windows PC. These initial attempts don't seem impressive, especially when the game barely functions, stutters, or displays rudimentary graphics without textures and lighting .\nIt would be a mistake to dismiss the reverse engineering projects though. The first big hurdle — getting the game to run at all — has already been overcome​​​​​​​ . A few hours after entering the game for the first time, hackers managed​​​​​​​ to load some of GTA 6 's shaders, which help the game get closer to its full visual fidelity.\nUnder normal circumstances, before artificial-intelligence coding assistance became readily available ,​​​​​​​ incremental progress like this could have taken years for a game as complex as GTA 6 . To be sure, it may still be weeks, if not months, before​​​​​​​ an unauthorized PC port of GTA 6 seems plausible. Given the enormous interest in the game — and the PC gaming community feeling slighted​​​​​​​ for being left out — a port may just be a matter of time. If it comes to pass, fans may also be able to access the game without paying for it.​​​​​​​\nMichael Franklin Trevor Lester Lamar Polygon Quiz W h i c h G T A V C h a r a c t e r A r e Y o u ? 8 Questions • 5 Characters Set aside what any of them do for a living. Underneath, Los Santos runs on five very different people: one restless, one patient, one with no filter, one who has already worked out how it ends, and one who has never once doubted himself. Eight ordinary questions, none of them about the job, will say which one you are. On The Wheel Michael Franklin Trevor Lester Lamar Spin The Wheel Block 01 of 08 0% Driven Question 01 A NEW CITY 01 You move somewhere new. What does your first week look like? Everybody arrives differently. A I picked the house first. Everything else arranges itself around that. B Working, learning the place, watching who does well here and how. C Introducing myself to everybody, loudly, inside about an hour. D I researched it for six months. I know it better than people who live there. E Telling everyone back home how well it",
-   "pub": "2026-11-24T18:24:27Z",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1rd18tRnF2OGFqQzg4NHY1NkhnQ2g3bHNoTFdEUjJDVDlWZTJtcHJFNnNsNlNwM0JBVzVsV1R1ZnU5SzJHUWhlVmNGdzktQkswd0JWRi1rXzZxVjhWUjlN?oc=5",
-   "s": "Tbreak UAE",
-   "d": "2026-11-24T17:28:00+00:00",
-   "lang": "en",
-   "t": "GTA 6 PC port projects are already going offline",
-   "u": "https://tbreak.com/gta-6-pc-port-projects-offline/",
-   "img": "https://i0.wp.com/tbreak.com/wp-content/uploads/2026/11/4kuyc0.jpg?fit=596%2C335&ssl=1",
-   "chapeau": "Project Leonida lost its GitHub page and its Discord was reportedly taken down after the GTA 6 Xbox leak. No GTA 6 PC port is playable yet, either.",
-   "txt": "The GTA 6 Xbox leak hasn’t yielded a playable PC port, and Rockstar hasn’t confirmed whether it requested the removal of Project Leonida’s Discord server.\n0:00 Unofficial GTA 6 PC port projects are going offline days after a leaked Xbox build was released.\nNone of the projects has made GTA 6 playable on PC. Project Leonida, which aimed to get the Xbox Series X build running on PC, lost its GitHub page. VGC reports a claim that Leonida’s Discord server was taken down at the request of Rockstar and its parent company, Take-Two.\nThe server had around 179,000 members, with 74,000 online. There’s no evidence of emails from Rockstar or Discord, and Rockstar and Take-Two have said nothing.\nOn 18 November, Take-Two used DMCA takedowns against unofficial GTA 5 ports on GitHub. In August, it subpoenaed Discord for data on Cyberleek, the account behind the GTA 6 leak. Rockstar’s modding guidelines also restrict unofficial ports.\nLeonida’s GitHub page returned a 404 error, not a DMCA notice. The error points more towards the project’s operators having deleted the page, but it doesn’t prove they did.\nCyberleek released the Xbox build on 19 November without the executable, promising to release it sooner if a meme coin reached a $15 million target. The coin missed that target, but Cyberleek released the executable the following Monday anyway. According to Decrypt, the GTA6Modding Discord server was removed the next day, and other groups, including Chasm, locked down their servers.\nMany projects are using AI chatbots such as Claude to write their code. Two projects, VIctory and XCL, can load the game world, but neither can run it in a playable state. Don’t download anything advertised as GTA 6 for PC; some carry infostealers.\nFound us on Google? Add tbreak as a preferred source to see more of our stories in Top Stories.",
-   "pub": "2026-11-24T21:28:00+04:00",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOR3NyY0pEVGt0VVhsZDVJOEJIMkZFalJrTHUzMWh6Ym9VeWFMMXJZS1B0UkRwN25SV1BaVElWUGlWbmEtQmV2eEFfV0FvakZYX2o0Z1NheEYwMVBxc2FOOFZMR0c1ZjFnNGxHX0ZXX2RIcnlIOHdCN1lDamhUZXlac2I2TXI0ZFc0U082UnRJUUdfRkVsSnIycFcyNVg2dURhU2xvUTlZbzROdnUxWm5ZNEhlZTRacEcxQkRXZDdhV0JoSXdLSnllUldn?oc=5",
-   "s": "LevelUp",
-   "d": "2026-11-24T15:18:57+00:00",
-   "lang": "en",
-   "t": "CyberLeek Leaks GTA 6’s Executable File, and Modders Are Already Working on a Playable PC Version | LEVEL UP",
-   "u": "https://www.levelup.com/en/news/cyberleek-leaks-gta-6s-executable-file-and-modders-are-already-working-on-a-playable-pc-version-2/",
-   "img": "https://www.levelup.com/resizer/v2/PHBP7GZH5RFCTFAXX7TK7KAX5M.jpg?auth=ec720f53e2dcbf712ca1eba94ceb5315dc1cbded9e17a36369b9a6dfa7784fb7&height=630&width=1200&quality=70&smart=true",
-   "chapeau": "The hacker says its actions are a protest against major companies such as Rockstar Games and Take-Two Interactive",
-   "txt": "CyberLeek resurfaced this week to fulfill its promise and leak the executable file for Grand Theft Auto VI (GTA 6), taken from an Xbox version of the game. This has allowed the modding community to start working on an unofficial PC port.\nOf course, Rockstar Games hasn’t been sitting idly by. The company obviously wants to stop an illegal version of GTA 6 from making its way to computers and possibly consoles. In fact, it has already made its first move to shut down the project and prevent piracy from affecting its popular title, which, according to estimates, has already sold more than 44 million copies.\nIts efforts have paid off, as the company recently dealt a major blow to the development of the GTA 6 PC port. As a result, one of its creators threw in the towel and decided to abandon the project.\nCyberLeek recently made the executable file for GTA 6 public, corresponding to version 1.0.2.1 for Xbox Series X|S. This file opens the door to the development of illegal ports of the game, as a previous build had already been leaked and used by modders to launch a project that has put Rockstar Games on edge.\nThe project now facing trouble is Project Leonida, the name of the unofficial GTA 6 PC port. Rockstar has taken action to prevent its development from being completed. This comes after those behind the project showed significant progress, including footage of the game running and its opening sequence playing, albeit with some issues.\nHowever, the project’s future is now uncertain, as the developer managed to halt its progress with a single move. Specifically, Rockstar succeeded in shutting down Project Leonida’s Discord server, prompting the project’s lead developer to walk away.\nModder NotRexed confirmed on social media that Project Leonida’s Discord server was now a thing of the past because Rockstar had stepped in. In response, he decided to abandon development of the unofficial GTA 6 PC port.\n“I’m done, guys. I’m sorry. I really want to create cool things, but things I can’t control always get in the way, so I’m stepping down. Thank you to everyone, especially those on Discord, who gave me this opportunity,” NotRexed said.\nHe later explained that he was tired of dealing with the community’s demands and that the pressures of everyday life were preventing him from continuing development. NotRexed deleted his GitHub repositories, so this appears to be the definitive end of Project Leonida, although someone else could still take over development.\n“Rockstar shutting down my server was only part of the problem. As I’ve said before, I’m a 15-year-old kid. It’s already hard enough balancing school and sports without having to put up with middle-aged men yelling at you and complaining on Discord. Goodbye,” NotRexed concluded.\nThe unofficial GTA 6 PC port has halted development following Rockstar Games’ actions.\nRockstar has a lot of work ahead if it wants to prevent an unofficial port of its open-world game from being released and potentially pirated on consoles. The thing is, Project Leonida isn’t the only initiative attempting to bring GTA 6 to other platforms by taking advantage of CyberLeek’s leaks.\nThere are currently at least a dozen similar projects seeking to run GTA 6 on PC before an official port arrives. In theory, Rockstar’s version would be released sometime in 2027, but no exact release date has been confirmed so far.\nIt’s highly likely that Rockstar and Take-Two Interactive’s legal teams will also attempt to shut down these projects. At Level Up, we want to emphasize that we do NOT support these kinds of initiatives. Meanwhile, a mysterious GTA 6 page has appeared on Steam, although there are serious suspicions that it could be a scam.\nOpens in new window Opens in new window Opens in new window About the author Daniel Laguna I'm interested in video games as an industry and as a form of cultural expression. I especially enjoy RPGs.\nComentarios Publicar Inicia sesión desde el menú superior para dejar un comentario.",
-   "pub": "2026-11-24T15:18:57.125Z",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUHpUdTNDZUR6dEk3MFd1UWJQLVVFMml4T3Y5cnVvelYyS3Z5aXBjbVZVV0QtRDFtLXB5Z04zbXd1S2hsdWZyLU91MEFhWTdxZ3hrOU50N05nN2ZJeE9NdlpkQ0FHcTZNbHZwR1MzZC1hN2Y1VnVxNUZYMTE2ckl1NFFGdHU0aVdpX3pJRWVzclVxNkk3NWVudVQxUQ?oc=5",
-   "s": "lebigdata.fr",
-   "d": "2026-11-24T14:10:06+00:00",
-   "lang": "fr",
-   "t": "Cyberleek a tenu parole : GTA 6 démarre sur PC, mais ne vous emballez pas !",
-   "erreur": "HTTP Error 403: Forbidden",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5KVVRIQkdmZGlleG5RX3dmQmRNcTRvQUJjLWotT19aWlh2ZUE5TmUtUWhJYzVJd21KZ25oSHQ1TENwcEk1bXpB?oc=5",
-   "s": "Digg",
-   "d": "2026-11-24T13:52:40+00:00",
-   "lang": "en",
-   "t": "Cyberleek claims it leaked a GTA 6 development build—minus the file that runs it · Digg",
-   "u": "https://digg.com/gaming/lnswkzkh",
-   "img": "https://digg.com/gaming/lnswkzkh/opengraph-image?6a9dc854e855d953",
-   "chapeau": "Cyberleek says it could release the withheld executable sooner if its crypto token hits a valuation target.",
-   "txt": "Gaming Latest: Eurogamer: Rockstar seemingly pulls the plug on unofficial GTA 6 PC project 4 days later → TLDR Hacker group Cyberleek claims to have shared a November 2026 Xbox development build of GTA 6 via torrent. VGC reports that the main executable is missing, leaving the build unplayable. Cyberleek says that file is on a timer but could arrive sooner if its crypto token reaches a target market value. Its claimed consumer-rights campaign comes with a crypto catch.",
-   "pub": "2026-11-19T20:44:46.794796+00:00",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQUlaS0t5YzlndmJ2M2RtSzh1QnFWNTE5NU1HbDdYZlZBX0JmQTl4elZpSVF5REU4WGplZU9qZXpBV1ByUmE3WXg5Rk9Kd1ZBYW41WExUQ3ZXMkZGT0d3QlM1NEliNHRLUkZfam9QeUdmZ3FxYTdYQ2QxZ003SUVVcGxuTVd2Z3R6UEFCV21FRG0?oc=5",
-   "s": "overclocking.com",
-   "d": "2026-11-24T13:47:20+00:00",
-   "lang": "en",
-   "t": "GTA VI: Cyberleek is distributing the game’s executable file!",
-   "erreur": "<urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)>",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5qV3BZMHhobFFYLXhEVFNibmhldXhUWWVEYzhhdXdNOGxqTDNMamRORTQwSHcwVmsxSnQwMTJtYUhSN29pU0dzcThwRFBvWUIzcWxfbUVCVXl0NXFhSTgtVUU1NWoxYkE?oc=5",
-   "s": "Rom-Game.fr",
-   "d": "2026-11-24T13:05:09+00:00",
-   "lang": "fr",
-   "t": "GTA VI sur PC : les portages non officiels montrent le jeu, à 3 images par seconde",
-   "u": "https://www.rom-game.fr/news/7413-gta-vi-pc-portage.html",
-   "img": "https://www.rom-game.fr/multimedia/og/news/gta-vi-pc-en-jeu-une-20261125-142908.webp.jpg",
-   "chapeau": "48 heures après la fuite de l'exécutable, les portages PC non officiels de GTA VI montrent le jeu : Belobug et ZETTROX suivent les missions, mais à 2 ou 3 images par seconde.",
-   "txt": "Il n'aura pas fallu plus de quarante-huit heures. Depuis que CyberLeek a publié lundi 23 novembre l'exécutable de la build Xbox Series de GTA VI , les portages PC non officiels sont passés d'un écran noir à un monde ouvert presque fidèle à celui de la console. Les premières images en jeu circulent depuis mercredi 25 novembre, mais le jeu reste injouable : les meilleures versions tournent à deux ou trois images par seconde.\nLe site de fans PortWatch VI , qui note chaque projet de 0 à 100 % selon le chemin parcouru vers un jeu jouable de bout en bout, résume l'emballement : le meilleur projet plafonnait à 6,3 % le 21 novembre, il atteint 77,4 % ce mercredi. En tête, la version de Belobug , une variante de VIctory conçue pour les cartes graphiques AMD . Selon PortWatch, qui l'a vue tourner, le monde ouvert s'affiche éclairé, avec ses textures, ses passants, ses véhicules, sa végétation, son eau et son ciel, au point de ressembler au jeu commercial. Elle permet de suivre les missions et plante rarement. Mais elle tourne entre 3 et 5 images par seconde, environ 3 en voiture, sur une configuration musclée (Radeon RX 9070 XT, Ryzen 7 9800X3D et 64 Go de mémoire vive), réclame près de 22 Go de RAM et plus de 16 Go de mémoire vidéo, et laisse encore des véhicules se déformer et des arbres lointains disparaître. Son auteur la juge lui-même « pas encore jouable ».\nDerrière, la version de ZETTROX , tirée de VIctory et de la variante de hyphennn pour les cartes NVIDIA , mène du prologue de Lucia jusqu'à la première mission de Jason , « Gone Fishing », où PortWatch a pu vérifier le premier tir mortel de GTA VI sur PC. Elle n'a jamais planté en plus d'une heure et demie de session, mais tourne autour de 2 images par seconde, avec des zones d'ombre entièrement noires et des scènes lumineuses surexposées. Sur X, d'autres images montrent la scène de la prison de Lucia avec son éclairage intérieur et des textures détaillées, dans une version partagée par im_gone .\n« Je n'aurais jamais imaginé voir GTA VI tourner à 3 images par seconde avec des graphismes presque corrects en seulement 48 heures », reconnaît John Papadopoulos , de DSOGaming, qui attend tout de même un rendu stable à 30 images par seconde, sans défauts visuels, avant de juger l'essai utile.\nLa veille, DSOGaming recensait cinq émulateurs ou portages majeurs : CGBJ , VIctory , XCL , Xbox2Windows et TuxBox . Les deux derniers parviennent à lancer GTA VI et à afficher sa première image. XCL et VIctory vont plus loin, jusqu'au menu principal, et faisaient figure de favoris avant l'apparition de CGBJ.\nLes deux projets ne s'y prennent pas tout à fait comme Leonida, qui misait sur la recompilation statique du code du jeu . XCL , écrit en Rust et publié sous licence GPL-2.0 le 20 novembre, se présente comme une couche de compatibilité entre la Xbox Series et Windows, dans l'esprit de Wine ou de Proton . Il n'émule pas le processeur : le code x64 du jeu tourne directement sur le PC, tandis que XCL réécrit de son côté les bibliothèques système de la console, comme kernelx.dll ou d3d12_xs.dll, et recompile les shaders RDNA2 de la console en shaders PC. Son dépôt affirme faire déjà tourner entièrement Minecraft Preview , Unicorn Overlord , Fortnite et XDefiant , dans la limite de leurs services en ligne.\nVIctory , lui aussi écrit en Rust, sous licence GPL-3.0, est né dans la soirée du 23 novembre avec un seul objectif : faire tourner GTA VI sur Windows à partir des fichiers fournis par l'utilisateur. Son état des lieux est précis : le jeu démarre, affiche ses écrans de premier lancement, sa vidéo d'introduction avec le son et ses menus à 30 images par seconde, puis charge le monde en une cinquantaine de secondes. Mais une fois dans la première mission, seul le titre s'affiche, la scène reste sombre et chaque image prend de 0,5 à 1,8 seconde. Une partie des shaders n'est pas encore traduite, et le projet prévient que l'entrée dans le monde peut figer la carte graphique au point de forcer Windows à relancer son pilote. Les deux dépôts cumulent déjà plusieurs milliers d'étoiles sur GitHub.\nCGBJ est une version privée de VIctory qui reprend une partie des travaux de XCL. Mardi, d'après DSOGaming, sa dernière version permettait de se déplacer à la manette, de parler aux personnages non joueurs et d'ouvrir le menu du jeu. Un résultat obtenu en moins de vingt-quatre heures, qui reste très loin d'une version jouable : il n'y a pas d'éclairage et les performances sont mauvaises. John Papadopou",
-   "pub": "",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWVd1SHRLZkhZUzE2SXVKOHhsMURVMWEtSk5mdUZROFZjR3drTXA0WC1UbUVrLXZya19Qa1lBVFlDSFYwbVZKZzFPdTFzdnlON3kzbmJ0LXJQU2NDTVcyTlZDeTBwclVIVDNOQ2FDdFVjalJqVmNZQkFNcUZRR0UwUWplaV9xNGZGbm9Gdkw2NmxIckhXX2pRU0liVnc?oc=5",
-   "s": "Korben",
-   "d": "2026-11-24T09:27:00+00:00",
-   "lang": "fr",
-   "t": "GTA 6 piraté en entier, mais aucun PC ne le fait démarrer (pour le moment)",
-   "erreur": "HTTP Error 403: Forbidden",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVTlkZ2thSUd0b0JaTlJOSl8zVGNGQnJJRFFXMGFfa3dveHRlMW9ndXU3TlFRQ0J3NjA3UGpEa29NUnljQTVBLXFNczJZNWVaUE51U2VBMkVDclNfUWF2S1JibTBZbVBIbnBDbEdiM2l3cUdTQ1dQRmZRZ3JPcm9uQ0NXbFE4UXd5amRvdVV2UHN5LVZfYURyZWtLcTNvaXhNd2hKeThkaHloNkFOajl4bkU4ZU1jeDJCaTViT1lUc1FmSldLS3JR?oc=5",
-   "s": "Numerama",
-   "d": "2026-11-24T08:56:02+00:00",
-   "lang": "fr",
-   "t": "GTA 6 sur PC : le principal projet est abandonné, mais le jeu commence à démarrer",
-   "u": "https://www.numerama.com/pop-culture/2383269-gta-6-sur-pc-le-principal-projet-est-abandonne-mais-le-jeu-commence-a-demarrer.html",
-   "img": "https://img.numerama.com/www.numerama.com/wp-content/uploads/2026/11/grand-theft-auto-vi-2026-11-18-17-48-58.png?resize=1600,900&key=e962ec0d",
-   "chapeau": "Quelques heures après la publication de l'exécutable de GTA 6 par Cyberleek, les premiers portages pirates ont commencé à faire tourner le jeu sur PC. Mais dans la nuit du lundi 23 au mardi 24 novembre 2026, Leonida, le projet le plus suivi, a disparu de GitHub et de Discord, et son créateur a jeté l'éponge. D'autres",
-   "txt": "Recevez tous les soirs un résumé de l’actu importante avec Le Récap’\nEn moins de 24 heures, le portage pirate de GTA 6 sur PC a pris deux directions opposées. D’un côté, le jeu de Rockstar commence à démarrer sur des ordinateurs, à partir de la version Xbox qui a fuité. De l’autre, le projet principal, Leonida, s’est effondré en une heure dans la nuit du lundi 23 au mardi 24 novembre 2026.\nLeonida s’était pourtant préparé à l’arrivée de l’exécutable en adaptant le jeu en avance , mais son développeur semble avoir eu peur des risques juridiques. Pour rappel, l’émulation de GTA 6 sur PC est totalement interdite et l’impossibilité d’extraire légalement sa propre copie empêche toute tolérance de Rockstar.\nLundi 23 novembre, vers 15h, le hacker Cyberleek a publié l’exécutable principal de la build Xbox 1.0.2.1 de GTA 6 . L’archive pèse 57 Mo et permet, théoriquement, de lancer les 200 Go du jeu qu’il avait proposé au torrent précédemment. Dans son message, il affirme que Take-Two n’a toujours pas réussi à l’identifier et dit laisser les projets de recompilation s’occuper de la suite : il ne compte pas publier son propre émulateur.\nCe contenu est bloqué car vous n’avez pas accepté les cookies et autres traceurs. Ce contenu est fourni par YouTube. Pour pouvoir le visualiser, vous devez accepter l’usage étant opéré par YouTube avec vos données qui pourront être utilisées pour les finalités suivantes : vous permettre de visualiser et de partager des contenus avec des médias sociaux, favoriser le développement et l’amélioration des produits d’Humanoid et de ses partenaires, vous afficher des publicités personnalisées par rapport à votre profil et activité, vous définir un profil publicitaire personnalisé, mesurer la performance des publicités et du contenu de ce site et mesurer l’audience de ce site (en savoir plus)\nEn cliquant sur « J’accepte tout », vous consentez aux finalités susmentionnées pour l’ensemble des cookies et autres traceurs déposés par Humanoid et ses partenaires .\nVous gardez la possibilité de retirer votre consentement à tout moment. Pour plus d’informations, nous vous invitons à prendre connaissance de notre Politique cookies .\nL’exécutable n’est pas chiffré et les contributeurs de Leonida l’ont chargé dans leurs outils en moins d’une heure. Dans la soirée, un message publié sur le Discord du projet, repéré par GamesRadar , résumait la situation : le jeu « démarre presque », avec un écran noir et un son qui se coupe.\nBlack Friday : Proton Pass Plus à -60 % Jusqu’au 30 novembre, Proton Pass Plus est à 1,99 € par mois pendant 12 mois, soit 60 % de réduction ! Alias d’adresse mail illimités pour profiter des codes promo sans saturer votre boîte, mot de passe unique par site, coffre-fort chiffré. Bref, un Black Friday sans stress ! Sponsorisé En ce moment à 1,99€ par mois L’écran noir signifie que la couche graphique, qui doit convertir les appels DirectX de la Xbox en appels Vulkan, ne fonctionne pas encore. Sur la machine d’un contributeur, la documentation du projet décrivait une douzaine de blocages franchis l’un après l’autre, avant un arrêt sur la gestion de la mémoire graphique, l’une des grandes différences entre la console et le PC.\nLes menus d’une vieille build de GTA 6 sur PC. // Source : X À force de s’obstiner, des contributeurs ont réussi à démarrer l’écran de chargement du jeu. GTA 6 reste très loin d’être jouable, mais le temps devrait réussir à rendre la build Xbox compatible avec les PC.\nLundi soir, Leonida a d’abord déménagé vers une nouvelle organisation GitHub, puis tout s’est arrêté. Vers minuit, le serveur Discord du projet, qui comptait près de 179 000 membres, ne répondait plus. Vers 1 heure du matin, le dépôt GitHub, suivi par plus de 33 000 personnes, a disparu.\nL’organisation GitHub ProjectLeonida, vers laquelle le projet avait migré, n’a plus aucun dépôt public. // Source : Capture Numerama Au même moment, son créateur, NotRexed, a annoncé son départ sur X. « J’arrête, je suis désolé », a-t-il écrit, en expliquant se heurter sans cesse à des problèmes qu’il ne maîtrisait pas, sans préciser lesquels. Il est aussi l’un des développeurs de Hookshot, qui avait porté le remake de Zelda: Ocarina of Time sur PC un jour après sa sortie sur Switch 2.\nRien ne permet d’affirmer que Rockstar ou Take-Two sont derrière cette disparition, mais il est probable que les risques encourus aient joué dans la décision de NotRexed. L’équipe semble avoir supprimé le projet elle-même, très certainement pour",
-   "pub": "2026-11-24T08:56:03+00:00",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9UTGZtaXNYU1gzNDhoanJMb2hNSFFjaC1RcndrNEd1NUlDXzd5UUtlNmtKTVhXN2wyOEsyRkFuVTVrS2h6NEpfS0lXVWI0YVFkX3d1ektpRWlEckpEN3BsZG90dlJEd1oxcHFFTDBLVmg1TFBWY0ZMNjV0UQ?oc=5",
-   "s": "overclocking.com",
-   "d": "2026-11-24T08:37:27+00:00",
-   "lang": "fr",
-   "t": "GTA VI : Cyberleek distribue l’exécutable du jeu !",
-   "erreur": "<urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)>",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPUm5GenBUVUViVzJER0R1bk9jUE1OcEUwM1RYcGtoZ3FYaFQySk5FeEQ2NGUtLWFiUDRXclZHcm5UNVJIOUotZHVzZ1pYcXMxMDBDbEMwQ1F6TEtCbFh4c2t2REloR1JMMTZNZlIwX2FzdE16MzQ0ZXlSWW1EdDNKb0tsYm1qTVZHeUpSZ3hWOUwtcDRKR3hGS2RkbmtRaTVOalpwdDV1OXZUbkE2V0EzMnE0WHZuWjB6VlA2aDZ6bUdWbWszM0FfVVZkQjFhanhQQ3pMbXVMbzE5WlZRcHNqSlc2NHlDT2k4QVgwZ1h0Q2kyeWIydXNv?oc=5",
-   "s": "La Crème Du Gaming",
-   "d": "2026-11-24T08:00:55+00:00",
-   "lang": "fr",
-   "t": "Cyberleek passe à l",
-   "u": "https://www.lacremedugaming.fr/jeux/gta/gta-6/cyberleek-passe-a-lacte-et-publie-lintegralite-de-gta-6-sur-xbox-et-veut-desormais-le-faire-tourner-sur-pc-235742.html",
-   "img": "https://sf.lacremedugaming.fr/wp-content/uploads/creme-gaming/2026/11/cyberleek-passe-a-lacte-et-publie-lintegralite-de-gta-6-sur-xbox-et-veut-desormais-le-faire-tourner-sur-pc-1200x660.png",
-   "chapeau": "Le 23 novembre 2026, le collectif CyberLeek publie une build Xbox massive de GTA 6, malgré l’absence de version PC officielle. Entre promesse de portage sauvage et explosion des arnaques, l’affaire prend une tournure inquiétante.",
-   "txt": "Le 23 novembre 2026, le collectif CyberLeek publie une build Xbox massive de GTA 6, malgré l’absence de version PC officielle. Entre promesse de portage sauvage et explosion des arnaques, l’affaire prend une tournure inquiétante.\nDepuis la sortie officielle de Grand Theft Auto VI le 19 novembre 2026 sur PS5 et Xbox Series X/S, alors qu’aucune version PC n’a été annoncée, les regards des joueurs PC se tournent vers un seul nom : CyberLeek . Le collectif de hackers a mis à exécution sa menace en diffusant en ligne une build de développement complète de GTA 6 pour Xbox, présentée comme la version « XBOX BUILD 1.0.2.1 (NOV 2026) » d’environ 209 Go.\nDans un premier temps, il manquait pourtant la pièce maîtresse : le fichier exécutable, indispensable pour lancer le jeu, même sur environnement de test Xbox. Après plusieurs jours de chantage autour du memecoin $CYBERLEEK , avec des paliers annoncés à 30 millions de dollars (environ 28 millions d’euros), puis 15 et enfin 6 millions de dollars, CyberLeek a finalement publié l’exécutable Xbox le 23 novembre. De quoi relancer une question explosive : cette fuite suffit elle à rendre GTA 6 jouable sur PC à court terme ?\nDans un message relayé par PC Gamer, le groupe fanfaronne : « C’est fait. CL est en possession du build actuel de GTA 6, qui est maintenant publié via torrent ». Les captures de dossiers montrent plus de 200 Go de fichiers Xbox, avec menus de debug et ressources dignes d’une version quasiment finale. Sur le papier, il s’agit bien de la même branche que celle sortie sur Xbox Series X/S le 19 novembre. Rappel essentiel : ce partage reste une infraction pénale en cours, qui ne change rien au fait que seule l’édition console est aujourd’hui légale.\nCyberLeek insiste cependant sur la nature du fichier : « C’est une build Xbox, pas une build PC. La communauté l’émulera en moins d’une semaine, au delà de 30 fps ». Le collectif affirme que, si ce portage sauvage échoue, il tentera d’obtenir une version PS5 comme plan B. En parallèle, Take-Two Interactive a lancé une traque juridique avec demandes de communication de données à plusieurs services en ligne, sans commentaire public de la part de Rockstar Games .\nSur le plan technique, l’idée paraît séduisante : la Xbox Series X/S partage une architecture processeur x86 64 proche d’un PC de jeu moderne. Des projets open source, comme le projet GitHub Leonida, chargent déjà le code de la build Xbox et traduisent les 26 503 shaders graphiques RDNA 2 en SPIR V pour tenter un rendu via l’API Vulkan. Depuis la sortie de l’exécutable, certains moddeurs affirment avoir réussi à faire démarrer un menu avec du son sous Windows, mais aucun gameplay jouable et stable n’a été vérifié publiquement.\nLe vrai verrou reste l’absence d’émulateur Xbox Series X/S mûr et la complexité de reproduire l’environnement complet de la console : système, pilotes, gestion de la mémoire vidéo, protections. En clair, même avec un build authentique de GTA 6, transformer cette version Xbox en portage PC utilisable demande des années de travail communautaire, pas quelques jours.\nAutour de cette fuite GTA 6 CyberLeek, un écosystème d’arnaques s’organise. Des torrents présentés comme « GTA 6 PC » se sont révélés quasi vides, avec un malware caché, tandis que des kits de scam se vendent environ 200 dollars, soit près de 185 euros, sur le dark web. Des chercheurs en sécurité ont identifié au moins 121 noms de domaine utilisant « CyberLeek » ou « GTAVI.exe », dont un exécutable détecté comme malveillant par une majorité d’antivirus.\nOfficiellement, GTA 6 ne tourne que sur PS5 et Xbox Series X/S, et Rockstar n’a pas annoncé de version PC. Au vu de l’historique du studio, un portage PC légal arrivera probablement plus tard, comme pour GTA 5 ou Red Dead Redemption 2 . D’ici là, entre risque juridique et menaces de malware, la build Xbox de CyberLeek reste surtout un signal d’alarme pour l’industrie et pour les joueurs.",
-   "pub": "2026-11-24T08:00:55+00:00",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQVXNpV1YwSjJIX0xBMjVQLVY1R0lEYzh1bTYxbnBRVjVlaHZhVE1CT3ZGbHNlQTBoMDgyOEZaRHo0Ni1fMXJpeFNZMjlibjFjVjllM29jUXV6WTBBNGJadkJGcExsaTJURDV6WnlZbHhVMzZCb09WRmpyM1Uwd05NTW1nMkJJQkp0UUdLd2hiQ1ZJajNNcHZRMnJaQl8waG4yaFp6N0VjRnhMMjMyWWtTTUptdlZScGd3UUtsN1hEV3lhdmwwamFwZmJpczJ0TXVjNFJxUzJqODRYNThKTXRjWTh4M0JDcGtK?oc=5",
-   "s": "Notebookcheck.fr",
-   "d": "2026-11-23T23:30:00+00:00",
-   "lang": "fr",
-   "t": "Cyberleek publie le .exe de la version Xbox de GTA 6, augmentant les chances de voir un portage jouable sur PC",
-   "u": "https://www.notebookcheck.biz/Cyberleek-publie-le-exe-de-la-version-Xbox-de-GTA-6-augmentant-les-chances-de-voir-un-portage-jouable-sur-PC.1458292.0.html",
-   "img": "https://www.notebookcheck.biz/fileadmin/Notebooks/News/_nc5/GTA6PCBannerNewest.jpg",
-   "chapeau": "La date de sortie du portage PC de GTA 6 étant encore inconnue, une version Xbox ayant fuité pourrait aider à patienter. Cyberleek a désormais diffusé un fichier exécutable qui pourrait permettre de jouer. Plusieurs groupes ont tenté d’adapter la version console pour qu’elle se lance sur des ordinateurs de bureau et des portables sous Windows.",
-   "txt": "Le sulfureux Cyberleek a diffusé une version Xbox de GTA 6 de 209 Go le 19 novembre, mais il y manquait un fichier essentiel. Il a désormais publié l’exécutable en avance sur le calendrier prévu et donné des nouvelles d’un projet secret. C’est une bonne nouvelle pour les groupes qui travaillent à l’adaptation de cette version en un portage jouable sur PC .\nPour débloquer une publication anticipée , Cyberleek avait demandé à ses partisans de faire grimper la capitalisation de son memecoin à 15 millions de dollars. L’objectif fixé pour cette cryptomonnaie a ensuite été ramené à 6 millions de dollars. Quoi qu’il en soit, il avait promis de diffuser le fichier .exe une fois passée l’échéance du 23 novembre. Juste avant la fin du compte à rebours, le fichier a commencé à apparaître sur des sites de piratage .\nCyberleek avait prédit que la version Xbox de GTA 6 déboucherait en moins d’une semaine sur une version capable de démarrer sur PC. Parmi les pistes figurait un émulateur , bien qu’aucune application n’émule actuellement la console. Des projets sur GitHub comme Leonida ont également tenté de modifier les fichiers pour permettre au jeu de tourner nativement sous Windows. Le processeur de la Series X repose sur l’architecture bien connue x86-64, mais de nombreux obstacles subsistent.\nMalheureusement, pour les utilisateurs de Steam qui soutiennent aussi le piratage, l’exécutable ne permet pas de jouer immédiatement. Les hackers doivent encore résoudre des problèmes comme la conversion des shaders et la gestion de la mémoire. Les développeurs peuvent néanmoins étudier le fichier dans l’espoir de créer des couches de compatibilité pour Windows.\nCyberleek a joint à l’exécutable .exe de la version Xbox un fichier texte dans lequel le groupe réaffirme ses intentions. Il explique que les précédentes fuites de séquences de jeu ne révélaient rien de l’intrigue pour ne pas gâcher l’expérience des joueurs. Le groupe vise plutôt Take-Two Interactive et Rockstar , qui ont repoussé la date de sortie du portage PC de GTA 6 .\nLes fonds collectés en cryptomonnaie seraient destinés à financer un projet « pour les joueurs ». Si les détails sont rares, le projet est présenté comme plus important que n’importe quelle fuite concernant Grand Theft Auto .\nMalgré une note moyenne de 99 sur Metacritic , qui égale le record, le projet de Rockstar a subi une vague de notes négatives . La note des utilisateurs tourne autour de 5,7/10 après plus de 100 000 évaluations. Si la plupart des notes de 0 sont peut-être injustifiées, les limites de performances reviennent souvent dans les critiques. Pour Cyberleek, le plafond de 30 images par seconde pourrait donner à une éventuelle version PC de GTA 6 un avantage de taille.",
-   "pub": "",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1PZW1DOUd4clFMSHlQOTIzTzhpb1dVYXFpc3ZfR252RmNzUFNVb3JFNjNQLUpESFNMcExCb2pXV2RCMlFkLUR1U0hKbjZ5d1c0eU84M1VJVUtIc0JuUXBEcGNseW5TVEhVQXMtZnJFekpBanpD?oc=5",
-   "s": "Phemex",
-   "d": "2026-11-23T22:20:39+00:00",
-   "lang": "fr",
-   "t": "La capitalisation de CYBERLEEK n",
-   "u": "https://phemex.com/fr/blogs/cyberleek-market-cap-vs-exit-liquidity",
-   "img": "https://static.phemex.com/pubimg/5f24b9c7d4a63a9b37534cc0f17bac8297747a09775c6caafd6b97af02f9b372.png",
-   "chapeau": "Un exemple daté fondé sur les réserves montre pourquoi une grosse vente de jetons peut rapporter bien moins que prix multiplié par quantité.",
-   "txt": "Blog Pourquoi la capitalisation de CYBERLEEK peut dépasser le montant réellement vendable Pourquoi la capitalisation de CYBERLEEK peut dépasser le montant réellement vendable Perspectives du Marché Jessica Mis à jour le 2026-11-24 07:20:39 Points clés La capitalisation de CYBERLEEK est un prix de référence multiplié par une offre estimée, pas une somme retirable. Les réserves réelles limitent le produit d'une vente. CYBERLEEK Réponse rapide : La capitalisation boursière multiplie un prix marginal de référence par une offre en circulation estimée ; elle ne constitue pas une offre d'achat garantie pour chaque jeton. Sur la capture d'écran CoinMarketCap fournie le 24 novembre 2026, CYBERLEEK affiche environ 958 450 $ de capitalisation, 729,98 millions d'unités en circulation, 1,77 million $ de volume sur 24 heures et un indicateur liquidité/capitalisation de 33,71 % . Aucune de ces valeurs ne garantit le produit d'une vente importante. Un seul pool Raydium observé séparément le 24 novembre montrait environ 319 000 $ de liquidité bilatérale , dont à peu près la moitié correspondait au côté SOL . Une vente dans ce seul pool modifierait son prix à mesure qu'il consomme du SOL. Le produit réel nécessite un devis exécutable récent, spécifique à la taille de l'ordre, sur les routes disponibles.\nAu 24 novembre 2026 UTC. La capture est un instantané de page sans horodatage visible. Les chiffres des pools DEX ci-dessous sont une observation distincte, non un audit simultané de l'ensemble du marché. Les prix et réserves peuvent changer avant publication ou exécution.\nC'est une convention de valorisation : prix de référence × unités en circulation estimées . En utilisant le prix arrondi de la capture, 0,001312 $, et une offre en circulation de 729,98 millions, on obtient environ 957 000 $ ; le prix interne plus précis de la page donne la valeur affichée de 958 450 $. Cette légère différence d'arrondi est normale. La formule évalue chaque unité comptée à un prix dérivé des transactions marginales, alors que toutes les unités ne pourraient normalement pas être vendues à un même prix marginal inchangé.\nLa capture indique également 729,98 millions comme offre totale et maximale, avec une circulation à 100 %. C'est une déclaration sur la manière dont le fournisseur de données classe les unités, non une affirmation selon laquelle chaque détenteur vend ou que chaque unité a un acheteur disponible. La précédente enquête Phemex identifiait le mint Solana comme ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg et mesurait environ 729,96 millions d'unités dans un instantané de chaîne d'août. La capture actuelle est cohérente en ampleur, mais une lecture de chaîne du 24 novembre serait nécessaire pour certifier l'offre exacte en cours et d'éventuels burns.\nLe « FDV » de la capture égale sa capitalisation parce que le fournisseur liste la même offre totale et en circulation arrondie. Le FDV n'apporte donc que peu d'information sous cette classification de données particulière. Il ne rend pas toutes les ventes futures possibles au prix affiché. Il ne prouve pas non plus que l'offre ne peut évoluer via tout événement lié au jeton ; les paramètres d'autorité du jeton et les transactions de chaîne nécessitent une vérification distincte.\nLe volume d'échange est la somme des transactions sur une période . Les mêmes unités peuvent changer de mains plusieurs fois, et les achats peuvent compenser les ventes. Un volume de 1,77 million $ sur 24 heures ne signifie pas que 1,77 million $ d'offres d'achat attendent dans le carnet maintenant. Même une journée riche en transactions peut présenter un carnet d'ordres très mince à une seconde donnée. Le ratio « Vol/Mkt Cap » de 185,21 % de CMC sur la capture est un rapport entre une mesure d'activité glissante et une valorisation ponctuelle. Ce n'est pas la fraction de l'offre qu'un trader peut vendre au dernier prix.\nLe chiffre liquidité/capitalisation affiché est aussi un indicateur défini par le fournisseur . La capture montre 33,71 %, mais l'image ne divulgue ni l'ensemble exact de pools, ni la méthodologie des réserves, ni le moment d'observation, ni la prise en compte de la profondeur des routes et des frais. Il ne faut pas le lire comme la promesse que 33,71 % de la capitalisation peuvent être retirés en cash. La liquidité bilatérale d'un pool compte généralement les deux côtés — jeton et actif de cotation — aux prix de référence. Un vendeur reçoit des actifs de cotation, pas l'étiquette dollar combinée des de",
-   "pub": "",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYkVnMnhaQzFwZy1PLUhZQ2pwV0ZoTFZVeEM0dlpBSktZd3FTWVgyUzlYeHE0VlFzUFBUUmpHNnZvVzhic0ZqWUJ4VmJ0NEl2ZmZVZEhQV2FEVXVoMDZpQkJQS3FwdTBGbE03TXYwWE5sd2lMRWYtU25xcTl3MkRNNUd6Y0JOVzFtVW5pUndvdEdZVUtWRGd2RnJQZ1V0bkVmZHZsWWQzQmJLdzNkVnhDX2xB?oc=5",
-   "s": "Always For Keyboard",
-   "d": "2026-11-23T21:02:26+00:00",
-   "lang": "fr",
-   "t": "Cyberleek publie enfin l'exécutable de GTA VI qui pourrait accélérer son arrivée sur PC - Always For Keyboard",
-   "u": "https://www.alwaysforkeyboard.com/cyberleek-publie-enfin-lexecutable-gta-qui-pourrait-accelerer-son-arrivee-sur/",
-   "img": "https://www.alwaysforkeyboard.com/wp-content/uploads/2026/11/gta_6_16-scaled.jpg",
-   "chapeau": "Cyberleek publie l'exécutable Xbox de GTA 6. Project Leonida peut désormais avancer vers une recompilation PC, mais le jeu reste encore injouable.",
-   "txt": "Après avoir diffusé une imposante archive de fichiers Xbox de GTA VI sans fournir le moyen de lancer le jeu, Cyberleek a finalement publié l’exécutable manquant ce 23 novembre. Une étape importante pour les développeurs amateurs qui tentent de faire fonctionner le titre de Rockstar sur PC grâce à la recompilation native ; mais malgré les premiers progrès annoncés, une version jouable reste encore à construire.\nPour rappel, Cyberleek avait mis en circulation le 19 novembre une archive d’environ 209 Go, présentée comme une version Xbox Series X|S du jeu, identifiée sous le numéro 1.0.2.1 et datée de novembre 2026. Elle contenait notamment des ressources graphiques, des textures, des modèles et des fichiers audio, mais pas l’exécutable principal indispensable au démarrage. Le leaker avait promis de publier ce dernier le 23 novembre, tout en conditionnant une éventuelle diffusion anticipée à la capitalisation de sa cryptomonnaie.\nCette fois, le fichier a bien été mis en ligne, accompagné de clés de contrôle SHA-256 censées permettre d’en vérifier l’intégrité ; son authenticité n’a toutefois pas encore été confirmée de manière indépendante. Cyberleek précise par ailleurs qu’il ne faut pas tenter de l’exécuter directement sous Windows : il est destiné aux équipes travaillant sur des outils de recompilation et d’émulation, ce qui nécessitera encore un peu de travail supplémentaires, mais rien d’insurmontable mais les moddeurs.\nParmi les initiatives concernées, Project Leonida cherche à transformer la version Xbox en une version PC native. La recompilation statique consiste à adapter le code du jeu et les composants propres à l’environnement Xbox pour qu’ils puissent fonctionner sous Windows. Le projet avait déjà préparé une partie importante du travail, notamment la traduction des shaders graphiques vers Vulkan.\nLa publication de l’exécutable a rapidement permis de progresser : quelques heures après sa diffusion, les développeurs de Leonida indiquaient que le jeu approchait du démarrage, malgré un écran noir et des coupures audio. Ce résultat reste très éloigné d’une version pleinement fonctionnelle, mais marque un premier pas concret.\nCyberleek avait assuré que la communauté pourrait faire tourner le jeu à plus de 30 images par seconde en une semaine, au grand dam de la philosophie de Rockstar . Cette prédiction reste à prendre avec prudence : démarrer le jeu ne signifie pas pouvoir y jouer dans de bonnes conditions. Rockstar, de son côté, n’a toujours pas annoncé de date pour une éventuelle version PC officielle.",
-   "pub": "2026-11-23T18:56:02+00:00",
    "cyberleek": true
   }
  ]
