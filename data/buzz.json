@@ -1,8 +1,46 @@
 {
  "title": "Le buzz GTA6",
- "updated_at": "2026-11-27T12:12:27+01:00",
+ "updated_at": "2026-11-27T14:12:40+01:00",
  "schedule": "Veille toutes les 2 h, de 8 h à minuit",
  "items": [
+  {
+   "id": "x-record-streaming-420-millions-heures-gtalphaintel-2026-11-27",
+   "title": "GTA 6 : un record de livestreaming avec 420 millions d'heures regardées la première semaine",
+   "summary": "@GTAlphaintel annonce que GTA 6 bat un record de livestreaming : 420 millions d'heures regardées pendant sa première semaine. TheBurntPeanut arrive en tête des streamers avec 11,43 millions d'heures. Chiffre relayé par un seul compte, non repris dans la presse suivie.",
+   "url": "https://x.com/GTAlphaintel/status/2126149010209873943",
+   "platform": "X",
+   "author": "@GTAlphaintel",
+   "status": "Rumeur",
+   "published_at": "2026-11-27T03:00:00.000Z",
+   "checked_at": "2026-11-27T14:12:40+01:00",
+   "evidence": "Vues relevées le 27/11 à 13 h 08 UTC (data/x_alertes.json) : 20 866 vues, 331 j'aime, 14 republications. Un seul compte relève le chiffre ; aucune reprise trouvée dans data/presse.json. Chiffre non vérifié.",
+   "visual": "Record streaming",
+   "image": "https://pbs.twimg.com/media/HYFXyIVbMAAdOK1?format=jpg&name=360x360",
+   "image_alt": "Image de la publication de @GTAlphaintel sur le record de streaming de GTA 6",
+   "image_credit": "@GTAlphaintel sur X",
+   "embed_type": "x",
+   "cta": "Ouvrir la publication sur X",
+   "post_text": "Texte relevé : « GTA VI set a new livestreaming record with 420 million hours watched in its first week. TheBurntPeanut led all streamers with 11.43 million hours. » Non vérifié par la veille."
+  },
+  {
+   "id": "x-trick-nouvelle-zelande-versions-censurees-gtalphaintel-2026-11-27",
+   "title": "GTA 6 : les joueurs du « trick Nouvelle-Zélande » auraient une version censurée",
+   "summary": "@GTAlphaintel affirme que les joueurs qui ont utilisé le « trick Nouvelle-Zélande » pour accéder au jeu tôt sur PS5 ont pu acheter une version censurée : les éditions australienne et néo-zélandaise auraient retiré la consommation de cocaïne et le bonus d'endurance qui l'accompagne. Information relayée par un seul compte.",
+   "url": "https://x.com/GTAlphaintel/status/2126133908836098342",
+   "platform": "X",
+   "author": "@GTAlphaintel",
+   "status": "Rumeur",
+   "published_at": "2026-11-27T02:00:00.000Z",
+   "checked_at": "2026-11-27T14:12:40+01:00",
+   "evidence": "Vues relevées le 27/11 à 13 h 08 UTC (data/x_alertes.json) : 22 619 vues, 196 j'aime, 6 republications. Un seul compte ; aucune reprise trouvée dans data/presse.json. Contenu des éditions non vérifié.",
+   "visual": "Version censurée",
+   "image": "https://pbs.twimg.com/media/HYFXXKqa8AAH74x?format=jpg&name=360x360",
+   "image_alt": "Image de la publication de @GTAlphaintel sur les éditions censurées de GTA 6",
+   "image_credit": "@GTAlphaintel sur X",
+   "embed_type": "x",
+   "cta": "Ouvrir la publication sur X",
+   "post_text": "Texte relevé : « Players who used the ‘New Zealand trick’ to access GTA 6 early on PS5 may have bought a censored version. Australian and New Zealand editions removed cocaine use and its stamina boost. » Non vérifié par la veille."
+  },
   {
    "id": "x-reglages-graphiques-consoles-gtavi-countdown-2026-11-27",
    "title": "GTA 6 : les réglages graphiques de PS5 Pro, PS5 et Xbox Series X|S comparés en détail",
@@ -7627,6 +7665,11 @@
    "at": "2026-11-27T12:12:27+01:00",
    "label": "Passage Claude Haiku (Matière X, veille 2 h)",
    "summary": "Aucun sujet ajouté : les 5 publications X de plus de 20 000 vues de data/x_alertes.json (réglages PS5 Pro/PS5/Xbox, PlayStation 167 M$, Ashley Reese, mème Jason fidèle, TheBurntPeanut) figurent déjà dans items. Les autres posts relevés (420 M d'heures de stream, trick Nouvelle-Zélande, Verstappen, salle de sport, Criminal Profile, etc.) restent sous 20 000 vues et ne sont repris par aucun second compte : non retenus."
+  },
+  {
+   "at": "2026-11-27T14:12:40+01:00",
+   "label": "Passage Claude Haiku (Matière X, veille 2 h)",
+   "summary": "2 sujets ajoutés : record de 420 M d'heures de livestream (GTAlphaintel, 20 866 vues) et éditions censurées du « trick Nouvelle-Zélande » (GTAlphaintel, 22 619 vues), tous deux au-dessus du seuil de 20 000 vues, Rumeur car un seul compte. Correction du passage de 12 h 12 : ces deux posts dépassaient déjà le seuil, ils n'auraient pas dû être écartés."
   }
  ],
  "coverage": {
