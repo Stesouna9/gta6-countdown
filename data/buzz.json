@@ -1,8 +1,27 @@
 {
  "title": "Le buzz GTA6",
- "updated_at": "2026-11-27T22:13:16+01:00",
+ "updated_at": "2026-11-28T00:12:57+01:00",
  "schedule": "Veille toutes les 2 h, de 8 h à minuit",
  "items": [
+  {
+   "id": "x-astuce-argent-gtasix-2026-11-27",
+   "title": "GTA 6 : une astuce annoncée à plus de 600 000 en cinq minutes circule sur X, selon @gtasix_",
+   "summary": "@gtasix_ publie une méthode pour gagner plus de 600 000 en jeu en cinq minutes : s'accroupir et regarder vers le bas, déposer d'abord le sac 2/2, puis le sac 1/2, se retourner et ramasser les deux sacs. Le post ne cite aucune vérification ; aucune reprise n'a été trouvée dans data/presse.json.",
+   "url": "https://x.com/gtasix_/status/2126432283892838565",
+   "platform": "X",
+   "author": "@gtasix_",
+   "status": "Rumeur",
+   "published_at": "2026-11-27T21:45:38.000Z",
+   "checked_at": "2026-11-28T00:12:57+01:00",
+   "evidence": "Vues relevées dans data/x_alertes.json (relevé du 27/11, 23 h UTC) : 93 060 vues, 2 559 j'aime, 2 283 signets, 113 reprises, 27 réponses. Un seul compte relève l'information.",
+   "visual": "Astuce argent",
+   "image": "https://pbs.twimg.com/amplify_video_thumb/2126432173469102080/img/rDz-c_zhuM5i-_m5.jpg",
+   "image_alt": "Image du post de @gtasix_ sur l'astuce d'argent de GTA 6",
+   "image_credit": "@gtasix_ sur X",
+   "embed_type": "x",
+   "cta": "Ouvrir la publication sur X",
+   "post_text": "How to make 600K+ in GTA 6 in 5 minutes: - Crouch and look down - Drop bag 2/2 first - Drop bag 1/2 next - Turn around and pick up both bags"
+  },
   {
    "id": "x-bug-meteo-rockstar-gtasix-2026-11-27",
    "title": "GTA 6 : un bug météo persiste après le dernier patch, Rockstar serait au courant, selon @gtasix_",
@@ -21,6 +40,44 @@
    "embed_type": "x",
    "cta": "Ouvrir la publication sur X",
    "post_text": "A new GTA 6 update is in the works. Rockstar Games is aware that the weather bug is still affecting some players after the latest patch."
+  },
+  {
+   "id": "x-ned-luke-lucia-woke-gtalphaintel-2026-11-27",
+   "title": "GTA 6 : Ned Luke répond à un fan qui juge le jeu « woke », selon @GTAlphaintel",
+   "summary": "Selon @GTAlphaintel, Ned Luke, acteur de GTA 5, a répondu à un fan qui trouvait GTA VI « woke » parce que Lucia en est l'héroïne : « Elle est bien plus badass que tout ce dont vous pourriez rêver » (traduction). Le post ne renvoie à aucune publication de l'acteur ; aucune reprise n'a été trouvée dans data/presse.json.",
+   "url": "https://x.com/GTAlphaintel/status/2126398151015690514",
+   "platform": "X",
+   "author": "@GTAlphaintel",
+   "status": "Rumeur",
+   "published_at": "2026-11-27T19:30:00.000Z",
+   "checked_at": "2026-11-28T00:12:57+01:00",
+   "evidence": "Vues relevées dans data/x_alertes.json (relevé du 27/11, 23 h UTC) : 24 383 vues, 1 423 j'aime, 67 reprises, 51 signets, 23 réponses. Un seul compte relève l'information.",
+   "visual": "Ned Luke",
+   "image": "https://pbs.twimg.com/media/HYJDQ1Ka4AA9XAa?format=jpg&name=360x360",
+   "image_alt": "Image du post de @GTAlphaintel sur Ned Luke et GTA VI",
+   "image_credit": "@GTAlphaintel sur X",
+   "embed_type": "x",
+   "cta": "Ouvrir la publication sur X",
+   "post_text": "Ned Luke hit back at a fan who called GTA VI woke for featuring Lucia as a lead character. The GTA 5 actor responded “She's more badass than you could ever dream of being”"
+  },
+  {
+   "id": "x-maison-floride-key-lento-gtalphaintel-2026-11-27",
+   "title": "GTA 6 : une maison de Floride ressemble à celle de Jason, en vente 739 000 $, selon @GTAlphaintel",
+   "summary": "Selon @GTAlphaintel, une maison en Floride qui ressemble à celle de Jason à Key Lento, dans GTA 6, est en vente 739 000 $ ; elle est peinte en bleu et a un bateau dans son jardin. Le post ne cite pas l'annonce ; aucune reprise n'a été trouvée dans data/presse.json.",
+   "url": "https://x.com/GTAlphaintel/status/2126390609694904364",
+   "platform": "X",
+   "author": "@GTAlphaintel",
+   "status": "Rumeur",
+   "published_at": "2026-11-27T19:00:02.000Z",
+   "checked_at": "2026-11-28T00:12:57+01:00",
+   "evidence": "Vues relevées dans data/x_alertes.json (relevé du 27/11, 23 h UTC) : 21 574 vues, 178 j'aime, 1 reprise, 9 signets, 5 réponses. Un seul compte relève l'information.",
+   "visual": "Maison Floride",
+   "image": "https://pbs.twimg.com/media/HYJD194aAAAKozz?format=jpg&name=360x360",
+   "image_alt": "Image du post de @GTAlphaintel sur la maison façon Key Lento",
+   "image_credit": "@GTAlphaintel sur X",
+   "embed_type": "x",
+   "cta": "Ouvrir la publication sur X",
+   "post_text": "A Florida home resembling Jason's Key Lento house in GTA 6 went on sale for $739,000. The home also has blue paint, and has a boat in its yard"
   },
   {
    "id": "x-sam-houser-apparition-gtavi-countdown-2026-11-27",
@@ -7804,6 +7861,11 @@
    "at": "2026-11-27T22:13:16+01:00",
    "label": "Passage Claude Haiku (Matière X, veille 2 h)",
    "summary": "3 sujets ajoutés, un seul compte chacun, Rumeur : bug météo signalé par @gtasix_ (44 572 vues), apparition de Sam Houser (356 624 vues), vote syndical chez Rockstar UK (22 326 vues). Non retenus (plafond de 3 par passage) : Dealers Choice (43 565 vues, guide Dexerto), Vice City x Michael Jackson (31 862 vues)."
+  },
+  {
+   "at": "2026-11-28T00:12:57+01:00",
+   "label": "Passage Claude Haiku (Matière X, veille 2 h)",
+   "summary": "3 sujets ajoutés, un seul compte chacun, Rumeur : astuce d'argent de @gtasix_ (93 060 vues), Ned Luke répond à un fan « woke » (24 383 vues), maison de Floride façon Key Lento en vente (21 574 vues). Non retenus : Dom Toretto (9 770 vues), Scarface (8 860), Reed Timmer (8 519), influenceurs IA (5 831), scooter (5 752) : sous le seuil de 20 000 vues, un seul compte."
   }
  ],
  "coverage": {
