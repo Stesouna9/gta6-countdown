@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-27T11:21:09+00:00",
+ "maj": "2026-11-27T11:25:54+00:00",
  "articles": [
   {
    "gn": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPUFo2TnpvZVkxb2E0dXVtekZjcGVYbDdEZWgtTXhZaG5uUkZqQUxtVUp6NWZYUmpodkJZUFRCQTRfX18wNGFHLUFxRzhNVXBCN1VLOWQ0MWhuemtIUmF6TTVnLTZvX3RnSUtydjNtOW85WjJaWXpKQ2l5RFg2MUNuYmJkdWozU3FFWGJaM3RZNkhCckxGVndWWEhjamwydFFBLUlwdURra2lNRlZTSXJBM2dNWnRJNWljTnBDTlNwdFI3MVF6RUtENVFqYlc4enBPcXRRLWVxcGhsYl82Y1N6R1RCZWs0M0pTeGpiVEY5MHdxZw?oc=5",
@@ -31,11 +31,24 @@
    "d": "2026-11-27T11:06:37+00:00",
    "lang": "en",
    "t": "Where is the Ghostbusters Ecto-1 Car in GTA 6?",
-   "u": "https://www.imdb.com/news/ni66130232/?ref_",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": ""
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOLVg5R2hGanpEbklmZ3ZZUjRaWnAtRXhrcnBvWUlFbXZjY3lCS3YxWlNZQ1JnLWFwUUlUeUNpZ3dBeFlJQlp3QlJuOGVpZ1I0TlJZZk9qZnVhTV9ibUcwR1NTT0Q0N2RqUWRHdVpuSG1ocmFIU2xobElKYWxLRTEtTzhUSGFTRjZ6d0V6ejI2TDNDUGxNMjhyS2gwS2xkS1JnSnZVQjdxMEZmNnhJT0RmTURHMGJ2U2tNbURKbQ?oc=5",
+   "s": "Gamewave",
+   "d": "2026-11-27T11:05:00+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : Rockstar n'avait qu'une peur, que la grosse surprise de l'intrigue fuite avant la sortie",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOam8ySVZnREtuRE5USHU5ZWdjYUlOa2VSN2VsTnBWSS1aRHVWb1pFMm4wUDJWZWE4bXVFOXF0dDdpZTlQOTRpOEhvaDRIUmJOLWtBYlRTUWlmSFlubjJnQjkxdjI5MThKWWFZR3Jxd185bFJuejhuTjJNSGdwVGYyeDlhaUI4STc4cVRrSWZfNTlGb0lXdTBB?oc=5",
+   "s": "Notebookcheck",
+   "d": "2026-11-27T11:02:00+00:00",
+   "lang": "en",
+   "t": "GTA 6: Viral video reignites old Rockstar theory",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQlBGbFN1aXNOdkxiTlFLUzZZZDc2TVRTcG8tQ1pHa0NCQ3d0dFF4aG1KOUFCUkNrbFFmamxjVFVIRzRNeVJsTm5wM0d2emExalp5WERqS2hrQWhGR1dvbVZLWDVQdVViak1wOC1sanNCNkF1WlFhWUxWaS0tV1NaTnRvbHJBWUZoLVFRTVZCRFBEdWNjcmVGQVB2NVozaUlJblhZYWdYOHk0LXFJbHc?oc=5",
@@ -79,7 +92,7 @@
    "d": "2026-11-27T10:40:08+00:00",
    "lang": "fr",
    "t": "Vapid Dominator Buggy de 67 de Wyman GTA 6 : Comment obtenir le véhicule de l'édition ultime",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "HTTP Error 429: Too Many Requests"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQek5JQ3otMHIwbEdBX01MNnpOei1rV2YtdzF3bkNCUWw1Q0huVzU5LUZYSHdJX2E2djJ3aXZQaWVOSUpjRjNEVVRHQVNVSGZPRWVYQkhWeDRjZVJmZm1QandsZDc0Wk5rRjEzX0FsdExXaHdVOTY3TDdkNmtEMVI2Tzd1Ty1rZEFZODkteEF6aFlTaWdyWlFqSkRhS3hnV3pPNmRQV1BUVEFWRU90cE93V3U0b0N3VDBBRUVNU2NmSG55Ym9qb21BcEdJLTRkVHVDeWdTOUp3enBVeXhkLVdiaE11Sjg5LWg3dDhoSWFxSjA3elVlejJWSnRPYzFYdDU5b3NDdkl6a0NDUTNCaGVv?oc=5",
@@ -159,7 +172,7 @@
    "d": "2026-11-27T09:55:10+00:00",
    "lang": "fr",
    "t": "Transgressor 1967 GTA 6 : Où trouver les épaves de voiture pour Wyman ?",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTi10QXRsNEVyUVNoclhkVzBHLTliOGJYWWNUZldUbDdWQTNkRmgycWZlZEJDaDFxYXRzRnlRX01rb2IxVnpvNjRGZm9qRHRNVFdjQnFZM2dObklEdnl4M2p2ckw4YVNuMU5xRTk1NlZBXzYtX0gtdzFGUnVZa2IyRHBJX0tLMWt1WTBwZUVOcG1QRU1RUDFUTFJJT3hEWV9wZ3p3V3JvQXRubnhPX09HZ0Fra1lKd0U5YlpoMlFjX1B3Z3ROQWpwQzZablppdVZ1?oc=5",
@@ -167,7 +180,7 @@
    "d": "2026-11-27T09:49:16+00:00",
    "lang": "fr",
    "t": "Je joue en 240 FPS toute l'année. GTA 6 à 30 FPS m'a fait mal aux yeux, vivement la version PC",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ZeGdsS3p5MzEzSVJVSWVuUlQ4SkZ2cW5nZ2VwSWNVaWpJWHA1VFhQWngxa2JtU3RNM20xNFowekNITlZ4M3hpRnBDenlZcnlQMDJaQjFhLVpVWm9SYzNYSS1uUUE0OUdnZHlLeGR4THFWMWQ4OFZDY0dhc3I1T0E?oc=5",
@@ -188,7 +201,7 @@
    "d": "2026-11-27T09:39:47+00:00",
    "lang": "en",
    "t": "GTA Black Friday Deals 2026: Best GTA 6, GTA 5 and GTA Trilogy Discounts on PS5, Xbox, PC and Nintendo Switch",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQOGQ1d2hjSWw5MmxDRXlhdTRibUc0T2ZmVTlGMzJubmxfbG9JM2lUR1NiQjNOMEpTYWhJc1p2LTh5S0dQZTkwbHFEY3NvclM2ZTJaSjNlaUFvelowWXdjUnp4akpRQjJzc0s5bkstSmNfVk9vZmtGdG9oX1ZNQkdVZ0VSdWJkcjU5aWFIZXluYzRfcUhtQmZQSm9ZdVBRVjVGdUxqaElwWGpGNlEtZnpreUVWVjl4TjBRdmJwV0pqb1RIM2tqM0o4RDJqWC1pRzFHYzNRRmdkNTlDdXox?oc=5",
@@ -201,6 +214,14 @@
    "chapeau": "Elle déplore que des gens tentent de se faire passer pour elle en ligne.",
    "txt": "Lexie Shoaibi , l'actrice qui incarne Mandy dans GTA 6 , s’est exprimée sur sa nouvelle notoriété, qu’elle qualifie de « douce-amère », après que son personnage soit devenu viral en ligne. Attention ! Ce qui suit contient des spoilers concernant le personnage de Mandy dans GTA 6. Lexie Shoaibi a assuré la motion capture et le doublage du personnage de Mandy, une femme que l'on rencontre au début d'aventure. Lors d'une des premières missions du jeu, la miss demande à Jason de réparer un évier bouché chez elle, et dans une énième tentative de séduire l'ancien militaire, elle réapparaît vêtue d'un bikini très échancré alors qu'il est affairé sous l'évier une clé à molette à la main. Après cette scène, il n'a évidemment pas fallu longtemps pour que Mandy devienne une star des réseaux, surtout, disons-le, du fait de l'hypersexualisation du personnage. Il y a quelques jours, Lexie Shoaibi est intervenue lors d'un live du streamer américain Hasan Piker ; elle y a bien entendu évoqué GTA 6 tout en participant à une collecte de fonds caritative. Au cours de cet échange, elle a sans surprise parlé de sa notoriété soudaine et des réactions suscitées par son personnage.",
    "pub": "2026-11-27T09:33:02+00:00"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRm9mODRHdEhtcVNxQlVfcFpiUFVCTTE1RUpVQkY3RlIxSHR6aDZ5bFBLSWE2aHJrUmV6OERlNWRFMDdONWU4eDBYaTc5b0h6cDNMdVM0eFpyZGVYNENHalVIUEw2UzVaYVlMLUlZODFqVHpsQlpJeF9WRW1uX0NHV21GOEctS3ZlWnFZUkYwY09PMWNHZkNOZjFRZGQyREN5dnZ0ZkgtVS1uNC1Yd2JScXZzc3ZmWGltZ3c?oc=5",
+   "s": "Notebookcheck",
+   "d": "2026-11-27T09:31:00+00:00",
+   "lang": "en",
+   "t": "GTA 6: Thousands of recomp repositories taken down – but what did it achieve?",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMjJZdHVDQ2otWnlpc0VQTnJVMXZXRVJGNThVTFVqamE5MERyRndmWDZSM2d0VXpxWnJVWFB0eXRpX0ZReFMyRTFScUlzdDhwbzJGYkV0ci1taExJLWxkNVd4TzZHQlIzVTZGdWxVU0NsUXlpNmw3bTluODVSVWJTdEd4d1Z6UUY0YlhOWndVaUJ6Smlqc2pDdmVUYzlUTno0elFtRFhSQkFvMGFFR2NYNmNsSTUtX3UzNXc?oc=5",
@@ -311,30 +332,6 @@
    "pub": "2026-11-27T07:31:28+00:00"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOaFdfNS1aSlh1VWNxbWpQOVBLaUt5MDlidTdFaDRQWXMydXJjVHZORGNFTy13ZERoSVRJbGkzcmRIaUMycEI1VFVTMzIwbUlkSGYtUC04WXFjYmpzdlFzRm51S0l0dGw0U1FTVEt5anF1eFV6eWIwTEFTT0I4Qk9fbkFn?oc=5",
-   "s": "Radio Times",
-   "d": "2026-11-27T07:32:15+00:00",
-   "lang": "en",
-   "t": "GTA 6 deals deliver this Black Friday with up to £15 off the game and £100 off PS5 bundles",
-   "u": "https://www.radiotimes.com/technology/black-friday/gta-6-black-friday-deals/",
-   "img": "https://images.production.immediate.co.uk/volatile/sites/3/2026/11/ViceCity27-resized-1600x1066-d081b40.jpg?resize=1200%2C630",
-   "chapeau": "These Black Friday deals are the cherry on top of the GTA 6 release.",
-   "txt": "Get the Christmas double issue Too much to watch at Christmas? Let Radio Times do the choosing to find something the whole family will enjoy.",
-   "pub": ""
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNU3Fqd0RUam5zZEoxMkdqal95NThoc0VTRHVSZWtpbHNZT2xCSk1VRC16MEZ6WGIxUTFjTWZvY2ZPdjNPbXRDeTJ3dHNnM2FmNTRQaWtEUHZJNTZnR1NVRlk2NnRGdUVjTXZpazlKTFF0XzhPWTVOV2paRUNHZ3h2VmtUWkVpSEo5ellTLVlMX3pyY05kcHFyVQ?oc=5",
-   "s": "Nintendo Life",
-   "d": "2026-11-27T06:55:00+00:00",
-   "lang": "en",
-   "t": "Did Dave The Diver Just Tease A GTA 6 Collab?",
-   "u": "https://www.nintendolife.com/news/2026/11/random-did-dave-the-diver-just-tease-a-gta-6-collab",
-   "img": "https://images.nintendolife.com/91be8dcea1a07/1280x720.jpg",
-   "chapeau": "Is it a joke or something more?",
-   "txt": "If you didn't already know, Dave The Diver actually has something in common with Rockstar's new open-world title, Grand Theft Auto 6 . In both games, you can go diving!\nNow, can you imagine a collab? Well, before we get too carried away, GTA 6 might already be on the mind of the Dave the Diver developer Mintrocket, as the game's official social media account has shared a rather amusing image today. Here it is:\nIf you've been playing GTA 6 over the past week, this character may look familiar, as it appears to be Mintrocket's nod to an individual known as Brian (not to be mistaken with the Dave the Diver character, Cobra). The male protagonist in GTA 6 (Jason) works for Brian .\nThe whole look, including the shirt, seems very similar to Rockstar's character. And then there's the Vice City-like backdrop. Just about every reply to this post so far seems to be convinced it's actually Brian. However, as one fan notes, it might be hard to get him out of retirement.\nWhile nothing official has been said about such a collab, it's worth noting Dave the Diver has already done some crazy (and high-profile) crossovers with titles and series such as Yakuza: Like A Dragon and Godzilla . Dave has also appeared in games such as Epic's battle royale, Fortnite .\nAs part of the GTA 6 marketing campaign, Rockstar did a collab with NBA 2K27 , another title under parent company Take-Two.\nA lot of developers have been plugging their own games and series with all sorts of GTA-inspired advertising and jokes over the past week, but if this does turn out to be something more than this, we'll let you know.",
-   "pub": "2026-11-27T06:55:00+00:00"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSS1RUElDajFkbkxsRGROUTFmVmVic1JBR2hvVWpjT3BFSHRkLXBPb0RISXhPdEtWNnBHUEV4WllKN0pwY0d2NE9lZWc4WERMMmlHaDF3SnJMbEw5TFV0eEEzWDFCcW54NURNUElHR0h3TUVXb2JSWDNFdHZiZ0xDWXVwNUsyNVdfbE9TNWd5VE1LZ0stZlhKS2RZdEc?oc=5",
    "s": "Mashable",
    "d": "2026-11-27T03:32:16+00:00",
@@ -357,6 +354,15 @@
    "chapeau": "GTA 6 graphics settings reportedly leaked for PS5, PS5 Pro, Xbox Series X and S via a deleted Pastebin. Rockstar has confirmed none of it.",
    "txt": "Image: Rockstar Games A deleted Pastebin document attributed to GTAForums dataminer Tex2 reportedly lists GTA 6 graphics settings for four consoles. KitGuru reported that the deleted leak may have revealed Rockstar’s graphics settings for the PlayStation 5, PlayStation 5 Pro, Xbox Series X and Xbox Series S. Rockstar Games has not confirmed any of it.\nMP1st, The Times of India, iXBT.games and GamesRadar+ also carried the story, which kept it circulating on November 27, 2026. The document is gone, so readers cannot check the original page. That gap matters, and this analysis treats every detail as a report, not as a fact about the shipping game.\nThe timing adds fuel. Players are still debating what a possible PC version could look like, a thread we followed in our report on the GTA 6 leak for PC gamers and its November build . A console settings list gives that debate new material, even if it proves nothing about PC.\nGoogle · Preferred Sources Don't miss new tech stories on Google\nAdd Shattered once in the Google app and our stories show up in your news suggestions.\nThe core claim is simple. A Pastebin document, since deleted, reportedly carried graphics presets for the PS5, PS5 Pro , Xbox Series X and Xbox Series S versions of Grand Theft Auto VI. It did not leak a build, a trailer or a story detail. It leaked a settings list, the kind of data a developer keeps in internal config files or debug menus.\nAccording to the reports, the list covered texture quality, shadow quality, terrain detail, hair quality, global illumination, NPC behavior, pedestrian density and physics quality. Those eight areas span both rendering and simulation. Some tax the GPU, others tax the CPU, and a few hit both. A preset that touches all of them tells you how a studio balances the whole machine, not only the pretty parts.\nThe presence of NPC behavior, pedestrian density and physics quality stands out. Those options suggest the document describes the full game simulation and not just the visual layer. Open-world games live and die by how many people, cars and objects the engine can keep alive at once, so the CPU side of the list may matter as much as the shadows.\nNothing in the available coverage supplies resolution targets, frame rates or a full value-by-value table that we can verify. Outlets described the document in broad strokes, and we do the same. Any site that prints a complete table of exact values is working from a page that no longer exists.\nReports attribute the Pastebin to Tex2, a member of GTAForums who is described as a dataminer. Dataminers pull information out of game files, patches and builds. Their track records vary widely, and the strongest ones show their work. A deleted paste with no surviving original shows very little.\nThe attribution itself comes secondhand. Outlets repeat the name because earlier posts and forum threads pointed to it, and not because anyone has proven who posted the paste. Rockstar has not said whether the document is authentic, whether it came from a current build or whether it reflects an older internal state.\nJournalists use a rough ladder for leaks. The top rung is a document the publisher confirms. The next is material several independent outlets inspected directly. The bottom rung is a description of something nobody can open any more. This story sits near the bottom, which is why the fact pattern stays modest: four platforms, a few named features and no official word.\nRepetition across outlets does not lift a leak up the ladder. Five sites summarizing the same vanished page equal one source, counted five times. Readers should keep that in mind each time a headline treats a leak as settled when its own publisher has not touched it.\nOne of the more interesting claims is that the PS5 and Xbox Series X settings match. Reports say both consoles use the same mixture of medium and high presets. If that holds, Rockstar treats the two flagship consoles as one performance tier, which is how many multiplatform studios work when the hardware is close.\nParity of that kind is a design decision as much as a technical one. Matching presets let a studio tune once, test once and promise the same experience to two audiences. It also removes the argument over which console runs the game better, at least on paper. Real-world results can still differ because of drivers, memory handling and system software.\nThe medium and high mixture also tells a story. Neither console reportedly sits at the top of the stack. Roc",
    "pub": "2026-11-27T02:47:01+00:00",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBaMm9PV1djaTBiTlg2bDQ5dXdZOFJZUG0tLWE5dXJxbmdyaEt5bFA0U193ZlRCRS0tMUJma2x1NVJZd3V6dWhpU0JFcHVKY1dzb0hTRw?oc=5",
+   "s": "Binance",
+   "d": "2026-11-26T20:38:00+00:00",
+   "lang": "en",
+   "t": "CyberLeek Price (CYBERLEEK/USD) Today | Live Price, Market Cap & Chart",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -451,19 +457,6 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBaMm9PV1djaTBiTlg2bDQ5dXdZOFJZUG0tLWE5dXJxbmdyaEt5bFA0U193ZlRCRS0tMUJma2x1NVJZd3V6dWhpU0JFcHVKY1dzb0hTRw?oc=5",
-   "s": "Binance",
-   "d": "2026-11-26T11:23:00+00:00",
-   "lang": "en",
-   "t": "CyberLeek Price (CYBERLEEK/USD) Today | Live Price, Market Cap & Chart",
-   "u": "https://www.binance.com/en/price/cyberleek",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNYWNkbjYwOGotcEtkOHBMZnl4WXludEdQUTdmeHNjNUNqZnZIbkgzNjh4UGNGczZuTjMxRTliVndaNkZXbnhDRFZiRXg0V29BbGx2TG5IbTlDRUhKZFNQVERGU2ZpTURGRDVLaENLZlFjbmpoT0U3dFFHaW1oY1FUZHM0QUlaaElwMUViMkF2a3BkRjVJYTM3dzJQTzg1dWphYXRfaS00TFdzOENadEwwZTFObU80WDE1?oc=5",
    "s": "Clubic.com",
    "d": "2026-11-26T11:21:00+00:00",
@@ -500,6 +493,15 @@
    "chapeau": "Less than three days after the previously missing executable file from the leaked Xbox build of GTA 6 was released, the unofficial PC version is already approaching the 30 FPS mark. According to a community tracker, development progress has surpassed 90%. But what exactly does that mean?",
    "txt": "As we previously reported, many PC gamers are frustrated by the lack of an official PC version of GTA 6 . Some have already stated that they intend to play an unofficial recompilation once it's ready – and that could happen sooner rather than later. The community-run website PortWatchVI , which tracks the development of unofficial PC ports, now monitors 39 different projects. According to the website's scoring system, the leading project, known as CGBJ, has already reached 91.5% completion.\nThe percentages displayed on PortWatchVI are based on a proprietary scoring system that weighs five factors:\nThe 91.5% figure is not an average across all projects but refers specifically to the current frontrunner, CGBJ. According to PortWatchVI, the project now achieves an average of 25 FPS during gameplay and 30 FPS in cutscenes. Visual quality is reportedly largely on par with the console version, aside from minor rendering issues, while crashes are said to be infrequent. According to the developer, 80% of the story is already playable. Progress is currently being made at a remarkable pace. During our research alone, the completion rating displayed on PortWatchVI climbed from 89.8% to 91.5%.\nⓘ Marius Mülller for Notebookcheck PC performance figures for CGBJ's GTA 6 recompilation, as tracked by PortWatchVI. (Screenshot from PortWatchVI.) Community is thinking in days rather than months The rapid progress is fueling growing excitement within the community. Some users are hoping to play GTA 6 ( currently available on Amazon for $80 ) on PC as early as this coming weekend. While that cannot be ruled out, there is still considerable room for optimization. According to comments on a since-deleted gameplay video of the CGBJ project posted on Reddit , GPU utilization was as low as 5%, while the CPU was under heavy load. This suggests that performance may currently be limited primarily by a CPU bottleneck, leaving considerable scope for improvements through further optimization. For now, however, that remains speculation. In any case, it will be interesting to see how the recompilation projects progress over the coming days.",
    "pub": "",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAxSGlzQTEtMGJXVWdxSVVnLWRXY1BkMGZDQlhIQ3M2cDJNMHRPN1ZsdllxV01jWUI4Qk4wTjIwTGN5V09OTFprTWxZTTF6dFBHUl83UDBvMW1VVmdZajh0TA?oc=5",
+   "s": "Menow",
+   "d": "2026-11-26T07:40:00+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : une fuite révèle ce que la PS5 Pro pousserait plus loin que les autres consoles",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -690,11 +692,7 @@
    "d": "2026-11-25T14:41:00+00:00",
    "lang": "fr",
    "t": "Il tente de voler GTA VI dans un magasin à La Charité-sur-Loire puis sort un couteau pour prendre la fuite",
-   "u": "https://www.lejdc.fr/charite-sur-loire-58400/faits-divers/il-tente-de-voler-gta-vi-dans-un-magasin-a-la-charite-sur-loire-puis-sort-un-couteau-pour-prendre-la-fuite_15091747/",
-   "img": "https://img.centrefrance.com/sAueBf3A5qgwcoBne16Fz8v6Pnf5C9jVoJN2WY1iCGo/rs:fill:1200:800:1:0/g:sm/bG9jYWw6Ly8vMDAvMDAvMDcvODcvMDAvMjAwMDAwNzg3MDAxNw.jpg",
-   "chapeau": "Un homme a tenté de dérober un exemplaire du jeu GTA VI dans un magasin de La Charité-sur-Loire, mardi 24 novembre. Pris en chasse par l’agent de sécurité, il a brandi un couteau avant de prendre la fuite.",
-   "txt": "",
-   "pub": "2026-11-25T14:41:22Z",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -742,24 +740,7 @@
    "d": "2026-11-25T07:48:00+00:00",
    "lang": "en",
    "t": "“GTA 6”: Take-Two gets unofficial PC port removed from GitHub",
-   "u": "https://www.heise.de/en/news/GTA-6-Take-Two-gets-unofficial-PC-port-removed-from-GitHub-11537104.html",
-   "img": "https://heise.cloudimg.io/v7/_www-heise-de_/imgs/18/5/2/0/7/6/5/9/Jason_Duval_07-763a916c24d34b43.jpg?func=bound&height=1200&org_if_sml=1&q=85&width=1200",
-   "chapeau": "Project Leonida aimed to bring the leaked Xbox version of “GTA 6” natively to Windows. Take-Two’s DMCA notice has taken it down.",
-   "txt": "",
-   "pub": "",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBiQTlfcGtOZ2ZoRU9aTmFNZUZfYklUQ01ob2QzcXZ5Z3FmcGlXSGNYZmhTNVhyMlRoc21FNzQxUU5ESXJ0blJpYkNuQjhEMXVBRF9ocnBiWElqSk1uaVcwR0dIMS10R1NrM1JXRnNpWjR0eEE?oc=5",
-   "s": "Presse-citron",
-   "d": "2026-11-25T06:54:04+00:00",
-   "lang": "fr",
-   "t": "GTA 6 sur PC : Rockstar Games doit se dépêcher, la course pour créer une version non officielle a déjà commencé",
-   "u": "https://www.presse-citron.net/gta-6-sur-pc-rockstar-games-course/",
-   "img": "https://www.presse-citron.net/app/uploads/2026/11/Jason-Lucia-GTA-VI-capture-ecran-jeu-video-1600x900.jpg",
-   "chapeau": "Une fuite de la version Xbox de GTA 6 servirait de base pour des projets de recompilation du jeu vidéo pour PC.",
-   "txt": "Depuis quelques jours, les joueurs sur PS5 et sur Xbox Series S ou X peuvent jouer à GTA 6. En revanche, ceux qui jouent sur PC doivent encore patienter, puisque le jeu n’est pas encore disponible sur cette plateforme et Rockstar Games n’a pas encore évoqué de date. Néanmoins, celui-ci aurait tout intérêt à accélérer le développement de la version PC de GTA 6 puisque sur internet, de nombreux projets pour créer un portage non officiel du jeu vidéo ont déjà été lancés. Selon les explications de PC Mag, tout a commencé par une fuite.\nVendredi, le hacker Cyberleek aurait posté une fuite de la version Xbox de GTA 6 , complétée par un exécutable clé partagé lundi. Ces fichiers ne permettent pas de jouer à GTA 6 sur PC (et ce serait du piratage), mais, comme la plateforme Xbox est proche du PC, ils pourraient servir de base pour créer un GTA 6 pour PC non officiel. Et, justement, le but de hacker était de passer le flambeau aux communautés open source.\nPar ailleurs, certaines “communautés” commenceraient déjà à obtenir des résultats, en s’aidant de l’IA afin de faire de l’ingénierie inversée et de recompiler GTA 6 pour PC. Sur les réseaux sociaux, des vidéos montreraient que certains développeurs ont déjà réussi à démarrer le jeu sur PC, même si c’est pour le moment injouable.\nBien entendu, Rockstar Games ne reste pas les bras croisés face à ces tentatives de créer une version non officielle de GTA 6 sur PC. En effet, si quelqu’un réussissait à développer une expérience de jeu acceptable, cela plomberait les ventes de GTA 6 et surtout de la future version pour PC officielle. Sur X, une personne qui aurait déjà énormément avancé sur son projet de recompilation aurait annoncé abandonner, en partie parce que son serveur Discord a été fermé. Et, d’après le site Torrentfreak , à quelques heures du lancement de GTA 6, des projets de portage du jeu vidéo pour l’iPhone, le Mac et Android avaient déjà été fermés par GitHub.\nComme évoqué plus haut, on ne sait pas quand Rockstar lancera GTA 6 sur PC. Mais, selon les rumeurs, il est possible que cette version pour PC arrive dès le premier trimestre 2027. En attendant, il est préférable de ne pas cliquer si vous tombez sur un lien sur internet qui vous promet une version de GTA 6 sur PC.\nEn effet, des hackers essaient déjà de profiter de la frustration des joueurs sur PC pour piéger ceux-ci. Par exemple, dans un précédent article, nous avons évoqué un faux guide sous format PDF qui pousse les internautes à télécharger un malware. Et, d’après une publication de NordVPN , des kits d’arnaque pour piéger les internautes sont aussi commercialisés sur le dark web.\nThat’s what our Threat Intelligence team found on the dark web: a crypto wallet drainer, a fake “GTA6 Keygen.exe” that steals accounts, a YouTube Shorts bot to spread it, and a hidden crypto miner.\nThe bait? A fake “GTA 6 PC Port.”… pic.twitter.com/k977lOWH8H\n📍 Pour ne manquer aucune actualité de Presse-citron, suivez-nous sur Google Actualités et WhatsApp .\nLa France est parmi les pays touchés par cette fuite massive de 2 milliards d’identifiants (dont des comptes Google, Facebook, Netflix, PayPal, etc.)\nIPTV : votre match de foot va être coupé en direct, l’arme ultime contre le piratage arrive\nLe célèbre gestionnaire de mots de passe 1Passord a été piraté : voici les données concernées et le risque pour les utilisateurs\nGTA 6 : ces 13 commandes cachées vont rendre votre expérience encore plus réaliste (oui, c’est possible)",
-   "pub": "2026-11-25T06:54:04+00:00",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -851,19 +832,6 @@
    "chapeau": "Crypto : Cyberleek publie les fichiers présumés de GTA 6 malgré l'échec de son memecoin, resté loin des 15 millions de dollars espérés.",
    "txt": "S'informer ▪ Altcoins Résumer cet article avec : ChatGPT Perplexity Grok Cyberleek voulait propulser son memecoin à 15 millions de dollars de capitalisation grâce aux fuites de GTA 6. L’opération se solde par un échec. Le 23 novembre 2026, l’auteur présumé des divulgations a finalement publié le fichier exécutable d’une version Xbox du jeu. Le lendemain, sa crypto affichait une valorisation de seulement 1,36 million de dollars. Même le lancement de l’un des jeux vidéo les plus attendus de la décennie n’aura pas suffi.\nLisez-nous sur Google News En bref Cyberleek aurait publié le fichier exécutable de GTA 6 le 23 novembre. Son memecoin reste environ 91 % en dessous de son objectif de capitalisation. Les volumes horaires observés lors de la dernière fuite sont près de 29 fois inférieurs au pic enregistré en août. GTA 6 au cœur d’un pari crypto raté Le 19 novembre, jour du lancement officiel de GTA 6 sur consoles, Cyberleek affirme détenir une version presque complète du jeu sur Xbox. Environ 209 Go de fichiers auraient été diffusés, à l’exception du principal fichier exécutable.\nSa publication anticipée devait dépendre des performances de la crypto CYBERLEEK. Le token avait pourtant déjà connu son heure de gloire. En août, la crypto de Cyberleek avait atteint 25 millions de dollars avant de s’effondrer de 46 % en une journée , après plusieurs ventes attribuées à son créateur.\nCyberleek espérait reproduire cette envolée. En octobre, il avait fixé un premier objectif de capitalisation à 30 millions de dollars. En novembre, ses ambitions sont descendues à 15 millions.\nLe marché crypto n’a pas suivi. Au 24 novembre, CYBERLEEK s’échangeait autour de 0,00136 dollar, pour une capitalisation proche de 1,36 million et un volume quotidien de 752 000 dollars.\nCyberleek a néanmoins tenu sa promesse de diffuser le fichier le 23 novembre, indépendamment du résultat financier. L’auteur affirme que les fonds collectés doivent financer un projet secret, sans rapport direct avec GTA 6. Aucun élément public ne permet actuellement de vérifier cette affirmation.\nLes données on-chain de Bitquery permettent de mesurer la perte d’intérêt des investisseurs. Entre le 16 et le 18 novembre, CYBERLEEK a perdu 45 % de sa valeur. Le jour du lancement de GTA 6, le token a rebondi de 41 %, avant de progresser encore de 16 % le lendemain.\nLes deux journées suivantes ont effacé une partie de ces gains. Le 23 novembre, la publication du fichier exécutable a provoqué une nouvelle réaction du marché. L’heure la plus active a enregistré environ 186 600 dollars de transactions.\nEn août, lors des premières fuites, le record horaire atteignait 5,47 millions de dollars. Près de 29 fois plus. Cyberleek disposait pourtant cette fois d’un argument promotionnel beaucoup plus important que quelques vidéos inédites : les fichiers d’une version présumée du jeu.\nCertains investisseurs ont surtout profité du rebond pour vendre. Bitquery a identifié cinq portefeuilles ayant réalisé environ 123 000 dollars de ventes, sans aucun achat entre le 19 et le 23 novembre.\nCes montants ne correspondent pas nécessairement à leurs bénéfices. L’épisode rappelle les difficultés rencontrées sur ce marché, où près de 94 % des traders de memecoins Solana suivis dans une précédente étude affichaient des pertes. Pour CYBERLEEK, la publication des fichiers n’aura finalement provoqué qu’un regain temporaire d’activité.\nCyberleek avait probablement commis une erreur dès l’annonce de son calendrier. En promettant de publier le fichier le 23 novembre, même si son objectif financier n’était pas atteint, il supprimait une grande partie de l’intérêt d’acheter sa crypto. Les joueurs pouvaient simplement patienter quelques jours.\nPourquoi acheter un token risqué pour obtenir plus rapidement quelque chose qui devait devenir accessible gratuitement ? L’affaire a également donné naissance à plusieurs cryptomonnaies imitatrices. Un token baptisé Justice For Cyberleek est notamment apparu sur Pump.fun le 23 novembre.\nLes risques concernent aussi les joueurs. Dès le 3 novembre, les chercheurs de Netcraft avaient recensé 121 nouveaux noms de domaine reprenant l’identité de Cyberleek. Certains proposaient de prétendues versions de GTA 6 contenant des fichiers suspects.\nUn exécutable analysé avait été signalé par 34 des 68 moteurs de sécurité de VirusTotal. Ce procédé rappelle celui de Stealka, un logiciel malveillant déguisé en modifications de jeux vidéo pour dérober des cryptomonnaies . La popularité de G",
    "pub": "2026-11-24T20:35:33+01:00",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPLWdwSHRyMk81NWhEWE5RaGpyXzh6azhnWWVva2ZoaFFZN3RqNGU3cWpjSHVuWnBFd2RlWlhxWU5JSThBRGFNS1E1Z2Q3M0RCTklUQmxlcU9CWnVLNGxLdHhveF9MY0MtZHVtN2RCdEdZamdvb3EwU2hmUjduZkhhS2M4cnVlMWpyNjY4WXgwYXZHWUUxZnV3cXE2SQ?oc=5",
-   "s": "Polygon.com",
-   "d": "2026-11-24T18:24:27+00:00",
-   "lang": "en",
-   "t": "Catastrophic 'GTA 6' Leak Officially Kickstarts PC Port Race",
-   "u": "https://www.polygon.com/gta-6-on-pc-port-emulator-cyberleek-exe-xbox-executable-is-it-playable/",
-   "img": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/lucia3.JPG?w=1600&h=900&fit=crop",
-   "chapeau": "Hackers are trying to get GTA 6 running on PC, Mac, and Linux without the help of Rockstar following a major game file leak",
-   "txt": "Grand Theft Auto 6 ' s official release seemed like the end for apparent hacker Cyberleek , who raised millions of dollars in cryptocurrency by sharing unauthorized video of the open-world game ahead of launch. Rather than fading into obscurity, Cyberleek upped the ante by releasing an apparent build of GTA 6 onto the internet. And now, hackers, vibe coders, and programming enthusiasts are rushing to try and make GTA 6 playable on PC before Rockstar does.\nThose following along might recall Cyberleek as the hacker who spent weeks provoking Rockstar Games . In addition to supplying the internet with leaked footage of the unfinished version of the game, Cyberleek also critiqued Rockstar and parent company Take-Two Interactive's business practices . The leaker claimed they objected to GTA 6 's digital-only release as well as its pre-order bonuses. Cyberleek encouraged Rockstar and Take-Two to change course by dangling the possibility of sharing the files they were using to play the game to the public.\nThis suggestion was particularly shocking since Rockstar has not made the game available outside of console platforms. The game also doesn't exist on a disc, meaning that players don't have access to the game files. Without such data, players can't peek under the hood of the game — and they definitely could not tinker with it in unintended ways, like forcing the characters to appear without clothes in the overworld.\nCyberleek's motives seemed questionable, especially since the hacker gated the release of the alleged files behind monetary milestones. One of those early milestones included nude gameplay featuring the game's co-protagonist Lucia which successfully rallied fans to donate money. Once Cyberleek shared the footage, however, the hacker lost their leverage and the public moved on.\nMore recently, the hacker reappeared with a more appealing proposal: they would drop the apparent files free of charge. \"The torch passes to the open source recomp and emulation projects,\" Cyberleek said on their website.\nPolygon cannot confirm the veracity of these files; Rockstar Games and Xbox did not immediately respond to a request for comment. Yet even as some hoaxes related to Cyberleek seem likely, the larger claim about the game files appears to be legitimate. Since Cyberleek dropped the alleged executable, savvy GTA 6 fans gathering on Discord have shared steady progress on making the game accessible on Linux, Mac, and Windows PC. These initial attempts don't seem impressive, especially when the game barely functions, stutters, or displays rudimentary graphics without textures and lighting .\nIt would be a mistake to dismiss the reverse engineering projects though. The first big hurdle — getting the game to run at all — has already been overcome​​​​​​​ . A few hours after entering the game for the first time, hackers managed​​​​​​​ to load some of GTA 6 's shaders, which help the game get closer to its full visual fidelity.\nUnder normal circumstances, before artificial-intelligence coding assistance became readily available ,​​​​​​​ incremental progress like this could have taken years for a game as complex as GTA 6 . To be sure, it may still be weeks, if not months, before​​​​​​​ an unauthorized PC port of GTA 6 seems plausible. Given the enormous interest in the game — and the PC gaming community feeling slighted​​​​​​​ for being left out — a port may just be a matter of time. If it comes to pass, fans may also be able to access the game without paying for it.​​​​​​​\nMichael Franklin Trevor Lester Lamar Polygon Quiz W h i c h G T A V C h a r a c t e r A r e Y o u ? 8 Questions • 5 Characters Set aside what any of them do for a living. Underneath, Los Santos runs on five very different people: one restless, one patient, one with no filter, one who has already worked out how it ends, and one who has never once doubted himself. Eight ordinary questions, none of them about the job, will say which one you are. On The Wheel Michael Franklin Trevor Lester Lamar Spin The Wheel Block 01 of 08 0% Driven Question 01 A NEW CITY 01 You move somewhere new. What does your first week look like? Everybody arrives differently. A I picked the house first. Everything else arranges itself around that. B Working, learning the place, watching who does well here and how. C Introducing myself to everybody, loudly, inside about an hour. D I researched it for six months. I know it better than people who live there. E Telling everyone back home how well it",
-   "pub": "2026-11-24T18:24:27Z",
    "cyberleek": true
   }
  ]
