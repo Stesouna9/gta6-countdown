@@ -1,13 +1,21 @@
 {
- "maj": "2026-11-27T12:27:40+00:00",
+ "maj": "2026-11-27T12:47:56+00:00",
  "articles": [
+  {
+   "gn": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQldmVjl3dWJ4Nk51d1U1TzhLSG5XdWdtNm1CTkJKMlhUNWdMSkdZdGRCeGVFcnVCTFQxLVRmbjZHVG9KeHZheU9xM1lyUmZZbWp3alliZ05CMXFzZEtwWmtRUFpscm1yM1p1YmxYS0xYNEx3aHVxVjBIN0lmbEh3RjNhU2EzdVlnblF0Vlp0cGZUSXJEWDFUdzNNdFFWdkNxTzNnWG11dnpnNUpTdEtzd3V2b1JPU0h5ZFZKbQ?oc=5",
+   "s": "TechRadar",
+   "d": "2026-11-27T12:20:00+00:00",
+   "lang": "fr",
+   "t": "J'ai testé 7 casques gaming pendant 130 heures sur GTA 6, voici ce que j'en pense",
+   "erreur": "HTTP Error 429: Too Many Requests"
+  },
   {
    "gn": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQQ1N6MTY0QUxRNGdyVG9odnVyeTBWR0Zpb1VPdHhiMG5jUTZsSjhvTmMtTzIyVVhzVEZhc0JCaVRFRkRzUVNCQ3VYS1ZKWlVDZGM0U2dSalR1Tk9qWWtlSUZvUHNDSFpSZWdlOXc2dWEzMTEzOW5BNWtmazg3aGZxSW5XYw?oc=5",
    "s": "HardwareCooking",
    "d": "2026-11-27T12:14:46+00:00",
    "lang": "fr",
    "t": "GTA 6 en 60 FPS sur PS5 jailbreakée : le patch en détail",
-   "erreur": "HTTP Error 429: Too Many Requests"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1kVWQyQ0VoU2gwakpnNVJyM2FTa1R0SmdIanlZNFloQnR2N1ZGYmRSUV9yOTgweUl4MUdlamMxSmUwS2dzd1hFdlg5ZG5xZWhmUHRiOUNMWXptd0JVc0wyeUpiZkdRNUF0Z3AtZzU1SzN2X18zb3ZF?oc=5",
@@ -18,7 +26,7 @@
    "erreur": "429 : passage suivant"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBVcnQ3dklFSUJ1TTZ1VGVzeUlaQWk4Y3VHOUtwNmhyU2RpMTRfaWtWVEQyRm5hU295aWFfOVRNcDVrUFZ5NUx3enhfbGt3aHJUa2ZyTVJMRmw2UTZla0hZVXZmV1U?oc=5",
+   "gn": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9mcHFTbjVXcUtRTmR0Y0E2UENZb1dCaFEtd1NYZVNkWGRsTTU1UDFwQ3ZxLVpoMno4emFrUTNheHFMc3pCclNCdEZqcFRyX25oZGZBaU9XSTQwWVd0UTlPd1preUNmQQ?oc=5",
    "s": "Red Bull",
    "d": "2026-11-27T12:08:56+00:00",
    "lang": "en",
@@ -66,6 +74,14 @@
    "pub": "2026-11-27T12:00:41+00:00"
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcGFRcVAwaVdXNlZpWTkxajFYODYzaDhQMEd0TzFrTXhwZjJiYnFLaHdtX2hQel9CYUk3LUN4Yms0Z3lJaUpJTHhVazBrY3hlc1JKMkYtN1laV2N4SVdKM01EZFVqTmlWQmR2VFEzUTZhRTNZd1g1RFptTG5ZdVpYeGVORE9IWElzQ2Z0LVhxVDI3OEQxelMtVmJwNmZrQ2VIMHpEZ09DbVBvdw?oc=5",
+   "s": "GAMINGbible",
+   "d": "2026-11-27T12:00:00+00:00",
+   "lang": "en",
+   "t": "The Simpsons: Hit & Run remake hits a dead end as project seemingly cancelled amid GTA 6 hype",
+   "erreur": "429 : passage suivant"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQOVVRSEVMV0xWbjVWYU9WaTJlOGsyb3JsRUl3cTVITzJ6a2xZZWp0anYwUTJyXzFQM1BsNXdkQmdUUUZSWmxsanNQTVdya1JJcWI3YVlYT2FieVUzN3hqNlF2VHp2TDYwWUZVYk1WUHdLM1A0SmpIdFA0NXZ6dFMtRVgteGdVVGZtM0NzN28ya2NiY3BNRE4xZVJTTWJoWmc0YmtWN3ltbXdwNllBNGVUYkRLa3Uyc3lOWWVOZjRZVzl3RVY1OEE?oc=5",
    "s": "GameGPU",
    "d": "2026-11-27T11:55:38+00:00",
@@ -79,38 +95,6 @@
    "d": "2026-11-27T11:55:38+00:00",
    "lang": "en",
    "t": "GTA 6 sets all-time record for stream views in its first week of release",
-   "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNlVfUDE0cEwtYnhETk9lckgyWS1peXNucmNXUnhxd2taX0pJMHc3MlFqdDh6RFowUHZqSm9LTUM3NGVRVm5UUU5YR2M0V3VRRjNrLTNtOVZwSlVGZWs2c2VkRzZlbXQ1ejlTTlBJVWt4c1hQWWJLcDQzM0k4VW4zdTlpTGo?oc=5",
-   "s": "Radio Times",
-   "d": "2026-11-27T11:46:51+00:00",
-   "lang": "en",
-   "t": "Where is the Looney Tunes wall in GTA 6?",
-   "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE03YUx4aTdrRUZJbnNNWHhuZGNEYlphZWF0Vks3OU5IZ0JPcE9odXl3VGd0WEtFVk82X0owZEtoWmFPNlJTYTlEQklxMXJYWFpYVEYxVXFLclI1VWhEZWV3dkx2cUhjN1k?oc=5",
-   "s": "Indy100",
-   "d": "2026-11-27T11:44:09+00:00",
-   "lang": "en",
-   "t": "GTA 6: Lucia's actor Manni L Perez posts heartwarming Thanksgiving statement",
-   "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbTE2ajJYVDRkZGU5V3UyaDFMNlRLN1h5RFFSbUVEVUpQMGFoOVJ3bWVYZk1aLUJQZWFKMmYtdDJFUVY1bUJ3d24wYU1md09oaVcyc1VtWU9TLTJ0RlNmN2lBWXBCSEpPbFl2ZnBoaVhOdjZRc3dpaG1KT2JKVE5nZU81RzFBRVNJOGRob3E2ZktPQWtoNkRyUndINjloRy1qdmxER2Q0b1ZVOUR3MkQtdDJDNHpjZ2hS?oc=5",
-   "s": "GameGPU",
-   "d": "2026-11-27T11:43:27+00:00",
-   "lang": "en",
-   "t": "Project trustno1 coder delivered up to 170 FPS in GTA 6 on the RTX 5070 with DLSS frame generation.",
-   "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9mWkxtN1JibHVPLThpNlhEYUhscGVKYktpaGtTQWcxYVFQSEFzd0ExbWhQOUdUMmpFMkpfNDRlM2pEcVBPbVotYlgzekZXdUYzZGo4UnptbjduaGVORmhhU21IckpOQXZzd0Nj?oc=5",
-   "s": "DualShockers",
-   "d": "2026-11-27T11:42:29+00:00",
-   "lang": "en",
-   "t": "GTA 6: Complete Beginner's Guide",
    "erreur": "429 : passage suivant"
   },
   {
@@ -136,18 +120,6 @@
    "chapeau": "Kyle Gallner and Samara Weaving teamed up for Carolina Caroline, a hit Netflix lovers-on-the-run crime thriller perfect for GTA 6 fans.",
    "txt": "By Anthony Crislip Published Nov 27, 2026, 6:38 AM EST Anthony Crislip has always loved movies and television, and has been published in outlets such as SlashFilm and Ultimate Classic Rock. While working as a film programmer or judge at a film festival, he has striven to develop interest in underseen films. He is a particular fan of digging deep into forgotten corners of film history. Sign in to your Collider account The best part of Adam Carter Rehmeier ’s 2026 film Carolina Caroline is that it’s the latest entry in a cinematic lineage going back to the days of film noir. It follows two lovers on the run, in the dregs of a life of crime, where the crime itself is something of a love language. Caroline ( Samara Weaving ) is just a small-town gas station attendant when the film opens, but it’s the arrival of Oliver ( Kyle Gallner ) that sets a fire underneath her and convinces her there is more to life than the world she knows. The two actors both have some history in genre films, whether it’s the thrills of the Ready or Not series or the sordid serial killer love affair Gallner found in Strange Darling , but Carolina Caroline is a different beast altogether, a tribute to the robbery road movie popularized with 1967’s Bonnie and Clyde .\nOliver’s scam artist ways are immediately endearing to the hapless Caroline, who herself has a hard time “finding the angle” that he constantly talks about. He opens her eyes, and once he does, the idea of lingering in her sickly father’s home is hard for her to wrestle with. While Bonnie and Clyde never apologized for romanticizing the Depression-era robbers at its center, Caroline and Oliver’s love story is even more sympathetic and loving. Caroline’s ultimate goal is to reunite with her estranged mother in South Carolina (hence the movie’s title), which means that for all the cons you see portrayed in the film, viewers will feel some sense of empathy for her. And together, she and Gallner are so charming that you let those pesky moral concerns go.\nKyea Sedgwick and Adam Rehmeier talk Carolina Caroline. Image by Jefferson Chacon With a love scene set to Jason Isbell ’s \"Cover Me Up,\" Carolina Caroline immediately announces itself as a movie indebted to country music — specifically, the kind of country music that deals with heavy themes of death, addiction, and love found at a very low point. Songs from Emmylou Harris , Loretta Lynn , and Chris Stapleton all add to the movie’s southeastern grit, with the understanding that love can be sweeping and all-encompassing while also feeding into the darkest parts of human nature. A case could be made that Carolina Caroline has the best country music soundtrack since 1975’s Nashville , and its neon-lit dive bar interiors also give it an incredible mood: nostalgic, sweet, and tragic all at once. It makes the movie feel like a true throwback . Oliver feels like a character ripped from one of those songs, with a sad backstory and an angle always on hand.\nIn keeping with that tone, the movie lightly ambles to its ultimate destination. While it’s not based on a true story, unlike other criminal road movies such as Bonnie and Clyde and Badlands with a built-in tragic end, a storm cloud hangs over Caroline and Oliver that casts their gleeful scams and bits of pickpocketing in a darker light. For as handsy and flirtatious as they are by themselves, they take the crimes seriously, which is best portrayed in a montage early on wherein Caroline learns all the tricks of the trade. Director Rehmeier clearly knows that the best part of a movie like this is feeling implicitly like you are in on the scams.\nImage via Magnolia Pictures Image via Magnolia Pictures Image via Magnolia Pictures Image via Magnolia Pictures CAROLINA CAROLINE, Samara Weaving, 2025. © Magnolia Pictures / Courtesy Everett Collection Image via Magnolia Pictures / Courtesy Everett Collection Close Image via Magnolia Pictures Image via Magnolia Pictures Image via Magnolia Pictures Image via Magnolia Pictures CAROLINA CAROLINE, Samara Weaving, 2025. © Magnolia Pictures / Courtesy Everett Collection Image via Magnolia Pictures / Courtesy Everett Collection From the country music to the heavy romance to the shots of crisp dollar bills, Carolina Caroline is a movie where the feeling is ultimately much more important than the strict narrative beats. The movie’s analog 1990s-esque setting (the specific details are unclear, but the cars and fashion tell the story) gives it an edge as well. Even i",
    "pub": "2026-11-27T11:38:12Z"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUElXMDFwZGhYdHpKYVpDSWJGWUFUNTVvQ0xDNEhnY3FTNEhPMkF0Y0FkYzRzbWxibFc2TlF2MzNzZ0JidFV0ZzFJODkyektUZklVWmc4c2tZaUtDamNhM1JEVUNqVVExTU10U0Y2YXBsZWExQTQzSHhtd3h0MkloNk5mUmk1VUxtSE1xY2ZXcS1Ga2Z4a3JyRg?oc=5",
-   "s": "GAMINGbible",
-   "d": "2026-11-27T11:36:16+00:00",
-   "lang": "en",
-   "t": "GTA 6 fans can save £120 on Asus ROG Xbox Ally handheld console this Black Friday",
-   "u": "https://www.gamingbible.com/news/asus-rog-xbox-ally-black-friday-console-deal-001498-20261127",
-   "img": "https://resizer.ladbiblegroup.com/ogimage/v3/assets/bltbc1876152fcd9f07/blt00b84f5e65287f54/6b09669fd786ec2ece629223/ASUS-ROG-Xbox-Ally-gta-6-black-friday-cover.jpg",
-   "chapeau": "Amazon's Black Friday sale knocks £120 off the ASUS ROG Xbox Ally, which lets you play GTA 6 remotely and includes three months of Game Pass.",
-   "txt": "The handheld gaming PC also comes with three months of Xbox Game Pass Premium.\nThis article contains paid shopping links. LADbible Group receives a small payment if you click on these links or make a purchase through them.\nAnyone who's been struggling to tear themselves away from Grand Theft Auto 6 since its launch last week can now pick up a handheld that lets them continue exploring Vice City away from their TV, thanks to one of Amazon's biggest Black Friday gaming discounts.\nWith the annual Black Friday shopping in full swing, the ASUS ROG Xbox Ally is available for just £379.99 at Amazon UK , with a substantial 24 per cent discount bringing the handheld gaming PC down from its usual £499.99 price tag.\nNot only is that the cheapest the Xbox-branded handheld has been at Amazon since August, but those taking advantage of the Black Friday offer will also get three months of Xbox Game Pass Premium included at no extra cost.\nWhilst Rockstar Games is yet to release a PC version of GTA 6 (meaning the game can’t be run natively on the device), those who already own the game on Xbox Series X or Xbox Series S can make use of Xbox Remote Play to stream the blockbuster directly from their home console to the ROG Xbox Ally.\nAfter enabling Remote Features in your console's settings, you'll need to sign into the same Microsoft account on your handheld and connect to your Xbox remotely.\nWith a sufficiently strong internet connection, you'll be able to continue playing through Jason and Lucia's adventure without having to hog the living room TV.\nOutside of GTA 6 , there's plenty more to like about the ROG Xbox Ally , especially if you've been considering buying a Steam Deck.\nThe standard white model comes equipped with an AMD Ryzen Z2 A processor, 16GB of RAM, a 512GB SSD, a 60Wh battery, and a seven-inch 1080p touchscreen boasting a 120Hz refresh rate.\nSince the handheld runs on Windows 11, you're not limited to games available through Xbox either, with the likes of Steam , the Epic Games Store, and Battle.net titles also accessible and at your disposal.\nAlthough the more expensive ROG Xbox Ally X boasts considerably more powerful hardware, the standard model is fantastic revisiting older releases when playing games natively; that’s especially when working through a backlog of indie games.\nPlus, with the included Game Pass membership , you'll have access to the likes of Hogwarts Legacy , Minecraft , and Forza Horizon 5 straight away.\nREAD MORE: All the Game of the Year nominees with up to 57 per cent off in Loaded's Black Friday sale: GTA 6, 007 First Blade, Resident Evil Requiem, and many more\nAlthough Black Friday officially takes place today (27 November), many retailers are keeping their sales running throughout the weekend until Cyber Monday (30 November), including Amazon.\nIndividual offers could end sooner depending on stock levels, however, so there's no guarantee the ROG Xbox Ally will remain available at this price until Monday.",
-   "pub": ""
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPS2lnQVBYWFYyVXloeER6N1ZWRGtieGpzVzl5OVVpZmlZb21XM3poN1ppM0o5c2I1MGlRTnh2UktwbHRHNVpsZGJqb1FRZEhxZGtxVXBrZWZZZWk3S3pFQVhTS0lkem5fTUl4cWREV0xaMTJ1TWRVZnd6ckVCUU1qX0trMUItbXhWekdWNHRfMi1qVDg?oc=5",
@@ -186,18 +158,6 @@
    "pub": "2026-11-27T11:30:05+00:00"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9DTlRwVUliZ2wtMkV1azdTUUFzVnVEVEszczMzcmtEZVlRNDZtR1JHSTExRmpiNmFoMmtZWVNORkJuWXlsV2Nv?oc=5",
-   "s": "Digg",
-   "d": "2026-11-27T11:28:26+00:00",
-   "lang": "en",
-   "t": "GTA 6’s chainsaws are look-but-don’t-touch · Digg",
-   "u": "https://digg.com/gaming/l6oct5mg",
-   "img": "https://digg.com/gaming/l6oct5mg/opengraph-image?6a9dc854e855d953",
-   "chapeau": "Rob Nelson says chainsaw violence would be \"too much\" given GTA 6's visual detail and protagonists; resources weren't the issue.",
-   "txt": "Gaming TLDR GTA 6’s chainsaws made the scenery, not the arsenal: Jason and Lucia can’t pick them up or use them as weapons. Rockstar North’s Rob Nelson says he felt chainsaw violence would be too much for the game’s visual presentation and protagonists, and that resources weren’t the issue.",
-   "pub": "2026-11-27T11:12:56.349984+00:00"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNSGhCbHFXZW5zOFpZM0l4bEQxMkNVMng5NzVJVVNNWF9ySC1OZ1RuUHVqSUlzTl81cHlscGk3aDROaTFtV3RtMGt6X2lhREUzenhlSnNVdzVpR0ZLNTI1V1gyNFFvOFYzdWk3NU5IZGlwaEdzQjFZS0MxQlRuX3lKNDhFNjJQTDAtam1GRWFyekxRTnF6N3FGdHpJeUE5d29EY2pMS2Z4S2liSXBGd0cyWUhsME5hb1JjSk9xTERZUUtlNEdza2pZOERCLW5NdERpcDFPUERMcHh4ZE5vYnVSMGE3dzFWaS1FUHczVTY3SnhKdmFiczJRQmJ1UzdDVjNMaHhlRl96Qnc3MmJ4dk9zeEtMY08?oc=5",
    "s": "Rock Paper Shotgun",
    "d": "2026-11-27T11:27:40+00:00",
@@ -206,16 +166,20 @@
    "erreur": "429 : passage suivant"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9xaU4wcmhsTHU3T1FnaHNtd1piY1J1eTJQb016OTRzS0tGdDhrTzdJdHJnNmtMYWw2X2NrT20xYnZXTlcxdl96UFVoeEhjVjJMSnJNR2NVZWlaTU1WZzBpLTZpelptRkdL?oc=5",
-   "s": "Insider Gaming",
-   "d": "2026-11-27T11:25:48+00:00",
+   "gn": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOaFdfNS1aSlh1VWNxbWpQOVBLaUt5MDlidTdFaDRQWXMydXJjVHZORGNFTy13ZERoSVRJbGkzcmRIaUMycEI1VFVTMzIwbUlkSGYtUC04WXFjYmpzdlFzRm51S0l0dGw0U1FTVEt5anF1eFV6eWIwTEFTT0I4Qk9fbkFn?oc=5",
+   "s": "Radio Times",
+   "d": "2026-11-27T11:23:24+00:00",
    "lang": "en",
-   "t": "Where To Find Principe Emilio's Lectro In GTA 6—Fastest Motorcycles Location & Stats",
-   "u": "https://insider-gaming.com/principe-emilios-lectro-gta-6/",
-   "img": "https://insider-gaming.com/wp-content/uploads/2026/11/Grand-Theft-Auto-VI_20261126165042-scaled.jpg",
-   "chapeau": "Here’s where to find the Principe Emilio's Lectro in Grand Theft Auto 6, as well as a detailed look at the motorcycle’s stats.",
-   "txt": "Of the almost 600 vehicles in Grand Theft Auto 6 , 77 are motorcycles, and hardly any of them are as fast as the Principe Emilio’s Lectro.\nIn fact, this Standout Vehicle is one of the 10 fastest motorcycles in the game , so if speed on two wheels is what matters most to you—as well as a bit of style—then you’ll want to get your hands on the Principe Emilio’s Lectro as soon as possible.\nWith that in mind, check out where you can find the bike for yourself below, as well as a complete rundown of all of its important stats.\nIf you want to find the Principe Emilio’s Lectro in Grand Theft Auto 6, you’ll need to head to Emilio’s Auto Center in Rockridge, an auto shop in Vice City.\nIt’s an easy bike to get your hands on, as there’s not going to be much resistance at this spot. It’s simply tucked away inside the garage, which poses no difficulty when breaking into it; just make sure the surrounding roads are on the empty side, in case a passerby calls the police.\nThat said, get one of the doors open, and you’ll find the Principe Emilio’s Lectro primed for the taking. It doesn’t need a Key Cloner , nor does it have a Tracker to contend with. Just hop on board, and use it as the perfect getaway vehicle.\nGiven that it’s one of the fastest motorcycles in the game, it’s well worth the hassle. Not convinced? Check out the vehicle’s stats below.\nEvery important statistic about the Principe Emilio’s Lectro in Grand Theft Auto 6 can be found in the table below.\nThe motorcycle obviously excels at speed, but its Acceleration and Handling make it a great one to drive. Better yet, compared to the 20 fastest cars in GTA 6 , the bikes are generally far cheaper to register, too.\nIf you’re looking for more vehicle locations, check out where to find all of Randy’s Wishlist Supercars , and if you need to know anything else about Grand Theft Auto 6, make sure you stop by our full guides hub . It contains everything you could need to learn about the most important game release of all time!\nWill you be adding this bike to your collection? Let us know your thoughts about the game via the free Insider Gaming Discord server .\nFor more Insider Gaming content, read ‘ GTA 6 100% Completion Walkthrough .’ Don’t forget to sign up for our free weekly newsletter .\nNOTE: Insider Gaming may earn affiliate commission if you purchase items through links on Insider Gaming. Read more about affiliate commission here .\nCharlie is one of Insider Gaming's Guides Writers who's been in the gaming industry for a little over a year. Unfortunately for him, he enjoys every video game genre out…",
-   "pub": "2026-11-27T11:25:48+00:00"
+   "t": "GTA 6 deals deliver this Black Friday with up to £15 off the game and £100 off PS5 bundles",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQTXRUcnBEcVFSdWpFanVOQ0pVTEhJREJJTFVQRnoxeHExWWJXVnFZckhqcjFhb2l3a0Y4cjBQTlFXWURJRFl0Z3BsVkdNNlZibExXRkZ0YmVCQjlSSHc3SU95b0hfb3R6OWNpV2NOT1FsanlISzZWN1FjUllMUW54RWtzNmJEcVYtWXNjVVk4eV81T0lxMVF6alhqblNNa3ExelB0ajltNXh6ZnVKeDlZdkJycFVaUmwyTFBLTUlDZjdKUXNfVGFFMjZYX2RUV2hsYXRHc1paS3BSX1VzQXhSS0tiRGtwaWo5SUpKSUZDalc5RUtVWUluVmxnTzlBcWx3TXJTQTd0ek9IdURjcFpBSjZjR2RSQWM?oc=5",
+   "s": "BFM",
+   "d": "2026-11-27T11:07:53+00:00",
+   "lang": "fr",
+   "t": "\"On se met dans la peau du personnage\": ce Normand nommé Jason Duval a découvert avec surprise être l'homonyme du personnage de GTA 6",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPeGNycDdlSk1ubFNKZXdSdXdSQTdxYlRZUFdRSHNTYk9jX1NwY1JVSGVKdVVZckpSdFJqRzg3OUxuR2ZIUkNLR2FYMkNkWkt3VG5zQWhtU2VLXzJWRjk1U0FHQm5FSzlkOUNjOVlDdkR5b01ZZ0k4elBIaXZnQkVlVVVJRVZtTV9lS3JlcGMyWmppV2xZQ1BfN0hDSXkwaEtYd1dvSlRqQ0dQU2VGeVAtV3k3MmtrUnhVUVlfamQzYmtEdkFXVGZ3Q2dR?oc=5",
@@ -241,6 +205,14 @@
    "txt": "Ajouter aux sources préférées L'industrie du jeu vidéo est familière des fuites à répétition, et Grand Theft Auto VI n'a pas été épargné ces dernières années, et surtout les mois précédents sont lancement. Pourtant, Rockstar Games a réussi un véritable miracle en cachant l'un des éléments centraux de son intrigue jusqu'au jour du lancement. Un soulagement pour le studio .\nAttention, si vous avez joué moins d'une heure, les lignes qui suivent contiennent des spoilers .\nGTA 6 : L'actrice de Lucia brise enfin le silence, après 10 ans d'un secret absolu\nAprès une semaine de lancement explosive pour Grand Theft Auto 6, l'actrice incarnant Lucia prend enfin la parole. Manni L. Perez révèle avoir travaillé sur le jeu pendan…\nSi vous avez joué ne serait-ce qu'une heure au nouveau titre de Rockstar, vous connaissez déjà ce rebondissement. Jason et Lucia, les deux protagonistes, ont un fils nommé Tomás . Cette révélation change radicalement la dynamique du duo, leur offrant une motivation bien plus profonde que le simple appât du gain. Rob Nelson, le producteur du jeu, a confié son immense soulagement face à la préservation de cette surprise (via VGC ).\nLe producteur a avoué avoir prié chaque jour pour que ce secret ne soit pas dévoilé , surtout après les piratages subis par le studio en 2022. Heureusement, la surprise est restée intacte, offrant aux joueurs une connexion émotionnelle immédiate avec ce couple cherchant à se construire une vie de famille loin du crime urbain .\nDe quoi laisser la surprise aux joueurs, qui ont découvert ce pan de l'histoire par eux-mêmes, comme le souhaitait Rockstar.\nGTA 6 est disponible sur PS5 et Xbox Series. N'oubliez pas que vous pouvez retrouver nos guides GTA 6 pour vous aider dans votre progression, que ce soit la carte interactive , ou encore la liste de tous les codes utiles lors de l'aventure .\nAjouter aux sources préférées Corentin Rimbert (Corentin) Les jeux vidéo m'ont toujours accompagné, depuis mon enfance. D'abord avec les consoles portables, telles que la GameBoy Advance et la Nintendo DS, qui m'ont suivi durant une partie de ma jeunesse,...",
    "pub": "2026-11-27T12:05:00+01:00",
    "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOam8ySVZnREtuRE5USHU5ZWdjYUlOa2VSN2VsTnBWSS1aRHVWb1pFMm4wUDJWZWE4bXVFOXF0dDdpZTlQOTRpOEhvaDRIUmJOLWtBYlRTUWlmSFlubjJnQjkxdjI5MThKWWFZR3Jxd185bFJuejhuTjJNSGdwVGYyeDlhaUI4STc4cVRrSWZfNTlGb0lXdTBB?oc=5",
+   "s": "Notebookcheck",
+   "d": "2026-11-27T11:02:00+00:00",
+   "lang": "en",
+   "t": "GTA 6: Viral video reignites old Rockstar theory",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQlBGbFN1aXNOdkxiTlFLUzZZZDc2TVRTcG8tQ1pHa0NCQ3d0dFF4aG1KOUFCUkNrbFFmamxjVFVIRzRNeVJsTm5wM0d2emExalp5WERqS2hrQWhGR1dvbVZLWDVQdVViak1wOC1sanNCNkF1WlFhWUxWaS0tV1NaTnRvbHJBWUZoLVFRTVZCRFBEdWNjcmVGQVB2NVozaUlJblhZYWdYOHk0LXFJbHc?oc=5",
@@ -304,28 +276,36 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOOEtsZHhIdnhzZEphWDkxUm4ta1E5VXZSQUhmSEJWZllMRDhWVWxRSV9yQTYtdFdjSU9ETEFJSGk1NUtLbGVYdWpNX196MEI4SU5UWWxlTUZYSkQxTlNXWktkVm9XUVZmLWdTNFgyYU9ITnFHOWtsOWs0V1cyZTdtc2FQdE1JZGZoRWhOcmk0TWRTZ2hGRHZWZXBKWkhyNlE0UVlfdHgxMmlsUThCNmhOZ0lrM3czQzB3MklDaXFBaTlUZmt4NDByYnVobHZqM3EzNkhyWVUyZ0V4Wm8?oc=5",
-   "s": "Clubic.com",
-   "d": "2026-11-27T10:19:00+00:00",
-   "lang": "fr",
-   "t": "GTA 6 sur PC avant l’heure : comment des moddeurs et leur IA ont réussi l’impossible sous Windows 11",
-   "u": "https://www.clubic.com/actualite-641389-gta-6-sur-pc-avant-l-heure-comment-des-moddeurs-et-leur-ia-ont-reussi-l-impossible-sous-windows-11.html",
-   "img": "https://pic.clubic.com/v1/images/2477044/raw",
-   "chapeau": "Il y a encore quelques jours, le défi était de faire démarrer GTA 6 sous Windows. Les moddeurs en sont aux premières missions, et une demi-heure de jeu sur GeForce RTX 4090 donne la mesure des optimisations à encore réaliser.",
-   "txt": "Il y a encore quelques jours, le défi était de faire démarrer GTA 6 sous Windows. Les moddeurs en sont aux premières missions, et une demi-heure de jeu sur GeForce RTX 4090 donne la mesure des optimisations à encore réaliser.\nLa course au portage de GTA 6 est devenue un sport olympique pour les moddeurs de la planète. Qui sera le premier à proposer une version stable et plus performante que sur console ? Top à la vachette ! ©Colin Golberg pour Clubic À la neuvième minute de sa partie, le moddeur de Vice-Tay plante son bateau dans la mangrove. Renvoyé au dernier point de contrôle, il reprend sa route… Le tout sous Windows 11. Ce moddeur fait tourner sur son PC le code de la version Xbox de GTA 6 , dont l’exécutable a fuité le 23 novembre, quatre jours après la sortie du jeu sur PS5 et Xbox.\nDans les images relayées par TechRadar, le portage de Belobug permet de prendre le volant dans les Leonida Keys , au premier chapitre. PortWatch VI, un site communautaire qui suit les portages amateurs de GTA 6 sur PC, le place en tête de son classement du 27 novembre, avec environ 22 images par seconde en moyenne sur un PC équipé d’une carte graphique Radeon RX 9070 XT, d’un processeur octuple coeur AMD Ryzen 7 9800X3D et de 64 Go de mémoire vive.\nDans le test de l’adaptation Vice-Tay, sur une GeForce RTX 4090 avec le profil graphique de la Xbox Series S , le compteur d’images par seconde atteindrait les 30 FPS en eau libre selon le média allemand Heise, mais chuterait à 11 quand un virage pris un peu trop rapidement force le chargement du décor. Sur une demi-heure de jeu, la cadence médiane s’établirait à 21,1 images par seconde.\nPour tester la génération d’images, Vice-Tay a lancé un essai séparé de six minutes. Le jeu calculait 22,4 images par seconde en médiane, et le FSR 3.1.6 d’AMD ajoutait des images intermédiaires pour atteindre 44,9 images affichées par seconde. Le DLSS Quality servait à reconstruire l’image de 720p en 1080p.\nLes projets s’appuient souvent sur le même code, celui de VIctory. Cette couche de compatibilité laisse le processeur du PC exécuter directement le code x86-64 de la Xbox et adapte le travail envoyé à la carte graphique. Elle traduit au format DXIL de Direct3D 12 les shaders, ces programmes qui calculent notamment l’éclairage. Le monde ouvert en compte plus de 24 000.\nLe moddeur fxceless dit avoir développé sa branche de VIctory avec Claude Code. Sur XCL, l’agent a cherché pourquoi des shaders refusaient de se compiler sur Mac, écrit le correctif et lancé les tests. Un autre contributeur a ensuite vérifié les effets du changement sur le jeu sous Windows avec une GeForce RTX 5070 Ti.\nÀ découvrir GTA 6 : une fuite détaille les écarts graphiques entre PS5, PS5 Pro et Xbox 26 novembre 2026 à 12h21 News Mais peut-on y jouer sur son propre PC ? Sur GitHub, Belobug et Vice-Tay publient le code de leurs outils pour faire tourner la version Xbox de GTA 6 sous Windows. Le joueur doit fournir séparément les fichiers du jeu, et ces fichiers doivent déjà être déchiffrés. C’est là que ça coince avec une copie Xbox du commerce, dont les fichiers sont bien entendu protégés.\nLe projet CGBJ a vu son code publié le 26 novembre. PortWatch VI, qui suit ces portages amateurs, lui attribuait une moyenne de 25 images par seconde, un chiffre à prendre toutefois avec des pincettes. Rapidement après la mise en ligne, la page GitHub du projet est devenue inaccessible, sans aucune explication publique.\nLeonida était un autre projet amateur de portage de GTA 6 sur PC. Ses développeurs cherchaient à recompiler le code de la version Xbox pour faire tourner le jeu sous Windows. Take-Two, la maison mère de Rockstar, a demandé à GitHub de retirer le projet en invoquant une atteinte à ses droits d’auteur. GitHub a aussitôt bloqué le dépôt de Leonida et les copies créées à partir de celui-ci, soit 3 007 dépôts au total.\nMais à ce rythme-là, une chose est quasiment sûre, les moddeurs auront finalisé le portage de GTA 6 sur PC avant sa sortie officielle ! Peut-être même d’ici à la fin de l’année si ça continue de progresser à ce rythme…\nGTA VI 79,99 € Foire aux questions Contenu généré par l’IA Qu’est-ce qu’une couche de compatibilité comme VIctory pour exécuter du code Xbox sur un PC Windows ? Une couche de compatibilité est un pont logiciel qui permet à un programme conçu pour une plateforme (ici la Xbox) de tourner sur une autre (un PC) sans réécrire tout le jeu. Elle s’occupe notamment de remplacer les appels système et bibliothèques ",
-   "pub": "2026-11-27T11:19:00+01:00"
+   "gn": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQek5JQ3otMHIwbEdBX01MNnpOei1rV2YtdzF3bkNCUWw1Q0huVzU5LUZYSHdJX2E2djJ3aXZQaWVOSUpjRjNEVVRHQVNVSGZPRWVYQkhWeDRjZVJmZm1QandsZDc0Wk5rRjEzX0FsdExXaHdVOTY3TDdkNmtEMVI2Tzd1Ty1rZEFZODkteEF6aFlTaWdyWlFqSkRhS3hnV3pPNmRQV1BUVEFWRU90cE93V3U0b0N3VDBBRUVNU2NmSG55Ym9qb21BcEdJLTRkVHVDeWdTOUp3enBVeXhkLVdiaE11Sjg5LWg3dDhoSWFxSjA3elVlejJWSnRPYzFYdDU5b3NDdkl6a0NDUTNCaGVv?oc=5",
+   "s": "IGN",
+   "d": "2026-11-27T10:22:56+00:00",
+   "lang": "en",
+   "t": "Rockstar North Co-Studio Head Discusses Pre-Launch GTA 6 Criminal Profile Concern",
+   "erreur": "429 : passage suivant"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPYWVTaVpXRmhSMDhSUnRtSzRXWTg5SjBGQURDRjI3SGJ5X3pLTzA4SUI3ZHhPRG4yT1NxN3dnbEhZWXJJcGktdkk4Z0thSk1fT1dYelFlWTgwWEpyZ2ZkLVB2TXllUG1uUjZYVFMtOEJwdWRBQ19HNllXWFhtUXd3SHZ4TWtYRC1VLS1KeHFra19obGFSaVFycnlEeThScXBVcmhN?oc=5",
-   "s": "Konbini",
-   "d": "2026-11-27T10:02:53+00:00",
-   "lang": "fr",
-   "t": "Justice annonce une soirée GTA VI à ne pas louper, et c'est à Paris",
-   "u": "https://www.konbini.com/popculture/justice-annonce-une-soiree-gta-vi-a-ne-pas-louper-et-cest-a-paris/",
-   "img": "https://cdn-www.konbini.com/files/2026/11/Capture-decran-2026-11-27-a-11.06.41.png?width=1200&height=675",
-   "chapeau": "On a trouvé l&#039;évènement GTA VI parfait pour vous, parce qu&#039;il faut bien lâcher sa manette et revenir au monde réel de temps en temps.",
-   "txt": "Pop culture Justice annonce une soirée GTA VI à ne pas louper, et c’est à Paris Image : © Rockstar Games\nVous êtes en pleine obsession GTA VI depuis la semaine dernière ? Vous ne vivez que pour Jason et Lucia ? On vous comprend… et on a trouvé l’évènement parfait pour vous, parce qu’il faut bien lâcher sa manette et revenir au monde réel de temps en temps.\nVous le savez peut être, la musique originale de GTA VI est signée Justice. Le groupe français spécialiste des musiques électroniques réalise ses premières productions pour un support visuel, et l’album officiel, Grand Theft Auto VI : Original Score , sort le 11 décembre. Le single « Flower in a Hurricane », sur lequel sont crédités Tame Impala, SZA et King Gizzard & The Lizard Wizard, est déjà un hit mondial.\nEt justement, pour célébrer l’arrivée de l’album du jeu, Justice organise une soirée unique sur le thème de GTA… à Paris ! Le groupe animera un DJ set, avec des guests pour l’instant tenus secrets (on rêve d’y voir Sylvie Vartan ).\nGTA VI propulse les écoutes d’un son iconique de Sylvie Vartan\nL’évènement a lieu le 3 décembre, de 23 h à 5 h, au club ultra branché Mia Mao, et les places (à 30,30 € chacune) risquent de partir très vite. La mise en vente commence aujourd’hui même, à 12 h. On vous conseille vivement de mettre une alarme.\nLe lien pour prendre vos billets : Grand Theft Auto VI: A Night With Justice .\nVoir cette publication sur Instagram Une publication partagée par JUSTICE (@etjusticepourtous)",
-   "pub": "2026-11-27T11:02:53"
+   "gn": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMXdmQXh2X3JvVUZhUGJiVnk0YVJVTUkzUzVTVF9oU19VODVIQnhYMTZFTW45N0dwSkNURnRoZ0NBVnBIWW5uci0tUHlPNDdvX2NtdWlZS0ZGTmREelBVU0xqYmhyUERfbFVXeTc0QUx6R2hwQWR5N0ppMndKS0l2WGFQMmJ6cXM4dTlBd0FTNA?oc=5",
+   "s": "GAMINGbible",
+   "d": "2026-11-27T10:20:11+00:00",
+   "lang": "en",
+   "t": "Save up to £120 on an Xbox Series S for GTA 6 this Christmas when you trade in your old console",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONFhYMS1MQXdpU09RT25vMnk0Z084NWRxdm1fdDExNWhlUVFmZjBzbzVUWlg1b2k0dFItNzEwZm5fV0Z2aVpLNFB0ZHJaWnFzYmJ3bjA0a2VCWUU3ODRnRjdwMFhfLTBNc0puSHdBaTZsT19PVFBVeWs1cXdlYVBZUDIxNWxsc1J6VlBjSkQzR0dzNzBwai1ueUYzQm8zb2pTR0F2WDlXVkRVcDlBcDh3Y2hSZWVzWTVXLWd3TTVDZXM5dk0?oc=5",
+   "s": "Notebookcheck",
+   "d": "2026-11-27T10:04:00+00:00",
+   "lang": "en",
+   "t": "Unofficial GTA 6 PC port shows multiplayer and proximity voice chat at 25–30 FPS",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZTNlMTlVNWFoMlpMT0pEMVNWZll4QXNTUUl0RVVzVG1kdEF1TU55ZTlyczQ0YmM5UHVBYl9xWEo3SkZoaEdUUVlFOEVMLVUxVTBBY19qUC02dFNzV3l1NGFTeUdqMnlpcXRQNFpUSUVqVkpFcW5VS1dqOHB5TDdPQWdvd3FwUmMyT0NsMHlhN0NBUVl4dzAwTEZQb1FnWGxnZXc?oc=5",
+   "s": "GAMINGbible",
+   "d": "2026-11-27T10:00:00+00:00",
+   "lang": "en",
+   "t": "GTA 6 worries spread as Xbox joins PS5 in blackouts, tech expert explains console issue",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ZeGdsS3p5MzEzSVJVSWVuUlQ4SkZ2cW5nZ2VwSWNVaWpJWHA1VFhQWngxa2JtU3RNM20xNFowekNITlZ4M3hpRnBDenlZcnlQMDJaQjFhLVpVWm9SYzNYSS1uUUE0OUdnZHlLeGR4THFWMWQ4OFZDY0dhc3I1T0E?oc=5",
@@ -767,6 +747,15 @@
    "cyberleek": true
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbGZkNzJRbW01Y1FocmFQTTZLZ2VuQ3dROVpjTFItQ3BZS1BYRHFLT0tYbVB1VGFIeUh3cy1sTU1RMzc4NnVsOTFoWG5XRFIyTm5PYVVkQUVoX0w5RFFGY045aVU4VXlHR3RSemh0S0ZNRk5VZjV1WjM2ZVpIUWJyYWxwbjVyN18zR0ZDa3FHNXJucEU0T3NpdmhYRlhXVEZ4VnBTM0FLODdmcVdfVWFNeDljVWxKS0VtWEp5LXJDeV9tUm41dWc?oc=5",
+   "s": "Bourse Inside",
+   "d": "2026-11-24T22:09:41+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : le mécanisme caché derrière le pari à 14 M€ sur ce memecoin qui a piégé les investisseurs",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRkJHeVI5VWpHZE5QZnpTeEtveXlOYU9RenNuR1d2eXQyVlB3YnVEZzhSVFdBc3NoODVOUjE5OHNSWEdjQXdHeU4za3dCdHdoNkhsZWFUQ2l4WkhFclllNnpsR1lUQllCWEtYa2phYUhuNmFkYzRfSWlsUktWTFNMWDBSM0xxU0d2QVFJUVdreWJ1bDNNQmFhcWdOQjBENDFGay0zVW84UFBBaFJQTWFFUjZVYnFIVnpj?oc=5",
    "s": "DLCompare.com",
    "d": "2026-11-24T21:00:00+00:00",
@@ -790,15 +779,6 @@
    "chapeau": "Crypto: Cyberleek publishes alleged GTA 6 files despite the failure of its memecoin, which remained far from the hoped $15 million.",
    "txt": "Getting informed ▪ Altcoins Summarize this article with: ChatGPT Perplexity Grok Cyberleek wanted to boost its memecoin to a capitalization of 15 million dollars thanks to the GTA 6 leaks. The operation ended in failure. On November 23, 2026, the alleged author of the disclosures finally published the executable file of an Xbox version of the game. The next day, its crypto displayed a valuation of only 1.36 million dollars. Even the launch of one of the most anticipated video games of the decade was not enough.\nRead us on Google News In brief Cyberleek reportedly published the executable file of GTA 6 on November 23. Its memecoin remains about 91% below its capitalization target. The hourly volumes observed during the latest leak are nearly 29 times lower than the peak recorded in August. GTA 6 at the Heart of a Failed Crypto Bet On November 19, the official launch day of GTA 6 on consoles, Cyberleek claims to hold an almost complete version of the game on Xbox. About 209 GB of files were reportedly leaked, except for the main executable file.\nIts early publication was supposed to depend on the performance of the CYBERLEEK crypto. The token had already had its moment of glory. In August, Cyberleek’s crypto had reached 25 million dollars before crashing by 46% in one day , after several sales attributed to its creator.\nCyberleek hoped to replicate this surge. In October, it had set a first capitalization goal at 30 million dollars. In November, its ambitions dropped to 15 million.\nThe crypto market did not follow. As of November 24, CYBERLEEK was trading around 0.00136 dollars, for a capitalization close to 1.36 million and a daily volume of 752,000 dollars.\nNevertheless, Cyberleek kept its promise to release the file on November 23, regardless of the financial outcome. The author claims that the funds collected are to finance a secret project, unrelated directly to GTA 6. No public element currently allows verification of this claim.\nBitquery’s on-chain data allow measuring the investors’ loss of interest. Between November 16 and 18, CYBERLEEK lost 45% of its value. On the day of GTA 6’s launch, the token rebounded by 41%, then rose another 16% the next day.\nThe following two days erased part of these gains. On November 23, the executable file’s release provoked a new market reaction. The most active hour recorded about 186,600 dollars of transactions.\nIn August, during the first leaks, the hourly record reached 5.47 million dollars. Nearly 29 times more. Yet, this time Cyberleek had a much bigger promotional argument than some unreleased videos: the files of an alleged version of the game.\nSome investors mainly took advantage of the rebound to sell. Bitquery identified five wallets that made about 123,000 dollars in sales, with no purchases between November 19 and 23.\nThese amounts do not necessarily correspond to their profits. The episode recalls the difficulties faced in this market, where nearly 94% of Solana memecoin traders tracked in a previous study showed losses. For CYBERLEEK, the release of the files ultimately caused only a temporary surge in activity.\nCyberleek probably made a mistake from the announcement of its schedule. By promising to publish the file on November 23 even if its financial goal was not reached, it removed much of the incentive to buy its crypto. Players could simply wait a few days.\nWhy buy a risky token to get something faster that was supposed to become accessible for free? The affair also gave rise to several imitative cryptocurrencies. A token called Justice For Cyberleek notably appeared on Pump.fun on November 23.\nThe risks also concern players. As early as November 3, Netcraft researchers had catalogued 121 new domain names impersonating Cyberleek. Some offered alleged versions of GTA 6 containing suspicious files.\nAn analyzed executable was flagged by 34 of the 68 VirusTotal security engines. This method recalls Stealka, malware disguised as video game mods to steal cryptocurrencies . GTA 6’s popularity remains unquestionable. That of the CYBERLEEK memecoin, much less so. Its creator attempted to finance his project through the impatience of players, even though they had no economic obligation to buy his token. Once the leak was published, little remains of this marketing argument.\nMaximize your Cointribune experience with our \"Read to Earn\" program! For every article you read, earn points and access exclusive rewards. Sign up now and start earning benefits.\nJoin the program A",
    "pub": "2026-11-24T20:41:10+01:00",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONkJUWEhKMWpING1GVHpXNkw2eG85ZGZvejNFZU5YN1hMZVplemdjWmttdG11bjVUdlRZODdaR1NWNXEwMlF1amNNQVItek0tYkJaajdxNEF1dFdNUHBfTWg5SzVnVlprS25lX3dZWk5GdXQ3aHRRVXlaLUlzUEtJTVhYZUdYTlNtc3ZvamRwVQ?oc=5",
-   "s": "Cointribune",
-   "d": "2026-11-24T19:35:33+00:00",
-   "lang": "fr",
-   "t": "Crypto : Les fuites de GTA 6 tournent au fiasco financier",
-   "erreur": "429 : passage suivant",
    "cyberleek": true
   }
  ]
