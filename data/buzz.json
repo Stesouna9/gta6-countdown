@@ -1,8 +1,27 @@
 {
  "title": "Le buzz GTA6",
- "updated_at": "2026-11-27T16:12:40+01:00",
+ "updated_at": "2026-11-27T18:12:37+01:00",
  "schedule": "Veille toutes les 2 h, de 8 h à minuit",
  "items": [
+  {
+   "id": "x-50-millions-copies-alinea-gtavi-countdown-2026-11-27",
+   "title": "GTA 6 : plus de 50 millions d'exemplaires vendus, selon Alinea Analytics relayé par @GTAVI_Countdown",
+   "summary": "@GTAVI_Countdown relaie un chiffre attribué à Alinea Analytics : GTA 6 aurait dépassé 50 millions d'exemplaires vendus depuis sa sortie, pour 4,7 milliards de dollars de revenus, et serait le 13e jeu le plus vendu de l'histoire en une semaine. Le post ne cite pas de communiqué de Take-Two ; un seul compte relève le chiffre, sans reprise trouvée dans data/presse.json.",
+   "url": "https://x.com/GTAVI_Countdown/status/2126333710178165125",
+   "platform": "X",
+   "author": "@GTAVI_Countdown",
+   "status": "Rapporté",
+   "published_at": "2026-11-27T15:13:56.000Z",
+   "checked_at": "2026-11-27T18:12:37+01:00",
+   "evidence": "Vues relevées dans data/x_alertes.json le 27/11 à 16 h UTC : 23 355 vues, 1 808 j'aime, 126 reprises. Chiffre attribué à Alinea Analytics dans le post, sans source primaire citée.",
+   "visual": "50 millions",
+   "image": "https://pbs.twimg.com/media/HYJBIHfXwAAa7wO?format=jpg&name=360x360",
+   "image_alt": "Image du post de @GTAVI_Countdown sur les ventes de GTA 6",
+   "image_credit": "@GTAVI_Countdown sur X",
+   "embed_type": "x",
+   "cta": "Ouvrir la publication sur X",
+   "post_text": "GTA 6 has now exceeded 50 MILLION copies sold since launch and generated $4.7 BILLION, according to Alinea Analytics."
+  },
   {
    "id": "x-file-attente-ps5-distante-gtalphaintel-2026-11-27",
    "title": "GTA 6 : des fans font la file pendant des heures sur un site qui prête une PS5 à distance",
@@ -7694,6 +7713,11 @@
    "at": "2026-11-27T16:12:40+01:00",
    "label": "Passage Claude Haiku (Matière X, veille 2 h)",
    "summary": "1 sujet ajouté : file d'attente pour jouer à GTA 6 sur une PS5 à distance (@GTAlphaintel, 22 028 vues, Rumeur). Les autres publications de plus de 20 000 vues étaient déjà présentes ; les trois sous ce seuil (15 796, 18 528, 18 947 vues) n'ont qu'un compte."
+  },
+  {
+   "at": "2026-11-27T18:12:37+01:00",
+   "label": "Passage Claude Haiku (Matière X, veille 2 h)",
+   "summary": "1 sujet ajouté : plus de 50 millions d'exemplaires selon Alinea Analytics (@GTAVI_Countdown, 23 355 vues, Rapporté). Les autres publications de plus de 20 000 vues étaient déjà présentes ; sous le seuil : décors abandonnés (19 633 vues, un compte), profil criminel (17 286), relations Jason-Lucia (11 040), Ghost Ship (5 630)."
   }
  ],
  "coverage": {
