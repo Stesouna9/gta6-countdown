@@ -1,6 +1,30 @@
 {
- "maj": "2026-11-27T02:11:30+00:00",
+ "maj": "2026-11-27T02:32:37+00:00",
  "articles": [
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBjcjBadzNBeHJLZ2lLUHBqWnp2aHhPU2JORHpNdmxKeG5ZdTM3RU5zOU5KbmdaRzM1bXY2VVB6cFFKTTR6UGtYeFQxRkNfSldPYVJEdVU2Q0xQRENDSXc1d0lvQ0NtSnhJ?oc=5",
+   "s": "Make Tech Easier",
+   "d": "2026-11-27T01:05:26+00:00",
+   "lang": "en",
+   "t": "The unofficial GTA 6 PC port CGBJ posted a Windows launcher on 26 November and its GitHub repository now returns 404 for reasons unknown, with GitHub publishing no takedown notice naming it, while PortWatchVI relays a 25fps average in gameplay - Make Tech Easier",
+   "u": "https://maketecheasier.com/cgbj-gta-6-pc-port-github-404/",
+   "img": "https://maketecheasier.com/wp-content/uploads/2026/11/cgbj-gta-6-pc-port-github-404-featured.jpg",
+   "chapeau": "The unofficial GTA 6 PC port CGBJ posted a Windows launcher on 26 November and its GitHub repository now returns 404 for reasons unknown. PortWatchVI relays a 25fps average in gameplay and says it found no independent reproduction of that figure.",
+   "txt": "Practical fixes for the tech you already own. Free, a few times a week.\nThe unofficial GTA 6 PC port CGBJ published a Windows x64 launcher and runtime in a public GitHub repository early on 26 November 2026. The repository and release page returned 404 on a later check. The cause is unknown. As of the GTA VI PC Race tracker’s check at 00:21 UTC on 27 November, GitHub had published no notice naming the repository. The tracker still relayed PortWatch’s reported average of 25 frames per second in gameplay, and PortWatchVI says it found no independent reproduction of that result and that the figure is not tied to the later public release.\nAccording to the project history kept by PortWatchVI , CGBJ published the launcher and runtime at 06:35 UTC in a public GPL-3.0 repository. The release recorded the build and a checksum, and it required separately supplied game files. PortWatchVI says the cause of the 404 is unconfirmed. A pinned note on PortWatch describes the code as having been public and says it was taken down temporarily.\nThe GTA VI PC Race tracker logged the timing more closely. At 07:23 UTC PortWatch named a repository as CGBJ’s public code. That repository answered the tracker at 07:34 UTC. It did not answer at 08:01 or 08:03 UTC, while other repositories did. The tracker said the repository could be missing, private or removed. PortWatch moved CGBJ back to its list of private builds at 15:00 UTC, saying the code was offline.\nXDA Developers reported that it was unclear whether the team made the project private to avoid a potential takedown notice or whether Rockstar’s legal department acted. XDA noted that GitHub DMCA takedown notices usually take at least a few days to become public. XDA also reported that several forks of the project were still active and said the team may have pulled the repository itself. Take-Two Interactive, Rockstar’s parent company, previously used a DMCA takedown to remove the Leonida port as part of a network of 3,007 repositories.\nPortWatchVI says the original PortWatch tracker reported a 25 fps gameplay average on an NVIDIA system with 16 GB of video memory and 8 GB of system RAM. PortWatchVI says the tracker gives no GPU model, test scene or run length. It also says the tracker does not tie that measurement to the later public release.\nNotebookcheck, citing PortWatchVI , reported an average of 25 fps in gameplay and 30 fps in cutscenes. A later Notebookcheck article said those claims had yet to be independently verified. XDA also relayed the reported range of 25 to 30 fps. The Race tracker says press reports from 26 November relay unverified claims of 25 to 30 fps in the first boat mission. None of those reports gives a session length.\nAccording to the Race tracker, CGBJ’s development journal shows medians of 54 to 58 milliseconds a frame, or about 17 to 18 fps. Those runs were in the opening street on an RTX 5090 with 32 GB of memory, around midnight UTC. Those were short harness runs of about two minutes, and the tracker reports no session of play.\nThe Race tracker says CGBJ forked VIctory-7900XTX, a version of VIctory, and added six commits of NVIDIA work. XDA says CGBJ uses a hybrid compatibility layer that combines VIctory’s runtime with shader translation from XCL. VIctory is still public. Its README on 25 November said the port was not playable yet because of the frame rate, at about 1 frame per second in the world. PortWatchVI lists a VIctory main-branch test on an RTX 5090 that reached 1.1 to 1.7 fps in the world and ended in a GPU hang roughly a minute in.\nXDA reports that these ports are based on a leaked copy of the Xbox version of the game. Cyberleek released the Xbox executable on 23 November .\nThe Race tracker says VGTimes reported on 26 November that a packaged build attributed to CGBJ was circulating, a claim nobody has verified. The tracker also warns that downloads offered as GTA VI for PC have carried malware. Separately, NordVPN says a GTA 6 PC port scam kit was offered on the dark web for $200, payable in Bitcoin or Tether according to TechRadar and TechRepublic.\nIn its 26 November report, XDA said Rockstar had yet to announce an official PC version of GTA 6. XDA cited rumors of a PC release six months to a year from the date of that report.",
+   "pub": "2026-11-27T01:05:26+00:00"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1SeWxJUlRLSG53REZqXzB5QzM2Y1ZHLTF3WjVzX2lhUmwzWDlETUVYeUZPXzRCRWNDOWs2NW1iM2pDaUhWNEdNTGpSUFJ1UlZwNGdON3liajlBV3FoMmlOdGt5cnQ?oc=5",
+   "s": "WeRSM",
+   "d": "2026-11-27T01:00:58+00:00",
+   "lang": "en",
+   "t": "GTA 6 Has Turned Gaming Back Into a Creator Power Center",
+   "u": "https://wersm.com/gta-6-creator-economy-livestreaming/",
+   "img": "https://wersm.com/wp-content/uploads/2017/12/EO_WeRSM_FB_Prof_03_crop.jpg",
+   "chapeau": "GTA 6 generated hundreds of millions of viewing hours in its first week, giving creators and livestreaming platforms a major new audience event.",
+   "txt": "GTA 6 has only been out for a week, but it has already done something the livestreaming business has been waiting to see: it made gaming feel like the center of the internet again.\nData from Stream Charts shows GTA 6 generated 214.6 million hours watched in its first two days. That was more than Valorant managed in a full week. Across major platforms, the game reached 420 million hours watched during its first week, with peak viewership hitting 7.91 million. Advertisement\nThe scale matters. GTA 6 is not simply another successful game launch. It is a ready-made audience event for creators who spent years building expertise, formats, and communities around GTA 5.\nTwitch led the first day of livestream viewing, while YouTube accounted for 35.1% and Kick took 22.1%. YouTube still reported more than 3.5 billion global views for videos with GTA 6 in the title on launch day, adding another layer to the split between live viewing and searchable video.\nThe platform response was just as revealing. YouTube organized a 24-hour creator livestream. Twitch promoted surprise game drops. Both platforms added custom GTA 6 badges, animations, and effects. The game became a reason to watch, but also a reason to participate in each platform’s own creator system.\nMore than 1,000 channels reached a new all-time peak while streaming GTA 6. Almost one in five record-breaking channels reportedly drew at least ten times their previous concurrent-viewer peak. That is a meaningful change in opportunity for creators outside the very top tier, even if the audience will not stay evenly distributed for long.\nThe most interesting number may be the least glamorous one. Linqia data cited by Digiday found that 97.8% of creators posting about GTA 6 before launch were doing so organically. Only 2.2% were sponsored, and sponsored posts naming the game performed 3% worse than those creators’ typical sponsored content.\nThat does not mean brands had no role. Platforms were among the most active brands in the conversation, while two-thirds of creators did not mention a brand at all. The lesson is less that marketers should avoid gaming and more that cultural momentum cannot be purchased after the fact and expected to feel native.\nGTA 6 has given creators a huge opening, but it has also created a brutally crowded market. The winners will not simply be the people who play the game first. They will be the creators who already understand how to turn a shared cultural event into a repeatable format across livestreams, video-on-demand, and community conversation.",
+   "pub": "2026-11-27T00:56:31+00:00"
+  },
   {
    "gn": "https://news.google.com/rss/articles/CBMilgFBVV95cUxON1ZnSXMyZEllOWZMTVJuOU05RjQ1WWwzNDR5ZDZhdjNWajBFWWEyeDBxRWxudG91NWlaOVhjYmlnaFJhMkdJcnc1UldYTEl0YmFUUF96TU5HX002ZjNsaGhnMTdpMlZKZUUwaFBaTHBaZXNFdHFMT0dvOGRiUWNNWUZGc3JxSEpPajJ1a2xzdFVjY0xjREE?oc=5",
    "s": "Push Square",
@@ -31,7 +55,7 @@
    "d": "2026-11-27T00:00:50+00:00",
    "lang": "fr",
    "t": "Les passionnés ont lancé GTA 6 avec des fréquences d'images allant jusqu'à 60 FPS et le DLSS 5.",
-   "erreur": "HTTP Error 429: Too Many Requests"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQeEJzVy1lR29zMmNYb3pxT28xWHYzWG5LTm9ySHZuRGZfdXVPR0FrUmxFcVVoODZad2pSdGczc3lyOE55QjBfc3JLMW81Q0VlOEttOHMyT1ZJZHBUcTVmaFczc1FTWG5nQ05TeGRsSlhnVjZhN1dFbnZvclh1aXdmS3hpMFhIc2NIejRQVEE0MS12NmNfNFJKenV4Z0JpNUJPVFpj0gGoAUFVX3lxTFBDQVM2NkRFblJ1TGZqNkE5RTE1eHF3Z3J4cDJzYW51MnVJb0UzNUtsZXJQdTczTUJ5VjZ0WldaRFFaWExLRUgwYkZvUlJ6aUYzckR5ZGNZYWlPUF9ncl9jWkhOUGZseWxXVzRuVzE5aGxlNThWV3gtWjN5dVFueHhMVHFLU1FGb09BTE1PaHlMNXIxVW9tYkFiNlM2WlhqSkRIQTZJeWk5dQ?oc=5",
@@ -63,7 +87,7 @@
    "d": "2026-11-26T23:07:39+00:00",
    "lang": "en",
    "t": "Players have found a simple way to fix a weather bug in GTA 6 on the PlayStation 5 console.",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE81M041empTOW9qdllMY1N1NjBTeXNoSGtkZTlMNldGSHpwTkQzcjE4bWJKSm9JZXlqbzhobHFvR3JvNmZ3N0lSc0NITi1ZSUY5cjNSNnJaeWx0ZmpWZzhpbQ?oc=5",
@@ -94,8 +118,24 @@
    "s": "Decrypt",
    "d": "2026-11-26T22:01:02+00:00",
    "lang": "en",
-   "t": "Vibecoded GTA 6 PC Ports Are Now Rendering In-Game Graphics Despite Take-Two Crackdown",
-   "erreur": "429 : passage suivant"
+   "t": "Vibecoded GTA 6 PC Ports Are Now Rendering In-Game Graphics Despite Take-Two Crackdown - Decrypt",
+   "u": "https://decrypt.co/384061/vibecoded-gta-6-pc-ports-are-now-rendering-in-game-graphics-despite-take-two-crackdown",
+   "img": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/11/grand-theft-auto-6-gta-vi-decrypt-style-gID_7.jpg",
+   "chapeau": "Some unofficial ports now hit around 20 frames per second, as developers move their work into private communities to dodge takedowns.",
+   "txt": "",
+   "pub": "2026-11-26T22:01:02"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQc3ZWWlpiT1RvQ2VDcS1NMVpzTmFxWm1HTG1FRnEzUm5PQURtT1lCM1VSejhOaDlhVW50YUoyNU41NjFWNi0tcUdJeUctYXBtNTN4dTNrVktlOGJITDU1c0VPc3E4cUJkODFvM0puWFlYMFJHTEpqU0NvNW0xb1RORTQ5aVRjeHpqWUVHWW1sWUFuSE5zV3V0bmtWR0JnVFdkYXAtTDlFeHozcGY3?oc=5",
+   "s": "GAMINGbible",
+   "d": "2026-11-26T22:00:00+00:00",
+   "lang": "en",
+   "t": "GTA 6's huge success is bad news for anyone hoping to buy a PS5 this Black Friday",
+   "u": "https://www.gamingbible.com/news/platform/playstation/gta-6-ps5-stock-shortages-black-friday-864023-20261126",
+   "img": "https://resizer.ladbiblegroup.com/ogimage/v3/assets/bltbc1876152fcd9f07/bltf73ddd2047f50b67/6b0833b97a8a3b2b4845f17b/image_(337).png",
+   "chapeau": "Turns out the biggest heist might be the price of a PS5 💀",
+   "txt": "PS5 stock shortages and soaring console prices could leave GTA 6 fans disappointed this Black Friday and Christmas\nThis article contains paid shopping links. LADbible Group receives a small payment if you click on these links or make a purchase through them.\nAfter years of anticipation, GTA 6 is finally here, and to the surprise of absolutely no one, Rockstar Games' latest blockbuster has been a monumental success. However, that success could come at a cost for PlayStation fans hoping to bag a bargain this Black Friday.\nWhether you've been holding off upgrading from a PS4 or you're looking to trade in your launch PS5 for a Slim or PS5 Pro, Black Friday and the build-up to Christmas would seemingly be the perfect time to take the plunge. Unfortunately, the overwhelming popularity of Grand Theft Auto VI may have thrown a spanner in the works.\nFrom stock shortages following its launch in 2020 to rising console prices , getting your hands on a PlayStation 5 hasn't always been easy, and prospective buyers might once again struggle to find a console at its recommended retail price, let alone a discounted one.\nAs reported by Notebookcheck , PS5 stock shortages have hit several regions following the launch of GTA VI , including the US, UK, parts of Europe and Asia.\nIn the US, even Sony's own PlayStation Direct store has struggled to meet demand, as has Amazon. Over in Singapore, retailers have reportedly been inundated with calls from Rockstar Games fans desperate to get their hands on a console.\nIt's a similar story on this side of the pond, with What Hi-Fi? reporting that Currys and John Lewis were out of stock on November 25, with limited availability at Argos and Amazon via console bundles. Meanwhile, some third-party sellers have listed the PS5 Digital Edition and PS5 Pro for as much as £899 and £1,475, respectively.\nWhen I originally reported on GameStop selling pre-owned PS5 Pro consoles in October, the US retailer was charging a whopping $1,400. At the time of writing, that price appears to have increased by another $100.\nWith prices such as these, you'd be forgiven for drawing comparisons with scalpers, who are often criticised for selling sought-after hardware at inflated prices.\nOf course, GTA VI isn't entirely to blame. Hardware supply issues, coupled with the increased demand that traditionally comes with Black Friday and Christmas, certainly haven't helped matters.\nIf you're still looking to get your hands on a console, it might be worth keeping an eye on bundles such as the PS5 Digital Edition with GTA VI at EE .\nHowever, if you're already fortunate enough to own a PS5, there are still some decent bargains to be had in Currys' PlayStation Black Friday sale , including a DualSense wireless controller for just £43 , saving £16.99. We've also rounded up some of the best deals on PlayStation games and accessories.\nAs we reported earlier this week , GTA VI reportedly sold 32.5 million copies across PS5 and Xbox Series X/S before it was even released, with estimated revenue reaching an eye-watering $3.79 billion by the end of launch day.\nSony has since confirmed that Grand Theft Auto VI is the biggest video game launch in PlayStation history, and when you take into account some of the fantastic games released across five generations of PlayStation consoles, that's some achievement.\nAccording to data shared on the PlayStation Blog , between 19 and 22 November 2026:\nSony also recorded its biggest single-day surge in newly connected PS5 consoles since 2020, outside of the end-of-year holiday periods.\nIf ever there was an example of a video game being a console seller, this is surely it.\nThankfully, if you're desperate to explore the streets of Vice City but are struggling to get your hands on a PS5, there are potentially cheaper alternatives.\nAs we reported earlier this week , you can now play GTA VI on the PlayStation Portal without even owning a PS5. All you'll need is Sony's handheld, a PlayStation Plus Premium subscription, an eligible digital copy of the game and a reliable internet connection, provided cloud streaming is supported in your region.\nAlternatively, if you're not too fussed about which platform you play GTA VI on, the Xbox Series S could be a more affordable option. What's more, even Xbox One owners can enjoy Rockstar Games' latest blockbuster via Xbox Cloud Gaming with an eligible Game Pass subscription and a digital copy of the game.\nHopefully, PS5 stock levels will improve ahead of Christmas. Howev",
+   "pub": ""
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTU53RFpZTG1CUnQzQWlDeFppQ0xYWGNLSXF5V1loNEkxS3lwcFdLWjR5MFA2bi14WlFDVk5ZeTd5emZyTTdMYm5JZGZJS1JVLUE3M2VRV3RxNEhaM3ZRMzBKcmNTY29HRHc3Q2hDYjBrU0FJMmpRUHRYZGFvQzcya0pwZWN3d3RYV0ZXVUdB?oc=5",
@@ -139,7 +179,7 @@
    "d": "2026-11-26T21:20:08+00:00",
    "lang": "fr",
    "t": "GTA 6 : les options graphiques cachées par Rockstar sur PS5, PS5 Pro, Xbox Series X et S. Toutes les consoles ne sont pas logées à la même enseigne.",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE80OUxsa043cld0TzdUTUpfZ2gySXIyeW8zVG9OOG5JaDlyckU4SG9fNnh0aHB0eGQtdGhLVTFrZFhmX1ZCZ2wxZ0gyZGpTdzBLdlNkUC1ZZW1xY0E?oc=5",
@@ -147,23 +187,31 @@
    "d": "2026-11-26T21:06:01+00:00",
    "lang": "fr",
    "t": "GTA 6 : les meilleurs Easter eggs de Leonida, et où les trouver",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1sdXhMdnR0UEgtVXVUMUpQb3hZMmhhNkVEZFFJVTA3dHNoLVJtZmYyLWd1dmUwUjNqUUs2cmFPUDZmdDhQeFNfYmVJMWRxVEZob2pGcHJab25fMEZoRGZYbjRybHM2RnpMal9DQVNLT1Y3dmZGdHJZb3FycTk?oc=5",
-   "s": "Mashable",
-   "d": "2026-11-26T20:58:44+00:00",
+   "gn": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVFBWcjFYb1NJRWwyUVdlbXlkNjZFNXlNamUxVXBGczRvRjljc3RjOEJLRlhhMFNyekJkeExwZTBkX0k4My1WVERfY0Z5cVpicGExZ0s3QkRZLUw4Wk1sdlNvTnB6Z2tEalN5YURmMnNWNGxPNEVLZHNGblM1RXdONEVqUFNnUEVkSmgzeThPTGp3VVF1bUtPOUNUdzVnVUE?oc=5",
+   "s": "IGN",
+   "d": "2026-11-26T21:02:42+00:00",
    "lang": "en",
-   "t": "'GTA 6': How to get more than $15,000 early on with almost no effort",
-   "erreur": "429 : passage suivant"
+   "t": "'I've Dedicated Almost a Decade Bringing Lucia to Life' — GTA 6 Actress Manni L. Perez Breaks Silence in First Statement Since Launch",
+   "u": "https://www.ign.com/articles/lucia-actress-manni-l-perez-issues-first-statement-since-gta-6-launch",
+   "img": "https://assets-prd.ignimgs.com/2026/11/26/gtavi-38-1795726955205.jpg?width=1280&format=jpg&auto=webp&quality=80",
+   "chapeau": "Manni L. Perez, the actress who plays Lucia in GTA 6, has issued her first statement since the game came out.",
+   "txt": "Manni L. Perez, the actress who plays Lucia in GTA 6 , has issued her first statement since the game came out.\nPerez’s role as Lucia Caminos was confirmed when she was nominated in the Best Performance category for this year’s The Game Awards , a day before GTA 6 launched on November 19. She’s now considered the favorite following the game’s critically acclaimed, record-breaking launch.\nNow, a week later, Perez took to social media to thank fans for the reception to GTA 6.\n“Life has been such a whirlwind these past couple of days and I just want to take a moment to say thank you,” an Instagram Stories post began.\n“Thank you to all the new followers, to all the beautiful messages, and the positive reception the game and my character have received.\n“I've dedicated almost a decade bringing Lucia to life. She's been such a significant part of mine and I am beyond grateful she now gets to be a small part of yours.”\nPerez is an actress with a smattering of credits to her acting resume, including TV guest roles in Jessica Jones, Chicago P.D., and Law & Order: Special Victims Unit. While she hasn't been up to much else over the past few years, it's easy to know why — GTA 6 sounds like it was a pretty involved project. Indeed, Lucia isn’t Perez's first GTA role. In GTA 5, she plays the background character of \"Clubber #2,\" while in GTA Online she voices a blackjack dealer.\nMeanwhile, Jason actor Dylan Rourke also posted a message of gratitude on Instagram Stories, saying: “Thankful for this wild ride. Gratitude won’t cut it. Make today about the ones you love.”\nManni L. Perez shouldn't be confused with Manny Perez, who plays Raul Bautista in GTA 6. This week, Manny Perez bought a PS5 just so he could play the game, saying in a video posted to social media: “Guy, I’m playing and this s**t is crazy! Look how real that looks. I’m learning, I’m loving this, it’s crazy.”\nOther GTA 6 actors who've started to talk about their work on the game include Lexie Shoaibi, who recently spoke out about her \"bittersweet\" newfound fame after her character, Mandy, went viral online, and Cocoteo FM radio host Issa Lopez, who described the wild non-disclosure agreement she had to sign before working on the game .\nLast month, the actors behind GTA 5's Franklin, Michael, and Trevor shared their advice for GTA 6's cast in a bid to ready them for the kind of fame few video game actors achieve.\nJust getting started in GTA 6 or wondering what to do next? Check out the Official Grand Theft Auto 6 guide right here on IGN. If you're still getting your bearings, discover GTA's new systems with the Beginner's Guide - 67 Tips and Tricks , or get all the details on the first chapters with the Chapter 1 Guide and Tips , Chapter 2 Guide and Tips , and Chapter 3 Guide and Tips . If you're already driving all around Leonida and want to know everything there is to find and do, see the Leonida interactive map .\nWesley is IGN's Managing Editor. Find him on Twitter at @wyp100. You can reach Wesley at wesley_yinpoole@ign.com or confidentially at wyp100@proton.me.",
+   "pub": "2026-11-26T21:02:21.989Z"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPYmVOUDVscXBCUVFMenc2M3lNajJHNFhhbUI3Y3dxM0VDc1RRbTB3X0ZRVTRxWW4yYmtmX3czWnE0SjJfQk1PcGhpcGQxUHdLUnNTa2Nzc0YyOXBpMW8wRVJIUWhwdkpKSHpnU3FISk44b2I5VTVIa1Eta3F1ZjZsOWRQMzNFdmlnZXZvay1SWHU0TWtSbGhNSkxmMVpMQlpBRzJDS3hTSC1GUG9mRnc?oc=5",
-   "s": "VICE",
-   "d": "2026-11-26T20:50:13+00:00",
+   "gn": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA1NXNCcXl0ZW5JNlZ1R3ZOeEJhUEVKZ3l3TjZmeVZ2WkpDaGJLejREeXZKS1g2NlppZ0N2NndYbVBTdHBqRXpiNUd0RnVNTGkwQ3c0VE9KOS1KaHlCdkVmMWJ3?oc=5",
+   "s": "Polygon.com",
+   "d": "2026-11-26T21:00:18+00:00",
    "lang": "en",
-   "t": "GTA 6 Has a Lot Going On. Here Are Some Tips for Your First Time in Vice City.",
-   "erreur": "429 : passage suivant"
+   "t": "GTA: Boston Would Go Wicked Hard, Kid",
+   "u": "https://www.polygon.com/gta-6-boston-massachussetts/",
+   "img": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/image-10.png?w=1200&h=675&fit=crop",
+   "chapeau": "Take me to Faneuil Hall",
+   "txt": "Considering that Grand Theft Auto 6 just launched after a 13-year wait, it’s safe to say that we won’t be getting another one any time soon. That’s fine, because Leonida is so enormous that I know I’ll still be finding secrets in it years from now. And yet, I can’t help myself. I’m already wondering where the series could possibly go next. Allow me to offer one unsolicited idea: Massachusetts.\nThat’s right suckers, Miami and Los Angeles’ time is over. It’s time to let me drive a sports car down the Freedom Trail as I barrel through Boston blasting Dropkick Murphys. You can chalk this up to a little Thanksgiving homesickness, as I wasn’t able to travel to my home state for the holiday, but I am convinced I am on to something here.\nThe thing that really makes GTA 6 so special is Leonida. Rockstar’s digital recreation of Florida is a perfect playground for GTA’s sandbox chaos, and it takes advantage of the state’s geographical diversity to do that. You’ve got a bustling Miami to build on for Vice City, but you also have a mix of run-down towns, rural farmlands, beaches, and quiet islands. That wide array of locations makes for a more varied GTA experience, as you bounce between areas with very different speeds.\nYou know what other state has that feel? Massachusetts, baby! You’ve got Boston at the heart of it all, a historic city that’s unlike any Rockstar has ever recreated. Just outside the city limits, you’ve got a host of quaint suburban towns filled with shopping malls and banks. Go west, and you’ll end up in the deep wilderness, just as you find yourself in when you go north in Leonida. On the east side, you’ve got Cape Cod, a vacation getaway built on a fishing economy. And just off the coast, you’ve got scenic islands like Martha’s Vineyard and Nantucket. Boil all of that down into a tight GTA map, and you’ve got all the same basic ingredients that make Leonida fun to explore, but in a state that looks and feels very different.\nGrand Theft Auto 6 Image: Rockstar Games Rockstar is no stranger to the region, either. 2006’s Bully was set in a fictional town in New England. Even though that was 20 years ago, Rockstar nailed the feeling of suburban ennui that exists throughout the state. It’s easy to see how the team could recapture that spirit by including its own take on Harvard in a GTA game. Hell, why not just make the town of Bullworth canon to GTA?\nThere’s more to Leonida than its landmarks, of course. Florida also makes for a great GTA setting because it’s full of the kind of strange Americans Rockstar loves to lampoon. GTA 6 gets to play around with conspiracy theorists, right-wing gun nuts, rich playboys, and more in its wide cultural satire.\nWell guess what? Massachusetts is full of ripe comedic targets too! Within Boston alone, you’ve got your pick of loudmouthed bros who always seem eager to get into a bar fight. That’s contrasted with wealthy retirees living in beach bubbles, hustling Italian-Americans in Boston’s North End, artsy communities in towns like Northampton, and so much more. There’s so much to satirize beyond your typical Masshole, even though Rockstar could have a field day poking fun at the accent.\nA weekly cheat sheet to what you’ll eventually love to play. No buying, no commitment — just saving for later.\nMore than anything, I’m dying to see Boston’s obsessive sports culture make its way into GTA. You get some nods to the real sports world of Miami in GTA 6 , but it would most assuredly be the central focus of a Boston-set game full of loudmouthed Red Sox and Patriots fans. Let me go to Gillette Stadium and plow through Patriot Place in a bulldozer, cowards! And considering how much Rockstar enjoys lampooning current cultural trends, there’s even fertile ground to dig into the rise of sports betting and treat it as a criminal enterprise. I mean, Rockstar must be licking its lips at the prospect of making a fake Kalshi, right?\nMy wishlist of things I’d love to see in Grand Theft Massachusetts is long: Faneuil Hall! Boston Dynamics! Logan Airport! I’m sure that people from just about any other state in America feel the same way about their home. So much of the fun of GTA 6 is getting such a wide view of Florida that really emphasizes how diverse a single state can be. It’s easy to flatten them out, judging them by their cultural urban epicenters or voting demographics, but a good road trip will show you just how vibrant even the smallest pockets of the country can be. Every state deserves to",
+   "pub": "2026-11-26T21:00:18Z"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOX1JBZlpBWTZQWWFIYXgyRTgwRlFJYmNGZzhadEdJYmZ0ZDRxbWg4Nmlwa25wZ0R6YXQ1Y1I5cy1VakVRSlpuMW1DbnljM1I2LTl3STkwTHhTRlJIMU5TTngtclg4Zm85aWFhRHpvbGxKdlVGbnRGMmxyVTEtc0dGNFB4Wi1OdW8tUjhzeWYxTmZHeGQ3ckNySlhlOXJIVkU4dUdaTUNJVTJHRnFNN09EWU5lN045emxUYmNIUjgxQ0k5UWM4TFk0QU9NRXZrZw?oc=5",
@@ -171,7 +219,7 @@
    "d": "2026-11-26T20:47:00+00:00",
    "lang": "fr",
    "t": "GTA VI propulse en tête des écoutes la musique du duo électro français Justice",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNVF9iX2NvcHRQa3FkYUE3X0d3blU0VkhlWWxTTjlwUTdxNGxCUk1ENE9valVBczJycTdTTnh3U3ZYOUFrMUM4ZS1LazRMZUhWdDFOazlzYzlLVDlXOVVLSHJteFdOTUFMWVBMSERiQ0dNRXpHR2VrbVVPZHFOQjdoLVBpS2E5UktRNVRBdkN3VTZsTF9UZmFBeVVBbzlFWWJORGhlR0RIYjlhbWt1REY4OHJwSlV2WHpwdUhTaDZyM2tlZmRBSV9CYklTZUNPbnN3bW4teXYzRG1ubTB1YVhfYnowblF4QUlpY29v?oc=5",
@@ -198,30 +246,6 @@
    "pub": "2026-11-26T23:34:19+03:00"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9MSENnem9iM3RCUE9hY2dXenBRMGhyeFFpNHR1T0FOcFVZd1JVOGttWURZNVZZczUwQUMwM1hOWUVTd2RDVlpHY2ZNdHpvMl85?oc=5",
-   "s": "mobidevices.com",
-   "d": "2026-11-26T20:34:12+00:00",
-   "lang": "en",
-   "t": "GTA 6 runs on PC at up to 44 FPS",
-   "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQR0JNN0VNOGNGUHU3X1ZzYmVyaW1pM2FhbWxGYkZZdkZlc3JsWmxwdXlNYUhnczl6SjlnMUdJdjI5ZUV5V3o5andUX0o1Vk11MDRQbTl2eXhvM2g5UWJIWFBveFFra00yVWcxSFNpMFFwcmRSSVpFYUhfMUYyWVg2UlowWFVENUtDcFRHaFhja2xET1lUVWpIY2dKVE0xTE85dXFn?oc=5",
-   "s": "Radio Times",
-   "d": "2026-11-26T20:32:01+00:00",
-   "lang": "en",
-   "t": "GTA 6 Fast and Furious car: How to get Paul Walker's Maibatsu Penumbra explained",
-   "erreur": "429 : passage suivant"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOaDNiX0JibWlwc081cG10VWd5Y3BkNGljTFhYcXA0ZloxZkg3VF9hWGpkcnotLWtMa3BtQTJQZWE0Q3YyOFU0WDk4YTFMODFpdTQwOFVWRVlVVUhZR21aMHZnUl9Vb3ZOS3RvZ1ZiaEx0VHdvazY0YmxqczVZWjB3UU1URi1Hc1NodGFBVGFLc1RjQUdBeGU3LdIBngFBVV95cUxQckFlYzIxQUoyRDg3VEIxZ0JPUVVtZTdVMjRLSXFqSVdEM2QyQ1hnWFZKYl9VY0dndGJyYlA2MmdwbEFUbng1VXcxSkxyNDlfYml1RUpnUnJXTy16VzFSTDFrYnR0Y212d0Q1Zmc2UkpTNklSM0hyenZUWjZrTXI5NWVmUzA1NUpUcVhLb3JKY2RtdFE5Q3F4aEE3RGFOdw?oc=5",
-   "s": "TechPowerUp",
-   "d": "2026-11-26T20:29:06+00:00",
-   "lang": "en",
-   "t": "GTA 6 Frame Rate Unlock Arrives on Jailbroken PS5 Consoles",
-   "erreur": "429 : passage suivant"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdnhCVEhJVTlHRFZ2U2J3cXlkdzNUMTBkTjdBS2h4UzBpYmdWc1l5Z3dMRjB4a3RiSHJuV1NCQWYwbm9wbVJHQjRqNmxPVHBrX1V3QWtkTFNzVGJQWmpCZ2h4X3l6TWEzVm9oOUphQ3JTRWRNQ0FybVZyeG9YaTZkYXdQb0Ftc21GamJJbVJZUmhrcGIyM2c1R0xWN05ycGpPb2h2Z2hGV2t3UnhvTzVwSE5xNy1hTk0xWUEyeDNOSmYwNnE4a0xxcDR4dw?oc=5",
    "s": "Frandroid",
    "d": "2026-11-26T20:07:19+00:00",
@@ -238,8 +262,12 @@
    "s": "Facebook",
    "d": "2026-11-26T19:30:18+00:00",
    "lang": "fr",
-   "t": "France Inter. . \"Grand Theft Auto VI: Original Score\", la bande originale de GTA VI par Justice, sera disponible le 11 décembre, et prend dès maintenant une place toute particulière dans la discographie de Justice. ➡️ Retrouvez À la régulière en direct et en po",
-   "erreur": "429 : passage suivant"
+   "t": "11 K vues · 54 réactions | \"Grand Theft Auto VI: Original Score\", la bande originale de GTA VI par Justice, sera disponible le 11 décembre, et prend dès maintenant une place toute particulière dans la discographie de Justice.\n➡️ Retrouvez À la régulière en direct et en podcast sur l’application Radio France | France Inter",
+   "u": "https://www.facebook.com/franceinter/videos/gta-vi-original-score-un-nouvel-album-pour-justice/29177111171951966/",
+   "img": "https://scontent-cdg4-1.xx.fbcdn.net/v/t15.5256-10/904476413_29177111371951946_4253395088371163255_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=596eb7&_nc_ohc=SOMS_WJa7gwQ7kNvwGEVTHB&_nc_oc=AdrQjdUijNG1BsqladWZUKSh0SRh-0V56M8uG3bR1axLSAKSeE-kI91cN5wwAgljm0V4ZtXmbtPpvLLlTXo6BtvP&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=OnVnPMhA43tmS2oQiClcdQ&_nc_ss=7030f&oh=00_AQWVe2OJd01II3-VuXpjbmnKRxUldgeZ9OOcgDDEnitvNg&oe=6B0EBB9D",
+   "chapeau": "\"Grand Theft Auto VI: Original Score\", la bande originale de GTA VI par Justice, sera disponible le 11 décembre, et prend dès maintenant une place toute particulière dans la discographie de Justice....",
+   "txt": "",
+   "pub": ""
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMHpHQ2F2b0hudXdLYXk0VzZnOHFpc2N4U3V6QnJ2LUFrdlpINzNlQmxNQ0x4VDl2ZXhVRkVxblV2OHk4Um1hcnhUYmVoVW9rOFg1YUhxS3ZlM0RIV21TSHZzUjVISE1vVkd3cXd1a1U0eTE0YW1rNk1hOXZNdEkxbnhXTk5BTFJqa19xTUYyOUVZZGt3UExFYzZqeW9PT2VuYWU0YWh0cw?oc=5",
@@ -247,7 +275,7 @@
    "d": "2026-11-26T19:24:05+00:00",
    "lang": "fr",
    "t": "GTA 6: comment trouver la Mitsubishi de Paul Walker dans Fast & Furious",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcm9uQU9LN25ReURtcG5lOTRGMnlwU0tjWWtBRGhHUF9Mc0h4Zi0xQ0VqR3hBM2JiQXRJNjkxYkpDaThMWWxfOWJFZGtyaFdOR196WFI3Q05Wa0pQQnlZdzdvZjFrc2tfY2VWcnpJczFjekN4ZjVXby1xTFdSTXJONFFkaXAtLTFzY1VsY3FMQXZIRUV1REc2QXVnd0VicWpzV2p3cg?oc=5",
@@ -267,7 +295,7 @@
    "d": "2026-11-26T18:46:13+00:00",
    "lang": "fr",
    "t": "« Cyberpunk 2 est annulé » : face à GTA 6, les autres studios craignent de ne pas pouvoir faire aussi bien",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPdlpKQndra21SWkdOVXZoUnl6cDdIMkxDdnRFQVowZmNZUW5mRHplb0FVY0h6MUcwRnlJeTc0ZFlJcXNYckdYaFdTOUdRblNRTFNzaEJlRDBHem9yak5ESWR3QkZNZVhPdHJiOXY0SWdXTzJEaDJUdDR5bm91Tzc3T3pVbk1YTHRKbEh3em1EMGpka1JPY1RpSWJaY1NsemlxcUZMb2NINlZCc19OcVV4SjNRak9RQTg0S044X2lVTVBVaGxXV1JleUpsYWozODJ2elFGMVM0VklGYTRuTUs4bFYxMTdBWGJCYzRaRjNFdkhlSGc2T19zNHQxX0tYVU05T04ycWo2ZXNGaTZOQ1RBd1FNZw?oc=5",
@@ -296,10 +324,10 @@
   {
    "gn": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOR0tTaEJGM0xxNVM5SkdhdklncjM3eU9najV4QnZtSHF6Zk1UYlM1Q29Hb005algxbDFOOFZZNnFhUkktVERxVjBsc1FZZlRpckpzWG5wTWwtYWpGdWtUdmU1NndCeTJ0RTZHU3JBX1ZqZXlJLUhFd0NfU3BTa1Rjd3FHNEhzSHB2Ty0tRGk0WU8zVG1pZkV2TUZtVUxxMHpyQUdHdWdmM2xRUUs3QmUxVkl6NGludWJNNmVDV3MtOTVsQTFsT19NREhxM2l1ZC1hRkNueDRaSldEbnpsaTlLUQ?oc=5",
    "s": "JeuxVideo.com",
-   "d": "2026-11-26T18:17:57+00:00",
+   "d": "2026-11-26T18:18:15+00:00",
    "lang": "fr",
    "t": "Jason et Lucia en surpoids dans GTA 6 : des joueurs essaient de les faire grossir au maximum",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNTGw0dHRFWTJZY2hhMVR4MksyTU9rbGtXN2stMW9VdlNFTm1FOG04ZXEyMjF5QmJ6SkxVbFE2bGV6eUVqd28taHJKbXF5RjlaNTk2NU11S1haUVFJRzFYR3lqVkM2UEpKU2tueTVzaGtHbkc1NDFwRlNIVDdIdldfQ09WNE9WQlFJLTN3MDVDMy1WU0dpZHpXRDI5Ty1abEhBZHlhSmdfRU5aY1ZZek5wMlhrMXhiZXEydFprQUNqX3dHQzdUMUpXVTFfNDhsY3lwVExzZFpYSDJ5U2xxZW5kT2lGSk12UWhzV2NRMQ?oc=5",
@@ -385,7 +413,11 @@
    "d": "2026-11-26T11:23:00+00:00",
    "lang": "en",
    "t": "CyberLeek Price (CYBERLEEK/USD) Today | Live Price, Market Cap & Chart",
-   "erreur": "429 : passage suivant",
+   "u": "https://www.binance.com/en/price/cyberleek",
+   "img": "",
+   "chapeau": "",
+   "txt": "",
+   "pub": "",
    "cyberleek": true
   },
   {
@@ -438,6 +470,19 @@
    "chapeau": "Les réglages graphiques de GTA 6 sur PS5, PS5 Pro et Xbox Series ont fuité ce mercredi 25 novembre, extraits des fichiers du jeu par un dataminer. Seule la",
    "txt": "Sur console, GTA 6 n’affiche aucun menu graphique : le jeu de Rockstar, sorti le 19 novembre sur PS5 et Xbox Series, tourne à 30 images par seconde partout, sans dire ce que chaque machine sacrifie.\nUn dataminer surnommé Tex2, qui fouille les fichiers du jeu, a trouvé la liste de ces réglages console par console. Son message sur le forum GTAForums a été supprimé depuis, mais le site MP1st l’a recopié ce mercredi 25 novembre .\nLa TV Micro RGB 65 » R95H à 1 999€ Black Friday : la TV Samsung Micro RGB 65″ R95H perd 1 000 € et s’affiche à 1 999 € au lieu de 2 999 €, du 21 au 30 novembre. Grâce à sa technologie Micro RGB, il délivre « un niveau de précision et de richesse colorimétrique inédit ».\nPremier enseignement : la PS5 et la Xbox Series X utilisent exactement les mêmes réglages. Si la Xbox Series X tient mieux ses 30 images par seconde que la PS5 , la différence vient donc du matériel.\nLa PS5 Pro est la seule console à calculer les ombres en ray tracing, une technique qui simule le trajet de la lumière pour des ombres plus réalistes. Elle passe aussi l’éclairage global, c’est-à-dire la façon dont la lumière rebondit sur les surfaces, en « High » au lieu de « Medium ».\nPourtant, elle reste bloquée à 30 images par seconde, et aucun mode sans ray tracing ne permet d’échanger ces effets contre de la fluidité. Rockstar l’a justifié par le processeur de la PS5 Pro, trop juste pour faire tourner la simulation du jeu plus vite. Et comme la PS5 et la Series X mélangent déjà réglages moyens et élevés, un mode 60 images par seconde obligerait à les baisser encore , avec une image nettement moins belle.\nLa Xbox Series S, la moins puissante des quatre consoles, coupe plus large : textures, cheveux et eau perdent un cran. Surtout, la densité de piétons et de voitures passe de « High » à « Medium », comme la physique et le comportement des personnages.\nRockstar n’a toujours pas daté la version PC de GTA 6. En attendant, ces réglages donnent un repère pour estimer la configuration PC nécessaire pour faire tourner GTA 6 à 30 ou 60 images par seconde .\nUtilisez-vous Google News (Actualités en France) ? Vous pouvez suivre vos médias favoris. Suivez Frandroid sur Google .\nPour nous soutenir gratuitement, dites simplement à Google d’ ajouter Frandroid à vos sources préférées en cliquant ici .\nMicrosoft Xbox Series S Fiche technique 7/10 Lire le test Neuf 9 Reconditionné 1 Materiel.net 499 , 95 € 499,95 € 499 , 95 € 499,95 € Voir l'offre Voir Amazon 499 , 99 € 499,99 € 499 , 99 € 499,99 € Voir l'offre Voir Cdiscount 499 , 99 € 499,99 € 499 , 99 € 499,99 € Voir l'offre Voir Voir plus d’offres à partir de 288 , 99 € 288,99 € Les meilleures consoles Toutes les consoles Microsoft Signaler une erreur dans le texte Sources : MP1st , Notebookcheck Partager\nHugo Clery Journaliste et Chef de rubrique PC, Hardware & Gaming\nPassionné de tech, d'optimisation Windows, de jeux narratifs indéprimant, ainsi que de fast FPS, j'ai rejoint Frandroid en 2023 pour communiquer mes passions à l'écrit dans les univers PC, hardware et gaming. Je parle aussi bien actualités GPU, CPU, PC portables que des frasques de Windows 11 ou du DLSS.\nC'est enregistré ! Surveillez votre boîte aux lettres, vous allez entendre parler de nous !\nLes données transmises par le biais de ce formulaire sont destinées à Humanoid, société éditrice du site Frandroid en sa qualité de responsable de traitement. Elles ne seront en aucun cas cédées à des tiers. Ces données sont traitées sous réserve d'obtention de votre consentement pour vous envoyer par e-mail des actualités et informations relatives aux contenus éditoriaux publiés sur Frandroid. Vous pouvez vous opposer à tout moment à ces e-mails en cliquant sur les liens de désinscriptions présents dans chacun d'eux. Pour plus d'informations, vous pouvez consulter l'intégralité de notre politique de traitement de vos données personnelles . Vous disposez d'un droit d'accès, de rectification, d'effacement, de limitation, de portabilité et d'opposition pour motif légitime aux données personnelles vous concernant. Pour exercer l'un de ces droits, merci d'effectuer votre demande via notre formulaire de demandes d'exercices de droits dédié .\nCe contenu est bloqué car vous n'avez pas accepté les cookies et autres traceurs. Ce contenu est fourni par Disqus. Pour pouvoir le visualiser, vous devez accepter l'usage étant opéré par Disqus avec vos données qui pourront être utilisées pour les finalités suivantes : vous permettre de visualiser et de ",
    "pub": "2026-11-26T08:57:36+00:00",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAxSGlzQTEtMGJXVWdxSVVnLWRXY1BkMGZDQlhIQ3M2cDJNMHRPN1ZsdllxV01jWUI4Qk4wTjIwTGN5V09OTFprTWxZTTF6dFBHUl83UDBvMW1VVmdZajh0TA?oc=5",
+   "s": "Menow",
+   "d": "2026-11-26T07:40:00+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : une fuite révèle ce que la PS5 Pro pousserait plus loin que les autres consoles",
+   "u": "https://www.menow.fr/gta6-reglages-consoles-rumeur/",
+   "img": "https://www.menow.fr/wp-content/uploads/2026/11/gta6-reglages-consoles-rumeur-1.webp",
+   "chapeau": "Une liste attribuée à Tex2 compare GTA 6 sur consoles. Ombres, textures, population : les différences rapportées et les améliorations déjà confirmées.",
+   "txt": "Visuel d’illustration repris de Sumahodigest ; représentation conceptuelle, apparence non officielle.\nLa PS5 Pro ne pousserait pas tous les réglages de GTA 6 au maximum. Une liste attribuée au dataminer du compte @TexFunz2, suggère plutôt une base proche de celle de la PS5 et de la Xbox Series X, renforcée sur l’éclairage et les ombres en ray tracing. La Xbox Series S utiliserait de son côté des paramètres plus modestes sur plusieurs aspects du monde. Ce relevé non officiel donne une lecture intéressante des compromis entre consoles.\nLe document a été détaillé le 25 novembre par MP1st , qui renvoie vers une publication du compte @TexFunz2 . Les valeurs sont présentées comme issues des données du jeu : il ne s’agit ni d’un menu de réglages destiné aux joueurs, ni d’un comparatif de performances réalisé par Menow. Leur portée doit donc rester celle d’une fuite technique.\nLa fuite place l’illumination globale sur un niveau élevé pour la PS5 Pro, contre moyen pour les autres consoles. Elle décrit aussi des ombres directionnelles et locales en ray tracing activées sur la Pro. Cette dernière se distinguerait ainsi par la manière de calculer la lumière et les ombres, plutôt que par une hausse uniforme de chaque curseur.\nLe point général rejoint une amélioration déjà officielle. Dans sa présentation des fonctionnalités de GTA VI sur PlayStation , Sony indiquait que la PS5 Pro apporte des ombres en ray tracing et une meilleure netteté grâce au PSSR, la reconstruction d’image propre à la console. L’annonce commerciale confirme ces fonctions, sans authentifier pour autant chaque valeur du tableau qui circule.\nCes deux techniques ne font pas le même travail. Les ombres en ray tracing touchent au calcul de l’éclairage ; le PSSR sert à reconstruire une image plus détaillée à partir du rendu. Leur combinaison peut améliorer la présentation visuelle, mais ne se résume pas à une simple augmentation de la résolution. Les différences peuvent aussi varier suivant les lieux et les conditions d’éclairage d’une scène.\nCes niveaux traduits servent à comprendre la liste divulguée. Ils ne constituent pas des intitulés français vérifiés dans un menu de GTA 6.\nLa reprise de Sumahodigest souligne la proximité entre PS5 et Xbox Series X : textures, cheveux, simulation de l’eau ou densité du trafic sont notamment présentés comme communs. Cela suggère une même orientation de qualité pour ces éléments, plutôt que deux versions radicalement différentes du monde.\nIl faut toutefois distinguer un niveau de paramètre et son résultat complet à l’écran. Une étiquette « élevée » ne renseigne pas à elle seule sur la résolution interne, la reconstruction de l’image, la stabilité temporelle ou les baisses de fluidité pendant une scène chargée. Le tableau ne suffit donc pas à départager définitivement deux consoles.\nPour le joueur, la comparaison utile se situe dans une situation équivalente : même lieu, même éclairage, mouvements proches et séquence suffisamment longue pour observer les variations. Un arrêt sur image révèle certains détails ; un déplacement peut en montrer d’autres, notamment la stabilité des contours ou l’apparition des éléments lointains. Cette méthode permet de relier les réglages supposés à des différences réellement visibles.\nLes informations relayées mentionnent, sur Series S, une baisse de qualité pour plusieurs catégories : végétation, particules, cheveux, simulation ou densité du monde. La réduction supposée ne concernerait donc pas uniquement la finesse d’une surface regardée de près. Elle pourrait aussi se manifester dans la richesse d’une scène ou dans le nombre d’éléments simultanément présents.\nCela ne permet pas de déduire que des missions ou des quartiers disparaissent. Les paramètres d’affichage et de simulation décrits ne constituent pas une liste de contenus. Le degré exact de différence doit être apprécié dans le jeu ; il serait trompeur de présenter un niveau interne comme une mesure directe de l’expérience entière.\nLa question d’un mode plus fluide revient naturellement dès qu’une version réserve une partie de sa puissance aux effets visuels. La liste divulguée n’établit pourtant ni l’existence d’un mode sans ray tracing accessible aux joueurs, ni le nombre d’images par seconde qu’il atteindrait. Une hypothèse d’allègement graphique reste différente d’une fonctionnalité programmée et testée.\nDans sa présentation technique de la PS5 Pro , Sony décrit un GPU renforcé, davantage de ressources pour le ray tracing et le PSSR. ",
+   "pub": "2026-11-26T07:40:00+00:00",
    "cyberleek": true
   },
   {
@@ -623,19 +668,6 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQM0JIZjZ1Yk4tazRtZThXRUNjSDBoUFBIdGViOHM0eGRTZEhyZ1JCWEs2YWhfc2NqY2o2eE83RVFTb2haUFRNMTVhQ2R5Snk0enZLRDdvTFdxRTBRNXZiSlRPOFpxSDVQWWJWX0kzRHZTMV84dGFnelRVdDRteGNLd2FfRnkzZDlhZEVUNEpKdEVwbDZSVFpKZnZCUUp0X1ZXUWs2QXMtTmlGRExKNHRqWHE2R0dVRG1PeWtyRjJRaTRqSXdnMkVhM1ZCN3d1NE4zeWc?oc=5",
-   "s": "TweakTown",
-   "d": "2026-11-25T15:23:01+00:00",
-   "lang": "en",
-   "t": "GTA 6 hacker sentenced to seven years, walks free the same day after Rockstar Games leak",
-   "u": "https://www.tweaktown.com/news/114888/gta-6-hacker-sentenced-to-seven-years-walks-free-the-same-day-after-rockstar-games-leak/index.html",
-   "img": "https://static.tweaktown.com/news/1/1/114888_2_gta-6-hacker-sentenced-to-seven-years-walks-free-the-same-day-after-rockstar-games-leak_full.png?v=1795618845",
-   "chapeau": "GTA 6 hacker Arion Kurtaj was sentenced to seven years for the Rockstar Games hack and released on license the same day, with Telegram and Discord banned.",
-   "txt": "Arion Kurtaj, the Lapsus$ hacker behind the 2022 GTA 6 leak, received a seven-year sentence but was released on license the same day because time in secure hospital and custody counted toward the sentence. He pleaded guilty to six charges.\nAs an Amazon Associate, we earn from qualifying purchases. TweakTown may also earn commissions from other affiliate partners at no extra cost to you.\nArion Kurtaj, the Lapsus$ hacker behind the 2022 Grand Theft Auto 6 leak, has been sentenced to seven years in prison at Woolwich Crown Court in London, and he walked out of court a free man on the same day, just four days after GTA 6 launched on consoles.\nKurtaj was released on license , the UK's version of parole, as the time he had already spent in a secure hospital and in prison awaiting trial counted toward the sentence. The judge called Kurtaj \"a very talented young man\" before warning him, \"Don't let this happen again,\" and Kurtaj is now under a five-year Serious Crime Prevention Order that restricts his online activity, including bans on using messaging/communications platforms Telegram and Discord.\nKurtaj pleaded guilty to all six charges against him on November 16, 2026. According to the Crown Prosecution Service, those charges cover hacks on BT/EE, Revolut, Uber, and Rockstar Games, where Kurtaj took 90 GTA 6 gameplay videos, released them under the alias \"TeaPotUberHacker,\" and then threatened to release the game's source code. The CPS says the Uber attack alone caused costs exceeding $2.8 million, while Rockstar previously told the court the GTA 6 hack cost it $5 million.\n3 Grand Theft Auto 6 artwork frames two characters through a car window; the game was the subject of the 2022 Rockstar Games leak. Notably, Kurtaj was handed an indefinite hospital order in 2023 after being deemed unfit to stand trial, with a psychiatric assessment finding he \" continued to express the intent to return to cyber-crime as soon as possible. \" Kurtaj was later found fit to stand trial and moved to prison, and one of his six charges was for possessing a mobile phone in prison in March 2026, the same month Kurtaj hinted from custody that the GTA 6 source code was still out there .",
-   "pub": "2026-11-25T09:23:01-06:00",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQOGNPNXVxNDNqc3NPa1VzbllVdG52aFFJNGtBVUJRU1BBa2dBZW01R1QzZVFJN1V5cTd4SlNpVHpRR0J4UGxqSV9OS3ZLTFJtY3UtUzBkejlyeUZpbGxldkltLVlZT190emxMNVJEUkZwb215R05va0wzSlVlajc2TWxva0JpTEU?oc=5",
    "s": "Eurogamer.net",
    "d": "2026-11-25T15:19:10+00:00",
@@ -654,7 +686,11 @@
    "d": "2026-11-25T14:41:00+00:00",
    "lang": "fr",
    "t": "Il tente de voler GTA VI dans un magasin à La Charité-sur-Loire puis sort un couteau pour prendre la fuite",
-   "erreur": "429 : passage suivant",
+   "u": "https://www.lejdc.fr/charite-sur-loire-58400/faits-divers/il-tente-de-voler-gta-vi-dans-un-magasin-a-la-charite-sur-loire-puis-sort-un-couteau-pour-prendre-la-fuite_15091747/",
+   "img": "https://img.centrefrance.com/sAueBf3A5qgwcoBne16Fz8v6Pnf5C9jVoJN2WY1iCGo/rs:fill:1200:800:1:0/g:sm/bG9jYWw6Ly8vMDAvMDAvMDcvODcvMDAvMjAwMDAwNzg3MDAxNw.jpg",
+   "chapeau": "Un homme a tenté de dérober un exemplaire du jeu GTA VI dans un magasin de La Charité-sur-Loire, mardi 24 novembre. Pris en chasse par l’agent de sécurité, il a brandi un couteau avant de prendre la fuite.",
+   "txt": "",
+   "pub": "2026-11-25T14:41:22Z",
    "cyberleek": true
   },
   {
@@ -689,7 +725,11 @@
    "d": "2026-11-25T07:48:00+00:00",
    "lang": "en",
    "t": "“GTA 6”: Take-Two gets unofficial PC port removed from GitHub",
-   "erreur": "429 : passage suivant",
+   "u": "https://www.heise.de/en/news/GTA-6-Take-Two-gets-unofficial-PC-port-removed-from-GitHub-11537104.html",
+   "img": "https://heise.cloudimg.io/v7/_www-heise-de_/imgs/18/5/2/0/7/6/5/9/Jason_Duval_07-763a916c24d34b43.jpg?func=bound&height=1200&org_if_sml=1&q=85&width=1200",
+   "chapeau": "Project Leonida aimed to bring the leaked Xbox version of “GTA 6” natively to Windows. Take-Two’s DMCA notice has taken it down.",
+   "txt": "",
+   "pub": "",
    "cyberleek": true
   },
   {
