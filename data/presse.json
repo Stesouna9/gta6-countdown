@@ -1,6 +1,22 @@
 {
- "maj": "2026-11-28T08:40:46+00:00",
+ "maj": "2026-11-28T09:00:59+00:00",
  "articles": [
+  {
+   "gn": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQb0JEUWNiTWRheGZpbEQzWGNKalR4cUFfNUpuTjk0RlBzVE9QM0lNN2NWWEpGRGtaeHdzSEU1cDBlOThiaF9xNk5yTnUwVFVmT0VJYTVjMldGMVFXRmJpUE5PblA5VzNNa0dnTTN6NTBSa2VidGZKVnpOQ1lEX1V3aDY2bXprWk55NGp1b3pPcnNrdzg?oc=5",
+   "s": "Journal du Geek",
+   "d": "2026-11-28T08:40:25+00:00",
+   "lang": "fr",
+   "t": "GTA 6 : guide des cadeaux de Noël pour un fan du jeu",
+   "erreur": "HTTP Error 429: Too Many Requests"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQYVZuMVBMMEtpNzNEUXgxc054NC1TSHpJMk5zdEVwWHVhWFFJdkpBV09SU0QxSW1lZkJ6aHhVRWJ3ZldZSjRncUNXMnpzM0VaQzVUMWVuWHVRT29UdHVfYmh2TkxUOGIzOVJ3VnpPODNwbHJXNGtWZWFFYUxJb1hZbGdhYVlXQlRpdWsycDZmcUxEN2t4dXJZa0ZTR1VHcXlSb1FWZ3VNeHpPUnRYNGRiNkNRUzBkRTlxZHZiNUdDVE5JX2FqUlpXRmZYYy1xdEZuMTFTdEdXMHlQMmNWLWc?oc=5",
+   "s": "BuzzArena",
+   "d": "2026-11-28T08:32:24+00:00",
+   "lang": "fr",
+   "t": "DualSense Edge : la meilleure manette PS5 est bradée pour le Black Friday, idéal pour profiter pleinement de GTA 6",
+   "erreur": "429 : passage suivant"
+  },
   {
    "gn": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPdE1lbjVqbnZOYlZUYUIza05Uek5NUjN0S1Y4OGtwbE9vOUxkX1E5VzBRSkNlTFprWlU4MXgwTzdCVXVUZzRtRm9Da2lwZ3V0eG0tbExrRWJOYlJLZDk2U25ERmRkdFJOTU9nblViekcyeG1lMi15NGVxMnFEOEVhaEtDMWQ4UVZpVmplTURPNElZQ1dkeDVwQjRFaVljVUVncFVZb0tuelFHeFlPdnJMVWNENE5WakMzTEhHUmNoQkM3QmxwVzRDVHRrdXBBN0NRbktzTW0wbEV5WnRicnJfM1VPSVBxbVJwOEU1TUxGcUNLb0JGS1d1d0VhaGxWUGw4ai1ubEhDeDZvVy1sQ2ctOFpuN1dMQnFk?oc=5",
    "s": "Le Parisien",
@@ -67,31 +83,47 @@
    "d": "2026-11-28T07:57:52+00:00",
    "lang": "en",
    "t": "GTA 6 WAiNK No Flusher Tags Map: All Locations Explained",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOS1pvMHJJNXllaHEzR2tsdEZhN2p6SFg5djhWemFBZmZHbE5uemNWT0FyV2VLY3ZzXzZ3SEhaZ2RtY09XSEVkTGdTWTZ1NVZzenk4Y0lSbkhuQnNmN3o4ZzRGZ0FfbGQ2R2VZaXYxVjNrd0ZUQ1VtQU81bkt0eG5WVjl3bS1URmFUdzNieHFoNlNPRVJwbm9XOEpfcnNiWjQ?oc=5",
+   "s": "EGW.News",
+   "d": "2026-11-28T07:51:25+00:00",
+   "lang": "fr",
+   "t": "La scène de peinture des murs dans GTA 6 inclut un « œuf de Pâques » avec Michael, Franklin et Trevor de GTA 5",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYXM0VV9PeHZvNzZNU3ZmQVlXSkR0MjhmWlgyOHpUWUpQdm5aWFBlYTNvdHQzZWx3YmZaaVFjMFRxbjB0SWxxanBKcVZWOTEyWFJFZzhCRDFJWFVFVVBzUC1FbUNla0pjS3BNX2ItV01WemNDVWZQZWE3aHVuc05EOExhU1gyNmdKaG4w?oc=5",
+   "s": "shattered.io",
+   "d": "2026-11-28T07:45:49+00:00",
+   "lang": "en",
+   "t": "GTA VI and Football: What Is Confirmed, What Is Not",
+   "erreur": "429 : passage suivant"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTUtxbjB1VDFPM1B6VkRCSG85Si05dG1FSTBjMmU1U01sVWw4MnJ3a2ZtSnN0eTM3YUdJd3ZaQTFuVGE3eDJTSnZkNGZsbXllWTlCcldpSkRiaUdZdGJ1UWpXenhQY1k1THNCUWttT0Z5Y2toMzBxNHBvOFNrVnNvWVRuSjZQYzRydDZoUzNvMy1lakVZZDlpUEd0VkxQeFk?oc=5",
+   "s": "EGW.News",
+   "d": "2026-11-28T07:12:43+00:00",
+   "lang": "fr",
+   "t": "Les analystes affirment que le multijoueur de GTA 6 pourrait être plus vaste que celui de Fortnite",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQZ2FIc0hySldGVjV3Rm5rY2w4ekh5UUZIVmVmRzNBUTFSc0hUUTBFR19Ma1J3dHVHM3ZiZmdEenlRY2ZHV19DZW5idUNKeG1kZEpRYXR0YlZIMU5yUTliRVZTMHVNbXdrSjhUVWJldzlKbUlxNXlqaGNXNUpMLU82XzJNS2l4VjZWZG5TTTI0RFdMd2FiclBJTGcwWXZlS2oxRXF1RzgxcUxNTnlmSjRPYnlHOWdBQXZBR2FKQ3BsVnRxbVFGbkJzRWVsbzBjTE9CeTkyc3ZmcFNZNS1hbTg4dVo1WTFFS2drTFE?oc=5",
    "s": "Le Monde.fr",
    "d": "2026-11-28T07:00:16+00:00",
    "lang": "fr",
-   "t": "Client Challenge",
-   "u": "https://www.lemonde.fr/pixels/article/2026/11/28/gta-vi-joue-un-role-de-declencheur-pourquoi-la-playstation-5-est-en-rupture-de-stock_6816081_4408996.html",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": ""
+   "t": "« “GTA VI” joue un rôle de déclencheur » : pourquoi la PlayStation 5 est en rupture de stock",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOeWo0MXJmOGpiNDgxcXJHTlZNRjBTTXVoYXZ2dGZ5ZU5xdWNOQWEwOGZmdHh4QS1DcFFmVXJIc0txLW5qU0pScndBSEVHaF9meGFzcFdONlB3TDl2V25UbGNiYlZVUmlCQktYd2VNNkdROURuNlQ3b3E1Yjd1N2tsam9vcWI1YkZqLXJMSXZQU0RpUTVFdjEtS0RYVmNaaG85ZHVjbmRwUnVsV043SlJ6RTNIdEZnLXY2allkRngzQQ?oc=5",
    "s": "RTBF",
    "d": "2026-11-28T07:00:00+00:00",
    "lang": "fr",
-   "t": "Nature, chasse et pêche : quand GTA 6 transforme ses joueurs en presentateurs animaliers - RTBF Actus",
-   "u": "https://www.rtbf.be/article/nature-chasse-et-peche-quand-gta-6-transforme-ses-joueurs-en-presentateurs-animaliers-11822040",
-   "img": "https://static-content.rtbf.be/article/image/1920x1080/c/b/a/7c6fd81805b630639d6030fb9c3a928c.jpg",
-   "chapeau": "Braquer une banque, voler une voiture de sport, échapper à la police… Voilà plutôt ce que l’on imagine lorsqu’on...",
-   "txt": "",
-   "pub": ""
+   "t": "Nature, chasse et pêche : quand GTA 6 transforme ses joueurs en presentateurs animaliers",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9FN3I1Nk5KV0VvLVpkaDNDUkJwdUwyREFuQmk2bGZVSF8tWjVEeTNmT1JJX3RxUGMtVzgwOUNad3BZOTBZeWJWZTR4UFNod2xjZjU2MndYM3FSTGppM04yczh3ZDFnSnU5Q3lJRjdXRFVBZnE4c2tr?oc=5",
@@ -111,7 +143,7 @@
    "d": "2026-11-28T06:50:00+00:00",
    "lang": "fr",
    "t": "GTA 6 : le grand retour de la saga met les mascus en PLS",
-   "erreur": "<urlopen error [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:1129)>"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNUkxRMVYxZkxjLUNPcWhoMi1wYk1NSkRWcjJuR3FOWTNJQWRKMlhmcGI0aTl0UHVBNEVzM0psUmMxNkFIUkhtemJnVUVlNDFCQWlHX1B3ZVhqUVVwTmoyXzcyQjJqX2JKZ1NkY0dHZVl6cWlEbWFaYnVXRE52OVZVUzIwaUlhWDdVbFV0UExCbFFUdl9UOGtDa1FNd21VWUZTS3FsTktSeTlhRjZUQnpVX29kbUhVRXNPVHA3SWw5X00wSEhrQ05fNnFHa0xZdlJTNWUwVm5XSTFXUUFTaFBEYlVJN1FEZEJjaXJZS1VUc2RCdw?oc=5",
@@ -123,18 +155,6 @@
    "img": "https://www.notebookcheck.biz/fileadmin/Notebooks/News/_nc5/LuciaSunsetGTA6.jpg",
    "chapeau": "La première mise à jour de GTA 6 ne mentionnait aucun changement de performances dans ses notes de mise à jour. Pourtant, certains joueurs sur PS5 Pro et PS5 estiment que le niveau de détail des objets et la qualité de l’éclairage ont baissé dans la version 01.002.002. Face à des graphismes exigeants, Rockstar cherche peut-être à réduire la charge qui pèse sur les consoles.",
    "txt": "Rockstar a déployé la première mise à jour de GTA 6 depuis sa sortie le 23 novembre. La version 01.002.002 visait à corriger les plantages , la météo figée et d’autres problèmes. Cependant, certains possesseurs de PS5 et de consoles PS5 Pro ont signalé une baisse de la qualité d’image. Des joueurs supposent que les développeurs ont revu les graphismes à la baisse pour améliorer les performances .\nSi les avis divergent, les discussions sur la baisse de la qualité graphique se multiplient sur Reddit. Les joueurs ont relevé des textures floues, des éléments du décor qui apparaissent brusquement plus souvent et un éclairage global moins convaincant.\nDem5869, un utilisateur de Reddit , affirme qu’après la mise à jour, « l’éclairage, les textures et les cheveux ont un rendu complètement différent… » Beaucoup de remarques portent sur la météo dynamique dans la version PS5 Pro de GTA 6 . Les levers et couchers de soleil n’ont plus l’effet spectaculaire qu’ils avaient à la sortie du jeu. Les nuages semblent pixellisés, et les reflets sur l’eau laissée par les averses sont décevants.\nDrGonzoRoyale partage cet avis et ajoute qu’un effet de profondeur de champ plus marqué rend les objets lointains flous. Les traits du visage et les mèches de cheveux de Jason , de Lucia et des PNJ sont également moins nets. L’auteur du message affirme que les captures d’écran prouvent que ces différences ne sont pas imaginaires.\nBien que les améliorations pour la PS5 Pro optimisent les performances, Digital Foundry a relevé des baisses de fréquence d’images dans les scènes très peuplées. Malgré la limite de 30 images par seconde, le titre de Rockstar sollicite fortement les consoles Xbox et PlayStation, ce qui pourrait expliquer en partie les signalements de surchauffe . Une baisse de la qualité graphique réduirait la charge sur les consoles.\nC’est peut-être parce que la mise à niveau de GTA 6 pour la PS5 Pro offre le rendu le plus détaillé de Leonida que ces problèmes sont plus perceptibles sur cette console. Certains joueurs soupçonnent que l’ intégration du PSSR 2 a été modifiée. Si la mise à l’échelle est moins efficace, cela pourrait expliquer pourquoi les objets ne sont plus aussi nets.\nCela rappelle aux fans de Rockstar le lancement de Red Dead Redemption 2 sur PS4 Pro et Xbox One . Le patch 1.06 avait suscité des critiques similaires au sujet d’un éclairage et d’ombres moins réalistes. La version 1.09 avait toutefois ensuite apporté des améliorations au rendu HDR , réglant ainsi bon nombre des problèmes signalés.\nTant que le studio ne se sera pas exprimé sur d’éventuels ajustements des performances, mieux vaut ne pas tirer de conclusions. Digital Foundry et d’autres sites continueront d’analyser les graphismes au fil des prochaines mises à jour de GTA 6 .\nDem5869@subreddit GTA 6unmoderated , DrGonzoRoyale@subreddit GTA 6unmoderated",
-   "pub": ""
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMimAJBVV95cUxONVBSaEhDSERnMkFrWG9OUGZfLU81WENZMWJMNHVqUHdId09hd2V0X2RSaF9iYlBHb255dVFqSjBMZFBEb05DWWJhbFBoSWZ4d2FpR3E0LTBjSkZ1TTlzTGZPZ09zWVFpZ1ZQY1QtdDZ2VDNRT2lDUnBMWTR1TmQ5Y1JxUlJzSmNiRlgtUEpUR1FpS2FKU3FpMS1wUGJZODhCOGNLNTBpQmg0bmhCVTdHaG52RlJwbkVUU08tbU5IYXZZcFB6RGlFWjVyNFFjSjFFVGY2NV9OWk9vaXBNTDNiZnNQYXp1anc5dGJYdWVFRWh1MkUzNk91X1BWVmZrYXMySHZQX0xkakVOLW9QRW9XR2tHNnRIblBF?oc=5",
-   "s": "BFM",
-   "d": "2026-11-28T06:07:12+00:00",
-   "lang": "fr",
-   "t": "\"GTA VI\": \"Je recommande aux parents de commencer par regarder le jeu\", conseille la spécialiste de la parentalité Anne Peymirat",
-   "u": "https://www.bfmtv.com/societe/education/video-gta-vi-je-recommande-aux-parents-de-commencer-par-regarder-le-jeu-conseille-la-specialiste-de-la-parentalite-anne-peymirat_VN-202611280159.html",
-   "img": "https://io-fsly-bfmtv.cdn.nextradiotv.com/mXg_SEzHtqEFuV8N-gEw-5_i3LY=/0x0:1280x720/1280x0/images/GTA-VI-Je-recommande-aux-parents-de-commencer-par-regarder-le-jeu-conseille-la-specialiste-de-la-parentalite-Anne-Peymirat-2392215.jpg",
-   "chapeau": "VIDÉO - À l'occasion de l'arrivée très attendue de Grand Theft Auto VI dans les foyers, de nombreux parents s'interrogent sur l'attitude à adopter face aux demandes de leurs adolescents. Interrogée sur le sujet, l'auteure et conférencière spécialisée dans la parentalité Anne Peymirat appelle avant tout à...",
-   "txt": "",
    "pub": ""
   },
   {
@@ -154,12 +174,8 @@
    "s": "RTBF",
    "d": "2026-11-28T06:00:00+00:00",
    "lang": "fr",
-   "t": "GTA 6 : comment Justice a composé la bande originale du jeu le plus attendu au monde - RTBF Actus",
-   "u": "https://www.rtbf.be/article/gta-6-comment-justice-a-compose-la-bande-originale-du-jeu-le-plus-attendu-au-monde-11822169",
-   "img": "https://static-content.rtbf.be/article/image/1920x1080/3/2/8/33cc1e39ebb3da50182a6ee7db4bbdd7.jpg",
-   "chapeau": "Ils ont fait la bande-son des coolkids des années 2000, aujourd’hui il touche un public mondial grâce au...",
-   "txt": "",
-   "pub": ""
+   "t": "GTA 6 : comment Justice a composé la bande originale du jeu le plus attendu au monde",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVno4V2lfSUNvdmZhalkyVFlkY18xdmZ2WFNzb2REMWlTQm0yd1N4SEhhOGRqRlFjNFpCVDFueGVxaXZaWFBvZElGRkNQcjh6Q0RyV3VISkcyT1pPcXk2Zk8xd0dlRUJRSU9tdkoxYXhhTTFYQ205bnVyNEpYSV85d29SaTBrdUlhdDkzNjRkOXFnRkhXS3NxUUlOQmxmVV8zY3ZoOGJXUjRoeTgyMktPWTUxSTI0SkpYdnJJWHU0VkM?oc=5",
@@ -223,18 +239,6 @@
    "pub": "2026-11-28T05:09:41Z"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPWk4tZ0RhaXF3MzRWWjdrSGxwRHdzQW9qYVBIMm5OUl9HLWFtVGNYajNPRXhNMzVneXF0SmlpVEZiY0M3LTFZMkxXLTByT09YMUZpRVpUdDJ5SWhYN01kZGUyTkQ2dnREQnZ6TmQ2REZvVVZDQXBUQXd4YlBlb2YtVjNqZHBkVXZzQlBuYXRvNHoyZDVWc2FxZXA1bTNXVUxTeGNNdG1kNFVSTjZYQ2wwODRrRC13TjdrZnE3QWJQX2lvemZPcHVlYngtNENJbXYxN1ZKOVp5Mm9ScjBWVldHOFBCZHY1TUw2dHZB?oc=5",
-   "s": "Le Figaro",
-   "d": "2026-11-28T04:54:00+00:00",
-   "lang": "fr",
-   "t": "Tout le monde veut jouer à GTA 6, mais personne ne trouve de PS5 : sauf sur Amazon ce samedi 28 novembre",
-   "u": "https://www.lefigaro.fr/bons-plans/high-tech/tout-le-monde-veut-jouer-a-gta-6-mais-personne-ne-trouve-de-ps5-sauf-sur-amazon-ce-samedi-28-novembre-20261128",
-   "img": "https://i.f1g.fr/media/cms/1200x630_crop/2026/11/26/19f91da2de9cb3f314ba8590ea4bdd698b57225af5d36c43f1de60cc7c2110e3.jpg",
-   "chapeau": "Jamais un jeu n’avait rencontré un tel succès : GTA 6 bat tous les records depuis sa sortie, et entraîne avec lui une pénurie de PS5, accentuée par les fêtes de fin d’année. Si vous n’avez pas encore la console pour en profiter, Amazon propose un réapprovisionnement.",
-   "txt": "Google (ouvre un nouvel onglet) Google Discover (ouvre un nouvel onglet) Google News (ouvre un nouvel onglet) Sujets Amazon sony PS5 Lire dans l’app Sauvegarder Fermer Sauvegarder un article\nPour sauvegarder un article vous devez être connecté, vous pourrez ainsi les consulter sur tous vos appareils.\nCopier le lien Lien copié Mail Facebook X Linkedin Messenger WhatsApp Tout le monde veut jouer à GTA 6, mais personne ne trouve de PS5 : sauf sur Amazon ce samedi 28 novembre Unsplash Jamais un jeu n’avait rencontré un tel succès : GTA 6 bat tous les records depuis sa sortie, et entraîne avec lui une pénurie de PS5, accentuée par les fêtes de fin d’année. Si vous n’avez pas encore la console pour en profiter, Amazon propose un réapprovisionnement.\nAvec 3,79 milliards de dollars de ventes dès sa première journée, près de cinq fois le démarrage du précédent opus, GTA 6 n’est plus seulement un succès vidéoludique : c’est un phénomène de société, au point d’emporter toutes les PS5 avec lui. Les ruptures des différents modèles sont de plus en plus courantes, et les achats de Noël n’arrangent pas la disponibilité. Il est donc important de saisir la moindre occasion, et c’est ce qu’offre Amazon avec la PlayStation 5 Digital Edition, actuellement disponible à 999,99 euros. L’expédition est gratuite et le retour reste possible jusqu’au 15 janvier 2027, ce qui laisse du temps après les fêtes.\nDécouvrez aussi l’offre Trade Republic qui a convaincu plus de 10 millions de clients\nLa PS5 Digital Edition se consacre aux jeux dématérialisés, sans lecteur Blu-ray : votre bibliothèque se télécharge directement sur la console. Tout repose alors sur son SSD de 825 Go, qui a la réputation de réduire les temps de chargement, voire de les supprimer. La console offre l’une des meilleures qualités graphiques actuelles avec le ray tracing, le HDR et la 4K. La manette DualSense ajoute un retour haptique et des gâchettes adaptatives sur une sélection de jeux PS5, pour donner du relief aux actions. Au-delà de GTA 6, la PS5 accueille un large catalogue de jeux, comme Ghost of Yotei, Astro Bot, Marvel’s Spider-Man 2 et God of War Ragnarök.\nCliquez ici pour profiter de l’offre Amazon sur la console de jeux PS5 Digital Edition\nContenu conçu et proposé par nos Experts Shopping. L’équipe Shopping du Figaro est indépendante de la rédaction. Les prix mentionnés dans cet article le sont à titre indicatif. Lorsque vous achetez via nos liens de vente, nous pouvons percevoir une commission d’affiliation.\nLe Figaro Guide d’Achat est maintenant sur les réseaux sociaux ! Suivez-nous en cliquant ici pour ne pas rater nos bons plans et conseils d’achat.",
-   "pub": "2026-11-28T05:54:00+01:00"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5aanVCeEZkS0JyMFFpSUR1OWFscXJYVnRVLUlfYmZnTkVOUlhsU1JTRDlBSE9vTkFGMXlWODUyUDJoeWVPNlkwY0hKMkcwTDlmUi1Rc1l1c3R0T2txT1FqTmU4R1hzTFZoMzd2Ti1yVzdpaU0?oc=5",
    "s": "SVG",
    "d": "2026-11-28T04:43:00+00:00",
@@ -272,14 +276,6 @@
    "pub": "2026-11-23T10:33:11+00:00"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMizgFBVV95cUxORVFFOEp2UTE0czVwamRrZWxTMWNzVFZrQTZrVFV5Mk1VckJHR2d4Q0xERGxHRkt5dkRCNnQ1ZThfeDZlTFVSS0FKV3JqblJkSlU5OVduQzhhZFdrdmR0UXdVeTY2T210RGZpQ2g5X3d4dXh5MU5IRlZCQTZHVEdKNUZfVFdLR255MnZBZ1hXS25GWVFXblQ5RWRSdjdzSW1mRkNGSnVkSktBajlsTzdVelE0WjI5MHlTX1pqZHZXUmtBOVcxYkFRMWw5bGxpZw?oc=5",
-   "s": "JeuxVideo.com",
-   "d": "2026-11-28T03:26:42+00:00",
-   "lang": "fr",
-   "t": "Meilleures voitures GTA 6 : Liste et emplacement des voitures uniques de la carte de Léonida",
-   "erreur": "HTTP Error 403: Forbidden"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSS1RUElDajFkbkxsRGROUTFmVmVic1JBR2hvVWpjT3BFSHRkLXBPb0RISXhPdEtWNnBHUEV4WllKN0pwY0d2NE9lZWc4WERMMmlHaDF3SnJMbEw5TFV0eEEzWDFCcW54NURNUElHR0h3TUVXb2JSWDNFdHZiZ0xDWXVwNUsyNVdfbE9TNWd5VE1LZ0stZlhKS2RZdEc?oc=5",
    "s": "Mashable",
    "d": "2026-11-28T03:12:33+00:00",
@@ -310,7 +306,7 @@
    "d": "2026-11-28T02:09:26+00:00",
    "lang": "en",
    "t": "Binge playing GTA 6? Health expert says there are potential risks",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5yelNtZG9yLWhpQnotWVhGQ0RlRFhhMzkwMDhSNDBHaFJxdWI5b0g5aFZZNVdrQjVoY2ZuSXZDemp6ci0tbmFKenFGdkJ3dWJ1LU5UYktFVW9MOHJUSGY0a3hR?oc=5",
@@ -318,7 +314,7 @@
    "d": "2026-11-28T02:02:45+00:00",
    "lang": "en",
    "t": "GTA 6 Exposes the Console Hardware Crisis",
-   "erreur": "The read operation timed out"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPM2dvYk9YQXp5REt0cUZTZDZRLUVwVkNOdzRyQkY5RDBrX29qd1BjNTNDTHh3WGNfOFVfYlR4YVNwV1hlTW16SlplTUFVMmxWdkVsRWVMTGh1MGJZakhheVJWcnd1d2NmcExoTUNxM05WTWppYXB2X19CLUo0TFBjYnhBQm51NFlLUTc5MFBDMDhYZGdGbUh0eXd2aWFMTUR5bXU0ZEpRYXlPZ0ozTW8w?oc=5",
@@ -347,32 +343,12 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVmJBRzBTNDYtSkVfcXY2ZjRHSlk5bEhuekNJNEg2YnlLamNuem1rMHpDWTc1eEdSVTJmenFGTnVYcVBWTl9KRm5KQ1l5Ukl3UGxoSXBMVmFCZ0Jyc3B2SVNSRkllUllQbjZRQmRRUHlMLVNJbGhnaDFHSW5uV252NmN3?oc=5",
-   "s": "Mobalytics",
-   "d": "2026-11-28T00:44:36+00:00",
-   "lang": "en",
-   "t": "GTA 6 WAiNK Landmarks Map: All 31 Locations Explained",
-   "erreur": "HTTP Error 403: Forbidden"
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOU2lTMDFzY0JqUFNXNnd2SFV2Y0JSTlpybHVCNkNHZkVJdURxSDNtdHhqTERHcVNPaFI2V0hiWHBXby1XdnRZWlRDWVhLNHlSNVY3RWtxYlNuVDJ6SF9oVmpNVDJYdHVjZ3hobFhuWTEzVlVJWkgtVFRFUU1UTzAySXJIVF9KWkhnMGdYdk8wU2wyVzdobXRnWm9DQ19sS1F3Tzk4b1NqNjJCXzBQQ1VpZTVSbFNWQQ?oc=5",
-   "s": "GameGPU",
-   "d": "2026-11-27T23:30:59+00:00",
-   "lang": "fr",
-   "t": "La comparaison de GTA 6 avec les premières bandes-annonces a révélé des différences graphiques significatives.",
-   "erreur": "HTTP Error 403: Forbidden"
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBaMm9PV1djaTBiTlg2bDQ5dXdZOFJZUG0tLWE5dXJxbmdyaEt5bFA0U193ZlRCRS0tMUJma2x1NVJZd3V6dWhpU0JFcHVKY1dzb0hTRw?oc=5",
    "s": "Binance",
    "d": "2026-11-27T18:04:00+00:00",
    "lang": "en",
    "t": "CyberLeek Price (CYBERLEEK/USD) Today | Live Price, Market Cap & Chart",
-   "u": "https://www.binance.com/en/price/cyberleek",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -441,19 +417,6 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOLVg5R2hGanpEbklmZ3ZZUjRaWnAtRXhrcnBvWUlFbXZjY3lCS3YxWlNZQ1JnLWFwUUlUeUNpZ3dBeFlJQlp3QlJuOGVpZ1I0TlJZZk9qZnVhTV9ibUcwR1NTT0Q0N2RqUWRHdVpuSG1ocmFIU2xobElKYWxLRTEtTzhUSGFTRjZ6d0V6ejI2TDNDUGxNMjhyS2gwS2xkS1JnSnZVQjdxMEZmNnhJT0RmTURHMGJ2U2tNbURKbQ?oc=5",
-   "s": "Gamewave",
-   "d": "2026-11-27T11:05:00+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : Rockstar n",
-   "u": "https://gamewave.fr/gta-6/gta-6-rockstar-n-avait-qu-une-peur-que-la-grosse-surprise-de-l-intrigue-fuite-avant-la-sortie/",
-   "img": "https://gamewave.fr/static/images/news/headers/2bae5-gta6-secret-garde-jusquau-bout.jpg",
-   "chapeau": "Malgré les nombreuses fuites ayant frappé Rockstar Games, un secret majeur de Grand Theft Auto 6 a été préservé jusqu",
-   "txt": "Ajouter aux sources préférées L'industrie du jeu vidéo est familière des fuites à répétition, et Grand Theft Auto VI n'a pas été épargné ces dernières années, et surtout les mois précédents sont lancement. Pourtant, Rockstar Games a réussi un véritable miracle en cachant l'un des éléments centraux de son intrigue jusqu'au jour du lancement. Un soulagement pour le studio .\nAttention, si vous avez joué moins d'une heure, les lignes qui suivent contiennent des spoilers .\nGTA 6 : L'actrice de Lucia brise enfin le silence, après 10 ans d'un secret absolu\nAprès une semaine de lancement explosive pour Grand Theft Auto 6, l'actrice incarnant Lucia prend enfin la parole. Manni L. Perez révèle avoir travaillé sur le jeu pendan…\nSi vous avez joué ne serait-ce qu'une heure au nouveau titre de Rockstar, vous connaissez déjà ce rebondissement. Jason et Lucia, les deux protagonistes, ont un fils nommé Tomás . Cette révélation change radicalement la dynamique du duo, leur offrant une motivation bien plus profonde que le simple appât du gain. Rob Nelson, le producteur du jeu, a confié son immense soulagement face à la préservation de cette surprise (via VGC ).\nLe producteur a avoué avoir prié chaque jour pour que ce secret ne soit pas dévoilé , surtout après les piratages subis par le studio en 2022. Heureusement, la surprise est restée intacte, offrant aux joueurs une connexion émotionnelle immédiate avec ce couple cherchant à se construire une vie de famille loin du crime urbain .\nDe quoi laisser la surprise aux joueurs, qui ont découvert ce pan de l'histoire par eux-mêmes, comme le souhaitait Rockstar.\nGTA 6 est disponible sur PS5 et Xbox Series. N'oubliez pas que vous pouvez retrouver nos guides GTA 6 pour vous aider dans votre progression, que ce soit la carte interactive , ou encore la liste de tous les codes utiles lors de l'aventure .\nAjouter aux sources préférées Corentin Rimbert (Corentin) Les jeux vidéo m'ont toujours accompagné, depuis mon enfance. D'abord avec les consoles portables, telles que la GameBoy Advance et la Nintendo DS, qui m'ont suivi durant une partie de ma jeunesse,...",
-   "pub": "2026-11-27T12:05:00+01:00",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ZeGdsS3p5MzEzSVJVSWVuUlQ4SkZ2cW5nZ2VwSWNVaWpJWHA1VFhQWngxa2JtU3RNM20xNFowekNITlZ4M3hpRnBDenlZcnlQMDJaQjFhLVpVWm9SYzNYSS1uUUE0OUdnZHlLeGR4THFWMWQ4OFZDY0dhc3I1T0E?oc=5",
    "s": "Blog-Moteur",
    "d": "2026-11-27T09:48:53+00:00",
@@ -498,7 +461,7 @@
    "d": "2026-11-26T23:13:12+00:00",
    "lang": "en",
    "t": "CyberLeek Price: CYBERLEEK/USD Live Price Chart, Market Cap & News Today",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -506,12 +469,8 @@
    "s": "Decrypt",
    "d": "2026-11-26T22:01:02+00:00",
    "lang": "en",
-   "t": "Vibecoded GTA 6 PC Ports Are Now Rendering In-Game Graphics Despite Take-Two Crackdown - Decrypt",
-   "u": "https://decrypt.co/384061/vibecoded-gta-6-pc-ports-are-now-rendering-in-game-graphics-despite-take-two-crackdown",
-   "img": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/11/grand-theft-auto-6-gta-vi-decrypt-style-gID_7.jpg",
-   "chapeau": "Some unofficial ports now hit around 20 frames per second, as developers move their work into private communities to dodge takedowns.",
-   "txt": "",
-   "pub": "2026-11-26T22:01:02",
+   "t": "Vibecoded GTA 6 PC Ports Are Now Rendering In-Game Graphics Despite Take-Two Crackdown",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -525,19 +484,6 @@
    "chapeau": "\"It",
    "txt": "(Image credit: Rockstar) {alert('Link copied')}).catch(err => {console.error('Failed to copy: ', err)})\" data-platform=\"copy_link\" data-action=\"\" class=\"font-ui-heading py-2 text-sm text-neutral-700 hover:bg-neutral-100 transition-colors no-underline block cursor-pointer border-0 bg-transparent w-full text-left normal-case\" aria-label=\"Copy link\" role=\"menuitem\" data-analytics-id=\"article-social\" analytics-label=\"utility-bar-social-share-copy-link\" analytics-name=\"utility-bar-secondary\" data-mrf-recirculation=\"article-social\"> Copy link Facebook X Pinterest Flipboard Email Instagram Share this article 0 Join the conversation Follow us Add us as a preferred source on Google Newsletter Subscribe to our newsletter GTA 6 was subject to more than a few leaks in the run-up to its eventual launch, but despite it all, one big early-game twist was kept a total secret until release – something Rockstar Games boss Rob Nelson was \"praying\" for.\nBefore we get into it, we're obviously about to discuss some spoilers for GTA 6 Chapter 1 . It's an early moment – one you'll have seen if you've played the first hour of the game – but if you're yet to dive in, you might want to bookmark this to come back to later. Or, of course, feel free to carry on if you don't care about a spoiler-free experience.\nEveryone still here who wants to be? Great. As you probably guessed, the twist in question is the existence of Jason and Lucia's son, Tomás.\nAfter being moved to her aunt's care following her arrest, as shown in the game's prologue, Lucia's primary motivation is to get Tomás back and give him a good life alongside Jason, but none of this was revealed prior to launch – officially or otherwise. This was something that co-studio head of Rockstar North, Rob Nelson, had his \"fingers crossed\" for.\nIn an interview with VGC a few days before GTA 6's launch, Nelson confirmed that Rockstar was \"never\" planning to reveal the twist and, at the time, was still praying no one would spill the beans ahead of schedule. \"I am still holding on,\" he said. \"Fingers crossed, how many more days? I'm praying it stays under wraps. Given everything that we've gone through, every day I'm just like, 'please, please don't do that, please don't do that.'\"\nWhile VGC notes that there was a small amount of chatter on forums about Jason and Lucia having a son, these whispers generally didn't stick, and, notably, none of the Cyberleek videos that appeared online before launch showed Tomás. Honestly, that feels somewhat miraculous given how early he's revealed and how frequently he comes up in the story and dialogue.\nCyberleek wasn't the only hacker to target Rockstar, either – there was also an enormous wave of GTA 6 leaks in 2022 – but even so, no baby boy and the driving force of the plot were plastered all over the internet as a result.\nWeekly digests, tales from the communities you love, and more\nAnyway, however the bullet was dodged, it made for an excellent twist, and let Rockstar have the story moment it was hoping for. \"It's meant to shock,\" Nelson explained. \"We were watching everyone speculate about the nature of their relationship and Jason's character, and that takes it in a completely different context. You have something to strive for beyond a huge bank account at the end.\"\nCheck out our GTA 6 review to see our thoughts on the game, or our GTA 6 guides for some helpful tips.\nCatherine Lewis Deputy News Editor I'm GamesRadar+'s Deputy News Editor, working alongside the rest of the news team to deliver cool gaming stories that we love. After spending more hours than I can count filling The University of Sheffield's student newspaper with Pokemon and indie game content, and picking up a degree in Journalism Studies, I started my career at GAMINGbible where I worked as a journalist for over a year and a half. I then became TechRadar Gaming's news writer, where I sourced stories and wrote about all sorts of intriguing topics. In my spare time, you're sure to find me on my Nintendo Switch or PS5 playing through story-driven RPGs like Xenoblade Chronicles and Persona 5 Royal, nuzlocking old Pokemon games, or going for a Victory Royale in Fortnite.\nPlease logout and then login again, you will then be prompted to enter your display name.",
    "pub": "2026-11-26T20:00:00Z",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1CcTZSWERJX3FiWkdrbjRadGFISnY0RE1QNlc3aWRwMlp2a3VKVC04bWxoRi0xOFNWOXpDc2NHUVhKc0dJZTJMdmpCN3pqNkd5NE1mMUw1Zw?oc=5",
-   "s": "Coingecko",
-   "d": "2026-11-26T19:46:33+00:00",
-   "lang": "fr",
-   "t": "Cours CyberLeek (CYBERLEEK/USD): Graphique & Actualités | Coingecko",
-   "u": "https://www.coingecko.com/fr/coins/cyberleek",
-   "img": "https://static.coingecko.com/s/social_image_cards/social_image_card_standard-152325d6e2be21a5365b167d97eee4819d9565e232425c65ad47f3d2d7b2ea79.png",
-   "chapeau": "Le cours de CyberLeek (CYBERLEEK) est de $0,001055 aujourd’hui, avec un volume d’échange sur 24 heures de $1 160 381. Suivez le cours en direct, le graphique, la capitalisation boursière et les actualités concernant CyberLeek sur Coingecko.",
-   "txt": "Le cours de CyberLeek (CYBERLEEK) est calculé en temps réel en agrégeant les dernières données sur 5 échanges et 5 marchés, à l'aide d'une formule moyenne globale pondérée en fonction du volume. En savoir plus sur comment les prix des cryptos sont calculés sur Coingecko.\nCyberLeek ($CYBERLEEK) est un meme coin porté par un récit, construit sur la blockchain Solana. Il a attiré l’attention de façon virale en août 2026, en raison de son association avec un personnage ou un groupe anonyme en ligne (« CyberLeek ») qui a diffusé des images de gameplay non publiées de Grand Theft Auto 6 (GTA 6).\nEn France, la cryptomonnaie CyberLeek est recherchée sous les noms « CyberLeek », « CyberLeek crypto » ou « CyberLeek coin ».\nLes jetons CYBERLEEK peuvent être échangés sur des plateformes d’échange décentralisées et plateformes d’échange centralisées. L'échange le plus populaire pour acheter et échanger CyberLeek est Raydium , où la paire la plus active CYBERLEEK/WSOL a un volume d'échange de $62 915,63 au cours des dernières 24 heures. D'autres options populaires incluent LBank et Meteora .\nLe volume d'échange de CyberLeek (CYBERLEEK) est de $1 160 380,58 au cours des dernières 24 heures, ce qui représente une différence de 8,40 % hausse par rapport à hier et signale une activité hausse récente sur le marché. Consultez la liste des cryptomonnaies à fort volume sur Coingecko.\nCyberLeek (CYBERLEEK) a atteint un niveau le plus élevé de $0,03436 et le niveau le plus bas de $0,0004808 . Il se négocie actuellement -96,90 % en dessous de ce sommet et 119,40 % au-dessus de son cours le plus bas.\nLa capitalisation boursière de CyberLeek (CYBERLEEK) est $769 802 et est classée 3039 sur Coingecko aujourd'hui. La capitalisation boursière est mesurée en multipliant le cours du jeton par l'offre en circulation de jetons CYBERLEEK (730 million jetons sont échangeables sur le marché aujourd'hui).\nLa valorisation entièrement diluée (FDV) de CyberLeek (CYBERLEEK) est $769 802 . Il s'agit d'une représentation statistique de la capitalisation boursière maximale, en supposant que le nombre maximal de jetons 729,865 million CYBERLEEK est en circulation aujourd'hui. Selon la façon dont le calendrier d'émission des jetons CYBERLEEK est conçu, plusieurs années peuvent s'écouler avant que la FDV ne soit réalisée.\nAvec un changement déclin de -48,00 % pendant les 7 derniers jours, CyberLeek (CYBERLEEK) représente sous-performance une part du marché de crypto monnaie global de haut 1,70 % , par rapport à sous-performance de catégorie similare Meme qui représente haut 4,50 % .\n, CyberLeek's funding rate averaged , with a high of and a low of .",
-   "pub": "",
    "cyberleek": true
   },
   {
@@ -645,19 +591,6 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAxSGlzQTEtMGJXVWdxSVVnLWRXY1BkMGZDQlhIQ3M2cDJNMHRPN1ZsdllxV01jWUI4Qk4wTjIwTGN5V09OTFprTWxZTTF6dFBHUl83UDBvMW1VVmdZajh0TA?oc=5",
-   "s": "Menow",
-   "d": "2026-11-26T07:40:00+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : une fuite révèle ce que la PS5 Pro pousserait plus loin que les autres consoles",
-   "u": "https://www.menow.fr/gta6-reglages-consoles-rumeur/",
-   "img": "https://www.menow.fr/wp-content/uploads/2026/11/gta6-reglages-consoles-rumeur-1.webp",
-   "chapeau": "Une liste attribuée à Tex2 compare GTA 6 sur consoles. Ombres, textures, population : les différences rapportées et les améliorations déjà confirmées.",
-   "txt": "Visuel d’illustration repris de Sumahodigest ; représentation conceptuelle, apparence non officielle.\nLa PS5 Pro ne pousserait pas tous les réglages de GTA 6 au maximum. Une liste attribuée au dataminer du compte @TexFunz2, suggère plutôt une base proche de celle de la PS5 et de la Xbox Series X, renforcée sur l’éclairage et les ombres en ray tracing. La Xbox Series S utiliserait de son côté des paramètres plus modestes sur plusieurs aspects du monde. Ce relevé non officiel donne une lecture intéressante des compromis entre consoles.\nLe document a été détaillé le 25 novembre par MP1st , qui renvoie vers une publication du compte @TexFunz2 . Les valeurs sont présentées comme issues des données du jeu : il ne s’agit ni d’un menu de réglages destiné aux joueurs, ni d’un comparatif de performances réalisé par Menow. Leur portée doit donc rester celle d’une fuite technique.\nLa fuite place l’illumination globale sur un niveau élevé pour la PS5 Pro, contre moyen pour les autres consoles. Elle décrit aussi des ombres directionnelles et locales en ray tracing activées sur la Pro. Cette dernière se distinguerait ainsi par la manière de calculer la lumière et les ombres, plutôt que par une hausse uniforme de chaque curseur.\nLe point général rejoint une amélioration déjà officielle. Dans sa présentation des fonctionnalités de GTA VI sur PlayStation , Sony indiquait que la PS5 Pro apporte des ombres en ray tracing et une meilleure netteté grâce au PSSR, la reconstruction d’image propre à la console. L’annonce commerciale confirme ces fonctions, sans authentifier pour autant chaque valeur du tableau qui circule.\nCes deux techniques ne font pas le même travail. Les ombres en ray tracing touchent au calcul de l’éclairage ; le PSSR sert à reconstruire une image plus détaillée à partir du rendu. Leur combinaison peut améliorer la présentation visuelle, mais ne se résume pas à une simple augmentation de la résolution. Les différences peuvent aussi varier suivant les lieux et les conditions d’éclairage d’une scène.\nCes niveaux traduits servent à comprendre la liste divulguée. Ils ne constituent pas des intitulés français vérifiés dans un menu de GTA 6.\nLa reprise de Sumahodigest souligne la proximité entre PS5 et Xbox Series X : textures, cheveux, simulation de l’eau ou densité du trafic sont notamment présentés comme communs. Cela suggère une même orientation de qualité pour ces éléments, plutôt que deux versions radicalement différentes du monde.\nIl faut toutefois distinguer un niveau de paramètre et son résultat complet à l’écran. Une étiquette « élevée » ne renseigne pas à elle seule sur la résolution interne, la reconstruction de l’image, la stabilité temporelle ou les baisses de fluidité pendant une scène chargée. Le tableau ne suffit donc pas à départager définitivement deux consoles.\nPour le joueur, la comparaison utile se situe dans une situation équivalente : même lieu, même éclairage, mouvements proches et séquence suffisamment longue pour observer les variations. Un arrêt sur image révèle certains détails ; un déplacement peut en montrer d’autres, notamment la stabilité des contours ou l’apparition des éléments lointains. Cette méthode permet de relier les réglages supposés à des différences réellement visibles.\nLes informations relayées mentionnent, sur Series S, une baisse de qualité pour plusieurs catégories : végétation, particules, cheveux, simulation ou densité du monde. La réduction supposée ne concernerait donc pas uniquement la finesse d’une surface regardée de près. Elle pourrait aussi se manifester dans la richesse d’une scène ou dans le nombre d’éléments simultanément présents.\nCela ne permet pas de déduire que des missions ou des quartiers disparaissent. Les paramètres d’affichage et de simulation décrits ne constituent pas une liste de contenus. Le degré exact de différence doit être apprécié dans le jeu ; il serait trompeur de présenter un niveau interne comme une mesure directe de l’expérience entière.\nLa question d’un mode plus fluide revient naturellement dès qu’une version réserve une partie de sa puissance aux effets visuels. La liste divulguée n’établit pourtant ni l’existence d’un mode sans ray tracing accessible aux joueurs, ni le nombre d’images par seconde qu’il atteindrait. Une hypothèse d’allègement graphique reste différente d’une fonctionnalité programmée et testée.\nDans sa présentation technique de la PS5 Pro , Sony décrit un GPU renforcé, davantage de ressources pour le ray tracing et le PSSR. ",
-   "pub": "2026-11-26T07:40:00+00:00",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4ydmpITXZtb2hsYjMxZ3lha0s0WlJ3YUhkc1JmeG1wSC0ySzJLSmZnVTR0b2xvM3NOUmYxdFM1S3M1aVdyWVdBUmtKTnBIMS1OU3JRQlFBdEJyNkRRdllrWC0yaXpOWGFKVGtjc3I4dXhORjZOMDRN?oc=5",
    "s": "Make Tech Easier",
    "d": "2026-11-26T04:23:24+00:00",
@@ -701,12 +634,8 @@
    "s": "CoinGlass",
    "d": "2026-11-25T17:07:00+00:00",
    "lang": "en",
-   "t": "CyberLeek Futures Price | CYBERLEEK Perpetual Price, OI & Funding | CoinGlass",
-   "u": "https://www.coinglass.com/currencies/CYBERLEEK",
-   "img": "https://cdn.coinglasscdn.com/static/og/coin.png?v=1",
-   "chapeau": "CyberLeek is $0.001038 today, −6.15% in 24h, market cap $762.25K, ATH $0.03143. Plus a live CYBERLEEK chart, candlesticks and a currency converter.",
-   "txt": "",
-   "pub": "",
+   "t": "CyberLeek Futures Price",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -762,6 +691,15 @@
    "cyberleek": true
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNd1FKZmhHVVV2WTlTVnJJRVlBR3BKZFE2YXdhbmIyTUdVQzA3bk1EZFRCOHc3NXFqUXY0SVF4SkVhT1FZQ0NjQnpJMUNodDJOTTdoTFljVnhSNF9zZzZzdkpQTmdBLWU4cms0bi0tcW9zTS1mZmt0dU1KVTNSSENYeXJoWmRIcl9PczVGQmFHVjAyS0dPZlcxLXFQcG8wZ3pCRHRZck9LZ1dMM2pVOUY3VnRmQ0Zob0h2Y3BxTV9OWEdSV01kMEFjY284VEY0Q3ZMeXFVSUd1WUZxbUhfbU10eGotd2lQRG9VQTBPZW5JNDMzQXljQ0c2SE50NldHdWdFN1R0bg?oc=5",
+   "s": "Le Journal du Centre",
+   "d": "2026-11-25T14:41:00+00:00",
+   "lang": "fr",
+   "t": "Il tente de voler GTA VI dans un magasin à La Charité-sur-Loire puis sort un couteau pour prendre la fuite",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNUDczM2RIY3JnY2xIbEdqWmVJOFdwRlNIZ1dENWJxVXpDcFdNNnVSWnBXbU4zRS1lZ1ZkamJKMWE5X0U5c2RZcDFVbmI1S3JoVmtTeGpaQ2NGR2pwaVlEM2hCYTQ4alVXS2VMOVY4eUJSQ1E0Vlp2VV9rUXpBTnJydENBel9LQklIME4wOTdSUEhIUHFINnpoaHJockxncG04U1Y0MEdyY0pkM3MtRWQ2TWJEQV9YRVlsTURscFVkMEVqRlRYcE9oUTRkRVRPMXVmSEZZR0gyOVd4U1ZvYzZ6RkV0TjBNWWc?oc=5",
    "s": "IGN",
    "d": "2026-11-25T12:44:12+00:00",
@@ -806,24 +744,16 @@
    "d": "2026-11-25T07:48:00+00:00",
    "lang": "en",
    "t": "“GTA 6”: Take-Two gets unofficial PC port removed from GitHub",
-   "u": "https://www.heise.de/en/news/GTA-6-Take-Two-gets-unofficial-PC-port-removed-from-GitHub-11537104.html",
-   "img": "https://heise.cloudimg.io/v7/_www-heise-de_/imgs/18/5/2/0/7/6/5/9/Jason_Duval_07-763a916c24d34b43.jpg?func=bound&height=1200&org_if_sml=1&q=85&width=1200",
-   "chapeau": "Project Leonida aimed to bring the leaked Xbox version of “GTA 6” natively to Windows. Take-Two’s DMCA notice has taken it down.",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQRHVJWjExS0R0U0dBSGJfeTEtd2xsQm40dFdmLWF4ZnVvVy0yWjFtZFMxRE5qT0NGdGFWa0lqbU5mdTdQVTdKT1p5amgzdjladU8zR2pndjRfYm9JajRzM0V4X3hWMmlycmVTZ3lTSVBrUWVjcDdnLVBpc3V3S2FfQlJxcW5QOXEzaE04VGVFUlNaZXI5LVR6RVZLWWhHZndEcHBKZnQzeTlHTkNaMVRRTGZSYUFySjhaZmJfSXBvUi13cXQzNXJRMnp1VW5ObktnSVdIUk90dTh1c3ZoUkJ3M0xmd3hUQmFIaEhTQk1EcUxGLTNvbGt0Uk9oRDFfbjNsbl93T2pNandKcTdrRkpiWTZfU3IyMEk?oc=5",
-   "s": "La Crème Du Gaming",
-   "d": "2026-11-25T06:30:00+00:00",
+   "gn": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBiQTlfcGtOZ2ZoRU9aTmFNZUZfYklUQ01ob2QzcXZ5Z3FmcGlXSGNYZmhTNVhyMlRoc21FNzQxUU5ESXJ0blJpYkNuQjhEMXVBRF9ocnBiWElqSk1uaVcwR0dIMS10R1NrM1JXRnNpWjR0eEE?oc=5",
+   "s": "Presse-citron",
+   "d": "2026-11-25T06:54:04+00:00",
    "lang": "fr",
-   "t": "Quelques heures après la dernière fuite de Cyberleek, les moddeurs ont déjà réussi à lancer GTA 6 sur PC et les progrès s",
-   "u": "https://www.lacremedugaming.fr/jeux/gta/gta-6/quelques-heures-apres-la-derniere-fuite-de-cyberleek-les-moddeurs-ont-deja-reussi-a-lancer-gta-6-sur-pc-et-les-progres-senchainent-235766.html",
-   "img": "https://sf.lacremedugaming.fr/wp-content/uploads/creme-gaming/2026/11/quelques-heures-apres-la-derniere-fuite-de-cyberleek-les-moddeurs-ont-deja-reussi-a-lancer-gta-6-sur-pc-et-les-progres-senchainent-1200x660.png",
-   "chapeau": "Quelques heures après la dernière fuite de Cyberleek, des moddeurs font déjà booter GTA 6 sur PC, écran titre et menus à l’appui. Mais derrière ces exploits spectaculaires, que vaut vraiment ce fameux « GTA 6 jouable sur PC » qui affole les réseaux ?",
-   "txt": "Quelques heures après la dernière fuite de Cyberleek, des moddeurs font déjà booter GTA 6 sur PC, écran titre et menus à l’appui. Mais derrière ces exploits spectaculaires, que vaut vraiment ce fameux « GTA 6 jouable sur PC » qui affole les réseaux ?\nQuelques heures après la mise en ligne du fichier exécutable Xbox de GTA 6 par le hacker Cyberleek , des moddeurs sont déjà parvenus à lancer le jeu sur PC. Sur certaines configurations, le logo de Rockstar Games apparaît, l’écran titre se charge, puis la séquence de configuration initiale défile comme sur console avant de planter. Pour un titre officiellement limité à la PS5 et à la Xbox Series, la vitesse des progrès surprend même les habitués de la scène modding.\nTout est parti de la fuite d’une build Xbox Series d’environ 209 Go, publiée le 19 novembre, mais inutilisable sur PC sans son exécutable. D’après Notebookcheck, ce dernier a été ajouté quelques jours plus tard, déclenchant une véritable course contre la montre pour faire booter GTA 6 nativement sous Windows. Où en est vraiment ce portage non officiel, et faut-il déjà croire aux vidéos de « GTA 6 jouable sur PC » qui envahissent les réseaux ?\nLa clé, c’est que la version Xbox Series de GTA 6 repose sur une architecture processeur x86-64, la même famille que la majorité des PC de jeu. Les kits de développement Xbox utilisent des API proches de DirectX 12, ce qui réduit la distance technique à parcourir pour Windows. Plutôt que d’émuler entièrement la console, les moddeurs peuvent réécrire une partie des appels système et traduire les shaders pour qu’ils soient acceptés par un GPU PC.\nRésultat : alors qu’au départ le jeu se contentait de lancer l’exécutable avant de crasher immédiatement, Notebookcheck rapporte qu’il passe désormais l’écran de boot et tout l’outil de configuration initiale. Certaines équipes affirment même atteindre la cinématique d’intro autour de 30 à 40 images par seconde, mais aucun monde ouvert jouable et stable n’a été montré de façon crédible.\nUn moddeur mentionne déjà environ 770 Go occupés sur SSD après décompression du dump Xbox et recompilation de plus de 26 000 shaders, ce qui donne une idée du chantier. À ce stade, l’expérience se limite à faire démarrer l’exécutable Xbox, afficher les menus et observer où le jeu plante pour corriger les appels manquants. Aucun installateur simple ni lanceur Windows « prêt à cliquer » n’existe pour le grand public.\nParallèlement, d’autres bidouilles ont consisté à faire tourner GTA 6 via une PS5 en streaming local sur PC, puis à injecter le DLSS 5 de Nvidia . Le DLSS est une technique qui rend le jeu dans une résolution plus basse puis reconstruit une image plus nette, ce qui permet de débloquer le frame rate au‑delà de 30 fps et d’améliorer la fluidité. Mais là encore, on reste dans le domaine de la démonstration technique, pas d’un port PC natif et distribué.\nNotebookcheck estime qu’au rythme actuel, une build PC non officielle pourrait apparaître sur des sites de piratage dans les jours à venir. Cela ne signifie pas pour autant une version stable : la plupart de ces « GTA 6 PC full version » ont toutes les chances d’être des malwares déguisés , capables de voler mots de passe, comptes de jeu ou cryptomonnaies. Juridiquement, télécharger et exécuter ces fichiers reste de toute façon illégal.\nOfficiellement, Rockstar Games et Take-Two Interactive n’ont annoncé aucun port PC de GTA 6 . La seule façon légale d’y jouer sur ordinateur reste le Remote Play ou le cloud depuis sa propre console. Dans le même temps, l’auteur de la fuite se justifie : selon Notebookcheck, Cyberleek affirme « se battre contre les fonctionnalités verrouillées derrière des paywalls et les 20 dollars facturés en plus pour l’Ultimate Edition », tout en utilisant un memecoin $CYBERLEEK pour financer son projet, sans le rendre obligatoire pour accéder aux fichiers. Rockstar chercherait activement à l’identifier par des moyens juridiques, pour l’instant sans succès.\nAu final, oui, GTA 6 boote déjà sur certains PC de moddeurs, ce qui est un signal fort sur la proximité technique entre Xbox Series et Windows. Mais non, il n’existe toujours pas de « GTA 6 jouable sur PC » accessible, fiable et sûr pour le joueur lambda. Pour l’instant, le feuilleton profite surtout aux passionnés de reverse engineering et aux cybercriminels à l’affût des plus impatients.",
-   "pub": "2026-11-25T06:30:00+00:00",
+   "t": "GTA 6 sur PC : Rockstar Games doit se dépêcher, la course pour créer une version non officielle a déjà commencé",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -850,6 +780,24 @@
    "chapeau": "Just wait for the official PC version of the game to come out.",
    "txt": "Don't try to port Grand Theft Auto VI to PC yourself — or you'll potentially find yourself in big legal trouble.\nGTA 6 may finally be out on Xbox and PlayStation 5, but that doesn't help out the PC gaming faithful, who still have much longer to wait for their version of the game.\nAs a result, some impatient gamers have recently attempted to create PC ports of the game themselves. Notorious GTA 6 leaker, Cyberleek, also recently released an executable .exe file of the Xbox build of the game, which helped those efforts. Even without Cyberleek, these efforts were probably inevitable, as new AI tools have led to a surge in PS5 jailbreaks and unauthorized ports of classic video games.\nHowever, Rockstar Games' parent company, Take-Two Interactive, clearly does not approve of these unofficial attempts to bring GTA 6 to PC ahead of schedule. On Monday, the company had the biggest GTA 6 PC port project, known as Leonida, taken down. So far, GTA 6 has generated billions of dollars, and the PC version could bring in billions more. And when it comes to protecting their IP, Take-Two and Rockstar aren't messing around.\nGitHub, where the project was hosted, posted a Digital Millennium Copyright Act (DMCA) notice it received from Take-Two.\n\"We are the IP Enforcement Team for Take-Two Interactive Software, Inc., parent company of Rockstar Games,\" the notice reads. \"We are writing to submit a takedown request regarding ItsNotRexed's GitHub repository and the 2900+ forks attached to it that infringes upon Take-Two's copyrighted works and facilitates copyright infringement of Rockstar Games title, Grand Theft Auto VI.\"\nTake-Two explains how the project is based on the company's stolen IP, the Xbox version of GTA 6 . Our Best Editor-Vetted Black Friday Deals Apple AirPods Pro 3 Noise Cancelling Heart Rate Wireless Earbuds — $149.00 (List Price $249.00)\nApple Watch Series 12 (GPS, 42mm, S/M Sand Sport Band) — $299.00 (List Price $399.00)\nSamsung Galaxy Tab A11+ 128GB Wi-Fi 11\" Tablet (Gray) — $199.99 (List Price $299.99)\nRing 2K Battery Doorbell (2026 Release, Speckled Gray) — $38.99 (List Price $99.99)\nBlink Outdoor 4 1080p 3-Camera Kit With Sync Module Core + Doorbell — $65.99 (List Price $259.98)\nAmazon Fire TV Stick 4K Plus Streaming Player With Remote (2025 Model) — $29.99 (List Price $69.99)\nLogitech G Pro X2 Superstrike Haptics Wireless Gaming Mouse (Black/White) — $149.99 (List Price $179.99)\nAmazon Alexa Tablet 12 Pro 128GB Nanomatte Tablet (2026 Release, Graphite) — $399.99 (List Price $549.99)\nApple iPad Mini A20 Pro Chip 128GB Tablet (2026 Release, Midnight) — $599.00 (List Price $699.00)\nApple iPad 11\" 128GB Wi-Fi Retina Tablet (Blue, 2025 Release) — $379.00 (List Price $449.00)\n\"On November 20, 2026, stolen game files from an Xbox Series build of Grand Theft Auto VI were publicly distributed,\" the takedown notice reads. \"The following day, this Leonida repository opened with the purpose of running the Xbox Series version of GTA VI on PC. Its README requires Xbox Series game files as input.\"\nAccording to Take-Two, Leonida attempts to get around the IP issues by instructing project contributors to \"bring your own files.\"\n\"This is intentionally misleading,\" Take-Two explains, pointing out that the files in question are the unauthorized GTA 6 files leaked by Cyberleek.\nAs our colleagues at PCMag point out , this is just one of many unauthorized projects attempting to bring GTA 6 to PC before the official version comes out. (Disclosure: Mashable and PCMag are both owned by the same parent company, Ziff Davis.) Other projects have reportedly managed to get the game's opening scene running on PC. Another has an extremely degraded version of the game running on Mac.\nAccording to the Leonida project admin , Take-Two also successfully had the Discord server for the GTA 6 porting project taken down as well, so it does seem like the company is going to ramp up its takedowns of any attempted GTA 6 ports.\nGTA 6 for PC has no official release date. However, GameBeat recently reported that the PC version may be released in early 2027, well before most gamers expected.\nWant more tech and digital culture news delivered to your inbox daily or sent straight to your device? Sign up for Mashable's Top Stories newsletter or get Mashable push alerts today.\nMatt Binder joined Mashable's tech vertical in 2018, where he covers social media, tech policy, cybersecurity, online scams, cryptocurrency, AI, creator news, weird tech, and other related tech b",
    "pub": "2026-11-24T22:46:36+00:00",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRkJHeVI5VWpHZE5QZnpTeEtveXlOYU9RenNuR1d2eXQyVlB3YnVEZzhSVFdBc3NoODVOUjE5OHNSWEdjQXdHeU4za3dCdHdoNkhsZWFUQ2l4WkhFclllNnpsR1lUQllCWEtYa2phYUhuNmFkYzRfSWlsUktWTFNMWDBSM0xxU0d2QVFJUVdreWJ1bDNNQmFhcWdOQjBENDFGay0zVW84UFBBaFJQTWFFUjZVYnFIVnpj?oc=5",
+   "s": "DLCompare.com",
+   "d": "2026-11-24T21:00:00+00:00",
+   "lang": "en",
+   "t": "Cyberleek pushes GTA 6 PC efforts forward with the Xbox build .exe release",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNnNDU0dLZm1fZnVxdVVPZnBOVFZvaUZ2eEFDLTlWWnhiSTR0blRJZkg3TnJJeF9VWUZlUWp6TWVGU1RpbzNaNjN3X2hONWZVeEg4SFdER3VBYTdyNEdTblpfNi02c2llOE56b2gtRVhSN3FLaExaOG9kLWJUYnRFNw?oc=5",
+   "s": "Cointribune",
+   "d": "2026-11-24T19:41:10+00:00",
+   "lang": "en",
+   "t": "Crypto: The GTA 6 leaks turn into a financial fiasco",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   }
  ]
