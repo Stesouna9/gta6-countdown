@@ -1,8 +1,27 @@
 {
  "title": "Le buzz GTA6",
- "updated_at": "2026-11-28T08:12:46+01:00",
+ "updated_at": "2026-11-28T09:01:00+01:00",
  "schedule": "Veille toutes les 2 h, de 8 h à minuit",
  "items": [
+  {
+   "id": "x-lucia-valentina-photo-gtavi-countdown-2026-11-28",
+   "title": "GTA 6 : Lucia et Valentina photographiées ensemble, selon @GTAVI_Countdown",
+   "summary": "@GTAVI_Countdown publie une photo de Lucia (Manni Perez) et Valentina (Josephine Phoenix) posant ensemble, présentée comme une image « dans la vraie vie ». Le post ne précise ni le lieu ni la date de la prise de vue. Photo non vérifiée par la veille ; un seul compte la relaie.",
+   "url": "https://x.com/GTAVI_Countdown/status/2126551566576673120",
+   "platform": "X",
+   "author": "@GTAVI_Countdown",
+   "status": "Rumeur",
+   "published_at": "2026-11-28T05:39:37.000Z",
+   "checked_at": "2026-11-28T09:01:00+01:00",
+   "evidence": "Vues relevées dans data/x_alertes.json (maj du 28/11, 09 h 01 UTC) : 35 220 vues, 2 536 j'aime, 127 republications, 178 signets, 12 réponses. Un seul compte relève l'image.",
+   "visual": "Lucia et Valentina",
+   "image": "https://pbs.twimg.com/media/HYMGxe5XEAAkmeR?format=jpg&name=360x360",
+   "image_alt": "Image du post de @GTAVI_Countdown : Lucia et Valentina ensemble",
+   "image_credit": "@GTAVI_Countdown sur X",
+   "embed_type": "x",
+   "cta": "Ouvrir la publication sur X",
+   "post_text": "Lucia (Manni Perez) and Valentina (Josephine Phoenix) in a newly shared picture together.\n\nReal life                              GTA 6"
+  },
   {
    "id": "x-mandy-ps5-jailbreak-gtavi-countdown-2026-11-28",
    "title": "GTA 6 : des modders remplaceraient Lucia par Mandy sur PS5 jailbreakées, selon @GTAVI_Countdown",
@@ -40,6 +59,25 @@
    "embed_type": "x",
    "cta": "Ouvrir la publication sur X",
    "post_text": "In GTA 6, trees will actually catch fire and burn after getting struck by lightning. Rockstar thought of everything."
+  },
+  {
+   "id": "x-scooter-pnj-police-gtavi-countdown-2026-11-27",
+   "title": "GTA 6 : une vieille dame en scooter vole un PNJ, la police refuse d'intervenir, selon @GTAVI_Countdown",
+   "summary": "@GTAVI_Countdown raconte une rencontre aléatoire dans GTA 6 : une vieille dame sur un scooter vole un PNJ, qui appelle la police ; les policiers refusent d'intervenir et lui demandent de rattraper la voleuse lui-même. Scène relayée par un seul compte, sans vérification par la veille.",
+   "url": "https://x.com/GTAVI_Countdown/status/2126448250060177649",
+   "platform": "X",
+   "author": "@GTAVI_Countdown",
+   "status": "Rumeur",
+   "published_at": "2026-11-27T22:49:04.000Z",
+   "checked_at": "2026-11-28T09:01:00+01:00",
+   "evidence": "Vues relevées dans data/x_alertes.json (maj du 28/11, 09 h 01 UTC) : 22 853 vues, 615 j'aime, 51 republications, 89 signets, 23 réponses. Un seul compte relève la scène.",
+   "visual": "Vieille dame, scooter",
+   "image": "https://pbs.twimg.com/amplify_video_thumb/2126447425652961280/img/Z6up5jWxKMMe8y-5.jpg",
+   "image_alt": "Image du post de @GTAVI_Countdown sur la vieille dame en scooter",
+   "image_credit": "@GTAVI_Countdown sur X",
+   "embed_type": "x",
+   "cta": "Ouvrir la publication sur X",
+   "post_text": "Funniest random encounter so far in GTA 6.\n\nAn old lady on a scooter robs an NPC so he calls the cops, but they refuse to help and tell him to chase her himself."
   },
   {
    "id": "x-influenceurs-ia-lucia-gtalphaintel-2026-11-27",
@@ -7928,6 +7966,11 @@
    "at": "2026-11-28T08:12:46+01:00",
    "label": "Passage Claude Haiku (Matière X, veille 2 h)",
    "summary": "3 sujets ajoutés, un seul compte chacun, Rumeur : modders qui remplacent Lucia par Mandy sur PS5 jailbreakées (100 960 vues, @GTAVI_Countdown), arbres qui brûlent après la foudre (34 193 vues, @GTAVI_Countdown), influenceurs IA modelés sur Lucia (24 346 vues, @GTAlphaintel). Non retenus (plafond de 3 par passage) : trottinette de la vieille dame (20 469 vues, @GTAVI_Countdown) ; sous le seuil de 20 000 vues, un seul compte : chaînes à tronçonneuse chez Rockstar (15 467), Reed Timmer (17 231), Scarface (14 596)."
+  },
+  {
+   "at": "2026-11-28T09:01:00+01:00",
+   "label": "Passage Claude Haiku (Matière X, veille 2 h)",
+   "summary": "2 sujets ajoutés, un seul compte chacun, Rumeur : Lucia et Valentina photographiées ensemble (35 220 vues, @GTAVI_Countdown) ; vieille dame en scooter qui vole un PNJ (22 853 vues, @GTAVI_Countdown). Non retenus : chainsaws Rockstar (19 306 vues, @GTAlphaintel) et Reed Timmer (19 259), sous le seuil de 20 000 vues ; posts gta6hubfr sur leur propre app et site (promotion, pas un sujet GTA 6) ; cocaine flamingos (2 188 vues)."
   }
  ],
  "coverage": {
