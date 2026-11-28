@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-28T00:26:42+00:00",
+ "maj": "2026-11-28T00:46:58+00:00",
  "articles": [
   {
    "gn": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNS3IxeVJXSVpQZHM3c1JUMDlSLXo3U0F0Z0tWX2xpWm9ienlFZGJibktiRDVGRUplTTBwNllmaV85ZGxHZEpxSnJWTmtQNzNTUGRSNWhaSkRYN3JpeVp6VEh0WTVuVnJpYUhyMG84QTd6WGk4TTdDVnluckNiZERIb05pZkYzZkdGcEdOQUJYWDlCbTUwQ1Qwb0dKWjlYQlRJa0ZZeVJaYjNTRGJFdmNkVmp0TUFtdlk4UTFNMVpMWQ?oc=5",
@@ -7,7 +7,7 @@
    "d": "2026-11-27T23:58:00+00:00",
    "lang": "en",
    "t": "Gone but not forgotten: Cape Romano Dome Homes appear in GTA 6",
-   "erreur": "HTTP Error 402: Payment Required"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdUo3bVdoNE9QSUp2TGt6QVlsMTBlcEtBWXc5UkhoYTBJLVk4alg3b3czRERpZDB1OE02UlIwYllDV2RMeTVGbndET1V5Q2ZpcU1laW9jbHNVMjZiRDBNWHkzRmVVaktnWmxlNHg3VG5aVHlEMFRBaUgyVmJOSHVjdQ?oc=5",
@@ -27,7 +27,7 @@
    "d": "2026-11-27T23:34:09+00:00",
    "lang": "en",
    "t": "How to Unlock the 1010 Murals Snapmatic Post in GTA 6",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOU2lTMDFzY0JqUFNXNnd2SFV2Y0JSTlpybHVCNkNHZkVJdURxSDNtdHhqTERHcVNPaFI2V0hiWHBXby1XdnRZWlRDWVhLNHlSNVY3RWtxYlNuVDJ6SF9oVmpNVDJYdHVjZ3hobFhuWTEzVlVJWkgtVFRFUU1UTzAySXJIVF9KWkhnMGdYdk8wU2wyVzdobXRnWm9DQ19sS1F3Tzk4b1NqNjJCXzBQQ1VpZTVSbFNWQQ?oc=5",
@@ -35,7 +35,7 @@
    "d": "2026-11-27T23:30:59+00:00",
    "lang": "fr",
    "t": "La comparaison de GTA 6 avec les premières bandes-annonces a révélé des différences graphiques significatives.",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "HTTP Error 429: Too Many Requests"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOS16bDBkR3Y5SHN0VnpuOVgxZFY5eUJUTDBIekhUSVZobVBVdU9KNkdFczNMVlhwaXQ3RFNyNEVHUE52ZFJnV3ZwZUYwUnlxajV5eVFWdXJlT2s5NnVxay13ZTA1Q1JCNzZNTE5LMnppRjNlRXhReFd2QWk4dndTNmN4UHM1bjF6ME9QNG1uZEx2N3lzWE5wUm9NWUk5cHBJNzVTYWJ4MHFJUFQxd3Z1SllySkhzUQ?oc=5",
@@ -43,7 +43,7 @@
    "d": "2026-11-27T23:30:59+00:00",
    "lang": "en",
    "t": "Comparison of GTA 6 with early trailers revealed significant differences in graphics",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPME5KRE4zbWVZS011Q1pncExwRXJlSzBnT1VLT09SMU9zRVJJM0N5SkZtSjViM0pvV2VRVWhHaTg0VkxzV3Y2ckRDS1RjNjAzT1JqX1U1ZDN2dFJBbDFrcHByZ1d4YW1fYUZlbXBseGlVZnVpZjZkU0VobU55aEVXcmVQdlFpQVJ6a3VNeFo4YWl4ellNd3ZHRUVJMUdOY2hJckxGVjNlUXZwNi1ONTZyT25XenZNNm12dWN4ZlJMMFgyMDRoSFNDSjhRMUZlT21WNFhEdWRrXzducGEtZUZNR3VWTmI4azh0QU80Nk9NaFhHQzQ?oc=5",
@@ -51,7 +51,7 @@
    "d": "2026-11-27T23:04:01+00:00",
    "lang": "en",
    "t": "GTA 6's headphone feature was originally planned for GTA: Vice City back in 2002, former Rockstar developer reveals",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdk5mdkY2M0xrZFhtV3oySzNyV2xvSzRrcHRtejd2c3VjRzcwcGFxbnBvcDJIcnRlTHJaTTJ4ZmVtb0ltYWhoOExRcnIweGt2TGMtVUstYlZ2REd6RkdXdVZpd1FXYm9QdHN0el9xY3E5SUNFVVNTb1g4RjN4Q0JnV1l6WGE?oc=5",
@@ -71,7 +71,7 @@
    "d": "2026-11-27T22:56:00+00:00",
    "lang": "en",
    "t": "Employees at GTA 6 develop Rockstar Games reject union",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUVU0N1pTN1Z5RjZqTUFGemtwNTROcE53RHpqOTFORncyOWJpZVJzYjlmMzAyQjZmbmJVZXVwRGZhTElYNFdnYk1wU0NZTU42R3dVdU1QbEQwaWdpZkYyOGhORFZuT25mZjZCcEliZ29PVnloaDZHS20zMFQzYXVTTXh6ZFdfeUdjODRMeTlOX1lPb21UWUE?oc=5",
@@ -134,16 +134,20 @@
    "pub": "2026-11-27T21:39:45+00:00"
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMkh6Wjl1OWJnNVlES24wSjVKS2Q2cEtJSm03RGpQQ1EwTk9wYkR3WVdqSDd4N04yc0xxSTJmRGNKZUtLN0N4YTdBWnFRZDdEN2tMZFlYTkxPczk4MTkzd1JMZ3pWVnhMRV9PV1JZRUtwbjYwS1Zld091VW9RUnNFS3RLWG9oX0tkSGYtNl9rZGo?oc=5",
+   "s": "The Ankler",
+   "d": "2026-11-27T21:38:47+00:00",
+   "lang": "en",
+   "t": "‘GTA 6’ Rejected Hollywood. ‘Red Dead Redemption’ Is in Play — for $100M+",
+   "erreur": "429 : passage suivant"
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1OWHppSERJWnE4RnVjRzR5dlZtS2JDbU1XOC1nTTNVRjhaWlRMNFRFdXZZWDVXODQ4ekw3VF9jVFBjYWRVZm52ZEFuczhrSDcxOFR0S1BMZjFmSU1udzM5dG5pTlB1OWs?oc=5",
    "s": "IMDb",
    "d": "2026-11-27T21:35:47+00:00",
    "lang": "en",
    "t": "The Witcher 4 Will Be a GTA 6-Sized Leap Forward, CD Projekt Red Says",
-   "u": "https://www.imdb.com/news/ni66130953/?ref_",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": ""
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9iVTRnWUV1Yk1rREpMb0ZfekxiWERiNmJYbUxJYTdlUElFWWoya282SFN5RTFEbF9CSmF3WnpDTmxrQ2NGa0VicW5vYnd3T2RCZHh2UndxVTFFNWx6Tlc3UlhEa3ZJU1RXUks5MjlKWjEwN2NTQmdrQUFn?oc=5",
@@ -151,11 +155,7 @@
    "d": "2026-11-27T21:35:42+00:00",
    "lang": "fr",
    "t": "GTA 6 est disponible : ce que son gameplay confirme vraiment",
-   "u": "https://www.julientellouck.com/wp-content/uploads/2026/11/gta-6-gameplay-contenu-plateformes-prix.jpg",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": ""
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1uc1lzX1NsVlhnNnNxZWg0dV95dUl0dE5rdTB1WTlYbE5ZeFVKRXZ6NF9rOEZOcmZTNkd6NV9FRVR0RVhPT1hSU1FBSzB6VzNQak41Y2s1X1BiWURiX2ZBYnZEangydw?oc=5",
@@ -163,23 +163,7 @@
    "d": "2026-11-27T21:35:41+00:00",
    "lang": "fr",
    "t": "GTA 6 : le voyage rapide en taxi n’est pas confirmé par Rockstar",
-   "u": "https://www.julientellouck.com/wp-content/uploads/2026/11/taxi-gta-6-voyage-rapide.jpg",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": ""
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQjNSYjM3YjZVeGoxRlh4c3BUWVBWTWp1dWhNTW85Zm43aUtCUFFwMkQ1bHJkZkNIam8tYWswSDlwb0ZIdzJNWmE0TGhhQnItRnJKYzJoN0VtT1I3eDgxaXVoenVLTUhuSVJEbkVTQ1d3MmY0QTg3WkQ4NEF4WFdHM0trazVyTDFnd2VNTkpjazJYSkpaZVNjUHd3R19SY0NEREJ6NWhFVFJNdVBK?oc=5",
-   "s": "NME",
-   "d": "2026-11-27T21:29:39+00:00",
-   "lang": "en",
-   "t": "'GTA 6' Lucia actor makes first statement since the game's launch",
-   "u": "https://www.nme.com/news/gaming-news/gta-6-lucia-actor-manni-perez-whirlwind-launch-grand-theft-auto-3977116",
-   "img": "https://www.nme.com/wp-content/uploads/2026/11/Lucia_Caminos_Grand-Theft-Auto-6.jpg",
-   "chapeau": "\"Life has been such a whirlwind”",
-   "txt": "Manni L Perez’ Lucia Caminos in ‘Grand Theft Auto 6’. CREDIT: Rockstar\nManni L Perez, the actor behind Grand Theft Auto 6 protagonist Lucia Caminos, has spoken publicly about the role for the first time.\nIn the months leading up to Grand Theft Auto 6 ’s release, Perez had been rumoured to be the actor behind Lucia . She worked with Rockstar Games on the 2019 ‘Diamond And Casino & Resort’ update for Grand Theft Auto Online , voicing an unnamed blackjack dealer, and in 2025, she said she was working on something “ big ” but couldn’t reveal any more about it due to “non-disclosure agreements”.\nHer role as Lucia was confirmed when she was nominated in the Best Performance category at The Game Awards 2026, the day before Grand Theft Auto 6 launched. Yesterday (November 26) she took to Instagram to reflect on the response to the game.\n“Life has been such a whirlwind these past couple of days and I just want to take a moment to say thank you,” she wrote. “Thank you to all the new followers, to all the beautiful messages, and the positive reception the game and my character have received. I’ve dedicated almost a decade bringing Lucia to life. She’s been such a significant part of mine and I am beyond grateful she now gets to be a small part of yours.”\nMeanwhile Jason actor Dylan Rourke wrote : “Years witnessing the hardest working and most skilled artisans game making has to offer. We are truly honored to collaborate on this worldwide testament to human creativity, ingenuity, and sheer willpower. So much learned and so much to learn, keep fighting for what you love, stay humble.”\nSpeaking to Love Magazine (via Insider Gaming ) earlier this year, Grand Theft Auto 6 writer Alexa D’Agostino said the goal was to create a “full realised person” with Lucia , who is the first fully-voiced female protagonist in GTA history. “That’s how you get a woman that can stand tall next to the likes of Arthur Morgan [from Red Dead Redemption 2 ] and [ Grand Theft Auto 4 ’s] Niko Bellic.”\n“When it came to writing Lucia, I thought of the women I know,” she added. “My mother was an immigrant who grew up in Newark, New Jersey, close to Lucia’s hometown of Liberty City. I thought about the way she raised me: rowdy, kind, but not to take any shit. I related a lot to Lucia, and writing her came very naturally to me. There are many badass women like her, just as there are many men like Jason. We just focused on capturing that.”\nAccording to the latest reports, Grand Theft Auto 6 sold more than 44.9million copies in its first four days.",
-   "pub": "2026-11-27T12:32:24+00:00"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQeVU5b3o4NjAtcFROZzN5dUZ4TFUzVFNSMkZLMVJwRWFCc2ZTSGk1ajNka0hNdWxSRkJPR1ZzU0dueUd5UlNVdzZIMWxoY3l3bDBGbTlsUGFxam80dy1XMFF1MzZDWEZ1ZEd2VzNtczJoMjZHeTVISTZaU084MUR1T2Z1VQ?oc=5",
@@ -199,11 +183,7 @@
    "d": "2026-11-27T21:23:35+00:00",
    "lang": "en",
    "t": "GTA 6 review: a near-perfect masterpiece with one frustrating flaw",
-   "u": "https://www.ynetnews.com/tech-and-digital/article/hkogxdvy7x",
-   "img": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/11/16/ByzForOCMg/ByzForOCMg_0_0_1285_722_0_large.jpg",
-   "chapeau": "Rockstar has justified 13 years of anticipation with an astonishingly detailed open world, a more mature story and exceptional gameplay; even its frustrating 30 FPS limitation cannot spoil the experience, though one surprising flaw keeps it from earning a perfect score",
-   "txt": "",
-   "pub": "2026-11-27T21:23:35.579327Z"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQT05LTmdhUmNnV1o2RTBSV3I5QWNsdVFaZnE3eXNocTVSYVZ2R1VjdjlXTEY4SnUwTFEzYmtaOXdud3pKYkM5OGxGcUw3RThGWDBnTUtfMVE1NWJucWtudEltTklwUHZ3NEtKb2ZDdHhZWG9MQnR6M0oyMEJfUEpLRTdTZzZpZXZaTXp6Z2NjTVBVYnFrS21zRHAxYkIwZW82RE5NdnR1akpaR3hoVDV0bVByalM4NC1qR0ctRDV4aGFtelVVSnhDYlVraTFQSnNFemVB?oc=5",
@@ -223,11 +203,7 @@
    "d": "2026-11-27T21:10:40+00:00",
    "lang": "fr",
    "t": "GTA 6 à 30 fps sur PS5 Pro : aucune confirmation officielle",
-   "u": "https://www.julientellouck.com/wp-content/uploads/2026/11/gta-6-ps5-pro-30-fps-non-confirmes.jpg",
-   "img": "",
-   "chapeau": "",
-   "txt": "",
-   "pub": ""
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMifkFVX3lxTE56dG5uaDg4ZXlPV3lJTHZoUWxSXzg1cEk1SGtrdkxfRGo5dUtxNmRjU05sa2gtMGdXcHF4a0ZSQ1lzbDllMFFJYjdia3FjYWlCd29VS01tZXJMVDBOM1dYN1RSTDlHR2xySVg5WGtwTDRlbF9KVV9SYkxXZVhYZw?oc=5",
@@ -259,7 +235,7 @@
    "d": "2026-11-27T20:40:08+00:00",
    "lang": "fr",
    "t": "Rockstar va ajouter du contenu dans GTA 6 : la map va s'enrichir",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVmpua1ZwdEJrd25ZNWcwdlJNUUZMQkxFN0c3SF93WVZ1T3I3bFU1SzFPQnVwTy00MnpEOU8tZ3J1dmloQUp3YnpxWG4xaHBTVjV2b1dOOGM5VnpXZjMtODF0MnZ3dENic1I3N0tlT0ZLWG5BR3oyWndzako1c2R5OEptck1vVkl4Qk9naFJOMlZGaW9LTVVGNi1tWGQ4Z0FhTjc0RExNRGdZdnotR1Zkdzd3?oc=5",
@@ -278,12 +254,8 @@
    "s": "Facebook",
    "d": "2026-11-27T19:30:14+00:00",
    "lang": "fr",
-   "t": "25 K vues · 175 réactions | Pendant la conception de \"Grand Theft Auto VI: Original Score\", la bande originale de GTA VI par Justice, Xavier de Rosnay et Gaspard Augé n'imaginaient pas forcément \"Flower In A Hurricane\" devenir le tube de l'album. Il est actuellement numéro 1 mondial sur Apple Music et sur Spotify.\n➡️ https://l.franceinter.fr/Nj3 | France Inter",
-   "u": "https://www.facebook.com/franceinter/videos/lhistoire-de-flower-in-a-hurricane-de-justice-pour-gta-vi/3752118828289371/",
-   "img": "https://scontent-cdg4-1.xx.fbcdn.net/v/t15.5256-10/934915533_3752118861622701_373706424389754683_n.jpg?_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=596eb7&_nc_ohc=81iKTgOiBDYQ7kNvwHbn7Ct&_nc_oc=AdodXXvB86_GxyFgrxVt7Rr3gnMz18vVArpk8OY-hwHcaYrde0Jmpa3xBn9EJO-i32EABj3hwPrTASNT5k6ZjhU0&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=pjeXPhuGL9ihaQ3Ky7tIeQ&_nc_ss=7030f&oh=00_AQVh0atcF-4ZZbCJSmgO4PnX2aY0juyor2kXegJe93YR2A&oe=6B0FE2E8",
-   "chapeau": "Pendant la conception de \"Grand Theft Auto VI: Original Score\", la bande originale de GTA VI par Justice, Xavier de Rosnay et Gaspard Augé n'imaginaient pas forcément \"Flower In A Hurricane\" devenir...",
-   "txt": "",
-   "pub": ""
+   "t": "France Inter. . Pendant la conception de \"Grand Theft Auto VI: Original Score\", la bande originale de GTA VI par Justice, Xavier de Rosnay et Gaspard Augé n'imaginaient pas forcément \"Flower In A Hurricane\" devenir le tube de l'album. Il est actuellement num",
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNZjlxMDlDVHVVcXZhenVzR0phVlF5c2lRUHBBWTh4QUhidU00ZGRDcVI1ajB4MzZsUXdKTGVRdHJHTEo5ZW9ZaEI0aFdrNVJKLXZkbmJaOWRUSzhBM0ZhbXRlcEdBTDVsSUhQTjcwa3NYOFk1MFJoM0gyb3V3VnlldjRGdzdWU2ZMTGh0RWFpUXlJNjhkejVTOXJmdWJjNEYtMGZWVndvUm5QOUhUTWIyT0ZQY00zVmVKbnlxRHh3LWtYMmVMR0xaNlkydTdUWjhvQkVn?oc=5",
@@ -315,7 +287,7 @@
    "d": "2026-11-27T19:10:07+00:00",
    "lang": "fr",
    "t": "GTA 6 en multijoueur : des pirates arrivent à faire tourner une version. Rockstar sous pression",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQSmYtOXpkVVl0N3RHU1pmNV9zdEpaQnBWSWJ0enhLelhKbF9PdndXMzlELWlXZTNOWGg1LWZYWWVrYU5odHdoYk55c0JLM0ZhTk1HUEZGTjNWbHRROW1FYjVkWFBGS2JzYWlvNGd4OVVkMC1iMmlvY08xVEVQSnp3c21uWjlKQQ?oc=5",
@@ -323,7 +295,7 @@
    "d": "2026-11-27T18:05:57+00:00",
    "lang": "fr",
    "t": "GTA 6 Online : tout ce que l'on sait",
-   "erreur": "HTTP Error 403: Forbidden"
+   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOX29ia0x0UTdoNXBoLXdwckxwWmpEb1AzdTRPcFdzNUxMUE16ZnhPZl91bVUzcEdaVE5nNnFGam5YTDVodnhseElCWFptcUhPNjJVdjlQN0Uxd3NibmRpamdIb291VF8tTExidmx3SlUxb0tvM2p6aldzS1VUZ2xvZTJvU3R3Qmw0R1hpWGRIaTZLVUo2UlNjWjlDZ2p6VlVZTWlibi13?oc=5",
@@ -331,7 +303,7 @@
    "d": "2026-11-27T18:00:11+00:00",
    "lang": "en",
    "t": "209GB GTA 6 'PC version' appears on Russian torrent site",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -439,16 +411,21 @@
    "cyberleek": true
   },
   {
+   "gn": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5pNDU1N0pqaVZxQTFkYkFTMkhiXzdCdFFpZE1GYjNRaE5TYTFFV2g4SGJTb2JRcUhQakFOTWhvaDdILWNWQVBWd1JqZFk2bmxLVTg3YzBKVQ?oc=5",
+   "s": "Coingecko",
+   "d": "2026-11-26T23:13:12+00:00",
+   "lang": "en",
+   "t": "CyberLeek Price: CYBERLEEK/USD Live Price Chart, Market Cap & News Today",
+   "erreur": "429 : passage suivant",
+   "cyberleek": true
+  },
+  {
    "gn": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNzFncERzMlFvZDlNd1ZyelBZeUNNNlh5d0xDTEZ2REFzLVlraDc2N0VlZzZWVEdJREhMSXg0TjlaUHljMlh5YUlJN204VVo0ZUQyQ1d5MmZYVHpFeWlHZDlLMWptMjV0OHdjc0RHakgyekVpWG02eE01alowU2VCaWoxZW5rU0xlVmFrR0tDT2dRTV9GYm1uZ1dha3h0bUZ4TWh5aWVlUGUyMklKV1RpLTZR?oc=5",
    "s": "Decrypt",
    "d": "2026-11-26T22:01:02+00:00",
    "lang": "en",
-   "t": "Vibecoded GTA 6 PC Ports Are Now Rendering In-Game Graphics Despite Take-Two Crackdown - Decrypt",
-   "u": "https://decrypt.co/384061/vibecoded-gta-6-pc-ports-are-now-rendering-in-game-graphics-despite-take-two-crackdown",
-   "img": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/11/grand-theft-auto-6-gta-vi-decrypt-style-gID_7.jpg",
-   "chapeau": "Some unofficial ports now hit around 20 frames per second, as developers move their work into private communities to dodge takedowns.",
-   "txt": "",
-   "pub": "2026-11-26T22:01:02",
+   "t": "Vibecoded GTA 6 PC Ports Are Now Rendering In-Game Graphics Despite Take-Two Crackdown",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -457,16 +434,7 @@
    "d": "2026-11-26T20:34:00+00:00",
    "lang": "en",
    "t": "Leaked GTA 6 XBOX build reportedly runs on PC at 25 FPS",
-   "erreur": "HTTP Error 403: Forbidden",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1CcTZSWERJX3FiWkdrbjRadGFISnY0RE1QNlc3aWRwMlp2a3VKVC04bWxoRi0xOFNWOXpDc2NHUVhKc0dJZTJMdmpCN3pqNkd5NE1mMUw1Zw?oc=5",
-   "s": "Coingecko",
-   "d": "2026-11-26T19:46:33+00:00",
-   "lang": "fr",
-   "t": "Cours CyberLeek (CYBERLEEK/USD): Graphique & Actualités",
-   "erreur": "HTTP Error 403: Forbidden",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -644,7 +612,7 @@
    "d": "2026-11-25T21:44:45+00:00",
    "lang": "en",
    "t": "CyberLeek CYBERLEEK (CYBERLEEK-USD) Live Price, News, Chart & Price History",
-   "erreur": "HTTP Error 404: Not Found",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -671,6 +639,15 @@
    "chapeau": "Depuis une chambre d'hôtel, le jeune Britannique de 17 ans est parvenu à dérober des dizaines de vidéos du très attendu \"GTA VI\" dès 2022... alors qu'il avait été privé de son ordinateur par les autorités britanniques. Le jeune hackeur a été condamné lundi à sept ans de prison pour une série de cyberattaques.",
    "txt": "Pour sauvegarder cet article, connectez-vous ou créez un compte franceinfo\nArticle rédigé par franceinfo Radio France Publié le 25/11/2026 18:48 Mis à jour le 25/11/2026 18:48 Temps de lecture : 3min Le jeu \"GTA VI\" sur une console. (YUI MOK / MAXPPP) Depuis une chambre d'hôtel, le jeune Britannique de 17 ans est parvenu à dérober des dizaines de vidéos du très attendu \"GTA VI\" dès 2022... alors qu'il avait été privé de son ordinateur par les autorités britanniques. Le jeune hackeur a été condamné lundi à sept ans de prison pour une série de cyberattaques.\nRecevoir des compliments à l'énoncé de sa condamnation est assez rare. Arion Kurtaj peut se targuer d'en avoir eu de la part du juge qui l'a condamné, lundi 23 novembre, à sept ans de prison . \"Vous êtes de toute évidence un jeune homme très talentueux\" , a déclaré le juge Mark Turner en s'adressant à l'intéressé, originaire d'Oxford. Le jeune homme de 21 ans peut aussi se vanter de l'une des raisons de sa peine d'emprisonnement. Il est à l'origine de la fuite des images et vidéos sur internet de GTA VI en 2022.\nLes écoutes d'une chanson de Sylvie Vartan présente dans \"GTA VI\", ont augmenté de plus de 2 500% sur Spotify en une semaine",
    "pub": "2026-11-25T18:48:41+01:00",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5scXNWUGF1bFdIVEFJbDRLSkxOMVBHb0YzYTluWGNnSWJ6NjNwUWJ0cGd4OGxCUV9xWVctQXMyOFZGQXNCUmdfWHJXM0VEOXMxRlJ0c0dGcy1FZw?oc=5",
+   "s": "CoinGlass",
+   "d": "2026-11-25T17:07:00+00:00",
+   "lang": "en",
+   "t": "CyberLeek Futures Price",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
@@ -710,19 +687,6 @@
    "chapeau": "",
    "txt": "La course pour faire tourner Grand Theft Auto 6 sur PC prend une tournure inédite. Après la fermeture du projet communautaire Project Leonida par Rockstar, d’autres groupes de moddeurs ont repris le flambeau, s’appuyant sur une prétendue build Xbox quasi finale du jeu ayant fuité cette semaine. Leur méthode : demander à des IA génératives de décompiler et recompiler le code, avec des prompts aussi directs que « travaille plus vite » ou « ne fais aucune erreur ».\nLe point de départ de cette nouvelle vague d’activité est la diffusion, par le leaker connu sous le pseudonyme CyberLeek , d’une version du jeu décrite comme « quasi finale » pour Xbox . Cette build servirait de base aux travaux de portage vers PC. Auparavant, les communautés de moddeurs utilisaient déjà des outils d’IA pour analyser le code de la version console, mais cette fuite a démultiplié les tentatives.\nSur les réseaux sociaux, l’utilisateur chasm , qui suit de près ces communautés, a partagé des captures d’écran des invites envoyées aux chatbots. On y voit des moddeurs, parfois en direct sur des plateformes de streaming, demander à l’IA de « continuer à chercher des choses et à travailler », ou encore de « trouver un moyen plus rapide d’itérer ». Ces échanges illustrent une dépendance croissante à l’égard des modèles de langage pour mener à bien une tâche aussi complexe que le portage d’un jeu AAA.\nRockstar n’est pas resté inactif. Après avoir obtenu la suppression du serveur Discord et du dépôt GitHub de Project Leonida – y compris ses 3 006 forks – l’éditeur semble désormais cibler les publications en ligne qui documentent l’avancement de ces projets. L’utilisateur chasm a ainsi indiqué que ses propres messages avaient été retirés « en réponse à un signalement du détenteur des droits d’auteur ».\nCette stratégie de répétition des DMCA n’est pas nouvelle, mais elle prend ici une ampleur particulière en raison de la notoriété du jeu et de la détermination des moddeurs. La fermeture de Project Leonida n’a pas découragé les autres groupes, qui semblent au contraire redoubler d’efforts pour être les premiers à proposer une version jouable sur PC.\nUne vidéo partagée sur les réseaux sociaux montre le jeu tournant sur PC, dépassant le simple écran de démarrage que les moddeurs avaient atteint quelques heures après la fuite. Les images, qui s’affichent à moins de 5 images par seconde , témoignent d’un rendu visuel correct mais d’une optimisation encore très loin des standards. Ce résultat, bien que préliminaire, prouve que la décompilation et la recompilation progressent.\nSi Rockstar ne parvient pas à stopper ces initiatives, de nouvelles mises à jour sur l’avancement du portage pourraient voir le jour dans les prochains jours. La communauté reste très active, et les diffusions en direct des sessions de codage assisté par IA attirent un public curieux.\nPour l’instant, Grand Theft Auto 6 n’a été officiellement annoncé que sur PlayStation 5 et Xbox Series X/S , avec une sortie prévue à l’automne 2025. Rockstar n’a donné aucune indication sur une éventuelle version PC, ce qui alimente la frustration d’une partie des joueurs et explique l’empressement des moddeurs à créer leur propre portage.\nCette situation n’est pas sans rappeler les précédents de GTA V ou Red Dead Redemption 2 , dont les versions PC sont arrivées bien après les sorties console. Mais l’utilisation massive d’outils d’IA pour accélérer le processus est une nouveauté qui pourrait changer la donne, tant pour les moddeurs que pour les éditeurs.\nEn attendant une éventuelle annonce officielle, les joueurs PC devront se contenter de suivre de loin les avancées de ces projets non officiels, tout en gardant à l’esprit les risques juridiques encourus par leurs auteurs.",
    "pub": "",
-   "cyberleek": true
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQOGNPNXVxNDNqc3NPa1VzbllVdG52aFFJNGtBVUJRU1BBa2dBZW01R1QzZVFJN1V5cTd4SlNpVHpRR0J4UGxqSV9OS3ZLTFJtY3UtUzBkejlyeUZpbGxldkltLVlZT190emxMNVJEUkZwb215R05va0wzSlVlajc2TWxva0JpTEU?oc=5",
-   "s": "Eurogamer.net",
-   "d": "2026-11-25T15:19:10+00:00",
-   "lang": "en",
-   "t": "GTA 6 recompilers and vibe-coders implore AI chatbots to 'work faster' and 'make no mistakes' as they race to get the game running on PC",
-   "u": "https://www.eurogamer.net/grand-theft-auto-6-gen-ai-chatbots-work-faster-prompts",
-   "img": "https://assetsio.gnwcdn.com/gta-6-vice-city-car-interior-1.jpeg?width=1200&height=630&fit=crop&enable=upscale&auto=webp",
-   "chapeau": "In the wake of Rockstar's takedown of the biggest community project working to make Grand Theft Auto 6 playable on PC, those remaining want to be the first to d",
-   "txt": "Things continue to get messy in the community of players working on getting Grand Theft Auto 6 working on PC. The previous frontrunner, Project Leonida, got their Discord server and GitHub repository taken down by Rockstar , but others have seemingly stepped in to finish the job.\nThe most up-to-date build of GTA 6 was allegedly leaked earlier this week by notorious leaker CyberLeek . This is a supposedly near-final build of the game's Xbox version, and it's seemingly being used as the basis for the recent work to port the game to PC.\nUnsurprisingly, most of these communities of modders rely almost exclusively on generative-AI tools like Claude and Antigravity to decompile and recompile the console version of GTA 6. That has always been the case, but the CyberLeek build only invited even more to ask AI chatbots to make the PC port for them.\nX user chasm has been following developments in the GTA 6 decompile and recompile communities, and recently shared some of the prompts the so-called vibe-coders are using - a few of whom livestreamed the process.\n\"Make no mistakes,\" one modder prompted the AI chatbot. \"Keep finding more stuff and working and pushing,\" another eloquently asked . \"Work faster,\" asked another . \"There has to be a faster way to iterate than this,\" they continued.\nRockstar, which successfully managed to DMCA take down Project Leonida - including all of its 3,006 forks on lead author NotRexed's GitHub - is seemingly also going after people online discussing the community's progress. The X user in question later revealed they may no longer be able to share these updates, as their posts have also been removed \"in response to a report by the copyright owner\" .\nAs for how far some of the remaining communities have managed to get, this video allegedly shows the game running on PC . This goes beyond the boot-up screen, which modders were able to reach within hours of CyberLeek's build alleged leaking .\nThe footage runs at sub-5fps, but the visuals look to have rendered normally. Assuming Rockstar doesn't also shut down the modders who remain active, we may see another progress update.\nIf you're already playing Rockstar's latest on consoles, the Eurogamer GTA 6 walkthrough offers comprehensive guides on relationship mechanics , how the new Criminal Profile system works , a list of all safe codes and more.",
-   "pub": "2026-11-25T15:19:10+00:00",
    "cyberleek": true
   },
   {
@@ -770,11 +734,7 @@
    "d": "2026-11-25T07:48:00+00:00",
    "lang": "en",
    "t": "“GTA 6”: Take-Two gets unofficial PC port removed from GitHub",
-   "u": "https://www.heise.de/en/news/GTA-6-Take-Two-gets-unofficial-PC-port-removed-from-GitHub-11537104.html",
-   "img": "https://heise.cloudimg.io/v7/_www-heise-de_/imgs/18/5/2/0/7/6/5/9/Jason_Duval_07-763a916c24d34b43.jpg?func=bound&height=1200&org_if_sml=1&q=85&width=1200",
-   "chapeau": "Project Leonida aimed to bring the leaked Xbox version of “GTA 6” natively to Windows. Take-Two’s DMCA notice has taken it down.",
-   "txt": "",
-   "pub": "",
+   "erreur": "429 : passage suivant",
    "cyberleek": true
   },
   {
