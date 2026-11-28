@@ -1,7 +1,7 @@
 {
  "game": "gta6",
  "title": "GTA VI",
- "maj": "2026-11-27",
+ "maj": "2026-11-28",
  "note": "Fiches GTA 6 (schéma data/soluce/schema.json). Rempli par la routine gtavifrance-solutions : uniquement des infos vérifiées (2 sources ou officiel). Missions d'histoire = spoiler (masquées par défaut sur missions.html). Noms de missions : liste officielle des trophées PSN. Chapitres : au moins 4 + mission finale (trophées).",
  "chapitres_connus": 4,
  "etrangers_total": 8,
@@ -390,9 +390,83 @@
     "d": "",
     "h": ""
    }
+  },
+  {
+   "id": "gta6-s-catching-a-whale",
+   "game": "gta6",
+   "type": "side",
+   "order": null,
+   "chapter": null,
+   "nom": "Catching a Whale",
+   "trophee": null,
+   "spoiler": 1,
+   "missable": false,
+   "steps": [
+    "Terminer les sept AudaCity Stunts, puis rejoindre l'aérodrome de Sundown quand Papa Audacity appelle.",
+    "Suivre les repères de l'avion dans l'ordre.",
+    "Voler en palier vers le nord au sud de Ocean Beach, puis prendre de l'altitude.",
+    "Sauter près du yacht du port et ouvrir le parachute."
+   ],
+   "tips": [
+    "Ne pas voler vers le sud pendant la figure finale."
+   ],
+   "sources": [
+    "https://www.powerpyx.com/gta-6-catching-a-whale-help-papa-audacity-walkthrough/",
+    "https://www.gtabase.com/gta-6/strangers/catching-a-whale"
+   ],
+   "verifie": true,
+   "updated": "2026-11-28",
+   "fr": {
+    "t": "Catching a Whale",
+    "d": "Mission secondaire de Papa Audacity : vol en avion puis saut en parachute sur un yacht.",
+    "h": ""
+   },
+   "en": {
+    "t": "Catching a Whale",
+    "d": "Papa Audacity side mission: a plane flight, then a parachute jump onto a yacht.",
+    "h": ""
+   }
+  },
+  {
+   "id": "gta6-s-yasmanis-atm-jobs",
+   "game": "gta6",
+   "type": "side",
+   "order": null,
+   "chapter": null,
+   "nom": "Yasmani's ATM Jobs",
+   "trophee": null,
+   "spoiler": 1,
+   "missable": true,
+   "steps": [
+    "Attendre l'appel de Yasmani après Yasmani's Jewelry Jobs et Credit Check.",
+    "Accrocher le treuil à chacun des trois distributeurs marqués, puis les arracher.",
+    "Ramasser les billets marqués et les apporter à Yasmani."
+   ],
+   "tips": [
+    "Une charge collante ouvre le distributeur plus vite.",
+    "Les distributeurs ne restent pleins qu'une journée en jeu."
+   ],
+   "sources": [
+    "https://www.powerpyx.com/gta-6-yasmanis-atm-jobs-walkthrough/",
+    "https://www.gtabase.com/gta-6/strangers/yasmanis-atm-jobs"
+   ],
+   "verifie": true,
+   "updated": "2026-11-28",
+   "fr": {
+    "t": "Yasmani's ATM Jobs",
+    "d": "Trois distributeurs à arracher au treuil, environ 30 000 à 40 000 $ en billets marqués.",
+    "h": ""
+   },
+   "en": {
+    "t": "Yasmani's ATM Jobs",
+    "d": "Rip out three ATMs with a winch, about $30,000 to $40,000 in marked bills.",
+    "h": ""
+   }
   }
  ],
  "hub_articles": [
+  "2026-11-28-catching-a-whale-papa-audacity-gta6",
+  "2026-11-28-yasmani-atm-jobs-gta6",
   "2026-11-27-under-the-bridge-202-gta6",
   "2026-11-27-no-flusher-15-tags-gta6",
   "2026-11-26-epaves-kenton-tresors-gta6",
