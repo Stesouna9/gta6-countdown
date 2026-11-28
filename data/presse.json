@@ -1,13 +1,30 @@
 {
- "maj": "2026-11-28T04:11:54+00:00",
+ "maj": "2026-11-28T04:33:37+00:00",
  "articles": [
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNN1B4dzM2c0FNSWpFSjlPWTA4TW9Kek1sbW9RV1JETDg0aFd3QUdtR0NZdC1Mc25ZWXVnY3dkTlFINUwxQVJWNURfeHRmZ3JRVnVvMTlNelVVOVdCcU5EQ2taM0RhVVFoZ0J2VURRQmpmMzA0NW8xbld2T1pZdjRoZXM1VUFkSnN4MnpNUURDdjdLNTRTQ3lpZHYtYmo2WklSX1FlQ21wY2Flc0dIamZ4b0NqRTNDbTB6aGQxTzRxLTk?oc=5",
+   "s": "Notebookcheck",
+   "d": "2026-11-28T04:21:00+00:00",
+   "lang": "en",
+   "t": "Xbox GDK leak could boost GTA 6 PC ports, unlocking console development secrets",
+   "u": "https://www.notebookcheck.net/Xbox-GDK-leak-could-boost-GTA-6-PC-ports-unlocking-console-development-secrets.1461888.0.html",
+   "img": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/XboxGTA6PCMonitor.jpg",
+   "chapeau": "Gamers translating a leaked GTA 6 Xbox build to PC now have another resource at their disposal. The newfound Xbox GDK includes instructions for developing for Microsoft consoles. The discovery could speed up shader compilation, but memory management remains an obstacle.",
+   "txt": "Since Cyberleek released a full GTA 6 Xbox build , progress toward a PC port continues at a rapid pace. Still, another recent leak could accelerate efforts to create an acceptable Windows solution. Microsoft’s Xbox GDK reveals confidential information about developing for Series X and S consoles .\nThe portion of the GDK relevant to Windows versions of games is public. However, Microsoft supplies the Xbox console-specific documentation and tools only if developers agree to an NDA. With these leaked files, groups working on GTA 6 PC ports may be able to solve compatibility and performance issues .\nOne potential benefit is with shader compilation . Series X and S games rely on specialized programs for RDNA 2 hardware to render graphics correctly. Desktops and laptops employ a much wider range of Nvidia, AMD, and Intel GPUs . Until now, those translating builds have had to guess how to generate these shaders. The hope is for a much more automated process.\nGTA 6 showcases ray tracing , even on the underpowered Series S. Like shaders, graphics cards implement these advanced lighting effects in unique ways. The Xbox GDK could help convert the Cyberleek build to Windows without ray tracing crippling performance and frame rates.\nUnfortunately, developers will still contend with fundamental differences in how Xbox consoles and PC operate. One lingering problem is memory management. Microsoft gaming systems use a unified memory design , while PCs split RAM between the CPU and GPU. Porting initiatives must mimic how the Series X and S allocate these resources.\nTake-Two aims to curb efforts to achieve a satisfactory GTA 6 PC port. Yet although GitHub complied with DMCA requests , projects similar to the promising Leonida survived. Whether or not the GDK leak provides a boost, gamers may soon see builds offering smooth performance.",
+   "pub": "",
+   "cyberleek": true
+  },
   {
    "gn": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE41eGRuREdINmJELV8yV1FnSVROX250V0RfMGZhWjZMeS02X3dlMzBlcHpSU3NkR1kyd3NuT3JSRWZkN3lGbW1lVERtdElxMGN5YjBPb194VHRuX1E?oc=5",
    "s": "BBC",
    "d": "2026-11-28T03:03:36+00:00",
    "lang": "en",
    "t": "Carly Rae Jepsen: How GTA 6 gave her song Run Away With Me a second life",
-   "erreur": "429 : passage suivant"
+   "u": "https://www.bbc.com/news/articles/cq3dgp88p744o",
+   "img": "https://ichef.bbci.co.uk/news/1024/branded_news/f840/live/b254cec0-e9b9-11f1-8d2a-f5d2aabc11cb.jpg",
+   "chapeau": "The Call Me Maybe star returns to the UK Top 40 as her single Run Away With Me gets a GTA VI boost.",
+   "txt": "Share Save Add as preferred on Google Mark Savage Music correspondent Mikayla LoBasso Carly Rae Jepsen first found fame on Canadian Idol before launching her international career with the single Call Me Maybe For years, Carly Rae Jepsen's fans have been telling anyone who'll listen that she wrote the perfect pop song... and they don't mean Call Me Maybe.\nNo, it's Run Away With Me – three minutes of pure euphoria that captures the moment a crush snowballs into a full-blown love affair.\nReleased in 2015, it stalled at number 58 in the charts, but it has long been a highlight of Jepsen’s live shows. Then, last week, it made a surprise appearance in Grand Theft Auto VI.\nIt provides the soundtrack to a pivotal sequence where the game's protagonists get their first taste of the high life - zooming around on jet skis and shooting champagne bottles from the back of a yacht.\n\"My guilty admission is that I haven't even played the game yet, but I'm excited to try it. I'm gonna become a late-in-life gamer!\"\nThe placement has given the song a new lease of life. Its daily streams rose from 20,000 to 281,000 overnight. On Friday, it re-entered the UK charts at a new peak of 28.\n\"It's wild,\" says Jepsen from her home in Los Angeles. \"I love a plot twist, and this was exactly that.\"\nThe BBC is not responsible for the content of external sites. Google YouTube content may contain adverts. In some ways, it’s a vindication for an under-appreciated classic.\n\"I've always been asked the question, 'When you were in the studio, did you know you had a hit song?'\" says Jepsen. \"And I always say, 'No. How can anyone know that?'\n\"However, I will say, with Run Away With Me, out of all the sessions I've ever done in my life, we all felt that thrill that people think you get. We were on our feet, going, 'Oh, this has something special to it'.\n\"But it never got eyes like it's getting right now, and that makes me believe in that special feeling that we had, when we made it.\"\nThe success comes at an interesting juncture in Jepsen’s career.\nOver the last decade, Run Away With Me and E•MO•TION, the album it featured on, have become cult classics, helping to establish Jepsen as a favourite among pop connoisseurs.\nThis year, she rewarded her dedicated fans with a 32-track double album, Day & Night, that spans everything from mellow folk-pop to Abba pastiches and darker, dancefloor-centric experimentation.\nIt was released as Jepsen, 41, welcomed her first child, Ilya, after falling in love with one of her co-writers, Cole Marsden Greif-Neill, during recording sessions.\nShe told us more about the music, and her plans for touring with a newborn.\nIn 2015, E•MO•TION was considered a commercial disappointment – but now it's considered a landmark pop album. How do you look back at it now?\nAt the time, I remember feeling the pressure of having a song like Call Me Maybe take off. I was nervous about people expecting the same on repeat, knowing that I wasn't capable of delivering that. So E•MO•TION, to me, was a statement of like, 'Here's the type of pop music I love, and here's what I have to offer beyond [Call Me Maybe].'\nI'd set my expectations low. I'd taken a break and done Cinderella on Broadway. And when I finally put the album out, I was pretty sure everyone had forgotten what I did. So the fact anyone liked it was a victory.\nBut did I imagine that it would catapult this new career path for me? I had no insight of that and, looking back at it now, I feel like it was like accidentally strategic for my [type of] success, which is finding people who want something true and authentic and artful, versus Call Me Maybe 2.0.\nAnd that freedom led you to a place where you can release a double album.\nOh, absolutely! There are songs on this album that would normally be locked away in folders on my hard drive. On many songs, I felt like, 'Is this too weird?' But the mission statement with Day & Night was to stop asking that question.\nI notice you singing in new ways. You're almost whispering on After All, then That's Just Me is a classic torch song.\nYes, it was actually really fun. My uncle and aunt were visiting from Canada, and they were like, 'Can we hear some demos?' And I played them some stuff, and they were like, 'I would not know this was you'.\nI felt like that was such a feat in its own right, to put out something fresh after so many years in the business.\nHow did you decide what was a 'Day' song and what was a 'Night' one?\nThe Day songs are more organic. Folky,",
+   "pub": ""
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPS2x1Vko2M2ZxSDZQSjQwR0tPei1vdkg4S1kwVmo5ZDFEaFhFaDBMakZhdUh6bk5hNmRqUkhTT0dBbGlJUFA2N1N0V0RzaXhDSGZNbkw3LTJ6Wm1RUlZmQThMWGtGRVpxSHVNaW1IN1JQY1NzbVdDZ19UVHdUY08xcHplbGRzei0yRVJ5T3lEbUFfckFsODNPOE5NTF95OTQ?oc=5",
@@ -23,24 +40,16 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOeDlHNk1iRlZyeldfcUlCVzE1NTFZS3RkeHU4MVBnRFJiLUUydElnTXp0bTV5ZXExNTRJTWFTV2xLQ3pqdjZlMndScDlETnIzSzFyRE5ONHhzN2pmcjhWUW1GWGNkVlV4WU9pWlI5dFpMUURUR1l2LTJQVnl1VnBDaUNHa3hIVlBMWXlqMUFKVk1SbGs?oc=5",
-   "s": "Notebookcheck.fr",
-   "d": "2026-11-28T02:43:20+00:00",
-   "lang": "fr",
-   "t": "GTA 6 tourne « mieux » sur un BC-250 que sur PS5",
-   "u": "https://www.notebookcheck.biz/GTA-6-tourne-mieux-sur-un-BC-250-que-sur-PS5.1461858.0.html",
-   "img": "https://www.notebookcheck.biz/fileadmin/Notebooks/News/_nc5/gta-6-bc-250.jpg",
-   "chapeau": "AMD a vendu les cartes BC-250, aux caractéristiques techniques revues à la baisse par rapport à celles d’une PS5, pour servir de systèmes de minage de cryptomonnaies. Quelqu’un a maintenant modifié le matériel pour l’utiliser comme une PS5 et y faire tourner GTA 6.",
-   "txt": "Malgré les efforts de Take-Two pour freiner les portages non officiels sur PC de GTA 6 , on a l’impression que les choses avancent d’heure en heure. À ce rythme, ce n’est plus qu’une question de jours avant que GTA 6 soit entièrement jouable sur PC . Mais la communauté ne s’arrête pas au PC : du matériel de PS5 réaffecté ferait apparemment mieux tourner le jeu que le matériel officiel.\nLa carte BC-250 d’AMD embarque une version allégée de l’APU de la PS5, avec les mêmes 16 Go de mémoire GDDR6 et un bus de 256 bits. Elle repose sur la même architecture CPU Zen 2 et la même architecture GPU RDNA 2. En revanche, le nombre de cœurs, de threads, d’unités de calcul (CU) et de processeurs de flux a été réduit, tout comme les fréquences d’horloge. Cela aurait permis à AMD de reconvertir ces cartes en matériel de minage de cryptomonnaies et de les vendre à ASRock.\nAvec le déclin du minage de cryptomonnaies, ces cartes ont été vendues au grand public et ont depuis été réaffectées, une fois de plus, à divers usages. On les trouve en ligne entre 120 et 250 dollars, ce qui les rend nettement moins chères qu’une PS5 standard. De plus, des moddeurs sont parvenus à débrider ces cartes, permettant à la BC-250 d’égaler les performances de la PS5, voire de les dépasser dans certains cas.\nUn internaute du nom de « djaye », qui se décrit comme un « adepte de la rétro-ingénierie pour le jeu de rôle », est parvenu à faire tourner GTA 6 sur ce qui semble être une BC-250 overclockée ou débridée, à 35 images par seconde (FPS), du moins à en juger par la capture d’écran publiée sur X. On y voit Lucia en prison et, en haut, des statistiques de performances indiquant 35 FPS, avec des creux à 29 FPS. Même si une seule capture d’écran ne permet pas vraiment de comparer en temps réel les performances avec celles de la PS5 standard , ces chiffres semblent prometteurs.\nLe moddeur utilise la version 25.06-12.00.00 du micrologiciel, qui date d’un peu plus d’un an. On ne sait pas s’il compte optimiser davantage le matériel, quels outils il a utilisés pour le modifier, ni s’il prévoit de publier des séquences de jeu. Quoi qu’il en soit, il est intéressant de voir qu’une carte initialement basée sur une PS5, puis reconvertie pour le minage de cryptomonnaies, sert désormais de PS5 et fait tourner GTA 6 un peu mieux que la PS5 officielle.",
-   "pub": ""
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMickFVX3lxTE5TQnZxUWlLVFV6cDRJeXdPVEVuUENGNGpiVm1nSFVsWHhRb2RXWDdldUxBbVNZa3FYZ1VfVFNqWU04NDR6QjRPZlVJbnFNajc0OWhmZGxXN0hWc3k4ZG9QTXNaNEZVNVNnWEJfaWNPMmxrdw?oc=5",
    "s": "Comic Book Resources",
    "d": "2026-11-28T02:25:00+00:00",
    "lang": "en",
    "t": "10 Most Useful GTA 6 Controls the Game Doesn't Tell You About",
-   "erreur": "429 : passage suivant"
+   "u": "https://www.cbr.com/gta-6-controls-game-does-not-tell-you-about/",
+   "img": "https://static0.cbrimages.com/wordpress/wp-content/uploads/2026/11/lucia-and-jason-getting-into-a-car-in-gta-6.jpg?w=1600&h=900&fit=crop",
+   "chapeau": "There are plenty of controls GTA 6 leaves players to figure out on their own, and some of them are absolutely necessary.",
+   "txt": "By Sage Ashford Published Nov 27, 2026, 9:25 PM EST Staff Writer for CBR, Sage Ashford has also written for Comicon as well as other sites such as The Gamer, and has been doing freelance work since 2014, and been working for CBR since 2016. His focus is primarily on spreading the word on obscure anime, comic books, and games whenever possible. Follow him on Twitter @ sageshinigami, or on YouTube @ nolevelcap. Sign in to your CBR account Rockstar's Grand Theft Auto VI has quickly become the best-selling game of the year, to no one's surprise. After all, people have been waiting for their next game since Red Dead Redemption 2 released in 2018. Already, people are diving into the game and finding all manner of fun secrets, as they're immersed in one of the greatest open-world experiences of all time.\nGTA 6 spends a good part of its first chapter teaching players the basics of playing the game. However, they've left a ton of other things for players to discover on their own, including within the controls. Some of these controls and options will create an entirely different experience for people enjoying this epic classic.\nJason looking at his own car in GTA6 Image via Rockstar By this point, everyone's aware of just how hard it can be to get away from cops in GTA VI . However, there are some options that make sneaking away a bit easier. It's not always necessary to create a giant chase scene to escape , and it's probably better for some players if they don't.\nBy parking the car in place and pressing either Circle or B, the player can have their character duck down in the car. This way, if the police don't know what the player looks like, they won't actively look for their car. This makes things that much easier if players can escape the cops and duck off in an alley for a bit.\nGrand Theft Auto VI car driving highway Image via Rockstar When people get out of cars in modern open-world games , the car naturally cuts off. However, this can be a big problem in a game like Grand Theft Auto , where escaping from the law is a major part of the game. Yet there's an easy solution for this most people don't know about.\nWhen getting out of the war, instead of pressing triangle to exit, double-tap triangle instead. This will leave the car running even after Jason or Lucia get out. That makes it that much easier to make a quick getaway after robbing a store or a bank.\nBikers as seen within the GTA 6 trailer Image via Rockstar Games Even the nicest people don't pick up something like Grand Theft Auto with the intent of being perfect citizens. Sometimes it's just fun to cause as much chaos as possible. One way to get away with doing that is kicking people while riding a bike.\nIt's possible to kick someone while on the bike by just getting close to them and pressing Square or X while riding a bike. With this, players can attack people while on the roads for a good laugh, but there are other purposes, too. While racing other cyclists, a quick way to stop them is by just knocking them off their bikes.\nBrian’s Eclipse Replica in GTA 6 Image via Rockstar Games Compared to previous Grand Theft Auto games , Grand Theft Auto 6 features more simulation features than ever. While players are driving, they can now activate their turn signals. To signal left or right, players can press left or right on the directional pad before making a turn.\nWhile some games might just have this as a fun side feature, this actually has a purpose in GTA 6 . While driving the speed limit, activating turn signals in the right spots allows the NPCs to react to the player's actions. They'll actually allow players to merge and make turns without causing any accidents, which is pretty useful for players who've stolen a car and want to get it to Moses without causing too much damage to the vehicle.\nImage via Rockstar Games Obviously, most players are going to want to get in a car and hit the accelerator to push a car as fast as they can. For many, getting to the next mission is the most important thing, after all. However, there are ways to simply obey the speed limit while playing as well.\nOn the PS5 in particular, players can jump into the settings and go to Controller, and scroll to the DualSense Wireless Controller Features. From there, simply make sure the Adaptive Triggers Resistance notch is on. After that, players can hold R2 down until they feel a click, which is the main point of resistance. From that point on, while driving, Jason or Lucia will automatically tr",
+   "pub": "2026-11-28T02:25:11Z"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNjhDTl9PWWsxM2ZxUmlVVDBaUF81YU9lS2NCNXFOYjd2U05YNndhTW9MYUxoTUxKcmRPNk5rRkVnQmxVZmJ3MVRycWUwaEZmSjZYbTQyellFTmhjS0VoeTNYelNYcUJfZGRwZlJkZjZrRXRmTTBwNGRNUjRnOEFNMGdfUDNVa3ZiOW9KM0NPQTRPR05V0gGaAUFVX3lxTE9YR0tUcGg0RXlDM3RMcHZpNXk0cGh3XzE5MF9ENEpOWUlFT2VtNldPQTFKaVhURDkzc1g4UVNXem9TYmpyazFBMnRBcHFubnd3QVF0OThlWGl4ZmZPcWtmbUlra29wVHBidjd4T1QyM01xVE4yejlTZm1QejJoQ3d1b3ZZNUE2MkdvOUNRazhpYUJLMVNvUW9TQVE?oc=5",
@@ -48,7 +57,15 @@
    "d": "2026-11-28T02:09:26+00:00",
    "lang": "en",
    "t": "Binge playing GTA 6? Health expert says there are potential risks",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5yelNtZG9yLWhpQnotWVhGQ0RlRFhhMzkwMDhSNDBHaFJxdWI5b0g5aFZZNVdrQjVoY2ZuSXZDemp6ci0tbmFKenFGdkJ3dWJ1LU5UYktFVW9MOHJUSGY0a3hR?oc=5",
+   "s": "EE Times",
+   "d": "2026-11-28T02:02:45+00:00",
+   "lang": "en",
+   "t": "GTA 6 Exposes the Console Hardware Crisis",
+   "erreur": "The read operation timed out"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPM2dvYk9YQXp5REt0cUZTZDZRLUVwVkNOdzRyQkY5RDBrX29qd1BjNTNDTHh3WGNfOFVfYlR4YVNwV1hlTW16SlplTUFVMmxWdkVsRWVMTGh1MGJZakhheVJWcnd1d2NmcExoTUNxM05WTWppYXB2X19CLUo0TFBjYnhBQm51NFlLUTc5MFBDMDhYZGdGbUh0eXd2aWFMTUR5bXU0ZEpRYXlPZ0ozTW8w?oc=5",
@@ -56,7 +73,11 @@
    "d": "2026-11-28T01:59:00+00:00",
    "lang": "en",
    "t": "Coders use AI to attempt GTA VI PC ports as Take-Two targets GitHub projects",
-   "erreur": "429 : passage suivant",
+   "u": "https://superpowerdaily.com/posts/coders-use-ai-to-attempt-gta-vi-pc-ports-as-take-two-targets-github-projects",
+   "img": "https://superpowerdaily.com/posts/coders-use-ai-to-attempt-gta-vi-pc-ports-as-take-two-targets-github-projects/opengraph-image",
+   "chapeau": "Developers claim rapid progress using allegedly leaked Xbox files. A primary copyright notice details Take-Two’s objections, while performance claims remain unverified.",
+   "txt": "Developers claim rapid progress using allegedly leaked Xbox files. A primary copyright notice details Take-Two’s objections, while performance claims remain unverified.",
+   "pub": "2026-11-28T01:59:08.950Z",
    "cyberleek": true
   },
   {
@@ -102,7 +123,7 @@
    "d": "2026-11-28T00:44:36+00:00",
    "lang": "en",
    "t": "GTA 6 WaINK Landmarks Map: All 31 Locations Explained",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQjE0eF9reEJyMXVDX0tXaUlhUVdKaklWZWd0WTI5dmlQckJmY0NSZDJIRVZUcnZQcUplTEljRzU4dUVvWm1GQkRLRGtZNjdxNWJEbDh4dEdRa3RmMTdkdklaYm95MjZ1RnF2SGFvQXZmbHB5ZTY3Tkw5d05LTWNwNHBMLUtTcDB1WWROcmp4MWMwVWFSNDlKS2JJaHBreFlIR2dpTEVLZ0RxZGd6NXlvdGJCZ0E1blotNjhydVZadw?oc=5",
@@ -115,14 +136,6 @@
    "chapeau": "The initial GTA 6 update did not list performance changes in its patch notes. Regardless, some PS5 Pro and PS5 players believe object detail and lighting suffered in version 01.002.002. With demanding graphics, Rockstar may be aim to lighten the load imposed on consoles.",
    "txt": "Rockstar distributed the first post-release date GTA 6 update on November 23rd. Version 01.002.002 targeted crashes , static weather , and other issues. However, some PS5 and PS5 Pro console owners have described reduced image quality. Gamers speculate that developers downgraded the graphics to improve performance .\nWhile not every poster agrees, Reddit has seen a rise in threads about lower-quality visuals. Players have noted blurry textures, increased pop-in, and less convincing global illumination.\nRedditor Dem5869 says after the update, “lighting, textures, and hair look completely different…” Many observations relate to dynamic weather in the GTA 6 PS5 Pro version. Sunrises and sunsets now lack the wow factor they had on release date. Clouds seem pixelated, and the water reflections left by rainstorms disappoint.\nDrGonzoRoyale echoes those thoughts, adding that a more aggressive depth of field makes distant objects blurry. The facial features and hair strands of Jason , Lucia , and NPCs are also less defined. The poster claims screenshots prove the differences aren't just imagined.\nAlthough the PS5 Pro enhancements boost performance, Digital Foundry recorded frame rate drops in crowded scenes. Despite the 30 fps cap, the Rockstar title stresses Xbox and PlayStation consoles, which may contribute to overheating reports . A cutback in visual fidelity would ease the strain on the gaming machines.\nPerhaps because the GTA 6 PS5 Pro upgrade renders the most detailed Leonida , the issues are most noticeable on this hardware. Some players suspect the PSSR 2 implementation has seen changes. If the upscaling isn’t as effective, that could explain why objects are no longer as sharp.\nRockstar fans are reminded of the Red Dead Redemption 2 launch on the PS4 Pro and Xbox One . Patch 1.06 produced similar rumblings about less authentic lighting and shadows. Still, version 1.09 then introduced HDR refinements, largely eliminating many of the complaints.\nUntil the studio comments on any performance tweaks, it’s wise not to draw conclusions. Digital Foundry and other sites will keep analyzing the graphics as future GTA 6 updates arrive.\nDem5869@GTA 6unmoderated subreddit , DrGonzoRoyale@GTA 6unmoderated subreddit",
    "pub": ""
-  },
-  {
-   "gn": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNS3IxeVJXSVpQZHM3c1JUMDlSLXo3U0F0Z0tWX2xpWm9ienlFZGJibktiRDVGRUplTTBwNllmaV85ZGxHZEpxSnJWTmtQNzNTUGRSNWhaSkRYN3JpeVp6VEh0WTVuVnJpYUhyMG84QTd6WGk4TTdDVnluckNiZERIb05pZkYzZkdGcEdOQUJYWDlCbTUwQ1Qwb0dKWjlYQlRJa0ZZeVJaYjNTRGJFdmNkVmp0TUFtdlk4UTFNMVpMWQ?oc=5",
-   "s": "Marco Eagle",
-   "d": "2026-11-27T23:58:00+00:00",
-   "lang": "en",
-   "t": "Gone but not forgotten: Cape Romano Dome Homes appear in GTA 6",
-   "erreur": "429 : passage suivant"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdUo3bVdoNE9QSUp2TGt6QVlsMTBlcEtBWXc5UkhoYTBJLVk4alg3b3czRERpZDB1OE02UlIwYllDV2RMeTVGbndET1V5Q2ZpcU1laW9jbHNVMjZiRDBNWHkzRmVVaktnWmxlNHg3VG5aVHlEMFRBaUgyVmJOSHVjdQ?oc=5",
@@ -142,7 +155,7 @@
    "d": "2026-11-27T23:34:09+00:00",
    "lang": "en",
    "t": "How to Unlock the 1010 Murals Snapmatic Post in GTA 6",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOU2lTMDFzY0JqUFNXNnd2SFV2Y0JSTlpybHVCNkNHZkVJdURxSDNtdHhqTERHcVNPaFI2V0hiWHBXby1XdnRZWlRDWVhLNHlSNVY3RWtxYlNuVDJ6SF9oVmpNVDJYdHVjZ3hobFhuWTEzVlVJWkgtVFRFUU1UTzAySXJIVF9KWkhnMGdYdk8wU2wyVzdobXRnWm9DQ19sS1F3Tzk4b1NqNjJCXzBQQ1VpZTVSbFNWQQ?oc=5",
@@ -150,7 +163,7 @@
    "d": "2026-11-27T23:30:59+00:00",
    "lang": "fr",
    "t": "La comparaison de GTA 6 avec les premières bandes-annonces a révélé des différences graphiques significatives.",
-   "erreur": "HTTP Error 429: Too Many Requests"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMickFVX3lxTE8zbS16cGZwcXotdVBsU01NSmVDajFJcjZRZWo5d0dDUFE5WEc2U3hWRm9iV0JjeVE2amQyZllNZ3Z2UVMxS2dKMEgtVjFOalJ0ckMzZ3B0OEpxLThoajdocFdZQXByczdEalBaamNueWsxQQ?oc=5",
@@ -158,7 +171,11 @@
    "d": "2026-11-27T23:10:00+00:00",
    "lang": "en",
    "t": "GTA 6: Magazine Style Locations (WIP)",
-   "erreur": "429 : passage suivant"
+   "u": "https://www.pushsquare.com/guides/gta-6-magazine-style-locations",
+   "img": "https://images.pushsquare.com/a66354c6cab7e/1280x720.jpg",
+   "chapeau": "Lookin",
+   "txt": "Discovered Styles , or Magazine Styles , are a type of collectible in GTA 6 which unlock new cosmetic styles for Jason and Lucia. These include hairstyles, facial hair styles, makeup, and tattoos. In this GTA 6 guide , we'll show you where to find the Magazine Styles and what they look like.\nThis page is a work in progress. So far, we've found 8 Magazine Styles and documented them. We're working hard to update this page, so check back soon for more info.\nYou can collect Magazine Styles by using your WAiNK app by holding Up and scanning them with R1 .\nYou can see your progress at any time by pressing Touch Pad > Progress > Collections > Exploration > Discovered Styles .\nGo to the top of the circular building in Key Lento , which is closed to trespassers, as shown:\nOn the top of the building, next to some sun loungers, scan the poster for the Red Braided Cornrows :\nHair: Red Braided Cornrows Top Knot Location Facial Hair Style: Square Goatee Location $45 ($40 with GTA+) You can find the Square Goatee in the trailer east of The Rusty Anchor in Key Lento , as shown:\nTurn left upon entering and go in the bedroom. Then scan the magazine on the bed to unlock this style for Jason:\nFacial Hair Style: Square Goatee Location Lucia's Magazine Styles There are 15 Magazine Styles to find for Lucia:\nGo to the aqua blue building on Sunset Dr just north of the Christmas House in Key Lento to find the Sunset Blush , as shown:\nAnd here's a zoomed out view just to give you a bit more context:\nYou'll find the magazine with the makeup style for Lucia on the bed, so scan it with WAiNK to add it to your collection:\nMakeup: Sunset Blush Makeup: Pop Star $80 ($72 with GTA+) You can unlock the Pop Star makeup by travelling ever so slightly east of the car park at Abismo Key State Park . Go to the building shown:\nAnd here's a zoomed out view in case you need the additional context:\nBehind the building, on the floor next to a chair, in front of the 'Staff Only' door, is the makeup style, as pictured:\nMakeup: Pop Star Makeup: Blue Smoky Next to the outdoor swimming pool at the Easy Inn on I-404 in Port Gellhorn , as pictured:\nScan the poster on the floor for the Blue Smoky style, next to the lounger near the swimming pool:\nMakeup: Blue Smoky Magazine Tattoos There are 17 Magazine Styles to find for Jason and Lucia:\nTo find the The Tower Tarot & The High Priestess Tarot tattoo, head to the Hoffman Observatory landmark in the western part of North Kelly County . Here's exactly what you're looking for:\nAnd here's a zoomed out view to help you find the right spot:\nSearch for the scraps of a car on the outside of the Hoffman Observatory and climb up it to reach the platform above:\nInside drop down to the lower floor and use the WAiNK app to scan the magazine on the mattress, as shown:\nThe Tower Tarot & The High Priestess Tarot Location Circles of Hell Location Find the yellow building on Gellhorn Ave with 'Welcome to Hellhouse' painted on its wall, as shown:\nAround the back, next to a door, you'll find the Circles of Hell tattoo:\nCircles of Hell Location How Do You Use Magazine Styles? Once scanned with WAiNK , Magazine Styles will immediately be added to all appropriate stores, as shown.\nThat means you'll find hairstyles at any salon, and tattoos at any tattoo store, as demonstrated here in Barnacle Beauties :\nHairstyles will often be listed under a ' Magazine Styles ' tab, while you'll find tattoos under an ' Awards ' tab. (But you'll need to select the right body part first, which we've listed in our guide.)\nDo keep in mind that you will need to purchase the Magazine Styles with in-game money before you can use them.\nYes, as long as a store specialises in a certain cosmetic style, you'll be able to find Magazine Styles in every one.\nThat means all of your discovered tattoos will be available at any tattoo shop and all of your hairstyles will be available at any salon.\nWhich is your favourite Magazine Style in GTA 6? Dress to impress in the comments section, and be sure to check out our GTA 6 guide for more.\nPlayStation Buttons based on work by VictorPines , CC BY-SA 4.0 , via Wikimedia Commons",
+   "pub": "2026-11-26T17:55:00+00:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1XNUNsQVBzajV5ZjRjaFJqX1o4NXBYcml5UTlHaXhlZ3kwbjZTRlpuaHJ0cWV2RjB5WlF4MVQ0MEw0MmQ4cnlwRkxhTmYwSU1JS0Q3RGh5eVk1WHloajZOQVJGdFhmbkF4dmlZdWZJbnNYanIwbVBEWEppYw?oc=5",
@@ -202,7 +219,7 @@
    "d": "2026-11-27T22:56:00+00:00",
    "lang": "en",
    "t": "Employees at GTA 6 developer Rockstar Games reject union",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMia0FVX3lxTE95czBQUDBCTjh4Rkd2ZXJnQTk5WjBuX1RRY0RJdUZuRjBOUjF0M3VEWHVueTRFOTVIYVdZVGxtVEs4UWZXRWFmT0tkT19COXI3eXJPdG5VYjlJR1hJMzdwa3RwNlluOHpvcE8w?oc=5",
@@ -222,7 +239,7 @@
    "d": "2026-11-27T21:39:57+00:00",
    "lang": "fr",
    "t": "Meilleures voitures GTA 6 : Liste et emplacement des voitures uniques de la carte de Léonida",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNc2FibXZuZ2NlMS16SkpIa3AwbmQ1b3lMUlM4a09IdUxnWTlhWE9qV3NYT1JVVVUwQmpUbmRNazlJUFp3QnFIUHY4OGF6Q0hjNllLeFBSTTRIS3dkX3lIb0lOU2Nkai1oYTBLdk9xQjlxUUpLemNtM2JwVTBMNFN4Q0VrRVI4ajVBeGVlcThIZDRSb003Mkd5QVdVR3pWOFE5TzU1eUx2bnFKOHR2bFc4RlJVYTBQdEZKdlRtNVhBdzNDem5EUm8xQk41OUZZa3dBNkxvLVhjSERXbUlOb0t2dVMtU056dkpsRXpuZjlGZw?oc=5",
@@ -254,7 +271,7 @@
    "d": "2026-11-27T20:40:08+00:00",
    "lang": "fr",
    "t": "Rockstar va ajouter du contenu dans GTA 6 : la map va s'enrichir",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVmpua1ZwdEJrd25ZNWcwdlJNUUZMQkxFN0c3SF93WVZ1T3I3bFU1SzFPQnVwTy00MnpEOU8tZ3J1dmloQUp3YnpxWG4xaHBTVjV2b1dOOGM5VnpXZjMtODF0MnZ3dENic1I3N0tlT0ZLWG5BR3oyWndzako1c2R5OEptck1vVkl4Qk9naFJOMlZGaW9LTVVGNi1tWGQ4Z0FhTjc0RExNRGdZdnotR1Zkdzd3?oc=5",
@@ -273,8 +290,12 @@
    "s": "Facebook",
    "d": "2026-11-27T19:30:14+00:00",
    "lang": "fr",
-   "t": "France Inter. . Pendant la conception de \"Grand Theft Auto VI: Original Score\", la bande originale de GTA VI par Justice, Xavier de Rosnay et Gaspard Augé n'imaginaient pas forcément \"Flower In A Hurricane\" devenir le tube de l'album. Il est actuellement numéro 1 mondial sur Apple Music et sur Spotify.\n➡️ https://l.franceinter.fr/Nj3",
-   "erreur": "429 : passage suivant"
+   "t": "40 K vues · 268 réactions | Pendant la conception de \"Grand Theft Auto VI: Original Score\", la bande originale de GTA VI par Justice, Xavier de Rosnay et Gaspard Augé n'imaginaient pas forcément \"Flower In A Hurricane\" devenir le tube de l'album. Il est actuellement numéro 1 mondial sur Apple Music et sur Spotify.\n➡️ https://l.franceinter.fr/Nj3 | France Inter",
+   "u": "https://www.facebook.com/franceinter/videos/lhistoire-de-flower-in-a-hurricane-de-justice-pour-gta-vi/3752118828289371/",
+   "img": "https://scontent-cdg4-1.xx.fbcdn.net/v/t15.5256-10/934915533_3752118861622701_373706424389754683_n.jpg?_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=596eb7&_nc_ohc=81iKTgOiBDYQ7kNvwHbn7Ct&_nc_oc=AdodXXvB86_GxyFgrxVt7Rr3gnMz18vVArpk8OY-hwHcaYrde0Jmpa3xBn9EJO-i32EABj3hwPrTASNT5k6ZjhU0&_nc_zt=23&_nc_ht=scontent-cdg4-1.xx&_nc_gid=zjiy9h5x3qHB9z7omIy5zg&_nc_ss=7030f&oh=00_AQWaCsFDs8tIdbH5bH9UwnrATIbptguvCOZIGqIIf0CagQ&oe=6B101B28",
+   "chapeau": "Pendant la conception de \"Grand Theft Auto VI: Original Score\", la bande originale de GTA VI par Justice, Xavier de Rosnay et Gaspard Augé n'imaginaient pas forcément \"Flower In A Hurricane\" devenir...",
+   "txt": "",
+   "pub": ""
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNZjlxMDlDVHVVcXZhenVzR0phVlF5c2lRUHBBWTh4QUhidU00ZGRDcVI1ajB4MzZsUXdKTGVRdHJHTEo5ZW9ZaEI0aFdrNVJKLXZkbmJaOWRUSzhBM0ZhbXRlcEdBTDVsSUhQTjcwa3NYOFk1MFJoM0gyb3V3VnlldjRGdzdWU2ZMTGh0RWFpUXlJNjhkejVTOXJmdWJjNEYtMGZWVndvUm5QOUhUTWIyT0ZQY00zVmVKbnlxRHh3LWtYMmVMR0xaNlkydTdUWjhvQkVn?oc=5",
@@ -306,15 +327,19 @@
    "d": "2026-11-27T19:10:07+00:00",
    "lang": "fr",
    "t": "GTA 6 en multijoueur : des pirates arrivent à faire tourner une version. Rockstar sous pression",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVW9ZczFHeW9qblI0eEFwM2dSMG9ydy10N1gxN3VlT3E3N0pNTnUtYzhqa0RBRWhnU0poandfdFVJc2dWTlhGaTNHaUZQN0RMUWdtQ1JUbEJWRk44QnFyenBoZHl0WlFKNlAzRHVYTWhraVE1X0JTZnpqMEN2UGVORzhPTWlGTDNDN3ZoM1lFTHlDb2VnU3dJLW5ZUlZZNzVWb1VLOUVIeVZfSnB0dmgxckx2R2NhU0xMWEdZ?oc=5",
    "s": "MacGeneration",
    "d": "2026-11-27T18:20:00+00:00",
    "lang": "fr",
-   "t": "GTA VI : un portage illégal sur MacBook Pro M4 Pro atteint péniblement les 6 i/s",
-   "erreur": "429 : passage suivant"
+   "t": "GTA VI : un portage illégal sur MacBook Pro M4 Pro atteint péniblement les 6 i/s",
+   "u": "https://www.macg.co/logiciels/2026/11/gta-vi-un-portage-illegal-sur-macbook-pro-m4-pro-atteint-peniblement-les-6-312725",
+   "img": "https://cdn.mgig.fr/2026/11/mga-f583fc5f-w1500.jpg",
+   "chapeau": "C",
+   "txt": "C'est « le grand jeu du moment » chez les gamers bidouilleurs : faire tourner GTA VI sur autre chose qu'une PlayStation ou une Xbox. Alors que le titre de Rockstar est disponible uniquement sur les consoles pour le moment, plusieurs développeurs indépendants se livrent une course haletante sur PC pour proposer une version entièrement fonctionnelle, en s'appuyant largement sur des outils d'intelligence artificielle. Une démarche qui, rappelons-le d'emblée, est totalement illégale.\nSur PC, le projet qui fait la course en tête aurait déjà bouclé 91,3 % du travail nécessaire. Les résultats commencent à devenir tangibles : sur une configuration musclée équipée d'un processeur Ryzen 7 9800X3D, d'une carte graphique AMD Radeon RX 9070 XT (16 Go) et de 64 Go de mémoire vive sous Windows 11, le jeu tournerait sans planter autour de 22 images par seconde en moyenne. Le tout au prix d'une consommation de ressources conséquente, avec environ 30 Go de RAM et 12 Go de mémoire vidéo mobilisés.\nEt le Mac dans tout ça ? Certains bidouilleurs s'attellent à le faire tourner directement en local sous macOS, en adaptant la version Xbox Series.\nGTA VI sera accessible en streaming mais pas sur Mac, PC ou iPhone\nPour parvenir à ce résultat, ces initiatives communautaires empilent plusieurs passerelles logicielles. Rosetta 2 se charge de traduire les instructions processeur, CrossOver (basé sur Wine) assure la compatibilité avec l'environnement Windows, et l'outil D3DMetal d'Apple convertit les appels graphiques pour qu'ils puissent être affichés sur Mac. Là encore, l'intelligence artificielle est mise à contribution pour accélérer le développement.\nDans les faits, on reste très loin d'une expérience jouable. Le projet baptisé Halfwave , qui s'appuie sur un autre effort communautaire nommé VIctory-macOS , illustre bien les limites actuelles. Sur un MacBook Pro M4 Pro doté de 48 Go de mémoire unifiée, le jeu plafonne autour de 3 images par seconde dans une scène de prison et frôle les 5 images par seconde lors d'une séquence en bateau. Un autre essai en définition 1080p a permis de grimper à 6 images par seconde sur cette même scène maritime. Son développeur indique que les sauvegardes et l'exploration libre fonctionnent, mais l'affichage reste plombé par des erreurs d'éclairage, des objets qui scintillent et des décors très lents à charger.\nSur une puce plus ancienne, le constat est encore plus rude : un testeur équipé d'un Mac M2 Pro utilisant VIctory-macOS est parvenu à atteindre le didacticiel d'ouverture et à contrôler la caméra, mais au rythme d'environ une image toutes les deux secondes.\nSans surprise, Take-Two Interactive, la maison mère de Rockstar, ne compte pas laisser ces projets prospérer. L'éditeur a déjà commencé à faire le ménage : une plainte pour violation de droits d'auteur publiée sur GitHub a ainsi visé Leonida , un projet similaire accusé d'enfreindre la propriété intellectuelle de Take-Two.\nGTA VI sur PC : comment l’IA transforme le portage sauvage en casse-tête pour les éditeurs\nAussi illégale soit-elle, cette prouesse de bidouillage a quelque chose de fascinant sur le plan technique. Elle a surtout de quoi donner des cauchemars à n'importe quel éditeur qui prévoit de proposer l'un de ses titres en exclusivité sur une plateforme. À l'heure où l'IA accélère le travail de rétro-ingénierie, les frontières techniques qui paraissaient autrefois insurmontables, sont désormais beaucoup plus poreuses.",
+   "pub": ""
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQSmYtOXpkVVl0N3RHU1pmNV9zdEpaQnBWSWJ0enhLelhKbF9PdndXMzlELWlXZTNOWGg1LWZYWWVrYU5odHdoYk55c0JLM0ZhTk1HUEZGTjNWbHRROW1FYjVkWFBGS2JzYWlvNGd4OVVkMC1iMmlvY08xVEVQSnp3c21uWjlKQQ?oc=5",
@@ -322,16 +347,19 @@
    "d": "2026-11-27T18:05:57+00:00",
    "lang": "fr",
    "t": "GTA 6 Online : tout ce que l'on sait",
-   "erreur": "429 : passage suivant"
+   "erreur": "HTTP Error 403: Forbidden"
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBaMm9PV1djaTBiTlg2bDQ5dXdZOFJZUG0tLWE5dXJxbmdyaEt5bFA0U193ZlRCRS0tMUJma2x1NVJZd3V6dWhpU0JFcHVKY1dzb0hTRw?oc=5",
-   "s": "Binance",
-   "d": "2026-11-27T18:04:00+00:00",
-   "lang": "en",
-   "t": "CyberLeek Price (CYBERLEEK/USD) Today | Live Price, Market Cap & Chart",
-   "erreur": "429 : passage suivant",
-   "cyberleek": true
+   "gn": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNTUd5Q3dDNXBPZ1FzdEVNczBjdVR4WnV5aHRST25zS2dIcThfZnAySGlUTzRNcG16ekhBVjVVTUZDZ3hvaWlBSUw4UFZ3UUdGZDk0WGpVUDZwNktWRzNka3dadUFOSDAybUNtZF95Mi1qVmFKQlpJSUFWeGE3UTVQZGV1YXQ1ekVqcGxjWnRUc0Z0OFE2NmVSTTNzNmV4OHkxbnZyb1p4Ri1TZHl6ZTBmU29mcC00MkdISzdDYldFM0JpRVhnMnFHbVRKbTBtWFY3Y0hjdVBrbFRWWW9GeTdSc1paV2M1ZHZfOUZQNUZ3RXNIVVJHTVhxRWFrbUYyTmd3Mnp0dkk2NVp3QVhFcVJ3bUpzX0hJZw?oc=5",
+   "s": "Le Figaro",
+   "d": "2026-11-27T18:03:11+00:00",
+   "lang": "fr",
+   "t": "Notre grande critique de GTA 6 : une œuvre magistrale, aussi ultraviolente qu’intime, vers laquelle convergent sept décennies de jeux vidéo",
+   "u": "https://www.lefigaro.fr/secteur/high-tech/notre-grande-critique-de-gta-6-une-oeuvre-magistrale-aussi-ultraviolente-qu-intime-vers-laquelle-convergent-sept-decennies-de-jeux-video-20261127",
+   "img": "https://i.f1g.fr/media/cms/1200x630_crop/2026/11/25/cfa12ac64ce26e1a0b3551ad79d497db96bfb9ef0104ee1d3b4121ac33e9d034.jpg",
+   "chapeau": "TEST - Magnum opus de Rockstar, GTA 6 n’est pas un simple défouloir barbare, contrairement à ce que racontent les profanes du secteur. Il s’agit, avant tout, d’un jeu d’auteurs, riche, drôle, sensible et touchant.",
+   "txt": "Google (ouvre un nouvel onglet) Google Discover (ouvre un nouvel onglet) Google News (ouvre un nouvel onglet) Sujets Jeux vidéo Gta Lire dans l’app Sauvegarder Fermer Sauvegarder un article\nPour sauvegarder un article vous devez être connecté, vous pourrez ainsi les consulter sur tous vos appareils.\nCopier le lien Lien copié Mail Facebook X Linkedin Messenger WhatsApp Lucia Caminos et Jason Duval, les deux protagonistes du titre. Rockstar Games TEST - Magnum opus de Rockstar, GTA 6 n’est pas un simple défouloir barbare, contrairement à ce que racontent les profanes du secteur. Il s’agit, avant tout, d’un jeu d’auteurs, riche, drôle, sensible et touchant.\nIl est parfois des œuvres qui résonnent en nous comme le souvenir de toutes nos premières fois. Notre premier amour, notre premier chagrin, notre premier voyage au loin… Elles paraissent plus fortes, plus vives, que toutes les fois qui ont suivi, car elles marquaient le passage à une nouvelle ère, à un nouvel âge, celui des découvertes et des possibles, celui dont on ne revient jamais tout à fait. En jouant à Grand Theft Auto 6 , depuis 65 heures déjà, nous avons ressenti ce que nous ne ressentions plus depuis de trop nombreuses années dans le jeu vidéo: une soif d’apprendre, une envie d’expérimenter, un désir d’éprouver des règles qui nous semblaient immuables il y a encore quelques semaines. En les bravant, nous sommes tombés dans un gouffre, un maelström, qui nous a aspirés comme il aspire tout ce qui gravite autour de lui - jeux vidéo concurrents, médias, cinéma, réseaux sociaux… -, jusqu’à ne plus laisser d’autre horizon que le sien.\nPODCAST - Écoutez le club Le Figaro Culture avec Jean-Christophe Buisson TV ce soir : retrouver notre sélection du jour PODCAST - Écoutez le dernier épisode de notre série Questions Tech GTA 6 n’est pas un défouloir bas du front, comme tentent de le faire croire polémistes, rétrogrades et profanes, qui ne se sont toujours que fondés sur les on-dit de ceux qui ne savent pas et le font savoir. Il n’est pas, non plus, qu’un simple divertissement réservé aux masses, à oublier aussitôt la soirée terminée et les amis échappés. GTA 6 est un jeu d’auteurs - riche, critique, drôle, touchant, émouvant, sensible et intime. Il est capable de faire cohabiter la vulgarité la plus crasse avec la poésie la plus douce; le chaos avec la grâce; le rire avec la mélancolie. Il est, surtout, une œuvre profondément humaine: aucune intelligence artificielle n’a été utilisée lors de sa confection, longue d’une décennie, qui a mobilisé 4500 personnes dans des studios situés aux quatre coins du monde. Il s’agira d’ailleurs, probablement, de la dernière superproduction vidéoludique à ne pas faire appel à l’IA pour limiter les coûts et les temps de développement. Car il est aussi la fin d’une époque. Le passage à une nouvelle ère…\nMême pour nous, Grand Theft Auto 6 , disponible depuis le 19 novembre sur PlayStation 5 et Xbox Series, est une anomalie. GTA 5 en son temps nous avait laissés quasiment de marbre. Sa fin cassée, ruinant un scénario qui partait pourtant bien, sa superficialité, et sa liberté proclamée mais jamais vraiment vécue, la faute à des activités finalement limitées, avaient eu raison de notre enthousiasme. Mais de GTA , ce sixième opus principal n’en a désormais plus que le nom. Rockstar s’est ici plus inspiré de ses deux Red Dead Redemption ( RDR , 2010 et 2018) que de n’importe quel autre de ses titres, afin de donner à son nourrisson ce qui manquait aux aînés: un hyperréalisme qui trouble la frontière entre virtuel et réalité.\nDe cet hyperréalisme, les profanes cités plus haut n’en retiendront sûrement que l’ultraviolence. Comme tout GTA , il est effectivement possible de mener des fusillades de masse, des carnages en camion, des braquages qui tournent…\nCet article est réservé aux abonnés. Il vous reste 77% à découvrir.",
+   "pub": "2026-11-27T19:03:11+01:00"
   },
   {
    "gn": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOX29ia0x0UTdoNXBoLXdwckxwWmpEb1AzdTRPcFdzNUxMUE16ZnhPZl91bVUzcEdaVE5nNnFGam5YTDVodnhseElCWFptcUhPNjJVdjlQN0Uxd3NibmRpamdIb291VF8tTExidmx3SlUxb0tvM2p6aldzS1VUZ2xvZTJvU3R3Qmw0R1hpWGRIaTZLVUo2UlNjWjlDZ2p6VlVZTWlibi13?oc=5",
@@ -399,15 +427,6 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOLVg5R2hGanpEbklmZ3ZZUjRaWnAtRXhrcnBvWUlFbXZjY3lCS3YxWlNZQ1JnLWFwUUlUeUNpZ3dBeFlJQlp3QlJuOGVpZ1I0TlJZZk9qZnVhTV9ibUcwR1NTT0Q0N2RqUWRHdVpuSG1ocmFIU2xobElKYWxLRTEtTzhUSGFTRjZ6d0V6ejI2TDNDUGxNMjhyS2gwS2xkS1JnSnZVQjdxMEZmNnhJT0RmTURHMGJ2U2tNbURKbQ?oc=5",
-   "s": "Gamewave",
-   "d": "2026-11-27T11:05:00+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : Rockstar n'avait qu'une peur, que la grosse surprise de l'intrigue fuite avant la sortie",
-   "erreur": "429 : passage suivant",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ZeGdsS3p5MzEzSVJVSWVuUlQ4SkZ2cW5nZ2VwSWNVaWpJWHA1VFhQWngxa2JtU3RNM20xNFowekNITlZ4M3hpRnBDenlZcnlQMDJaQjFhLVpVWm9SYzNYSS1uUUE0OUdnZHlLeGR4THFWMWQ4OFZDY0dhc3I1T0E?oc=5",
    "s": "Blog-Moteur",
    "d": "2026-11-27T09:48:53+00:00",
@@ -452,7 +471,7 @@
    "d": "2026-11-26T23:13:12+00:00",
    "lang": "en",
    "t": "CyberLeek Price: CYBERLEEK/USD Live Price Chart, Market Cap & News Today",
-   "erreur": "429 : passage suivant",
+   "erreur": "HTTP Error 403: Forbidden",
    "cyberleek": true
   },
   {
@@ -460,17 +479,25 @@
    "s": "Decrypt",
    "d": "2026-11-26T22:01:02+00:00",
    "lang": "en",
-   "t": "Vibecoded GTA 6 PC Ports Are Now Rendering In-Game Graphics Despite Take-Two Crackdown",
-   "erreur": "429 : passage suivant",
+   "t": "Vibecoded GTA 6 PC Ports Are Now Rendering In-Game Graphics Despite Take-Two Crackdown - Decrypt",
+   "u": "https://decrypt.co/384061/vibecoded-gta-6-pc-ports-are-now-rendering-in-game-graphics-despite-take-two-crackdown",
+   "img": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/11/grand-theft-auto-6-gta-vi-decrypt-style-gID_7.jpg",
+   "chapeau": "Some unofficial ports now hit around 20 frames per second, as developers move their work into private communities to dodge takedowns.",
+   "txt": "",
+   "pub": "2026-11-26T22:01:02",
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSVo1ZTFydG1iMkNRYS1Yc2ZNX3RReU9uZnR5U2R1Tmw2TWp3X1BWREoxQU0tWV9pcFYxRkV6Mkl3MnI4aGNmMktYMlktZ0pxNEx6QzZaYTdBNFlqVW8zd29RQkstUXZkZExBcUlXaEtwaEkwYWJnVkdGM0xyQ2tFaFI3bU1CS19KNUtTc2xUdXBKSjN0VUE?oc=5",
-   "s": "Oyun Günlüğü",
-   "d": "2026-11-26T20:34:00+00:00",
+   "gn": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxORGY3MDI2eE44QWVTNThua1NRVlUzenhfaXZ1Y0I5RmNfM0NwRWRjX2VzdU5RMGRmbXFOeU0wLVZrakNWc1FyZk82Y1FuZnZoeklwemdyZ0JyODdxd1JiaEVYLXpBWTFXVlFRZktpVXFNTjFXZW1FaUFhTDBnNjBBanU4NTdudk93dzZ3Wk5TRmg0azQydWpPcEtjQWU0ajAxdGZXNk5WRU5FUWVDWGxCUmVKUlZSeFk1MXlKRHZjdHpOcFpDdzNZOGM0bG04V2ZnLVJuMkhzMjZqZ1NpVWFDQ2l1RUFwSnhvb05iS0V3VQ?oc=5",
+   "s": "GamesRadar+",
+   "d": "2026-11-26T20:00:00+00:00",
    "lang": "en",
-   "t": "Leaked GTA 6 XBOX build reportedly runs on PC at 25 FPS",
-   "erreur": "429 : passage suivant",
+   "t": "Rockstar boss was \"praying\" that GTA 6",
+   "u": "https://www.gamesradar.com/games/grand-theft-auto/rockstar-boss-was-praying-that-gta-6s-early-plot-twist-wouldnt-leak-given-everything-that-weve-gone-through/",
+   "img": "https://cdn.mos.cms.futurecdn.net/7GKLvfHyNh9cXxWFVLB7Zg-1920-80.jpg",
+   "chapeau": "\"It",
+   "txt": "(Image credit: Rockstar) {alert('Link copied')}).catch(err => {console.error('Failed to copy: ', err)})\" data-platform=\"copy_link\" data-action=\"\" class=\"font-ui-heading py-2 text-sm text-neutral-700 hover:bg-neutral-100 transition-colors no-underline block cursor-pointer border-0 bg-transparent w-full text-left normal-case\" aria-label=\"Copy link\" role=\"menuitem\" data-analytics-id=\"article-social\" analytics-label=\"utility-bar-social-share-copy-link\" analytics-name=\"utility-bar-secondary\" data-mrf-recirculation=\"article-social\"> Copy link Facebook X Pinterest Flipboard Email Instagram Share this article 0 Join the conversation Follow us Add us as a preferred source on Google Newsletter Subscribe to our newsletter GTA 6 was subject to more than a few leaks in the run-up to its eventual launch, but despite it all, one big early-game twist was kept a total secret until release – something Rockstar Games boss Rob Nelson was \"praying\" for.\nBefore we get into it, we're obviously about to discuss some spoilers for GTA 6 Chapter 1 . It's an early moment – one you'll have seen if you've played the first hour of the game – but if you're yet to dive in, you might want to bookmark this to come back to later. Or, of course, feel free to carry on if you don't care about a spoiler-free experience.\nEveryone still here who wants to be? Great. As you probably guessed, the twist in question is the existence of Jason and Lucia's son, Tomás.\nAfter being moved to her aunt's care following her arrest, as shown in the game's prologue, Lucia's primary motivation is to get Tomás back and give him a good life alongside Jason, but none of this was revealed prior to launch – officially or otherwise. This was something that co-studio head of Rockstar North, Rob Nelson, had his \"fingers crossed\" for.\nIn an interview with VGC a few days before GTA 6's launch, Nelson confirmed that Rockstar was \"never\" planning to reveal the twist and, at the time, was still praying no one would spill the beans ahead of schedule. \"I am still holding on,\" he said. \"Fingers crossed, how many more days? I'm praying it stays under wraps. Given everything that we've gone through, every day I'm just like, 'please, please don't do that, please don't do that.'\"\nWhile VGC notes that there was a small amount of chatter on forums about Jason and Lucia having a son, these whispers generally didn't stick, and, notably, none of the Cyberleek videos that appeared online before launch showed Tomás. Honestly, that feels somewhat miraculous given how early he's revealed and how frequently he comes up in the story and dialogue.\nCyberleek wasn't the only hacker to target Rockstar, either – there was also an enormous wave of GTA 6 leaks in 2022 – but even so, no baby boy and the driving force of the plot were plastered all over the internet as a result.\nWeekly digests, tales from the communities you love, and more\nAnyway, however the bullet was dodged, it made for an excellent twist, and let Rockstar have the story moment it was hoping for. \"It's meant to shock,\" Nelson explained. \"We were watching everyone speculate about the nature of their relationship and Jason's character, and that takes it in a completely different context. You have something to strive for beyond a huge bank account at the end.\"\nCheck out our GTA 6 review to see our thoughts on the game, or our GTA 6 guides for some helpful tips.\nCatherine Lewis Deputy News Editor I'm GamesRadar+'s Deputy News Editor, working alongside the rest of the news team to deliver cool gaming stories that we love. After spending more hours than I can count filling The University of Sheffield's student newspaper with Pokemon and indie game content, and picking up a degree in Journalism Studies, I started my career at GAMINGbible where I worked as a journalist for over a year and a half. I then became TechRadar Gaming's news writer, where I sourced stories and wrote about all sorts of intriguing topics. In my spare time, you're sure to find me on my Nintendo Switch or PS5 playing through story-driven RPGs like Xenoblade Chronicles and Persona 5 Royal, nuzlocking old Pokemon games, or going for a Victory Royale in Fortnite.\nPlease logout and then login again, you will then be prompted to enter your display name.",
+   "pub": "2026-11-26T20:00:00Z",
    "cyberleek": true
   },
   {
@@ -552,19 +579,6 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTzUtSXZWNVZFblBzdExBM3VveU1DUmhad3pQczAyMkFUc0d2dC1IaldZc09STFRBN1ZXWlVIODJITFBOQm9Hc05WdldIZFNmZFJyYXFIMGI5OTlyeFI5a01VQ0JwZTZNT2JYOXBSWVV3eTZZZDhHV3NJYmduNEJucFVCRW44aXhCVVE?oc=5",
-   "s": "shattered.io",
-   "d": "2026-11-26T14:44:27+00:00",
-   "lang": "en",
-   "t": "GTA 6 Encrypted Hard Drive: What Is on It?",
-   "u": "https://shattered.io/gta-6-encrypted-hard-drive-senator-partial-decryption-nov-26/",
-   "img": "https://shattered.io/wp-content/uploads/2026/11/gta-6-encrypted-hard-drive-senator-partial-decryption-nov-26-img13.webp",
-   "chapeau": "What is on the encrypted hard drive in GTA 6? A senator, partial footage and a lot of unconfirmed claims. Here is what reports back up.",
-   "txt": "Image: Rockstar Games Spoiler warning: this article discusses a story item and a scene from Grand Theft Auto VI . If you want to find it yourself, stop here.\nThe encrypted hard drive is a story item in Grand Theft Auto VI , and players have spent days trying to work out what it holds. Beebom’s spoiler piece, which asked what is on the drive and claimed to answer it, became the top gaming story of the week. The honest answer is narrower than the headline suggests. The game decrypts part of the drive and shows footage of a woman referred to as “Senator.” It never shows the whole thing.\nThat gap between what the game shows and what the internet claims is the real story. Since GTA 6 reached PS5 and Xbox , players have pulled every thread in Leonida, and the encrypted drive is one of the loudest. This analysis separates what reports confirm from what they only suggest, explains why Rockstar might have built the scene this way, and lays out what to watch next.\nGoogle · Preferred Sources Don't miss new tech stories on Google\nAdd Shattered once in the Google app and our stories show up in your news suggestions.\nStart with the basics. The encrypted hard drive is a story item inside the game, and reports place it in a bag alongside a statue. That is the full extent of what the fact record says about where it sits. Nothing in the coverage I reviewed gives a mission name, a map location or a sequence number, so this article does not invent one.\nWhy does a bag with a statue matter? Because it frames the drive as something a character wanted hidden or moved. A drive tucked in with a statue reads as cargo, not as a keepsake. That framing is analysis, not confirmed lore, and it should stay labeled that way. What reports do confirm is the pairing itself and the fact that the drive is encrypted.\nEncryption is the key design signal here. A locked drive promises a payoff, and the game follows through by decrypting some of it. Players then see the result on screen, which is why the story spread so fast. The reveal is visual, short on explanation and heavy on implication.\nThe game shows decrypted video footage involving a woman referred to as “Senator.” Reports agree the footage includes the senator using drugs. That is the confirmed visual content, and it is the only content the reporting supports. Everything else attached to this scene needs a caveat.\nThe second confirmed point matters just as much. The footage is only a partial decryption. The game does not reveal the full contents of the drive, and reports say so directly. A player who watches the scene and walks away believing they have seen everything has misread it.\nThink of it as a trailer for a document. The decrypted slice proves the drive holds compromising material and tells you who the material concerns. It does not tell you why the drive exists, who made it, or who wants it. Those gaps are where the speculation lives.\nSeveral reports identify Camila Fuentes as the senator in the footage. That identification is itself confirmed as a pattern of reporting. Whether Fuentes is truly the woman on screen is a different question, and it stays unconfirmed. The coverage is inconsistent, and no official Rockstar source backs the match.\nThis distinction trips up a lot of readers. “Several outlets say X” and “X is true” are separate claims. When outlets copy each other, repetition looks like corroboration even though it is one source echoed five times. Treat the Fuentes name as a strong lead from players and writers, not as a character sheet from Rockstar.\nThe cautious reading holds up well. The game calls the woman “Senator,” which is a title, not a name. A name attached to that title in reporting could come from other scenes, dialogue or in-game documents that outlets stitched together. Without the underlying source, nobody can verify the link from the outside.\nThe unconfirmed list is longer than the confirmed one, and that is by design. Below is the clean split, built only from the fact record.\nOne report says the drive contains footage of Fuentes calling an unknown man “daddy” or “papi.” No other verified source repeats it. Treat it as a rumor until someone shows the scene with timestamps, or until Rockstar confirms it. It may be accurate. The point is that nobody has demonstrated it.\nTheories that the drive belongs to Giorgio Gallo , served as blackmail material against Fuentes, or documents cocaine smuggling all stay unconfirmed. They fit the visible clues neatly, which is exactly ",
-   "pub": "2026-11-26T14:42:00+00:00",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMimgJBVV95cUxOMVNuNjFBMXVCTTNZRXpBQjN1alFzYnB6c1dSVmJtSGhDUmtxNDBCQUZSRzlfcnZ0bW5pY2RCM1M5RmVSekdadVVaYmYxenZKRy1ybl8wRnQyQjdKeU9rS2ljOFNDNElLRHJtcF91V2hUZHotbXZTS3c3V1YybG1feXNQa0ttWlZnWmNhZFB2UmR3WUVQTkJ5cnNNeXBnXzh1ZUpqVTdfTDc3aEd2VWJlSmFHMGl0d0dVS3FlVTZFWGRyRzg3Wkd5a1F1azJySFlHaW00c3JsZl9jUi1RSU1xbkViX0NZVktlV3FxTkJOQjJJQU5NZTZscTJBSTQ5OHdZYV9nY2t5WkdaT1NjazlnX1c2Skk0NjlPVXc?oc=5",
    "s": "La Crème Du Gaming",
    "d": "2026-11-26T13:30:22+00:00",
@@ -604,21 +618,25 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAxSGlzQTEtMGJXVWdxSVVnLWRXY1BkMGZDQlhIQ3M2cDJNMHRPN1ZsdllxV01jWUI4Qk4wTjIwTGN5V09OTFprTWxZTTF6dFBHUl83UDBvMW1VVmdZajh0TA?oc=5",
-   "s": "Menow",
-   "d": "2026-11-26T07:40:00+00:00",
-   "lang": "fr",
-   "t": "GTA 6 : une fuite révèle ce que la PS5 Pro pousserait plus loin que les autres consoles",
-   "erreur": "429 : passage suivant",
-   "cyberleek": true
-  },
-  {
    "gn": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4ydmpITXZtb2hsYjMxZ3lha0s0WlJ3YUhkc1JmeG1wSC0ySzJLSmZnVTR0b2xvM3NOUmYxdFM1S3M1aVdyWVdBUmtKTnBIMS1OU3JRQlFBdEJyNkRRdllrWC0yaXpOWGFKVGtjc3I4dXhORjZOMDRN?oc=5",
    "s": "Make Tech Easier",
    "d": "2026-11-26T04:23:24+00:00",
    "lang": "en",
-   "t": "Cyberleek released the missing executable for its leaked 209GB GTA 6 Xbox build, and an open source project says the game now boots on Windows but runs at about 1 frame per second in the world, not playable",
-   "erreur": "429 : passage suivant",
+   "t": "Cyberleek released the missing executable for its leaked 209GB GTA 6 Xbox build, and an open source project says the game now boots on Windows but runs at about 1 frame per second in the world, not playable - Make Tech Easier",
+   "u": "https://maketecheasier.com/cyberleek-gta-6-xbox-executable-released/",
+   "img": "https://maketecheasier.com/wp-content/uploads/2026/11/cyberleek-gta-6-xbox-executable-released-featured-scaled.jpg",
+   "chapeau": "Cyberleek released the main executable for its leaked 209GB GTA 6 Xbox build on 23 November, and the open source VIctory project says the game boots on Windows but runs at about 1 frame per second in the world, not playable.",
+   "txt": "Practical fixes for the tech you already own. Free, a few times a week.\nThe main executable for the leaked Xbox build of Grand Theft Auto 6 began circulating on 23 November 2026, according to TalkEsport . XDA Developers reported that the executable had become public and completed the Xbox build. Cyberleek put the size of the rest of that build at around 209GB, according to TalkEsport. The open source project VIctory says in its GitHub README that the game boots on a Windows PC and reaches the prologue. The project reports about 1 frame per second in the game world and describes the game as unplayable at that frame rate.\nPC Gamer reported that Cyberleek had released a near-complete Xbox build the previous week but had held back the main executable. Cyberleek had said it would release the file when its crypto coin reached a $15 million market cap or on 23 November, whichever came first. TalkEsport reported that the rest of the build had been online since 19 November. According to accounts tracking the release, which TalkEsport cited, the executable began circulating shortly before 3pm UTC on 23 November.\nCyberleek called the release “an early Christmas gift” for followers, according to PC Gamer. The outlet reported that Cyberleek framed the release as a handover to people trying to get the game running on PC. Cyberleek added, “The torch passes to the open source recomp and emulation projects.” PC Gamer’s Andy Chalk wrote that Cyberleek appeared to have followed through on the release and said he had not verified whether the executable was genuine.\nXDA identified Cyberleek as the same individual or group behind GTA 6 leaks from earlier in the year. It also reported that Cyberleek had published SHA-256 hashes for both the executable and its ZIP archive. XDA’s report appeared on 23 November, the day the executable began circulating, and the outlet updated it on 24 November.\nTalkEsport reported that clips showed the leaked build reaching its opening settings screens on PC within hours of the executable’s release. TalkEsport said none of the progress it covered had been independently verified.\nVIctory’s GitHub repository was created at 21:47 UTC on 23 November 2026, according to GitHub’s records. The project uses the GPL-3.0 license. The repository was created the same day the executable began circulating, according to the dates reported by GitHub and TalkEsport. In a status update dated 25 November 2026, the README says the title boots, the menus run at 30 fps and the game loads its world. The README also says it plays the intro cutscene and reaches the prologue.\nThe menus and the world run at different speeds in VIctory’s account. The README says, “Not playable yet, because of the framerate: about 1 frame per second in the world.” The project reports testing on one machine running Windows 11 and equipped with an AMD RX 6700 XT graphics card with 12 GB of memory. The frame rates and milestones in the README describe that test. The README names the frame rate as what keeps the game from being playable. It also warns that entering the world hung the GPU in earlier builds and that a run can still end on a GPU fault.\nXDA’s 24 November update named VIctory among the unofficial GTA 6 PC projects tracked by a site called PortWatch VI, and said that site probably isn’t an entirely accurate picture of the projects’ status. The same update reported, according to Leonida developer NotRexed, that the Leonida project was removed from GitHub after a DMCA notice .\nPC Gamer warned that files from strangers can contain malware. TalkEsport reported that security firms were warning about fake GTA 6 PC downloads spreading malware. Make Tech Easier reported that a GTA 6 PC port scam kit was being offered on the dark web for $200 in Bitcoin or Tether, citing NordVPN.\nAs of TalkEsport’s report, Rockstar Games had yet to announce a PC version of GTA 6. The outlet reported that neither Rockstar Games nor Take-Two Interactive had made a public comment about the leak. VIctory’s README says the game reached the prologue in its Windows test. The project’s account says the game was unplayable because of the frame rate once it loaded the world.\nMake Tech Easier has since reported on the GitHub repository of the unofficial CGBJ port returning 404 after it posted a Windows launcher .",
+   "pub": "2026-11-26T04:23:24+00:00",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1QdWdpZk1FVXZ3SDRMQmw4aXdSQXd6Qk42dWV6VjhvdV8yZWMyMXRqbHZoQTZOT3FHbTYtYUVzTG94cDV5dmdFRVU2RGdtSkk4ZWVfUkQ1U2pCU2dYN0E?oc=5",
+   "s": "Yahoo! Finance Canada",
+   "d": "2026-11-25T21:44:45+00:00",
+   "lang": "en",
+   "t": "CyberLeek CYBERLEEK (CYBERLEEK-USD) Live Price, News, Chart & Price History",
+   "erreur": "HTTP Error 404: Not Found",
    "cyberleek": true
   },
   {
@@ -652,8 +670,12 @@
    "s": "CoinGlass",
    "d": "2026-11-25T17:07:00+00:00",
    "lang": "en",
-   "t": "CyberLeek Futures Price",
-   "erreur": "429 : passage suivant",
+   "t": "CyberLeek Futures Price | CYBERLEEK Perpetual Price, OI & Funding | CoinGlass",
+   "u": "https://www.coinglass.com/currencies/CYBERLEEK",
+   "img": "https://cdn.coinglasscdn.com/static/og/coin.png?v=1",
+   "chapeau": "CyberLeek is $0.001072 today, −5.55% in 24h, market cap $785.11K, ATH $0.03143. Plus a live CYBERLEEK chart, candlesticks and a currency converter.",
+   "txt": "",
+   "pub": "",
    "cyberleek": true
   },
   {
@@ -696,12 +718,16 @@
    "cyberleek": true
   },
   {
-   "gn": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQOGNPNXVxNDNqc3NPa1VzbllVdG52aFFJNGtBVUJRU1BBa2dBZW01R1QzZVFJN1V5cTd4SlNpVHpRR0J4UGxqSV9OS3ZLTFJtY3UtUzBkejlyeUZpbGxldkltLVlZT190emxMNVJEUkZwb215R05va0wzSlVlajc2TWxva0JpTEU?oc=5",
-   "s": "Eurogamer.net",
-   "d": "2026-11-25T15:19:10+00:00",
-   "lang": "en",
-   "t": "GTA 6 recompilers and vibe-coders implore AI chatbots to 'work faster' and 'make no mistakes' as they race to get the game running on PC",
-   "erreur": "429 : passage suivant",
+   "gn": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNd1FKZmhHVVV2WTlTVnJJRVlBR3BKZFE2YXdhbmIyTUdVQzA3bk1EZFRCOHc3NXFqUXY0SVF4SkVhT1FZQ0NjQnpJMUNodDJOTTdoTFljVnhSNF9zZzZzdkpQTmdBLWU4cms0bi0tcW9zTS1mZmt0dU1KVTNSSENYeXJoWmRIcl9PczVGQmFHVjAyS0dPZlcxLXFQcG8wZ3pCRHRZck9LZ1dMM2pVOUY3VnRmQ0Zob0h2Y3BxTV9OWEdSV01kMEFjY284VEY0Q3ZMeXFVSUd1WUZxbUhfbU10eGotd2lQRG9VQTBPZW5JNDMzQXljQ0c2SE50NldHdWdFN1R0bg?oc=5",
+   "s": "Le Journal du Centre",
+   "d": "2026-11-25T14:41:00+00:00",
+   "lang": "fr",
+   "t": "Il tente de voler GTA VI dans un magasin à La Charité-sur-Loire puis sort un couteau pour prendre la fuite",
+   "u": "https://www.lejdc.fr/charite-sur-loire-58400/faits-divers/il-tente-de-voler-gta-vi-dans-un-magasin-a-la-charite-sur-loire-puis-sort-un-couteau-pour-prendre-la-fuite_15091747/",
+   "img": "https://img.centrefrance.com/sAueBf3A5qgwcoBne16Fz8v6Pnf5C9jVoJN2WY1iCGo/rs:fill:1200:800:1:0/g:sm/bG9jYWw6Ly8vMDAvMDAvMDcvODcvMDAvMjAwMDAwNzg3MDAxNw.jpg",
+   "chapeau": "Un homme a tenté de dérober un exemplaire du jeu GTA VI dans un magasin de La Charité-sur-Loire, mardi 24 novembre. Pris en chasse par l’agent de sécurité, il a brandi un couteau avant de prendre la fuite.",
+   "txt": "",
+   "pub": "2026-11-25T14:41:22Z",
    "cyberleek": true
   },
   {
@@ -709,8 +735,12 @@
    "s": "IGN",
    "d": "2026-11-25T12:44:12+00:00",
    "lang": "en",
-   "t": "Take-Two Battles Unofficial GTA 6 PC Port Work",
-   "erreur": "429 : passage suivant",
+   "t": "Take-Two Appears to Be Trying to Scrub GTA 6 PC Ports From the Internet, as Vibecoders Race Toward Controversial World First",
+   "u": "https://www.ign.com/articles/take-two-appears-to-be-trying-to-scrub-gta-6-pc-ports-from-the-internet-as-vibecoders-race-toward-controversial-world-first",
+   "img": "https://assets-prd.ignimgs.com/2026/11/25/gtavi-10-1795610461067.jpg?width=1280&format=jpg&auto=webp&quality=80",
+   "chapeau": "Take-Two appears to be taking on the many GTA 6 PC ports currently in the works following Cyberleek’s alleged release of an unauthorized Xbox build of the game.",
+   "txt": "Take-Two appears to be taking on the many GTA 6 PC ports currently in the works following Cyberleek’s alleged release of an unauthorized Xbox build of the game.\nThis week, Cyberleek allegedly released the executable file for the incomplete GTA 6 Xbox build they reportedly leaked the week prior, sparking a race within the homebrew scene to port the build to PC. There’s even a website tracking the various attempts to recompile, emulate, or port the leaked Xbox Series build to PC.\nBut it looks like Take-Two is taking action, reportedly convincing GitHub to delete an entire network of 3,007 repositories via a DMCA takedown notice.\nThe takedown we know about relates to ItsNotRexed's GitHub repository and the over 2,900 forks attached to it, which Take-Two said facilitated copyright infringement of GTA 6. Take-Two alleged that the repository Project Leonida repository \"exceeds the license Rockstar Games grants to users, constituting copyright infringement.” Here, Take-Two claimed that the repository violated at least Section 2.3 of Rockstar Games’ terms of service:\nAdditionally, there’s an interesting note in the takedown order that addresses the “bring your own files” defence we’ve seen so often from the homebrew community when it comes to unofficial ports of video games. As you’d expect, Take-Two isn’t in favor of it, insisting that in this case, the files the user must provide come from the unauthorized GTA 6 Xbox build Cyberleek leaked online.\nAccording to now deleted social media posts, NotRexed, author of the Leonida project, shut it down entirely. There are also screenshots of its Discord showing users posting disclaimers distancing themselves from Project Leonida in case of a federal investigation.\nHowever, many similar projects remain active, risking similar action from Take-Two. Seemingly undeterred, these projects are ongoing, with some getting close to creating a PC port of GTA 6 that is somewhat playable. Some are even streaming their efforts, showing how they are vibecoding a port using agent prompts such as \"make no mistakes,\" \"keep finding more stuff and working and pushing,\" and \"work faster.\"\nThis is of course a nightmare scenario for Take-Two and Sony and Microsoft, which are benefiting greatly from GTA 6 releasing on console only. The console version of GTA 6 targets 30fps across all platforms, although struggles at times to hit that on base PS5, and Xbox Series X and S. As a result, there is huge interest in a potential PC version offering 60fps gameplay.\nAs you've probably seen from various viral clips on social media, people are using AI to create clones of popular games and release them on platforms they're not normally available on. We've seen everything from Minecraft playable inside X/Twitter to modders crashing Minecraft and Elden Ring together . Indeed, last month, Rockstar's own Grand Theft Auto 5 was made playable in a browser before it was pulled offline.\nSeemingly in response, Anthropic issued an update for Claude that made it harder for people to use the AI model to generate video game clones. In an interview with IGN sister site RPS , former Rockstar North technical director Obbe Vermeij said that Rockstar Games may be keen to port GTA 6 to PC as soon as possible , due to the explosion of AI-generated clones and ports.\nSome of this concern has to do with the security of the PS5, with Sony seemingly engaged in a game of Whac-a-Mole with hackers who are trying to jailbreak the latest firmware. If a PS5 jailbreak is made available for the firmware that is required by GTA 6 to run, it may be possible for Rockstar’s game to be pirated on PS5 and subsequently made available on PC.\nEarlier this month, Strauss Zelnick, the boss of Take-Two, responded to the threat of AI-assisted reverse-engineering and decompilation of games in an interview with IGN. He said he was taking the issue seriously, and insisted that fans will prefer to play GTA 6 officially, with all its bells and whistles as Rockstar intended, over an unofficial PC version.\nIGN: We've seen hackers using AI to clone games much faster than ever before, even try to jailbreak consoles. And there is some concern about this leading to potentially GTA 6 being made available on PC unofficially or places that you aren't releasing it. I was just wondering how much of a threat this is to your business? And, is there anything meaningful you can do about it?\nStrauss Zelnick: I don't think it’s a financial matter, in terms of a threat to our busine",
+   "pub": "2026-11-25T12:44:11.009Z",
    "cyberleek": true
   },
   {
@@ -732,7 +762,11 @@
    "d": "2026-11-25T10:27:41+00:00",
    "lang": "en",
    "t": "Unofficial GTA 6 PC port and over 3,000 repositories taken down as Take-Two takes action",
-   "erreur": "429 : passage suivant",
+   "u": "https://www.pcguide.com/news/unofficial-gta-6-pc-port-and-over-3000-repositories-taken-down-as-take-two-takes-action/",
+   "img": "https://www.pcguide.com/wp-content/uploads/2026/11/GTA-6-errors-and-crashing-guide.jpg",
+   "chapeau": "Take-Two Interactive is taking action against unofficial projects, with one of the biggest efforts to bring GTA 6 to PC already shut down.",
+   "txt": "PC Guide is reader-supported. When you buy through links on our site, we may earn an affiliate commission. Read More Table of Contents Black Friday is finally here. Below, you'll find some of the biggest and best deals from this year's most exciting sales event! Progress of unofficial PC ports for GTA 6 It has just been over a week since GTA 6 launched on PS5 and Xbox Series X/S, and modders have already made some noticeable progress in getting the game to run on PC. However, Rockstar Games and its parent company, Take-Two Interactive, are now taking action against these unofficial projects, with one of the biggest efforts to bring GTA 6 to PC already shut down.\n🔥 More offers: see our Black Friday GTA 6 deals 2026 guide, updated daily, or browse all Black Friday deals .\nFor those unaware, notorious GTA 6 leaker Cyberleek released an alleged 209GB Xbox build of the game shortly after its launch. While the build contained a large collection of game files, it was initially missing the main executable. However, Cyberleek released the missing file on Monday, allowing modders to make further progress with their unofficial PC ports .\nPrices correct as of November 27th, 2026 (Black Friday evening).\nOne of the most popular projects that emerged following the leak was Leonida, led by a developer known as NotRexed. The project attracted a lot of attention from the community and was aimed at getting the Xbox version of GTA 6 to run natively on PC. However, its GitHub repository suddenly became inaccessible recently, and we now have confirmation that Take-Two was behind its removal.\nGitHub has published a DMCA takedown notice submitted by Take-Two’s intellectual property enforcement team. The company requested the removal of Leonida’s main repository along with thousands of copies of its code. According to GitHub, the takedown affected an entire network of 3,007 repositories.\nInterestingly, the developers behind Leonida did not distribute the leaked GTA 6 files themselves. Instead, the project required users to provide their own game files. However, Take-Two argued that this approach was intentionally misleading, pointing to the timing of the project’s creation and its reliance on the unauthorized Xbox build circulating online.\nAside from the GitHub repository, Leonida’s Discord server was also taken down. Interestingly, NotRexed previously announced that he is stepping away from the project altogether. While Rockstar’s intervention contributed to his decision, he explained that managing the community alongside his personal commitments had also become increasingly difficult. However, he has now asked to “ignore” his other posts as “something’s coming soon.”\nThat said, Leonida isn’t the only project working on an unofficial GTA 6 PC port. Other modders have reportedly managed to get the game’s opening scenes running on PC, although they are still dealing with graphical issues and poor frame rates. There’s still a significant amount of work left before these unofficial ports can offer a proper gameplay experience.\nAbdul is a tech writer and Editor for PC Guide, specializing in all things tech, gaming, and hardware.",
+   "pub": "2026-11-25T10:27:36+00:00",
    "cyberleek": true
   },
   {
@@ -741,7 +775,11 @@
    "d": "2026-11-25T07:48:00+00:00",
    "lang": "en",
    "t": "“GTA 6”: Take-Two gets unofficial PC port removed from GitHub",
-   "erreur": "429 : passage suivant",
+   "u": "https://www.heise.de/en/news/GTA-6-Take-Two-gets-unofficial-PC-port-removed-from-GitHub-11537104.html",
+   "img": "https://heise.cloudimg.io/v7/_www-heise-de_/imgs/18/5/2/0/7/6/5/9/Jason_Duval_07-763a916c24d34b43.jpg?func=bound&height=1200&org_if_sml=1&q=85&width=1200",
+   "chapeau": "Project Leonida aimed to bring the leaked Xbox version of “GTA 6” natively to Windows. Take-Two’s DMCA notice has taken it down.",
+   "txt": "",
+   "pub": "",
    "cyberleek": true
   },
   {
@@ -768,6 +806,28 @@
    "chapeau": "Quelques heures après la dernière fuite de Cyberleek, des moddeurs font déjà booter GTA 6 sur PC, écran titre et menus à l’appui. Mais derrière ces exploits spectaculaires, que vaut vraiment ce fameux « GTA 6 jouable sur PC » qui affole les réseaux ?",
    "txt": "Quelques heures après la dernière fuite de Cyberleek, des moddeurs font déjà booter GTA 6 sur PC, écran titre et menus à l’appui. Mais derrière ces exploits spectaculaires, que vaut vraiment ce fameux « GTA 6 jouable sur PC » qui affole les réseaux ?\nQuelques heures après la mise en ligne du fichier exécutable Xbox de GTA 6 par le hacker Cyberleek , des moddeurs sont déjà parvenus à lancer le jeu sur PC. Sur certaines configurations, le logo de Rockstar Games apparaît, l’écran titre se charge, puis la séquence de configuration initiale défile comme sur console avant de planter. Pour un titre officiellement limité à la PS5 et à la Xbox Series, la vitesse des progrès surprend même les habitués de la scène modding.\nTout est parti de la fuite d’une build Xbox Series d’environ 209 Go, publiée le 19 novembre, mais inutilisable sur PC sans son exécutable. D’après Notebookcheck, ce dernier a été ajouté quelques jours plus tard, déclenchant une véritable course contre la montre pour faire booter GTA 6 nativement sous Windows. Où en est vraiment ce portage non officiel, et faut-il déjà croire aux vidéos de « GTA 6 jouable sur PC » qui envahissent les réseaux ?\nLa clé, c’est que la version Xbox Series de GTA 6 repose sur une architecture processeur x86-64, la même famille que la majorité des PC de jeu. Les kits de développement Xbox utilisent des API proches de DirectX 12, ce qui réduit la distance technique à parcourir pour Windows. Plutôt que d’émuler entièrement la console, les moddeurs peuvent réécrire une partie des appels système et traduire les shaders pour qu’ils soient acceptés par un GPU PC.\nRésultat : alors qu’au départ le jeu se contentait de lancer l’exécutable avant de crasher immédiatement, Notebookcheck rapporte qu’il passe désormais l’écran de boot et tout l’outil de configuration initiale. Certaines équipes affirment même atteindre la cinématique d’intro autour de 30 à 40 images par seconde, mais aucun monde ouvert jouable et stable n’a été montré de façon crédible.\nUn moddeur mentionne déjà environ 770 Go occupés sur SSD après décompression du dump Xbox et recompilation de plus de 26 000 shaders, ce qui donne une idée du chantier. À ce stade, l’expérience se limite à faire démarrer l’exécutable Xbox, afficher les menus et observer où le jeu plante pour corriger les appels manquants. Aucun installateur simple ni lanceur Windows « prêt à cliquer » n’existe pour le grand public.\nParallèlement, d’autres bidouilles ont consisté à faire tourner GTA 6 via une PS5 en streaming local sur PC, puis à injecter le DLSS 5 de Nvidia . Le DLSS est une technique qui rend le jeu dans une résolution plus basse puis reconstruit une image plus nette, ce qui permet de débloquer le frame rate au‑delà de 30 fps et d’améliorer la fluidité. Mais là encore, on reste dans le domaine de la démonstration technique, pas d’un port PC natif et distribué.\nNotebookcheck estime qu’au rythme actuel, une build PC non officielle pourrait apparaître sur des sites de piratage dans les jours à venir. Cela ne signifie pas pour autant une version stable : la plupart de ces « GTA 6 PC full version » ont toutes les chances d’être des malwares déguisés , capables de voler mots de passe, comptes de jeu ou cryptomonnaies. Juridiquement, télécharger et exécuter ces fichiers reste de toute façon illégal.\nOfficiellement, Rockstar Games et Take-Two Interactive n’ont annoncé aucun port PC de GTA 6 . La seule façon légale d’y jouer sur ordinateur reste le Remote Play ou le cloud depuis sa propre console. Dans le même temps, l’auteur de la fuite se justifie : selon Notebookcheck, Cyberleek affirme « se battre contre les fonctionnalités verrouillées derrière des paywalls et les 20 dollars facturés en plus pour l’Ultimate Edition », tout en utilisant un memecoin $CYBERLEEK pour financer son projet, sans le rendre obligatoire pour accéder aux fichiers. Rockstar chercherait activement à l’identifier par des moyens juridiques, pour l’instant sans succès.\nAu final, oui, GTA 6 boote déjà sur certains PC de moddeurs, ce qui est un signal fort sur la proximité technique entre Xbox Series et Windows. Mais non, il n’existe toujours pas de « GTA 6 jouable sur PC » accessible, fiable et sûr pour le joueur lambda. Pour l’instant, le feuilleton profite surtout aux passionnés de reverse engineering et aux cybercriminels à l’affût des plus impatients.",
    "pub": "2026-11-25T06:30:00+00:00",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBqbEFOY0g4cHRDZzB1bTNVYi1IMzFOSDQtUkgtWkRCejVxZndsU1VuX09UbExCRHJjbVZXcnhtZks2NXpVQ2U0bWc4YUpabEJDWks5aC10TGRKbmxmQ2RtU2NaZTlaN2RSOFZoNy1GenhmMU1VWGZaN2dn0gGOAUFVX3lxTFBxVDZzZUQyaWlRSjZtdlZxSjJINWVWTEVuZzdnNnphbVdxLXlMNmMyZUQzYkNFd3ZuZm8yWGttN2ZZMzltRW9GY3RyR2twT0RPTWEyVF9NZDVobXc3QlROV2VjdG1yWVlMRTBTMVk3OFdPTDBKVHBJbHVZOGNocnFDY1poNUpOSXJ6U0tKSEE?oc=5",
+   "s": "Chosunbiz",
+   "d": "2026-11-25T00:58:00+00:00",
+   "lang": "en",
+   "t": "GTA 6 leak raises prospect of unofficial PC port and earlier official release",
+   "u": "https://biz.chosun.com/en/en-it/2026/11/25/CUNAZ7EHNRDODCVOZ4JV5MBC6M/",
+   "img": "https://biz.chosun.com/resizer/v2/JCGRKKORAFKOJFZBWPBDGYWISQ.jpg?auth=a87891393bbb9775c604d7ceab67090be720285e179e2dc398e819fd7cb998cd&width=1200&height=630&smart=true",
+   "chapeau": "GTA 6 leak raises prospect of unofficial PC port and earlier official release",
+   "txt": "조선비즈 구글 검색 먼저 보기 Rockstar Games' GTA Ⅵ(6) records approximately 5 trillion won in sales in just one day after its release. /Courtesy of Yonhap News Agency Hacked files from \"Grand Theft Auto (GTA) 6,\" a crime action game considered this year's biggest hit, have been released, raising the likelihood that an unofficial PC version will emerge.\nAccording to British gaming outlet Eurogamer on the 24th, Cyberleek, the anonymous hacker who breached Rockstar Games in August and leaked the game's entire development files, recently released the executable file for the Xbox version of GTA 6.\nAfter leaking the full game build, Cyberleek had been receiving cryptocurrency donations while releasing stolen files and gameplay footage. Cyberleek had not released the executable (exe) file needed to run the game until making it public five days after the game's release.\nA group of developers called \"Project Leonida\" downloaded the files released by Cyberleek and reportedly modified and ported the Xbox version to run on PCs with the help of the artificial intelligence (AI) tool Claude.\nAccording to Eurogamer, one hacker reportedly managed to boot the game on a PC as far as the initial setup screen but failed to enter the game itself. They claim it will take about a week for the build to become playable on a PC.\nGTA 6 was released worldwide on the 19th for PlayStation 5 and Xbox Series X|S. Rockstar Games typically releases games on consoles first and follows with a PC version about a year later.\nBut amid growing concern about the August hack and the prospect of an unofficial port using AI, some expect the company to bring forward the PC version's release to the first quarter of next year.",
+   "pub": "2026-11-25T00:58:22.730Z",
+   "cyberleek": true
+  },
+  {
+   "gn": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNOTBSZGdpTDFwZEhrNVAxNkxMWS1Ta1Z0TDhlTFpqNi11RHdfdjRHcGZXUGdGVEZBOWNXMWtpMXhUYU92Yzk1ckNVb2dFYV9mUU1fVEp6TEZoMXNkNFNWRjk5Vl9xS0JIanRIcFZmMUZELVhwcnhkZHdsZy1xdFRBWUhCYlE0SnJsVkY0bFlOMHBBU1NMb3pDeVIwLS1tc0RFRFA0eWlPVzJnN3ZMTUNoUmlFMVRZRW9wTVVxN2NCM0laVEVFRkYxc2RlTlVlN0JXV2duUkxOTkZzV2VrdWM3bExR?oc=5",
+   "s": "TweakTown",
+   "d": "2026-11-24T23:03:10+00:00",
+   "lang": "en",
+   "t": "Cyberleek claims modders could get GTA 6 running on PC within a week after reported Xbox build leak",
+   "erreur": "HTTP Error 403: Forbidden",
    "cyberleek": true
   }
  ]
