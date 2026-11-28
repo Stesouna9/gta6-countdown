@@ -1,6 +1,6 @@
 {
  "title": "Le buzz GTA6",
- "updated_at": "2026-11-28T09:01:00+01:00",
+ "updated_at": "2026-11-28T12:12:31+01:00",
  "schedule": "Veille toutes les 2 h, de 8 h à minuit",
  "items": [
   {
@@ -59,6 +59,25 @@
    "embed_type": "x",
    "cta": "Ouvrir la publication sur X",
    "post_text": "In GTA 6, trees will actually catch fire and burn after getting struck by lightning. Rockstar thought of everything."
+  },
+  {
+   "id": "x-tronconneuses-leonida-gtalphaintel-2026-11-27",
+   "title": "GTA 6 : des tronçonneuses à Leonida, mais pas utilisables comme armes, selon @GTAlphaintel",
+   "summary": "@GTAlphaintel rapporte que Rockstar aurait jugé le rendu réaliste des tronçonneuses trop cru pour en faire des armes. Elles restent présentes à Leonida, mais Jason et Lucia ne peuvent pas les ramasser. Information relayée par un seul compte, sans source officielle ni presse corroborante vérifiée.",
+   "url": "https://x.com/GTAlphaintel/status/2126458549177930140",
+   "platform": "X",
+   "author": "@GTAlphaintel",
+   "status": "Rumeur",
+   "published_at": "2026-11-27T23:30:00.000Z",
+   "checked_at": "2026-11-28T12:12:31+01:00",
+   "evidence": "Vues relevées dans data/x_alertes.json (maj du 28/11, 11 h 03 UTC) : 21 802 vues, 192 j'aime, 20 signets, 12 republications, 12 réponses. Un seul compte relève l'information ; aucune occurrence dans data/presse.json.",
+   "visual": "Tronçonneuses",
+   "image": "https://pbs.twimg.com/media/HYJEKJvaMAABd1V?format=jpg&name=360x360",
+   "image_alt": "Image du post de @GTAlphaintel : tronçonneuses dans GTA 6",
+   "image_credit": "@GTAlphaintel sur X",
+   "embed_type": "x",
+   "cta": "Ouvrir la publication sur X",
+   "post_text": "Rockstar said GTA 6's realistic visuals made chainsaws feel too graphic to use as weapons\n\nYou can still find them around Leonida but Jason and Lucia cannot pick them up"
   },
   {
    "id": "x-scooter-pnj-police-gtavi-countdown-2026-11-27",
@@ -7971,6 +7990,11 @@
    "at": "2026-11-28T09:01:00+01:00",
    "label": "Passage Claude Haiku (Matière X, veille 2 h)",
    "summary": "2 sujets ajoutés, un seul compte chacun, Rumeur : Lucia et Valentina photographiées ensemble (35 220 vues, @GTAVI_Countdown) ; vieille dame en scooter qui vole un PNJ (22 853 vues, @GTAVI_Countdown). Non retenus : chainsaws Rockstar (19 306 vues, @GTAlphaintel) et Reed Timmer (19 259), sous le seuil de 20 000 vues ; posts gta6hubfr sur leur propre app et site (promotion, pas un sujet GTA 6) ; cocaine flamingos (2 188 vues)."
+  },
+  {
+   "at": "2026-11-28T12:12:31+01:00",
+   "label": "Passage Claude Haiku (Matière X, veille 2 h)",
+   "summary": "1 sujet ajouté, un seul compte, Rumeur : tronçonneuses présentes à Leonida mais pas utilisables comme armes (21 802 vues, @GTAlphaintel), seuil de 20 000 atteint. Non retenus : glitch argent @GTA6France1 (74 vues) et flamingos cocaïne @GTAlphaintel (3 283 vues), sous le seuil. Lucia/Valentina, Mandy sur PS5, arbres en feu et scooter déjà publiés."
   }
  ],
  "coverage": {
