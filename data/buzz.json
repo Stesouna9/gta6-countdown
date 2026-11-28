@@ -1,8 +1,65 @@
 {
  "title": "Le buzz GTA6",
- "updated_at": "2026-11-28T00:12:57+01:00",
+ "updated_at": "2026-11-28T08:12:46+01:00",
  "schedule": "Veille toutes les 2 h, de 8 h à minuit",
  "items": [
+  {
+   "id": "x-mandy-ps5-jailbreak-gtavi-countdown-2026-11-28",
+   "title": "GTA 6 : des modders remplaceraient Lucia par Mandy sur PS5 jailbreakées, selon @GTAVI_Countdown",
+   "summary": "@GTAVI_Countdown relaie l'affirmation que des modders remplacent déjà Lucia par Mandy dans GTA 6 sur PS5 jailbreakées, avec retrait de l'effet de vignette, correction de la météo et déblocage des cadences d'images. Le post ne montre aucune vérification ; aucune reprise n'a été trouvée dans data/presse.json.",
+   "url": "https://x.com/GTAVI_Countdown/status/2126492406996742499",
+   "platform": "X",
+   "author": "@GTAVI_Countdown",
+   "status": "Rumeur",
+   "published_at": "2026-11-28T01:44:32.000Z",
+   "checked_at": "2026-11-28T08:12:46+01:00",
+   "evidence": "Vues relevées dans data/x_alertes.json (maj du 28/11, 06 h 16 UTC) : 100 960 vues, 4 237 j'aime, 206 reprises, 545 signets, 104 réponses. Un seul compte relève l'information.",
+   "visual": "Lucia et Mandy",
+   "image": "https://pbs.twimg.com/media/HYLRfxtXsAAazA8?format=jpg&name=small",
+   "image_alt": "Image du post de @GTAVI_Countdown sur le remplacement de Lucia par Mandy",
+   "image_credit": "@GTAVI_Countdown sur X",
+   "embed_type": "x",
+   "cta": "Ouvrir la publication sur X",
+   "post_text": "Modders are already replacing Lucia with Mandy in GTA 6 on jailbroken PS5 consoles. They also removed the vignette effect, fixed the weather and unlocked frame rates."
+  },
+  {
+   "id": "x-arbres-foudre-feu-gtavi-countdown-2026-11-27",
+   "title": "GTA 6 : les arbres prendraient feu après un impact de foudre, selon @GTAVI_Countdown",
+   "summary": "@GTAVI_Countdown affirme que les arbres de GTA 6 peuvent prendre feu et brûler après avoir été frappés par la foudre. Le post ne cite aucune source ; aucune reprise n'a été trouvée dans data/presse.json.",
+   "url": "https://x.com/GTAVI_Countdown/status/2126459421840810324",
+   "platform": "X",
+   "author": "@GTAVI_Countdown",
+   "status": "Rumeur",
+   "published_at": "2026-11-27T23:33:28.000Z",
+   "checked_at": "2026-11-28T08:12:46+01:00",
+   "evidence": "Vues relevées dans data/x_alertes.json (maj du 28/11, 06 h 16 UTC) : 34 193 vues, 3 007 j'aime, 153 reprises, 224 signets, 40 réponses. Un seul compte relève l'information.",
+   "visual": "Arbres en feu",
+   "image": "https://pbs.twimg.com/media/HYKzfY0XYAART9c?format=jpg&name=small",
+   "image_alt": "Image du post de @GTAVI_Countdown sur les arbres qui brûlent après la foudre",
+   "image_credit": "@GTAVI_Countdown sur X",
+   "embed_type": "x",
+   "cta": "Ouvrir la publication sur X",
+   "post_text": "In GTA 6, trees will actually catch fire and burn after getting struck by lightning. Rockstar thought of everything."
+  },
+  {
+   "id": "x-influenceurs-ia-lucia-gtalphaintel-2026-11-27",
+   "title": "GTA 6 : des influenceurs IA modelés sur Lucia gagnent de l'argent avec les fans, selon @GTAlphaintel",
+   "summary": "@GTAlphaintel rapporte que des influenceurs IA modelés sur Lucia gagnent des milliers de dollars grâce aux interactions des fans ; le post cite un créateur et le New York Post. Les montants ne sont pas vérifiés, et aucune reprise n'a été trouvée dans data/presse.json.",
+   "url": "https://x.com/GTAlphaintel/status/2126443449385644103",
+   "platform": "X",
+   "author": "@GTAlphaintel",
+   "status": "Rumeur",
+   "published_at": "2026-11-27T22:30:00.000Z",
+   "checked_at": "2026-11-28T08:12:46+01:00",
+   "evidence": "Vues relevées dans data/x_alertes.json (maj du 28/11, 06 h 16 UTC) : 24 346 vues, 77 j'aime, 15 signets, 4 réponses. Un seul compte relève l'information.",
+   "visual": "Influenceurs IA",
+   "image": "https://pbs.twimg.com/media/HYJEBgibcAAdRoR?format=jpg&name=360x360",
+   "image_alt": "Image du post de @GTAlphaintel sur les influenceurs IA modelés sur Lucia",
+   "image_credit": "@GTAlphaintel sur X",
+   "embed_type": "x",
+   "cta": "Ouvrir la publication sur X",
+   "post_text": "AI influencers modelled after Lucia are making thousands as GTA fans interacted with them. One creator told the New York Post he expected her looks to make her popular with men, especially fans of the series"
+  },
   {
    "id": "x-astuce-argent-gtasix-2026-11-27",
    "title": "GTA 6 : une astuce annoncée à plus de 600 000 en cinq minutes circule sur X, selon @gtasix_",
@@ -7866,6 +7923,11 @@
    "at": "2026-11-28T00:12:57+01:00",
    "label": "Passage Claude Haiku (Matière X, veille 2 h)",
    "summary": "3 sujets ajoutés, un seul compte chacun, Rumeur : astuce d'argent de @gtasix_ (93 060 vues), Ned Luke répond à un fan « woke » (24 383 vues), maison de Floride façon Key Lento en vente (21 574 vues). Non retenus : Dom Toretto (9 770 vues), Scarface (8 860), Reed Timmer (8 519), influenceurs IA (5 831), scooter (5 752) : sous le seuil de 20 000 vues, un seul compte."
+  },
+  {
+   "at": "2026-11-28T08:12:46+01:00",
+   "label": "Passage Claude Haiku (Matière X, veille 2 h)",
+   "summary": "3 sujets ajoutés, un seul compte chacun, Rumeur : modders qui remplacent Lucia par Mandy sur PS5 jailbreakées (100 960 vues, @GTAVI_Countdown), arbres qui brûlent après la foudre (34 193 vues, @GTAVI_Countdown), influenceurs IA modelés sur Lucia (24 346 vues, @GTAlphaintel). Non retenus (plafond de 3 par passage) : trottinette de la vieille dame (20 469 vues, @GTAVI_Countdown) ; sous le seuil de 20 000 vues, un seul compte : chaînes à tronçonneuse chez Rockstar (15 467), Reed Timmer (17 231), Scarface (14 596)."
   }
  ],
  "coverage": {
